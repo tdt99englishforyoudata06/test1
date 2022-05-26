@@ -1,0 +1,672 @@
+[
+    {
+        "text": "We're talking about a problem involving putting numbers into boxes and other shapes.",
+        "start": 0.0,
+        "duration": 4.5
+    },
+    {
+        "text": "And the shape is an arrangement of boxes that looks something like this.",
+        "start": 4.5,
+        "duration": 4.56
+    },
+    {
+        "text": "And I've got a certain number of boxes in the first row,",
+        "start": 9.06,
+        "duration": 2.52
+    },
+    {
+        "text": "so I have four boxes in the first row, and two in the second row, and one in the third row.",
+        "start": 11.58,
+        "duration": 4.98
+    },
+    {
+        "text": "And the rule is that these numbers must be decreasing.",
+        "start": 16.56,
+        "duration": 2.38
+    },
+    {
+        "text": "And the second rule is that the boxes are left-justified.",
+        "start": 18.94,
+        "duration": 3.56
+    },
+    {
+        "text": "And that's it! That's the rule. A simple example would be this, here's a square.",
+        "start": 22.5,
+        "duration": 4.98
+    },
+    {
+        "text": "Three boxes in the first row, three in the second row, and three in the third row.",
+        "start": 27.48,
+        "duration": 3.52
+    },
+    {
+        "text": "The number of boxes in two rows can be the same.",
+        "start": 31.0,
+        "duration": 3.88
+    },
+    {
+        "text": "Another example of a shape would be something like this. This is something we call a staircase.",
+        "start": 34.88,
+        "duration": 5.0
+    },
+    {
+        "text": "Four, and three, and two, and one.",
+        "start": 39.88,
+        "duration": 2.78
+    },
+    {
+        "text": "Another shape that's kind of interesting, it turns out, for my purposes,",
+        "start": 42.66,
+        "duration": 3.34
+    },
+    {
+        "text": "is where I have two rows of the same length.",
+        "start": 46.0,
+        "duration": 2.88
+    },
+    {
+        "text": "This would be the shape (6,6).",
+        "start": 48.88,
+        "duration": 2.44
+    },
+    {
+        "text": "Why don't we put numbers in them?",
+        "start": 51.32,
+        "duration": 1.38
+    },
+    {
+        "text": "And so maybe I can even do it with these shapes and show you exactly what we do.",
+        "start": 52.7,
+        "duration": 3.74
+    },
+    {
+        "text": "So, in this first shape, we have seven boxes altogether, so I take the numbers 1–7.",
+        "start": 56.44,
+        "duration": 5.66
+    },
+    {
+        "text": "The rules are that the numbers must be increasing along rows and increasing down columns.",
+        "start": 62.1,
+        "duration": 5.7
+    },
+    {
+        "text": "So, 1-3-6 is increasing, 2-5 is increasing, and so forth. Those are the rules.",
+        "start": 67.8,
+        "duration": 4.86
+    },
+    {
+        "text": "This is called a Standard Young Tableau. Young is a person. Yes, that's right.",
+        "start": 72.66,
+        "duration": 3.82
+    },
+    {
+        "text": "While I'm at it, the word \"tableau\" just simply means \"an arrangement of numbers in a shape,\"",
+        "start": 76.48,
+        "duration": 4.54
+    },
+    {
+        "text": "with no rules satisfying them.",
+        "start": 81.02,
+        "duration": 2.0
+    },
+    {
+        "text": "For example, I can just do an example of a tableau that's not a Standard Young Tableau.",
+        "start": 83.02,
+        "duration": 5.08
+    },
+    {
+        "text": "I'll just put the 1 here, and the 2 here, and the 3 here, and the 4 here, and the 5 and the 6 and the 7...",
+        "start": 88.1,
+        "duration": 6.42
+    },
+    {
+        "text": "So, these numbers are not increasing along rows and increasing down columns.",
+        "start": 94.52,
+        "duration": 3.92
+    },
+    {
+        "text": "So that's just called a tableau.",
+        "start": 98.44,
+        "duration": 2.12
+    },
+    {
+        "text": "And we're gonna talk today about Standard Young Tableaux.",
+        "start": 100.56,
+        "duration": 2.88
+    },
+    {
+        "text": "Here, I'll make a Standard Tableau and actually, while I make it,",
+        "start": 103.44,
+        "duration": 2.86
+    },
+    {
+        "text": "it's sort of important to understand what I'm doing while I'm making it,",
+        "start": 106.3,
+        "duration": 3.22
+    },
+    {
+        "text": "because I have to put a 1 in the upper-left-hand corner, there's no choice about that.",
+        "start": 109.52,
+        "duration": 4.44
+    },
+    {
+        "text": "And then 2 has to go either here or here, I'll put it there.",
+        "start": 113.96,
+        "duration": 3.64
+    },
+    {
+        "text": "3 has to go either here or here at that point, I'll put it down here.",
+        "start": 117.6,
+        "duration": 3.84
+    },
+    {
+        "text": "Maybe 4 here, 5 here.",
+        "start": 121.44,
+        "duration": 3.06
+    },
+    {
+        "text": "And if I stop before I'm finished, you can see that what's happening is that I'm building the shape.",
+        "start": 124.5,
+        "duration": 4.52
+    },
+    {
+        "text": "The shape is the 3x3 square, but I'm building it up cell by cell.",
+        "start": 129.02,
+        "duration": 5.12
+    },
+    {
+        "text": "In terms of what I'm getting, it's a sequence of subshapes.",
+        "start": 134.14,
+        "duration": 3.8
+    },
+    {
+        "text": "So right now, what I've done, I've created a tableau of this shape.",
+        "start": 137.94,
+        "duration": 5.86
+    },
+    {
+        "text": "But I'll finish it up now, so 4, 5, 6, 7, 8, 9.",
+        "start": 143.8,
+        "duration": 4.34
+    },
+    {
+        "text": "So that's a Standard Tableau of that shape.",
+        "start": 148.14,
+        "duration": 2.18
+    },
+    {
+        "text": "I'll do one here quickly. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.",
+        "start": 150.32,
+        "duration": 5.5
+    },
+    {
+        "text": "And here, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.",
+        "start": 155.82,
+        "duration": 2.0
+    },
+    {
+        "text": "It's easy to do it because you just sort of build your way from the upper-left-hand corner",
+        "start": 163.9,
+        "duration": 4.22
+    },
+    {
+        "text": "down to the bottom right hand corner in this case.",
+        "start": 168.12,
+        "duration": 2.0
+    },
+    {
+        "text": "—Are these hard to make? Are there lots of them?",
+        "start": 170.12,
+        "duration": 2.38
+    },
+    {
+        "text": "Are they rare? Are Standard Young Tableaux common?",
+        "start": 172.5,
+        "duration": 2.98
+    },
+    {
+        "text": "—Well, that's a good question, because what I really want to talk about is how many there are.",
+        "start": 175.48,
+        "duration": 4.24
+    },
+    {
+        "text": "The problem of computing the number of Standard Tableaux.",
+        "start": 179.72,
+        "duration": 3.06
+    },
+    {
+        "text": "What's kind of amazing is that we know very exact and precise answers to that question.",
+        "start": 182.78,
+        "duration": 4.98
+    },
+    {
+        "text": "So, I'll tell you, for example, let's take this shape.",
+        "start": 187.76,
+        "duration": 2.86
+    },
+    {
+        "text": "The number of Standard Young Tableaux—I'll abbreviate it as SYT—is 42.",
+        "start": 190.62,
+        "duration": 6.54
+    },
+    {
+        "text": "So, I could systematically write down all 42 tableaux,",
+        "start": 197.16,
+        "duration": 4.74
+    },
+    {
+        "text": "and I could convince myself that was correct,",
+        "start": 201.9,
+        "duration": 2.66
+    },
+    {
+        "text": "but there's a formula for it, and the formula goes like this, and I'll show you how you do it.",
+        "start": 204.56,
+        "duration": 3.9
+    },
+    {
+        "text": "It's equal to, let's see, there's nine cells in this shape.",
+        "start": 208.46,
+        "duration": 4.06
+    },
+    {
+        "text": "So it's 9×8×7×6×5×4×3×2×1, divided by—that's 9!—and by the way,",
+        "start": 212.52,
+        "duration": 10.68
+    },
+    {
+        "text": "that's the number of ways of just filling this shape with the numbers in any manner whatsoever.",
+        "start": 223.2,
+        "duration": 4.84
+    },
+    {
+        "text": "So the total number of fillings of this shape—",
+        "start": 228.04,
+        "duration": 3.56
+    },
+    {
+        "text": "which is what we've called a tableau—",
+        "start": 231.6,
+        "duration": 2.4
+    },
+    {
+        "text": "is 9!—it's this very large number—because",
+        "start": 234.0,
+        "duration": 2.88
+    },
+    {
+        "text": "there's 9 choices for what to put here,",
+        "start": 237.08,
+        "duration": 2.92
+    },
+    {
+        "text": "and 8 for what to put there once you've decided on the first one,",
+        "start": 240.0,
+        "duration": 2.8
+    },
+    {
+        "text": "and 7 for what you put here once you've decided on these two, etc.",
+        "start": 242.8,
+        "duration": 4.14
+    },
+    {
+        "text": "So you get 9! quite easily.",
+        "start": 246.94,
+        "duration": 2.5
+    },
+    {
+        "text": "But if you require the rules to be satisfied,",
+        "start": 249.44,
+        "duration": 2.76
+    },
+    {
+        "text": "then the number has to be reduced by something,",
+        "start": 252.2,
+        "duration": 1.82
+    },
+    {
+        "text": "and I'm gonna tell you what exactly it has to be reduced by.",
+        "start": 254.02,
+        "duration": 2.78
+    },
+    {
+        "text": "First of all, you take this shape, and we fill it up with a bunch of other numbers,",
+        "start": 256.8,
+        "duration": 3.2
+    },
+    {
+        "text": "and the numbers are constructed this way:",
+        "start": 260.0,
+        "duration": 2.3
+    },
+    {
+        "text": "I put a 1 here, and then a 2, and then a 3, and then I go up, 4, and then 5,",
+        "start": 262.3,
+        "duration": 4.9
+    },
+    {
+        "text": "and then I go down, 4 and then 3, and then down, 2, and then up, 3,",
+        "start": 267.2,
+        "duration": 6.1
+    },
+    {
+        "text": "and I divide this by the product of all those numbers.",
+        "start": 273.3,
+        "duration": 3.5
+    },
+    {
+        "text": "And the ratio of these two numbers is the number of Standard Young Tableaux of this shape.",
+        "start": 276.8,
+        "duration": 5.92
+    },
+    {
+        "text": "Now let's just compute it. So these cancel...",
+        "start": 282.72,
+        "duration": 3.94
+    },
+    {
+        "text": "I've canceled everything and I see 3×2×7, which is 42.",
+        "start": 296.92,
+        "duration": 4.24
+    },
+    {
+        "text": "So that's how I got 42.",
+        "start": 301.16,
+        "duration": 1.84
+    },
+    {
+        "text": "—Now I guess the million-dollar question is what on earth are these numbers?",
+        "start": 303.0,
+        "duration": 4.04
+    },
+    {
+        "text": "—That's the question, the big question! Well, there are two questions.",
+        "start": 307.04,
+        "duration": 3.88
+    },
+    {
+        "text": "One, where did these numbers come from? They just came out of the blue!",
+        "start": 310.92,
+        "duration": 4.02
+    },
+    {
+        "text": "What's going on? And secondly, why is it true? And why is it true generally?",
+        "start": 314.94,
+        "duration": 4.2
+    },
+    {
+        "text": "So what's gonna happen is that not only have I shown you a formula for computing",
+        "start": 319.14,
+        "duration": 7.06
+    },
+    {
+        "text": "Standard Tableaux of shapes like this, but it's gonna work for any shape.",
+        "start": 326.2,
+        "duration": 4.44
+    },
+    {
+        "text": "So I have to tell you what these numbers are.",
+        "start": 330.64,
+        "duration": 1.86
+    },
+    {
+        "text": "These numbers are called the hook numbers.",
+        "start": 332.5,
+        "duration": 2.56
+    },
+    {
+        "text": "Hook numbers are the following: you have a shape—I'll do it sort of schematically first.",
+        "start": 335.22,
+        "duration": 6.66
+    },
+    {
+        "text": "Every cell has a hook number.",
+        "start": 341.88,
+        "duration": 2.8
+    },
+    {
+        "text": "You can see, for example, here. Every cell had a hook number.",
+        "start": 344.68,
+        "duration": 2.72
+    },
+    {
+        "text": "How did I get this hook number?",
+        "start": 347.4,
+        "duration": 2.0
+    },
+    {
+        "text": "The answer is that I first of all computed the hook associated with that cell.",
+        "start": 349.4,
+        "duration": 5.14
+    },
+    {
+        "text": "And the hook is everything that you get by going down from it,",
+        "start": 354.54,
+        "duration": 4.46
+    },
+    {
+        "text": "and to the right, and the square itself.",
+        "start": 359.0,
+        "duration": 4.0
+    },
+    {
+        "text": "So you get this sort of inverted-L-shaped thing, which we call a hook.",
+        "start": 363.0,
+        "duration": 6.04
+    },
+    {
+        "text": "So that's the hook associated with that cell.",
+        "start": 369.04,
+        "duration": 2.1
+    },
+    {
+        "text": "And so, for example, we can take this cell here. What's its hook number?",
+        "start": 371.14,
+        "duration": 4.86
+    },
+    {
+        "text": "Well, its hook consists of everything to the right and everything below,",
+        "start": 376.0,
+        "duration": 3.36
+    },
+    {
+        "text": "and so there are three cells altogether, so the hook number is 3.",
+        "start": 379.36,
+        "duration": 4.04
+    },
+    {
+        "text": "This has hook number 4, because I have one, two, three, four.",
+        "start": 383.4,
+        "duration": 3.82
+    },
+    {
+        "text": "This has hook number 5, so I have one, two, three, four, five, etc.",
+        "start": 387.22,
+        "duration": 3.44
+    },
+    {
+        "text": "So that's what I was doing when I went through that crazy process of filling the square up with numbers.",
+        "start": 390.66,
+        "duration": 5.36
+    },
+    {
+        "text": "I was computing the hook numbers.",
+        "start": 396.02,
+        "duration": 1.22
+    },
+    {
+        "text": "Actually, so the main result now is that for any shape—the kinds of shapes I was telling",
+        "start": 397.24,
+        "duration": 4.54
+    },
+    {
+        "text": "you about before, not just these special square shapes—the formula is exactly this.",
+        "start": 401.78,
+        "duration": 5.32
+    },
+    {
+        "text": "You take n!, where n is the number of cells, and divide it by the product of all the hook numbers.",
+        "start": 407.1,
+        "duration": 6.28
+    },
+    {
+        "text": "All right, so let's do one more example.",
+        "start": 413.38,
+        "duration": 2.36
+    },
+    {
+        "text": "Here's the shape. That's a (4,2,1) shape.",
+        "start": 415.74,
+        "duration": 2.84
+    },
+    {
+        "text": "Yes, exactly. Well first of all, n is 7.",
+        "start": 418.58,
+        "duration": 3.48
+    },
+    {
+        "text": "So the number of Standard Young Tableaux is going to be",
+        "start": 422.06,
+        "duration": 3.4
+    },
+    {
+        "text": "7×6×5×4×3×2×1 divided by the product of the hook lengths.",
+        "start": 425.46,
+        "duration": 7.98
+    },
+    {
+        "text": "So, what are they? I'm going to start putting the hook lengths in each cell.",
+        "start": 433.44,
+        "duration": 3.06
+    },
+    {
+        "text": "This is what we call a corner cell.",
+        "start": 436.5,
+        "duration": 1.6
+    },
+    {
+        "text": "Maybe I should use that term now, because it's going to come up again.",
+        "start": 438.1,
+        "duration": 3.12
+    },
+    {
+        "text": "It's a cell with hook length 1. Its hook number is 1.",
+        "start": 441.22,
+        "duration": 4.98
+    },
+    {
+        "text": "And that's a corner cell, and that's also a corner cell.",
+        "start": 446.2,
+        "duration": 3.42
+    },
+    {
+        "text": "This one has hook number 2,",
+        "start": 449.62,
+        "duration": 2.48
+    },
+    {
+        "text": "because the hook only goes to the right. There's two cells in it.",
+        "start": 452.1,
+        "duration": 3.08
+    },
+    {
+        "text": "This has hook number 4.",
+        "start": 455.18,
+        "duration": 2.0
+    },
+    {
+        "text": "This has hook number 3.",
+        "start": 457.18,
+        "duration": 2.0
+    },
+    {
+        "text": "This has hook number—what is it?—6.",
+        "start": 459.18,
+        "duration": 2.46
+    },
+    {
+        "text": "One, two, three, four, five, six.",
+        "start": 461.64,
+        "duration": 2.0
+    },
+    {
+        "text": "And so the formula says that I should take 7! and divide by 6×4×2×1×3×1×1.",
+        "start": 464.3,
+        "duration": 11.92
+    },
+    {
+        "text": "So let's do that computation. Cancel the 3's...",
+        "start": 476.22,
+        "duration": 3.98
+    },
+    {
+        "text": "Cancel the 4's, cancel the 2's, cancel the 6's.",
+        "start": 480.2,
+        "duration": 4.28
+    },
+    {
+        "text": "And it looks like we get 7×5, or 35.",
+        "start": 484.48,
+        "duration": 3.96
+    },
+    {
+        "text": "The number of Standard Young Tableaux of this shape is 35.",
+        "start": 488.44,
+        "duration": 3.24
+    },
+    {
+        "text": "—I'm always surprised by how high these numbers are for such simple shapes.",
+        "start": 491.68,
+        "duration": 3.48
+    },
+    {
+        "text": "—You asked a good question before. If you fix the number of cells, which ones are the biggest?",
+        "start": 495.16,
+        "duration": 5.26
+    },
+    {
+        "text": "Which ones give you the largest number?",
+        "start": 500.42,
+        "duration": 1.58
+    },
+    {
+        "text": "That's an interesting and rather difficult question",
+        "start": 502.0,
+        "duration": 2.84
+    },
+    {
+        "text": "that people do know the answer to,",
+        "start": 504.84,
+        "duration": 1.66
+    },
+    {
+        "text": "but it's too complicated to talk about today.",
+        "start": 506.5,
+        "duration": 3.14
+    },
+    {
+        "text": "—This video was filmed at the Mathematical Sciences Research Institute,",
+        "start": 510.78,
+        "duration": 4.22
+    },
+    {
+        "text": "in that room there actually, but the interview didn't stop here.",
+        "start": 515.0,
+        "duration": 4.08
+    },
+    {
+        "text": "If you'd like to go deeper into the world of tableaux and hook numbers,",
+        "start": 519.08,
+        "duration": 3.52
+    },
+    {
+        "text": "including some details about how to prove all this,",
+        "start": 522.6,
+        "duration": 2.74
+    },
+    {
+        "text": "the interview continues over at our second channel, Numberphile2.",
+        "start": 525.34,
+        "duration": 4.84
+    }
+]

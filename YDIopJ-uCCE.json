@@ -1,0 +1,1087 @@
+[
+    {
+        "text": "Thanks to Skillshare for supporting this episode\nof SciShow.",
+        "start": 0.12,
+        "duration": 2.64
+    },
+    {
+        "text": "[ ♪ INTRO ]",
+        "start": 2.76,
+        "duration": 9.6
+    },
+    {
+        "text": "I’ve lost count of how many times I’ve\nsaid this in SciShow videos over the years,",
+        "start": 12.42,
+        "duration": 4.28
+    },
+    {
+        "text": "but quantum mechanics is weird.",
+        "start": 16.7,
+        "duration": 2.66
+    },
+    {
+        "text": "There are particles that are waves, things\nin multiple places at once, cats that only",
+        "start": 19.36,
+        "duration": 4.65
+    },
+    {
+        "text": "decide whether they’re alive or dead when\nyou look at them…",
+        "start": 24.01,
+        "duration": 2.87
+    },
+    {
+        "text": "Quantum physics is so weird that you’d think\nit was discovered because of some super-complicated",
+        "start": 26.88,
+        "duration": 5.09
+    },
+    {
+        "text": "behavior of individual atoms or electrons\nor something, maybe involving a particle accelerator",
+        "start": 31.97,
+        "duration": 5.609
+    },
+    {
+        "text": "or two.",
+        "start": 37.579,
+        "duration": 1.0
+    },
+    {
+        "text": "But it was actually invented to explain ovens.",
+        "start": 38.579,
+        "duration": 3.48
+    },
+    {
+        "text": "Physicists were trying to figure out why hot\nthings glow, and glow differently at different",
+        "start": 42.059,
+        "duration": 4.971
+    },
+    {
+        "text": "temperatures — like why a blacksmith’s\niron glows red, or why the base of a candle",
+        "start": 47.03,
+        "duration": 4.719
+    },
+    {
+        "text": "flame is blue.",
+        "start": 51.749,
+        "duration": 1.121
+    },
+    {
+        "text": "It turned out that the best tool for studying\nthose questions was an oven with a hole in",
+        "start": 52.87,
+        "duration": 5.16
+    },
+    {
+        "text": "it.",
+        "start": 58.03,
+        "duration": 1.0
+    },
+    {
+        "text": "And when physicists started to work out the\nequations, their theories matched the oven",
+        "start": 59.03,
+        "duration": 3.36
+    },
+    {
+        "text": "measurements so badly that people started\ncalling it the “ultraviolet catastrophe.”",
+        "start": 62.39,
+        "duration": 5.68
+    },
+    {
+        "text": "Basically, ovens broke physics.",
+        "start": 68.07,
+        "duration": 2.57
+    },
+    {
+        "text": "The scientist who finally solved the problem\nthought his own solution was just a mathematical",
+        "start": 70.64,
+        "duration": 4.57
+    },
+    {
+        "text": "gimmick.",
+        "start": 75.21,
+        "duration": 1.0
+    },
+    {
+        "text": "Only years later did people realize he’d\nstumbled onto quantum mechanics.",
+        "start": 76.21,
+        "duration": 4.13
+    },
+    {
+        "text": "The story begins in the mid-19th century.",
+        "start": 80.34,
+        "duration": 2.66
+    },
+    {
+        "text": "Scientists already knew that when you heat\nup an object, it gives off electromagnetic",
+        "start": 83.0,
+        "duration": 3.27
+    },
+    {
+        "text": "radiation—energy in the form of visible\nlight, radio, ultraviolet, or other types",
+        "start": 86.27,
+        "duration": 4.6
+    },
+    {
+        "text": "of radiation on the electromagnetic spectrum.",
+        "start": 90.87,
+        "duration": 2.51
+    },
+    {
+        "text": "The challenge was figuring out how much, and\nat which colors and wavelengths.",
+        "start": 93.38,
+        "duration": 4.61
+    },
+    {
+        "text": "They had already observed that hotter objects\nglow bluer than colder objects—in other",
+        "start": 97.99,
+        "duration": 4.64
+    },
+    {
+        "text": "words, they emit shorter-wavelength radiation.",
+        "start": 102.63,
+        "duration": 2.84
+    },
+    {
+        "text": "But no one had captured that relationship\nwith equations yet.",
+        "start": 105.47,
+        "duration": 3.0
+    },
+    {
+        "text": "Of course, the exact intensity and mix of\nwavelengths you’ll see depends on what’s",
+        "start": 108.47,
+        "duration": 4.19
+    },
+    {
+        "text": "being heated.",
+        "start": 112.66,
+        "duration": 1.0
+    },
+    {
+        "text": "A molten glass rod will emit light, but at\nthe same time, some incoming light will pass",
+        "start": 113.66,
+        "duration": 4.78
+    },
+    {
+        "text": "through it or be reflected.",
+        "start": 118.44,
+        "duration": 1.61
+    },
+    {
+        "text": "And if you twist that rod, even some of the\nradiation it’s emitting might get reflected",
+        "start": 120.05,
+        "duration": 4.71
+    },
+    {
+        "text": "or scattered off other parts of the glass.",
+        "start": 124.76,
+        "duration": 2.11
+    },
+    {
+        "text": "But physicists like to simplify.",
+        "start": 126.87,
+        "duration": 1.88
+    },
+    {
+        "text": "They think first about idealized examples\nbefore they extrapolate to all the messy complications",
+        "start": 128.75,
+        "duration": 4.89
+    },
+    {
+        "text": "of the real world — assume a spherical cow\nin a vacuum, and stuff like that.",
+        "start": 133.64,
+        "duration": 4.73
+    },
+    {
+        "text": "So in 1860, a German physicist named Gustav\nKirchhoff came up with the spherical cow of",
+        "start": 138.37,
+        "duration": 5.38
+    },
+    {
+        "text": "radiation—the simplest possible case.",
+        "start": 143.75,
+        "duration": 2.63
+    },
+    {
+        "text": "He imagined an object where the only light\ncoming from it is the light emitted because",
+        "start": 146.38,
+        "duration": 4.279
+    },
+    {
+        "text": "of its temperature.",
+        "start": 150.659,
+        "duration": 1.09
+    },
+    {
+        "text": "In other words, it’s a perfect emitter.",
+        "start": 151.749,
+        "duration": 2.341
+    },
+    {
+        "text": "No incoming light is transmitted or reflected\n— it’s all absorbed and converted into",
+        "start": 154.09,
+        "duration": 4.679
+    },
+    {
+        "text": "heat.",
+        "start": 158.769,
+        "duration": 1.0
+    },
+    {
+        "text": "And the heat within the object is translated\nback into radiation that’s emitted.",
+        "start": 159.769,
+        "duration": 3.861
+    },
+    {
+        "text": "Kirchhoff called this imaginary object a black\nbody, since it doesn’t reflect or transmit",
+        "start": 163.63,
+        "duration": 4.91
+    },
+    {
+        "text": "any light.",
+        "start": 168.54,
+        "duration": 1.0
+    },
+    {
+        "text": "Ironically, black bodies are terrible at being\nblack.",
+        "start": 169.54,
+        "duration": 2.759
+    },
+    {
+        "text": "They’re only black at absolute zero; the\nwhole point is that when they’re heated,",
+        "start": 172.299,
+        "duration": 4.08
+    },
+    {
+        "text": "they glow.",
+        "start": 176.379,
+        "duration": 1.0
+    },
+    {
+        "text": "Anyway, Kirchhoff laid down a challenge to\nphysicists: measure and explain how the radiation",
+        "start": 177.379,
+        "duration": 5.071
+    },
+    {
+        "text": "given off by a black body, or black body radiation,\nvaries by wavelength and temperature.",
+        "start": 182.45,
+        "duration": 5.579
+    },
+    {
+        "text": "Over the next few decades, the scientific\ncommunity assembled a few key facts.",
+        "start": 188.029,
+        "duration": 3.66
+    },
+    {
+        "text": "One: heat causes the particles that make up\nmatter to vibrate, or oscillate, back and",
+        "start": 191.689,
+        "duration": 5.28
+    },
+    {
+        "text": "forth.",
+        "start": 196.969,
+        "duration": 1.0
+    },
+    {
+        "text": "Two: matter contains lots of positive and\nnegative electrical charges.",
+        "start": 197.969,
+        "duration": 3.251
+    },
+    {
+        "text": "And three: when you vibrate electrical charges,\nthey give off electromagnetic radiation.",
+        "start": 201.22,
+        "duration": 5.31
+    },
+    {
+        "text": "So it was a reasonable guess that the reason\nhot things glow is that the charges inside",
+        "start": 206.53,
+        "duration": 4.439
+    },
+    {
+        "text": "give off radiation as they vibrate from the\nheat.",
+        "start": 210.969,
+        "duration": 3.13
+    },
+    {
+        "text": "That hypothesis led to some real breakthroughs\nin the 1890s—but also some big head-scratchers.",
+        "start": 214.099,
+        "duration": 5.42
+    },
+    {
+        "text": "The first breakthrough came in 1896 from another\nGerman physicist, Wilhelm Wien, who made an",
+        "start": 219.519,
+        "duration": 5.821
+    },
+    {
+        "text": "assumption that was highly controversial.",
+        "start": 225.34,
+        "duration": 2.25
+    },
+    {
+        "text": "He suggested the particles doing the bouncing\nwere — wait for it — molecules.",
+        "start": 227.59,
+        "duration": 5.25
+    },
+    {
+        "text": "Molecular theory wasn’t fully accepted yet,\nso this was a bit of a leap.",
+        "start": 232.84,
+        "duration": 4.399
+    },
+    {
+        "text": "But by applying the laws of thermodynamics,\nWien came up with a plausible equation for",
+        "start": 237.239,
+        "duration": 4.671
+    },
+    {
+        "text": "how much radiation at each wavelength should\nbe given off by a bunch of hot molecules bouncing",
+        "start": 241.91,
+        "duration": 4.96
+    },
+    {
+        "text": "around.",
+        "start": 246.87,
+        "duration": 1.0
+    },
+    {
+        "text": "For any given temperature, as the wavelength\ndecreases — and the frequency increases",
+        "start": 247.87,
+        "duration": 3.689
+    },
+    {
+        "text": "— there’s a quick rise in the amount of\nradiation for that wavelength, then a gradual",
+        "start": 251.559,
+        "duration": 4.821
+    },
+    {
+        "text": "drop off.",
+        "start": 256.38,
+        "duration": 1.0
+    },
+    {
+        "text": "It matched all the empirical data…most of\nwhich, incidentally, had also been generated",
+        "start": 257.38,
+        "duration": 4.9
+    },
+    {
+        "text": "by German scientists.",
+        "start": 262.28,
+        "duration": 2.21
+    },
+    {
+        "text": "Everybody in this story is German.",
+        "start": 264.49,
+        "duration": 1.57
+    },
+    {
+        "text": "By 1899, Wien’s distribution law was looking\nreally solid!",
+        "start": 266.06,
+        "duration": 4.3
+    },
+    {
+        "text": "He even won a Nobel prize for his work in\n1911.",
+        "start": 270.36,
+        "duration": 2.82
+    },
+    {
+        "text": "But there was a big catch: true black bodies\ndon’t exist.",
+        "start": 273.18,
+        "duration": 3.5
+    },
+    {
+        "text": "So all those nicely behaved measurements of\nhunks of copper or containers of gas could",
+        "start": 276.68,
+        "duration": 5.44
+    },
+    {
+        "text": "have been messed up by complications from\ntransmission and reflection.",
+        "start": 282.12,
+        "duration": 3.66
+    },
+    {
+        "text": "Wien and his colleagues realized they could\nget better measurements with a closer approximation",
+        "start": 285.78,
+        "duration": 5.11
+    },
+    {
+        "text": "of a real black body: the inside of a totally\nenclosed oven, with a hole punched in the",
+        "start": 290.89,
+        "duration": 5.989
+    },
+    {
+        "text": "side.",
+        "start": 296.879,
+        "duration": 1.0
+    },
+    {
+        "text": "Almost all light that enters through that\nhole will just bounce around inside until",
+        "start": 297.879,
+        "duration": 3.63
+    },
+    {
+        "text": "it’s absorbed.",
+        "start": 301.509,
+        "duration": 1.0
+    },
+    {
+        "text": "So nearly all the radiation that spills out\nfrom the hole must have been generated by",
+        "start": 302.509,
+        "duration": 4.521
+    },
+    {
+        "text": "the heat inside.",
+        "start": 307.03,
+        "duration": 1.229
+    },
+    {
+        "text": "In 1899, just as people were getting psyched\nabout Wien’s distribution law, experimentalists",
+        "start": 308.259,
+        "duration": 5.101
+    },
+    {
+        "text": "— still German — reported new high-precision\nmeasurements using the oven method…and the",
+        "start": 313.36,
+        "duration": 5.369
+    },
+    {
+        "text": "news wasn’t good.",
+        "start": 318.729,
+        "duration": 1.561
+    },
+    {
+        "text": "Wien’s law still more or less fit for visible\nand ultraviolet light.",
+        "start": 320.29,
+        "duration": 4.08
+    },
+    {
+        "text": "But the further into the infrared the researchers\nlooked, the further off Wien’s law was.",
+        "start": 324.37,
+        "duration": 5.21
+    },
+    {
+        "text": "So it wasn’t so perfect after all.",
+        "start": 329.58,
+        "duration": 1.619
+    },
+    {
+        "text": "Now, there was another idea out there—an\nequation developed by the one non-German in",
+        "start": 331.199,
+        "duration": 5.12
+    },
+    {
+        "text": "this story.",
+        "start": 336.319,
+        "duration": 1.041
+    },
+    {
+        "text": "Over in England, John William Strutt, 3rd\nBaron Rayleigh — or just “Lord Rayleigh”",
+        "start": 337.36,
+        "duration": 4.35
+    },
+    {
+        "text": "for short — had already been questioning\nWien’s law on theoretical grounds.",
+        "start": 341.71,
+        "duration": 4.169
+    },
+    {
+        "text": "Rayleigh was fixated on a principle called\nthe equipartition theorem.",
+        "start": 345.879,
+        "duration": 3.831
+    },
+    {
+        "text": "That’s an idea from thermodynamics that\nenergy is very egalitarian: it likes to distribute",
+        "start": 349.71,
+        "duration": 5.29
+    },
+    {
+        "text": "itself equally among all available types of\nmotion.",
+        "start": 355.0,
+        "duration": 2.72
+    },
+    {
+        "text": "It’s kind of like what happens if you toss\na ping-pong ball into a box full of other",
+        "start": 357.72,
+        "duration": 4.18
+    },
+    {
+        "text": "ping-pong balls.",
+        "start": 361.9,
+        "duration": 1.079
+    },
+    {
+        "text": "You probably won’t end up with all the balls\njumping to the right, or spinning clockwise",
+        "start": 362.979,
+        "duration": 4.121
+    },
+    {
+        "text": "in tandem.",
+        "start": 367.1,
+        "duration": 1.0
+    },
+    {
+        "text": "Instead, you’ll see a pretty random distribution\nof directions of motion and spin.",
+        "start": 368.1,
+        "duration": 4.8
+    },
+    {
+        "text": "Rayleigh applied that concept to how heat\nenergy gets distributed between different",
+        "start": 372.9,
+        "duration": 3.87
+    },
+    {
+        "text": "wavelengths of radiation.",
+        "start": 376.77,
+        "duration": 1.06
+    },
+    {
+        "text": "He showed that according to equipartition,\neach wavelength where the waves fit perfectly",
+        "start": 377.83,
+        "duration": 4.739
+    },
+    {
+        "text": "between the walls of the oven should get an\nequal share of energy.",
+        "start": 382.569,
+        "duration": 3.701
+    },
+    {
+        "text": "Those wavelengths aren't evenly distributed\n— there are more short ones that fit perfectly",
+        "start": 386.27,
+        "duration": 3.929
+    },
+    {
+        "text": "than long ones—so the long-wavelength end\nof the spectrum still ends up dimmer.",
+        "start": 390.199,
+        "duration": 4.321
+    },
+    {
+        "text": "But the brightness of each wavelength should\nincrease in lockstep with the temperature.",
+        "start": 394.52,
+        "duration": 4.7
+    },
+    {
+        "text": "According to Wien's law, on the other hand,\nas the temperature rises, the brightness of",
+        "start": 399.22,
+        "duration": 3.9
+    },
+    {
+        "text": "the color yellow or any other wavelength should\nincrease at a slower and slower rate.",
+        "start": 403.12,
+        "duration": 4.81
+    },
+    {
+        "text": "And longer wavelengths stop brightening sooner.",
+        "start": 407.93,
+        "duration": 2.58
+    },
+    {
+        "text": "So the higher the temperature, the more longer\nwavelengths get cheated of their rightful",
+        "start": 410.51,
+        "duration": 3.98
+    },
+    {
+        "text": "share of energy.",
+        "start": 414.49,
+        "duration": 1.1
+    },
+    {
+        "text": "Rayleigh didn’t think the laws of physics\nwould short-change longer wavelengths like",
+        "start": 415.59,
+        "duration": 3.32
+    },
+    {
+        "text": "that — and as those precision measurements\nshowed, he was right!",
+        "start": 418.91,
+        "duration": 3.689
+    },
+    {
+        "text": "Instead, Rayleigh suggested a different formula\nbased directly on equipartition.",
+        "start": 422.599,
+        "duration": 4.841
+    },
+    {
+        "text": "According to his formula, a higher temperature\nalways makes all wavelengths of radiation",
+        "start": 427.44,
+        "duration": 4.969
+    },
+    {
+        "text": "brighter.",
+        "start": 432.409,
+        "duration": 1.0
+    },
+    {
+        "text": "Rayleigh’s proposal, now known as the Rayleigh-Jeans\nLaw, fit perfectly in exactly the part of",
+        "start": 433.409,
+        "duration": 4.001
+    },
+    {
+        "text": "the spectrum where Wien’s law failed!",
+        "start": 437.41,
+        "duration": 2.08
+    },
+    {
+        "text": "But even Rayleigh noticed there was a glaring\nproblem.",
+        "start": 439.49,
+        "duration": 2.63
+    },
+    {
+        "text": "The shorter the wavelengths you’re looking\nat, the easier it is to find wavelengths that",
+        "start": 442.12,
+        "duration": 3.949
+    },
+    {
+        "text": "fit perfectly between the oven walls.",
+        "start": 446.069,
+        "duration": 2.551
+    },
+    {
+        "text": "According to Rayleigh’s reasoning, that\nmeans there should be more wavelengths getting",
+        "start": 448.62,
+        "duration": 3.47
+    },
+    {
+        "text": "equal slices of energy in the ultraviolet,\nwhich has shorter wavelengths, than there",
+        "start": 452.09,
+        "duration": 4.5
+    },
+    {
+        "text": "are in the infrared, with its longer wavelengths.",
+        "start": 456.59,
+        "duration": 2.72
+    },
+    {
+        "text": "And the number of active wavelengths should\njust keep growing the further you look into",
+        "start": 459.31,
+        "duration": 4.34
+    },
+    {
+        "text": "the ultraviolet — which means the total\namount of energy in those wavelengths should",
+        "start": 463.65,
+        "duration": 4.269
+    },
+    {
+        "text": "just keep growing, too.",
+        "start": 467.919,
+        "duration": 2.12
+    },
+    {
+        "text": "Take that to its logical conclusion, and there\nshould be an infinite amount of ultraviolet",
+        "start": 470.039,
+        "duration": 4.0
+    },
+    {
+        "text": "light coming out of every object above absolute\nzero!",
+        "start": 474.039,
+        "duration": 2.65
+    },
+    {
+        "text": "That’s not what the experiments were finding.",
+        "start": 476.689,
+        "duration": 2.461
+    },
+    {
+        "text": "And it’s just, like, also obviously wrong.",
+        "start": 479.15,
+        "duration": 2.1
+    },
+    {
+        "text": "Like, you don’t turn on your stove and immediately\nsizzle into a sunburned crisp from an infinitely",
+        "start": 481.25,
+        "duration": 5.46
+    },
+    {
+        "text": "large blast of UV radiation, you’ve just\nexperienced.",
+        "start": 486.71,
+        "duration": 3.09
+    },
+    {
+        "text": "This absurd prediction of the theory is what\nearned the title “the ultraviolet catastrophe.”",
+        "start": 489.8,
+        "duration": 5.209
+    },
+    {
+        "text": "So physicists were stuck, which happens every\nonce in a while.",
+        "start": 495.009,
+        "duration": 4.31
+    },
+    {
+        "text": "On the one hand, they had Wien’s law, which\nseemed theoretically sound and worked well",
+        "start": 499.319,
+        "duration": 4.591
+    },
+    {
+        "text": "at short wavelengths but didn’t match reality\non the long end.",
+        "start": 503.91,
+        "duration": 3.249
+    },
+    {
+        "text": "On the other hand, there was the Rayleigh-Jeans\nLaw, which was theoretically sound and worked",
+        "start": 507.159,
+        "duration": 4.211
+    },
+    {
+        "text": "for long wavelengths, but was catastrophically\nnonsensical for short wavelengths.",
+        "start": 511.37,
+        "duration": 4.609
+    },
+    {
+        "text": "Not to mention that the two supposedly theoretically\nsound theories didn’t agree with each other!",
+        "start": 515.979,
+        "duration": 6.0
+    },
+    {
+        "text": "Some assumptions somewhere had to be deeply\nbroken.",
+        "start": 521.979,
+        "duration": 3.261
+    },
+    {
+        "text": "Enter the hero of our story—Max Planck,\nthe savior of physics.",
+        "start": 525.24,
+        "duration": 4.41
+    },
+    {
+        "text": "Bet you can’t guess what country he was\nfrom.",
+        "start": 529.65,
+        "duration": 2.78
+    },
+    {
+        "text": "Planck found a way to stitch the two curves\ntogether.",
+        "start": 532.43,
+        "duration": 2.49
+    },
+    {
+        "text": "He didn’t have any particular justification\nfor why the equation should look that way…he",
+        "start": 534.92,
+        "duration": 4.71
+    },
+    {
+        "text": "literally just tossed in an extra minus-one\nbecause that way it looked like Wien’s law",
+        "start": 539.63,
+        "duration": 4.79
+    },
+    {
+        "text": "at short wavelengths and like Rayleigh’s\nat longer ones.",
+        "start": 544.42,
+        "duration": 2.53
+    },
+    {
+        "text": "It’s like when you have no idea what the\nclue for 16 Down is supposed to mean, but",
+        "start": 546.95,
+        "duration": 4.031
+    },
+    {
+        "text": "if you squint at the words around it in the\npuzzle you can make a decent guess.",
+        "start": 550.981,
+        "duration": 3.728
+    },
+    {
+        "text": "Planck’s guess fit the data perfectly.",
+        "start": 554.709,
+        "duration": 2.171
+    },
+    {
+        "text": "For all wavelengths.",
+        "start": 556.88,
+        "duration": 1.79
+    },
+    {
+        "text": "Scientists finally had their answer to Kirchhoff’s\nchallenge!",
+        "start": 558.67,
+        "duration": 2.65
+    },
+    {
+        "text": "Which left Planck…well, really disturbed,\nactually.",
+        "start": 561.32,
+        "duration": 3.59
+    },
+    {
+        "text": "Because sure, his equation worked, but he\nhad no idea why.",
+        "start": 564.91,
+        "duration": 4.09
+    },
+    {
+        "text": "But after about two months of studying this,\nhe realized that the formula made total sense",
+        "start": 569.0,
+        "duration": 4.24
+    },
+    {
+        "text": "— if oscillating charges could only gain\nor lose energy in fixed-size chunks.",
+        "start": 573.24,
+        "duration": 5.85
+    },
+    {
+        "text": "Planck noticed that his law had an interesting\ninterpretation: it led to another equation",
+        "start": 579.09,
+        "duration": 5.23
+    },
+    {
+        "text": "that seemed to express the number of ways\nyou could distribute heat energy among all",
+        "start": 584.32,
+        "duration": 4.99
+    },
+    {
+        "text": "the oscillating charges in the oven.",
+        "start": 589.31,
+        "duration": 1.84
+    },
+    {
+        "text": "This interpretation relied on the math for\nhow many ways there are to put, say, 10 balloons",
+        "start": 591.15,
+        "duration": 4.47
+    },
+    {
+        "text": "into 4 groups.",
+        "start": 595.62,
+        "duration": 1.0
+    },
+    {
+        "text": "But the equation for that only makes sense\nif you’re talking in whole numbers.",
+        "start": 596.62,
+        "duration": 2.71
+    },
+    {
+        "text": "You can’t out one balloon into 2 different\ngroups.",
+        "start": 599.33,
+        "duration": 2.95
+    },
+    {
+        "text": "Because then you’ll just end up with a mess\nof shredded latex.",
+        "start": 602.28,
+        "duration": 2.91
+    },
+    {
+        "text": "So for the equation to make any sense, some\nof the terms have to be whole numbers.",
+        "start": 605.19,
+        "duration": 4.62
+    },
+    {
+        "text": "Planck wanted to interpret his law as describing\nhow heat could be distributed among oscillating",
+        "start": 609.81,
+        "duration": 4.7
+    },
+    {
+        "text": "charges.",
+        "start": 614.51,
+        "duration": 1.0
+    },
+    {
+        "text": "But he realized that for it to make sense,\nhe had to make an assumption like the one",
+        "start": 615.51,
+        "duration": 3.87
+    },
+    {
+        "text": "with the balloons: that energy is grouped\ninto discrete packets that have to stay whole",
+        "start": 619.38,
+        "duration": 4.61
+    },
+    {
+        "text": "— you can’t have half a packet!",
+        "start": 623.99,
+        "duration": 2.48
+    },
+    {
+        "text": "In other words, energy must be exchanged in\nsmall indivisible units, or quanta.",
+        "start": 626.47,
+        "duration": 5.34
+    },
+    {
+        "text": "All that complicated stuff about wave-particles\nand dead cats derives from this one core fact.",
+        "start": 631.81,
+        "duration": 6.07
+    },
+    {
+        "text": "Planck had just discovered quantum mechanics!",
+        "start": 637.88,
+        "duration": 3.37
+    },
+    {
+        "text": "…And nobody, not even Planck, noticed.",
+        "start": 641.25,
+        "duration": 3.07
+    },
+    {
+        "text": "No one appreciated how profound a shift this\nwas.",
+        "start": 644.32,
+        "duration": 3.18
+    },
+    {
+        "text": "In fact, Planck wasn’t even sure it was\ntrue.",
+        "start": 647.5,
+        "duration": 2.22
+    },
+    {
+        "text": "He later wrote that his discovery was, quote,\n“an act of despair,” and said that “a",
+        "start": 649.72,
+        "duration": 4.82
+    },
+    {
+        "text": "theoretical interpretation had to be found\nat any price, however high it might be.",
+        "start": 654.54,
+        "duration": 4.919
+    },
+    {
+        "text": "”",
+        "start": 659.459,
+        "duration": 1.0
+    },
+    {
+        "text": "His own solution seemed to him like just a\nmathematical cheat.",
+        "start": 660.459,
+        "duration": 2.061
+    },
+    {
+        "text": "It wasn’t until Einstein took another look\na few years later that he realized energy",
+        "start": 662.52,
+        "duration": 4.62
+    },
+    {
+        "text": "really did come in packets.",
+        "start": 667.14,
+        "duration": 2.08
+    },
+    {
+        "text": "Einstein conceived of radiation as a sort\nof cloud of little energy particles — what",
+        "start": 669.22,
+        "duration": 3.869
+    },
+    {
+        "text": "we now know as photons.",
+        "start": 673.089,
+        "duration": 1.211
+    },
+    {
+        "text": "And you might be thinking, Einstein wasn’t\nGerman!",
+        "start": 674.3,
+        "duration": 2.61
+    },
+    {
+        "text": "You said they were all German!",
+        "start": 676.91,
+        "duration": 1.0
+    },
+    {
+        "text": "He was born in Germany!",
+        "start": 677.91,
+        "duration": 1.0
+    },
+    {
+        "text": "By extension, all the atoms and electrons\nand other stuff must be gaining and losing",
+        "start": 678.91,
+        "duration": 4.04
+    },
+    {
+        "text": "energy by absorbing and emitting those particles.",
+        "start": 682.95,
+        "duration": 3.87
+    },
+    {
+        "text": "And all of quantum mechanics unfolded from\nthere.",
+        "start": 686.82,
+        "duration": 2.84
+    },
+    {
+        "text": "It’s strange to think that something as\nmundane as an oven could totally overhaul",
+        "start": 689.66,
+        "duration": 4.38
+    },
+    {
+        "text": "our understanding of the world.",
+        "start": 694.04,
+        "duration": 1.7
+    },
+    {
+        "text": "But that’s just how science works: if some\npart of the world, even a simple one, says",
+        "start": 695.74,
+        "duration": 3.89
+    },
+    {
+        "text": "no to your theory, you eventually have to\nstop fighting reality.",
+        "start": 699.63,
+        "duration": 4.459
+    },
+    {
+        "text": "Some assumption your theory makes must be\nwrong.",
+        "start": 704.089,
+        "duration": 3.24
+    },
+    {
+        "text": "Quantum mechanics saved physics from ovens—and\nnow we just have to accept that the universe",
+        "start": 707.329,
+        "duration": 5.5
+    },
+    {
+        "text": "is a weird, weird place.",
+        "start": 712.829,
+        "duration": 2.191
+    },
+    {
+        "text": "And while ovens are an important part of our\nweird universe, they’re a REALLY important",
+        "start": 715.02,
+        "duration": 4.67
+    },
+    {
+        "text": "part of baking delicious treats!",
+        "start": 719.69,
+        "duration": 1.68
+    },
+    {
+        "text": "In this Skillshare class on Easy and Versatile\nBaking, cookbook author and baker Julia Turshen",
+        "start": 721.37,
+        "duration": 4.74
+    },
+    {
+        "text": "teaches you how to make the one yeast dough\nyou need to make everything from jam buns",
+        "start": 726.11,
+        "duration": 4.63
+    },
+    {
+        "text": "to monkey bread.",
+        "start": 730.74,
+        "duration": 1.0
+    },
+    {
+        "text": "It’s getting cold where we are in Montana,\nso I’m ready for some hearty homemade bread.",
+        "start": 731.74,
+        "duration": 4.519
+    },
+    {
+        "text": "And right now, Skillshare is offering SciShow\nviewers 2 months of unlimited access to this",
+        "start": 736.259,
+        "duration": 4.811
+    },
+    {
+        "text": "class, as well as over 20,000 others for free!",
+        "start": 741.07,
+        "duration": 3.41
+    },
+    {
+        "text": "Just follow the link in the description to\ntake advantage of this offer.",
+        "start": 744.48,
+        "duration": 3.26
+    },
+    {
+        "text": "Make some bread!",
+        "start": 747.74,
+        "duration": 1.0
+    },
+    {
+        "text": "Learn to paint!",
+        "start": 748.74,
+        "duration": 1.0
+    },
+    {
+        "text": "Start a freelance career!",
+        "start": 749.74,
+        "duration": 2.659
+    },
+    {
+        "text": "Whatever you’re interested in, Skillshare\nprobably has a class for you.",
+        "start": 752.399,
+        "duration": 2.651
+    },
+    {
+        "text": "So check it out, and know that you’re supporting\nSciShow when you do, so thank you!",
+        "start": 755.05,
+        "duration": 3.77
+    },
+    {
+        "text": "[♪ OUTRO ]",
+        "start": 758.82,
+        "duration": 9.44
+    }
+]

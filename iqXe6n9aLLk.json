@@ -1,0 +1,3662 @@
+[
+    {
+        "text": "So I'm Guy McKhann: as I said I'm a neurosurgeon\nat Columbia. I one of the things I get to",
+        "start": 7.54,
+        "duration": 4.79
+    },
+    {
+        "text": "do is I specialize in awake brain surgery\nso I get to operate on patients while we're",
+        "start": 12.33,
+        "duration": 4.92
+    },
+    {
+        "text": "looking at their brain while they're awake\nwhile they're functioning. And the more you",
+        "start": 17.25,
+        "duration": 3.61
+    },
+    {
+        "text": "do that the more you realize how little we\nunderstand and actually know about the brain.",
+        "start": 20.86,
+        "duration": 4.5
+    },
+    {
+        "text": "So without further ado we're really privileged\nto have a tremendous group of participants.",
+        "start": 25.36,
+        "duration": 5.23
+    },
+    {
+        "text": "First we've got. Our first guest is professor\nof biomedical engineering and radiology at",
+        "start": 30.59,
+        "duration": 4.14
+    },
+    {
+        "text": "Columbia University a member of the Zuckerman\nmind brain behavior Institute and Kavli Institute",
+        "start": 34.73,
+        "duration": 5.47
+    },
+    {
+        "text": "for Brain Science.",
+        "start": 40.2,
+        "duration": 1.57
+    },
+    {
+        "text": "Please welcome Elizabeth Hillman.",
+        "start": 41.77,
+        "duration": 4.05
+    },
+    {
+        "text": "Our next participant is an assistant professor\nof psychiatry, neuroscience and physiology",
+        "start": 45.82,
+        "duration": 5.29
+    },
+    {
+        "text": "at the NYU Langone Medical Center who investigates\nthe neural circuitry of mating and aggression",
+        "start": 51.11,
+        "duration": 5.73
+    },
+    {
+        "text": "in mice.",
+        "start": 56.84,
+        "duration": 1.21
+    },
+    {
+        "text": "Please welcome Dayu Lin.",
+        "start": 58.05,
+        "duration": 4.42
+    },
+    {
+        "text": "Also joining us is a neuroscientist and psychiatrist\nat Weill Cornell Medical College as a psychiatrist",
+        "start": 62.47,
+        "duration": 5.77
+    },
+    {
+        "text": "specializing in the treatment of complex mood\ndisorders. Please say hello to Conor Liston.",
+        "start": 68.24,
+        "duration": 6.31
+    },
+    {
+        "text": "And our final participant is a neuroscientist,director\nof neuroscience at Cold Spring Harbor Laboratory",
+        "start": 74.55,
+        "duration": 5.77
+    },
+    {
+        "text": "who is interested in how brain circuits give\nrise to behavior. Please welcome Tony Zador.",
+        "start": 80.32,
+        "duration": 6.69
+    },
+    {
+        "text": "So maybe first we could talk about a little\nbit the history of where did optogenetics",
+        "start": 87.01,
+        "duration": 4.84
+    },
+    {
+        "text": "come about from. Then you guys could talk\nabout using a little bit.",
+        "start": 91.85,
+        "duration": 5.49
+    },
+    {
+        "text": "So interestingly, actually the history of\noptogenetics can be traced back to an idea",
+        "start": 97.34,
+        "duration": 4.33
+    },
+    {
+        "text": "that Francis Crick, who's famous for the double\nhelical structure of DNA first came up with.",
+        "start": 101.67,
+        "duration": 7.01
+    },
+    {
+        "text": "He proposed that it would be really convenient\nif we could activate neurons with light. He",
+        "start": 108.68,
+        "duration": 5.211
+    },
+    {
+        "text": "proposed that something like 30 years ago.\nAnd it was people had tried different approaches",
+        "start": 113.891,
+        "duration": 7.359
+    },
+    {
+        "text": "and were developing different strategies for\ntrying to make it work and it was really the",
+        "start": 121.25,
+        "duration": 6.619
+    },
+    {
+        "text": "fortuitous recognition that a protein from\nalgae could be expressed in neurons and endow",
+        "start": 127.869,
+        "duration": 9.32
+    },
+    {
+        "text": "them with the ability to respond immediately\nto to to light. And that happened I guess",
+        "start": 137.189,
+        "duration": 7.19
+    },
+    {
+        "text": "about a little over ten years ago and it transformed\nhow we do neuroscience.",
+        "start": 144.379,
+        "duration": 4.821
+    },
+    {
+        "text": "When I started in neuroscience everything\nin terms of trying to understand behavior",
+        "start": 149.2,
+        "duration": 5.0
+    },
+    {
+        "text": "was correlational - we saw neurons fire and\nwe saw the behavior and we put them together",
+        "start": 154.2,
+        "duration": 7.319
+    },
+    {
+        "text": "and we of course all recognize that correlation\nis not causality, but with without the ability",
+        "start": 161.519,
+        "duration": 6.31
+    },
+    {
+        "text": "to sort of dissect out the circuits that were\nresponsible for the behavior, all we could",
+        "start": 167.829,
+        "duration": 5.05
+    },
+    {
+        "text": "do is keep trying to find those associations.\nAnd so that happened about I guess 2005 and",
+        "start": 172.879,
+        "duration": 6.87
+    },
+    {
+        "text": "within a couple of years lots of other, lots\nof labs it happened. It was a paper from Karl",
+        "start": 179.749,
+        "duration": 5.77
+    },
+    {
+        "text": "Deisseroth and Ed Boyden. And within a couple\nof years. Dozens and soon hundreds of labs",
+        "start": 185.519,
+        "duration": 5.64
+    },
+    {
+        "text": "were using it. So that's really the basic\nhistory.",
+        "start": 191.159,
+        "duration": 3.51
+    },
+    {
+        "text": "So Conor you spent time in Deisseroth lab\nbefore moving to Cornell so tell us about",
+        "start": 194.669,
+        "duration": 6.18
+    },
+    {
+        "text": "how you've gotten with optogenetics to what\nyou're doing with it, some of the potential",
+        "start": 200.849,
+        "duration": 4.82
+    },
+    {
+        "text": "applications as you see it within your world.",
+        "start": 205.669,
+        "duration": 2.761
+    },
+    {
+        "text": "Yeah. So as you guys heard I'm a psychiatrist\nclinically. And one of the things that really",
+        "start": 208.43,
+        "duration": 5.729
+    },
+    {
+        "text": "excites me about optogenetics is this potential\nopportunity to understand the neurobiological",
+        "start": 214.159,
+        "duration": 5.47
+    },
+    {
+        "text": "basis for mental health and mental illness\nand hopefully develop new treatments. And",
+        "start": 219.629,
+        "duration": 4.61
+    },
+    {
+        "text": "I think a big limitation in psychiatry is\nthat the drugs we use, I always like to emphasize",
+        "start": 224.239,
+        "duration": 5.62
+    },
+    {
+        "text": "that the drugs we use they do work and they've\nbeen a great benefit for a lot of people,",
+        "start": 229.859,
+        "duration": 4.621
+    },
+    {
+        "text": "but they're blunt tools, they bathe the brain\nand they change some aspects of brain function",
+        "start": 234.48,
+        "duration": 8.599
+    },
+    {
+        "text": "in a way that that helps but they probably\nhave lots of other unintended side effects.",
+        "start": 243.079,
+        "duration": 4.74
+    },
+    {
+        "text": "And optogenetics affords us this really unique\nopportunity to really precisely manipulate",
+        "start": 247.819,
+        "duration": 4.881
+    },
+    {
+        "text": "specific brain circuits, figure out what's\ngoing wrong and try to fix it. And that's",
+        "start": 252.7,
+        "duration": 5.599
+    },
+    {
+        "text": "that's one thing that really excites me.",
+        "start": 258.299,
+        "duration": 1.381
+    },
+    {
+        "text": "So give us give us an example of how you've\ndone that, a specific circuit that you've",
+        "start": 259.68,
+        "duration": 4.66
+    },
+    {
+        "text": "targeted and what you've been able to find\nfrom that.",
+        "start": 264.34,
+        "duration": 2.15
+    },
+    {
+        "text": "Yeah, so during my time at Stanford, this\nis like a collaborative work with several",
+        "start": 266.49,
+        "duration": 5.48
+    },
+    {
+        "text": "other investigators there, we were really\ninterested in understanding how the brain",
+        "start": 271.97,
+        "duration": 3.63
+    },
+    {
+        "text": "supports reward seeking behavior that's a\nthing that's obviously altered in the brains",
+        "start": 275.6,
+        "duration": 5.65
+    },
+    {
+        "text": "of many depressed patients. And we were able\nto precisely manipulate the activity patterns",
+        "start": 281.25,
+        "duration": 8.23
+    },
+    {
+        "text": "of specific cells in the region of the brain\ncalled the prefrontal cortex and begin to",
+        "start": 289.48,
+        "duration": 3.62
+    },
+    {
+        "text": "understand how, how it how it regulates the\nprocessing of reward related cues and motivates",
+        "start": 293.1,
+        "duration": 8.48
+    },
+    {
+        "text": "animals, and presumably something similar\nis happening in people's brains, motivates",
+        "start": 301.58,
+        "duration": 5.46
+    },
+    {
+        "text": "their their their desire to work to obtain\nrewards. And interestingly what we found looks",
+        "start": 307.04,
+        "duration": 8.22
+    },
+    {
+        "text": "a lot like what what goes wrong in the brains\nof depressed people there's this abnormal",
+        "start": 315.26,
+        "duration": 4.47
+    },
+    {
+        "text": "pattern of increased connectivity in this\nbrain circuit and that seems to be driving",
+        "start": 319.73,
+        "duration": 6.53
+    },
+    {
+        "text": "some of the the reward processing deficits\nthat these that these rats have and then possibly",
+        "start": 326.26,
+        "duration": 5.89
+    },
+    {
+        "text": "also people",
+        "start": 332.15,
+        "duration": 1.0
+    },
+    {
+        "text": "Dayu you're using a lot optogenetics so what\nare you using it for and what types of questions",
+        "start": 333.15,
+        "duration": 5.75
+    },
+    {
+        "text": "are you able to ask with optogenetics.",
+        "start": 338.9,
+        "duration": 3.13
+    },
+    {
+        "text": "Yeah. So I was lucky enough actually to be\nof the first person that will benefit from",
+        "start": 342.03,
+        "duration": 6.26
+    },
+    {
+        "text": "the optogenetics. I remember it was still\nin the days when there was a postdoc. And",
+        "start": 348.29,
+        "duration": 5.26
+    },
+    {
+        "text": "I had to say optogenetics, although it's a\nnew technique but the concept wise is is not",
+        "start": 353.55,
+        "duration": 7.13
+    },
+    {
+        "text": "new. In the sense that neuroscientist have\ntried very hard for centuries, of trying to",
+        "start": 360.68,
+        "duration": 7.38
+    },
+    {
+        "text": "manipulate the brains in order to see what\nhappened. So but the conventional manipulation",
+        "start": 368.06,
+        "duration": 6.09
+    },
+    {
+        "text": "is by passing some currents into the brain\nso the electrical stimulation and that's where",
+        "start": 374.15,
+        "duration": 5.78
+    },
+    {
+        "text": "I started when I trying to study the brain\nbefore the optogenetic era.",
+        "start": 379.93,
+        "duration": 4.99
+    },
+    {
+        "text": "Electrical stimulation, there is one deficit\nof that which is that neurons are not just",
+        "start": 384.92,
+        "duration": 6.76
+    },
+    {
+        "text": "a cell, which a ball, but they actually have\na lot of processes coming out. So when we",
+        "start": 391.68,
+        "duration": 5.031
+    },
+    {
+        "text": "electrically stimulate it we're not only stimulated\nto cell body this ball, but also all the processes",
+        "start": 396.711,
+        "duration": 7.019
+    },
+    {
+        "text": "coming from it. So potentially the cells which\nis a far away can also be activated because",
+        "start": 403.73,
+        "duration": 7.07
+    },
+    {
+        "text": "of this electric stimulation. And optogenetics\nis advantages because it allows you to really",
+        "start": 410.8,
+        "duration": 7.59
+    },
+    {
+        "text": "target the cells interesting without affecting\nthose cells it just sending processes to it.",
+        "start": 418.39,
+        "duration": 7.23
+    },
+    {
+        "text": "That's just the specificity that makes this\ntool really unique. And now we're putting",
+        "start": 425.62,
+        "duration": 5.56
+    },
+    {
+        "text": "optogenetics into those cells and stimulate.",
+        "start": 431.18,
+        "duration": 4.02
+    },
+    {
+        "text": "So why don't we look at it if we have the\naggression video first",
+        "start": 435.2,
+        "duration": 2.0
+    },
+    {
+        "text": "Yeah. So this is a mouse. There was this part\nof the brain. It's a very deep very Ventrell.",
+        "start": 437.2,
+        "duration": 4.61
+    },
+    {
+        "text": "And we turned down this area and you'll see\nthat he start to attack this glove. And he",
+        "start": 441.81,
+        "duration": 8.7
+    },
+    {
+        "text": "really you know that's not what mouse typically\ndo, so they don't usually attack with gloves",
+        "start": 450.51,
+        "duration": 6.47
+    },
+    {
+        "text": "but in this particular case when the light\nactivated it he repeatedly sinks his teeth",
+        "start": 456.98,
+        "duration": 6.69
+    },
+    {
+        "text": "into this glove. In fact when we take it out\nthis glove is in fact deflated. So and it's",
+        "start": 463.67,
+        "duration": 7.38
+    },
+    {
+        "text": "not only gloves. In fact that they would attack\nother conspecifics including a female mouse",
+        "start": 471.05,
+        "duration": 6.089
+    },
+    {
+        "text": "that a male will typically would not attack\nat all. So this inanimate object probably",
+        "start": 477.139,
+        "duration": 7.761
+    },
+    {
+        "text": "shows the extreme of misbehaviors that this\ncontrol of this area is just a turn on this",
+        "start": 484.9,
+        "duration": 7.29
+    },
+    {
+        "text": "attacking instinct immediately.",
+        "start": 492.19,
+        "duration": 1.44
+    },
+    {
+        "text": "So there's some specificity to the aggression.",
+        "start": 493.63,
+        "duration": 3.0
+    },
+    {
+        "text": "It does. It does. In fact, one of the big\nquestions that we are trying to ask in the",
+        "start": 496.63,
+        "duration": 4.12
+    },
+    {
+        "text": "lab is when we do activate this area, is this\njust a biting instinct or it's actually increasing",
+        "start": 500.75,
+        "duration": 6.35
+    },
+    {
+        "text": "this aggressive motivation. Of the animals\nand that's why we're designing different behavior",
+        "start": 507.1,
+        "duration": 5.679
+    },
+    {
+        "text": "task in order to dissociate this part. But\nthat's exactly to ask is it to just make them",
+        "start": 512.779,
+        "duration": 5.341
+    },
+    {
+        "text": "bite or actually they are become has this\nurge to aggress.",
+        "start": 518.12,
+        "duration": 4.0
+    },
+    {
+        "text": "Can you get them to attack a cat?",
+        "start": 522.12,
+        "duration": 4.55
+    },
+    {
+        "text": "I haven’t tried that, attack a cat or a\nrat.",
+        "start": 526.67,
+        "duration": 2.539
+    },
+    {
+        "text": "That's a much more complicated question.",
+        "start": 529.209,
+        "duration": 3.021
+    },
+    {
+        "text": "So all of you guys are talking about a technique\nwhere you're able to select out a very small",
+        "start": 532.23,
+        "duration": 5.849
+    },
+    {
+        "text": "specific part of the brain to try to isolate\nand look for behaviors. Now Elizabeth you've",
+        "start": 538.079,
+        "duration": 4.25
+    },
+    {
+        "text": "been focusing on the one hand on using imaging\ntechniques to look at much broader patterns",
+        "start": 542.329,
+        "duration": 5.51
+    },
+    {
+        "text": "of activity and larger connectivity patterns\nbetween the brain and even whole brain activity",
+        "start": 547.839,
+        "duration": 5.521
+    },
+    {
+        "text": "in various types of animals. Can you fill\nus in on some of the things you've been doing",
+        "start": 553.36,
+        "duration": 6.18
+    },
+    {
+        "text": "along those lines?",
+        "start": 559.54,
+        "duration": 1.169
+    },
+    {
+        "text": "We do a lot of technique development in the\nlab and I was trained as a physicist so I",
+        "start": 560.709,
+        "duration": 3.761
+    },
+    {
+        "text": "did a lot of optics and so you know these\ntechnologies when they come along they don't",
+        "start": 564.47,
+        "duration": 5.4
+    },
+    {
+        "text": "just come along, wonderful people conceive\nof them and piece them together but then using",
+        "start": 569.87,
+        "duration": 4.73
+    },
+    {
+        "text": "them and figuring out how to do that is really\nchallenging as well and that's a really important",
+        "start": 574.6,
+        "duration": 4.56
+    },
+    {
+        "text": "fact to hear so that little mouse had a thing\non its head and that was actually holding",
+        "start": 579.16,
+        "duration": 3.479
+    },
+    {
+        "text": "an optical fiber that was allowing you to\nput laser light into the actual brain to turn",
+        "start": 582.639,
+        "duration": 4.56
+    },
+    {
+        "text": "these cells on and off. And so in our work\nwhat we're really interested in you know how",
+        "start": 587.199,
+        "duration": 5.87
+    },
+    {
+        "text": "can you how can you do that better. I mean\nit's not just that you can turn cells on but",
+        "start": 593.069,
+        "duration": 5.151
+    },
+    {
+        "text": "you can actually turn cells off as well. And\nthe dream is to have many many different colors",
+        "start": 598.22,
+        "duration": 3.89
+    },
+    {
+        "text": "so that you can be very selectively turning\none thing on and turning one thing off. And",
+        "start": 602.11,
+        "duration": 5.13
+    },
+    {
+        "text": "that really lets you you know figure out what\npart each one of those things is playing",
+        "start": 607.24,
+        "duration": 5.18
+    },
+    {
+        "text": "I was thinking of the analogy of sort of what\nis my role in getting my kids out of the house",
+        "start": 612.42,
+        "duration": 3.609
+    },
+    {
+        "text": "in the morning. All right well how do you\ntell that you just throw me in there and make",
+        "start": 616.029,
+        "duration": 3.461
+    },
+    {
+        "text": "me flash. No but if you take me away and then\nsee what happens when I'm not there. You know",
+        "start": 619.49,
+        "duration": 4.19
+    },
+    {
+        "text": "it's quite, quite a helpful way of figuring\nout what it is exactly that I contribute.",
+        "start": 623.68,
+        "duration": 4.659
+    },
+    {
+        "text": "And so you know it's not that much actually",
+        "start": 628.339,
+        "duration": 4.901
+    },
+    {
+        "text": "But so so so figuring all of this out I mean\nfor me you know we do our own we do our own",
+        "start": 633.24,
+        "duration": 6.539
+    },
+    {
+        "text": "experiments as well and we'll talk about that\nmore. But but figuring out you know working",
+        "start": 639.779,
+        "duration": 4.91
+    },
+    {
+        "text": "working with you guys you know what exactly\nexperiment do you want to do. What behavior",
+        "start": 644.689,
+        "duration": 3.661
+    },
+    {
+        "text": "do you want to do. Now which areas of the\nbrain do we have to get to and how do we have",
+        "start": 648.35,
+        "duration": 3.339
+    },
+    {
+        "text": "to make that all work together so that we\ndon't have to have 10 lasers and all of this",
+        "start": 651.689,
+        "duration": 4.65
+    },
+    {
+        "text": "stuff happening at the same time as is one\nof the things that really gets me going. And",
+        "start": 656.339,
+        "duration": 4.891
+    },
+    {
+        "text": "then and then and then we combine that with\nimaging because you know what you've seen",
+        "start": 661.23,
+        "duration": 4.589
+    },
+    {
+        "text": "mostly there is is the read out you know you\nchange something in the brain and you look",
+        "start": 665.819,
+        "duration": 3.861
+    },
+    {
+        "text": "at the way that the person's actions change\nor the animal's actions change. But we can",
+        "start": 669.68,
+        "duration": 4.649
+    },
+    {
+        "text": "also simultaneously be looking at what effect\nthat has then on the firing of the other neurons.",
+        "start": 674.329,
+        "duration": 5.301
+    },
+    {
+        "text": "And so we do a lot of work trying to capture\nactivity at the level of a few cells at the",
+        "start": 679.63,
+        "duration": 5.84
+    },
+    {
+        "text": "level of the whole brain. We look at that\nactivity in flies and worms and and little",
+        "start": 685.47,
+        "duration": 6.27
+    },
+    {
+        "text": "fish. And then we also do it up at the scale\nof mice and then sort of project that up to",
+        "start": 691.74,
+        "duration": 5.38
+    },
+    {
+        "text": "the scale of the human brain cells.",
+        "start": 697.12,
+        "duration": 2.339
+    },
+    {
+        "text": "So this would be a good time to look at the\nvideo that you have in terms of patterns of",
+        "start": 699.459,
+        "duration": 4.38
+    },
+    {
+        "text": "activity because it's very different from\nexciting a few neurons with one fiber. You're",
+        "start": 703.839,
+        "duration": 4.142
+    },
+    {
+        "text": "looking at what the brain is doing spontaneously\nin its own pattern of pattern of activity.",
+        "start": 707.981,
+        "duration": 3.418
+    },
+    {
+        "text": "so this is work that we've been doing. All\nright to take takes a little bit of explaining.",
+        "start": 711.399,
+        "duration": 1.19
+    },
+    {
+        "text": "So what you're seeing here is actually that\nthe entire top surface of a mouse's brain",
+        "start": 712.589,
+        "duration": 4.411
+    },
+    {
+        "text": "and that reveals a whole ton of different\nareas of the brain that we can look at all",
+        "start": 717.0,
+        "duration": 4.11
+    },
+    {
+        "text": "at the same time. We're using something called\nG camp, which is a calcium sensitive fluorescent",
+        "start": 721.11,
+        "duration": 4.58
+    },
+    {
+        "text": "protein. So what we're just talking about\nwas optogenetics where you express based on",
+        "start": 725.69,
+        "duration": 5.589
+    },
+    {
+        "text": "the genetics of the cells you make the cell\nproduce this light sensitive protein. And",
+        "start": 731.279,
+        "duration": 4.591
+    },
+    {
+        "text": "one of the other major tools that has really\nrevolutionized neuroscience in the last five",
+        "start": 735.87,
+        "duration": 4.129
+    },
+    {
+        "text": "to 10 years has been these fluorescent proteins\nlike the glowing jellyfish that that you've",
+        "start": 739.999,
+        "duration": 5.18
+    },
+    {
+        "text": "probably seen or the newspapers with the glowing\nmice right.",
+        "start": 745.179,
+        "duration": 3.97
+    },
+    {
+        "text": "So these are calcium sensitive fluorophores\nwhich means that actually when the neurons",
+        "start": 749.149,
+        "duration": 4.011
+    },
+    {
+        "text": "fire that they actually flash and we can read\nthat out. OK so it's sort of the opposite.",
+        "start": 753.16,
+        "duration": 5.31
+    },
+    {
+        "text": "So anyway we've been observing this in the\nmice and we've found these amazing patterns",
+        "start": 758.47,
+        "duration": 4.119
+    },
+    {
+        "text": "of spontaneous activity that tick around in\nthe brain. And what I thought would be fun",
+        "start": 762.589,
+        "duration": 4.301
+    },
+    {
+        "text": "to show you today is that we do a lot of quantitative\nanalysis on this trying to understand the",
+        "start": 766.89,
+        "duration": 4.1
+    },
+    {
+        "text": "cadence of these patterns and the locations\nof these patterns and what do they mean and",
+        "start": 770.99,
+        "duration": 3.289
+    },
+    {
+        "text": "one of the things that we just were able to\ndo. If you go to the next slide. So we. We",
+        "start": 774.279,
+        "duration": 5.291
+    },
+    {
+        "text": "found that again it's hard to see with these\npatterns. So on the top left is just a still",
+        "start": 779.57,
+        "duration": 5.29
+    },
+    {
+        "text": "of these kind of weird patterns of activity\nthat we really see coursing through the whole",
+        "start": 784.86,
+        "duration": 3.49
+    },
+    {
+        "text": "brain.",
+        "start": 788.35,
+        "duration": 1.0
+    },
+    {
+        "text": "And we found that they were sort of coming\non and off in different regions of the brain.",
+        "start": 789.35,
+        "duration": 3.859
+    },
+    {
+        "text": "And so I'm going to play a play a movie here\nwhere what we've done is rather than just",
+        "start": 793.209,
+        "duration": 3.13
+    },
+    {
+        "text": "showing you the movie of these patterns that\nseem to kind of roll around in the brain because",
+        "start": 796.339,
+        "duration": 3.881
+    },
+    {
+        "text": "there's different regions that are lighting\nup one after the other. We've actually encoded",
+        "start": 800.22,
+        "duration": 4.039
+    },
+    {
+        "text": "them in color and also as notes on a piano.\nSo what you're going to hear is kind of what",
+        "start": 804.259,
+        "duration": 4.481
+    },
+    {
+        "text": "it sounds like in the brain of a mouse as\na mouse is just sitting there resting and",
+        "start": 808.74,
+        "duration": 4.319
+    },
+    {
+        "text": "this is over pretty much the entire surface\nof the brain so all the regions are responsible",
+        "start": 813.059,
+        "duration": 4.041
+    },
+    {
+        "text": "for seeing and hearing and motor actions.\nThis is all done by my student Nick here who",
+        "start": 817.1,
+        "duration": 6.169
+    },
+    {
+        "text": "is a biomedical engineer slash composer. So\nif you want to just click the. I'm not getting...",
+        "start": 823.269,
+        "duration": 10.491
+    },
+    {
+        "text": "there you go. So every time a region lights\nup you hear a note. Give it a second",
+        "start": 833.76,
+        "duration": 21.109
+    },
+    {
+        "text": "So we use this method just as a way to try\nto just really capture",
+        "start": 854.869,
+        "duration": 5.811
+    },
+    {
+        "text": "Is that fully automated?",
+        "start": 860.68,
+        "duration": 1.17
+    },
+    {
+        "text": "Sorry?",
+        "start": 861.85,
+        "duration": 1.0
+    },
+    {
+        "text": "Is the relationship between the brain activity\nand the music fully automated or.",
+        "start": 862.85,
+        "duration": 2.929
+    },
+    {
+        "text": "Yes this is actually using the NAM. Non-active\nmatrix factorization algorithm on this stator",
+        "start": 865.779,
+        "duration": 5.881
+    },
+    {
+        "text": "and then taking the factors and then putting\nthem into musical notes",
+        "start": 871.66,
+        "duration": 2.88
+    },
+    {
+        "text": "And then if you go to the next slide. So then",
+        "start": 874.54,
+        "duration": 2.839
+    },
+    {
+        "text": "Just before you go there, I would argue relative\nto what Tony Tony was saying before",
+        "start": 877.379,
+        "duration": 4.2
+    },
+    {
+        "text": "At rest, at least based on the music pattern\nthe mice are quite calm.",
+        "start": 881.579,
+        "duration": 5.19
+    },
+    {
+        "text": "Well after I started doing this analysis I\nremember I had a big grant on this that I",
+        "start": 886.769,
+        "duration": 4.55
+    },
+    {
+        "text": "submitted right before Thanksgiving and I\nwas sitting there in thanksgiving and I was",
+        "start": 891.319,
+        "duration": 4.18
+    },
+    {
+        "text": "I just kept feeling this rhythm of my brain\nyou know and thinking you know if I could",
+        "start": 895.499,
+        "duration": 5.59
+    },
+    {
+        "text": "just sort of calm down watch some television\nif I just watch you know 10 Things I hate",
+        "start": 901.089,
+        "duration": 3.24
+    },
+    {
+        "text": "about you one more time I thought maybe I\ncould get myself into this state. You know",
+        "start": 904.329,
+        "duration": 4.44
+    },
+    {
+        "text": "what I mean. And so this drew us onto to the\nnext part which is we then gave the animal",
+        "start": 908.769,
+        "duration": 4.891
+    },
+    {
+        "text": "caffeine.",
+        "start": 913.66,
+        "duration": 1.0
+    },
+    {
+        "text": "OK. So go to the next slide and play the movie\non the left so, it takes a minute.",
+        "start": 914.66,
+        "duration": 2.52
+    },
+    {
+        "text": "So we could we could play this music to a\nmouse listening to its own brain.",
+        "start": 917.18,
+        "duration": 3.599
+    },
+    {
+        "text": "We talked about that just recently actually\nif you can use that as a way to actually.",
+        "start": 920.779,
+        "duration": 1.261
+    },
+    {
+        "text": "So you want to quickly pay the caffeine one\nIt's not so different. It's a little faster.",
+        "start": 922.04,
+        "duration": 1.649
+    },
+    {
+        "text": "Has some gaps. Feels a little different.",
+        "start": 923.689,
+        "duration": 11.26
+    },
+    {
+        "text": "OK and then so we gave it ketamine. So ketamine\nis a drug Some people use it recreationally",
+        "start": 934.949,
+        "duration": 7.351
+    },
+    {
+        "text": "and they shouldn't. And it's an anesthetic\nwhich really makes you basically unconscious",
+        "start": 942.3,
+        "duration": 5.459
+    },
+    {
+        "text": "makes you high has various effects. Of making\nyou forget and so on. So that's the one on",
+        "start": 947.759,
+        "duration": 6.37
+    },
+    {
+        "text": "the right here and you'll see it has a really\nprofound effect.",
+        "start": 954.129,
+        "duration": 10.281
+    },
+    {
+        "text": "What's what's really interesting about this\nis that this is a very odd modality that we",
+        "start": 964.41,
+        "duration": 4.5
+    },
+    {
+        "text": "came up with. we actually just take the data\nusing LEDs and camera.. It's very low key",
+        "start": 968.91,
+        "duration": 5.169
+    },
+    {
+        "text": "compared to the really high tech stuff that\nwe also do in the lab. But the reason why",
+        "start": 974.079,
+        "duration": 4.531
+    },
+    {
+        "text": "I'm really excited about this is I think neuroscience\nfor a long time has zoomed really far in on",
+        "start": 978.61,
+        "duration": 5.169
+    },
+    {
+        "text": "just just the cells you know looking at single\ncells and how does cells interact with each",
+        "start": 983.779,
+        "duration": 3.99
+    },
+    {
+        "text": "other. And when we discovered this activity\nthat's really everywhere. It really changes",
+        "start": 987.769,
+        "duration": 5.231
+    },
+    {
+        "text": "the way that I'm now trying to think about\nyou know. The brain is just sort of talking",
+        "start": 993.0,
+        "duration": 4.619
+    },
+    {
+        "text": "to it. It's like the Internet. Right. It's\nnot just you and you sitting there it's you",
+        "start": 997.619,
+        "duration": 4.02
+    },
+    {
+        "text": "connected to all your Facebook friends and\nall of those things kind of interacting together",
+        "start": 1001.639,
+        "duration": 4.05
+    },
+    {
+        "text": "and so we're just dumb.",
+        "start": 1005.689,
+        "duration": 1.88
+    },
+    {
+        "text": "We're having fun with this of course but we're\nreally using this now to try to understand",
+        "start": 1007.569,
+        "duration": 4.81
+    },
+    {
+        "text": "how that sort of whole brain contributes to\nbehavior. And particularly here we think about",
+        "start": 1012.379,
+        "duration": 5.171
+    },
+    {
+        "text": "state so a state of being anxious a state\nof being calm. And really what does that look",
+        "start": 1017.55,
+        "duration": 6.189
+    },
+    {
+        "text": "like and then. How would each one of these\nreact differently if you presented it with",
+        "start": 1023.739,
+        "duration": 4.34
+    },
+    {
+        "text": "an aggressive glove.",
+        "start": 1028.079,
+        "duration": 1.481
+    },
+    {
+        "text": "So you're showing these amazing patterns of\nhow the brain connects and what connects to",
+        "start": 1029.56,
+        "duration": 5.74
+    },
+    {
+        "text": "what. You know Tony you've taken a totally\ndifferent approach to try to study major areas",
+        "start": 1035.3,
+        "duration": 6.37
+    },
+    {
+        "text": "and how what actually connects to what and\nhow we unravel that maybe can you can you",
+        "start": 1041.67,
+        "duration": 4.62
+    },
+    {
+        "text": "explain that for us.",
+        "start": 1046.29,
+        "duration": 1.0
+    },
+    {
+        "text": "Yeah so to sort of put it in perspective.\nWhen the when the optogenetics revolution",
+        "start": 1047.29,
+        "duration": 6.9
+    },
+    {
+        "text": "hit, my lab jumped in whole hog we were already\ntraining mice, or at that time rats, to perform",
+        "start": 1054.19,
+        "duration": 7.79
+    },
+    {
+        "text": "what we thought were cognitive tasks and we\ncould talk more about that. But we were training",
+        "start": 1061.98,
+        "duration": 4.33
+    },
+    {
+        "text": "them to listen to sounds and make decisions\nbased on the sounds they heard to get rewards.",
+        "start": 1066.31,
+        "duration": 6.12
+    },
+    {
+        "text": "And we were trying to understand the circuits\nthat were involved in making those decisions.",
+        "start": 1072.43,
+        "duration": 5.73
+    },
+    {
+        "text": "And we had identified certain subsets of neurons,\nusing optogenetics later we had gone beyond",
+        "start": 1078.16,
+        "duration": 5.13
+    },
+    {
+        "text": "simply recording the activity of these neurons\nand actually shown that one set of neurons,",
+        "start": 1083.29,
+        "duration": 5.63
+    },
+    {
+        "text": "turns out that project to the auditory striatum,\nwere actually really important in carrying",
+        "start": 1088.92,
+        "duration": 4.11
+    },
+    {
+        "text": "information about a sound toward driving movement.\nBut, what I realized from that was that you",
+        "start": 1093.03,
+        "duration": 7.01
+    },
+    {
+        "text": "know we can make guesses about the circuits\ninvolved and using optogenetics we can actually",
+        "start": 1100.04,
+        "duration": 7.73
+    },
+    {
+        "text": "test whether our guesses are right for the\nfirst time like we could test at the circuit",
+        "start": 1107.77,
+        "duration": 4.05
+    },
+    {
+        "text": "level which subset of neurons within a particular\narea are driving this behavior versus that",
+        "start": 1111.82,
+        "duration": 6.34
+    },
+    {
+        "text": "behavior and what roles they play.",
+        "start": 1118.16,
+        "duration": 1.87
+    },
+    {
+        "text": "But the problem was that, we just have to\nmake educated guesses. And one of my students",
+        "start": 1120.03,
+        "duration": 7.15
+    },
+    {
+        "text": "was really fantastic and made a really educated\nguess and guessed right. And chose this this",
+        "start": 1127.18,
+        "duration": 6.75
+    },
+    {
+        "text": "particular pathway. But other students made\nless successful guesses. And the cost of guessing",
+        "start": 1133.93,
+        "duration": 7.38
+    },
+    {
+        "text": "wrong is a couple years of work. You you do\na set of experiments and if you guessed wrong,",
+        "start": 1141.31,
+        "duration": 7.35
+    },
+    {
+        "text": "the answer was nope. That wasn't the right\nguess. And you learn very little",
+        "start": 1148.66,
+        "duration": 4.43
+    },
+    {
+        "text": "Time for a new career.",
+        "start": 1153.09,
+        "duration": 1.77
+    },
+    {
+        "text": "Not my career. As I told you I used to tell\npeople I still tell them who enter my lab",
+        "start": 1154.86,
+        "duration": 6.11
+    },
+    {
+        "text": "I quote from Shrek always there's a there's\na for those of you my son when he was younger",
+        "start": 1160.97,
+        "duration": 7.37
+    },
+    {
+        "text": "watched Shrek over and over again and there's\na scene where Lord Farquhar sends his knights",
+        "start": 1168.34,
+        "duration": 6.83
+    },
+    {
+        "text": "out to find the princess. And he says this\nmission is dangerous, many of you may die",
+        "start": 1175.17,
+        "duration": 6.74
+    },
+    {
+        "text": "but that's a risk I'm prepared to take. So,\nIf we guessed wrong there still ones who come",
+        "start": 1181.91,
+        "duration": 8.321
+    },
+    {
+        "text": "up empty handed. So anyway.",
+        "start": 1190.231,
+        "duration": 1.719
+    },
+    {
+        "text": "So how did you make it better for them?",
+        "start": 1191.95,
+        "duration": 2.26
+    },
+    {
+        "text": "So the so the idea was that we needed a way\nto to screen through the guesses. We needed",
+        "start": 1194.21,
+        "duration": 7.25
+    },
+    {
+        "text": "to know what the circuit was in order to know\nwhat was a reasonable guess. Knowing the circuit",
+        "start": 1201.46,
+        "duration": 5.76
+    },
+    {
+        "text": "would not tell us how it actually works but\nit would rule out all sorts of possibilities.",
+        "start": 1207.22,
+        "duration": 6.01
+    },
+    {
+        "text": "And the problem was that the tools that were\navailable were either not high enough resolution,",
+        "start": 1213.23,
+        "duration": 4.78
+    },
+    {
+        "text": "didn't have a single neuron resolution or\nthey were incredibly slow. So that what we",
+        "start": 1218.01,
+        "duration": 5.6
+    },
+    {
+        "text": "needed to know was whether there are neurons,\nlet's say in my case and the auditory cortex",
+        "start": 1223.61,
+        "duration": 5.05
+    },
+    {
+        "text": "that send their axons to this region and that\nregion and whether there are other neurons",
+        "start": 1228.66,
+        "duration": 4.5
+    },
+    {
+        "text": "that send their neurons here and there. And\nthe problem was there was no way of knowing",
+        "start": 1233.16,
+        "duration": 4.9
+    },
+    {
+        "text": "in sort of a high throughput way what the\nmillions and billions of neurons, well millions",
+        "start": 1238.06,
+        "duration": 7.07
+    },
+    {
+        "text": "and a mouse billions in a human where they\nsend their axons. And so the traditional methods",
+        "start": 1245.13,
+        "duration": 4.69
+    },
+    {
+        "text": "for asking those questions were all based\non microscopy. The typical high-resolution",
+        "start": 1249.82,
+        "duration": 6.75
+    },
+    {
+        "text": "method is to take one neuron in one animal\nfill it with with a fluorescent tracer or",
+        "start": 1256.57,
+        "duration": 5.76
+    },
+    {
+        "text": "some other kind of tracer and then track that\ntrace all throughout the brain. The problem",
+        "start": 1262.33,
+        "duration": 5.63
+    },
+    {
+        "text": "is…one neuron per mouse lots of neurons.\nThat's very slow. If you try to do more than",
+        "start": 1267.96,
+        "duration": 7.29
+    },
+    {
+        "text": "one neuron the problem is that the processes\nstart overlapping and you can't resolve where",
+        "start": 1275.25,
+        "duration": 6.65
+    },
+    {
+        "text": "the individual processes from these neurons\ngo.",
+        "start": 1281.9,
+        "duration": 3.49
+    },
+    {
+        "text": "And so the idea that I had eight years ago\nnow, but it's finally working was to replace",
+        "start": 1285.39,
+        "duration": 8.47
+    },
+    {
+        "text": "the usual way of visualizing the neurons,\nwhich is just to look at a fluorescent dye,",
+        "start": 1293.86,
+        "duration": 6.28
+    },
+    {
+        "text": "with\nwhat has turned out to be a fantastic marker",
+        "start": 1300.14,
+        "duration": 4.07
+    },
+    {
+        "text": "which is DNA or in fact RNA. So what we do\nis we, we cause each neuron to express a unique",
+        "start": 1304.21,
+        "duration": 9.68
+    },
+    {
+        "text": "random sequence of RNA which then gets transported\nall throughout the cell.",
+        "start": 1313.89,
+        "duration": 6.04
+    },
+    {
+        "text": "So but how do you do that why does a neuron\nwant, not want real neural RNA.",
+        "start": 1319.93,
+        "duration": 4.5
+    },
+    {
+        "text": "Yeah, in real life most neurons do not express\nrandom, in general, you don't have a lot of",
+        "start": 1324.43,
+        "duration": 6.55
+    },
+    {
+        "text": "random labels floating around your body. In\nfact the only case in our body that we know",
+        "start": 1330.98,
+        "duration": 3.92
+    },
+    {
+        "text": "of where we have random labels is your immune\nsystem where the genetic material gets scrambled",
+        "start": 1334.9,
+        "duration": 5.01
+    },
+    {
+        "text": "each time to make antibodies. So we thought\nabout actually trying, and we're still kind",
+        "start": 1339.91,
+        "duration": 3.84
+    },
+    {
+        "text": "of working on trying to trick neurons into\nscrambling their DNA, but an easier way to",
+        "start": 1343.75,
+        "duration": 4.02
+    },
+    {
+        "text": "do that is we can make viruses that are, that\neach express a unique random thirty nucleotide,",
+        "start": 1347.77,
+        "duration": 8.69
+    },
+    {
+        "text": "thirty letter string of DNA and then we just\nsquirt that into the brain and each neuron",
+        "start": 1356.46,
+        "duration": 7.93
+    },
+    {
+        "text": "takes up one viral particle. Sometimes they\ntake up two and we could talk about technically",
+        "start": 1364.39,
+        "duration": 4.58
+    },
+    {
+        "text": "whether it's not really a problem. And then\nthose, that it gets amplified within the neuron",
+        "start": 1368.97,
+        "duration": 6.71
+    },
+    {
+        "text": "and gets transported out to the axon.",
+        "start": 1375.68,
+        "duration": 2.18
+    },
+    {
+        "text": "So now we no longer have to carefully trace\neach little process, we can just use DNA sequencing",
+        "start": 1377.86,
+        "duration": 8.84
+    },
+    {
+        "text": "technology, which has transformed other fields\nof biology. We can just just piggyback off",
+        "start": 1386.7,
+        "duration": 6.96
+    },
+    {
+        "text": "of these tremendous advances in DNA sequencing\ntechnology which have driven the price of",
+        "start": 1393.66,
+        "duration": 5.08
+    },
+    {
+        "text": "sequencing our genome down to below a thousand\nbucks. We can we can use literally that same",
+        "start": 1398.74,
+        "duration": 5.71
+    },
+    {
+        "text": "technology to figure out where all these neurons\nproject. So we...",
+        "start": 1404.45,
+        "duration": 3.87
+    },
+    {
+        "text": "Every neuron has its owns its own individual..",
+        "start": 1408.32,
+        "duration": 2.31
+    },
+    {
+        "text": "Every neuron has its own individual label,\nand it actually I should have shown this picture.",
+        "start": 1410.63,
+        "duration": 6.63
+    },
+    {
+        "text": "It's inspired actually by an idea that scientists\nat Harvard, Josh Staines and Jeff Lichtman",
+        "start": 1417.26,
+        "duration": 5.77
+    },
+    {
+        "text": "came up with about 10 years ago, called ‘brainbow’\nwhere they cause each neuron to express not",
+        "start": 1423.03,
+        "duration": 5.53
+    },
+    {
+        "text": "one color but a rainbow of colors. And so\nbasically the idea is to replace a rainbow",
+        "start": 1428.56,
+        "duration": 4.96
+    },
+    {
+        "text": "of colors, it's hard to read out more than\na couple of colors so there wasn't such a",
+        "start": 1433.52,
+        "duration": 4.54
+    },
+    {
+        "text": "big win but it makes beautiful pictures, to\nreplace those with these sequences. And so",
+        "start": 1438.06,
+        "duration": 5.02
+    },
+    {
+        "text": "now what we do is we inject in to one sight\nin the brain or in fact we can now tile the",
+        "start": 1443.08,
+        "duration": 3.92
+    },
+    {
+        "text": "entire brain with this virus and figure out\nwhere all the neurons in the cortex project",
+        "start": 1447.0,
+        "duration": 7.77
+    },
+    {
+        "text": "to.",
+        "start": 1454.77,
+        "duration": 1.0
+    },
+    {
+        "text": "So in fact I was looking at your pictures\nand one of them, we were just now starting",
+        "start": 1455.77,
+        "duration": 2.48
+    },
+    {
+        "text": "to analyze this whole brain connectivity map\nand it turns out that there are sort of communities",
+        "start": 1458.25,
+        "duration": 6.14
+    },
+    {
+        "text": "of neurons that talk preferentially to each\nother. And in fact the the communities that",
+        "start": 1464.39,
+        "duration": 6.53
+    },
+    {
+        "text": "we find based on these connectivity actually\nare very reminiscent of the the sort of different",
+        "start": 1470.92,
+        "duration": 5.67
+    },
+    {
+        "text": "chords especially in the ketamine brain where\nit looks like there's there's sort of within",
+        "start": 1476.59,
+        "duration": 4.51
+    },
+    {
+        "text": "their community there's a lot of conversation\nand then it passes the message to the next",
+        "start": 1481.1,
+        "duration": 3.31
+    },
+    {
+        "text": "community.",
+        "start": 1484.41,
+        "duration": 1.0
+    },
+    {
+        "text": "So it's possible that you may be seeing with\nnerve axonal labeling some of the same things",
+        "start": 1485.41,
+        "duration": 4.26
+    },
+    {
+        "text": "I think actually the substrate for what you're\nseeing is precisely…",
+        "start": 1489.67,
+        "duration": 5.04
+    },
+    {
+        "text": "We should hang out.",
+        "start": 1494.71,
+        "duration": 1.12
+    },
+    {
+        "text": "Yeah.",
+        "start": 1495.83,
+        "duration": 1.0
+    },
+    {
+        "text": "So how do you say how do you take that to\nthe next or a different level and say Now",
+        "start": 1496.83,
+        "duration": 6.25
+    },
+    {
+        "text": "we know how things all communicate. How do\nyou start studying what's normal and what's",
+        "start": 1503.08,
+        "duration": 4.45
+    },
+    {
+        "text": "abnormal?",
+        "start": 1507.53,
+        "duration": 1.0
+    },
+    {
+        "text": "Right. So so the idea here is that we can\nnow for a couple thousand bucks figure out",
+        "start": 1508.53,
+        "duration": 6.51
+    },
+    {
+        "text": "the whole connectivity of our brain at, there\nare some issues about resolution. It's a single",
+        "start": 1515.04,
+        "duration": 7.12
+    },
+    {
+        "text": "neuron resolution but the spatial resolution\nis limited. We have some ideas and actually",
+        "start": 1522.16,
+        "duration": 6.49
+    },
+    {
+        "text": "we're working on methods that give you higher\nresolution. But the real interesting idea",
+        "start": 1528.65,
+        "duration": 3.76
+    },
+    {
+        "text": "is that we can now compare the wiring diagram\nof a normal mouse to a mouse that has a genetic",
+        "start": 1532.41,
+        "duration": 10.2
+    },
+    {
+        "text": "deficit that has been associated with the\nhuman disease. And there are now dozens or",
+        "start": 1542.61,
+        "duration": 4.29
+    },
+    {
+        "text": "hundreds of these mice these so-called animal\nmodels of autism and schizophrenia and depression.",
+        "start": 1546.9,
+        "duration": 7.49
+    },
+    {
+        "text": "So we know that that there are genes that\ncause that are associated with human conditions.",
+        "start": 1554.39,
+        "duration": 5.9
+    },
+    {
+        "text": "We know that when you put those when you disrupt\nthose genes in mice they disrupt behavior",
+        "start": 1560.29,
+        "duration": 5.41
+    },
+    {
+        "text": "in ways that are sometimes similar or sometimes\nnot. But in many cases we think that what's",
+        "start": 1565.7,
+        "duration": 6.57
+    },
+    {
+        "text": "going on is that disruption of those genes\ncauses some kind of change in the neural circuit.",
+        "start": 1572.27,
+        "duration": 6.92
+    },
+    {
+        "text": "But once again the traditional approach to\nfiguring out what that change is to take an",
+        "start": 1579.19,
+        "duration": 4.88
+    },
+    {
+        "text": "educated guess. Burn up a couple of grad students\nand if you guess right then... well but that",
+        "start": 1584.07,
+        "duration": 7.6
+    },
+    {
+        "text": "is how these things go it's incredibly frustrating.\nAnd so the idea is now we can we can actually",
+        "start": 1591.67,
+        "duration": 4.65
+    },
+    {
+        "text": "take one of these mice and say look here is\nthe disruption we're not sure which of these",
+        "start": 1596.32,
+        "duration": 5.62
+    },
+    {
+        "text": "disruptions are causal in the behavior. But\nthis totally sort of constrains the set of",
+        "start": 1601.94,
+        "duration": 5.66
+    },
+    {
+        "text": "hypotheses that now physiologists like me\nand the other people on this stage have to",
+        "start": 1607.6,
+        "duration": 6.31
+    },
+    {
+        "text": "consider.",
+        "start": 1613.91,
+        "duration": 1.0
+    },
+    {
+        "text": "So you're taking a lot of guesswork for the\ngrad students out of picking your project?",
+        "start": 1614.91,
+        "duration": 3.32
+    },
+    {
+        "text": "That's right. That's right that's really my\ngoal is to sacrifice fewer grad students on",
+        "start": 1618.23,
+        "duration": 5.12
+    },
+    {
+        "text": "the altar of bad guesses,",
+        "start": 1623.35,
+        "duration": 2.63
+    },
+    {
+        "text": "Which is very admirable. We would all agree",
+        "start": 1625.98,
+        "duration": 2.38
+    },
+    {
+        "text": "Connor. Connor you've taken a different approach\nto try to look at populations of neurons by",
+        "start": 1628.36,
+        "duration": 6.0
+    },
+    {
+        "text": "putting little prisms in the brain and combining\nit with optogenetics. Can you talk about that",
+        "start": 1634.36,
+        "duration": 4.71
+    },
+    {
+        "text": "and what it allows you to do that's different\nfrom traditional optogenetics.",
+        "start": 1639.07,
+        "duration": 4.94
+    },
+    {
+        "text": "Yes so this work is really similar to what\nElizabeth was just describing but it's kind",
+        "start": 1644.01,
+        "duration": 6.48
+    },
+    {
+        "text": "of on a more microscopic scale. So we're using\nthe same kind of calcium sensors that fluoresce",
+        "start": 1650.49,
+        "duration": 6.15
+    },
+    {
+        "text": "in proportion to their activity. Like you\nsaw on those beautiful videos that Elizabeth",
+        "start": 1656.64,
+        "duration": 4.91
+    },
+    {
+        "text": "showed us a few minutes ago. But we are looking\nwith single cell precision on a much smaller",
+        "start": 1661.55,
+        "duration": 7.68
+    },
+    {
+        "text": "area of the brain. One of the functions that\nwe're really interested in is working memory.",
+        "start": 1669.23,
+        "duration": 5.9
+    },
+    {
+        "text": "This basic kind of fundamental form of short\nterm memory that we all use all the time like",
+        "start": 1675.13,
+        "duration": 6.92
+    },
+    {
+        "text": "if we decided we wanted to take take a break\nnow and order some pizza. Working memory is",
+        "start": 1682.05,
+        "duration": 3.84
+    },
+    {
+        "text": "like what would enable us to kind of look\nup our favorite pizza place on your phone",
+        "start": 1685.89,
+        "duration": 3.59
+    },
+    {
+        "text": "and store the memory of the phone number long\nenough to dial it. But it goes away rapidly",
+        "start": 1689.48,
+        "duration": 6.97
+    },
+    {
+        "text": "It's already gone away with cell phones.",
+        "start": 1696.45,
+        "duration": 6.18
+    },
+    {
+        "text": "Yeah exactly.",
+        "start": 1702.63,
+        "duration": 2.04
+    },
+    {
+        "text": "Teamwork. And it's disrupted in depression\nand in schizophrenia and in many other psychiatric",
+        "start": 1704.67,
+        "duration": 6.72
+    },
+    {
+        "text": "conditions in different and interesting ways.\nSo we think it's kind of a fundamental process",
+        "start": 1711.39,
+        "duration": 4.72
+    },
+    {
+        "text": "we can show that,",
+        "start": 1716.11,
+        "duration": 1.05
+    },
+    {
+        "text": "Can we see this Video",
+        "start": 1717.16,
+        "duration": 1.69
+    },
+    {
+        "text": "that video. So so what you're seeing here\nare cells in the prefrontal cortex those black,",
+        "start": 1718.85,
+        "duration": 5.89
+    },
+    {
+        "text": "those black kind of bands are blood vessels.\nBut these are individual neurons, brain cells",
+        "start": 1724.74,
+        "duration": 6.02
+    },
+    {
+        "text": "that are expressing this this fluorescent\ncalcium sensor and that Starry Night effect",
+        "start": 1730.76,
+        "duration": 5.98
+    },
+    {
+        "text": "is basically a a readout of how active each\none of these cells is over time. And what",
+        "start": 1736.74,
+        "duration": 6.06
+    },
+    {
+        "text": "you what you don't see is that this mouse\nis awake and it's behaving it's performing",
+        "start": 1742.8,
+        "duration": 5.15
+    },
+    {
+        "text": "a working memory task while we're getting\nthis readout. And so what we hope to be able",
+        "start": 1747.95,
+        "duration": 5.91
+    },
+    {
+        "text": "to do is test hypotheses about how particular\ncell types in this image that you're seeing",
+        "start": 1753.86,
+        "duration": 7.27
+    },
+    {
+        "text": "here how they interact to encode and maintain\na trace of the working memory during a delayed",
+        "start": 1761.13,
+        "duration": 6.94
+    },
+    {
+        "text": "period during the time it would take us to\ndial the phone number in that analogy and",
+        "start": 1768.07,
+        "duration": 6.44
+    },
+    {
+        "text": "how these different cell types interact to\nimbue working memory with interesting properties.",
+        "start": 1774.51,
+        "duration": 4.46
+    },
+    {
+        "text": "And then once we understand that like like\nwe were just discussing a minute ago we can",
+        "start": 1778.97,
+        "duration": 6.28
+    },
+    {
+        "text": "we can formulate hypotheses, guesses and actually\ntest them using optogenetics to manipulate",
+        "start": 1785.25,
+        "duration": 6.12
+    },
+    {
+        "text": "the activity of specific cell types and and\ntest whether our predictions are actually",
+        "start": 1791.37,
+        "duration": 5.27
+    },
+    {
+        "text": "true or not.",
+        "start": 1796.64,
+        "duration": 1.66
+    },
+    {
+        "text": "So everybody here is using different animal\nmodels to study these things to try to come",
+        "start": 1798.3,
+        "duration": 5.37
+    },
+    {
+        "text": "up with information that can help us fundamentally\nunderstand human behavior. So maybe as a group,",
+        "start": 1803.67,
+        "duration": 5.72
+    },
+    {
+        "text": "whoever wants to can talk a little bit about\nabout how do we best do that. How do we best",
+        "start": 1809.39,
+        "duration": 4.14
+    },
+    {
+        "text": "do that in a way that we are minimizing the\nuse of animals, being compassionate in that",
+        "start": 1813.53,
+        "duration": 7.16
+    },
+    {
+        "text": "you know, but yet understanding what we need\nto understand. So what are your thoughts on",
+        "start": 1820.69,
+        "duration": 6.3
+    },
+    {
+        "text": "that?",
+        "start": 1826.99,
+        "duration": 1.0
+    },
+    {
+        "text": "We recently started using fruit flies and\nI don't feel bad about that at all.",
+        "start": 1827.99,
+        "duration": 6.52
+    },
+    {
+        "text": "So tell us what can you learn out of a fruit\nfly?",
+        "start": 1834.51,
+        "duration": 4.69
+    },
+    {
+        "text": "The beauty of the fruit fly model is that\nyou can breed them really really quick. And",
+        "start": 1839.2,
+        "duration": 5.7
+    },
+    {
+        "text": "so these genetic techniques now that are really\nat the core of neuroscience that let us label",
+        "start": 1844.9,
+        "duration": 5.93
+    },
+    {
+        "text": "the cells different colors and change them,\nintroduce genetic diseases, make them express",
+        "start": 1850.83,
+        "duration": 6.651
+    },
+    {
+        "text": "optogenetic options. You can do that in the\nspace of a week. You can just cross two flies",
+        "start": 1857.481,
+        "duration": 6.239
+    },
+    {
+        "text": "and then you have another fly and it's got\nrainbows in its brain and it does all this",
+        "start": 1863.72,
+        "duration": 3.74
+    },
+    {
+        "text": "stuff. For me what's really nice because I\nwhen I build microscopes is what you showed",
+        "start": 1867.46,
+        "duration": 3.91
+    },
+    {
+        "text": "what you saw there was about a ten millimeter\nfield of view which is what we need, but we",
+        "start": 1871.37,
+        "duration": 6.29
+    },
+    {
+        "text": "couldn't see single cells.",
+        "start": 1877.66,
+        "duration": 1.0
+    },
+    {
+        "text": "But if you if you have a fly's brain we can\nfit that whole thing within our microscopes",
+        "start": 1878.66,
+        "duration": 4.7
+    },
+    {
+        "text": "field of view and so we can see every single\ncell in the entire brain. And so we do these",
+        "start": 1883.36,
+        "duration": 4.56
+    },
+    {
+        "text": "completely crazy things where we get the fly\nand we actually have it walking on a ball",
+        "start": 1887.92,
+        "duration": 4.53
+    },
+    {
+        "text": "and we're imaging it's whole brain while it's\non a ball and then you can actually puff odors",
+        "start": 1892.45,
+        "duration": 4.63
+    },
+    {
+        "text": "and odors of lady flies and then you can see\nwhat it does. And you can see where it crawls",
+        "start": 1897.08,
+        "duration": 5.18
+    },
+    {
+        "text": "and then you're seeing all of this activity\nin the brain. You know as it's doing that",
+        "start": 1902.26,
+        "duration": 4.23
+    },
+    {
+        "text": "and so, are flies the same as humans ? Probably\nnot. They they can fly which we can't. So",
+        "start": 1906.49,
+        "duration": 6.71
+    },
+    {
+        "text": "I don't know.",
+        "start": 1913.2,
+        "duration": 2.33
+    },
+    {
+        "text": "What we're trying to do on so many different\nlevels is understand building blocks understand",
+        "start": 1915.53,
+        "duration": 5.24
+    },
+    {
+        "text": "basic principles understand you know how does\nbehavior emerge from all of these little cells",
+        "start": 1920.77,
+        "duration": 7.41
+    },
+    {
+        "text": "flashing on and off and so doing it in that\nsystem is a very efficient very good nice",
+        "start": 1928.18,
+        "duration": 5.55
+    },
+    {
+        "text": "way of understanding something at that level\nand then scaling it up so. So there's these",
+        "start": 1933.73,
+        "duration": 5.61
+    },
+    {
+        "text": "people in neuroscience working at every single\nlevel. What we really need to do is all talk",
+        "start": 1939.34,
+        "duration": 3.6
+    },
+    {
+        "text": "to each other and sort of piece together all\nof those clues. And we also do the maggot's",
+        "start": 1942.94,
+        "duration": 6.68
+    },
+    {
+        "text": "as well. I mean it's gross.",
+        "start": 1949.62,
+        "duration": 2.67
+    },
+    {
+        "text": "Dayu. Dayu, you showed us that you work on\naggression but you also work on maternal instinct",
+        "start": 1952.29,
+        "duration": 4.88
+    },
+    {
+        "text": "so another thing that's across the animal\nkingdom but that we all think of as an incredible",
+        "start": 1957.17,
+        "duration": 4.29
+    },
+    {
+        "text": "human thing but actually it's much across\nthe animal kingdom so maybe you could talk",
+        "start": 1961.46,
+        "duration": 5.59
+    },
+    {
+        "text": "to us about how you study that sort of thing\nwith something like optogenetics.",
+        "start": 1967.05,
+        "duration": 3.79
+    },
+    {
+        "text": "You know they are in my views a lot of social\nbehaviors instinctive behaviors that they're",
+        "start": 1970.84,
+        "duration": 5.219
+    },
+    {
+        "text": "all controlled by those ancient structures\nthat the mechanisms is very conserved. And",
+        "start": 1976.059,
+        "duration": 6.771
+    },
+    {
+        "text": "the maternal and paternal behaviors and in\nfact parental behaviors in general in fact",
+        "start": 1982.83,
+        "duration": 5.97
+    },
+    {
+        "text": "is also highly sexual dimorphism. I'm all\nfor them and I'm one of the regions we study",
+        "start": 1988.8,
+        "duration": 5.06
+    },
+    {
+        "text": "is controlling the maternal behaviors. So\nI to show you a video here just to say that",
+        "start": 1993.86,
+        "duration": 6.52
+    },
+    {
+        "text": "we are not only looking at the years which\nis fighting but also this is like just a heartwarming",
+        "start": 2000.38,
+        "duration": 5.23
+    },
+    {
+        "text": "videos and look at it.",
+        "start": 2005.61,
+        "duration": 1.78
+    },
+    {
+        "text": "So this was this is a virgin female that date\nshe doesn't really care about the pups so",
+        "start": 2007.39,
+        "duration": 5.88
+    },
+    {
+        "text": "much and she doesn't have much experience\nwith the pups. So this is called a sham sham",
+        "start": 2013.27,
+        "duration": 6.58
+    },
+    {
+        "text": "stimulation. In those imitation there were\njust the endless areas that we put a puppy",
+        "start": 2019.85,
+        "duration": 4.32
+    },
+    {
+        "text": "in the corner and she basically ignored the\npups. The pups is a whipping around probably",
+        "start": 2024.17,
+        "duration": 4.16
+    },
+    {
+        "text": "making other boys sound. Tried to get her\nattention. So. So this part will be sixty",
+        "start": 2028.33,
+        "duration": 5.9
+    },
+    {
+        "text": "seconds which I guess was just trying to convince\nyou that there's really nothing happened.",
+        "start": 2034.23,
+        "duration": 4.97
+    },
+    {
+        "text": "So now pay attention. So now we start to stimulate\nthis part of the brain Right here. And then.",
+        "start": 2039.2,
+        "duration": 8.25
+    },
+    {
+        "text": "Walked right out. And to bring the PAP .Back\nhome. So they are part of the brain regions",
+        "start": 2047.45,
+        "duration": 7.949
+    },
+    {
+        "text": "which are really just controlling those maternal\ninstincts when it turns out they should be",
+        "start": 2055.399,
+        "duration": 5.941
+    },
+    {
+        "text": "instamom mom.",
+        "start": 2061.34,
+        "duration": 1.569
+    },
+    {
+        "text": "So supermom do this all day long.",
+        "start": 2062.909,
+        "duration": 5.51
+    },
+    {
+        "text": "Yeah. So before we move because a lot of you\nguys are doing. Not just mouse modeling but",
+        "start": 2068.419,
+        "duration": 6.021
+    },
+    {
+        "text": "also doing human work too. Can you all comment\non because, because I don't know if anyone",
+        "start": 2074.44,
+        "duration": 4.02
+    },
+    {
+        "text": "here is actually working with it in addition\nto optogenetics out of the Deisseroth lab,",
+        "start": 2078.46,
+        "duration": 4.79
+    },
+    {
+        "text": "another great development has been this technique\nCLARITY, the ability to take the brain which",
+        "start": 2083.25,
+        "duration": 4.86
+    },
+    {
+        "text": "is in oblique structure and essentially turned\nit into a window pane. So can you all talk",
+        "start": 2088.11,
+        "duration": 6.97
+    },
+    {
+        "text": "about how you see that as a tool, the strength\nof it, and can you potentially merge it with",
+        "start": 2095.08,
+        "duration": 5.41
+    },
+    {
+        "text": "some of these other techniques?",
+        "start": 2100.49,
+        "duration": 2.879
+    },
+    {
+        "text": "Well I think that. So for those of you who\nhaven't heard there is a technique that allows,",
+        "start": 2103.369,
+        "duration": 5.75
+    },
+    {
+        "text": "so we'd like to see where all the neurons\nare we'd like to see how they're all connected,",
+        "start": 2109.119,
+        "duration": 4.991
+    },
+    {
+        "text": "and what limits it is the fact that the neurons\nare embedded in all sorts of fat and extracellular",
+        "start": 2114.11,
+        "duration": 6.74
+    },
+    {
+        "text": "stuff. And when you do microscopy it's very\ndifficult to see clearly what's going on.",
+        "start": 2120.85,
+        "duration": 5.45
+    },
+    {
+        "text": "And so for several decades people have been\ntrying various methods for clearing tissue",
+        "start": 2126.3,
+        "duration": 6.069
+    },
+    {
+        "text": "for making it transparent. And there have\nbeen a couple of major advances in the last",
+        "start": 2132.369,
+        "duration": 5.821
+    },
+    {
+        "text": "couple of years including the CLARITY technique\nfrom Deisseroth lab and some other techniques",
+        "start": 2138.19,
+        "duration": 8.27
+    },
+    {
+        "text": "that have made it much easier to see a lot\nof the brain clearly, to be able to image",
+        "start": 2146.46,
+        "duration": 6.281
+    },
+    {
+        "text": "down one to three millimeters in fact as the\nlimits now have less to do with the actual",
+        "start": 2152.741,
+        "duration": 7.599
+    },
+    {
+        "text": "tissue and more to do with microscopy.",
+        "start": 2160.34,
+        "duration": 4.11
+    },
+    {
+        "text": "I think that really is making it a lot easier\nto quickly see what the circuitry is how different",
+        "start": 2164.45,
+        "duration": 7.54
+    },
+    {
+        "text": "parts of the brain are connected, We’re\nusing sort of related techniques. In fact",
+        "start": 2171.99,
+        "duration": 6.04
+    },
+    {
+        "text": "we're using a technique developed by a guy\nnamed Ed Boyden at MIT which in some sense",
+        "start": 2178.03,
+        "duration": 8.8
+    },
+    {
+        "text": "goes one step further it allows you to not\nonly clear the tissue but simultaneously to",
+        "start": 2186.83,
+        "duration": 6.15
+    },
+    {
+        "text": "expand it. So some of the structures we're\ninterested in, it's called expansion microscopy",
+        "start": 2192.98,
+        "duration": 4.65
+    },
+    {
+        "text": "surprisingly enough. So some of the structures\nwe're interested in are below the resolution",
+        "start": 2197.63,
+        "duration": 5.48
+    },
+    {
+        "text": "of light and the usual approach to resolving\na structure that's below the resolution of",
+        "start": 2203.11,
+        "duration": 4.96
+    },
+    {
+        "text": "visible light is to use electron microscopy,\nwhich is a lot of work.",
+        "start": 2208.07,
+        "duration": 5.98
+    },
+    {
+        "text": "A lot of grad students.",
+        "start": 2214.05,
+        "duration": 1.9
+    },
+    {
+        "text": "It's more it's a, it's a it's a million dollar\nmachine and it's it's it's a nightmare at",
+        "start": 2215.95,
+        "duration": 8.121
+    },
+    {
+        "text": "least on this scale first for for applying\nelectron microscopy to sort of macroscopic",
+        "start": 2224.071,
+        "duration": 6.359
+    },
+    {
+        "text": "structures. And so what he had, I mean Ed\nis actually the co-developer of channel and",
+        "start": 2230.43,
+        "duration": 7.4
+    },
+    {
+        "text": "along with Karl Deisseroth, what Ed realized\nwas that instead of getting, making microscopy",
+        "start": 2237.83,
+        "duration": 7.8
+    },
+    {
+        "text": "better so you could see smaller things. It\nwould be just as good if you could make the",
+        "start": 2245.63,
+        "duration": 4.57
+    },
+    {
+        "text": "smaller things bigger. And so he developed\na technique that was really that was inspired",
+        "start": 2250.2,
+        "duration": 6.419
+    },
+    {
+        "text": "by and actually uses literally the stuff that\nthey make diapers out of. And you know how",
+        "start": 2256.619,
+        "duration": 6.881
+    },
+    {
+        "text": "you, for those of you who are familiar with\ndiapers you had liquid will say water to a",
+        "start": 2263.5,
+        "duration": 5.191
+    },
+    {
+        "text": "diaper and it expands. And so he imbeds this\nthis this diaper stuff in between the bits",
+        "start": 2268.691,
+        "duration": 10.059
+    },
+    {
+        "text": "of neuron and then binds every little protein\nto a bit of it and then expands every protein",
+        "start": 2278.75,
+        "duration": 8.67
+    },
+    {
+        "text": "isotropically in all directions. And so you\ncan get expansion factors that are two and",
+        "start": 2287.42,
+        "duration": 5.53
+    },
+    {
+        "text": "four and now even twenty times the original.\nSo you can take a synapse which is below the",
+        "start": 2292.95,
+        "duration": 5.56
+    },
+    {
+        "text": "resolution of light point below point two\nmicrons and make it a three micron, five micron",
+        "start": 2298.51,
+        "duration": 7.29
+    },
+    {
+        "text": "structure which we can easily resolve and\nI think that that technique is really on the",
+        "start": 2305.8,
+        "duration": 6.39
+    },
+    {
+        "text": "verge of transforming a lot of what we can\ndo.",
+        "start": 2312.19,
+        "duration": 2.41
+    },
+    {
+        "text": "Can think, you merge that?",
+        "start": 2314.6,
+        "duration": 1.77
+    },
+    {
+        "text": "So we are we are actively working with lab\nto merge our approach. So all of this just",
+        "start": 2316.37,
+        "duration": 5.98
+    },
+    {
+        "text": "to be clear is in fixed tissue and tissue\nfrom the brain and after it's out of the skulls.",
+        "start": 2322.35,
+        "duration": 7.36
+    },
+    {
+        "text": "Optogenetics is fantastic for working with\na live animal but then to figure out the circuitry",
+        "start": 2329.71,
+        "duration": 5.93
+    },
+    {
+        "text": "of that animal that what you have to do is\ntake it out and then use sort of these methods",
+        "start": 2335.64,
+        "duration": 4.74
+    },
+    {
+        "text": "so we are barcoding neurons in all the animals\nyou know regenerate to perform a task and",
+        "start": 2340.38,
+        "duration": 9.99
+    },
+    {
+        "text": "then we expand the tissue and do the sequencing\nin situ so we can actually sequence the barcodes",
+        "start": 2350.37,
+        "duration": 7.4
+    },
+    {
+        "text": "while the bar codes are still inside the brain\nand it gives us the spatial resolution to",
+        "start": 2357.77,
+        "duration": 5.14
+    },
+    {
+        "text": "actually see which barcodes are at a synapse\nand actually figure out which neurons are",
+        "start": 2362.91,
+        "duration": 3.22
+    },
+    {
+        "text": "connected to each other neurons. So there\nare some engineering issues, throughputs,",
+        "start": 2366.13,
+        "duration": 5.94
+    },
+    {
+        "text": "throughput issues but conceptually we can\nexpand an entire brain and figure out the",
+        "start": 2372.07,
+        "duration": 4.77
+    },
+    {
+        "text": "wiring diagram of an entire brain at synoptic\nresolution. And while we're at it we can also",
+        "start": 2376.84,
+        "duration": 5.42
+    },
+    {
+        "text": "figure out which genes are being expressed.\nSo this is, you know, one of one of the people",
+        "start": 2382.26,
+        "duration": 7.21
+    },
+    {
+        "text": "in Ed’s lab calls it the Rosetta project\nbecause basically we can figure out everything",
+        "start": 2389.47,
+        "duration": 4.94
+    },
+    {
+        "text": "about a brain all the way from activity while\nthe animal is performing a task, the behavior.",
+        "start": 2394.41,
+        "duration": 7.26
+    },
+    {
+        "text": "And then the circuitry and gene expression\nthat cause those things so that that's where",
+        "start": 2401.67,
+        "duration": 3.88
+    },
+    {
+        "text": "we're hoping to go with them.",
+        "start": 2405.55,
+        "duration": 2.24
+    },
+    {
+        "text": "That's pretty amazing to think about. So but\nas you say that's finding out everything about",
+        "start": 2407.79,
+        "duration": 5.66
+    },
+    {
+        "text": "a mouse brain.",
+        "start": 2413.45,
+        "duration": 1.0
+    },
+    {
+        "text": "Yeah.",
+        "start": 2414.45,
+        "duration": 1.0
+    },
+    {
+        "text": "So we're talking a lot about you know mouse\nmice have human behaviors and things. You",
+        "start": 2415.45,
+        "duration": 4.241
+    },
+    {
+        "text": "know, Elizabeth you talk a little bit that\nyou have done a very strong proponent of that",
+        "start": 2419.691,
+        "duration": 5.979
+    },
+    {
+        "text": "we've already got great human imaging techniques\nthat you're using. But also in humans in trying",
+        "start": 2425.67,
+        "duration": 6.62
+    },
+    {
+        "text": "to trying to study the differences and similarities\nand what we can gain more out of our MRI techniques",
+        "start": 2432.29,
+        "duration": 5.9
+    },
+    {
+        "text": "we already have and how you're going about\nthat and helping translate ideas.",
+        "start": 2438.19,
+        "duration": 4.94
+    },
+    {
+        "text": "Sure. So, so I touched on this a little bit\nbefore but you know anybody here had an MRI",
+        "start": 2443.13,
+        "duration": 9.26
+    },
+    {
+        "text": "scan? Have you ever volunteered for a functional\nMRI scan where they showed you how to do tasks",
+        "start": 2452.39,
+        "duration": 7.27
+    },
+    {
+        "text": "and things like this? OK. So I've done lots\nof them, I fall asleep I'm terrible subject.",
+        "start": 2459.66,
+        "duration": 5.95
+    },
+    {
+        "text": "So we, so you go into an MRI scanner it makes\nthis beautiful image of your brain. And what",
+        "start": 2465.61,
+        "duration": 6.16
+    },
+    {
+        "text": "they discovered about 30 years ago now is\nif you actually took a sequence of images",
+        "start": 2471.77,
+        "duration": 3.67
+    },
+    {
+        "text": "over time that you could see small changes\nin the signal in different regions of the",
+        "start": 2475.44,
+        "duration": 4.59
+    },
+    {
+        "text": "brain while you were doing things so like\nif you actually moved your hand you could",
+        "start": 2480.03,
+        "duration": 4.55
+    },
+    {
+        "text": "find a region of the brain that would have\nsome sort of correlated change in the MRI",
+        "start": 2484.58,
+        "duration": 4.47
+    },
+    {
+        "text": "signal while you were doing that task and\nwe call that BOLD, signal the blood oxygen",
+        "start": 2489.05,
+        "duration": 4.85
+    },
+    {
+        "text": "level dependent signal. And it's what generates\nthose beautiful movies images that you see",
+        "start": 2493.9,
+        "duration": 4.79
+    },
+    {
+        "text": "on the front of the New York Times saying\nthis is the area of the human brain that reacts",
+        "start": 2498.69,
+        "duration": 4.45
+    },
+    {
+        "text": "when you see a picture of a puppy or something.",
+        "start": 2503.14,
+        "duration": 1.43
+    },
+    {
+        "text": "The puppy area",
+        "start": 2504.57,
+        "duration": 1.23
+    },
+    {
+        "text": "And so you know I did my I did my postdoc\nup in Boston in one of the centers that actually",
+        "start": 2505.8,
+        "duration": 7.67
+    },
+    {
+        "text": "developed this method. And so right now you\nknow this is the best method that we have",
+        "start": 2513.47,
+        "duration": 4.74
+    },
+    {
+        "text": "for looking at the human brain. It's noninvasive,\nany one of you can go sit and do one of these",
+        "start": 2518.21,
+        "duration": 5.89
+    },
+    {
+        "text": "studies and pretend to be a mouse, you know\ntapping your fingers or being shown pictures.",
+        "start": 2524.1,
+        "duration": 5.61
+    },
+    {
+        "text": "And, and it does a pretty good job it points\nto this area here, this something happened",
+        "start": 2529.71,
+        "duration": 5.52
+    },
+    {
+        "text": "here. Right? The problem is that that signal\nactually comes about because there was a change",
+        "start": 2535.23,
+        "duration": 5.91
+    },
+    {
+        "text": "in blood flow in that area. So there's not\nreally a change in the MRI signal when a neuron",
+        "start": 2541.14,
+        "duration": 5.479
+    },
+    {
+        "text": "fires but there's a change in the magnetic\nproperties of blood when it becomes oxygenated",
+        "start": 2546.619,
+        "duration": 5.661
+    },
+    {
+        "text": "or deoxygenated. And so that little signal\nchange that you see is actually coming from",
+        "start": 2552.28,
+        "duration": 4.23
+    },
+    {
+        "text": "a change in blood flow to the area. And that's\nwhy it gets a little bit confusing because",
+        "start": 2556.51,
+        "duration": 5.65
+    },
+    {
+        "text": "it's a little slower than the neural activity\nbecause it takes a while for blood flow to",
+        "start": 2562.16,
+        "duration": 3.37
+    },
+    {
+        "text": "change after neurons fire.",
+        "start": 2565.53,
+        "duration": 2.329
+    },
+    {
+        "text": "And so I've spent, in addition to the other\nwork I've done, I spent a long time studying",
+        "start": 2567.859,
+        "duration": 4.941
+    },
+    {
+        "text": "this the relationship between neural activity\nin the brain and the blood flow activity that",
+        "start": 2572.8,
+        "duration": 4.78
+    },
+    {
+        "text": "that kind of accompanies it. Partly initially\nto help with understanding those fMRI images",
+        "start": 2577.58,
+        "duration": 6.33
+    },
+    {
+        "text": "better, functional MRI because when you're\nseeing blood. We wanted to understand what",
+        "start": 2583.91,
+        "duration": 5.63
+    },
+    {
+        "text": "that meant in terms of neurons I could talk\nabout this all day but it CT cause us to have",
+        "start": 2589.54,
+        "duration": 5.7
+    },
+    {
+        "text": "to develop a lot of imaging methods to go\nin and use microscopes to simultaneously look",
+        "start": 2595.24,
+        "duration": 4.51
+    },
+    {
+        "text": "at neurons firing and blood vessels next to\nthem.",
+        "start": 2599.75,
+        "duration": 2.78
+    },
+    {
+        "text": "And I got very interested in it from the standpoint\nof it's actually quite surprising that every",
+        "start": 2602.53,
+        "duration": 6.61
+    },
+    {
+        "text": "time or region of your brain has some neural\nactivity that there's actually a big increase",
+        "start": 2609.14,
+        "duration": 5.62
+    },
+    {
+        "text": "in blood flow in that area and that has to\nhappen for a reason and that has to be an",
+        "start": 2614.76,
+        "duration": 4.99
+    },
+    {
+        "text": "important part of brain health. And so now\nmy work has sort of moved towards not just",
+        "start": 2619.75,
+        "duration": 4.72
+    },
+    {
+        "text": "trying to understand the fMRI signal better\nbut also recognizing that there might be situations",
+        "start": 2624.47,
+        "duration": 5.49
+    },
+    {
+        "text": "in which that relationship between neural\nactivity and blood flow gets disrupted. And",
+        "start": 2629.96,
+        "duration": 3.98
+    },
+    {
+        "text": "if every time you're hungry you try to eat\na sandwich but you miss something's going",
+        "start": 2633.94,
+        "duration": 5.09
+    },
+    {
+        "text": "to happen you're going to lose weight you're\nnot going to perform as well. And so, what,",
+        "start": 2639.03,
+        "duration": 5.4
+    },
+    {
+        "text": "all that stuff I showed you with the coffee\nand the ketamine I mean the really the core",
+        "start": 2644.43,
+        "duration": 2.991
+    },
+    {
+        "text": "of that study in the beginning was looking\nat how that neural activity actually was coupled",
+        "start": 2647.421,
+        "duration": 5.249
+    },
+    {
+        "text": "to blood flow changes.",
+        "start": 2652.67,
+        "duration": 1.72
+    },
+    {
+        "text": "And we've got ways now we actually can give\ndrugs that disrupt the relationship between",
+        "start": 2654.39,
+        "duration": 4.58
+    },
+    {
+        "text": "neural activity and blood flow and we can\nthen see what effects do they actually have",
+        "start": 2658.97,
+        "duration": 4.09
+    },
+    {
+        "text": "in real time on neural activity, what effects\nthey have on behavior. So we're training the",
+        "start": 2663.06,
+        "duration": 4.15
+    },
+    {
+        "text": "animals to sit and actually push a lever,\nthis is one of Nick's other projects right",
+        "start": 2667.21,
+        "duration": 4.35
+    },
+    {
+        "text": ",there were we're try and get them to push\na lever disrupt this blood flow relationship",
+        "start": 2671.56,
+        "duration": 4.23
+    },
+    {
+        "text": "and see whether they actually become slower\nat pushing the lever simply because this is",
+        "start": 2675.79,
+        "duration": 5.53
+    },
+    {
+        "text": "just another aspect of the brain that we really\ndon't understand.",
+        "start": 2681.32,
+        "duration": 4.4
+    },
+    {
+        "text": "Stepping back if we can get a better handle\non this relationship between blood flow in",
+        "start": 2685.72,
+        "duration": 6.28
+    },
+    {
+        "text": "your neural activity, it gives us a way to\nreally better use functional MRI and it has,",
+        "start": 2692.0,
+        "duration": 6.13
+    },
+    {
+        "text": "this method has kind of an image problem,\nright? We all agree. Because it's not so clear",
+        "start": 2698.13,
+        "duration": 6.73
+    },
+    {
+        "text": "what it means. And in fact when you do it\nin someone who just had a stroke you might",
+        "start": 2704.86,
+        "duration": 4.69
+    },
+    {
+        "text": "see huge activity in an area where they're\nparalyzed or you might see no activity at",
+        "start": 2709.55,
+        "duration": 4.8
+    },
+    {
+        "text": "all and they go on to be, to have a great\nrecovery. And so sort of my mission is to,",
+        "start": 2714.35,
+        "duration": 6.301
+    },
+    {
+        "text": "to use these methods more in the mice where\nwe can do this very detailed imaging but to",
+        "start": 2720.651,
+        "duration": 5.549
+    },
+    {
+        "text": "try to disambiguate all of this. Try to find\nis there an early signature of Alzheimer's.",
+        "start": 2726.2,
+        "duration": 4.25
+    },
+    {
+        "text": "Is there something that happens in stroke\nthat we can actually understand in terms of",
+        "start": 2730.45,
+        "duration": 4.51
+    },
+    {
+        "text": "what it's going to look like in MRI and then\ncan we use fMRI in a much more guided way",
+        "start": 2734.96,
+        "duration": 6.0
+    },
+    {
+        "text": "to get to those conditions in human brain.\nSo sounds a little circuitous but it keeps",
+        "start": 2740.96,
+        "duration": 5.83
+    },
+    {
+        "text": "me busy.",
+        "start": 2746.79,
+        "duration": 1.0
+    },
+    {
+        "text": "I think we all agree it's something there's\na huge need for, to understand what is it",
+        "start": 2747.79,
+        "duration": 4.012
+    },
+    {
+        "text": "we're seeing and how do we learn from it.\nYou know you've done some of the same thing",
+        "start": 2751.802,
+        "duration": 3.978
+    },
+    {
+        "text": "in trying to tease apart subtypes of depression\nusing, using functional imaging. Can you tell",
+        "start": 2755.78,
+        "duration": 5.871
+    },
+    {
+        "text": "us kind of how you approach that and what\nyou've found and what you think the potential",
+        "start": 2761.651,
+        "duration": 3.609
+    },
+    {
+        "text": "for that kind of analysis is.",
+        "start": 2765.26,
+        "duration": 1.68
+    },
+    {
+        "text": "Yeah, yeah. We're really excited about, this\nis another area we're really excited about",
+        "start": 2766.94,
+        "duration": 3.38
+    },
+    {
+        "text": "in my lab the opportunity to potentially use\nbrain imaging to rethink the way we diagnose",
+        "start": 2770.32,
+        "duration": 7.02
+    },
+    {
+        "text": "psychiatry, if you make diagnoses in psychiatry.\nIf you'll bear with me for like two minutes",
+        "start": 2777.34,
+        "duration": 4.33
+    },
+    {
+        "text": "I'll tell you an interesting historical like\nlittle background story. So our DSM, this",
+        "start": 2781.67,
+        "duration": 5.64
+    },
+    {
+        "text": "book that we use for diagnosis is kind of\nseeped into the public lexicon right, you",
+        "start": 2787.31,
+        "duration": 4.41
+    },
+    {
+        "text": "read about in the Times a lot of people are\nfamiliar with it. And the whole way we diagnose",
+        "start": 2791.72,
+        "duration": 4.85
+    },
+    {
+        "text": "mental illness is really not very old, it\nwas completely changed in 1980. I was born",
+        "start": 2796.57,
+        "duration": 6.06
+    },
+    {
+        "text": "in 1980. You can't say that about very many\nother areas of medicine. And yet it's the",
+        "start": 2802.63,
+        "duration": 6.46
+    },
+    {
+        "text": "truth. Everything we do in psychiatry is quite\ndifferent from before 1980, due in part to",
+        "start": 2809.09,
+        "duration": 5.09
+    },
+    {
+        "text": "this kind of controversial study that was\npublished in Science seven years before that",
+        "start": 2814.18,
+        "duration": 4.57
+    },
+    {
+        "text": "just showed essentially that are our diagnostic\nsystem at that time was not very reproducible",
+        "start": 2818.75,
+        "duration": 5.86
+    },
+    {
+        "text": "and very prone to bias. So social psychologist\nat Stanford very cleverly designed a set of",
+        "start": 2824.61,
+        "duration": 4.66
+    },
+    {
+        "text": "experiments where he sent his investigators\ninto hospitals around the country presenting",
+        "start": 2829.27,
+        "duration": 5.18
+    },
+    {
+        "text": "with a fake symptom. They said I'm experiencing\nvoices saying the words ‘empty’, ‘hollow’",
+        "start": 2834.45,
+        "duration": 6.4
+    },
+    {
+        "text": "or ‘thud’ and otherwise they were supposed\nto answer all questions honestly truthfully",
+        "start": 2840.85,
+        "duration": 4.88
+    },
+    {
+        "text": "and and the results they just followed them\nand the results were really shocking to everybody.",
+        "start": 2845.73,
+        "duration": 4.04
+    },
+    {
+        "text": "They got different diagnoses in different\nplaces and later work showed that your socioeconomic",
+        "start": 2849.77,
+        "duration": 7.12
+    },
+    {
+        "text": "background and your ethnic background were\ncould bias the way people assigned diagnoses",
+        "start": 2856.89,
+        "duration": 5.69
+    },
+    {
+        "text": "to you. And, and it was really hard to detect\nthat these were fake patients basically that's,",
+        "start": 2862.58,
+        "duration": 7.5
+    },
+    {
+        "text": "that's what he showed you could bias people's\njudgment in that way.",
+        "start": 2870.08,
+        "duration": 2.83
+    },
+    {
+        "text": "And then in the second part of this study,\nand this is kind of the clincher, in the second",
+        "start": 2872.91,
+        "duration": 4.48
+    },
+    {
+        "text": "part of the study the lead of this study had\nmet the director of a famous hospital at the",
+        "start": 2877.39,
+        "duration": 6.26
+    },
+    {
+        "text": "time and he said you know this is this is\nan anomaly what you found is not representative",
+        "start": 2883.65,
+        "duration": 5.469
+    },
+    {
+        "text": "of the way we do business. Come to my hospital\nsee if you can see if you'll get different",
+        "start": 2889.119,
+        "duration": 4.431
+    },
+    {
+        "text": "results. And so they agreed he would send\nan unknown number of people into his hospital",
+        "start": 2893.55,
+        "duration": 4.08
+    },
+    {
+        "text": "over the next few months and during that time\ntheir job was to figure out who is a fake",
+        "start": 2897.63,
+        "duration": 6.04
+    },
+    {
+        "text": "patient who is a real patient. Twenty percent\nof people were identified as definite impostures",
+        "start": 2903.67,
+        "duration": 4.26
+    },
+    {
+        "text": "and other twenty percent were identified as\nprobable impostures. So fully two out of every",
+        "start": 2907.93,
+        "duration": 5.56
+    },
+    {
+        "text": "five people who came to the hospital had,\nwere thought to be possible impostures. And",
+        "start": 2913.49,
+        "duration": 4.69
+    },
+    {
+        "text": "the truth was that he hadn't sent any impostors\nand that they were all real patients. So you",
+        "start": 2918.18,
+        "duration": 4.74
+    },
+    {
+        "text": "could bias people's judgments in both ways.",
+        "start": 2922.92,
+        "duration": 2.95
+    },
+    {
+        "text": "And so getting to that point here, the DSM3\nwhich was released in 1980 and very similar",
+        "start": 2925.87,
+        "duration": 6.39
+    },
+    {
+        "text": "to the one we use today was really designed\nto lump lots of people together with very",
+        "start": 2932.26,
+        "duration": 4.82
+    },
+    {
+        "text": "different problems in big diagnostic categories\nthat we could all agree on. And it did a really",
+        "start": 2937.08,
+        "duration": 5.45
+    },
+    {
+        "text": "good job of that. The diagnoses are much more\nreproducible than they used to be, less prone",
+        "start": 2942.53,
+        "duration": 5.07
+    },
+    {
+        "text": "to bias. But the problem is they don't correspond\nto biology very well.",
+        "start": 2947.6,
+        "duration": 4.15
+    },
+    {
+        "text": "So, depression is a great example of that.\nYou have this like choose five or more of",
+        "start": 2951.75,
+        "duration": 5.91
+    },
+    {
+        "text": "nine symptoms. So there's at least two hundred\nfifty six ways you can be depressed. And some",
+        "start": 2957.66,
+        "duration": 5.48
+    },
+    {
+        "text": "of them are almost opposites of one another\nlike sleeping nineteen hours a day, can't",
+        "start": 2963.14,
+        "duration": 4.66
+    },
+    {
+        "text": "get out of bed. Not enjoying any activities,\nvery slowed, gained a lot of weight. That",
+        "start": 2967.8,
+        "duration": 7.05
+    },
+    {
+        "text": "person is depressed. So is a person who's\nsleeping three hours a day anxious, weight",
+        "start": 2974.85,
+        "duration": 5.29
+    },
+    {
+        "text": "loss, almost the opposite. And they get the\nsame diagnoses but they probably don't have",
+        "start": 2980.14,
+        "duration": 4.66
+    },
+    {
+        "text": "the same biological problem and it's a miracle\nreally that treatments work as well as they",
+        "start": 2984.8,
+        "duration": 4.15
+    },
+    {
+        "text": "do in these in these very different people.\nSo what we're trying to do with fMRI is figure",
+        "start": 2988.95,
+        "duration": 4.4
+    },
+    {
+        "text": "out whether we can identify clusters of patients\nthat have similar biological problems as indexed",
+        "start": 2993.35,
+        "duration": 6.16
+    },
+    {
+        "text": "by fMRI and which can be used to map functional\nconnections in the brain. And if so then maybe",
+        "start": 2999.51,
+        "duration": 8.41
+    },
+    {
+        "text": "we can then maybe we can target specific treatments\nto individual people who are most likely to",
+        "start": 3007.92,
+        "duration": 4.63
+    },
+    {
+        "text": "benefit from that.",
+        "start": 3012.55,
+        "duration": 1.0
+    },
+    {
+        "text": "And can you find different patterns of patients\nbased on fMRI?",
+        "start": 3013.55,
+        "duration": 3.47
+    },
+    {
+        "text": "Yeah. So we've found, I always emphasize I\ndon't think this is the best or final solution",
+        "start": 3017.02,
+        "duration": 6.63
+    },
+    {
+        "text": "to this problem but it's it's a it's one solution\nthat works well we've found, that we can identify",
+        "start": 3023.65,
+        "duration": 4.63
+    },
+    {
+        "text": "four very different patterns of abnormal functional\nconnectivity in the brains of different depressed",
+        "start": 3028.28,
+        "duration": 6.13
+    },
+    {
+        "text": "people. We can assign individual people to\nthose categories based just on their brain",
+        "start": 3034.41,
+        "duration": 4.709
+    },
+    {
+        "text": "scan and then those, those categories predict\ndifferent kinds of symptoms and a different",
+        "start": 3039.119,
+        "duration": 5.891
+    },
+    {
+        "text": "likelihood of responding to transcranial magnetic\nstimulation which is a brain stimulation based",
+        "start": 3045.01,
+        "duration": 6.64
+    },
+    {
+        "text": "treatment that you could imagine, I mean it\nit's on a much coarser scale, but the goal",
+        "start": 3051.65,
+        "duration": 5.26
+    },
+    {
+        "text": "is the same as with optogenetics where you're\ntrying to stimulate a particular circuit to",
+        "start": 3056.91,
+        "duration": 4.709
+    },
+    {
+        "text": "to modify the activity of that circuits. TCS\nworks in much the same way and it's and it's",
+        "start": 3061.619,
+        "duration": 5.941
+    },
+    {
+        "text": "much more effective in one of these subtypes\nthan in than in the others.",
+        "start": 3067.56,
+        "duration": 3.33
+    },
+    {
+        "text": "And do you think if you look for those patterns\nin mice you could find out for Tony if mice",
+        "start": 3070.89,
+        "duration": 4.68
+    },
+    {
+        "text": "are depressed.",
+        "start": 3075.57,
+        "duration": 1.0
+    },
+    {
+        "text": "Yeah where we're working on that. One thing\nI think that's really nice about the mice",
+        "start": 3076.57,
+        "duration": 4.1
+    },
+    {
+        "text": "is that you can, you know, Elizabeth talked\nabout this. The the one of the limits of MRI",
+        "start": 3080.67,
+        "duration": 6.77
+    },
+    {
+        "text": "is it's fundamentally kind of correlational\nin nature. You observe this change in the",
+        "start": 3087.44,
+        "duration": 6.3
+    },
+    {
+        "text": "brain scan and it seems to correlate with\na particular behavior or a symptom. But there",
+        "start": 3093.74,
+        "duration": 4.03
+    },
+    {
+        "text": "are many changes in these brain scans and\nit's really hard to pinpoint which one if",
+        "start": 3097.77,
+        "duration": 4.39
+    },
+    {
+        "text": "any is causally related to particular behaviors\nand mice afford us that that opportunity.",
+        "start": 3102.16,
+        "duration": 6.42
+    },
+    {
+        "text": "So that's that's one thing we're trying to\ndo in the brains of our, of our mice.",
+        "start": 3108.58,
+        "duration": 4.58
+    },
+    {
+        "text": "So, we want to leave a little bit of time\nfor questions, but so, one final thought for",
+        "start": 3113.16,
+        "duration": 5.82
+    },
+    {
+        "text": "anyone here, so looking down the road, five\nyears down the road what's your wish list",
+        "start": 3118.98,
+        "duration": 5.94
+    },
+    {
+        "text": "or what's your vision of where you think we're\ngoing to be or where do you think is going",
+        "start": 3124.92,
+        "duration": 4.02
+    },
+    {
+        "text": "to be the next? What are we going to do to\nunlock this and take it the next step and",
+        "start": 3128.94,
+        "duration": 5.02
+    },
+    {
+        "text": "what are what are we going to be talking about\na decade from now?",
+        "start": 3133.96,
+        "duration": 5.05
+    },
+    {
+        "text": "Well I can tell you what we're trying to do.\nI laid it out. It's the Rosetta brain. I think",
+        "start": 3139.01,
+        "duration": 5.53
+    },
+    {
+        "text": "being able to understand behavior all the\nway through from the behavior to the neural",
+        "start": 3144.54,
+        "duration": 7.46
+    },
+    {
+        "text": "activity to the actual wiring diagram for\nme is sort of the Holy Grail. To to reduce,",
+        "start": 3152.0,
+        "duration": 6.28
+    },
+    {
+        "text": "it's not even to reduce, it's to provide the\nfoundation. I went into neuroscience because",
+        "start": 3158.28,
+        "duration": 6.89
+    },
+    {
+        "text": "I wanted to understand how three pounds of\nstuff gives everything that we see, hear and",
+        "start": 3165.17,
+        "duration": 7.33
+    },
+    {
+        "text": "feel and it just seemed incredibly mysterious\nto me. And after being in a neuroscientist",
+        "start": 3172.5,
+        "duration": 5.11
+    },
+    {
+        "text": "for several decades it remains just as mysterious.\nI don't think we're any closer to…",
+        "start": 3177.61,
+        "duration": 8.19
+    },
+    {
+        "text": "A little bit?",
+        "start": 3185.8,
+        "duration": 1.09
+    },
+    {
+        "text": "No sadly.",
+        "start": 3186.89,
+        "duration": 1.0
+    },
+    {
+        "text": "But I mean the core question, why does it\nhow does it…. why are we conscious? How",
+        "start": 3187.89,
+        "duration": 4.32
+    },
+    {
+        "text": "do we even how does it feel. How is it that\nwe feel the way we do? I don't think we're",
+        "start": 3192.21,
+        "duration": 5.16
+    },
+    {
+        "text": "any closer to understanding. And I sat there\nthinking about it for a long time and decided",
+        "start": 3197.37,
+        "duration": 5.12
+    },
+    {
+        "text": "that thinking about it wasn't going to get\nus anywhere further. But I'm hoping that if",
+        "start": 3202.49,
+        "duration": 5.39
+    },
+    {
+        "text": "we actually see an example where we can go\nall the way from the neural activity to the,",
+        "start": 3207.88,
+        "duration": 6.69
+    },
+    {
+        "text": "through the behavior to the circuitry, it'll\nat least provide us a way of maybe formulating",
+        "start": 3214.57,
+        "duration": 4.97
+    },
+    {
+        "text": "the right next question which I currently\ndon't have.",
+        "start": 3219.54,
+        "duration": 4.26
+    },
+    {
+        "text": "My Ph.D. adviser was Christof Koch who has\nspent most of his career trying to understand",
+        "start": 3223.8,
+        "duration": 6.12
+    },
+    {
+        "text": "consciousness. And I think now he he's the\nscientific director at the Allen Institute",
+        "start": 3229.92,
+        "duration": 7.949
+    },
+    {
+        "text": "where their goals are very similar to the\ngoals of the people here which is to tease",
+        "start": 3237.869,
+        "duration": 3.871
+    },
+    {
+        "text": "apart the circuitry of a mouse. And so my\nmy feeling is that although the, the circuitry",
+        "start": 3241.74,
+        "duration": 9.3
+    },
+    {
+        "text": "of a mouse is clearly different from the circuitry\nof a human, basically the building blocks",
+        "start": 3251.04,
+        "duration": 6.25
+    },
+    {
+        "text": "are already there by the time you get to the\ncortex. If you look at a piece of mouse cortex",
+        "start": 3257.29,
+        "duration": 5.93
+    },
+    {
+        "text": "and you change the scale bar and you put it\nnext to a piece of human cortex, they are",
+        "start": 3263.22,
+        "duration": 5.51
+    },
+    {
+        "text": "indistinguishable.",
+        "start": 3268.73,
+        "duration": 1.0
+    },
+    {
+        "text": "So the basic building blocks we think, that\nyou're smiling because you're a neurosurgeon",
+        "start": 3269.73,
+        "duration": 4.26
+    },
+    {
+        "text": "or you will not be able to tell the difference\nif I change the scale bar - even the neuroanatomists",
+        "start": 3273.99,
+        "duration": 5.25
+    },
+    {
+        "text": "at the Allen Institute were fooled by this\nthis pair of pictures. So I think that ,you",
+        "start": 3279.24,
+        "duration": 6.54
+    },
+    {
+        "text": "know, we as as humans evolved in the last\ncouple of hundred thousand, maybe million",
+        "start": 3285.78,
+        "duration": 6.35
+    },
+    {
+        "text": "years as primates over the last couple of\nmillion. I mean most of the work was done",
+        "start": 3292.13,
+        "duration": 5.54
+    },
+    {
+        "text": "I think by the time we evolved as mammals.\nWe split off from mice seventy, eighty million",
+        "start": 3297.67,
+        "duration": 5.24
+    },
+    {
+        "text": "years ago. The basic building blocks I think\nare there for us to understand. And once we",
+        "start": 3302.91,
+        "duration": 5.19
+    },
+    {
+        "text": "get those, than I think we're off to the races\nto figure out what makes us human. But I would",
+        "start": 3308.1,
+        "duration": 4.67
+    },
+    {
+        "text": "be, I would be pretty happy if we could get\nan understanding of what makes us mammal.",
+        "start": 3312.77,
+        "duration": 5.0
+    },
+    {
+        "text": "So we want to learn a little bit of time of\nquestions for questions We've got two microphones",
+        "start": 3317.77,
+        "duration": 3.19
+    },
+    {
+        "text": "going around so if you have a question please\nwait till somebody brings you a microphone.",
+        "start": 3320.96,
+        "duration": 4.72
+    },
+    {
+        "text": "Thank you very much to the panel. You've given\na really great overview of some of the genetic",
+        "start": 3325.68,
+        "duration": 7.169
+    },
+    {
+        "text": "and biochemical techniques that have advanced\nthe field in the last decade or so. But can",
+        "start": 3332.849,
+        "duration": 4.931
+    },
+    {
+        "text": "you talk more to some of the informatic techniques\nthat might be advancing the field you mentioned",
+        "start": 3337.78,
+        "duration": 5.9
+    },
+    {
+        "text": "NMF for dimensionality reduction. There have\nbeen issues with, you know far more specifically",
+        "start": 3343.68,
+        "duration": 5.939
+    },
+    {
+        "text": "with sort of the kernels and statistics that\nare going on there. But how has you know Big",
+        "start": 3349.619,
+        "duration": 4.281
+    },
+    {
+        "text": "Data, data science, machine learning also\ninfluenced the field Thank you.",
+        "start": 3353.9,
+        "duration": 5.02
+    },
+    {
+        "text": "Well I’ll just say that I started off in\nmachine learning neural networks as a grad",
+        "start": 3358.92,
+        "duration": 5.26
+    },
+    {
+        "text": "student and I think that those that field\nhas affected it in two ways. First of all",
+        "start": 3364.18,
+        "duration": 8.02
+    },
+    {
+        "text": "it inspires us how to think about how the\nbrain works. Trying to build something is",
+        "start": 3372.2,
+        "duration": 5.32
+    },
+    {
+        "text": "one of the best ways of figuring out how something\nworks. Beyond that, in the last couple of",
+        "start": 3377.52,
+        "duration": 6.111
+    },
+    {
+        "text": "years machine learning techniques have transformed\nbig data in neuroscience just like they've,",
+        "start": 3383.631,
+        "duration": 5.929
+    },
+    {
+        "text": "they're transforming it in all other, in many\nother fields. So that our ability, I mean",
+        "start": 3389.56,
+        "duration": 4.6
+    },
+    {
+        "text": "we're now collecting huge data sets and, you\nknow, either calcium imaging or connectivity,",
+        "start": 3394.16,
+        "duration": 7.06
+    },
+    {
+        "text": "and, you know, you can't you can't just stare\nat it anymore it's the same question of, machine",
+        "start": 3401.22,
+        "duration": 8.57
+    },
+    {
+        "text": "learning approaches provide ways of generating\nhypotheses again, just just like knowing the",
+        "start": 3409.79,
+        "duration": 5.94
+    },
+    {
+        "text": "connectivity. And then it takes a real brain\nat least so far, we're not quite out of business",
+        "start": 3415.73,
+        "duration": 4.1
+    },
+    {
+        "text": "yet, but these these big data techniques transform,\nhave are in the process of transforming how",
+        "start": 3419.83,
+        "duration": 5.59
+    },
+    {
+        "text": "we sort of generate scientific hypotheses\nthat then we can go out and test. At least",
+        "start": 3425.42,
+        "duration": 4.85
+    },
+    {
+        "text": "for me that’s one of the big ways",
+        "start": 3430.27,
+        "duration": 2.65
+    },
+    {
+        "text": "I would say coming back again to the other\npoint is, we need computer scientists and",
+        "start": 3432.92,
+        "duration": 4.669
+    },
+    {
+        "text": "people who understand code and big data to\nunderstand the brain. Right. Because it is",
+        "start": 3437.589,
+        "duration": 7.011
+    },
+    {
+        "text": "a computer right? And again the insights you\nget from people who who who know that are",
+        "start": 3444.6,
+        "duration": 5.84
+    },
+    {
+        "text": "really critical. What's really fascinating\nwe've got Amazon and Google and all of those",
+        "start": 3450.44,
+        "duration": 4.02
+    },
+    {
+        "text": "big companies now really interested in brain\nresearch. They're hiring our graduate students,",
+        "start": 3454.46,
+        "duration": 5.34
+    },
+    {
+        "text": "right? This deep learning, these algorithms.\nI mean the whole thing is coming together.",
+        "start": 3459.8,
+        "duration": 4.08
+    },
+    {
+        "text": "So so I think both fields are now really stimulating\neach other and I think you know that's going",
+        "start": 3463.88,
+        "duration": 6.68
+    },
+    {
+        "text": "to be a path towards getting where we need\nto go.",
+        "start": 3470.56,
+        "duration": 3.16
+    },
+    {
+        "text": "Part of the difficulty is to understand, actually\nthe behaviors. And the behaviors, it turned",
+        "start": 3473.72,
+        "duration": 6.42
+    },
+    {
+        "text": "that a machine can do a better job than humans\nin order to determine how many forms of a",
+        "start": 3480.14,
+        "duration": 5.66
+    },
+    {
+        "text": "behaviors they are. Actually Bob Datta in\nHarvard, they are creating a syllable of the",
+        "start": 3485.8,
+        "duration": 4.38
+    },
+    {
+        "text": "behaviors and they're trying to find a neural\ncorrelate to that, which turned out, you actually",
+        "start": 3490.18,
+        "duration": 5.17
+    },
+    {
+        "text": "finding exact in neural correlate to the syllables\nof the behaviors, which we as a human observer",
+        "start": 3495.35,
+        "duration": 5.59
+    },
+    {
+        "text": "you could have completely missing it. So I\nthink that's kind of how these two things",
+        "start": 3500.94,
+        "duration": 4.409
+    },
+    {
+        "text": "are neuroscience and machine learning aspects\nare really assisting each other.",
+        "start": 3505.349,
+        "duration": 6.681
+    },
+    {
+        "text": "Another question?",
+        "start": 3512.03,
+        "duration": 1.53
+    },
+    {
+        "text": "Depressed lab animals produce, developed isolated,\ndo you alter the genetics?",
+        "start": 3513.56,
+        "duration": 5.77
+    },
+    {
+        "text": "How do you produce a depressed animal?",
+        "start": 3519.33,
+        "duration": 3.47
+    },
+    {
+        "text": "Yeah I can take that one. The real challenge\nyou mentioned like th, like animal models",
+        "start": 3522.8,
+        "duration": 8.17
+    },
+    {
+        "text": "of mouse models of schizophrenia, autism,\nwe have a much better handle on the genetics",
+        "start": 3530.97,
+        "duration": 5.369
+    },
+    {
+        "text": "of some psychiatric disorders like schizophrenia\nand autism than we do for depression. What",
+        "start": 3536.339,
+        "duration": 5.421
+    },
+    {
+        "text": "we know about depression is it's it's it's\nheritable. If your mom is depressed you're",
+        "start": 3541.76,
+        "duration": 5.27
+    },
+    {
+        "text": "much more likely to grow up to be depressed\nyourself. And that's not just about environment.",
+        "start": 3547.03,
+        "duration": 6.17
+    },
+    {
+        "text": "But it's probably the result of the shared\nimpact of many many genes each having a very",
+        "start": 3553.2,
+        "duration": 5.94
+    },
+    {
+        "text": "small influence on your likelihood of becoming\ndepression and that interacting with your",
+        "start": 3559.14,
+        "duration": 3.88
+    },
+    {
+        "text": "experience. So that makes it a lot harder\nto have like a genetically-based model of",
+        "start": 3563.02,
+        "duration": 6.56
+    },
+    {
+        "text": "depression that they just don't exist yet.\nThey may one day",
+        "start": 3569.58,
+        "duration": 5.279
+    },
+    {
+        "text": "I'll push back on that a little. There's a,\nthere's a model of learned…one model of",
+        "start": 3574.859,
+        "duration": 5.471
+    },
+    {
+        "text": "depression as a model of cold learned helplessness.\nAnd there was a guy who bred generation after",
+        "start": 3580.33,
+        "duration": 7.77
+    },
+    {
+        "text": "generation rats that showed this this trait\nof learned helplessness and over the last,",
+        "start": 3588.1,
+        "duration": 8.37
+    },
+    {
+        "text": "I think it took him a good fifteen, twenty\nyears to breed these. Unfortunately he started",
+        "start": 3596.47,
+        "duration": 5.77
+    },
+    {
+        "text": "doing this when rats seemed like they were\ngoing to be the right model system not mice.",
+        "start": 3602.24,
+        "duration": 5.65
+    },
+    {
+        "text": "But he bred these rats that were genetically\ndistinct and showed this trait of learned",
+        "start": 3607.89,
+        "duration": 5.16
+    },
+    {
+        "text": "helplessness and they, he and others have\ngone on to dissect some of the circuitry that",
+        "start": 3613.05,
+        "duration": 10.069
+    },
+    {
+        "text": "is disrupted in these and identified the lateral\nhabenula, the particularly important circuit",
+        "start": 3623.119,
+        "duration": 5.571
+    },
+    {
+        "text": "in this. Now that's one particular type of\ndepression. But I think it just shows how",
+        "start": 3628.69,
+        "duration": 6.659
+    },
+    {
+        "text": "the kinds of behaviors that we have can actually\noften be modeled in a rodent..",
+        "start": 3635.349,
+        "duration": 6.211
+    },
+    {
+        "text": "And I'll just also add to that to say that\nyou can even study things like confidence",
+        "start": 3641.56,
+        "duration": 5.24
+    },
+    {
+        "text": "in a rat or a mouse. It's not obvious that\nsomething like confidence, which feels like",
+        "start": 3646.8,
+        "duration": 5.75
+    },
+    {
+        "text": "it's an internal state would have a neural\ncorrelate. But one of my colleagues at Cold",
+        "start": 3652.55,
+        "duration": 4.73
+    },
+    {
+        "text": "Spring Harbor is identified a brain region\nand particular types of neurons that seem",
+        "start": 3657.28,
+        "duration": 4.44
+    },
+    {
+        "text": "to encode an animal's confidence and confidence\nis for example one of the things that can",
+        "start": 3661.72,
+        "duration": 4.59
+    },
+    {
+        "text": "be easily disrupted in depression. So I think\nthat when you actually really think hard about",
+        "start": 3666.31,
+        "duration": 9.779
+    },
+    {
+        "text": "how to probe that behavior in a way that,\ntraditionally, people who work on rats and",
+        "start": 3676.089,
+        "duration": 4.801
+    },
+    {
+        "text": "mice have not but are now starting to, you\ncan actually sort of get more traction on",
+        "start": 3680.89,
+        "duration": 4.699
+    },
+    {
+        "text": "these things than you might have thought.\nThe sort of ridiculous notion of you know",
+        "start": 3685.589,
+        "duration": 4.701
+    },
+    {
+        "text": "a depressed mouse or rat becomes less ridiculous.",
+        "start": 3690.29,
+        "duration": 4.98
+    },
+    {
+        "text": "Another question.",
+        "start": 3695.27,
+        "duration": 5.25
+    },
+    {
+        "text": "Thank you for the presentation. You talked\na little bit about the advance how these advances",
+        "start": 3700.52,
+        "duration": 6.3
+    },
+    {
+        "text": "impact the diagnosis of mental disorders.\nHow do you see on the practical level, what",
+        "start": 3706.82,
+        "duration": 6.24
+    },
+    {
+        "text": "do you see these advances such as optogenetics\nor anything else that you talked about here,",
+        "start": 3713.06,
+        "duration": 6.71
+    },
+    {
+        "text": "how do you see them advancing the treatment?\nLike what can we expect in the next couple",
+        "start": 3719.77,
+        "duration": 4.96
+    },
+    {
+        "text": "of years with things like ECT or anything\nthat I might not even be able to understand",
+        "start": 3724.73,
+        "duration": 7.59
+    },
+    {
+        "text": "from your answer to this. Thank you.",
+        "start": 3732.32,
+        "duration": 4.22
+    },
+    {
+        "text": "I think getting back to the transcranial magnetic\nstimulation thing as one example of a treatment",
+        "start": 3736.54,
+        "duration": 6.85
+    },
+    {
+        "text": "that's based on stimulating a brain region\nis, electroconvulsive therapy is is is our",
+        "start": 3743.39,
+        "duration": 5.08
+    },
+    {
+        "text": "most effective by far treatment for depression.\nAnd it's basically a big jolt that is to the",
+        "start": 3748.47,
+        "duration": 5.89
+    },
+    {
+        "text": "brain that's very stimulating to everywhere\nin the brain. Right? And and yet it also has",
+        "start": 3754.36,
+        "duration": 5.469
+    },
+    {
+        "text": "a lot of undesirable side effects. And so\nwe reserve it for people who are most who",
+        "start": 3759.829,
+        "duration": 5.331
+    },
+    {
+        "text": "most need it, who don't respond well to other\ntreatments. I think one potentially exciting",
+        "start": 3765.16,
+        "duration": 4.37
+    },
+    {
+        "text": "avenue in future would be figuring out whether\nthere are particular more focal brain areas",
+        "start": 3769.53,
+        "duration": 4.18
+    },
+    {
+        "text": "that require a particular kind of stimulation.\nYou could even imagine maybe a little further",
+        "start": 3773.71,
+        "duration": 6.29
+    },
+    {
+        "text": "down the road, cell type specific stimulation\ngetting with a lot of Tony's work was describing.",
+        "start": 3780.0,
+        "duration": 8.079
+    },
+    {
+        "text": "The overall goal being more precision in the\nway where we're stimulating brain regions",
+        "start": 3788.079,
+        "duration": 4.341
+    },
+    {
+        "text": "might lead to more effective antidepressant\nresponses and fewer side effects. And I think",
+        "start": 3792.42,
+        "duration": 5.58
+    },
+    {
+        "text": "that's a vision that everyone kind of shares.",
+        "start": 3798.0,
+        "duration": 2.51
+    },
+    {
+        "text": "So unfortunately we are running out of time.\nWe really need to thank these amazing scientists",
+        "start": 3800.51,
+        "duration": 4.59
+    },
+    {
+        "text": "for being here.",
+        "start": 3805.1,
+        "duration": 10.54
+    }
+]

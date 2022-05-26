@@ -1,0 +1,752 @@
+[
+    {
+        "text": "We are talking about frieze patterns.",
+        "start": 0.03,
+        "duration": 2.11
+    },
+    {
+        "text": "So a frieze pattern is a table of numbers. The rule of the game is we start with a row of 1s.",
+        "start": 2.14,
+        "duration": 5.557
+    },
+    {
+        "text": "Then we'll have more interesting rows, but eventually we want to end up with a row of 1s again.",
+        "start": 7.7,
+        "duration": 5.9
+    },
+    {
+        "text": "So I will do that.",
+        "start": 13.6,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, so there is one parameter in what we are doing:",
+        "start": 16.98,
+        "duration": 3.62
+    },
+    {
+        "text": "the number of rows, 1, 2, 3, 4, here.",
+        "start": 20.6,
+        "duration": 3.54
+    },
+    {
+        "text": "So there are, say, 4 rows.",
+        "start": 24.14,
+        "duration": 3.6
+    },
+    {
+        "text": "And now I will put some numbers in the first row, and I will start, fill out this table.",
+        "start": 27.74,
+        "duration": 6.2
+    },
+    {
+        "text": "There is only one rule. The rule is that whenever you see a small diamond like this,",
+        "start": 33.94,
+        "duration": 4.86
+    },
+    {
+        "text": "the product of these two numbers minus the product of these two numbers must be always 1.",
+        "start": 38.8,
+        "duration": 4.18
+    },
+    {
+        "text": "WE-NS is always 1. That's the rule.",
+        "start": 43.68,
+        "duration": 5.56
+    },
+    {
+        "text": "Okay, what I'll do, I'll put some \"random\" numbers. Of course, they are not random,",
+        "start": 49.24,
+        "duration": 3.88
+    },
+    {
+        "text": "but at this point you are not supposed to understand what they are.",
+        "start": 53.12,
+        "duration": 2.62
+    },
+    {
+        "text": "In the first row, and actually the row is infinite,",
+        "start": 55.74,
+        "duration": 3.2
+    },
+    {
+        "text": "so I put the seven numbers and then I repeat them. So, it's 7-periodic.",
+        "start": 58.949,
+        "duration": 3.99
+    },
+    {
+        "text": "Okay, so it's, should do 1,3, and so on. So now we are in business.",
+        "start": 62.94,
+        "duration": 3.78
+    },
+    {
+        "text": "Using this diamond rule, we can start to fill out this table. I will do it myself, but, Brady please watch me.",
+        "start": 67.38,
+        "duration": 7.34
+    },
+    {
+        "text": "Let's see what should be here. The number here times 1 should be 1 less than this product,",
+        "start": 74.72,
+        "duration": 5.68
+    },
+    {
+        "text": "so 3 minus 1, this should be 2. Let's see. 1 times 3 minus 1 times 2 is 1.",
+        "start": 80.4,
+        "duration": 5.64
+    },
+    {
+        "text": "Brady: Perfect. \nSergei: Next one. Here, 6 minus 1, 5, this should be 5.",
+        "start": 86.44,
+        "duration": 4.22
+    },
+    {
+        "text": "3 times 2, 6. 1 times 5, 5. 6 minus 5, 1. Correct?",
+        "start": 90.66,
+        "duration": 4.48
+    },
+    {
+        "text": "Okay, here. 2 times 2, 4. I put 3 here. Checking: 2 times 2, 4, minus 1 times 3, 3, 4 minus 3, 1.",
+        "start": 95.14,
+        "duration": 7.84
+    },
+    {
+        "text": "Brady: Okay.\nSergei: Okay, here, 1. 2 minus 1.",
+        "start": 102.98,
+        "duration": 4.92
+    },
+    {
+        "text": "Here, 3. 4 minus 3.",
+        "start": 107.9,
+        "duration": 3.499
+    },
+    {
+        "text": "Here, well this is a big one, 7. 4 times 2, 8, minus 7, 1.",
+        "start": 111.4,
+        "duration": 5.56
+    },
+    {
+        "text": "Here, 2, 1, 1, 1.",
+        "start": 116.96,
+        "duration": 1.8
+    },
+    {
+        "text": "1, 2, 3, 4, 5, 6, 7.",
+        "start": 119.18,
+        "duration": 1.72
+    },
+    {
+        "text": "This will also repeat because of the first row repeats with period 7, so the next one should be 2.",
+        "start": 121.32,
+        "duration": 5.22
+    },
+    {
+        "text": "Brady: So, so far It's been good. We got nice, we got integers, no fractions, nothing complicated.",
+        "start": 126.54,
+        "duration": 3.52
+    },
+    {
+        "text": "Sergei: Yes. I want to point out that a small miracle has already happened.",
+        "start": 130.06,
+        "duration": 3.38
+    },
+    {
+        "text": "So if look at this rule, this compass rule,",
+        "start": 133.44,
+        "duration": 3.94
+    },
+    {
+        "text": "If you know three of these numbers, you can always solve for the remaining one.",
+        "start": 137.38,
+        "duration": 3.84
+    },
+    {
+        "text": "For example, suppose you know W, E, and N, and you want to solve for S.",
+        "start": 141.22,
+        "duration": 4.62
+    },
+    {
+        "text": "So what is S? S is WE-1 over N. We subtract, and we divide.",
+        "start": 145.88,
+        "duration": 7.5
+    },
+    {
+        "text": "So there is no chance, in general, that will stay within positive integers.",
+        "start": 153.38,
+        "duration": 4.06
+    },
+    {
+        "text": "We divide, so in principle, these should be fractions.",
+        "start": 157.44,
+        "duration": 2.3
+    },
+    {
+        "text": "Yeah. What we should expect in general if we put rational numbers in the first row,",
+        "start": 160.68,
+        "duration": 4.76
+    },
+    {
+        "text": "Everything inside should be rational. But I put positive integers and so far it's stable in the positive integers.",
+        "start": 165.44,
+        "duration": 5.54
+    },
+    {
+        "text": "That's already strange.",
+        "start": 170.98,
+        "duration": 1.82
+    },
+    {
+        "text": "Alright. So let's do hard work. What should we put here. 10 minus 1 divided by 3, 3. 10 minus 9.",
+        "start": 172.8,
+        "duration": 8.48
+    },
+    {
+        "text": "What should we put here, 15 minus 1 over 2. 7.",
+        "start": 181.28,
+        "duration": 4.86
+    },
+    {
+        "text": "Here, 3 minus 1. That's 1. Here, 2.",
+        "start": 186.14,
+        "duration": 4.96
+    },
+    {
+        "text": "Here, 21 minus 1 over 4. 5.",
+        "start": 191.82,
+        "duration": 3.32
+    },
+    {
+        "text": "7 minus 1, 6 over 2. 3.",
+        "start": 195.98,
+        "duration": 3.3
+    },
+    {
+        "text": "Here, 1. 1, 2, 3, 4, 5, 6, 7. It should be periodic, so the next one must be 3.",
+        "start": 199.98,
+        "duration": 6.28
+    },
+    {
+        "text": "Brady: The miracle continues! \nSergei: The miracle continues, you are right.",
+        "start": 206.26,
+        "duration": 2.96
+    },
+    {
+        "text": "And, you want the surprise \nthat it will continue to the end.",
+        "start": 209.22,
+        "duration": 3.7
+    },
+    {
+        "text": "So two more miracles we expect. \nWe expect positive integers in this row, and we expect this one to satisfy the compass rule.",
+        "start": 212.92,
+        "duration": 8.28
+    },
+    {
+        "text": "Okay, so let me do it a little faster.",
+        "start": 221.2,
+        "duration": 2.68
+    },
+    {
+        "text": "That will be 4. That will be 2. \nThat will be 1. That will be 3.",
+        "start": 223.88,
+        "duration": 7.52
+    },
+    {
+        "text": "2, I guess?",
+        "start": 232.92,
+        "duration": 1.8
+    },
+    {
+        "text": "2 and 1. And it should be periodic so the previous one just like this one.",
+        "start": 234.72,
+        "duration": 6.68
+    },
+    {
+        "text": "And finally, I hope, it all works. 4 minus 3, 1, 8 minus 7, 1,",
+        "start": 241.4,
+        "duration": 5.26
+    },
+    {
+        "text": "1, 1, 1, 1, 1, 1. Yes.",
+        "start": 246.68,
+        "duration": 4.18
+    },
+    {
+        "text": "Brady: So, you filled the sandwich perfectly and you only used integers.",
+        "start": 250.86,
+        "duration": 5.38
+    },
+    {
+        "text": "Sergei: Right, so you start to wonder what's going on.\nBrady: Did you choose magic numbers at the start?",
+        "start": 256.24,
+        "duration": 4.12
+    },
+    {
+        "text": "Well, certainly, certainly the numbers were not random.\nIf you change anything at all randomly,\nit will break completely.",
+        "start": 260.38,
+        "duration": 6.18
+    },
+    {
+        "text": "The secret has a name. It's a theorem.",
+        "start": 266.56,
+        "duration": 2.6
+    },
+    {
+        "text": "It's due to two famous mathematicians, \none of them unfortunately not with us, another alive.",
+        "start": 269.16,
+        "duration": 4.92
+    },
+    {
+        "text": "Coxeter and Conway. \nJohn Conway, who is a character in your movies.",
+        "start": 274.08,
+        "duration": 5.08
+    },
+    {
+        "text": "John: \"I'm not gonna worry anymore, ever again.\"",
+        "start": 279.16,
+        "duration": 3.58
+    },
+    {
+        "text": "John: I was going to study whatever I thought was interesting.",
+        "start": 282.74,
+        "duration": 3.92
+    },
+    {
+        "text": "So the theorem explains this phenomenon, and actually gives a complete description, complete classification,",
+        "start": 286.66,
+        "duration": 6.46
+    },
+    {
+        "text": "of frieze patterns which consist of positive integers.",
+        "start": 293.12,
+        "duration": 2.94
+    },
+    {
+        "text": "So again, I remind everyone that there is a parameter here, the number of non-trivial rows.",
+        "start": 296.06,
+        "duration": 5.86
+    },
+    {
+        "text": "Here, this number is 4, but in principle, can be handwritten in anything else.",
+        "start": 302.54,
+        "duration": 3.46
+    },
+    {
+        "text": "So the theorem is not one theorem, but infinitely many theorems, one for each parameter.",
+        "start": 306.0,
+        "duration": 4.56
+    },
+    {
+        "text": "To explain what's going on, I need to draw a polygon which will have seven sides.",
+        "start": 310.56,
+        "duration": 5.12
+    },
+    {
+        "text": "I will partition this heptagon into triangles. I will triangulate it by its diagonals.",
+        "start": 315.68,
+        "duration": 5.42
+    },
+    {
+        "text": "I will draw this diagonal,",
+        "start": 321.1,
+        "duration": 2.98
+    },
+    {
+        "text": "and this diagonal,",
+        "start": 324.08,
+        "duration": 3.06
+    },
+    {
+        "text": "and maybe this one,",
+        "start": 327.14,
+        "duration": 2.84
+    },
+    {
+        "text": "and possibly this one.",
+        "start": 329.98,
+        "duration": 2.04
+    },
+    {
+        "text": "Okay, so now we have five triangles which make this heptagon,",
+        "start": 332.02,
+        "duration": 4.44
+    },
+    {
+        "text": "and I will write numbers at every vertex, and the number is the number of adjacent triangles.",
+        "start": 336.46,
+        "duration": 5.36
+    },
+    {
+        "text": "So, for example, this vertex has exactly one triangle adjacent to it, so I write 1 here.",
+        "start": 341.82,
+        "duration": 5.24
+    },
+    {
+        "text": "This vertex has four triangles, so that is 4.",
+        "start": 347.06,
+        "duration": 3.981
+    },
+    {
+        "text": "This one has 2. 1, 3, 2, and 2. Okay, now we have seven numbers.",
+        "start": 351.041,
+        "duration": 8.639
+    },
+    {
+        "text": "If you examine this first non-trivial row, you will recognize these numbers starting with this 1, I guess.",
+        "start": 359.68,
+        "duration": 7.62
+    },
+    {
+        "text": "1, 3, 2, 2, 1, 4, 2.",
+        "start": 367.48,
+        "duration": 7.36
+    },
+    {
+        "text": "And then we repeat it. Okay? \nBrady: So this shape gave you your numbers?",
+        "start": 374.84,
+        "duration": 4.72
+    },
+    {
+        "text": "Sergei: Yes, exactly.",
+        "start": 379.56,
+        "duration": 1.3
+    },
+    {
+        "text": "And the brilliant, beautiful theorem of Coxeter and Conway says that this miracle will happen every time.",
+        "start": 381.92,
+        "duration": 8.5
+    },
+    {
+        "text": "Given an n-gon, we triangulate by diagonals any way we want,",
+        "start": 390.42,
+        "duration": 4.66
+    },
+    {
+        "text": "it's an interesting question how many ways, \nI will say something about that,",
+        "start": 395.08,
+        "duration": 3.7
+    },
+    {
+        "text": "and we put the numbers of triangles adjacent to every vertex around the polygon.",
+        "start": 398.78,
+        "duration": 5.58
+    },
+    {
+        "text": "And now we create the first seed row, which will be n-periodic. Here it was, n was seven.",
+        "start": 404.36,
+        "duration": 4.52
+    },
+    {
+        "text": "And we put these numbers in the row, with period n, and then we start to fill out our table using the compass rule.",
+        "start": 408.88,
+        "duration": 8.74
+    },
+    {
+        "text": "So the claim is that after n minus 3 non-trivial rows, which all consist of positive integers,",
+        "start": 417.62,
+        "duration": 7.1
+    },
+    {
+        "text": "we will again have a row of 1s.\nBrady: So that's when you get back to the 1s.",
+        "start": 424.72,
+        "duration": 3.56
+    },
+    {
+        "text": "Sergei: Exactly.\nBrady: n minus 3.",
+        "start": 428.28,
+        "duration": 1.84
+    },
+    {
+        "text": "Sergei: n minus 3. Yes.",
+        "start": 430.12,
+        "duration": 1.21
+    },
+    {
+        "text": "So that's the way to construct a frieze pattern consisting of positive integers of width n minus 3,",
+        "start": 431.33,
+        "duration": 7.05
+    },
+    {
+        "text": "and the theorem is that they all are obtained this way, so it's a one-to-one correspondence.",
+        "start": 438.38,
+        "duration": 4.38
+    },
+    {
+        "text": "If we start with the square this gives us period 4 in the horizontal direction and width 1.",
+        "start": 442.76,
+        "duration": 5.22
+    },
+    {
+        "text": "Pentagon gives us a 5-periodic pattern with width 2.",
+        "start": 448.0,
+        "duration": 4.86
+    },
+    {
+        "text": "Hexagon, 6-periodic, width 3.",
+        "start": 452.86,
+        "duration": 2.8
+    },
+    {
+        "text": "Hep-heptagon you already saw, but you can go to higher, well probably there is not enough room for, here,",
+        "start": 455.7,
+        "duration": 6.44
+    },
+    {
+        "text": "But it works for every n. \nMaybe we should start with a square.",
+        "start": 462.14,
+        "duration": 3.12
+    },
+    {
+        "text": "There are exactly two ways to triangulate it by diagonals. This is one way, and this is another way,",
+        "start": 465.26,
+        "duration": 5.66
+    },
+    {
+        "text": "and although one is obtained from another by rotation, we consider them as different,",
+        "start": 470.92,
+        "duration": 3.96
+    },
+    {
+        "text": "so there should be two different \nfrieze patterns of period 4 and width 1.",
+        "start": 474.88,
+        "duration": 4.5
+    },
+    {
+        "text": "According to these numbers, \nwhich are 1, 2, 1, 2, and 2, 1, 2, 1.",
+        "start": 479.38,
+        "duration": 7.14
+    },
+    {
+        "text": "Not very interesting, but it works. Reality check.",
+        "start": 486.52,
+        "duration": 4.28
+    },
+    {
+        "text": "Pentagon has five different triangulations by diagonals.",
+        "start": 490.8,
+        "duration": 3.7
+    },
+    {
+        "text": "They all look the same because the numbers which we write form the same sequence, 3, 1, 2, 2, 1,",
+        "start": 494.5,
+        "duration": 8.9
+    },
+    {
+        "text": "but again, we consider these triangulations as different, so there are 5 ways to do it.",
+        "start": 503.4,
+        "duration": 3.96
+    },
+    {
+        "text": "So, 2 ways here, 5 ways here, maybe for complete record we should put triangle which has only 1 triangulation,",
+        "start": 515.16,
+        "duration": 9.46
+    },
+    {
+        "text": "which you don't need to do, it's already there, and the numbers of course are 1, 1, 1.",
+        "start": 524.62,
+        "duration": 5.14
+    },
+    {
+        "text": "Hexagon. \nHexagon really takes some work. So, this is one.",
+        "start": 529.76,
+        "duration": 5.32
+    },
+    {
+        "text": "This is a different kind of pattern. \nI guess there is one other pattern, like so.",
+        "start": 535.08,
+        "duration": 6.34
+    },
+    {
+        "text": "Brady: That's gonna start giving us quite different numbers isn't it? Sergei: That is correct.",
+        "start": 544.0,
+        "duration": 3.68
+    },
+    {
+        "text": "If you are willing to believe me, the number will be 14 here, and actually, this sequence, 1, 2, 5, 14,",
+        "start": 566.2,
+        "duration": 9.66
+    },
+    {
+        "text": "this is a famous sequence, which you can find everywhere. These are Catalan numbers,",
+        "start": 575.86,
+        "duration": 5.8
+    },
+    {
+        "text": "and they are all over mathematics, \nall over combinatorics.",
+        "start": 581.66,
+        "duration": 2.96
+    },
+    {
+        "text": "There are many, many, many interpretations, This is just one of the most common ones.",
+        "start": 584.62,
+        "duration": 4.02
+    },
+    {
+        "text": "Sure, the next one I guess is 42. \nBrady: And this is a heptagon.",
+        "start": 588.64,
+        "duration": 3.7
+    },
+    {
+        "text": "Sergei: This should be heptagon. Yes, indeed.",
+        "start": 592.34,
+        "duration": 2.34
+    },
+    {
+        "text": "Brady: So does that mean as our polygons get bigger, they'll give us different families \nof our frieze seeding numbers?",
+        "start": 594.68,
+        "duration": 7.6
+    },
+    {
+        "text": "Sergei: That is correct. Yes. The first row will depend on n as an n-gon, so it will be n periodic,",
+        "start": 602.28,
+        "duration": 8.2
+    },
+    {
+        "text": "and on the triangulation. \nDifferent triangulations give us different seed rows.",
+        "start": 610.48,
+        "duration": 4.29
+    },
+    {
+        "text": "Brady: So I want to make a 4-rowed sandwich here, Sergei: Ok.",
+        "start": 614.77,
+        "duration": 4.33
+    },
+    {
+        "text": "Brady: one of these 4 row sandwiches, obviously I have to use a heptagon, Sergei: Correct.",
+        "start": 619.1,
+        "duration": 3.56
+    },
+    {
+        "text": "Brady: but I will have different ways to seed that depending on how I triangulated my heptagon. \nSergei: Exactly right. Exactly right.",
+        "start": 622.66,
+        "duration": 6.12
+    },
+    {
+        "text": "So in this example, we chose one particular triangulation, but, for example, you can choose \none of the diagonals,",
+        "start": 628.78,
+        "duration": 6.659
+    },
+    {
+        "text": "let's say this one, erase it, and replace, for example by this one, and that would be a different frieze pattern,",
+        "start": 635.44,
+        "duration": 5.56
+    },
+    {
+        "text": "different triangulation, the numbers will change as well.",
+        "start": 641.0,
+        "duration": 2.18
+    },
+    {
+        "text": "Brady: This will always work, no- for every triangulation it will always give me frieze numbers that will...",
+        "start": 652.58,
+        "duration": 5.34
+    },
+    {
+        "text": "Sergei: This will always works, work, and this is the only thing which will work.",
+        "start": 657.92,
+        "duration": 4.36
+    },
+    {
+        "text": "So the theorem is that if you want a frieze pattern consisting of positive integers, you should do this, and they all will be obtained this way.",
+        "start": 662.28,
+        "duration": 7.98
+    },
+    {
+        "text": "Brady: So there's no chance that I could devise a sequence that won't come from a triangulation.",
+        "start": 670.26,
+        "duration": 5.3
+    },
+    {
+        "text": "Sergei: Absolutely not. Absolutely not. \nYou don't want to see the proof, but it's a theorem,",
+        "start": 675.56,
+        "duration": 4.56
+    },
+    {
+        "text": "so it has a proof, it's 100% certain, yes.\nBrady: But it's a, this is... amazing.",
+        "start": 680.12,
+        "duration": 6.14
+    },
+    {
+        "text": "Sergei: It's amazing. But you, it takes two geniuses, \nyou know. Coxeter and Conway.",
+        "start": 686.26,
+        "duration": 4.76
+    },
+    {
+        "text": "It's not just any random pair of mathematicians.\nYeah, it's really beautiful.",
+        "start": 691.02,
+        "duration": 4.36
+    },
+    {
+        "text": "Maybe I should say a few words about the place the subject occupies in contemporary mathematics.",
+        "start": 695.38,
+        "duration": 5.98
+    },
+    {
+        "text": "So, when Coxeter and Conway came up with their result, and when Conway introduced frieze patterns,",
+        "start": 701.36,
+        "duration": 6.32
+    },
+    {
+        "text": "it seemed like a marginal subject in some sense.",
+        "start": 707.68,
+        "duration": 3.0
+    },
+    {
+        "text": "I mean there are many beautiful things in mathematics which do not belong to mainstream.",
+        "start": 710.68,
+        "duration": 4.02
+    },
+    {
+        "text": "Fortunately for the subject, fortunately for all us, \nnow it's really mainstream.",
+        "start": 714.7,
+        "duration": 4.22
+    },
+    {
+        "text": "So there is a new, relatively new, a theory called the theory of cluster algebras, and this is about 20 years old,",
+        "start": 718.92,
+        "duration": 5.8
+    },
+    {
+        "text": "and these frieze patterns occupy a very honorable position in this theory, it's one of the main examples,",
+        "start": 724.72,
+        "duration": 6.98
+    },
+    {
+        "text": "so they're very much studied nowadays, and they are very popular.",
+        "start": 731.7,
+        "duration": 3.16
+    },
+    {
+        "text": "If you google the subject you will see many, many scientific papers on this subject.",
+        "start": 734.86,
+        "duration": 5.48
+    },
+    {
+        "text": "So, the intuition of Coxeter and Conway proved itself excellent. They recognized the beauty and now it's important, too.",
+        "start": 740.34,
+        "duration": 8.98
+    },
+    {
+        "text": "Brady: To see even more from this interview, including the famed lightning bolt in frieze patterns,",
+        "start": 749.32,
+        "duration": 5.04
+    },
+    {
+        "text": "have a look at our extra footage channel, Numberphile2. There'll be a link on the screen and in the description.",
+        "start": 754.46,
+        "duration": 6.04
+    },
+    {
+        "text": "This video was filmed at the Mathematical Sciences Research Institute, or MSRI.",
+        "start": 763.1,
+        "duration": 5.1
+    },
+    {
+        "text": "If you'd like to find out more about MSRI, have a listen to our podcast episode with the director of the institute, David Eisenbud.",
+        "start": 768.2,
+        "duration": 6.84
+    },
+    {
+        "text": "Again, links are on the screen \nand down in the description.",
+        "start": 775.04,
+        "duration": 2.84
+    }
+]

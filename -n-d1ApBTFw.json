@@ -1,0 +1,632 @@
+[
+    {
+        "text": "Today's topic is one of the most famous stories in statistics,",
+        "start": 0.08,
+        "duration": 3.06
+    },
+    {
+        "text": "uh, it's also about where babies come from. Um, and I know you know where babies come from, but there used to be this tale,",
+        "start": 3.84,
+        "duration": 7.2
+    },
+    {
+        "text": "that's what I grew up with, that babies come from storks.",
+        "start": 11.36,
+        "duration": 2.8
+    },
+    {
+        "text": "If a child is asking awkward questions of his or her parents, the parents would say well, you know, the stalks bring the baby",
+        "start": 14.32,
+        "duration": 6.879
+    },
+    {
+        "text": "in - draped from their bill in a blanket,",
+        "start": 21.7,
+        "duration": 2.94
+    },
+    {
+        "text": "that's where your baby brother or your baby sister came from.\n- (Brady: Have you figured out where that came from?)",
+        "start": 24.64,
+        "duration": 4.799
+    },
+    {
+        "text": "(Why storks were associated with babies at all?)",
+        "start": 29.519,
+        "duration": 2.08
+    },
+    {
+        "text": "So there's a theory it's something to do with um stalks being a traditional symbol of fertility, a religious symbol of fertility. And another theory",
+        "start": 33.6,
+        "duration": 7.6
+    },
+    {
+        "text": "is that storks when they go fishing they're looking for embryonic life forms in the water,",
+        "start": 41.76,
+        "duration": 5.84
+    },
+    {
+        "text": "so that is, that is two theories. Um,",
+        "start": 47.6,
+        "duration": 2.56
+    },
+    {
+        "text": "I don't know. I'm, I'm an economist, you know, I'm not a,",
+        "start": 50.719,
+        "duration": 2.8
+    },
+    {
+        "text": "not a sort of a studier of mythology and ritual. Anyway, anyway, to get back to the important stuff, which is the statistics. So",
+        "start": 54.079,
+        "duration": 6.88
+    },
+    {
+        "text": "storks deliver babies. This is the old story.",
+        "start": 62.239,
+        "duration": 2.8
+    },
+    {
+        "text": "Let me try to prove that to you statistically. I've got my, I've got my paper here.",
+        "start": 65.68,
+        "duration": 4.08
+    },
+    {
+        "text": "So,",
+        "start": 70.32,
+        "duration": 0.72
+    },
+    {
+        "text": "and this is just going to be a um illustrative plotting, if you imagine two axes.",
+        "start": 71.04,
+        "duration": 4.819
+    },
+    {
+        "text": "And here, this is babies per year,",
+        "start": 76.479,
+        "duration": 2.48
+    },
+    {
+        "text": "and here",
+        "start": 79.439,
+        "duration": 1.04
+    },
+    {
+        "text": "we have the number of storks. And if you just take a a bunch of European countries, and I have actually seen the data,",
+        "start": 80.479,
+        "duration": 6.0
+    },
+    {
+        "text": "what you find is",
+        "start": 86.96,
+        "duration": 1.659
+    },
+    {
+        "text": "Turkey, if I remember, and this is Poland. And then you might have Germany here and then you've got a whole bunch down here, a",
+        "start": 88.619,
+        "duration": 6.5
+    },
+    {
+        "text": "couple there. And it's not the world's best correlation, but it's, it's not the world's worst correlation.",
+        "start": 95.119,
+        "duration": 5.78
+    },
+    {
+        "text": "Loads down here with not many babies, not many storks. You've got these big outliers here. You've got nothing here. You've got no places",
+        "start": 101.68,
+        "duration": 5.279
+    },
+    {
+        "text": "with um loads of babies and no storks,",
+        "start": 107.6,
+        "duration": 2.799
+    },
+    {
+        "text": "you've got no places with loads of storks and no babies, and you can draw a best fit line and it goes like that,",
+        "start": 110.56,
+        "duration": 5.12
+    },
+    {
+        "text": "and there is actually an academic paper, about 20 years ago, with the title storks deliver babies p equals",
+        "start": 115.759,
+        "duration": 6.959
+    },
+    {
+        "text": "0.008. And without going into the technical details, you probably know that according to the conventional standards of statistical significance",
+        "start": 124.14,
+        "duration": 6.819
+    },
+    {
+        "text": "that means this relationship is not a coincidence. There is definitely a",
+        "start": 131.039,
+        "duration": 3.919
+    },
+    {
+        "text": "correlation between storks and babies. Now, you're probably thinking to yourself, okay",
+        "start": 135.819,
+        "duration": 3.779
+    },
+    {
+        "text": "so what's the trick? Because surprise surprise storks don't actually deliver babies.",
+        "start": 139.599,
+        "duration": 4.16
+    },
+    {
+        "text": "Um, email me if you actually want me to explain where babies do come from.",
+        "start": 144.08,
+        "duration": 3.599
+    },
+    {
+        "text": "(Brady: Will they get a reply?)\n[both laugh]",
+        "start": 148.4,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, maybe.",
+        "start": 150.8,
+        "duration": 2.0
+    },
+    {
+        "text": "So what's going on here? What's going on here is basically, as I said, I think this is Turkey, this is Poland.",
+        "start": 153.599,
+        "duration": 5.36
+    },
+    {
+        "text": "There's, there's Monaco, there's Luxembourg, there's Lichtenstein down here. Lots and lots of places with very small amounts of land,",
+        "start": 159.12,
+        "duration": 6.0
+    },
+    {
+        "text": "there are no storks and there are no kids, basically. And here are places that are really big, lots of storks,",
+        "start": 165.2,
+        "duration": 4.639
+    },
+    {
+        "text": "lots of babies. And that's what's going on, that's enough",
+        "start": 170.0,
+        "duration": 2.239
+    },
+    {
+        "text": "to drive that statistical correlation. The amount of land is the hidden, uh is the hidden factor,",
+        "start": 172.8,
+        "duration": 5.039
+    },
+    {
+        "text": "yeah,\nit's the secret thing that's driving both a large population, which means a lot of babies,",
+        "start": 177.84,
+        "duration": 4.639
+    },
+    {
+        "text": "and it is driving the large number of storks. Because bear in mind I'm not - I didn't say birth rate,",
+        "start": 182.959,
+        "duration": 5.12
+    },
+    {
+        "text": "I'm sure there's, well I expect there's no correlation for the birth rate,",
+        "start": 188.319,
+        "duration": 3.839
+    },
+    {
+        "text": "what i'm talking about is the the number of babies born each year in this,",
+        "start": 192.8,
+        "duration": 3.839
+    },
+    {
+        "text": "in these countries. Which is very closely correlated to the population. \n- (Brady: So you would also perhaps expect a correlation with trees?)",
+        "start": 197.2,
+        "duration": 6.559
+    },
+    {
+        "text": "Yeah, yeah, probably number of trees versus number of babies a year? Trees also deliver babies,",
+        "start": 204.48,
+        "duration": 4.8
+    },
+    {
+        "text": "I mean you could, you could go in all kinds of places like this. And there are lots of these,",
+        "start": 209.28,
+        "duration": 3.839
+    },
+    {
+        "text": "um, these spurious correlations out there. Actually, there's a website maintained by a guy called Tyler Vigen,",
+        "start": 213.519,
+        "duration": 5.76
+    },
+    {
+        "text": "I think, called spurious correlations; full of all kinds of fun stuff like this.",
+        "start": 219.44,
+        "duration": 3.599
+    },
+    {
+        "text": "But I said at the beginning that this is one of the most famous stories in statistics.",
+        "start": 223.12,
+        "duration": 5.199
+    },
+    {
+        "text": "And it was made famous by a fellow called Darrell Huff and,",
+        "start": 228.56,
+        "duration": 4.16
+    },
+    {
+        "text": "here for me is where this gets really interesting. So Darrell Huff was a journalist. And in 1954",
+        "start": 233.12,
+        "duration": 5.38
+    },
+    {
+        "text": "he published a book",
+        "start": 239.519,
+        "duration": 1.44
+    },
+    {
+        "text": "with the title \"How to lie with statistics\". It got a rave review in the New York Times,",
+        "start": 240.959,
+        "duration": 5.12
+    },
+    {
+        "text": "it became, many people say, the best selling book about statistics ever written. And I loved it when I was a teenager,",
+        "start": 246.239,
+        "duration": 7.6
+    },
+    {
+        "text": "reading about all of these tricks, all of the different ways you could be deceived. He's got the storks and babies in there,",
+        "start": 254.799,
+        "duration": 5.76
+    },
+    {
+        "text": "it's got loads and loads of great examples. It's got dodgy maps, it's got dodgy graphs, it's got",
+        "start": 260.639,
+        "duration": 4.96
+    },
+    {
+        "text": "all sorts of great, great examples. It's a very funny book.",
+        "start": 266.56,
+        "duration": 3.119
+    },
+    {
+        "text": "Um, I'm not the only person who likes it, Ben Goldacre, who wrote bad science and many other great books about numbers,",
+        "start": 270.0,
+        "duration": 6.32
+    },
+    {
+        "text": "he praised Darrell Huff. Charles Wheelan, who wrote a book called naked statistics; he said it was an homage to Darrell Huff.",
+        "start": 276.479,
+        "duration": 6.8
+    },
+    {
+        "text": "There are loads of fans of Darrell Huff out there. \n- (Brady: This book is in praise of statistics, though.)",
+        "start": 283.52,
+        "duration": 5.119
+    },
+    {
+        "text": "(This, this book is supposed to be doing a service to statistics, presumably?)\n- So that, I think, is where",
+        "start": 288.72,
+        "duration": 5.199
+    },
+    {
+        "text": "the important question, uh lies.",
+        "start": 294.639,
+        "duration": 2.0
+    },
+    {
+        "text": "It, it is loved by nerds,",
+        "start": 297.52,
+        "duration": 2.0
+    },
+    {
+        "text": "but it is not really in praise of statistics because what Darrell Huff is doing",
+        "start": 300.24,
+        "duration": 3.679
+    },
+    {
+        "text": "is in chapter after chapter; example after example, he's debunking",
+        "start": 304.56,
+        "duration": 4.1
+    },
+    {
+        "text": "dodgy statistics. And he just doesn't have a lot of positive examples of statistics being used to illuminate the world.",
+        "start": 309.34,
+        "duration": 7.619
+    },
+    {
+        "text": "And that's where I",
+        "start": 317.68,
+        "duration": 1.44
+    },
+    {
+        "text": "start to get a little bit queasy. Because that book was published in 1954, and you know, what else happened in 1954? Two great statisticians,",
+        "start": 319.12,
+        "duration": 7.119
+    },
+    {
+        "text": "epidemiologists, Richard Dole and Austin Bradford Hill, provided some of the first solid evidence that smoking cigarettes",
+        "start": 326.86,
+        "duration": 6.6
+    },
+    {
+        "text": "might well give you lung cancer.",
+        "start": 333.919,
+        "duration": 2.0
+    },
+    {
+        "text": "Because the same year, two different visions of what you can do with statistics. Darrell Huff is saying it's a bit of a joke,",
+        "start": 336.32,
+        "duration": 6.719
+    },
+    {
+        "text": "it's a bit of fun - I'll tell you the story about the storks and the babies. Um, but don't don't ever take statistics, too",
+        "start": 343.12,
+        "duration": 6.079
+    },
+    {
+        "text": "seriously because they're just a way for people to lie to you.",
+        "start": 349.199,
+        "duration": 2.64
+    },
+    {
+        "text": "Austin Bradford Hill and Richard Dole",
+        "start": 352.88,
+        "duration": 2.0
+    },
+    {
+        "text": "are using this vital tool to find out the answer to one of the key",
+        "start": 355.44,
+        "duration": 5.199
+    },
+    {
+        "text": "medical questions of the 20th century. And when you think about it,",
+        "start": 361.36,
+        "duration": 3.36
+    },
+    {
+        "text": "they couldn't have done that in any other way than using a, the statistical lens.",
+        "start": 364.96,
+        "duration": 3.679
+    },
+    {
+        "text": "So even to notice that lung cancer cases were on the increase, and they were massively,",
+        "start": 368.96,
+        "duration": 4.799
+    },
+    {
+        "text": "you need to be",
+        "start": 374.319,
+        "duration": 1.181
+    },
+    {
+        "text": "systematically counting cases of lung cancer.",
+        "start": 375.5,
+        "duration": 2.259
+    },
+    {
+        "text": "I mean you, maybe there'd be some anecdotes, but you know, you need the numbers, you need the data. And then to show, compellingly,",
+        "start": 378.4,
+        "duration": 6.559
+    },
+    {
+        "text": "that uh, there's, there's evidence of causation",
+        "start": 385.759,
+        "duration": 2.58
+    },
+    {
+        "text": "you really need to work hard with the statistics.",
+        "start": 389.039,
+        "duration": 2.0
+    },
+    {
+        "text": "A lot of people at the time thought it was something to do with cars, which is not crazy,",
+        "start": 391.199,
+        "duration": 3.92
+    },
+    {
+        "text": "you think about it, between the beginning of the 20th century and the 1950s,",
+        "start": 395.36,
+        "duration": 3.619
+    },
+    {
+        "text": "lung cancer's on the increase, so are cars - loads of cars. Maybe it's something in the tarmac?",
+        "start": 399.68,
+        "duration": 4.639
+    },
+    {
+        "text": "Maybe it's uh something, you know coming out of the exhaust? It's not a crazy idea.",
+        "start": 404.479,
+        "duration": 3.36
+    },
+    {
+        "text": "But it turns out it wasn't the cars,",
+        "start": 408.56,
+        "duration": 2.0
+    },
+    {
+        "text": "it was the cigarettes.",
+        "start": 410.56,
+        "duration": 2.0
+    },
+    {
+        "text": "This is so important. This is such a key fact. Understanding that this thing is true,",
+        "start": 412.56,
+        "duration": 4.88
+    },
+    {
+        "text": "this has saved literally tens of millions of lives. Possibly hundreds of millions of lives.",
+        "start": 418.16,
+        "duration": 4.639
+    },
+    {
+        "text": "And you've got Darrell Huff in, remember this the the best-selling book ever",
+        "start": 423.52,
+        "duration": 4.239
+    },
+    {
+        "text": "published about statistics, saying",
+        "start": 428.4,
+        "duration": 2.0
+    },
+    {
+        "text": "'don't ever take statistics too seriously' because they're basically,",
+        "start": 431.039,
+        "duration": 4.961
+    },
+    {
+        "text": "liars will use them to lie to you. There's a twist in this story. Because in the",
+        "start": 436.0,
+        "duration": 4.0
+    },
+    {
+        "text": "1960s, the US Senate held hearings to decide",
+        "start": 440.539,
+        "duration": 3.779
+    },
+    {
+        "text": "whether cigarette",
+        "start": 444.88,
+        "duration": 1.84
+    },
+    {
+        "text": "packets should have warning labels on them. Should smokers be warned, you know,",
+        "start": 446.72,
+        "duration": 3.839
+    },
+    {
+        "text": "maybe this is going to kill you. And they got all these expert witnesses in to discuss the evidence and one expert witness came in",
+        "start": 450.56,
+        "duration": 6.559
+    },
+    {
+        "text": "and he told the senators:",
+        "start": 457.52,
+        "duration": 1.76
+    },
+    {
+        "text": "'Look, don't worry too much",
+        "start": 459.28,
+        "duration": 1.759
+    },
+    {
+        "text": "because",
+        "start": 461.039,
+        "duration": 1.361
+    },
+    {
+        "text": "there are a lot of funny correlations out there.",
+        "start": 462.4,
+        "duration": 2.0
+    },
+    {
+        "text": "Let me tell you about storks and babies.'",
+        "start": 465.84,
+        "duration": 2.0
+    },
+    {
+        "text": "And he sat there and he told the senators all about how you could demonstrate this correlation",
+        "start": 468.08,
+        "duration": 4.899
+    },
+    {
+        "text": "between",
+        "start": 473.599,
+        "duration": 1.04
+    },
+    {
+        "text": "babies and storks, he used a slightly different example, but the same basic argument.",
+        "start": 474.639,
+        "duration": 3.2
+    },
+    {
+        "text": "And it's the same with, with cigarettes and lung cancer. And the senator who was chairing the commission said:",
+        "start": 478.56,
+        "duration": 4.639
+    },
+    {
+        "text": "'Do you seriously mean to tell me",
+        "start": 483.919,
+        "duration": 2.0
+    },
+    {
+        "text": "that",
+        "start": 486.72,
+        "duration": 0.879
+    },
+    {
+        "text": "there is as as casual a relationship between smoking and lung cancer",
+        "start": 487.599,
+        "duration": 4.24
+    },
+    {
+        "text": "as there is between storks and babies?'",
+        "start": 492.56,
+        "duration": 2.399
+    },
+    {
+        "text": "And the expert witness says 'yeah, they seem to me to be about the same.' And his name,",
+        "start": 496.08,
+        "duration": 5.279
+    },
+    {
+        "text": "you may have seen it coming,",
+        "start": 502.0,
+        "duration": 1.759
+    },
+    {
+        "text": "Darrell Huff, the guy who published",
+        "start": 503.759,
+        "duration": 2.72
+    },
+    {
+        "text": "'How to lie with statistics'. He was actually working on a sequel, which was never published, called how to lie with smoking statistics.",
+        "start": 507.199,
+        "duration": 7.459
+    },
+    {
+        "text": "So he'd taken",
+        "start": 515.2,
+        "duration": 1.519
+    },
+    {
+        "text": "this, you know, this, you know, funny, witty",
+        "start": 516.719,
+        "duration": 2.48
+    },
+    {
+        "text": "skepticism",
+        "start": 519.899,
+        "duration": 1.221
+    },
+    {
+        "text": "about statistics, in this great little book, and he'd soured it into this nasty cynicism",
+        "start": 521.12,
+        "duration": 6.32
+    },
+    {
+        "text": "that everything out there is fake news. You can't believe a single thing you're told,",
+        "start": 528.08,
+        "duration": 4.0
+    },
+    {
+        "text": "and he'd then gone to work for the tobacco lobby. Who found him to be the perfect",
+        "start": 533.04,
+        "duration": 3.54
+    },
+    {
+        "text": "witness for their case.",
+        "start": 537.279,
+        "duration": 2.0
+    },
+    {
+        "text": "If you'd like more great stories like this from Tim Harford, check out his book \"How to Make the World Add Up\".",
+        "start": 539.68,
+        "duration": 6.239
+    },
+    {
+        "text": "This is what it looks like, just in case you need to know.",
+        "start": 546.48,
+        "duration": 2.4
+    },
+    {
+        "text": "The links in the description include a chance to get yourself a signed copy.",
+        "start": 549.279,
+        "duration": 3.52
+    },
+    {
+        "text": "You can also catch Tim talking with Matt over at Standupmaths, again links in all the usual places.",
+        "start": 553.12,
+        "duration": 6.179
+    }
+]

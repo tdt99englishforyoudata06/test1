@@ -1,0 +1,1392 @@
+[
+    {
+        "text": "So what we're going to try to talk about",
+        "start": 0.0,
+        "duration": 1.439
+    },
+    {
+        "text": "today is the arithmetic of dynamical",
+        "start": 1.439,
+        "duration": 2.641
+    },
+    {
+        "text": "sequences. Let's do an example; so here's",
+        "start": 4.08,
+        "duration": 2.07
+    },
+    {
+        "text": "an example maybe you'll recognize. Let's",
+        "start": 6.15,
+        "duration": 2.369
+    },
+    {
+        "text": "let f of x be the function 2x plus 1, and",
+        "start": 8.519,
+        "duration": 3.75
+    },
+    {
+        "text": "what I mean by iterating something under",
+        "start": 12.269,
+        "duration": 2.671
+    },
+    {
+        "text": "this function is let's start at a point",
+        "start": 14.94,
+        "duration": 1.83
+    },
+    {
+        "text": "say x equals 0. When we plug x equals 0",
+        "start": 16.77,
+        "duration": 2.91
+    },
+    {
+        "text": "into this function we get 1 and then",
+        "start": 19.68,
+        "duration": 2.519
+    },
+    {
+        "text": "let's keep doing that; so when we plug 1",
+        "start": 22.199,
+        "duration": 1.861
+    },
+    {
+        "text": "into the function we get 2 plus 1 which",
+        "start": 24.06,
+        "duration": 2.25
+    },
+    {
+        "text": "is 3, when we plug 3 into the function we",
+        "start": 26.31,
+        "duration": 2.76
+    },
+    {
+        "text": "get 6 plus 1 which is 7. So you look at",
+        "start": 29.07,
+        "duration": 2.82
+    },
+    {
+        "text": "the last number - so 15, 31. So maybe I'll",
+        "start": 31.89,
+        "duration": 3.78
+    },
+    {
+        "text": "do two more just for a demonstration",
+        "start": 35.67,
+        "duration": 1.59
+    },
+    {
+        "text": "here, so 62 plus 1 that's 63 and 126 plus",
+        "start": 37.26,
+        "duration": 6.15
+    },
+    {
+        "text": "1 it's 127. So this sequence is special,",
+        "start": 43.41,
+        "duration": 4.05
+    },
+    {
+        "text": "so the sequence- you might recognize that",
+        "start": 47.46,
+        "duration": 1.98
+    },
+    {
+        "text": "each of these numbers in the sequence",
+        "start": 49.44,
+        "duration": 1.77
+    },
+    {
+        "text": "are off from a power of 2 by exactly 1.",
+        "start": 51.21,
+        "duration": 3.93
+    },
+    {
+        "text": "so this is known as the Mersenne",
+        "start": 55.14,
+        "duration": 1.95
+    },
+    {
+        "text": "sequence. Well people have heard of the",
+        "start": 57.09,
+        "duration": 2.07
+    },
+    {
+        "text": "Mersenne sequence because there's a",
+        "start": 59.16,
+        "duration": 1.8
+    },
+    {
+        "text": "famous question that we don't know how",
+        "start": 60.96,
+        "duration": 1.77
+    },
+    {
+        "text": "to answer is are there infinitely many",
+        "start": 62.73,
+        "duration": 2.459
+    },
+    {
+        "text": "prime numbers in this sequence? Since",
+        "start": 65.189,
+        "duration": 2.671
+    },
+    {
+        "text": "this question is so hard, one easier",
+        "start": 67.86,
+        "duration": 2.04
+    },
+    {
+        "text": "question we could ask would be what are",
+        "start": 69.9,
+        "duration": 2.579
+    },
+    {
+        "text": "the prime divisors of each element of",
+        "start": 72.479,
+        "duration": 2.041
+    },
+    {
+        "text": "this sequence look like? \n- (Brady: That seems like)",
+        "start": 74.52,
+        "duration": 1.8
+    },
+    {
+        "text": "(a harder question!)\n- Well it might be a",
+        "start": 76.32,
+        "duration": 2.549
+    },
+    {
+        "text": "harder question depending on how",
+        "start": 78.869,
+        "duration": 1.171
+    },
+    {
+        "text": "specific you want to get. But so what I",
+        "start": 80.04,
+        "duration": 2.189
+    },
+    {
+        "text": "mean by the prime divisors of elements",
+        "start": 82.229,
+        "duration": 1.801
+    },
+    {
+        "text": "of the sequence is we have these factors,",
+        "start": 84.03,
+        "duration": 1.89
+    },
+    {
+        "text": "so each number factors into prime",
+        "start": 85.92,
+        "duration": 2.22
+    },
+    {
+        "text": "numbers as long as we're ignoring 0 here.",
+        "start": 88.14,
+        "duration": 2.1
+    },
+    {
+        "text": "So 3 is already prime, 7 is already prime,",
+        "start": 90.24,
+        "duration": 4.35
+    },
+    {
+        "text": "but 15 this is 3 times 5.",
+        "start": 94.59,
+        "duration": 3.62
+    },
+    {
+        "text": "31 that's already prime, 63 well let's",
+        "start": 98.21,
+        "duration": 6.04
+    },
+    {
+        "text": "see - so 7 is a prime divisor and 9 is",
+        "start": 104.25,
+        "duration": 3.479
+    },
+    {
+        "text": "a divisor but it's not prime, it's",
+        "start": 107.729,
+        "duration": 1.561
+    },
+    {
+        "text": "actually 3 times 3 times 7.\nAnd 127 - let's",
+        "start": 109.29,
+        "duration": 6.0
+    },
+    {
+        "text": "see I think that's prime; and so on.",
+        "start": 115.29,
+        "duration": 2.49
+    },
+    {
+        "text": "Anyway so this is what I mean by prime",
+        "start": 117.78,
+        "duration": 1.769
+    },
+    {
+        "text": "divisors. And so instead of asking, okay,",
+        "start": 119.549,
+        "duration": 3.451
+    },
+    {
+        "text": "do we have infinitely many elements in",
+        "start": 123.0,
+        "duration": 2.31
+    },
+    {
+        "text": "this sequence which are prime? We could",
+        "start": 125.31,
+        "duration": 2.099
+    },
+    {
+        "text": "at least ask as we go along in the",
+        "start": 127.409,
+        "duration": 2.49
+    },
+    {
+        "text": "sequence do we get a new prime at each",
+        "start": 129.899,
+        "duration": 1.711
+    },
+    {
+        "text": "step? So that's the\nquestion I'm interested",
+        "start": 131.61,
+        "duration": 2.22
+    },
+    {
+        "text": "in answering. So here, okay we don't have",
+        "start": 133.83,
+        "duration": 2.52
+    },
+    {
+        "text": "any prime devisers, but here 3 is a",
+        "start": 136.35,
+        "duration": 1.92
+    },
+    {
+        "text": "prime divisor that never appeared before,",
+        "start": 138.27,
+        "duration": 2.36
+    },
+    {
+        "text": "here 7 is a prime divisor that never",
+        "start": 140.63,
+        "duration": 2.86
+    },
+    {
+        "text": "appeared before, here 5 never appeared,",
+        "start": 143.49,
+        "duration": 3.95
+    },
+    {
+        "text": "31 never appeared - but here we run into a",
+        "start": 147.44,
+        "duration": 3.55
+    },
+    {
+        "text": "problem.",
+        "start": 150.99,
+        "duration": 0.72
+    },
+    {
+        "text": "(We broke the streak.)\n- No new primes.",
+        "start": 151.71,
+        "duration": 3.18
+    },
+    {
+        "text": "(And is that bad?)\n- Well depends on what you're",
+        "start": 154.89,
+        "duration": 2.61
+    },
+    {
+        "text": "interested in. But if the question is, do",
+        "start": 157.5,
+        "duration": 3.27
+    },
+    {
+        "text": "we always have a new prime divisor? For",
+        "start": 160.77,
+        "duration": 2.28
+    },
+    {
+        "text": "the Mersenne sequence the answer is no",
+        "start": 163.05,
+        "duration": 1.59
+    },
+    {
+        "text": "because look at the sixth element -",
+        "start": 164.64,
+        "duration": 1.62
+    },
+    {
+        "text": "doesn't have a new prime divisor. But the",
+        "start": 166.26,
+        "duration": 3.81
+    },
+    {
+        "text": "interesting fact is after that all",
+        "start": 170.07,
+        "duration": 4.4
+    },
+    {
+        "text": "Mersenne numbers have a new prime divisor.",
+        "start": 174.47,
+        "duration": 3.22
+    },
+    {
+        "text": "(Every single one?)\n- Every single one.",
+        "start": 177.69,
+        "duration": 2.58
+    },
+    {
+        "text": "(What happened with 63?)\n- Well it's just- when",
+        "start": 181.61,
+        "duration": 4.84
+    },
+    {
+        "text": "you're at the beginning of a sequence",
+        "start": 186.45,
+        "duration": 1.47
+    },
+    {
+        "text": "the numbers are so close and there's so",
+        "start": 187.92,
+        "duration": 2.55
+    },
+    {
+        "text": "many primes happening that it can occur",
+        "start": 190.47,
+        "duration": 2.97
+    },
+    {
+        "text": "that you sort of fail to have this new",
+        "start": 193.44,
+        "duration": 1.62
+    },
+    {
+        "text": "prime divisor. And it also matters that",
+        "start": 195.06,
+        "duration": 2.31
+    },
+    {
+        "text": "this was the sixth element of the",
+        "start": 197.37,
+        "duration": 1.44
+    },
+    {
+        "text": "sequence, but that's a little bit",
+        "start": 198.81,
+        "duration": 1.17
+    },
+    {
+        "text": "complicated. So the point is that after",
+        "start": 199.98,
+        "duration": 2.789
+    },
+    {
+        "text": "that after that sixth element of the",
+        "start": 202.769,
+        "duration": 1.801
+    },
+    {
+        "text": "sequence, after 63, we always have the new",
+        "start": 204.57,
+        "duration": 2.49
+    },
+    {
+        "text": "prime divisors. So this is an interesting",
+        "start": 207.06,
+        "duration": 1.77
+    },
+    {
+        "text": "thing and I think the next natural",
+        "start": 208.83,
+        "duration": 1.83
+    },
+    {
+        "text": "question once you notice that a sequence",
+        "start": 210.66,
+        "duration": 2.01
+    },
+    {
+        "text": "like this has some interesting property",
+        "start": 212.67,
+        "duration": 2.069
+    },
+    {
+        "text": "is what's special about this sequence?",
+        "start": 214.739,
+        "duration": 2.701
+    },
+    {
+        "text": "What other sequences have this property?",
+        "start": 217.44,
+        "duration": 2.34
+    },
+    {
+        "text": "So instead of choosing a function like",
+        "start": 219.78,
+        "duration": 3.36
+    },
+    {
+        "text": "2x plus 1 to generate my sequence what",
+        "start": 223.14,
+        "duration": 2.819
+    },
+    {
+        "text": "if I chose a nonlinear function? So if I",
+        "start": 225.959,
+        "duration": 3.0
+    },
+    {
+        "text": "had an x squared in there. So let's say I",
+        "start": 228.959,
+        "duration": 2.581
+    },
+    {
+        "text": "chose x squared plus 1. But we can still",
+        "start": 231.54,
+        "duration": 3.419
+    },
+    {
+        "text": "start generating these sequences; so if",
+        "start": 234.959,
+        "duration": 2.611
+    },
+    {
+        "text": "we start with 0, if we plug it into this",
+        "start": 237.57,
+        "duration": 2.25
+    },
+    {
+        "text": "function, it is going to \nmap to 1 again but",
+        "start": 239.82,
+        "duration": 3.09
+    },
+    {
+        "text": "when we plug 1 in we get 1 plus 1",
+        "start": 242.91,
+        "duration": 2.13
+    },
+    {
+        "text": "which is 2. When we plug 2 in we have 2",
+        "start": 245.04,
+        "duration": 2.85
+    },
+    {
+        "text": "squared plus 1 which is 5. We plug 5 in",
+        "start": 247.89,
+        "duration": 3.36
+    },
+    {
+        "text": "we have 25 plus 1 which is 26; and when",
+        "start": 251.25,
+        "duration": 4.56
+    },
+    {
+        "text": "we plug 26 in I happen to know we end up",
+        "start": 255.81,
+        "duration": 2.64
+    },
+    {
+        "text": "with 677. So because I'm dealing with an",
+        "start": 258.45,
+        "duration": 4.29
+    },
+    {
+        "text": "x squared instead of an x here the",
+        "start": 262.74,
+        "duration": 2.25
+    },
+    {
+        "text": "sequence gets larger \nmuch faster but still",
+        "start": 264.99,
+        "duration": 3.03
+    },
+    {
+        "text": "we get this sequence of integers, still we",
+        "start": 268.02,
+        "duration": 2.25
+    },
+    {
+        "text": "can ask when do we start getting new",
+        "start": 270.27,
+        "duration": 2.01
+    },
+    {
+        "text": "prime divisors? So if we look at what we",
+        "start": 272.28,
+        "duration": 3.449
+    },
+    {
+        "text": "have here- so notice again 2 & 5 are",
+        "start": 275.729,
+        "duration": 2.34
+    },
+    {
+        "text": "already prime; 26 is 2 times 13 and 677",
+        "start": 278.069,
+        "duration": 6.361
+    },
+    {
+        "text": "is also prime. And it turns out that for",
+        "start": 284.43,
+        "duration": 3.93
+    },
+    {
+        "text": "this sequence it's even better than",
+        "start": 288.36,
+        "duration": 2.22
+    },
+    {
+        "text": "Mersenne sequence: all numbers after 2",
+        "start": 290.58,
+        "duration": 3.51
+    },
+    {
+        "text": "have a new prime divisor. So this has",
+        "start": 294.09,
+        "duration": 2.49
+    },
+    {
+        "text": "proven that after 2 you always get a new",
+        "start": 296.58,
+        "duration": 2.79
+    },
+    {
+        "text": "prime divisor in this particular",
+        "start": 299.37,
+        "duration": 1.59
+    },
+    {
+        "text": "sequence.\n- (You showed me an amazing)",
+        "start": 300.96,
+        "duration": 1.799
+    },
+    {
+        "text": "(sequence; then you showed me a more)",
+        "start": 302.759,
+        "duration": 1.111
+    },
+    {
+        "text": "(amazing sequence!)\n- Ok well then get ready!",
+        "start": 303.87,
+        "duration": 2.389
+    },
+    {
+        "text": "So let's do the same thing, except that",
+        "start": 306.259,
+        "duration": 3.491
+    },
+    {
+        "text": "there's no reason that we're only",
+        "start": 309.75,
+        "duration": 2.069
+    },
+    {
+        "text": "talking about positive integers here,",
+        "start": 311.819,
+        "duration": 2.22
+    },
+    {
+        "text": "right? So let's look instead at something",
+        "start": 314.039,
+        "duration": 3.841
+    },
+    {
+        "text": "like this and see what happens. So again",
+        "start": 317.88,
+        "duration": 3.06
+    },
+    {
+        "text": "we start with 0; 0 maps to negative 1,",
+        "start": 320.94,
+        "duration": 3.0
+    },
+    {
+        "text": "negative 1 maps to 1 squared minus 1",
+        "start": 323.94,
+        "duration": 3.18
+    },
+    {
+        "text": "which is 0. But we already know where 0",
+        "start": 327.12,
+        "duration": 3.78
+    },
+    {
+        "text": "maps - 0 maps to negative 1 and so the",
+        "start": 330.9,
+        "duration": 3.509
+    },
+    {
+        "text": "sequence we get is completely not interesting.",
+        "start": 334.409,
+        "duration": 3.363
+    },
+    {
+        "text": "- (I think that's cool! How can \nyou say that's not interesting?)",
+        "start": 337.772,
+        "duration": 3.388
+    },
+    {
+        "text": "Well it's definitely not",
+        "start": 341.16,
+        "duration": 1.02
+    },
+    {
+        "text": "going to have this property that we have",
+        "start": 342.18,
+        "duration": 1.62
+    },
+    {
+        "text": "new prime divisors at least. So this is",
+        "start": 343.8,
+        "duration": 3.089
+    },
+    {
+        "text": "bad news, right? As far as this question",
+        "start": 346.889,
+        "duration": 2.64
+    },
+    {
+        "text": "is concerned this is a weird sequence. So",
+        "start": 349.529,
+        "duration": 2.911
+    },
+    {
+        "text": "let's let's try a different negative",
+        "start": 352.44,
+        "duration": 2.099
+    },
+    {
+        "text": "number, let's try- I don't want to try",
+        "start": 354.539,
+        "duration": 4.201
+    },
+    {
+        "text": "minus 2 and maybe you can try it and",
+        "start": 358.74,
+        "duration": 1.89
+    },
+    {
+        "text": "find out why, let's try instead minus 3.",
+        "start": 360.63,
+        "duration": 3.36
+    },
+    {
+        "text": "All right so let's go; so 0, and\n0 maps to 0",
+        "start": 363.99,
+        "duration": 3.69
+    },
+    {
+        "text": "minus 3, minus 3 maps to 9 minus 3 which",
+        "start": 367.68,
+        "duration": 5.31
+    },
+    {
+        "text": "is 6, 6 maps to 36 \nminus 3 - 33, 33 maps to",
+        "start": 372.99,
+        "duration": 6.81
+    },
+    {
+        "text": "something messy that I don't want to",
+        "start": 379.8,
+        "duration": 1.56
+    },
+    {
+        "text": "calculate. But now we'll get an infinite",
+        "start": 381.36,
+        "duration": 2.7
+    },
+    {
+        "text": "sequence again; instead of having this",
+        "start": 384.06,
+        "duration": 1.889
+    },
+    {
+        "text": "this repetition like we had in the minus",
+        "start": 385.949,
+        "duration": 2.31
+    },
+    {
+        "text": "1 case we'll get an infinite sequence",
+        "start": 388.259,
+        "duration": 2.34
+    },
+    {
+        "text": "and again this sequence will have new",
+        "start": 390.599,
+        "duration": 4.051
+    },
+    {
+        "text": "prime divisors at each\npoint in the sequence.",
+        "start": 394.65,
+        "duration": 2.579
+    },
+    {
+        "text": "Every time.\n- (I'm beginning to think this isn't)",
+        "start": 397.229,
+        "duration": 2.761
+    },
+    {
+        "text": "(such a special thing anymore.)\n- I know; so let",
+        "start": 399.99,
+        "duration": 5.61
+    },
+    {
+        "text": "me tell you you're sort of right. So here",
+        "start": 405.6,
+        "duration": 3.06
+    },
+    {
+        "text": "I'll write down a general fact: if say c",
+        "start": 408.66,
+        "duration": 2.64
+    },
+    {
+        "text": "is an integer - so a whole number or the",
+        "start": 411.3,
+        "duration": 2.519
+    },
+    {
+        "text": "negative of a whole number - and c is not",
+        "start": 413.819,
+        "duration": 2.511
+    },
+    {
+        "text": "0 minus 1 or minus 2, mostly because we",
+        "start": 416.33,
+        "duration": 4.36
+    },
+    {
+        "text": "want to avoid this problem, then every",
+        "start": 420.69,
+        "duration": 2.52
+    },
+    {
+        "text": "element of the sequence that's generated",
+        "start": 423.21,
+        "duration": 3.54
+    },
+    {
+        "text": "from x squared plus c has a new prime",
+        "start": 426.75,
+        "duration": 2.639
+    },
+    {
+        "text": "divisor.\n- (So the only exceptions are 0,)",
+        "start": 429.389,
+        "duration": 3.0
+    },
+    {
+        "text": "(minus 1, minus 2?)\n- This works for x",
+        "start": 432.389,
+        "duration": 3.03
+    },
+    {
+        "text": "squareds but it works for x squareds",
+        "start": 435.419,
+        "duration": 2.461
+    },
+    {
+        "text": "plus an integer. If you wanted you could",
+        "start": 437.88,
+        "duration": 2.4
+    },
+    {
+        "text": "ask this for a fraction c instead of a",
+        "start": 440.28,
+        "duration": 2.34
+    },
+    {
+        "text": "whole number c. So if c was 1/2 let's",
+        "start": 442.62,
+        "duration": 3.269
+    },
+    {
+        "text": "say, so if f of x is x squared plus 1/2",
+        "start": 445.889,
+        "duration": 3.03
+    },
+    {
+        "text": "well then what starts happening? So 0",
+        "start": 448.919,
+        "duration": 2.131
+    },
+    {
+        "text": "maps to 1/2; now the computation is a",
+        "start": 451.05,
+        "duration": 3.209
+    },
+    {
+        "text": "little less pleasant but 1/2 is 1/4 plus",
+        "start": 454.259,
+        "duration": 3.211
+    },
+    {
+        "text": "1/2 which is 3/4. 3/4 when we put it into",
+        "start": 457.47,
+        "duration": 3.78
+    },
+    {
+        "text": "this function we have 9 over 16 plus 1/2",
+        "start": 461.25,
+        "duration": 3.84
+    },
+    {
+        "text": "which I guess is 17 over 16? Does that",
+        "start": 465.09,
+        "duration": 3.81
+    },
+    {
+        "text": "sound right? And so on. So even though",
+        "start": 468.9,
+        "duration": 3.18
+    },
+    {
+        "text": "we're getting these fractions in the",
+        "start": 472.08,
+        "duration": 1.35
+    },
+    {
+        "text": "sequence the denominators are just",
+        "start": 473.43,
+        "duration": 2.13
+    },
+    {
+        "text": "powers of 2. And so when you try and",
+        "start": 475.56,
+        "duration": 2.43
+    },
+    {
+        "text": "factor them the only prime that you get",
+        "start": 477.99,
+        "duration": 2.04
+    },
+    {
+        "text": "there is 2 so we can still ask the same",
+        "start": 480.03,
+        "duration": 2.16
+    },
+    {
+        "text": "question about the numerators in the",
+        "start": 482.19,
+        "duration": 2.069
+    },
+    {
+        "text": "sequence.\n- (So we're just going to- we're)",
+        "start": 484.259,
+        "duration": 1.141
+    },
+    {
+        "text": "(just going to ignore the denominators?)\n- Just ignore",
+        "start": 485.4,
+        "duration": 1.71
+    },
+    {
+        "text": "the denominators, there's not interesting",
+        "start": 487.11,
+        "duration": 1.71
+    },
+    {
+        "text": "stuff there happening there anyways. So",
+        "start": 488.82,
+        "duration": 2.7
+    },
+    {
+        "text": "if you ignore the denominators then we",
+        "start": 491.52,
+        "duration": 2.579
+    },
+    {
+        "text": "look and we have this sequence 0, 1, 3, 17",
+        "start": 494.099,
+        "duration": 4.591
+    },
+    {
+        "text": "and so on; and it turns out that again",
+        "start": 498.69,
+        "duration": 2.19
+    },
+    {
+        "text": "you will have this property. It seems",
+        "start": 500.88,
+        "duration": 2.37
+    },
+    {
+        "text": "sort of fundamental and part of the",
+        "start": 503.25,
+        "duration": 2.46
+    },
+    {
+        "text": "reason why is because I've been hiding",
+        "start": 505.71,
+        "duration": 1.829
+    },
+    {
+        "text": "an example from you. So- so maybe one last",
+        "start": 507.539,
+        "duration": 4.321
+    },
+    {
+        "text": "example of computation that I'll show",
+        "start": 511.86,
+        "duration": 1.95
+    },
+    {
+        "text": "you is this kind of tricky little thing",
+        "start": 513.81,
+        "duration": 2.01
+    },
+    {
+        "text": "here: x squared minus 7 over 4.\nSo what does",
+        "start": 515.82,
+        "duration": 3.99
+    },
+    {
+        "text": "0 map to? 0 maps to minus 7 over 4, 21",
+        "start": 519.81,
+        "duration": 4.289
+    },
+    {
+        "text": "over 16, minus 7 over 16 squared. All of a",
+        "start": 524.099,
+        "duration": 4.98
+    },
+    {
+        "text": "sudden everything comes to a stop",
+        "start": 529.079,
+        "duration": 1.38
+    },
+    {
+        "text": "because look at our numerators - 0,",
+        "start": 530.459,
+        "duration": 3.301
+    },
+    {
+        "text": "7, 7 times 3 - so 3 is a",
+        "start": 533.76,
+        "duration": 2.61
+    },
+    {
+        "text": "new prime divisor there - but here we",
+        "start": 536.37,
+        "duration": 2.67
+    },
+    {
+        "text": "don't have a new prime divisor. So",
+        "start": 539.04,
+        "duration": 2.69
+    },
+    {
+        "text": "there's something different between 1/2",
+        "start": 541.73,
+        "duration": 2.86
+    },
+    {
+        "text": "and minus 7/4; for some reason there's an",
+        "start": 544.59,
+        "duration": 3.87
+    },
+    {
+        "text": "element in this sequence where the",
+        "start": 548.46,
+        "duration": 1.41
+    },
+    {
+        "text": "numerator doesn't have a new prime",
+        "start": 549.87,
+        "duration": 2.01
+    },
+    {
+        "text": "divisor.\n- (And this is- is this the only- this)",
+        "start": 551.88,
+        "duration": 2.22
+    },
+    {
+        "text": "(is the only number, the only fraction)",
+        "start": 554.1,
+        "duration": 2.19
+    },
+    {
+        "text": "(that throws the spanner in the works?)",
+        "start": 556.29,
+        "duration": 1.074
+    },
+    {
+        "text": "We don't know, we don't know.\nSo just to give",
+        "start": 557.364,
+        "duration": 3.456
+    },
+    {
+        "text": "you a hint of why this is true: so this",
+        "start": 560.82,
+        "duration": 3.84
+    },
+    {
+        "text": "is the only one that we know of, but we",
+        "start": 564.66,
+        "duration": 2.25
+    },
+    {
+        "text": "don't know if it's the only time it can",
+        "start": 566.91,
+        "duration": 1.56
+    },
+    {
+        "text": "possibly happen. So what's really going",
+        "start": 568.47,
+        "duration": 2.37
+    },
+    {
+        "text": "on behind the scenes here has something",
+        "start": 570.84,
+        "duration": 1.89
+    },
+    {
+        "text": "to do with a particular set of numbers",
+        "start": 572.73,
+        "duration": 3.74
+    },
+    {
+        "text": "known as the Mandelbrot set which I",
+        "start": 576.47,
+        "duration": 2.77
+    },
+    {
+        "text": "won't go into but it's this interesting",
+        "start": 579.24,
+        "duration": 2.19
+    },
+    {
+        "text": "fractal where things go kind of crazy,",
+        "start": 581.43,
+        "duration": 2.64
+    },
+    {
+        "text": "and it's hard to draw a fractal so I'll",
+        "start": 584.07,
+        "duration": 3.39
+    },
+    {
+        "text": "just do my best. \n- (Not a bad effort.)",
+        "start": 587.46,
+        "duration": 2.94
+    },
+    {
+        "text": "Thank you! So let me",
+        "start": 590.4,
+        "duration": 1.95
+    },
+    {
+        "text": "put this into perspective for you, so",
+        "start": 592.35,
+        "duration": 2.13
+    },
+    {
+        "text": "this is a picture of the complex numbers",
+        "start": 594.48,
+        "duration": 1.8
+    },
+    {
+        "text": "and I'm interested in the numbers that",
+        "start": 596.28,
+        "duration": 2.85
+    },
+    {
+        "text": "are inside of this set. And let's look at",
+        "start": 599.13,
+        "duration": 4.11
+    },
+    {
+        "text": "the values of c that we've done this",
+        "start": 603.24,
+        "duration": 1.5
+    },
+    {
+        "text": "computation for: so 1, we first did x",
+        "start": 604.74,
+        "duration": 3.48
+    },
+    {
+        "text": "squared plus 1, 1 is over here. We",
+        "start": 608.22,
+        "duration": 2.73
+    },
+    {
+        "text": "also did minus 1, minus 1 is over",
+        "start": 610.95,
+        "duration": 2.82
+    },
+    {
+        "text": "here. We did minus 3 which is well",
+        "start": 613.77,
+        "duration": 3.12
+    },
+    {
+        "text": "outside of this set. We did one half",
+        "start": 616.89,
+        "duration": 2.07
+    },
+    {
+        "text": "which is also not inside this set. But",
+        "start": 618.96,
+        "duration": 2.61
+    },
+    {
+        "text": "minus 7 over 4, it is inside of",
+        "start": 621.57,
+        "duration": 2.49
+    },
+    {
+        "text": "this set. So minus 7 over 4 it",
+        "start": 624.06,
+        "duration": 2.13
+    },
+    {
+        "text": "turns out is right inside this piece of",
+        "start": 626.19,
+        "duration": 2.79
+    },
+    {
+        "text": "the Mandelbrot set. \n- (This line of the real)",
+        "start": 628.98,
+        "duration": 4.14
+    },
+    {
+        "text": "(of the real numbers there)",
+        "start": 633.12,
+        "duration": 1.62
+    },
+    {
+        "text": "(seems to run right through \na whole swath of)",
+        "start": 634.74,
+        "duration": 3.48
+    },
+    {
+        "text": "(fractions that would be- is that- aren't)",
+        "start": 638.22,
+        "duration": 2.67
+    },
+    {
+        "text": "(there going to be loads of fractions)",
+        "start": 640.89,
+        "duration": 1.29
+    },
+    {
+        "text": "(that are going to cause\nthis problem then?)",
+        "start": 642.18,
+        "duration": 1.63
+    },
+    {
+        "text": "That's a really good point. So",
+        "start": 643.81,
+        "duration": 1.19
+    },
+    {
+        "text": "you're absolutely right, there's there's",
+        "start": 645.0,
+        "duration": 1.56
+    },
+    {
+        "text": "tons and tons of fractions on the real",
+        "start": 646.56,
+        "duration": 1.77
+    },
+    {
+        "text": "line inside of the Mandelbrot set, but",
+        "start": 648.33,
+        "duration": 2.25
+    },
+    {
+        "text": "it's not enough it turns out to just be",
+        "start": 650.58,
+        "duration": 1.8
+    },
+    {
+        "text": "inside the Mandelbrot set you have to be",
+        "start": 652.38,
+        "duration": 2.07
+    },
+    {
+        "text": "particularly very far inside of the",
+        "start": 654.45,
+        "duration": 2.4
+    },
+    {
+        "text": "Mandelbrot set. And so this is really",
+        "start": 656.85,
+        "duration": 1.95
+    },
+    {
+        "text": "saying something special about where the",
+        "start": 658.8,
+        "duration": 2.34
+    },
+    {
+        "text": "number c can lie inside of the",
+        "start": 661.14,
+        "duration": 1.98
+    },
+    {
+        "text": "Mandelbrot set. \n- (So if there are other)",
+        "start": 663.12,
+        "duration": 2.52
+    },
+    {
+        "text": "(numbers like)",
+        "start": 665.64,
+        "duration": 0.9
+    },
+    {
+        "text": "(minus 7 over 4 that are going to)",
+        "start": 666.54,
+        "duration": 2.19
+    },
+    {
+        "text": "(throw a spanner in our works they)",
+        "start": 668.73,
+        "duration": 2.28
+    },
+    {
+        "text": "(definitely have to be in here?)\n- That's",
+        "start": 671.01,
+        "duration": 1.89
+    },
+    {
+        "text": "right. So right away you get for free",
+        "start": 672.9,
+        "duration": 2.22
+    },
+    {
+        "text": "that if you take a large enough fraction,",
+        "start": 675.12,
+        "duration": 2.58
+    },
+    {
+        "text": "say bigger than 1 for example although",
+        "start": 677.7,
+        "duration": 2.07
+    },
+    {
+        "text": "you could get closer, for free you get",
+        "start": 679.77,
+        "duration": 2.37
+    },
+    {
+        "text": "that there will always be new primes in",
+        "start": 682.14,
+        "duration": 1.95
+    },
+    {
+        "text": "those sequences. But yeah, if we were to",
+        "start": 684.09,
+        "duration": 2.55
+    },
+    {
+        "text": "look for other examples of where this",
+        "start": 686.64,
+        "duration": 1.62
+    },
+    {
+        "text": "might occur they would have to lie",
+        "start": 688.26,
+        "duration": 2.1
+    },
+    {
+        "text": "inside of the Mandelbrot set and they",
+        "start": 690.36,
+        "duration": 1.74
+    },
+    {
+        "text": "would have to lie well inside the",
+        "start": 692.1,
+        "duration": 1.47
+    },
+    {
+        "text": "Mandelbrot set actually it turns out.",
+        "start": 693.57,
+        "duration": 1.97
+    },
+    {
+        "text": "(But it looks like there are \nnumbers here)",
+        "start": 695.54,
+        "duration": 1.54
+    },
+    {
+        "text": "(that would be pretty well inside the)",
+        "start": 697.08,
+        "duration": 1.44
+    },
+    {
+        "text": "(Mandelbrot set, or is it\na particular like-)",
+        "start": 698.52,
+        "duration": 1.13
+    },
+    {
+        "text": "It's a particular thing. Inside each of",
+        "start": 699.65,
+        "duration": 2.92
+    },
+    {
+        "text": "these bulbs here that I've drawn sort of",
+        "start": 702.57,
+        "duration": 1.98
+    },
+    {
+        "text": "half half heartedly there's a special",
+        "start": 704.55,
+        "duration": 2.85
+    },
+    {
+        "text": "point. And what might happen, the only",
+        "start": 707.4,
+        "duration": 3.39
+    },
+    {
+        "text": "reason why this might happen, is if your",
+        "start": 710.79,
+        "duration": 1.62
+    },
+    {
+        "text": "rational number is very very close to",
+        "start": 712.41,
+        "duration": 2.67
+    },
+    {
+        "text": "that special point in a technical way",
+        "start": 715.08,
+        "duration": 2.34
+    },
+    {
+        "text": "that is is hard to formulate. I think at",
+        "start": 717.42,
+        "duration": 3.36
+    },
+    {
+        "text": "heart people don't believe that there's",
+        "start": 720.78,
+        "duration": 1.5
+    },
+    {
+        "text": "one beyond minus 7 over 4. If I had",
+        "start": 722.28,
+        "duration": 3.0
+    },
+    {
+        "text": "to make a guess I would say probably not,",
+        "start": 725.28,
+        "duration": 2.27
+    },
+    {
+        "text": "but it would certainly be nice to know",
+        "start": 727.55,
+        "duration": 2.14
+    },
+    {
+        "text": "that for sure.",
+        "start": 729.69,
+        "duration": 2.39
+    }
+]

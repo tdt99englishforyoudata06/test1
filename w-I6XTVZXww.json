@@ -1,0 +1,692 @@
+[
+    {
+        "text": "I'm gonna give you an astounding result",
+        "start": 0.2,
+        "duration": 2.14
+    },
+    {
+        "text": "Astounding?",
+        "start": 2.84,
+        "duration": 0.64
+    },
+    {
+        "text": "An astounding result",
+        "start": 3.48,
+        "duration": 0.88
+    },
+    {
+        "text": "So I'm just gonna write down a little sum",
+        "start": 4.4,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm just gonna see what answer it gives.",
+        "start": 6.4,
+        "duration": 2.0
+    },
+    {
+        "text": "1 + 2 + 3 + 4 + duh duh duh duh duh",
+        "start": 8.5,
+        "duration": 5.42
+    },
+    {
+        "text": "And I include all the \nnatural numbers, so all the way up to infinity",
+        "start": 13.92,
+        "duration": 4.25
+    },
+    {
+        "text": "So what do you reckon the answer to this is, Brady?",
+        "start": 18.5,
+        "duration": 2.76
+    },
+    {
+        "text": "-Well I would say it would go to tend towards infinity.",
+        "start": 21.26,
+        "duration": 3.8
+    },
+    {
+        "text": "Yeah, that makes sense, doesn't\nit.",
+        "start": 25.4,
+        "duration": 1.539
+    },
+    {
+        "text": "The answer to this sum is -- remarkably -- minus a twelfth.",
+        "start": 26.939,
+        "duration": 4.201
+    },
+    {
+        "text": "It's amazing! I mean, I first saw this result\nwhen I start learning a bit of String Theory",
+        "start": 32.61,
+        "duration": 4.8
+    },
+    {
+        "text": "And what's even more bizarre is that this\nresult is used in many areas of physics",
+        "start": 37.41,
+        "duration": 6.59
+    },
+    {
+        "text": "This is a very well known string theory\ntextbook by Joe Polchinski.  As you can see,",
+        "start": 44.02,
+        "duration": 4.539
+    },
+    {
+        "text": "sort of quite early on, page 22, we have this\nstatement here which is that the sum of",
+        "start": 48.559,
+        "duration": 5.081
+    },
+    {
+        "text": "all this is --- basically saying the sum of\nall the integers ---",
+        "start": 53.64,
+        "duration": 2.689
+    },
+    {
+        "text": "all natural numbers all the way up to infinity, is, minus a twelfth.",
+        "start": 56.329,
+        "duration": 4.151
+    },
+    {
+        "text": "Alright so we're going to prove now,",
+        "start": 60.48,
+        "duration": 2.04
+    },
+    {
+        "text": "Without getting our knickers in a twist with Riemann zeta functions, we gonna prove",
+        "start": 62.76,
+        "duration": 3.64
+    },
+    {
+        "text": "in quite simple way, why the sum of all the natural numbers is indeed minus a twelfth.",
+        "start": 66.92,
+        "duration": 4.899
+    },
+    {
+        "text": "So, to do that we're gonna do this in a\nnumber of steps.",
+        "start": 72.32,
+        "duration": 2.9
+    },
+    {
+        "text": "We're gonna to look at a few different sums.",
+        "start": 75.22,
+        "duration": 1.6
+    },
+    {
+        "text": "The first sum that I want to look at, I'm gonna call it S1.",
+        "start": 76.84,
+        "duration": 4.02
+    },
+    {
+        "text": "And it's 1 -1 +1 -1 +1 -1 and so on.",
+        "start": 80.86,
+        "duration": 7.14
+    },
+    {
+        "text": "That's the first sum I wanna look at in principle.",
+        "start": 88.0,
+        "duration": 1.92
+    },
+    {
+        "text": "The second sum I'm gonna look at is 1-2+3-4 and so on",
+        "start": 90.06,
+        "duration": 8.659
+    },
+    {
+        "text": "Carry on in that process all the way up.",
+        "start": 99.18,
+        "duration": 1.98
+    },
+    {
+        "text": "And the third one is of course going to be",
+        "start": 101.16,
+        "duration": 1.82
+    },
+    {
+        "text": "the one we're really interested in which is 1+2+3+4... and so on.",
+        "start": 103.5,
+        "duration": 6.24
+    },
+    {
+        "text": "So we're gonna evaluate all these 3 different sums.",
+        "start": 109.74,
+        "duration": 1.76
+    },
+    {
+        "text": "Now the first one is really easy to evaluate.",
+        "start": 112.22,
+        "duration": 2.28
+    },
+    {
+        "text": "We need to attach a number. Now clearly what is the answer to this?",
+        "start": 114.68,
+        "duration": 3.28
+    },
+    {
+        "text": "You stop this at any point.",
+        "start": 118.82,
+        "duration": 1.22
+    },
+    {
+        "text": "Okay, if you stop it at an odd point you're going to get the answer 1.",
+        "start": 120.7,
+        "duration": 4.42
+    },
+    {
+        "text": "You stop it at an even point you'll get the answer 0, clearly.",
+        "start": 126.36,
+        "duration": 4.64
+    },
+    {
+        "text": "That's obvious right?",
+        "start": 131.0,
+        "duration": 1.74
+    },
+    {
+        "text": "So what number are we gonna attach \nto this infinite sum?",
+        "start": 132.74,
+        "duration": 2.3
+    },
+    {
+        "text": "Do we stop at an odd or an even point?",
+        "start": 135.04,
+        "duration": 2.44
+    },
+    {
+        "text": "We don't know so we take the average of the two.",
+        "start": 137.78,
+        "duration": 2.86
+    },
+    {
+        "text": "So the answer is a half.",
+        "start": 141.4,
+        "duration": 0.9
+    },
+    {
+        "text": "There're other ways to prove that this sum is a half by the way,",
+        "start": 142.32,
+        "duration": 2.92
+    },
+    {
+        "text": "which we can do if you want...",
+        "start": 145.24,
+        "duration": 1.48
+    },
+    {
+        "text": "No, no, there'll be a link, there'll be a link there, 'cause we've done it before.",
+        "start": 146.72,
+        "duration": 3.08
+    },
+    {
+        "text": "ok, good ...\nSee the link there",
+        "start": 149.8,
+        "duration": 1.7
+    },
+    {
+        "text": "Ok so this is a half and I think intuitively that's the easiest way to say",
+        "start": 151.8,
+        "duration": 3.34
+    },
+    {
+        "text": "that you either get 0 or 1, and therefore you just take the average...",
+        "start": 155.14,
+        "duration": 2.44
+    },
+    {
+        "text": "So this is the natural number to attach to this sum.",
+        "start": 157.58,
+        "duration": 2.46
+    },
+    {
+        "text": "So once we know this we're laughing, ok?",
+        "start": 160.3,
+        "duration": 1.56
+    },
+    {
+        "text": "Because from this we can achieve everything we want to achieve.",
+        "start": 162.82,
+        "duration": 3.46
+    },
+    {
+        "text": "The next step is to find out what this sum is.",
+        "start": 166.56,
+        "duration": 2.92
+    },
+    {
+        "text": "So what I'm gonna do is... I'm going to take two copies of this S2, ok.",
+        "start": 169.74,
+        "duration": 4.76
+    },
+    {
+        "text": "So I'm gonna add it to itself. So 2 times S2 is equal to...",
+        "start": 174.52,
+        "duration": 3.82
+    },
+    {
+        "text": "Let me just write it out. I will write it out twice",
+        "start": 178.36,
+        "duration": 3.48
+    },
+    {
+        "text": "1 -2 +3 -4 duh duh duh and so on.",
+        "start": 181.84,
+        "duration": 4.26
+    },
+    {
+        "text": "And then I'm gonna add to it itself, but I'm gonna shift it along a little bit",
+        "start": 187.58,
+        "duration": 3.42
+    },
+    {
+        "text": "So that's +1-2+3-4 and so on",
+        "start": 192.12,
+        "duration": 7.76
+    },
+    {
+        "text": "I've just taken two copies and added them together. But I've done it in a particularly nice way,",
+        "start": 200.78,
+        "duration": 4.92
+    },
+    {
+        "text": "and I just pushed this one along slightly on the bottom.",
+        "start": 206.08,
+        "duration": 2.38
+    },
+    {
+        "text": "So now see what you get: you take this 1 and this... This and this and I get 1.",
+        "start": 208.46,
+        "duration": 3.92
+    },
+    {
+        "text": "So 1 + nothing is 1",
+        "start": 212.84,
+        "duration": 1.72
+    },
+    {
+        "text": "-2 +1... -1",
+        "start": 214.72,
+        "duration": 2.06
+    },
+    {
+        "text": "3 -2 is 1",
+        "start": 217.18,
+        "duration": 1.84
+    },
+    {
+        "text": "-4 +3 is -1 duh duh duh and so on. And I 'm gonna keep getting this pattern.",
+        "start": 219.06,
+        "duration": 4.52
+    },
+    {
+        "text": "So hang on a minute, I just got back to the sum that I started with.",
+        "start": 223.76,
+        "duration": 2.76
+    },
+    {
+        "text": "Which I know the answer to it: a half.",
+        "start": 227.3,
+        "duration": 2.7
+    },
+    {
+        "text": "Ok, so therefore I know this sum.",
+        "start": 231.56,
+        "duration": 2.38
+    },
+    {
+        "text": "So let's divide through by this 2 and I get a quarter.",
+        "start": 234.46,
+        "duration": 2.48
+    },
+    {
+        "text": "So now I know that this sum, the second sum with somewhere the signs alternate",
+        "start": 237.28,
+        "duration": 4.72
+    },
+    {
+        "text": "is actually equal to 1/4.",
+        "start": 242.7,
+        "duration": 1.1
+    },
+    {
+        "text": "So this is my second remarkable result.",
+        "start": 244.52,
+        "duration": 1.98
+    },
+    {
+        "text": "Now I have everything I need to prove\nthis crazy -1/12 thing, right.",
+        "start": 246.88,
+        "duration": 3.88
+    },
+    {
+        "text": "Ok, so let's do it.",
+        "start": 250.76,
+        "duration": 1.12
+    },
+    {
+        "text": "I'm going to take this one and I'm going to subtract this one.",
+        "start": 252.08,
+        "duration": 3.46
+    },
+    {
+        "text": "Ok, so I'm going to substract S2 from S. Let's write them (?)",
+        "start": 256.28,
+        "duration": 3.32
+    },
+    {
+        "text": "Ok, so I'm going to write our S first which is 1 + 2",
+        "start": 259.98,
+        "duration": 2.9
+    },
+    {
+        "text": "+3",
+        "start": 263.66,
+        "duration": 0.7
+    },
+    {
+        "text": "+4",
+        "start": 265.26,
+        "duration": 0.62
+    },
+    {
+        "text": "+5 and so on. Ok.",
+        "start": 266.7,
+        "duration": 1.7
+    },
+    {
+        "text": "And I'm going to subtract S2.",
+        "start": 268.84,
+        "duration": 1.76
+    },
+    {
+        "text": "So that's minus",
+        "start": 271.24,
+        "duration": 1.22
+    },
+    {
+        "text": "and let me just put a bracket. And now, because I'm gonna \"minus\" all of this",
+        "start": 272.94,
+        "duration": 3.6
+    },
+    {
+        "text": "1 -2 +3 -4 and so on.",
+        "start": 277.04,
+        "duration": 5.26
+    },
+    {
+        "text": "Ok 1 - 1 what's that?",
+        "start": 283.02,
+        "duration": 2.34
+    },
+    {
+        "text": "-Zero\n-Zero, yeah, exactly. So I get nothing from that bit.",
+        "start": 285.78,
+        "duration": 2.8
+    },
+    {
+        "text": "2 - (-2) is... 4",
+        "start": 290.52,
+        "duration": 3.98
+    },
+    {
+        "text": "Ok 3 - 3... 0",
+        "start": 295.16,
+        "duration": 3.06
+    },
+    {
+        "text": "4 - (-4) is... 8",
+        "start": 299.22,
+        "duration": 3.32
+    },
+    {
+        "text": "And so on.",
+        "start": 303.4,
+        "duration": 0.72
+    },
+    {
+        "text": "And the next one, I'm gonna get it from the 5, so I get nothing.",
+        "start": 304.44,
+        "duration": 2.82
+    },
+    {
+        "text": "From the 6 here I get 12, and so on duh duh duh...",
+        "start": 307.68,
+        "duration": 3.18
+    },
+    {
+        "text": "And it proceeds in that way.",
+        "start": 311.1,
+        "duration": 1.2
+    },
+    {
+        "text": "And now you can see we're almost there now right.",
+        "start": 312.6,
+        "duration": 1.94
+    },
+    {
+        "text": "Because look what I've got here. I've got 4 + 8 + 12.",
+        "start": 314.54,
+        "duration": 2.28
+    },
+    {
+        "text": "I'll take a factor of 4 out.",
+        "start": 317.2,
+        "duration": 1.52
+    },
+    {
+        "text": "It's 4 times 1 + 2 + 3 duh duh duh",
+        "start": 319.7,
+        "duration": 4.2
+    },
+    {
+        "text": "Ok",
+        "start": 324.42,
+        "duration": 0.5
+    },
+    {
+        "text": "It's my sum I want to...",
+        "start": 326.0,
+        "duration": 1.28
+    },
+    {
+        "text": "So now I've got a formula So this is just 4 time S,",
+        "start": 327.56,
+        "duration": 3.54
+    },
+    {
+        "text": "which is my sum.",
+        "start": 331.58,
+        "duration": 0.9
+    },
+    {
+        "text": "Now I just solve this equation, right, because I know what S2 is.",
+        "start": 332.9,
+        "duration": 2.2
+    },
+    {
+        "text": "So I have now the expression S minus... I know what S2 is: S2 is 1/4",
+        "start": 335.86,
+        "duration": 4.34
+    },
+    {
+        "text": "is equal to 4S.",
+        "start": 341.76,
+        "duration": 1.0
+    },
+    {
+        "text": "Ok, let's take S from either sides, so I get -1/4 is equal to 3S.",
+        "start": 343.94,
+        "duration": 4.96
+    },
+    {
+        "text": "Which implies that S equals -1/12.",
+        "start": 349.44,
+        "duration": 4.5
+    },
+    {
+        "text": "(?) you believe me.",
+        "start": 354.2,
+        "duration": 1.04
+    },
+    {
+        "text": "That's amazing, I love it... It's so nice...",
+        "start": 356.84,
+        "duration": 2.62
+    },
+    {
+        "text": "(?)",
+        "start": 360.66,
+        "duration": 0.66
+    },
+    {
+        "text": "Tony, if I've got a calculator out,",
+        "start": 361.42,
+        "duration": 1.74
+    },
+    {
+        "text": "and wrote 1 + 2 + 3 + 4 + 5 and I sat here until the end of everything,",
+        "start": 363.6,
+        "duration": 5.64
+    },
+    {
+        "text": "and then press =",
+        "start": 369.58,
+        "duration": 1.16
+    },
+    {
+        "text": "-Will I get -1/12 ?\n-What do you mean by the end of everything?",
+        "start": 371.5,
+        "duration": 2.7
+    },
+    {
+        "text": "You can't do it till the end of everything, can you?",
+        "start": 375.32,
+        "duration": 1.48
+    },
+    {
+        "text": "So, the point is I know it looks like a\nbit of mathematical hocus-pocus or thing, but...",
+        "start": 377.52,
+        "duration": 4.36
+    },
+    {
+        "text": "I tell you the truth it's not, and I'll tell you why we know it's not:",
+        "start": 382.32,
+        "duration": 2.62
+    },
+    {
+        "text": "And I know you think I've gone about physics too much.",
+        "start": 385.82,
+        "duration": 2.28
+    },
+    {
+        "text": "But we know it's not because of physics.",
+        "start": 388.1,
+        "duration": 1.6
+    },
+    {
+        "text": "Because these kinds of sums appear in physics.",
+        "start": 389.7,
+        "duration": 3.0
+    },
+    {
+        "text": "And in physics we don't get infinite answers.",
+        "start": 392.88,
+        "duration": 2.02
+    },
+    {
+        "text": "It's amazing. It's amazing and it's just...",
+        "start": 395.08,
+        "duration": 2.22
+    },
+    {
+        "text": "You know, I was trying to come up with an intuitive reason for this,",
+        "start": 397.9,
+        "duration": 3.78
+    },
+    {
+        "text": "and I just couldn't.",
+        "start": 402.02,
+        "duration": 0.84
+    },
+    {
+        "text": "*laughing*\nto be honest",
+        "start": 402.86,
+        "duration": 1.82
+    },
+    {
+        "text": "You have to do the mathematical\nhocus-pocus really to see it.",
+        "start": 405.34,
+        "duration": 3.2
+    },
+    {
+        "text": "And then you just have to believe that you're not measuring physical infinities in nature",
+        "start": 409.56,
+        "duration": 4.539
+    },
+    {
+        "text": "and those two facts, I think, give you confidence in this result. But...",
+        "start": 414.1,
+        "duration": 3.74
+    },
+    {
+        "text": "it is clearly counter-intuitive.\nIt's counter-intuitive because",
+        "start": 418.18,
+        "duration": 2.7
+    },
+    {
+        "text": "intuitively, you just want to stop the sequence, and in the minute you stop the sequence...",
+        "start": 422.6,
+        "duration": 3.72
+    },
+    {
+        "text": "then all your intuition for this result goes out the window",
+        "start": 427.54,
+        "duration": 2.82
+    },
+    {
+        "text": "So what if I do 1 + 2 + 3 + 4 + 5... and I go up to a googleplex ?",
+        "start": 431.06,
+        "duration": 4.2
+    },
+    {
+        "text": "You get a big number... you won't\nget anything like -1/12.",
+        "start": 436.18,
+        "duration": 3.58
+    },
+    {
+        "text": "You'll have to get to infinity, Brady",
+        "start": 441.24,
+        "duration": 1.74
+    },
+    {
+        "text": "It's negative.",
+        "start": 444.36,
+        "duration": 0.74
+    },
+    {
+        "text": "I've added all these positive numbers together up to infinity",
+        "start": 445.72,
+        "duration": 3.1
+    },
+    {
+        "text": "and I've got -1/12.",
+        "start": 449.46,
+        "duration": 2.28
+    },
+    {
+        "text": "But it does play a role in lots of different things",
+        "start": 452.34,
+        "duration": 3.32
+    },
+    {
+        "text": "that the number 12 and and it's so for\nexample as I said the calculations of",
+        "start": 455.669,
+        "duration": 6.691
+    },
+    {
+        "text": "the critical dimension in string theory, the 26 dimensions",
+        "start": 462.36,
+        "duration": 3.78
+    },
+    {
+        "text": "comes from this calculation.",
+        "start": 466.5,
+        "duration": 1.76
+    }
+]

@@ -1,0 +1,677 @@
+[
+    {
+        "text": "SciShow is supported by Brilliant.org.",
+        "start": 0.3,
+        "duration": 2.06
+    },
+    {
+        "text": "[INTRO ♪]",
+        "start": 2.36,
+        "duration": 3.06
+    },
+    {
+        "text": "We’ve come to rely pretty heavily on Wi-Fi.",
+        "start": 5.42,
+        "duration": 2.74
+    },
+    {
+        "text": "We’ve got our phones, computers, and watches\nhooked into our personal networks,",
+        "start": 8.16,
+        "duration": 4.13
+    },
+    {
+        "text": "not to mention all those Internet of Things\ngadgets,",
+        "start": 12.29,
+        "duration": 2.67
+    },
+    {
+        "text": "like smart refrigerators and network-enabled\njuice presses.",
+        "start": 14.96,
+        "duration": 2.86
+    },
+    {
+        "text": "Which is why the giant flaming hole in Wi-Fi\nsecurity announced last week",
+        "start": 17.82,
+        "duration": 3.549
+    },
+    {
+        "text": "is kind of a huge deal.",
+        "start": 21.369,
+        "duration": 1.431
+    },
+    {
+        "text": "The vulnerability, discovered by Belgian security\nresearcher Mathy Vanhoef,",
+        "start": 22.8,
+        "duration": 3.98
+    },
+    {
+        "text": "could let hackers do things like steal credit\ncard numbers",
+        "start": 26.789,
+        "duration": 2.39
+    },
+    {
+        "text": "or inject malware basically anywhere there’s\nWi-Fi.",
+        "start": 29.179,
+        "duration": 3.001
+    },
+    {
+        "text": "And it went overlooked for 14 years.",
+        "start": 32.18,
+        "duration": 1.91
+    },
+    {
+        "text": "In practice, the effects might not be that\nbad,",
+        "start": 34.09,
+        "duration": 2.57
+    },
+    {
+        "text": "but experts were still taken by surprise.",
+        "start": 36.66,
+        "duration": 1.879
+    },
+    {
+        "text": "The security protocol that encrypts pretty\nmuch all Wi-Fi networks is called WPA2,",
+        "start": 38.539,
+        "duration": 4.54
+    },
+    {
+        "text": "short for Wi-Fi Protected Access … two.",
+        "start": 43.08,
+        "duration": 2.4
+    },
+    {
+        "text": "It’s been around since 2004, and it was\nmathematically proven to be safe",
+        "start": 45.48,
+        "duration": 4.039
+    },
+    {
+        "text": "and to not give up passwords or encryption\nkeys.",
+        "start": 49.52,
+        "duration": 2.64
+    },
+    {
+        "text": "Which … it doesn’t.",
+        "start": 52.16,
+        "duration": 1.26
+    },
+    {
+        "text": "But the new vulnerability, known as Krack,",
+        "start": 53.42,
+        "duration": 2.31
+    },
+    {
+        "text": "gives hackers a potential workaround.",
+        "start": 55.73,
+        "duration": 1.76
+    },
+    {
+        "text": "Krack, short for Key Reinstallation AttaCK,",
+        "start": 57.49,
+        "duration": 3.07
+    },
+    {
+        "text": "exploits a process that’s an important part\nof WPA2 security:",
+        "start": 60.56,
+        "duration": 3.36
+    },
+    {
+        "text": "what’s known as the four-way handshake.",
+        "start": 63.92,
+        "duration": 2.02
+    },
+    {
+        "text": "The handshake is a series of messages exchanged\nbetween a client device,",
+        "start": 65.94,
+        "duration": 3.56
+    },
+    {
+        "text": "like your phone, and an access point, like\nyour router,",
+        "start": 69.5,
+        "duration": 2.55
+    },
+    {
+        "text": "when they’re establishing a secure connection.",
+        "start": 72.05,
+        "duration": 1.78
+    },
+    {
+        "text": "The first two steps of the four-way handshake\ninvolve",
+        "start": 73.83,
+        "duration": 2.28
+    },
+    {
+        "text": "the client and access point each making sure\nthey have the right password.",
+        "start": 76.11,
+        "duration": 3.41
+    },
+    {
+        "text": "In the third message, the access point sends\nsome additional information,",
+        "start": 79.52,
+        "duration": 3.26
+    },
+    {
+        "text": "and the fourth message is the client saying,\n“OK, we’re good to go.”",
+        "start": 82.78,
+        "duration": 3.33
+    },
+    {
+        "text": "Over the course of this exchange, the access\npoint and the client",
+        "start": 86.11,
+        "duration": 2.41
+    },
+    {
+        "text": "agree on an encryption key,",
+        "start": 88.52,
+        "duration": 1.75
+    },
+    {
+        "text": "which both of them install after the fourth\nmessage.",
+        "start": 90.27,
+        "duration": 2.42
+    },
+    {
+        "text": "That key, along with a special number associated\nwith",
+        "start": 92.69,
+        "duration": 2.44
+    },
+    {
+        "text": "the amount of data that’s been sent through\nthe connection so far,",
+        "start": 95.13,
+        "duration": 2.86
+    },
+    {
+        "text": "is used to encrypt each chunk of data, or\npacket.",
+        "start": 97.99,
+        "duration": 2.85
+    },
+    {
+        "text": "It’s kind of like a cereal box decoder ring\nthat lets you",
+        "start": 100.84,
+        "duration": 2.37
+    },
+    {
+        "text": "have the rest of the conversation in code.",
+        "start": 103.21,
+        "duration": 2.01
+    },
+    {
+        "text": "That conversation is all of the data you’re\nsending and receiving on the internet,",
+        "start": 105.22,
+        "duration": 3.5
+    },
+    {
+        "text": "including your credit card number if you feel\nlike finally",
+        "start": 108.72,
+        "duration": 2.58
+    },
+    {
+        "text": "splurging on that new video game.",
+        "start": 111.3,
+        "duration": 1.76
+    },
+    {
+        "text": "And Wi-Fi is beamed into the air where anyone\nin range can intercept it.",
+        "start": 113.06,
+        "duration": 3.57
+    },
+    {
+        "text": "As long as it’s encrypted, nobody can snoop\non",
+        "start": 116.63,
+        "duration": 2.28
+    },
+    {
+        "text": "the information you’re sending even if they\nintercept the message.",
+        "start": 118.91,
+        "duration": 3.05
+    },
+    {
+        "text": "Without knowing the code, it’s just gibberish.",
+        "start": 121.96,
+        "duration": 1.9
+    },
+    {
+        "text": "The Krack exploit lets hackers figure out\nthe code",
+        "start": 123.86,
+        "duration": 2.47
+    },
+    {
+        "text": "by targeting the third message in the handshake.",
+        "start": 126.33,
+        "duration": 2.61
+    },
+    {
+        "text": "That message can sometimes drop out because\nof routine blips in the connection,",
+        "start": 128.94,
+        "duration": 3.55
+    },
+    {
+        "text": "so if the access point doesn’t get the fourth\n“OK, it’s all good” message",
+        "start": 132.49,
+        "duration": 3.101
+    },
+    {
+        "text": "from the client, it sends the third message\nagain,",
+        "start": 135.591,
+        "duration": 2.999
+    },
+    {
+        "text": "like “Hey!",
+        "start": 138.59,
+        "duration": 1.0
+    },
+    {
+        "text": "I don’t think you got that!",
+        "start": 139.59,
+        "duration": 1.13
+    },
+    {
+        "text": "Let me repeat it.”",
+        "start": 140.72,
+        "duration": 1.0
+    },
+    {
+        "text": "In his paper, Vanhoef found that if a hacker\nblocks that fourth “got it” message",
+        "start": 141.72,
+        "duration": 3.531
+    },
+    {
+        "text": "from getting to the access point, causing\nit to send the third message again,",
+        "start": 145.251,
+        "duration": 3.479
+    },
+    {
+        "text": "they can force a device to reinstall the encryption\nkey,",
+        "start": 148.73,
+        "duration": 3.17
+    },
+    {
+        "text": "which also resets that special number.",
+        "start": 151.9,
+        "duration": 1.96
+    },
+    {
+        "text": "And that’s bad.",
+        "start": 153.86,
+        "duration": 1.209
+    },
+    {
+        "text": "It means you’ll end up using the same encryption\nkey and the same number—",
+        "start": 155.069,
+        "duration": 3.701
+    },
+    {
+        "text": "and therefore, the exact same code—over\nand over again.",
+        "start": 158.77,
+        "duration": 3.17
+    },
+    {
+        "text": "And repetition is how codes are broken.",
+        "start": 161.94,
+        "duration": 1.75
+    },
+    {
+        "text": "With all those data packets encrypted with\nthe exact same code,",
+        "start": 163.69,
+        "duration": 3.15
+    },
+    {
+        "text": "hackers can look for patterns that give away\nwhat the code is.",
+        "start": 166.84,
+        "duration": 2.36
+    },
+    {
+        "text": "It becomes way simpler to decrypt the data\nthey’re intercepting.",
+        "start": 169.2,
+        "duration": 3.08
+    },
+    {
+        "text": "They could do a handful of things with this\nexploit,",
+        "start": 172.28,
+        "duration": 1.99
+    },
+    {
+        "text": "depending on the specific type of connection.",
+        "start": 174.27,
+        "duration": 2.2
+    },
+    {
+        "text": "In some cases, they could theoretically send\ndata, too,",
+        "start": 176.47,
+        "duration": 2.82
+    },
+    {
+        "text": "infecting the device with malware or ransomware.",
+        "start": 179.29,
+        "duration": 2.11
+    },
+    {
+        "text": "Now, this is a massive vulnerability, and\nthere’s reason to take precautions.",
+        "start": 181.4,
+        "duration": 3.54
+    },
+    {
+        "text": "But there’s also reason not to panic, because\nit’s not the end of Wi-Fi as we know it.",
+        "start": 184.95,
+        "duration": 4.57
+    },
+    {
+        "text": "The bad news first: since WPA2 is supposed\nto be so safe,",
+        "start": 189.52,
+        "duration": 3.84
+    },
+    {
+        "text": "it’s used to secure basically all Wi-Fi\nnetworks.",
+        "start": 193.36,
+        "duration": 3.14
+    },
+    {
+        "text": "All of the Wi-Fi.",
+        "start": 196.5,
+        "duration": 0.98
+    },
+    {
+        "text": "All of it.",
+        "start": 197.48,
+        "duration": 0.7
+    },
+    {
+        "text": "So if you’re saying to yourself, “I wonder\nif my Wi-Fi enabled toaster is affected,”",
+        "start": 198.18,
+        "duration": 3.86
+    },
+    {
+        "text": "yes.",
+        "start": 202.05,
+        "duration": 1.0
+    },
+    {
+        "text": "Yes it is.",
+        "start": 203.05,
+        "duration": 1.4
+    },
+    {
+        "text": "Because it’s hooked into your home Wi-Fi\nnetwork.",
+        "start": 204.45,
+        "duration": 1.94
+    },
+    {
+        "text": "Hide your kids.",
+        "start": 206.39,
+        "duration": 1.36
+    },
+    {
+        "text": "Hide your Wi-Fi.",
+        "start": 207.75,
+        "duration": 1.19
+    },
+    {
+        "text": "Connecting to sites via https instead of http\nadds some extra security,",
+        "start": 208.94,
+        "duration": 5.659
+    },
+    {
+        "text": "because the https in the URL means the site\nis encrypted—",
+        "start": 214.599,
+        "duration": 3.531
+    },
+    {
+        "text": "this time between the website’s server and\nyour browser,",
+        "start": 218.13,
+        "duration": 2.969
+    },
+    {
+        "text": "somewhere totally different than your computer\nand the access point.",
+        "start": 221.099,
+        "duration": 2.391
+    },
+    {
+        "text": "But, depending on the data packets hackers\nmanage to intercept and decrypt,",
+        "start": 223.49,
+        "duration": 3.46
+    },
+    {
+        "text": "there’s still a lot of information they\ncould steal.",
+        "start": 226.95,
+        "duration": 1.9
+    },
+    {
+        "text": "They could also inject harmful software into\nsites that don’t use https—",
+        "start": 228.85,
+        "duration": 4.36
+    },
+    {
+        "text": "a favorite tactic they normally abuse over\nWi-Fi networks that aren’t secure,",
+        "start": 233.21,
+        "duration": 3.55
+    },
+    {
+        "text": "like in coffee shops.",
+        "start": 236.76,
+        "duration": 1.08
+    },
+    {
+        "text": "The good news is that tech companies already\nknow about Krack",
+        "start": 237.84,
+        "duration": 2.69
+    },
+    {
+        "text": "and are working on fixes for it.",
+        "start": 240.53,
+        "duration": 1.72
+    },
+    {
+        "text": "But it’ll take time to patch everything.",
+        "start": 242.25,
+        "duration": 1.55
+    },
+    {
+        "text": "They’re already starting to push updates\nto phones and other devices.",
+        "start": 243.8,
+        "duration": 3.36
+    },
+    {
+        "text": "But your Wi-Fi router might need more time—",
+        "start": 247.16,
+        "duration": 1.98
+    },
+    {
+        "text": "not to mention your smart toaster.",
+        "start": 249.14,
+        "duration": 1.68
+    },
+    {
+        "text": "And ideally, both your devices and your router\nshould be patched.",
+        "start": 250.82,
+        "duration": 3.43
+    },
+    {
+        "text": "So you should definitely make sure to install any updates\nthat come in for your devices.",
+        "start": 254.25,
+        "duration": 3.849
+    },
+    {
+        "text": "Even your smart hairbrush.",
+        "start": 258.099,
+        "duration": 1.89
+    },
+    {
+        "text": "Is there a smart hairbrush?",
+        "start": 259.989,
+        "duration": 1.311
+    },
+    {
+        "text": "I don’t believe it.",
+        "start": 261.3,
+        "duration": 1.04
+    },
+    {
+        "text": "Another piece of good news is that a hacker\nwould have to",
+        "start": 262.34,
+        "duration": 2.14
+    },
+    {
+        "text": "physically access the Wi-Fi network to pull\noff a Krack attack.",
+        "start": 264.49,
+        "duration": 3.44
+    },
+    {
+        "text": "They couldn’t do it remotely.",
+        "start": 267.93,
+        "duration": 1.37
+    },
+    {
+        "text": "So unless you see someone in a sketchy van",
+        "start": 269.3,
+        "duration": 1.889
+    },
+    {
+        "text": "camping out across the street from your house,",
+        "start": 271.189,
+        "duration": 2.04
+    },
+    {
+        "text": "your personal network is probably fine.",
+        "start": 273.229,
+        "duration": 2.08
+    },
+    {
+        "text": "It’s a little easier to hang out near a\nbusiness without anyone noticing, though,",
+        "start": 275.309,
+        "duration": 3.691
+    },
+    {
+        "text": "which is why this isn’t a risk to totally\ndismiss.",
+        "start": 279.0,
+        "duration": 2.3
+    },
+    {
+        "text": "Vanhoef didn’t find evidence that people\nhave actually",
+        "start": 281.3,
+        "duration": 2.51
+    },
+    {
+        "text": "been carrying out Krack-based attacks, but\nthe risk in publishing it",
+        "start": 283.81,
+        "duration": 3.4
+    },
+    {
+        "text": "is that the bad guys find out too.",
+        "start": 287.21,
+        "duration": 1.929
+    },
+    {
+        "text": "Speaking of bad guys:",
+        "start": 289.139,
+        "duration": 1.34
+    },
+    {
+        "text": "right up there with hackers are chronically\ndishonest people, aka liars.",
+        "start": 290.48,
+        "duration": 4.42
+    },
+    {
+        "text": "Brilliant.org has a quiz about truthtellers\nand liars,",
+        "start": 294.9,
+        "duration": 3.76
+    },
+    {
+        "text": "and you need to use logic to figure out who’s\nwho.",
+        "start": 298.66,
+        "duration": 2.749
+    },
+    {
+        "text": "You need to know that I know that she knows ... I don't know!",
+        "start": 301.409,
+        "duration": 4.34
+    },
+    {
+        "text": "What I do know is that I’ve always liked\nriddles like this,",
+        "start": 305.749,
+        "duration": 2.611
+    },
+    {
+        "text": "and this is supposed to be a challenging one,\nso let’s go check it out!",
+        "start": 308.36,
+        "duration": 3.5
+    },
+    {
+        "text": "So we're looking at Brilliant's Multi-Level Thinking course,",
+        "start": 311.88,
+        "duration": 4.26
+    },
+    {
+        "text": "which is one of those things that you kinda hope you're really good at, but, uh, we'll see.",
+        "start": 316.14,
+        "duration": 5.08
+    },
+    {
+        "text": "So here we have Alice, who says Bob is lying.",
+        "start": 321.28,
+        "duration": 3.26
+    },
+    {
+        "text": "But then Bob says, \"Neither of us is lying.\"",
+        "start": 324.54,
+        "duration": 2.94
+    },
+    {
+        "text": "So now I have to figure out who's actually lying.",
+        "start": 327.48,
+        "duration": 2.86
+    },
+    {
+        "text": "Alice is calling Bob a liar, but Bob is saying neither of us is a liar.",
+        "start": 330.34,
+        "duration": 4.84
+    },
+    {
+        "text": "So if Bob was telling the truth, then Alice would also be telling the truth,",
+        "start": 335.26,
+        "duration": 5.32
+    },
+    {
+        "text": "But Alice is saying that Bob is lying, so Alice must be telling the truth!",
+        "start": 340.6,
+        "duration": 4.98
+    },
+    {
+        "text": "So even though this is kinda set up as a quiz, it doesn't really feel like I'm taking a quiz.",
+        "start": 347.16,
+        "duration": 4.76
+    },
+    {
+        "text": "It's just kinda fun and it kinda sets you up to think about the next problem in the right way,",
+        "start": 351.92,
+        "duration": 4.42
+    },
+    {
+        "text": "so that you can progress through the lesson.",
+        "start": 356.34,
+        "duration": 2.7
+    },
+    {
+        "text": "Thanks for joining me, checking out Brilliant's Multi-Level Thinking course.",
+        "start": 359.04,
+        "duration": 3.0
+    },
+    {
+        "text": "I'm really looking forward to going through their Computer Science one later",
+        "start": 362.04,
+        "duration": 3.16
+    },
+    {
+        "text": "and I think you might enjoy checking them out too, so go to Brilliant.org/SciShow and you can sign up for free",
+        "start": 365.2,
+        "duration": 4.96
+    },
+    {
+        "text": "and try them out. The first 200 people who sign up there will get 20% off their annual subscription.",
+        "start": 370.16,
+        "duration": 5.26
+    },
+    {
+        "text": "[OUTRO ♪]",
+        "start": 375.46,
+        "duration": 8.78
+    }
+]

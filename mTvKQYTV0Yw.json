@@ -1,0 +1,707 @@
+[
+    {
+        "text": "Brady: Hey there everyone, we're about to show you an interview with a mathematical biologist called Kit Yates.",
+        "start": 0.0,
+        "duration": 4.319
+    },
+    {
+        "text": "It's about coronavirus. If you'd like to see a longer version, the full 28 minute podcast,",
+        "start": 4.5,
+        "duration": 5.609
+    },
+    {
+        "text": "I'll put that on the Numberphile2",
+        "start": 10.11,
+        "duration": 2.25
+    },
+    {
+        "text": "YouTube channel as I usually do and you can also listen to the podcast in all the usual ways. Just search for",
+        "start": 12.519,
+        "duration": 5.689
+    },
+    {
+        "text": "Numberphile and it's the episode called \"Gondor calls for aid\"",
+        "start": 19.18,
+        "duration": 3.379
+    },
+    {
+        "text": "Kit: So, my name's Kit Yates. I'm a",
+        "start": 23.68,
+        "duration": 2.0
+    },
+    {
+        "text": "mathematical biologist. I'm also a senior lecturer at the University of Bath. And so by mathematical biologist,",
+        "start": 26.23,
+        "duration": 7.729
+    },
+    {
+        "text": "I think people find that a bit of a strange one to deal with, because I think people think that",
+        "start": 33.96,
+        "duration": 3.659
+    },
+    {
+        "text": "typically maths is quite pure and abstract, and biology is pretty messy in real world and never the twain shall meet. But umm",
+        "start": 37.84,
+        "duration": 6.919
+    },
+    {
+        "text": "really what I do there today is take",
+        "start": 45.309,
+        "duration": 2.0
+    },
+    {
+        "text": "biological systems that I think are interesting, so maybe anything from a swarm of locusts to the way that eggs get their partnering,",
+        "start": 47.739,
+        "duration": 5.99
+    },
+    {
+        "text": "or the way that",
+        "start": 53.73,
+        "duration": 0.7
+    },
+    {
+        "text": "Embryos develop; and try and write down a system of equations or computer code which describe that to try and make predictions about those systems.",
+        "start": 54.43,
+        "duration": 7.369
+    },
+    {
+        "text": "Kit, you say that people don't often see the link between",
+        "start": 61.96,
+        "duration": 2.569
+    },
+    {
+        "text": "biological systems and mathematics. I feel like that's changed pretty rapidly in the last few weeks.",
+        "start": 65.68,
+        "duration": 4.32
+    },
+    {
+        "text": "Right, everyone is talking about exponential growth; about",
+        "start": 70.2,
+        "duration": 3.2
+    },
+    {
+        "text": "epidemic;",
+        "start": 73.93,
+        "duration": 1.11
+    },
+    {
+        "text": "epidemiological models; about",
+        "start": 75.04,
+        "duration": 1.829
+    },
+    {
+        "text": "modeling and basic reproduction numbers, Boris Johnson was talking about the fast upward tick of the curve and",
+        "start": 76.869,
+        "duration": 6.8
+    },
+    {
+        "text": "yeah, even Conor McGregor",
+        "start": 84.159,
+        "duration": 1.64
+    },
+    {
+        "text": "I saw the other day was talking about implementing harsh measures to halt exponential growth of the disease in Ireland.",
+        "start": 85.799,
+        "duration": 6.54
+    },
+    {
+        "text": "So yeah, everyone is err, everyone's talking about mathematical biology at the moment,",
+        "start": 92.34,
+        "duration": 4.2
+    },
+    {
+        "text": "so it's a good time to be a mathematical biologist. \n- Is there a degree of that?",
+        "start": 96.54,
+        "duration": 3.149
+    },
+    {
+        "text": "I know, I know I'm sure if you had a magic wand you would make this all go away and what a terrible thing",
+        "start": 99.689,
+        "duration": 5.1
+    },
+    {
+        "text": "this is for the world. But are mathematicians kind of thinking \"at last! People get it!\" \n- I think that's true.",
+        "start": 104.79,
+        "duration": 4.949
+    },
+    {
+        "text": "I think people, like there's, there's a good meme going around where it's just a guy standing a chalkboard drawing an exponential curve and",
+        "start": 109.74,
+        "duration": 6.54
+    },
+    {
+        "text": "students saying \"crap, when are we ever going to need this?\"",
+        "start": 116.649,
+        "duration": 2.03
+    },
+    {
+        "text": "Right and it's sort of the case. It sort of feels like, to some extent a little bit of vindication. Although, yeah, of course, um,",
+        "start": 118.68,
+        "duration": 6.36
+    },
+    {
+        "text": "ideally you would wish it away if you could do, but yeah",
+        "start": 125.71,
+        "duration": 2.15
+    },
+    {
+        "text": "I think mathematicians are trying to make the most of this opportunity and,",
+        "start": 127.86,
+        "duration": 4.229
+    },
+    {
+        "text": "and to try and show people why maths really can be important. It can be a matter of life and death sometimes.",
+        "start": 132.3,
+        "duration": 4.8
+    },
+    {
+        "text": "- Do you feel like",
+        "start": 137.1,
+        "duration": 2.0
+    },
+    {
+        "text": "this has shown up, sort of a problem with",
+        "start": 139.36,
+        "duration": 2.9
+    },
+    {
+        "text": "mathematical literacy? Or do you think people have kind of risen to the occasion",
+        "start": 142.51,
+        "duration": 2.929
+    },
+    {
+        "text": "and they're getting it? Like how have you felt about how well the public are",
+        "start": 145.57,
+        "duration": 4.25
+    },
+    {
+        "text": "understanding some of these things? Before we do start talking about the maths.",
+        "start": 150.01,
+        "duration": 2.899
+    },
+    {
+        "text": "- Yeah I think, I think people are doing an okay job",
+        "start": 152.91,
+        "duration": 3.24
+    },
+    {
+        "text": "actually. I think the fact that people are even talking about it and caring about, you know",
+        "start": 156.16,
+        "duration": 4.399
+    },
+    {
+        "text": "how good these models are and asking these questions is a really good sign and",
+        "start": 160.56,
+        "duration": 4.23
+    },
+    {
+        "text": "I think it's it's a little bit difficult to explain all the really complex models",
+        "start": 165.01,
+        "duration": 5.269
+    },
+    {
+        "text": "that are out there at the moment, but I think that actually the basic mathematical models that underlie",
+        "start": 170.83,
+        "duration": 5.69
+    },
+    {
+        "text": "epidemiological spread are actually not too difficult to understand in fairly, fairly straightforward terms",
+        "start": 177.34,
+        "duration": 4.76
+    },
+    {
+        "text": "And I think it's our job as maths communicators to try and make those things as as understandable as possible",
+        "start": 182.1,
+        "duration": 5.849
+    },
+    {
+        "text": "I think there's a lot of good people out there working really hard to do that.",
+        "start": 187.95,
+        "duration": 2.91
+    },
+    {
+        "text": "- Coronavirus, Let's deal with that for a second. That's exponential growth?",
+        "start": 191.47,
+        "duration": 3.63
+    },
+    {
+        "text": "- At the moment? Yeah. Like, so the way these, the simplest mathematical",
+        "start": 195.3,
+        "duration": 2.2
+    },
+    {
+        "text": "epidemiological models work is you bake, you break the population down into three different compartments. They're called Susceptible,",
+        "start": 199.6,
+        "duration": 6.589
+    },
+    {
+        "text": "so people who haven't had the disease,",
+        "start": 206.19,
+        "duration": 1.9
+    },
+    {
+        "text": "Infected, so people who have the disease and can affect it other people, and then we have this removed category,",
+        "start": 208.09,
+        "duration": 5.059
+    },
+    {
+        "text": "it's sort of a euphemistic term for people who have recovered - but also people that have died as well.",
+        "start": 213.15,
+        "duration": 4.47
+    },
+    {
+        "text": "- This is the sir model we hear talked about?\n- Right this is, yeah",
+        "start": 217.62,
+        "duration": 3.059
+    },
+    {
+        "text": "- We usually call it SIR but yeah, sir, whatever you want to call it really.",
+        "start": 221.56,
+        "duration": 2.39
+    },
+    {
+        "text": "and",
+        "start": 224.47,
+        "duration": 1.05
+    },
+    {
+        "text": "We, at the very early stages you have a whole bunch of people who are susceptible to the disease and very few people",
+        "start": 225.52,
+        "duration": 5.18
+    },
+    {
+        "text": "who are infected and so",
+        "start": 230.7,
+        "duration": 2.0
+    },
+    {
+        "text": "each individual can go and infect a certain number of people, who are susceptible;",
+        "start": 233.44,
+        "duration": 5.089
+    },
+    {
+        "text": "we call this the basic reproduction number of the disease. And if that number of people that they infect",
+        "start": 238.53,
+        "duration": 4.41
+    },
+    {
+        "text": "over the course of their infectious period is greater than one, then they will on average",
+        "start": 243.01,
+        "duration": 4.669
+    },
+    {
+        "text": "infect that many people, who will then go infect that many people again, so",
+        "start": 247.68,
+        "duration": 3.12
+    },
+    {
+        "text": "for Covid at the moment, estimates of the basic reproduction number are between 1.5 and 4, so",
+        "start": 251.32,
+        "duration": 5.929
+    },
+    {
+        "text": "it's quite a big window.",
+        "start": 257.25,
+        "duration": 1.84
+    },
+    {
+        "text": "But 2.5 is a generally sort of acceptable number.",
+        "start": 259.09,
+        "duration": 2.779
+    },
+    {
+        "text": "So the first person goes and infects 2.5 other people they're going to infect",
+        "start": 262.27,
+        "duration": 3.319
+    },
+    {
+        "text": "2.5 more, and 2.5 more and the, the exponential growth",
+        "start": 265.78,
+        "duration": 3.299
+    },
+    {
+        "text": "then occurs. You get you start to see the numbers growing exponentially. \n- What kind of jobs are",
+        "start": 269.6,
+        "duration": 5.1
+    },
+    {
+        "text": "mathematicians doing at the moment?",
+        "start": 275.48,
+        "duration": 1.07
+    },
+    {
+        "text": "Like I can see what I can see the job of doctors and I can see that the job of researchers trying to come up",
+        "start": 276.55,
+        "duration": 4.68
+    },
+    {
+        "text": "with vaccines. I mean,",
+        "start": 281.23,
+        "duration": 2.0
+    },
+    {
+        "text": "the, these graphs and models you're talking about, they've been known long before",
+        "start": 284.51,
+        "duration": 3.649
+    },
+    {
+        "text": "Covid came along and obviously they're being applied now.",
+        "start": 288.74,
+        "duration": 2.63
+    },
+    {
+        "text": "But are their day-to-day things mathematicians can be doing? Like, new work they can be doing to help in this battle?",
+        "start": 291.68,
+        "duration": 5.6
+    },
+    {
+        "text": "- Yeah, absolutely, cos every disease is different, right?",
+        "start": 297.28,
+        "duration": 2.25
+    },
+    {
+        "text": "And these, these simple models that, that I've sort of described this SIR model, they can be made infinitely more complex, right",
+        "start": 299.53,
+        "duration": 6.149
+    },
+    {
+        "text": "So SIR is fine for some very simple diseases,",
+        "start": 306.01,
+        "duration": 4.289
+    },
+    {
+        "text": "but actually there's the extensions that we can make to those SIR models to include things like a carrier class,",
+        "start": 310.3,
+        "duration": 5.79
+    },
+    {
+        "text": "so people who have the disease - but aren't",
+        "start": 316.09,
+        "duration": 2.279
+    },
+    {
+        "text": "necessarily showing symptoms, so they're not necessarily umm",
+        "start": 319.34,
+        "duration": 2.36
+    },
+    {
+        "text": "showing - you wouldn't class them as infected, cos you don't know they're infected yet,",
+        "start": 323.0,
+        "duration": 3.079
+    },
+    {
+        "text": "but they've had this asymptomatic",
+        "start": 326.08,
+        "duration": 1.21
+    },
+    {
+        "text": "period - which is what's happening with Covid. And so they can be spreading it without you even knowing that they're infected and that can be",
+        "start": 327.29,
+        "duration": 5.929
+    },
+    {
+        "text": "that can be a real problem.",
+        "start": 333.22,
+        "duration": 1.199
+    },
+    {
+        "text": "And it has been a real problem with Covid because, we can't just - isolate people as soon as they show symptoms,",
+        "start": 334.419,
+        "duration": 4.29
+    },
+    {
+        "text": "we have to be isolating everyone in case they've got symptoms.",
+        "start": 338.71,
+        "duration": 3.54
+    },
+    {
+        "text": "So, that's just one really simple extension you can make but adding in things like noise so stochasticity",
+        "start": 342.26,
+        "duration": 5.899
+    },
+    {
+        "text": "or randomness, in the way that people bump into each other. Taking account of the networks with which people",
+        "start": 348.229,
+        "duration": 5.99
+    },
+    {
+        "text": "interact with each other can make a huge difference as well.",
+        "start": 354.47,
+        "duration": 2.66
+    },
+    {
+        "text": "You get these umm",
+        "start": 357.14,
+        "duration": 1.26
+    },
+    {
+        "text": "people who are",
+        "start": 358.4,
+        "duration": 1.35
+    },
+    {
+        "text": "social hubs, and therefore will spread the disease to lots of people compared to - people who are stuck at home and",
+        "start": 359.75,
+        "duration": 5.359
+    },
+    {
+        "text": "don't go out so much so, you can make these things arbitrarily complex and there's actually been a call by the Royal Society for rapid",
+        "start": 365.27,
+        "duration": 7.519
+    },
+    {
+        "text": "assistance in modelling pandemics. Where all",
+        "start": 373.34,
+        "duration": 2.089
+    },
+    {
+        "text": "mathematicians, especially applied mathematicians, who have familiarity with modelling can sign up and help out in this cause so yeah,",
+        "start": 376.19,
+        "duration": 6.529
+    },
+    {
+        "text": "there's loads to be done at the moment, and we're keeping really busy.",
+        "start": 382.72,
+        "duration": 2.67
+    },
+    {
+        "text": "- Kit, how does someone",
+        "start": 385.8,
+        "duration": 1.88
+    },
+    {
+        "text": "build in something like these, these you know,",
+        "start": 387.68,
+        "duration": 3.109
+    },
+    {
+        "text": "these hub, super-spreader type people as opposed to people who are locked away? Like I see that they exist",
+        "start": 390.789,
+        "duration": 5.19
+    },
+    {
+        "text": "but how would you put them into a model, these sort of unmeasurables? Or like, I see you could guess at what they are",
+        "start": 396.59,
+        "duration": 6.26
+    },
+    {
+        "text": "but I, but then how do you?\n- So they're not necessarily",
+        "start": 402.85,
+        "duration": 2.0
+    },
+    {
+        "text": "unmeasurables. We actually know a lot, a lot about our social structure, in part from using social networking data,",
+        "start": 405.26,
+        "duration": 6.199
+    },
+    {
+        "text": "but also just, there's been a number of studies done and you can actually classify",
+        "start": 411.46,
+        "duration": 3.179
+    },
+    {
+        "text": "the way that people interact using a network",
+        "start": 415.25,
+        "duration": 2.059
+    },
+    {
+        "text": "so, people are noticing that network and they're connecting to the other people at, at edges.",
+        "start": 417.32,
+        "duration": 4.639
+    },
+    {
+        "text": "And so you can classify",
+        "start": 421.96,
+        "duration": 1.39
+    },
+    {
+        "text": "what's called the degree distribution of that network, which tells you how many people are there who have 100 contacts.",
+        "start": 423.35,
+        "duration": 5.75
+    },
+    {
+        "text": "How many people with 99-98, and so on. Down to - how many people are there with no contacts? And that distribution",
+        "start": 429.3,
+        "duration": 4.48
+    },
+    {
+        "text": "can tell you a great deal about the way that people interact so you can incorporate that network modelling into these SIR models.",
+        "start": 434.09,
+        "duration": 7.16
+    },
+    {
+        "text": "So, you know, you start the disease off in a particular node with, you know,",
+        "start": 441.25,
+        "duration": 4.17
+    },
+    {
+        "text": "a particular connectivity. How many people did they actually interact with? And you see how it spreads around the network.",
+        "start": 445.42,
+        "duration": 4.709
+    },
+    {
+        "text": "So, they, they may seem almost intangible,",
+        "start": 450.13,
+        "duration": 2.85
+    },
+    {
+        "text": "but, actually if we have good enough data -",
+        "start": 452.98,
+        "duration": 1.26
+    },
+    {
+        "text": "and this is what it all comes down to really, if we have good enough data,",
+        "start": 454.24,
+        "duration": 2.61
+    },
+    {
+        "text": "then we can actually capture,",
+        "start": 457.16,
+        "duration": 2.0
+    },
+    {
+        "text": "capture these behaviours. But, data at the moment on this emerging pandemic is really difficult to come by.",
+        "start": 459.2,
+        "duration": 5.059
+    },
+    {
+        "text": "- I mean",
+        "start": 464.26,
+        "duration": 0.39
+    },
+    {
+        "text": "It seems pretty obvious that this pandemic's gonna leave a scar on the world and have some kind of, some kind of long lasting effect.",
+        "start": 464.65,
+        "duration": 6.75
+    },
+    {
+        "text": "What about mathematically? Do you think it's gonna have a mathematical -",
+        "start": 472.19,
+        "duration": 2.48
+    },
+    {
+        "text": "legacy? Is it gonna, like, because, because I've never seen mathematics being talked about so much with the global news of it.",
+        "start": 475.4,
+        "duration": 6.0
+    },
+    {
+        "text": "- Yeah, exactly",
+        "start": 481.4,
+        "duration": 0.6
+    },
+    {
+        "text": "I think, I hope, it will draw people into mathematics and make people realise that, you know, you",
+        "start": 482.0,
+        "duration": 6.949
+    },
+    {
+        "text": "if you become a mathematician, you can have a real impact on the world. You're not just sat behind the desk",
+        "start": 489.56,
+        "duration": 5.149
+    },
+    {
+        "text": "writing a textbook for, you know, for a subject which is dead and gone.",
+        "start": 495.23,
+        "duration": 3.769
+    },
+    {
+        "text": "You're actually living in the real world, and you're doing things which can have a real",
+        "start": 499.0,
+        "duration": 3.809
+    },
+    {
+        "text": "important impact on people's lives. So I hope that people,",
+        "start": 503.42,
+        "duration": 2.569
+    },
+    {
+        "text": "future generations of kids who are studying maths in school at the moment will say \"wow\"",
+        "start": 506.6,
+        "duration": 3.979
+    },
+    {
+        "text": "\"This is actually this living, breathing, exciting subject and I want to be part of that\"",
+        "start": 510.58,
+        "duration": 5.28
+    },
+    {
+        "text": "And so I hope we'll get more people into mathematics.",
+        "start": 515.86,
+        "duration": 2.25
+    },
+    {
+        "text": "And I also hope that people will take maths a little bit more seriously themselves,",
+        "start": 518.11,
+        "duration": 4.95
+    },
+    {
+        "text": "so, maths generally only gets in the news when it's, you know,",
+        "start": 523.06,
+        "duration": 3.029
+    },
+    {
+        "text": "the Fields Medal times and and, you know, people struggle to understand the very complicated maths that the Fields Medallists have done, the maths,",
+        "start": 526.09,
+        "duration": 6.31
+    },
+    {
+        "text": "but actually,",
+        "start": 532.63,
+        "duration": 0.79
+    },
+    {
+        "text": "you know, at the moment we can tell people about relatively straightforward mathematical models",
+        "start": 533.42,
+        "duration": 3.83
+    },
+    {
+        "text": "which are having a huge impact on their everyday lives, And suggesting how we have come to this unprecedented",
+        "start": 537.25,
+        "duration": 5.099
+    },
+    {
+        "text": "lockdown that we've never, you know, we've never seen before. So yeah, hopefully it'll have a really big impact on people's lives.",
+        "start": 543.05,
+        "duration": 7.4
+    },
+    {
+        "text": "Just a reminder, the full 28 minute podcast",
+        "start": 551.18,
+        "duration": 2.419
+    },
+    {
+        "text": "Numberphile2 - also numberphile.com or search Numberphile on your podcast player of choice",
+        "start": 554.48,
+        "duration": 6.53
+    },
+    {
+        "text": "I'll also put some links in the video description to some useful videos and information",
+        "start": 561.01,
+        "duration": 3.9
+    },
+    {
+        "text": "including the Numberphile video with Ben Sparks about the",
+        "start": 565.28,
+        "duration": 3.019
+    },
+    {
+        "text": "Coronavirus curve and great ones from some other creators as well. And just a quick Numberphile update - before everything went into lockdown,",
+        "start": 568.52,
+        "duration": 6.349
+    },
+    {
+        "text": "we actually did manage to film lots and lots of Numberphile videos, normal ones not Skype calls.",
+        "start": 574.87,
+        "duration": 5.669
+    },
+    {
+        "text": "We're editing them at the moment and they'll be appearing in your feeds very soon.",
+        "start": 580.76,
+        "duration": 3.919
+    },
+    {
+        "text": "Thanks very much for watching and I hope you are all staying really safe",
+        "start": 584.92,
+        "duration": 2.82
+    }
+]

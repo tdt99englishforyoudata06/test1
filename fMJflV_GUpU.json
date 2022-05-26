@@ -1,0 +1,442 @@
+[
+    {
+        "text": "Everyone knows about the Fibonacci numbers",
+        "start": 0.03,
+        "duration": 2.28
+    },
+    {
+        "text": "1, 1 and then I add those two together to get 2, then 3, 5, 8...",
+        "start": 3.73,
+        "duration": 6.68
+    },
+    {
+        "text": "What would happen if instead I start with three numbers and now I'm going to add all three together.",
+        "start": 11.71,
+        "duration": 6.38
+    },
+    {
+        "text": "So that gives me 3 and I'm now going to add these three together. That's gonna give me",
+        "start": 18.13,
+        "duration": 6.29
+    },
+    {
+        "text": "5 and then these three together that's going to give me 9 and then I'm gonna get 9,",
+        "start": 25.51,
+        "duration": 7.37
+    },
+    {
+        "text": "5 and",
+        "start": 33.309,
+        "duration": 1.711
+    },
+    {
+        "text": "3;",
+        "start": 35.02,
+        "duration": 1.469
+    },
+    {
+        "text": "17. And we're gonna get a different sequence of",
+        "start": 36.489,
+        "duration": 3.62
+    },
+    {
+        "text": "numbers. Well, it's a bit like the Fibonacci, but it's got three instead of two. So it's called the Tribonacci numbers.",
+        "start": 40.66,
+        "duration": 7.069
+    },
+    {
+        "text": "Let's call this Fn and so this is the Tribonacci Tn.",
+        "start": 47.86,
+        "duration": 5.209
+    },
+    {
+        "text": "And you have that Fn plus 1",
+        "start": 53.4,
+        "duration": 4.18
+    },
+    {
+        "text": "divided by Fn goes to the golden ratio.",
+        "start": 57.58,
+        "duration": 4.24
+    },
+    {
+        "text": "So we can also do the same thing",
+        "start": 63.039,
+        "duration": 2.0
+    },
+    {
+        "text": "with the Tribonacci numbers",
+        "start": 65.619,
+        "duration": 2.0
+    },
+    {
+        "text": "but they go to what's called the Tribonacci constant. With the",
+        "start": 67.81,
+        "duration": 4.279
+    },
+    {
+        "text": "Fibonacci numbers one of the ways we can sort of think about what, how they're going to end up is say, well",
+        "start": 72.64,
+        "duration": 5.299
+    },
+    {
+        "text": "let's start this 1, x,",
+        "start": 77.939,
+        "duration": 2.25
+    },
+    {
+        "text": "x squared,",
+        "start": 81.28,
+        "duration": 2.08
+    },
+    {
+        "text": "and x squared was equal to the two previous ones together.",
+        "start": 83.36,
+        "duration": 3.64
+    },
+    {
+        "text": "So here this is x squared is equal to x plus 1.",
+        "start": 87.0,
+        "duration": 5.639
+    },
+    {
+        "text": "Here we're adding the three previous terms. So we get 1, x,",
+        "start": 93.46,
+        "duration": 3.799
+    },
+    {
+        "text": "x squared,",
+        "start": 98.34,
+        "duration": 1.86
+    },
+    {
+        "text": "this term is going to be the sum of all three.",
+        "start": 100.2,
+        "duration": 1.84
+    },
+    {
+        "text": "So it's x cubed, and now we have x cubed is equal to x squared plus x",
+        "start": 102.61,
+        "duration": 7.579
+    },
+    {
+        "text": "plus 1. And so that's a polynomial. Whilst I can reasonably well solve quadratics,",
+        "start": 110.829,
+        "duration": 6.83
+    },
+    {
+        "text": "cubics have a far more messy to solve so I'm going to get a calculator to do that.",
+        "start": 118.0,
+        "duration": 4.669
+    },
+    {
+        "text": "So this gives us 1.83929",
+        "start": 123.66,
+        "duration": 7.62
+    },
+    {
+        "text": "and that's gonna...\n- (Brady: Tribonacci constant!)\n- Tribonacci constant.",
+        "start": 131.28,
+        "duration": 2.92
+    },
+    {
+        "text": "(Brady: I'm assuming there's a fourbonacci constant and a fivebonacci?)\n- They're called the n-bonaccis and,",
+        "start": 134.22,
+        "duration": 4.589
+    },
+    {
+        "text": "so here I've got an interesting shape. It's got a, a fractal boundary going around it.",
+        "start": 139.569,
+        "duration": 6.86
+    },
+    {
+        "text": "Well, it's got a nice property to it.",
+        "start": 146.43,
+        "duration": 1.86
+    },
+    {
+        "text": "So I've got this tile here and this is the same shape but a little bit smaller. And then I've got again the same",
+        "start": 148.29,
+        "duration": 7.86
+    },
+    {
+        "text": "shape but smaller. The edges of these, if can find it, I have to get them the right way up and",
+        "start": 156.819,
+        "duration": 6.29
+    },
+    {
+        "text": "there we go. So the edges are such so this shape, at different sizes, actually fits onto itself.",
+        "start": 163.69,
+        "duration": 6.349
+    },
+    {
+        "text": "And that means that these edges might, must either be straight lines, which they're clearly not, or fractal.",
+        "start": 170.04,
+        "duration": 5.37
+    },
+    {
+        "text": "It's not a fractal itself, but the boundary is a fractal. So now I will",
+        "start": 175.41,
+        "duration": 4.349
+    },
+    {
+        "text": "take a third shape and put them there and",
+        "start": 180.37,
+        "duration": 3.35
+    },
+    {
+        "text": "magically, I have my same shape.",
+        "start": 184.78,
+        "duration": 2.029
+    },
+    {
+        "text": "These are three sizes of this one shape and when I put those three together, I",
+        "start": 186.849,
+        "duration": 6.35
+    },
+    {
+        "text": "get the same shape. If this one scales up to",
+        "start": 193.48,
+        "duration": 4.58
+    },
+    {
+        "text": "this one, this one scales up to",
+        "start": 198.579,
+        "duration": 2.809
+    },
+    {
+        "text": "this one, and then this one",
+        "start": 202.15,
+        "duration": 2.0
+    },
+    {
+        "text": "scales up to the whole thing, I",
+        "start": 205.12,
+        "duration": 3.23
+    },
+    {
+        "text": "can take this one step further. So what I've done here is make a larger version of this object.",
+        "start": 209.17,
+        "duration": 6.589
+    },
+    {
+        "text": "So this piece here becomes this tile here.",
+        "start": 215.76,
+        "duration": 3.9
+    },
+    {
+        "text": "This piece here becomes this tile here. And then this tile here is replaced by",
+        "start": 219.76,
+        "duration": 6.529
+    },
+    {
+        "text": "the whole piece here. It's the, the three tiles - if I rotate this to",
+        "start": 226.959,
+        "duration": 5.66
+    },
+    {
+        "text": "there you see that this is just these three titles.",
+        "start": 233.17,
+        "duration": 3.349
+    },
+    {
+        "text": "So now we could imagine doing this another time, and another time we can get larger and larger",
+        "start": 236.519,
+        "duration": 5.13
+    },
+    {
+        "text": "regions. We could ask, well how many tiles am I going to have in them? Well, this pattern is made up of",
+        "start": 242.17,
+        "duration": 7.159
+    },
+    {
+        "text": "one of the smallest tiles, one of the medium tiles, and one of the large tiles. This is made up of",
+        "start": 250.09,
+        "duration": 6.35
+    },
+    {
+        "text": "one medium, one large, and then one",
+        "start": 257.16,
+        "duration": 2.85
+    },
+    {
+        "text": "of the scale size beyond large, which itself is made up of:",
+        "start": 260.38,
+        "duration": 4.01
+    },
+    {
+        "text": "one small, one medium, and one large. And when I go into the next step up, I'm gonna have one copy of this,",
+        "start": 264.46,
+        "duration": 6.559
+    },
+    {
+        "text": "one copy of this, and then one additional large one.",
+        "start": 271.56,
+        "duration": 6.02
+    },
+    {
+        "text": "So at each stage I'm going to take the three previous pieces,",
+        "start": 277.58,
+        "duration": 4.38
+    },
+    {
+        "text": "put them together to get the next one up. And",
+        "start": 282.85,
+        "duration": 2.54
+    },
+    {
+        "text": "so, what are we going to have? Well it's back over here.",
+        "start": 286.06,
+        "duration": 3.86
+    },
+    {
+        "text": "I have my 1 1 1, I put those together so I get 3.",
+        "start": 289.92,
+        "duration": 5.36
+    },
+    {
+        "text": "1, 1 and 3 gives me my 5. The next one up is going to be my 5,",
+        "start": 295.7,
+        "duration": 7.54
+    },
+    {
+        "text": "my 3, and my 1 which is going to give me 9, and so on like that.",
+        "start": 303.85,
+        "duration": 5.359
+    },
+    {
+        "text": "So this shape is called the Rauzy fractal and it was found by Gérard Rauzy. The interest is sort of studying how",
+        "start": 309.21,
+        "duration": 7.38
+    },
+    {
+        "text": "matrices act on",
+        "start": 317.29,
+        "duration": 1.8
+    },
+    {
+        "text": "three-dimensional space. And there's a lot of nice theory for how, for certain properties of how",
+        "start": 319.09,
+        "duration": 4.73
+    },
+    {
+        "text": "matrices act on",
+        "start": 324.34,
+        "duration": 2.0
+    },
+    {
+        "text": "two-dimensional space. Especially a matrix, which has one",
+        "start": 326.35,
+        "duration": 3.47
+    },
+    {
+        "text": "expansion and one contraction. What that will do is you have these things called",
+        "start": 330.43,
+        "duration": 3.59
+    },
+    {
+        "text": "eigenvectors and you pull down in one direction and you expand so that everything gets squashed down and pulled up.",
+        "start": 334.51,
+        "duration": 5.809
+    },
+    {
+        "text": "There's a whole theory in that called Markov partitions,",
+        "start": 340.39,
+        "duration": 3.469
+    },
+    {
+        "text": "which have - basically have nice properties as you get pulled down and smeared out,",
+        "start": 344.169,
+        "duration": 5.63
+    },
+    {
+        "text": "you can turn that into a nice periodic product. And what rauzy asked,",
+        "start": 350.53,
+        "duration": 3.92
+    },
+    {
+        "text": "well, what about for the the cubic case when we're dealing with three-dimensional space?",
+        "start": 354.45,
+        "duration": 4.049
+    },
+    {
+        "text": "So the specific matrix you're studying here has as one of its",
+        "start": 358.6,
+        "duration": 5.089
+    },
+    {
+        "text": "eigenvalues this number, the Tribonacci constant. And so because the Tribonacci constant is turning up in the",
+        "start": 364.69,
+        "duration": 7.01
+    },
+    {
+        "text": "thing you're trying to study, that's how it turns out in these these tiles.",
+        "start": 372.18,
+        "duration": 4.56
+    },
+    {
+        "text": "And the golden ratio and Fibonacci numbers are really important in the study of the two-dimensional Markov",
+        "start": 376.74,
+        "duration": 8.48
+    },
+    {
+        "text": "partitions, and so when you go up to three dimensions, you have to deal with cubic things. It's quite natural,",
+        "start": 385.69,
+        "duration": 4.609
+    },
+    {
+        "text": "it's sort of almost the ancient Greeks who, well, who felt that a cubic number really was a cube.",
+        "start": 390.3,
+        "duration": 5.76
+    },
+    {
+        "text": "So they didn't, some people say they didn't even believe in fourth powers. When you're dealing with three dimensions",
+        "start": 396.55,
+        "duration": 4.849
+    },
+    {
+        "text": "you naturally have cubic stuff. \n- (Brady: Do they exist in sunflowers and things like that?)",
+        "start": 401.44,
+        "duration": 4.339
+    },
+    {
+        "text": "They don't exist in nature in the way that they, just like the Fibonacci",
+        "start": 405.79,
+        "duration": 3.5
+    },
+    {
+        "text": "isn't quite as popular by - in nature as it's meant to be. Umm, the only place",
+        "start": 409.54,
+        "duration": 4.79
+    },
+    {
+        "text": "beyond this that I know of them is an object called the Snub Cube, which is quite an attractive little polyhedron.",
+        "start": 414.7,
+        "duration": 6.32
+    },
+    {
+        "text": "Just a reminder that there's now a Numberphile podcast. Have you had a listen yet?",
+        "start": 424.52,
+        "duration": 3.839
+    },
+    {
+        "text": "This is what it looks like on your podcast apps, just search for Numberphile.",
+        "start": 428.36,
+        "duration": 4.38
+    },
+    {
+        "text": "And if you haven't got into this whole podcasting thing but you still want to have a listen,",
+        "start": 432.74,
+        "duration": 3.75
+    },
+    {
+        "text": "I am putting the episodes on the Numberphile2",
+        "start": 436.49,
+        "duration": 3.209
+    },
+    {
+        "text": "YouTube channel. There are links on the screen and in the description.",
+        "start": 440.22,
+        "duration": 2.989
+    }
+]

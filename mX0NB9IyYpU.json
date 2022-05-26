@@ -1,0 +1,1107 @@
+[
+    {
+        "text": "This is Pixar Studios.",
+        "start": 1.839,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm sure almost everyone's heard of them, and watch their movies.",
+        "start": 5.02,
+        "duration": 3.95
+    },
+    {
+        "text": "They've, they've won a few awards along the way, too.",
+        "start": 9.16,
+        "duration": 2.33
+    },
+    {
+        "text": "But less people realize just how much mathematics and science goes into animating these films.",
+        "start": 11.71,
+        "duration": 6.29
+    },
+    {
+        "text": "Even the boss here is a computer scientist.",
+        "start": 18.19,
+        "duration": 2.719
+    },
+    {
+        "text": "This is Tony DeRose, and he leads the research group at Pixar. And today he's talking to us here at numberphile.",
+        "start": 21.039,
+        "duration": 6.979
+    },
+    {
+        "text": "Well my particular area of",
+        "start": 28.21,
+        "duration": 2.0
+    },
+    {
+        "text": "interest is in, in geometric modelling. Creating shapes of things.",
+        "start": 31.06,
+        "duration": 3.949
+    },
+    {
+        "text": "And that problem comes up a lot around here because we've got characters with, you know, pretty complicated shapes.",
+        "start": 36.219,
+        "duration": 5.24
+    },
+    {
+        "text": "You know, some of the characters on the board behind me.",
+        "start": 41.46,
+        "duration": 2.13
+    },
+    {
+        "text": "This is a,",
+        "start": 44.379,
+        "duration": 1.381
+    },
+    {
+        "text": "this is a sculpture of the hand of Geri, from Geri's Game, a character in a short film that we did",
+        "start": 45.76,
+        "duration": 6.529
+    },
+    {
+        "text": "quite a few years ago now, and it, you know, just, it's a complicated shape,",
+        "start": 52.42,
+        "duration": 3.92
+    },
+    {
+        "text": "and we needed to develop some way of representing these kinds of shapes",
+        "start": 56.34,
+        "duration": 3.989
+    },
+    {
+        "text": "in a way that artists could deal with, but computers could, could render and display quickly, as well.",
+        "start": 60.609,
+        "duration": 5.15
+    },
+    {
+        "text": "So Jan Pinkava, the director of Geri's Game, was also a sculptor.",
+        "start": 65.76,
+        "duration": 3.629
+    },
+    {
+        "text": "So he created this sculpture of Geri's hand, and then we later digitized it and made the",
+        "start": 69.549,
+        "duration": 5.66
+    },
+    {
+        "text": "final surface that appeared on the screen.",
+        "start": 75.34,
+        "duration": 2.3
+    },
+    {
+        "text": "Let's simplify first, and we'll get back to surfaces in three dimensions in a minute.",
+        "start": 77.799,
+        "duration": 4.49
+    },
+    {
+        "text": "But let's start, say, with curves in two dimensions, to explain the basics of the process. So, what I've got here is a little",
+        "start": 82.29,
+        "duration": 6.539
+    },
+    {
+        "text": "four point polygon, and it's gonna be my job to make a smooth curve out of it.",
+        "start": 89.02,
+        "duration": 3.529
+    },
+    {
+        "text": "I'm gonna make a smooth curve out of it by just repeating a few simple steps. So, the first step",
+        "start": 92.549,
+        "duration": 5.94
+    },
+    {
+        "text": "I'm gonna call split, and",
+        "start": 98.49,
+        "duration": 1.839
+    },
+    {
+        "text": "what that does is it adds midpoints to the edges. So now I've got eight points, but it's not really any smoother.",
+        "start": 100.329,
+        "duration": 5.96
+    },
+    {
+        "text": "The next thing I'm gonna do is I'm gonna make it a little bit smoother by repositioning all eight of these points.",
+        "start": 106.84,
+        "duration": 4.459
+    },
+    {
+        "text": "So this guy, for instance, is gonna move from where he is now to the midpoint of his right neighbor.",
+        "start": 111.64,
+        "duration": 4.759
+    },
+    {
+        "text": "Similarly, this guy is going to move to his right neighbor. And let me animate that for you.",
+        "start": 117.1,
+        "duration": 3.979
+    },
+    {
+        "text": "I'll call that the averaging step. So now we've got eight points, a little bit smoother. And again,",
+        "start": 121.869,
+        "duration": 5.459
+    },
+    {
+        "text": "my goal is to make a smooth curve, and so I'm just gonna repeat.",
+        "start": 127.329,
+        "duration": 2.43
+    },
+    {
+        "text": "I'm gonna split and average, so now I've got 16 points. Again, a little bit smoother.",
+        "start": 129.759,
+        "duration": 3.75
+    },
+    {
+        "text": "I'll put those two steps into a combined step I'll call subdivide. And you see that as I continue to subdivide the,",
+        "start": 134.42,
+        "duration": 6.919
+    },
+    {
+        "text": "a smooth curve starts to emerge.",
+        "start": 142.01,
+        "duration": 2.15
+    },
+    {
+        "text": "And that's the basis of how we",
+        "start": 145.04,
+        "duration": 2.0
+    },
+    {
+        "text": "create all of our surfaces. This splitting and averaging idea also works for surfaces.",
+        "start": 148.16,
+        "duration": 5.419
+    },
+    {
+        "text": "So here's an example where I start with a cube. So if I split,",
+        "start": 153.58,
+        "duration": 3.569
+    },
+    {
+        "text": "it's a little more complicated for surfaces to split.",
+        "start": 157.91,
+        "duration": 2.479
+    },
+    {
+        "text": "I have to insert edge midpoints, like this one here. Like I did for curves.",
+        "start": 160.39,
+        "duration": 3.75
+    },
+    {
+        "text": "And I also have to introduce the middles of faces. But again, that's just done by averaging. So this point",
+        "start": 164.14,
+        "duration": 6.869
+    },
+    {
+        "text": "here is just the average of the four points around it. And then I average. In this case,",
+        "start": 171.01,
+        "duration": 5.49
+    },
+    {
+        "text": "I need to use a carefully constructed weighted average, for reasons",
+        "start": 176.5,
+        "duration": 3.089
+    },
+    {
+        "text": "we may talk about in a minute.",
+        "start": 179.59,
+        "duration": 1.66
+    },
+    {
+        "text": "But if I pick my averaging weights carefully enough, I can continue this split and average process and",
+        "start": 181.25,
+        "duration": 5.179
+    },
+    {
+        "text": "generate smooth surfaces in the limit.",
+        "start": 186.769,
+        "duration": 1.881
+    },
+    {
+        "text": "And that's exactly how Geri's hand, and, in fact, Geri himself, was built. Well, here, for instance, are the points that we digitized off this,",
+        "start": 188.65,
+        "duration": 7.8
+    },
+    {
+        "text": "this sculpture, before subdivision, we run this splitting and averaging process a lot of times, and that smoothes the surface out, and creates the",
+        "start": 196.91,
+        "duration": 7.909
+    },
+    {
+        "text": "smooth shape that you ultimately see on the screen.",
+        "start": 204.98,
+        "duration": 3.34
+    },
+    {
+        "text": "Brady: \"To the untrained person, which I very much am, this seems sort of, it doesn't",
+        "start": 208.32,
+        "duration": 2.799
+    },
+    {
+        "text": "\"seem very subtle. It seems like anything you feed into this process will just kind of get blob-ized in",
+        "start": 211.12,
+        "duration": 6.69
+    },
+    {
+        "text": "\"the same way, everything will get turned into this kind of generic blob.",
+        "start": 217.81,
+        "duration": 3.299
+    },
+    {
+        "text": "\"Is there, is there more nuance to this, than what it, than what it looks like? Or does everything turn into a big bleh?\"",
+        "start": 221.109,
+        "duration": 5.04
+    },
+    {
+        "text": "Well, there is some nuance. There's some magic numbers involved.",
+        "start": 226.579,
+        "duration": 2.75
+    },
+    {
+        "text": "So let's get a sense of what those numbers are. One pair of magic numbers are 1, 1 here. Those are the weights that I",
+        "start": 230.03,
+        "duration": 5.6
+    },
+    {
+        "text": "used in this averaging step, when I moved things to midpoints.",
+        "start": 235.63,
+        "duration": 3.779
+    },
+    {
+        "text": "And those are magic because you can show that a nice thing happens in the limit of this subdivision.",
+        "start": 239.41,
+        "duration": 6.419
+    },
+    {
+        "text": "So this 1, 1 means it's gonna go to a spot that is",
+        "start": 245.829,
+        "duration": 3.93
+    },
+    {
+        "text": "one part of where he is now, and one part of where his right neighbor is now. Okay, so let's do that.",
+        "start": 250.16,
+        "duration": 5.089
+    },
+    {
+        "text": "Let's, let's, each stage is split followed by average. So there's the split.",
+        "start": 255.25,
+        "duration": 4.819
+    },
+    {
+        "text": "So when he moves according to the 1, 1 rule,",
+        "start": 260.769,
+        "duration": 2.75
+    },
+    {
+        "text": "he's gonna move from where he is now to here.",
+        "start": 263.52,
+        "duration": 2.25
+    },
+    {
+        "text": "And this guy's gonna move from where he is now to here, and so on. So we'll see that.",
+        "start": 265.99,
+        "duration": 4.94
+    },
+    {
+        "text": "And we just keep repeating that process, and",
+        "start": 271.96,
+        "duration": 2.839
+    },
+    {
+        "text": "a beautiful thing happens. In the limit, you can show that this curve is a,",
+        "start": 276.039,
+        "duration": 6.709
+    },
+    {
+        "text": "there's a parabolic arc that sits in here, and there's another parabolic arc that sits in here, and",
+        "start": 283.659,
+        "duration": 5.93
+    },
+    {
+        "text": "those two parabolic arcs meet with a smooth",
+        "start": 290.11,
+        "duration": 3.049
+    },
+    {
+        "text": "derivative, a smooth tangent line, at this point.",
+        "start": 294.099,
+        "duration": 2.75
+    },
+    {
+        "text": "And that's all just an emergent property of this subdivision process. There are some other magic numbers I can use. For instance, if I use",
+        "start": 297.61,
+        "duration": 7.73
+    },
+    {
+        "text": "1, 2, 1, so I split as before. Now if we use the 1, 2, 1 rule, this guy is gonna move from where he is now to",
+        "start": 305.919,
+        "duration": 6.559
+    },
+    {
+        "text": "two parts of where he is now,",
+        "start": 312.479,
+        "duration": 2.0
+    },
+    {
+        "text": "one part of his left neighbor, and one part of his right neighbor. So it's 1, 2, 1.",
+        "start": 315.61,
+        "duration": 4.154
+    },
+    {
+        "text": "Brady: \"So he, so he's carrying more of his weight\"",
+        "start": 319.764,
+        "duration": 2.405
+    },
+    {
+        "text": "Yeah, exactly. And so if I",
+        "start": 322.199,
+        "duration": 2.0
+    },
+    {
+        "text": "average it with that set of weights, I get a shape like this.",
+        "start": 324.669,
+        "duration": 3.649
+    },
+    {
+        "text": "If I continue to split and average, again something really nice happens.",
+        "start": 328.9,
+        "duration": 3.049
+    },
+    {
+        "text": "When we used the 1, 1 rule, we got piecewise parabolas, which are degree two curves.",
+        "start": 332.74,
+        "duration": 5.51
+    },
+    {
+        "text": "Here, we're gonna get degree three curves, in the limit. And if I pick weights 1, 3, 3, 1, and do this process,",
+        "start": 338.25,
+        "duration": 7.379
+    },
+    {
+        "text": "it turns out you get degree four curves. And",
+        "start": 347.229,
+        "duration": 3.5
+    },
+    {
+        "text": "this pattern is, I think, probably familiar to many of your viewers. 1 1, 1 2 1, 1 3 3 1.",
+        "start": 352.36,
+        "duration": 6.859
+    },
+    {
+        "text": "Those are all rows of something called Pascal's triangle.",
+        "start": 359.949,
+        "duration": 2.899
+    },
+    {
+        "text": "So what we're learning here is that if you pick your weights carefully, that is, from rows of Pascal's triangle,",
+        "start": 363.52,
+        "duration": 5.66
+    },
+    {
+        "text": "the curves that you get in the limit are nice and smooth, and",
+        "start": 369.789,
+        "duration": 3.619
+    },
+    {
+        "text": "they're polynomials, and the degree of the polynomial is given by how deep into Pascal's triangle you pick your weights.",
+        "start": 373.93,
+        "duration": 6.079
+    },
+    {
+        "text": "But you don't have to pick them carefully, you don't have to pick your weights carefully.",
+        "start": 380.83,
+        "duration": 2.989
+    },
+    {
+        "text": "I can, in fact, I don't even have to make the weights positive. So suppose",
+        "start": 384.279,
+        "duration": 4.01
+    },
+    {
+        "text": "I pick rates 1, minus 2 and 3. So I split as before, and now this guy is gonna go to a point",
+        "start": 388.289,
+        "duration": 6.93
+    },
+    {
+        "text": "which is minus one times himself, one times his left neighbor, and three times his right neighbor.",
+        "start": 395.22,
+        "duration": 5.26
+    },
+    {
+        "text": "Brady: \"I have no idea what's going to happen.\"",
+        "start": 400.48,
+        "duration": 1.7
+    },
+    {
+        "text": "Yeah. Let's see what happens.",
+        "start": 402.18,
+        "duration": 1.06
+    },
+    {
+        "text": "Okay.",
+        "start": 403.62,
+        "duration": 1.3
+    },
+    {
+        "text": "Something interesting.",
+        "start": 404.92,
+        "duration": 1.44
+    },
+    {
+        "text": "Let's continue.",
+        "start": 406.36,
+        "duration": 1.65
+    },
+    {
+        "text": "We'll keep doing that.",
+        "start": 408.01,
+        "duration": 1.77
+    },
+    {
+        "text": "So what we're seeing here is,",
+        "start": 409.78,
+        "duration": 2.0
+    },
+    {
+        "text": "in the limit, if you don't pick your weights carefully, you get something that isn't smooth anywhere. In fact,",
+        "start": 411.88,
+        "duration": 6.23
+    },
+    {
+        "text": "it's a fractal.",
+        "start": 418.11,
+        "duration": 1.41
+    },
+    {
+        "text": "Brady: \"So, when I watch one of your films, which one is the right one? Which one creates",
+        "start": 419.52,
+        "duration": 4.4
+    },
+    {
+        "text": "\"the surfaces that make you happy?\"",
+        "start": 424.56,
+        "duration": 1.78
+    },
+    {
+        "text": "Well, it turns out that for surfaces, this",
+        "start": 426.6,
+        "duration": 2.36
+    },
+    {
+        "text": "Pascal's triangle pattern doesn't work any more.",
+        "start": 429.79,
+        "duration": 2.269
+    },
+    {
+        "text": "You have to use a,",
+        "start": 432.79,
+        "duration": 2.0
+    },
+    {
+        "text": "a different set of mathematical tools to figure out weights that are gonna generate smooth objects in the limit,",
+        "start": 435.31,
+        "duration": 6.38
+    },
+    {
+        "text": "and those are very carefully chosen weights. They were first discovered by Ed Catmull forty years ago.",
+        "start": 442.9,
+        "duration": 5.479
+    },
+    {
+        "text": "Ed's the president of Pixar.",
+        "start": 448.99,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady: \"Do we know, are those like, are they like, like fractions? Are they, what numbers are they?",
+        "start": 451.15,
+        "duration": 4.159
+    },
+    {
+        "text": "\"Are they like one, one point seven, and three point nine two? Or...\"",
+        "start": 455.31,
+        "duration": 4.5
+    },
+    {
+        "text": "I don't remember them off the top of my head, but there's a simple formula",
+        "start": 459.81,
+        "duration": 3.24
+    },
+    {
+        "text": "that is now well known. You can find it on our website.",
+        "start": 463.05,
+        "duration": 2.95
+    },
+    {
+        "text": "Brady: \"So when you've got your 3D object,",
+        "start": 466.0,
+        "duration": 2.12
+    },
+    {
+        "text": "\"they're the, they're the ones you plug in and then, bang.\"",
+        "start": 468.42,
+        "duration": 2.982
+    },
+    {
+        "text": "Yeah, exactly. So what I was doing",
+        "start": 471.402,
+        "duration": 1.758
+    },
+    {
+        "text": "the subdivision with the cube, we were using those very carefully",
+        "start": 473.5,
+        "duration": 3.29
+    },
+    {
+        "text": "constructed weights that Ed discovered. We do this subdivision process a few times, and it,",
+        "start": 477.76,
+        "duration": 5.149
+    },
+    {
+        "text": "that gets us points that are kind of close to where they would go if we did in an infinite number of times.",
+        "start": 483.55,
+        "duration": 5.929
+    },
+    {
+        "text": "But, on top of that there's a few tricks that we use to figure out exactly where they're gonna go. Mathematically,",
+        "start": 489.85,
+        "duration": 6.38
+    },
+    {
+        "text": "we, we think about what would happen if we did it an infinite number of times, and it turns out that",
+        "start": 496.23,
+        "duration": 4.38
+    },
+    {
+        "text": "we can write down exactly",
+        "start": 501.49,
+        "duration": 2.0
+    },
+    {
+        "text": "what happens if we did do it an infinite number of times.",
+        "start": 504.06,
+        "duration": 2.58
+    },
+    {
+        "text": "Brady: \"Let's crack out the paper.\"",
+        "start": 506.92,
+        "duration": 1.34
+    },
+    {
+        "text": "Yeah, so let's see how that works. And, let's start with an observation here.",
+        "start": 508.26,
+        "duration": 3.84
+    },
+    {
+        "text": "So I'm gonna go back to the simple 1, 1 rule, that we had earlier.",
+        "start": 512.169,
+        "duration": 3.47
+    },
+    {
+        "text": "And watch what happens on, say, this leg of the polygon. So I'm gonna split and average,",
+        "start": 516.7,
+        "duration": 4.789
+    },
+    {
+        "text": "and notice that what happened here is that I still have two points on this polygon leg,",
+        "start": 522.35,
+        "duration": 5.279
+    },
+    {
+        "text": "they're just a little bit closer. If I split and average again,",
+        "start": 527.63,
+        "duration": 3.15
+    },
+    {
+        "text": "again, I get two points on this leg, they're just a little closer together.",
+        "start": 531.63,
+        "duration": 2.78
+    },
+    {
+        "text": "If I do it again, again they're closer.",
+        "start": 535.08,
+        "duration": 3.44
+    },
+    {
+        "text": "So, what's gonna happen if I do this an infinite number of times? Well, these two points are gonna get closer and closer together,",
+        "start": 539.28,
+        "duration": 6.169
+    },
+    {
+        "text": "in the limit, they'll be on top of each other, and",
+        "start": 545.45,
+        "duration": 3.33
+    },
+    {
+        "text": "the location where they converge is",
+        "start": 549.39,
+        "duration": 2.719
+    },
+    {
+        "text": "the midpoint of the original leg.",
+        "start": 552.63,
+        "duration": 2.21
+    },
+    {
+        "text": "So without doing any computation at all,",
+        "start": 555.54,
+        "duration": 2.54
+    },
+    {
+        "text": "I can determine very quickly that these four blue points are on that limit object. And the nice thing about that observation",
+        "start": 558.54,
+        "duration": 7.37
+    },
+    {
+        "text": "is that it holds at every stage of subdivision. Watch what happens on this leg of the polygon. So this leg wasn't in my original",
+        "start": 566.13,
+        "duration": 7.28
+    },
+    {
+        "text": "arrangement, but it got introduced after the first stage. And, as I split and average, we're gonna again see",
+        "start": 574.11,
+        "duration": 5.66
+    },
+    {
+        "text": "two points on this same line. They just get closer and closer together, as I subdivide.",
+        "start": 580.5,
+        "duration": 4.97
+    },
+    {
+        "text": "And again, they're gonna converge to the midpoint of",
+        "start": 586.05,
+        "duration": 2.39
+    },
+    {
+        "text": "the leg when it was first introduced, so let's go back to that arrangement, here.",
+        "start": 588.99,
+        "duration": 3.679
+    },
+    {
+        "text": "So I know that the midpoint of this leg is also on the limit object.",
+        "start": 592.68,
+        "duration": 3.38
+    },
+    {
+        "text": "So, after one stage of subdivision, I already know eight points exactly.",
+        "start": 597.06,
+        "duration": 4.18
+    },
+    {
+        "text": "Brady: \"You refer to this thing called the limit object.",
+        "start": 601.24,
+        "duration": 2.77
+    },
+    {
+        "text": "\"That's the finished product.\"",
+        "start": 604.14,
+        "duration": 1.34
+    },
+    {
+        "text": "That's the finished product. Right. So, it's the mathematically perfect version. And now I've got eight points that are on the mathematically perfect curve.",
+        "start": 605.48,
+        "duration": 6.6
+    },
+    {
+        "text": "Computing what happens in the limit becomes a little bit more",
+        "start": 612.42,
+        "duration": 3.02
+    },
+    {
+        "text": "delicate when we look at one of these",
+        "start": 616.02,
+        "duration": 2.779
+    },
+    {
+        "text": "other rules, like the 1, 2, 1 rule.",
+        "start": 619.53,
+        "duration": 2.149
+    },
+    {
+        "text": "So let's see if we can track where this point goes as I subdivide.",
+        "start": 621.69,
+        "duration": 2.935
+    },
+    {
+        "text": "Brady: \"So we're using a 1, 2, 1 now.\"",
+        "start": 624.625,
+        "duration": 1.734
+    },
+    {
+        "text": "This is a 1, 2, 1 rule, so if I split and average,",
+        "start": 626.36,
+        "duration": 2.369
+    },
+    {
+        "text": "Okay, so he moved some distance.",
+        "start": 629.31,
+        "duration": 2.0
+    },
+    {
+        "text": "Let me split and average again. He's moved a little bit more. It's not exactly clear where he's gonna stop.",
+        "start": 631.86,
+        "duration": 5.809
+    },
+    {
+        "text": "Brady: \"He's not on the limit object yet.\"",
+        "start": 637.8,
+        "duration": 1.88
+    },
+    {
+        "text": "He's not on the limit object yet, so.",
+        "start": 639.7,
+        "duration": 1.48
+    },
+    {
+        "text": "But, yet, we can compute exactly where he's gonna go, with some other magic numbers.",
+        "start": 641.97,
+        "duration": 4.04
+    },
+    {
+        "text": "Let's take a look at how that works. I'm gonna draw a little piece of my curve, my original polygon,",
+        "start": 646.9,
+        "duration": 4.409
+    },
+    {
+        "text": "and since this is my original polygon,",
+        "start": 652.07,
+        "duration": 1.55
+    },
+    {
+        "text": "I'm gonna use superscript zeroes. So A super zero, B super zero, and C super zero. So that's before subdivision.",
+        "start": 653.62,
+        "duration": 7.319
+    },
+    {
+        "text": "If I subdivide once, I get some points that are gonna sit in here,",
+        "start": 661.34,
+        "duration": 4.34
+    },
+    {
+        "text": "and I'm gonna call this guy A super 1,",
+        "start": 666.89,
+        "duration": 2.0
+    },
+    {
+        "text": "B super 1, and C super 1. And if I subdivide it again, I get some more points in here.",
+        "start": 669.41,
+        "duration": 6.409
+    },
+    {
+        "text": "And what we want to know is,",
+        "start": 676.52,
+        "duration": 1.83
+    },
+    {
+        "text": "okay, here's B zero, here's B 1,  B 2's gonna be some place. The question is, where is B infinity?",
+        "start": 678.35,
+        "duration": 5.869
+    },
+    {
+        "text": "We'd like to figure out where that is.",
+        "start": 684.37,
+        "duration": 1.84
+    },
+    {
+        "text": "Turns out we can answer that question.",
+        "start": 686.21,
+        "duration": 2.0
+    },
+    {
+        "text": "And to do that, I'm gonna write down a few things I know. Well, one thing",
+        "start": 689.12,
+        "duration": 3.83
+    },
+    {
+        "text": "I know is that A super 1 is just on this midpoint,",
+        "start": 692.95,
+        "duration": 3.39
+    },
+    {
+        "text": "so I could write that as A plus B over 2, and these are super zero guys, my original things. If you work out",
+        "start": 696.34,
+        "duration": 6.779
+    },
+    {
+        "text": "the algebra of the splitting and averaging, using the 1, 2, 1 rule, you can see that B super 1 is A super zero",
+        "start": 703.12,
+        "duration": 6.66
+    },
+    {
+        "text": "plus six B super zero plus C super zero",
+        "start": 709.88,
+        "duration": 3.95
+    },
+    {
+        "text": "divided by eight.",
+        "start": 714.92,
+        "duration": 1.47
+    },
+    {
+        "text": "So that's just unwinding the split and average process. And then C super 1 again is just the midpoint on this leg.",
+        "start": 716.39,
+        "duration": 7.13
+    },
+    {
+        "text": "So that's B super zero plus C super zero over 2.",
+        "start": 723.77,
+        "duration": 4.04
+    },
+    {
+        "text": "Ok, well, that isn't obviously helping us answer the question of where B infinity is. To do that,",
+        "start": 728.45,
+        "duration": 4.88
+    },
+    {
+        "text": "I'm gonna do something a little bit sneaky. Take A super zero and B super zero and C super zero and",
+        "start": 733.33,
+        "duration": 7.049
+    },
+    {
+        "text": "combine them with weights 1, 4 and 1.",
+        "start": 741.2,
+        "duration": 4.309
+    },
+    {
+        "text": "And we'll have to divide by 6.",
+        "start": 746.48,
+        "duration": 2.0
+    },
+    {
+        "text": "Put a 1 there.",
+        "start": 748.76,
+        "duration": 1.65
+    },
+    {
+        "text": "Because I have, kind of, six things in the numerator.",
+        "start": 750.41,
+        "duration": 2.53
+    },
+    {
+        "text": "Brady: \"Where did the 1, 4, 1 come from?\"",
+        "start": 753.18,
+        "duration": 1.64
+    },
+    {
+        "text": "My back pocket.",
+        "start": 755.0,
+        "duration": 2.0
+    },
+    {
+        "text": "And, you'll see why I picked 1, 4, 1 in just a second. The real answer is it came from",
+        "start": 757.5,
+        "duration": 5.899
+    },
+    {
+        "text": "a tool called Eigenanalysis. But, we don't need Eigenanalysis to see what's gonna happen here.",
+        "start": 764.19,
+        "duration": 6.169
+    },
+    {
+        "text": "And we take that same combination and apply it to A super 1, B super 1, and C super 1,",
+        "start": 770.36,
+        "duration": 6.69
+    },
+    {
+        "text": "So I get 4 B super 1,",
+        "start": 777.449,
+        "duration": 2.0
+    },
+    {
+        "text": "one copy of A super 1, one copy of C super 1, and divide by 6.",
+        "start": 780.209,
+        "duration": 4.64
+    },
+    {
+        "text": "So now I have two expressions, and if you take these equations over here and just substitute them in here, and simplify,",
+        "start": 785.79,
+        "duration": 7.13
+    },
+    {
+        "text": "what you'll see is this expression is actually equal to this expression.",
+        "start": 793.529,
+        "duration": 4.19
+    },
+    {
+        "text": "And it's only true for these weights 1, 4, 1.",
+        "start": 798.54,
+        "duration": 2.659
+    },
+    {
+        "text": "And the cool thing is that I can use that same",
+        "start": 801.99,
+        "duration": 2.27
+    },
+    {
+        "text": "reasoning to",
+        "start": 805.62,
+        "duration": 1.5
+    },
+    {
+        "text": "figure out that going from the 1, the super 1 condition",
+        "start": 807.12,
+        "duration": 3.589
+    },
+    {
+        "text": "to the twice subdivided condition,",
+        "start": 811.589,
+        "duration": 2.09
+    },
+    {
+        "text": "again, applying 1, 4, 1 to the twice subdivided points, over six, I could, I'll find that these two expressions are  also equal.",
+        "start": 816.87,
+        "duration": 7.459
+    },
+    {
+        "text": "So I can repeat this process any number of times I like.",
+        "start": 825.569,
+        "duration": 2.93
+    },
+    {
+        "text": "Say, all the way to infinity. So I can compute A infinity, 4 B infinity, plus C infinity,",
+        "start": 829.709,
+        "duration": 7.34
+    },
+    {
+        "text": "over six",
+        "start": 838.079,
+        "duration": 0.831
+    },
+    {
+        "text": "and that's still gonna be equal to the expression that I had to start with. And now the beautiful thing happens.",
+        "start": 838.91,
+        "duration": 6.51
+    },
+    {
+        "text": "If you think about what happens to this little arrangement of three points, as you continue to subdivide,",
+        "start": 845.67,
+        "duration": 4.34
+    },
+    {
+        "text": "those three points, on the, on the second stage get closer together, on the third stage even closer,",
+        "start": 850.47,
+        "duration": 5.54
+    },
+    {
+        "text": "as I do it an infinite number of times, all three of those points converge to this place, B infinity.",
+        "start": 856.62,
+        "duration": 5.51
+    },
+    {
+        "text": "So, these are all B infinities, actually. So, this turns into B infinity.",
+        "start": 862.13,
+        "duration": 3.63
+    },
+    {
+        "text": "A infinity and B infinity",
+        "start": 865.76,
+        "duration": 1.379
+    },
+    {
+        "text": "are the same, in the limit. C infinity and B infinity are the same. So I can rewrite this as B infinity",
+        "start": 867.139,
+        "duration": 7.44
+    },
+    {
+        "text": "plus 4B infinity plus B infinity",
+        "start": 875.19,
+        "duration": 3.739
+    },
+    {
+        "text": "divided by 6. Well, averaging together a bunch of B infinities just gives me B infinity.",
+        "start": 880.42,
+        "duration": 5.099
+    },
+    {
+        "text": "And, so, what I've learned is that B infinity is right there.",
+        "start": 888.56,
+        "duration": 3.35
+    },
+    {
+        "text": "I start with my original points, take them with weight 1, 4, 1, and that gives me B infinity straight away.",
+        "start": 892.73,
+        "duration": 5.869
+    },
+    {
+        "text": "Exactly, and no approximation.",
+        "start": 899.24,
+        "duration": 1.96
+    },
+    {
+        "text": "Brady: \"Before you even started, you knew where B was going to end up.\"",
+        "start": 901.2,
+        "duration": 5.28
+    },
+    {
+        "text": "Exactly. So if I take some other polygon, now, I know that B",
+        "start": 906.78,
+        "duration": 3.37
+    },
+    {
+        "text": "infinity is gonna be four parts of this guy,",
+        "start": 910.15,
+        "duration": 2.039
+    },
+    {
+        "text": "one part of this guy and one part of this guy, which is gonna be a point about right there.",
+        "start": 912.62,
+        "duration": 4.34
+    },
+    {
+        "text": "And again, that can be computed without approximation. If I had, say, the 1, 3, 3, 1 rule,",
+        "start": 918.14,
+        "duration": 5.75
+    },
+    {
+        "text": "I'd get a slightly different set of expressions here, I'd get a different collection of magic numbers,",
+        "start": 923.89,
+        "duration": 6.359
+    },
+    {
+        "text": "again,",
+        "start": 931.43,
+        "duration": 1.47
+    },
+    {
+        "text": "solved for with a systematic tool called Eigenanalysis,",
+        "start": 932.9,
+        "duration": 3.14
+    },
+    {
+        "text": "and it would have this same property. And the whole thing works for 3D as well. For surfaces, right. And so that lets us compute",
+        "start": 936.04,
+        "duration": 7.229
+    },
+    {
+        "text": "exact points on our,",
+        "start": 945.26,
+        "duration": 1.77
+    },
+    {
+        "text": "the surfaces of our characters, and we can even compute exact derivatives, which we need for computing that nice, smooth",
+        "start": 947.03,
+        "duration": 7.669
+    },
+    {
+        "text": "gradation in illumination, or shading, in the graphics.",
+        "start": 956.0,
+        "duration": 3.739
+    },
+    {
+        "text": "We'll have more from this interview with Tony coming very soon, and that will be uploaded to our sister channel, computerphile.",
+        "start": 961.88,
+        "duration": 6.71
+    },
+    {
+        "text": "So go over there and keep an eye out for that one.",
+        "start": 968.96,
+        "duration": 1.92
+    },
+    {
+        "text": "Well, films that I've worked closely on,",
+        "start": 971.289,
+        "duration": 1.771
+    },
+    {
+        "text": "it's hard to watch and not see all the flaws.",
+        "start": 973.58,
+        "duration": 2.419
+    }
+]

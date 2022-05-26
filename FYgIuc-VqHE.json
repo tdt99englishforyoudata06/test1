@@ -1,0 +1,827 @@
+[
+    {
+        "text": "hey everyone I've been working on this",
+        "start": 0.03,
+        "duration": 5.039
+    },
+    {
+        "text": "idea of creating printed circuits with",
+        "start": 2.73,
+        "duration": 5.16
+    },
+    {
+        "text": "my vacuum deposition chamber and this",
+        "start": 5.069,
+        "duration": 4.621
+    },
+    {
+        "text": "weekend I finally finished in making the",
+        "start": 7.89,
+        "duration": 4.74
+    },
+    {
+        "text": "first successful active circuit so you",
+        "start": 9.69,
+        "duration": 5.579
+    },
+    {
+        "text": "can see it here it's a two LED flasher",
+        "start": 12.63,
+        "duration": 4.979
+    },
+    {
+        "text": "and for some reason after I took it out",
+        "start": 15.269,
+        "duration": 4.381
+    },
+    {
+        "text": "of the curing oven to cure the epoxy the",
+        "start": 17.609,
+        "duration": 4.141
+    },
+    {
+        "text": "flash rate is really fast now I'm not",
+        "start": 19.65,
+        "duration": 4.17
+    },
+    {
+        "text": "sure if you can see that with the camera",
+        "start": 21.75,
+        "duration": 4.439
+    },
+    {
+        "text": "frame rate but as you can see before I",
+        "start": 23.82,
+        "duration": 4.02
+    },
+    {
+        "text": "put it in the oven it was flashing it",
+        "start": 26.189,
+        "duration": 4.92
+    },
+    {
+        "text": "sort of a more noticeable rate here so",
+        "start": 27.84,
+        "duration": 5.82
+    },
+    {
+        "text": "let me tell you how I did it I started",
+        "start": 31.109,
+        "duration": 4.531
+    },
+    {
+        "text": "with a vinyl cutter and this is a pretty",
+        "start": 33.66,
+        "duration": 3.72
+    },
+    {
+        "text": "interesting tool that has all kinds of",
+        "start": 35.64,
+        "duration": 3.9
+    },
+    {
+        "text": "different uses but it's mostly sold to",
+        "start": 37.38,
+        "duration": 4.71
+    },
+    {
+        "text": "craftspeople to cut out paper and other",
+        "start": 39.54,
+        "duration": 5.73
+    },
+    {
+        "text": "you know scrapbooking type materials but",
+        "start": 42.09,
+        "duration": 6.239
+    },
+    {
+        "text": "in my case I exported an image from a",
+        "start": 45.27,
+        "duration": 5.96
+    },
+    {
+        "text": "PCB layout tool called Eagle and",
+        "start": 48.329,
+        "duration": 5.46
+    },
+    {
+        "text": "imported the image into the vinyl cutter",
+        "start": 51.23,
+        "duration": 4.39
+    },
+    {
+        "text": "software and then cut out some black",
+        "start": 53.789,
+        "duration": 5.461
+    },
+    {
+        "text": "vinyl in the shape of a file pattern for",
+        "start": 55.62,
+        "duration": 7.079
+    },
+    {
+        "text": "a circuit board I spent quite a bit of",
+        "start": 59.25,
+        "duration": 5.489
+    },
+    {
+        "text": "time trying to get a vector image format",
+        "start": 62.699,
+        "duration": 5.221
+    },
+    {
+        "text": "to go from Eagle into the vinyl cutter",
+        "start": 64.739,
+        "duration": 6.151
+    },
+    {
+        "text": "software but despite hours of trying it",
+        "start": 67.92,
+        "duration": 4.739
+    },
+    {
+        "text": "never really worked and so the easiest",
+        "start": 70.89,
+        "duration": 3.51
+    },
+    {
+        "text": "thing I found is just to export a",
+        "start": 72.659,
+        "duration": 5.371
+    },
+    {
+        "text": "high-resolution image PNG file and use",
+        "start": 74.4,
+        "duration": 5.82
+    },
+    {
+        "text": "that as the transfer medium and then in",
+        "start": 78.03,
+        "duration": 3.81
+    },
+    {
+        "text": "the vinyl cutter software just trace",
+        "start": 80.22,
+        "duration": 4.32
+    },
+    {
+        "text": "that image out and that seems to work",
+        "start": 81.84,
+        "duration": 6.24
+    },
+    {
+        "text": "fine for I think that would be fine even",
+        "start": 84.54,
+        "duration": 7.079
+    },
+    {
+        "text": "down to 400 micron TIFF stuff I then",
+        "start": 88.08,
+        "duration": 5.789
+    },
+    {
+        "text": "removed the unwanted pieces from the cut",
+        "start": 91.619,
+        "duration": 5.061
+    },
+    {
+        "text": "final just using a pair of tweezers and",
+        "start": 93.869,
+        "duration": 5.43
+    },
+    {
+        "text": "then the real magic of this whole vinyl",
+        "start": 96.68,
+        "duration": 4.149
+    },
+    {
+        "text": "cutting process is the use of the",
+        "start": 99.299,
+        "duration": 3.93
+    },
+    {
+        "text": "transfer paper or the transfer sticker",
+        "start": 100.829,
+        "duration": 5.461
+    },
+    {
+        "text": "so the transfer paper has a very low",
+        "start": 103.229,
+        "duration": 4.951
+    },
+    {
+        "text": "tack adhesive on it that lets me pull",
+        "start": 106.29,
+        "duration": 4.89
+    },
+    {
+        "text": "off the cut vinyl and keep it all in",
+        "start": 108.18,
+        "duration": 5.009
+    },
+    {
+        "text": "registration with itself and then to",
+        "start": 111.18,
+        "duration": 5.399
+    },
+    {
+        "text": "deposit it on to a substrate and in this",
+        "start": 113.189,
+        "duration": 5.191
+    },
+    {
+        "text": "case I'm going to be using some clear",
+        "start": 116.579,
+        "duration": 4.11
+    },
+    {
+        "text": "transparency sheets laser printer",
+        "start": 118.38,
+        "duration": 5.22
+    },
+    {
+        "text": "transparency sheets I then double stick",
+        "start": 120.689,
+        "duration": 4.89
+    },
+    {
+        "text": "the transparency sheet onto an aluminum",
+        "start": 123.6,
+        "duration": 4.439
+    },
+    {
+        "text": "backing plate and the point of this is",
+        "start": 125.579,
+        "duration": 4.831
+    },
+    {
+        "text": "just to keep it flat and also to keep it",
+        "start": 128.039,
+        "duration": 3.901
+    },
+    {
+        "text": "from overheating when I put it in the",
+        "start": 130.41,
+        "duration": 2.28
+    },
+    {
+        "text": "vacuum chain",
+        "start": 131.94,
+        "duration": 3.15
+    },
+    {
+        "text": "I'm going to be exposing this to some",
+        "start": 132.69,
+        "duration": 5.31
+    },
+    {
+        "text": "very high intensity radiant heat and if",
+        "start": 135.09,
+        "duration": 4.86
+    },
+    {
+        "text": "there were no backing plate the plastic",
+        "start": 138.0,
+        "duration": 5.04
+    },
+    {
+        "text": "would get very hot and warp the vacuum",
+        "start": 139.95,
+        "duration": 5.43
+    },
+    {
+        "text": "chamber is set up so that the thing that",
+        "start": 143.04,
+        "duration": 4.29
+    },
+    {
+        "text": "I want to coat with metal is at the top",
+        "start": 145.38,
+        "duration": 4.56
+    },
+    {
+        "text": "of the chamber facing down and the metal",
+        "start": 147.33,
+        "duration": 4.08
+    },
+    {
+        "text": "that I'm going to evaporate is at the",
+        "start": 149.94,
+        "duration": 4.2
+    },
+    {
+        "text": "bottom of the chamber facing up and so",
+        "start": 151.41,
+        "duration": 5.52
+    },
+    {
+        "text": "when I turn the power on after pulling a",
+        "start": 154.14,
+        "duration": 4.86
+    },
+    {
+        "text": "vacuum in the chamber I can evaporate",
+        "start": 156.93,
+        "duration": 4.49
+    },
+    {
+        "text": "the metal in this case aluminium and the",
+        "start": 159.0,
+        "duration": 5.01
+    },
+    {
+        "text": "evaporated aluminum travels upward and",
+        "start": 161.42,
+        "duration": 5.02
+    },
+    {
+        "text": "deposits on to the substrate which is",
+        "start": 164.01,
+        "duration": 4.62
+    },
+    {
+        "text": "the clear plastic transparency in this",
+        "start": 166.44,
+        "duration": 5.61
+    },
+    {
+        "text": "case I've also got my crystal thickness",
+        "start": 168.63,
+        "duration": 5.88
+    },
+    {
+        "text": "monitor system working thanks to the",
+        "start": 172.05,
+        "duration": 5.91
+    },
+    {
+        "text": "help of a very generous viewer and I can",
+        "start": 174.51,
+        "duration": 5.58
+    },
+    {
+        "text": "monitor the thickness of aluminum as",
+        "start": 177.96,
+        "duration": 5.49
+    },
+    {
+        "text": "it's being deposited I've made quite a",
+        "start": 180.09,
+        "duration": 5.28
+    },
+    {
+        "text": "few attempts at doing this before and",
+        "start": 183.45,
+        "duration": 4.34
+    },
+    {
+        "text": "you can see some of the different",
+        "start": 185.37,
+        "duration": 4.62
+    },
+    {
+        "text": "combinations of stuff that I have here",
+        "start": 187.79,
+        "duration": 4.93
+    },
+    {
+        "text": "so we've got aluminum on paper aluminum",
+        "start": 189.99,
+        "duration": 5.91
+    },
+    {
+        "text": "on ABS plastic this was aluminum on",
+        "start": 192.72,
+        "duration": 5.46
+    },
+    {
+        "text": "printer transparency but this is one",
+        "start": 195.9,
+        "duration": 4.41
+    },
+    {
+        "text": "that I did without the the metal backing",
+        "start": 198.18,
+        "duration": 3.72
+    },
+    {
+        "text": "plate and what happened is is it just",
+        "start": 200.31,
+        "duration": 3.99
+    },
+    {
+        "text": "overheated the vinyl and basically just",
+        "start": 201.9,
+        "duration": 3.9
+    },
+    {
+        "text": "burned the vinyl right into the",
+        "start": 204.3,
+        "duration": 3.53
+    },
+    {
+        "text": "transparency I couldn't even peel it off",
+        "start": 205.8,
+        "duration": 5.19
+    },
+    {
+        "text": "so then I figured out to use the backing",
+        "start": 207.83,
+        "duration": 5.86
+    },
+    {
+        "text": "plate and made this one and this is the",
+        "start": 210.99,
+        "duration": 6.63
+    },
+    {
+        "text": "circuit from today in aluminum I can",
+        "start": 213.69,
+        "duration": 7.5
+    },
+    {
+        "text": "also do aluminum on glass which looks",
+        "start": 217.62,
+        "duration": 6.03
+    },
+    {
+        "text": "nice but the adhesion of the aluminum",
+        "start": 221.19,
+        "duration": 6.0
+    },
+    {
+        "text": "onto the glass is not very good this was",
+        "start": 223.65,
+        "duration": 5.88
+    },
+    {
+        "text": "a contaminated sample that was supposed",
+        "start": 227.19,
+        "duration": 4.08
+    },
+    {
+        "text": "to be aluminum that ended up being",
+        "start": 229.53,
+        "duration": 5.459
+    },
+    {
+        "text": "something else and what I settled on was",
+        "start": 231.27,
+        "duration": 6.09
+    },
+    {
+        "text": "actually doing a copper so copper on",
+        "start": 234.989,
+        "duration": 4.5
+    },
+    {
+        "text": "glass works pretty well this one I was",
+        "start": 237.36,
+        "duration": 4.2
+    },
+    {
+        "text": "even able to solder to if I was really",
+        "start": 239.489,
+        "duration": 3.841
+    },
+    {
+        "text": "careful if I was very very quick with",
+        "start": 241.56,
+        "duration": 4.14
+    },
+    {
+        "text": "the iron I could actually solder to the",
+        "start": 243.33,
+        "duration": 4.32
+    },
+    {
+        "text": "copper that was deposited onto the glass",
+        "start": 245.7,
+        "duration": 5.9
+    },
+    {
+        "text": "here I've also deposited copper on to",
+        "start": 247.65,
+        "duration": 6.809
+    },
+    {
+        "text": "transparency and this is what I used",
+        "start": 251.6,
+        "duration": 5.38
+    },
+    {
+        "text": "today so what ended up working for me",
+        "start": 254.459,
+        "duration": 4.861
+    },
+    {
+        "text": "was the copper on the clear transparency",
+        "start": 256.98,
+        "duration": 4.71
+    },
+    {
+        "text": "the aluminum I was having too much of a",
+        "start": 259.32,
+        "duration": 4.05
+    },
+    {
+        "text": "trouble with getting a low enough",
+        "start": 261.69,
+        "duration": 4.19
+    },
+    {
+        "text": "resistance so the thickness of aluminum",
+        "start": 263.37,
+        "duration": 6.65
+    },
+    {
+        "text": "here is probably in the 1 to 300",
+        "start": 265.88,
+        "duration": 7.02
+    },
+    {
+        "text": "nanometer range and that's very very",
+        "start": 270.02,
+        "duration": 4.5
+    },
+    {
+        "text": "thin in fact it's so thin that the",
+        "start": 272.9,
+        "duration": 3.21
+    },
+    {
+        "text": "resistance of the layer is high enough",
+        "start": 274.52,
+        "duration": 3.75
+    },
+    {
+        "text": "to be a problem even in even in a",
+        "start": 276.11,
+        "duration": 5.97
+    },
+    {
+        "text": "circuit like this so after the metal has",
+        "start": 278.27,
+        "duration": 6.15
+    },
+    {
+        "text": "been deposited I take the sample out of",
+        "start": 282.08,
+        "duration": 4.5
+    },
+    {
+        "text": "the chamber and then peel off the vinyl",
+        "start": 284.42,
+        "duration": 4.02
+    },
+    {
+        "text": "leaving just the traces where I want",
+        "start": 286.58,
+        "duration": 4.7
+    },
+    {
+        "text": "them on the substrate",
+        "start": 288.44,
+        "duration": 5.4
+    },
+    {
+        "text": "these printer transparencies are not",
+        "start": 291.28,
+        "duration": 4.81
+    },
+    {
+        "text": "able to withstand soldering temperatures",
+        "start": 293.84,
+        "duration": 4.26
+    },
+    {
+        "text": "so I'm going to use a conductive epoxy",
+        "start": 296.09,
+        "duration": 4.2
+    },
+    {
+        "text": "glue to hold down the components onto",
+        "start": 298.1,
+        "duration": 6.2
+    },
+    {
+        "text": "them onto the printed circuit and",
+        "start": 300.29,
+        "duration": 6.06
+    },
+    {
+        "text": "fortunately enough all of this ended up",
+        "start": 304.3,
+        "duration": 3.52
+    },
+    {
+        "text": "working out just fine and I had a",
+        "start": 306.35,
+        "duration": 4.41
+    },
+    {
+        "text": "working circuit at the end of the day so",
+        "start": 307.82,
+        "duration": 4.08
+    },
+    {
+        "text": "you might be thinking well this isn't",
+        "start": 310.76,
+        "duration": 2.31
+    },
+    {
+        "text": "actually all that great because",
+        "start": 311.9,
+        "duration": 3.18
+    },
+    {
+        "text": "commercially we can do this on Kapton",
+        "start": 313.07,
+        "duration": 5.09
+    },
+    {
+        "text": "and it's even able to be refloat and",
+        "start": 315.08,
+        "duration": 6.39
+    },
+    {
+        "text": "it's thinner and the copper layer is",
+        "start": 318.16,
+        "duration": 4.48
+    },
+    {
+        "text": "thicker and it can be you know",
+        "start": 321.47,
+        "duration": 3.3
+    },
+    {
+        "text": "chemically etched and all that however",
+        "start": 322.64,
+        "duration": 3.54
+    },
+    {
+        "text": "what I'm really interested in doing here",
+        "start": 324.77,
+        "duration": 4.53
+    },
+    {
+        "text": "is making the inputs and outputs of the",
+        "start": 326.18,
+        "duration": 5.31
+    },
+    {
+        "text": "circuit integrated into the stuff that",
+        "start": 329.3,
+        "duration": 4.07
+    },
+    {
+        "text": "I'm depositing with the vacuum chamber",
+        "start": 331.49,
+        "duration": 5.16
+    },
+    {
+        "text": "so instead of gluing down surface mount",
+        "start": 333.37,
+        "duration": 5.02
+    },
+    {
+        "text": "components what I really want to do is",
+        "start": 336.65,
+        "duration": 4.86
+    },
+    {
+        "text": "make thin film transistors and ol Ed's",
+        "start": 338.39,
+        "duration": 6.09
+    },
+    {
+        "text": "in the plastic so the entire circuit is",
+        "start": 341.51,
+        "duration": 5.07
+    },
+    {
+        "text": "actually integrated or at least",
+        "start": 344.48,
+        "duration": 5.01
+    },
+    {
+        "text": "deposited onto the substrate then you",
+        "start": 346.58,
+        "duration": 4.05
+    },
+    {
+        "text": "can actually have some really",
+        "start": 349.49,
+        "duration": 2.88
+    },
+    {
+        "text": "interesting stuff going on that cuts",
+        "start": 350.63,
+        "duration": 4.53
+    },
+    {
+        "text": "down the assembly time and also",
+        "start": 352.37,
+        "duration": 5.13
+    },
+    {
+        "text": "hopefully will make it flexible so just",
+        "start": 355.16,
+        "duration": 4.53
+    },
+    {
+        "text": "for kicks since we're a camera Network",
+        "start": 357.5,
+        "duration": 3.99
+    },
+    {
+        "text": "you know filming this now I wanted to",
+        "start": 359.69,
+        "duration": 3.36
+    },
+    {
+        "text": "flex this and figure out just how",
+        "start": 361.49,
+        "duration": 4.26
+    },
+    {
+        "text": "flexible it actually is so I'm going to",
+        "start": 363.05,
+        "duration": 6.3
+    },
+    {
+        "text": "flex it to breakage here if I can and it",
+        "start": 365.75,
+        "duration": 5.88
+    },
+    {
+        "text": "looks like what happens is if I flex it",
+        "start": 369.35,
+        "duration": 4.47
+    },
+    {
+        "text": "the glue breaks and then it'll actually",
+        "start": 371.63,
+        "duration": 4.38
+    },
+    {
+        "text": "reconnect if I flex it the other way so",
+        "start": 373.82,
+        "duration": 5.49
+    },
+    {
+        "text": "it's really not that flexible it would",
+        "start": 376.01,
+        "duration": 6.57
+    },
+    {
+        "text": "be nice to make a clear flexible sort of",
+        "start": 379.31,
+        "duration": 5.73
+    },
+    {
+        "text": "sticker circuit that was there we just",
+        "start": 382.58,
+        "duration": 4.08
+    },
+    {
+        "text": "lost a component there so it's",
+        "start": 385.04,
+        "duration": 4.38
+    },
+    {
+        "text": "definitely coming apart and my goal here",
+        "start": 386.66,
+        "duration": 4.44
+    },
+    {
+        "text": "is to have a much more flexible durable",
+        "start": 389.42,
+        "duration": 6.57
+    },
+    {
+        "text": "circuit okay well let me know if you",
+        "start": 391.1,
+        "duration": 6.72
+    },
+    {
+        "text": "have any suggestions of what I should",
+        "start": 395.99,
+        "duration": 3.66
+    },
+    {
+        "text": "build next or substrate idea",
+        "start": 397.82,
+        "duration": 4.349
+    },
+    {
+        "text": "or anything like that okay see you next",
+        "start": 399.65,
+        "duration": 5.54
+    },
+    {
+        "text": "time bye",
+        "start": 402.169,
+        "duration": 3.021
+    }
+]

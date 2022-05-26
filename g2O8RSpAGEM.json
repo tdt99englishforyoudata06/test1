@@ -1,0 +1,807 @@
+[
+    {
+        "text": "small medium large extra large extra",
+        "start": 0.41,
+        "duration": 20.949
+    },
+    {
+        "text": "extra-large hey everyone I started to",
+        "start": 15.45,
+        "duration": 7.62
+    },
+    {
+        "text": "get into xenon strobe lights and so I",
+        "start": 21.359,
+        "duration": 2.91
+    },
+    {
+        "text": "wanted a way to measure the voltage",
+        "start": 23.07,
+        "duration": 3.36
+    },
+    {
+        "text": "current and light output of a strobe as",
+        "start": 24.269,
+        "duration": 4.711
+    },
+    {
+        "text": "it flashes I took apart a speed of Tron",
+        "start": 26.43,
+        "duration": 5.49
+    },
+    {
+        "text": "4803 head unit and discovered that",
+        "start": 28.98,
+        "duration": 5.04
+    },
+    {
+        "text": "there's a pulse transformer inside the",
+        "start": 31.92,
+        "duration": 5.61
+    },
+    {
+        "text": "head so there's two large wires which",
+        "start": 34.02,
+        "duration": 5.46
+    },
+    {
+        "text": "supply the capacitor voltage the whole",
+        "start": 37.53,
+        "duration": 3.9
+    },
+    {
+        "text": "bank voltage out to the strobe light and",
+        "start": 39.48,
+        "duration": 3.78
+    },
+    {
+        "text": "then when the unit wants to cause a",
+        "start": 41.43,
+        "duration": 3.93
+    },
+    {
+        "text": "flash to happen it sends a pulse out to",
+        "start": 43.26,
+        "duration": 4.29
+    },
+    {
+        "text": "the transformer which kicks up probably",
+        "start": 45.36,
+        "duration": 4.379
+    },
+    {
+        "text": "a few thousand volts to initiate the",
+        "start": 47.55,
+        "duration": 5.04
+    },
+    {
+        "text": "strobe the easiest measurement is just",
+        "start": 49.739,
+        "duration": 4.471
+    },
+    {
+        "text": "to measure the voltage across the strobe",
+        "start": 52.59,
+        "duration": 3.96
+    },
+    {
+        "text": "light as it fires but I already ran into",
+        "start": 54.21,
+        "duration": 5.82
+    },
+    {
+        "text": "a problem the speeder Tron is wired so",
+        "start": 56.55,
+        "duration": 5.73
+    },
+    {
+        "text": "that the neutral of the mains supply is",
+        "start": 60.03,
+        "duration": 4.47
+    },
+    {
+        "text": "actually connected to the middle of the",
+        "start": 62.28,
+        "duration": 4.92
+    },
+    {
+        "text": "capacitor bank and so there's plus 450",
+        "start": 64.5,
+        "duration": 7.08
+    },
+    {
+        "text": "and - 450 around the neutral and the",
+        "start": 67.2,
+        "duration": 6.81
+    },
+    {
+        "text": "case is also grounded I tried lifting",
+        "start": 71.58,
+        "duration": 4.789
+    },
+    {
+        "text": "the ground just by disconnecting it and",
+        "start": 74.01,
+        "duration": 5.63
+    },
+    {
+        "text": "still had a fault when I connected the",
+        "start": 76.369,
+        "duration": 5.68
+    },
+    {
+        "text": "negative side of the capacitor bank the",
+        "start": 79.64,
+        "duration": 5.58
+    },
+    {
+        "text": "negative 450 to my Scopes ground I",
+        "start": 82.049,
+        "duration": 5.96
+    },
+    {
+        "text": "proceeded to find a woefully inadequate",
+        "start": 85.22,
+        "duration": 5.53
+    },
+    {
+        "text": "isolation transformer on my shelf and",
+        "start": 88.009,
+        "duration": 4.9
+    },
+    {
+        "text": "connected it up between the speedo Tron",
+        "start": 90.75,
+        "duration": 3.75
+    },
+    {
+        "text": "and the line with just some alligator",
+        "start": 92.909,
+        "duration": 4.35
+    },
+    {
+        "text": "clips I knew that this was not going to",
+        "start": 94.5,
+        "duration": 5.159
+    },
+    {
+        "text": "be sufficient to run the unit for any",
+        "start": 97.259,
+        "duration": 4.021
+    },
+    {
+        "text": "length of time but the way the speedo",
+        "start": 99.659,
+        "duration": 3.811
+    },
+    {
+        "text": "Tron works it charges up and draws a lot",
+        "start": 101.28,
+        "duration": 4.199
+    },
+    {
+        "text": "of power for a relatively short amount",
+        "start": 103.47,
+        "duration": 4.439
+    },
+    {
+        "text": "of time and then draws very low power",
+        "start": 105.479,
+        "duration": 5.011
+    },
+    {
+        "text": "while it's idling so I thought if I was",
+        "start": 107.909,
+        "duration": 4.081
+    },
+    {
+        "text": "careful enough and didn't fire it too",
+        "start": 110.49,
+        "duration": 4.14
+    },
+    {
+        "text": "often I'd be okay later on the",
+        "start": 111.99,
+        "duration": 4.14
+    },
+    {
+        "text": "transformer actually started to smoke a",
+        "start": 114.63,
+        "duration": 3.18
+    },
+    {
+        "text": "little bit so it was definitely getting",
+        "start": 116.13,
+        "duration": 5.97
+    },
+    {
+        "text": "hot but did the job with the isolation",
+        "start": 117.81,
+        "duration": 5.82
+    },
+    {
+        "text": "transformer in place I was able to",
+        "start": 122.1,
+        "duration": 4.199
+    },
+    {
+        "text": "connect my scopes ground to the negative",
+        "start": 123.63,
+        "duration": 5.01
+    },
+    {
+        "text": "side of the capacitor bank so",
+        "start": 126.299,
+        "duration": 4.291
+    },
+    {
+        "text": "essentially the entire speedo Tron unit",
+        "start": 128.64,
+        "duration": 3.27
+    },
+    {
+        "text": "is now pushed about",
+        "start": 130.59,
+        "duration": 3.33
+    },
+    {
+        "text": "ground so it would be a very bad idea to",
+        "start": 131.91,
+        "duration": 3.39
+    },
+    {
+        "text": "touch the case well it's in this",
+        "start": 133.92,
+        "duration": 4.05
+    },
+    {
+        "text": "condition I have a wooden work bench and",
+        "start": 135.3,
+        "duration": 4.77
+    },
+    {
+        "text": "was felt well aware not to touch the",
+        "start": 137.97,
+        "duration": 4.83
+    },
+    {
+        "text": "metal case while this was all going on",
+        "start": 140.07,
+        "duration": 6.66
+    },
+    {
+        "text": "I used a high voltage probe to detect",
+        "start": 142.8,
+        "duration": 5.79
+    },
+    {
+        "text": "the voltage across the strobe light and",
+        "start": 146.73,
+        "duration": 4.05
+    },
+    {
+        "text": "fired it with it just a simple trigger",
+        "start": 148.59,
+        "duration": 3.87
+    },
+    {
+        "text": "on the oscilloscope and got this chart",
+        "start": 150.78,
+        "duration": 4.53
+    },
+    {
+        "text": "here I was very surprised at how slow",
+        "start": 152.46,
+        "duration": 6.6
+    },
+    {
+        "text": "the voltage changes so you know you can",
+        "start": 155.31,
+        "duration": 5.58
+    },
+    {
+        "text": "see the charge cycles starting kind of",
+        "start": 159.06,
+        "duration": 3.3
+    },
+    {
+        "text": "near the ends there and it actually",
+        "start": 160.89,
+        "duration": 4.56
+    },
+    {
+        "text": "takes over 50 milliseconds to get down",
+        "start": 162.36,
+        "duration": 6.81
+    },
+    {
+        "text": "to a steady state voltage the 75",
+        "start": 165.45,
+        "duration": 5.34
+    },
+    {
+        "text": "millivolts on the Left column is",
+        "start": 169.17,
+        "duration": 3.18
+    },
+    {
+        "text": "actually the steady state voltage where",
+        "start": 170.79,
+        "duration": 4.26
+    },
+    {
+        "text": "that small cursor is so it levels off at",
+        "start": 172.35,
+        "duration": 6.24
+    },
+    {
+        "text": "about 75 volts and the capacitor bank",
+        "start": 175.05,
+        "duration": 5.46
+    },
+    {
+        "text": "aim is charged up to about a thousand",
+        "start": 178.59,
+        "duration": 4.23
+    },
+    {
+        "text": "volts to start before the flash is",
+        "start": 180.51,
+        "duration": 5.04
+    },
+    {
+        "text": "initiated next I wanted to measure the",
+        "start": 182.82,
+        "duration": 4.53
+    },
+    {
+        "text": "current in addition to voltage so one",
+        "start": 185.55,
+        "duration": 5.34
+    },
+    {
+        "text": "way to do this is with a shunt so I have",
+        "start": 187.35,
+        "duration": 6.45
+    },
+    {
+        "text": "a Milian meter and some 14 gauge solid",
+        "start": 190.89,
+        "duration": 5.52
+    },
+    {
+        "text": "wire and I slid the alligator clips",
+        "start": 193.8,
+        "duration": 4.77
+    },
+    {
+        "text": "around on the wire until I had a section",
+        "start": 196.41,
+        "duration": 6.36
+    },
+    {
+        "text": "that was about 1 million resistance the",
+        "start": 198.57,
+        "duration": 6.33
+    },
+    {
+        "text": "idea being that for every amp that flows",
+        "start": 202.77,
+        "duration": 3.6
+    },
+    {
+        "text": "through this section of wire there will",
+        "start": 204.9,
+        "duration": 4.74
+    },
+    {
+        "text": "be a 1 millivolt drop so I soldered the",
+        "start": 206.37,
+        "duration": 5.19
+    },
+    {
+        "text": "wire in between the negative of the",
+        "start": 209.64,
+        "duration": 3.87
+    },
+    {
+        "text": "flash lamp and a negative supply and the",
+        "start": 211.56,
+        "duration": 4.83
+    },
+    {
+        "text": "speed of Tron and then slid the",
+        "start": 213.51,
+        "duration": 4.83
+    },
+    {
+        "text": "alligator clips around again and marked",
+        "start": 216.39,
+        "duration": 3.81
+    },
+    {
+        "text": "it with a sharpie so that I knew where",
+        "start": 218.34,
+        "duration": 3.72
+    },
+    {
+        "text": "the the section the appropriate section",
+        "start": 220.2,
+        "duration": 4.259
+    },
+    {
+        "text": "of wire it was as you can see the",
+        "start": 222.06,
+        "duration": 4.32
+    },
+    {
+        "text": "voltage and current are fairly linearly",
+        "start": 224.459,
+        "duration": 5.131
+    },
+    {
+        "text": "related during the flash",
+        "start": 226.38,
+        "duration": 5.73
+    },
+    {
+        "text": "I also produce another graph showing the",
+        "start": 229.59,
+        "duration": 5.34
+    },
+    {
+        "text": "power tracy is the is one times two",
+        "start": 232.11,
+        "duration": 5.22
+    },
+    {
+        "text": "which is voltage times current and D is",
+        "start": 234.93,
+        "duration": 5.49
+    },
+    {
+        "text": "the integral of C so D is actually the",
+        "start": 237.33,
+        "duration": 5.43
+    },
+    {
+        "text": "total power that the unit has put out",
+        "start": 240.42,
+        "duration": 5.13
+    },
+    {
+        "text": "over the course of the flash and as you",
+        "start": 242.76,
+        "duration": 5.13
+    },
+    {
+        "text": "can see that levels off and the cursor",
+        "start": 245.55,
+        "duration": 4.079
+    },
+    {
+        "text": "shows that there's about five point one",
+        "start": 247.89,
+        "duration": 4.77
+    },
+    {
+        "text": "seven units there and the units are in",
+        "start": 249.629,
+        "duration": 5.791
+    },
+    {
+        "text": "fact kilojoules so this this agrees with",
+        "start": 252.66,
+        "duration": 4.919
+    },
+    {
+        "text": "reality pretty well it's a forty eight",
+        "start": 255.42,
+        "duration": 4.62
+    },
+    {
+        "text": "hundred watt second unit which is a",
+        "start": 257.579,
+        "duration": 5.101
+    },
+    {
+        "text": "Joule and the measurement is coming in",
+        "start": 260.04,
+        "duration": 4.2
+    },
+    {
+        "text": "pretty close five point one seven",
+        "start": 262.68,
+        "duration": 4.53
+    },
+    {
+        "text": "kilojoules here's a close up of the",
+        "start": 264.24,
+        "duration": 6.12
+    },
+    {
+        "text": "current drawn by the strobe during a",
+        "start": 267.21,
+        "duration": 5.28
+    },
+    {
+        "text": "flash as you can see there's a peak and",
+        "start": 270.36,
+        "duration": 4.77
+    },
+    {
+        "text": "the peak is around three thousand amps",
+        "start": 272.49,
+        "duration": 5.46
+    },
+    {
+        "text": "and then the graph levels off right",
+        "start": 275.13,
+        "duration": 4.77
+    },
+    {
+        "text": "around a thousand amps and continues on",
+        "start": 277.95,
+        "duration": 4.71
+    },
+    {
+        "text": "sloping very slowly downward for for",
+        "start": 279.9,
+        "duration": 6.269
+    },
+    {
+        "text": "quite a long time the x-axis in this",
+        "start": 282.66,
+        "duration": 6.05
+    },
+    {
+        "text": "case is 50 microseconds per division",
+        "start": 286.169,
+        "duration": 4.681
+    },
+    {
+        "text": "finally I wanted to see how much light",
+        "start": 288.71,
+        "duration": 4.39
+    },
+    {
+        "text": "was actually coming out of the strobe so",
+        "start": 290.85,
+        "duration": 5.49
+    },
+    {
+        "text": "I took an LED and put a 100 ohm resistor",
+        "start": 293.1,
+        "duration": 5.37
+    },
+    {
+        "text": "across the leads and then connected that",
+        "start": 296.34,
+        "duration": 5.16
+    },
+    {
+        "text": "directly to the scope the idea is that",
+        "start": 298.47,
+        "duration": 5.4
+    },
+    {
+        "text": "when light hits the PN Junction in there",
+        "start": 301.5,
+        "duration": 3.9
+    },
+    {
+        "text": "it functions kind of like a tiny solar",
+        "start": 303.87,
+        "duration": 4.64
+    },
+    {
+        "text": "cell and the 100 ohm resistor keeps the",
+        "start": 305.4,
+        "duration": 6.21
+    },
+    {
+        "text": "junction from saturating so initially I",
+        "start": 308.51,
+        "duration": 5.14
+    },
+    {
+        "text": "tried this without any resistor on there",
+        "start": 311.61,
+        "duration": 4.77
+    },
+    {
+        "text": "and the amount of light going into that",
+        "start": 313.65,
+        "duration": 5.28
+    },
+    {
+        "text": "LED saturates it's so fully that the",
+        "start": 316.38,
+        "duration": 4.969
+    },
+    {
+        "text": "voltage goes up to you know one point",
+        "start": 318.93,
+        "duration": 5.419
+    },
+    {
+        "text": "six or seven volts or whatever the the",
+        "start": 321.349,
+        "duration": 5.561
+    },
+    {
+        "text": "junction is set up for and it basically",
+        "start": 324.349,
+        "duration": 4.301
+    },
+    {
+        "text": "just hangs there for a long time because",
+        "start": 326.91,
+        "duration": 3.87
+    },
+    {
+        "text": "the junction is so incredibly saturated",
+        "start": 328.65,
+        "duration": 4.739
+    },
+    {
+        "text": "so with a stiff 100 ohm resistor across",
+        "start": 330.78,
+        "duration": 5.37
+    },
+    {
+        "text": "it the junction won't saturate and we'll",
+        "start": 333.389,
+        "duration": 5.46
+    },
+    {
+        "text": "get a very very accurate quick quick",
+        "start": 336.15,
+        "duration": 4.59
+    },
+    {
+        "text": "time measurement of the light going into",
+        "start": 338.849,
+        "duration": 4.051
+    },
+    {
+        "text": "the junction so as you can see though",
+        "start": 340.74,
+        "duration": 4.41
+    },
+    {
+        "text": "the light is not quite proportional to",
+        "start": 342.9,
+        "duration": 6.66
+    },
+    {
+        "text": "the current in this graph B is the",
+        "start": 345.15,
+        "duration": 7.05
+    },
+    {
+        "text": "current and a is the light output from",
+        "start": 349.56,
+        "duration": 4.919
+    },
+    {
+        "text": "the LED and you can see that the current",
+        "start": 352.2,
+        "duration": 4.11
+    },
+    {
+        "text": "is decaying you know kind of linearly",
+        "start": 354.479,
+        "duration": 4.471
+    },
+    {
+        "text": "over this scale but the light is",
+        "start": 356.31,
+        "duration": 5.76
+    },
+    {
+        "text": "actually decaying much more quickly the",
+        "start": 358.95,
+        "duration": 3.93
+    },
+    {
+        "text": "time here is",
+        "start": 362.07,
+        "duration": 3.12
+    },
+    {
+        "text": "milliseconds per division so as you can",
+        "start": 362.88,
+        "duration": 4.17
+    },
+    {
+        "text": "see there's about five divisions are",
+        "start": 365.19,
+        "duration": 5.31
+    },
+    {
+        "text": "about ten milliseconds for the you know",
+        "start": 367.05,
+        "duration": 5.31
+    },
+    {
+        "text": "the approximate flash duration I'm",
+        "start": 370.5,
+        "duration": 3.66
+    },
+    {
+        "text": "actually surprised at how long of the",
+        "start": 372.36,
+        "duration": 4.11
+    },
+    {
+        "text": "tail is on this thing I was expecting",
+        "start": 374.16,
+        "duration": 4.74
+    },
+    {
+        "text": "the flash to be very very quick quick",
+        "start": 376.47,
+        "duration": 4.32
+    },
+    {
+        "text": "down to zero and then a lot of you know",
+        "start": 378.9,
+        "duration": 4.23
+    },
+    {
+        "text": "zero but this actually does taper down",
+        "start": 380.79,
+        "duration": 4.77
+    },
+    {
+        "text": "quite a bit so it's hard to say how long",
+        "start": 383.13,
+        "duration": 4.23
+    },
+    {
+        "text": "the flash duration actually is because",
+        "start": 385.56,
+        "duration": 4.26
+    },
+    {
+        "text": "there's so much tapering okay well I",
+        "start": 387.36,
+        "duration": 4.23
+    },
+    {
+        "text": "plan to continue these experiments with",
+        "start": 389.82,
+        "duration": 3.69
+    },
+    {
+        "text": "xenon flash tubes hopefully we'll get to",
+        "start": 391.59,
+        "duration": 6.23
+    },
+    {
+        "text": "do some Ruby laser stuff and high-power",
+        "start": 393.51,
+        "duration": 6.66
+    },
+    {
+        "text": "aerial photography at night perhaps",
+        "start": 397.82,
+        "duration": 5.11
+    },
+    {
+        "text": "something setting things on fire",
+        "start": 400.17,
+        "duration": 6.03
+    },
+    {
+        "text": "you never know okay see you next time",
+        "start": 402.93,
+        "duration": 5.84
+    },
+    {
+        "text": "bye",
+        "start": 406.2,
+        "duration": 2.57
+    }
+]

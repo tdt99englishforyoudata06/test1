@@ -1,0 +1,452 @@
+[
+    {
+        "text": "in our heads it is like a big world of",
+        "start": 2.78,
+        "duration": 5.289
+    },
+    {
+        "text": "small motions out there we're excited to",
+        "start": 6.0,
+        "duration": 3.69
+    },
+    {
+        "text": "explore it and look at the world with",
+        "start": 8.069,
+        "duration": 2.911
+    },
+    {
+        "text": "this new microscope that lets us",
+        "start": 9.69,
+        "duration": 2.79
+    },
+    {
+        "text": "visualize the very small changes and",
+        "start": 10.98,
+        "duration": 3.869
+    },
+    {
+        "text": "reveal them and it actually turns out to",
+        "start": 12.48,
+        "duration": 3.99
+    },
+    {
+        "text": "show us all sorts of exciting things",
+        "start": 14.849,
+        "duration": 10.981
+    },
+    {
+        "text": "about the world we're at MIT this lab",
+        "start": 16.47,
+        "duration": 10.68
+    },
+    {
+        "text": "does all sorts of things but what we're",
+        "start": 25.83,
+        "duration": 4.23
+    },
+    {
+        "text": "doing here is is a particular project at",
+        "start": 27.15,
+        "duration": 4.5
+    },
+    {
+        "text": "the intersection of vision and graphics",
+        "start": 30.06,
+        "duration": 4.17
+    },
+    {
+        "text": "that we call motion magnification the",
+        "start": 31.65,
+        "duration": 5.37
+    },
+    {
+        "text": "initial idea was to have this tool that",
+        "start": 34.23,
+        "duration": 6.93
+    },
+    {
+        "text": "can show us how things move in a way",
+        "start": 37.02,
+        "duration": 6.3
+    },
+    {
+        "text": "that we cannot see normal normal",
+        "start": 41.16,
+        "duration": 4.68
+    },
+    {
+        "text": "ordinary videos the algorithm itself is",
+        "start": 43.32,
+        "duration": 4.35
+    },
+    {
+        "text": "actually pretty simple this is a picture",
+        "start": 45.84,
+        "duration": 4.32
+    },
+    {
+        "text": "of Steve we took this into our algorithm",
+        "start": 47.67,
+        "duration": 6.299
+    },
+    {
+        "text": "and it looks at each color and makes a",
+        "start": 50.16,
+        "duration": 5.64
+    },
+    {
+        "text": "spatial average of the color to very",
+        "start": 53.969,
+        "duration": 3.66
+    },
+    {
+        "text": "accurately measure what the color",
+        "start": 55.8,
+        "duration": 3.509
+    },
+    {
+        "text": "intensity is at every point from that",
+        "start": 57.629,
+        "duration": 3.27
+    },
+    {
+        "text": "accurate measurement you can detect",
+        "start": 59.309,
+        "duration": 3.621
+    },
+    {
+        "text": "small variations with the pulse signal",
+        "start": 60.899,
+        "duration": 5.251
+    },
+    {
+        "text": "so we we measure those we amplify them",
+        "start": 62.93,
+        "duration": 5.14
+    },
+    {
+        "text": "and then add them back into the video to",
+        "start": 66.15,
+        "duration": 4.68
+    },
+    {
+        "text": "create a color magnified video if you",
+        "start": 68.07,
+        "duration": 4.86
+    },
+    {
+        "text": "were of Steve now you can see all sorts",
+        "start": 70.83,
+        "duration": 3.84
+    },
+    {
+        "text": "of things you can see how fast his",
+        "start": 72.93,
+        "duration": 3.329
+    },
+    {
+        "text": "heart's beating you can also see a",
+        "start": 74.67,
+        "duration": 3.36
+    },
+    {
+        "text": "spatial pattern of when the blood goes",
+        "start": 76.259,
+        "duration": 5.61
+    },
+    {
+        "text": "where on his face and we're hoping that",
+        "start": 78.03,
+        "duration": 6.03
+    },
+    {
+        "text": "this will be a useful diagnostic for",
+        "start": 81.869,
+        "duration": 4.531
+    },
+    {
+        "text": "medical doctors maybe if we took a photo",
+        "start": 84.06,
+        "duration": 4.89
+    },
+    {
+        "text": "of Steve without his shirt on we could",
+        "start": 86.4,
+        "duration": 4.259
+    },
+    {
+        "text": "look for asymmetries and when the blood",
+        "start": 88.95,
+        "duration": 3.209
+    },
+    {
+        "text": "flowed we're on his body and perhaps",
+        "start": 90.659,
+        "duration": 5.82
+    },
+    {
+        "text": "that will be diagnostic of disease so",
+        "start": 92.159,
+        "duration": 7.201
+    },
+    {
+        "text": "with neonatal infants you want to",
+        "start": 96.479,
+        "duration": 5.041
+    },
+    {
+        "text": "monitor their vital signs but you want",
+        "start": 99.36,
+        "duration": 3.6
+    },
+    {
+        "text": "to touch them as little as possible I'm",
+        "start": 101.52,
+        "duration": 5.279
+    },
+    {
+        "text": "told and so we wanted to explore using",
+        "start": 102.96,
+        "duration": 5.97
+    },
+    {
+        "text": "this video method to monitor their that",
+        "start": 106.799,
+        "duration": 3.96
+    },
+    {
+        "text": "our pulse so here's an example of the",
+        "start": 108.93,
+        "duration": 3.06
+    },
+    {
+        "text": "raw video this is without any",
+        "start": 110.759,
+        "duration": 4.351
+    },
+    {
+        "text": "amplification and now you can see that",
+        "start": 111.99,
+        "duration": 4.919
+    },
+    {
+        "text": "lets us extract the pulse and we can do",
+        "start": 115.11,
+        "duration": 4.23
+    },
+    {
+        "text": "that as accurately as the conventional",
+        "start": 116.909,
+        "duration": 5.1
+    },
+    {
+        "text": "methods that have to touch the baby so",
+        "start": 119.34,
+        "duration": 4.23
+    },
+    {
+        "text": "to verify that what we're measuring",
+        "start": 122.009,
+        "duration": 5.011
+    },
+    {
+        "text": "really is the pulse we we compared our",
+        "start": 123.57,
+        "duration": 5.01
+    },
+    {
+        "text": "measurement with an EKG that was",
+        "start": 127.02,
+        "duration": 3.579
+    },
+    {
+        "text": "attached to the baby at the same time",
+        "start": 128.58,
+        "duration": 4.12
+    },
+    {
+        "text": "and they agree so the videos we've been",
+        "start": 130.599,
+        "duration": 3.51
+    },
+    {
+        "text": "showing you are ones that we took but",
+        "start": 132.7,
+        "duration": 4.049
+    },
+    {
+        "text": "you can also go and apply this method to",
+        "start": 134.109,
+        "duration": 5.071
+    },
+    {
+        "text": "other videos as well so we took the a",
+        "start": 136.749,
+        "duration": 4.681
+    },
+    {
+        "text": "clip from the Batman video with",
+        "start": 139.18,
+        "duration": 5.009
+    },
+    {
+        "text": "Christian Bale this is now processed",
+        "start": 141.43,
+        "duration": 4.86
+    },
+    {
+        "text": "with our method you can see that he has",
+        "start": 144.189,
+        "duration": 4.92
+    },
+    {
+        "text": "a pulse and he's even under the makeup",
+        "start": 146.29,
+        "duration": 5.49
+    },
+    {
+        "text": "presumably you can see his pulse as as",
+        "start": 149.109,
+        "duration": 4.38
+    },
+    {
+        "text": "he wakes up what's really new about this",
+        "start": 151.78,
+        "duration": 3.989
+    },
+    {
+        "text": "research is that we're visualizing the",
+        "start": 153.489,
+        "duration": 4.351
+    },
+    {
+        "text": "tiny motions the computer vision",
+        "start": 155.769,
+        "duration": 3.72
+    },
+    {
+        "text": "community has been able to measure these",
+        "start": 157.84,
+        "duration": 3.81
+    },
+    {
+        "text": "tiny motions for some time but but",
+        "start": 159.489,
+        "duration": 3.39
+    },
+    {
+        "text": "there's nothing to see unless you",
+        "start": 161.65,
+        "duration": 3.809
+    },
+    {
+        "text": "amplify it and show what's there once we",
+        "start": 162.879,
+        "duration": 4.95
+    },
+    {
+        "text": "amplify it and show what's there there's",
+        "start": 165.459,
+        "duration": 3.78
+    },
+    {
+        "text": "like a whole new world all sorts of",
+        "start": 167.829,
+        "duration": 3.151
+    },
+    {
+        "text": "things you can look at oftentimes",
+        "start": 169.239,
+        "duration": 4.86
+    },
+    {
+        "text": "parents of newborn infants wonder is the",
+        "start": 170.98,
+        "duration": 5.189
+    },
+    {
+        "text": "baby breathing and with this method you",
+        "start": 174.099,
+        "duration": 4.381
+    },
+    {
+        "text": "can exaggerate the motions and show very",
+        "start": 176.169,
+        "duration": 4.141
+    },
+    {
+        "text": "clearly the baby is breathing so here's",
+        "start": 178.48,
+        "duration": 2.819
+    },
+    {
+        "text": "the original video",
+        "start": 180.31,
+        "duration": 3.359
+    },
+    {
+        "text": "it's a little bit hard to tell if she's",
+        "start": 181.299,
+        "duration": 4.41
+    },
+    {
+        "text": "breathing or not but in our motion",
+        "start": 183.669,
+        "duration": 4.53
+    },
+    {
+        "text": "amplified version it's obvious so we've",
+        "start": 185.709,
+        "duration": 4.23
+    },
+    {
+        "text": "just started with these techniques we've",
+        "start": 188.199,
+        "duration": 4.531
+    },
+    {
+        "text": "just really begun exploring them and so",
+        "start": 189.939,
+        "duration": 4.651
+    },
+    {
+        "text": "we've posted the code online we posted",
+        "start": 192.73,
+        "duration": 4.259
+    },
+    {
+        "text": "it in August and people can download it",
+        "start": 194.59,
+        "duration": 4.38
+    },
+    {
+        "text": "look at the source code use it for",
+        "start": 196.989,
+        "duration": 5.28
+    },
+    {
+        "text": "non-commercial purposes and we think",
+        "start": 198.97,
+        "duration": 5.039
+    },
+    {
+        "text": "this is just going to explode that",
+        "start": 202.269,
+        "duration": 4.351
+    },
+    {
+        "text": "there'll be all sorts of uses for this",
+        "start": 204.009,
+        "duration": 5.0
+    },
+    {
+        "text": "technique",
+        "start": 206.62,
+        "duration": 2.389
+    },
+    {
+        "text": "you",
+        "start": 211.37,
+        "duration": 2.06
+    }
+]

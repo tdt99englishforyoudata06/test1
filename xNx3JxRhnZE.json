@@ -1,0 +1,882 @@
+[
+    {
+        "text": "It's called descending dungeons",
+        "start": 1.04,
+        "duration": 2.0
+    },
+    {
+        "text": "Holy cow, what is that number? Would you like to guess?",
+        "start": 8.24,
+        "duration": 3.04
+    },
+    {
+        "text": "You don't have a clue",
+        "start": 12.16,
+        "duration": 1.68
+    },
+    {
+        "text": "If you want to describe a moderately large number, Brady",
+        "start": 13.84,
+        "duration": 3.76
+    },
+    {
+        "text": "You describe it as writing a tower of numbers. For instance,",
+        "start": 17.76,
+        "duration": 4.399
+    },
+    {
+        "text": "you might write 2 to the 3 to the 4 to the 5",
+        "start": 22.24,
+        "duration": 3.52
+    },
+    {
+        "text": "And that's not a very big number but it's big enough. There are different ways to interpret it. Do you mean 2 to the 3?",
+        "start": 25.92,
+        "duration": 6.559
+    },
+    {
+        "text": "to the 4",
+        "start": 33.28,
+        "duration": 1.68
+    },
+    {
+        "text": "to the 5 or do you mean 2,",
+        "start": 34.96,
+        "duration": 2.799
+    },
+    {
+        "text": "to the 3 to the 4 to the 5 like that",
+        "start": 38.32,
+        "duration": 2.479
+    },
+    {
+        "text": "So there are two different ways; parenthesising it from the top down or from the bottom up,",
+        "start": 40.96,
+        "duration": 3.759
+    },
+    {
+        "text": "and if you do it from the bottom up the tower essentially collapses. 2 cubed is 8 so we would have 8 to the 4th,",
+        "start": 45.28,
+        "duration": 7.759
+    },
+    {
+        "text": "to the 5th; but 8 to the 4th is 2 to the 12 and to the 5th",
+        "start": 53.28,
+        "duration": 4.56
+    },
+    {
+        "text": "This is 2 to the 60. So this is about 10 to the 18. It's big but it's not very big.",
+        "start": 58.239,
+        "duration": 6.959
+    },
+    {
+        "text": "Now, whereas, if we do it from the top down, this is the official way to do it,",
+        "start": 65.198,
+        "duration": 4.721
+    },
+    {
+        "text": "umm 4 to the 5 is 2 to the 10th, which is 1024.",
+        "start": 70.64,
+        "duration": 4.18
+    },
+    {
+        "text": "So we have 3 to the 1024,",
+        "start": 76.32,
+        "duration": 3.439
+    },
+    {
+        "text": "2 to that power. Now 3 to the 1024 is pretty big. So this is 2 to the 10 to the 489",
+        "start": 80.72,
+        "duration": 7.139
+    },
+    {
+        "text": "And that's a pretty big number. So, for emphasising",
+        "start": 89.04,
+        "duration": 2.979
+    },
+    {
+        "text": "from the top down, that's the default in most computer languages.",
+        "start": 92.64,
+        "duration": 4.019
+    },
+    {
+        "text": "Okay, so this gives you some pretty big numbers, on the other hand my good friend Marc LeBrun had an idea",
+        "start": 96.96,
+        "duration": 6.799
+    },
+    {
+        "text": "he said, um, instead of having towers, let's have dungeons.",
+        "start": 103.92,
+        "duration": 3.62
+    },
+    {
+        "text": "Let's go down",
+        "start": 108.159,
+        "duration": 1.6
+    },
+    {
+        "text": "He says we're going to use the following notation, which actually is in common use, I'll let a sub b mean",
+        "start": 109.759,
+        "duration": 6.8
+    },
+    {
+        "text": "read a",
+        "start": 117.28,
+        "duration": 1.439
+    },
+    {
+        "text": "in base b, and we do that all the time. For instance in",
+        "start": 118.719,
+        "duration": 3.04
+    },
+    {
+        "text": "binary notation",
+        "start": 122.46,
+        "duration": 1.939
+    },
+    {
+        "text": "7 is 1 1 1",
+        "start": 124.399,
+        "duration": 1.76
+    },
+    {
+        "text": "So you would write 1 1 1 sub 2, which means interpret \n1 1 1 in base 2, is equal to 7",
+        "start": 126.159,
+        "duration": 7.68
+    },
+    {
+        "text": "in base 10.",
+        "start": 134.16,
+        "duration": 1.439
+    },
+    {
+        "text": "And the way you",
+        "start": 135.599,
+        "duration": 1.521
+    },
+    {
+        "text": "read this, you say, all right. That one is a 1 that one is a 2 and that one is a 4. So this",
+        "start": 137.12,
+        "duration": 4.72
+    },
+    {
+        "text": "Is 4 + 2 + 1 which is indeed 7. so that's the notation.",
+        "start": 142.64,
+        "duration": 5.699
+    },
+    {
+        "text": "Now, if",
+        "start": 149.52,
+        "duration": 1.52
+    },
+    {
+        "text": "a had just one digit. It's kind of boring. If we took 3 sub 17",
+        "start": 151.04,
+        "duration": 5.68
+    },
+    {
+        "text": "It's just 3 in 10. Single digit numbers don't change, under this operation.",
+        "start": 156.959,
+        "duration": 5.36
+    },
+    {
+        "text": "So, the first interesting number is 10. And we're going to",
+        "start": 162.56,
+        "duration": 3.52
+    },
+    {
+        "text": "rebase it in base 11, and we're going to rebase that in base 12, and rebase that in 13 and...",
+        "start": 166.7,
+        "duration": 7.539
+    },
+    {
+        "text": "go for a while, down to n steps and stop.",
+        "start": 174.56,
+        "duration": 3.36
+    },
+    {
+        "text": "What do we get? What are these numbers?",
+        "start": 178.56,
+        "duration": 2.319
+    },
+    {
+        "text": "Well again, you have to decide how to parenthesise it. There are two ways, from the top or from the bottom. And in this case,",
+        "start": 181.44,
+        "duration": 6.639
+    },
+    {
+        "text": "parenthesising it from the bottom up, is the best. 10 sub 11, for example, just to get started. What is 10 sub 11?",
+        "start": 188.7,
+        "duration": 6.819
+    },
+    {
+        "text": "Well, that 1 means 11 and that 0 means you've got zero digits. So it's 11. Okay",
+        "start": 195.599,
+        "duration": 6.639
+    },
+    {
+        "text": "What about 10 sub 11 sub 12? Well, we're going to parenthesise",
+        "start": 202.64,
+        "duration": 3.619
+    },
+    {
+        "text": "from the bottom up, so that's 10 -",
+        "start": 207.28,
+        "duration": 2.399
+    },
+    {
+        "text": "now 11's rebased to base 12. That 1 means 12 and that one means 1 so 12 plus 1 is 13.",
+        "start": 210.239,
+        "duration": 6.34
+    },
+    {
+        "text": "So that's 10 sub 13",
+        "start": 217.04,
+        "duration": 2.08
+    },
+    {
+        "text": "Now, 10 sub 13, that one means 13 and that zero means you don't have any more digits to add. Okay.",
+        "start": 219.2,
+        "duration": 6.639
+    },
+    {
+        "text": "Now what about 10 sub 11 sub 12 sub 13? And again, we put in the parens.",
+        "start": 226.0,
+        "duration": 5.779
+    },
+    {
+        "text": "Well, so it's 10 sub 11. 12 sub 13. What's that?",
+        "start": 232.319,
+        "duration": 4.08
+    },
+    {
+        "text": "That 1 is 13 + 2",
+        "start": 237.04,
+        "duration": 2.0
+    },
+    {
+        "text": "um dollars, is 15 so that's 11 sub 15",
+        "start": 240.319,
+        "duration": 4.24
+    },
+    {
+        "text": "But now, what is 11 sub 15? Well, that one is a 15 is worth 15 dollars. That one is worth 1 dollar",
+        "start": 245.599,
+        "duration": 6.88
+    },
+    {
+        "text": "So that's 16",
+        "start": 252.72,
+        "duration": 1.76
+    },
+    {
+        "text": "And 10 sub 16 is 16",
+        "start": 254.48,
+        "duration": 2.4
+    },
+    {
+        "text": "So the sequence that we're getting starts with 10, and then we get 11, 13, and 16",
+        "start": 256.959,
+        "duration": 6.88
+    },
+    {
+        "text": "Let's do another one. So 10 sub 11, 12,",
+        "start": 264.16,
+        "duration": 3.679
+    },
+    {
+        "text": "13 ,14. 13 sub 14",
+        "start": 268.479,
+        "duration": 2.88
+    },
+    {
+        "text": "is 14 + 3. It's 17",
+        "start": 272.16,
+        "duration": 2.339
+    },
+    {
+        "text": "Okay",
+        "start": 275.28,
+        "duration": 0.96
+    },
+    {
+        "text": "12 sub 17",
+        "start": 276.24,
+        "duration": 2.0
+    },
+    {
+        "text": "Is 17 + 2 is 19.",
+        "start": 279.199,
+        "duration": 2.5
+    },
+    {
+        "text": "Now we have 11",
+        "start": 282.96,
+        "duration": 2.0
+    },
+    {
+        "text": "Sub 19.",
+        "start": 285.28,
+        "duration": 2.0
+    },
+    {
+        "text": "11 sub 19. That one is 19. That one is,",
+        "start": 287.28,
+        "duration": 3.359
+    },
+    {
+        "text": "makes 20. So that's 20, and then we have 10 sub 20, which is equal to 20.",
+        "start": 291.44,
+        "duration": 7.119
+    },
+    {
+        "text": "So the next term in the sequence is 20. And we keep going and the question is how big do these numbers grow?",
+        "start": 299.6,
+        "duration": 7.2
+    },
+    {
+        "text": "Well, we could also have parenthesised it. Let me show you what it looks like if we do it the other way around. From",
+        "start": 307.36,
+        "duration": 6.16
+    },
+    {
+        "text": "top down.",
+        "start": 314.08,
+        "duration": 1.36
+    },
+    {
+        "text": "10, then we have 10 sub 11. Well, that's 11 again",
+        "start": 315.44,
+        "duration": 3.599
+    },
+    {
+        "text": "Now we have 10 sub 11, sub 12, but i'm going to put the parentheses around the top two",
+        "start": 319.44,
+        "duration": 5.119
+    },
+    {
+        "text": "So 10 sub 11, is 11. 11 sub 12",
+        "start": 324.72,
+        "duration": 3.6
+    },
+    {
+        "text": "is um",
+        "start": 328.96,
+        "duration": 1.76
+    },
+    {
+        "text": "13 again, same as it was here. 10 sub 11, sub 12, sub 13;",
+        "start": 330.72,
+        "duration": 6.16
+    },
+    {
+        "text": "with parens like this.",
+        "start": 337.28,
+        "duration": 2.0
+    },
+    {
+        "text": "So this is equal to 11 sub 12,",
+        "start": 339.6,
+        "duration": 3.439
+    },
+    {
+        "text": "which is 13 sub 13. That one means 13 dollars, that 3 means three single dollars",
+        "start": 343.68,
+        "duration": 7.76
+    },
+    {
+        "text": "So we get 16. Well, that's what we got before",
+        "start": 351.44,
+        "duration": 2.559
+    },
+    {
+        "text": "But soon it's gonna change. If we parenthesise these dungeons, from the bottom up,",
+        "start": 354.56,
+        "duration": 5.44
+    },
+    {
+        "text": "we get one sequence 10, 11, 13, 16, 20.",
+        "start": 360.88,
+        "duration": 4.159
+    },
+    {
+        "text": "And then, the next one is 25. After 25",
+        "start": 365.44,
+        "duration": 2.879
+    },
+    {
+        "text": "we get 31, 38 and 46, and so on. And then, it slowly increases.",
+        "start": 368.319,
+        "duration": 5.44
+    },
+    {
+        "text": "as you can see, and after a while it starts to get bigger and bigger and bigger. And after",
+        "start": 374.08,
+        "duration": 4.88
+    },
+    {
+        "text": "we've gone to a hundred or so steps, we're starting to get some pretty big numbers.",
+        "start": 379.28,
+        "duration": 4.579
+    },
+    {
+        "text": "Whereas, on the other hand, if we parenthesise from the top down,",
+        "start": 384.539,
+        "duration": 3.86
+    },
+    {
+        "text": "we get much, much bigger numbers, very quickly. From the top down, it grows really quickly. Yeah",
+        "start": 388.88,
+        "duration": 6.239
+    },
+    {
+        "text": "Okay, we get the sequence 10, 11, 13, 20. So far it agrees, but then we get 30,",
+        "start": 395.28,
+        "duration": 5.839
+    },
+    {
+        "text": "48, 76,",
+        "start": 401.66,
+        "duration": 2.0
+    },
+    {
+        "text": "132,",
+        "start": 403.819,
+        "duration": 1.201
+    },
+    {
+        "text": "420, and so on. And after a mere 30 steps - we're getting gigantic numbers, as you can see here",
+        "start": 405.02,
+        "duration": 7.7
+    },
+    {
+        "text": "So that's the second sequence. \n- (Brady: Where are you taking us next?)",
+        "start": 413.039,
+        "duration": 2.559
+    },
+    {
+        "text": "Well, I want to give you two more. Which is the other way, natural way, to",
+        "start": 415.68,
+        "duration": 4.0
+    },
+    {
+        "text": "make a dungeon. If you give me a bit of paper I'll show you. In this sequence, we're going to start with 10",
+        "start": 420.479,
+        "duration": 5.44
+    },
+    {
+        "text": "And then we'll do 11 sub 10, 12 sub 11 sub 10",
+        "start": 426.479,
+        "duration": 3.839
+    },
+    {
+        "text": "13 sub 12 sub 11 sub 10 and so on and again we have to decide which way to parenthesise it. And the preferred way",
+        "start": 430.56,
+        "duration": 7.199
+    },
+    {
+        "text": "is from the bottom up. So 11 sub 10 is that one means 10 dollars. And that one means one more dollar",
+        "start": 438.08,
+        "duration": 7.519
+    },
+    {
+        "text": "So this is 11. So now, we're going to do 12 sub 11 sub 10.",
+        "start": 445.759,
+        "duration": 4.4
+    },
+    {
+        "text": "Now 11 sub 10, as we just saw, is 11. So what we have is 12 sub 11.",
+        "start": 450.4,
+        "duration": 5.119
+    },
+    {
+        "text": "12 sub 11 is 11 + 2, which is 13.",
+        "start": 455.68,
+        "duration": 3.779
+    },
+    {
+        "text": "So the, so the sequences goes 10, 11, 13. Now, we have to do",
+        "start": 460.479,
+        "duration": 4.88
+    },
+    {
+        "text": "13 sub 12 sub 11 sub 10. Okay, 13 sub 13,",
+        "start": 465.919,
+        "duration": 4.64
+    },
+    {
+        "text": "by what we just did, and that's 13 + 3, is 16.",
+        "start": 471.12,
+        "duration": 4.16
+    },
+    {
+        "text": "And that is, obviously, by what we just did, 14 sub 16, which is 20. Now,",
+        "start": 476.879,
+        "duration": 6.0
+    },
+    {
+        "text": "we will do one more. 15, 14, 13, 12, 11, 10.",
+        "start": 483.28,
+        "duration": 5.839
+    },
+    {
+        "text": "By what we know from the previous little calculation is",
+        "start": 489.68,
+        "duration": 3.44
+    },
+    {
+        "text": "15 sub 20, but that one means 20 dollars and add five dollars. So that's 25 dollars.",
+        "start": 493.919,
+        "duration": 5.839
+    },
+    {
+        "text": "Okay, so that's,",
+        "start": 500.4,
+        "duration": 1.68
+    },
+    {
+        "text": "that's from the bottom up. If we do it from the top down, we'll get a different sequence.",
+        "start": 502.08,
+        "duration": 5.6
+    },
+    {
+        "text": "This was pretty easy, because we didn't have to recalculate everything each time,",
+        "start": 507.919,
+        "duration": 3.92
+    },
+    {
+        "text": "we could just use what we knew from the previous step. From - the difficulty with top down is you have to redo",
+        "start": 511.84,
+        "duration": 6.16
+    },
+    {
+        "text": "the computation at each step. That's why um, the other one is preferred.",
+        "start": 518.32,
+        "duration": 4.799
+    },
+    {
+        "text": "All right. So 11 sub 10 is certainly 11. No  we have a 12 sub 11 sub 10.",
+        "start": 523.279,
+        "duration": 5.119
+    },
+    {
+        "text": "Now, 12 sub 11",
+        "start": 529.04,
+        "duration": 2.0
+    },
+    {
+        "text": "is 13, so this is 13 sub 10, which is 13.",
+        "start": 531.04,
+        "duration": 5.84
+    },
+    {
+        "text": "And, you can see that, it's the same, so far. We have 10, 11, 13. All right",
+        "start": 537.2,
+        "duration": 4.239
+    },
+    {
+        "text": "13, 12, 11, 10 is equal to, parenthesised",
+        "start": 542.72,
+        "duration": 3.7
+    },
+    {
+        "text": "from",
+        "start": 547.6,
+        "duration": 0.96
+    },
+    {
+        "text": "the top down. 13 sub 12 is",
+        "start": 548.56,
+        "duration": 2.959
+    },
+    {
+        "text": "12 + 3 is 15. 15 sub 11 is 16",
+        "start": 552.64,
+        "duration": 4.099
+    },
+    {
+        "text": "So. And then 16 sub 10 is 16. Still the same as we had before 14, 13, 12, 11,",
+        "start": 558.72,
+        "duration": 7.679
+    },
+    {
+        "text": "10",
+        "start": 566.959,
+        "duration": 0.88
+    },
+    {
+        "text": "Okay, 14 , 13 is 17. 17, 12 is 19",
+        "start": 567.839,
+        "duration": 5.86
+    },
+    {
+        "text": "19 sub 11",
+        "start": 574.94,
+        "duration": 2.0
+    },
+    {
+        "text": "Is equal to 20.",
+        "start": 577.6,
+        "duration": 2.0
+    },
+    {
+        "text": "20 sub 10 is 20",
+        "start": 580.0,
+        "duration": 2.08
+    },
+    {
+        "text": "Holy cow! All right, we'll go one more step.",
+        "start": 584.0,
+        "duration": 2.899
+    },
+    {
+        "text": "(Brady: Breaking from the pack now.)\n- Yeah, we've got a different sequence",
+        "start": 592.0,
+        "duration": 2.7
+    },
+    {
+        "text": "(Brady: and this again presumably the same thing will happen here?)",
+        "start": 594.7,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: But that one - )\n- Yes, exactly the same. I have the same pictures, as I showed you. Okay, so now we've got four sequences,",
+        "start": 596.8,
+        "duration": 6.34
+    },
+    {
+        "text": "parenthesised from the top down, from the bottom up. Yes. The question is: how big are these? Now,",
+        "start": 603.899,
+        "duration": 4.66
+    },
+    {
+        "text": "what happens if you go down a dungeon n steps down towards the basement? What - how big is the number?",
+        "start": 609.279,
+        "duration": 6.72
+    },
+    {
+        "text": "If you have a number, you take its logarithm,",
+        "start": 616.56,
+        "duration": 2.419
+    },
+    {
+        "text": "It's much smaller than; if you take the log of the log of the number, it gets really tiny",
+        "start": 619.36,
+        "duration": 5.359
+    },
+    {
+        "text": "and if you take the log of the log of the log",
+        "start": 625.279,
+        "duration": 2.0
+    },
+    {
+        "text": "It has to be a pretty big number before you get anything, the - anything that's left after you take logs.",
+        "start": 628.16,
+        "duration": 5.28
+    },
+    {
+        "text": "So with a tower, a tower of height n, you have to take logs",
+        "start": 634.079,
+        "duration": 4.8
+    },
+    {
+        "text": "n -1 times to bring it down to earth, but these dungeons, they don't grow that fast, which is really surprising",
+        "start": 639.519,
+        "duration": 7.14
+    },
+    {
+        "text": "What you get is that you only have to take logs twice before you get a number you can see",
+        "start": 647.2,
+        "duration": 5.599
+    },
+    {
+        "text": "(Brady: But some of those numbers you showed me, like, after you've done hundreds of steps were massive)",
+        "start": 653.519,
+        "duration": 3.68
+    },
+    {
+        "text": "(Brady: Surely logging them twice wouldn't bring you down to an - )",
+        "start": 657.519,
+        "duration": 2.32
+    },
+    {
+        "text": "( a reasonable number?)\n- Yes, it does. Um, this is asymptotically",
+        "start": 660.48,
+        "duration": 3.78
+    },
+    {
+        "text": "Yeah",
+        "start": 665.279,
+        "duration": 0.961
+    },
+    {
+        "text": "Um, a hundred steps - we got a number that was that big,10 to the 80",
+        "start": 666.24,
+        "duration": 5.839
+    },
+    {
+        "text": "If we were taking logs to the base 10, of a number like 10 to the 80. 10 to the power 80, take logs",
+        "start": 672.16,
+        "duration": 5.6
+    },
+    {
+        "text": "becomes 80 times the log of 10, call it 80. Take the log again. Log of 80 is",
+        "start": 678.0,
+        "duration": 6.719
+    },
+    {
+        "text": "just under 2.",
+        "start": 685.279,
+        "duration": 1.761
+    },
+    {
+        "text": "So it drops down very quickly\n- (Brady: But i'm not surprised. It has a different behaviour because you're doing a completely different operation!)",
+        "start": 687.04,
+        "duration": 6.02
+    },
+    {
+        "text": "(With the towers you were, like, multiplying numbers)",
+        "start": 693.6,
+        "duration": 2.799
+    },
+    {
+        "text": "(but this operation you were doing with the dungeons, involved like)",
+        "start": 696.959,
+        "duration": 3.68
+    },
+    {
+        "text": "(converting numbers)",
+        "start": 701.339,
+        "duration": 1.62
+    },
+    {
+        "text": "(into bases and things so it was a whole different game you were playing.)\n- Yeah. You're absolutely right Brady. I",
+        "start": 702.959,
+        "duration": 5.2
+    },
+    {
+        "text": "maybe",
+        "start": 708.8,
+        "duration": 1.599
+    },
+    {
+        "text": "Was exaggerating a bit. Yes. I mean they do grow very quickly, and it is surprising when you work them out.",
+        "start": 710.399,
+        "duration": 6.239
+    },
+    {
+        "text": "You saw those, those how rapidly they grow, those numbers. See,",
+        "start": 717.04,
+        "duration": 4.08
+    },
+    {
+        "text": "initially, we thought that they would grow just like towers. So, it was really a surprise to find out that they don't.",
+        "start": 721.98,
+        "duration": 7.059
+    },
+    {
+        "text": "One really nice example:",
+        "start": 729.6,
+        "duration": 2.0
+    },
+    {
+        "text": "we've been talking about the notation a sub b which means take the number a and",
+        "start": 731.68,
+        "duration": 4.239
+    },
+    {
+        "text": "read it as if it was written in base b what if you took a,",
+        "start": 736.24,
+        "duration": 3.679
+    },
+    {
+        "text": "and read it in base a,",
+        "start": 740.72,
+        "duration": 2.0
+    },
+    {
+        "text": "and read that in base a,",
+        "start": 743.279,
+        "duration": 2.0
+    },
+    {
+        "text": "and you went all the way to infinity?",
+        "start": 746.8,
+        "duration": 2.0
+    },
+    {
+        "text": "And in particular I want to take a to be the number 1.1",
+        "start": 749.92,
+        "duration": 4.179
+    },
+    {
+        "text": "[dripping]",
+        "start": 754.099,
+        "duration": 2.0
+    },
+    {
+        "text": "We'd like to thank Brilliant for supporting this video. Brilliant is a huge archive of puzzles, quizzes,",
+        "start": 758.88,
+        "duration": 6.339
+    },
+    {
+        "text": "courses;",
+        "start": 765.899,
+        "duration": 1.141
+    },
+    {
+        "text": "including the courses you're seeing on the screen at the moment - and these are just a selection of them,",
+        "start": 767.04,
+        "duration": 4.16
+    },
+    {
+        "text": "there are more all the time. Obviously being a bit of a numberphile, the number theory one is one of my favourites.",
+        "start": 771.2,
+        "duration": 5.759
+    },
+    {
+        "text": "This is just a little tiny, tiny taste of what it looks like. If you're trying to get your body in shape,",
+        "start": 777.279,
+        "duration": 5.119
+    },
+    {
+        "text": "you're probably gonna join a gym, you might even get a personal trainer if you're really serious about it.",
+        "start": 782.639,
+        "duration": 4.32
+    },
+    {
+        "text": "If you're trying to get your brain in shape, why not use Brilliant as your personal trainer, with all these",
+        "start": 787.2,
+        "duration": 4.879
+    },
+    {
+        "text": "interactive puzzles and quizzes. It's fantastic. It's good fun, and it makes you smarter. Go to brilliant.org/numberphile",
+        "start": 792.7,
+        "duration": 7.9
+    },
+    {
+        "text": "to have a look and if you use the /numberphile,",
+        "start": 800.6,
+        "duration": 3.08
+    },
+    {
+        "text": "they'll know you came from here and you'll get 20% off if you sign up to their premium subscription",
+        "start": 803.839,
+        "duration": 5.76
+    },
+    {
+        "text": "That's the subscription that gives you access to everything. Thanks to Brilliant, for supporting this episode",
+        "start": 809.839,
+        "duration": 5.28
+    },
+    {
+        "text": "[preview of part 2]: ...means 5 over 10, the 6 means 6 over 10 squared. If we take 1.1, sub itself...",
+        "start": 817.519,
+        "duration": 7.92
+    },
+    {
+        "text": "forever",
+        "start": 826.8,
+        "duration": 2.0
+    }
+]

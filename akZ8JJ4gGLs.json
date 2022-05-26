@@ -1,0 +1,1667 @@
+[
+    {
+        "text": "So this one is how to model a",
+        "start": 0.24,
+        "duration": 3.04
+    },
+    {
+        "text": "lightning strike.",
+        "start": 3.28,
+        "duration": 1.75
+    },
+    {
+        "text": "We're going to try and make an animation",
+        "start": 7.359,
+        "duration": 1.601
+    },
+    {
+        "text": "of a lightning strike that looks",
+        "start": 8.96,
+        "duration": 1.52
+    },
+    {
+        "text": "realistic.",
+        "start": 10.48,
+        "duration": 0.8
+    },
+    {
+        "text": "And I'm not claiming that it is a",
+        "start": 12.24,
+        "duration": 1.68
+    },
+    {
+        "text": "realistic model of lightning-",
+        "start": 13.92,
+        "duration": 2.06
+    },
+    {
+        "text": "This is- this is kind of secretly a",
+        "start": 19.359,
+        "duration": 1.92
+    },
+    {
+        "text": "demonstration of an algorithm in",
+        "start": 21.279,
+        "duration": 2.641
+    },
+    {
+        "text": "computer science called \nBreadth-First Search",
+        "start": 23.92,
+        "duration": 2.72
+    },
+    {
+        "text": "which we'll be showing as like a maze",
+        "start": 26.64,
+        "duration": 2.16
+    },
+    {
+        "text": "solving algorithm.",
+        "start": 28.8,
+        "duration": 1.76
+    },
+    {
+        "text": "So what we have is a it's a frontier of",
+        "start": 30.56,
+        "duration": 3.28
+    },
+    {
+        "text": "exploration, bits of lightning, and one of",
+        "start": 33.84,
+        "duration": 3.28
+    },
+    {
+        "text": "them",
+        "start": 37.12,
+        "duration": 0.88
+    },
+    {
+        "text": "hits the ground first and that- the path",
+        "start": 38.0,
+        "duration": 2.079
+    },
+    {
+        "text": "that that one followed ends up being the",
+        "start": 40.079,
+        "duration": 2.881
+    },
+    {
+        "text": "shape of the lightning strike.",
+        "start": 42.96,
+        "duration": 2.32
+    },
+    {
+        "text": "So like a frontier of exploration",
+        "start": 45.28,
+        "duration": 2.959
+    },
+    {
+        "text": "and as soon as you find it",
+        "start": 48.239,
+        "duration": 1.921
+    },
+    {
+        "text": "that one gets reinforced and that",
+        "start": 50.16,
+        "duration": 1.44
+    },
+    {
+        "text": "becomes a lightning strike. And",
+        "start": 51.6,
+        "duration": 2.799
+    },
+    {
+        "text": "this is taking place inside a randomly",
+        "start": 54.399,
+        "duration": 2.881
+    },
+    {
+        "text": "generated labyrinth.",
+        "start": 57.28,
+        "duration": 2.24
+    },
+    {
+        "text": "So maybe the walls inside this maze",
+        "start": 59.52,
+        "duration": 2.559
+    },
+    {
+        "text": "would correspond to fluctuations in the",
+        "start": 62.079,
+        "duration": 1.921
+    },
+    {
+        "text": "air, like variations in the",
+        "start": 64.0,
+        "duration": 1.92
+    },
+    {
+        "text": "resistance or how charges can pass",
+        "start": 65.92,
+        "duration": 2.48
+    },
+    {
+        "text": "through",
+        "start": 68.4,
+        "duration": 1.039
+    },
+    {
+        "text": "the air; and maybe if air was perfectly",
+        "start": 69.439,
+        "duration": 2.801
+    },
+    {
+        "text": "homogeneous it would just be- lightning",
+        "start": 72.24,
+        "duration": 1.76
+    },
+    {
+        "text": "would always be a straight line, I don't",
+        "start": 74.0,
+        "duration": 1.2
+    },
+    {
+        "text": "know.",
+        "start": 75.2,
+        "duration": 0.72
+    },
+    {
+        "text": "(Brady: It's really good looking\nthis one isn't it?)",
+        "start": 75.92,
+        "duration": 1.72
+    },
+    {
+        "text": "(Were you pleased with how it)",
+        "start": 77.64,
+        "duration": 1.159
+    },
+    {
+        "text": "(turned out once you'd made it? Did you)",
+        "start": 78.799,
+        "duration": 1.441
+    },
+    {
+        "text": "(think, wow that looks awesome!)\n- Yeah I",
+        "start": 80.24,
+        "duration": 1.76
+    },
+    {
+        "text": "think it's quite, like, satisfying I",
+        "start": 82.0,
+        "duration": 2.08
+    },
+    {
+        "text": "think. There's a- there's a bit of- there's",
+        "start": 84.08,
+        "duration": 2.079
+    },
+    {
+        "text": "a kind of game at the beginning where",
+        "start": 86.159,
+        "duration": 1.681
+    },
+    {
+        "text": "you're like well which one's going to",
+        "start": 87.84,
+        "duration": 1.12
+    },
+    {
+        "text": "win? And you know in some of these you've",
+        "start": 88.96,
+        "duration": 2.32
+    },
+    {
+        "text": "got two kind of",
+        "start": 91.28,
+        "duration": 1.68
+    },
+    {
+        "text": "two or three competing parts, and is this",
+        "start": 92.96,
+        "duration": 2.64
+    },
+    {
+        "text": "one going to win? Is this is going to win?",
+        "start": 95.6,
+        "duration": 1.12
+    },
+    {
+        "text": "Then that one wins in the end and then",
+        "start": 96.72,
+        "duration": 2.0
+    },
+    {
+        "text": "you you have the satisfying bolt of",
+        "start": 98.72,
+        "duration": 2.56
+    },
+    {
+        "text": "lightning at the end. \n- (Your cat seems really into it.)",
+        "start": 101.28,
+        "duration": 3.42
+    },
+    {
+        "text": "Yeah,",
+        "start": 105.6,
+        "duration": 0.96
+    },
+    {
+        "text": "helps me out with all of these",
+        "start": 106.56,
+        "duration": 1.12
+    },
+    {
+        "text": "animations. This is done in Mathematica.",
+        "start": 107.68,
+        "duration": 3.2
+    },
+    {
+        "text": "The first stage is generating the random",
+        "start": 110.88,
+        "duration": 2.96
+    },
+    {
+        "text": "maze,",
+        "start": 113.84,
+        "duration": 0.959
+    },
+    {
+        "text": "then there's solving the maze, and then",
+        "start": 114.799,
+        "duration": 2.241
+    },
+    {
+        "text": "there's generating the animation from",
+        "start": 117.04,
+        "duration": 2.48
+    },
+    {
+        "text": "the solution. So here we are in",
+        "start": 119.52,
+        "duration": 1.76
+    },
+    {
+        "text": "Mathematica. This is code to randomly",
+        "start": 121.28,
+        "duration": 2.32
+    },
+    {
+        "text": "generate a maze, which we're visualising",
+        "start": 123.6,
+        "duration": 2.0
+    },
+    {
+        "text": "here. So maybe you can see if I run this",
+        "start": 125.6,
+        "duration": 2.96
+    },
+    {
+        "text": "every time,",
+        "start": 128.56,
+        "duration": 1.36
+    },
+    {
+        "text": "I'm going to get a random",
+        "start": 129.92,
+        "duration": 1.76
+    },
+    {
+        "text": "configuration",
+        "start": 131.68,
+        "duration": 1.84
+    },
+    {
+        "text": "of of walls in the maze.\n- (How do you know)",
+        "start": 133.52,
+        "duration": 2.48
+    },
+    {
+        "text": "(the maze is always going to be solvable?)",
+        "start": 136.0,
+        "duration": 2.48
+    },
+    {
+        "text": "What I would do is just generate it",
+        "start": 138.48,
+        "duration": 1.68
+    },
+    {
+        "text": "again again until it is solvable. Since",
+        "start": 140.16,
+        "duration": 2.32
+    },
+    {
+        "text": "it's random",
+        "start": 142.48,
+        "duration": 1.2
+    },
+    {
+        "text": "basically it turns out it'd be quite",
+        "start": 143.68,
+        "duration": 1.279
+    },
+    {
+        "text": "unlucky",
+        "start": 144.959,
+        "duration": 1.28
+    },
+    {
+        "text": "if it's not solvable, but I could be",
+        "start": 146.239,
+        "duration": 1.521
+    },
+    {
+        "text": "unlucky and then",
+        "start": 147.76,
+        "duration": 1.199
+    },
+    {
+        "text": "the-",
+        "start": 148.959,
+        "duration": 1.041
+    },
+    {
+        "text": "the output of the breadth-first search",
+        "start": 150.0,
+        "duration": 2.08
+    },
+    {
+        "text": "will be there is no solution to this",
+        "start": 152.08,
+        "duration": 1.84
+    },
+    {
+        "text": "maze and I'll say, okay let's generate",
+        "start": 153.92,
+        "duration": 1.679
+    },
+    {
+        "text": "another random one. The way this works is",
+        "start": 155.599,
+        "duration": 2.241
+    },
+    {
+        "text": "that we're going to be working on a",
+        "start": 157.84,
+        "duration": 1.6
+    },
+    {
+        "text": "square grid. Here are all the points that",
+        "start": 159.44,
+        "duration": 1.92
+    },
+    {
+        "text": "might be connected by lines of a square;",
+        "start": 161.36,
+        "duration": 2.879
+    },
+    {
+        "text": "and then each",
+        "start": 164.239,
+        "duration": 1.28
+    },
+    {
+        "text": "each of these",
+        "start": 165.519,
+        "duration": 1.281
+    },
+    {
+        "text": "potential lines here will either be free",
+        "start": 166.8,
+        "duration": 3.519
+    },
+    {
+        "text": "or there will be a wall of the maze. You",
+        "start": 170.319,
+        "duration": 2.961
+    },
+    {
+        "text": "know there's one probability for each of",
+        "start": 173.28,
+        "duration": 1.84
+    },
+    {
+        "text": "these",
+        "start": 175.12,
+        "duration": 1.6
+    },
+    {
+        "text": "being",
+        "start": 176.72,
+        "duration": 1.68
+    },
+    {
+        "text": "joined- being joined, yeah, and then",
+        "start": 178.4,
+        "duration": 2.32
+    },
+    {
+        "text": "there's another- there's a different",
+        "start": 180.72,
+        "duration": 2.12
+    },
+    {
+        "text": "probability for the horizontal ones. And",
+        "start": 182.84,
+        "duration": 3.16
+    },
+    {
+        "text": "I did that just because I wanted to make",
+        "start": 186.0,
+        "duration": 2.319
+    },
+    {
+        "text": "it more likely to be solvable.",
+        "start": 188.319,
+        "duration": 2.241
+    },
+    {
+        "text": "So these have a these have a different",
+        "start": 190.56,
+        "duration": 2.24
+    },
+    {
+        "text": "probability, q say, of being",
+        "start": 192.8,
+        "duration": 2.719
+    },
+    {
+        "text": "joined and then I just set it so that,",
+        "start": 195.519,
+        "duration": 3.36
+    },
+    {
+        "text": "you know, I'd set it so that q",
+        "start": 198.879,
+        "duration": 2.481
+    },
+    {
+        "text": "was less likely than than p. \n- (There are)",
+        "start": 201.36,
+        "duration": 2.72
+    },
+    {
+        "text": "(more vertical lines\nthan horizontal lines.)",
+        "start": 204.08,
+        "duration": 1.759
+    },
+    {
+        "text": "Yeah there should be, but there",
+        "start": 205.839,
+        "duration": 1.201
+    },
+    {
+        "text": "might not be.",
+        "start": 207.04,
+        "duration": 1.68
+    },
+    {
+        "text": "So then there is the-",
+        "start": 208.72,
+        "duration": 2.239
+    },
+    {
+        "text": "the step to solve",
+        "start": 210.959,
+        "duration": 1.441
+    },
+    {
+        "text": "the maze. You know that's this code here.",
+        "start": 212.4,
+        "duration": 2.88
+    },
+    {
+        "text": "It's relatively easy to just sort of",
+        "start": 215.28,
+        "duration": 2.48
+    },
+    {
+        "text": "show how it works I think? So say we have",
+        "start": 217.76,
+        "duration": 2.8
+    },
+    {
+        "text": "some",
+        "start": 220.56,
+        "duration": 0.959
+    },
+    {
+        "text": "maze and",
+        "start": 221.519,
+        "duration": 1.36
+    },
+    {
+        "text": "what we're asking is we're going to",
+        "start": 222.879,
+        "duration": 1.28
+    },
+    {
+        "text": "start at a point at the top, right?",
+        "start": 224.159,
+        "duration": 3.121
+    },
+    {
+        "text": "And our goal is to get down to",
+        "start": 228.25,
+        "duration": 2.549
+    },
+    {
+        "text": "the bottom. So, you know, lightning is",
+        "start": 230.799,
+        "duration": 2.16
+    },
+    {
+        "text": "somewhere in the cloud and we just need",
+        "start": 232.959,
+        "duration": 1.28
+    },
+    {
+        "text": "to get anywhere on the ground. We've got",
+        "start": 234.239,
+        "duration": 1.761
+    },
+    {
+        "text": "various",
+        "start": 236.0,
+        "duration": 1.2
+    },
+    {
+        "text": "walls that are",
+        "start": 237.2,
+        "duration": 1.44
+    },
+    {
+        "text": "joined - this might be enough to get",
+        "start": 238.64,
+        "duration": 3.2
+    },
+    {
+        "text": "the idea. You know theoretically we could",
+        "start": 241.84,
+        "duration": 2.8
+    },
+    {
+        "text": "just solve this by trying all possible",
+        "start": 244.64,
+        "duration": 2.08
+    },
+    {
+        "text": "paths to the bottom, but we could be more",
+        "start": 246.72,
+        "duration": 2.32
+    },
+    {
+        "text": "efficient than that. And the the idea is",
+        "start": 249.04,
+        "duration": 2.32
+    },
+    {
+        "text": "that we're just going to take it one",
+        "start": 251.36,
+        "duration": 1.439
+    },
+    {
+        "text": "step at a time. We know that we're",
+        "start": 252.799,
+        "duration": 1.601
+    },
+    {
+        "text": "starting",
+        "start": 254.4,
+        "duration": 1.119
+    },
+    {
+        "text": "in this",
+        "start": 255.519,
+        "duration": 0.96
+    },
+    {
+        "text": "cell, so we can get there in zero steps.",
+        "start": 256.479,
+        "duration": 2.88
+    },
+    {
+        "text": "Now we can get to",
+        "start": 259.359,
+        "duration": 1.44
+    },
+    {
+        "text": "this one in one step, and get to this",
+        "start": 260.799,
+        "duration": 2.4
+    },
+    {
+        "text": "cell in two steps, we can get to this cell",
+        "start": 263.199,
+        "duration": 2.321
+    },
+    {
+        "text": "in three steps and to \nthis cell in four steps.",
+        "start": 265.52,
+        "duration": 2.959
+    },
+    {
+        "text": "Now we've got a branching point. And this",
+        "start": 268.479,
+        "duration": 2.321
+    },
+    {
+        "text": "might be where you would be worried that,",
+        "start": 270.8,
+        "duration": 1.679
+    },
+    {
+        "text": "okay now our code is going to go off in",
+        "start": 272.479,
+        "duration": 1.761
+    },
+    {
+        "text": "this- and go be intractable. But really",
+        "start": 274.24,
+        "duration": 3.92
+    },
+    {
+        "text": "let's just take it one step at a time",
+        "start": 278.16,
+        "duration": 1.44
+    },
+    {
+        "text": "and just record how how far we can get.",
+        "start": 279.6,
+        "duration": 3.12
+    },
+    {
+        "text": "This cell we can get to in five steps",
+        "start": 282.72,
+        "duration": 1.84
+    },
+    {
+        "text": "and we can also get to this one in five",
+        "start": 284.56,
+        "duration": 1.6
+    },
+    {
+        "text": "steps. Now where can we get to in six",
+        "start": 286.16,
+        "duration": 2.8
+    },
+    {
+        "text": "steps? We can get here, we can get here,",
+        "start": 288.96,
+        "duration": 2.72
+    },
+    {
+        "text": "or we can get here. And how far can we",
+        "start": 291.68,
+        "duration": 2.64
+    },
+    {
+        "text": "get in seven steps? You know, there's a",
+        "start": 294.32,
+        "duration": 1.84
+    },
+    {
+        "text": "box up here we can get to; here we could",
+        "start": 296.16,
+        "duration": 2.16
+    },
+    {
+        "text": "go right or down; here we could go down.",
+        "start": 298.32,
+        "duration": 3.12
+    },
+    {
+        "text": "You know, and eventually we're going to",
+        "start": 301.44,
+        "duration": 1.28
+    },
+    {
+        "text": "have some kind of path that goes",
+        "start": 302.72,
+        "duration": 1.84
+    },
+    {
+        "text": "something like this. Now that we've got",
+        "start": 304.56,
+        "duration": 2.479
+    },
+    {
+        "text": "to the bottom, what \nthat's told us is",
+        "start": 307.039,
+        "duration": 3.041
+    },
+    {
+        "text": "there's a path to the bottom that only",
+        "start": 310.08,
+        "duration": 1.6
+    },
+    {
+        "text": "takes 10 steps. So let's not bother",
+        "start": 311.68,
+        "duration": 2.32
+    },
+    {
+        "text": "looking at all the 11 steps ones because",
+        "start": 314.0,
+        "duration": 2.32
+    },
+    {
+        "text": "we know how to get there in 10, all we",
+        "start": 316.32,
+        "duration": 1.599
+    },
+    {
+        "text": "need is the shortest path.",
+        "start": 317.919,
+        "duration": 1.561
+    },
+    {
+        "text": "It's called breadth-first search.",
+        "start": 321.759,
+        "duration": 2.377
+    },
+    {
+        "text": "(Breadth-first search?)\n- Yeah breadth-first; and",
+        "start": 324.136,
+        "duration": 2.664
+    },
+    {
+        "text": "that's as opposed to depth-first.\n- (What)",
+        "start": 326.8,
+        "duration": 2.239
+    },
+    {
+        "text": "(happens in your code if there's a tie?)",
+        "start": 329.039,
+        "duration": 2.081
+    },
+    {
+        "text": "Yeah that's a good question. In that case",
+        "start": 331.12,
+        "duration": 2.24
+    },
+    {
+        "text": "it will just be down to",
+        "start": 333.36,
+        "duration": 2.8
+    },
+    {
+        "text": "basically random or the way that I",
+        "start": 336.16,
+        "duration": 1.759
+    },
+    {
+        "text": "implemented the code. You know, maybe I",
+        "start": 337.919,
+        "duration": 2.241
+    },
+    {
+        "text": "looked at paths to the left before it's",
+        "start": 340.16,
+        "duration": 2.479
+    },
+    {
+        "text": "passed down or to the right, and so it'll",
+        "start": 342.639,
+        "duration": 2.321
+    },
+    {
+        "text": "just pick a tie. So yeah it's not- so it's",
+        "start": 344.96,
+        "duration": 2.88
+    },
+    {
+        "text": "it's ambiguous, yeah. So here,",
+        "start": 347.84,
+        "duration": 3.28
+    },
+    {
+        "text": "you know, before we generated one and it",
+        "start": 351.12,
+        "duration": 1.68
+    },
+    {
+        "text": "looks like we were lucky and there is a",
+        "start": 352.8,
+        "duration": 2.399
+    },
+    {
+        "text": "path that goes down.",
+        "start": 355.199,
+        "duration": 1.761
+    },
+    {
+        "text": "So yeah, so this was the original maze",
+        "start": 356.96,
+        "duration": 2.4
+    },
+    {
+        "text": "and now this is solving the maze and",
+        "start": 359.36,
+        "duration": 2.64
+    },
+    {
+        "text": "just visualising the path",
+        "start": 362.0,
+        "duration": 1.84
+    },
+    {
+        "text": "which,",
+        "start": 363.84,
+        "duration": 1.04
+    },
+    {
+        "text": "it's maybe a bit hard to see because",
+        "start": 364.88,
+        "duration": 2.319
+    },
+    {
+        "text": "it doesn't",
+        "start": 367.199,
+        "duration": 1.041
+    },
+    {
+        "text": "correspond with- with that but",
+        "start": 368.24,
+        "duration": 3.44
+    },
+    {
+        "text": "you know maybe I could quickly",
+        "start": 371.68,
+        "duration": 2.48
+    },
+    {
+        "text": "draw them on top of each other?",
+        "start": 374.16,
+        "duration": 2.0
+    },
+    {
+        "text": "Let's make the path red...",
+        "start": 376.16,
+        "duration": 2.159
+    },
+    {
+        "text": "We solved this original maze and this is-",
+        "start": 378.319,
+        "duration": 2.72
+    },
+    {
+        "text": "this ended up being",
+        "start": 381.039,
+        "duration": 1.521
+    },
+    {
+        "text": "the shortest path or one of the shortest",
+        "start": 382.56,
+        "duration": 2.4
+    },
+    {
+        "text": "paths. \n- (So Matthew, the animation that you)",
+        "start": 384.96,
+        "duration": 2.239
+    },
+    {
+        "text": "(ended up publishing is just an arbitrary)",
+        "start": 387.199,
+        "duration": 1.921
+    },
+    {
+        "text": "(one that the code spat out randomly)",
+        "start": 389.12,
+        "duration": 2.079
+    },
+    {
+        "text": "(that you liked the look of?)\n- Yeah I did a",
+        "start": 391.199,
+        "duration": 2.401
+    },
+    {
+        "text": "couple on a smaller maze and a couple in",
+        "start": 393.6,
+        "duration": 2.159
+    },
+    {
+        "text": "a bigger maze and I ran a few and those",
+        "start": 395.759,
+        "duration": 3.121
+    },
+    {
+        "text": "ones seemed like interesting ones where",
+        "start": 398.88,
+        "duration": 1.68
+    },
+    {
+        "text": "there was some",
+        "start": 400.56,
+        "duration": 1.04
+    },
+    {
+        "text": "kind of race going on in in the",
+        "start": 401.6,
+        "duration": 2.4
+    },
+    {
+        "text": "lightning, and yeah they're just ones that",
+        "start": 404.0,
+        "duration": 1.759
+    },
+    {
+        "text": "looked nice I thought. So we could look",
+        "start": 405.759,
+        "duration": 1.681
+    },
+    {
+        "text": "at the one that we happened to randomly",
+        "start": 407.44,
+        "duration": 1.52
+    },
+    {
+        "text": "generate there;",
+        "start": 408.96,
+        "duration": 1.359
+    },
+    {
+        "text": "the third step in the code is",
+        "start": 410.319,
+        "duration": 2.561
+    },
+    {
+        "text": "just sort of drawing the picture",
+        "start": 412.88,
+        "duration": 2.0
+    },
+    {
+        "text": "in a nice way. So we'll be using all the",
+        "start": 414.88,
+        "duration": 2.08
+    },
+    {
+        "text": "numbers that we had",
+        "start": 416.96,
+        "duration": 1.76
+    },
+    {
+        "text": "to colour the frontier as time progresses.",
+        "start": 418.72,
+        "duration": 3.52
+    },
+    {
+        "text": "So, for example the 6s were kind of",
+        "start": 422.24,
+        "duration": 3.239
+    },
+    {
+        "text": "interesting because we had the frontier",
+        "start": 425.479,
+        "duration": 2.681
+    },
+    {
+        "text": "at one point will look like this, we'll",
+        "start": 428.16,
+        "duration": 2.08
+    },
+    {
+        "text": "have all the 6s. And I will- I will",
+        "start": 430.24,
+        "duration": 2.239
+    },
+    {
+        "text": "colour them so that this",
+        "start": 432.479,
+        "duration": 2.0
+    },
+    {
+        "text": "bottom 6 will be brighter",
+        "start": 434.479,
+        "duration": 2.56
+    },
+    {
+        "text": "than this top 6, because in some sense",
+        "start": 437.039,
+        "duration": 1.761
+    },
+    {
+        "text": "it's more promising. \n- (It's winning.)",
+        "start": 438.8,
+        "duration": 1.877
+    },
+    {
+        "text": "It's winning in some way.",
+        "start": 440.677,
+        "duration": 1.642
+    },
+    {
+        "text": "Even though it lost in the end I guess,",
+        "start": 442.319,
+        "duration": 1.841
+    },
+    {
+        "text": "because it was- this 6",
+        "start": 444.16,
+        "duration": 2.72
+    },
+    {
+        "text": "looked lower and was\nwinning but ends up",
+        "start": 446.88,
+        "duration": 1.84
+    },
+    {
+        "text": "losing because there's a better path",
+        "start": 448.72,
+        "duration": 2.4
+    },
+    {
+        "text": "started going along from that 6. \n- (Yeah)",
+        "start": 451.12,
+        "duration": 2.079
+    },
+    {
+        "text": "So that's what the animation here",
+        "start": 453.199,
+        "duration": 2.56
+    },
+    {
+        "text": "does. So you start just creating-",
+        "start": 455.759,
+        "duration": 4.16
+    },
+    {
+        "text": "(So you're colouring equal numbers)",
+        "start": 459.919,
+        "duration": 1.601
+    },
+    {
+        "text": "(basically?)\n- Yeah that's right. And I think",
+        "start": 461.52,
+        "duration": 2.48
+    },
+    {
+        "text": "there's a bit of fuzziness as well, so",
+        "start": 464.0,
+        "duration": 1.759
+    },
+    {
+        "text": "I'm maybe drawing- here\nI'm drawing all the",
+        "start": 465.759,
+        "duration": 2.251
+    },
+    {
+        "text": "Well I can find out,",
+        "start": 468.56,
+        "duration": 1.84
+    },
+    {
+        "text": "all the 16s,",
+        "start": 470.4,
+        "duration": 1.84
+    },
+    {
+        "text": "but I'm- the 15s are still fading out of",
+        "start": 472.24,
+        "duration": 2.639
+    },
+    {
+        "text": "existence at that point; and this is the",
+        "start": 474.879,
+        "duration": 2.0
+    },
+    {
+        "text": "most promising 16, which maybe looks like",
+        "start": 476.879,
+        "duration": 3.04
+    },
+    {
+        "text": "a dead end actually.",
+        "start": 479.919,
+        "duration": 1.84
+    },
+    {
+        "text": "So yeah yeah, so then \nthis actually becomes",
+        "start": 483.68,
+        "duration": 1.84
+    },
+    {
+        "text": "more promising and this one is, you",
+        "start": 485.52,
+        "duration": 1.84
+    },
+    {
+        "text": "know, coming into",
+        "start": 487.36,
+        "duration": 2.64
+    },
+    {
+        "text": "existence. \n- (This is so much fun, I feel)",
+        "start": 490.0,
+        "duration": 2.319
+    },
+    {
+        "text": "(like you could just sit there like)",
+        "start": 492.319,
+        "duration": 1.201
+    },
+    {
+        "text": "(betting on it or like you just sort of)",
+        "start": 493.52,
+        "duration": 1.359
+    },
+    {
+        "text": "(in your mind you're running a little, oh)",
+        "start": 494.879,
+        "duration": 1.361
+    },
+    {
+        "text": "(is it going to win? \nWhich one's going to win?)",
+        "start": 496.24,
+        "duration": 2.089
+    },
+    {
+        "text": "(I still don't know- oh that one, \nthat one down the middle!)",
+        "start": 498.96,
+        "duration": 2.359
+    },
+    {
+        "text": "(No? Yes?)",
+        "start": 501.599,
+        "duration": 1.521
+    },
+    {
+        "text": "(No? Yes.) \n- You got it. And then there's that.",
+        "start": 503.12,
+        "duration": 3.199
+    },
+    {
+        "text": "Of course that was a solution right?",
+        "start": 506.319,
+        "duration": 2.801
+    },
+    {
+        "text": "(This is so satisfying to watch these, I)",
+        "start": 509.12,
+        "duration": 1.759
+    },
+    {
+        "text": "(could watch these all day.)",
+        "start": 510.879,
+        "duration": 1.441
+    },
+    {
+        "text": "So and then we can change things; like we",
+        "start": 512.32,
+        "duration": 2.32
+    },
+    {
+        "text": "could make the maze bigger, smaller -",
+        "start": 514.64,
+        "duration": 3.04
+    },
+    {
+        "text": "bigger or smaller, should we try? \n- (Why not, I got nowhere to be.)",
+        "start": 517.68,
+        "duration": 5.444
+    },
+    {
+        "text": "Let's say we could make it not square as",
+        "start": 523.68,
+        "duration": 1.76
+    },
+    {
+        "text": "well I suppose.",
+        "start": 525.44,
+        "duration": 1.68
+    },
+    {
+        "text": "Do you want a wide and",
+        "start": 527.12,
+        "duration": 2.56
+    },
+    {
+        "text": "thin, or tall and-\n- (I think tall. Tall)",
+        "start": 529.68,
+        "duration": 3.2
+    },
+    {
+        "text": "(is more fun surely?)\n- Let's make- make it",
+        "start": 532.88,
+        "duration": 1.6
+    },
+    {
+        "text": "the same but twice as tall.",
+        "start": 534.48,
+        "duration": 2.0
+    },
+    {
+        "text": "So now we have-",
+        "start": 536.48,
+        "duration": 2.16
+    },
+    {
+        "text": "(So quick! Just a couple key strokes!)?\n- Yeah",
+        "start": 538.64,
+        "duration": 2.4
+    },
+    {
+        "text": "but, let's see if we can solve it as",
+        "start": 541.04,
+        "duration": 1.919
+    },
+    {
+        "text": "quickly.",
+        "start": 542.959,
+        "duration": 1.681
+    },
+    {
+        "text": "No, so I think this means that it was an",
+        "start": 544.64,
+        "duration": 2.24
+    },
+    {
+        "text": "unsolvable maze.",
+        "start": 546.88,
+        "duration": 1.76
+    },
+    {
+        "text": "Umm, my code",
+        "start": 548.64,
+        "duration": 2.08
+    },
+    {
+        "text": "creates this nice red box if it's",
+        "start": 550.72,
+        "duration": 2.48
+    },
+    {
+        "text": "unsolvable, so let's try again. So",
+        "start": 553.2,
+        "duration": 2.72
+    },
+    {
+        "text": "we would just regenerate, this is a new",
+        "start": 555.92,
+        "duration": 2.08
+    },
+    {
+        "text": "maze;",
+        "start": 558.0,
+        "duration": 1.36
+    },
+    {
+        "text": "can you tell is it solvable?",
+        "start": 559.36,
+        "duration": 2.88
+    },
+    {
+        "text": "(I can't tell.)",
+        "start": 562.24,
+        "duration": 1.66
+    },
+    {
+        "text": "I think-",
+        "start": 563.9,
+        "duration": 0.9
+    },
+    {
+        "text": "I think there is a path down here.",
+        "start": 564.8,
+        "duration": 2.88
+    },
+    {
+        "text": "(Are you gonna get the red box of doom?)",
+        "start": 569.206,
+        "duration": 2.554
+    },
+    {
+        "text": "(No! It's passed!)",
+        "start": 571.76,
+        "duration": 2.56
+    },
+    {
+        "text": "And that's what it looks like in the",
+        "start": 574.72,
+        "duration": 1.76
+    },
+    {
+        "text": "context of of the original maze.",
+        "start": 576.48,
+        "duration": 3.2
+    },
+    {
+        "text": "(And and will it animate as well?)",
+        "start": 579.68,
+        "duration": 2.159
+    },
+    {
+        "text": "Should do...",
+        "start": 581.839,
+        "duration": 1.761
+    },
+    {
+        "text": "Okay,",
+        "start": 583.6,
+        "duration": 1.359
+    },
+    {
+        "text": "here we go - oh we've got two kind of",
+        "start": 584.959,
+        "duration": 1.681
+    },
+    {
+        "text": "parallel.",
+        "start": 586.64,
+        "duration": 1.11
+    },
+    {
+        "text": "So it looks like there were two that",
+        "start": 593.2,
+        "duration": 1.04
+    },
+    {
+        "text": "were very close and we ended up picking",
+        "start": 594.24,
+        "duration": 1.92
+    },
+    {
+        "text": "this one.\n- (Yeah so there were two that)",
+        "start": 596.16,
+        "duration": 1.679
+    },
+    {
+        "text": "(were- two there were two winners but they)",
+        "start": 597.839,
+        "duration": 2.0
+    },
+    {
+        "text": "(chose one.)",
+        "start": 599.839,
+        "duration": 1.12
+    },
+    {
+        "text": "(That is fun. That is seriously fun. But)",
+        "start": 600.959,
+        "duration": 2.161
+    },
+    {
+        "text": "(just to be clear, you're not a)",
+        "start": 603.12,
+        "duration": 1.279
+    },
+    {
+        "text": "(meteorologist and you're not claiming)",
+        "start": 604.399,
+        "duration": 1.601
+    },
+    {
+        "text": "(this is how real \nlightning works, it just)",
+        "start": 606.0,
+        "duration": 1.839
+    },
+    {
+        "text": "(looks like lightning?)\n- Yeah this is not an",
+        "start": 607.839,
+        "duration": 2.161
+    },
+    {
+        "text": "accurate model of lightning. When I",
+        "start": 610.0,
+        "duration": 2.16
+    },
+    {
+        "text": "posted this animation it did get a lot",
+        "start": 612.16,
+        "duration": 1.6
+    },
+    {
+        "text": "of attention from meteorologists and it",
+        "start": 613.76,
+        "duration": 2.0
+    },
+    {
+        "text": "sort of got retweeted around the world",
+        "start": 615.76,
+        "duration": 2.0
+    },
+    {
+        "text": "of American",
+        "start": 617.76,
+        "duration": 1.68
+    },
+    {
+        "text": "weather presenters.",
+        "start": 619.44,
+        "duration": 1.6
+    },
+    {
+        "text": "I'm worried that I've convinced them",
+        "start": 621.04,
+        "duration": 1.919
+    },
+    {
+        "text": "that this is how lightning works!",
+        "start": 622.959,
+        "duration": 2.52
+    },
+    {
+        "text": "This episode's been supported by KiwiCo.",
+        "start": 639.36,
+        "duration": 2.88
+    },
+    {
+        "text": "Now in the past you've seen me making",
+        "start": 642.24,
+        "duration": 1.76
+    },
+    {
+        "text": "all sorts of cool stuff, this time I've",
+        "start": 644.0,
+        "duration": 1.839
+    },
+    {
+        "text": "shared the love and had KiwiCo send a",
+        "start": 645.839,
+        "duration": 2.161
+    },
+    {
+        "text": "crate to my nephew, Sebastian. You can see",
+        "start": 648.0,
+        "duration": 2.56
+    },
+    {
+        "text": "his co-pilot here is Chelsea, together",
+        "start": 650.56,
+        "duration": 2.0
+    },
+    {
+        "text": "they're putting together a Domino",
+        "start": 652.56,
+        "duration": 1.68
+    },
+    {
+        "text": "Machine. This crate's targeted at ages",
+        "start": 654.24,
+        "duration": 2.48
+    },
+    {
+        "text": "9 plus, perfect for ten-year-old Seb;",
+        "start": 656.72,
+        "duration": 2.96
+    },
+    {
+        "text": "but there's a whole range of crates",
+        "start": 659.68,
+        "duration": 1.44
+    },
+    {
+        "text": "available on the site for people of all",
+        "start": 661.12,
+        "duration": 2.32
+    },
+    {
+        "text": "ages.",
+        "start": 663.44,
+        "duration": 1.04
+    },
+    {
+        "text": "Everything you need is home delivered",
+        "start": 664.48,
+        "duration": 2.08
+    },
+    {
+        "text": "already in the box.",
+        "start": 666.56,
+        "duration": 2.16
+    },
+    {
+        "text": "It's so enriching to expose young minds",
+        "start": 668.72,
+        "duration": 2.32
+    },
+    {
+        "text": "to science and engineering and",
+        "start": 671.04,
+        "duration": 1.76
+    },
+    {
+        "text": "technologies in ways like this.",
+        "start": 672.8,
+        "duration": 2.56
+    },
+    {
+        "text": "But you don't have to take my word for it!",
+        "start": 675.36,
+        "duration": 2.34
+    },
+    {
+        "text": "Just look here at Sebastian.",
+        "start": 677.839,
+        "duration": 1.87
+    },
+    {
+        "text": "Whether it's for yourself, or maybe as a",
+        "start": 682.0,
+        "duration": 2.16
+    },
+    {
+        "text": "gift, check out KiwiCo. And there's 50% off",
+        "start": 684.16,
+        "duration": 3.84
+    },
+    {
+        "text": "the first month of your subscription by",
+        "start": 688.0,
+        "duration": 2.049
+    },
+    {
+        "text": "going to KiwiCo.com/Numberphile.",
+        "start": 690.049,
+        "duration": 3.091
+    },
+    {
+        "text": "there on the screen.",
+        "start": 693.14,
+        "duration": 1.22
+    },
+    {
+        "text": "KiwiCo.com/Numberphile.",
+        "start": 694.36,
+        "duration": 2.3
+    },
+    {
+        "text": "And there is one very happy",
+        "start": 696.66,
+        "duration": 2.78
+    },
+    {
+        "text": "creator and his domino laying machine.",
+        "start": 699.44,
+        "duration": 3.839
+    },
+    {
+        "text": "Even Sebastian's little brother got some",
+        "start": 705.519,
+        "duration": 1.601
+    },
+    {
+        "text": "value from this one.",
+        "start": 707.12,
+        "duration": 1.77
+    },
+    {
+        "text": "..let's say, and I'm here. \nRight, I can't go",
+        "start": 710.16,
+        "duration": 2.32
+    },
+    {
+        "text": "left or right here, I can't go left or",
+        "start": 712.48,
+        "duration": 1.359
+    },
+    {
+        "text": "right here, I can't go left and right",
+        "start": 713.839,
+        "duration": 1.601
+    },
+    {
+        "text": "here; and I'm spending a lot of time",
+        "start": 715.44,
+        "duration": 1.839
+    },
+    {
+        "text": "going to this one adding it to the queue",
+        "start": 717.279,
+        "duration": 1.68
+    },
+    {
+        "text": "to this one and then and going down here.",
+        "start": 718.959,
+        "duration": 2.161
+    },
+    {
+        "text": "I'm taking 1, 2, 3, 4 steps when",
+        "start": 721.12,
+        "duration": 2.24
+    },
+    {
+        "text": "really one step would have sufficed.\nOkay",
+        "start": 723.36,
+        "duration": 2.08
+    },
+    {
+        "text": "where are you going? I hope your eyes are",
+        "start": 725.44,
+        "duration": 1.199
+    },
+    {
+        "text": "closed okay. They are they are. Okay",
+        "start": 726.639,
+        "duration": 2.0
+    },
+    {
+        "text": "start with a draw",
+        "start": 728.639,
+        "duration": 1.76
+    },
+    {
+        "text": "Ooh right over there!",
+        "start": 730.399,
+        "duration": 3.44
+    },
+    {
+        "text": "There there's one. Okay so we have Edward",
+        "start": 734.0,
+        "duration": 2.24
+    },
+    {
+        "text": "Sabine referee reports by JB Airy on",
+        "start": 736.24,
+        "duration": 3.279
+    },
+    {
+        "text": "some of his papers. Let's choose the",
+        "start": 739.519,
+        "duration": 1.841
+    },
+    {
+        "text": "lunar tide one and the magnetism one.",
+        "start": 741.36,
+        "duration": 3.68
+    }
+]

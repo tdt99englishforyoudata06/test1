@@ -1,0 +1,2737 @@
+[
+    {
+        "text": "(host)\nThis is a terrifying trick.\nCheck it out.",
+        "start": 1.134,
+        "duration": 1.267
+    },
+    {
+        "text": "The truck accelerates\nfast and pulls right out",
+        "start": 2.501,
+        "duration": 2.903
+    },
+    {
+        "text": "from underneath this skater--",
+        "start": 5.504,
+        "duration": 1.269
+    },
+    {
+        "text": "this really talented guy\nfrom Braille Skateboarding--",
+        "start": 6.873,
+        "duration": 2.402
+    },
+    {
+        "text": "pretty nuts.",
+        "start": 9.375,
+        "duration": 1.168
+    },
+    {
+        "text": "Hey, I'm Dianna Cowern.",
+        "start": 10.643,
+        "duration": 1.168
+    },
+    {
+        "text": "And welcome to Lesson 4 of\nDianna's Intro Physics Class,",
+        "start": 11.911,
+        "duration": 3.037
+    },
+    {
+        "text": "also known as AP Physics\n1 Review, also known",
+        "start": 15.048,
+        "duration": 1.935
+    },
+    {
+        "text": "as Physics by Dianna.",
+        "start": 17.083,
+        "duration": 1.267
+    },
+    {
+        "text": "Today's lesson is\nNewton's Laws of Motion.",
+        "start": 18.45,
+        "duration": 2.837
+    },
+    {
+        "text": "And today's theme:\nMay the force be with you.",
+        "start": 21.388,
+        "duration": 3.603
+    },
+    {
+        "text": "It's a little clumsy.",
+        "start": 25.091,
+        "duration": 0.9
+    },
+    {
+        "text": "May the force be with you.",
+        "start": 26.091,
+        "duration": 1.703
+    },
+    {
+        "text": "Ah, ah, wha.",
+        "start": 27.894,
+        "duration": 0.867
+    },
+    {
+        "text": "[record scratches]",
+        "start": 28.861,
+        "duration": 1.369
+    },
+    {
+        "text": "As someone born\non Star Wars' Day,",
+        "start": 31.798,
+        "duration": 1.601
+    },
+    {
+        "text": "May the 4th, that\nsaying never gets old.",
+        "start": 33.499,
+        "duration": 2.369
+    },
+    {
+        "text": "So the force--",
+        "start": 35.968,
+        "duration": 1.235
+    },
+    {
+        "text": "pushing, pulling,\nwhat makes things accelerate.",
+        "start": 37.303,
+        "duration": 4.305
+    },
+    {
+        "text": "How much do they accelerate?",
+        "start": 41.708,
+        "duration": 1.734
+    },
+    {
+        "text": "There's this relationship\nbetween force, mass,",
+        "start": 43.542,
+        "duration": 2.437
+    },
+    {
+        "text": "and acceleration.",
+        "start": 46.079,
+        "duration": 1.101
+    },
+    {
+        "text": "And today we're going to\nunderstand that relationship",
+        "start": 47.28,
+        "duration": 2.135
+    },
+    {
+        "text": "quantitatively with math.",
+        "start": 49.515,
+        "duration": 1.802
+    },
+    {
+        "text": "So that's our lesson today.",
+        "start": 51.417,
+        "duration": 2.402
+    },
+    {
+        "text": "So let's get started with\nNewton's first law, inertia.",
+        "start": 53.919,
+        "duration": 3.571
+    },
+    {
+        "text": "Let's think back\nabout that skater.",
+        "start": 57.59,
+        "duration": 1.835
+    },
+    {
+        "text": "This trick is really fun\nfor a physicist to see",
+        "start": 59.525,
+        "duration": 2.403
+    },
+    {
+        "text": "because it's unexpected.",
+        "start": 62.028,
+        "duration": 1.401
+    },
+    {
+        "text": "You kind of want the skater\nto accelerate with the truck,",
+        "start": 63.529,
+        "duration": 2.603
+    },
+    {
+        "text": "but he doesn't.",
+        "start": 66.232,
+        "duration": 0.868
+    },
+    {
+        "text": "Why not?",
+        "start": 67.2,
+        "duration": 0.967
+    },
+    {
+        "text": "Here's another confusing\ndemo of this same idea.",
+        "start": 68.268,
+        "duration": 1.935
+    },
+    {
+        "text": "I have a regular balloon\nhanging from the ceiling,",
+        "start": 70.303,
+        "duration": 2.002
+    },
+    {
+        "text": "and a helium balloon\ntaped to the ground.",
+        "start": 72.405,
+        "duration": 2.002
+    },
+    {
+        "text": "I'm in a Porsche which can\naccelerate really quickly.",
+        "start": 74.507,
+        "duration": 3.069
+    },
+    {
+        "text": "So which direction do you\nthink the balloons will go?",
+        "start": 77.676,
+        "duration": 3.137
+    },
+    {
+        "text": "And hit it.",
+        "start": 80.913,
+        "duration": 0.834
+    },
+    {
+        "text": "The balloons went\nseparate directions.",
+        "start": 81.847,
+        "duration": 1.769
+    },
+    {
+        "text": "I mean initially they stayed\nright where they were,",
+        "start": 83.716,
+        "duration": 2.035
+    },
+    {
+        "text": "but then they went\nseparate ways.",
+        "start": 85.851,
+        "duration": 1.269
+    },
+    {
+        "text": "So before we show how these\ntwo weird demonstrations",
+        "start": 87.22,
+        "duration": 2.835
+    },
+    {
+        "text": "are related and how\nthey're explained",
+        "start": 90.155,
+        "duration": 1.669
+    },
+    {
+        "text": "by Newton's first\nlaw, we actually",
+        "start": 91.924,
+        "duration": 1.535
+    },
+    {
+        "text": "have to think about\nwhy things move.",
+        "start": 93.559,
+        "duration": 1.802
+    },
+    {
+        "text": "And when you think\nabout motion,",
+        "start": 95.461,
+        "duration": 1.301
+    },
+    {
+        "text": "you'll quickly come across\nthe name Isaac Newton.",
+        "start": 96.862,
+        "duration": 2.803
+    },
+    {
+        "text": "Back in his day,\nin 1600s England,",
+        "start": 99.765,
+        "duration": 2.436
+    },
+    {
+        "text": "they didn't have cars or trains.",
+        "start": 102.301,
+        "duration": 1.468
+    },
+    {
+        "text": "So the fastest thing you're\ngoing to see around town",
+        "start": 103.869,
+        "duration": 2.069
+    },
+    {
+        "text": "is probably a cart\npulled by a horse.",
+        "start": 106.038,
+        "duration": 2.203
+    },
+    {
+        "text": "If you asked someone at the\ntime, what makes the cart move?",
+        "start": 108.341,
+        "duration": 2.402
+    },
+    {
+        "text": "They would probably\nsay, \"It's the horse.\"",
+        "start": 110.843,
+        "duration": 2.103
+    },
+    {
+        "text": "If you take away the horse,\nthe cart stops moving.",
+        "start": 113.046,
+        "duration": 2.002
+    },
+    {
+        "text": "Like, what's wrong with you?",
+        "start": 115.148,
+        "duration": 1.034
+    },
+    {
+        "text": "Why would you even ask this?\nIt's obvious.",
+        "start": 116.282,
+        "duration": 2.102
+    },
+    {
+        "text": "It seems obvious\nthat moving things",
+        "start": 118.484,
+        "duration": 3.17
+    },
+    {
+        "text": "will stop unless you keep\npushing or pulling them.",
+        "start": 121.754,
+        "duration": 3.203
+    },
+    {
+        "text": "But is that right?",
+        "start": 125.057,
+        "duration": 1.202
+    },
+    {
+        "text": "We can do something that those\npeople in the past couldn't do.",
+        "start": 126.359,
+        "duration": 3.136
+    },
+    {
+        "text": "We can go to space.",
+        "start": 129.595,
+        "duration": 1.201
+    },
+    {
+        "text": "I mean not us, but like\nsome people can go to space.",
+        "start": 130.896,
+        "duration": 3.371
+    },
+    {
+        "text": "If I'm in outer space, and\nI throw Olive the Otter,",
+        "start": 134.367,
+        "duration": 3.336
+    },
+    {
+        "text": "she just goes.",
+        "start": 137.803,
+        "duration": 2.069
+    },
+    {
+        "text": "She moves and keeps on moving.",
+        "start": 139.972,
+        "duration": 2.069
+    },
+    {
+        "text": "Space does not have\nair resistance or anything",
+        "start": 142.141,
+        "duration": 2.636
+    },
+    {
+        "text": "providing friction.",
+        "start": 144.877,
+        "duration": 1.168
+    },
+    {
+        "text": "So unless she smashes into\nthe moon, or another planet,",
+        "start": 146.145,
+        "duration": 5.072
+    },
+    {
+        "text": "nothing will stop the otter,\nand she'll keep moving forever.",
+        "start": 151.317,
+        "duration": 2.703
+    },
+    {
+        "text": "So we can see\nsomething more easily",
+        "start": 154.12,
+        "duration": 1.568
+    },
+    {
+        "text": "that people in the 17th\ncentury could not see.",
+        "start": 155.788,
+        "duration": 2.402
+    },
+    {
+        "text": "It's not that things in motion\nneed forces to keep them",
+        "start": 158.29,
+        "duration": 2.97
+    },
+    {
+        "text": "in motion, it's the opposite.",
+        "start": 161.36,
+        "duration": 2.202
+    },
+    {
+        "text": "On Earth, there's always\nwind, or air resistance,",
+        "start": 163.663,
+        "duration": 3.103
+    },
+    {
+        "text": "or friction in wheels,\nor sliding friction,",
+        "start": 166.866,
+        "duration": 2.236
+    },
+    {
+        "text": "or something, some force that's\nacting to slow things down.",
+        "start": 169.202,
+        "duration": 4.27
+    },
+    {
+        "text": "The forces act to\nchange the motion.",
+        "start": 173.572,
+        "duration": 2.903
+    },
+    {
+        "text": "Absent those forces,\nthings do keep moving,",
+        "start": 176.575,
+        "duration": 3.037
+    },
+    {
+        "text": "or they never move.",
+        "start": 179.712,
+        "duration": 1.201
+    },
+    {
+        "text": "There's this really\nfun party trick",
+        "start": 181.013,
+        "duration": 1.902
+    },
+    {
+        "text": "where you hit the top of a\nglass bottle with water in it,",
+        "start": 183.015,
+        "duration": 2.402
+    },
+    {
+        "text": "and if you hit it hard enough,\nthe bottom of the bottle",
+        "start": 185.517,
+        "duration": 2.27
+    },
+    {
+        "text": "sometimes breaks out.",
+        "start": 187.887,
+        "duration": 1.201
+    },
+    {
+        "text": "And the reason why is that\nthing we just talked about.",
+        "start": 189.188,
+        "duration": 2.869
+    },
+    {
+        "text": "As you hit the bottle, it\nmoves fast with the hammer.",
+        "start": 192.157,
+        "duration": 3.104
+    },
+    {
+        "text": "But the water stays behind\nand creates this area",
+        "start": 195.361,
+        "duration": 2.369
+    },
+    {
+        "text": "of low pressure at the bottom.",
+        "start": 197.83,
+        "duration": 1.602
+    },
+    {
+        "text": "And the pressure is so low\nthat the water turns to a gas",
+        "start": 199.532,
+        "duration": 3.036
+    },
+    {
+        "text": "and creates vapor bubbles that\nquickly collapse with such",
+        "start": 202.668,
+        "duration": 2.569
+    },
+    {
+        "text": "a violent shockwave, it breaks\nout the bottom of the glass,",
+        "start": 205.337,
+        "duration": 2.57
+    },
+    {
+        "text": "all because the water\nwanted to resist motion.",
+        "start": 208.007,
+        "duration": 2.803
+    },
+    {
+        "text": "So that's the first\nand the simplest",
+        "start": 210.91,
+        "duration": 1.935
+    },
+    {
+        "text": "of the three main ideas that\nwe're going to explore today--",
+        "start": 212.945,
+        "duration": 2.837
+    },
+    {
+        "text": "the idea that things keep moving\nuntil something stops them.",
+        "start": 215.882,
+        "duration": 2.535
+    },
+    {
+        "text": "The flip side of this idea is\nthat things that are stopped",
+        "start": 218.517,
+        "duration": 2.336
+    },
+    {
+        "text": "will stay stopped until\nsomething moves them.",
+        "start": 220.953,
+        "duration": 4.438
+    },
+    {
+        "text": "This property implies that\nanything that has mass.",
+        "start": 225.491,
+        "duration": 2.57
+    },
+    {
+        "text": "And the property\nis called inertia.",
+        "start": 228.161,
+        "duration": 2.268
+    },
+    {
+        "text": "It's inertia, not inershaw.",
+        "start": 230.529,
+        "duration": 1.936
+    },
+    {
+        "text": "[LAUGHS]",
+        "start": 232.565,
+        "duration": 2.468
+    },
+    {
+        "text": "Newton was the one who really\nrefined this idea of inertia.",
+        "start": 235.133,
+        "duration": 2.837
+    },
+    {
+        "text": "And this idea was\none of several ideas",
+        "start": 238.07,
+        "duration": 1.569
+    },
+    {
+        "text": "so important to\nour understanding",
+        "start": 239.739,
+        "duration": 1.802
+    },
+    {
+        "text": "of the natural world that\nwe've come to call them laws.",
+        "start": 241.641,
+        "duration": 3.67
+    },
+    {
+        "text": "In fact, the concept of\ninertia is Newton's first law.",
+        "start": 245.411,
+        "duration": 2.669
+    },
+    {
+        "text": "Newton came up with\nthree well-known laws",
+        "start": 248.18,
+        "duration": 1.835
+    },
+    {
+        "text": "and wrote them down in his\n Principia , which I actually",
+        "start": 250.115,
+        "duration": 2.47
+    },
+    {
+        "text": "got to hold during a visit\nto London, which was probably",
+        "start": 252.685,
+        "duration": 2.869
+    },
+    {
+        "text": "the proudest moment\nof my physicist life.",
+        "start": 255.654,
+        "duration": 2.637
+    },
+    {
+        "text": "It was the original\nmanuscript from the 1600s.",
+        "start": 258.391,
+        "duration": 2.902
+    },
+    {
+        "text": "Ah.",
+        "start": 261.393,
+        "duration": 1.002
+    },
+    {
+        "text": "Anyways.",
+        "start": 262.495,
+        "duration": 0.901
+    },
+    {
+        "text": "Inertia is the first\nof those three laws,",
+        "start": 263.496,
+        "duration": 1.468
+    },
+    {
+        "text": "and you might hear it\nstated as something",
+        "start": 265.064,
+        "duration": 1.635
+    },
+    {
+        "text": "like an object at\nrest remains at rest,",
+        "start": 266.799,
+        "duration": 1.935
+    },
+    {
+        "text": "and an object in motion\nremains in motion",
+        "start": 268.834,
+        "duration": 1.702
+    },
+    {
+        "text": "unless acted upon by a force.",
+        "start": 270.636,
+        "duration": 2.336
+    },
+    {
+        "text": "But, basically, Newton's first\nlaw is that inertia exists.",
+        "start": 273.072,
+        "duration": 3.47
+    },
+    {
+        "text": "So then what's going on with\nthat skater in the truck?",
+        "start": 276.642,
+        "duration": 2.67
+    },
+    {
+        "text": "Look carefully.",
+        "start": 279.412,
+        "duration": 1.434
+    },
+    {
+        "text": "As the truck accelerates, the\nskater basically stays still.",
+        "start": 280.946,
+        "duration": 2.736
+    },
+    {
+        "text": "There's so little friction in\nthe wheels of the skateboard",
+        "start": 283.782,
+        "duration": 2.303
+    },
+    {
+        "text": "that there's very little\nforce acting on the skater.",
+        "start": 286.185,
+        "duration": 3.137
+    },
+    {
+        "text": "So the truck accelerates right\nout from underneath",
+        "start": 289.422,
+        "duration": 1.935
+    },
+    {
+        "text": "while he just sits there,\ninertiating.",
+        "start": 291.457,
+        "duration": 2.769
+    },
+    {
+        "text": "And as for the balloons, well,\nthis one is a little trickier.",
+        "start": 294.326,
+        "duration": 2.436
+    },
+    {
+        "text": "Because the thing that stays\nbehind, resisting motion,",
+        "start": 296.862,
+        "duration": 2.536
+    },
+    {
+        "text": "is actually the\nair inside the car.",
+        "start": 299.498,
+        "duration": 2.068
+    },
+    {
+        "text": "It stays behind\nand ends up",
+        "start": 301.667,
+        "duration": 1.134
+    },
+    {
+        "text": "getting compressed toward\nthe back of the car",
+        "start": 302.901,
+        "duration": 1.569
+    },
+    {
+        "text": "which creates a high pressure.",
+        "start": 304.57,
+        "duration": 1.468
+    },
+    {
+        "text": "And that high pressure is\nenough to push",
+        "start": 306.138,
+        "duration": 1.535
+    },
+    {
+        "text": "the very not-dense\nhelium balloon forward,",
+        "start": 307.773,
+        "duration": 3.603
+    },
+    {
+        "text": "just like helium balloons\nwill rise into the air",
+        "start": 311.477,
+        "duration": 2.002
+    },
+    {
+        "text": "where the pressure is lower.",
+        "start": 313.579,
+        "duration": 1.335
+    },
+    {
+        "text": "OK, great.\nThat's Newton's first law.",
+        "start": 315.014,
+        "duration": 2.069
+    },
+    {
+        "text": "Maybe I should start\nwriting these down.",
+        "start": 317.183,
+        "duration": 1.568
+    },
+    {
+        "text": "Whoo hoo.",
+        "start": 323.555,
+        "duration": 1.402
+    },
+    {
+        "text": "All right, Newton's first\nlaw--inertia exists.",
+        "start": 325.057,
+        "duration": 2.069
+    },
+    {
+        "text": "But what can force something\nto change its motion?",
+        "start": 330.93,
+        "duration": 2.936
+    },
+    {
+        "text": "Well, muscles, cars with\nengines, gravity that can pull,",
+        "start": 333.966,
+        "duration": 3.17
+    },
+    {
+        "text": "all these things exert pushes\nor pulls to accelerate us.",
+        "start": 337.236,
+        "duration": 2.769
+    },
+    {
+        "text": "And we call these\npushes or pulls forces.",
+        "start": 340.105,
+        "duration": 2.703
+    },
+    {
+        "text": "Funny forces are what force\nus to change our motion.",
+        "start": 342.908,
+        "duration": 2.436
+    },
+    {
+        "text": "Who would have thought?",
+        "start": 345.444,
+        "duration": 1.001
+    },
+    {
+        "text": "When I change your\nvelocity, I accelerate you.",
+        "start": 346.545,
+        "duration": 2.102
+    },
+    {
+        "text": "Here's a subtle but\nimportant distinction.",
+        "start": 348.747,
+        "duration": 2.069
+    },
+    {
+        "text": "In a lot of situations,\naccelerating",
+        "start": 350.916,
+        "duration": 1.502
+    },
+    {
+        "text": "means speeding you up\nor slowing you down.",
+        "start": 352.518,
+        "duration": 2.202
+    },
+    {
+        "text": "But it could also mean changing\nthe direction of your velocity.",
+        "start": 354.82,
+        "duration": 3.17
+    },
+    {
+        "text": "Say you're turning\nleft in a car.",
+        "start": 358.09,
+        "duration": 1.635
+    },
+    {
+        "text": "The road pushes the\nwheels sideways,",
+        "start": 359.825,
+        "duration": 1.736
+    },
+    {
+        "text": "but you stay going\n30 meters per second.",
+        "start": 361.661,
+        "duration": 2.301
+    },
+    {
+        "text": "That change in the\ndirection of your velocity",
+        "start": 364.063,
+        "duration": 1.768
+    },
+    {
+        "text": "counts as an acceleration.",
+        "start": 365.931,
+        "duration": 1.368
+    },
+    {
+        "text": "That's an idea we're going to\nexplore more in a later lesson",
+        "start": 367.399,
+        "duration": 2.403
+    },
+    {
+        "text": "when we get to circular motion.",
+        "start": 369.902,
+        "duration": 1.635
+    },
+    {
+        "text": "Hmm, an orbit. Hmm.",
+        "start": 371.637,
+        "duration": 1.935
+    },
+    {
+        "text": "OK, so you push\nsomething like a cow.",
+        "start": 373.672,
+        "duration": 3.003
+    },
+    {
+        "text": "We'll make it a square\ncow for simplicity.",
+        "start": 376.775,
+        "duration": 2.57
+    },
+    {
+        "text": "I actually have a square\ncow; look how cute it is.",
+        "start": 379.445,
+        "duration": 2.836
+    },
+    {
+        "text": "How much will the cow speed up?",
+        "start": 382.381,
+        "duration": 2.136
+    },
+    {
+        "text": "Well, it depends on how\nhard I push it, right?",
+        "start": 384.617,
+        "duration": 2.503
+    },
+    {
+        "text": "The force, duh.",
+        "start": 387.22,
+        "duration": 0.967
+    },
+    {
+        "text": "But it's also going\nto depend on the mass.",
+        "start": 388.287,
+        "duration": 2.336
+    },
+    {
+        "text": "That makes sense, right?",
+        "start": 390.723,
+        "duration": 0.934
+    },
+    {
+        "text": "The more mass of\nan object is the harder",
+        "start": 391.757,
+        "duration": 1.935
+    },
+    {
+        "text": "I have to push it to\nget it to accelerate.",
+        "start": 393.792,
+        "duration": 1.836
+    },
+    {
+        "text": "And this all brings us\nto Newton's second law--",
+        "start": 395.728,
+        "duration": 2.268
+    },
+    {
+        "text": "an object's mass is the\nratio between the force",
+        "start": 398.096,
+        "duration": 3.838
+    },
+    {
+        "text": "you apply to an object\nand the acceleration",
+        "start": 402.034,
+        "duration": 2.87
+    },
+    {
+        "text": "the object will experience.",
+        "start": 405.004,
+        "duration": 1.668
+    },
+    {
+        "text": "And this is directly related\nto our first idea of inertia.",
+        "start": 406.772,
+        "duration": 3.303
+    },
+    {
+        "text": "Mass, whether it's the mass\nof a person, a skater, a cow--",
+        "start": 410.175,
+        "duration": 3.604
+    },
+    {
+        "text": "it's the measure of the\ninertia of an object.",
+        "start": 413.879,
+        "duration": 2.369
+    },
+    {
+        "text": "It tells you how hard\nyou need to push it",
+        "start": 416.348,
+        "duration": 2.469
+    },
+    {
+        "text": "in order to accelerate it.",
+        "start": 418.917,
+        "duration": 1.469
+    },
+    {
+        "text": "Bring the a up,\nand boom, f equals m a.",
+        "start": 420.486,
+        "duration": 4.204
+    },
+    {
+        "text": "That is Newton's second law.",
+        "start": 424.79,
+        "duration": 1.869
+    },
+    {
+        "text": "This is probably the most\nfundamental and important idea",
+        "start": 426.759,
+        "duration": 3.303
+    },
+    {
+        "text": "in all of physics.",
+        "start": 430.162,
+        "duration": 1.368
+    },
+    {
+        "text": "This is the big momma.",
+        "start": 431.63,
+        "duration": 1.702
+    },
+    {
+        "text": "F equals ma is to physics\nas the Force is to Jedi.",
+        "start": 433.432,
+        "duration": 4.471
+    },
+    {
+        "text": "Given a force and a mass,\nI can tell you",
+        "start": 438.003,
+        "duration": 1.669
+    },
+    {
+        "text": "the acceleration\nthat you'll experience.",
+        "start": 439.772,
+        "duration": 2.002
+    },
+    {
+        "text": "Measure the force on an\nobject and the acceleration",
+        "start": 441.874,
+        "duration": 2.302
+    },
+    {
+        "text": "it undergoes, and I\ncan tell you its mass.",
+        "start": 444.276,
+        "duration": 1.802
+    },
+    {
+        "text": "Start with f equals ma, add 400\nyears of people doing physics,",
+        "start": 446.178,
+        "duration": 3.437
+    },
+    {
+        "text": "and I can send a rocket to Mars.",
+        "start": 449.715,
+        "duration": 1.902
+    },
+    {
+        "text": " (Reporter)\n Atlas 5 with Curiosity;",
+        "start": 451.717,
+        "duration": 2.335
+    },
+    {
+        "text": " seeking clues to the planetary\n puzzle about life on Mars.",
+        "start": 454.152,
+        "duration": 3.904
+    },
+    {
+        "text": "Wow.",
+        "start": 458.156,
+        "duration": 0.968
+    },
+    {
+        "text": "But almost as important\nas f equals ma",
+        "start": 459.224,
+        "duration": 2.203
+    },
+    {
+        "text": "is the units of force.",
+        "start": 461.527,
+        "duration": 2.802
+    },
+    {
+        "text": "So the unit of\nmass is kilograms.",
+        "start": 464.429,
+        "duration": 2.47
+    },
+    {
+        "text": "The unit of acceleration is\nmeters per second squared.",
+        "start": 466.999,
+        "duration": 3.337
+    },
+    {
+        "text": "So the unit of force is\nkilograms times meters",
+        "start": 470.436,
+        "duration": 2.135
+    },
+    {
+        "text": "per second squared.",
+        "start": 472.671,
+        "duration": 1.335
+    },
+    {
+        "text": "It's a mouthful.",
+        "start": 474.106,
+        "duration": 0.734
+    },
+    {
+        "text": "So we give it a name.",
+        "start": 474.94,
+        "duration": 0.967
+    },
+    {
+        "text": "The units of force\nare called newtons,",
+        "start": 476.007,
+        "duration": 3.07
+    },
+    {
+        "text": "as an Isaac Newtons, and\nit's abbreviated as capital N.",
+        "start": 479.177,
+        "duration": 4.239
+    },
+    {
+        "text": "Discover something\nbig in physics,",
+        "start": 483.516,
+        "duration": 1.334
+    },
+    {
+        "text": "and you might get a\nunit named after you.",
+        "start": 484.95,
+        "duration": 1.668
+    },
+    {
+        "text": "So let's play with our\nnew tool: F equals ma.",
+        "start": 486.719,
+        "duration": 2.936
+    },
+    {
+        "text": "Let's push our\nsquare cow around.",
+        "start": 489.755,
+        "duration": 2.202
+    },
+    {
+        "text": "Maybe it has a mass\nof five kilograms.",
+        "start": 492.057,
+        "duration": 2.369
+    },
+    {
+        "text": "It's a baby cow.",
+        "start": 494.526,
+        "duration": 1.535
+    },
+    {
+        "text": "We push this baby cow with\na force of 10 newtons.",
+        "start": 496.161,
+        "duration": 3.237
+    },
+    {
+        "text": "What will\nits acceleration be?",
+        "start": 499.498,
+        "duration": 1.735
+    },
+    {
+        "text": "We'll write down F\nequals ma, solve for a.",
+        "start": 501.333,
+        "duration": 2.136
+    },
+    {
+        "text": "A equals F over m.",
+        "start": 503.569,
+        "duration": 2.503
+    },
+    {
+        "text": "My F was 10, my m was 5.",
+        "start": 506.172,
+        "duration": 2.135
+    },
+    {
+        "text": "So that equals 10\nnewtons over 5 kilograms.",
+        "start": 508.407,
+        "duration": 5.071
+    },
+    {
+        "text": "So my acceleration equals\n2 meters per second squared.",
+        "start": 513.578,
+        "duration": 4.772
+    },
+    {
+        "text": "Ta da.",
+        "start": 518.45,
+        "duration": 1.402
+    },
+    {
+        "text": "Double the force, and you\ndouble the acceleration.",
+        "start": 519.952,
+        "duration": 2.002
+    },
+    {
+        "text": "If you represent\nthis graphically,",
+        "start": 522.054,
+        "duration": 1.335
+    },
+    {
+        "text": "you get a really cool way to\nvisualize Newton's second law.",
+        "start": 523.489,
+        "duration": 2.769
+    },
+    {
+        "text": "So I'm graphing F versus\na, and I get this line.",
+        "start": 526.359,
+        "duration": 7.306
+    },
+    {
+        "text": "What's the slope of this line?",
+        "start": 533.765,
+        "duration": 1.602
+    },
+    {
+        "text": "The slope of this graph\nis an object's mass.",
+        "start": 535.468,
+        "duration": 3.403
+    },
+    {
+        "text": "That's really cool.\nFantastic.",
+        "start": 538.971,
+        "duration": 2.102
+    },
+    {
+        "text": "Now we've got the first\ntwo of Newton's laws.",
+        "start": 541.173,
+        "duration": 2.236
+    },
+    {
+        "text": "Newton's first law--\ninertia exists.",
+        "start": 543.509,
+        "duration": 1.534
+    },
+    {
+        "text": "His second law gives\nus a way to measure it.",
+        "start": 545.144,
+        "duration": 2.068
+    },
+    {
+        "text": "What can we do with them?",
+        "start": 547.312,
+        "duration": 1.069
+    },
+    {
+        "text": "I want to pause for\na second and go off",
+        "start": 548.481,
+        "duration": 1.2
+    },
+    {
+        "text": "in a little bit of a\ntangent related to gravity,",
+        "start": 549.781,
+        "duration": 1.936
+    },
+    {
+        "text": "but it's an exciting tangent.",
+        "start": 551.817,
+        "duration": 1.668
+    },
+    {
+        "text": "We never talked about why\nthe force of gravity--",
+        "start": 553.586,
+        "duration": 2.402
+    },
+    {
+        "text": "Fg equals mg--",
+        "start": 556.088,
+        "duration": 3.236
+    },
+    {
+        "text": "we never talked about\nwhy the force of gravity",
+        "start": 559.424,
+        "duration": 1.802
+    },
+    {
+        "text": "is m times g even though\nwe've already used it a bunch.",
+        "start": 561.326,
+        "duration": 3.07
+    },
+    {
+        "text": "But now with F equals ma,\nwe can think about why.",
+        "start": 564.496,
+        "duration": 3.337
+    },
+    {
+        "text": "In the case of gravity, a is g.",
+        "start": 567.933,
+        "duration": 2.269
+    },
+    {
+        "text": "That's the 9.81 meters\nper second squared,",
+        "start": 570.302,
+        "duration": 3.537
+    },
+    {
+        "text": "the gravitational\nacceleration due to the size",
+        "start": 573.939,
+        "duration": 2.336
+    },
+    {
+        "text": "and the density of earth.",
+        "start": 576.375,
+        "duration": 1.234
+    },
+    {
+        "text": "And the crazy thing\nis that any object",
+        "start": 577.709,
+        "duration": 1.935
+    },
+    {
+        "text": "I drop near Earth's\nsurface will fall",
+        "start": 579.744,
+        "duration": 1.636
+    },
+    {
+        "text": "with the exact same acceleration\nif we ignore air resistance.",
+        "start": 581.48,
+        "duration": 3.47
+    },
+    {
+        "text": "You might have seen\nthat viral video",
+        "start": 585.05,
+        "duration": 1.402
+    },
+    {
+        "text": "where a bowling\nball and a feather",
+        "start": 586.552,
+        "duration": 1.334
+    },
+    {
+        "text": "fell at exactly the same\nrate inside of a vacuum.",
+        "start": 587.987,
+        "duration": 3.536
+    },
+    {
+        "text": "This is why.",
+        "start": 591.623,
+        "duration": 0.901
+    },
+    {
+        "text": "It's so counter-\nintuitive though.",
+        "start": 592.624,
+        "duration": 1.769
+    },
+    {
+        "text": "Heavier objects should\nfall faster, right?",
+        "start": 594.493,
+        "duration": 2.202
+    },
+    {
+        "text": "So my force of gravity, if I\nreplace g for a, is m times g.",
+        "start": 596.795,
+        "duration": 5.972
+    },
+    {
+        "text": "And, yes, if you\ndouble the mass,",
+        "start": 602.868,
+        "duration": 3.136
+    },
+    {
+        "text": "then you do double the force.",
+        "start": 606.104,
+        "duration": 1.835
+    },
+    {
+        "text": "But two doublings\nend up canceling.",
+        "start": 608.039,
+        "duration": 2.703
+    },
+    {
+        "text": "And you end up with\nthe same acceleration.",
+        "start": 610.842,
+        "duration": 2.47
+    },
+    {
+        "text": "Now we can think about\na problem with gravity.",
+        "start": 613.412,
+        "duration": 1.802
+    },
+    {
+        "text": "For example, what\nforce does gravity",
+        "start": 615.314,
+        "duration": 2.235
+    },
+    {
+        "text": "exert on a tiny cow\nwith mass 1 kilogram?",
+        "start": 617.649,
+        "duration": 4.771
+    },
+    {
+        "text": "Well, F equals ma, F\nequals 1 kilogram times",
+        "start": 622.521,
+        "duration": 5.072
+    },
+    {
+        "text": "9.81, about 10 meters\nper second squared.",
+        "start": 627.693,
+        "duration": 3.603
+    },
+    {
+        "text": "And the force of Earth's gravity\non our cow is about 10 newtons.",
+        "start": 631.396,
+        "duration": 4.338
+    },
+    {
+        "text": "Ta da.",
+        "start": 635.834,
+        "duration": 1.835
+    },
+    {
+        "text": "Gravity isn't the\nonly force though.",
+        "start": 637.769,
+        "duration": 2.035
+    },
+    {
+        "text": "Let's hoist our cow up\ninto the air with a rope,",
+        "start": 639.905,
+        "duration": 3.37
+    },
+    {
+        "text": "and look at the forces on it.",
+        "start": 643.375,
+        "duration": 1.168
+    },
+    {
+        "text": "We're going to do it safely\nand humanely, of course.",
+        "start": 644.643,
+        "duration": 2.302
+    },
+    {
+        "text": "Why?",
+        "start": 647.045,
+        "duration": 0.835
+    },
+    {
+        "text": "Because our cow is\nafraid of stairs.",
+        "start": 647.98,
+        "duration": 1.468
+    },
+    {
+        "text": "So now that cow is hanging\nthere from a rope attached",
+        "start": 649.548,
+        "duration": 2.136
+    },
+    {
+        "text": "to the roof.",
+        "start": 651.784,
+        "duration": 1.168
+    },
+    {
+        "text": "My cow is not moving\neven though we know",
+        "start": 653.052,
+        "duration": 1.901
+    },
+    {
+        "text": "that there's\na downward force acting",
+        "start": 655.053,
+        "duration": 1.869
+    },
+    {
+        "text": "on it from gravity.",
+        "start": 657.022,
+        "duration": 1.401
+    },
+    {
+        "text": "Its acceleration is zero.",
+        "start": 658.523,
+        "duration": 1.936
+    },
+    {
+        "text": "But wait, what?",
+        "start": 660.559,
+        "duration": 0.901
+    },
+    {
+        "text": "F equals ma.",
+        "start": 661.56,
+        "duration": 1.401
+    },
+    {
+        "text": "Gravity didn't just turn off.",
+        "start": 663.061,
+        "duration": 1.502
+    },
+    {
+        "text": "So F isn't zero.",
+        "start": 664.663,
+        "duration": 1.802
+    },
+    {
+        "text": "And the mass didn't change.",
+        "start": 666.565,
+        "duration": 1.468
+    },
+    {
+        "text": "So how can a be zero?",
+        "start": 668.133,
+        "duration": 1.735
+    },
+    {
+        "text": "Well, if there's a downward\nforce of 10 newtons, which",
+        "start": 669.968,
+        "duration": 2.77
+    },
+    {
+        "text": "we just calculated, then\nthere must be an upward force",
+        "start": 672.838,
+        "duration": 2.936
+    },
+    {
+        "text": "of 10 newtons balancing it out.",
+        "start": 675.874,
+        "duration": 2.436
+    },
+    {
+        "text": "Where did that force come from?",
+        "start": 678.41,
+        "duration": 1.936
+    },
+    {
+        "text": "Well, it comes from the rope\npulling up on the cow's weight.",
+        "start": 680.446,
+        "duration": 2.602
+    },
+    {
+        "text": "The force is called tension.",
+        "start": 683.148,
+        "duration": 1.869
+    },
+    {
+        "text": "Now we have a new force.",
+        "start": 685.117,
+        "duration": 1.969
+    },
+    {
+        "text": "My upward tension force, and\nmy downward gravitational force",
+        "start": 687.186,
+        "duration": 2.435
+    },
+    {
+        "text": "balance out for\na net force of 0.",
+        "start": 689.721,
+        "duration": 2.937
+    },
+    {
+        "text": "And F equals ma makes\ntotal sense again--",
+        "start": 692.758,
+        "duration": 2.702
+    },
+    {
+        "text": "no force, no acceleration.",
+        "start": 695.56,
+        "duration": 1.702
+    },
+    {
+        "text": "And we have a new\nconcept to think about.",
+        "start": 697.362,
+        "duration": 2.102
+    },
+    {
+        "text": "When you have an\nacceleration of zero,",
+        "start": 699.564,
+        "duration": 1.502
+    },
+    {
+        "text": "your net forces must be zero.",
+        "start": 701.166,
+        "duration": 1.902
+    },
+    {
+        "text": "And it's important\nto remember,",
+        "start": 703.168,
+        "duration": 1.302
+    },
+    {
+        "text": "it's not always a single\nforce acting on an object.",
+        "start": 704.57,
+        "duration": 2.936
+    },
+    {
+        "text": "There can be multiple\nforces, and they",
+        "start": 707.606,
+        "duration": 1.735
+    },
+    {
+        "text": "can be fighting each\nother, canceling out,",
+        "start": 709.441,
+        "duration": 2.336
+    },
+    {
+        "text": "they might be working\ntogether, adding up.",
+        "start": 711.877,
+        "duration": 2.335
+    },
+    {
+        "text": "But the fun of F\nequals ma is thinking",
+        "start": 714.312,
+        "duration": 1.836
+    },
+    {
+        "text": "carefully through\nall of the forces",
+        "start": 716.248,
+        "duration": 1.368
+    },
+    {
+        "text": "to figure out their net effect.",
+        "start": 717.716,
+        "duration": 1.468
+    },
+    {
+        "text": "For example, there's\nthis weird substance",
+        "start": 719.284,
+        "duration": 1.902
+    },
+    {
+        "text": "called pharaoh fluid\nwhich is essentially tiny,",
+        "start": 721.286,
+        "duration": 2.403
+    },
+    {
+        "text": "tiny, tiny iron\nparticles suspended",
+        "start": 723.789,
+        "duration": 2.068
+    },
+    {
+        "text": "in oil that altogether make\nup a magnetic liquid that",
+        "start": 725.957,
+        "duration": 2.57
+    },
+    {
+        "text": "looks like it came straight\noff an alien spaceship.",
+        "start": 728.627,
+        "duration": 2.636
+    },
+    {
+        "text": "It looks so weird.",
+        "start": 731.363,
+        "duration": 1.635
+    },
+    {
+        "text": "And if you wanted to\npredict how it behaves,",
+        "start": 733.099,
+        "duration": 1.834
+    },
+    {
+        "text": "you would have to add\nup the forces on it",
+        "start": 735.033,
+        "duration": 1.602
+    },
+    {
+        "text": "from gravity, any\nmagnets nearby,",
+        "start": 736.735,
+        "duration": 2.336
+    },
+    {
+        "text": "from the fluid forces between\nthe trillions of molecules.",
+        "start": 739.171,
+        "duration": 2.903
+    },
+    {
+        "text": "And it gets quite complicated.",
+        "start": 742.174,
+        "duration": 2.069
+    },
+    {
+        "text": "We will stick with\nsmaller systems.",
+        "start": 744.343,
+        "duration": 2.369
+    },
+    {
+        "text": "So let's play some more.",
+        "start": 746.812,
+        "duration": 1.234
+    },
+    {
+        "text": "Let's do a super common\nproblem from physics",
+        "start": 748.147,
+        "duration": 2.035
+    },
+    {
+        "text": "to see how you sum up forces.",
+        "start": 750.282,
+        "duration": 2.369
+    },
+    {
+        "text": "Let's keep the same one\nkilogram cow hanging from a rope",
+        "start": 752.751,
+        "duration": 2.836
+    },
+    {
+        "text": "and now hang another\ncow underneath it.",
+        "start": 755.687,
+        "duration": 2.503
+    },
+    {
+        "text": "Whoa, ho, ho.",
+        "start": 758.29,
+        "duration": 1.968
+    },
+    {
+        "text": "Second cow is slightly\nheavier, 2 kilograms.",
+        "start": 760.359,
+        "duration": 3.703
+    },
+    {
+        "text": "So now let's think\nthrough the forces.",
+        "start": 764.162,
+        "duration": 1.502
+    },
+    {
+        "text": "F equals ma, a force from\ngravity on my second cow,",
+        "start": 765.764,
+        "duration": 3.036
+    },
+    {
+        "text": "m is 2 kilograms,\ntimes a is about 10.",
+        "start": 768.9,
+        "duration": 3.404
+    },
+    {
+        "text": "A is about 10 meters\nper second squared.",
+        "start": 772.404,
+        "duration": 1.568
+    },
+    {
+        "text": "So gravity is pulling\ndown on the bottom cow",
+        "start": 774.073,
+        "duration": 1.735
+    },
+    {
+        "text": "with a force of 20 newtons.",
+        "start": 775.908,
+        "duration": 1.234
+    },
+    {
+        "text": "But if that bottom cow is not\naccelerating, which it's not,",
+        "start": 777.242,
+        "duration": 3.204
+    },
+    {
+        "text": "that means the rope\nbetween the two cows",
+        "start": 780.546,
+        "duration": 1.868
+    },
+    {
+        "text": "must have a force pulling\nup with 20 newtons",
+        "start": 782.514,
+        "duration": 3.104
+    },
+    {
+        "text": "and down on the top cow\nwith this same 20 newtons.",
+        "start": 785.718,
+        "duration": 4.471
+    },
+    {
+        "text": "Now we have something\ninteresting.",
+        "start": 790.289,
+        "duration": 1.501
+    },
+    {
+        "text": "Because the top cow is now\nexperiencing a downward force",
+        "start": 791.89,
+        "duration": 2.903
+    },
+    {
+        "text": "of 20 newtons from the\nrope, but it's also",
+        "start": 794.893,
+        "duration": 3.27
+    },
+    {
+        "text": "still feeling the same\ngravitational force",
+        "start": 798.263,
+        "duration": 2.703
+    },
+    {
+        "text": "that it had earlier.",
+        "start": 801.066,
+        "duration": 1.001
+    },
+    {
+        "text": "Gravity hasn't turned\noff on the top cow.",
+        "start": 802.167,
+        "duration": 2.002
+    },
+    {
+        "text": "So the force downward from\ngravity is still 10 newtons.",
+        "start": 804.269,
+        "duration": 2.803
+    },
+    {
+        "text": "Now we're on this top\ncow is 30 newtons,",
+        "start": 807.172,
+        "duration": 2.47
+    },
+    {
+        "text": "but it still has\nzero acceleration.",
+        "start": 809.742,
+        "duration": 2.134
+    },
+    {
+        "text": "Which means that there must be\na force upward on the top cow",
+        "start": 811.976,
+        "duration": 2.904
+    },
+    {
+        "text": "that's the same 30 newtons.",
+        "start": 814.98,
+        "duration": 2.236
+    },
+    {
+        "text": "And you can figure all of\nthis out with F equals ma.",
+        "start": 817.316,
+        "duration": 2.869
+    },
+    {
+        "text": "Fantastic.",
+        "start": 820.286,
+        "duration": 1.2
+    },
+    {
+        "text": "We really understand\nNewton's laws now.",
+        "start": 821.586,
+        "duration": 1.936
+    },
+    {
+        "text": "But Newton didn't stop there.",
+        "start": 823.622,
+        "duration": 1.635
+    },
+    {
+        "text": "Oh, no.",
+        "start": 825.357,
+        "duration": 0.968
+    },
+    {
+        "text": "There is a third law.\nCheck it out.",
+        "start": 826.425,
+        "duration": 1.668
+    },
+    {
+        "text": "This is a soda can being ripped\napart by an electromagnet.",
+        "start": 828.193,
+        "duration": 3.303
+    },
+    {
+        "text": "The basic idea is that\na bunch of electricity",
+        "start": 831.597,
+        "duration": 1.767
+    },
+    {
+        "text": "is flowing around the\ncan and turns the can",
+        "start": 833.465,
+        "duration": 2.002
+    },
+    {
+        "text": "into a temporary\nmagnet so strong",
+        "start": 835.568,
+        "duration": 3.002
+    },
+    {
+        "text": "that the sides can push\nagainst each other.",
+        "start": 838.671,
+        "duration": 1.968
+    },
+    {
+        "text": "And they push each other so hard\nthat they rip the can apart.",
+        "start": 840.739,
+        "duration": 2.803
+    },
+    {
+        "text": "But since they don't have\nanything else to push off of,",
+        "start": 843.642,
+        "duration": 2.202
+    },
+    {
+        "text": "they push each other with\nan equal and opposite force.",
+        "start": 845.944,
+        "duration": 2.369
+    },
+    {
+        "text": "And they fly apart in\nopposite directions.",
+        "start": 848.413,
+        "duration": 2.269
+    },
+    {
+        "text": "So cool.",
+        "start": 850.782,
+        "duration": 0.902
+    },
+    {
+        "text": "OK, goodbye cows.",
+        "start": 851.784,
+        "duration": 2.302
+    },
+    {
+        "text": "Although actually,\nI'm still going",
+        "start": 854.186,
+        "duration": 1.335
+    },
+    {
+        "text": "to need a cow for this part.",
+        "start": 855.621,
+        "duration": 2.001
+    },
+    {
+        "text": "Imagine that my cow\nis skating on ice.",
+        "start": 857.722,
+        "duration": 4.105
+    },
+    {
+        "text": "So there's very little friction.",
+        "start": 861.927,
+        "duration": 1.234
+    },
+    {
+        "text": "And I push my cow.",
+        "start": 863.261,
+        "duration": 0.901
+    },
+    {
+        "text": "Now imagine it just goes.",
+        "start": 864.262,
+        "duration": 2.169
+    },
+    {
+        "text": "The cow would accelerate.",
+        "start": 866.531,
+        "duration": 1.268
+    },
+    {
+        "text": "She would speed up.",
+        "start": 867.899,
+        "duration": 1.169
+    },
+    {
+        "text": "So there is necessarily a force\nacting on her from my hand.",
+        "start": 869.168,
+        "duration": 5.071
+    },
+    {
+        "text": "Can we measure the force?",
+        "start": 874.339,
+        "duration": 1.368
+    },
+    {
+        "text": "Sure.",
+        "start": 875.807,
+        "duration": 0.868
+    },
+    {
+        "text": "If I put a spring\nscale like this one",
+        "start": 876.775,
+        "duration": 2.369
+    },
+    {
+        "text": "between my hand and\nthe cow, I can actually",
+        "start": 879.245,
+        "duration": 2.835
+    },
+    {
+        "text": "measure that force.",
+        "start": 882.18,
+        "duration": 2.003
+    },
+    {
+        "text": "Spring scales like this\none or like the scales",
+        "start": 884.283,
+        "duration": 1.902
+    },
+    {
+        "text": "that you step on are really\njust measuring forces.",
+        "start": 886.285,
+        "duration": 2.802
+    },
+    {
+        "text": "They are calibrated to some\nweird unit called pounds,",
+        "start": 889.187,
+        "duration": 2.903
+    },
+    {
+        "text": "or in this case, they're\ncalibrated to ounces.",
+        "start": 892.19,
+        "duration": 2.269
+    },
+    {
+        "text": "My cow is 1.905 ounces.",
+        "start": 894.559,
+        "duration": 2.303
+    },
+    {
+        "text": "If we've calibrated the scale\nto give measurements in newtons,",
+        "start": 896.962,
+        "duration": 2.469
+    },
+    {
+        "text": "then we can read off how much\nforce there is in SI unit.",
+        "start": 899.531,
+        "duration": 2.869
+    },
+    {
+        "text": "I don't think we've\nactually mentioned yet",
+        "start": 902.5,
+        "duration": 1.669
+    },
+    {
+        "text": "what SI units are.",
+        "start": 904.269,
+        "duration": 1.669
+    },
+    {
+        "text": "It's the international system\nof units, the modern form",
+        "start": 906.038,
+        "duration": 2.435
+    },
+    {
+        "text": "of the metric system which is\nthe meters, kilograms, seconds,",
+        "start": 908.573,
+        "duration": 3.804
+    },
+    {
+        "text": "newtons, and everything that\nwe've been using so far.",
+        "start": 912.477,
+        "duration": 2.102
+    },
+    {
+        "text": "The system that nearly every\nphysics class you'll ever take",
+        "start": 914.679,
+        "duration": 3.103
+    },
+    {
+        "text": "will use.",
+        "start": 917.882,
+        "duration": 0.801
+    },
+    {
+        "text": "OK, back to this scale.",
+        "start": 918.783,
+        "duration": 0.968
+    },
+    {
+        "text": "So I was measuring the\nforce by putting a scale",
+        "start": 919.851,
+        "duration": 2.236
+    },
+    {
+        "text": "between my hand and the cow.",
+        "start": 922.187,
+        "duration": 1.168
+    },
+    {
+        "text": "Now what happens if we take\nthe exact same situation,",
+        "start": 923.455,
+        "duration": 2.102
+    },
+    {
+        "text": "and we flip the scale around?",
+        "start": 925.657,
+        "duration": 2.302
+    },
+    {
+        "text": "Is the number going to\nchange as I push the cow?",
+        "start": 928.06,
+        "duration": 3.003
+    },
+    {
+        "text": "Well, it's the same scale,\nsame cow, same hand.",
+        "start": 931.163,
+        "duration": 2.769
+    },
+    {
+        "text": "It's the same acceleration.",
+        "start": 934.032,
+        "duration": 1.702
+    },
+    {
+        "text": "So the answer is no.",
+        "start": 935.834,
+        "duration": 1.134
+    },
+    {
+        "text": "The force that we're\nreading off the scale",
+        "start": 937.068,
+        "duration": 1.669
+    },
+    {
+        "text": "is going to be the\nexact same number.",
+        "start": 938.837,
+        "duration": 2.335
+    },
+    {
+        "text": "That's interesting.",
+        "start": 941.272,
+        "duration": 1.169
+    },
+    {
+        "text": "Because when we orient\nthe scale one way,",
+        "start": 942.541,
+        "duration": 1.601
+    },
+    {
+        "text": "we're thinking about the force\nof my hand pushing on the cow.",
+        "start": 944.242,
+        "duration": 2.903
+    },
+    {
+        "text": "But when we orient the\nscale the other way,",
+        "start": 947.245,
+        "duration": 1.936
+    },
+    {
+        "text": "we're thinking of the force\nof the cow pushing on my hand.",
+        "start": 949.281,
+        "duration": 3.07
+    },
+    {
+        "text": "And that is Newton's third\nbig idea, Newton's third law.",
+        "start": 952.451,
+        "duration": 3.87
+    },
+    {
+        "text": "You might have heard this\nstated like for every force",
+        "start": 956.421,
+        "duration": 2.269
+    },
+    {
+        "text": "there is an equal\nand opposite force.",
+        "start": 958.79,
+        "duration": 2.102
+    },
+    {
+        "text": "Basically, if you\npush on something--",
+        "start": 960.992,
+        "duration": 2.503
+    },
+    {
+        "text": "if I push on the\ncow, it pushes back.",
+        "start": 963.595,
+        "duration": 2.236
+    },
+    {
+        "text": "That is Newton's third law.",
+        "start": 965.931,
+        "duration": 1.734
+    },
+    {
+        "text": "And even if you're\nnot exploding cans,",
+        "start": 967.765,
+        "duration": 1.569
+    },
+    {
+        "text": "you experience Newton's third\nlaw every moment of your life.",
+        "start": 969.434,
+        "duration": 3.771
+    },
+    {
+        "text": "Unless you're watching\nthis video from the ISS,",
+        "start": 973.305,
+        "duration": 2.368
+    },
+    {
+        "text": "you're probably sitting or\nstanding right now on Earth.",
+        "start": 975.773,
+        "duration": 2.903
+    },
+    {
+        "text": "So your body is pushing down on\nthe ground with the same amount",
+        "start": 978.776,
+        "duration": 2.77
+    },
+    {
+        "text": "of force that the ground\nis pushing up on you,",
+        "start": 981.646,
+        "duration": 2.603
+    },
+    {
+        "text": "it's an equal force.",
+        "start": 984.349,
+        "duration": 1.535
+    },
+    {
+        "text": "If it was pushing\nback with less force,",
+        "start": 985.984,
+        "duration": 1.601
+    },
+    {
+        "text": "you would fall\nthrough the Earth.",
+        "start": 987.685,
+        "duration": 1.468
+    },
+    {
+        "text": "And if it was pushing\nback with more force then",
+        "start": 989.254,
+        "duration": 1.935
+    },
+    {
+        "text": "you'd be accelerating upwards,\nwhich you're not, presumably.",
+        "start": 991.289,
+        "duration": 3.071
+    },
+    {
+        "text": "So clearly at the interface\nbetween you and Earth,",
+        "start": 994.46,
+        "duration": 3.236
+    },
+    {
+        "text": "the forces are equal,\nopposite, and balanced.",
+        "start": 997.796,
+        "duration": 3.203
+    },
+    {
+        "text": "It's not always super obvious\nthat the earth is pushing you.",
+        "start": 1001.099,
+        "duration": 2.636
+    },
+    {
+        "text": "But check out this clip of\nRodney Mullen doing an ollie.",
+        "start": 1003.835,
+        "duration": 3.036
+    },
+    {
+        "text": "You can see the ground\nis pushing the skateboard",
+        "start": 1006.972,
+        "duration": 2.002
+    },
+    {
+        "text": "because there's\nnothing else that",
+        "start": 1009.074,
+        "duration": 1.334
+    },
+    {
+        "text": "could push the skateboard up and\naccelerate it off the ground.",
+        "start": 1010.508,
+        "duration": 2.87
+    },
+    {
+        "text": "Where else do we see\nNewton's third law?",
+        "start": 1013.478,
+        "duration": 2.002
+    },
+    {
+        "text": "Let's do a problem.",
+        "start": 1015.58,
+        "duration": 0.934
+    },
+    {
+        "text": "This next problem is\na really important one",
+        "start": 1016.614,
+        "duration": 1.569
+    },
+    {
+        "text": "to work because it comes\nup a lot in physics.",
+        "start": 1018.283,
+        "duration": 2.369
+    },
+    {
+        "text": "And you have to be able\nto break down and think",
+        "start": 1020.752,
+        "duration": 1.936
+    },
+    {
+        "text": "about net forces on objects.",
+        "start": 1022.788,
+        "duration": 1.334
+    },
+    {
+        "text": "So that's what we're\ngood going to do.",
+        "start": 1024.222,
+        "duration": 1.502
+    },
+    {
+        "text": "I need another cow, please.",
+        "start": 1025.824,
+        "duration": 1.801
+    },
+    {
+        "text": "So net forces and objects.",
+        "start": 1027.725,
+        "duration": 2.036
+    },
+    {
+        "text": "Like two square cows on a table.",
+        "start": 1029.861,
+        "duration": 1.802
+    },
+    {
+        "text": "Imagine, again, that\nthey're on ice skates,",
+        "start": 1031.763,
+        "duration": 1.669
+    },
+    {
+        "text": "and we can ignore friction.",
+        "start": 1033.532,
+        "duration": 2.002
+    },
+    {
+        "text": "This cow here has a\nmass of 4 kilograms,",
+        "start": 1035.634,
+        "duration": 2.502
+    },
+    {
+        "text": "and this other little one\nhas a mass of 2 kilograms.",
+        "start": 1038.236,
+        "duration": 2.936
+    },
+    {
+        "text": "Now if I pull on one cow,\nthey aren't attached.",
+        "start": 1041.273,
+        "duration": 2.635
+    },
+    {
+        "text": "So they come apart.",
+        "start": 1044.008,
+        "duration": 1.068
+    },
+    {
+        "text": "But if I push it, it'll\npush the other one.",
+        "start": 1045.177,
+        "duration": 3.203
+    },
+    {
+        "text": "So I'm essentially\npushing both cows.",
+        "start": 1048.48,
+        "duration": 2.436
+    },
+    {
+        "text": "I'll draw that.",
+        "start": 1051.016,
+        "duration": 0.7
+    },
+    {
+        "text": "This is cow 1, this is cow 2.",
+        "start": 1051.816,
+        "duration": 4.872
+    },
+    {
+        "text": "The total mass I'm\npushing is six kilograms.",
+        "start": 1056.788,
+        "duration": 3.003
+    },
+    {
+        "text": "And if I push with a force\nof 12 Newtons, F equals ma,",
+        "start": 1059.891,
+        "duration": 3.771
+    },
+    {
+        "text": "so F is 12.",
+        "start": 1063.762,
+        "duration": 1.902
+    },
+    {
+        "text": "My m is my total\nmass, 6 kilograms.",
+        "start": 1065.764,
+        "duration": 2.636
+    },
+    {
+        "text": "So my a has to be 2\nin order to get 12.",
+        "start": 1068.5,
+        "duration": 2.602
+    },
+    {
+        "text": "So 2 meters per second squared.",
+        "start": 1071.202,
+        "duration": 2.336
+    },
+    {
+        "text": "That's my acceleration.",
+        "start": 1073.638,
+        "duration": 1.201
+    },
+    {
+        "text": "We were able to just figure\nout what the acceleration was.",
+        "start": 1074.939,
+        "duration": 2.236
+    },
+    {
+        "text": "It's 2 meters per\nsecond squared.",
+        "start": 1077.275,
+        "duration": 1.402
+    },
+    {
+        "text": "So what other\nquestions can we ask?",
+        "start": 1078.777,
+        "duration": 1.568
+    },
+    {
+        "text": "How about with what force\nis the first cow, cow 1,",
+        "start": 1080.445,
+        "duration": 3.204
+    },
+    {
+        "text": "pushing on cow 2?",
+        "start": 1083.749,
+        "duration": 1.4
+    },
+    {
+        "text": "Of 1 on 2.",
+        "start": 1085.25,
+        "duration": 1.168
+    },
+    {
+        "text": "We've already found that the two\ncows are accelerating together",
+        "start": 1086.518,
+        "duration": 2.569
+    },
+    {
+        "text": "at 2 meters per second squared.",
+        "start": 1089.187,
+        "duration": 1.736
+    },
+    {
+        "text": "We've got F equals ma.",
+        "start": 1091.023,
+        "duration": 1.701
+    },
+    {
+        "text": "So I know my acceleration is\n2 meters per second squared.",
+        "start": 1092.824,
+        "duration": 3.036
+    },
+    {
+        "text": "And we know the mass of cow 2.",
+        "start": 1095.96,
+        "duration": 1.569
+    },
+    {
+        "text": "It's 2 kilograms.",
+        "start": 1097.629,
+        "duration": 1.368
+    },
+    {
+        "text": "So from cow 2's mass\nand acceleration,",
+        "start": 1099.097,
+        "duration": 2.302
+    },
+    {
+        "text": "we can find the force\non it is 4 newtons.",
+        "start": 1101.499,
+        "duration": 3.104
+    },
+    {
+        "text": "So F of 1 on 2 is 4 newtons.",
+        "start": 1104.703,
+        "duration": 3.303
+    },
+    {
+        "text": "So cow 1 is pushing on cow\n2 with a force of 4 newtons.",
+        "start": 1108.106,
+        "duration": 3.236
+    },
+    {
+        "text": "Notice that we wrote a little\nsubscript on the F 1,2,",
+        "start": 1111.442,
+        "duration": 3.171
+    },
+    {
+        "text": "means 1 is pushing on 2.",
+        "start": 1114.713,
+        "duration": 1.802
+    },
+    {
+        "text": "So now it's time for\nNewton's third law.",
+        "start": 1116.615,
+        "duration": 3.136
+    },
+    {
+        "text": "If cow 1 is pushing on cow\n2 with a force of 4 newtons,",
+        "start": 1119.851,
+        "duration": 3.47
+    },
+    {
+        "text": "then cow 2 must be pushing\nback on cow 1 with 4 newtons",
+        "start": 1123.421,
+        "duration": 4.105
+    },
+    {
+        "text": "as well.",
+        "start": 1127.626,
+        "duration": 0.968
+    },
+    {
+        "text": "So my F2, 1 is the\nsame 4 newtons.",
+        "start": 1128.694,
+        "duration": 4.136
+    },
+    {
+        "text": "So now let's think about\nall the forces on cow 1.",
+        "start": 1132.931,
+        "duration": 3.003
+    },
+    {
+        "text": "Remember how I'm pushing on cow\n1 with a force of 12 Newtons?",
+        "start": 1136.034,
+        "duration": 3.07
+    },
+    {
+        "text": "To the right, and I've got that\nother force from cow 2 pushing",
+        "start": 1139.204,
+        "duration": 3.537
+    },
+    {
+        "text": "left with 4 newtons in\nthe opposite direction.",
+        "start": 1142.841,
+        "duration": 3.203
+    },
+    {
+        "text": "So the net force on\ncow 1 is 8 newtons.",
+        "start": 1146.144,
+        "duration": 5.339
+    },
+    {
+        "text": "Net force on 1, ta da.",
+        "start": 1151.583,
+        "duration": 3.303
+    },
+    {
+        "text": "Now we know the mass of\ncow 1 is 4 kilograms.",
+        "start": 1154.986,
+        "duration": 1.802
+    },
+    {
+        "text": "So if we apply F equals ma, so\nwe apply F equals ma on cow 1",
+        "start": 1156.888,
+        "duration": 3.703
+    },
+    {
+        "text": "alone, we've got\n8 newtons equals",
+        "start": 1160.692,
+        "duration": 2.903
+    },
+    {
+        "text": "4 kilograms times acceleration.",
+        "start": 1163.695,
+        "duration": 2.336
+    },
+    {
+        "text": "And we solve to find\nthe acceleration is",
+        "start": 1166.131,
+        "duration": 2.869
+    },
+    {
+        "text": "2 meters per second squared.",
+        "start": 1169.1,
+        "duration": 2.036
+    },
+    {
+        "text": "We already knew that, though,\nfrom our earlier calculation",
+        "start": 1171.236,
+        "duration": 2.435
+    },
+    {
+        "text": "with the total force\nand the total mass",
+        "start": 1173.771,
+        "duration": 1.869
+    },
+    {
+        "text": "of the two cows together.",
+        "start": 1175.74,
+        "duration": 1.435
+    },
+    {
+        "text": "But it's super cool that we\ncan circle around and use",
+        "start": 1177.275,
+        "duration": 2.369
+    },
+    {
+        "text": "Newton's second law and then\nusing Newton's third law",
+        "start": 1179.744,
+        "duration": 2.836
+    },
+    {
+        "text": "and then use Newton's second law\nagain to get the same answer.",
+        "start": 1182.68,
+        "duration": 3.137
+    },
+    {
+        "text": "These problems\nare fairly simple.",
+        "start": 1185.917,
+        "duration": 1.769
+    },
+    {
+        "text": "But they're also\ndeep because there's",
+        "start": 1187.786,
+        "duration": 1.468
+    },
+    {
+        "text": "a lot of physics going on here.",
+        "start": 1189.354,
+        "duration": 1.669
+    },
+    {
+        "text": "And when he master\nthis way of thinking,",
+        "start": 1191.123,
+        "duration": 1.601
+    },
+    {
+        "text": "the complicated\nand harder problems",
+        "start": 1192.824,
+        "duration": 1.434
+    },
+    {
+        "text": "will become much\nmore straightforward.",
+        "start": 1194.358,
+        "duration": 2.169
+    },
+    {
+        "text": "That's it.",
+        "start": 1196.628,
+        "duration": 1.902
+    },
+    {
+        "text": "Whoo.",
+        "start": 1198.63,
+        "duration": 1.168
+    },
+    {
+        "text": "That is today's lesson on forces\nand Newton's laws of motion.",
+        "start": 1199.898,
+        "duration": 3.337
+    },
+    {
+        "text": "And when they ask you what\nyou learned on YouTube today,",
+        "start": 1203.335,
+        "duration": 2.235
+    },
+    {
+        "text": "here are your key\ntakeaways,",
+        "start": 1205.67,
+        "duration": 1.435
+    },
+    {
+        "text": "also known as\nthe laws of motion.",
+        "start": 1207.205,
+        "duration": 2.369
+    },
+    {
+        "text": "Number one, inertia exists.",
+        "start": 1209.674,
+        "duration": 2.469
+    },
+    {
+        "text": "Objects tend to stay\nstill if they're still",
+        "start": 1212.243,
+        "duration": 2.37
+    },
+    {
+        "text": "and keep moving\nif they're moving.",
+        "start": 1214.713,
+        "duration": 2.102
+    },
+    {
+        "text": "Number two, to change\nan object's motion--",
+        "start": 1216.915,
+        "duration": 2.635
+    },
+    {
+        "text": "in other words, to accelerate\nit, you need to apply a force.",
+        "start": 1219.65,
+        "duration": 3.637
+    },
+    {
+        "text": "Force equals mass\ntimes acceleration.",
+        "start": 1223.387,
+        "duration": 3.471
+    },
+    {
+        "text": "F equals ma.",
+        "start": 1226.958,
+        "duration": 1.134
+    },
+    {
+        "text": "And number three, when you\nhit something, it hits back.",
+        "start": 1228.192,
+        "duration": 3.872
+    },
+    {
+        "text": "And because you can only\nreally learn physics",
+        "start": 1232.164,
+        "duration": 2.035
+    },
+    {
+        "text": "by doing the\nproblems, here, again,",
+        "start": 1234.299,
+        "duration": 1.968
+    },
+    {
+        "text": "are all the problems\nwe did in the lesson.",
+        "start": 1236.367,
+        "duration": 1.835
+    },
+    {
+        "text": "And you should definitely\ngo work them again at home.",
+        "start": 1238.302,
+        "duration": 2.17
+    },
+    {
+        "text": "And, finally, here's a crazy\nextra little bit of physics",
+        "start": 1256.254,
+        "duration": 3.037
+    },
+    {
+        "text": "that you definitely don't\nneed to know but is way cool.",
+        "start": 1259.391,
+        "duration": 2.702
+    },
+    {
+        "text": "And it's the idea that gravity\nmight actually sometimes",
+        "start": 1262.193,
+        "duration": 2.703
+    },
+    {
+        "text": "push and not always pull.",
+        "start": 1264.996,
+        "duration": 2.703
+    },
+    {
+        "text": "What?",
+        "start": 1267.799,
+        "duration": 0.901
+    },
+    {
+        "text": "Physicists have\ntheorized and are still",
+        "start": 1268.8,
+        "duration": 1.235
+    },
+    {
+        "text": "looking for evidence of\nsituations where gravity is",
+        "start": 1270.135,
+        "duration": 2.168
+    },
+    {
+        "text": "actually repulsive.",
+        "start": 1272.403,
+        "duration": 1.202
+    },
+    {
+        "text": "It pushes things apart rather\nthan pulling them together.",
+        "start": 1273.705,
+        "duration": 2.936
+    },
+    {
+        "text": "These situations would be\nextreme, extreme cosmic scales",
+        "start": 1276.741,
+        "duration": 3.837
+    },
+    {
+        "text": "between galaxies\nand galaxy clusters,",
+        "start": 1280.678,
+        "duration": 2.269
+    },
+    {
+        "text": "or in extreme conditions like\nthe very, very early universe,",
+        "start": 1283.047,
+        "duration": 3.904
+    },
+    {
+        "text": "right after the Big Bang,\nwhen there was",
+        "start": 1287.051,
+        "duration": 1.602
+    },
+    {
+        "text": "a period of crazy expansion.",
+        "start": 1288.753,
+        "duration": 1.602
+    },
+    {
+        "text": "If you stick with physics\nand eventually take",
+        "start": 1290.455,
+        "duration": 1.768
+    },
+    {
+        "text": "a class in something\nlike cosmology,",
+        "start": 1292.323,
+        "duration": 1.969
+    },
+    {
+        "text": "you get to learn this\ntype of crazy physics.",
+        "start": 1294.393,
+        "duration": 2.869
+    },
+    {
+        "text": "And with that, may the\nforces be with you.",
+        "start": 1297.362,
+        "duration": 2.435
+    },
+    {
+        "text": "And here is a message for\nyou from a special guest.",
+        "start": 1299.897,
+        "duration": 2.369
+    },
+    {
+        "text": "Hey there.",
+        "start": 1302.367,
+        "duration": 1.001
+    },
+    {
+        "text": "My name's Moiya McTier,\nand I'm an astrophysicist",
+        "start": 1303.468,
+        "duration": 2.169
+    },
+    {
+        "text": "who studies the motion\nof the Milky Way Galaxy.",
+        "start": 1305.737,
+        "duration": 2.202
+    },
+    {
+        "text": "And I am so pumped for you\nthat you're taking",
+        "start": 1308.04,
+        "duration": 2.302
+    },
+    {
+        "text": "this physics class right now",
+        "start": 1310.442,
+        "duration": 1.401
+    },
+    {
+        "text": "because I didn't find\nastrophysics until",
+        "start": 1311.943,
+        "duration": 1.902
+    },
+    {
+        "text": "I was a sophomore\nin college.",
+        "start": 1313.945,
+        "duration": 1.302
+    },
+    {
+        "text": "So I know firsthand that\nthere's no one right time",
+        "start": 1315.347,
+        "duration": 3.336
+    },
+    {
+        "text": "to start studying science.",
+        "start": 1318.783,
+        "duration": 1.735
+    },
+    {
+        "text": "I really hope you\nenjoy your classes.",
+        "start": 1320.618,
+        "duration": 1.835
+    },
+    {
+        "text": "I wish you the best of\nluck, and take care.",
+        "start": 1322.553,
+        "duration": 3.338
+    }
+]

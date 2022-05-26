@@ -1,0 +1,552 @@
+[
+    {
+        "text": "He's known as one of the mathematicians with perhaps the most natural talent for maths",
+        "start": 0.0,
+        "duration": 5.9
+    },
+    {
+        "text": "It's a man called Ramanujan. He was an Indian mathematician. He started with no formal training",
+        "start": 5.9,
+        "duration": 5.46
+    },
+    {
+        "text": "in mathematics. But just by working alone, isolated, he was able to come up with all these mathematical facts,",
+        "start": 11.36,
+        "duration": 7.78
+    },
+    {
+        "text": "these theorems, all by himself. Some were rediscoveries of things that were already known",
+        "start": 19.14,
+        "duration": 5.42
+    },
+    {
+        "text": "Some were new! And he sent these to Cambridge mathematicians and they recognized his talent",
+        "start": 24.56,
+        "duration": 7.28
+    },
+    {
+        "text": "And he was invited to come to Cambridge and show off what he could do",
+        "start": 31.86,
+        "duration": 3.8
+    },
+    {
+        "text": "When we're filming this - a film has just come out all about Ramanujan",
+        "start": 35.66,
+        "duration": 4.26
+    },
+    {
+        "text": "this film just concentrated on one achievement. And it was something to do with partitions.",
+        "start": 39.92,
+        "duration": 5.94
+    },
+    {
+        "text": "So partitions is about the number of ways that we can break down a number.",
+        "start": 45.86,
+        "duration": 5.8
+    },
+    {
+        "text": "We take a number, an integer, and how many ways can we break it down into positive parts?",
+        "start": 51.66,
+        "duration": 4.84
+    },
+    {
+        "text": "And to prove that I'm a serious mathematician, I'm going to illustrate this by using a DUPLO here.",
+        "start": 56.5,
+        "duration": 6.48
+    },
+    {
+        "text": "Let's say we take the number four, and I've got four units of DUPLO there,",
+        "start": 62.98,
+        "duration": 3.5
+    },
+    {
+        "text": "how many ways can I break this down into positive parts? So I could start with this. It's a tower of four.",
+        "start": 66.48,
+        "duration": 6.7
+    },
+    {
+        "text": "Or, I could break it down, right? I could have a three and a one. Right? Or, I could have a two, a one, and a one.",
+        "start": 73.18,
+        "duration": 8.04
+    },
+    {
+        "text": "Or I could break it down again, I could have one, one, one, one, and there is one I've missed there if you noticed",
+        "start": 81.22,
+        "duration": 8.08
+    },
+    {
+        "text": "I have missed out breaking it down into two and two. So in fact, there are five ways to break this down.",
+        "start": 89.3,
+        "duration": 7.72
+    },
+    {
+        "text": "So we draw this out. We could either draw it like this: one, two, three, four. We can do a three and a one.",
+        "start": 97.02,
+        "duration": 9.8
+    },
+    {
+        "text": "Like that. Two, two. We could have two, one, one. One, one, one, one, like that.",
+        "start": 106.82,
+        "duration": 6.88
+    },
+    {
+        "text": "So this is what mathematicians actually do, they do it this this way because by seeing it as a picture,",
+        "start": 113.7,
+        "duration": 5.06
+    },
+    {
+        "text": "you can actually make conclusions about partitions which are easier to see.",
+        "start": 118.76,
+        "duration": 4.34
+    },
+    {
+        "text": "The French do this slightly differently. The French draw them like this: you can have a row of four like that.",
+        "start": 123.1,
+        "duration": 6.66
+    },
+    {
+        "text": "And you can have a row of three with a row of one like that, so it's the other way around.",
+        "start": 129.76,
+        "duration": 5.46
+    },
+    {
+        "text": "Or you could it like this, above. And then the last one here: one, one, one, one. So it's a slightly different way of doing it.",
+        "start": 135.22,
+        "duration": 7.92
+    },
+    {
+        "text": "My favorite foot note from a textbook - do you have a favorite footnote from a textbook? - oh, I know I do.",
+        "start": 143.14,
+        "duration": 6.06
+    },
+    {
+        "text": "Favorite footnote from a textbook was by Ian MacDonald who said",
+        "start": 149.2,
+        "duration": 3.58
+    },
+    {
+        "text": "\"if you want to do the French notation, you should read this textbook while looking upside down and in a mirror\"",
+        "start": 152.78,
+        "duration": 6.14
+    },
+    {
+        "text": "So I get to say this for myself for the first time!",
+        "start": 158.92,
+        "duration": 2.94
+    },
+    {
+        "text": "If you want to use the French notation, watch this video upside down and in a mirror.",
+        "start": 161.86,
+        "duration": 4.32
+    },
+    {
+        "text": "So let's look at the sequence of partitions. So the sequence is this:",
+        "start": 166.18,
+        "duration": 3.58
+    },
+    {
+        "text": "one, two, three, five, seven, eleven, fifteen, twenty-two, thirty, forty-two, and so on like this.",
+        "start": 169.76,
+        "duration": 9.28
+    },
+    {
+        "text": "Ok, so when we were looking at partitions before, that's this one here, there were five partitions of four.",
+        "start": 179.04,
+        "duration": 5.78
+    },
+    {
+        "text": "So if that's breaking down the number four, there are five ways of doing it.",
+        "start": 184.82,
+        "duration": 3.98
+    },
+    {
+        "text": "If you wanted to break down the number five, there'd be seven ways of doing it, and so on.",
+        "start": 188.8,
+        "duration": 3.12
+    },
+    {
+        "text": "So, these numbers get larger and by the time we get to something like one hundred,",
+        "start": 191.92,
+        "duration": 4.24
+    },
+    {
+        "text": "how many ways can we break down the number one hundred. If we did that, it's going to be a large number.",
+        "start": 196.16,
+        "duration": 5.72
+    },
+    {
+        "text": "It's going to be one hundred and ninety million, five hundred and sixty-nine thousand, two hundred and ninty two.",
+        "start": 201.88,
+        "duration": 7.96
+    },
+    {
+        "text": "So these get really large. Now, it becomes very difficult to calculate these partitions by hand.",
+        "start": 209.84,
+        "duration": 6.2
+    },
+    {
+        "text": "Wouldn't it be nice to have a formula that helps us work out these partitions?",
+        "start": 216.04,
+        "duration": 5.32
+    },
+    {
+        "text": "So, then if I have a formula, you can give me a number, and I can tell you how many ways to break that down.",
+        "start": 221.36,
+        "duration": 5.2
+    },
+    {
+        "text": "Oh, fantastic! And this is the problem that Ramanujan decided to tackle.",
+        "start": 226.56,
+        "duration": 4.64
+    },
+    {
+        "text": "So there were some formulas before Ramanujan, which go back to Euler. Not particularly pretty formulas,",
+        "start": 231.2,
+        "duration": 6.6
+    },
+    {
+        "text": "but I can show you what they look like. Should I do that?",
+        "start": 237.8,
+        "duration": 1.8
+    },
+    {
+        "text": "Ok, so, I'm gonna draw out a polynomial using partitions as coefficients.",
+        "start": 239.6,
+        "duration": 4.72
+    },
+    {
+        "text": "It means it's gonna look like this: one plus, I'm gong to have, plus x plus,",
+        "start": 244.32,
+        "duration": 6.62
+    },
+    {
+        "text": "now I'm going to have x squared next and I'm going to use how many ways to break down two.",
+        "start": 250.94,
+        "duration": 5.42
+    },
+    {
+        "text": "There, which is two ways of doing that. So, if I have x cubed next,",
+        "start": 256.36,
+        "duration": 4.78
+    },
+    {
+        "text": "I want how many way to break down three and there are three ways of doing that.",
+        "start": 261.14,
+        "duration": 3.56
+    },
+    {
+        "text": "And I would keep going like this. If I had x four, we know how many ways to break that down, right?",
+        "start": 264.7,
+        "duration": 5.54
+    },
+    {
+        "text": "There are five ways of doing it. And then it's seven for x five and so on and so on.",
+        "start": 270.24,
+        "duration": 4.16
+    },
+    {
+        "text": "So this is a very mathsy looking thing. In other words, if you like this notation, it means \"sum\".",
+        "start": 274.4,
+        "duration": 6.88
+    },
+    {
+        "text": "If I want to sum - these are called partitions of n and then it's times x to the power of n. And you do that all the way up to infinity.",
+        "start": 281.28,
+        "duration": 10.98
+    },
+    {
+        "text": "Now, what Euler saw was this was equal to, this is equal to - I'm going to use another symbol here: this symbol,",
+        "start": 292.26,
+        "duration": 9.8
+    },
+    {
+        "text": "which is a capital pi, it means product, it means you are multiplying these things together.",
+        "start": 302.06,
+        "duration": 4.38
+    },
+    {
+        "text": "(In background) Not three point one four",
+        "start": 306.44,
+        "duration": 1.26
+    },
+    {
+        "text": "It's not three point one four, yeah, we're limited in how many letters we've got to use so we're using pi here for product.",
+        "start": 307.7,
+        "duration": 6.2
+    },
+    {
+        "text": "The product of one over one minus x to the k. Yeah, we've got this. It's from k equals 1 to infinity.",
+        "start": 313.9,
+        "duration": 8.02
+    },
+    {
+        "text": "So we've got something that we're multiplying together is equal to this polynomial. This is a way of working out partitions.",
+        "start": 321.92,
+        "duration": 7.14
+    },
+    {
+        "text": "And it's what you used to do classically. And so if you want to work out the partitions of one hundred,",
+        "start": 329.06,
+        "duration": 7.14
+    },
+    {
+        "text": "you could use a formula like this and actually do the calculation. But it's not particularly easy.",
+        "start": 336.2,
+        "duration": 7.32
+    },
+    {
+        "text": "But that is what they used to do if they had to do it by hand,",
+        "start": 343.52,
+        "duration": 2.66
+    },
+    {
+        "text": "and it's what your computer would do if it wants to work out partitions, it would use a formula like that",
+        "start": 346.18,
+        "duration": 5.34
+    },
+    {
+        "text": "Ramanujan had an amazing intuition for numbers.",
+        "start": 351.52,
+        "duration": 4.54
+    },
+    {
+        "text": "Another Cambridge mathematician called John Littlewood said that all the positive integers were Ramanujan's personal friends.",
+        "start": 356.06,
+        "duration": 8.46
+    },
+    {
+        "text": "Which sounds like an utter nightmare to me, having infinitely many personal friends,",
+        "start": 364.52,
+        "duration": 4.68
+    },
+    {
+        "text": "imagine the Christmas card list, sounds terrible. So let's look at some of the things he noticed about partitions.",
+        "start": 369.2,
+        "duration": 5.96
+    },
+    {
+        "text": "I guess this is something that attracted him to the subject. Looking at partitions of, let's say,",
+        "start": 375.16,
+        "duration": 5.2
+    },
+    {
+        "text": "a number that looks like this: five k plus four. Okay, so if you have a number like that, it ends with a four or a nine.",
+        "start": 380.36,
+        "duration": 10.06
+    },
+    {
+        "text": "Four, nine, fourteen, nineteen, so these numbers. So you have a number like that, you notice something.",
+        "start": 390.42,
+        "duration": 6.72
+    },
+    {
+        "text": "You notice that the number of ways of breaking it down is divisible by five. So there's a fact that he noticed.",
+        "start": 397.14,
+        "duration": 10.3
+    },
+    {
+        "text": "The first example: if we took k equals zero, we're looking at - if it's zero - looking at partitions of four.",
+        "start": 407.44,
+        "duration": 9.16
+    },
+    {
+        "text": "Ok, we did that, alright, how many ways were there to do it? There were five ways of doing it.",
+        "start": 416.6,
+        "duration": 5.18
+    },
+    {
+        "text": "It's divisible by five. Great! What about partitians of nine? So if you have k equals one,",
+        "start": 421.78,
+        "duration": 6.92
+    },
+    {
+        "text": "this would be partitions of nine, that's the next step up. How many ways of doing that?  And if you work it out,",
+        "start": 428.7,
+        "duration": 6.48
+    },
+    {
+        "text": "I can tell you that there are thirty ways of doing that and, hey, again it works, it's divisible by five.",
+        "start": 435.18,
+        "duration": 6.64
+    },
+    {
+        "text": "It always appears to be the case. Ramanujan was able to show this,",
+        "start": 441.82,
+        "duration": 3.64
+    },
+    {
+        "text": "and he was able to show a couple of things that were similar to this as well.",
+        "start": 445.46,
+        "duration": 3.58
+    },
+    {
+        "text": "Like if you had partitions of a number that looked like this: seven k plus five, then that is divisible by seven.",
+        "start": 449.04,
+        "duration": 9.12
+    },
+    {
+        "text": "Or if you had partitions that look like this: eleven k plus six, then this is divisible by eleven.",
+        "start": 458.16,
+        "duration": 8.7
+    },
+    {
+        "text": "So he had these little facts. And if you see that pattern, it does seem to appear like the next one should be something like this",
+        "start": 466.86,
+        "duration": 8.6
+    },
+    {
+        "text": "partitions of thirteen k plus seven is divisible by thirteen. And that is not right. That is incorrect.",
+        "start": 475.46,
+        "duration": 9.76
+    },
+    {
+        "text": "The pattern doesn't hold. Ramanujan found these three and he found no other formula like this, and he thought",
+        "start": 485.22,
+        "duration": 6.24
+    },
+    {
+        "text": "\"well that's it, those are the only formula's we've got. The next one doesn't hold,",
+        "start": 491.46,
+        "duration": 4.78
+    },
+    {
+        "text": "the others don't appear to hold.\" Eventually fifty years later, they did solve this. There is one that looks like this,",
+        "start": 496.24,
+        "duration": 6.54
+    },
+    {
+        "text": "it's not as simple as what they thought. Seventeen thousand, three-hundred and three k plus two three seven is divisible by thirteen.",
+        "start": 502.78,
+        "duration": 8.78
+    },
+    {
+        "text": "Which is nothing like what Ramanujan found before. And it seems crazy but now we know that we have a formula like this for every prime.",
+        "start": 511.56,
+        "duration": 8.4
+    },
+    {
+        "text": "But they're just not as nice as the first three that was found by Ramanujan.",
+        "start": 519.96,
+        "duration": 4.32
+    },
+    {
+        "text": "But it's still not the big formula they wanted to find. Let's have a look at the big formula, the main punchline.",
+        "start": 524.28,
+        "duration": 6.34
+    },
+    {
+        "text": "Ok. Number of partitions is one over four n square root of three multiplied by the exponential of pi.",
+        "start": 530.62,
+        "duration": 9.6
+    },
+    {
+        "text": "That's a traditional pi. That's three point one four.  Times the square root of two n over three.",
+        "start": 540.22,
+        "duration": 6.48
+    },
+    {
+        "text": "So that's a nice, closed formula for how many partitions there are. That twiddle sign, if you notice,",
+        "start": 546.7,
+        "duration": 5.94
+    },
+    {
+        "text": "means it's not equals. It means it's an approximation, but it's an approximation that gets better with larger values.",
+        "start": 552.64,
+        "duration": 7.0
+    },
+    {
+        "text": "So this is actually getting better and better as you go along the sequence. So if we did this with an example",
+        "start": 559.64,
+        "duration": 6.06
+    },
+    {
+        "text": "Let's do one hundred, right? We know what the one hundred value was, and if we did this with one hundred, put one hundred in here, we would get",
+        "start": 565.7,
+        "duration": 8.34
+    },
+    {
+        "text": "one hundered and ninety-nine million, two hundred and eighty thousand, eight hundred and ninety-three",
+        "start": 574.04,
+        "duration": 6.2
+    },
+    {
+        "text": "Now this is in this right area for the true value. But it's about four point six percent off. Maybe it's not the best,",
+        "start": 580.24,
+        "duration": 9.28
+    },
+    {
+        "text": "but again this formula is getting better with larger values.",
+        "start": 589.52,
+        "duration": 4.1
+    },
+    {
+        "text": "But I can do better than that because this formula I gave you here is actually just the first term in a series.",
+        "start": 593.62,
+        "duration": 8.78
+    },
+    {
+        "text": "So this can actually become more accurate, in fact it becomes equals.",
+        "start": 602.4,
+        "duration": 4.58
+    },
+    {
+        "text": "So what Ramanjun was able to do was use his full formula",
+        "start": 606.98,
+        "duration": 3.6
+    },
+    {
+        "text": "and you just needed the first five terms to work out the value for partitions of two hundred to the nearest integer.",
+        "start": 610.58,
+        "duration": 7.94
+    },
+    {
+        "text": "And you can actually do that using his own formula. So these are not particularly easy to calculate,",
+        "start": 618.52,
+        "duration": 6.0
+    },
+    {
+        "text": "but the largest value we've calculated so far is something around one hundred million million million,",
+        "start": 624.52,
+        "duration": 7.16
+    },
+    {
+        "text": "so it's twenty zeros, a massive number. And the number of partitions,",
+        "start": 631.68,
+        "duration": 3.92
+    },
+    {
+        "text": "so the number of ways of breaking that down is something that has eleven billion digits.",
+        "start": 635.6,
+        "duration": 6.54
+    },
+    {
+        "text": "So there are a huge number of ways of doing it. And the reason partitions are important: partitions are used in the mathematics of shuffling.",
+        "start": 642.14,
+        "duration": 9.52
+    },
+    {
+        "text": "Like shuffling a pack of cards! Alright, so think of a shuffle like that. But,",
+        "start": 651.66,
+        "duration": 4.1
+    },
+    {
+        "text": "there are lots of things in maths that are actually a shuffle. You can think of -",
+        "start": 655.76,
+        "duration": 5.08
+    },
+    {
+        "text": "and even in Physics like shuffling energy. So you know energy isn't created or destroyed it just gets moved around, right?",
+        "start": 660.84,
+        "duration": 6.7
+    },
+    {
+        "text": "It just gets shuffled; it gets conserved. And underneath that, the maths is the same:",
+        "start": 667.54,
+        "duration": 5.06
+    },
+    {
+        "text": "it's the maths of shuffling and it's the maths of partitions.",
+        "start": 672.6,
+        "duration": 3.02
+    }
+]

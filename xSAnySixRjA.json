@@ -1,0 +1,2767 @@
+[
+    {
+        "text": "This is a toy called\na Newton's cradle.",
+        "start": 0.9,
+        "duration": 2.236
+    },
+    {
+        "text": "Usually you see\nthem about yea big.",
+        "start": 3.236,
+        "duration": 1.934
+    },
+    {
+        "text": "But it's almost like magic",
+        "start": 5.27,
+        "duration": 1.168
+    },
+    {
+        "text": "because you lift\nthe ball on the side,",
+        "start": 6.538,
+        "duration": 1.202
+    },
+    {
+        "text": "and then these\nthree stay still.",
+        "start": 7.841,
+        "duration": 1.501
+    },
+    {
+        "text": "And this one suddenly flies off.",
+        "start": 9.442,
+        "duration": 3.971
+    },
+    {
+        "text": "How does this happen?",
+        "start": 13.513,
+        "duration": 1.468
+    },
+    {
+        "text": "This is so cool.",
+        "start": 18.25,
+        "duration": 1.535
+    },
+    {
+        "text": "This is also a really\nbig Newton's cradle.",
+        "start": 19.885,
+        "duration": 2.136
+    },
+    {
+        "text": "No, this is a big\nNewton's cradle.",
+        "start": 22.121,
+        "duration": 2.135
+    },
+    {
+        "text": "[EPIC MUSIC PLAYING]",
+        "start": 24.356,
+        "duration": 3.037
+    },
+    {
+        "text": "Hey, I'm Dianna Cowern.",
+        "start": 27.493,
+        "duration": 1.802
+    },
+    {
+        "text": "Welcome to lesson 13 of\nDianna's Intro Physics class,",
+        "start": 29.395,
+        "duration": 3.003
+    },
+    {
+        "text": "also known as AP\nPhysics I review,",
+        "start": 32.498,
+        "duration": 2.202
+    },
+    {
+        "text": "also known as\nPhysics by Dianna.",
+        "start": 34.8,
+        "duration": 2.002
+    },
+    {
+        "text": "Today's lesson is about things\nthat smack into each other.",
+        "start": 36.902,
+        "duration": 3.604
+    },
+    {
+        "text": "Put more properly, it's\nabout objects that collide.",
+        "start": 40.606,
+        "duration": 2.67
+    },
+    {
+        "text": "And we want to look\nat what happens",
+        "start": 43.376,
+        "duration": 1.368
+    },
+    {
+        "text": "to the motion of those\nobjects after they collide.",
+        "start": 44.844,
+        "duration": 2.969
+    },
+    {
+        "text": "So the theme of today's episode\nis \"star crossed lovers.\"",
+        "start": 47.913,
+        "duration": 4.205
+    },
+    {
+        "text": "When Romeo and Juliet's\nworlds collide,",
+        "start": 52.218,
+        "duration": 2.202
+    },
+    {
+        "text": "will they stick together\nand live happily ever after,",
+        "start": 54.52,
+        "duration": 2.803
+    },
+    {
+        "text": "or will they\ntragically part ways",
+        "start": 57.423,
+        "duration": 2.002
+    },
+    {
+        "text": "after their brief encounter?",
+        "start": 59.525,
+        "duration": 3.637
+    },
+    {
+        "text": "Spoiler alert, it's\nnot a happy ending.",
+        "start": 63.262,
+        "duration": 2.302
+    },
+    {
+        "text": "So what you will know by\nthe end of this lesson",
+        "start": 65.664,
+        "duration": 1.869
+    },
+    {
+        "text": "is that the correct tool\nto use when",
+        "start": 67.633,
+        "duration": 2.303
+    },
+    {
+        "text": "you're solving problems\nabout collisions",
+        "start": 70.036,
+        "duration": 2.436
+    },
+    {
+        "text": "is conservation of momentum.",
+        "start": 72.572,
+        "duration": 2.202
+    },
+    {
+        "text": "And lucky for you, we just did\nthat in the previous lesson.",
+        "start": 74.874,
+        "duration": 2.903
+    },
+    {
+        "text": "So that's the big\nidea for today.",
+        "start": 77.877,
+        "duration": 1.868
+    },
+    {
+        "text": "Plus we're going to talk\nabout the types of collisions,",
+        "start": 79.845,
+        "duration": 2.537
+    },
+    {
+        "text": "like the sticky ones, like a\npie sticking to your face--",
+        "start": 82.482,
+        "duration": 3.103
+    },
+    {
+        "text": "[SQUISHY SOUND]",
+        "start": 85.685,
+        "duration": 0.867
+    },
+    {
+        "text": "--or the bouncy ones--\n[SPRINGY SOUND]",
+        "start": 86.652,
+        "duration": 1.101
+    },
+    {
+        "text": "--like a tennis ball\nhitting a racket.",
+        "start": 87.853,
+        "duration": 1.536
+    },
+    {
+        "text": "And we're also going\nto figure out which",
+        "start": 89.489,
+        "duration": 1.701
+    },
+    {
+        "text": "collisions are which type.",
+        "start": 91.29,
+        "duration": 1.468
+    },
+    {
+        "text": "So let's do a little quiz,\nsticky or bouncy,",
+        "start": 92.859,
+        "duration": 2.602
+    },
+    {
+        "text": "or, in physics terms,\ninelastic or elastic?",
+        "start": 95.562,
+        "duration": 3.503
+    },
+    {
+        "text": "I always have trouble\nremembering which is which.",
+        "start": 99.165,
+        "duration": 1.935
+    },
+    {
+        "text": "So if you think of elastic\nas like a rubber band,",
+        "start": 101.2,
+        "duration": 2.37
+    },
+    {
+        "text": "and rubber balls bounce.",
+        "start": 103.67,
+        "duration": 0.901
+    },
+    {
+        "text": "So elastic collisions\nare the ones",
+        "start": 104.671,
+        "duration": 1.668
+    },
+    {
+        "text": "where things\nbounce off each other.",
+        "start": 106.439,
+        "duration": 2.136
+    },
+    {
+        "text": "And it doesn't always\nhappen with rubbery things--",
+        "start": 108.675,
+        "duration": 2.035
+    },
+    {
+        "text": "just putting that out there.",
+        "start": 110.81,
+        "duration": 1.167
+    },
+    {
+        "text": "Inelastic are the collisions\nwhere they stick together.",
+        "start": 112.077,
+        "duration": 2.536
+    },
+    {
+        "text": "And we'll get\ninto more useful detail",
+        "start": 114.713,
+        "duration": 1.569
+    },
+    {
+        "text": "about what qualifies them\nas elastic or inelastic.",
+        "start": 116.382,
+        "duration": 2.169
+    },
+    {
+        "text": "But first, the fun quiz.",
+        "start": 118.651,
+        "duration": 1.668
+    },
+    {
+        "text": "Asteroid hitting Earth,\ninelastic or elastic?",
+        "start": 120.419,
+        "duration": 3.337
+    },
+    {
+        "text": "That's inelastic because\nthey stick together.",
+        "start": 123.856,
+        "duration": 2.503
+    },
+    {
+        "text": "The asteroid ends up\nembedded in the Earth.",
+        "start": 126.459,
+        "duration": 2.435
+    },
+    {
+        "text": "Like a person jumping\ninto a pool of Jell-O,",
+        "start": 128.995,
+        "duration": 3.203
+    },
+    {
+        "text": "a spitball hitting the\nkid in front of you?",
+        "start": 132.298,
+        "duration": 2.335
+    },
+    {
+        "text": "Correct, inelastic.",
+        "start": 134.733,
+        "duration": 1.869
+    },
+    {
+        "text": "What about pool balls\nsmacking into each other?",
+        "start": 136.703,
+        "duration": 2.802
+    },
+    {
+        "text": "That would be elastic.",
+        "start": 139.605,
+        "duration": 1.201
+    },
+    {
+        "text": "The balls bounce off each other.",
+        "start": 140.906,
+        "duration": 1.235
+    },
+    {
+        "text": "And even though they're not\nrubbery, that's elastic.",
+        "start": 142.241,
+        "duration": 3.57
+    },
+    {
+        "text": "What about a small water\nballoon hitting you in the face?",
+        "start": 145.911,
+        "duration": 2.87
+    },
+    {
+        "text": "That's a trick question\nbecause it depends.",
+        "start": 148.882,
+        "duration": 2.502
+    },
+    {
+        "text": "The balloon could stay intact,\nin which case it'll bounce off,",
+        "start": 151.484,
+        "duration": 2.969
+    },
+    {
+        "text": "and that's elastic.",
+        "start": 154.553,
+        "duration": 1.034
+    },
+    {
+        "text": "Or it could break\nand soak your face,",
+        "start": 155.687,
+        "duration": 1.87
+    },
+    {
+        "text": "and that would be inelastic.",
+        "start": 157.657,
+        "duration": 1.634
+    },
+    {
+        "text": "How about the Newton's cradle?",
+        "start": 159.391,
+        "duration": 1.736
+    },
+    {
+        "text": "Elastic. Good job.",
+        "start": 161.227,
+        "duration": 1.535
+    },
+    {
+        "text": "Bumper cars gliding? Elastic.",
+        "start": 162.862,
+        "duration": 2.436
+    },
+    {
+        "text": "Real cars crashing\ninto each other?",
+        "start": 165.398,
+        "duration": 1.802
+    },
+    {
+        "text": "Most likely inelastic.",
+        "start": 167.3,
+        "duration": 1.501
+    },
+    {
+        "text": "And here are some can go\nguess on your own--",
+        "start": 168.901,
+        "duration": 1.769
+    },
+    {
+        "text": "subatomic particles colliding,\nblack holes colliding,",
+        "start": 170.77,
+        "duration": 3.536
+    },
+    {
+        "text": "dropping a ball onto oobleck.",
+        "start": 174.406,
+        "duration": 2.336
+    },
+    {
+        "text": "I like that one.",
+        "start": 176.842,
+        "duration": 1.169
+    },
+    {
+        "text": "Anyways, collisions are huge\nin physics, metaphorically.",
+        "start": 178.111,
+        "duration": 3.736
+    },
+    {
+        "text": "And the big idea of the\nday is that, as always,",
+        "start": 181.947,
+        "duration": 2.103
+    },
+    {
+        "text": "during a collision\nbetween objects,",
+        "start": 184.15,
+        "duration": 2.102
+    },
+    {
+        "text": "conservation of momentum holds.",
+        "start": 186.352,
+        "duration": 1.902
+    },
+    {
+        "text": "The total momentum of the system\nbefore and after the collision",
+        "start": 188.354,
+        "duration": 3.203
+    },
+    {
+        "text": "is the same.",
+        "start": 191.657,
+        "duration": 1.068
+    },
+    {
+        "text": "And that's going\nto be our main tool",
+        "start": 192.825,
+        "duration": 1.668
+    },
+    {
+        "text": "today when looking at\ntypes of collisions.",
+        "start": 194.593,
+        "duration": 2.469
+    },
+    {
+        "text": "So let's look at inelastic\ncollisions first.",
+        "start": 197.163,
+        "duration": 2.202
+    },
+    {
+        "text": "Two objects collide, and they\nlock together and move as one.",
+        "start": 199.465,
+        "duration": 3.57
+    },
+    {
+        "text": "The classic example that's\ngoing to help us wrap our brains",
+        "start": 203.135,
+        "duration": 2.37
+    },
+    {
+        "text": "around them is trains,",
+        "start": 205.605,
+        "duration": 1.668
+    },
+    {
+        "text": "like those little toy\ntrains with the magnets.",
+        "start": 207.373,
+        "duration": 2.136
+    },
+    {
+        "text": "Imagine two train cars\nrolling on a track",
+        "start": 209.609,
+        "duration": 1.801
+    },
+    {
+        "text": "and then hitting and linking up.",
+        "start": 211.51,
+        "duration": 1.902
+    },
+    {
+        "text": "It's classic\nbecause it's simple.",
+        "start": 213.512,
+        "duration": 1.836
+    },
+    {
+        "text": "So let's model it.",
+        "start": 215.448,
+        "duration": 2.802
+    },
+    {
+        "text": "Give me a good arc.",
+        "start": 218.35,
+        "duration": 1.668
+    },
+    {
+        "text": "Hee!",
+        "start": 220.118,
+        "duration": 1.269
+    },
+    {
+        "text": "So, two train cars on a track.",
+        "start": 221.487,
+        "duration": 2.069
+    },
+    {
+        "text": "[DIANNA HUMMING]",
+        "start": 223.656,
+        "duration": 2.269
+    },
+    {
+        "text": "We'll say that their\nmasses are m1 and m2.",
+        "start": 227.426,
+        "duration": 3.871
+    },
+    {
+        "text": "One of them is still,\nso v2 equals zero.",
+        "start": 231.397,
+        "duration": 3.237
+    },
+    {
+        "text": "And the other one is\nmoving with a velocity v1.",
+        "start": 234.734,
+        "duration": 2.902
+    },
+    {
+        "text": "So then they collide,\nand they stick together.",
+        "start": 237.736,
+        "duration": 3.237
+    },
+    {
+        "text": "Wow!",
+        "start": 241.073,
+        "duration": 1.469
+    },
+    {
+        "text": "So they collide, and\nthey stick together,",
+        "start": 242.642,
+        "duration": 1.601
+    },
+    {
+        "text": "and they begin\nmoving as one object",
+        "start": 244.343,
+        "duration": 1.568
+    },
+    {
+        "text": "with a new mass and m1\nplus m2, and a final velocity",
+        "start": 246.011,
+        "duration": 4.238
+    },
+    {
+        "text": "vf for v final.",
+        "start": 250.349,
+        "duration": 1.769
+    },
+    {
+        "text": "Here's the question that you can\nsolve in a problem like this.",
+        "start": 252.218,
+        "duration": 3.203
+    },
+    {
+        "text": "Given the initial masses, m1 and\nm2, and the initial speed, v1,",
+        "start": 255.521,
+        "duration": 4.404
+    },
+    {
+        "text": "what will the final\nvelocity, vf, be?",
+        "start": 260.025,
+        "duration": 2.736
+    },
+    {
+        "text": "Like we said, our key idea\nis conservation of momentum.",
+        "start": 262.861,
+        "duration": 3.07
+    },
+    {
+        "text": "If we add up the total\nmomentum of the two cars",
+        "start": 266.031,
+        "duration": 2.804
+    },
+    {
+        "text": "before the collision,\nthat's going to be",
+        "start": 268.935,
+        "duration": 1.767
+    },
+    {
+        "text": "the total momentum\nof the coupled cars",
+        "start": 270.802,
+        "duration": 2.236
+    },
+    {
+        "text": "after the collision.",
+        "start": 273.138,
+        "duration": 1.202
+    },
+    {
+        "text": "Because one of the cars is\nat rest to start out with,",
+        "start": 274.44,
+        "duration": 2.535
+    },
+    {
+        "text": "this problem is pretty simple\nbecause all the momentum",
+        "start": 277.075,
+        "duration": 2.47
+    },
+    {
+        "text": "before the collision is\nin the moving car, m1.",
+        "start": 279.645,
+        "duration": 3.037
+    },
+    {
+        "text": "Momentum is mass times\nvelocity, so it's m1 times v1.",
+        "start": 282.782,
+        "duration": 5.204
+    },
+    {
+        "text": "And the momentum of\nthis, p equals 0.",
+        "start": 288.086,
+        "duration": 2.938
+    },
+    {
+        "text": "And after the\ncollision, that momentum",
+        "start": 291.124,
+        "duration": 1.934
+    },
+    {
+        "text": "will be in the coupled\ncars moving together.",
+        "start": 293.159,
+        "duration": 2.335
+    },
+    {
+        "text": "So p final equals the total mass\ntimes the final velocity,",
+        "start": 295.594,
+        "duration": 3.938
+    },
+    {
+        "text": "so m1 plus m2 times v final.",
+        "start": 299.632,
+        "duration": 4.738
+    },
+    {
+        "text": "So now let's give\nthe cars some masses.",
+        "start": 304.47,
+        "duration": 1.535
+    },
+    {
+        "text": "Say we give them the\nsame mass at 2 kilograms,",
+        "start": 306.105,
+        "duration": 4.171
+    },
+    {
+        "text": "and we give the\nfirst car a speed",
+        "start": 310.376,
+        "duration": 1.401
+    },
+    {
+        "text": "of, say, 12 meters per second.",
+        "start": 311.877,
+        "duration": 2.67
+    },
+    {
+        "text": "Then we work it out to get\na total initial momentum",
+        "start": 314.647,
+        "duration": 2.603
+    },
+    {
+        "text": "of 2 kilograms times\n12 meters per second",
+        "start": 317.35,
+        "duration": 3.97
+    },
+    {
+        "text": "equals 24 kilogram-meters\nper second.",
+        "start": 321.42,
+        "duration": 5.205
+    },
+    {
+        "text": "And that equals\nour final momentum,",
+        "start": 326.725,
+        "duration": 2.169
+    },
+    {
+        "text": "which is m1 plus m2, so that's\n4 kilograms, times v final.",
+        "start": 328.994,
+        "duration": 5.206
+    },
+    {
+        "text": "And in order to get 24, v final\nhas to be 6 meters per second.",
+        "start": 334.3,
+        "duration": 4.938
+    },
+    {
+        "text": "So my v final equals\n6 meters per second.",
+        "start": 339.338,
+        "duration": 3.437
+    },
+    {
+        "text": "So 6 meters per\nsecond, we ended up",
+        "start": 342.875,
+        "duration": 1.535
+    },
+    {
+        "text": "with half of the initial\nvelocity, which makes sense",
+        "start": 344.51,
+        "duration": 2.402
+    },
+    {
+        "text": "because we said\nthe two cars have equal masses.",
+        "start": 347.013,
+        "duration": 3.302
+    },
+    {
+        "text": "And we only had one of the\nmasses moving at the start.",
+        "start": 350.415,
+        "duration": 2.137
+    },
+    {
+        "text": "So now you've got\ndouble the moving mass",
+        "start": 352.652,
+        "duration": 2.135
+    },
+    {
+        "text": "at the end, so\nthey must be going",
+        "start": 354.887,
+        "duration": 1.802
+    },
+    {
+        "text": "half of the original speed\nif momentum is conserved.",
+        "start": 356.789,
+        "duration": 2.969
+    },
+    {
+        "text": "And that's our basic inelastic\ncollision problem solved",
+        "start": 359.858,
+        "duration": 2.703
+    },
+    {
+        "text": "using conservation of momentum.",
+        "start": 362.661,
+        "duration": 1.768
+    },
+    {
+        "text": "But what about\nconservation of energy?",
+        "start": 364.529,
+        "duration": 2.203
+    },
+    {
+        "text": "Is kinetic energy conserved\nin our system here?",
+        "start": 366.832,
+        "duration": 2.736
+    },
+    {
+        "text": "Surprisingly no.",
+        "start": 369.668,
+        "duration": 1.768
+    },
+    {
+        "text": "Let's see why by\nworking out the math.",
+        "start": 371.536,
+        "duration": 2.17
+    },
+    {
+        "text": "Let's calculate the energies\nbefore and after the collision.",
+        "start": 373.806,
+        "duration": 2.969
+    },
+    {
+        "text": "Kinetic energy initial is just\ngoing to be 1/2 mv squared.",
+        "start": 376.875,
+        "duration": 5.607
+    },
+    {
+        "text": "Before the collision, we only\nhave the first car moving.",
+        "start": 382.582,
+        "duration": 2.902
+    },
+    {
+        "text": "So the total energy\nis 1/2 m1 times v1 squared,",
+        "start": 385.584,
+        "duration": 4.071
+    },
+    {
+        "text": "which is going\nto be 1/2 times 2 kilograms",
+        "start": 389.755,
+        "duration": 4.672
+    },
+    {
+        "text": "times 12 meters per second\nsquared, which works out",
+        "start": 394.527,
+        "duration": 4.037
+    },
+    {
+        "text": "to 144 joules.",
+        "start": 398.664,
+        "duration": 2.536
+    },
+    {
+        "text": "After the collision, there's--",
+        "start": 401.3,
+        "duration": 2.002
+    },
+    {
+        "text": "so our final kinetic energy\nequals 1/2 mv squared.",
+        "start": 403.402,
+        "duration": 4.938
+    },
+    {
+        "text": "But my final mass is\nboth masses together,",
+        "start": 408.44,
+        "duration": 2.77
+    },
+    {
+        "text": "which equals 4 kilograms.",
+        "start": 411.31,
+        "duration": 2.002
+    },
+    {
+        "text": "So this equals 1/2\ntimes 4 kilograms,",
+        "start": 413.412,
+        "duration": 3.837
+    },
+    {
+        "text": "and then my final\nvelocity squared,",
+        "start": 417.349,
+        "duration": 2.136
+    },
+    {
+        "text": "so my 6 meters per\nsecond squared.",
+        "start": 419.585,
+        "duration": 3.036
+    },
+    {
+        "text": "And that equals 72 joules.",
+        "start": 422.721,
+        "duration": 3.47
+    },
+    {
+        "text": "So we lost kinetic energy.",
+        "start": 426.291,
+        "duration": 2.436
+    },
+    {
+        "text": "So what happened to the energy?",
+        "start": 428.827,
+        "duration": 2.036
+    },
+    {
+        "text": "Well, in an inelastic collision,",
+        "start": 430.963,
+        "duration": 2.002
+    },
+    {
+        "text": "when the colliding\nobjects stick,",
+        "start": 433.065,
+        "duration": 2.102
+    },
+    {
+        "text": "some of the original\nkinetic energy is lost.",
+        "start": 435.268,
+        "duration": 3.369
+    },
+    {
+        "text": "Some of it escapes as heat.",
+        "start": 438.737,
+        "duration": 1.602
+    },
+    {
+        "text": "Oftentimes it goes into the\nobject's mechanical deformation,",
+        "start": 440.439,
+        "duration": 3.604
+    },
+    {
+        "text": "like if you throw an egg\nagainst the wall and it deforms,",
+        "start": 444.143,
+        "duration": 2.836
+    },
+    {
+        "text": "or a ping-pong ball\nhits some fruit",
+        "start": 447.079,
+        "duration": 2.403
+    },
+    {
+        "text": "and it deforms.",
+        "start": 449.582,
+        "duration": 0.933
+    },
+    {
+        "text": "The energy isn't\nlost to the universe,",
+        "start": 450.615,
+        "duration": 2.47
+    },
+    {
+        "text": "but it is no longer in the\nsystem of the two things",
+        "start": 453.185,
+        "duration": 2.169
+    },
+    {
+        "text": "that collided, so we\ncan't easily measure it.",
+        "start": 455.454,
+        "duration": 2.236
+    },
+    {
+        "text": "So when you have a collision\nwhere things stick together",
+        "start": 457.79,
+        "duration": 2.201
+    },
+    {
+        "text": "afterwards, you can't use\nconservation of energy",
+        "start": 460.092,
+        "duration": 2.703
+    },
+    {
+        "text": "to solve those problems.",
+        "start": 462.895,
+        "duration": 1.835
+    },
+    {
+        "text": "And that's where the word\n\"inelastic\" comes from.",
+        "start": 464.83,
+        "duration": 2.302
+    },
+    {
+        "text": "The objects that collide deform,\nand they don't elastically",
+        "start": 467.232,
+        "duration": 3.037
+    },
+    {
+        "text": "return to their original state.",
+        "start": 470.369,
+        "duration": 1.668
+    },
+    {
+        "text": "So done with inelastic.",
+        "start": 472.137,
+        "duration": 2.203
+    },
+    {
+        "text": "Let's move on to talking\nabout elastic collisions.",
+        "start": 474.44,
+        "duration": 2.502
+    },
+    {
+        "text": "A lot of times, colliding\nobjects do keep their shape,",
+        "start": 477.042,
+        "duration": 2.87
+    },
+    {
+        "text": "or at least they return to it\nafter a little bit of jiggling.",
+        "start": 480.012,
+        "duration": 2.503
+    },
+    {
+        "text": "In these cases, very\nlittle to no energy",
+        "start": 482.615,
+        "duration": 2.669
+    },
+    {
+        "text": "is lost in the collision.",
+        "start": 485.384,
+        "duration": 1.134
+    },
+    {
+        "text": "We call these\n\"elastic collisions.\"",
+        "start": 486.618,
+        "duration": 2.87
+    },
+    {
+        "text": "Although most\ncollisions, even the ones",
+        "start": 489.588,
+        "duration": 2.536
+    },
+    {
+        "text": "that you talk about in your\nphysics class as being elastic,",
+        "start": 492.224,
+        "duration": 3.236
+    },
+    {
+        "text": "are not perfectly elastic.",
+        "start": 495.56,
+        "duration": 1.836
+    },
+    {
+        "text": "Think about that water\nballoon that didn't break.",
+        "start": 497.496,
+        "duration": 2.436
+    },
+    {
+        "text": "You can see it wobbling.",
+        "start": 500.032,
+        "duration": 1.368
+    },
+    {
+        "text": "So some energy was lost\nto deformation or to heat.",
+        "start": 501.5,
+        "duration": 3.771
+    },
+    {
+        "text": "And there is almost always some\nenergy loss in a collision.",
+        "start": 505.371,
+        "duration": 2.869
+    },
+    {
+        "text": "But we said very\nlittle energy is lost.",
+        "start": 508.34,
+        "duration": 2.803
+    },
+    {
+        "text": "So it's often a good\nenough approximation",
+        "start": 511.243,
+        "duration": 1.735
+    },
+    {
+        "text": "for most problems.",
+        "start": 513.078,
+        "duration": 1.435
+    },
+    {
+        "text": "Cool, moving on.",
+        "start": 514.613,
+        "duration": 1.201
+    },
+    {
+        "text": "So, the classic example\nfor elastic problems",
+        "start": 515.915,
+        "duration": 2.335
+    },
+    {
+        "text": "is pool, like the game.",
+        "start": 518.35,
+        "duration": 3.104
+    },
+    {
+        "text": "I think pool is actually\na controversial game",
+        "start": 521.554,
+        "duration": 2.502
+    },
+    {
+        "text": "because it's the source of\na historical inaccuracy",
+        "start": 524.156,
+        "duration": 2.602
+    },
+    {
+        "text": "in one of Shakespeare's plays.",
+        "start": 526.858,
+        "duration": 1.569
+    },
+    {
+        "text": "In \"Antony and Cleopatra,\"\nCleopatra exclaims,",
+        "start": 528.527,
+        "duration": 2.57
+    },
+    {
+        "text": "\"Let's to billiards.\"",
+        "start": 531.197,
+        "duration": 1.434
+    },
+    {
+        "text": "But billiards wasn't a thing\nin the real Cleopatra's time,",
+        "start": 532.731,
+        "duration": 3.27
+    },
+    {
+        "text": "although it was popular\nin Shakespeare's time.",
+        "start": 536.101,
+        "duration": 2.135
+    },
+    {
+        "text": "For shame, William.",
+        "start": 538.336,
+        "duration": 1.269
+    },
+    {
+        "text": "Anyways, we're playing pool.",
+        "start": 539.705,
+        "duration": 2.636
+    },
+    {
+        "text": "I have two pool balls, and I\nshoot one towards the other.",
+        "start": 542.441,
+        "duration": 3.069
+    },
+    {
+        "text": "And they collide, and I want\nto know how fast",
+        "start": 545.611,
+        "duration": 1.869
+    },
+    {
+        "text": "they're going\nafter the collision.",
+        "start": 547.58,
+        "duration": 1.968
+    },
+    {
+        "text": "Let's say that the two\nballs have a mass m.",
+        "start": 549.648,
+        "duration": 2.402
+    },
+    {
+        "text": "And the first one has\nsome initial velocity v1.",
+        "start": 552.151,
+        "duration": 3.403
+    },
+    {
+        "text": "Let's say it's 2 meters\nper second.",
+        "start": 555.654,
+        "duration": 1.836
+    },
+    {
+        "text": "And the second one is\nsitting still at the start.",
+        "start": 557.59,
+        "duration": 2.969
+    },
+    {
+        "text": "So v2 equals zero.",
+        "start": 560.659,
+        "duration": 2.67
+    },
+    {
+        "text": "And then the ball hit.",
+        "start": 563.429,
+        "duration": 2.869
+    },
+    {
+        "text": "And the first ball will\nhave some final velocity",
+        "start": 566.399,
+        "duration": 3.069
+    },
+    {
+        "text": "that we don't know yet.",
+        "start": 569.568,
+        "duration": 1.201
+    },
+    {
+        "text": "And we're going to call it v1\nprime to not get it confused",
+        "start": 570.869,
+        "duration": 2.47
+    },
+    {
+        "text": "with the original v1.",
+        "start": 573.439,
+        "duration": 1.267
+    },
+    {
+        "text": "And then the second ball\nalso has",
+        "start": 574.807,
+        "duration": 1.434
+    },
+    {
+        "text": "some mystery final velocity,\nv2 prime.",
+        "start": 576.341,
+        "duration": 2.536
+    },
+    {
+        "text": "We want to know what the\nfinal velocities are.",
+        "start": 578.977,
+        "duration": 3.004
+    },
+    {
+        "text": "Let's use conservation\nof momentum first.",
+        "start": 582.081,
+        "duration": 2.135
+    },
+    {
+        "text": "The momentum of\nboth balls before",
+        "start": 584.316,
+        "duration": 2.369
+    },
+    {
+        "text": "equals the momentum\nof both balls after.",
+        "start": 586.785,
+        "duration": 1.802
+    },
+    {
+        "text": "So we write that\nmathematically like this.",
+        "start": 588.687,
+        "duration": 2.436
+    },
+    {
+        "text": "My initial momentum\nequals my final momentum.",
+        "start": 591.223,
+        "duration": 5.672
+    },
+    {
+        "text": "And the velocity here is\nzero, so my initial momentum",
+        "start": 596.995,
+        "duration": 2.236
+    },
+    {
+        "text": "is just this one, m1v1.",
+        "start": 599.331,
+        "duration": 2.702
+    },
+    {
+        "text": "m1 is just m, so it's mv1.",
+        "start": 602.133,
+        "duration": 2.236
+    },
+    {
+        "text": "My final momentum is\nthe sum of these two,",
+        "start": 604.469,
+        "duration": 2.236
+    },
+    {
+        "text": "so it's going to be\nm1, which is just m,",
+        "start": 606.805,
+        "duration": 2.269
+    },
+    {
+        "text": "so mv1 prime plus m2,\nwhich is just m, v2 prime.",
+        "start": 609.174,
+        "duration": 6.207
+    },
+    {
+        "text": "And then since the masses are\nthe same across the board,",
+        "start": 615.481,
+        "duration": 2.269
+    },
+    {
+        "text": "then every mass term of the\nentire equation is the same.",
+        "start": 617.85,
+        "duration": 3.136
+    },
+    {
+        "text": "So we can even divide out\nall of the terms by m.",
+        "start": 621.087,
+        "duration": 3.269
+    },
+    {
+        "text": "And we get a super simplified\nversion of this, which is v1",
+        "start": 624.456,
+        "duration": 4.271
+    },
+    {
+        "text": "equals v1 prime plus v2 prime.",
+        "start": 628.827,
+        "duration": 3.738
+    },
+    {
+        "text": "This only works out this\nway because the two balls",
+        "start": 632.665,
+        "duration": 2.402
+    },
+    {
+        "text": "have identical masses.",
+        "start": 635.167,
+        "duration": 1.268
+    },
+    {
+        "text": "Otherwise, we wouldn't be\nable to cancel out the masses.",
+        "start": 636.535,
+        "duration": 2.269
+    },
+    {
+        "text": "Now, we know v1, but we don't\nknow v1 prime or v2 prime.",
+        "start": 638.904,
+        "duration": 4.038
+    },
+    {
+        "text": "So we have two unknowns\nbut only one equation.",
+        "start": 643.042,
+        "duration": 2.803
+    },
+    {
+        "text": "But the elastic collision\nconserves energy,",
+        "start": 645.945,
+        "duration": 2.468
+    },
+    {
+        "text": "so we can use that idea to get\nmore insight mathematically.",
+        "start": 648.513,
+        "duration": 3.47
+    },
+    {
+        "text": "Before the collision,\nthe second ball",
+        "start": 652.083,
+        "duration": 1.469
+    },
+    {
+        "text": "didn't have any kinetic energy\nbecause it was sitting still.",
+        "start": 653.652,
+        "duration": 2.87
+    },
+    {
+        "text": "So the total initial\nkinetic energy",
+        "start": 656.622,
+        "duration": 1.735
+    },
+    {
+        "text": "is going to be the kinetic\nenergy of the first ball.",
+        "start": 658.457,
+        "duration": 2.235
+    },
+    {
+        "text": "So that initial is 1/2\nmv squared of this ball.",
+        "start": 660.792,
+        "duration": 3.271
+    },
+    {
+        "text": "So it's going to 1/2--",
+        "start": 664.163,
+        "duration": 1.301
+    },
+    {
+        "text": "the mass of m1 is m--",
+        "start": 665.564,
+        "duration": 1.468
+    },
+    {
+        "text": "1/2 mv1 squared.",
+        "start": 667.132,
+        "duration": 2.402
+    },
+    {
+        "text": "And conservation\nof energy,",
+        "start": 669.634,
+        "duration": 1.235
+    },
+    {
+        "text": "that's going to equal my\nfinal energy, which is going",
+        "start": 670.969,
+        "duration": 2.703
+    },
+    {
+        "text": "to be the sum of the\nkinetic energy of these two,",
+        "start": 673.772,
+        "duration": 2.536
+    },
+    {
+        "text": "which is going to\nbe 1/2 mv1 prime squared",
+        "start": 676.408,
+        "duration": 2.503
+    },
+    {
+        "text": "plus 1/2 m2, which\nis m, v2 prime squared.",
+        "start": 679.011,
+        "duration": 4.504
+    },
+    {
+        "text": "So here's our conservation\nof energy equation.",
+        "start": 683.615,
+        "duration": 2.703
+    },
+    {
+        "text": "And because we have\na \"1/2\" and an \"m\"",
+        "start": 686.418,
+        "duration": 2.469
+    },
+    {
+        "text": "and every single term, we\ncan just divide it out",
+        "start": 688.988,
+        "duration": 1.834
+    },
+    {
+        "text": "to simplify and get V1 squared\nequals V1 prime squared",
+        "start": 690.922,
+        "duration": 4.973
+    },
+    {
+        "text": "plus v2 prime squared.",
+        "start": 695.995,
+        "duration": 2.202
+    },
+    {
+        "text": "Again, this works\nbecause the pool balls",
+        "start": 698.297,
+        "duration": 2.135
+    },
+    {
+        "text": "have identical masses.",
+        "start": 700.532,
+        "duration": 2.336
+    },
+    {
+        "text": "Now we have two equations, the\nconservation of momentum one",
+        "start": 702.968,
+        "duration": 3.537
+    },
+    {
+        "text": "and the conservation\nof energy one,",
+        "start": 706.605,
+        "duration": 1.569
+    },
+    {
+        "text": "and two unknowns, the final\nvelocities of the two balls.",
+        "start": 708.274,
+        "duration": 3.803
+    },
+    {
+        "text": "Great.",
+        "start": 712.177,
+        "duration": 0.934
+    },
+    {
+        "text": "But, ugh, this is\nsome nasty algebra.",
+        "start": 713.211,
+        "duration": 2.67
+    },
+    {
+        "text": "And you can imagine that if\nthe masses were not equal,",
+        "start": 715.981,
+        "duration": 2.469
+    },
+    {
+        "text": "it would be even nastier.",
+        "start": 718.55,
+        "duration": 1.702
+    },
+    {
+        "text": "So I'm going to\nshow you a trick.",
+        "start": 720.352,
+        "duration": 1.802
+    },
+    {
+        "text": "I'm not going to do the\nderivation here,",
+        "start": 722.254,
+        "duration": 1.468
+    },
+    {
+        "text": "even though it\nwould have been awesome.",
+        "start": 723.822,
+        "duration": 1.635
+    },
+    {
+        "text": "You can look it up in\nalmost any physics book",
+        "start": 725.557,
+        "duration": 2.169
+    },
+    {
+        "text": "or somewhere online.",
+        "start": 727.826,
+        "duration": 1.935
+    },
+    {
+        "text": "And you should because it's\na pretty cool derivation.",
+        "start": 729.861,
+        "duration": 2.102
+    },
+    {
+        "text": "But I'm just going to tell you.",
+        "start": 732.063,
+        "duration": 1.202
+    },
+    {
+        "text": "When any two objects\ncollide elastically",
+        "start": 733.365,
+        "duration": 1.635
+    },
+    {
+        "text": "with each other and the\nenergy is conserved,",
+        "start": 735.101,
+        "duration": 2.401
+    },
+    {
+        "text": "then the difference in the two\nvelocities before the collision",
+        "start": 737.602,
+        "duration": 3.137
+    },
+    {
+        "text": "equals the negative of\nthe difference between",
+        "start": 740.84,
+        "duration": 2.168
+    },
+    {
+        "text": "the two velocities\nafter the equation.",
+        "start": 743.108,
+        "duration": 1.768
+    },
+    {
+        "text": "This is so cool.",
+        "start": 744.976,
+        "duration": 1.169
+    },
+    {
+        "text": "Mathematically, that\nis v1 minus v2",
+        "start": 746.245,
+        "duration": 3.97
+    },
+    {
+        "text": "equals negative v1\nprime minus v2 prime.",
+        "start": 750.315,
+        "duration": 5.239
+    },
+    {
+        "text": "The difference of the\ninitial velocities",
+        "start": 755.654,
+        "duration": 1.568
+    },
+    {
+        "text": "is the negative\nof the difference",
+        "start": 757.322,
+        "duration": 1.268
+    },
+    {
+        "text": "between the final velocities.",
+        "start": 758.69,
+        "duration": 1.502
+    },
+    {
+        "text": "And you should\nlook up this derivation.",
+        "start": 760.292,
+        "duration": 2.836
+    },
+    {
+        "text": "Whatever the masses are, the\nrelative speeds of the objects",
+        "start": 763.228,
+        "duration": 3.571
+    },
+    {
+        "text": "will always be the same,\nexcept for the minus sign.",
+        "start": 766.899,
+        "duration": 2.302
+    },
+    {
+        "text": "This is really nice because\nit gives us a much simpler",
+        "start": 769.301,
+        "duration": 3.003
+    },
+    {
+        "text": "equation to solve.",
+        "start": 772.404,
+        "duration": 1.134
+    },
+    {
+        "text": "It's basically\nconservation of energy,",
+        "start": 773.638,
+        "duration": 1.669
+    },
+    {
+        "text": "but it's packaged\nin a much nicer box.",
+        "start": 775.407,
+        "duration": 2.503
+    },
+    {
+        "text": "So this new simple equation\nalong with our conservation",
+        "start": 778.01,
+        "duration": 2.402
+    },
+    {
+        "text": "of momentum equation lets us\nsolve for the two unknowns.",
+        "start": 780.512,
+        "duration": 3.404
+    },
+    {
+        "text": "So we're going to plug\nv1 prime plus v2 prime.",
+        "start": 784.016,
+        "duration": 3.103
+    },
+    {
+        "text": "And that equals minus--",
+        "start": 787.219,
+        "duration": 1.335
+    },
+    {
+        "text": "remember, we say minus v2, but\nv2, as you recall, was 0.",
+        "start": 788.654,
+        "duration": 4.737
+    },
+    {
+        "text": "So I'm just going to go\nahead and get rid of it.",
+        "start": 793.492,
+        "duration": 1.902
+    },
+    {
+        "text": "And then we say\nthat that's equal.",
+        "start": 795.494,
+        "duration": 1.201
+    },
+    {
+        "text": "I'm going to distribute\nthis negative",
+        "start": 796.795,
+        "duration": 1.302
+    },
+    {
+        "text": "to negative v1 prime\nplus v2 prime.",
+        "start": 798.197,
+        "duration": 3.537
+    },
+    {
+        "text": "Now bring this over,\nthis negative,",
+        "start": 801.834,
+        "duration": 2.202
+    },
+    {
+        "text": "and I get 2v1 prime equals--",
+        "start": 804.136,
+        "duration": 3.103
+    },
+    {
+        "text": "and then I'm going to subtract\non both sides for the v2 prime.",
+        "start": 807.339,
+        "duration": 2.736
+    },
+    {
+        "text": "I'm going to subtract this\nfrom over here, and I get a 0.",
+        "start": 810.175,
+        "duration": 3.771
+    },
+    {
+        "text": "So it turns out\nv1 prime equals 0.",
+        "start": 814.046,
+        "duration": 3.536
+    },
+    {
+        "text": "And then I can plug that\nback in, and I get v1--",
+        "start": 817.683,
+        "duration": 3.87
+    },
+    {
+        "text": "v2 again is 0--equals minus--",
+        "start": 821.653,
+        "duration": 2.57
+    },
+    {
+        "text": "v1 is 0.",
+        "start": 824.323,
+        "duration": 0.934
+    },
+    {
+        "text": "So I get 0 minus v2\nprime equals v2 prime.",
+        "start": 825.357,
+        "duration": 4.905
+    },
+    {
+        "text": "So that means v2 prime is\nequal to my initial vi,",
+        "start": 830.362,
+        "duration": 4.304
+    },
+    {
+        "text": "which was 2 meters per second.",
+        "start": 834.766,
+        "duration": 3.07
+    },
+    {
+        "text": "So v2 prime equals\n2 meters per second.",
+        "start": 837.936,
+        "duration": 4.004
+    },
+    {
+        "text": "Well, this is cool because\nthe math in our answer",
+        "start": 842.04,
+        "duration": 2.603
+    },
+    {
+        "text": "is telling us\nsomething interesting.",
+        "start": 844.743,
+        "duration": 1.534
+    },
+    {
+        "text": "Ball one completely stops,\nand ball two",
+        "start": 846.377,
+        "duration": 3.137
+    },
+    {
+        "text": "moves on with the velocity\nthat ball one had.",
+        "start": 849.615,
+        "duration": 3.503
+    },
+    {
+        "text": "In this case, ball one\nended up transferring",
+        "start": 853.219,
+        "duration": 1.834
+    },
+    {
+        "text": "all of its momentum and\nkinetic energy to ball two.",
+        "start": 855.153,
+        "duration": 3.304
+    },
+    {
+        "text": "The balls switched velocities.",
+        "start": 858.557,
+        "duration": 2.936
+    },
+    {
+        "text": "And look at this equation.",
+        "start": 861.593,
+        "duration": 1.268
+    },
+    {
+        "text": "If we stop and think\nabout it for a minute,",
+        "start": 862.961,
+        "duration": 1.702
+    },
+    {
+        "text": "it turns out that this situation\nof having one ball stopped",
+        "start": 864.763,
+        "duration": 3.37
+    },
+    {
+        "text": "and the other one moving\nis just a special case",
+        "start": 868.233,
+        "duration": 2.602
+    },
+    {
+        "text": "of this general case\nof two balls",
+        "start": 870.935,
+        "duration": 2.637
+    },
+    {
+        "text": "with the same mass colliding.",
+        "start": 873.672,
+        "duration": 1.635
+    },
+    {
+        "text": "It turns out no matter what\nthe initial speeds",
+        "start": 875.407,
+        "duration": 1.902
+    },
+    {
+        "text": "of the two balls,\nif they have the same mass,",
+        "start": 877.409,
+        "duration": 2.102
+    },
+    {
+        "text": "they just swap speeds.",
+        "start": 879.611,
+        "duration": 2.503
+    },
+    {
+        "text": "That's very cool.",
+        "start": 882.214,
+        "duration": 1.768
+    },
+    {
+        "text": "And that is Newton's cradle.",
+        "start": 884.082,
+        "duration": 2.67
+    },
+    {
+        "text": "[DIANNA GRUNTS]",
+        "start": 886.852,
+        "duration": 1.201
+    },
+    {
+        "text": "When you drop the ball on one\nend, it hits the second ball",
+        "start": 888.153,
+        "duration": 4.404
+    },
+    {
+        "text": "and transfers its\nmomentum and energy to it.",
+        "start": 892.658,
+        "duration": 2.335
+    },
+    {
+        "text": "It has the same mass.",
+        "start": 895.093,
+        "duration": 1.202
+    },
+    {
+        "text": "And then the second\nball transfers",
+        "start": 896.395,
+        "duration": 1.301
+    },
+    {
+        "text": "that momentum and energy\nto the third ball,",
+        "start": 897.796,
+        "duration": 2.536
+    },
+    {
+        "text": "and so on until the\nlast ball shoots up",
+        "start": 900.432,
+        "duration": 2.869
+    },
+    {
+        "text": "with the same momentum and\nenergy that was transferred",
+        "start": 903.401,
+        "duration": 2.403
+    },
+    {
+        "text": "to it from all the other balls.",
+        "start": 905.904,
+        "duration": 1.702
+    },
+    {
+        "text": "So it should actually reach\nabout the same height.",
+        "start": 907.706,
+        "duration": 2.235
+    },
+    {
+        "text": "So it should come to about here.",
+        "start": 910.041,
+        "duration": 2.236
+    },
+    {
+        "text": "Yep, so cool.",
+        "start": 912.377,
+        "duration": 2.068
+    },
+    {
+        "text": "So these two collisions,\nthe inelastic toy trains",
+        "start": 914.546,
+        "duration": 2.97
+    },
+    {
+        "text": "and the elastic pool balls,\nhad very different outcomes.",
+        "start": 917.616,
+        "duration": 3.236
+    },
+    {
+        "text": "But remember this\nimportant thing",
+        "start": 920.952,
+        "duration": 1.302
+    },
+    {
+        "text": "that they have in common, the\ntotal momentum in the system",
+        "start": 922.354,
+        "duration": 3.27
+    },
+    {
+        "text": "before and after the\ncollision is the same.",
+        "start": 925.724,
+        "duration": 2.336
+    },
+    {
+        "text": "And actually, there's\nanother deeper way",
+        "start": 928.16,
+        "duration": 2.135
+    },
+    {
+        "text": "of thinking about this.",
+        "start": 930.395,
+        "duration": 1.068
+    },
+    {
+        "text": "It's a little tricky\nto wrap your brain around,",
+        "start": 931.563,
+        "duration": 1.802
+    },
+    {
+        "text": "but so great.",
+        "start": 933.465,
+        "duration": 1.601
+    },
+    {
+        "text": "What if instead of thinking\nabout the sum of momenta,",
+        "start": 935.166,
+        "duration": 2.437
+    },
+    {
+        "text": "we were thinking about the\ncenter of mass of the system?",
+        "start": 937.703,
+        "duration": 3.136
+    },
+    {
+        "text": "The center of mass of\nthe system actually",
+        "start": 940.939,
+        "duration": 2.069
+    },
+    {
+        "text": "keeps moving with the same\nvelocity before and after.",
+        "start": 943.108,
+        "duration": 4.671
+    },
+    {
+        "text": "Here's a fun party trick\nto visualize",
+        "start": 947.879,
+        "duration": 1.802
+    },
+    {
+        "text": "what the center of mass is.",
+        "start": 949.781,
+        "duration": 1.969
+    },
+    {
+        "text": "Hold out a yardstick or a\npipe with each end of it",
+        "start": 951.85,
+        "duration": 4.004
+    },
+    {
+        "text": "balanced on one of the\nfingers of each hand.",
+        "start": 955.955,
+        "duration": 3.035
+    },
+    {
+        "text": "And then move the fingers\ninward along the pipe.",
+        "start": 959.091,
+        "duration": 4.571
+    },
+    {
+        "text": "I promise you no\nmatter how you do this,",
+        "start": 963.762,
+        "duration": 2.669
+    },
+    {
+        "text": "you cannot do it without your\nfingers meeting in the middle,",
+        "start": 966.531,
+        "duration": 5.372
+    },
+    {
+        "text": "always, no matter how you try.",
+        "start": 972.003,
+        "duration": 2.437
+    },
+    {
+        "text": "[LIGHT BLOWING SOUND]",
+        "start": 974.54,
+        "duration": 1.801
+    },
+    {
+        "text": "[DIANNA GIGGLES]",
+        "start": 976.441,
+        "duration": 1.668
+    },
+    {
+        "text": "It's easier with a yardstick\nbecause--",
+        "start": 978.209,
+        "duration": 1.636
+    },
+    {
+        "text": "maybe I'll try it like this.",
+        "start": 979.945,
+        "duration": 3.17
+    },
+    {
+        "text": "Always in the middle.",
+        "start": 983.215,
+        "duration": 1.534
+    },
+    {
+        "text": "Try it for yourself.",
+        "start": 984.849,
+        "duration": 0.902
+    },
+    {
+        "text": "You are ending up in\nthe center of mass.",
+        "start": 985.851,
+        "duration": 2.468
+    },
+    {
+        "text": "Why is the middle of the\npipe its center of mass?",
+        "start": 988.42,
+        "duration": 2.902
+    },
+    {
+        "text": "That's because the\npipe is homogeneous.",
+        "start": 991.422,
+        "duration": 2.503
+    },
+    {
+        "text": "It's got the same\nmaterial, and it's",
+        "start": 994.025,
+        "duration": 1.502
+    },
+    {
+        "text": "the same mass on either\nside of the center of mass.",
+        "start": 995.627,
+        "duration": 2.67
+    },
+    {
+        "text": "If you did this with an object\nthat's heavier on one side",
+        "start": 998.397,
+        "duration": 2.668
+    },
+    {
+        "text": "than the other, like\na broom, then you",
+        "start": 1001.165,
+        "duration": 1.803
+    },
+    {
+        "text": "would still find the center\nof mass by doing this,",
+        "start": 1003.068,
+        "duration": 2.335
+    },
+    {
+        "text": "but it won't be in the middle.",
+        "start": 1005.503,
+        "duration": 1.302
+    },
+    {
+        "text": "All systems have\na center of mass,",
+        "start": 1006.905,
+        "duration": 2.469
+    },
+    {
+        "text": "even when not all of\nthe parts are connected.",
+        "start": 1009.474,
+        "duration": 2.369
+    },
+    {
+        "text": "So with the balls\nand the trains,",
+        "start": 1011.943,
+        "duration": 1.869
+    },
+    {
+        "text": "the system has the\ncenter of mass too.",
+        "start": 1013.912,
+        "duration": 2.002
+    },
+    {
+        "text": "Because the balls and train\ncars have the same mass",
+        "start": 1016.014,
+        "duration": 2.837
+    },
+    {
+        "text": "in our examples, then\nthe center of mass",
+        "start": 1018.951,
+        "duration": 1.701
+    },
+    {
+        "text": "is just exactly in the\nmiddle of the two objects.",
+        "start": 1020.752,
+        "duration": 2.737
+    },
+    {
+        "text": "Let's take the\ntrain, for example.",
+        "start": 1023.589,
+        "duration": 2.001
+    },
+    {
+        "text": "I'm just going to draw it.",
+        "start": 1025.69,
+        "duration": 3.003
+    },
+    {
+        "text": "We had two trains.",
+        "start": 1028.793,
+        "duration": 2.203
+    },
+    {
+        "text": "Train one was moving at\n12 meters per second,",
+        "start": 1031.096,
+        "duration": 3.303
+    },
+    {
+        "text": "and the second car\nwas stopped over here.",
+        "start": 1034.499,
+        "duration": 3.471
+    },
+    {
+        "text": "So the center of mass\nwas halfway in between.",
+        "start": 1038.07,
+        "duration": 2.135
+    },
+    {
+        "text": "And that was moving to the right\nat half the speed of this one",
+        "start": 1040.305,
+        "duration": 4.671
+    },
+    {
+        "text": "at 6 meters per second.",
+        "start": 1045.076,
+        "duration": 1.836
+    },
+    {
+        "text": "So the halfway distance\nis going to shrink",
+        "start": 1047.012,
+        "duration": 2.302
+    },
+    {
+        "text": "at half of the speed\nof the full distance.",
+        "start": 1049.414,
+        "duration": 2.269
+    },
+    {
+        "text": "But after a collision, when\nthe two trains stuck together,",
+        "start": 1051.783,
+        "duration": 3.904
+    },
+    {
+        "text": "you may recall they were\ngoing 6 meters per second,",
+        "start": 1055.787,
+        "duration": 3.37
+    },
+    {
+        "text": "which is the same as the\ncenter of mass of our system.",
+        "start": 1059.257,
+        "duration": 2.57
+    },
+    {
+        "text": "So during this whole\nprocess, the center",
+        "start": 1061.927,
+        "duration": 2.035
+    },
+    {
+        "text": "of mass of the system kept\nmoving at the same speed",
+        "start": 1064.062,
+        "duration": 2.703
+    },
+    {
+        "text": "and never stopped.",
+        "start": 1066.865,
+        "duration": 1.501
+    },
+    {
+        "text": "And that's always true.",
+        "start": 1068.466,
+        "duration": 1.269
+    },
+    {
+        "text": "And that is just a\nfundamentally awesome idea.",
+        "start": 1069.835,
+        "duration": 2.669
+    },
+    {
+        "text": "And this is inertia.",
+        "start": 1072.604,
+        "duration": 1.869
+    },
+    {
+        "text": "As long as there are no\nexternal forces on a system",
+        "start": 1074.573,
+        "duration": 2.235
+    },
+    {
+        "text": "to change the velocity\nof its center of mass,",
+        "start": 1076.909,
+        "duration": 2.335
+    },
+    {
+        "text": "then the system will keep\ngoing with the same motion,",
+        "start": 1079.344,
+        "duration": 2.502
+    },
+    {
+        "text": "even if the pieces within\nit are moving around.",
+        "start": 1081.947,
+        "duration": 2.736
+    },
+    {
+        "text": "And you can see examples\nof that all over the place.",
+        "start": 1084.783,
+        "duration": 2.869
+    },
+    {
+        "text": "Like Romeo and Juliet--\nsay they're having",
+        "start": 1087.752,
+        "duration": 1.535
+    },
+    {
+        "text": "a romantic\nstargazing evening",
+        "start": 1089.388,
+        "duration": 1.834
+    },
+    {
+        "text": "and they suddenly see\na bright dot in the sky,",
+        "start": 1091.322,
+        "duration": 2.002
+    },
+    {
+        "text": "which turns out to be\nan exploding supernova",
+        "start": 1093.425,
+        "duration": 2.603
+    },
+    {
+        "text": "many, many light-years\naway from Verona,",
+        "start": 1096.128,
+        "duration": 3.069
+    },
+    {
+        "text": "that supernova is shooting\nits innards every which way,",
+        "start": 1099.297,
+        "duration": 3.637
+    },
+    {
+        "text": "which is like a reverse\ncollision playing backwards.",
+        "start": 1103.034,
+        "duration": 3.304
+    },
+    {
+        "text": "But despite the\nfact that the pieces",
+        "start": 1106.438,
+        "duration": 1.868
+    },
+    {
+        "text": "are moving in\ndifferent directions,",
+        "start": 1108.406,
+        "duration": 1.835
+    },
+    {
+        "text": "the center of mass of all\nthe pieces of the star",
+        "start": 1110.342,
+        "duration": 2.235
+    },
+    {
+        "text": "are going to keep\ngoing along whatever",
+        "start": 1112.677,
+        "duration": 1.602
+    },
+    {
+        "text": "its original trajectory was,\nmaybe orbiting another star,",
+        "start": 1114.379,
+        "duration": 4.671
+    },
+    {
+        "text": "probably orbiting the center\nof mass of its galaxy as well.",
+        "start": 1119.15,
+        "duration": 3.437
+    },
+    {
+        "text": "And so far, the examples\nwe've worked through here",
+        "start": 1122.687,
+        "duration": 2.003
+    },
+    {
+        "text": "were objects with identical\nmasses--the two train cars,",
+        "start": 1124.79,
+        "duration": 2.736
+    },
+    {
+        "text": "the pool balls.",
+        "start": 1127.626,
+        "duration": 1.368
+    },
+    {
+        "text": "But what happens if we have\nballs with different masses?",
+        "start": 1129.094,
+        "duration": 2.969
+    },
+    {
+        "text": "Here we have multiple collisions\ngoing on from multiple balls.",
+        "start": 1132.163,
+        "duration": 3.704
+    },
+    {
+        "text": "But let's reduce it to\na simpler situation with",
+        "start": 1135.967,
+        "duration": 1.602
+    },
+    {
+        "text": "just two objects, like a\nbasketball and a tennis ball.",
+        "start": 1137.669,
+        "duration": 3.27
+    },
+    {
+        "text": "Both fall together\nat the same rate",
+        "start": 1141.039,
+        "duration": 1.701
+    },
+    {
+        "text": "because all objects near\nEarth accelerate the same rate",
+        "start": 1142.84,
+        "duration": 2.203
+    },
+    {
+        "text": "if we ignore air resistance.",
+        "start": 1145.143,
+        "duration": 1.135
+    },
+    {
+        "text": "And the basketball\nhits the ground first",
+        "start": 1146.378,
+        "duration": 1.568
+    },
+    {
+        "text": "because it's below\nthe tennis ball.",
+        "start": 1148.046,
+        "duration": 1.735
+    },
+    {
+        "text": "So it hits the ground and\ncompresses and rebounds",
+        "start": 1149.881,
+        "duration": 2.336
+    },
+    {
+        "text": "before the tennis ball does.",
+        "start": 1152.317,
+        "duration": 1.168
+    },
+    {
+        "text": "And it actually starts\ntraveling up into a tennis ball.",
+        "start": 1153.585,
+        "duration": 2.536
+    },
+    {
+        "text": "And that's a collision.",
+        "start": 1156.221,
+        "duration": 1.168
+    },
+    {
+        "text": "The basketball will be traveling\nupward into the tennis ball",
+        "start": 1157.489,
+        "duration": 2.436
+    },
+    {
+        "text": "at about the same\nspeed as it did",
+        "start": 1160.025,
+        "duration": 1.601
+    },
+    {
+        "text": "when it hit the ground,\nwhich is also",
+        "start": 1161.726,
+        "duration": 2.503
+    },
+    {
+        "text": "about the same as the\nspeed of the tennis ball",
+        "start": 1164.329,
+        "duration": 2.102
+    },
+    {
+        "text": "still traveling downward at\nthe moment of the collision.",
+        "start": 1166.531,
+        "duration": 2.435
+    },
+    {
+        "text": "So at that point, this becomes a\nconservation of energy problem.",
+        "start": 1169.066,
+        "duration": 3.438
+    },
+    {
+        "text": "There's a huge mass difference\nbetween the two balls.",
+        "start": 1172.604,
+        "duration": 2.236
+    },
+    {
+        "text": "And when you work\nit out, you get",
+        "start": 1174.94,
+        "duration": 1.268
+    },
+    {
+        "text": "that the velocity of the\nbasketball is almost unchanged,",
+        "start": 1176.308,
+        "duration": 3.603
+    },
+    {
+        "text": "but the tennis ball has\na much higher velocity",
+        "start": 1180.011,
+        "duration": 2.603
+    },
+    {
+        "text": "after the collision.",
+        "start": 1182.714,
+        "duration": 0.901
+    },
+    {
+        "text": "And it goes really high.",
+        "start": 1183.715,
+        "duration": 1.268
+    },
+    {
+        "text": "And check this out.",
+        "start": 1185.083,
+        "duration": 0.901
+    },
+    {
+        "text": "I actually filled a\nbasketball with silicone",
+        "start": 1186.084,
+        "duration": 2.036
+    },
+    {
+        "text": "so it weighs a lot more\nthan a regular basketball.",
+        "start": 1188.22,
+        "duration": 2.936
+    },
+    {
+        "text": "And it trips people out\nbecause you pick it up,",
+        "start": 1191.256,
+        "duration": 2.336
+    },
+    {
+        "text": "you think it weighs the\nsame as regular basketball,",
+        "start": 1193.692,
+        "duration": 2.202
+    },
+    {
+        "text": "and it's very confusing.",
+        "start": 1195.994,
+        "duration": 1.468
+    },
+    {
+        "text": "If I drop that basketball\nwith the tennis ball,",
+        "start": 1197.563,
+        "duration": 2.669
+    },
+    {
+        "text": "look how high it goes.",
+        "start": 1200.332,
+        "duration": 1.435
+    },
+    {
+        "text": "Because with a super large\nmass, the silicone basketball",
+        "start": 1201.867,
+        "duration": 3.203
+    },
+    {
+        "text": "has a ton of kinetic energy\nto pass onto the tennis ball.",
+        "start": 1205.17,
+        "duration": 2.636
+    },
+    {
+        "text": "You can think of this whole\nthing like two people jumping",
+        "start": 1207.906,
+        "duration": 2.202
+    },
+    {
+        "text": "on a trampoline.",
+        "start": 1210.208,
+        "duration": 0.901
+    },
+    {
+        "text": "If Romeo starts\njumping before Juliet,",
+        "start": 1211.209,
+        "duration": 2.069
+    },
+    {
+        "text": "he is stretching the trampoline\nalready, preparing it for her.",
+        "start": 1213.378,
+        "duration": 2.969
+    },
+    {
+        "text": "So that stores some energy\nin the stretched trampoline",
+        "start": 1216.447,
+        "duration": 2.736
+    },
+    {
+        "text": "in the form of spring\nenergy, potential energy.",
+        "start": 1219.284,
+        "duration": 2.736
+    },
+    {
+        "text": "And then when Juliet jumps\nand lands on the trampoline,",
+        "start": 1222.12,
+        "duration": 2.202
+    },
+    {
+        "text": "she'll be rocketed up by that\nextra stored potential energy.",
+        "start": 1224.422,
+        "duration": 2.836
+    },
+    {
+        "text": "So with the basketball\nand the tennis ball,",
+        "start": 1227.358,
+        "duration": 1.703
+    },
+    {
+        "text": "you're storing some energy by\ncompressing the basketball",
+        "start": 1229.161,
+        "duration": 2.235
+    },
+    {
+        "text": "when it hits the ground.",
+        "start": 1231.496,
+        "duration": 0.934
+    },
+    {
+        "text": "And that gets transferred\ninto the tennis ball",
+        "start": 1232.53,
+        "duration": 2.27
+    },
+    {
+        "text": "and shoots it\nhigher into the air.",
+        "start": 1234.9,
+        "duration": 2.302
+    },
+    {
+        "text": "And that's today's\nlesson on collisions.",
+        "start": 1237.302,
+        "duration": 2.836
+    },
+    {
+        "text": "Oh, almost got it.",
+        "start": 1246.177,
+        "duration": 1.768
+    },
+    {
+        "text": "When they ask what you\nlearned today on YouTube,",
+        "start": 1248.046,
+        "duration": 1.635
+    },
+    {
+        "text": "here are\nyour two key takeaways.",
+        "start": 1249.781,
+        "duration": 2.269
+    },
+    {
+        "text": "Number one,\nconservation of momentum",
+        "start": 1252.15,
+        "duration": 2.036
+    },
+    {
+        "text": "is the tool for all\ntypes of collisions.",
+        "start": 1254.286,
+        "duration": 2.902
+    },
+    {
+        "text": "And number two,\nconservation of energy",
+        "start": 1257.288,
+        "duration": 2.036
+    },
+    {
+        "text": "only holds for\nelastic collisions,",
+        "start": 1259.424,
+        "duration": 2.269
+    },
+    {
+        "text": "but use the negative relative\nvelocity trick when you can.",
+        "start": 1261.793,
+        "duration": 3.069
+    },
+    {
+        "text": "And because practicing\nsolving problems",
+        "start": 1264.962,
+        "duration": 2.17
+    },
+    {
+        "text": "is a key part of\nlearning physics,",
+        "start": 1267.232,
+        "duration": 2.302
+    },
+    {
+        "text": "here are all the problems\nfrom today's lesson.",
+        "start": 1269.634,
+        "duration": 2.536
+    },
+    {
+        "text": "Go work them again.",
+        "start": 1272.27,
+        "duration": 1.468
+    },
+    {
+        "text": "And if you dare, search more\nconservation of momentum",
+        "start": 1273.838,
+        "duration": 3.737
+    },
+    {
+        "text": "and collision problems online.",
+        "start": 1277.675,
+        "duration": 1.902
+    },
+    {
+        "text": "Before we wrap it up,\nI just want to point out",
+        "start": 1279.677,
+        "duration": 1.468
+    },
+    {
+        "text": "one more important thing\nabout collisions.",
+        "start": 1281.245,
+        "duration": 2.336
+    },
+    {
+        "text": "So far, the examples\nwe've gone through",
+        "start": 1283.681,
+        "duration": 1.735
+    },
+    {
+        "text": "have been for motion and\nconservation of momentum",
+        "start": 1285.517,
+        "duration": 2.502
+    },
+    {
+        "text": "in one dimension\nalong one direction.",
+        "start": 1288.119,
+        "duration": 2.903
+    },
+    {
+        "text": "But all these ideas\ncarry over",
+        "start": 1291.122,
+        "duration": 1.168
+    },
+    {
+        "text": "into two and three\ndimensions as well.",
+        "start": 1292.39,
+        "duration": 3.57
+    },
+    {
+        "text": "For example, when\nyou're playing pool,",
+        "start": 1296.06,
+        "duration": 1.969
+    },
+    {
+        "text": "you typically don't\njust play in one line.",
+        "start": 1298.129,
+        "duration": 2.236
+    },
+    {
+        "text": "You might hit a\ncouple pool balls,",
+        "start": 1300.465,
+        "duration": 1.335
+    },
+    {
+        "text": "so they speed away\non diagonal paths",
+        "start": 1301.9,
+        "duration": 2.002
+    },
+    {
+        "text": "relative to your initial hit.",
+        "start": 1304.002,
+        "duration": 1.935
+    },
+    {
+        "text": "And sometimes, they\neven jump off the table",
+        "start": 1306.038,
+        "duration": 2.569
+    },
+    {
+        "text": "if you play like I do.",
+        "start": 1308.707,
+        "duration": 1.101
+    },
+    {
+        "text": "But if you look at the balls'\nvelocities",
+        "start": 1309.908,
+        "duration": 1.168
+    },
+    {
+        "text": "in the x and the y direction\nseparately, you will see",
+        "start": 1311.176,
+        "duration": 2.802
+    },
+    {
+        "text": "that both are conserved in\nthose respective directions,",
+        "start": 1314.078,
+        "duration": 3.938
+    },
+    {
+        "text": "and in the z direction.",
+        "start": 1318.116,
+        "duration": 1.501
+    },
+    {
+        "text": "This is partly how\nphysicists get information",
+        "start": 1319.718,
+        "duration": 1.968
+    },
+    {
+        "text": "about particles,\nand their masses,",
+        "start": 1321.786,
+        "duration": 2.403
+    },
+    {
+        "text": "and their other properties\nin particle accelerators",
+        "start": 1324.289,
+        "duration": 2.468
+    },
+    {
+        "text": "like the Large Hadron\nCollider at CERN",
+        "start": 1326.857,
+        "duration": 2.303
+    },
+    {
+        "text": "in Switzerland, the place\nwhere they discovered",
+        "start": 1329.261,
+        "duration": 2.268
+    },
+    {
+        "text": "the Higgs boson.",
+        "start": 1331.629,
+        "duration": 1.703
+    },
+    {
+        "text": "If a particle with no\nmomentum in the y direction,",
+        "start": 1333.432,
+        "duration": 2.935
+    },
+    {
+        "text": "just not moving up and\ndown, splits into pieces",
+        "start": 1336.467,
+        "duration": 2.837
+    },
+    {
+        "text": "and goes flying off\nwith some y momentum,",
+        "start": 1339.404,
+        "duration": 2.736
+    },
+    {
+        "text": "we know that the total y\nmomentum of all the pieces",
+        "start": 1342.24,
+        "duration": 2.769
+    },
+    {
+        "text": "has to sum to zero.",
+        "start": 1345.109,
+        "duration": 1.635
+    },
+    {
+        "text": "So physicists can\nuse that information",
+        "start": 1346.844,
+        "duration": 2.003
+    },
+    {
+        "text": "about the masses of the\nparticles that flew apart.",
+        "start": 1348.947,
+        "duration": 2.535
+    },
+    {
+        "text": "Such a simple idea\ngives amazing",
+        "start": 1351.582,
+        "duration": 2.77
+    },
+    {
+        "text": "and really deep insight",
+        "start": 1354.452,
+        "duration": 1.502
+    },
+    {
+        "text": "into the basic particles\nof our universe.",
+        "start": 1356.054,
+        "duration": 3.103
+    },
+    {
+        "text": "And that's how we figure\nout masses of things",
+        "start": 1359.257,
+        "duration": 2.102
+    },
+    {
+        "text": "like the pieces of a proton.",
+        "start": 1361.459,
+        "duration": 2.869
+    },
+    {
+        "text": "That's insane.",
+        "start": 1364.428,
+        "duration": 1.836
+    },
+    {
+        "text": "And if you go on and take a\nclass in particle physics,",
+        "start": 1366.364,
+        "duration": 2.169
+    },
+    {
+        "text": "you can learn more about\nthis awesome type of physics",
+        "start": 1368.633,
+        "duration": 2.436
+    },
+    {
+        "text": "and maybe do research\nin it one day.",
+        "start": 1371.169,
+        "duration": 1.768
+    },
+    {
+        "text": "I do hope you continue\non with physics.",
+        "start": 1373.037,
+        "duration": 2.269
+    },
+    {
+        "text": "And now a message for\nyou from a special guest.",
+        "start": 1375.407,
+        "duration": 2.936
+    },
+    {
+        "text": "Hello.",
+        "start": 1378.443,
+        "duration": 1.234
+    },
+    {
+        "text": "My name is Katie Mack, and I'm\nan astrophysicist specializing",
+        "start": 1379.777,
+        "duration": 3.237
+    },
+    {
+        "text": "in cosmology, which is the study\nof the universe from beginning",
+        "start": 1383.114,
+        "duration": 3.17
+    },
+    {
+        "text": "to end, how it evolves,\nhow it changes over time,",
+        "start": 1386.384,
+        "duration": 2.703
+    },
+    {
+        "text": "all of the weird stuff in it.",
+        "start": 1389.187,
+        "duration": 2.703
+    },
+    {
+        "text": "I am often asked how one\nbecomes an astrophysicist.",
+        "start": 1391.99,
+        "duration": 3.637
+    },
+    {
+        "text": "And one of the things I say is\nto learn as much as you can.",
+        "start": 1395.727,
+        "duration": 3.837
+    },
+    {
+        "text": "Follow your curiosity.",
+        "start": 1399.664,
+        "duration": 1.735
+    },
+    {
+        "text": "And it's awesome that\nyou are doing that.",
+        "start": 1401.499,
+        "duration": 2.503
+    },
+    {
+        "text": "And you are going to have\nso much fun discovering",
+        "start": 1404.102,
+        "duration": 2.769
+    },
+    {
+        "text": "the mysteries of the universe.",
+        "start": 1406.971,
+        "duration": 1.268
+    },
+    {
+        "text": "And I can't wait to find out\nwhat you find out.",
+        "start": 1408.339,
+        "duration": 2.637
+    },
+    {
+        "text": "[MUSIC PLAYING]",
+        "start": 1411.076,
+        "duration": 3.236
+    }
+]

@@ -1,0 +1,482 @@
+[
+    {
+        "text": "Let's forget all the pieces on the",
+        "start": 0.03,
+        "duration": 1.86
+    },
+    {
+        "text": "chessboard except one; I've always wanted",
+        "start": 1.89,
+        "duration": 2.88
+    },
+    {
+        "text": "to do this - oh yeah.\nWe're going to focus on",
+        "start": 4.77,
+        "duration": 4.26
+    },
+    {
+        "text": "the knight. For those unfamiliar with the",
+        "start": 9.03,
+        "duration": 2.04
+    },
+    {
+        "text": "knight it moves in a weird way, it's like",
+        "start": 11.07,
+        "duration": 2.1
+    },
+    {
+        "text": "an L-shape: two squares by one or one by",
+        "start": 13.17,
+        "duration": 3.75
+    },
+    {
+        "text": "two. And it can do this in any direction",
+        "start": 16.92,
+        "duration": 2.15
+    },
+    {
+        "text": "meaning that a knight here for example",
+        "start": 19.07,
+        "duration": 2.65
+    },
+    {
+        "text": "can move to any of these squares. What I",
+        "start": 21.72,
+        "duration": 3.21
+    },
+    {
+        "text": "want to discuss today is a puzzle called",
+        "start": 24.93,
+        "duration": 2.009
+    },
+    {
+        "text": "the Knight's Tour, and it involves moving",
+        "start": 26.939,
+        "duration": 2.401
+    },
+    {
+        "text": "a knight around a chessboard using that",
+        "start": 29.34,
+        "duration": 2.46
+    },
+    {
+        "text": "move but landing on each square once and",
+        "start": 31.8,
+        "duration": 3.509
+    },
+    {
+        "text": "only once. You start here, there-",
+        "start": 35.309,
+        "duration": 5.361
+    },
+    {
+        "text": "Now this is a puzzle that's intrigued",
+        "start": 42.14,
+        "duration": 1.509
+    },
+    {
+        "text": "mathematicians for centuries, including",
+        "start": 43.649,
+        "duration": 1.98
+    },
+    {
+        "text": "none other than Leonard Euler. You could",
+        "start": 45.629,
+        "duration": 2.281
+    },
+    {
+        "text": "try it yourself or if you can't be",
+        "start": 47.91,
+        "duration": 2.129
+    },
+    {
+        "text": "bothered keep watching and you'll see",
+        "start": 50.039,
+        "duration": 2.79
+    },
+    {
+        "text": "here the knight's tour is indeed possible;",
+        "start": 52.829,
+        "duration": 3.031
+    },
+    {
+        "text": "and this one is one of the first ones",
+        "start": 55.86,
+        "duration": 1.92
+    },
+    {
+        "text": "discovered. Here it is again but this",
+        "start": 57.78,
+        "duration": 4.11
+    },
+    {
+        "text": "time I've numbered the moves.",
+        "start": 61.89,
+        "duration": 1.89
+    },
+    {
+        "text": "You can follow it all the way through.",
+        "start": 71.94,
+        "duration": 2.5
+    },
+    {
+        "text": "Now you can probably see, the final",
+        "start": 76.39,
+        "duration": 1.8
+    },
+    {
+        "text": "square here, number 64, can be joined with",
+        "start": 78.19,
+        "duration": 3.54
+    },
+    {
+        "text": "the opening square number 1 using one",
+        "start": 81.73,
+        "duration": 2.79
+    },
+    {
+        "text": "of the knight's L-shaped moves. This means",
+        "start": 84.52,
+        "duration": 2.97
+    },
+    {
+        "text": "this is sort of a loopable configuration",
+        "start": 87.49,
+        "duration": 2.43
+    },
+    {
+        "text": "and we call this a closed tour.",
+        "start": 89.92,
+        "duration": 3.26
+    },
+    {
+        "text": "Now here's another knight's tour:",
+        "start": 93.18,
+        "duration": 2.6
+    },
+    {
+        "text": "As we watch you'll see\nwhen we get to the end",
+        "start": 108.55,
+        "duration": 2.61
+    },
+    {
+        "text": "the endpoint here does not connect with",
+        "start": 111.16,
+        "duration": 3.24
+    },
+    {
+        "text": "the start, and this is called an open",
+        "start": 114.4,
+        "duration": 1.89
+    },
+    {
+        "text": "tour. Now closed or open you'd think this",
+        "start": 116.29,
+        "duration": 2.969
+    },
+    {
+        "text": "would be something that's pretty rare",
+        "start": 119.259,
+        "duration": 1.261
+    },
+    {
+        "text": "right? Well it's not. That closed tour,",
+        "start": 120.52,
+        "duration": 3.45
+    },
+    {
+        "text": "the first one we showed, you there are 26",
+        "start": 123.97,
+        "duration": 2.91
+    },
+    {
+        "text": "trillion different ways to do it on an 8",
+        "start": 126.88,
+        "duration": 3.42
+    },
+    {
+        "text": "by 8 chessboard. The open tour, how many",
+        "start": 130.3,
+        "duration": 3.6
+    },
+    {
+        "text": "of them do you think there are? Well it",
+        "start": 133.9,
+        "duration": 2.309
+    },
+    {
+        "text": "turns out we don't know how many there",
+        "start": 136.209,
+        "duration": 1.801
+    },
+    {
+        "text": "are, and that's pretty mind-boggling. But",
+        "start": 138.01,
+        "duration": 2.789
+    },
+    {
+        "text": "if you think that's cool,",
+        "start": 140.799,
+        "duration": 0.961
+    },
+    {
+        "text": "here's something even cooler. Now you",
+        "start": 141.76,
+        "duration": 2.52
+    },
+    {
+        "text": "might recall from previous Numberphile",
+        "start": 144.28,
+        "duration": 1.769
+    },
+    {
+        "text": "videos something called a Magic Square;",
+        "start": 146.049,
+        "duration": 2.091
+    },
+    {
+        "text": "little boxes like this where each row",
+        "start": 148.14,
+        "duration": 3.159
+    },
+    {
+        "text": "column and diagonal add up to the same",
+        "start": 151.299,
+        "duration": 2.311
+    },
+    {
+        "text": "number. So can we perform a knight's tour",
+        "start": 153.61,
+        "duration": 3.24
+    },
+    {
+        "text": "where those move numbers create a Magic",
+        "start": 156.85,
+        "duration": 3.54
+    },
+    {
+        "text": "Square here on an 8 by 8 chessboard? Well,",
+        "start": 160.39,
+        "duration": 3.39
+    },
+    {
+        "text": "have a look at this one:",
+        "start": 163.78,
+        "duration": 1.92
+    },
+    {
+        "text": "Seems pretty normal. And here are the",
+        "start": 176.35,
+        "duration": 3.54
+    },
+    {
+        "text": "numbers and have a look: each column here",
+        "start": 179.89,
+        "duration": 2.61
+    },
+    {
+        "text": "adds up to 260, as does each of the rows.",
+        "start": 182.5,
+        "duration": 5.58
+    },
+    {
+        "text": "And as if that's not enough have a look",
+        "start": 188.08,
+        "duration": 2.04
+    },
+    {
+        "text": "at this: each of these quadrants, each of",
+        "start": 190.12,
+        "duration": 3.33
+    },
+    {
+        "text": "the rows and columns in each of those",
+        "start": 193.45,
+        "duration": 1.59
+    },
+    {
+        "text": "quadrants sums to 130, which is",
+        "start": 195.04,
+        "duration": 1.979
+    },
+    {
+        "text": "interesting. And as if that's not enough",
+        "start": 197.019,
+        "duration": 2.011
+    },
+    {
+        "text": "each of these 2x2 sections some to 130.",
+        "start": 199.03,
+        "duration": 4.47
+    },
+    {
+        "text": "But alas this is not a truly magical",
+        "start": 203.5,
+        "duration": 3.33
+    },
+    {
+        "text": "square, because the diagonals do not",
+        "start": 206.83,
+        "duration": 2.76
+    },
+    {
+        "text": "add up to the required 260. This",
+        "start": 209.59,
+        "duration": 3.39
+    },
+    {
+        "text": "square is what we call semi magical. So",
+        "start": 212.98,
+        "duration": 3.18
+    },
+    {
+        "text": "for a long time this was bit of a",
+        "start": 216.16,
+        "duration": 1.53
+    },
+    {
+        "text": "mystery, can you make a truly magical",
+        "start": 217.69,
+        "duration": 3.21
+    },
+    {
+        "text": "knight's tour where the diagonals will also",
+        "start": 220.9,
+        "duration": 3.78
+    },
+    {
+        "text": "give you the sums of the rows and the",
+        "start": 224.68,
+        "duration": 2.43
+    },
+    {
+        "text": "columns? And the answer is - no you can't.",
+        "start": 227.11,
+        "duration": 4.53
+    },
+    {
+        "text": "It actually took a lot of computing time",
+        "start": 231.64,
+        "duration": 2.61
+    },
+    {
+        "text": "but it's been done, they've actually",
+        "start": 234.25,
+        "duration": 1.56
+    },
+    {
+        "text": "crunched the numbers, done them all and",
+        "start": 235.81,
+        "duration": 2.7
+    },
+    {
+        "text": "found out there is no totally magical",
+        "start": 238.51,
+        "duration": 4.35
+    },
+    {
+        "text": "knight's tour that can be performed on an",
+        "start": 242.86,
+        "duration": 2.34
+    },
+    {
+        "text": "8x8 chess board. But they did find",
+        "start": 245.2,
+        "duration": 2.369
+    },
+    {
+        "text": "140 different semi-magical",
+        "start": 247.569,
+        "duration": 3.061
+    },
+    {
+        "text": "tours where the rows and the columns",
+        "start": 250.63,
+        "duration": 1.74
+    },
+    {
+        "text": "added up. There are some brilliant",
+        "start": 252.37,
+        "duration": 2.1
+    },
+    {
+        "text": "articles and research papers about the",
+        "start": 254.47,
+        "duration": 2.28
+    },
+    {
+        "text": "knight's tour, it's a really interesting",
+        "start": 256.75,
+        "duration": 1.41
+    },
+    {
+        "text": "and active area of research in",
+        "start": 258.16,
+        "duration": 2.009
+    },
+    {
+        "text": "mathematics and computer science - I'll",
+        "start": 260.169,
+        "duration": 1.801
+    },
+    {
+        "text": "put some links in the video description.",
+        "start": 261.97,
+        "duration": 2.44
+    },
+    {
+        "text": "Now while I start picking up these",
+        "start": 266.85,
+        "duration": 2.08
+    },
+    {
+        "text": "pieces I will tell you we're going to",
+        "start": 268.93,
+        "duration": 2.01
+    },
+    {
+        "text": "have some more videos about chess and",
+        "start": 270.94,
+        "duration": 2.31
+    },
+    {
+        "text": "the numbers and mathematics behind it",
+        "start": 273.25,
+        "duration": 1.47
+    },
+    {
+        "text": "coming very soon; so subscribe to",
+        "start": 274.72,
+        "duration": 2.04
+    },
+    {
+        "text": "Numberphile, that's the best way to keep",
+        "start": 276.76,
+        "duration": 1.62
+    },
+    {
+        "text": "track of it, or follow us on Facebook or",
+        "start": 278.38,
+        "duration": 2.22
+    },
+    {
+        "text": "Twitter where I also keep everyone up to",
+        "start": 280.6,
+        "duration": 2.01
+    },
+    {
+        "text": "date with what new videos are out but",
+        "start": 282.61,
+        "duration": 1.83
+    },
+    {
+        "text": "also other stuff that's going on behind",
+        "start": 284.44,
+        "duration": 1.35
+    },
+    {
+        "text": "the scenes.",
+        "start": 285.79,
+        "duration": 2.27
+    }
+]

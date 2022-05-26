@@ -1,0 +1,322 @@
+[
+    {
+        "text": "hey everyone this is a project that I",
+        "start": 0.14,
+        "duration": 4.33
+    },
+    {
+        "text": "use every once in a while this is an",
+        "start": 2.82,
+        "duration": 3.959
+    },
+    {
+        "text": "automatic cat feeder so let me show you",
+        "start": 4.47,
+        "duration": 5.72
+    },
+    {
+        "text": "how it works the feeder is built from a",
+        "start": 6.779,
+        "duration": 6.811
+    },
+    {
+        "text": "commercially made cereal dispenser this",
+        "start": 10.19,
+        "duration": 5.05
+    },
+    {
+        "text": "thing I bought it fries but it's kind of",
+        "start": 13.59,
+        "duration": 3.689
+    },
+    {
+        "text": "like a target you know kind of Walmart",
+        "start": 15.24,
+        "duration": 4.53
+    },
+    {
+        "text": "type item and it originally had just a",
+        "start": 17.279,
+        "duration": 4.801
+    },
+    {
+        "text": "handle that was attached where that",
+        "start": 19.77,
+        "duration": 4.05
+    },
+    {
+        "text": "motor is now and so by turning the",
+        "start": 22.08,
+        "duration": 4.26
+    },
+    {
+        "text": "handle some of the contents would be",
+        "start": 23.82,
+        "duration": 5.64
+    },
+    {
+        "text": "dispensed at the point where the cereal",
+        "start": 26.34,
+        "duration": 4.529
+    },
+    {
+        "text": "is actually dispensed there's kind of",
+        "start": 29.46,
+        "duration": 4.23
+    },
+    {
+        "text": "like a butterfly valve inside here and",
+        "start": 30.869,
+        "duration": 5.791
+    },
+    {
+        "text": "it's made of rubber and it has six",
+        "start": 33.69,
+        "duration": 5.91
+    },
+    {
+        "text": "blades instead of just two so that as",
+        "start": 36.66,
+        "duration": 4.59
+    },
+    {
+        "text": "you rotate it there's like a specific",
+        "start": 39.6,
+        "duration": 4.17
+    },
+    {
+        "text": "quantity that gets dispensed each time",
+        "start": 41.25,
+        "duration": 6.57
+    },
+    {
+        "text": "for each sixth of a revolution so",
+        "start": 43.77,
+        "duration": 5.67
+    },
+    {
+        "text": "originally I had this connected up with",
+        "start": 47.82,
+        "duration": 4.68
+    },
+    {
+        "text": "an old HP LaserJet motor and what I did",
+        "start": 49.44,
+        "duration": 5.79
+    },
+    {
+        "text": "is I had a darkroom timer and I just ran",
+        "start": 52.5,
+        "duration": 4.68
+    },
+    {
+        "text": "the motor for a specific amount of time",
+        "start": 55.23,
+        "duration": 5.66
+    },
+    {
+        "text": "for one sixth of a revolution to occur",
+        "start": 57.18,
+        "duration": 6.12
+    },
+    {
+        "text": "but that dead ended up not working out",
+        "start": 60.89,
+        "duration": 4.78
+    },
+    {
+        "text": "too well because the motor you know",
+        "start": 63.3,
+        "duration": 4.02
+    },
+    {
+        "text": "would vary speed a little bit and it",
+        "start": 65.67,
+        "duration": 3.6
+    },
+    {
+        "text": "would sometimes not dispense any food",
+        "start": 67.32,
+        "duration": 3.63
+    },
+    {
+        "text": "and other times it dispensed twice as",
+        "start": 69.27,
+        "duration": 4.41
+    },
+    {
+        "text": "much so what I did here is at a stepper",
+        "start": 70.95,
+        "duration": 5.43
+    },
+    {
+        "text": "motor and behind it there's a circuit",
+        "start": 73.68,
+        "duration": 5.49
+    },
+    {
+        "text": "board with an 80 mega eight which is",
+        "start": 76.38,
+        "duration": 4.8
+    },
+    {
+        "text": "pretty overkill for this project but I",
+        "start": 79.17,
+        "duration": 3.9
+    },
+    {
+        "text": "have a lot of them in my shop which is",
+        "start": 81.18,
+        "duration": 5.759
+    },
+    {
+        "text": "why I used it so you can zoom in there",
+        "start": 83.07,
+        "duration": 7.71
+    },
+    {
+        "text": "there it is and I used my my classic",
+        "start": 86.939,
+        "duration": 6.0
+    },
+    {
+        "text": "transistor circuit here just a bunch of",
+        "start": 90.78,
+        "duration": 4.909
+    },
+    {
+        "text": "p-n 22 22s just like in the other video",
+        "start": 92.939,
+        "duration": 6.031
+    },
+    {
+        "text": "and each time the power is turned on",
+        "start": 95.689,
+        "duration": 5.951
+    },
+    {
+        "text": "that 18 mega steps the motor through is",
+        "start": 98.97,
+        "duration": 6.149
+    },
+    {
+        "text": "enough steps so that 1/6 of a revolution",
+        "start": 101.64,
+        "duration": 6.509
+    },
+    {
+        "text": "will occur at the dispenser so this is",
+        "start": 105.119,
+        "duration": 5.581
+    },
+    {
+        "text": "just a gearbox that was originally part",
+        "start": 108.149,
+        "duration": 6.571
+    },
+    {
+        "text": "of the laser jet motor the power cord",
+        "start": 110.7,
+        "duration": 6.599
+    },
+    {
+        "text": "just has a standard you know wall wart",
+        "start": 114.72,
+        "duration": 4.71
+    },
+    {
+        "text": "transformer there and on the plug side",
+        "start": 117.299,
+        "duration": 5.581
+    },
+    {
+        "text": "there is one of these rotary mechanical",
+        "start": 119.43,
+        "duration": 6.39
+    },
+    {
+        "text": "timer devices so three times a day the",
+        "start": 122.88,
+        "duration": 5.73
+    },
+    {
+        "text": "timer is turned on power is applied to",
+        "start": 125.82,
+        "duration": 5.97
+    },
+    {
+        "text": "the 18 mega eighth and the theater will",
+        "start": 128.61,
+        "duration": 4.66
+    },
+    {
+        "text": "dispense",
+        "start": 131.79,
+        "duration": 3.94
+    },
+    {
+        "text": "set volume of food so let's let's give",
+        "start": 133.27,
+        "duration": 6.36
+    },
+    {
+        "text": "it a try I'm going to activate the timer",
+        "start": 135.73,
+        "duration": 5.34
+    },
+    {
+        "text": "manually just as if it had been",
+        "start": 139.63,
+        "duration": 3.63
+    },
+    {
+        "text": "triggered by one of the teeth coming",
+        "start": 141.07,
+        "duration": 5.06
+    },
+    {
+        "text": "around on the timer",
+        "start": 143.26,
+        "duration": 2.87
+    },
+    {
+        "text": "[Applause]",
+        "start": 146.64,
+        "duration": 3.31
+    },
+    {
+        "text": "so the light comes on here to indicate",
+        "start": 161.64,
+        "duration": 4.42
+    },
+    {
+        "text": "that it still has power and then",
+        "start": 163.959,
+        "duration": 3.601
+    },
+    {
+        "text": "eventually when the tooth on the timer",
+        "start": 166.06,
+        "duration": 3.78
+    },
+    {
+        "text": "you know goes past the point that the",
+        "start": 167.56,
+        "duration": 3.959
+    },
+    {
+        "text": "power will be cut off and it'll be ready",
+        "start": 169.84,
+        "duration": 4.86
+    },
+    {
+        "text": "to be triggered again all right see you",
+        "start": 171.519,
+        "duration": 6.021
+    },
+    {
+        "text": "next time bye",
+        "start": 174.7,
+        "duration": 2.84
+    }
+]

@@ -1,0 +1,342 @@
+[
+    {
+        "text": "MATT PARKER: Okay, so, Lucas Numbers are named after a guy called Edward Lucas",
+        "start": 0.0,
+        "duration": 3.06
+    },
+    {
+        "text": "Although, he was French, so 'Loo-cah', but I'm going to say 'Lu-cas' because I am lazy",
+        "start": 3.08,
+        "duration": 4.24
+    },
+    {
+        "text": "And if it wasn't for Lucas, we wouldn't really care about Fibonacci, because Fibonacci did some things",
+        "start": 7.32,
+        "duration": 6.12
+    },
+    {
+        "text": "he wrote those numbers down, didn't generalize them, didn't analyze them",
+        "start": 13.44,
+        "duration": 3.12
+    },
+    {
+        "text": "He did introduce some interesting number systems to Europe, and he did some other cool bits and pieces",
+        "start": 16.56,
+        "duration": 4.91
+    },
+    {
+        "text": "but these are more of a footnote to the story of his life",
+        "start": 21.47,
+        "duration": 3.88
+    },
+    {
+        "text": "and Lucas went, \"Hey, these are really\ninteresting\", and he's the guy who promoted them",
+        "start": 25.35,
+        "duration": 3.44
+    },
+    {
+        "text": "and he went with his own sequence which is better than the Fibbonacci Numbers",
+        "start": 28.8,
+        "duration": 4.12
+    },
+    {
+        "text": "Then you think, okay, if Fibbonacci starts 1,1 what is our next option?",
+        "start": 32.92,
+        "duration": 4.36
+    },
+    {
+        "text": "So Fibonacci starts 1, 1 and then it goes 2 and then 3 and then 5 and then 8 and then 13 and then onwards",
+        "start": 37.28,
+        "duration": 7.36
+    },
+    {
+        "text": "Well, what if we start -- instead of starting 1, 1 what if we start 1, 2?",
+        "start": 44.64,
+        "duration": 3.04
+    },
+    {
+        "text": "but we can't start 1, 2 because we're just starting here",
+        "start": 47.68,
+        "duration": 3.16
+    },
+    {
+        "text": "All we've done is move along slightly and so we're going to get the same numbers if we start 1, 2",
+        "start": 50.84,
+        "duration": 5.08
+    },
+    {
+        "text": "Lucas numbers, you start 2, 1 -- so you just swap them around and then you repeat exactly the same pattern",
+        "start": 55.92,
+        "duration": 7.24
+    },
+    {
+        "text": "So 2 + 1 then gives us 3 and then we get 4 and then you get 7 and then you get 11 and 18",
+        "start": 63.16,
+        "duration": 6.88
+    },
+    {
+        "text": "And these are the Lucas numbers!",
+        "start": 70.04,
+        "duration": 2.16
+    },
+    {
+        "text": "And to my mind this sequence of numbers is far more interesting then the Fibonacci sequence of numbers,",
+        "start": 72.2,
+        "duration": 6.12
+    },
+    {
+        "text": "and these have a stronger link to the golden ratio",
+        "start": 78.32,
+        "duration": 3.76
+    },
+    {
+        "text": "So if you take the golden ratio Φ (phi), which is equal to 1.61803398...",
+        "start": 82.08,
+        "duration": 9.24
+    },
+    {
+        "text": "and then a 9, and so on",
+        "start": 91.32,
+        "duration": 2.76
+    },
+    {
+        "text": "Okay, right, so we know for any of these sequences they're going to approach that ratio",
+        "start": 94.08,
+        "duration": 4.24
+    },
+    {
+        "text": "But what if we start with the ratio, what if we want to take the ratio and then get a sequence of numbers?",
+        "start": 98.32,
+        "duration": 5.24
+    },
+    {
+        "text": "So if you calculate Φ² --",
+        "start": 103.579,
+        "duration": 2.981
+    },
+    {
+        "text": "Φ² = 2.6180..., which if you round to the nearest whole number is 3 (approximately)",
+        "start": 106.56,
+        "duration": 10.64
+    },
+    {
+        "text": "Okay, so I'm going to do this column as rounding to the nearest whole number",
+        "start": 117.2,
+        "duration": 3.0
+    },
+    {
+        "text": "if you do Φ³ -- Φ³ = 4.23606..., which if you round that to the nearest whole number is 4",
+        "start": 120.2,
+        "duration": 9.76
+    },
+    {
+        "text": "Φ⁴ = 6.85410..., and rounded to the nearest whole number is 7",
+        "start": 129.96,
+        "duration": 7.88
+    },
+    {
+        "text": "Φ⁵ -- and if I carry on and take each of these and round them to the the nearest whole number, what do I get?",
+        "start": 137.84,
+        "duration": 7.48
+    },
+    {
+        "text": "Sure enough, these are the Lucas numbers appearing up here, and that will carry on all the way down",
+        "start": 145.32,
+        "duration": 6.64
+    },
+    {
+        "text": "Every power of the golden ratio beyond the nearest whole number gives you the Lucas numbers",
+        "start": 151.96,
+        "duration": 6.56
+    },
+    {
+        "text": "and so that's not the fact that the Fibonacci numbers are linked to the golden ratio",
+        "start": 158.53,
+        "duration": 4.0
+    },
+    {
+        "text": "in a way that every other similar sequence is. If you start with the golden ratio and then take powers",
+        "start": 162.53,
+        "duration": 5.71
+    },
+    {
+        "text": "-- is because what you're doing is multiplying each term by the golden ratio to get the next term",
+        "start": 168.24,
+        "duration": 4.56
+    },
+    {
+        "text": "which is that wonderful property that everyone bangs on about",
+        "start": 172.8,
+        "duration": 2.6
+    },
+    {
+        "text": "But these are the numbers it generates, if you start with that and then go to the sequence",
+        "start": 175.4,
+        "duration": 4.84
+    },
+    {
+        "text": "and that's why I think the Lucas numbers are vastly superior",
+        "start": 180.24,
+        "duration": 3.28
+    },
+    {
+        "text": "I've been very careful, I've never said Lucas sequence, which is a very good point,",
+        "start": 183.52,
+        "duration": 4.32
+    },
+    {
+        "text": "because Lucas sequence is, well, a family of other things.",
+        "start": 187.84,
+        "duration": 4.08
+    },
+    {
+        "text": "So Lucas did some amazing research into all the weird properties you get from these various sequences",
+        "start": 191.92,
+        "duration": 6.16
+    },
+    {
+        "text": "and these numbers were just one specific example of a Lucas sequence",
+        "start": 198.08,
+        "duration": 4.96
+    },
+    {
+        "text": "but they're the most common one and the most famous one, which is why they are called the Lucas numbers",
+        "start": 203.04,
+        "duration": 5.0
+    },
+    {
+        "text": "but there are all sorts of amazing things you can do these numbers",
+        "start": 208.04,
+        "duration": 2.64
+    },
+    {
+        "text": "You can -- everything from obviously wonderful ratios but you can use them to",
+        "start": 210.68,
+        "duration": 4.389
+    },
+    {
+        "text": "test if a number is prime and, I mean, there is a whole amazing area of math",
+        "start": 215.069,
+        "duration": 3.92
+    },
+    {
+        "text": "Lookup Lucas sequences, there is some incredible stuff in there",
+        "start": 219.0,
+        "duration": 3.04
+    },
+    {
+        "text": "BRADY: One thing about this that strikes me though is",
+        "start": 222.04,
+        "duration": 2.56
+    },
+    {
+        "text": "we often talk about how mathematics is very precise and perfect and this great thing",
+        "start": 224.6,
+        "duration": 4.28
+    },
+    {
+        "text": "This sequence does match, but it only matches by kind of roughly rounding,",
+        "start": 228.88,
+        "duration": 5.96
+    },
+    {
+        "text": "and it seems like each time it kind of slightly misses the target",
+        "start": 234.84,
+        "duration": 3.2
+    },
+    {
+        "text": "but it misses by such a small amount that it doesn't matter",
+        "start": 238.04,
+        "duration": 2.84
+    },
+    {
+        "text": "This doesn't seem very much like a lot\nof the other mathematics I see",
+        "start": 240.88,
+        "duration": 3.88
+    },
+    {
+        "text": "it seems kind of a bit fuzzy and \"almosty\"",
+        "start": 244.76,
+        "duration": 2.589
+    },
+    {
+        "text": "DR. PARKER: I think rounding -- people rain hate on rounding because you do it at primary school",
+        "start": 247.349,
+        "duration": 6.32
+    },
+    {
+        "text": "and people view it as maths you did very early on, and very simple",
+        "start": 253.68,
+        "duration": 3.91
+    },
+    {
+        "text": "and there's kind of a false --",
+        "start": 257.6,
+        "duration": 4.16
+    },
+    {
+        "text": "People link mathematics with unnecessary precision",
+        "start": 261.76,
+        "duration": 5.149
+    },
+    {
+        "text": "and they link mathematics with doing things that are pointless and over the top",
+        "start": 266.909,
+        "duration": 3.75
+    },
+    {
+        "text": "and so, for some reason, one of the first things people would do when they're learning math at high school",
+        "start": 270.659,
+        "duration": 4.36
+    },
+    {
+        "text": "and want to look smart is write down an unnecessary number of decimal places",
+        "start": 275.019,
+        "duration": 3.341
+    },
+    {
+        "text": "Right? because they think it's more maths-y -- the more numbers you write down, the more maths we're doing",
+        "start": 278.36,
+        "duration": 3.47
+    },
+    {
+        "text": "and I think it's a shame, there are some amazing things that drop out of rounding",
+        "start": 281.83,
+        "duration": 4.08
+    },
+    {
+        "text": "and so I think it's nice that the Lucas numbers",
+        "start": 285.92,
+        "duration": 2.72
+    },
+    {
+        "text": "you do get these wonderfully precise answers out of the powers",
+        "start": 288.64,
+        "duration": 4.07
+    },
+    {
+        "text": "then you round to the nearest whole number and that's where the beauty is, I like that.",
+        "start": 292.71,
+        "duration": 4.04
+    },
+    {
+        "text": "[audio from Brady Numbers]\n]MATT PARKER: 8,229 + 17,399 = 45,628",
+        "start": 297.84,
+        "duration": 11.31
+    },
+    {
+        "text": "so I'll do it for a few of these and you can zip through it obviously",
+        "start": 309.15,
+        "duration": 2.68
+    },
+    {
+        "text": "BRADY: So is this the Brady sequence?",
+        "start": 311.84,
+        "duration": 1.56
+    },
+    {
+        "text": "This is the Brady sequence! We're going to call these the Brady numbers.",
+        "start": 313.41,
+        "duration": 3.8
+    }
+]

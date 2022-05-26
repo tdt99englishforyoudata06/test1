@@ -1,0 +1,432 @@
+[
+    {
+        "text": "You’re given a time limit and a word to\ndoodle as fast as you can, while someone’s",
+        "start": 3.439,
+        "duration": 3.82
+    },
+    {
+        "text": "shouting out guesses as to what those vaguely-recognizable lines might be.",
+        "start": 7.259,
+        "duration": 4.191
+    },
+    {
+        "text": "This could be an intense game of Pictionary\nor … Google’s Quick, Draw!",
+        "start": 11.45,
+        "duration": 4.26
+    },
+    {
+        "text": "Instead of a person trying to guess what you’re\ndrawing, though, the other player in Quick,",
+        "start": 15.71,
+        "duration": 3.62
+    },
+    {
+        "text": "Draw! is an artificial intelligence.",
+        "start": 19.33,
+        "duration": 1.88
+    },
+    {
+        "text": "It seems to be one of the Internet’s favorite\ntime-wasters this past week, but it’s also",
+        "start": 21.21,
+        "duration": 4.56
+    },
+    {
+        "text": "teaching us about the way machines can learn.",
+        "start": 25.77,
+        "duration": 2.31
+    },
+    {
+        "text": "Here’s how the game works: it prompts you\nto draw something in under 20 seconds.",
+        "start": 28.08,
+        "duration": 4.539
+    },
+    {
+        "text": "Some are easy, like a paper clip.",
+        "start": 32.619,
+        "duration": 1.701
+    },
+    {
+        "text": "But others are harder, like animal migration.",
+        "start": 34.32,
+        "duration": 2.35
+    },
+    {
+        "text": "The AI guesses what you’re drawing, and\nit’s scarily good, even though doodles are",
+        "start": 36.67,
+        "duration": 3.709
+    },
+    {
+        "text": "one of those things that are easier for humans\nto understand than computers.",
+        "start": 40.379,
+        "duration": 3.651
+    },
+    {
+        "text": "Like, your shoe drawing might look totally\ndifferent from my shoe drawing, but our human",
+        "start": 44.03,
+        "duration": 4.599
+    },
+    {
+        "text": "brains can understand both of them as shoes.",
+        "start": 48.629,
+        "duration": 2.381
+    },
+    {
+        "text": "You have to /teach/ a computer to recognize\nthis sort of essential “shoe-ness.”",
+        "start": 51.01,
+        "duration": 4.629
+    },
+    {
+        "text": "And that’s exactly what Quick, Draw! is\ndoing.",
+        "start": 55.639,
+        "duration": 2.411
+    },
+    {
+        "text": "It’s a neural network – a computing system\nthat can learn in a way that mimics the human",
+        "start": 58.05,
+        "duration": 4.239
+    },
+    {
+        "text": "brain.",
+        "start": 62.289,
+        "duration": 1.0
+    },
+    {
+        "text": "Our brains are made up of billions of cells\ncalled neurons, which send signals to each",
+        "start": 63.289,
+        "duration": 3.37
+    },
+    {
+        "text": "other and are interconnected in a really complex\npattern.",
+        "start": 66.659,
+        "duration": 3.281
+    },
+    {
+        "text": "Instead of being made of neurons, neural networks\nare made of a bunch of individual computing",
+        "start": 69.94,
+        "duration": 4.48
+    },
+    {
+        "text": "units, or nodes, that work together and are\nusually set up in layers.",
+        "start": 74.42,
+        "duration": 4.04
+    },
+    {
+        "text": "The first layer receives inputs, and passes\ndecisions based on certain parameters, or",
+        "start": 78.46,
+        "duration": 4.67
+    },
+    {
+        "text": "rules, onto the middle units, also known as\nhidden units.",
+        "start": 83.13,
+        "duration": 3.76
+    },
+    {
+        "text": "And these pass on more decisions, until the\nlast layer spits out an output.",
+        "start": 86.89,
+        "duration": 3.76
+    },
+    {
+        "text": "In Quick, Draw!’s case, that’s guessing\nwhat your doodle is.",
+        "start": 90.65,
+        "duration": 2.86
+    },
+    {
+        "text": "So, Let’s say the game told you to draw\na shoe.",
+        "start": 93.51,
+        "duration": 2.27
+    },
+    {
+        "text": "The input is your drawing, and the desired\noutput is for the AI to figure out that it’s",
+        "start": 95.78,
+        "duration": 4.89
+    },
+    {
+        "text": "a shoe.",
+        "start": 100.67,
+        "duration": 1.0
+    },
+    {
+        "text": "So, the neural network looks at every example\nit has of a shoe to come up with a pattern",
+        "start": 101.67,
+        "duration": 4.17
+    },
+    {
+        "text": "of what a shoe should be.",
+        "start": 105.84,
+        "duration": 1.51
+    },
+    {
+        "text": "Then, it makes a guess.",
+        "start": 107.35,
+        "duration": 1.08
+    },
+    {
+        "text": "Did the AI say shoe?",
+        "start": 108.43,
+        "duration": 1.77
+    },
+    {
+        "text": "Or did it say crocodile?",
+        "start": 110.2,
+        "duration": 1.3
+    },
+    {
+        "text": "Based on whether it was right or wrong, the\nAI can actually refine its decision-making",
+        "start": 111.5,
+        "duration": 4.95
+    },
+    {
+        "text": "process.",
+        "start": 116.45,
+        "duration": 1.0
+    },
+    {
+        "text": "Each node comes with a multiplier called a\nweight, which specifies how important the",
+        "start": 117.45,
+        "duration": 3.8
+    },
+    {
+        "text": "outcome of a decision is.",
+        "start": 121.25,
+        "duration": 1.31
+    },
+    {
+        "text": "Like, is it more important that a shoe drawing\nhas laces?",
+        "start": 122.56,
+        "duration": 3.27
+    },
+    {
+        "text": "Or that it has a sole?",
+        "start": 125.83,
+        "duration": 1.05
+    },
+    {
+        "text": "Either way, the program now has one more example\nof what a shoe should look like.",
+        "start": 126.88,
+        "duration": 3.739
+    },
+    {
+        "text": "It keeps learning through feedback and training,\njust like we do.",
+        "start": 130.619,
+        "duration": 3.281
+    },
+    {
+        "text": "And that’s the wild part: you don’t have\nto program a neural net to know exactly what",
+        "start": 133.9,
+        "duration": 4.59
+    },
+    {
+        "text": "an aircraft carrier looks like.",
+        "start": 138.49,
+        "duration": 1.72
+    },
+    {
+        "text": "Starting from a set of a few thousand doodles,\nthe network teaches itself, which is what’s",
+        "start": 140.21,
+        "duration": 4.58
+    },
+    {
+        "text": "called machine learning.",
+        "start": 144.79,
+        "duration": 1.16
+    },
+    {
+        "text": "Quick, Draw! works kind of like the Google\nAIs that recognize and translate handwriting,",
+        "start": 145.95,
+        "duration": 4.75
+    },
+    {
+        "text": "by shape, and the way you draw the strokes.",
+        "start": 150.7,
+        "duration": 1.92
+    },
+    {
+        "text": "And it’s one of many AI things Google recently\nput online for people to play with.",
+        "start": 152.62,
+        "duration": 4.6
+    },
+    {
+        "text": "For fun, to train the neural networks, and\nto inspire people to try their own machine",
+        "start": 157.22,
+        "duration": 3.9
+    },
+    {
+        "text": "learning experiments.",
+        "start": 161.12,
+        "duration": 1.0
+    },
+    {
+        "text": "So give Quick, Draw! a try, if you haven’t\nalready!",
+        "start": 162.12,
+        "duration": 3.19
+    },
+    {
+        "text": "We put a link in the description.",
+        "start": 165.31,
+        "duration": 1.14
+    },
+    {
+        "text": "Now, sometimes both computers and us humans\nneed a while to gather data – especially",
+        "start": 167.45,
+        "duration": 4.18
+    },
+    {
+        "text": "when it comes to understanding the Earth’s\natmosphere.",
+        "start": 171.63,
+        "duration": 2.28
+    },
+    {
+        "text": "A study published this week in the journal\nNature Geoscience looked at around 80 years",
+        "start": 173.91,
+        "duration": 4.409
+    },
+    {
+        "text": "of atmospheric carbon dioxide levels, and\nfound that cement actually absorbs CO2 over",
+        "start": 178.319,
+        "duration": 6.071
+    },
+    {
+        "text": "time.",
+        "start": 184.39,
+        "duration": 1.0
+    },
+    {
+        "text": "Cement is pretty important stuff.",
+        "start": 185.39,
+        "duration": 1.14
+    },
+    {
+        "text": "It’s used in concrete, and mortar, and really\nmost of the grayish stuff where pigeons perch",
+        "start": 186.53,
+        "duration": 4.02
+    },
+    {
+        "text": "in major cities.",
+        "start": 190.55,
+        "duration": 1.11
+    },
+    {
+        "text": "But producing it releases a lot of carbon\ndioxide into the atmosphere.",
+        "start": 191.66,
+        "duration": 3.64
+    },
+    {
+        "text": "In fact, cement production accounted for 5%\nof industrial and fossil fuel CO2 emissions",
+        "start": 195.3,
+        "duration": 5.73
+    },
+    {
+        "text": "in 2013.",
+        "start": 201.03,
+        "duration": 1.05
+    },
+    {
+        "text": "See, cement is made from limestone, a type\nof rock that’s mostly calcium carbonate.",
+        "start": 202.08,
+        "duration": 4.41
+    },
+    {
+        "text": "Limestone is refined to produce calcium oxide,\nor quicklime, for cement, in a reaction known",
+        "start": 206.49,
+        "duration": 5.21
+    },
+    {
+        "text": "as calcination, which releases a lot of carbon\nin the form of CO2.",
+        "start": 211.7,
+        "duration": 4.0
+    },
+    {
+        "text": "Not to mention, some CO2 escapes from burning\nfossil fuels to provide energy for the reaction.",
+        "start": 215.7,
+        "duration": 4.98
+    },
+    {
+        "text": "But here’s the thing about chemistry: most\nreactions can go in either direction.",
+        "start": 220.68,
+        "duration": 4.38
+    },
+    {
+        "text": "And the opposite of calcification is carbonation.",
+        "start": 225.06,
+        "duration": 2.68
+    },
+    {
+        "text": "Over time, some CO2 from the atmosphere drifts\ninto all that cement in buildings and bridges,",
+        "start": 227.74,
+        "duration": 5.579
+    },
+    {
+        "text": "and reacts with the calcium oxide to form\ncalcium carbonate again.",
+        "start": 233.319,
+        "duration": 3.091
+    },
+    {
+        "text": "The researchers estimate that 43% of the CO2\nthat initially escaped during cement production",
+        "start": 236.41,
+        "duration": 5.78
+    },
+    {
+        "text": "from 1930 to 2013 has been sucked back into\nour concrete jungles.",
+        "start": 242.19,
+        "duration": 5.0
+    },
+    {
+        "text": "But that 43% only includes the carbon dioxide\ndirectly from the cement production, not the",
+        "start": 247.19,
+        "duration": 5.769
+    },
+    {
+        "text": "fossil fuel emissions.",
+        "start": 252.959,
+        "duration": 1.481
+    },
+    {
+        "text": "So cement still has a huge carbon footprint.",
+        "start": 254.44,
+        "duration": 2.75
+    },
+    {
+        "text": "This just makes it a little smaller, because\nthe longer our high-rises stand, the more",
+        "start": 257.19,
+        "duration": 4.13
+    },
+    {
+        "text": "CO2 they might re-absorb.",
+        "start": 261.32,
+        "duration": 1.55
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow\nNews, and a very special thanks to our President",
+        "start": 262.87,
+        "duration": 4.4
+    },
+    {
+        "text": "of Space Mitch A. Nelson.",
+        "start": 267.27,
+        "duration": 1.94
+    },
+    {
+        "text": "Mitch feels that \"SciShow is making science\npopular and helping move the cultural emphasis",
+        "start": 269.21,
+        "duration": 5.16
+    },
+    {
+        "text": "from politics and division to one of science\nand progress.\"",
+        "start": 274.4,
+        "duration": 3.43
+    },
+    {
+        "text": "If you would like to be our President of Space\nand help support SciShow, go to patreon.com/scishow",
+        "start": 277.83,
+        "duration": 6.45
+    },
+    {
+        "text": "and don’t forget to go to youtube.com/scishow and subscribe!",
+        "start": 284.28,
+        "duration": 2.72
+    },
+    {
+        "text": " ",
+        "start": 297.0,
+        "duration": 0.5
+    }
+]

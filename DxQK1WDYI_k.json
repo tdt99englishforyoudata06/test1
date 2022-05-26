@@ -1,0 +1,887 @@
+[
+    {
+        "text": "There are basically three kinds of teleportation:\nthe kind where the thing you want to teleport",
+        "start": 1.29,
+        "duration": 4.54
+    },
+    {
+        "text": "is somehow instantly moved from one location\nto another perhaps by a loophole in the fabric",
+        "start": 5.83,
+        "duration": 4.3
+    },
+    {
+        "text": "of spacetime or magic or something ; the kind\nwhere you disassemble the object and send",
+        "start": 10.13,
+        "duration": 4.49
+    },
+    {
+        "text": "the pieces to the faraway location to be\nreassembled ; and the kind where you scan",
+        "start": 14.62,
+        "duration": 3.94
+    },
+    {
+        "text": "the object in one place and just transmit\nthe instructions for how to reassemble it",
+        "start": 18.56,
+        "duration": 3.66
+    },
+    {
+        "text": "somewhere else using different molecules and\natoms.",
+        "start": 22.22,
+        "duration": 3.3
+    },
+    {
+        "text": "This last kind of teleportation kind of sounds\nlike cloning, since couldn’t you just scan",
+        "start": 25.52,
+        "duration": 4.52
+    },
+    {
+        "text": "the object and send instructions to reassemble\na copy somewhere else without destroying the",
+        "start": 30.04,
+        "duration": 4.05
+    },
+    {
+        "text": "original? But no, quantum mechanics prohibits\nexact copying of arbitrary objects , so any",
+        "start": 34.09,
+        "duration": 6.14
+    },
+    {
+        "text": "method of teleportation governed by the physics\nin our universe will somehow alter or destroy",
+        "start": 40.23,
+        "duration": 4.75
+    },
+    {
+        "text": "the original object. Which is kind of nice,\nbecause it bypasses those soul-searching,",
+        "start": 44.98,
+        "duration": 4.04
+    },
+    {
+        "text": "paradox-inducing questions about which is\nthe real \"you\" – the teleported you, or",
+        "start": 49.02,
+        "duration": 5.271
+    },
+    {
+        "text": "the stuff that was left behind? – “no\ncloning” implies the teleported one is,",
+        "start": 54.3,
+        "duration": 4.34
+    },
+    {
+        "text": "unequivocally, the real one.\nThis isn't just science fiction – well,",
+        "start": 58.64,
+        "duration": 4.12
+    },
+    {
+        "text": "human teleportation is, but physicists have\nsuccessfully used this method to teleport",
+        "start": 62.76,
+        "duration": 3.96
+    },
+    {
+        "text": "photons of light, electrons, even calcium\natoms . In this video I'm going to show you",
+        "start": 66.72,
+        "duration": 4.91
+    },
+    {
+        "text": "exactly how quantum teleportation works in\nthe hopes of giving you a clearer picture",
+        "start": 71.63,
+        "duration": 4.31
+    },
+    {
+        "text": "of what it can do, and what it can't.\nPhysicists usually teleport small, quantum,",
+        "start": 75.94,
+        "duration": 5.7
+    },
+    {
+        "text": "things in a superposition of several states,\nlike an electron that's in a state of",
+        "start": 81.64,
+        "duration": 3.92
+    },
+    {
+        "text": "spin up and spin down, or whatever. But we're\ngoing to use Schrödinger's cat, in a superposition",
+        "start": 85.56,
+        "duration": 5.83
+    },
+    {
+        "text": "of alive and dead until you look inside the\nbox, in which case the state collapses to",
+        "start": 91.39,
+        "duration": 4.65
+    },
+    {
+        "text": "just one of the two options, alive, or dead\n– the math is the same, but c’mon, this",
+        "start": 96.04,
+        "duration": 4.9
+    },
+    {
+        "text": "is the internet .\nBefore we get into the details (and I promise,",
+        "start": 100.94,
+        "duration": 3.32
+    },
+    {
+        "text": "there will be many), we need to talk for a\nsecond about quantum entanglement, because",
+        "start": 104.26,
+        "duration": 4.289
+    },
+    {
+        "text": "it's the transmission mechanism that makes\nteleportation possible. Quantum particles,",
+        "start": 108.549,
+        "duration": 4.811
+    },
+    {
+        "text": "as you may have heard, can be in multiple\ndifferent states of existence at once, like",
+        "start": 113.36,
+        "duration": 4.14
+    },
+    {
+        "text": "\"spin up\" and \"spin down\", or \"alive\" and\n\"dead\", or \"exploded\" and \"not exploded.\"",
+        "start": 117.5,
+        "duration": 5.82
+    },
+    {
+        "text": "Or if you have multiple particles, they can\nbe in various different combinations of their",
+        "start": 123.32,
+        "duration": 4.08
+    },
+    {
+        "text": "possible states of existence, like, heads\nand tails plus heads and heads. Saying two",
+        "start": 127.4,
+        "duration": 6.0
+    },
+    {
+        "text": "or more particles are \"entangled\" just means\nthat the states of the particles aren't independent",
+        "start": 133.4,
+        "duration": 4.94
+    },
+    {
+        "text": "of each other. For example, if the gunpowder\nexplodes, Schrödinger's cat will be dead,",
+        "start": 138.34,
+        "duration": 4.85
+    },
+    {
+        "text": "and if the gunpowder doesn't explode, Schrödinger's\ncat will be alive, but the powder can't be",
+        "start": 143.19,
+        "duration": 4.839
+    },
+    {
+        "text": "unexploded while killing the cat, and vice\nversa, so the alive or dead state of existence",
+        "start": 148.029,
+        "duration": 5.39
+    },
+    {
+        "text": "of the cat is entangled with the exploded\n(or not) state of existence of the gunpowder.",
+        "start": 153.419,
+        "duration": 5.561
+    },
+    {
+        "text": "Or two atoms can be entangled if the outer\nelectron in one is always orbitingto the",
+        "start": 158.98,
+        "duration": 4.11
+    },
+    {
+        "text": "left while the other is orbiting to the right,\nor vice versa, so even though either atom",
+        "start": 163.09,
+        "duration": 4.989
+    },
+    {
+        "text": "could be in either state, they're always opposite,\nand if we know the state of one, we know the",
+        "start": 168.079,
+        "duration": 4.58
+    },
+    {
+        "text": "state of the other. In general, if you have a set of fully\nentangled particles, you only need to know the states",
+        "start": 172.659,
+        "duration": 4.661
+    },
+    {
+        "text": "of half of them to be able to infer the states of\nthe other half. That's not the case with heads",
+        "start": 177.32,
+        "duration": 4.69
+    },
+    {
+        "text": "and tails plus heads and heads – if the\nfirst coin turns out to be heads, we still",
+        "start": 182.01,
+        "duration": 4.51
+    },
+    {
+        "text": "don't know what the second coin is, so they're\nnot entangled.",
+        "start": 186.52,
+        "duration": 3.339
+    },
+    {
+        "text": "Ok, so the reason we started talking about\nentangled pairs of objects is that , since",
+        "start": 189.859,
+        "duration": 3.841
+    },
+    {
+        "text": "entanglement can be maintained over arbitrarily\nlong distances, entangled particles are the",
+        "start": 193.7,
+        "duration": 4.58
+    },
+    {
+        "text": "transmission mechanism for teleportation – send a pair",
+        "start": 198.28,
+        "duration": 3.079
+    },
+    {
+        "text": "of entangled objects to two separate locations,\nand one of them is kind of like a mold or",
+        "start": 201.359,
+        "duration": 4.47
+    },
+    {
+        "text": "scanner and \"imprints\" the state of the thing\nwe want to teleport; the other object, because",
+        "start": 205.829,
+        "duration": 4.33
+    },
+    {
+        "text": "it's entangled with the first, ends up as\na kind of \"negative\" of that imprinted state.",
+        "start": 210.159,
+        "duration": 4.5
+    },
+    {
+        "text": "That's basically it, but to see how teleportation\nworks in detail, let's send Schrödinger’s",
+        "start": 214.659,
+        "duration": 4.711
+    },
+    {
+        "text": "cat to the moon. Remember, Schrödinger's\ncat, hidden in its box, has some probability",
+        "start": 219.37,
+        "duration": 5.0
+    },
+    {
+        "text": "of being alive , and some probability of being\ndead , so it's in a quantum superposition",
+        "start": 224.37,
+        "duration": 4.78
+    },
+    {
+        "text": "of A times alive, plus B times dead, where\nwe have no idea what the probabilities actually",
+        "start": 229.15,
+        "duration": 4.799
+    },
+    {
+        "text": "are.\nIn order to teleport the cat's state of existence",
+        "start": 233.949,
+        "duration": 3.02
+    },
+    {
+        "text": "(A alive and B dead) to the moon, we need\nan entangled pair of particles, one here,",
+        "start": 236.969,
+        "duration": 6.011
+    },
+    {
+        "text": "and one on the moon. Like, an entangled pair\nof fleas, each hidden in its own box, where",
+        "start": 242.98,
+        "duration": 5.069
+    },
+    {
+        "text": "one flea is dead and one is alive, but we\ndon't know which one, so they're in a superposition",
+        "start": 248.049,
+        "duration": 5.39
+    },
+    {
+        "text": "of earth flea is alive and moon flea is dead,\nplus earth flea is dead and moon flea is alive.",
+        "start": 253.439,
+        "duration": 6.561
+    },
+    {
+        "text": "Schrödinger's fleas! We're going to teleport\nthe cat's state of existence to the flea on",
+        "start": 260.0,
+        "duration": 5.73
+    },
+    {
+        "text": "the moon by putting the earth flea and the\ncat together in the same box, entangling them",
+        "start": 265.73,
+        "duration": 4.65
+    },
+    {
+        "text": "in a particular way, and thus teleporting\nthe cat’s state to the moon flea. And that’s",
+        "start": 270.38,
+        "duration": 3.97
+    },
+    {
+        "text": "it! I know it sounds crazy, but if you replace\ncats and fleas with electrons or photons or",
+        "start": 274.35,
+        "duration": 5.46
+    },
+    {
+        "text": "atoms, this is exactly what happens.",
+        "start": 279.81,
+        "duration": 2.62
+    },
+    {
+        "text": "Here’s how teleportation works.\nThe cat's initial life-or-death state is A",
+        "start": 282.43,
+        "duration": 4.63
+    },
+    {
+        "text": "times alive plus B times dead. The entangled\npair of fleas are initially in a state of",
+        "start": 287.06,
+        "duration": 6.41
+    },
+    {
+        "text": "earth flea alive moon flea dead plus earth\nflea dead moon flea alive, in equal proportions.",
+        "start": 293.47,
+        "duration": 5.91
+    },
+    {
+        "text": "So the cat together with the fleas is A times\ncat alive plus B times cat dead, times earth",
+        "start": 299.38,
+        "duration": 6.02
+    },
+    {
+        "text": "flea alive times moon flea dead plus earth\nflea dead times moon flea alive. This seems",
+        "start": 305.4,
+        "duration": 5.1
+    },
+    {
+        "text": "like a complicated situation, but it just\nmeans that if we were to look inside the boxes",
+        "start": 310.5,
+        "duration": 3.65
+    },
+    {
+        "text": ", with probability A we'd see the cat alive\nand exactly one of the fleas dead (either",
+        "start": 314.15,
+        "duration": 4.85
+    },
+    {
+        "text": "the moon flea or the earth flea), and with\nprobability B we'd see the cat dead and still",
+        "start": 319.0,
+        "duration": 4.48
+    },
+    {
+        "text": "exactly one of the fleas dead (either the\nmoon flea or the earth flea). No teleportation,",
+        "start": 323.48,
+        "duration": 4.9
+    },
+    {
+        "text": "just a cat and some fleas entangled with each\nother (but not with the cat). So we won't",
+        "start": 328.38,
+        "duration": 4.54
+    },
+    {
+        "text": "look in the boxes like that.\nTo start the teleportation process, we need",
+        "start": 332.92,
+        "duration": 3.73
+    },
+    {
+        "text": "to get the cat also partially entangled with\nthe fleas, and to do that we'll put the cat",
+        "start": 336.65,
+        "duration": 4.501
+    },
+    {
+        "text": "and the earth flea inside the same box and\nlook inside it in a sneaky, indirect way . What",
+        "start": 341.151,
+        "duration": 5.749
+    },
+    {
+        "text": "I mean by indirect is that we can’t just\nopen it up to see whether the cat and earth",
+        "start": 346.9,
+        "duration": 3.82
+    },
+    {
+        "text": "flea are each alive or dead, since that would\nentirely collapse the superposition, either",
+        "start": 350.72,
+        "duration": 4.56
+    },
+    {
+        "text": "killing or saving the cat (and flea), and\nresulting in a failed teleportation. Instead",
+        "start": 355.28,
+        "duration": 4.781
+    },
+    {
+        "text": "we need a more subtle measurement that only\npartially collapses the superposition and",
+        "start": 360.061,
+        "duration": 4.019
+    },
+    {
+        "text": "tells us just a little bit about both of them,\nbut not everything. For example, we could",
+        "start": 364.08,
+        "duration": 4.2
+    },
+    {
+        "text": "ask, \"are they the same?”, which would mean\nthat either both cat and earth flea are alive",
+        "start": 368.28,
+        "duration": 4.49
+    },
+    {
+        "text": "or both are dead, but we don't know which.\nOr we could ask ”is only one of them dead?\"",
+        "start": 372.77,
+        "duration": 5.02
+    },
+    {
+        "text": "that is, one is dead while the other is alive,\nbut we don't know which one. Or, “at least",
+        "start": 377.79,
+        "duration": 5.4
+    },
+    {
+        "text": "one is dead”, which would mean either the\ncat is alive and the flea is dead, or the",
+        "start": 383.19,
+        "duration": 4.57
+    },
+    {
+        "text": "cat is dead and the flea is alive, or both\nare dead, but we don’t know which. Or, \"the",
+        "start": 387.76,
+        "duration": 5.55
+    },
+    {
+        "text": "cat is not dead alone\", which would mean either\nthe cat is alive with the flea either alive",
+        "start": 393.31,
+        "duration": 4.82
+    },
+    {
+        "text": "or dead, or the cat's dead and the flea is\ndead, too – but again, we don’t know",
+        "start": 398.13,
+        "duration": 4.67
+    },
+    {
+        "text": "which.\nYou’ll notice that none of these four questions",
+        "start": 402.8,
+        "duration": 3.12
+    },
+    {
+        "text": "on its own allows us to determine the full\nlife or death situation of the cat and its",
+        "start": 405.92,
+        "duration": 4.38
+    },
+    {
+        "text": "earthbound flea. \"At least one is dead\" tells\nus something about the cat and earth flea,",
+        "start": 410.3,
+        "duration": 5.1
+    },
+    {
+        "text": "but not everything. The four questions taken\ntogether, however, are an alternative way",
+        "start": 415.4,
+        "duration": 5.1
+    },
+    {
+        "text": "of fully specifying the cat and flea situation\nthat we can use instead of “dead and dead”,",
+        "start": 420.5,
+        "duration": 5.16
+    },
+    {
+        "text": "“alive and alive”, “alive and dead”,\nand “dead and alive”. For example, if the",
+        "start": 425.66,
+        "duration": 4.74
+    },
+    {
+        "text": "cat is alive and the flea is dead , then we\ncould write that – boringly – as “alive",
+        "start": 430.4,
+        "duration": 5.12
+    },
+    {
+        "text": "times dead”, or in our sneaky indirect way\nas “the cat isn't dead alone” minus “the",
+        "start": 435.52,
+        "duration": 6.0
+    },
+    {
+        "text": "cat and the flea are the same” (you can\ncheck to see that it works out). The sneaky",
+        "start": 441.52,
+        "duration": 5.57
+    },
+    {
+        "text": "way to write “cat and flea are both alive”\nis – well, you could pause the video now",
+        "start": 447.09,
+        "duration": 4.42
+    },
+    {
+        "text": "to try to figure it out on your own – or,\nwait for me to tell you it's “they’re",
+        "start": 451.51,
+        "duration": 3.99
+    },
+    {
+        "text": "both the same” plus “they’re both different”\nminus “at least one is dead”. And the",
+        "start": 455.5,
+        "duration": 4.71
+    },
+    {
+        "text": "sneaky way to write “cat is dead and flea\nis alive” is – “they’re both the same”",
+        "start": 460.21,
+        "duration": 5.7
+    },
+    {
+        "text": "plus “they’re both different” minus\n“the cat isn’t dead alone”. And the",
+        "start": 465.91,
+        "duration": 4.02
+    },
+    {
+        "text": "sneaky way to write “they’re both dead”\nis – “at least one is dead” minus “only",
+        "start": 469.93,
+        "duration": 4.89
+    },
+    {
+        "text": "one is dead.”\nThe point of all of this sneaky indirect questioning,",
+        "start": 474.82,
+        "duration": 3.98
+    },
+    {
+        "text": "remember, is to bring the cat into entanglement\nwith the fleas, which is what actually teleports",
+        "start": 478.8,
+        "duration": 5.12
+    },
+    {
+        "text": "the cat’s life-or-death situation to the\nmoon flea.",
+        "start": 483.92,
+        "duration": 3.18
+    },
+    {
+        "text": "To see why this works, we'll have to write\nout the full state of the cat and both fleas",
+        "start": 487.1,
+        "duration": 4.14
+    },
+    {
+        "text": "(remember from before, it was A times cat\nalive plus B times cat dead, all times earth",
+        "start": 491.24,
+        "duration": 4.05
+    },
+    {
+        "text": "flea alive times moon flea dead plus earth\nflea dead times moon flea alive), and then",
+        "start": 495.29,
+        "duration": 3.28
+    },
+    {
+        "text": "re-write this in terms of the sneaky questions.\nThere’s going to be a bit of algebra and",
+        "start": 498.57,
+        "duration": 4.79
+    },
+    {
+        "text": "distributing and such going on in the next\nlittle bit, but this is the part where the",
+        "start": 503.36,
+        "duration": 3.13
+    },
+    {
+        "text": "teleportation actually happens, so it’s\nworth the effort!",
+        "start": 506.49,
+        "duration": 3.55
+    },
+    {
+        "text": "First, we’ll write out the full state of\nthe cat and both fleas so that we don’t",
+        "start": 510.46,
+        "duration": 3.84
+    },
+    {
+        "text": "have any parentheses. That means distributing\nthrough the “A times cat alive plus B times",
+        "start": 514.3,
+        "duration": 4.38
+    },
+    {
+        "text": "cat dead”, giving us “A times cat alive\ntimes earth flea alive times moon flea dead,",
+        "start": 518.68,
+        "duration": 5.61
+    },
+    {
+        "text": "plus A times cat alive times earth flea dead\ntimes moon flea alive, plus B times cat dead",
+        "start": 524.29,
+        "duration": 6.12
+    },
+    {
+        "text": "times earth flea alive times moon flea dead,\nplus B times cat dead times earth flea dead",
+        "start": 530.41,
+        "duration": 5.489
+    },
+    {
+        "text": "times moon flea alive.” It's a mouthful. But we’re just getting started.",
+        "start": 535.899,
+        "duration": 4.98
+    },
+    {
+        "text": "Now we need to entangle the cat and the earth\nflea, so we're going to re-write the cat and",
+        "start": 540.879,
+        "duration": 4.661
+    },
+    {
+        "text": "earth flea parts in terms of our sneaky indirect\nquestions – remember, where instead of \"cat",
+        "start": 545.54,
+        "duration": 5.529
+    },
+    {
+        "text": "alive times earth flea alive\" (times moon\nflea dead), we have \"both the same\" plus \"exactly",
+        "start": 551.069,
+        "duration": 5.01
+    },
+    {
+        "text": "one alive\" minus \"at least one alive\" (still\nall times moon flea dead). And instead of",
+        "start": 556.079,
+        "duration": 3.351
+    },
+    {
+        "text": "\"cat alive times earth flea dead\" (times moon\nflea alive), we have \"the cat isn't dead alone\"",
+        "start": 559.43,
+        "duration": 4.2
+    },
+    {
+        "text": "minus \"both the same\" (times moon flea alive).\nAnd instead of \"cat dead times earth flea",
+        "start": 563.63,
+        "duration": 3.99
+    },
+    {
+        "text": "alive\" (times moon flea dead), we have \"both\nthe same\" plus \"exactly one alive\" minus \"the",
+        "start": 567.62,
+        "duration": 4.39
+    },
+    {
+        "text": "cat isn't dead alone\" (times moon flea dead).\nAnd instead of \"cat dead times earth flea",
+        "start": 572.01,
+        "duration": 3.47
+    },
+    {
+        "text": "dead\" (times moon flea alive) we have \"at\nleast one is dead\" minus \"exactly one is dead\"",
+        "start": 575.48,
+        "duration": 3.87
+    },
+    {
+        "text": "(times moon flea alive). If we now sort through\nthis big mess and group all the different",
+        "start": 579.35,
+        "duration": 3.87
+    },
+    {
+        "text": "pieces together by the indirect questions,\nwe find that we have four options: either",
+        "start": 583.22,
+        "duration": 5.4
+    },
+    {
+        "text": "\"at least one of cat and earth flea is alive\"\nwhile the moon flea is in a superposition",
+        "start": 588.62,
+        "duration": 4.579
+    },
+    {
+        "text": "of alive and dead, or \"exactly one of cat\nand earth flea is alive\" while the moon flea",
+        "start": 593.199,
+        "duration": 5.721
+    },
+    {
+        "text": "is in a superposition of alive and dead, or\n\"both are the same\" while the moon flea is",
+        "start": 598.92,
+        "duration": 4.78
+    },
+    {
+        "text": "in a superposition of alive and dead, or \"the\ncat isn't dead alone\" while the moon flea",
+        "start": 603.7,
+        "duration": 5.119
+    },
+    {
+        "text": "is in a superposition of alive and dead. Notice\na pattern? By re-framing the situation in",
+        "start": 608.819,
+        "duration": 5.841
+    },
+    {
+        "text": "terms of the indirect questions, we've now\nput the moon flea, which started off entangled",
+        "start": 614.66,
+        "duration": 4.58
+    },
+    {
+        "text": "to the earth flea, into one of several of\npossible superpositions of alive and dead,",
+        "start": 619.24,
+        "duration": 4.99
+    },
+    {
+        "text": "each of which looks kind of like the original\ncat superposition, A alive and B dead!",
+        "start": 624.23,
+        "duration": 5.769
+    },
+    {
+        "text": "There's one last step to complete the teleportation:\nnow, finally, at the end, we actually look",
+        "start": 629.999,
+        "duration": 5.921
+    },
+    {
+        "text": "(indirectly) into the cat/earth-flea box to\ncollapse their combined wavefunction to just",
+        "start": 635.92,
+        "duration": 5.889
+    },
+    {
+        "text": "one of the possible, sneaky, options. Like,\nmaybe we look in (indirectly) and find out",
+        "start": 641.809,
+        "duration": 5.64
+    },
+    {
+        "text": "that “the cat isn’t dead alone.” Then\nwe know that the moon flea is in a superposition",
+        "start": 647.449,
+        "duration": 4.721
+    },
+    {
+        "text": "of A alive minus B dead, which is almost exactly\nthe same as the cat's original \"A alive plus",
+        "start": 652.17,
+        "duration": 6.06
+    },
+    {
+        "text": "B dead\" state! All we need to do is switch\nB and minus B (which can be done by somebody",
+        "start": 658.23,
+        "duration": 5.56
+    },
+    {
+        "text": "on the moon after we beam them the message\nabout the cat not being dead alone), and the",
+        "start": 663.79,
+        "duration": 4.719
+    },
+    {
+        "text": "moon flea IS in the state that the cat was\noriginally. Successful teleportation!",
+        "start": 668.509,
+        "duration": 5.551
+    },
+    {
+        "text": "If, instead, the cat and earth flea had been\nin the “at least one is dead“ state, then",
+        "start": 674.06,
+        "duration": 6.009
+    },
+    {
+        "text": "the moon flea would be B times alive minus\nA times dead, and we could tell the person",
+        "start": 680.069,
+        "duration": 5.18
+    },
+    {
+        "text": "on the moon to just swap B for A and minus\nA for B , and the moon flea would be in the",
+        "start": 685.249,
+        "duration": 4.861
+    },
+    {
+        "text": "state the cat was originally. Successful teleportation!\nAnd there are simple swapping rules for each",
+        "start": 690.11,
+        "duration": 5.82
+    },
+    {
+        "text": "of the other possible scenarios , so we can\nguarantee that, after the dust settles and",
+        "start": 695.93,
+        "duration": 4.459
+    },
+    {
+        "text": "all is said and done, the cat's state of existence\nwill be teleported to the moon.",
+        "start": 700.389,
+        "duration": 5.271
+    },
+    {
+        "text": "At this point, you may be wondering about",
+        "start": 705.66,
+        "duration": 2.1
+    },
+    {
+        "text": "two things. First, how is this teleportation\nif we didn't actually send a cat to the moon?",
+        "start": 707.769,
+        "duration": 5.79
+    },
+    {
+        "text": "We just sent the life-or-death state the cat\nwas in to a flea on the moon. Well, I used",
+        "start": 713.559,
+        "duration": 6.171
+    },
+    {
+        "text": "fleas so the math would be easier to follow.\nBut if, instead of fleas, we used two piles",
+        "start": 719.73,
+        "duration": 4.59
+    },
+    {
+        "text": "of particles that you could in principle make\na cat out of , and if we viewed our whole",
+        "start": 724.32,
+        "duration": 4.7
+    },
+    {
+        "text": "cat as just a particular quantum cat-figuration\nof a pile of particles (which is, ultimately,",
+        "start": 729.02,
+        "duration": 4.749
+    },
+    {
+        "text": "what it is), then by quantum teleporting the\nstate of the pile that looks like a cat to",
+        "start": 733.769,
+        "duration": 4.57
+    },
+    {
+        "text": "the blank canvas pile of particles on the\nmoon (via the earth blank canvas pile), we",
+        "start": 738.339,
+        "duration": 2.961
+    },
+    {
+        "text": "would indeed end up with a cat on the moon\nthat is literally the same cat we started",
+        "start": 741.3,
+        "duration": 4.699
+    },
+    {
+        "text": "with, while the particles that were originally\nthe cat on earth would now be – what would",
+        "start": 745.999,
+        "duration": 4.861
+    },
+    {
+        "text": "they be?\nThat's the second thing you might be wondering.",
+        "start": 750.86,
+        "duration": 3.13
+    },
+    {
+        "text": "What happens to the original cat on the earth?\nWell, in the case of teleporting a pile of",
+        "start": 753.99,
+        "duration": 4.889
+    },
+    {
+        "text": "particles that look like a cat – I mean,\nare a cat - to the moon, well, after the teleportation",
+        "start": 758.879,
+        "duration": 4.89
+    },
+    {
+        "text": "the pile of particles that originally was\nin the state of a cat will be in the most",
+        "start": 763.769,
+        "duration": 3.951
+    },
+    {
+        "text": "mixed-up state possible for those particles,\nalmost as if it had been put through a blender",
+        "start": 767.72,
+        "duration": 4.479
+    },
+    {
+        "text": "and not at all like a cat!\nTo illustrate this a little more clearly,",
+        "start": 772.199,
+        "duration": 4.23
+    },
+    {
+        "text": "if instead of a real cat we just teleported\nthe word \"cat\" encoded as a quantum state",
+        "start": 776.429,
+        "duration": 4.621
+    },
+    {
+        "text": ", after the teleportation the \"cat\" on earth\nwould no longer be \"C-A-T\", but would in fact",
+        "start": 781.05,
+        "duration": 6.129
+    },
+    {
+        "text": "be in a superposition of every single possible\nthree-letter combination, all of them equally",
+        "start": 787.179,
+        "duration": 4.91
+    },
+    {
+        "text": "likely. That is, it would be entirely jumbled\nand nothing like the original C-A-T whatsoever,",
+        "start": 792.089,
+        "duration": 6.381
+    },
+    {
+        "text": "and there would be absolutely no confusion\nabout which one – the original cat or the",
+        "start": 798.47,
+        "duration": 4.239
+    },
+    {
+        "text": "teleported cat – is the real cat. I mean,\nit's obvious – only one of them is a cat.",
+        "start": 802.709,
+        "duration": 5.37
+    },
+    {
+        "text": "Of course, physicists haven’t succeeded\nin teleporting whole cats yet – or even,",
+        "start": 808.079,
+        "duration": 5.0
+    },
+    {
+        "text": "for that matter, the word \"CAT.\" It’s very\nhard to make an entangled pair of sufficiently",
+        "start": 813.079,
+        "duration": 5.081
+    },
+    {
+        "text": "big piles of particles, and then have them\nstay entangled long enough to take one to",
+        "start": 818.16,
+        "duration": 4.349
+    },
+    {
+        "text": "the moon. So far, only simple quantum states\nlike those of a single photon or electron",
+        "start": 822.509,
+        "duration": 5.55
+    },
+    {
+        "text": "have been teleported , and only as far as\nabout 100km. So, teleportation teleportation",
+        "start": 828.059,
+        "duration": 6.87
+    },
+    {
+        "text": "is a long way off. If only we had some way\nwe could get there faster… ;)",
+        "start": 834.929,
+        "duration": 8.031
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "text": "Wow, this is CRISPR.",
+        "start": 0.0,
+        "duration": 4.32
+    },
+    {
+        "text": "Are we gonna succeed?",
+        "start": 7.35,
+        "duration": 1.65
+    },
+    {
+        "text": "There's always a chance that you can blow it.",
+        "start": 10.54,
+        "duration": 2.36
+    },
+    {
+        "text": "Let's see what happens.",
+        "start": 18.61,
+        "duration": 2.7
+    },
+    {
+        "text": "So Roland, everyone says CRISPR's really easy to do",
+        "start": 22.52,
+        "duration": 4.3
+    },
+    {
+        "text": "and i was interviewing a very prominent researcher",
+        "start": 26.82,
+        "duration": 1.68
+    },
+    {
+        "text": "the other day, who said to me:",
+        "start": 28.5,
+        "duration": 2.46
+    },
+    {
+        "text": "\"Any idiot can do CRISPR.\"",
+        "start": 30.96,
+        "duration": 2.1
+    },
+    {
+        "text": "Is that true?",
+        "start": 33.06,
+        "duration": 1.16
+    },
+    {
+        "text": "Uh, I'm not sure about any idiot but it is easy",
+        "start": 34.22,
+        "duration": 3.28
+    },
+    {
+        "text": "and we're going to find out.",
+        "start": 37.5,
+        "duration": 1.66
+    },
+    {
+        "text": "So what we want to do is we want to knock out",
+        "start": 39.16,
+        "duration": 2.1
+    },
+    {
+        "text": "a gene in a human cell line.",
+        "start": 41.26,
+        "duration": 2.25
+    },
+    {
+        "text": "Yeah, I chose a gene that putatively  is",
+        "start": 43.51,
+        "duration": 3.26
+    },
+    {
+        "text": "involved with the immune response to Dengue virus.",
+        "start": 46.78,
+        "duration": 5.28
+    },
+    {
+        "text": "And the reason I chose it",
+        "start": 52.06,
+        "duration": 1.58
+    },
+    {
+        "text": "is because there's a theory that",
+        "start": 53.64,
+        "duration": 1.9
+    },
+    {
+        "text": "if you've had Dengue virus",
+        "start": 55.54,
+        "duration": 1.42
+    },
+    {
+        "text": "and you have an antibody to it",
+        "start": 56.96,
+        "duration": 2.26
+    },
+    {
+        "text": "and then get infected with Zika-",
+        "start": 59.22,
+        "duration": 1.78
+    },
+    {
+        "text": "it helps the Zika virus copy itself",
+        "start": 61.0,
+        "duration": 1.94
+    },
+    {
+        "text": "which might be responsible",
+        "start": 62.94,
+        "duration": 2.86
+    },
+    {
+        "text": "for the damage that we're seeing in babies.",
+        "start": 65.8,
+        "duration": 1.6
+    },
+    {
+        "text": "So, you and I are going to solve that problem right?",
+        "start": 67.4,
+        "duration": 1.96
+    },
+    {
+        "text": "hopefully, I mean...",
+        "start": 69.369,
+        "duration": 1.6
+    },
+    {
+        "text": "What are the basic steps that we need to do",
+        "start": 72.0,
+        "duration": 1.18
+    },
+    {
+        "text": "to get started?",
+        "start": 73.18,
+        "duration": 1.12
+    },
+    {
+        "text": "First, we'll have to define the genomic region",
+        "start": 74.62,
+        "duration": 1.88
+    },
+    {
+        "text": "that we want to cut.",
+        "start": 76.509,
+        "duration": 1.72
+    },
+    {
+        "text": "Then we take that information and put it into a",
+        "start": 78.229,
+        "duration": 2.46
+    },
+    {
+        "text": "design software, in a CRISPR design software.",
+        "start": 80.689,
+        "duration": 2.711
+    },
+    {
+        "text": "And the third step is ordering",
+        "start": 83.42,
+        "duration": 1.68
+    },
+    {
+        "text": "the oligo nucleotides for the cloning of the guide RNAs.",
+        "start": 85.1,
+        "duration": 3.16
+    },
+    {
+        "text": "Then you have to order a plasmid.",
+        "start": 88.26,
+        "duration": 1.74
+    },
+    {
+        "text": "What's the name of our plasmid?",
+        "start": 90.0,
+        "duration": 1.08
+    },
+    {
+        "text": "It's lentiCRISPR v2.",
+        "start": 91.08,
+        "duration": 2.34
+    },
+    {
+        "text": "And we're going to put in here our",
+        "start": 93.43,
+        "duration": 2.189
+    },
+    {
+        "text": "20 nucleotide sequence that's going to guide us to",
+        "start": 95.619,
+        "duration": 2.971
+    },
+    {
+        "text": "the portion of the gene that we're gonna knock out.",
+        "start": 98.59,
+        "duration": 2.21
+    },
+    {
+        "text": "Exactly.",
+        "start": 100.8,
+        "duration": 0.86
+    },
+    {
+        "text": "So we've got the oligos",
+        "start": 101.9,
+        "duration": 1.24
+    },
+    {
+        "text": "and we've got the plasmids ready to go.",
+        "start": 103.14,
+        "duration": 1.5
+    },
+    {
+        "text": "Now we're going to pipette the...",
+        "start": 104.64,
+        "duration": 1.46
+    },
+    {
+        "text": "Now we're gonna pipette everything...",
+        "start": 106.1,
+        "duration": 2.16
+    },
+    {
+        "text": "We're going to pipette it all together.\nRight.",
+        "start": 108.26,
+        "duration": 1.6
+    },
+    {
+        "text": "OK let's do it.",
+        "start": 109.869,
+        "duration": 0.78
+    },
+    {
+        "text": "So, first of all we take a tube.",
+        "start": 111.22,
+        "duration": 2.38
+    },
+    {
+        "text": "This tube is sterile.",
+        "start": 114.38,
+        "duration": 1.02
+    },
+    {
+        "text": "No, see like you already have the problem:",
+        "start": 115.4,
+        "duration": 1.9
+    },
+    {
+        "text": "we don't  know what a tube is, right?",
+        "start": 117.3,
+        "duration": 2.2
+    },
+    {
+        "text": "So this is like actually a microcentrifuge tube right?",
+        "start": 119.5,
+        "duration": 3.32
+    },
+    {
+        "text": "It's at 1.5 milliliter microcentrifuge tube.",
+        "start": 122.82,
+        "duration": 3.7
+    },
+    {
+        "text": "This is where we will set up our reaction.",
+        "start": 126.52,
+        "duration": 2.86
+    },
+    {
+        "text": "So the components we will need is:",
+        "start": 129.38,
+        "duration": 2.4
+    },
+    {
+        "text": "the plasmid, \nright.",
+        "start": 131.78,
+        "duration": 1.7
+    },
+    {
+        "text": "The enzyme. \nGot it.",
+        "start": 133.48,
+        "duration": 2.34
+    },
+    {
+        "text": "The enzyme only works in a specific environment,",
+        "start": 135.82,
+        "duration": 1.64
+    },
+    {
+        "text": "so we'll also need the buffer, the correct buffer.",
+        "start": 137.46,
+        "duration": 2.82
+    },
+    {
+        "text": "And we also make it like a feasible volume,",
+        "start": 140.28,
+        "duration": 4.04
+    },
+    {
+        "text": "so we'll add water to it.",
+        "start": 144.32,
+        "duration": 1.3
+    },
+    {
+        "text": "Go down.",
+        "start": 145.62,
+        "duration": 2.26
+    },
+    {
+        "text": "Push the bottom down and up.",
+        "start": 147.88,
+        "duration": 2.72
+    },
+    {
+        "text": "Just one time?",
+        "start": 150.6,
+        "duration": 1.7
+    },
+    {
+        "text": "So, um,  so,  here's the deal, hold on Jon like",
+        "start": 152.3,
+        "duration": 2.79
+    },
+    {
+        "text": "can I take the pipette?",
+        "start": 155.09,
+        "duration": 1.95
+    },
+    {
+        "text": "You were way too fast so you had bubbles in there.",
+        "start": 157.04,
+        "duration": 2.58
+    },
+    {
+        "text": "So, let's try it again.",
+        "start": 159.62,
+        "duration": 1.58
+    },
+    {
+        "text": "So I already ruined the experiment?",
+        "start": 161.2,
+        "duration": 1.74
+    },
+    {
+        "text": "Basically, by not knowing how to pipette you're already",
+        "start": 162.94,
+        "duration": 2.14
+    },
+    {
+        "text": "like on a bad path right?",
+        "start": 165.08,
+        "duration": 1.72
+    },
+    {
+        "text": "Now don't,  not failed necessarily,",
+        "start": 166.8,
+        "duration": 1.42
+    },
+    {
+        "text": "it's very robust but its sub-optimal.",
+        "start": 168.22,
+        "duration": 2.46
+    },
+    {
+        "text": "Alright, here we go again.",
+        "start": 170.68,
+        "duration": 2.08
+    },
+    {
+        "text": "That looks good,  OK.",
+        "start": 172.76,
+        "duration": 3.16
+    },
+    {
+        "text": "Alright. Hooh.",
+        "start": 175.92,
+        "duration": 1.94
+    },
+    {
+        "text": "Very nice.",
+        "start": 179.04,
+        "duration": 0.72
+    },
+    {
+        "text": "Easy peasy.",
+        "start": 179.76,
+        "duration": 0.9
+    },
+    {
+        "text": "I didn't know it was so much fun to do CRISPR.",
+        "start": 181.48,
+        "duration": 3.56
+    },
+    {
+        "text": "It is.",
+        "start": 185.04,
+        "duration": 1.04
+    },
+    {
+        "text": "And now let go of the...",
+        "start": 186.08,
+        "duration": 2.04
+    },
+    {
+        "text": "Yes, that was good.",
+        "start": 188.12,
+        "duration": 2.72
+    },
+    {
+        "text": "That was proper pipetting.",
+        "start": 190.84,
+        "duration": 1.38
+    },
+    {
+        "text": " ",
+        "start": 192.22,
+        "duration": 1.68
+    },
+    {
+        "text": "Oops, yeah I think now you kind of like",
+        "start": 193.9,
+        "duration": 2.12
+    },
+    {
+        "text": "you failed a little bit probably because you put it...",
+        "start": 196.02,
+        "duration": 3.48
+    },
+    {
+        "text": "See how much liquid there's still left?",
+        "start": 199.5,
+        "duration": 2.58
+    },
+    {
+        "text": "Yeah, should be fine you know?",
+        "start": 204.68,
+        "duration": 1.84
+    },
+    {
+        "text": "Let's keep going.",
+        "start": 206.52,
+        "duration": 1.08
+    },
+    {
+        "text": "And now you vortex again.",
+        "start": 207.6,
+        "duration": 3.46
+    },
+    {
+        "text": "It's a little nerve-racking.",
+        "start": 212.0,
+        "duration": 2.42
+    },
+    {
+        "text": "I don't want make a mistake so...",
+        "start": 214.42,
+        "duration": 1.08
+    },
+    {
+        "text": "Woo, I'm vortexing",
+        "start": 215.58,
+        "duration": 2.46
+    },
+    {
+        "text": "You're totally vortexing right now.",
+        "start": 218.42,
+        "duration": 2.4
+    },
+    {
+        "text": "And then you spin it real quickly.",
+        "start": 221.14,
+        "duration": 1.64
+    },
+    {
+        "text": "[spinning sound]",
+        "start": 223.76,
+        "duration": 2.76
+    },
+    {
+        "text": "That's it. \nThat's it.",
+        "start": 226.9,
+        "duration": 1.32
+    },
+    {
+        "text": "It goes on 37. Let's go over there.",
+        "start": 228.84,
+        "duration": 1.8
+    },
+    {
+        "text": "Put this in the water bath.",
+        "start": 230.64,
+        "duration": 1.15
+    },
+    {
+        "text": "I don't think we need to videotape that one but...",
+        "start": 231.8,
+        "duration": 3.26
+    },
+    {
+        "text": "In the beginning I said: \"Is it it really easy?\"",
+        "start": 247.36,
+        "duration": 2.74
+    },
+    {
+        "text": "You know, \" Can any idiot do this?\" \"Yes,\" but then like",
+        "start": 250.1,
+        "duration": 2.62
+    },
+    {
+        "text": "I got the sense that like there's some pride that, no,",
+        "start": 252.72,
+        "duration": 2.34
+    },
+    {
+        "text": "you've got to really be kind of skilled do it.",
+        "start": 255.06,
+        "duration": 2.58
+    },
+    {
+        "text": "I think there is a certain skill level",
+        "start": 257.64,
+        "duration": 2.62
+    },
+    {
+        "text": "It's very necessary right?",
+        "start": 260.26,
+        "duration": 1.58
+    },
+    {
+        "text": "Like, if you take a random person from the street",
+        "start": 261.84,
+        "duration": 2.46
+    },
+    {
+        "text": "and say knockout cd32 in thb cells",
+        "start": 264.3,
+        "duration": 3.84
+    },
+    {
+        "text": "in like mammalian cells- there is no way",
+        "start": 268.14,
+        "duration": 2.31
+    },
+    {
+        "text": "this person would do it,  not in a hundred years.",
+        "start": 270.46,
+        "duration": 2.25
+    },
+    {
+        "text": "Not gonna happen.",
+        "start": 272.72,
+        "duration": 1.82
+    },
+    {
+        "text": "it's really easy for people",
+        "start": 274.54,
+        "duration": 0.62
+    },
+    {
+        "text": "who already know how to do what?",
+        "start": 275.16,
+        "duration": 2.94
+    },
+    {
+        "text": "To do molecular biology.",
+        "start": 279.36,
+        "duration": 1.62
+    },
+    {
+        "text": "We just discussed, pretty much everyone",
+        "start": 280.98,
+        "duration": 0.9
+    },
+    {
+        "text": "knows about DNA.",
+        "start": 281.88,
+        "duration": 1.52
+    },
+    {
+        "text": "Go to RNA and most people are like, ahhh",
+        "start": 283.4,
+        "duration": 3.06
+    },
+    {
+        "text": "not so sure,  right?",
+        "start": 286.46,
+        "duration": 1.06
+    },
+    {
+        "text": "Mention oligos, plasmids, cloning and so on,",
+        "start": 287.52,
+        "duration": 2.84
+    },
+    {
+        "text": "You will lose everybody.\nYeah.",
+        "start": 290.36,
+        "duration": 1.48
+    },
+    {
+        "text": " ",
+        "start": 293.02,
+        "duration": 2.0
+    }
+]

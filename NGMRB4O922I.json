@@ -1,0 +1,652 @@
+[
+    {
+        "text": "HOLLY KRIEGER: So, today I want to talk about the Mandelbrot set.",
+        "start": 0.0,
+        "duration": 3.0
+    },
+    {
+        "text": "But I want to— so, there's so many videos and websites and Java applets",
+        "start": 3.0,
+        "duration": 4.5
+    },
+    {
+        "text": "and all of these things where you can see the beauty of the Mandelbrot set.",
+        "start": 7.5,
+        "duration": 3.0
+    },
+    {
+        "text": "And this really nice fractal picture, and you can zoom in and see all of the interesting things.",
+        "start": 10.5,
+        "duration": 4.5
+    },
+    {
+        "text": "What I want to talk about is: What is this object?\nSo, what is the picture a picture of?",
+        "start": 23.54,
+        "duration": 4.96
+    },
+    {
+        "text": "Why do we care about this picture other than just its intrinsic, sort of, appeal?",
+        "start": 28.5,
+        "duration": 4.5
+    },
+    {
+        "text": "And, so… just to generally talk about the way maybe the mathematicians would look at the Mandelbrot set.",
+        "start": 33.0,
+        "duration": 6.04
+    },
+    {
+        "text": "The first thing we need to understand is\nthat this entire thing is happening",
+        "start": 45.6,
+        "duration": 2.88
+    },
+    {
+        "text": "in the world of complex numbers, okay?",
+        "start": 48.5,
+        "duration": 2.5
+    },
+    {
+        "text": "So, if you remember, complex numbers—",
+        "start": 51.0,
+        "duration": 2.44
+    },
+    {
+        "text": "the complex plane, the way that we view this\nis that we have two axes",
+        "start": 53.44,
+        "duration": 4.24
+    },
+    {
+        "text": "and we plot on this plane numbers of\nthe form, say a + bi,",
+        "start": 57.68,
+        "duration": 5.22
+    },
+    {
+        "text": "and here these two things are\nreal numbers",
+        "start": 62.9,
+        "duration": 3.02
+    },
+    {
+        "text": "and 'i' is a symbol that means that i² = -1, okay?",
+        "start": 65.92,
+        "duration": 5.58
+    },
+    {
+        "text": "So most people are familiar with this\nbut just a reminder.",
+        "start": 71.5,
+        "duration": 2.46
+    },
+    {
+        "text": "It's a convenience in some sense but there's also a lot of useful information in this representation.",
+        "start": 73.96,
+        "duration": 4.93
+    },
+    {
+        "text": "So for example, one thing that's very natural to look at\nis if I plot some complex number, say a + bi, okay?",
+        "start": 78.89,
+        "duration": 7.61
+    },
+    {
+        "text": "Maybe this is something like you know\n3 + 2i, something like that,",
+        "start": 86.5,
+        "duration": 3.29
+    },
+    {
+        "text": "then one sort of natural quantity\nassociated with this thing",
+        "start": 89.79,
+        "duration": 3.57
+    },
+    {
+        "text": "is the distance from this point to the\ncentre point of the plane.",
+        "start": 93.36,
+        "duration": 3.93
+    },
+    {
+        "text": "And so this distance, which we call the\nmagnitude of the complex number,",
+        "start": 97.29,
+        "duration": 3.32
+    },
+    {
+        "text": "it really has some inherent mathematical\nproperties that we really care about",
+        "start": 100.61,
+        "duration": 4.99
+    },
+    {
+        "text": "and so the fact that this is so easy\nto visualize in the complex plane",
+        "start": 105.6,
+        "duration": 3.98
+    },
+    {
+        "text": "and you can also visualize addition of\ncomplex numbers and subtraction, and so on",
+        "start": 109.58,
+        "duration": 4.09
+    },
+    {
+        "text": "in this plane in a very geometric way\nis really helpful.",
+        "start": 113.67,
+        "duration": 3.11
+    },
+    {
+        "text": "So how do we get to the Mandelbrot set from here?",
+        "start": 123.18,
+        "duration": 2.23
+    },
+    {
+        "text": "So here's sort of just the naive definition.\nLet's take a complex number c",
+        "start": 125.43,
+        "duration": 4.27
+    },
+    {
+        "text": "and let's associate to this complex number\nthe following function:",
+        "start": 129.7,
+        "duration": 5.68
+    },
+    {
+        "text": "so this is a function which takes as an input\nsome complex number z and outputs z² + c",
+        "start": 135.38,
+        "duration": 6.12
+    },
+    {
+        "text": "So I'm thinking of this complex number\nas being associated to this function,",
+        "start": 141.5,
+        "duration": 4.2
+    },
+    {
+        "text": "and we— what we're interested in\nis the behavior of 0 under iteration.",
+        "start": 145.7,
+        "duration": 7.6
+    },
+    {
+        "text": "So, by iteration of f_c,",
+        "start": 153.3,
+        "duration": 2.88
+    },
+    {
+        "text": "I mean what happens when I take 0\nand I plug it into this function,",
+        "start": 156.18,
+        "duration": 4.119
+    },
+    {
+        "text": "and then I keep doing that to the result.",
+        "start": 160.299,
+        "duration": 2.801
+    },
+    {
+        "text": "So, for example, if we're looking at f₁(z)",
+        "start": 163.14,
+        "duration": 4.67
+    },
+    {
+        "text": "Well, f₁(0) = 0 + 1, which is 1",
+        "start": 167.81,
+        "duration": 5.89
+    },
+    {
+        "text": "f₁(1), so now I apply it to the answer that I got, right?",
+        "start": 173.7,
+        "duration": 3.8
+    },
+    {
+        "text": "This is 1 + 1 which is 2.",
+        "start": 177.5,
+        "duration": 2.02
+    },
+    {
+        "text": "f₁ of the previous thing which was 2\nis 2² + 1 which is 5",
+        "start": 179.52,
+        "duration": 5.68
+    },
+    {
+        "text": "f₁(5) is 5² +1 which is 26, and so on.",
+        "start": 185.2,
+        "duration": 4.9
+    },
+    {
+        "text": "So that's what I mean about the behavior of 0\nunder iteration for a particular value of c.",
+        "start": 190.1,
+        "duration": 5.4
+    },
+    {
+        "text": "Now, what the Mandelbrot set is concerned with",
+        "start": 195.5,
+        "duration": 2.61
+    },
+    {
+        "text": "is what happens to the\nsize of these numbers",
+        "start": 198.11,
+        "duration": 4.07
+    },
+    {
+        "text": "and by size, I mean exactly what we were\ntalking about before about the distance",
+        "start": 202.18,
+        "duration": 4.83
+    },
+    {
+        "text": "from the number in the complex\nplane to this point, 0, okay?",
+        "start": 207.01,
+        "duration": 4.39
+    },
+    {
+        "text": "So it turns out there are two options for a function f_c(z),",
+        "start": 211.4,
+        "duration": 6.8
+    },
+    {
+        "text": "defined to be z² + c:",
+        "start": 218.2,
+        "duration": 3.1
+    },
+    {
+        "text": "The first option is that the distance from 0",
+        "start": 221.3,
+        "duration": 5.3
+    },
+    {
+        "text": "of the sequence we get,\ngets arbitrarily large.",
+        "start": 226.6,
+        "duration": 3.26
+    },
+    {
+        "text": "BRADY: That means it blows up.\nDR. KRIEGER: It means it blows up.",
+        "start": 229.86,
+        "duration": 2.64
+    },
+    {
+        "text": "It gets as large as you want it to be, okay?\nSo, this is what people mean",
+        "start": 232.5,
+        "duration": 3.5
+    },
+    {
+        "text": "when they say that the iterates go to infinity, okay?\nThey mean not necessarily that, okay,",
+        "start": 236.0,
+        "duration": 5.2
+    },
+    {
+        "text": "they look like real numbers or\nintegers or something like this,",
+        "start": 241.2,
+        "duration": 2.75
+    },
+    {
+        "text": "but that the \"size\" of the number,\nin this sense, goes to infinity.",
+        "start": 243.95,
+        "duration": 4.55
+    },
+    {
+        "text": "The other thing that can happen\nis that the distance is bounded.",
+        "start": 248.5,
+        "duration": 3.7
+    },
+    {
+        "text": "The size is bounded. So, and in fact you can\nsay that it never gets larger than 2.",
+        "start": 252.2,
+        "duration": 5.3
+    },
+    {
+        "text": "So you have this sort of dichotomy\nwhere only one of two things can happen:",
+        "start": 257.5,
+        "duration": 3.16
+    },
+    {
+        "text": "If you give me a complex number c",
+        "start": 260.66,
+        "duration": 2.2
+    },
+    {
+        "text": "and I start iterating zero under that function z² + c",
+        "start": 262.86,
+        "duration": 4.239
+    },
+    {
+        "text": "either the distance of the iterates\nto 0 in this complex plane",
+        "start": 267.099,
+        "duration": 5.391
+    },
+    {
+        "text": "gets really large for all of them, so you\ncan bounce back and forth, right?",
+        "start": 272.49,
+        "duration": 3.21
+    },
+    {
+        "text": "It gets really large for all of them.",
+        "start": 275.7,
+        "duration": 1.8
+    },
+    {
+        "text": "Or, it stays close to 0, within\na distance of 2 from 0.",
+        "start": 277.5,
+        "duration": 3.409
+    },
+    {
+        "text": "So, for example, to illustrate these two cases,\nwe already wrote down a few iterates",
+        "start": 280.909,
+        "duration": 4.731
+    },
+    {
+        "text": "under z² + 1 of 0, and as you can see\ntheir size is growing and in particular",
+        "start": 285.64,
+        "duration": 5.56
+    },
+    {
+        "text": "we've got some things that are\nfurther from 0 than 2 is,",
+        "start": 291.2,
+        "duration": 3.779
+    },
+    {
+        "text": "and so this c = 1 is case 1.",
+        "start": 294.979,
+        "duration": 3.25
+    },
+    {
+        "text": "But there's another possibility so let's look at,\nwell, a good contrast maybe would be z² - 1.",
+        "start": 298.229,
+        "duration": 5.671
+    },
+    {
+        "text": "although this might be a little misleading\n[evil giggle]",
+        "start": 303.9,
+        "duration": 2.5
+    },
+    {
+        "text": "so if we look at, say 0, and\nwe start applying this function",
+        "start": 306.4,
+        "duration": 5.88
+    },
+    {
+        "text": "well, f_-1(0), that's 0 - 1 which is -1.",
+        "start": 312.28,
+        "duration": 5.359
+    },
+    {
+        "text": "If we plug in -1 into that function we\nhave (-1)² which is 1, which is 0.",
+        "start": 317.639,
+        "duration": 6.161
+    },
+    {
+        "text": "Oh, wait, okay, but we know\nwhat happens to 0, right?",
+        "start": 323.8,
+        "duration": 2.7
+    },
+    {
+        "text": "It goes back to -1.",
+        "start": 326.5,
+        "duration": 1.94
+    },
+    {
+        "text": "So these iterates just alternate\nbetween -1 and 0.",
+        "start": 328.44,
+        "duration": 3.61
+    },
+    {
+        "text": "And so in particular they never get large, right?",
+        "start": 332.05,
+        "duration": 3.22
+    },
+    {
+        "text": "So that's an example of case 2.",
+        "start": 335.28,
+        "duration": 2.02
+    },
+    {
+        "text": "So, the definition of the Mandelbrot set, then,\none definition of the Mandelbrot set,",
+        "start": 337.3,
+        "duration": 5.55
+    },
+    {
+        "text": "which we usually call M, is the set of C,\ncomplex numbers C,",
+        "start": 342.85,
+        "duration": 4.95
+    },
+    {
+        "text": "for which case 2 holds.",
+        "start": 347.8,
+        "duration": 2.01
+    },
+    {
+        "text": "And I'm kind of all over the place here\nso let's be clear,",
+        "start": 349.81,
+        "duration": 4.74
+    },
+    {
+        "text": "Case 2",
+        "start": 354.55,
+        "duration": 1.33
+    },
+    {
+        "text": "So, in other words, if I look at the\nfunction represented by this complex number,",
+        "start": 355.88,
+        "duration": 4.62
+    },
+    {
+        "text": "if I look at z² + c and I start iterating 0\nunder that function, everything remains bounded.",
+        "start": 360.5,
+        "duration": 6.8
+    },
+    {
+        "text": "BRADY: It's the guys that don't blow up\nrather than the ones that do.",
+        "start": 367.3,
+        "duration": 2.7
+    },
+    {
+        "text": "DR. KRIEGER: That's right, it's the ones that\ndon't blow up instead of the ones that do.",
+        "start": 370.0,
+        "duration": 3.7
+    },
+    {
+        "text": "And this is also in case you're curious\nhow these pictures are always generated.",
+        "start": 373.7,
+        "duration": 4.86
+    },
+    {
+        "text": "So if you wanna figure out to draw a picture\nwhether c is in the Mandelbrot set or not,",
+        "start": 378.56,
+        "duration": 4.84
+    },
+    {
+        "text": "Well, you just start iterating\n0 under z² + c",
+        "start": 383.419,
+        "duration": 3.661
+    },
+    {
+        "text": "And if it takes a long time to get big\nthen you can give it one color",
+        "start": 387.08,
+        "duration": 3.77
+    },
+    {
+        "text": "If it gets big really quickly you can give it a different\ncolor and that's how you get these shadings.",
+        "start": 390.85,
+        "duration": 3.75
+    },
+    {
+        "text": "I'll point out here that everything\nthat's in the Mandelbrot set",
+        "start": 400.2,
+        "duration": 5.48
+    },
+    {
+        "text": "has to be within distance 2 of the centre, right?",
+        "start": 405.689,
+        "duration": 3.311
+    },
+    {
+        "text": "Because of exactly this case 2 thing that I said",
+        "start": 409.0,
+        "duration": 2.459
+    },
+    {
+        "text": "that once your iterate is larger than\n2, you're out of the picture.",
+        "start": 411.459,
+        "duration": 4.441
+    },
+    {
+        "text": "So the inside of this thing, let's fill this in here,",
+        "start": 415.9,
+        "duration": 2.559
+    },
+    {
+        "text": "this is what's known as the Mandelbrot set",
+        "start": 418.46,
+        "duration": 2.42
+    },
+    {
+        "text": "So let's look at our examples, right?",
+        "start": 420.88,
+        "duration": 1.809
+    },
+    {
+        "text": "So we had two examples,\nwe had c = 1, and we had c = -1.",
+        "start": 422.689,
+        "duration": 5.111
+    },
+    {
+        "text": "So -1, is right here, is indeed\ninside the Mandelbrot set.",
+        "start": 427.8,
+        "duration": 5.649
+    },
+    {
+        "text": "1 is right here, and it's outside.",
+        "start": 433.449,
+        "duration": 3.47
+    },
+    {
+        "text": "Let me take the easiest example inside\nof there, so we look at 0, right? c = 0,",
+        "start": 436.919,
+        "duration": 5.581
+    },
+    {
+        "text": "And we start iterating, well, what is\nthe function associated to c = 0?",
+        "start": 442.5,
+        "duration": 4.5
+    },
+    {
+        "text": "f₀(z) is z²",
+        "start": 447.0,
+        "duration": 4.5
+    },
+    {
+        "text": "okay, so, let's start iterating 0, well,",
+        "start": 451.5,
+        "duration": 3.3
+    },
+    {
+        "text": "0² = 0",
+        "start": 454.8,
+        "duration": 2.0
+    },
+    {
+        "text": "So no matter how many times we apply\nthe function we just stay at 0.",
+        "start": 456.8,
+        "duration": 3.4
+    },
+    {
+        "text": "BRADY: So you're in the club.\nDR. KRIEGER: So you're in the club, that's right.",
+        "start": 460.2,
+        "duration": 3.0
+    },
+    {
+        "text": "But if we take, say, some small number here",
+        "start": 463.2,
+        "duration": 3.1
+    },
+    {
+        "text": "It's a little hard to compute without taking\na real number, so I apologize, but",
+        "start": 466.3,
+        "duration": 3.349
+    },
+    {
+        "text": "if we we take something like 1/8,\nsomething like that",
+        "start": 469.649,
+        "duration": 3.54
+    },
+    {
+        "text": "if we start iterating so the first iterate is 1/8\nand then you start adding things under iteration but",
+        "start": 473.189,
+        "duration": 5.611
+    },
+    {
+        "text": "but it's never enough to get you outside\nof that disc of radius 2.",
+        "start": 478.8,
+        "duration": 3.719
+    },
+    {
+        "text": "BRADY: These guys are blowing up.\nDR. KRIEGER: That's right.",
+        "start": 482.519,
+        "duration": 1.981
+    },
+    {
+        "text": "BRADY: These ones are not blowing up.\nDR. KRIEGER: That's right.",
+        "start": 484.5,
+        "duration": 3.0
+    },
+    {
+        "text": "BRADY: What's happening at the edges, then?\nIs that where things are interesting?",
+        "start": 487.5,
+        "duration": 2.2
+    },
+    {
+        "text": "DR. KRIEGER: That's where things are interesting, right?\nWhere you go from blowing up to not blowing up,",
+        "start": 489.7,
+        "duration": 4.079
+    },
+    {
+        "text": "is dynamically interesting and just sort\nof, loosely speaking, the reason why",
+        "start": 493.779,
+        "duration": 4.621
+    },
+    {
+        "text": "is that you can't predict what's going to\nhappen if you change c a little bit, right?",
+        "start": 498.4,
+        "duration": 5.4
+    },
+    {
+        "text": "So if I have some c on the boundary here,\nso it so happens that 1/4 is on the boundary,",
+        "start": 503.8,
+        "duration": 5.0
+    },
+    {
+        "text": "if I move that c around by a little bit,\nanything can happen, right?",
+        "start": 508.8,
+        "duration": 4.209
+    },
+    {
+        "text": "You might have your orbit blow up,\nyou might have it not blow up.",
+        "start": 513.009,
+        "duration": 2.791
+    },
+    {
+        "text": "And so you can't predict what happens\nwhen you move your c around a little bit",
+        "start": 515.8,
+        "duration": 3.3
+    },
+    {
+        "text": "And that's why it's interesting.",
+        "start": 519.1,
+        "duration": 1.369
+    },
+    {
+        "text": "[fading in] And all of these separate disconnected pieces",
+        "start": 528.0,
+        "duration": 3.429
+    },
+    {
+        "text": "and so it turns out that another way you\ncould define the Mandelbrot set",
+        "start": 531.429,
+        "duration": 4.171
+    },
+    {
+        "text": "is by which of these two behaviors you get.",
+        "start": 535.6,
+        "duration": 2.4
+    },
+    {
+        "text": "When you draw the filled Julia set, for z² + c,\ndo you get kind of one piece, one blob?",
+        "start": 538.0,
+        "duration": 5.86
+    },
+    {
+        "text": "Or do you get a bunch of disconnected pieces?",
+        "start": 543.86,
+        "duration": 3.64
+    },
+    {
+        "text": "So if you get one piece, one blob,\nyou're in the Mandelbrot set.",
+        "start": 547.5,
+        "duration": 3.5
+    }
+]

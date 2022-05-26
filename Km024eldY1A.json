@@ -1,0 +1,767 @@
+[
+    {
+        "text": "How many games of chess are there?",
+        "start": 0.0,
+        "duration": 3.7
+    },
+    {
+        "text": "So, there is a popular fact that",
+        "start": 3.88,
+        "duration": 2.34
+    },
+    {
+        "text": "the number of games of chess is greater",
+        "start": 6.22,
+        "duration": 3.48
+    },
+    {
+        "text": "than the number of atoms there are in the observable universe.",
+        "start": 9.82,
+        "duration": 4.16
+    },
+    {
+        "text": "This is the fact. Is it true?",
+        "start": 14.28,
+        "duration": 1.84
+    },
+    {
+        "text": "Well, the number of games of chess is known as Shannon's number",
+        "start": 16.12,
+        "duration": 3.4
+    },
+    {
+        "text": "so let's find out what is Shannon's number, and how it was worked out.",
+        "start": 19.78,
+        "duration": 4.52
+    },
+    {
+        "text": "Claude Shannon. He... in the 1950s he wrote a paper \"How to program a computer to play chess\"",
+        "start": 24.74,
+        "duration": 6.8
+    },
+    {
+        "text": "...It was about how to program a computer to play chess.",
+        "start": 32.5,
+        "duration": 2.64
+    },
+    {
+        "text": "And in that paper he came up with an estimate for how many games of chess there are",
+        "start": 35.3,
+        "duration": 6.04
+    },
+    {
+        "text": "So it is only an estimate.",
+        "start": 41.54,
+        "duration": 1.44
+    },
+    {
+        "text": "So he estimated that the number of games of chess would be",
+        "start": 43.1,
+        "duration": 3.76
+    },
+    {
+        "text": "Ten to the power...round about ten to the power 120",
+        "start": 47.42,
+        "duration": 5.22
+    },
+    {
+        "text": "Which is... well, just massive! It's billions and trillions of googles",
+        "start": 53.08,
+        "duration": 5.68
+    },
+    {
+        "text": "It's so massive, that's a huge number.",
+        "start": 58.86,
+        "duration": 2.4
+    },
+    {
+        "text": "If we compare that with atoms in the observable universe",
+        "start": 61.48,
+        "duration": 2.98
+    },
+    {
+        "text": "there's about ten to the 80 atoms in the observable universe",
+        "start": 64.64,
+        "duration": 4.36
+    },
+    {
+        "text": "so there are more games of chess",
+        "start": 69.0,
+        "duration": 1.9
+    },
+    {
+        "text": "You could assign billions of games of chess for each atom in the universe.",
+        "start": 71.06,
+        "duration": 6.68
+    },
+    {
+        "text": "How did he come up with this massive figure?",
+        "start": 77.94,
+        "duration": 3.1
+    },
+    {
+        "text": "So what he decided was, well, he looked at some games of chess and he said",
+        "start": 81.32,
+        "duration": 3.24
+    },
+    {
+        "text": "Well, on average, at any position, there are about thirty legal moves that you can make.",
+        "start": 84.56,
+        "duration": 7.42
+    },
+    {
+        "text": "So, the first player would have thirty legal moves he could make",
+        "start": 91.98,
+        "duration": 3.48
+    },
+    {
+        "text": "And if you do two moves, that's the first player then the second player",
+        "start": 96.28,
+        "duration": 4.64
+    },
+    {
+        "text": "Then that would be, for each move by the first player",
+        "start": 101.22,
+        "duration": 3.7
+    },
+    {
+        "text": "the second player would have thirty.",
+        "start": 105.24,
+        "duration": 1.74
+    },
+    {
+        "text": "so if was only two moves",
+        "start": 107.34,
+        "duration": 2.38
+    },
+    {
+        "text": "It'd be thirty by thirty",
+        "start": 110.58,
+        "duration": 2.38
+    },
+    {
+        "text": "So that would be NINE HUNDRED already, just with two moves",
+        "start": 113.82,
+        "duration": 5.06
+    },
+    {
+        "text": "Some terminology here: when I'm saying *moves* I actually mean what is called a *ply*",
+        "start": 118.88,
+        "duration": 4.88
+    },
+    {
+        "text": "That means that one player goes first, then the second player goes next, then the next player...",
+        "start": 124.2,
+        "duration": 5.38
+    },
+    {
+        "text": "So in chess terminology a move is the white player then the black player",
+        "start": 129.7,
+        "duration": 4.56
+    },
+    {
+        "text": "So another move would be the white player again, the black player again.",
+        "start": 134.26,
+        "duration": 2.64
+    },
+    {
+        "text": "But we're just going to say *moves* to be: each player takes a move",
+        "start": 137.06,
+        "duration": 4.72
+    },
+    {
+        "text": "It's actually called a ply in chess terminology.",
+        "start": 141.92,
+        "duration": 2.82
+    },
+    {
+        "text": "So if the first player has 30 legal moves he can make",
+        "start": 145.08,
+        "duration": 2.62
+    },
+    {
+        "text": "Then for each move the second player has another 30 legal moves he can make",
+        "start": 148.14,
+        "duration": 5.32
+    },
+    {
+        "text": "So with just two moves there are nine hundred moves you can make altogether.",
+        "start": 153.54,
+        "duration": 6.12
+    },
+    {
+        "text": "If it was three moves, it would be 30 by 30 by 30",
+        "start": 160.06,
+        "duration": 3.4
+    },
+    {
+        "text": "If it was four moves, it would be 30 by 30 by 30 by 30.",
+        "start": 163.46,
+        "duration": 3.16
+    },
+    {
+        "text": "Shannon said, Well, a game is about 40 moves.",
+        "start": 166.86,
+        "duration": 4.14
+    },
+    {
+        "text": "Ah, that was in chess terminology, so he means 80 plays.",
+        "start": 171.0,
+        "duration": 3.92
+    },
+    {
+        "text": "So...",
+        "start": 175.28,
+        "duration": 0.5
+    },
+    {
+        "text": "This is all Shannon did, he said",
+        "start": 176.54,
+        "duration": 2.4
+    },
+    {
+        "text": "A game is about 30 legal moves...",
+        "start": 179.16,
+        "duration": 2.62
+    },
+    {
+        "text": "80 plays",
+        "start": 182.96,
+        "duration": 1.1
+    },
+    {
+        "text": "and that is around about 10 to the 120.",
+        "start": 185.22,
+        "duration": 3.74
+    },
+    {
+        "text": "BRADY: Well that is the most wishy-washy...",
+        "start": 189.38,
+        "duration": 1.74
+    },
+    {
+        "text": "JAMES: Yeah. It was only in passing, it was only an estimate, it was only a paragraph of the paper",
+        "start": 191.14,
+        "duration": 6.04
+    },
+    {
+        "text": "And he did this rough estimate, this rough number, to show that if you had a computer",
+        "start": 197.54,
+        "duration": 6.12
+    },
+    {
+        "text": "and it was trying to work out then the future of the game, and trying to work out",
+        "start": 203.66,
+        "duration": 4.2
+    },
+    {
+        "text": "all the legal moves and where this game was going to go",
+        "start": 207.86,
+        "duration": 2.04
+    },
+    {
+        "text": "so that it could make decisions, sort of, how to play next...",
+        "start": 210.42,
+        "duration": 3.02
+    },
+    {
+        "text": "Then, the computer would never make a move",
+        "start": 214.18,
+        "duration": 2.64
+    },
+    {
+        "text": "If it was calculating one game per microsecond it would be until the end of the universe",
+        "start": 217.34,
+        "duration": 7.88
+    },
+    {
+        "text": "it would never play. This was the point Shannon was trying to make with this rough estimate.",
+        "start": 225.22,
+        "duration": 6.24
+    },
+    {
+        "text": "So we're going to have a look at a sequence of games there are when each player takes their turn.",
+        "start": 231.88,
+        "duration": 6.14
+    },
+    {
+        "text": "So the first move is by white.",
+        "start": 238.02,
+        "duration": 1.9
+    },
+    {
+        "text": "So...let's take the first move, and white has twenty legal moves.",
+        "start": 240.48,
+        "duration": 6.68
+    },
+    {
+        "text": "So we've got...we've got one here for each pawn, so that's eight.",
+        "start": 247.44,
+        "duration": 8.2
+    },
+    {
+        "text": "We've got the double move there by each pawn, so we've got sixteen.",
+        "start": 256.26,
+        "duration": 4.14
+    },
+    {
+        "text": "We've got two moves there for each knight...two moves on this side here and here...",
+        "start": 261.34,
+        "duration": 8.2
+    },
+    {
+        "text": "And that's twenty.",
+        "start": 269.94,
+        "duration": 1.12
+    },
+    {
+        "text": "So, twenty moves for the first player. Now black takes the next turn",
+        "start": 271.46,
+        "duration": 4.88
+    },
+    {
+        "text": "And for the next turn he can respond with the same twenty moves.",
+        "start": 276.78,
+        "duration": 4.06
+    },
+    {
+        "text": "So for each move player 1 takes, black can take twenty moves, so you multiply, it's 20 by 20...",
+        "start": 281.18,
+        "duration": 8.68
+    },
+    {
+        "text": "There are now 400 games that could have happened, already.",
+        "start": 290.32,
+        "duration": 3.86
+    },
+    {
+        "text": "With just two moves there are already 400 games that could have happened.",
+        "start": 294.18,
+        "duration": 3.16
+    },
+    {
+        "text": "Let's see what happens next. Then suddenly it becomes much more complicated.",
+        "start": 298.04,
+        "duration": 4.76
+    },
+    {
+        "text": "When white plays next it becomes...8902 moves. Suddenly, phoof! 8000, well, nearly 9000 games that you can play, with just 3 plays.",
+        "start": 303.0,
+        "duration": 14.88
+    },
+    {
+        "text": "BRADY: This sounds a lot more precise than what Shannon was doing, this is real numbers.",
+        "start": 318.4,
+        "duration": 5.04
+    },
+    {
+        "text": "JAMES: Yeah, these are real numbers. With these small numbers we can work this out.",
+        "start": 323.44,
+        "duration": 3.9
+    },
+    {
+        "text": "So far so good -- it's going to get harder with larger numbers.",
+        "start": 327.34,
+        "duration": 3.74
+    },
+    {
+        "text": "So, let's write out a few more.",
+        "start": 331.3,
+        "duration": 1.8
+    },
+    {
+        "text": "The next move is black, and he'll have 197,742.",
+        "start": 333.1,
+        "duration": 7.8
+    },
+    {
+        "text": "So after black moves again we now have 197,742 possible games that could have been played.",
+        "start": 341.18,
+        "duration": 7.9
+    },
+    {
+        "text": "All the possible games we could have done in those four moves is already 200,000.",
+        "start": 349.52,
+        "duration": 5.36
+    },
+    {
+        "text": "BRADY: This is crazy.",
+        "start": 355.16,
+        "duration": 1.06
+    },
+    {
+        "text": "JAMES: Huge numbers already, huge numbers.",
+        "start": 356.22,
+        "duration": 2.42
+    },
+    {
+        "text": "BRADY: Although, you are able to know exactly what the number is, so it just seems like",
+        "start": 358.64,
+        "duration": 3.66
+    },
+    {
+        "text": "if you spend enough time on this you'll be able to...",
+        "start": 362.3,
+        "duration": 1.8
+    },
+    {
+        "text": "JAMES: So OK, we can keep going can't we? So we can keep going",
+        "start": 364.1,
+        "duration": 3.36
+    },
+    {
+        "text": "and these numbers are going to get bigger and bigger",
+        "start": 367.46,
+        "duration": 2.82
+    },
+    {
+        "text": "Now, in theory, the total number, the largest number, the longest chess game can be...",
+        "start": 370.74,
+        "duration": 8.56
+    },
+    {
+        "text": "something around 11,800 of these plys.",
+        "start": 379.9,
+        "duration": 6.7
+    },
+    {
+        "text": "11,800.",
+        "start": 387.1,
+        "duration": 1.52
+    },
+    {
+        "text": "That's invoking though, you have to invoke the 50 move rule, cause you could just go on forever,",
+        "start": 390.0,
+        "duration": 5.82
+    },
+    {
+        "text": "if you just ended up with two kings, just going backwards and forths.",
+        "start": 395.82,
+        "duration": 3.44
+    },
+    {
+        "text": "A game could last forever. So there is a rule that stops a game lasting forever that says:",
+        "start": 399.26,
+        "duration": 4.58
+    },
+    {
+        "text": "Well, if you've played 50 moves with nothing being captured, and you're just messing about--",
+        "start": 403.84,
+        "duration": 4.96
+    },
+    {
+        "text": "BRADY: Or a pawn being moved, isn't it.",
+        "start": 408.8,
+        "duration": 1.62
+    },
+    {
+        "text": "JAMES: Yeah it's a pawn hasn't moved, something hasn't been captured,",
+        "start": 410.42,
+        "duration": 3.54
+    },
+    {
+        "text": "or you repeat the board three times. If that happens then you call it a draw.",
+        "start": 413.96,
+        "duration": 5.98
+    },
+    {
+        "text": "So there's a cut-off point. Now some people have worked out what the longest possible chess game is...",
+        "start": 419.94,
+        "duration": 5.8
+    },
+    {
+        "text": "It's something around 11,800. There's some disagreement, not much disagreement though,",
+        "start": 426.2,
+        "duration": 6.22
+    },
+    {
+        "text": "Within, a hundred or so of that.",
+        "start": 432.42,
+        "duration": 2.32
+    },
+    {
+        "text": "So if you see how fast this sequence is growing, can you imagine how many games there are",
+        "start": 434.94,
+        "duration": 8.92
+    },
+    {
+        "text": "altogether. Especially when you're going all the way up to nearly 12,000 moves.",
+        "start": 443.86,
+        "duration": 6.52
+    },
+    {
+        "text": "Some of those games would be nonsense games, where you can win,",
+        "start": 450.38,
+        "duration": 3.82
+    },
+    {
+        "text": "you've only got one move left and you can win in one move, but you don't,",
+        "start": 454.2,
+        "duration": 4.3
+    },
+    {
+        "text": "you start moving other pieces and you start doing other things.",
+        "start": 458.5,
+        "duration": 2.94
+    },
+    {
+        "text": "It becomes a massively complex tree of possibilities",
+        "start": 461.58,
+        "duration": 5.44
+    },
+    {
+        "text": "and that's why this number is, just, going off to a HUGE numbers.",
+        "start": 467.02,
+        "duration": 4.96
+    },
+    {
+        "text": "Godfrey Hardy, a famous 20th century mathematician",
+        "start": 472.6,
+        "duration": 4.02
+    },
+    {
+        "text": "He tried to estimate the number of chess games there were.",
+        "start": 476.62,
+        "duration": 3.78
+    },
+    {
+        "text": "His estimate was ten to the power ten to the power fifty.",
+        "start": 480.56,
+        "duration": 8.0
+    },
+    {
+        "text": "Let me say that again: it was 10^(10^50).",
+        "start": 489.66,
+        "duration": 4.52
+    },
+    {
+        "text": "This is miniscule when you compare it with what Hardy's estimate was.",
+        "start": 494.18,
+        "duration": 6.48
+    },
+    {
+        "text": "What Shannon was doing was saying, \"This is a forty move game, where the average number of moves is thirty.\"",
+        "start": 500.66,
+        "duration": 7.92
+    },
+    {
+        "text": "So he was saying that if there were 80 plays, that's what he's saying,",
+        "start": 508.58,
+        "duration": 6.72
+    },
+    {
+        "text": "He's saying this is about ten to the power 120.",
+        "start": 515.46,
+        "duration": 5.14
+    },
+    {
+        "text": "That's what Shannon is saying.",
+        "start": 520.6,
+        "duration": 1.64
+    },
+    {
+        "text": "So he's not even considering all these other games.",
+        "start": 522.24,
+        "duration": 3.24
+    },
+    {
+        "text": "So it was Godfrey Hardy, the famous 20th century mathematician - worked at Cambridge, discovered Ramanujan,",
+        "start": 525.82,
+        "duration": 7.52
+    },
+    {
+        "text": "He tried to estimate how many games of chess there were.",
+        "start": 533.6,
+        "duration": 3.8
+    },
+    {
+        "text": "It was actually when he was writing about Ramanujan, cause Ramanujan had sent him a paper which had a large number in it",
+        "start": 537.4,
+        "duration": 6.82
+    },
+    {
+        "text": "He said, \"Just to understand how big this number is, if you compare it to the number of games of chess",
+        "start": 544.22,
+        "duration": 4.46
+    },
+    {
+        "text": "I reckon that's 10^(10^50).\"",
+        "start": 548.68,
+        "duration": 3.74
+    },
+    {
+        "text": "Was Hardy close? I don't know. He didn't give any working out for this, this was in passing",
+        "start": 552.42,
+        "duration": 5.0
+    },
+    {
+        "text": "I did say a lot of these would be nonsense games; let's try some sensible estimate.",
+        "start": 557.42,
+        "duration": 5.16
+    },
+    {
+        "text": "If it was, let's say if each player had an average of three sensible moves,",
+        "start": 562.76,
+        "duration": 6.36
+    },
+    {
+        "text": "instead of thirty legal moves. Same sort of idea. If we did that...",
+        "start": 569.12,
+        "duration": 4.74
+    },
+    {
+        "text": "So instead of 30^80 it would be, say, 3^80. Does that seem more reasonable? Yeah?",
+        "start": 574.08,
+        "duration": 10.42
+    },
+    {
+        "text": "So that's 3^80, I can tell you that's around about  10^40. So now not as large as the number of atoms in the observable universe",
+        "start": 584.8,
+        "duration": 12.5
+    },
+    {
+        "text": "Still, still very large though, 10^40.",
+        "start": 597.3,
+        "duration": 3.68
+    },
+    {
+        "text": "If for example, everyone in the world paired off and they had to play a game of chess every day",
+        "start": 601.7,
+        "duration": 8.62
+    },
+    {
+        "text": "and it had to be a different game every day, and they did that...",
+        "start": 610.64,
+        "duration": 4.28
+    },
+    {
+        "text": "To play all possible games, this 10^40 sensible games",
+        "start": 615.74,
+        "duration": 4.98
+    },
+    {
+        "text": "it would still take you trillions and trillions of years to play them all.",
+        "start": 621.08,
+        "duration": 7.08
+    },
+    {
+        "text": "Or if you think about it another way",
+        "start": 628.36,
+        "duration": 1.66
+    },
+    {
+        "text": "If we consider all games of chess that have ever been played in history,",
+        "start": 630.02,
+        "duration": 4.2
+    },
+    {
+        "text": "then that is only a tiny fraction of all the possible games of chess there are to play.",
+        "start": 634.9,
+        "duration": 6.96
+    },
+    {
+        "text": "BRADY: I can't think of a better supporter for a video about chess than a company called squarespace.",
+        "start": 642.76,
+        "duration": 5.72
+    },
+    {
+        "text": "Now if you want a presence on the web, whether it's a blog, a business, or just a cool way to tell the world about what you're doing,",
+        "start": 648.48,
+        "duration": 6.5
+    },
+    {
+        "text": "then squarespace is a super resource.",
+        "start": 655.1,
+        "duration": 2.76
+    },
+    {
+        "text": "I host my own blog on squarespace, and it's so quick and hassle-free.",
+        "start": 657.86,
+        "duration": 4.28
+    },
+    {
+        "text": "In a matter of minutes I can have anything up on the web, looking great --",
+        "start": 662.14,
+        "duration": 3.3
+    },
+    {
+        "text": "and that's looking great on both computers and mobile devices, which is often the hard bit.",
+        "start": 665.44,
+        "duration": 4.96
+    },
+    {
+        "text": "Now whether you're a bit of a novice, or you are a coding grandmaster",
+        "start": 671.24,
+        "duration": 4.42
+    },
+    {
+        "text": "squarespace will give you as little or as much control as you like.",
+        "start": 675.66,
+        "duration": 4.02
+    },
+    {
+        "text": "So whatever your endgame, you really should...check them out (see what I did there? \"check them out\").",
+        "start": 679.68,
+        "duration": 5.48
+    },
+    {
+        "text": "\"endgame\", it's pretty good that. Anyway.",
+        "start": 685.16,
+        "duration": 2.08
+    },
+    {
+        "text": "They've got a great range of templates to get started. Then you can tweak them, play around until your heart's content.",
+        "start": 687.46,
+        "duration": 5.38
+    },
+    {
+        "text": "And I'm not just saying this because they've sponsored today's episode",
+        "start": 693.02,
+        "duration": 2.8
+    },
+    {
+        "text": "which they have, and thank you for that,",
+        "start": 695.82,
+        "duration": 1.58
+    },
+    {
+        "text": "but I am a happy customer. Now you can have a 14 day free trial, give it a go before you commit, no credit card required,",
+        "start": 697.4,
+        "duration": 7.06
+    },
+    {
+        "text": "and then if you do like them, you can get 10% off your first purchase.",
+        "start": 704.58,
+        "duration": 4.2
+    },
+    {
+        "text": "Go to squarespace.com/numberphile",
+        "start": 709.0,
+        "duration": 4.08
+    },
+    {
+        "text": "And thanks to squarespace for supporting this episode.",
+        "start": 713.08,
+        "duration": 3.22
+    },
+    {
+        "text": "As they like to say, \"Build it Beautiful\"",
+        "start": 716.3,
+        "duration": 2.44
+    },
+    {
+        "text": "BRADY: Do you play chess?",
+        "start": 719.38,
+        "duration": 0.8
+    },
+    {
+        "text": "JAMES: I do play chess, I know chess, I'm no expert on chess, I'm no grandmaster.",
+        "start": 720.54,
+        "duration": 5.72
+    },
+    {
+        "text": "I play chess for fun perhaps. I used to play chess with my dad.",
+        "start": 726.54,
+        "duration": 3.98
+    }
+]

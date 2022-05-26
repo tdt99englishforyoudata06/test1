@@ -1,0 +1,2932 @@
+[
+    {
+        "text": "HOST:\nSo here I've got a\nfun little challenge.",
+        "start": 1.101,
+        "duration": 1.1
+    },
+    {
+        "text": "You tie a string\nbetween two chairs,",
+        "start": 2.301,
+        "duration": 2.303
+    },
+    {
+        "text": "and then you hang two\nbottles off that string.",
+        "start": 4.704,
+        "duration": 2.302
+    },
+    {
+        "text": "Now here's the challenge--\nyou can only touch the bottle",
+        "start": 7.106,
+        "duration": 2.336
+    },
+    {
+        "text": "on the right-hand side.",
+        "start": 9.542,
+        "duration": 1.335
+    },
+    {
+        "text": "So how do you get the bottle\non the left to start swinging?",
+        "start": 10.977,
+        "duration": 3.236
+    },
+    {
+        "text": "Check it out.",
+        "start": 14.313,
+        "duration": 0.968
+    },
+    {
+        "text": "Eventually the bottle on\nthe right stops swinging",
+        "start": 15.382,
+        "duration": 2.101
+    },
+    {
+        "text": "and the bottle on the\nleft starts swinging.",
+        "start": 17.584,
+        "duration": 1.801
+    },
+    {
+        "text": "So we're going to figure\nout why that works.",
+        "start": 19.485,
+        "duration": 2.737
+    },
+    {
+        "text": "[OFF-SCREEN]\nIt worked.",
+        "start": 22.322,
+        "duration": 2.101
+    },
+    {
+        "text": "Hello, I'm Dianna Cowern,",
+        "start": 24.523,
+        "duration": 1.468
+    },
+    {
+        "text": "and welcome to lesson 10--",
+        "start": 26.091,
+        "duration": 1.569
+    },
+    {
+        "text": "we've actually\nmade it so far--",
+        "start": 27.76,
+        "duration": 1.568
+    },
+    {
+        "text": "of Dianna's Intro\nPhysics class,",
+        "start": 29.429,
+        "duration": 1.735
+    },
+    {
+        "text": "also known as\nAP Physics 1 Review,",
+        "start": 31.264,
+        "duration": 2.202
+    },
+    {
+        "text": "also known as\nPhysics by Dianna.",
+        "start": 33.566,
+        "duration": 1.935
+    },
+    {
+        "text": "Today's lesson is\nconservation of energy.",
+        "start": 35.601,
+        "duration": 3.037
+    },
+    {
+        "text": "And today's theme is nature.",
+        "start": 38.738,
+        "duration": 3.136
+    },
+    {
+        "text": "[BIRDS CHIRPING]",
+        "start": 41.974,
+        "duration": 2.003
+    },
+    {
+        "text": "These are fake, which is not\nreally relevant at all today,",
+        "start": 46.579,
+        "duration": 2.903
+    },
+    {
+        "text": "except for the word\n\"conservation\"",
+        "start": 49.582,
+        "duration": 1.435
+    },
+    {
+        "text": "is a word that you usually\nhear related to nature,",
+        "start": 51.117,
+        "duration": 1.868
+    },
+    {
+        "text": "and we're not talking about\nthat kind of conservation,",
+        "start": 53.085,
+        "duration": 2.703
+    },
+    {
+        "text": "but we needed a theme.",
+        "start": 55.888,
+        "duration": 1.268
+    },
+    {
+        "text": "So in the last lesson,\nwe introduced energy.",
+        "start": 57.257,
+        "duration": 2.535
+    },
+    {
+        "text": "[BELL RINGS]",
+        "start": 59.892,
+        "duration": 1.134
+    },
+    {
+        "text": "Like, not for the first time\never because philosophers",
+        "start": 61.126,
+        "duration": 2.136
+    },
+    {
+        "text": "started doing that in\nthe fourth century.",
+        "start": 63.362,
+        "duration": 1.635
+    },
+    {
+        "text": "But we learned a\nlot about energy",
+        "start": 65.098,
+        "duration": 1.968
+    },
+    {
+        "text": "and the different kinds of\nenergy--energy of moving things",
+        "start": 67.166,
+        "duration": 4.572
+    },
+    {
+        "text": "called kinetic energy, and\nenergy stored in fields,",
+        "start": 71.838,
+        "duration": 3.103
+    },
+    {
+        "text": "like gravitational\npotential energy.",
+        "start": 75.041,
+        "duration": 2.703
+    },
+    {
+        "text": "And energy can be\ntransferred from one form",
+        "start": 77.844,
+        "duration": 2.535
+    },
+    {
+        "text": "to another, like\npotential to kinetic.",
+        "start": 80.479,
+        "duration": 2.303
+    },
+    {
+        "text": "We learned that.",
+        "start": 82.882,
+        "duration": 1.168
+    },
+    {
+        "text": "And of course, the big idea\nis that during this transfer",
+        "start": 84.15,
+        "duration": 2.602
+    },
+    {
+        "text": "of energy,\nenergy is never lost.",
+        "start": 86.852,
+        "duration": 2.469
+    },
+    {
+        "text": "It is conserved.",
+        "start": 89.421,
+        "duration": 1.235
+    },
+    {
+        "text": "[BELL RINGS]",
+        "start": 90.756,
+        "duration": 1.169
+    },
+    {
+        "text": "I don't know whether we actually\neven stated that last time.",
+        "start": 92.025,
+        "duration": 2.135
+    },
+    {
+        "text": "Did we?",
+        "start": 94.26,
+        "duration": 0.934
+    },
+    {
+        "text": "If we didn't, shame\non us, because, girl,",
+        "start": 95.294,
+        "duration": 3.17
+    },
+    {
+        "text": "this is a huge idea.",
+        "start": 98.564,
+        "duration": 1.668
+    },
+    {
+        "text": "Energy is conserved.",
+        "start": 100.332,
+        "duration": 2.436
+    },
+    {
+        "text": "As they say, energy is\nneither created nor destroyed.",
+        "start": 102.868,
+        "duration": 2.87
+    },
+    {
+        "text": "It just changes forms.",
+        "start": 105.838,
+        "duration": 2.202
+    },
+    {
+        "text": "And here's a really\ncool chart showing",
+        "start": 108.14,
+        "duration": 1.702
+    },
+    {
+        "text": "where the many different kinds\nof energy on Earth come from",
+        "start": 109.942,
+        "duration": 3.037
+    },
+    {
+        "text": "and what they turn into.",
+        "start": 113.079,
+        "duration": 1.1
+    },
+    {
+        "text": "But today, right\nhere on the internet,",
+        "start": 114.279,
+        "duration": 2.504
+    },
+    {
+        "text": "we're going to show how framing\nquestions in terms of energy",
+        "start": 116.883,
+        "duration": 2.402
+    },
+    {
+        "text": "and its conservation can give\nextra useful insight for you",
+        "start": 119.385,
+        "duration": 4.204
+    },
+    {
+        "text": "and make problems way\neasier to solve, like way .",
+        "start": 123.689,
+        "duration": 3.738
+    },
+    {
+        "text": "For example, at the\nend of this lesson,",
+        "start": 127.527,
+        "duration": 2.602
+    },
+    {
+        "text": "we're going to\nrevisit that problem",
+        "start": 130.229,
+        "duration": 1.935
+    },
+    {
+        "text": "about the bottle flipping.",
+        "start": 132.264,
+        "duration": 1.001
+    },
+    {
+        "text": "Does it go faster on the\nway up or the way down?",
+        "start": 133.366,
+        "duration": 1.567
+    },
+    {
+        "text": "And I promised you that\nwe'd come back to it",
+        "start": 135.034,
+        "duration": 1.735
+    },
+    {
+        "text": "and do it in an easier way.",
+        "start": 136.869,
+        "duration": 1.669
+    },
+    {
+        "text": "And we're going to answer the\nage-old question--whoops--",
+        "start": 138.638,
+        "duration": 3.136
+    },
+    {
+        "text": "we're going to answer\nthe age-old question:",
+        "start": 141.875,
+        "duration": 2.301
+    },
+    {
+        "text": "Is it better\nto sit in the front",
+        "start": 144.276,
+        "duration": 1.635
+    },
+    {
+        "text": "or the back\nof a roller coaster?",
+        "start": 146.011,
+        "duration": 2.403
+    },
+    {
+        "text": "You could start debating now.",
+        "start": 148.514,
+        "duration": 1.535
+    },
+    {
+        "text": "[MUSIC PLAYING]",
+        "start": 150.149,
+        "duration": 2.836
+    },
+    {
+        "text": "[PEOPLE SCREAMING]",
+        "start": 153.085,
+        "duration": 2.003
+    },
+    {
+        "text": "Amusement parks are\nawesome for physicists",
+        "start": 158.023,
+        "duration": 2.036
+    },
+    {
+        "text": "because there's\nphysics everywhere.",
+        "start": 160.159,
+        "duration": 1.802
+    },
+    {
+        "text": "There's this viral\nvideo of a carnival ride",
+        "start": 162.061,
+        "duration": 1.802
+    },
+    {
+        "text": "that's a cage usually with\ntwo people inside attached",
+        "start": 163.963,
+        "duration": 3.103
+    },
+    {
+        "text": "to some stretchy cords.",
+        "start": 167.166,
+        "duration": 1.601
+    },
+    {
+        "text": "And then they pull the\ncage all the way down,",
+        "start": 168.868,
+        "duration": 2.168
+    },
+    {
+        "text": "and they let it go and it flies\nup like nobody's business.",
+        "start": 171.136,
+        "duration": 3.638
+    },
+    {
+        "text": "So in the video, there's this\nyoung couple on the ride.",
+        "start": 174.874,
+        "duration": 2.168
+    },
+    {
+        "text": "So the operator straps\nthem in and tells them",
+        "start": 177.143,
+        "duration": 1.768
+    },
+    {
+        "text": "that their seat belts\nare way too loose",
+        "start": 179.011,
+        "duration": 2.002
+    },
+    {
+        "text": "right before he presses the\nbutton to launch the ride.",
+        "start": 181.113,
+        "duration": 3.204
+    },
+    {
+        "text": "And it's evil and hilarious.",
+        "start": 184.417,
+        "duration": 2.335
+    },
+    {
+        "text": "And you can look at it\nbecause I can't show it",
+        "start": 186.852,
+        "duration": 1.803
+    },
+    {
+        "text": "because of copyright.",
+        "start": 188.755,
+        "duration": 1.301
+    },
+    {
+        "text": "So in this ride, there's\nclearly conservation",
+        "start": 190.156,
+        "duration": 2.969
+    },
+    {
+        "text": "of energy happening.",
+        "start": 193.225,
+        "duration": 1.436
+    },
+    {
+        "text": "But the first question: Where\ndoes the energy come from?",
+        "start": 194.761,
+        "duration": 3.303
+    },
+    {
+        "text": "Older versions of this ride\nused huge bungee cords.",
+        "start": 198.164,
+        "duration": 3.337
+    },
+    {
+        "text": "But it turned out that\nthat was kind of dangerous.",
+        "start": 201.601,
+        "duration": 1.968
+    },
+    {
+        "text": "You can actually see other viral\nvideos of the bungees breaking",
+        "start": 203.669,
+        "duration": 2.536
+    },
+    {
+        "text": "right before the ride starts.",
+        "start": 206.305,
+        "duration": 1.935
+    },
+    {
+        "text": "I don't necessarily\nrecommend looking those up,",
+        "start": 208.34,
+        "duration": 2.202
+    },
+    {
+        "text": "although no one gets hurt.",
+        "start": 210.642,
+        "duration": 1.135
+    },
+    {
+        "text": "So modern versions of this\nride use steel cables hooked up",
+        "start": 211.877,
+        "duration": 2.403
+    },
+    {
+        "text": "to hundreds of smaller springs.",
+        "start": 214.38,
+        "duration": 2.736
+    },
+    {
+        "text": "The energy comes\nfrom the springs.",
+        "start": 217.216,
+        "duration": 2.869
+    },
+    {
+        "text": "This is interesting.",
+        "start": 220.185,
+        "duration": 1.402
+    },
+    {
+        "text": "It turns out, springs come\nin a lot of physics problems,",
+        "start": 221.687,
+        "duration": 3.336
+    },
+    {
+        "text": "including places that\nyou wouldn't suspect,",
+        "start": 225.124,
+        "duration": 1.869
+    },
+    {
+        "text": "like in molecular bonds\nand quantum mechanics.",
+        "start": 227.093,
+        "duration": 3.77
+    },
+    {
+        "text": "So we should probably\ncheck out some springs.",
+        "start": 230.963,
+        "duration": 2.169
+    },
+    {
+        "text": "[SPRINGING]",
+        "start": 233.232,
+        "duration": 0.901
+    },
+    {
+        "text": "So what does springs do?",
+        "start": 234.233,
+        "duration": 1.635
+    },
+    {
+        "text": "So when you stretch a\nspring, it wants to pull back",
+        "start": 238.704,
+        "duration": 3.471
+    },
+    {
+        "text": "to its original state.",
+        "start": 242.275,
+        "duration": 1.434
+    },
+    {
+        "text": "And when you push\nit or compress it,",
+        "start": 243.809,
+        "duration": 2.836
+    },
+    {
+        "text": "it wants to push back\nto its original state.",
+        "start": 246.746,
+        "duration": 1.901
+    },
+    {
+        "text": "The more that you\npush it or pull it,",
+        "start": 248.747,
+        "duration": 2.302
+    },
+    {
+        "text": "the more that it wants\nto push or pull back.",
+        "start": 251.15,
+        "duration": 3.971
+    },
+    {
+        "text": "So what's going on here?",
+        "start": 255.221,
+        "duration": 2.068
+    },
+    {
+        "text": "And I just want to\ncomplain a second",
+        "start": 257.389,
+        "duration": 1.402
+    },
+    {
+        "text": "about that very question,\nbecause physics classes often",
+        "start": 258.891,
+        "duration": 2.603
+    },
+    {
+        "text": "ask \"What's going on here?\"",
+        "start": 261.594,
+        "duration": 1.168
+    },
+    {
+        "text": "But they don't really\ngive you context.",
+        "start": 262.862,
+        "duration": 2.569
+    },
+    {
+        "text": "They don't explain what they\nmean by \"What's going on here?\"",
+        "start": 265.531,
+        "duration": 2.803
+    },
+    {
+        "text": "And what they usually mean\nis, Can we find an equation?",
+        "start": 268.434,
+        "duration": 3.503
+    },
+    {
+        "text": "Can we find an equation\nthat's good enough",
+        "start": 272.037,
+        "duration": 1.636
+    },
+    {
+        "text": "to describe the behavior\nof a spring and one",
+        "start": 273.773,
+        "duration": 3.17
+    },
+    {
+        "text": "that we can use to predict\nhow springs will behave,",
+        "start": 277.043,
+        "duration": 3.203
+    },
+    {
+        "text": "how much they'll push back,\nhow much energy they store?",
+        "start": 280.346,
+        "duration": 2.836
+    },
+    {
+        "text": "So that's we're going to\nlook for, that equation.",
+        "start": 283.283,
+        "duration": 1.934
+    },
+    {
+        "text": "A typical experimental\nsetup with a spring",
+        "start": 285.317,
+        "duration": 1.536
+    },
+    {
+        "text": "trying to find this equation\nmight look like this.",
+        "start": 286.953,
+        "duration": 2.001
+    },
+    {
+        "text": "There's a spring.",
+        "start": 295.695,
+        "duration": 1.735
+    },
+    {
+        "text": "You're going to have a\nspring with one end attached",
+        "start": 297.53,
+        "duration": 3.203
+    },
+    {
+        "text": "to the wall.",
+        "start": 300.833,
+        "duration": 1.201
+    },
+    {
+        "text": "And the other end is\nattached to a force meter.",
+        "start": 302.134,
+        "duration": 3.237
+    },
+    {
+        "text": "Force.",
+        "start": 305.471,
+        "duration": 1.035
+    },
+    {
+        "text": "Like one of those\nscales that has a hook",
+        "start": 306.606,
+        "duration": 2.134
+    },
+    {
+        "text": "and a dial that tells you\nwhat the force is when",
+        "start": 308.841,
+        "duration": 2.236
+    },
+    {
+        "text": "you stretch or compress it.",
+        "start": 311.177,
+        "duration": 1.701
+    },
+    {
+        "text": "So let's graph what we\nwould see for the force",
+        "start": 312.978,
+        "duration": 2.103
+    },
+    {
+        "text": "if we actually did\nthis and stretched it",
+        "start": 315.181,
+        "duration": 1.935
+    },
+    {
+        "text": "to different distances.",
+        "start": 317.216,
+        "duration": 1.602
+    },
+    {
+        "text": "So on my graph...",
+        "start": 318.918,
+        "duration": 2.636
+    },
+    {
+        "text": "I'll draw it over here.",
+        "start": 321.654,
+        "duration": 1.401
+    },
+    {
+        "text": "On my graph, I've got force\non the y-axis in newtons.",
+        "start": 323.155,
+        "duration": 5.506
+    },
+    {
+        "text": "And I've got displacement\non the x-axis in meters.",
+        "start": 328.761,
+        "duration": 4.137
+    },
+    {
+        "text": "And by \"displacement,\"\nI mean how much",
+        "start": 332.998,
+        "duration": 1.969
+    },
+    {
+        "text": "the spring is\nstretched or compressed",
+        "start": 335.067,
+        "duration": 3.137
+    },
+    {
+        "text": "from its rest position.",
+        "start": 338.304,
+        "duration": 1.168
+    },
+    {
+        "text": "And we'll call the rest\nposition right here x equals 0.",
+        "start": 339.572,
+        "duration": 3.336
+    },
+    {
+        "text": "So I can either go forward--\npositive x is stretching--",
+        "start": 343.008,
+        "duration": 3.171
+    },
+    {
+        "text": "or backward--negative\nx is compressing.",
+        "start": 346.279,
+        "duration": 3.17
+    },
+    {
+        "text": "So when I stretch the spring\nwith a positive displacement",
+        "start": 349.549,
+        "duration": 2.269
+    },
+    {
+        "text": "in the x direction,\nthe spring is",
+        "start": 351.918,
+        "duration": 2.201
+    },
+    {
+        "text": "trying to pull back\ntoward the zero position.",
+        "start": 354.219,
+        "duration": 2.603
+    },
+    {
+        "text": "So the x is positive\nover here, but it's",
+        "start": 356.922,
+        "duration": 2.569
+    },
+    {
+        "text": "exerting a force in the\nnegative direction, a minus F.",
+        "start": 359.591,
+        "duration": 2.937
+    },
+    {
+        "text": "So I'm going to\nhave a point here,",
+        "start": 362.628,
+        "duration": 1.769
+    },
+    {
+        "text": "and positive x but minus F.",
+        "start": 364.497,
+        "duration": 2.669
+    },
+    {
+        "text": "And then if I stretch\nit even further,",
+        "start": 367.266,
+        "duration": 1.735
+    },
+    {
+        "text": "it has a greater\nposition, positive x,",
+        "start": 369.101,
+        "duration": 2.303
+    },
+    {
+        "text": "but it's pulling with a\nbigger force, minus F.",
+        "start": 371.504,
+        "duration": 2.502
+    },
+    {
+        "text": "So I'm going to have a\nminus point over here.",
+        "start": 374.107,
+        "duration": 3.937
+    },
+    {
+        "text": "And maybe just a couple\nmore points like that.",
+        "start": 378.144,
+        "duration": 3.069
+    },
+    {
+        "text": "So if you actually do this\nwith a spring in real life,",
+        "start": 381.313,
+        "duration": 2.136
+    },
+    {
+        "text": "your dots should fall\non a graph that's",
+        "start": 383.549,
+        "duration": 2.236
+    },
+    {
+        "text": "pretty much a straight line.",
+        "start": 385.885,
+        "duration": 1.635
+    },
+    {
+        "text": "So now let's try compressing\nthe spring or pushing it in.",
+        "start": 387.62,
+        "duration": 3.069
+    },
+    {
+        "text": "And when I squeeze\nthe spring, the end here",
+        "start": 390.789,
+        "duration": 2.069
+    },
+    {
+        "text": "undergoes a negative\ndisplacement, minus x.",
+        "start": 392.958,
+        "duration": 3.871
+    },
+    {
+        "text": "And the spring is now\ntrying to push back",
+        "start": 396.929,
+        "duration": 1.735
+    },
+    {
+        "text": "in the opposite direction.",
+        "start": 398.764,
+        "duration": 1.101
+    },
+    {
+        "text": "So that's a positive\nforce, a plus F.",
+        "start": 399.965,
+        "duration": 2.436
+    },
+    {
+        "text": "So I'm going to have a\nminus x and a positive F--",
+        "start": 402.501,
+        "duration": 2.903
+    },
+    {
+        "text": "somewhere here; I'd have\nmaybe another point here.",
+        "start": 405.504,
+        "duration": 3.77
+    },
+    {
+        "text": "And obviously if\nI was just at 0,",
+        "start": 409.375,
+        "duration": 2.602
+    },
+    {
+        "text": "nothing would be\nhappening with the force.",
+        "start": 412.077,
+        "duration": 1.669
+    },
+    {
+        "text": "Now all these points should\nfall in approximately",
+        "start": 413.846,
+        "duration": 2.202
+    },
+    {
+        "text": "a straight line, too,",
+        "start": 416.148,
+        "duration": 1.101
+    },
+    {
+        "text": "because if I actually measure\nthis spring's position",
+        "start": 417.349,
+        "duration": 2.102
+    },
+    {
+        "text": "in meters and the force\nexerted in newtons,",
+        "start": 419.552,
+        "duration": 2.969
+    },
+    {
+        "text": "then I would find that this\nrelationship is linear.",
+        "start": 422.621,
+        "duration": 3.003
+    },
+    {
+        "text": "Ah.",
+        "start": 425.724,
+        "duration": 1.102
+    },
+    {
+        "text": "This linear relationship\nwas discovered in the 1600s",
+        "start": 426.926,
+        "duration": 4.036
+    },
+    {
+        "text": "by an English scientist\ndude named Robert Hooke.",
+        "start": 431.063,
+        "duration": 2.769
+    },
+    {
+        "text": "So the relationship is called\nHooke's law,",
+        "start": 433.932,
+        "duration": 1.602
+    },
+    {
+        "text": "or the spring force\nequation.",
+        "start": 435.634,
+        "duration": 1.568
+    },
+    {
+        "text": "And the equation that\ndescribes this graph",
+        "start": 437.302,
+        "duration": 2.937
+    },
+    {
+        "text": "is the equation that\nwe were looking for.",
+        "start": 440.339,
+        "duration": 1.835
+    },
+    {
+        "text": "And it's F equals minus kx.",
+        "start": 442.274,
+        "duration": 3.871
+    },
+    {
+        "text": "The k here is the slope.",
+        "start": 446.245,
+        "duration": 1.968
+    },
+    {
+        "text": "And that's called\nthe spring constant.",
+        "start": 448.313,
+        "duration": 1.769
+    },
+    {
+        "text": "And it tells you how\nstiff the spring is.",
+        "start": 450.182,
+        "duration": 2.903
+    },
+    {
+        "text": "So let's check the units of k.",
+        "start": 453.185,
+        "duration": 2.136
+    },
+    {
+        "text": "We got newtons on the left,",
+        "start": 455.421,
+        "duration": 3.103
+    },
+    {
+        "text": "and I've got meters\non the right.",
+        "start": 458.624,
+        "duration": 2.837
+    },
+    {
+        "text": "So then k is going to have\nto be newtons per meter.",
+        "start": 461.561,
+        "duration": 4.804
+    },
+    {
+        "text": "Different springs have\ndifferent spring constants",
+        "start": 466.465,
+        "duration": 1.969
+    },
+    {
+        "text": "depending on the size,\ncomposition, construction.",
+        "start": 468.534,
+        "duration": 4.004
+    },
+    {
+        "text": "So I measured this spring, I\nmeasured this spring earlier",
+        "start": 472.638,
+        "duration": 6.239
+    },
+    {
+        "text": "from a clicky pen--",
+        "start": 478.977,
+        "duration": 1.269
+    },
+    {
+        "text": "me, me, me.",
+        "start": 480.346,
+        "duration": 1.567
+    },
+    {
+        "text": "And I measured on a scale.",
+        "start": 482.013,
+        "duration": 1.97
+    },
+    {
+        "text": "So I press it down\nuntil it maxed out",
+        "start": 484.083,
+        "duration": 5.939
+    },
+    {
+        "text": "at two ounces, which\nis 0.55 newtons.",
+        "start": 490.122,
+        "duration": 3.603
+    },
+    {
+        "text": "And I divided that\nby the displacement,",
+        "start": 493.825,
+        "duration": 1.869
+    },
+    {
+        "text": "and it only displaced\nabout 2 millimeters,",
+        "start": 495.794,
+        "duration": 2.637
+    },
+    {
+        "text": "which is 0.002 meters.",
+        "start": 498.531,
+        "duration": 3.036
+    },
+    {
+        "text": "OK, I'm using this\nequation right now",
+        "start": 501.667,
+        "duration": 1.768
+    },
+    {
+        "text": "to figure out the\nspring constant.",
+        "start": 503.535,
+        "duration": 1.301
+    },
+    {
+        "text": "The force was two ounces,\nwhich is about 0.55 newtons.",
+        "start": 504.936,
+        "duration": 4.539
+    },
+    {
+        "text": "I'm looking for k.",
+        "start": 509.575,
+        "duration": 0.867
+    },
+    {
+        "text": "And then the x--",
+        "start": 510.542,
+        "duration": 1.101
+    },
+    {
+        "text": "the x was really\nhard to measure.",
+        "start": 511.744,
+        "duration": 2.168
+    },
+    {
+        "text": "But it was\nabout 2 millimeters--",
+        "start": 514.012,
+        "duration": 1.869
+    },
+    {
+        "text": "or I need that in meters.",
+        "start": 515.981,
+        "duration": 1.635
+    },
+    {
+        "text": "It was negative, so\nnegative 0.0029 meters.",
+        "start": 517.717,
+        "duration": 4.97
+    },
+    {
+        "text": "And that works out to\ngive me a spring constant",
+        "start": 522.788,
+        "duration": 1.969
+    },
+    {
+        "text": "of 275 newtons per\nmeter, which is",
+        "start": 524.857,
+        "duration": 4.904
+    },
+    {
+        "text": "a pretty typical spring constant\nfor a spring of this size.",
+        "start": 529.861,
+        "duration": 3.504
+    },
+    {
+        "text": "But a spring like this\nwould definitely",
+        "start": 533.465,
+        "duration": 3.204
+    },
+    {
+        "text": "have a bigger spring\nconstant because it",
+        "start": 536.769,
+        "duration": 2.702
+    },
+    {
+        "text": "takes more newtons,\nmore force, to go",
+        "start": 539.571,
+        "duration": 2.937
+    },
+    {
+        "text": "a certain number of meters.",
+        "start": 542.608,
+        "duration": 1.702
+    },
+    {
+        "text": "And the coils attached\nto your car wheels",
+        "start": 544.41,
+        "duration": 1.835
+    },
+    {
+        "text": "might have a spring\nconstant of something",
+        "start": 546.345,
+        "duration": 1.635
+    },
+    {
+        "text": "like 50,000 newtons per meter.",
+        "start": 548.08,
+        "duration": 4.204
+    },
+    {
+        "text": "So that's what the\nspring constant you.",
+        "start": 552.384,
+        "duration": 1.635
+    },
+    {
+        "text": "Fun fact, when you hear\n\"spring,\" you probably",
+        "start": 554.119,
+        "duration": 3.17
+    },
+    {
+        "text": "imagine this or this.",
+        "start": 557.389,
+        "duration": 4.705
+    },
+    {
+        "text": "But some unexpected\ntypes of springs",
+        "start": 562.194,
+        "duration": 2.203
+    },
+    {
+        "text": "are other things, like maybe\nan archer's bow string",
+        "start": 564.497,
+        "duration": 2.802
+    },
+    {
+        "text": "or a pair of tweezers,\nbecause they spring.",
+        "start": 567.399,
+        "duration": 2.903
+    },
+    {
+        "text": "And some researchers\nhave even studied",
+        "start": 570.402,
+        "duration": 1.502
+    },
+    {
+        "text": "the math of how a\nchameleon's tongue acts",
+        "start": 572.004,
+        "duration": 2.569
+    },
+    {
+        "text": "like a bunch of\nconnected springs",
+        "start": 574.673,
+        "duration": 1.468
+    },
+    {
+        "text": "when it shoots\nout to catch bugs.",
+        "start": 576.241,
+        "duration": 1.736
+    },
+    {
+        "text": "OK, cool.",
+        "start": 580.679,
+        "duration": 1.068
+    },
+    {
+        "text": "We have a model now for\nthe force a spring exerts.",
+        "start": 581.847,
+        "duration": 2.837
+    },
+    {
+        "text": "But what about finding a model\nfor the energy it stores?",
+        "start": 584.784,
+        "duration": 3.503
+    },
+    {
+        "text": "That sounds fun.",
+        "start": 588.387,
+        "duration": 1.401
+    },
+    {
+        "text": "I know there is\nenergy there because",
+        "start": 589.888,
+        "duration": 2.169
+    },
+    {
+        "text": "when I let a spring go...",
+        "start": 592.157,
+        "duration": 1.969
+    },
+    {
+        "text": "there is obviously a\nkinetic energy that appears.",
+        "start": 599.264,
+        "duration": 3.037
+    },
+    {
+        "text": "So you'll be happy to\nhear that you already know",
+        "start": 602.401,
+        "duration": 2.102
+    },
+    {
+        "text": "how to think about the\nstored energy in a spring,",
+        "start": 604.603,
+        "duration": 2.636
+    },
+    {
+        "text": "because we know how\nto think about work.",
+        "start": 607.339,
+        "duration": 2.903
+    },
+    {
+        "text": "OK, so work is...",
+        "start": 610.342,
+        "duration": 5.238
+    },
+    {
+        "text": "w equals\nF delta x, right?",
+        "start": 615.68,
+        "duration": 2.803
+    },
+    {
+        "text": "In the last lesson when\nwe worked with work,",
+        "start": 618.584,
+        "duration": 2.435
+    },
+    {
+        "text": "we were using cases\nwith a constant force.",
+        "start": 621.119,
+        "duration": 2.069
+    },
+    {
+        "text": "But here, though, we have a\nforce that's not constant.",
+        "start": 623.288,
+        "duration": 3.537
+    },
+    {
+        "text": "As we stretch the spring,\nwe change the force.",
+        "start": 626.925,
+        "duration": 3.47
+    },
+    {
+        "text": "What a headache.",
+        "start": 630.495,
+        "duration": 0.968
+    },
+    {
+        "text": "But don't despair, we\ncan actually find and use",
+        "start": 631.564,
+        "duration": 2.635
+    },
+    {
+        "text": "the average force trick,\nwhich is very similar",
+        "start": 634.299,
+        "duration": 2.003
+    },
+    {
+        "text": "to the earlier lessons\nwhen we used",
+        "start": 636.402,
+        "duration": 1.735
+    },
+    {
+        "text": "the average velocity trick.",
+        "start": 638.237,
+        "duration": 2.068
+    },
+    {
+        "text": "So let's say we stretch\nour spring some distance, x.",
+        "start": 640.405,
+        "duration": 2.904
+    },
+    {
+        "text": "I'm going to mark it\non this graph.",
+        "start": 643.409,
+        "duration": 3.569
+    },
+    {
+        "text": "So we stretch our\nspring some distance, x.",
+        "start": 647.078,
+        "duration": 3.237
+    },
+    {
+        "text": "Then the force of the\nspring is minus kx.",
+        "start": 650.415,
+        "duration": 5.239
+    },
+    {
+        "text": "And here, when the spring was\nrelaxed before we stretched it,",
+        "start": 655.754,
+        "duration": 3.27
+    },
+    {
+        "text": "the force was 0.",
+        "start": 659.124,
+        "duration": 1.369
+    },
+    {
+        "text": "So then the average\nforce it took",
+        "start": 660.593,
+        "duration": 1.701
+    },
+    {
+        "text": "to stretch this spring\nto this point",
+        "start": 662.394,
+        "duration": 2.169
+    },
+    {
+        "text": "is halfway between\n0 and kx, or 1/2 kx.",
+        "start": 664.663,
+        "duration": 5.572
+    },
+    {
+        "text": "We don't actually have to\nworry about the minus sign",
+        "start": 670.335,
+        "duration": 2.07
+    },
+    {
+        "text": "right now because we don't\ncare about the direction",
+        "start": 672.505,
+        "duration": 2.035
+    },
+    {
+        "text": "of the force,\njust the size of it.",
+        "start": 674.64,
+        "duration": 1.568
+    },
+    {
+        "text": "But now we can figure out the\ntotal work done to stretch",
+        "start": 676.308,
+        "duration": 2.803
+    },
+    {
+        "text": "the spring to this point, x.",
+        "start": 679.211,
+        "duration": 2.402
+    },
+    {
+        "text": "The total work is going to\nbe the average force,",
+        "start": 681.713,
+        "duration": 2.57
+    },
+    {
+        "text": "which we just figured out,\n1/2 kx, times our delta x",
+        "start": 684.383,
+        "duration": 3.303
+    },
+    {
+        "text": "which is the distance\nthat I stretched it, x,",
+        "start": 687.786,
+        "duration": 2.269
+    },
+    {
+        "text": "which ends up being\nwork equals 1/2 kx squared.",
+        "start": 690.155,
+        "duration": 6.773
+    },
+    {
+        "text": "Check it out.",
+        "start": 697.028,
+        "duration": 1.201
+    },
+    {
+        "text": "This is just the area\nunder the curve here.",
+        "start": 698.33,
+        "duration": 3.637
+    },
+    {
+        "text": "Beautiful.",
+        "start": 702.068,
+        "duration": 1.534
+    },
+    {
+        "text": "That's the work that it\ntakes to stretch or squeeze",
+        "start": 703.702,
+        "duration": 2.636
+    },
+    {
+        "text": "a spring by some amount, x.",
+        "start": 706.438,
+        "duration": 2.536
+    },
+    {
+        "text": "And that's also--surprise--",
+        "start": 709.074,
+        "duration": 2.069
+    },
+    {
+        "text": "how much energy get\nstored in the spring",
+        "start": 711.243,
+        "duration": 1.969
+    },
+    {
+        "text": "when it's stretched or\ncompressed by some amount, x.",
+        "start": 713.312,
+        "duration": 3.436
+    },
+    {
+        "text": "So I can just write\nthis as energy.",
+        "start": 716.848,
+        "duration": 2.17
+    },
+    {
+        "text": "This is a little confusing,\nbecause e as a symbol of energy",
+        "start": 719.118,
+        "duration": 3.636
+    },
+    {
+        "text": "is not super clear.",
+        "start": 722.854,
+        "duration": 0.902
+    },
+    {
+        "text": "What kind of energy\nwe're talking about?",
+        "start": 723.856,
+        "duration": 1.635
+    },
+    {
+        "text": "So some people write this as\nU, and I'm going to do that.",
+        "start": 725.591,
+        "duration": 4.871
+    },
+    {
+        "text": "But you could also write\nit is PE, potential energy,",
+        "start": 730.562,
+        "duration": 3.037
+    },
+    {
+        "text": "with a little s,\nso you know you're",
+        "start": 733.699,
+        "duration": 1.368
+    },
+    {
+        "text": "talking about spring energy,\nor you could write it",
+        "start": 735.167,
+        "duration": 1.969
+    },
+    {
+        "text": "as energy with a little s,\nas long as everyone knows",
+        "start": 737.236,
+        "duration": 3.302
+    },
+    {
+        "text": "what you're talking about.",
+        "start": 740.638,
+        "duration": 1.102
+    },
+    {
+        "text": "So now I have a simple\nmodel for the energy",
+        "start": 741.84,
+        "duration": 2.035
+    },
+    {
+        "text": "stored in a compressed\nor stretched spring.",
+        "start": 743.975,
+        "duration": 2.436
+    },
+    {
+        "text": "So congratulations,\nwe have made it",
+        "start": 746.511,
+        "duration": 1.936
+    },
+    {
+        "text": "past the part of\nthe video where we say,",
+        "start": 748.547,
+        "duration": 1.902
+    },
+    {
+        "text": "What's going on here?",
+        "start": 750.549,
+        "duration": 1.468
+    },
+    {
+        "text": "And we come up with new\nmodels, which we did--",
+        "start": 752.117,
+        "duration": 2.069
+    },
+    {
+        "text": "new equations to describe\nwhat is going on.",
+        "start": 754.286,
+        "duration": 4.271
+    },
+    {
+        "text": "So now we can think\nabout the bungee-cord ride",
+        "start": 758.657,
+        "duration": 2.602
+    },
+    {
+        "text": "we talked about, which\nhonestly terrifies me.",
+        "start": 761.36,
+        "duration": 3.036
+    },
+    {
+        "text": "So looking at this\nride, I was really",
+        "start": 764.496,
+        "duration": 1.469
+    },
+    {
+        "text": "curious about the springs\npowering the ride.",
+        "start": 766.065,
+        "duration": 2.002
+    },
+    {
+        "text": "So I did some research\nand I found that the modern,",
+        "start": 768.167,
+        "duration": 1.835
+    },
+    {
+        "text": "safer version of this ride\ncan have up to 720 springs",
+        "start": 770.102,
+        "duration": 5.539
+    },
+    {
+        "text": "all attached in parallel.",
+        "start": 775.741,
+        "duration": 3.103
+    },
+    {
+        "text": "So we'll draw it like\nthis, springs all attached",
+        "start": 778.944,
+        "duration": 6.74
+    },
+    {
+        "text": "in parallel.",
+        "start": 785.784,
+        "duration": 2.135
+    },
+    {
+        "text": "Imagine there's 700 of these.",
+        "start": 788.019,
+        "duration": 2.236
+    },
+    {
+        "text": "This thing is\nmoving up and down",
+        "start": 790.355,
+        "duration": 1.769
+    },
+    {
+        "text": "and then pulling on one end\nof the steel cable.",
+        "start": 792.224,
+        "duration": 4.371
+    },
+    {
+        "text": "And then the cable's attached to\na bunch of pulleys, like this.",
+        "start": 796.695,
+        "duration": 3.67
+    },
+    {
+        "text": "And then the springs\ncan compress and stretch",
+        "start": 804.57,
+        "duration": 3.703
+    },
+    {
+        "text": "a length of about 1.25 meters.",
+        "start": 808.373,
+        "duration": 4.838
+    },
+    {
+        "text": "So the steel cables attach\nto a bunch of pulleys",
+        "start": 813.311,
+        "duration": 1.969
+    },
+    {
+        "text": "so the springs don't\nhave to stretch",
+        "start": 815.38,
+        "duration": 1.401
+    },
+    {
+        "text": "all the way to the ground;",
+        "start": 816.881,
+        "duration": 1.402
+    },
+    {
+        "text": "the springs get stretched\nonly about 1.25 meters;",
+        "start": 818.383,
+        "duration": 2.536
+    },
+    {
+        "text": "and the humans then get\nlaunched to a typical altitude",
+        "start": 821.019,
+        "duration": 3.17
+    },
+    {
+        "text": "of 80 meters.",
+        "start": 824.289,
+        "duration": 2.536
+    },
+    {
+        "text": "So here they are\nstarting at the ground.",
+        "start": 826.925,
+        "duration": 2.536
+    },
+    {
+        "text": "Here's my people. \"Aah!\"",
+        "start": 829.561,
+        "duration": 2.403
+    },
+    {
+        "text": "They get launched up to\nthis height of 80 meters.",
+        "start": 832.064,
+        "duration": 3.337
+    },
+    {
+        "text": "Whoo.",
+        "start": 837.102,
+        "duration": 1.168
+    },
+    {
+        "text": "So given all of this, I can\nfigure out the spring constants",
+        "start": 838.37,
+        "duration": 2.67
+    },
+    {
+        "text": "of the springs.",
+        "start": 841.14,
+        "duration": 0.967
+    },
+    {
+        "text": "Exciting.",
+        "start": 842.207,
+        "duration": 1.102
+    },
+    {
+        "text": "So let's do the math.",
+        "start": 843.409,
+        "duration": 1.501
+    },
+    {
+        "text": "So the problem we're\ntrying to solve",
+        "start": 845.01,
+        "duration": 1.401
+    },
+    {
+        "text": "is to find the spring constants.",
+        "start": 846.511,
+        "duration": 1.836
+    },
+    {
+        "text": "We have everything we need.",
+        "start": 848.447,
+        "duration": 1.267
+    },
+    {
+        "text": "A typical mass for the\nhumans and the steel ball",
+        "start": 849.815,
+        "duration": 2.202
+    },
+    {
+        "text": "together could be\naround 400 kilograms.",
+        "start": 852.117,
+        "duration": 4.472
+    },
+    {
+        "text": "And we're going\nto need that mass.",
+        "start": 856.689,
+        "duration": 1.334
+    },
+    {
+        "text": "And if they're\nlaunched to 80 meters,",
+        "start": 858.123,
+        "duration": 1.468
+    },
+    {
+        "text": "then we can find the\ngravitational potential energy,",
+        "start": 859.691,
+        "duration": 2.269
+    },
+    {
+        "text": "which is mgh.",
+        "start": 862.06,
+        "duration": 1.869
+    },
+    {
+        "text": "P, potential energy, is mgh.",
+        "start": 864.029,
+        "duration": 3.537
+    },
+    {
+        "text": "Then we've got 400 kilograms,\ng is about 10 meters",
+        "start": 867.666,
+        "duration": 6.239
+    },
+    {
+        "text": "per second squared.",
+        "start": 874.005,
+        "duration": 1.268
+    },
+    {
+        "text": "If you're just\njoining these lessons,",
+        "start": 875.373,
+        "duration": 1.969
+    },
+    {
+        "text": "we typically use 10 for\nthe acceleration of gravity",
+        "start": 877.442,
+        "duration": 2.637
+    },
+    {
+        "text": "because it's 9.81 meters\nper second squared,",
+        "start": 880.179,
+        "duration": 1.734
+    },
+    {
+        "text": "but we round it to 10, because\nit makes things easier.",
+        "start": 882.013,
+        "duration": 2.336
+    },
+    {
+        "text": "And h is 80 meters.",
+        "start": 884.449,
+        "duration": 2.503
+    },
+    {
+        "text": "Do all this math out and\nyou get about 320,000 joules",
+        "start": 887.052,
+        "duration": 3.937
+    },
+    {
+        "text": "of gravitational\npotential energy",
+        "start": 891.09,
+        "duration": 1.4
+    },
+    {
+        "text": "up at the top of the ride.",
+        "start": 892.59,
+        "duration": 0.968
+    },
+    {
+        "text": "That's a lot.",
+        "start": 893.658,
+        "duration": 1.102
+    },
+    {
+        "text": "And where did all of\nthat energy come from?",
+        "start": 894.86,
+        "duration": 2.603
+    },
+    {
+        "text": "From the stretched springs.",
+        "start": 897.563,
+        "duration": 2.369
+    },
+    {
+        "text": "Let's divide up 320,000 by\naround 700 springs to get 400.",
+        "start": 900.032,
+        "duration": 4.837
+    },
+    {
+        "text": "If you divide 320,000 by\n700, you get 460 joules.",
+        "start": 904.97,
+        "duration": 5.205
+    },
+    {
+        "text": "And what does that?",
+        "start": 910.275,
+        "duration": 1.402
+    },
+    {
+        "text": "Well, that's the\nenergy per spring.",
+        "start": 911.777,
+        "duration": 1.868
+    },
+    {
+        "text": "This is the energy stored\nin each spring when",
+        "start": 916.047,
+        "duration": 1.769
+    },
+    {
+        "text": "it's fully stretched.",
+        "start": 917.916,
+        "duration": 1.668
+    },
+    {
+        "text": "I'm looking for k.",
+        "start": 919.684,
+        "duration": 1.068
+    },
+    {
+        "text": "So I'll go back to my\nspring constant equation.",
+        "start": 920.853,
+        "duration": 4.404
+    },
+    {
+        "text": "I know the potential\nenergy of the spring",
+        "start": 925.357,
+        "duration": 2.302
+    },
+    {
+        "text": "is 1/2 half kx squared.",
+        "start": 927.759,
+        "duration": 1.501
+    },
+    {
+        "text": "For each spring,\nit's 460 joules.",
+        "start": 929.361,
+        "duration": 2.435
+    },
+    {
+        "text": "So that's 1/2 k.",
+        "start": 931.896,
+        "duration": 1.869
+    },
+    {
+        "text": "And my x is not the height.",
+        "start": 933.865,
+        "duration": 2.203
+    },
+    {
+        "text": "It's this distance here, the\n1.25 meters that the springs",
+        "start": 936.168,
+        "duration": 3.87
+    },
+    {
+        "text": "were stretched, squared.",
+        "start": 940.138,
+        "duration": 1.568
+    },
+    {
+        "text": "1.25 meters squared.",
+        "start": 941.806,
+        "duration": 3.204
+    },
+    {
+        "text": "If I do all this\nmath, I get that k",
+        "start": 945.11,
+        "duration": 2.102
+    },
+    {
+        "text": "is approximately 580\nnewtons per meter.",
+        "start": 947.312,
+        "duration": 3.904
+    },
+    {
+        "text": "Ta-dah!",
+        "start": 952.45,
+        "duration": 1.769
+    },
+    {
+        "text": "That's the spring constant\nof all these little springs.",
+        "start": 954.319,
+        "duration": 2.903
+    },
+    {
+        "text": "These are big springs.",
+        "start": 957.322,
+        "duration": 1.535
+    },
+    {
+        "text": "Now I want you to take a minute\nand look at our math model",
+        "start": 958.957,
+        "duration": 2.303
+    },
+    {
+        "text": "and convince\nyourself that it's OK",
+        "start": 961.36,
+        "duration": 1.601
+    },
+    {
+        "text": "what we did, to just divide\nup the energy",
+        "start": 963.061,
+        "duration": 1.635
+    },
+    {
+        "text": "between all the springs.",
+        "start": 964.796,
+        "duration": 1.402
+    },
+    {
+        "text": "This is often overlooked.",
+        "start": 966.298,
+        "duration": 1.468
+    },
+    {
+        "text": "Well, all the springs\nhave that 1/2 in common.",
+        "start": 967.866,
+        "duration": 2.569
+    },
+    {
+        "text": "And they all have\nthe x in common.",
+        "start": 970.535,
+        "duration": 2.103
+    },
+    {
+        "text": "So the only thing that\nmight be different is the k.",
+        "start": 972.738,
+        "duration": 2.002
+    },
+    {
+        "text": "But let's assume that\nthey're all the same spring.",
+        "start": 974.84,
+        "duration": 2.001
+    },
+    {
+        "text": "So it's the same\nspring constant.",
+        "start": 976.942,
+        "duration": 1.334
+    },
+    {
+        "text": "So, yeah, you can\njust divide it.",
+        "start": 978.376,
+        "duration": 2.169
+    },
+    {
+        "text": "Now ask yourself,\nCould I just add up",
+        "start": 980.645,
+        "duration": 2.57
+    },
+    {
+        "text": "all of my 700 spring constants\nand model my system as one",
+        "start": 983.315,
+        "duration": 3.67
+    },
+    {
+        "text": "big spring in a line?",
+        "start": 987.085,
+        "duration": 1.869
+    },
+    {
+        "text": "Do you get the same result?",
+        "start": 989.054,
+        "duration": 1.835
+    },
+    {
+        "text": "No, you don't.",
+        "start": 990.989,
+        "duration": 1.768
+    },
+    {
+        "text": "If you had a huge long\nspring and you just",
+        "start": 992.857,
+        "duration": 2.503
+    },
+    {
+        "text": "stretched that 1.25 meters,",
+        "start": 995.46,
+        "duration": 1.769
+    },
+    {
+        "text": "you would feel barely\nany force at all.",
+        "start": 997.329,
+        "duration": 2.769
+    },
+    {
+        "text": "So here's the problem for you.",
+        "start": 1000.198,
+        "duration": 1.268
+    },
+    {
+        "text": "If I take a spring\nand I cut it in half,",
+        "start": 1001.566,
+        "duration": 2.536
+    },
+    {
+        "text": "what happens to the\nspring constant?",
+        "start": 1004.202,
+        "duration": 2.27
+    },
+    {
+        "text": "Does it stay the same or does\nit get bigger or smaller?",
+        "start": 1006.572,
+        "duration": 3.403
+    },
+    {
+        "text": "I'll answer that\nin the next lesson.",
+        "start": 1010.075,
+        "duration": 2.803
+    },
+    {
+        "text": "That's about it for\nconservation of energy",
+        "start": 1012.978,
+        "duration": 1.802
+    },
+    {
+        "text": "and springs.",
+        "start": 1014.88,
+        "duration": 1.201
+    },
+    {
+        "text": "But before we go, there's a\ncouple more things I promised.",
+        "start": 1016.181,
+        "duration": 2.002
+    },
+    {
+        "text": "Let's revisit a question we\nasked way back in lesson 2.",
+        "start": 1018.283,
+        "duration": 2.67
+    },
+    {
+        "text": "When you throw an object like\na bottle up into the air,",
+        "start": 1021.053,
+        "duration": 3.669
+    },
+    {
+        "text": "does it take longer on the\ntrip up or on the trip down,",
+        "start": 1024.822,
+        "duration": 2.803
+    },
+    {
+        "text": "like this?",
+        "start": 1027.726,
+        "duration": 1.168
+    },
+    {
+        "text": "Imagine it's not spinning;\nimagine it's solid, whatever.",
+        "start": 1028.994,
+        "duration": 2.869
+    },
+    {
+        "text": "Conservation of energy makes\nthis tricky problem so simple.",
+        "start": 1031.963,
+        "duration": 4.438
+    },
+    {
+        "text": "When I throw the bottle up,\nit has some kinetic energy",
+        "start": 1036.501,
+        "duration": 2.77
+    },
+    {
+        "text": "from that motion.",
+        "start": 1039.371,
+        "duration": 0.868
+    },
+    {
+        "text": "It's moving up.",
+        "start": 1040.339,
+        "duration": 1.068
+    },
+    {
+        "text": "And then when it gets to\nthe top of the trajectory,",
+        "start": 1041.507,
+        "duration": 1.868
+    },
+    {
+        "text": "most of the kinetic energy\nwill become potential energy,",
+        "start": 1043.475,
+        "duration": 2.936
+    },
+    {
+        "text": "gravitational potential energy.",
+        "start": 1046.511,
+        "duration": 2.035
+    },
+    {
+        "text": "Notice that I said \"most.\"",
+        "start": 1048.646,
+        "duration": 1.202
+    },
+    {
+        "text": "It doesn't all\ngo to potential energy",
+        "start": 1049.948,
+        "duration": 2.069
+    },
+    {
+        "text": "because some\nof the bottle's energy",
+        "start": 1052.117,
+        "duration": 1.735
+    },
+    {
+        "text": "will have leaked out\ninto the surrounding air",
+        "start": 1053.952,
+        "duration": 2.369
+    },
+    {
+        "text": "through air resistance.",
+        "start": 1056.421,
+        "duration": 2.103
+    },
+    {
+        "text": "Energy wasn't lost here;",
+        "start": 1058.624,
+        "duration": 1.233
+    },
+    {
+        "text": "it just leaked into the\nsurrounding air as heat.",
+        "start": 1059.958,
+        "duration": 2.803
+    },
+    {
+        "text": "It's still conserved overall.",
+        "start": 1062.861,
+        "duration": 2.436
+    },
+    {
+        "text": "So when the bottle\nfalls back down,",
+        "start": 1065.397,
+        "duration": 1.668
+    },
+    {
+        "text": "its gravitational\npotential energy",
+        "start": 1067.165,
+        "duration": 1.302
+    },
+    {
+        "text": "converts back into\nkinetic energy,",
+        "start": 1068.567,
+        "duration": 2.069
+    },
+    {
+        "text": "and it loses some more energy\nto air resistance, again,",
+        "start": 1070.736,
+        "duration": 2.201
+    },
+    {
+        "text": "on the way down.",
+        "start": 1073.037,
+        "duration": 0.902
+    },
+    {
+        "text": "So the end of the\nbottle's trip, it has",
+        "start": 1074.039,
+        "duration": 1.401
+    },
+    {
+        "text": "less kinetic energy than it did\nat the start of the trip.",
+        "start": 1075.54,
+        "duration": 3.537
+    },
+    {
+        "text": "And since kinetic energy\nis 1/2 mv squared,",
+        "start": 1079.177,
+        "duration": 2.97
+    },
+    {
+        "text": "that means energy is\nproportional to v squared.",
+        "start": 1082.247,
+        "duration": 2.402
+    },
+    {
+        "text": "That means the\nbottle's velocity then",
+        "start": 1084.749,
+        "duration": 1.535
+    },
+    {
+        "text": "is slower right before\nI catch it than it was",
+        "start": 1086.385,
+        "duration": 2.402
+    },
+    {
+        "text": "when it left my hands.",
+        "start": 1088.887,
+        "duration": 1.935
+    },
+    {
+        "text": "That means the average\nvelocity on the trip down",
+        "start": 1090.923,
+        "duration": 2.302
+    },
+    {
+        "text": "was slower than the average\nvelocity on the trip up.",
+        "start": 1093.325,
+        "duration": 3.47
+    },
+    {
+        "text": "And I'm done.",
+        "start": 1096.895,
+        "duration": 0.9
+    },
+    {
+        "text": "The trip down took longer.",
+        "start": 1097.895,
+        "duration": 1.736
+    },
+    {
+        "text": "No calculations, no kinematics.",
+        "start": 1099.731,
+        "duration": 2.168
+    },
+    {
+        "text": "Just sweet, simple,\nconservation of energy.",
+        "start": 1102.0,
+        "duration": 3.169
+    },
+    {
+        "text": "And now we can easily\nexplain the challenge",
+        "start": 1105.27,
+        "duration": 2.736
+    },
+    {
+        "text": "at the beginning of this lesson.",
+        "start": 1108.106,
+        "duration": 1.601
+    },
+    {
+        "text": "Since energy is conserved,\nit can be transferred",
+        "start": 1109.807,
+        "duration": 2.136
+    },
+    {
+        "text": "from one bottle\nto the other and back.",
+        "start": 1112.043,
+        "duration": 2.603
+    },
+    {
+        "text": "And finally, the question that\nI promised I would answer:",
+        "start": 1114.746,
+        "duration": 3.003
+    },
+    {
+        "text": "Is it better to sit\non the front",
+        "start": 1117.849,
+        "duration": 1.234
+    },
+    {
+        "text": "or the back\nof a roller coaster?",
+        "start": 1119.183,
+        "duration": 2.17
+    },
+    {
+        "text": "Think about it.",
+        "start": 1121.453,
+        "duration": 2.435
+    },
+    {
+        "text": "Let's draw it.",
+        "start": 1123.988,
+        "duration": 2.369
+    },
+    {
+        "text": "So they crank you\nup that first hill.",
+        "start": 1126.457,
+        "duration": 2.904
+    },
+    {
+        "text": "Whoo.",
+        "start": 1129.461,
+        "duration": 1.735
+    },
+    {
+        "text": "Here's all the people.",
+        "start": 1131.296,
+        "duration": 1.435
+    },
+    {
+        "text": "Whoo.",
+        "start": 1132.831,
+        "duration": 0.534
+    },
+    {
+        "text": "They don't have arms.",
+        "start": 1133.465,
+        "duration": 0.734
+    },
+    {
+        "text": "Doesn't matter.",
+        "start": 1134.299,
+        "duration": 0.534
+    },
+    {
+        "text": "They crank you up\nthe first hill",
+        "start": 1136.935,
+        "duration": 1.268
+    },
+    {
+        "text": "and then they let you go,",
+        "start": 1138.303,
+        "duration": 0.934
+    },
+    {
+        "text": "and whoosh--the entire\nride is about converting",
+        "start": 1139.337,
+        "duration": 2.636
+    },
+    {
+        "text": "gravitational potential\nenergy into the sweet thrill",
+        "start": 1142.073,
+        "duration": 2.97
+    },
+    {
+        "text": "of kinetic energy.",
+        "start": 1145.143,
+        "duration": 1.168
+    },
+    {
+        "text": "It's 100% a conservation-\nof-energy joy ride.",
+        "start": 1146.411,
+        "duration": 3.27
+    },
+    {
+        "text": "But if you want to\nmaximize the thrill,",
+        "start": 1149.781,
+        "duration": 2.169
+    },
+    {
+        "text": "should you sit at the\nfront or the back?",
+        "start": 1152.05,
+        "duration": 2.136
+    },
+    {
+        "text": "Does it matter?",
+        "start": 1154.286,
+        "duration": 1.134
+    },
+    {
+        "text": "Is one actually faster?",
+        "start": 1155.52,
+        "duration": 2.136
+    },
+    {
+        "text": "Let's think about\nthat first hill.",
+        "start": 1157.756,
+        "duration": 1.735
+    },
+    {
+        "text": "The roller coaster has a lot\nof potential energy up here.",
+        "start": 1159.591,
+        "duration": 2.736
+    },
+    {
+        "text": "And then it goes,\nwhoosh, down the hill.",
+        "start": 1162.427,
+        "duration": 1.568
+    },
+    {
+        "text": "And when the first car\nreaches the bottom...",
+        "start": 1164.096,
+        "duration": 2.502
+    },
+    {
+        "text": "we lost a few people.",
+        "start": 1169.868,
+        "duration": 1.068
+    },
+    {
+        "text": "Whoops.",
+        "start": 1173.104,
+        "duration": 1.001
+    },
+    {
+        "text": "So when the first car\nreaches the bottom,",
+        "start": 1174.205,
+        "duration": 1.602
+    },
+    {
+        "text": "has all of the potential\nenergy of the car",
+        "start": 1175.907,
+        "duration": 2.203
+    },
+    {
+        "text": "been converted\ninto kinetic energy?",
+        "start": 1178.21,
+        "duration": 2.635
+    },
+    {
+        "text": "No.",
+        "start": 1180.945,
+        "duration": 1.069
+    },
+    {
+        "text": "Because there's still some\nheight of this back car.",
+        "start": 1182.114,
+        "duration": 2.668
+    },
+    {
+        "text": "So there's still\nsome potential energy",
+        "start": 1184.882,
+        "duration": 1.503
+    },
+    {
+        "text": "that can be converted\nto kinetic energy.",
+        "start": 1186.485,
+        "duration": 1.935
+    },
+    {
+        "text": "So there's still some\nroller coaster left to fall.",
+        "start": 1188.52,
+        "duration": 2.002
+    },
+    {
+        "text": "So it hasn't reached\nits maximum speed yet.",
+        "start": 1190.622,
+        "duration": 2.102
+    },
+    {
+        "text": "Once the last car has\nreached the bottom,",
+        "start": 1192.824,
+        "duration": 1.602
+    },
+    {
+        "text": "then it's all kinetic\nenergy, and you're going",
+        "start": 1194.526,
+        "duration": 1.901
+    },
+    {
+        "text": "as fast as possible.",
+        "start": 1196.527,
+        "duration": 1.769
+    },
+    {
+        "text": "So any time the roller\ncoaster is falling,",
+        "start": 1198.396,
+        "duration": 2.136
+    },
+    {
+        "text": "the back car gets to go\ndown the hill or loop",
+        "start": 1200.632,
+        "duration": 2.535
+    },
+    {
+        "text": "faster than the front\ncar did, like a whiplash.",
+        "start": 1203.268,
+        "duration": 3.136
+    },
+    {
+        "text": "And on the flip side, when\nthe roller coaster starts",
+        "start": 1206.504,
+        "duration": 2.536
+    },
+    {
+        "text": "going up a hill or a loop--",
+        "start": 1209.14,
+        "duration": 1.969
+    },
+    {
+        "text": "let's draw this\nis a loop, whoo--",
+        "start": 1211.209,
+        "duration": 3.604
+    },
+    {
+        "text": "going up a hill or a\nloop, the front car",
+        "start": 1214.913,
+        "duration": 2.636
+    },
+    {
+        "text": "is going to enter that loop\nfaster than the back car will",
+        "start": 1217.649,
+        "duration": 2.336
+    },
+    {
+        "text": "because it's going to\nbe going into the climb",
+        "start": 1220.085,
+        "duration": 1.801
+    },
+    {
+        "text": "with the maximum\nkinetic energy.",
+        "start": 1221.987,
+        "duration": 1.601
+    },
+    {
+        "text": "But as soon as it starts\nclimbing the loop,",
+        "start": 1223.688,
+        "duration": 1.935
+    },
+    {
+        "text": "then the kinetic energy starts\nchanging into potential energy,",
+        "start": 1225.723,
+        "duration": 2.47
+    },
+    {
+        "text": "and the back person ends\nup going a little slower.",
+        "start": 1228.293,
+        "duration": 2.002
+    },
+    {
+        "text": "So there is a difference.",
+        "start": 1230.395,
+        "duration": 1.435
+    },
+    {
+        "text": "But which one is\nbetter is up to you.",
+        "start": 1231.93,
+        "duration": 2.035
+    },
+    {
+        "text": "Do you want to be\nheading into loops faster",
+        "start": 1234.065,
+        "duration": 2.069
+    },
+    {
+        "text": "than anyone on the\nroller coaster?",
+        "start": 1236.234,
+        "duration": 1.835
+    },
+    {
+        "text": "Sit up front.",
+        "start": 1238.169,
+        "duration": 1.035
+    },
+    {
+        "text": "Are you a big fan\nof the whiplash",
+        "start": 1239.304,
+        "duration": 1.301
+    },
+    {
+        "text": "and higher Gs leaving loops?",
+        "start": 1240.705,
+        "duration": 2.003
+    },
+    {
+        "text": "Then sit in the back.",
+        "start": 1242.808,
+        "duration": 1.067
+    },
+    {
+        "text": "Your call.",
+        "start": 1243.976,
+        "duration": 1.167
+    },
+    {
+        "text": "But come on, it's\ntotally the front.",
+        "start": 1245.243,
+        "duration": 2.269
+    },
+    {
+        "text": "So there--with some careful\napplication of physics,",
+        "start": 1247.612,
+        "duration": 2.669
+    },
+    {
+        "text": "amusement parks can\nbecome even more fun,",
+        "start": 1250.381,
+        "duration": 3.036
+    },
+    {
+        "text": "except that they just\ntell you where to sit",
+        "start": 1253.518,
+        "duration": 1.835
+    },
+    {
+        "text": "and you don't get to choose.",
+        "start": 1255.453,
+        "duration": 3.204
+    },
+    {
+        "text": "So that's today's lesson\non conservation of energy.",
+        "start": 1258.757,
+        "duration": 2.936
+    },
+    {
+        "text": "When they ask you what you\nlearned on YouTube today,",
+        "start": 1261.793,
+        "duration": 2.135
+    },
+    {
+        "text": "here are\nyour two key takeaways.",
+        "start": 1264.028,
+        "duration": 1.469
+    },
+    {
+        "text": "One, if you can, use\nconservation of energy",
+        "start": 1265.597,
+        "duration": 3.07
+    },
+    {
+        "text": "to solve physics problems,\nand, two, the energy",
+        "start": 1268.767,
+        "duration": 2.769
+    },
+    {
+        "text": "stored in a spring\nis 1/2 kx squared,",
+        "start": 1271.636,
+        "duration": 2.202
+    },
+    {
+        "text": "where k is your spring constant.",
+        "start": 1273.938,
+        "duration": 1.903
+    },
+    {
+        "text": "And here are all the problems\nwe did in today's lessons,",
+        "start": 1275.941,
+        "duration": 2.635
+    },
+    {
+        "text": "because the best\nway to make sure",
+        "start": 1278.677,
+        "duration": 1.268
+    },
+    {
+        "text": "that you understand these\nconcepts is to practice",
+        "start": 1280.045,
+        "duration": 2.001
+    },
+    {
+        "text": "applying them yourselves.",
+        "start": 1282.146,
+        "duration": 1.235
+    },
+    {
+        "text": "So do go, redo these problems.",
+        "start": 1283.481,
+        "duration": 2.47
+    },
+    {
+        "text": "I promise, it'll help.",
+        "start": 1286.051,
+        "duration": 1.401
+    },
+    {
+        "text": "Go practice the problems.",
+        "start": 1287.552,
+        "duration": 1.168
+    },
+    {
+        "text": "And now I'm going to tell you\nabout something really cool",
+        "start": 1288.82,
+        "duration": 2.269
+    },
+    {
+        "text": "that's just random and\nunrelated to this lesson at all,",
+        "start": 1291.189,
+        "duration": 2.335
+    },
+    {
+        "text": "except for the fact that\nI used this little thing",
+        "start": 1293.625,
+        "duration": 3.07
+    },
+    {
+        "text": "a couple of times.",
+        "start": 1296.795,
+        "duration": 0.9
+    },
+    {
+        "text": "You're probably like,\nwhat is that?",
+        "start": 1297.795,
+        "duration": 1.068
+    },
+    {
+        "text": "although some of you may know.",
+        "start": 1298.963,
+        "duration": 1.135
+    },
+    {
+        "text": "So a couple guys were\ndoing a physics experiment",
+        "start": 1300.198,
+        "duration": 1.869
+    },
+    {
+        "text": "a couple decades back.",
+        "start": 1302.167,
+        "duration": 1.168
+    },
+    {
+        "text": "And they were getting this\nnoise, this background signal,",
+        "start": 1303.435,
+        "duration": 2.936
+    },
+    {
+        "text": "of a bunch of\nmicrowave radiation,",
+        "start": 1306.471,
+        "duration": 2.102
+    },
+    {
+        "text": "like the microwave waves that\nare in your microwave oven.",
+        "start": 1308.673,
+        "duration": 3.07
+    },
+    {
+        "text": "But they were hearing the\nmicrowaves with their antenna.",
+        "start": 1311.843,
+        "duration": 2.235
+    },
+    {
+        "text": "They couldn't figure out\nwhat it was coming from.",
+        "start": 1314.179,
+        "duration": 2.435
+    },
+    {
+        "text": "It turns out that\nthere are microwaves",
+        "start": 1316.714,
+        "duration": 1.668
+    },
+    {
+        "text": "coming from all over\nin the entire sky,",
+        "start": 1318.482,
+        "duration": 3.871
+    },
+    {
+        "text": "all over the entire universe.",
+        "start": 1322.453,
+        "duration": 1.769
+    },
+    {
+        "text": "This is a map of the microwaves\nof the little fluctuations,",
+        "start": 1324.322,
+        "duration": 2.369
+    },
+    {
+        "text": "and more or less microwaves,\nacross the universe.",
+        "start": 1326.791,
+        "duration": 3.037
+    },
+    {
+        "text": "So what was the signal?\nWhat was this coming from?",
+        "start": 1329.928,
+        "duration": 3.17
+    },
+    {
+        "text": "Well, this is a signal\nfrom the Big Bang.",
+        "start": 1333.198,
+        "duration": 2.936
+    },
+    {
+        "text": "It turns out the microwaves\nare the radiation,",
+        "start": 1336.234,
+        "duration": 2.369
+    },
+    {
+        "text": "the leftover image\nof the Big Bang",
+        "start": 1338.703,
+        "duration": 1.969
+    },
+    {
+        "text": "from about 400,000 years\nright after the Big Bang.",
+        "start": 1340.772,
+        "duration": 3.503
+    },
+    {
+        "text": "And we now have a map of that.",
+        "start": 1344.375,
+        "duration": 1.268
+    },
+    {
+        "text": "This is called the cosmic\nmicrowave background.",
+        "start": 1345.744,
+        "duration": 2.569
+    },
+    {
+        "text": "It doesn't have two eyes and\na mouth, but the rest of this",
+        "start": 1348.413,
+        "duration": 2.336
+    },
+    {
+        "text": "is correct.",
+        "start": 1350.849,
+        "duration": 1.434
+    },
+    {
+        "text": "And what this shows\nus is a picture",
+        "start": 1352.383,
+        "duration": 1.936
+    },
+    {
+        "text": "of what the universe\nlooked like 400,000 years",
+        "start": 1354.419,
+        "duration": 2.369
+    },
+    {
+        "text": "after the Big Bang.",
+        "start": 1356.888,
+        "duration": 1.302
+    },
+    {
+        "text": "That's amazing.",
+        "start": 1358.29,
+        "duration": 1.134
+    },
+    {
+        "text": "And actually, the waves\nweren't initially microwaves.",
+        "start": 1359.524,
+        "duration": 1.902
+    },
+    {
+        "text": "They were more like\norange-yellow light.",
+        "start": 1361.526,
+        "duration": 2.703
+    },
+    {
+        "text": "But since the universe is\nexpanding and stretching",
+        "start": 1364.329,
+        "duration": 2.669
+    },
+    {
+        "text": "those waves over\ntime, they've turned",
+        "start": 1367.098,
+        "duration": 1.435
+    },
+    {
+        "text": "from small, orange-yellow\nwaves into longer microwaves.",
+        "start": 1368.633,
+        "duration": 3.37
+    },
+    {
+        "text": "And eventually they'll\nstretch into radio waves.",
+        "start": 1372.104,
+        "duration": 2.235
+    },
+    {
+        "text": "And who knows,\nbecause we don't know",
+        "start": 1374.439,
+        "duration": 1.401
+    },
+    {
+        "text": "whether the universe is going to\ncontinue expanding or collapse.",
+        "start": 1375.94,
+        "duration": 2.903
+    },
+    {
+        "text": "Something for future\nphysicists to figure out.",
+        "start": 1378.943,
+        "duration": 2.67
+    },
+    {
+        "text": "Anyways, that's my\nfun physics of today.",
+        "start": 1381.713,
+        "duration": 2.769
+    },
+    {
+        "text": "And now here's a message\nfrom a special guest.",
+        "start": 1384.582,
+        "duration": 2.97
+    },
+    {
+        "text": "Hello there.",
+        "start": 1387.652,
+        "duration": 1.502
+    },
+    {
+        "text": "My name's Sophia Chen.",
+        "start": 1389.254,
+        "duration": 1.001
+    },
+    {
+        "text": "And I'm a writer\nfor Physics Girl.",
+        "start": 1390.355,
+        "duration": 2.669
+    },
+    {
+        "text": "In fact, I helped write the\nvideo that you just watched.",
+        "start": 1393.124,
+        "duration": 3.604
+    },
+    {
+        "text": "I'm super excited for you\nto be taking this course,",
+        "start": 1396.828,
+        "duration": 3.67
+    },
+    {
+        "text": "not just because I'm\nhelping to write it,",
+        "start": 1400.598,
+        "duration": 2.17
+    },
+    {
+        "text": "but also because physics\nis a huge part of my life.",
+        "start": 1402.868,
+        "duration": 4.804
+    },
+    {
+        "text": "I majored\nin physics in college",
+        "start": 1407.772,
+        "duration": 1.302
+    },
+    {
+        "text": "and I got\na master's degree in it,",
+        "start": 1409.174,
+        "duration": 2.169
+    },
+    {
+        "text": "and now I'm a science writer\nand science journalist",
+        "start": 1411.443,
+        "duration": 3.102
+    },
+    {
+        "text": "who writes about physics.",
+        "start": 1414.645,
+        "duration": 1.669
+    },
+    {
+        "text": "I've written for\nmagazines like Wired",
+        "start": 1416.414,
+        "duration": 2.536
+    },
+    {
+        "text": "and Science Magazine\nand Gizmodo.",
+        "start": 1419.05,
+        "duration": 3.871
+    },
+    {
+        "text": "And of course, I get to put\nwords in Dianna's mouth.",
+        "start": 1423.021,
+        "duration": 3.97
+    },
+    {
+        "text": "And she wanted me to\ntell you a little bit",
+        "start": 1427.091,
+        "duration": 2.636
+    },
+    {
+        "text": "about my favorite\npart about my job.",
+        "start": 1429.827,
+        "duration": 2.77
+    },
+    {
+        "text": "And one of my favorite moments,\nI think, involved me traveling.",
+        "start": 1432.697,
+        "duration": 4.438
+    },
+    {
+        "text": "And I actually got to\ngo to Paris in 2018",
+        "start": 1437.235,
+        "duration": 3.671
+    },
+    {
+        "text": "and watch as the world\nredefined the metric system.",
+        "start": 1441.006,
+        "duration": 4.437
+    },
+    {
+        "text": "I went to Versailles.",
+        "start": 1445.543,
+        "duration": 0.968
+    },
+    {
+        "text": "I went into this hall\nwith all these diplomats",
+        "start": 1446.611,
+        "duration": 3.97
+    },
+    {
+        "text": "who voted to get rid of\nthis hunk of metal that",
+        "start": 1450.681,
+        "duration": 2.87
+    },
+    {
+        "text": "was the kilogram and replace\nit with Planck's constant.",
+        "start": 1453.651,
+        "duration": 3.704
+    },
+    {
+        "text": "And so that was a\nreally amazing moment.",
+        "start": 1457.455,
+        "duration": 3.503
+    },
+    {
+        "text": "I guess what I wanted to\nsay is just that physics",
+        "start": 1461.059,
+        "duration": 2.969
+    },
+    {
+        "text": "is this really powerful\nand really insightful way",
+        "start": 1464.128,
+        "duration": 5.072
+    },
+    {
+        "text": "of looking at the world.",
+        "start": 1469.3,
+        "duration": 1.635
+    },
+    {
+        "text": "And I hope you stick\nwith it",
+        "start": 1471.036,
+        "duration": 1.5
+    },
+    {
+        "text": "because you never know\nwhere it'll take you.",
+        "start": 1472.637,
+        "duration": 2.502
+    },
+    {
+        "text": "With that, happy physics-ing.",
+        "start": 1475.239,
+        "duration": 2.469
+    },
+    {
+        "text": "I've always\nwanted to say that.",
+        "start": 1477.808,
+        "duration": 1.202
+    },
+    {
+        "text": "[MUSIC PLAYING]",
+        "start": 1479.11,
+        "duration": 2.002
+    }
+]

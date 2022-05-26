@@ -1,0 +1,1497 @@
+[
+    {
+        "text": "Okay, so today we're gonna talk about this fantastic little puzzle",
+        "start": 0.0,
+        "duration": 3.389
+    },
+    {
+        "text": "It's called the 15 puzzle and you can see it's a tray with 15 little squares each numbered 1 through 15 and one blank",
+        "start": 3.389,
+        "duration": 7.62
+    },
+    {
+        "text": "So we can move the squares around",
+        "start": 11.01,
+        "duration": 1.53
+    },
+    {
+        "text": "Let's say we want to get these in order",
+        "start": 12.54,
+        "duration": 2.04
+    },
+    {
+        "text": "So I'm gonna move these around I've got 1 2 3 already and then the third row should have 9 10 11",
+        "start": 14.65,
+        "duration": 6.83
+    },
+    {
+        "text": "12 and then 13 14 15",
+        "start": 21.73,
+        "duration": 2.659
+    },
+    {
+        "text": "Oh you're good at that!",
+        "start": 24.389,
+        "duration": 1.331
+    },
+    {
+        "text": "So there we go. We can only make moves where we switch one tile with the empty spot",
+        "start": 25.72,
+        "duration": 5.629
+    },
+    {
+        "text": "So I can't switch this one and that one",
+        "start": 31.359,
+        "duration": 2.3
+    },
+    {
+        "text": "for example because there's no blank to move them around in",
+        "start": 33.66,
+        "duration": 2.7
+    },
+    {
+        "text": "What we want to talk about with this puzzle is some of the mathematics behind it",
+        "start": 36.38,
+        "duration": 4.52
+    },
+    {
+        "text": "So we went out yesterday and found some",
+        "start": 41.12,
+        "duration": 2.44
+    },
+    {
+        "text": "examples of these puzzles that you could buy in the stores around here and we found something very interesting",
+        "start": 44.32,
+        "duration": 4.759
+    },
+    {
+        "text": "on the back of the package. It shows you some of the patterns that you might try and arrange the tiles in",
+        "start": 49.32,
+        "duration": 7.28
+    },
+    {
+        "text": "So the one that we just did was 1 through 15",
+        "start": 56.609,
+        "duration": 3.551
+    },
+    {
+        "text": "Here this one has 1 2 3 4 in vertical lines rather than horizontal",
+        "start": 60.18,
+        "duration": 4.11
+    },
+    {
+        "text": "You might want to do evens and odds, the various possibilities you could come up with",
+        "start": 64.29,
+        "duration": 4.979
+    },
+    {
+        "text": "Including a natural one",
+        "start": 69.939,
+        "duration": 1.25
+    },
+    {
+        "text": "You might try and do which instead of going from 1 to 15 goes from 15 down to 1 so in reverse order",
+        "start": 71.189,
+        "duration": 6.66
+    },
+    {
+        "text": "But this is very curious: try as you might, you will never be able to do this arrangement",
+        "start": 77.85,
+        "duration": 6.69
+    },
+    {
+        "text": "So, how they ended up on the back of this package is a real mystery, but that's the mystery that we want to",
+        "start": 85.299,
+        "duration": 7.4
+    },
+    {
+        "text": "Explain today. So that's like they're giving people this impossible task? It seems like it",
+        "start": 93.549,
+        "duration": 5.81
+    },
+    {
+        "text": "I don't know what they were thinking. Did you play this game when you were a boy?",
+        "start": 99.36,
+        "duration": 3.75
+    },
+    {
+        "text": "I had several versions of it including the standard ones like this. I also had some versions that",
+        "start": 103.35,
+        "duration": 6.299
+    },
+    {
+        "text": "Instead of having numbers had pictures. I had one that had a map of the world and the object was to you know",
+        "start": 110.17,
+        "duration": 6.86
+    },
+    {
+        "text": "Recreate the map of the world. But yes, I certainly wasted more time than I should have on these puzzles",
+        "start": 117.07,
+        "duration": 5.839
+    },
+    {
+        "text": "It was invented in around the 1870s . A famous American puzzle maker named Sam Lloyd",
+        "start": 122.909,
+        "duration": 6.12
+    },
+    {
+        "text": "claimed that he had invented it but apparently that's not case",
+        "start": 129.48,
+        "duration": 3.4
+    },
+    {
+        "text": "But what he did do in around the early 1870s was he issued a challenge",
+        "start": 133.08,
+        "duration": 4.74
+    },
+    {
+        "text": "to the public and he offered",
+        "start": 138.1,
+        "duration": 2.12
+    },
+    {
+        "text": "$1,000 to anybody who could accomplish this",
+        "start": 140.4,
+        "duration": 3.68
+    },
+    {
+        "text": "so his challenge was to take the 15 puzzle in the arrangement where the numbers are in order 1 through 15 and",
+        "start": 144.09,
+        "duration": 7.469
+    },
+    {
+        "text": "Rearrange it so that 14 and 15 are switched",
+        "start": 151.93,
+        "duration": 3.559
+    },
+    {
+        "text": "He offered $1,000 for this but the sneaky thing about this is that this is also an impossible arrangement",
+        "start": 155.79,
+        "duration": 6.75
+    },
+    {
+        "text": "But this caused an absolute national frenzy",
+        "start": 162.54,
+        "duration": 3.029
+    },
+    {
+        "text": "Everybody was involved in trying to do this. A serious",
+        "start": 165.76,
+        "duration": 3.199
+    },
+    {
+        "text": "mathematics research journal called the American Journal of",
+        "start": 169.36,
+        "duration": 2.66
+    },
+    {
+        "text": "Mathematics published a paper called 'Notes on the 15 Puzzle' and what the editor said was \"The 15 puzzle for the last few weeks",
+        "start": 172.24,
+        "duration": 7.759
+    },
+    {
+        "text": "has been",
+        "start": 180.16,
+        "duration": 0.78
+    },
+    {
+        "text": "prominently before the American public and may safely be said to have engaged the attention of nine out of ten persons of",
+        "start": 180.94,
+        "duration": 6.35
+    },
+    {
+        "text": "both sexes and of all ages and conditions of the community\" and then he goes on to say that",
+        "start": 187.36,
+        "duration": 5.12
+    },
+    {
+        "text": "This wouldn't have been enough to persuade them to publish a paper on this",
+        "start": 192.84,
+        "duration": 4.92
+    },
+    {
+        "text": "but they felt that it was a chance to educate the public on some important mathematical concepts.",
+        "start": 197.98,
+        "duration": 6.1
+    },
+    {
+        "text": "So they were jumping on the bandwagon?",
+        "start": 204.2,
+        "duration": 1.5
+    },
+    {
+        "text": "Actually, this paper is two short notes: one proving that some of the configurations are impossible and the other",
+        "start": 205.88,
+        "duration": 7.76
+    },
+    {
+        "text": "Saying exactly which ones were possible. Okay. So the first thing we have to do is we have to convert this puzzle into some",
+        "start": 213.73,
+        "duration": 7.819
+    },
+    {
+        "text": "mathematical language so that we can use the tools of mathematics to",
+        "start": 222.07,
+        "duration": 3.859
+    },
+    {
+        "text": "Figure out what's going on. So let's first of all just make all of these things",
+        "start": 226.63,
+        "duration": 4.91
+    },
+    {
+        "text": "I'm sort of put them all on the same footing so let's think of the blank square as the number 16",
+        "start": 231.54,
+        "duration": 4.5
+    },
+    {
+        "text": "So now we've got the numbers 1 through 16 in some order",
+        "start": 236.35,
+        "duration": 4.639
+    },
+    {
+        "text": "So we're going to focus on those lists of numbers",
+        "start": 241.48,
+        "duration": 3.919
+    },
+    {
+        "text": "so each arrangement of the tiles we're going to think of as some",
+        "start": 245.43,
+        "duration": 4.32
+    },
+    {
+        "text": "arrangement of the numbers from 1 to 16.",
+        "start": 250.38,
+        "duration": 3.76
+    },
+    {
+        "text": "Every time we have a pattern in our puzzle",
+        "start": 254.38,
+        "duration": 2.26
+    },
+    {
+        "text": "I'm going to",
+        "start": 256.64,
+        "duration": 1.34
+    },
+    {
+        "text": "Write down the list of numbers 1 through 16 in the order that they appear in the tray",
+        "start": 257.98,
+        "duration": 6.259
+    },
+    {
+        "text": "So for example this arrangement would give me the list five one three",
+        "start": 264.25,
+        "duration": 5.019
+    },
+    {
+        "text": "Remember the blank is 16 then 9 2 6 4 13 10",
+        "start": 269.699,
+        "duration": 6.77
+    },
+    {
+        "text": "7 8",
+        "start": 276.84,
+        "duration": 1.71
+    },
+    {
+        "text": "14 15",
+        "start": 278.55,
+        "duration": 1.71
+    },
+    {
+        "text": "12 11 so it's the same set of numbers 1 through 16 just written in a different order.",
+        "start": 280.26,
+        "duration": 6.709
+    },
+    {
+        "text": "In mathematics that sort of thing is called a permutation. In our case",
+        "start": 287.31,
+        "duration": 5.66
+    },
+    {
+        "text": "it's of the numbers from 1 all the way up to 16.",
+        "start": 293.34,
+        "duration": 5.5
+    },
+    {
+        "text": "At this point I would have assumed every permutation is possible",
+        "start": 299.16,
+        "duration": 2.84
+    },
+    {
+        "text": "If you juggle them around enough times, you can list the numbers in any order",
+        "start": 302.32,
+        "duration": 4.64
+    },
+    {
+        "text": "Right, that would be a reasonable assumption and if that was possible anything on the back of this package would have been fair game",
+        "start": 307.24,
+        "duration": 7.52
+    },
+    {
+        "text": "so what we're going to have to show is that among all the permutations",
+        "start": 315.14,
+        "duration": 6.52
+    },
+    {
+        "text": "there are some which have one property which is good for us and one which have a",
+        "start": 321.96,
+        "duration": 4.68
+    },
+    {
+        "text": "different property which is bad for us and we're going to use",
+        "start": 326.85,
+        "duration": 3.139
+    },
+    {
+        "text": "this",
+        "start": 330.66,
+        "duration": 1.05
+    },
+    {
+        "text": "Property that we will identify as a way to distinguish the possible from the impossible",
+        "start": 331.71,
+        "duration": 4.399
+    },
+    {
+        "text": "So let's think about what the sliding move that we can do is doing to the permutation",
+        "start": 336.21,
+        "duration": 6.17
+    },
+    {
+        "text": "So when we slide a piece we're swapping",
+        "start": 342.38,
+        "duration": 2.84
+    },
+    {
+        "text": "The blank Square from where it is to where the piece we slid into it came from.",
+        "start": 345.48,
+        "duration": 4.84
+    },
+    {
+        "text": "16",
+        "start": 350.64,
+        "duration": 0.5
+    },
+    {
+        "text": "So 16 and 4 have switched places if I make that move. If I made that move",
+        "start": 351.2,
+        "duration": 6.36
+    },
+    {
+        "text": "The blank and 3 have switched so 16 and 3 have switched. So the moves we're allowed",
+        "start": 357.87,
+        "duration": 5.75
+    },
+    {
+        "text": "correspond to switching",
+        "start": 364.169,
+        "duration": 2.0
+    },
+    {
+        "text": "one number with just one other. In our case in the moves from here",
+        "start": 366.57,
+        "duration": 4.609
+    },
+    {
+        "text": "We can always switch 16 with something else",
+        "start": 371.18,
+        "duration": 3.39
+    },
+    {
+        "text": "let's just say X and I'm gonna write it like that. When I write a pair this means",
+        "start": 374.7,
+        "duration": 5.329
+    },
+    {
+        "text": "switch 16 with X.",
+        "start": 380.6,
+        "duration": 2.54
+    },
+    {
+        "text": "If I do that I obviously get a new permutation. So we've now",
+        "start": 383.14,
+        "duration": 5.24
+    },
+    {
+        "text": "Translated our puzzle into the mathematical problem",
+        "start": 388.98,
+        "duration": 3.24
+    },
+    {
+        "text": "starting from one configuration",
+        "start": 392.91,
+        "duration": 2.0
+    },
+    {
+        "text": "Get to another configuration",
+        "start": 395.61,
+        "duration": 2.03
+    },
+    {
+        "text": "By doing switches like this. These are called transpositions.",
+        "start": 398.159,
+        "duration": 3.97
+    },
+    {
+        "text": "So now that we've translated it into mathematics we get to use everything that mathematicians have learned about",
+        "start": 402.38,
+        "duration": 6.799
+    },
+    {
+        "text": "permutations and transpositions and there are a couple of crucial facts that we need to use",
+        "start": 409.73,
+        "duration": 6.349
+    },
+    {
+        "text": "So the first fact: we can convert the",
+        "start": 416.09,
+        "duration": 3.89
+    },
+    {
+        "text": "permutation that we start with - everything in order - into any other",
+        "start": 420.86,
+        "duration": 5.54
+    },
+    {
+        "text": "permutation of the same numbers using only transpositions.",
+        "start": 427.36,
+        "duration": 5.9
+    },
+    {
+        "text": "So you're including the impossible ones at this point - at this point those impossible configurations are within our reach",
+        "start": 433.42,
+        "duration": 6.22
+    },
+    {
+        "text": "True, if we're free from the constraints of the puzzle",
+        "start": 439.94,
+        "duration": 2.92
+    },
+    {
+        "text": "and",
+        "start": 443.419,
+        "duration": 1.351
+    },
+    {
+        "text": "Only dealing with the permutations then we can convert",
+        "start": 444.77,
+        "duration": 3.05
+    },
+    {
+        "text": "any one into any other of these. Alright, simple example with the permutations just of 1 2 3 and let's suppose",
+        "start": 448.78,
+        "duration": 6.98
+    },
+    {
+        "text": "We want to end up with 3 1 2",
+        "start": 456.14,
+        "duration": 3.64
+    },
+    {
+        "text": "so",
+        "start": 459.83,
+        "duration": 0.5
+    },
+    {
+        "text": "How can we convert 1 2 3 into 3 1 2? We can first get 3 into the place that we wanted to go by",
+        "start": 460.33,
+        "duration": 7.08
+    },
+    {
+        "text": "Switching 3 & 1 so we make the transposition (1,3) that will turn this",
+        "start": 467.51,
+        "duration": 5.809
+    },
+    {
+        "text": "into",
+        "start": 473.69,
+        "duration": 0.84
+    },
+    {
+        "text": "3 2 1 we haven't done anything to 2 but we've switched 1 & 3 and now I",
+        "start": 474.53,
+        "duration": 5.389
+    },
+    {
+        "text": "Get to the 1 into place. So now I switch the 1 and the 2 and there we are from there to there by 2",
+        "start": 480.05,
+        "duration": 6.92
+    },
+    {
+        "text": "permutations. If you have a longer set of numbers",
+        "start": 487.64,
+        "duration": 3.319
+    },
+    {
+        "text": "then you might need more but",
+        "start": 491.03,
+        "duration": 2.0
+    },
+    {
+        "text": "That's the idea that you can get from any one to any other just by switching two at a time",
+        "start": 493.37,
+        "duration": 5.57
+    },
+    {
+        "text": "so fact 2",
+        "start": 498.95,
+        "duration": 2.0
+    },
+    {
+        "text": "addresses the fact that there's more than one way to get from one to another - we can always do it by",
+        "start": 501.169,
+        "duration": 6.02
+    },
+    {
+        "text": "transpositions but for example in the case of these two",
+        "start": 507.77,
+        "duration": 3.529
+    },
+    {
+        "text": "permutations I could have done something different.",
+        "start": 511.849,
+        "duration": 3.38
+    },
+    {
+        "text": "Okay now let me show you a longer one again going from 1 2 3",
+        "start": 515.229,
+        "duration": 4.89
+    },
+    {
+        "text": "to 3 1 2",
+        "start": 520.64,
+        "duration": 2.0
+    },
+    {
+        "text": "first",
+        "start": 523.19,
+        "duration": 1.44
+    },
+    {
+        "text": "switch the 1 and now let me move 3 over by switching it first with 1 and then",
+        "start": 524.63,
+        "duration": 7.4
+    },
+    {
+        "text": "With 2 and now I still have to get 1 and 2 into the right place. So that will take one more switch",
+        "start": 532.92,
+        "duration": 6.119
+    },
+    {
+        "text": "Switching 1 and 2 that will put this into the right place",
+        "start": 539.679,
+        "duration": 3.77
+    },
+    {
+        "text": "So now I've got a chain going from 1 2 3 to 3 1 2",
+        "start": 543.639,
+        "duration": 4.64
+    },
+    {
+        "text": "That involves one two three four steps",
+        "start": 549.04,
+        "duration": 3.139
+    },
+    {
+        "text": "Whereas in our original example, we have only two steps",
+        "start": 553.14,
+        "duration": 4.16
+    },
+    {
+        "text": "Can you show me a three-step example?",
+        "start": 558.04,
+        "duration": 2.58
+    },
+    {
+        "text": "I cannot",
+        "start": 560.88,
+        "duration": 1.78
+    },
+    {
+        "text": "because of fact 2. And fact 2 says",
+        "start": 562.66,
+        "duration": 3.079
+    },
+    {
+        "text": "that even though there are many ways to get from one permutation to another",
+        "start": 566.439,
+        "duration": 6.2
+    },
+    {
+        "text": "They don't have to involve the same number of steps",
+        "start": 573.189,
+        "duration": 3.32
+    },
+    {
+        "text": "but if one path",
+        "start": 577.119,
+        "duration": 2.0
+    },
+    {
+        "text": "Involves an even number of steps then all paths have to have an even number of steps.",
+        "start": 579.84,
+        "duration": 4.78
+    },
+    {
+        "text": "So the number is not fixed, but the parity - whether it's even or odd - is fixed",
+        "start": 584.68,
+        "duration": 6.08
+    },
+    {
+        "text": "So it could have been odd?",
+        "start": 590.9,
+        "duration": 0.96
+    },
+    {
+        "text": "Like, with some numbers it will be odd as well? Right, between some permutations",
+        "start": 591.86,
+        "duration": 5.08
+    },
+    {
+        "text": "so for example",
+        "start": 596.94,
+        "duration": 0.809
+    },
+    {
+        "text": "if this was the way we wanted to end up if we wanted to go from 1 2 3 to 3 2 1",
+        "start": 597.749,
+        "duration": 5.4
+    },
+    {
+        "text": "Then I would have only needed one step",
+        "start": 604.389,
+        "duration": 2.0
+    },
+    {
+        "text": "Or three steps or five steps. So the fact number two: the number of",
+        "start": 606.97,
+        "duration": 7.039
+    },
+    {
+        "text": "Steps required is not fixed",
+        "start": 614.619,
+        "duration": 2.96
+    },
+    {
+        "text": "But the parity of that number - whether it's even or odd - is fixed. I'm taking your word for that",
+        "start": 617.769,
+        "duration": 6.32
+    },
+    {
+        "text": "That's like a proven thing",
+        "start": 624.179,
+        "duration": 1.861
+    },
+    {
+        "text": "Right, we're taking these as facts that- And not just because",
+        "start": 626.04,
+        "duration": 4.799
+    },
+    {
+        "text": "we want them to be - these are proven facts. Right, right. These are you might even call them theorems about permutations.",
+        "start": 630.839,
+        "duration": 5.25
+    },
+    {
+        "text": "So like in the example, we did we had one path that had two steps and one that had four. The number was different",
+        "start": 636.549,
+        "duration": 6.23
+    },
+    {
+        "text": "but both were even. And I could try until the end of the universe to to do",
+        "start": 642.779,
+        "duration": 3.779
+    },
+    {
+        "text": "three and I wouldn't find it. You wouldn't find it.",
+        "start": 646.72,
+        "duration": 2.899
+    },
+    {
+        "text": "Yeah",
+        "start": 649.739,
+        "duration": 0.37
+    },
+    {
+        "text": "Or 5 or 7 or 9 even if I was like duplicating my steps and things. Right,",
+        "start": 650.109,
+        "duration": 5.45
+    },
+    {
+        "text": "you could have a",
+        "start": 656.039,
+        "duration": 2.43
+    },
+    {
+        "text": "Sequence where you just went round and round in a loop for a while and then cut out of the loop and",
+        "start": 658.629,
+        "duration": 5.21
+    },
+    {
+        "text": "made progress that would add a lot of unnecessary steps, but it wouldn't change the parity of the number of steps",
+        "start": 664.18,
+        "duration": 6.5
+    },
+    {
+        "text": "So what this means is that",
+        "start": 670.68,
+        "duration": 3.179
+    },
+    {
+        "text": "Starting from the numbers in order",
+        "start": 675.7,
+        "duration": 3.44
+    },
+    {
+        "text": "every other",
+        "start": 680.26,
+        "duration": 1.44
+    },
+    {
+        "text": "Permutation is reached either by an even number of steps or an odd number of steps",
+        "start": 681.7,
+        "duration": 4.76
+    },
+    {
+        "text": "another way of saying that is we can attach to each permutation a thing that we might call an invariant of the",
+        "start": 686.46,
+        "duration": 5.94
+    },
+    {
+        "text": "Permutation that is the parity of the number of steps needed to get to it from the starting configuration. Now that we know that all",
+        "start": 692.65,
+        "duration": 7.309
+    },
+    {
+        "text": "Permutations are either even or odd",
+        "start": 700.78,
+        "duration": 1.86
+    },
+    {
+        "text": "We will see that the impossible ones",
+        "start": 702.64,
+        "duration": 3.349
+    },
+    {
+        "text": "Have the wrong parity. When we go back to our puzzle and we want to know which",
+        "start": 706.21,
+        "duration": 5.539
+    },
+    {
+        "text": "Configurations are possible and which are impossible",
+        "start": 712.27,
+        "duration": 2.719
+    },
+    {
+        "text": "We're going to use this relation to even and odd permutations and we'll see that if the arrangement",
+        "start": 715.15,
+        "duration": 6.229
+    },
+    {
+        "text": "corresponds to a permutation with the wrong parity, then we'll never be able to get to it. One extra",
+        "start": 722.29,
+        "duration": 5.75
+    },
+    {
+        "text": "consideration we have to bring in is we have to look at where the blank space the number 16 in our permutations",
+        "start": 729.1,
+        "duration": 7.489
+    },
+    {
+        "text": "starts and ends. So like for example if we wanted to start with the pieces all in",
+        "start": 737.02,
+        "duration": 5.479
+    },
+    {
+        "text": "Horizontal row let's suppose we wanted to get to the vertical",
+        "start": 743.05,
+        "duration": 5.3
+    },
+    {
+        "text": "arrangement",
+        "start": 748.87,
+        "duration": 1.2
+    },
+    {
+        "text": "So here we see that in this vertical arrangement",
+        "start": 750.07,
+        "duration": 3.89
+    },
+    {
+        "text": "We're going to end up with the blank square again at the bottom there",
+        "start": 753.96,
+        "duration": 4.95
+    },
+    {
+        "text": "So if we start and end with the number 16 - or in puzzle language, the blank square - starting in the bottom-right corner",
+        "start": 758.91,
+        "duration": 7.799
+    },
+    {
+        "text": "and ending in the same place, what's going to happen between start and finish is",
+        "start": 767.25,
+        "duration": 4.89
+    },
+    {
+        "text": "that the blank square is going to move all around the tray as we make our switching. So here I'll start it",
+        "start": 772.33,
+        "duration": 7.309
+    },
+    {
+        "text": "We want to get to the ending configuration. So we have to move the blank square all around",
+        "start": 779.64,
+        "duration": 6.659
+    },
+    {
+        "text": "So that I can rearrange the numbers keep your eye on the blank square",
+        "start": 787.45,
+        "duration": 4.19
+    },
+    {
+        "text": "You can see it's moving all over the board and we will just keep moving the blank square around",
+        "start": 791.77,
+        "duration": 5.75
+    },
+    {
+        "text": "Until the pieces do what we want etc",
+        "start": 798.29,
+        "duration": 2.51
+    },
+    {
+        "text": "So let's count how many times we have to move the blank. That will be the number of",
+        "start": 801.02,
+        "duration": 6.24
+    },
+    {
+        "text": "transpositions we have to do. So you might think this is an impossible thing",
+        "start": 807.62,
+        "duration": 3.64
+    },
+    {
+        "text": "I mean there's going to be maybe dozens maybe hundreds of moves that we have to make but",
+        "start": 811.42,
+        "duration": 5.46
+    },
+    {
+        "text": "remember all that we care about is the parity of the number of moves and if we think about",
+        "start": 817.36,
+        "duration": 5.12
+    },
+    {
+        "text": "What's going to happen to this blank square if it's going to start here and end up at the same place?",
+        "start": 822.95,
+        "duration": 5.929
+    },
+    {
+        "text": "So let's suppose that when we're doing this we make a certain number of moves to the left",
+        "start": 828.88,
+        "duration": 5.369
+    },
+    {
+        "text": "a certain number of moves to the right",
+        "start": 834.61,
+        "duration": 2.429
+    },
+    {
+        "text": "a certain number of moves up and a certain number of moves down. If we're going to end up at the same place",
+        "start": 837.11,
+        "duration": 7.039
+    },
+    {
+        "text": "We have to make as many left as right because if every time we move left",
+        "start": 844.25,
+        "duration": 4.429
+    },
+    {
+        "text": "We'll have to compensate if we're going to end up at the back at the same place and the same",
+        "start": 848.68,
+        "duration": 3.75
+    },
+    {
+        "text": "With up and down. The number of ups will have to equal the number of downs",
+        "start": 852.62,
+        "duration": 4.13
+    },
+    {
+        "text": "so the total number of",
+        "start": 857.42,
+        "duration": 2.0
+    },
+    {
+        "text": "Moves is the total of the lefts and the rights and the ups and the downs",
+        "start": 860.0,
+        "duration": 5.419
+    },
+    {
+        "text": "But the lefts and the rights are the same",
+        "start": 865.94,
+        "duration": 2.51
+    },
+    {
+        "text": "So I can write that as twice the number of lefts and there are as many downs as ups",
+        "start": 868.73,
+        "duration": 5.059
+    },
+    {
+        "text": "So that's twice the number of ups so you can see that whatever",
+        "start": 873.79,
+        "duration": 4.109
+    },
+    {
+        "text": "The number is, it's twice something. It's even. It's even. So to end up with the blank or the 16 in the bottom right corner",
+        "start": 877.899,
+        "duration": 7.23
+    },
+    {
+        "text": "definitely even number of moves. Definitely an even number of moves. So that means if we start from",
+        "start": 886.19,
+        "duration": 6.229
+    },
+    {
+        "text": "this configuration",
+        "start": 893.36,
+        "duration": 2.0
+    },
+    {
+        "text": "and we end up with the blank square in the 16",
+        "start": 896.029,
+        "duration": 3.26
+    },
+    {
+        "text": "We can only rearrange this to correspond to an even permutation",
+        "start": 899.45,
+        "duration": 4.909
+    },
+    {
+        "text": "All right, so to prove that this one is impossible",
+        "start": 904.64,
+        "duration": 3.739
+    },
+    {
+        "text": "all we have to do now is check whether the",
+        "start": 908.959,
+        "duration": 2.9
+    },
+    {
+        "text": "permutation corresponding to this arrangement is even or odd. If it turns out to be odd",
+        "start": 912.14,
+        "duration": 4.759
+    },
+    {
+        "text": "then we know we cannot reach it by these moves.",
+        "start": 917.18,
+        "duration": 3.289
+    },
+    {
+        "text": "Okay, how do we do that though? That looks like such a complicated thing to show. Alright",
+        "start": 921.05,
+        "duration": 3.859
+    },
+    {
+        "text": "so let's write out where we want to start from and where we want to get to. So we want to start from",
+        "start": 924.91,
+        "duration": 5.94
+    },
+    {
+        "text": "this configuration and we want to end in the permutation",
+        "start": 931.2,
+        "duration": 4.169
+    },
+    {
+        "text": "Corresponding to that arrangement so that starts with 15",
+        "start": 936.22,
+        "duration": 4.86
+    },
+    {
+        "text": "So 16 is going to end up in the same place, but all the other numbers",
+        "start": 941.1,
+        "duration": 5.66
+    },
+    {
+        "text": "have been rearranged.",
+        "start": 946.9,
+        "duration": 2.24
+    },
+    {
+        "text": "Let's construct a sequence of transpositions that is going to take this permutation",
+        "start": 949.34,
+        "duration": 5.94
+    },
+    {
+        "text": "To that permutation and this is actually not too hard. So we have to switch 15 and 1",
+        "start": 956.11,
+        "duration": 6.5
+    },
+    {
+        "text": "14 and 2",
+        "start": 963.37,
+        "duration": 1.95
+    },
+    {
+        "text": "13 and 3, 4 and 12",
+        "start": 965.32,
+        "duration": 2.929
+    },
+    {
+        "text": "5 and 11, 6 and 10, and 7 and 9 and if you make all those switches",
+        "start": 968.949,
+        "duration": 7.1
+    },
+    {
+        "text": "Then you'll get 15 first 14 13 12. You'll get it in this order",
+        "start": 976.36,
+        "duration": 4.1
+    },
+    {
+        "text": "Of course, you can't make that switch in the puzzle game quite so easily, can you?",
+        "start": 980.46,
+        "duration": 3.9
+    },
+    {
+        "text": "You can't do it in the puzzle game, but- Without cheating and taking the tiles. Right,",
+        "start": 984.54,
+        "duration": 4.56
+    },
+    {
+        "text": "but we know that the sequence that you would have to use in the puzzle game would have a different number of steps",
+        "start": 989.23,
+        "duration": 5.479
+    },
+    {
+        "text": "But the parity would be the same",
+        "start": 994.99,
+        "duration": 2.0
+    },
+    {
+        "text": "So we only have to worry about parity",
+        "start": 997.42,
+        "duration": 2.51
+    },
+    {
+        "text": "So if I can show that with this sequence the parity is wrong",
+        "start": 1000.209,
+        "duration": 3.77
+    },
+    {
+        "text": "Then whatever sequence we could do there would also be wrong",
+        "start": 1004.079,
+        "duration": 2.99
+    },
+    {
+        "text": "These are the switches that will get us from there to there and well how many of them are there?",
+        "start": 1007.199,
+        "duration": 4.46
+    },
+    {
+        "text": "There's 1 2 3 4 5 6 7 so odd",
+        "start": 1011.66,
+        "duration": 3.989
+    },
+    {
+        "text": "That's enough to tell you that it's impossible? That's it.",
+        "start": 1015.649,
+        "duration": 2.391
+    },
+    {
+        "text": "So that means we cannot get from the starting configuration in order",
+        "start": 1018.2,
+        "duration": 6.74
+    },
+    {
+        "text": "to the ending configuration in reverse order with the blank square in the same place. Let's think about Sam Lloyd's",
+        "start": 1025.709,
+        "duration": 7.4
+    },
+    {
+        "text": "original nasty challenge, which was to take the original",
+        "start": 1033.87,
+        "duration": 5.42
+    },
+    {
+        "text": "configuration and end up with",
+        "start": 1040.14,
+        "duration": 2.779
+    },
+    {
+        "text": "a configuration where everything is the same",
+        "start": 1044.069,
+        "duration": 2.479
+    },
+    {
+        "text": "except the last two are switched. So if we analyze this using our",
+        "start": 1047.49,
+        "duration": 4.76
+    },
+    {
+        "text": "math superpowers that we've just acquired we have to compare our starting configuration",
+        "start": 1053.07,
+        "duration": 5.599
+    },
+    {
+        "text": "Compare this to the configuration where everything is the same",
+        "start": 1059.669,
+        "duration": 4.22
+    },
+    {
+        "text": "Except I've switched these last two",
+        "start": 1064.83,
+        "duration": 2.96
+    },
+    {
+        "text": "tile numbers and 16 stays the same. How many",
+        "start": 1069.0,
+        "duration": 3.829
+    },
+    {
+        "text": "transpositions do we need to get from the starting one to the ending one?",
+        "start": 1073.32,
+        "duration": 5.18
+    },
+    {
+        "text": "Well all we need to do is switch 14 and 15",
+        "start": 1078.54,
+        "duration": 3.049
+    },
+    {
+        "text": "So it's the transposition (14,15). That's all we need. There's one of them - odd -",
+        "start": 1082.29,
+        "duration": 5.539
+    },
+    {
+        "text": "so that's odd, but we know from this little argument that we made if we",
+        "start": 1088.28,
+        "duration": 4.709
+    },
+    {
+        "text": "start with the blank at the lower",
+        "start": 1093.69,
+        "duration": 2.0
+    },
+    {
+        "text": "right and we end with the blank in the same place 16 at the end",
+        "start": 1096.03,
+        "duration": 4.099
+    },
+    {
+        "text": "then the number of steps that we have to have performed to get from start to finish has to be even",
+        "start": 1100.13,
+        "duration": 6.719
+    },
+    {
+        "text": "So there's no way to start there end there and do an odd number of steps.",
+        "start": 1107.24,
+        "duration": 4.8
+    },
+    {
+        "text": "So no one won the thousand bucks.",
+        "start": 1112.3,
+        "duration": 1.42
+    },
+    {
+        "text": "No, so Sam Lloyd",
+        "start": 1113.88,
+        "duration": 1.86
+    },
+    {
+        "text": "kept his thousand bucks. So these other ones that these package says are possible or impossible",
+        "start": 1115.74,
+        "duration": 4.13
+    },
+    {
+        "text": "We've got to- we have to check all of them. We don't know which ones of those are possible or not. Right,",
+        "start": 1119.97,
+        "duration": 4.16
+    },
+    {
+        "text": "let's see if we think it's possible to end up with the arrangement where",
+        "start": 1124.32,
+        "duration": 6.68
+    },
+    {
+        "text": "the numbers go around the board in a spiral and now we end up",
+        "start": 1131.4,
+        "duration": 5.689
+    },
+    {
+        "text": "with the blank over there. Let's see if this should be possible. So we're starting from the standard starting",
+        "start": 1137.43,
+        "duration": 7.759
+    },
+    {
+        "text": "configuration",
+        "start": 1145.74,
+        "duration": 1.23
+    },
+    {
+        "text": "So the blank starts in the bottom right. And we want to know, can we end up like this?",
+        "start": 1146.97,
+        "duration": 4.7
+    },
+    {
+        "text": "What's the parity of the number of steps that it would take to get the blank from starting to its ending position?",
+        "start": 1151.88,
+        "duration": 5.939
+    },
+    {
+        "text": "Well, it started in the bottom right. To get to where it is at the end of this configuration,",
+        "start": 1157.82,
+        "duration": 4.98
+    },
+    {
+        "text": "we have to move one two to the left and one up",
+        "start": 1162.93,
+        "duration": 4.069
+    },
+    {
+        "text": "So the number of steps has to have the same parity as three",
+        "start": 1167.34,
+        "duration": 4.67
+    },
+    {
+        "text": "So the fancy math way of writing that is to say that the number of steps has to be 1 mod 2",
+        "start": 1172.16,
+        "duration": 7.4
+    },
+    {
+        "text": "in other words odd",
+        "start": 1179.88,
+        "duration": 1.3
+    },
+    {
+        "text": "Yeah, odd. OK. That's a very fancy way of saying odd!",
+        "start": 1181.18,
+        "duration": 4.22
+    },
+    {
+        "text": "Alright, alright. Let's write odd as well, write odd under it.",
+        "start": 1185.4,
+        "duration": 2.0
+    },
+    {
+        "text": "Sorry unnecessarily",
+        "start": 1188.22,
+        "duration": 2.0
+    },
+    {
+        "text": "Rather than 1 mod 2. Yeah, yeah. OK.",
+        "start": 1191.23,
+        "duration": 2.0
+    },
+    {
+        "text": "So it's odd. Whether this is possible or not then depends on whether the",
+        "start": 1194.17,
+        "duration": 5.15
+    },
+    {
+        "text": "configuration corresponding to this which is 1 2 3 4",
+        "start": 1199.75,
+        "duration": 4.85
+    },
+    {
+        "text": "12 13 14",
+        "start": 1205.33,
+        "duration": 2.329
+    },
+    {
+        "text": "5",
+        "start": 1208.33,
+        "duration": 1.26
+    },
+    {
+        "text": "11 remember blank is 16",
+        "start": 1209.59,
+        "duration": 2.63
+    },
+    {
+        "text": "15 6",
+        "start": 1213.16,
+        "duration": 1.83
+    },
+    {
+        "text": "10 9",
+        "start": 1214.99,
+        "duration": 1.14
+    },
+    {
+        "text": "8 7. Is that odd? So this one - it's not as easy to draw a map in the same way there",
+        "start": 1216.13,
+        "duration": 7.31
+    },
+    {
+        "text": "But we can certainly figure out a path from the starting configuration",
+        "start": 1223.44,
+        "duration": 3.78
+    },
+    {
+        "text": "To there, how are we going to do it?",
+        "start": 1227.74,
+        "duration": 2.27
+    },
+    {
+        "text": "So we don't have to do anything about the first four. 12 13 14 in the starting configuration are over there",
+        "start": 1230.01,
+        "duration": 6.45
+    },
+    {
+        "text": "They all have to be moved to come after 1 2 3 4 so we can do that",
+        "start": 1236.74,
+        "duration": 5.33
+    },
+    {
+        "text": "Let's see 12 would have to be switched with 11 then 10 then 9 then 8 then 7 then 6 then",
+        "start": 1242.07,
+        "duration": 4.979
+    },
+    {
+        "text": "5 so that's 1 2 3 4 5 6 7 hops that would put the 12 in front of the 5",
+        "start": 1247.21,
+        "duration": 7.01
+    },
+    {
+        "text": "Then the 13 can come behind it another 7 hops and the 14 behind that another 7",
+        "start": 1254.38,
+        "duration": 5.75
+    },
+    {
+        "text": "We can get this much correct by",
+        "start": 1261.65,
+        "duration": 3.199
+    },
+    {
+        "text": "Doing we had to do seven hops for the 12, seven for the 13 and seven for the 14",
+        "start": 1265.4,
+        "duration": 5.27
+    },
+    {
+        "text": "So that's going to take 3 times 7",
+        "start": 1270.67,
+        "duration": 2.579
+    },
+    {
+        "text": "Odd - there's odd hops. Odd number so far",
+        "start": 1273.83,
+        "duration": 3.29
+    },
+    {
+        "text": "Okay now",
+        "start": 1277.79,
+        "duration": 1.44
+    },
+    {
+        "text": "5 is in the right place as well. So we're good up to there. We have to get 11 into the correct place",
+        "start": 1279.23,
+        "duration": 6.32
+    },
+    {
+        "text": "Behind the five. So that's going to take five hops. Now we're good up to 11.",
+        "start": 1286.1,
+        "duration": 6.979
+    },
+    {
+        "text": "Now we need the 16 that's gonna be one, two, three, four, five, another six",
+        "start": 1293.08,
+        "duration": 5.07
+    },
+    {
+        "text": "hops, now we're good up to there. 15 into its correct position, that's gonna take one two",
+        "start": 1298.15,
+        "duration": 6.569
+    },
+    {
+        "text": "Three four five hops nine ten. That was another one. Now",
+        "start": 1304.79,
+        "duration": 5.839
+    },
+    {
+        "text": "we've got 15. 6 happens to be in its right position",
+        "start": 1310.63,
+        "duration": 3.03
+    },
+    {
+        "text": "So now we've got to just switch the last few we've got to get 7 8 9 10 into the order 10 9 8 7",
+        "start": 1313.67,
+        "duration": 7.969
+    },
+    {
+        "text": "Here we can - actually we can short-circuit things",
+        "start": 1322.28,
+        "duration": 3.559
+    },
+    {
+        "text": "We switch those two and those two - that will do the job. So that's another two that's odd",
+        "start": 1325.84,
+        "duration": 6.57
+    },
+    {
+        "text": "Don't even need to know the actual number. All we need to know is, is it even or odd. Here we have another 10 steps",
+        "start": 1332.77,
+        "duration": 5.819
+    },
+    {
+        "text": "That's even so an even number plus an odd number is odd. Good news because look up here. Good news.",
+        "start": 1338.63,
+        "duration": 6.049
+    },
+    {
+        "text": "Right. Because that's what we wanted. Good news. That's gettable then. So let's do it",
+        "start": 1344.679,
+        "duration": 5.04
+    },
+    {
+        "text": "You can edit this",
+        "start": 1351.65,
+        "duration": 2.0
+    },
+    {
+        "text": "Mathematics wins, okay",
+        "start": 1380.83,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm gonna make your prediction:the number of people on the YouTube video that write comments saying",
+        "start": 1383.5,
+        "duration": 4.64
+    },
+    {
+        "text": "\"Oh I just take the tiles out or I cheat\" and things like that is going to be",
+        "start": 1388.14,
+        "duration": 3.359
+    },
+    {
+        "text": "odd",
+        "start": 1392.14,
+        "duration": 2.0
+    },
+    {
+        "text": "Odd but not peculiar! Odd, and a lot of them",
+        "start": 1397.3,
+        "duration": 3.02
+    },
+    {
+        "text": "Elements here, which these are not quite tetris because tetris is four squares, these have five. So these are five squares",
+        "start": 1401.22,
+        "duration": 7.04
+    },
+    {
+        "text": "So these are all the possible ways you can put five squares together.",
+        "start": 1408.26,
+        "duration": 3.52
+    },
+    {
+        "text": "If you were to stop right now",
+        "start": 1411.8,
+        "duration": 1.48
+    },
+    {
+        "text": "This is area 20. So if you were to stop right now your score would be 20",
+        "start": 1413.28,
+        "duration": 5.67
+    },
+    {
+        "text": "That's your biggest, minus your smallest 4, your score would be 16",
+        "start": 1418.95,
+        "duration": 4.409
+    }
+]

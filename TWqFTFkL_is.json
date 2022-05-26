@@ -1,0 +1,427 @@
+[
+    {
+        "text": "Hi, I'm Hank Green, this is SciShow News and\nit turns out that both our online information",
+        "start": 0.089,
+        "duration": 4.001
+    },
+    {
+        "text": "and our bodies might not be as safe as we\nthought!",
+        "start": 4.09,
+        "duration": 6.66
+    },
+    {
+        "text": "Exciting!",
+        "start": 10.75,
+        "duration": 4.1
+    },
+    {
+        "text": "[Intro]",
+        "start": 14.85,
+        "duration": 4.099
+    },
+    {
+        "text": "You have probably, I hope, heard about the\nnewly discovered threat to our online security,",
+        "start": 18.949,
+        "duration": 4.691
+    },
+    {
+        "text": "Heartbleed.",
+        "start": 23.64,
+        "duration": 1.0
+    },
+    {
+        "text": "Heartbleed is not a virus, it's a coding error\nthat is so small and so simple that it took",
+        "start": 24.64,
+        "duration": 5.219
+    },
+    {
+        "text": "two years for anyone to even notice it.",
+        "start": 29.859,
+        "duration": 2.51
+    },
+    {
+        "text": "And more than a week after the bug was announced\non April 7th, the Internet remained so vulnerable",
+        "start": 32.369,
+        "duration": 4.71
+    },
+    {
+        "text": "that a Canadian teenager was able to steal\nthe private tax information of 900 people",
+        "start": 37.079,
+        "duration": 5.601
+    },
+    {
+        "text": "from Canada's revenue agency.",
+        "start": 42.68,
+        "duration": 1.33
+    },
+    {
+        "text": "So you probably heard about it, but you probably\ndo not understand how it works.",
+        "start": 44.01,
+        "duration": 3.7
+    },
+    {
+        "text": "I'm gonna explain it to you.",
+        "start": 47.71,
+        "duration": 1.06
+    },
+    {
+        "text": "When one computer wants to talk to another\ncomputer, for example when your home computer",
+        "start": 48.77,
+        "duration": 4.04
+    },
+    {
+        "text": "wants to talk to the server where your tumblr\nkeeps your blog, they open up a data stream.",
+        "start": 52.81,
+        "duration": 4.319
+    },
+    {
+        "text": "But there's sensitive information in that\nstream, like your username and your password",
+        "start": 57.129,
+        "duration": 3.391
+    },
+    {
+        "text": "and your private, personal thoughts about\nthose two kittens asleep in a drum kit.",
+        "start": 60.52,
+        "duration": 3.26
+    },
+    {
+        "text": "So the data stream is encrypted, using an\nencryption tool called Transport Layer Security,",
+        "start": 63.78,
+        "duration": 5.379
+    },
+    {
+        "text": "or TLS.",
+        "start": 69.159,
+        "duration": 1.12
+    },
+    {
+        "text": "Your machine and the other machine are both\ngiven a one-time key for decoding that encryption.",
+        "start": 70.279,
+        "duration": 5.391
+    },
+    {
+        "text": "Once your session ends, the key is discarded\nand your decoded information is overwritten",
+        "start": 75.67,
+        "duration": 4.589
+    },
+    {
+        "text": "by new information coming in from the millions\nof other people who also think that those",
+        "start": 80.259,
+        "duration": 3.451
+    },
+    {
+        "text": "kittens are cute.",
+        "start": 83.71,
+        "duration": 1.0
+    },
+    {
+        "text": "Your session remains open as long as both\nmachines keep exchanging little heartbeats,",
+        "start": 84.71,
+        "duration": 4.139
+    },
+    {
+        "text": "little packets of information that tell the\ncomputers that their buddy is still there.",
+        "start": 88.849,
+        "duration": 4.43
+    },
+    {
+        "text": "It's from those heartbeats that Heartbleed\ngets its incredibly cool name.",
+        "start": 93.279,
+        "duration": 4.84
+    },
+    {
+        "text": "Heartbleed is what happens when one computer\nlies to the other computer about the size",
+        "start": 98.119,
+        "duration": 3.86
+    },
+    {
+        "text": "of the packet of data that it wants to swap.",
+        "start": 101.979,
+        "duration": 2.67
+    },
+    {
+        "text": "So if your laptop sends out a packet that's,\nsay, ten characters, but it tells the other",
+        "start": 104.649,
+        "duration": 3.601
+    },
+    {
+        "text": "computer that it's 64,000 characters long,\nthat other server will obediently send back",
+        "start": 108.25,
+        "duration": 5.35
+    },
+    {
+        "text": "64,000 characters of data.",
+        "start": 113.6,
+        "duration": 2.46
+    },
+    {
+        "text": "The un-encrypted data from its users that\nwas supposed to be overwritten without ever",
+        "start": 116.06,
+        "duration": 4.149
+    },
+    {
+        "text": "being accessed.",
+        "start": 120.209,
+        "duration": 2.101
+    },
+    {
+        "text": "Sometimes what it sends back is just random\njunk, and sometimes it's your password.",
+        "start": 122.31,
+        "duration": 3.879
+    },
+    {
+        "text": "It seems crazy that this could happen, until\nyou find out that all the big named companies",
+        "start": 126.189,
+        "duration": 5.341
+    },
+    {
+        "text": "that are using TLS encryption aren't actually\npaying for it.",
+        "start": 131.53,
+        "duration": 3.209
+    },
+    {
+        "text": "Instead, they all use a free, open source\nauthor called OpenSSL, and the whole thing,",
+        "start": 134.739,
+        "duration": 4.98
+    },
+    {
+        "text": "the most important encryption program in the\nworld, is kept running by just one full time",
+        "start": 139.719,
+        "duration": 3.971
+    },
+    {
+        "text": "programmer and a small group of people who\nwork on it on the side.",
+        "start": 143.69,
+        "duration": 2.659
+    },
+    {
+        "text": "Of course, a group of people who have now\nfixed the code, thankfully.",
+        "start": 146.349,
+        "duration": 4.151
+    },
+    {
+        "text": "Now let's talk about something that is is\na virus, the flu.",
+        "start": 150.5,
+        "duration": 2.63
+    },
+    {
+        "text": "Flu pandemics are one of the scariest potential\nthreats to public health, so scary that since",
+        "start": 153.13,
+        "duration": 3.809
+    },
+    {
+        "text": "the outbreak of the H1N1 swine flu in 2009,\ngovernments around the world have stockpiled",
+        "start": 156.939,
+        "duration": 4.61
+    },
+    {
+        "text": "billions of dollars worth of anti-flu medication.",
+        "start": 161.549,
+        "duration": 2.39
+    },
+    {
+        "text": "But a new report from the British Medical\nJournal reveals that these drugs don't really",
+        "start": 163.939,
+        "duration": 4.811
+    },
+    {
+        "text": "do much.",
+        "start": 168.75,
+        "duration": 1.39
+    },
+    {
+        "text": "Viruses are just protein-coated packages of\ngenetic information, either DNA or RNA that",
+        "start": 170.14,
+        "duration": 5.079
+    },
+    {
+        "text": "can live in the cells of almost any living\nthing and use them to reproduce.",
+        "start": 175.219,
+        "duration": 4.281
+    },
+    {
+        "text": "In some cases, vaccines made from killed viruses\ncan protect people from infection, but they",
+        "start": 179.5,
+        "duration": 4.87
+    },
+    {
+        "text": "can be hard to produce, so governments have\noften turned to alternatives that just slow",
+        "start": 184.37,
+        "duration": 5.05
+    },
+    {
+        "text": "viruses down.",
+        "start": 189.42,
+        "duration": 1.289
+    },
+    {
+        "text": "Since 2009, a favorite of the US and UK has\nbeen a class of drugs known as neurominidase",
+        "start": 190.709,
+        "duration": 4.581
+    },
+    {
+        "text": "inhibitors, or NAIs.",
+        "start": 195.29,
+        "duration": 2.15
+    },
+    {
+        "text": "Sold under the names Tamiflu and Rolenza,\nthese drugs have been said to work by blocking",
+        "start": 197.44,
+        "duration": 4.4
+    },
+    {
+        "text": "the protein neuraminidase that viruses use\nto escape their host cells.",
+        "start": 201.84,
+        "duration": 4.47
+    },
+    {
+        "text": "But just how effective these drugs are has\nbeen controversial in medical circles, and",
+        "start": 206.31,
+        "duration": 3.89
+    },
+    {
+        "text": "some research has shown that viruses are becoming\nincreasingly resistant to whatever effects",
+        "start": 210.2,
+        "duration": 4.41
+    },
+    {
+        "text": "they do have.",
+        "start": 214.61,
+        "duration": 1.0
+    },
+    {
+        "text": "Now the new British study finds that drugs\nlike Tamiflu are, in its author's words, \"scarcely",
+        "start": 215.61,
+        "duration": 5.019
+    },
+    {
+        "text": "more effective than aspirin in treating the\nflu.\"",
+        "start": 220.629,
+        "duration": 3.151
+    },
+    {
+        "text": "After reviewing 46 studies performed on 24,000\npeople who have taken Tamiflu or Ralenza,",
+        "start": 223.78,
+        "duration": 4.909
+    },
+    {
+        "text": "a medical nonprofit known as the Cochrane\nCollaboration found that NAIs don't reduce",
+        "start": 228.689,
+        "duration": 4.011
+    },
+    {
+        "text": "the risk that you'll catch the flu.",
+        "start": 232.7,
+        "duration": 1.679
+    },
+    {
+        "text": "Compared with a placebo, Tamiflu did shorten\nthe presence of flu symptoms by an average",
+        "start": 234.379,
+        "duration": 4.251
+    },
+    {
+        "text": "of 0.7 days in adults, but it did not reduce\nthe risk of dangerous complications from the",
+        "start": 238.63,
+        "duration": 6.089
+    },
+    {
+        "text": "flu, like pneumonia, bronchitis, or secondary\ninfections, and it didn't reduce the rate",
+        "start": 244.719,
+        "duration": 4.431
+    },
+    {
+        "text": "of hospitalizations among patients.",
+        "start": 249.15,
+        "duration": 1.879
+    },
+    {
+        "text": "What's more, the results did show that about\n4% of patients suffered side effects like",
+        "start": 251.029,
+        "duration": 4.38
+    },
+    {
+        "text": "nausea and vomiting, and 1% experience psychiatric\neffects that appeared to be linked to the",
+        "start": 255.409,
+        "duration": 5.45
+    },
+    {
+        "text": "drugs.",
+        "start": 260.859,
+        "duration": 1.0
+    },
+    {
+        "text": "So, why are we just finding out about this\nnow?",
+        "start": 261.859,
+        "duration": 1.891
+    },
+    {
+        "text": "Turns out public health officials bought up\nbillions of dollars worth of Tamiflu based",
+        "start": 263.75,
+        "duration": 3.949
+    },
+    {
+        "text": "on studies that drug companies never actually\nshowed them.",
+        "start": 267.699,
+        "duration": 4.411
+    },
+    {
+        "text": "The studies were only released after four\nyears of public pressure by the Cochrane Collaboration.",
+        "start": 272.11,
+        "duration": 5.16
+    },
+    {
+        "text": "Since the study came out, officials have defended\ntheir decisions by saying that NAIs were better",
+        "start": 277.27,
+        "duration": 3.95
+    },
+    {
+        "text": "than nothing at all, which may in fact be\ntrue, but transparent science would have been",
+        "start": 281.22,
+        "duration": 4.19
+    },
+    {
+        "text": "a lot better.",
+        "start": 285.41,
+        "duration": 1.0
+    },
+    {
+        "text": "Thank you for watching SciShow News, especially\nto our Subabble subscribers.",
+        "start": 286.41,
+        "duration": 3.2
+    },
+    {
+        "text": "To learn how you can support us, just go to\nsubbable.com/scishow to learn more.",
+        "start": 289.61,
+        "duration": 4.55
+    },
+    {
+        "text": "And be sure to check out our new channel,\nSciShow Space, for all the latest space news",
+        "start": 294.16,
+        "duration": 4.349
+    },
+    {
+        "text": "and weekly forays into the depths of the cosmos!",
+        "start": 298.509,
+        "duration": 2.87
+    },
+    {
+        "text": "If you have any questions you can find us\non Facebook and Twitter and as always down",
+        "start": 301.379,
+        "duration": 3.631
+    },
+    {
+        "text": "in the comments below.",
+        "start": 305.01,
+        "duration": 1.0
+    },
+    {
+        "text": "And if you want to keep getting smarter with\nus, you can go to youtube.com/scishow and",
+        "start": 306.01,
+        "duration": 3.77
+    },
+    {
+        "text": "subscribe.",
+        "start": 309.78,
+        "duration": 0.9
+    }
+]

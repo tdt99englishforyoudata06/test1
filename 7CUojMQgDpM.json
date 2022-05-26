@@ -1,0 +1,797 @@
+[
+    {
+        "text": "Hey it's me Destin, welcome back to Smarter Every Day. So in the last episode I explained",
+        "start": 0.02,
+        "duration": 4.02
+    },
+    {
+        "text": "that it's not always the most athletic team that wins in sport, sometimes it involves",
+        "start": 4.06,
+        "duration": 3.99
+    },
+    {
+        "text": "the physical manipulation of objects, so sometimes it's the most intelligent team.",
+        "start": 8.07,
+        "duration": 4.02
+    },
+    {
+        "text": "So today, on Smarter Every Day, let's take a look at the physics of curling.",
+        "start": 12.11,
+        "duration": 4.01
+    },
+    {
+        "text": "[music]",
+        "start": 16.14,
+        "duration": 4.0
+    },
+    {
+        "text": "OK before we watch some curlers we need to learn the basics of the sport.",
+        "start": 20.16,
+        "duration": 4.01
+    },
+    {
+        "text": "This is the curling sheet and the circles are the house. The goal is to get your team's rock",
+        "start": 24.19,
+        "duration": 4.0
+    },
+    {
+        "text": "closest to the button. There's four people on each team. The thrower,",
+        "start": 28.21,
+        "duration": 4.03
+    },
+    {
+        "text": "the sweepers and the skip who's in charge. Each team has eight stones",
+        "start": 32.26,
+        "duration": 4.02
+    },
+    {
+        "text": "to throw, so each person throws two. They alternate with the other team",
+        "start": 36.3,
+        "duration": 4.01
+    },
+    {
+        "text": "so there's a total of 16 stones thrown. The very last one is called the hammer,",
+        "start": 40.33,
+        "duration": 4.01
+    },
+    {
+        "text": "which is a major advantage. Do you have any idea how difficult it was to find a",
+        "start": 44.36,
+        "duration": 4.01
+    },
+    {
+        "text": "curling stone in Alabama? It is really hard. Anyway, so I know what you're thinking. Curling's like",
+        "start": 48.39,
+        "duration": 4.03
+    },
+    {
+        "text": "the caveman sport right? I'm gonna slide this rock on ice and I'm gonna hit another rock",
+        "start": 52.44,
+        "duration": 4.01
+    },
+    {
+        "text": "and we're just gonna try to out-rock each other. But oh no, it's way more difficult than that.",
+        "start": 56.47,
+        "duration": 4.03
+    },
+    {
+        "text": "In fact there's so many things I had never even considered until",
+        "start": 60.52,
+        "duration": 4.05
+    },
+    {
+        "text": "I took a closer look at how this works. For example, the simplest question of them all.",
+        "start": 64.59,
+        "duration": 4.02
+    },
+    {
+        "text": "What makes a curling stone curl? OK let's pretend for just a second",
+        "start": 68.63,
+        "duration": 4.01
+    },
+    {
+        "text": "that this isn't my coffee table, it's actually a curling sheet.",
+        "start": 72.66,
+        "duration": 4.01
+    },
+    {
+        "text": "So we know from watching TV that when a player is back here at the hack, which is where they start, ",
+        "start": 76.69,
+        "duration": 4.06
+    },
+    {
+        "text": "and he pushes it toward the house where you're at, which is the bullseye on the ice, as he",
+        "start": 80.77,
+        "duration": 4.0
+    },
+    {
+        "text": "rotates it or spins it counter clockwise it'll curl in the direction",
+        "start": 84.79,
+        "duration": 4.07
+    },
+    {
+        "text": "of that rotation, right? Now my assumption is that has something to do with this,",
+        "start": 88.88,
+        "duration": 4.02
+    },
+    {
+        "text": "which is called the running band. You'll see the bottom of the curling stone is concave",
+        "start": 92.92,
+        "duration": 4.0
+    },
+    {
+        "text": "but there's this circular frictional interface that interfaces with the ice.",
+        "start": 96.94,
+        "duration": 4.02
+    },
+    {
+        "text": "So we should be able to model a circular frictional interface of a moving",
+        "start": 100.98,
+        "duration": 4.08
+    },
+    {
+        "text": "sliding object on a rigid surface right? Which is this,",
+        "start": 105.08,
+        "duration": 4.01
+    },
+    {
+        "text": "a glass. I'm gonna take this circular object, I'm gonna put it down on the",
+        "start": 109.11,
+        "duration": 4.0
+    },
+    {
+        "text": "low friction surface, I'm gonna push it towards you and spin it, and expect",
+        "start": 113.13,
+        "duration": 4.0
+    },
+    {
+        "text": "a curl in the direction of rotation. Let's give it a shot.",
+        "start": 117.15,
+        "duration": 3.99
+    },
+    {
+        "text": "But I don't see that. Let's try this again. Set this down,",
+        "start": 121.16,
+        "duration": 4.07
+    },
+    {
+        "text": "push toward you, spin it, curl. Here we go.",
+        "start": 125.25,
+        "duration": 3.99
+    },
+    {
+        "text": "No. It curls in the opposite direction. This is actually what's really",
+        "start": 129.26,
+        "duration": 4.0
+    },
+    {
+        "text": "confused scientists for a really long time. That interface of a normal",
+        "start": 133.28,
+        "duration": 4.01
+    },
+    {
+        "text": "moving sliding spinning object on a rigid surface, behaves completely",
+        "start": 137.31,
+        "duration": 4.0
+    },
+    {
+        "text": "different with normal objects than it does with a curling stone.",
+        "start": 141.33,
+        "duration": 4.02
+    },
+    {
+        "text": "There's something magical happening right here on this running band between the stone",
+        "start": 145.37,
+        "duration": 4.02
+    },
+    {
+        "text": "and ice. So clearly the next step is to go find us some ice.",
+        "start": 149.41,
+        "duration": 4.0
+    },
+    {
+        "text": " ",
+        "start": 153.43,
+        "duration": 11.11
+    },
+    {
+        "text": "Ohhh!",
+        "start": 164.56,
+        "duration": 1.42
+    },
+    {
+        "text": "I wet my pants. Let's try again.",
+        "start": 166.0,
+        "duration": 2.98
+    },
+    {
+        "text": " ",
+        "start": 169.0,
+        "duration": 6.84
+    },
+    {
+        "text": "Oh man. So the curling stone",
+        "start": 175.86,
+        "duration": 1.8
+    },
+    {
+        "text": "goes in the direction of rotation but the cup goes opposite, which I can understand because",
+        "start": 177.68,
+        "duration": 4.02
+    },
+    {
+        "text": "as it's decelerating on the table it's trying to tip over, causing more force",
+        "start": 181.72,
+        "duration": 4.0
+    },
+    {
+        "text": "on that leading edge of the cup. So when it's spinning it's pushing against",
+        "start": 185.74,
+        "duration": 4.01
+    },
+    {
+        "text": "the table with its leading edge. That makes sense to me. So let's go to the curling club",
+        "start": 189.77,
+        "duration": 4.03
+    },
+    {
+        "text": "in Milwaukee Wisconson and see if they can teach us something with prepared ice",
+        "start": 193.82,
+        "duration": 3.99
+    },
+    {
+        "text": "and skill, most importantly.\n- We are at the Milwaukee Curling Club. We are located",
+        "start": 197.83,
+        "duration": 4.0
+    },
+    {
+        "text": "at the fairgrounds in Ozaukee County. This club is",
+        "start": 201.85,
+        "duration": 4.01
+    },
+    {
+        "text": "the oldest continuous curling club in the United States.\n(Destin) Before a game can be played the ice has",
+        "start": 205.88,
+        "duration": 4.02
+    },
+    {
+        "text": "to be properly prepared, which is a science within itself. If a stone",
+        "start": 209.92,
+        "duration": 4.0
+    },
+    {
+        "text": "rests on flat ice it creates a lot of contact friction which makes the stones run",
+        "start": 213.94,
+        "duration": 4.0
+    },
+    {
+        "text": "slowly. Curlers use an intricate technique called pebbling to decrease the friction",
+        "start": 217.96,
+        "duration": 4.02
+    },
+    {
+        "text": "of the stones on the ice. Deionized water that's been purified by reverse",
+        "start": 222.0,
+        "duration": 4.03
+    },
+    {
+        "text": "osmosis is sprinkled onto the ice in a very specific way and allowed to freeze.",
+        "start": 226.05,
+        "duration": 4.0
+    },
+    {
+        "text": "Here you can see Jay pebbling the ice by swinging a sprinkler nozzle",
+        "start": 230.07,
+        "duration": 4.02
+    },
+    {
+        "text": "back and forth. You can't imagine the amount of variables that have to be controlled during this process.",
+        "start": 234.11,
+        "duration": 4.02
+    },
+    {
+        "text": "Number of arm swings, how fast he walks, humidity,",
+        "start": 238.15,
+        "duration": 4.03
+    },
+    {
+        "text": "the difference in height between the tank and the sprinkler head, the temperature of the water, yeah.",
+        "start": 242.2,
+        "duration": 4.03
+    },
+    {
+        "text": "It's pretty crazy. After pebbling they use a blade to nip the top of the pebbles off to",
+        "start": 246.25,
+        "duration": 4.04
+    },
+    {
+        "text": "create a smooth uniform running surface. Because there's more pressure on the tops",
+        "start": 250.31,
+        "duration": 4.0
+    },
+    {
+        "text": "of the pebbles, there's more friction melting which causes less friction.",
+        "start": 254.33,
+        "duration": 4.03
+    },
+    {
+        "text": "Which leads us to sweeping. Before I researched curling I thought the sweepers",
+        "start": 258.38,
+        "duration": 4.02
+    },
+    {
+        "text": "were somehow increasing or decreasing the friction on one side of the stone or the other and making it curl.",
+        "start": 262.42,
+        "duration": 4.01
+    },
+    {
+        "text": "I was absolutely wrong. The sweepers actually sweep in order to heat",
+        "start": 266.45,
+        "duration": 4.02
+    },
+    {
+        "text": "the ice up and make it curl less. If you threw two stones exactly the same",
+        "start": 270.49,
+        "duration": 4.0
+    },
+    {
+        "text": "and you didn't sweep one but you swept the other, you would find that the swept one",
+        "start": 274.51,
+        "duration": 4.01
+    },
+    {
+        "text": "would go straighter and farther. This is a scanning electron microscope image",
+        "start": 278.54,
+        "duration": 4.0
+    },
+    {
+        "text": "of a pebble on the ice. You can see that it's been nipped on the top so it's fresh.",
+        "start": 282.56,
+        "duration": 4.01
+    },
+    {
+        "text": "This however is an image of a pebble after it's been swept. You can plainly",
+        "start": 286.59,
+        "duration": 4.01
+    },
+    {
+        "text": "see that there's grain boundaries from where it melted when it was swept with a broom.",
+        "start": 290.62,
+        "duration": 4.0
+    },
+    {
+        "text": "That thin layer of water that forms acts as a lubrication",
+        "start": 294.64,
+        "duration": 4.04
+    },
+    {
+        "text": "barrier, reducing the friction and allowing the stone to travel farther and faster.",
+        "start": 298.7,
+        "duration": 4.07
+    },
+    {
+        "text": "So this is where it gets interesting. So we're trying to figure out why the",
+        "start": 302.79,
+        "duration": 4.0
+    },
+    {
+        "text": "curling stone curls right? So I look around and I find the international experts",
+        "start": 306.81,
+        "duration": 4.05
+    },
+    {
+        "text": "for curling physics. I find the guy in Canada, and I find a team in Sweden",
+        "start": 310.88,
+        "duration": 4.02
+    },
+    {
+        "text": "and so I start reading all their papers. Turns out these guys are not even close to",
+        "start": 314.92,
+        "duration": 4.02
+    },
+    {
+        "text": "agreeing. It's really interesting. In fact they've never even communicated",
+        "start": 318.96,
+        "duration": 4.06
+    },
+    {
+        "text": "with their voices. They only communicate via technical paper. Fascinating.",
+        "start": 323.04,
+        "duration": 4.01
+    },
+    {
+        "text": "I called the guys up on the phone and I had like an hour and a half conversation with both",
+        "start": 327.07,
+        "duration": 4.04
+    },
+    {
+        "text": "groups, trying to understand what exactly is the mechanism.",
+        "start": 331.13,
+        "duration": 3.99
+    },
+    {
+        "text": "Harald Nyberg at Uppsala University in Sweden explained something to me",
+        "start": 335.14,
+        "duration": 4.03
+    },
+    {
+        "text": "called the scratch theory. Visualize a stone rotating and moving down the ice.",
+        "start": 339.19,
+        "duration": 4.01
+    },
+    {
+        "text": "Now think about the running band and what the scratches that would make",
+        "start": 343.22,
+        "duration": 4.01
+    },
+    {
+        "text": "look like as it goes down the sheet. The edges of the running band would make this really",
+        "start": 347.25,
+        "duration": 4.02
+    },
+    {
+        "text": "awesome overlapping pattern as it slides down. The Swedish scientists",
+        "start": 351.29,
+        "duration": 4.06
+    },
+    {
+        "text": "say that because the rough spots at the rear of the band",
+        "start": 355.37,
+        "duration": 4.06
+    },
+    {
+        "text": "have to hop over the scratches created by the leading edge of the running band, this will",
+        "start": 359.45,
+        "duration": 4.03
+    },
+    {
+        "text": "induce a force on the rear of the stone making it curl in the direction of rotation.",
+        "start": 363.5,
+        "duration": 3.99
+    },
+    {
+        "text": "They claim to prove this by showing images of pebbles",
+        "start": 367.51,
+        "duration": 4.06
+    },
+    {
+        "text": "that have been scratched at an angle after the stone slides over them. They also did an experiment by scratching",
+        "start": 371.59,
+        "duration": 4.0
+    },
+    {
+        "text": "ice really deeply with sandpaper at two angles and pushing a stone",
+        "start": 375.61,
+        "duration": 4.01
+    },
+    {
+        "text": "across the scratches without rotating it.",
+        "start": 379.64,
+        "duration": 4.01
+    },
+    {
+        "text": " ",
+        "start": 383.67,
+        "duration": 4.0
+    },
+    {
+        "text": " ",
+        "start": 387.69,
+        "duration": 4.0
+    },
+    {
+        "text": " ",
+        "start": 391.71,
+        "duration": 4.01
+    },
+    {
+        "text": "Pretty convincing right? Not so fast. Dr Mark Shegalski at the University of",
+        "start": 395.74,
+        "duration": 4.02
+    },
+    {
+        "text": "Northern British Columbia in Canada once threw a stone with a polished metal running band",
+        "start": 399.78,
+        "duration": 4.06
+    },
+    {
+        "text": "which doesn't produce the same type of scratches. He observed that it",
+        "start": 403.86,
+        "duration": 4.0
+    },
+    {
+        "text": "curled like a normal stone by throwing it on freshly pebbled ice.",
+        "start": 407.88,
+        "duration": 4.03
+    },
+    {
+        "text": "Dr Shegalski believes that the mechanism is something called asymmetric friction melting.",
+        "start": 411.93,
+        "duration": 4.02
+    },
+    {
+        "text": "When the stone travels over the ice the friction heats up the ice and melts it,",
+        "start": 415.97,
+        "duration": 4.02
+    },
+    {
+        "text": "creating that lubrication barrier that we discussed earlier. He believes that there's",
+        "start": 420.01,
+        "duration": 4.0
+    },
+    {
+        "text": "more frictional wetting on the front side than the back due to the rock tending to tip over",
+        "start": 424.03,
+        "duration": 4.02
+    },
+    {
+        "text": "just like the cup did in our earlier experiment. Another possibility is that",
+        "start": 428.07,
+        "duration": 4.01
+    },
+    {
+        "text": "because the side of the rock that's advancing moves faster relative to the ice than the",
+        "start": 432.1,
+        "duration": 4.01
+    },
+    {
+        "text": "retreating side, it could be creating more lubrication. You can visualize this",
+        "start": 436.13,
+        "duration": 4.01
+    },
+    {
+        "text": "by looking back at the difference in the contact patterns. This additional",
+        "start": 440.16,
+        "duration": 4.01
+    },
+    {
+        "text": "relative motion would create more frictional heat up on top, which would melt more ice.",
+        "start": 444.19,
+        "duration": 4.0
+    },
+    {
+        "text": "This water could then be transported forward by the rotation and",
+        "start": 448.21,
+        "duration": 4.01
+    },
+    {
+        "text": "lubricate the leading edge of the band more than the rear edge. That forward tipping of the rock",
+        "start": 452.24,
+        "duration": 4.0
+    },
+    {
+        "text": "or the water transport theory pushes the rock into the direction of rotation.",
+        "start": 456.26,
+        "duration": 4.01
+    },
+    {
+        "text": "Both scientists are convinced that their theory is the dominant mechanism",
+        "start": 460.29,
+        "duration": 4.01
+    },
+    {
+        "text": "taking place at the back of the running band. But they agree however that more work still",
+        "start": 464.32,
+        "duration": 4.0
+    },
+    {
+        "text": "needs to be done. Personally I don't think either one of the theories can stand up to all of the questions",
+        "start": 468.34,
+        "duration": 4.0
+    },
+    {
+        "text": "on its own. I think the ultimate model might be a combination of both of the theories.",
+        "start": 472.36,
+        "duration": 4.03
+    },
+    {
+        "text": "Dr Shegelski believes there may even be 1 or 2 other mechanisms at play here that would help",
+        "start": 476.41,
+        "duration": 4.0
+    },
+    {
+        "text": "describe the mysterious motion of the curling stone. Who knows,",
+        "start": 480.43,
+        "duration": 4.01
+    },
+    {
+        "text": "what I do know however is that the nations that have scientists researching the physics",
+        "start": 484.46,
+        "duration": 4.03
+    },
+    {
+        "text": "of curling are the same nations that most often have olympic athletes",
+        "start": 488.51,
+        "duration": 4.03
+    },
+    {
+        "text": "on the podiums for curling. Hey I have a huge announcement here",
+        "start": 492.56,
+        "duration": 3.99
+    },
+    {
+        "text": "on my way home from work. I'm not sure if you can tell but these videos take a lot of time",
+        "start": 496.57,
+        "duration": 4.04
+    },
+    {
+        "text": "and effort. Yeah you can, you're smart. You know what I'm doing here. You know how there are two different",
+        "start": 500.63,
+        "duration": 4.0
+    },
+    {
+        "text": "experts for curling right? And I consulted them both to get the best idea.",
+        "start": 504.65,
+        "duration": 4.03
+    },
+    {
+        "text": "Well I've done the same thing for something else. Jack Conte from Patreon",
+        "start": 508.7,
+        "duration": 4.02
+    },
+    {
+        "text": "and Hank Green, co-founder of Subbable, have created two different platforms that",
+        "start": 512.74,
+        "duration": 3.99
+    },
+    {
+        "text": "content creators like me can use to try to generate support for what they do.",
+        "start": 516.75,
+        "duration": 4.01
+    },
+    {
+        "text": "Now the idea is if you enjoy and place some kind of value on",
+        "start": 520.78,
+        "duration": 3.99
+    },
+    {
+        "text": "Smarter Every Day, that you can voluntarily... You can, I'm not saying",
+        "start": 524.79,
+        "duration": 4.0
+    },
+    {
+        "text": "do, but you can voluntarily decide to assist",
+        "start": 528.81,
+        "duration": 4.01
+    },
+    {
+        "text": "what I do. Anyway, you can go to either one of these pages, Patreon or Subbable, and there's all",
+        "start": 532.84,
+        "duration": 4.03
+    },
+    {
+        "text": "kinds of different perks on there. There's ways to reach out to me, there's",
+        "start": 536.89,
+        "duration": 3.99
+    },
+    {
+        "text": "posters, there's all kinds of stuff. Infographics. So Patreon is a",
+        "start": 540.9,
+        "duration": 4.02
+    },
+    {
+        "text": "per video model, and Subbable is a per month model. Now I didn't know what",
+        "start": 544.94,
+        "duration": 4.01
+    },
+    {
+        "text": "would work best so I contacted both these guys and decided to test it for myself",
+        "start": 548.97,
+        "duration": 4.01
+    },
+    {
+        "text": "to see which one works the best for Smarter Every Day. Anyway, you can test them",
+        "start": 553.0,
+        "duration": 4.0
+    },
+    {
+        "text": "and see what works best for you. Anyway, I'll leave links to the Patreon and Subbable",
+        "start": 557.02,
+        "duration": 4.01
+    },
+    {
+        "text": "Smarter Every Day pages and if you would be willing to support Smarter Every Day, that would be awesome.",
+        "start": 561.05,
+        "duration": 4.0
+    },
+    {
+        "text": "It would make my life better because I can streamline my workflow",
+        "start": 565.07,
+        "duration": 4.0
+    },
+    {
+        "text": "and probably be a better dad because I might have a little more time. Anyway, I'm Destin.",
+        "start": 569.09,
+        "duration": 4.01
+    },
+    {
+        "text": "Thank you for even considering that. Subbable and Patreon, Smarter Every Day.",
+        "start": 573.12,
+        "duration": 4.03
+    },
+    {
+        "text": "I'll leave links here and in the video description. Thanks, bye.",
+        "start": 577.17,
+        "duration": 4.02
+    },
+    {
+        "text": " ",
+        "start": 581.21,
+        "duration": 4.0
+    },
+    {
+        "text": "[laughing]",
+        "start": 585.23,
+        "duration": 4.04
+    },
+    {
+        "text": " ",
+        "start": 589.29,
+        "duration": 4.01
+    },
+    {
+        "text": "You're trying this at your house right? [Glass breaking] Oh",
+        "start": 593.32,
+        "duration": 4.0
+    },
+    {
+        "text": "[whispered] crap.\nI just broke it.",
+        "start": 597.34,
+        "duration": 4.02
+    },
+    {
+        "text": "Don't tell on me. In physics there's a principle called the conservation",
+        "start": 601.38,
+        "duration": 4.02
+    },
+    {
+        "text": "of momentum, so if momentum is mass times velocity and the curling stones",
+        "start": 605.42,
+        "duration": 4.03
+    },
+    {
+        "text": "all have the same mass, you could assume that it's velocity that's conserved.",
+        "start": 609.47,
+        "duration": 3.99
+    },
+    {
+        "text": "For the most part, the forward velocity of the stone just before impact is gonna be",
+        "start": 613.48,
+        "duration": 4.01
+    },
+    {
+        "text": "equivalent to the forward velocity in the system just after impact.",
+        "start": 617.51,
+        "duration": 4.0
+    },
+    {
+        "text": "This works for both the X direction and the Y direction. Since there's no sideways",
+        "start": 621.53,
+        "duration": 4.01
+    },
+    {
+        "text": "velocity before impact, the lateral velocity after the impacts has to equal out",
+        "start": 625.56,
+        "duration": 4.0
+    },
+    {
+        "text": "to zero. Isn't that cool?",
+        "start": 629.58,
+        "duration": 2.01
+    },
+    {
+        "text": " ",
+        "start": 631.61,
+        "duration": 3.98
+    },
+    {
+        "text": "[ Captions by Andrew Jackson ]\ncaptionsbyandrew.wordpress.com",
+        "start": 635.61,
+        "duration": 2.03
+    },
+    {
+        "text": "Captioning in different languages welcome.\nPlease contact Destin if you can help.",
+        "start": 637.66,
+        "duration": 1.03
+    }
+]

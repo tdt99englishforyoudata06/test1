@@ -1,0 +1,377 @@
+[
+    {
+        "text": "So we're gonna do one of the famous puzzles that you can play with a chess board.",
+        "start": 0.0,
+        "duration": 4.28
+    },
+    {
+        "text": "It's not chess, itself, but it's a puzzle you can play.",
+        "start": 4.3,
+        "duration": 2.24
+    },
+    {
+        "text": "The standard 8 by 8 chess board, and queens.",
+        "start": 6.6,
+        "duration": 4.96
+    },
+    {
+        "text": "So a queen, if you don't know, a queen is the strongest; it's the best piece on a chess board",
+        "start": 11.72,
+        "duration": 6.66
+    },
+    {
+        "text": "'Cause it can move any number of squares to the left and the right.",
+        "start": 18.48,
+        "duration": 3.8
+    },
+    {
+        "text": "It can move any number of squares up and down, and it can move diagonally as well, any number of squares.",
+        "start": 22.42,
+        "duration": 6.0
+    },
+    {
+        "text": "Oh! If there's another piece in its way, it takes it. Aha! Gotcha!",
+        "start": 28.42,
+        "duration": 5.04
+    },
+    {
+        "text": "Right, so that's how a queen moves: diagonally,  up and down, left and right.",
+        "start": 33.5,
+        "duration": 4.64
+    },
+    {
+        "text": "Now the puzzle is: Can you place 8 queens on a chess board so that none of the queens can attack each other?",
+        "start": 38.22,
+        "duration": 11.96
+    },
+    {
+        "text": "So all of the queens are safe. So this wouldn't work as a placement, because we've got one queen here  that can take another.",
+        "start": 50.42,
+        "duration": 8.32
+    },
+    {
+        "text": "They are under attack. But maybe something like this would work just fine.",
+        "start": 58.88,
+        "duration": 5.94
+    },
+    {
+        "text": "Now I've only got 2 queens here. All queens can take each other queen, so the colors don't matter.",
+        "start": 64.98,
+        "duration": 6.4
+    },
+    {
+        "text": "The question is, can we place 8 queens on the board? Can we?",
+        "start": 71.54,
+        "duration": 4.94
+    },
+    {
+        "text": "Well, how many ways can we place 8 queens on the board?",
+        "start": 76.56,
+        "duration": 3.28
+    },
+    {
+        "text": "First of all, how many ways are there to do that? Let's look at that first.",
+        "start": 79.84,
+        "duration": 4.8
+    },
+    {
+        "text": "Right, which does mean that we've got 56 blanks? I think we can do this calculation.",
+        "start": 84.8,
+        "duration": 6.38
+    },
+    {
+        "text": "I think even Brady can do this calculation.",
+        "start": 91.26,
+        "duration": 2.7
+    },
+    {
+        "text": "How many ways can we arrange 64 objects, Brady?",
+        "start": 94.04,
+        "duration": 4.34
+    },
+    {
+        "text": "Brady: 64 factorial.",
+        "start": 98.82,
+        "duration": 1.44
+    },
+    {
+        "text": "James: Yeah, 64 factorial. If you have 64 objects, there are 64 factorial ways to do that: 64 times 63 times 62... all the way down to 1.",
+        "start": 100.26,
+        "duration": 9.98
+    },
+    {
+        "text": "So, there are 64 objects, 8 queens and 56 blanks. But you can rearrange the blanks between themselves, and it doesn't change the position on the board.",
+        "start": 110.42,
+        "duration": 10.06
+    },
+    {
+        "text": "So, we're going to divide by how many blanks there are: 56 factorial ways to arrange the blanks.",
+        "start": 120.64,
+        "duration": 7.14
+    },
+    {
+        "text": "So we have to consider that the queens are the same. I can move the queens between each other, I can commute the queens between each other",
+        "start": 127.84,
+        "duration": 8.8
+    },
+    {
+        "text": "And it doesn't affect the solution; the positions they are on the board.",
+        "start": 136.8,
+        "duration": 4.1
+    },
+    {
+        "text": "So for that reason, we are also going to divide through by 8 factorial.",
+        "start": 141.12,
+        "duration": 4.64
+    },
+    {
+        "text": "There are 8 queens, and they can be swapped around between each other.",
+        "start": 145.78,
+        "duration": 3.86
+    },
+    {
+        "text": "So we'll divide through by 8 factorial.",
+        "start": 149.64,
+        "duration": 2.64
+    },
+    {
+        "text": "So the number of ways you can arrange those 8 queens naively is 4,426,165,368.",
+        "start": 152.28,
+        "duration": 13.26
+    },
+    {
+        "text": "So there are over 4 billion ways you can place your 8 queens on the board, but that's naively doing it.",
+        "start": 165.54,
+        "duration": 6.42
+    },
+    {
+        "text": "That's not considering how the queens attack each other, so you're going to get silly solutions",
+        "start": 171.96,
+        "duration": 5.64
+    },
+    {
+        "text": "Like this one, or this, or this. These are no good; these aren't solutions.",
+        "start": 177.6,
+        "duration": 6.64
+    },
+    {
+        "text": "So, how many solutions are there, out of that 4 billion figure that do work, so the queens don't attack? What do you think?",
+        "start": 184.24,
+        "duration": 9.92
+    },
+    {
+        "text": "It is in fact only a small fraction of this 4 billion.",
+        "start": 194.48,
+        "duration": 4.7
+    },
+    {
+        "text": "There are 92 distinct solutions.",
+        "start": 199.18,
+        "duration": 8.5
+    },
+    {
+        "text": "Now that 92 out of 4 billion as a percentage is... tiny! Unbelievably tiny.",
+        "start": 207.96,
+        "duration": 8.82
+    },
+    {
+        "text": "So here is one of the solutions you could place.",
+        "start": 217.06,
+        "duration": 3.12
+    },
+    {
+        "text": "A queen here, I can put one here, they don't attack each other.",
+        "start": 220.2,
+        "duration": 5.3
+    },
+    {
+        "text": "They're not on the same row, they're not on the same column,  they're not on the same diagonal.",
+        "start": 225.8,
+        "duration": 3.28
+    },
+    {
+        "text": "I can put a queen here. Again, not in the same row, column or diagonal.",
+        "start": 229.08,
+        "duration": 4.28
+    },
+    {
+        "text": "I could put one I think down here. One here. And maybe I'll put one here.",
+        "start": 234.34,
+        "duration": 7.8
+    },
+    {
+        "text": "And here, and... where shall I put it? Here? Yeah.",
+        "start": 242.14,
+        "duration": 5.78
+    },
+    {
+        "text": "And I think I got away with that. So that would work -",
+        "start": 247.92,
+        "duration": 4.08
+    },
+    {
+        "text": "No queens are attacking each other.",
+        "start": 252.0,
+        "duration": 2.46
+    },
+    {
+        "text": "Now, there are 92 distinct solutions you could have.",
+        "start": 254.46,
+        "duration": 4.4
+    },
+    {
+        "text": "That includes rotating the board, and reflecting the board as well.",
+        "start": 258.86,
+        "duration": 4.76
+    },
+    {
+        "text": "So they're not all going to be really different. Some of them are just turning this 90 degrees.",
+        "start": 263.72,
+        "duration": 6.24
+    },
+    {
+        "text": "That would count as a solution. Now, there are 8 ways that you could rotate the board and reflect it.",
+        "start": 270.8,
+        "duration": 6.48
+    },
+    {
+        "text": "4 rotations, and 4 reflections. So, how many actual individual ways are there to do it?",
+        "start": 277.7,
+        "duration": 5.76
+    },
+    {
+        "text": "There's 12. There's only 12 fundamentally different solutions.",
+        "start": 285.48,
+        "duration": 4.1
+    },
+    {
+        "text": "11 of them have 8 reflections and rotations, which takes us up to 88.",
+        "start": 289.72,
+        "duration": 5.54
+    },
+    {
+        "text": "1 of them only has 4 rotations and reflections",
+        "start": 295.74,
+        "duration": 4.12
+    },
+    {
+        "text": "And it's actually this one I drew. This only has 4 different solutions, because if I rotate it 180, it's symmetric.",
+        "start": 299.96,
+        "duration": 10.62
+    },
+    {
+        "text": "So that only has 4, that has half as many. But the others have 8.",
+        "start": 310.58,
+        "duration": 3.42
+    },
+    {
+        "text": "So that's 92 distinct solutions. 12 fundamentally different ones.",
+        "start": 314.0,
+        "duration": 4.42
+    },
+    {
+        "text": "So you can do this - you can do this with other pieces.",
+        "start": 318.58,
+        "duration": 3.44
+    },
+    {
+        "text": "Can you place 8 knights on the board without attacking each other?",
+        "start": 322.32,
+        "duration": 5.88
+    },
+    {
+        "text": "I think that would be quite easy.",
+        "start": 328.3,
+        "duration": 2.16
+    },
+    {
+        "text": "Could you place 8 bishops on the board without attacking each other?",
+        "start": 330.48,
+        "duration": 4.5
+    },
+    {
+        "text": "I think that's quite an easy problem as well.",
+        "start": 335.1,
+        "duration": 2.96
+    },
+    {
+        "text": "Maybe 8 rooks? Again, I think these are easier problems.",
+        "start": 338.06,
+        "duration": 3.76
+    },
+    {
+        "text": "Although how MANY ways you can do it - that's a much more interesting question. How many different ways can you do it?",
+        "start": 341.84,
+        "duration": 7.0
+    },
+    {
+        "text": "Brady: We'd like to that lynda.com for supporting this video.",
+        "start": 350.48,
+        "duration": 2.94
+    },
+    {
+        "text": "lynda.com is a great go-to resource for learning about, well, all sorts of stuff!",
+        "start": 353.52,
+        "duration": 5.44
+    },
+    {
+        "text": "You can watch video courses, and tutorials put together by top experts in all sorts of fields:",
+        "start": 358.96,
+        "duration": 6.24
+    },
+    {
+        "text": "Creative, Technology, Business. I use lynda myself, especially for photo shopping .",
+        "start": 365.22,
+        "duration": 5.5
+    },
+    {
+        "text": "Any sort of trick, or thing I can't quite figure out how to do - lynda's always got a top tutorial that teaches me how to do it.",
+        "start": 370.74,
+        "duration": 6.12
+    },
+    {
+        "text": "Funnily enough, I was just browsing the site this week and found an amazing coincidence:",
+        "start": 376.86,
+        "duration": 4.2
+    },
+    {
+        "text": "They have a course called \"Code Clinics\" that happens to use the 8 queens problem.",
+        "start": 381.58,
+        "duration": 5.44
+    },
+    {
+        "text": "It seems this problem might be quite old, but it's a popular aid when teaching people about computer programming.",
+        "start": 387.04,
+        "duration": 5.58
+    },
+    {
+        "text": "So if you're a coder, why not check that one out?",
+        "start": 392.62,
+        "duration": 3.12
+    },
+    {
+        "text": "Now, with over 3000 video courses, and 100,000 tutorials in the vault,",
+        "start": 395.74,
+        "duration": 4.56
+    },
+    {
+        "text": "lynda's a real treasure chest of skills and information. And you can sign up now, and get free access to all of it for 10 days",
+        "start": 400.76,
+        "duration": 8.06
+    },
+    {
+        "text": "By going to lynda.com/numberphile",
+        "start": 408.84,
+        "duration": 3.84
+    },
+    {
+        "text": "Oh, and there's also a link in the video description.",
+        "start": 417.5,
+        "duration": 2.48
+    },
+    {
+        "text": "Our thanks to lynda for their support of Numberphile.",
+        "start": 420.3,
+        "duration": 3.06
+    }
+]

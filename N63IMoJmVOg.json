@@ -1,0 +1,1517 @@
+[
+    {
+        "text": "hey everyone for my current project I'd",
+        "start": 0.14,
+        "duration": 5.25
+    },
+    {
+        "text": "like to use a microcontroller to",
+        "start": 3.629,
+        "duration": 4.711
+    },
+    {
+        "text": "dispense a material onto a balance like",
+        "start": 5.39,
+        "duration": 4.539
+    },
+    {
+        "text": "this and then have the microcontroller",
+        "start": 8.34,
+        "duration": 3.87
+    },
+    {
+        "text": "stop the dispensing when it's weighed",
+        "start": 9.929,
+        "duration": 5.191
+    },
+    {
+        "text": "out a certain amount of material so to",
+        "start": 12.21,
+        "duration": 5.37
+    },
+    {
+        "text": "do that this this scale doesn't have any",
+        "start": 15.12,
+        "duration": 5.28
+    },
+    {
+        "text": "electronic interface so today's task was",
+        "start": 17.58,
+        "duration": 4.529
+    },
+    {
+        "text": "to crack this thing open and figure out",
+        "start": 20.4,
+        "duration": 3.45
+    },
+    {
+        "text": "a way that I can get a microcontroller",
+        "start": 22.109,
+        "duration": 3.871
+    },
+    {
+        "text": "to read the values from the balance and",
+        "start": 23.85,
+        "duration": 4.41
+    },
+    {
+        "text": "then later I'll do a video showing how",
+        "start": 25.98,
+        "duration": 3.84
+    },
+    {
+        "text": "I'm going to meet her out the material",
+        "start": 28.26,
+        "duration": 4.47
+    },
+    {
+        "text": "and turn it off turn off the dispensing",
+        "start": 29.82,
+        "duration": 6.45
+    },
+    {
+        "text": "when we get up to a specified mass so I",
+        "start": 32.73,
+        "duration": 4.65
+    },
+    {
+        "text": "thought I'd just show you how to take",
+        "start": 36.27,
+        "duration": 3.42
+    },
+    {
+        "text": "this thing apart it's actually built a",
+        "start": 37.38,
+        "duration": 3.87
+    },
+    {
+        "text": "little bit differently than most",
+        "start": 39.69,
+        "duration": 3.36
+    },
+    {
+        "text": "consumer electronics that I've taken",
+        "start": 41.25,
+        "duration": 2.34
+    },
+    {
+        "text": "apart",
+        "start": 43.05,
+        "duration": 2.22
+    },
+    {
+        "text": "most of them you'd probably start by",
+        "start": 43.59,
+        "duration": 4.5
+    },
+    {
+        "text": "cracking the case seen here that the",
+        "start": 45.27,
+        "duration": 5.28
+    },
+    {
+        "text": "plastic shells but this one actually",
+        "start": 48.09,
+        "duration": 4.89
+    },
+    {
+        "text": "doesn't have any clips around here so I",
+        "start": 50.55,
+        "duration": 4.259
+    },
+    {
+        "text": "put a few dents in mind by trying to",
+        "start": 52.98,
+        "duration": 4.14
+    },
+    {
+        "text": "take the plastic shells apart when that",
+        "start": 54.809,
+        "duration": 6.241
+    },
+    {
+        "text": "actually wasn't necessary so in this",
+        "start": 57.12,
+        "duration": 6.029
+    },
+    {
+        "text": "case the platter comes off just like",
+        "start": 61.05,
+        "duration": 2.669
+    },
+    {
+        "text": "that",
+        "start": 63.149,
+        "duration": 2.671
+    },
+    {
+        "text": "and then there's a couple more screws",
+        "start": 63.719,
+        "duration": 7.411
+    },
+    {
+        "text": "holding down this stainless plate and",
+        "start": 65.82,
+        "duration": 7.14
+    },
+    {
+        "text": "then there's a couple more screws here",
+        "start": 71.13,
+        "duration": 6.779
+    },
+    {
+        "text": "and then the top shell comes off and a",
+        "start": 72.96,
+        "duration": 6.479
+    },
+    {
+        "text": "couple screws to hold the circuit board",
+        "start": 77.909,
+        "duration": 4.5
+    },
+    {
+        "text": "down and then the circuit board comes",
+        "start": 79.439,
+        "duration": 5.491
+    },
+    {
+        "text": "out just like this now of course I added",
+        "start": 82.409,
+        "duration": 3.96
+    },
+    {
+        "text": "these wires here these these were not",
+        "start": 84.93,
+        "duration": 4.89
+    },
+    {
+        "text": "here in the stock configuration so let's",
+        "start": 86.369,
+        "duration": 5.011
+    },
+    {
+        "text": "zoom in on the circuit board and I'll",
+        "start": 89.82,
+        "duration": 3.589
+    },
+    {
+        "text": "show you what I found",
+        "start": 91.38,
+        "duration": 4.199
+    },
+    {
+        "text": "okay I'll just give you a circuit",
+        "start": 93.409,
+        "duration": 4.42
+    },
+    {
+        "text": "overview as near as I can tell these",
+        "start": 95.579,
+        "duration": 4.261
+    },
+    {
+        "text": "wires here are where the strain gauge",
+        "start": 97.829,
+        "duration": 4.201
+    },
+    {
+        "text": "connects to the input of this thing",
+        "start": 99.84,
+        "duration": 4.65
+    },
+    {
+        "text": "this is a weighing device and so it's",
+        "start": 102.03,
+        "duration": 5.31
+    },
+    {
+        "text": "its main piece of sensing tech here is a",
+        "start": 104.49,
+        "duration": 4.379
+    },
+    {
+        "text": "classic strain gauge which I'll talk",
+        "start": 107.34,
+        "duration": 4.47
+    },
+    {
+        "text": "about in a minute and there really isn't",
+        "start": 108.869,
+        "duration": 5.401
+    },
+    {
+        "text": "any analog path to speak of in fact the",
+        "start": 111.81,
+        "duration": 4.559
+    },
+    {
+        "text": "the sense wires from the Wheatstone",
+        "start": 114.27,
+        "duration": 4.8
+    },
+    {
+        "text": "bridge go through a ferrite you know",
+        "start": 116.369,
+        "duration": 4.71
+    },
+    {
+        "text": "bead inductor and then they go right",
+        "start": 119.07,
+        "duration": 4.549
+    },
+    {
+        "text": "into this guy which is a serious logic",
+        "start": 121.079,
+        "duration": 6.871
+    },
+    {
+        "text": "see 5530 24-bit analog to digital",
+        "start": 123.619,
+        "duration": 7.0
+    },
+    {
+        "text": "converter so if I had to guess I would",
+        "start": 127.95,
+        "duration": 4.44
+    },
+    {
+        "text": "say that that chip accounts for most of",
+        "start": 130.619,
+        "duration": 2.641
+    },
+    {
+        "text": "the cost of the",
+        "start": 132.39,
+        "duration": 2.76
+    },
+    {
+        "text": "whole project of this whole item here",
+        "start": 133.26,
+        "duration": 4.83
+    },
+    {
+        "text": "maybe besides the strain gauge there's a",
+        "start": 135.15,
+        "duration": 5.16
+    },
+    {
+        "text": "couple of small voltage regulators one",
+        "start": 138.09,
+        "duration": 3.69
+    },
+    {
+        "text": "here and one here",
+        "start": 140.31,
+        "duration": 3.899
+    },
+    {
+        "text": "and I think they're both set to just 5",
+        "start": 141.78,
+        "duration": 4.26
+    },
+    {
+        "text": "volts the input to this thing is just a",
+        "start": 144.209,
+        "duration": 5.191
+    },
+    {
+        "text": "typical unregulated wall war type thing",
+        "start": 146.04,
+        "duration": 5.369
+    },
+    {
+        "text": "so if the input voltage is you know 9",
+        "start": 149.4,
+        "duration": 4.259
+    },
+    {
+        "text": "volts unregulated they put a couple 5",
+        "start": 151.409,
+        "duration": 3.89
+    },
+    {
+        "text": "volt regulators in there",
+        "start": 153.659,
+        "duration": 4.89
+    },
+    {
+        "text": "this guy is an LCD driver and it has a",
+        "start": 155.299,
+        "duration": 5.351
+    },
+    {
+        "text": "little bit of RAM inside of it it",
+        "start": 158.549,
+        "duration": 7.05
+    },
+    {
+        "text": "happens to be an HT 1621 and the",
+        "start": 160.65,
+        "duration": 8.009
+    },
+    {
+        "text": "microcontroller which is an ADC 51 part",
+        "start": 165.599,
+        "duration": 6.601
+    },
+    {
+        "text": "here drives this whole thing so the flow",
+        "start": 168.659,
+        "duration": 5.311
+    },
+    {
+        "text": "is pretty simple I mean basically the ad",
+        "start": 172.2,
+        "duration": 3.899
+    },
+    {
+        "text": "pumps the the data or the",
+        "start": 173.97,
+        "duration": 4.409
+    },
+    {
+        "text": "microcontroller runs the ad and then",
+        "start": 176.099,
+        "duration": 4.591
+    },
+    {
+        "text": "sends the data into the display Ram here",
+        "start": 178.379,
+        "duration": 4.491
+    },
+    {
+        "text": "and that's that's basically it",
+        "start": 180.69,
+        "duration": 4.439
+    },
+    {
+        "text": "the other side of the board doesn't have",
+        "start": 182.87,
+        "duration": 4.089
+    },
+    {
+        "text": "a whole lot going on these are the",
+        "start": 185.129,
+        "duration": 4.561
+    },
+    {
+        "text": "ferrite beads that suppress a little bit",
+        "start": 186.959,
+        "duration": 4.86
+    },
+    {
+        "text": "of high frequency noise coming from the",
+        "start": 189.69,
+        "duration": 4.29
+    },
+    {
+        "text": "Wheatstone bridge and then we've got",
+        "start": 191.819,
+        "duration": 5.34
+    },
+    {
+        "text": "your your classic plain old LCD here",
+        "start": 193.98,
+        "duration": 5.339
+    },
+    {
+        "text": "with some buttons and just a few",
+        "start": 197.159,
+        "duration": 4.95
+    },
+    {
+        "text": "transistors also this has to be one of",
+        "start": 199.319,
+        "duration": 4.591
+    },
+    {
+        "text": "the nastiest looking solder jobs I've",
+        "start": 202.109,
+        "duration": 3.301
+    },
+    {
+        "text": "ever seen in a piece of commercial",
+        "start": 203.91,
+        "duration": 4.53
+    },
+    {
+        "text": "equipment okay so if the job here is to",
+        "start": 205.41,
+        "duration": 4.919
+    },
+    {
+        "text": "sort of tap the signal and get the",
+        "start": 208.44,
+        "duration": 4.169
+    },
+    {
+        "text": "actual value of the thing that's being",
+        "start": 210.329,
+        "duration": 4.711
+    },
+    {
+        "text": "masked out of this circuit we start to",
+        "start": 212.609,
+        "duration": 4.74
+    },
+    {
+        "text": "look for ways that we can get into sort",
+        "start": 215.04,
+        "duration": 5.22
+    },
+    {
+        "text": "of tap the lines since the analog signal",
+        "start": 217.349,
+        "duration": 5.07
+    },
+    {
+        "text": "path doesn't really exist it basically",
+        "start": 220.26,
+        "duration": 3.99
+    },
+    {
+        "text": "goes straight from the Wheatstone bridge",
+        "start": 222.419,
+        "duration": 3.93
+    },
+    {
+        "text": "right into the ad converter through",
+        "start": 224.25,
+        "duration": 4.62
+    },
+    {
+        "text": "those beads there's really no chance of",
+        "start": 226.349,
+        "duration": 6.51
+    },
+    {
+        "text": "us adding another ad converter because",
+        "start": 228.87,
+        "duration": 6.509
+    },
+    {
+        "text": "this one is actually set up with the",
+        "start": 232.859,
+        "duration": 3.84
+    },
+    {
+        "text": "reference voltage going into the",
+        "start": 235.379,
+        "duration": 2.431
+    },
+    {
+        "text": "Wheatstone bridge so it'd be very",
+        "start": 236.699,
+        "duration": 5.04
+    },
+    {
+        "text": "difficult to to tap the analog side so I",
+        "start": 237.81,
+        "duration": 5.399
+    },
+    {
+        "text": "pulled up the datasheet for this ad",
+        "start": 241.739,
+        "duration": 6.0
+    },
+    {
+        "text": "converter and as it turns out the the",
+        "start": 243.209,
+        "duration": 7.56
+    },
+    {
+        "text": "data line and the clock line go directly",
+        "start": 247.739,
+        "duration": 5.521
+    },
+    {
+        "text": "into this microcontroller and it's the",
+        "start": 250.769,
+        "duration": 3.78
+    },
+    {
+        "text": "data is read out in sort of a",
+        "start": 253.26,
+        "duration": 5.069
+    },
+    {
+        "text": "synchronous way so I I tapped the clock",
+        "start": 254.549,
+        "duration": 6.571
+    },
+    {
+        "text": "and data out from the ad chip line and",
+        "start": 258.329,
+        "duration": 4.741
+    },
+    {
+        "text": "looked at it on the scope and this is",
+        "start": 261.12,
+        "duration": 4.62
+    },
+    {
+        "text": "what it looks like okay so the bottom",
+        "start": 263.07,
+        "duration": 3.87
+    },
+    {
+        "text": "trace is the clock",
+        "start": 265.74,
+        "duration": 3.45
+    },
+    {
+        "text": "going from the microcontroller to the AG",
+        "start": 266.94,
+        "duration": 4.68
+    },
+    {
+        "text": "converter and the top trace is the data",
+        "start": 269.19,
+        "duration": 4.86
+    },
+    {
+        "text": "line coming from the AG converter to the",
+        "start": 271.62,
+        "duration": 4.77
+    },
+    {
+        "text": "chip and if I press on the scale a",
+        "start": 274.05,
+        "duration": 6.03
+    },
+    {
+        "text": "little bit you can see the higher order",
+        "start": 276.39,
+        "duration": 5.64
+    },
+    {
+        "text": "bits up here are changing when I when I",
+        "start": 280.08,
+        "duration": 4.8
+    },
+    {
+        "text": "pressed on the scale so this agrees with",
+        "start": 282.03,
+        "duration": 4.56
+    },
+    {
+        "text": "the datasheet I looked up the the",
+        "start": 284.88,
+        "duration": 4.7
+    },
+    {
+        "text": "datasheet for that serious ad part and",
+        "start": 286.59,
+        "duration": 6.14
+    },
+    {
+        "text": "it confirms that it's sending data in",
+        "start": 289.58,
+        "duration": 7.06
+    },
+    {
+        "text": "for byte chunks and so you can see these",
+        "start": 292.73,
+        "duration": 9.13
+    },
+    {
+        "text": "clusters of clock cycles down here so",
+        "start": 296.64,
+        "duration": 7.02
+    },
+    {
+        "text": "currently the scope is set to 50",
+        "start": 301.86,
+        "duration": 4.47
+    },
+    {
+        "text": "microseconds per division but it's it's",
+        "start": 303.66,
+        "duration": 5.75
+    },
+    {
+        "text": "unnormal trigger mode so if i zoom out",
+        "start": 306.33,
+        "duration": 5.67
+    },
+    {
+        "text": "you can see that that cluster now it's",
+        "start": 309.41,
+        "duration": 5.5
+    },
+    {
+        "text": "50 milliseconds per division you can see",
+        "start": 312.0,
+        "duration": 4.41
+    },
+    {
+        "text": "that that burst of data happens",
+        "start": 314.91,
+        "duration": 3.27
+    },
+    {
+        "text": "periodically and it turns out it's",
+        "start": 316.41,
+        "duration": 5.31
+    },
+    {
+        "text": "running at about 7.5 Hertz so seven and",
+        "start": 318.18,
+        "duration": 4.86
+    },
+    {
+        "text": "a half times per second the",
+        "start": 321.72,
+        "duration": 4.11
+    },
+    {
+        "text": "microcontroller decides to query the ad",
+        "start": 323.04,
+        "duration": 5.4
+    },
+    {
+        "text": "converter and pulls that data in in that",
+        "start": 325.83,
+        "duration": 5.64
+    },
+    {
+        "text": "little burst now one difficulty is that",
+        "start": 328.44,
+        "duration": 5.4
+    },
+    {
+        "text": "the burst is actually quite fast and so",
+        "start": 331.47,
+        "duration": 5.48
+    },
+    {
+        "text": "if we zoom in a bit and then scale over",
+        "start": 333.84,
+        "duration": 5.31
+    },
+    {
+        "text": "to take a look at some of those clock",
+        "start": 336.95,
+        "duration": 7.54
+    },
+    {
+        "text": "cycles when data is being sent the the",
+        "start": 339.15,
+        "duration": 7.71
+    },
+    {
+        "text": "clock time is actually quite fast it",
+        "start": 344.49,
+        "duration": 4.95
+    },
+    {
+        "text": "turns out to be six and a half",
+        "start": 346.86,
+        "duration": 5.1
+    },
+    {
+        "text": "microseconds from rise to rise on the",
+        "start": 349.44,
+        "duration": 5.55
+    },
+    {
+        "text": "clock there so obviously we can't pull",
+        "start": 351.96,
+        "duration": 4.56
+    },
+    {
+        "text": "that with a microcontroller because it's",
+        "start": 354.99,
+        "duration": 4.59
+    },
+    {
+        "text": "just be ridiculously fast and another",
+        "start": 356.52,
+        "duration": 4.17
+    },
+    {
+        "text": "problem is that we couldn't really",
+        "start": 359.58,
+        "duration": 2.85
+    },
+    {
+        "text": "easily use an interrupt in a lot of",
+        "start": 360.69,
+        "duration": 3.42
+    },
+    {
+        "text": "microcontroller architectures because",
+        "start": 362.43,
+        "duration": 3.72
+    },
+    {
+        "text": "the rate is just so high a hundred and",
+        "start": 364.11,
+        "duration": 4.38
+    },
+    {
+        "text": "fifty kilohertz even though this bursts",
+        "start": 366.15,
+        "duration": 4.38
+    },
+    {
+        "text": "only happens seven and a half times per",
+        "start": 368.49,
+        "duration": 5.58
+    },
+    {
+        "text": "second during this burst received period",
+        "start": 370.53,
+        "duration": 5.52
+    },
+    {
+        "text": "if we try to use an interrupt the",
+        "start": 374.07,
+        "duration": 3.48
+    },
+    {
+        "text": "processor would have to be fast enough",
+        "start": 376.05,
+        "duration": 3.54
+    },
+    {
+        "text": "to handle the interrupt before the next",
+        "start": 377.55,
+        "duration": 4.8
+    },
+    {
+        "text": "clock cycle came in so this is",
+        "start": 379.59,
+        "duration": 4.2
+    },
+    {
+        "text": "definitely going to be a problem and",
+        "start": 382.35,
+        "duration": 3.75
+    },
+    {
+        "text": "especially if the the processor has to",
+        "start": 383.79,
+        "duration": 3.9
+    },
+    {
+        "text": "handle other interrupts you might get",
+        "start": 386.1,
+        "duration": 3.81
+    },
+    {
+        "text": "some interference between different",
+        "start": 387.69,
+        "duration": 4.25
+    },
+    {
+        "text": "sources of information",
+        "start": 389.91,
+        "duration": 4.1
+    },
+    {
+        "text": "so I came up with a different solution I",
+        "start": 391.94,
+        "duration": 5.49
+    },
+    {
+        "text": "ended up using a parallax propeller the",
+        "start": 394.01,
+        "duration": 5.16
+    },
+    {
+        "text": "propeller is a really interesting chip",
+        "start": 397.43,
+        "duration": 4.68
+    },
+    {
+        "text": "it's a 32-bit architecture chip but it's",
+        "start": 399.17,
+        "duration": 6.44
+    },
+    {
+        "text": "built in a way that has eight cores and",
+        "start": 402.11,
+        "duration": 5.45
+    },
+    {
+        "text": "it's unlike a traditional",
+        "start": 405.61,
+        "duration": 3.64
+    },
+    {
+        "text": "microcontroller and that there's no",
+        "start": 407.56,
+        "duration": 4.27
+    },
+    {
+        "text": "interrupts and so all the cores run",
+        "start": 409.25,
+        "duration": 5.61
+    },
+    {
+        "text": "synchronously and share a common memory",
+        "start": 411.83,
+        "duration": 4.89
+    },
+    {
+        "text": "space so that you can talk from core to",
+        "start": 414.86,
+        "duration": 3.93
+    },
+    {
+        "text": "core by sending information into the",
+        "start": 416.72,
+        "duration": 4.68
+    },
+    {
+        "text": "shared memory and each core also has its",
+        "start": 418.79,
+        "duration": 5.79
+    },
+    {
+        "text": "own memory to do certain tasks so I",
+        "start": 421.4,
+        "duration": 5.52
+    },
+    {
+        "text": "initially tried to program one core in",
+        "start": 424.58,
+        "duration": 4.59
+    },
+    {
+        "text": "the propellers native programming",
+        "start": 426.92,
+        "duration": 5.76
+    },
+    {
+        "text": "language called spin and it was not fast",
+        "start": 429.17,
+        "duration": 5.49
+    },
+    {
+        "text": "enough to receive the signals and so I",
+        "start": 432.68,
+        "duration": 4.59
+    },
+    {
+        "text": "put a weight instruction to wait for a",
+        "start": 434.66,
+        "duration": 5.46
+    },
+    {
+        "text": "rising edge on the clock line and by the",
+        "start": 437.27,
+        "duration": 4.98
+    },
+    {
+        "text": "time the next instruction fired five or",
+        "start": 440.12,
+        "duration": 5.85
+    },
+    {
+        "text": "ten microseconds have passed so there's",
+        "start": 442.25,
+        "duration": 6.12
+    },
+    {
+        "text": "no way to to capture the data because",
+        "start": 445.97,
+        "duration": 3.72
+    },
+    {
+        "text": "it's coming in quicker than this thing",
+        "start": 448.37,
+        "duration": 4.71
+    },
+    {
+        "text": "can run spin instructions so the the",
+        "start": 449.69,
+        "duration": 5.04
+    },
+    {
+        "text": "makers of this knew that the the real",
+        "start": 453.08,
+        "duration": 4.86
+    },
+    {
+        "text": "power of this chip would be you know",
+        "start": 454.73,
+        "duration": 5.49
+    },
+    {
+        "text": "realized by programming it in assembly",
+        "start": 457.94,
+        "duration": 4.71
+    },
+    {
+        "text": "so they also allow you to do that in",
+        "start": 460.22,
+        "duration": 3.87
+    },
+    {
+        "text": "fact it's interesting and that parts of",
+        "start": 462.65,
+        "duration": 3.03
+    },
+    {
+        "text": "the chip can be programmed in assembly",
+        "start": 464.09,
+        "duration": 3.93
+    },
+    {
+        "text": "and parts can be programmed in spin in",
+        "start": 465.68,
+        "duration": 5.25
+    },
+    {
+        "text": "fact even side by side functions can",
+        "start": 468.02,
+        "duration": 4.59
+    },
+    {
+        "text": "switch back and forth between assembly",
+        "start": 470.93,
+        "duration": 5.01
+    },
+    {
+        "text": "and spin which is pretty cool so I ended",
+        "start": 472.61,
+        "duration": 6.42
+    },
+    {
+        "text": "up you know hunkering down and writing",
+        "start": 475.94,
+        "duration": 5.19
+    },
+    {
+        "text": "the assembly to capture the data from",
+        "start": 479.03,
+        "duration": 4.26
+    },
+    {
+        "text": "this line one of my requirements for",
+        "start": 481.13,
+        "duration": 4.41
+    },
+    {
+        "text": "this was that the scale itself not beat",
+        "start": 483.29,
+        "duration": 5.1
+    },
+    {
+        "text": "harmed by what I you know what I added",
+        "start": 485.54,
+        "duration": 4.53
+    },
+    {
+        "text": "to it originally when I was thinking of",
+        "start": 488.39,
+        "duration": 3.99
+    },
+    {
+        "text": "getting the data out I thought well I",
+        "start": 490.07,
+        "duration": 4.65
+    },
+    {
+        "text": "could intercept the clock line and then",
+        "start": 492.38,
+        "duration": 4.65
+    },
+    {
+        "text": "basically turn off the connection",
+        "start": 494.72,
+        "duration": 3.87
+    },
+    {
+        "text": "between the microcontroller and the ad",
+        "start": 497.03,
+        "duration": 3.78
+    },
+    {
+        "text": "and then turn on the connection from my",
+        "start": 498.59,
+        "duration": 4.2
+    },
+    {
+        "text": "microcontroller to the ad so basically",
+        "start": 500.81,
+        "duration": 3.63
+    },
+    {
+        "text": "just switching the ad back and forth",
+        "start": 502.79,
+        "duration": 4.02
+    },
+    {
+        "text": "from their microcontroller to mine but",
+        "start": 504.44,
+        "duration": 4.41
+    },
+    {
+        "text": "that would cause the panel to get weird",
+        "start": 506.81,
+        "duration": 3.75
+    },
+    {
+        "text": "and I've noticed this thing goes into",
+        "start": 508.85,
+        "duration": 3.45
+    },
+    {
+        "text": "fault modes and then doesn't recover so",
+        "start": 510.56,
+        "duration": 4.07
+    },
+    {
+        "text": "that's kind of a pain in the butt",
+        "start": 512.3,
+        "duration": 5.489
+    },
+    {
+        "text": "the propeller is a 3.3 volt device and",
+        "start": 514.63,
+        "duration": 4.959
+    },
+    {
+        "text": "so I just added a couple current",
+        "start": 517.789,
+        "duration": 3.211
+    },
+    {
+        "text": "limiting resistors here since this",
+        "start": 519.589,
+        "duration": 4.5
+    },
+    {
+        "text": "circuit is five so even though you know",
+        "start": 521.0,
+        "duration": 5.07
+    },
+    {
+        "text": "this thing is pulling 0 to 5 volts these",
+        "start": 524.089,
+        "duration": 4.171
+    },
+    {
+        "text": "current limiting resistors do a fine",
+        "start": 526.07,
+        "duration": 4.35
+    },
+    {
+        "text": "enough job of preventing too much",
+        "start": 528.26,
+        "duration": 4.56
+    },
+    {
+        "text": "current from flowing into the chip the",
+        "start": 530.42,
+        "duration": 4.8
+    },
+    {
+        "text": "chip also runs very quickly it's a 5",
+        "start": 532.82,
+        "duration": 4.53
+    },
+    {
+        "text": "megahertz crystal but there's a 16 X",
+        "start": 535.22,
+        "duration": 4.02
+    },
+    {
+        "text": "phase locked loop in there so it's",
+        "start": 537.35,
+        "duration": 3.239
+    },
+    {
+        "text": "actually an 80 megahertz clock",
+        "start": 539.24,
+        "duration": 4.65
+    },
+    {
+        "text": "internally this is really helpful in",
+        "start": 540.589,
+        "duration": 5.94
+    },
+    {
+        "text": "doing assembly instructions most",
+        "start": 543.89,
+        "duration": 4.68
+    },
+    {
+        "text": "instructions are four clock cycles per",
+        "start": 546.529,
+        "duration": 4.441
+    },
+    {
+        "text": "per instruction so you can actually get",
+        "start": 548.57,
+        "duration": 4.29
+    },
+    {
+        "text": "a whole lot done when coding it in",
+        "start": 550.97,
+        "duration": 5.84
+    },
+    {
+        "text": "assembly okay so here's my program I'm",
+        "start": 552.86,
+        "duration": 6.479
+    },
+    {
+        "text": "definitely not an experienced assembly",
+        "start": 556.81,
+        "duration": 4.209
+    },
+    {
+        "text": "coder so I was basically happy just to",
+        "start": 559.339,
+        "duration": 3.421
+    },
+    {
+        "text": "get this working I'm sure this could be",
+        "start": 561.019,
+        "duration": 4.081
+    },
+    {
+        "text": "optimized a bit but there's plenty of",
+        "start": 562.76,
+        "duration": 4.44
+    },
+    {
+        "text": "time at 80 megahertz with only four",
+        "start": 565.1,
+        "duration": 4.53
+    },
+    {
+        "text": "clocks per instruction there's actually",
+        "start": 567.2,
+        "duration": 4.74
+    },
+    {
+        "text": "very easy to to make this work and so",
+        "start": 569.63,
+        "duration": 4.62
+    },
+    {
+        "text": "what I did was I have a loop here that",
+        "start": 571.94,
+        "duration": 5.28
+    },
+    {
+        "text": "just times out after one millisecond so",
+        "start": 574.25,
+        "duration": 5.43
+    },
+    {
+        "text": "what this thing does is when it times",
+        "start": 577.22,
+        "duration": 7.53
+    },
+    {
+        "text": "out it resets it's 32 bit register and",
+        "start": 579.68,
+        "duration": 8.61
+    },
+    {
+        "text": "then as the bits come in from the ad it",
+        "start": 584.75,
+        "duration": 5.94
+    },
+    {
+        "text": "just fills up that 32 bit register and",
+        "start": 588.29,
+        "duration": 4.41
+    },
+    {
+        "text": "when it times out it sends the value",
+        "start": 590.69,
+        "duration": 3.839
+    },
+    {
+        "text": "that register back to the main program",
+        "start": 592.7,
+        "duration": 4.5
+    },
+    {
+        "text": "loop and then resets and waits for the",
+        "start": 594.529,
+        "duration": 6.631
+    },
+    {
+        "text": "next one so this takes advantage of the",
+        "start": 597.2,
+        "duration": 5.97
+    },
+    {
+        "text": "fact that the data is coming in bursts",
+        "start": 601.16,
+        "duration": 3.929
+    },
+    {
+        "text": "and it uses it knows that the start of",
+        "start": 603.17,
+        "duration": 3.39
+    },
+    {
+        "text": "the data is coming because it's just",
+        "start": 605.089,
+        "duration": 4.411
+    },
+    {
+        "text": "been a long time and it's timed out so",
+        "start": 606.56,
+        "duration": 5.91
+    },
+    {
+        "text": "here's the the debug value coming back",
+        "start": 609.5,
+        "duration": 5.97
+    },
+    {
+        "text": "and if I push on the scale a little bit",
+        "start": 612.47,
+        "duration": 6.479
+    },
+    {
+        "text": "you can see the value going up and the",
+        "start": 615.47,
+        "duration": 5.58
+    },
+    {
+        "text": "units are you know uncalibrated I",
+        "start": 618.949,
+        "duration": 3.661
+    },
+    {
+        "text": "noticed that if you press the tare",
+        "start": 621.05,
+        "duration": 3.06
+    },
+    {
+        "text": "button on the front of the scale it",
+        "start": 622.61,
+        "duration": 3.3
+    },
+    {
+        "text": "doesn't actually change this at all so",
+        "start": 624.11,
+        "duration": 4.41
+    },
+    {
+        "text": "the the unit conversion and tare",
+        "start": 625.91,
+        "duration": 3.869
+    },
+    {
+        "text": "functions are all done in the",
+        "start": 628.52,
+        "duration": 5.309
+    },
+    {
+        "text": "microcontroller downstream of the ad so",
+        "start": 629.779,
+        "duration": 5.281
+    },
+    {
+        "text": "since I've come this far with the",
+        "start": 633.829,
+        "duration": 2.731
+    },
+    {
+        "text": "propeller I think I'll probably just do",
+        "start": 635.06,
+        "duration": 3.42
+    },
+    {
+        "text": "the whole project using this chip it's",
+        "start": 636.56,
+        "duration": 3.51
+    },
+    {
+        "text": "been kind of a while since I've used it",
+        "start": 638.48,
+        "duration": 3.09
+    },
+    {
+        "text": "and it does have some pretty cool",
+        "start": 640.07,
+        "duration": 4.2
+    },
+    {
+        "text": "features that I haven't played with in a",
+        "start": 641.57,
+        "duration": 5.49
+    },
+    {
+        "text": "while since each Cora runs at 80",
+        "start": 644.27,
+        "duration": 3.66
+    },
+    {
+        "text": "megahertz if",
+        "start": 647.06,
+        "duration": 2.76
+    },
+    {
+        "text": "possible to do video generation with the",
+        "start": 647.93,
+        "duration": 4.32
+    },
+    {
+        "text": "chip without too much work and then your",
+        "start": 649.82,
+        "duration": 4.41
+    },
+    {
+        "text": "program can just send values to the core",
+        "start": 652.25,
+        "duration": 4.529
+    },
+    {
+        "text": "that's doing video generation and it",
+        "start": 654.23,
+        "duration": 3.69
+    },
+    {
+        "text": "doesn't really add all that much",
+        "start": 656.779,
+        "duration": 4.441
+    },
+    {
+        "text": "overhead to your program here's a shot",
+        "start": 657.92,
+        "duration": 4.89
+    },
+    {
+        "text": "of the strain gauge that's inside the",
+        "start": 661.22,
+        "duration": 3.869
+    },
+    {
+        "text": "scale these devices are actually really",
+        "start": 662.81,
+        "duration": 4.589
+    },
+    {
+        "text": "simple but there can be made very",
+        "start": 665.089,
+        "duration": 4.651
+    },
+    {
+        "text": "accurately all it is is a piece of metal",
+        "start": 667.399,
+        "duration": 4.171
+    },
+    {
+        "text": "and when I press on this the metal just",
+        "start": 669.74,
+        "duration": 4.59
+    },
+    {
+        "text": "deflects a tiny amount and the strain",
+        "start": 671.57,
+        "duration": 5.519
+    },
+    {
+        "text": "gauges themselves are thin thin film",
+        "start": 674.33,
+        "duration": 6.18
+    },
+    {
+        "text": "resistors that are just glued on to the",
+        "start": 677.089,
+        "duration": 5.94
+    },
+    {
+        "text": "surface of this metal structure so by",
+        "start": 680.51,
+        "duration": 3.99
+    },
+    {
+        "text": "pressing on this the metal structure",
+        "start": 683.029,
+        "duration": 3.601
+    },
+    {
+        "text": "changes shape very very slightly which",
+        "start": 684.5,
+        "duration": 4.529
+    },
+    {
+        "text": "is what that's what strain is and these",
+        "start": 686.63,
+        "duration": 4.019
+    },
+    {
+        "text": "thin film resistors will change",
+        "start": 689.029,
+        "duration": 3.571
+    },
+    {
+        "text": "resistance very very slightly because",
+        "start": 690.649,
+        "duration": 4.411
+    },
+    {
+        "text": "they're actually being distorted a",
+        "start": 692.6,
+        "duration": 3.96
+    },
+    {
+        "text": "little bit compressed or or are",
+        "start": 695.06,
+        "duration": 3.93
+    },
+    {
+        "text": "stretched and the whole idea with the",
+        "start": 696.56,
+        "duration": 3.99
+    },
+    {
+        "text": "Wheatstone bridge is that some of the",
+        "start": 698.99,
+        "duration": 3.87
+    },
+    {
+        "text": "resistors are on the strain gauge for",
+        "start": 700.55,
+        "duration": 5.28
+    },
+    {
+        "text": "temperature compensation so if the whole",
+        "start": 702.86,
+        "duration": 4.59
+    },
+    {
+        "text": "temperature if the device changes a",
+        "start": 705.83,
+        "duration": 3.87
+    },
+    {
+        "text": "little bit all the resistors will change",
+        "start": 707.45,
+        "duration": 4.02
+    },
+    {
+        "text": "in the same way and so a temperature",
+        "start": 709.7,
+        "duration": 5.639
+    },
+    {
+        "text": "will essentially be compensated out okay",
+        "start": 711.47,
+        "duration": 5.28
+    },
+    {
+        "text": "hope that was helpful",
+        "start": 715.339,
+        "duration": 5.151
+    },
+    {
+        "text": "see you next time bye",
+        "start": 716.75,
+        "duration": 3.74
+    }
+]

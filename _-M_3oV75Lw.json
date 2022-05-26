@@ -1,0 +1,277 @@
+[
+    {
+        "text": "A short while ago we made a Numberphile video about a problem to do with Diophantine equations",
+        "start": 0.08,
+        "duration": 5.24
+    },
+    {
+        "text": "when a number can be written as a sum of three cubes",
+        "start": 5.32,
+        "duration": 3.08
+    },
+    {
+        "text": "[REWIND] We still don't know the answer to that one so we've not yet been able to find any integers which when",
+        "start": 8.4,
+        "duration": 4.8
+    },
+    {
+        "text": "we summed their cubes you get 33.",
+        "start": 13.2,
+        "duration": 2.06
+    },
+    {
+        "text": "Since then we've had some breaking news! There's a paper that appeared and someone has actually",
+        "start": 15.42,
+        "duration": 6.48
+    },
+    {
+        "text": "gone away and this guy's Sander Huisman, he's gone away and he calculated a new solution to one",
+        "start": 21.92,
+        "duration": 6.24
+    },
+    {
+        "text": "integer that was previously unknown whether it was a sum of three cubes or not.",
+        "start": 28.18,
+        "duration": 3.28
+    },
+    {
+        "text": "Well indeed he credits the Numberphile video, he sort of found that it was kind of interesting enough to just",
+        "start": 31.46,
+        "duration": 4.12
+    },
+    {
+        "text": "have a go at pushing the boundaries of knowledge a little bit further and he managed to sort of get this going on.",
+        "start": 35.58,
+        "duration": 5.38
+    },
+    {
+        "text": "A computer search, and I think he was searching for something like 12.5 CPU years on a bank of computers in",
+        "start": 40.96,
+        "duration": 6.96
+    },
+    {
+        "text": "Lyon and he was able to find a new solution for the number 74.",
+        "start": 47.92,
+        "duration": 4.2
+    },
+    {
+        "text": "So we are interested in, suppose that we're given an integer k. Can you find integers x,  y and z, and these can",
+        "start": 52.14,
+        "duration": 9.82
+    },
+    {
+        "text": "be both positive and negative such that x³ + y³ + z³  is equal to k?",
+        "start": 61.96,
+        "duration": 8.36
+    },
+    {
+        "text": "If we just look at all of the integers between 1 and 99, as of last time there were only three integers on that list",
+        "start": 70.32,
+        "duration": 8.3
+    },
+    {
+        "text": "for which we didn't have an answer about whether they can be written as a sum of three cubes or not.",
+        "start": 78.62,
+        "duration": 4.0
+    },
+    {
+        "text": "And those were 33, 42 and 74.",
+        "start": 82.62,
+        "duration": 7.0
+    },
+    {
+        "text": "Now we know that this last number here, 74 is actually represented as a sum of three cubes.",
+        "start": 89.62,
+        "duration": 5.1
+    },
+    {
+        "text": "Do you want me to write it down for you?",
+        "start": 94.72,
+        "duration": 1.5
+    },
+    {
+        "text": "Of course.",
+        "start": 96.22,
+        "duration": 0.62
+    },
+    {
+        "text": "So here we go.",
+        "start": 96.84,
+        "duration": 0.5
+    },
+    {
+        "text": "So 74 is now known to be equal to minus 284 650 292 555 885 cubed",
+        "start": 97.34,
+        "duration": 12.98
+    },
+    {
+        "text": "plus 6 229 832 190 556 cubed",
+        "start": 110.32,
+        "duration": 9.18
+    },
+    {
+        "text": "plus 283 450 105 697 727 cubed.",
+        "start": 119.5,
+        "duration": 9.1
+    },
+    {
+        "text": "And there's the new solution, he also found some new solutions for larger values of k, but kind of the",
+        "start": 129.8,
+        "duration": 5.9
+    },
+    {
+        "text": "interesting thing is that for for k less than a hundred we now only have two more numbers to worry about here.",
+        "start": 135.7,
+        "duration": 5.5
+    },
+    {
+        "text": "The number 33 and the number 42.",
+        "start": 142.0,
+        "duration": 2.08
+    },
+    {
+        "text": "And are they solvable? Are they out there? Should other people be firing up their computers?",
+        "start": 144.08,
+        "duration": 6.96
+    },
+    {
+        "text": "Well absolutely, so far, thanks to Sander we now know that if we're interested in the number 33,",
+        "start": 151.04,
+        "duration": 5.42
+    },
+    {
+        "text": "there are certainly no solutions which the size of x, y and z are bounded by 10 to the 15, so that's a pretty big",
+        "start": 156.46,
+        "duration": 7.76
+    },
+    {
+        "text": "range, so you're gonna have to look further than that.",
+        "start": 164.22,
+        "duration": 2.82
+    },
+    {
+        "text": "Who knows, it may will be that if you just look up 10 to the 16 you'll find a solution.",
+        "start": 167.04,
+        "duration": 3.76
+    },
+    {
+        "text": "And 42? Do we know any more about that or",
+        "start": 170.8,
+        "duration": 2.62
+    },
+    {
+        "text": "No, nothing about that",
+        "start": 173.42,
+        "duration": 1.02
+    },
+    {
+        "text": "It's not earth-shattering news, I mean if we thought for a long time that these things do have solutions in fact we",
+        "start": 174.44,
+        "duration": 5.82
+    },
+    {
+        "text": "think that there are infinitely many solutions for each of these values of k. Our expectation is that they are very",
+        "start": 180.26,
+        "duration": 5.3
+    },
+    {
+        "text": "very sparse, so you might come across one and then the next time you come across another one",
+        "start": 185.56,
+        "duration": 5.38
+    },
+    {
+        "text": "might be many many years down the line before you've got computers big enough to find them",
+        "start": 190.94,
+        "duration": 4.78
+    },
+    {
+        "text": "So I mean it's gratifying that this kind of coinciding with our belief that these things do indeed have",
+        "start": 195.72,
+        "duration": 6.54
+    },
+    {
+        "text": "solutions, but in terms of sort of fundamental mathematics, I would say that's not the case",
+        "start": 202.26,
+        "duration": 4.72
+    },
+    {
+        "text": "it's kind of just a more extensive computer search.",
+        "start": 206.98,
+        "duration": 2.66
+    },
+    {
+        "text": "Not every Numberphile viewer is going to make a contribution like Sander,",
+        "start": 210.5,
+        "duration": 3.6
+    },
+    {
+        "text": "but the people you see listed on the screen have helped us out.",
+        "start": 214.1,
+        "duration": 3.06
+    },
+    {
+        "text": "They're among our Patreon supporters and we really appreciate it.",
+        "start": 217.16,
+        "duration": 3.86
+    },
+    {
+        "text": "If you'd like to join their ranks with no matter how small a contribution,",
+        "start": 221.02,
+        "duration": 3.44
+    },
+    {
+        "text": "You can go to patreon.com/numberphile",
+        "start": 224.46,
+        "duration": 2.86
+    },
+    {
+        "text": "I'll put a link in the video description.",
+        "start": 227.32,
+        "duration": 2.26
+    },
+    {
+        "text": "And by the way, you can see on the screen at the moment",
+        "start": 229.58,
+        "duration": 2.4
+    },
+    {
+        "text": "a link to our original video, which inspired Sander's investigation.",
+        "start": 231.98,
+        "duration": 5.04
+    },
+    {
+        "text": "But we've also got a new video, and that's all about those values of k",
+        "start": 237.02,
+        "duration": 4.4
+    },
+    {
+        "text": "for which it's impossible to find a solution. Not even Sander's gonna find one for that.",
+        "start": 241.42,
+        "duration": 4.94
+    },
+    {
+        "text": "And if you'd like to see the proof,",
+        "start": 246.36,
+        "duration": 2.72
+    },
+    {
+        "text": "We've just put it on Numberphile2.",
+        "start": 249.08,
+        "duration": 2.46
+    },
+    {
+        "text": "And by the way, while you're over on Numberphile2,",
+        "start": 251.54,
+        "duration": 2.22
+    },
+    {
+        "text": "Why not subscribe to the channel? Because I don't always mention it here,",
+        "start": 253.76,
+        "duration": 3.48
+    },
+    {
+        "text": "and you might occasionally stumble over something you didn't even know existed.",
+        "start": 257.24,
+        "duration": 3.92
+    }
+]

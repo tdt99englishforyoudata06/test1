@@ -1,0 +1,622 @@
+[
+    {
+        "text": "So what we have is we have a triangle",
+        "start": 0.0,
+        "duration": 2.46
+    },
+    {
+        "text": "The only requirement is that the base angles here are acute.",
+        "start": 3.94,
+        "duration": 3.859
+    },
+    {
+        "text": "And what we want to do is we want to somehow either draw a square,",
+        "start": 7.799,
+        "duration": 4.89
+    },
+    {
+        "text": "so I'm just going to roughly sketch it out. In this case",
+        "start": 13.78,
+        "duration": 4.099
+    },
+    {
+        "text": "we can see that, you know, we have a rectangle that is slightly wider than it is high",
+        "start": 17.88,
+        "duration": 5.069
+    },
+    {
+        "text": "so",
+        "start": 23.08,
+        "duration": 0.5
+    },
+    {
+        "text": "How can we get a square into this triangle, using just a compass and straightedge?",
+        "start": 23.58,
+        "duration": 5.92
+    },
+    {
+        "text": "that lies on this base and then touches the two sides.",
+        "start": 29.7,
+        "duration": 4.16
+    },
+    {
+        "text": "As mathematicians, before we start on actually constructing something, a good question to ask is:",
+        "start": 34.04,
+        "duration": 6.1
+    },
+    {
+        "text": "Does this exist?",
+        "start": 40.46,
+        "duration": 1.22
+    },
+    {
+        "text": "You know, how do we know we can get exactly a square, instead of just a rectangle?",
+        "start": 41.76,
+        "duration": 4.619
+    },
+    {
+        "text": "So what we're going to do, is actually use this idea of rectangles. So, as mathematicians,",
+        "start": 46.379,
+        "duration": 6.0
+    },
+    {
+        "text": "sometimes we are looking for squares, but we can't find a square,",
+        "start": 53.289,
+        "duration": 3.86
+    },
+    {
+        "text": "so we relax the restriction and we start looking for rectangles and then we hope we can find a rectangle",
+        "start": 57.43,
+        "duration": 6.529
+    },
+    {
+        "text": "where the height is equal to the base length, and  then we know we have a square.",
+        "start": 63.96,
+        "duration": 4.529
+    },
+    {
+        "text": "So, how can we get rectangles?",
+        "start": 69.61,
+        "duration": 2.0
+    },
+    {
+        "text": "Well from the height of this triangle we can just draw any",
+        "start": 71.65,
+        "duration": 6.019
+    },
+    {
+        "text": "parallel line to the base",
+        "start": 79.479,
+        "duration": 1.521
+    },
+    {
+        "text": "and then drop the perpendiculars",
+        "start": 82.2,
+        "duration": 2.37
+    },
+    {
+        "text": "and we now get a rectangle. We see that this blue rectangle is now a lot higher than it is long.",
+        "start": 86.02,
+        "duration": 5.45
+    },
+    {
+        "text": "The green rectangle was a lot longer than it is high",
+        "start": 91.54,
+        "duration": 2.809
+    },
+    {
+        "text": "so we hope that there's a square that lies somewhere in between this range.",
+        "start": 94.63,
+        "duration": 3.87
+    },
+    {
+        "text": "(Brady: As you sort slide between the two?)\n- Right.",
+        "start": 98.5,
+        "duration": 2.4
+    },
+    {
+        "text": "So let's actually draw it out. You know what that looks like, so I'm going to draw a graph.",
+        "start": 101.38,
+        "duration": 5.72
+    },
+    {
+        "text": "Actually I'm using a ruler to measure stuff. So this isn't yet a purely straightedge and compass construction",
+        "start": 107.1,
+        "duration": 7.379
+    },
+    {
+        "text": "So we're going to plot the height of the rectangles as they get lower and lower.",
+        "start": 114.49,
+        "duration": 4.069
+    },
+    {
+        "text": "So for now I'm going to use my ruler to draw it out.",
+        "start": 118.93,
+        "duration": 3.439
+    },
+    {
+        "text": "So it is off about",
+        "start": 123.009,
+        "duration": 2.0
+    },
+    {
+        "text": "4 units",
+        "start": 125.439,
+        "duration": 2.0
+    },
+    {
+        "text": "so over here is going to be about four units and",
+        "start": 127.69,
+        "duration": 3.049
+    },
+    {
+        "text": "at the height of zero the height of the rectangle is zero,",
+        "start": 132.849,
+        "duration": 3.62
+    },
+    {
+        "text": "so what we have is a straight line here",
+        "start": 138.4,
+        "duration": 3.11
+    },
+    {
+        "text": "representing the height of the rectangle so",
+        "start": 142.51,
+        "duration": 2.21
+    },
+    {
+        "text": "Now that we have the height of the rectangle, we're going to draw the width of the rectangle.",
+        "start": 145.54,
+        "duration": 4.37
+    },
+    {
+        "text": "When the height is at the full height the width of the rectangle is - zero",
+        "start": 150.97,
+        "duration": 3.769
+    },
+    {
+        "text": "So ever point down here and when the height is at zero, we have the full length of the base.",
+        "start": 155.08,
+        "duration": 6.529
+    },
+    {
+        "text": "Which means we're going to have a straight line here.",
+        "start": 161.709,
+        "duration": 3.23
+    },
+    {
+        "text": "And.. what happens at this point of intersection?",
+        "start": 165.73,
+        "duration": 2.0
+    },
+    {
+        "text": "Well at this point of intersection, we know that the height of the rectangle is equal to the width of the rectangle",
+        "start": 168.549,
+        "duration": 5.87
+    },
+    {
+        "text": "and so that gives us a square.\n(Brady: So we can do a square?)",
+        "start": 174.42,
+        "duration": 3.68
+    },
+    {
+        "text": "- So, we can do a square and",
+        "start": 178.1,
+        "duration": 2.0
+    },
+    {
+        "text": "when we had the use of ruler to transfer heights and lengths around we could find this is the height at which",
+        "start": 180.4,
+        "duration": 7.25
+    },
+    {
+        "text": "the square will occur.",
+        "start": 188.38,
+        "duration": 1.74
+    },
+    {
+        "text": "So if we have a proper construction, the hope is that we can draw a square here.",
+        "start": 190.12,
+        "duration": 5.959
+    },
+    {
+        "text": "(Brady: Oh, yeah)",
+        "start": 196.079,
+        "duration": 1.021
+    },
+    {
+        "text": "- So we'll see if we actually can match them. Another trick that mathematicians use is that if they can't find a square",
+        "start": 197.1,
+        "duration": 6.929
+    },
+    {
+        "text": "they actually force out a square",
+        "start": 204.34,
+        "duration": 2.0
+    },
+    {
+        "text": "So, how do I force out a square here, is that it's hard to force a square in there",
+        "start": 207.16,
+        "duration": 5.72
+    },
+    {
+        "text": "But I can draw a square down below.",
+        "start": 213.28,
+        "duration": 2.449
+    },
+    {
+        "text": "So using my compass and straightedge I can actually",
+        "start": 216.489,
+        "duration": 3.23
+    },
+    {
+        "text": "draw a square and we're going to use this",
+        "start": 220.48,
+        "duration": 2.599
+    },
+    {
+        "text": "to",
+        "start": 224.2,
+        "duration": 1.319
+    },
+    {
+        "text": "Approximate a compass. So over here, we want to draw a square",
+        "start": 225.519,
+        "duration": 4.16
+    },
+    {
+        "text": "It's going to come down to here",
+        "start": 230.799,
+        "duration": 2.0
+    },
+    {
+        "text": "over here",
+        "start": 233.65,
+        "duration": 2.0
+    },
+    {
+        "text": "We want to draw a square,",
+        "start": 235.93,
+        "duration": 2.0
+    },
+    {
+        "text": "it's going to come down to - about here.",
+        "start": 238.78,
+        "duration": 2.52
+    },
+    {
+        "text": "And so this gives us an approximate square.",
+        "start": 242.84,
+        "duration": 2.6
+    },
+    {
+        "text": "And actually I do not need this ruler anymore, so I'm going to put it away and just use a straight edge.",
+        "start": 246.18,
+        "duration": 4.88
+    },
+    {
+        "text": "So we're going to",
+        "start": 251.069,
+        "duration": 2.0
+    },
+    {
+        "text": "continue this out",
+        "start": 254.41,
+        "duration": 2.0
+    },
+    {
+        "text": "and",
+        "start": 258.38,
+        "duration": 1.15
+    },
+    {
+        "text": "continue this out. And now what we have here, is we have a square, in this large triangle.",
+        "start": 259.53,
+        "duration": 6.01
+    },
+    {
+        "text": "So it's not quite the square that we want in this small triangle up here, but at least it's a square in a large triangle.",
+        "start": 265.74,
+        "duration": 7.48
+    },
+    {
+        "text": "What can we say about this small triangle and this large triangle?",
+        "start": 273.98,
+        "duration": 4.06
+    },
+    {
+        "text": "Because this edge moves down parallel, these two triangles are actually similar",
+        "start": 278.84,
+        "duration": 5.08
+    },
+    {
+        "text": "So there's a mapping that brings us from this small triangle,",
+        "start": 283.94,
+        "duration": 4.14
+    },
+    {
+        "text": "to this large triangle. And we can ask: \"What does the mapping do to this square?\"",
+        "start": 288.5,
+        "duration": 4.78
+    },
+    {
+        "text": "(Brady: Because you've got the square now?)",
+        "start": 293.32,
+        "duration": 1.12
+    },
+    {
+        "text": "Yes! So think about what happens to the base of this square,",
+        "start": 294.44,
+        "duration": 5.14
+    },
+    {
+        "text": "as we expand the small triangle to the big triangle, and as we contract it back.",
+        "start": 300.0,
+        "duration": 4.76
+    },
+    {
+        "text": "This base is actually just going to be a straight line,",
+        "start": 305.76,
+        "duration": 3.46
+    },
+    {
+        "text": "through to the vertex of the original triangle.",
+        "start": 309.78,
+        "duration": 3.08
+    },
+    {
+        "text": "Likewise over here,",
+        "start": 313.08,
+        "duration": 1.42
+    },
+    {
+        "text": "if we connect the vertex to this point, is how this point will move as we contract the triangle",
+        "start": 315.04,
+        "duration": 5.62
+    },
+    {
+        "text": "So now the base of the large square",
+        "start": 320.66,
+        "duration": 2.24
+    },
+    {
+        "text": "goes over to these two points. And what that means,",
+        "start": 323.34,
+        "duration": 4.08
+    },
+    {
+        "text": "is that we now have the base of a smaller square in this triangle up here.",
+        "start": 327.81,
+        "duration": 6.38
+    },
+    {
+        "text": "We just need to construct the",
+        "start": 334.22,
+        "duration": 2.0
+    },
+    {
+        "text": "perpendiculars and",
+        "start": 336.72,
+        "duration": 1.2
+    },
+    {
+        "text": "this will give us our square. And as I mentioned earlier we can compare it to this diagram on the right",
+        "start": 337.92,
+        "duration": 7.579
+    },
+    {
+        "text": "And we can see that we are",
+        "start": 345.69,
+        "duration": 2.0
+    },
+    {
+        "text": "reasonably close to what the calculator answer is.",
+        "start": 347.97,
+        "duration": 3.26
+    },
+    {
+        "text": "Method one, where we constructed the two lines that intersect each other to find the height of the",
+        "start": 351.48,
+        "duration": 5.569
+    },
+    {
+        "text": "square. And method two, where we forced a square to get into this triangle.",
+        "start": 357.45,
+        "duration": 5.929
+    },
+    {
+        "text": "So now we're going to look at a third way -",
+        "start": 363.57,
+        "duration": 2.479
+    },
+    {
+        "text": "How else can we relax the restriction of the square?",
+        "start": 366.15,
+        "duration": 3.29
+    },
+    {
+        "text": "You know, instead of forcing all the vertices to line up perfectly on the edge of the triangle,",
+        "start": 369.87,
+        "duration": 6.89
+    },
+    {
+        "text": "maybe we could say hey,",
+        "start": 377.22,
+        "duration": 2.0
+    },
+    {
+        "text": "let's just have",
+        "start": 379.44,
+        "duration": 2.0
+    },
+    {
+        "text": "the base of the square touching",
+        "start": 385.73,
+        "duration": 3.209
+    },
+    {
+        "text": "one side of the triangle. Okay, we can also continue drawing more squares,",
+        "start": 390.96,
+        "duration": 5.4
+    },
+    {
+        "text": "and see what they look like.",
+        "start": 397.46,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, and so this figure of squares that are touching",
+        "start": 401.85,
+        "duration": 4.13
+    },
+    {
+        "text": "the side of this triangle,",
+        "start": 406.68,
+        "duration": 1.32
+    },
+    {
+        "text": "we hope we eventually will get to a square that does indeed touch this side of a triangle.",
+        "start": 408.0,
+        "duration": 6.88
+    },
+    {
+        "text": "If we can find such a point we are done. And what we have here, is that we again have our similar triangles.",
+        "start": 415.34,
+        "duration": 7.8
+    },
+    {
+        "text": "So we started out with this triangle,",
+        "start": 423.6,
+        "duration": 3.42
+    },
+    {
+        "text": "and we moved the base over we got to this triangle.",
+        "start": 427.96,
+        "duration": 4.06
+    },
+    {
+        "text": "So what then does that tell us about this point,",
+        "start": 433.26,
+        "duration": 3.26
+    },
+    {
+        "text": "and",
+        "start": 439.1,
+        "duration": 0.5
+    },
+    {
+        "text": "the vertex of this triangle, is that these three points will form a straight line.",
+        "start": 439.82,
+        "duration": 7.1
+    },
+    {
+        "text": "So, we could",
+        "start": 448.18,
+        "duration": 1.78
+    },
+    {
+        "text": "connect up these three points, and see where it intersects the other side of the triangle",
+        "start": 449.97,
+        "duration": 5.81
+    },
+    {
+        "text": "and then from here, we know if we draw the perpendicular and we drop the parallel line that will give us a square.",
+        "start": 455.78,
+        "duration": 7.5
+    },
+    {
+        "text": "(Brady: Huh. That's even.. that's almost simpler than the other one.)",
+        "start": 464.18,
+        "duration": 2.72
+    },
+    {
+        "text": "That is simpler than the other one",
+        "start": 467.0,
+        "duration": 1.9
+    },
+    {
+        "text": "And you know, both of this use the same idea of similarity.",
+        "start": 469.34,
+        "duration": 3.68
+    },
+    {
+        "text": "[paper crunching noises]",
+        "start": 473.02,
+        "duration": 1.64
+    },
+    {
+        "text": "Alright, so we are back on the first diagram and remember what we wanted to do is start off by constructing a square.",
+        "start": 474.66,
+        "duration": 7.1
+    },
+    {
+        "text": "So,",
+        "start": 483.0,
+        "duration": 1.4
+    },
+    {
+        "text": "I'm going to just quickly measure off",
+        "start": 485.24,
+        "duration": 3.08
+    },
+    {
+        "text": "And we say, that,",
+        "start": 502.24,
+        "duration": 2.0
+    },
+    {
+        "text": "the vertex of the triangle, and this corner of",
+        "start": 504.49,
+        "duration": 3.859
+    },
+    {
+        "text": "our now relaxed square, we want it to",
+        "start": 509.14,
+        "duration": 3.08
+    },
+    {
+        "text": "we want to extend this line and we can see that - hey, it does! -",
+        "start": 513.07,
+        "duration": 4.369
+    },
+    {
+        "text": "go through this other point on a triangle. That's pretty amazing :D",
+        "start": 519.16,
+        "duration": 5.179
+    },
+    {
+        "text": "(Brady: Look how happy you look. You're very happy with yourself.)\n[laughs]",
+        "start": 524.44,
+        "duration": 1.4
+    },
+    {
+        "text": "So we have three different methods here and they all agree on this one point to give us the square,",
+        "start": 528.04,
+        "duration": 6.64
+    },
+    {
+        "text": "we drop the perpendicular, we drop the parallel line, and we form our square in this triangle",
+        "start": 534.88,
+        "duration": 5.57
+    },
+    {
+        "text": "[Preview of next video] Get wild",
+        "start": 542.1,
+        "duration": 0.5
+    },
+    {
+        "text": "woohoo",
+        "start": 542.68,
+        "duration": 0.5
+    },
+    {
+        "text": "So it looks like, for any triangle we will have those three segments intersecting in a point",
+        "start": 543.19,
+        "duration": 6.47
+    },
+    {
+        "text": "Well that point turns out to be the center of mass, or our point, which also is known the centroid.",
+        "start": 549.78,
+        "duration": 6.719
+    }
+]

@@ -1,0 +1,1017 @@
+[
+    {
+        "text": "If you want to check a normal number if it's prime, a small one, you just see if any numbers divide into it.",
+        "start": 0.0,
+        "duration": 4.88
+    },
+    {
+        "text": "You can get slightly smarter. You've only got to check if primes divide into it,",
+        "start": 4.88,
+        "duration": 4.56
+    },
+    {
+        "text": "and you've only got to check if primes up to the size of the square root of the number you're checking or not.",
+        "start": 9.44,
+        "duration": 5.84
+    },
+    {
+        "text": "And so you got a few shortcuts you can make.",
+        "start": 15.28,
+        "duration": 2.28
+    },
+    {
+        "text": "This number, however, when you're finding ... look at the size of this thing, right!",
+        "start": 17.56,
+        "duration": 4.38
+    },
+    {
+        "text": "There's no way you could just go through and check every conceivable prime factor of this number",
+        "start": 21.94,
+        "duration": 7.5
+    },
+    {
+        "text": "to see if it itself is prime. In fact, there's a much more clever way of doing it.",
+        "start": 29.46,
+        "duration": 4.16
+    },
+    {
+        "text": "We'll, I have successfully divided it up by three, so I don't know if that technically doesn't count.",
+        "start": 33.62,
+        "duration": 4.42
+    },
+    {
+        "text": "I mean, I've taken a prime, and I've split it up into three parts.",
+        "start": 38.04,
+        "duration": 2.68
+    },
+    {
+        "text": "Albeit, not three equal parts.",
+        "start": 40.72,
+        "duration": 2.08
+    },
+    {
+        "text": "If anyone is curious, it's 1,490 pages, but I've double-sided them.",
+        "start": 43.1,
+        "duration": 3.62
+    },
+    {
+        "text": "so it's about 250 pages a volume.",
+        "start": 46.72,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, so you want to find primes. Previously I showed you the Lucas numbers.",
+        "start": 48.72,
+        "duration": 4.02
+    },
+    {
+        "text": "Which I prefer to Fibonacci numbers. These are the vastly superior \"Luca\" or \"Lucas\" numbers. They start with 1 and 3 instead of 1, 1 Fibonacci",
+        "start": 52.74,
+        "duration": 11.1
+    },
+    {
+        "text": "and they carry on like this. You get 4, you get 7, you get 11, I need to make sure I get this correct.",
+        "start": 63.84,
+        "duration": 6.26
+    },
+    {
+        "text": "otherwise it'll be very very embarrassing. What's that going to be? Fift... 47.",
+        "start": 70.1,
+        "duration": 6.88
+    },
+    {
+        "text": "So there's the first one, two, three, four, five, six, seven, eight, nine, ten.",
+        "start": 76.98,
+        "duration": 3.48
+    },
+    {
+        "text": "So Brady, can you give me any number, one to ten inclusive. What would you like, one to nine, - or ten? What do you want?",
+        "start": 80.46,
+        "duration": 7.8
+    },
+    {
+        "text": "Five",
+        "start": 88.26,
+        "duration": 0.66
+    },
+    {
+        "text": "Five! All right, we're going to see if five is prime. Now a lot of people at home, because people who watch Numberphile tend to be into mathematics know that five is prime - spoiler.",
+        "start": 88.92,
+        "duration": 8.78
+    },
+    {
+        "text": "Let's say we don't know. Say \"I don't know if five's prime or not? Let's double check.\"",
+        "start": 97.7,
+        "duration": 3.92
+    },
+    {
+        "text": "I'm going to count along to the fifth Lucas number. One, two, three, four, five. I'm going to subtract one off that number.",
+        "start": 101.62,
+        "duration": 7.74
+    },
+    {
+        "text": "And if I subtract one I get ten.",
+        "start": 109.36,
+        "duration": 3.1
+    },
+    {
+        "text": "And then I check: is ten a multiple of 5?",
+        "start": 112.46,
+        "duration": 2.0
+    },
+    {
+        "text": "And it is.",
+        "start": 114.46,
+        "duration": 2.0
+    },
+    {
+        "text": "And because ten is two times five, ten is a multiple of five, I know five is a prime number.",
+        "start": 116.46,
+        "duration": 4.74
+    },
+    {
+        "text": "WHAT?!",
+        "start": 121.86,
+        "duration": 0.7
+    },
+    {
+        "text": "Probably.",
+        "start": 122.56,
+        "duration": 1.14
+    },
+    {
+        "text": "So, give me another number that's not prime... just you know six.\n-six\n-SIX!",
+        "start": 124.62,
+        "duration": 4.92
+    },
+    {
+        "text": "I wonder if six is prime. Let's check six.",
+        "start": 129.68,
+        "duration": 2.96
+    },
+    {
+        "text": "One, two, three, four, five, six. Take one off.",
+        "start": 132.64,
+        "duration": 2.0
+    },
+    {
+        "text": "Seventeen. Seventeen is not a multiple of six. Six is definitely not prime.",
+        "start": 135.16,
+        "duration": 7.08
+    },
+    {
+        "text": "And so this Lucas test will rule out a number that's not prime.",
+        "start": 142.24,
+        "duration": 4.7
+    },
+    {
+        "text": "So you can comprehensively prove that a number is not prime",
+        "start": 146.94,
+        "duration": 3.18
+    },
+    {
+        "text": "by using this test, even though you don't know what any of the factors are.",
+        "start": 150.12,
+        "duration": 4.7
+    },
+    {
+        "text": "If it does pass then we call it a Lucas pseudoprime.",
+        "start": 155.12,
+        "duration": 4.34
+    },
+    {
+        "text": "It's very likely it's going to be prime. It's not guaranteed at this point.",
+        "start": 159.46,
+        "duration": 4.12
+    },
+    {
+        "text": "This is a very easy test. It's a good first filter",
+        "start": 163.62,
+        "duration": 3.1
+    },
+    {
+        "text": "to check if a number is prime or not, and you don't even have to look at its factors.",
+        "start": 166.72,
+        "duration": 3.62
+    },
+    {
+        "text": "So for a number this big, first of all we need something a little bit more clever and secondly we want to be sure.",
+        "start": 170.34,
+        "duration": 5.86
+    },
+    {
+        "text": "Right so we want a similar test which guarantees that it's prime if we find it. And that's what I'm going to do now.",
+        "start": 176.2,
+        "duration": 6.3
+    },
+    {
+        "text": "All right, for the big fellows we're going to need a different sequence and again it's our friend Lucas. What a guy. What a mathematician. And a guy called Lehmer who we never met because he lived much later after him and he was a French and American",
+        "start": 182.5,
+        "duration": 12.68
+    },
+    {
+        "text": "but together they came up with this method which uses the following sequence. You start with four this time",
+        "start": 195.18,
+        "duration": 7.44
+    },
+    {
+        "text": "and after that you square the previous number and subtract two.",
+        "start": 202.92,
+        "duration": 4.02
+    },
+    {
+        "text": "So four squared is sixteen. Sixteen subtract two is fourteen.",
+        "start": 206.94,
+        "duration": 3.66
+    },
+    {
+        "text": "And then we do the same thing. We square fourteen, and we subtract two and you get 194.",
+        "start": 210.74,
+        "duration": 6.32
+    },
+    {
+        "text": "You then square 194, subtract two, you get 37,634.",
+        "start": 217.06,
+        "duration": 5.74
+    },
+    {
+        "text": "They get big very quickly. So the next one's a bit of a monster. So you got from 37 thousand something something something",
+        "start": 222.8,
+        "duration": 5.98
+    },
+    {
+        "text": "up here to one billion, four hundred and sixteen million, three hundred and seventeen thousand, nine hundred and fifty four.",
+        "start": 228.78,
+        "duration": 10.16
+    },
+    {
+        "text": "And then now, you can feel what's going to happen, we're about to square this guy. We're getting roughly twice as long each time.",
+        "start": 238.94,
+        "duration": 5.24
+    },
+    {
+        "text": "The next number, hold on, is two billion .... it escalates very quickly and you get some massive numbers in there.",
+        "start": 244.18,
+        "duration": 8.94
+    },
+    {
+        "text": "and actually it becomes incredible very unwieldy very quickly to do anything with it.",
+        "start": 253.12,
+        "duration": 5.62
+    },
+    {
+        "text": "We'll fix that problem in a moment.",
+        "start": 258.74,
+        "duration": 2.06
+    },
+    {
+        "text": "Let's start by proving the number is prime.",
+        "start": 260.8,
+        "duration": 3.06
+    },
+    {
+        "text": "We're going to use a small Mersenne prime on this sequence to start with. I'm going to use seven",
+        "start": 263.86,
+        "duration": 4.2
+    },
+    {
+        "text": "because it is one less than two cubed.",
+        "start": 268.08,
+        "duration": 3.5
+    },
+    {
+        "text": "So the way you check a Mersenne prime against this list, is you take the power, which for seven is 3. You subtract one off that",
+        "start": 271.58,
+        "duration": 9.42
+    },
+    {
+        "text": "which is two. And you find what's in the second position in the list.",
+        "start": 281.0,
+        "duration": 4.04
+    },
+    {
+        "text": "So the second number is fourteen.",
+        "start": 285.04,
+        "duration": 1.78
+    },
+    {
+        "text": "And you see if that is a multiple of the number you're checking, seven. And it is!",
+        "start": 286.82,
+        "duration": 4.54
+    },
+    {
+        "text": "Look at that.",
+        "start": 291.36,
+        "duration": 0.82
+    },
+    {
+        "text": "So fourteen is a multiple of seven, so seven is definitely prime.",
+        "start": 292.24,
+        "duration": 5.22
+    },
+    {
+        "text": "???",
+        "start": 298.32,
+        "duration": 0.88
+    },
+    {
+        "text": "Let's recap on that very quickly. If you've got two, to some p prime power there minus one",
+        "start": 299.32,
+        "duration": 8.32
+    },
+    {
+        "text": "and that equals some mystery number.",
+        "start": 307.64,
+        "duration": 2.38
+    },
+    {
+        "text": "If the p minus oneth position in this sequence is a multiple of that number, that number is definitely prime.",
+        "start": 310.02,
+        "duration": 8.0
+    },
+    {
+        "text": "And there's no ifs or buts or maybes. We know it is absolutely prime. And if it's not a multiple of that number, it's definitely not prime.",
+        "start": 318.02,
+        "duration": 7.7
+    },
+    {
+        "text": "And so this is a primality test. You can check if a number's prime or not. And you never have to look at its factors.",
+        "start": 325.72,
+        "duration": 5.96
+    },
+    {
+        "text": "This is what Lucas used.",
+        "start": 331.68,
+        "duration": 2.0
+    },
+    {
+        "text": "He managed to prove that two to the one hundred twenty seven minus one is definitely definitely prime",
+        "start": 334.44,
+        "duration": 9.3
+    },
+    {
+        "text": "by finding the one hundred and twenty sixth term in this sequence.",
+        "start": 343.74,
+        "duration": 5.5
+    },
+    {
+        "text": "and proving it was a multiple of that number that came out the other side.",
+        "start": 349.24,
+        "duration": 3.1
+    },
+    {
+        "text": "He also amazingly",
+        "start": 352.62,
+        "duration": 2.0
+    },
+    {
+        "text": "managed to prove that two to the sixty seven minus one is not prime.",
+        "start": 354.62,
+        "duration": 5.16
+    },
+    {
+        "text": "But he never found a single factor for that number.",
+        "start": 359.88,
+        "duration": 4.48
+    },
+    {
+        "text": "He was able to prove this is not prime without finding a number that divides into it.",
+        "start": 364.36,
+        "duration": 4.72
+    },
+    {
+        "text": "I think that amazing. It was much later on, decades later, someone actually found what the factors were.",
+        "start": 369.08,
+        "duration": 5.88
+    },
+    {
+        "text": "We knew they were there. We just didn't know what they were.",
+        "start": 374.96,
+        "duration": 2.4
+    },
+    {
+        "text": "But we knew it wasn't prime.",
+        "start": 377.36,
+        "duration": 1.16
+    },
+    {
+        "text": "That prime is actually the biggest prime that was found by hand.",
+        "start": 378.66,
+        "duration": 3.84
+    },
+    {
+        "text": "All primes after that have been done by computer.",
+        "start": 382.5,
+        "duration": 3.16
+    },
+    {
+        "text": "So to check this number here, what we'd have to do",
+        "start": 385.66,
+        "duration": 3.02
+    },
+    {
+        "text": "is continue the sequence, find the seventy four million, two hundred and seven thousandth, two hundred and eightieth position,",
+        "start": 388.68,
+        "duration": 8.24
+    },
+    {
+        "text": "and check if it was a multiple of this monstrosity.",
+        "start": 396.92,
+        "duration": 3.64
+    },
+    {
+        "text": "Now that actually is going to take a ridiculous amount of computing power.",
+        "start": 401.02,
+        "duration": 2.78
+    },
+    {
+        "text": "You can see how big these numbers get.",
+        "start": 403.8,
+        "duration": 1.6
+    },
+    {
+        "text": "They're going to get ludicrously large.",
+        "start": 405.4,
+        "duration": 2.0
+    },
+    {
+        "text": "So actually that is not a good way to go about it.",
+        "start": 407.4,
+        "duration": 3.14
+    },
+    {
+        "text": "Let's make our life easy.",
+        "start": 410.54,
+        "duration": 1.24
+    },
+    {
+        "text": "Because when you're search through for this guy here",
+        "start": 411.78,
+        "duration": 2.7
+    },
+    {
+        "text": "all you care is whether or not the seventy four million, two hundred and seven thousand, two hundred and eightieth position is a multiple of it or not",
+        "start": 414.48,
+        "duration": 7.0
+    },
+    {
+        "text": "all you really want to know are the remainders once you've divided by this number.",
+        "start": 421.48,
+        "duration": 5.48
+    },
+    {
+        "text": "And so as you go along",
+        "start": 426.96,
+        "duration": 1.5
+    },
+    {
+        "text": "you don't have to keep track of",
+        "start": 428.46,
+        "duration": 1.6
+    },
+    {
+        "text": "the entire Lucas Lehmer sequence",
+        "start": 430.06,
+        "duration": 1.98
+    },
+    {
+        "text": "you just need to keep track of the remainder",
+        "start": 432.04,
+        "duration": 2.92
+    },
+    {
+        "text": "mod this number as you go along.",
+        "start": 434.96,
+        "duration": 2.58
+    },
+    {
+        "text": "So you can keep simplifying it down",
+        "start": 437.54,
+        "duration": 2.32
+    },
+    {
+        "text": "each step of the way.",
+        "start": 439.86,
+        "duration": 1.14
+    },
+    {
+        "text": "And we can do a quick example, if you want, to show how that works.",
+        "start": 441.0,
+        "duration": 2.62
+    },
+    {
+        "text": "One of my most absolute favourite Mersenne primes is eight thousand one hundred and ninety one",
+        "start": 443.62,
+        "duration": 4.84
+    },
+    {
+        "text": "which is two to the thirteen subtract one",
+        "start": 448.46,
+        "duration": 4.26
+    },
+    {
+        "text": "And so to check this number we'll have to find the twelfth term in the Lucas Lehmer sequence.",
+        "start": 452.72,
+        "duration": 5.54
+    },
+    {
+        "text": "But we only have to find it mod 8191.",
+        "start": 458.26,
+        "duration": 3.22
+    },
+    {
+        "text": "So to start with it's the same. You'd have four, you'll have to square that you'll get fourteen, you'll square that you get 194",
+        "start": 461.48,
+        "duration": 7.18
+    },
+    {
+        "text": "let's get these right.",
+        "start": 468.66,
+        "duration": 1.02
+    },
+    {
+        "text": "Then the next number should be 37,634",
+        "start": 469.68,
+        "duration": 5.38
+    },
+    {
+        "text": "but that's bigger than the number we care about",
+        "start": 475.06,
+        "duration": 2.3
+    },
+    {
+        "text": "And so actually we need the remainder of that number",
+        "start": 477.36,
+        "duration": 3.34
+    },
+    {
+        "text": "once we've divided through this number.",
+        "start": 480.76,
+        "duration": 1.66
+    },
+    {
+        "text": "In that case it's only four thousand, eight hundred and seventy.",
+        "start": 482.42,
+        "duration": 4.44
+    },
+    {
+        "text": "That's easier.",
+        "start": 486.94,
+        "duration": 1.3
+    },
+    {
+        "text": "And then we square that, subtract two, get the remainder once we remove multiples",
+        "start": 488.24,
+        "duration": 4.62
+    },
+    {
+        "text": "of the number we care about",
+        "start": 492.86,
+        "duration": 0.96
+    },
+    {
+        "text": "and you end up with three thousand nine hundred and fifty three followed by",
+        "start": 493.82,
+        "duration": 3.94
+    },
+    {
+        "text": "five thousand nine hundred and seventy.",
+        "start": 497.8,
+        "duration": 2.44
+    },
+    {
+        "text": "And you can see this time, these are staying much more manageable in size.",
+        "start": 500.24,
+        "duration": 4.94
+    },
+    {
+        "text": "Okay then, one hundred and twenty eight. And the twelfth term is zero.",
+        "start": 505.18,
+        "duration": 5.62
+    },
+    {
+        "text": "If you square that, subtract two you get a multiple of eight thousand one hundred and ninety one.",
+        "start": 510.8,
+        "duration": 6.16
+    },
+    {
+        "text": "and because that zero with no remainder, we know whatever that massive ridiculous number should have been in the sequence",
+        "start": 516.96,
+        "duration": 5.78
+    },
+    {
+        "text": "it's definitely a multiple of eight thousand one hundred and ninety one.",
+        "start": 522.74,
+        "duration": 2.3
+    },
+    {
+        "text": "Therefore that is definitely prime.",
+        "start": 525.1,
+        "duration": 2.0
+    },
+    {
+        "text": "And we didn't have to check a single factor of that number.",
+        "start": 527.34,
+        "duration": 2.38
+    },
+    {
+        "text": "Okay, so this is what the computer at the university of Missouri did.",
+        "start": 529.92,
+        "duration": 2.22
+    },
+    {
+        "text": "Although obviously it does a slightly more efficient version of this",
+        "start": 532.14,
+        "duration": 2.72
+    },
+    {
+        "text": "and there's nice things you can do with the way it handles the binary versions of these numbers",
+        "start": 534.98,
+        "duration": 3.62
+    },
+    {
+        "text": "Anyway, it's a fancy version of",
+        "start": 538.6,
+        "duration": 2.14
+    },
+    {
+        "text": "going along this sequence",
+        "start": 540.74,
+        "duration": 2.28
+    },
+    {
+        "text": "finding the result",
+        "start": 543.08,
+        "duration": 1.44
+    },
+    {
+        "text": "modulo this ridiculous number",
+        "start": 544.52,
+        "duration": 2.04
+    },
+    {
+        "text": "But you can do that just by subtracting it off until you get a number smaller than it",
+        "start": 546.56,
+        "duration": 4.66
+    },
+    {
+        "text": "so that's not so bad",
+        "start": 551.22,
+        "duration": 1.1
+    },
+    {
+        "text": "Once it got to that position",
+        "start": 552.32,
+        "duration": 2.38
+    },
+    {
+        "text": "it looked at the answer",
+        "start": 554.7,
+        "duration": 1.58
+    },
+    {
+        "text": "there was no remainder",
+        "start": 556.28,
+        "duration": 1.44
+    },
+    {
+        "text": "and normally there's a remainder",
+        "start": 557.72,
+        "duration": 1.5
+    },
+    {
+        "text": "the vast majority of the time you'd check a number of this size",
+        "start": 559.22,
+        "duration": 2.26
+    },
+    {
+        "text": "spend a month on it. The computer would get to the end",
+        "start": 561.48,
+        "duration": 2.9
+    },
+    {
+        "text": "and go, \"Aww, there's a remainder.\"",
+        "start": 564.38,
+        "duration": 1.9
+    },
+    {
+        "text": "Well, it's a computer. It's got no emotions.",
+        "start": 566.28,
+        "duration": 1.4
+    },
+    {
+        "text": "It would just send back the remainder to the central server.",
+        "start": 567.68,
+        "duration": 2.4
+    },
+    {
+        "text": "On this occasion it was zero.",
+        "start": 570.08,
+        "duration": 1.82
+    },
+    {
+        "text": "The computer had no idea what it had done.",
+        "start": 571.9,
+        "duration": 1.84
+    },
+    {
+        "text": "It sent that off back to the central server",
+        "start": 573.74,
+        "duration": 1.88
+    },
+    {
+        "text": "and that was it.",
+        "start": 575.62,
+        "duration": 0.94
+    },
+    {
+        "text": "We had found the biggest prime number known to humankind.",
+        "start": 576.56,
+        "duration": 3.08
+    },
+    {
+        "text": "So the problem is",
+        "start": 579.64,
+        "duration": 1.14
+    },
+    {
+        "text": "this method only works for Mersenne primes.",
+        "start": 580.78,
+        "duration": 2.0
+    },
+    {
+        "text": "But the problem is that every single time you do it",
+        "start": 582.78,
+        "duration": 2.0
+    },
+    {
+        "text": "it's a month of processing work",
+        "start": 584.78,
+        "duration": 2.0
+    },
+    {
+        "text": "all right. So you think, how many -",
+        "start": 586.78,
+        "duration": 2.0
+    },
+    {
+        "text": "I mean this is millions and millions of months",
+        "start": 588.78,
+        "duration": 2.0
+    },
+    {
+        "text": "but obviously we only have to check",
+        "start": 590.78,
+        "duration": 2.0
+    },
+    {
+        "text": "the way Mersenne primes work and there are some fantastic Numberphile videos on Mersenne primes",
+        "start": 592.78,
+        "duration": 3.8
+    },
+    {
+        "text": "You only got to worry about prime values up here.",
+        "start": 596.58,
+        "duration": 4.06
+    },
+    {
+        "text": "If this hadn't been prime",
+        "start": 601.12,
+        "duration": 2.0
+    },
+    {
+        "text": "if that had not worked",
+        "start": 603.12,
+        "duration": 2.0
+    },
+    {
+        "text": "the next one we checked would have been the next prime up after this.",
+        "start": 605.12,
+        "duration": 2.68
+    },
+    {
+        "text": "So we're gradually ticking up through those primes.",
+        "start": 607.8,
+        "duration": 2.08
+    },
+    {
+        "text": "You're right, in the bigger scheme of things there aren't that many.",
+        "start": 609.88,
+        "duration": 3.2
+    },
+    {
+        "text": "But it's still it's a month every time you want to check one, so.",
+        "start": 613.08,
+        "duration": 2.26
+    },
+    {
+        "text": "I mean definitely, everyone download GIMPS,",
+        "start": 615.34,
+        "duration": 2.22
+    },
+    {
+        "text": "the computer program, and run it",
+        "start": 617.56,
+        "duration": 2.66
+    },
+    {
+        "text": "and maybe you'll be the person who finds the next one of these.",
+        "start": 620.22,
+        "duration": 2.62
+    },
+    {
+        "text": "Matt if they put some of the world's more high-powered computers",
+        "start": 622.84,
+        "duration": 3.38
+    },
+    {
+        "text": "onto the case here",
+        "start": 626.22,
+        "duration": 1.0
+    },
+    {
+        "text": "for like a few months,",
+        "start": 627.22,
+        "duration": 0.96
+    },
+    {
+        "text": "would they burn through this.",
+        "start": 628.26,
+        "duration": 1.46
+    },
+    {
+        "text": "Like is it silly that we're just using little small computers in universities?",
+        "start": 629.72,
+        "duration": 3.96
+    },
+    {
+        "text": "Yeah, it's a very good point.",
+        "start": 633.68,
+        "duration": 1.4
+    },
+    {
+        "text": "If we had very big high powered computer",
+        "start": 635.08,
+        "duration": 1.4
+    },
+    {
+        "text": "like if Google went \"yeah, you know what guys? Borrow the server.\"",
+        "start": 636.48,
+        "duration": 2.6
+    },
+    {
+        "text": "You know what, I reckon if Google wanted to they could just go and find the next one.",
+        "start": 639.08,
+        "duration": 4.14
+    },
+    {
+        "text": "If they just say, \"everyone just stop searching for a day, we've got something to do with our computers.\"",
+        "start": 643.22,
+        "duration": 4.46
+    },
+    {
+        "text": "But then again, I mean, what are they going to achieve, they're going to find a bigger one",
+        "start": 647.68,
+        "duration": 2.88
+    },
+    {
+        "text": "and then everyone's like, \"Oh okay.\" and start searching for the next one.",
+        "start": 650.56,
+        "duration": 2.76
+    },
+    {
+        "text": "I mean the point of this is kind of the hunt.",
+        "start": 653.32,
+        "duration": 2.82
+    },
+    {
+        "text": "And the fact that thousands of people run the program",
+        "start": 656.14,
+        "duration": 3.36
+    },
+    {
+        "text": "and any one of those people could find the next one",
+        "start": 659.5,
+        "duration": 2.8
+    },
+    {
+        "text": "that, for me, is the beauty of the project.",
+        "start": 662.3,
+        "duration": 2.4
+    },
+    {
+        "text": "It could be anyone sitting at home running their computer",
+        "start": 664.7,
+        "duration": 3.56
+    },
+    {
+        "text": "could make a substantial find like this, they could contribute",
+        "start": 668.26,
+        "duration": 2.92
+    },
+    {
+        "text": "something to mathematics",
+        "start": 671.18,
+        "duration": 0.72
+    },
+    {
+        "text": "And for all of eternity you would be the human that found prime number",
+        "start": 671.9,
+        "duration": 4.0
+    },
+    {
+        "text": "What would it mean to you if your computer found the next big one?",
+        "start": 675.9,
+        "duration": 3.18
+    },
+    {
+        "text": "OMG! I would be so excited if I found the next- I would -",
+        "start": 679.08,
+        "duration": 3.44
+    },
+    {
+        "text": "I would absolutely love to find it.",
+        "start": 682.52,
+        "duration": 2.0
+    },
+    {
+        "text": "Very small confession; I don't run GIMPS on my computer.",
+        "start": 684.52,
+        "duration": 4.58
+    },
+    {
+        "text": "I run a competing prime number searching outfit called PrimeGrid.",
+        "start": 689.1,
+        "duration": 5.16
+    },
+    {
+        "text": "And PrimeGrid searches for other types of primes.",
+        "start": 694.26,
+        "duration": 4.24
+    },
+    {
+        "text": "They look for like Germain primes and other ones.",
+        "start": 698.5,
+        "duration": 2.74
+    },
+    {
+        "text": "And so currently GIMPS has the top fifteen biggest primes, they've found them all.",
+        "start": 701.24,
+        "duration": 5.28
+    },
+    {
+        "text": "PrimeGrid, is a lot less likely you'll find a prime, which is a bit sad for me.",
+        "start": 706.52,
+        "duration": 4.56
+    },
+    {
+        "text": "But if you do find, in a few categories, they're going to come in at something crazy big.",
+        "start": 711.08,
+        "duration": 4.58
+    },
+    {
+        "text": "And so I like- I play for the underdog.",
+        "start": 715.66,
+        "duration": 2.92
+    },
+    {
+        "text": "So I support PrimeGrid because I like the fact that they are doing different types.",
+        "start": 718.58,
+        "duration": 4.3
+    },
+    {
+        "text": "I mean these GIMPS guys are just in it for glory.",
+        "start": 722.88,
+        "duration": 2.54
+    },
+    {
+        "text": "They're just going for easy - low hanging, easy big ones.",
+        "start": 725.42,
+        "duration": 4.02
+    },
+    {
+        "text": "They're just picking them off one after another and getting all the recognition.",
+        "start": 729.44,
+        "duration": 2.68
+    },
+    {
+        "text": "But you know, I like the fact that, as we speak, at home my computer is doing maths so I don't have to.",
+        "start": 732.12,
+        "duration": 5.72
+    },
+    {
+        "text": "So the question everyone has is \"what does it begin and end with?\"",
+        "start": 738.2,
+        "duration": 2.86
+    },
+    {
+        "text": "Ending, I don't have. Everyone loves the last number.",
+        "start": 741.06,
+        "duration": 2.0
+    },
+    {
+        "text": "But the trouble with the last number is you know it's not going to be an even number, you know it's not going to be a five, you know it's not going to be a zero. Turns out it's a one. There it is.",
+        "start": 743.06,
+        "duration": 8.34
+    }
+]

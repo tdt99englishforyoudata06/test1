@@ -1,0 +1,1257 @@
+[
+    {
+        "text": "You may be aware that I’m a huge fan of\nthe YouTube channel 3blue1brown, run by Grant",
+        "start": 3.379,
+        "duration": 4.311
+    },
+    {
+        "text": "Sanderson. Grant makes excellent videos about\nmath, and mathy aspects of other topics, so",
+        "start": 7.69,
+        "duration": 4.66
+    },
+    {
+        "text": "I’m letting him take over my channel for\nthe day. Grant, take it away.",
+        "start": 12.35,
+        "duration": 3.25
+    },
+    {
+        "text": "(Grant) A week ago, I put out a tweet showing\na peculiar place where an ellipse arises,",
+        "start": 15.6,
+        "duration": 5.189
+    },
+    {
+        "text": "but what I didn’t mention is that this arbitrary-seeming\nconstruction is highly relevant to a once",
+        "start": 20.789,
+        "duration": 5.39
+    },
+    {
+        "text": "lost lecture by Richard Feynman on why planets\norbit in ellipses.",
+        "start": 26.179,
+        "duration": 4.58
+    },
+    {
+        "text": "The construction starts by drawing a circle,\nand choosing some point within the circle",
+        "start": 30.759,
+        "duration": 4.451
+    },
+    {
+        "text": "which is not the center, what I’ll call\nan “eccentric” point.",
+        "start": 35.21,
+        "duration": 4.16
+    },
+    {
+        "text": "Then draw a bunch of lines from this eccentric\npoint to the circumference of the circle.",
+        "start": 39.37,
+        "duration": 4.38
+    },
+    {
+        "text": "For each of those lines, rotate it 90 degrees\nabout its midpoint. Once you do this for all",
+        "start": 43.75,
+        "duration": 5.72
+    },
+    {
+        "text": "the lines, an ellipse emerges in the middle.\nOut of context, this a mildly pleasing curiosity,",
+        "start": 49.47,
+        "duration": 7.04
+    },
+    {
+        "text": "but there’s a much deeper form of satisfaction\non its way once you understand the full story",
+        "start": 56.51,
+        "duration": 3.75
+    },
+    {
+        "text": "surrounding this.",
+        "start": 60.26,
+        "duration": 1.66
+    },
+    {
+        "text": "Front and center in that story is Richard\nFeynman, whose famous along a number of dimensions.",
+        "start": 61.92,
+        "duration": 4.291
+    },
+    {
+        "text": "To scientists, he’s a giant of 20th century\nphysics, winner of the Nobel prize for his",
+        "start": 66.211,
+        "duration": 5.298
+    },
+    {
+        "text": "foundational insights for Quantum Electro\nDynamics among many other things.",
+        "start": 71.509,
+        "duration": 4.07
+    },
+    {
+        "text": "To the public, he’s a refreshing contradiction\nto stereotypes about physicists: A safe-cracking,",
+        "start": 75.579,
+        "duration": 4.99
+    },
+    {
+        "text": "bongo-playing, mildly-philanderous non-conformist\nwhose heavily brooklyn-accented voice you’ve",
+        "start": 80.569,
+        "duration": 4.55
+    },
+    {
+        "text": "probably heard either relaying some bit of\nno-nonsense pragmatic wisdom about the only",
+        "start": 85.119,
+        "duration": 4.201
+    },
+    {
+        "text": "sensible way to view the world, or else some\nwry joke told through a crooked smile.",
+        "start": 89.32,
+        "duration": 4.49
+    },
+    {
+        "text": "But to physics students, he was an exceptionally\nskillful teacher, both for his charisma and",
+        "start": 93.81,
+        "duration": 4.79
+    },
+    {
+        "text": "his uncanny ability to make complicated topics\nfeel natural and approachable.",
+        "start": 98.6,
+        "duration": 4.359
+    },
+    {
+        "text": "Many of the lectures he gave as a CalTech\nfreshman course are immortalized in the now",
+        "start": 102.959,
+        "duration": 4.16
+    },
+    {
+        "text": "famous “Feynman lectures”, whose three\nvolumes are available for free online.",
+        "start": 107.119,
+        "duration": 4.811
+    },
+    {
+        "text": "But not all of the lectures he gave made it\ninto this collection.",
+        "start": 111.93,
+        "duration": 3.689
+    },
+    {
+        "text": "One in particular, a guest lecture lecture\ngiven in March 13, 1964 entitled “The motion",
+        "start": 115.619,
+        "duration": 4.88
+    },
+    {
+        "text": "of planets around the sun”, survived only\nas an unpublished partial transcript with",
+        "start": 120.499,
+        "duration": 4.33
+    },
+    {
+        "text": "a smattering of notes buried in the office\nof one of Feynman’s colleagues until it",
+        "start": 124.829,
+        "duration": 3.521
+    },
+    {
+        "text": "was eventually dug up by Caltech archivist\nJudith Goodstein.",
+        "start": 128.35,
+        "duration": 3.74
+    },
+    {
+        "text": "Despite the absence of some crucial blackboard\ndrawings to follow what Feynman was saying,",
+        "start": 132.09,
+        "duration": 4.45
+    },
+    {
+        "text": "her husband David eventually reconstructed\nthe argument of the lecture, which the two",
+        "start": 136.54,
+        "duration": 3.88
+    },
+    {
+        "text": "of them published in a book titled “Feynman’s\nlost lecture”, conveying both the lecture",
+        "start": 140.42,
+        "duration": 4.05
+    },
+    {
+        "text": "itself and the surrounding story in a really\nbeautiful way.",
+        "start": 144.47,
+        "duration": 3.36
+    },
+    {
+        "text": "Here, I’d like to give a more animated and\nslightly simplified retelling of the argument",
+        "start": 147.83,
+        "duration": 5.45
+    },
+    {
+        "text": "Feynman presented.",
+        "start": 153.28,
+        "duration": 2.26
+    },
+    {
+        "text": "The lecture itself is about why planets and\nother astronomical objects orbit the sun in",
+        "start": 155.54,
+        "duration": 4.81
+    },
+    {
+        "text": "ellipses.\nIt ultimately has to do with the inverse square",
+        "start": 160.35,
+        "duration": 2.97
+    },
+    {
+        "text": "law, the fact that the gravitational force\npulling an object towards the sun is inversely",
+        "start": 163.32,
+        "duration": 4.39
+    },
+    {
+        "text": "proportional to the square of the distance\nbetween the orbiting object and the sun. But",
+        "start": 167.71,
+        "duration": 4.97
+    },
+    {
+        "text": "why? How exactly does that give rise to an\nellipse, of all shapes?",
+        "start": 172.68,
+        "duration": 5.26
+    },
+    {
+        "text": "Of course, the gravitational attraction between\nplanets, moons comets and such means that",
+        "start": 177.94,
+        "duration": 5.38
+    },
+    {
+        "text": "no one orbit is a perfect ellipse, but to\na very good approximation this is the shape",
+        "start": 183.32,
+        "duration": 4.55
+    },
+    {
+        "text": "of an orbit.\nYou can solve this analytically, setting up",
+        "start": 187.87,
+        "duration": 4.26
+    },
+    {
+        "text": "the appropriate differential equation and\nseeing the formula for an ellipse pop out,",
+        "start": 192.13,
+        "duration": 4.06
+    },
+    {
+        "text": "but Feynman’s goal was not to rely on any\nheavy mathematical machinery. In fact, let’s",
+        "start": 196.19,
+        "duration": 6.15
+    },
+    {
+        "text": "take a listen to him articulate his own goal.\nI am going to give what I will call an elementary",
+        "start": 202.34,
+        "duration": 5.75
+    },
+    {
+        "text": "demonstration. But elementary does not mean\neasy to understand. Elementary means that",
+        "start": 208.09,
+        "duration": 8.45
+    },
+    {
+        "text": "very little is required to know ahead of time\nin order to understand it, except to have",
+        "start": 216.54,
+        "duration": 4.36
+    },
+    {
+        "text": "an infinite amount of intelligence.\nThere may be a large number of steps that",
+        "start": 220.9,
+        "duration": 6.19
+    },
+    {
+        "text": "hard to follow, but to each does not require\nalready knowing the calculus or Fourier transforms.",
+        "start": 227.09,
+        "duration": 9.36
+    },
+    {
+        "text": "Yeah, that’s all, infinite intelligence.\nI think you’re up to that, don’t you?",
+        "start": 236.45,
+        "duration": 3.57
+    },
+    {
+        "text": "I’ve done what I can to simplify things\ndown further, but that’s not to say a good",
+        "start": 240.02,
+        "duration": 5.15
+    },
+    {
+        "text": "deal of focus won’t be required.",
+        "start": 245.17,
+        "duration": 2.66
+    },
+    {
+        "text": "First thing’s first, we need some definition\nof an ellipse, otherwise there’s no hope",
+        "start": 247.83,
+        "duration": 3.61
+    },
+    {
+        "text": "of proving that they’re the shape of orbits.\nSome of you may be familiar with the classic",
+        "start": 251.44,
+        "duration": 3.78
+    },
+    {
+        "text": "way to construct an ellipse using two thumbtacks\nand a piece of string. Use the thumb tacks",
+        "start": 255.22,
+        "duration": 4.88
+    },
+    {
+        "text": "to fix the ends of a small length of string\nin place, then pull the string taut with a",
+        "start": 260.1,
+        "duration": 5.08
+    },
+    {
+        "text": "pencil, and trace out a curve while keeping\nthe string taut.",
+        "start": 265.18,
+        "duration": 3.73
+    },
+    {
+        "text": "It’s similar to how you might use a single\npushpin to construct a circle, where the fixed",
+        "start": 268.91,
+        "duration": 4.71
+    },
+    {
+        "text": "length of string guarantees that every point\nyou trace is a constant distance from the",
+        "start": 273.62,
+        "duration": 4.98
+    },
+    {
+        "text": "thumbtack. But in this case, with two thumbtacks,\nwhat property are you guaranteeing about each",
+        "start": 278.6,
+        "duration": 6.21
+    },
+    {
+        "text": "point you trace?\nWell, at every point, the sum of the distances",
+        "start": 284.81,
+        "duration": 5.81
+    },
+    {
+        "text": "from that point to each of the thumbtacks\nwill be the full length of the string, right?",
+        "start": 290.62,
+        "duration": 5.03
+    },
+    {
+        "text": "So the defining property of this curve is\nthat when you draw lines from any point on",
+        "start": 295.65,
+        "duration": 5.39
+    },
+    {
+        "text": "the curve to these two special thumbtack locations,\nthe sum of the lengths of those lines is a",
+        "start": 301.04,
+        "duration": 6.08
+    },
+    {
+        "text": "constant, namely the length of the string.\nEach of these points is called a “focus”",
+        "start": 307.12,
+        "duration": 4.81
+    },
+    {
+        "text": "of your ellipse, collectively called “foci”.\nFun fact, the word focus comes from the latin",
+        "start": 311.93,
+        "duration": 5.15
+    },
+    {
+        "text": "for “fireplace”, since one of the first\nplaces ellipses were studied was for orbits",
+        "start": 317.08,
+        "duration": 4.23
+    },
+    {
+        "text": "around the sun, a sort of fireplace of the\nsolar system, sitting at one of the foci of",
+        "start": 321.31,
+        "duration": 5.25
+    },
+    {
+        "text": "a planet’s orbit.\nMaking up a bit of terminology, let’s call",
+        "start": 326.56,
+        "duration": 3.971
+    },
+    {
+        "text": "this constant sum of the distances from any\npoint on the ellipse to the two foci the “focal",
+        "start": 330.531,
+        "duration": 5.339
+    },
+    {
+        "text": "sum” of the ellipse.",
+        "start": 335.87,
+        "duration": 1.52
+    },
+    {
+        "text": "We’ll get to orbital mechanics in a moment,\nbut first let’s turn back to that construction",
+        "start": 337.39,
+        "duration": 5.29
+    },
+    {
+        "text": "I showed at the beginning, which will come\nup again later in the story.",
+        "start": 342.68,
+        "duration": 3.93
+    },
+    {
+        "text": "Remember, we take all these lines from an\neccentric point of a circle to its circumference,",
+        "start": 346.61,
+        "duration": 5.23
+    },
+    {
+        "text": "and rotate each 90 degrees about its center,\nwhy on earth should an ellipse pop up?",
+        "start": 351.84,
+        "duration": 7.829
+    },
+    {
+        "text": "You could just take my word for it, but I\nthink you’ll be much more satisfied in the",
+        "start": 359.669,
+        "duration": 5.171
+    },
+    {
+        "text": "end if we take the time now for a brief sidestep\ninto geometry proof land.",
+        "start": 364.84,
+        "duration": 5.53
+    },
+    {
+        "text": "First off, there are really only two special\npoints in this diagram, the eccentric point",
+        "start": 370.37,
+        "duration": 4.34
+    },
+    {
+        "text": "from which all the lines emerge, and the center\nof the circle, so you might guess that each",
+        "start": 374.71,
+        "duration": 5.15
+    },
+    {
+        "text": "of these is a focus of the ellipse.\nGiven the defining property of an ellipse,",
+        "start": 379.86,
+        "duration": 5.279
+    },
+    {
+        "text": "you know you’re going to want to look at\nthe sum of the distances from these two points",
+        "start": 385.139,
+        "duration": 4.03
+    },
+    {
+        "text": "to...something.\nAlso, if you’re doing a geometry problem",
+        "start": 389.169,
+        "duration": 4.511
+    },
+    {
+        "text": "involving a circle, you’ll very likely want\nto draw a radius of that circle, and at some",
+        "start": 393.68,
+        "duration": 4.76
+    },
+    {
+        "text": "point use the fact that this radius has a\nconstant length no matter where you draw it.",
+        "start": 398.44,
+        "duration": 5.13
+    },
+    {
+        "text": "I mean, that’s what defines a circle, so\nyou’ll probably need to incorporate that",
+        "start": 403.57,
+        "duration": 4.08
+    },
+    {
+        "text": "somewhere.\nWith those two thoughts in the back of our",
+        "start": 407.65,
+        "duration": 2.94
+    },
+    {
+        "text": "mind, let’s limit our attention to just\none of these lines, touching some point P",
+        "start": 410.59,
+        "duration": 4.67
+    },
+    {
+        "text": "on the circle.\nRemember what happens in our construction:",
+        "start": 415.26,
+        "duration": 3.5
+    },
+    {
+        "text": "You rotate this line from the eccentric point\n90 degrees about its center, and the geometry",
+        "start": 418.76,
+        "duration": 5.39
+    },
+    {
+        "text": "enthusiasts in the room might fancifully call\nthis a “perpendicular bisector” of the",
+        "start": 424.15,
+        "duration": 4.43
+    },
+    {
+        "text": "original line.\nTake a moment to think about the sum of the",
+        "start": 428.58,
+        "duration": 4.13
+    },
+    {
+        "text": "distances from our two proposed focus points\nto any point Q along this perpendicular bisector.",
+        "start": 432.71,
+        "duration": 10.5
+    },
+    {
+        "text": "The key insight here is that you can find\ntwo similar triangles to conclude that the",
+        "start": 443.21,
+        "duration": 6.23
+    },
+    {
+        "text": "distance from the eccentric point to Q is\nthe same as the distance from Q to P.",
+        "start": 449.44,
+        "duration": 4.47
+    },
+    {
+        "text": "So, that means adding the distances to each\nfocus is the same as adding the distances",
+        "start": 453.91,
+        "duration": 7.021
+    },
+    {
+        "text": "from the center to Q, then Q to P.\nNow there are two key things I want you to",
+        "start": 460.931,
+        "duration": 5.249
+    },
+    {
+        "text": "notice: First, at the point where this perpendicular\nbisector intersects the radius, that sum is",
+        "start": 466.18,
+        "duration": 7.86
+    },
+    {
+        "text": "clearly the radius of the circle. Since that\nradius is a constant no matter where we draw",
+        "start": 474.04,
+        "duration": 4.83
+    },
+    {
+        "text": "it, the focal sum at that intersection point\nstays constant, which by definition means",
+        "start": 478.87,
+        "duration": 6.49
+    },
+    {
+        "text": "it traces out an ellipse, specifically an\nellipse whose focal sum equals the radius",
+        "start": 485.36,
+        "duration": 5.559
+    },
+    {
+        "text": "of this circle. Isn’t that neat?\nSecond, because the sum of these two lengths",
+        "start": 490.919,
+        "duration": 5.5
+    },
+    {
+        "text": "at every other point on this perpendicular\nbisector is larger than the radius, meaning",
+        "start": 496.419,
+        "duration": 5.731
+    },
+    {
+        "text": "the sum of the distances to the foci from\nthose points are bigger than the ellipse’s",
+        "start": 502.15,
+        "duration": 5.15
+    },
+    {
+        "text": "focal sum, all other points of this line must\nlie outside the ellipse.",
+        "start": 507.3,
+        "duration": 5.7
+    },
+    {
+        "text": "What this means, and this will be important,\nis that this perpendicular bisector, the line",
+        "start": 513.0,
+        "duration": 5.169
+    },
+    {
+        "text": "we got after our special 90 degree rotation,\nis tangent to the ellipse.",
+        "start": 518.169,
+        "duration": 5.141
+    },
+    {
+        "text": "So the reason all the lines we drew earlier\nmake an ellipse appear is because we’re",
+        "start": 523.31,
+        "duration": 6.76
+    },
+    {
+        "text": "drawing a bunch of that ellipse’s tangent\nlines.",
+        "start": 530.07,
+        "duration": 3.26
+    },
+    {
+        "text": "The reason this will be important, as you’ll\nsay later, is that this tangency direction",
+        "start": 533.33,
+        "duration": 4.67
+    },
+    {
+        "text": "will correspond to the velocity of an orbiting\nobject.",
+        "start": 538.0,
+        "duration": 4.04
+    },
+    {
+        "text": "Okay, geometry proofiness done, onto some\nactual physics and orbital mechanics!",
+        "start": 542.04,
+        "duration": 5.71
+    },
+    {
+        "text": "The first fact to use is Kepler’s (very\nbeautiful) second law, which says that as",
+        "start": 547.75,
+        "duration": 4.62
+    },
+    {
+        "text": "an object orbits around the sun, the area\nit sweeps out during a given amount of time,",
+        "start": 552.37,
+        "duration": 5.65
+    },
+    {
+        "text": "like 1 day, will be a constant, no matter\nwhere you are in the orbit.",
+        "start": 558.02,
+        "duration": 4.39
+    },
+    {
+        "text": "For example, think of a comet whose orbit\nis very skewed. Close to the sun, it’s getting",
+        "start": 562.41,
+        "duration": 5.19
+    },
+    {
+        "text": "whipped around very quickly, so it covers\na larger arc length during a given time interval.",
+        "start": 567.6,
+        "duration": 5.38
+    },
+    {
+        "text": "Farther away, it’ll move slower, so covers\na shorter arc length during that same time.",
+        "start": 572.98,
+        "duration": 6.049
+    },
+    {
+        "text": "And this trade off between radius and arc\nlength balances in just such a way that the",
+        "start": 579.029,
+        "duration": 5.952
+    },
+    {
+        "text": "swept area is the same.\nA quick way to see why this is true is to",
+        "start": 584.981,
+        "duration": 4.029
+    },
+    {
+        "text": "leverage conservation of angular momentum.\nFor a tiny time step, delta t, the area swept",
+        "start": 589.01,
+        "duration": 7.1
+    },
+    {
+        "text": "out is essentially a triangle.\nIn principle you should think of this as a",
+        "start": 596.11,
+        "duration": 4.81
+    },
+    {
+        "text": "small sliver for a tiny time step, but I’ll\ndraw it thicker so we can better see all the",
+        "start": 600.92,
+        "duration": 5.33
+    },
+    {
+        "text": "parts.\nThe area is ½ base times height, right?",
+        "start": 606.25,
+        "duration": 4.64
+    },
+    {
+        "text": "The base is the distance to the sun, and the\nheight will be this little length here, which",
+        "start": 610.89,
+        "duration": 6.15
+    },
+    {
+        "text": "you can think of as the component of the object’s\nvelocity perpendicular to the line to the",
+        "start": 617.04,
+        "duration": 5.08
+    },
+    {
+        "text": "sun, which I’ll call v_perp, multiplied\nby the small duration of time.",
+        "start": 622.12,
+        "duration": 4.779
+    },
+    {
+        "text": "So the area is ½ R * (v_perp) * (delta t).\nConservation of angular momentum with respect",
+        "start": 626.899,
+        "duration": 9.281
+    },
+    {
+        "text": "to a given origin point, like the sun, tells\nus that this radius time the component of",
+        "start": 636.18,
+        "duration": 5.69
+    },
+    {
+        "text": "velocity perpendicular to it will remain constant,\nso long as all forces acting on the object",
+        "start": 641.87,
+        "duration": 5.339
+    },
+    {
+        "text": "are directed towards that origin.\nWell, specifically it says this quantity times",
+        "start": 647.209,
+        "duration": 4.701
+    },
+    {
+        "text": "the mass of the object stays constant, but\nthe mass of an orbiting object won’t be",
+        "start": 651.91,
+        "duration": 5.12
+    },
+    {
+        "text": "changing.\nSo! Our expression for the area swept out",
+        "start": 657.03,
+        "duration": 3.8
+    },
+    {
+        "text": "depends only on the amount of time that has\npassed, delta t.",
+        "start": 660.83,
+        "duration": 3.65
+    },
+    {
+        "text": "Historically, this went the other way around,\nand Kepler’s second law is one of the empirical",
+        "start": 664.48,
+        "duration": 5.81
+    },
+    {
+        "text": "facts that led to an understanding of angular\nmomentum.",
+        "start": 670.29,
+        "duration": 2.95
+    },
+    {
+        "text": "I should emphasize, this law does not assume\nthat the orbit is an ellipse. Heck, it doesn’t",
+        "start": 673.24,
+        "duration": 5.68
+    },
+    {
+        "text": "even assume the inverse square law, the only\nthing needed for this to hold is that the",
+        "start": 678.92,
+        "duration": 5.91
+    },
+    {
+        "text": "only force acting on the orbiting object is\ndirected straight towards the sun.",
+        "start": 684.83,
+        "duration": 4.74
+    },
+    {
+        "text": "This is a fact Feynman spent much more time\nshowing, recounting an argument by Newton",
+        "start": 689.57,
+        "duration": 4.11
+    },
+    {
+        "text": "in his Principia, but it kind of distracts\nfrom our main target, so I figure assuming",
+        "start": 693.68,
+        "duration": 4.659
+    },
+    {
+        "text": "conservation of angular momentum is good enough\nfor our purposes here, albeit at some loss",
+        "start": 698.339,
+        "duration": 4.981
+    },
+    {
+        "text": "of elementarity.",
+        "start": 703.32,
+        "duration": 3.42
+    },
+    {
+        "text": "At this point we don’t know the shape of\nan orbit; for all we know it’s some wonky",
+        "start": 706.74,
+        "duration": 8.099
+    },
+    {
+        "text": "non-elliptical egg shape.\nThe inverse square law will help pin down",
+        "start": 714.839,
+        "duration": 4.171
+    },
+    {
+        "text": "that shape precisely, but the strategy is\na little indirect. Before showing the shape",
+        "start": 719.01,
+        "duration": 5.04
+    },
+    {
+        "text": "of the path traced by the orbiting object,\nwe’ll show the shape traced out by the velocity",
+        "start": 724.05,
+        "duration": 6.2
+    },
+    {
+        "text": "vectors. Here, let me show you what I mean\nby that.",
+        "start": 730.25,
+        "duration": 4.35
+    },
+    {
+        "text": "As the object orbits, its velocity will be\nchanging, always tangent to the curve of the",
+        "start": 734.6,
+        "duration": 6.359
+    },
+    {
+        "text": "orbit, longer at points where the object moves\nquickly, and shorter at points where it moves",
+        "start": 740.959,
+        "duration": 5.031
+    },
+    {
+        "text": "more slowly.\nWhat we’ll show is that if you take all",
+        "start": 745.99,
+        "duration": 3.4
+    },
+    {
+        "text": "these velocity vectors, and collect them together\nso that their tails all sit a single point,",
+        "start": 749.39,
+        "duration": 6.16
+    },
+    {
+        "text": "their tips actually trace out a perfect circle.\nThis is a pretty awesome fact, if you ask",
+        "start": 755.55,
+        "duration": 5.62
+    },
+    {
+        "text": "me. The velocity spins around and gets faster\nand slower at various angles, but evidently",
+        "start": 761.17,
+        "duration": 5.349
+    },
+    {
+        "text": "the laws of physics cook things up just right\nso that these trace out a perfect circle.",
+        "start": 766.519,
+        "duration": 5.681
+    },
+    {
+        "text": "The astute among you might have a little internal\nlightbulb starting to turn on at the sight",
+        "start": 772.2,
+        "duration": 4.11
+    },
+    {
+        "text": "of this circle with an off-center point.",
+        "start": 776.31,
+        "duration": 3.43
+    },
+    {
+        "text": "Now, why on earth should this be true?\nFeynman describes being unable to easily follow",
+        "start": 779.74,
+        "duration": 5.87
+    },
+    {
+        "text": "Newton at this point, so instead he comes\nup with his own elegant line of reasoning",
+        "start": 785.61,
+        "duration": 3.75
+    },
+    {
+        "text": "to explain where this circle comes from.\nHe starts by looking at the orbit, and slicing",
+        "start": 789.36,
+        "duration": 6.25
+    },
+    {
+        "text": "it up into little pieces which all cover the\nsame angle with respect to the sun.",
+        "start": 795.61,
+        "duration": 5.05
+    },
+    {
+        "text": "Alright, now think about how the amount of\ntime it takes the orbiting object to traverse",
+        "start": 800.66,
+        "duration": 4.84
+    },
+    {
+        "text": "one of these equal-angle slices changes as\nit gets farther away.",
+        "start": 805.5,
+        "duration": 5.24
+    },
+    {
+        "text": "Well, by Kepler’s 2nd law, it’s proportional\nto the area swept out, right? And because",
+        "start": 810.74,
+        "duration": 6.2
+    },
+    {
+        "text": "these slices have the same angle, as you get\nfarther away from the sun, not only does the",
+        "start": 816.94,
+        "duration": 4.98
+    },
+    {
+        "text": "radius increase, but the component of arc\nlength perpendicular to that radial line goes",
+        "start": 821.92,
+        "duration": 5.3
+    },
+    {
+        "text": "up in proportion to that radius. So the area\nof one of these slices, and hence the time",
+        "start": 827.22,
+        "duration": 7.01
+    },
+    {
+        "text": "it takes the object to traverse it, is proportional\nto the distance away from the sun squared.",
+        "start": 834.23,
+        "duration": 4.96
+    },
+    {
+        "text": "In principle, we’ll ultimately be considering\nvery small slices, so there won’t be ambiguity",
+        "start": 839.19,
+        "duration": 5.84
+    },
+    {
+        "text": "in what I mean by the radius from the planet\nto the sun on a given slice, and the relevant",
+        "start": 845.03,
+        "duration": 2.84
+    },
+    {
+        "text": "bits of arc length will be effectively straight.\nAlright, now think about how the inverse square",
+        "start": 847.87,
+        "duration": 5.5
+    },
+    {
+        "text": "law comes into play. At any given point, the\nforce the sun imparts on the object is proportional",
+        "start": 853.37,
+        "duration": 6.56
+    },
+    {
+        "text": "to 1/(the radius)^2, but what does that really\nmean? What force is is the acceleration on",
+        "start": 859.93,
+        "duration": 7.75
+    },
+    {
+        "text": "the object, the amount that it’s velocity\nchanges per unit time, multiplied by that",
+        "start": 867.68,
+        "duration": 5.08
+    },
+    {
+        "text": "object’s mass.\nThis is enough to give us a super useful bit",
+        "start": 872.76,
+        "duration": 2.41
+    },
+    {
+        "text": "of information about how the velocity of our\norbiting object changes from one slice to",
+        "start": 875.17,
+        "duration": 6.8
+    },
+    {
+        "text": "the next. The change in velocity is acceleration\ntimes change in time, right? Which means its",
+        "start": 881.97,
+        "duration": 9.869
+    },
+    {
+        "text": "proportional to the change in time over the\nradius squared.",
+        "start": 891.839,
+        "duration": 4.801
+    },
+    {
+        "text": "But since the time it takes to traverse one\nslice is proportional to the radius squared,",
+        "start": 896.64,
+        "duration": 5.389
+    },
+    {
+        "text": "these terms cancel, so the change in velocity\nas the object traverses a given slice is actually",
+        "start": 902.029,
+        "duration": 5.551
+    },
+    {
+        "text": "some constant that doesn’t depend on the\nslice at all.",
+        "start": 907.58,
+        "duration": 3.79
+    },
+    {
+        "text": "In other words, if you look the velocity at\nthe start of the slice, and at the end of",
+        "start": 911.37,
+        "duration": 7.02
+    },
+    {
+        "text": "the slice, then directly compare them by joining\ntheir tails, looking at the difference between",
+        "start": 918.39,
+        "duration": 6.04
+    },
+    {
+        "text": "the two, the vector joining their tips, this\ndifference has the same length no matter which",
+        "start": 924.43,
+        "duration": 5.52
+    },
+    {
+        "text": "slice of the orbit you were looking at.\nAlso! Since the force vector is always pointing",
+        "start": 929.95,
+        "duration": 14.759
+    },
+    {
+        "text": "towards the sun, as we go from the start of\none slice to the next, that force vector is",
+        "start": 944.709,
+        "duration": 7.07
+    },
+    {
+        "text": "turning by a constant angle. In geometry lingo,\nyou might say that all the “external angles”",
+        "start": 951.779,
+        "duration": 7.051
+    },
+    {
+        "text": "of this polygon that has formed will be equal.\nI know this is a little tricky, but hang in",
+        "start": 958.83,
+        "duration": 6.449
+    },
+    {
+        "text": "there! Remember that all you need to follow\nalong is infinite intelligence.",
+        "start": 965.279,
+        "duration": 4.12
+    },
+    {
+        "text": "Take a moment to make sure it’s clear what’s\nhappening without velocity diagram: The change",
+        "start": 969.399,
+        "duration": 5.981
+    },
+    {
+        "text": "from one vector to the next, the little difference\nvector joining one tip to the next, will always",
+        "start": 975.38,
+        "duration": 6.06
+    },
+    {
+        "text": "have the same length, which was a consequence\nof the perfect cancelation that happens when",
+        "start": 981.44,
+        "duration": 3.709
+    },
+    {
+        "text": "mixing Kepler’s second law with the inverse\nsquare law.",
+        "start": 985.149,
+        "duration": 2.531
+    },
+    {
+        "text": "Now, because those constant-length change\nvectors rotate by a constant angle each time,",
+        "start": 987.68,
+        "duration": 6.24
+    },
+    {
+        "text": "it means they form regular polygon.\nAs we consider finer and finer slices of the",
+        "start": 993.92,
+        "duration": 5.63
+    },
+    {
+        "text": "original orbit, based on smaller and smaller\nangles for those slices, the relevant regular",
+        "start": 999.55,
+        "duration": 5.13
+    },
+    {
+        "text": "polygon defining the tips of the vectors in\nour velocity diagram will approach a circle.",
+        "start": 1004.68,
+        "duration": 5.649
+    },
+    {
+        "text": "Isn’t that really neat?",
+        "start": 1010.329,
+        "duration": 3.681
+    },
+    {
+        "text": "Hopefully, at this point you’re looking\nat this circle with a special eccentric point,",
+        "start": 1014.01,
+        "duration": 3.949
+    },
+    {
+        "text": "and your just itching to see it give rise\nto an ellipse the way we saw earlier. But,",
+        "start": 1017.959,
+        "duration": 4.181
+    },
+    {
+        "text": "it’s a little weird, right? We’re looking\nat a diagram in velocity space, how exactly",
+        "start": 1022.14,
+        "duration": 5.27
+    },
+    {
+        "text": "will this give us the shape of the orbit?\nWhat follows is tricky, but very clever.",
+        "start": 1027.41,
+        "duration": 6.929
+    },
+    {
+        "text": "Step back and consider what we know: We don’t\nknow the specific shape of the orbit, only",
+        "start": 1034.339,
+        "duration": 4.531
+    },
+    {
+        "text": "the shape the velocity vectors trace.\nBut more specifically than that, we know that",
+        "start": 1038.87,
+        "duration": 5.27
+    },
+    {
+        "text": "once the planet has turned an angle theta\noff the horizontal with respect to the sun,",
+        "start": 1044.14,
+        "duration": 5.98
+    },
+    {
+        "text": "this corresponds to walking theta degrees\naround our circle in the velocity diagram,",
+        "start": 1050.12,
+        "duration": 5.85
+    },
+    {
+        "text": "since the acceleration vectors rotate just\nas much as the radius vector.",
+        "start": 1055.97,
+        "duration": 4.65
+    },
+    {
+        "text": "This tells us the tangency direction for each\npoint on the orbit; whichever vector from",
+        "start": 1060.62,
+        "duration": 4.93
+    },
+    {
+        "text": "our velocity diagram touches that point theta\ndegrees around, that’s the velocity vector",
+        "start": 1065.55,
+        "duration": 6.09
+    },
+    {
+        "text": "of our orbiting object, and hence the tangency\ndirection of the curve.",
+        "start": 1071.64,
+        "duration": 4.07
+    },
+    {
+        "text": "In fact, let me just start drawing all those\nvelocity vectors as lines, since all we’ll",
+        "start": 1075.71,
+        "duration": 5.35
+    },
+    {
+        "text": "need to use is the information they cary about\nthe slope of the orbit curve; the specific",
+        "start": 1081.06,
+        "duration": 4.65
+    },
+    {
+        "text": "magnitude of each velocity will not be as\nimportant.",
+        "start": 1085.71,
+        "duration": 3.04
+    },
+    {
+        "text": "Notice, it's not that the angle of the velocity\nvector at this point is an angle theta off",
+        "start": 1088.75,
+        "duration": 7.34
+    },
+    {
+        "text": "the vertical. No no no. The angle I’m referencing\nin the velocity diagram is with respect to",
+        "start": 1096.09,
+        "duration": 5.54
+    },
+    {
+        "text": "the circle’s center, which is almost certainly\na little different from where the velocity",
+        "start": 1101.63,
+        "duration": 5.1
+    },
+    {
+        "text": "vectors are rooted.\nSo the question is, what special curve satisfies",
+        "start": 1106.73,
+        "duration": 5.0
+    },
+    {
+        "text": "the property that the tangency direction for\na point theta radians off the horizontal is",
+        "start": 1111.73,
+        "duration": 7.31
+    },
+    {
+        "text": "given by this vector from a special eccentric\npoint of a circle to a point theta degrees",
+        "start": 1119.04,
+        "duration": 6.15
+    },
+    {
+        "text": "around the circle from the vertical?",
+        "start": 1125.19,
+        "duration": 2.85
+    },
+    {
+        "text": "Well, here’s the trick. First, rotate this\nwhole circle setup 90 degrees.",
+        "start": 1128.04,
+        "duration": 8.13
+    },
+    {
+        "text": "Then take each of those individual velocity\ndirections and rotate them 90 degrees back",
+        "start": 1136.17,
+        "duration": 5.36
+    },
+    {
+        "text": "the other way, so that they’re oriented\nas they were before, it’s just that each",
+        "start": 1141.53,
+        "duration": 4.25
+    },
+    {
+        "text": "is rooted in a different spot.\nAha! We’ve spotted our ellipse! But we still",
+        "start": 1145.78,
+        "duration": 5.25
+    },
+    {
+        "text": "have just a little thinking ahead of us to\nreally understand how this emergent ellipse",
+        "start": 1151.03,
+        "duration": 5.139
+    },
+    {
+        "text": "is related to the astronomical orbit.\nImportantly, I didn’t just rotate these",
+        "start": 1156.169,
+        "duration": 4.611
+    },
+    {
+        "text": "lines about any point, I rotated each about\nits center, which means we can leverage the",
+        "start": 1160.78,
+        "duration": 5.87
+    },
+    {
+        "text": "geometric proof we saw several minutes ago.\nAnd this is the moment where you kind of have",
+        "start": 1166.65,
+        "duration": 5.32
+    },
+    {
+        "text": "to furrow your brow and think back “wait,\nwhat was going on in that proof again?”",
+        "start": 1171.97,
+        "duration": 5.63
+    },
+    {
+        "text": "One of the key points was that when you have\ntwo lines, one from the center of the circle,",
+        "start": 1177.6,
+        "duration": 5.0
+    },
+    {
+        "text": "one from the eccentric point, both to a common\nspot on the circle’s circumference, the",
+        "start": 1182.6,
+        "duration": 6.17
+    },
+    {
+        "text": "perpendicular bisector to the eccentric line\nwill be tangent to the ellipse. What’s more,",
+        "start": 1188.77,
+        "duration": 6.64
+    },
+    {
+        "text": "the point of tangency is where it intersects\nwith the radial line from the center.",
+        "start": 1195.41,
+        "duration": 7.96
+    },
+    {
+        "text": "What that means is that the point of our little\nellipse which is theta degrees off the horizontal,",
+        "start": 1203.37,
+        "duration": 5.54
+    },
+    {
+        "text": "with respect to the circle’s center, has\na tangent slope perpendicular to this eccentric",
+        "start": 1208.91,
+        "duration": 4.889
+    },
+    {
+        "text": "line. And because of the whole 90 degree rotation,\nthis means it’s parallel to the velocity",
+        "start": 1213.799,
+        "duration": 6.261
+    },
+    {
+        "text": "vector we need it to be.\nSo this little emergent curve inside the velocity",
+        "start": 1220.06,
+        "duration": 4.98
+    },
+    {
+        "text": "diagram has exactly the tangency property\nwe need our orbit to have!",
+        "start": 1225.04,
+        "duration": 4.95
+    },
+    {
+        "text": "And hence, the shape of the orbit must be\nan ellipse. QED.",
+        "start": 1229.99,
+        "duration": 5.58
+    },
+    {
+        "text": "Alright, pat yourself on the back, because\nthere’s no small amount of cleverness required",
+        "start": 1235.57,
+        "duration": 5.48
+    },
+    {
+        "text": "to follow this.\nFirst there was this peculiar way of constructing",
+        "start": 1241.05,
+        "duration": 3.62
+    },
+    {
+        "text": "an ellipse, requiring some geometry savviness\nto prove.",
+        "start": 1244.67,
+        "duration": 4.42
+    },
+    {
+        "text": "Then there’s the pretty clever step of even\nthinking to ask the question about what shape",
+        "start": 1249.09,
+        "duration": 4.79
+    },
+    {
+        "text": "the velocity vectors trace out when you move\nall their tails to the same spot.",
+        "start": 1253.88,
+        "duration": 4.64
+    },
+    {
+        "text": "And showing that this is a circle requires\nmixing together the inverse square law with",
+        "start": 1258.52,
+        "duration": 4.46
+    },
+    {
+        "text": "Kepler’s second law in another sly move.\nBut the cleverness doesn’t end there! Showing",
+        "start": 1262.98,
+        "duration": 4.69
+    },
+    {
+        "text": "how this velocity diagram with vectors rooted\nat a point off the circle’s center implies",
+        "start": 1267.67,
+        "duration": 4.249
+    },
+    {
+        "text": "an elliptical orbit brings in this neat 90\ndegree rotation trick.",
+        "start": 1271.919,
+        "duration": 4.321
+    },
+    {
+        "text": "I just love this. Watching Feynman do physics,\neven elementary physics, is like watching",
+        "start": 1276.24,
+        "duration": 4.96
+    },
+    {
+        "text": "Bobby Fischer play chess.",
+        "start": 1281.2,
+        "duration": 1.339
+    },
+    {
+        "text": "(Henry): Thanks again to Grant, and you should\ndefinitely go check out his videos on 3blue1brown",
+        "start": 1282.539,
+        "duration": 5.571
+    }
+]

@@ -1,0 +1,602 @@
+[
+    {
+        "text": "ZVEZDELINA: It's a game",
+        "start": 0.13,
+        "duration": 1.62
+    },
+    {
+        "text": "Attributed to John Conway, a mathematician at Princeton, and it is called Conway checkers.",
+        "start": 1.75,
+        "duration": 6.169
+    },
+    {
+        "text": "Conway checkers is a game which is played on an infinite board.",
+        "start": 8.2,
+        "duration": 4.16
+    },
+    {
+        "text": "So it's infinite in all directions. You take a line, and you put it somewhere in the middle of your board",
+        "start": 12.759,
+        "duration": 6.32
+    },
+    {
+        "text": "and you're not going to move it. And then what you do is you take a few checkers and you place them underneath the line.",
+        "start": 19.21,
+        "duration": 7.399
+    },
+    {
+        "text": "Anywhere you like, it's totally random.",
+        "start": 27.039,
+        "duration": 2.239
+    },
+    {
+        "text": "It's up to you what you want to do. And then you start playing by simplified checker rules.",
+        "start": 29.279,
+        "duration": 5.549
+    },
+    {
+        "text": "There is only one type of move: you can jump over an adjacent checker...",
+        "start": 35.26,
+        "duration": 5.9
+    },
+    {
+        "text": "and then disappear that checker.",
+        "start": 43.12,
+        "duration": 2.0
+    },
+    {
+        "text": "So I can jump",
+        "start": 45.55,
+        "duration": 2.0
+    },
+    {
+        "text": "vertically or I can jump horizontally.",
+        "start": 47.62,
+        "duration": 3.229
+    },
+    {
+        "text": "And I can do this left, right, up, or down, so there are four possible moves",
+        "start": 50.85,
+        "duration": 6.63
+    },
+    {
+        "text": "but they're all of the same type. Now",
+        "start": 57.48,
+        "duration": 1.71
+    },
+    {
+        "text": "What is not allowed is if you have three checkers in a row you try to jump like this",
+        "start": 59.19,
+        "duration": 7.38
+    },
+    {
+        "text": "And you land on something. Also, you cannot jump over several checkers.",
+        "start": 66.79,
+        "duration": 5.269
+    },
+    {
+        "text": "That's not allowed.",
+        "start": 72.52,
+        "duration": 1.47
+    },
+    {
+        "text": "You cannot jump diagonally. You're limited to jumping only horizontally, left and right, or",
+        "start": 73.99,
+        "duration": 7.669
+    },
+    {
+        "text": "vertically, up and down. And of course, at some point you may jump over the line because you will be close to it.",
+        "start": 82.63,
+        "duration": 6.5
+    },
+    {
+        "text": "There you go.\nBRADY: This is allowed?",
+        "start": 89.799,
+        "duration": 1.861
+    },
+    {
+        "text": "Z: Yep, that's allowed. In fact,",
+        "start": 91.66,
+        "duration": 2.119
+    },
+    {
+        "text": "Your goal is to get as high as possible over the line.",
+        "start": 94.479,
+        "duration": 5.959
+    },
+    {
+        "text": "So Conway's challenge to us is if you start",
+        "start": 101.11,
+        "duration": 4.699
+    },
+    {
+        "text": "below the line in whatever",
+        "start": 106.66,
+        "duration": 2.42
+    },
+    {
+        "text": "configuration you wish, as many checkers [as] you wish, and you follow those simple rules,",
+        "start": 109.28,
+        "duration": 6.72
+    },
+    {
+        "text": "What is the highest row above the line that you can reach?",
+        "start": 116.68,
+        "duration": 4.48
+    },
+    {
+        "text": "BRADY: Oh, I'm excited! I don't know the answer!",
+        "start": 121.64,
+        "duration": 2.1
+    },
+    {
+        "text": "Z: Well, what do you think?\nBRADY: I think the answer is going to be...",
+        "start": 123.86,
+        "duration": 3.7
+    },
+    {
+        "text": "Disappointingly low.",
+        "start": 129.16,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: But is that what your gut feeling says? Or your experience?",
+        "start": 131.56,
+        "duration": 3.86
+    },
+    {
+        "text": "BRADY: Well, part of me thinks if I can use an infinite number of checkers in any configuration",
+        "start": 136.39,
+        "duration": 4.61
+    },
+    {
+        "text": "I want, I should be able to build some mechanism to push quite high, but...\nZ: That's right!",
+        "start": 141.0,
+        "duration": 5.759
+    },
+    {
+        "text": "That's what my gut feeling said about the problem. I said, \"what kind of question is this? Of course I will somehow...",
+        "start": 146.76,
+        "duration": 5.91
+    },
+    {
+        "text": "create an algorithm, perhaps inductive algorithm, and reach higher and higher and higher rows!\"",
+        "start": 153.76,
+        "duration": 6.979
+    },
+    {
+        "text": "BRADY: And you need to just be able to keep feeding the machine.",
+        "start": 160.92,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: Exactly, so let's try, and let us be efficient: do I really need a whole army of checkers to reach the first row?",
+        "start": 163.38,
+        "duration": 7.42
+    },
+    {
+        "text": "Well obviously if I put the checkers like this, I'm not gonna go anywhere above the line, but if I put them vertically...",
+        "start": 171.37,
+        "duration": 7.639
+    },
+    {
+        "text": "everyone can play this quite easily, you can jump over and",
+        "start": 179.59,
+        "duration": 4.789
+    },
+    {
+        "text": "you're done. You reached row one, alright.",
+        "start": 184.81,
+        "duration": 2.899
+    },
+    {
+        "text": "Let's try row two! Now at this point, the audience should stop the video and really try it",
+        "start": 187.84,
+        "duration": 6.589
+    },
+    {
+        "text": "Because it's not entirely obvious what to do.",
+        "start": 195.78,
+        "duration": 2.72
+    },
+    {
+        "text": "[music]",
+        "start": 198.82,
+        "duration": 6.96
+    },
+    {
+        "text": "BRADY: I think we need to put... if we put another two...",
+        "start": 205.9,
+        "duration": 2.24
+    },
+    {
+        "text": "Z: Aha!\nBRADY: If we put another two there, we can feed it another one.",
+        "start": 208.36,
+        "duration": 3.96
+    },
+    {
+        "text": "Z: So Brady has",
+        "start": 212.4,
+        "duration": 2.0
+    },
+    {
+        "text": "learned a lot of mathematics and his intuition is really good. Indeed, if we start like this...",
+        "start": 214.72,
+        "duration": 6.74
+    },
+    {
+        "text": "Let's see",
+        "start": 222.4,
+        "duration": 1.8
+    },
+    {
+        "text": "one move",
+        "start": 224.2,
+        "duration": 2.0
+    },
+    {
+        "text": "two moves",
+        "start": 227.11,
+        "duration": 2.0
+    },
+    {
+        "text": "and finally three moves and we are in row two above the line.",
+        "start": 230.05,
+        "duration": 4.49
+    },
+    {
+        "text": "So",
+        "start": 235.39,
+        "duration": 1.98
+    },
+    {
+        "text": "We're done. Now for an extra challenge: row three",
+        "start": 237.37,
+        "duration": 4.279
+    },
+    {
+        "text": "How many checkers do you think we will need?",
+        "start": 243.1,
+        "duration": 2.479
+    },
+    {
+        "text": "[music]",
+        "start": 246.04,
+        "duration": 6.0
+    },
+    {
+        "text": "BRADY: Two there...",
+        "start": 252.42,
+        "duration": 0.92
+    },
+    {
+        "text": "I think we need another... I think we need another four.",
+        "start": 253.88,
+        "duration": 2.56
+    },
+    {
+        "text": "Z: Yes, but the question is in what configuration?",
+        "start": 256.66,
+        "duration": 3.4
+    },
+    {
+        "text": "BRADY: Well I think, let me see...",
+        "start": 260.06,
+        "duration": 2.32
+    },
+    {
+        "text": "Z: Um, maybe you can use the smaller ones because they fit better...",
+        "start": 262.48,
+        "duration": 3.2
+    },
+    {
+        "text": "BRADY: Okay, let me use the smaller ones.",
+        "start": 265.68,
+        "duration": 1.42
+    },
+    {
+        "text": "So we want two there",
+        "start": 267.1,
+        "duration": 2.0
+    },
+    {
+        "text": "And then we need those two there",
+        "start": 269.1,
+        "duration": 1.48
+    },
+    {
+        "text": "And then we need another two there",
+        "start": 270.84,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: He's so good, you've seen this before!",
+        "start": 273.0,
+        "duration": 2.12
+    },
+    {
+        "text": "BRADY: I haven't, no...",
+        "start": 275.12,
+        "duration": 1.06
+    },
+    {
+        "text": "Z: My goodness, you're my fastest student!\nBRADY: How's that?",
+        "start": 276.72,
+        "duration": 4.06
+    },
+    {
+        "text": "Z: Brady, you're on. Let's try...",
+        "start": 280.78,
+        "duration": 2.86
+    },
+    {
+        "text": "BRADY: Oh, look, I'm doing so well!",
+        "start": 283.64,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: You think you can play it, or...?",
+        "start": 286.57,
+        "duration": 2.11
+    },
+    {
+        "text": "BRADY: Well yeah\nZ: yeah, okay, alright, try.",
+        "start": 288.68,
+        "duration": 2.76
+    },
+    {
+        "text": "BRADY: So, what we did before",
+        "start": 291.44,
+        "duration": 1.82
+    },
+    {
+        "text": "Z: Yes...",
+        "start": 293.74,
+        "duration": 1.0
+    },
+    {
+        "text": "BRADY: and then... and then that to there.",
+        "start": 294.74,
+        "duration": 3.1
+    },
+    {
+        "text": "That's gone.",
+        "start": 298.32,
+        "duration": 0.88
+    },
+    {
+        "text": "And that to there\nZ: Okay...",
+        "start": 299.54,
+        "duration": 2.52
+    },
+    {
+        "text": "BRADY: That's gone, and then we need to get that to there",
+        "start": 302.06,
+        "duration": 3.52
+    },
+    {
+        "text": "And that's gone. Then we need to get that to there",
+        "start": 305.58,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: Ahh, this looks very promising.",
+        "start": 307.94,
+        "duration": 3.14
+    },
+    {
+        "text": "BRADY: Do you know what?",
+        "start": 311.4,
+        "duration": 1.06
+    },
+    {
+        "text": "I don't know how to get any higher, though.",
+        "start": 313.02,
+        "duration": 1.64
+    },
+    {
+        "text": "Z: So let's think. We use two,",
+        "start": 314.8,
+        "duration": 2.34
+    },
+    {
+        "text": "four, and eight checkers to get to row one, two, and three. This looks...",
+        "start": 317.65,
+        "duration": 6.29
+    },
+    {
+        "text": "very determined process to me. How many checkers shall we try for all four?",
+        "start": 324.31,
+        "duration": 4.37
+    },
+    {
+        "text": "BRADY: You want sixteen, do you?",
+        "start": 328.68,
+        "duration": 1.16
+    },
+    {
+        "text": "Z: I do, but you know what?",
+        "start": 330.0,
+        "duration": 2.14
+    },
+    {
+        "text": "There isn't a configuration with sixteen.",
+        "start": 332.94,
+        "duration": 2.84
+    },
+    {
+        "text": "You will need more.",
+        "start": 336.36,
+        "duration": 1.88
+    },
+    {
+        "text": "The pattern breaks! I can show you the configuration",
+        "start": 338.26,
+        "duration": 4.7
+    },
+    {
+        "text": "That actually wins... and there it is! So that's 20 checkers, and the viewers can try to",
+        "start": 343.18,
+        "duration": 7.08
+    },
+    {
+        "text": "play with those checkers and see if you can reach the fourth row. This is actually quite a feat.",
+        "start": 350.64,
+        "duration": 5.26
+    },
+    {
+        "text": "[music]",
+        "start": 356.42,
+        "duration": 4.94
+    },
+    {
+        "text": "I'm not going to try, um, to try it on Brady.",
+        "start": 361.78,
+        "duration": 3.259
+    },
+    {
+        "text": "This is really tough. You start with those 20 checkers, you play play play play, and you get to row four.",
+        "start": 365.04,
+        "duration": 8.44
+    },
+    {
+        "text": "In fact, there are other configurations",
+        "start": 374.44,
+        "duration": 2.26
+    },
+    {
+        "text": "with slightly more checkers. For example, 21.",
+        "start": 376.82,
+        "duration": 3.84
+    },
+    {
+        "text": "And so the way you do it is you arrange them",
+        "start": 381.7,
+        "duration": 3.86
+    },
+    {
+        "text": "on a 4 by 5. So we're going to have already 20 checkers",
+        "start": 385.88,
+        "duration": 5.26
+    },
+    {
+        "text": "Which is what we had before",
+        "start": 391.84,
+        "duration": 2.0
+    },
+    {
+        "text": "But in this particular situation you put one more so you end up with 21 checkers",
+        "start": 394.569,
+        "duration": 6.17
+    },
+    {
+        "text": "And it's kind of a very nice symmetric situation that actually",
+        "start": 401.04,
+        "duration": 4.06
+    },
+    {
+        "text": "capitalizes on our previous attempt to reach row three. So you can try this and indeed",
+        "start": 405.12,
+        "duration": 6.9
+    },
+    {
+        "text": "Reach somewhere up row four. Of course, with 21 points, this game",
+        "start": 412.569,
+        "duration": 6.62
+    },
+    {
+        "text": "here is less efficient than the previous one which was with 20. And you can ask yourself, \"Is there a more efficient game with",
+        "start": 419.189,
+        "duration": 7.191
+    },
+    {
+        "text": "19, 18, and so on?\", but really that's not the point of the game. And now the challenge is on.",
+        "start": 426.52,
+        "duration": 7.42
+    },
+    {
+        "text": "BRADY: Five, row five.",
+        "start": 433.94,
+        "duration": 2.0
+    },
+    {
+        "text": "Z: So we have 21 here, well, how many do you think we need for all 5?",
+        "start": 436.09,
+        "duration": 4.459
+    },
+    {
+        "text": "We went more than twice up from the previous case so if we go more than twice up, maybe about",
+        "start": 441.34,
+        "duration": 7.64
+    },
+    {
+        "text": "50-ish?",
+        "start": 449.52,
+        "duration": 1.14
+    },
+    {
+        "text": "BRADY: Yeah, 50 or 60. I think it's gonna become impossible. I'm already surprised we got to four.",
+        "start": 451.32,
+        "duration": 4.82
+    },
+    {
+        "text": "I think it's gonna become impossible soon.",
+        "start": 456.14,
+        "duration": 2.56
+    },
+    {
+        "text": "Z: But I don't see any restriction! What can possibly stop us from reaching the fifth row?",
+        "start": 458.7,
+        "duration": 5.44
+    },
+    {
+        "text": "So there is this mysterious entity called a monovariant.",
+        "start": 465.42,
+        "duration": 5.82
+    },
+    {
+        "text": "A feature that moves only in one direction. It either only increases or only decreases",
+        "start": 471.7,
+        "duration": 7.08
+    },
+    {
+        "text": "and that feature prevents us somehow from reaching the fifth row.",
+        "start": 478.96,
+        "duration": 4.24
+    },
+    {
+        "text": "But getting that feature,",
+        "start": 483.96,
+        "duration": 2.0
+    },
+    {
+        "text": "extrapolating it from this game is actually quite complex, so let's get to work.",
+        "start": 486.14,
+        "duration": 5.22
+    },
+    {
+        "text": "BRADY: Are you ready to get to work?",
+        "start": 492.16,
+        "duration": 2.0
+    },
+    {
+        "text": "If so, the proof video showing that you cannot reach row five is on our second channel,",
+        "start": 494.26,
+        "duration": 6.46
+    },
+    {
+        "text": "Numberphile2, which is where I put longer, more detailed videos.",
+        "start": 500.72,
+        "duration": 4.08
+    },
+    {
+        "text": "This is quite a long proof, but it's really interesting, easy to follow, and it involves the golden ratio... loads.",
+        "start": 504.8,
+        "duration": 7.58
+    },
+    {
+        "text": "I'll also include some links on the screen and underneath to other videos that may be of interest, including our interviews with John Conway himself.",
+        "start": 512.38,
+        "duration": 7.6
+    }
+]

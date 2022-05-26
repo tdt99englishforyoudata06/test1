@@ -1,0 +1,667 @@
+[
+    {
+        "text": "So we're going to talk about primes",
+        "start": 0.03,
+        "duration": 1.98
+    },
+    {
+        "text": "again. We know we love primes, and there's",
+        "start": 2.01,
+        "duration": 2.19
+    },
+    {
+        "text": "all different types of primes;",
+        "start": 4.2,
+        "duration": 1.59
+    },
+    {
+        "text": "we know there's infinitely many primes;",
+        "start": 5.79,
+        "duration": 1.83
+    },
+    {
+        "text": "we know there's all little different",
+        "start": 7.62,
+        "duration": 1.439
+    },
+    {
+        "text": "categories of primes - so I'm going to",
+        "start": 9.059,
+        "duration": 2.101
+    },
+    {
+        "text": "show you another one,",
+        "start": 11.16,
+        "duration": 0.84
+    },
+    {
+        "text": "it's called Wilson primes. There's only",
+        "start": 12.0,
+        "duration": 2.519
+    },
+    {
+        "text": "three Wilson primes that we know of. So",
+        "start": 14.519,
+        "duration": 3.361
+    },
+    {
+        "text": "let's write out the three Wilson",
+        "start": 17.88,
+        "duration": 2.159
+    },
+    {
+        "text": "primes; I'll show you why these are",
+        "start": 20.039,
+        "duration": 1.621
+    },
+    {
+        "text": "special types of primes: 5, 13 and 563.",
+        "start": 21.66,
+        "duration": 5.459
+    },
+    {
+        "text": "Now actually they think there's",
+        "start": 27.119,
+        "duration": 2.07
+    },
+    {
+        "text": "infinitely many Wilson primes but we've",
+        "start": 29.189,
+        "duration": 1.861
+    },
+    {
+        "text": "only found three of them. So what's this",
+        "start": 31.05,
+        "duration": 1.86
+    },
+    {
+        "text": "this special thing that they do that",
+        "start": 32.91,
+        "duration": 1.98
+    },
+    {
+        "text": "other primes don't? Well one thing that",
+        "start": 34.89,
+        "duration": 2.13
+    },
+    {
+        "text": "all primes do - I'll show you this - this",
+        "start": 37.02,
+        "duration": 2.4
+    },
+    {
+        "text": "is what all primes can do; you have a",
+        "start": 39.42,
+        "duration": 1.62
+    },
+    {
+        "text": "prime P minus 1, we're going to do a",
+        "start": 41.04,
+        "duration": 2.88
+    },
+    {
+        "text": "factorial on it. Do you remember",
+        "start": 43.92,
+        "duration": 2.069
+    },
+    {
+        "text": "factorial? So you're multiplying all the",
+        "start": 45.989,
+        "duration": 2.041
+    },
+    {
+        "text": "numbers up to an including P minus 1; so",
+        "start": 48.03,
+        "duration": 3.9
+    },
+    {
+        "text": "it'd be 1 times 2 times 3 times 4-\nso if my",
+        "start": 51.93,
+        "duration": 2.49
+    },
+    {
+        "text": "prime is 5 it'd be 1 times 2 times 3",
+        "start": 54.42,
+        "duration": 2.819
+    },
+    {
+        "text": "times 4, ok. I'm now going to add one and",
+        "start": 57.239,
+        "duration": 3.561
+    },
+    {
+        "text": "that is divisible by the original prime",
+        "start": 60.8,
+        "duration": 4.689
+    },
+    {
+        "text": "P, and all primes do that. \nSo in the case of",
+        "start": 65.489,
+        "duration": 2.851
+    },
+    {
+        "text": "5 you would have 5 minus 1 factorial",
+        "start": 68.34,
+        "duration": 4.77
+    },
+    {
+        "text": "plus 1, so what's that? We're talking 4",
+        "start": 73.11,
+        "duration": 2.67
+    },
+    {
+        "text": "factorial plus 1. What is 4 factorial?",
+        "start": 75.78,
+        "duration": 3.21
+    },
+    {
+        "text": "It's 1 times 2 times 3 times 4, and then",
+        "start": 78.99,
+        "duration": 3.809
+    },
+    {
+        "text": "we add the 1, on that's 24. So 24 plus 1",
+        "start": 82.799,
+        "duration": 4.651
+    },
+    {
+        "text": "is 25 and you can divide by 5, in fact",
+        "start": 87.45,
+        "duration": 4.47
+    },
+    {
+        "text": "you can do that for any prime, that will",
+        "start": 91.92,
+        "duration": 1.29
+    },
+    {
+        "text": "work for any prime. And it only works for",
+        "start": 93.21,
+        "duration": 2.43
+    },
+    {
+        "text": "primes, it doesn't work for composite",
+        "start": 95.64,
+        "duration": 2.729
+    },
+    {
+        "text": "numbers. We've talked about tests for",
+        "start": 98.369,
+        "duration": 1.261
+    },
+    {
+        "text": "primes before, we talked about Fermat",
+        "start": 99.63,
+        "duration": 2.64
+    },
+    {
+        "text": "primes and sometimes there",
+        "start": 102.27,
+        "duration": 2.309
+    },
+    {
+        "text": "were Liars weren't there? There were some",
+        "start": 104.579,
+        "duration": 1.381
+    },
+    {
+        "text": "numbers that weren't prime that passed",
+        "start": 105.96,
+        "duration": 1.89
+    },
+    {
+        "text": "the test, they were lying to us. This is a",
+        "start": 107.85,
+        "duration": 3.24
+    },
+    {
+        "text": "100% test for primes, only primes pass",
+        "start": 111.09,
+        "duration": 3.419
+    },
+    {
+        "text": "it, composites fail. \nLet's have a-",
+        "start": 114.509,
+        "duration": 2.82
+    },
+    {
+        "text": "let's do a composite.\n- (Brady: Can I choose one?)",
+        "start": 117.329,
+        "duration": 2.011
+    },
+    {
+        "text": "Oh, you're going to pick a big one are you?\nWe have",
+        "start": 119.34,
+        "duration": 1.379
+    },
+    {
+        "text": "to do a factorial remember, this is the",
+        "start": 120.719,
+        "duration": 1.321
+    },
+    {
+        "text": "problem.\n- (Let's- can I, let's do 8.)",
+        "start": 122.04,
+        "duration": 3.14
+    },
+    {
+        "text": "Right. So 8 minus 1 factorial then we add",
+        "start": 125.18,
+        "duration": 4.419
+    },
+    {
+        "text": "1, right. So 7 factorial",
+        "start": 129.599,
+        "duration": 3.771
+    },
+    {
+        "text": "plus 1. Okay, so we're going to do 7",
+        "start": 133.37,
+        "duration": 3.24
+    },
+    {
+        "text": "factorial, so that is, hmm,\nI wonder what that is...",
+        "start": 136.61,
+        "duration": 4.75
+    },
+    {
+        "text": "5040. Oh don't show them that!",
+        "start": 143.23,
+        "duration": 5.08
+    },
+    {
+        "text": "So 5040 plus 1. So 5041; but I'm saying",
+        "start": 148.31,
+        "duration": 6.06
+    },
+    {
+        "text": "that's never going to be divisible by 8,",
+        "start": 154.37,
+        "duration": 3.11
+    },
+    {
+        "text": "and I don't think it's going to be is it?",
+        "start": 157.48,
+        "duration": 2.2
+    },
+    {
+        "text": "So we're going to divide that by 8 - and",
+        "start": 159.68,
+        "duration": 3.21
+    },
+    {
+        "text": "it's not. You don't get a full number, a",
+        "start": 162.89,
+        "duration": 1.95
+    },
+    {
+        "text": "whole number, for that. So- but that's",
+        "start": 164.84,
+        "duration": 2.31
+    },
+    {
+        "text": "guaranteed; primes will give you a whole",
+        "start": 167.15,
+        "duration": 2.22
+    },
+    {
+        "text": "number and composites would never give",
+        "start": 169.37,
+        "duration": 2.339
+    },
+    {
+        "text": "you a whole number for that. Yeah, that's",
+        "start": 171.709,
+        "duration": 2.161
+    },
+    {
+        "text": "called Wilson's theorem and it is a test",
+        "start": 173.87,
+        "duration": 2.369
+    },
+    {
+        "text": "for primes. It's not great test for",
+        "start": 176.239,
+        "duration": 1.441
+    },
+    {
+        "text": "primes because you have to do a",
+        "start": 177.68,
+        "duration": 0.93
+    },
+    {
+        "text": "factorial and they get massive, so you'd",
+        "start": 178.61,
+        "duration": 2.52
+    },
+    {
+        "text": "have to work out a massive factorial. If",
+        "start": 181.13,
+        "duration": 1.95
+    },
+    {
+        "text": "it passes though, it is a prime. So all",
+        "start": 183.08,
+        "duration": 2.43
+    },
+    {
+        "text": "primes pass that test, the Wilson",
+        "start": 185.51,
+        "duration": 1.979
+    },
+    {
+        "text": "primes are special because they pass",
+        "start": 187.489,
+        "duration": 1.53
+    },
+    {
+        "text": "the test twice over; you can actually do",
+        "start": 189.019,
+        "duration": 3.031
+    },
+    {
+        "text": "it twice over. So you can divide by the",
+        "start": 192.05,
+        "duration": 1.32
+    },
+    {
+        "text": "prime and then divide by the prime again",
+        "start": 193.37,
+        "duration": 1.83
+    },
+    {
+        "text": "and you get a whole number. So all",
+        "start": 195.2,
+        "duration": 3.06
+    },
+    {
+        "text": "primes pass the test once but only",
+        "start": 198.26,
+        "duration": 2.49
+    },
+    {
+        "text": "these three that we found manage to do",
+        "start": 200.75,
+        "duration": 2.55
+    },
+    {
+        "text": "that twice over. I'll show you I mean,",
+        "start": 203.3,
+        "duration": 2.909
+    },
+    {
+        "text": "let's do the 5. Well we did the 5",
+        "start": 206.209,
+        "duration": 1.53
+    },
+    {
+        "text": "already didn't we? So we got 25,",
+        "start": 207.739,
+        "duration": 2.821
+    },
+    {
+        "text": "5 minus 1 factorial plus 1. So we",
+        "start": 210.56,
+        "duration": 3.0
+    },
+    {
+        "text": "ended up with 25 so we know you can",
+        "start": 213.56,
+        "duration": 1.44
+    },
+    {
+        "text": "divide by 5; so you know 25 divided by",
+        "start": 215.0,
+        "duration": 2.76
+    },
+    {
+        "text": "5 is equal to 5. And all I'm saying is",
+        "start": 217.76,
+        "duration": 2.22
+    },
+    {
+        "text": "you can divide by the prime again;",
+        "start": 219.98,
+        "duration": 1.92
+    },
+    {
+        "text": "so obviously 5 divided by 5 is 1, so that",
+        "start": 221.9,
+        "duration": 3.48
+    },
+    {
+        "text": "would work. Other primes wouldn't do\nthat.",
+        "start": 225.38,
+        "duration": 2.579
+    },
+    {
+        "text": "So we see a prime passing it once and",
+        "start": 227.959,
+        "duration": 2.191
+    },
+    {
+        "text": "then failing the second time. \n- (I want to see 13.)",
+        "start": 230.15,
+        "duration": 2.558
+    },
+    {
+        "text": "D'you wanna do 13 first? Let's do it with",
+        "start": 232.708,
+        "duration": 2.602
+    },
+    {
+        "text": "13 and see what we get. So we're looking",
+        "start": 235.31,
+        "duration": 1.89
+    },
+    {
+        "text": "at 12 factorial plus 1, let's see what",
+        "start": 237.2,
+        "duration": 1.98
+    },
+    {
+        "text": "you've got; 12 factorial, \nbrilliant, big number:",
+        "start": 239.18,
+        "duration": 5.99
+    },
+    {
+        "text": "479 million 1600.\n- (Plus 1)",
+        "start": 245.17,
+        "duration": 5.59
+    },
+    {
+        "text": "Plus 1, all right. Let's see if the",
+        "start": 250.76,
+        "duration": 5.16
+    },
+    {
+        "text": "prime divides it, do you think it's\nlikely?",
+        "start": 255.92,
+        "duration": 3.14
+    },
+    {
+        "text": "- (Divide it by 13...)\n- Yep it divides",
+        "start": 259.06,
+        "duration": 3.97
+    },
+    {
+        "text": "perfectly, wonderful. But all primes do",
+        "start": 263.03,
+        "duration": 2.22
+    },
+    {
+        "text": "that, does it do it twice? Yes it does.",
+        "start": 265.25,
+        "duration": 4.24
+    },
+    {
+        "text": "It does it twice! So 13 is a Wilson prime",
+        "start": 269.49,
+        "duration": 4.679
+    },
+    {
+        "text": "as is the last one I've got here, 563.",
+        "start": 274.169,
+        "duration": 3.9
+    },
+    {
+        "text": "Do you want to see something fail; just to",
+        "start": 278.069,
+        "duration": 2.041
+    },
+    {
+        "text": "check? Pick a prime.\n- (7?)",
+        "start": 280.11,
+        "duration": 3.91
+    },
+    {
+        "text": "Yes, let's do 7; small",
+        "start": 284.02,
+        "duration": 1.91
+    },
+    {
+        "text": "isn't it? Right, first I work out how to",
+        "start": 285.93,
+        "duration": 3.169
+    },
+    {
+        "text": "clear something...right,",
+        "start": 289.099,
+        "duration": 1.811
+    },
+    {
+        "text": "7. So we need 7 minus 1 factorial and",
+        "start": 290.91,
+        "duration": 3.479
+    },
+    {
+        "text": "then we're going to add 1, so we're",
+        "start": 294.389,
+        "duration": 2.131
+    },
+    {
+        "text": "talking 6 factorial plus 1. Well I know 6",
+        "start": 296.52,
+        "duration": 3.06
+    },
+    {
+        "text": "factorial is 720 - if I'm feeling",
+        "start": 299.58,
+        "duration": 3.72
+    },
+    {
+        "text": "confident I'm going to say that's 721.\nLet's see",
+        "start": 303.3,
+        "duration": 5.13
+    },
+    {
+        "text": "if it works. Now if I divide by 7 which",
+        "start": 308.43,
+        "duration": 3.18
+    },
+    {
+        "text": "is the prime...works, 103. Can I do it a",
+        "start": 311.61,
+        "duration": 5.91
+    },
+    {
+        "text": "second time? I don't think it's going to",
+        "start": 317.52,
+        "duration": 1.38
+    },
+    {
+        "text": "happen though. Divide by 7 again then",
+        "start": 318.9,
+        "duration": 2.489
+    },
+    {
+        "text": "and no it's not going to work. So",
+        "start": 321.389,
+        "duration": 4.921
+    },
+    {
+        "text": "there! So that's the- that's kind of",
+        "start": 326.31,
+        "duration": 1.62
+    },
+    {
+        "text": "nice, it's a nice nice little prime",
+        "start": 327.93,
+        "duration": 2.16
+    },
+    {
+        "text": "number fact. There's no great use for it",
+        "start": 330.09,
+        "duration": 2.579
+    },
+    {
+        "text": "but why do we have to do everything for",
+        "start": 332.669,
+        "duration": 2.631
+    },
+    {
+        "text": "application? This is just a great little",
+        "start": 335.3,
+        "duration": 2.679
+    },
+    {
+        "text": "prime number fact. Now that we know what",
+        "start": 337.979,
+        "duration": 1.831
+    },
+    {
+        "text": "Wilson primes are, let's have a look",
+        "start": 339.81,
+        "duration": 2.37
+    },
+    {
+        "text": "about- of the Wilson lemma. That was",
+        "start": 342.18,
+        "duration": 3.419
+    },
+    {
+        "text": "that was just the original result, that",
+        "start": 345.599,
+        "duration": 1.44
+    },
+    {
+        "text": "was just this one here. So I'm saying",
+        "start": 347.039,
+        "duration": 1.771
+    },
+    {
+        "text": "that primes can do this at least once;",
+        "start": 348.81,
+        "duration": 2.63
+    },
+    {
+        "text": "let's just see if that's true.\nSo we're going",
+        "start": 351.44,
+        "duration": 2.77
+    },
+    {
+        "text": "to prove that, so we're going to get some",
+        "start": 354.21,
+        "duration": 1.259
+    },
+    {
+        "text": "more brown paper?",
+        "start": 355.469,
+        "duration": 2.141
+    },
+    {
+        "text": "...no sneaky composite numbers; no",
+        "start": 370.83,
+        "duration": 2.89
+    },
+    {
+        "text": "counterexample to it; and they've\nchecked large",
+        "start": 373.72,
+        "duration": 3.0
+    },
+    {
+        "text": "numbers for this.",
+        "start": 376.72,
+        "duration": 3.2
+    }
+]

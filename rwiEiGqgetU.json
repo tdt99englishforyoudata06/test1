@@ -1,0 +1,1672 @@
+[
+    {
+        "text": "Okay so I'm going to talk about",
+        "start": 0.03,
+        "duration": 2.19
+    },
+    {
+        "text": "splitting necklaces and about",
+        "start": 2.22,
+        "duration": 3.05
+    },
+    {
+        "text": "non-constructive proofs - and this is a",
+        "start": 5.27,
+        "duration": 2.89
+    },
+    {
+        "text": "story about thieves that steal, together,",
+        "start": 8.16,
+        "duration": 3.78
+    },
+    {
+        "text": "a necklace. But they are not just any",
+        "start": 11.94,
+        "duration": 7.32
+    },
+    {
+        "text": "thieves, they are mathematically oriented\nthieves.",
+        "start": 19.26,
+        "duration": 3.278
+    },
+    {
+        "text": "so imagine that we have two thieves and",
+        "start": 22.538,
+        "duration": 2.602
+    },
+    {
+        "text": "they steal together a necklace. And this",
+        "start": 25.14,
+        "duration": 3.389
+    },
+    {
+        "text": "necklace has beads of two types, eh",
+        "start": 28.529,
+        "duration": 3.031
+    },
+    {
+        "text": "let's say diamonds and rubies. They",
+        "start": 31.56,
+        "duration": 2.58
+    },
+    {
+        "text": "want to split the necklace evenly among",
+        "start": 34.14,
+        "duration": 2.97
+    },
+    {
+        "text": "them and they want that each of them will",
+        "start": 37.11,
+        "duration": 2.129
+    },
+    {
+        "text": "get the same number of diamonds and also",
+        "start": 39.239,
+        "duration": 2.73
+    },
+    {
+        "text": "the same number of rubies. So they open",
+        "start": 41.969,
+        "duration": 2.52
+    },
+    {
+        "text": "the necklace at the clasp and then",
+        "start": 44.489,
+        "duration": 2.401
+    },
+    {
+        "text": "they have an interval of beads. And the",
+        "start": 46.89,
+        "duration": 2.46
+    },
+    {
+        "text": "necklace can be complicated but, but this",
+        "start": 49.35,
+        "duration": 2.58
+    },
+    {
+        "text": "is an example. \n- (Brady: No pattern or intervals or-?)",
+        "start": 51.93,
+        "duration": 3.04
+    },
+    {
+        "text": "That's right. We don't assume anything, let's assume for",
+        "start": 54.97,
+        "duration": 4.1
+    },
+    {
+        "text": "simplicity that the number of diamonds",
+        "start": 59.07,
+        "duration": 1.98
+    },
+    {
+        "text": "and also the number of rubies is even so",
+        "start": 61.05,
+        "duration": 2.969
+    },
+    {
+        "text": "that it is possible to split it evenly",
+        "start": 64.019,
+        "duration": 2.131
+    },
+    {
+        "text": "among the two thieves. Now they want to",
+        "start": 66.15,
+        "duration": 3.2
+    },
+    {
+        "text": "minimise the number of cuts that they do",
+        "start": 69.35,
+        "duration": 2.949
+    },
+    {
+        "text": "in the necklace. What they want to",
+        "start": 72.299,
+        "duration": 1.651
+    },
+    {
+        "text": "do is to cut the necklace in several",
+        "start": 73.95,
+        "duration": 1.68
+    },
+    {
+        "text": "places, this will split it into",
+        "start": 75.63,
+        "duration": 2.64
+    },
+    {
+        "text": "intervals of beads, and then they will",
+        "start": 78.27,
+        "duration": 2.459
+    },
+    {
+        "text": "take the intervals and will distribute it",
+        "start": 80.729,
+        "duration": 2.671
+    },
+    {
+        "text": "among them; and they want in this example",
+        "start": 83.4,
+        "duration": 2.43
+    },
+    {
+        "text": "that each of them will get four diamonds",
+        "start": 85.83,
+        "duration": 3.63
+    },
+    {
+        "text": "and three of the rubies. All together",
+        "start": 89.46,
+        "duration": 2.85
+    },
+    {
+        "text": "seven beads.\n- (Brady: But it's important minimal cuts?)",
+        "start": 92.31,
+        "duration": 2.849
+    },
+    {
+        "text": "It's not necessarily the minimum",
+        "start": 95.159,
+        "duration": 2.161
+    },
+    {
+        "text": "possible number of cuts completely",
+        "start": 97.32,
+        "duration": 2.22
+    },
+    {
+        "text": "but they want to have a small number of",
+        "start": 99.54,
+        "duration": 1.5
+    },
+    {
+        "text": "cuts. Each of them should get seven beads",
+        "start": 101.04,
+        "duration": 1.98
+    },
+    {
+        "text": "so we can try to cut the necklace in the",
+        "start": 103.02,
+        "duration": 3.029
+    },
+    {
+        "text": "middle. Then we will have two intervals",
+        "start": 106.049,
+        "duration": 2.28
+    },
+    {
+        "text": "of beads, the left part and the right",
+        "start": 108.329,
+        "duration": 1.561
+    },
+    {
+        "text": "part, but you see that in the left part",
+        "start": 109.89,
+        "duration": 2.339
+    },
+    {
+        "text": "we have too few rubies, only one, and each",
+        "start": 112.229,
+        "duration": 3.841
+    },
+    {
+        "text": "of them should gain three. So this",
+        "start": 116.07,
+        "duration": 1.89
+    },
+    {
+        "text": "doesn't work. What we can do is we can",
+        "start": 117.96,
+        "duration": 2.25
+    },
+    {
+        "text": "take this interval of seven beads and",
+        "start": 120.21,
+        "duration": 2.519
+    },
+    {
+        "text": "shift it one to the right, and then - so",
+        "start": 122.729,
+        "duration": 3.661
+    },
+    {
+        "text": "this corresponds to having the cuts here",
+        "start": 126.39,
+        "duration": 2.88
+    },
+    {
+        "text": "and here. And then in",
+        "start": 129.27,
+        "duration": 2.4
+    },
+    {
+        "text": "this interval we have two rubies, which",
+        "start": 131.67,
+        "duration": 3.33
+    },
+    {
+        "text": "is still too few, but we are making",
+        "start": 135.0,
+        "duration": 2.22
+    },
+    {
+        "text": "progress; and then we can try to shift it",
+        "start": 137.22,
+        "duration": 2.37
+    },
+    {
+        "text": "gradually and hope at some point it will",
+        "start": 139.59,
+        "duration": 2.67
+    },
+    {
+        "text": "be okay. If we shift it up to this place",
+        "start": 142.26,
+        "duration": 3.15
+    },
+    {
+        "text": "here, so three...one, two, three, four;",
+        "start": 145.41,
+        "duration": 3.96
+    },
+    {
+        "text": "so the two cuts will be here and here,",
+        "start": 149.37,
+        "duration": 3.74
+    },
+    {
+        "text": "then in the middle interval we have",
+        "start": 153.11,
+        "duration": 3.13
+    },
+    {
+        "text": "exactly four diamonds and three rubies, and",
+        "start": 156.24,
+        "duration": 4.2
+    },
+    {
+        "text": "therefore also we have four diamonds and",
+        "start": 160.44,
+        "duration": 2.91
+    },
+    {
+        "text": "three rubies in what's left.",
+        "start": 163.35,
+        "duration": 2.04
+    },
+    {
+        "text": "And this means that two cuts are enough. Now",
+        "start": 165.39,
+        "duration": 3.27
+    },
+    {
+        "text": "I claim that actually what we proved",
+        "start": 168.66,
+        "duration": 2.13
+    },
+    {
+        "text": "here is that two cuts are always enough. And",
+        "start": 170.79,
+        "duration": 3.09
+    },
+    {
+        "text": "why is this the case? Because we started",
+        "start": 173.88,
+        "duration": 3.87
+    },
+    {
+        "text": "by splitting the necklace; so imagine now",
+        "start": 177.75,
+        "duration": 2.19
+    },
+    {
+        "text": "that it's a even maybe longer and",
+        "start": 179.94,
+        "duration": 2.49
+    },
+    {
+        "text": "very complicated necklace with diamonds",
+        "start": 182.43,
+        "duration": 2.43
+    },
+    {
+        "text": "and rubies, we split it into two halves",
+        "start": 184.86,
+        "duration": 2.879
+    },
+    {
+        "text": "by cutting the middle. Now if on the left",
+        "start": 187.739,
+        "duration": 2.821
+    },
+    {
+        "text": "cut there are too few rubies, then on the",
+        "start": 190.56,
+        "duration": 3.27
+    },
+    {
+        "text": "right cut there will be too many, right?",
+        "start": 193.83,
+        "duration": 2.79
+    },
+    {
+        "text": "Because altogether we have the right",
+        "start": 196.62,
+        "duration": 1.32
+    },
+    {
+        "text": "amount. And then we use what is called",
+        "start": 197.94,
+        "duration": 1.92
+    },
+    {
+        "text": "the discrete version of the Intermediate",
+        "start": 199.86,
+        "duration": 2.76
+    },
+    {
+        "text": "Value Theorem. So that's a theorem in \nmathematics",
+        "start": 202.62,
+        "duration": 2.67
+    },
+    {
+        "text": "but these are just words. What this means;",
+        "start": 205.29,
+        "duration": 2.009
+    },
+    {
+        "text": "so we observe here that whenever we",
+        "start": 207.299,
+        "duration": 2.671
+    },
+    {
+        "text": "shift the interval here by one to the",
+        "start": 209.97,
+        "duration": 3.57
+    },
+    {
+        "text": "right, then the number of rubies in it",
+        "start": 213.54,
+        "duration": 2.88
+    },
+    {
+        "text": "can change only by one. Because we lose",
+        "start": 216.42,
+        "duration": 2.64
+    },
+    {
+        "text": "one bead and we gain one bead, so we can",
+        "start": 219.06,
+        "duration": 2.85
+    },
+    {
+        "text": "gain at most one ruby. And therefore we",
+        "start": 221.91,
+        "duration": 2.549
+    },
+    {
+        "text": "started maybe with too few rubies, at the",
+        "start": 224.459,
+        "duration": 3.181
+    },
+    {
+        "text": "end we have too many, and every time we",
+        "start": 227.64,
+        "duration": 2.939
+    },
+    {
+        "text": "change the number of them just by one. So",
+        "start": 230.579,
+        "duration": 2.701
+    },
+    {
+        "text": "that means that somewhere in the middle",
+        "start": 233.28,
+        "duration": 1.65
+    },
+    {
+        "text": "we must hit exactly the right number, so",
+        "start": 234.93,
+        "duration": 3.57
+    },
+    {
+        "text": "this means that two cuts always suffice. \n- (Brady: So the)",
+        "start": 238.5,
+        "duration": 3.63
+    },
+    {
+        "text": "(ruby number's only ever changing by one)",
+        "start": 242.13,
+        "duration": 2.07
+    },
+    {
+        "text": "(so we have a firm control of that?)\n- That's",
+        "start": 244.2,
+        "duration": 2.4
+    },
+    {
+        "text": "right.\n- (Brady: But the diamonds are taking care)",
+        "start": 246.6,
+        "duration": 1.83
+    },
+    {
+        "text": "(of themselves as well?)\n- Yes so, you're right the",
+        "start": 248.43,
+        "duration": 2.58
+    },
+    {
+        "text": "diamonds will be okay as",
+        "start": 251.01,
+        "duration": 2.28
+    },
+    {
+        "text": "well, because the total number of beads",
+        "start": 253.29,
+        "duration": 2.43
+    },
+    {
+        "text": "each one gets is a correct number. So",
+        "start": 255.72,
+        "duration": 2.699
+    },
+    {
+        "text": "once we have the right number of rubies",
+        "start": 258.419,
+        "duration": 2.251
+    },
+    {
+        "text": "then the number of diamonds will be, will",
+        "start": 260.67,
+        "duration": 2.43
+    },
+    {
+        "text": "be correct as well. We saw also in this",
+        "start": 263.1,
+        "duration": 2.19
+    },
+    {
+        "text": "example, but it's kind of obvious, that if all",
+        "start": 265.29,
+        "duration": 3.54
+    },
+    {
+        "text": "the diamonds appear contiguously on the",
+        "start": 268.83,
+        "duration": 3.3
+    },
+    {
+        "text": "necklace somewhere, and all the rubies",
+        "start": 272.13,
+        "duration": 2.49
+    },
+    {
+        "text": "also appear contiguously, it is clear",
+        "start": 274.62,
+        "duration": 2.88
+    },
+    {
+        "text": "that the number of cuts we need is at",
+        "start": 277.5,
+        "duration": 2.16
+    },
+    {
+        "text": "least two because we have to have some",
+        "start": 279.66,
+        "duration": 2.52
+    },
+    {
+        "text": "cut in the middle of the interval of",
+        "start": 282.18,
+        "duration": 2.61
+    },
+    {
+        "text": "diamonds, and we have to have some cut in",
+        "start": 284.79,
+        "duration": 2.19
+    },
+    {
+        "text": "the middle of the interval of rubies. So",
+        "start": 286.98,
+        "duration": 1.8
+    },
+    {
+        "text": "it means that sometimes we need two",
+        "start": 288.78,
+        "duration": 1.89
+    },
+    {
+        "text": "cuts, and what we just proved is that two",
+        "start": 290.67,
+        "duration": 2.28
+    },
+    {
+        "text": "cuts are always sufficient. \n- (Brady: Sometimes we)",
+        "start": 292.95,
+        "duration": 3.06
+    },
+    {
+        "text": "(can get away with one cut but that's only)",
+        "start": 296.01,
+        "duration": 2.07
+    },
+    {
+        "text": "(when it's symmetric or-?)\n- Yeah so it doesn't",
+        "start": 298.08,
+        "duration": 2.61
+    },
+    {
+        "text": "have to be symmetric, what it means that",
+        "start": 300.69,
+        "duration": 1.62
+    },
+    {
+        "text": "exactly in the left side we have the",
+        "start": 302.31,
+        "duration": 2.28
+    },
+    {
+        "text": "correct number of rubies so it's true",
+        "start": 304.59,
+        "duration": 1.77
+    },
+    {
+        "text": "sometimes one cut is enough but what we",
+        "start": 306.36,
+        "duration": 3.36
+    },
+    {
+        "text": "proved about two cuts is that two cuts are",
+        "start": 309.72,
+        "duration": 2.37
+    },
+    {
+        "text": "always enough. So now we can try to make it a",
+        "start": 312.09,
+        "duration": 2.579
+    },
+    {
+        "text": "little bit more complicated. Let's say that",
+        "start": 314.669,
+        "duration": 2.221
+    },
+    {
+        "text": "still the number of types of beads",
+        "start": 316.89,
+        "duration": 2.13
+    },
+    {
+        "text": "is still two, only diamonds and rubies, but now",
+        "start": 319.02,
+        "duration": 2.52
+    },
+    {
+        "text": "we have instead of two thieves we have",
+        "start": 321.54,
+        "duration": 2.4
+    },
+    {
+        "text": "four thieves. You know sometimes\nit's better to",
+        "start": 323.94,
+        "duration": 2.43
+    },
+    {
+        "text": "have a bigger group so, so we have four, a",
+        "start": 326.37,
+        "duration": 2.49
+    },
+    {
+        "text": "small game of thieves. And they still are",
+        "start": 328.86,
+        "duration": 2.46
+    },
+    {
+        "text": "mathematically oriented, still they want",
+        "start": 331.32,
+        "duration": 2.31
+    },
+    {
+        "text": "to split it evenly, and still they are",
+        "start": 333.63,
+        "duration": 3.24
+    },
+    {
+        "text": "lucky and the number of diamonds and",
+        "start": 336.87,
+        "duration": 1.56
+    },
+    {
+        "text": "also the number of rubies is divisible",
+        "start": 338.43,
+        "duration": 2.04
+    },
+    {
+        "text": "by four. How many cuts do they need now?",
+        "start": 340.47,
+        "duration": 2.55
+    },
+    {
+        "text": "We have this necklace which is an",
+        "start": 343.02,
+        "duration": 2.07
+    },
+    {
+        "text": "interval of beads. By what we saw before",
+        "start": 345.09,
+        "duration": 2.61
+    },
+    {
+        "text": "we can have two cuts, maybe here and",
+        "start": 347.7,
+        "duration": 3.81
+    },
+    {
+        "text": "here, so that in this interval and in",
+        "start": 351.51,
+        "duration": 3.659
+    },
+    {
+        "text": "those two together we have the correct",
+        "start": 355.169,
+        "duration": 2.761
+    },
+    {
+        "text": "number of rubies and the correct number",
+        "start": 357.93,
+        "duration": 2.31
+    },
+    {
+        "text": "of diamonds - we split it into two fair",
+        "start": 360.24,
+        "duration": 2.58
+    },
+    {
+        "text": "shares. Now we can take this interval",
+        "start": 362.82,
+        "duration": 4.11
+    },
+    {
+        "text": "that contains the half that went to two",
+        "start": 366.93,
+        "duration": 3.0
+    },
+    {
+        "text": "of the thieves,",
+        "start": 369.93,
+        "duration": 0.84
+    },
+    {
+        "text": "we started with four of them they split",
+        "start": 370.77,
+        "duration": 2.16
+    },
+    {
+        "text": "themselves into two groups of two thieves.",
+        "start": 372.93,
+        "duration": 2.1
+    },
+    {
+        "text": "And then, once these two thieves got the",
+        "start": 375.03,
+        "duration": 3.57
+    },
+    {
+        "text": "fair share that they deserved, then they",
+        "start": 378.6,
+        "duration": 2.1
+    },
+    {
+        "text": "use another two cuts in their part in",
+        "start": 380.7,
+        "duration": 3.24
+    },
+    {
+        "text": "order to split it evenly among the two",
+        "start": 383.94,
+        "duration": 2.19
+    },
+    {
+        "text": "of them. And these two intervals of the",
+        "start": 386.13,
+        "duration": 2.19
+    },
+    {
+        "text": "other two, we can shift them to",
+        "start": 388.32,
+        "duration": 2.2
+    },
+    {
+        "text": "somewhere, let's say here, in this",
+        "start": 390.52,
+        "duration": 2.16
+    },
+    {
+        "text": "interval we put it here and we",
+        "start": 392.68,
+        "duration": 2.699
+    },
+    {
+        "text": "forget that they are two intervals so we",
+        "start": 395.379,
+        "duration": 1.891
+    },
+    {
+        "text": "view it again as an interval of beads, and",
+        "start": 397.27,
+        "duration": 2.28
+    },
+    {
+        "text": "again this other group of two additional",
+        "start": 399.55,
+        "duration": 3.089
+    },
+    {
+        "text": "thieves can cut this part in two places",
+        "start": 402.639,
+        "duration": 3.631
+    },
+    {
+        "text": "and split it evenly among them. So if we",
+        "start": 406.27,
+        "duration": 2.97
+    },
+    {
+        "text": "go back to the original necklace this",
+        "start": 409.24,
+        "duration": 2.609
+    },
+    {
+        "text": "corresponds to six cuts. The two original",
+        "start": 411.849,
+        "duration": 3.0
+    },
+    {
+        "text": "ones, these two and these two. Okay? So it",
+        "start": 414.849,
+        "duration": 3.901
+    },
+    {
+        "text": "means with four thieves and two types; six",
+        "start": 418.75,
+        "duration": 4.86
+    },
+    {
+        "text": "cuts are always enough and it is good to",
+        "start": 423.61,
+        "duration": 3.209
+    },
+    {
+        "text": "observe that sometimes six cuts are",
+        "start": 426.819,
+        "duration": 3.241
+    },
+    {
+        "text": "needed. So again the simple case where",
+        "start": 430.06,
+        "duration": 2.759
+    },
+    {
+        "text": "the diamonds appear contiguously, and",
+        "start": 432.819,
+        "duration": 2.85
+    },
+    {
+        "text": "afterwards the rubies also appear",
+        "start": 435.669,
+        "duration": 2.97
+    },
+    {
+        "text": "contiguously, if now we have four thieves",
+        "start": 438.639,
+        "duration": 3.451
+    },
+    {
+        "text": "then of course we need at least three",
+        "start": 442.09,
+        "duration": 2.609
+    },
+    {
+        "text": "cuts inside the interval of the diamonds,",
+        "start": 444.699,
+        "duration": 3.241
+    },
+    {
+        "text": "because we have to cut it into four",
+        "start": 447.94,
+        "duration": 1.89
+    },
+    {
+        "text": "parts. And we need at least three cuts",
+        "start": 449.83,
+        "duration": 2.519
+    },
+    {
+        "text": "inside the interval of rubies so",
+        "start": 452.349,
+        "duration": 2.341
+    },
+    {
+        "text": "altogether in this example we need six",
+        "start": 454.69,
+        "duration": 2.19
+    },
+    {
+        "text": "cuts. What we showed is that six cuts are",
+        "start": 456.88,
+        "duration": 2.849
+    },
+    {
+        "text": "always enough also. \n- (Brady: Four was very)",
+        "start": 459.729,
+        "duration": 2.671
+    },
+    {
+        "text": "(convenient because you are able to use)",
+        "start": 462.4,
+        "duration": 1.859
+    },
+    {
+        "text": "(what we learned from two,\nwhat about; what)",
+        "start": 464.259,
+        "duration": 2.821
+    },
+    {
+        "text": "(if there were three thieves?) \n- Right, yes. So",
+        "start": 467.08,
+        "duration": 2.369
+    },
+    {
+        "text": "it's not much more complicated, let's",
+        "start": 469.449,
+        "duration": 2.46
+    },
+    {
+        "text": "leave it as an exercise to way to the",
+        "start": 471.909,
+        "duration": 2.491
+    },
+    {
+        "text": "viewers, but it's not much more",
+        "start": 474.4,
+        "duration": 1.53
+    },
+    {
+        "text": "complicated to see is it for two types",
+        "start": 475.93,
+        "duration": 2.97
+    },
+    {
+        "text": "of beads with three then four cuts will",
+        "start": 478.9,
+        "duration": 3.509
+    },
+    {
+        "text": "always be enough; for a similar reason to",
+        "start": 482.409,
+        "duration": 2.401
+    },
+    {
+        "text": "what we said before. I mean with an extra",
+        "start": 484.81,
+        "duration": 2.669
+    },
+    {
+        "text": "simple twist and, and sometimes we",
+        "start": 487.479,
+        "duration": 3.571
+    },
+    {
+        "text": "need four. So it will be possible. It's",
+        "start": 491.05,
+        "duration": 2.79
+    },
+    {
+        "text": "getting significantly more complicated",
+        "start": 493.84,
+        "duration": 2.87
+    },
+    {
+        "text": "when the number of types of beads",
+        "start": 496.71,
+        "duration": 2.56
+    },
+    {
+        "text": "increases. So maybe we can have diamonds",
+        "start": 499.27,
+        "duration": 2.489
+    },
+    {
+        "text": "and sapphires and rubies. And let's just",
+        "start": 501.759,
+        "duration": 3.391
+    },
+    {
+        "text": "say the, the general theorem. Let's",
+        "start": 505.15,
+        "duration": 3.54
+    },
+    {
+        "text": "say a group of K thieves. We denote by T",
+        "start": 508.69,
+        "duration": 3.69
+    },
+    {
+        "text": "the number of types of beads, and again",
+        "start": 512.38,
+        "duration": 3.51
+    },
+    {
+        "text": "they stole together this necklace, it",
+        "start": 515.89,
+        "duration": 2.37
+    },
+    {
+        "text": "contains beads of T different types, the",
+        "start": 518.26,
+        "duration": 2.819
+    },
+    {
+        "text": "number of",
+        "start": 521.079,
+        "duration": 0.941
+    },
+    {
+        "text": "beads of each type is divisible by K,",
+        "start": 522.02,
+        "duration": 1.83
+    },
+    {
+        "text": "they want to split it amongst themselves,",
+        "start": 523.85,
+        "duration": 1.92
+    },
+    {
+        "text": "and they want to do it with a small",
+        "start": 525.77,
+        "duration": 2.07
+    },
+    {
+        "text": "number of cuts. If we have this example",
+        "start": 527.84,
+        "duration": 2.43
+    },
+    {
+        "text": "in which each type appears contiguously,",
+        "start": 530.27,
+        "duration": 3.09
+    },
+    {
+        "text": "so maybe all the diamonds appear here and",
+        "start": 533.36,
+        "duration": 2.76
+    },
+    {
+        "text": "then all the rubies appear here, and then",
+        "start": 536.12,
+        "duration": 4.11
+    },
+    {
+        "text": "all the sapphires-\n- (Brady: Emeralds if they're green!)",
+        "start": 540.23,
+        "duration": 2.67
+    },
+    {
+        "text": "Emeralds, yeh, emeralds are better.",
+        "start": 542.9,
+        "duration": 3.03
+    },
+    {
+        "text": "So they appear here and so on. \nThen it's clear",
+        "start": 545.93,
+        "duration": 2.73
+    },
+    {
+        "text": "that we need at least K minus 1 cuts",
+        "start": 548.66,
+        "duration": 3.54
+    },
+    {
+        "text": "inside the interval of each type. So for",
+        "start": 552.2,
+        "duration": 4.38
+    },
+    {
+        "text": "10 thieves we would need 9 cuts inside",
+        "start": 556.58,
+        "duration": 2.37
+    },
+    {
+        "text": "each interval. And altogether 9 times T",
+        "start": 558.95,
+        "duration": 2.81
+    },
+    {
+        "text": "cuts. And in general we need, in this",
+        "start": 561.76,
+        "duration": 3.52
+    },
+    {
+        "text": "example, we need K minus 1 times T cuts.",
+        "start": 565.28,
+        "duration": 5.97
+    },
+    {
+        "text": "So it means sometimes K minus 1 times T",
+        "start": 571.25,
+        "duration": 3.51
+    },
+    {
+        "text": "cuts are necessary. And the theorem says",
+        "start": 574.76,
+        "duration": 2.7
+    },
+    {
+        "text": "that K minus 1 times T cuts always",
+        "start": 577.46,
+        "duration": 5.01
+    },
+    {
+        "text": "suffice. There is always a way to cut the",
+        "start": 582.47,
+        "duration": 3.45
+    },
+    {
+        "text": "necklace in K minus 1 times T places and",
+        "start": 585.92,
+        "duration": 2.79
+    },
+    {
+        "text": "then divide the resulting intervals into",
+        "start": 588.71,
+        "duration": 2.61
+    },
+    {
+        "text": "K collections, and each collection will",
+        "start": 591.32,
+        "duration": 2.64
+    },
+    {
+        "text": "contain exactly the same number of beads",
+        "start": 593.96,
+        "duration": 2.94
+    },
+    {
+        "text": "of each type. So this is more\ncomplicated,",
+        "start": 596.9,
+        "duration": 1.92
+    },
+    {
+        "text": "and I'm not going to describe the proof,",
+        "start": 598.82,
+        "duration": 2.28
+    },
+    {
+        "text": "which uses some tools from continuous",
+        "start": 601.1,
+        "duration": 2.46
+    },
+    {
+        "text": "mathematics, specifically from topology,",
+        "start": 603.56,
+        "duration": 2.19
+    },
+    {
+        "text": "but let me just say that the first",
+        "start": 605.75,
+        "duration": 3.69
+    },
+    {
+        "text": "step is a simple step if we know the",
+        "start": 609.44,
+        "duration": 3.3
+    },
+    {
+        "text": "validity of this assertion, of this",
+        "start": 612.74,
+        "duration": 2.04
+    },
+    {
+        "text": "theorem for K1 thieves and T types; and we",
+        "start": 614.78,
+        "duration": 5.16
+    },
+    {
+        "text": "know it also for K2 thieves and \nT types then",
+        "start": 619.94,
+        "duration": 4.47
+    },
+    {
+        "text": "it implies that it is true for K1 times",
+        "start": 624.41,
+        "duration": 3.93
+    },
+    {
+        "text": "K2 thieves and T types.\nAnd this is actually",
+        "start": 628.34,
+        "duration": 4.05
+    },
+    {
+        "text": "not difficult, it's similar to what we",
+        "start": 632.39,
+        "duration": 2.31
+    },
+    {
+        "text": "saw before when we dealt with 4 thieves.\nSo for",
+        "start": 634.7,
+        "duration": 3.27
+    },
+    {
+        "text": "example, if it is true for 3 thieves,\nand it's",
+        "start": 637.97,
+        "duration": 4.35
+    },
+    {
+        "text": "true also for 5 thieves,\nthen it will be true",
+        "start": 642.32,
+        "duration": 4.62
+    },
+    {
+        "text": "for 15. If we know the statement for \n3 thieves",
+        "start": 646.94,
+        "duration": 3.84
+    },
+    {
+        "text": "and for 5 and we want to get",
+        "start": 650.78,
+        "duration": 2.05
+    },
+    {
+        "text": "it for 15 then the way to proceed is as\nfollows:",
+        "start": 652.83,
+        "duration": 3.53
+    },
+    {
+        "text": "the 15 thieves split themselves into",
+        "start": 656.37,
+        "duration": 3.36
+    },
+    {
+        "text": "three groups, each of five thieves. \nAnd then",
+        "start": 659.73,
+        "duration": 2.91
+    },
+    {
+        "text": "we view each group as a super thief and",
+        "start": 662.64,
+        "duration": 3.39
+    },
+    {
+        "text": "then we use the result for 3 and we",
+        "start": 666.03,
+        "duration": 2.82
+    },
+    {
+        "text": "split it fairly among these three super",
+        "start": 668.85,
+        "duration": 2.76
+    },
+    {
+        "text": "thieves. And then each group\nthat corresponds",
+        "start": 671.61,
+        "duration": 3.72
+    },
+    {
+        "text": "to a super thief, which consists of",
+        "start": 675.33,
+        "duration": 2.4
+    },
+    {
+        "text": "five normal thieves, they use the result",
+        "start": 677.73,
+        "duration": 2.7
+    },
+    {
+        "text": "for five inside the group. And then if we",
+        "start": 680.43,
+        "duration": 2.61
+    },
+    {
+        "text": "just work out the numbers then it will",
+        "start": 683.04,
+        "duration": 2.25
+    },
+    {
+        "text": "give us the correct splitting. This\nis simple,",
+        "start": 685.29,
+        "duration": 2.58
+    },
+    {
+        "text": "but the more complicated thing is that",
+        "start": 687.87,
+        "duration": 2.73
+    },
+    {
+        "text": "the second step is to kind of change the",
+        "start": 690.6,
+        "duration": 4.59
+    },
+    {
+        "text": "problem into a continuous one, and I'm",
+        "start": 695.19,
+        "duration": 2.22
+    },
+    {
+        "text": "not describing how exactly, and then to",
+        "start": 697.41,
+        "duration": 2.55
+    },
+    {
+        "text": "use some theorem in topology to get the",
+        "start": 699.96,
+        "duration": 3.12
+    },
+    {
+        "text": "result for the continuous problems that",
+        "start": 703.08,
+        "duration": 3.78
+    },
+    {
+        "text": "implies the discrete version that we",
+        "start": 706.86,
+        "duration": 2.64
+    },
+    {
+        "text": "need. And the nice thing is that actually",
+        "start": 709.5,
+        "duration": 2.52
+    },
+    {
+        "text": "the topological result works only when",
+        "start": 712.02,
+        "duration": 3.45
+    },
+    {
+        "text": "the number of thieves is a prime number;",
+        "start": 715.47,
+        "duration": 2.07
+    },
+    {
+        "text": "is a number that is not divisible by any",
+        "start": 717.54,
+        "duration": 3.21
+    },
+    {
+        "text": "other number besides one and itself.",
+        "start": 720.75,
+        "duration": 2.13
+    },
+    {
+        "text": "(Brady: Something about the nature\nof that proof)",
+        "start": 722.88,
+        "duration": 2.37
+    },
+    {
+        "text": "(means it only works for prime numbers?)",
+        "start": 725.25,
+        "duration": 2.22
+    },
+    {
+        "text": "That's right. So it's kind of lucky that we",
+        "start": 727.47,
+        "duration": 2.43
+    },
+    {
+        "text": "have this way to get the result for",
+        "start": 729.9,
+        "duration": 3.21
+    },
+    {
+        "text": "three times five from the result for",
+        "start": 733.11,
+        "duration": 2.4
+    },
+    {
+        "text": "three and the result for five, because",
+        "start": 735.51,
+        "duration": 2.04
+    },
+    {
+        "text": "the result for three and four five we",
+        "start": 737.55,
+        "duration": 1.92
+    },
+    {
+        "text": "can get it using topology, which",
+        "start": 739.47,
+        "duration": 2.34
+    },
+    {
+        "text": "seems to be necessary when the number of",
+        "start": 741.81,
+        "duration": 2.34
+    },
+    {
+        "text": "types of beads is at least three. Right,",
+        "start": 744.15,
+        "duration": 2.46
+    },
+    {
+        "text": "we saw that with two types of beads",
+        "start": 746.61,
+        "duration": 1.71
+    },
+    {
+        "text": "everything is simple, but with three or",
+        "start": 748.32,
+        "duration": 2.28
+    },
+    {
+        "text": "more types of beads then we need this",
+        "start": 750.6,
+        "duration": 2.1
+    },
+    {
+        "text": "topology.\n- (Brady: so any number of thieves can be)",
+        "start": 752.7,
+        "duration": 2.73
+    },
+    {
+        "text": "(handled because any number can be built)",
+        "start": 755.43,
+        "duration": 2.01
+    },
+    {
+        "text": "(from prime numbers?)\n- That's right. Any",
+        "start": 757.44,
+        "duration": 1.8
+    },
+    {
+        "text": "number is can be expressed, even",
+        "start": 759.24,
+        "duration": 2.88
+    },
+    {
+        "text": "uniquely, as a product of primes and then",
+        "start": 762.12,
+        "duration": 3.03
+    },
+    {
+        "text": "we can use this result. A feature of this \nproof that I",
+        "start": 765.15,
+        "duration": 3.39
+    },
+    {
+        "text": "want to mention, that is intriguing,",
+        "start": 768.54,
+        "duration": 2.07
+    },
+    {
+        "text": "is the fact that it is non constructive.",
+        "start": 770.61,
+        "duration": 2.61
+    },
+    {
+        "text": "The topological proof does not provide",
+        "start": 773.22,
+        "duration": 2.88
+    },
+    {
+        "text": "any efficient procedure or algorithm to",
+        "start": 776.1,
+        "duration": 3.72
+    },
+    {
+        "text": "solve the computational problem. So if,",
+        "start": 779.82,
+        "duration": 3.12
+    },
+    {
+        "text": "for example, the number of thieves is",
+        "start": 782.94,
+        "duration": 1.89
+    },
+    {
+        "text": "five;",
+        "start": 784.83,
+        "duration": 0.53
+    },
+    {
+        "text": "and the number of types of beads is five,",
+        "start": 785.36,
+        "duration": 2.07
+    },
+    {
+        "text": "so the number of cuts needed will be 4",
+        "start": 787.43,
+        "duration": 2.49
+    },
+    {
+        "text": "times 5, which is 20. And the total number",
+        "start": 789.92,
+        "duration": 3.27
+    },
+    {
+        "text": "of beads, let's say is 200, then we can",
+        "start": 793.19,
+        "duration": 3.839
+    },
+    {
+        "text": "always check all possibilities - we know",
+        "start": 797.029,
+        "duration": 1.951
+    },
+    {
+        "text": "for sure that we can cut it in 20 places",
+        "start": 798.98,
+        "duration": 2.549
+    },
+    {
+        "text": "and divide the resulting intervals",
+        "start": 801.529,
+        "duration": 2.041
+    },
+    {
+        "text": "evenly among the 5 thieves.\nAnd we can, at least",
+        "start": 803.57,
+        "duration": 3.69
+    },
+    {
+        "text": "in principle, check all possibilities but",
+        "start": 807.26,
+        "duration": 2.19
+    },
+    {
+        "text": "even if we use all the computers in the",
+        "start": 809.45,
+        "duration": 2.67
+    },
+    {
+        "text": "world for years and years we will not be",
+        "start": 812.12,
+        "duration": 2.25
+    },
+    {
+        "text": "able to check all possibilities, the",
+        "start": 814.37,
+        "duration": 1.409
+    },
+    {
+        "text": "numbers are just too big. And some of the",
+        "start": 815.779,
+        "duration": 2.161
+    },
+    {
+        "text": "proof does not provide an efficient way",
+        "start": 817.94,
+        "duration": 2.73
+    },
+    {
+        "text": "to solve this problem. And moreover it is",
+        "start": 820.67,
+        "duration": 2.43
+    },
+    {
+        "text": "likely to suspect that there is no such",
+        "start": 823.1,
+        "duration": 3.0
+    },
+    {
+        "text": "efficient procedure, because it is known",
+        "start": 826.1,
+        "duration": 3.12
+    },
+    {
+        "text": "that this problem is what is called",
+        "start": 829.22,
+        "duration": 2.04
+    },
+    {
+        "text": "complete for some specific complexity",
+        "start": 831.26,
+        "duration": 3.15
+    },
+    {
+        "text": "class. And this means that there is a",
+        "start": 834.41,
+        "duration": 2.489
+    },
+    {
+        "text": "large number of computational problems",
+        "start": 836.899,
+        "duration": 3.301
+    },
+    {
+        "text": "and- which we don't know to solve",
+        "start": 840.2,
+        "duration": 2.73
+    },
+    {
+        "text": "efficiently any of them, and if we will",
+        "start": 842.93,
+        "duration": 2.849
+    },
+    {
+        "text": "be able to solve efficiently this",
+        "start": 845.779,
+        "duration": 2.821
+    },
+    {
+        "text": "specific problem then we will be able to",
+        "start": 848.6,
+        "duration": 3.15
+    },
+    {
+        "text": "solve efficiently all of those problems.",
+        "start": 851.75,
+        "duration": 2.37
+    },
+    {
+        "text": "And because we do not know to solve any",
+        "start": 854.12,
+        "duration": 2.19
+    },
+    {
+        "text": "of them then maybe it's likely to",
+        "start": 856.31,
+        "duration": 2.16
+    },
+    {
+        "text": "believe that this is impossible, and that",
+        "start": 858.47,
+        "duration": 2.91
+    },
+    {
+        "text": "means from the thieves' point of view that",
+        "start": 861.38,
+        "duration": 2.76
+    },
+    {
+        "text": "maybe they thought that the challenging",
+        "start": 864.14,
+        "duration": 2.4
+    },
+    {
+        "text": "part is to get the necklace, but actually",
+        "start": 866.54,
+        "duration": 2.549
+    },
+    {
+        "text": "maybe the even more challenging",
+        "start": 869.089,
+        "duration": 1.681
+    },
+    {
+        "text": "thing is to split it afterwards evenly",
+        "start": 870.77,
+        "duration": 2.91
+    },
+    {
+        "text": "among them. \n- (Brady: All the computers in the world?)",
+        "start": 873.68,
+        "duration": 2.94
+    },
+    {
+        "text": "You know the total number of\nelementary",
+        "start": 876.62,
+        "duration": 1.83
+    },
+    {
+        "text": "particles in the universe is something",
+        "start": 878.45,
+        "duration": 2.28
+    },
+    {
+        "text": "like 10 to the 80, and it's really easy",
+        "start": 880.73,
+        "duration": 3.06
+    },
+    {
+        "text": "to formulate a a very simple",
+        "start": 883.79,
+        "duration": 2.22
+    },
+    {
+        "text": "combinatorial problem where the number",
+        "start": 886.01,
+        "duration": 1.889
+    },
+    {
+        "text": "of possibilities will be more than 10 to",
+        "start": 887.899,
+        "duration": 2.731
+    },
+    {
+        "text": "the 80, just because often things grow",
+        "start": 890.63,
+        "duration": 2.79
+    },
+    {
+        "text": "exponentially in terms of their",
+        "start": 893.42,
+        "duration": 1.74
+    },
+    {
+        "text": "parameters.",
+        "start": 895.16,
+        "duration": 1.97
+    },
+    {
+        "text": "[Extra:] Much much longer, longer \nago, where we",
+        "start": 897.13,
+        "duration": 3.28
+    },
+    {
+        "text": "think about having maybe an interval",
+        "start": 900.41,
+        "duration": 3.109
+    },
+    {
+        "text": "representing a cake...\n- Watch carefully. Only",
+        "start": 903.519,
+        "duration": 4.18
+    },
+    {
+        "text": "time in my life I'm going to wash my",
+        "start": 907.699,
+        "duration": 1.95
+    },
+    {
+        "text": "hands in diamonds.",
+        "start": 909.649,
+        "duration": 4.13
+    }
+]

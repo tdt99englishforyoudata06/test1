@@ -1,0 +1,327 @@
+[
+    {
+        "text": "What's up? I'm Destin. This is Smarter Every Day. Get your phone out. You see that little camera assembly there?",
+        "start": 0.03,
+        "duration": 4.379
+    },
+    {
+        "text": "Let's take it out of the phone. Yep. That's what it looks like. So here's what we're going to do. The first thing",
+        "start": 4.54,
+        "duration": 4.79
+    },
+    {
+        "text": "we're going to do is pop the lens off, and there we go. That is called a CMOS",
+        "start": 9.33,
+        "duration": 4.439
+    },
+    {
+        "text": "sensor. That is the camera on your phone.",
+        "start": 14.29,
+        "duration": 3.169
+    },
+    {
+        "text": "Complimentary Metal-Oxide Semiconductor. So, when you take a photo or a video with your phone, you would think that it exposed that entire chip at one time,",
+        "start": 18.07,
+        "duration": 7.58
+    },
+    {
+        "text": "like snapping a photo. That's not how it works. It actually scans down the chip, and that's how images are created.",
+        "start": 25.65,
+        "duration": 6.839
+    },
+    {
+        "text": "This is called \"rolling shutter,\" and it's the exact reason your cell phone makes weird shapes out of fast-moving objects.",
+        "start": 32.71,
+        "duration": 6.919
+    },
+    {
+        "text": "This is a flatbed scanner, and I have a circular patch right here.",
+        "start": 39.629,
+        "duration": 3.21
+    },
+    {
+        "text": "If I were to take this patch and set it face down on the scanner, and I were to start the scanner and",
+        "start": 42.84,
+        "duration": 4.919
+    },
+    {
+        "text": "move the patch in the same direction as that moving row of pixels, check out",
+        "start": 48.34,
+        "duration": 4.34
+    },
+    {
+        "text": "what happens. You're smart-- is this going to look like a circle? No! It's not a circle.",
+        "start": 52.68,
+        "duration": 4.229
+    },
+    {
+        "text": "It's stretched out. And that makes sense, right? You're stretching that image because you're moving it along with the scanner. Now, conversely,",
+        "start": 56.91,
+        "duration": 6.449
+    },
+    {
+        "text": "What's going to happen if instead of moving it with the scanning row pixels, we move opposite?",
+        "start": 63.61,
+        "duration": 4.22
+    },
+    {
+        "text": "It's not going to stretch it out, is it? What's it going to do?",
+        "start": 67.93,
+        "duration": 2.509
+    },
+    {
+        "text": "It's going to compress that circle down. A rolling shutter on your cell phone camera is very",
+        "start": 70.439,
+        "duration": 5.43
+    },
+    {
+        "text": "much like this, except it goes from the top of the image all the way down",
+        "start": 76.06,
+        "duration": 3.05
+    },
+    {
+        "text": "to the bottom. That means that what you're seeing is actually a lie.",
+        "start": 79.21,
+        "duration": 4.04
+    },
+    {
+        "text": "It's like a stack up of several different moments. Okay, now that we understand how this works,",
+        "start": 83.25,
+        "duration": 4.83
+    },
+    {
+        "text": "it's time to visualize it in the most turbo-awesome way possible. Over the past three years,",
+        "start": 88.08,
+        "duration": 4.259
+    },
+    {
+        "text": "anytime I had a phone and a high-speed camera at the same place at the same time,",
+        "start": 92.979,
+        "duration": 4.19
+    },
+    {
+        "text": "I would be on the lookout for rolling shutter events. And I would video it with the phone and then I would video it with a",
+        "start": 97.17,
+        "duration": 5.25
+    },
+    {
+        "text": "high-speed camera, so that I could go back and manually",
+        "start": 102.42,
+        "duration": 3.779
+    },
+    {
+        "text": "simulate rolling shutter so that I could understand exactly how the artifacts were created.",
+        "start": 107.17,
+        "duration": 5.15
+    },
+    {
+        "text": "This is so stinking coo!l Your brain's going to get it, instantly! We'll start with iPhone video and then we'll go to the simulation.",
+        "start": 112.42,
+        "duration": 6.349
+    },
+    {
+        "text": " This is awesome.",
+        "start": 119.38,
+        "duration": 1.919
+    },
+    {
+        "text": "This is the first moment I realized I could fake rolling shutter.",
+        "start": 121.299,
+        "duration": 3.2
+    },
+    {
+        "text": "I was in a turbo-prop over the Australian outback,",
+        "start": 124.5,
+        "duration": 2.369
+    },
+    {
+        "text": "and I realized that the patterns would change as I rotated my phone.",
+        "start": 126.869,
+        "duration": 3.33
+    },
+    {
+        "text": "I happened to have a high-speed camera with me, so I got it out and I started collecting data.",
+        "start": 130.2,
+        "duration": 3.629
+    },
+    {
+        "text": "This is what your camera does dozens of times per second.",
+        "start": 146.53,
+        "duration": 4.67
+    },
+    {
+        "text": "I noticed that the patterns looked very different depending on which way the propeller was rotating relative to the rolling shutter.",
+        "start": 161.56,
+        "duration": 5.63
+    },
+    {
+        "text": "This is really beautiful, but I was kind of bummed that I didn't get to see the effect head-on to the propeller.",
+        "start": 172.71,
+        "duration": 5.0
+    },
+    {
+        "text": "A couple of years later, though, when I was taking high altitude flight lessons near Pike's Peak in Colorado,",
+        "start": 178.98,
+        "duration": 4.279
+    },
+    {
+        "text": "I finally got my chance to video a propeller head-on on the Tarmac.",
+        "start": 183.45,
+        "duration": 4.4
+    },
+    {
+        "text": "The fidget spinner community has known for a while now that when it's really bright outside, a cell phone camera",
+        "start": 203.98,
+        "duration": 4.79
+    },
+    {
+        "text": "videoing a fidget spinner will turn it into what they call \"the thing.\"",
+        "start": 208.959,
+        "duration": 3.08
+    },
+    {
+        "text": "It's just rolling shutter with a little bit of aliasing thrown in, but it looks like some kind of Ninja Alien throwing star.",
+        "start": 212.23,
+        "duration": 6.11
+    },
+    {
+        "text": "Anyway, when you slow it down with a high-speed camera, you can really reveal the map that makes this look so weird",
+        "start": 218.68,
+        "duration": 5.66
+    },
+    {
+        "text": "My buddy Ben plays both the Mandolin and the guitar, and it took us a really long time to get the rolling shutter effect to",
+        "start": 233.62,
+        "duration": 5.66
+    },
+    {
+        "text": "show itself. But when we did, it was awesome!",
+        "start": 239.28,
+        "duration": 3.0
+    },
+    {
+        "text": "Guitar strings are especially difficult because they vibrate so quickly that a normal high-speed camera isn't fast enough.",
+        "start": 251.98,
+        "duration": 5.569
+    },
+    {
+        "text": "We had to record them at 20,000 or 28,000 frames per second to be able to run this simulation properly.",
+        "start": 257.799,
+        "duration": 6.08
+    },
+    {
+        "text": "The last trick is something I had never seen before, but somebody told me about it. If you video a coin spinning,",
+        "start": 304.99,
+        "duration": 5.989
+    },
+    {
+        "text": "you can see a swirl pattern on the edge of the coin.",
+        "start": 310.99,
+        "duration": 2.929
+    },
+    {
+        "text": "Yep, that's also rolling shutter.",
+        "start": 314.979,
+        "duration": 2.089
+    },
+    {
+        "text": "Obviously this took a really long time to make, and Henry from MinutePhysics made it possible.",
+        "start": 328.17,
+        "duration": 4.25
+    },
+    {
+        "text": "He's the guy that figured out exactly how to make after effects",
+        "start": 332.42,
+        "duration": 2.58
+    },
+    {
+        "text": "simulate rolling shutter. On the behind the scenes video, on the second channel, Henry",
+        "start": 335.07,
+        "duration": 3.65
+    },
+    {
+        "text": "and I talked about what we were trying to accomplish.",
+        "start": 338.72,
+        "duration": 1.6
+    },
+    {
+        "text": "Go check it out. And we'll, uh, we'll throw some love Henry's way. Also, I want to say thanks to the sponsor,",
+        "start": 340.32,
+        "duration": 4.88
+    },
+    {
+        "text": "which is Audible. Before we talk about the book that I'm listening to on Audible right now,",
+        "start": 345.2,
+        "duration": 3.839
+    },
+    {
+        "text": "let's go goof around with rolling shutter and some chickens. Okay, the book",
+        "start": 349.04,
+        "duration": 3.27
+    },
+    {
+        "text": "I'm currently listening to on Audible is called \"The Devil in the White City.\"",
+        "start": 352.31,
+        "duration": 2.97
+    },
+    {
+        "text": "It's a really good book about the 1893 Chicago World's Fair. A fair that I had no idea changed America,",
+        "start": 355.28,
+        "duration": 5.609
+    },
+    {
+        "text": "but it did. Also, America's first serial killer, so there's that. It's pretty crazy. I had no idea. It's a great story.",
+        "start": 360.89,
+        "duration": 6.51
+    },
+    {
+        "text": "You should check it out. \"Devil in the White City,\" by Erik Larson. You will enjoy it. You can get that by going to audible.com/smarter",
+        "start": 367.4,
+        "duration": 6.089
+    },
+    {
+        "text": "That is two things: number one, you get a free audiobook;",
+        "start": 374.01,
+        "duration": 2.48
+    },
+    {
+        "text": "number two, I get secret internet points because Audible knows you came from SmarterEveryDay.",
+        "start": 376.83,
+        "duration": 4.459
+    },
+    {
+        "text": "And they're more likely to support Smarter Every Day in the future, and that's a big deal for me and the family.",
+        "start": 381.29,
+        "duration": 4.71
+    },
+    {
+        "text": "I appreciate that. Anyway, if you see anybody that talks about rolling shutter, make sure they don't get confused with aliasing.",
+        "start": 386.0,
+        "duration": 7.47
+    },
+    {
+        "text": "That's the wagon wheel effect. A lot of people get those two confused. I hope this video earned your subscription.",
+        "start": 393.47,
+        "duration": 4.589
+    },
+    {
+        "text": "If it didn't, no big deal. I'm Destin, you're getting Smarter Every Day. Have a good one!",
+        "start": 398.06,
+        "duration": 4.169
+    },
+    {
+        "text": "Bye.",
+        "start": 403.02,
+        "duration": 2.0
+    },
+    {
+        "text": "Last chicken.",
+        "start": 405.24,
+        "duration": 2.0
+    },
+    {
+        "text": "Brave chicken.",
+        "start": 409.069,
+        "duration": 2.0
+    }
+]

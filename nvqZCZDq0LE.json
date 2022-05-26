@@ -1,0 +1,432 @@
+[
+    {
+        "text": "[ ♪ Intro ]",
+        "start": 0.04,
+        "duration": 3.4
+    },
+    {
+        "text": "You may have heard of the butterfly effect,",
+        "start": 3.44,
+        "duration": 1.98
+    },
+    {
+        "text": "where butterflies flapping their wings somehow cause tornadoes.",
+        "start": 5.42,
+        "duration": 3.64
+    },
+    {
+        "text": "But that can’t be right.",
+        "start": 9.06,
+        "duration": 1.34
+    },
+    {
+        "text": "Butterflies flap their wings all the time\nall over the world.",
+        "start": 10.4,
+        "duration": 2.72
+    },
+    {
+        "text": "And clearly they’re not all causing extreme\nweather.",
+        "start": 13.12,
+        "duration": 2.7
+    },
+    {
+        "text": "But it’s also not entirely wrong.",
+        "start": 15.82,
+        "duration": 2.58
+    },
+    {
+        "text": "It turns out that butterfly wings can affect\nthe weather, just not in the way you might think.",
+        "start": 18.4,
+        "duration": 4.56
+    },
+    {
+        "text": "The idea that small changes in the past can\nhave big consequences in the future,",
+        "start": 22.96,
+        "duration": 4.0
+    },
+    {
+        "text": "like an alternate universe where JFK survived,",
+        "start": 26.96,
+        "duration": 2.62
+    },
+    {
+        "text": "is what people often mean by the butterfly effect.",
+        "start": 29.58,
+        "duration": 2.46
+    },
+    {
+        "text": "And to explain how this idea works, we need to go back to the dawn of the computer age in the 1960s,",
+        "start": 32.04,
+        "duration": 5.22
+    },
+    {
+        "text": "and the beginning of the modern\nscience of weather prediction, or meteorology.",
+        "start": 37.26,
+        "duration": 3.48
+    },
+    {
+        "text": "See, our weather is caused by the flow of\ncurrents of air and water.",
+        "start": 40.74,
+        "duration": 3.12
+    },
+    {
+        "text": "Everything from breezes to hurricanes can\nbe explained by looking at how these fluids flow.",
+        "start": 43.86,
+        "duration": 4.36
+    },
+    {
+        "text": "But predicting that weather is hard, because\nfluid dynamics is hard.",
+        "start": 48.22,
+        "duration": 4.2
+    },
+    {
+        "text": "The equations that govern fluid flow are notoriously\ndifficult to use,",
+        "start": 52.42,
+        "duration": 3.64
+    },
+    {
+        "text": "and their solutions tend to be messy, complicated, and tricky to calculate.",
+        "start": 56.06,
+        "duration": 3.28
+    },
+    {
+        "text": "So, until the 20th century, weather prediction\nwas more art than science.",
+        "start": 59.34,
+        "duration": 3.96
+    },
+    {
+        "text": "But when computers arrived at universities\nin the 1960s,",
+        "start": 63.3,
+        "duration": 3.16
+    },
+    {
+        "text": "researchers quickly took to using them to solve these equations to make more accurate predictions.",
+        "start": 66.46,
+        "duration": 4.58
+    },
+    {
+        "text": "And almost immediately, they ran into a problem\nthat would change math and physics forever.",
+        "start": 71.04,
+        "duration": 4.28
+    },
+    {
+        "text": "When you want to simulate a physical system,\nwhether it’s the weather, or a particle accelerator,",
+        "start": 75.32,
+        "duration": 4.5
+    },
+    {
+        "text": "you need to solve what are called\ndifferential equations:",
+        "start": 79.82,
+        "duration": 2.5
+    },
+    {
+        "text": "the equations that govern how a system changes over time.",
+        "start": 82.32,
+        "duration": 2.86
+    },
+    {
+        "text": "You always need to give the equations some\ninitial conditions.",
+        "start": 85.18,
+        "duration": 2.57
+    },
+    {
+        "text": "Basically, you tell it what everything is\nlike initially,",
+        "start": 87.75,
+        "duration": 2.45
+    },
+    {
+        "text": "and then the equations let time play out to see what things will look like later on.",
+        "start": 90.2,
+        "duration": 3.68
+    },
+    {
+        "text": "One of the first people to use the new computer-based\nmethods to predict the weather was Edward Norton.",
+        "start": 93.88,
+        "duration": 4.42
+    },
+    {
+        "text": "Wait, Edward Norton?",
+        "start": 98.3,
+        "duration": 1.4
+    },
+    {
+        "text": "Oh, Edward Norton Lorenz, the American mathematician\nand meteorologist,",
+        "start": 99.7,
+        "duration": 4.04
+    },
+    {
+        "text": "not the guy from Fight Club.",
+        "start": 103.74,
+        "duration": 1.26
+    },
+    {
+        "text": "His strange discovery came one day in 1961 when he was doing a simulation of a simplified weather system.",
+        "start": 105.0,
+        "duration": 5.34
+    },
+    {
+        "text": "He found he was getting two different predictions from the same equations, with the same initial conditions.",
+        "start": 110.34,
+        "duration": 4.96
+    },
+    {
+        "text": "Which is pretty weird, right?",
+        "start": 115.3,
+        "duration": 1.62
+    },
+    {
+        "text": "I mean you’d think if you had the same initial\nconditions and the same equations,",
+        "start": 116.92,
+        "duration": 3.34
+    },
+    {
+        "text": "surely you would get the same outcome.",
+        "start": 120.26,
+        "duration": 2.099
+    },
+    {
+        "text": "After looking more closely, he saw that the\ntwo inputs weren’t exactly the same.",
+        "start": 122.36,
+        "duration": 3.74
+    },
+    {
+        "text": "In one, he’d rounded the number 0.506127\ndown to 0.506,",
+        "start": 126.1,
+        "duration": 5.68
+    },
+    {
+        "text": "thinking it wouldn’t make a difference.",
+        "start": 131.78,
+        "duration": 1.88
+    },
+    {
+        "text": "But it did.",
+        "start": 133.66,
+        "duration": 0.7
+    },
+    {
+        "text": "And the predictions didn’t end up being\n0.1% different,",
+        "start": 134.36,
+        "duration": 3.48
+    },
+    {
+        "text": "the differences doubled in size every four days of simulated time,",
+        "start": 137.84,
+        "duration": 3.98
+    },
+    {
+        "text": "and became unrecognizably different \nafter a month or so.",
+        "start": 141.82,
+        "duration": 2.68
+    },
+    {
+        "text": "The conclusion was that small changes in initial\nconditions can lead to vastly different outcomes.",
+        "start": 144.5,
+        "duration": 5.12
+    },
+    {
+        "text": "Lorenz illustrated this point in a lecture\ntitled",
+        "start": 149.62,
+        "duration": 2.52
+    },
+    {
+        "text": "“Does the flap of a butterfly’s wings in Brazil set off a tornado in Texas?”",
+        "start": 152.14,
+        "duration": 4.36
+    },
+    {
+        "text": "And the idea of the butterfly effect was born.",
+        "start": 156.5,
+        "duration": 2.28
+    },
+    {
+        "text": "But Lorenz was careful in his talk to not say extreme things like ‘all tornadoes are caused by butterflies’",
+        "start": 158.78,
+        "duration": 5.56
+    },
+    {
+        "text": "or all butterflies\ngenerate tornadoes.",
+        "start": 164.34,
+        "duration": 2.08
+    },
+    {
+        "text": "All he said was that some small events “can\nbe instrumental in generating a tornado”.",
+        "start": 166.42,
+        "duration": 5.02
+    },
+    {
+        "text": "If you imagine two planets which are identical\nexcept for one extra butterfly in one of them,",
+        "start": 171.45,
+        "duration": 4.57
+    },
+    {
+        "text": "then it’s technically possible that one\nplanet will grow a tornado and the other won’t.",
+        "start": 176.02,
+        "duration": 4.12
+    },
+    {
+        "text": "That’s the amazing truth of the butterfly\neffect.",
+        "start": 180.14,
+        "duration": 2.4
+    },
+    {
+        "text": "But Lorenz’s work also strongly suggests\nthat there’s no way for us to know",
+        "start": 182.54,
+        "duration": 3.96
+    },
+    {
+        "text": "which butterfly wings’ flap, if any, is the one\nthat changed the weather.",
+        "start": 186.5,
+        "duration": 3.62
+    },
+    {
+        "text": "There are just too many tiny influences for us to trace back to one without infinite computing power.",
+        "start": 190.12,
+        "duration": 4.84
+    },
+    {
+        "text": "And, in fact, the butterfly is just as likely\nto prevent a tornado.",
+        "start": 194.96,
+        "duration": 3.22
+    },
+    {
+        "text": "These discoveries eventually led to the invention\nof a new branch of mathematics: chaos theory.",
+        "start": 198.18,
+        "duration": 4.42
+    },
+    {
+        "text": "It deals with systems, like weather, that\nare extremely sensitive to initial conditions,",
+        "start": 202.6,
+        "duration": 4.32
+    },
+    {
+        "text": "where small changes in the past have big effects\nin the future.",
+        "start": 206.92,
+        "duration": 2.58
+    },
+    {
+        "text": "People call it a new field of mathematics\nbecause it seems to happen everywhere.",
+        "start": 209.5,
+        "duration": 3.54
+    },
+    {
+        "text": "You see it in the gravitational interactions of the rings of Saturn, in the swinging of a double pendulum,",
+        "start": 213.04,
+        "duration": 4.66
+    },
+    {
+        "text": "in the flipping of Earth’s magnetic field, \nand even in parts of macroeconomics.",
+        "start": 217.7,
+        "duration": 3.86
+    },
+    {
+        "text": "And the really wild thing is that all these\nsystems, despite being chaotic by nature,",
+        "start": 221.56,
+        "duration": 4.22
+    },
+    {
+        "text": "actually have a lot in common.",
+        "start": 225.78,
+        "duration": 1.18
+    },
+    {
+        "text": "There seems to be some universal behavior,\nand some structure, hiding in the chaos.",
+        "start": 226.96,
+        "duration": 4.18
+    },
+    {
+        "text": "For example, if you make graphs of their properties\nyou often see fractals,",
+        "start": 231.14,
+        "duration": 3.5
+    },
+    {
+        "text": "these amazing, infinitely repeating patterns.",
+        "start": 234.64,
+        "duration": 2.24
+    },
+    {
+        "text": "But what does all this mean for weather prediction?",
+        "start": 236.88,
+        "duration": 2.1
+    },
+    {
+        "text": "Well, it’s gotten a lot better over the\nlast few decades.",
+        "start": 238.98,
+        "duration": 2.94
+    },
+    {
+        "text": "Thanks to better input data from satellites and the like,",
+        "start": 241.92,
+        "duration": 2.76
+    },
+    {
+        "text": "along with far more powerful computers and better algorithms,",
+        "start": 244.68,
+        "duration": 3.34
+    },
+    {
+        "text": "we can now predict weather events with more confidence and further into the future.",
+        "start": 248.02,
+        "duration": 3.52
+    },
+    {
+        "text": "And a better understanding of chaos theory\nhelps a lot, too.",
+        "start": 251.54,
+        "duration": 2.82
+    },
+    {
+        "text": "And yet, anything beyond a few days from now is still obscured by the ‘fog of war’ chaos theory creates.",
+        "start": 254.36,
+        "duration": 5.98
+    },
+    {
+        "text": "Like with quantum mechanics, the laws of physics\nseem to impose strict limits on our ability to forecast.",
+        "start": 260.34,
+        "duration": 5.18
+    },
+    {
+        "text": "Whether it’s the flow of air, or the tides\nof history, chaos is all around us,",
+        "start": 265.52,
+        "duration": 4.38
+    },
+    {
+        "text": "so it’s definitely worth trying to understand it.",
+        "start": 269.9,
+        "duration": 2.62
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 272.52,
+        "duration": 1.86
+    },
+    {
+        "text": "If you want to be better at understanding the science\nof meteorology,",
+        "start": 274.38,
+        "duration": 2.88
+    },
+    {
+        "text": "you might want to check out our episode explaining what a 50% chance of rain actually means.",
+        "start": 277.26,
+        "duration": 4.44
+    },
+    {
+        "text": "And if you don’t want to miss any of our\ndaily episode,",
+        "start": 281.7,
+        "duration": 2.54
+    },
+    {
+        "text": "be sure to click on that subscribe button below the video.",
+        "start": 284.24,
+        "duration": 2.7
+    },
+    {
+        "text": "And ring the notification bell!",
+        "start": 286.94,
+        "duration": 1.62
+    },
+    {
+        "text": "[ ♪ Outro ]",
+        "start": 288.56,
+        "duration": 9.94
+    }
+]

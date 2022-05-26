@@ -1,0 +1,3277 @@
+[
+    {
+        "text": "[Music]",
+        "start": 1.32,
+        "duration": 4.92
+    },
+    {
+        "text": "this is a supersonic baseball cannon we",
+        "start": 4.319,
+        "duration": 3.681
+    },
+    {
+        "text": "built it because it's awesome and it can",
+        "start": 6.24,
+        "duration": 5.359
+    },
+    {
+        "text": "make baseballs go supersonic",
+        "start": 8.0,
+        "duration": 5.519
+    },
+    {
+        "text": "what have we done",
+        "start": 11.599,
+        "duration": 3.841
+    },
+    {
+        "text": "look at it we initially just wanted to",
+        "start": 13.519,
+        "duration": 3.68
+    },
+    {
+        "text": "see if we could make a baseball go past",
+        "start": 15.44,
+        "duration": 4.88
+    },
+    {
+        "text": "the speed of sound and we can 1050 miles",
+        "start": 17.199,
+        "duration": 6.801
+    },
+    {
+        "text": "an hour mach 1.38",
+        "start": 20.32,
+        "duration": 5.279
+    },
+    {
+        "text": "so now it's time to figure out how to",
+        "start": 24.0,
+        "duration": 4.0
+    },
+    {
+        "text": "use this thing as a tool because i want",
+        "start": 25.599,
+        "duration": 3.68
+    },
+    {
+        "text": "to do a lot of cool stuff with it here",
+        "start": 28.0,
+        "duration": 3.519
+    },
+    {
+        "text": "on smarter every day so let's have a",
+        "start": 29.279,
+        "duration": 4.881
+    },
+    {
+        "text": "brief discussion here matlab is cool but",
+        "start": 31.519,
+        "duration": 5.04
+    },
+    {
+        "text": "have you done plywood check this out so",
+        "start": 34.16,
+        "duration": 5.76
+    },
+    {
+        "text": "this is a graph of a smooth sphere and",
+        "start": 36.559,
+        "duration": 6.0
+    },
+    {
+        "text": "this is a plot of drag force versus",
+        "start": 39.92,
+        "duration": 4.639
+    },
+    {
+        "text": "velocity or speed and so you can see",
+        "start": 42.559,
+        "duration": 3.921
+    },
+    {
+        "text": "what happens here is as the ball goes",
+        "start": 44.559,
+        "duration": 4.48
+    },
+    {
+        "text": "faster and faster and faster it ramps up",
+        "start": 46.48,
+        "duration": 4.32
+    },
+    {
+        "text": "in terms of drag and then at some point",
+        "start": 49.039,
+        "duration": 3.84
+    },
+    {
+        "text": "it breaks over a little past 200 miles",
+        "start": 50.8,
+        "duration": 4.0
+    },
+    {
+        "text": "an hour and then it drops off and then",
+        "start": 52.879,
+        "duration": 3.441
+    },
+    {
+        "text": "it tapers up into infinity as you go",
+        "start": 54.8,
+        "duration": 3.84
+    },
+    {
+        "text": "past that we'll see the thing is with",
+        "start": 56.32,
+        "duration": 4.32
+    },
+    {
+        "text": "our supersonic baseball cannon we spend",
+        "start": 58.64,
+        "duration": 4.0
+    },
+    {
+        "text": "a lot of time on this side of the curve",
+        "start": 60.64,
+        "duration": 3.36
+    },
+    {
+        "text": "so we don't really know what happens",
+        "start": 62.64,
+        "duration": 3.6
+    },
+    {
+        "text": "here this is for a smooth sphere this is",
+        "start": 64.0,
+        "duration": 3.84
+    },
+    {
+        "text": "done by a guy named wesson we're going",
+        "start": 66.24,
+        "duration": 4.4
+    },
+    {
+        "text": "to see what we can do with a baseball",
+        "start": 67.84,
+        "duration": 4.24
+    },
+    {
+        "text": "the way we're going to do that is we're",
+        "start": 70.64,
+        "duration": 2.96
+    },
+    {
+        "text": "going to characterize this thing and",
+        "start": 72.08,
+        "duration": 3.28
+    },
+    {
+        "text": "that's a fancy way of saying we're going",
+        "start": 73.6,
+        "duration": 3.519
+    },
+    {
+        "text": "to figure out how it works",
+        "start": 75.36,
+        "duration": 4.48
+    },
+    {
+        "text": "check this out so this graph is a graph",
+        "start": 77.119,
+        "duration": 4.241
+    },
+    {
+        "text": "of pressure",
+        "start": 79.84,
+        "duration": 4.8
+    },
+    {
+        "text": "and velocity and what i want to do is i",
+        "start": 81.36,
+        "duration": 5.6
+    },
+    {
+        "text": "want to figure out how much pressure to",
+        "start": 84.64,
+        "duration": 4.479
+    },
+    {
+        "text": "put in the pressure vessel how much of a",
+        "start": 86.96,
+        "duration": 4.72
+    },
+    {
+        "text": "vacuum to pull in the vacuum barrel here",
+        "start": 89.119,
+        "duration": 4.721
+    },
+    {
+        "text": "and what velocities we get as a function",
+        "start": 91.68,
+        "duration": 3.439
+    },
+    {
+        "text": "of those things so it's actually going",
+        "start": 93.84,
+        "duration": 3.44
+    },
+    {
+        "text": "to be like a 3d surface but we're going",
+        "start": 95.119,
+        "duration": 3.68
+    },
+    {
+        "text": "to stick to the plywood method for now",
+        "start": 97.28,
+        "duration": 2.799
+    },
+    {
+        "text": "because we're in the field we'll record",
+        "start": 98.799,
+        "duration": 2.96
+    },
+    {
+        "text": "all the data later here's the thing",
+        "start": 100.079,
+        "duration": 3.761
+    },
+    {
+        "text": "though i've rented high-speed cameras",
+        "start": 101.759,
+        "duration": 3.68
+    },
+    {
+        "text": "and i've actually called in a favor from",
+        "start": 103.84,
+        "duration": 3.48
+    },
+    {
+        "text": "gavin this is a",
+        "start": 105.439,
+        "duration": 4.401
+    },
+    {
+        "text": "v3610 i'll get you in the light here",
+        "start": 107.32,
+        "duration": 4.52
+    },
+    {
+        "text": "this is a super fast high-speed camera",
+        "start": 109.84,
+        "duration": 4.48
+    },
+    {
+        "text": "36 000 frames per second that's really",
+        "start": 111.84,
+        "duration": 5.84
+    },
+    {
+        "text": "really fast over here we've got gavin's",
+        "start": 114.32,
+        "duration": 5.6
+    },
+    {
+        "text": "4k high speed camera that's amazing",
+        "start": 117.68,
+        "duration": 4.88
+    },
+    {
+        "text": "that's a phantom vo4k trent's running",
+        "start": 119.92,
+        "duration": 4.159
+    },
+    {
+        "text": "all the data here",
+        "start": 122.56,
+        "duration": 3.519
+    },
+    {
+        "text": "so uh he's a little stressed we've got",
+        "start": 124.079,
+        "duration": 4.4
+    },
+    {
+        "text": "four high-speed cameras patched in to a",
+        "start": 126.079,
+        "duration": 3.68
+    },
+    {
+        "text": "network there",
+        "start": 128.479,
+        "duration": 3.521
+    },
+    {
+        "text": "here's george george is helping with all",
+        "start": 129.759,
+        "duration": 3.681
+    },
+    {
+        "text": "kinds of stuff here",
+        "start": 132.0,
+        "duration": 4.08
+    },
+    {
+        "text": "this is the v2511 this is the smarter",
+        "start": 133.44,
+        "duration": 4.0
+    },
+    {
+        "text": "everyday camera and what we're gonna do",
+        "start": 136.08,
+        "duration": 2.32
+    },
+    {
+        "text": "with this",
+        "start": 137.44,
+        "duration": 3.519
+    },
+    {
+        "text": "is we're gonna look at the overall view",
+        "start": 138.4,
+        "duration": 4.8
+    },
+    {
+        "text": "and as the baseball comes out here we're",
+        "start": 140.959,
+        "duration": 5.041
+    },
+    {
+        "text": "going to track the velocity over time",
+        "start": 143.2,
+        "duration": 4.72
+    },
+    {
+        "text": "until it gets to the target for target",
+        "start": 146.0,
+        "duration": 4.2
+    },
+    {
+        "text": "effects we have this it's a",
+        "start": 147.92,
+        "duration": 5.76
+    },
+    {
+        "text": "v7510 this is a new high-speed camera 75",
+        "start": 150.2,
+        "duration": 6.2
+    },
+    {
+        "text": "000 frames per second that's like stupid",
+        "start": 153.68,
+        "duration": 4.88
+    },
+    {
+        "text": "stupid stupid here is what we're",
+        "start": 156.4,
+        "duration": 4.479
+    },
+    {
+        "text": "shooting i don't care what we hit i just",
+        "start": 158.56,
+        "duration": 3.759
+    },
+    {
+        "text": "care about the velocity from there to",
+        "start": 160.879,
+        "duration": 3.681
+    },
+    {
+        "text": "there so i asked the patrons of smarter",
+        "start": 162.319,
+        "duration": 3.92
+    },
+    {
+        "text": "every day thank you very much for your",
+        "start": 164.56,
+        "duration": 4.08
+    },
+    {
+        "text": "support patrons what to hit",
+        "start": 166.239,
+        "duration": 3.681
+    },
+    {
+        "text": "and they came up with some really",
+        "start": 168.64,
+        "duration": 2.64
+    },
+    {
+        "text": "strange things",
+        "start": 169.92,
+        "duration": 2.399
+    },
+    {
+        "text": "i don't know what's wrong with the",
+        "start": 171.28,
+        "duration": 3.92
+    },
+    {
+        "text": "person that uh said we should do that",
+        "start": 172.319,
+        "duration": 5.121
+    },
+    {
+        "text": "we've got five pounds of silly putty",
+        "start": 175.2,
+        "duration": 4.64
+    },
+    {
+        "text": "we've got cake sprinkles and we have",
+        "start": 177.44,
+        "duration": 4.32
+    },
+    {
+        "text": "more things in the back of my truck i'll",
+        "start": 179.84,
+        "duration": 4.479
+    },
+    {
+        "text": "reveal those slowly as we go that's just",
+        "start": 181.76,
+        "duration": 4.88
+    },
+    {
+        "text": "like the sugar on top but this is where",
+        "start": 184.319,
+        "duration": 4.081
+    },
+    {
+        "text": "it's at check this out this is a",
+        "start": 186.64,
+        "duration": 4.0
+    },
+    {
+        "text": "boresight tool very important note here",
+        "start": 188.4,
+        "duration": 3.839
+    },
+    {
+        "text": "removed before firing what we can do",
+        "start": 190.64,
+        "duration": 4.959
+    },
+    {
+        "text": "with this is we can look down the shot",
+        "start": 192.239,
+        "duration": 5.521
+    },
+    {
+        "text": "path of the cannon and we can aim in",
+        "start": 195.599,
+        "duration": 4.64
+    },
+    {
+        "text": "terms of inches now that's really cool",
+        "start": 197.76,
+        "duration": 4.0
+    },
+    {
+        "text": "so i don't know if i can",
+        "start": 200.239,
+        "duration": 3.841
+    },
+    {
+        "text": "view this it's very hard to line up but",
+        "start": 201.76,
+        "duration": 5.28
+    },
+    {
+        "text": "as you go down in here yeah look at that",
+        "start": 204.08,
+        "duration": 4.799
+    },
+    {
+        "text": "so you can see where the baseball hit",
+        "start": 207.04,
+        "duration": 3.04
+    },
+    {
+        "text": "last time",
+        "start": 208.879,
+        "duration": 2.801
+    },
+    {
+        "text": "that's cool we're gonna be able to aim",
+        "start": 210.08,
+        "duration": 3.92
+    },
+    {
+        "text": "much more accurately now okay so this is",
+        "start": 211.68,
+        "duration": 3.919
+    },
+    {
+        "text": "the goal we're gonna shoot the cannon",
+        "start": 214.0,
+        "duration": 2.72
+    },
+    {
+        "text": "we're gonna get the velocities as a",
+        "start": 215.599,
+        "duration": 2.961
+    },
+    {
+        "text": "function of pressure and we're gonna see",
+        "start": 216.72,
+        "duration": 4.079
+    },
+    {
+        "text": "what happens to baseballs once we get it",
+        "start": 218.56,
+        "duration": 5.12
+    },
+    {
+        "text": "into really weird aerodynamic regimes so",
+        "start": 220.799,
+        "duration": 5.041
+    },
+    {
+        "text": "we're gonna point the borescope there",
+        "start": 223.68,
+        "duration": 4.08
+    },
+    {
+        "text": "you gonna look through it yep okay so",
+        "start": 225.84,
+        "duration": 4.72
+    },
+    {
+        "text": "the question is are we gonna hit that",
+        "start": 227.76,
+        "duration": 3.6
+    },
+    {
+        "text": "so",
+        "start": 230.56,
+        "duration": 2.64
+    },
+    {
+        "text": "that'll tell us if we're able to aim",
+        "start": 231.36,
+        "duration": 4.079
+    },
+    {
+        "text": "this thing uh this is our datum this is",
+        "start": 233.2,
+        "duration": 4.48
+    },
+    {
+        "text": "the beginning of the cannon right there",
+        "start": 235.439,
+        "duration": 4.321
+    },
+    {
+        "text": "and then every five feet we've got it",
+        "start": 237.68,
+        "duration": 4.16
+    },
+    {
+        "text": "marked out we're going to put our target",
+        "start": 239.76,
+        "duration": 4.399
+    },
+    {
+        "text": "at about 30 something feet when we do",
+        "start": 241.84,
+        "duration": 4.64
+    },
+    {
+        "text": "that first shot no target just a camera",
+        "start": 244.159,
+        "duration": 4.241
+    },
+    {
+        "text": "check out got a checklist today on the",
+        "start": 246.48,
+        "duration": 5.44
+    },
+    {
+        "text": "phone time to load a baseball",
+        "start": 248.4,
+        "duration": 5.46
+    },
+    {
+        "text": "i forgot how tight that is",
+        "start": 251.92,
+        "duration": 3.84
+    },
+    {
+        "text": "[Applause]",
+        "start": 253.86,
+        "duration": 3.82
+    },
+    {
+        "text": "all right we put the plastic over here",
+        "start": 255.76,
+        "duration": 3.999
+    },
+    {
+        "text": "just so we can pull a vacuum",
+        "start": 257.68,
+        "duration": 4.32
+    },
+    {
+        "text": "start gh5 confirmed focus battery and",
+        "start": 259.759,
+        "duration": 5.681
+    },
+    {
+        "text": "card you happy on gh5s george uh i am",
+        "start": 262.0,
+        "duration": 5.36
+    },
+    {
+        "text": "confirmed phantom buffer's set correctly",
+        "start": 265.44,
+        "duration": 4.16
+    },
+    {
+        "text": "on all cameras okay",
+        "start": 267.36,
+        "duration": 4.559
+    },
+    {
+        "text": "all right time to pull vacuum",
+        "start": 269.6,
+        "duration": 4.159
+    },
+    {
+        "text": "here we go so we've got pressure here",
+        "start": 271.919,
+        "duration": 3.601
+    },
+    {
+        "text": "we've got vacuum here",
+        "start": 273.759,
+        "duration": 4.72
+    },
+    {
+        "text": "um we've got an offset of 0.8 as we",
+        "start": 275.52,
+        "duration": 5.28
+    },
+    {
+        "text": "start this one minus point eight oh god",
+        "start": 278.479,
+        "duration": 4.16
+    },
+    {
+        "text": "spawn it fast it's so great okay on the",
+        "start": 280.8,
+        "duration": 3.119
+    },
+    {
+        "text": "first shot we're just gonna do a check",
+        "start": 282.639,
+        "duration": 3.041
+    },
+    {
+        "text": "out of the whole system nothing",
+        "start": 283.919,
+        "duration": 3.28
+    },
+    {
+        "text": "downrange we're just gonna fire the",
+        "start": 285.68,
+        "duration": 2.799
+    },
+    {
+        "text": "thing and make sure we can hit what",
+        "start": 287.199,
+        "duration": 4.321
+    },
+    {
+        "text": "we're aiming at so we could do 300 psi",
+        "start": 288.479,
+        "duration": 4.641
+    },
+    {
+        "text": "yeah i should do 300.",
+        "start": 291.52,
+        "duration": 2.72
+    },
+    {
+        "text": "okay",
+        "start": 293.12,
+        "duration": 2.88
+    },
+    {
+        "text": "game time decision first calibration",
+        "start": 294.24,
+        "duration": 7.519
+    },
+    {
+        "text": "shot 300 psi at about a minus 7.2 psi",
+        "start": 296.0,
+        "duration": 8.4
+    },
+    {
+        "text": "vacuum ears on if you want them",
+        "start": 301.759,
+        "duration": 5.28
+    },
+    {
+        "text": "i'm good i'm good final pressure on this",
+        "start": 304.4,
+        "duration": 6.16
+    },
+    {
+        "text": "300 psi a vacuum of minus eight on the",
+        "start": 307.039,
+        "duration": 5.281
+    },
+    {
+        "text": "gauge which is about minus seven point",
+        "start": 310.56,
+        "duration": 3.04
+    },
+    {
+        "text": "two",
+        "start": 312.32,
+        "duration": 3.12
+    },
+    {
+        "text": "firing in three",
+        "start": 313.6,
+        "duration": 2.64
+    },
+    {
+        "text": "two",
+        "start": 315.44,
+        "duration": 2.72
+    },
+    {
+        "text": "one",
+        "start": 316.24,
+        "duration": 2.799
+    },
+    {
+        "text": "two",
+        "start": 318.16,
+        "duration": 2.72
+    },
+    {
+        "text": "one",
+        "start": 319.039,
+        "duration": 4.841
+    },
+    {
+        "text": "one",
+        "start": 320.88,
+        "duration": 3.0
+    },
+    {
+        "text": "okay we've got our v2511 shot here from",
+        "start": 334.56,
+        "duration": 4.639
+    },
+    {
+        "text": "the side it's 90 degrees to the flight",
+        "start": 337.199,
+        "duration": 3.921
+    },
+    {
+        "text": "line which allows us to do some really",
+        "start": 339.199,
+        "duration": 3.44
+    },
+    {
+        "text": "cool measurements the way we need to do",
+        "start": 341.12,
+        "duration": 2.48
+    },
+    {
+        "text": "this though is we have these little",
+        "start": 342.639,
+        "duration": 5.441
+    },
+    {
+        "text": "flags on the ground we have 5 10 15 20",
+        "start": 343.6,
+        "duration": 7.439
+    },
+    {
+        "text": "25 30 feet on the flags so we can do",
+        "start": 348.08,
+        "duration": 4.88
+    },
+    {
+        "text": "this really cool thing where we measure",
+        "start": 351.039,
+        "duration": 5.201
+    },
+    {
+        "text": "how many inches each pixel is worth so",
+        "start": 352.96,
+        "duration": 5.519
+    },
+    {
+        "text": "if we say from there to there is",
+        "start": 356.24,
+        "duration": 5.84
+    },
+    {
+        "text": "30 feet which is 360 inches that gives",
+        "start": 358.479,
+        "duration": 7.041
+    },
+    {
+        "text": "us a pixel calibration of 0.344 inches",
+        "start": 362.08,
+        "duration": 6.08
+    },
+    {
+        "text": "per pixel knowing this we can now make",
+        "start": 365.52,
+        "duration": 3.92
+    },
+    {
+        "text": "measurements so what i'm going to do is",
+        "start": 368.16,
+        "duration": 3.039
+    },
+    {
+        "text": "i'm going to say distance angle and",
+        "start": 369.44,
+        "duration": 4.0
+    },
+    {
+        "text": "speed from two points i'm going to play",
+        "start": 371.199,
+        "duration": 4.72
+    },
+    {
+        "text": "until the ball exits the barrel i'm",
+        "start": 373.44,
+        "duration": 5.28
+    },
+    {
+        "text": "going to take a first point here",
+        "start": 375.919,
+        "duration": 5.601
+    },
+    {
+        "text": "and then because we can know how far",
+        "start": 378.72,
+        "duration": 4.479
+    },
+    {
+        "text": "this thing travels now and we know how",
+        "start": 381.52,
+        "duration": 3.76
+    },
+    {
+        "text": "much time is in between each frame we",
+        "start": 383.199,
+        "duration": 4.241
+    },
+    {
+        "text": "can get the actual speed of the baseball",
+        "start": 385.28,
+        "duration": 4.639
+    },
+    {
+        "text": "it was going 917 miles an hour oh we can",
+        "start": 387.44,
+        "duration": 4.96
+    },
+    {
+        "text": "chart data now oh",
+        "start": 389.919,
+        "duration": 4.56
+    },
+    {
+        "text": "where's",
+        "start": 392.4,
+        "duration": 5.44
+    },
+    {
+        "text": "all right oh data",
+        "start": 394.479,
+        "duration": 4.961
+    },
+    {
+        "text": "wow",
+        "start": 397.84,
+        "duration": 3.6
+    },
+    {
+        "text": "it's exciting",
+        "start": 399.44,
+        "duration": 3.28
+    },
+    {
+        "text": "all right",
+        "start": 401.44,
+        "duration": 2.96
+    },
+    {
+        "text": "so",
+        "start": 402.72,
+        "duration": 4.319
+    },
+    {
+        "text": "so that was 300 psi",
+        "start": 404.4,
+        "duration": 6.32
+    },
+    {
+        "text": "and we did 917 miles an hour",
+        "start": 407.039,
+        "duration": 6.0
+    },
+    {
+        "text": "what i'm excited dude there's someone so",
+        "start": 410.72,
+        "duration": 4.08
+    },
+    {
+        "text": "happy about graphing something",
+        "start": 413.039,
+        "duration": 3.681
+    },
+    {
+        "text": "it's i mean look at my graph it's",
+        "start": 414.8,
+        "duration": 5.119
+    },
+    {
+        "text": "amazing okay so",
+        "start": 416.72,
+        "duration": 4.96
+    },
+    {
+        "text": "oh did we we didn't yeah we did record",
+        "start": 419.919,
+        "duration": 3.441
+    },
+    {
+        "text": "the temperature and humidity right",
+        "start": 421.68,
+        "duration": 2.48
+    },
+    {
+        "text": "so",
+        "start": 423.36,
+        "duration": 3.76
+    },
+    {
+        "text": "1.195",
+        "start": 424.16,
+        "duration": 4.56
+    },
+    {
+        "text": "mach so",
+        "start": 427.12,
+        "duration": 3.919
+    },
+    {
+        "text": "mach 1.2 so",
+        "start": 428.72,
+        "duration": 3.52
+    },
+    {
+        "text": "we've got",
+        "start": 431.039,
+        "duration": 2.56
+    },
+    {
+        "text": "300",
+        "start": 432.24,
+        "duration": 3.12
+    },
+    {
+        "text": "psi",
+        "start": 433.599,
+        "duration": 5.121
+    },
+    {
+        "text": "mach 1.2",
+        "start": 435.36,
+        "duration": 3.36
+    },
+    {
+        "text": "we have our first data point",
+        "start": 439.12,
+        "duration": 4.479
+    },
+    {
+        "text": "look at it it's right there",
+        "start": 442.0,
+        "duration": 3.68
+    },
+    {
+        "text": "that's our data point all right that's a",
+        "start": 443.599,
+        "duration": 3.681
+    },
+    {
+        "text": "good data point that's a great it's one",
+        "start": 445.68,
+        "duration": 3.919
+    },
+    {
+        "text": "of my favorite data points and that was",
+        "start": 447.28,
+        "duration": 4.96
+    },
+    {
+        "text": "at uh minus eight",
+        "start": 449.599,
+        "duration": 5.681
+    },
+    {
+        "text": "uh psi on the barrel so if we fire this",
+        "start": 452.24,
+        "duration": 5.92
+    },
+    {
+        "text": "thing again with no vacuum",
+        "start": 455.28,
+        "duration": 4.56
+    },
+    {
+        "text": "in the barrel",
+        "start": 458.16,
+        "duration": 3.84
+    },
+    {
+        "text": "we should get a lower velocity so let's",
+        "start": 459.84,
+        "duration": 5.28
+    },
+    {
+        "text": "fire 300 psi with no vacuum on the front",
+        "start": 462.0,
+        "duration": 4.56
+    },
+    {
+        "text": "and then if it does that then we're",
+        "start": 465.12,
+        "duration": 3.68
+    },
+    {
+        "text": "starting to define the graph",
+        "start": 466.56,
+        "duration": 5.039
+    },
+    {
+        "text": "okay so i'm going to say",
+        "start": 468.8,
+        "duration": 4.56
+    },
+    {
+        "text": "i need to say that we had vacuum do you",
+        "start": 471.599,
+        "duration": 3.521
+    },
+    {
+        "text": "have do you have a little pencil or",
+        "start": 473.36,
+        "duration": 3.6
+    },
+    {
+        "text": "something i can i can already tell that",
+        "start": 475.12,
+        "duration": 3.44
+    },
+    {
+        "text": "we're going to put this on the wall like",
+        "start": 476.96,
+        "duration": 3.84
+    },
+    {
+        "text": "i can already tell we don't have a pen",
+        "start": 478.56,
+        "duration": 4.479
+    },
+    {
+        "text": "no that's a blank all right you can use",
+        "start": 480.8,
+        "duration": 4.64
+    },
+    {
+        "text": "this but",
+        "start": 483.039,
+        "duration": 4.401
+    },
+    {
+        "text": "just for this that's my pen okay i'll",
+        "start": 485.44,
+        "duration": 5.599
+    },
+    {
+        "text": "give it right back so that is",
+        "start": 487.44,
+        "duration": 5.439
+    },
+    {
+        "text": "that is",
+        "start": 491.039,
+        "duration": 4.481
+    },
+    {
+        "text": "uh about minus so it was a minus eight",
+        "start": 492.879,
+        "duration": 4.801
+    },
+    {
+        "text": "on the vacuum to be about minus",
+        "start": 495.52,
+        "duration": 6.32
+    },
+    {
+        "text": "minus 7.2 psi",
+        "start": 497.68,
+        "duration": 6.56
+    },
+    {
+        "text": "barrel",
+        "start": 501.84,
+        "duration": 2.4
+    },
+    {
+        "text": "cool",
+        "start": 504.96,
+        "duration": 7.2
+    },
+    {
+        "text": "300 psi tank",
+        "start": 507.52,
+        "duration": 4.64
+    },
+    {
+        "text": "feels legit",
+        "start": 513.599,
+        "duration": 5.041
+    },
+    {
+        "text": "all right that's great man all right so",
+        "start": 515.36,
+        "duration": 4.32
+    },
+    {
+        "text": "now",
+        "start": 518.64,
+        "duration": 2.8
+    },
+    {
+        "text": "let me put that data in the",
+        "start": 519.68,
+        "duration": 6.08
+    },
+    {
+        "text": "spreadsheet and then if i keep playing",
+        "start": 521.44,
+        "duration": 6.64
+    },
+    {
+        "text": "if i keep playing this thing",
+        "start": 525.76,
+        "duration": 3.759
+    },
+    {
+        "text": "down here",
+        "start": 528.08,
+        "duration": 3.28
+    },
+    {
+        "text": "it should be at a different velocity",
+        "start": 529.519,
+        "duration": 4.401
+    },
+    {
+        "text": "down here so that should be lower which",
+        "start": 531.36,
+        "duration": 6.4
+    },
+    {
+        "text": "would indicate drag 831 miles an hour so",
+        "start": 533.92,
+        "duration": 6.8
+    },
+    {
+        "text": "we just defined the drag coefficient of",
+        "start": 537.76,
+        "duration": 6.0
+    },
+    {
+        "text": "a baseball from 917 miles an hour",
+        "start": 540.72,
+        "duration": 6.96
+    },
+    {
+        "text": "to about 825. oh i need to make another",
+        "start": 543.76,
+        "duration": 6.0
+    },
+    {
+        "text": "i need to make another thing so",
+        "start": 547.68,
+        "duration": 3.44
+    },
+    {
+        "text": "yeah so what i need to do is i need to",
+        "start": 549.76,
+        "duration": 3.28
+    },
+    {
+        "text": "draw one of these and and go out here",
+        "start": 551.12,
+        "duration": 3.839
+    },
+    {
+        "text": "and so we define the baseball curve out",
+        "start": 553.04,
+        "duration": 3.52
+    },
+    {
+        "text": "here there's something funny about",
+        "start": 554.959,
+        "duration": 3.681
+    },
+    {
+        "text": "riding out zero to two thousand miles an",
+        "start": 556.56,
+        "duration": 3.76
+    },
+    {
+        "text": "hour knowing that you might actually be",
+        "start": 558.64,
+        "duration": 3.68
+    },
+    {
+        "text": "able to do it on a piece of plywood and",
+        "start": 560.32,
+        "duration": 3.76
+    },
+    {
+        "text": "so i'm just going to draw a dotted line",
+        "start": 562.32,
+        "duration": 3.519
+    },
+    {
+        "text": "and then we'll go back in and we'll",
+        "start": 564.08,
+        "duration": 3.439
+    },
+    {
+        "text": "we're trying to get all the data here so",
+        "start": 565.839,
+        "duration": 3.521
+    },
+    {
+        "text": "we can get the complete drag of a",
+        "start": 567.519,
+        "duration": 4.32
+    },
+    {
+        "text": "baseball",
+        "start": 569.36,
+        "duration": 2.479
+    },
+    {
+        "text": "can i please see your pen again i'll be",
+        "start": 571.92,
+        "duration": 4.0
+    },
+    {
+        "text": "nice to it the curve shape means nothing",
+        "start": 573.839,
+        "duration": 3.601
+    },
+    {
+        "text": "i just kind of drew something and then",
+        "start": 575.92,
+        "duration": 3.68
+    },
+    {
+        "text": "i'll just fill this in as we go we knew",
+        "start": 577.44,
+        "duration": 4.079
+    },
+    {
+        "text": "from before that",
+        "start": 579.6,
+        "duration": 4.16
+    },
+    {
+        "text": "uh from zero to 600 miles an hour has",
+        "start": 581.519,
+        "duration": 4.0
+    },
+    {
+        "text": "been done and i'm assuming that was a",
+        "start": 583.76,
+        "duration": 3.84
+    },
+    {
+        "text": "spinning baseball who knows this is not",
+        "start": 585.519,
+        "duration": 3.44
+    },
+    {
+        "text": "a spinning baseball this is a knuckle",
+        "start": 587.6,
+        "duration": 3.679
+    },
+    {
+        "text": "ball okay it is time for the first",
+        "start": 588.959,
+        "duration": 4.0
+    },
+    {
+        "text": "smarter everyday patron",
+        "start": 591.279,
+        "duration": 3.841
+    },
+    {
+        "text": "target suggestion this is from andrew",
+        "start": 592.959,
+        "duration": 5.201
+    },
+    {
+        "text": "maxie who suggests sprinkles andrew has",
+        "start": 595.12,
+        "duration": 5.76
+    },
+    {
+        "text": "been a patron since april thank you very",
+        "start": 598.16,
+        "duration": 4.56
+    },
+    {
+        "text": "much for your support",
+        "start": 600.88,
+        "duration": 4.32
+    },
+    {
+        "text": "andrew and what is this",
+        "start": 602.72,
+        "duration": 4.0
+    },
+    {
+        "text": "what are you doing",
+        "start": 605.2,
+        "duration": 3.68
+    },
+    {
+        "text": "you do not want to be here this is not",
+        "start": 606.72,
+        "duration": 3.2
+    },
+    {
+        "text": "no",
+        "start": 608.88,
+        "duration": 2.72
+    },
+    {
+        "text": "come on",
+        "start": 609.92,
+        "duration": 4.4
+    },
+    {
+        "text": "come on oh you're beautiful",
+        "start": 611.6,
+        "duration": 5.239
+    },
+    {
+        "text": "i shall name you",
+        "start": 614.32,
+        "duration": 5.44
+    },
+    {
+        "text": "sprinkles all right",
+        "start": 616.839,
+        "duration": 4.521
+    },
+    {
+        "text": "why don't you stay over here",
+        "start": 619.76,
+        "duration": 4.0
+    },
+    {
+        "text": "and become a big beautiful butterfly",
+        "start": 621.36,
+        "duration": 4.24
+    },
+    {
+        "text": "that'd be great",
+        "start": 623.76,
+        "duration": 3.44
+    },
+    {
+        "text": "also the lighting is incredible right",
+        "start": 625.6,
+        "duration": 4.08
+    },
+    {
+        "text": "now on you",
+        "start": 627.2,
+        "duration": 2.48
+    },
+    {
+        "text": "whoa",
+        "start": 630.56,
+        "duration": 4.399
+    },
+    {
+        "text": "oh yeah super summit baseball cannon",
+        "start": 632.959,
+        "duration": 4.32
+    },
+    {
+        "text": "forgot",
+        "start": 634.959,
+        "duration": 2.32
+    },
+    {
+        "text": "oh dude it's so silly it's like a weapon",
+        "start": 640.0,
+        "duration": 7.64
+    },
+    {
+        "text": "aimed at sprinkles",
+        "start": 644.079,
+        "duration": 3.561
+    },
+    {
+        "text": "all right here we go",
+        "start": 648.72,
+        "duration": 4.0
+    },
+    {
+        "text": "all right that's our sprinkle situation",
+        "start": 651.04,
+        "duration": 3.52
+    },
+    {
+        "text": "we need to move it a little bit dustin",
+        "start": 652.72,
+        "duration": 3.92
+    },
+    {
+        "text": "your audio is rolling for sure",
+        "start": 654.56,
+        "duration": 4.24
+    },
+    {
+        "text": "yes my audio is rolling",
+        "start": 656.64,
+        "duration": 4.4
+    },
+    {
+        "text": "pickle switch is in your hand in my hand",
+        "start": 658.8,
+        "duration": 4.8
+    },
+    {
+        "text": "everyone is in a safe location correct",
+        "start": 661.04,
+        "duration": 5.52
+    },
+    {
+        "text": "goggle time everyone goggles always",
+        "start": 663.6,
+        "duration": 5.04
+    },
+    {
+        "text": "we've got sprinkle goggle issues this",
+        "start": 666.56,
+        "duration": 4.32
+    },
+    {
+        "text": "time everyone be careful yeah that's",
+        "start": 668.64,
+        "duration": 3.6
+    },
+    {
+        "text": "true i wonder what it's going to smell",
+        "start": 670.88,
+        "duration": 2.24
+    },
+    {
+        "text": "like",
+        "start": 672.24,
+        "duration": 3.039
+    },
+    {
+        "text": "it's gonna smell like ants okay here we",
+        "start": 673.12,
+        "duration": 3.76
+    },
+    {
+        "text": "go pressurizing",
+        "start": 675.279,
+        "duration": 3.841
+    },
+    {
+        "text": "270 going to 300.",
+        "start": 676.88,
+        "duration": 5.519
+    },
+    {
+        "text": "dude this is supposed to be awesome",
+        "start": 679.12,
+        "duration": 3.279
+    },
+    {
+        "text": "my heart's beating faster",
+        "start": 683.279,
+        "duration": 3.201
+    },
+    {
+        "text": "uh teen honey oh this is gonna be great",
+        "start": 686.88,
+        "duration": 5.519
+    },
+    {
+        "text": "george you ready yep",
+        "start": 689.519,
+        "duration": 5.281
+    },
+    {
+        "text": "300",
+        "start": 692.399,
+        "duration": 3.68
+    },
+    {
+        "text": "no it's gotta be three hundred i want",
+        "start": 694.8,
+        "duration": 3.44
+    },
+    {
+        "text": "you",
+        "start": 696.079,
+        "duration": 2.161
+    },
+    {
+        "text": "all right everybody ready rolling",
+        "start": 698.72,
+        "duration": 4.08
+    },
+    {
+        "text": "rolling rolling i'm good okay",
+        "start": 700.56,
+        "duration": 5.2
+    },
+    {
+        "text": "here we go shot two",
+        "start": 702.8,
+        "duration": 4.159
+    },
+    {
+        "text": "say 300.",
+        "start": 705.76,
+        "duration": 3.44
+    },
+    {
+        "text": "all right here we go sprinkles",
+        "start": 706.959,
+        "duration": 3.921
+    },
+    {
+        "text": "how you get ants",
+        "start": 709.2,
+        "duration": 6.199
+    },
+    {
+        "text": "three two one",
+        "start": 710.88,
+        "duration": 4.519
+    },
+    {
+        "text": "god there's the baseball",
+        "start": 718.72,
+        "duration": 4.0
+    },
+    {
+        "text": "all right",
+        "start": 724.32,
+        "duration": 3.44
+    },
+    {
+        "text": "i got it there's so much happening right",
+        "start": 725.519,
+        "duration": 3.681
+    },
+    {
+        "text": "now",
+        "start": 727.76,
+        "duration": 3.68
+    },
+    {
+        "text": "all right the sprinkles slowed the",
+        "start": 729.2,
+        "duration": 3.84
+    },
+    {
+        "text": "baseball down",
+        "start": 731.44,
+        "duration": 2.48
+    },
+    {
+        "text": "okay",
+        "start": 733.04,
+        "duration": 4.0
+    },
+    {
+        "text": "we didn't have a vacuum",
+        "start": 733.92,
+        "duration": 3.12
+    },
+    {
+        "text": "oh it smells like burnt sprinkles",
+        "start": 737.76,
+        "duration": 5.079
+    },
+    {
+        "text": "look at",
+        "start": 741.68,
+        "duration": 2.88
+    },
+    {
+        "text": "this",
+        "start": 742.839,
+        "duration": 2.601
+    },
+    {
+        "text": "oh",
+        "start": 744.56,
+        "duration": 2.32
+    },
+    {
+        "text": "oh that's",
+        "start": 745.44,
+        "duration": 4.16
+    },
+    {
+        "text": "that's phenomenal look at that",
+        "start": 746.88,
+        "duration": 5.84
+    },
+    {
+        "text": "okay that's interesting",
+        "start": 749.6,
+        "duration": 5.44
+    },
+    {
+        "text": "it just made candy hold on",
+        "start": 752.72,
+        "duration": 4.799
+    },
+    {
+        "text": "oh it's like confectioner's sugar",
+        "start": 755.04,
+        "duration": 5.039
+    },
+    {
+        "text": "oh look at that",
+        "start": 757.519,
+        "duration": 5.281
+    },
+    {
+        "text": "gotta eat it right",
+        "start": 760.079,
+        "duration": 5.2
+    },
+    {
+        "text": "have to",
+        "start": 762.8,
+        "duration": 2.479
+    },
+    {
+        "text": "this just tastes like icing it's",
+        "start": 768.88,
+        "duration": 4.16
+    },
+    {
+        "text": "the sugar is so uh",
+        "start": 770.88,
+        "duration": 4.079
+    },
+    {
+        "text": "finely ground oh interesting look at",
+        "start": 773.04,
+        "duration": 3.039
+    },
+    {
+        "text": "this",
+        "start": 774.959,
+        "duration": 3.521
+    },
+    {
+        "text": "oh this is pretty",
+        "start": 776.079,
+        "duration": 5.041
+    },
+    {
+        "text": "look at this",
+        "start": 778.48,
+        "duration": 2.64
+    },
+    {
+        "text": "very interesting",
+        "start": 783.04,
+        "duration": 4.08
+    },
+    {
+        "text": "come look at the sugar",
+        "start": 785.519,
+        "duration": 4.721
+    },
+    {
+        "text": "the sugar you got your knife",
+        "start": 787.12,
+        "duration": 4.64
+    },
+    {
+        "text": "you gotta do a taste test dude get your",
+        "start": 790.24,
+        "duration": 4.64
+    },
+    {
+        "text": "knife right here taste that",
+        "start": 791.76,
+        "duration": 3.12
+    },
+    {
+        "text": "is it real good",
+        "start": 798.639,
+        "duration": 4.161
+    },
+    {
+        "text": "that's 100 pure sprinkles",
+        "start": 800.639,
+        "duration": 4.32
+    },
+    {
+        "text": "but it's been treated with mock",
+        "start": 802.8,
+        "duration": 3.68
+    },
+    {
+        "text": "one",
+        "start": 804.959,
+        "duration": 3.041
+    },
+    {
+        "text": "treated with a shockwave oh my gosh",
+        "start": 806.48,
+        "duration": 5.359
+    },
+    {
+        "text": "that's good this is unbelievable",
+        "start": 808.0,
+        "duration": 7.24
+    },
+    {
+        "text": "look at the 3610.",
+        "start": 811.839,
+        "duration": 3.401
+    },
+    {
+        "text": "wow",
+        "start": 829.68,
+        "duration": 5.48
+    },
+    {
+        "text": "that's a lot happening",
+        "start": 831.6,
+        "duration": 3.56
+    },
+    {
+        "text": "[Applause]",
+        "start": 851.9,
+        "duration": 5.82
+    },
+    {
+        "text": "look at the look at how there's nothing",
+        "start": 889.279,
+        "duration": 3.041
+    },
+    {
+        "text": "around the ball like it just creates",
+        "start": 890.72,
+        "duration": 4.76
+    },
+    {
+        "text": "this cavity",
+        "start": 892.32,
+        "duration": 3.16
+    },
+    {
+        "text": "think about this this is crazy momentum",
+        "start": 908.24,
+        "duration": 4.64
+    },
+    {
+        "text": "is conserved",
+        "start": 911.36,
+        "duration": 4.159
+    },
+    {
+        "text": "right so the ball is going straight in",
+        "start": 912.88,
+        "duration": 3.759
+    },
+    {
+        "text": "and so",
+        "start": 915.519,
+        "duration": 3.201
+    },
+    {
+        "text": "the total momentum after the collision",
+        "start": 916.639,
+        "duration": 4.0
+    },
+    {
+        "text": "is equal to the total momentum before",
+        "start": 918.72,
+        "duration": 3.28
+    },
+    {
+        "text": "the collision",
+        "start": 920.639,
+        "duration": 2.721
+    },
+    {
+        "text": "i mean there's some inefficiencies there",
+        "start": 922.0,
+        "duration": 3.04
+    },
+    {
+        "text": "and it raises the temperatures but",
+        "start": 923.36,
+        "duration": 4.4
+    },
+    {
+        "text": "that's why the ball goes to the right",
+        "start": 925.04,
+        "duration": 4.799
+    },
+    {
+        "text": "and those sprinkles go to the left so",
+        "start": 927.76,
+        "duration": 3.6
+    },
+    {
+        "text": "all these sprinkles that are slowly",
+        "start": 929.839,
+        "duration": 3.68
+    },
+    {
+        "text": "moving to the left",
+        "start": 931.36,
+        "duration": 4.24
+    },
+    {
+        "text": "the sum of that velocity to the left of",
+        "start": 933.519,
+        "duration": 3.68
+    },
+    {
+        "text": "the parting line is equal to the sum of",
+        "start": 935.6,
+        "duration": 4.0
+    },
+    {
+        "text": "the veloci the velocity times mass to",
+        "start": 937.199,
+        "duration": 4.64
+    },
+    {
+        "text": "the right parting line right",
+        "start": 939.6,
+        "duration": 3.12
+    },
+    {
+        "text": "yes",
+        "start": 941.839,
+        "duration": 2.721
+    },
+    {
+        "text": "this is a beautiful",
+        "start": 942.72,
+        "duration": 4.559
+    },
+    {
+        "text": "like galaxy collision simulation is what",
+        "start": 944.56,
+        "duration": 6.399
+    },
+    {
+        "text": "this is only sprinkles if you pause it",
+        "start": 947.279,
+        "duration": 6.401
+    },
+    {
+        "text": "it almost looks like it's still moving",
+        "start": 950.959,
+        "duration": 4.8
+    },
+    {
+        "text": "[Laughter]",
+        "start": 953.68,
+        "duration": 3.92
+    },
+    {
+        "text": "it's wild",
+        "start": 955.759,
+        "duration": 4.08
+    },
+    {
+        "text": "all right so andrew's sprinkle idea was",
+        "start": 957.6,
+        "duration": 4.64
+    },
+    {
+        "text": "pretty good i must admit yeah",
+        "start": 959.839,
+        "duration": 5.12
+    },
+    {
+        "text": "good job andrew oh man i almost want to",
+        "start": 962.24,
+        "duration": 4.159
+    },
+    {
+        "text": "do that again and do it super super",
+        "start": 964.959,
+        "duration": 3.44
+    },
+    {
+        "text": "tight we have another one don't we we",
+        "start": 966.399,
+        "duration": 4.0
+    },
+    {
+        "text": "have another one i don't know do we do",
+        "start": 968.399,
+        "duration": 3.921
+    },
+    {
+        "text": "that or we go to the next thing",
+        "start": 970.399,
+        "duration": 3.841
+    },
+    {
+        "text": "let's do the next thing say we shoot a",
+        "start": 972.32,
+        "duration": 4.959
+    },
+    {
+        "text": "jar of mayonnaise dude",
+        "start": 974.24,
+        "duration": 3.039
+    },
+    {
+        "text": "have you looked at the wide i'm just",
+        "start": 977.6,
+        "duration": 2.799
+    },
+    {
+        "text": "curious oh yeah yeah we gotta do the",
+        "start": 978.959,
+        "duration": 3.521
+    },
+    {
+        "text": "data i'm sorry",
+        "start": 980.399,
+        "duration": 4.0
+    },
+    {
+        "text": "yeah that's right i care about the data",
+        "start": 982.48,
+        "duration": 3.359
+    },
+    {
+        "text": "that's the only thing we're doing here",
+        "start": 984.399,
+        "duration": 3.36
+    },
+    {
+        "text": "so yeah i got graphs",
+        "start": 985.839,
+        "duration": 3.201
+    },
+    {
+        "text": "yeah yeah what are we doing here we're",
+        "start": 987.759,
+        "duration": 2.241
+    },
+    {
+        "text": "graphing",
+        "start": 989.04,
+        "duration": 3.12
+    },
+    {
+        "text": "velocity versus pressure there's drag",
+        "start": 990.0,
+        "duration": 4.16
+    },
+    {
+        "text": "data time",
+        "start": 992.16,
+        "duration": 3.119
+    },
+    {
+        "text": "all right",
+        "start": 994.16,
+        "duration": 2.64
+    },
+    {
+        "text": "all right here we go",
+        "start": 995.279,
+        "duration": 3.201
+    },
+    {
+        "text": "math is happening",
+        "start": 996.8,
+        "duration": 3.2
+    },
+    {
+        "text": "doing some math",
+        "start": 998.48,
+        "duration": 4.56
+    },
+    {
+        "text": "i'm trying to sound like a calculator",
+        "start": 1000.0,
+        "duration": 5.68
+    },
+    {
+        "text": "calculator okay muzzle velocity any",
+        "start": 1003.04,
+        "duration": 4.96
+    },
+    {
+        "text": "guesses this is no vacuum my guess is",
+        "start": 1005.68,
+        "duration": 4.64
+    },
+    {
+        "text": "that it doesn't affect it my guess is",
+        "start": 1008.0,
+        "duration": 3.519
+    },
+    {
+        "text": "that it's lower",
+        "start": 1010.32,
+        "duration": 3.199
+    },
+    {
+        "text": "my guess is lower what was the last shot",
+        "start": 1011.519,
+        "duration": 6.721
+    },
+    {
+        "text": "at 913 miles an hour this time is 849.",
+        "start": 1013.519,
+        "duration": 9.281
+    },
+    {
+        "text": "yep so it's lower so mach 1.1",
+        "start": 1018.24,
+        "duration": 4.56
+    },
+    {
+        "text": "right here can i see your pen again",
+        "start": 1023.279,
+        "duration": 5.441
+    },
+    {
+        "text": "oh yeah i didn't you know where i had to",
+        "start": 1025.52,
+        "duration": 4.96
+    },
+    {
+        "text": "it wasn't returned last time oh i'm",
+        "start": 1028.72,
+        "duration": 4.0
+    },
+    {
+        "text": "sorry 300",
+        "start": 1030.48,
+        "duration": 5.12
+    },
+    {
+        "text": "psi",
+        "start": 1032.72,
+        "duration": 4.88
+    },
+    {
+        "text": "tank",
+        "start": 1035.6,
+        "duration": 4.959
+    },
+    {
+        "text": "black means no pressure on",
+        "start": 1037.6,
+        "duration": 6.16
+    },
+    {
+        "text": "the vacuum and so that's mach 1.1 the",
+        "start": 1040.559,
+        "duration": 6.801
+    },
+    {
+        "text": "velocity at target is",
+        "start": 1043.76,
+        "duration": 3.6
+    },
+    {
+        "text": "746.",
+        "start": 1047.839,
+        "duration": 5.601
+    },
+    {
+        "text": "okay filling in the graph",
+        "start": 1050.48,
+        "duration": 5.28
+    },
+    {
+        "text": "all right i just plotted this",
+        "start": 1053.44,
+        "duration": 6.32
+    },
+    {
+        "text": "uh we were able to fill in 746 to 840",
+        "start": 1055.76,
+        "duration": 6.96
+    },
+    {
+        "text": "on our velocity chart",
+        "start": 1059.76,
+        "duration": 5.12
+    },
+    {
+        "text": "now it's time i say we shoot faster now",
+        "start": 1062.72,
+        "duration": 3.52
+    },
+    {
+        "text": "all right so we're doing well on our",
+        "start": 1064.88,
+        "duration": 3.76
+    },
+    {
+        "text": "primary objectives on our secondary",
+        "start": 1066.24,
+        "duration": 4.799
+    },
+    {
+        "text": "objectives is starting to get weird",
+        "start": 1068.64,
+        "duration": 4.8
+    },
+    {
+        "text": "uh joseph robinson",
+        "start": 1071.039,
+        "duration": 4.801
+    },
+    {
+        "text": "i don't know what's wrong with you but",
+        "start": 1073.44,
+        "duration": 3.119
+    },
+    {
+        "text": "uh",
+        "start": 1075.84,
+        "duration": 2.16
+    },
+    {
+        "text": "apparently we're gonna shoot a gallon of",
+        "start": 1076.559,
+        "duration": 2.961
+    },
+    {
+        "text": "mayonnaise thank you for supporting on",
+        "start": 1078.0,
+        "duration": 3.84
+    },
+    {
+        "text": "patreon",
+        "start": 1079.52,
+        "duration": 2.32
+    },
+    {
+        "text": "it's extra heavy mayonnaise shooting a",
+        "start": 1082.0,
+        "duration": 3.52
+    },
+    {
+        "text": "gallon of mayonnaise with a supersonic",
+        "start": 1083.919,
+        "duration": 4.561
+    },
+    {
+        "text": "baseball is weird",
+        "start": 1085.52,
+        "duration": 2.96
+    },
+    {
+        "text": "but i'm excited about it we need to move",
+        "start": 1088.559,
+        "duration": 3.681
+    },
+    {
+        "text": "that way",
+        "start": 1091.2,
+        "duration": 3.599
+    },
+    {
+        "text": "move it up oh i can move the mayonnaise",
+        "start": 1092.24,
+        "duration": 4.48
+    },
+    {
+        "text": "what am i doing",
+        "start": 1094.799,
+        "duration": 4.0
+    },
+    {
+        "text": "we need to move the whole cannon",
+        "start": 1096.72,
+        "duration": 3.92
+    },
+    {
+        "text": "or i could just",
+        "start": 1098.799,
+        "duration": 3.281
+    },
+    {
+        "text": "do that",
+        "start": 1100.64,
+        "duration": 3.52
+    },
+    {
+        "text": "supersonic baseball cannon versus",
+        "start": 1102.08,
+        "duration": 4.64
+    },
+    {
+        "text": "mayonnaise",
+        "start": 1104.16,
+        "duration": 6.639
+    },
+    {
+        "text": "so just to be clear three two one",
+        "start": 1106.72,
+        "duration": 5.92
+    },
+    {
+        "text": "okay turn the vacuum off okay i'm on",
+        "start": 1110.799,
+        "duration": 4.321
+    },
+    {
+        "text": "your on your count okay",
+        "start": 1112.64,
+        "duration": 3.6
+    },
+    {
+        "text": "three",
+        "start": 1115.12,
+        "duration": 2.08
+    },
+    {
+        "text": "two",
+        "start": 1116.24,
+        "duration": 3.92
+    },
+    {
+        "text": "one five",
+        "start": 1117.2,
+        "duration": 3.92
+    },
+    {
+        "text": "two",
+        "start": 1120.16,
+        "duration": 3.68
+    },
+    {
+        "text": "one",
+        "start": 1121.12,
+        "duration": 2.72
+    },
+    {
+        "text": "good",
+        "start": 1124.24,
+        "duration": 3.52
+    },
+    {
+        "text": "gracious oh",
+        "start": 1125.44,
+        "duration": 5.84
+    },
+    {
+        "text": "there's so much mayonnaise out there",
+        "start": 1127.76,
+        "duration": 6.72
+    },
+    {
+        "text": "it turned white there's a mist of bears",
+        "start": 1131.28,
+        "duration": 7.2
+    },
+    {
+        "text": "joseph robinson what are we done",
+        "start": 1134.48,
+        "duration": 6.8
+    },
+    {
+        "text": "oh dude",
+        "start": 1138.48,
+        "duration": 6.559
+    },
+    {
+        "text": "it's on the camera it's on the camera",
+        "start": 1141.28,
+        "duration": 3.759
+    },
+    {
+        "text": "no mayonnaise on that camera",
+        "start": 1145.76,
+        "duration": 4.12
+    },
+    {
+        "text": "no mayonnaise on that camera",
+        "start": 1150.32,
+        "duration": 3.44
+    },
+    {
+        "text": "do we have any mayonnaise on the drone",
+        "start": 1153.84,
+        "duration": 5.839
+    },
+    {
+        "text": "drone looks good",
+        "start": 1156.72,
+        "duration": 2.959
+    },
+    {
+        "text": "oh golly",
+        "start": 1160.08,
+        "duration": 3.64
+    },
+    {
+        "text": "i cannot describe the smell it's like oh",
+        "start": 1165.039,
+        "duration": 5.121
+    },
+    {
+        "text": "no",
+        "start": 1167.919,
+        "duration": 2.241
+    },
+    {
+        "text": "oh no",
+        "start": 1170.72,
+        "duration": 2.88
+    },
+    {
+        "text": "no no no",
+        "start": 1174.559,
+        "duration": 3.801
+    },
+    {
+        "text": "god",
+        "start": 1178.88,
+        "duration": 2.56
+    },
+    {
+        "text": "oh the",
+        "start": 1180.32,
+        "duration": 3.76
+    },
+    {
+        "text": "grass is slippery look my my shoes are",
+        "start": 1181.44,
+        "duration": 4.8
+    },
+    {
+        "text": "oily",
+        "start": 1184.08,
+        "duration": 3.28
+    },
+    {
+        "text": "okay",
+        "start": 1186.24,
+        "duration": 3.6
+    },
+    {
+        "text": "i hope it looks cool oh",
+        "start": 1187.36,
+        "duration": 3.84
+    },
+    {
+        "text": "so we got the",
+        "start": 1189.84,
+        "duration": 3.199
+    },
+    {
+        "text": "the sprinkles",
+        "start": 1191.2,
+        "duration": 4.24
+    },
+    {
+        "text": "mixed with mayo well i guess this will",
+        "start": 1193.039,
+        "duration": 5.601
+    },
+    {
+        "text": "keep our plate from rusting",
+        "start": 1195.44,
+        "duration": 3.2
+    },
+    {
+        "text": "did the ball survive",
+        "start": 1199.2,
+        "duration": 3.76
+    },
+    {
+        "text": "i don't know",
+        "start": 1201.12,
+        "duration": 5.12
+    },
+    {
+        "text": "i don't know why this made me sad",
+        "start": 1202.96,
+        "duration": 5.599
+    },
+    {
+        "text": "you sound like upset",
+        "start": 1206.24,
+        "duration": 4.96
+    },
+    {
+        "text": "what's that you sound upset i don't know",
+        "start": 1208.559,
+        "duration": 5.761
+    },
+    {
+        "text": "why it's so upsetting",
+        "start": 1211.2,
+        "duration": 3.12
+    },
+    {
+        "text": "oh man go down there and look at it and",
+        "start": 1214.48,
+        "duration": 3.6
+    },
+    {
+        "text": "you'll figure out why it's upsetting i",
+        "start": 1216.48,
+        "duration": 4.4
+    },
+    {
+        "text": "got mail on my drone did you really yeah",
+        "start": 1218.08,
+        "duration": 4.56
+    },
+    {
+        "text": "it stinks",
+        "start": 1220.88,
+        "duration": 3.279
+    },
+    {
+        "text": "oh golly",
+        "start": 1222.64,
+        "duration": 4.56
+    },
+    {
+        "text": "and then so the mavic is the mayo",
+        "start": 1224.159,
+        "duration": 7.281
+    },
+    {
+        "text": "i did not enjoy that i just want my data",
+        "start": 1227.2,
+        "duration": 7.28
+    },
+    {
+        "text": "does it explode in an interesting way",
+        "start": 1231.44,
+        "duration": 5.359
+    },
+    {
+        "text": "it's quite interesting dustin where does",
+        "start": 1234.48,
+        "duration": 3.439
+    },
+    {
+        "text": "it hit",
+        "start": 1236.799,
+        "duration": 4.0
+    },
+    {
+        "text": "did we aim correctly we hit dead center",
+        "start": 1237.919,
+        "duration": 5.12
+    },
+    {
+        "text": "did we really dead center so three right",
+        "start": 1240.799,
+        "duration": 4.801
+    },
+    {
+        "text": "here oh i'm hanging oops oh god oh god",
+        "start": 1243.039,
+        "duration": 4.721
+    },
+    {
+        "text": "is it visually stunning",
+        "start": 1245.6,
+        "duration": 4.079
+    },
+    {
+        "text": "yes",
+        "start": 1247.76,
+        "duration": 3.279
+    },
+    {
+        "text": "yes it is",
+        "start": 1249.679,
+        "duration": 3.841
+    },
+    {
+        "text": "something about that just felt weird",
+        "start": 1251.039,
+        "duration": 4.561
+    },
+    {
+        "text": "you feel a little dirty",
+        "start": 1253.52,
+        "duration": 3.44
+    },
+    {
+        "text": "all right all right you want to see this",
+        "start": 1255.6,
+        "duration": 3.199
+    },
+    {
+        "text": "oh no hey how about this look",
+        "start": 1256.96,
+        "duration": 2.88
+    },
+    {
+        "text": "oh",
+        "start": 1258.799,
+        "duration": 3.521
+    },
+    {
+        "text": "good old ken's extra heavy mayonnaise",
+        "start": 1259.84,
+        "duration": 4.64
+    },
+    {
+        "text": "all right are you ready i don't think i",
+        "start": 1262.32,
+        "duration": 4.64
+    },
+    {
+        "text": "am actually okay i'm gonna fast forward",
+        "start": 1264.48,
+        "duration": 3.6
+    },
+    {
+        "text": "and stop it",
+        "start": 1266.96,
+        "duration": 4.079
+    },
+    {
+        "text": "there's a shockwave dude",
+        "start": 1268.08,
+        "duration": 2.959
+    },
+    {
+        "text": "you just see this fire",
+        "start": 1272.48,
+        "duration": 4.199
+    },
+    {
+        "text": "oh my gosh",
+        "start": 1322.0,
+        "duration": 4.08
+    },
+    {
+        "text": "that is amazing",
+        "start": 1323.76,
+        "duration": 3.84
+    },
+    {
+        "text": "did you see the shockwave go over the",
+        "start": 1326.08,
+        "duration": 4.719
+    },
+    {
+        "text": "top of that oh yes",
+        "start": 1327.6,
+        "duration": 4.64
+    },
+    {
+        "text": "did you see the shockwave before it got",
+        "start": 1330.799,
+        "duration": 3.921
+    },
+    {
+        "text": "there we saw a shadowgraph i'm in your",
+        "start": 1332.24,
+        "duration": 4.96
+    },
+    {
+        "text": "lap i'm uncomfortable with this look",
+        "start": 1334.72,
+        "duration": 4.72
+    },
+    {
+        "text": "at that",
+        "start": 1337.2,
+        "duration": 3.68
+    },
+    {
+        "text": "is that the plastic what is that the",
+        "start": 1339.44,
+        "duration": 3.52
+    },
+    {
+        "text": "shockwave",
+        "start": 1340.88,
+        "duration": 5.52
+    },
+    {
+        "text": "that is amazing so we made fire",
+        "start": 1342.96,
+        "duration": 5.44
+    },
+    {
+        "text": "we dieseled mayonnaise",
+        "start": 1346.4,
+        "duration": 4.399
+    },
+    {
+        "text": "is on fire",
+        "start": 1348.4,
+        "duration": 4.72
+    },
+    {
+        "text": "this is the best advertisement for ken's",
+        "start": 1350.799,
+        "duration": 6.081
+    },
+    {
+        "text": "extra ever every mandate ever dude",
+        "start": 1353.12,
+        "duration": 5.12
+    },
+    {
+        "text": "okay you gotta go back look at the",
+        "start": 1356.88,
+        "duration": 3.84
+    },
+    {
+        "text": "shockwave first oh i saw it",
+        "start": 1358.24,
+        "duration": 5.679
+    },
+    {
+        "text": "what is the red is that the this is the",
+        "start": 1360.72,
+        "duration": 4.959
+    },
+    {
+        "text": "paint is it the stitches or the sticker",
+        "start": 1363.919,
+        "duration": 3.921
+    },
+    {
+        "text": "ripping it's the sticker stuff 86",
+        "start": 1365.679,
+        "duration": 5.0
+    },
+    {
+        "text": "degrees fahrenheit 52 relative humidity",
+        "start": 1367.84,
+        "duration": 5.52
+    },
+    {
+        "text": "29.86 inches of mercury okay so that was",
+        "start": 1370.679,
+        "duration": 3.721
+    },
+    {
+        "text": "75",
+        "start": 1373.36,
+        "duration": 4.6
+    },
+    {
+        "text": "36 10.",
+        "start": 1374.4,
+        "duration": 3.56
+    },
+    {
+        "text": "[Music]",
+        "start": 1402.28,
+        "duration": 3.029
+    },
+    {
+        "text": "that is incredible it looks like lips",
+        "start": 1407.28,
+        "duration": 5.279
+    },
+    {
+        "text": "yeah really big lips",
+        "start": 1409.44,
+        "duration": 3.119
+    },
+    {
+        "text": "look at did you see that no it did not",
+        "start": 1413.52,
+        "duration": 3.12
+    },
+    {
+        "text": "wow",
+        "start": 1415.679,
+        "duration": 2.641
+    },
+    {
+        "text": "look okay so",
+        "start": 1416.64,
+        "duration": 3.279
+    },
+    {
+        "text": "everything's coming towards the camera",
+        "start": 1418.32,
+        "duration": 4.479
+    },
+    {
+        "text": "right yeah and then when the gas hits oh",
+        "start": 1419.919,
+        "duration": 6.161
+    },
+    {
+        "text": "i see like a wall watch",
+        "start": 1422.799,
+        "duration": 7.721
+    },
+    {
+        "text": "look at that watch it just",
+        "start": 1426.08,
+        "duration": 4.44
+    },
+    {
+        "text": "it's still doing it yeah it all stopped",
+        "start": 1435.2,
+        "duration": 3.839
+    },
+    {
+        "text": "it's all just like it's no longer moving",
+        "start": 1437.2,
+        "duration": 3.68
+    },
+    {
+        "text": "towards you that's where it goes oh",
+        "start": 1439.039,
+        "duration": 2.961
+    },
+    {
+        "text": "they're popping they're like they're",
+        "start": 1440.88,
+        "duration": 2.72
+    },
+    {
+        "text": "hitting the back the",
+        "start": 1442.0,
+        "duration": 2.96
+    },
+    {
+        "text": "the backstop oh that's right what's",
+        "start": 1443.6,
+        "duration": 2.8
+    },
+    {
+        "text": "happening they're hitting the backstop",
+        "start": 1444.96,
+        "duration": 2.959
+    },
+    {
+        "text": "and popping",
+        "start": 1446.4,
+        "duration": 6.2
+    },
+    {
+        "text": "look right here yeah yeah yeah",
+        "start": 1447.919,
+        "duration": 4.681
+    },
+    {
+        "text": "have you smelled it down there yet",
+        "start": 1467.12,
+        "duration": 5.6
+    },
+    {
+        "text": "oh i know right that's just nasty",
+        "start": 1469.279,
+        "duration": 5.76
+    },
+    {
+        "text": "i know it is like i don't want to touch",
+        "start": 1472.72,
+        "duration": 4.4
+    },
+    {
+        "text": "it",
+        "start": 1475.039,
+        "duration": 2.081
+    },
+    {
+        "text": "you have to i know",
+        "start": 1477.6,
+        "duration": 4.64
+    },
+    {
+        "text": "[Laughter]",
+        "start": 1479.83,
+        "duration": 3.77
+    },
+    {
+        "text": "that's awful",
+        "start": 1482.24,
+        "duration": 3.039
+    },
+    {
+        "text": "that poor backdrop that was so like it",
+        "start": 1483.6,
+        "duration": 4.64
+    },
+    {
+        "text": "was all like rainbow",
+        "start": 1485.279,
+        "duration": 5.841
+    },
+    {
+        "text": "you see why i'm sad now i do you came",
+        "start": 1488.24,
+        "duration": 6.08
+    },
+    {
+        "text": "back and you were so deflated",
+        "start": 1491.12,
+        "duration": 5.039
+    },
+    {
+        "text": "i did it",
+        "start": 1494.32,
+        "duration": 5.239
+    },
+    {
+        "text": "day to time",
+        "start": 1496.159,
+        "duration": 3.4
+    },
+    {
+        "text": "math happening all right so the muzzle",
+        "start": 1500.159,
+        "duration": 4.601
+    },
+    {
+        "text": "velocity is",
+        "start": 1502.32,
+        "duration": 6.68
+    },
+    {
+        "text": "1074 miles per hour target velocity",
+        "start": 1504.76,
+        "duration": 7.88
+    },
+    {
+        "text": "968. we didn't quite overlap so",
+        "start": 1509.0,
+        "duration": 6.84
+    },
+    {
+        "text": "may please have your pin again",
+        "start": 1512.64,
+        "duration": 3.2
+    },
+    {
+        "text": "i know",
+        "start": 1516.0,
+        "duration": 4.64
+    },
+    {
+        "text": "so that was 500 psi",
+        "start": 1517.44,
+        "duration": 6.479
+    },
+    {
+        "text": "thank you 1.4 mach 1.4",
+        "start": 1520.64,
+        "duration": 5.039
+    },
+    {
+        "text": "one two three",
+        "start": 1523.919,
+        "duration": 4.481
+    },
+    {
+        "text": "four so that's what happens if you hit a",
+        "start": 1525.679,
+        "duration": 4.561
+    },
+    {
+        "text": "jar of mayonnaise with a baseball at a",
+        "start": 1528.4,
+        "duration": 4.8
+    },
+    {
+        "text": "thousand seventy-four yes now we know",
+        "start": 1530.24,
+        "duration": 4.559
+    },
+    {
+        "text": "obviously that question has been",
+        "start": 1533.2,
+        "duration": 3.92
+    },
+    {
+        "text": "answered",
+        "start": 1534.799,
+        "duration": 2.321
+    },
+    {
+        "text": "finally all right",
+        "start": 1537.76,
+        "duration": 4.08
+    },
+    {
+        "text": "everything is happening according to",
+        "start": 1539.6,
+        "duration": 4.16
+    },
+    {
+        "text": "what you would expect so anyway that's",
+        "start": 1541.84,
+        "duration": 3.28
+    },
+    {
+        "text": "our that's our new data point right",
+        "start": 1543.76,
+        "duration": 2.56
+    },
+    {
+        "text": "there",
+        "start": 1545.12,
+        "duration": 3.76
+    },
+    {
+        "text": "feel good about that we are trending up",
+        "start": 1546.32,
+        "duration": 4.64
+    },
+    {
+        "text": "which is expected obviously",
+        "start": 1548.88,
+        "duration": 3.679
+    },
+    {
+        "text": "so",
+        "start": 1550.96,
+        "duration": 2.4
+    },
+    {
+        "text": "good",
+        "start": 1552.559,
+        "duration": 2.72
+    },
+    {
+        "text": "this episode of smarter every day is",
+        "start": 1553.36,
+        "duration": 4.319
+    },
+    {
+        "text": "sponsored by audible and i love that",
+        "start": 1555.279,
+        "duration": 4.561
+    },
+    {
+        "text": "fact because i get to tell you about an",
+        "start": 1557.679,
+        "duration": 4.161
+    },
+    {
+        "text": "audiobook that means a lot to me you",
+        "start": 1559.84,
+        "duration": 4.24
+    },
+    {
+        "text": "might not know but in that tire swing",
+        "start": 1561.84,
+        "duration": 4.319
+    },
+    {
+        "text": "right there was the first time smarter",
+        "start": 1564.08,
+        "duration": 4.16
+    },
+    {
+        "text": "every day was ever sponsored i told you",
+        "start": 1566.159,
+        "duration": 3.841
+    },
+    {
+        "text": "about a book by a guy named c.s lewis",
+        "start": 1568.24,
+        "duration": 3.76
+    },
+    {
+        "text": "called the voyage of the dawn treader",
+        "start": 1570.0,
+        "duration": 3.12
+    },
+    {
+        "text": "well i'm going to tell you about one",
+        "start": 1572.0,
+        "duration": 3.36
+    },
+    {
+        "text": "today that's even cooler than that it's",
+        "start": 1573.12,
+        "duration": 4.64
+    },
+    {
+        "text": "called the screw tape letters and this",
+        "start": 1575.36,
+        "duration": 4.96
+    },
+    {
+        "text": "book's crazy it's about a demon who's",
+        "start": 1577.76,
+        "duration": 5.519
+    },
+    {
+        "text": "teaching a younger demon how to tempt a",
+        "start": 1580.32,
+        "duration": 5.52
+    },
+    {
+        "text": "human that sounds crazy because it is",
+        "start": 1583.279,
+        "duration": 4.241
+    },
+    {
+        "text": "and the book is awesome you gotta check",
+        "start": 1585.84,
+        "duration": 3.36
+    },
+    {
+        "text": "this out you can get this by going to",
+        "start": 1587.52,
+        "duration": 3.039
+    },
+    {
+        "text": "audible.com",
+        "start": 1589.2,
+        "duration": 3.52
+    },
+    {
+        "text": "smarter or texting the word smarter to",
+        "start": 1590.559,
+        "duration": 4.24
+    },
+    {
+        "text": "500 500 here's the deal though if you do",
+        "start": 1592.72,
+        "duration": 3.36
+    },
+    {
+        "text": "that you're gonna get an audible",
+        "start": 1594.799,
+        "duration": 2.801
+    },
+    {
+        "text": "subscription you get a book a month but",
+        "start": 1596.08,
+        "duration": 3.12
+    },
+    {
+        "text": "this is a part of the plus catalog",
+        "start": 1597.6,
+        "duration": 3.28
+    },
+    {
+        "text": "there's this whole section that are like",
+        "start": 1599.2,
+        "duration": 3.359
+    },
+    {
+        "text": "extra and you can pick whatever you want",
+        "start": 1600.88,
+        "duration": 4.0
+    },
+    {
+        "text": "the screwtape letters by cs lewis to my",
+        "start": 1602.559,
+        "duration": 5.041
+    },
+    {
+        "text": "surprise this audiobook is in the plus",
+        "start": 1604.88,
+        "duration": 4.72
+    },
+    {
+        "text": "catalog so you get it audible.com",
+        "start": 1607.6,
+        "duration": 4.88
+    },
+    {
+        "text": "smarter text the word smarter to 500 500",
+        "start": 1609.6,
+        "duration": 4.88
+    },
+    {
+        "text": "i go through this book with a bunch of",
+        "start": 1612.48,
+        "duration": 4.24
+    },
+    {
+        "text": "dudes from my church we listen to one of",
+        "start": 1614.48,
+        "duration": 4.0
+    },
+    {
+        "text": "the screwtape letters and then we talk",
+        "start": 1616.72,
+        "duration": 3.12
+    },
+    {
+        "text": "about it for an hour we do that every",
+        "start": 1618.48,
+        "duration": 3.92
+    },
+    {
+        "text": "week it's incredible go check this out",
+        "start": 1619.84,
+        "duration": 5.52
+    },
+    {
+        "text": "the screwtape letters by cs lewis you",
+        "start": 1622.4,
+        "duration": 4.8
+    },
+    {
+        "text": "will not be disappointed with this audio",
+        "start": 1625.36,
+        "duration": 4.88
+    },
+    {
+        "text": "book it's very very deep all right so",
+        "start": 1627.2,
+        "duration": 5.44
+    },
+    {
+        "text": "obviously we only did a few data point",
+        "start": 1630.24,
+        "duration": 5.039
+    },
+    {
+        "text": "shots in this episode it was just really",
+        "start": 1632.64,
+        "duration": 4.24
+    },
+    {
+        "text": "interesting so this is like a way to get",
+        "start": 1635.279,
+        "duration": 3.361
+    },
+    {
+        "text": "started we've got some more data points",
+        "start": 1636.88,
+        "duration": 3.6
+    },
+    {
+        "text": "coming up some patrons have suggested",
+        "start": 1638.64,
+        "duration": 3.68
+    },
+    {
+        "text": "some more things to shoot at it's",
+        "start": 1640.48,
+        "duration": 3.439
+    },
+    {
+        "text": "fascinating we got that silly putty i",
+        "start": 1642.32,
+        "duration": 2.719
+    },
+    {
+        "text": "mentioned we have some stuff i didn't",
+        "start": 1643.919,
+        "duration": 2.88
+    },
+    {
+        "text": "tell you about so please consider",
+        "start": 1645.039,
+        "duration": 3.12
+    },
+    {
+        "text": "subscribing if you'd like to see that",
+        "start": 1646.799,
+        "duration": 3.281
+    },
+    {
+        "text": "also if you'd like to be a patron i'd",
+        "start": 1648.159,
+        "duration": 3.441
+    },
+    {
+        "text": "love to send you a baseball like this",
+        "start": 1650.08,
+        "duration": 2.8
+    },
+    {
+        "text": "and if you have been a patron for a",
+        "start": 1651.6,
+        "duration": 2.959
+    },
+    {
+        "text": "while i've got something cool i'm going",
+        "start": 1652.88,
+        "duration": 3.279
+    },
+    {
+        "text": "to send you as a way to say thanks for",
+        "start": 1654.559,
+        "duration": 2.961
+    },
+    {
+        "text": "sticking around and being a patron for a",
+        "start": 1656.159,
+        "duration": 4.161
+    },
+    {
+        "text": "while anyway that's it i'm destined",
+        "start": 1657.52,
+        "duration": 4.56
+    },
+    {
+        "text": "you're getting smarter every day have a",
+        "start": 1660.32,
+        "duration": 3.599
+    },
+    {
+        "text": "good one remember this glove",
+        "start": 1662.08,
+        "duration": 3.52
+    },
+    {
+        "text": "look at that yeah",
+        "start": 1663.919,
+        "duration": 5.921
+    },
+    {
+        "text": "anyway have a good one bye",
+        "start": 1665.6,
+        "duration": 4.24
+    }
+]

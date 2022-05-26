@@ -1,0 +1,312 @@
+[
+    {
+        "text": "We're talking about Langton's ant, which is a really interesting kind of",
+        "start": 0.0,
+        "duration": 4.3
+    },
+    {
+        "text": "conceptual idea that someone's had.",
+        "start": 4.3,
+        "duration": 2.56
+    },
+    {
+        "text": "It's an example of what's called a \"cellular automaton\"",
+        "start": 6.86,
+        "duration": 2.64
+    },
+    {
+        "text": "Hello. Hello tiny dog.",
+        "start": 9.5,
+        "duration": 2.78
+    },
+    {
+        "text": "Oh, it's a different person",
+        "start": 13.58,
+        "duration": 1.6
+    },
+    {
+        "text": "[Brady] Sorry about that interruption.",
+        "start": 15.18,
+        "duration": 1.8
+    },
+    {
+        "text": "Langton's Ant is an example of what's called a \"cellular automaton\".",
+        "start": 16.98,
+        "duration": 4.48
+    },
+    {
+        "text": "So it's a bit like \"Game of Life\".",
+        "start": 21.46,
+        "duration": 2.34
+    },
+    {
+        "text": "Um... So you've got a grid of squares, the squares change colour depending on what's going on",
+        "start": 23.8,
+        "duration": 4.66
+    },
+    {
+        "text": "in the thing. In the Game of Life, it's slightly different because the whole thing has a set of rules,",
+        "start": 28.46,
+        "duration": 3.72
+    },
+    {
+        "text": "and everything changes at the same time.",
+        "start": 32.18,
+        "duration": 1.68
+    },
+    {
+        "text": "But in Langton's Ant there is a specific, there's an ant that lives on the grid, and it walks from square to square,",
+        "start": 33.86,
+        "duration": 5.82
+    },
+    {
+        "text": "and as it moves, it changes what the squares are doing.",
+        "start": 39.68,
+        "duration": 2.32
+    },
+    {
+        "text": "It's an example of something which has a very simple rule,",
+        "start": 42.0,
+        "duration": 3.5
+    },
+    {
+        "text": "but ends up being really, really complex.",
+        "start": 45.5,
+        "duration": 2.04
+    },
+    {
+        "text": "So this is a grid, a grid of squares, and I guess--",
+        "start": 47.54,
+        "duration": 3.08
+    },
+    {
+        "text": "[Brady] Show me how you made it. Show us, give us all your secrets.",
+        "start": 50.62,
+        "duration": 2.5
+    },
+    {
+        "text": "Uh, okey. Well I got a paper bag, and cut one side of it, and then I printed it on to that,",
+        "start": 53.12,
+        "duration": 4.24
+    },
+    {
+        "text": "and it didn't break my printer, which I was very happy about, and then I've laminated that",
+        "start": 57.36,
+        "duration": 4.22
+    },
+    {
+        "text": "so I can rub off.",
+        "start": 61.58,
+        "duration": 1.1
+    },
+    {
+        "text": "There's the handles of the paper bag.",
+        "start": 62.68,
+        "duration": 2.14
+    },
+    {
+        "text": "It's simple rules. Basically so you start off with a completely blank grid, that looks nothing like an ant.",
+        "start": 64.82,
+        "duration": 5.82
+    },
+    {
+        "text": "I'll give it another couple of legs. There we go.",
+        "start": 70.64,
+        "duration": 1.7
+    },
+    {
+        "text": "So essentially what he does, every turn, is he either turns left 90° or turns right 90°,",
+        "start": 72.34,
+        "duration": 6.36
+    },
+    {
+        "text": "steps forward, and changes the color of the square as he leaves.",
+        "start": 78.7,
+        "duration": 3.96
+    },
+    {
+        "text": "What he does depends on what color the square he's on is.",
+        "start": 82.66,
+        "duration": 3.94
+    },
+    {
+        "text": "So if he starts off on a white square,",
+        "start": 86.6,
+        "duration": 2.26
+    },
+    {
+        "text": "He will turn 90° to the right, and step forward, so now he'll be over here,",
+        "start": 88.86,
+        "duration": 4.06
+    },
+    {
+        "text": "and as he leaves that square, he will change it from white to black.",
+        "start": 92.92,
+        "duration": 3.74
+    },
+    {
+        "text": "So that's now a black square.",
+        "start": 96.66,
+        "duration": 1.22
+    },
+    {
+        "text": "Now he's on a white square, so he will turn right again.",
+        "start": 97.88,
+        "duration": 3.12
+    },
+    {
+        "text": "And he'll end up on this square facing this way, and he'll change that square to black as well.",
+        "start": 101.0,
+        "duration": 5.72
+    },
+    {
+        "text": "And then he'll keep doing that, so he'll move, turn right from there, and then end up here facing that way.",
+        "start": 106.72,
+        "duration": 5.38
+    },
+    {
+        "text": "And we'll change this one to black. And this is where it starts getting interesting because now he turns right",
+        "start": 112.1,
+        "duration": 4.26
+    },
+    {
+        "text": "and goes back on to that first square again. So he's now on there,",
+        "start": 116.36,
+        "duration": 2.94
+    },
+    {
+        "text": "facing that way, and you can't quite see him. If he's on a black square, it'll turn left.",
+        "start": 119.3,
+        "duration": 4.08
+    },
+    {
+        "text": "So he'll now come off this way, and go this way, and as he leaves that square, he changes it from black back to white again.",
+        "start": 123.38,
+        "duration": 6.6
+    },
+    {
+        "text": "So, essentially, you can keep moving like this, as long as you like, and just continue changing what happens",
+        "start": 130.12,
+        "duration": 6.8
+    },
+    {
+        "text": "on the board. And if you start with a completely blank square, it's kind of interesting, so he will",
+        "start": 136.92,
+        "duration": 5.5
+    },
+    {
+        "text": "start off by making quite simple patterns, and, kind of, things that look a bit symmetrical sometimes,",
+        "start": 142.42,
+        "duration": 5.54
+    },
+    {
+        "text": "But all, kind of, fairly simple, fairly self-contained.",
+        "start": 147.96,
+        "duration": 2.58
+    },
+    {
+        "text": "[♫]",
+        "start": 150.54,
+        "duration": 7.78
+    },
+    {
+        "text": "After a few hundred steps, he starts to just become more chaotic,",
+        "start": 158.32,
+        "duration": 3.76
+    },
+    {
+        "text": "and eventually what he's doing looks completely random, and you're thinking \"Is this just going to carry on like this forever?\"",
+        "start": 162.08,
+        "duration": 5.66
+    },
+    {
+        "text": "[♫]",
+        "start": 167.74,
+        "duration": 10.14
+    },
+    {
+        "text": "And when he get's to, it's something like 10000 steps, it's a number just a bit more than 10000,",
+        "start": 177.88,
+        "duration": 6.24
+    },
+    {
+        "text": "he suddenly becomes completely regular. So he will start doing, like a column of",
+        "start": 184.12,
+        "duration": 5.52
+    },
+    {
+        "text": "a diagonal column of things that moves offwards.",
+        "start": 189.64,
+        "duration": 2.76
+    },
+    {
+        "text": "[♫]",
+        "start": 192.4,
+        "duration": 4.38
+    },
+    {
+        "text": "It's like 104-step cycle that repeats and just continues moving diagonally off to a corner.",
+        "start": 196.78,
+        "duration": 5.94
+    },
+    {
+        "text": "He will carry on to infinity doing that.",
+        "start": 202.72,
+        "duration": 1.72
+    },
+    {
+        "text": "[♫]",
+        "start": 204.44,
+        "duration": 4.66
+    },
+    {
+        "text": "And it's what's called an attractor. So this diagonal column that he does",
+        "start": 209.1,
+        "duration": 4.48
+    },
+    {
+        "text": "is something that he will always end up doing. They tried loads of different initial states,",
+        "start": 213.58,
+        "duration": 4.32
+    },
+    {
+        "text": "loads of setting up the board to start with. He always ends up, eventually, getting to this weird diagonal",
+        "start": 217.9,
+        "duration": 6.38
+    },
+    {
+        "text": "column thing, and just carries on doing that forever. And I just love that. That's it's a thing that he's drawn to do.",
+        "start": 224.28,
+        "duration": 7.2
+    },
+    {
+        "text": "[♫]",
+        "start": 231.48,
+        "duration": 13.18
+    },
+    {
+        "text": "You can start with any grid you want, so you can almost program it like a computer because you know that",
+        "start": 244.66,
+        "duration": 5.26
+    },
+    {
+        "text": "it will do, you know, whatever it was going to do, given the particular starting configuration.",
+        "start": 249.92,
+        "duration": 4.62
+    },
+    {
+        "text": "And, I think it was about 2000, someone actually discovered that you can use this to run any computer",
+        "start": 254.54,
+        "duration": 5.38
+    },
+    {
+        "text": "program. So you can build, kind of,  computer logic gates, and that kind of thing within this system.",
+        "start": 259.92,
+        "duration": 6.4
+    },
+    {
+        "text": "And it is a Universal Turing Machine.",
+        "start": 266.32,
+        "duration": 2.44
+    }
+]

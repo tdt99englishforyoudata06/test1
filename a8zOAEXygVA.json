@@ -1,0 +1,207 @@
+[
+    {
+        "text": "When the soccer World Cup kicks off this Thursday,",
+        "start": 1.18,
+        "duration": 2.54
+    },
+    {
+        "text": "imagine watching it as 3D \"holograms\"",
+        "start": 3.72,
+        "duration": 2.44
+    },
+    {
+        "text": "on your kitchen table.",
+        "start": 6.16,
+        "duration": 1.64
+    },
+    {
+        "text": "That may not be far off thanks to a new technique",
+        "start": 7.8,
+        "duration": 2.34
+    },
+    {
+        "text": "that turns YouTube videos",
+        "start": 10.14,
+        "duration": 1.8
+    },
+    {
+        "text": "into 3D reconstructions of matches.",
+        "start": 11.94,
+        "duration": 3.0
+    },
+    {
+        "text": "The key to the approach",
+        "start": 14.94,
+        "duration": 0.86
+    },
+    {
+        "text": "is a convolutional neural network –",
+        "start": 15.8,
+        "duration": 2.42
+    },
+    {
+        "text": "a type of artificial intelligence algorithm",
+        "start": 18.22,
+        "duration": 2.34
+    },
+    {
+        "text": "loosely modelled on the part of the brain",
+        "start": 20.56,
+        "duration": 1.98
+    },
+    {
+        "text": "that processes visual data – that",
+        "start": 22.54,
+        "duration": 1.93
+    },
+    {
+        "text": "researchers trained to estimate how far the",
+        "start": 24.47,
+        "duration": 2.25
+    },
+    {
+        "text": "surfaces of each player are from the camera",
+        "start": 26.72,
+        "duration": 2.36
+    },
+    {
+        "text": "that recorded the match.",
+        "start": 29.08,
+        "duration": 2.4
+    },
+    {
+        "text": "The network analyzed 12,000 2D images of players",
+        "start": 31.48,
+        "duration": 3.3
+    },
+    {
+        "text": "extracted from the soccer video game FIFA",
+        "start": 34.78,
+        "duration": 2.7
+    },
+    {
+        "text": "alongside the corresponding 3D data from the game engine",
+        "start": 37.48,
+        "duration": 3.48
+    },
+    {
+        "text": "to learn how the two correlate.",
+        "start": 40.96,
+        "duration": 2.26
+    },
+    {
+        "text": "That allowed it to estimate depth maps for",
+        "start": 43.22,
+        "duration": 1.78
+    },
+    {
+        "text": "players from unseen 2D images.",
+        "start": 45.0,
+        "duration": 2.94
+    },
+    {
+        "text": "When shown unseen videos, the system accurately",
+        "start": 47.94,
+        "duration": 2.8
+    },
+    {
+        "text": "predicted depth maps for each player and combined",
+        "start": 50.74,
+        "duration": 3.02
+    },
+    {
+        "text": "them with the color footage to reconstruct",
+        "start": 53.76,
+        "duration": 1.78
+    },
+    {
+        "text": "each player in 3D.",
+        "start": 55.54,
+        "duration": 2.22
+    },
+    {
+        "text": "The players were then superimposed on a virtual",
+        "start": 57.76,
+        "duration": 2.04
+    },
+    {
+        "text": "soccer pitch allowing the match to be viewed",
+        "start": 59.8,
+        "duration": 2.26
+    },
+    {
+        "text": "in any 3D content viewer.",
+        "start": 62.06,
+        "duration": 2.66
+    },
+    {
+        "text": "The researchers tested the approach with Microsoft’s",
+        "start": 64.72,
+        "duration": 2.22
+    },
+    {
+        "text": "HoloLens smart glasses, which let them overlay",
+        "start": 66.94,
+        "duration": 3.38
+    },
+    {
+        "text": "the 3D reconstruction onto a real-world tabletop.",
+        "start": 70.32,
+        "duration": 3.76
+    },
+    {
+        "text": "The end product is still glitchy,",
+        "start": 74.08,
+        "duration": 1.8
+    },
+    {
+        "text": "it can't recreate the ball, doesn’t work in realtime,",
+        "start": 75.88,
+        "duration": 3.12
+    },
+    {
+        "text": "and only permits watching",
+        "start": 79.0,
+        "duration": 1.06
+    },
+    {
+        "text": "from the side of the pitch the video was recorded.",
+        "start": 80.06,
+        "duration": 2.78
+    },
+    {
+        "text": "But the technique could be more scalable",
+        "start": 82.84,
+        "duration": 1.92
+    },
+    {
+        "text": "than leading approaches for reconstructing sport in 3D,",
+        "start": 84.76,
+        "duration": 3.74
+    },
+    {
+        "text": "which require arrays of cameras",
+        "start": 88.5,
+        "duration": 1.36
+    },
+    {
+        "text": "around the pitch recording every angle.",
+        "start": 89.86,
+        "duration": 2.86
+    },
+    {
+        "text": "The researchers say the approach should also",
+        "start": 92.72,
+        "duration": 1.7
+    },
+    {
+        "text": "work for other events that happen in predefined arenas",
+        "start": 94.42,
+        "duration": 2.84
+    },
+    {
+        "text": "like music concerts or theatre.",
+        "start": 97.26,
+        "duration": 2.06
+    }
+]

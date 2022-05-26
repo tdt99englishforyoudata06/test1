@@ -1,0 +1,907 @@
+[
+    {
+        "text": "We're going to do Victorian Numberphile today.",
+        "start": 0.03,
+        "duration": 2.0
+    },
+    {
+        "text": "So I'm gonna be a Victorian and as a Victorian, I'm very concerned about the future of the nobility.",
+        "start": 2.139,
+        "duration": 6.86
+    },
+    {
+        "text": "And I don't know about you, but I'm very concerned that the aristocracy might die out, that the family names might die out.",
+        "start": 9.01,
+        "duration": 7.849
+    },
+    {
+        "text": "Apparently this was something that the Victorians were concerned about.",
+        "start": 17.41,
+        "duration": 3.11
+    },
+    {
+        "text": "So they wanted to know the probability that a family name might die out, or to put it another way",
+        "start": 20.68,
+        "duration": 5.99
+    },
+    {
+        "text": "they wanted to know the probability of extinction. It's kind of the same idea. So let's have a look at the maths of extinction.",
+        "start": 26.67,
+        "duration": 7.109
+    },
+    {
+        "text": "So let's have a guy up here at the top of the family tree,",
+        "start": 33.78,
+        "duration": 2.909
+    },
+    {
+        "text": "Sir Lemon of the noble Lemon family. So he wants to know if he, if his family name will survive.",
+        "start": 36.69,
+        "duration": 5.25
+    },
+    {
+        "text": "So I've got this die here, which is going to generate how many kids this person has. Or if I'm more technical it's going to",
+        "start": 41.94,
+        "duration": 7.08
+    },
+    {
+        "text": "generate how many sons this person has, if we treat family names in the traditional way, which is not necessarily true,",
+        "start": 49.27,
+        "duration": 6.559
+    },
+    {
+        "text": "but the idea that a family name is passed from father to son, who then passes it on to their son.",
+        "start": 55.899,
+        "duration": 5.84
+    },
+    {
+        "text": "[Old-fashioned voice-over] \"Mr and Mrs. Wilhelm of Sullivan, Illinois; state in America have a family of 13 sons - all boys\"",
+        "start": 61.739,
+        "duration": 4.349
+    },
+    {
+        "text": "So this is going to generate how many sons this person has. So they could have three, or he could have two,",
+        "start": 66.61,
+        "duration": 5.18
+    },
+    {
+        "text": "he could have one son. You could have zero children, and I've got zero here again, and zero here again.",
+        "start": 71.92,
+        "duration": 6.32
+    },
+    {
+        "text": "\"All you parents who want boys and get girls, just blame it on Mr. and Mrs Wilhelm.",
+        "start": 79.38,
+        "duration": 3.8
+    },
+    {
+        "text": "Nature has to strike an average somehow.\" - Let's do the first generation,",
+        "start": 83.26,
+        "duration": 4.06
+    },
+    {
+        "text": "let's see how many kids he will have. He has three kids. So he has three sons that are gonna pass on",
+        "start": 87.46,
+        "duration": 5.75
+    },
+    {
+        "text": "the family name. Now we're gonna see in turn how many kids they have. For the first one he has one",
+        "start": 93.88,
+        "duration": 6.05
+    },
+    {
+        "text": "more son there. The second son",
+        "start": 100.509,
+        "duration": 3.56
+    },
+    {
+        "text": "has two.",
+        "start": 104.89,
+        "duration": 1.65
+    },
+    {
+        "text": "Two sons. Great. And the third son, let's see how many kids he has and he has one. So they're doing quite well,",
+        "start": 106.54,
+        "duration": 7.369
+    },
+    {
+        "text": "so we're going to pass the name down another generation. Ah now, no kids. So we've got no kids here.",
+        "start": 114.009,
+        "duration": 6.26
+    },
+    {
+        "text": "So that's the end of that branch of the family tree. Let's do the other children here. Let's see how many kids they have.",
+        "start": 120.31,
+        "duration": 6.23
+    },
+    {
+        "text": "Okay, we've got two kids here and",
+        "start": 126.54,
+        "duration": 2.01
+    },
+    {
+        "text": "oh, the family line has ended there. And let's do this child, I haven't done this person yet. And let's see how many kids they have, ooh three.",
+        "start": 129.61,
+        "duration": 6.709
+    },
+    {
+        "text": "So that's nice and healthy.",
+        "start": 136.33,
+        "duration": 1.71
+    },
+    {
+        "text": "So we've got three more kids here. Let's do the next kid. Oh, oh,",
+        "start": 138.04,
+        "duration": 4.37
+    },
+    {
+        "text": "unfortunately that branch is now dead too. So all down to these last three kids here, let's see how they go. Oh good.",
+        "start": 144.069,
+        "duration": 6.919
+    },
+    {
+        "text": "We've got two kids here, zero here, and ooh three - we're doing quite well.",
+        "start": 151.06,
+        "duration": 5.54
+    },
+    {
+        "text": "Zero,",
+        "start": 157.3,
+        "duration": 1.23
+    },
+    {
+        "text": "that's a dead end. Oh,",
+        "start": 158.53,
+        "duration": 2.0
+    },
+    {
+        "text": "zero again, I'm afraid. That's a dead end.",
+        "start": 161.23,
+        "duration": 2.0
+    },
+    {
+        "text": "Zero again. Oh dear, this generation is not doing as well. Zero again.",
+        "start": 165.79,
+        "duration": 5.18
+    },
+    {
+        "text": "(Brady: Woah, it's all a no)",
+        "start": 170.97,
+        "duration": 1.36
+    },
+    {
+        "text": "So it's all down to one last kid here to pass on the family name. Oh and",
+        "start": 172.33,
+        "duration": 4.819
+    },
+    {
+        "text": "they had no children. So",
+        "start": 177.85,
+        "duration": 1.859
+    },
+    {
+        "text": "this family has gone extinct. Well, the family name has gone extinct. Now I'm going to use a different die.",
+        "start": 179.709,
+        "duration": 5.72
+    },
+    {
+        "text": "So on this die, I've got yeah, we could have three kids.",
+        "start": 185.64,
+        "duration": 2.879
+    },
+    {
+        "text": "We've got two kids here, two kids here, one, another one and a zero.",
+        "start": 189.19,
+        "duration": 5.69
+    },
+    {
+        "text": "So it's slightly different probabilities for this one.",
+        "start": 195.459,
+        "duration": 2.75
+    },
+    {
+        "text": "\"Makes you feel optimistic about the future the human race, don't it? 17's the number.\"\n- Let's see how it goes. Sir Lee",
+        "start": 202.959,
+        "duration": 6.74
+    },
+    {
+        "text": "Temple. All right. Here we go. Oh,",
+        "start": 210.43,
+        "duration": 2.27
+    },
+    {
+        "text": "so the first generation - just one kid.",
+        "start": 213.459,
+        "duration": 2.029
+    },
+    {
+        "text": "Let's carry on.",
+        "start": 216.7,
+        "duration": 1.83
+    },
+    {
+        "text": "Three kids for the next generation one, two and three.",
+        "start": 218.53,
+        "duration": 3.619
+    },
+    {
+        "text": "[fastforward noises]",
+        "start": 222.149,
+        "duration": 2.0
+    },
+    {
+        "text": "And let's do another one, oh three. So not too bad at all. So this is another healthy generation.",
+        "start": 231.73,
+        "duration": 6.979
+    },
+    {
+        "text": "So we can keep going and keep going. This seems like a bigger family. But is this family going to survive?",
+        "start": 238.87,
+        "duration": 5.179
+    },
+    {
+        "text": "I mean, well, I don't know yet.",
+        "start": 244.049,
+        "duration": 2.16
+    },
+    {
+        "text": "I mean I would have to do the maths. I would have to work out the probability that this family is going to survive.",
+        "start": 246.209,
+        "duration": 5.49
+    },
+    {
+        "text": "In fact, there is a nice way to work out if a family is going to go extinct.",
+        "start": 252.22,
+        "duration": 5.089
+    },
+    {
+        "text": "It's actually quite simple and it's just based on",
+        "start": 257.44,
+        "duration": 2.989
+    },
+    {
+        "text": "your average.",
+        "start": 261.039,
+        "duration": 1.621
+    },
+    {
+        "text": "The average number of kids will tell you when your family will go extinct.",
+        "start": 262.66,
+        "duration": 4.549
+    },
+    {
+        "text": "In fact, if your average number of kids is less than or equal to one you are guaranteed to go extinct.",
+        "start": 267.729,
+        "duration": 6.11
+    },
+    {
+        "text": "If it's greater than one you may go extinct,  it's not guaranteed.",
+        "start": 274.21,
+        "duration": 4.459
+    },
+    {
+        "text": "But if it's less than or equal to one absolutely guaranteed to go extinct. Now and I think this is",
+        "start": 279.1,
+        "duration": 5.059
+    },
+    {
+        "text": "slightly surprising. When I tell you that fact, I think that feels",
+        "start": 284.68,
+        "duration": 3.89
+    },
+    {
+        "text": "intuitively right, actually. I think that feels like \"oh, yeah, that makes sense\".",
+        "start": 289.6,
+        "duration": 3.049
+    },
+    {
+        "text": "But I don't think you would work that out without having to go through the maths and prove that that's true.",
+        "start": 292.65,
+        "duration": 4.949
+    },
+    {
+        "text": "\"Mr. Miller, a confirmed bachelor, left three quarters of a million dollars,",
+        "start": 297.599,
+        "duration": 3.75
+    },
+    {
+        "text": "155 thousand pounds in our money, to the Toronto mother who should have the most babies in the ten years following his death\".",
+        "start": 301.96,
+        "duration": 5.92
+    },
+    {
+        "text": "Okay, let's look at these dice I've been using. This last example, which was the very healthy family I had over here on the right,",
+        "start": 308.0,
+        "duration": 5.94
+    },
+    {
+        "text": "let's look at the probabilities. So we got the number of kids here. Let's have a look,",
+        "start": 313.96,
+        "duration": 3.8
+    },
+    {
+        "text": "well you could have 0 kids, you could have 1, 2, 3 - in a different experiment",
+        "start": 317.78,
+        "duration": 5.38
+    },
+    {
+        "text": "we could have 4, 5; so we could carry this on further. What was the probability of having 0 kids?",
+        "start": 323.16,
+        "duration": 5.97
+    },
+    {
+        "text": "Well, it's just 1 out of 6. What's the probability of having one?",
+        "start": 329.13,
+        "duration": 2.89
+    },
+    {
+        "text": "Well, there was a 1 and a 1, it was 2 out of 6.",
+        "start": 332.11,
+        "duration": 2.57
+    },
+    {
+        "text": "Probability of having 2? Well there was a 2 and a 2,",
+        "start": 335.28,
+        "duration": 2.76
+    },
+    {
+        "text": "so 2 out of 6. And the probability of having 3. It was just 1. 1 out of 6.",
+        "start": 338.34,
+        "duration": 5.3
+    },
+    {
+        "text": "So the average number of kids",
+        "start": 343.74,
+        "duration": 1.56
+    },
+    {
+        "text": "well",
+        "start": 345.3,
+        "duration": 0.42
+    },
+    {
+        "text": "I just add up the values here and divide by 6. 9 out of 6 would be the average.",
+        "start": 345.72,
+        "duration": 5.25
+    },
+    {
+        "text": "It's greater than 1. And this is going to be a very healthy family,",
+        "start": 351.37,
+        "duration": 3.619
+    },
+    {
+        "text": "I think that makes sense. If your average is greater than 1 the population is going to be growing.",
+        "start": 354.99,
+        "duration": 5.1
+    },
+    {
+        "text": "I think that makes sense. So you could be unlucky, you could go extinct.",
+        "start": 360.66,
+        "duration": 2.79
+    },
+    {
+        "text": "You could have a generation where you have no kids, you could go extinct. But generally you expect your population to grow.",
+        "start": 363.45,
+        "duration": 6.449
+    },
+    {
+        "text": "We compare that to the other example.",
+        "start": 370.12,
+        "duration": 2.0
+    },
+    {
+        "text": "So 3 out of 6",
+        "start": 372.67,
+        "duration": 2.0
+    },
+    {
+        "text": "probability of having zero kids. One out of six for one kid,",
+        "start": 374.89,
+        "duration": 3.559
+    },
+    {
+        "text": "One out of six for having two kids, one out of six for having three kids. So what's my average this time?",
+        "start": 379.06,
+        "duration": 5.6
+    },
+    {
+        "text": "I add up these values. Six divided by six, so the average is one.",
+        "start": 384.7,
+        "duration": 3.679
+    },
+    {
+        "text": "Okay, do you know, I don't know if that means my population is going to be growing or not growing. I'm not sure about that at the moment.",
+        "start": 388.9,
+        "duration": 7.1
+    },
+    {
+        "text": "There is another example we could have done, maybe a worse example.",
+        "start": 397.0,
+        "duration": 4.22
+    },
+    {
+        "text": "This is where the average is less than one. Just to show you what I've got. So zero kids,",
+        "start": 401.22,
+        "duration": 4.649
+    },
+    {
+        "text": "I've got three out of six. One kid, yeah, I've got one and a one, so that's two out of six.",
+        "start": 406.03,
+        "duration": 5.75
+    },
+    {
+        "text": "Two kids, I've got one of those, that's one out of six. I don't have a three on this so that's - so that's it.",
+        "start": 412.51,
+        "duration": 6.44
+    },
+    {
+        "text": "So the average is four divided by six which is less than one.",
+        "start": 418.95,
+        "duration": 3.779
+    },
+    {
+        "text": "I think it makes sense that this would have a dwindling population. Over time the population would be getting smaller and",
+        "start": 422.73,
+        "duration": 7.169
+    },
+    {
+        "text": "you would go extinct, probably go extinct, but it's guaranteed that you go extinct,",
+        "start": 430.21,
+        "duration": 5.509
+    },
+    {
+        "text": "that's the thing. You are guaranteed to go extinct if your average is less than one. The borderline case",
+        "start": 435.72,
+        "duration": 6.179
+    },
+    {
+        "text": "when the average is equal to one, you're guaranteed to go extinct.",
+        "start": 442.24,
+        "duration": 4.04
+    },
+    {
+        "text": "Which might not be so obvious.",
+        "start": 447.0,
+        "duration": 2.22
+    },
+    {
+        "text": "\"And they don't half keep her busy, what with the washing and the feeding of them all and that.",
+        "start": 449.46,
+        "duration": 3.88
+    },
+    {
+        "text": "Come along now, jump to it! Tallest at the back, shortest in the front, in single-file fall in.\"",
+        "start": 453.34,
+        "duration": 4.62
+    },
+    {
+        "text": "So what we're going to do to prove this is we're going to turn these probabilities that I've written out into a formula.",
+        "start": 458.16,
+        "duration": 6.3
+    },
+    {
+        "text": "I'm going to have the probability of no kids, which is 1/6 plus",
+        "start": 464.46,
+        "duration": 3.56
+    },
+    {
+        "text": "2/6 which is probably one kid",
+        "start": 468.55,
+        "duration": 2.0
+    },
+    {
+        "text": "x.",
+        "start": 471.06,
+        "duration": 2.0
+    },
+    {
+        "text": "Plus probability of two kids, that's 2/6 x squared plus",
+        "start": 473.26,
+        "duration": 3.8
+    },
+    {
+        "text": "probability of three kids that's 1/6 x cubed. Can you see the formula I've made out of this?",
+        "start": 479.0,
+        "duration": 5.5
+    },
+    {
+        "text": "I've made a formula and I've used the probabilities as the coefficients. Now I'm gonna call this formula,",
+        "start": 484.509,
+        "duration": 6.029
+    },
+    {
+        "text": "I'm gonna give it a name - G(x). Okay. So that's the name of this formula. Now here's the",
+        "start": 490.539,
+        "duration": 5.79
+    },
+    {
+        "text": "important thing about the formula, about G. I'm interested in the probability of extinction by",
+        "start": 497.08,
+        "duration": 5.86
+    },
+    {
+        "text": "generation n,",
+        "start": 504.24,
+        "duration": 2.32
+    },
+    {
+        "text": "right, some time in the future. This is equal to",
+        "start": 506.57,
+        "duration": 2.989
+    },
+    {
+        "text": "G",
+        "start": 510.229,
+        "duration": 1.201
+    },
+    {
+        "text": "of",
+        "start": 511.43,
+        "duration": 1.289
+    },
+    {
+        "text": "the probability of extinction by",
+        "start": 512.72,
+        "duration": 2.78
+    },
+    {
+        "text": "generation n-1.",
+        "start": 515.88,
+        "duration": 3.16
+    },
+    {
+        "text": "So I've lightly reduced the problem. Now that's not an obvious thing",
+        "start": 519.04,
+        "duration": 3.28
+    },
+    {
+        "text": "but I've slightly reduced the problem by one generation,",
+        "start": 522.339,
+        "duration": 3.09
+    },
+    {
+        "text": "if you can see that. If I do have chance to I might be able to justify this in a second.",
+        "start": 525.43,
+        "duration": 5.4
+    },
+    {
+        "text": "But I don't want to get caught up in this yet. This is the clever part, is",
+        "start": 530.83,
+        "duration": 3.599
+    },
+    {
+        "text": "I'm gonna let n",
+        "start": 535.04,
+        "duration": 1.739
+    },
+    {
+        "text": "tend to infinity.",
+        "start": 536.779,
+        "duration": 2.0
+    },
+    {
+        "text": "So I'm going to go far, far into the future.",
+        "start": 538.78,
+        "duration": 2.88
+    },
+    {
+        "text": "If I let n tend to infinity on the left hand side",
+        "start": 542.06,
+        "duration": 3.22
+    },
+    {
+        "text": "this is going to be the probability of ultimate extinction, at some point far in the future",
+        "start": 545.9,
+        "duration": 5.869
+    },
+    {
+        "text": "I am going to go extinct. That's the probability I'm interested in. On the right hand side,",
+        "start": 551.77,
+        "duration": 5.699
+    },
+    {
+        "text": "this becomes G of - and",
+        "start": 557.75,
+        "duration": 2.779
+    },
+    {
+        "text": "this expression here is",
+        "start": 561.32,
+        "duration": 2.0
+    },
+    {
+        "text": "also the probability of ultimate extinction.",
+        "start": 563.839,
+        "duration": 3.08
+    },
+    {
+        "text": "It's the same thing if we let n go to infinity. Or to put it another way, what we've got here is",
+        "start": 568.3,
+        "duration": 7.26
+    },
+    {
+        "text": "x=G(x). If I can solve this for x",
+        "start": 576.54,
+        "duration": 5.66
+    },
+    {
+        "text": "I will have the probability of ultimate extinction. Let's do one of our examples, just to see how this works.",
+        "start": 582.22,
+        "duration": 7.14
+    },
+    {
+        "text": "So my G(x) in my first example was this. And I'm trying to solve this equal to",
+        "start": 590.089,
+        "duration": 5.869
+    },
+    {
+        "text": "x.",
+        "start": 596.63,
+        "duration": 1.199
+    },
+    {
+        "text": "Well you just solve that, I mean there's lots of ways to solve this,",
+        "start": 597.829,
+        "duration": 3.92
+    },
+    {
+        "text": "I mean, I won't go through the details of solving it. And you will get two solutions. I'll tell you what they are.",
+        "start": 601.75,
+        "duration": 5.669
+    },
+    {
+        "text": "They are x equals",
+        "start": 608.54,
+        "duration": 1.9
+    },
+    {
+        "text": "0.30 and 1, but it's the smallest one we want.",
+        "start": 610.44,
+        "duration": 4.5
+    },
+    {
+        "text": "The smallest solution is the probability of ultimate extinction.",
+        "start": 614.96,
+        "duration": 4.82
+    },
+    {
+        "text": "So for this dice that I was using the probability of ultimate extinction was about 30%.",
+        "start": 620.279,
+        "duration": 5.24
+    },
+    {
+        "text": "If I did it for a really long time, I'm not expecting to go extinct.",
+        "start": 625.709,
+        "duration": 4.19
+    },
+    {
+        "text": "I have a 30% probability that I will go extinct. Let's have a look at",
+        "start": 629.899,
+        "duration": 4.65
+    },
+    {
+        "text": "when you are guaranteed to go extinct, let's compare that with the other dice.",
+        "start": 635.31,
+        "duration": 3.409
+    },
+    {
+        "text": "So I had my G(x) for my example and I'm going to draw the graph for G of x.",
+        "start": 638.72,
+        "duration": 4.619
+    },
+    {
+        "text": "So there's your y-axis, there's your x-axis.",
+        "start": 643.339,
+        "duration": 2.28
+    },
+    {
+        "text": "On this graph I'm going to draw in the y equals x line there, dotted. If x was equal to 0",
+        "start": 646.5,
+        "duration": 6.32
+    },
+    {
+        "text": "most of those terms cancelled out. And the only term I had left was the probability of no kids. It was 1/6.",
+        "start": 653.64,
+        "duration": 6.829
+    },
+    {
+        "text": "So when x is 0, you're crossing the y axis at this point.",
+        "start": 661.08,
+        "duration": 3.679
+    },
+    {
+        "text": "If x is equal to 1",
+        "start": 665.64,
+        "duration": 2.0
+    },
+    {
+        "text": "then what happens is G(x) just becomes adding all the probabilities together. If you add all the probabilities",
+        "start": 667.83,
+        "duration": 6.379
+    },
+    {
+        "text": "together you always get 1. That's always guaranteed to happen. So",
+        "start": 674.43,
+        "duration": 5.479
+    },
+    {
+        "text": "this point is always on my curve G,",
+        "start": 680.52,
+        "duration": 3.439
+    },
+    {
+        "text": "this is the point (1,1). That's always going to be there. And then if I draw the graph of G, it looks like this.",
+        "start": 683.959,
+        "duration": 6.45
+    },
+    {
+        "text": "It curves upwards like this.",
+        "start": 691.4,
+        "duration": 3.0
+    },
+    {
+        "text": "So this is my graph G of x.",
+        "start": 694.98,
+        "duration": 2.72
+    },
+    {
+        "text": "And this is true in general when your average",
+        "start": 698.55,
+        "duration": 2.599
+    },
+    {
+        "text": "is greater than 1. It's always going to curve up this way. It's always going to cross the y=x line twice,",
+        "start": 702.779,
+        "duration": 7.04
+    },
+    {
+        "text": "here at 1 because that always happens, and this one here the smaller one",
+        "start": 711.12,
+        "duration": 4.489
+    },
+    {
+        "text": "was the probability of extinction.",
+        "start": 716.3,
+        "duration": 2.42
+    },
+    {
+        "text": "Now let's compare that with the average equal to 1 or less than 1. Let's look at the graphs.\n- (Brady: The other dice?)",
+        "start": 718.78,
+        "duration": 6.18
+    },
+    {
+        "text": "Yeah, the other dice. Same thing,",
+        "start": 725.1,
+        "duration": 2.299
+    },
+    {
+        "text": "there's my y equals x line. And I'm going to draw what G looks like. So if the average",
+        "start": 727.47,
+        "duration": 6.08
+    },
+    {
+        "text": "was equal to 1, it tends to look like this. So you'd have",
+        "start": 734.85,
+        "duration": 3.979
+    },
+    {
+        "text": "a probability here. You're always going to have the probability 1,1 or the point (1,1).",
+        "start": 739.81,
+        "duration": 4.469
+    },
+    {
+        "text": "And then the curve of G comes up,",
+        "start": 744.86,
+        "duration": 2.599
+    },
+    {
+        "text": "it's always increasing like that, just kind of touches that point there and moves off.",
+        "start": 748.1,
+        "duration": 5.0
+    },
+    {
+        "text": "Now, the probability of extinction is when it crosses the y equals x line.",
+        "start": 754.12,
+        "duration": 5.44
+    },
+    {
+        "text": "In this example I had, it crossed twice. I used, I needed the smaller one.",
+        "start": 760.36,
+        "duration": 4.36
+    },
+    {
+        "text": "In this example",
+        "start": 765.439,
+        "duration": 1.02
+    },
+    {
+        "text": "it only ever crosses once. It just touches the point (1,1) which means that the probability of extinction",
+        "start": 766.459,
+        "duration": 7.789
+    },
+    {
+        "text": "is 1, because it's the only time we crossed that line and that's the thing",
+        "start": 774.829,
+        "duration": 3.919
+    },
+    {
+        "text": "we need to know. The probability of extinction it's equal to 1 which means you're guaranteed to go extinct. And",
+        "start": 778.749,
+        "duration": 5.97
+    },
+    {
+        "text": "just to show our third example. We got the y and x axis. We've got a y equals x line.",
+        "start": 784.999,
+        "duration": 6.29
+    },
+    {
+        "text": "We're crossing",
+        "start": 792.62,
+        "duration": 1.769
+    },
+    {
+        "text": "the y-axis somewhere. We know",
+        "start": 794.389,
+        "duration": 2.69
+    },
+    {
+        "text": "we cross the point (1,1) and I'm going to draw in the curve G, and this is for the average less than 1.",
+        "start": 798.16,
+        "duration": 7.48
+    },
+    {
+        "text": "What happens here is we're kind of curving upwards again,",
+        "start": 805.66,
+        "duration": 3.14
+    },
+    {
+        "text": "and we cross through that point, which is the point x=1 which again is the probability of extinction.",
+        "start": 809.3,
+        "duration": 6.109
+    },
+    {
+        "text": "Which means you're guaranteed to go extinct. This is all true in general,",
+        "start": 815.959,
+        "duration": 4.669
+    },
+    {
+        "text": "there's only one exception to what I've said, which is this dice.",
+        "start": 821.509,
+        "duration": 3.71
+    },
+    {
+        "text": "And this is the one which has a 1 on every side. And if I roll this, I could roll it forever",
+        "start": 826.49,
+        "duration": 7.069
+    },
+    {
+        "text": "I would never go extinct, but the average for that die is",
+        "start": 833.559,
+        "duration": 3.81
+    },
+    {
+        "text": "1. So that's our one exception to what I told you.",
+        "start": 838.069,
+        "duration": 3.26
+    },
+    {
+        "text": "[Preview] So there was this thing that I said and I didn't quite justify it straight away,",
+        "start": 842.029,
+        "duration": 4.369
+    },
+    {
+        "text": "but let's try and justify it. So I had this, this was the important thing - the probability of extinction,",
+        "start": 846.92,
+        "duration": 4.82
+    },
+    {
+        "text": "let's say, by",
+        "start": 852.529,
+        "duration": 2.0
+    },
+    {
+        "text": "generation n...",
+        "start": 854.6,
+        "duration": 2.0
+    }
+]

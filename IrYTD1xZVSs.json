@@ -1,0 +1,292 @@
+[
+    {
+        "text": "Within your fingertips are many sensors",
+        "start": 0.71,
+        "duration": 2.82
+    },
+    {
+        "text": "feeding you information on the tactile world",
+        "start": 3.53,
+        "duration": 2.59
+    },
+    {
+        "text": "grip, friction, pressure -",
+        "start": 6.12,
+        "duration": 2.01
+    },
+    {
+        "text": "all these things you need to pick up a pen",
+        "start": 8.13,
+        "duration": 2.81
+    },
+    {
+        "text": "or feel bumps on a piece of paper.",
+        "start": 10.94,
+        "duration": 2.61
+    },
+    {
+        "text": "Now researchers have created a synthetic system that",
+        "start": 13.55,
+        "duration": 2.53
+    },
+    {
+        "text": "captures many aspects of this biological feat.",
+        "start": 16.08,
+        "duration": 2.64
+    },
+    {
+        "text": "This “neuromorphic” system uses flexible electronics",
+        "start": 19.24,
+        "duration": 3.4
+    },
+    {
+        "text": "to sense and report on tactile information",
+        "start": 22.64,
+        "duration": 2.78
+    },
+    {
+        "text": "Classic computers get along by crunching",
+        "start": 26.08,
+        "duration": 2.28
+    },
+    {
+        "text": "large amounts of 1s and 0s",
+        "start": 28.36,
+        "duration": 1.789
+    },
+    {
+        "text": "which can add up to a lot of energy consumption.",
+        "start": 30.149,
+        "duration": 2.431
+    },
+    {
+        "text": "We can’t have our brains",
+        "start": 33.18,
+        "duration": 1.5
+    },
+    {
+        "text": "getting hot like an overworked laptop",
+        "start": 34.68,
+        "duration": 2.62
+    },
+    {
+        "text": "so our bodies have a super efficient way",
+        "start": 37.309,
+        "duration": 2.271
+    },
+    {
+        "text": "of dealing with a barrage of input.",
+        "start": 39.58,
+        "duration": 2.639
+    },
+    {
+        "text": "For example --",
+        "start": 42.219,
+        "duration": 1.031
+    },
+    {
+        "text": "there is pressure on many sensors on the skin,",
+        "start": 43.25,
+        "duration": 2.37
+    },
+    {
+        "text": "those signals are funneled to a single neuron",
+        "start": 45.62,
+        "duration": 2.779
+    },
+    {
+        "text": "that, if it reaches a certain threshold,",
+        "start": 48.399,
+        "duration": 2.061
+    },
+    {
+        "text": "triggers a response that passes the message on.",
+        "start": 50.46,
+        "duration": 3.239
+    },
+    {
+        "text": "Signals from these neurons converge",
+        "start": 53.699,
+        "duration": 1.421
+    },
+    {
+        "text": "on the next layer up, which",
+        "start": 55.12,
+        "duration": 1.45
+    },
+    {
+        "text": "integrates the information further with other sources.",
+        "start": 56.57,
+        "duration": 3.03
+    },
+    {
+        "text": "Here’s how the artificial neuron replicates biology:",
+        "start": 60.04,
+        "duration": 4.159
+    },
+    {
+        "text": "Touching the pressure sensor increases the",
+        "start": 64.199,
+        "duration": 2.121
+    },
+    {
+        "text": "electrical voltage between a pair of electrodes",
+        "start": 66.32,
+        "duration": 2.339
+    },
+    {
+        "text": "in the sensor.",
+        "start": 68.659,
+        "duration": 1.21
+    },
+    {
+        "text": "That extra voltage is used by a neighboring device,",
+        "start": 69.869,
+        "duration": 2.311
+    },
+    {
+        "text": "called a ring oscillator,",
+        "start": 72.18,
+        "duration": 1.3
+    },
+    {
+        "text": "to create a string of electrical pulses.",
+        "start": 73.48,
+        "duration": 2.62
+    },
+    {
+        "text": "Those pulses, and ones from neighboring rings,",
+        "start": 76.1,
+        "duration": 2.58
+    },
+    {
+        "text": "are then sent to a third device,",
+        "start": 78.68,
+        "duration": 1.92
+    },
+    {
+        "text": "called a synaptic transistor,",
+        "start": 80.6,
+        "duration": 2.51
+    },
+    {
+        "text": "which integrates the incoming signals and generates its",
+        "start": 83.11,
+        "duration": 2.539
+    },
+    {
+        "text": "own series of pulses",
+        "start": 85.649,
+        "duration": 1.671
+    },
+    {
+        "text": "depending on the pattern it receives.",
+        "start": 87.32,
+        "duration": 2.11
+    },
+    {
+        "text": "For example, applying steady soft pressure",
+        "start": 89.43,
+        "duration": 2.79
+    },
+    {
+        "text": "produces a series of pulses at a different rate",
+        "start": 92.22,
+        "duration": 2.34
+    },
+    {
+        "text": "than applying more forceful pressure.",
+        "start": 94.56,
+        "duration": 2.62
+    },
+    {
+        "text": "Researchers showed they could use their sensors",
+        "start": 97.48,
+        "duration": 2.76
+    },
+    {
+        "text": "to detect the placement and motion of a small rod",
+        "start": 100.24,
+        "duration": 4.6
+    },
+    {
+        "text": "and detect a braille pattern.",
+        "start": 104.84,
+        "duration": 2.54
+    },
+    {
+        "text": "They even sent the output pulses to an electrode",
+        "start": 107.38,
+        "duration": 3.82
+    },
+    {
+        "text": "inserted in a detached leg of a cockroach",
+        "start": 111.2,
+        "duration": 3.209
+    },
+    {
+        "text": "and showed that the insect’s nervous system",
+        "start": 114.409,
+        "duration": 1.951
+    },
+    {
+        "text": "could receive the pulses and move the leg in response.",
+        "start": 116.36,
+        "duration": 3.84
+    },
+    {
+        "text": "None of these parts are particularly new.",
+        "start": 120.2,
+        "duration": 2.06
+    },
+    {
+        "text": "But using them to generate responses",
+        "start": 122.66,
+        "duration": 1.54
+    },
+    {
+        "text": "to tactile information is.",
+        "start": 124.2,
+        "duration": 2.16
+    },
+    {
+        "text": "In the future, cheap and efficient systems like these",
+        "start": 126.36,
+        "duration": 2.92
+    },
+    {
+        "text": "could create large arrays of sensors for prosthetics.",
+        "start": 129.28,
+        "duration": 3.64
+    },
+    {
+        "text": "And these types of circuits can aid in building robots",
+        "start": 133.53,
+        "duration": 2.47
+    },
+    {
+        "text": "that can sense and respond to the environment.",
+        "start": 136.01,
+        "duration": 2.55
+    },
+    {
+        "text": "It’s fine to have a preprogrammed bot build a car",
+        "start": 138.56,
+        "duration": 3.15
+    },
+    {
+        "text": "but when it needs to respond to changes",
+        "start": 141.71,
+        "duration": 2.39
+    },
+    {
+        "text": "in the world around i --including moving people--",
+        "start": 144.1,
+        "duration": 2.9
+    },
+    {
+        "text": "the more senses the better.",
+        "start": 147.0,
+        "duration": 2.76
+    }
+]

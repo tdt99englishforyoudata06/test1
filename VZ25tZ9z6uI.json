@@ -1,0 +1,2682 @@
+[
+    {
+        "text": "Today we're going to look at my favourite",
+        "start": 0.08,
+        "duration": 1.84
+    },
+    {
+        "text": "puzzle. It's",
+        "start": 1.92,
+        "duration": 1.12
+    },
+    {
+        "text": "involving squares, rectangles - I've",
+        "start": 3.04,
+        "duration": 3.12
+    },
+    {
+        "text": "actually used this a few times in the",
+        "start": 6.16,
+        "duration": 1.84
+    },
+    {
+        "text": "Oxford University admissions interview",
+        "start": 8.0,
+        "duration": 2.559
+    },
+    {
+        "text": "questions so it's got some heritage",
+        "start": 10.559,
+        "duration": 1.761
+    },
+    {
+        "text": "behind it, bit of prestige\nbehind this question.",
+        "start": 12.32,
+        "duration": 2.319
+    },
+    {
+        "text": "I won't be using it anymore because I'm",
+        "start": 14.639,
+        "duration": 1.361
+    },
+    {
+        "text": "going to tell you all how it's done.",
+        "start": 16.0,
+        "duration": 2.0
+    },
+    {
+        "text": "We're going to start \nwith a square, like so.",
+        "start": 18.0,
+        "duration": 3.199
+    },
+    {
+        "text": "And this can be any size square, it",
+        "start": 21.199,
+        "duration": 1.84
+    },
+    {
+        "text": "doesn't really matter, and what we want",
+        "start": 23.039,
+        "duration": 1.441
+    },
+    {
+        "text": "to do",
+        "start": 24.48,
+        "duration": 0.879
+    },
+    {
+        "text": "is fill the square with rectangles.",
+        "start": 25.359,
+        "duration": 3.121
+    },
+    {
+        "text": "Now the rectangles can be of any size as",
+        "start": 28.48,
+        "duration": 2.48
+    },
+    {
+        "text": "well, but they have a rule",
+        "start": 30.96,
+        "duration": 2.0
+    },
+    {
+        "text": "that they have to be in the ratio 2:1.",
+        "start": 32.96,
+        "duration": 3.84
+    },
+    {
+        "text": "So this doesn't mean this is length two",
+        "start": 36.8,
+        "duration": 1.52
+    },
+    {
+        "text": "and this is length one, this could be",
+        "start": 38.32,
+        "duration": 1.68
+    },
+    {
+        "text": "length - let's say this was two",
+        "start": 40.0,
+        "duration": 1.92
+    },
+    {
+        "text": "quarters, and then - oh I should have",
+        "start": 41.92,
+        "duration": 1.84
+    },
+    {
+        "text": "picked a better number -",
+        "start": 43.76,
+        "duration": 1.119
+    },
+    {
+        "text": "and this one needs to be one quarter. So",
+        "start": 44.879,
+        "duration": 1.84
+    },
+    {
+        "text": "we could have small ones,",
+        "start": 46.719,
+        "duration": 1.281
+    },
+    {
+        "text": "and really tiny ones - it doesn't matter",
+        "start": 48.0,
+        "duration": 2.32
+    },
+    {
+        "text": "the size of the rectangle they just have",
+        "start": 50.32,
+        "duration": 1.6
+    },
+    {
+        "text": "to be in this ratio;",
+        "start": 51.92,
+        "duration": 1.279
+    },
+    {
+        "text": "long side is twice the length of the",
+        "start": 53.199,
+        "duration": 2.161
+    },
+    {
+        "text": "short side.",
+        "start": 55.36,
+        "duration": 0.879
+    },
+    {
+        "text": "And what we want to do is fill the",
+        "start": 56.239,
+        "duration": 2.16
+    },
+    {
+        "text": "square with these rectangles.",
+        "start": 58.399,
+        "duration": 1.441
+    },
+    {
+        "text": "And we're interested in, for what numbers",
+        "start": 59.84,
+        "duration": 3.039
+    },
+    {
+        "text": "of rectangles",
+        "start": 62.879,
+        "duration": 1.041
+    },
+    {
+        "text": "is it possible to fill the square? So",
+        "start": 63.92,
+        "duration": 2.96
+    },
+    {
+        "text": "clearly for 1 it isn't",
+        "start": 66.88,
+        "duration": 1.279
+    },
+    {
+        "text": "because a rectangle in this ratio",
+        "start": 68.159,
+        "duration": 2.261
+    },
+    {
+        "text": "2:1 is not a square",
+        "start": 70.42,
+        "duration": 1.42
+    },
+    {
+        "text": "so you can't just fill it \nwith one, so we can",
+        "start": 71.84,
+        "duration": 3.44
+    },
+    {
+        "text": "say for n equals one that's a big no. But",
+        "start": 75.28,
+        "duration": 2.72
+    },
+    {
+        "text": "then for n equals",
+        "start": 78.0,
+        "duration": 0.96
+    },
+    {
+        "text": "2 it's going to work because I can",
+        "start": 78.96,
+        "duration": 1.839
+    },
+    {
+        "text": "just do that. If we say the square's one",
+        "start": 80.799,
+        "duration": 1.441
+    },
+    {
+        "text": "by one",
+        "start": 82.24,
+        "duration": 0.8
+    },
+    {
+        "text": "then both of these \nrectangles are one by a half,",
+        "start": 83.04,
+        "duration": 3.439
+    },
+    {
+        "text": "twice in the ratio, and we can fill it",
+        "start": 86.479,
+        "duration": 2.401
+    },
+    {
+        "text": "with two. So",
+        "start": 88.88,
+        "duration": 0.8
+    },
+    {
+        "text": "n equals two is a tick and that was n",
+        "start": 89.68,
+        "duration": 3.04
+    },
+    {
+        "text": "equals one",
+        "start": 92.72,
+        "duration": 0.8
+    },
+    {
+        "text": "was the cross. And we want to know for",
+        "start": 93.52,
+        "duration": 2.16
+    },
+    {
+        "text": "what other values",
+        "start": 95.68,
+        "duration": 1.92
+    },
+    {
+        "text": "can we do this? Is it possible for any",
+        "start": 97.6,
+        "duration": 1.68
+    },
+    {
+        "text": "other values? Can we do it for all of",
+        "start": 99.28,
+        "duration": 1.6
+    },
+    {
+        "text": "them?",
+        "start": 100.88,
+        "duration": 0.8
+    },
+    {
+        "text": "That's the question, \ncan we figure this out.",
+        "start": 101.68,
+        "duration": 1.9
+    },
+    {
+        "text": "(Brady: So you can use\nduplicates obviously?)",
+        "start": 104.13,
+        "duration": 1.949
+    },
+    {
+        "text": "Yes we can use the- so here we've got two",
+        "start": 106.079,
+        "duration": 2.561
+    },
+    {
+        "text": "of the same size.",
+        "start": 108.64,
+        "duration": 1.2
+    },
+    {
+        "text": "I could have- it doesn't have to all be",
+        "start": 109.84,
+        "duration": 2.48
+    },
+    {
+        "text": "the same size.",
+        "start": 112.32,
+        "duration": 0.88
+    },
+    {
+        "text": "So that's important, we could have one",
+        "start": 113.2,
+        "duration": 2.16
+    },
+    {
+        "text": "big one and I don't know six small ones",
+        "start": 115.36,
+        "duration": 1.84
+    },
+    {
+        "text": "or something. Or maybe like four",
+        "start": 117.2,
+        "duration": 1.36
+    },
+    {
+        "text": "different size rectangles;",
+        "start": 118.56,
+        "duration": 1.519
+    },
+    {
+        "text": "there's no limit in the size of the",
+        "start": 120.079,
+        "duration": 2.32
+    },
+    {
+        "text": "specific rectangles or the numbers of",
+        "start": 122.399,
+        "duration": 1.921
+    },
+    {
+        "text": "each one,",
+        "start": 124.32,
+        "duration": 1.2
+    },
+    {
+        "text": "just we're interested in the total",
+        "start": 125.52,
+        "duration": 1.76
+    },
+    {
+        "text": "number of rectangles that fill the",
+        "start": 127.28,
+        "duration": 1.28
+    },
+    {
+        "text": "square",
+        "start": 128.56,
+        "duration": 0.72
+    },
+    {
+        "text": "as long as they're in this ratio. \n- (So is)",
+        "start": 129.28,
+        "duration": 1.759
+    },
+    {
+        "text": "(the puzzle question for which numbers)",
+        "start": 131.039,
+        "duration": 2.081
+    },
+    {
+        "text": "(can we do it? Or is the question)",
+        "start": 133.12,
+        "duration": 1.68
+    },
+    {
+        "text": "(can you do it for all \nnumbers or like - ?)",
+        "start": 134.8,
+        "duration": 2.505
+    },
+    {
+        "text": "I always thought-",
+        "start": 137.52,
+        "duration": 0.799
+    },
+    {
+        "text": "I always present it as for which numbers",
+        "start": 138.319,
+        "duration": 1.841
+    },
+    {
+        "text": "can we do it? But within that we're kind",
+        "start": 140.16,
+        "duration": 2.0
+    },
+    {
+        "text": "of saying",
+        "start": 142.16,
+        "duration": 1.04
+    },
+    {
+        "text": "can we do it for all numbers? Are there",
+        "start": 143.2,
+        "duration": 1.759
+    },
+    {
+        "text": "some numbers other than one where it",
+        "start": 144.959,
+        "duration": 1.601
+    },
+    {
+        "text": "doesn't work?",
+        "start": 146.56,
+        "duration": 1.2
+    },
+    {
+        "text": "But we're going to hopefully- we're going",
+        "start": 147.76,
+        "duration": 1.839
+    },
+    {
+        "text": "to try and consider all possible values,",
+        "start": 149.599,
+        "duration": 1.92
+    },
+    {
+        "text": "that's that's the goal. We're going to",
+        "start": 151.519,
+        "duration": 1.281
+    },
+    {
+        "text": "actually try and consider\nevery single number.",
+        "start": 152.8,
+        "duration": 1.76
+    },
+    {
+        "text": "So the way I would approach a problem",
+        "start": 154.56,
+        "duration": 2.399
+    },
+    {
+        "text": "like this",
+        "start": 156.959,
+        "duration": 0.801
+    },
+    {
+        "text": "is- well there's two options the way I",
+        "start": 157.76,
+        "duration": 2.4
+    },
+    {
+        "text": "see it. So so we've shown so far",
+        "start": 160.16,
+        "duration": 1.76
+    },
+    {
+        "text": "it's not going to work for one, because",
+        "start": 161.92,
+        "duration": 1.2
+    },
+    {
+        "text": "then it would be a square. And we've",
+        "start": 163.12,
+        "duration": 1.44
+    },
+    {
+        "text": "shown that we can do it for two. \nSo you could",
+        "start": 164.56,
+        "duration": 1.92
+    },
+    {
+        "text": "continue in this way and say, well, let's",
+        "start": 166.48,
+        "duration": 2.399
+    },
+    {
+        "text": "try and do it for three, let's try and do",
+        "start": 168.879,
+        "duration": 1.761
+    },
+    {
+        "text": "it for four.",
+        "start": 170.64,
+        "duration": 1.36
+    },
+    {
+        "text": "But the problem is, if you hit a number",
+        "start": 172.0,
+        "duration": 2.8
+    },
+    {
+        "text": "where it doesn't work",
+        "start": 174.8,
+        "duration": 2.0
+    },
+    {
+        "text": "you've got to show it doesn't work,",
+        "start": 176.8,
+        "duration": 2.0
+    },
+    {
+        "text": "you've got to like",
+        "start": 178.8,
+        "duration": 1.2
+    },
+    {
+        "text": "try everything. Like you have to exhaust",
+        "start": 180.0,
+        "duration": 3.44
+    },
+    {
+        "text": "all possible ways of arranging",
+        "start": 183.44,
+        "duration": 2.719
+    },
+    {
+        "text": "rectangles, and it's really\ndifficult to exhaust",
+        "start": 186.159,
+        "duration": 2.401
+    },
+    {
+        "text": "every single possible thing that you can",
+        "start": 188.56,
+        "duration": 1.92
+    },
+    {
+        "text": "do in such an",
+        "start": 190.48,
+        "duration": 1.6
+    },
+    {
+        "text": "open problem like this. So",
+        "start": 192.08,
+        "duration": 3.2
+    },
+    {
+        "text": "my suggestion would be to think, well, can",
+        "start": 195.28,
+        "duration": 2.319
+    },
+    {
+        "text": "I find something else that works that",
+        "start": 197.599,
+        "duration": 1.761
+    },
+    {
+        "text": "isn't 2?",
+        "start": 199.36,
+        "duration": 1.28
+    },
+    {
+        "text": "Let's try and get another handle on the",
+        "start": 200.64,
+        "duration": 2.16
+    },
+    {
+        "text": "problem and",
+        "start": 202.8,
+        "duration": 1.12
+    },
+    {
+        "text": "see if we can use that to build other",
+        "start": 203.92,
+        "duration": 1.92
+    },
+    {
+        "text": "cases. If we",
+        "start": 205.84,
+        "duration": 1.36
+    },
+    {
+        "text": "start with the two that we had, we had a",
+        "start": 207.2,
+        "duration": 2.08
+    },
+    {
+        "text": "square and we divided it",
+        "start": 209.28,
+        "duration": 1.519
+    },
+    {
+        "text": "into two. So if I now divide this bottom",
+        "start": 210.799,
+        "duration": 2.8
+    },
+    {
+        "text": "rectangle into two squares",
+        "start": 213.599,
+        "duration": 2.0
+    },
+    {
+        "text": "I've now got a square that I can divide",
+        "start": 215.599,
+        "duration": 2.72
+    },
+    {
+        "text": "into two, and another square",
+        "start": 218.319,
+        "duration": 1.681
+    },
+    {
+        "text": "that I can divide into two - and lo and",
+        "start": 220.0,
+        "duration": 1.68
+    },
+    {
+        "text": "behold we've got a solution.",
+        "start": 221.68,
+        "duration": 1.76
+    },
+    {
+        "text": "So we've got five there. N equals five is",
+        "start": 223.44,
+        "duration": 2.799
+    },
+    {
+        "text": "a tick. So we",
+        "start": 226.239,
+        "duration": 1.201
+    },
+    {
+        "text": "took what we had, which was two, and then",
+        "start": 227.44,
+        "duration": 2.96
+    },
+    {
+        "text": "sort of",
+        "start": 230.4,
+        "duration": 0.8
+    },
+    {
+        "text": "broke it down - so I call this the",
+        "start": 231.2,
+        "duration": 1.759
+    },
+    {
+        "text": "breaking down method -",
+        "start": 232.959,
+        "duration": 1.681
+    },
+    {
+        "text": "into uh one of them, we broke it up first",
+        "start": 234.64,
+        "duration": 2.72
+    },
+    {
+        "text": "into two squares,",
+        "start": 237.36,
+        "duration": 1.2
+    },
+    {
+        "text": "and then copied what we did at the start",
+        "start": 238.56,
+        "duration": 2.0
+    },
+    {
+        "text": "to get four. So we replaced one rectangle",
+        "start": 240.56,
+        "duration": 2.56
+    },
+    {
+        "text": "by four rectangles, \nso in total we added three",
+        "start": 243.12,
+        "duration": 3.679
+    },
+    {
+        "text": "to our two that we started with. Now",
+        "start": 246.799,
+        "duration": 2.401
+    },
+    {
+        "text": "there's nothing stopping me",
+        "start": 249.2,
+        "duration": 1.84
+    },
+    {
+        "text": "from doing this again and again and",
+        "start": 251.04,
+        "duration": 1.279
+    },
+    {
+        "text": "again. So I can pick one of my five",
+        "start": 252.319,
+        "duration": 2.721
+    },
+    {
+        "text": "rectangles,",
+        "start": 255.04,
+        "duration": 1.439
+    },
+    {
+        "text": "divide it into two squares, and then",
+        "start": 256.479,
+        "duration": 2.88
+    },
+    {
+        "text": "divide each square",
+        "start": 259.359,
+        "duration": 1.521
+    },
+    {
+        "text": "into two rectangles. And now I should",
+        "start": 260.88,
+        "duration": 2.319
+    },
+    {
+        "text": "have eight; 1, 2, 3, 4, 5, 6,",
+        "start": 263.199,
+        "duration": 2.161
+    },
+    {
+        "text": "7, 8.",
+        "start": 265.36,
+        "duration": 1.04
+    },
+    {
+        "text": "So now we get n \nequals eight is a solution.",
+        "start": 266.4,
+        "duration": 3.2
+    },
+    {
+        "text": "And I could have of course picked",
+        "start": 269.6,
+        "duration": 1.2
+    },
+    {
+        "text": "another rectangle and divided that up; I",
+        "start": 270.8,
+        "duration": 2.08
+    },
+    {
+        "text": "could have picked the top one",
+        "start": 272.88,
+        "duration": 1.12
+    },
+    {
+        "text": "and then I would have got a solution",
+        "start": 274.0,
+        "duration": 1.36
+    },
+    {
+        "text": "where we had eight all of the same size.",
+        "start": 275.36,
+        "duration": 2.48
+    },
+    {
+        "text": "But remember we're not interested in the",
+        "start": 277.84,
+        "duration": 2.32
+    },
+    {
+        "text": "specific configuration,",
+        "start": 280.16,
+        "duration": 1.92
+    },
+    {
+        "text": "we just care about the number of",
+        "start": 282.08,
+        "duration": 1.679
+    },
+    {
+        "text": "rectangles - is it a tick\nor is it a cross?",
+        "start": 283.759,
+        "duration": 2.0
+    },
+    {
+        "text": "I can continue to do the same thing. So",
+        "start": 285.759,
+        "duration": 3.201
+    },
+    {
+        "text": "if I continue with this bottom left one,",
+        "start": 288.96,
+        "duration": 2.4
+    },
+    {
+        "text": "two squares,",
+        "start": 291.36,
+        "duration": 2.0
+    },
+    {
+        "text": "two rectangles. And I've added- I've",
+        "start": 293.36,
+        "duration": 1.92
+    },
+    {
+        "text": "replaced one rectangle by four so I've",
+        "start": 295.28,
+        "duration": 1.84
+    },
+    {
+        "text": "added three",
+        "start": 297.12,
+        "duration": 1.359
+    },
+    {
+        "text": "so that would be eleven. And I can do the",
+        "start": 298.479,
+        "duration": 2.0
+    },
+    {
+        "text": "same again so this is\nthe last one I'll show you",
+        "start": 300.479,
+        "duration": 2.081
+    },
+    {
+        "text": "because I'm running out of space - and I",
+        "start": 302.56,
+        "duration": 1.6
+    },
+    {
+        "text": "can just continue this. And again I don't",
+        "start": 304.16,
+        "duration": 1.68
+    },
+    {
+        "text": "have to keep picking this one, we can",
+        "start": 305.84,
+        "duration": 1.359
+    },
+    {
+        "text": "keep adding",
+        "start": 307.199,
+        "duration": 0.801
+    },
+    {
+        "text": "three. So we get 14, we get 17, we get",
+        "start": 308.0,
+        "duration": 3.759
+    },
+    {
+        "text": "20, 23. To come back to the original",
+        "start": 311.759,
+        "duration": 2.961
+    },
+    {
+        "text": "question; for which-",
+        "start": 314.72,
+        "duration": 0.88
+    },
+    {
+        "text": "how many like ways can we do this? We now",
+        "start": 315.6,
+        "duration": 2.8
+    },
+    {
+        "text": "have an infinite number \nof ways to fill a square",
+        "start": 318.4,
+        "duration": 4.48
+    },
+    {
+        "text": "with these 2x1 rectangles; because",
+        "start": 322.88,
+        "duration": 2.0
+    },
+    {
+        "text": "we just keep adding three",
+        "start": 324.88,
+        "duration": 1.68
+    },
+    {
+        "text": "and we can just go on forever. But we're",
+        "start": 326.56,
+        "duration": 1.76
+    },
+    {
+        "text": "missing quite a few, \nthere's a lot of gaps.",
+        "start": 328.32,
+        "duration": 2.319
+    },
+    {
+        "text": "There's almost like twice as many gaps",
+        "start": 330.639,
+        "duration": 1.921
+    },
+    {
+        "text": "as there are numbers we're hitting,",
+        "start": 332.56,
+        "duration": 1.359
+    },
+    {
+        "text": "because we're hitting every other third",
+        "start": 333.919,
+        "duration": 1.84
+    },
+    {
+        "text": "number. So what we want to try and do now",
+        "start": 335.759,
+        "duration": 3.841
+    },
+    {
+        "text": "is think about, well, how could we hit",
+        "start": 339.6,
+        "duration": 2.4
+    },
+    {
+        "text": "those numbers?",
+        "start": 342.0,
+        "duration": 1.12
+    },
+    {
+        "text": "This method I called the the Breaking",
+        "start": 343.12,
+        "duration": 2.079
+    },
+    {
+        "text": "Down method",
+        "start": 345.199,
+        "duration": 1.041
+    },
+    {
+        "text": "because we took a solution that we had",
+        "start": 346.24,
+        "duration": 2.16
+    },
+    {
+        "text": "and then we broke down a rectangle",
+        "start": 348.4,
+        "duration": 1.84
+    },
+    {
+        "text": "and added three to the total. And then",
+        "start": 350.24,
+        "duration": 1.76
+    },
+    {
+        "text": "the other approach I'm calling",
+        "start": 352.0,
+        "duration": 1.68
+    },
+    {
+        "text": "the Building Up. \nBecause what we're going",
+        "start": 353.68,
+        "duration": 1.84
+    },
+    {
+        "text": "to do is, again,",
+        "start": 355.52,
+        "duration": 1.679
+    },
+    {
+        "text": "start with our square and we want to now",
+        "start": 357.199,
+        "duration": 2.72
+    },
+    {
+        "text": "add rectangles around the outside",
+        "start": 359.919,
+        "duration": 2.0
+    },
+    {
+        "text": "but so that the final shape is a square,",
+        "start": 361.919,
+        "duration": 2.321
+    },
+    {
+        "text": "because remember the \nsquare can be any size.",
+        "start": 364.24,
+        "duration": 2.32
+    },
+    {
+        "text": "So if we try and build up, you think",
+        "start": 366.56,
+        "duration": 1.759
+    },
+    {
+        "text": "about this a little bit, and",
+        "start": 368.319,
+        "duration": 1.281
+    },
+    {
+        "text": "again you should do this you can kind of",
+        "start": 369.6,
+        "duration": 2.96
+    },
+    {
+        "text": "create an overhang like this",
+        "start": 372.56,
+        "duration": 2.079
+    },
+    {
+        "text": "on all four sides. You can hopefully see",
+        "start": 374.639,
+        "duration": 2.961
+    },
+    {
+        "text": "that's possibly going to work,",
+        "start": 377.6,
+        "duration": 1.76
+    },
+    {
+        "text": "it could maybe be a square. So again",
+        "start": 379.36,
+        "duration": 3.04
+    },
+    {
+        "text": "if we take the middle one to be",
+        "start": 382.4,
+        "duration": 1.44
+    },
+    {
+        "text": "1 and this one to be a half, so the",
+        "start": 383.84,
+        "duration": 1.68
+    },
+    {
+        "text": "middle square was 1x1.",
+        "start": 385.52,
+        "duration": 1.44
+    },
+    {
+        "text": "Then what we've got here is this length",
+        "start": 386.96,
+        "duration": 2.32
+    },
+    {
+        "text": "is two and then this one, to be in the",
+        "start": 389.28,
+        "duration": 1.6
+    },
+    {
+        "text": "correct ratio, has to be",
+        "start": 390.88,
+        "duration": 1.2
+    },
+    {
+        "text": "one, so we do indeed have a square. We've",
+        "start": 392.08,
+        "duration": 1.839
+    },
+    {
+        "text": "got two different sizes of rectangle,",
+        "start": 393.919,
+        "duration": 2.081
+    },
+    {
+        "text": "two in the middle and then four of this",
+        "start": 396.0,
+        "duration": 1.52
+    },
+    {
+        "text": "second size, where",
+        "start": 397.52,
+        "duration": 1.519
+    },
+    {
+        "text": "the square that we fill in total is",
+        "start": 399.039,
+        "duration": 2.321
+    },
+    {
+        "text": "going to be three",
+        "start": 401.36,
+        "duration": 0.88
+    },
+    {
+        "text": "squared but it's built up of six",
+        "start": 402.24,
+        "duration": 2.239
+    },
+    {
+        "text": "rectangles. So now we've\ngot a different solution,",
+        "start": 404.479,
+        "duration": 2.16
+    },
+    {
+        "text": "six, that we didn't have before. And just",
+        "start": 406.639,
+        "duration": 2.56
+    },
+    {
+        "text": "like before",
+        "start": 409.199,
+        "duration": 1.12
+    },
+    {
+        "text": "we can keep doing this and building up.",
+        "start": 410.319,
+        "duration": 2.72
+    },
+    {
+        "text": "So you could just do that; and you could",
+        "start": 413.039,
+        "duration": 2.961
+    },
+    {
+        "text": "figure out the numbers, it's gonna be a",
+        "start": 416.0,
+        "duration": 1.28
+    },
+    {
+        "text": "bit bigger again and you're gonna keep",
+        "start": 417.28,
+        "duration": 1.28
+    },
+    {
+        "text": "doing this.",
+        "start": 418.56,
+        "duration": 0.72
+    },
+    {
+        "text": "And we keep adding four every time.",
+        "start": 419.28,
+        "duration": 3.68
+    },
+    {
+        "text": "So we've got six, then we can say that we",
+        "start": 422.96,
+        "duration": 2.48
+    },
+    {
+        "text": "can do this now for ten, and we add",
+        "start": 425.44,
+        "duration": 1.759
+    },
+    {
+        "text": "another four to get 14,",
+        "start": 427.199,
+        "duration": 2.081
+    },
+    {
+        "text": "18, 22, 26,",
+        "start": 429.28,
+        "duration": 3.12
+    },
+    {
+        "text": "30. So we have another infinite list of",
+        "start": 432.4,
+        "duration": 2.96
+    },
+    {
+        "text": "possible solutions. And",
+        "start": 435.36,
+        "duration": 1.279
+    },
+    {
+        "text": "some of these numbers are the same; we've",
+        "start": 436.639,
+        "duration": 1.68
+    },
+    {
+        "text": "got 14 in both lists.",
+        "start": 438.319,
+        "duration": 1.6
+    },
+    {
+        "text": "But also you know we've got 10 which we",
+        "start": 439.919,
+        "duration": 1.601
+    },
+    {
+        "text": "didn't have, we've got 18, 22. We've got",
+        "start": 441.52,
+        "duration": 1.76
+    },
+    {
+        "text": "new numbers as well.",
+        "start": 443.28,
+        "duration": 1.039
+    },
+    {
+        "text": "So there's some overlap but we've got",
+        "start": 444.319,
+        "duration": 2.241
+    },
+    {
+        "text": "another",
+        "start": 446.56,
+        "duration": 1.12
+    },
+    {
+        "text": "way of constructing these solutions. Like",
+        "start": 447.68,
+        "duration": 3.04
+    },
+    {
+        "text": "before",
+        "start": 450.72,
+        "duration": 1.039
+    },
+    {
+        "text": "in this first case, we said that what we",
+        "start": 451.759,
+        "duration": 2.56
+    },
+    {
+        "text": "were doing was we were adding",
+        "start": 454.319,
+        "duration": 1.361
+    },
+    {
+        "text": "three every step. And you can think of",
+        "start": 455.68,
+        "duration": 3.359
+    },
+    {
+        "text": "this as saying,",
+        "start": 459.039,
+        "duration": 1.521
+    },
+    {
+        "text": "well if I have a solution for n for some",
+        "start": 460.56,
+        "duration": 3.759
+    },
+    {
+        "text": "number,",
+        "start": 464.319,
+        "duration": 1.121
+    },
+    {
+        "text": "then I know from our method here, the",
+        "start": 465.44,
+        "duration": 2.08
+    },
+    {
+        "text": "breaking down method,",
+        "start": 467.52,
+        "duration": 1.519
+    },
+    {
+        "text": "I can take one of the rectangles in the",
+        "start": 469.039,
+        "duration": 1.84
+    },
+    {
+        "text": "solution, divide it up",
+        "start": 470.879,
+        "duration": 1.921
+    },
+    {
+        "text": "into four smaller rectangles and that",
+        "start": 472.8,
+        "duration": 2.079
+    },
+    {
+        "text": "added three",
+        "start": 474.879,
+        "duration": 1.04
+    },
+    {
+        "text": "to our solution. So if we had a solution",
+        "start": 475.919,
+        "duration": 2.161
+    },
+    {
+        "text": "for n",
+        "start": 478.08,
+        "duration": 1.119
+    },
+    {
+        "text": "we can always get n plus three",
+        "start": 479.199,
+        "duration": 3.44
+    },
+    {
+        "text": "from the breaking down. And then here",
+        "start": 482.639,
+        "duration": 2.0
+    },
+    {
+        "text": "we've seen the same thing;",
+        "start": 484.639,
+        "duration": 1.361
+    },
+    {
+        "text": "because we started with two and I added",
+        "start": 486.0,
+        "duration": 1.68
+    },
+    {
+        "text": "four around the edge. But if I",
+        "start": 487.68,
+        "duration": 1.76
+    },
+    {
+        "text": "started with the five solution here, then",
+        "start": 489.44,
+        "duration": 2.96
+    },
+    {
+        "text": "I add four around the edge,",
+        "start": 492.4,
+        "duration": 1.28
+    },
+    {
+        "text": "and then I add another four. So I can",
+        "start": 493.68,
+        "duration": 1.68
+    },
+    {
+        "text": "also get- for example there I would get n",
+        "start": 495.36,
+        "duration": 1.92
+    },
+    {
+        "text": "equals nine",
+        "start": 497.28,
+        "duration": 0.96
+    },
+    {
+        "text": "plus four on that so then I'd get 13,",
+        "start": 498.24,
+        "duration": 3.28
+    },
+    {
+        "text": "17, 21 etc.",
+        "start": 501.52,
+        "duration": 3.519
+    },
+    {
+        "text": "And again we're getting some numbers we",
+        "start": 505.039,
+        "duration": 1.28
+    },
+    {
+        "text": "didn't have. The breaking down method;",
+        "start": 506.319,
+        "duration": 2.88
+    },
+    {
+        "text": "if we can do it for n we always get n",
+        "start": 509.199,
+        "duration": 2.241
+    },
+    {
+        "text": "plus three, break one of them into",
+        "start": 511.44,
+        "duration": 1.76
+    },
+    {
+        "text": "four pieces. The building up method; if we",
+        "start": 513.2,
+        "duration": 2.399
+    },
+    {
+        "text": "can do it for n",
+        "start": 515.599,
+        "duration": 1.36
+    },
+    {
+        "text": "we can always do it for n plus four. And",
+        "start": 516.959,
+        "duration": 2.401
+    },
+    {
+        "text": "now these two",
+        "start": 519.36,
+        "duration": 0.88
+    },
+    {
+        "text": "are really powerful rules. So we're",
+        "start": 520.24,
+        "duration": 2.96
+    },
+    {
+        "text": "already seeing that we've got a lot of",
+        "start": 523.2,
+        "duration": 1.28
+    },
+    {
+        "text": "solutions; but if we actually think about",
+        "start": 524.48,
+        "duration": 1.919
+    },
+    {
+        "text": "this mathematically now",
+        "start": 526.399,
+        "duration": 1.841
+    },
+    {
+        "text": "using the algebra we can begin to see",
+        "start": 528.24,
+        "duration": 2.32
+    },
+    {
+        "text": "that we actually get",
+        "start": 530.56,
+        "duration": 1.2
+    },
+    {
+        "text": "almost all of the numbers. So I think the",
+        "start": 531.76,
+        "duration": 2.88
+    },
+    {
+        "text": "best way to demonstrate this is sort of",
+        "start": 534.64,
+        "duration": 1.44
+    },
+    {
+        "text": "write out the list of the first 30",
+        "start": 536.08,
+        "duration": 1.36
+    },
+    {
+        "text": "numbers and cross off the ones we can",
+        "start": 537.44,
+        "duration": 1.44
+    },
+    {
+        "text": "and can't do;",
+        "start": 538.88,
+        "duration": 0.639
+    },
+    {
+        "text": "and then we'll think about can we prove",
+        "start": 539.519,
+        "duration": 1.681
+    },
+    {
+        "text": "this. So we know that 1 didn't work,",
+        "start": 541.2,
+        "duration": 1.759
+    },
+    {
+        "text": "I think that's the only one we know that",
+        "start": 542.959,
+        "duration": 1.041
+    },
+    {
+        "text": "doesn't work. We showed that 2 did,",
+        "start": 544.0,
+        "duration": 3.2
+    },
+    {
+        "text": "we haven't looked at 3 or 4. We",
+        "start": 547.2,
+        "duration": 2.639
+    },
+    {
+        "text": "had 5,",
+        "start": 549.839,
+        "duration": 1.12
+    },
+    {
+        "text": "uh we had 6, we haven't covered 7",
+        "start": 550.959,
+        "duration": 2.401
+    },
+    {
+        "text": "yet. I think we had 8,",
+        "start": 553.36,
+        "duration": 1.039
+    },
+    {
+        "text": "yes 8 was the 5 plus 3. 9",
+        "start": 554.399,
+        "duration": 2.481
+    },
+    {
+        "text": "we got down here by doing 5 and then",
+        "start": 556.88,
+        "duration": 1.76
+    },
+    {
+        "text": "4 around the outside.",
+        "start": 558.64,
+        "duration": 1.28
+    },
+    {
+        "text": "Then we had 10 on our list. Now, we've",
+        "start": 559.92,
+        "duration": 2.8
+    },
+    {
+        "text": "got something really helpful here,",
+        "start": 562.72,
+        "duration": 1.04
+    },
+    {
+        "text": "because we've got three numbers in a row.",
+        "start": 563.76,
+        "duration": 2.16
+    },
+    {
+        "text": "So because I've got 8 I know that I can",
+        "start": 565.92,
+        "duration": 2.88
+    },
+    {
+        "text": "just add 3 to it",
+        "start": 568.8,
+        "duration": 1.599
+    },
+    {
+        "text": "and get 11. Because I've got 9 I can add",
+        "start": 570.399,
+        "duration": 3.201
+    },
+    {
+        "text": "3 to it",
+        "start": 573.6,
+        "duration": 1.359
+    },
+    {
+        "text": "and get 12. Because I've got 10 I can",
+        "start": 574.959,
+        "duration": 2.161
+    },
+    {
+        "text": "add 3 to it",
+        "start": 577.12,
+        "duration": 1.279
+    },
+    {
+        "text": "and get 13. And then this is just going",
+        "start": 578.399,
+        "duration": 1.761
+    },
+    {
+        "text": "to carry on. So you can look back through",
+        "start": 580.16,
+        "duration": 1.92
+    },
+    {
+        "text": "our lists as well and see, you know, we",
+        "start": 582.08,
+        "duration": 1.52
+    },
+    {
+        "text": "had 14, 17 and you could tick them off.",
+        "start": 583.6,
+        "duration": 1.919
+    },
+    {
+        "text": "But if you spot that because we had",
+        "start": 585.519,
+        "duration": 1.681
+    },
+    {
+        "text": "these three numbers in a row",
+        "start": 587.2,
+        "duration": 2.24
+    },
+    {
+        "text": "then - and we have \nthis n plus three rule -",
+        "start": 589.44,
+        "duration": 1.839
+    },
+    {
+        "text": "we're actually going to get all of the",
+        "start": 591.279,
+        "duration": 1.281
+    },
+    {
+        "text": "other numbers.",
+        "start": 592.56,
+        "duration": 0.719
+    },
+    {
+        "text": "So there's lots of ways of spotting that",
+        "start": 593.279,
+        "duration": 2.721
+    },
+    {
+        "text": "you're gonna get all the other numbers;",
+        "start": 596.0,
+        "duration": 1.68
+    },
+    {
+        "text": "but however you do it it relied on the",
+        "start": 597.68,
+        "duration": 2.56
+    },
+    {
+        "text": "fact that we had- well actually only",
+        "start": 600.24,
+        "duration": 1.52
+    },
+    {
+        "text": "really this rule, the n plus three.",
+        "start": 601.76,
+        "duration": 1.92
+    },
+    {
+        "text": "Once we figured out that we could get",
+        "start": 603.68,
+        "duration": 2.399
+    },
+    {
+        "text": "8, 9 and 10.",
+        "start": 606.079,
+        "duration": 0.961
+    },
+    {
+        "text": "So we did need building up to get",
+        "start": 607.04,
+        "duration": 3.359
+    },
+    {
+        "text": "some of these, right? So 9 and 10 came",
+        "start": 610.399,
+        "duration": 2.481
+    },
+    {
+        "text": "from the building up method",
+        "start": 612.88,
+        "duration": 1.36
+    },
+    {
+        "text": "and 8 came from the breaking down. So",
+        "start": 614.24,
+        "duration": 2.08
+    },
+    {
+        "text": "we did need the second method",
+        "start": 616.32,
+        "duration": 1.68
+    },
+    {
+        "text": "but really we just needed the n plus",
+        "start": 618.0,
+        "duration": 1.6
+    },
+    {
+        "text": "three rule plus those three",
+        "start": 619.6,
+        "duration": 2.4
+    },
+    {
+        "text": "and then we got all of the numbers. So",
+        "start": 622.0,
+        "duration": 1.44
+    },
+    {
+        "text": "that just leaves us with",
+        "start": 623.44,
+        "duration": 1.6
+    },
+    {
+        "text": "3, 4 and 7.",
+        "start": 625.04,
+        "duration": 4.0
+    },
+    {
+        "text": "So we know that 1's impossible, we know",
+        "start": 629.04,
+        "duration": 2.0
+    },
+    {
+        "text": "that every single other number is",
+        "start": 631.04,
+        "duration": 1.359
+    },
+    {
+        "text": "possible now,",
+        "start": 632.399,
+        "duration": 0.961
+    },
+    {
+        "text": "except 3, 4 and 7. So we've got",
+        "start": 633.36,
+        "duration": 2.56
+    },
+    {
+        "text": "to figure these ones out. And this is-",
+        "start": 635.92,
+        "duration": 1.2
+    },
+    {
+        "text": "we've got to do this case by case.",
+        "start": 637.12,
+        "duration": 1.68
+    },
+    {
+        "text": "I'm gonna need more paper aren't I?",
+        "start": 638.8,
+        "duration": 1.36
+    },
+    {
+        "text": "(Brady: I have no intuition \nas to whether 3,)",
+        "start": 640.16,
+        "duration": 1.919
+    },
+    {
+        "text": "(4 or 7 are possible.)\n- This is how I",
+        "start": 642.079,
+        "duration": 1.841
+    },
+    {
+        "text": "think about it:",
+        "start": 643.92,
+        "duration": 1.12
+    },
+    {
+        "text": "we're gonna consider 3. We're gonna",
+        "start": 645.04,
+        "duration": 2.32
+    },
+    {
+        "text": "say, right, let's try and\nfind a solution for 3,",
+        "start": 647.36,
+        "duration": 2.88
+    },
+    {
+        "text": "suppose we can do that. And you want to",
+        "start": 650.24,
+        "duration": 2.719
+    },
+    {
+        "text": "think about the number of corners",
+        "start": 652.959,
+        "duration": 2.32
+    },
+    {
+        "text": "in your square: 1, 2, 3, 4 corners.",
+        "start": 655.279,
+        "duration": 3.441
+    },
+    {
+        "text": "And we have three rectangles. For example",
+        "start": 658.72,
+        "duration": 2.0
+    },
+    {
+        "text": "let's take one of our rectangles.",
+        "start": 660.72,
+        "duration": 1.52
+    },
+    {
+        "text": "Suppose it hits all four corners,",
+        "start": 662.24,
+        "duration": 3.039
+    },
+    {
+        "text": "it's clearly got to be a square and",
+        "start": 665.279,
+        "duration": 1.761
+    },
+    {
+        "text": "there's clearly no space for the others.",
+        "start": 667.04,
+        "duration": 1.919
+    },
+    {
+        "text": "So you cannot have one of your rectangles",
+        "start": 668.959,
+        "duration": 2.32
+    },
+    {
+        "text": "hitting all four corners.",
+        "start": 671.279,
+        "duration": 1.12
+    },
+    {
+        "text": "Similarly you cannot have one of your",
+        "start": 672.399,
+        "duration": 2.401
+    },
+    {
+        "text": "rectangles hitting three corners; because",
+        "start": 674.8,
+        "duration": 1.84
+    },
+    {
+        "text": "if one rectangle hits three corners it",
+        "start": 676.64,
+        "duration": 2.4
+    },
+    {
+        "text": "kind of has to hit the fourth. And it kind",
+        "start": 679.04,
+        "duration": 1.52
+    },
+    {
+        "text": "of has to be a square again.",
+        "start": 680.56,
+        "duration": 1.76
+    },
+    {
+        "text": "So the highest number of corners a",
+        "start": 682.32,
+        "duration": 2.56
+    },
+    {
+        "text": "single rectangle can hit",
+        "start": 684.88,
+        "duration": 1.84
+    },
+    {
+        "text": "is 2. And in fact one of them has to",
+        "start": 686.72,
+        "duration": 3.28
+    },
+    {
+        "text": "hit 2",
+        "start": 690.0,
+        "duration": 0.72
+    },
+    {
+        "text": "because there's only three rectangles",
+        "start": 690.72,
+        "duration": 1.359
+    },
+    {
+        "text": "and four corners. So",
+        "start": 692.079,
+        "duration": 2.401
+    },
+    {
+        "text": "categorically we can say one of the",
+        "start": 694.48,
+        "duration": 2.24
+    },
+    {
+        "text": "rectangles must cover",
+        "start": 696.72,
+        "duration": 1.28
+    },
+    {
+        "text": "two of the corners of our square. And so",
+        "start": 698.0,
+        "duration": 2.0
+    },
+    {
+        "text": "the only way to fit that",
+        "start": 700.0,
+        "duration": 1.279
+    },
+    {
+        "text": "is to divide it in half. If we're trying",
+        "start": 701.279,
+        "duration": 1.921
+    },
+    {
+        "text": "to find a solution for n equals three",
+        "start": 703.2,
+        "duration": 1.759
+    },
+    {
+        "text": "this is completely fixed, there's nothing",
+        "start": 704.959,
+        "duration": 1.921
+    },
+    {
+        "text": "else that can happen.",
+        "start": 706.88,
+        "duration": 1.519
+    },
+    {
+        "text": "So then we've got to fill the remaining",
+        "start": 708.399,
+        "duration": 1.68
+    },
+    {
+        "text": "space with two rectangles.",
+        "start": 710.079,
+        "duration": 2.481
+    },
+    {
+        "text": "So now we've got two rectangles and",
+        "start": 712.56,
+        "duration": 2.959
+    },
+    {
+        "text": "we've got four corners",
+        "start": 715.519,
+        "duration": 1.521
+    },
+    {
+        "text": "again. So okay, it's a rectangle instead",
+        "start": 717.04,
+        "duration": 1.76
+    },
+    {
+        "text": "of a square but the corners is a really",
+        "start": 718.8,
+        "duration": 2.0
+    },
+    {
+        "text": "helpful way to get stuck into this",
+        "start": 720.8,
+        "duration": 1.68
+    },
+    {
+        "text": "problem because they've all got to be",
+        "start": 722.48,
+        "duration": 1.12
+    },
+    {
+        "text": "touched. So now you say, right, I obviously",
+        "start": 723.6,
+        "duration": 1.76
+    },
+    {
+        "text": "can't hit all four because then I'd fill",
+        "start": 725.36,
+        "duration": 2.0
+    },
+    {
+        "text": "it, it would work,",
+        "start": 727.36,
+        "duration": 0.96
+    },
+    {
+        "text": "but I've got one rectangle left. I can't",
+        "start": 728.32,
+        "duration": 1.759
+    },
+    {
+        "text": "hit three for the same reason",
+        "start": 730.079,
+        "duration": 1.601
+    },
+    {
+        "text": "so I have to hit two; and each of them",
+        "start": 731.68,
+        "duration": 2.56
+    },
+    {
+        "text": "has to hit two.",
+        "start": 734.24,
+        "duration": 0.88
+    },
+    {
+        "text": "If you take a 1x1 square this is",
+        "start": 735.12,
+        "duration": 1.839
+    },
+    {
+        "text": "a half so this one has to be a quarter.",
+        "start": 736.959,
+        "duration": 2.481
+    },
+    {
+        "text": "It's the only way",
+        "start": 739.44,
+        "duration": 1.28
+    },
+    {
+        "text": "you can fill a rectangle fitting two",
+        "start": 740.72,
+        "duration": 1.919
+    },
+    {
+        "text": "corners. So then what we're left",
+        "start": 742.639,
+        "duration": 1.44
+    },
+    {
+        "text": "with this- has to be a rectangle. And if",
+        "start": 744.079,
+        "duration": 2.641
+    },
+    {
+        "text": "we figure it out this is three quarters,",
+        "start": 746.72,
+        "duration": 2.16
+    },
+    {
+        "text": "this is a half - it's certainly a",
+        "start": 748.88,
+        "duration": 1.759
+    },
+    {
+        "text": "rectangle but it's not in our ratio",
+        "start": 750.639,
+        "duration": 2.32
+    },
+    {
+        "text": "1:2 so that doesn't work and so n",
+        "start": 752.959,
+        "duration": 2.801
+    },
+    {
+        "text": "equals three",
+        "start": 755.76,
+        "duration": 0.96
+    },
+    {
+        "text": "doesn't work. \nThree is getting crossed out.",
+        "start": 756.72,
+        "duration": 3.2
+    },
+    {
+        "text": "Now four you do in basically the same",
+        "start": 759.92,
+        "duration": 2.24
+    },
+    {
+        "text": "way; start with your square,",
+        "start": 762.16,
+        "duration": 1.679
+    },
+    {
+        "text": "you say you've got four corners - we can't",
+        "start": 763.839,
+        "duration": 2.161
+    },
+    {
+        "text": "we've got four rectangles.",
+        "start": 766.0,
+        "duration": 1.519
+    },
+    {
+        "text": "Similar argument, one of them has to",
+        "start": 767.519,
+        "duration": 1.681
+    },
+    {
+        "text": "touch two. Because \nif each one touches one,",
+        "start": 769.2,
+        "duration": 2.48
+    },
+    {
+        "text": "you can play around with it a bit but",
+        "start": 771.68,
+        "duration": 1.52
+    },
+    {
+        "text": "you'll see that it doesn't work. It kind",
+        "start": 773.2,
+        "duration": 1.52
+    },
+    {
+        "text": "of has to be",
+        "start": 774.72,
+        "duration": 0.72
+    },
+    {
+        "text": "four squares, that's \nthe only way you can get it",
+        "start": 775.44,
+        "duration": 2.24
+    },
+    {
+        "text": "to work, it doesn't",
+        "start": 777.68,
+        "duration": 1.279
+    },
+    {
+        "text": "doesn't fit our rules. So again you have",
+        "start": 778.959,
+        "duration": 1.921
+    },
+    {
+        "text": "to have",
+        "start": 780.88,
+        "duration": 1.12
+    },
+    {
+        "text": "one of them like this touching those two",
+        "start": 782.0,
+        "duration": 1.76
+    },
+    {
+        "text": "corners,",
+        "start": 783.76,
+        "duration": 1.759
+    },
+    {
+        "text": "so this is out. And then you're left now",
+        "start": 785.519,
+        "duration": 2.32
+    },
+    {
+        "text": "with three rectangles",
+        "start": 787.839,
+        "duration": 1.361
+    },
+    {
+        "text": "to fill this half; we've got four corners,",
+        "start": 789.2,
+        "duration": 3.439
+    },
+    {
+        "text": "three rectangles, same argument as before",
+        "start": 792.639,
+        "duration": 2.801
+    },
+    {
+        "text": "except now we're on a rectangle, we have",
+        "start": 795.44,
+        "duration": 1.6
+    },
+    {
+        "text": "to touch two so it has to be this one",
+        "start": 797.04,
+        "duration": 2.0
+    },
+    {
+        "text": "half by a quarter again and then we've",
+        "start": 799.04,
+        "duration": 1.68
+    },
+    {
+        "text": "got the same space.",
+        "start": 800.72,
+        "duration": 1.359
+    },
+    {
+        "text": "You can play around with this as much as",
+        "start": 802.079,
+        "duration": 1.281
+    },
+    {
+        "text": "you want, if you put one horizontally it",
+        "start": 803.36,
+        "duration": 2.24
+    },
+    {
+        "text": "has to go",
+        "start": 805.6,
+        "duration": 0.72
+    },
+    {
+        "text": "the same size, a half and a quarter, and",
+        "start": 806.32,
+        "duration": 1.84
+    },
+    {
+        "text": "that's obviously a square.",
+        "start": 808.16,
+        "duration": 1.2
+    },
+    {
+        "text": "Or if you go vertically down, this won't",
+        "start": 809.36,
+        "duration": 2.64
+    },
+    {
+        "text": "work because this is a quarter",
+        "start": 812.0,
+        "duration": 1.44
+    },
+    {
+        "text": "and this one here is three quarters. That",
+        "start": 813.44,
+        "duration": 1.6
+    },
+    {
+        "text": "would be 1:3 ratio, not 1:2.",
+        "start": 815.04,
+        "duration": 2.08
+    },
+    {
+        "text": "So four, for the same reason really as",
+        "start": 817.12,
+        "duration": 2.0
+    },
+    {
+        "text": "three, ain't gonna work.",
+        "start": 819.12,
+        "duration": 1.44
+    },
+    {
+        "text": "(Cross it off!)\n- So it all comes down to",
+        "start": 820.56,
+        "duration": 2.32
+    },
+    {
+        "text": "7. This is the big finale",
+        "start": 822.88,
+        "duration": 2.16
+    },
+    {
+        "text": "of our infinite list of numbers for",
+        "start": 825.04,
+        "duration": 2.64
+    },
+    {
+        "text": "solving",
+        "start": 827.68,
+        "duration": 0.719
+    },
+    {
+        "text": "my favourite rectangle puzzle. Can we do",
+        "start": 828.399,
+        "duration": 2.24
+    },
+    {
+        "text": "it for n equals 7?",
+        "start": 830.639,
+        "duration": 2.0
+    },
+    {
+        "text": "And the answer, maybe surprisingly, is",
+        "start": 832.639,
+        "duration": 2.88
+    },
+    {
+        "text": "yes.",
+        "start": 835.519,
+        "duration": 0.88
+    },
+    {
+        "text": "We can do it; it is possible for seven.",
+        "start": 836.399,
+        "duration": 2.56
+    },
+    {
+        "text": "It's quite tricky",
+        "start": 838.959,
+        "duration": 1.281
+    },
+    {
+        "text": "for those of you who really want to give",
+        "start": 840.24,
+        "duration": 1.279
+    },
+    {
+        "text": "this a go, this is the time,",
+        "start": 841.519,
+        "duration": 2.161
+    },
+    {
+        "text": "have a go. It's it's very fun trying to",
+        "start": 843.68,
+        "duration": 2.0
+    },
+    {
+        "text": "do this. The trick with solving it for",
+        "start": 845.68,
+        "duration": 2.08
+    },
+    {
+        "text": "seven - or the way we do it -\nis we actually need",
+        "start": 847.76,
+        "duration": 3.199
+    },
+    {
+        "text": "three different size",
+        "start": 850.959,
+        "duration": 1.68
+    },
+    {
+        "text": "rectangles. We'll say this is a 1x1",
+        "start": 852.639,
+        "duration": 1.63
+    },
+    {
+        "text": "square so I can convince you all",
+        "start": 854.269,
+        "duration": 1.331
+    },
+    {
+        "text": "that this works. It doesn't look like",
+        "start": 855.6,
+        "duration": 1.28
+    },
+    {
+        "text": "it's gonna work at first.",
+        "start": 856.88,
+        "duration": 1.199
+    },
+    {
+        "text": "So to start with we have one big",
+        "start": 858.079,
+        "duration": 3.361
+    },
+    {
+        "text": "rectangle,",
+        "start": 861.44,
+        "duration": 0.88
+    },
+    {
+        "text": "that's gonna be our half by one. So",
+        "start": 862.32,
+        "duration": 2.24
+    },
+    {
+        "text": "you'll notice this is the building block",
+        "start": 864.56,
+        "duration": 1.36
+    },
+    {
+        "text": "of almost all of our ideas actually. And",
+        "start": 865.92,
+        "duration": 1.919
+    },
+    {
+        "text": "then",
+        "start": 867.839,
+        "duration": 0.721
+    },
+    {
+        "text": "you have three little guys; so",
+        "start": 868.56,
+        "duration": 3.36
+    },
+    {
+        "text": "this is gonna have to be a third for",
+        "start": 871.92,
+        "duration": 1.599
+    },
+    {
+        "text": "each of them. And the height here to be",
+        "start": 873.519,
+        "duration": 1.841
+    },
+    {
+        "text": "in the ratio 1:2",
+        "start": 875.36,
+        "duration": 1.2
+    },
+    {
+        "text": "is one sixth. We have another one here",
+        "start": 876.56,
+        "duration": 2.719
+    },
+    {
+        "text": "and then we put another two",
+        "start": 879.279,
+        "duration": 1.201
+    },
+    {
+        "text": "here. This is a third, that would be",
+        "start": 880.48,
+        "duration": 2.799
+    },
+    {
+        "text": "one-sixth,",
+        "start": 883.279,
+        "duration": 0.961
+    },
+    {
+        "text": "and that will be a half. So we can check",
+        "start": 884.24,
+        "duration": 2.48
+    },
+    {
+        "text": "one sixth,",
+        "start": 886.72,
+        "duration": 0.799
+    },
+    {
+        "text": "that would be 2 sixths, 3 sixths - so",
+        "start": 887.519,
+        "duration": 1.201
+    },
+    {
+        "text": "that's one, that works. This bit here is",
+        "start": 888.72,
+        "duration": 2.4
+    },
+    {
+        "text": "one-sixth,",
+        "start": 891.12,
+        "duration": 1.279
+    },
+    {
+        "text": "this one's one-sixth, so that fits to be",
+        "start": 892.399,
+        "duration": 2.161
+    },
+    {
+        "text": "one-third.",
+        "start": 894.56,
+        "duration": 1.12
+    },
+    {
+        "text": "And then this gap here, this top long",
+        "start": 895.68,
+        "duration": 2.48
+    },
+    {
+        "text": "side is two-thirds and this one's",
+        "start": 898.16,
+        "duration": 1.359
+    },
+    {
+        "text": "one-third",
+        "start": 899.519,
+        "duration": 0.721
+    },
+    {
+        "text": "and we're done. So we've got five of",
+        "start": 900.24,
+        "duration": 2.24
+    },
+    {
+        "text": "these small ones,",
+        "start": 902.48,
+        "duration": 1.359
+    },
+    {
+        "text": "one middle-sized one, and one big one. And",
+        "start": 903.839,
+        "duration": 2.8
+    },
+    {
+        "text": "that is the solution",
+        "start": 906.639,
+        "duration": 1.2
+    },
+    {
+        "text": "for n equals 7. n equals seven - yeah!",
+        "start": 907.839,
+        "duration": 3.12
+    },
+    {
+        "text": "We can solve it",
+        "start": 910.959,
+        "duration": 1.12
+    },
+    {
+        "text": "for all possible values of n, we can fill",
+        "start": 912.079,
+        "duration": 3.361
+    },
+    {
+        "text": "our square with n rectangles in this",
+        "start": 915.44,
+        "duration": 2.399
+    },
+    {
+        "text": "ratio 2:1",
+        "start": 917.839,
+        "duration": 1.44
+    },
+    {
+        "text": "except for 1, 3 and 4.",
+        "start": 919.279,
+        "duration": 3.341
+    },
+    {
+        "text": "(All right. So now anyone \nwho watched this video)",
+        "start": 924.0,
+        "duration": 3.839
+    },
+    {
+        "text": "(can get into Oxford.)\n- Yes! I used this",
+        "start": 927.839,
+        "duration": 2.881
+    },
+    {
+        "text": "question for the last two years actually",
+        "start": 930.72,
+        "duration": 2.4
+    },
+    {
+        "text": "so so that's why I've had to retire it;",
+        "start": 933.12,
+        "duration": 2.079
+    },
+    {
+        "text": "because we- I try to come up with",
+        "start": 935.199,
+        "duration": 1.361
+    },
+    {
+        "text": "new questions but I \nliked this one so much",
+        "start": 936.56,
+        "duration": 1.92
+    },
+    {
+        "text": "that actually this is the only question",
+        "start": 938.48,
+        "duration": 1.52
+    },
+    {
+        "text": "I've used on repeat. But",
+        "start": 940.0,
+        "duration": 1.6
+    },
+    {
+        "text": "it's now been retired. But yeah this is",
+        "start": 941.6,
+        "duration": 2.32
+    },
+    {
+        "text": "this is the kind of thing;",
+        "start": 943.92,
+        "duration": 1.12
+    },
+    {
+        "text": "because there's lots going on, there's",
+        "start": 945.04,
+        "duration": 1.2
+    },
+    {
+        "text": "lots to think about, lots of things to",
+        "start": 946.24,
+        "duration": 1.44
+    },
+    {
+        "text": "check and",
+        "start": 947.68,
+        "duration": 0.8
+    },
+    {
+        "text": "you could if you wanted go as fancy as",
+        "start": 948.48,
+        "duration": 2.0
+    },
+    {
+        "text": "you want in your proof with modular",
+        "start": 950.48,
+        "duration": 1.359
+    },
+    {
+        "text": "arithmetic or spotting the pattern -",
+        "start": 951.839,
+        "duration": 2.24
+    },
+    {
+        "text": "there's a lot to get stuck into.",
+        "start": 954.079,
+        "duration": 1.461
+    },
+    {
+        "text": "Today's episode sponsor is \nBrilliant; and no",
+        "start": 956.23,
+        "duration": 2.169
+    },
+    {
+        "text": "matter who you are",
+        "start": 958.399,
+        "duration": 1.44
+    },
+    {
+        "text": "they're going to have a course for you. I",
+        "start": 959.839,
+        "duration": 2.081
+    },
+    {
+        "text": "love how Brilliant are really upping",
+        "start": 961.92,
+        "duration": 1.279
+    },
+    {
+        "text": "their game on interactivity,",
+        "start": 963.199,
+        "duration": 1.841
+    },
+    {
+        "text": "it always helps with learning and",
+        "start": 965.04,
+        "duration": 1.599
+    },
+    {
+        "text": "understanding. What you're looking at now",
+        "start": 966.639,
+        "duration": 1.921
+    },
+    {
+        "text": "are just the opening",
+        "start": 968.56,
+        "duration": 1.12
+    },
+    {
+        "text": "exercises in their massive course on",
+        "start": 969.68,
+        "duration": 2.32
+    },
+    {
+        "text": "mathematical fundamentals,",
+        "start": 972.0,
+        "duration": 2.24
+    },
+    {
+        "text": "it's just great stuff. I love the style,",
+        "start": 974.24,
+        "duration": 2.56
+    },
+    {
+        "text": "that clean look;",
+        "start": 976.8,
+        "duration": 1.36
+    },
+    {
+        "text": "I also really like how everything",
+        "start": 978.16,
+        "duration": 1.44
+    },
+    {
+        "text": "unfolds at my pace,",
+        "start": 979.6,
+        "duration": 1.919
+    },
+    {
+        "text": "at the speed that I understand things,",
+        "start": 981.519,
+        "duration": 2.32
+    },
+    {
+        "text": "that's what the \ninteractivity is all about.",
+        "start": 983.839,
+        "duration": 2.0
+    },
+    {
+        "text": "I never really think of Brilliant as",
+        "start": 985.839,
+        "duration": 1.44
+    },
+    {
+        "text": "being like school or study, \nit's more like a",
+        "start": 987.279,
+        "duration": 2.721
+    },
+    {
+        "text": "a series of fun puzzles but each puzzle",
+        "start": 990.0,
+        "duration": 2.8
+    },
+    {
+        "text": "is secretly giving you a deeper",
+        "start": 992.8,
+        "duration": 1.92
+    },
+    {
+        "text": "understanding",
+        "start": 994.72,
+        "duration": 1.039
+    },
+    {
+        "text": "of mathematics or science. To check this",
+        "start": 995.759,
+        "duration": 2.64
+    },
+    {
+        "text": "stuff out yourself",
+        "start": 998.399,
+        "duration": 0.88
+    },
+    {
+        "text": "go to brilliant.org/numberphile.",
+        "start": 999.279,
+        "duration": 3.521
+    },
+    {
+        "text": "Using that /numberphile will tell",
+        "start": 1002.8,
+        "duration": 1.839
+    },
+    {
+        "text": "them you came from here",
+        "start": 1004.639,
+        "duration": 1.2
+    },
+    {
+        "text": "and also give you 20% of a",
+        "start": 1005.839,
+        "duration": 2.641
+    },
+    {
+        "text": "premium subscription.",
+        "start": 1008.48,
+        "duration": 1.96
+    },
+    {
+        "text": "brilliant.org/numberphile - it's",
+        "start": 1010.44,
+        "duration": 2.6
+    },
+    {
+        "text": "well worth your time.",
+        "start": 1013.04,
+        "duration": 1.379
+    },
+    {
+        "text": "...keep drawing rectangles until I",
+        "start": 1015.839,
+        "duration": 2.401
+    },
+    {
+        "text": "got that one to work.",
+        "start": 1018.24,
+        "duration": 1.2
+    },
+    {
+        "text": "But you know the good- the good",
+        "start": 1019.44,
+        "duration": 1.92
+    },
+    {
+        "text": "students, the good candidates, will",
+        "start": 1021.36,
+        "duration": 1.44
+    },
+    {
+        "text": "be able to to get through and spot the",
+        "start": 1022.8,
+        "duration": 1.999
+    },
+    {
+        "text": "pattern with the adding of three",
+        "start": 1024.799,
+        "duration": 1.841
+    },
+    {
+        "text": "and like that's the key thing really I",
+        "start": 1026.64,
+        "duration": 1.6
+    },
+    {
+        "text": "think in terms of the maths behind this",
+        "start": 1028.24,
+        "duration": 1.76
+    },
+    {
+        "text": "is spotting that pattern.",
+        "start": 1030.0,
+        "duration": 3.28
+    }
+]

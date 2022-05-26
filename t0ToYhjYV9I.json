@@ -1,0 +1,1362 @@
+[
+    {
+        "text": "hey everyone check it out here's the",
+        "start": 0.03,
+        "duration": 5.07
+    },
+    {
+        "text": "newest addition to my lab I'm extremely",
+        "start": 2.639,
+        "duration": 4.47
+    },
+    {
+        "text": "grateful to Tektronix for sending me",
+        "start": 5.1,
+        "duration": 3.9
+    },
+    {
+        "text": "this oscilloscope and I plan to make a",
+        "start": 7.109,
+        "duration": 3.601
+    },
+    {
+        "text": "bunch of videos showing off what you can",
+        "start": 9.0,
+        "duration": 4.44
+    },
+    {
+        "text": "do with it so to start I thought we'd do",
+        "start": 10.71,
+        "duration": 3.99
+    },
+    {
+        "text": "something kind of simple for an",
+        "start": 13.44,
+        "duration": 3.15
+    },
+    {
+        "text": "oscilloscope but it does make use of",
+        "start": 14.7,
+        "duration": 3.51
+    },
+    {
+        "text": "some of the features there and I learned",
+        "start": 16.59,
+        "duration": 4.31
+    },
+    {
+        "text": "something interesting along the way I",
+        "start": 18.21,
+        "duration": 5.069
+    },
+    {
+        "text": "recently had my car smogged",
+        "start": 20.9,
+        "duration": 4.99
+    },
+    {
+        "text": "and the attendant measured engine rpm by",
+        "start": 23.279,
+        "duration": 4.111
+    },
+    {
+        "text": "putting a plug into the cigarette",
+        "start": 25.89,
+        "duration": 3.539
+    },
+    {
+        "text": "lighter so I thought I'd try it myself",
+        "start": 27.39,
+        "duration": 5.579
+    },
+    {
+        "text": "and see how reliable that signal is so",
+        "start": 29.429,
+        "duration": 6.301
+    },
+    {
+        "text": "to set up the scope I put it into the",
+        "start": 32.969,
+        "duration": 4.051
+    },
+    {
+        "text": "default mode just so you can see",
+        "start": 35.73,
+        "duration": 2.82
+    },
+    {
+        "text": "everything that I'm going to change here",
+        "start": 37.02,
+        "duration": 3.39
+    },
+    {
+        "text": "we're going to make some assumptions",
+        "start": 38.55,
+        "duration": 3.66
+    },
+    {
+        "text": "about what kind of a signal that we're",
+        "start": 40.41,
+        "duration": 4.489
+    },
+    {
+        "text": "going to get out of the cigarette plug",
+        "start": 42.21,
+        "duration": 5.64
+    },
+    {
+        "text": "the idea is that when the ignition coil",
+        "start": 44.899,
+        "duration": 5.441
+    },
+    {
+        "text": "fires in the car that's going to produce",
+        "start": 47.85,
+        "duration": 5.01
+    },
+    {
+        "text": "a little spike an inductive spike in the",
+        "start": 50.34,
+        "duration": 5.219
+    },
+    {
+        "text": "waveform and by measuring those spikes",
+        "start": 52.86,
+        "duration": 4.199
+    },
+    {
+        "text": "we can figure out how often the ignition",
+        "start": 55.559,
+        "duration": 4.171
+    },
+    {
+        "text": "coil is firing and how fast the motor is",
+        "start": 57.059,
+        "duration": 6.031
+    },
+    {
+        "text": "turning so I'm going to turn this down",
+        "start": 59.73,
+        "duration": 6.24
+    },
+    {
+        "text": "and we can make a few more assumptions",
+        "start": 63.09,
+        "duration": 5.91
+    },
+    {
+        "text": "knowing a bit about the car itself so if",
+        "start": 65.97,
+        "duration": 6.21
+    },
+    {
+        "text": "it's a six-cylinder car and the engine",
+        "start": 69.0,
+        "duration": 7.189
+    },
+    {
+        "text": "is turning about 750 rpm at idle then",
+        "start": 72.18,
+        "duration": 6.78
+    },
+    {
+        "text": "it's and it's a four-stroke engine so",
+        "start": 76.189,
+        "duration": 4.151
+    },
+    {
+        "text": "it's going to so each cylinder is going",
+        "start": 78.96,
+        "duration": 4.26
+    },
+    {
+        "text": "to fire once every other engine rotation",
+        "start": 80.34,
+        "duration": 5.91
+    },
+    {
+        "text": "and any of six cylinders so that's three",
+        "start": 83.22,
+        "duration": 7.05
+    },
+    {
+        "text": "firings per revolution 750 rpm divided",
+        "start": 86.25,
+        "duration": 6.75
+    },
+    {
+        "text": "by 16 let's just say about 600 it's",
+        "start": 90.27,
+        "duration": 4.5
+    },
+    {
+        "text": "about 10 revolutions per second or a",
+        "start": 93.0,
+        "duration": 4.38
+    },
+    {
+        "text": "little bit more times 3 gives us about",
+        "start": 94.77,
+        "duration": 5.34
+    },
+    {
+        "text": "30 Hertz so at idle we would expect to",
+        "start": 97.38,
+        "duration": 4.519
+    },
+    {
+        "text": "see these inductive spikes at",
+        "start": 100.11,
+        "duration": 4.74
+    },
+    {
+        "text": "approximately 30 Hertz so just to get us",
+        "start": 101.899,
+        "duration": 4.841
+    },
+    {
+        "text": "in the right ballpark I'm going to set",
+        "start": 104.85,
+        "duration": 3.269
+    },
+    {
+        "text": "up the scope on the bench here and then",
+        "start": 106.74,
+        "duration": 3.21
+    },
+    {
+        "text": "we'll take it out to the car and I'm",
+        "start": 108.119,
+        "duration": 3.301
+    },
+    {
+        "text": "going to put my finger on the probe just",
+        "start": 109.95,
+        "duration": 4.02
+    },
+    {
+        "text": "to get a sort of a dirty looking 60",
+        "start": 111.42,
+        "duration": 2.94
+    },
+    {
+        "text": "Hertz",
+        "start": 113.97,
+        "duration": 2.579
+    },
+    {
+        "text": "signal this is just picking up power",
+        "start": 114.36,
+        "duration": 6.539
+    },
+    {
+        "text": "line noise in the lab here so I'm going",
+        "start": 116.549,
+        "duration": 8.161
+    },
+    {
+        "text": "to turn off persistence and I'm going to",
+        "start": 120.899,
+        "duration": 9.0
+    },
+    {
+        "text": "set the trigger level here and push the",
+        "start": 124.71,
+        "duration": 8.13
+    },
+    {
+        "text": "signal up here so one sort of the first",
+        "start": 129.899,
+        "duration": 3.721
+    },
+    {
+        "text": "attempt if we",
+        "start": 132.84,
+        "duration": 2.67
+    },
+    {
+        "text": "had a nice clean periodic signal like",
+        "start": 133.62,
+        "duration": 3.899
+    },
+    {
+        "text": "this what we could do is just measure",
+        "start": 135.51,
+        "duration": 3.869
+    },
+    {
+        "text": "the period of course and that would give",
+        "start": 137.519,
+        "duration": 5.22
+    },
+    {
+        "text": "us engine rpm however if the signal",
+        "start": 139.379,
+        "duration": 4.681
+    },
+    {
+        "text": "we're going to get from the car is much",
+        "start": 142.739,
+        "duration": 4.47
+    },
+    {
+        "text": "more unclear the inductive spikes are",
+        "start": 144.06,
+        "duration": 5.25
+    },
+    {
+        "text": "very noisy I mean very ragged and",
+        "start": 147.209,
+        "duration": 3.631
+    },
+    {
+        "text": "there's lots of other things that are",
+        "start": 149.31,
+        "duration": 5.459
+    },
+    {
+        "text": "superimposed on top so to make our job a",
+        "start": 150.84,
+        "duration": 5.58
+    },
+    {
+        "text": "little bit easier I'm going to use an",
+        "start": 154.769,
+        "duration": 4.89
+    },
+    {
+        "text": "FFT so I select the math function and",
+        "start": 156.42,
+        "duration": 7.47
+    },
+    {
+        "text": "then FFT and I'm going to make the time",
+        "start": 159.659,
+        "duration": 8.401
+    },
+    {
+        "text": "base fairly long so that we can get good",
+        "start": 163.89,
+        "duration": 8.09
+    },
+    {
+        "text": "resolution down at the bottom of the FFT",
+        "start": 168.06,
+        "duration": 6.63
+    },
+    {
+        "text": "we're interested in signals around 30",
+        "start": 171.98,
+        "duration": 5.14
+    },
+    {
+        "text": "Hertz or there abouts and so we need a",
+        "start": 174.69,
+        "duration": 5.73
+    },
+    {
+        "text": "long time acquisition here to get those",
+        "start": 177.12,
+        "duration": 7.05
+    },
+    {
+        "text": "low frequencies one thing I like about",
+        "start": 180.42,
+        "duration": 5.819
+    },
+    {
+        "text": "the tech that I haven't seen on many",
+        "start": 184.17,
+        "duration": 4.59
+    },
+    {
+        "text": "other scopes is the numeric entry so",
+        "start": 186.239,
+        "duration": 5.461
+    },
+    {
+        "text": "down here we can change the center point",
+        "start": 188.76,
+        "duration": 6.569
+    },
+    {
+        "text": "and spatial resolution or frequency",
+        "start": 191.7,
+        "duration": 6.09
+    },
+    {
+        "text": "resolution of the FFT and you could use",
+        "start": 195.329,
+        "duration": 4.921
+    },
+    {
+        "text": "the knob to do this but if you already",
+        "start": 197.79,
+        "duration": 4.259
+    },
+    {
+        "text": "know what you want like we already",
+        "start": 200.25,
+        "duration": 3.63
+    },
+    {
+        "text": "already know that I want maybe about 50",
+        "start": 202.049,
+        "duration": 6.351
+    },
+    {
+        "text": "Hertz for the frequency per division and",
+        "start": 203.88,
+        "duration": 8.219
+    },
+    {
+        "text": "if we want to change the centre points",
+        "start": 208.4,
+        "duration": 4.959
+    },
+    {
+        "text": "since we're kind of looking way off in",
+        "start": 212.099,
+        "duration": 2.97
+    },
+    {
+        "text": "the middle of the FFT we could set the",
+        "start": 213.359,
+        "duration": 3.06
+    },
+    {
+        "text": "centre point to be something like a",
+        "start": 215.069,
+        "duration": 3.75
+    },
+    {
+        "text": "hundred Hertz and then we've already",
+        "start": 216.419,
+        "duration": 4.201
+    },
+    {
+        "text": "dialed this thing in without dealing",
+        "start": 218.819,
+        "duration": 3.42
+    },
+    {
+        "text": "with the wheels here I thought that was",
+        "start": 220.62,
+        "duration": 3.06
+    },
+    {
+        "text": "a nice feature that doesn't show up too",
+        "start": 222.239,
+        "duration": 3.89
+    },
+    {
+        "text": "often",
+        "start": 223.68,
+        "duration": 2.449
+    },
+    {
+        "text": "so I'm going to move this down just to",
+        "start": 230.34,
+        "duration": 5.009
+    },
+    {
+        "text": "make it a little easier to see and we",
+        "start": 233.94,
+        "duration": 4.11
+    },
+    {
+        "text": "can see we've got a nice peak here so we",
+        "start": 235.349,
+        "duration": 5.61
+    },
+    {
+        "text": "could measure this with a cursor we",
+        "start": 238.05,
+        "duration": 5.76
+    },
+    {
+        "text": "could turn on cursors and if I hold down",
+        "start": 240.959,
+        "duration": 4.711
+    },
+    {
+        "text": "the cursors button it gives me the the",
+        "start": 243.81,
+        "duration": 3.75
+    },
+    {
+        "text": "menu here so I'll say bring on screen",
+        "start": 245.67,
+        "duration": 5.46
+    },
+    {
+        "text": "and then use a this guy and it's telling",
+        "start": 247.56,
+        "duration": 5.81
+    },
+    {
+        "text": "us the a cursor is right about here and",
+        "start": 251.13,
+        "duration": 5.009
+    },
+    {
+        "text": "the a cursor is sixty point five Hertz",
+        "start": 253.37,
+        "duration": 6.22
+    },
+    {
+        "text": "so that all makes sense however it would",
+        "start": 256.139,
+        "duration": 5.28
+    },
+    {
+        "text": "be nice if we could track this peak and",
+        "start": 259.59,
+        "duration": 3.93
+    },
+    {
+        "text": "so I came up with a little hack here",
+        "start": 261.419,
+        "duration": 4.411
+    },
+    {
+        "text": "that I don't know if tech was really",
+        "start": 263.52,
+        "duration": 3.69
+    },
+    {
+        "text": "thinking you'd be used this way but I",
+        "start": 265.83,
+        "duration": 3.57
+    },
+    {
+        "text": "found it to work so if we turn cursors",
+        "start": 267.21,
+        "duration": 5.49
+    },
+    {
+        "text": "off we can use this wave inspector",
+        "start": 269.4,
+        "duration": 8.239
+    },
+    {
+        "text": "search function so I'll turn search on",
+        "start": 272.7,
+        "duration": 4.939
+    },
+    {
+        "text": "turn search on and what we're going to",
+        "start": 279.139,
+        "duration": 7.5
+    },
+    {
+        "text": "be looking for is a slope or an edge and",
+        "start": 282.75,
+        "duration": 6.36
+    },
+    {
+        "text": "I'm actually going to select both rising",
+        "start": 286.639,
+        "duration": 5.351
+    },
+    {
+        "text": "and falling edges and the source is",
+        "start": 289.11,
+        "duration": 6.15
+    },
+    {
+        "text": "going to be the math function the FFT",
+        "start": 291.99,
+        "duration": 5.73
+    },
+    {
+        "text": "that we just set up and then we can set",
+        "start": 295.26,
+        "duration": 5.52
+    },
+    {
+        "text": "a threshold so it's giving us this red",
+        "start": 297.72,
+        "duration": 5.49
+    },
+    {
+        "text": "line here and as I dial the threshold up",
+        "start": 300.78,
+        "duration": 3.81
+    },
+    {
+        "text": "and down you can see what's happening",
+        "start": 303.21,
+        "duration": 2.91
+    },
+    {
+        "text": "it's actually putting little markers up",
+        "start": 304.59,
+        "duration": 3.78
+    },
+    {
+        "text": "here telling us that it's found in a",
+        "start": 306.12,
+        "duration": 5.46
+    },
+    {
+        "text": "tent so I'll set it high so that we only",
+        "start": 308.37,
+        "duration": 5.37
+    },
+    {
+        "text": "get the markers on this first big peak",
+        "start": 311.58,
+        "duration": 5.82
+    },
+    {
+        "text": "and the cool function the interesting",
+        "start": 313.74,
+        "duration": 5.04
+    },
+    {
+        "text": "thing about this we go back to the",
+        "start": 317.4,
+        "duration": 8.1
+    },
+    {
+        "text": "search menu we can pull up a table of",
+        "start": 318.78,
+        "duration": 9.389
+    },
+    {
+        "text": "all the events that the search is found",
+        "start": 325.5,
+        "duration": 4.229
+    },
+    {
+        "text": "and this is real time so if I take my",
+        "start": 328.169,
+        "duration": 5.041
+    },
+    {
+        "text": "finger off the probe after it processes",
+        "start": 329.729,
+        "duration": 6.091
+    },
+    {
+        "text": "the next set of stuff there it goes away",
+        "start": 333.21,
+        "duration": 5.429
+    },
+    {
+        "text": "and if I put my finger back the data",
+        "start": 335.82,
+        "duration": 5.94
+    },
+    {
+        "text": "comes back and this makes sense so it's",
+        "start": 338.639,
+        "duration": 4.921
+    },
+    {
+        "text": "showing us the rising and the falling",
+        "start": 341.76,
+        "duration": 7.17
+    },
+    {
+        "text": "edge of the of that first peak so this",
+        "start": 343.56,
+        "duration": 7.109
+    },
+    {
+        "text": "will work what with in theory if we go",
+        "start": 348.93,
+        "duration": 4.08
+    },
+    {
+        "text": "to the car and plug this thing in we",
+        "start": 350.669,
+        "duration": 6.81
+    },
+    {
+        "text": "will have a spike at the frequency",
+        "start": 353.01,
+        "duration": 6.18
+    },
+    {
+        "text": "caused by the inductive kicks from the",
+        "start": 357.479,
+        "duration": 3.961
+    },
+    {
+        "text": "ignition coil and then we can use this",
+        "start": 359.19,
+        "duration": 4.65
+    },
+    {
+        "text": "automatic tracker to tell us what the",
+        "start": 361.44,
+        "duration": 2.67
+    },
+    {
+        "text": "Freak",
+        "start": 363.84,
+        "duration": 2.97
+    },
+    {
+        "text": "see is I was looking for a search type",
+        "start": 364.11,
+        "duration": 4.41
+    },
+    {
+        "text": "that would tell me the center location",
+        "start": 366.81,
+        "duration": 4.139
+    },
+    {
+        "text": "of this of this peak but I couldn't",
+        "start": 368.52,
+        "duration": 4.649
+    },
+    {
+        "text": "figure that out and for this thing you",
+        "start": 370.949,
+        "duration": 3.84
+    },
+    {
+        "text": "know we're not really looking for super",
+        "start": 373.169,
+        "duration": 3.541
+    },
+    {
+        "text": "high accuracy stuff so I figured we",
+        "start": 374.789,
+        "duration": 3.991
+    },
+    {
+        "text": "could just do rising and falling I",
+        "start": 376.71,
+        "duration": 5.009
+    },
+    {
+        "text": "noticed that if we change the threshold",
+        "start": 378.78,
+        "duration": 5.729
+    },
+    {
+        "text": "carefully enough you can actually get it",
+        "start": 381.719,
+        "duration": 4.32
+    },
+    {
+        "text": "to just do a single event because",
+        "start": 384.509,
+        "duration": 3.391
+    },
+    {
+        "text": "there's not enough resolution and so if",
+        "start": 386.039,
+        "duration": 3.361
+    },
+    {
+        "text": "the peak stays at about the same",
+        "start": 387.9,
+        "duration": 3.6
+    },
+    {
+        "text": "amplitude you can get in there with a",
+        "start": 389.4,
+        "duration": 4.289
+    },
+    {
+        "text": "really high threshold and then if we",
+        "start": 391.5,
+        "duration": 5.94
+    },
+    {
+        "text": "check the table it's only going to give",
+        "start": 393.689,
+        "duration": 5.341
+    },
+    {
+        "text": "us one point even though it's finding",
+        "start": 397.44,
+        "duration": 3.449
+    },
+    {
+        "text": "rising and falling edges and it's pretty",
+        "start": 399.03,
+        "duration": 3.71
+    },
+    {
+        "text": "much right on the money",
+        "start": 400.889,
+        "duration": 4.441
+    },
+    {
+        "text": "so to plug this into the car I just made",
+        "start": 402.74,
+        "duration": 4.269
+    },
+    {
+        "text": "this super simple adapter it's just a",
+        "start": 405.33,
+        "duration": 3.299
+    },
+    {
+        "text": "cigarette lighter going straight into",
+        "start": 407.009,
+        "duration": 6.331
+    },
+    {
+        "text": "the scope and I used AC coupling so the",
+        "start": 408.629,
+        "duration": 6.0
+    },
+    {
+        "text": "way I look at it is if you want to",
+        "start": 413.34,
+        "duration": 3.09
+    },
+    {
+        "text": "manage your engine rpm you might as well",
+        "start": 414.629,
+        "duration": 4.141
+    },
+    {
+        "text": "do it in style so I used my DeLorean",
+        "start": 416.43,
+        "duration": 3.72
+    },
+    {
+        "text": "it's the test subject for this",
+        "start": 418.77,
+        "duration": 4.669
+    },
+    {
+        "text": "experiment and plugged it into the",
+        "start": 420.15,
+        "duration": 5.669
+    },
+    {
+        "text": "console mounted cigarette lighter and",
+        "start": 423.439,
+        "duration": 4.66
+    },
+    {
+        "text": "collected a waveform that looked like",
+        "start": 425.819,
+        "duration": 5.761
+    },
+    {
+        "text": "this so what I did here was collected a",
+        "start": 428.099,
+        "duration": 6.271
+    },
+    {
+        "text": "long record length of data from the car",
+        "start": 431.58,
+        "duration": 5.94
+    },
+    {
+        "text": "and stored it as reference 1 just so we",
+        "start": 434.37,
+        "duration": 6.21
+    },
+    {
+        "text": "can look at it here in the shop and as",
+        "start": 437.52,
+        "duration": 5.88
+    },
+    {
+        "text": "you can see there are inductive kicks in",
+        "start": 440.58,
+        "duration": 4.619
+    },
+    {
+        "text": "the signal here and they're actually",
+        "start": 443.4,
+        "duration": 5.489
+    },
+    {
+        "text": "quite big so if I r1 is actually 1 volt",
+        "start": 445.199,
+        "duration": 5.881
+    },
+    {
+        "text": "per division and so you can see the",
+        "start": 448.889,
+        "duration": 3.87
+    },
+    {
+        "text": "spike here is easily a volt it's",
+        "start": 451.08,
+        "duration": 4.649
+    },
+    {
+        "text": "actually a little bit more but just from",
+        "start": 452.759,
+        "duration": 4.08
+    },
+    {
+        "text": "inspecting it you can see there's",
+        "start": 455.729,
+        "duration": 3.12
+    },
+    {
+        "text": "something strange going on here the",
+        "start": 456.839,
+        "duration": 4.98
+    },
+    {
+        "text": "spikes are not evenly spaced which is a",
+        "start": 458.849,
+        "duration": 4.47
+    },
+    {
+        "text": "bit of a surprise to me at first I",
+        "start": 461.819,
+        "duration": 2.371
+    },
+    {
+        "text": "thought there must have been something",
+        "start": 463.319,
+        "duration": 2.791
+    },
+    {
+        "text": "wrong with my setup I mean how could an",
+        "start": 464.19,
+        "duration": 4.86
+    },
+    {
+        "text": "engine have uneven ignition timing but I",
+        "start": 466.11,
+        "duration": 5.399
+    },
+    {
+        "text": "learned something unusual the engine in",
+        "start": 469.05,
+        "duration": 5.94
+    },
+    {
+        "text": "a Dorian is a v6 but the spacing like",
+        "start": 471.509,
+        "duration": 5.731
+    },
+    {
+        "text": "the angle between the cylinders is 90",
+        "start": 474.99,
+        "duration": 4.91
+    },
+    {
+        "text": "degrees and due to manufacturing",
+        "start": 477.24,
+        "duration": 6.359
+    },
+    {
+        "text": "difficulties they decided to not fix the",
+        "start": 479.9,
+        "duration": 5.799
+    },
+    {
+        "text": "cam sure not fix the crankshaft so that",
+        "start": 483.599,
+        "duration": 4.44
+    },
+    {
+        "text": "the cylinders would fire evenly so the",
+        "start": 485.699,
+        "duration": 4.801
+    },
+    {
+        "text": "motor actually fires in an uneven way or",
+        "start": 488.039,
+        "duration": 4.021
+    },
+    {
+        "text": "it has this kind of gala P sort of",
+        "start": 490.5,
+        "duration": 2.569
+    },
+    {
+        "text": "loping pattern to",
+        "start": 492.06,
+        "duration": 3.27
+    },
+    {
+        "text": "you can search I'll put some links in",
+        "start": 493.069,
+        "duration": 3.671
+    },
+    {
+        "text": "the description there but you can see",
+        "start": 495.33,
+        "duration": 4.2
+    },
+    {
+        "text": "that some v6 engines that are spaced 90",
+        "start": 496.74,
+        "duration": 4.079
+    },
+    {
+        "text": "degrees",
+        "start": 499.53,
+        "duration": 4.099
+    },
+    {
+        "text": "have this strange odd firing sequence",
+        "start": 500.819,
+        "duration": 6.211
+    },
+    {
+        "text": "you can see here why this is the case so",
+        "start": 503.629,
+        "duration": 5.921
+    },
+    {
+        "text": "in a v6 engine it's very common to have",
+        "start": 507.03,
+        "duration": 5.16
+    },
+    {
+        "text": "two cylinders share the same journal on",
+        "start": 509.55,
+        "duration": 5.07
+    },
+    {
+        "text": "the crankshaft and if they do this",
+        "start": 512.19,
+        "duration": 5.07
+    },
+    {
+        "text": "the journals have to be spaced at 120",
+        "start": 514.62,
+        "duration": 4.229
+    },
+    {
+        "text": "degrees so that they're even for",
+        "start": 517.26,
+        "duration": 3.719
+    },
+    {
+        "text": "rotation but since the cylinders are",
+        "start": 518.849,
+        "duration": 4.021
+    },
+    {
+        "text": "spaced at 90 degrees there's going to be",
+        "start": 520.979,
+        "duration": 3.781
+    },
+    {
+        "text": "this strange sort of beat frequency",
+        "start": 522.87,
+        "duration": 4.38
+    },
+    {
+        "text": "between 120 degrees of the shaft and the",
+        "start": 524.76,
+        "duration": 5.37
+    },
+    {
+        "text": "90 degrees spacing of the cylinders you",
+        "start": 527.25,
+        "duration": 5.43
+    },
+    {
+        "text": "can fix this by changing the point where",
+        "start": 530.13,
+        "duration": 4.98
+    },
+    {
+        "text": "these pistons connect to the crankshaft",
+        "start": 532.68,
+        "duration": 5.07
+    },
+    {
+        "text": "but if you don't fix it mechanically you",
+        "start": 535.11,
+        "duration": 4.14
+    },
+    {
+        "text": "basically have to live with this kind of",
+        "start": 537.75,
+        "duration": 6.06
+    },
+    {
+        "text": "uneven firing sequence so if we turn",
+        "start": 539.25,
+        "duration": 7.74
+    },
+    {
+        "text": "cursors back on I will hold down the",
+        "start": 543.81,
+        "duration": 6.0
+    },
+    {
+        "text": "cursors button again and change the",
+        "start": 546.99,
+        "duration": 8.88
+    },
+    {
+        "text": "selected waveform to be r1 and if we",
+        "start": 549.81,
+        "duration": 8.13
+    },
+    {
+        "text": "want to measure one of the short periods",
+        "start": 555.87,
+        "duration": 4.85
+    },
+    {
+        "text": "put the a cursor there and the B cursor",
+        "start": 557.94,
+        "duration": 5.13
+    },
+    {
+        "text": "here just to get kind of an approximate",
+        "start": 560.72,
+        "duration": 3.88
+    },
+    {
+        "text": "reading we're kind of at about 20",
+        "start": 563.07,
+        "duration": 5.63
+    },
+    {
+        "text": "milliseconds Delta and the longer",
+        "start": 564.6,
+        "duration": 7.14
+    },
+    {
+        "text": "interval is more like 32 milliseconds",
+        "start": 568.7,
+        "duration": 6.94
+    },
+    {
+        "text": "and then if we switch the cursors to the",
+        "start": 571.74,
+        "duration": 10.62
+    },
+    {
+        "text": "FFT okay so the a cursor at this first",
+        "start": 575.64,
+        "duration": 8.4
+    },
+    {
+        "text": "peak this is this is garbage that's too",
+        "start": 582.36,
+        "duration": 4.65
+    },
+    {
+        "text": "low frequency we're at 38 Hertz for that",
+        "start": 584.04,
+        "duration": 9.57
+    },
+    {
+        "text": "first peak and about 50 7.5 Hertz for",
+        "start": 587.01,
+        "duration": 8.97
+    },
+    {
+        "text": "the second peak and what we're really",
+        "start": 593.61,
+        "duration": 4.08
+    },
+    {
+        "text": "interested in is the average because we",
+        "start": 595.98,
+        "duration": 3.45
+    },
+    {
+        "text": "don't care about we were trying to",
+        "start": 597.69,
+        "duration": 3.36
+    },
+    {
+        "text": "ignore this kind of low key 'no stew the",
+        "start": 599.43,
+        "duration": 6.0
+    },
+    {
+        "text": "engine so if we take the average of the",
+        "start": 601.05,
+        "duration": 7.529
+    },
+    {
+        "text": "two periods that we have and divide by",
+        "start": 605.43,
+        "duration": 6.599
+    },
+    {
+        "text": "three and multiply by 60 we get 689 rpm",
+        "start": 608.579,
+        "duration": 5.01
+    },
+    {
+        "text": "which is pretty reasonable that's about",
+        "start": 612.029,
+        "duration": 5.911
+    },
+    {
+        "text": "the idle speed of the car so back at the",
+        "start": 613.589,
+        "duration": 5.881
+    },
+    {
+        "text": "car you can see that with the table",
+        "start": 617.94,
+        "duration": 3.09
+    },
+    {
+        "text": "pulled up we can have",
+        "start": 619.47,
+        "duration": 3.48
+    },
+    {
+        "text": "those two peaks highlighted for us and",
+        "start": 621.03,
+        "duration": 4.17
+    },
+    {
+        "text": "we step on the gas pedal and raise the",
+        "start": 622.95,
+        "duration": 4.26
+    },
+    {
+        "text": "engine rpm you can see that the table",
+        "start": 625.2,
+        "duration": 4.08
+    },
+    {
+        "text": "updates in real-time and then we can",
+        "start": 627.21,
+        "duration": 5.04
+    },
+    {
+        "text": "pull the new values out and in this case",
+        "start": 629.28,
+        "duration": 6.39
+    },
+    {
+        "text": "it gets up to about 60 and 120 Hertz and",
+        "start": 632.25,
+        "duration": 5.1
+    },
+    {
+        "text": "if we take the average of all that we",
+        "start": 635.67,
+        "duration": 6.51
+    },
+    {
+        "text": "get about 1800 rpm so I thought that was",
+        "start": 637.35,
+        "duration": 6.51
+    },
+    {
+        "text": "an interesting little experiment if you",
+        "start": 642.18,
+        "duration": 2.7
+    },
+    {
+        "text": "wanted to implement this in a",
+        "start": 643.86,
+        "duration": 2.85
+    },
+    {
+        "text": "microcontroller it would be very easy to",
+        "start": 644.88,
+        "duration": 4.65
+    },
+    {
+        "text": "AC couple this signal and feed it into a",
+        "start": 646.71,
+        "duration": 4.38
+    },
+    {
+        "text": "comparator and basically just trigger",
+        "start": 649.53,
+        "duration": 2.97
+    },
+    {
+        "text": "every time you have one of these high",
+        "start": 651.09,
+        "duration": 4.65
+    },
+    {
+        "text": "spikes in this case all the other this",
+        "start": 652.5,
+        "duration": 5.1
+    },
+    {
+        "text": "is like alternator noise and other noise",
+        "start": 655.74,
+        "duration": 3.99
+    },
+    {
+        "text": "from the electronics on the car the",
+        "start": 657.6,
+        "duration": 4.17
+    },
+    {
+        "text": "engine control electronics but those",
+        "start": 659.73,
+        "duration": 4.29
+    },
+    {
+        "text": "ignition spikes are very high compared",
+        "start": 661.77,
+        "duration": 4.14
+    },
+    {
+        "text": "pretty much to everything else so it'd",
+        "start": 664.02,
+        "duration": 3.09
+    },
+    {
+        "text": "be easy to pick them out with a",
+        "start": 665.91,
+        "duration": 3.27
+    },
+    {
+        "text": "comparator you could trigger an",
+        "start": 667.11,
+        "duration": 3.33
+    },
+    {
+        "text": "interrupt and just measure the time",
+        "start": 669.18,
+        "duration": 3.45
+    },
+    {
+        "text": "interval although interestingly enough",
+        "start": 670.44,
+        "duration": 4.05
+    },
+    {
+        "text": "since some engines are odd fire and",
+        "start": 672.63,
+        "duration": 3.12
+    },
+    {
+        "text": "you'd have to take into account the P",
+        "start": 674.49,
+        "duration": 3.78
+    },
+    {
+        "text": "interval varies every other time so you",
+        "start": 675.75,
+        "duration": 4.02
+    },
+    {
+        "text": "would have to take an average over eight",
+        "start": 678.27,
+        "duration": 5.88
+    },
+    {
+        "text": "samples or something like that okay see",
+        "start": 679.77,
+        "duration": 7.55
+    },
+    {
+        "text": "you next time bye",
+        "start": 684.15,
+        "duration": 3.17
+    }
+]

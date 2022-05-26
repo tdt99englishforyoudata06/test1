@@ -1,0 +1,1592 @@
+[
+    {
+        "text": "hey everyone I'm gonna show you my first",
+        "start": 0.03,
+        "duration": 4.92
+    },
+    {
+        "text": "experiences with the Altera de 1 board",
+        "start": 2.37,
+        "duration": 5.88
+    },
+    {
+        "text": "this is an fpga board that I bought and",
+        "start": 4.95,
+        "duration": 5.34
+    },
+    {
+        "text": "I have no experience with programming",
+        "start": 8.25,
+        "duration": 3.54
+    },
+    {
+        "text": "FPGAs so I thought I would take you",
+        "start": 10.29,
+        "duration": 3.75
+    },
+    {
+        "text": "through kind of like what how my first",
+        "start": 11.79,
+        "duration": 4.409
+    },
+    {
+        "text": "day went so I've already gone through it",
+        "start": 14.04,
+        "duration": 3.69
+    },
+    {
+        "text": "because the video would be really",
+        "start": 16.199,
+        "duration": 2.91
+    },
+    {
+        "text": "painful if I was doing this the first",
+        "start": 17.73,
+        "duration": 5.67
+    },
+    {
+        "text": "time anyway I installed all the software",
+        "start": 19.109,
+        "duration": 6.541
+    },
+    {
+        "text": "that came with the de 1 and the main",
+        "start": 23.4,
+        "duration": 5.129
+    },
+    {
+        "text": "piece here is Quartus - which is all",
+        "start": 25.65,
+        "duration": 7.019
+    },
+    {
+        "text": "Tara's development environment and it's",
+        "start": 28.529,
+        "duration": 6.601
+    },
+    {
+        "text": "a pretty big you know that the software",
+        "start": 32.669,
+        "duration": 4.23
+    },
+    {
+        "text": "is like multiple gigabytes worth and",
+        "start": 35.13,
+        "duration": 3.269
+    },
+    {
+        "text": "after it was done I realized that",
+        "start": 36.899,
+        "duration": 4.59
+    },
+    {
+        "text": "version 7.2 is already out of date so",
+        "start": 38.399,
+        "duration": 5.82
+    },
+    {
+        "text": "you can download version 8 I think for",
+        "start": 41.489,
+        "duration": 5.491
+    },
+    {
+        "text": "free off the web or waste your time",
+        "start": 44.219,
+        "duration": 8.43
+    },
+    {
+        "text": "installing 7.2 like I did anyway so I'm",
+        "start": 46.98,
+        "duration": 8.849
+    },
+    {
+        "text": "gonna start a new project right now the",
+        "start": 52.649,
+        "duration": 5.84
+    },
+    {
+        "text": "board is just running that standard",
+        "start": 55.829,
+        "duration": 6.811
+    },
+    {
+        "text": "stock you know the program that it comes",
+        "start": 58.489,
+        "duration": 6.431
+    },
+    {
+        "text": "with and the LEDs are flashing and I've",
+        "start": 62.64,
+        "duration": 3.87
+    },
+    {
+        "text": "got it connected up to the computer with",
+        "start": 64.92,
+        "duration": 5.699
+    },
+    {
+        "text": "the USB cable and it's powered on so",
+        "start": 66.51,
+        "duration": 5.67
+    },
+    {
+        "text": "that's all I've done with the hardware",
+        "start": 70.619,
+        "duration": 4.261
+    },
+    {
+        "text": "side it's totally out of the box so I'm",
+        "start": 72.18,
+        "duration": 9.36
+    },
+    {
+        "text": "going to start a new project and choose",
+        "start": 74.88,
+        "duration": 13.29
+    },
+    {
+        "text": "a working directory sure I'm going to",
+        "start": 81.54,
+        "duration": 10.31
+    },
+    {
+        "text": "call this counter test3",
+        "start": 88.17,
+        "duration": 3.68
+    },
+    {
+        "text": "okay oops yep we'll create the directory",
+        "start": 95.039,
+        "duration": 19.841
+    },
+    {
+        "text": "it's asking me if I want to add design",
+        "start": 111.659,
+        "duration": 5.89
+    },
+    {
+        "text": "files that I already have well we don't",
+        "start": 114.88,
+        "duration": 3.96
+    },
+    {
+        "text": "have anything yet so we'll just leave",
+        "start": 117.549,
+        "duration": 4.651
+    },
+    {
+        "text": "that blank now it's asking what kind of",
+        "start": 118.84,
+        "duration": 6.18
+    },
+    {
+        "text": "board we want a program this on to so",
+        "start": 122.2,
+        "duration": 4.289
+    },
+    {
+        "text": "you have to get down there and squint",
+        "start": 125.02,
+        "duration": 3.529
+    },
+    {
+        "text": "and read the little number off the chip",
+        "start": 126.489,
+        "duration": 4.38
+    },
+    {
+        "text": "you know it's cyclone two isn't good",
+        "start": 128.549,
+        "duration": 3.461
+    },
+    {
+        "text": "enough you actually have to pick the",
+        "start": 130.869,
+        "duration": 4.501
+    },
+    {
+        "text": "exact number of the chip so we've got",
+        "start": 132.01,
+        "duration": 6.62
+    },
+    {
+        "text": "that set okay",
+        "start": 135.37,
+        "duration": 3.26
+    },
+    {
+        "text": "EDA tools who knows something worth",
+        "start": 138.75,
+        "duration": 5.799
+    },
+    {
+        "text": "hands and there's a summary so we'll",
+        "start": 142.209,
+        "duration": 6.201
+    },
+    {
+        "text": "finish that and start it now a lot of",
+        "start": 144.549,
+        "duration": 6.541
+    },
+    {
+        "text": "tutorials get right into the the code",
+        "start": 148.41,
+        "duration": 5.26
+    },
+    {
+        "text": "you know either vera log or VHDL which",
+        "start": 151.09,
+        "duration": 5.479
+    },
+    {
+        "text": "is how you actually program this thing",
+        "start": 153.67,
+        "duration": 5.73
+    },
+    {
+        "text": "but I again I always kind of approach it",
+        "start": 156.569,
+        "duration": 5.26
+    },
+    {
+        "text": "more from a practical standpoint and so",
+        "start": 159.4,
+        "duration": 5.309
+    },
+    {
+        "text": "the first thing that I think of is the",
+        "start": 161.829,
+        "duration": 5.611
+    },
+    {
+        "text": "pin assignments so a lot of people start",
+        "start": 164.709,
+        "duration": 4.53
+    },
+    {
+        "text": "worrying about oh well jeez you know you",
+        "start": 167.44,
+        "duration": 3.54
+    },
+    {
+        "text": "got to start programming these modules",
+        "start": 169.239,
+        "duration": 3.271
+    },
+    {
+        "text": "and this and that but from my point of",
+        "start": 170.98,
+        "duration": 3.15
+    },
+    {
+        "text": "view I need to know what we're",
+        "start": 172.51,
+        "duration": 3.39
+    },
+    {
+        "text": "controlling first before I can start",
+        "start": 174.13,
+        "duration": 4.199
+    },
+    {
+        "text": "thinking about the modules at least so",
+        "start": 175.9,
+        "duration": 5.28
+    },
+    {
+        "text": "what I like to do is go to assignments",
+        "start": 178.329,
+        "duration": 9.571
+    },
+    {
+        "text": "pins and notice there's nothing in here",
+        "start": 181.18,
+        "duration": 9.119
+    },
+    {
+        "text": "so the development environment doesn't",
+        "start": 187.9,
+        "duration": 7.679
+    },
+    {
+        "text": "know what this chip is connected to how",
+        "start": 190.299,
+        "duration": 7.201
+    },
+    {
+        "text": "can it I you know we all we've done so",
+        "start": 195.579,
+        "duration": 4.201
+    },
+    {
+        "text": "far select this cyclone to the specific",
+        "start": 197.5,
+        "duration": 4.049
+    },
+    {
+        "text": "thing but what we want to do is set up",
+        "start": 199.78,
+        "duration": 3.209
+    },
+    {
+        "text": "the development environment so that it",
+        "start": 201.549,
+        "duration": 5.041
+    },
+    {
+        "text": "knows that we're using the de1 board so",
+        "start": 202.989,
+        "duration": 7.891
+    },
+    {
+        "text": "in here you can say assignments import",
+        "start": 206.59,
+        "duration": 9.09
+    },
+    {
+        "text": "assignments and it's going to ask for a",
+        "start": 210.88,
+        "duration": 9.509
+    },
+    {
+        "text": "file and the file is in it's on the de 1",
+        "start": 215.68,
+        "duration": 6.72
+    },
+    {
+        "text": "cd-rom which I copied to my hard drive",
+        "start": 220.389,
+        "duration": 7.381
+    },
+    {
+        "text": "de 1 cd-rom and it's under tutorials",
+        "start": 222.4,
+        "duration": 8.97
+    },
+    {
+        "text": "design files de 1 pin assignments and",
+        "start": 227.77,
+        "duration": 8.34
+    },
+    {
+        "text": "it's a comma-separated file so we'll",
+        "start": 231.37,
+        "duration": 7.26
+    },
+    {
+        "text": "import that and look what it did so it",
+        "start": 236.11,
+        "duration": 6.27
+    },
+    {
+        "text": "gave us node names these are actually",
+        "start": 238.63,
+        "duration": 5.15
+    },
+    {
+        "text": "the friendly names believe it or not",
+        "start": 242.38,
+        "duration": 5.07
+    },
+    {
+        "text": "that reference the pins on the FPGA chip",
+        "start": 243.78,
+        "duration": 5.65
+    },
+    {
+        "text": "so you can scroll down and it's got all",
+        "start": 247.45,
+        "duration": 4.59
+    },
+    {
+        "text": "kinds of stuff we got switches general",
+        "start": 249.43,
+        "duration": 5.01
+    },
+    {
+        "text": "purpose i/o the hex displays those are",
+        "start": 252.04,
+        "duration": 6.06
+    },
+    {
+        "text": "the 7-segment displays LED red will be",
+        "start": 254.44,
+        "duration": 8.04
+    },
+    {
+        "text": "using these today clocks VGA ports DRAM",
+        "start": 258.1,
+        "duration": 7.2
+    },
+    {
+        "text": "ports all kinds of stuff so the benefit",
+        "start": 262.48,
+        "duration": 6.18
+    },
+    {
+        "text": "here is that in your program now you can",
+        "start": 265.3,
+        "duration": 5.07
+    },
+    {
+        "text": "use these friendly names without",
+        "start": 268.66,
+        "duration": 3.96
+    },
+    {
+        "text": "worrying about well is that pin t6 and",
+        "start": 270.37,
+        "duration": 5.07
+    },
+    {
+        "text": "you know u1 u2 you can just say Dearing",
+        "start": 272.62,
+        "duration": 4.92
+    },
+    {
+        "text": "I'm data o'clock or whatever whatever",
+        "start": 275.44,
+        "duration": 5.4
+    },
+    {
+        "text": "the thing is so that's saved so we can",
+        "start": 277.54,
+        "duration": 7.68
+    },
+    {
+        "text": "close that and that we want to come in",
+        "start": 280.84,
+        "duration": 7.56
+    },
+    {
+        "text": "with a new programming file so I'm gonna",
+        "start": 285.22,
+        "duration": 5.43
+    },
+    {
+        "text": "use vera log because it looks better to",
+        "start": 288.4,
+        "duration": 4.41
+    },
+    {
+        "text": "my eyes people debate this thing up and",
+        "start": 290.65,
+        "duration": 4.74
+    },
+    {
+        "text": "down VHDL vs ferrule log and that's",
+        "start": 292.81,
+        "duration": 4.41
+    },
+    {
+        "text": "probably a topic for another video but",
+        "start": 295.39,
+        "duration": 4.68
+    },
+    {
+        "text": "so far as a real rank beginner I'm",
+        "start": 297.22,
+        "duration": 4.98
+    },
+    {
+        "text": "really gravitating towards vera log so",
+        "start": 300.07,
+        "duration": 4.2
+    },
+    {
+        "text": "that's what I'm going to use today and",
+        "start": 302.2,
+        "duration": 7.34
+    },
+    {
+        "text": "here we are now it's time to start so",
+        "start": 304.27,
+        "duration": 7.23
+    },
+    {
+        "text": "instead of going with one of their",
+        "start": 309.54,
+        "duration": 3.7
+    },
+    {
+        "text": "examples and kind of piecing it apart",
+        "start": 311.5,
+        "duration": 3.3
+    },
+    {
+        "text": "I'm gonna write one from scratch kind of",
+        "start": 313.24,
+        "duration": 3.78
+    },
+    {
+        "text": "quickly today just so you can see what",
+        "start": 314.8,
+        "duration": 4.47
+    },
+    {
+        "text": "what's starting from scratch looks like",
+        "start": 317.02,
+        "duration": 3.78
+    },
+    {
+        "text": "it's really a very different experience",
+        "start": 319.27,
+        "duration": 3.9
+    },
+    {
+        "text": "than sort of picking apart one of the",
+        "start": 320.8,
+        "duration": 9.89
+    },
+    {
+        "text": "examples I think so I and not at all a",
+        "start": 323.17,
+        "duration": 9.99
+    },
+    {
+        "text": "you know a good coder or you think",
+        "start": 330.69,
+        "duration": 5.31
+    },
+    {
+        "text": "experienced coder in any language",
+        "start": 333.16,
+        "duration": 10.56
+    },
+    {
+        "text": "one moment ok sorry about that so the",
+        "start": 336.0,
+        "duration": 9.39
+    },
+    {
+        "text": "first trick here is to name the",
+        "start": 343.72,
+        "duration": 5.37
+    },
+    {
+        "text": "top-level module these vera log files",
+        "start": 345.39,
+        "duration": 6.25
+    },
+    {
+        "text": "are all broken down into modules the",
+        "start": 349.09,
+        "duration": 4.5
+    },
+    {
+        "text": "name of this module has to be the same",
+        "start": 351.64,
+        "duration": 4.74
+    },
+    {
+        "text": "as the file name I think I'm still kind",
+        "start": 353.59,
+        "duration": 5.28
+    },
+    {
+        "text": "of figuring this out so it the very log",
+        "start": 356.38,
+        "duration": 4.62
+    },
+    {
+        "text": "one dot V is a name that it gave us what",
+        "start": 358.87,
+        "duration": 2.699
+    },
+    {
+        "text": "we're going to do",
+        "start": 361.0,
+        "duration": 6.029
+    },
+    {
+        "text": "say file save as and call it counter",
+        "start": 361.569,
+        "duration": 8.82
+    },
+    {
+        "text": "test three V no no for some reason it",
+        "start": 367.029,
+        "duration": 4.95
+    },
+    {
+        "text": "doesn't get to the right directory so",
+        "start": 370.389,
+        "duration": 2.49
+    },
+    {
+        "text": "we're gonna put it in the right",
+        "start": 371.979,
+        "duration": 5.601
+    },
+    {
+        "text": "directory counter test three dot V so",
+        "start": 372.879,
+        "duration": 7.231
+    },
+    {
+        "text": "this as far as I know this would be a",
+        "start": 377.58,
+        "duration": 6.28
+    },
+    {
+        "text": "valid module it just doesn't do anything",
+        "start": 380.11,
+        "duration": 6.809
+    },
+    {
+        "text": "and what I've added here is key and LED",
+        "start": 383.86,
+        "duration": 6.269
+    },
+    {
+        "text": "red are the connections that this module",
+        "start": 386.919,
+        "duration": 5.52
+    },
+    {
+        "text": "is going to have so let's define what",
+        "start": 390.129,
+        "duration": 5.91
+    },
+    {
+        "text": "those connections are going to do first",
+        "start": 392.439,
+        "duration": 5.4
+    },
+    {
+        "text": "one is going to be an input and it's",
+        "start": 396.039,
+        "duration": 4.891
+    },
+    {
+        "text": "going to be just a two position vector",
+        "start": 397.839,
+        "duration": 7.5
+    },
+    {
+        "text": "and that will be the key and the output",
+        "start": 400.93,
+        "duration": 8.759
+    },
+    {
+        "text": "will be a seven position vector and",
+        "start": 405.339,
+        "duration": 11.22
+    },
+    {
+        "text": "that's going to be LED are okay and then",
+        "start": 409.689,
+        "duration": 9.241
+    },
+    {
+        "text": "we're going to instantiate a counter",
+        "start": 416.559,
+        "duration": 3.991
+    },
+    {
+        "text": "which we're going to define later and I",
+        "start": 418.93,
+        "duration": 3.989
+    },
+    {
+        "text": "call that counter one I realized I",
+        "start": 420.55,
+        "duration": 5.819
+    },
+    {
+        "text": "should have probably coded this from",
+        "start": 422.919,
+        "duration": 5.85
+    },
+    {
+        "text": "inside out instead of top down but all",
+        "start": 426.369,
+        "duration": 4.741
+    },
+    {
+        "text": "right well you say I'm not much of a",
+        "start": 428.769,
+        "duration": 5.88
+    },
+    {
+        "text": "coder so you get to learn with me and of",
+        "start": 431.11,
+        "duration": 4.979
+    },
+    {
+        "text": "course I'm reading this off of a sheet",
+        "start": 434.649,
+        "duration": 3.69
+    },
+    {
+        "text": "that's on the side on the side of the",
+        "start": 436.089,
+        "duration": 3.78
+    },
+    {
+        "text": "computer because I wouldn't be able to",
+        "start": 438.339,
+        "duration": 5.1
+    },
+    {
+        "text": "pull this up for memory quite so well so",
+        "start": 439.869,
+        "duration": 4.98
+    },
+    {
+        "text": "we're saying here is we want to have a",
+        "start": 443.439,
+        "duration": 3.39
+    },
+    {
+        "text": "counter and the inputs are going to be",
+        "start": 444.849,
+        "duration": 5.16
+    },
+    {
+        "text": "key 0 and key 1 and the output is going",
+        "start": 446.829,
+        "duration": 5.55
+    },
+    {
+        "text": "to be LED are and the fact that we use",
+        "start": 450.009,
+        "duration": 5.55
+    },
+    {
+        "text": "those pin assignments that we set up",
+        "start": 452.379,
+        "duration": 5.611
+    },
+    {
+        "text": "from the CSV file means that these keys",
+        "start": 455.559,
+        "duration": 5.01
+    },
+    {
+        "text": "and led ours are going to map exactly to",
+        "start": 457.99,
+        "duration": 7.469
+    },
+    {
+        "text": "the correct hardware on the de1 board so",
+        "start": 460.569,
+        "duration": 6.63
+    },
+    {
+        "text": "since we we're talking about this",
+        "start": 465.459,
+        "duration": 3.63
+    },
+    {
+        "text": "counter counter is something that we",
+        "start": 467.199,
+        "duration": 3.84
+    },
+    {
+        "text": "haven't defined yet so we're going to",
+        "start": 469.089,
+        "duration": 5.13
+    },
+    {
+        "text": "define it right down here module counter",
+        "start": 471.039,
+        "duration": 9.84
+    },
+    {
+        "text": "and counter is going to have a clock or",
+        "start": 474.219,
+        "duration": 12.831
+    },
+    {
+        "text": "a count a clear and in a queue",
+        "start": 480.879,
+        "duration": 6.171
+    },
+    {
+        "text": "so in here the inputs will be the count",
+        "start": 489.24,
+        "duration": 12.19
+    },
+    {
+        "text": "and clear and the output will be a seven",
+        "start": 493.12,
+        "duration": 15.24
+    },
+    {
+        "text": "position vector q then we're also going",
+        "start": 501.43,
+        "duration": 9.57
+    },
+    {
+        "text": "to have an internal piece of this module",
+        "start": 508.36,
+        "duration": 4.14
+    },
+    {
+        "text": "that doesn't get passed in or out of",
+        "start": 511.0,
+        "duration": 5.7
+    },
+    {
+        "text": "this module a register also seven",
+        "start": 512.5,
+        "duration": 8.51
+    },
+    {
+        "text": "positions and we'll just call that ten",
+        "start": 516.7,
+        "duration": 4.31
+    },
+    {
+        "text": "so this 7 : zero just means you know",
+        "start": 521.61,
+        "duration": 9.13
+    },
+    {
+        "text": "seven it's basically an 8-bit set of",
+        "start": 526.54,
+        "duration": 7.89
+    },
+    {
+        "text": "data and we could have done 0 : 7 and",
+        "start": 530.74,
+        "duration": 5.79
+    },
+    {
+        "text": "that would have meant big-endian",
+        "start": 534.43,
+        "duration": 3.69
+    },
+    {
+        "text": "little-endian I don't know which way it",
+        "start": 536.53,
+        "duration": 4.83
+    },
+    {
+        "text": "is but depending whether you put 0 : 7",
+        "start": 538.12,
+        "duration": 5.13
+    },
+    {
+        "text": "or 7 : zero means that the most",
+        "start": 541.36,
+        "duration": 3.48
+    },
+    {
+        "text": "significant bit will be stored on the",
+        "start": 543.25,
+        "duration": 5.01
+    },
+    {
+        "text": "left side or the right side and it's a",
+        "start": 544.84,
+        "duration": 4.65
+    },
+    {
+        "text": "convention so you can do your entire",
+        "start": 548.26,
+        "duration": 4.38
+    },
+    {
+        "text": "program either way as long as you're",
+        "start": 549.49,
+        "duration": 5.7
+    },
+    {
+        "text": "consistent so in this case we're always",
+        "start": 552.64,
+        "duration": 9.54
+    },
+    {
+        "text": "doing the big number first okay so we're",
+        "start": 555.19,
+        "duration": 13.49
+    },
+    {
+        "text": "gonna say always on the positive edge of",
+        "start": 562.18,
+        "duration": 12.81
+    },
+    {
+        "text": "C or the positive edge this keyboard is",
+        "start": 568.68,
+        "duration": 8.14
+    },
+    {
+        "text": "really lousy too since I've been using",
+        "start": 574.99,
+        "duration": 4.11
+    },
+    {
+        "text": "it in the garage and there's all kinds",
+        "start": 576.82,
+        "duration": 4.17
+    },
+    {
+        "text": "of little wire pieces and stuff stuck in",
+        "start": 579.1,
+        "duration": 6.84
+    },
+    {
+        "text": "there and like I say this is not really",
+        "start": 580.99,
+        "duration": 6.75
+    },
+    {
+        "text": "meant to be a tutorial in Bariloche I'm",
+        "start": 585.94,
+        "duration": 2.88
+    },
+    {
+        "text": "just going to kind of get through this",
+        "start": 587.74,
+        "duration": 3.36
+    },
+    {
+        "text": "just to show you the the download",
+        "start": 588.82,
+        "duration": 3.84
+    },
+    {
+        "text": "process and how to actually get started",
+        "start": 591.1,
+        "duration": 7.38
+    },
+    {
+        "text": "with this board the always means that",
+        "start": 592.66,
+        "duration": 9.66
+    },
+    {
+        "text": "when the positive edge when this module",
+        "start": 598.48,
+        "duration": 6.24
+    },
+    {
+        "text": "detects a positive edge on C or clear",
+        "start": 602.32,
+        "duration": 4.86
+    },
+    {
+        "text": "the stuff in this block will be run and",
+        "start": 604.72,
+        "duration": 7.32
+    },
+    {
+        "text": "we need to use up again because it's",
+        "start": 607.18,
+        "duration": 7.5
+    },
+    {
+        "text": "expecting like one statement or one one",
+        "start": 612.04,
+        "duration": 3.54
+    },
+    {
+        "text": "thing here",
+        "start": 614.68,
+        "duration": 2.82
+    },
+    {
+        "text": "so the begin allows us to put a whole",
+        "start": 615.58,
+        "duration": 3.88
+    },
+    {
+        "text": "block of code inside this all",
+        "start": 617.5,
+        "duration": 11.529
+    },
+    {
+        "text": "is so if the clear pin is a one then set",
+        "start": 619.46,
+        "duration": 12.6
+    },
+    {
+        "text": "ten to that has some strange-looking",
+        "start": 629.029,
+        "duration": 9.721
+    },
+    {
+        "text": "notation here this just means it's an",
+        "start": 632.06,
+        "duration": 9.839
+    },
+    {
+        "text": "8-bit binary zero I think I might have",
+        "start": 638.75,
+        "duration": 4.649
+    },
+    {
+        "text": "just been able to say zero there I'm not",
+        "start": 641.899,
+        "duration": 3.75
+    },
+    {
+        "text": "sure but they say this is totally new to",
+        "start": 643.399,
+        "duration": 7.741
+    },
+    {
+        "text": "me too so Ellis temple equal ten plus",
+        "start": 645.649,
+        "duration": 14.221
+    },
+    {
+        "text": "one just one binary one and I'll end",
+        "start": 651.14,
+        "duration": 13.17
+    },
+    {
+        "text": "there if there and then we're going to",
+        "start": 659.87,
+        "duration": 8.4
+    },
+    {
+        "text": "assign Q equal to temp at the end of all",
+        "start": 664.31,
+        "duration": 7.11
+    },
+    {
+        "text": "this so I've been I've been reading and",
+        "start": 668.27,
+        "duration": 4.68
+    },
+    {
+        "text": "watching some you know Vera Log",
+        "start": 671.42,
+        "duration": 3.0
+    },
+    {
+        "text": "tutorials and there's kind of a couple",
+        "start": 672.95,
+        "duration": 3.12
+    },
+    {
+        "text": "ways to do assignments one of them is",
+        "start": 674.42,
+        "duration": 4.53
+    },
+    {
+        "text": "like this which is a non-blocking",
+        "start": 676.07,
+        "duration": 5.73
+    },
+    {
+        "text": "assignment and what happens with these",
+        "start": 678.95,
+        "duration": 4.8
+    },
+    {
+        "text": "kinds of assignments is that all of the",
+        "start": 681.8,
+        "duration": 4.17
+    },
+    {
+        "text": "code in the block runs and then at the",
+        "start": 683.75,
+        "duration": 4.41
+    },
+    {
+        "text": "end with the block the assignment is",
+        "start": 685.97,
+        "duration": 5.15
+    },
+    {
+        "text": "made when you have just a sign like this",
+        "start": 688.16,
+        "duration": 5.49
+    },
+    {
+        "text": "the code is is sort of running",
+        "start": 691.12,
+        "duration": 4.81
+    },
+    {
+        "text": "sequentially in the hardware and I don't",
+        "start": 693.65,
+        "duration": 3.57
+    },
+    {
+        "text": "fully understand this but it basically",
+        "start": 695.93,
+        "duration": 4.46
+    },
+    {
+        "text": "means that it's it's a little bit like a",
+        "start": 697.22,
+        "duration": 5.309
+    },
+    {
+        "text": "procedural language where it's actually",
+        "start": 700.39,
+        "duration": 5.08
+    },
+    {
+        "text": "executing these statements in sequence",
+        "start": 702.529,
+        "duration": 4.531
+    },
+    {
+        "text": "as opposed to just doing them all at",
+        "start": 705.47,
+        "duration": 4.71
+    },
+    {
+        "text": "once so in this in this really simple",
+        "start": 707.06,
+        "duration": 4.88
+    },
+    {
+        "text": "example I don't think it really matters",
+        "start": 710.18,
+        "duration": 5.61
+    },
+    {
+        "text": "but in more complex cases I think it",
+        "start": 711.94,
+        "duration": 7.0
+    },
+    {
+        "text": "matters quite a lot so let's take a look",
+        "start": 715.79,
+        "duration": 7.35
+    },
+    {
+        "text": "at what we've got here we've got our top",
+        "start": 718.94,
+        "duration": 6.96
+    },
+    {
+        "text": "level module and it instantiates a",
+        "start": 723.14,
+        "duration": 5.04
+    },
+    {
+        "text": "counter and we call it counter one and",
+        "start": 725.9,
+        "duration": 5.55
+    },
+    {
+        "text": "it passes these two key values kia's",
+        "start": 728.18,
+        "duration": 5.43
+    },
+    {
+        "text": "keys are just the buttons on that de 1",
+        "start": 731.45,
+        "duration": 6.199
+    },
+    {
+        "text": "board the push buttons and it gets back",
+        "start": 733.61,
+        "duration": 6.93
+    },
+    {
+        "text": "led R which are the red LEDs on the",
+        "start": 737.649,
+        "duration": 5.981
+    },
+    {
+        "text": "board and then our module our counter is",
+        "start": 740.54,
+        "duration": 8.7
+    },
+    {
+        "text": "defined like this pretty simple so we",
+        "start": 743.63,
+        "duration": 8.79
+    },
+    {
+        "text": "can go up to processing and start",
+        "start": 749.24,
+        "duration": 3.99
+    },
+    {
+        "text": "compilation",
+        "start": 752.42,
+        "duration": 6.42
+    },
+    {
+        "text": "and yes we want to save the changes so",
+        "start": 753.23,
+        "duration": 7.8
+    },
+    {
+        "text": "we'll let it run compilation is actually",
+        "start": 758.84,
+        "duration": 3.9
+    },
+    {
+        "text": "quite slow now this is a terribly old",
+        "start": 761.03,
+        "duration": 3.66
+    },
+    {
+        "text": "computer so I can't really fault it too",
+        "start": 762.74,
+        "duration": 4.62
+    },
+    {
+        "text": "much but even on newer computers simple",
+        "start": 764.69,
+        "duration": 4.74
+    },
+    {
+        "text": "designs can take a surprisingly long",
+        "start": 767.36,
+        "duration": 4.86
+    },
+    {
+        "text": "amount of time so we'll give that about",
+        "start": 769.43,
+        "duration": 8.52
+    },
+    {
+        "text": "a minute or two even okay full",
+        "start": 772.22,
+        "duration": 9.03
+    },
+    {
+        "text": "compilation was successful 433 warnings",
+        "start": 777.95,
+        "duration": 5.07
+    },
+    {
+        "text": "you might figure that's pretty terrible",
+        "start": 781.25,
+        "duration": 4.56
+    },
+    {
+        "text": "and maybe it is I don't know but I've",
+        "start": 783.02,
+        "duration": 4.95
+    },
+    {
+        "text": "heard that getting warnings with them",
+        "start": 785.81,
+        "duration": 4.65
+    },
+    {
+        "text": "with these hardware description",
+        "start": 787.97,
+        "duration": 5.01
+    },
+    {
+        "text": "languages is pretty common and some of",
+        "start": 790.46,
+        "duration": 4.38
+    },
+    {
+        "text": "the warnings are like you know the high",
+        "start": 792.98,
+        "duration": 3.54
+    },
+    {
+        "text": "temperature limit wasn't set or",
+        "start": 794.84,
+        "duration": 3.12
+    },
+    {
+        "text": "something I don't know but it apparently",
+        "start": 796.52,
+        "duration": 3.03
+    },
+    {
+        "text": "it's normal to get lots of warnings or",
+        "start": 797.96,
+        "duration": 3.75
+    },
+    {
+        "text": "at least more than with them normal",
+        "start": 799.55,
+        "duration": 5.88
+    },
+    {
+        "text": "procedural coding okay so it's compiled",
+        "start": 801.71,
+        "duration": 5.25
+    },
+    {
+        "text": "now what now we actually have to",
+        "start": 805.43,
+        "duration": 3.93
+    },
+    {
+        "text": "download it to the chip so we'll go to",
+        "start": 806.96,
+        "duration": 10.35
+    },
+    {
+        "text": "tools and say programmer and it's it's",
+        "start": 809.36,
+        "duration": 10.68
+    },
+    {
+        "text": "already loaded the correct file here but",
+        "start": 817.31,
+        "duration": 6.0
+    },
+    {
+        "text": "let's pretend it didn't so let's just",
+        "start": 820.04,
+        "duration": 6.69
+    },
+    {
+        "text": "say that wasn't there the hardware setup",
+        "start": 823.31,
+        "duration": 6.21
+    },
+    {
+        "text": "it's the USB blaster it auto-detected",
+        "start": 826.73,
+        "duration": 6.21
+    },
+    {
+        "text": "that USB blaster is the USB interface",
+        "start": 829.52,
+        "duration": 6.18
+    },
+    {
+        "text": "that this Altair IDE one board has so",
+        "start": 832.94,
+        "duration": 4.26
+    },
+    {
+        "text": "it's already set up with that that's",
+        "start": 835.7,
+        "duration": 6.03
+    },
+    {
+        "text": "good and we're gonna add a file the one",
+        "start": 837.2,
+        "duration": 8.85
+    },
+    {
+        "text": "that was their counter test3 sof picked",
+        "start": 841.73,
+        "duration": 6.87
+    },
+    {
+        "text": "that one and the start button lights up",
+        "start": 846.05,
+        "duration": 4.92
+    },
+    {
+        "text": "letting us know we can do it the mode is",
+        "start": 848.6,
+        "duration": 5.37
+    },
+    {
+        "text": "set to JTAG meaning that we're going to",
+        "start": 850.97,
+        "duration": 5.94
+    },
+    {
+        "text": "program this without actually storing",
+        "start": 853.97,
+        "duration": 6.93
+    },
+    {
+        "text": "the the program to the EEPROM on the on",
+        "start": 856.91,
+        "duration": 6.78
+    },
+    {
+        "text": "the board so the switch on the board is",
+        "start": 860.9,
+        "duration": 5.49
+    },
+    {
+        "text": "in run not program and I'm going to",
+        "start": 863.69,
+        "duration": 4.98
+    },
+    {
+        "text": "leave this set to JTAG so when we",
+        "start": 866.39,
+        "duration": 3.69
+    },
+    {
+        "text": "program this it's just going to be",
+        "start": 868.67,
+        "duration": 3.66
+    },
+    {
+        "text": "temporary if power is removed from the",
+        "start": 870.08,
+        "duration": 5.97
+    },
+    {
+        "text": "board the program will disappear press",
+        "start": 872.33,
+        "duration": 7.71
+    },
+    {
+        "text": "Start and this is all happy now the",
+        "start": 876.05,
+        "duration": 5.73
+    },
+    {
+        "text": "board even though you can't see it",
+        "start": 880.04,
+        "duration": 4.77
+    },
+    {
+        "text": "stopped running it's stock firmware so",
+        "start": 881.78,
+        "duration": 4.97
+    },
+    {
+        "text": "let's let's take a look at the board now",
+        "start": 884.81,
+        "duration": 5.88
+    },
+    {
+        "text": "ok so this is what it looks like now key",
+        "start": 886.75,
+        "duration": 5.89
+    },
+    {
+        "text": "one and key 0 are here they're even",
+        "start": 890.69,
+        "duration": 5.07
+    },
+    {
+        "text": "labeled right on the board and LED are 0",
+        "start": 892.64,
+        "duration": 6.0
+    },
+    {
+        "text": "1 2 so that's our our eight position",
+        "start": 895.76,
+        "duration": 5.79
+    },
+    {
+        "text": "vector here and our two position vector",
+        "start": 898.64,
+        "duration": 7.68
+    },
+    {
+        "text": "here so key 1 0 and LED are 0 7 here so",
+        "start": 901.55,
+        "duration": 6.84
+    },
+    {
+        "text": "the way this works is that the switches",
+        "start": 906.32,
+        "duration": 4.77
+    },
+    {
+        "text": "I think bring our pull downs so I have",
+        "start": 908.39,
+        "duration": 5.31
+    },
+    {
+        "text": "to do is hold down key 1 and then when I",
+        "start": 911.09,
+        "duration": 5.97
+    },
+    {
+        "text": "press key 0 we have some binary counting",
+        "start": 913.7,
+        "duration": 6.12
+    },
+    {
+        "text": "going on just like we would expect now",
+        "start": 917.06,
+        "duration": 7.86
+    },
+    {
+        "text": "if I let key 1 up it clears just like",
+        "start": 919.82,
+        "duration": 7.56
+    },
+    {
+        "text": "that so we could have added some",
+        "start": 924.92,
+        "duration": 5.76
+    },
+    {
+        "text": "inversion to the to the to the program",
+        "start": 927.38,
+        "duration": 4.32
+    },
+    {
+        "text": "so that I wouldn't have to hold this",
+        "start": 930.68,
+        "duration": 3.93
+    },
+    {
+        "text": "button down but there it is it works and",
+        "start": 931.7,
+        "duration": 5.64
+    },
+    {
+        "text": "the code is downloaded and you know the",
+        "start": 934.61,
+        "duration": 4.5
+    },
+    {
+        "text": "board isn't crashing so I consider that",
+        "start": 937.34,
+        "duration": 5.48
+    },
+    {
+        "text": "a success so today I'm going to work on",
+        "start": 939.11,
+        "duration": 6.42
+    },
+    {
+        "text": "you know more advanced era log stuff and",
+        "start": 942.82,
+        "duration": 4.24
+    },
+    {
+        "text": "try to use some of the other hardware on",
+        "start": 945.53,
+        "duration": 3.51
+    },
+    {
+        "text": "the board I'd like to get started with",
+        "start": 947.06,
+        "duration": 3.48
+    },
+    {
+        "text": "the SRAM since that's going to be",
+        "start": 949.04,
+        "duration": 4.35
+    },
+    {
+        "text": "critical for for all the projects that I",
+        "start": 950.54,
+        "duration": 5.73
+    },
+    {
+        "text": "have planned for it so I hope that was",
+        "start": 953.39,
+        "duration": 4.23
+    },
+    {
+        "text": "helpful it took me a while to chew",
+        "start": 956.27,
+        "duration": 3.27
+    },
+    {
+        "text": "through the manual and maybe this video",
+        "start": 957.62,
+        "duration": 4.14
+    },
+    {
+        "text": "will give you a bit of a head start ok",
+        "start": 959.54,
+        "duration": 5.78
+    },
+    {
+        "text": "see you next time bye",
+        "start": 961.76,
+        "duration": 3.56
+    }
+]

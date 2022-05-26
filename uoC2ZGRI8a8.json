@@ -1,0 +1,857 @@
+[
+    {
+        "text": "You'd think the Robot Revolution would have\nhappened by now, with the self-aware robots",
+        "start": 0.399,
+        "duration": 3.641
+    },
+    {
+        "text": "taking over the world, becoming our overlords,\nmaking us work in the tungsten mines.",
+        "start": 4.04,
+        "duration": 3.239
+    },
+    {
+        "text": "Well, the thing is, the Robot Revolution already\nis happening.",
+        "start": 7.279,
+        "duration": 2.57
+    },
+    {
+        "text": "It's been happening for decades.",
+        "start": 9.849,
+        "duration": 1.391
+    },
+    {
+        "text": "It's just been a lot less bloody than the\nmovies made us think it would be, and the",
+        "start": 11.24,
+        "duration": 3.08
+    },
+    {
+        "text": "robots are not self-aware... yet, but in all\nlikelihood, your car was made by a robot.",
+        "start": 14.32,
+        "duration": 5.119
+    },
+    {
+        "text": "These days, there are robots helping spacecraft\ndock at the International Space Station, and",
+        "start": 19.439,
+        "duration": 3.9
+    },
+    {
+        "text": "you might even have one faithfully vacuuming\nyour kitchen floor.",
+        "start": 23.339,
+        "duration": 3.061
+    },
+    {
+        "text": "Not exactly Skynet, but all of the convenience\nthat we already enjoy thanks to robots took",
+        "start": 26.4,
+        "duration": 5.08
+    },
+    {
+        "text": "decades of hard work by scientists, and some\nof the problems that robotics engineers were",
+        "start": 31.48,
+        "duration": 3.86
+    },
+    {
+        "text": "struggling with fifty years ago still haven't\nbeen solved, so there's a whole lot of history",
+        "start": 35.34,
+        "duration": 4.25
+    },
+    {
+        "text": "that went into the robots that we rely on\ntoday, and it just might help you understand",
+        "start": 39.59,
+        "duration": 4.24
+    },
+    {
+        "text": "why we don't have robots taking care of our\nevery need, or forcing us to mine their tungsten.",
+        "start": 43.83,
+        "duration": 6.47
+    },
+    {
+        "text": "[Intro]",
+        "start": 50.3,
+        "duration": 1.88
+    },
+    {
+        "text": "If we're going to talk about the history of\nrobotics, first, we need to talk about what",
+        "start": 52.18,
+        "duration": 10.4
+    },
+    {
+        "text": "a robot actually is, and for such a common\nterm, it's surprisingly slippery to define,",
+        "start": 62.58,
+        "duration": 5.92
+    },
+    {
+        "text": "but technically speaking, a robot is just\na machine designed to accomplish a task.",
+        "start": 68.5,
+        "duration": 4.68
+    },
+    {
+        "text": "That's it.",
+        "start": 73.18,
+        "duration": 1.0
+    },
+    {
+        "text": "Now, it might sound like that would cover\neverything from a four-function calculator",
+        "start": 74.18,
+        "duration": 2.85
+    },
+    {
+        "text": "to NASA's Pleiades Supercomputer, but that\nis not what we're talking about here.",
+        "start": 77.03,
+        "duration": 4.15
+    },
+    {
+        "text": "When we talk about robots, we're really talking\nabout machines that use their programming",
+        "start": 81.18,
+        "duration": 3.85
+    },
+    {
+        "text": "to make decisions.",
+        "start": 85.03,
+        "duration": 1.69
+    },
+    {
+        "text": "For example, if you, a human, decide to pick\nup a coin from the ground, there are three",
+        "start": 86.72,
+        "duration": 4.2
+    },
+    {
+        "text": "main steps you have to go through.",
+        "start": 90.92,
+        "duration": 1.72
+    },
+    {
+        "text": "First, your eyes need to see the coin and\nthen send that information to your brain.",
+        "start": 92.64,
+        "duration": 4.08
+    },
+    {
+        "text": "Then, your brain processes that input and\nuses things like previous experience to make",
+        "start": 96.72,
+        "duration": 4.34
+    },
+    {
+        "text": "a decision to pick it up.",
+        "start": 101.06,
+        "duration": 1.47
+    },
+    {
+        "text": "Eventually, your brain sends messages to your\nbody to grasp the coin.",
+        "start": 102.53,
+        "duration": 4.14
+    },
+    {
+        "text": "Robots go through a similar process, but without\nthe getting the Slim Jim at the gas station.",
+        "start": 106.67,
+        "duration": 4.6
+    },
+    {
+        "text": "They can go through that process because most\nof the time, they have the components that",
+        "start": 111.27,
+        "duration": 3.26
+    },
+    {
+        "text": "let them carry out each step.",
+        "start": 114.53,
+        "duration": 1.77
+    },
+    {
+        "text": "They have sensors for input, control systems\nfor decision-making, and end effectors for",
+        "start": 116.3,
+        "duration": 5.04
+    },
+    {
+        "text": "output.",
+        "start": 121.34,
+        "duration": 1.0
+    },
+    {
+        "text": "Sounds simple enough, but developing each\nof these components can be challenging.",
+        "start": 122.34,
+        "duration": 3.389
+    },
+    {
+        "text": "Sensors have to be able to detect things like\nimages and sound accurately, effectors have",
+        "start": 125.729,
+        "duration": 4.06
+    },
+    {
+        "text": "to be flexible and fast enough to do what\nwe need them to do, and the control system",
+        "start": 129.789,
+        "duration": 4.4
+    },
+    {
+        "text": "has to make all of the decisions necessary\nto get the sensors and effectors working together.",
+        "start": 134.189,
+        "duration": 4.681
+    },
+    {
+        "text": "Of course, there are so many different kinds\nof robots that these components can vary considerably,",
+        "start": 138.87,
+        "duration": 5.27
+    },
+    {
+        "text": "but that's the basics of robot anatomy.",
+        "start": 144.14,
+        "duration": 1.9
+    },
+    {
+        "text": "Now if we tried to talk about every advance\nthat's been made in every subfield of robotics",
+        "start": 146.04,
+        "duration": 4.83
+    },
+    {
+        "text": "in just the past half-century, we'd be here\nall day.",
+        "start": 150.87,
+        "duration": 3.459
+    },
+    {
+        "text": "But to understand how we've gotten this far\nand why robots haven't taken over the world",
+        "start": 154.329,
+        "duration": 3.41
+    },
+    {
+        "text": "yet, we first have to talk about how the development\nof industrial, humanoid, and military robots",
+        "start": 157.739,
+        "duration": 5.89
+    },
+    {
+        "text": "got the field where it is today.",
+        "start": 163.629,
+        "duration": 2.011
+    },
+    {
+        "text": "Industry is a good place to start, because\nthat's where robots first became useful.",
+        "start": 165.64,
+        "duration": 3.829
+    },
+    {
+        "text": "Since factory work can be repetitive and often\ninvolves lifting lots of heavy stuff, it's",
+        "start": 169.469,
+        "duration": 4.35
+    },
+    {
+        "text": "a perfect fit for a machine.",
+        "start": 173.819,
+        "duration": 1.54
+    },
+    {
+        "text": "The world's first ever industrial robot, Unimate,\nwas installed on a General Motors production",
+        "start": 175.359,
+        "duration": 4.681
+    },
+    {
+        "text": "line in New Jersey in 1961.",
+        "start": 180.04,
+        "duration": 2.279
+    },
+    {
+        "text": "Weighing in at nearly a metric ton, it was\nbasically a giant robot arm.",
+        "start": 182.319,
+        "duration": 4.291
+    },
+    {
+        "text": "Its instructions programmed on a huge magnetic\ndrum told the arm to stack and weld hot pieces",
+        "start": 186.61,
+        "duration": 5.709
+    },
+    {
+        "text": "of metal over and over again.",
+        "start": 192.319,
+        "duration": 1.911
+    },
+    {
+        "text": "Soon, other car companies got in on the game,\ninstalling their own robotic arms.",
+        "start": 194.23,
+        "duration": 3.52
+    },
+    {
+        "text": "But this first generation of robots was still\nin its awkward stage.",
+        "start": 197.75,
+        "duration": 3.549
+    },
+    {
+        "text": "The arms weren't particularly flexible, they\nwere often powered by clunky hydraulics, and",
+        "start": 201.299,
+        "duration": 4.97
+    },
+    {
+        "text": "they were ultimately difficult to program.",
+        "start": 206.269,
+        "duration": 2.08
+    },
+    {
+        "text": "So when a robotic arm called IRB-6 came along\nin 1974, it was a pretty big deal.",
+        "start": 208.349,
+        "duration": 5.21
+    },
+    {
+        "text": "This was the first electric industrial robot\nthat was controlled by a microcomputer.",
+        "start": 213.559,
+        "duration": 4.24
+    },
+    {
+        "text": "It had 16 KB of RAM, it was programmable,\nand it could display four whole digits with",
+        "start": 217.799,
+        "duration": 5.821
+    },
+    {
+        "text": "its LEDs.",
+        "start": 223.62,
+        "duration": 1.0
+    },
+    {
+        "text": "Developed by a Swedish engineering firm, ABB,\nthis robot was used to perform inauspicious",
+        "start": 224.62,
+        "duration": 4.379
+    },
+    {
+        "text": "tasks like polishing steel tubes, but it was\na crucial step toward developing robots that",
+        "start": 228.999,
+        "duration": 5.731
+    },
+    {
+        "text": "were easier to program.",
+        "start": 234.73,
+        "duration": 1.42
+    },
+    {
+        "text": "But while controlling robotic arms was getting\nsimpler, another issue came up.",
+        "start": 236.15,
+        "duration": 3.77
+    },
+    {
+        "text": "You can give a robot as much programming as\nyou want, but if it can't see, it's not going",
+        "start": 239.92,
+        "duration": 3.829
+    },
+    {
+        "text": "to be able to do even seemingly simple things,\nlike figure out which box should go where",
+        "start": 243.749,
+        "duration": 4.391
+    },
+    {
+        "text": "on a pallet.",
+        "start": 248.14,
+        "duration": 1.0
+    },
+    {
+        "text": "Crude visual scanners had been around since\nthe '50s; they could only see black and white,",
+        "start": 249.14,
+        "duration": 4.029
+    },
+    {
+        "text": "and the resolution was worse than what you\nget from a flip phone camera.",
+        "start": 253.169,
+        "duration": 3.211
+    },
+    {
+        "text": "But to give vision to industrial robots, engineers\nhad to tap into another field that would completely",
+        "start": 256.38,
+        "duration": 4.819
+    },
+    {
+        "text": "change the robotics game: artificial intelligence.",
+        "start": 261.199,
+        "duration": 2.571
+    },
+    {
+        "text": "Now, artificial intelligence, or AI, is another\nbroad, vague term used to describe any attempt",
+        "start": 263.77,
+        "duration": 5.489
+    },
+    {
+        "text": "to make a computer do something that we'd\nnormally associate with human intelligence,",
+        "start": 269.259,
+        "duration": 4.301
+    },
+    {
+        "text": "like translate languages or play chess or\nrecognize objects.",
+        "start": 273.56,
+        "duration": 3.66
+    },
+    {
+        "text": "In the 60s, the problem was that even though\nAIs were getting better at complex reasoning",
+        "start": 277.22,
+        "duration": 4.75
+    },
+    {
+        "text": "tasks, like playing chess and proving mathematical\ntheorems, it was incredibly difficult to actually",
+        "start": 281.97,
+        "duration": 4.72
+    },
+    {
+        "text": "get the programs to interact with the real\nworld.",
+        "start": 286.69,
+        "duration": 2.75
+    },
+    {
+        "text": "There's a difference, for example, between\nfiguring out the ideal placement of wooden",
+        "start": 289.44,
+        "duration": 3.729
+    },
+    {
+        "text": "blocks in a theoretical model and actually\nmoving those blocks into place, because moving",
+        "start": 293.169,
+        "duration": 5.041
+    },
+    {
+        "text": "them involves a whole series of discrete decisions\nand actions, and the robots at the time simply",
+        "start": 298.21,
+        "duration": 5.84
+    },
+    {
+        "text": "couldn't manage that.",
+        "start": 304.05,
+        "duration": 1.28
+    },
+    {
+        "text": "For robots, vision isn't just about taking\npictures, it's also about recognizing objects",
+        "start": 305.33,
+        "duration": 4.17
+    },
+    {
+        "text": "so that they can react to things and situations\nin real time.",
+        "start": 309.5,
+        "duration": 3.78
+    },
+    {
+        "text": "By the late 1970s, engineers had developed\nnew algorithms that allowed cameras to recognize",
+        "start": 313.28,
+        "duration": 4.33
+    },
+    {
+        "text": "edges and shapes by using visual cues like\nhighlights and shadows, but these programs",
+        "start": 317.61,
+        "duration": 4.709
+    },
+    {
+        "text": "were still just experimental, stuck in research\nlabs.",
+        "start": 322.319,
+        "duration": 3.121
+    },
+    {
+        "text": "That all changed in 1981, when the first industrial\nrobot got the gift of vision.",
+        "start": 325.44,
+        "duration": 4.37
+    },
+    {
+        "text": "A General Motors factory was once again the\nguinea pig, implementing a system called Consight,",
+        "start": 329.81,
+        "duration": 4.669
+    },
+    {
+        "text": "in which three separate robots could use visual\nsensors to pick out and sort six different",
+        "start": 334.479,
+        "duration": 4.731
+    },
+    {
+        "text": "kinds of auto parts as 1,400 parts per hour\nmoved by on a conveyor belt.",
+        "start": 339.21,
+        "duration": 4.6
+    },
+    {
+        "text": "Progress!",
+        "start": 343.81,
+        "duration": 1.0
+    },
+    {
+        "text": "For the next two decades, technology kept\nimproving -- industrial robots were able to",
+        "start": 344.81,
+        "duration": 3.229
+    },
+    {
+        "text": "see better, move faster, carry heavier loads,\nand handle more decisions.",
+        "start": 348.039,
+        "duration": 4.141
+    },
+    {
+        "text": "These days, industrial robots are advanced\nenough that it's totally normal for a factory",
+        "start": 352.18,
+        "duration": 3.57
+    },
+    {
+        "text": "to install a robotic assembly line that handles\nnearly all of its production, and some industrial",
+        "start": 355.75,
+        "duration": 4.24
+    },
+    {
+        "text": "robots are heading in the direction of a more\ngeneral purpose use, like Baxter, the humanoid",
+        "start": 359.99,
+        "duration": 4.3
+    },
+    {
+        "text": "industrial robot.",
+        "start": 364.29,
+        "duration": 1.42
+    },
+    {
+        "text": "Humanoid, yet again a very subjective term,\nbut it just means human-like.",
+        "start": 365.71,
+        "duration": 4.329
+    },
+    {
+        "text": "For robots, that usually implies that they're\ndesigned to look and act as human-like as",
+        "start": 370.039,
+        "duration": 4.4
+    },
+    {
+        "text": "possible.",
+        "start": 374.439,
+        "duration": 1.0
+    },
+    {
+        "text": "So Baxter, for instance, is nearly two meters\ntall, weighs 136 kg, and has a screen for",
+        "start": 375.439,
+        "duration": 4.661
+    },
+    {
+        "text": "a face.",
+        "start": 380.1,
+        "duration": 1.0
+    },
+    {
+        "text": "It also has a vaguely human-shaped torso and\ntwo arms.",
+        "start": 381.1,
+        "duration": 2.999
+    },
+    {
+        "text": "But more importantly, it can be quickly programmed\nto do practically anything.",
+        "start": 384.099,
+        "duration": 3.79
+    },
+    {
+        "text": "If a factory worker or researcher has a task\nto do, Baxter can probably handle it, as long",
+        "start": 387.889,
+        "duration": 5.791
+    },
+    {
+        "text": "as it's lifting less than 2.2 kg, because\nits arms are not industrial strength.",
+        "start": 393.68,
+        "duration": 4.78
+    },
+    {
+        "text": "But it does need to be told what to do.",
+        "start": 398.46,
+        "duration": 2.65
+    },
+    {
+        "text": "If you want Baxter to stack some products\nin a box, for instance, you've got to program",
+        "start": 401.11,
+        "duration": 4.14
+    },
+    {
+        "text": "it by manually making it do what you want\nthe first time, and then it'll imitate that",
+        "start": 405.25,
+        "duration": 4.81
+    },
+    {
+        "text": "task.",
+        "start": 410.06,
+        "duration": 1.0
+    },
+    {
+        "text": "And its shape may be loosely based on a human,\nbut Baxter cannot walk or climb stairs or",
+        "start": 411.06,
+        "duration": 4.329
+    },
+    {
+        "text": "talk, so getting a robot to act like a human\nhas proved to be a whole other ballgame, and",
+        "start": 415.389,
+        "duration": 4.56
+    },
+    {
+        "text": "it's one that researchers have been working\non for decades, and it's been slow going.",
+        "start": 419.949,
+        "duration": 4.28
+    },
+    {
+        "text": "The Wabot I is usually considered to be the\nfirst full-scale humanoid robot.",
+        "start": 424.229,
+        "duration": 4.24
+    },
+    {
+        "text": "Developed by researchers at Waseda University\nin Japan in 1973, it had arms, legs, and a",
+        "start": 428.469,
+        "duration": 5.54
+    },
+    {
+        "text": "vision system.",
+        "start": 434.009,
+        "duration": 1.0
+    },
+    {
+        "text": "It could walk, it could pick things up with\nits hands, it could even talk.",
+        "start": 435.009,
+        "duration": 2.981
+    },
+    {
+        "text": "Except that it could only reply with pre-recorded\nresponses to very specific statements, and",
+        "start": 437.99,
+        "duration": 4.0
+    },
+    {
+        "text": "it took 45 seconds to take one step.",
+        "start": 441.99,
+        "duration": 1.959
+    },
+    {
+        "text": "This bot and its successor Wabot II were a\nreally big deal in their day, but they also",
+        "start": 443.949,
+        "duration": 4.921
+    },
+    {
+        "text": "pointed out an important fact: it's just much\neasier to design robots to do one task at",
+        "start": 448.87,
+        "duration": 5.74
+    },
+    {
+        "text": "a time.",
+        "start": 454.61,
+        "duration": 1.0
+    },
+    {
+        "text": "So recently, the thinking has been if general\npurpose humanoid robotics are out of our grasp,",
+        "start": 455.61,
+        "duration": 3.589
+    },
+    {
+        "text": "we might as well focus on making something\nthat can do at least one useful task.",
+        "start": 459.199,
+        "duration": 4.481
+    },
+    {
+        "text": "That's why in the past 10 years, there have\nbeen more household robots in use than ever,",
+        "start": 463.68,
+        "duration": 4.75
+    },
+    {
+        "text": "programmed to perform a single function like\nvacuuming the floor, mowing the lawn, washing",
+        "start": 468.43,
+        "duration": 4.479
+    },
+    {
+        "text": "windows or cleaning the pool.",
+        "start": 472.909,
+        "duration": 1.57
+    },
+    {
+        "text": "They're not quite Rosie from The Jetsons,\nbut they were all made possible by the advances",
+        "start": 474.479,
+        "duration": 3.801
+    },
+    {
+        "text": "that came before them, like having the ability\nto sense their surroundings and make decisions",
+        "start": 478.28,
+        "duration": 4.389
+    },
+    {
+        "text": "in order to navigate the world.",
+        "start": 482.669,
+        "duration": 1.34
+    },
+    {
+        "text": "And it's not like researchers have given up\non the humanoid front.",
+        "start": 484.009,
+        "duration": 3.03
+    },
+    {
+        "text": "There are humanoid robots in development that\ncan perform some impressive feats.",
+        "start": 487.039,
+        "duration": 3.63
+    },
+    {
+        "text": "Honda's Asimo, for example, can walk at speeds\nof almost 6 kilometers an hour, climb up and",
+        "start": 490.669,
+        "duration": 4.391
+    },
+    {
+        "text": "down stairs, carry a tray, push a cart, among\nother things.",
+        "start": 495.06,
+        "duration": 3.25
+    },
+    {
+        "text": "So again, progress.",
+        "start": 498.31,
+        "duration": 1.17
+    },
+    {
+        "text": "You just can't buy one.",
+        "start": 499.48,
+        "duration": 1.23
+    },
+    {
+        "text": "For the time being, Asimo is basically a research\ntool and a spokesmodel for what the future",
+        "start": 500.71,
+        "duration": 4.98
+    },
+    {
+        "text": "of robotics might look like.",
+        "start": 505.69,
+        "duration": 1.4
+    },
+    {
+        "text": "But probably the most cutting edge research\ngoing on in robotics today is being done by",
+        "start": 507.09,
+        "duration": 3.69
+    },
+    {
+        "text": "the military.",
+        "start": 510.78,
+        "duration": 1.0
+    },
+    {
+        "text": "Take BEAR, a military robot that's been in\ndevelopment since 2005.",
+        "start": 511.78,
+        "duration": 4.14
+    },
+    {
+        "text": "Unlike with humanoid or even single task robots,\nin the military, robot design is more about",
+        "start": 515.92,
+        "duration": 4.35
+    },
+    {
+        "text": "function than form.",
+        "start": 520.27,
+        "duration": 1.07
+    },
+    {
+        "text": "So BEAR has some humanoid components, like\na head and two arms, but instead of walking",
+        "start": 521.34,
+        "duration": 4.6
+    },
+    {
+        "text": "like a human, its legs are covered in treads,\nlike a tank.",
+        "start": 525.94,
+        "duration": 3.16
+    },
+    {
+        "text": "The legs have a joint that acts kind of like\na knee that can rotate all the way around.",
+        "start": 529.1,
+        "duration": 4.87
+    },
+    {
+        "text": "Using their special limb design, BEAR has\nproven really good at moving through rough",
+        "start": 533.97,
+        "duration": 4.05
+    },
+    {
+        "text": "terrain, including stairs.",
+        "start": 538.02,
+        "duration": 1.36
+    },
+    {
+        "text": "It can climb through debris, carry an injured\nsoldier back to base, it can carry light loads;",
+        "start": 539.38,
+        "duration": 4.75
+    },
+    {
+        "text": "tell it to go to a location and it'll go there.",
+        "start": 544.13,
+        "duration": 2.1
+    },
+    {
+        "text": "That's a lot more than most civilian robots\ncan do.",
+        "start": 546.23,
+        "duration": 2.53
+    },
+    {
+        "text": "But discussion of military robots would not\nbe complete without talking about DARPA.",
+        "start": 548.76,
+        "duration": 3.61
+    },
+    {
+        "text": "A division of the US Department of Defense,\nDARPA has been working for the last 50 years",
+        "start": 552.37,
+        "duration": 3.92
+    },
+    {
+        "text": "to turn even the wackiest of concepts into\nworking technology, and it's been one of the",
+        "start": 556.29,
+        "duration": 4.37
+    },
+    {
+        "text": "most active promoters in the field of robotics.",
+        "start": 560.66,
+        "duration": 2.59
+    },
+    {
+        "text": "DARPA has stoked innovation by holding robot\ncompetitions; it held contests for autonomous",
+        "start": 563.25,
+        "duration": 4.9
+    },
+    {
+        "text": "vehicles where robotic cars compete in a race,\nhundreds of kilometers through the Mojave",
+        "start": 568.15,
+        "duration": 4.57
+    },
+    {
+        "text": "Desert, and in the summer of 2015, 11 teams\nwill compete in the DARPA Robotics Challenge",
+        "start": 572.72,
+        "duration": 5.06
+    },
+    {
+        "text": "Finals, where human supervised robots will\ntry to carry out complicated and kind of dangerous",
+        "start": 577.78,
+        "duration": 5.11
+    },
+    {
+        "text": "tasks associated with disaster response, like\nscrambling over debris and carrying things",
+        "start": 582.89,
+        "duration": 5.32
+    },
+    {
+        "text": "to safety.",
+        "start": 588.21,
+        "duration": 1.0
+    },
+    {
+        "text": "The aim is to develop robots that can be sent\ninto dicey situations without putting human",
+        "start": 589.21,
+        "duration": 3.98
+    },
+    {
+        "text": "lives at risk, and we're getting there.",
+        "start": 593.19,
+        "duration": 2.08
+    },
+    {
+        "text": "So robot tech has come a long way since that\nfirst robotic arm in 1961, it's just that,",
+        "start": 595.27,
+        "duration": 5.01
+    },
+    {
+        "text": "as often is the case when it comes to humans\nand technology, we can dream up awesome designs",
+        "start": 600.28,
+        "duration": 4.68
+    },
+    {
+        "text": "and uses for robots faster than we can actually\ninvent them.",
+        "start": 604.96,
+        "duration": 3.56
+    },
+    {
+        "text": "For now, I'm perfectly happy to have a clean\nkitchen floor and my freedom from the tungsten",
+        "start": 608.52,
+        "duration": 4.05
+    },
+    {
+        "text": "mines while science takes robotics to the\nnext level.",
+        "start": 612.57,
+        "duration": 2.87
+    },
+    {
+        "text": "Thanks for watching this SciShow Infusion.",
+        "start": 615.44,
+        "duration": 1.95
+    },
+    {
+        "text": "If you have questions or comments, be sure\nto let us know on Facebook, Twitter, Tumblr,",
+        "start": 617.39,
+        "duration": 3.689
+    },
+    {
+        "text": "or down below in the comments, and don't forget\nto go to YouTube.com/SciShow and subscribe.",
+        "start": 621.079,
+        "duration": 12.541
+    }
+]

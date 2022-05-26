@@ -1,0 +1,887 @@
+[
+    {
+        "text": "Okay, let's talk today about the Kakeya needle problem.",
+        "start": 0.34,
+        "duration": 3.82
+    },
+    {
+        "text": "Let's say that we're in the plane, and we have an arena in the plane.",
+        "start": 4.17,
+        "duration": 4.019
+    },
+    {
+        "text": "Someone hands us a pole of size one meter.",
+        "start": 8.769,
+        "duration": 3.26
+    },
+    {
+        "text": "That's the needle, we'll make it a pole. Our job is to move the pole around in the plane,",
+        "start": 12.12,
+        "duration": 5.04
+    },
+    {
+        "text": "not necessarily",
+        "start": 18.25,
+        "duration": 2.0
+    },
+    {
+        "text": "just simply turning it, but maybe sliding it and turning it and doing tricky things, but always keeping it inside the arena",
+        "start": 20.68,
+        "duration": 7.519
+    },
+    {
+        "text": "so that at the end of whatever we do, the pole has turned by a full",
+        "start": 28.199,
+        "duration": 6.48
+    },
+    {
+        "text": "360 degrees. And the question is, how small can we make the arena?",
+        "start": 35.22,
+        "duration": 5.06
+    },
+    {
+        "text": "Brady: \"The first thing I thought was that the minimum size would be a circle with a diameter of one.\"",
+        "start": 40.28,
+        "duration": 4.82
+    },
+    {
+        "text": "Yes?",
+        "start": 45.72,
+        "duration": 0.64
+    },
+    {
+        "text": "Brady: \"I'm wrong.\"",
+        "start": 46.62,
+        "duration": 0.8
+    },
+    {
+        "text": "You're wrong. Kakeya had a guess, and that works, and that beats a circle.",
+        "start": 47.64,
+        "duration": 4.64
+    },
+    {
+        "text": "I would like to show you how you can make a very strangely shaped arena with,",
+        "start": 52.289,
+        "duration": 5.58
+    },
+    {
+        "text": "with an area of, let's say, less than one one billionth of a square meter.",
+        "start": 58.21,
+        "duration": 3.889
+    },
+    {
+        "text": "inside which the one meter pole can be turned through a full 360 degrees.",
+        "start": 62.53,
+        "duration": 4.159
+    },
+    {
+        "text": "That's the Kakeya problem. Imagine that I'm given an arena,",
+        "start": 66.85,
+        "duration": 4.37
+    },
+    {
+        "text": "and I'm given a pole, and the pole has a face at one tip.",
+        "start": 71.22,
+        "duration": 3.449
+    },
+    {
+        "text": "No matter which direction you pick out, I can somehow place the one meter pole",
+        "start": 74.86,
+        "duration": 5.569
+    },
+    {
+        "text": "inside the arena so that the face is facing in the direction that you provided for me.",
+        "start": 80.68,
+        "duration": 5.629
+    },
+    {
+        "text": "Okay. Now we'll see that that is not the same thing as the full Kakeya problem,",
+        "start": 86.83,
+        "duration": 6.409
+    },
+    {
+        "text": "because maybe as the direction",
+        "start": 93.4,
+        "duration": 2.149
+    },
+    {
+        "text": "varies smoothly,",
+        "start": 96.1,
+        "duration": 1.89
+    },
+    {
+        "text": "maybe the pole would have to jump around.",
+        "start": 97.99,
+        "duration": 2.239
+    },
+    {
+        "text": "Okay. So we will not worry about that at first, and our, our arena will have the defect that the pole will in fact have",
+        "start": 101.14,
+        "duration": 7.04
+    },
+    {
+        "text": "to jump around. In this version of the problem the pole is just supposed to be a line, a line segment, with zero thickness.",
+        "start": 108.18,
+        "duration": 6.659
+    },
+    {
+        "text": "So, in the first version, let's take a very thin slice of",
+        "start": 114.97,
+        "duration": 4.669
+    },
+    {
+        "text": "of pie, so here is, here is a circle, and here is, here's a slice of pie,",
+        "start": 120.369,
+        "duration": 5.27
+    },
+    {
+        "text": "whatever, a sector. Let's say that this angle is",
+        "start": 126.28,
+        "duration": 3.11
+    },
+    {
+        "text": "theta, let's say this radius is five. The area of the sector is",
+        "start": 130.119,
+        "duration": 4.16
+    },
+    {
+        "text": "proportional to theta. So, the exact constant doesn't matter. Let me pretend that the area is, let's say, a thousand",
+        "start": 134.44,
+        "duration": 7.79
+    },
+    {
+        "text": "times theta. I didn't tell you in which units I measured theta, is it degrees or radians or whatever.",
+        "start": 142.63,
+        "duration": 5.3
+    },
+    {
+        "text": "The exact value of this constant doesn't matter at all. I'm going to say it's a thousand. The other thing",
+        "start": 148.24,
+        "duration": 4.759
+    },
+    {
+        "text": "I'm going to do is to scale the problem up.",
+        "start": 153.0,
+        "duration": 2.309
+    },
+    {
+        "text": "Let's say the pole is one meter, and then I think of this as a map of the real thing, and there's a scale, and",
+        "start": 155.31,
+        "duration": 5.13
+    },
+    {
+        "text": "the scale is a billion to one, or let's say N to 1 where N is enormous. On the map",
+        "start": 160.44,
+        "duration": 5.1
+    },
+    {
+        "text": "I can turn a pole of one meter size. In the real world, I could turn a pole of N meters size.",
+        "start": 165.76,
+        "duration": 6.62
+    },
+    {
+        "text": "Whatever the area is of",
+        "start": 173.74,
+        "duration": 2.0
+    },
+    {
+        "text": "the region on the map, the area in the real world will be",
+        "start": 176.29,
+        "duration": 3.679
+    },
+    {
+        "text": "N squared times as big, because it's N times bigger this way and N times bigger that way.",
+        "start": 180.28,
+        "duration": 5.059
+    },
+    {
+        "text": "So if I don't do anything very clever, if I take a circle",
+        "start": 185.47,
+        "duration": 3.95
+    },
+    {
+        "text": "or if I take Professor Kakeya's idea, if I think of that as a map",
+        "start": 189.42,
+        "duration": 4.829
+    },
+    {
+        "text": "and I scale it up by a factor of N, for some very large N,",
+        "start": 194.25,
+        "duration": 4.559
+    },
+    {
+        "text": "what I should expect to see is to be able to turn",
+        "start": 198.88,
+        "duration": 3.199
+    },
+    {
+        "text": "an enormous pole of size N inside a region of area N squared.",
+        "start": 202.57,
+        "duration": 5.299
+    },
+    {
+        "text": "But what I'm going to show you is a way to turn a pole of,",
+        "start": 207.87,
+        "duration": 4.529
+    },
+    {
+        "text": "of length N",
+        "start": 213.61,
+        "duration": 2.0
+    },
+    {
+        "text": "inside a region of area N,",
+        "start": 216.01,
+        "duration": 2.63
+    },
+    {
+        "text": "rather than N squared, that's much smaller.",
+        "start": 219.25,
+        "duration": 2.69
+    },
+    {
+        "text": "It's smaller by a factor of N, and so whatever I have done in, in the enormous real world,",
+        "start": 221.94,
+        "duration": 5.04
+    },
+    {
+        "text": "I will scale it back to the scale of the map, and then I will be turning a pole of size one",
+        "start": 227.19,
+        "duration": 6.51
+    },
+    {
+        "text": "inside plane figure, a very weird one, of area one over N. And since N",
+        "start": 234.37,
+        "duration": 5.63
+    },
+    {
+        "text": "is as big as I please, the area of that weird arena will be as small as I please. So I'm turning an N",
+        "start": 240.0,
+        "duration": 6.3
+    },
+    {
+        "text": "long pole inside something whose area is going to be proportional to N. And if I can do that I will win.",
+        "start": 246.46,
+        "duration": 6.77
+    },
+    {
+        "text": "This is all based on a",
+        "start": 253.36,
+        "duration": 2.09
+    },
+    {
+        "text": "simple simple construction.",
+        "start": 256.03,
+        "duration": 2.0
+    },
+    {
+        "text": "Let's say this is a triangle. Let's say it has a horizontal base, so I'll draw a horizontal line here.",
+        "start": 258.25,
+        "duration": 4.88
+    },
+    {
+        "text": "Let's bisect the angle, and now let's,",
+        "start": 263.16,
+        "duration": 2.19
+    },
+    {
+        "text": "let's take",
+        "start": 265.96,
+        "duration": 1.41
+    },
+    {
+        "text": "a slightly higher line, like the horizontal line like that,",
+        "start": 267.37,
+        "duration": 3.69
+    },
+    {
+        "text": "extend that line, and that line, and then from here and here, I will move parallel to this angle bisector.",
+        "start": 271.639,
+        "duration": 6.65
+    },
+    {
+        "text": "There are a lot of triangles in this picture. Let's, let's look at them. First, first,",
+        "start": 278.3,
+        "duration": 5.24
+    },
+    {
+        "text": "there's let's say, this one connecting the black dots.",
+        "start": 283.54,
+        "duration": 3.209
+    },
+    {
+        "text": "Then there is this one connecting the red dots.",
+        "start": 286.97,
+        "duration": 2.989
+    },
+    {
+        "text": "If you slide those triangles, what you get is it a slightly bigger",
+        "start": 289.96,
+        "duration": 4.83
+    },
+    {
+        "text": "copy of the triangle you started with. It's similar, but slightly taller.",
+        "start": 294.79,
+        "duration": 3.839
+    },
+    {
+        "text": "Let's say this is k meters. K is very big. This is, let's say, 1 meter. Inside the original triangle,",
+        "start": 299.0,
+        "duration": 6.769
+    },
+    {
+        "text": "I could slide, certainly, a pole of length k. In the two new triangles, I can",
+        "start": 305.77,
+        "duration": 6.119
+    },
+    {
+        "text": "slide a pole of length k plus 1.",
+        "start": 312.41,
+        "duration": 2.359
+    },
+    {
+        "text": "But, if I try to do that, there will come a moment at which I have to use magic or something.",
+        "start": 314.84,
+        "duration": 4.549
+    },
+    {
+        "text": "So I can move through the same range of angles as before, but I'm only adding a little bit of area.",
+        "start": 319.669,
+        "duration": 5.96
+    },
+    {
+        "text": "I'm only adding two ears.",
+        "start": 325.63,
+        "duration": 2.0
+    },
+    {
+        "text": "This length here is 1, so I don't want to work out the full derivation, but I think it's plausible that,",
+        "start": 327.889,
+        "duration": 5.33
+    },
+    {
+        "text": "that these lengths here",
+        "start": 333.74,
+        "duration": 2.0
+    },
+    {
+        "text": "are no bigger than 5. The total area of the two ears,",
+        "start": 335.87,
+        "duration": 4.369
+    },
+    {
+        "text": "according to our formula for the, here for the area of a sector, these two ears have area",
+        "start": 340.64,
+        "duration": 6.18
+    },
+    {
+        "text": "something like",
+        "start": 347.14,
+        "duration": 1.66
+    },
+    {
+        "text": "1,000 times the total angle of the ears. And what is that total angle?",
+        "start": 348.8,
+        "duration": 5.21
+    },
+    {
+        "text": "Well, that's one half of the angle of this guy, because we bisected the angle, and so it's like",
+        "start": 354.01,
+        "duration": 7.319
+    },
+    {
+        "text": "500",
+        "start": 361.61,
+        "duration": 1.2
+    },
+    {
+        "text": "times the angle at the tip of the original triangle.",
+        "start": 362.81,
+        "duration": 3.019
+    },
+    {
+        "text": "Now let's repeat the construction. Let's say this is 45 degrees.",
+        "start": 366.41,
+        "duration": 3.379
+    },
+    {
+        "text": "This is maybe, I don't know, 1 or 2 or 3, it doesn't matter.",
+        "start": 370.01,
+        "duration": 3.379
+    },
+    {
+        "text": "Let's say this height is 1. Let's mark off a bunch of horizontal lines all the way up to N.",
+        "start": 373.389,
+        "duration": 4.35
+    },
+    {
+        "text": "Now, look at this triangle,",
+        "start": 377.81,
+        "duration": 2.0
+    },
+    {
+        "text": "and do what we were talking about before to it. Let it grow a pair of ears.",
+        "start": 380.419,
+        "duration": 4.01
+    },
+    {
+        "text": "Now we've got two triangles. Draw a pair of ears on each of those.",
+        "start": 384.43,
+        "duration": 3.869
+    },
+    {
+        "text": "Now we've got four triangles. Draw a pair of ears on each of those, et cetera.",
+        "start": 388.3,
+        "duration": 4.05
+    },
+    {
+        "text": "Keep on going N times and at the very end you have 2 to the Nth power",
+        "start": 392.63,
+        "duration": 4.82
+    },
+    {
+        "text": "triangles, each with angle 45 degrees",
+        "start": 398.12,
+        "duration": 3.529
+    },
+    {
+        "text": "divided by 2 to the N at the tip, because each time I grow a pair of ears,",
+        "start": 402.139,
+        "duration": 4.399
+    },
+    {
+        "text": "I double the number of triangles, but I halve the angle at each triangle.",
+        "start": 406.539,
+        "duration": 4.47
+    },
+    {
+        "text": "Brady: \"Okay, that's a monster you've made, there.\"",
+        "start": 411.7,
+        "duration": 2.68
+    },
+    {
+        "text": "That's a monster. Notice that inside the arena,",
+        "start": 414.38,
+        "duration": 2.0
+    },
+    {
+        "text": "I can turn a pole of length N,",
+        "start": 416.38,
+        "duration": 3.4
+    },
+    {
+        "text": "but, there is a problem. I have to do this magic jumping. Never mind,",
+        "start": 421.61,
+        "duration": 4.22
+    },
+    {
+        "text": "we'll fix the magic jumping later. So we can turn a pole of length N.",
+        "start": 425.83,
+        "duration": 3.779
+    },
+    {
+        "text": "Fine. Now, what's the area of the arena? Let's start with our original triangle. It has whatever area it has.",
+        "start": 430.43,
+        "duration": 6.679
+    },
+    {
+        "text": "11, I don't care. It grows a pair of ears. We decided that the area of the pair of ears was something like",
+        "start": 437.11,
+        "duration": 6.929
+    },
+    {
+        "text": "1,000 times the angle at the tip. Now notice that at the Nth stage there are 2 to the N",
+        "start": 444.56,
+        "duration": 4.519
+    },
+    {
+        "text": "triangles, each one with an angle 45 degrees over 2 to the N. At the very last stage, each ear",
+        "start": 449.33,
+        "duration": 5.929
+    },
+    {
+        "text": "has an area of, let's say, a thousand times this number, but there are 2 to the N of them.",
+        "start": 455.36,
+        "duration": 4.489
+    },
+    {
+        "text": "So, altogether the total area of all the ears that we've added at stage N",
+        "start": 459.849,
+        "duration": 5.61
+    },
+    {
+        "text": "is a thousand times 45 degrees. Okay? Because the 2 to the Ns cancel when you multiply. Well that was also true with the N",
+        "start": 465.5,
+        "duration": 7.069
+    },
+    {
+        "text": "minus first stage and at the N minus second stage. At every stage, there are some tiny angles, and",
+        "start": 472.699,
+        "duration": 6.29
+    },
+    {
+        "text": "a huge number of them, and they add up to 45 degrees, and therefore, at",
+        "start": 479.689,
+        "duration": 4.22
+    },
+    {
+        "text": "each stage of this construction, you added a total of, let's say, area 1,000. There were N stages of the construction.",
+        "start": 484.099,
+        "duration": 7.82
+    },
+    {
+        "text": "And so the total area of all the ears at all the stages of the construction is like a thousand times N.",
+        "start": 492.409,
+        "duration": 5.9
+    },
+    {
+        "text": "Plus the 11 that we started with, which is irrelevant. Okay? So,",
+        "start": 498.529,
+        "duration": 4.82
+    },
+    {
+        "text": "That's, now remember, our goal is to beat N squared and we've done it. We've got a thousand times N.",
+        "start": 503.96,
+        "duration": 6.139
+    },
+    {
+        "text": "We take this weird picture, and we,",
+        "start": 510.099,
+        "duration": 2.609
+    },
+    {
+        "text": "we scale it down, making a tiny map with a scale of 1 meter on the map equals N",
+        "start": 514.069,
+        "duration": 5.81
+    },
+    {
+        "text": "meters here, and we have produced a geometrical figure whose area is",
+        "start": 519.889,
+        "duration": 4.7
+    },
+    {
+        "text": "something like 1,000 divided by N, in which we can turn a pole of length 1.",
+        "start": 525.26,
+        "duration": 5.62
+    },
+    {
+        "text": "After you scale it down, this very weird arena would fit comfortably inside a square of radius, let's say, three,",
+        "start": 531.04,
+        "duration": 6.62
+    },
+    {
+        "text": "of side length three, or a circle of radius three or four, so,",
+        "start": 537.83,
+        "duration": 4.58
+    },
+    {
+        "text": "so, so far, we're not going into deep space, we,",
+        "start": 543.29,
+        "duration": 3.83
+    },
+    {
+        "text": "you know, we went very far away, but we were turning a very big pole, and after we scaled it down,",
+        "start": 547.85,
+        "duration": 4.429
+    },
+    {
+        "text": "it's not so it's not so big anymore,",
+        "start": 552.28,
+        "duration": 2.22
+    },
+    {
+        "text": "it just has a tiny area. All right, so now we're going to solve the jump problem.",
+        "start": 554.5,
+        "duration": 3.419
+    },
+    {
+        "text": "So again, the magic jumping is that from time to time, we will, we will find ourselves",
+        "start": 557.92,
+        "duration": 4.049
+    },
+    {
+        "text": "here, and we would like to be facing the same direction, but in a different place, and so we will just jump,",
+        "start": 563.06,
+        "duration": 4.76
+    },
+    {
+        "text": "and that's what I'm calling magic jumping. So we have to do that a finite number of times. All right.",
+        "start": 567.82,
+        "duration": 4.619
+    },
+    {
+        "text": "So we have, never mind what the arena is, but the arena includes a pole of length 1, and",
+        "start": 572.44,
+        "duration": 5.639
+    },
+    {
+        "text": "we would like to move it to another location so it has moved, but it, its direction has not changed, it is",
+        "start": 579.11,
+        "duration": 5.929
+    },
+    {
+        "text": "parallel, going to change the direction slightly.",
+        "start": 585.56,
+        "duration": 2.299
+    },
+    {
+        "text": "Let's call these, both of these angles theta. We're going to make theta very small, and we'll see how small in a minute.",
+        "start": 588.05,
+        "duration": 5.75
+    },
+    {
+        "text": "We have had to",
+        "start": 593.8,
+        "duration": 1.24
+    },
+    {
+        "text": "turn the needle through that little slice of pie, and through that little slice of pie.",
+        "start": 595.04,
+        "duration": 5.119
+    },
+    {
+        "text": "And we decided that the area of one of these things, if this is of length 1, the area of each of these guys is",
+        "start": 600.16,
+        "duration": 7.049
+    },
+    {
+        "text": "maybe something like 1,000 times theta. And there are two of them, so there's",
+        "start": 607.46,
+        "duration": 4.34
+    },
+    {
+        "text": "2,000 times theta. Our two guys are facing",
+        "start": 612.41,
+        "duration": 2.69
+    },
+    {
+        "text": "very very slightly different directions, and we slide these needles until",
+        "start": 615.65,
+        "duration": 4.97
+    },
+    {
+        "text": "they meet. So here, let's say, is something of length 1, and",
+        "start": 621.26,
+        "duration": 3.74
+    },
+    {
+        "text": "here is something of length 1, and if we turn this guy by theta, and we turn this guy by theta,",
+        "start": 625.25,
+        "duration": 5.63
+    },
+    {
+        "text": "then this angle is maybe 2 theta or something like that.",
+        "start": 631.07,
+        "duration": 4.159
+    },
+    {
+        "text": "Now how much area did it take to slide? Well, zero, because these are just line segments.",
+        "start": 635.99,
+        "duration": 5.839
+    },
+    {
+        "text": "Maybe it feels weird to have a line segment as part of our arena.",
+        "start": 642.56,
+        "duration": 4.13
+    },
+    {
+        "text": "We say its thickness is T, and, and this distance is, is, whatever it is. This distance is D.",
+        "start": 646.69,
+        "duration": 6.0
+    },
+    {
+        "text": "Then we have simply two",
+        "start": 652.69,
+        "duration": 1.72
+    },
+    {
+        "text": "rectangles of thickness T and distance D. Now before I decided to thicken this guy, I could calculate what D was in terms of",
+        "start": 654.41,
+        "duration": 7.52
+    },
+    {
+        "text": "theta, and so once I have done that, I take, I take T to be so small",
+        "start": 662.03,
+        "duration": 5.599
+    },
+    {
+        "text": "that D times T is, let's say, smaller than theta.",
+        "start": 668.32,
+        "duration": 3.09
+    },
+    {
+        "text": "So I know what D is, and it's gonna be very big, because the two,",
+        "start": 671.54,
+        "duration": 3.05
+    },
+    {
+        "text": "the two poles are almost parallel, and they're going to have to go a very,",
+        "start": 674.69,
+        "duration": 3.32
+    },
+    {
+        "text": "very long way before they meet, so this D is a very big number,",
+        "start": 678.2,
+        "duration": 3.2
+    },
+    {
+        "text": "and this angle theta is a very small number, so this is big,",
+        "start": 681.47,
+        "duration": 2.929
+    },
+    {
+        "text": "and this is small, and so this T is gonna have to be real real real small for this to happen. Never mind.",
+        "start": 684.4,
+        "duration": 6.0
+    },
+    {
+        "text": "We just pick T that small. So now what is our region? We have, let's say, we have this slice of pie,",
+        "start": 690.4,
+        "duration": 5.94
+    },
+    {
+        "text": "we have",
+        "start": 697.43,
+        "duration": 1.29
+    },
+    {
+        "text": "this slice of pie from the previous constructions,",
+        "start": 698.72,
+        "duration": 2.989
+    },
+    {
+        "text": "we have our very long but extremely thin rectangle here and here,",
+        "start": 701.81,
+        "duration": 4.64
+    },
+    {
+        "text": "and finally, we have a slice of pie of length 1",
+        "start": 706.82,
+        "duration": 2.69
+    },
+    {
+        "text": "that enables this needle to turn until it's facing this way. You have to build a bunch of them every time you want to make",
+        "start": 709.61,
+        "duration": 6.98
+    },
+    {
+        "text": "one of these magic jumps.",
+        "start": 716.59,
+        "duration": 1.99
+    },
+    {
+        "text": "[sliding noise]",
+        "start": 719.26,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, and that's it. Well, now we want to travel through the full 360 degrees. And so again",
+        "start": 722.06,
+        "duration": 6.71
+    },
+    {
+        "text": "we simply rotate it, and put them together, and that's it.",
+        "start": 728.77,
+        "duration": 4.49
+    },
+    {
+        "text": "Brady: \"How would you describe this shape? It's, like, just a series of tiny ears, like\"",
+        "start": 733.26,
+        "duration": 3.0
+    },
+    {
+        "text": "Yes, yes.",
+        "start": 736.82,
+        "duration": 1.01
+    },
+    {
+        "text": "So it's tiny ears growing out of tiny ears, growing out of tiny ears, and as, as you",
+        "start": 737.83,
+        "duration": 5.159
+    },
+    {
+        "text": "grow away from the base, the ears get tinier and thinner. The problem has an interesting history.",
+        "start": 743.36,
+        "duration": 4.369
+    },
+    {
+        "text": "Kakeya posed the problem in 1917.",
+        "start": 749.06,
+        "duration": 4.46
+    },
+    {
+        "text": "At the same time, the Russian mathematician Besicovitch",
+        "start": 753.8,
+        "duration": 3.34
+    },
+    {
+        "text": "discovered the set with ears and saw that, that there was a segment",
+        "start": 758.03,
+        "duration": 4.13
+    },
+    {
+        "text": "pointing in every direction, or in every direction within one quadrant.",
+        "start": 762.32,
+        "duration": 3.89
+    },
+    {
+        "text": "He was in Russia in 1917, so various other events were taking place, and his discovery did not become",
+        "start": 766.21,
+        "duration": 6.0
+    },
+    {
+        "text": "known to the outside world for a long time, and the connection with Kakeya's problem was,",
+        "start": 772.82,
+        "duration": 5.539
+    },
+    {
+        "text": "was slow to be realized. The mechanism to get rid of the magic jumps was discovered by",
+        "start": 778.84,
+        "duration": 6.02
+    },
+    {
+        "text": "a Hungarian mathematician named Pál.",
+        "start": 784.86,
+        "duration": 2.68
+    },
+    {
+        "text": "Brady: \"I imagine if we were doing this in the real world, this would be a time-consuming process.\"",
+        "start": 787.54,
+        "duration": 3.66
+    },
+    {
+        "text": "Yes.",
+        "start": 792.14,
+        "duration": 1.11
+    },
+    {
+        "text": "Somebody once wrote about this problem, that a person trying to turn a long pole in a dense forest could appreciate",
+        "start": 793.25,
+        "duration": 7.91
+    },
+    {
+        "text": "this problem.",
+        "start": 801.43,
+        "duration": 2.0
+    },
+    {
+        "text": "...for 2,000 years people played with the ruler and compass, and worried about that.",
+        "start": 804.75,
+        "duration": 5.27
+    },
+    {
+        "text": "And then something amazing happened, it got connected with the rest of mathematics. That often happens in mathematics, when,",
+        "start": 810.24,
+        "duration": 5.66
+    },
+    {
+        "text": "when a problem gets connected to something else, it becomes accessible. Actually, this fell to a prodigy,",
+        "start": 816.03,
+        "duration": 6.829
+    },
+    {
+        "text": "a pimply 19 year old, Carl Friedrich Gauss, in 1796...",
+        "start": 823.44,
+        "duration": 5.12
+    }
+]

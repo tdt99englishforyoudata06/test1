@@ -1,0 +1,1187 @@
+[
+    {
+        "text": "Well I've just balanced a whole lot of\ndominoes up and what I wanted to do is",
+        "start": 9.0,
+        "duration": 5.16
+    },
+    {
+        "text": "look at how computers actually do maths for us.",
+        "start": 14.16,
+        "duration": 4.47
+    },
+    {
+        "text": "How on earth can a mechanical system\nlike just a chip in a computer - how can it",
+        "start": 18.63,
+        "duration": 4.68
+    },
+    {
+        "text": "actually do arithmetic. This is my input\nDomino here. If I bump the input Domino",
+        "start": 23.31,
+        "duration": 5.19
+    },
+    {
+        "text": "it's going to send a signal down the\nchain and normally you just have a one",
+        "start": 28.5,
+        "duration": 3.57
+    },
+    {
+        "text": "single chain of dominoes",
+        "start": 32.07,
+        "duration": 1.38
+    },
+    {
+        "text": "so I've mixed it up by... well initially\nsplitting the chain which in itself is",
+        "start": 33.45,
+        "duration": 4.019
+    },
+    {
+        "text": "not that controversial but then the\nshorter arm over here",
+        "start": 37.469,
+        "duration": 4.11
+    },
+    {
+        "text": "knocks out some of these dominoes so if\nthese dominoes come toppling over",
+        "start": 41.579,
+        "duration": 4.171
+    },
+    {
+        "text": "it'll bump these two out and this won't\nbe able to cross. So in fact this is a",
+        "start": 45.75,
+        "duration": 5.07
+    },
+    {
+        "text": "circuit that stops itself. If I bump this\nand it starts going",
+        "start": 50.82,
+        "duration": 3.719
+    },
+    {
+        "text": "this will get their first, knock them out\nthis will come to a halt. These are my",
+        "start": 55.17,
+        "duration": 3.119
+    },
+    {
+        "text": "output dominoes, this is the kind of the\noutput from the circuit that will not",
+        "start": 58.289,
+        "duration": 3.721
+    },
+    {
+        "text": "fall over. If I now have two inputs so if\nI only knocked over this second input",
+        "start": 62.01,
+        "duration": 7.41
+    },
+    {
+        "text": "all it would do is these dominoes will all\nfall over it would bump these out and",
+        "start": 69.42,
+        "duration": 3.87
+    },
+    {
+        "text": "then it would stop - nothing would\nhappen.",
+        "start": 73.29,
+        "duration": 1.56
+    },
+    {
+        "text": "So it means individually either one of\nthese bumped by itself that Domino will",
+        "start": 74.85,
+        "duration": 5.61
+    },
+    {
+        "text": "not fall over. If I don't bump either of\nthese, that Domino will not fall over",
+        "start": 80.46,
+        "duration": 4.74
+    },
+    {
+        "text": "so if I knock both of them together this\nshorter one here will come along and knock",
+        "start": 85.6,
+        "duration": 5.26
+    },
+    {
+        "text": "these out this one at the same time will be coming along it will split but when this",
+        "start": 90.869,
+        "duration": 4.11
+    },
+    {
+        "text": "one gets here",
+        "start": 94.979,
+        "duration": 1.32
+    },
+    {
+        "text": "these dominoes are already gone so it stops which means these dominoes don't move",
+        "start": 96.299,
+        "duration": 4.621
+    },
+    {
+        "text": "this one will go all the way around it\ncomes along here comes down here",
+        "start": 100.92,
+        "duration": 3.72
+    },
+    {
+        "text": "straight across and then out",
+        "start": 104.64,
+        "duration": 2.939
+    },
+    {
+        "text": "So this circuit... the output only falls over",
+        "start": 107.579,
+        "duration": 4.65
+    },
+    {
+        "text": "if and only if I bump both of these and\nso we call this an AND circuit",
+        "start": 112.229,
+        "duration": 6.061
+    },
+    {
+        "text": "it's got two inputs I have to knock over\none of them and the other one to get an output",
+        "start": 118.829,
+        "duration": 5.171
+    },
+    {
+        "text": "I'll tell you what I do knocking none of them first, there you go that worked",
+        "start": 124.35,
+        "duration": 4.05
+    },
+    {
+        "text": "now that the boring one is just this input because that will just knock that out and stop",
+        "start": 128.4,
+        "duration": 4.1
+    },
+    {
+        "text": "The fun one is either just this\none so it stops itself or both of them",
+        "start": 132.5,
+        "duration": 5.02
+    },
+    {
+        "text": "so the signal goes through what would\nyou... what yould you like?",
+        "start": 137.52,
+        "duration": 2.48
+    },
+    {
+        "text": "I think on behalf of the viewers they're going to want to see both.",
+        "start": 140.0,
+        "duration": 2.44
+    },
+    {
+        "text": "Yeah, are you ready (yeah) here we go one and the other",
+        "start": 142.5,
+        "duration": 5.2
+    },
+    {
+        "text": "There you are so it worked! So we got an\noutput cause I did one and the other one",
+        "start": 147.78,
+        "duration": 6.21
+    },
+    {
+        "text": "this is a working AND circuit. Now we can\ndescribe this mathematically so we're",
+        "start": 153.99,
+        "duration": 5.97
+    },
+    {
+        "text": "not quite adding numbers yet but it's a\ngood step in the right direction",
+        "start": 159.98,
+        "duration": 2.48
+    },
+    {
+        "text": "So we'll call this one input one and I'm going to label that one there \"input 1\"",
+        "start": 162.46,
+        "duration": 5.34
+    },
+    {
+        "text": "This one here can be input two so that's \"input 2\"",
+        "start": 167.85,
+        "duration": 3.72
+    },
+    {
+        "text": "and then over here we have the output\nso I'll label that \"output\" and what I'm",
+        "start": 171.57,
+        "duration": 4.11
+    },
+    {
+        "text": "going to say is if a domino is standing\nup then nothing's happened yet we'll call that a 0.",
+        "start": 175.68,
+        "duration": 6.48
+    },
+    {
+        "text": "If it falls over we'll say it's\nbecoming a 1. So if you don't...",
+        "start": 182.16,
+        "duration": 4.92
+    },
+    {
+        "text": "the first input doesn't fall over the second input doesn't fall over",
+        "start": 187.16,
+        "duration": 4.62
+    },
+    {
+        "text": "the output in theory should not fall\nover. If input 1 falls over but input 2 doesn't",
+        "start": 191.88,
+        "duration": 5.92
+    },
+    {
+        "text": "the output won't fall over. If\ninput one doesn't fall over but input 2 does",
+        "start": 197.8,
+        "duration": 5.4
+    },
+    {
+        "text": "the output still won't fall over\nand then finally if both of these fall over together",
+        "start": 203.2,
+        "duration": 5.82
+    },
+    {
+        "text": "the output falls over and we call that...\nthis is the logic table and so this is",
+        "start": 209.16,
+        "duration": 5.64
+    },
+    {
+        "text": "what's called an AND... actually I'll lable it up here this is a AND GATE",
+        "start": 214.8,
+        "duration": 5.34
+    },
+    {
+        "text": "So what I am going to try to build next is a\nthing called an EXCLUSIVE OR",
+        "start": 220.14,
+        "duration": 3.81
+    },
+    {
+        "text": "or XOR which is the... the best\nname of the gate",
+        "start": 223.95,
+        "duration": 4.95
+    },
+    {
+        "text": "you have input 1 we're going to have\ninput 2 we're going to have our output again",
+        "start": 228.9,
+        "duration": 3.88
+    },
+    {
+        "text": "This time... again if I don't touch\nany of the inputs",
+        "start": 232.78,
+        "duration": 3.2
+    },
+    {
+        "text": "I don't want the output to fall over. Now\nif I only bump input 1 but not 2",
+        "start": 235.98,
+        "duration": 5.04
+    },
+    {
+        "text": "I still want the output to fall over this\ninput 1 has to go through the circuit",
+        "start": 241.02,
+        "duration": 3.18
+    },
+    {
+        "text": "if I don't hit 1 but i do hit 2, I\nstill want the output to fall over and",
+        "start": 244.2,
+        "duration": 5.55
+    },
+    {
+        "text": "then controversially if I bump both of\nthem together",
+        "start": 249.75,
+        "duration": 3.62
+    },
+    {
+        "text": "I want them to somehow cancel out in the\ncircuit so nothing comes out",
+        "start": 253.48,
+        "duration": 4.5
+    },
+    {
+        "text": "and that's why it's called an\nEXCLUSIVE OR it's one input or the",
+        "start": 257.98,
+        "duration": 4.24
+    },
+    {
+        "text": "other input but not both",
+        "start": 262.23,
+        "duration": 2.19
+    },
+    {
+        "text": "that's the exclusive bit so I'm gonna\ntry and build an EXCLUSIVE OR circuit",
+        "start": 264.42,
+        "duration": 5.58
+    },
+    {
+        "text": "out of dominoes give me... give me a second here",
+        "start": 270.0,
+        "duration": 3.54
+    },
+    {
+        "text": "There we go so this is my EXCLUSIVE OR\ngate and as you can see if you bump",
+        "start": 276.15,
+        "duration": 6.33
+    },
+    {
+        "text": "over just input 1 it will come flying\nin here it goes into the fork here it",
+        "start": 282.48,
+        "duration": 6.09
+    },
+    {
+        "text": "will come along this way it will then go\nout here we don't care if something",
+        "start": 288.57,
+        "duration": 3.99
+    },
+    {
+        "text": "comes back up the circuit that's fine",
+        "start": 292.56,
+        "duration": 1.92
+    },
+    {
+        "text": "more importantly it'll come around this way around there and then out and likewise",
+        "start": 294.48,
+        "duration": 4.11
+    },
+    {
+        "text": "because it's symmetric, if I bump input 2\nthat goes along into the fork goes along",
+        "start": 298.59,
+        "duration": 3.6
+    },
+    {
+        "text": "the middle comes around here and then\nout the output. So either one by itself",
+        "start": 302.19,
+        "duration": 4.05
+    },
+    {
+        "text": "will make it through the circuit. \nImportantly though if I bump them both simultaneously",
+        "start": 306.24,
+        "duration": 5.4
+    },
+    {
+        "text": "they will be using the center at the\nsame time they will collide and stop and",
+        "start": 311.76,
+        "duration": 5.04
+    },
+    {
+        "text": "the output won't fall over",
+        "start": 316.8,
+        "duration": 2.16
+    },
+    {
+        "text": "I quite like the... doing both together,\nright, cause that's the difficult bit",
+        "start": 318.96,
+        "duration": 3.72
+    },
+    {
+        "text": "because anyone can make a circuit where\nboth inputs lead to the same output",
+        "start": 322.68,
+        "duration": 4.05
+    },
+    {
+        "text": "I mean that's easy. One where that\nhappens and they can stop each other",
+        "start": 326.73,
+        "duration": 4.83
+    },
+    {
+        "text": "that's where it gets fun. So I'm going to\ngive it a go. Unfortunately dominoes do",
+        "start": 331.56,
+        "duration": 4.56
+    },
+    {
+        "text": "fall over quite quickly and you want to\nhave as much time as possible to enjoy the experience",
+        "start": 336.12,
+        "duration": 5.64
+    },
+    {
+        "text": "So what we might do is put on some ridiculous lights and do the whole thing in slowmo",
+        "start": 341.76,
+        "duration": 4.94
+    },
+    {
+        "text": "Okay right, okay that... that should be\nadequate light... so we'll get this going",
+        "start": 346.71,
+        "duration": 3.75
+    },
+    {
+        "text": "and in theory they will cancel out right\nin the center. OK here we go: one and the other one",
+        "start": 350.46,
+        "duration": 5.72
+    },
+    {
+        "text": "yes",
+        "start": 357.12,
+        "duration": 3.0
+    },
+    {
+        "text": "OK so you see this guy is dangerously\nclose to going",
+        "start": 364.95,
+        "duration": 5.61
+    },
+    {
+        "text": "so when this collided there's a bit of\nrecoil back up but thankfully again not",
+        "start": 370.56,
+        "duration": 4.77
+    },
+    {
+        "text": "quite enough to bump these off going the\nother direction. So there you are",
+        "start": 375.33,
+        "duration": 3.24
+    },
+    {
+        "text": "It's the EXCLUSIVE OR together they didn't get through",
+        "start": 378.57,
+        "duration": 3.0
+    },
+    {
+        "text": "So we've done the AND gate and made that work we've done the EXCLUSIVE OR gate that has worked",
+        "start": 382.32,
+        "duration": 4.94
+    },
+    {
+        "text": "what we're going to do now is go\nanother step in the direction of ridiculous",
+        "start": 387.26,
+        "duration": 5.1
+    },
+    {
+        "text": "we're going to have input 1 again\nwe're going to have input 2",
+        "start": 392.52,
+        "duration": 5.34
+    },
+    {
+        "text": "We then... over here we have the output",
+        "start": 397.94,
+        "duration": 2.46
+    },
+    {
+        "text": "now again these are standard options\nthat we have every time",
+        "start": 400.4,
+        "duration": 5.52
+    },
+    {
+        "text": "they're all four ways you can bump over two inputs.",
+        "start": 405.92,
+        "duration": 2.62
+    },
+    {
+        "text": "Now i'm going to have output 1 and\noutput 2. Output 1 is going to act as",
+        "start": 408.54,
+        "duration": 5.91
+    },
+    {
+        "text": "if it was an AND gate so we'll have that\nhappening.",
+        "start": 414.45,
+        "duration": 4.11
+    },
+    {
+        "text": "Output 2 is going to act as if it is an\nEXCLUSIVE OR gate and what that means is",
+        "start": 418.56,
+        "duration": 7.14
+    },
+    {
+        "text": "if you can have both of these outputs\nfor those two inputs",
+        "start": 425.7,
+        "duration": 4.98
+    },
+    {
+        "text": "these are counting the number of inputs\nthey get bumped so this is like a units column",
+        "start": 430.78,
+        "duration": 4.36
+    },
+    {
+        "text": "this is the ones column and that's\ntwos. So if you only bump one input over",
+        "start": 435.15,
+        "duration": 6.42
+    },
+    {
+        "text": "the one output goes, if you bump both of them over you get the twos column goes",
+        "start": 441.57,
+        "duration": 4.89
+    },
+    {
+        "text": "and so this is a very, very basic circuit\nthat can count. It can tell if you bump",
+        "start": 447.03,
+        "duration": 5.34
+    },
+    {
+        "text": "just one or two",
+        "start": 452.37,
+        "duration": 1.71
+    },
+    {
+        "text": "It doesn't matter which bump it can still\ncount it. So if i repurposed... because it",
+        "start": 454.08,
+        "duration": 3.99
+    },
+    {
+        "text": "needs an exclusive or in the middle. If I\nvery carefully...",
+        "start": 458.07,
+        "duration": 2.88
+    },
+    {
+        "text": "This is called a binary half adder",
+        "start": 460.95,
+        "duration": 3.12
+    },
+    {
+        "text": "and the reason it's called a binary half\nadder is it's doing half of what you",
+        "start": 464.07,
+        "duration": 4.77
+    },
+    {
+        "text": "need to do full binary ari... oops...\nfull binary arithmetic",
+        "start": 468.84,
+        "duration": 4.14
+    },
+    {
+        "text": "so if you can build what's called a\nbinary full adder",
+        "start": 473.58,
+        "duration": 3.0
+    },
+    {
+        "text": "which believe me we'll get to in a second",
+        "start": 476.64,
+        "duration": 2.14
+    },
+    {
+        "text": "then you can do all the calculations you\nwant. So a binary full adder is what",
+        "start": 478.8,
+        "duration": 3.96
+    },
+    {
+        "text": "calculators use, what computers use it's the basis of all automated computation",
+        "start": 482.76,
+        "duration": 5.1
+    },
+    {
+        "text": "All right so I'm almost finished. I'm\nputting the last two dominoes in over here",
+        "start": 488.72,
+        "duration": 5.04
+    },
+    {
+        "text": "It's a monster that",
+        "start": 493.79,
+        "duration": 1.26
+    },
+    {
+        "text": "it really is... well you know well this... this is interesting because this chain splits",
+        "start": 495.05,
+        "duration": 4.65
+    },
+    {
+        "text": "off and all it does is zigzag\nbackwards and forwards for a while and",
+        "start": 499.7,
+        "duration": 2.73
+    },
+    {
+        "text": "the reason I had to go and do these\nextra... cause I could have done just that, right",
+        "start": 502.43,
+        "duration": 3.66
+    },
+    {
+        "text": "the reason I had to do these extra\ndominoes is because this is a delay line",
+        "start": 506.09,
+        "duration": 3.66
+    },
+    {
+        "text": "so I need to give... cause you can still see the EXCLUSIVE OR is in here",
+        "start": 509.75,
+        "duration": 5.43
+    },
+    {
+        "text": "I need to give the EXCLUSIVE OR enough time to do its thing before this signal",
+        "start": 515.18,
+        "duration": 4.83
+    },
+    {
+        "text": "catches up with it",
+        "start": 520.01,
+        "duration": 1.05
+    },
+    {
+        "text": "so this is just delaying one of the\nsignals. The way this works is if I just",
+        "start": 521.06,
+        "duration": 4.53
+    },
+    {
+        "text": "bump this input... Oh first of all, if I bump none of the inputs -",
+        "start": 525.59,
+        "duration": 4.16
+    },
+    {
+        "text": "Perfect. If I just bump this input it\nwill come in here goes into the fork,",
+        "start": 529.9,
+        "duration": 5.52
+    },
+    {
+        "text": "goes across the EXCLUSIVE OR, comes out the other side.",
+        "start": 535.43,
+        "duration": 3.06
+    },
+    {
+        "text": "This waste signal just comes back and out that doesn't matter",
+        "start": 538.49,
+        "duration": 2.78
+    },
+    {
+        "text": "it goes around here, goes around there and then it goes out the units output so that means that",
+        "start": 541.27,
+        "duration": 4.03
+    },
+    {
+        "text": "one input was bumped if I bump this one now this is where it get's slightly more complicated",
+        "start": 545.3,
+        "duration": 5.42
+    },
+    {
+        "text": "Here it splits and then one\nsignal goes through the EXCLUSIVE OR",
+        "start": 550.72,
+        "duration": 4.92
+    },
+    {
+        "text": "all the way through, out the other side, comes around, comes here,",
+        "start": 555.65,
+        "duration": 3.72
+    },
+    {
+        "text": "splits, goes out this... the units output. Also, it blocks these so this forks so",
+        "start": 559.37,
+        "duration": 6.6
+    },
+    {
+        "text": "this one stops this chain",
+        "start": 565.97,
+        "duration": 1.83
+    },
+    {
+        "text": "meanwhile the other signal's coming along here it gets to here and it's stopped.",
+        "start": 567.8,
+        "duration": 4.38
+    },
+    {
+        "text": "So either one by itself only that output\nfalls over. If I bump them together",
+        "start": 572.18,
+        "duration": 7.2
+    },
+    {
+        "text": "well this one splits again that one goes that way",
+        "start": 579.38,
+        "duration": 3.06
+    },
+    {
+        "text": "this one's coming in, they collide in the\nmiddle and stop, this one carries on its merry path,",
+        "start": 582.44,
+        "duration": 5.62
+    },
+    {
+        "text": "gets right to the end goes\nstraight out that output and this one",
+        "start": 588.06,
+        "duration": 4.06
+    },
+    {
+        "text": "falls over but that one doesn't",
+        "start": 592.13,
+        "duration": 1.68
+    },
+    {
+        "text": "and so that's the twos output and so\nthat's the binary number that counts how",
+        "start": 593.81,
+        "duration": 6.12
+    },
+    {
+        "text": "many of these dominoes I bumped. This... this is a circuit of inanimate objects that can count.",
+        "start": 599.93,
+        "duration": 6.94
+    },
+    {
+        "text": "That excites you doesn't it? I.. I get disproportionately excited.",
+        "start": 607.0,
+        "duration": 3.98
+    },
+    {
+        "text": "People say all right now I want to know how computers work and they mean you know I",
+        "start": 611.63,
+        "duration": 3.24
+    },
+    {
+        "text": "want to know how to use microsoft word",
+        "start": 614.87,
+        "duration": 1.83
+    },
+    {
+        "text": "or I want to know you know... or even\nprogramming languages people go",
+        "start": 616.7,
+        "duration": 2.28
+    },
+    {
+        "text": "\"Oh I've learned to program!\"",
+        "start": 618.98,
+        "duration": 1.78
+    },
+    {
+        "text": "that will people go \"You know\nwhat, I do everything from the terminal prompt\"",
+        "start": 620.76,
+        "duration": 1.96
+    },
+    {
+        "text": "alright but... but you're still\njust interacting with the software level",
+        "start": 622.72,
+        "duration": 3.68
+    },
+    {
+        "text": "of the computer what's actually... how is the\ncomputer actually executing what you're",
+        "start": 626.42,
+        "duration": 4.71
+    },
+    {
+        "text": "telling it to do and right down at the very bottom this is the absolute fundamental",
+        "start": 631.13,
+        "duration": 3.75
+    },
+    {
+        "text": "layer of all computing... is a circuit of\nobjects that can make decisions based on inputs.",
+        "start": 634.88,
+        "duration": 7.24
+    },
+    {
+        "text": "Alright, so I'm gonna bump just this\none only that will fall over",
+        "start": 642.12,
+        "duration": 3.18
+    },
+    {
+        "text": "that won't move. Here we go, ready?",
+        "start": 645.32,
+        "duration": 3.0
+    },
+    {
+        "text": "The system works, look at that. So if they\nwere to stop this one from coming",
+        "start": 652.31,
+        "duration": 4.59
+    },
+    {
+        "text": "through the EXCLUSIVE OR worked perfectly\nthis came through without being stopped",
+        "start": 656.9,
+        "duration": 3.72
+    },
+    {
+        "text": "when out there's our units output this\none didn't move",
+        "start": 660.62,
+        "duration": 3.51
+    },
+    {
+        "text": "if all you saw was this, you would know that back here",
+        "start": 664.13,
+        "duration": 4.14
+    },
+    {
+        "text": "I only bumped one input not two",
+        "start": 668.27,
+        "duration": 3.0
+    },
+    {
+        "text": "Alright so that worked. Now as I said, move that away, this is just the half adder",
+        "start": 725.01,
+        "duration": 7.71
+    },
+    {
+        "text": "we want a binary full adder and to have\na full adder you need to have three",
+        "start": 732.72,
+        "duration": 4.92
+    },
+    {
+        "text": "inputs so you have input 1, input 2 and\ninput 3, and so now we need every single",
+        "start": 737.64,
+        "duration": 7.86
+    },
+    {
+        "text": "combination of... there is not bumping all of them, there's doing that, there is doing that,",
+        "start": 745.5,
+        "duration": 6.58
+    },
+    {
+        "text": "there is bumping those,",
+        "start": 752.08,
+        "duration": 1.5
+    },
+    {
+        "text": "there is bumping that one but not those, there's that one that one that one,",
+        "start": 753.58,
+        "duration": 3.69
+    },
+    {
+        "text": "that one that one that one,",
+        "start": 757.27,
+        "duration": 1.59
+    },
+    {
+        "text": "OK, there we are. That's all eight ways you can have three different inputs falling over and",
+        "start": 758.86,
+        "duration": 6.3
+    },
+    {
+        "text": "now I'm going to label this. This is\ngoing to be our twos column and this is",
+        "start": 765.16,
+        "duration": 3.63
+    },
+    {
+        "text": "gonna be our ones/units columns. This is our binary counting of how many we bumped.",
+        "start": 768.79,
+        "duration": 4.84
+    },
+    {
+        "text": "So there were bumped none of them,\nthere we bumped just one, just one, two of them,",
+        "start": 773.63,
+        "duration": 5.53
+    },
+    {
+        "text": "one of them, two of them, two of them... and at the very end",
+        "start": 779.2,
+        "duration": 5.58
+    },
+    {
+        "text": "three of them. And to have three we would expect that to happen.",
+        "start": 784.78,
+        "duration": 4.1
+    },
+    {
+        "text": "So if we could build this circuit, we\nwould have the full binary adder and you",
+        "start": 789.07,
+        "duration": 6.54
+    },
+    {
+        "text": "can build this right so all you need is\nbasically you chain together two half adders",
+        "start": 795.61,
+        "duration": 5.35
+    },
+    {
+        "text": "which is why that's called the\nhalf adder.",
+        "start": 800.96,
+        "duration": 1.9
+    },
+    {
+        "text": "So a little bit of careful positioning... you need a lot of dominoes at this point",
+        "start": 802.87,
+        "duration": 3.86
+    },
+    {
+        "text": "you need maybe two or three thousand dominoes to make this work reliably",
+        "start": 806.73,
+        "duration": 2.95
+    },
+    {
+        "text": "you could make a massive circuit which does this and once you can do that",
+        "start": 809.68,
+        "duration": 4.64
+    },
+    {
+        "text": "you can then add any binary numbers together that you want.",
+        "start": 814.32,
+        "duration": 5.1
+    },
+    {
+        "text": "Shall we do a calculation? Shall we... I'll tell you what... if you want to give me two numbers",
+        "start": 819.42,
+        "duration": 4.7
+    },
+    {
+        "text": "in you know... between 20 and 50 what shell we do? Let's do 42.",
+        "start": 824.12,
+        "duration": 7.9
+    },
+    {
+        "text": "Yeah of course. And 17. OK so\nright. So we're going to add 42 to 17.",
+        "start": 832.03,
+        "duration": 5.88
+    },
+    {
+        "text": "A bit of a spoiler alert",
+        "start": 837.91,
+        "duration": 2.07
+    },
+    {
+        "text": "we're expecting 59 just so we're all... I\nmean don't... you know I don't want to ruin it for anyone",
+        "start": 839.98,
+        "duration": 4.62
+    },
+    {
+        "text": "but OK so I'm going to turn\nthese into binary numbers. So 42 is going",
+        "start": 844.6,
+        "duration": 4.32
+    },
+    {
+        "text": "to be a 32 which means I need another 10\nso 32",
+        "start": 848.92,
+        "duration": 5.19
+    },
+    {
+        "text": "no 16s, one 8, no 4s, a 2 and a 1",
+        "start": 854.11,
+        "duration": 4.1
+    },
+    {
+        "text": "and then down here 17 is 0 1 0 0 0 1\nso that's 42 and 17 in binary",
+        "start": 858.21,
+        "duration": 9.46
+    },
+    {
+        "text": "And so now ah... and they're incredibly\nboring numbers to add in binary",
+        "start": 867.93,
+        "duration": 5.0
+    },
+    {
+        "text": "Why? Now because if I go along and\nadd them together",
+        "start": 873.3,
+        "duration": 4.08
+    },
+    {
+        "text": "what's 0 plus 1? Is 1. 1 plus 0 is 1. 0 plus 0. 1 plus 0. 0 plus 1. and 1.",
+        "start": 877.38,
+        "duration": 8.73
+    },
+    {
+        "text": "So at no point did you have... having to add two one's together.",
+        "start": 886.11,
+        "duration": 4.89
+    },
+    {
+        "text": "Alright so that made the sum... what we just... you know that's what we get",
+        "start": 891.0,
+        "duration": 2.82
+    },
+    {
+        "text": "for choosing random numbers. But we can double check the system works",
+        "start": 893.82,
+        "duration": 3.62
+    },
+    {
+        "text": "because now that's... so I'll label that, well that's units 2s, 4s, 8s, 16s, 32s.",
+        "start": 897.44,
+        "duration": 8.46
+    },
+    {
+        "text": "Our answers are 32 and the 16 which gives us 48, plus another 8 which gives us 56, plus a 2 which gives us",
+        "start": 905.9,
+        "duration": 8.48
+    },
+    {
+        "text": "58 plus a 1 which gives us 59. So... that is 59 in binary, right so this is how it works.",
+        "start": 914.55,
+        "duration": 5.67
+    },
+    {
+        "text": "What could have happened though... well let's just rig it with some",
+        "start": 920.22,
+        "duration": 3.18
+    },
+    {
+        "text": "interesting binary numbers right. If I\nhad let's say 110111 and i'm adding it",
+        "start": 923.4,
+        "duration": 7.2
+    },
+    {
+        "text": "to 011011, right. So I've\ndeliberately lined up loads of one's to",
+        "start": 930.6,
+        "duration": 5.34
+    },
+    {
+        "text": "get in the way. Cause now if I do 1\nplus 1",
+        "start": 935.94,
+        "duration": 3.36
+    },
+    {
+        "text": "the answer's 2, and I can't write a 2\ndown there because it's binary what I",
+        "start": 939.3,
+        "duration": 4.32
+    },
+    {
+        "text": "can do is I can write the 0 and carry\nthe 1,",
+        "start": 943.62,
+        "duration": 4.53
+    },
+    {
+        "text": "And so now I've got to add three of\nthese together. So I've got to add OK,",
+        "start": 948.15,
+        "duration": 4.04
+    },
+    {
+        "text": "1 plus 1 plus 1 is 3. So I write\nthe 1 carry the 1.",
+        "start": 952.19,
+        "duration": 3.93
+    },
+    {
+        "text": "OK, 1 plus 1 is 2. Put them down there and every single time the only... oops, that should be a 0...",
+        "start": 956.14,
+        "duration": 6.9
+    },
+    {
+        "text": "the only option I can have",
+        "start": 963.06,
+        "duration": 3.84
+    },
+    {
+        "text": "is either... oh, I'm only ever adding\ncombinations of three 1s and 0s.",
+        "start": 966.9,
+        "duration": 5.8
+    },
+    {
+        "text": "So no matter how big the numbers are I want to add,",
+        "start": 972.7,
+        "duration": 3.0
+    },
+    {
+        "text": "I never have to do anything more\ncomplicated than three 1s and 0s.",
+        "start": 975.7,
+        "duration": 4.35
+    },
+    {
+        "text": "And this is every single option",
+        "start": 980.05,
+        "duration": 2.07
+    },
+    {
+        "text": "so the reason that binary is great for\nadding is, when you're adding base 10",
+        "start": 982.12,
+        "duration": 3.81
+    },
+    {
+        "text": "numbers you might have to add a 2 to a 7 or a 1 to a 4 or an 8...",
+        "start": 985.93,
+        "duration": 2.92
+    },
+    {
+        "text": "there's so many options that you may have to add. Binary - only those eight options.",
+        "start": 988.85,
+        "duration": 5.24
+    },
+    {
+        "text": "If you can do all of those you can add any numbers together by just doing that one",
+        "start": 994.09,
+        "duration": 4.61
+    },
+    {
+        "text": "step over and over and over and over and\nover again",
+        "start": 998.709,
+        "duration": 2.341
+    },
+    {
+        "text": "so if you can build that of dominoes,\nthat's one bit of the calculation. So if you built this",
+        "start": 1001.05,
+        "duration": 6.78
+    },
+    {
+        "text": "I don't know, four times, so if you had...\nyou'd probably need about 10,000 dominoes...",
+        "start": 1007.83,
+        "duration": 5.21
+    },
+    {
+        "text": "with 10,000 dominoes you\ncould build the full adder circuit four times in a row",
+        "start": 1013.04,
+        "duration": 5.08
+    },
+    {
+        "text": "it means you could take two 4-digit\nbinary numbers as inputs and you could",
+        "start": 1018.12,
+        "duration": 4.62
+    },
+    {
+        "text": "have the 5-digit sum coming out as\nthe answer.",
+        "start": 1022.74,
+        "duration": 4.12
+    },
+    {
+        "text": "Of course... I mean you'd have to be truly insane to phone up a series of domino manufacturers,",
+        "start": 1026.86,
+        "duration": 7.18
+    },
+    {
+        "text": "find a wholesaler who would ship you 10,000 dominoes, find a concrete floor at the...",
+        "start": 1034.04,
+        "duration": 5.9
+    },
+    {
+        "text": "well, at the museum of science and\nindustry in Manchester and then spend",
+        "start": 1039.94,
+        "duration": 3.94
+    },
+    {
+        "text": "an entire weekend",
+        "start": 1043.89,
+        "duration": 1.679
+    },
+    {
+        "text": "balancing dominoes. I may have done this. I got some friends together we got 10,000",
+        "start": 1045.569,
+        "duration": 4.201
+    },
+    {
+        "text": "dominoes and we built a circuit which\nwill add four digit binary numbers and",
+        "start": 1049.77,
+        "duration": 4.77
+    },
+    {
+        "text": "give you a five digit answer.",
+        "start": 1054.54,
+        "duration": 2.16
+    },
+    {
+        "text": "So if you'd like to see Matt's giant\nDomino computer in action,",
+        "start": 1056.7,
+        "duration": 3.9
+    },
+    {
+        "text": "there'll be a link on the screen and in\nthe video description",
+        "start": 1060.78,
+        "duration": 3.09
+    },
+    {
+        "text": "it's obviously well worth a look there's\nalso more of my interview with Matt",
+        "start": 1063.87,
+        "duration": 3.57
+    },
+    {
+        "text": "where he talks about how you take this Domino idea he has just explained to the next level.",
+        "start": 1067.44,
+        "duration": 4.48
+    },
+    {
+        "text": "It'll probably be unlisted so having\nwatched this video for so long",
+        "start": 1071.92,
+        "duration": 3.48
+    },
+    {
+        "text": "you're in a very exclusive club that\nwould know about it. And finally i'm sure",
+        "start": 1075.45,
+        "duration": 3.15
+    },
+    {
+        "text": "some of you will be saying in the\ncomments,",
+        "start": 1078.6,
+        "duration": 1.86
+    },
+    {
+        "text": "why isn't this video on Computerphile?\nWell, it probably could have been but",
+        "start": 1080.46,
+        "duration": 4.5
+    },
+    {
+        "text": "here it is on numberphile. Those of you who aren't wondering that because you've",
+        "start": 1084.96,
+        "duration": 3.48
+    },
+    {
+        "text": "never heard of Computerphile",
+        "start": 1088.44,
+        "duration": 1.77
+    },
+    {
+        "text": "allow me to take this opportunity to\ntell you about Computerphile which is",
+        "start": 1090.21,
+        "duration": 4.02
+    },
+    {
+        "text": "kind of like the sister channel of\nNumberphile, all about computer science",
+        "start": 1094.23,
+        "duration": 3.27
+    },
+    {
+        "text": "and those sort of things. It's well worth a look",
+        "start": 1097.5,
+        "duration": 2.37
+    },
+    {
+        "text": "and again, I'll include links there's\ngoing to be loads of links under this",
+        "start": 1099.87,
+        "duration": 3.15
+    },
+    {
+        "text": "video so why don't you sort of extend it\nand make that information box a little",
+        "start": 1103.02,
+        "duration": 4.26
+    },
+    {
+        "text": "bit bigger and you can see them all\nsitting there.",
+        "start": 1107.28,
+        "duration": 2.25
+    }
+]

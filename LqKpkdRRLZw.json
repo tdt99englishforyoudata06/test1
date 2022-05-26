@@ -1,0 +1,487 @@
+[
+    {
+        "text": "What do you think this is?",
+        "start": 0.083,
+        "duration": 1.224
+    },
+    {
+        "text": "Like maybe seaweed? Or...",
+        "start": 3.634,
+        "duration": 2.407
+    },
+    {
+        "text": "-It definitely looks like something from the sea, like...",
+        "start": 6.041,
+        "duration": 2.769
+    },
+    {
+        "text": "Okay well it's interesting mathematical seaweed,",
+        "start": 8.9,
+        "duration": 1.91
+    },
+    {
+        "text": "and I can explain exactly how we made that image,",
+        "start": 10.81,
+        "duration": 1.93
+    },
+    {
+        "text": "because to me that image is one of the most mind-blowing pictures,",
+        "start": 12.74,
+        "duration": 5.666
+    },
+    {
+        "text": "illustrations of very simple math ideas.",
+        "start": 18.406,
+        "duration": 3.224
+    },
+    {
+        "text": "So it is - and we're going to get there - the Collatz Conjecture.",
+        "start": 21.63,
+        "duration": 4.947
+    },
+    {
+        "text": "I know you've done videos on the Collatz Conjecture,",
+        "start": 36.326,
+        "duration": 2.345
+    },
+    {
+        "text": "but here is your quick refresher.",
+        "start": 38.671,
+        "duration": 1.774
+    },
+    {
+        "text": "When you take a number and we can do two things to this number depending on its parity,",
+        "start": 40.445,
+        "duration": 3.315
+    },
+    {
+        "text": "that's whether it is odd or it is even.",
+        "start": 43.76,
+        "duration": 1.63
+    },
+    {
+        "text": "If it's even, we're going to divide by two,",
+        "start": 45.39,
+        "duration": 3.656
+    },
+    {
+        "text": "and if it's odd, we're going to multiply by three, so triple it, and add one.",
+        "start": 49.909,
+        "duration": 6.661
+    },
+    {
+        "text": "-Which will then make it even. -Which will then make it even.",
+        "start": 57.012,
+        "duration": 2.337
+    },
+    {
+        "text": "and then we know what we do even numbers, that we divide them by two.",
+        "start": 59.464,
+        "duration": 2.64
+    },
+    {
+        "text": "Let's say start with say 13.",
+        "start": 62.184,
+        "duration": 1.763
+    },
+    {
+        "text": "So 13 is odd, so x 3 and add 1",
+        "start": 64.08,
+        "duration": 3.06
+    },
+    {
+        "text": "so 13 will go to 39+1, 40 - goes to 40.",
+        "start": 67.14,
+        "duration": 4.953
+    },
+    {
+        "text": "Okay it's even, so divide that by 2, goes to 20.",
+        "start": 72.229,
+        "duration": 2.348
+    },
+    {
+        "text": "Okay we divide that by two, goes to 10",
+        "start": 74.577,
+        "duration": 1.916
+    },
+    {
+        "text": "again divided by two, goes to 5.",
+        "start": 76.493,
+        "duration": 2.042
+    },
+    {
+        "text": "Uh-oh, odd, multiply by 3, 15, add 1, 16.",
+        "start": 78.535,
+        "duration": 3.76
+    },
+    {
+        "text": "I get 16.",
+        "start": 82.295,
+        "duration": 1.357
+    },
+    {
+        "text": "And then look, 16 to 8 to 4 to 2 to 1.",
+        "start": 83.652,
+        "duration": 3.965
+    },
+    {
+        "text": "The conjecture made by Collatz is that every number that you choose",
+        "start": 87.617,
+        "duration": 7.165
+    },
+    {
+        "text": "is eventually going to go down to 1.",
+        "start": 94.782,
+        "duration": 2.39
+    },
+    {
+        "text": "So some of them are going to go all over the place,",
+        "start": 97.617,
+        "duration": 2.393
+    },
+    {
+        "text": "but eventually everything's going to 1 as a conjecture,",
+        "start": 100.32,
+        "duration": 2.361
+    },
+    {
+        "text": "which is, we think is true but we can't prove it",
+        "start": 102.681,
+        "duration": 4.233
+    },
+    {
+        "text": "and one of the reasons why the conjecture is one of the most famous unsolved problems in math",
+        "start": 106.914,
+        "duration": 5.447
+    },
+    {
+        "text": "is that we appear to be nowhere close to a solution, nowhere close at all.",
+        "start": 112.361,
+        "duration": 5.085
+    },
+    {
+        "text": "People believe that whole new bits of math need to be invented before we can do this,",
+        "start": 118.236,
+        "duration": 4.09
+    },
+    {
+        "text": "and is one of the few things that is so simple to state, yet still so complicated.",
+        "start": 122.326,
+        "duration": 5.221
+    },
+    {
+        "text": "It's got the sort of mythical status now among advanced mathematicians,",
+        "start": 127.547,
+        "duration": 3.826
+    },
+    {
+        "text": "and what I want to do is show how Edmund Harriss, who is a mathematician who I work with,",
+        "start": 131.582,
+        "duration": 6.873
+    },
+    {
+        "text": "has created this amazing image that illustrates what's going on with Collatz",
+        "start": 138.455,
+        "duration": 6.146
+    },
+    {
+        "text": "and when he first showed it to me, I was like blown away.",
+        "start": 144.601,
+        "duration": 3.145
+    },
+    {
+        "text": "I've started at 13 and then a line like that.",
+        "start": 147.846,
+        "duration": 2.755
+    },
+    {
+        "text": "Actually already what people do is you've built this big tree,",
+        "start": 151.109,
+        "duration": 3.965
+    },
+    {
+        "text": "because eventually things are going to have to get to one.",
+        "start": 155.074,
+        "duration": 1.858
+    },
+    {
+        "text": "So if they get to one they're going to have to come from two,",
+        "start": 156.932,
+        "duration": 2.988
+    },
+    {
+        "text": "then they're going to have to come down from four,",
+        "start": 160.128,
+        "duration": 3.131
+    },
+    {
+        "text": "and so you can build this big tree.",
+        "start": 163.38,
+        "duration": 1.642
+    },
+    {
+        "text": "What you see with the tree is that you've got all these branches coming down like this,",
+        "start": 165.151,
+        "duration": 4.327
+    },
+    {
+        "text": "you know, and going into it.",
+        "start": 170.086,
+        "duration": 2.783
+    },
+    {
+        "text": "And normally when you see this done,",
+        "start": 172.956,
+        "duration": 2.021
+    },
+    {
+        "text": "they're done to try and maximize the sort of logic of how it's done,",
+        "start": 175.168,
+        "duration": 6.146
+    },
+    {
+        "text": "so the distance will be the same, they'll be done so it like kind of looks good on the page,",
+        "start": 181.419,
+        "duration": 4.97
+    },
+    {
+        "text": "and it looks like something in a math textbook.",
+        "start": 186.389,
+        "duration": 2.741
+    },
+    {
+        "text": "But actually what Edmund has done is to make it so it's...",
+        "start": 189.13,
+        "duration": 4.828
+    },
+    {
+        "text": "interesting to look at,",
+        "start": 194.782,
+        "duration": 1.242
+    },
+    {
+        "text": "but so that you get more of an insight about why this whole problem is interesting.",
+        "start": 196.222,
+        "duration": 3.548
+    },
+    {
+        "text": "Imagine if you start at the bottom,",
+        "start": 199.77,
+        "duration": 1.555
+    },
+    {
+        "text": "either we are going to go up to an odd number or an even number.",
+        "start": 201.603,
+        "duration": 3.231
+    },
+    {
+        "text": "If we're getting to an even number, it's going to slightly go off in that direction.",
+        "start": 204.834,
+        "duration": 4.581
+    },
+    {
+        "text": "If it's going to an odd number it's going slightly in that direction.",
+        "start": 210.17,
+        "duration": 3.141
+    },
+    {
+        "text": "-Clockwise or anti-clockwise.       -Yeah anti-clockwise for odd, and clockwise for even.",
+        "start": 213.311,
+        "duration": 5.339
+    },
+    {
+        "text": "And then you get - the tree becomes this.",
+        "start": 219.026,
+        "duration": 5.102
+    },
+    {
+        "text": "This is something already... startling to look a bit interesting.",
+        "start": 224.42,
+        "duration": 2.599
+    },
+    {
+        "text": "And then obviously we're not that interested in the individual numbers,",
+        "start": 227.335,
+        "duration": 2.574
+    },
+    {
+        "text": "we're interested in sort of the overall feel.",
+        "start": 229.909,
+        "duration": 2.045
+    },
+    {
+        "text": "He gets rid of the numbers,",
+        "start": 231.954,
+        "duration": 1.687
+    },
+    {
+        "text": "and sort of he just looked at the lines between them, how the lines relate,",
+        "start": 233.902,
+        "duration": 4.418
+    },
+    {
+        "text": "and sort of thickens the lines to make them look like branches,",
+        "start": 238.32,
+        "duration": 2.904
+    },
+    {
+        "text": "and then carried it on until he includes every number less than 10, 000.",
+        "start": 241.366,
+        "duration": 6.421
+    },
+    {
+        "text": "You end up with hundreds of branches,",
+        "start": 248.09,
+        "duration": 3.61
+    },
+    {
+        "text": "and then it looks like that.",
+        "start": 251.7,
+        "duration": 1.687
+    },
+    {
+        "text": "It is so messy.",
+        "start": 256.73,
+        "duration": 2.403
+    },
+    {
+        "text": "It's so disorderly.",
+        "start": 259.547,
+        "duration": 1.586
+    },
+    {
+        "text": "We've seen this incredibly simple thing:",
+        "start": 261.436,
+        "duration": 1.697
+    },
+    {
+        "text": "divided by 2 or multiply by 3, add 1, and then divided by 2.",
+        "start": 263.363,
+        "duration": 3.736
+    },
+    {
+        "text": "Who would have thought that you would get this thing here?",
+        "start": 267.349,
+        "duration": 2.859
+    },
+    {
+        "text": "But it looks organic.",
+        "start": 270.208,
+        "duration": 1.398
+    },
+    {
+        "text": "Brady you were saying it looks like something definitely floating at the bottom of the sea.",
+        "start": 271.645,
+        "duration": 3.113
+    },
+    {
+        "text": "So you've got two things going on there:",
+        "start": 274.838,
+        "duration": 1.488
+    },
+    {
+        "text": "you've got the nature of the growth, that you've also got the windiness of the waves.",
+        "start": 276.326,
+        "duration": 5.994
+    },
+    {
+        "text": "And to think that something so natural looking, something so organic,",
+        "start": 282.462,
+        "duration": 6.306
+    },
+    {
+        "text": "something so complicated, comes from something so simple,",
+        "start": 289.106,
+        "duration": 4.33
+    },
+    {
+        "text": "this to me is the best way to explain the kind of complicated nature of the Collatz Conjecture,",
+        "start": 293.61,
+        "duration": 6.623
+    },
+    {
+        "text": "because what it's doing is you're looking and you're thinking,",
+        "start": 300.233,
+        "duration": 2.16
+    },
+    {
+        "text": "oh my god that looks complicated,",
+        "start": 302.393,
+        "duration": 1.561
+    },
+    {
+        "text": "and you think, oh now I understand why no one's got a clue.",
+        "start": 303.954,
+        "duration": 3.388
+    },
+    {
+        "text": "If you've enjoyed this video and want to dig even deeper into the world of knowledge,",
+        "start": 322.299,
+        "duration": 4.4
+    },
+    {
+        "text": "why not check out the Great Courses Plus?",
+        "start": 326.758,
+        "duration": 2.661
+    },
+    {
+        "text": "They've got an extensive collection of videos presented by world experts in all sorts of fields",
+        "start": 329.551,
+        "duration": 5.506
+    },
+    {
+        "text": "from number theory to art history",
+        "start": 335.217,
+        "duration": 2.247
+    },
+    {
+        "text": "and that's a nice mixture of what you've just been watching here.",
+        "start": 337.464,
+        "duration": 2.362
+    },
+    {
+        "text": "You can even learn to read ancient Egyptian hieroglyphs",
+        "start": 339.975,
+        "duration": 3.193
+    },
+    {
+        "text": "and I'm bit of an Egypt nut, that's a topic that fascinates me somewhere.",
+        "start": 343.168,
+        "duration": 3.68
+    },
+    {
+        "text": "Unlimited access to the full catalogue of videos costs $14. 99 a month,",
+        "start": 346.949,
+        "duration": 4.873
+    },
+    {
+        "text": "but you can sign on for a month-long free trial to see just how good it is.",
+        "start": 352.034,
+        "duration": 4.595
+    },
+    {
+        "text": "Go to TheGreatCoursesPlus. com/numberphile to check them out.",
+        "start": 356.629,
+        "duration": 5.871
+    },
+    {
+        "text": "This is a great place to learn amazing stuff from professional teachers but at your own pace.",
+        "start": 362.601,
+        "duration": 5.051
+    },
+    {
+        "text": "You can use your TV, tablet, computer or phone.",
+        "start": 367.753,
+        "duration": 2.605
+    },
+    {
+        "text": "That's TheTreatCoursesPlus.com/numberphile,",
+        "start": 370.483,
+        "duration": 3.819
+    },
+    {
+        "text": "and now thanks to them for supporting this video.",
+        "start": 374.302,
+        "duration": 2.626
+    }
+]

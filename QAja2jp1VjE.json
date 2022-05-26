@@ -1,0 +1,647 @@
+[
+    {
+        "text": "If you ask real experts in probability",
+        "start": 0.0,
+        "duration": 2.56
+    },
+    {
+        "text": "they'll say this is not random because it's far too uniform, you know.",
+        "start": 2.56,
+        "duration": 4.56
+    },
+    {
+        "text": "Really, Poisson... That kind of thing would have more gaps and so forth.",
+        "start": 7.12,
+        "duration": 2.72
+    },
+    {
+        "text": "But it's random enough and what I'm about to show you",
+        "start": 10.06,
+        "duration": 3.06
+    },
+    {
+        "text": "works with any sufficiently random dots. OK.",
+        "start": 13.12,
+        "duration": 2.64
+    },
+    {
+        "text": "Now, I photocopied this on a transparency.",
+        "start": 16.26,
+        "duration": 3.3
+    },
+    {
+        "text": "The exact copy, I put one on top of the other.",
+        "start": 19.76,
+        "duration": 2.8
+    },
+    {
+        "text": "The result is this.",
+        "start": 22.84,
+        "duration": 1.2
+    },
+    {
+        "text": "Interestingly boring, shall I say, really amazingly boring.",
+        "start": 24.08,
+        "duration": 3.28
+    },
+    {
+        "text": "But now, let's shift the transparency against the bottom sheet a little bit",
+        "start": 27.48,
+        "duration": 4.24
+    },
+    {
+        "text": "and what you see is this.",
+        "start": 31.8,
+        "duration": 1.92
+    },
+    {
+        "text": "You see those concentric circles",
+        "start": 38.84,
+        "duration": 3.08
+    },
+    {
+        "text": "around a common center,",
+        "start": 42.48,
+        "duration": 2.14
+    },
+    {
+        "text": "and the reason, actually in retrospect, is not too surprising because",
+        "start": 44.62,
+        "duration": 3.94
+    },
+    {
+        "text": "whatever I'm doing to the transparency is a Euclidean motion",
+        "start": 48.56,
+        "duration": 3.2
+    },
+    {
+        "text": "and we know that a Euclidean motion in 2D is always a rotation.",
+        "start": 51.76,
+        "duration": 3.96
+    },
+    {
+        "text": "Actually it could be a translation, but a translation is a rotation with a center at  infinity.",
+        "start": 55.72,
+        "duration": 4.18
+    },
+    {
+        "text": "So it's always a rotation. So you see",
+        "start": 60.12,
+        "duration": 2.88
+    },
+    {
+        "text": "those traces of rotation, so to speak, under your eyes.",
+        "start": 63.0,
+        "duration": 3.56
+    },
+    {
+        "text": "What's happening is that the original random dots",
+        "start": 66.56,
+        "duration": 3.04
+    },
+    {
+        "text": "are displaced slightly",
+        "start": 69.68,
+        "duration": 1.6
+    },
+    {
+        "text": "and images are close enough to the original dots.",
+        "start": 71.86,
+        "duration": 3.82
+    },
+    {
+        "text": "And when you have a situation like that, human eyes cannot help connecting the dots.",
+        "start": 75.96,
+        "duration": 4.1
+    },
+    {
+        "text": "The dots are connected and you see those small segments in your eyes",
+        "start": 80.06,
+        "duration": 3.48
+    },
+    {
+        "text": "and then you see those trajectories of the rotation",
+        "start": 83.54,
+        "duration": 2.84
+    },
+    {
+        "text": "that are concentric circles.",
+        "start": 86.4,
+        "duration": 1.62
+    },
+    {
+        "text": "So, if you rotate them too far,",
+        "start": 88.36,
+        "duration": 1.92
+    },
+    {
+        "text": "the images and the originals get too far",
+        "start": 90.28,
+        "duration": 2.8
+    },
+    {
+        "text": "and they lose all correlation and you don't see anything.",
+        "start": 93.08,
+        "duration": 3.52
+    },
+    {
+        "text": "Now, let's suppose that for example this common center of all the concentric circle is too high",
+        "start": 96.82,
+        "duration": 4.68
+    },
+    {
+        "text": "and you don't want it to be too high,",
+        "start": 101.5,
+        "duration": 2.14
+    },
+    {
+        "text": "you want to bring it back to the center.",
+        "start": 103.64,
+        "duration": 1.86
+    },
+    {
+        "text": "So when I first tried this I naturally shifted the transparency",
+        "start": 105.5,
+        "duration": 4.66
+    },
+    {
+        "text": "in the direction that I want to move the center,",
+        "start": 110.22,
+        "duration": 1.78
+    },
+    {
+        "text": "but watch what happens when I do this.",
+        "start": 112.0,
+        "duration": 1.0
+    },
+    {
+        "text": "I'm going to move it up and down in this direction.",
+        "start": 113.3,
+        "duration": 2.06
+    },
+    {
+        "text": "The center moves sideways, horizontally!",
+        "start": 117.88,
+        "duration": 2.88
+    },
+    {
+        "text": "And when I move the transparency sideways, it goes up and down.",
+        "start": 120.8,
+        "duration": 4.16
+    },
+    {
+        "text": "So the motion of the center is always perpendicular",
+        "start": 125.56,
+        "duration": 3.44
+    },
+    {
+        "text": "to the direction in which I'm moving the transparency, that's really strange.",
+        "start": 129.0,
+        "duration": 4.12
+    },
+    {
+        "text": "Now, once you notice this you can actually figure out what's happening by calculation.",
+        "start": 133.22,
+        "duration": 5.18
+    },
+    {
+        "text": "So let's say this is a line and that's another line,",
+        "start": 138.4,
+        "duration": 2.88
+    },
+    {
+        "text": "and one has been rotated into another, so that's the center of rotation.",
+        "start": 141.28,
+        "duration": 3.94
+    },
+    {
+        "text": "That's where they intersect, so to speak.",
+        "start": 145.22,
+        "duration": 1.58
+    },
+    {
+        "text": "Now, let's say that I move the image sideways",
+        "start": 146.88,
+        "duration": 4.5
+    },
+    {
+        "text": "and you can see that the point of intersection actually goes up and down",
+        "start": 151.7,
+        "duration": 3.46
+    },
+    {
+        "text": "like that.",
+        "start": 155.54,
+        "duration": 1.18
+    },
+    {
+        "text": "So, although I'm moving the knife horizontally,",
+        "start": 157.5,
+        "duration": 4.14
+    },
+    {
+        "text": "the intersection point is going up and down vertically.",
+        "start": 161.66,
+        "duration": 3.44
+    },
+    {
+        "text": "So that's more or less why if you move the transparency horizontally the center goes vertically",
+        "start": 165.1,
+        "duration": 5.48
+    },
+    {
+        "text": "and if you move it vertically it goes horizontally.",
+        "start": 170.62,
+        "duration": 2.18
+    },
+    {
+        "text": "Next, I'm going to show you another example.",
+        "start": 172.8,
+        "duration": 3.38
+    },
+    {
+        "text": "This is the same picture as the previous one, but only shrunk a little bit.",
+        "start": 176.18,
+        "duration": 4.62
+    },
+    {
+        "text": "I went to the photocopier and hit the shrink button.",
+        "start": 180.8,
+        "duration": 3.22
+    },
+    {
+        "text": "It shouldn't be shrunk too much, maybe this is 96% of the original",
+        "start": 184.2,
+        "duration": 4.64
+    },
+    {
+        "text": "because if you shrink it too much, again, you lose the correlation and you don't see anything.",
+        "start": 188.84,
+        "duration": 3.76
+    },
+    {
+        "text": "But this time, what you see is this.",
+        "start": 192.84,
+        "duration": 3.06
+    },
+    {
+        "text": "You see those spirals.",
+        "start": 196.24,
+        "duration": 2.52
+    },
+    {
+        "text": "And of course you see those spirals, because in addition to the rotation that's present from the previous one,",
+        "start": 198.76,
+        "duration": 5.46
+    },
+    {
+        "text": "you rescaled the whole thing",
+        "start": 204.22,
+        "duration": 1.54
+    },
+    {
+        "text": "so you have this radial shrinking",
+        "start": 205.76,
+        "duration": 2.96
+    },
+    {
+        "text": "and if I now adjust the rotation so it gets rid of the rotational component",
+        "start": 208.72,
+        "duration": 5.5
+    },
+    {
+        "text": "and make it pure translation then you get this radial pattern.",
+        "start": 214.22,
+        "duration": 4.42
+    },
+    {
+        "text": "OK, so that was the random end of the experiment.",
+        "start": 218.64,
+        "duration": 3.64
+    },
+    {
+        "text": "Let's try the other end, which is the regular end of the spectrum.",
+        "start": 222.32,
+        "duration": 4.8
+    },
+    {
+        "text": "And we'll begin by seeing something that is very classical.",
+        "start": 227.18,
+        "duration": 3.96
+    },
+    {
+        "text": "This kind of thing makes you seasick.",
+        "start": 231.18,
+        "duration": 2.34
+    },
+    {
+        "text": "Square lattice, and I took an exact photocopy of this on the transparency,",
+        "start": 234.2,
+        "duration": 6.16
+    },
+    {
+        "text": "and if I put one on top of the other,",
+        "start": 240.36,
+        "duration": 2.04
+    },
+    {
+        "text": "you get something completely black.",
+        "start": 242.4,
+        "duration": 2.12
+    },
+    {
+        "text": "Now, nothing interesting is happening. Let's start rotating this.",
+        "start": 244.52,
+        "duration": 3.66
+    },
+    {
+        "text": "When I rotate this:",
+        "start": 248.2,
+        "duration": 1.92
+    },
+    {
+        "text": "some ghost-like sorts of shades appear",
+        "start": 250.36,
+        "duration": 2.96
+    },
+    {
+        "text": "and resolve into, resolving to,",
+        "start": 253.76,
+        "duration": 3.18
+    },
+    {
+        "text": "this beautiful pattern of square lattice",
+        "start": 257.26,
+        "duration": 3.3
+    },
+    {
+        "text": "but at 45 degrees to the original one.",
+        "start": 260.56,
+        "duration": 2.36
+    },
+    {
+        "text": "And, as I keep rotating, it resolves into a smaller and smaller pattern",
+        "start": 263.18,
+        "duration": 5.48
+    },
+    {
+        "text": "and at 45 degrees it becomes the smallest,",
+        "start": 268.96,
+        "duration": 4.46
+    },
+    {
+        "text": "and around that point you see there's some kind of wave that comes in and out, that's quite curious.",
+        "start": 273.42,
+        "duration": 5.04
+    },
+    {
+        "text": "and then when I keep spinning,",
+        "start": 278.6,
+        "duration": 2.72
+    },
+    {
+        "text": "eventually, this pattern becomes larger and larger,",
+        "start": 282.2,
+        "duration": 3.68
+    },
+    {
+        "text": "comes back out at us, again,",
+        "start": 285.96,
+        "duration": 3.2
+    },
+    {
+        "text": "45 degrees and then the scale diverges",
+        "start": 289.26,
+        "duration": 3.8
+    },
+    {
+        "text": "and it becomes a blur and keeps going and so on,",
+        "start": 293.06,
+        "duration": 2.96
+    },
+    {
+        "text": "and I have rotated by 90 degrees, because that's the period, if you like.",
+        "start": 296.02,
+        "duration": 3.58
+    },
+    {
+        "text": "This is called a moiré pattern, which is quite well known.",
+        "start": 299.6,
+        "duration": 3.0
+    },
+    {
+        "text": "You can do the same thing with another kind of lattice;",
+        "start": 302.6,
+        "duration": 2.9
+    },
+    {
+        "text": "this is lots and lots of equilateral triangles that have been put together",
+        "start": 305.5,
+        "duration": 3.3
+    },
+    {
+        "text": "and colored in an automated fashion black and white.",
+        "start": 308.8,
+        "duration": 2.82
+    },
+    {
+        "text": "And if I put the photocopy of this on top, again you see nothing.",
+        "start": 311.62,
+        "duration": 4.28
+    },
+    {
+        "text": "Now, let's start rotating this.",
+        "start": 315.9,
+        "duration": 1.8
+    },
+    {
+        "text": "You again see the moiré pattern:",
+        "start": 317.7,
+        "duration": 1.8
+    },
+    {
+        "text": "a ghost comes in and then resolves into this kind of thing.",
+        "start": 319.56,
+        "duration": 3.44
+    },
+    {
+        "text": "I think at this stage, most people see black walls",
+        "start": 323.0,
+        "duration": 3.74
+    },
+    {
+        "text": "partitioning the plane into white triangles.",
+        "start": 326.74,
+        "duration": 3.12
+    },
+    {
+        "text": "Black walls and white triangles. OK.",
+        "start": 329.86,
+        "duration": 2.74
+    },
+    {
+        "text": "Let's keep rotating.",
+        "start": 332.62,
+        "duration": 2.22
+    },
+    {
+        "text": "These triangles become smaller and smaller,",
+        "start": 334.84,
+        "duration": 2.62
+    },
+    {
+        "text": "and they kind of go away and resolve into the smallest scale,",
+        "start": 337.5,
+        "duration": 3.98
+    },
+    {
+        "text": "and then, if I keep rotating, these come back.",
+        "start": 341.66,
+        "duration": 4.6
+    },
+    {
+        "text": "But when they come back at us,",
+        "start": 346.38,
+        "duration": 2.36
+    },
+    {
+        "text": "what comes back is not what went out!",
+        "start": 348.78,
+        "duration": 3.16
+    },
+    {
+        "text": "Many people at this stage see hexagons,",
+        "start": 351.94,
+        "duration": 3.58
+    },
+    {
+        "text": "but you can probably be convinced that these are white walls",
+        "start": 355.52,
+        "duration": 4.66
+    },
+    {
+        "text": "dividing the plane into black triangles, I don't know if you can see this.",
+        "start": 360.18,
+        "duration": 4.08
+    },
+    {
+        "text": "And so what comes back is dual to what went out.",
+        "start": 364.28,
+        "duration": 4.74
+    },
+    {
+        "text": "What went out was black walls dividing the plane into white triangles",
+        "start": 369.02,
+        "duration": 2.98
+    },
+    {
+        "text": "but what came back is white walls dividing the plane into black triangles.",
+        "start": 372.0,
+        "duration": 4.04
+    },
+    {
+        "text": "And then it becomes a blur.",
+        "start": 376.04,
+        "duration": 3.02
+    },
+    {
+        "text": "And if I keep rotating, you get back",
+        "start": 379.06,
+        "duration": 4.46
+    },
+    {
+        "text": "what has just disappeared into infinity,",
+        "start": 383.52,
+        "duration": 2.3
+    },
+    {
+        "text": "and then if you keep rotating further",
+        "start": 385.84,
+        "duration": 2.66
+    },
+    {
+        "text": "you again get triangles and hexagons",
+        "start": 388.5,
+        "duration": 2.5
+    },
+    {
+        "text": "and smaller and smaller scale and eventually",
+        "start": 391.0,
+        "duration": 3.72
+    },
+    {
+        "text": "the pattern starts coming back.",
+        "start": 394.72,
+        "duration": 2.08
+    },
+    {
+        "text": "But what comes back is what had gone out in the first place,",
+        "start": 396.8,
+        "duration": 3.2
+    },
+    {
+        "text": "that is, black walls with white triangles,",
+        "start": 400.0,
+        "duration": 2.58
+    },
+    {
+        "text": "and then it becomes a blur and by the time I have completed the cycle",
+        "start": 402.58,
+        "duration": 3.42
+    },
+    {
+        "text": "I have rotated it by 120 degrees, which is the angle's symmetry.",
+        "start": 406.0,
+        "duration": 3.16
+    },
+    {
+        "text": "But within this single period",
+        "start": 409.16,
+        "duration": 2.46
+    },
+    {
+        "text": "it turns out that you have two sub-periods",
+        "start": 411.62,
+        "duration": 2.22
+    },
+    {
+        "text": "and those two sub-periods are dual to each other: what goes out and what comes back",
+        "start": 413.84,
+        "duration": 4.18
+    },
+    {
+        "text": "are sort of complimentary to each other so that's quite curious.",
+        "start": 418.02,
+        "duration": 3.06
+    },
+    {
+        "text": "Numberphile is brought to you by the Mathematical Science Research Institute, MSRI.",
+        "start": 421.08,
+        "duration": 5.16
+    },
+    {
+        "text": "That's the building behind me there.",
+        "start": 426.24,
+        "duration": 1.76
+    },
+    {
+        "text": "This is a place where many of the world's top mathematicians",
+        "start": 428.0,
+        "duration": 3.0
+    },
+    {
+        "text": "come together for sometimes a semester at a time",
+        "start": 431.0,
+        "duration": 3.24
+    },
+    {
+        "text": "cracking some of the hardest problems in mathematics.",
+        "start": 434.24,
+        "duration": 2.76
+    },
+    {
+        "text": "If you'd like to find out more, I've put some links in the description under the video.",
+        "start": 437.0,
+        "duration": 4.64
+    }
+]

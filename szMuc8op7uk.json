@@ -1,0 +1,1147 @@
+[
+    {
+        "text": "hey everyone a local Sears store was",
+        "start": 0.199,
+        "duration": 4.901
+    },
+    {
+        "text": "going out of business and had one of",
+        "start": 3.6,
+        "duration": 3.87
+    },
+    {
+        "text": "these infrared thermometers marked down",
+        "start": 5.1,
+        "duration": 4.74
+    },
+    {
+        "text": "to 30 bucks so I've kind of been wanting",
+        "start": 7.47,
+        "duration": 3.839
+    },
+    {
+        "text": "to take one of these apart for a while",
+        "start": 9.84,
+        "duration": 4.65
+    },
+    {
+        "text": "just to see exactly what kind of sensor",
+        "start": 11.309,
+        "duration": 5.581
+    },
+    {
+        "text": "they use so let's hack into this thing",
+        "start": 14.49,
+        "duration": 3.869
+    },
+    {
+        "text": "I've actually already kind of taken it",
+        "start": 16.89,
+        "duration": 2.04
+    },
+    {
+        "text": "apart",
+        "start": 18.359,
+        "duration": 4.59
+    },
+    {
+        "text": "it's an egg's tech model ir 250 and it's",
+        "start": 18.93,
+        "duration": 6.66
+    },
+    {
+        "text": "actually built pretty well a pretty",
+        "start": 22.949,
+        "duration": 5.16
+    },
+    {
+        "text": "solid case it's all snapped together the",
+        "start": 25.59,
+        "duration": 4.47
+    },
+    {
+        "text": "case itself didn't use any fasteners it",
+        "start": 28.109,
+        "duration": 4.801
+    },
+    {
+        "text": "was just plastic clips but it all held",
+        "start": 30.06,
+        "duration": 5.61
+    },
+    {
+        "text": "together pretty well this model has a",
+        "start": 32.91,
+        "duration": 6.57
+    },
+    {
+        "text": "laser pointer on the top and it's still",
+        "start": 35.67,
+        "duration": 5.49
+    },
+    {
+        "text": "should be working yes there's a reading",
+        "start": 39.48,
+        "duration": 8.43
+    },
+    {
+        "text": "there and pretty responsive so let's",
+        "start": 41.16,
+        "duration": 13.5
+    },
+    {
+        "text": "take out the circuit board this all had",
+        "start": 47.91,
+        "duration": 8.129
+    },
+    {
+        "text": "these head screws holding this together",
+        "start": 54.66,
+        "duration": 3.27
+    },
+    {
+        "text": "which I didn't bother putting back and",
+        "start": 56.039,
+        "duration": 5.79
+    },
+    {
+        "text": "there's the actual sensor so let's zoom",
+        "start": 57.93,
+        "duration": 8.34
+    },
+    {
+        "text": "in on that and get a closer look okay so",
+        "start": 61.829,
+        "duration": 6.031
+    },
+    {
+        "text": "here's a look at one side of the board",
+        "start": 66.27,
+        "duration": 5.13
+    },
+    {
+        "text": "you got the trigger switch here this is",
+        "start": 67.86,
+        "duration": 7.56
+    },
+    {
+        "text": "an atmel a EEPROM voltage regulator here",
+        "start": 71.4,
+        "duration": 6.6
+    },
+    {
+        "text": "some discrete transistors I believe",
+        "start": 75.42,
+        "duration": 4.559
+    },
+    {
+        "text": "these turn on and off the laser and the",
+        "start": 78.0,
+        "duration": 5.67
+    },
+    {
+        "text": "backlight and the actual sensor itself",
+        "start": 79.979,
+        "duration": 6.271
+    },
+    {
+        "text": "this is a full analog part some of these",
+        "start": 83.67,
+        "duration": 4.17
+    },
+    {
+        "text": "sensors actually have digital",
+        "start": 86.25,
+        "duration": 4.35
+    },
+    {
+        "text": "conditioning circuitry in them and they",
+        "start": 87.84,
+        "duration": 5.4
+    },
+    {
+        "text": "can be queried for data over a digital",
+        "start": 90.6,
+        "duration": 5.07
+    },
+    {
+        "text": "serial line but this one is actually",
+        "start": 93.24,
+        "duration": 5.519
+    },
+    {
+        "text": "full analog the only number on it is 31",
+        "start": 95.67,
+        "duration": 6.059
+    },
+    {
+        "text": "61 which I you know spent a long time",
+        "start": 98.759,
+        "duration": 4.621
+    },
+    {
+        "text": "searching for on the internet and",
+        "start": 101.729,
+        "duration": 4.53
+    },
+    {
+        "text": "eventually found out it is a PerkinElmer",
+        "start": 103.38,
+        "duration": 11.839
+    },
+    {
+        "text": "part and the actual part number is th614",
+        "start": 106.259,
+        "duration": 11.07
+    },
+    {
+        "text": "something I don't know but it basically",
+        "start": 115.219,
+        "duration": 4.451
+    },
+    {
+        "text": "is the same part and it has a little",
+        "start": 117.329,
+        "duration": 5.461
+    },
+    {
+        "text": "window here to prevent visible light",
+        "start": 119.67,
+        "duration": 5.22
+    },
+    {
+        "text": "from getting in there so the window is",
+        "start": 122.79,
+        "duration": 4.5
+    },
+    {
+        "text": "silicon or germanium or something so",
+        "start": 124.89,
+        "duration": 4.2
+    },
+    {
+        "text": "that only long-wave infrared can get",
+        "start": 127.29,
+        "duration": 5.04
+    },
+    {
+        "text": "inside there now the cut the type of",
+        "start": 129.09,
+        "duration": 4.56
+    },
+    {
+        "text": "signal that the",
+        "start": 132.33,
+        "duration": 3.68
+    },
+    {
+        "text": "part produces is a really really low",
+        "start": 133.65,
+        "duration": 6.0
+    },
+    {
+        "text": "voltage level it has four pins one pin",
+        "start": 136.01,
+        "duration": 7.589
+    },
+    {
+        "text": "is ground one pin is a thermo a",
+        "start": 139.65,
+        "duration": 6.3
+    },
+    {
+        "text": "thermistor the inside there there's also",
+        "start": 143.599,
+        "duration": 4.81
+    },
+    {
+        "text": "a plain old thermistor and the other two",
+        "start": 145.95,
+        "duration": 4.94
+    },
+    {
+        "text": "pins are the output from the thermo-pile",
+        "start": 148.409,
+        "duration": 5.91
+    },
+    {
+        "text": "which is measured in micro volts I think",
+        "start": 150.89,
+        "duration": 5.17
+    },
+    {
+        "text": "the full scale range on that is like one",
+        "start": 154.319,
+        "duration": 2.941
+    },
+    {
+        "text": "or two millivolts",
+        "start": 156.06,
+        "duration": 3.899
+    },
+    {
+        "text": "so after realizing that this thing only",
+        "start": 157.26,
+        "duration": 4.589
+    },
+    {
+        "text": "outputs a signal of 1 millivolt I",
+        "start": 159.959,
+        "duration": 3.48
+    },
+    {
+        "text": "started looking around on this board for",
+        "start": 161.849,
+        "duration": 3.961
+    },
+    {
+        "text": "an op-amp because you need something to",
+        "start": 163.439,
+        "duration": 5.011
+    },
+    {
+        "text": "amplify that signal so let me turn it",
+        "start": 165.81,
+        "duration": 6.509
+    },
+    {
+        "text": "over and I'll unscrew the display here",
+        "start": 168.45,
+        "duration": 5.159
+    },
+    {
+        "text": "so that we can see what's on the other",
+        "start": 172.319,
+        "duration": 5.131
+    },
+    {
+        "text": "side of the board ok so the LCD lifts",
+        "start": 173.609,
+        "duration": 7.02
+    },
+    {
+        "text": "off and there's one of these I think I",
+        "start": 177.45,
+        "duration": 5.129
+    },
+    {
+        "text": "called zebra stripe or some kind of a",
+        "start": 180.629,
+        "duration": 4.14
+    },
+    {
+        "text": "conductive it's basically like a polymer",
+        "start": 182.579,
+        "duration": 3.78
+    },
+    {
+        "text": "with a bunch of conductive bands to",
+        "start": 184.769,
+        "duration": 5.071
+    },
+    {
+        "text": "connect the LCD up surprisingly there is",
+        "start": 186.359,
+        "duration": 6.66
+    },
+    {
+        "text": "no discrete of op-amp on here there's a",
+        "start": 189.84,
+        "duration": 5.429
+    },
+    {
+        "text": "chip hiding under this blob of potting",
+        "start": 193.019,
+        "duration": 4.53
+    },
+    {
+        "text": "material which I assume has to be a",
+        "start": 195.269,
+        "duration": 4.44
+    },
+    {
+        "text": "micro controller which is which is",
+        "start": 197.549,
+        "duration": 5.91
+    },
+    {
+        "text": "interfacing with the eee prom over here",
+        "start": 199.709,
+        "duration": 6.81
+    },
+    {
+        "text": "but yeah what's the deal with no op-amp",
+        "start": 203.459,
+        "duration": 4.771
+    },
+    {
+        "text": "so I'm guessing that they have a",
+        "start": 206.519,
+        "duration": 4.14
+    },
+    {
+        "text": "specialized chip in here that has analog",
+        "start": 208.23,
+        "duration": 4.56
+    },
+    {
+        "text": "front-end circuitry on it in addition to",
+        "start": 210.659,
+        "duration": 5.64
+    },
+    {
+        "text": "microcontroller or it could be two",
+        "start": 212.79,
+        "duration": 5.61
+    },
+    {
+        "text": "actual dies on here but that I don't",
+        "start": 216.299,
+        "duration": 3.511
+    },
+    {
+        "text": "think so there's probably just one under",
+        "start": 218.4,
+        "duration": 4.769
+    },
+    {
+        "text": "here you'll also notice they very nicely",
+        "start": 219.81,
+        "duration": 6.179
+    },
+    {
+        "text": "labeled this little header connector",
+        "start": 223.169,
+        "duration": 5.19
+    },
+    {
+        "text": "here and also labeled this top think ow",
+        "start": 225.989,
+        "duration": 5.791
+    },
+    {
+        "text": "I've played with some of these pins and",
+        "start": 228.359,
+        "duration": 5.431
+    },
+    {
+        "text": "they're actually not that exciting the",
+        "start": 231.78,
+        "duration": 3.69
+    },
+    {
+        "text": "pins in here you know it's got ground",
+        "start": 233.79,
+        "duration": 4.199
+    },
+    {
+        "text": "and voltage and a reset probably for the",
+        "start": 235.47,
+        "duration": 4.5
+    },
+    {
+        "text": "microcontroller and these other pins",
+        "start": 237.989,
+        "duration": 4.86
+    },
+    {
+        "text": "just monitor the like whether the",
+        "start": 239.97,
+        "duration": 5.519
+    },
+    {
+        "text": "trigger switches down or up or whether",
+        "start": 242.849,
+        "duration": 4.53
+    },
+    {
+        "text": "the buttons over here are down er up I",
+        "start": 245.489,
+        "duration": 3.301
+    },
+    {
+        "text": "didn't really see very much exciting",
+        "start": 247.379,
+        "duration": 5.371
+    },
+    {
+        "text": "going on in there so my ultimate goal",
+        "start": 248.79,
+        "duration": 6.36
+    },
+    {
+        "text": "here taking us apart was to see if I",
+        "start": 252.75,
+        "duration": 5.28
+    },
+    {
+        "text": "could use this sensor and hopefully the",
+        "start": 255.15,
+        "duration": 4.92
+    },
+    {
+        "text": "analog conditioning circuitry in here to",
+        "start": 258.03,
+        "duration": 3.87
+    },
+    {
+        "text": "make my own temperature measurements or",
+        "start": 260.07,
+        "duration": 4.02
+    },
+    {
+        "text": "to get an analogue a usable analog",
+        "start": 261.9,
+        "duration": 5.58
+    },
+    {
+        "text": "signal out my ultimate goal is to",
+        "start": 264.09,
+        "duration": 6.24
+    },
+    {
+        "text": "build a infrared imaging device maybe",
+        "start": 267.48,
+        "duration": 5.43
+    },
+    {
+        "text": "just by scanning the the scene one pixel",
+        "start": 270.33,
+        "duration": 4.68
+    },
+    {
+        "text": "at a time using this this one pixel",
+        "start": 272.91,
+        "duration": 6.21
+    },
+    {
+        "text": "sensor unfortunately it seems that",
+        "start": 275.01,
+        "duration": 5.91
+    },
+    {
+        "text": "there's no point on this board where I",
+        "start": 279.12,
+        "duration": 5.01
+    },
+    {
+        "text": "have access to a decent analog signal",
+        "start": 280.92,
+        "duration": 5.31
+    },
+    {
+        "text": "since all the signal processing is",
+        "start": 284.13,
+        "duration": 5.97
+    },
+    {
+        "text": "happening inside here I know I probed",
+        "start": 286.23,
+        "duration": 5.34
+    },
+    {
+        "text": "around on the board and didn't really",
+        "start": 290.1,
+        "duration": 4.05
+    },
+    {
+        "text": "find anything analog or digital that I",
+        "start": 291.57,
+        "duration": 4.32
+    },
+    {
+        "text": "could actually kind of harvest I suppose",
+        "start": 294.15,
+        "duration": 4.53
+    },
+    {
+        "text": "I could you know read the LCD pins but",
+        "start": 295.89,
+        "duration": 4.29
+    },
+    {
+        "text": "that that's not I mean I'm not going to",
+        "start": 298.68,
+        "duration": 4.5
+    },
+    {
+        "text": "do that so the plan now is to desolder",
+        "start": 300.18,
+        "duration": 6.03
+    },
+    {
+        "text": "this from the board and hook it up to an",
+        "start": 303.18,
+        "duration": 5.22
+    },
+    {
+        "text": "analog devices amplifier I found an app",
+        "start": 306.21,
+        "duration": 6.24
+    },
+    {
+        "text": "note on the web and using a very very",
+        "start": 308.4,
+        "duration": 7.83
+    },
+    {
+        "text": "low DC offset chopper type op-amp yeah",
+        "start": 312.45,
+        "duration": 5.61
+    },
+    {
+        "text": "you can amplify that millivolt signal",
+        "start": 316.23,
+        "duration": 4.23
+    },
+    {
+        "text": "from the sensor here and turn it into",
+        "start": 318.06,
+        "duration": 3.99
+    },
+    {
+        "text": "something you know like a couple volts",
+        "start": 320.46,
+        "duration": 3.24
+    },
+    {
+        "text": "so that you can actually digitize it and",
+        "start": 322.05,
+        "duration": 7.82
+    },
+    {
+        "text": "then store it inside here there is a",
+        "start": 323.7,
+        "duration": 10.5
+    },
+    {
+        "text": "polyethylene lens it's a friend L lens",
+        "start": 329.87,
+        "duration": 7.12
+    },
+    {
+        "text": "and this is what determines how small",
+        "start": 334.2,
+        "duration": 4.77
+    },
+    {
+        "text": "the spot size is that this thermometer",
+        "start": 336.99,
+        "duration": 4.77
+    },
+    {
+        "text": "measures so this thermometer is a",
+        "start": 338.97,
+        "duration": 6.33
+    },
+    {
+        "text": "so-called six to one meaning that the",
+        "start": 341.76,
+        "duration": 5.52
+    },
+    {
+        "text": "the target size is six times smaller",
+        "start": 345.3,
+        "duration": 4.56
+    },
+    {
+        "text": "than the distance from the thermometer",
+        "start": 347.28,
+        "duration": 4.68
+    },
+    {
+        "text": "the more expensive thermometers like",
+        "start": 349.86,
+        "duration": 8.42
+    },
+    {
+        "text": "this one this is a twenty to one and",
+        "start": 351.96,
+        "duration": 8.76
+    },
+    {
+        "text": "what makes it a twenty to one is a",
+        "start": 358.28,
+        "duration": 4.63
+    },
+    {
+        "text": "silicon or germanium lens that you can",
+        "start": 360.72,
+        "duration": 4.29
+    },
+    {
+        "text": "see in there and the silicon or",
+        "start": 362.91,
+        "duration": 3.9
+    },
+    {
+        "text": "germanium produces a much higher quality",
+        "start": 365.01,
+        "duration": 5.22
+    },
+    {
+        "text": "lens that has a longer focal length but",
+        "start": 366.81,
+        "duration": 5.13
+    },
+    {
+        "text": "it also costs more which is the",
+        "start": 370.23,
+        "duration": 4.14
+    },
+    {
+        "text": "trade-off here's a much larger germanium",
+        "start": 371.94,
+        "duration": 5.37
+    },
+    {
+        "text": "lens from my previous thermal imaging",
+        "start": 374.37,
+        "duration": 7.05
+    },
+    {
+        "text": "experiments so I guess I'll talk a",
+        "start": 377.31,
+        "duration": 6.21
+    },
+    {
+        "text": "little bit about how some people have",
+        "start": 381.42,
+        "duration": 3.72
+    },
+    {
+        "text": "approached the problem of doing low cost",
+        "start": 383.52,
+        "duration": 5.07
+    },
+    {
+        "text": "thermal imaging one person built a",
+        "start": 385.14,
+        "duration": 6.87
+    },
+    {
+        "text": "physical scanner and mounted this one",
+        "start": 388.59,
+        "duration": 6.66
+    },
+    {
+        "text": "pixel thermal sensor like on it on an XY",
+        "start": 392.01,
+        "duration": 7.05
+    },
+    {
+        "text": "servo platform and then scanned the",
+        "start": 395.25,
+        "duration": 5.999
+    },
+    {
+        "text": "image physically you know pixel by",
+        "start": 399.06,
+        "duration": 5.129
+    },
+    {
+        "text": "pixal and that's cool I think the scan",
+        "start": 401.249,
+        "duration": 4.35
+    },
+    {
+        "text": "time was like a couple minutes or",
+        "start": 404.189,
+        "duration": 3.18
+    },
+    {
+        "text": "something like that so I'm hoping to",
+        "start": 405.599,
+        "duration": 4.26
+    },
+    {
+        "text": "improve on that a little bit one way to",
+        "start": 407.369,
+        "duration": 4.2
+    },
+    {
+        "text": "do it would be to not scan the whole",
+        "start": 409.859,
+        "duration": 6.42
+    },
+    {
+        "text": "device but just to put a a pair of",
+        "start": 411.569,
+        "duration": 6.75
+    },
+    {
+        "text": "mirrors on galvanometers and then spin",
+        "start": 416.279,
+        "duration": 3.63
+    },
+    {
+        "text": "those around so that the whole device",
+        "start": 418.319,
+        "duration": 3.24
+    },
+    {
+        "text": "doesn't have to move just just the light",
+        "start": 419.909,
+        "duration": 6.54
+    },
+    {
+        "text": "path or infrared path another idea I had",
+        "start": 421.559,
+        "duration": 8.28
+    },
+    {
+        "text": "was to use a digital mirror device from",
+        "start": 426.449,
+        "duration": 6.84
+    },
+    {
+        "text": "a DLP projector and use that to scan",
+        "start": 429.839,
+        "duration": 5.28
+    },
+    {
+        "text": "across instead of actually physically",
+        "start": 433.289,
+        "duration": 4.41
+    },
+    {
+        "text": "moving something I thought that it might",
+        "start": 435.119,
+        "duration": 5.991
+    },
+    {
+        "text": "be faster to to use a DMD and the other",
+        "start": 437.699,
+        "duration": 6.84
+    },
+    {
+        "text": "benefit is that we could change the scan",
+        "start": 441.11,
+        "duration": 5.5
+    },
+    {
+        "text": "pattern in the pixel size by turning off",
+        "start": 444.539,
+        "duration": 6.03
+    },
+    {
+        "text": "more than one DMD at a time so it looks",
+        "start": 446.61,
+        "duration": 8.729
+    },
+    {
+        "text": "something like this if if the one pixel",
+        "start": 450.569,
+        "duration": 8.25
+    },
+    {
+        "text": "sensor is here this is that little IR",
+        "start": 455.339,
+        "duration": 9.03
+    },
+    {
+        "text": "window the sensor here and our DMD",
+        "start": 458.819,
+        "duration": 8.7
+    },
+    {
+        "text": "device would look like this and the lens",
+        "start": 464.369,
+        "duration": 6.991
+    },
+    {
+        "text": "would be here so incoming radiation goes",
+        "start": 467.519,
+        "duration": 6.75
+    },
+    {
+        "text": "through the lens gets focused down on to",
+        "start": 471.36,
+        "duration": 5.489
+    },
+    {
+        "text": "the DMD and then depending which pixel",
+        "start": 474.269,
+        "duration": 4.68
+    },
+    {
+        "text": "is selected on the DMD that would select",
+        "start": 476.849,
+        "duration": 3.84
+    },
+    {
+        "text": "which part of the image was being",
+        "start": 478.949,
+        "duration": 4.98
+    },
+    {
+        "text": "scanned so I thought that would be a",
+        "start": 480.689,
+        "duration": 5.671
+    },
+    {
+        "text": "pretty cool use of technology since you",
+        "start": 483.929,
+        "duration": 4.92
+    },
+    {
+        "text": "know we get to control a DMD and capture",
+        "start": 486.36,
+        "duration": 4.529
+    },
+    {
+        "text": "the pixels and all that stuff one",
+        "start": 488.849,
+        "duration": 3.81
+    },
+    {
+        "text": "problem is that the mirror size is about",
+        "start": 490.889,
+        "duration": 5.94
+    },
+    {
+        "text": "I think 1.0 16 microns I think for a lot",
+        "start": 492.659,
+        "duration": 7.11
+    },
+    {
+        "text": "of DMD s and the wavelength of light",
+        "start": 496.829,
+        "duration": 5.04
+    },
+    {
+        "text": "that we're changing here is about one",
+        "start": 499.769,
+        "duration": 3.93
+    },
+    {
+        "text": "micron so we're going to there's some",
+        "start": 501.869,
+        "duration": 3.75
+    },
+    {
+        "text": "problems there because the size of the",
+        "start": 503.699,
+        "duration": 3.75
+    },
+    {
+        "text": "optic is getting close to the wavelength",
+        "start": 505.619,
+        "duration": 5.1
+    },
+    {
+        "text": "at which were you know reflecting and",
+        "start": 507.449,
+        "duration": 5.851
+    },
+    {
+        "text": "that becomes a problem so I don't know",
+        "start": 510.719,
+        "duration": 4.35
+    },
+    {
+        "text": "about this but we'll keep the options",
+        "start": 513.3,
+        "duration": 4.229
+    },
+    {
+        "text": "open here by the way this is patented of",
+        "start": 515.069,
+        "duration": 4.89
+    },
+    {
+        "text": "course just like every other idea in the",
+        "start": 517.529,
+        "duration": 5.82
+    },
+    {
+        "text": "world there were a couple other ideas",
+        "start": 519.959,
+        "duration": 5.85
+    },
+    {
+        "text": "out there one company called redshift",
+        "start": 523.349,
+        "duration": 6.54
+    },
+    {
+        "text": "has made a a different kind of thermal",
+        "start": 525.809,
+        "duration": 7.171
+    },
+    {
+        "text": "imager that uses a tunable filter so",
+        "start": 529.889,
+        "duration": 5.281
+    },
+    {
+        "text": "this is a really thin film that",
+        "start": 532.98,
+        "duration": 4.109
+    },
+    {
+        "text": "changes its optical properties when it's",
+        "start": 535.17,
+        "duration": 5.099
+    },
+    {
+        "text": "temperature changes and the thin film",
+        "start": 537.089,
+        "duration": 6.661
+    },
+    {
+        "text": "can be extremely thin like you know many",
+        "start": 540.269,
+        "duration": 5.82
+    },
+    {
+        "text": "nanometers or less than one micron for",
+        "start": 543.75,
+        "duration": 4.95
+    },
+    {
+        "text": "sure and it can be suspended on little",
+        "start": 546.089,
+        "duration": 5.25
+    },
+    {
+        "text": "that the film can be cut up into pixels",
+        "start": 548.7,
+        "duration": 4.74
+    },
+    {
+        "text": "and each pixel can be thermally isolated",
+        "start": 551.339,
+        "duration": 6.06
+    },
+    {
+        "text": "from each other so that's that sounds",
+        "start": 553.44,
+        "duration": 7.07
+    },
+    {
+        "text": "pretty good I contacted this company and",
+        "start": 557.399,
+        "duration": 5.071
+    },
+    {
+        "text": "you know they're not doing anything",
+        "start": 560.51,
+        "duration": 3.97
+    },
+    {
+        "text": "they're not selling kits they're not",
+        "start": 562.47,
+        "duration": 4.38
+    },
+    {
+        "text": "selling you know actual completed parts",
+        "start": 564.48,
+        "duration": 3.99
+    },
+    {
+        "text": "or anything I have a feeling they were",
+        "start": 566.85,
+        "duration": 3.81
+    },
+    {
+        "text": "just getting off the ground when 2009",
+        "start": 568.47,
+        "duration": 4.169
+    },
+    {
+        "text": "hit and they basically just been dead in",
+        "start": 570.66,
+        "duration": 4.26
+    },
+    {
+        "text": "the water ever since as far as I know",
+        "start": 572.639,
+        "duration": 3.63
+    },
+    {
+        "text": "they're the only company that that",
+        "start": 574.92,
+        "duration": 4.07
+    },
+    {
+        "text": "claims this technology would work I",
+        "start": 576.269,
+        "duration": 4.771
+    },
+    {
+        "text": "don't know if it actually works or not",
+        "start": 578.99,
+        "duration": 3.399
+    },
+    {
+        "text": "like I say I haven't seen actually a",
+        "start": 581.04,
+        "duration": 5.76
+    },
+    {
+        "text": "demo kit the other another option was my",
+        "start": 582.389,
+        "duration": 7.2
+    },
+    {
+        "text": "idea of using a thermochromic paint or a",
+        "start": 586.8,
+        "duration": 5.159
+    },
+    {
+        "text": "liquid crystal paint on a really thin",
+        "start": 589.589,
+        "duration": 5.31
+    },
+    {
+        "text": "substrate like ten micron you know",
+        "start": 591.959,
+        "duration": 4.771
+    },
+    {
+        "text": "stretched plastic or something like that",
+        "start": 594.899,
+        "duration": 4.141
+    },
+    {
+        "text": "and that's I don't think that's ever",
+        "start": 596.73,
+        "duration": 3.96
+    },
+    {
+        "text": "going to work I think the problem is",
+        "start": 599.04,
+        "duration": 4.109
+    },
+    {
+        "text": "that there needs to be pixels for each",
+        "start": 600.69,
+        "duration": 4.23
+    },
+    {
+        "text": "for the for the image to really look",
+        "start": 603.149,
+        "duration": 4.111
+    },
+    {
+        "text": "good if it's a continuous film all the",
+        "start": 604.92,
+        "duration": 4.59
+    },
+    {
+        "text": "way across there's just too much thermal",
+        "start": 607.26,
+        "duration": 4.49
+    },
+    {
+        "text": "conduction between areas on the image",
+        "start": 609.51,
+        "duration": 6.62
+    },
+    {
+        "text": "alright see you later bye",
+        "start": 611.75,
+        "duration": 4.38
+    }
+]

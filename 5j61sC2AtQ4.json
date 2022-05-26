@@ -1,0 +1,292 @@
+[
+    {
+        "text": "How, exactly, do you teach a robot?",
+        "start": 1.17,
+        "duration": 3.04
+    },
+    {
+        "text": "Traditionally, to get a robot to do what you want",
+        "start": 4.21,
+        "duration": 2.67
+    },
+    {
+        "text": "requires programming--",
+        "start": 6.88,
+        "duration": 1.44
+    },
+    {
+        "text": "a list of tasks or rules to follow--",
+        "start": 8.32,
+        "duration": 2.4
+    },
+    {
+        "text": "which often means nuance",
+        "start": 10.72,
+        "duration": 1.58
+    },
+    {
+        "text": "and the unpredictable are left out.",
+        "start": 12.3,
+        "duration": 2.64
+    },
+    {
+        "text": "Or, in many AI systems, the robot learns from",
+        "start": 14.94,
+        "duration": 2.88
+    },
+    {
+        "text": "massive sets of training data.",
+        "start": 17.82,
+        "duration": 2.46
+    },
+    {
+        "text": "What if you could make a robot figure it out for itself,",
+        "start": 20.28,
+        "duration": 3.02
+    },
+    {
+        "text": "based on concepts and inference?",
+        "start": 23.3,
+        "duration": 2.82
+    },
+    {
+        "text": "Researchers have developed a new system",
+        "start": 26.12,
+        "duration": 1.94
+    },
+    {
+        "text": "for teaching robots concepts by presenting them",
+        "start": 28.06,
+        "duration": 2.74
+    },
+    {
+        "text": "a pair of images and having them figure out",
+        "start": 30.8,
+        "duration": 2.48
+    },
+    {
+        "text": "how to transform one to the other in real life.",
+        "start": 33.28,
+        "duration": 4.0
+    },
+    {
+        "text": "The goal is to introduce a method of learning",
+        "start": 37.28,
+        "duration": 1.82
+    },
+    {
+        "text": "used by humans all the time--learning by inference—",
+        "start": 39.1,
+        "duration": 3.62
+    },
+    {
+        "text": "like looking at the instructions",
+        "start": 42.72,
+        "duration": 1.4
+    },
+    {
+        "text": "for assembling an IKEA chair.",
+        "start": 44.12,
+        "duration": 2.5
+    },
+    {
+        "text": "Let’s take an easier example,",
+        "start": 46.62,
+        "duration": 2.06
+    },
+    {
+        "text": "these two images of apples - the input, on the left,",
+        "start": 48.68,
+        "duration": 3.2
+    },
+    {
+        "text": "and the output on the right.",
+        "start": 51.88,
+        "duration": 2.26
+    },
+    {
+        "text": "For us, it’s easy to see how the apples",
+        "start": 54.14,
+        "duration": 1.9
+    },
+    {
+        "text": "are reorganized by position and color.",
+        "start": 56.04,
+        "duration": 3.04
+    },
+    {
+        "text": "The trick here is to make a robot recognize",
+        "start": 59.08,
+        "duration": 2.24
+    },
+    {
+        "text": "the conceptual differences, plan the changes needed,",
+        "start": 61.34,
+        "duration": 3.16
+    },
+    {
+        "text": "and then act on that plan.",
+        "start": 64.5,
+        "duration": 2.72
+    },
+    {
+        "text": "Researchers experimented with two different robots,",
+        "start": 67.22,
+        "duration": 2.46
+    },
+    {
+        "text": "each equipped with a camera at the end of a gripper",
+        "start": 69.68,
+        "duration": 3.02
+    },
+    {
+        "text": "for manipulating different objects on a tabletop.",
+        "start": 72.7,
+        "duration": 3.64
+    },
+    {
+        "text": "They presented the robots with a pair of images -",
+        "start": 76.34,
+        "duration": 2.26
+    },
+    {
+        "text": "an input and an output -",
+        "start": 78.6,
+        "duration": 1.98
+    },
+    {
+        "text": "representing a concept.",
+        "start": 80.58,
+        "duration": 2.12
+    },
+    {
+        "text": "Each concept consisted of different shapes,",
+        "start": 82.7,
+        "duration": 2.02
+    },
+    {
+        "text": "colors, and positions, which are captured",
+        "start": 84.72,
+        "duration": 2.2
+    },
+    {
+        "text": "by the camera and then run through special software.",
+        "start": 86.94,
+        "duration": 3.5
+    },
+    {
+        "text": "It was then up to the robots to infer exactly how",
+        "start": 90.44,
+        "duration": 2.7
+    },
+    {
+        "text": "to rearrange the objects on the tabletop",
+        "start": 93.14,
+        "duration": 2.3
+    },
+    {
+        "text": "to match the output image in each concept.",
+        "start": 95.44,
+        "duration": 3.3
+    },
+    {
+        "text": "The robots achieved that by evaluating",
+        "start": 98.74,
+        "duration": 1.84
+    },
+    {
+        "text": "the different matchups in their imagination",
+        "start": 100.58,
+        "duration": 2.2
+    },
+    {
+        "text": "to arrive at a program that described the concept",
+        "start": 102.78,
+        "duration": 3.019
+    },
+    {
+        "text": "Researchers used a dataset of 546 different concepts",
+        "start": 105.8,
+        "duration": 3.4
+    },
+    {
+        "text": "to test the robots, and the robots",
+        "start": 109.2,
+        "duration": 1.93
+    },
+    {
+        "text": "successfully learned 535 of them.",
+        "start": 111.13,
+        "duration": 3.25
+    },
+    {
+        "text": "Researchers then tested 6 of these concepts",
+        "start": 114.38,
+        "duration": 2.14
+    },
+    {
+        "text": "with real-world variations in objects, backgrounds,",
+        "start": 116.52,
+        "duration": 2.84
+    },
+    {
+        "text": "and complexities.",
+        "start": 119.36,
+        "duration": 1.08
+    },
+    {
+        "text": "despite those variations, the robots were able to",
+        "start": 120.44,
+        "duration": 2.42
+    },
+    {
+        "text": "successfully execute the concepts",
+        "start": 122.86,
+        "duration": 2.34
+    },
+    {
+        "text": "They even found that they could teach the robots",
+        "start": 125.2,
+        "duration": 1.68
+    },
+    {
+        "text": "the steps needed by directing their",
+        "start": 126.88,
+        "duration": 1.84
+    },
+    {
+        "text": "attention with a pointer.",
+        "start": 128.72,
+        "duration": 2.02
+    },
+    {
+        "text": "Researchers believe that in the future,",
+        "start": 130.74,
+        "duration": 1.96
+    },
+    {
+        "text": "systems like these could be used to",
+        "start": 132.7,
+        "duration": 1.6
+    },
+    {
+        "text": "help robots achieve tasks",
+        "start": 134.3,
+        "duration": 1.8
+    },
+    {
+        "text": "without copying the movements of people",
+        "start": 136.1,
+        "duration": 2.0
+    },
+    {
+        "text": "and in new situations",
+        "start": 138.1,
+        "duration": 1.44
+    },
+    {
+        "text": "never encountered before...",
+        "start": 139.54,
+        "duration": 1.6
+    }
+]

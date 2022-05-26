@@ -1,0 +1,482 @@
+[
+    {
+        "text": "the human heart is still one of the",
+        "start": 11.45,
+        "duration": 4.18
+    },
+    {
+        "text": "biggest mysteries in medicine and",
+        "start": 14.009,
+        "duration": 6.211
+    },
+    {
+        "text": "Anatomy the main reason for our lack of",
+        "start": 15.63,
+        "duration": 6.75
+    },
+    {
+        "text": "understanding is the complexity of the",
+        "start": 20.22,
+        "duration": 4.37
+    },
+    {
+        "text": "heart structure and its phenotype",
+        "start": 22.38,
+        "duration": 5.399
+    },
+    {
+        "text": "however modern technology is helping us",
+        "start": 24.59,
+        "duration": 6.939
+    },
+    {
+        "text": "to understand this amazing organ at the",
+        "start": 27.779,
+        "duration": 6.181
+    },
+    {
+        "text": "Barcelona supercomputing Center and in",
+        "start": 31.529,
+        "duration": 4.111
+    },
+    {
+        "text": "close collaboration with medical doctors",
+        "start": 33.96,
+        "duration": 4.32
+    },
+    {
+        "text": "and bio engineers we are developing a",
+        "start": 35.64,
+        "duration": 4.74
+    },
+    {
+        "text": "large scale simulator of the human heart",
+        "start": 38.28,
+        "duration": 4.89
+    },
+    {
+        "text": "called a Lea red the computational",
+        "start": 40.38,
+        "duration": 5.4
+    },
+    {
+        "text": "cardiac model a computational",
+        "start": 43.17,
+        "duration": 4.23
+    },
+    {
+        "text": "description of the heart requires",
+        "start": 45.78,
+        "duration": 3.9
+    },
+    {
+        "text": "information at very different scales in",
+        "start": 47.4,
+        "duration": 4.56
+    },
+    {
+        "text": "time and space from the ions inside the",
+        "start": 49.68,
+        "duration": 4.86
+    },
+    {
+        "text": "cells or the muscular tissue that forms",
+        "start": 51.96,
+        "duration": 5.72
+    },
+    {
+        "text": "the organ and up to the whole individual",
+        "start": 54.54,
+        "duration": 5.76
+    },
+    {
+        "text": "because it is not practical to compute",
+        "start": 57.68,
+        "duration": 4.66
+    },
+    {
+        "text": "all the scales the same level of detail",
+        "start": 60.3,
+        "duration": 4.77
+    },
+    {
+        "text": "our cardiac model is based on the organ",
+        "start": 62.34,
+        "duration": 5.34
+    },
+    {
+        "text": "scale at this level a heartbeat is",
+        "start": 65.07,
+        "duration": 4.86
+    },
+    {
+        "text": "driven by an electrical impulse that",
+        "start": 67.68,
+        "duration": 4.32
+    },
+    {
+        "text": "causes the muscular contraction which in",
+        "start": 69.93,
+        "duration": 3.96
+    },
+    {
+        "text": "turn is responsible for the pumping",
+        "start": 72.0,
+        "duration": 4.14
+    },
+    {
+        "text": "action for this reason we say that the",
+        "start": 73.89,
+        "duration": 4.98
+    },
+    {
+        "text": "heart is a coupled physical system in",
+        "start": 76.14,
+        "duration": 5.46
+    },
+    {
+        "text": "our simulator we can apply electric",
+        "start": 78.87,
+        "duration": 5.07
+    },
+    {
+        "text": "impulses directly to any zones of the",
+        "start": 81.6,
+        "duration": 4.5
+    },
+    {
+        "text": "heart just like a pacemaker would do",
+        "start": 83.94,
+        "duration": 4.95
+    },
+    {
+        "text": "these initial impulses unleash a",
+        "start": 86.1,
+        "duration": 4.68
+    },
+    {
+        "text": "generalized propagation of electricity",
+        "start": 88.89,
+        "duration": 4.229
+    },
+    {
+        "text": "through the whole cardiac structure in a",
+        "start": 90.78,
+        "duration": 5.16
+    },
+    {
+        "text": "coordinated way thanks to the optimized",
+        "start": 93.119,
+        "duration": 5.25
+    },
+    {
+        "text": "organization of muscular fibres this",
+        "start": 95.94,
+        "duration": 4.5
+    },
+    {
+        "text": "electrical flash makes the ventricles",
+        "start": 98.369,
+        "duration": 4.021
+    },
+    {
+        "text": "contract during what is known as the",
+        "start": 100.44,
+        "duration": 4.62
+    },
+    {
+        "text": "system to create the best possible",
+        "start": 102.39,
+        "duration": 5.339
+    },
+    {
+        "text": "cardiac stimulator in terms of realism",
+        "start": 105.06,
+        "duration": 5.309
+    },
+    {
+        "text": "and detail we rely on tourism data that",
+        "start": 107.729,
+        "duration": 4.501
+    },
+    {
+        "text": "have not been available",
+        "start": 110.369,
+        "duration": 4.201
+    },
+    {
+        "text": "the geometry and shape of the hearts are",
+        "start": 112.23,
+        "duration": 3.96
+    },
+    {
+        "text": "measured to use in magnetic resonance",
+        "start": 114.57,
+        "duration": 3.99
+    },
+    {
+        "text": "imaging with a resolution of up to 36",
+        "start": 116.19,
+        "duration": 4.74
+    },
+    {
+        "text": "micrometers which allows us to construct",
+        "start": 118.56,
+        "duration": 4.23
+    },
+    {
+        "text": "her matched with hundreds of thousands",
+        "start": 120.93,
+        "duration": 4.77
+    },
+    {
+        "text": "of computational elements electricity",
+        "start": 122.79,
+        "duration": 5.4
+    },
+    {
+        "text": "travels much faster along cardiac",
+        "start": 125.7,
+        "duration": 5.01
+    },
+    {
+        "text": "muscular fibres than across them so a",
+        "start": 128.19,
+        "duration": 4.56
+    },
+    {
+        "text": "correct anatomical description of their",
+        "start": 130.71,
+        "duration": 3.75
+    },
+    {
+        "text": "arrangement is probably the most",
+        "start": 132.75,
+        "duration": 3.84
+    },
+    {
+        "text": "important element in obtaining a",
+        "start": 134.46,
+        "duration": 4.41
+    },
+    {
+        "text": "realistic electromechanical model of the",
+        "start": 136.59,
+        "duration": 2.85
+    },
+    {
+        "text": "heart",
+        "start": 138.87,
+        "duration": 3.24
+    },
+    {
+        "text": "cardiac fibres are specially organized",
+        "start": 139.44,
+        "duration": 4.32
+    },
+    {
+        "text": "to allow the contraction of the heart",
+        "start": 142.11,
+        "duration": 4.53
+    },
+    {
+        "text": "cavities in a coordinated stable and",
+        "start": 143.76,
+        "duration": 5.73
+    },
+    {
+        "text": "efficient way until very recently the",
+        "start": 146.64,
+        "duration": 4.98
+    },
+    {
+        "text": "only way to describe cardiac fiber",
+        "start": 149.49,
+        "duration": 4.68
+    },
+    {
+        "text": "arrangements was with simplified models",
+        "start": 151.62,
+        "duration": 5.19
+    },
+    {
+        "text": "based on histological sections of animal",
+        "start": 154.17,
+        "duration": 5.22
+    },
+    {
+        "text": "hearts today we can achieve a much",
+        "start": 156.81,
+        "duration": 4.71
+    },
+    {
+        "text": "better description of the fibers using a",
+        "start": 159.39,
+        "duration": 3.99
+    },
+    {
+        "text": "technique called diffusion tensor",
+        "start": 161.52,
+        "duration": 4.35
+    },
+    {
+        "text": "imaging using magnetic resonance to map",
+        "start": 163.38,
+        "duration": 4.65
+    },
+    {
+        "text": "the diffusion of water molecules along",
+        "start": 165.87,
+        "duration": 4.95
+    },
+    {
+        "text": "biological tissues in our cardiac",
+        "start": 168.03,
+        "duration": 5.4
+    },
+    {
+        "text": "simulator we can use diffusion tensor",
+        "start": 170.82,
+        "duration": 4.59
+    },
+    {
+        "text": "imaging information as well as",
+        "start": 173.43,
+        "duration": 4.2
+    },
+    {
+        "text": "mathematical models allowing us to",
+        "start": 175.41,
+        "duration": 4.47
+    },
+    {
+        "text": "validate theory with experiments and",
+        "start": 177.63,
+        "duration": 6.15
+    },
+    {
+        "text": "improve our numerical methods alia the",
+        "start": 179.88,
+        "duration": 5.37
+    },
+    {
+        "text": "software developed at the Barcelona",
+        "start": 183.78,
+        "duration": 4.02
+    },
+    {
+        "text": "supercomputing Center has been designed",
+        "start": 185.25,
+        "duration": 4.5
+    },
+    {
+        "text": "from scratch for an efficient use of",
+        "start": 187.8,
+        "duration": 4.86
+    },
+    {
+        "text": "large parallel clusters producing",
+        "start": 189.75,
+        "duration": 5.22
+    },
+    {
+        "text": "accurate simulation of a heart requires",
+        "start": 192.66,
+        "duration": 4.98
+    },
+    {
+        "text": "considerable computing power that's why",
+        "start": 194.97,
+        "duration": 4.83
+    },
+    {
+        "text": "we perform our simulations on BSC's",
+        "start": 197.64,
+        "duration": 4.77
+    },
+    {
+        "text": "supercomputer Marin Ostrom where",
+        "start": 199.8,
+        "duration": 4.89
+    },
+    {
+        "text": "calculations can be distributed among",
+        "start": 202.41,
+        "duration": 5.16
+    },
+    {
+        "text": "10,000 processors working in a tightly",
+        "start": 204.69,
+        "duration": 6.21
+    },
+    {
+        "text": "coordinated way these simulations will",
+        "start": 207.57,
+        "duration": 4.98
+    },
+    {
+        "text": "help medical doctors to better",
+        "start": 210.9,
+        "duration": 3.99
+    },
+    {
+        "text": "understand how our body works to",
+        "start": 212.55,
+        "duration": 4.98
+    },
+    {
+        "text": "diagnose pathologies to plan operations",
+        "start": 214.89,
+        "duration": 4.95
+    },
+    {
+        "text": "and treatments and to test and design",
+        "start": 217.53,
+        "duration": 4.92
+    },
+    {
+        "text": "new drugs nowadays large-scale",
+        "start": 219.84,
+        "duration": 4.77
+    },
+    {
+        "text": "simulations of the human body may seem",
+        "start": 222.45,
+        "duration": 4.56
+    },
+    {
+        "text": "like science fiction but techniques like",
+        "start": 224.61,
+        "duration": 4.409
+    },
+    {
+        "text": "magnetic resonance were also science",
+        "start": 227.01,
+        "duration": 4.74
+    },
+    {
+        "text": "fiction only 50 years ago with the help",
+        "start": 229.019,
+        "duration": 5.371
+    },
+    {
+        "text": "of information technology the future of",
+        "start": 231.75,
+        "duration": 3.819
+    },
+    {
+        "text": "medicine is being",
+        "start": 234.39,
+        "duration": 3.45
+    },
+    {
+        "text": "today",
+        "start": 235.569,
+        "duration": 2.271
+    },
+    {
+        "text": "you",
+        "start": 246.2,
+        "duration": 2.06
+    }
+]

@@ -1,0 +1,2362 @@
+[
+    {
+        "text": "today on Applied Science I'm going to",
+        "start": 0.03,
+        "duration": 3.99
+    },
+    {
+        "text": "describe how I built an image capture",
+        "start": 2.1,
+        "duration": 3.54
+    },
+    {
+        "text": "system for this vintage scanning",
+        "start": 4.02,
+        "duration": 3.96
+    },
+    {
+        "text": "electron microscope this allows me to",
+        "start": 5.64,
+        "duration": 4.02
+    },
+    {
+        "text": "connect a modern computer to it and",
+        "start": 7.98,
+        "duration": 4.35
+    },
+    {
+        "text": "capture images directly but first let's",
+        "start": 9.66,
+        "duration": 4.53
+    },
+    {
+        "text": "take a look at an animation that I made",
+        "start": 12.33,
+        "duration": 4.529
+    },
+    {
+        "text": "today using this system this is a two",
+        "start": 14.19,
+        "duration": 4.98
+    },
+    {
+        "text": "millimeter drill bit drilling into some",
+        "start": 16.859,
+        "duration": 4.59
+    },
+    {
+        "text": "lead metal and I chose lead just because",
+        "start": 19.17,
+        "duration": 4.109
+    },
+    {
+        "text": "it's soft I can't get a hold real press",
+        "start": 21.449,
+        "duration": 3.84
+    },
+    {
+        "text": "inside the scanning electron microscope",
+        "start": 23.279,
+        "duration": 4.08
+    },
+    {
+        "text": "so I'm basically using a makeshift drill",
+        "start": 25.289,
+        "duration": 6.691
+    },
+    {
+        "text": "press inside there so the basic idea of",
+        "start": 27.359,
+        "duration": 6.45
+    },
+    {
+        "text": "this image capture system is to start",
+        "start": 31.98,
+        "duration": 3.78
+    },
+    {
+        "text": "with an analog video signal that the SEM",
+        "start": 33.809,
+        "duration": 3.871
+    },
+    {
+        "text": "is outputting and then digitize that",
+        "start": 35.76,
+        "duration": 4.049
+    },
+    {
+        "text": "using a microcontroller and send the",
+        "start": 37.68,
+        "duration": 4.02
+    },
+    {
+        "text": "digital values over USB to the computer",
+        "start": 39.809,
+        "duration": 4.381
+    },
+    {
+        "text": "and then on the computer I'm running a",
+        "start": 41.7,
+        "duration": 4.65
+    },
+    {
+        "text": "processing org script that just displays",
+        "start": 44.19,
+        "duration": 4.08
+    },
+    {
+        "text": "the image in real time and optionally",
+        "start": 46.35,
+        "duration": 4.17
+    },
+    {
+        "text": "allows me to save the frames so this way",
+        "start": 48.27,
+        "duration": 3.929
+    },
+    {
+        "text": "I can just with you know two keystrokes",
+        "start": 50.52,
+        "duration": 4.05
+    },
+    {
+        "text": "see an image and then save it and then",
+        "start": 52.199,
+        "duration": 5.161
+    },
+    {
+        "text": "advance the sound so I can get an easy",
+        "start": 54.57,
+        "duration": 5.64
+    },
+    {
+        "text": "sort of animation going okay so let's",
+        "start": 57.36,
+        "duration": 5.31
+    },
+    {
+        "text": "talk about that analog signal this",
+        "start": 60.21,
+        "duration": 4.05
+    },
+    {
+        "text": "microscope is capable of capturing",
+        "start": 62.67,
+        "duration": 3.9
+    },
+    {
+        "text": "images in real time so if I move the",
+        "start": 64.26,
+        "duration": 4.53
+    },
+    {
+        "text": "drill bit inside the microscope you can",
+        "start": 66.57,
+        "duration": 3.96
+    },
+    {
+        "text": "see in the on the screen it's updating",
+        "start": 68.79,
+        "duration": 3.99
+    },
+    {
+        "text": "it at full speed it's about 30 to 60",
+        "start": 70.53,
+        "duration": 4.5
+    },
+    {
+        "text": "frames a second but if you want a really",
+        "start": 72.78,
+        "duration": 4.199
+    },
+    {
+        "text": "high-resolution image we have to slow",
+        "start": 75.03,
+        "duration": 5.1
+    },
+    {
+        "text": "the scan way down so the scope comes",
+        "start": 76.979,
+        "duration": 5.161
+    },
+    {
+        "text": "with this setting and as you can see",
+        "start": 80.13,
+        "duration": 3.599
+    },
+    {
+        "text": "it's building up the image line by line",
+        "start": 82.14,
+        "duration": 3.51
+    },
+    {
+        "text": "and the whole thing takes about 10",
+        "start": 83.729,
+        "duration": 4.771
+    },
+    {
+        "text": "seconds so back in the day the way that",
+        "start": 85.65,
+        "duration": 3.99
+    },
+    {
+        "text": "you would actually make an image out of",
+        "start": 88.5,
+        "duration": 3.0
+    },
+    {
+        "text": "that is to hook up a Polaroid camera to",
+        "start": 89.64,
+        "duration": 3.78
+    },
+    {
+        "text": "this and then mount the camera to the",
+        "start": 91.5,
+        "duration": 4.32
+    },
+    {
+        "text": "front of the screen and let it expose",
+        "start": 93.42,
+        "duration": 4.739
+    },
+    {
+        "text": "the film the line at a time but of",
+        "start": 95.82,
+        "duration": 3.6
+    },
+    {
+        "text": "course we have better technology than",
+        "start": 98.159,
+        "duration": 2.971
+    },
+    {
+        "text": "that now so let's talk about today's",
+        "start": 99.42,
+        "duration": 4.47
+    },
+    {
+        "text": "solution since the designers of the",
+        "start": 101.13,
+        "duration": 4.32
+    },
+    {
+        "text": "microscope thought that you'd be using a",
+        "start": 103.89,
+        "duration": 4.019
+    },
+    {
+        "text": "camera to capture this slow scan image",
+        "start": 105.45,
+        "duration": 4.349
+    },
+    {
+        "text": "unfortunately there's no port on the",
+        "start": 107.909,
+        "duration": 3.99
+    },
+    {
+        "text": "side of the scope that has a signal we",
+        "start": 109.799,
+        "duration": 4.5
+    },
+    {
+        "text": "can use so I had to go probing around on",
+        "start": 111.899,
+        "duration": 3.811
+    },
+    {
+        "text": "the circuit board with the oscilloscope",
+        "start": 114.299,
+        "duration": 3.39
+    },
+    {
+        "text": "and with the help of this schematic here",
+        "start": 115.71,
+        "duration": 4.08
+    },
+    {
+        "text": "found a signal that will work just fine",
+        "start": 117.689,
+        "duration": 5.25
+    },
+    {
+        "text": "it's actually quite a large range signal",
+        "start": 119.79,
+        "duration": 5.49
+    },
+    {
+        "text": "it goes from negative 12 to 12 the",
+        "start": 122.939,
+        "duration": 4.32
+    },
+    {
+        "text": "reason being that the scope uses plus",
+        "start": 125.28,
+        "duration": 4.589
+    },
+    {
+        "text": "and minus 15 volt rails for its op amps",
+        "start": 127.259,
+        "duration": 4.801
+    },
+    {
+        "text": "so that when the op amp is railed all",
+        "start": 129.869,
+        "duration": 4.381
+    },
+    {
+        "text": "the way it puts out about negative 12 or",
+        "start": 132.06,
+        "duration": 4.8
+    },
+    {
+        "text": "these in this case the signal is",
+        "start": 134.25,
+        "duration": 4.349
+    },
+    {
+        "text": "composite so basically it's a raster",
+        "start": 136.86,
+        "duration": 3.87
+    },
+    {
+        "text": "scan it's left to right top to bottom",
+        "start": 138.599,
+        "duration": 4.47
+    },
+    {
+        "text": "just like you saw on the screen and when",
+        "start": 140.73,
+        "duration": 4.17
+    },
+    {
+        "text": "it gets to the end of the horizontal",
+        "start": 143.069,
+        "duration": 4.381
+    },
+    {
+        "text": "line there's a sync pulse in this case",
+        "start": 144.9,
+        "duration": 5.04
+    },
+    {
+        "text": "it's about 126 microseconds long and",
+        "start": 147.45,
+        "duration": 5.13
+    },
+    {
+        "text": "during the sync pulse the voltage is as",
+        "start": 149.94,
+        "duration": 4.65
+    },
+    {
+        "text": "far negative as it can go about negative",
+        "start": 152.58,
+        "duration": 5.61
+    },
+    {
+        "text": "12 volts then there's analog data for",
+        "start": 154.59,
+        "duration": 6.149
+    },
+    {
+        "text": "eleven point two milliseconds and this",
+        "start": 158.19,
+        "duration": 4.71
+    },
+    {
+        "text": "repeats for every horizontal line and",
+        "start": 160.739,
+        "duration": 3.511
+    },
+    {
+        "text": "when we get to the bottom of the frame",
+        "start": 162.9,
+        "duration": 3.75
+    },
+    {
+        "text": "there's a much longer pulse of about 10",
+        "start": 164.25,
+        "duration": 5.4
+    },
+    {
+        "text": "milliseconds so if we know what the",
+        "start": 166.65,
+        "duration": 4.68
+    },
+    {
+        "text": "pulses are supposed to be and we're",
+        "start": 169.65,
+        "duration": 3.27
+    },
+    {
+        "text": "listening to this signal we can figure",
+        "start": 171.33,
+        "duration": 3.9
+    },
+    {
+        "text": "out everything we need to to reconstruct",
+        "start": 172.92,
+        "duration": 4.62
+    },
+    {
+        "text": "the frame and that this comes out to",
+        "start": 175.23,
+        "duration": 4.53
+    },
+    {
+        "text": "about a thousand lines per frame and so",
+        "start": 177.54,
+        "duration": 3.949
+    },
+    {
+        "text": "the whole thing takes about 11 seconds",
+        "start": 179.76,
+        "duration": 3.72
+    },
+    {
+        "text": "so if we want to get this into a",
+        "start": 181.489,
+        "duration": 4.86
+    },
+    {
+        "text": "microcontroller the first step is to",
+        "start": 183.48,
+        "duration": 5.13
+    },
+    {
+        "text": "voltage translate it into something that",
+        "start": 186.349,
+        "duration": 4.091
+    },
+    {
+        "text": "won't destroy the microcontroller in",
+        "start": 188.61,
+        "duration": 4.349
+    },
+    {
+        "text": "this case I'm using the teensy LLC which",
+        "start": 190.44,
+        "duration": 5.61
+    },
+    {
+        "text": "is a 3.3 volt microcontroller so what we",
+        "start": 192.959,
+        "duration": 5.881
+    },
+    {
+        "text": "want to do is translate this negative 12",
+        "start": 196.05,
+        "duration": 6.12
+    },
+    {
+        "text": "to 12 volt signal into zero to 3.3 and",
+        "start": 198.84,
+        "duration": 5.46
+    },
+    {
+        "text": "we also want to do something else",
+        "start": 202.17,
+        "duration": 4.59
+    },
+    {
+        "text": "these sync pulses don't really carry any",
+        "start": 204.3,
+        "duration": 4.769
+    },
+    {
+        "text": "information about the image itself I",
+        "start": 206.76,
+        "duration": 3.979
+    },
+    {
+        "text": "mean its timing information but it's not",
+        "start": 209.069,
+        "duration": 4.381
+    },
+    {
+        "text": "visual information so if we were to",
+        "start": 210.739,
+        "duration": 4.841
+    },
+    {
+        "text": "compress this whole negative 12 to 12",
+        "start": 213.45,
+        "duration": 6.09
+    },
+    {
+        "text": "range down to 0 to 3.3 a lot of our",
+        "start": 215.58,
+        "duration": 6.09
+    },
+    {
+        "text": "dynamic range would be wasted on this",
+        "start": 219.54,
+        "duration": 3.99
+    },
+    {
+        "text": "pulse so what I'm going to do is",
+        "start": 221.67,
+        "duration": 4.2
+    },
+    {
+        "text": "separate the signal into just video and",
+        "start": 223.53,
+        "duration": 4.44
+    },
+    {
+        "text": "then just sync so let's talk about the",
+        "start": 225.87,
+        "duration": 5.399
+    },
+    {
+        "text": "video first I just ended up using two op",
+        "start": 227.97,
+        "duration": 5.64
+    },
+    {
+        "text": "amps this could have been done with one",
+        "start": 231.269,
+        "duration": 5.011
+    },
+    {
+        "text": "but with two we invert the signal then",
+        "start": 233.61,
+        "duration": 4.68
+    },
+    {
+        "text": "invert it back so that the sense of the",
+        "start": 236.28,
+        "duration": 3.539
+    },
+    {
+        "text": "signal is the same not that it makes a",
+        "start": 238.29,
+        "duration": 3.0
+    },
+    {
+        "text": "huge difference whatever",
+        "start": 239.819,
+        "duration": 3.901
+    },
+    {
+        "text": "so this first op-amp is set up as a",
+        "start": 241.29,
+        "duration": 4.949
+    },
+    {
+        "text": "reducer usually you configure op amp",
+        "start": 243.72,
+        "duration": 4.53
+    },
+    {
+        "text": "circuits to amplify signals but in this",
+        "start": 246.239,
+        "duration": 4.351
+    },
+    {
+        "text": "case we're actually attenuating and then",
+        "start": 248.25,
+        "duration": 5.459
+    },
+    {
+        "text": "the second op amp is an offset so if we",
+        "start": 250.59,
+        "duration": 5.549
+    },
+    {
+        "text": "put it the positive input on a",
+        "start": 253.709,
+        "duration": 4.62
+    },
+    {
+        "text": "potentiometer from negative 15 to plus",
+        "start": 256.139,
+        "duration": 4.25
+    },
+    {
+        "text": "15 we can dial up where",
+        "start": 258.329,
+        "duration": 4.64
+    },
+    {
+        "text": "want the offset to be so after these two",
+        "start": 260.389,
+        "duration": 4.471
+    },
+    {
+        "text": "we get a signal that is just the video",
+        "start": 262.969,
+        "duration": 4.681
+    },
+    {
+        "text": "data hopefully taking up as much dynamic",
+        "start": 264.86,
+        "duration": 4.739
+    },
+    {
+        "text": "range as possible zero to three point",
+        "start": 267.65,
+        "duration": 4.109
+    },
+    {
+        "text": "three and the sync pulse is not really",
+        "start": 269.599,
+        "duration": 5.521
+    },
+    {
+        "text": "there anymore then to recover the sync",
+        "start": 271.759,
+        "duration": 6.541
+    },
+    {
+        "text": "pulse I have another op-amp set up as a",
+        "start": 275.12,
+        "duration": 5.49
+    },
+    {
+        "text": "comparator so it's negative input as a",
+        "start": 278.3,
+        "duration": 4.199
+    },
+    {
+        "text": "fixed voltage between negative fifteen",
+        "start": 280.61,
+        "duration": 3.899
+    },
+    {
+        "text": "and fifteen and then there's a little",
+        "start": 282.499,
+        "duration": 4.47
+    },
+    {
+        "text": "bit of positive feedback so that when",
+        "start": 284.509,
+        "duration": 4.831
+    },
+    {
+        "text": "the signal goes below the threshold and",
+        "start": 286.969,
+        "duration": 3.901
+    },
+    {
+        "text": "I set the threshold to be something like",
+        "start": 289.34,
+        "duration": 4.049
+    },
+    {
+        "text": "you know negative eleven so as soon as",
+        "start": 290.87,
+        "duration": 4.44
+    },
+    {
+        "text": "this thing gets down to its most",
+        "start": 293.389,
+        "duration": 3.601
+    },
+    {
+        "text": "negative voltage we know we have a sync",
+        "start": 295.31,
+        "duration": 6.0
+    },
+    {
+        "text": "pulse and this comparator quickly snaps",
+        "start": 296.99,
+        "duration": 7.049
+    },
+    {
+        "text": "over now remember that this this",
+        "start": 301.31,
+        "duration": 4.56
+    },
+    {
+        "text": "comparator is still using plus and minus",
+        "start": 304.039,
+        "duration": 3.72
+    },
+    {
+        "text": "fifteen volt rails but we want to get",
+        "start": 305.87,
+        "duration": 3.599
+    },
+    {
+        "text": "the signal to be zero to three point",
+        "start": 307.759,
+        "duration": 5.731
+    },
+    {
+        "text": "three so what I did is I used a 74 Hz",
+        "start": 309.469,
+        "duration": 6.391
+    },
+    {
+        "text": "series inverter and the datasheet even",
+        "start": 313.49,
+        "duration": 3.959
+    },
+    {
+        "text": "says that this thing is set up with",
+        "start": 315.86,
+        "duration": 3.299
+    },
+    {
+        "text": "protection diodes specifically to",
+        "start": 317.449,
+        "duration": 3.96
+    },
+    {
+        "text": "convert high voltage systems into low",
+        "start": 319.159,
+        "duration": 4.5
+    },
+    {
+        "text": "voltage systems so I powered the",
+        "start": 321.409,
+        "duration": 4.68
+    },
+    {
+        "text": "inverter with the 3.3 volt rail from the",
+        "start": 323.659,
+        "duration": 4.651
+    },
+    {
+        "text": "microcontroller and then put a resistor",
+        "start": 326.089,
+        "duration": 3.901
+    },
+    {
+        "text": "here to limit the current so that even",
+        "start": 328.31,
+        "duration": 2.909
+    },
+    {
+        "text": "though this thing is snapping around",
+        "start": 329.99,
+        "duration": 4.919
+    },
+    {
+        "text": "from negative 15 to 15 almost when we",
+        "start": 331.219,
+        "duration": 5.76
+    },
+    {
+        "text": "get through the inverter we're down to",
+        "start": 334.909,
+        "duration": 5.04
+    },
+    {
+        "text": "just zero 23.3 so now we have our",
+        "start": 336.979,
+        "duration": 4.68
+    },
+    {
+        "text": "digital sync signal which we can put",
+        "start": 339.949,
+        "duration": 3.09
+    },
+    {
+        "text": "into a digital pen on the",
+        "start": 341.659,
+        "duration": 3.18
+    },
+    {
+        "text": "microcontroller and then we have our",
+        "start": 343.039,
+        "duration": 3.6
+    },
+    {
+        "text": "analog signal which we put into an",
+        "start": 344.839,
+        "duration": 4.771
+    },
+    {
+        "text": "analog pin and like I said I'm using the",
+        "start": 346.639,
+        "duration": 5.43
+    },
+    {
+        "text": "teensy LLC which gives us a bunch of",
+        "start": 349.61,
+        "duration": 5.82
+    },
+    {
+        "text": "options here here's a flow chart showing",
+        "start": 352.069,
+        "duration": 4.891
+    },
+    {
+        "text": "what the firmware it does we have our",
+        "start": 355.43,
+        "duration": 3.9
+    },
+    {
+        "text": "two signals in the video analog signal",
+        "start": 356.96,
+        "duration": 4.56
+    },
+    {
+        "text": "and the digital sync signal and we want",
+        "start": 359.33,
+        "duration": 4.139
+    },
+    {
+        "text": "to go through all this and have USB data",
+        "start": 361.52,
+        "duration": 5.1
+    },
+    {
+        "text": "ours so the way this is set up the ADC",
+        "start": 363.469,
+        "duration": 5.1
+    },
+    {
+        "text": "is in freerunning mode and it's running",
+        "start": 366.62,
+        "duration": 3.919
+    },
+    {
+        "text": "at about a hundred forty two kilohertz",
+        "start": 368.569,
+        "duration": 4.38
+    },
+    {
+        "text": "actually it's averaging for samples but",
+        "start": 370.539,
+        "duration": 3.821
+    },
+    {
+        "text": "we're getting a result from it one",
+        "start": 372.949,
+        "duration": 2.761
+    },
+    {
+        "text": "hundred forty two thousand times a",
+        "start": 374.36,
+        "duration": 3.869
+    },
+    {
+        "text": "second and what we want to do is stop",
+        "start": 375.71,
+        "duration": 5.429
+    },
+    {
+        "text": "the ADC at the start of a sync pulse so",
+        "start": 378.229,
+        "duration": 5.011
+    },
+    {
+        "text": "that when we restart the ADC it will be",
+        "start": 381.139,
+        "duration": 4.5
+    },
+    {
+        "text": "nice and lined up with that falling edge",
+        "start": 383.24,
+        "duration": 4.649
+    },
+    {
+        "text": "of the sync pulse originally I had the",
+        "start": 385.639,
+        "duration": 4.62
+    },
+    {
+        "text": "ADC free running all the time and I",
+        "start": 387.889,
+        "duration": 4.02
+    },
+    {
+        "text": "tried to sync it up at the beginning of",
+        "start": 390.259,
+        "duration": 2.951
+    },
+    {
+        "text": "the pulse but it didn't work",
+        "start": 391.909,
+        "duration": 3.581
+    },
+    {
+        "text": "very well because at certain stages of",
+        "start": 393.21,
+        "duration": 5.1
+    },
+    {
+        "text": "the IDC's function you can't stop and",
+        "start": 395.49,
+        "duration": 4.649
+    },
+    {
+        "text": "restart it with a deterministic amount",
+        "start": 398.31,
+        "duration": 4.199
+    },
+    {
+        "text": "of time however you if you stop the",
+        "start": 400.139,
+        "duration": 4.411
+    },
+    {
+        "text": "system here then what we can do is just",
+        "start": 402.509,
+        "duration": 4.351
+    },
+    {
+        "text": "measure the pulse width using a timer",
+        "start": 404.55,
+        "duration": 4.08
+    },
+    {
+        "text": "function in the microcontroller and then",
+        "start": 406.86,
+        "duration": 3.809
+    },
+    {
+        "text": "we'll know how long the pulse was and we",
+        "start": 408.63,
+        "duration": 3.629
+    },
+    {
+        "text": "can restart the ADC and get very",
+        "start": 410.669,
+        "duration": 5.011
+    },
+    {
+        "text": "deterministic timing another trick I ran",
+        "start": 412.259,
+        "duration": 5.611
+    },
+    {
+        "text": "into is it since we have data coming",
+        "start": 415.68,
+        "duration": 4.889
+    },
+    {
+        "text": "from the ADC so fast if we just filled",
+        "start": 417.87,
+        "duration": 5.609
+    },
+    {
+        "text": "up a buffer from the ADC and then sent",
+        "start": 420.569,
+        "duration": 5.13
+    },
+    {
+        "text": "that out over USB we would end up with",
+        "start": 423.479,
+        "duration": 4.171
+    },
+    {
+        "text": "some contention there eventually because",
+        "start": 425.699,
+        "duration": 4.051
+    },
+    {
+        "text": "the USB would be wanting to send the",
+        "start": 427.65,
+        "duration": 3.96
+    },
+    {
+        "text": "same data that's being written in by the",
+        "start": 429.75,
+        "duration": 5.099
+    },
+    {
+        "text": "ADC and I think you could implement this",
+        "start": 431.61,
+        "duration": 6.36
+    },
+    {
+        "text": "with a loop buffer but I still couldn't",
+        "start": 434.849,
+        "duration": 4.5
+    },
+    {
+        "text": "quite figure it out since they're both",
+        "start": 437.97,
+        "duration": 3.569
+    },
+    {
+        "text": "reading and writing so quickly you end",
+        "start": 439.349,
+        "duration": 3.811
+    },
+    {
+        "text": "up with some weirdness there and another",
+        "start": 441.539,
+        "duration": 4.111
+    },
+    {
+        "text": "nice thing is that we'd like to fill up",
+        "start": 443.16,
+        "duration": 5.67
+    },
+    {
+        "text": "a buffer of at least 64 bytes before we",
+        "start": 445.65,
+        "duration": 5.699
+    },
+    {
+        "text": "actually do the USB transaction it's",
+        "start": 448.83,
+        "duration": 4.86
+    },
+    {
+        "text": "super inefficient to collect a sample",
+        "start": 451.349,
+        "duration": 4.56
+    },
+    {
+        "text": "and then send that one byte and then",
+        "start": 453.69,
+        "duration": 3.69
+    },
+    {
+        "text": "collect another sample and send that",
+        "start": 455.909,
+        "duration": 5.491
+    },
+    {
+        "text": "next byte so the code that operates the",
+        "start": 457.38,
+        "duration": 5.969
+    },
+    {
+        "text": "USB transaction would much prefer to",
+        "start": 461.4,
+        "duration": 4.38
+    },
+    {
+        "text": "have a 64 byte buffer or larger to work",
+        "start": 463.349,
+        "duration": 4.741
+    },
+    {
+        "text": "with so the way that I solved this",
+        "start": 465.78,
+        "duration": 4.169
+    },
+    {
+        "text": "problem is to use ping pong buffers so",
+        "start": 468.09,
+        "duration": 4.049
+    },
+    {
+        "text": "the ADC is currently filling buffer a",
+        "start": 469.949,
+        "duration": 4.411
+    },
+    {
+        "text": "while buffer B is being drained by the",
+        "start": 472.139,
+        "duration": 5.041
+    },
+    {
+        "text": "USB command and then it with interrupts",
+        "start": 474.36,
+        "duration": 5.1
+    },
+    {
+        "text": "disabled snaps over so it ping pongs to",
+        "start": 477.18,
+        "duration": 4.169
+    },
+    {
+        "text": "the other side and this seems to work",
+        "start": 479.46,
+        "duration": 4.5
+    },
+    {
+        "text": "really well I don't know if there's an",
+        "start": 481.349,
+        "duration": 4.141
+    },
+    {
+        "text": "even sneakier way to do it but the code",
+        "start": 483.96,
+        "duration": 3.6
+    },
+    {
+        "text": "is actually quite compact and I'll post",
+        "start": 485.49,
+        "duration": 3.54
+    },
+    {
+        "text": "a link in the description so you can",
+        "start": 487.56,
+        "duration": 4.289
+    },
+    {
+        "text": "take a look and then the last bit is",
+        "start": 489.03,
+        "duration": 5.58
+    },
+    {
+        "text": "just to figure out how long this pulse",
+        "start": 491.849,
+        "duration": 4.82
+    },
+    {
+        "text": "was and I used the elapsed micros",
+        "start": 494.61,
+        "duration": 4.559
+    },
+    {
+        "text": "variable that is included in the teensy",
+        "start": 496.669,
+        "duration": 4.84
+    },
+    {
+        "text": "libraries and if it's over a certain",
+        "start": 499.169,
+        "duration": 3.99
+    },
+    {
+        "text": "amount like if it's big enough to be a",
+        "start": 501.509,
+        "duration": 3.84
+    },
+    {
+        "text": "vertical sync pulse then it dumps a",
+        "start": 503.159,
+        "duration": 4.051
+    },
+    {
+        "text": "different byte into the buffer whereas",
+        "start": 505.349,
+        "duration": 3.481
+    },
+    {
+        "text": "it's a short one then it dumps you know",
+        "start": 507.21,
+        "duration": 5.22
+    },
+    {
+        "text": "a horizontal pipe basically the ADC is",
+        "start": 508.83,
+        "duration": 6.87
+    },
+    {
+        "text": "running in 8-bit mode and all of the",
+        "start": 512.43,
+        "duration": 5.489
+    },
+    {
+        "text": "values except 0 & 1 are valid data",
+        "start": 515.7,
+        "duration": 5.129
+    },
+    {
+        "text": "values I retain 0 & 1 to differentiate",
+        "start": 517.919,
+        "duration": 4.831
+    },
+    {
+        "text": "between the types of sinc pulses and",
+        "start": 520.829,
+        "duration": 3.601
+    },
+    {
+        "text": "probably eventually later I'll have",
+        "start": 522.75,
+        "duration": 2.07
+    },
+    {
+        "text": "other",
+        "start": 524.43,
+        "duration": 2.25
+    },
+    {
+        "text": "bits of encoding but this just keeps",
+        "start": 524.82,
+        "duration": 4.32
+    },
+    {
+        "text": "things really simple so it's one sample",
+        "start": 526.68,
+        "duration": 5.1
+    },
+    {
+        "text": "one bite just sent right over the USB",
+        "start": 529.14,
+        "duration": 4.5
+    },
+    {
+        "text": "and then there's two special bites for",
+        "start": 531.78,
+        "duration": 3.65
+    },
+    {
+        "text": "the sink",
+        "start": 533.64,
+        "duration": 3.99
+    },
+    {
+        "text": "here's a couple other things to keep in",
+        "start": 535.43,
+        "duration": 4.5
+    },
+    {
+        "text": "mind if you're doing a similar project",
+        "start": 537.63,
+        "duration": 6.6
+    },
+    {
+        "text": "USB HID is limited to about 64 kilobytes",
+        "start": 539.93,
+        "duration": 6.28
+    },
+    {
+        "text": "per second now it is guaranteed",
+        "start": 544.23,
+        "duration": 4.41
+    },
+    {
+        "text": "bandwidth so a thousand times a second",
+        "start": 546.21,
+        "duration": 5.01
+    },
+    {
+        "text": "you can send a 64 byte packet but in",
+        "start": 548.64,
+        "duration": 4.74
+    },
+    {
+        "text": "this case we're going a bit faster we're",
+        "start": 551.22,
+        "duration": 4.47
+    },
+    {
+        "text": "already up to 142 kilobytes per second",
+        "start": 553.38,
+        "duration": 5.28
+    },
+    {
+        "text": "so we can't use hid and if we use an",
+        "start": 555.69,
+        "duration": 5.46
+    },
+    {
+        "text": "emulated serial port that's fine it's",
+        "start": 558.66,
+        "duration": 4.35
+    },
+    {
+        "text": "not guaranteed bandwidth so if you plug",
+        "start": 561.15,
+        "duration": 3.51
+    },
+    {
+        "text": "a bunch of other stuff onto that same",
+        "start": 563.01,
+        "duration": 4.86
+    },
+    {
+        "text": "USB you may run out of bandwidth but in",
+        "start": 564.66,
+        "duration": 5.37
+    },
+    {
+        "text": "this case we're totally fine and it's",
+        "start": 567.87,
+        "duration": 6.2
+    },
+    {
+        "text": "running at about 142 KB per second I",
+        "start": 570.03,
+        "duration": 6.69
+    },
+    {
+        "text": "originally started using the independent",
+        "start": 574.07,
+        "duration": 5.41
+    },
+    {
+        "text": "ADC cloth that the teensy has or that",
+        "start": 576.72,
+        "duration": 5.07
+    },
+    {
+        "text": "the freescale microcontroller has and it",
+        "start": 579.48,
+        "duration": 4.17
+    },
+    {
+        "text": "says oh you should use this alternative",
+        "start": 581.79,
+        "duration": 3.24
+    },
+    {
+        "text": "clock if you're worried about noise",
+        "start": 583.65,
+        "duration": 3.21
+    },
+    {
+        "text": "coming from the system clock and I",
+        "start": 585.03,
+        "duration": 3.09
+    },
+    {
+        "text": "thought oh great well that's that's just",
+        "start": 586.86,
+        "duration": 4.11
+    },
+    {
+        "text": "what I want but as it turns out this is",
+        "start": 588.12,
+        "duration": 5.37
+    },
+    {
+        "text": "actually probably an RC timer inside the",
+        "start": 590.97,
+        "duration": 4.47
+    },
+    {
+        "text": "microcontroller and it drifts like crazy",
+        "start": 593.49,
+        "duration": 4.29
+    },
+    {
+        "text": "so I couldn't use that I switched back",
+        "start": 595.44,
+        "duration": 5.61
+    },
+    {
+        "text": "to the system clock also if you search",
+        "start": 597.78,
+        "duration": 4.98
+    },
+    {
+        "text": "around on the net about using the teensy",
+        "start": 601.05,
+        "duration": 3.69
+    },
+    {
+        "text": "for projects like this like audio",
+        "start": 602.76,
+        "duration": 3.99
+    },
+    {
+        "text": "projects and things like that you'll",
+        "start": 604.74,
+        "duration": 3.42
+    },
+    {
+        "text": "find that people are talking about this",
+        "start": 606.75,
+        "duration": 5.55
+    },
+    {
+        "text": "pdb the programmable delay block which I",
+        "start": 608.16,
+        "duration": 5.67
+    },
+    {
+        "text": "had never heard of before reading about",
+        "start": 612.3,
+        "duration": 3.24
+    },
+    {
+        "text": "this in the freescale controller I",
+        "start": 613.83,
+        "duration": 3.21
+    },
+    {
+        "text": "thought well if you want something with",
+        "start": 615.54,
+        "duration": 3.18
+    },
+    {
+        "text": "accurate timing you would just set up a",
+        "start": 617.04,
+        "duration": 3.81
+    },
+    {
+        "text": "timer and use an interrupt and then put",
+        "start": 618.72,
+        "duration": 3.69
+    },
+    {
+        "text": "your code in there but if you need",
+        "start": 620.85,
+        "duration": 3.36
+    },
+    {
+        "text": "something that's really deterministic I",
+        "start": 622.41,
+        "duration": 4.05
+    },
+    {
+        "text": "mean really accurate you can't trust the",
+        "start": 624.21,
+        "duration": 4.29
+    },
+    {
+        "text": "interrupts because there could be you",
+        "start": 626.46,
+        "duration": 4.14
+    },
+    {
+        "text": "know it delay an undetermined delay when",
+        "start": 628.5,
+        "duration": 3.63
+    },
+    {
+        "text": "the interrupt fires and so it you know",
+        "start": 630.6,
+        "duration": 4.44
+    },
+    {
+        "text": "leads to variable timing so apparently",
+        "start": 632.13,
+        "duration": 4.59
+    },
+    {
+        "text": "this pdb is something that you can set",
+        "start": 635.04,
+        "duration": 3.39
+    },
+    {
+        "text": "up in the microcontroller that really",
+        "start": 636.72,
+        "duration": 4.8
+    },
+    {
+        "text": "runs very deterministically and it",
+        "start": 638.43,
+        "duration": 5.07
+    },
+    {
+        "text": "triggers the ADC without really any code",
+        "start": 641.52,
+        "duration": 4.65
+    },
+    {
+        "text": "happening and the teensy three-point-one",
+        "start": 643.5,
+        "duration": 5.25
+    },
+    {
+        "text": "has this but the teensy LC doesn't so",
+        "start": 646.17,
+        "duration": 4.44
+    },
+    {
+        "text": "when I started this project I thought I",
+        "start": 648.75,
+        "duration": 3.9
+    },
+    {
+        "text": "had a 3.1 on the shelf but I didn't I",
+        "start": 650.61,
+        "duration": 4.05
+    },
+    {
+        "text": "had an LLC and then I started coding it",
+        "start": 652.65,
+        "duration": 3.18
+    },
+    {
+        "text": "and thought oh well now it's a challenge",
+        "start": 654.66,
+        "duration": 2.85
+    },
+    {
+        "text": "I get to make it work without the PD",
+        "start": 655.83,
+        "duration": 3.93
+    },
+    {
+        "text": "be so by playing with interrupt",
+        "start": 657.51,
+        "duration": 4.25
+    },
+    {
+        "text": "priorities and writing the code as",
+        "start": 659.76,
+        "duration": 4.11
+    },
+    {
+        "text": "efficiently as I could I actually got it",
+        "start": 661.76,
+        "duration": 4.27
+    },
+    {
+        "text": "to be very very consistent it's it's",
+        "start": 663.87,
+        "duration": 4.11
+    },
+    {
+        "text": "performing as well as it possibly could",
+        "start": 666.03,
+        "duration": 4.2
+    },
+    {
+        "text": "it's not dropping samples so I thought",
+        "start": 667.98,
+        "duration": 5.37
+    },
+    {
+        "text": "that was a bit of a win the ping pong",
+        "start": 670.23,
+        "duration": 5.19
+    },
+    {
+        "text": "buffer I described like I say I don't",
+        "start": 673.35,
+        "duration": 4.95
+    },
+    {
+        "text": "know if a circular buffer would be more",
+        "start": 675.42,
+        "duration": 4.59
+    },
+    {
+        "text": "elegant or whatever but you can check it",
+        "start": 678.3,
+        "duration": 2.79
+    },
+    {
+        "text": "out and see what you think of my",
+        "start": 680.01,
+        "duration": 3.12
+    },
+    {
+        "text": "implementation there and then finally",
+        "start": 681.09,
+        "duration": 4.59
+    },
+    {
+        "text": "why am I not using DNA most of the",
+        "start": 683.13,
+        "duration": 5.7
+    },
+    {
+        "text": "resources about teen CDMA refer to the",
+        "start": 685.68,
+        "duration": 6.3
+    },
+    {
+        "text": "three point one and the DMA controller",
+        "start": 688.83,
+        "duration": 5.19
+    },
+    {
+        "text": "on the LC is different and I didn't",
+        "start": 691.98,
+        "duration": 3.57
+    },
+    {
+        "text": "really feel like learning about it and I",
+        "start": 694.02,
+        "duration": 3.03
+    },
+    {
+        "text": "got enough performance out of the code",
+        "start": 695.55,
+        "duration": 3.06
+    },
+    {
+        "text": "the way it's written now so I just went",
+        "start": 697.05,
+        "duration": 6.09
+    },
+    {
+        "text": "with that here's the setup we've got the",
+        "start": 698.61,
+        "duration": 6.21
+    },
+    {
+        "text": "composite video signal coming in from",
+        "start": 703.14,
+        "duration": 3.93
+    },
+    {
+        "text": "the SEM here and we have the USB",
+        "start": 704.82,
+        "duration": 4.71
+    },
+    {
+        "text": "connection going out here and then to",
+        "start": 707.07,
+        "duration": 3.6
+    },
+    {
+        "text": "power the board I've actually just",
+        "start": 709.53,
+        "duration": 2.94
+    },
+    {
+        "text": "tapped on to the circuit board that's",
+        "start": 710.67,
+        "duration": 3.42
+    },
+    {
+        "text": "part of the salmon we're getting ground",
+        "start": 712.47,
+        "duration": 4.68
+    },
+    {
+        "text": "plus and minus 15 volts out of it as you",
+        "start": 714.09,
+        "duration": 4.59
+    },
+    {
+        "text": "can see the thing is completely probed",
+        "start": 717.15,
+        "duration": 2.85
+    },
+    {
+        "text": "up so let's take a look at it on the",
+        "start": 718.68,
+        "duration": 4.44
+    },
+    {
+        "text": "scope here we can see everything on the",
+        "start": 720.0,
+        "duration": 5.46
+    },
+    {
+        "text": "oscilloscope so the two analog channels",
+        "start": 723.12,
+        "duration": 5.28
+    },
+    {
+        "text": "video and sync are the two analog inputs",
+        "start": 725.46,
+        "duration": 4.95
+    },
+    {
+        "text": "to the microcontroller and then we have",
+        "start": 728.4,
+        "duration": 4.14
+    },
+    {
+        "text": "USB on the top here and the scope is",
+        "start": 730.41,
+        "duration": 4.71
+    },
+    {
+        "text": "actually decoding the USB data in real",
+        "start": 732.54,
+        "duration": 5.37
+    },
+    {
+        "text": "time and then we also have debug 1 2 & 3",
+        "start": 735.12,
+        "duration": 4.83
+    },
+    {
+        "text": "down here which are digital signals that",
+        "start": 737.91,
+        "duration": 4.53
+    },
+    {
+        "text": "are generated by the microcontroller so",
+        "start": 739.95,
+        "duration": 3.66
+    },
+    {
+        "text": "if you're really interested in this you",
+        "start": 742.44,
+        "duration": 3.21
+    },
+    {
+        "text": "can download the code that I posted and",
+        "start": 743.61,
+        "duration": 3.69
+    },
+    {
+        "text": "the comments actually indicate what",
+        "start": 745.65,
+        "duration": 5.13
+    },
+    {
+        "text": "debug 1 2 & 3 are so briefly debug 3 is",
+        "start": 747.3,
+        "duration": 4.92
+    },
+    {
+        "text": "the interrupt service routine that",
+        "start": 750.78,
+        "duration": 4.17
+    },
+    {
+        "text": "handles the sync pulse developed 1 is",
+        "start": 752.22,
+        "duration": 3.93
+    },
+    {
+        "text": "the interrupt service routine that",
+        "start": 754.95,
+        "duration": 3.39
+    },
+    {
+        "text": "handles the analog digital converter and",
+        "start": 756.15,
+        "duration": 5.13
+    },
+    {
+        "text": "debug 2 is the main loop of the program",
+        "start": 758.34,
+        "duration": 5.19
+    },
+    {
+        "text": "where we actually send the data out USB",
+        "start": 761.28,
+        "duration": 4.53
+    },
+    {
+        "text": "so it's needs that we can use the scope",
+        "start": 763.53,
+        "duration": 5.07
+    },
+    {
+        "text": "to measure the duty cycle and see how",
+        "start": 765.81,
+        "duration": 4.38
+    },
+    {
+        "text": "much time is being spent by the",
+        "start": 768.6,
+        "duration": 5.57
+    },
+    {
+        "text": "microcontroller in each of these places",
+        "start": 770.19,
+        "duration": 3.98
+    },
+    {
+        "text": "so as you can see debug one is a has a",
+        "start": 774.27,
+        "duration": 5.74
+    },
+    {
+        "text": "duty cycle of about 32 percent which",
+        "start": 777.55,
+        "duration": 4.56
+    },
+    {
+        "text": "means that the processor is spending 32",
+        "start": 780.01,
+        "duration": 3.98
+    },
+    {
+        "text": "percent of its time in the",
+        "start": 782.11,
+        "duration": 3.72
+    },
+    {
+        "text": "analog/digital converter interrupt",
+        "start": 783.99,
+        "duration": 3.91
+    },
+    {
+        "text": "service routine which is kind of high I",
+        "start": 785.83,
+        "duration": 4.26
+    },
+    {
+        "text": "mean that's that's a lot of time luckily",
+        "start": 787.9,
+        "duration": 3.84
+    },
+    {
+        "text": "the job of this processor is just to",
+        "start": 790.09,
+        "duration": 3.21
+    },
+    {
+        "text": "digitize stuff and send it to the",
+        "start": 791.74,
+        "duration": 3.3
+    },
+    {
+        "text": "computer so it's not too surprising that",
+        "start": 793.3,
+        "duration": 3.0
+    },
+    {
+        "text": "it's you know spending a lot of time",
+        "start": 795.04,
+        "duration": 3.69
+    },
+    {
+        "text": "there we're also measuring the frequency",
+        "start": 796.3,
+        "duration": 5.13
+    },
+    {
+        "text": "and so we can see that that interrupt",
+        "start": 798.73,
+        "duration": 4.08
+    },
+    {
+        "text": "routine for the analog/digital converter",
+        "start": 801.43,
+        "duration": 4.44
+    },
+    {
+        "text": "fires at about 142 kilohertz which is",
+        "start": 802.81,
+        "duration": 5.4
+    },
+    {
+        "text": "the sample rate of this system these",
+        "start": 805.87,
+        "duration": 4.02
+    },
+    {
+        "text": "measurements are also being made just",
+        "start": 808.21,
+        "duration": 3.87
+    },
+    {
+        "text": "between the cursors so you can see as I",
+        "start": 809.89,
+        "duration": 4.11
+    },
+    {
+        "text": "was describing when the sync pulse comes",
+        "start": 812.08,
+        "duration": 4.83
+    },
+    {
+        "text": "we actually stop the ADC here and then",
+        "start": 814.0,
+        "duration": 5.55
+    },
+    {
+        "text": "restarted at the end of the pulse or at",
+        "start": 816.91,
+        "duration": 5.34
+    },
+    {
+        "text": "U so that we have a good sync up here so",
+        "start": 819.55,
+        "duration": 4.05
+    },
+    {
+        "text": "let me show you what happens if we don't",
+        "start": 822.25,
+        "duration": 3.81
+    },
+    {
+        "text": "have good sync up this is an image that",
+        "start": 823.6,
+        "duration": 4.65
+    },
+    {
+        "text": "shows this jaggies problem you know the",
+        "start": 826.06,
+        "duration": 4.29
+    },
+    {
+        "text": "image is sort of jagged up there and the",
+        "start": 828.25,
+        "duration": 4.35
+    },
+    {
+        "text": "reason is that on some lines the ADC",
+        "start": 830.35,
+        "duration": 4.35
+    },
+    {
+        "text": "would be restarted like a few pixels too",
+        "start": 832.6,
+        "duration": 4.2
+    },
+    {
+        "text": "early or too late depending how you look",
+        "start": 834.7,
+        "duration": 5.16
+    },
+    {
+        "text": "at it and it's kind of a small image",
+        "start": 836.8,
+        "duration": 5.13
+    },
+    {
+        "text": "problem but I got to the point where I",
+        "start": 839.86,
+        "duration": 3.54
+    },
+    {
+        "text": "realized I could fix it and so then I",
+        "start": 841.93,
+        "duration": 3.57
+    },
+    {
+        "text": "had to and syncing up or stopping the",
+        "start": 843.4,
+        "duration": 3.84
+    },
+    {
+        "text": "ADC and then starting it at the end of",
+        "start": 845.5,
+        "duration": 4.05
+    },
+    {
+        "text": "the sync pulse solved the problem very",
+        "start": 847.24,
+        "duration": 5.46
+    },
+    {
+        "text": "well let's take a look at some of the",
+        "start": 849.55,
+        "duration": 5.4
+    },
+    {
+        "text": "data that's flowing through USB so we",
+        "start": 852.7,
+        "duration": 5.76
+    },
+    {
+        "text": "just do a single acquisition here the",
+        "start": 854.95,
+        "duration": 6.77
+    },
+    {
+        "text": "blue areas are data so if we zoom in we",
+        "start": 858.46,
+        "duration": 6.06
+    },
+    {
+        "text": "can scroll over to those transactions",
+        "start": 861.72,
+        "duration": 4.93
+    },
+    {
+        "text": "and then if we look in here each one of",
+        "start": 864.52,
+        "duration": 3.57
+    },
+    {
+        "text": "these is one of the bytes that are being",
+        "start": 866.65,
+        "duration": 4.86
+    },
+    {
+        "text": "sent through the USB pipe if we ever see",
+        "start": 868.09,
+        "duration": 5.22
+    },
+    {
+        "text": "a zero in here then we know that's the",
+        "start": 871.51,
+        "duration": 3.21
+    },
+    {
+        "text": "sync pulse of course there's only one",
+        "start": 873.31,
+        "duration": 3.99
+    },
+    {
+        "text": "and so it's very hard to see and the",
+        "start": 874.72,
+        "duration": 4.26
+    },
+    {
+        "text": "scope has the ability to be triggered",
+        "start": 877.3,
+        "duration": 3.33
+    },
+    {
+        "text": "off of data that's flowing through the",
+        "start": 878.98,
+        "duration": 4.35
+    },
+    {
+        "text": "USB so you can tell it trigger when you",
+        "start": 880.63,
+        "duration": 4.35
+    },
+    {
+        "text": "see a zero in one of these but actually",
+        "start": 883.33,
+        "duration": 2.91
+    },
+    {
+        "text": "haven't got that to work so I have to",
+        "start": 884.98,
+        "duration": 4.14
+    },
+    {
+        "text": "ask a tech expert how to set this up or",
+        "start": 886.24,
+        "duration": 4.23
+    },
+    {
+        "text": "it seems like I've got it but it's just",
+        "start": 889.12,
+        "duration": 3.87
+    },
+    {
+        "text": "not triggering another thing that's",
+        "start": 890.47,
+        "duration": 4.92
+    },
+    {
+        "text": "helpful for debugging is if we get a",
+        "start": 892.99,
+        "duration": 4.53
+    },
+    {
+        "text": "single acquisition we want to look",
+        "start": 895.39,
+        "duration": 3.27
+    },
+    {
+        "text": "through the data but we don't want to",
+        "start": 897.52,
+        "duration": 2.79
+    },
+    {
+        "text": "use the magnifier so this is actually",
+        "start": 898.66,
+        "duration": 2.69
+    },
+    {
+        "text": "pretty handy if",
+        "start": 900.31,
+        "duration": 2.66
+    },
+    {
+        "text": "what you're looking for is sort of",
+        "start": 901.35,
+        "duration": 3.78
+    },
+    {
+        "text": "time-sensitive so I can use this job",
+        "start": 902.97,
+        "duration": 3.75
+    },
+    {
+        "text": "wheel to scroll through and I can say oh",
+        "start": 905.13,
+        "duration": 3.24
+    },
+    {
+        "text": "yeah that's you know the value that",
+        "start": 906.72,
+        "duration": 3.78
+    },
+    {
+        "text": "corresponds to the thing and since we're",
+        "start": 908.37,
+        "duration": 4.38
+    },
+    {
+        "text": "also recording the analog value you can",
+        "start": 910.5,
+        "duration": 3.75
+    },
+    {
+        "text": "kind of look for a blip that might have",
+        "start": 912.75,
+        "duration": 3.12
+    },
+    {
+        "text": "happened in the analog Channel and look",
+        "start": 914.25,
+        "duration": 4.14
+    },
+    {
+        "text": "for it in the digital but alternatively",
+        "start": 915.87,
+        "duration": 6.24
+    },
+    {
+        "text": "what we can do is pull up the event",
+        "start": 918.39,
+        "duration": 6.12
+    },
+    {
+        "text": "table and this is just sort of a listing",
+        "start": 922.11,
+        "duration": 4.26
+    },
+    {
+        "text": "of all the data that's gone through that",
+        "start": 924.51,
+        "duration": 4.37
+    },
+    {
+        "text": "USB pipe in this particular acquisition",
+        "start": 926.37,
+        "duration": 5.67
+    },
+    {
+        "text": "we're sending individual bytes so half",
+        "start": 928.88,
+        "duration": 6.58
+    },
+    {
+        "text": "of each one of these nibbles here is a",
+        "start": 932.04,
+        "duration": 5.4
+    },
+    {
+        "text": "sample and we can look through here and",
+        "start": 935.46,
+        "duration": 4.22
+    },
+    {
+        "text": "look for a zero and that sort of thing",
+        "start": 937.44,
+        "duration": 4.41
+    },
+    {
+        "text": "you'll also notice there's a lot of",
+        "start": 939.68,
+        "duration": 5.05
+    },
+    {
+        "text": "these nak packets remember that USB is",
+        "start": 941.85,
+        "duration": 5.16
+    },
+    {
+        "text": "kintyre lis controlled by the host so",
+        "start": 944.73,
+        "duration": 4.98
+    },
+    {
+        "text": "the the client the microcontroller can't",
+        "start": 947.01,
+        "duration": 4.89
+    },
+    {
+        "text": "tell the host that it wants to send data",
+        "start": 949.71,
+        "duration": 5.01
+    },
+    {
+        "text": "it has to wait for the host to ask so in",
+        "start": 951.9,
+        "duration": 5.31
+    },
+    {
+        "text": "this case since the host is pulling in",
+        "start": 954.72,
+        "duration": 4.17
+    },
+    {
+        "text": "the data as quickly as possible it keeps",
+        "start": 957.21,
+        "duration": 3.18
+    },
+    {
+        "text": "sending requests to the microcontroller",
+        "start": 958.89,
+        "duration": 3.45
+    },
+    {
+        "text": "saying you know do you have any data do",
+        "start": 960.39,
+        "duration": 3.75
+    },
+    {
+        "text": "you have any data and all of these",
+        "start": 962.34,
+        "duration": 2.91
+    },
+    {
+        "text": "knacks are the microcontroller",
+        "start": 964.14,
+        "duration": 4.2
+    },
+    {
+        "text": "responding no my buffer is not full and",
+        "start": 965.25,
+        "duration": 5.31
+    },
+    {
+        "text": "I don't have any data to send and then",
+        "start": 968.34,
+        "duration": 4.74
+    },
+    {
+        "text": "eventually the computer asked and the",
+        "start": 970.56,
+        "duration": 4.38
+    },
+    {
+        "text": "microcontroller responds yeah the day of",
+        "start": 973.08,
+        "duration": 3.42
+    },
+    {
+        "text": "the buffer is full so I can send you all",
+        "start": 974.94,
+        "duration": 2.06
+    },
+    {
+        "text": "this stuff",
+        "start": 976.5,
+        "duration": 2.85
+    },
+    {
+        "text": "which is why it's helpful to have the",
+        "start": 977.0,
+        "duration": 4.51
+    },
+    {
+        "text": "buffer always filled up too close to the",
+        "start": 979.35,
+        "duration": 5.1
+    },
+    {
+        "text": "64 byte maximum that way one transaction",
+        "start": 981.51,
+        "duration": 5.19
+    },
+    {
+        "text": "is full whereas if you send each byte",
+        "start": 984.45,
+        "duration": 4.65
+    },
+    {
+        "text": "all by themselves you end up wasting",
+        "start": 986.7,
+        "duration": 3.96
+    },
+    {
+        "text": "lots of transactions that are just",
+        "start": 989.1,
+        "duration": 2.94
+    },
+    {
+        "text": "carrying one byte when they could have",
+        "start": 990.66,
+        "duration": 5.22
+    },
+    {
+        "text": "been carrying up to 64 so here's the",
+        "start": 992.04,
+        "duration": 5.34
+    },
+    {
+        "text": "whole set up you can see the computer",
+        "start": 995.88,
+        "duration": 3.21
+    },
+    {
+        "text": "tracks right along with the SEM in terms",
+        "start": 997.38,
+        "duration": 3.96
+    },
+    {
+        "text": "of the scan out and the update rate is",
+        "start": 999.09,
+        "duration": 4.26
+    },
+    {
+        "text": "truly real-time so that you can see",
+        "start": 1001.34,
+        "duration": 4.02
+    },
+    {
+        "text": "exactly what the SEM is transmitting",
+        "start": 1003.35,
+        "duration": 3.33
+    },
+    {
+        "text": "because the transfer rate isn't really",
+        "start": 1005.36,
+        "duration": 4.8
+    },
+    {
+        "text": "that high so after all that you might be",
+        "start": 1006.68,
+        "duration": 4.8
+    },
+    {
+        "text": "wondering why didn't I just use the",
+        "start": 1010.16,
+        "duration": 3.21
+    },
+    {
+        "text": "microcontroller to actually generate the",
+        "start": 1011.48,
+        "duration": 3.48
+    },
+    {
+        "text": "scan rate instead of just you know",
+        "start": 1013.37,
+        "duration": 4.05
+    },
+    {
+        "text": "passively taking this slow 10 seconds",
+        "start": 1014.96,
+        "duration": 4.62
+    },
+    {
+        "text": "per frame scan yeah that's definitely",
+        "start": 1017.42,
+        "duration": 5.85
+    },
+    {
+        "text": "kind of a phase 2 type thing so using",
+        "start": 1019.58,
+        "duration": 5.61
+    },
+    {
+        "text": "the analog outputs of the",
+        "start": 1023.27,
+        "duration": 4.2
+    },
+    {
+        "text": "microcontroller to generate the X&Y scan",
+        "start": 1025.19,
+        "duration": 4.32
+    },
+    {
+        "text": "would actually be helpful but at this",
+        "start": 1027.47,
+        "duration": 3.33
+    },
+    {
+        "text": "point I'm mostly just interested in",
+        "start": 1029.51,
+        "duration": 1.75
+    },
+    {
+        "text": "making",
+        "start": 1030.8,
+        "duration": 2.02
+    },
+    {
+        "text": "innovations and if I can get away with",
+        "start": 1031.26,
+        "duration": 4.05
+    },
+    {
+        "text": "just using the existing scan rate and",
+        "start": 1032.82,
+        "duration": 4.23
+    },
+    {
+        "text": "that's okay but I would like to",
+        "start": 1035.31,
+        "duration": 3.6
+    },
+    {
+        "text": "experiment with high-speed acquisition",
+        "start": 1037.05,
+        "duration": 4.44
+    },
+    {
+        "text": "and we'll have to generate my own scan",
+        "start": 1038.91,
+        "duration": 5.4
+    },
+    {
+        "text": "rates for that okay see you next time",
+        "start": 1041.49,
+        "duration": 5.3
+    },
+    {
+        "text": "bye",
+        "start": 1044.31,
+        "duration": 2.48
+    }
+]

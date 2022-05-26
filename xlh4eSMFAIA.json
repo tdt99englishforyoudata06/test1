@@ -1,0 +1,697 @@
+[
+    {
+        "text": "hi everyone I thought I'd make a video",
+        "start": 0.38,
+        "duration": 4.6
+    },
+    {
+        "text": "and show the latest project that I've",
+        "start": 3.03,
+        "duration": 5.279
+    },
+    {
+        "text": "been working on it is a ten finger flex",
+        "start": 4.98,
+        "duration": 5.789
+    },
+    {
+        "text": "sensor arrangement built into two gloves",
+        "start": 8.309,
+        "duration": 5.25
+    },
+    {
+        "text": "to do motion capture of all 10 fingers",
+        "start": 10.769,
+        "duration": 6.031
+    },
+    {
+        "text": "and I used these flex sensors which you",
+        "start": 13.559,
+        "duration": 6.591
+    },
+    {
+        "text": "can get from Sparkfun they're made by",
+        "start": 16.8,
+        "duration": 6.51
+    },
+    {
+        "text": "spectra cymbal and it's basically a",
+        "start": 20.15,
+        "duration": 5.619
+    },
+    {
+        "text": "variable resistor that changes value",
+        "start": 23.31,
+        "duration": 4.53
+    },
+    {
+        "text": "when you flex it they typically only",
+        "start": 25.769,
+        "duration": 4.41
+    },
+    {
+        "text": "work in one direction so it's flat you",
+        "start": 27.84,
+        "duration": 5.94
+    },
+    {
+        "text": "get about 10 K and when you bend it I",
+        "start": 30.179,
+        "duration": 5.31
+    },
+    {
+        "text": "think it goes up to about 15 K or",
+        "start": 33.78,
+        "duration": 4.32
+    },
+    {
+        "text": "something like that so what I've done is",
+        "start": 35.489,
+        "duration": 4.561
+    },
+    {
+        "text": "I've mounted them on these gloves these",
+        "start": 38.1,
+        "duration": 7.83
+    },
+    {
+        "text": "are underarmor brand the yard to which I",
+        "start": 40.05,
+        "duration": 8.189
+    },
+    {
+        "text": "selected because these are their batting",
+        "start": 45.93,
+        "duration": 5.01
+    },
+    {
+        "text": "gloves and I selected them because the",
+        "start": 48.239,
+        "duration": 4.91
+    },
+    {
+        "text": "has sort of like a two ply construction",
+        "start": 50.94,
+        "duration": 4.5
+    },
+    {
+        "text": "so the outer layer is like this",
+        "start": 53.149,
+        "duration": 5.111
+    },
+    {
+        "text": "synthetic leather and the under layer is",
+        "start": 55.44,
+        "duration": 5.4
+    },
+    {
+        "text": "a cloth sort of liner on the inside of",
+        "start": 58.26,
+        "duration": 4.86
+    },
+    {
+        "text": "the glove so it makes it easy to cut",
+        "start": 60.84,
+        "duration": 4.74
+    },
+    {
+        "text": "little slits in the leather and then",
+        "start": 63.12,
+        "duration": 7.17
+    },
+    {
+        "text": "insert the sensor through and as I'll",
+        "start": 65.58,
+        "duration": 8.25
+    },
+    {
+        "text": "show you the mounting is not so trivial",
+        "start": 70.29,
+        "duration": 5.79
+    },
+    {
+        "text": "you can't just sort of glue the sensor",
+        "start": 73.83,
+        "duration": 4.679
+    },
+    {
+        "text": "on because what happens when you flex a",
+        "start": 76.08,
+        "duration": 6.39
+    },
+    {
+        "text": "finger the sensor has to slide a little",
+        "start": 78.509,
+        "duration": 8.011
+    },
+    {
+        "text": "bit up here and so if you fix the sensor",
+        "start": 82.47,
+        "duration": 6.5
+    },
+    {
+        "text": "down throughout the whole finger length",
+        "start": 86.52,
+        "duration": 4.47
+    },
+    {
+        "text": "it's just going to break or it's going",
+        "start": 88.97,
+        "duration": 3.49
+    },
+    {
+        "text": "to be very difficult to flex the finger",
+        "start": 90.99,
+        "duration": 4.98
+    },
+    {
+        "text": "because it needs to slide up here so",
+        "start": 92.46,
+        "duration": 6.0
+    },
+    {
+        "text": "what I've done is I've used a needle and",
+        "start": 95.97,
+        "duration": 4.92
+    },
+    {
+        "text": "thread to fix the base of at the bottom",
+        "start": 98.46,
+        "duration": 4.769
+    },
+    {
+        "text": "of the sensor to this synthetic leather",
+        "start": 100.89,
+        "duration": 6.14
+    },
+    {
+        "text": "coating and the rest of it is just",
+        "start": 103.229,
+        "duration": 7.021
+    },
+    {
+        "text": "threaded through the glove material here",
+        "start": 107.03,
+        "duration": 6.129
+    },
+    {
+        "text": "so it can slide pretty easily so this is",
+        "start": 110.25,
+        "duration": 6.09
+    },
+    {
+        "text": "it allows quite a lot of dexterity you",
+        "start": 113.159,
+        "duration": 7.35
+    },
+    {
+        "text": "can actually you know work with things",
+        "start": 116.34,
+        "duration": 6.629
+    },
+    {
+        "text": "pretty much normally and the glove",
+        "start": 120.509,
+        "duration": 3.781
+    },
+    {
+        "text": "doesn't really restrain very much",
+        "start": 122.969,
+        "duration": 2.671
+    },
+    {
+        "text": "movement it's still pretty easy to",
+        "start": 124.29,
+        "duration": 3.95
+    },
+    {
+        "text": "operate things",
+        "start": 125.64,
+        "duration": 2.6
+    },
+    {
+        "text": "each of the ten flex sensors is",
+        "start": 130.8,
+        "duration": 4.69
+    },
+    {
+        "text": "connected to a negative five volt source",
+        "start": 133.48,
+        "duration": 4.11
+    },
+    {
+        "text": "which is generated in this little",
+        "start": 135.49,
+        "duration": 5.46
+    },
+    {
+        "text": "monolithic 5 volt converter here put",
+        "start": 137.59,
+        "duration": 6.18
+    },
+    {
+        "text": "some details up on those and the",
+        "start": 140.95,
+        "duration": 4.68
+    },
+    {
+        "text": "negative 5 volts is run through the",
+        "start": 143.77,
+        "duration": 4.56
+    },
+    {
+        "text": "sensor which is just a variable resistor",
+        "start": 145.63,
+        "duration": 5.76
+    },
+    {
+        "text": "and then fed into an op-amp circuit so",
+        "start": 148.33,
+        "duration": 5.4
+    },
+    {
+        "text": "there's ten identical op-amp circuits in",
+        "start": 151.39,
+        "duration": 6.5
+    },
+    {
+        "text": "there I like using LM 324 s just because",
+        "start": 153.73,
+        "duration": 7.74
+    },
+    {
+        "text": "they're good for you know a low",
+        "start": 157.89,
+        "duration": 7.84
+    },
+    {
+        "text": "frequency relatively high or low DC",
+        "start": 161.47,
+        "duration": 6.269
+    },
+    {
+        "text": "offset so they're good for DC circuits",
+        "start": 165.73,
+        "duration": 5.729
+    },
+    {
+        "text": "and voltage measurement the trimpots",
+        "start": 167.739,
+        "duration": 6.241
+    },
+    {
+        "text": "are designed to allow me to sort of",
+        "start": 171.459,
+        "duration": 4.021
+    },
+    {
+        "text": "calibrate the circuit so that when the",
+        "start": 173.98,
+        "duration": 3.479
+    },
+    {
+        "text": "fingers are straight they all give",
+        "start": 175.48,
+        "duration": 3.93
+    },
+    {
+        "text": "approximately the same voltage output",
+        "start": 177.459,
+        "duration": 5.161
+    },
+    {
+        "text": "value so what I did was just lay the",
+        "start": 179.41,
+        "duration": 6.42
+    },
+    {
+        "text": "gloves flat on a table and then go",
+        "start": 182.62,
+        "duration": 4.92
+    },
+    {
+        "text": "through each sensor and adjust the trim",
+        "start": 185.83,
+        "duration": 3.51
+    },
+    {
+        "text": "pot so that I got about a nominal three",
+        "start": 187.54,
+        "duration": 3.87
+    },
+    {
+        "text": "and a half a volt signal and then when",
+        "start": 189.34,
+        "duration": 3.869
+    },
+    {
+        "text": "the finger is flexed the voltage goes",
+        "start": 191.41,
+        "duration": 7.049
+    },
+    {
+        "text": "down so three and a half volts is sort",
+        "start": 193.209,
+        "duration": 5.761
+    },
+    {
+        "text": "of closed",
+        "start": 198.459,
+        "duration": 2.431
+    },
+    {
+        "text": "these aren't rail-to-rail op amps so if",
+        "start": 198.97,
+        "duration": 4.17
+    },
+    {
+        "text": "you feed them a five volt source you're",
+        "start": 200.89,
+        "duration": 3.81
+    },
+    {
+        "text": "only guaranteed about three and a half",
+        "start": 203.14,
+        "duration": 4.47
+    },
+    {
+        "text": "out in this circuit I'm actually feeding",
+        "start": 204.7,
+        "duration": 5.28
+    },
+    {
+        "text": "them with a six volt source so I can go",
+        "start": 207.61,
+        "duration": 4.349
+    },
+    {
+        "text": "up to about four and a half volts output",
+        "start": 209.98,
+        "duration": 5.009
+    },
+    {
+        "text": "voltage and I chose three and a half for",
+        "start": 211.959,
+        "duration": 5.31
+    },
+    {
+        "text": "the nominal sensor output just to make",
+        "start": 214.989,
+        "duration": 4.321
+    },
+    {
+        "text": "sure there was some Headroom there when",
+        "start": 217.269,
+        "duration": 3.72
+    },
+    {
+        "text": "the finger is fully flexed the voltage",
+        "start": 219.31,
+        "duration": 4.11
+    },
+    {
+        "text": "goes down to about one volt or maybe a",
+        "start": 220.989,
+        "duration": 7.47
+    },
+    {
+        "text": "volt and a half the 10 individual analog",
+        "start": 223.42,
+        "duration": 6.87
+    },
+    {
+        "text": "voltage signals from the op amps are",
+        "start": 228.459,
+        "duration": 4.381
+    },
+    {
+        "text": "connected to a National Instruments USB",
+        "start": 230.29,
+        "duration": 6.57
+    },
+    {
+        "text": "6210 which is just an analog capture",
+        "start": 232.84,
+        "duration": 6.209
+    },
+    {
+        "text": "device and it makes it easy to get raw",
+        "start": 236.86,
+        "duration": 6.96
+    },
+    {
+        "text": "analog voltages into a computer okay so",
+        "start": 239.049,
+        "duration": 6.991
+    },
+    {
+        "text": "here we are in LabVIEW signal Express",
+        "start": 243.82,
+        "duration": 4.949
+    },
+    {
+        "text": "this is just a really basic data capture",
+        "start": 246.04,
+        "duration": 5.4
+    },
+    {
+        "text": "program and I'm going to put on both",
+        "start": 248.769,
+        "duration": 5.151
+    },
+    {
+        "text": "gloves",
+        "start": 251.44,
+        "duration": 2.48
+    },
+    {
+        "text": "okay and so now the upper graph has five",
+        "start": 256.82,
+        "duration": 8.23
+    },
+    {
+        "text": "traces on it and so I'll close my hand",
+        "start": 262.109,
+        "duration": 4.381
+    },
+    {
+        "text": "and you can see all the traces on the",
+        "start": 265.05,
+        "duration": 3.5
+    },
+    {
+        "text": "upper graph and now open my hand again",
+        "start": 266.49,
+        "duration": 5.149
+    },
+    {
+        "text": "traces move up and down like this and",
+        "start": 268.55,
+        "duration": 8.11
+    },
+    {
+        "text": "this is each finger moving so you can",
+        "start": 271.639,
+        "duration": 7.861
+    },
+    {
+        "text": "see the different color for each finger",
+        "start": 276.66,
+        "duration": 5.49
+    },
+    {
+        "text": "and here's the other hand the lower",
+        "start": 279.5,
+        "duration": 5.169
+    },
+    {
+        "text": "graph is the right hand so we're getting",
+        "start": 282.15,
+        "duration": 4.95
+    },
+    {
+        "text": "a volt of signal swing from about three",
+        "start": 284.669,
+        "duration": 4.801
+    },
+    {
+        "text": "and a half volts and if I close my hand",
+        "start": 287.1,
+        "duration": 4.289
+    },
+    {
+        "text": "completely get about a volt and a half",
+        "start": 289.47,
+        "duration": 3.63
+    },
+    {
+        "text": "or two volts on one finger",
+        "start": 291.389,
+        "duration": 5.731
+    },
+    {
+        "text": "that's the thumb it looks like the",
+        "start": 293.1,
+        "duration": 8.55
+    },
+    {
+        "text": "bottom graph is a scaling graph just to",
+        "start": 297.12,
+        "duration": 6.359
+    },
+    {
+        "text": "show kind of the noise on one of these",
+        "start": 301.65,
+        "duration": 4.079
+    },
+    {
+        "text": "lines I've set the top two graphs not to",
+        "start": 303.479,
+        "duration": 4.351
+    },
+    {
+        "text": "auto scale so it's hard to see the noise",
+        "start": 305.729,
+        "duration": 4.921
+    },
+    {
+        "text": "but it's easy to see the signal there if",
+        "start": 307.83,
+        "duration": 5.399
+    },
+    {
+        "text": "I stop if I took off the gloves you can",
+        "start": 310.65,
+        "duration": 4.29
+    },
+    {
+        "text": "see on the bottom here it's moving from",
+        "start": 313.229,
+        "duration": 4.56
+    },
+    {
+        "text": "about three point four eight seven to",
+        "start": 314.94,
+        "duration": 6.39
+    },
+    {
+        "text": "about three point four nine so really",
+        "start": 317.789,
+        "duration": 6.69
+    },
+    {
+        "text": "eight nine it's really only oscillating",
+        "start": 321.33,
+        "duration": 4.8
+    },
+    {
+        "text": "by a few millivolts or pretty much the",
+        "start": 324.479,
+        "duration": 3.841
+    },
+    {
+        "text": "resolution of the of the digital analog",
+        "start": 326.13,
+        "duration": 3.45
+    },
+    {
+        "text": "converter or the analog digital",
+        "start": 328.32,
+        "duration": 3.83
+    },
+    {
+        "text": "converter so that's very good",
+        "start": 329.58,
+        "duration": 4.98
+    },
+    {
+        "text": "so I don't have an actual application",
+        "start": 332.15,
+        "duration": 3.88
+    },
+    {
+        "text": "for this yet this is a project for",
+        "start": 334.56,
+        "duration": 2.76
+    },
+    {
+        "text": "someone else and they're going to use",
+        "start": 336.03,
+        "duration": 3.59
+    },
+    {
+        "text": "the data from the National Instruments",
+        "start": 337.32,
+        "duration": 5.61
+    },
+    {
+        "text": "software for another analysis but I",
+        "start": 339.62,
+        "duration": 4.63
+    },
+    {
+        "text": "think this really could be used for a",
+        "start": 342.93,
+        "duration": 3.51
+    },
+    {
+        "text": "lot of different things including you",
+        "start": 344.25,
+        "duration": 3.81
+    },
+    {
+        "text": "know virtual reality and the obvious",
+        "start": 346.44,
+        "duration": 4.38
+    },
+    {
+        "text": "sort of video game controls but they're",
+        "start": 348.06,
+        "duration": 5.579
+    },
+    {
+        "text": "fairly solid gloves they're there's a",
+        "start": 350.82,
+        "duration": 3.96
+    },
+    {
+        "text": "little bit of a problem with these",
+        "start": 353.639,
+        "duration": 4.741
+    },
+    {
+        "text": "sensors sticking out the front so if",
+        "start": 354.78,
+        "duration": 5.1
+    },
+    {
+        "text": "you're repeatedly picking off objects",
+        "start": 358.38,
+        "duration": 3.48
+    },
+    {
+        "text": "that might be an issue but other than",
+        "start": 359.88,
+        "duration": 3.75
+    },
+    {
+        "text": "that it leaves the palms totally open",
+        "start": 361.86,
+        "duration": 3.69
+    },
+    {
+        "text": "and it really doesn't restrict movement",
+        "start": 363.63,
+        "duration": 3.48
+    },
+    {
+        "text": "very much you still retain a lot of good",
+        "start": 365.55,
+        "duration": 3.77
+    },
+    {
+        "text": "dexterity",
+        "start": 367.11,
+        "duration": 2.21
+    }
+]

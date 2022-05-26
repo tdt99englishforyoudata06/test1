@@ -1,0 +1,522 @@
+[
+    {
+        "text": "hey everyone a very generous viewer sent",
+        "start": 0.14,
+        "duration": 6.61
+    },
+    {
+        "text": "me this detector on dg2 Geiger counter",
+        "start": 3.659,
+        "duration": 5.791
+    },
+    {
+        "text": "and I decided to take it apart tonight",
+        "start": 6.75,
+        "duration": 6.03
+    },
+    {
+        "text": "and see how it was doing so this Geiger",
+        "start": 9.45,
+        "duration": 5.49
+    },
+    {
+        "text": "counter was originally a battery powered",
+        "start": 12.78,
+        "duration": 4.169
+    },
+    {
+        "text": "it was portable and it was powered by",
+        "start": 14.94,
+        "duration": 5.07
+    },
+    {
+        "text": "two of these B batteries at 45 volts",
+        "start": 16.949,
+        "duration": 6.721
+    },
+    {
+        "text": "apiece and two D cells at you know one",
+        "start": 20.01,
+        "duration": 6.089
+    },
+    {
+        "text": "and a half volts apiece so since I don't",
+        "start": 23.67,
+        "duration": 4.439
+    },
+    {
+        "text": "have any B batteries what I'm doing is",
+        "start": 26.099,
+        "duration": 4.08
+    },
+    {
+        "text": "using this high voltage supply to feed",
+        "start": 28.109,
+        "duration": 4.591
+    },
+    {
+        "text": "it it's high voltage and this will be",
+        "start": 30.179,
+        "duration": 4.29
+    },
+    {
+        "text": "making appearances in future videos as",
+        "start": 32.7,
+        "duration": 4.379
+    },
+    {
+        "text": "well this is an electrophoresis power",
+        "start": 34.469,
+        "duration": 4.471
+    },
+    {
+        "text": "supply that claims it can do six",
+        "start": 37.079,
+        "duration": 6.601
+    },
+    {
+        "text": "kilovolts at 100 milliamps that's a lot",
+        "start": 38.94,
+        "duration": 6.48
+    },
+    {
+        "text": "of power at high voltage so we're gonna",
+        "start": 43.68,
+        "duration": 3.33
+    },
+    {
+        "text": "be hooking this up to some capacitor",
+        "start": 45.42,
+        "duration": 3.78
+    },
+    {
+        "text": "banks and see what we can do with that",
+        "start": 47.01,
+        "duration": 4.319
+    },
+    {
+        "text": "later well the really cool thing is that",
+        "start": 49.2,
+        "duration": 5.01
+    },
+    {
+        "text": "you can set current power and voltage",
+        "start": 51.329,
+        "duration": 5.82
+    },
+    {
+        "text": "and if you put it on it's set mode you",
+        "start": 54.21,
+        "duration": 4.77
+    },
+    {
+        "text": "can put different values in for each of",
+        "start": 57.149,
+        "duration": 4.05
+    },
+    {
+        "text": "the limits and then it will select which",
+        "start": 58.98,
+        "duration": 3.809
+    },
+    {
+        "text": "limit is being hit so you can actually",
+        "start": 61.199,
+        "duration": 3.18
+    },
+    {
+        "text": "configure this to do quite a lot of",
+        "start": 62.789,
+        "duration": 3.931
+    },
+    {
+        "text": "things the only downside is that it has",
+        "start": 64.379,
+        "duration": 4.861
+    },
+    {
+        "text": "a lot of safeties in its output and so",
+        "start": 66.72,
+        "duration": 4.23
+    },
+    {
+        "text": "it requires a load to be connected",
+        "start": 69.24,
+        "duration": 4.29
+    },
+    {
+        "text": "before it will start the power and if",
+        "start": 70.95,
+        "duration": 4.739
+    },
+    {
+        "text": "something weird happens like if you have",
+        "start": 73.53,
+        "duration": 3.99
+    },
+    {
+        "text": "more voltage going in and it's supplying",
+        "start": 75.689,
+        "duration": 3.391
+    },
+    {
+        "text": "it shuts down and all kinds of stupid",
+        "start": 77.52,
+        "duration": 3.81
+    },
+    {
+        "text": "stuff but in any case to power the",
+        "start": 79.08,
+        "duration": 4.679
+    },
+    {
+        "text": "Geiger counter I've got a 1 Meg resistor",
+        "start": 81.33,
+        "duration": 5.52
+    },
+    {
+        "text": "just to get past some of that and its",
+        "start": 83.759,
+        "duration": 5.551
+    },
+    {
+        "text": "output is not very clean so I'm feeding",
+        "start": 86.85,
+        "duration": 4.89
+    },
+    {
+        "text": "it through an RC network into the Geiger",
+        "start": 89.31,
+        "duration": 4.41
+    },
+    {
+        "text": "counter and currently it's only using 2",
+        "start": 91.74,
+        "duration": 5.58
+    },
+    {
+        "text": "point 2 milliamps and currently it looks",
+        "start": 93.72,
+        "duration": 7.41
+    },
+    {
+        "text": "like what I've got here is a bad two so",
+        "start": 97.32,
+        "duration": 7.29
+    },
+    {
+        "text": "I've got a strontium-90 source on the",
+        "start": 101.13,
+        "duration": 4.86
+    },
+    {
+        "text": "end of this stick I actually don't have",
+        "start": 104.61,
+        "duration": 3.03
+    },
+    {
+        "text": "a pure gamma source so I'm just using",
+        "start": 105.99,
+        "duration": 3.51
+    },
+    {
+        "text": "this strontium 90 which is a beta",
+        "start": 107.64,
+        "duration": 4.979
+    },
+    {
+        "text": "emitter and if I put it right near the",
+        "start": 109.5,
+        "duration": 4.77
+    },
+    {
+        "text": "two can kind of tap on it nothing's",
+        "start": 112.619,
+        "duration": 2.311
+    },
+    {
+        "text": "happening",
+        "start": 114.27,
+        "duration": 2.79
+    },
+    {
+        "text": "now I'll swear that I've had this",
+        "start": 114.93,
+        "duration": 3.93
+    },
+    {
+        "text": "actually work with its existing tube if",
+        "start": 117.06,
+        "duration": 4.379
+    },
+    {
+        "text": "I kind of tap on it just right but it",
+        "start": 118.86,
+        "duration": 4.119
+    },
+    {
+        "text": "really doesn't seem to be doing much",
+        "start": 121.439,
+        "duration": 6.04
+    },
+    {
+        "text": "so to test it I've hooked up another",
+        "start": 122.979,
+        "duration": 6.931
+    },
+    {
+        "text": "Geiger to this one I borrowed from",
+        "start": 127.479,
+        "duration": 4.681
+    },
+    {
+        "text": "mighty ohms Geiger counter and now you",
+        "start": 129.91,
+        "duration": 3.9
+    },
+    {
+        "text": "can see it's actually working just fine",
+        "start": 132.16,
+        "duration": 4.26
+    },
+    {
+        "text": "so if I even get within a few inches",
+        "start": 133.81,
+        "duration": 7.59
+    },
+    {
+        "text": "it's almost topping the scale at 0.2",
+        "start": 136.42,
+        "duration": 8.21
+    },
+    {
+        "text": "millirads per hour",
+        "start": 141.4,
+        "duration": 3.23
+    },
+    {
+        "text": "so the device has three tubes total to",
+        "start": 150.28,
+        "duration": 5.22
+    },
+    {
+        "text": "up here and one here and I believe this",
+        "start": 153.07,
+        "duration": 4.71
+    },
+    {
+        "text": "lower two in conjunction with this coil",
+        "start": 155.5,
+        "duration": 4.41
+    },
+    {
+        "text": "this is not a transformer that actually",
+        "start": 157.78,
+        "duration": 4.95
+    },
+    {
+        "text": "just a coil forms the high voltage",
+        "start": 159.91,
+        "duration": 5.37
+    },
+    {
+        "text": "generation circuit for this and there's",
+        "start": 162.73,
+        "duration": 4.35
+    },
+    {
+        "text": "a neon light here which functions as a",
+        "start": 165.28,
+        "duration": 3.51
+    },
+    {
+        "text": "you know kind of a voltage controlled",
+        "start": 167.08,
+        "duration": 5.67
+    },
+    {
+        "text": "switch there presumably the voltage is",
+        "start": 168.79,
+        "duration": 6.36
+    },
+    {
+        "text": "stored in these two caps and the tube",
+        "start": 172.75,
+        "duration": 6.24
+    },
+    {
+        "text": "operates at about 270 volts so the way",
+        "start": 175.15,
+        "duration": 5.28
+    },
+    {
+        "text": "these Geiger tubes work is it's",
+        "start": 178.99,
+        "duration": 4.83
+    },
+    {
+        "text": "basically just a center conductor with",
+        "start": 180.43,
+        "duration": 5.73
+    },
+    {
+        "text": "some very low pressure gas in here and",
+        "start": 183.82,
+        "duration": 5.22
+    },
+    {
+        "text": "when a gamma wave enters the tube it",
+        "start": 186.16,
+        "duration": 5.07
+    },
+    {
+        "text": "ionized is one of the gas molecules and",
+        "start": 189.04,
+        "duration": 4.23
+    },
+    {
+        "text": "provides a way for charge to leak from",
+        "start": 191.23,
+        "duration": 5.96
+    },
+    {
+        "text": "one electrode to the next so the more",
+        "start": 193.27,
+        "duration": 6.39
+    },
+    {
+        "text": "radioactive waves and particles you have",
+        "start": 197.19,
+        "duration": 4.6
+    },
+    {
+        "text": "going on in there the more ionization",
+        "start": 199.66,
+        "duration": 3.21
+    },
+    {
+        "text": "you'll have and the more current will",
+        "start": 201.79,
+        "duration": 3.39
+    },
+    {
+        "text": "flow between the two electrodes so it's",
+        "start": 202.87,
+        "duration": 5.1
+    },
+    {
+        "text": "actually very simple in principle the",
+        "start": 205.18,
+        "duration": 5.64
+    },
+    {
+        "text": "device has three different scales on the",
+        "start": 207.97,
+        "duration": 4.5
+    },
+    {
+        "text": "front and what it's doing is its",
+        "start": 210.82,
+        "duration": 3.62
+    },
+    {
+        "text": "selecting in one of these three",
+        "start": 212.47,
+        "duration": 4.32
+    },
+    {
+        "text": "precision capacitors up here these are",
+        "start": 214.44,
+        "duration": 6.94
+    },
+    {
+        "text": "mica mica layer capacitors and for the",
+        "start": 216.79,
+        "duration": 6.509
+    },
+    {
+        "text": "gauge readout there's a very large cap",
+        "start": 221.38,
+        "duration": 3.9
+    },
+    {
+        "text": "here that integrates the signal so",
+        "start": 223.299,
+        "duration": 4.171
+    },
+    {
+        "text": "between these two vacuum tubes on the",
+        "start": 225.28,
+        "duration": 4.769
+    },
+    {
+        "text": "top I imagine there's a fairly sensitive",
+        "start": 227.47,
+        "duration": 6.12
+    },
+    {
+        "text": "amplifier and amplifies those current",
+        "start": 230.049,
+        "duration": 5.25
+    },
+    {
+        "text": "pulses from the tube into something that",
+        "start": 233.59,
+        "duration": 4.709
+    },
+    {
+        "text": "can be read out it also has a headphone",
+        "start": 235.299,
+        "duration": 9.021
+    },
+    {
+        "text": "jack a headphone jack over here",
+        "start": 238.299,
+        "duration": 6.021
+    },
+    {
+        "text": "so overall pretty cool piece of kit and",
+        "start": 245.41,
+        "duration": 4.56
+    },
+    {
+        "text": "still working after you know 60 or 70",
+        "start": 247.63,
+        "duration": 3.87
+    },
+    {
+        "text": "years or whatever it's been that except",
+        "start": 249.97,
+        "duration": 3.72
+    },
+    {
+        "text": "for the tube itself and even that I kind",
+        "start": 251.5,
+        "duration": 4.05
+    },
+    {
+        "text": "of like I say I've swear I've seen that",
+        "start": 253.69,
+        "duration": 3.81
+    },
+    {
+        "text": "thing working but I think the electrode",
+        "start": 255.55,
+        "duration": 3.6
+    },
+    {
+        "text": "might have jiggled news so it",
+        "start": 257.5,
+        "duration": 3.09
+    },
+    {
+        "text": "occasionally shorts out or something",
+        "start": 259.15,
+        "duration": 6.8
+    },
+    {
+        "text": "like that okay see you next time bye",
+        "start": 260.59,
+        "duration": 5.36
+    }
+]

@@ -1,0 +1,807 @@
+[
+    {
+        "text": "This probably looks like gibberish to you,",
+        "start": 11.1,
+        "duration": 1.86
+    },
+    {
+        "text": "and it should because it's a cryptogram,",
+        "start": 13.22,
+        "duration": 1.28
+    },
+    {
+        "text": "a message in code.",
+        "start": 14.74,
+        "duration": 1.08
+    },
+    {
+        "text": "But, if I told you that all I did was",
+        "start": 15.82,
+        "duration": 1.52
+    },
+    {
+        "text": "shift every letter in the sentence",
+        "start": 17.7,
+        "duration": 1.42
+    },
+    {
+        "text": "to the next one in the alphabet,",
+        "start": 19.34,
+        "duration": 1.2
+    },
+    {
+        "text": "then you'd know that it translates to this.",
+        "start": 20.88,
+        "duration": 1.4
+    },
+    {
+        "text": "To encrypt a message, you need two main parts -",
+        "start": 22.86,
+        "duration": 2.58
+    },
+    {
+        "text": "the cypher and the key",
+        "start": 25.44,
+        "duration": 1.42
+    },
+    {
+        "text": "The cipher is the set of rules",
+        "start": 27.1,
+        "duration": 1.3
+    },
+    {
+        "text": "that are using to encode the information\nfor example shifting the alphabet by",
+        "start": 28.41,
+        "duration": 3.359
+    },
+    {
+        "text": "certain number of letters",
+        "start": 31.769,
+        "duration": 1.271
+    },
+    {
+        "text": "The key tells you how to arrange those rules",
+        "start": 33.04,
+        "duration": 2.18
+    },
+    {
+        "text": "otherwise they'd be the same every time",
+        "start": 35.38,
+        "duration": 1.56
+    },
+    {
+        "text": "and it would be easy to decode the message in",
+        "start": 37.32,
+        "duration": 1.76
+    },
+    {
+        "text": "this case the key would be one because\nwe shifted the alphabet by one letter to",
+        "start": 39.09,
+        "duration": 3.69
+    },
+    {
+        "text": "decrypt the information you need to know\nwhat kind of cipher was used and also",
+        "start": 42.78,
+        "duration": 3.42
+    },
+    {
+        "text": "have the key",
+        "start": 46.2,
+        "duration": 1.26
+    },
+    {
+        "text": "or you can just crack the code either by\ntrying all possible combinations you can",
+        "start": 47.46,
+        "duration": 3.989
+    },
+    {
+        "text": "think of or by analyzing the code and\nworking backward from it, known as deciphering.",
+        "start": 51.449,
+        "duration": 4.76
+    },
+    {
+        "text": "But is it possible to come\nup with a combination of a cipher and",
+        "start": 56.209,
+        "duration": 3.511
+    },
+    {
+        "text": "key that could never be determined",
+        "start": 59.73,
+        "duration": 2.37
+    },
+    {
+        "text": "Is there such a thing as an unbreakable code?",
+        "start": 62.1,
+        "duration": 2.88
+    },
+    {
+        "text": "Well people keep coming up with new and\nbetter ciphers,",
+        "start": 65.28,
+        "duration": 2.52
+    },
+    {
+        "text": "but it's hard to make them unbreakable",
+        "start": 67.8,
+        "duration": 1.58
+    },
+    {
+        "text": "because, no matter what,\nyou're using a set of rules to encrypt",
+        "start": 69.58,
+        "duration": 2.96
+    },
+    {
+        "text": "the information and with enough time and\nenough data",
+        "start": 72.54,
+        "duration": 3.119
+    },
+    {
+        "text": "someone can usually uncover those rules.",
+        "start": 75.659,
+        "duration": 2.041
+    },
+    {
+        "text": "That puzzle i just gave you is one of",
+        "start": 77.7,
+        "duration": 1.529
+    },
+    {
+        "text": "the oldest and simplest ways to encrypt\na message.",
+        "start": 79.229,
+        "duration": 2.02
+    },
+    {
+        "text": "It's usually called a caesar cipher",
+        "start": 81.36,
+        "duration": 1.9
+    },
+    {
+        "text": "and in this case the key was just\na number representing how many letters",
+        "start": 83.44,
+        "duration": 2.8
+    },
+    {
+        "text": "of the alphabet I shifted it but it's\nalso very easy to crack.",
+        "start": 86.25,
+        "duration": 3.15
+    },
+    {
+        "text": "Even if you didn't know the key it would\ntake you at most 25 tries to decode the",
+        "start": 89.4,
+        "duration": 3.39
+    },
+    {
+        "text": "message because you know the whole\nalphabet has to be shifted by a certain amount",
+        "start": 92.79,
+        "duration": 2.88
+    },
+    {
+        "text": "Since there are 26 letters in the\nalphabet, there are only 25 other options",
+        "start": 96.04,
+        "duration": 3.26
+    },
+    {
+        "text": "A caesar cipher is one simple type of \nmonoalphabetic ciphers",
+        "start": 99.72,
+        "duration": 2.9
+    },
+    {
+        "text": "a class of\nciphers for the whole code is based on",
+        "start": 102.98,
+        "duration": 1.779
+    },
+    {
+        "text": "one letter of the alphabet standing in\nfor another letter consistently",
+        "start": 104.759,
+        "duration": 3.091
+    },
+    {
+        "text": "throughout the whole message basically\njust scramble the alphabet in that case",
+        "start": 107.85,
+        "duration": 3.2
+    },
+    {
+        "text": "the key would just be a list of which\nletters correspond to which",
+        "start": 111.06,
+        "duration": 2.18
+    },
+    {
+        "text": "like this one",
+        "start": 113.24,
+        "duration": 0.74
+    },
+    {
+        "text": "There are over 400 septillion possible\nways to encrypt this kind of message",
+        "start": 114.149,
+        "duration": 5.01
+    },
+    {
+        "text": "so you'd think it would be hard to crack\nand it is but only a little bit because",
+        "start": 119.159,
+        "duration": 3.661
+    },
+    {
+        "text": "there are lots of ways to decode\nmessages just trying all of the possible",
+        "start": 122.82,
+        "duration": 4.17
+    },
+    {
+        "text": "keys to a code is probably the most\nobvious and least subtle and it has an",
+        "start": 126.99,
+        "duration": 3.6
+    },
+    {
+        "text": "equally unsubtle name - brute force",
+        "start": 130.59,
+        "duration": 2.56
+    },
+    {
+        "text": "But you can try a more\nsophisticated technique something called",
+        "start": 133.36,
+        "duration": 2.6
+    },
+    {
+        "text": "frequency analysis,  which is based on the\nidea that every language has its own specific patterns",
+        "start": 135.98,
+        "duration": 4.02
+    },
+    {
+        "text": "In English for example\nthe letter E shows up a lot",
+        "start": 140.28,
+        "duration": 2.74
+    },
+    {
+        "text": "I used it seven times in just the last\nsentence",
+        "start": 143.03,
+        "duration": 2.03
+    },
+    {
+        "text": "And some words like \"the\", are so common",
+        "start": 145.06,
+        "duration": 2.36
+    },
+    {
+        "text": "that it's hard to even use a\nsentence without them",
+        "start": 147.52,
+        "duration": 2.46
+    },
+    {
+        "text": "Cryptographers call these words cribs",
+        "start": 149.989,
+        "duration": 2.211
+    },
+    {
+        "text": "So frequency analysis looks for common",
+        "start": 152.2,
+        "duration": 1.509
+    },
+    {
+        "text": "words and also common letters or sets of\nletters like \"ed\" or \"ing\" at the end of words.",
+        "start": 153.709,
+        "duration": 4.551
+    },
+    {
+        "text": "If you find that the letter X is\nshowing up a lot in a message and so is",
+        "start": 158.26,
+        "duration": 3.069
+    },
+    {
+        "text": "the three letter word IRX you might\nguess that in the key X corresponds to",
+        "start": 161.329,
+        "duration": 4.111
+    },
+    {
+        "text": "the letter E and IRX spells THE and\nonce you've figured out those letters",
+        "start": 165.44,
+        "duration": 3.659
+    },
+    {
+        "text": "you can figure out the rest by\nrecognizing other words and using the",
+        "start": 169.099,
+        "duration": 2.821
+    },
+    {
+        "text": "process of elimination",
+        "start": 171.92,
+        "duration": 1.11
+    },
+    {
+        "text": "And since longer cryptograms contain\nmore clues",
+        "start": 173.03,
+        "duration": 3.239
+    },
+    {
+        "text": "they're easier to crack. So\nmonoalphabetic ciphers are fun but",
+        "start": 176.269,
+        "duration": 3.06
+    },
+    {
+        "text": "they're not hard to break. If you want to\nget a little fancier with your",
+        "start": 179.329,
+        "duration": 2.55
+    },
+    {
+        "text": "encryption you can use polyalphabetic\nciphers instead they're much more",
+        "start": 181.879,
+        "duration": 3.301
+    },
+    {
+        "text": "effective. In a polyalphabetic cipher the\nway you scramble the alphabet actually",
+        "start": 185.18,
+        "duration": 3.33
+    },
+    {
+        "text": "changes throughout the message. In the\nfirst word s might translate to w",
+        "start": 188.51,
+        "duration": 4.38
+    },
+    {
+        "text": "but in the last word s might translate\nto h. It all depends on the particular",
+        "start": 192.89,
+        "duration": 3.33
+    },
+    {
+        "text": "encryption method you're using and on\nyour key.",
+        "start": 196.22,
+        "duration": 2.22
+    },
+    {
+        "text": "One of the earliest polyalphabetic\nciphers was the VIGENERE cipher",
+        "start": 198.44,
+        "duration": 3.12
+    },
+    {
+        "text": "developed in the 16th century was pretty\nsimple because the key was just a word.",
+        "start": 201.56,
+        "duration": 3.78
+    },
+    {
+        "text": "So let's say you want to encrypt \"SciShow is the greatest\" using a VIGENERE cipher",
+        "start": 205.34,
+        "duration": 4.12
+    },
+    {
+        "text": "well the first thing you need to do is\nwrite out a VIGENERE square.",
+        "start": 209.76,
+        "duration": 2.82
+    },
+    {
+        "text": "The alphabet goes across the top and along\nthe left side and each row contains the",
+        "start": 212.58,
+        "duration": 3.019
+    },
+    {
+        "text": "letters A to Z shifted over by one",
+        "start": 215.599,
+        "duration": 2.161
+    },
+    {
+        "text": "So the first line starts with A and ends\nwith Z but the second starts with B goes",
+        "start": 217.76,
+        "duration": 3.569
+    },
+    {
+        "text": "all through the letters until Z and then\nends with A and so on. You end up with 26",
+        "start": 221.329,
+        "duration": 3.901
+    },
+    {
+        "text": "differently scrambled alphabets and now\nyou're ready to encode the message",
+        "start": 225.23,
+        "duration": 3.11
+    },
+    {
+        "text": "You just have to pick a key",
+        "start": 228.34,
+        "duration": 1.45
+    },
+    {
+        "text": "Let's just say your key is Michael, you\nwrite out your key multiple times until",
+        "start": 229.79,
+        "duration": 3.509
+    },
+    {
+        "text": "it fills the same number of letters as\nyour message so \"SciShow is the greatest\"",
+        "start": 233.299,
+        "duration": 3.75
+    },
+    {
+        "text": "would correspond to this. Then to encrypt\nit, you take each letter of the message",
+        "start": 237.049,
+        "duration": 3.84
+    },
+    {
+        "text": "and move along its row in the\nVIGENERE square until you get to the",
+        "start": 240.889,
+        "duration": 2.521
+    },
+    {
+        "text": "column of the corresponding letter in\nMichael. So \"scishow is the greatest\" turns",
+        "start": 243.41,
+        "duration": 3.99
+    },
+    {
+        "text": "into this",
+        "start": 247.4,
+        "duration": 1.08
+    },
+    {
+        "text": "That's much tougher to decode unless you\nhave the key because those letter",
+        "start": 248.48,
+        "duration": 3.0
+    },
+    {
+        "text": "frequencies are all different now. Since\nthe keyword Michael is seven letters long",
+        "start": 251.48,
+        "duration": 4.0
+    },
+    {
+        "text": "each letter of your message is encrypted\nusing seven different scrambled",
+        "start": 255.68,
+        "duration": 2.88
+    },
+    {
+        "text": "alphabets. But if your text is long\nenough it's still crackable using a type",
+        "start": 258.56,
+        "duration": 4.05
+    },
+    {
+        "text": "of frequency analysis developed in the\n19th century by cryptographer",
+        "start": 262.61,
+        "duration": 3.17
+    },
+    {
+        "text": "Charles Babbage Babbage realized\nthat in a long enough message some",
+        "start": 265.78,
+        "duration": 3.26
+    },
+    {
+        "text": "patterns and the coded message will\nstill show up like if your key only has",
+        "start": 269.04,
+        "duration": 3.06
+    },
+    {
+        "text": "seven letters that means that there are\nonly seven ways to encrypt the word the",
+        "start": 272.1,
+        "duration": 3.0
+    },
+    {
+        "text": "but if your message uses the word the\neight times there are definitely going",
+        "start": 275.1,
+        "duration": 4.35
+    },
+    {
+        "text": "to be repeat. So he just counted how many\nletters separated those repeated",
+        "start": 279.45,
+        "duration": 3.45
+    },
+    {
+        "text": "patterns. If they were separated by 7 14\nor 21 letters, he knew that the key was",
+        "start": 282.9,
+        "duration": 4.71
+    },
+    {
+        "text": "probably seven letters long",
+        "start": 287.61,
+        "duration": 1.529
+    },
+    {
+        "text": "and from there he would just use\nfrequency analysis to figure out the",
+        "start": 289.139,
+        "duration": 2.941
+    },
+    {
+        "text": "seven scrambled alphabet",
+        "start": 292.08,
+        "duration": 1.14
+    },
+    {
+        "text": "Babbages method\nis just one example of why it's so hard",
+        "start": 293.22,
+        "duration": 2.52
+    },
+    {
+        "text": "to create an unbreakable cipher.",
+        "start": 295.74,
+        "duration": 2.06
+    },
+    {
+        "text": "Your key\ncreates a pattern within the encrypted message",
+        "start": 297.8,
+        "duration": 2.72
+    },
+    {
+        "text": "And with enough work a spy can\nuncover that pattern",
+        "start": 300.52,
+        "duration": 2.34
+    },
+    {
+        "text": "It turns out that the only way to have a really unbreakable cipher is to use what's",
+        "start": 302.86,
+        "duration": 3.86
+    },
+    {
+        "text": "known as a one-time pad encryption, which uses a key that is as long as the message itself.",
+        "start": 306.72,
+        "duration": 5.38
+    },
+    {
+        "text": "That way there aren't any patterns in the\nencrypted text. There's nothing to",
+        "start": 312.1,
+        "duration": 3.65
+    },
+    {
+        "text": "analyze, so there's no way to work\nbackwards.",
+        "start": 315.75,
+        "duration": 2.07
+    },
+    {
+        "text": "The sender and the recipient both have the same pad",
+        "start": 317.82,
+        "duration": 2.34
+    },
+    {
+        "text": "and each sheet contains a long set of random letters",
+        "start": 320.16,
+        "duration": 2.22
+    },
+    {
+        "text": "which is used as the key once she is\nused to decode a message you destroy it",
+        "start": 322.38,
+        "duration": 3.92
+    },
+    {
+        "text": "Then you use the next \nsheet for the next message so you never repeat a key.",
+        "start": 326.3,
+        "duration": 3.76
+    },
+    {
+        "text": "As long as you keep the pad safe the\nmessage can't be decrypted by anyone else.",
+        "start": 330.06,
+        "duration": 4.16
+    },
+    {
+        "text": "But you can't always use one time\npad encryption.",
+        "start": 334.22,
+        "duration": 2.59
+    },
+    {
+        "text": "Let's say you needed to get a message to\nsomeone halfway across the world whom",
+        "start": 336.81,
+        "duration": 3.3
+    },
+    {
+        "text": "you'd never met, you wouldn't have a\nchance to give them a matching pad.",
+        "start": 340.11,
+        "duration": 3.11
+    },
+    {
+        "text": "In warfare that sort of situation comes up\na lot which is why in the early 20th",
+        "start": 343.22,
+        "duration": 3.46
+    },
+    {
+        "text": "century there was suddenly plenty of\nincentive to come up with better ciphers",
+        "start": 346.68,
+        "duration": 3.0
+    },
+    {
+        "text": "Remote communication using technology\nlike the telegraph was incredibly",
+        "start": 349.68,
+        "duration": 3.57
+    },
+    {
+        "text": "valuable during wartime but it was\nessential that only your allies",
+        "start": 353.25,
+        "duration": 3.27
+    },
+    {
+        "text": "understood what you were saying.\nThe Germans experimented with a new more",
+        "start": 356.52,
+        "duration": 2.97
+    },
+    {
+        "text": "complicated mono-alphabetic cipher\nduring World War I",
+        "start": 359.49,
+        "duration": 2.85
+    },
+    {
+        "text": "but eventually the French managed to\ncrack it.",
+        "start": 362.34,
+        "duration": 2.16
+    },
+    {
+        "text": "Then during World War II the Germans again came up with the new cipher",
+        "start": 364.5,
+        "duration": 3.4
+    },
+    {
+        "text": "And this time its security seemed perfect, \nmaybe you've heard of it",
+        "start": 367.9,
+        "duration": 4.25
+    },
+    {
+        "text": "The Enigma machine.",
+        "start": 372.15,
+        "duration": 1.11
+    },
+    {
+        "text": "The machine used a\npoly-alphabetic cipher that scrambled the",
+        "start": 373.26,
+        "duration": 2.969
+    },
+    {
+        "text": "alphabet in a different way each time\nyou typed a new letter.",
+        "start": 376.229,
+        "duration": 3.031
+    },
+    {
+        "text": "As far as the Germans knew the only way to decipher the message, was to have your own Enigma machine",
+        "start": 379.26,
+        "duration": 4.76
+    },
+    {
+        "text": "and set it up using a secret key\nthat changed every day.",
+        "start": 384.02,
+        "duration": 3.25
+    },
+    {
+        "text": "The machine was meant to work like a\none-time pad in the sense that the",
+        "start": 387.27,
+        "duration": 2.76
+    },
+    {
+        "text": "alphabet was re-scrambled for every letter of the message.",
+        "start": 390.03,
+        "duration": 2.37
+    },
+    {
+        "text": "But instead of having to distribute a set of sheets to everyone",
+        "start": 392.4,
+        "duration": 2.52
+    },
+    {
+        "text": "you could just use a key that told the users how to set up their Enigma machines",
+        "start": 394.92,
+        "duration": 3.0
+    },
+    {
+        "text": "And you could change that key is\noften as you wanted, but it had a few flaws.",
+        "start": 398.3,
+        "duration": 3.39
+    },
+    {
+        "text": "For example no letter could be encoded as itself. That might not sound like a",
+        "start": 401.69,
+        "duration": 4.02
+    },
+    {
+        "text": "big deal but it ended up being a fatal\nweakness.",
+        "start": 405.71,
+        "duration": 2.37
+    },
+    {
+        "text": "British mathematician Alan Turing along\nwith the rest of his team designed a",
+        "start": 408.08,
+        "duration": 3.24
+    },
+    {
+        "text": "machine of their own that could crack the Enigma code as long as they knew",
+        "start": 411.32,
+        "duration": 3.78
+    },
+    {
+        "text": "around 20 of the characters contained in the message - which they often did because",
+        "start": 415.1,
+        "duration": 3.66
+    },
+    {
+        "text": "some phrases tended to show up a lot in Nazi communicates, especially nice things about Hitler",
+        "start": 418.76,
+        "duration": 4.83
+    },
+    {
+        "text": "So part of the strategy of Turnings team\nwas to look for cribs - those common words",
+        "start": 423.59,
+        "duration": 3.72
+    },
+    {
+        "text": "and phrases - and see where they might fit.\nFor instance if they knew a message",
+        "start": 427.31,
+        "duration": 2.97
+    },
+    {
+        "text": "contained the word Führer, they could look\nfor places in the text that didn't have",
+        "start": 430.28,
+        "duration": 3.36
+    },
+    {
+        "text": "the letter F, since they knew that the F\nin Führer couldn't be encoded as itself",
+        "start": 433.64,
+        "duration": 3.57
+    },
+    {
+        "text": "Those Clues helped them figure out how the Enigma rotors were set up to encrypt the message.",
+        "start": 437.21,
+        "duration": 4.25
+    },
+    {
+        "text": "Cracking the Enigma code was a\nhuge advantage for the Allies.",
+        "start": 441.46,
+        "duration": 3.18
+    },
+    {
+        "text": "Many historians attribute some of the most\nimportant victories during the war to",
+        "start": 444.64,
+        "duration": 3.4
+    },
+    {
+        "text": "information the Allies got from the\nEnigma encrypted messages.",
+        "start": 448.04,
+        "duration": 2.9
+    },
+    {
+        "text": "These days encryption is mostly important in digital computing, and that isn't perfect either",
+        "start": 450.94,
+        "duration": 4.54
+    },
+    {
+        "text": "When websites announced that hackers\nnow know everything about you",
+        "start": 455.48,
+        "duration": 2.82
+    },
+    {
+        "text": "that's because their encryption methods were breakable",
+        "start": 458.3,
+        "duration": 1.98
+    },
+    {
+        "text": "Companies that store your data have to take into account a whole new set of considerations",
+        "start": 460.28,
+        "duration": 3.42
+    },
+    {
+        "text": "Like how when you can complete billions of operations per second",
+        "start": 463.7,
+        "duration": 3.21
+    },
+    {
+        "text": "brute force suddenly becomes a lot more practical. So the same principles that",
+        "start": 466.91,
+        "duration": 2.88
+    },
+    {
+        "text": "Vigenere and Turing used are the same ones that allow you to pay your bills online",
+        "start": 469.79,
+        "duration": 2.97
+    },
+    {
+        "text": "and keep North Korea out of your email, most of the time.",
+        "start": 472.76,
+        "duration": 3.32
+    },
+    {
+        "text": "But HOW, is a story for another episode",
+        "start": 476.08,
+        "duration": 2.56
+    },
+    {
+        "text": "Thank you for watching this episode of scishow,",
+        "start": 478.64,
+        "duration": 1.74
+    },
+    {
+        "text": "which was brought to you by our patrons on patreon.",
+        "start": 480.38,
+        "duration": 1.9
+    },
+    {
+        "text": "If you want to help us keep making\nvideos like this check out patreon.com/scishow",
+        "start": 482.62,
+        "duration": 3.72
+    },
+    {
+        "text": "And don't forget to go to\nyoutube.com/scishow and subscribe.",
+        "start": 486.34,
+        "duration": 2.89
+    }
+]

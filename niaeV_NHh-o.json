@@ -1,0 +1,622 @@
+[
+    {
+        "text": "There's been an advance in a sixty-year-old",
+        "start": 0.0,
+        "duration": 2.25
+    },
+    {
+        "text": "Math's problem, a maths problem which was",
+        "start": 3.159,
+        "duration": 3.59
+    },
+    {
+        "text": "Related to the four color theorem",
+        "start": 7.87,
+        "duration": 2.18
+    },
+    {
+        "text": "Which is something I've mentioned before, perhaps I should do a quick recap of what the four color theorem was.",
+        "start": 10.05,
+        "duration": 5.549
+    },
+    {
+        "text": "It's a similar sort of thing really. Before color theorem said, imagine you had a map",
+        "start": 15.599,
+        "duration": 4.56
+    },
+    {
+        "text": "Right, and I'm just going to make up some sort of map here. And the idea was, I want to color in this map",
+        "start": 20.92,
+        "duration": 5.539
+    },
+    {
+        "text": "So that neighboring countries are not using the same color",
+        "start": 26.859,
+        "duration": 3.89
+    },
+    {
+        "text": "So if I color this in, it might be kind of this bit here, the idea being that any map can be done",
+        "start": 31.54,
+        "duration": 6.469
+    },
+    {
+        "text": "Using four colors or fewer, or in other words, there aren't any maps that need five colors. So that's true",
+        "start": 38.11,
+        "duration": 6.979
+    },
+    {
+        "text": "That's a fact right, that was proven in the 1970s. But this problem that I'm going to talk about today, comes from the",
+        "start": 45.09,
+        "duration": 6.629
+    },
+    {
+        "text": "1950s and it's not something that's been solved yet. It's called the Hadwiger-Nelson problem, catchy name",
+        "start": 52.3,
+        "duration": 5.989
+    },
+    {
+        "text": "And I'm going to try to quote you what the problem is",
+        "start": 58.93,
+        "duration": 2.659
+    },
+    {
+        "text": "How many colors are needed to color the plane?",
+        "start": 61.59,
+        "duration": 3.09
+    },
+    {
+        "text": "So that no two points at unit distance are the same color. That's very formal",
+        "start": 65.14,
+        "duration": 5.62
+    },
+    {
+        "text": "So let me just break that down. What it really means is imagine,",
+        "start": 70.78,
+        "duration": 3.98
+    },
+    {
+        "text": "I'm somewhere on this map here. So there I am and I'm going to go for walk",
+        "start": 75.54,
+        "duration": 3.6
+    },
+    {
+        "text": "I'm gonna take a step and my step is going to be one unit",
+        "start": 79.14,
+        "duration": 3.0
+    },
+    {
+        "text": "So these might not be countries anymore because I'm changing the scale of this. So we're taking a walk and I want to go",
+        "start": 82.14,
+        "duration": 6.33
+    },
+    {
+        "text": "One unit. Maybe that's one unit. Whatever that means and then take another step and I'll take one unit step",
+        "start": 89.17,
+        "duration": 6.8
+    },
+    {
+        "text": "But every time I take a step, I want to step on to a different color. I want the color to change each time",
+        "start": 96.04,
+        "duration": 5.659
+    },
+    {
+        "text": "I step so I'm gonna go for a walk. I want to change the color change the color, okay change the color again",
+        "start": 101.7,
+        "duration": 5.76
+    },
+    {
+        "text": "I could step back to here, change the color again",
+        "start": 107.46,
+        "duration": 2.279
+    },
+    {
+        "text": "Change the color again. I could go over here, but then for example",
+        "start": 110.259,
+        "duration": 5.569
+    },
+    {
+        "text": "I couldn't walk this way. Should I take a one unit step over here, I wouldn't be changing the color",
+        "start": 115.829,
+        "duration": 6.36
+    },
+    {
+        "text": "So the question is, is there a way to color the plane. So imagine this as an infinite map",
+        "start": 122.189,
+        "duration": 5.04
+    },
+    {
+        "text": "Is there a way to color it so that I can take a walk always changing the color?",
+        "start": 127.229,
+        "duration": 3.72
+    },
+    {
+        "text": "Can I do it so I can take any walk?",
+        "start": 131.23,
+        "duration": 2.0
+    },
+    {
+        "text": "So any walk that I care to do, I will always be changing the color with each step I take, and that's the question",
+        "start": 133.59,
+        "duration": 6.989
+    },
+    {
+        "text": "brady: No matter what direction you go. \nNo matter what direction you pick no matter what walk that I choose to do",
+        "start": 140.58,
+        "duration": 6.33
+    },
+    {
+        "text": "Every step lands on a different color. Well for starts",
+        "start": 147.7,
+        "duration": 3.44
+    },
+    {
+        "text": "There is a solution to this, as seven colors work",
+        "start": 151.14,
+        "duration": 2.22
+    },
+    {
+        "text": "We can do it with seven colors, and we can prove that really really quickly. You take the infinite plane",
+        "start": 153.43,
+        "duration": 4.669
+    },
+    {
+        "text": "We're going to tile it with hexagons. So I've got now a little unit of hexagons",
+        "start": 158.26,
+        "duration": 4.189
+    },
+    {
+        "text": "I got seven hexagons there and I've used seven colors and now I'm just going to repeat this over and over",
+        "start": 162.45,
+        "duration": 6.09
+    },
+    {
+        "text": "So I'm going to repeat this",
+        "start": 169.12,
+        "duration": 1.77
+    },
+    {
+        "text": "So I'm creating a pattern of colors with my hexagons.",
+        "start": 170.89,
+        "duration": 3.8
+    },
+    {
+        "text": "Now All I need to do to solve this problem, is imagine the diameter of those hexagons was less than one",
+        "start": 174.69,
+        "duration": 5.76
+    },
+    {
+        "text": "Slightly less than one, that means that every step I take would be on to a different hexagon",
+        "start": 180.94,
+        "duration": 6.29
+    },
+    {
+        "text": "So I could start here, and every step I take would have to be on a different hexagon, which is a different color",
+        "start": 187.54,
+        "duration": 6.199
+    },
+    {
+        "text": "I just add one thing though. We wouldn't want to step from this purple hexagon on to the next purple hexagon",
+        "start": 193.74,
+        "duration": 7.18
+    },
+    {
+        "text": "which means I want this distance to be greater than one, which means the diameter of your hexagons needs to be less than 1,",
+        "start": 201.48,
+        "duration": 7.38
+    },
+    {
+        "text": "and greater than .76",
+        "start": 209.38,
+        "duration": 2.08
+    },
+    {
+        "text": "Fine. That's all you need so take the hexagons to be .9 and",
+        "start": 211.92,
+        "duration": 4.1
+    },
+    {
+        "text": "The problem is solved you can walk around that hexagon",
+        "start": 216.58,
+        "duration": 2.69
+    },
+    {
+        "text": "Infinite plane and change the color with each step",
+        "start": 219.79,
+        "duration": 2.75
+    },
+    {
+        "text": "Brady: and even if I wanted to step on one of the same color, couldn't do it",
+        "start": 222.54,
+        "duration": 3.66
+    },
+    {
+        "text": "Even if you wanted to, even if you tried you can't because those hexagons are chosen so that you can't step onto",
+        "start": 226.209,
+        "duration": 6.44
+    },
+    {
+        "text": "The color that you're on. \nBrady: Cool. What's the problem? \nExactly, What's the problem?",
+        "start": 232.99,
+        "duration": 4.58
+    },
+    {
+        "text": "So we definitely have a solution, and it can be done for seven",
+        "start": 237.57,
+        "duration": 3.209
+    },
+    {
+        "text": "So the question is can it be done for six colors, or can we do it with five colors?",
+        "start": 240.82,
+        "duration": 4.519
+    },
+    {
+        "text": "Four, three, two, right?",
+        "start": 245.86,
+        "duration": 1.849
+    },
+    {
+        "text": "How many colors, what's the fewest colors we can do this with?",
+        "start": 247.709,
+        "duration": 3.06
+    },
+    {
+        "text": "So we can eliminate some of the answers really quickly. You can't do it with two, I'll show you that",
+        "start": 251.05,
+        "duration": 4.939
+    },
+    {
+        "text": "So imagine we try to do it with two, so all I'm going to draw out is the walk",
+        "start": 256.57,
+        "duration": 4.519
+    },
+    {
+        "text": "I'm just going to draw a walk. So I'm walking in a triangle an equilateral triangle. now, let's try and color this walk",
+        "start": 261.09,
+        "duration": 6.66
+    },
+    {
+        "text": "So say I start in the green region, and then take a step and I want it to change color",
+        "start": 267.75,
+        "duration": 5.489
+    },
+    {
+        "text": "So now I've stepped onto a blue region then I want to take another step, and I want to change color now",
+        "start": 273.24,
+        "duration": 5.79
+    },
+    {
+        "text": "I've only got two colors available",
+        "start": 279.03,
+        "duration": 1.87
+    },
+    {
+        "text": "So I'm gonna have to step onto a green",
+        "start": 280.9,
+        "duration": 2.0
+    },
+    {
+        "text": "Region here. But that means if I want to step back to where I started, and there's no reason why I can't do that",
+        "start": 283.45,
+        "duration": 5.389
+    },
+    {
+        "text": "I'm not changing the color",
+        "start": 288.84,
+        "duration": 1.29
+    },
+    {
+        "text": "I'm stepping from green to green, that's not allowed. this is an example of a walk that can't be done with two colors",
+        "start": 290.13,
+        "duration": 6.239
+    },
+    {
+        "text": "It can be done with three colors, but it can't be done with two. What about three?",
+        "start": 296.37,
+        "duration": 3.809
+    },
+    {
+        "text": "Well again, there's an example it shows you can't do it with three",
+        "start": 300.43,
+        "duration": 3.26
+    },
+    {
+        "text": "So same sort of idea. Here's a specific example, every step there in that shape is one unit. So you're walking around that path",
+        "start": 304.27,
+        "duration": 7.369
+    },
+    {
+        "text": "Great, but can I do this with three colors? Let's start with green and then I move on to the next step",
+        "start": 311.77,
+        "duration": 6.619
+    },
+    {
+        "text": "Well, it might be blue. Now, I want to step here. This has to be a different color. So let's have a different color",
+        "start": 318.389,
+        "duration": 4.92
+    },
+    {
+        "text": "let's have red, now if I want to step on to the next one",
+        "start": 323.31,
+        "duration": 2.579
+    },
+    {
+        "text": "Where it can't be red",
+        "start": 326.53,
+        "duration": 1.25
+    },
+    {
+        "text": "So let's make it... oh it can't be green as well because I don't want to step back to the green",
+        "start": 327.78,
+        "duration": 4.98
+    },
+    {
+        "text": "So it has to be blue. So that one's pretty okay. Now what if I take another step?",
+        "start": 332.83,
+        "duration": 4.16
+    },
+    {
+        "text": "I think I've got a choice here.",
+        "start": 336.99,
+        "duration": 2.0
+    },
+    {
+        "text": "I now think I can choose my color",
+        "start": 339.13,
+        "duration": 1.37
+    },
+    {
+        "text": "I'm gonna choose green here for the middle, now for this if I take one step up, oh it can't be green",
+        "start": 340.5,
+        "duration": 6.419
+    },
+    {
+        "text": "It can't be blue. So it's red. And if I step down to here, it can't be blue, green or red",
+        "start": 346.919,
+        "duration": 5.97
+    },
+    {
+        "text": "So I need a fourth color. I can't do it with three.",
+        "start": 353.08,
+        "duration": 2.48
+    },
+    {
+        "text": "It can be done with four and then, that's where we got to. 60 years ago",
+        "start": 355.96,
+        "duration": 4.94
+    },
+    {
+        "text": "That's as far as we got, we showed that it can be done with seven",
+        "start": 360.9,
+        "duration": 3.3
+    },
+    {
+        "text": "It can't be done with two, it can't be done with three",
+        "start": 364.2,
+        "duration": 2.879
+    },
+    {
+        "text": "So maybe it could be done with four, five, six, and seven we know is definitely true. And that's where we were",
+        "start": 367.389,
+        "duration": 7.61
+    },
+    {
+        "text": "60 years, until recently.",
+        "start": 375.31,
+        "duration": 2.0
+    },
+    {
+        "text": "So in 2018 an amateur mathematician found a walk, an example of a walk that can't be done with four",
+        "start": 377.41,
+        "duration": 7.129
+    },
+    {
+        "text": "Which means it can only be done with five, which means four is not a solution. So we've eliminated four colors from this problem",
+        "start": 385.03,
+        "duration": 6.949
+    },
+    {
+        "text": "So I call him an amateur mathematician. I think that's a bit of a disservice",
+        "start": 392.28,
+        "duration": 3.69
+    },
+    {
+        "text": "This is a person called Aubrey de Grey who is a biologist who's famous in his own right in his own field",
+        "start": 396.159,
+        "duration": 5.88
+    },
+    {
+        "text": "He works in anti-aging, he's a very interesting guy",
+        "start": 402.4,
+        "duration": 2.279
+    },
+    {
+        "text": "Himself, but he does maths for fun. And this was a problem he was trying to do, for fun",
+        "start": 405.29,
+        "duration": 6.739
+    },
+    {
+        "text": "And so he came up with a walk that can't be done with four colours and what he did is, he took",
+        "start": 412.03,
+        "duration": 6.0
+    },
+    {
+        "text": "This example, it's got a name",
+        "start": 418.7,
+        "duration": 2.39
+    },
+    {
+        "text": "It's called the Moser spindles, strange name, and he made copies of that which he fused together",
+        "start": 421.09,
+        "duration": 5.549
+    },
+    {
+        "text": "So he fused together lots of copies of this, and he created this monster, this monster Network",
+        "start": 426.64,
+        "duration": 6.39
+    },
+    {
+        "text": "20,000 points",
+        "start": 434.06,
+        "duration": 1.44
+    },
+    {
+        "text": "Huge thing, and then he got a computer to show",
+        "start": 435.5,
+        "duration": 2.72
+    },
+    {
+        "text": "that",
+        "start": 438.74,
+        "duration": 1.08
+    },
+    {
+        "text": "Four colours are not enough. It can't be coloured in with four, and it can be coloured in with five",
+        "start": 439.82,
+        "duration": 5.69
+    },
+    {
+        "text": "Fantastic, we eliminate four",
+        "start": 446.27,
+        "duration": 2.0
+    },
+    {
+        "text": "For the first time in sixty years. He then improved that, he wanted to find a smaller example",
+        "start": 448.67,
+        "duration": 5.54
+    },
+    {
+        "text": "Smaller than this monster and he got an example that's I think",
+        "start": 454.88,
+        "duration": 4.22
+    },
+    {
+        "text": "1581 points so that's much better right so a much smaller example, but it's the same thing",
+        "start": 459.12,
+        "duration": 7.02
+    },
+    {
+        "text": "It's an example that can't be colored with four colours",
+        "start": 466.14,
+        "duration": 2.64
+    },
+    {
+        "text": "Can be done with five",
+        "start": 469.34,
+        "duration": 1.95
+    },
+    {
+        "text": "so then he published this and",
+        "start": 471.29,
+        "duration": 2.0
+    },
+    {
+        "text": "Mathematicians got stuck in they said well, can we do better? Can we find a smaller one the smallest we found so far is",
+        "start": 473.69,
+        "duration": 8.0
+    },
+    {
+        "text": "This one here. So this is a walk found by Martin hooli",
+        "start": 482.51,
+        "duration": 5.839
+    },
+    {
+        "text": "Who we have mentioned before, we talked about this guy and he colored in the Pythagorean triples",
+        "start": 488.96,
+        "duration": 7.07
+    },
+    {
+        "text": "We did a video about",
+        "start": 496.03,
+        "duration": 1.75
+    },
+    {
+        "text": "Pythagorean triples and coloring them red and blue, it's a similar sort of problem and he found this example",
+        "start": 497.78,
+        "duration": 5.869
+    },
+    {
+        "text": "It's a walk with 533 points that needs five colors",
+        "start": 503.72,
+        "duration": 4.64
+    },
+    {
+        "text": "So we've got red, green, blue and yellow",
+        "start": 508.79,
+        "duration": 3.05
+    },
+    {
+        "text": "And then the fifth color is white, which is used only once, right there in the center",
+        "start": 512.38,
+        "duration": 5.25
+    },
+    {
+        "text": "This episode has been brought to you by brilliant, the website that's full of",
+        "start": 520.039,
+        "duration": 3.869
+    },
+    {
+        "text": "Questions and quizzes and puzzles and courses and all sorts of things to make you smarter",
+        "start": 524.039,
+        "duration": 5.39
+    },
+    {
+        "text": "You're seeing some examples on the screen right now",
+        "start": 529.5,
+        "duration": 2.51
+    },
+    {
+        "text": "They have all sorts of new things every day",
+        "start": 532.01,
+        "duration": 2.369
+    },
+    {
+        "text": "But they're not just dumping stuff on the website, all sorts of weird conundrums for you to solve",
+        "start": 534.38,
+        "duration": 5.099
+    },
+    {
+        "text": "Everything on brilliant has been designed with a purpose in mind, and that's to really make the people using it",
+        "start": 540.029,
+        "duration": 5.419
+    },
+    {
+        "text": "Smarter, to change the way you think, to make you a bit of problem solver",
+        "start": 545.88,
+        "duration": 3.709
+    },
+    {
+        "text": "It's really about enriching the people who use brilliant. Not just giving them questions and then marks out of 10",
+        "start": 549.589,
+        "duration": 5.67
+    },
+    {
+        "text": "There's loads of stuff on the brilliant site You can look at for free,",
+        "start": 555.26,
+        "duration": 2.849
+    },
+    {
+        "text": "So go ahead and do that.",
+        "start": 558.11,
+        "duration": 1.14
+    },
+    {
+        "text": "If you sign up for their premium subscription,",
+        "start": 559.25,
+        "duration": 2.849
+    },
+    {
+        "text": "Which gives you access to everything, You can get 20% off that by going to brilliant.org/numberphile .",
+        "start": 562.1,
+        "duration": 7.02
+    },
+    {
+        "text": "20% off and they know you came from here. Now if I've done my job correctly,",
+        "start": 569.85,
+        "duration": 3.559
+    },
+    {
+        "text": "The URL should be down below me right now, and down in the video description.",
+        "start": 573.449,
+        "duration": 3.8
+    }
+]

@@ -1,0 +1,1542 @@
+[
+    {
+        "text": "So I want to tell you about a letter",
+        "start": 0.24,
+        "duration": 2.88
+    },
+    {
+        "text": "I got a little while ago that I only",
+        "start": 3.12,
+        "duration": 3.12
+    },
+    {
+        "text": "just got around to reading.",
+        "start": 6.24,
+        "duration": 1.77
+    },
+    {
+        "text": "Actually it was in 2003 that it arrived",
+        "start": 13.759,
+        "duration": 3.44
+    },
+    {
+        "text": "but I only just found it on the floor; my",
+        "start": 17.199,
+        "duration": 2.481
+    },
+    {
+        "text": "study is very messy.",
+        "start": 19.68,
+        "duration": 2.16
+    },
+    {
+        "text": "So the author is a contributor to the",
+        "start": 21.84,
+        "duration": 3.12
+    },
+    {
+        "text": "OEIS,",
+        "start": 24.96,
+        "duration": 1.04
+    },
+    {
+        "text": "a former contributor, I have-",
+        "start": 26.0,
+        "duration": 1.84
+    },
+    {
+        "text": "think I have to say,",
+        "start": 27.84,
+        "duration": 1.279
+    },
+    {
+        "text": "called Claude Lenormand. He suggested two",
+        "start": 29.119,
+        "duration": 3.681
+    },
+    {
+        "text": "transformations of sequences;",
+        "start": 32.8,
+        "duration": 1.919
+    },
+    {
+        "text": "his second transformation that",
+        "start": 34.719,
+        "duration": 2.161
+    },
+    {
+        "text": "introduced a word",
+        "start": 36.88,
+        "duration": 1.28
+    },
+    {
+        "text": "I didn't know - a French word - called",
+        "start": 38.16,
+        "duration": 3.2
+    },
+    {
+        "text": "a rabot. This is a rabot,",
+        "start": 41.36,
+        "duration": 3.359
+    },
+    {
+        "text": "a plan- a carpenter's plane. And his",
+        "start": 44.719,
+        "duration": 2.32
+    },
+    {
+        "text": "transformation",
+        "start": 47.039,
+        "duration": 1.2
+    },
+    {
+        "text": "is to take a sequence or a word,",
+        "start": 48.239,
+        "duration": 4.081
+    },
+    {
+        "text": "a string of numbers, and plane them",
+        "start": 52.32,
+        "duration": 3.04
+    },
+    {
+        "text": "down,",
+        "start": 55.36,
+        "duration": 1.6
+    },
+    {
+        "text": "raboter, planing the sequence.",
+        "start": 56.96,
+        "duration": 3.759
+    },
+    {
+        "text": "What you plane down are the runs in a",
+        "start": 60.719,
+        "duration": 2.561
+    },
+    {
+        "text": "sequence.",
+        "start": 63.28,
+        "duration": 0.879
+    },
+    {
+        "text": "If we have a sequence you might be",
+        "start": 64.159,
+        "duration": 1.761
+    },
+    {
+        "text": "tossing a coin and you might get heads,",
+        "start": 65.92,
+        "duration": 2.559
+    },
+    {
+        "text": "heads, tails, tails, tails, heads,",
+        "start": 68.479,
+        "duration": 3.281
+    },
+    {
+        "text": "tails. You look at the runs - here we've",
+        "start": 71.76,
+        "duration": 3.039
+    },
+    {
+        "text": "got a run of two heads,",
+        "start": 74.799,
+        "duration": 1.601
+    },
+    {
+        "text": "so we get a two. We write down the length",
+        "start": 76.4,
+        "duration": 2.0
+    },
+    {
+        "text": "of the runs -",
+        "start": 78.4,
+        "duration": 1.2
+    },
+    {
+        "text": "3, 1, 1 - so the runs transformation",
+        "start": 79.6,
+        "duration": 3.92
+    },
+    {
+        "text": "of a string, a sequence, is the lengths of",
+        "start": 83.52,
+        "duration": 3.12
+    },
+    {
+        "text": "the runs,",
+        "start": 86.64,
+        "duration": 1.04
+    },
+    {
+        "text": "that's the runs transformation. What the",
+        "start": 87.68,
+        "duration": 2.32
+    },
+    {
+        "text": "the plane does",
+        "start": 90.0,
+        "duration": 1.28
+    },
+    {
+        "text": "it shortens all the runs by one, by one",
+        "start": 91.28,
+        "duration": 2.799
+    },
+    {
+        "text": "turn.",
+        "start": 94.079,
+        "duration": 0.801
+    },
+    {
+        "text": "So if we had a run of three things, in",
+        "start": 94.88,
+        "duration": 2.559
+    },
+    {
+        "text": "the transform",
+        "start": 97.439,
+        "duration": 0.961
+    },
+    {
+        "text": "thing we've got a run of two things so",
+        "start": 98.4,
+        "duration": 2.24
+    },
+    {
+        "text": "we shorten all the runs,",
+        "start": 100.64,
+        "duration": 1.839
+    },
+    {
+        "text": "that's the operation of raboter. So you",
+        "start": 102.479,
+        "duration": 3.121
+    },
+    {
+        "text": "remember in one of the",
+        "start": 105.6,
+        "duration": 1.28
+    },
+    {
+        "text": "earlier Numberphile videos you did, you",
+        "start": 106.88,
+        "duration": 2.8
+    },
+    {
+        "text": "mentioned",
+        "start": 109.68,
+        "duration": 0.88
+    },
+    {
+        "text": "a sequence of my old friend Sol Golomb.",
+        "start": 110.56,
+        "duration": 3.599
+    },
+    {
+        "text": "And this is distinguished by the fact that",
+        "start": 114.159,
+        "duration": 3.041
+    },
+    {
+        "text": "it's a sequence of numbers. It's the-",
+        "start": 117.2,
+        "duration": 4.16
+    },
+    {
+        "text": "has the property that there- it's an",
+        "start": 121.36,
+        "duration": 2.799
+    },
+    {
+        "text": "increasing, I should say non-decreasing,",
+        "start": 124.159,
+        "duration": 2.161
+    },
+    {
+        "text": "sequence, it keeps",
+        "start": 126.32,
+        "duration": 1.28
+    },
+    {
+        "text": "growing and it has the property",
+        "start": 127.6,
+        "duration": 3.04
+    },
+    {
+        "text": "that if you look at the runs length you",
+        "start": 130.64,
+        "duration": 2.4
+    },
+    {
+        "text": "get the same sequence.",
+        "start": 133.04,
+        "duration": 1.36
+    },
+    {
+        "text": "All right I'll just do a couple of terms:",
+        "start": 134.4,
+        "duration": 1.6
+    },
+    {
+        "text": "1, 2,",
+        "start": 136.0,
+        "duration": 1.68
+    },
+    {
+        "text": "2 - how do we continue? Golomb sequence,",
+        "start": 137.68,
+        "duration": 3.84
+    },
+    {
+        "text": "the 1 means the first run has length 1.",
+        "start": 141.52,
+        "duration": 3.28
+    },
+    {
+        "text": "So we start off with a run of length 1,",
+        "start": 144.8,
+        "duration": 2.079
+    },
+    {
+        "text": "and then we've got a run",
+        "start": 146.879,
+        "duration": 1.36
+    },
+    {
+        "text": "of some other numbers. And you always",
+        "start": 148.239,
+        "duration": 1.601
+    },
+    {
+        "text": "pick the smallest number",
+        "start": 149.84,
+        "duration": 1.6
+    },
+    {
+        "text": "so the next number has to be a 2. That 2",
+        "start": 151.44,
+        "duration": 3.439
+    },
+    {
+        "text": "says the second run has length 2",
+        "start": 154.879,
+        "duration": 4.0
+    },
+    {
+        "text": "so we've got two 2s. And now that 2,",
+        "start": 158.879,
+        "duration": 4.321
+    },
+    {
+        "text": "which is the third term,\nsays the third run",
+        "start": 163.2,
+        "duration": 3.2
+    },
+    {
+        "text": "has length 2. So so yeah so it",
+        "start": 166.4,
+        "duration": 3.28
+    },
+    {
+        "text": "continues 3, 3,",
+        "start": 169.68,
+        "duration": 1.6
+    },
+    {
+        "text": "and then 4, 4, 4, 5, 5, 5 -",
+        "start": 171.28,
+        "duration": 3.039
+    },
+    {
+        "text": "this will probably make it clearer.",
+        "start": 174.319,
+        "duration": 2.161
+    },
+    {
+        "text": "So this 2 refers to those two. The",
+        "start": 176.48,
+        "duration": 2.72
+    },
+    {
+        "text": "third term",
+        "start": 179.2,
+        "duration": 0.8
+    },
+    {
+        "text": "is 2 and that says the third run",
+        "start": 180.0,
+        "duration": 3.36
+    },
+    {
+        "text": "of successive identica\nl terms has length 2.",
+        "start": 183.36,
+        "duration": 3.12
+    },
+    {
+        "text": "Well okay we've got our first run, our",
+        "start": 186.48,
+        "duration": 2.399
+    },
+    {
+        "text": "second run,",
+        "start": 188.879,
+        "duration": 0.961
+    },
+    {
+        "text": "our third run has to have length 2. So",
+        "start": 189.84,
+        "duration": 2.56
+    },
+    {
+        "text": "that means we've got two 3s.",
+        "start": 192.4,
+        "duration": 2.0
+    },
+    {
+        "text": "The fourth term, and that says the next",
+        "start": 194.4,
+        "duration": 2.24
+    },
+    {
+        "text": "run has length 3.",
+        "start": 196.64,
+        "duration": 1.76
+    },
+    {
+        "text": "So there are going to be three 4s,",
+        "start": 198.4,
+        "duration": 2.24
+    },
+    {
+        "text": "that 3 says",
+        "start": 200.64,
+        "duration": 1.12
+    },
+    {
+        "text": "three 4s. This 3 says, aha,",
+        "start": 201.76,
+        "duration": 3.52
+    },
+    {
+        "text": "three 5s.\n- (Brady: So there'll be four 6s?)",
+        "start": 205.28,
+        "duration": 2.239
+    },
+    {
+        "text": "There are gonna be four",
+        "start": 207.519,
+        "duration": 1.121
+    },
+    {
+        "text": "6s! Very good. And there are going to",
+        "start": 208.64,
+        "duration": 2.159
+    },
+    {
+        "text": "be four 7s",
+        "start": 210.799,
+        "duration": 1.201
+    },
+    {
+        "text": "from that 4; and that 4 says there",
+        "start": 212.0,
+        "duration": 2.72
+    },
+    {
+        "text": "are going to be four 8s,",
+        "start": 214.72,
+        "duration": 1.68
+    },
+    {
+        "text": "and that 5 says there are going to be",
+        "start": 216.4,
+        "duration": 1.68
+    },
+    {
+        "text": "five 9s.",
+        "start": 218.08,
+        "duration": 2.239
+    },
+    {
+        "text": "That's the defining property. It's",
+        "start": 220.319,
+        "duration": 1.84
+    },
+    {
+        "text": "non-decreasing,",
+        "start": 222.159,
+        "duration": 1.201
+    },
+    {
+        "text": "you always put down the smallest number",
+        "start": 223.36,
+        "duration": 2.159
+    },
+    {
+        "text": "you can,",
+        "start": 225.519,
+        "duration": 1.36
+    },
+    {
+        "text": "and it must be its own runs",
+        "start": 226.879,
+        "duration": 2.0
+    },
+    {
+        "text": "transformation. \nSo that's Golomb's sequence.",
+        "start": 228.879,
+        "duration": 2.401
+    },
+    {
+        "text": "Now if we apply Le Rabot to it,",
+        "start": 231.28,
+        "duration": 3.679
+    },
+    {
+        "text": "and we plane it down, what are we going",
+        "start": 234.959,
+        "duration": 2.321
+    },
+    {
+        "text": "to do? Well",
+        "start": 237.28,
+        "duration": 0.959
+    },
+    {
+        "text": "we're going to cross off that 1. We've",
+        "start": 238.239,
+        "duration": 2.481
+    },
+    {
+        "text": "got two 2s",
+        "start": 240.72,
+        "duration": 1.04
+    },
+    {
+        "text": "so we throw away one of them. We've got",
+        "start": 241.76,
+        "duration": 1.759
+    },
+    {
+        "text": "two 3s we throw away one of them.",
+        "start": 243.519,
+        "duration": 2.08
+    },
+    {
+        "text": "We've got three 4s we throw away one.",
+        "start": 245.599,
+        "duration": 1.92
+    },
+    {
+        "text": "Five; we just",
+        "start": 247.519,
+        "duration": 1.44
+    },
+    {
+        "text": "shorten all the runs - we apply",
+        "start": 248.959,
+        "duration": 3.36
+    },
+    {
+        "text": "the plane, le rabot. And what we get,",
+        "start": 252.319,
+        "duration": 3.681
+    },
+    {
+        "text": "the new sequence, is simply",
+        "start": 256.0,
+        "duration": 3.84
+    },
+    {
+        "text": "2, 3, 4, 4, 5,",
+        "start": 259.84,
+        "duration": 3.76
+    },
+    {
+        "text": "5, 6, 6, 6, 7,",
+        "start": 263.6,
+        "duration": 3.039
+    },
+    {
+        "text": "7, 7 and so on. So this is the",
+        "start": 266.639,
+        "duration": 2.481
+    },
+    {
+        "text": "planed down version",
+        "start": 269.12,
+        "duration": 1.44
+    },
+    {
+        "text": "of Golomb's sequence. In",
+        "start": 270.56,
+        "duration": 3.199
+    },
+    {
+        "text": "Claude's letter he gave the example of the",
+        "start": 273.759,
+        "duration": 3.121
+    },
+    {
+        "text": "Golomb sequence and how to raboter it.",
+        "start": 276.88,
+        "duration": 3.759
+    },
+    {
+        "text": "So I thought it would be very",
+        "start": 280.639,
+        "duration": 1.361
+    },
+    {
+        "text": "interesting to apply",
+        "start": 282.0,
+        "duration": 2.08
+    },
+    {
+        "text": "the plane, le rabot, to the numbers",
+        "start": 284.08,
+        "duration": 3.839
+    },
+    {
+        "text": "to the ordinary numbers written in",
+        "start": 287.919,
+        "duration": 2.161
+    },
+    {
+        "text": "binary.",
+        "start": 290.08,
+        "duration": 0.88
+    },
+    {
+        "text": "Now remember the rule is when you plane",
+        "start": 290.96,
+        "duration": 2.56
+    },
+    {
+        "text": "it down,",
+        "start": 293.52,
+        "duration": 0.8
+    },
+    {
+        "text": "if it's got a run of length 1 it goes",
+        "start": 294.32,
+        "duration": 1.84
+    },
+    {
+        "text": "away. So zero,",
+        "start": 296.16,
+        "duration": 1.52
+    },
+    {
+        "text": "well, becomes zero, so we get zero.",
+        "start": 297.68,
+        "duration": 3.04
+    },
+    {
+        "text": "1 goes away and we get zero.",
+        "start": 300.72,
+        "duration": 3.199
+    },
+    {
+        "text": "1 goes away, zero goes away, and we get",
+        "start": 303.919,
+        "duration": 1.921
+    },
+    {
+        "text": "zero. 11",
+        "start": 305.84,
+        "duration": 1.28
+    },
+    {
+        "text": "becomes 1 in base",
+        "start": 307.12,
+        "duration": 3.44
+    },
+    {
+        "text": "2, which is 1 in base 10. So our new",
+        "start": 310.56,
+        "duration": 2.8
+    },
+    {
+        "text": "sequence",
+        "start": 313.36,
+        "duration": 0.96
+    },
+    {
+        "text": "is what you get when you plane down the",
+        "start": 314.32,
+        "duration": 1.599
+    },
+    {
+        "text": "numbers. So we get 000,",
+        "start": 315.919,
+        "duration": 2.481
+    },
+    {
+        "text": "this is the base 2 version, this is the",
+        "start": 318.4,
+        "duration": 1.92
+    },
+    {
+        "text": "base 10 version.",
+        "start": 320.32,
+        "duration": 1.12
+    },
+    {
+        "text": "So 1 0 0 we lose the",
+        "start": 321.44,
+        "duration": 3.28
+    },
+    {
+        "text": "1 and we shorten that zero and we get",
+        "start": 324.72,
+        "duration": 2.64
+    },
+    {
+        "text": "zero.",
+        "start": 327.36,
+        "duration": 1.6
+    },
+    {
+        "text": "1 0 1 - zero, base two is zero base",
+        "start": 328.96,
+        "duration": 3.28
+    },
+    {
+        "text": "ten is zero.",
+        "start": 332.24,
+        "duration": 0.79
+    },
+    {
+        "text": "Here now finally we get something",
+        "start": 333.03,
+        "duration": 1.449
+    },
+    {
+        "text": "interesting; we lose the zero",
+        "start": 334.479,
+        "duration": 1.761
+    },
+    {
+        "text": "and we lose a 1 so we get 1.",
+        "start": 336.24,
+        "duration": 3.12
+    },
+    {
+        "text": "Here 1 1 1, we lose the 1, we got 1 1,",
+        "start": 339.36,
+        "duration": 4.16
+    },
+    {
+        "text": "which is 1 1 which is 3. So the sequence",
+        "start": 343.52,
+        "duration": 3.84
+    },
+    {
+        "text": "that we're going to\nget goes 0 0 0 1 0 0 1 3.",
+        "start": 347.36,
+        "duration": 4.24
+    },
+    {
+        "text": "This one we lose that",
+        "start": 351.6,
+        "duration": 2.96
+    },
+    {
+        "text": "and that and we get zero; this we lose",
+        "start": 354.56,
+        "duration": 3.359
+    },
+    {
+        "text": "the 1",
+        "start": 357.919,
+        "duration": 0.961
+    },
+    {
+        "text": "and that and we get zero; and 10",
+        "start": 358.88,
+        "duration": 3.439
+    },
+    {
+        "text": "we lose everything and",
+        "start": 362.319,
+        "duration": 3.041
+    },
+    {
+        "text": "11 we lose that that and that and we",
+        "start": 365.36,
+        "duration": 3.279
+    },
+    {
+        "text": "get 1.",
+        "start": 368.639,
+        "duration": 1.201
+    },
+    {
+        "text": "12 we lose a 1 and a zero and",
+        "start": 369.84,
+        "duration": 2.96
+    },
+    {
+        "text": "finally",
+        "start": 372.8,
+        "duration": 1.119
+    },
+    {
+        "text": "we get a 2. We're doing 13, we lose",
+        "start": 373.919,
+        "duration": 3.441
+    },
+    {
+        "text": "that and that and that and we get a 1.",
+        "start": 377.36,
+        "duration": 3.2
+    },
+    {
+        "text": "Because 12 is 1 1 0 0 it",
+        "start": 380.56,
+        "duration": 3.04
+    },
+    {
+        "text": "becomes",
+        "start": 383.6,
+        "duration": 1.12
+    },
+    {
+        "text": "1 0 which is 2. 13 which is",
+        "start": 384.72,
+        "duration": 3.36
+    },
+    {
+        "text": "1 1 0 1",
+        "start": 388.08,
+        "duration": 1.119
+    },
+    {
+        "text": "we lose the 1 the zero and one of the",
+        "start": 389.199,
+        "duration": 2.081
+    },
+    {
+        "text": "1s and all we are left with",
+        "start": 391.28,
+        "duration": 2.0
+    },
+    {
+        "text": "is a 1. When we get to 14",
+        "start": 393.28,
+        "duration": 3.759
+    },
+    {
+        "text": "we lose a zero and a 1 and we're left",
+        "start": 397.039,
+        "duration": 3.361
+    },
+    {
+        "text": "with 1 1 which",
+        "start": 400.4,
+        "duration": 1.2
+    },
+    {
+        "text": "is 3. And 1 1 1 1, which is 15,",
+        "start": 401.6,
+        "duration": 4.24
+    },
+    {
+        "text": "we lose the 1, we get 1 1 1, and",
+        "start": 405.84,
+        "duration": 3.199
+    },
+    {
+        "text": "we get 7. And when we get down to 16",
+        "start": 409.039,
+        "duration": 4.401
+    },
+    {
+        "text": "we get zero again. So that's- and we keep",
+        "start": 413.44,
+        "duration": 3.36
+    },
+    {
+        "text": "going forever.",
+        "start": 416.8,
+        "duration": 0.959
+    },
+    {
+        "text": "So this is the planed down version.",
+        "start": 417.759,
+        "duration": 3.04
+    },
+    {
+        "text": "This has a very nice sound, you know you",
+        "start": 421.919,
+        "duration": 2.641
+    },
+    {
+        "text": "can listen to any",
+        "start": 424.56,
+        "duration": 1.359
+    },
+    {
+        "text": "any of the 300,000 sequences in the OEIS",
+        "start": 425.919,
+        "duration": 3.041
+    },
+    {
+        "text": "and I would like to play this sequence",
+        "start": 428.96,
+        "duration": 3.679
+    },
+    {
+        "text": "for you:",
+        "start": 432.639,
+        "duration": 1.291
+    },
+    {
+        "text": "(How have you turned it into music?) \n- We-",
+        "start": 446.96,
+        "duration": 2.0
+    },
+    {
+        "text": "imagine that we have a grand piano,",
+        "start": 448.96,
+        "duration": 1.6
+    },
+    {
+        "text": "that's the basic thing, and we number the",
+        "start": 450.56,
+        "duration": 1.919
+    },
+    {
+        "text": "keys 0, 1, 2, 3, up to 87 -",
+        "start": 452.479,
+        "duration": 3.681
+    },
+    {
+        "text": "it's got 88 keys. We take the number",
+        "start": 456.16,
+        "duration": 3.52
+    },
+    {
+        "text": "and we divide by 88 and keep the",
+        "start": 459.68,
+        "duration": 2.48
+    },
+    {
+        "text": "remainder, we",
+        "start": 462.16,
+        "duration": 0.96
+    },
+    {
+        "text": "reduce it mod 88. So that gives us",
+        "start": 463.12,
+        "duration": 3.519
+    },
+    {
+        "text": "something we can play on the grand piano.",
+        "start": 466.639,
+        "duration": 2.0
+    },
+    {
+        "text": "So if they're-",
+        "start": 468.639,
+        "duration": 1.12
+    },
+    {
+        "text": "these numbers you can see are all",
+        "start": 469.759,
+        "duration": 1.361
+    },
+    {
+        "text": "pretty small so it stays down",
+        "start": 471.12,
+        "duration": 2.4
+    },
+    {
+        "text": "here at the bottom of the keyboard for",
+        "start": 473.52,
+        "duration": 2.72
+    },
+    {
+        "text": "quite a long time until we get up to",
+        "start": 476.24,
+        "duration": 1.92
+    },
+    {
+        "text": "some very big numbers, before we actually",
+        "start": 478.16,
+        "duration": 2.479
+    },
+    {
+        "text": "have to round them down.",
+        "start": 480.639,
+        "duration": 2.001
+    },
+    {
+        "text": "(Why do you like that piece of music?)",
+        "start": 483.68,
+        "duration": 2.079
+    },
+    {
+        "text": "Why do I like it? Well",
+        "start": 485.759,
+        "duration": 1.361
+    },
+    {
+        "text": "it has that rhythm to it, it goes da da",
+        "start": 487.12,
+        "duration": 2.639
+    },
+    {
+        "text": "da da da da",
+        "start": 489.759,
+        "duration": 2.641
+    },
+    {
+        "text": "and those those repetitions are because",
+        "start": 495.84,
+        "duration": 2.56
+    },
+    {
+        "text": "of the binary expansion.",
+        "start": 498.4,
+        "duration": 1.76
+    },
+    {
+        "text": "And then every so often like at",
+        "start": 500.16,
+        "duration": 2.719
+    },
+    {
+        "text": "powers of 2 minus 1 \nwe get a bigger number.",
+        "start": 502.879,
+        "duration": 2.561
+    },
+    {
+        "text": "And before it we get some other big",
+        "start": 505.44,
+        "duration": 2.0
+    },
+    {
+        "text": "numbers, so there's a rhythm.",
+        "start": 507.44,
+        "duration": 1.84
+    },
+    {
+        "text": "So the sound, the sounds,",
+        "start": 509.28,
+        "duration": 4.16
+    },
+    {
+        "text": "reflect the structure of the binary",
+        "start": 513.44,
+        "duration": 3.599
+    },
+    {
+        "text": "numbers;",
+        "start": 517.039,
+        "duration": 0.8
+    },
+    {
+        "text": "but processed, it's not just the straight",
+        "start": 517.839,
+        "duration": 2.64
+    },
+    {
+        "text": "binary numbers.",
+        "start": 520.479,
+        "duration": 1.171
+    },
+    {
+        "text": "(Neil, as you keep planing the binaries,)",
+        "start": 533.12,
+        "duration": 2.48
+    },
+    {
+        "text": "(obviously we were we were staying pretty)",
+        "start": 535.6,
+        "duration": 1.679
+    },
+    {
+        "text": "(low there with those numbers,)",
+        "start": 537.279,
+        "duration": 1.441
+    },
+    {
+        "text": "(do you start eventually getting some big)",
+        "start": 538.72,
+        "duration": 1.52
+    },
+    {
+        "text": "(numbers when you\nturn them into, you know,)",
+        "start": 540.24,
+        "duration": 1.52
+    },
+    {
+        "text": "(base 10?)",
+        "start": 541.76,
+        "duration": 0.72
+    },
+    {
+        "text": "Yeah certainly. When we got up to say 2",
+        "start": 542.48,
+        "duration": 3.039
+    },
+    {
+        "text": "to the 20 minus 1,",
+        "start": 545.519,
+        "duration": 2.241
+    },
+    {
+        "text": "plane off 1 we get nineteen 1s in a row,",
+        "start": 547.76,
+        "duration": 4.32
+    },
+    {
+        "text": "so eventually we get all - does every",
+        "start": 552.08,
+        "duration": 3.36
+    },
+    {
+        "text": "number appear? Yeah sure.",
+        "start": 555.44,
+        "duration": 1.44
+    },
+    {
+        "text": "Okay so there's an inverse operation",
+        "start": 556.88,
+        "duration": 2.56
+    },
+    {
+        "text": "which is extending all the runs by 1",
+        "start": 559.44,
+        "duration": 2.48
+    },
+    {
+        "text": "bit",
+        "start": 561.92,
+        "duration": 1.12
+    },
+    {
+        "text": "and that works for any number.",
+        "start": 563.04,
+        "duration": 1.78
+    },
+    {
+        "text": "(What's that called? If that's- \nif that's le raboter)",
+        "start": 564.82,
+        "duration": 2.3
+    },
+    {
+        "text": "what do you call the other version?)\n- I",
+        "start": 567.12,
+        "duration": 2.08
+    },
+    {
+        "text": "just called it expanding.",
+        "start": 569.2,
+        "duration": 3.199
+    },
+    {
+        "text": "Claude didn't mention it in his letter,",
+        "start": 573.76,
+        "duration": 2.32
+    },
+    {
+        "text": "but obviously you could do it.",
+        "start": 576.08,
+        "duration": 1.6
+    },
+    {
+        "text": "You expand all the runs by 1. And then",
+        "start": 577.68,
+        "duration": 2.08
+    },
+    {
+        "text": "if you applied his operation",
+        "start": 579.76,
+        "duration": 1.68
+    },
+    {
+        "text": "you'd get back to where you started, so",
+        "start": 581.44,
+        "duration": 1.839
+    },
+    {
+        "text": "you can get every number.",
+        "start": 583.279,
+        "duration": 2.0
+    },
+    {
+        "text": "So a question is, after you've planed",
+        "start": 585.279,
+        "duration": 2.24
+    },
+    {
+        "text": "down a number",
+        "start": 587.519,
+        "duration": 0.88
+    },
+    {
+        "text": "how big is it? What's the average value",
+        "start": 588.399,
+        "duration": 3.521
+    },
+    {
+        "text": "after you plane it down? So I looked at",
+        "start": 591.92,
+        "duration": 2.0
+    },
+    {
+        "text": "that and",
+        "start": 593.92,
+        "duration": 2.64
+    },
+    {
+        "text": "I asked some friends for help and they",
+        "start": 596.56,
+        "duration": 2.959
+    },
+    {
+        "text": "proved my conjecture is correct.",
+        "start": 599.519,
+        "duration": 1.921
+    },
+    {
+        "text": "If n is k bits",
+        "start": 601.44,
+        "duration": 3.04
+    },
+    {
+        "text": "long in binary, in other words if it's",
+        "start": 604.48,
+        "duration": 2.96
+    },
+    {
+        "text": "a k-bit number.",
+        "start": 607.44,
+        "duration": 1.04
+    },
+    {
+        "text": "So for instance here are all the three",
+        "start": 608.48,
+        "duration": 1.84
+    },
+    {
+        "text": "bit numbers:",
+        "start": 610.32,
+        "duration": 2.639
+    },
+    {
+        "text": "there are actually four of them. A three",
+        "start": 614.24,
+        "duration": 2.32
+    },
+    {
+        "text": "bit number,",
+        "start": 616.56,
+        "duration": 0.959
+    },
+    {
+        "text": "beginning with 1 of course, apart from",
+        "start": 617.519,
+        "duration": 2.401
+    },
+    {
+        "text": "zero every",
+        "start": 619.92,
+        "duration": 0.72
+    },
+    {
+        "text": "binary number begins with 1. So we",
+        "start": 620.64,
+        "duration": 2.319
+    },
+    {
+        "text": "could have 1 0 0 all the way",
+        "start": 622.959,
+        "duration": 1.841
+    },
+    {
+        "text": "up to 1 1 1.",
+        "start": 624.8,
+        "duration": 1.44
+    },
+    {
+        "text": "So there are um 2 to the k minus 1",
+        "start": 626.24,
+        "duration": 3.599
+    },
+    {
+        "text": "three bit numbers, there are two squared",
+        "start": 629.839,
+        "duration": 1.601
+    },
+    {
+        "text": "numbers, there are four of them. What's",
+        "start": 631.44,
+        "duration": 1.28
+    },
+    {
+        "text": "the average value?",
+        "start": 632.72,
+        "duration": 1.119
+    },
+    {
+        "text": "Well it happens to be, we had four",
+        "start": 633.839,
+        "duration": 2.401
+    },
+    {
+        "text": "numbers",
+        "start": 636.24,
+        "duration": 0.96
+    },
+    {
+        "text": "whose sum is four so the average",
+        "start": 637.2,
+        "duration": 2.56
+    },
+    {
+        "text": "value afterwards is 1.",
+        "start": 639.76,
+        "duration": 2.079
+    },
+    {
+        "text": "So what happens for a k-bit number? I",
+        "start": 641.839,
+        "duration": 2.321
+    },
+    {
+        "text": "conjectured",
+        "start": 644.16,
+        "duration": 1.04
+    },
+    {
+        "text": "that the average value after is",
+        "start": 645.2,
+        "duration": 3.04
+    },
+    {
+        "text": "exactly three halves to the power k minus",
+        "start": 648.24,
+        "duration": 3.44
+    },
+    {
+        "text": "1 minus a half. And the way I found",
+        "start": 651.68,
+        "duration": 2.399
+    },
+    {
+        "text": "that was I worked out the average,",
+        "start": 654.079,
+        "duration": 2.401
+    },
+    {
+        "text": "you can see I just worked out the",
+        "start": 656.48,
+        "duration": 1.359
+    },
+    {
+        "text": "average for 3-bit numbers and I got",
+        "start": 657.839,
+        "duration": 1.68
+    },
+    {
+        "text": "1. If you do that for the first 20 or",
+        "start": 659.519,
+        "duration": 2.081
+    },
+    {
+        "text": "30",
+        "start": 661.6,
+        "duration": 0.96
+    },
+    {
+        "text": "terms you get a sequence. What you do",
+        "start": 662.56,
+        "duration": 2.16
+    },
+    {
+        "text": "when you get a sequence? You look it up",
+        "start": 664.72,
+        "duration": 1.44
+    },
+    {
+        "text": "in the OEIS.",
+        "start": 666.16,
+        "duration": 1.119
+    },
+    {
+        "text": "And it is sequence A027649,",
+        "start": 667.279,
+        "duration": 4.8
+    },
+    {
+        "text": "which is the integer three halves to the",
+        "start": 672.079,
+        "duration": 2.721
+    },
+    {
+        "text": "k minus 1 minus a half.",
+        "start": 674.8,
+        "duration": 2.08
+    },
+    {
+        "text": "So the answer to this question, how big",
+        "start": 676.88,
+        "duration": 2.24
+    },
+    {
+        "text": "is what you get,",
+        "start": 679.12,
+        "duration": 1.279
+    },
+    {
+        "text": "it's about three halves to the k.",
+        "start": 680.399,
+        "duration": 3.201
+    },
+    {
+        "text": "So n was about 2 to the k and we",
+        "start": 683.6,
+        "duration": 2.799
+    },
+    {
+        "text": "shrunk it down",
+        "start": 686.399,
+        "duration": 0.88
+    },
+    {
+        "text": "to three halves to the k, so that's the",
+        "start": 687.279,
+        "duration": 2.161
+    },
+    {
+        "text": "answer.",
+        "start": 689.44,
+        "duration": 1.519
+    },
+    {
+        "text": "You might remember these pieces of pi",
+        "start": 690.959,
+        "duration": 2.401
+    },
+    {
+        "text": "we shared with Numberphile \nsupporters a",
+        "start": 693.36,
+        "duration": 1.76
+    },
+    {
+        "text": "while back?",
+        "start": 695.12,
+        "duration": 0.8
+    },
+    {
+        "text": "Well they were so popular we've now",
+        "start": 695.92,
+        "duration": 1.76
+    },
+    {
+        "text": "created these unique views",
+        "start": 697.68,
+        "duration": 2.48
+    },
+    {
+        "text": "of our beloved Mandelbrot set. Each piece",
+        "start": 700.16,
+        "duration": 2.88
+    },
+    {
+        "text": "is individually numbered and is a",
+        "start": 703.04,
+        "duration": 1.84
+    },
+    {
+        "text": "one-off perspective;",
+        "start": 704.88,
+        "duration": 1.28
+    },
+    {
+        "text": "a different location, a different",
+        "start": 706.16,
+        "duration": 1.679
+    },
+    {
+        "text": "magnification. If you'd like us \nto send you one,",
+        "start": 707.839,
+        "duration": 2.881
+    },
+    {
+        "text": "find out more in the link we've included",
+        "start": 710.72,
+        "duration": 4.119
+    },
+    {
+        "text": "below.",
+        "start": 714.839,
+        "duration": 1.8
+    },
+    {
+        "text": "I want to talk about approximating pi in",
+        "start": 716.639,
+        "duration": 2.161
+    },
+    {
+        "text": "the Mandelbrot set,",
+        "start": 718.8,
+        "duration": 1.279
+    },
+    {
+        "text": "maybe it's best to do a little bit of a",
+        "start": 720.079,
+        "duration": 1.44
+    },
+    {
+        "text": "reminder about what \nthe Mandelbrot set is?",
+        "start": 721.519,
+        "duration": 2.161
+    },
+    {
+        "text": "So remember the Mandelbrot set was this",
+        "start": 723.68,
+        "duration": 2.24
+    },
+    {
+        "text": "object that we have in the complex plane;",
+        "start": 725.92,
+        "duration": 2.08
+    },
+    {
+        "text": "so here are the real numbers, and here",
+        "start": 728.0,
+        "duration": 3.279
+    },
+    {
+        "text": "imaginary numbers. And the Mandelbrot set",
+        "start": 731.279,
+        "duration": 2.961
+    },
+    {
+        "text": "was",
+        "start": 734.24,
+        "duration": 0.8
+    },
+    {
+        "text": "a collection of complex numbers, so I'll",
+        "start": 735.04,
+        "duration": 3.039
+    },
+    {
+        "text": "try and sort of draw a nice version of",
+        "start": 738.079,
+        "duration": 1.601
+    },
+    {
+        "text": "this here...",
+        "start": 739.68,
+        "duration": 2.56
+    }
+]

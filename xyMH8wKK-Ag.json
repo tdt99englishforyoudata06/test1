@@ -1,0 +1,1742 @@
+[
+    {
+        "text": "hey everyone I thought I'd talk a little",
+        "start": 0.35,
+        "duration": 5.19
+    },
+    {
+        "text": "bit today about electrical impedance",
+        "start": 3.24,
+        "duration": 5.37
+    },
+    {
+        "text": "this is a topic that confuses a lot of",
+        "start": 5.54,
+        "duration": 5.889
+    },
+    {
+        "text": "people probably because it's taught sort",
+        "start": 8.61,
+        "duration": 5.43
+    },
+    {
+        "text": "of backwards in my opinion where a lot",
+        "start": 11.429,
+        "duration": 4.021
+    },
+    {
+        "text": "of people you know spend all their time",
+        "start": 14.04,
+        "duration": 3.69
+    },
+    {
+        "text": "on the heavy-duty math involved and then",
+        "start": 15.45,
+        "duration": 4.71
+    },
+    {
+        "text": "kind of end with a practical circuit but",
+        "start": 17.73,
+        "duration": 3.87
+    },
+    {
+        "text": "I like to go the other way and start",
+        "start": 20.16,
+        "duration": 3.69
+    },
+    {
+        "text": "with a practical circuit and then as we",
+        "start": 21.6,
+        "duration": 4.499
+    },
+    {
+        "text": "move along uncover the topics as they",
+        "start": 23.85,
+        "duration": 4.08
+    },
+    {
+        "text": "become relevant so let me show you what",
+        "start": 26.099,
+        "duration": 5.19
+    },
+    {
+        "text": "I have set up today our task for today",
+        "start": 27.93,
+        "duration": 5.67
+    },
+    {
+        "text": "is to build a circuit that can power",
+        "start": 31.289,
+        "duration": 5.421
+    },
+    {
+        "text": "just a standard cheapo plain led",
+        "start": 33.6,
+        "duration": 7.619
+    },
+    {
+        "text": "directly from the AC mains while using",
+        "start": 36.71,
+        "duration": 7.54
+    },
+    {
+        "text": "as few components as possible and to do",
+        "start": 41.219,
+        "duration": 4.651
+    },
+    {
+        "text": "it in a relatively energy efficient",
+        "start": 44.25,
+        "duration": 5.879
+    },
+    {
+        "text": "manner so to start we may come up with a",
+        "start": 45.87,
+        "duration": 8.15
+    },
+    {
+        "text": "circuit that looks something like this",
+        "start": 50.129,
+        "duration": 8.541
+    },
+    {
+        "text": "where the LEDs are set up back-to-back",
+        "start": 54.02,
+        "duration": 7.839
+    },
+    {
+        "text": "so that as the AC power switches",
+        "start": 58.67,
+        "duration": 6.15
+    },
+    {
+        "text": "direction one of the LEDs will light up",
+        "start": 61.859,
+        "duration": 6.69
+    },
+    {
+        "text": "so one will be on for both halves of the",
+        "start": 64.82,
+        "duration": 6.58
+    },
+    {
+        "text": "cycle but obviously we can't connect the",
+        "start": 68.549,
+        "duration": 6.061
+    },
+    {
+        "text": "LED right up to to house current because",
+        "start": 71.4,
+        "duration": 4.8
+    },
+    {
+        "text": "the voltage is so high that there would",
+        "start": 74.61,
+        "duration": 3.57
+    },
+    {
+        "text": "be way too much current flowing so if",
+        "start": 76.2,
+        "duration": 4.05
+    },
+    {
+        "text": "you just took an LED don't do this by",
+        "start": 78.18,
+        "duration": 4.17
+    },
+    {
+        "text": "the way and just put it right into the",
+        "start": 80.25,
+        "duration": 4.74
+    },
+    {
+        "text": "outlet it would probably explode in a",
+        "start": 82.35,
+        "duration": 4.32
+    },
+    {
+        "text": "violent pop because the amount of",
+        "start": 84.99,
+        "duration": 3.03
+    },
+    {
+        "text": "current would be measured in you know",
+        "start": 86.67,
+        "duration": 3.21
+    },
+    {
+        "text": "hundreds or thousands of amps or",
+        "start": 88.02,
+        "duration": 4.11
+    },
+    {
+        "text": "something so we can do to keep that from",
+        "start": 89.88,
+        "duration": 4.86
+    },
+    {
+        "text": "happening is to put a big fat resistor",
+        "start": 92.13,
+        "duration": 6.449
+    },
+    {
+        "text": "between the LEDs and the the loop formed",
+        "start": 94.74,
+        "duration": 7.41
+    },
+    {
+        "text": "by the power source so how do we figure",
+        "start": 98.579,
+        "duration": 7.411
+    },
+    {
+        "text": "out what resistor value we can do that",
+        "start": 102.15,
+        "duration": 6.6
+    },
+    {
+        "text": "by measuring the LED I measured this",
+        "start": 105.99,
+        "duration": 5.28
+    },
+    {
+        "text": "cheapo green LED and it just came out to",
+        "start": 108.75,
+        "duration": 5.97
+    },
+    {
+        "text": "be about 18 milliamps at two volts and I",
+        "start": 111.27,
+        "duration": 5.52
+    },
+    {
+        "text": "got that number just by connecting it to",
+        "start": 114.72,
+        "duration": 4.35
+    },
+    {
+        "text": "my power supply and just getting a",
+        "start": 116.79,
+        "duration": 8.13
+    },
+    {
+        "text": "really quick you know rough reading okay",
+        "start": 119.07,
+        "duration": 8.61
+    },
+    {
+        "text": "so if we know that the voltage across",
+        "start": 124.92,
+        "duration": 5.009
+    },
+    {
+        "text": "the line is a hundred twenty volts on",
+        "start": 127.68,
+        "duration": 6.35
+    },
+    {
+        "text": "average for one cycle",
+        "start": 129.929,
+        "duration": 6.601
+    },
+    {
+        "text": "the current will flow out through the",
+        "start": 134.03,
+        "duration": 5.319
+    },
+    {
+        "text": "line through the diode through the",
+        "start": 136.53,
+        "duration": 4.89
+    },
+    {
+        "text": "resistor and back and this whole thing",
+        "start": 139.349,
+        "duration": 4.23
+    },
+    {
+        "text": "reverses obviously when the AC goes into",
+        "start": 141.42,
+        "duration": 3.78
+    },
+    {
+        "text": "the other phase so we'll just look at",
+        "start": 143.579,
+        "duration": 4.291
+    },
+    {
+        "text": "this one phase so we've got 120 volts",
+        "start": 145.2,
+        "duration": 6.239
+    },
+    {
+        "text": "here 118 volts here because we know the",
+        "start": 147.87,
+        "duration": 5.67
+    },
+    {
+        "text": "diode is going to drop two volts at the",
+        "start": 151.439,
+        "duration": 5.22
+    },
+    {
+        "text": "proper current and then the resistor has",
+        "start": 153.54,
+        "duration": 5.699
+    },
+    {
+        "text": "to drop a hundred eighteen volts at the",
+        "start": 156.659,
+        "duration": 4.86
+    },
+    {
+        "text": "proper current so then we just use Ohm's",
+        "start": 159.239,
+        "duration": 7.17
+    },
+    {
+        "text": "law voltage over current 118 volts over",
+        "start": 161.519,
+        "duration": 7.11
+    },
+    {
+        "text": "18 million member to always enter the",
+        "start": 166.409,
+        "duration": 5.371
+    },
+    {
+        "text": "units in standard units so amps not",
+        "start": 168.629,
+        "duration": 6.661
+    },
+    {
+        "text": "milliamps and we end up with 6.6 kilo",
+        "start": 171.78,
+        "duration": 7.56
+    },
+    {
+        "text": "ohms okay easy enough now what I'm gonna",
+        "start": 175.29,
+        "duration": 7.199
+    },
+    {
+        "text": "do is just change that up just a little",
+        "start": 179.34,
+        "duration": 4.92
+    },
+    {
+        "text": "bit and this will become clear later on",
+        "start": 182.489,
+        "duration": 4.711
+    },
+    {
+        "text": "what I'm gonna do is put 1k here and",
+        "start": 184.26,
+        "duration": 7.5
+    },
+    {
+        "text": "five point six K here and that may seem",
+        "start": 187.2,
+        "duration": 5.849
+    },
+    {
+        "text": "a little strange right now but this will",
+        "start": 191.76,
+        "duration": 3.42
+    },
+    {
+        "text": "make sense later on the LEDs don't",
+        "start": 193.049,
+        "duration": 4.201
+    },
+    {
+        "text": "really care whether the resistor is on",
+        "start": 195.18,
+        "duration": 3.809
+    },
+    {
+        "text": "the left side or the right side",
+        "start": 197.25,
+        "duration": 3.81
+    },
+    {
+        "text": "so splitting the resistance stuff like",
+        "start": 198.989,
+        "duration": 4.771
+    },
+    {
+        "text": "that doesn't really change anything with",
+        "start": 201.06,
+        "duration": 8.73
+    },
+    {
+        "text": "the circuit so here it is you can just",
+        "start": 203.76,
+        "duration": 8.939
+    },
+    {
+        "text": "see the the small resistor the two LEDs",
+        "start": 209.79,
+        "duration": 5.279
+    },
+    {
+        "text": "and this is a big resistor using a big",
+        "start": 212.699,
+        "duration": 4.831
+    },
+    {
+        "text": "resistor is necessary because this is",
+        "start": 215.069,
+        "duration": 4.021
+    },
+    {
+        "text": "going to dissipate some pretty serious",
+        "start": 217.53,
+        "duration": 5.389
+    },
+    {
+        "text": "power I should also point out that",
+        "start": 219.09,
+        "duration": 6.179
+    },
+    {
+        "text": "unless you're familiar with the hazards",
+        "start": 222.919,
+        "duration": 5.35
+    },
+    {
+        "text": "involved with you know AC line current",
+        "start": 225.269,
+        "duration": 4.981
+    },
+    {
+        "text": "you probably would not want to try this",
+        "start": 228.269,
+        "duration": 3.981
+    },
+    {
+        "text": "one home this is more of a demonstration",
+        "start": 230.25,
+        "duration": 5.729
+    },
+    {
+        "text": "so I'm gonna plug this in the LEDs come",
+        "start": 232.25,
+        "duration": 9.76
+    },
+    {
+        "text": "on and hopefully you can see yeah its",
+        "start": 235.979,
+        "duration": 8.1
+    },
+    {
+        "text": "drawing about 2.2 watts according to",
+        "start": 242.01,
+        "duration": 5.759
+    },
+    {
+        "text": "this meter so 2.2 watts for those two",
+        "start": 244.079,
+        "duration": 6.451
+    },
+    {
+        "text": "measly resistor or two measly LEDs it's",
+        "start": 247.769,
+        "duration": 4.56
+    },
+    {
+        "text": "not very good at all if you were an",
+        "start": 250.53,
+        "duration": 3.09
+    },
+    {
+        "text": "electrical engineer and you came up with",
+        "start": 252.329,
+        "duration": 3.75
+    },
+    {
+        "text": "this the Energy Star people would not be",
+        "start": 253.62,
+        "duration": 5.19
+    },
+    {
+        "text": "very happy with you at all so I'm gonna",
+        "start": 256.079,
+        "duration": 7.501
+    },
+    {
+        "text": "unplug it and just after this just after",
+        "start": 258.81,
+        "duration": 6.719
+    },
+    {
+        "text": "there's five five or 10 seconds of",
+        "start": 263.58,
+        "duration": 2.94
+    },
+    {
+        "text": "running",
+        "start": 265.529,
+        "duration": 3.781
+    },
+    {
+        "text": "this this resistor is you know not",
+        "start": 266.52,
+        "duration": 4.679
+    },
+    {
+        "text": "burning hot but pretty good good and",
+        "start": 269.31,
+        "duration": 3.96
+    },
+    {
+        "text": "warm and if this were left running for",
+        "start": 271.199,
+        "duration": 3.991
+    },
+    {
+        "text": "10 minutes or something that resistor",
+        "start": 273.27,
+        "duration": 4.709
+    },
+    {
+        "text": "might be too hot to even hold it said",
+        "start": 275.19,
+        "duration": 4.439
+    },
+    {
+        "text": "well it's a 5 watt resistor it would get",
+        "start": 277.979,
+        "duration": 4.831
+    },
+    {
+        "text": "pretty warm so we got to come up with",
+        "start": 279.629,
+        "duration": 9.591
+    },
+    {
+        "text": "another design and that design is this",
+        "start": 282.81,
+        "duration": 6.41
+    },
+    {
+        "text": "so what I've done is replace the",
+        "start": 291.199,
+        "duration": 5.59
+    },
+    {
+        "text": "resistor this was the first design here",
+        "start": 294.33,
+        "duration": 9.6
+    },
+    {
+        "text": "I want to say basically just replace r2",
+        "start": 296.789,
+        "duration": 10.171
+    },
+    {
+        "text": "with a capacitor so you might be",
+        "start": 303.93,
+        "duration": 4.35
+    },
+    {
+        "text": "thinking well what's that going to do",
+        "start": 306.96,
+        "duration": 3.299
+    },
+    {
+        "text": "they actually serve a very similar",
+        "start": 308.28,
+        "duration": 5.34
+    },
+    {
+        "text": "purpose in the circuit they both serve",
+        "start": 310.259,
+        "duration": 6.09
+    },
+    {
+        "text": "to limit the current so let's I built",
+        "start": 313.62,
+        "duration": 5.609
+    },
+    {
+        "text": "the capacitor circuit that's over here",
+        "start": 316.349,
+        "duration": 4.771
+    },
+    {
+        "text": "basically the same thing with just a",
+        "start": 319.229,
+        "duration": 4.891
+    },
+    {
+        "text": "capacitor in place of that fat resistor",
+        "start": 321.12,
+        "duration": 7.019
+    },
+    {
+        "text": "let's plug this one in the LEDs are",
+        "start": 324.12,
+        "duration": 5.849
+    },
+    {
+        "text": "about as bright as they were the first",
+        "start": 328.139,
+        "duration": 4.59
+    },
+    {
+        "text": "time but notice the power meter it's",
+        "start": 329.969,
+        "duration": 7.741
+    },
+    {
+        "text": "only drawing 0.4 watts instead of 2.2 so",
+        "start": 332.729,
+        "duration": 7.711
+    },
+    {
+        "text": "our change the change from a resistor to",
+        "start": 337.71,
+        "duration": 4.29
+    },
+    {
+        "text": "a capacitor has actually made our",
+        "start": 340.44,
+        "duration": 4.05
+    },
+    {
+        "text": "circuit quite a bit more efficient so",
+        "start": 342.0,
+        "duration": 4.77
+    },
+    {
+        "text": "let's take a look at why I'm gonna",
+        "start": 344.49,
+        "duration": 5.82
+    },
+    {
+        "text": "unplug this and also discharge the",
+        "start": 346.77,
+        "duration": 6.75
+    },
+    {
+        "text": "capacitor it had a little tiny pop I",
+        "start": 350.31,
+        "duration": 4.62
+    },
+    {
+        "text": "don't know if you heard that or not but",
+        "start": 353.52,
+        "duration": 2.79
+    },
+    {
+        "text": "you wouldn't want to if you did build",
+        "start": 354.93,
+        "duration": 3.12
+    },
+    {
+        "text": "this circuit keep in mind that when you",
+        "start": 356.31,
+        "duration": 4.02
+    },
+    {
+        "text": "unplug from the wall here that capacitor",
+        "start": 358.05,
+        "duration": 4.679
+    },
+    {
+        "text": "is gonna store a charge and you know",
+        "start": 360.33,
+        "duration": 4.98
+    },
+    {
+        "text": "just short it out like this like I say",
+        "start": 362.729,
+        "duration": 3.81
+    },
+    {
+        "text": "you should probably be familiar with",
+        "start": 365.31,
+        "duration": 3.719
+    },
+    {
+        "text": "with 120 volt safety if you're going to",
+        "start": 366.539,
+        "duration": 5.581
+    },
+    {
+        "text": "attempt this one so let's take a look at",
+        "start": 369.029,
+        "duration": 7.651
+    },
+    {
+        "text": "that schematic again okay so I said that",
+        "start": 372.12,
+        "duration": 7.019
+    },
+    {
+        "text": "the capacitor and the resistor in the in",
+        "start": 376.68,
+        "duration": 4.68
+    },
+    {
+        "text": "the first circuit are serving similar",
+        "start": 379.139,
+        "duration": 4.921
+    },
+    {
+        "text": "purposes they're both restricting the",
+        "start": 381.36,
+        "duration": 4.169
+    },
+    {
+        "text": "amount of current that can flow through",
+        "start": 384.06,
+        "duration": 4.62
+    },
+    {
+        "text": "this circuit and this the units that we",
+        "start": 385.529,
+        "duration": 5.221
+    },
+    {
+        "text": "use to describe a restriction of current",
+        "start": 388.68,
+        "duration": 5.539
+    },
+    {
+        "text": "are ohms so these both actually have a",
+        "start": 390.75,
+        "duration": 6.87
+    },
+    {
+        "text": "value that we can state in ohms but why",
+        "start": 394.219,
+        "duration": 5.591
+    },
+    {
+        "text": "are capacitors not rated in ohms like if",
+        "start": 397.62,
+        "duration": 2.76
+    },
+    {
+        "text": "you go to",
+        "start": 399.81,
+        "duration": 3.39
+    },
+    {
+        "text": "the electronics catalog and look down",
+        "start": 400.38,
+        "duration": 5.34
+    },
+    {
+        "text": "the list of capacitors nothing is in",
+        "start": 403.2,
+        "duration": 4.47
+    },
+    {
+        "text": "there is gonna say anything about owns",
+        "start": 405.72,
+        "duration": 4.89
+    },
+    {
+        "text": "so how do we do it we use this formula",
+        "start": 407.67,
+        "duration": 6.24
+    },
+    {
+        "text": "right here one over two pi times the",
+        "start": 410.61,
+        "duration": 6.06
+    },
+    {
+        "text": "frequency in Hertz times the capacitance",
+        "start": 413.91,
+        "duration": 7.89
+    },
+    {
+        "text": "in farad's so this capacitor is 0.47",
+        "start": 416.67,
+        "duration": 9.57
+    },
+    {
+        "text": "micro farad's and the frequency is 60",
+        "start": 421.8,
+        "duration": 6.9
+    },
+    {
+        "text": "Hertz because we I'm in the United",
+        "start": 426.24,
+        "duration": 5.07
+    },
+    {
+        "text": "States and all the line power is 60",
+        "start": 428.7,
+        "duration": 6.35
+    },
+    {
+        "text": "Hertz here so 1 over 2 pi times 60 times",
+        "start": 431.31,
+        "duration": 7.59
+    },
+    {
+        "text": "0.47 times 10 to the negative 6 and if",
+        "start": 435.05,
+        "duration": 7.39
+    },
+    {
+        "text": "you calculate this all out you get 5.6",
+        "start": 438.9,
+        "duration": 6.39
+    },
+    {
+        "text": "kilo ohms just like in the first circuit",
+        "start": 442.44,
+        "duration": 7.29
+    },
+    {
+        "text": "they're almost exactly equivalent and so",
+        "start": 445.29,
+        "duration": 6.48
+    },
+    {
+        "text": "this this value here X is called",
+        "start": 449.73,
+        "duration": 6.02
+    },
+    {
+        "text": "reactance and reactance is basically a",
+        "start": 451.77,
+        "duration": 7.77
+    },
+    {
+        "text": "resistance to alternating current flow",
+        "start": 455.75,
+        "duration": 6.34
+    },
+    {
+        "text": "so they're both you know in ohms this is",
+        "start": 459.54,
+        "duration": 5.34
+    },
+    {
+        "text": "the same own value as the resistor the",
+        "start": 462.09,
+        "duration": 5.22
+    },
+    {
+        "text": "difference is that the reactance depends",
+        "start": 464.88,
+        "duration": 4.47
+    },
+    {
+        "text": "on the frequency so the reason they",
+        "start": 467.31,
+        "duration": 4.71
+    },
+    {
+        "text": "don't print capacitors with own values",
+        "start": 469.35,
+        "duration": 4.53
+    },
+    {
+        "text": "in a catalog is because they don't know",
+        "start": 472.02,
+        "duration": 3.18
+    },
+    {
+        "text": "what kind of circuit you're gonna put it",
+        "start": 473.88,
+        "duration": 3.63
+    },
+    {
+        "text": "in so if we were using this in Europe",
+        "start": 475.2,
+        "duration": 4.74
+    },
+    {
+        "text": "where the power is 50 Hertz the own",
+        "start": 477.51,
+        "duration": 3.84
+    },
+    {
+        "text": "value would be slightly different",
+        "start": 479.94,
+        "duration": 4.91
+    },
+    {
+        "text": "because the frequency is different",
+        "start": 481.35,
+        "duration": 7.32
+    },
+    {
+        "text": "so what's impedance impedance is the",
+        "start": 484.85,
+        "duration": 7.8
+    },
+    {
+        "text": "combination of reactance and resistance",
+        "start": 488.67,
+        "duration": 6.0
+    },
+    {
+        "text": "unfortunately we can't just add them",
+        "start": 492.65,
+        "duration": 5.02
+    },
+    {
+        "text": "together impedance which is represented",
+        "start": 494.67,
+        "duration": 6.15
+    },
+    {
+        "text": "by Z is equal to the square root of the",
+        "start": 497.67,
+        "duration": 5.28
+    },
+    {
+        "text": "resistance squared plus the reactance",
+        "start": 500.82,
+        "duration": 5.76
+    },
+    {
+        "text": "squared and you geometry guys out there",
+        "start": 502.95,
+        "duration": 5.07
+    },
+    {
+        "text": "will see that this is how to calculate",
+        "start": 506.58,
+        "duration": 4.35
+    },
+    {
+        "text": "the length of a hypotenuse knowing the",
+        "start": 508.02,
+        "duration": 5.76
+    },
+    {
+        "text": "leg lengths of a triangle so we'll get",
+        "start": 510.93,
+        "duration": 4.89
+    },
+    {
+        "text": "into this later but just for now I just",
+        "start": 513.78,
+        "duration": 4.53
+    },
+    {
+        "text": "wanted to show you where impedance comes",
+        "start": 515.82,
+        "duration": 4.62
+    },
+    {
+        "text": "from impedance is just the combination",
+        "start": 518.31,
+        "duration": 6.06
+    },
+    {
+        "text": "of the pure DC resistance and the AC",
+        "start": 520.44,
+        "duration": 8.16
+    },
+    {
+        "text": "resistance known as reactants so the",
+        "start": 524.37,
+        "duration": 8.07
+    },
+    {
+        "text": "impedance of a resistor Z equals the",
+        "start": 528.6,
+        "duration": 5.609
+    },
+    {
+        "text": "square root of R squared plus Z",
+        "start": 532.44,
+        "duration": 3.48
+    },
+    {
+        "text": "because the resistor doesn't have any",
+        "start": 534.209,
+        "duration": 4.11
+    },
+    {
+        "text": "reactance a resistor has the same",
+        "start": 535.92,
+        "duration": 4.979
+    },
+    {
+        "text": "resistance at all frequencies if it's",
+        "start": 538.319,
+        "duration": 7.56
+    },
+    {
+        "text": "perfect a capacitor has no resistance if",
+        "start": 540.899,
+        "duration": 8.37
+    },
+    {
+        "text": "it's perfect and it has reactance so the",
+        "start": 545.879,
+        "duration": 5.971
+    },
+    {
+        "text": "impedance of a pure resistor is just the",
+        "start": 549.269,
+        "duration": 4.8
+    },
+    {
+        "text": "resistance and the impedance of a",
+        "start": 551.85,
+        "duration": 5.279
+    },
+    {
+        "text": "capacitor is just the reactance and we",
+        "start": 554.069,
+        "duration": 5.52
+    },
+    {
+        "text": "had the formula here for the reactance",
+        "start": 557.129,
+        "duration": 5.161
+    },
+    {
+        "text": "of the capacitor is just 1 over 2 pi the",
+        "start": 559.589,
+        "duration": 7.711
+    },
+    {
+        "text": "frequency times the capacitance so I'm",
+        "start": 562.29,
+        "duration": 6.359
+    },
+    {
+        "text": "just going to show you that you can if",
+        "start": 567.3,
+        "duration": 3.089
+    },
+    {
+        "text": "we let's say we wanted to know the",
+        "start": 568.649,
+        "duration": 4.11
+    },
+    {
+        "text": "entire amount of RP dance for our whole",
+        "start": 570.389,
+        "duration": 4.26
+    },
+    {
+        "text": "circuit here what's what's the impedance",
+        "start": 572.759,
+        "duration": 3.81
+    },
+    {
+        "text": "for this whole thing we're gonna make a",
+        "start": 574.649,
+        "duration": 4.23
+    },
+    {
+        "text": "really nasty assumption here we're going",
+        "start": 576.569,
+        "duration": 4.08
+    },
+    {
+        "text": "to assume that the LED is actually",
+        "start": 578.879,
+        "duration": 4.351
+    },
+    {
+        "text": "behaves like a resistance which of",
+        "start": 580.649,
+        "duration": 4.651
+    },
+    {
+        "text": "course it doesn't but in this case it's",
+        "start": 583.23,
+        "duration": 2.849
+    },
+    {
+        "text": "not going to make much difference",
+        "start": 585.3,
+        "duration": 3.12
+    },
+    {
+        "text": "because it's such a small part of the",
+        "start": 586.079,
+        "duration": 6.6
+    },
+    {
+        "text": "circuit so here's the Z total for our",
+        "start": 588.42,
+        "duration": 5.82
+    },
+    {
+        "text": "hole we're going to approximate the",
+        "start": 592.679,
+        "duration": 5.041
+    },
+    {
+        "text": "resistor with a 110 ohm resistor so",
+        "start": 594.24,
+        "duration": 10.5
+    },
+    {
+        "text": "we've got 1k plus 110 squared plus 5,600",
+        "start": 597.72,
+        "duration": 8.669
+    },
+    {
+        "text": "squared and take the square root of that",
+        "start": 604.74,
+        "duration": 5.069
+    },
+    {
+        "text": "so the entire impedance for the whole",
+        "start": 606.389,
+        "duration": 8.461
+    },
+    {
+        "text": "circuit is 5.7 kilo ohms so basically",
+        "start": 609.809,
+        "duration": 7.95
+    },
+    {
+        "text": "impedance is just a resistance that",
+        "start": 614.85,
+        "duration": 5.549
+    },
+    {
+        "text": "depends on frequency that's really all",
+        "start": 617.759,
+        "duration": 3.0
+    },
+    {
+        "text": "it is",
+        "start": 620.399,
+        "duration": 3.69
+    },
+    {
+        "text": "and so with a capacitor at higher",
+        "start": 620.759,
+        "duration": 5.63
+    },
+    {
+        "text": "frequencies it will have a lower",
+        "start": 624.089,
+        "duration": 5.521
+    },
+    {
+        "text": "impedance and a higher impedance at",
+        "start": 626.389,
+        "duration": 5.651
+    },
+    {
+        "text": "lower frequencies so I think what would",
+        "start": 629.61,
+        "duration": 4.68
+    },
+    {
+        "text": "happen if you took a capacitor and just",
+        "start": 632.04,
+        "duration": 5.849
+    },
+    {
+        "text": "put it across a power supply once the",
+        "start": 634.29,
+        "duration": 6.299
+    },
+    {
+        "text": "capacitor charges up no current flows",
+        "start": 637.889,
+        "duration": 5.16
+    },
+    {
+        "text": "because that capacitor is infinite",
+        "start": 640.589,
+        "duration": 6.69
+    },
+    {
+        "text": "resistance at DC currents let me just",
+        "start": 643.049,
+        "duration": 10.2
+    },
+    {
+        "text": "draw this out here for a capacitor this",
+        "start": 647.279,
+        "duration": 9.87
+    },
+    {
+        "text": "is reactance and this is frequency when",
+        "start": 653.249,
+        "duration": 6.241
+    },
+    {
+        "text": "the frequency is low it's you know zero",
+        "start": 657.149,
+        "duration": 8.391
+    },
+    {
+        "text": "basically the reactance is infinite",
+        "start": 659.49,
+        "duration": 6.05
+    },
+    {
+        "text": "at the high frequencies the reactance",
+        "start": 666.39,
+        "duration": 5.26
+    },
+    {
+        "text": "becomes a very low value and this has a",
+        "start": 669.22,
+        "duration": 5.64
+    },
+    {
+        "text": "a one over F relationship because of the",
+        "start": 671.65,
+        "duration": 8.22
+    },
+    {
+        "text": "formula we had 1 over 2 pi FC so you can",
+        "start": 674.86,
+        "duration": 8.33
+    },
+    {
+        "text": "see that for any capacitor at 0 it's the",
+        "start": 679.87,
+        "duration": 5.73
+    },
+    {
+        "text": "Imperius and resulting impedance is",
+        "start": 683.19,
+        "duration": 4.36
+    },
+    {
+        "text": "infinite and at infinitely high",
+        "start": 685.6,
+        "duration": 6.03
+    },
+    {
+        "text": "frequencies the reactance is zero so for",
+        "start": 687.55,
+        "duration": 5.52
+    },
+    {
+        "text": "infinitely high frequencies the",
+        "start": 691.63,
+        "duration": 5.64
+    },
+    {
+        "text": "capacitor is like a short sometimes the",
+        "start": 693.07,
+        "duration": 6.84
+    },
+    {
+        "text": "water analogy is helpful so think of",
+        "start": 697.27,
+        "duration": 4.53
+    },
+    {
+        "text": "electrical current like water flowing",
+        "start": 699.91,
+        "duration": 4.53
+    },
+    {
+        "text": "through a pipe in the case of a resistor",
+        "start": 701.8,
+        "duration": 7.2
+    },
+    {
+        "text": "in our circuit here the electricity",
+        "start": 704.44,
+        "duration": 6.9
+    },
+    {
+        "text": "flows through here and is restricted the",
+        "start": 709.0,
+        "duration": 4.55
+    },
+    {
+        "text": "flow is restricted by these resistors",
+        "start": 711.34,
+        "duration": 6.18
+    },
+    {
+        "text": "but in the case of the capacitor the you",
+        "start": 713.55,
+        "duration": 6.01
+    },
+    {
+        "text": "know water or electricity flows into",
+        "start": 717.52,
+        "duration": 4.05
+    },
+    {
+        "text": "here in the capacitor acts like a bucket",
+        "start": 719.56,
+        "duration": 4.71
+    },
+    {
+        "text": "so the water flows into the bucket and",
+        "start": 721.57,
+        "duration": 4.86
+    },
+    {
+        "text": "it fills up the bucket and once the",
+        "start": 724.27,
+        "duration": 2.91
+    },
+    {
+        "text": "bucket is full",
+        "start": 726.43,
+        "duration": 3.84
+    },
+    {
+        "text": "nothing nothing continues to flow the",
+        "start": 727.18,
+        "duration": 5.58
+    },
+    {
+        "text": "circuit basically stops but in an AC",
+        "start": 730.27,
+        "duration": 5.97
+    },
+    {
+        "text": "circuit the voltage flips and in our",
+        "start": 732.76,
+        "duration": 5.97
+    },
+    {
+        "text": "case 60 times a second so when the",
+        "start": 736.24,
+        "duration": 5.07
+    },
+    {
+        "text": "voltage flips polarity the bucket dumps",
+        "start": 738.73,
+        "duration": 4.56
+    },
+    {
+        "text": "its contents back through the circuit",
+        "start": 741.31,
+        "duration": 5.76
+    },
+    {
+        "text": "and makes these LEDs light up so you",
+        "start": 743.29,
+        "duration": 6.21
+    },
+    {
+        "text": "might be wondering how does our circuit",
+        "start": 747.07,
+        "duration": 4.77
+    },
+    {
+        "text": "become more energy efficient it has the",
+        "start": 749.5,
+        "duration": 5.91
+    },
+    {
+        "text": "same impedance we said that we show that",
+        "start": 751.84,
+        "duration": 5.19
+    },
+    {
+        "text": "these circuits are almost equivalent we",
+        "start": 755.41,
+        "duration": 4.59
+    },
+    {
+        "text": "had five point six K for this resistor 5",
+        "start": 757.03,
+        "duration": 5.49
+    },
+    {
+        "text": "point 6 K for this capacitor this is the",
+        "start": 760.0,
+        "duration": 4.53
+    },
+    {
+        "text": "same this is the same how come the power",
+        "start": 762.52,
+        "duration": 5.85
+    },
+    {
+        "text": "meter only read 2 point 2 watts for this",
+        "start": 764.53,
+        "duration": 6.48
+    },
+    {
+        "text": "case and only point 4 watts for this",
+        "start": 768.37,
+        "duration": 5.46
+    },
+    {
+        "text": "case we're going to talk about that next",
+        "start": 771.01,
+        "duration": 5.73
+    },
+    {
+        "text": "time in the exciting conclusion to our",
+        "start": 773.83,
+        "duration": 5.64
+    },
+    {
+        "text": "series on impedance here where we're",
+        "start": 776.74,
+        "duration": 5.07
+    },
+    {
+        "text": "going to talk about power factor volt",
+        "start": 779.47,
+        "duration": 3.99
+    },
+    {
+        "text": "amps and watts if you've ever wondered",
+        "start": 781.81,
+        "duration": 3.33
+    },
+    {
+        "text": "about those things I'm going to talk",
+        "start": 783.46,
+        "duration": 3.75
+    },
+    {
+        "text": "about those next you can actually use",
+        "start": 785.14,
+        "duration": 4.98
+    },
+    {
+        "text": "these these cool little power meters to",
+        "start": 787.21,
+        "duration": 6.26
+    },
+    {
+        "text": "measure power factor volt amps and such",
+        "start": 790.12,
+        "duration": 5.85
+    },
+    {
+        "text": "ok I hope that was helpful",
+        "start": 793.47,
+        "duration": 4.75
+    },
+    {
+        "text": "stay tuned and subscribe for future",
+        "start": 795.97,
+        "duration": 4.11
+    },
+    {
+        "text": "electric electrical tutorial",
+        "start": 798.22,
+        "duration": 4.26
+    },
+    {
+        "text": "and feel free to post comments about",
+        "start": 800.08,
+        "duration": 4.13
+    },
+    {
+        "text": "what you'd what topics you'd like to see",
+        "start": 802.48,
+        "duration": 6.11
+    },
+    {
+        "text": "okay see you next time bye",
+        "start": 804.21,
+        "duration": 4.38
+    },
+    {
+        "text": "PostScript so you might be wondering why",
+        "start": 808.62,
+        "duration": 4.99
+    },
+    {
+        "text": "I left this resistor in with the",
+        "start": 811.63,
+        "duration": 4.38
+    },
+    {
+        "text": "capacitor circuit I said that we could",
+        "start": 813.61,
+        "duration": 5.22
+    },
+    {
+        "text": "you know size a capacitor such that it",
+        "start": 816.01,
+        "duration": 5.07
+    },
+    {
+        "text": "would replace almost any impedance that",
+        "start": 818.83,
+        "duration": 4.38
+    },
+    {
+        "text": "we want in this circuit so why did I",
+        "start": 821.08,
+        "duration": 4.89
+    },
+    {
+        "text": "bother leaving this resistor in it's",
+        "start": 823.21,
+        "duration": 4.62
+    },
+    {
+        "text": "actually more of a practical matter I",
+        "start": 825.97,
+        "duration": 3.99
+    },
+    {
+        "text": "mean if in a perfect world we definitely",
+        "start": 827.83,
+        "duration": 3.93
+    },
+    {
+        "text": "could build this circuit without any",
+        "start": 829.96,
+        "duration": 3.51
+    },
+    {
+        "text": "resistance and make it purely capacitive",
+        "start": 831.76,
+        "duration": 4.14
+    },
+    {
+        "text": "use just a capacitor to limit the",
+        "start": 833.47,
+        "duration": 5.7
+    },
+    {
+        "text": "current but here's the problem in in AC",
+        "start": 835.9,
+        "duration": 5.43
+    },
+    {
+        "text": "current you know we have a cycle that",
+        "start": 839.17,
+        "duration": 7.2
+    },
+    {
+        "text": "looks like this and at some point we",
+        "start": 841.33,
+        "duration": 6.99
+    },
+    {
+        "text": "have to build our circuit and then plug",
+        "start": 846.37,
+        "duration": 4.92
+    },
+    {
+        "text": "it into the wall so if we happen and and",
+        "start": 848.32,
+        "duration": 5.28
+    },
+    {
+        "text": "this is just running constantly so if we",
+        "start": 851.29,
+        "duration": 4.5
+    },
+    {
+        "text": "happened to plug in our circuit right at",
+        "start": 853.6,
+        "duration": 4.95
+    },
+    {
+        "text": "this point in time everything would be",
+        "start": 855.79,
+        "duration": 6.39
+    },
+    {
+        "text": "great the circuit would see a wave that",
+        "start": 858.55,
+        "duration": 7.92
+    },
+    {
+        "text": "was nice and and and you know starting",
+        "start": 862.18,
+        "duration": 6.45
+    },
+    {
+        "text": "at zero and flowing up and down normally",
+        "start": 866.47,
+        "duration": 4.89
+    },
+    {
+        "text": "but what happens if we decided to plug",
+        "start": 868.63,
+        "duration": 7.14
+    },
+    {
+        "text": "in our circuit here that wouldn't be so",
+        "start": 871.36,
+        "duration": 6.96
+    },
+    {
+        "text": "good so then you know if zero is here",
+        "start": 875.77,
+        "duration": 4.68
+    },
+    {
+        "text": "our circuit would see something like",
+        "start": 878.32,
+        "duration": 5.52
+    },
+    {
+        "text": "this voltage would be zero and then",
+        "start": 880.45,
+        "duration": 5.37
+    },
+    {
+        "text": "suddenly we put the plug into the outlet",
+        "start": 883.84,
+        "duration": 5.19
+    },
+    {
+        "text": "and suddenly we get a nice sharp",
+        "start": 885.82,
+        "duration": 6.12
+    },
+    {
+        "text": "transition right up like this and then a",
+        "start": 889.03,
+        "duration": 7.02
+    },
+    {
+        "text": "nice smooth sine wave now this sharp",
+        "start": 891.94,
+        "duration": 7.53
+    },
+    {
+        "text": "edge right here is not sixty Hertz it's",
+        "start": 896.05,
+        "duration": 6.12
+    },
+    {
+        "text": "actually composed of a bunch of",
+        "start": 899.47,
+        "duration": 4.8
+    },
+    {
+        "text": "frequencies many of which are higher",
+        "start": 902.17,
+        "duration": 5.79
+    },
+    {
+        "text": "than sixty Hertz so our capacitor has a",
+        "start": 904.27,
+        "duration": 6.3
+    },
+    {
+        "text": "much lower impedance during this very",
+        "start": 907.96,
+        "duration": 5.67
+    },
+    {
+        "text": "sharp spike this very sharp voltage",
+        "start": 910.57,
+        "duration": 6.39
+    },
+    {
+        "text": "transition and that would cause too much",
+        "start": 913.63,
+        "duration": 5.4
+    },
+    {
+        "text": "current to flow through the circuit and",
+        "start": 916.96,
+        "duration": 6.0
+    },
+    {
+        "text": "it would cause the LED to die so I tried",
+        "start": 919.03,
+        "duration": 5.19
+    },
+    {
+        "text": "it you know obviously I wanted to find",
+        "start": 922.96,
+        "duration": 3.42
+    },
+    {
+        "text": "out what would happen myself so I built",
+        "start": 924.22,
+        "duration": 4.5
+    },
+    {
+        "text": "the circuit you know just like you see",
+        "start": 926.38,
+        "duration": 5.28
+    },
+    {
+        "text": "here without the resistor and plugged it",
+        "start": 928.72,
+        "duration": 4.57
+    },
+    {
+        "text": "in and after about ten",
+        "start": 931.66,
+        "duration": 3.429
+    },
+    {
+        "text": "cycles of me plugging and unplugging it",
+        "start": 933.29,
+        "duration": 5.099
+    },
+    {
+        "text": "the LED was just about toasted it would",
+        "start": 935.089,
+        "duration": 5.821
+    },
+    {
+        "text": "still light but kind of dimly it wasn't",
+        "start": 938.389,
+        "duration": 5.31
+    },
+    {
+        "text": "doing very well so during this really",
+        "start": 940.91,
+        "duration": 4.349
+    },
+    {
+        "text": "short time this is probably only gonna",
+        "start": 943.699,
+        "duration": 3.75
+    },
+    {
+        "text": "last about a millisecond there will be",
+        "start": 945.259,
+        "duration": 4.711
+    },
+    {
+        "text": "much higher current flowing through the",
+        "start": 947.449,
+        "duration": 6.031
+    },
+    {
+        "text": "LED so this limits the so called inrush",
+        "start": 949.97,
+        "duration": 7.169
+    },
+    {
+        "text": "current and it's purely a practical",
+        "start": 953.48,
+        "duration": 7.38
+    },
+    {
+        "text": "matter just because you know you can't",
+        "start": 957.139,
+        "duration": 5.611
+    },
+    {
+        "text": "plug in your circuit at the zero cross",
+        "start": 960.86,
+        "duration": 4.02
+    },
+    {
+        "text": "point every time you have to anticipate",
+        "start": 962.75,
+        "duration": 5.269
+    },
+    {
+        "text": "this sudden surge",
+        "start": 964.88,
+        "duration": 3.139
+    }
+]

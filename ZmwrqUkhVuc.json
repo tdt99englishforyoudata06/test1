@@ -1,0 +1,462 @@
+[
+    {
+        "text": "There are all kinds of games that computers\nare better at than humans these days.",
+        "start": 3.439,
+        "duration": 3.271
+    },
+    {
+        "text": "Chess.",
+        "start": 6.71,
+        "duration": 1.0
+    },
+    {
+        "text": "Jeopardy.",
+        "start": 7.71,
+        "duration": 1.0
+    },
+    {
+        "text": "Go.",
+        "start": 8.71,
+        "duration": 1.0
+    },
+    {
+        "text": "An artificial intelligence, or AI, is a computer\nsystem designed to solve the problems you’d",
+        "start": 9.71,
+        "duration": 3.17
+    },
+    {
+        "text": "normally expect to need a human brain to solve.",
+        "start": 12.88,
+        "duration": 2.719
+    },
+    {
+        "text": "And the latest advance?",
+        "start": 15.599,
+        "duration": 1.1
+    },
+    {
+        "text": "AIs are getting real good at beating humans\nat poker.",
+        "start": 16.699,
+        "duration": 3.271
+    },
+    {
+        "text": "I’m Stefan Chin.",
+        "start": 19.97,
+        "duration": 1.0
+    },
+    {
+        "text": "And you might recognize me from my riveting\nperformance on the SciShow Quiz Show.",
+        "start": 20.97,
+        "duration": 3.89
+    },
+    {
+        "text": "And today I’m here to tell you about how\nartificial intelligence is taking over the",
+        "start": 24.86,
+        "duration": 3.75
+    },
+    {
+        "text": "world.",
+        "start": 28.61,
+        "duration": 1.0
+    },
+    {
+        "text": "In January, an AI called Libratus beat 4 expert\nhuman players after playing about 120,000",
+        "start": 29.61,
+        "duration": 5.83
+    },
+    {
+        "text": "games of poker.",
+        "start": 35.44,
+        "duration": 1.0
+    },
+    {
+        "text": "And in a paper published yesterday in the\njournal Science, a separate research group",
+        "start": 36.44,
+        "duration": 3.23
+    },
+    {
+        "text": "announced that their AI, called DeepStack,\nbeat 10 out of 11 expert human players after",
+        "start": 39.67,
+        "duration": 4.77
+    },
+    {
+        "text": "playing about 45,000 games.",
+        "start": 44.44,
+        "duration": 2.049
+    },
+    {
+        "text": "Both AIs played a version of poker known as\nTexas Hold ‘em, where each player gets two",
+        "start": 46.489,
+        "duration": 4.101
+    },
+    {
+        "text": "facedown cards that only they are allowed\nto look at.",
+        "start": 50.59,
+        "duration": 2.909
+    },
+    {
+        "text": "There are also five face-up cards that everyone\ncan see, and three rounds of betting.",
+        "start": 53.499,
+        "duration": 4.641
+    },
+    {
+        "text": "Most of the games that AIs have conquered\nso far, like the strategy game Go, are what",
+        "start": 58.14,
+        "duration": 3.769
+    },
+    {
+        "text": "are known as perfect-information games, meaning\nthat all the players have the same information",
+        "start": 61.909,
+        "duration": 4.241
+    },
+    {
+        "text": "about the game.",
+        "start": 66.15,
+        "duration": 1.0
+    },
+    {
+        "text": "For example: in chess or Go, both players\ncan see all the pieces on the board, so they’re",
+        "start": 67.15,
+        "duration": 4.32
+    },
+    {
+        "text": "making decisions based on the same information.",
+        "start": 71.47,
+        "duration": 2.21
+    },
+    {
+        "text": "But Texas Hold ‘em is an imperfect-information\ngame.",
+        "start": 73.68,
+        "duration": 2.73
+    },
+    {
+        "text": "Since players can’t see each other’s face-down\ncards, they don’t all have the same information.",
+        "start": 76.41,
+        "duration": 4.27
+    },
+    {
+        "text": "That makes things much more complicated, because\nyou have to make guesses about the other player’s",
+        "start": 80.68,
+        "duration": 3.97
+    },
+    {
+        "text": "hand.",
+        "start": 84.65,
+        "duration": 1.0
+    },
+    {
+        "text": "Like, say your opponent raises the bet.",
+        "start": 85.65,
+        "duration": 1.41
+    },
+    {
+        "text": "Is that because they actually have great cards?",
+        "start": 87.06,
+        "duration": 1.98
+    },
+    {
+        "text": "Or are they bluffing because they think you’re\nbluffing?",
+        "start": 89.04,
+        "duration": 2.32
+    },
+    {
+        "text": "And do they think you’re bluffing because\nin the last round of bets you thought they",
+        "start": 91.36,
+        "duration": 3.09
+    },
+    {
+        "text": "were bluffing?",
+        "start": 94.45,
+        "duration": 1.0
+    },
+    {
+        "text": "Those kinds of brain-bendy questions come\nup in imperfect-information games all the",
+        "start": 95.45,
+        "duration": 3.16
+    },
+    {
+        "text": "time, and these two new AIs each used different\ntechniques to figure out the most likely answers.",
+        "start": 98.61,
+        "duration": 5.08
+    },
+    {
+        "text": "They both only played against one opponent\nper game, which helped because the more players",
+        "start": 103.69,
+        "duration": 4.54
+    },
+    {
+        "text": "there are, the more ways the game can play\nout.",
+        "start": 108.23,
+        "duration": 2.19
+    },
+    {
+        "text": "But they also both played the no-limit version\nof Texas Hold ‘em, meaning that the players",
+        "start": 110.42,
+        "duration": 4.13
+    },
+    {
+        "text": "could bet however much they wanted.",
+        "start": 114.55,
+        "duration": 1.77
+    },
+    {
+        "text": "And that made things harder, because when\nyou can bet whatever you want, the results",
+        "start": 116.32,
+        "duration": 3.43
+    },
+    {
+        "text": "of each round affect the way you bet in the\nlater rounds, so the game has way more possible",
+        "start": 119.75,
+        "duration": 4.63
+    },
+    {
+        "text": "outcomes.",
+        "start": 124.38,
+        "duration": 1.0
+    },
+    {
+        "text": "Specifically, there were 10^160 possible outcomes\nfor each game.",
+        "start": 125.38,
+        "duration": 3.98
+    },
+    {
+        "text": "That’s a 1 with 160 zeroes after it.",
+        "start": 129.36,
+        "duration": 3.0
+    },
+    {
+        "text": "It’s a number so big, that there’s no\nway even the most powerful computer could",
+        "start": 132.36,
+        "duration": 3.68
+    },
+    {
+        "text": "actually consider all of those possibilities.",
+        "start": 136.04,
+        "duration": 2.38
+    },
+    {
+        "text": "For the Libratus AI that won against 4 people\nin January, researchers first had it play",
+        "start": 138.42,
+        "duration": 4.19
+    },
+    {
+        "text": "literally trillions of games against itself.",
+        "start": 142.61,
+        "duration": 3.01
+    },
+    {
+        "text": "They programmed it to learn from those games\nso it could work out the best strategies in",
+        "start": 145.62,
+        "duration": 3.47
+    },
+    {
+        "text": "different situations, based on how the rest\nof the game would play out.",
+        "start": 149.09,
+        "duration": 3.3
+    },
+    {
+        "text": "Then, they unleashed Libratus on the four\nhuman players in a massive tournament that",
+        "start": 152.39,
+        "duration": 3.81
+    },
+    {
+        "text": "lasted 20 days.",
+        "start": 156.2,
+        "duration": 1.23
+    },
+    {
+        "text": "At first, the human players found some weaknesses\nin the AI’s gameplay, and for the first",
+        "start": 157.43,
+        "duration": 4.11
+    },
+    {
+        "text": "six days or so, they weren’t losing too\nbadly.",
+        "start": 161.54,
+        "duration": 2.21
+    },
+    {
+        "text": "But the researchers also designed the AI to\nlearn from its games against the human players.",
+        "start": 163.75,
+        "duration": 4.94
+    },
+    {
+        "text": "So every night, it would refine its strategies\nbefore the next day’s games.",
+        "start": 168.69,
+        "duration": 3.31
+    },
+    {
+        "text": "And around the seventh day, the AI started\nbeating the humans by a wider and wider margin.",
+        "start": 172.0,
+        "duration": 4.39
+    },
+    {
+        "text": "By the end of the tournament, it had won more\nthan $1.2 million.",
+        "start": 176.39,
+        "duration": 3.6
+    },
+    {
+        "text": "On the other hand, the researchers behind\nthe DeepStack AI, designed it to use neural",
+        "start": 179.99,
+        "duration": 4.18
+    },
+    {
+        "text": "networks.",
+        "start": 184.17,
+        "duration": 1.0
+    },
+    {
+        "text": "Neural networks involve layers of processors\nworking together to solve a problem, with",
+        "start": 185.17,
+        "duration": 3.71
+    },
+    {
+        "text": "each layer using the results of the other\nlayers in its calculations.",
+        "start": 188.88,
+        "duration": 3.06
+    },
+    {
+        "text": "It’s a strategy that’s modeled after the\nway brains work, and it’s being used in",
+        "start": 191.94,
+        "duration": 3.81
+    },
+    {
+        "text": "some of the most advanced AIs in the world.",
+        "start": 195.75,
+        "duration": 2.33
+    },
+    {
+        "text": "Like Libratus, DeepStack trained itself by\nstudying random games — although it only",
+        "start": 198.08,
+        "duration": 3.72
+    },
+    {
+        "text": "looked at about 11 million of them.",
+        "start": 201.8,
+        "duration": 1.56
+    },
+    {
+        "text": "But Deepstack wasn’t designed to consider\nhow a move would affect the whole rest of",
+        "start": 203.36,
+        "duration": 3.97
+    },
+    {
+        "text": "the game before deciding on a strategy.",
+        "start": 207.33,
+        "duration": 1.68
+    },
+    {
+        "text": "Instead, it looked at how different decisions\nwould affect only the next few moves, then",
+        "start": 209.01,
+        "duration": 4.16
+    },
+    {
+        "text": "used what it had learned about the game to\ncalculate whether those next moves brought",
+        "start": 213.17,
+        "duration": 3.74
+    },
+    {
+        "text": "it closer to winning.",
+        "start": 216.91,
+        "duration": 1.0
+    },
+    {
+        "text": "So DeepStack tries to forecast how the next\npart of the game might go, without trying",
+        "start": 217.91,
+        "duration": 3.41
+    },
+    {
+        "text": "to predict the whole thing.",
+        "start": 221.32,
+        "duration": 1.11
+    },
+    {
+        "text": "And when the researchers had DeepStack play\nagainst 11 expert human Texas Hold ‘em players,",
+        "start": 222.43,
+        "duration": 4.66
+    },
+    {
+        "text": "it outperformed 10 of them across thousands\nof games.",
+        "start": 227.09,
+        "duration": 2.85
+    },
+    {
+        "text": "So even though Libratus and Deepstack were\ndesigned very differently, both AIs mastered",
+        "start": 229.94,
+        "duration": 3.99
+    },
+    {
+        "text": "a complicated, imperfect-information game.",
+        "start": 233.93,
+        "duration": 2.4
+    },
+    {
+        "text": "And now there’s one more thing that computers\nare better at than humans.",
+        "start": 236.33,
+        "duration": 2.78
+    },
+    {
+        "text": "But this is a big step toward some broader\nadvancements, too.",
+        "start": 239.11,
+        "duration": 2.99
+    },
+    {
+        "text": "There are lots of real-world situations where\nyou have to make decisions even though you’re",
+        "start": 242.1,
+        "duration": 4.0
+    },
+    {
+        "text": "missing some information, just like in Texas\nHold ‘em.",
+        "start": 246.1,
+        "duration": 2.999
+    },
+    {
+        "text": "And the success of these two AIs means we’re\non our way to creating systems that can analyze",
+        "start": 249.099,
+        "duration": 4.441
+    },
+    {
+        "text": "those kinds of problems better than a human\ncan.",
+        "start": 253.54,
+        "duration": 2.479
+    },
+    {
+        "text": "For things like deciding on the best treatment\nfor a disease, that’s an awesome plus.",
+        "start": 256.019,
+        "duration": 3.731
+    },
+    {
+        "text": "And these AIs could also be useful for things\nlike stock trading and diplomacy.",
+        "start": 259.75,
+        "duration": 3.5
+    },
+    {
+        "text": "One thing’s for sure, though: the future\nis gonna have some amazing AI poker players.",
+        "start": 263.25,
+        "duration": 4.71
+    },
+    {
+        "text": "And I for one welcome our new robot overlords.",
+        "start": 267.96,
+        "duration": 1.989
+    },
+    {
+        "text": "Thank you for watching this episode of SciShow\nNews, and thanks especially to all of our",
+        "start": 269.949,
+        "duration": 3.671
+    },
+    {
+        "text": "patrons on Patreon who make this show possible.",
+        "start": 273.62,
+        "duration": 2.59
+    },
+    {
+        "text": "If you want to help us keep making episodes\nlike this, just go to patreon.com/scishow­.",
+        "start": 276.21,
+        "duration": 4.69
+    },
+    {
+        "text": "And don’t forget to go to youtube.com/scishow\nand subscribe!",
+        "start": 280.9,
+        "duration": 12.88
+    }
+]

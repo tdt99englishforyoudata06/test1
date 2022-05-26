@@ -1,0 +1,1002 @@
+[
+    {
+        "text": "We're at the kitchen table and we have toothpicks. We put down one toothpick and we notice it has two ends.",
+        "start": 0.06,
+        "duration": 6.72
+    },
+    {
+        "text": "So at each end we put a toothpick. The toothpicks are all the same length,",
+        "start": 6.779,
+        "duration": 4.529
+    },
+    {
+        "text": "ideally. We started with one and we added two, so now we've got three toothpicks. We notice now",
+        "start": 11.83,
+        "duration": 5.93
+    },
+    {
+        "text": "there are four ends. So on each end",
+        "start": 17.76,
+        "duration": 2.819
+    },
+    {
+        "text": "we put a toothpick. And these toothpicks actually touch.",
+        "start": 20.58,
+        "duration": 3.84
+    },
+    {
+        "text": "So those ends are no longer free. And we keep going, we do this forever.",
+        "start": 24.789,
+        "duration": 4.25
+    },
+    {
+        "text": "So the next generation, this is the fourth step. We had four free ends,",
+        "start": 29.17,
+        "duration": 5.33
+    },
+    {
+        "text": "we're gonna add four more toothpicks.",
+        "start": 34.6,
+        "duration": 2.93
+    },
+    {
+        "text": "Those, those two toothpicks met at the middle, so those ends are no longer free. So now there are, there are four ends.",
+        "start": 38.079,
+        "duration": 6.44
+    },
+    {
+        "text": "So we add four more toothpicks.",
+        "start": 44.52,
+        "duration": 2.24
+    },
+    {
+        "text": "(Brady: Wow, now we've got more ends)",
+        "start": 47.18,
+        "duration": 1.8
+    },
+    {
+        "text": "Now we've got eight free ends, so we add eight toothpicks. And we keep going. And the question is, how many toothpicks",
+        "start": 48.98,
+        "duration": 7.74
+    },
+    {
+        "text": "do we have after n generations? Is there a formula?",
+        "start": 57.25,
+        "duration": 4.52
+    },
+    {
+        "text": "Well, this is a very lovely question. Let me show you. David Applegate, my",
+        "start": 62.5,
+        "duration": 5.569
+    },
+    {
+        "text": "former colleague at Bell Labs, made an animation of this and a number of related sequences.",
+        "start": 68.65,
+        "duration": 6.289
+    },
+    {
+        "text": "There we see one toothpick. Next we added two toothpicks. Next,",
+        "start": 75.43,
+        "duration": 5.659
+    },
+    {
+        "text": "next, this is where we got to, now we're going to add eight. And now we have 12 free ends,",
+        "start": 81.7,
+        "duration": 5.48
+    },
+    {
+        "text": "we're going to add twelve toothpicks.",
+        "start": 87.18,
+        "duration": 2.0
+    },
+    {
+        "text": "And so on.",
+        "start": 90.67,
+        "duration": 2.0
+    },
+    {
+        "text": "So let's watch it run. We see it growing. When we get to power of two",
+        "start": 92.68,
+        "duration": 5.36
+    },
+    {
+        "text": "we notice something special happens. We have essentially a square that's full of toothpicks.",
+        "start": 98.799,
+        "duration": 5.87
+    },
+    {
+        "text": "There's no room in the middle to add any more toothpicks.",
+        "start": 104.67,
+        "duration": 2.669
+    },
+    {
+        "text": "There's a horizontal line of toothpicks at the top and the bottom, and there are four free ends.",
+        "start": 107.34,
+        "duration": 5.37
+    },
+    {
+        "text": "So by the rule, at step 17, we're gonna add four toothpicks. The new toothpicks are always blue.",
+        "start": 112.869,
+        "duration": 6.529
+    },
+    {
+        "text": "So we've just added four and now if we keep going, and you can see it growing from the corners.",
+        "start": 119.86,
+        "duration": 5.509
+    },
+    {
+        "text": "Now the interesting thing is that the growth from the corners after 16 generations",
+        "start": 125.369,
+        "duration": 5.391
+    },
+    {
+        "text": "is the same as the growth from the corners after 32. So let's let it run for a bit and admire it.",
+        "start": 131.98,
+        "duration": 6.18
+    },
+    {
+        "text": "So we're coming up to a new power of two, 128 generations,",
+        "start": 138.16,
+        "duration": 3.74
+    },
+    {
+        "text": "and again it's growing, and it's growing from the corners.",
+        "start": 142.109,
+        "duration": 2.66
+    },
+    {
+        "text": "(Brady: Hypnotic, isn't it?)\n- It's wonderful, yes. But you can do this on your, on your computer at home and you can see it's growing and",
+        "start": 145.349,
+        "duration": 7.97
+    },
+    {
+        "text": "it's",
+        "start": 154.109,
+        "duration": 1.171
+    },
+    {
+        "text": "obviously a fractal like structure. The growth from the corners is,",
+        "start": 155.28,
+        "duration": 4.099
+    },
+    {
+        "text": "has growth from the corners, the corners grow like earlier corners grew, and it grows and grows and grows.",
+        "start": 159.87,
+        "duration": 6.86
+    },
+    {
+        "text": "And the question is how many toothpicks do we have after n generations?",
+        "start": 171.359,
+        "duration": 5.09
+    },
+    {
+        "text": "And I'll show you in a minute how we analyse this. But there are others",
+        "start": 176.45,
+        "duration": 4.11
+    },
+    {
+        "text": "that we were not able to analyse. So when you look at the seagull, in the sky,",
+        "start": 180.959,
+        "duration": 5.209
+    },
+    {
+        "text": "it looks like that. So that's actually a toothpick. It happens to be bent and it's got three ends.",
+        "start": 186.169,
+        "duration": 6.12
+    },
+    {
+        "text": "The rule is the same, every free end",
+        "start": 192.29,
+        "duration": 2.16
+    },
+    {
+        "text": "you add a toothpick, only this time they're gull-wing toothpicks. Now we've got four wingtips,",
+        "start": 194.73,
+        "duration": 6.589
+    },
+    {
+        "text": "so we go there. And there, and there, and let's let it run and watch it,",
+        "start": 201.599,
+        "duration": 6.229
+    },
+    {
+        "text": "admire it growing.",
+        "start": 208.29,
+        "duration": 1.919
+    },
+    {
+        "text": "This is much more difficult.",
+        "start": 210.209,
+        "duration": 2.0
+    },
+    {
+        "text": "We have not analysed this. Here the growth from the corners is different at each power of two. It's still every power of two,",
+        "start": 212.43,
+        "duration": 7.97
+    },
+    {
+        "text": "it fills up a square as much as it can,",
+        "start": 221.34,
+        "duration": 2.6
+    },
+    {
+        "text": "but the growth from the corners is much less predictable.",
+        "start": 224.609,
+        "duration": 3.71
+    },
+    {
+        "text": "(Brady: Who even thought to make a gull toothpick? Like where did that idea-)\n- Omar. Omar Pol.",
+        "start": 228.389,
+        "duration": 4.67
+    },
+    {
+        "text": "Yes.",
+        "start": 233.939,
+        "duration": 2.0
+    },
+    {
+        "text": "Isn't that wonderful, let me show you a couple of others before I",
+        "start": 237.109,
+        "duration": 2.67
+    },
+    {
+        "text": "show you a little bit of the mathematics of the analysis,",
+        "start": 240.569,
+        "duration": 2.809
+    },
+    {
+        "text": "which is actually just as pretty as the picture but a different, a different style.",
+        "start": 243.379,
+        "duration": 5.819
+    },
+    {
+        "text": "E-toothpick and see how that looks - run.",
+        "start": 249.75,
+        "duration": 2.509
+    },
+    {
+        "text": "Yeah. Yes. This is very",
+        "start": 252.959,
+        "duration": 2.0
+    },
+    {
+        "text": "Christmasy, snowflakey. And again, we don't understand this at all. We know how to generate it, but we don't have a formula for",
+        "start": 255.359,
+        "duration": 7.1
+    },
+    {
+        "text": "how many E's - E toothpicks there are.",
+        "start": 263.03,
+        "duration": 3.329
+    },
+    {
+        "text": "We're going back to normal toothpicks now, so here are ten generations, and you notice that after eight generations",
+        "start": 278.48,
+        "duration": 5.75
+    },
+    {
+        "text": "we have a square which is almost full. As full as it can be, there's no room to put a toothpick,",
+        "start": 284.63,
+        "duration": 5.75
+    },
+    {
+        "text": "there are no free ends in the square. There are only four free ends.",
+        "start": 290.38,
+        "duration": 4.559
+    },
+    {
+        "text": "So after eight generations we add four again, it's just like at the beginning. One, two, three, four, we have eight free ends,",
+        "start": 295.01,
+        "duration": 6.889
+    },
+    {
+        "text": "so we add eight and we get there and so on. Now in - if we look at a corner, let's",
+        "start": 301.9,
+        "duration": 4.47
+    },
+    {
+        "text": "focus on a corner. So after a power of two what we're left with is a",
+        "start": 306.44,
+        "duration": 5.419
+    },
+    {
+        "text": "square with no, no holes in it - it's full up. And",
+        "start": 312.83,
+        "duration": 3.29
+    },
+    {
+        "text": "at each of the four corners, there's half a toothpick sticking out.",
+        "start": 317.09,
+        "duration": 3.829
+    },
+    {
+        "text": "The first step is, all we can do is add one toothpick there.",
+        "start": 320.919,
+        "duration": 3.99
+    },
+    {
+        "text": "And we'd of course add one at the other four corners. Now the next generation, this has two free ends,",
+        "start": 324.91,
+        "duration": 5.339
+    },
+    {
+        "text": "so we add two toothpicks.",
+        "start": 331.49,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, now we have three free ends so we add three more toothpicks. I'm now at generation, what is it, one, two, three.",
+        "start": 333.59,
+        "duration": 7.639
+    },
+    {
+        "text": "We're gonna be able - we've still got three",
+        "start": 341.26,
+        "duration": 2.0
+    },
+    {
+        "text": "free ends. We add one,",
+        "start": 343.82,
+        "duration": 2.509
+    },
+    {
+        "text": "two,",
+        "start": 347.09,
+        "duration": 1.139
+    },
+    {
+        "text": "three.",
+        "start": 348.229,
+        "duration": 1.381
+    },
+    {
+        "text": "And now we have one, two, three, four free ends",
+        "start": 349.61,
+        "duration": 3.41
+    },
+    {
+        "text": "so we add four toothpicks, and so on. After, I think this is seven steps,",
+        "start": 353.02,
+        "duration": 4.32
+    },
+    {
+        "text": "it looks like that. And if you stare at this",
+        "start": 357.34,
+        "duration": 2.91
+    },
+    {
+        "text": "you see that it's really made up of three clumps. The corner sequence,",
+        "start": 360.44,
+        "duration": 5.539
+    },
+    {
+        "text": "after whatever it was, seven more steps. And this is true for any power of two,",
+        "start": 366.65,
+        "duration": 4.7
+    },
+    {
+        "text": "it's not just, you know there if you go up to 128",
+        "start": 371.35,
+        "duration": 3.75
+    },
+    {
+        "text": "steps, we still see the same growth.",
+        "start": 375.62,
+        "duration": 2.0
+    },
+    {
+        "text": "256 it still starts the same. It grows more and more because there's more room",
+        "start": 378.229,
+        "duration": 4.1
+    },
+    {
+        "text": "when we're out at",
+        "start": 382.94,
+        "duration": 1.62
+    },
+    {
+        "text": "256, but the beginning is the same, always. When you look at it",
+        "start": 384.56,
+        "duration": 4.1
+    },
+    {
+        "text": "you notice that after a power of two beyond where we were, we have three",
+        "start": 388.66,
+        "duration": 5.94
+    },
+    {
+        "text": "clumps. And so pay careful attention to how many there are.",
+        "start": 395.03,
+        "duration": 3.98
+    },
+    {
+        "text": "We find there's a formula and I was using L for the number in one of these clumps, and",
+        "start": 399.59,
+        "duration": 5.73
+    },
+    {
+        "text": "here we've got three clumps, two clumps which are seventh",
+        "start": 405.72,
+        "duration": 4.52
+    },
+    {
+        "text": "generational clumps, and one which is eighth generation and we get a formula.",
+        "start": 410.76,
+        "duration": 4.279
+    },
+    {
+        "text": "And when we actually",
+        "start": 415.56,
+        "duration": 1.92
+    },
+    {
+        "text": "put all the pieces together",
+        "start": 417.48,
+        "duration": 2.0
+    },
+    {
+        "text": "we find that",
+        "start": 419.7,
+        "duration": 2.0
+    },
+    {
+        "text": "we can explain the corner toothpicks.",
+        "start": 421.77,
+        "duration": 2.419
+    },
+    {
+        "text": "I won't really go into the details, but there's a very nice formula which explains, after we've gone",
+        "start": 424.19,
+        "duration": 5.85
+    },
+    {
+        "text": "for a power of two plus i",
+        "start": 430.77,
+        "duration": 2.449
+    },
+    {
+        "text": "further steps, where i is one, two, three, four, five and so on,",
+        "start": 434.01,
+        "duration": 3.709
+    },
+    {
+        "text": "there's a formula for the number in the corner which depends on K, the power of two, and i.",
+        "start": 437.73,
+        "duration": 5.929
+    },
+    {
+        "text": "And it's a very nice recurrence.",
+        "start": 444.0,
+        "duration": 2.0
+    },
+    {
+        "text": "Once we've noticed this recurrence, that the number - there's, there's a way of writing down how many",
+        "start": 446.24,
+        "duration": 5.97
+    },
+    {
+        "text": "toothpicks there are in the corner, in terms of something we already know,",
+        "start": 453.06,
+        "duration": 4.64
+    },
+    {
+        "text": "that's enough. We can, we've now essentially cracked the whole problem.",
+        "start": 458.37,
+        "duration": 4.7
+    },
+    {
+        "text": "We know ever- almost everything about it.",
+        "start": 463.07,
+        "duration": 2.97
+    },
+    {
+        "text": "We have, we can work out - if you want to know the millionth term we can do it easily.",
+        "start": 466.04,
+        "duration": 4.23
+    },
+    {
+        "text": "It solved a problem and we wrote a paper about it,",
+        "start": 470.27,
+        "duration": 2.639
+    },
+    {
+        "text": "Omar Pol, David Applegate and myself. So that one we solved in the end.",
+        "start": 472.91,
+        "duration": 5.07
+    },
+    {
+        "text": "You might say on the scale of things that was a pretty easy",
+        "start": 477.99,
+        "duration": 2.84
+    },
+    {
+        "text": "sequence to analyse Now there are a lot of others which are not so easy, like the seagull",
+        "start": 481.41,
+        "duration": 5.48
+    },
+    {
+        "text": "toothpick, and the E",
+        "start": 487.5,
+        "duration": 1.47
+    },
+    {
+        "text": "toothpick.",
+        "start": 488.97,
+        "duration": 1.05
+    },
+    {
+        "text": "There is another couple of easy ones that I think are worth telling you about,",
+        "start": 490.02,
+        "duration": 6.44
+    },
+    {
+        "text": "particularly as they involve one of the famous",
+        "start": 497.76,
+        "duration": 2.869
+    },
+    {
+        "text": "scientists from Los Alamos, New Mexico,",
+        "start": 501.81,
+        "duration": 3.14
+    },
+    {
+        "text": "Stanislaw Ulam. Let's imagine",
+        "start": 505.62,
+        "duration": 2.0
+    },
+    {
+        "text": "we have a large piece of squared paper, and",
+        "start": 507.63,
+        "duration": 2.959
+    },
+    {
+        "text": "each square is a cell, and we can say that cell is either alive or dead,",
+        "start": 510.93,
+        "duration": 6.32
+    },
+    {
+        "text": "it's on or off. Its 0 or 1.",
+        "start": 517.38,
+        "duration": 2.869
+    },
+    {
+        "text": "Maybe it's infected or it's not infected, there's a disease spreading.",
+        "start": 521.04,
+        "duration": 3.979
+    },
+    {
+        "text": "We want to know how fast the disease is spreading. Or maybe there's some",
+        "start": 525.36,
+        "duration": 4.04
+    },
+    {
+        "text": "chemical reaction which is going on. It starts off with one",
+        "start": 529.59,
+        "duration": 3.919
+    },
+    {
+        "text": "cell being active and that activates other cells. We want to know how fast does this grow?",
+        "start": 534.03,
+        "duration": 5.63
+    },
+    {
+        "text": "it's, it's, it's understandable that this would be something that physicists and chemists and",
+        "start": 540.24,
+        "duration": 4.7
+    },
+    {
+        "text": "scientists and maybe nuclear scientists and mathematicians,",
+        "start": 546.15,
+        "duration": 2.959
+    },
+    {
+        "text": "people who are studying epidemics and so on, this is of universal interest this question: how fast does",
+        "start": 550.32,
+        "duration": 6.95
+    },
+    {
+        "text": "something spread? A very simple version of this is what's called the Ulam-Warburton",
+        "start": 557.58,
+        "duration": 5.599
+    },
+    {
+        "text": "cellular automaton and it works on cells. And it's a machine,",
+        "start": 564.09,
+        "duration": 4.309
+    },
+    {
+        "text": "that's why it's called an automaton.",
+        "start": 568.44,
+        "duration": 1.79
+    },
+    {
+        "text": "It proceeds on its own and the idea is we have to imagine we have a huge piece of graph paper, with",
+        "start": 570.23,
+        "duration": 6.09
+    },
+    {
+        "text": "cells, square cells.",
+        "start": 577.02,
+        "duration": 2.0
+    },
+    {
+        "text": "And each one is surrounded by eight others, but actually we'll only look at the four nearest neighbours",
+        "start": 579.75,
+        "duration": 5.0
+    },
+    {
+        "text": "of the cell. And we're going to start off",
+        "start": 585.39,
+        "duration": 2.239
+    },
+    {
+        "text": "where everything is clean. The pristine board - nothing is on.",
+        "start": 588.18,
+        "duration": 4.52
+    },
+    {
+        "text": "Suddenly one of the cells gets turned on,",
+        "start": 593.25,
+        "duration": 2.69
+    },
+    {
+        "text": "I'll write a 1 instead of a 0, all the other cells are 0. The rule is, for this particular",
+        "start": 595.94,
+        "duration": 5.789
+    },
+    {
+        "text": "automaton, you look at a cell near this. It gets turned on",
+        "start": 601.98,
+        "duration": 3.41
+    },
+    {
+        "text": "if exactly one of your neighbours is on. This has one neighbour that's on, so it gets turned on. So that one",
+        "start": 605.39,
+        "duration": 7.2
+    },
+    {
+        "text": "turns on those four. Okay, now, let's go on. At the next generation",
+        "start": 612.78,
+        "duration": 5.06
+    },
+    {
+        "text": "this cell here has two neighbours that are on, so it does not get turned on.",
+        "start": 617.94,
+        "duration": 4.669
+    },
+    {
+        "text": "I'll put a zero, likewise that's a zero and that's a zero.",
+        "start": 622.61,
+        "duration": 3.239
+    },
+    {
+        "text": "But this cell here does get turned on because it's got only one neighbour that's on.",
+        "start": 626.13,
+        "duration": 5.929
+    },
+    {
+        "text": "This is the Ulam-Warburton cellular automaton. So let's have a look at it.",
+        "start": 632.28,
+        "duration": 4.22
+    },
+    {
+        "text": "(Brady: Can things get turned off or once you're on-)",
+        "start": 636.5,
+        "duration": 1.39
+    },
+    {
+        "text": "No, they - can inversions of this. Of course Conway's Game of Life,",
+        "start": 637.89,
+        "duration": 3.979
+    },
+    {
+        "text": "cells turn on and turn off.",
+        "start": 642.69,
+        "duration": 2.0
+    },
+    {
+        "text": "These particular ones only turn on. You're either on or off. And once you're on you stay on.",
+        "start": 645.42,
+        "duration": 5.69
+    },
+    {
+        "text": "And there it is. It starts off with one cell on, there it is it's blue because it's a new cell.",
+        "start": 651.84,
+        "duration": 5.629
+    },
+    {
+        "text": "Ok, next. It turns on its four neighbours and next it turns on four neighbours again,",
+        "start": 657.96,
+        "duration": 6.139
+    },
+    {
+        "text": "it did not turn on that one because the rule is you turn on if exactly one of your neighbours",
+        "start": 664.1,
+        "duration": 5.4
+    },
+    {
+        "text": "is on. This one has two neighbours that are on so it stays off, it is not infected. If we let it run,",
+        "start": 669.889,
+        "duration": 5.94
+    },
+    {
+        "text": "again, it's gonna grow up. And again, you'll notice that every power of two",
+        "start": 677.189,
+        "duration": 5.15
+    },
+    {
+        "text": "it's got a full square and it grows from the corners. And again, we can analyse it in the same way.",
+        "start": 682.339,
+        "duration": 6.239
+    },
+    {
+        "text": "And this one is even simpler, there's a simple formula for how many cells are on after n generations.",
+        "start": 689.489,
+        "duration": 7.91
+    },
+    {
+        "text": "Now we're doing the same thing, but our graph paper isn't squared graph paper anymore, it's",
+        "start": 710.249,
+        "duration": 5.15
+    },
+    {
+        "text": "hexagonal",
+        "start": 716.16,
+        "duration": 1.139
+    },
+    {
+        "text": "papers. Like the bathroom floors where you see hexagonal tiles.",
+        "start": 717.299,
+        "duration": 3.559
+    },
+    {
+        "text": "This is hexagonal tiles, each cell has six neighbours now.",
+        "start": 720.98,
+        "duration": 3.899
+    },
+    {
+        "text": "But the rule is the same, you turn on if one of you-",
+        "start": 724.949,
+        "duration": 3.14
+    },
+    {
+        "text": "exactly one of your neighbours is on. So watch. If we let it run it goes like this. Again",
+        "start": 728.189,
+        "duration": 5.359
+    },
+    {
+        "text": "it has the same property that after a power of two we have a full hexagon and it grows from the corners, but now",
+        "start": 733.579,
+        "duration": 7.619
+    },
+    {
+        "text": "something really",
+        "start": 741.809,
+        "duration": 0.99
+    },
+    {
+        "text": "annoying or beautiful has happened. The growth from the corners; we're coming up to another power of two here,",
+        "start": 742.799,
+        "duration": 5.36
+    },
+    {
+        "text": "watch it grow from the corners. If you stare at this you can see in here",
+        "start": 748.16,
+        "duration": 3.899
+    },
+    {
+        "text": "there's a pattern of black and white cells. At the next power of two we see a different pattern,",
+        "start": 752.059,
+        "duration": 4.559
+    },
+    {
+        "text": "it does not repeat. It is very complicated.",
+        "start": 756.619,
+        "duration": 3.24
+    },
+    {
+        "text": "And over there I have a very large piece of paper with my attempt to analyse it.",
+        "start": 760.379,
+        "duration": 4.73
+    },
+    {
+        "text": "Do you want to see it? \n- (Brady: Yeah, of course!)",
+        "start": 765.989,
+        "duration": 2.0
+    },
+    {
+        "text": "Here",
+        "start": 771.449,
+        "duration": 2.0
+    },
+    {
+        "text": "This is my attempt - and it's not finished. I haven't given up but I haven't solved it yet.",
+        "start": 774.63,
+        "duration": 5.69
+    },
+    {
+        "text": "This starts down here in the corner,",
+        "start": 780.32,
+        "duration": 2.369
+    },
+    {
+        "text": "and then it grows. And it grows and it grows and every, you,",
+        "start": 783.3,
+        "duration": 4.759
+    },
+    {
+        "text": "if we look here you can see this is sixteen. So this is where we were after eight,",
+        "start": 789.24,
+        "duration": 5.629
+    },
+    {
+        "text": "each power of two, we, we get a closed hexagon. I'm just showing you one",
+        "start": 796.2,
+        "duration": 4.58
+    },
+    {
+        "text": "sector, one sixth of the whole pizza.",
+        "start": 801.36,
+        "duration": 3.679
+    },
+    {
+        "text": "Just a slice. So after sixteen",
+        "start": 805.74,
+        "duration": 2.899
+    },
+    {
+        "text": "the, we have that. After 32, it's like that. And then if life",
+        "start": 810.03,
+        "duration": 4.7
+    },
+    {
+        "text": "was simple there would be a predictable pattern,",
+        "start": 815.34,
+        "duration": 3.229
+    },
+    {
+        "text": "but there isn't. If you look at these squares, the coloured squares,",
+        "start": 819.09,
+        "duration": 5.09
+    },
+    {
+        "text": "the red squares there are not like the red squares that we saw earlier. There are some similarities,",
+        "start": 825.69,
+        "duration": 6.98
+    },
+    {
+        "text": "so I haven't given up, but",
+        "start": 833.49,
+        "duration": 2.0
+    },
+    {
+        "text": "this is really tricky.",
+        "start": 836.34,
+        "duration": 1.64
+    },
+    {
+        "text": "I think this one is doable but some of the others, and there are a lot - as you saw there",
+        "start": 837.98,
+        "duration": 6.57
+    },
+    {
+        "text": "there are 100 or more",
+        "start": 844.55,
+        "duration": 2.0
+    },
+    {
+        "text": "animations that you can look at it, and some of them are very beautiful. I particularly wanted to show you Fredkin's replicator.",
+        "start": 846.9,
+        "duration": 7.609
+    },
+    {
+        "text": "A graduate student at the University of Cambridge",
+        "start": 855.18,
+        "duration": 2.509
+    },
+    {
+        "text": "asked me if I could solve it.",
+        "start": 858.84,
+        "duration": 2.359
+    },
+    {
+        "text": "And I did. It was on the margin of what, what could be solved and what couldn't but it was. The rule is",
+        "start": 861.99,
+        "duration": 7.94
+    },
+    {
+        "text": "it's similar to the Olam-Warburton.",
+        "start": 870.21,
+        "duration": 2.15
+    },
+    {
+        "text": "You turn on if the number of neighbours",
+        "start": 872.88,
+        "duration": 3.02
+    },
+    {
+        "text": "that's on is odd.",
+        "start": 876.72,
+        "duration": 1.47
+    },
+    {
+        "text": "Not one, as it was for Olam-Warburton. If it's two you just - you turn off, but an odd number you turn on.",
+        "start": 878.19,
+        "duration": 6.32
+    },
+    {
+        "text": "(Brady: Oh I like that. It's like, nice and arbitrary.)",
+        "start": 884.51,
+        "duration": 2.73
+    },
+    {
+        "text": "Yeah, well the pictures are beautiful, look at this. Here's the first 16 generations,",
+        "start": 887.36,
+        "duration": 6.3
+    },
+    {
+        "text": "and then when you look at 32 generations",
+        "start": 894.66,
+        "duration": 2.69
+    },
+    {
+        "text": "you ask can we break it up into pieces",
+        "start": 897.93,
+        "duration": 3.229
+    },
+    {
+        "text": "that look like things we've seen earlier? And the answer is yes, you can but it's a little tricky.",
+        "start": 901.41,
+        "duration": 5.359
+    },
+    {
+        "text": "And the reason it's called Fredkin's replicator is if you have some shape,",
+        "start": 912.69,
+        "duration": 4.25
+    },
+    {
+        "text": "any shape you like,",
+        "start": 918.42,
+        "duration": 2.0
+    },
+    {
+        "text": "say that. Then after a certain number of generations, you see two copies of it. It replicates itself.",
+        "start": 920.58,
+        "duration": 7.16
+    },
+    {
+        "text": "That's why.",
+        "start": 927.96,
+        "duration": 1.71
+    },
+    {
+        "text": "Fredkin being a famous computer scientist at MIT who",
+        "start": 929.67,
+        "duration": 2.51
+    },
+    {
+        "text": "studied many things like this.",
+        "start": 933.6,
+        "duration": 2.46
+    },
+    {
+        "text": "[Preview] ...Don't think it was worth all that, I've done lots of other mathematical things. And",
+        "start": 947.14,
+        "duration": 4.64
+    },
+    {
+        "text": "so I found the Game of Life was sort of overshadowing much more important things and I did not like it...",
+        "start": 951.78,
+        "duration": 5.63
+    },
+    {
+        "text": "We agree on that right? Two in three chance you've chosen a goat.",
+        "start": 957.96,
+        "duration": 3.109
+    },
+    {
+        "text": "So this scenario of course should be of more interest to us. It's the more likely scenario.",
+        "start": 961.14,
+        "duration": 4.429
+    }
+]

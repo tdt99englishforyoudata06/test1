@@ -1,0 +1,582 @@
+[
+    {
+        "text": "How do you rotate an object in three\ndimensions? So, you take an object like that,",
+        "start": 0.0,
+        "duration": 5.48
+    },
+    {
+        "text": "and rotate it. That would be something that's useful, you can imagine, in computer",
+        "start": 5.48,
+        "duration": 4.699
+    },
+    {
+        "text": "graphics. But how are we gonna do this? Now, one of the neatest ways of doing this",
+        "start": 10.179,
+        "duration": 5.901
+    },
+    {
+        "text": "mathematically uses a new type of number, beyond the regular numbers you know.",
+        "start": 16.08,
+        "duration": 6.12
+    },
+    {
+        "text": "So this is beyond the real numbers, as we call them.",
+        "start": 22.2,
+        "duration": 3.42
+    },
+    {
+        "text": "They're even beyond the complex numbers—if you've heard of complex numbers before—it is even",
+        "start": 25.62,
+        "duration": 5.7
+    },
+    {
+        "text": "beyond that. They are called quaternions. They are fantastic! So imagine that I want to move",
+        "start": 31.33,
+        "duration": 6.04
+    },
+    {
+        "text": "along in one dimension. So you are living somewhere here and if I said move +5.",
+        "start": 37.37,
+        "duration": 6.72
+    },
+    {
+        "text": "+5 means that you move 5 units to the right along this line, so I'd end up over here.",
+        "start": 44.09,
+        "duration": 6.45
+    },
+    {
+        "text": "If I said instead move −3, you might understand that means move 3 units, but that time",
+        "start": 50.54,
+        "duration": 7.22
+    },
+    {
+        "text": "move 3 units to the left. So that's how you move in one dimension. That's fairly easy, isn't it?",
+        "start": 57.76,
+        "duration": 3.9
+    },
+    {
+        "text": "Let's talk about moving around in two dimensions and say I want to end up at a point over here.",
+        "start": 61.66,
+        "duration": 5.18
+    },
+    {
+        "text": "What that might be... 3 units this way—let's call that a 3—and I move 4 units up like that.",
+        "start": 66.85,
+        "duration": 9.25
+    },
+    {
+        "text": "One way you could write that as a set of instructions is to write it as 3+4i. Some of you may know what's",
+        "start": 76.1,
+        "duration": 7.86
+    },
+    {
+        "text": "coming here, some of you may have seen this 'i' before. But for now, let's just say 'i' means",
+        "start": 83.96,
+        "duration": 4.46
+    },
+    {
+        "text": "turn 90° and go up and down. For now, that's what it means. So that's one way I can travel to that point.",
+        "start": 88.42,
+        "duration": 6.36
+    },
+    {
+        "text": "Alternatively I could look at it this way—I could travel 3 across and 4 up,",
+        "start": 94.79,
+        "duration": 4.329
+    },
+    {
+        "text": "or I could rotate myself to this angle here and move along this diagonal line here—",
+        "start": 99.12,
+        "duration": 7.58
+    },
+    {
+        "text": "and that would be 3+4i as well. I could use the same",
+        "start": 106.7,
+        "duration": 3.34
+    },
+    {
+        "text": "instructions to make that point. That's how you travel in two dimensions. I mean, if I",
+        "start": 110.049,
+        "duration": 3.811
+    },
+    {
+        "text": "want to then go further, and travel maybe a bit further on... So let's say I wanted to go maybe",
+        "start": 113.86,
+        "duration": 6.16
+    },
+    {
+        "text": "1 more across and then 2 up like that. What I can do then by adding a further",
+        "start": 120.03,
+        "duration": 6.43
+    },
+    {
+        "text": "1+2i, I end up at this point, and I can say that this point is the combined result, which means I have actually",
+        "start": 126.46,
+        "duration": 7.46
+    },
+    {
+        "text": "traveled—what?—3 across and then a further 1, that's 4 across and... 6 up. Or, if you like, it's",
+        "start": 133.93,
+        "duration": 9.19
+    },
+    {
+        "text": "the combined result of going from here up to here. So we can add these numbers together, and",
+        "start": 143.12,
+        "duration": 4.8
+    },
+    {
+        "text": "we should think of them as numbers, right? You can add them together and you can",
+        "start": 147.92,
+        "duration": 4.04
+    },
+    {
+        "text": "move around in two dimensions. So this time let's rotate this line. Let's take",
+        "start": 151.97,
+        "duration": 5.239
+    },
+    {
+        "text": "my combined result here. What have I got? That's 4+6i. Let's rotate this 90°. If I",
+        "start": 157.209,
+        "duration": 5.92
+    },
+    {
+        "text": "rotate it 90°, I think it's gonna end up something like that, and it will end up here.",
+        "start": 163.129,
+        "duration": 6.871
+    },
+    {
+        "text": "It will end up on a point here, so this is going to be a 90° rotation. This",
+        "start": 170.0,
+        "duration": 4.34
+    },
+    {
+        "text": "point is actually −6+4i, and that's where I end up if I rotate. These look similar to each other.",
+        "start": 174.34,
+        "duration": 10.88
+    },
+    {
+        "text": "Why do they look similar? How can I get from this number to this number?",
+        "start": 185.22,
+        "duration": 3.46
+    },
+    {
+        "text": "What I've done actually is multiplied. Instead of adding the numbers together, I've actually",
+        "start": 188.68,
+        "duration": 4.76
+    },
+    {
+        "text": "multiplied this time by the number—we call it a number—the number 'i'. So there is a",
+        "start": 193.45,
+        "duration": 6.55
+    },
+    {
+        "text": "special rule with this. The special rule is  'i' times itself, i×i, is equal to −1. Just to",
+        "start": 200.0,
+        "duration": 7.32
+    },
+    {
+        "text": "show you what I did, I took where I was, 4+6i, I multiplied it by 'i', and what did I get? I got",
+        "start": 207.329,
+        "duration": 8.211
+    },
+    {
+        "text": "4i+6... well, let's call it i². Oh, what is that? It's 4i−6, or in other words, where I ended up here,",
+        "start": 215.54,
+        "duration": 10.16
+    },
+    {
+        "text": "−6+4i. So multiplying by that number 'i' means you rotate 90°. If you",
+        "start": 225.7,
+        "duration": 6.42
+    },
+    {
+        "text": "do it twice, you get −1, which does make sense. So if you rotate 90°, and",
+        "start": 232.12,
+        "duration": 4.72
+    },
+    {
+        "text": "then rotate 90° again, you are 180° now—you're",
+        "start": 236.84,
+        "duration": 4.59
+    },
+    {
+        "text": "facing the opposite direction—so you're going in the negative direction, so it does make",
+        "start": 241.43,
+        "duration": 4.029
+    },
+    {
+        "text": "sense. And it turns out that if you multiply these numbers together,",
+        "start": 245.459,
+        "duration": 3.231
+    },
+    {
+        "text": "you get rotations. When you multiply the two numbers together, you add their angles",
+        "start": 248.69,
+        "duration": 6.24
+    },
+    {
+        "text": "together. So if I want to rotate 45°, I would get my triangle for 45°.",
+        "start": 254.93,
+        "duration": 6.97
+    },
+    {
+        "text": "1/√2 there, 1/√2 here. So that's a nice nice 1 now.",
+        "start": 261.9,
+        "duration": 7.12
+    },
+    {
+        "text": "That is a 45° angle. Written as a number, that is \n(1/√2)+(1/√2)i. So you are going that",
+        "start": 269.02,
+        "duration": 13.48
+    },
+    {
+        "text": "distance across and then that distance up. If I multiplied by that number, I would rotate",
+        "start": 282.5,
+        "duration": 5.04
+    },
+    {
+        "text": "by 45°. So adding them together makes you travel around in two dimensions,",
+        "start": 287.54,
+        "duration": 4.88
+    },
+    {
+        "text": "multiplying them together makes you rotate in two dimensions.",
+        "start": 292.92,
+        "duration": 3.32
+    },
+    {
+        "text": "Now if you're ahead of me and have seen this sort of thing before,",
+        "start": 296.24,
+        "duration": 2.86
+    },
+    {
+        "text": "you may recognize these as\ncomplex numbers—which, by the way, is a",
+        "start": 299.1,
+        "duration": 3.52
+    },
+    {
+        "text": "terrible name, \"complex\" numbers, which makes them sound like \"difficult\" numbers, which I don't think is",
+        "start": 302.62,
+        "duration": 5.3
+    },
+    {
+        "text": "the intention. I think the idea is that they are \"compound\" numbers. They are actually",
+        "start": 307.92,
+        "duration": 5.48
+    },
+    {
+        "text": "two-dimensional numbers. That's a way of thinking of complex numbers. Real numbers",
+        "start": 313.4,
+        "duration": 4.82
+    },
+    {
+        "text": "are one-dimensional numbers, complex numbers are two-dimensional numbers, and you",
+        "start": 318.22,
+        "duration": 5.52
+    },
+    {
+        "text": "can use them to travel in 2-D and rotate in 2-D. So the question is, how do we",
+        "start": 323.74,
+        "duration": 6.29
+    },
+    {
+        "text": "rotate in 3-D? We must need three-dimensional numbers, right? So we must",
+        "start": 330.03,
+        "duration": 6.67
+    },
+    {
+        "text": "have to introduce an 'i' and a 'j' as well. So we have three dimensional numbers, and",
+        "start": 336.7,
+        "duration": 5.96
+    },
+    {
+        "text": "that's what people thought. It turns out, we don't need three-dimensional numbers,",
+        "start": 342.66,
+        "duration": 6.14
+    },
+    {
+        "text": "we need four-dimensional numbers. To rotate in three dimensions, bizarrely, you",
+        "start": 348.8,
+        "duration": 8.6
+    },
+    {
+        "text": "need a four-dimensional number. Let me show you how this works.",
+        "start": 357.4,
+        "duration": 4.44
+    },
+    {
+        "text": "(STAMMERS) So there was an Irish mathematician called William Hamilton,",
+        "start": 361.84,
+        "duration": 6.28
+    },
+    {
+        "text": "and he was thinking about this problem, and he couldn't solve it.",
+        "start": 368.12,
+        "duration": 2.6
+    },
+    {
+        "text": "He said, \"it doesn't work in\nthree dimensions! I can't get it to work!\"",
+        "start": 370.72,
+        "duration": 4.16
+    },
+    {
+        "text": "And the story goes that he was having a walk with his wife along the canal in Dublin,",
+        "start": 374.88,
+        "duration": 5.96
+    },
+    {
+        "text": "and then suddenly inspiration struck. He realized, \"I don't need three dimensions,",
+        "start": 380.84,
+        "duration": 8.44
+    },
+    {
+        "text": "I need four-dimensional numbers! I need 'i', 'j', and 'k'!\" So flushed with this,",
+        "start": 389.28,
+        "duration": 8.06
+    },
+    {
+        "text": "he immediately walked over to a nearby bridge over the canal, and he carved in the",
+        "start": 397.34,
+        "duration": 7.14
+    },
+    {
+        "text": "rules that he needed to make this work. These are the rules that he carved into that bridge:",
+        "start": 404.49,
+        "duration": 5.13
+    },
+    {
+        "text": "i² = j² = k² = i⋅j⋅k = −1.",
+        "start": 409.62,
+        "duration": 10.46
+    },
+    {
+        "text": "It's very similar to the complex number idea. Complex numbers, i² = −1—that's what",
+        "start": 420.08,
+        "duration": 7.1
+    },
+    {
+        "text": "we needed for that. It's very similar, but no, we need 'i', 'j' and 'k'.",
+        "start": 427.18,
+        "duration": 6.38
+    },
+    {
+        "text": "He carved this into the canal bridge,\nwhich unfortunately—graffiti, what a vandal!—unfortunately",
+        "start": 433.569,
+        "duration": 8.311
+    },
+    {
+        "text": "it's not there anymore.\nBut now there is a plaque celebrating",
+        "start": 441.88,
+        "duration": 3.64
+    },
+    {
+        "text": "the rules, his discovery of quaternions. The rules are there, and every year,",
+        "start": 445.52,
+        "duration": 6.94
+    },
+    {
+        "text": "mathematicians around Dublin have a\npilgrimage to the spot where he had this idea for",
+        "start": 452.46,
+        "duration": 5.239
+    },
+    {
+        "text": "quaternions for the first time. So by multiplying these four-dimensional numbers, you can now",
+        "start": 458.419,
+        "duration": 5.72
+    },
+    {
+        "text": "rotate—like the 2-D version—you\ncan rotate things in three dimensions,",
+        "start": 464.139,
+        "duration": 6.0
+    },
+    {
+        "text": "and this is how things are done using computer graphics. Not only that, it's",
+        "start": 470.139,
+        "duration": 5.18
+    },
+    {
+        "text": "how things are worked out for the rotation or the orientation of a space shuttle",
+        "start": 475.319,
+        "duration": 6.64
+    },
+    {
+        "text": "going up, or it's how they work out the orientation or the rotation of",
+        "start": 481.96,
+        "duration": 6.199
+    },
+    {
+        "text": "your smartphone. So let's say I want to rotate an object in three dimensions. Well, I pick a line—like",
+        "start": 488.159,
+        "duration": 7.74
+    },
+    {
+        "text": "this pen here—I stab the object with\nthis pen, and then I can rotate around",
+        "start": 495.899,
+        "duration": 6.221
+    },
+    {
+        "text": "this pen here. So I might stab it this way, and then I can rotate the object like that. Or I might",
+        "start": 502.12,
+        "duration": 6.84
+    },
+    {
+        "text": "stab this way, so it rotates the object this way, or this way, so we can rotate like that. So, how do",
+        "start": 508.969,
+        "duration": 8.091
+    },
+    {
+        "text": "we write this? I take a line like that, and then I wanna rotate around that line. Let's do an angle, 'θ', like that.",
+        "start": 517.06,
+        "duration": 7.6
+    },
+    {
+        "text": "Let's call it 'v'—this line, we're calling 'v'. So it's a three-dimensional thing.",
+        "start": 524.66,
+        "duration": 3.6
+    },
+    {
+        "text": "It has three coordinates. Let's call them v₁, v₂, and v₃.",
+        "start": 528.26,
+        "duration": 5.4
+    },
+    {
+        "text": "Let's take a point that's getting rotated around. Let's call that 'P'. That's just x, y, and z,",
+        "start": 533.66,
+        "duration": 7.04
+    },
+    {
+        "text": "for that point, in three dimensions, this is how things work.",
+        "start": 540.7,
+        "duration": 2.84
+    },
+    {
+        "text": "But now we're gonna rotate it using a quaternion. What does a quaternion look like? It looks like this:",
+        "start": 543.54,
+        "duration": 6.94
+    },
+    {
+        "text": "A quaternion, let's call it 'h', would be something like a+bi+cj+dk,",
+        "start": 550.48,
+        "duration": 10.78
+    },
+    {
+        "text": "and actually, for this I do need another little thing, something called h*, and h*=a−bi−cj−dk.",
+        "start": 561.269,
+        "duration": 11.091
+    },
+    {
+        "text": "Right, if I want to rotate by an angle of θ, then a, b, and c are defined as:",
+        "start": 572.36,
+        "duration": 7.2
+    },
+    {
+        "text": "a=cos(θ/2), b is going to be written as... v₁—that's come from my vector here, that's my",
+        "start": 579.56,
+        "duration": 10.44
+    },
+    {
+        "text": "stabbing pen—times sin(θ/2), c=v₂⋅sin(θ/2), and d=v₃⋅sin(θ/2).",
+        "start": 590.0,
+        "duration": 15.88
+    },
+    {
+        "text": "So it turns out we need four components for our number that we're gonna use. We need four",
+        "start": 605.88,
+        "duration": 4.8
+    },
+    {
+        "text": "components to have the freedom to do the stabbing and then the rotating around that vector.",
+        "start": 610.68,
+        "duration": 6.36
+    },
+    {
+        "text": "And how do you work out the rotation then, finally? If P, which is the point I'm rotating,",
+        "start": 617.04,
+        "duration": 6.56
+    },
+    {
+        "text": "you write P as a quaternion, its coordinates are x, y, and z, so it's actually xi+yj+zk,",
+        "start": 623.6,
+        "duration": 10.44
+    },
+    {
+        "text": "and finally, the rotation is h⋅p⋅h*. Right, that's the main maths of it, but we need four components",
+        "start": 634.04,
+        "duration": 12.1
+    },
+    {
+        "text": "to our number to have the freedom to be able to rotate around a vector and then move the angle around it.",
+        "start": 646.14,
+        "duration": 7.0
+    },
+    {
+        "text": "So the complex numbers contain the real numbers as well, and it turns out that",
+        "start": 653.14,
+        "duration": 5.949
+    },
+    {
+        "text": "the quaternions contain the complex\nnumbers, and in turn they contain the",
+        "start": 659.089,
+        "duration": 4.62
+    },
+    {
+        "text": "the real numbers. When you don't need the j and the k, now you got a complex number, and if you",
+        "start": 663.709,
+        "duration": 5.571
+    },
+    {
+        "text": "don't need the i, you've got a real number. So you might be thinking, \"what's next? Is there a",
+        "start": 669.29,
+        "duration": 5.88
+    },
+    {
+        "text": "next step up?\" And there is, the next step up is octonions—8 dimensional numbers.",
+        "start": 675.17,
+        "duration": 8.85
+    },
+    {
+        "text": "Octonions, which have their own set of rules as well, are very similar, a very",
+        "start": 684.02,
+        "duration": 5.82
+    },
+    {
+        "text": "similar idea, but every time we go a step further, they get a bit more abstract.",
+        "start": 689.84,
+        "duration": 6.1
+    },
+    {
+        "text": "They lose a bit of structure, and there's a property that you lose each time you do it.",
+        "start": 695.94,
+        "duration": 6.22
+    },
+    {
+        "text": "So the more you do this, the less useful they become. Octonions have some uses",
+        "start": 702.16,
+        "duration": 7.44
+    },
+    {
+        "text": "in very abstract maths, but they're not\nas useful as quaternions are.",
+        "start": 709.6,
+        "duration": 5.989
+    },
+    {
+        "text": "There is then a step above that, the 16\ndimensional numbers—the sedenions—but",
+        "start": 715.589,
+        "duration": 6.681
+    },
+    {
+        "text": "again you lose another property when you go further, and each time you do they get perhaps less useful.",
+        "start": 722.27,
+        "duration": 7.36
+    },
+    {
+        "text": "So what are these properties that you're losing each time you go further up? Unfortunately, what",
+        "start": 731.02,
+        "duration": 3.92
+    },
+    {
+        "text": "you lose is when you go from the complex numbers to the quaternions, the property you lose is this...",
+        "start": 734.95,
+        "duration": 9.66
+    }
+]

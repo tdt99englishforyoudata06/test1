@@ -1,0 +1,817 @@
+[
+    {
+        "text": "HOLLY KRIEGER: So what I want to talk about",
+        "start": 0.0,
+        "duration": 0.88
+    },
+    {
+        "text": "is what is maybe",
+        "start": 1.0,
+        "duration": 1.24
+    },
+    {
+        "text": "the least efficient way possible",
+        "start": 2.28,
+        "duration": 2.24
+    },
+    {
+        "text": "to approximate the number pi.",
+        "start": 4.52,
+        "duration": 1.52
+    },
+    {
+        "text": "BRADY HARAN: Well, that's not a good sell!",
+        "start": 6.04,
+        "duration": 2.48
+    },
+    {
+        "text": "HOLLY KRIEGER: It's not a good sell",
+        "start": 8.52,
+        "duration": 0.72
+    },
+    {
+        "text": "but it's really interesting.",
+        "start": 9.24,
+        "duration": 1.28
+    },
+    {
+        "text": "So I wanna talk about approximating pi in the Mandelbrot set",
+        "start": 10.52,
+        "duration": 3.76
+    },
+    {
+        "text": "Maybe it's best to do a bit of a reminder about",
+        "start": 14.28,
+        "duration": 2.52
+    },
+    {
+        "text": "what the Mandelbrot set is.",
+        "start": 16.8,
+        "duration": 1.16
+    },
+    {
+        "text": "So, remember, the Mandelbrot set",
+        "start": 17.96,
+        "duration": 2.24
+    },
+    {
+        "text": "was this object that we have in the",
+        "start": 20.2,
+        "duration": 1.24
+    },
+    {
+        "text": "complex plane.",
+        "start": 21.44,
+        "duration": 1.0
+    },
+    {
+        "text": "So, here are the real numbers.",
+        "start": 22.44,
+        "duration": 1.52
+    },
+    {
+        "text": "And here are the imaginary numbers.",
+        "start": 25.28,
+        "duration": 2.32
+    },
+    {
+        "text": "And the Mandelbrot set  was a collection of",
+        "start": 27.6,
+        "duration": 3.06
+    },
+    {
+        "text": "complex numbers, so I'll try and sort of",
+        "start": 30.66,
+        "duration": 2.38
+    },
+    {
+        "text": "draw a nice version of this here.",
+        "start": 33.04,
+        "duration": 1.44
+    },
+    {
+        "text": "And-- it's complicated, right?",
+        "start": 34.48,
+        "duration": 2.16
+    },
+    {
+        "text": "And it was this collection of",
+        "start": 37.56,
+        "duration": 1.92
+    },
+    {
+        "text": "complex numbers that had the property",
+        "start": 39.48,
+        "duration": 2.4
+    },
+    {
+        "text": "that when we look at the function",
+        "start": 42.36,
+        "duration": 2.16
+    },
+    {
+        "text": "z squared plus c and we apply",
+        "start": 44.52,
+        "duration": 1.84
+    },
+    {
+        "text": "it to zero, so zero plugged into this function",
+        "start": 46.88,
+        "duration": 2.96
+    },
+    {
+        "text": "is c, and then we do that again",
+        "start": 50.32,
+        "duration": 1.92
+    },
+    {
+        "text": "with the output.",
+        "start": 52.24,
+        "duration": 0.72
+    },
+    {
+        "text": "So c plugged into this function is c squared plus c .",
+        "start": 52.96,
+        "duration": 3.12
+    },
+    {
+        "text": "And so on.",
+        "start": 56.32,
+        "duration": 0.64
+    },
+    {
+        "text": "A number c is in the Mandelbrot set exactly",
+        "start": 57.16,
+        "duration": 2.8
+    },
+    {
+        "text": "when when we do this process and repeat and repeat and repeat",
+        "start": 59.96,
+        "duration": 2.92
+    },
+    {
+        "text": "The number stays smaller than or equal to two.",
+        "start": 62.88,
+        "duration": 2.76
+    },
+    {
+        "text": "But today I'm not too worried about complex numbers.",
+        "start": 65.64,
+        "duration": 1.72
+    },
+    {
+        "text": "I just want to talk about real numbers in the Mandelbrot set.",
+        "start": 67.36,
+        "duration": 1.64
+    },
+    {
+        "text": "BRADY HARAN: Does that mean we're just talking about things along the line?",
+        "start": 69.0,
+        "duration": 3.76
+    },
+    {
+        "text": "HOLLY KRIEGER: Exactly, exactly.",
+        "start": 72.76,
+        "duration": 1.4
+    },
+    {
+        "text": "And in fact I'm just gonna be interested in what happens",
+        "start": 74.16,
+        "duration": 2.0
+    },
+    {
+        "text": "On this portion of the real line here.",
+        "start": 76.5,
+        "duration": 1.16
+    },
+    {
+        "text": "So, one thing that I should say first",
+        "start": 77.66,
+        "duration": 2.1
+    },
+    {
+        "text": "is that this point, this point is called the cusp",
+        "start": 79.76,
+        "duration": 3.08
+    },
+    {
+        "text": "of the Mandelbrot set.",
+        "start": 82.84,
+        "duration": 1.44
+    },
+    {
+        "text": "And this point is exactly the value where",
+        "start": 84.28,
+        "duration": 2.12
+    },
+    {
+        "text": "c is one quarter.",
+        "start": 86.52,
+        "duration": 1.76
+    },
+    {
+        "text": "BRADY HARAN: That's the last point on the real line-- in that direction.",
+        "start": 88.28,
+        "duration": 4.76
+    },
+    {
+        "text": "That's in the Mandelbrot set. And pi is here somewhere presumably.",
+        "start": 93.04,
+        "duration": 3.12
+    },
+    {
+        "text": "So pi is not in the Mandelbrot set.",
+        "start": 97.68,
+        "duration": 2.24
+    },
+    {
+        "text": "HOLLY KRIEGER: Pi is not in the Mandelbrot set.",
+        "start": 99.92,
+        "duration": 1.4
+    },
+    {
+        "text": "That's absolutely right.",
+        "start": 101.32,
+        "duration": 1.36
+    },
+    {
+        "text": "And when I say that I'm going to approximate pi in the Mandelbrot set",
+        "start": 102.68,
+        "duration": 3.12
+    },
+    {
+        "text": "I don't mean I am just gonna approximate pi on this picture here",
+        "start": 105.8,
+        "duration": 3.88
+    },
+    {
+        "text": "I mean that I'm gonna cook up a bunch of numbers that have to do",
+        "start": 109.68,
+        "duration": 2.64
+    },
+    {
+        "text": "with the Mandelbrot set",
+        "start": 112.32,
+        "duration": 0.5
+    },
+    {
+        "text": "that approximate pi.",
+        "start": 112.82,
+        "duration": 1.42
+    },
+    {
+        "text": "BRADY HARAN: So you're going to use the Mandelbrot set as a tool.",
+        "start": 114.24,
+        "duration": 3.16
+    },
+    {
+        "text": "HOLLY KRIEGER: As a tool to approximate pi, exactly.",
+        "start": 117.4,
+        "duration": 1.48
+    },
+    {
+        "text": "And, of course, you know, looking at this you can say \"well, it looks",
+        "start": 119.48,
+        "duration": 3.82
+    },
+    {
+        "text": "like there's a circle in there\".",
+        "start": 123.38,
+        "duration": 1.16
+    },
+    {
+        "text": "Which, indeed, this is a circle.",
+        "start": 124.54,
+        "duration": 2.1
+    },
+    {
+        "text": "Inside of the Mandelbrot set.",
+        "start": 126.64,
+        "duration": 0.8
+    },
+    {
+        "text": "But I'm not gonna use that one,",
+        "start": 127.44,
+        "duration": 1.8
+    },
+    {
+        "text": "that's a little too straightforward of a way to get pi.",
+        "start": 129.24,
+        "duration": 2.2
+    },
+    {
+        "text": "So, here's the idea.",
+        "start": 131.8,
+        "duration": 1.36
+    },
+    {
+        "text": "What happens if we take a real number",
+        "start": 133.16,
+        "duration": 1.64
+    },
+    {
+        "text": "That's larger than one fourth.",
+        "start": 134.8,
+        "duration": 1.88
+    },
+    {
+        "text": "So, as you said, it's not in the Mandelbrot set.",
+        "start": 136.68,
+        "duration": 2.48
+    },
+    {
+        "text": "Right?",
+        "start": 139.32,
+        "duration": 0.8
+    },
+    {
+        "text": "And what that means-- let's call this number...",
+        "start": 140.12,
+        "duration": 2.6
+    },
+    {
+        "text": "Say... uh....",
+        "start": 142.72,
+        "duration": 0.84
+    },
+    {
+        "text": "Well, I've already used c, but let's call it c anyways",
+        "start": 143.56,
+        "duration": 3.32
+    },
+    {
+        "text": "Whatever this number c is, when we start doing this process",
+        "start": 147.04,
+        "duration": 3.92
+    },
+    {
+        "text": "for this number c, we look at the function z squared plus c",
+        "start": 151.44,
+        "duration": 3.76
+    },
+    {
+        "text": "and we plug in zero and we output c.",
+        "start": 155.2,
+        "duration": 2.12
+    },
+    {
+        "text": "Then we plug in the output",
+        "start": 157.32,
+        "duration": 1.28
+    },
+    {
+        "text": "and we get c squared plus c, then we plug",
+        "start": 158.6,
+        "duration": 1.76
+    },
+    {
+        "text": "in that output and so on.",
+        "start": 160.48,
+        "duration": 1.6
+    },
+    {
+        "text": "At some point, these numbers are gonna be larger than two.",
+        "start": 162.4,
+        "duration": 3.84
+    },
+    {
+        "text": "Right, because that was our restriction",
+        "start": 166.24,
+        "duration": 2.2
+    },
+    {
+        "text": "that you're not in the Mandelbrot set if these numbers",
+        "start": 168.44,
+        "duration": 2.48
+    },
+    {
+        "text": "are eventually larger than two.",
+        "start": 170.92,
+        "duration": 0.92
+    },
+    {
+        "text": "Okay?",
+        "start": 172.58,
+        "duration": 0.5
+    },
+    {
+        "text": "So what we're gonna do is to each",
+        "start": 173.08,
+        "duration": 1.88
+    },
+    {
+        "text": "number c",
+        "start": 175.22,
+        "duration": 1.98
+    },
+    {
+        "text": "we're gonna associate this number, say, N of c.",
+        "start": 177.2,
+        "duration": 4.16
+    },
+    {
+        "text": "And this is equal to the number",
+        "start": 182.24,
+        "duration": 2.0
+    },
+    {
+        "text": "of steps of iterating zero under z squared plus c",
+        "start": 184.24,
+        "duration": 3.84
+    },
+    {
+        "text": "--So exactly the process I was describing before--",
+        "start": 188.16,
+        "duration": 2.96
+    },
+    {
+        "text": "Until we get something larger than two.",
+        "start": 191.28,
+        "duration": 2.64
+    },
+    {
+        "text": "BRADY HARAN: Any number after the cusp?",
+        "start": 194.6,
+        "duration": 2.64
+    },
+    {
+        "text": "HOLLY KRIEGER: Yes.",
+        "start": 197.24,
+        "duration": 0.92
+    },
+    {
+        "text": "BRADY HARAN: Is a killer? It's gonna kill the Mandelbrot set?",
+        "start": 198.16,
+        "duration": 1.96
+    },
+    {
+        "text": "HOLLY KRIEGER: That's right, it eventually gets big.",
+        "start": 200.12,
+        "duration": 1.88
+    },
+    {
+        "text": "BRADY HARAN: The thing you're interested in now",
+        "start": 202.0,
+        "duration": 2.64
+    },
+    {
+        "text": "is how quickly that number will kill us?",
+        "start": 204.64,
+        "duration": 2.08
+    },
+    {
+        "text": "HOLLY KRIEGER: Exactly. And this is something",
+        "start": 206.72,
+        "duration": 1.96
+    },
+    {
+        "text": "that's totally natural to be interested in",
+        "start": 208.68,
+        "duration": 1.6
+    },
+    {
+        "text": "This is how people draw pictures of the Mandelbrot set",
+        "start": 210.28,
+        "duration": 2.24
+    },
+    {
+        "text": "for example, is exactly counting these kinds of steps.",
+        "start": 212.52,
+        "duration": 3.12
+    },
+    {
+        "text": "So if we start with the real number c that's larger than two",
+        "start": 215.64,
+        "duration": 2.48
+    },
+    {
+        "text": "then after the first step",
+        "start": 218.12,
+        "duration": 1.44
+    },
+    {
+        "text": "of iteration here we get c itself which is larger than two.",
+        "start": 220.0,
+        "duration": 3.84
+    },
+    {
+        "text": "And so we know that after just one step",
+        "start": 223.84,
+        "duration": 1.48
+    },
+    {
+        "text": "that that parameter cannot possibly be in the Mandelbrot set.",
+        "start": 225.32,
+        "duration": 2.68
+    },
+    {
+        "text": "So in that case, N of c is just equal to one.",
+        "start": 228.24,
+        "duration": 2.16
+    },
+    {
+        "text": "And we have this very small value of N.",
+        "start": 230.44,
+        "duration": 2.48
+    },
+    {
+        "text": "BRADY HARAN: And that applies to all numbers above two.",
+        "start": 232.92,
+        "duration": 2.44
+    },
+    {
+        "text": "HOLLY KRIEGER: That's right, but as you might",
+        "start": 235.36,
+        "duration": 0.88
+    },
+    {
+        "text": "imagine,  the closer you get into the cusp, the more",
+        "start": 236.28,
+        "duration": 3.36
+    },
+    {
+        "text": "steps it takes to get larger than two, right?",
+        "start": 239.64,
+        "duration": 2.76
+    },
+    {
+        "text": "We're starting with the smaller number here and so it takes",
+        "start": 242.4,
+        "duration": 2.88
+    },
+    {
+        "text": "more steps to get there.",
+        "start": 245.28,
+        "duration": 0.64
+    },
+    {
+        "text": "All right. So let's make this a little bit precise.",
+        "start": 246.12,
+        "duration": 3.36
+    },
+    {
+        "text": "We start with a number really close to one fourth, say...",
+        "start": 249.48,
+        "duration": 2.48
+    },
+    {
+        "text": "Say, c equals one fourth plus epsilon.",
+        "start": 252.4,
+        "duration": 2.56
+    },
+    {
+        "text": "Where this is some very small positive and real number.",
+        "start": 255.84,
+        "duration": 3.68
+    },
+    {
+        "text": "BRADY HARAN: So we're just after the cusp.",
+        "start": 259.52,
+        "duration": 1.6
+    },
+    {
+        "text": "HOLLY KRIEGER: That's right, you're just to the right of the cusp.",
+        "start": 261.12,
+        "duration": 1.68
+    },
+    {
+        "text": "On the real axis there. And then we",
+        "start": 262.8,
+        "duration": 2.08
+    },
+    {
+        "text": "count the number of steps it takes us to escape",
+        "start": 264.88,
+        "duration": 2.76
+    },
+    {
+        "text": "This is something you can do in, say, you know, Wolfram|Alpha or Sage or whatever.",
+        "start": 267.64,
+        "duration": 3.76
+    },
+    {
+        "text": "Can be the program you wanna use. So if you draw",
+        "start": 271.4,
+        "duration": 2.88
+    },
+    {
+        "text": "a table of how this number N of c depends as epsilon",
+        "start": 275.04,
+        "duration": 3.28
+    },
+    {
+        "text": "is coming in and getting smaller and smaller,",
+        "start": 278.64,
+        "duration": 2.08
+    },
+    {
+        "text": "we're coming in towards the cusp with c",
+        "start": 280.72,
+        "duration": 1.88
+    },
+    {
+        "text": "you can actually count, just by iterating, how long does it take to have",
+        "start": 282.6,
+        "duration": 3.56
+    },
+    {
+        "text": "a number that's larger than two.",
+        "start": 286.16,
+        "duration": 1.64
+    },
+    {
+        "text": "So for example, if epsilon is one, then c is one plus one fourth, which is one point two five.",
+        "start": 287.8,
+        "duration": 6.68
+    },
+    {
+        "text": "Then N of c is just two.",
+        "start": 294.56,
+        "duration": 1.44
+    },
+    {
+        "text": "It only takes two steps to get larger than two.",
+        "start": 296.0,
+        "duration": 1.88
+    },
+    {
+        "text": "BRADY HARAN: Well that was, uh, that was over quickly.",
+        "start": 297.88,
+        "duration": 1.84
+    },
+    {
+        "text": "HOLLY KRIEGER: That's right. On the other hand if we",
+        "start": 299.72,
+        "duration": 2.52
+    },
+    {
+        "text": "take some much more reasonable value of epsilon, say like",
+        "start": 302.24,
+        "duration": 3.12
+    },
+    {
+        "text": "One one-hundredth, and so c is point two six, say...",
+        "start": 305.84,
+        "duration": 3.44
+    },
+    {
+        "text": "Then the number of steps it takes to escape turns out to be",
+        "start": 309.28,
+        "duration": 2.08
+    },
+    {
+        "text": "Thirty, actually.",
+        "start": 311.4,
+        "duration": 1.28
+    },
+    {
+        "text": "And if we take epsilon to be, say",
+        "start": 316.66,
+        "duration": 2.08
+    },
+    {
+        "text": "Even smaller, and so c is even closer to one quarter, then the value we get in that case is three fifteen.",
+        "start": 319.32,
+        "duration": 10.48
+    },
+    {
+        "text": "BRADY HARAN: Oh, wow, that's a lot of steps.",
+        "start": 329.8,
+        "duration": 1.24
+    },
+    {
+        "text": "HOLLY KRIEGER: It's a lot of steps, right, but we're really",
+        "start": 331.04,
+        "duration": 1.24
+    },
+    {
+        "text": "close to the cusp here, it should take a lot of steps to escape.",
+        "start": 332.28,
+        "duration": 3.24
+    },
+    {
+        "text": "And if we take epsilon even smaller, so that c is even closer to the cusp",
+        "start": 335.52,
+        "duration": 4.48
+    },
+    {
+        "text": "We get something even better.",
+        "start": 340.48,
+        "duration": 2.0
+    },
+    {
+        "text": "Even larger value of N of c.",
+        "start": 343.76,
+        "duration": 1.76
+    },
+    {
+        "text": "BRADY HARAN: Ooooh...",
+        "start": 345.52,
+        "duration": 1.4
+    },
+    {
+        "text": "HOLLY KRIEGER: But you can see something suspicious happening here, right?",
+        "start": 346.92,
+        "duration": 2.26
+    },
+    {
+        "text": "BRADY HARAN: I can see it. We can all see it.",
+        "start": 349.68,
+        "duration": 1.68
+    },
+    {
+        "text": "HOLLY KRIEGER: Everyone can see it.",
+        "start": 351.36,
+        "duration": 1.2
+    },
+    {
+        "text": "So, what's happening here is as long as you put the decimal",
+        "start": 352.84,
+        "duration": 3.84
+    },
+    {
+        "text": "point in the right place",
+        "start": 356.68,
+        "duration": 3.28
+    },
+    {
+        "text": "And as you can see, I've changed my epsilon sort of regularly here, so the decimal",
+        "start": 361.34,
+        "duration": 4.42
+    },
+    {
+        "text": "point kind of moves regularly, too.",
+        "start": 365.76,
+        "duration": 1.64
+    },
+    {
+        "text": "As long as you put the decimal point",
+        "start": 367.4,
+        "duration": 1.54
+    },
+    {
+        "text": "in the right place, these values N of c",
+        "start": 369.14,
+        "duration": 2.46
+    },
+    {
+        "text": "are actually converging to pi.",
+        "start": 372.52,
+        "duration": 2.08
+    },
+    {
+        "text": "BRADY HARAN: That's cool!",
+        "start": 374.6,
+        "duration": 1.0
+    },
+    {
+        "text": "HOLLY KRIEGER: Yeah, yeah! So you get these approximations of pi",
+        "start": 375.6,
+        "duration": 2.52
+    },
+    {
+        "text": "right, okay, three point one five is not such a good approximation",
+        "start": 378.12,
+        "duration": 2.24
+    },
+    {
+        "text": "three point one four is a little better, it turns out the next one",
+        "start": 380.36,
+        "duration": 3.72
+    },
+    {
+        "text": "is something like three one four one four.",
+        "start": 384.34,
+        "duration": 3.78
+    },
+    {
+        "text": "Which is even better",
+        "start": 388.12,
+        "duration": 0.76
+    },
+    {
+        "text": "and so on.",
+        "start": 389.44,
+        "duration": 0.64
+    },
+    {
+        "text": "And so, this tremendously inefficient method of taking some value",
+        "start": 391.4,
+        "duration": 4.48
+    },
+    {
+        "text": "of c that's really close to the cusp of the Mandelbrot set and iterating",
+        "start": 395.88,
+        "duration": 3.6
+    },
+    {
+        "text": "it many thousands of times until you get a number that's larger than two",
+        "start": 399.48,
+        "duration": 3.88
+    },
+    {
+        "text": "will give you approximates of pi.",
+        "start": 403.36,
+        "duration": 2.72
+    }
+]

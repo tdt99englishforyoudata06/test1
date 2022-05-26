@@ -1,0 +1,2802 @@
+[
+    {
+        "text": "We're going to discuss a little bit",
+        "start": 0.799,
+        "duration": 1.281
+    },
+    {
+        "text": "about knots and links,",
+        "start": 2.08,
+        "duration": 1.599
+    },
+    {
+        "text": "about how to use coloring knots and",
+        "start": 3.679,
+        "duration": 1.841
+    },
+    {
+        "text": "links to study them.",
+        "start": 5.52,
+        "duration": 2.879
+    },
+    {
+        "text": "I'll take, say, a piece of string and I'll",
+        "start": 9.04,
+        "duration": 1.679
+    },
+    {
+        "text": "project it on a blackboard or a piece of",
+        "start": 10.719,
+        "duration": 2.241
+    },
+    {
+        "text": "paper,",
+        "start": 12.96,
+        "duration": 0.639
+    },
+    {
+        "text": "that's called the projection of a knot.",
+        "start": 13.599,
+        "duration": 1.841
+    },
+    {
+        "text": "And you see when I project it there are",
+        "start": 15.44,
+        "duration": 1.759
+    },
+    {
+        "text": "overs and unders",
+        "start": 17.199,
+        "duration": 1.281
+    },
+    {
+        "text": "that tell me how it looked when it was",
+        "start": 18.48,
+        "duration": 2.16
+    },
+    {
+        "text": "back in three dimensional space.",
+        "start": 20.64,
+        "duration": 1.76
+    },
+    {
+        "text": "Now of course you could think of a piece",
+        "start": 22.4,
+        "duration": 1.68
+    },
+    {
+        "text": "of string as just going like a line,",
+        "start": 24.08,
+        "duration": 2.4
+    },
+    {
+        "text": "but in mathematics it's convenient to",
+        "start": 26.48,
+        "duration": 2.16
+    },
+    {
+        "text": "take the two ends of the string",
+        "start": 28.64,
+        "duration": 1.36
+    },
+    {
+        "text": "and connect them together so that it",
+        "start": 30.0,
+        "duration": 1.679
+    },
+    {
+        "text": "forms a circle all the way around,",
+        "start": 31.679,
+        "duration": 1.841
+    },
+    {
+        "text": "right. If you don't stick the two ends",
+        "start": 33.52,
+        "duration": 1.84
+    },
+    {
+        "text": "together you can of course always unknot",
+        "start": 35.36,
+        "duration": 1.92
+    },
+    {
+        "text": "something just by pulling the strand",
+        "start": 37.28,
+        "duration": 1.52
+    },
+    {
+        "text": "through;",
+        "start": 38.8,
+        "duration": 0.64
+    },
+    {
+        "text": "and I'm trying to avoid doing that so",
+        "start": 39.44,
+        "duration": 2.08
+    },
+    {
+        "text": "that I can talk about when two knots are",
+        "start": 41.52,
+        "duration": 2.08
+    },
+    {
+        "text": "different.",
+        "start": 43.6,
+        "duration": 0.4
+    },
+    {
+        "text": "It looks like a circle in the sense that",
+        "start": 44.0,
+        "duration": 1.52
+    },
+    {
+        "text": "if I had a little ant sitting on this,",
+        "start": 45.52,
+        "duration": 1.84
+    },
+    {
+        "text": "for example",
+        "start": 47.36,
+        "duration": 0.96
+    },
+    {
+        "text": "here's my little ant, he would walk",
+        "start": 48.32,
+        "duration": 1.84
+    },
+    {
+        "text": "around this way and then they keep going",
+        "start": 50.16,
+        "duration": 2.32
+    },
+    {
+        "text": "and keep going and keep going and then",
+        "start": 52.48,
+        "duration": 2.32
+    },
+    {
+        "text": "he would come back",
+        "start": 54.8,
+        "duration": 1.04
+    },
+    {
+        "text": "gradually; he or she - actually it's she",
+        "start": 55.84,
+        "duration": 2.16
+    },
+    {
+        "text": "in case of ants -",
+        "start": 58.0,
+        "duration": 0.96
+    },
+    {
+        "text": "would come back to where she was at the",
+        "start": 58.96,
+        "duration": 2.32
+    },
+    {
+        "text": "very beginning.",
+        "start": 61.28,
+        "duration": 0.72
+    },
+    {
+        "text": "And that's what makes it a circle. But",
+        "start": 62.0,
+        "duration": 1.84
+    },
+    {
+        "text": "it's a complicated circle in that",
+        "start": 63.84,
+        "duration": 1.84
+    },
+    {
+        "text": "it's not just like this, right, this would",
+        "start": 65.68,
+        "duration": 1.92
+    },
+    {
+        "text": "be what we call the trivial knot, or the",
+        "start": 67.6,
+        "duration": 2.16
+    },
+    {
+        "text": "unknot,",
+        "start": 69.76,
+        "duration": 0.64
+    },
+    {
+        "text": "which has no knottings. This is a knot in",
+        "start": 70.4,
+        "duration": 2.719
+    },
+    {
+        "text": "the sense that",
+        "start": 73.119,
+        "duration": 0.801
+    },
+    {
+        "text": "you can't get from this picture to this",
+        "start": 73.92,
+        "duration": 1.92
+    },
+    {
+        "text": "picture without doing something",
+        "start": 75.84,
+        "duration": 2.24
+    },
+    {
+        "text": "discontinuous like cutting the knot or",
+        "start": 78.08,
+        "duration": 1.92
+    },
+    {
+        "text": "something like that. In mathematics we're",
+        "start": 80.0,
+        "duration": 1.84
+    },
+    {
+        "text": "interested in studying",
+        "start": 81.84,
+        "duration": 1.279
+    },
+    {
+        "text": "classification of knots; how - what can you",
+        "start": 83.119,
+        "duration": 2.081
+    },
+    {
+        "text": "say about knots? How many are there with",
+        "start": 85.2,
+        "duration": 2.32
+    },
+    {
+        "text": "with a certain level of of knottings, and",
+        "start": 87.52,
+        "duration": 2.639
+    },
+    {
+        "text": "things like that. How do you actually",
+        "start": 90.159,
+        "duration": 1.441
+    },
+    {
+        "text": "prove that these two knots are different?",
+        "start": 91.6,
+        "duration": 1.92
+    },
+    {
+        "text": "It's not so obvious, in other words you",
+        "start": 93.52,
+        "duration": 1.44
+    },
+    {
+        "text": "notice that when you're a kid for",
+        "start": 94.96,
+        "duration": 1.28
+    },
+    {
+        "text": "example,",
+        "start": 96.24,
+        "duration": 0.559
+    },
+    {
+        "text": "I loved to do it when I was a kid, you",
+        "start": 96.799,
+        "duration": 1.921
+    },
+    {
+        "text": "like taking some piece of string,",
+        "start": 98.72,
+        "duration": 1.84
+    },
+    {
+        "text": "making it look like it's really",
+        "start": 100.56,
+        "duration": 1.44
+    },
+    {
+        "text": "complicatedly knotted and then you fool",
+        "start": 102.0,
+        "duration": 2.32
+    },
+    {
+        "text": "the adults by showing that it just yanks",
+        "start": 104.32,
+        "duration": 2.159
+    },
+    {
+        "text": "out, right?",
+        "start": 106.479,
+        "duration": 0.721
+    },
+    {
+        "text": "So how do you know that isn't true of",
+        "start": 107.2,
+        "duration": 1.44
+    },
+    {
+        "text": "this, or that you couldn't get from this",
+        "start": 108.64,
+        "duration": 1.68
+    },
+    {
+        "text": "to this",
+        "start": 110.32,
+        "duration": 0.88
+    },
+    {
+        "text": "by doing something like making it much",
+        "start": 111.2,
+        "duration": 1.84
+    },
+    {
+        "text": "more complicated",
+        "start": 113.04,
+        "duration": 1.2
+    },
+    {
+        "text": "and then somehow yanking it out? In fact",
+        "start": 114.24,
+        "duration": 2.4
+    },
+    {
+        "text": "we can prove that there's no way to go",
+        "start": 116.64,
+        "duration": 1.68
+    },
+    {
+        "text": "from this to this.",
+        "start": 118.32,
+        "duration": 1.119
+    },
+    {
+        "text": "The unknot and this knot - this knot is",
+        "start": 119.439,
+        "duration": 2.0
+    },
+    {
+        "text": "called the trefoil knot,",
+        "start": 121.439,
+        "duration": 1.28
+    },
+    {
+        "text": "it's the first non-trivial knot and how",
+        "start": 122.719,
+        "duration": 2.881
+    },
+    {
+        "text": "do you prove that there's no way to go",
+        "start": 125.6,
+        "duration": 1.44
+    },
+    {
+        "text": "from this to this,",
+        "start": 127.04,
+        "duration": 1.04
+    },
+    {
+        "text": "right? How do you know that if you did a",
+        "start": 128.08,
+        "duration": 1.519
+    },
+    {
+        "text": "zillion ways of moving it around",
+        "start": 129.599,
+        "duration": 2.401
+    },
+    {
+        "text": "the knottings wouldn't cancel out, right?",
+        "start": 132.0,
+        "duration": 1.92
+    },
+    {
+        "text": "(Brady: So just making it)",
+        "start": 133.92,
+        "duration": 1.36
+    },
+    {
+        "text": "(is not enough, and like fiddling around)",
+        "start": 135.28,
+        "duration": 1.52
+    },
+    {
+        "text": "(with it?)\n- That's right. You could say, why don't",
+        "start": 136.8,
+        "duration": 1.76
+    },
+    {
+        "text": "you just count the number of crossings,",
+        "start": 138.56,
+        "duration": 1.759
+    },
+    {
+        "text": "right? The trouble is you can change the",
+        "start": 140.319,
+        "duration": 1.521
+    },
+    {
+        "text": "number of crossings in various ways",
+        "start": 141.84,
+        "duration": 2.08
+    },
+    {
+        "text": "in a knot. So this knot has three",
+        "start": 143.92,
+        "duration": 1.92
+    },
+    {
+        "text": "crossings where there's an over going",
+        "start": 145.84,
+        "duration": 1.759
+    },
+    {
+        "text": "on top of an under, there's one over here",
+        "start": 147.599,
+        "duration": 1.841
+    },
+    {
+        "text": "there's another one over here,",
+        "start": 149.44,
+        "duration": 1.92
+    },
+    {
+        "text": "and there's another one over here. So",
+        "start": 151.36,
+        "duration": 1.68
+    },
+    {
+        "text": "there are three places",
+        "start": 153.04,
+        "duration": 1.36
+    },
+    {
+        "text": "where one strand lies on top of another",
+        "start": 154.4,
+        "duration": 2.64
+    },
+    {
+        "text": "like that. So you could say why don't you",
+        "start": 157.04,
+        "duration": 1.44
+    },
+    {
+        "text": "just count the number of crossings? This",
+        "start": 158.48,
+        "duration": 1.6
+    },
+    {
+        "text": "one has",
+        "start": 160.08,
+        "duration": 0.48
+    },
+    {
+        "text": "zero crossings, this one has three",
+        "start": 160.56,
+        "duration": 1.679
+    },
+    {
+        "text": "crossings. And it is true",
+        "start": 162.239,
+        "duration": 2.08
+    },
+    {
+        "text": "that the minimum number of crossings you",
+        "start": 164.319,
+        "duration": 1.92
+    },
+    {
+        "text": "need for this one is three;",
+        "start": 166.239,
+        "duration": 1.521
+    },
+    {
+        "text": "and for this one the number of crossings",
+        "start": 167.76,
+        "duration": 1.759
+    },
+    {
+        "text": "is zero. But the trouble is that you can",
+        "start": 169.519,
+        "duration": 1.681
+    },
+    {
+        "text": "change the crossing numbers, for example",
+        "start": 171.2,
+        "duration": 1.92
+    },
+    {
+        "text": "a simple",
+        "start": 173.12,
+        "duration": 0.72
+    },
+    {
+        "text": "dumb bunny way to change the crossing",
+        "start": 173.84,
+        "duration": 1.84
+    },
+    {
+        "text": "numbers is introduced into a piece of",
+        "start": 175.68,
+        "duration": 1.919
+    },
+    {
+        "text": "a knot.",
+        "start": 177.599,
+        "duration": 0.801
+    },
+    {
+        "text": "a pigtail like that; which obviously you",
+        "start": 178.4,
+        "duration": 1.839
+    },
+    {
+        "text": "could yank out, right?",
+        "start": 180.239,
+        "duration": 2.08
+    },
+    {
+        "text": "There are three basic ways that you can",
+        "start": 182.319,
+        "duration": 2.0
+    },
+    {
+        "text": "introduce more crossings in",
+        "start": 184.319,
+        "duration": 1.441
+    },
+    {
+        "text": "nota knot. Those are called \nthe Reidemeister",
+        "start": 185.76,
+        "duration": 2.0
+    },
+    {
+        "text": "moves. This is the first one, the simplest",
+        "start": 187.76,
+        "duration": 2.16
+    },
+    {
+        "text": "one,",
+        "start": 189.92,
+        "duration": 0.319
+    },
+    {
+        "text": "and there are two more that involve more",
+        "start": 190.239,
+        "duration": 1.761
+    },
+    {
+        "text": "strands. And",
+        "start": 192.0,
+        "duration": 1.28
+    },
+    {
+        "text": "the problem is that the Reidemeister",
+        "start": 193.28,
+        "duration": 2.16
+    },
+    {
+        "text": "moves seem to increase the number of",
+        "start": 195.44,
+        "duration": 1.68
+    },
+    {
+        "text": "crossings, but you can do the opposite",
+        "start": 197.12,
+        "duration": 1.839
+    },
+    {
+        "text": "and decrease;",
+        "start": 198.959,
+        "duration": 1.041
+    },
+    {
+        "text": "and so you haven't solved the problem of",
+        "start": 200.0,
+        "duration": 2.4
+    },
+    {
+        "text": "why can't you get rid of all the",
+        "start": 202.4,
+        "duration": 1.36
+    },
+    {
+        "text": "crossings by doing a lot of these \nReidemeister moves?",
+        "start": 203.76,
+        "duration": 2.64
+    },
+    {
+        "text": "Maybe first complicated and make a",
+        "start": 206.4,
+        "duration": 2.24
+    },
+    {
+        "text": "million crossings, but then yank it out",
+        "start": 208.64,
+        "duration": 1.84
+    },
+    {
+        "text": "and get down to zero, see what I mean?",
+        "start": 210.48,
+        "duration": 1.52
+    },
+    {
+        "text": "(Brady: Is that just like a cosmetic \ncrossing or)",
+        "start": 212.0,
+        "duration": 1.76
+    },
+    {
+        "text": "(is it like a lifetime crossing?)",
+        "start": 213.76,
+        "duration": 1.52
+    },
+    {
+        "text": "Absolutely, that's the issue. Now let me",
+        "start": 215.28,
+        "duration": 1.76
+    },
+    {
+        "text": "draw for you the other Reidemeister moves;",
+        "start": 217.04,
+        "duration": 2.08
+    },
+    {
+        "text": "and any motion of a knot can be broken",
+        "start": 219.12,
+        "duration": 2.399
+    },
+    {
+        "text": "up into a series of these simple motions.",
+        "start": 221.519,
+        "duration": 2.8
+    },
+    {
+        "text": "So this is one, the pigtail, which you",
+        "start": 224.319,
+        "duration": 1.92
+    },
+    {
+        "text": "could yank out.",
+        "start": 226.239,
+        "duration": 1.36
+    },
+    {
+        "text": "You could yank the pigtail out to just",
+        "start": 227.599,
+        "duration": 1.681
+    },
+    {
+        "text": "get a straight line, for example, and a",
+        "start": 229.28,
+        "duration": 1.76
+    },
+    {
+        "text": "segment of the knot.",
+        "start": 231.04,
+        "duration": 0.96
+    },
+    {
+        "text": "Or you could have two segments of the",
+        "start": 232.0,
+        "duration": 1.76
+    },
+    {
+        "text": "knot that are, for example,",
+        "start": 233.76,
+        "duration": 1.6
+    },
+    {
+        "text": "not doing anything at all - lying next to",
+        "start": 235.36,
+        "duration": 2.079
+    },
+    {
+        "text": "each other. And then you pull",
+        "start": 237.439,
+        "duration": 1.601
+    },
+    {
+        "text": "one strand over the other one. So you",
+        "start": 239.04,
+        "duration": 2.0
+    },
+    {
+        "text": "would take this, and you could move it",
+        "start": 241.04,
+        "duration": 2.08
+    },
+    {
+        "text": "so that it would look for example like",
+        "start": 243.12,
+        "duration": 1.679
+    },
+    {
+        "text": "this with one strand",
+        "start": 244.799,
+        "duration": 1.44
+    },
+    {
+        "text": "going over and the other one just going",
+        "start": 246.239,
+        "duration": 2.881
+    },
+    {
+        "text": "always under;",
+        "start": 249.12,
+        "duration": 1.039
+    },
+    {
+        "text": "and obviously you could yank this back",
+        "start": 250.159,
+        "duration": 1.921
+    },
+    {
+        "text": "to look like that, right?",
+        "start": 252.08,
+        "duration": 1.359
+    },
+    {
+        "text": "Or vice versa. So that's the",
+        "start": 253.439,
+        "duration": 1.74
+    },
+    {
+        "text": "Reidemeister2.",
+        "start": 255.179,
+        "duration": 1.541
+    },
+    {
+        "text": "And there's one more complicated motion,",
+        "start": 256.72,
+        "duration": 2.0
+    },
+    {
+        "text": "R3, which involves three strands.",
+        "start": 258.72,
+        "duration": 2.72
+    },
+    {
+        "text": "And there what you do is you have two",
+        "start": 261.44,
+        "duration": 2.319
+    },
+    {
+        "text": "strands,",
+        "start": 263.759,
+        "duration": 0.801
+    },
+    {
+        "text": "one is crossing over the other, and a",
+        "start": 264.56,
+        "duration": 2.16
+    },
+    {
+        "text": "third strand",
+        "start": 266.72,
+        "duration": 0.88
+    },
+    {
+        "text": "comes in and then goes, let's say over",
+        "start": 267.6,
+        "duration": 2.96
+    },
+    {
+        "text": "both of them say,",
+        "start": 270.56,
+        "duration": 1.04
+    },
+    {
+        "text": "like that, so this looks like this and",
+        "start": 271.6,
+        "duration": 2.48
+    },
+    {
+        "text": "then what I could do when I have three",
+        "start": 274.08,
+        "duration": 1.76
+    },
+    {
+        "text": "strands, for example, I could move it to a",
+        "start": 275.84,
+        "duration": 2.079
+    },
+    {
+        "text": "picture where",
+        "start": 277.919,
+        "duration": 0.72
+    },
+    {
+        "text": "this guy that's going always over moves",
+        "start": 278.639,
+        "duration": 2.801
+    },
+    {
+        "text": "over",
+        "start": 281.44,
+        "duration": 0.72
+    },
+    {
+        "text": "further up. Instead of down here he could",
+        "start": 282.16,
+        "duration": 2.479
+    },
+    {
+        "text": "move over here over all of them",
+        "start": 284.639,
+        "duration": 2.081
+    },
+    {
+        "text": "like that, get what I mean? And now",
+        "start": 286.72,
+        "duration": 1.759
+    },
+    {
+        "text": "obviously I could do that by just",
+        "start": 288.479,
+        "duration": 1.44
+    },
+    {
+        "text": "pulling the third strand",
+        "start": 289.919,
+        "duration": 1.28
+    },
+    {
+        "text": "higher. So that's R3. So those are obvious",
+        "start": 291.199,
+        "duration": 2.801
+    },
+    {
+        "text": "simple moves that you can do",
+        "start": 294.0,
+        "duration": 1.52
+    },
+    {
+        "text": "and change the projection of a knot. And",
+        "start": 295.52,
+        "duration": 1.92
+    },
+    {
+        "text": "now the question is, how do you prove",
+        "start": 297.44,
+        "duration": 1.84
+    },
+    {
+        "text": "that there's no way to go from the",
+        "start": 299.28,
+        "duration": 1.28
+    },
+    {
+        "text": "Trefoil knot to the unknot,",
+        "start": 300.56,
+        "duration": 1.919
+    },
+    {
+        "text": "using these simple moves? Or to give",
+        "start": 302.479,
+        "duration": 2.081
+    },
+    {
+        "text": "another example,",
+        "start": 304.56,
+        "duration": 1.12
+    },
+    {
+        "text": "there's a simple knot called a figure",
+        "start": 305.68,
+        "duration": 1.68
+    },
+    {
+        "text": "eight; and you see it's going to have in",
+        "start": 307.36,
+        "duration": 2.08
+    },
+    {
+        "text": "the middle",
+        "start": 309.44,
+        "duration": 0.88
+    },
+    {
+        "text": "something that looks like a figure eight,",
+        "start": 310.32,
+        "duration": 2.159
+    },
+    {
+        "text": "roughly.",
+        "start": 312.479,
+        "duration": 1.711
+    },
+    {
+        "text": "[Music]",
+        "start": 314.19,
+        "duration": 1.97
+    },
+    {
+        "text": "This one has zero crossings, this one has",
+        "start": 316.16,
+        "duration": 2.72
+    },
+    {
+        "text": "three crossings,",
+        "start": 318.88,
+        "duration": 1.12
+    },
+    {
+        "text": "this one - let's count them - has one,",
+        "start": 320.0,
+        "duration": 3.12
+    },
+    {
+        "text": "two, three, four crossings. This is a four",
+        "start": 323.12,
+        "duration": 4.48
+    },
+    {
+        "text": "crossing knot",
+        "start": 327.6,
+        "duration": 0.879
+    },
+    {
+        "text": "and one can prove that actually not only",
+        "start": 328.479,
+        "duration": 3.28
+    },
+    {
+        "text": "is there no way to go from this one to",
+        "start": 331.759,
+        "duration": 1.921
+    },
+    {
+        "text": "the unknot,",
+        "start": 333.68,
+        "duration": 1.04
+    },
+    {
+        "text": "but also these are two different knots.",
+        "start": 334.72,
+        "duration": 2.08
+    },
+    {
+        "text": "In other words, just by moving this",
+        "start": 336.8,
+        "duration": 1.839
+    },
+    {
+        "text": "around without cutting it,",
+        "start": 338.639,
+        "duration": 1.441
+    },
+    {
+        "text": "there's no way to go from the Trefoil",
+        "start": 340.08,
+        "duration": 1.92
+    },
+    {
+        "text": "to the figure eight, or the figure eight",
+        "start": 342.0,
+        "duration": 1.919
+    },
+    {
+        "text": "to the Trefoil. So",
+        "start": 343.919,
+        "duration": 1.12
+    },
+    {
+        "text": "here we have an example, already, right",
+        "start": 345.039,
+        "duration": 2.321
+    },
+    {
+        "text": "away of three really different knots. We",
+        "start": 347.36,
+        "duration": 2.08
+    },
+    {
+        "text": "can complicate them",
+        "start": 349.44,
+        "duration": 1.199
+    },
+    {
+        "text": "by doing these motions, Reidemeister",
+        "start": 350.639,
+        "duration": 2.0
+    },
+    {
+        "text": "moves, we could - might try to simplify",
+        "start": 352.639,
+        "duration": 1.84
+    },
+    {
+        "text": "them by other Reidemeister moves,",
+        "start": 354.479,
+        "duration": 1.681
+    },
+    {
+        "text": "but in fact no matter how many zillions",
+        "start": 356.16,
+        "duration": 2.0
+    },
+    {
+        "text": "of moves we make",
+        "start": 358.16,
+        "duration": 1.28
+    },
+    {
+        "text": "these three are all different and",
+        "start": 359.44,
+        "duration": 1.599
+    },
+    {
+        "text": "there's no way to go from one to the",
+        "start": 361.039,
+        "duration": 1.44
+    },
+    {
+        "text": "other.",
+        "start": 362.479,
+        "duration": 0.481
+    },
+    {
+        "text": "(Brady: So Professor, it feels like these)",
+        "start": 362.96,
+        "duration": 1.65
+    },
+    {
+        "text": "(Reidemeister moves,)",
+        "start": 364.61,
+        "duration": 1.79
+    },
+    {
+        "text": "(they're like cosmetic moves, they're like-)",
+        "start": 366.4,
+        "duration": 2.239
+    },
+    {
+        "text": "That's right. They don't change the",
+        "start": 368.639,
+        "duration": 1.28
+    },
+    {
+        "text": "underlying type of the knot.",
+        "start": 369.919,
+        "duration": 1.521
+    },
+    {
+        "text": "They change the way it sits in",
+        "start": 371.44,
+        "duration": 1.52
+    },
+    {
+        "text": "three-dimensional space, but they're",
+        "start": 372.96,
+        "duration": 1.84
+    },
+    {
+        "text": "equivalent to each other we-",
+        "start": 374.8,
+        "duration": 1.36
+    },
+    {
+        "text": "as knots, in the sense that one can be",
+        "start": 376.16,
+        "duration": 1.92
+    },
+    {
+        "text": "deformed continuously to the other",
+        "start": 378.08,
+        "duration": 1.6
+    },
+    {
+        "text": "without",
+        "start": 379.68,
+        "duration": 0.32
+    },
+    {
+        "text": "cutting it. There are tables of knots",
+        "start": 380.0,
+        "duration": 2.56
+    },
+    {
+        "text": "which tabulate knots by the minimum",
+        "start": 382.56,
+        "duration": 1.84
+    },
+    {
+        "text": "number of crossings.",
+        "start": 384.4,
+        "duration": 1.2
+    },
+    {
+        "text": "So this is the only knot with zero",
+        "start": 385.6,
+        "duration": 1.76
+    },
+    {
+        "text": "crossings. This is the first\nnon-trivial knot,",
+        "start": 387.36,
+        "duration": 2.8
+    },
+    {
+        "text": "the one that's not the unknot, is the",
+        "start": 390.16,
+        "duration": 1.84
+    },
+    {
+        "text": "Trefoil knot with three crossings. This is",
+        "start": 392.0,
+        "duration": 2.319
+    },
+    {
+        "text": "the one with four crossings, there are",
+        "start": 394.319,
+        "duration": 1.761
+    },
+    {
+        "text": "two with five crossings;",
+        "start": 396.08,
+        "duration": 1.36
+    },
+    {
+        "text": "and then the number of knots begins to",
+        "start": 397.44,
+        "duration": 1.52
+    },
+    {
+        "text": "go up very fast. By the time you're up",
+        "start": 398.96,
+        "duration": 2.32
+    },
+    {
+        "text": "into say 12 crossing knots",
+        "start": 401.28,
+        "duration": 1.759
+    },
+    {
+        "text": "you've got tens of thousands of them and",
+        "start": 403.039,
+        "duration": 1.761
+    },
+    {
+        "text": "so on.",
+        "start": 404.8,
+        "duration": 1.17
+    },
+    {
+        "text": "The question is how do you prove that",
+        "start": 416.96,
+        "duration": 1.76
+    },
+    {
+        "text": "they're different from each other?",
+        "start": 418.72,
+        "duration": 1.44
+    },
+    {
+        "text": "Now, mathematicians have a whole bunch of",
+        "start": 420.16,
+        "duration": 2.159
+    },
+    {
+        "text": "different methods of doing that;",
+        "start": 422.319,
+        "duration": 1.681
+    },
+    {
+        "text": "using geometry, using algebra, using a",
+        "start": 424.0,
+        "duration": 2.24
+    },
+    {
+        "text": "bunch of different ideas;",
+        "start": 426.24,
+        "duration": 1.2
+    },
+    {
+        "text": "but there's a very pretty old idea that",
+        "start": 427.44,
+        "duration": 2.479
+    },
+    {
+        "text": "can be explained to",
+        "start": 429.919,
+        "duration": 1.28
+    },
+    {
+        "text": "you know bright high school students by",
+        "start": 431.199,
+        "duration": 1.521
+    },
+    {
+        "text": "using coloring of knots. And that's what",
+        "start": 432.72,
+        "duration": 1.919
+    },
+    {
+        "text": "I propose to show you, because it's very",
+        "start": 434.639,
+        "duration": 1.68
+    },
+    {
+        "text": "visual,",
+        "start": 436.319,
+        "duration": 0.801
+    },
+    {
+        "text": "and you can just see it. So the idea is",
+        "start": 437.12,
+        "duration": 2.0
+    },
+    {
+        "text": "the following, I'm going to consider the",
+        "start": 439.12,
+        "duration": 1.84
+    },
+    {
+        "text": "following problem.",
+        "start": 440.96,
+        "duration": 1.12
+    },
+    {
+        "text": "And for simplicity I'm just going to be",
+        "start": 442.08,
+        "duration": 2.0
+    },
+    {
+        "text": "working with three colors.",
+        "start": 444.08,
+        "duration": 1.28
+    },
+    {
+        "text": "So what do i mean by three coloring? I",
+        "start": 445.36,
+        "duration": 2.08
+    },
+    {
+        "text": "mean that when I take a projection of a",
+        "start": 447.44,
+        "duration": 1.759
+    },
+    {
+        "text": "knot, like this",
+        "start": 449.199,
+        "duration": 0.801
+    },
+    {
+        "text": "picture over here, I'm going to color",
+        "start": 450.0,
+        "duration": 2.16
+    },
+    {
+        "text": "each of the apparent segments that I see",
+        "start": 452.16,
+        "duration": 2.159
+    },
+    {
+        "text": "under the projection. So for example in",
+        "start": 454.319,
+        "duration": 2.16
+    },
+    {
+        "text": "this case,",
+        "start": 456.479,
+        "duration": 0.881
+    },
+    {
+        "text": "because I had four crossings, they look",
+        "start": 457.36,
+        "duration": 2.399
+    },
+    {
+        "text": "like there are four",
+        "start": 459.759,
+        "duration": 0.88
+    },
+    {
+        "text": "segments over here where it's unbroken.",
+        "start": 460.639,
+        "duration": 2.081
+    },
+    {
+        "text": "There's one here and there's another one",
+        "start": 462.72,
+        "duration": 2.0
+    },
+    {
+        "text": "that goes all the way around here and",
+        "start": 464.72,
+        "duration": 1.68
+    },
+    {
+        "text": "another one here,",
+        "start": 466.4,
+        "duration": 1.12
+    },
+    {
+        "text": "and so on. Four crossings gave me four",
+        "start": 467.52,
+        "duration": 1.92
+    },
+    {
+        "text": "segments that it's broken up into,",
+        "start": 469.44,
+        "duration": 1.84
+    },
+    {
+        "text": "and I'm going to try to color the knot",
+        "start": 471.28,
+        "duration": 1.919
+    },
+    {
+        "text": "using three different colors. And what",
+        "start": 473.199,
+        "duration": 1.601
+    },
+    {
+        "text": "I'm going to do",
+        "start": 474.8,
+        "duration": 1.119
+    },
+    {
+        "text": "is I'm going to try coloring it in a way",
+        "start": 475.919,
+        "duration": 2.96
+    },
+    {
+        "text": "so that- with certain rules about how",
+        "start": 478.879,
+        "duration": 1.921
+    },
+    {
+        "text": "I'm allowed to color it.",
+        "start": 480.8,
+        "duration": 1.36
+    },
+    {
+        "text": "And then I'll see that with these rules,",
+        "start": 482.16,
+        "duration": 2.08
+    },
+    {
+        "text": "some knots can be three colored",
+        "start": 484.24,
+        "duration": 1.92
+    },
+    {
+        "text": "and some knots cannot be three colored,",
+        "start": 486.16,
+        "duration": 2.24
+    },
+    {
+        "text": "and that's going to let me distinguish",
+        "start": 488.4,
+        "duration": 1.6
+    },
+    {
+        "text": "one kind of knot from another kind of\nknot.",
+        "start": 490.0,
+        "duration": 2.24
+    },
+    {
+        "text": "So I'll be dividing the knots into\ntwo kinds;",
+        "start": 492.24,
+        "duration": 3.12
+    },
+    {
+        "text": "those which can be three colored and",
+        "start": 495.36,
+        "duration": 2.0
+    },
+    {
+        "text": "those which cannot be three colored.",
+        "start": 497.36,
+        "duration": 1.839
+    },
+    {
+        "text": "Now that's not a way of telling all",
+        "start": 499.199,
+        "duration": 2.72
+    },
+    {
+        "text": "knots apart, because it's kind of crude",
+        "start": 501.919,
+        "duration": 1.84
+    },
+    {
+        "text": "that I'm only dividing them up into two",
+        "start": 503.759,
+        "duration": 1.761
+    },
+    {
+        "text": "sets.",
+        "start": 505.52,
+        "duration": 0.72
+    },
+    {
+        "text": "But still it'll tell me that some of",
+        "start": 506.24,
+        "duration": 1.44
+    },
+    {
+        "text": "them are not equal, cannot be deformed to",
+        "start": 507.68,
+        "duration": 2.16
+    },
+    {
+        "text": "the other ones.",
+        "start": 509.84,
+        "duration": 0.799
+    },
+    {
+        "text": "Now I have to have a rule because if I",
+        "start": 510.639,
+        "duration": 1.681
+    },
+    {
+        "text": "have no rule anything could be colored",
+        "start": 512.32,
+        "duration": 1.839
+    },
+    {
+        "text": "with three colors, and then I'm not",
+        "start": 514.159,
+        "duration": 1.281
+    },
+    {
+        "text": "gaining any information.",
+        "start": 515.44,
+        "duration": 1.44
+    },
+    {
+        "text": "So I have to have a rule. But I want to",
+        "start": 516.88,
+        "duration": 1.92
+    },
+    {
+        "text": "have a rule that's compatible with my",
+        "start": 518.8,
+        "duration": 2.239
+    },
+    {
+        "text": "Reidemeister moves; in the sense that",
+        "start": 521.039,
+        "duration": 2.161
+    },
+    {
+        "text": "if I could color a knot before, there's",
+        "start": 523.2,
+        "duration": 2.24
+    },
+    {
+        "text": "an obvious way to then color it after I",
+        "start": 525.44,
+        "duration": 2.16
+    },
+    {
+        "text": "do one of these Reidemeister moves.",
+        "start": 527.6,
+        "duration": 1.919
+    },
+    {
+        "text": "So when I get to a crossing there's an",
+        "start": 529.519,
+        "duration": 1.681
+    },
+    {
+        "text": "over one, and then there are two unders.",
+        "start": 531.2,
+        "duration": 2.24
+    },
+    {
+        "text": "One coming in, the other side another one",
+        "start": 533.44,
+        "duration": 2.079
+    },
+    {
+        "text": "At a crossing",
+        "start": 535.519,
+        "duration": 0.961
+    },
+    {
+        "text": "I will see three colors because I will",
+        "start": 536.48,
+        "duration": 2.4
+    },
+    {
+        "text": "have the color of the over,",
+        "start": 538.88,
+        "duration": 1.36
+    },
+    {
+        "text": "and then the two unders coming there; so",
+        "start": 540.24,
+        "duration": 1.68
+    },
+    {
+        "text": "I have to have three different colors",
+        "start": 541.92,
+        "duration": 1.599
+    },
+    {
+        "text": "here, and I have to have some rule",
+        "start": 543.519,
+        "duration": 1.601
+    },
+    {
+        "text": "limiting what happens at a crossing. One",
+        "start": 545.12,
+        "duration": 2.08
+    },
+    {
+        "text": "obvious rule",
+        "start": 547.2,
+        "duration": 0.8
+    },
+    {
+        "text": "to try to use is say, well since that- I'm",
+        "start": 548.0,
+        "duration": 2.8
+    },
+    {
+        "text": "trying to do this with three colors",
+        "start": 550.8,
+        "duration": 2.0
+    },
+    {
+        "text": "and at a crossing there are three",
+        "start": 552.8,
+        "duration": 1.84
+    },
+    {
+        "text": "strands coming together,",
+        "start": 554.64,
+        "duration": 1.36
+    },
+    {
+        "text": "the two unders and the over, maybe the",
+        "start": 556.0,
+        "duration": 2.08
+    },
+    {
+        "text": "rule should just be:",
+        "start": 558.08,
+        "duration": 1.199
+    },
+    {
+        "text": "at a crossing point like this you get",
+        "start": 559.279,
+        "duration": 2.321
+    },
+    {
+        "text": "all three different colors. That seems",
+        "start": 561.6,
+        "duration": 1.679
+    },
+    {
+        "text": "like the obvious rule to try.",
+        "start": 563.279,
+        "duration": 1.68
+    },
+    {
+        "text": "Insist that at the crossing it looks",
+        "start": 564.959,
+        "duration": 1.921
+    },
+    {
+        "text": "something like blue over here,",
+        "start": 566.88,
+        "duration": 2.32
+    },
+    {
+        "text": "red over here, and say",
+        "start": 569.2,
+        "duration": 3.28
+    },
+    {
+        "text": "green. And I do those three colors",
+        "start": 572.48,
+        "duration": 1.84
+    },
+    {
+        "text": "together and that would be the rule to",
+        "start": 574.32,
+        "duration": 1.92
+    },
+    {
+        "text": "have. That's a natural first guess. It",
+        "start": 576.24,
+        "duration": 2.0
+    },
+    {
+        "text": "almost works but not quite. The reason it",
+        "start": 578.24,
+        "duration": 2.56
+    },
+    {
+        "text": "doesn't quite work, you can see already,",
+        "start": 580.8,
+        "duration": 1.92
+    },
+    {
+        "text": "because it has to be compatible with",
+        "start": 582.72,
+        "duration": 1.84
+    },
+    {
+        "text": "these Reidemeister moves that\nare- as I do",
+        "start": 584.56,
+        "duration": 1.839
+    },
+    {
+        "text": "the Reidemeister moves,",
+        "start": 586.399,
+        "duration": 1.361
+    },
+    {
+        "text": "the coloration or the color ability is",
+        "start": 587.76,
+        "duration": 2.56
+    },
+    {
+        "text": "maintained as I do them.",
+        "start": 590.32,
+        "duration": 1.68
+    },
+    {
+        "text": "Now if I do, for example, even just a",
+        "start": 592.0,
+        "duration": 2.24
+    },
+    {
+        "text": "pigtail;",
+        "start": 594.24,
+        "duration": 0.88
+    },
+    {
+        "text": "so I start off with a single strand like",
+        "start": 595.12,
+        "duration": 2.24
+    },
+    {
+        "text": "that and then I take this strand - so this",
+        "start": 597.36,
+        "duration": 2.159
+    },
+    {
+        "text": "is somewhere in a big knot diagram,",
+        "start": 599.519,
+        "duration": 1.841
+    },
+    {
+        "text": "somewhere in it. And I take this pigtail,",
+        "start": 601.36,
+        "duration": 2.64
+    },
+    {
+        "text": "and that of course i can yank out,",
+        "start": 604.0,
+        "duration": 1.68
+    },
+    {
+        "text": "and go back to what I had before. So I",
+        "start": 605.68,
+        "duration": 2.08
+    },
+    {
+        "text": "can go back and forth",
+        "start": 607.76,
+        "duration": 1.199
+    },
+    {
+        "text": "between these two. But notice what",
+        "start": 608.959,
+        "duration": 2.0
+    },
+    {
+        "text": "happens that, at the crossing,",
+        "start": 610.959,
+        "duration": 1.841
+    },
+    {
+        "text": "I'm coming in from somewh- other stuff",
+        "start": 612.8,
+        "duration": 1.76
+    },
+    {
+        "text": "in the knot, so I'm coming in blue,",
+        "start": 614.56,
+        "duration": 2.399
+    },
+    {
+        "text": "and I'm going out blue; well that's it,",
+        "start": 616.959,
+        "duration": 2.161
+    },
+    {
+        "text": "then I've got to be blue",
+        "start": 619.12,
+        "duration": 1.12
+    },
+    {
+        "text": "all the way. So you can see that at this",
+        "start": 620.24,
+        "duration": 2.159
+    },
+    {
+        "text": "crossing, that I've introduced with the",
+        "start": 622.399,
+        "duration": 1.841
+    },
+    {
+        "text": "pigtail,",
+        "start": 624.24,
+        "duration": 0.88
+    },
+    {
+        "text": "in order to make it compatible with what",
+        "start": 625.12,
+        "duration": 2.0
+    },
+    {
+        "text": "I had before",
+        "start": 627.12,
+        "duration": 1.12
+    },
+    {
+        "text": "I have no choice but to allow at",
+        "start": 628.24,
+        "duration": 2.08
+    },
+    {
+        "text": "a crossing",
+        "start": 630.32,
+        "duration": 1.12
+    },
+    {
+        "text": "all three colors to be the same at that",
+        "start": 631.44,
+        "duration": 2.079
+    },
+    {
+        "text": "crossing. So I'm going to modify",
+        "start": 633.519,
+        "duration": 1.76
+    },
+    {
+        "text": "my first guess for the possibility that",
+        "start": 635.279,
+        "duration": 2.161
+    },
+    {
+        "text": "all three are the same.",
+        "start": 637.44,
+        "duration": 1.28
+    },
+    {
+        "text": "Our tentative new rule is going to be",
+        "start": 638.72,
+        "duration": 2.32
+    },
+    {
+        "text": "all three",
+        "start": 641.04,
+        "duration": 1.12
+    },
+    {
+        "text": "different, or all three the same, okay?",
+        "start": 642.16,
+        "duration": 3.28
+    },
+    {
+        "text": "And that's a rule which we can check now,",
+        "start": 645.44,
+        "duration": 3.2
+    },
+    {
+        "text": "case by case, is compatible with these",
+        "start": 648.64,
+        "duration": 2.56
+    },
+    {
+        "text": "Reidemeister moves. And now I do the",
+        "start": 651.2,
+        "duration": 2.0
+    },
+    {
+        "text": "second Reidemeister move;",
+        "start": 653.2,
+        "duration": 1.52
+    },
+    {
+        "text": "and the second Reidemeister move",
+        "start": 654.72,
+        "duration": 1.52
+    },
+    {
+        "text": "consisted of pulling one of these over",
+        "start": 656.24,
+        "duration": 1.839
+    },
+    {
+        "text": "the other.",
+        "start": 658.079,
+        "duration": 1.121
+    },
+    {
+        "text": "I'm coming in from elsewhere in the knot",
+        "start": 659.2,
+        "duration": 1.84
+    },
+    {
+        "text": "so I can't change the ends of this,",
+        "start": 661.04,
+        "duration": 1.84
+    },
+    {
+        "text": "so I've- I'm now going to have one of",
+        "start": 662.88,
+        "duration": 2.639
+    },
+    {
+        "text": "this is coming in blue,",
+        "start": 665.519,
+        "duration": 1.521
+    },
+    {
+        "text": "the other one is still coming in red",
+        "start": 667.04,
+        "duration": 1.84
+    },
+    {
+        "text": "also, and in fact they've got to go out",
+        "start": 668.88,
+        "duration": 2.24
+    },
+    {
+        "text": "the same way to fit with what's going on",
+        "start": 671.12,
+        "duration": 1.839
+    },
+    {
+        "text": "elsewhere in the knot;",
+        "start": 672.959,
+        "duration": 1.201
+    },
+    {
+        "text": "so here this is going to go out red and",
+        "start": 674.16,
+        "duration": 2.0
+    },
+    {
+        "text": "this is still going to go out blue, like",
+        "start": 676.16,
+        "duration": 1.679
+    },
+    {
+        "text": "it did before over here.",
+        "start": 677.839,
+        "duration": 1.521
+    },
+    {
+        "text": "But what happens in between? Well in",
+        "start": 679.36,
+        "duration": 2.32
+    },
+    {
+        "text": "between, this red guy",
+        "start": 681.68,
+        "duration": 1.839
+    },
+    {
+        "text": "goes over here and comes over in this",
+        "start": 683.519,
+        "duration": 2.32
+    },
+    {
+        "text": "Reidemeister move here, and then goes",
+        "start": 685.839,
+        "duration": 1.761
+    },
+    {
+        "text": "back here,",
+        "start": 687.6,
+        "duration": 0.88
+    },
+    {
+        "text": "and connects up here - fine. This one is",
+        "start": 688.48,
+        "duration": 2.4
+    },
+    {
+        "text": "going to continue",
+        "start": 690.88,
+        "duration": 0.88
+    },
+    {
+        "text": "all the way down, and then of course",
+        "start": 691.76,
+        "duration": 2.0
+    },
+    {
+        "text": "that's something I could yank out by the",
+        "start": 693.76,
+        "duration": 1.759
+    },
+    {
+        "text": "second Reidemeister move.",
+        "start": 695.519,
+        "duration": 1.361
+    },
+    {
+        "text": "Just by pulling this back over there and",
+        "start": 696.88,
+        "duration": 1.84
+    },
+    {
+        "text": "then I would get my original picture.",
+        "start": 698.72,
+        "duration": 1.76
+    },
+    {
+        "text": "But see what happens: remember my rule",
+        "start": 700.48,
+        "duration": 2.0
+    },
+    {
+        "text": "was that at the crossing all three are",
+        "start": 702.48,
+        "duration": 1.68
+    },
+    {
+        "text": "different or all three of the same;",
+        "start": 704.16,
+        "duration": 1.6
+    },
+    {
+        "text": "so with this crossing I have here blue",
+        "start": 705.76,
+        "duration": 1.92
+    },
+    {
+        "text": "and red, so now I've got to get green",
+        "start": 707.68,
+        "duration": 2.0
+    },
+    {
+        "text": "coming out of there.",
+        "start": 709.68,
+        "duration": 1.04
+    },
+    {
+        "text": "I have green coming out of there, coming",
+        "start": 710.72,
+        "duration": 1.84
+    },
+    {
+        "text": "down here, and here's green - ah!",
+        "start": 712.56,
+        "duration": 2.24
+    },
+    {
+        "text": "And now I'm in luck because there's",
+        "start": 714.8,
+        "duration": 1.599
+    },
+    {
+        "text": "green and red and blue coming together,",
+        "start": 716.399,
+        "duration": 2.481
+    },
+    {
+        "text": "and that's compatible with my rule",
+        "start": 718.88,
+        "duration": 1.519
+    },
+    {
+        "text": "because",
+        "start": 720.399,
+        "duration": 0.721
+    },
+    {
+        "text": "at that crossing all three are different.",
+        "start": 721.12,
+        "duration": 1.92
+    },
+    {
+        "text": "So we see that this",
+        "start": 723.04,
+        "duration": 1.76
+    },
+    {
+        "text": "rule is compatible with the first",
+        "start": 724.8,
+        "duration": 1.96
+    },
+    {
+        "text": "Reidemeister move, the second\nReidemeister move;",
+        "start": 726.76,
+        "duration": 2.92
+    },
+    {
+        "text": "and in fact we could check more cases to",
+        "start": 729.68,
+        "duration": 1.92
+    },
+    {
+        "text": "see that it's compatible with\nthe third one.",
+        "start": 731.6,
+        "duration": 3.44
+    },
+    {
+        "text": "So this property of being colorable with",
+        "start": 735.04,
+        "duration": 2.4
+    },
+    {
+        "text": "this rule",
+        "start": 737.44,
+        "duration": 1.04
+    },
+    {
+        "text": "stays the same as I do all three of the",
+        "start": 738.48,
+        "duration": 2.24
+    },
+    {
+        "text": "Reidemeister moves - with me?",
+        "start": 740.72,
+        "duration": 1.919
+    },
+    {
+        "text": "And, and now I want to have a non-trivial",
+        "start": 742.639,
+        "duration": 2.481
+    },
+    {
+        "text": "coloring.",
+        "start": 745.12,
+        "duration": 0.719
+    },
+    {
+        "text": "By non-trivial coloring I mean with more",
+        "start": 745.839,
+        "duration": 2.0
+    },
+    {
+        "text": "than one color.",
+        "start": 747.839,
+        "duration": 1.041
+    },
+    {
+        "text": "So the question I'm going to ask myself",
+        "start": 748.88,
+        "duration": 1.759
+    },
+    {
+        "text": "is which knots",
+        "start": 750.639,
+        "duration": 1.601
+    },
+    {
+        "text": "have a 3-coloring, with this rule,",
+        "start": 752.24,
+        "duration": 2.32
+    },
+    {
+        "text": "with more than one color?",
+        "start": 754.56,
+        "duration": 1.44
+    },
+    {
+        "text": "Of course every knot has the silly color,",
+        "start": 756.0,
+        "duration": 2.0
+    },
+    {
+        "text": "the trivial coloring, where I color it",
+        "start": 758.0,
+        "duration": 1.76
+    },
+    {
+        "text": "all one color - so that's not of interest;",
+        "start": 759.76,
+        "duration": 1.759
+    },
+    {
+        "text": "but I want to do it with more than \none color.",
+        "start": 761.519,
+        "duration": 2.161
+    },
+    {
+        "text": "Okay? And now you'll notice that this one,",
+        "start": 763.68,
+        "duration": 3.52
+    },
+    {
+        "text": "the unknot, doesn't- I can only color it",
+        "start": 767.2,
+        "duration": 2.72
+    },
+    {
+        "text": "with one color, because there are no",
+        "start": 769.92,
+        "duration": 1.28
+    },
+    {
+        "text": "crossings. So this does not have a",
+        "start": 771.2,
+        "duration": 2.0
+    },
+    {
+        "text": "non-trivial coloring,",
+        "start": 773.2,
+        "duration": 1.36
+    },
+    {
+        "text": "this has only a silly coloring, and as I",
+        "start": 774.56,
+        "duration": 2.56
+    },
+    {
+        "text": "move it around that's all I'm going to",
+        "start": 777.12,
+        "duration": 1.519
+    },
+    {
+        "text": "keep getting is that silly coloring,",
+        "start": 778.639,
+        "duration": 1.921
+    },
+    {
+        "text": "and I'm not going to be able to color it",
+        "start": 780.56,
+        "duration": 1.519
+    },
+    {
+        "text": "with different colors. No matter how I",
+        "start": 782.079,
+        "duration": 1.521
+    },
+    {
+        "text": "move it I will not be able to color it",
+        "start": 783.6,
+        "duration": 1.84
+    },
+    {
+        "text": "non-trivially subject to this rule. Let's",
+        "start": 785.44,
+        "duration": 2.88
+    },
+    {
+        "text": "look at the trefoil one, see",
+        "start": 788.32,
+        "duration": 1.28
+    },
+    {
+        "text": "is the trefoil colorable? Well okay, so",
+        "start": 789.6,
+        "duration": 3.2
+    },
+    {
+        "text": "for example this strand over here",
+        "start": 792.8,
+        "duration": 2.159
+    },
+    {
+        "text": "is going to be red. Then there's going to",
+        "start": 794.959,
+        "duration": 1.68
+    },
+    {
+        "text": "be another strand which is going to be",
+        "start": 796.639,
+        "duration": 2.081
+    },
+    {
+        "text": "blue, let's say this",
+        "start": 798.72,
+        "duration": 1.28
+    },
+    {
+        "text": "one. And then there's going to be a",
+        "start": 800.0,
+        "duration": 1.44
+    },
+    {
+        "text": "strand that's going to be green,",
+        "start": 801.44,
+        "duration": 1.68
+    },
+    {
+        "text": "let's say this one; and now lo and behold",
+        "start": 803.12,
+        "duration": 3.44
+    },
+    {
+        "text": "you've noticed that at each of the",
+        "start": 806.56,
+        "duration": 1.44
+    },
+    {
+        "text": "crossings we have all three colors.",
+        "start": 808.0,
+        "duration": 2.399
+    },
+    {
+        "text": "So this trefoil knot - haha great success,",
+        "start": 810.399,
+        "duration": 3.761
+    },
+    {
+        "text": "is in fact three colorable. This is an",
+        "start": 814.16,
+        "duration": 2.16
+    },
+    {
+        "text": "example of a three colorable knot.",
+        "start": 816.32,
+        "duration": 1.92
+    },
+    {
+        "text": "And this one is not three colorable. And",
+        "start": 818.24,
+        "duration": 2.56
+    },
+    {
+        "text": "the last one we're going to consider today",
+        "start": 820.8,
+        "duration": 2.15
+    },
+    {
+        "text": "is the figure eight knot. Suppose that",
+        "start": 822.959,
+        "duration": 1.761
+    },
+    {
+        "text": "this strand was red,",
+        "start": 824.72,
+        "duration": 1.28
+    },
+    {
+        "text": "and then this strand let's say was green,",
+        "start": 826.0,
+        "duration": 2.0
+    },
+    {
+        "text": "let's say. Well if this strand is red,",
+        "start": 828.0,
+        "duration": 2.0
+    },
+    {
+        "text": "and this one is green, then this one",
+        "start": 830.0,
+        "duration": 2.32
+    },
+    {
+        "text": "because it's the third one where they",
+        "start": 832.32,
+        "duration": 1.6
+    },
+    {
+        "text": "meet here would have to be blue; so this",
+        "start": 833.92,
+        "duration": 2.4
+    },
+    {
+        "text": "one would be blue over here.",
+        "start": 836.32,
+        "duration": 2.079
+    },
+    {
+        "text": "Well if this one is blue, and this\none is red,",
+        "start": 838.399,
+        "duration": 3.601
+    },
+    {
+        "text": "then this one over here also has to be",
+        "start": 842.0,
+        "duration": 2.079
+    },
+    {
+        "text": "green because these three are",
+        "start": 844.079,
+        "duration": 1.921
+    },
+    {
+        "text": "meeting at this point and that was our",
+        "start": 846.0,
+        "duration": 1.519
+    },
+    {
+        "text": "coloring rule - that they either\nhave to be",
+        "start": 847.519,
+        "duration": 2.32
+    },
+    {
+        "text": "all three different or the same. But if",
+        "start": 849.839,
+        "duration": 2.0
+    },
+    {
+        "text": "this one is green,",
+        "start": 851.839,
+        "duration": 1.281
+    },
+    {
+        "text": "and this one is green, then these two",
+        "start": 853.12,
+        "duration": 2.48
+    },
+    {
+        "text": "greens meet at this point",
+        "start": 855.6,
+        "duration": 1.44
+    },
+    {
+        "text": "so the third one would have to be the",
+        "start": 857.04,
+        "duration": 1.76
+    },
+    {
+        "text": "same color - remember all three different",
+        "start": 858.8,
+        "duration": 1.599
+    },
+    {
+        "text": "or all three the same -",
+        "start": 860.399,
+        "duration": 1.201
+    },
+    {
+        "text": "so we'd have to have green here, but that",
+        "start": 861.6,
+        "duration": 1.919
+    },
+    {
+        "text": "contradicts that this guy was red.",
+        "start": 863.519,
+        "duration": 2.0
+    },
+    {
+        "text": "So we see that this one is not three",
+        "start": 865.519,
+        "duration": 2.081
+    },
+    {
+        "text": "colorable. By this simple technique\nof studying",
+        "start": 867.6,
+        "duration": 2.63
+    },
+    {
+        "text": "three color ability we have proved that",
+        "start": 870.24,
+        "duration": 2.56
+    },
+    {
+        "text": "the trefoil",
+        "start": 872.8,
+        "duration": 1.12
+    },
+    {
+        "text": "and the figure eight knot are not the",
+        "start": 873.92,
+        "duration": 2.24
+    },
+    {
+        "text": "same, because one of them",
+        "start": 876.16,
+        "duration": 1.2
+    },
+    {
+        "text": "is three colorable, one of them is not",
+        "start": 877.36,
+        "duration": 2.08
+    },
+    {
+        "text": "three colorable.",
+        "start": 879.44,
+        "duration": 1.04
+    },
+    {
+        "text": "What we haven't succeeded at proving is",
+        "start": 880.48,
+        "duration": 2.56
+    },
+    {
+        "text": "we haven't yet proved that the figure",
+        "start": 883.04,
+        "duration": 1.84
+    },
+    {
+        "text": "eight knot",
+        "start": 884.88,
+        "duration": 1.04
+    },
+    {
+        "text": "doesn't unknot because all we know",
+        "start": 885.92,
+        "duration": 2.32
+    },
+    {
+        "text": "about the figure eight knot is that it's",
+        "start": 888.24,
+        "duration": 1.599
+    },
+    {
+        "text": "not three colorable",
+        "start": 889.839,
+        "duration": 1.281
+    },
+    {
+        "text": "and that happened also to be true about",
+        "start": 891.12,
+        "duration": 1.839
+    },
+    {
+        "text": "the trivial knot. So we haven't yet",
+        "start": 892.959,
+        "duration": 2.081
+    },
+    {
+        "text": "proved that these two guys are different.",
+        "start": 895.04,
+        "duration": 2.0
+    },
+    {
+        "text": "We've proven that they're all different",
+        "start": 897.04,
+        "duration": 1.44
+    },
+    {
+        "text": "from the trefoil, but we haven't yet",
+        "start": 898.48,
+        "duration": 2.0
+    },
+    {
+        "text": "succeeded at showing.",
+        "start": 900.48,
+        "duration": 1.2
+    },
+    {
+        "text": "But I could generalize this trick in a",
+        "start": 901.68,
+        "duration": 2.08
+    },
+    {
+        "text": "slightly more elaborate way",
+        "start": 903.76,
+        "duration": 1.439
+    },
+    {
+        "text": "for say five colors, and if I use five",
+        "start": 905.199,
+        "duration": 2.481
+    },
+    {
+        "text": "colors this one would turn out to be not",
+        "start": 907.68,
+        "duration": 2.08
+    },
+    {
+        "text": "five colorable and this one would turn",
+        "start": 909.76,
+        "duration": 2.96
+    },
+    {
+        "text": "out",
+        "start": 912.72,
+        "duration": 0.4
+    },
+    {
+        "text": "it is five colorable. And so the upshot",
+        "start": 913.12,
+        "duration": 2.8
+    },
+    {
+        "text": "would be that these two",
+        "start": 915.92,
+        "duration": 1.2
+    },
+    {
+        "text": "are in fact different. So by doing three",
+        "start": 917.12,
+        "duration": 2.159
+    },
+    {
+        "text": "colorability",
+        "start": 919.279,
+        "duration": 0.961
+    },
+    {
+        "text": "and adding on a further level of study",
+        "start": 920.24,
+        "duration": 2.56
+    },
+    {
+        "text": "to this, the five colorability,",
+        "start": 922.8,
+        "duration": 1.68
+    },
+    {
+        "text": "I would indeed have succeeded at proving",
+        "start": 924.48,
+        "duration": 1.919
+    },
+    {
+        "text": "that all three of these are different\nknots.",
+        "start": 926.399,
+        "duration": 2.78
+    },
+    {
+        "text": "In particular there's no way to unknot",
+        "start": 929.199,
+        "duration": 2.32
+    },
+    {
+        "text": "the trefoil or the figure eight knot",
+        "start": 931.519,
+        "duration": 2.24
+    },
+    {
+        "text": "by- without cutting it. And also there's",
+        "start": 933.759,
+        "duration": 2.481
+    },
+    {
+        "text": "no way to move as we saw already",
+        "start": 936.24,
+        "duration": 1.76
+    },
+    {
+        "text": "the three- the trefoil into the figure",
+        "start": 938.0,
+        "duration": 2.16
+    },
+    {
+        "text": "eight; they can't get from one\nto the other",
+        "start": 940.16,
+        "duration": 2.08
+    },
+    {
+        "text": "just by continuous motions. Quite good",
+        "start": 942.24,
+        "duration": 2.56
+    },
+    {
+        "text": "for elementary - just,",
+        "start": 944.8,
+        "duration": 1.44
+    },
+    {
+        "text": "coloring around, don't you think?",
+        "start": 946.24,
+        "duration": 1.653
+    },
+    {
+        "text": "(Brady: Just because this one)",
+        "start": 947.893,
+        "duration": 1.467
+    },
+    {
+        "text": "(is three colorable, and that one's - I mean)",
+        "start": 949.36,
+        "duration": 2.399
+    },
+    {
+        "text": "(that just seems- and that one's not \nthree colourable-)",
+        "start": 951.759,
+        "duration": 2.161
+    },
+    {
+        "text": "Because the point is that after I fill",
+        "start": 953.92,
+        "duration": 3.279
+    },
+    {
+        "text": "in the steps that I skipped over,",
+        "start": 957.199,
+        "duration": 1.841
+    },
+    {
+        "text": "right, or- which I took an example of but",
+        "start": 959.04,
+        "duration": 2.0
+    },
+    {
+        "text": "didn't do the others of-",
+        "start": 961.04,
+        "duration": 1.44
+    },
+    {
+        "text": "that the point is that if a knot is",
+        "start": 962.48,
+        "duration": 1.76
+    },
+    {
+        "text": "three colorable, as I do these",
+        "start": 964.24,
+        "duration": 2.159
+    },
+    {
+        "text": "Reidemeister moves and move it around",
+        "start": 966.399,
+        "duration": 2.641
+    },
+    {
+        "text": "and change the number of crossings, the",
+        "start": 969.04,
+        "duration": 2.239
+    },
+    {
+        "text": "property of three colorability",
+        "start": 971.279,
+        "duration": 2.24
+    },
+    {
+        "text": "is maintained all the way through. \nFor example,",
+        "start": 973.519,
+        "duration": 3.041
+    },
+    {
+        "text": "when I did the pigtail and I put in a",
+        "start": 976.56,
+        "duration": 2.56
+    },
+    {
+        "text": "pigtail,",
+        "start": 979.12,
+        "duration": 0.719
+    },
+    {
+        "text": "it was compatible - in fact I adapted the",
+        "start": 979.839,
+        "duration": 2.161
+    },
+    {
+        "text": "rule so as to achieve this property,",
+        "start": 982.0,
+        "duration": 2.0
+    },
+    {
+        "text": "and modified my original guess. And so",
+        "start": 984.0,
+        "duration": 3.04
+    },
+    {
+        "text": "if this is three colorable, as I move it",
+        "start": 987.04,
+        "duration": 2.159
+    },
+    {
+        "text": "around continuously without coloring, \nwithout",
+        "start": 989.199,
+        "duration": 2.56
+    },
+    {
+        "text": "cutting it; though I change the number of",
+        "start": 991.759,
+        "duration": 2.161
+    },
+    {
+        "text": "crossings and may make it like the",
+        "start": 993.92,
+        "duration": 1.76
+    },
+    {
+        "text": "kiddies thing,",
+        "start": 995.68,
+        "duration": 1.12
+    },
+    {
+        "text": "fantastically more complicated looking",
+        "start": 996.8,
+        "duration": 1.92
+    },
+    {
+        "text": "before I try to simplify it,",
+        "start": 998.72,
+        "duration": 1.84
+    },
+    {
+        "text": "nevertheless at the very end three",
+        "start": 1000.56,
+        "duration": 2.48
+    },
+    {
+        "text": "colorability - if it was three colorable",
+        "start": 1003.04,
+        "duration": 2.0
+    },
+    {
+        "text": "at the beginning",
+        "start": 1005.04,
+        "duration": 0.88
+    },
+    {
+        "text": "it will be three colorable the end. If it",
+        "start": 1005.92,
+        "duration": 2.08
+    },
+    {
+        "text": "was not three colorable at the beginning",
+        "start": 1008.0,
+        "duration": 1.68
+    },
+    {
+        "text": "it will not be three colorable at the end.",
+        "start": 1009.68,
+        "duration": 2.15
+    },
+    {
+        "text": "And so the fact that the one is three",
+        "start": 1011.839,
+        "duration": 1.841
+    },
+    {
+        "text": "colorable and the other is not three",
+        "start": 1013.68,
+        "duration": 1.92
+    },
+    {
+        "text": "colorable, with the given projection,",
+        "start": 1015.6,
+        "duration": 2.08
+    },
+    {
+        "text": "means that there's no way to move this",
+        "start": 1017.68,
+        "duration": 1.599
+    },
+    {
+        "text": "to that.",
+        "start": 1019.279,
+        "duration": 2.48
+    },
+    {
+        "text": "[Preview] And you can understand colorability",
+        "start": 1021.92,
+        "duration": 1.76
+    },
+    {
+        "text": "better by developing the theory of",
+        "start": 1023.68,
+        "duration": 2.08
+    },
+    {
+        "text": "polynomial invariance of knots.",
+        "start": 1025.76,
+        "duration": 1.52
+    },
+    {
+        "text": "Specifically",
+        "start": 1027.28,
+        "duration": 1.12
+    },
+    {
+        "text": "there's an old polynomial invariant that",
+        "start": 1028.4,
+        "duration": 1.919
+    },
+    {
+        "text": "goes back about 100 years.",
+        "start": 1030.319,
+        "duration": 1.681
+    },
+    {
+        "text": "The polynomial invariant for this knot",
+        "start": 1032.0,
+        "duration": 2.319
+    },
+    {
+        "text": "turns out to be",
+        "start": 1034.319,
+        "duration": 1.041
+    },
+    {
+        "text": "delta of x - the alexander polynomial - is",
+        "start": 1035.36,
+        "duration": 3.04
+    },
+    {
+        "text": "x squared minus x plus one.",
+        "start": 1038.4,
+        "duration": 9.039
+    }
+]

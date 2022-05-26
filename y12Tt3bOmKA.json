@@ -1,0 +1,582 @@
+[
+    {
+        "text": "What we're going to talk about today are sets of positive numbers, okay?",
+        "start": 0.36,
+        "duration": 3.32
+    },
+    {
+        "text": "And a set is basically just a collection of positive integers.",
+        "start": 3.68,
+        "duration": 3.5
+    },
+    {
+        "text": "And what we're going to do is try to add sets together.",
+        "start": 7.18,
+        "duration": 2.28
+    },
+    {
+        "text": "So let's say we have a set that's called A.",
+        "start": 9.46,
+        "duration": 2.74
+    },
+    {
+        "text": "And we'll write the notation, and I'll give and an example.",
+        "start": 12.2,
+        "duration": 3.26
+    },
+    {
+        "text": "This set is 2, 3, 7.",
+        "start": 15.46,
+        "duration": 3.5
+    },
+    {
+        "text": "Let's have another example, we'll call it B.",
+        "start": 18.96,
+        "duration": 2.88
+    },
+    {
+        "text": "And we'll say that B is 1, 5, 8, and 9.",
+        "start": 21.84,
+        "duration": 3.34
+    },
+    {
+        "text": "What we want to do is add these two sets together.",
+        "start": 25.18,
+        "duration": 2.54
+    },
+    {
+        "text": "And so what do I mean by that?",
+        "start": 27.72,
+        "duration": 1.12
+    },
+    {
+        "text": "What we're going to do is add each number in the set pairwise.",
+        "start": 28.84,
+        "duration": 4.2
+    },
+    {
+        "text": "So I'll say that A plus B is equal to 1 plus 2, 1 plus 3,",
+        "start": 33.04,
+        "duration": 5.58
+    },
+    {
+        "text": "8 plus 3, plus 2, 9 plus 3, and 9 plus 7.",
+        "start": 39.42,
+        "duration": 5.12
+    },
+    {
+        "text": "RIght, we have a new set, and we would like to write out the sums so that we actually know what our set is.",
+        "start": 44.9,
+        "duration": 5.9
+    },
+    {
+        "text": "So let's say 12, and finallly 16.",
+        "start": 51.36,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, we have some repeated numbers here, so we would like to write the set in it's actual form.",
+        "start": 53.88,
+        "duration": 4.22
+    },
+    {
+        "text": "So I just struck out the repeated numbers that we had.",
+        "start": 58.1,
+        "duration": 2.88
+    },
+    {
+        "text": "So, another thing worth noting here is that in our set A we had 3 members, in our set B had 4 members,",
+        "start": 61.02,
+        "duration": 6.48
+    },
+    {
+        "text": "and our set sum of A plus B, we had  9 members.",
+        "start": 67.5,
+        "duration": 3.26
+    },
+    {
+        "text": "And this is something that will come up again.",
+        "start": 70.76,
+        "duration": 2.16
+    },
+    {
+        "text": "We can think of a special type of set that I'll call arithmetic progression.",
+        "start": 74.5,
+        "duration": 4.2
+    },
+    {
+        "text": "So, arithmetic progression could be P equal 4, 8, 12, 16, 20.",
+        "start": 78.7,
+        "duration": 6.34
+    },
+    {
+        "text": "We add 4 each time to the number before it and we have a progression",
+        "start": 85.04,
+        "duration": 3.5
+    },
+    {
+        "text": "And it's called an arithmetic progression because we added the numbers.",
+        "start": 88.54,
+        "duration": 2.3
+    },
+    {
+        "text": "What we'll do is we'll add P to itself, and we'll see what happens.",
+        "start": 90.84,
+        "duration": 4.34
+    },
+    {
+        "text": "And something kind of interesting kind of happens.",
+        "start": 95.18,
+        "duration": 3.16
+    },
+    {
+        "text": "And so again, we have 4 plus 4, 4 plus 8, we have this large set of sums here,",
+        "start": 98.34,
+        "duration": 7.72
+    },
+    {
+        "text": "and in fact, the actual set will be much smaller.",
+        "start": 106.06,
+        "duration": 3.18
+    },
+    {
+        "text": "8, 12, 16, 36 and 40.",
+        "start": 109.6,
+        "duration": 4.42
+    },
+    {
+        "text": "Brady: \"That's the final?\"",
+        "start": 114.02,
+        "duration": 1.36
+    },
+    {
+        "text": "That's the final set.",
+        "start": 115.38,
+        "duration": 0.92
+    },
+    {
+        "text": "Brady \"It came down a lot, didn't it? Is it normal for sets to come down that much?\"",
+        "start": 116.3,
+        "duration": 2.96
+    },
+    {
+        "text": "No, it's not normal.",
+        "start": 119.26,
+        "duration": 2.0
+    },
+    {
+        "text": "So if we have a set of integers, we add all of the sums,",
+        "start": 121.26,
+        "duration": 4.8
+    },
+    {
+        "text": "we have, you saw we had a lot of sums.",
+        "start": 126.06,
+        "duration": 2.0
+    },
+    {
+        "text": "In most cases, maybe there's not too much overlap.",
+        "start": 128.06,
+        "duration": 2.62
+    },
+    {
+        "text": "And in that case, we have something close to what we had originally.",
+        "start": 130.68,
+        "duration": 3.32
+    },
+    {
+        "text": "This whole large grid of sums.",
+        "start": 134.0,
+        "duration": 1.54
+    },
+    {
+        "text": "The nice thing about an arithmetic progression added to itself is that",
+        "start": 136.04,
+        "duration": 3.3
+    },
+    {
+        "text": "the size of the sum set will be less than two times the size of the original set.",
+        "start": 140.28,
+        "duration": 6.18
+    },
+    {
+        "text": "The sum set will never double the size of the original set.",
+        "start": 146.94,
+        "duration": 3.12
+    },
+    {
+        "text": "What you'll end up having is that the size of P plus P is always less than or equal to 2 times the size",
+        "start": 150.9,
+        "duration": 7.36
+    },
+    {
+        "text": "and that's special. We can do another example where we get pretty much the exact opposite.",
+        "start": 158.26,
+        "duration": 5.1
+    },
+    {
+        "text": "Our size of P plus P is actually closer to what we would expect with no overlap.",
+        "start": 163.7,
+        "duration": 4.94
+    },
+    {
+        "text": "So what we're gonna do next are geometric sequences.",
+        "start": 169.34,
+        "duration": 3.78
+    },
+    {
+        "text": "I'll call it G this time. And this set will be 2, 4, 8 and 16.",
+        "start": 173.52,
+        "duration": 4.44
+    },
+    {
+        "text": "This is 2 to the 1, 2 squared, 2 cubed, and this is 2 to the 4th.",
+        "start": 177.96,
+        "duration": 4.66
+    },
+    {
+        "text": "So I'll add G to itself, it's a geometric sequence to itself,",
+        "start": 182.92,
+        "duration": 3.6
+    },
+    {
+        "text": "and what's special about geometric sequences it that their pairwise sums",
+        "start": 186.72,
+        "duration": 4.94
+    },
+    {
+        "text": "we have some overlap. We have some overlap here.",
+        "start": 192.06,
+        "duration": 2.98
+    },
+    {
+        "text": "But we don't have overlap as much as we do in the case of the arithmetic progressions.",
+        "start": 195.44,
+        "duration": 4.74
+    },
+    {
+        "text": "So, the size of G, originally is size 4,",
+        "start": 200.48,
+        "duration": 4.36
+    },
+    {
+        "text": "the size of G plus G is now equal to 10.",
+        "start": 205.22,
+        "duration": 3.84
+    },
+    {
+        "text": "Brady: \"So that's more than doubled.\"",
+        "start": 209.06,
+        "duration": 1.12
+    },
+    {
+        "text": "Yes. Definitely more than double, right?",
+        "start": 210.5,
+        "duration": 2.16
+    },
+    {
+        "text": "So now we have the size of G plus G greater than 2 times the size of G.",
+        "start": 212.66,
+        "duration": 5.44
+    },
+    {
+        "text": "And if we were to take a really large geometric sequence, we would actually see that",
+        "start": 218.48,
+        "duration": 4.08
+    },
+    {
+        "text": "G plus G is about G squared.",
+        "start": 222.96,
+        "duration": 3.34
+    },
+    {
+        "text": "The first thing is a result from Paul Erdős, and it's about, it's a little bit about sum sets.",
+        "start": 227.28,
+        "duration": 5.06
+    },
+    {
+        "text": "Okay. So let's say we take a set, 2, 3 and 7.",
+        "start": 232.82,
+        "duration": 4.48
+    },
+    {
+        "text": "We can define the notion of a set being 'sum free'.",
+        "start": 237.58,
+        "duration": 4.0
+    },
+    {
+        "text": "And what do I mean by 'sum free'? I mean that if you take any pair of numbers in your set,",
+        "start": 241.92,
+        "duration": 4.54
+    },
+    {
+        "text": "including the number itself, add it to itself, then the sum of that pair of numbers is not in the set.",
+        "start": 246.68,
+        "duration": 4.4
+    },
+    {
+        "text": "So let's look at A plus A. So this will be 4, 5, 9, 10 and 14.",
+        "start": 251.64,
+        "duration": 8.36
+    },
+    {
+        "text": "You see that no numbers are shared between these two sets, okay.",
+        "start": 260.42,
+        "duration": 3.68
+    },
+    {
+        "text": "So A is sum free.",
+        "start": 264.3,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady: \"Are sum free sets common, or are they like a special rarity?",
+        "start": 266.3,
+        "duration": 3.822
+    },
+    {
+        "text": "\"Are the like prime numbers, or are sum free sets easy to find?\"",
+        "start": 270.122,
+        "duration": 2.698
+    },
+    {
+        "text": "You would think they would be maybe uncommon.",
+        "start": 273.24,
+        "duration": 2.78
+    },
+    {
+        "text": "But in fact, they're actually more common than you would imagine.",
+        "start": 276.32,
+        "duration": 2.64
+    },
+    {
+        "text": "So let's say you have any set, okay? Any set of positive integers,",
+        "start": 279.36,
+        "duration": 5.36
+    },
+    {
+        "text": "what Paul Erdős said is that there exists a subset of that arbitrary set that you picked",
+        "start": 285.08,
+        "duration": 6.76
+    },
+    {
+        "text": "that is sum free,",
+        "start": 292.14,
+        "duration": 1.92
+    },
+    {
+        "text": "and that subset is greater than a third of the size of the original set.",
+        "start": 294.36,
+        "duration": 4.04
+    },
+    {
+        "text": "Yeah, I have a favorite, a fractal set, let's say,",
+        "start": 298.94,
+        "duration": 3.3
+    },
+    {
+        "text": "it's inside of an interval of real numbers.",
+        "start": 302.24,
+        "duration": 2.9
+    },
+    {
+        "text": "So let's say you have an interval of real numbers, 0 to 1,",
+        "start": 306.94,
+        "duration": 3.12
+    },
+    {
+        "text": "Brady: \"So we're not dealing with integers any more?\"",
+        "start": 310.06,
+        "duration": 2.0
+    },
+    {
+        "text": "We're not dealing with integers any more. We have a set of real numbers.",
+        "start": 312.48,
+        "duration": 2.08
+    },
+    {
+        "text": "What I would like to, I guess, construct, is something that's called the Cantor middle third set.",
+        "start": 315.04,
+        "duration": 4.04
+    },
+    {
+        "text": "It's an iterative process. In the first step of the Cantor middle third set is, you take the middle third out of",
+        "start": 319.9,
+        "duration": 5.34
+    },
+    {
+        "text": "the interval 0, 1, okay?",
+        "start": 325.24,
+        "duration": 2.58
+    },
+    {
+        "text": "So you find the middle third, 0, 1, and so this goes from one third to two thirds,",
+        "start": 327.82,
+        "duration": 4.96
+    },
+    {
+        "text": "and you erase that segment of the interval.",
+        "start": 333.46,
+        "duration": 4.58
+    },
+    {
+        "text": "What I have left is this set, okay?",
+        "start": 338.72,
+        "duration": 2.72
+    },
+    {
+        "text": "Brady: \"Is it still infinitely big?\"",
+        "start": 341.44,
+        "duration": 2.0
+    },
+    {
+        "text": "Yeah. I mean, if you just count the elements in the set, it's huge, it's uncountable.",
+        "start": 343.44,
+        "duration": 3.9
+    },
+    {
+        "text": "So now, the second step is to take the middle thirds out of the segments that we have left.",
+        "start": 347.58,
+        "duration": 4.82
+    },
+    {
+        "text": "So, we take a third of this set, and a third, and so we end up with something a little smaller",
+        "start": 352.86,
+        "duration": 6.3
+    },
+    {
+        "text": "You do it again, and you do it infinitely many times, I suppose.",
+        "start": 359.44,
+        "duration": 3.54
+    },
+    {
+        "text": "And the last, the limit set that you end up with is called the Cantor middle third set.",
+        "start": 363.36,
+        "duration": 4.52
+    },
+    {
+        "text": "Brady: \"But you never get there. How would you ever get there?\"",
+        "start": 367.88,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, you approximate it, basically.",
+        "start": 369.88,
+        "duration": 2.34
+    },
+    {
+        "text": "You say that it's, you know, the thing that, if you get close enough,",
+        "start": 372.22,
+        "duration": 5.5
+    },
+    {
+        "text": "or you take an arbitrarily large step in our progression,",
+        "start": 377.72,
+        "duration": 3.6
+    },
+    {
+        "text": "that'll be the closest set to it. That'll be the limit.",
+        "start": 381.32,
+        "duration": 2.9
+    },
+    {
+        "text": "Brady: \"How many numbers are in the Cantor middle third set?\"",
+        "start": 384.56,
+        "duration": 2.38
+    },
+    {
+        "text": "Well, there are uncountably many, okay?",
+        "start": 387.46,
+        "duration": 2.36
+    },
+    {
+        "text": "And so, in some sense, you know, you can say that it's, we haven't",
+        "start": 390.06,
+        "duration": 5.36
+    },
+    {
+        "text": "taken the size down any, at any point.",
+        "start": 395.42,
+        "duration": 3.02
+    },
+    {
+        "text": "But there is a way to measure how much we've taken away.",
+        "start": 398.62,
+        "duration": 2.48
+    },
+    {
+        "text": "In general, we'll say that, the interval, I suppose, is just a line,",
+        "start": 401.58,
+        "duration": 3.5
+    },
+    {
+        "text": "and if we want to measure the dimension of the interval,",
+        "start": 405.54,
+        "duration": 4.06
+    },
+    {
+        "text": "we can say that dimension is 1, right?",
+        "start": 409.6,
+        "duration": 2.04
+    },
+    {
+        "text": "So the dimension, just like the dimension of this piece of paper should be",
+        "start": 411.94,
+        "duration": 3.68
+    },
+    {
+        "text": "well, it's not actually 2, right? Because it has some thickness,",
+        "start": 416.02,
+        "duration": 2.94
+    },
+    {
+        "text": "but in some fantasy world, it's 2, right? And we're in 3 dimensions, right?",
+        "start": 418.96,
+        "duration": 3.7
+    },
+    {
+        "text": "So the dimension of the line should just be 1, or the interval should just be 1,",
+        "start": 423.42,
+        "duration": 4.08
+    },
+    {
+        "text": "and there's some way to measure the dimension of this Cantor one third set.",
+        "start": 427.7,
+        "duration": 3.96
+    },
+    {
+        "text": "And, what, I'll just say it here, and I'll call it dimension, in quotations.",
+        "start": 432.28,
+        "duration": 4.36
+    },
+    {
+        "text": "And I'll say that the dimension of Cantor set, log 2 over log 3.",
+        "start": 437.1,
+        "duration": 5.14
+    },
+    {
+        "text": "Numberphile is brought to you by the Mathematical Sciences Research Institute, MSRI.",
+        "start": 444.8,
+        "duration": 4.42
+    },
+    {
+        "text": "That's the building behind me there.",
+        "start": 449.96,
+        "duration": 1.48
+    },
+    {
+        "text": "This is a place where many of the world's top mathematicians come together, for sometimes",
+        "start": 451.76,
+        "duration": 4.38
+    },
+    {
+        "text": "a semester at a time, cracking some of the hardest problems in mathematics.",
+        "start": 456.14,
+        "duration": 4.0
+    },
+    {
+        "text": "If you'd like to find out more, I've put some links in the description under the video.",
+        "start": 460.76,
+        "duration": 4.32
+    }
+]

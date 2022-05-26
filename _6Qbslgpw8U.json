@@ -1,0 +1,522 @@
+[
+    {
+        "text": "SciShow is supported by Brilliant.org - a\nproblem-solving website that teaches you how",
+        "start": 0.17,
+        "duration": 4.49
+    },
+    {
+        "text": "to think like a scientist.",
+        "start": 4.66,
+        "duration": 5.17
+    },
+    {
+        "text": "Another week, another news story about a massive\ndata breach.",
+        "start": 9.83,
+        "duration": 3.02
+    },
+    {
+        "text": "But this time, the company involved is one\nof the ones in charge of monitoring your credit.",
+        "start": 12.85,
+        "duration": 4.42
+    },
+    {
+        "text": "And the hack appears to have involved some\nserious negligence on their part.",
+        "start": 17.27,
+        "duration": 4.16
+    },
+    {
+        "text": "Equifax is one of three big American credit\nagencies, which calculate the credit scores",
+        "start": 21.43,
+        "duration": 5.23
+    },
+    {
+        "text": "that determine how hard it is for you do things\nlike get a loan.",
+        "start": 26.66,
+        "duration": 3.75
+    },
+    {
+        "text": "You probably know by now that they were hacked,\nand criminals managed to access private data,",
+        "start": 30.41,
+        "duration": 4.169
+    },
+    {
+        "text": "like social security numbers and birth dates,\nfor 143 million consumers.",
+        "start": 34.579,
+        "duration": 4.701
+    },
+    {
+        "text": "Including 209,000 people’s credit card information.",
+        "start": 39.28,
+        "duration": 3.969
+    },
+    {
+        "text": "Credit agencies collect financial data on\npretty much everyone in the U.S. with a credit",
+        "start": 43.249,
+        "duration": 4.88
+    },
+    {
+        "text": "history.",
+        "start": 48.129,
+        "duration": 1.0
+    },
+    {
+        "text": "Even if you’ve never paid for any of Equifax’s\nservices directly, if you’re an adult in",
+        "start": 49.129,
+        "duration": 4.651
+    },
+    {
+        "text": "the United States, you were probably affected.",
+        "start": 53.78,
+        "duration": 2.439
+    },
+    {
+        "text": "And it turns out that the hackers got in by\ntaking advantage of a vulnerability that Equifax",
+        "start": 56.219,
+        "duration": 4.96
+    },
+    {
+        "text": "had plenty of opportunity to fix.",
+        "start": 61.179,
+        "duration": 2.491
+    },
+    {
+        "text": "So oops, I guess.",
+        "start": 63.67,
+        "duration": 1.79
+    },
+    {
+        "text": "The Equifax website is built on software called\nApache Struts, a widely-used framework for",
+        "start": 65.46,
+        "duration": 5.36
+    },
+    {
+        "text": "creating programs that help companies manage\nlarge amounts of data online.",
+        "start": 70.82,
+        "duration": 3.96
+    },
+    {
+        "text": "In March, the Apache Foundation, which oversees\nStruts, announced the existence of a vulnerability",
+        "start": 74.78,
+        "duration": 4.659
+    },
+    {
+        "text": "in the software code that they dubbed CVE-2017-5638.",
+        "start": 79.439,
+        "duration": 2.951
+    },
+    {
+        "text": "And it was a bad one.",
+        "start": 82.39,
+        "duration": 2.71
+    },
+    {
+        "text": "We’ve all filled out web forms a zillion\ntimes — to order products, register for",
+        "start": 85.1,
+        "duration": 3.84
+    },
+    {
+        "text": "accounts, contact customer service, all sorts\nof things.",
+        "start": 88.94,
+        "duration": 2.76
+    },
+    {
+        "text": "But because of a bug in the way that Struts\nhandles data entered into these forms, hackers",
+        "start": 91.7,
+        "duration": 4.779
+    },
+    {
+        "text": "could use them to send malicious code to the\nservers with the data on them — a type of",
+        "start": 96.479,
+        "duration": 4.6
+    },
+    {
+        "text": "hack known as remote code execution.",
+        "start": 101.079,
+        "duration": 2.381
+    },
+    {
+        "text": "Normally, programmers protect against this\nby having the server check what you’re submitting",
+        "start": 103.46,
+        "duration": 4.329
+    },
+    {
+        "text": "to make sure it’s not computer code.",
+        "start": 107.789,
+        "duration": 2.12
+    },
+    {
+        "text": "But with this vulnerability, hackers could\ntrigger an error, then make the server run",
+        "start": 109.909,
+        "duration": 4.261
+    },
+    {
+        "text": "the embedded commands while it was trying\nto figure out what the error was.",
+        "start": 114.17,
+        "duration": 3.979
+    },
+    {
+        "text": "That’s a pretty serious bug, but the Apache\nFoundation released a fix for it at the same",
+        "start": 118.149,
+        "duration": 4.301
+    },
+    {
+        "text": "time that they announced its existence.",
+        "start": 122.45,
+        "duration": 1.79
+    },
+    {
+        "text": "The fix could take a while, because it’s\nnot as simple as downloading a software update",
+        "start": 124.24,
+        "duration": 3.6
+    },
+    {
+        "text": "for your phone.",
+        "start": 127.84,
+        "duration": 1.0
+    },
+    {
+        "text": "It requires individually updating and rebuilding\nevery app that runs on the Struts platform,",
+        "start": 128.84,
+        "duration": 4.91
+    },
+    {
+        "text": "which could be dozens or hundreds for a single\ncompany.",
+        "start": 133.75,
+        "duration": 2.78
+    },
+    {
+        "text": "But the breach of Equifax’s system using\nthis vulnerability began in mid-May, two months",
+        "start": 136.53,
+        "duration": 5.44
+    },
+    {
+        "text": "after the vulnerability came to light",
+        "start": 141.97,
+        "duration": 2.15
+    },
+    {
+        "text": "Why hadn’t Equifax updated their system\nby then?",
+        "start": 144.12,
+        "duration": 7.96
+    },
+    {
+        "text": "Nobody knows.",
+        "start": 152.08,
+        "duration": 1.0
+    },
+    {
+        "text": "We may find out though since more than thirty\nlawsuits have already been filed, the FBI",
+        "start": 153.08,
+        "duration": 4.1
+    },
+    {
+        "text": "and the FTC are investigating, and legislators\nare planning hearings, so there will be more",
+        "start": 157.18,
+        "duration": 4.779
+    },
+    {
+        "text": "information in the coming months.",
+        "start": 161.959,
+        "duration": 1.431
+    },
+    {
+        "text": "In the meantime, a couple of weeks ago Apache\nannounced another Struts bug that makes it",
+        "start": 163.39,
+        "duration": 4.2
+    },
+    {
+        "text": "vulnerable to remote code execution, along\nwith a patch for it.",
+        "start": 167.59,
+        "duration": 3.479
+    },
+    {
+        "text": "Here’s hoping Equifax implements this one\na little more quickly.",
+        "start": 171.069,
+        "duration": 3.31
+    },
+    {
+        "text": "If all this hacking news has got you down,\nyou might be relieved to hear that our second",
+        "start": 174.379,
+        "duration": 3.39
+    },
+    {
+        "text": "story isn’t about current events -- instead,\nit takes place 550 million years ago so not",
+        "start": 177.769,
+        "duration": 5.201
+    },
+    {
+        "text": "likely to affect you personally",
+        "start": 182.97,
+        "duration": 1.939
+    },
+    {
+        "text": "Back then, Earth’s oceans were inhabited\nby a creature so different from anything around",
+        "start": 184.909,
+        "duration": 3.97
+    },
+    {
+        "text": "today that scientists have never been sure\nif it was an animal or something more like",
+        "start": 188.879,
+        "duration": 3.97
+    },
+    {
+        "text": "a fungus or lichen -- until now.",
+        "start": 192.849,
+        "duration": 2.23
+    },
+    {
+        "text": "In a paper published last week in the journal\nProceedings of the Royal Society B, paleontologists",
+        "start": 195.079,
+        "duration": 4.831
+    },
+    {
+        "text": "concluded that it was an animal.",
+        "start": 199.91,
+        "duration": 2.07
+    },
+    {
+        "text": "And their findings are giving us some fresh\ninsights into the origins of animals as a",
+        "start": 201.98,
+        "duration": 4.45
+    },
+    {
+        "text": "whole.",
+        "start": 206.43,
+        "duration": 1.0
+    },
+    {
+        "text": "Dickinsonia fossils were first described in\n1947, but it was hard to tell exactly what",
+        "start": 207.43,
+        "duration": 3.669
+    },
+    {
+        "text": "they were.",
+        "start": 211.099,
+        "duration": 1.0
+    },
+    {
+        "text": "The mysterious organism looked like a flattened\noval.",
+        "start": 212.099,
+        "duration": 2.801
+    },
+    {
+        "text": "It was bilaterally symmetrical -- the same\non both sides -- and made up of a series of",
+        "start": 214.9,
+        "duration": 3.929
+    },
+    {
+        "text": "rib-like “units” arranged along a central\naxis.",
+        "start": 218.829,
+        "duration": 3.431
+    },
+    {
+        "text": "Most Dickinsonia had a triangular shape at\none end, which some think was the head.",
+        "start": 222.26,
+        "duration": 4.47
+    },
+    {
+        "text": "The scientists who found it originally thought\nit was a jellyfish-like animal, but it’s",
+        "start": 226.73,
+        "duration": 3.789
+    },
+    {
+        "text": "also been compared to worms, other simple\nanimals, and things that aren’t animals",
+        "start": 230.519,
+        "duration": 3.97
+    },
+    {
+        "text": "at all.",
+        "start": 234.489,
+        "duration": 1.0
+    },
+    {
+        "text": "It was one of the first fossils described\nfrom the Ediacaran Period, 541 to 635 million",
+        "start": 235.489,
+        "duration": 5.092
+    },
+    {
+        "text": "years ago.",
+        "start": 240.581,
+        "duration": 1.0
+    },
+    {
+        "text": "It was a time when the world’s oceans held\nsoft-bodied organisms so different from anything",
+        "start": 241.581,
+        "duration": 3.938
+    },
+    {
+        "text": "known today that how to classify them has\nbeen a major paleontological mystery.",
+        "start": 245.519,
+        "duration": 4.131
+    },
+    {
+        "text": "To figure out where this thing actually fits\nin the tree of life, the authors of the new",
+        "start": 249.65,
+        "duration": 3.929
+    },
+    {
+        "text": "study compared juvenile and adult Dickinsonia\nfossils from South Australia.",
+        "start": 253.579,
+        "duration": 4.951
+    },
+    {
+        "text": "They counted the specimens’ body units,\nmeasured their lengths, and plotted these",
+        "start": 258.53,
+        "duration": 3.93
+    },
+    {
+        "text": "numbers against the age of each unit to see\nhow they grew.",
+        "start": 262.46,
+        "duration": 3.75
+    },
+    {
+        "text": "They found that Dickinsonia grew in two ways\n-- by adding new units, and by increasing",
+        "start": 266.21,
+        "duration": 4.54
+    },
+    {
+        "text": "the size of existing ones.",
+        "start": 270.75,
+        "duration": 1.58
+    },
+    {
+        "text": "Late in their life cycle, they switched mostly\nto the second, “inflation”-based way of",
+        "start": 272.33,
+        "duration": 4.31
+    },
+    {
+        "text": "growing.",
+        "start": 276.64,
+        "duration": 1.0
+    },
+    {
+        "text": "The team also found that Dickinsonia grew\nfrom the “head” end, instead of from the",
+        "start": 277.64,
+        "duration": 3.04
+    },
+    {
+        "text": "other end where the body units were smallest,\nwhich is what everyone had assumed.",
+        "start": 280.68,
+        "duration": 3.76
+    },
+    {
+        "text": "Comparing all this to what we know about how\nother organisms grow and develop tells us",
+        "start": 284.44,
+        "duration": 3.57
+    },
+    {
+        "text": "that Dickinsonia was definitely an animal,\nand probably part of a group called the Placozoa.",
+        "start": 288.01,
+        "duration": 4.9
+    },
+    {
+        "text": "And, based on the animals it was most similar\nto, it probably lived on the ocean bottom",
+        "start": 292.91,
+        "duration": 4.48
+    },
+    {
+        "text": "and could move around, rather than being fixed\nin place like a sponge or coral.",
+        "start": 297.39,
+        "duration": 4.35
+    },
+    {
+        "text": "For a long time, paleontologists interested\nin the origins of more complex and diverse",
+        "start": 301.74,
+        "duration": 4.01
+    },
+    {
+        "text": "animals focused on the Cambrian Explosion,\nwhich happened around 541 million years ago,",
+        "start": 305.75,
+        "duration": 5.11
+    },
+    {
+        "text": "millions of years after Dickinsonia’s heydey.",
+        "start": 310.86,
+        "duration": 2.39
+    },
+    {
+        "text": "But if some of the weird, confusing Ediacaran\norganisms were actually animals in their own",
+        "start": 313.25,
+        "duration": 4.95
+    },
+    {
+        "text": "right, this adds one more piece to the growing\nbody of evidence that our animal relatives",
+        "start": 318.2,
+        "duration": 4.74
+    },
+    {
+        "text": "go back further than we thought.",
+        "start": 322.94,
+        "duration": 1.76
+    },
+    {
+        "text": "If the strange case of Dickinsonia got you\nwondering about other scientific mysteries,",
+        "start": 324.7,
+        "duration": 4.75
+    },
+    {
+        "text": "Brilliant.org is a problem-solving website\nthat teaches you how to think like a scientist.",
+        "start": 329.45,
+        "duration": 3.92
+    },
+    {
+        "text": "Brilliant presents short, conceptual quizzes\nthat supplement what you’ve seen on SciShow.",
+        "start": 333.37,
+        "duration": 3.9
+    },
+    {
+        "text": "A great way to retain that information is\nby actively solving problems on Brilliant.",
+        "start": 337.27,
+        "duration": 4.41
+    },
+    {
+        "text": "Each course guides you through easy and challenging\nproblems with interactive graphics and questions.",
+        "start": 341.68,
+        "duration": 5.07
+    },
+    {
+        "text": "One course, Physics of the Everyday, has a\nneat lesson about physics in nature , like",
+        "start": 346.75,
+        "duration": 4.21
+    },
+    {
+        "text": "seasons and the greenhouse effect.",
+        "start": 350.96,
+        "duration": 1.66
+    },
+    {
+        "text": "In one lesson, I was surprised to learn how\nsimple it is to predict which way hurricanes",
+        "start": 352.62,
+        "duration": 4.51
+    },
+    {
+        "text": "rotate.",
+        "start": 357.13,
+        "duration": 1.0
+    },
+    {
+        "text": "If you think you already know, [leave a comment\nbelow and] check your reasoning on Brilliant.",
+        "start": 358.13,
+        "duration": 3.67
+    },
+    {
+        "text": ". It was a fun refresher for concepts I thought\nI had already mastered.",
+        "start": 361.8,
+        "duration": 5.44
+    },
+    {
+        "text": "4 million people are already using Brilliant,\nso join them in sharpening your STEM skills.",
+        "start": 367.24,
+        "duration": 4.76
+    },
+    {
+        "text": "To support SciShow and learn more about Brilliant,\ngo to brilliant.orgSciShow and sign up for",
+        "start": 372.0,
+        "duration": 4.96
+    },
+    {
+        "text": "free.",
+        "start": 376.96,
+        "duration": 8.62
+    }
+]

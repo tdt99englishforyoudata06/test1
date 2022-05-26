@@ -1,0 +1,442 @@
+[
+    {
+        "text": "to speak to us a little bit about the",
+        "start": 8.69,
+        "duration": 4.09
+    },
+    {
+        "text": "the NSA and what you're really looking",
+        "start": 11.04,
+        "duration": 3.179
+    },
+    {
+        "text": "for when you encrypt things and what the",
+        "start": 12.78,
+        "duration": 4.23
+    },
+    {
+        "text": "challenges are there well let's take a",
+        "start": 14.219,
+        "duration": 5.131
+    },
+    {
+        "text": "large organization that has a desire to",
+        "start": 17.01,
+        "duration": 6.72
+    },
+    {
+        "text": "know first of all everything you've",
+        "start": 19.35,
+        "duration": 6.39
+    },
+    {
+        "text": "heard so far is at the conceptual level",
+        "start": 23.73,
+        "duration": 4.89
+    },
+    {
+        "text": "how things ought to work then there",
+        "start": 25.74,
+        "duration": 5.37
+    },
+    {
+        "text": "comes the real world how it really works",
+        "start": 28.62,
+        "duration": 5.369
+    },
+    {
+        "text": "the implementation the box that you saw",
+        "start": 31.11,
+        "duration": 5.46
+    },
+    {
+        "text": "being worked over there was not a set of",
+        "start": 33.989,
+        "duration": 4.951
+    },
+    {
+        "text": "words on paper what wire to plug to what",
+        "start": 36.57,
+        "duration": 6.12
+    },
+    {
+        "text": "it was metal and wires in there and the",
+        "start": 38.94,
+        "duration": 5.34
+    },
+    {
+        "text": "Enigma was not subject to this but other",
+        "start": 42.69,
+        "duration": 3.689
+    },
+    {
+        "text": "logics were it was quite possible that",
+        "start": 44.28,
+        "duration": 3.84
+    },
+    {
+        "text": "if you walk up to some boxes in the",
+        "start": 46.379,
+        "duration": 2.82
+    },
+    {
+        "text": "field they're doing perfectly good",
+        "start": 48.12,
+        "duration": 2.91
+    },
+    {
+        "text": "encryption and you had a hammer and you",
+        "start": 49.199,
+        "duration": 3.27
+    },
+    {
+        "text": "whacked the box in just the right spot",
+        "start": 51.03,
+        "duration": 3.779
+    },
+    {
+        "text": "the key would automatically reset to",
+        "start": 52.469,
+        "duration": 6.12
+    },
+    {
+        "text": "default key that's very convenient crypt",
+        "start": 54.809,
+        "duration": 6.6
+    },
+    {
+        "text": "analysis okay now unfortunately it's",
+        "start": 58.589,
+        "duration": 5.701
+    },
+    {
+        "text": "transmitting to a another device which",
+        "start": 61.409,
+        "duration": 5.041
+    },
+    {
+        "text": "hasn't been hit yet so if you have to",
+        "start": 64.29,
+        "duration": 4.08
+    },
+    {
+        "text": "have is janitors on staff at both",
+        "start": 66.45,
+        "duration": 4.11
+    },
+    {
+        "text": "organizations he'll go in at midnight",
+        "start": 68.37,
+        "duration": 3.72
+    },
+    {
+        "text": "and whack each one and then you can",
+        "start": 70.56,
+        "duration": 2.64
+    },
+    {
+        "text": "listen to the line as well as a",
+        "start": 72.09,
+        "duration": 2.94
+    },
+    {
+        "text": "transmitters can trivial example and",
+        "start": 73.2,
+        "duration": 5.45
+    },
+    {
+        "text": "that's what's called root Force analysis",
+        "start": 75.03,
+        "duration": 5.61
+    },
+    {
+        "text": "you can be a little more subtle about",
+        "start": 78.65,
+        "duration": 3.67
+    },
+    {
+        "text": "and try to do with mathematics instead",
+        "start": 80.64,
+        "duration": 4.14
+    },
+    {
+        "text": "in which case you hit I'm this is all",
+        "start": 82.32,
+        "duration": 4.68
+    },
+    {
+        "text": "made very simple and it's not quite this",
+        "start": 84.78,
+        "duration": 4.23
+    },
+    {
+        "text": "easy but maybe you don't hit it very",
+        "start": 87.0,
+        "duration": 3.69
+    },
+    {
+        "text": "hard just hard enough to break a wire",
+        "start": 89.01,
+        "duration": 4.26
+    },
+    {
+        "text": "inside but the same wire is fragile in",
+        "start": 90.69,
+        "duration": 4.38
+    },
+    {
+        "text": "all of them so a gentle tap which nobody",
+        "start": 93.27,
+        "duration": 3.84
+    },
+    {
+        "text": "can hear us at the door just breaks",
+        "start": 95.07,
+        "duration": 3.75
+    },
+    {
+        "text": "wires which still makes it in ciphered",
+        "start": 97.11,
+        "duration": 4.32
+    },
+    {
+        "text": "but in a trivial cipher something is",
+        "start": 98.82,
+        "duration": 4.86
+    },
+    {
+        "text": "very simple like adding the same number",
+        "start": 101.43,
+        "duration": 4.71
+    },
+    {
+        "text": "to every character that goes by so you",
+        "start": 103.68,
+        "duration": 4.32
+    },
+    {
+        "text": "have a monoalphabetic substitution the",
+        "start": 106.14,
+        "duration": 3.6
+    },
+    {
+        "text": "same as you work in a crossword puzzle",
+        "start": 108.0,
+        "duration": 3.48
+    },
+    {
+        "text": "in the newspaper in the morning by hand",
+        "start": 109.74,
+        "duration": 4.23
+    },
+    {
+        "text": "but it looks like cipher and it's just",
+        "start": 111.48,
+        "duration": 4.32
+    },
+    {
+        "text": "those two parties talking and many",
+        "start": 113.97,
+        "duration": 4.11
+    },
+    {
+        "text": "military systems are point-to-point only",
+        "start": 115.8,
+        "duration": 5.19
+    },
+    {
+        "text": "not two networks you've got them they're",
+        "start": 118.08,
+        "duration": 4.5
+    },
+    {
+        "text": "talking they think they're secure they",
+        "start": 120.99,
+        "duration": 3.18
+    },
+    {
+        "text": "can see the cipher written down it looks",
+        "start": 122.58,
+        "duration": 3.63
+    },
+    {
+        "text": "like trash you can still break it and",
+        "start": 124.17,
+        "duration": 3.6
+    },
+    {
+        "text": "read it these are oversimplified",
+        "start": 126.21,
+        "duration": 3.87
+    },
+    {
+        "text": "examples but it all matters what is",
+        "start": 127.77,
+        "duration": 4.71
+    },
+    {
+        "text": "going on in the implementation and we in",
+        "start": 130.08,
+        "duration": 3.84
+    },
+    {
+        "text": "the government realize that GI is",
+        "start": 132.48,
+        "duration": 2.94
+    },
+    {
+        "text": "carried hammers and could do this sort",
+        "start": 133.92,
+        "duration": 3.03
+    },
+    {
+        "text": "of stuff it was demonstrated frequently",
+        "start": 135.42,
+        "duration": 4.08
+    },
+    {
+        "text": "for us in the military so we spent extra",
+        "start": 136.95,
+        "duration": 3.57
+    },
+    {
+        "text": "time and money",
+        "start": 139.5,
+        "duration": 3.84
+    },
+    {
+        "text": "a box from a large organization with a",
+        "start": 140.52,
+        "duration": 5.85
+    },
+    {
+        "text": "desire to no cost money to build and it",
+        "start": 143.34,
+        "duration": 4.83
+    },
+    {
+        "text": "took time to design because we",
+        "start": 146.37,
+        "duration": 3.96
+    },
+    {
+        "text": "anticipated these sorts of things try",
+        "start": 148.17,
+        "duration": 3.9
+    },
+    {
+        "text": "them out practice them and we attack",
+        "start": 150.33,
+        "duration": 3.93
+    },
+    {
+        "text": "them before we ever release them it took",
+        "start": 152.07,
+        "duration": 4.23
+    },
+    {
+        "text": "three to five years design five to seven",
+        "start": 154.26,
+        "duration": 4.23
+    },
+    {
+        "text": "years to test and then field test for",
+        "start": 156.3,
+        "duration": 3.72
+    },
+    {
+        "text": "another three years before it's actually",
+        "start": 158.49,
+        "duration": 2.97
+    },
+    {
+        "text": "sending track on classified traffic",
+        "start": 160.02,
+        "duration": 3.93
+    },
+    {
+        "text": "between soldiers in the field the",
+        "start": 161.46,
+        "duration": 3.66
+    },
+    {
+        "text": "commercial world doesn't want to pay",
+        "start": 163.95,
+        "duration": 3.12
+    },
+    {
+        "text": "that price they want to build very",
+        "start": 165.12,
+        "duration": 4.32
+    },
+    {
+        "text": "quickly out of stuff and just you know",
+        "start": 167.07,
+        "duration": 4.89
+    },
+    {
+        "text": "let it go and so it makes a lot of fun",
+        "start": 169.44,
+        "duration": 3.87
+    },
+    {
+        "text": "they've got good cryptography running",
+        "start": 171.96,
+        "duration": 2.61
+    },
+    {
+        "text": "its own little computers and chips in",
+        "start": 173.31,
+        "duration": 3.36
+    },
+    {
+        "text": "there radiating like swine and all you",
+        "start": 174.57,
+        "duration": 4.08
+    },
+    {
+        "text": "have to do is have receivers near their",
+        "start": 176.67,
+        "duration": 4.05
+    },
+    {
+        "text": "devices in many cases you can pick up",
+        "start": 178.65,
+        "duration": 5.64
+    },
+    {
+        "text": "enough unintended emanations that you",
+        "start": 180.72,
+        "duration": 5.25
+    },
+    {
+        "text": "can read the traffic that the guy is",
+        "start": 184.29,
+        "duration": 3.57
+    },
+    {
+        "text": "sending and you haven't touched the box",
+        "start": 185.97,
+        "duration": 3.9
+    },
+    {
+        "text": "you haven't broken it in any sense but",
+        "start": 187.86,
+        "duration": 4.44
+    },
+    {
+        "text": "you're still reading the text because it",
+        "start": 189.87,
+        "duration": 4.98
+    },
+    {
+        "text": "was not a robust implementation they",
+        "start": 192.3,
+        "duration": 6.92
+    },
+    {
+        "text": "didn't spend enough time doing it right",
+        "start": 194.85,
+        "duration": 4.37
+    }
+]

@@ -1,0 +1,2112 @@
+[
+    {
+        "text": "Brady I want to tell you about a lovely",
+        "start": 0.08,
+        "duration": 2.079
+    },
+    {
+        "text": "puzzle",
+        "start": 2.159,
+        "duration": 1.121
+    },
+    {
+        "text": "that was invented by two undergraduates",
+        "start": 3.28,
+        "duration": 2.32
+    },
+    {
+        "text": "at Michigan State. They call it the",
+        "start": 5.6,
+        "duration": 2.56
+    },
+    {
+        "text": "stepping stones puzzle and it goes like",
+        "start": 8.16,
+        "duration": 2.24
+    },
+    {
+        "text": "this: you've got a chess board, it's",
+        "start": 10.4,
+        "duration": 1.84
+    },
+    {
+        "text": "infinite, and you've got a certain number",
+        "start": 12.24,
+        "duration": 2.16
+    },
+    {
+        "text": "of brown stones",
+        "start": 14.4,
+        "duration": 2.08
+    },
+    {
+        "text": "that are worth 1 point each.",
+        "start": 16.48,
+        "duration": 3.04
+    },
+    {
+        "text": "The puzzle is you can put down the brown",
+        "start": 19.52,
+        "duration": 2.08
+    },
+    {
+        "text": "stones anywhere you want - say you've got",
+        "start": 21.6,
+        "duration": 2.08
+    },
+    {
+        "text": "four brown stones, that's fixed. You put",
+        "start": 23.68,
+        "duration": 2.32
+    },
+    {
+        "text": "down your four brown stones and then you",
+        "start": 26.0,
+        "duration": 2.08
+    },
+    {
+        "text": "add the white stones. The white stones",
+        "start": 28.08,
+        "duration": 2.08
+    },
+    {
+        "text": "are numbered 2, 3, 4, 5, 6;",
+        "start": 30.16,
+        "duration": 1.84
+    },
+    {
+        "text": "there's one of each value, and you can",
+        "start": 32.0,
+        "duration": 2.239
+    },
+    {
+        "text": "only put down",
+        "start": 34.239,
+        "duration": 2.641
+    },
+    {
+        "text": "a stone label 2",
+        "start": 36.88,
+        "duration": 2.08
+    },
+    {
+        "text": "if the sum of its eight neighbours, the",
+        "start": 38.96,
+        "duration": 1.919
+    },
+    {
+        "text": "sum of the eight neighbours of that",
+        "start": 40.879,
+        "duration": 1.84
+    },
+    {
+        "text": "square is 2. Well you can put a 2 here",
+        "start": 42.719,
+        "duration": 2.481
+    },
+    {
+        "text": "because it's got 2 neighboring squares",
+        "start": 45.2,
+        "duration": 2.4
+    },
+    {
+        "text": "of value 1, and 1 plus 1 is 2, so 2 is",
+        "start": 47.6,
+        "duration": 2.72
+    },
+    {
+        "text": "legal. And having put the 2 there we",
+        "start": 50.32,
+        "duration": 2.719
+    },
+    {
+        "text": "could if we wanted put a 3 here, because",
+        "start": 53.039,
+        "duration": 3.121
+    },
+    {
+        "text": "there's a 1 and a 2. We could have put",
+        "start": 56.16,
+        "duration": 2.559
+    },
+    {
+        "text": "2 here also instead of putting it",
+        "start": 58.719,
+        "duration": 2.241
+    },
+    {
+        "text": "there. We could not have put it here",
+        "start": 60.96,
+        "duration": 1.759
+    },
+    {
+        "text": "because the sum of these",
+        "start": 62.719,
+        "duration": 1.921
+    },
+    {
+        "text": "stones around it, namely this this and",
+        "start": 64.64,
+        "duration": 1.92
+    },
+    {
+        "text": "this, are 3. So we could only put a",
+        "start": 66.56,
+        "duration": 1.76
+    },
+    {
+        "text": "3 there, but we can't put a 3",
+        "start": 68.32,
+        "duration": 1.52
+    },
+    {
+        "text": "there until we've placed the 2 stone,",
+        "start": 69.84,
+        "duration": 2.4
+    },
+    {
+        "text": "we've got to place the stones in order.",
+        "start": 72.24,
+        "duration": 1.84
+    },
+    {
+        "text": "And the puzzle is, for a given number of",
+        "start": 74.08,
+        "duration": 2.48
+    },
+    {
+        "text": "brown stones that you start with, like",
+        "start": 76.56,
+        "duration": 2.08
+    },
+    {
+        "text": "here's 4, how many white stones can",
+        "start": 78.64,
+        "duration": 2.72
+    },
+    {
+        "text": "you put down? What's the highest number",
+        "start": 81.36,
+        "duration": 1.68
+    },
+    {
+        "text": "you can get to?",
+        "start": 83.04,
+        "duration": 1.36
+    },
+    {
+        "text": "So let me do it with two.\n- (Brady: Two browns?)",
+        "start": 84.4,
+        "duration": 2.719
+    },
+    {
+        "text": "Two browns, exactly. \nWe're gonna do it with",
+        "start": 87.119,
+        "duration": 1.601
+    },
+    {
+        "text": "two browns. And we're going to work out;",
+        "start": 88.72,
+        "duration": 3.759
+    },
+    {
+        "text": "if n is 1 you can't do anything, you",
+        "start": 92.479,
+        "duration": 2.561
+    },
+    {
+        "text": "can only get 1, so the answer - I'll call",
+        "start": 95.04,
+        "duration": 2.32
+    },
+    {
+        "text": "it a of n - if n is 2 how many- how far",
+        "start": 97.36,
+        "duration": 3.84
+    },
+    {
+        "text": "can we get? Well let's try it. I'm going",
+        "start": 101.2,
+        "duration": 2.32
+    },
+    {
+        "text": "to start off by putting the two brown",
+        "start": 103.52,
+        "duration": 2.72
+    },
+    {
+        "text": "stones worth 1 point each, put them",
+        "start": 106.24,
+        "duration": 3.12
+    },
+    {
+        "text": "there. And now there's a unique place to",
+        "start": 109.36,
+        "duration": 2.0
+    },
+    {
+        "text": "get- to place the 2 which is between",
+        "start": 111.36,
+        "duration": 2.719
+    },
+    {
+        "text": "them. I can put it there because 1 plus",
+        "start": 114.079,
+        "duration": 2.08
+    },
+    {
+        "text": "1 is 2. Now",
+        "start": 116.159,
+        "duration": 1.841
+    },
+    {
+        "text": "I can put down the 3 and I could put",
+        "start": 118.0,
+        "duration": 2.0
+    },
+    {
+        "text": "the 3- I could put it there or there",
+        "start": 120.0,
+        "duration": 2.399
+    },
+    {
+        "text": "or there or there. But without loss of",
+        "start": 122.399,
+        "duration": 2.0
+    },
+    {
+        "text": "generality as we say I will put it there.",
+        "start": 124.399,
+        "duration": 2.961
+    },
+    {
+        "text": "So now we have to find a place to put",
+        "start": 127.36,
+        "duration": 1.84
+    },
+    {
+        "text": "the 4.",
+        "start": 129.2,
+        "duration": 1.039
+    },
+    {
+        "text": "Well, I could put it here because the 1",
+        "start": 130.239,
+        "duration": 2.241
+    },
+    {
+        "text": "and 3 makes 4. But it's a little",
+        "start": 132.48,
+        "duration": 1.839
+    },
+    {
+        "text": "better to put the 4 here because then",
+        "start": 134.319,
+        "duration": 3.441
+    },
+    {
+        "text": "this frees up",
+        "start": 137.76,
+        "duration": 1.76
+    },
+    {
+        "text": "this square for the 5. We've got to",
+        "start": 139.52,
+        "duration": 2.4
+    },
+    {
+        "text": "put the 5 somewhere, we've got to make a",
+        "start": 141.92,
+        "duration": 1.76
+    },
+    {
+        "text": "place for the 5, so I'm going to put the",
+        "start": 143.68,
+        "duration": 2.24
+    },
+    {
+        "text": "5 there. And it's legal because it's got",
+        "start": 145.92,
+        "duration": 3.12
+    },
+    {
+        "text": "two neighbours: 1 and 4. \nNow what about the",
+        "start": 149.04,
+        "duration": 2.559
+    },
+    {
+        "text": "6? Well there's a choice. We could put the",
+        "start": 151.599,
+        "duration": 2.72
+    },
+    {
+        "text": "6 here- no no I can't put it there",
+        "start": 154.319,
+        "duration": 2.881
+    },
+    {
+        "text": "because that's got neighbours 5, 4",
+        "start": 157.2,
+        "duration": 1.759
+    },
+    {
+        "text": "and 1 - I could only put a 10 there.",
+        "start": 158.959,
+        "duration": 2.721
+    },
+    {
+        "text": "You've got to put them in order, yes,",
+        "start": 161.68,
+        "duration": 2.559
+    },
+    {
+        "text": "you've got to build your way up.\n- (So it's)",
+        "start": 164.239,
+        "duration": 1.921
+    },
+    {
+        "text": "(not what's the highest value can I get)",
+        "start": 166.16,
+        "duration": 2.4
+    },
+    {
+        "text": "(on the board? It's what's the highest)",
+        "start": 168.56,
+        "duration": 1.28
+    },
+    {
+        "text": "(value I can get on the board building in)",
+        "start": 169.84,
+        "duration": 1.92
+    },
+    {
+        "text": "(order?)\n- Building in order, yes.",
+        "start": 171.76,
+        "duration": 2.8
+    },
+    {
+        "text": "It's like climbing a mountain, you've got",
+        "start": 174.56,
+        "duration": 1.679
+    },
+    {
+        "text": "to get- work your way up.\n- (Oh I can see)",
+        "start": 176.239,
+        "duration": 2.241
+    },
+    {
+        "text": "(where you can put a 6)",
+        "start": 178.48,
+        "duration": 2.32
+    },
+    {
+        "text": "Here right?\n- (Yeah)",
+        "start": 180.8,
+        "duration": 1.76
+    },
+    {
+        "text": "Yeah,",
+        "start": 182.56,
+        "duration": 1.039
+    },
+    {
+        "text": "all right,",
+        "start": 183.599,
+        "duration": 0.961
+    },
+    {
+        "text": "6. It's legal because we've got a 1, a",
+        "start": 184.56,
+        "duration": 2.56
+    },
+    {
+        "text": "2 and a 3 - makes a 6. We could",
+        "start": 187.12,
+        "duration": 2.08
+    },
+    {
+        "text": "have put it there too but I like",
+        "start": 189.2,
+        "duration": 2.24
+    },
+    {
+        "text": "putting it here. \n- (Does that not now)",
+        "start": 191.44,
+        "duration": 1.84
+    },
+    {
+        "text": "(invalidate the 3? The 3)",
+        "start": 193.28,
+        "duration": 2.48
+    },
+    {
+        "text": "(remains valid?)\n- The 3 main- remains",
+        "start": 195.76,
+        "duration": 1.839
+    },
+    {
+        "text": "valid because when it was built its",
+        "start": 197.599,
+        "duration": 2.0
+    },
+    {
+        "text": "neighbours added up to 3 and and",
+        "start": 199.599,
+        "duration": 2.161
+    },
+    {
+        "text": "that's fine and then we can use it",
+        "start": 201.76,
+        "duration": 2.559
+    },
+    {
+        "text": "to build up other things. Yes. All right,",
+        "start": 204.319,
+        "duration": 3.041
+    },
+    {
+        "text": "7, where are we going to put 7?",
+        "start": 207.36,
+        "duration": 1.76
+    },
+    {
+        "text": "I'd like to put the 7 here",
+        "start": 209.12,
+        "duration": 2.479
+    },
+    {
+        "text": "because it's got neighbours 1 and 6",
+        "start": 211.599,
+        "duration": 2.0
+    },
+    {
+        "text": "so that works. Now what about the 8?",
+        "start": 213.599,
+        "duration": 2.56
+    },
+    {
+        "text": "How about here because then we've got",
+        "start": 216.159,
+        "duration": 4.0
+    },
+    {
+        "text": "the 1, 4 and the 3 adding up to",
+        "start": 220.159,
+        "duration": 2.401
+    },
+    {
+        "text": "8. Now what about the 9? Well here",
+        "start": 222.56,
+        "duration": 3.759
+    },
+    {
+        "text": "would be a good place for the 9,",
+        "start": 226.319,
+        "duration": 2.48
+    },
+    {
+        "text": "but that looks promising",
+        "start": 228.799,
+        "duration": 1.761
+    },
+    {
+        "text": "because I can see where to put the 10.",
+        "start": 230.56,
+        "duration": 3.039
+    },
+    {
+        "text": "The 10 can go here because we've got a",
+        "start": 233.599,
+        "duration": 3.441
+    },
+    {
+        "text": "4 and a 5 and a 1. Okay, now I",
+        "start": 237.04,
+        "duration": 2.559
+    },
+    {
+        "text": "think it'll be easy now because we",
+        "start": 239.599,
+        "duration": 2.72
+    },
+    {
+        "text": "continue that thread. We'll put an 11",
+        "start": 242.319,
+        "duration": 2.401
+    },
+    {
+        "text": "there, now the 12 -",
+        "start": 244.72,
+        "duration": 2.239
+    },
+    {
+        "text": "there's going to be a clever place to",
+        "start": 246.959,
+        "duration": 2.241
+    },
+    {
+        "text": "put the 12.",
+        "start": 249.2,
+        "duration": 2.56
+    },
+    {
+        "text": "Here. The 12 is a bit of a nuisance",
+        "start": 251.76,
+        "duration": 2.559
+    },
+    {
+        "text": "because we really want to get down to",
+        "start": 254.319,
+        "duration": 2.001
+    },
+    {
+        "text": "using the 13 and the 14. We have to,",
+        "start": 256.32,
+        "duration": 3.12
+    },
+    {
+        "text": "so to speak, place the 12 in a way that",
+        "start": 259.44,
+        "duration": 2.56
+    },
+    {
+        "text": "won't interrupt us. Because you can see",
+        "start": 262.0,
+        "duration": 2.88
+    },
+    {
+        "text": "that we have a 13",
+        "start": 264.88,
+        "duration": 2.16
+    },
+    {
+        "text": "square here, the 6 and the 7, and",
+        "start": 267.04,
+        "duration": 3.439
+    },
+    {
+        "text": "now now we've got a 1, a 6 and a 7",
+        "start": 270.479,
+        "duration": 3.921
+    },
+    {
+        "text": "so we can put the 14 there. And we can",
+        "start": 274.4,
+        "duration": 2.48
+    },
+    {
+        "text": "put the 15 there with the 1 and the 14,",
+        "start": 276.88,
+        "duration": 3.52
+    },
+    {
+        "text": "and we can put the 16 here. Now I",
+        "start": 280.4,
+        "duration": 2.56
+    },
+    {
+        "text": "carefully provided stones labelled",
+        "start": 282.96,
+        "duration": 2.08
+    },
+    {
+        "text": "through 16 because I knew that 16 was",
+        "start": 285.04,
+        "duration": 3.2
+    },
+    {
+        "text": "the best we could hope to do.",
+        "start": 288.24,
+        "duration": 1.99
+    },
+    {
+        "text": "The two undergraduates who came up with",
+        "start": 291.04,
+        "duration": 2.48
+    },
+    {
+        "text": "this puzzle worked this out. They proved",
+        "start": 293.52,
+        "duration": 2.64
+    },
+    {
+        "text": "that you can't do better than 16 with",
+        "start": 296.16,
+        "duration": 2.16
+    },
+    {
+        "text": "two starting stones. \n- (Because- because you)",
+        "start": 298.32,
+        "duration": 2.56
+    },
+    {
+        "text": "(could put the starting stones in)",
+        "start": 300.88,
+        "duration": 1.759
+    },
+    {
+        "text": "(different positions, but that's the)",
+        "start": 302.639,
+        "duration": 1.681
+    },
+    {
+        "text": "(optimal position to put them in is it?)",
+        "start": 304.32,
+        "duration": 1.439
+    },
+    {
+        "text": "(Where you- where you placed?)\n- Yes yes. What",
+        "start": 305.759,
+        "duration": 2.561
+    },
+    {
+        "text": "makes this an interesting challenge is",
+        "start": 308.32,
+        "duration": 2.08
+    },
+    {
+        "text": "that in fact you could put the starting",
+        "start": 310.4,
+        "duration": 2.0
+    },
+    {
+        "text": "stones anywhere you want in the whole",
+        "start": 312.4,
+        "duration": 2.48
+    },
+    {
+        "text": "world.",
+        "start": 314.88,
+        "duration": 1.12
+    },
+    {
+        "text": "So if you were writing a program to",
+        "start": 316.0,
+        "duration": 2.0
+    },
+    {
+        "text": "search for this you could say, for you",
+        "start": 318.0,
+        "duration": 2.08
+    },
+    {
+        "text": "know x1 from minus infinity to infinity",
+        "start": 320.08,
+        "duration": 3.119
+    },
+    {
+        "text": "from- but of course you don't do that. You",
+        "start": 323.199,
+        "duration": 1.921
+    },
+    {
+        "text": "say without loss of generality we can",
+        "start": 325.12,
+        "duration": 1.6
+    },
+    {
+        "text": "put the first stone there and then",
+        "start": 326.72,
+        "duration": 1.759
+    },
+    {
+        "text": "there's really only one good place for",
+        "start": 328.479,
+        "duration": 2.081
+    },
+    {
+        "text": "the second stone, but then the number of",
+        "start": 330.56,
+        "duration": 2.24
+    },
+    {
+        "text": "possibilities increases. Initially it's",
+        "start": 332.8,
+        "duration": 2.64
+    },
+    {
+        "text": "an impossible sounding problem but in",
+        "start": 335.44,
+        "duration": 2.56
+    },
+    {
+        "text": "the end we",
+        "start": 338.0,
+        "duration": 1.28
+    },
+    {
+        "text": "can do pretty well. So that's the",
+        "start": 339.28,
+        "duration": 1.84
+    },
+    {
+        "text": "solution with with two starting stones,",
+        "start": 341.12,
+        "duration": 2.56
+    },
+    {
+        "text": "all right, so and it's 16. And",
+        "start": 343.68,
+        "duration": 3.519
+    },
+    {
+        "text": "we know a few more terms: so we actually",
+        "start": 347.199,
+        "duration": 3.201
+    },
+    {
+        "text": "know",
+        "start": 350.4,
+        "duration": 0.88
+    },
+    {
+        "text": "only six terms and the sixth is 60 and",
+        "start": 351.28,
+        "duration": 3.759
+    },
+    {
+        "text": "three is 28,",
+        "start": 355.039,
+        "duration": 2.481
+    },
+    {
+        "text": "four",
+        "start": 357.52,
+        "duration": 1.84
+    },
+    {
+        "text": "is 38,",
+        "start": 359.36,
+        "duration": 2.0
+    },
+    {
+        "text": "and five",
+        "start": 361.36,
+        "duration": 1.679
+    },
+    {
+        "text": "is 49.",
+        "start": 363.039,
+        "duration": 2.081
+    },
+    {
+        "text": "That's all we know.",
+        "start": 365.12,
+        "duration": 1.76
+    },
+    {
+        "text": "We don't know seven,\nno one has been able",
+        "start": 366.88,
+        "duration": 1.84
+    },
+    {
+        "text": "to work it out.",
+        "start": 368.72,
+        "duration": 1.44
+    },
+    {
+        "text": "And maybe it's because nobody has really",
+        "start": 370.16,
+        "duration": 1.92
+    },
+    {
+        "text": "tried hard.\n- (Do we know the stone)",
+        "start": 372.08,
+        "duration": 2.0
+    },
+    {
+        "text": "(configuration for 3, 4, 5 and)",
+        "start": 374.08,
+        "duration": 1.76
+    },
+    {
+        "text": "(6? We obviously do.)\n- We know one, yes. It's",
+        "start": 375.84,
+        "duration": 2.4
+    },
+    {
+        "text": "not necessarily unique. Here for example",
+        "start": 378.24,
+        "duration": 2.48
+    },
+    {
+        "text": "are the configurations for four stones,",
+        "start": 380.72,
+        "duration": 2.72
+    },
+    {
+        "text": "we you put the starting stones, the brown",
+        "start": 383.44,
+        "duration": 2.96
+    },
+    {
+        "text": "stones, in these places and then you work",
+        "start": 386.4,
+        "duration": 3.76
+    },
+    {
+        "text": "it out and eventually you can get up to",
+        "start": 390.16,
+        "duration": 1.92
+    },
+    {
+        "text": "38 there. And with six starting stones,",
+        "start": 392.08,
+        "duration": 3.44
+    },
+    {
+        "text": "that's the starting pattern, and you can",
+        "start": 395.52,
+        "duration": 1.92
+    },
+    {
+        "text": "get to 60. Now one thing I was expecting",
+        "start": 397.44,
+        "duration": 2.479
+    },
+    {
+        "text": "you to ask me Brady is, how do you know",
+        "start": 399.919,
+        "duration": 1.761
+    },
+    {
+        "text": "it's finite? Maybe if you're really",
+        "start": 401.68,
+        "duration": 1.92
+    },
+    {
+        "text": "clever you can put down the 2 and the",
+        "start": 403.6,
+        "duration": 2.4
+    },
+    {
+        "text": "3 and the 4 and 5 and go",
+        "start": 406.0,
+        "duration": 1.68
+    },
+    {
+        "text": "around in this in a spiral",
+        "start": 407.68,
+        "duration": 2.48
+    },
+    {
+        "text": "and get",
+        "start": 410.16,
+        "duration": 1.12
+    },
+    {
+        "text": "very large numbers. Well that's not",
+        "start": 411.28,
+        "duration": 2.88
+    },
+    {
+        "text": "possible",
+        "start": 414.16,
+        "duration": 1.12
+    },
+    {
+        "text": "and I will prove it. I can also give you",
+        "start": 415.28,
+        "duration": 2.639
+    },
+    {
+        "text": "a lower bound, I can show you that you",
+        "start": 417.919,
+        "duration": 1.601
+    },
+    {
+        "text": "can do at least",
+        "start": 419.52,
+        "duration": 2.079
+    },
+    {
+        "text": "this well.",
+        "start": 421.599,
+        "duration": 1.281
+    },
+    {
+        "text": "This is a construction of Andrew Howroyd.",
+        "start": 422.88,
+        "duration": 3.52
+    },
+    {
+        "text": "Look at this, look at this construction.",
+        "start": 426.4,
+        "duration": 1.76
+    },
+    {
+        "text": "We're gonna put down a 1, a brown stone",
+        "start": 428.16,
+        "duration": 3.52
+    },
+    {
+        "text": "here, leave a gap there, and put a 1",
+        "start": 431.68,
+        "duration": 2.88
+    },
+    {
+        "text": "here. These are the two brown stones. And",
+        "start": 434.56,
+        "duration": 3.039
+    },
+    {
+        "text": "then we can put a 2 here; then we can",
+        "start": 437.599,
+        "duration": 3.04
+    },
+    {
+        "text": "put a 3,",
+        "start": 440.639,
+        "duration": 1.201
+    },
+    {
+        "text": "a 4, a 5, and a 6 there. And then",
+        "start": 441.84,
+        "duration": 4.079
+    },
+    {
+        "text": "he said let me have pre-placed a 1",
+        "start": 445.919,
+        "duration": 3.441
+    },
+    {
+        "text": "here.",
+        "start": 449.36,
+        "duration": 2.48
+    },
+    {
+        "text": "If we do that then we can put a 7",
+        "start": 451.919,
+        "duration": 2.161
+    },
+    {
+        "text": "here, and then we can put an 8 and a",
+        "start": 454.08,
+        "duration": 2.399
+    },
+    {
+        "text": "9 and a 10 and an 11 there,",
+        "start": 456.479,
+        "duration": 4.0
+    },
+    {
+        "text": "very cunning.",
+        "start": 460.479,
+        "duration": 1.921
+    },
+    {
+        "text": "And then we're going to put a 12 there",
+        "start": 462.4,
+        "duration": 2.32
+    },
+    {
+        "text": "in a minute; so let us have pre-placed",
+        "start": 464.72,
+        "duration": 3.28
+    },
+    {
+        "text": "another brown stone there and then we",
+        "start": 468.0,
+        "duration": 2.639
+    },
+    {
+        "text": "can get 12, 13, 14, 15, 16. And there in a",
+        "start": 470.639,
+        "duration": 6.56
+    },
+    {
+        "text": "minute we'll go 17.",
+        "start": 477.199,
+        "duration": 2.241
+    },
+    {
+        "text": "So each-",
+        "start": 479.44,
+        "duration": 2.479
+    },
+    {
+        "text": "each brown stone",
+        "start": 482.24,
+        "duration": 1.679
+    },
+    {
+        "text": "buys us five more steps.",
+        "start": 483.919,
+        "duration": 4.321
+    },
+    {
+        "text": "When we put down that brown stone we",
+        "start": 488.24,
+        "duration": 2.399
+    },
+    {
+        "text": "were able to add 12, 13, 14, 15 and 16.",
+        "start": 490.639,
+        "duration": 4.0
+    },
+    {
+        "text": "And here we got five and here",
+        "start": 494.639,
+        "duration": 3.441
+    },
+    {
+        "text": "we got five. So with n",
+        "start": 498.08,
+        "duration": 3.36
+    },
+    {
+        "text": "starting stones, n brown stones, this is",
+        "start": 501.44,
+        "duration": 3.439
+    },
+    {
+        "text": "not the best you can do but it certainly",
+        "start": 504.879,
+        "duration": 2.241
+    },
+    {
+        "text": "shows",
+        "start": 507.12,
+        "duration": 0.96
+    },
+    {
+        "text": "that you can get at least five n minus",
+        "start": 508.08,
+        "duration": 2.64
+    },
+    {
+        "text": "4, because each time you add one more",
+        "start": 510.72,
+        "duration": 2.16
+    },
+    {
+        "text": "brown stone. So here with two brown stones",
+        "start": 512.88,
+        "duration": 2.719
+    },
+    {
+        "text": "we went up to 6, and if I put n equals",
+        "start": 515.599,
+        "duration": 3.44
+    },
+    {
+        "text": "2; two brown stones, 5 times 2",
+        "start": 519.039,
+        "duration": 2.321
+    },
+    {
+        "text": "minus 4 is 6. Three brown stones we",
+        "start": 521.36,
+        "duration": 2.4
+    },
+    {
+        "text": "went up to 11.\n- (And this thing's going)",
+        "start": 523.76,
+        "duration": 1.92
+    },
+    {
+        "text": "(in a straight line?)\n- It's going in-",
+        "start": 525.68,
+        "duration": 1.27
+    },
+    {
+        "text": "(It's not gonna twist it \nback on itself?)",
+        "start": 526.95,
+        "duration": 1.619
+    },
+    {
+        "text": "No, it's a zigzag.",
+        "start": 528.569,
+        "duration": 1.591
+    },
+    {
+        "text": "So",
+        "start": 530.16,
+        "duration": 2.239
+    },
+    {
+        "text": "we just do in a zigzag like that and",
+        "start": 532.399,
+        "duration": 2.481
+    },
+    {
+        "text": "keep going.",
+        "start": 534.88,
+        "duration": 1.6
+    },
+    {
+        "text": "It's a very simple-minded construction",
+        "start": 536.48,
+        "duration": 2.08
+    },
+    {
+        "text": "and I wouldn't be at all surprised if",
+        "start": 538.56,
+        "duration": 2.0
+    },
+    {
+        "text": "some ingenious person viewing this can",
+        "start": 540.56,
+        "duration": 2.56
+    },
+    {
+        "text": "come up with something that does wrap",
+        "start": 543.12,
+        "duration": 2.0
+    },
+    {
+        "text": "around itself and give a much better",
+        "start": 545.12,
+        "duration": 2.24
+    },
+    {
+        "text": "lower bound. But at least we know it",
+        "start": 547.36,
+        "duration": 2.4
+    },
+    {
+        "text": "grows linearly, 5n minus 4.",
+        "start": 549.76,
+        "duration": 3.68
+    },
+    {
+        "text": "Now what about in the other- the other",
+        "start": 553.44,
+        "duration": 1.6
+    },
+    {
+        "text": "direction? Can we put a limit on how many",
+        "start": 555.04,
+        "duration": 3.04
+    },
+    {
+        "text": "you can get?",
+        "start": 558.08,
+        "duration": 1.52
+    },
+    {
+        "text": "And",
+        "start": 559.6,
+        "duration": 0.88
+    },
+    {
+        "text": "for that I need another piece of paper.",
+        "start": 560.48,
+        "duration": 2.29
+    },
+    {
+        "text": "Is there any limit to how many you can",
+        "start": 563.36,
+        "duration": 1.68
+    },
+    {
+        "text": "get? If you've got three brown stones",
+        "start": 565.04,
+        "duration": 2.479
+    },
+    {
+        "text": "what's the maximum possible you could",
+        "start": 567.519,
+        "duration": 1.921
+    },
+    {
+        "text": "ever hope to get?",
+        "start": 569.44,
+        "duration": 1.44
+    },
+    {
+        "text": "You might think you could get infinitely",
+        "start": 570.88,
+        "duration": 1.84
+    },
+    {
+        "text": "many. And the way I think of this is it's",
+        "start": 572.72,
+        "duration": 2.88
+    },
+    {
+        "text": "a kind of a mountain climbing problem.",
+        "start": 575.6,
+        "duration": 2.72
+    },
+    {
+        "text": "You want to get as high as you can, but",
+        "start": 578.32,
+        "duration": 2.079
+    },
+    {
+        "text": "in order to get to that height you have",
+        "start": 580.399,
+        "duration": 1.841
+    },
+    {
+        "text": "to build steps up the mountain to get",
+        "start": 582.24,
+        "duration": 2.32
+    },
+    {
+        "text": "there. To get to height 31,000",
+        "start": 584.56,
+        "duration": 2.959
+    },
+    {
+        "text": "up at Everest you've got to have steps",
+        "start": 587.519,
+        "duration": 2.32
+    },
+    {
+        "text": "in the mountain that are labelled with",
+        "start": 589.839,
+        "duration": 2.081
+    },
+    {
+        "text": "all the numbers down to 1, and the 1",
+        "start": 591.92,
+        "duration": 2.56
+    },
+    {
+        "text": "being what any one of the huts. I think",
+        "start": 594.48,
+        "duration": 2.08
+    },
+    {
+        "text": "of the brown stones as huts, brown being",
+        "start": 596.56,
+        "duration": 2.56
+    },
+    {
+        "text": "a good colour because the huts are",
+        "start": 599.12,
+        "duration": 2.56
+    },
+    {
+        "text": "usually down on the ground. And the white",
+        "start": 601.68,
+        "duration": 2.399
+    },
+    {
+        "text": "of course corresponds to the ice where",
+        "start": 604.079,
+        "duration": 2.32
+    },
+    {
+        "text": "you're cutting the steps, the snow fields",
+        "start": 606.399,
+        "duration": 2.241
+    },
+    {
+        "text": "that you're ascending.",
+        "start": 608.64,
+        "duration": 1.84
+    },
+    {
+        "text": "So let's suppose",
+        "start": 610.48,
+        "duration": 1.599
+    },
+    {
+        "text": "you could get to a very high point; and",
+        "start": 612.079,
+        "duration": 3.76
+    },
+    {
+        "text": "this argument from Robert Gerbicz says",
+        "start": 615.839,
+        "duration": 3.841
+    },
+    {
+        "text": "let's look at a really high point, let's",
+        "start": 619.68,
+        "duration": 2.399
+    },
+    {
+        "text": "call it H.",
+        "start": 622.079,
+        "duration": 1.831
+    },
+    {
+        "text": "It's a square where we got very high up.",
+        "start": 624.24,
+        "duration": 2.8
+    },
+    {
+        "text": "How did we get there? Well it's got eight",
+        "start": 627.04,
+        "duration": 2.16
+    },
+    {
+        "text": "neighbours. How could you get 100? To",
+        "start": 629.2,
+        "duration": 1.84
+    },
+    {
+        "text": "get 100 you must have had some",
+        "start": 631.04,
+        "duration": 3.039
+    },
+    {
+        "text": "pretty big numbers around it. You could",
+        "start": 634.079,
+        "duration": 2.721
+    },
+    {
+        "text": "have had for instance an 80 and a 20. We",
+        "start": 636.8,
+        "duration": 3.2
+    },
+    {
+        "text": "could have had a 50, a 49, and a 1 - the 1",
+        "start": 640.0,
+        "duration": 2.959
+    },
+    {
+        "text": "would be a hut, a brown stone. I want to",
+        "start": 642.959,
+        "duration": 3.521
+    },
+    {
+        "text": "argue",
+        "start": 646.48,
+        "duration": 1.12
+    },
+    {
+        "text": "that there must be",
+        "start": 647.6,
+        "duration": 1.679
+    },
+    {
+        "text": "a fairly small stone somewhere in the",
+        "start": 649.279,
+        "duration": 3.12
+    },
+    {
+        "text": "neighbourhood; if there's a 1 so much",
+        "start": 652.399,
+        "duration": 2.161
+    },
+    {
+        "text": "the better, but there there has to be a",
+        "start": 654.56,
+        "duration": 2.0
+    },
+    {
+        "text": "stone",
+        "start": 656.56,
+        "duration": 1.36
+    },
+    {
+        "text": "around it",
+        "start": 657.92,
+        "duration": 1.28
+    },
+    {
+        "text": "which is less than or equal to 50.",
+        "start": 659.2,
+        "duration": 2.8
+    },
+    {
+        "text": "In fact less than or equal to 49, but",
+        "start": 662.0,
+        "duration": 2.72
+    },
+    {
+        "text": "never mind. If if we've got H here one",
+        "start": 664.72,
+        "duration": 2.72
+    },
+    {
+        "text": "of these stones - I don't know which one -",
+        "start": 667.44,
+        "duration": 2.56
+    },
+    {
+        "text": "is less than or equal to H over 2.",
+        "start": 670.0,
+        "duration": 2.88
+    },
+    {
+        "text": "Because if all the stones around it were",
+        "start": 672.88,
+        "duration": 2.0
+    },
+    {
+        "text": "bigger than H over 2 we wouldn't- we'd",
+        "start": 674.88,
+        "duration": 2.16
+    },
+    {
+        "text": "get a number bigger than H here. So one",
+        "start": 677.04,
+        "duration": 2.239
+    },
+    {
+        "text": "of the eight,",
+        "start": 679.279,
+        "duration": 1.201
+    },
+    {
+        "text": "at least one of the eight, has to be at",
+        "start": 680.48,
+        "duration": 1.76
+    },
+    {
+        "text": "most H over 2,",
+        "start": 682.24,
+        "duration": 1.839
+    },
+    {
+        "text": "a neighbour of this.",
+        "start": 684.079,
+        "duration": 1.921
+    },
+    {
+        "text": "Well look at the neighbours of that.",
+        "start": 686.0,
+        "duration": 3.2
+    },
+    {
+        "text": "The neighbour of this H over 2,",
+        "start": 689.2,
+        "duration": 3.199
+    },
+    {
+        "text": "one of them must be at least,",
+        "start": 692.399,
+        "duration": 2.401
+    },
+    {
+        "text": "at most, H over 4 -",
+        "start": 694.8,
+        "duration": 3.04
+    },
+    {
+        "text": "say there.",
+        "start": 698.72,
+        "duration": 1.141
+    },
+    {
+        "text": "And the neighbour of that must be at most",
+        "start": 700.079,
+        "duration": 3.121
+    },
+    {
+        "text": "H over 8.",
+        "start": 703.2,
+        "duration": 2.24
+    },
+    {
+        "text": "And so after going-",
+        "start": 705.44,
+        "duration": 3.519
+    },
+    {
+        "text": "after going d steps",
+        "start": 709.6,
+        "duration": 2.239
+    },
+    {
+        "text": "from this high point there must be a",
+        "start": 711.839,
+        "duration": 2.961
+    },
+    {
+        "text": "square with at most H over 2 to the d.",
+        "start": 714.8,
+        "duration": 4.0
+    },
+    {
+        "text": "But if we go far enough",
+        "start": 718.8,
+        "duration": 2.24
+    },
+    {
+        "text": "that's got to be a 1. \n- (What's got to be a 1?)",
+        "start": 721.04,
+        "duration": 2.32
+    },
+    {
+        "text": "The small one",
+        "start": 723.36,
+        "duration": 1.599
+    },
+    {
+        "text": "you get to. The high point has to have a",
+        "start": 724.959,
+        "duration": 2.32
+    },
+    {
+        "text": "neighbour at most",
+        "start": 727.279,
+        "duration": 1.761
+    },
+    {
+        "text": "H over 2, a neighbour of that has to be",
+        "start": 729.04,
+        "duration": 2.32
+    },
+    {
+        "text": "at most H over 4, the neighbour of",
+        "start": 731.36,
+        "duration": 2.08
+    },
+    {
+        "text": "that most H over 8. Each time we go",
+        "start": 733.44,
+        "duration": 2.56
+    },
+    {
+        "text": "one step further away we can divide by a",
+        "start": 736.0,
+        "duration": 2.72
+    },
+    {
+        "text": "power of- another power of 2. So for",
+        "start": 738.72,
+        "duration": 2.64
+    },
+    {
+        "text": "instance to have a concrete example I",
+        "start": 741.36,
+        "duration": 2.159
+    },
+    {
+        "text": "was going to use Everest. It's a little",
+        "start": 743.519,
+        "duration": 2.161
+    },
+    {
+        "text": "easier if I take 65,000. Suppose",
+        "start": 745.68,
+        "duration": 4.0
+    },
+    {
+        "text": "we could get up to 65,000. 65,000 is",
+        "start": 749.68,
+        "duration": 3.36
+    },
+    {
+        "text": "just less",
+        "start": 753.04,
+        "duration": 1.44
+    },
+    {
+        "text": "than 2 to the 16, which is 65536.",
+        "start": 754.48,
+        "duration": 4.77
+    },
+    {
+        "text": "So I've picked a number here",
+        "start": 759.25,
+        "duration": 2.51
+    },
+    {
+        "text": "just a bit under 2 to the 16. And",
+        "start": 761.76,
+        "duration": 2.079
+    },
+    {
+        "text": "so following this path, you're always",
+        "start": 763.839,
+        "duration": 2.641
+    },
+    {
+        "text": "taking the smallest neighbour, we will",
+        "start": 766.48,
+        "duration": 2.64
+    },
+    {
+        "text": "eventually get down to a 1 in at most",
+        "start": 769.12,
+        "duration": 3.44
+    },
+    {
+        "text": "15 steps. So from here to here- so if it's",
+        "start": 772.56,
+        "duration": 3.6
+    },
+    {
+        "text": "655- think that means within a",
+        "start": 776.16,
+        "duration": 2.08
+    },
+    {
+        "text": "radius of 15 there's a 1, there's a hut",
+        "start": 778.24,
+        "duration": 3.36
+    },
+    {
+        "text": "at one of our starting things.",
+        "start": 781.6,
+        "duration": 3.12
+    },
+    {
+        "text": "All right so now",
+        "start": 784.72,
+        "duration": 1.679
+    },
+    {
+        "text": "let's suppose that we could get to",
+        "start": 786.399,
+        "duration": 3.521
+    },
+    {
+        "text": "65,000 using just three 1s.",
+        "start": 789.92,
+        "duration": 3.2
+    },
+    {
+        "text": "Let me prove that's impossible.",
+        "start": 793.12,
+        "duration": 2.959
+    },
+    {
+        "text": "So let's say we have our",
+        "start": 796.079,
+        "duration": 3.2
+    },
+    {
+        "text": "high point here,",
+        "start": 799.279,
+        "duration": 2.24
+    },
+    {
+        "text": "65-",
+        "start": 801.519,
+        "duration": 1.041
+    },
+    {
+        "text": "65,000 - twice as high as",
+        "start": 803.92,
+        "duration": 2.0
+    },
+    {
+        "text": "Everest. And",
+        "start": 805.92,
+        "duration": 1.919
+    },
+    {
+        "text": "within a square of side 15, within a",
+        "start": 807.839,
+        "duration": 4.24
+    },
+    {
+        "text": "square around it",
+        "start": 812.079,
+        "duration": 2.32
+    },
+    {
+        "text": "of size 31x31 there has to be a hut",
+        "start": 814.399,
+        "duration": 4.8
+    },
+    {
+        "text": "somewhere.",
+        "start": 819.199,
+        "duration": 2.161
+    },
+    {
+        "text": "So a brown",
+        "start": 821.36,
+        "duration": 1.68
+    },
+    {
+        "text": "starting stone. Let's suppose we were",
+        "start": 823.04,
+        "duration": 2.08
+    },
+    {
+        "text": "able to get to 65,000 with just three",
+        "start": 825.12,
+        "duration": 2.88
+    },
+    {
+        "text": "starting stones. Here's a starting stone,",
+        "start": 828.0,
+        "duration": 2.72
+    },
+    {
+        "text": "here's a starting stone,",
+        "start": 830.72,
+        "duration": 1.76
+    },
+    {
+        "text": "and here's a starting stone. And we know",
+        "start": 832.48,
+        "duration": 2.479
+    },
+    {
+        "text": "that somewhere within distance 15 of one",
+        "start": 834.959,
+        "duration": 3.521
+    },
+    {
+        "text": "of these three is the 65,000. So if I",
+        "start": 838.48,
+        "duration": 3.2
+    },
+    {
+        "text": "draw the squares",
+        "start": 841.68,
+        "duration": 2.08
+    },
+    {
+        "text": "around it of size 31, and around here",
+        "start": 843.76,
+        "duration": 4.079
+    },
+    {
+        "text": "size 31, and around this one of size 31;",
+        "start": 847.839,
+        "duration": 3.601
+    },
+    {
+        "text": "inside one of these three squares of",
+        "start": 851.44,
+        "duration": 2.959
+    },
+    {
+        "text": "size 31 is our high point, is our point",
+        "start": 854.399,
+        "duration": 3.601
+    },
+    {
+        "text": "higher than mount Everest, the",
+        "start": 858.0,
+        "duration": 3.44
+    },
+    {
+        "text": "65,000 is within one of these three squares.",
+        "start": 861.44,
+        "duration": 3.68
+    },
+    {
+        "text": "That's what I just proved. But",
+        "start": 865.12,
+        "duration": 2.159
+    },
+    {
+        "text": "that's going to be impossible because",
+        "start": 867.279,
+        "duration": 2.481
+    },
+    {
+        "text": "not only do we have to get",
+        "start": 869.76,
+        "duration": 2.56
+    },
+    {
+        "text": "65,000 we have to get",
+        "start": 872.32,
+        "duration": 2.72
+    },
+    {
+        "text": "all the numbers up to it. We have to get",
+        "start": 875.04,
+        "duration": 2.159
+    },
+    {
+        "text": "all the numbers in these squares:",
+        "start": 877.199,
+        "duration": 3.521
+    },
+    {
+        "text": "1, 2 -",
+        "start": 880.72,
+        "duration": 1.679
+    },
+    {
+        "text": "well we've got the 1 - we have to get",
+        "start": 882.399,
+        "duration": 1.521
+    },
+    {
+        "text": "2, 3, 4,",
+        "start": 883.92,
+        "duration": 1.44
+    },
+    {
+        "text": "all the way up to",
+        "start": 885.36,
+        "duration": 2.08
+    },
+    {
+        "text": "64,999 before we can get to",
+        "start": 887.44,
+        "duration": 3.12
+    },
+    {
+        "text": "the top. It's not going to work because",
+        "start": 890.56,
+        "duration": 2.399
+    },
+    {
+        "text": "inside this square",
+        "start": 892.959,
+        "duration": 2.481
+    },
+    {
+        "text": "there are only 31 square stones, less-",
+        "start": 895.44,
+        "duration": 3.48
+    },
+    {
+        "text": "961, less than 1,000. So we've got",
+        "start": 898.92,
+        "duration": 3.32
+    },
+    {
+        "text": "1,000 square here, 1,000 squares",
+        "start": 902.24,
+        "duration": 2.08
+    },
+    {
+        "text": "here, 1,000 squares here. Total of at",
+        "start": 904.32,
+        "duration": 2.24
+    },
+    {
+        "text": "most 3,000 squares. On the other",
+        "start": 906.56,
+        "duration": 2.399
+    },
+    {
+        "text": "hand we have to get 65,000",
+        "start": 908.959,
+        "duration": 2.801
+    },
+    {
+        "text": "stones to get up there. So it's a",
+        "start": 911.76,
+        "duration": 2.16
+    },
+    {
+        "text": "contradiction, so you can't do it with",
+        "start": 913.92,
+        "duration": 1.76
+    },
+    {
+        "text": "three stones. Three stones are not enough",
+        "start": 915.68,
+        "duration": 2.959
+    },
+    {
+        "text": "to get to 65,000.\n- (You can't create)",
+        "start": 918.639,
+        "duration": 2.88
+    },
+    {
+        "text": "(branches that come out of the squares?)\n- No",
+        "start": 921.519,
+        "duration": 2.161
+    },
+    {
+        "text": "because if there was a stone at 10,000",
+        "start": 923.68,
+        "duration": 2.64
+    },
+    {
+        "text": "there still has to be",
+        "start": 926.32,
+        "duration": 2.639
+    },
+    {
+        "text": "a 1 within",
+        "start": 928.959,
+        "duration": 1.841
+    },
+    {
+        "text": "10,000 divided by what-",
+        "start": 930.8,
+        "duration": 2.479
+    },
+    {
+        "text": "the appropriate power of 2. They all",
+        "start": 933.279,
+        "duration": 1.68
+    },
+    {
+        "text": "have to be within the squares of side 31",
+        "start": 934.959,
+        "duration": 3.601
+    },
+    {
+        "text": "centred at the three huts. Everything",
+        "start": 938.56,
+        "duration": 2.079
+    },
+    {
+        "text": "we do has to be within these",
+        "start": 940.639,
+        "duration": 3.12
+    },
+    {
+        "text": "these three squares.",
+        "start": 943.759,
+        "duration": 1.841
+    },
+    {
+        "text": "(So what does that mean\nfor our upper bound?)",
+        "start": 945.6,
+        "duration": 2.009
+    },
+    {
+        "text": "So our upper bound, yes. So what",
+        "start": 947.609,
+        "duration": 1.751
+    },
+    {
+        "text": "this actually gives if you do it",
+        "start": 949.36,
+        "duration": 1.839
+    },
+    {
+        "text": "properly is about n log n for the upper",
+        "start": 951.199,
+        "duration": 2.961
+    },
+    {
+        "text": "bound. But",
+        "start": 954.16,
+        "duration": 1.76
+    },
+    {
+        "text": "Robert Gerbicz",
+        "start": 955.92,
+        "duration": 1.919
+    },
+    {
+        "text": "fine-tuned the argument and taking",
+        "start": 957.839,
+        "duration": 3.281
+    },
+    {
+        "text": "care of what happens around the huts,",
+        "start": 961.12,
+        "duration": 1.839
+    },
+    {
+        "text": "the small numbers, doing that counting",
+        "start": 962.959,
+        "duration": 2.161
+    },
+    {
+        "text": "more delicately. And he proved in fact",
+        "start": 965.12,
+        "duration": 2.639
+    },
+    {
+        "text": "you can't get more than 714 n.",
+        "start": 967.759,
+        "duration": 2.721
+    },
+    {
+        "text": "If you have n huts, n brown stones,",
+        "start": 970.48,
+        "duration": 3.359
+    },
+    {
+        "text": "the highest you can get is 714 times n.",
+        "start": 973.839,
+        "duration": 3.92
+    },
+    {
+        "text": "So we know you can't get arbitrarily",
+        "start": 977.759,
+        "duration": 1.76
+    },
+    {
+        "text": "high.",
+        "start": 979.519,
+        "duration": 0.961
+    },
+    {
+        "text": "(But that initial sequence you showed me-)",
+        "start": 980.48,
+        "duration": 2.64
+    },
+    {
+        "text": "Went up to six- \nwent up for six terms, yes.",
+        "start": 983.12,
+        "duration": 2.719
+    },
+    {
+        "text": "(And that wasn't 714 times n.)\n- No it's just",
+        "start": 985.839,
+        "duration": 2.8
+    },
+    {
+        "text": "an upper bound. He's- he he's just proving",
+        "start": 988.639,
+        "duration": 2.32
+    },
+    {
+        "text": "that you you cannot hope to do any",
+        "start": 990.959,
+        "duration": 2.081
+    },
+    {
+        "text": "better no matter how clever you are. In",
+        "start": 993.04,
+        "duration": 2.479
+    },
+    {
+        "text": "fact you can't do anywhere near as well",
+        "start": 995.519,
+        "duration": 2.32
+    },
+    {
+        "text": "but it's just-",
+        "start": 997.839,
+        "duration": 1.36
+    },
+    {
+        "text": "it's just a theoretical upper bound.",
+        "start": 999.199,
+        "duration": 2.661
+    },
+    {
+        "text": "The answer is 0. What about a 3x3?",
+        "start": 1004.48,
+        "duration": 2.86
+    },
+    {
+        "text": "If we put a black queen here it",
+        "start": 1007.34,
+        "duration": 3.22
+    },
+    {
+        "text": "attacks all the squares except these two.",
+        "start": 1010.56,
+        "duration": 2.399
+    },
+    {
+        "text": "So we could put a white queen here. We",
+        "start": 1012.959,
+        "duration": 2.24
+    },
+    {
+        "text": "could put a white queen here too but",
+        "start": 1015.199,
+        "duration": 1.521
+    },
+    {
+        "text": "we'd have two white queens and we can",
+        "start": 1016.72,
+        "duration": 1.84
+    },
+    {
+        "text": "not put two black queens. So the numbers",
+        "start": 1018.56,
+        "duration": 2.079
+    },
+    {
+        "text": "have to be equal, okay. All you can do is",
+        "start": 1020.639,
+        "duration": 2.721
+    },
+    {
+        "text": "one. One of each colour.",
+        "start": 1023.36,
+        "duration": 3.199
+    }
+]

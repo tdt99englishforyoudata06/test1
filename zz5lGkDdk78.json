@@ -1,0 +1,367 @@
+[
+    {
+        "text": "Hey it's me Destin welcome to Smarter Every Day ",
+        "start": 0.02,
+        "duration": 2.26
+    },
+    {
+        "text": "and today we're going to show you some pretty cool",
+        "start": 2.3,
+        "duration": 1.8
+    },
+    {
+        "text": "high speed, and it has nothing to do with all those assault rifles. ",
+        "start": 4.12,
+        "duration": 2.72
+    },
+    {
+        "text": "It's actually much sweeter than that, literally.",
+        "start": 6.86,
+        "duration": 2.55
+    },
+    {
+        "text": "Check this out. It is a",
+        "start": 9.43,
+        "duration": 3.15
+    },
+    {
+        "text": "jar of honey.",
+        "start": 12.6,
+        "duration": 1.15
+    },
+    {
+        "text": "So, I know this sounds a little strange",
+        "start": 17.77,
+        "duration": 3.15
+    },
+    {
+        "text": "but we've got a high speed camera setup, and we are going to show you",
+        "start": 20.94,
+        "duration": 4.16
+    },
+    {
+        "text": "something called the liquid rope coil effect.\nThis is how it works.",
+        "start": 25.12,
+        "duration": 4.17
+    },
+    {
+        "text": "You just put some of the honey on this chopstick here,",
+        "start": 29.31,
+        "duration": 4.16
+    },
+    {
+        "text": "and just drip it down. And look at this.",
+        "start": 33.49,
+        "duration": 4.17
+    },
+    {
+        "text": "Check out that. How cool is that.",
+        "start": 37.68,
+        "duration": 2.07
+    },
+    {
+        "text": "It has to do with the viscosity of the fluid, \nand basically the liquid is piling",
+        "start": 39.77,
+        "duration": 6.25
+    },
+    {
+        "text": "up. So I think this is really really neat, \nso we're gonna get a little bit of",
+        "start": 46.04,
+        "duration": 4.18
+    },
+    {
+        "text": "high speed of it, \nand then after that we're going to discuss",
+        "start": 50.24,
+        "duration": 4.0
+    },
+    {
+        "text": "this in more detail.\nFluid dynamics are awesome.",
+        "start": 54.26,
+        "duration": 4.02
+    },
+    {
+        "text": "It's tempting to think that this would be an easy math problem but it turns out people have been studying",
+        "start": 58.3,
+        "duration": 4.03
+    },
+    {
+        "text": "this for fifty years. To explain, let me show you the variables.",
+        "start": 62.35,
+        "duration": 2.01
+    },
+    {
+        "text": "This section is call the coil, and this section is called the tail. ",
+        "start": 64.38,
+        "duration": 4.05
+    },
+    {
+        "text": "The coil and the tail together make up the total height, H. \nThe mass flow rate of the material",
+        "start": 68.45,
+        "duration": 6.11
+    },
+    {
+        "text": "is Q, and the initial radius at the top of the tail is called",
+        "start": 74.58,
+        "duration": 4.15
+    },
+    {
+        "text": "\"a sub zero\". We'll call the radius at the bottom \"a sub one\".",
+        "start": 78.75,
+        "duration": 4.17
+    },
+    {
+        "text": "And the exciting part is the angular coiling frequency, \nwhich is omega.",
+        "start": 82.94,
+        "duration": 4.15
+    },
+    {
+        "text": "The fluid itself also has internal properties that we \nhave to consider. Density is rho",
+        "start": 87.11,
+        "duration": 4.21
+    },
+    {
+        "text": "and the surface tension coefficient is gamma.\nThe kinematic viscosity is nu.",
+        "start": 91.34,
+        "duration": 4.16
+    },
+    {
+        "text": "OK simply put, viscosity is",
+        "start": 95.52,
+        "duration": 4.16
+    },
+    {
+        "text": "the measure of the thickness of a fluid. \nViscosity is the measure of a fluid to",
+        "start": 99.7,
+        "duration": 4.1
+    },
+    {
+        "text": "resist a sheer or tensile stress.\nDynamic viscosity is measured in",
+        "start": 103.82,
+        "duration": 4.14
+    },
+    {
+        "text": "Poise, whereas kinematic viscosity \nis measured in Stokes.",
+        "start": 107.98,
+        "duration": 4.16
+    },
+    {
+        "text": "Kinematic viscosity is also referred to as \nthe Diffusivity of Momentum.",
+        "start": 112.16,
+        "duration": 4.15
+    },
+    {
+        "text": "And that makes sense if you think about it, \nto diffuse momentum throughout a fluid.",
+        "start": 116.33,
+        "duration": 4.06
+    },
+    {
+        "text": "As you can see here, obviously the molasses honey \nmixture is the most viscous.",
+        "start": 120.41,
+        "duration": 4.06
+    },
+    {
+        "text": "OK if these big words are boring you, just wait.\nThere's a shower scene for you.",
+        "start": 124.49,
+        "duration": 3.03
+    },
+    {
+        "text": "But if you're like me and you want to understand what's going on and you want to know the math, let's do this.",
+        "start": 127.54,
+        "duration": 5.14
+    },
+    {
+        "text": "What you're looking at here are the four different types \nof flow that scientists can describe",
+        "start": 132.7,
+        "duration": 4.16
+    },
+    {
+        "text": "using the variables that we defined earlier.\nLet's start here with this one.",
+        "start": 136.88,
+        "duration": 4.16
+    },
+    {
+        "text": "This is the viscous flow regime. The way it works is as H, or the height that the",
+        "start": 141.06,
+        "duration": 4.16
+    },
+    {
+        "text": "fluid is dropped from is relatively small, the flow has to",
+        "start": 145.24,
+        "duration": 4.01
+    },
+    {
+        "text": "naturally go into a spiral because the fluid has to \nget out of the way of itself.",
+        "start": 149.27,
+        "duration": 4.16
+    },
+    {
+        "text": "Now the interesting thing about the equation used \nto define the coiling frequency is",
+        "start": 153.45,
+        "duration": 4.15
+    },
+    {
+        "text": "that it doesn't even include the kinematic viscosity \nof the fluid. That's interesting",
+        "start": 157.62,
+        "duration": 4.16
+    },
+    {
+        "text": "seeing how it's called the viscous flow regime.\nOK the second condition we're talking about",
+        "start": 161.8,
+        "duration": 4.11
+    },
+    {
+        "text": "here is called the gravitational flow regime.\nBasically the way it works is ",
+        "start": 165.93,
+        "duration": 4.13
+    },
+    {
+        "text": "as that height increases, \ngravity begins to take over and stretch",
+        "start": 170.08,
+        "duration": 4.16
+    },
+    {
+        "text": "the fluid. So basically the viscosity \nof the fluid is resisting that",
+        "start": 174.26,
+        "duration": 4.17
+    },
+    {
+        "text": "stretching, and that's why the equation there shows that kinematic viscosity starts to ",
+        "start": 178.45,
+        "duration": 4.04
+    },
+    {
+        "text": "come into play. And that's where the coiling \nbecomes uniform and stable.",
+        "start": 182.51,
+        "duration": 4.06
+    },
+    {
+        "text": "That's the exact condition that we were filming with the high speed camera earlier.",
+        "start": 186.59,
+        "duration": 4.08
+    },
+    {
+        "text": "The third condition we're gonna talk about is called \nthe intertial regime. Now as height",
+        "start": 190.69,
+        "duration": 4.07
+    },
+    {
+        "text": "gets very very long what happens \nis that fluid becomes very fast",
+        "start": 194.78,
+        "duration": 4.15
+    },
+    {
+        "text": "and very very skinny.\nNow you noticed in the equation that the radius of",
+        "start": 198.95,
+        "duration": 4.16
+    },
+    {
+        "text": "the coil at the bottom is factored into the denominiator and raised to the tenth power.",
+        "start": 203.13,
+        "duration": 4.17
+    },
+    {
+        "text": "Now if you think about it, that means \nthe smaller the radius gets",
+        "start": 207.32,
+        "duration": 4.18
+    },
+    {
+        "text": "the higher the coiling frequency, which makes sense.\nOK the fourth regime",
+        "start": 211.52,
+        "duration": 4.15
+    },
+    {
+        "text": "is why I love science. All we know is that somewhere \nbetween the gravitational",
+        "start": 215.69,
+        "duration": 4.16
+    },
+    {
+        "text": "regime and the intertial regime, everything goes \nout the window. All of a sudden",
+        "start": 219.87,
+        "duration": 4.16
+    },
+    {
+        "text": "you'll go from a steady state coil to some erattic figure eight pattern or something stranger",
+        "start": 224.05,
+        "duration": 4.15
+    },
+    {
+        "text": "but if you raise it just a little bit more, all of a sudden you're steady state again.",
+        "start": 228.22,
+        "duration": 4.36
+    },
+    {
+        "text": "Even more, and you're back on stable.\nEverything is erratic. The frequency",
+        "start": 232.6,
+        "duration": 4.17
+    },
+    {
+        "text": "is varying wildly, but it seems to have some sort of \npattern but we don't know why.",
+        "start": 236.79,
+        "duration": 4.1
+    },
+    {
+        "text": "It's very interesting and there has been a very complex study done on it and I'll leave the link in the",
+        "start": 240.91,
+        "duration": 4.14
+    },
+    {
+        "text": "description too that so you can check it out yourself.\nI think it's amazing that we as humans can",
+        "start": 245.07,
+        "duration": 4.15
+    },
+    {
+        "text": "conquer so many things about the world around us but we still struggle with the smallest of things.",
+        "start": 249.24,
+        "duration": 4.15
+    },
+    {
+        "text": "If you're interested in knowing why I did this video I'll leave that info in the description as well.",
+        "start": 253.41,
+        "duration": 4.03
+    },
+    {
+        "text": "Boy that got weird in a hurry didn't it.\nEvery single day",
+        "start": 257.46,
+        "duration": 4.04
+    },
+    {
+        "text": "you can check out the liquid rope coil effect in your own shower.\nIt's pretty easy. Just take your",
+        "start": 261.52,
+        "duration": 4.07
+    },
+    {
+        "text": "shampoo, which is a pretty viscous fluid, and throttle the flow rate",
+        "start": 265.61,
+        "duration": 4.07
+    },
+    {
+        "text": "and the height until you get the right combination and then boom.",
+        "start": 269.7,
+        "duration": 4.16
+    },
+    {
+        "text": "You lock in on the liquid rope coil effect. It's pretty cool.",
+        "start": 273.88,
+        "duration": 4.17
+    },
+    {
+        "text": "You can change things and see how the variables effect it's action. Anyway,",
+        "start": 278.07,
+        "duration": 4.16
+    },
+    {
+        "text": "I'm not responsible for any extra shampoo you end up using.",
+        "start": 282.25,
+        "duration": 4.16
+    },
+    {
+        "text": "I'm Destin. You're getting Smarter Every Day. \nHave a good one.",
+        "start": 286.43,
+        "duration": 4.21
+    },
+    {
+        "text": "[ Captions by Andrew Jackson ]",
+        "start": 294.73,
+        "duration": 4.05
+    }
+]

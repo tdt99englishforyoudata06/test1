@@ -1,0 +1,1457 @@
+[
+    {
+        "text": "(Brady: Dude, this is the first for Numberphile)",
+        "start": 0.0,
+        "duration": 2.86
+    },
+    {
+        "text": "On the ribs as well. The pain of the ribs, like",
+        "start": 2.86,
+        "duration": 2.74
+    },
+    {
+        "text": "there's - I'm gonna say this is a complete commitment to,",
+        "start": 6.06,
+        "duration": 1.84
+    },
+    {
+        "text": "to Navier-Stokes and fluid mechanics.",
+        "start": 8.46,
+        "duration": 1.5
+    },
+    {
+        "text": "(Brady: Why did you do that?)",
+        "start": 9.96,
+        "duration": 1.22
+    },
+    {
+        "text": "Well...",
+        "start": 11.68,
+        "duration": 0.74
+    },
+    {
+        "text": "What are the Navier-Stokes eqations?",
+        "start": 14.5,
+        "duration": 2.14
+    },
+    {
+        "text": "The first one: grad dot u = 0",
+        "start": 16.64,
+        "duration": 2.0
+    },
+    {
+        "text": "And the second one",
+        "start": 18.64,
+        "duration": 2.0
+    },
+    {
+        "text": "Rho, Du by Dt = - grad p + Mu grad squared u + rhoF",
+        "start": 20.64,
+        "duration": 11.54
+    },
+    {
+        "text": "Like most mathematical equations perhaps, they look quite scary,",
+        "start": 32.18,
+        "duration": 3.92
+    },
+    {
+        "text": "but they're actually universal laws of physics.",
+        "start": 36.1,
+        "duration": 3.4
+    },
+    {
+        "text": "So this is why these guys model every single fluid we have on Earth.",
+        "start": 39.5,
+        "duration": 4.7
+    },
+    {
+        "text": "And I mean every fluid.",
+        "start": 44.2,
+        "duration": 2.0
+    },
+    {
+        "text": "Put a fluid in your head,",
+        "start": 46.2,
+        "duration": 2.0
+    },
+    {
+        "text": "these guys tell you how it moves, how it behaves,",
+        "start": 49.62,
+        "duration": 2.52
+    },
+    {
+        "text": "what's going on with that fluid.",
+        "start": 52.18,
+        "duration": 1.74
+    },
+    {
+        "text": "So a fluid, I tend to think of it as something which changes shape",
+        "start": 53.92,
+        "duration": 4.6
+    },
+    {
+        "text": "to match the container that it is in.",
+        "start": 58.52,
+        "duration": 3.02
+    },
+    {
+        "text": "Of course a liquid, but also a gas, even some solids.",
+        "start": 61.54,
+        "duration": 3.88
+    },
+    {
+        "text": "So like ice, you think about a glacier flowing down a mountain,",
+        "start": 65.42,
+        "duration": 3.5
+    },
+    {
+        "text": "you watch those time lapse videos, it kinda looks like a river.",
+        "start": 68.92,
+        "duration": 3.38
+    },
+    {
+        "text": "So ice in that sense behaves like a fluid,",
+        "start": 72.3,
+        "duration": 2.0
+    },
+    {
+        "text": "it is changing its shape to fit the valley, the glacier valley, which it's flowing in.",
+        "start": 74.3,
+        "duration": 5.18
+    },
+    {
+        "text": "So the first one",
+        "start": 80.16,
+        "duration": 1.3
+    },
+    {
+        "text": "this is literally just saying",
+        "start": 81.46,
+        "duration": 1.7
+    },
+    {
+        "text": "that mass is conserved.",
+        "start": 83.18,
+        "duration": 1.96
+    },
+    {
+        "text": "So this is just saying I have some blob of fluid,",
+        "start": 85.14,
+        "duration": 3.64
+    },
+    {
+        "text": "it moves around, you know, with some velocity and maybe changes shape,",
+        "start": 88.78,
+        "duration": 3.82
+    },
+    {
+        "text": "I'm not adding anything, I'm not removing anything",
+        "start": 92.6,
+        "duration": 2.9
+    },
+    {
+        "text": "I would want the same mass of fluid",
+        "start": 95.5,
+        "duration": 2.16
+    },
+    {
+        "text": "to still be there.",
+        "start": 98.2,
+        "duration": 1.66
+    },
+    {
+        "text": "Mass is conserved. It's a",
+        "start": 99.86,
+        "duration": 2.0
+    },
+    {
+        "text": "pretty standard law of physics, makes a lot of sense.",
+        "start": 101.86,
+        "duration": 1.98
+    },
+    {
+        "text": "This guy is just Newton's second law.",
+        "start": 104.32,
+        "duration": 2.22
+    },
+    {
+        "text": "So this is just telling us that",
+        "start": 106.54,
+        "duration": 2.74
+    },
+    {
+        "text": "mass times acceleration is force.",
+        "start": 109.28,
+        "duration": 3.44
+    },
+    {
+        "text": "The top one tends to be the mass equation, conservation of mass,",
+        "start": 112.72,
+        "duration": 3.4
+    },
+    {
+        "text": "or the incompressibility equation.",
+        "start": 116.12,
+        "duration": 2.88
+    },
+    {
+        "text": "And the second one is the momentum equation - or",
+        "start": 119.04,
+        "duration": 4.0
+    },
+    {
+        "text": "the small one and the big one. I quite like that.",
+        "start": 123.04,
+        "duration": 1.56
+    },
+    {
+        "text": "Let's start with the little one.",
+        "start": 124.6,
+        "duration": 1.76
+    },
+    {
+        "text": "So u, here, this is our velocity.",
+        "start": 126.36,
+        "duration": 3.16
+    },
+    {
+        "text": "So this is just speed with a direction.",
+        "start": 129.86,
+        "duration": 2.74
+    },
+    {
+        "text": "It's a vector. You might say u is equal to u, v, w.",
+        "start": 132.6,
+        "duration": 5.96
+    },
+    {
+        "text": "So we've got a component in an x-direction, a component in a y-direction, a component in a z-direction.",
+        "start": 138.56,
+        "duration": 4.82
+    },
+    {
+        "text": "How fast the water in a river is flowing, how fast the air around the Formula 1 car is going.",
+        "start": 143.38,
+        "duration": 5.46
+    },
+    {
+        "text": "Thinking about a aerodynamics, how fast  the custard is flowing off your spoon.",
+        "start": 148.84,
+        "duration": 3.96
+    },
+    {
+        "text": "Any sort of movement of the fluid, the speed and that motion",
+        "start": 152.8,
+        "duration": 4.16
+    },
+    {
+        "text": "is going to be encapsulated by the velocity, that's the key thing",
+        "start": 157.04,
+        "duration": 3.46
+    },
+    {
+        "text": "about its motion.",
+        "start": 160.5,
+        "duration": 1.14
+    },
+    {
+        "text": "We've then got this other symbol here, nabla,",
+        "start": 161.84,
+        "duration": 2.28
+    },
+    {
+        "text": "we do love our Greek letters in maths. So the symbol nabla is,",
+        "start": 164.12,
+        "duration": 3.44
+    },
+    {
+        "text": "is telling us what to do to our velocity u.",
+        "start": 167.56,
+        "duration": 2.78
+    },
+    {
+        "text": "So nabla is a gradient, it's a derivative.",
+        "start": 170.34,
+        "duration": 2.24
+    },
+    {
+        "text": "It's telling us to differentiate our vector u in a particular way.",
+        "start": 173.08,
+        "duration": 3.8
+    },
+    {
+        "text": "And a way it tells us to do that",
+        "start": 176.88,
+        "duration": 1.64
+    },
+    {
+        "text": "is we have our three components - u, v,  w",
+        "start": 178.62,
+        "duration": 2.8
+    },
+    {
+        "text": "and what we're gonna do is we're just gonna do",
+        "start": 181.42,
+        "duration": 2.56
+    },
+    {
+        "text": "du by dx, so differentiate the first bit with respect to its coordinate, which is x.",
+        "start": 183.98,
+        "duration": 6.8
+    },
+    {
+        "text": "It's the first coordinate, x coordinate, differentiate with respect to x.",
+        "start": 190.78,
+        "duration": 3.68
+    },
+    {
+        "text": "Then we're gonna add derivative of the second one with respect to our second coordinate - dy.",
+        "start": 194.46,
+        "duration": 6.36
+    },
+    {
+        "text": "And hopefully you figured out the pattern. We're then gonna add on dw by dz.",
+        "start": 201.0,
+        "duration": 5.98
+    },
+    {
+        "text": "So this is the divergence of our velocity, it's just three derivatives.",
+        "start": 206.98,
+        "duration": 5.88
+    },
+    {
+        "text": "So it's saying how does the x component of my velocity u,",
+        "start": 213.0,
+        "duration": 3.22
+    },
+    {
+        "text": "how does that change as I move in the x direction?",
+        "start": 216.3,
+        "duration": 3.42
+    },
+    {
+        "text": "Then how does v, my y component, change in the y direction? And how does the third component w, in the z direction,",
+        "start": 219.88,
+        "duration": 7.489
+    },
+    {
+        "text": "how does that change in the z direction? So this is equal to zero, equation number one. This just tells us mass is conserved.",
+        "start": 227.369,
+        "duration": 7.331
+    },
+    {
+        "text": "Now, the second one, the big boy. So Newton's",
+        "start": 235.14,
+        "duration": 3.26
+    },
+    {
+        "text": "second law in disguise. So",
+        "start": 239.11,
+        "duration": 2.18
+    },
+    {
+        "text": "we're expecting force equals mass times acceleration.",
+        "start": 241.989,
+        "duration": 4.19
+    },
+    {
+        "text": "Here we've got u, our velocity, and when we take a time derivative of velocity",
+        "start": 246.22,
+        "duration": 4.489
+    },
+    {
+        "text": "that's exactly what acceleration is. You're going at a speed, you increase your speed,",
+        "start": 251.41,
+        "duration": 4.279
+    },
+    {
+        "text": "you've accelerated. Your speed has changed with respect to time - or you decrease your speed, you decelerate it.",
+        "start": 256.33,
+        "duration": 5.389
+    },
+    {
+        "text": "So that's what the first term is going to describe and then we also need the mass. You think of",
+        "start": 261.72,
+        "duration": 5.059
+    },
+    {
+        "text": "mass in this situation to be a density.",
+        "start": 267.12,
+        "duration": 2.63
+    },
+    {
+        "text": "So it's how, you know, fresh water has a smaller density than saltwater.",
+        "start": 270.12,
+        "duration": 5.029
+    },
+    {
+        "text": "So saltwater is heavier in that sense, but it's, you sort of, mass and density are the same thing when it comes to fluids,",
+        "start": 275.55,
+        "duration": 6.47
+    },
+    {
+        "text": "that's how you you sort of work with those things. So rho, this Greek letter here, that is going to be our density.",
+        "start": 282.02,
+        "duration": 6.299
+    },
+    {
+        "text": "So this is our mass in that situation. So this is mass times acceleration.",
+        "start": 288.72,
+        "duration": 4.339
+    },
+    {
+        "text": "That's our Newton's second law of the left-hand side. And then all of this",
+        "start": 293.819,
+        "duration": 4.309
+    },
+    {
+        "text": "sort of stuff going on over here, these are just all the forces.",
+        "start": 299.039,
+        "duration": 2.869
+    },
+    {
+        "text": "So what we've got, we have the first two terms. These guys are what we call the internal forces.",
+        "start": 302.009,
+        "duration": 5.209
+    },
+    {
+        "text": "So this is the force between all of those fluid particles hitting into each other, crashing",
+        "start": 307.219,
+        "duration": 5.61
+    },
+    {
+        "text": "sliding, grinding past one another - there's internal force there. And then the third one - it's just capital F,",
+        "start": 313.08,
+        "duration": 5.209
+    },
+    {
+        "text": "this is a bit of a cheat because we just say this is our external force F.",
+        "start": 318.36,
+        "duration": 4.1
+    },
+    {
+        "text": "So this could be,",
+        "start": 323.31,
+        "duration": 1.44
+    },
+    {
+        "text": "gravity is the standard thing you would, normally you just replace F with G,",
+        "start": 324.75,
+        "duration": 4.19
+    },
+    {
+        "text": "call it gravity. That's your external force in most situations.",
+        "start": 329.49,
+        "duration": 2.72
+    },
+    {
+        "text": "And if you want to go really fancy",
+        "start": 332.25,
+        "duration": 2.029
+    },
+    {
+        "text": "you can put in electromagnetism. And we can sort of combine",
+        "start": 334.28,
+        "duration": 3.42
+    },
+    {
+        "text": "Navier-Stokes with Maxwell's equations and get magnetohydrodynamics.",
+        "start": 337.92,
+        "duration": 5.06
+    },
+    {
+        "text": "And that is how stars form and galaxies form and that is just next-level. Navier-Stokes was hard",
+        "start": 343.08,
+        "duration": 7.02
+    },
+    {
+        "text": "magnetohydrodynamics, like trying to model the growth of the Sun.",
+        "start": 350.49,
+        "duration": 3.47
+    },
+    {
+        "text": "It's as hard as it sounds. Internal forces versus external forces. So it's just a sum of various forces.",
+        "start": 354.96,
+        "duration": 5.449
+    },
+    {
+        "text": "What are these individual forces? So let's look at the first one, this nabla p or grad of p.",
+        "start": 360.44,
+        "duration": 5.909
+    },
+    {
+        "text": "So this is very similar to our mass equation up here. So the gradient of p, our pressure gradient, is a vector",
+        "start": 366.599,
+        "duration": 6.86
+    },
+    {
+        "text": "representing the change in pressure. When there is a difference in pressure, a change in pressure, high pressure over here, low pressure over here,",
+        "start": 374.34,
+        "duration": 6.41
+    },
+    {
+        "text": "the air moves, from high pressure to low pressure. If there's a gradient there's a difference in pressure between two points",
+        "start": 381.06,
+        "duration": 6.049
+    },
+    {
+        "text": "that causes the fluid to move between or along that pressure gradient.",
+        "start": 387.21,
+        "duration": 4.73
+    },
+    {
+        "text": "So that is creating a force. So then the final internal force - this guy. So this is viscosity. Kind of what it's made up,",
+        "start": 391.94,
+        "duration": 6.839
+    },
+    {
+        "text": "so you've got all the, you can think of it as being in layers and it's slid-- those layers slide past one another, they create a friction.",
+        "start": 398.779,
+        "duration": 6.03
+    },
+    {
+        "text": "And how strong that friction is, is is the viscosity. So air, super thin, air particles",
+        "start": 405.06,
+        "duration": 6.289
+    },
+    {
+        "text": "they move around, they do their thing. It's all good. But if you've got like, honey",
+        "start": 411.349,
+        "duration": 3.99
+    },
+    {
+        "text": "sliding past other bits of honey, it's very sticky. It's very thick much larger viscosity. So that's your second internal force.",
+        "start": 416.069,
+        "duration": 6.649
+    },
+    {
+        "text": "(Brady: Where's the problem with all this?)",
+        "start": 422.76,
+        "duration": 2.28
+    },
+    {
+        "text": "This is why these equations are so great. Because it's mass is conserved,",
+        "start": 425.04,
+        "duration": 4.96
+    },
+    {
+        "text": "it's Newton's second law,",
+        "start": 430.259,
+        "duration": 2.0
+    },
+    {
+        "text": "it's all just, makes complete sense.",
+        "start": 432.259,
+        "duration": 3.141
+    },
+    {
+        "text": "There is nothing we have said here, hopefully, that anybody can possibly disagree with. It's just Newton's second law, move",
+        "start": 435.439,
+        "duration": 6.48
+    },
+    {
+        "text": "my fluid around, mass is conserved. And this is why these equations work. So they've been around since the 1820s,",
+        "start": 441.919,
+        "duration": 7.29
+    },
+    {
+        "text": "the 1840s where Navier and Stokes both worked on them and",
+        "start": 449.879,
+        "duration": 3.38
+    },
+    {
+        "text": "this is why they work, this is why we keep studying them. But the problem is",
+        "start": 453.9,
+        "duration": 4.129
+    },
+    {
+        "text": "we don't actually know if they always have solutions. They can be used for almost anything you can think of involving a fluid.",
+        "start": 458.879,
+        "duration": 7.399
+    },
+    {
+        "text": "So they could be",
+        "start": 466.279,
+        "duration": 1.781
+    },
+    {
+        "text": "aerodynamics of a Formula One car, they could be designing new aircraft to go faster than the speed of sound,",
+        "start": 468.06,
+        "duration": 5.0
+    },
+    {
+        "text": "this could be blood flow around the body for drug delivery,",
+        "start": 473.279,
+        "duration": 3.11
+    },
+    {
+        "text": "maximising the way the drug is deposited to do with the blood flow.",
+        "start": 477.149,
+        "duration": 2.6
+    },
+    {
+        "text": "This could be pollution modelling, climate modelling, ocean modelling - or anything involving a fluid. It has to satisfy these equations.",
+        "start": 479.75,
+        "duration": 6.75
+    },
+    {
+        "text": "So these are always your starting point, but then the problem is, and this is why you get the million dollars,",
+        "start": 486.5,
+        "duration": 4.529
+    },
+    {
+        "text": "we just don't really understand them",
+        "start": 491.069,
+        "duration": 2.18
+    },
+    {
+        "text": "mathematically. In the sense that when you have a set of equations,",
+        "start": 494.099,
+        "duration": 4.549
+    },
+    {
+        "text": "as a mathematician you want this, that set of equations",
+        "start": 498.99,
+        "duration": 3.5
+    },
+    {
+        "text": "to satisfy three particular properties. First of all, you want a solution to exist.",
+        "start": 503.009,
+        "duration": 5.36
+    },
+    {
+        "text": "You know? Got equation, you want to go, right, I want to be able to solve it. That would be nice.",
+        "start": 508.919,
+        "duration": 3.619
+    },
+    {
+        "text": "Second of all you want a unique solution, you know",
+        "start": 512.88,
+        "duration": 2.299
+    },
+    {
+        "text": "if you did an experiment with throwing a glass of water across the room and then you did it again, and it did something different,",
+        "start": 515.18,
+        "duration": 4.38
+    },
+    {
+        "text": "you know, it did like a loop-de-loop in the air. It makes no sense. And then the tricky bit is you want smooth",
+        "start": 519.57,
+        "duration": 6.139
+    },
+    {
+        "text": "solutions.",
+        "start": 526.38,
+        "duration": 1.26
+    },
+    {
+        "text": "Well-behaved",
+        "start": 527.64,
+        "duration": 1.199
+    },
+    {
+        "text": "solutions. Like, I've made a tiny little change in how I started my experiment",
+        "start": 528.84,
+        "duration": 4.22
+    },
+    {
+        "text": "and I want the result to also just have a tiny little change. Quantifying tiny, but not to blow up to infinity.",
+        "start": 533.46,
+        "duration": 7.02
+    },
+    {
+        "text": "That wouldn't make sense because I've changed something so, so small - why have I got an entirely different solution?",
+        "start": 540.48,
+        "duration": 5.25
+    },
+    {
+        "text": "(Brady: We've also been taught that butterflies flapping their wings can cause cyclones)",
+        "start": 545.73,
+        "duration": 3.809
+    },
+    {
+        "text": "The butterfly effect - it's like a chain reaction. It's one thing leads to another leads to another.",
+        "start": 549.699,
+        "duration": 3.98
+    },
+    {
+        "text": "But in the in the sense of having an equation,",
+        "start": 553.99,
+        "duration": 2.69
+    },
+    {
+        "text": "you input something into your equation - it's like a function machine. You input some initial condition, it outputs",
+        "start": 556.839,
+        "duration": 5.63
+    },
+    {
+        "text": "what's gonna happen next, predicts almost like the future. So you start with your fluid, it has some velocity,",
+        "start": 562.47,
+        "duration": 4.83
+    },
+    {
+        "text": "our u. Some pressure, some viscosity, input it - Navier-Stokes tells you how that fluid is going to move.",
+        "start": 567.779,
+        "duration": 5.309
+    },
+    {
+        "text": "You know, you can do these experiments so",
+        "start": 573.088,
+        "duration": 1.592
+    },
+    {
+        "text": "you know what's gonna happen and you want the equations to give you that result.",
+        "start": 574.68,
+        "duration": 3.54
+    },
+    {
+        "text": "If you just tweak your velocity a tiny bit, if you did that experiment you'd get almost the same result.",
+        "start": 578.22,
+        "duration": 4.28
+    },
+    {
+        "text": "So you want that small change in the starting point to lead to a small change in the solution.",
+        "start": 583.149,
+        "duration": 4.22
+    },
+    {
+        "text": "And this is what we don't know about Navier-Stokes. We don't even know if a solution exists all the time.",
+        "start": 587.38,
+        "duration": 5.689
+    },
+    {
+        "text": "So given an initial condition - here's a velocity, here's a pressure, input it. We don't even know if a solution's going to come out.",
+        "start": 593.199,
+        "duration": 6.5
+    },
+    {
+        "text": "(Brady: So how come these equations are being used by)",
+        "start": 600.22,
+        "duration": 3.349
+    },
+    {
+        "text": "(climate modellers and by Formula One teams and all these things that you tell me are using Navier-Stokes. It sounds like they're using a really unreliable tool.)",
+        "start": 603.96,
+        "duration": 8.84
+    },
+    {
+        "text": "I wouldn't say it's unreliable, because it's based on",
+        "start": 612.88,
+        "duration": 3.58
+    },
+    {
+        "text": "such standard laws of physics: mass is conserved, Newton's second law. So I think everyone's happy that that makes complete sense.",
+        "start": 616.64,
+        "duration": 7.14
+    },
+    {
+        "text": "We've got that bit, right.",
+        "start": 624.16,
+        "duration": 1.159
+    },
+    {
+        "text": "There's no reason for that not to be correct.",
+        "start": 625.319,
+        "duration": 1.781
+    },
+    {
+        "text": "But then the the sort of the mathematical complexity of it, the tricky bit, is",
+        "start": 627.1,
+        "duration": 4.7
+    },
+    {
+        "text": "we don't know if a solution is always going to exist and so we kind of find ways to",
+        "start": 632.079,
+        "duration": 3.68
+    },
+    {
+        "text": "cheat.",
+        "start": 636.37,
+        "duration": 1.14
+    },
+    {
+        "text": "So we might make",
+        "start": 637.51,
+        "duration": 2.0
+    },
+    {
+        "text": "simplifications, we might make assumptions to reduce some of these terms, or to remove time from the problem. Or you can",
+        "start": 639.819,
+        "duration": 6.53
+    },
+    {
+        "text": "get ways around it by making",
+        "start": 646.569,
+        "duration": 2.0
+    },
+    {
+        "text": "assumptions and making simplifications.",
+        "start": 649.029,
+        "duration": 1.74
+    },
+    {
+        "text": "So that's one way to use them. And then another way is to,",
+        "start": 650.769,
+        "duration": 3.89
+    },
+    {
+        "text": "what's called averaging. So rather than having a velocity field defined everywhere,",
+        "start": 655.12,
+        "duration": 4.76
+    },
+    {
+        "text": "you can say \"well what if I just take a big circle of fluid, take the average velocity in that circle,",
+        "start": 659.88,
+        "duration": 6.089
+    },
+    {
+        "text": "and I want to know how that changes and how that behaves?\"",
+        "start": 666.09,
+        "duration": 2.729
+    },
+    {
+        "text": "That we can do, so that's called averaging, Reynolds averaging of the Navier-Stokes equations",
+        "start": 669.4,
+        "duration": 5.299
+    },
+    {
+        "text": "and that is the kind of stuff that we do in climate modelling. Because you can't - the computer power alone to model every",
+        "start": 674.7,
+        "duration": 7.83
+    },
+    {
+        "text": "particle in the atmosphere, like, it's gonna take longer than the life of the earth to run that on current computers.",
+        "start": 682.87,
+        "duration": 6.259
+    },
+    {
+        "text": "So you just say \"well I'll just model the atmosphere as patches of let's say ten kilometers squared bits",
+        "start": 689.13,
+        "duration": 6.24
+    },
+    {
+        "text": "of air, and as long as I know the average speed in that 10 kilometers squared I'm happy\" So it's all about the averaging. But,",
+        "start": 695.37,
+        "duration": 7.169
+    },
+    {
+        "text": "mathematically, it should in theory be able to be solved for each individual bit",
+        "start": 703.03,
+        "duration": 4.729
+    },
+    {
+        "text": "and that's where we struggle.",
+        "start": 708.34,
+        "duration": 2.03
+    },
+    {
+        "text": "I think the best way to figure out",
+        "start": 712.93,
+        "duration": 2.0
+    },
+    {
+        "text": "what you need to do to get the million-dollar prize is to think about what we've done already.",
+        "start": 715.06,
+        "duration": 3.139
+    },
+    {
+        "text": "So we have the equations. They make complete sense; we're happy with them. Mass is conserved, Newton's second law, great, and then",
+        "start": 718.2,
+        "duration": 7.5
+    },
+    {
+        "text": "we also know that solutions exist and they are well behaved in two dimensions.",
+        "start": 726.25,
+        "duration": 4.91
+    },
+    {
+        "text": "Unfortunately, we don't live in a two-dimensional world,",
+        "start": 732.46,
+        "duration": 2.84
+    },
+    {
+        "text": "we have three dimensions. So if we were to ignore z and just have x and y, our two dimensions, we can do it,",
+        "start": 735.37,
+        "duration": 5.21
+    },
+    {
+        "text": "we can show there's always a solution. It's always well behaved, it works.",
+        "start": 740.58,
+        "duration": 3.84
+    },
+    {
+        "text": "And then when you go to three dimensions for whatever reason, it's just not working, we can't do it.",
+        "start": 744.42,
+        "duration": 4.109
+    },
+    {
+        "text": "We have shown that weak solutions exist. So these are sort of rather than being full solutions,",
+        "start": 748.53,
+        "duration": 5.7
+    },
+    {
+        "text": "they're similar to the averaging solutions, not exactly, but like some form of solution we can get.",
+        "start": 754.23,
+        "duration": 4.409
+    },
+    {
+        "text": "We can get solutions when the initial velocity is really small.",
+        "start": 758.89,
+        "duration": 3.38
+    },
+    {
+        "text": "We restrict to say we're only going to move at tiny speeds to start with then we can show solutions always exist.",
+        "start": 762.61,
+        "duration": 5.089
+    },
+    {
+        "text": "We can show solutions always exist for finite time,",
+        "start": 768.13,
+        "duration": 3.32
+    },
+    {
+        "text": "so, so up to some, you know time equals 100 or something we can get solutions exist as well.",
+        "start": 771.76,
+        "duration": 5.45
+    },
+    {
+        "text": "But we just cannot get that they exist for three dimensions for all of time for all possible",
+        "start": 777.76,
+        "duration": 6.29
+    },
+    {
+        "text": "Initial conditions. \n(Brady: So Tom will the person who wins the Millennium prize be the person who explains why that's the case?)",
+        "start": 784.72,
+        "duration": 6.859
+    },
+    {
+        "text": "(Like of course, you can't do it in three dimensions, and this is why. Or could they possibly say)",
+        "start": 791.59,
+        "duration": 4.64
+    },
+    {
+        "text": "(\"Yes, you can do it in three dimensions you silly-billy. There was something you didn't notice\")",
+        "start": 796.3,
+        "duration": 3.659
+    },
+    {
+        "text": "(Or what what will that person do or what are they being asked to do?)",
+        "start": 800.24,
+        "duration": 3.95
+    },
+    {
+        "text": "Yeah, so the the wording of the Millennium Problem is fantastic. It just says further our understanding",
+        "start": 804.19,
+        "duration": 5.309
+    },
+    {
+        "text": "of the Navier-Stokes equations.",
+        "start": 810.05,
+        "duration": 1.73
+    },
+    {
+        "text": "It's, it's the most vague of statements but there are some attempts that qualify or quantify what that means.",
+        "start": 811.78,
+        "duration": 5.94
+    },
+    {
+        "text": "It could be a case of \"show that a solution always exists in three dimensions for all possible initial conditions\" or",
+        "start": 817.72,
+        "duration": 7.139
+    },
+    {
+        "text": "it could be a case of as you said say \"well, of course",
+        "start": 825.2,
+        "duration": 3.32
+    },
+    {
+        "text": "it's going to blow up in three",
+        "start": 828.52,
+        "duration": 1.33
+    },
+    {
+        "text": "dimensions and it's going to go to infinity and there's we can't expect solutions to exist\" So you can do it both ways.",
+        "start": 829.85,
+        "duration": 4.849
+    },
+    {
+        "text": "The most recent progress in 2016 by Terence Tao, he actually showed that for the averaged",
+        "start": 834.76,
+        "duration": 5.099
+    },
+    {
+        "text": "Navier-Stokes equations, that you do get blow up in finite time. The way he's approached that could be a way of showing that",
+        "start": 840.59,
+        "duration": 6.679
+    },
+    {
+        "text": "the full 3D equations could also blow up in finite time.",
+        "start": 847.85,
+        "duration": 4.339
+    },
+    {
+        "text": "So that would be that we don't always expect a",
+        "start": 852.5,
+        "duration": 2.54
+    },
+    {
+        "text": "solution. So we don't really know which way it's going to go. I think one of the key things is about understanding",
+        "start": 855.32,
+        "duration": 5.45
+    },
+    {
+        "text": "turbulence. So turbulence is this",
+        "start": 861.74,
+        "duration": 2.0
+    },
+    {
+        "text": "chaotic, random",
+        "start": 864.32,
+        "duration": 1.23
+    },
+    {
+        "text": "motion of air,",
+        "start": 865.55,
+        "duration": 1.41
+    },
+    {
+        "text": "particles of water; think of two waves",
+        "start": 866.96,
+        "duration": 1.83
+    },
+    {
+        "text": "crashing into each other in the ocean. That is almost as random and chaotic a situation as you can get. If you do that again",
+        "start": 868.79,
+        "duration": 5.449
+    },
+    {
+        "text": "you're not going to expect the same thing. It's, it's so so difficult to model and to understand. And",
+        "start": 874.46,
+        "duration": 5.94
+    },
+    {
+        "text": "fundamentally fluids - they just are turbulent.",
+        "start": 881.0,
+        "duration": 2.72
+    },
+    {
+        "text": "Not every fluid but like air, water, rapids; that's all, it's all turbulent.",
+        "start": 884.57,
+        "duration": 4.97
+    },
+    {
+        "text": "And that's sort of I think where the key problem lies, because when we plug our data into our computers the computer",
+        "start": 889.54,
+        "duration": 5.909
+    },
+    {
+        "text": "averages things because it can't solve for the turbulence. It can't solve for all those really small little bits and all those little interactions.",
+        "start": 895.94,
+        "duration": 6.979
+    },
+    {
+        "text": "So it says, I'm going to take this big square and average the velocity or average the length scale and",
+        "start": 902.92,
+        "duration": 5.1
+    },
+    {
+        "text": "that's the way that we do it and it works but it's not",
+        "start": 908.39,
+        "duration": 3.529
+    },
+    {
+        "text": "mathematically",
+        "start": 912.71,
+        "duration": 1.47
+    },
+    {
+        "text": "understanding the equations.",
+        "start": 914.18,
+        "duration": 1.68
+    },
+    {
+        "text": "Practically we are happy with Navier-Stokes. We can use them, the equations for basically anything we want - it works,",
+        "start": 915.86,
+        "duration": 7.07
+    },
+    {
+        "text": "it's great, it looks amazing. It allows us to design all of these amazing aircraft to fly into space all of this stuff,",
+        "start": 922.93,
+        "duration": 6.66
+    },
+    {
+        "text": "it works. But it's just from a mathematics point of view, we just don't have that proof.",
+        "start": 929.59,
+        "duration": 4.299
+    },
+    {
+        "text": "It's a classic case of maths wanting to know for certain,",
+        "start": 934.11,
+        "duration": 3.559
+    },
+    {
+        "text": "rather than just knowing that it works in every case",
+        "start": 938.369,
+        "duration": 2.6
+    },
+    {
+        "text": "we can think of, we don't have that proof",
+        "start": 940.97,
+        "duration": 2.339
+    },
+    {
+        "text": "that it will always work; or an explanation of why it might not.",
+        "start": 943.649,
+        "duration": 3.529
+    },
+    {
+        "text": "(Brady: If I gave you the dream computer,)",
+        "start": 947.18,
+        "duration": 1.94
+    },
+    {
+        "text": "(that doesn't exist, and all the possible inputs you need at the start, this equation would get you there.)",
+        "start": 949.12,
+        "duration": 5.76
+    },
+    {
+        "text": "(It would just take, you know, a lot of power.)\n- You make a good point.",
+        "start": 954.889,
+        "duration": 2.91
+    },
+    {
+        "text": "You can import any bit of data, any initial condition you want.",
+        "start": 958.079,
+        "duration": 4.34
+    },
+    {
+        "text": "But then the computer may say \"oh, but the solution goes to infinity,",
+        "start": 962.85,
+        "duration": 4.7
+    },
+    {
+        "text": "the solution blows up\". And of course in a real situation we cannot have",
+        "start": 968.069,
+        "duration": 6.619
+    },
+    {
+        "text": "a water particle, a piece of air, moving at infinite speed.",
+        "start": 975.42,
+        "duration": 2.92
+    },
+    {
+        "text": "That just makes no physical sense. But the computer is saying that's the solution. So there's some disagreement there between the physical",
+        "start": 979.04,
+        "duration": 7.52
+    },
+    {
+        "text": "practicality of what can happen,",
+        "start": 986.8,
+        "duration": 2.14
+    },
+    {
+        "text": "and what the computer is outputting. And that would suggest that there's something missing in our mathematical understanding.",
+        "start": 989.44,
+        "duration": 5.88
+    },
+    {
+        "text": "(Brady: So are you telling me that you can input)",
+        "start": 995.72,
+        "duration": 3.02
+    },
+    {
+        "text": "(finite numbers into the Navier-Stokes equation, like realistic numbers that would apply to something in the real world, and)",
+        "start": 999.299,
+        "duration": 5.93
+    },
+    {
+        "text": "(Navier-Stokes spits out)",
+        "start": 1005.72,
+        "duration": 2.0
+    },
+    {
+        "text": "(impossible things like, \"oh, yeah. Your river is gonna be flowing at infinity miles per hour\" and things like that?)",
+        "start": 1008.02,
+        "duration": 4.74
+    },
+    {
+        "text": "Exactly, yeah, so that there's there's a really— \n(Brady: Well then the equations are wrong!)",
+        "start": 1012.76,
+        "duration": 3.68
+    },
+    {
+        "text": "But, but it's conservation of mass and it's Newton's second law. How can it be wrong?",
+        "start": 1017.54,
+        "duration": 3.979
+    },
+    {
+        "text": "This is the, this is the sort of paradox.",
+        "start": 1021.74,
+        "duration": 2.839
+    },
+    {
+        "text": "It's, it's everything we've done here makes complete sense. Because these, these two laws: mass is conserved, Newton's second law,",
+        "start": 1024.579,
+        "duration": 6.0
+    },
+    {
+        "text": "this will hold for any - like this works for a solid. It's not just fluid mechanics,",
+        "start": 1030.579,
+        "duration": 4.109
+    },
+    {
+        "text": "you do the same thing with solid mechanics. You get slightly different internal forces, but it's the same. It's the same set up.",
+        "start": 1034.689,
+        "duration": 6.51
+    },
+    {
+        "text": "So, so there's it doesn't seem like that bit should be wrong.",
+        "start": 1041.419,
+        "duration": 3.35
+    },
+    {
+        "text": "You know, it's, it's conservation of mass, its force is mass times acceleration. There's no reason to think that that's incorrect",
+        "start": 1045.439,
+        "duration": 5.839
+    },
+    {
+        "text": "so something, somewhere is going wrong in the",
+        "start": 1051.5,
+        "duration": 2.62
+    },
+    {
+        "text": "the mathematical",
+        "start": 1054.44,
+        "duration": 1.06
+    },
+    {
+        "text": "understanding. There's an example about the flow of a fluid around a right-angled corner.",
+        "start": 1055.96,
+        "duration": 5.54
+    },
+    {
+        "text": "(Brady: A bit like a canal?)\n- Basically a canal but we've got a really",
+        "start": 1061.5,
+        "duration": 2.2
+    },
+    {
+        "text": "sharp right angle on the corner. Now you solve Navier-Stokes,",
+        "start": 1063.789,
+        "duration": 3.239
+    },
+    {
+        "text": "this says that at this point, this right angle corner,",
+        "start": 1067.429,
+        "duration": 4.04
+    },
+    {
+        "text": "I have infinite velocity. If I build this canal do I have an infinite velocity canal?",
+        "start": 1071.47,
+        "duration": 5.339
+    },
+    {
+        "text": "I'm going to guess I don't. So,",
+        "start": 1076.809,
+        "duration": 2.13
+    },
+    {
+        "text": "it's, it's that. There's, there's no - like everywhere else it works perfectly,",
+        "start": 1079.399,
+        "duration": 3.8
+    },
+    {
+        "text": "but at this little point it's saying my velocity is infinite,",
+        "start": 1083.419,
+        "duration": 3.979
+    },
+    {
+        "text": "but it quite clearly isn't. That's it in a nutshell. The equations work for all possible practical uses.",
+        "start": 1087.399,
+        "duration": 5.52
+    },
+    {
+        "text": "So if you were building this canal you'd be completely happy. You would know the speed everywhere, except one single tiny, tiny point.",
+        "start": 1093.35,
+        "duration": 7.219
+    },
+    {
+        "text": "But then, as a mathematician, you're like, \"But why is it infinity? Why is it infinity there? I want to know.\" And, and that's it. That's,",
+        "start": 1101.299,
+        "duration": 6.56
+    },
+    {
+        "text": "we're obviously missing that mathematical understanding.",
+        "start": 1108.62,
+        "duration": 2.28
+    },
+    {
+        "text": "There's some difference there between the physics of it and the equations, we just do not understand it. \n(Brady: So it's kind of like how)",
+        "start": 1111.46,
+        "duration": 6.08
+    },
+    {
+        "text": "(division, like just simple division, works and I use it every day.)",
+        "start": 1118.999,
+        "duration": 3.95
+    },
+    {
+        "text": "(It's just there's this is one glitch where if you divide by zero, it kind of goes a bit weird.)",
+        "start": 1122.95,
+        "duration": 5.219
+    },
+    {
+        "text": "(But that doesn't matter because I never actually need to divide by zero.)\n- Exactly. There are always ways around it.",
+        "start": 1128.779,
+        "duration": 5.03
+    },
+    {
+        "text": "There are approximations, there are, you know, you know it's a very large number so you just leave it at that.",
+        "start": 1133.809,
+        "duration": 4.17
+    },
+    {
+        "text": "(Brady: So this is something that doesn't really matter, but it matters to you?)",
+        "start": 1138.399,
+        "duration": 4.32
+    },
+    {
+        "text": "It doesn't matter to any",
+        "start": 1144.2,
+        "duration": 2.03
+    },
+    {
+        "text": "application of Navier-Stokes, but it does matter to",
+        "start": 1147.019,
+        "duration": 3.05
+    },
+    {
+        "text": "maths. And it's the classic case of \"alright if we solve it",
+        "start": 1150.83,
+        "duration": 3.949
+    },
+    {
+        "text": "we have no practical uses\" but to actually figure out what's going on here,",
+        "start": 1154.779,
+        "duration": 3.45
+    },
+    {
+        "text": "the maths we're going to uncover,",
+        "start": 1158.779,
+        "duration": 2.0
+    },
+    {
+        "text": "it's gonna be brand new. It's gonna be stuff",
+        "start": 1160.789,
+        "duration": 2.359
+    },
+    {
+        "text": "we've never looked at before, thinking of the problem in entirely new ways and no doubt",
+        "start": 1163.149,
+        "duration": 4.109
+    },
+    {
+        "text": "we will discover new maths; leads to all kinds of other incredible new advances in all this stuff to do with fluids.",
+        "start": 1167.259,
+        "duration": 5.85
+    },
+    {
+        "text": "It's just, you know, all of these things that we use Navier-Stokes for;",
+        "start": 1173.299,
+        "duration": 3.949
+    },
+    {
+        "text": "pollution modeling, climate modeling, blood flow,",
+        "start": 1177.769,
+        "duration": 2.42
+    },
+    {
+        "text": "aerodynamics - all of these things. If we really understand the equations those things are just gonna get better.",
+        "start": 1180.74,
+        "duration": 5.0
+    },
+    {
+        "text": "(Brady: Tell me how much you love these equations.)",
+        "start": 1190.84,
+        "duration": 2.4
+    },
+    {
+        "text": "Umm, well, they are my favourite equations. And just, just to emphasise the level of favouritism of these equations - the full",
+        "start": 1193.24,
+        "duration": 8.36
+    },
+    {
+        "text": "Navier-Stokes equations, as written down on our piece of paper.",
+        "start": 1201.61,
+        "duration": 3.119
+    },
+    {
+        "text": "(Brady: Hang on which way around are we?)",
+        "start": 1205.08,
+        "duration": 1.22
+    },
+    {
+        "text": "If we're talking this, if - yeah. So those should be exactly the ones I've written down.",
+        "start": 1206.3,
+        "duration": 3.74
+    },
+    {
+        "text": "(Brady: Oh there we go.) \n- The little guy and the big guy. \n(Brady: Dude)",
+        "start": 1210.04,
+        "duration": 2.88
+    },
+    {
+        "text": "(This is a first for Numberphile.)\n- On the ribs as well, the pain of the ribs.",
+        "start": 1213.62,
+        "duration": 3.7
+    },
+    {
+        "text": "Like, that's, I'm gonna say this is complete commitment to, to Navier-Stokes and fluid mechanics. \n(Brady: Why did you do that?)",
+        "start": 1217.33,
+        "duration": 6.0
+    },
+    {
+        "text": "Well, I,",
+        "start": 1224.0,
+        "duration": 1.41
+    },
+    {
+        "text": "ny PhD was studying fluid mechanics and these equations just - they just model it.",
+        "start": 1225.41,
+        "duration": 5.659
+    },
+    {
+        "text": "So I spent four years of my life",
+        "start": 1231.07,
+        "duration": 1.81
+    },
+    {
+        "text": "trying to - not necessarily understand them but studying them and using them, and it just felt like, it felt like the right thing to get",
+        "start": 1232.88,
+        "duration": 6.41
+    },
+    {
+        "text": "to be honest.\n(Brady: What did what did the artist say when you - )",
+        "start": 1239.57,
+        "duration": 3.08
+    },
+    {
+        "text": "He had a lot of fun with it. So he's actually,",
+        "start": 1243.32,
+        "duration": 2.03
+    },
+    {
+        "text": "he's quite an intelligent guy. He's got a load of like physics formulas and he has a portrait of Einstein tattooed on his back.",
+        "start": 1246.05,
+        "duration": 5.929
+    },
+    {
+        "text": "So he's really into his physics and his maths himself. So he was saying \"Oh, I've never seen these what are they?\"",
+        "start": 1251.98,
+        "duration": 4.709
+    },
+    {
+        "text": "So I spent the sort of two hours of being tattooed pretty much doing what we just did and talking about Navier-Stokes.",
+        "start": 1256.69,
+        "duration": 5.43
+    }
+]

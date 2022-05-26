@@ -1,0 +1,1572 @@
+[
+    {
+        "text": "So you remember in the past we did,",
+        "start": 0.03,
+        "duration": 2.0
+    },
+    {
+        "text": "we done two really big numbers in particular in the past. We did Graham's number and TREE(3) right?",
+        "start": 2.47,
+        "duration": 5.42
+    },
+    {
+        "text": "So if you remember TREE(3) was this number that was that was so big",
+        "start": 7.89,
+        "duration": 3.749
+    },
+    {
+        "text": "that, you know even just to prove that it was finite, there just wasn't enough time left in the universe to do that.",
+        "start": 11.83,
+        "duration": 6.77
+    },
+    {
+        "text": "You would have a - the universe would reset itself before you ever got to complete the proof. It's - it's just stupid.",
+        "start": 18.6,
+        "duration": 5.849
+    },
+    {
+        "text": "It's just - you can't even picture it. And Graham's number was so big that if you thought about it",
+        "start": 24.46,
+        "duration": 4.819
+    },
+    {
+        "text": "your head would collapse to form a black hole.",
+        "start": 29.46,
+        "duration": 2.0
+    },
+    {
+        "text": "So these were two really crazy numbers but what I really want to talk about today is kind of sort of crazy of crazy.",
+        "start": 33.28,
+        "duration": 5.45
+    },
+    {
+        "text": "I want to talk about a number which combines both and that's TREE of Graham's number.",
+        "start": 38.73,
+        "duration": 5.57
+    },
+    {
+        "text": "(Brady: I'm worried the universe is going to collapse on us)",
+        "start": 44.3,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, you know, we need to worry about that. As you might remember from, from those original videos, both",
+        "start": 46.6,
+        "duration": 5.209
+    },
+    {
+        "text": "TREE(3) and Graham's number they, they both arise in sort of a sequence. Particularly let's remind ourselves",
+        "start": 52.36,
+        "duration": 5.299
+    },
+    {
+        "text": "what - where Graham's number came from sort of very briefly. To get to Graham's number",
+        "start": 57.66,
+        "duration": 4.02
+    },
+    {
+        "text": "we started out with something, which I'll call g(1), which was three",
+        "start": 61.68,
+        "duration": 4.619
+    },
+    {
+        "text": "arrow arrow arrow arrow",
+        "start": 66.85,
+        "duration": 2.85
+    },
+    {
+        "text": "three, right? Now this was a really big number, now just to remind you what these arrows were; if I have three arrow three",
+        "start": 69.939,
+        "duration": 7.04
+    },
+    {
+        "text": "that just means 3 to the 3. It's a fancy way of writing",
+        "start": 77.619,
+        "duration": 2.69
+    },
+    {
+        "text": "3 to the power 3, which is of course",
+        "start": 80.92,
+        "duration": 2.0
+    },
+    {
+        "text": "27. If I take a double arrow",
+        "start": 83.08,
+        "duration": 2.0
+    },
+    {
+        "text": "well that just means doing a repetition of the single arrow, in this case three times, so that would be three arrow",
+        "start": 85.6,
+        "duration": 6.979
+    },
+    {
+        "text": "3 arrow 3, which is 3",
+        "start": 93.28,
+        "duration": 3.139
+    },
+    {
+        "text": "to the arrow 27, which is about 7.6",
+        "start": 97.18,
+        "duration": 4.43
+    },
+    {
+        "text": "trillion, I think it is. Okay? And then if you had three arrows, well that's just repeated double arrows,",
+        "start": 102.22,
+        "duration": 5.449
+    },
+    {
+        "text": "okay, so that's just repeat repetition of the double arrow. So that's 3 to the",
+        "start": 108.34,
+        "duration": 4.91
+    },
+    {
+        "text": "3",
+        "start": 114.7,
+        "duration": 0.64
+    },
+    {
+        "text": "to the 3 which is again 3 double arrow - 7.6 trillion,",
+        "start": 116.3,
+        "duration": 4.929
+    },
+    {
+        "text": "which is basically a power tower of threes.",
+        "start": 122.38,
+        "duration": 2.36
+    },
+    {
+        "text": "So 3 to the 3 to the 3 to the 3 and so on, that it's 7.6 trillion",
+        "start": 124.93,
+        "duration": 5.569
+    },
+    {
+        "text": "high. This is just stupidly big numbers. And actually the first sort of rung on the ladder of Graham's - Graham's",
+        "start": 130.5,
+        "duration": 7.05
+    },
+    {
+        "text": "ladder, the Graham's sequence is actually - it has four arrows. So it's just repetition of three arrows.",
+        "start": 137.55,
+        "duration": 4.11
+    },
+    {
+        "text": "So this is the first point on Graham's sequence, but then you go up right?",
+        "start": 141.66,
+        "duration": 3.509
+    },
+    {
+        "text": "It's Graham - what Graham told us to do was actually to sort of build this sequence up,",
+        "start": 145.209,
+        "duration": 5.059
+    },
+    {
+        "text": "you would then go to g(2) where the number of arrows itself was already this huge number.",
+        "start": 150.269,
+        "duration": 5.34
+    },
+    {
+        "text": "Okay, so you actually now have G(1) arrows, and the arrows as you can see from this, make numbers really really big. So actually now",
+        "start": 156.43,
+        "duration": 6.529
+    },
+    {
+        "text": "when we start putting really big numbers in the number of arrows, we get crazy big. And he carried on with this sequence",
+        "start": 162.959,
+        "duration": 5.82
+    },
+    {
+        "text": "until he got to g(64),",
+        "start": 169.299,
+        "duration": 2.0
+    },
+    {
+        "text": "which was this Graham's number.",
+        "start": 172.12,
+        "duration": 2.0
+    },
+    {
+        "text": "So you have this sequence, 1 - you start off with this, g(1), g(2);",
+        "start": 174.19,
+        "duration": 3.109
+    },
+    {
+        "text": "until - all the way up to g(64). And you can carry on right? This defines a sequence which you could call g(n),",
+        "start": 177.37,
+        "duration": 4.88
+    },
+    {
+        "text": "which is basically related to the one before",
+        "start": 182.379,
+        "duration": 2.15
+    },
+    {
+        "text": "by taking the number of arrows that you had before. So you relate it like that.",
+        "start": 185.11,
+        "duration": 3.889
+    },
+    {
+        "text": "So this defines the sequence. The TREE - trees also gave us a sequence.",
+        "start": 189.0,
+        "duration": 4.0
+    },
+    {
+        "text": "Now if you remember from that video",
+        "start": 193.0,
+        "duration": 1.379
+    },
+    {
+        "text": "the TREEs are basically this idea of you play a game with a,",
+        "start": 194.379,
+        "duration": 3.35
+    },
+    {
+        "text": "with a finite number of seeds, different types of seeds, and you try to grow trees. And the idea is how long can this game go on for?",
+        "start": 197.799,
+        "duration": 7.201
+    },
+    {
+        "text": "So if you have one type of seed",
+        "start": 205.0,
+        "duration": 1.549
+    },
+    {
+        "text": "then the game can last a maximum of",
+        "start": 207.13,
+        "duration": 2.569
+    },
+    {
+        "text": "basically one go. So TREE(1) is 1. TREE(2), so if you have two different seeds, is",
+        "start": 211.03,
+        "duration": 4.97
+    },
+    {
+        "text": "three. And then if you have three different seeds",
+        "start": 217.329,
+        "duration": 2.779
+    },
+    {
+        "text": "then the game literally goes on for - can potentially go on for absolutely ages. This number is massive, okay?",
+        "start": 221.29,
+        "duration": 7.669
+    },
+    {
+        "text": "It's a really really big number. Like, it's actually bigger than Graham's number, that's what I told you,",
+        "start": 228.959,
+        "duration": 3.99
+    },
+    {
+        "text": "okay, so we're going to think a bit more about that. But this is a truly truly gargantuan number and",
+        "start": 232.95,
+        "duration": 4.139
+    },
+    {
+        "text": "but of course you could carry on with this sequence.",
+        "start": 238.12,
+        "duration": 2.119
+    },
+    {
+        "text": "You could try TREE(4), TREE(5), TREE(6) - in general some tree n. And you could even think of course about TREE of",
+        "start": 240.239,
+        "duration": 7.17
+    },
+    {
+        "text": "Graham's number.",
+        "start": 247.63,
+        "duration": 1.229
+    },
+    {
+        "text": "So that's what we want to think about. Now,",
+        "start": 248.859,
+        "duration": 2.09
+    },
+    {
+        "text": "so we have two sequences here, right? And the real question I want to ask is is which sequence is better?",
+        "start": 251.889,
+        "duration": 5.99
+    },
+    {
+        "text": "So let's ask this question, let me, let me write down.",
+        "start": 257.88,
+        "duration": 2.039
+    },
+    {
+        "text": "[Hold music]",
+        "start": 259.919,
+        "duration": 2.0
+    },
+    {
+        "text": "So we've got these two sequences.",
+        "start": 264.19,
+        "duration": 1.819
+    },
+    {
+        "text": "We've got TREE of n and we've got g of n. So we got the TREEs and the gs, okay?",
+        "start": 266.009,
+        "duration": 4.02
+    },
+    {
+        "text": "And we can build this number TREE of Graham's number, right, which is basically TREE of g of 64.",
+        "start": 270.07,
+        "duration": 6.649
+    },
+    {
+        "text": "But I could also think about going the other way round. What do I mean by that? I mean, do the TREEs first and then",
+        "start": 276.789,
+        "duration": 6.59
+    },
+    {
+        "text": "do the gs. So in other words, I'm gonna start playing the game of trees first and then I climb Graham's ladder.",
+        "start": 284.35,
+        "duration": 4.97
+    },
+    {
+        "text": "So what do I mean by that? I mean take TREE,",
+        "start": 289.35,
+        "duration": 2.339
+    },
+    {
+        "text": "in this case of 64, and",
+        "start": 292.449,
+        "duration": 2.51
+    },
+    {
+        "text": "then",
+        "start": 295.63,
+        "duration": 1.5
+    },
+    {
+        "text": "evaluate that in Graham's sequence. So I'm doing it the other way around. So here I'm climbing Graham's ladder first - 64 rungs,",
+        "start": 297.13,
+        "duration": 5.509
+    },
+    {
+        "text": "and then I'm playing the game of trees. Here I'm playing the game of trees with 64",
+        "start": 302.639,
+        "duration": 5.25
+    },
+    {
+        "text": "sort of seeds, and then I'm climbing Graham's ladder. So which of these numbers is bigger?",
+        "start": 308.62,
+        "duration": 5.059
+    },
+    {
+        "text": "Okay, which is bigger? \n- (Brady: Oh I, can I have a guess? I got the impression from you in previous videos that)",
+        "start": 314.68,
+        "duration": 7.64
+    },
+    {
+        "text": "(TREEs are more powerful)",
+        "start": 322.9,
+        "duration": 2.0
+    },
+    {
+        "text": "(so I'm gonna say)",
+        "start": 325.27,
+        "duration": 2.0
+    },
+    {
+        "text": "(that one's bigger.)\n- But that's got TREE in it as well",
+        "start": 327.61,
+        "duration": 2.39
+    },
+    {
+        "text": "(Brady: Yeah, but it's - you're giving the TREE less juice there)",
+        "start": 331.99,
+        "duration": 3.739
+    },
+    {
+        "text": "(You're only giving the TREE 64 juice, and there you're giving the TREE Graham's number juice)",
+        "start": 335.729,
+        "duration": 5.34
+    },
+    {
+        "text": "I think that's a beautiful way to put it actually Brady, and you are right.",
+        "start": 341.07,
+        "duration": 3.209
+    },
+    {
+        "text": "Okay, but let's let's actually explore this a little bit more.",
+        "start": 344.38,
+        "duration": 2.959
+    },
+    {
+        "text": "Let's do it with a much simpler, a simpler pair of sequences,",
+        "start": 347.409,
+        "duration": 2.99
+    },
+    {
+        "text": "which are basically just powers - so I can imagine a sequence where p to the n is 2 to the n so I basically take,",
+        "start": 350.4,
+        "duration": 5.519
+    },
+    {
+        "text": "take the 2 to the power of whatever number I'm interested in, And quadratics,",
+        "start": 356.11,
+        "duration": 4.279
+    },
+    {
+        "text": "okay,",
+        "start": 360.669,
+        "duration": 0.5
+    },
+    {
+        "text": "so I basically take - if you give me n, I give you n squared.",
+        "start": 361.169,
+        "duration": 2.429
+    },
+    {
+        "text": "So there's two different sequences.",
+        "start": 363.82,
+        "duration": 1.25
+    },
+    {
+        "text": "The - neither of these are anywhere near as powerful as TREE or g,",
+        "start": 365.07,
+        "duration": 3.269
+    },
+    {
+        "text": "but they'll illustrate the point.",
+        "start": 368.34,
+        "duration": 1.72
+    },
+    {
+        "text": "Now, as you would put it, in this case the exponent, you know, this one - has more juice, okay?",
+        "start": 370.06,
+        "duration": 6.109
+    },
+    {
+        "text": "This is more powerful than a quadratic. Exponents grow more quickly than quadratics. In this case",
+        "start": 376.169,
+        "duration": 4.679
+    },
+    {
+        "text": "we can study and ask which is it better to do first or last? Okay, which is gonna take us to the bigger place?",
+        "start": 380.849,
+        "duration": 4.59
+    },
+    {
+        "text": "Let's look at this and let's let's start with maybe n equals 1.",
+        "start": 385.63,
+        "duration": 2.779
+    },
+    {
+        "text": "Okay, so if we do q first, we take the quadratic of 1, okay, that gives me 1 and then I have to do p,",
+        "start": 388.96,
+        "duration": 5.54
+    },
+    {
+        "text": "which is gonna take me to 2. Okay, so I'll get 2. If I do the other way round,",
+        "start": 395.05,
+        "duration": 4.26
+    },
+    {
+        "text": "so I'm going to start with 1,",
+        "start": 399.53,
+        "duration": 1.46
+    },
+    {
+        "text": "I then need to take its power, that's going to give me 2, and then I need to take the quadratic",
+        "start": 400.99,
+        "duration": 5.279
+    },
+    {
+        "text": "so that's going to give me 4.",
+        "start": 406.55,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, so you can see if I do for n equals 1, actually",
+        "start": 408.59,
+        "duration": 3.44
+    },
+    {
+        "text": "doing this guy last actually seems to win. Okay, that's, hmm, doesn't feel quite right. Let's try a bigger number. Let's do n equals 3.",
+        "start": 412.94,
+        "duration": 6.889
+    },
+    {
+        "text": "So if I take the quadratic first, that takes 3 to 9. And then I take the power,",
+        "start": 419.83,
+        "duration": 4.649
+    },
+    {
+        "text": "okay, that takes that gets me to 2 to the 9 which I *think* is 512, quite a big number. Now",
+        "start": 425.27,
+        "duration": 7.19
+    },
+    {
+        "text": "let's do the other way around.",
+        "start": 432.46,
+        "duration": 1.18
+    },
+    {
+        "text": "Okay, so we start off with 3,",
+        "start": 433.64,
+        "duration": 2.0
+    },
+    {
+        "text": "we take the power, so that's 2 to the 3, which is 8. And then we take the quadratic,",
+        "start": 435.74,
+        "duration": 5.089
+    },
+    {
+        "text": "64. So you can see here the minute we went to a slightly bigger number, actually",
+        "start": 441.68,
+        "duration": 4.699
+    },
+    {
+        "text": "it was indeed advantageous to do the big guy last. Okay, and actually as long as you take n bigger than 2,",
+        "start": 446.54,
+        "duration": 6.649
+    },
+    {
+        "text": "it's always going to be better to do the big guy last. So it is, it is true. You're right",
+        "start": 453.71,
+        "duration": 3.589
+    },
+    {
+        "text": "Brady, the big guy, the most powerful guy, is the one that you should do last if you want to get some really really big",
+        "start": 457.3,
+        "duration": 4.17
+    },
+    {
+        "text": "numbers. So now let's go back to TREE and g. Now you - your intuition says that TREE is bigger. Its correct.",
+        "start": 461.47,
+        "duration": 6.029
+    },
+    {
+        "text": "But what's the mathematical way of sort of,",
+        "start": 467.5,
+        "duration": 2.639
+    },
+    {
+        "text": "of measuring that? Is there a mathematical measure for that sort of thing, for how fast a sequence grows? Okay?",
+        "start": 470.27,
+        "duration": 5.69
+    },
+    {
+        "text": "Does - is there a measure of how fast TREE n grows?",
+        "start": 476.06,
+        "duration": 2.6
+    },
+    {
+        "text": "Is there a measure for how fast g n grows? Or any other sequence? Ok, and there is. And",
+        "start": 478.66,
+        "duration": 4.349
+    },
+    {
+        "text": "for these growing sequences, the thing that we use is something called the fast growing hierarchies. So we're going to start off with a very -",
+        "start": 483.77,
+        "duration": 6.5
+    },
+    {
+        "text": "with a, sort of function that does grow but it doesn't grow very quickly.",
+        "start": 491.09,
+        "duration": 2.659
+    },
+    {
+        "text": "Okay, so really, really starting off with basics. And that's the successor function.",
+        "start": 494.0,
+        "duration": 4.1
+    },
+    {
+        "text": "So this is a very simple guy. It's basically just says take n and go to the next one along \n- (Brady: Counting?)",
+        "start": 498.24,
+        "duration": 5.54
+    },
+    {
+        "text": "It's counting, basically. It's the first thing you learn at school, right?",
+        "start": 504.08,
+        "duration": 2.72
+    },
+    {
+        "text": "So 2 goes to 3, 3 goes to 4, and so on right? So it's growing from - it's a growing sequence.",
+        "start": 506.8,
+        "duration": 4.5
+    },
+    {
+        "text": "It just doesn't grow very quickly. Ok, but this is, this successor function is the basic, is the basis for all",
+        "start": 511.3,
+        "duration": 5.55
+    },
+    {
+        "text": "the - it's the seed for all these fast-growing hierarchies. Ok, so I want something that grows. Obviously, this doesn't grow as fast as TREE",
+        "start": 517.55,
+        "duration": 5.959
+    },
+    {
+        "text": "or g. I think we can agree that, right?",
+        "start": 523.51,
+        "duration": 1.66
+    },
+    {
+        "text": "Ok, so let's try and get something that grows a bit faster, but this is the seed for everything else.",
+        "start": 525.17,
+        "duration": 4.019
+    },
+    {
+        "text": "So what can grow a bit faster? Well you define f of 1,",
+        "start": 529.19,
+        "duration": 3.6
+    },
+    {
+        "text": "okay, which is defined as doing this guy n times. Okay, so I'm going to do f",
+        "start": 533.61,
+        "duration": 5.569
+    },
+    {
+        "text": "lots of times,",
+        "start": 539.94,
+        "duration": 2.0
+    },
+    {
+        "text": "in fact, I'm gonna do it n times on n.",
+        "start": 542.46,
+        "duration": 2.359
+    },
+    {
+        "text": "Okay, so what is this? So another way of writing that is just f",
+        "start": 545.85,
+        "duration": 2.779
+    },
+    {
+        "text": "0 to the n over n. So what am I really doing here? I'm doing - I'm adding 1 to n, n times.",
+        "start": 549.39,
+        "duration": 7.16
+    },
+    {
+        "text": "Where's that gonna take me? That's gonna take me to 2n.",
+        "start": 557.58,
+        "duration": 2.359
+    },
+    {
+        "text": "2 times n.",
+        "start": 560.7,
+        "duration": 1.59
+    },
+    {
+        "text": "Yeah, I'm adding n to - n to - I'm adding 1 to n, n times that's gonna take me to 2n.",
+        "start": 562.29,
+        "duration": 4.82
+    },
+    {
+        "text": "Okay, so you can see this has already grown more quickly. This one was just adding 1 each time, this one is now doubling.",
+        "start": 576.2,
+        "duration": 4.91
+    },
+    {
+        "text": "It's not a much faster growing function, but it is a faster growing function than the successor guy.",
+        "start": 581.11,
+        "duration": 3.419
+    },
+    {
+        "text": "Okay? And we've done it back, we've built it from that successor seed. Okay, so let's carry on let's try f(2)",
+        "start": 584.84,
+        "duration": 4.789
+    },
+    {
+        "text": "We're gonna define it the same way. We're basically gonna say do f(1) n times on n.",
+        "start": 589.63,
+        "duration": 6.97
+    },
+    {
+        "text": "Okay, so what's this going to give me? Well, this is basically saying",
+        "start": 596.6,
+        "duration": 3.529
+    },
+    {
+        "text": "multiply by 2, n times.",
+        "start": 600.8,
+        "duration": 2.0
+    },
+    {
+        "text": "So that's going to give me 2 to the n,",
+        "start": 603.62,
+        "duration": 2.119
+    },
+    {
+        "text": "times n.",
+        "start": 606.71,
+        "duration": 1.8
+    },
+    {
+        "text": "So now we've gone to an exponent,",
+        "start": 608.51,
+        "duration": 2.0
+    },
+    {
+        "text": "okay, so we've gone from successes, to multiplication - just like by doing repeating, repeated succession to",
+        "start": 611.27,
+        "duration": 6.95
+    },
+    {
+        "text": "exponentiation, by doing repeated multiplication. I can carry on, okay, what's the next guy?",
+        "start": 618.89,
+        "duration": 5.69
+    },
+    {
+        "text": "Well that basically says do this an n number of times.",
+        "start": 625.28,
+        "duration": 2.929
+    },
+    {
+        "text": "So, what's that gonna give me? Well, I don't want to write it down.",
+        "start": 628.21,
+        "duration": 2.609
+    },
+    {
+        "text": "This is going to be something that's more like the double arrow. This is actually going to grow more quickly",
+        "start": 631.04,
+        "duration": 4.19
+    },
+    {
+        "text": "than that guy. Just slightly, but it's the same - similar sort of sort of growth rate, but it's slightly more quickly than that.",
+        "start": 636.05,
+        "duration": 6.019
+    },
+    {
+        "text": "Okay, so this is what we called tetration. So you've got",
+        "start": 642.41,
+        "duration": 2.57
+    },
+    {
+        "text": "successor,",
+        "start": 645.59,
+        "duration": 1.62
+    },
+    {
+        "text": "multiplication, exponentiation. This is now tetration. And I could carry this on.",
+        "start": 647.21,
+        "duration": 3.71
+    },
+    {
+        "text": "Okay, I could just carry on defining it in the same way by repetition of the one before. Next one would be pentation,",
+        "start": 651.08,
+        "duration": 6.47
+    },
+    {
+        "text": "hexation, and so on - and so on and so forth.",
+        "start": 658.4,
+        "duration": 2.839
+    },
+    {
+        "text": "Okay?",
+        "start": 661.24,
+        "duration": 0.42
+    },
+    {
+        "text": "And I could do loads of these right, and I go up the whole time - one for every integer right. All the way up.",
+        "start": 661.66,
+        "duration": 4.77
+    },
+    {
+        "text": "Okay, great.",
+        "start": 666.43,
+        "duration": 1.57
+    },
+    {
+        "text": "Now,",
+        "start": 668.0,
+        "duration": 1.02
+    },
+    {
+        "text": "this gives me a hierarchy for - this gives me a measure for how fast functions grow.",
+        "start": 669.02,
+        "duration": 3.859
+    },
+    {
+        "text": "I can measure them against these guys.\n- (Brady: So you could have f(100)?)",
+        "start": 672.88,
+        "duration": 2.72
+    },
+    {
+        "text": "f of 100, f of a googol, f of - f of Graham's number, even, right?",
+        "start": 675.6,
+        "duration": 4.149
+    },
+    {
+        "text": "Okay, and my question is is do these numbers grow faster or, or -",
+        "start": 679.88,
+        "duration": 4.52
+    },
+    {
+        "text": "which - where does where does the g sequence and the TREE sequence appear in this in this hierarchy?",
+        "start": 684.47,
+        "duration": 5.119
+    },
+    {
+        "text": "Is it, is it faster than some of them and not others, you know? Okay,",
+        "start": 689.59,
+        "duration": 3.75
+    },
+    {
+        "text": "what do you think?",
+        "start": 693.86,
+        "duration": 1.71
+    },
+    {
+        "text": "(Brady: Oh no, you've got a cheeky smile. So I think you're about to pull something on here. I don't know,)",
+        "start": 695.57,
+        "duration": 5.53
+    },
+    {
+        "text": "(I mean presumably because this f thing is  infinite, could - it just keeps growing? It)",
+        "start": 701.2,
+        "duration": 6.929
+    },
+    {
+        "text": "(must get to a point at some point where I can use it to - )",
+        "start": 708.579,
+        "duration": 2.609
+    },
+    {
+        "text": "So that's a good point. So it's certainly true that for a given value of n, so if I put say",
+        "start": 711.98,
+        "duration": 4.549
+    },
+    {
+        "text": "some large value of n in here, I could get a number that was bigger than Graham's number. But that's not what I'm asking.",
+        "start": 717.829,
+        "duration": 4.13
+    },
+    {
+        "text": "I'm asking do these sequences, do any of them grow more quickly than Graham's sequence or the TREE sequence?",
+        "start": 721.999,
+        "duration": 6.83
+    },
+    {
+        "text": "So for the same value of n, are they gonna give me bigger numbers?",
+        "start": 728.829,
+        "duration": 3.45
+    },
+    {
+        "text": "(Brady: I feel like you must be able to get there because)",
+        "start": 732.8,
+        "duration": 2.93
+    },
+    {
+        "text": "(because the way TREE works and the way Graham works is like set in stone.)",
+        "start": 736.939,
+        "duration": 6.109
+    },
+    {
+        "text": "(Whereas this thing, you can just keep making bigger and bigger until you - until it's fit for purpose.)\n- The answer's no.",
+        "start": 743.689,
+        "duration": 5.69
+    },
+    {
+        "text": "None of these, even if I carried on all the way",
+        "start": 750.11,
+        "duration": 2.029
+    },
+    {
+        "text": "through all the integers, so all the natural numbers. There's never going to be a sequence that's as fast as either",
+        "start": 752.839,
+        "duration": 5.179
+    },
+    {
+        "text": "g, the g sequence, or the TREE sequence. They're both faster. So they're both, the TREE and the g, they grow quicker than any of these.",
+        "start": 758.72,
+        "duration": 6.919
+    },
+    {
+        "text": "Any of these and that's like, woah, that's - what am I gonna do now?",
+        "start": 766.249,
+        "duration": 4.151
+    },
+    {
+        "text": "Okay, so how can I measure them? Well, the problem is, is that you're just dealing with finite,",
+        "start": 770.4,
+        "duration": 5.319
+    },
+    {
+        "text": "okay. Look at what we have here. What have we built up here? So I kind of need, I think I need more -",
+        "start": 776.179,
+        "duration": 4.43
+    },
+    {
+        "text": "So you can see with that, with that sequence of functions, I'd have 0, f(1), f(2).",
+        "start": 785.66,
+        "duration": 4.849
+    },
+    {
+        "text": "Right, they all had an index 0, next one was 1, next one was 2 and 3 and so on right. And in principle",
+        "start": 791.029,
+        "duration": 6.559
+    },
+    {
+        "text": "I could have had any, any natural number ok. Arbitrarily large. But I was restricted to the natural numbers,",
+        "start": 797.589,
+        "duration": 5.969
+    },
+    {
+        "text": "okay, I can go one beyond. I can go to infinity. What comes after these numbers?",
+        "start": 804.439,
+        "duration": 5.09
+    },
+    {
+        "text": "Well, there's also something important to distinguish about these numbers is that they had an order.",
+        "start": 809.749,
+        "duration": 3.98
+    },
+    {
+        "text": "Okay, there was - they were, you know",
+        "start": 814.009,
+        "duration": 1.851
+    },
+    {
+        "text": "I have a notion of hierarchy. f(0) doesn't grow as fast as f(1),",
+        "start": 815.86,
+        "duration": 3.269
+    },
+    {
+        "text": "doesn't grow as fast as f(2) and so on. The",
+        "start": 819.259,
+        "duration": 2.45
+    },
+    {
+        "text": "indices were important that they had - they came in order. So you can really think of these numbers, these indices as more like",
+        "start": 821.809,
+        "duration": 5.96
+    },
+    {
+        "text": "ordinals rather than cardinal numbers. Cardinal numbers tell you how much,",
+        "start": 827.929,
+        "duration": 3.5
+    },
+    {
+        "text": "ordinal numbers add a bit of order to that.",
+        "start": 831.589,
+        "duration": 2.45
+    },
+    {
+        "text": "They add, you know there's first, second, third, and so on. Once you've you know, you've gone all the way through the natural numbers",
+        "start": 834.04,
+        "duration": 4.709
+    },
+    {
+        "text": "where's d'you go next?",
+        "start": 838.749,
+        "duration": 0.991
+    },
+    {
+        "text": "Well infinity, right? So I can talk about infinity, which I just - I write as the ordinal infinity,",
+        "start": 839.74,
+        "duration": 5.7
+    },
+    {
+        "text": "I write as an Omega. And that's basically the final - it's the thing that comes after",
+        "start": 845.44,
+        "duration": 3.839
+    },
+    {
+        "text": "all the others. All these, all these finite ordinals. The thing that comes after, is ordinal infinity.",
+        "start": 849.949,
+        "duration": 6.14
+    },
+    {
+        "text": "So that gives me a way to climb a bit higher. So I'm going to define a new",
+        "start": 856.089,
+        "duration": 3.809
+    },
+    {
+        "text": "type of function.",
+        "start": 860.87,
+        "duration": 1.709
+    },
+    {
+        "text": "Okay, that's labeled by this guy. Now, how am I going to do that?",
+        "start": 862.579,
+        "duration": 3.679
+    },
+    {
+        "text": "So I'm just going to draw some of the fs that we've already already created.",
+        "start": 866.29,
+        "duration": 3.239
+    },
+    {
+        "text": "Okay, so let me just draw a few of them. So f_1 of 1, ok f_1 of 2,",
+        "start": 869.529,
+        "duration": 4.83
+    },
+    {
+        "text": "f_2 of 1, f_2...",
+        "start": 874.91,
+        "duration": 2.0
+    },
+    {
+        "text": "Ok, so here are some of the, some of the fs that we've - we could carry on right, in all directions.\n- (Brady: Where you've put an)",
+        "start": 879.11,
+        "duration": 5.029
+    },
+    {
+        "text": "(integer in the, in the place of the n?)\nYeah exactly. I'm actually going to look at their values now.",
+        "start": 884.139,
+        "duration": 5.04
+    },
+    {
+        "text": "Ok, so, you know if I go along this way, I'm sort of changing the argument, I'm increasing the argument. If I go this way",
+        "start": 889.43,
+        "duration": 5.75
+    },
+    {
+        "text": "I'm increasing the index. Okay, so let's just plug in some values for what these guys are.",
+        "start": 895.18,
+        "duration": 3.929
+    },
+    {
+        "text": "This is 2, 4 this is 6, so indeed",
+        "start": 899.11,
+        "duration": 3.27
+    },
+    {
+        "text": "I grow as I grow that way.\n- (Brady: That was our, that was that doubling)",
+        "start": 902.38,
+        "duration": 3.239
+    },
+    {
+        "text": "So this guy is 2, this guy is 8, this guy is 24.",
+        "start": 905.62,
+        "duration": 4.38
+    },
+    {
+        "text": "This guy is 2, this guy is 2048 - bigger number. This next guy",
+        "start": 910.22,
+        "duration": 4.88
+    },
+    {
+        "text": "I'm not gonna write it out because it has 121 million digits. This guy is huge.\n- (Brady: That escalated quickly)",
+        "start": 915.13,
+        "duration": 5.309
+    },
+    {
+        "text": "That did, that did escalate quickly as umm, what's his name Ron whatsit, can't remember his name now",
+        "start": 921.0,
+        "duration": 5.2
+    },
+    {
+        "text": "Okay\n- (Brady: Ron Burgundy!)\n- Ron Burgundy, yeah, yeah, yeah",
+        "start": 926.449,
+        "duration": 2.851
+    },
+    {
+        "text": "So this is gone out of control quite quickly. \n- (Brady: Amazing thing is, you're only at f_3 here)",
+        "start": 929.3,
+        "duration": 5.989
+    },
+    {
+        "text": "Yeah I know.\n- (Brady: That escalated really quickly, f can go like)",
+        "start": 935.29,
+        "duration": 3.21
+    },
+    {
+        "text": "(to the millions and you still say we're nowhere near the power we need to deal with Graham's number and - )\n- Very very true,",
+        "start": 938.7,
+        "duration": 6.488
+    },
+    {
+        "text": "right, but let's, but what I want to do is I want to create create an f,",
+        "start": 945.189,
+        "duration": 3.63
+    },
+    {
+        "text": "so like - which I'm going to label with Omega, that grows more quickly than anything that's gone before.",
+        "start": 949.01,
+        "duration": 3.949
+    },
+    {
+        "text": "So, how do I do that? Okay. Well, what's the quickest way",
+        "start": 953.51,
+        "duration": 3.019
+    },
+    {
+        "text": "I can grow in this picture? If I start out over here, what's the quickest way to grow?",
+        "start": 956.529,
+        "duration": 3.96
+    },
+    {
+        "text": "Straight along the diagonal, yeah, right you go straight along. If you go this way, you get, well look in two steps,",
+        "start": 962.66,
+        "duration": 4.909
+    },
+    {
+        "text": "you're suddenly at 121 million digits. If I went to the next step, and I went to f_4 of 4, then I think this guy's somewhere between",
+        "start": 967.569,
+        "duration": 7.35
+    },
+    {
+        "text": "10, three arrows, 4 and 10, three arrows,",
+        "start": 975.6,
+        "duration": 2.28
+    },
+    {
+        "text": "5. It's in that interval. Okay. So going along the diagonal gets you really big, really quickly.",
+        "start": 979.1,
+        "duration": 5.69
+    },
+    {
+        "text": "In fact, it's much more fast growing than anything that went before.",
+        "start": 984.79,
+        "duration": 3.57
+    },
+    {
+        "text": "Okay, so that's what we're going to call f_omega. Something - the base of the guy that picks out the growth along the diagonal. So",
+        "start": 989.149,
+        "duration": 6.65
+    },
+    {
+        "text": "we can define that. So we just write that as f of",
+        "start": 995.8,
+        "duration": 3.299
+    },
+    {
+        "text": "Omega over n. We're going to define as f of n",
+        "start": 1000.04,
+        "duration": 4.01
+    },
+    {
+        "text": "of n. That's basically saying pick out the diagonal.",
+        "start": 1004.899,
+        "duration": 3.23
+    },
+    {
+        "text": "So this would be the first position, second, third - already 121 million digits - fourth - already this stupidness. All the way down there",
+        "start": 1008.13,
+        "duration": 7.709
+    },
+    {
+        "text": "we're just gonna get crazy. We're gonna get a really, really, fast growing function.",
+        "start": 1015.839,
+        "duration": 3.66
+    },
+    {
+        "text": "Okay, now what kind of function is, is this gonna look like? Well, actually you can show that this",
+        "start": 1020.199,
+        "duration": 5.69
+    },
+    {
+        "text": "is kind of, generally going to be greater than something that goes like this, Where you've got n minus 1 arrows.",
+        "start": 1026.53,
+        "duration": 6.469
+    },
+    {
+        "text": "So this is like kind of building up the arrows. Which might sound like something that we've done before,",
+        "start": 1033.339,
+        "duration": 4.52
+    },
+    {
+        "text": "which is how we built Graham's number, it built up the arrows and you know, the index kind of went on the arrow.",
+        "start": 1038.319,
+        "duration": 4.01
+    },
+    {
+        "text": "Which made you get really, really big. That's why these other functions; these, these guys were never able to do as well as Graham.",
+        "start": 1042.459,
+        "duration": 6.32
+    },
+    {
+        "text": "Okay, because they weren't really hitting the index on the arrow. Okay, the arrow - putting it on the arrow makes it grow much more quickly.",
+        "start": 1049.059,
+        "duration": 5.42
+    },
+    {
+        "text": "So this guy's doing it- it's doing much better. Okay, we can talk about our next ordinal, the one after Omega.",
+        "start": 1054.58,
+        "duration": 6.5
+    },
+    {
+        "text": "Okay, the one after infinity, that's kind of weird. I'm just going to call it",
+        "start": 1061.39,
+        "duration": 2.75
+    },
+    {
+        "text": "Omega plus 1.",
+        "start": 1064.69,
+        "duration": 1.8
+    },
+    {
+        "text": "Right, now you may say what, what on Earth is that?",
+        "start": 1066.49,
+        "duration": 2.21
+    },
+    {
+        "text": "That's clearly nonsense, right? You're talking about infinity plus 1. Well, isn't infinity plus 1 just infinity?",
+        "start": 1068.77,
+        "duration": 6.199
+    },
+    {
+        "text": "That's not really true when you're talking about ordinals, depending on how you define it. What I really mean by this,",
+        "start": 1074.97,
+        "duration": 4.77
+    },
+    {
+        "text": "I mean the thing that comes after what went before. What comes after",
+        "start": 1079.74,
+        "duration": 3.989
+    },
+    {
+        "text": "Omega, Okay, so by definition it's not the same thing.",
+        "start": 1084.58,
+        "duration": 2.51
+    },
+    {
+        "text": "Okay, you can't really do that with the cardinals, but you can with ordinals because the order matters.",
+        "start": 1087.61,
+        "duration": 4.489
+    },
+    {
+        "text": "Okay, so I can, quite reliably, talk about something that is - that just comes after this ordinal infinity. It's the next one along.",
+        "start": 1092.53,
+        "duration": 5.929
+    },
+    {
+        "text": "How do I get that eh? Well, I already know how to add 1 to my sequence of fast-growing functions.",
+        "start": 1098.46,
+        "duration": 4.859
+    },
+    {
+        "text": "I just do it the usual way right? I do f of Omega plus 1 is just an application of this guy n times.",
+        "start": 1103.32,
+        "duration": 7.48
+    },
+    {
+        "text": "Okay, so it's f of Omega n, n.",
+        "start": 1111.47,
+        "duration": 3.409
+    },
+    {
+        "text": "Now this is starting to terrify me now because look how fast this guy grew. This was, this was, this was growing with, with putting",
+        "start": 1115.76,
+        "duration": 5.93
+    },
+    {
+        "text": "basically index, indices going on the arrows. This guy's just got off on one now. This is even faster than that.",
+        "start": 1121.85,
+        "duration": 5.54
+    },
+    {
+        "text": "This is, this is mad.",
+        "start": 1127.39,
+        "duration": 0.84
+    },
+    {
+        "text": "I don't even want to yeah, I think you can relate this to these Conway chains.",
+        "start": 1128.23,
+        "duration": 4.41
+    },
+    {
+        "text": "But I don't even want to go there about how big this is growing. But I don't need to stop!",
+        "start": 1133.07,
+        "duration": 4.969
+    },
+    {
+        "text": "Okay, I could carry on. All right, I could carry on. I could just go,",
+        "start": 1138.04,
+        "duration": 3.359
+    },
+    {
+        "text": "okay Omega plus 2, and so on. Right, I can keep going, I could keep defining these functions this way, right. Eventually",
+        "start": 1141.4,
+        "duration": 6.81
+    },
+    {
+        "text": "I would run out of things to add. Well, what do I do then? Well, I just add Omega.",
+        "start": 1148.25,
+        "duration": 5.18
+    },
+    {
+        "text": "Okay, so we're define an Omega, This - the limit of this I would then add something on top of that which was this, which I",
+        "start": 1154.22,
+        "duration": 6.929
+    },
+    {
+        "text": "call Omega 2. It's a kind of next level of ordinals.",
+        "start": 1161.149,
+        "duration": 2.84
+    },
+    {
+        "text": "Okay, but I don't need to stop then. I can carry on. I can do Omega 2 plus 1. And all the while I'm defining",
+        "start": 1164.6,
+        "duration": 5.84
+    },
+    {
+        "text": "new functions this way. Okay Omega - what - Omega 2 plus 2. Keep going until eventually I run out of",
+        "start": 1170.44,
+        "duration": 7.529
+    },
+    {
+        "text": "the finite numbers to add, and then I just say well the next one is gonna be Omega 2 plus Omega,",
+        "start": 1178.7,
+        "duration": 3.859
+    },
+    {
+        "text": "which I'm gonna call Omega times 3.",
+        "start": 1183.11,
+        "duration": 2.21
+    },
+    {
+        "text": "Okay, but now look what I've got. So all the while I've functions that're coming along for the ride,",
+        "start": 1186.38,
+        "duration": 4.4
+    },
+    {
+        "text": "they're just going mad, right? Now, so what's next?",
+        "start": 1190.78,
+        "duration": 2.76
+    },
+    {
+        "text": "Okay, so so what about I've built now, I've managed to get well, there's like an Omega times 1 which is just Omega.",
+        "start": 1193.54,
+        "duration": 5.339
+    },
+    {
+        "text": "I've also got Omega times 2 and Omega times 3. Ok, so I can start building this sequence up as well.",
+        "start": 1199.01,
+        "duration": 7.25
+    },
+    {
+        "text": "Okay, just by doing these, these repeated additions. Okay. Well eventually I'm gonna run out. What do I do then?",
+        "start": 1207.23,
+        "duration": 5.239
+    },
+    {
+        "text": "Well, I say the next one along is Omega times Omega,",
+        "start": 1212.5,
+        "duration": 2.34
+    },
+    {
+        "text": "which is Omega squared.",
+        "start": 1215.42,
+        "duration": 1.89
+    },
+    {
+        "text": "Okay, so I can talk about a function which is growing like f of Omega squared, which is - ahh -",
+        "start": 1217.31,
+        "duration": 4.969
+    },
+    {
+        "text": "I don't even know what it is. Right? It's mad. It's just gonna be something crazy.",
+        "start": 1222.28,
+        "duration": 3.0
+    },
+    {
+        "text": "I can carry on building these Omegas.",
+        "start": 1225.28,
+        "duration": 1.81
+    },
+    {
+        "text": "Omega to the Omega, Omega to the Omega to the Omega, Omega to the Omega to the Omega to the Omega....",
+        "start": 1227.09,
+        "duration": 6.259
+    },
+    {
+        "text": "Until I run out. Well, what do I do then? Okay",
+        "start": 1233.41,
+        "duration": 4.26
+    },
+    {
+        "text": "well, then there's another ordinal which you call",
+        "start": 1237.67,
+        "duration": 2.0
+    },
+    {
+        "text": "Epsilon-naught which is kind of like an ordinal infinity that's just - wow!",
+        "start": 1240.26,
+        "duration": 2.78
+    },
+    {
+        "text": "It's just way out there. Way bigger than this guy, way bigger than any of these. And there's a, there's a, there's a growing",
+        "start": 1243.4,
+        "duration": 5.25
+    },
+    {
+        "text": "function which is labelled by that as well. It doesn't even bear thinking about how fast that grows.",
+        "start": 1248.72,
+        "duration": 5.089
+    },
+    {
+        "text": "Okay, you can carry on, There's a whole system of this,",
+        "start": 1254.54,
+        "duration": 2.54
+    },
+    {
+        "text": "you can play with this play with this sort of technology all the way.",
+        "start": 1257.08,
+        "duration": 2.64
+    },
+    {
+        "text": "You have Epsilon, you can define Epsilon-naught,  you can build up more and more; Epsilon_1.",
+        "start": 1259.85,
+        "duration": 4.61
+    },
+    {
+        "text": "You can even start talking about Epsilon with an index which is Epsilon- naught",
+        "start": 1264.92,
+        "duration": 3.02
+    },
+    {
+        "text": "itself. And then you can have another index which is Epsilon, Epsilon-naught and you can grow, grow, grow, grow,",
+        "start": 1268.31,
+        "duration": 5.719
+    },
+    {
+        "text": "grow. Your next thing is called, well the next one is called, sorry,",
+        "start": 1274.03,
+        "duration": 2.939
+    },
+    {
+        "text": "a zeta number. And then there's an Eta number, and then eventually you just keep going and use these - these things called Veblen",
+        "start": 1277.76,
+        "duration": 6.65
+    },
+    {
+        "text": "hierarchies, and all this. And then eventually you get to a point where you've got something which is just off the scale,",
+        "start": 1284.6,
+        "duration": 5.21
+    },
+    {
+        "text": "massive ordinal. Which is called gamma 0. It's called the Feferman–Schütte ordinal.",
+        "start": 1290.9,
+        "duration": 4.969
+    },
+    {
+        "text": "It's the largest thing that you can create using these kind of recursion methods, and this thing called Veblen hierarchy, which we ,go",
+        "start": 1295.87,
+        "duration": 5.46
+    },
+    {
+        "text": "I'm going to -",
+        "start": 1301.33,
+        "duration": 0.97
+    },
+    {
+        "text": "And the point is, is fs that can come along for the ride.",
+        "start": 1302.3,
+        "duration": 2.54
+    },
+    {
+        "text": "Does it even bear thinking about what f of gamma 0 grows like ok?",
+        "start": 1305.06,
+        "duration": 4.969
+    },
+    {
+        "text": "This is a crazily fast growing function right? I mean just,",
+        "start": 1310.1,
+        "duration": 4.4
+    },
+    {
+        "text": "it was so far away we didn't even - we didn't even bother to describe it, right? Okay, so that's the million dollar question.",
+        "start": 1315.71,
+        "duration": 6.649
+    },
+    {
+        "text": "Or the TREE three dollar question, right?",
+        "start": 1323.0,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, where does where does the g sequence, the Graham sequence, and the TREE sequence lie in all of this?",
+        "start": 1325.16,
+        "duration": 6.38
+    },
+    {
+        "text": "(Brady: So what what f, what function do we build that's gonna keep pace with TREE and - )",
+        "start": 1331.61,
+        "duration": 5.63
+    },
+    {
+        "text": "Exactly, which which of these fs can keep pace with either g or TREE?",
+        "start": 1337.82,
+        "duration": 4.309
+    },
+    {
+        "text": "Okay, let me tell you.",
+        "start": 1342.98,
+        "duration": 2.0
+    },
+    {
+        "text": "Let's do a g first.",
+        "start": 1345.59,
+        "duration": 1.71
+    },
+    {
+        "text": "g we can handle, okay, g doesn't grow as fast",
+        "start": 1347.3,
+        "duration": 3.5
+    },
+    {
+        "text": "as f Omega plus 1. It doesn't grow as fast as that. You can kind of see why right? Already at f of Omega",
+        "start": 1351.2,
+        "duration": 6.619
+    },
+    {
+        "text": "we're starting to see the sort of index appearing on the arrows, which is kind of like how Graham's number is built,",
+        "start": 1357.86,
+        "duration": 4.91
+    },
+    {
+        "text": "Okay, so Graham's sequence, umm, grows -",
+        "start": 1363.17,
+        "duration": 3.17
+    },
+    {
+        "text": "doesn't grow any faster than this guy. Okay, what about TREE?",
+        "start": 1367.34,
+        "duration": 3.17
+    },
+    {
+        "text": "TREE grows faster than this. It grows faster, it even grows faster than this guy.",
+        "start": 1373.82,
+        "duration": 5.33
+    },
+    {
+        "text": "TREE grows faster than this. So none of these guys can handle TREE.",
+        "start": 1379.91,
+        "duration": 4.789
+    },
+    {
+        "text": "The TREE sequence grows faster than all of them. Now,",
+        "start": 1385.429,
+        "duration": 2.84
+    },
+    {
+        "text": "you can go beyond Gamma 0, if you want to. It all gets really quite messy.",
+        "start": 1388.64,
+        "duration": 5.27
+    },
+    {
+        "text": "So we're not going to go there. Safe to say that TREE is off the scale fast growing. Even faster than this guy.",
+        "start": 1393.95,
+        "duration": 5.78
+    },
+    {
+        "text": "Whereas we could handle g.",
+        "start": 1399.92,
+        "duration": 1.34
+    },
+    {
+        "text": "So the answer to the original question was that yes indeed TREE does have a lot more juice than g.",
+        "start": 1401.26,
+        "duration": 5.699
+    },
+    {
+        "text": "So TREE of Graham's number is bigger than Graham of TREE. Essentially.",
+        "start": 1407.45,
+        "duration": 4.95
+    },
+    {
+        "text": "If you'd like some more from this interview,",
+        "start": 1412.6,
+        "duration": 2.19
+    },
+    {
+        "text": "or maybe you'd like to watch some more videos about really big numbers, or you'd like to learn more about trees,",
+        "start": 1414.89,
+        "duration": 5.66
+    },
+    {
+        "text": "check out the links on the screen and down in the video description. There's some stuff there we'd love you to see",
+        "start": 1421.16,
+        "duration": 5.149
+    }
+]

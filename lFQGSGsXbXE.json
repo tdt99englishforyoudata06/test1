@@ -1,0 +1,1387 @@
+[
+    {
+        "text": "ZVEZDELINA STANKOVA: So here is the game.",
+        "start": 0.0,
+        "duration": 1.48
+    },
+    {
+        "text": "BRADY HARAN: Has it got a name?",
+        "start": 1.48,
+        "duration": 1.48
+    },
+    {
+        "text": "ZVEZDELINA: \"Pebbling a Chessboard\", perhaps?\nOr…",
+        "start": 3.98,
+        "duration": 2.9
+    },
+    {
+        "text": "\"Freeing the Clones﻿\".",
+        "start": 6.88,
+        "duration": 1.6
+    },
+    {
+        "text": "BRADY HARAN: The clones?",
+        "start": 8.72,
+        "duration": 0.94
+    },
+    {
+        "text": "ZVEZDELINA: The clones.",
+        "start": 9.66,
+        "duration": 0.78
+    },
+    {
+        "text": "BRADY HARAN: The clones. \"Freeing the Clones\".",
+        "start": 10.44,
+        "duration": 1.4
+    },
+    {
+        "text": "ZVEZDELINA: Okay, so we have pebbles,",
+        "start": 11.84,
+        "duration": 1.62
+    },
+    {
+        "text": "which we will call clones,",
+        "start": 13.46,
+        "duration": 1.68
+    },
+    {
+        "text": "because they will be able to move according to the following rule:",
+        "start": 15.14,
+        "duration": 3.56
+    },
+    {
+        "text": "Every clone clones itself one to the right,",
+        "start": 18.7,
+        "duration": 4.24
+    },
+    {
+        "text": "and one up,",
+        "start": 22.94,
+        "duration": 2.0
+    },
+    {
+        "text": "and disappears.",
+        "start": 24.94,
+        "duration": 1.6
+    },
+    {
+        "text": "Now this move can be carried anywhere on the board,",
+        "start": 26.66,
+        "duration": 4.56
+    },
+    {
+        "text": "as long as the position[s] to the right and up are free.",
+        "start": 31.22,
+        "duration": 4.98
+    },
+    {
+        "text": "And so, again, we can replace our guy",
+        "start": 36.2,
+        "duration": 2.92
+    },
+    {
+        "text": "by two clones, and remove him.",
+        "start": 39.12,
+        "duration": 2.76
+    },
+    {
+        "text": "For instance:",
+        "start": 41.88,
+        "duration": 1.3
+    },
+    {
+        "text": "In this situation, this guy cannot clone,",
+        "start": 43.34,
+        "duration": 3.54
+    },
+    {
+        "text": "because the cell to its right is not free.",
+        "start": 46.88,
+        "duration": 4.26
+    },
+    {
+        "text": "So in other words, we cannot put two or more clones in one cell.",
+        "start": 51.28,
+        "duration": 4.36
+    },
+    {
+        "text": "Okay, now the board, as you can see, is a chessboard, what we are showing here.",
+        "start": 55.64,
+        "duration": 6.02
+    },
+    {
+        "text": "But the actual game is played on an infinite board,",
+        "start": 61.66,
+        "duration": 3.72
+    },
+    {
+        "text": "which is infinite to the right and up.",
+        "start": 65.38,
+        "duration": 2.96
+    },
+    {
+        "text": "We have these unfortunate clones inside a prison.",
+        "start": 68.34,
+        "duration": 3.56
+    },
+    {
+        "text": "So, there is a prison which consists of three cells,",
+        "start": 71.9,
+        "duration": 3.84
+    },
+    {
+        "text": "as you can see on this picture.",
+        "start": 75.74,
+        "duration": 1.96
+    },
+    {
+        "text": "The [?] barbed fence is enclosing these three cells.",
+        "start": 77.7,
+        "duration": 3.92
+    },
+    {
+        "text": "And our clones want to escape the prison.",
+        "start": 81.62,
+        "duration": 3.46
+    },
+    {
+        "text": "Can you construct a sequence of moves —",
+        "start": 85.08,
+        "duration": 4.16
+    },
+    {
+        "text": "— and you're the boss, you decide what order, which clones to clone —",
+        "start": 89.24,
+        "duration": 5.7
+    },
+    {
+        "text": "— so that the three clones will escape the prison,",
+        "start": 95.24,
+        "duration": 3.54
+    },
+    {
+        "text": "and the prison will be… with no clones.",
+        "start": 98.78,
+        "duration": 2.66
+    },
+    {
+        "text": "There will be no prisoners.",
+        "start": 101.72,
+        "duration": 1.6
+    },
+    {
+        "text": "Okay, so let's play the game.",
+        "start": 103.32,
+        "duration": 2.12
+    },
+    {
+        "text": "For instance, we can do this.",
+        "start": 105.44,
+        "duration": 2.08
+    },
+    {
+        "text": "Perhaps that.",
+        "start": 107.52,
+        "duration": 2.04
+    },
+    {
+        "text": "Now we can free another clone from the prison.",
+        "start": 109.56,
+        "duration": 3.18
+    },
+    {
+        "text": "And then we can try the last clone,",
+        "start": 113.1,
+        "duration": 3.08
+    },
+    {
+        "text": "but unfortunately, there is a lot of crowding appearing.",
+        "start": 116.18,
+        "duration": 4.38
+    },
+    {
+        "text": "Well, the game itself is very easy.",
+        "start": 120.56,
+        "duration": 2.04
+    },
+    {
+        "text": "It's very tantalizing.",
+        "start": 122.6,
+        "duration": 1.42
+    },
+    {
+        "text": "Really, my intuitive feeling in the beginning was,",
+        "start": 124.02,
+        "duration": 2.36
+    },
+    {
+        "text": "\"Sure, I can free the clones. What's stopping me?\"",
+        "start": 126.38,
+        "duration": 3.02
+    },
+    {
+        "text": "But after lots and lots of trials,",
+        "start": 129.56,
+        "duration": 3.66
+    },
+    {
+        "text": "one might start thinking the other way around —",
+        "start": 133.78,
+        "duration": 2.78
+    },
+    {
+        "text": "— perhaps it is impossible.",
+        "start": 136.56,
+        "duration": 1.78
+    },
+    {
+        "text": "Well, before you move on with the video,",
+        "start": 138.34,
+        "duration": 1.94
+    },
+    {
+        "text": "you should probably stop it,",
+        "start": 140.28,
+        "duration": 1.28
+    },
+    {
+        "text": "and play for five, ten minutes,",
+        "start": 141.56,
+        "duration": 2.0
+    },
+    {
+        "text": "and see what the outcome is.",
+        "start": 143.56,
+        "duration": 1.86
+    },
+    {
+        "text": "Now, there are two outcomes:",
+        "start": 145.6,
+        "duration": 2.12
+    },
+    {
+        "text": "If you think it is possible,",
+        "start": 147.72,
+        "duration": 1.88
+    },
+    {
+        "text": "one particular way of freeing the clones,",
+        "start": 149.84,
+        "duration": 3.28
+    },
+    {
+        "text": "one particular game, is enough.",
+        "start": 153.12,
+        "duration": 3.1
+    },
+    {
+        "text": "It's sufficient.",
+        "start": 156.22,
+        "duration": 0.88
+    },
+    {
+        "text": "I don't want to see every possible way of freeing the clones.",
+        "start": 157.1,
+        "duration": 3.9
+    },
+    {
+        "text": "However…",
+        "start": 161.12,
+        "duration": 1.44
+    },
+    {
+        "text": "If you think it is impossible,",
+        "start": 162.56,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, that's a question that mathematicians deal with on a daily basis.",
+        "start": 170.2,
+        "duration": 4.3
+    },
+    {
+        "text": "There are infinitely many games that you can try.",
+        "start": 174.72,
+        "duration": 2.96
+    },
+    {
+        "text": "Can you feed this into a computer?",
+        "start": 178.0,
+        "duration": 2.46
+    },
+    {
+        "text": "Well, computers don't really like infinite games.",
+        "start": 180.46,
+        "duration": 3.54
+    },
+    {
+        "text": "The calculation has to stop at some point.",
+        "start": 184.44,
+        "duration": 3.04
+    },
+    {
+        "text": "So computers perhaps are not an option.",
+        "start": 187.66,
+        "duration": 2.82
+    },
+    {
+        "text": "We need a human mind to resolve this puzzle.",
+        "start": 191.04,
+        "duration": 3.42
+    },
+    {
+        "text": "It has been solved by a human mind,",
+        "start": 194.46,
+        "duration": 2.54
+    },
+    {
+        "text": "and when Maxim Kontsevich proposed the problem,",
+        "start": 197.0,
+        "duration": 3.08
+    },
+    {
+        "text": "he had a particular solution in mind,",
+        "start": 200.08,
+        "duration": 2.64
+    },
+    {
+        "text": "which to this day is, I believe, the most elegant one.",
+        "start": 202.72,
+        "duration": 2.88
+    },
+    {
+        "text": "It is NOT possible, actually, to free the prison,",
+        "start": 205.6,
+        "duration": 3.82
+    },
+    {
+        "text": "but it is possible to prove that it is impossible.",
+        "start": 209.42,
+        "duration": 4.1
+    },
+    {
+        "text": "We will assign, to every cell of our board, a number.",
+        "start": 213.52,
+        "duration": 5.86
+    },
+    {
+        "text": "We'll just basically write the number there.",
+        "start": 219.38,
+        "duration": 2.08
+    },
+    {
+        "text": "So a move is made like that, everywhere.",
+        "start": 221.46,
+        "duration": 3.22
+    },
+    {
+        "text": "So what we need is to assign numbers",
+        "start": 225.06,
+        "duration": 4.14
+    },
+    {
+        "text": "in these three cells.",
+        "start": 229.2,
+        "duration": 1.04
+    },
+    {
+        "text": "So we have an old cell, and two new cells.",
+        "start": 230.24,
+        "duration": 3.18
+    },
+    {
+        "text": "So, in principle you can use three numbers for this,",
+        "start": 233.52,
+        "duration": 3.16
+    },
+    {
+        "text": "but because the game is symmetric along the diagonal,",
+        "start": 236.68,
+        "duration": 3.88
+    },
+    {
+        "text": "you might try only two numbers",
+        "start": 240.56,
+        "duration": 2.32
+    },
+    {
+        "text": "to make the solution easier, and more elegant.",
+        "start": 242.88,
+        "duration": 2.88
+    },
+    {
+        "text": "So something like this.",
+        "start": 245.76,
+        "duration": 1.66
+    },
+    {
+        "text": "The old number is \"a\", the two new numbers are \"b\".",
+        "start": 247.42,
+        "duration": 2.78
+    },
+    {
+        "text": "Alright, so what we want is the old number \"a\"",
+        "start": 250.2,
+        "duration": 4.16
+    },
+    {
+        "text": "to be equal to the sum of the two new numbers \"b\".",
+        "start": 254.36,
+        "duration": 3.66
+    },
+    {
+        "text": "So a must be equal to 2b,",
+        "start": 258.66,
+        "duration": 2.4
+    },
+    {
+        "text": "making the old sum equal to the new sum.",
+        "start": 261.06,
+        "duration": 2.88
+    },
+    {
+        "text": "So, what number can we put in the bottom left cell?",
+        "start": 263.94,
+        "duration": 5.18
+    },
+    {
+        "text": "In the first cell?",
+        "start": 269.12,
+        "duration": 1.0
+    },
+    {
+        "text": "Let's think of the very first number",
+        "start": 270.12,
+        "duration": 2.06
+    },
+    {
+        "text": "that you learned in school.",
+        "start": 272.18,
+        "duration": 1.84
+    },
+    {
+        "text": "BRADY HARAN: One.",
+        "start": 274.22,
+        "duration": 0.92
+    },
+    {
+        "text": "ZVEZDELINA: One. Okay, let's see.",
+        "start": 275.14,
+        "duration": 0.94
+    },
+    {
+        "text": "Is that gonna work?",
+        "start": 276.08,
+        "duration": 0.84
+    },
+    {
+        "text": "Let's try 1.",
+        "start": 276.92,
+        "duration": 1.4
+    },
+    {
+        "text": "But that forces us",
+        "start": 278.32,
+        "duration": 1.56
+    },
+    {
+        "text": "to put in the two adjacent cells up and to the right,",
+        "start": 279.88,
+        "duration": 4.28
+    },
+    {
+        "text": "one half.",
+        "start": 284.16,
+        "duration": 1.42
+    },
+    {
+        "text": "And each of those one halves forces a quarter.",
+        "start": 286.4,
+        "duration": 3.56
+    },
+    {
+        "text": "So, suppose this chip has a certain weight,",
+        "start": 290.48,
+        "duration": 3.34
+    },
+    {
+        "text": "which it does.",
+        "start": 293.82,
+        "duration": 1.04
+    },
+    {
+        "text": "The way you can think of it is:",
+        "start": 294.86,
+        "duration": 1.9
+    },
+    {
+        "text": "Cut it in half, and then put it on the two new squares.",
+        "start": 296.76,
+        "duration": 5.58
+    },
+    {
+        "text": "Now if I take this guy, whose weight is one half,",
+        "start": 302.34,
+        "duration": 3.16
+    },
+    {
+        "text": "I can replace it by two chips whose weights are one quarter.",
+        "start": 305.5,
+        "duration": 6.24
+    },
+    {
+        "text": "So again, the total weight stays the same.",
+        "start": 311.74,
+        "duration": 3.66
+    },
+    {
+        "text": "In fact, in the very beginning, what is our initial weight?",
+        "start": 315.4,
+        "duration": 5.28
+    },
+    {
+        "text": "So we have… One, plus a half, plus a half.",
+        "start": 320.68,
+        "duration": 4.62
+    },
+    {
+        "text": "This is what you have in the prison, which is 2.",
+        "start": 325.3,
+        "duration": 2.66
+    },
+    {
+        "text": "Alright, so let's make a move.",
+        "start": 329.38,
+        "duration": 1.94
+    },
+    {
+        "text": "Let's replace this bottom guy by two new clones.",
+        "start": 331.32,
+        "duration": 4.3
+    },
+    {
+        "text": "So now what do we have?",
+        "start": 335.62,
+        "duration": 1.28
+    },
+    {
+        "text": "We have one, plus a half, plus a fourth, plus a fourth.",
+        "start": 336.9,
+        "duration": 6.78
+    },
+    {
+        "text": "But hey! That also equals 2!",
+        "start": 344.0,
+        "duration": 3.38
+    },
+    {
+        "text": "So indeed, we've got an invariant.",
+        "start": 347.42,
+        "duration": 2.76
+    },
+    {
+        "text": "And [?] saying, suppose you can free the prison.",
+        "start": 350.38,
+        "duration": 3.26
+    },
+    {
+        "text": "So there is no one in the prison.",
+        "start": 353.78,
+        "duration": 2.08
+    },
+    {
+        "text": "And we have added, perhaps, along the way,",
+        "start": 355.86,
+        "duration": 2.74
+    },
+    {
+        "text": "lots of clones.",
+        "start": 358.6,
+        "duration": 1.06
+    },
+    {
+        "text": "Now where are the clones?",
+        "start": 360.16,
+        "duration": 1.58
+    },
+    {
+        "text": "The clones are outside of the prison,",
+        "start": 362.2,
+        "duration": 3.0
+    },
+    {
+        "text": "which we can call…",
+        "start": 365.38,
+        "duration": 3.04
+    },
+    {
+        "text": "Greenland!",
+        "start": 368.42,
+        "duration": 1.06
+    },
+    {
+        "text": "So they are out, in the free land, in Greenland.",
+        "start": 369.7,
+        "duration": 3.8
+    },
+    {
+        "text": "So their weights have to add up to 2!",
+        "start": 373.5,
+        "duration": 4.18
+    },
+    {
+        "text": "Because this is invariant.",
+        "start": 377.68,
+        "duration": 1.62
+    },
+    {
+        "text": "But the question is,",
+        "start": 379.3,
+        "duration": 0.78
+    },
+    {
+        "text": "do we have enough weight in Greenland,",
+        "start": 380.08,
+        "duration": 2.5
+    },
+    {
+        "text": "or enough gasoline in Greenland,",
+        "start": 382.58,
+        "duration": 2.1
+    },
+    {
+        "text": "to add up to 2?",
+        "start": 384.68,
+        "duration": 1.42
+    },
+    {
+        "text": "Mathematicians may find that question",
+        "start": 386.1,
+        "duration": 2.44
+    },
+    {
+        "text": "a bit too hard to answer at first,",
+        "start": 388.54,
+        "duration": 2.7
+    },
+    {
+        "text": "because this Greenland is irregular,",
+        "start": 391.24,
+        "duration": 2.6
+    },
+    {
+        "text": "it has this area that we have to subtract —",
+        "start": 393.84,
+        "duration": 2.34
+    },
+    {
+        "text": "— the prison area.",
+        "start": 396.18,
+        "duration": 1.38
+    },
+    {
+        "text": "So mathematicians like to simplify the problem.",
+        "start": 397.56,
+        "duration": 2.42
+    },
+    {
+        "text": "Why not, instead of Greenland,",
+        "start": 400.62,
+        "duration": 2.38
+    },
+    {
+        "text": "let us first try to find the sum of the whole table.",
+        "start": 403.0,
+        "duration": 4.3
+    },
+    {
+        "text": "Forget about the prison.",
+        "start": 407.3,
+        "duration": 1.36
+    },
+    {
+        "text": "But that's still a very hard question,",
+        "start": 408.66,
+        "duration": 2.24
+    },
+    {
+        "text": "because you have two dimensions to move.",
+        "start": 411.02,
+        "duration": 2.58
+    },
+    {
+        "text": "One to the right, and one up.",
+        "start": 413.7,
+        "duration": 2.66
+    },
+    {
+        "text": "Okay, so mathematicians think-think-think, and say,",
+        "start": 416.9,
+        "duration": 3.42
+    },
+    {
+        "text": "\"Let's do a simpler problem!\"",
+        "start": 420.32,
+        "duration": 1.54
+    },
+    {
+        "text": "A related, but simpler problem.",
+        "start": 421.86,
+        "duration": 2.22
+    },
+    {
+        "text": "How about we test our skills",
+        "start": 424.32,
+        "duration": 2.66
+    },
+    {
+        "text": "on finding just the sum of the first row?",
+        "start": 426.98,
+        "duration": 4.28
+    },
+    {
+        "text": "For if we are not able to do this,",
+        "start": 432.04,
+        "duration": 2.34
+    },
+    {
+        "text": "probably we won't be able to add up the whole table!",
+        "start": 434.38,
+        "duration": 2.58
+    },
+    {
+        "text": "We start adding up the numbers in the first row,",
+        "start": 436.96,
+        "duration": 2.92
+    },
+    {
+        "text": "and this is a very interesting,",
+        "start": 439.88,
+        "duration": 2.62
+    },
+    {
+        "text": "perhaps familiar (to some people) sum.",
+        "start": 442.5,
+        "duration": 2.7
+    },
+    {
+        "text": "One, plus a half, plus a fourth, plus one eighth,",
+        "start": 445.66,
+        "duration": 4.02
+    },
+    {
+        "text": "and so on and so forth.",
+        "start": 449.68,
+        "duration": 1.34
+    },
+    {
+        "text": "If you have taken a calculus course,",
+        "start": 451.26,
+        "duration": 2.28
+    },
+    {
+        "text": "you will immediately recognize that this is something called a geometric series,",
+        "start": 453.54,
+        "duration": 3.96
+    },
+    {
+        "text": "with first term 1, and ratio one half.",
+        "start": 457.6,
+        "duration": 3.64
+    },
+    {
+        "text": "Which simply means, to get the next term,",
+        "start": 461.42,
+        "duration": 2.6
+    },
+    {
+        "text": "you have to multiply the previous one by a half.",
+        "start": 464.02,
+        "duration": 3.18
+    },
+    {
+        "text": "And this keeps on going forever.",
+        "start": 467.2,
+        "duration": 1.94
+    },
+    {
+        "text": "When I have shown this problem to…",
+        "start": 469.38,
+        "duration": 2.72
+    },
+    {
+        "text": "…kids in middle school, the reaction has always been,",
+        "start": 472.94,
+        "duration": 5.1
+    },
+    {
+        "text": "\"This adds up to something slightly less than 2.\"",
+        "start": 478.04,
+        "duration": 5.0
+    },
+    {
+        "text": "So you are a little bit short of 2;",
+        "start": 484.6,
+        "duration": 2.5
+    },
+    {
+        "text": "because they experimented,",
+        "start": 487.1,
+        "duration": 1.42
+    },
+    {
+        "text": "they added up a lot of those numbers,",
+        "start": 488.52,
+        "duration": 1.98
+    },
+    {
+        "text": "and said \"It's slightly less than 2.\"",
+        "start": 490.5,
+        "duration": 1.68
+    },
+    {
+        "text": "BRADY HARAN: It's never gonna quite get there.",
+        "start": 492.18,
+        "duration": 1.62
+    },
+    {
+        "text": "ZVEZDELINA: Never quite gonna get there.",
+        "start": 493.8,
+        "duration": 1.5
+    },
+    {
+        "text": "I say, \"Alright. So let's see what this number is!\"",
+        "start": 495.3,
+        "duration": 3.92
+    },
+    {
+        "text": "So if this sum of the first row is sum \"S\",",
+        "start": 500.0,
+        "duration": 5.26
+    },
+    {
+        "text": "\"S\" is equal to one, plus a half, plus a fourth,",
+        "start": 505.26,
+        "duration": 4.14
+    },
+    {
+        "text": "plus one eighth, and so on and so forth.",
+        "start": 509.4,
+        "duration": 2.86
+    },
+    {
+        "text": "What we can do, is multiply everything by two.",
+        "start": 512.74,
+        "duration": 5.12
+    },
+    {
+        "text": "So on the left, I get two [times] our sum,",
+        "start": 518.3,
+        "duration": 2.82
+    },
+    {
+        "text": "and on the right, every term will be multiplied by two.",
+        "start": 521.3,
+        "duration": 3.18
+    },
+    {
+        "text": "So you will get two, plus one, plus a half,",
+        "start": 524.7,
+        "duration": 5.1
+    },
+    {
+        "text": "plus a fourth, plus one eighth, and so on.",
+        "start": 529.8,
+        "duration": 3.66
+    },
+    {
+        "text": "But now we recognize",
+        "start": 533.96,
+        "duration": 1.86
+    },
+    {
+        "text": "that we know a big chunk of the right-hand side.",
+        "start": 535.82,
+        "duration": 4.08
+    },
+    {
+        "text": "From 1 on, this is our sum \"S\".",
+        "start": 540.16,
+        "duration": 2.9
+    },
+    {
+        "text": "So what we have obtained",
+        "start": 543.58,
+        "duration": 1.74
+    },
+    {
+        "text": "is what mathematicians love working with:",
+        "start": 545.32,
+        "duration": 4.28
+    },
+    {
+        "text": "An equation.",
+        "start": 549.6,
+        "duration": 1.44
+    },
+    {
+        "text": "2S on the left, 2 plus \"S\" on the right.",
+        "start": 551.24,
+        "duration": 5.16
+    },
+    {
+        "text": "Can we solve it? Certainly.",
+        "start": 556.8,
+        "duration": 2.94
+    },
+    {
+        "text": "We will subtract S from both sides,",
+        "start": 560.02,
+        "duration": 3.34
+    },
+    {
+        "text": "and we will end up on the left with S,",
+        "start": 563.36,
+        "duration": 2.94
+    },
+    {
+        "text": "and on the right with 2.",
+        "start": 566.3,
+        "duration": 2.56
+    },
+    {
+        "text": "Oops. Did we reach 2? Indeed we did.",
+        "start": 568.86,
+        "duration": 4.92
+    },
+    {
+        "text": "So if this row adds up to anything, there is no choice;",
+        "start": 573.78,
+        "duration": 3.88
+    },
+    {
+        "text": "it has got to be 2.",
+        "start": 577.66,
+        "duration": 1.42
+    },
+    {
+        "text": "[So] more generally,",
+        "start": 579.08,
+        "duration": 2.26
+    },
+    {
+        "text": "a geometric series is a sum of the form:",
+        "start": 581.34,
+        "duration": 3.04
+    },
+    {
+        "text": "a, plus ar, plus ar squared, ar cubed, and so on.",
+        "start": 584.56,
+        "duration": 5.26
+    },
+    {
+        "text": "Where we have a first term \"a\", and the ratio \"r\".",
+        "start": 589.82,
+        "duration": 4.08
+    },
+    {
+        "text": "In other words, every next term",
+        "start": 593.9,
+        "duration": 1.82
+    },
+    {
+        "text": "is gotten by the previous when you multiply by \"r\",",
+        "start": 595.72,
+        "duration": 3.6
+    },
+    {
+        "text": "just like in our first row.",
+        "start": 599.32,
+        "duration": 1.88
+    },
+    {
+        "text": "And so there is a nifty formula in mathematics.",
+        "start": 601.66,
+        "duration": 3.68
+    },
+    {
+        "text": "If this ratio is \"small\" —",
+        "start": 605.68,
+        "duration": 2.44
+    },
+    {
+        "text": "— how small? Between negative 1 and 1 —",
+        "start": 608.3,
+        "duration": 2.92
+    },
+    {
+        "text": "— this sum, this geometric series,",
+        "start": 611.56,
+        "duration": 2.62
+    },
+    {
+        "text": "actually adds up to something very simple:",
+        "start": 614.18,
+        "duration": 3.66
+    },
+    {
+        "text": "The first term, divided by 1 minus the ratio.",
+        "start": 617.84,
+        "duration": 4.34
+    },
+    {
+        "text": "And this formula works for any ratio,",
+        "start": 622.18,
+        "duration": 2.18
+    },
+    {
+        "text": "as long as it is between negative 1 and 1.",
+        "start": 624.36,
+        "duration": 2.52
+    },
+    {
+        "text": "And so we can double-check our previous result here.",
+        "start": 626.88,
+        "duration": 3.06
+    },
+    {
+        "text": "for the first row.",
+        "start": 629.94,
+        "duration": 1.96
+    },
+    {
+        "text": "In our situation, the first term was 1,",
+        "start": 631.9,
+        "duration": 2.5
+    },
+    {
+        "text": "and the ratio was one half.",
+        "start": 634.4,
+        "duration": 2.26
+    },
+    {
+        "text": "And what do we get,",
+        "start": 636.92,
+        "duration": 0.98
+    },
+    {
+        "text": "according to the formula?",
+        "start": 637.9,
+        "duration": 1.82
+    },
+    {
+        "text": "1 over 1 minus a half;",
+        "start": 640.04,
+        "duration": 2.34
+    },
+    {
+        "text": "1 over one half,",
+        "start": 642.6,
+        "duration": 2.0
+    },
+    {
+        "text": "which is our 2.",
+        "start": 644.6,
+        "duration": 1.32
+    },
+    {
+        "text": "Alright, so we are going to add up.",
+        "start": 646.14,
+        "duration": 2.28
+    },
+    {
+        "text": "The first row, as we saw, adds up to 2.",
+        "start": 649.42,
+        "duration": 2.94
+    },
+    {
+        "text": "Now how about the second row?",
+        "start": 652.68,
+        "duration": 1.78
+    },
+    {
+        "text": "The second row is almost like the first one,",
+        "start": 654.76,
+        "duration": 3.3
+    },
+    {
+        "text": "except every term is half as large;",
+        "start": 658.06,
+        "duration": 3.66
+    },
+    {
+        "text": "it's half of the previous one.",
+        "start": 661.72,
+        "duration": 2.0
+    },
+    {
+        "text": "So in other words, the sum should be half of our 2,",
+        "start": 663.72,
+        "duration": 3.36
+    },
+    {
+        "text": "which is 1.",
+        "start": 667.08,
+        "duration": 1.42
+    },
+    {
+        "text": "And now we see a repetition of this idea",
+        "start": 669.0,
+        "duration": 2.76
+    },
+    {
+        "text": "on the other rows:",
+        "start": 671.76,
+        "duration": 1.14
+    },
+    {
+        "text": "The third row should add up to one half;",
+        "start": 672.9,
+        "duration": 2.46
+    },
+    {
+        "text": "to one fourth; and so on and so forth.",
+        "start": 675.96,
+        "duration": 2.96
+    },
+    {
+        "text": "Because now we can add up the whole table,",
+        "start": 678.92,
+        "duration": 2.24
+    },
+    {
+        "text": "and we again end up with another geometric series,",
+        "start": 681.16,
+        "duration": 4.06
+    },
+    {
+        "text": "except that this time, the first term is 2;",
+        "start": 685.72,
+        "duration": 3.0
+    },
+    {
+        "text": "the ratio is still a half.",
+        "start": 688.72,
+        "duration": 2.4
+    },
+    {
+        "text": "Using similar arguments as before,",
+        "start": 691.12,
+        "duration": 2.28
+    },
+    {
+        "text": "we've gotten the total sum, is 4.",
+        "start": 693.4,
+        "duration": 3.04
+    },
+    {
+        "text": "Alright, so back to Greenland.",
+        "start": 696.74,
+        "duration": 2.4
+    },
+    {
+        "text": "We really wanted to check on Greenland.",
+        "start": 699.14,
+        "duration": 2.5
+    },
+    {
+        "text": "It is the total sum, 4, minus the prison sum which is 2;",
+        "start": 701.64,
+        "duration": 6.08
+    },
+    {
+        "text": "we end up with 2.",
+        "start": 707.72,
+        "duration": 1.92
+    },
+    {
+        "text": "So, it looks like",
+        "start": 709.64,
+        "duration": 1.6
+    },
+    {
+        "text": "we do have enough gasoline in Greenland.",
+        "start": 711.24,
+        "duration": 3.02
+    },
+    {
+        "text": "It looks like there is no contradiction,",
+        "start": 714.26,
+        "duration": 2.5
+    },
+    {
+        "text": "because we can fill in all of Greenland with clones,",
+        "start": 716.76,
+        "duration": 4.14
+    },
+    {
+        "text": "and get our new sum to 2.",
+        "start": 720.9,
+        "duration": 2.06
+    },
+    {
+        "text": "Which would mean that we can free the prison.",
+        "start": 722.96,
+        "duration": 3.08
+    },
+    {
+        "text": "Can we really fill ALL of Greenland with clones?",
+        "start": 726.04,
+        "duration": 5.4
+    },
+    {
+        "text": "Because, think about it:",
+        "start": 731.72,
+        "duration": 1.36
+    },
+    {
+        "text": "If you miss even one of those clones,",
+        "start": 733.08,
+        "duration": 3.8
+    },
+    {
+        "text": "your total sum in Greenland is going to be less than 2.",
+        "start": 736.88,
+        "duration": 4.22
+    },
+    {
+        "text": "But 2 is our invariant.",
+        "start": 741.1,
+        "duration": 2.4
+    },
+    {
+        "text": "We need to have 2.",
+        "start": 743.5,
+        "duration": 2.0
+    },
+    {
+        "text": "So we need to fill in every single cell in Greenland",
+        "start": 745.5,
+        "duration": 3.88
+    },
+    {
+        "text": "with a clone.",
+        "start": 749.38,
+        "duration": 1.08
+    },
+    {
+        "text": "Remember? We said we will free the clones.",
+        "start": 750.46,
+        "duration": 3.78
+    },
+    {
+        "text": "That's how we started.",
+        "start": 754.24,
+        "duration": 1.28
+    },
+    {
+        "text": "Alright. So at some moment, you say,",
+        "start": 755.52,
+        "duration": 1.72
+    },
+    {
+        "text": "\"That's it! I freed the clones!\" The game ends.",
+        "start": 757.24,
+        "duration": 4.54
+    },
+    {
+        "text": "But how many moves did you make up to that point?",
+        "start": 761.78,
+        "duration": 3.08
+    },
+    {
+        "text": "Infinitely, or finitely many?",
+        "start": 765.28,
+        "duration": 2.6
+    },
+    {
+        "text": "Basically, when you say the game ends,",
+        "start": 768.06,
+        "duration": 2.68
+    },
+    {
+        "text": "this is a finite game.",
+        "start": 770.74,
+        "duration": 1.66
+    },
+    {
+        "text": "So every time you make a move,",
+        "start": 772.96,
+        "duration": 1.94
+    },
+    {
+        "text": "the number of clones increases by one.",
+        "start": 774.9,
+        "duration": 2.58
+    },
+    {
+        "text": "If you make 10 billion moves,",
+        "start": 777.78,
+        "duration": 2.58
+    },
+    {
+        "text": "the number of clones will still be finite.",
+        "start": 780.36,
+        "duration": 3.72
+    },
+    {
+        "text": "So can you really fill all of Greenland",
+        "start": 784.34,
+        "duration": 3.08
+    },
+    {
+        "text": "with infinitely many clones",
+        "start": 787.42,
+        "duration": 1.86
+    },
+    {
+        "text": "after stopping the game at some point?",
+        "start": 789.28,
+        "duration": 2.54
+    },
+    {
+        "text": "No.",
+        "start": 791.82,
+        "duration": 1.04
+    },
+    {
+        "text": "Because infinity is not equal to a finite number.",
+        "start": 792.86,
+        "duration": 4.5
+    },
+    {
+        "text": "So that is a finite game,",
+        "start": 797.76,
+        "duration": 2.56
+    },
+    {
+        "text": "and therefore it's impossible to free the clones.",
+        "start": 800.32,
+        "duration": 4.98
+    },
+    {
+        "text": "So, when mathematicians solve a problem,",
+        "start": 808.58,
+        "duration": 2.86
+    },
+    {
+        "text": "they don't really stop.",
+        "start": 811.44,
+        "duration": 1.72
+    },
+    {
+        "text": "They try to generalize it.",
+        "start": 813.94,
+        "duration": 1.5
+    },
+    {
+        "text": "They try to create new games, new problems,",
+        "start": 815.44,
+        "duration": 3.52
+    },
+    {
+        "text": "and see if they're solvable or not.",
+        "start": 818.96,
+        "duration": 2.18
+    }
+]

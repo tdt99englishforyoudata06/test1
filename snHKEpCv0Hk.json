@@ -1,0 +1,857 @@
+[
+    {
+        "text": "Nothing is moving in a circle.",
+        "start": 0.0,
+        "duration": 1.46
+    },
+    {
+        "text": "Each one of these dots is moving in a straight line",
+        "start": 1.46,
+        "duration": 3.2
+    },
+    {
+        "text": "- Nice",
+        "start": 4.66,
+        "duration": 0.5
+    },
+    {
+        "text": "Talk about burying the lead. That's the best bit. Is that the best bit?",
+        "start": 6.22,
+        "duration": 4.07
+    },
+    {
+        "text": "I want to show you an animation that I like and I want to give too much away",
+        "start": 12.72,
+        "duration": 3.63
+    },
+    {
+        "text": "I would like to know your opinion of this animation, so",
+        "start": 16.35,
+        "duration": 2.43
+    },
+    {
+        "text": "There are two yellow blobs, I'll give you that for free I'm curious what you see happening.",
+        "start": 20.29,
+        "duration": 1.23
+    },
+    {
+        "text": "It's kind of like they're rotating around each other.\n- Go on say more.",
+        "start": 24.6,
+        "duration": 3.42
+    },
+    {
+        "text": "So if I talk about this dot, yeah.\n- It's like it's drawing a circle",
+        "start": 28.02,
+        "duration": 2.909
+    },
+    {
+        "text": "You know, it's it's looping around the other one or they are the ones looping around you.\n- Yeah, it goes either way, doesn't it?",
+        "start": 31.119,
+        "duration": 5.24
+    },
+    {
+        "text": "What I like about this animations, I've shown lots of people is animation, but they see different things.",
+        "start": 36.55,
+        "duration": 3.59
+    },
+    {
+        "text": "So some people see this orbiting thing when one is orbit in the other, but the other one keeps moving.",
+        "start": 40.14,
+        "duration": 3.81
+    },
+    {
+        "text": "Is that a fair description of what you saw?\n- Yeah.",
+        "start": 43.95,
+        "duration": 1.91
+    },
+    {
+        "text": "Other people see straight lines.\n- Oh, I definitely see straight lines.",
+        "start": 45.86,
+        "duration": 3.04
+    },
+    {
+        "text": "Okay",
+        "start": 48.9,
+        "duration": 0.39
+    },
+    {
+        "text": "So there's definitely a straight liney motion",
+        "start": 49.29,
+        "duration": 4.47
+    },
+    {
+        "text": "and is obviously there and there but at the same time other people have insisted that there's some sort of circular orbit-y",
+        "start": 53.76,
+        "duration": 0.98
+    },
+    {
+        "text": "flavor which is a first of all I like because",
+        "start": 56.89,
+        "duration": 2.0
+    },
+    {
+        "text": "Straight lines and circles feel opposites in some sense and though there's a mathematical sense where there might be the same too",
+        "start": 59.02,
+        "duration": 4.639
+    },
+    {
+        "text": "But both of them are seen by people in a naive description of what's happening",
+        "start": 63.66,
+        "duration": 3.63
+    },
+    {
+        "text": "I ended up building an animation on this when I was at school",
+        "start": 67.29,
+        "duration": 2.71
+    },
+    {
+        "text": "because I was curious about what this motion actually wasn't that's how",
+        "start": 70.0,
+        "duration": 2.029
+    },
+    {
+        "text": "I learned to program in Visual Basic",
+        "start": 72.03,
+        "duration": 1.839
+    },
+    {
+        "text": "I have re-built this one in geogebra",
+        "start": 73.869,
+        "duration": 1.04
+    },
+    {
+        "text": "I want to show you how I built it and also why I built it. You were right to talk about",
+        "start": 74.909,
+        "duration": 4.71
+    },
+    {
+        "text": "Orbiting things and also right about the straight lines",
+        "start": 79.81,
+        "duration": 2.72
+    },
+    {
+        "text": "If I put these lines on it's really obvious that one of them is going up and down",
+        "start": 82.53,
+        "duration": 3.15
+    },
+    {
+        "text": "one is going left to right...but they always dodge each other and I didn't make them move like this by putting their straight lines on.",
+        "start": 85.68,
+        "duration": 6.32
+    },
+    {
+        "text": "What I did was I made the circle around the outside exist.",
+        "start": 92.0,
+        "duration": 3.459
+    },
+    {
+        "text": "It's still not obvious to me how they works, but I made this point also exist",
+        "start": 95.46,
+        "duration": 3.419
+    },
+    {
+        "text": "So this blue point moving around is how I built this file. That blue dot controls the yellow.",
+        "start": 98.88,
+        "duration": 4.56
+    },
+    {
+        "text": "In fact the one going up and down is precisely just the vertical coordinate of the blue dot",
+        "start": 103.54,
+        "duration": 5.93
+    },
+    {
+        "text": "It's just tracking wherever the blue dot is in a vertical axis",
+        "start": 110.35,
+        "duration": 2.87
+    },
+    {
+        "text": "It's like the projection of it onto a vertical thing and the horizontal one is just the horizontal projection",
+        "start": 113.22,
+        "duration": 4.349
+    },
+    {
+        "text": "The reason why we see sort of circular motion going on is because it's driven by a circular motion.",
+        "start": 117.58,
+        "duration": 4.639
+    },
+    {
+        "text": "It's possible that you saw something else which was the connector between these dots is a natural thing to sort of see because it's actually",
+        "start": 122.22,
+        "duration": 6.179
+    },
+    {
+        "text": "because it is always the same length is equidistant and that's a fluke and some people in their head are kind of",
+        "start": 128.399,
+        "duration": 4.32
+    },
+    {
+        "text": "Averaging the two dots and they're seeing the midpoint of the two dots.",
+        "start": 132.849,
+        "duration": 0.631
+    },
+    {
+        "text": "Literally the average position that you dress and that is moving in a circle, which is really nice",
+        "start": 136.18,
+        "duration": 3.86
+    },
+    {
+        "text": "There's a bunch of mechanical constructions called a trammel of Archimedes where you can draw a circle",
+        "start": 140.07,
+        "duration": 5.13
+    },
+    {
+        "text": "From two things moving in straight lines and it's a mechanical way of drawing a perfect circle",
+        "start": 145.42,
+        "duration": 4.399
+    },
+    {
+        "text": "You just constrain these two dots to move in straight lines",
+        "start": 149.82,
+        "duration": 2.399
+    },
+    {
+        "text": "I didn't say that.\n- A lot of people don't see it but they they feel there's something intuitively circular going on",
+        "start": 152.22,
+        "duration": 4.65
+    },
+    {
+        "text": "So let me go back to the reason why I built the thing. The yellow points are the coordinates of the blue point",
+        "start": 156.87,
+        "duration": 4.949
+    },
+    {
+        "text": "Let's just focus on the vertical one",
+        "start": 161.82,
+        "duration": 1.35
+    },
+    {
+        "text": "What do you think would happen if I track the vertical position of that over time? Essentially draw a graph.",
+        "start": 163.17,
+        "duration": 5.339
+    },
+    {
+        "text": "What will that graph be? Next time we start on the right side",
+        "start": 168.9,
+        "duration": 2.22
+    },
+    {
+        "text": "I'm gonna track the y coordinate and you'll just see a graph which maybe is familiar.",
+        "start": 171.12,
+        "duration": 3.392
+    },
+    {
+        "text": "Any...any thoughts, Brady?",
+        "start": 174.9,
+        "duration": 1.5
+    },
+    {
+        "text": "It's like a sine curve or something.\n- It is precisely a sine curve. In fact, it's not just any sine curve.",
+        "start": 176.65,
+        "duration": 4.729
+    },
+    {
+        "text": "It is...is THE sine curve. So I was a teacher for a long time",
+        "start": 181.38,
+        "duration": 2.91
+    },
+    {
+        "text": "I was teaching people trigonometry. Sine and cosine turn up and",
+        "start": 184.29,
+        "duration": 3.209
+    },
+    {
+        "text": "Every single time I ever had a class learning that they will... \"Sir, what is sine? What is it...\" and",
+        "start": 187.81,
+        "duration": 6.47
+    },
+    {
+        "text": "There are lots of answers. People think of it as a ratio, opposite and hypotenuse.",
+        "start": 195.1,
+        "duration": 3.289
+    },
+    {
+        "text": "That might be familiar words. Other people think of as a function. It's got an input and an output.",
+        "start": 198.39,
+        "duration": 3.51
+    },
+    {
+        "text": "These things are true",
+        "start": 202.0,
+        "duration": 1.28
+    },
+    {
+        "text": "But what I like about a third answer, I'm gonna give you now, is that it captures",
+        "start": 203.28,
+        "duration": 4.38
+    },
+    {
+        "text": "Both of them. Sine is the y-coordinate of a point moving in a circle. Interestingly nothing to do with triangles",
+        "start": 207.66,
+        "duration": 5.309
+    },
+    {
+        "text": "Despite the name trigonometry coming from Trigon metry: measuring triangles",
+        "start": 213.04,
+        "duration": 4.309
+    },
+    {
+        "text": "I think was the worst named topic in mathematics. Sine is a circular function. In fact",
+        "start": 217.35,
+        "duration": 4.589
+    },
+    {
+        "text": "It's one of the circular functions because there's another coordinate we haven't tracked yet.",
+        "start": 222.7,
+        "duration": 3.44
+    },
+    {
+        "text": "So let's just do that one the horizontal",
+        "start": 226.14,
+        "duration": 1.39
+    },
+    {
+        "text": "One moving left and right there. If I track that going upwards you're gonna see the beginning of it",
+        "start": 227.53,
+        "duration": 4.01
+    },
+    {
+        "text": "It's not gonna be a huge surprise when you realize the trace is out the beginning of a cosine wave",
+        "start": 231.54,
+        "duration": 3.69
+    },
+    {
+        "text": "And if you flip that back down you see the cosine wave which is precisely the same as a sine wave that's shifted along.",
+        "start": 237.19,
+        "duration": 5.63
+    },
+    {
+        "text": "It's just like the circles going around a bit",
+        "start": 242.82,
+        "duration": 1.62
+    },
+    {
+        "text": "So sine and cosine as functions or as mathematical objects are",
+        "start": 244.44,
+        "duration": 3.36
+    },
+    {
+        "text": "precisely the y coordinate and x coordinate of a point moving in a circle",
+        "start": 247.9,
+        "duration": 3.9
+    },
+    {
+        "text": "That's why they're important because almost everything that goes in a cycle or repeats ever ie most things are described by circles and therefore described",
+        "start": 251.9,
+        "duration": 6.79
+    },
+    {
+        "text": "by trigonometry.\n- Is a cosine wave very different to a sine wave then?",
+        "start": 258.69,
+        "duration": 3.299
+    },
+    {
+        "text": "It's exactly the same. Literally sine wave",
+        "start": 262.33,
+        "duration": 1.58
+    },
+    {
+        "text": "Is there in a cosine wave is the same way shifted is the sine of the other angle this there's no obvious angles",
+        "start": 263.91,
+        "duration": 5.579
+    },
+    {
+        "text": "But triangles have angles and we use trigonometry with angle",
+        "start": 269.49,
+        "duration": 2.13
+    },
+    {
+        "text": "so the angle comes from, if I draw the radius on, from the center of this thing",
+        "start": 271.62,
+        "duration": 4.08
+    },
+    {
+        "text": "the angle gives me a way of measuring where the blue",
+        "start": 275.8,
+        "duration": 1.369
+    },
+    {
+        "text": "Dot is at any point. So angle of zero there.",
+        "start": 277.169,
+        "duration": 2.55
+    },
+    {
+        "text": "It's the angle the radius makes and that's where you do sine of an angle and it gives you coordinate",
+        "start": 279.72,
+        "duration": 3.69
+    },
+    {
+        "text": "and so the",
+        "start": 283.41,
+        "duration": 0.97
+    },
+    {
+        "text": "Cosine is actually sine of the other angle, is the angle between the vertical and this radius instead of the horizontal and that's why sine and cosine",
+        "start": 284.38,
+        "duration": 6.139
+    },
+    {
+        "text": "Are basically the same. I love the fact that seeing this move makes me understand trigonometry",
+        "start": 290.52,
+        "duration": 3.959
+    },
+    {
+        "text": "There's not a triangle in sight until you put that radius back on and then you can see there's a right angle triangle",
+        "start": 294.479,
+        "duration": 3.96
+    },
+    {
+        "text": "That's kind of sweeping around inside here. And that's why trigonometry is to do with right angle triangles",
+        "start": 298.44,
+        "duration": 4.079
+    },
+    {
+        "text": "It's because x and y coordinates are right angles and the radius makes the hypotenuse",
+        "start": 302.52,
+        "duration": 4.41
+    },
+    {
+        "text": "But that means sine and cosine are like two aspects of the same motion. There's just a different perspective",
+        "start": 307.11,
+        "duration": 4.11
+    },
+    {
+        "text": "And when someone pointed this out. Could you draw it in three dimension? That sounds like and",
+        "start": 311.86,
+        "duration": 4.459
+    },
+    {
+        "text": "I got this on geogebra at the inspiration of a student I was teaching at the time.",
+        "start": 317.56,
+        "duration": 4.19
+    },
+    {
+        "text": "So let me show you a three-dimensional version of this",
+        "start": 321.909,
+        "duration": 2.24
+    },
+    {
+        "text": "So there's my circle I had originally that's the view we had before. That's the same motion",
+        "start": 324.15,
+        "duration": 3.779
+    },
+    {
+        "text": "I just had. five here from a three dimensional mode. I've got this axis going off into the distance",
+        "start": 327.93,
+        "duration": 4.679
+    },
+    {
+        "text": "We're gonna track the position of a and time is now gonna go sort of back in into that direction",
+        "start": 332.61,
+        "duration": 4.89
+    },
+    {
+        "text": "And we're gonna project the point along that axis. I'm gonna start it now and you see that point going off into space",
+        "start": 338.139,
+        "duration": 5.809
+    },
+    {
+        "text": "It's kind of hard to see without",
+        "start": 343.96,
+        "duration": 1.799
+    },
+    {
+        "text": "moving your head around in a",
+        "start": 345.759,
+        "duration": 1.201
+    },
+    {
+        "text": "three-dimensional world so I can put the path on and you can see, maybe not surprisingly, you get sort of spiral coming out",
+        "start": 346.96,
+        "duration": 5.389
+    },
+    {
+        "text": "and I reckon",
+        "start": 352.349,
+        "duration": 0.331
+    },
+    {
+        "text": "Most people will predict that but that means the sine and cosine are precisely somehow in that spiral because they're just aspects of that spiral",
+        "start": 352.68,
+        "duration": 6.63
+    },
+    {
+        "text": "If you look from the side",
+        "start": 360.37,
+        "duration": 2.0
+    },
+    {
+        "text": "There's the sine wave. Which means if you want to see the cosine wave you should probably look from the top or the bottom",
+        "start": 363.55,
+        "duration": 4.97
+    },
+    {
+        "text": "There's the cosine wave.  You can see the same way if it starts in a different place and if you go back to the front again",
+        "start": 371.46,
+        "duration": 4.399
+    },
+    {
+        "text": "They're all",
+        "start": 376.11,
+        "duration": 0.839
+    },
+    {
+        "text": "just a projection of a circle and so sine and cosine are useful because they are the sort of",
+        "start": 376.949,
+        "duration": 4.01
+    },
+    {
+        "text": "Compressions of circular motion in within one dimension and I thought this 3d",
+        "start": 381.059,
+        "duration": 3.32
+    },
+    {
+        "text": "Diagonal that really helped me understand where this comes from. It does beg the question",
+        "start": 384.479,
+        "duration": 2.839
+    },
+    {
+        "text": "There's a third trig function that most people know about and I haven't shown you that yet",
+        "start": 387.36,
+        "duration": 4.88
+    },
+    {
+        "text": "Tan!\n- Tan. Do you know what tan is short for, Brady?",
+        "start": 392.8,
+        "duration": 2.854
+    },
+    {
+        "text": "Isn't it tangent?\n- Yeah, what's a tangent?",
+        "start": 395.654,
+        "duration": 2.315
+    },
+    {
+        "text": "I mean, I'm in full teacher mode now, but I think you know what tangent is",
+        "start": 397.969,
+        "duration": 3.809
+    },
+    {
+        "text": "Yeah, it's a line like kind of like grazing a circle.\n- Yeah, so tangent it from Latin for touching",
+        "start": 401.779,
+        "duration": 5.73
+    },
+    {
+        "text": "So tangent is something just touches the curve doesn't have to be a circle.",
+        "start": 407.819,
+        "duration": 2.981
+    },
+    {
+        "text": "The word comes from precisely that set up",
+        "start": 410.8,
+        "duration": 1.929
+    },
+    {
+        "text": "This is a slightly more advanced file",
+        "start": 412.729,
+        "duration": 1.62
+    },
+    {
+        "text": "I can show you all of the things first will reminder a sine function and there's the graph we're building and cosine is the other",
+        "start": 414.349,
+        "duration": 4.589
+    },
+    {
+        "text": "Direction and you can see the graphs arriving tracing their way out. Tangent comes from drawing a tangent",
+        "start": 418.939,
+        "duration": 5.519
+    },
+    {
+        "text": "but if I drew a tangent",
+        "start": 424.459,
+        "duration": 1.27
+    },
+    {
+        "text": "Vertically to the place where we start all this motion and I track where the radius line would hit the tangent",
+        "start": 425.729,
+        "duration": 5.839
+    },
+    {
+        "text": "You'll get a situation that looks like this. There's the tangent line and the radius line",
+        "start": 431.569,
+        "duration": 3.959
+    },
+    {
+        "text": "Will always cut the tangent line somewhere and then this green length is precisely the tangent function.",
+        "start": 435.689,
+        "duration": 4.309
+    },
+    {
+        "text": "It is also the gradient of the radius because tangent is defined to be sine of a cosine",
+        "start": 440.219,
+        "duration": 4.58
+    },
+    {
+        "text": "It was kind of a huge relief to me personally. The word tangent wasn't a coincidence with the other definition of tangent",
+        "start": 444.899,
+        "duration": 5.93
+    },
+    {
+        "text": "Which is a line that just touches the circle these three graphs are all related to a circle. They're all really geometrical things",
+        "start": 450.83,
+        "duration": 6.449
+    },
+    {
+        "text": "they're not really to do with triangles except by accident because of the coordinate axes and",
+        "start": 457.279,
+        "duration": 3.69
+    },
+    {
+        "text": "There are three more functions you learn at A level at school which are one over these functions. So",
+        "start": 461.55,
+        "duration": 4.699
+    },
+    {
+        "text": "sec, cosec and cot",
+        "start": 467.159,
+        "duration": 1.521
+    },
+    {
+        "text": "are one over these three and they're also on this diagram. If I turn on cosec, cosec otherwise known as one over sine",
+        "start": 468.68,
+        "duration": 5.519
+    },
+    {
+        "text": "Just like sine, which is a vertical lengthwise diagram, cosec is where the tangent",
+        "start": 474.389,
+        "duration": 4.069
+    },
+    {
+        "text": "cuts the vertical axis and you can see a sine gets bigger cosec gets smaller and then the same at one point and then it",
+        "start": 478.74,
+        "duration": 5.659
+    },
+    {
+        "text": "Goes back the other way",
+        "start": 484.399,
+        "duration": 0.54
+    },
+    {
+        "text": "and so this",
+        "start": 484.939,
+        "duration": 0.88
+    },
+    {
+        "text": "U-shaped graph here is the cosec function otherwise known as one over sine and the same thing happens with sec is where the tangent intersects",
+        "start": 485.819,
+        "duration": 5.869
+    },
+    {
+        "text": "the x axis and cot, one over tan, ends up being",
+        "start": 491.689,
+        "duration": 3.839
+    },
+    {
+        "text": "The other tangent across the top here is where the radius intersects that all of the trig functions that we learn at school",
+        "start": 495.87,
+        "duration": 6.019
+    },
+    {
+        "text": "Are actually altered with circles which is why they are called the circular functions",
+        "start": 502.24,
+        "duration": 3.69
+    },
+    {
+        "text": "And I kind of wish we call trigonometry the circular functions from the word go",
+        "start": 510.77,
+        "duration": 3.92
+    },
+    {
+        "text": "Even if the use we most make of it is for finding missing sides in a right-angled triangle",
+        "start": 514.82,
+        "duration": 4.459
+    },
+    {
+        "text": "There's one more thing that I wanted to you",
+        "start": 519.469,
+        "duration": 1.94
+    },
+    {
+        "text": "I had this diagram happening before where these two dots are moving, but you now know how I did it",
+        "start": 521.409,
+        "duration": 5.61
+    },
+    {
+        "text": "I put those two lines on there, kind of the projection of that outer point, the projection vertically and horizontally",
+        "start": 527.02,
+        "duration": 4.919
+    },
+    {
+        "text": "Now once I realize I can do that. I don't have to restrict it to two lines. I could put three lines on",
+        "start": 532.37,
+        "duration": 4.969
+    },
+    {
+        "text": "You get a really nice effect of these three points moving",
+        "start": 538.97,
+        "duration": 2.54
+    },
+    {
+        "text": "And they always dodge each other. They're moving in what they might call simple harmonic motion, but then they're nicely sort of lined up",
+        "start": 542.69,
+        "duration": 6.229
+    },
+    {
+        "text": "So they don't ever hit each other. Well, I just really like this. So I'm going to crank up the number of lines",
+        "start": 548.92,
+        "duration": 4.109
+    },
+    {
+        "text": "Here we go",
+        "start": 553.029,
+        "duration": 2.0
+    },
+    {
+        "text": "Now what I love about this is that everybody can see the yellow circle and...",
+        "start": 563.91,
+        "duration": 3.109
+    },
+    {
+        "text": "Mind blown!\n- The dots are in a circle definitely but nothing, nothing is moving in a circle each one of these dots is moving in a",
+        "start": 568.259,
+        "duration": 6.29
+    },
+    {
+        "text": "Straight line. So if I grab one with my finger this one",
+        "start": 574.55,
+        "duration": 2.19
+    },
+    {
+        "text": "Is just moving backwards forwards in a sinusoidal motion as for they call this with this wave-like motion",
+        "start": 578.129,
+        "duration": 5.03
+    },
+    {
+        "text": "But all of them because they're lined up in a certain way create",
+        "start": 583.199,
+        "duration": 2.359
+    },
+    {
+        "text": "There's a lovely illusion of a circle rolling around the inside of thing. To program this you just needed some knowledge of how to make",
+        "start": 585.559,
+        "duration": 4.83
+    },
+    {
+        "text": "A sine wave just shift around each time and it's just a really lovely optical illusion I like.\n- Nice!",
+        "start": 590.389,
+        "duration": 4.2
+    },
+    {
+        "text": "Talk about burying the lede. That's the best bit.\n- Is that the best bit?\n- Yeah.",
+        "start": 596.069,
+        "duration": 5.13
+    },
+    {
+        "text": "That's the bit that's got no use",
+        "start": 601.199,
+        "duration": 2.0
+    },
+    {
+        "text": "But then I'm a sucker for things that've got no use. The thing is that I love Maths 'cause it's beautiful",
+        "start": 603.209,
+        "duration": 4.099
+    },
+    {
+        "text": "It turns out it's also useful but mathematicians usually do stuff because it's nice and then they're like, \"Oh yeah, it's also useful",
+        "start": 607.679,
+        "duration": 5.72
+    },
+    {
+        "text": "But I would have done it anyway.\"",
+        "start": 613.399,
+        "duration": 1.99
+    },
+    {
+        "text": "All right",
+        "start": 615.389,
+        "duration": 1.8
+    },
+    {
+        "text": "You made me wait for it",
+        "start": 617.189,
+        "duration": 2.0
+    },
+    {
+        "text": "You know one of the things I love about brilliant aside from their like deep dive courses are their daily challenges",
+        "start": 621.149,
+        "duration": 6.65
+    },
+    {
+        "text": "They remind me a bit of the morning crossword a great way to kickstart your brain in the morning",
+        "start": 627.8,
+        "duration": 4.829
+    },
+    {
+        "text": "in fact",
+        "start": 632.66,
+        "duration": 0.719
+    },
+    {
+        "text": "Why not test yourself do a hundred of them in a hundred days?",
+        "start": 633.379,
+        "duration": 3.66
+    },
+    {
+        "text": "All the questions and puzzles on brilliant are carefully crafted to get the very best out of your mind",
+        "start": 637.29,
+        "duration": 5.51
+    },
+    {
+        "text": "They often include little moments of interaction like these cool sliders",
+        "start": 643.41,
+        "duration": 3.919
+    },
+    {
+        "text": "So here's a question: Can this line be positioned to cut these five circles in half?",
+        "start": 647.91,
+        "duration": 6.619
+    },
+    {
+        "text": "both in terms of area and perimeter",
+        "start": 654.72,
+        "duration": 2.33
+    },
+    {
+        "text": "What do you reckon? Where could you put it?",
+        "start": 658.139,
+        "duration": 2.45
+    },
+    {
+        "text": "After you've had a go? Why not",
+        "start": 660.589,
+        "duration": 1.71
+    },
+    {
+        "text": "Go check out this whole related geometry course",
+        "start": 662.3,
+        "duration": 3.449
+    },
+    {
+        "text": "Full of questions and lessons and proofs to see more go to brilliant.org/numberphile.",
+        "start": 666.12,
+        "duration": 6.109
+    },
+    {
+        "text": "The /numberphile will let them know you came from here, but more importantly it will give you 20% off a",
+        "start": 672.42,
+        "duration": 6.589
+    },
+    {
+        "text": "Premium subscription. It'll unlock everything on the site",
+        "start": 679.529,
+        "duration": 2.929
+    },
+    {
+        "text": "That's brilliant.org/numberphile. Our thanks to them for supporting this episode",
+        "start": 682.699,
+        "duration": 5.549
+    }
+]

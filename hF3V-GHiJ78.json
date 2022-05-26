@@ -1,0 +1,777 @@
+[
+    {
+        "text": "hey guys after finishing my x-ray",
+        "start": 15.38,
+        "duration": 4.659
+    },
+    {
+        "text": "backscatter imaging project I realized",
+        "start": 18.21,
+        "duration": 3.45
+    },
+    {
+        "text": "that I could also build an x-ray CT",
+        "start": 20.039,
+        "duration": 3.811
+    },
+    {
+        "text": "scanner which produces even more",
+        "start": 21.66,
+        "duration": 3.959
+    },
+    {
+        "text": "interesting images so let me show you",
+        "start": 23.85,
+        "duration": 4.98
+    },
+    {
+        "text": "what's involved a CT scanner or cat",
+        "start": 25.619,
+        "duration": 5.25
+    },
+    {
+        "text": "scanner is they used to be called stands",
+        "start": 28.83,
+        "duration": 4.619
+    },
+    {
+        "text": "for computed tomography where tomography",
+        "start": 30.869,
+        "duration": 3.781
+    },
+    {
+        "text": "means that we're going to get a",
+        "start": 33.449,
+        "duration": 3.811
+    },
+    {
+        "text": "sectional view like a slice through a 3d",
+        "start": 34.65,
+        "duration": 4.77
+    },
+    {
+        "text": "object and computed because we're going",
+        "start": 37.26,
+        "duration": 4.59
+    },
+    {
+        "text": "to use a an algorithm to reconstruct the",
+        "start": 39.42,
+        "duration": 6.059
+    },
+    {
+        "text": "3d image since we can't actually cut",
+        "start": 41.85,
+        "duration": 5.58
+    },
+    {
+        "text": "what we want to inspect with a knife to",
+        "start": 45.479,
+        "duration": 4.201
+    },
+    {
+        "text": "get a slice of it what we have to do is",
+        "start": 47.43,
+        "duration": 4.74
+    },
+    {
+        "text": "take x-ray images from around the",
+        "start": 49.68,
+        "duration": 4.71
+    },
+    {
+        "text": "periphery of the object and then use a",
+        "start": 52.17,
+        "duration": 4.62
+    },
+    {
+        "text": "computer algorithm to reconstruct all",
+        "start": 54.39,
+        "duration": 6.659
+    },
+    {
+        "text": "the 3d data in a conventional medical CT",
+        "start": 56.79,
+        "duration": 7.079
+    },
+    {
+        "text": "scanner the patient stays still and the",
+        "start": 61.049,
+        "duration": 4.971
+    },
+    {
+        "text": "x-ray source and the x-ray detector",
+        "start": 63.869,
+        "duration": 5.871
+    },
+    {
+        "text": "circulate around the patient in a ring",
+        "start": 66.02,
+        "duration": 5.769
+    },
+    {
+        "text": "electro mechanically this is fairly",
+        "start": 69.74,
+        "duration": 4.03
+    },
+    {
+        "text": "difficult because the rotating ring has",
+        "start": 71.789,
+        "duration": 3.93
+    },
+    {
+        "text": "to have an electrical connection that",
+        "start": 73.77,
+        "duration": 4.5
+    },
+    {
+        "text": "goes through the rotating surface so",
+        "start": 75.719,
+        "duration": 4.83
+    },
+    {
+        "text": "they probably use an RF transmitter or",
+        "start": 78.27,
+        "duration": 4.139
+    },
+    {
+        "text": "something to get the data out and then",
+        "start": 80.549,
+        "duration": 4.68
+    },
+    {
+        "text": "slip rings to get the power in in my",
+        "start": 82.409,
+        "duration": 3.841
+    },
+    {
+        "text": "case since I don't want to build",
+        "start": 85.229,
+        "duration": 3.39
+    },
+    {
+        "text": "something that big I'm going to keep the",
+        "start": 86.25,
+        "duration": 5.52
+    },
+    {
+        "text": "X ray source and detector still and then",
+        "start": 88.619,
+        "duration": 6.99
+    },
+    {
+        "text": "rotate the object the x-ray source that",
+        "start": 91.77,
+        "duration": 5.76
+    },
+    {
+        "text": "I'm using is a standard x-ray tube",
+        "start": 95.609,
+        "duration": 4.08
+    },
+    {
+        "text": "probably very similar to those used in",
+        "start": 97.53,
+        "duration": 4.049
+    },
+    {
+        "text": "commercial CT scanners but mine is",
+        "start": 99.689,
+        "duration": 3.691
+    },
+    {
+        "text": "fairly less powerful",
+        "start": 101.579,
+        "duration": 4.68
+    },
+    {
+        "text": "so my tube runs at about 50 kilovolts at",
+        "start": 103.38,
+        "duration": 7.08
+    },
+    {
+        "text": "about one milliamp so the x-ray beam",
+        "start": 106.259,
+        "duration": 6.841
+    },
+    {
+        "text": "will turn on and illuminate the phosphor",
+        "start": 110.46,
+        "duration": 5.28
+    },
+    {
+        "text": "screen and the subject in this case a",
+        "start": 113.1,
+        "duration": 5.43
+    },
+    {
+        "text": "frozen chicken will obstruct the x-rays",
+        "start": 115.74,
+        "duration": 6.21
+    },
+    {
+        "text": "and create a shadow on the screen so",
+        "start": 118.53,
+        "duration": 5.729
+    },
+    {
+        "text": "I'll get a picture of that and then the",
+        "start": 121.95,
+        "duration": 4.14
+    },
+    {
+        "text": "x-rays will shut off the camera will end",
+        "start": 124.259,
+        "duration": 5.161
+    },
+    {
+        "text": "the exposure and I'll rotate the subject",
+        "start": 126.09,
+        "duration": 5.399
+    },
+    {
+        "text": "by about eight degrees and then turn on",
+        "start": 129.42,
+        "duration": 4.17
+    },
+    {
+        "text": "the x-ray and make another exposure it",
+        "start": 131.489,
+        "duration": 3.78
+    },
+    {
+        "text": "can continue doing this all the way",
+        "start": 133.59,
+        "duration": 2.61
+    },
+    {
+        "text": "around 300",
+        "start": 135.269,
+        "duration": 6.601
+    },
+    {
+        "text": "60 degrees the output of this data",
+        "start": 136.2,
+        "duration": 8.46
+    },
+    {
+        "text": "collection is 45 two-dimensional images",
+        "start": 141.87,
+        "duration": 5.58
+    },
+    {
+        "text": "that show x-rays penetrating all the way",
+        "start": 144.66,
+        "duration": 5.01
+    },
+    {
+        "text": "through the subject unfortunately this",
+        "start": 147.45,
+        "duration": 4.02
+    },
+    {
+        "text": "doesn't give us any 3d information",
+        "start": 149.67,
+        "duration": 4.02
+    },
+    {
+        "text": "directly all we have is a bunch of 2d",
+        "start": 151.47,
+        "duration": 5.01
+    },
+    {
+        "text": "images so we feed this into an algorithm",
+        "start": 153.69,
+        "duration": 5.4
+    },
+    {
+        "text": "called filtered back projection which",
+        "start": 156.48,
+        "duration": 4.229
+    },
+    {
+        "text": "basically does the reverse of what",
+        "start": 159.09,
+        "duration": 3.899
+    },
+    {
+        "text": "happened in reality so imagine in the",
+        "start": 160.709,
+        "duration": 3.78
+    },
+    {
+        "text": "computer there is a three-dimensional",
+        "start": 162.989,
+        "duration": 4.291
+    },
+    {
+        "text": "space occupying the space where the",
+        "start": 164.489,
+        "duration": 6.06
+    },
+    {
+        "text": "subject would be and the two-dimensional",
+        "start": 167.28,
+        "duration": 5.489
+    },
+    {
+        "text": "image from the phosphor screen is",
+        "start": 170.549,
+        "duration": 5.461
+    },
+    {
+        "text": "extruded along a path heading back to",
+        "start": 172.769,
+        "duration": 5.851
+    },
+    {
+        "text": "the x-ray source so we know that all the",
+        "start": 176.01,
+        "duration": 4.319
+    },
+    {
+        "text": "shadows created on the screen were",
+        "start": 178.62,
+        "duration": 4.74
+    },
+    {
+        "text": "caused by features in the 3d subject and",
+        "start": 180.329,
+        "duration": 5.581
+    },
+    {
+        "text": "we know that the only source of x-rays",
+        "start": 183.36,
+        "duration": 5.189
+    },
+    {
+        "text": "here is basically a pinpoint a point",
+        "start": 185.91,
+        "duration": 5.4
+    },
+    {
+        "text": "source inside the x-ray tube so if we if",
+        "start": 188.549,
+        "duration": 4.981
+    },
+    {
+        "text": "we trace all the shadows on that screen",
+        "start": 191.31,
+        "duration": 4.53
+    },
+    {
+        "text": "back to the point source inside the",
+        "start": 193.53,
+        "duration": 4.47
+    },
+    {
+        "text": "x-ray tube then we'll know where all",
+        "start": 195.84,
+        "duration": 4.11
+    },
+    {
+        "text": "those features existed in the 3d volume",
+        "start": 198.0,
+        "duration": 6.03
+    },
+    {
+        "text": "and what we do is we add up all of the",
+        "start": 199.95,
+        "duration": 7.05
+    },
+    {
+        "text": "images all the 45 images by rotating",
+        "start": 204.03,
+        "duration": 4.829
+    },
+    {
+        "text": "this model around 8 degrees at a time",
+        "start": 207.0,
+        "duration": 5.22
+    },
+    {
+        "text": "and space we end up with a 3d volume of",
+        "start": 208.859,
+        "duration": 6.21
+    },
+    {
+        "text": "data and we can use that to create a 3d",
+        "start": 212.22,
+        "duration": 6.0
+    },
+    {
+        "text": "rendering or we can produce a slice at",
+        "start": 215.069,
+        "duration": 5.101
+    },
+    {
+        "text": "any angle and position through the",
+        "start": 218.22,
+        "duration": 3.72
+    },
+    {
+        "text": "through the volume to take a look at",
+        "start": 220.17,
+        "duration": 3.3
+    },
+    {
+        "text": "what's inside the object",
+        "start": 221.94,
+        "duration": 4.109
+    },
+    {
+        "text": "I built this project using an Arduino to",
+        "start": 223.47,
+        "duration": 4.71
+    },
+    {
+        "text": "sequence the whole thing and the Arduino",
+        "start": 226.049,
+        "duration": 4.981
+    },
+    {
+        "text": "controls a stepper motor driver and the",
+        "start": 228.18,
+        "duration": 4.86
+    },
+    {
+        "text": "stepper motor is coupled to a very large",
+        "start": 231.03,
+        "duration": 4.62
+    },
+    {
+        "text": "ring bearing just through some rubber",
+        "start": 233.04,
+        "duration": 4.199
+    },
+    {
+        "text": "o-rings right on the shaft of the",
+        "start": 235.65,
+        "duration": 4.699
+    },
+    {
+        "text": "stepper motor and I calibrated this by",
+        "start": 237.239,
+        "duration": 5.28
+    },
+    {
+        "text": "spinning the whole thing around by one",
+        "start": 240.349,
+        "duration": 3.881
+    },
+    {
+        "text": "full revolution and Counting how many",
+        "start": 242.519,
+        "duration": 4.611
+    },
+    {
+        "text": "steps it took and then dividing by 45",
+        "start": 244.23,
+        "duration": 4.95
+    },
+    {
+        "text": "originally I was going to stay in the",
+        "start": 247.13,
+        "duration": 4.21
+    },
+    {
+        "text": "garage and coordinate all this by hand",
+        "start": 249.18,
+        "duration": 4.86
+    },
+    {
+        "text": "but the amount of backscatter x-ray is",
+        "start": 251.34,
+        "duration": 4.98
+    },
+    {
+        "text": "coming off of the screen in the shop",
+        "start": 254.04,
+        "duration": 3.689
+    },
+    {
+        "text": "walls and everything was kind of more",
+        "start": 256.32,
+        "duration": 3.33
+    },
+    {
+        "text": "than I wanted one problem is that the",
+        "start": 257.729,
+        "duration": 5.19
+    },
+    {
+        "text": "camera takes 30 seconds to get a good",
+        "start": 259.65,
+        "duration": 6.03
+    },
+    {
+        "text": "exposure at ISO 800 and then the camera",
+        "start": 262.919,
+        "duration": 4.111
+    },
+    {
+        "text": "automatically does a dark frame",
+        "start": 265.68,
+        "duration": 3.6
+    },
+    {
+        "text": "subtraction so each exposure takes",
+        "start": 267.03,
+        "duration": 4.41
+    },
+    {
+        "text": "below for a minute and I need 45",
+        "start": 269.28,
+        "duration": 4.2
+    },
+    {
+        "text": "exposures so it's kind of a long time to",
+        "start": 271.44,
+        "duration": 4.53
+    },
+    {
+        "text": "be hanging around so I set up the",
+        "start": 273.48,
+        "duration": 6.06
+    },
+    {
+        "text": "Arduino and used a an intervalometer to",
+        "start": 275.97,
+        "duration": 5.07
+    },
+    {
+        "text": "control my camera and then use the",
+        "start": 279.54,
+        "duration": 3.24
+    },
+    {
+        "text": "Arduino to control the intervalometer I",
+        "start": 281.04,
+        "duration": 3.18
+    },
+    {
+        "text": "could have gone directly from the",
+        "start": 282.78,
+        "duration": 3.359
+    },
+    {
+        "text": "Arduino to my camera but I didn't have",
+        "start": 284.22,
+        "duration": 5.55
+    },
+    {
+        "text": "the weird 4-conductor tiny phone jack",
+        "start": 286.139,
+        "duration": 6.691
+    },
+    {
+        "text": "that goes into the camera body the",
+        "start": 289.77,
+        "duration": 5.399
+    },
+    {
+        "text": "Arduino also controls the x-ray tube so",
+        "start": 292.83,
+        "duration": 4.35
+    },
+    {
+        "text": "during the camera's dark frame it shuts",
+        "start": 295.169,
+        "duration": 3.601
+    },
+    {
+        "text": "the x-ray tube off so that it maintains",
+        "start": 297.18,
+        "duration": 4.52
+    },
+    {
+        "text": "about a 50 percent duty cycle which is",
+        "start": 298.77,
+        "duration": 5.49
+    },
+    {
+        "text": "you know fine without a fan even for",
+        "start": 301.7,
+        "duration": 5.8
+    },
+    {
+        "text": "this x-ray tube my garage is pretty dark",
+        "start": 304.26,
+        "duration": 5.96
+    },
+    {
+        "text": "at night so I just added a couple of",
+        "start": 307.5,
+        "duration": 5.85
+    },
+    {
+        "text": "very simple light blockers to keep small",
+        "start": 310.22,
+        "duration": 4.81
+    },
+    {
+        "text": "light sources from outside the garage",
+        "start": 313.35,
+        "duration": 3.21
+    },
+    {
+        "text": "from getting in through the windows and",
+        "start": 315.03,
+        "duration": 3.36
+    },
+    {
+        "text": "I was able to do a 30 second exposure",
+        "start": 316.56,
+        "duration": 5.33
+    },
+    {
+        "text": "without much background noise at all",
+        "start": 318.39,
+        "duration": 5.49
+    },
+    {
+        "text": "processing the images was fairly",
+        "start": 321.89,
+        "duration": 4.45
+    },
+    {
+        "text": "straightforward I used Panasonic's",
+        "start": 323.88,
+        "duration": 4.77
+    },
+    {
+        "text": "silky picks which came with my camera",
+        "start": 326.34,
+        "duration": 5.639
+    },
+    {
+        "text": "and captured the images in raw and then",
+        "start": 328.65,
+        "duration": 5.88
+    },
+    {
+        "text": "exported them is 16 bit monochrome",
+        "start": 331.979,
+        "duration": 4.411
+    },
+    {
+        "text": "Tiff's to try to get as much dynamic",
+        "start": 334.53,
+        "duration": 4.889
+    },
+    {
+        "text": "range as possible and then I used Adobe",
+        "start": 336.39,
+        "duration": 7.98
+    },
+    {
+        "text": "bridge and the batch setting in there to",
+        "start": 339.419,
+        "duration": 6.841
+    },
+    {
+        "text": "perform it's the same set of actions on",
+        "start": 344.37,
+        "duration": 2.64
+    },
+    {
+        "text": "each photo",
+        "start": 346.26,
+        "duration": 4.26
+    },
+    {
+        "text": "so in Photoshop I imported one and set",
+        "start": 347.01,
+        "duration": 6.99
+    },
+    {
+        "text": "up some guides and distorted the picture",
+        "start": 350.52,
+        "duration": 7.08
+    },
+    {
+        "text": "back to square so since I was using my",
+        "start": 354.0,
+        "duration": 5.16
+    },
+    {
+        "text": "camera to take a picture of the screen",
+        "start": 357.6,
+        "duration": 3.42
+    },
+    {
+        "text": "off axis there's quite a bit of",
+        "start": 359.16,
+        "duration": 4.23
+    },
+    {
+        "text": "perspective distortion so I used",
+        "start": 361.02,
+        "duration": 4.41
+    },
+    {
+        "text": "Photoshop to correct for that and play",
+        "start": 363.39,
+        "duration": 3.93
+    },
+    {
+        "text": "with the levels a little bit until I",
+        "start": 365.43,
+        "duration": 4.799
+    },
+    {
+        "text": "ended up with an image as if the camera",
+        "start": 367.32,
+        "duration": 6.54
+    },
+    {
+        "text": "were in line one reason not to put the",
+        "start": 370.229,
+        "duration": 5.851
+    },
+    {
+        "text": "camera in line of the x-rays is that you",
+        "start": 373.86,
+        "duration": 4.98
+    },
+    {
+        "text": "get a lot of hot pixels so if I turn to",
+        "start": 376.08,
+        "duration": 4.77
+    },
+    {
+        "text": "the projection screen or the phosphorous",
+        "start": 378.84,
+        "duration": 4.17
+    },
+    {
+        "text": "screen around and then put the camera",
+        "start": 380.85,
+        "duration": 4.71
+    },
+    {
+        "text": "straight on to it the camera would be in",
+        "start": 383.01,
+        "duration": 4.92
+    },
+    {
+        "text": "the x-ray beam and that would definitely",
+        "start": 385.56,
+        "duration": 6.18
+    },
+    {
+        "text": "caused quite a bit of pixel noise okay",
+        "start": 387.93,
+        "duration": 5.97
+    },
+    {
+        "text": "hope you enjoyed that see you next time",
+        "start": 391.74,
+        "duration": 4.73
+    },
+    {
+        "text": "bye",
+        "start": 393.9,
+        "duration": 2.57
+    }
+]

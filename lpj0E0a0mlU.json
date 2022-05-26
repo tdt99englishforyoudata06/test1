@@ -1,0 +1,887 @@
+[
+    {
+        "text": "So, Brady, we're gonna talk about how many particles there are in the universe.",
+        "start": 0.28,
+        "duration": 3.54
+    },
+    {
+        "text": "We're gonna calculate the number of particles in the observable universe.",
+        "start": 3.96,
+        "duration": 3.9
+    },
+    {
+        "text": "So that's, you know, the section of the universe that we can see,",
+        "start": 8.2,
+        "duration": 2.48
+    },
+    {
+        "text": "where light could have reached us from.",
+        "start": 10.68,
+        "duration": 1.58
+    },
+    {
+        "text": "What are the particles that we're talking about here?",
+        "start": 12.26,
+        "duration": 2.58
+    },
+    {
+        "text": "So we're gonna be interested in particles that's, that are particles that we know exist,",
+        "start": 14.84,
+        "duration": 3.86
+    },
+    {
+        "text": "that are fundamental, and we're interested in the ones that have mass.",
+        "start": 19.02,
+        "duration": 2.96
+    },
+    {
+        "text": "So, we're not really talking about photons, for example.",
+        "start": 22.66,
+        "duration": 2.0
+    },
+    {
+        "text": "What we're gonna be talking about are things like quarks, electrons, those sorts of things.",
+        "start": 24.94,
+        "duration": 4.62
+    },
+    {
+        "text": "So the quarks, of course, are gonna live inside protons, neutrons,",
+        "start": 29.92,
+        "duration": 4.535
+    },
+    {
+        "text": "and the electrons are gonna be in orbit around those, those protons and neutrons in atoms.",
+        "start": 34.46,
+        "duration": 4.3
+    },
+    {
+        "text": "Pretty much everything else is insignificant.",
+        "start": 39.02,
+        "duration": 2.72
+    },
+    {
+        "text": "So, how do we do this? So we're gonna use four bits of data.",
+        "start": 42.125,
+        "duration": 2.92
+    },
+    {
+        "text": "Part of it's gonna be cosmological data.",
+        "start": 45.045,
+        "duration": 2.255
+    },
+    {
+        "text": "Data from the Planck satellite, which measures the cosmic microwave background radiation.",
+        "start": 47.54,
+        "duration": 4.46
+    },
+    {
+        "text": "People call it the radiation that's left over from the big bang.",
+        "start": 52.2,
+        "duration": 2.88
+    },
+    {
+        "text": "It's the radiation that you get, after, you know, when the first sort of neutral atoms began to form.",
+        "start": 55.24,
+        "duration": 5.355
+    },
+    {
+        "text": "So, we're gonna need, we're gonna use data from that.",
+        "start": 60.6,
+        "duration": 2.7
+    },
+    {
+        "text": "And a little bit of particle physics data, as well.",
+        "start": 63.32,
+        "duration": 2.64
+    },
+    {
+        "text": "So these are the four bits of information we're gonna use.",
+        "start": 65.96,
+        "duration": 2.74
+    },
+    {
+        "text": "So the first of these is the critical density of the universe.",
+        "start": 68.7,
+        "duration": 3.94
+    },
+    {
+        "text": "So this is a good measure for what is the energy density of the universe, full stop.",
+        "start": 73.32,
+        "duration": 4.78
+    },
+    {
+        "text": "This is because we, we know that the universe is very close to being spatially flat.",
+        "start": 78.1,
+        "duration": 4.34
+    },
+    {
+        "text": "So, it's, it's not shaped like a sphere or a saddle,",
+        "start": 82.7,
+        "duration": 2.885
+    },
+    {
+        "text": "it's somewhere in between the two.",
+        "start": 85.585,
+        "duration": 1.935
+    },
+    {
+        "text": "And because of that, we know its density",
+        "start": 87.52,
+        "duration": 2.22
+    },
+    {
+        "text": "is very close to the critical density, which is a really really really light density, actually.",
+        "start": 89.74,
+        "duration": 4.295
+    },
+    {
+        "text": "If you look at it, if you compare this to the density of water,",
+        "start": 94.04,
+        "duration": 2.56
+    },
+    {
+        "text": "the density of water is one gram per centimeter cubed.",
+        "start": 96.6,
+        "duration": 2.84
+    },
+    {
+        "text": "And this is a million million million million million times less than that, right?",
+        "start": 99.74,
+        "duration": 5.3
+    },
+    {
+        "text": "So it's super undense, right? Because this is the universe we're talking about.",
+        "start": 105.24,
+        "duration": 4.215
+    },
+    {
+        "text": "The next bit of information that we're gonna need",
+        "start": 109.455,
+        "duration": 2.87
+    },
+    {
+        "text": "is the fraction of that energy budget in the universe",
+        "start": 112.325,
+        "duration": 2.65
+    },
+    {
+        "text": "that's stored in baryons. Now, why baryons?",
+        "start": 114.98,
+        "duration": 2.76
+    },
+    {
+        "text": "Well, baryons, really, in this context, they're just",
+        "start": 117.96,
+        "duration": 3.115
+    },
+    {
+        "text": "the protons and the neutrons, which is where the quarks live.",
+        "start": 121.08,
+        "duration": 2.24
+    },
+    {
+        "text": "The other thing the size of the observable universe. Again, coming from Planck data,",
+        "start": 123.6,
+        "duration": 4.64
+    },
+    {
+        "text": "we get this figure of about ten to the twenty-eight centimeters.",
+        "start": 128.765,
+        "duration": 2.88
+    },
+    {
+        "text": "A one with twenty-eight zeroes after it.",
+        "start": 131.645,
+        "duration": 2.455
+    },
+    {
+        "text": "So, lots of centimeters, but the universe is big, right?",
+        "start": 134.1,
+        "duration": 3.04
+    },
+    {
+        "text": "Brady: \"Why is it in centimeters?\"",
+        "start": 137.14,
+        "duration": 1.58
+    },
+    {
+        "text": "Well, I put it in centimeters, because this one was in centimeters, and I don't want to start getting,",
+        "start": 138.72,
+        "duration": 3.98
+    },
+    {
+        "text": "getting all my units messed up. So I thought it safest to, to just be, keep one set of units in there.",
+        "start": 142.7,
+        "duration": 4.56
+    },
+    {
+        "text": "And the last thing is, that I'm gonna need is the mass of the proton.",
+        "start": 147.48,
+        "duration": 3.08
+    },
+    {
+        "text": "The baryons that we're interested in are protons and neutrons,",
+        "start": 150.56,
+        "duration": 2.52
+    },
+    {
+        "text": "they have got about the same mass, very close, you know, the mass is pretty much identical.",
+        "start": 153.3,
+        "duration": 4.5
+    },
+    {
+        "text": "And so the mass of the proton is ten to the minus twenty-four grams, roughly.",
+        "start": 157.9,
+        "duration": 3.26
+    },
+    {
+        "text": "These are the four things that we're gonna need to work out, you know,",
+        "start": 161.16,
+        "duration": 3.44
+    },
+    {
+        "text": "how many particles there are in the universe.",
+        "start": 164.6,
+        "duration": 2.235
+    },
+    {
+        "text": "So, to start off with, we're gonna work out how many baryons there are in the universe,",
+        "start": 166.835,
+        "duration": 3.08
+    },
+    {
+        "text": "i.e., how many protons and neutrons, in total, there are.",
+        "start": 169.915,
+        "duration": 3.1
+    },
+    {
+        "text": "First thing we're gonna do to calculate that is, we're gonna say,",
+        "start": 173.02,
+        "duration": 2.66
+    },
+    {
+        "text": "what is the energy density stored in baryons?",
+        "start": 175.68,
+        "duration": 3.32
+    },
+    {
+        "text": "Or stored in protons and neutrons?",
+        "start": 179.0,
+        "duration": 1.8
+    },
+    {
+        "text": "Well, that's just the fraction of baryons",
+        "start": 181.08,
+        "duration": 3.84
+    },
+    {
+        "text": "times the overall density. This gives us the energy density stored in baryons.",
+        "start": 185.18,
+        "duration": 4.22
+    },
+    {
+        "text": "We want to know the total energy, so the total mass stored in the baryons,",
+        "start": 189.4,
+        "duration": 4.46
+    },
+    {
+        "text": "we need to multiply by the volume of the universe.",
+        "start": 194.1,
+        "duration": 2.66
+    },
+    {
+        "text": "But we know how big the universe is, right?",
+        "start": 196.76,
+        "duration": 3.58
+    },
+    {
+        "text": "It's given by this radius. So the volume is just the size of the sphere",
+        "start": 200.34,
+        "duration": 4.28
+    },
+    {
+        "text": "of that radius, which is four, pi by three, and then that radius cubed.",
+        "start": 204.62,
+        "duration": 4.98
+    },
+    {
+        "text": "That gives us the total energy stored in baryons.",
+        "start": 209.6,
+        "duration": 2.38
+    },
+    {
+        "text": "All right, these baryons, like we said, they're basically protons and neutrons, which have the same mass, essentially.",
+        "start": 211.98,
+        "duration": 4.74
+    },
+    {
+        "text": "So if you want to know how many baryons there are,",
+        "start": 217.06,
+        "duration": 1.9
+    },
+    {
+        "text": "we just divide by the mass of one baryon, okay?",
+        "start": 219.305,
+        "duration": 3.06
+    },
+    {
+        "text": "So we divide by the mass of a proton.",
+        "start": 222.365,
+        "duration": 2.575
+    },
+    {
+        "text": "And this gives us the number of baryons.",
+        "start": 224.94,
+        "duration": 2.26
+    },
+    {
+        "text": "That's not what we want, no. So we want to know the number of particles.",
+        "start": 227.2,
+        "duration": 3.2
+    },
+    {
+        "text": "So we've gotta think about how those particles are distributed.",
+        "start": 230.4,
+        "duration": 3.02
+    },
+    {
+        "text": "Now, one thing we know is that the universe is, on average,",
+        "start": 233.42,
+        "duration": 4.2
+    },
+    {
+        "text": "electrically neutral, okay?",
+        "start": 238.12,
+        "duration": 2.22
+    },
+    {
+        "text": "So the number of posi- positive charges balances the number of negative charges.",
+        "start": 240.34,
+        "duration": 3.68
+    },
+    {
+        "text": "For our purposes, that means the number of protons is gonna balance the number of electrons.",
+        "start": 244.68,
+        "duration": 4.64
+    },
+    {
+        "text": "The other bit of information we can use is,",
+        "start": 249.62,
+        "duration": 1.82
+    },
+    {
+        "text": "we know, where are these baryons stored?",
+        "start": 251.44,
+        "duration": 2.16
+    },
+    {
+        "text": "Well, we know that 75% of them are stored in hydrogen atoms,",
+        "start": 253.6,
+        "duration": 5.16
+    },
+    {
+        "text": "and 25% in helium atoms. There's other atoms as well, but it's insignificant.",
+        "start": 258.76,
+        "duration": 4.44
+    },
+    {
+        "text": "Brady: \"Not to us.\"",
+        "start": 263.38,
+        "duration": 1.18
+    },
+    {
+        "text": "Yeah, not to us, but in the broader scheme of things, it's insignificant.",
+        "start": 264.82,
+        "duration": 2.76
+    },
+    {
+        "text": "By far the vast majority, so 75% in hydrogen, 25% in helium,",
+        "start": 268.1,
+        "duration": 4.78
+    },
+    {
+        "text": "that's where all this is stored.",
+        "start": 272.88,
+        "duration": 1.76
+    },
+    {
+        "text": "And we know that from, from looking at, you know, distant gas clouds.",
+        "start": 274.64,
+        "duration": 3.02
+    },
+    {
+        "text": "We also know it from one of the great triumphs of cosmology, which is nucleosynthesis.",
+        "start": 277.8,
+        "duration": 4.44
+    },
+    {
+        "text": "So, given that information, let's suppose we took a sample of four atoms,",
+        "start": 282.24,
+        "duration": 3.24
+    },
+    {
+        "text": "and we know that three of those atoms are gonna be hydrogen, and one of them is gonna be helium, right?",
+        "start": 285.82,
+        "duration": 4.34
+    },
+    {
+        "text": "Well, the hydrogen atom contains one proton and one electron.",
+        "start": 290.16,
+        "duration": 3.76
+    },
+    {
+        "text": "So these three contain three protons and three electrons.",
+        "start": 293.92,
+        "duration": 3.94
+    },
+    {
+        "text": "The helium atom contains two protons, two neutrons, two electrons.",
+        "start": 297.86,
+        "duration": 4.64
+    },
+    {
+        "text": "So, now, well, we can split this up, because each of these protons contains three quarks.",
+        "start": 302.94,
+        "duration": 5.8
+    },
+    {
+        "text": "Each neutron contains three quarks. So altogether, how many particles",
+        "start": 308.74,
+        "duration": 3.7
+    },
+    {
+        "text": "do we get from these four atoms? Twenty-six particles.",
+        "start": 312.76,
+        "duration": 2.94
+    },
+    {
+        "text": "How many baryons did we need to get those twenty-six particles?",
+        "start": 315.7,
+        "duration": 3.44
+    },
+    {
+        "text": "Well, we've got three protons,",
+        "start": 319.14,
+        "duration": 2.26
+    },
+    {
+        "text": "another two protons, and two neutrons, that's seven baryons, okay?",
+        "start": 321.72,
+        "duration": 4.12
+    },
+    {
+        "text": "So we get twenty-seven particles from seven baryons.",
+        "start": 326.3,
+        "duration": 3.18
+    },
+    {
+        "text": "So we know how many baryons there are in total.",
+        "start": 329.64,
+        "duration": 2.54
+    },
+    {
+        "text": "We know for every seven baryons we get twenty-six particles,",
+        "start": 332.18,
+        "duration": 3.435
+    },
+    {
+        "text": "so if we want the total number of particles,",
+        "start": 335.62,
+        "duration": 2.26
+    },
+    {
+        "text": "we just need to multiply this number by twenty-six over seven.",
+        "start": 338.22,
+        "duration": 3.4
+    },
+    {
+        "text": "So we just plug in all the numbers, yadda yadda yadda,",
+        "start": 341.62,
+        "duration": 2.14
+    },
+    {
+        "text": "magic, and what do you get?",
+        "start": 343.76,
+        "duration": 2.38
+    },
+    {
+        "text": "You get 3.28 times, and then the magic figure, ten to the eighty.",
+        "start": 346.62,
+        "duration": 6.06
+    },
+    {
+        "text": "So that's how many particles there are in the universe.",
+        "start": 352.94,
+        "duration": 3.075
+    },
+    {
+        "text": "Seems like a lot, right?",
+        "start": 356.02,
+        "duration": 1.4
+    },
+    {
+        "text": "Ten to the eighty, that's like a one with eighty zeroes after, that's a big number, right?",
+        "start": 357.48,
+        "duration": 3.04
+    },
+    {
+        "text": "But actually, the universe is a big place, that's about one particle every cubic meter.",
+        "start": 360.52,
+        "duration": 4.22
+    },
+    {
+        "text": "Hardly anything, right? But of course, you know, most of space is",
+        "start": 364.74,
+        "duration": 3.14
+    },
+    {
+        "text": "space, it's empty space.",
+        "start": 368.42,
+        "duration": 1.02
+    },
+    {
+        "text": "Brady: \"That's not even one atom per cubic meter, that's one particle.\"",
+        "start": 369.44,
+        "duration": 2.34
+    },
+    {
+        "text": "One particle per cubic meter, yeah, exactly.",
+        "start": 371.78,
+        "duration": 2.64
+    },
+    {
+        "text": "So the other, the other cool thing to think about is you could aak,",
+        "start": 374.42,
+        "duration": 3.1
+    },
+    {
+        "text": "how many particles are there in a typical human body?",
+        "start": 377.52,
+        "duration": 3.74
+    },
+    {
+        "text": "Well, we know the human body is about two thirds hydrogen, about a quarter oxygen.",
+        "start": 381.26,
+        "duration": 4.8
+    },
+    {
+        "text": "So from all our information, you can work out, the number of particles",
+        "start": 386.28,
+        "duration": 3.92
+    },
+    {
+        "text": "in a human body, about 1.46 times ten to the twenty-nine.",
+        "start": 390.2,
+        "duration": 5.66
+    },
+    {
+        "text": "Okay, so that seems like a lot of particles,",
+        "start": 396.24,
+        "duration": 2.24
+    },
+    {
+        "text": "but of course, it's not as many as there are in the entire universe, right?",
+        "start": 398.56,
+        "duration": 2.78
+    },
+    {
+        "text": "So how many humans would you need to",
+        "start": 401.34,
+        "duration": 2.975
+    },
+    {
+        "text": "use up all the particles in the entire universe?",
+        "start": 404.315,
+        "duration": 2.5
+    },
+    {
+        "text": "Well, of course, you just take the ratio of these, these two, right?",
+        "start": 407.395,
+        "duration": 2.6
+    },
+    {
+        "text": "So you'd need 2.25 times ten to the fifty-one humans",
+        "start": 410.46,
+        "duration": 5.46
+    },
+    {
+        "text": "to use up all the particles in the universe.",
+        "start": 416.0,
+        "duration": 1.48
+    },
+    {
+        "text": "So, there's about 7.5 billion humans alive today, right?",
+        "start": 418.04,
+        "duration": 3.46
+    },
+    {
+        "text": "The population growth rate at the moment is about 1.11 percent per year.",
+        "start": 421.84,
+        "duration": 5.3
+    },
+    {
+        "text": "So I thought it would be fun to work out how long it would take for us to, uh,",
+        "start": 427.66,
+        "duration": 4.56
+    },
+    {
+        "text": "given that rate of growth, for us to sort of use up all the particles in the universe, right?",
+        "start": 432.7,
+        "duration": 4.6
+    },
+    {
+        "text": "So we can work this out.",
+        "start": 437.86,
+        "duration": 1.58
+    },
+    {
+        "text": "If we take the population when it's using up all the particles,",
+        "start": 439.78,
+        "duration": 3.12
+    },
+    {
+        "text": "dividing this number, so this is the population corresponds to this number,",
+        "start": 443.16,
+        "duration": 2.88
+    },
+    {
+        "text": "divided by the population now,",
+        "start": 446.3,
+        "duration": 2.06
+    },
+    {
+        "text": "which is about 7.5 billion,",
+        "start": 448.8,
+        "duration": 2.82
+    },
+    {
+        "text": "P now is 7.5 times ten to the nine.",
+        "start": 451.62,
+        "duration": 3.88
+    },
+    {
+        "text": "Then that's related, by an exponential,",
+        "start": 455.505,
+        "duration": 3.39
+    },
+    {
+        "text": "to the rate of growth R, which is",
+        "start": 459.445,
+        "duration": 3.44
+    },
+    {
+        "text": "1.11 percent per year.",
+        "start": 462.925,
+        "duration": 2.78
+    },
+    {
+        "text": "I can plug in all these numbers, I can rearrange this equation.",
+        "start": 465.705,
+        "duration": 2.595
+    },
+    {
+        "text": "I get T is one over R log P all over P now.",
+        "start": 468.64,
+        "duration": 4.215
+    },
+    {
+        "text": "So I just plug in the numbers, and it turns out that we will have used up,",
+        "start": 472.86,
+        "duration": 3.9
+    },
+    {
+        "text": "carry on, the population keeps growing at the same rate,",
+        "start": 476.76,
+        "duration": 2.68
+    },
+    {
+        "text": "we will have used up all the particles in the universe,",
+        "start": 479.445,
+        "duration": 3.27
+    },
+    {
+        "text": "in humans,",
+        "start": 482.8,
+        "duration": 1.26
+    },
+    {
+        "text": "in 8604 years.",
+        "start": 486.6,
+        "duration": 2.08
+    },
+    {
+        "text": "Which is not that much.",
+        "start": 488.96,
+        "duration": 1.98
+    },
+    {
+        "text": "Brady: \"I thought it was gonna be...\"",
+        "start": 490.94,
+        "duration": 2.46
+    },
+    {
+        "text": "I know, it's amazing. This is exponential.",
+        "start": 493.68,
+        "duration": 2.06
+    },
+    {
+        "text": "Brady: \"Forget using up the fossil fuels, we're gonna use all the particles.\"",
+        "start": 496.1,
+        "duration": 2.26
+    },
+    {
+        "text": "Yeah, exactly. I mean, just forget, just forget what,",
+        "start": 498.92,
+        "duration": 2.9
+    },
+    {
+        "text": "what, talk about impact on the planet, impact on the universe, right?",
+        "start": 502.365,
+        "duration": 3.26
+    },
+    {
+        "text": "Population growth, this is. Within less than ten thousand years, we'll have",
+        "start": 505.625,
+        "duration": 3.04
+    },
+    {
+        "text": "used up, and we keep growing at the same rate, we'll have",
+        "start": 508.665,
+        "duration": 2.97
+    },
+    {
+        "text": "used up all the particles of the universe, in the form of humans.",
+        "start": 511.64,
+        "duration": 2.78
+    },
+    {
+        "text": "Surely somethings gotta give before that happens, right?",
+        "start": 514.42,
+        "duration": 2.44
+    },
+    {
+        "text": "Well, there might be only 8604 years left for us here in the universe,",
+        "start": 519.22,
+        "duration": 4.14
+    },
+    {
+        "text": "but luckily that's plenty of time to learn a new skill.",
+        "start": 523.36,
+        "duration": 2.775
+    },
+    {
+        "text": "And a great place to learn new skills is with skill share.",
+        "start": 526.135,
+        "duration": 3.3
+    },
+    {
+        "text": "They're the sponsor of this video, and they've got something like 16,000 online video lessons,",
+        "start": 529.44,
+        "duration": 5.3
+    },
+    {
+        "text": "to teach you all sorts of stuff, from making videos, to cooking, design.",
+        "start": 535.26,
+        "duration": 5.14
+    },
+    {
+        "text": "And something that I'm quite keen to learn a bit more about,",
+        "start": 541.685,
+        "duration": 2.75
+    },
+    {
+        "text": "and that's filming with, and flying drones.",
+        "start": 544.435,
+        "duration": 2.91
+    },
+    {
+        "text": "They've got a whole series of lessons on that.",
+        "start": 547.345,
+        "duration": 2.035
+    },
+    {
+        "text": "And it's something I've started looking at in a lot more depth.",
+        "start": 549.38,
+        "duration": 2.24
+    },
+    {
+        "text": "I got pretty inspired when we made this numberphile video using a drone.",
+        "start": 551.62,
+        "duration": 3.475
+    },
+    {
+        "text": "So finally I'm splashing out and getting one for myself.",
+        "start": 555.1,
+        "duration": 2.7
+    },
+    {
+        "text": "Anyway, from around ten dollars a month, you can get premium membership on skill share,",
+        "start": 557.8,
+        "duration": 4.56
+    },
+    {
+        "text": "you get access to all the videos, including offline.",
+        "start": 562.365,
+        "duration": 2.92
+    },
+    {
+        "text": "And if you're a numberphile viewer, and you use this URL here,",
+        "start": 565.285,
+        "duration": 3.375
+    },
+    {
+        "text": "skl.sh/numberphile",
+        "start": 568.66,
+        "duration": 2.98
+    },
+    {
+        "text": "you can get two free months on there.",
+        "start": 571.64,
+        "duration": 2.555
+    },
+    {
+        "text": "Check it all out. See what you think.",
+        "start": 574.2,
+        "duration": 1.74
+    },
+    {
+        "text": "One of things that's impressed me very early on was how well-made",
+        "start": 575.94,
+        "duration": 3.515
+    },
+    {
+        "text": "the lessons themselves are.",
+        "start": 579.46,
+        "duration": 2.06
+    },
+    {
+        "text": "They're really kind of professional and modern.",
+        "start": 581.52,
+        "duration": 2.02
+    },
+    {
+        "text": "It makes them a lot more enjoyable to watch, and therefore a lot easier to learn what they're teaching you.",
+        "start": 583.54,
+        "duration": 4.44
+    },
+    {
+        "text": "Anyway, don't take my word for it. There's that website again,",
+        "start": 587.98,
+        "duration": 2.72
+    },
+    {
+        "text": "skl.sh/numberphile",
+        "start": 590.7,
+        "duration": 2.2
+    },
+    {
+        "text": "That's so they know you came from here.",
+        "start": 592.9,
+        "duration": 2.16
+    },
+    {
+        "text": "And our thanks to them for supporting this video.",
+        "start": 595.06,
+        "duration": 1.58
+    }
+]

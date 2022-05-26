@@ -1,0 +1,477 @@
+[
+    {
+        "text": "So I've previously mentioned that there's a lot of maths in Futurama and I'm gonna show you two more bits of maths from Futurama.",
+        "start": 0.03,
+        "duration": 6.72
+    },
+    {
+        "text": "There's an episode called The Duh-Vinci Code where the, the Planet Express crew are",
+        "start": 6.75,
+        "duration": 5.639
+    },
+    {
+        "text": "investigating a mystery around the Last Supper,",
+        "start": 12.969,
+        "duration": 2.54
+    },
+    {
+        "text": "they think there may be a robot sat around a table as one of the Apostles. And so they go to",
+        "start": 15.509,
+        "duration": 4.859
+    },
+    {
+        "text": "Future-Roma, as they call it, and",
+        "start": 20.439,
+        "duration": 2.0
+    },
+    {
+        "text": "they're in a crypt and they find",
+        "start": 23.83,
+        "duration": 2.659
+    },
+    {
+        "text": "this tomb with this mysterious Roman",
+        "start": 27.58,
+        "duration": 3.109
+    },
+    {
+        "text": "number on it. Well it's not a number, and it's not a date either really it looks more like a Roman",
+        "start": 31.179,
+        "duration": 5.6
+    },
+    {
+        "text": "mathematical equation.\n- \"Look at these Roman numerals.\"\n- So to understand what this is all about we need to look at Mersenne numbers.",
+        "start": 37.39,
+        "duration": 6.169
+    },
+    {
+        "text": "And I'm sure Mersenne numbers have cropped up previously on Numberphile, but just to remind you: a Mersenne number, Father Mersenne was a, I think a",
+        "start": 43.559,
+        "duration": 7.541
+    },
+    {
+        "text": "Parisian monk who would correspond with lots of other mathematicians.",
+        "start": 51.19,
+        "duration": 3.139
+    },
+    {
+        "text": "And he came up with this number which is of the form 2 to the power p minus 1, where p is prime. And",
+        "start": 54.52,
+        "duration": 7.399
+    },
+    {
+        "text": "so let's put in some prime numbers. 2 to the power 2 minus 1, is 4 minus 1 is 3.",
+        "start": 62.41,
+        "duration": 6.319
+    },
+    {
+        "text": "Let's put in another prime number, 2 to the power 3 minus 1, is 8 minus 1, is 7.",
+        "start": 69.76,
+        "duration": 3.829
+    },
+    {
+        "text": "2 to the power 4 we're not interested in because that's not a prime. But 5 minus 1 is",
+        "start": 74.95,
+        "duration": 5.569
+    },
+    {
+        "text": "8, 16, 32, that would be 31 if we take away the 1. 2 to power 6 we're not interested in. Seven is a prime;",
+        "start": 81.189,
+        "duration": 7.76
+    },
+    {
+        "text": "32, 64, 128 so that's a 127.",
+        "start": 90.67,
+        "duration": 4.01
+    },
+    {
+        "text": "Next prime is 2 to the 11. Now one thing you'll notice about these,",
+        "start": 96.13,
+        "duration": 3.8
+    },
+    {
+        "text": "2 to the power 11 minus 1. So that is 2, 4, 8, 16, 32, 64, 128, 256,",
+        "start": 101.259,
+        "duration": 7.52
+    },
+    {
+        "text": "512,",
+        "start": 109.93,
+        "duration": 1.32
+    },
+    {
+        "text": "1024,",
+        "start": 111.25,
+        "duration": 2.0
+    },
+    {
+        "text": "2048 minus 1 is",
+        "start": 113.95,
+        "duration": 2.0
+    },
+    {
+        "text": "2047. So these are called Mersenne numbers, ok. And",
+        "start": 116.799,
+        "duration": 2.87
+    },
+    {
+        "text": "we put in a prime here and bang, at the other end",
+        "start": 120.189,
+        "duration": 4.52
+    },
+    {
+        "text": "we get a prime, a prime, a prime, and a prime.",
+        "start": 124.71,
+        "duration": 3.689
+    },
+    {
+        "text": "Now this one, okay,",
+        "start": 130.0,
+        "duration": 1.34
+    },
+    {
+        "text": "this is a bit tricky actually. This one it's hard to tell whether or not it's a prime,",
+        "start": 131.34,
+        "duration": 3.0
+    },
+    {
+        "text": "but at first sight this seems to be a pretty good way of generating primes and actually is a very good way of generating primes.",
+        "start": 134.68,
+        "duration": 5.66
+    },
+    {
+        "text": "But it's not foolproof. And in fact the first number, the first Mersenne number that's not a prime is this one here, 2047.",
+        "start": 140.47,
+        "duration": 7.729
+    },
+    {
+        "text": "Because",
+        "start": 148.75,
+        "duration": 1.049
+    },
+    {
+        "text": "2047 equals,",
+        "start": 149.799,
+        "duration": 2.0
+    },
+    {
+        "text": "let me have a look, I'm doing it from memory. It's 23 times",
+        "start": 152.019,
+        "duration": 3.92
+    },
+    {
+        "text": "89 okay.",
+        "start": 156.849,
+        "duration": 1.411
+    },
+    {
+        "text": "So this Mersenne number is not a Mersenne prime. And this",
+        "start": 158.26,
+        "duration": 4.49
+    },
+    {
+        "text": "equation is kind of embedded up here, because if we translate from these Roman numerals, what we've got is 2",
+        "start": 163.03,
+        "duration": 5.899
+    },
+    {
+        "text": "to the power 11",
+        "start": 170.349,
+        "duration": 2.0
+    },
+    {
+        "text": "minus, in brackets, 10 23,",
+        "start": 173.5,
+        "duration": 2.959
+    },
+    {
+        "text": "multiplied by 50, 60, 70, 80, 90,",
+        "start": 178.42,
+        "duration": 2.419
+    },
+    {
+        "text": "minus 1 is 89, ok? And 2 to the power 11, we know is",
+        "start": 181.72,
+        "duration": 5.449
+    },
+    {
+        "text": "2048, we know that this is",
+        "start": 188.14,
+        "duration": 2.539
+    },
+    {
+        "text": "2047 so this minus this equals a 1. So what we've got is is the kind of a Mersenne number here",
+        "start": 191.26,
+        "duration": 6.349
+    },
+    {
+        "text": "which is not a Mersenne prime, which is why it's kind of a little bit interesting",
+        "start": 197.609,
+        "duration": 3.48
+    },
+    {
+        "text": "encoded on this tom- in this tomb in Future-Roma in Futurama in Roman numerals.",
+        "start": 202.12,
+        "duration": 5.779
+    },
+    {
+        "text": "So that's one of the things that, if you're watching the episode, you kinda think it's a funny story,",
+        "start": 207.9,
+        "duration": 4.709
+    },
+    {
+        "text": "it's an interesting story - typical Futurama. But hidden within it is this weird mathematical reference",
+        "start": 212.609,
+        "duration": 6.57
+    },
+    {
+        "text": "which you'd only get if you pause it, freeze frame it, unpack the maths and then you figure out what's happening.",
+        "start": 219.18,
+        "duration": 5.399
+    },
+    {
+        "text": "\"Aha! The marking indicate how many places we need to take!\"",
+        "start": 225.0,
+        "duration": 3.03
+    },
+    {
+        "text": "\"A 1, okay we're there.\"",
+        "start": 228.58,
+        "duration": 2.96
+    },
+    {
+        "text": "They love maths and and they're not mathematicians anymore,",
+        "start": 231.54,
+        "duration": 2.78
+    },
+    {
+        "text": "and, and that this is just their way of expressing that love of maths.",
+        "start": 234.359,
+        "duration": 3.39
+    },
+    {
+        "text": "(Brady: I'm not super familiar with how animation shows are made)",
+        "start": 237.75,
+        "duration": 3.69
+    },
+    {
+        "text": "(but I've seen bits and pieces, and I know these guys are obviously sitting and writing scripts in a writers' room,)",
+        "start": 241.44,
+        "duration": 4.919
+    },
+    {
+        "text": "(other people actually do the drawings and the animations.)\n- Yeah. \n- (This is not germane to the story in any way)",
+        "start": 246.549,
+        "duration": 5.3
+    },
+    {
+        "text": "(so did they just put like a note in there saying 'if there's a gravestone,)",
+        "start": 251.849,
+        "duration": 3.09
+    },
+    {
+        "text": "(make sure you put this number on the side' or how do they communicate?)",
+        "start": 255.24,
+        "duration": 3.16
+    },
+    {
+        "text": "Yeah no, no they do, they they write it in detail that you know, this is, this is,",
+        "start": 258.96,
+        "duration": 4.48
+    },
+    {
+        "text": "every aspect of what they want in the scene. I remember the very - one of the very - very, very first episode of The Simpsons,",
+        "start": 264.14,
+        "duration": 6.38
+    },
+    {
+        "text": "first kind of real episode of The Simpsons. There was a joke about calculus and",
+        "start": 271.16,
+        "duration": 4.16
+    },
+    {
+        "text": "they get it wrong. On the blackboard the maths is actually not correct.",
+        "start": 276.11,
+        "duration": 3.859
+    },
+    {
+        "text": "And I think that was an example where they scribbled out some maths, they sent it off to be animated and",
+        "start": 280.01,
+        "duration": 5.269
+    },
+    {
+        "text": "whoever was doing the animation didn't really appreciate how important the mathematical detail was and there's an error.",
+        "start": 285.95,
+        "duration": 4.579
+    },
+    {
+        "text": "But I think ever since then they've been very careful with what their mathematical instructions are and they're very, very careful to check them afterwards",
+        "start": 290.75,
+        "duration": 6.619
+    },
+    {
+        "text": "as well no doubt. So yeah. In an episode called The Honking",
+        "start": 297.37,
+        "duration": 2.88
+    },
+    {
+        "text": "where the Futurama crew go off to a spooky castle for the reading of a will and",
+        "start": 301.16,
+        "duration": 5.48
+    },
+    {
+        "text": "it's all a bit scary and they're walking through this castle and then suddenly blood appears on the wall.",
+        "start": 307.34,
+        "duration": 7.069
+    },
+    {
+        "text": "\"Zero, one, zero, one, one, zero, zero, one, zero, one.\"\n- Okay, so it's this binary sequence in blood,",
+        "start": 315.08,
+        "duration": 4.25
+    },
+    {
+        "text": "it's on the wall. All a bit scary. So let's find out what this binary sequence is in decimal, we've got a",
+        "start": 319.33,
+        "duration": 5.279
+    },
+    {
+        "text": "1, 2, 4, 8, 16, 32,",
+        "start": 325.46,
+        "duration": 2.899
+    },
+    {
+        "text": "64, 128, 256. Ok, so if we add these up we've got 5,37, 101,",
+        "start": 330.08,
+        "duration": 7.579
+    },
+    {
+        "text": "357. Okay, that equals",
+        "start": 339.11,
+        "duration": 2.0
+    },
+    {
+        "text": "357. Now 357 is not a particularly interesting number, as far as I know.",
+        "start": 341.99,
+        "duration": 3.92
+    },
+    {
+        "text": "It doesn't scream out as being a perfect number or a Mersenne Prime or any of those interesting numbers",
+        "start": 345.91,
+        "duration": 5.279
+    },
+    {
+        "text": "we come across sometimes. But then Bender, the robot,",
+        "start": 351.19,
+        "duration": 2.0
+    },
+    {
+        "text": "turns around and he sees the number reflected in a mirror. And so the binary digits are switched around.",
+        "start": 354.5,
+        "duration": 6.559
+    },
+    {
+        "text": "So let's have a look at this binary sequence now, if we reverse the digits. We now have a 1 0",
+        "start": 361.42,
+        "duration": 5.79
+    },
+    {
+        "text": "1 0 0 1",
+        "start": 368.9,
+        "duration": 2.0
+    },
+    {
+        "text": "1 0 1 0. Ok, so we can now translate that binary sequence back into decimal.",
+        "start": 370.91,
+        "duration": 5.72
+    },
+    {
+        "text": "We've got a 2, no 4s, we've got 8,",
+        "start": 376.63,
+        "duration": 2.52
+    },
+    {
+        "text": "16, 32, 64, we've got a 128,",
+        "start": 379.97,
+        "duration": 2.87
+    },
+    {
+        "text": "no 256s and a 512.",
+        "start": 384.05,
+        "duration": 3.559
+    },
+    {
+        "text": "2 and 8 is 10, 10, 16 is 26, 26 and 128 is 154,",
+        "start": 388.64,
+        "duration": 4.61
+    },
+    {
+        "text": "154 and 512 is 666.",
+        "start": 394.04,
+        "duration": 4.67
+    },
+    {
+        "text": "The number of the devil, the number of the beast. And so Bender, he's just completely terrified and he runs away screaming.",
+        "start": 400.54,
+        "duration": 7.32
+    },
+    {
+        "text": "\"1010011010. AHHH!\"",
+        "start": 407.86,
+        "duration": 3.96
+    },
+    {
+        "text": "But what I so much love about this, is that it's never explained why Bender is so terrified.",
+        "start": 413.06,
+        "duration": 5.5
+    },
+    {
+        "text": "The only way that you the viewer will ever understand what's happening is if you the viewer, while you're watching it, can do the binary",
+        "start": 418.76,
+        "duration": 6.529
+    },
+    {
+        "text": "to decimal translation in your head on the fly in half a second. Otherwise, it doesn't make any sense. So",
+        "start": 425.29,
+        "duration": 5.73
+    },
+    {
+        "text": "that's the level of",
+        "start": 431.57,
+        "duration": 2.0
+    },
+    {
+        "text": "mathematical, kind of,",
+        "start": 433.97,
+        "duration": 2.0
+    },
+    {
+        "text": "of trivia that's kind of embedded in this program.",
+        "start": 437.78,
+        "duration": 2.239
+    },
+    {
+        "text": "If you enjoyed this video and would like to hear even more from Simon,",
+        "start": 441.159,
+        "duration": 3.35
+    },
+    {
+        "text": "well you're in luck because he's the special guest in the most recently released episode of the Numberphile podcast.",
+        "start": 444.509,
+        "duration": 5.85
+    },
+    {
+        "text": "You can find it on your podcast player of choice,",
+        "start": 450.519,
+        "duration": 2.66
+    },
+    {
+        "text": "you can also go to the Numberphile website or you can listen via YouTube on the Numberphile2 channel.",
+        "start": 453.179,
+        "duration": 6.42
+    },
+    {
+        "text": "There'll be links on the screen and down in the video description",
+        "start": 459.599,
+        "duration": 2.279
+    }
+]

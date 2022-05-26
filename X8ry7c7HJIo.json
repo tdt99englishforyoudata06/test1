@@ -1,0 +1,822 @@
+[
+    {
+        "text": "in this video we will show you how to",
+        "start": 0.24,
+        "duration": 4.96
+    },
+    {
+        "text": "port forward your minecraft server",
+        "start": 2.159,
+        "duration": 4.961
+    },
+    {
+        "text": "forwarding a port allows people who",
+        "start": 5.2,
+        "duration": 4.08
+    },
+    {
+        "text": "aren't on your wi-fi network to join a",
+        "start": 7.12,
+        "duration": 4.559
+    },
+    {
+        "text": "server that you're hosting",
+        "start": 9.28,
+        "duration": 4.399
+    },
+    {
+        "text": "we will show you how to allow the port",
+        "start": 11.679,
+        "duration": 3.04
+    },
+    {
+        "text": "through the firewall",
+        "start": 13.679,
+        "duration": 2.641
+    },
+    {
+        "text": "how to port forward your minecraft",
+        "start": 14.719,
+        "duration": 3.441
+    },
+    {
+        "text": "server and how to allow",
+        "start": 16.32,
+        "duration": 4.64
+    },
+    {
+        "text": "others to connect to your server if you",
+        "start": 18.16,
+        "duration": 4.24
+    },
+    {
+        "text": "would like to know how to make a",
+        "start": 20.96,
+        "duration": 2.479
+    },
+    {
+        "text": "minecraft server",
+        "start": 22.4,
+        "duration": 2.56
+    },
+    {
+        "text": "a tutorial will be linked in the",
+        "start": 23.439,
+        "duration": 4.481
+    },
+    {
+        "text": "description below",
+        "start": 24.96,
+        "duration": 2.96
+    },
+    {
+        "text": "while poor forwarding is generally safe",
+        "start": 28.32,
+        "duration": 4.16
+    },
+    {
+        "text": "make sure you have a good understanding",
+        "start": 30.64,
+        "duration": 3.68
+    },
+    {
+        "text": "of port forwarding and your network's",
+        "start": 32.48,
+        "duration": 2.56
+    },
+    {
+        "text": "security",
+        "start": 34.32,
+        "duration": 3.759
+    },
+    {
+        "text": "before you begin open your server file",
+        "start": 35.04,
+        "duration": 10.64
+    },
+    {
+        "text": "and go to server properties",
+        "start": 38.079,
+        "duration": 10.381
+    },
+    {
+        "text": "look for server port",
+        "start": 45.68,
+        "duration": 6.179
+    },
+    {
+        "text": "[Music]",
+        "start": 48.46,
+        "duration": 3.399
+    },
+    {
+        "text": "if you're running multiple servers the",
+        "start": 52.879,
+        "duration": 4.32
+    },
+    {
+        "text": "number here may be different for you",
+        "start": 54.8,
+        "duration": 4.32
+    },
+    {
+        "text": "but if you only have one server the",
+        "start": 57.199,
+        "duration": 5.761
+    },
+    {
+        "text": "number will be 25565",
+        "start": 59.12,
+        "duration": 7.439
+    },
+    {
+        "text": "select the number and copy it",
+        "start": 62.96,
+        "duration": 3.599
+    },
+    {
+        "text": "[Music]",
+        "start": 67.0,
+        "duration": 4.6
+    },
+    {
+        "text": "go to the search bar on the bottom left",
+        "start": 69.76,
+        "duration": 3.359
+    },
+    {
+        "text": "of your screen and type",
+        "start": 71.6,
+        "duration": 4.08
+    },
+    {
+        "text": "firewall",
+        "start": 73.119,
+        "duration": 2.561
+    },
+    {
+        "text": "then click on windows defender firewall",
+        "start": 76.4,
+        "duration": 4.48
+    },
+    {
+        "text": "on the left click on advanced settings",
+        "start": 81.04,
+        "duration": 6.8
+    },
+    {
+        "text": "you can close the previous window",
+        "start": 88.799,
+        "duration": 5.351
+    },
+    {
+        "text": "[Music]",
+        "start": 90.62,
+        "duration": 3.53
+    },
+    {
+        "text": "next click on inbound rules at the top",
+        "start": 94.799,
+        "duration": 3.921
+    },
+    {
+        "text": "left",
+        "start": 97.119,
+        "duration": 5.921
+    },
+    {
+        "text": "then at the top right click on new rule",
+        "start": 98.72,
+        "duration": 4.32
+    },
+    {
+        "text": "select port then click next",
+        "start": 106.32,
+        "duration": 4.96
+    },
+    {
+        "text": "[Music]",
+        "start": 109.28,
+        "duration": 4.64
+    },
+    {
+        "text": "make sure tcp and specific local ports",
+        "start": 111.28,
+        "duration": 4.479
+    },
+    {
+        "text": "are selected",
+        "start": 113.92,
+        "duration": 3.68
+    },
+    {
+        "text": "paste the port number in the slot next",
+        "start": 115.759,
+        "duration": 4.72
+    },
+    {
+        "text": "to specific local ports",
+        "start": 117.6,
+        "duration": 5.92
+    },
+    {
+        "text": "then click next",
+        "start": 120.479,
+        "duration": 3.041
+    },
+    {
+        "text": "make sure allow the connection is",
+        "start": 124.799,
+        "duration": 4.671
+    },
+    {
+        "text": "selected then click on next",
+        "start": 126.159,
+        "duration": 6.401
+    },
+    {
+        "text": "[Music]",
+        "start": 129.47,
+        "duration": 4.69
+    },
+    {
+        "text": "make sure all three of these options are",
+        "start": 132.56,
+        "duration": 5.759
+    },
+    {
+        "text": "selected then click next again",
+        "start": 134.16,
+        "duration": 4.159
+    },
+    {
+        "text": "go ahead and type in the name you want",
+        "start": 138.8,
+        "duration": 5.04
+    },
+    {
+        "text": "then click on finish",
+        "start": 140.959,
+        "duration": 2.881
+    },
+    {
+        "text": "[Music]",
+        "start": 144.28,
+        "duration": 6.559
+    },
+    {
+        "text": "after doing so click on new rule again",
+        "start": 151.84,
+        "duration": 6.0
+    },
+    {
+        "text": "select port then click next",
+        "start": 158.4,
+        "duration": 6.24
+    },
+    {
+        "text": "this time select udp and specific local",
+        "start": 161.84,
+        "duration": 5.2
+    },
+    {
+        "text": "ports",
+        "start": 164.64,
+        "duration": 2.4
+    },
+    {
+        "text": "paste the number again next to specific",
+        "start": 167.599,
+        "duration": 4.0
+    },
+    {
+        "text": "local ports",
+        "start": 169.519,
+        "duration": 5.121
+    },
+    {
+        "text": "then click next",
+        "start": 171.599,
+        "duration": 3.041
+    },
+    {
+        "text": "make sure allow the connection is",
+        "start": 175.76,
+        "duration": 4.479
+    },
+    {
+        "text": "selected and click next",
+        "start": 177.12,
+        "duration": 4.72
+    },
+    {
+        "text": "again make sure all three options are",
+        "start": 180.239,
+        "duration": 4.801
+    },
+    {
+        "text": "selected then click next",
+        "start": 181.84,
+        "duration": 5.28
+    },
+    {
+        "text": "go ahead and type in a name and then",
+        "start": 185.04,
+        "duration": 3.44
+    },
+    {
+        "text": "click on finish",
+        "start": 187.12,
+        "duration": 4.88
+    },
+    {
+        "text": "you can repeat the same name",
+        "start": 188.48,
+        "duration": 3.52
+    },
+    {
+        "text": "click on outbound rules at the top left",
+        "start": 194.159,
+        "duration": 5.681
+    },
+    {
+        "text": "then click on new rule",
+        "start": 196.48,
+        "duration": 3.36
+    },
+    {
+        "text": "select port then click next",
+        "start": 206.0,
+        "duration": 4.0
+    },
+    {
+        "text": "make sure tcp and specific remote ports",
+        "start": 210.48,
+        "duration": 3.36
+    },
+    {
+        "text": "are selected",
+        "start": 212.879,
+        "duration": 4.241
+    },
+    {
+        "text": "and paste the number again after this",
+        "start": 213.84,
+        "duration": 4.8
+    },
+    {
+        "text": "point the rest of the steps are the",
+        "start": 217.12,
+        "duration": 5.36
+    },
+    {
+        "text": "exact same as previously shown",
+        "start": 218.64,
+        "duration": 3.84
+    },
+    {
+        "text": "once you've finished click on new rule",
+        "start": 224.72,
+        "duration": 4.32
+    },
+    {
+        "text": "again",
+        "start": 226.72,
+        "duration": 2.32
+    },
+    {
+        "text": "select port then next",
+        "start": 229.44,
+        "duration": 3.76
+    },
+    {
+        "text": "this time make sure udp is selected as",
+        "start": 233.84,
+        "duration": 5.679
+    },
+    {
+        "text": "well as specific remote ports",
+        "start": 236.319,
+        "duration": 4.961
+    },
+    {
+        "text": "paste in the port number and finish the",
+        "start": 239.519,
+        "duration": 4.72
+    },
+    {
+        "text": "rest of the steps like before",
+        "start": 241.28,
+        "duration": 4.959
+    },
+    {
+        "text": "after doing that we've now allowed the",
+        "start": 244.239,
+        "duration": 5.28
+    },
+    {
+        "text": "port through the firewall",
+        "start": 246.239,
+        "duration": 3.28
+    },
+    {
+        "text": "you will need to go to your poor",
+        "start": 253.2,
+        "duration": 3.999
+    },
+    {
+        "text": "forwarding settings on your router",
+        "start": 254.56,
+        "duration": 4.799
+    },
+    {
+        "text": "this step might look different depending",
+        "start": 257.199,
+        "duration": 4.56
+    },
+    {
+        "text": "on what router you have",
+        "start": 259.359,
+        "duration": 4.481
+    },
+    {
+        "text": "to log into your router you will need",
+        "start": 261.759,
+        "duration": 4.241
+    },
+    {
+        "text": "your default gateway number",
+        "start": 263.84,
+        "duration": 3.919
+    },
+    {
+        "text": "go to the search bar on the bottom left",
+        "start": 266.0,
+        "duration": 3.199
+    },
+    {
+        "text": "of your screen and type",
+        "start": 267.759,
+        "duration": 5.361
+    },
+    {
+        "text": "run then hit enter",
+        "start": 269.199,
+        "duration": 8.241
+    },
+    {
+        "text": "type cmd then hit enter again",
+        "start": 273.12,
+        "duration": 4.32
+    },
+    {
+        "text": "then type in ipconfig and hit enter",
+        "start": 277.84,
+        "duration": 6.0
+    },
+    {
+        "text": "you will need to look for default",
+        "start": 285.36,
+        "duration": 3.52
+    },
+    {
+        "text": "gateway under the internet your computer",
+        "start": 286.8,
+        "duration": 4.24
+    },
+    {
+        "text": "is connected to",
+        "start": 288.88,
+        "duration": 4.96
+    },
+    {
+        "text": "copy the number next to default gateway",
+        "start": 291.04,
+        "duration": 6.8
+    },
+    {
+        "text": "and paste it in your browser",
+        "start": 293.84,
+        "duration": 4.0
+    },
+    {
+        "text": "a login box or screen will appear enter",
+        "start": 299.36,
+        "duration": 5.04
+    },
+    {
+        "text": "your router's username and password to",
+        "start": 302.639,
+        "duration": 2.081
+    },
+    {
+        "text": "log",
+        "start": 304.4,
+        "duration": 4.56
+    },
+    {
+        "text": "in once you've found your way into the",
+        "start": 304.72,
+        "duration": 5.759
+    },
+    {
+        "text": "port forwarding settings",
+        "start": 308.96,
+        "duration": 3.92
+    },
+    {
+        "text": "you should see external port internal",
+        "start": 310.479,
+        "duration": 3.841
+    },
+    {
+        "text": "port protocol",
+        "start": 312.88,
+        "duration": 6.72
+    },
+    {
+        "text": "local ip and possibly an enable option",
+        "start": 314.32,
+        "duration": 5.28
+    },
+    {
+        "text": "paste the port number under external and",
+        "start": 320.32,
+        "duration": 5.52
+    },
+    {
+        "text": "internal port",
+        "start": 322.479,
+        "duration": 3.361
+    },
+    {
+        "text": "make sure that tcp and udp is selected",
+        "start": 327.84,
+        "duration": 5.04
+    },
+    {
+        "text": "under protocol",
+        "start": 330.8,
+        "duration": 3.679
+    },
+    {
+        "text": "if you don't have the option for both of",
+        "start": 332.88,
+        "duration": 3.2
+    },
+    {
+        "text": "them you can add one as",
+        "start": 334.479,
+        "duration": 6.401
+    },
+    {
+        "text": "tcp then add another as udp",
+        "start": 336.08,
+        "duration": 4.8
+    },
+    {
+        "text": "if there are two slots under internal",
+        "start": 342.32,
+        "duration": 3.36
+    },
+    {
+        "text": "and external ports",
+        "start": 344.32,
+        "duration": 3.36
+    },
+    {
+        "text": "enter the same port number into these",
+        "start": 345.68,
+        "duration": 4.239
+    },
+    {
+        "text": "slots as well",
+        "start": 347.68,
+        "duration": 4.0
+    },
+    {
+        "text": "you will also need to enter your local",
+        "start": 349.919,
+        "duration": 3.28
+    },
+    {
+        "text": "ip here",
+        "start": 351.68,
+        "duration": 3.2
+    },
+    {
+        "text": "this may be different for some routers",
+        "start": 353.199,
+        "duration": 4.0
+    },
+    {
+        "text": "that will ask you to enter the entire ip",
+        "start": 354.88,
+        "duration": 4.319
+    },
+    {
+        "text": "but in this case it's only asking for",
+        "start": 357.199,
+        "duration": 5.12
+    },
+    {
+        "text": "the last few digits",
+        "start": 359.199,
+        "duration": 5.44
+    },
+    {
+        "text": "to find your local ip go to the search",
+        "start": 362.319,
+        "duration": 5.041
+    },
+    {
+        "text": "bar on the bottom left of your screen",
+        "start": 364.639,
+        "duration": 6.0
+    },
+    {
+        "text": "type run then hit enter",
+        "start": 367.36,
+        "duration": 7.6
+    },
+    {
+        "text": "type cmd and hit enter again",
+        "start": 370.639,
+        "duration": 4.321
+    },
+    {
+        "text": "then type in ipconfig and hit enter",
+        "start": 375.6,
+        "duration": 6.24
+    },
+    {
+        "text": "you will need to look for ipv4 address",
+        "start": 382.8,
+        "duration": 4.08
+    },
+    {
+        "text": "under the internet your computer is",
+        "start": 385.28,
+        "duration": 3.52
+    },
+    {
+        "text": "connected to",
+        "start": 386.88,
+        "duration": 3.84
+    },
+    {
+        "text": "you will find your local ip right next",
+        "start": 388.8,
+        "duration": 3.36
+    },
+    {
+        "text": "to it",
+        "start": 390.72,
+        "duration": 3.44
+    },
+    {
+        "text": "for example this computer is connected",
+        "start": 392.16,
+        "duration": 3.68
+    },
+    {
+        "text": "to a wireless network",
+        "start": 394.16,
+        "duration": 3.68
+    },
+    {
+        "text": "so the local ip will be listed under",
+        "start": 395.84,
+        "duration": 4.32
+    },
+    {
+        "text": "that",
+        "start": 397.84,
+        "duration": 2.32
+    },
+    {
+        "text": "make sure to check the box under enabled",
+        "start": 402.24,
+        "duration": 4.079
+    },
+    {
+        "text": "after you've entered all the details",
+        "start": 407.6,
+        "duration": 3.84
+    },
+    {
+        "text": "click on add new to port forward your",
+        "start": 409.44,
+        "duration": 4.879
+    },
+    {
+        "text": "minecraft server",
+        "start": 411.44,
+        "duration": 2.879
+    },
+    {
+        "text": "people within your local network will be",
+        "start": 419.68,
+        "duration": 3.28
+    },
+    {
+        "text": "able to join your server",
+        "start": 421.599,
+        "duration": 4.561
+    },
+    {
+        "text": "using your local ip address",
+        "start": 422.96,
+        "duration": 5.04
+    },
+    {
+        "text": "if you want to allow people outside of",
+        "start": 426.16,
+        "duration": 3.92
+    },
+    {
+        "text": "your local network to join the server",
+        "start": 428.0,
+        "duration": 3.68
+    },
+    {
+        "text": "you will need to give them your public",
+        "start": 430.08,
+        "duration": 3.2
+    },
+    {
+        "text": "ip address",
+        "start": 431.68,
+        "duration": 4.079
+    },
+    {
+        "text": "to find your public ip you can type my",
+        "start": 433.28,
+        "duration": 4.16
+    },
+    {
+        "text": "ip address on google",
+        "start": 435.759,
+        "duration": 5.201
+    },
+    {
+        "text": "and it will show your ip",
+        "start": 437.44,
+        "duration": 3.52
+    },
+    {
+        "text": "if your port number is in 25565 you will",
+        "start": 446.56,
+        "duration": 5.12
+    },
+    {
+        "text": "need to add a colon next to your ip",
+        "start": 449.68,
+        "duration": 2.72
+    },
+    {
+        "text": "address",
+        "start": 451.68,
+        "duration": 2.799
+    },
+    {
+        "text": "and add the port number after it then",
+        "start": 452.4,
+        "duration": 4.239
+    },
+    {
+        "text": "send it to friends",
+        "start": 454.479,
+        "duration": 5.28
+    },
+    {
+        "text": "if your port number is 25565 there's no",
+        "start": 456.639,
+        "duration": 4.161
+    },
+    {
+        "text": "need to do that",
+        "start": 459.759,
+        "duration": 5.361
+    },
+    {
+        "text": "you can simply just send your ip",
+        "start": 460.8,
+        "duration": 6.239
+    },
+    {
+        "text": "your friends can now join your server",
+        "start": 465.12,
+        "duration": 14.72
+    },
+    {
+        "text": "using your ip address",
+        "start": 467.039,
+        "duration": 12.801
+    },
+    {
+        "text": "you",
+        "start": 488.24,
+        "duration": 2.079
+    }
+]

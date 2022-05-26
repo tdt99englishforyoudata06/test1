@@ -1,0 +1,2747 @@
+[
+    {
+        "text": "We're gonna go gambling. We're creating a-",
+        "start": 0.08,
+        "duration": 2.48
+    },
+    {
+        "text": "let's call it a fictional casino",
+        "start": 2.56,
+        "duration": 2.16
+    },
+    {
+        "text": "and we're playing a game with a 50/50",
+        "start": 4.72,
+        "duration": 3.68
+    },
+    {
+        "text": "chance of winning.",
+        "start": 8.4,
+        "duration": 1.17
+    },
+    {
+        "text": "Okay, so we're doing roulette -\nred or black so",
+        "start": 11.0,
+        "duration": 2.36
+    },
+    {
+        "text": "there's no zero, so it is",
+        "start": 13.36,
+        "duration": 1.6
+    },
+    {
+        "text": "actually a 50/50 chance red or black.",
+        "start": 14.96,
+        "duration": 2.8
+    },
+    {
+        "text": "What we're going to look at is something",
+        "start": 17.76,
+        "duration": 1.679
+    },
+    {
+        "text": "called the Martingale Strategy.",
+        "start": 19.439,
+        "duration": 2.481
+    },
+    {
+        "text": "Every time you lose a bet you double",
+        "start": 21.92,
+        "duration": 3.439
+    },
+    {
+        "text": "down",
+        "start": 25.359,
+        "duration": 0.801
+    },
+    {
+        "text": "on the next bet; and therefore eventually\nyou will",
+        "start": 26.16,
+        "duration": 3.84
+    },
+    {
+        "text": "win - is the idea.\n- (Brad: What do you mean by)",
+        "start": 30.0,
+        "duration": 2.559
+    },
+    {
+        "text": "(double down?)",
+        "start": 32.559,
+        "duration": 0.961
+    },
+    {
+        "text": "So if you bet one pound and lose then",
+        "start": 33.52,
+        "duration": 3.28
+    },
+    {
+        "text": "you bet again",
+        "start": 36.8,
+        "duration": 0.88
+    },
+    {
+        "text": "and you would bet two pounds; and then if",
+        "start": 37.68,
+        "duration": 2.0
+    },
+    {
+        "text": "you lost again then you go four pounds;",
+        "start": 39.68,
+        "duration": 2.16
+    },
+    {
+        "text": "if you lose you go eight pounds. So you",
+        "start": 41.84,
+        "duration": 2.239
+    },
+    {
+        "text": "double the last bet you made.",
+        "start": 44.079,
+        "duration": 2.561
+    },
+    {
+        "text": "Provided you have pretty much unlimited",
+        "start": 46.64,
+        "duration": 2.079
+    },
+    {
+        "text": "money you will eventually",
+        "start": 48.719,
+        "duration": 2.16
+    },
+    {
+        "text": "win. A win is: come out of our fictional",
+        "start": 50.879,
+        "duration": 3.281
+    },
+    {
+        "text": "casino with more money than I went in.",
+        "start": 54.16,
+        "duration": 1.68
+    },
+    {
+        "text": "(You want to make a profit.)\n- Exactly we're",
+        "start": 55.84,
+        "duration": 1.28
+    },
+    {
+        "text": "making a profit.\n- (Should we say we're)",
+        "start": 57.12,
+        "duration": 1.439
+    },
+    {
+        "text": "(always betting on red?)",
+        "start": 58.559,
+        "duration": 2.241
+    },
+    {
+        "text": "(Or black or-?)\n- I think- I'm",
+        "start": 60.8,
+        "duration": 2.079
+    },
+    {
+        "text": "tempted to go black.",
+        "start": 62.879,
+        "duration": 1.451
+    },
+    {
+        "text": "So I write with a black pen. I think if I",
+        "start": 64.96,
+        "duration": 1.68
+    },
+    {
+        "text": "was given the choice I would- I would I'd",
+        "start": 66.64,
+        "duration": 2.0
+    },
+    {
+        "text": "like a-",
+        "start": 68.64,
+        "duration": 0.64
+    },
+    {
+        "text": "I'm going for black over red I think.",
+        "start": 69.28,
+        "duration": 1.519
+    },
+    {
+        "text": "(Okay so we're betting on black.)\n- Betting",
+        "start": 70.799,
+        "duration": 1.601
+    },
+    {
+        "text": "on black. And we're going to keep going;",
+        "start": 72.4,
+        "duration": 1.36
+    },
+    {
+        "text": "you think about well when is the first",
+        "start": 73.76,
+        "duration": 1.359
+    },
+    {
+        "text": "time I lose? So if I lose at step k",
+        "start": 75.119,
+        "duration": 1.921
+    },
+    {
+        "text": "I've had my bet at step 1,",
+        "start": 77.04,
+        "duration": 3.04
+    },
+    {
+        "text": "and I bet one pound, and\nthen I must have lost",
+        "start": 80.08,
+        "duration": 3.28
+    },
+    {
+        "text": "because we're assuming we're going to",
+        "start": 83.36,
+        "duration": 1.119
+    },
+    {
+        "text": "keep going until this number k. Then at",
+        "start": 84.479,
+        "duration": 2.0
+    },
+    {
+        "text": "step 2 I bet two pounds. Then step three -",
+        "start": 86.479,
+        "duration": 3.6
+    },
+    {
+        "text": "again we're assuming I've lost at step",
+        "start": 90.079,
+        "duration": 1.761
+    },
+    {
+        "text": "2 - I double my bet",
+        "start": 91.84,
+        "duration": 1.919
+    },
+    {
+        "text": "so this is now going to be four pounds.",
+        "start": 93.759,
+        "duration": 2.72
+    },
+    {
+        "text": "Step 4 is going to be double that, eight",
+        "start": 96.479,
+        "duration": 2.481
+    },
+    {
+        "text": "pounds, and this",
+        "start": 98.96,
+        "duration": 1.04
+    },
+    {
+        "text": "carries on.\n- (If you win your money gets)",
+        "start": 100.0,
+        "duration": 1.759
+    },
+    {
+        "text": "(doubled?)\n- If I win my money will be",
+        "start": 101.759,
+        "duration": 2.161
+    },
+    {
+        "text": "doubled, yes, it's a 50/50 game",
+        "start": 103.92,
+        "duration": 2.239
+    },
+    {
+        "text": "such that whatever I bet- like in, exactly",
+        "start": 106.159,
+        "duration": 2.081
+    },
+    {
+        "text": "like roulette. We don't have a zero",
+        "start": 108.24,
+        "duration": 2.159
+    },
+    {
+        "text": "but the rules otherwise are the same. If",
+        "start": 110.399,
+        "duration": 1.921
+    },
+    {
+        "text": "I bet on black, which is what we're doing,",
+        "start": 112.32,
+        "duration": 2.24
+    },
+    {
+        "text": "if it lands on black I double my money.",
+        "start": 114.56,
+        "duration": 1.839
+    },
+    {
+        "text": "(Because that zero is how \ncasino is insured.)",
+        "start": 116.399,
+        "duration": 2.161
+    },
+    {
+        "text": "The zero- exactly. You know this way. \nThe zero",
+        "start": 118.56,
+        "duration": 1.839
+    },
+    {
+        "text": "is how- casinos know this and this is why",
+        "start": 120.399,
+        "duration": 1.68
+    },
+    {
+        "text": "they have zero, because it's never a",
+        "start": 122.079,
+        "duration": 1.571
+    },
+    {
+        "text": "50/50 chance.",
+        "start": 123.65,
+        "duration": 1.31
+    },
+    {
+        "text": "But our mathematically fair casino gives",
+        "start": 124.96,
+        "duration": 2.479
+    },
+    {
+        "text": "us a true 50/50 chance. At step",
+        "start": 127.439,
+        "duration": 2.32
+    },
+    {
+        "text": "k then we can figure out how\nmuch we would be",
+        "start": 129.759,
+        "duration": 3.521
+    },
+    {
+        "text": "betting because there's a pattern here.",
+        "start": 133.28,
+        "duration": 2.24
+    },
+    {
+        "text": "So at step 1",
+        "start": 135.52,
+        "duration": 1.2
+    },
+    {
+        "text": "I bet one pounds, step 2 two pounds,",
+        "start": 136.72,
+        "duration": 2.72
+    },
+    {
+        "text": "step 3 four pounds.",
+        "start": 139.44,
+        "duration": 1.76
+    },
+    {
+        "text": "So what's happening with our bets is",
+        "start": 141.2,
+        "duration": 1.759
+    },
+    {
+        "text": "these are increasing powers of 2.",
+        "start": 142.959,
+        "duration": 2.801
+    },
+    {
+        "text": "So this is times 2, times 2, times 2.",
+        "start": 145.76,
+        "duration": 2.559
+    },
+    {
+        "text": "So the actual formula",
+        "start": 148.319,
+        "duration": 2.0
+    },
+    {
+        "text": "is going to be 2 to the power of k",
+        "start": 150.319,
+        "duration": 3.761
+    },
+    {
+        "text": "minus 1. So we can just check this: so",
+        "start": 154.08,
+        "duration": 3.28
+    },
+    {
+        "text": "at step 1, so k is 1; 2 to the power",
+        "start": 157.36,
+        "duration": 3.519
+    },
+    {
+        "text": "of 0 is 1.",
+        "start": 160.879,
+        "duration": 1.041
+    },
+    {
+        "text": "Step 2 k is 2, 2 to the power 1",
+        "start": 161.92,
+        "duration": 2.319
+    },
+    {
+        "text": "is 2;",
+        "start": 164.239,
+        "duration": 0.72
+    },
+    {
+        "text": "2 squared is 4, 2 cubed is 8 so at",
+        "start": 164.959,
+        "duration": 3.201
+    },
+    {
+        "text": "step k we have just bet",
+        "start": 168.16,
+        "duration": 3.04
+    },
+    {
+        "text": "2 to the k minus 1 pounds.",
+        "start": 171.2,
+        "duration": 3.119
+    },
+    {
+        "text": "If I then lose at step k my total loss",
+        "start": 174.319,
+        "duration": 3.601
+    },
+    {
+        "text": "so far is the sum of all of these bets;",
+        "start": 177.92,
+        "duration": 2.72
+    },
+    {
+        "text": "so 1 plus 2",
+        "start": 180.64,
+        "duration": 1.599
+    },
+    {
+        "text": "plus 4 plus 8 all the way up to 2",
+        "start": 182.239,
+        "duration": 3.36
+    },
+    {
+        "text": "to the k minus 1. We can write this as",
+        "start": 185.599,
+        "duration": 1.92
+    },
+    {
+        "text": "the sum from",
+        "start": 187.519,
+        "duration": 1.44
+    },
+    {
+        "text": "j equals 0 to k minus 1 of 2",
+        "start": 188.959,
+        "duration": 3.681
+    },
+    {
+        "text": "power j. So 2 to the 0 is 1 then",
+        "start": 192.64,
+        "duration": 2.319
+    },
+    {
+        "text": "plus",
+        "start": 194.959,
+        "duration": 0.801
+    },
+    {
+        "text": "2 to the 1 is 2 plus 2 squared is",
+        "start": 195.76,
+        "duration": 1.839
+    },
+    {
+        "text": "4. So this is a shorthand way of writing",
+        "start": 197.599,
+        "duration": 2.081
+    },
+    {
+        "text": "out this sum.",
+        "start": 199.68,
+        "duration": 0.8
+    },
+    {
+        "text": "And this is what we call a geometric",
+        "start": 200.48,
+        "duration": 2.16
+    },
+    {
+        "text": "series; we",
+        "start": 202.64,
+        "duration": 1.28
+    },
+    {
+        "text": "have a formula for the sum of a",
+        "start": 203.92,
+        "duration": 1.76
+    },
+    {
+        "text": "geometric series so",
+        "start": 205.68,
+        "duration": 1.839
+    },
+    {
+        "text": "we can plug it in. It's the \nfirst term, which is",
+        "start": 207.519,
+        "duration": 3.121
+    },
+    {
+        "text": "1, multiplied by 1 minus",
+        "start": 210.64,
+        "duration": 4.159
+    },
+    {
+        "text": "the next term in the sequence. So it ends",
+        "start": 214.799,
+        "duration": 3.36
+    },
+    {
+        "text": "at 2 to the k minus 1",
+        "start": 218.159,
+        "duration": 1.841
+    },
+    {
+        "text": "so if we were to go to the next step",
+        "start": 220.0,
+        "duration": 2.239
+    },
+    {
+        "text": "that would be 2 to the k;",
+        "start": 222.239,
+        "duration": 1.761
+    },
+    {
+        "text": "and then we divide by 1 minus",
+        "start": 224.0,
+        "duration": 3.76
+    },
+    {
+        "text": "the common ratio between the terms.",
+        "start": 227.76,
+        "duration": 3.28
+    },
+    {
+        "text": "So what we're multiplying by at each",
+        "start": 231.04,
+        "duration": 2.479
+    },
+    {
+        "text": "step, so divided by 1 minus 2. So you",
+        "start": 233.519,
+        "duration": 2.72
+    },
+    {
+        "text": "tidy this up",
+        "start": 236.239,
+        "duration": 0.881
+    },
+    {
+        "text": "and this is 2 to the k minus",
+        "start": 237.12,
+        "duration": 3.679
+    },
+    {
+        "text": "1. So this is the total amount of money",
+        "start": 240.799,
+        "duration": 3.841
+    },
+    {
+        "text": "I have lost when I lose my bet at step",
+        "start": 244.64,
+        "duration": 3.28
+    },
+    {
+        "text": "k. So in the next step I'm going to bet",
+        "start": 247.92,
+        "duration": 4.239
+    },
+    {
+        "text": "2 to the k pounds - I'm going to win",
+        "start": 252.159,
+        "duration": 2.8
+    },
+    {
+        "text": "hopefully",
+        "start": 254.959,
+        "duration": 1.201
+    },
+    {
+        "text": "and then that covers my losses with one",
+        "start": 256.16,
+        "duration": 2.319
+    },
+    {
+        "text": "pound to spare.",
+        "start": 258.479,
+        "duration": 2.401
+    },
+    {
+        "text": "So after all of this effort, after losing",
+        "start": 260.88,
+        "duration": 3.68
+    },
+    {
+        "text": "at some step",
+        "start": 264.56,
+        "duration": 1.6
+    },
+    {
+        "text": "if I follow the Martingale strategy I",
+        "start": 266.16,
+        "duration": 2.8
+    },
+    {
+        "text": "will eventually win -",
+        "start": 268.96,
+        "duration": 1.6
+    },
+    {
+        "text": "we hope - before I run out of money, that's",
+        "start": 270.56,
+        "duration": 2.639
+    },
+    {
+        "text": "a whole other question,",
+        "start": 273.199,
+        "duration": 1.44
+    },
+    {
+        "text": "and I will win one pound. So we're not",
+        "start": 274.639,
+        "duration": 2.401
+    },
+    {
+        "text": "exactly-",
+        "start": 277.04,
+        "duration": 0.96
+    },
+    {
+        "text": "like it's good, it's a profit, but it's",
+        "start": 278.0,
+        "duration": 2.32
+    },
+    {
+        "text": "it's not like- we want more than a pound",
+        "start": 280.32,
+        "duration": 1.68
+    },
+    {
+        "text": "don't we really? Like you don't really go",
+        "start": 282.0,
+        "duration": 2.08
+    },
+    {
+        "text": "to a casino to make a pound.",
+        "start": 284.08,
+        "duration": 1.52
+    },
+    {
+        "text": "(But if you scaled it to 10 pounds or a)",
+        "start": 285.6,
+        "duration": 2.159
+    },
+    {
+        "text": "(million pounds as)",
+        "start": 287.759,
+        "duration": 1.041
+    },
+    {
+        "text": "(as your- like your multiple)",
+        "start": 288.8,
+        "duration": 2.56
+    },
+    {
+        "text": "(you you're guaranteed to\nwin a million pounds!)",
+        "start": 291.36,
+        "duration": 2.16
+    },
+    {
+        "text": "Yeah, so so to win a million pounds",
+        "start": 293.52,
+        "duration": 2.16
+    },
+    {
+        "text": "you've got to",
+        "start": 295.68,
+        "duration": 1.04
+    },
+    {
+        "text": "go through this strategy one million",
+        "start": 296.72,
+        "duration": 2.24
+    },
+    {
+        "text": "times, winning one pound each time.",
+        "start": 298.96,
+        "duration": 2.239
+    },
+    {
+        "text": "(Or just make that a million pound bet;)",
+        "start": 301.199,
+        "duration": 3.361
+    },
+    {
+        "text": "(a two million pound bet; a four million)",
+        "start": 304.56,
+        "duration": 2.0
+    },
+    {
+        "text": "(pound bet, all the way to a two)",
+        "start": 306.56,
+        "duration": 1.52
+    },
+    {
+        "text": "(to the minus 1 times a million-)\n- We",
+        "start": 308.08,
+        "duration": 2.32
+    },
+    {
+        "text": "could also do that yeah. So we\ncould also change",
+        "start": 310.4,
+        "duration": 2.4
+    },
+    {
+        "text": "the amount we bet at the beginning and",
+        "start": 312.8,
+        "duration": 2.16
+    },
+    {
+        "text": "then that would be-",
+        "start": 314.96,
+        "duration": 0.959
+    },
+    {
+        "text": "the amount that you your initial stake",
+        "start": 315.919,
+        "duration": 1.921
+    },
+    {
+        "text": "is the amount that you'll win",
+        "start": 317.84,
+        "duration": 1.44
+    },
+    {
+        "text": "through this strategy. So this strategy",
+        "start": 319.28,
+        "duration": 2.639
+    },
+    {
+        "text": "is going to win you,",
+        "start": 321.919,
+        "duration": 1.681
+    },
+    {
+        "text": "through this process, we're going to win",
+        "start": 323.6,
+        "duration": 1.36
+    },
+    {
+        "text": "a pound each time. Now,",
+        "start": 324.96,
+        "duration": 2.4
+    },
+    {
+        "text": "there are problems with this. There is a",
+        "start": 327.36,
+        "duration": 2.48
+    },
+    {
+        "text": "reason that this is not a foolproof",
+        "start": 329.84,
+        "duration": 2.0
+    },
+    {
+        "text": "gambling strategy. First of all",
+        "start": 331.84,
+        "duration": 3.04
+    },
+    {
+        "text": "most games aren't 50/50; if we're doing",
+        "start": 334.88,
+        "duration": 2.0
+    },
+    {
+        "text": "roulette there's a zero which is green,",
+        "start": 336.88,
+        "duration": 2.24
+    },
+    {
+        "text": "so it's not red or black, so you've not",
+        "start": 339.12,
+        "duration": 1.84
+    },
+    {
+        "text": "actually got a 50/50 chance.",
+        "start": 340.96,
+        "duration": 1.6
+    },
+    {
+        "text": "And that kind of really alters what's",
+        "start": 342.56,
+        "duration": 2.079
+    },
+    {
+        "text": "what's happening.\n- (In some casinos there)",
+        "start": 344.639,
+        "duration": 1.681
+    },
+    {
+        "text": "(are two zeros)",
+        "start": 346.32,
+        "duration": 1.28
+    },
+    {
+        "text": "Yes zero and double zero, exactly yeah, so",
+        "start": 347.6,
+        "duration": 2.0
+    },
+    {
+        "text": "they're even- they're even",
+        "start": 349.6,
+        "duration": 1.52
+    },
+    {
+        "text": "stingier those odds. The other thing is",
+        "start": 351.12,
+        "duration": 1.919
+    },
+    {
+        "text": "casinos have maximum bet limits.",
+        "start": 353.039,
+        "duration": 2.401
+    },
+    {
+        "text": "In most casinos you can't walk in and",
+        "start": 355.44,
+        "duration": 1.599
+    },
+    {
+        "text": "just drop a million pounds,",
+        "start": 357.039,
+        "duration": 1.521
+    },
+    {
+        "text": "like they're gonna be like no there's a",
+        "start": 358.56,
+        "duration": 2.079
+    },
+    {
+        "text": "maximum bet limit here.",
+        "start": 360.639,
+        "duration": 1.28
+    },
+    {
+        "text": "And even if you start really low and you",
+        "start": 361.919,
+        "duration": 2.241
+    },
+    {
+        "text": "keep losing",
+        "start": 364.16,
+        "duration": 1.44
+    },
+    {
+        "text": "this will grow really quickly. This is",
+        "start": 365.6,
+        "duration": 2.08
+    },
+    {
+        "text": "exponential growth which",
+        "start": 367.68,
+        "duration": 1.359
+    },
+    {
+        "text": "we know a lot about these days. And this",
+        "start": 369.039,
+        "duration": 1.921
+    },
+    {
+        "text": "will grow really quickly",
+        "start": 370.96,
+        "duration": 1.28
+    },
+    {
+        "text": "and it will actually reach a million a",
+        "start": 372.24,
+        "duration": 1.36
+    },
+    {
+        "text": "lot faster than you realise.\n- (So if red comes up)",
+        "start": 373.6,
+        "duration": 2.08
+    },
+    {
+        "text": "(lots of times in a row - ?)\n- Yeah you're going",
+        "start": 375.68,
+        "duration": 1.92
+    },
+    {
+        "text": "to reach the maximum betting limit in an",
+        "start": 377.6,
+        "duration": 1.84
+    },
+    {
+        "text": "actual casino and then",
+        "start": 379.44,
+        "duration": 1.36
+    },
+    {
+        "text": "you're screwed, you've then lost like a",
+        "start": 380.8,
+        "duration": 1.839
+    },
+    {
+        "text": "million pounds, you've not got a chance",
+        "start": 382.639,
+        "duration": 1.921
+    },
+    {
+        "text": "to get your money back.",
+        "start": 384.56,
+        "duration": 1.199
+    },
+    {
+        "text": "Because that's the key; if this fails",
+        "start": 385.759,
+        "duration": 2.321
+    },
+    {
+        "text": "you've lost",
+        "start": 388.08,
+        "duration": 1.6
+    },
+    {
+        "text": "2 to the power k minus 1 pounds which is",
+        "start": 389.68,
+        "duration": 2.88
+    },
+    {
+        "text": "a lot of money if",
+        "start": 392.56,
+        "duration": 1.44
+    },
+    {
+        "text": "k is like 10 or something, like, so it can",
+        "start": 394.0,
+        "duration": 2.8
+    },
+    {
+        "text": "really really ramp up.",
+        "start": 396.8,
+        "duration": 1.04
+    },
+    {
+        "text": "(Just for the sake of clarity too Tom, I)",
+        "start": 397.84,
+        "duration": 2.24
+    },
+    {
+        "text": "(would imagine)",
+        "start": 400.08,
+        "duration": 0.959
+    },
+    {
+        "text": "(it doesn't really matter what you're)",
+        "start": 401.039,
+        "duration": 1.121
+    },
+    {
+        "text": "(placing the bets on, red or black?)",
+        "start": 402.16,
+        "duration": 1.92
+    },
+    {
+        "text": "(Like you don't really have to be betting)",
+        "start": 404.08,
+        "duration": 1.6
+    },
+    {
+        "text": "(on the colour you lost on?)\n- No no no exactly.",
+        "start": 405.68,
+        "duration": 2.639
+    },
+    {
+        "text": "Every time, because it's an equal chance",
+        "start": 408.319,
+        "duration": 2.241
+    },
+    {
+        "text": "of each one coming up,",
+        "start": 410.56,
+        "duration": 0.96
+    },
+    {
+        "text": "you you can switch. You could maybe go",
+        "start": 411.52,
+        "duration": 1.519
+    },
+    {
+        "text": "red, black, red, black, red, it doesn't",
+        "start": 413.039,
+        "duration": 1.361
+    },
+    {
+        "text": "matter because the probability will",
+        "start": 414.4,
+        "duration": 1.359
+    },
+    {
+        "text": "always be a half",
+        "start": 415.759,
+        "duration": 0.801
+    },
+    {
+        "text": "and and it will always be the same.",
+        "start": 416.56,
+        "duration": 1.6
+    },
+    {
+        "text": "(So you don't have to bet on what you)",
+        "start": 418.16,
+        "duration": 1.2
+    },
+    {
+        "text": "(lost on, you just have to- you just \nhave to bet)",
+        "start": 419.36,
+        "duration": 1.679
+    },
+    {
+        "text": "(again.)\n- Just have to bet again, yes exactly,",
+        "start": 421.039,
+        "duration": 1.761
+    },
+    {
+        "text": "you can bet on anything -",
+        "start": 422.8,
+        "duration": 1.2
+    },
+    {
+        "text": "in the 50/50 situation.",
+        "start": 424.0,
+        "duration": 2.2
+    },
+    {
+        "text": "Another issue, nobody in the world has",
+        "start": 430.08,
+        "duration": 2.0
+    },
+    {
+        "text": "unlimited money. It might feel like some",
+        "start": 432.08,
+        "duration": 1.36
+    },
+    {
+        "text": "people do but there is a number",
+        "start": 433.44,
+        "duration": 2.24
+    },
+    {
+        "text": "where the maximum amount\nany individual could bet.",
+        "start": 435.68,
+        "duration": 3.44
+    },
+    {
+        "text": "That's our bank balance, n pounds. If at",
+        "start": 439.12,
+        "duration": 2.56
+    },
+    {
+        "text": "any point",
+        "start": 441.68,
+        "duration": 1.2
+    },
+    {
+        "text": "we need to bet more money than we",
+        "start": 442.88,
+        "duration": 3.599
+    },
+    {
+        "text": "have we're screwed. Not only can we",
+        "start": 446.479,
+        "duration": 3.601
+    },
+    {
+        "text": "not win our one pounds",
+        "start": 450.08,
+        "duration": 1.519
+    },
+    {
+        "text": "we've literally lost \neverything that we own.",
+        "start": 451.599,
+        "duration": 2.67
+    },
+    {
+        "text": "So we really don't want this to happen.",
+        "start": 455.36,
+        "duration": 2.239
+    },
+    {
+        "text": "(Does your previous winnings)",
+        "start": 457.599,
+        "duration": 2.961
+    },
+    {
+        "text": "(become part of that\npot you can dig into?)",
+        "start": 460.56,
+        "duration": 3.199
+    },
+    {
+        "text": "No so so the the 100 pound limit here",
+        "start": 463.759,
+        "duration": 4.0
+    },
+    {
+        "text": "is the- like that's my pot. So even if",
+        "start": 467.759,
+        "duration": 3.12
+    },
+    {
+        "text": "I start to win,",
+        "start": 470.879,
+        "duration": 0.801
+    },
+    {
+        "text": "maybe I've won 50 in a row and now I in",
+        "start": 471.68,
+        "duration": 2.959
+    },
+    {
+        "text": "theory have 150,",
+        "start": 474.639,
+        "duration": 1.921
+    },
+    {
+        "text": "but what we're saying here is that 50",
+        "start": 476.56,
+        "duration": 2.24
+    },
+    {
+        "text": "I've won that that's in a separate pot.",
+        "start": 478.8,
+        "duration": 1.76
+    },
+    {
+        "text": "That's in like a-",
+        "start": 480.56,
+        "duration": 0.88
+    },
+    {
+        "text": "that's in your money box, that goes in",
+        "start": 481.44,
+        "duration": 1.439
+    },
+    {
+        "text": "the bank you cannot touch that.",
+        "start": 482.879,
+        "duration": 1.6
+    },
+    {
+        "text": "We've said here that we're losing at",
+        "start": 484.479,
+        "duration": 1.601
+    },
+    {
+        "text": "step k and in the next step",
+        "start": 486.08,
+        "duration": 2.48
+    },
+    {
+        "text": "we would have to bet 2 to the power k. So",
+        "start": 488.56,
+        "duration": 3.039
+    },
+    {
+        "text": "if I have to bet 2 to the k pounds;",
+        "start": 491.599,
+        "duration": 3.681
+    },
+    {
+        "text": "if this is ever bigger than my",
+        "start": 495.28,
+        "duration": 3.199
+    },
+    {
+        "text": "n pounds, game over.",
+        "start": 498.479,
+        "duration": 3.601
+    },
+    {
+        "text": "Sad face, that's it.\n- (You're bankrupt)",
+        "start": 502.08,
+        "duration": 2.799
+    },
+    {
+        "text": "We all cry. So",
+        "start": 504.879,
+        "duration": 1.44
+    },
+    {
+        "text": "we can't have this happen. Now what you",
+        "start": 506.319,
+        "duration": 1.521
+    },
+    {
+        "text": "can figure out is",
+        "start": 507.84,
+        "duration": 1.6
+    },
+    {
+        "text": "how does this tell you about k?",
+        "start": 509.44,
+        "duration": 3.12
+    },
+    {
+        "text": "Because k remember is the number of",
+        "start": 512.56,
+        "duration": 1.52
+    },
+    {
+        "text": "losses that were allowed. So we can start",
+        "start": 514.08,
+        "duration": 2.399
+    },
+    {
+        "text": "to plug some numbers in here and think",
+        "start": 516.479,
+        "duration": 1.601
+    },
+    {
+        "text": "about, well if I go in with 100 pounds",
+        "start": 518.08,
+        "duration": 1.759
+    },
+    {
+        "text": "how many losses am I allowed before I",
+        "start": 519.839,
+        "duration": 1.601
+    },
+    {
+        "text": "lost all my hundred quid? You just",
+        "start": 521.44,
+        "duration": 1.279
+    },
+    {
+        "text": "rearrange this slightly so we can say",
+        "start": 522.719,
+        "duration": 1.841
+    },
+    {
+        "text": "2 to the k is equal to n, just to make",
+        "start": 524.56,
+        "duration": 2.56
+    },
+    {
+        "text": "things a bit easier, so obviously if we",
+        "start": 527.12,
+        "duration": 1.52
+    },
+    {
+        "text": "go a little bit above this",
+        "start": 528.64,
+        "duration": 1.04
+    },
+    {
+        "text": "then we fail so let's look at the",
+        "start": 529.68,
+        "duration": 1.36
+    },
+    {
+        "text": "boundary case of when they're equal.",
+        "start": 531.04,
+        "duration": 1.76
+    },
+    {
+        "text": "So then you take log to the base 2 of",
+        "start": 532.8,
+        "duration": 2.32
+    },
+    {
+        "text": "both sides",
+        "start": 535.12,
+        "duration": 1.36
+    },
+    {
+        "text": "and what that does is tell you this",
+        "start": 536.48,
+        "duration": 3.12
+    },
+    {
+        "text": "to be our value of k. Now this is quite",
+        "start": 539.6,
+        "duration": 1.6
+    },
+    {
+        "text": "hard to interpret because we don't",
+        "start": 541.2,
+        "duration": 1.28
+    },
+    {
+        "text": "really have any numbers,",
+        "start": 542.48,
+        "duration": 0.96
+    },
+    {
+        "text": "so let's put some numbers in. So if I",
+        "start": 543.44,
+        "duration": 1.68
+    },
+    {
+        "text": "come in with n",
+        "start": 545.12,
+        "duration": 1.36
+    },
+    {
+        "text": "being 100 pounds. So if we \nstart with 100 pounds",
+        "start": 546.48,
+        "duration": 3.44
+    },
+    {
+        "text": "you're allowed seven losses, it's not too",
+        "start": 549.92,
+        "duration": 2.0
+    },
+    {
+        "text": "bad. But it might seem unlikely,",
+        "start": 551.92,
+        "duration": 1.919
+    },
+    {
+        "text": "I'm not gonna lose seven times in a",
+        "start": 553.839,
+        "duration": 1.68
+    },
+    {
+        "text": "row, you would be amazed how common it is",
+        "start": 555.519,
+        "duration": 2.481
+    },
+    {
+        "text": "to lose seven times in a row. Like there's",
+        "start": 558.0,
+        "duration": 2.08
+    },
+    {
+        "text": "loads of really nice studies done on",
+        "start": 560.08,
+        "duration": 1.68
+    },
+    {
+        "text": "this at how bad",
+        "start": 561.76,
+        "duration": 1.36
+    },
+    {
+        "text": "we are as humans at thinking 'oh I'll",
+        "start": 563.12,
+        "duration": 2.64
+    },
+    {
+        "text": "never be that unlucky'.",
+        "start": 565.76,
+        "duration": 1.44
+    },
+    {
+        "text": "It's really easy to lose \nseven times in a row.",
+        "start": 567.2,
+        "duration": 1.759
+    },
+    {
+        "text": "(Seven reds in a row and \nyou're- you're out?)",
+        "start": 568.959,
+        "duration": 1.807
+    },
+    {
+        "text": "If we're betting black yeah. And then",
+        "start": 570.766,
+        "duration": 1.154
+    },
+    {
+        "text": "if you went up to say a thousand pounds",
+        "start": 571.92,
+        "duration": 2.32
+    },
+    {
+        "text": "then you will get about 10 losses. So",
+        "start": 574.24,
+        "duration": 2.96
+    },
+    {
+        "text": "even though you've",
+        "start": 577.2,
+        "duration": 1.12
+    },
+    {
+        "text": "ten times your initial stake you only",
+        "start": 578.32,
+        "duration": 1.76
+    },
+    {
+        "text": "get an extra three losses.",
+        "start": 580.08,
+        "duration": 1.68
+    },
+    {
+        "text": "And this kind of pattern continues, it",
+        "start": 581.76,
+        "duration": 1.92
+    },
+    {
+        "text": "starts to come down. So if you had 10,000",
+        "start": 583.68,
+        "duration": 2.159
+    },
+    {
+        "text": "pounds",
+        "start": 585.839,
+        "duration": 1.041
+    },
+    {
+        "text": "then you've got 14 losses and if you",
+        "start": 586.88,
+        "duration": 3.12
+    },
+    {
+        "text": "even went all the way up to Brady's idea",
+        "start": 590.0,
+        "duration": 3.519
+    },
+    {
+        "text": "of a million pounds",
+        "start": 593.519,
+        "duration": 1.361
+    },
+    {
+        "text": "you've got 20 losses. You get twice as",
+        "start": 594.88,
+        "duration": 1.84
+    },
+    {
+        "text": "many losses from 10 to 20 going from a",
+        "start": 596.72,
+        "duration": 2.239
+    },
+    {
+        "text": "thousand to a million pounds. No matter",
+        "start": 598.959,
+        "duration": 1.841
+    },
+    {
+        "text": "how much your money goes up this starts",
+        "start": 600.8,
+        "duration": 1.68
+    },
+    {
+        "text": "to slow down quite drastically.",
+        "start": 602.48,
+        "duration": 1.76
+    },
+    {
+        "text": "(And still this is only going to win you)",
+        "start": 604.24,
+        "duration": 1.44
+    },
+    {
+        "text": "(one pound!)\n- This is to still win one pound,",
+        "start": 605.68,
+        "duration": 2.399
+    },
+    {
+        "text": "yeah, this is just to win one pound. We",
+        "start": 608.079,
+        "duration": 2.32
+    },
+    {
+        "text": "have this",
+        "start": 610.399,
+        "duration": 0.88
+    },
+    {
+        "text": "relationship then between the number of",
+        "start": 611.279,
+        "duration": 1.601
+    },
+    {
+        "text": "losses and the money that we've put in.",
+        "start": 612.88,
+        "duration": 1.519
+    },
+    {
+        "text": "So what we can do then is say, right well,",
+        "start": 614.399,
+        "duration": 2.481
+    },
+    {
+        "text": "it's a 50/50 game",
+        "start": 616.88,
+        "duration": 1.68
+    },
+    {
+        "text": "so what is the probability that I",
+        "start": 618.56,
+        "duration": 3.12
+    },
+    {
+        "text": "lose k times in a row? Well if I lose once",
+        "start": 621.68,
+        "duration": 3.44
+    },
+    {
+        "text": "that's a half, then if I lose again",
+        "start": 625.12,
+        "duration": 2.159
+    },
+    {
+        "text": "that's a half;",
+        "start": 627.279,
+        "duration": 1.601
+    },
+    {
+        "text": "these are independent events it doesn't",
+        "start": 628.88,
+        "duration": 1.92
+    },
+    {
+        "text": "matter what happened in the previous",
+        "start": 630.8,
+        "duration": 1.279
+    },
+    {
+        "text": "one. So it's literally just a half to the",
+        "start": 632.079,
+        "duration": 2.721
+    },
+    {
+        "text": "power k. So if I've lost",
+        "start": 634.8,
+        "duration": 1.44
+    },
+    {
+        "text": "k times it's a half to the power k. This",
+        "start": 636.24,
+        "duration": 2.64
+    },
+    {
+        "text": "is actually",
+        "start": 638.88,
+        "duration": 0.959
+    },
+    {
+        "text": "1 over 2 to the k. And we have this",
+        "start": 639.839,
+        "duration": 2.641
+    },
+    {
+        "text": "relationship up here",
+        "start": 642.48,
+        "duration": 1.12
+    },
+    {
+        "text": "between 2 to the k and the amount of",
+        "start": 643.6,
+        "duration": 1.6
+    },
+    {
+        "text": "money we start with, n.",
+        "start": 645.2,
+        "duration": 1.44
+    },
+    {
+        "text": "So the probability that I lose k times",
+        "start": 646.64,
+        "duration": 2.48
+    },
+    {
+        "text": "in a row and lose",
+        "start": 649.12,
+        "duration": 1.279
+    },
+    {
+        "text": "all of my money and all of my belongings",
+        "start": 650.399,
+        "duration": 2.56
+    },
+    {
+        "text": "is 1 divided by",
+        "start": 652.959,
+        "duration": 2.161
+    },
+    {
+        "text": "the amount of money I have in the first",
+        "start": 655.12,
+        "duration": 1.839
+    },
+    {
+        "text": "place. So perhaps as expected",
+        "start": 656.959,
+        "duration": 2.641
+    },
+    {
+        "text": "the richer I am the less likely it is",
+        "start": 659.6,
+        "duration": 4.0
+    },
+    {
+        "text": "that I lose all of my money. And we have",
+        "start": 663.6,
+        "duration": 1.84
+    },
+    {
+        "text": "this really nice probability given in",
+        "start": 665.44,
+        "duration": 2.079
+    },
+    {
+        "text": "terms of the amount of \nmoney we start with.",
+        "start": 667.519,
+        "duration": 1.571
+    },
+    {
+        "text": "So if this is the probability that I lose",
+        "start": 669.519,
+        "duration": 3.121
+    },
+    {
+        "text": "k times in a row, and lose all of my",
+        "start": 672.64,
+        "duration": 2.96
+    },
+    {
+        "text": "fortune,",
+        "start": 675.6,
+        "duration": 1.04
+    },
+    {
+        "text": "then the probability that I win -",
+        "start": 676.64,
+        "duration": 3.439
+    },
+    {
+        "text": "which here is winning one pounds - is 1",
+        "start": 680.079,
+        "duration": 2.561
+    },
+    {
+        "text": "minus this",
+        "start": 682.64,
+        "duration": 1.36
+    },
+    {
+        "text": "because the total probability has to",
+        "start": 684.0,
+        "duration": 1.76
+    },
+    {
+        "text": "always be 1. So the probability",
+        "start": 685.76,
+        "duration": 2.0
+    },
+    {
+        "text": "that I win one pound using this strategy",
+        "start": 687.76,
+        "duration": 3.199
+    },
+    {
+        "text": "is 1 minus 1 over n. And as n",
+        "start": 690.959,
+        "duration": 3.361
+    },
+    {
+        "text": "increases this number goes really small",
+        "start": 694.32,
+        "duration": 2.88
+    },
+    {
+        "text": "so the probability is really close to 1.",
+        "start": 697.2,
+        "duration": 1.84
+    },
+    {
+        "text": "(If you Tom walk into the casino with a)",
+        "start": 699.04,
+        "duration": 2.479
+    },
+    {
+        "text": "(hundred pounds in\nyour back pocket, which)",
+        "start": 701.519,
+        "duration": 1.681
+    },
+    {
+        "text": "(I think is conceivable-)\n- Okay yeah let's",
+        "start": 703.2,
+        "duration": 1.84
+    },
+    {
+        "text": "go with that.",
+        "start": 705.04,
+        "duration": 1.28
+    },
+    {
+        "text": "(And you play this strategy; how)",
+        "start": 706.32,
+        "duration": 1.92
+    },
+    {
+        "text": "(likely is it you're gonna walk out with)",
+        "start": 708.24,
+        "duration": 1.52
+    },
+    {
+        "text": "(your one pound profit?)",
+        "start": 709.76,
+        "duration": 1.199
+    },
+    {
+        "text": "So if I put in, for n equals 100,",
+        "start": 710.959,
+        "duration": 3.12
+    },
+    {
+        "text": "then the probability I win one pounds is",
+        "start": 714.079,
+        "duration": 2.32
+    },
+    {
+        "text": "going to be",
+        "start": 716.399,
+        "duration": 1.361
+    },
+    {
+        "text": "1 minus 1 over 100, so that's",
+        "start": 717.76,
+        "duration": 2.8
+    },
+    {
+        "text": "going to be 99 out of 100. So there's a",
+        "start": 720.56,
+        "duration": 2.16
+    },
+    {
+        "text": "99%",
+        "start": 722.72,
+        "duration": 1.119
+    },
+    {
+        "text": "chance that I win a pound but, and this is",
+        "start": 723.839,
+        "duration": 2.8
+    },
+    {
+        "text": "the key thing,",
+        "start": 726.639,
+        "duration": 0.961
+    },
+    {
+        "text": "there's a 1% chance - really",
+        "start": 727.6,
+        "duration": 2.0
+    },
+    {
+        "text": "small - that I lose 100 quid.",
+        "start": 729.6,
+        "duration": 2.64
+    },
+    {
+        "text": "I really don't want to lose 100 quid to",
+        "start": 732.24,
+        "duration": 2.48
+    },
+    {
+        "text": "have even- because I'm only doing it to",
+        "start": 734.72,
+        "duration": 1.6
+    },
+    {
+        "text": "win a pound,",
+        "start": 736.32,
+        "duration": 0.959
+    },
+    {
+        "text": "is it worth? So it's only a 1%",
+        "start": 737.279,
+        "duration": 1.68
+    },
+    {
+        "text": "chance yes but is it worth that",
+        "start": 738.959,
+        "duration": 2.32
+    },
+    {
+        "text": "1% chance that I lose my hundred",
+        "start": 741.279,
+        "duration": 1.761
+    },
+    {
+        "text": "quid just to win a pound? If we do this",
+        "start": 743.04,
+        "duration": 2.799
+    },
+    {
+        "text": "properly, I want to double",
+        "start": 745.839,
+        "duration": 1.921
+    },
+    {
+        "text": "the money I start with. So we need to win",
+        "start": 747.76,
+        "duration": 3.6
+    },
+    {
+        "text": "one pound 100 times in a row. So we need",
+        "start": 751.36,
+        "duration": 3.36
+    },
+    {
+        "text": "to go through this whole strategy,",
+        "start": 754.72,
+        "duration": 1.44
+    },
+    {
+        "text": "with our probability of 1 minus 1 over n,",
+        "start": 756.16,
+        "duration": 2.64
+    },
+    {
+        "text": "but we need to do it",
+        "start": 758.8,
+        "duration": 1.44
+    },
+    {
+        "text": "100 times in a row and so",
+        "start": 760.24,
+        "duration": 3.279
+    },
+    {
+        "text": "I'm going to need more paper. The",
+        "start": 763.519,
+        "duration": 1.681
+    },
+    {
+        "text": "probability of winning one pound",
+        "start": 765.2,
+        "duration": 1.6
+    },
+    {
+        "text": "is 1 minus 1 over n. So the probability",
+        "start": 766.8,
+        "duration": 3.12
+    },
+    {
+        "text": "of winning",
+        "start": 769.92,
+        "duration": 0.88
+    },
+    {
+        "text": "100 times in a row, which means winning",
+        "start": 770.8,
+        "duration": 2.08
+    },
+    {
+        "text": "100 pounds, is just-",
+        "start": 772.88,
+        "duration": 1.6
+    },
+    {
+        "text": "well I need to win the first one, then I",
+        "start": 774.48,
+        "duration": 1.84
+    },
+    {
+        "text": "need to win the second one,",
+        "start": 776.32,
+        "duration": 1.44
+    },
+    {
+        "text": "so that's just multiply the probability",
+        "start": 777.76,
+        "duration": 1.759
+    },
+    {
+        "text": "together, then I win the third - so it's",
+        "start": 779.519,
+        "duration": 2.081
+    },
+    {
+        "text": "actually just this",
+        "start": 781.6,
+        "duration": 0.96
+    },
+    {
+        "text": "to the power of a hundred. If I wanted to",
+        "start": 782.56,
+        "duration": 2.88
+    },
+    {
+        "text": "win 100 times in a row it's this",
+        "start": 785.44,
+        "duration": 1.6
+    },
+    {
+        "text": "probability",
+        "start": 787.04,
+        "duration": 0.799
+    },
+    {
+        "text": "to a higher and higher power. We're using",
+        "start": 787.839,
+        "duration": 1.921
+    },
+    {
+        "text": "the example here of me\nand my hundred pounds",
+        "start": 789.76,
+        "duration": 2.0
+    },
+    {
+        "text": "if I just wanted the probability of",
+        "start": 791.76,
+        "duration": 2.56
+    },
+    {
+        "text": "doubling my money,",
+        "start": 794.32,
+        "duration": 2.079
+    },
+    {
+        "text": "for any n, then it's going to just be 1",
+        "start": 796.399,
+        "duration": 3.12
+    },
+    {
+        "text": "minus 1 over n.",
+        "start": 799.519,
+        "duration": 1.361
+    },
+    {
+        "text": "Each time I win one pound I've got to",
+        "start": 800.88,
+        "duration": 2.0
+    },
+    {
+        "text": "win n times so it's 1 minus 1 over n",
+        "start": 802.88,
+        "duration": 2.24
+    },
+    {
+        "text": "to the power n.",
+        "start": 805.12,
+        "duration": 0.8
+    },
+    {
+        "text": "What is going on here? So let's put in",
+        "start": 805.92,
+        "duration": 2.08
+    },
+    {
+        "text": "some numbers. If n is a hundred",
+        "start": 808.0,
+        "duration": 1.519
+    },
+    {
+        "text": "we plug this into our formula, so it's",
+        "start": 809.519,
+        "duration": 2.241
+    },
+    {
+        "text": "gonna be 1 minus 1 over 100",
+        "start": 811.76,
+        "duration": 2.079
+    },
+    {
+        "text": "to the power 100, and that comes out to",
+        "start": 813.839,
+        "duration": 2.481
+    },
+    {
+        "text": "be",
+        "start": 816.32,
+        "duration": 1.72
+    },
+    {
+        "text": "0.366, so if we put that as a percent",
+        "start": 818.04,
+        "duration": 3.239
+    },
+    {
+        "text": "it's going to be 36.6%. So a little bit",
+        "start": 821.279,
+        "duration": 3.041
+    },
+    {
+        "text": "over a third",
+        "start": 824.32,
+        "duration": 0.959
+    },
+    {
+        "text": "chance of me going in with my 100 pounds",
+        "start": 825.279,
+        "duration": 3.601
+    },
+    {
+        "text": "and doubling my money through this",
+        "start": 828.88,
+        "duration": 2.0
+    },
+    {
+        "text": "Martingale",
+        "start": 830.88,
+        "duration": 1.04
+    },
+    {
+        "text": "doubling strategy. \n- (So this is a long night?)",
+        "start": 831.92,
+        "duration": 2.53
+    },
+    {
+        "text": "This is a very long night\nyeah. Because that's-",
+        "start": 834.45,
+        "duration": 1.87
+    },
+    {
+        "text": "I've literally got to win \n100 times in a row.",
+        "start": 836.32,
+        "duration": 1.92
+    },
+    {
+        "text": "So I have to employ this",
+        "start": 838.24,
+        "duration": 1.599
+    },
+    {
+        "text": "strategy 100 times- and",
+        "start": 839.839,
+        "duration": 3.12
+    },
+    {
+        "text": "and hope that none of them-",
+        "start": 842.959,
+        "duration": 3.12
+    },
+    {
+        "text": "if I ever get a long",
+        "start": 846.079,
+        "duration": 1.681
+    },
+    {
+        "text": "enough losing streak to run out of money",
+        "start": 847.76,
+        "duration": 1.28
+    },
+    {
+        "text": "that's it I've lost my 100 pounds.",
+        "start": 849.04,
+        "duration": 1.599
+    },
+    {
+        "text": "So I really do need to go back and",
+        "start": 850.639,
+        "duration": 2.32
+    },
+    {
+        "text": "redo the same thing 100 times.",
+        "start": 852.959,
+        "duration": 2.401
+    },
+    {
+        "text": "But if I do that I then got 36.6%",
+        "start": 855.36,
+        "duration": 3.52
+    },
+    {
+        "text": "chance of doubling my money through this",
+        "start": 858.88,
+        "duration": 2.0
+    },
+    {
+        "text": "strategy. Suppose I'm a little bit more",
+        "start": 860.88,
+        "duration": 1.6
+    },
+    {
+        "text": "of a high roller and",
+        "start": 862.48,
+        "duration": 1.28
+    },
+    {
+        "text": "I go for a thousand pounds, the value is",
+        "start": 863.76,
+        "duration": 3.56
+    },
+    {
+        "text": "0.368.",
+        "start": 867.32,
+        "duration": 1.72
+    },
+    {
+        "text": "So if I have a little bit more money I",
+        "start": 869.04,
+        "duration": 2.159
+    },
+    {
+        "text": "get an increase,",
+        "start": 871.199,
+        "duration": 0.961
+    },
+    {
+        "text": "0.2%. Still starting with one",
+        "start": 872.16,
+        "duration": 1.919
+    },
+    {
+        "text": "dollar bet so I can never bet anything",
+        "start": 874.079,
+        "duration": 1.681
+    },
+    {
+        "text": "more than a thousand,",
+        "start": 875.76,
+        "duration": 1.04
+    },
+    {
+        "text": "that's like all I'm prepared\nto put forward",
+        "start": 876.8,
+        "duration": 1.68
+    },
+    {
+        "text": "into this situation. And then if I was to",
+        "start": 878.48,
+        "duration": 1.68
+    },
+    {
+        "text": "really go big",
+        "start": 880.16,
+        "duration": 0.799
+    },
+    {
+        "text": "and start and say, well, you know what",
+        "start": 880.959,
+        "duration": 1.44
+    },
+    {
+        "text": "I've got a million pounds of capital -",
+        "start": 882.399,
+        "duration": 2.161
+    },
+    {
+        "text": "I wish - then the value here",
+        "start": 884.56,
+        "duration": 3.2
+    },
+    {
+        "text": "is also 0.368. 36.8%.",
+        "start": 887.76,
+        "duration": 4.56
+    },
+    {
+        "text": "So something's happening. This is this is-",
+        "start": 892.32,
+        "duration": 2.72
+    },
+    {
+        "text": "as a mathematician this is where you get",
+        "start": 895.04,
+        "duration": 1.599
+    },
+    {
+        "text": "your joy,",
+        "start": 896.639,
+        "duration": 1.041
+    },
+    {
+        "text": "you sort of- you start thinking about",
+        "start": 897.68,
+        "duration": 1.599
+    },
+    {
+        "text": "these fictional casinos, these",
+        "start": 899.279,
+        "duration": 1.521
+    },
+    {
+        "text": "probability problems,",
+        "start": 900.8,
+        "duration": 1.279
+    },
+    {
+        "text": "and then you start to spot patterns - what",
+        "start": 902.079,
+        "duration": 2.32
+    },
+    {
+        "text": "the hell's going on?",
+        "start": 904.399,
+        "duration": 1.521
+    },
+    {
+        "text": "What we're really doing here, as n is",
+        "start": 905.92,
+        "duration": 2.0
+    },
+    {
+        "text": "increasing,",
+        "start": 907.92,
+        "duration": 1.52
+    },
+    {
+        "text": "is you've got like a contest between",
+        "start": 909.44,
+        "duration": 2.959
+    },
+    {
+        "text": "these two numbers.",
+        "start": 912.399,
+        "duration": 1.281
+    },
+    {
+        "text": "Because as n gets bigger and bigger this",
+        "start": 913.68,
+        "duration": 2.8
+    },
+    {
+        "text": "value in the bracket gets closer to 1",
+        "start": 916.48,
+        "duration": 2.479
+    },
+    {
+        "text": "because you're taking away a smaller",
+        "start": 918.959,
+        "duration": 1.521
+    },
+    {
+        "text": "smaller number. But as",
+        "start": 920.48,
+        "duration": 1.76
+    },
+    {
+        "text": "n gets bigger you're taking a number",
+        "start": 922.24,
+        "duration": 2.88
+    },
+    {
+        "text": "less than 1",
+        "start": 925.12,
+        "duration": 1.76
+    },
+    {
+        "text": "to a larger and larger power. And when",
+        "start": 926.88,
+        "duration": 2.16
+    },
+    {
+        "text": "you have numbers less than 1",
+        "start": 929.04,
+        "duration": 2.08
+    },
+    {
+        "text": "to any power, so say a half squared, it",
+        "start": 931.12,
+        "duration": 3.12
+    },
+    {
+        "text": "gets smaller.",
+        "start": 934.24,
+        "duration": 1.279
+    },
+    {
+        "text": "So any number less than one raised to",
+        "start": 935.519,
+        "duration": 2.481
+    },
+    {
+        "text": "any power,",
+        "start": 938.0,
+        "duration": 0.88
+    },
+    {
+        "text": "positive whole number power, is going to",
+        "start": 938.88,
+        "duration": 2.399
+    },
+    {
+        "text": "get smaller and smaller.",
+        "start": 941.279,
+        "duration": 1.36
+    },
+    {
+        "text": "So this is always less than 1 and",
+        "start": 942.639,
+        "duration": 1.681
+    },
+    {
+        "text": "we're raising it to a \nbigger and bigger power.",
+        "start": 944.32,
+        "duration": 1.6
+    },
+    {
+        "text": "So it's- there's like a competition",
+        "start": 945.92,
+        "duration": 2.159
+    },
+    {
+        "text": "because you're taking away smaller",
+        "start": 948.079,
+        "duration": 1.12
+    },
+    {
+        "text": "pieces",
+        "start": 949.199,
+        "duration": 0.721
+    },
+    {
+        "text": "but you're multiplying it by itself more",
+        "start": 949.92,
+        "duration": 1.76
+    },
+    {
+        "text": "and more times. And that's why you get",
+        "start": 951.68,
+        "duration": 2.399
+    },
+    {
+        "text": "this limit, it's an actual limiting",
+        "start": 954.079,
+        "duration": 2.721
+    },
+    {
+        "text": "process, the two balance out and",
+        "start": 956.8,
+        "duration": 1.52
+    },
+    {
+        "text": "eventually reach this constant. And the",
+        "start": 958.32,
+        "duration": 1.519
+    },
+    {
+        "text": "constant,",
+        "start": 959.839,
+        "duration": 0.721
+    },
+    {
+        "text": "and this is my favorite bit about this",
+        "start": 960.56,
+        "duration": 1.519
+    },
+    {
+        "text": "whole problem, if you take",
+        "start": 962.079,
+        "duration": 1.601
+    },
+    {
+        "text": "n to infinity and do a proper limiting",
+        "start": 963.68,
+        "duration": 3.159
+    },
+    {
+        "text": "process on 1 minus 1 over n",
+        "start": 966.839,
+        "duration": 2.841
+    },
+    {
+        "text": "to the n this is 1 over",
+        "start": 969.68,
+        "duration": 3.68
+    },
+    {
+        "text": "e - euler's number, the \nnatural rate of growth;",
+        "start": 973.36,
+        "duration": 3.919
+    },
+    {
+        "text": "the number tattooed on my arm.",
+        "start": 977.279,
+        "duration": 3.041
+    },
+    {
+        "text": "It's- it appears everywhere right?",
+        "start": 980.32,
+        "duration": 1.759
+    },
+    {
+        "text": "Anything you're doing",
+        "start": 982.079,
+        "duration": 1.361
+    },
+    {
+        "text": "with growth; it seems anything with",
+        "start": 983.44,
+        "duration": 2.079
+    },
+    {
+        "text": "interest, gambling money, it's always e.",
+        "start": 985.519,
+        "duration": 2.161
+    },
+    {
+        "text": "So here it's 1 over e. So the big",
+        "start": 987.68,
+        "duration": 3.04
+    },
+    {
+        "text": "conclusion",
+        "start": 990.72,
+        "duration": 1.76
+    },
+    {
+        "text": "is if I have a fixed amount of money,",
+        "start": 992.48,
+        "duration": 4.0
+    },
+    {
+        "text": "n pounds, I'm willing to try and double",
+        "start": 996.48,
+        "duration": 3.12
+    },
+    {
+        "text": "using the Martingale strategy, no matter",
+        "start": 999.6,
+        "duration": 3.28
+    },
+    {
+        "text": "how much money I have",
+        "start": 1002.88,
+        "duration": 2.399
+    },
+    {
+        "text": "the absolute best chance I have of",
+        "start": 1005.279,
+        "duration": 2.48
+    },
+    {
+        "text": "doubling my money",
+        "start": 1007.759,
+        "duration": 1.2
+    },
+    {
+        "text": "is about 37%, or 1 over e. And there's",
+        "start": 1008.959,
+        "duration": 2.88
+    },
+    {
+        "text": "nothing I can do about that. If I get",
+        "start": 1011.839,
+        "duration": 1.201
+    },
+    {
+        "text": "more and more money",
+        "start": 1013.04,
+        "duration": 0.799
+    },
+    {
+        "text": "I still have the same chance, 36.8%",
+        "start": 1013.839,
+        "duration": 3.521
+    },
+    {
+        "text": "chance, of winning in this method. So",
+        "start": 1017.36,
+        "duration": 3.599
+    },
+    {
+        "text": "some of you may have spotted this",
+        "start": 1020.959,
+        "duration": 2.081
+    },
+    {
+        "text": "earlier or may realised what's going on",
+        "start": 1023.04,
+        "duration": 1.68
+    },
+    {
+        "text": "here.",
+        "start": 1024.72,
+        "duration": 0.8
+    },
+    {
+        "text": "And you have to think, well, we're playing",
+        "start": 1025.52,
+        "duration": 2.64
+    },
+    {
+        "text": "a 50/50 game,",
+        "start": 1028.16,
+        "duration": 1.519
+    },
+    {
+        "text": "like we're literally playing roulette",
+        "start": 1029.679,
+        "duration": 1.28
+    },
+    {
+        "text": "red or black. So we can go \nthrough all of this",
+        "start": 1030.959,
+        "duration": 3.041
+    },
+    {
+        "text": "and have, you know, the world's longest",
+        "start": 1034.0,
+        "duration": 2.0
+    },
+    {
+        "text": "stint in a casino trying to double a",
+        "start": 1036.0,
+        "duration": 1.919
+    },
+    {
+        "text": "million pounds",
+        "start": 1037.919,
+        "duration": 1.12
+    },
+    {
+        "text": "and do a million iterations of the",
+        "start": 1039.039,
+        "duration": 2.561
+    },
+    {
+        "text": "Martingale strategy",
+        "start": 1041.6,
+        "duration": 2.719
+    },
+    {
+        "text": "but I'm never going to get more than a",
+        "start": 1044.319,
+        "duration": 1.36
+    },
+    {
+        "text": "36.8% chance of doubling my money.",
+        "start": 1045.679,
+        "duration": 2.961
+    },
+    {
+        "text": "So why don't I just put everything on",
+        "start": 1048.64,
+        "duration": 2.08
+    },
+    {
+        "text": "black on the first spin?",
+        "start": 1050.72,
+        "duration": 3.04
+    },
+    {
+        "text": "Because then I've got a 50% chance of",
+        "start": 1053.76,
+        "duration": 2.799
+    },
+    {
+        "text": "actually",
+        "start": 1056.559,
+        "duration": 0.961
+    },
+    {
+        "text": "doubling my money. So the moral of the",
+        "start": 1057.52,
+        "duration": 2.08
+    },
+    {
+        "text": "story I think is",
+        "start": 1059.6,
+        "duration": 2.64
+    },
+    {
+        "text": "gambling strategies are \nall good and fun but",
+        "start": 1062.24,
+        "duration": 3.36
+    },
+    {
+        "text": "they're always gonna break down for many",
+        "start": 1065.6,
+        "duration": 2.959
+    },
+    {
+        "text": "reasons;",
+        "start": 1068.559,
+        "duration": 1.041
+    },
+    {
+        "text": "one of which is you don't have an",
+        "start": 1069.6,
+        "duration": 1.68
+    },
+    {
+        "text": "infinite amount of money. So even though",
+        "start": 1071.28,
+        "duration": 1.84
+    },
+    {
+        "text": "we can in theory win one pound every",
+        "start": 1073.12,
+        "duration": 2.24
+    },
+    {
+        "text": "time,",
+        "start": 1075.36,
+        "duration": 0.8
+    },
+    {
+        "text": "if you let time be long enough you're",
+        "start": 1076.16,
+        "duration": 2.24
+    },
+    {
+        "text": "never actually going to",
+        "start": 1078.4,
+        "duration": 1.279
+    },
+    {
+        "text": "to double your money or your your",
+        "start": 1079.679,
+        "duration": 1.201
+    },
+    {
+        "text": "expected value really does shrink to",
+        "start": 1080.88,
+        "duration": 1.919
+    },
+    {
+        "text": "zero.",
+        "start": 1082.799,
+        "duration": 0.961
+    },
+    {
+        "text": "So the Martingale strategy in theory",
+        "start": 1083.76,
+        "duration": 2.4
+    },
+    {
+        "text": "looks great,",
+        "start": 1086.16,
+        "duration": 1.28
+    },
+    {
+        "text": "if you do it with sensible numbers",
+        "start": 1087.44,
+        "duration": 2.08
+    },
+    {
+        "text": "saying I want to double my money,",
+        "start": 1089.52,
+        "duration": 2.159
+    },
+    {
+        "text": "literally you're better off just putting",
+        "start": 1091.679,
+        "duration": 1.281
+    },
+    {
+        "text": "it all on black and hoping for the best.",
+        "start": 1092.96,
+        "duration": 2.23
+    },
+    {
+        "text": "If you'd like to see even more",
+        "start": 1096.64,
+        "duration": 1.46
+    },
+    {
+        "text": "Numberphile videos with Tom Crawford,",
+        "start": 1098.1,
+        "duration": 2.459
+    },
+    {
+        "text": "well we've got a playlist. There's a link",
+        "start": 1100.559,
+        "duration": 2.081
+    },
+    {
+        "text": "on the screen and down in the video",
+        "start": 1102.64,
+        "duration": 1.279
+    },
+    {
+        "text": "description.",
+        "start": 1103.919,
+        "duration": 0.961
+    },
+    {
+        "text": "..Because there's more competition to eat",
+        "start": 1104.88,
+        "duration": 1.84
+    },
+    {
+        "text": "those rabbits.\n- Also Tom will be appearing",
+        "start": 1106.72,
+        "duration": 2.16
+    },
+    {
+        "text": "very soon on the Numberphile podcast so",
+        "start": 1108.88,
+        "duration": 2.24
+    },
+    {
+        "text": "keep an ear out for that.",
+        "start": 1111.12,
+        "duration": 1.52
+    },
+    {
+        "text": "Thank you also to Numberphile's patreon",
+        "start": 1112.64,
+        "duration": 2.32
+    },
+    {
+        "text": "supporters.",
+        "start": 1114.96,
+        "duration": 0.959
+    },
+    {
+        "text": "We have a list of the whole list of",
+        "start": 1115.919,
+        "duration": 1.681
+    },
+    {
+        "text": "supporters, I'll include a link to that",
+        "start": 1117.6,
+        "duration": 1.84
+    },
+    {
+        "text": "in the video description; but a few of",
+        "start": 1119.44,
+        "duration": 2.239
+    },
+    {
+        "text": "them are also listed here on the screen",
+        "start": 1121.679,
+        "duration": 2.24
+    },
+    {
+        "text": "you can see their names at the moment.",
+        "start": 1123.919,
+        "duration": 1.681
+    },
+    {
+        "text": "Special thanks to them. If you'd like to",
+        "start": 1125.6,
+        "duration": 2.0
+    },
+    {
+        "text": "help us out go to \npatreon.com/numberphile.",
+        "start": 1127.6,
+        "duration": 3.839
+    },
+    {
+        "text": "We really appreciate it",
+        "start": 1131.439,
+        "duration": 2.48
+    },
+    {
+        "text": "but we also appreciate everyone who just",
+        "start": 1133.919,
+        "duration": 2.0
+    },
+    {
+        "text": "takes the time to watch and like and",
+        "start": 1135.919,
+        "duration": 1.76
+    },
+    {
+        "text": "share these videos,",
+        "start": 1137.679,
+        "duration": 1.36
+    },
+    {
+        "text": "and that includes you. Yes you, I'm",
+        "start": 1139.039,
+        "duration": 2.321
+    },
+    {
+        "text": "talking to you specifically.",
+        "start": 1141.36,
+        "duration": 1.93
+    }
+]

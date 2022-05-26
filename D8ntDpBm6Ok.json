@@ -1,0 +1,517 @@
+[
+    {
+        "text": "MATT: Okay, so we're going to look\nat a sequence of numbers,",
+        "start": 0.0,
+        "duration": 2.78
+    },
+    {
+        "text": "and it's not going to be this one,\nwhich is where I start with a 1,",
+        "start": 2.78,
+        "duration": 4.56
+    },
+    {
+        "text": "and then, for no obviously\nexplained reason, another 1,",
+        "start": 7.34,
+        "duration": 2.58
+    },
+    {
+        "text": "and then I feel the need\nto add them together,",
+        "start": 9.92,
+        "duration": 2.42
+    },
+    {
+        "text": "which gives me a 2.",
+        "start": 12.34,
+        "duration": 0.98
+    },
+    {
+        "text": "If I add the last two terms together,\nI get a 3.",
+        "start": 13.32,
+        "duration": 3.08
+    },
+    {
+        "text": "If I add those together,\nI get a 5, I get an 8, and so on,",
+        "start": 16.4,
+        "duration": 3.18
+    },
+    {
+        "text": "and most people will recognize these as \nour friends, the Fibonacci numbers,",
+        "start": 19.58,
+        "duration": 4.8
+    },
+    {
+        "text": "and they're famous for a number of reasons.",
+        "start": 24.38,
+        "duration": 2.12
+    },
+    {
+        "text": "In fact,—\nOh, well, Brady,",
+        "start": 27.34,
+        "duration": 1.46
+    },
+    {
+        "text": "do you know why, why people\nget so excited about these numbers?",
+        "start": 28.8,
+        "duration": 3.34
+    },
+    {
+        "text": "I mean, you've talked to many\npeople, I imagine, over the years.",
+        "start": 32.14,
+        "duration": 2.64
+    },
+    {
+        "text": "BRADY: It's because of sunflowers",
+        "start": 34.78,
+        "duration": 1.2
+    },
+    {
+        "text": "MATT: Because of sunflowers, yes,",
+        "start": 35.98,
+        "duration": 1.66
+    },
+    {
+        "text": "or pineapples, or petals",
+        "start": 37.64,
+        "duration": 2.78
+    },
+    {
+        "text": "and, so yes, often things in nature",
+        "start": 40.42,
+        "duration": 2.88
+    },
+    {
+        "text": "occur in numbers,\nand some of those numbers",
+        "start": 43.3,
+        "duration": 2.76
+    },
+    {
+        "text": "are in this list.",
+        "start": 46.06,
+        "duration": 1.42
+    },
+    {
+        "text": "The other big one,",
+        "start": 47.48,
+        "duration": 1.46
+    },
+    {
+        "text": "and people almost take Fibonacci\nto be synonymous with this,",
+        "start": 48.94,
+        "duration": 4.28
+    },
+    {
+        "text": "is the golden ratio,",
+        "start": 53.22,
+        "duration": 1.38
+    },
+    {
+        "text": "and people will switch between saying\n\"Fibonacci numbers\"/\"golden ratio\"",
+        "start": 54.6,
+        "duration": 4.6
+    },
+    {
+        "text": "and I think it's time\nwe stop doing that.",
+        "start": 59.2,
+        "duration": 3.4
+    },
+    {
+        "text": "I'm here to tell you that the\nFibonacci numbers are terrible,",
+        "start": 62.6,
+        "duration": 2.66
+    },
+    {
+        "text": "and they have very little\nto do with the golden ratio.",
+        "start": 65.26,
+        "duration": 2.0
+    },
+    {
+        "text": "In fact, there's a much\nbetter sequence of numbers",
+        "start": 67.26,
+        "duration": 2.64
+    },
+    {
+        "text": "which we should use\ninstead of Fibonacci",
+        "start": 69.9,
+        "duration": 2.26
+    },
+    {
+        "text": "when it comes to\nthe golden ratio.",
+        "start": 72.16,
+        "duration": 1.84
+    },
+    {
+        "text": "But first, we'll establish what we're\nmaking fun of before we tear it apart.",
+        "start": 74.0,
+        "duration": 3.68
+    },
+    {
+        "text": "So the reason we like Fibonacci\nnumbers linking to the golden ratio",
+        "start": 77.68,
+        "duration": 4.04
+    },
+    {
+        "text": "so if you take the ratio\nof two of the terms,",
+        "start": 81.72,
+        "duration": 2.2
+    },
+    {
+        "text": "so the last one here I've got is 34,",
+        "start": 83.92,
+        "duration": 2.68
+    },
+    {
+        "text": "take the ratio of 34 with 21,",
+        "start": 86.6,
+        "duration": 2.6
+    },
+    {
+        "text": "so if I do 34 divided by 21",
+        "start": 89.2,
+        "duration": 3.28
+    },
+    {
+        "text": "it equals 1.6190…,\nso it's close.",
+        "start": 92.48,
+        "duration": 5.54
+    },
+    {
+        "text": "And so these terms approach\nthe ratio of the golden ratio.",
+        "start": 98.02,
+        "duration": 4.18
+    },
+    {
+        "text": "If I kept writing these numbers,",
+        "start": 102.2,
+        "duration": 1.32
+    },
+    {
+        "text": "If I carried on, and, you know, let's—",
+        "start": 103.52,
+        "duration": 2.0
+    },
+    {
+        "text": "I don't know how much space\nyou've got on your camera,",
+        "start": 105.52,
+        "duration": 2.3
+    },
+    {
+        "text": "if we did this for two,\nmaybe three years,",
+        "start": 107.82,
+        "duration": 2.1
+    },
+    {
+        "text": "the numbers would be closer\nand closer to the golden ratio,",
+        "start": 109.92,
+        "duration": 2.7
+    },
+    {
+        "text": "and the limit they're approaching\nis the golden ratio.",
+        "start": 112.62,
+        "duration": 2.52
+    },
+    {
+        "text": "They'll never reach it, but if you do it for\ninfinitely many terms",
+        "start": 115.14,
+        "duration": 3.44
+    },
+    {
+        "text": "in the Fibonacci sequence,",
+        "start": 118.58,
+        "duration": 1.5
+    },
+    {
+        "text": "the ratio is the golden ratio.",
+        "start": 120.08,
+        "duration": 1.4
+    },
+    {
+        "text": "It is a lovely link.",
+        "start": 121.48,
+        "duration": 1.36
+    },
+    {
+        "text": "The trouble is the Fibonacci sequence\nis not the only one that does this.",
+        "start": 122.84,
+        "duration": 4.44
+    },
+    {
+        "text": "So, in fact, we're going to try another one\nentirely at random.",
+        "start": 127.28,
+        "duration": 2.38
+    },
+    {
+        "text": "So can you give me, Brady, \ninstead of starting 1, 1,…",
+        "start": 129.66,
+        "duration": 4.42
+    },
+    {
+        "text": "can you give me a number in \nthe thousands, four digits,",
+        "start": 134.08,
+        "duration": 2.82
+    },
+    {
+        "text": "What would you like?",
+        "start": 136.9,
+        "duration": 0.9
+    },
+    {
+        "text": "BRADY: Uh, 2308.",
+        "start": 137.8,
+        "duration": 2.24
+    },
+    {
+        "text": "MATT: 2308, and another number.",
+        "start": 140.04,
+        "duration": 2.0
+    },
+    {
+        "text": "BRADY: 4261",
+        "start": 142.04,
+        "duration": 3.34
+    },
+    {
+        "text": "MATT: Okay, so there's our two random numbers.",
+        "start": 145.38,
+        "duration": 2.0
+    },
+    {
+        "text": "You got 2308, and you got 4261.",
+        "start": 147.38,
+        "duration": 3.1
+    },
+    {
+        "text": "So instead of starting 1, 1,\nand adding those to get 2,",
+        "start": 150.48,
+        "duration": 3.8
+    },
+    {
+        "text": "I'm going to start 2308,\nsecond term will be 4261,",
+        "start": 154.28,
+        "duration": 4.66
+    },
+    {
+        "text": "the next term\nwill be 6569,",
+        "start": 158.94,
+        "duration": 6.38
+    },
+    {
+        "text": "the then next term,\nI'm going to cheat,",
+        "start": 165.32,
+        "duration": 1.84
+    },
+    {
+        "text": "and if I start using a calculator,",
+        "start": 167.16,
+        "duration": 2.52
+    },
+    {
+        "text": "if I add these up…",
+        "start": 169.68,
+        "duration": 1.44
+    },
+    {
+        "text": "10,830…",
+        "start": 171.12,
+        "duration": 2.88
+    },
+    {
+        "text": "45,628— I'll do a few of these,\nand you can zip through, obviously.",
+        "start": 174.0,
+        "duration": 4.56
+    },
+    {
+        "text": "BRADY: So is this the Brady sequence?",
+        "start": 178.56,
+        "duration": 2.46
+    },
+    {
+        "text": "MATT: This is the Brady sequence!\nWe're going to call these the Brady numbers.",
+        "start": 181.02,
+        "duration": 3.58
+    },
+    {
+        "text": "So as we go down, I'm  —\nyou've got your very—",
+        "start": 184.6,
+        "duration": 2.98
+    },
+    {
+        "text": "Am I the first person who has\ngiven you your own numbers?",
+        "start": 187.58,
+        "duration": 2.6
+    },
+    {
+        "text": "BRADY: Is this going to get on the Online Encyclopedia—\nMATT: I find that hard—",
+        "start": 190.18,
+        "duration": 2.3
+    },
+    {
+        "text": "MATT: This will be in the Online\nEncyclopedia of Integer Sequences.",
+        "start": 192.48,
+        "duration": 2.4
+    },
+    {
+        "text": "I guarantee you, someone\nwill put the Brady sequence up,",
+        "start": 194.88,
+        "duration": 2.38
+    },
+    {
+        "text": "and there's not even a Matt sequence,\nwhich I find hugely offensive.",
+        "start": 197.26,
+        "duration": 3.04
+    },
+    {
+        "text": "So these are getting big.\nShould we go until we get just past a million?",
+        "start": 200.3,
+        "duration": 2.5
+    },
+    {
+        "text": "Let's do that.",
+        "start": 202.8,
+        "duration": 0.66
+    },
+    {
+        "text": "Okay, so let's stop there:\n1,325,165.",
+        "start": 203.46,
+        "duration": 5.58
+    },
+    {
+        "text": "BRADY: That's the lowest\nseven-digit Brady number!",
+        "start": 209.04,
+        "duration": 2.48
+    },
+    {
+        "text": "MATT: That is the first\nseven-digit Brady number!",
+        "start": 211.52,
+        "duration": 3.08
+    },
+    {
+        "text": "So now we've got this\nlist of the Brady numbers,",
+        "start": 214.6,
+        "duration": 2.36
+    },
+    {
+        "text": "Shall we see,\nI mean the Fibonacci numbers,",
+        "start": 216.96,
+        "duration": 2.52
+    },
+    {
+        "text": "they have ϕ (phi) as their ratio,",
+        "start": 219.48,
+        "duration": 2.06
+    },
+    {
+        "text": "shall we see what the Brady numbers have?",
+        "start": 221.54,
+        "duration": 1.54
+    },
+    {
+        "text": "Okay, so we start with the last one here,\n1,325,165…",
+        "start": 223.08,
+        "duration": 6.18
+    },
+    {
+        "text": "divided by the one before it,\nso I'm doing the ratio of these two here,",
+        "start": 229.26,
+        "duration": 4.2
+    },
+    {
+        "text": "divided by 818,996…",
+        "start": 233.46,
+        "duration": 4.74
+    },
+    {
+        "text": "equals 1.6180359,",
+        "start": 238.2,
+        "duration": 6.82
+    },
+    {
+        "text": "and the golden ratio is\n1.6180339, and so on, right?",
+        "start": 245.02,
+        "duration": 11.28
+    },
+    {
+        "text": "So, the ratio of the Brady numbers,",
+        "start": 256.3,
+        "duration": 3.94
+    },
+    {
+        "text": "How many have I done?\nYou started with two…",
+        "start": 260.24,
+        "duration": 2.6
+    },
+    {
+        "text": "So let's count those. One, two, three,\nfour, five, six, seven, eight, nine, ten…",
+        "start": 262.84,
+        "duration": 3.52
+    },
+    {
+        "text": "…eleven, twelve, thirteen…\nthe fourteenth.",
+        "start": 266.36,
+        "duration": 1.62
+    },
+    {
+        "text": "We only got to the fourteenth\nBrady number,",
+        "start": 267.98,
+        "duration": 1.72
+    },
+    {
+        "text": "and look how many decimal places\nit matches the golden ratio.",
+        "start": 269.7,
+        "duration": 3.34
+    },
+    {
+        "text": "It's because,",
+        "start": 273.04,
+        "duration": 1.78
+    },
+    {
+        "text": "I mean, I don't want to say it's not because\nthe Brady numbers are special,",
+        "start": 274.82,
+        "duration": 2.52
+    },
+    {
+        "text": "because obviously they are,",
+        "start": 277.34,
+        "duration": 1.48
+    },
+    {
+        "text": "but on top of that,\nit works for any sequence.",
+        "start": 278.82,
+        "duration": 3.28
+    },
+    {
+        "text": "If you start any sequence where you add\nthe two previous terms to get the next term,",
+        "start": 282.1,
+        "duration": 5.24
+    },
+    {
+        "text": "you will always\napproach the golden ratio.",
+        "start": 287.34,
+        "duration": 2.36
+    },
+    {
+        "text": "So it's not just Fibonacci, it's any sequence\nwhatsoever, that you come across,",
+        "start": 289.7,
+        "duration": 5.44
+    },
+    {
+        "text": "and we can prove that.",
+        "start": 295.14,
+        "duration": 2.0
+    },
+    {
+        "text": "MATT: What letter would you like, Brady?\nAny Greek letter? Do you have a favorite?",
+        "start": 298.24,
+        "duration": 5.24
+    },
+    {
+        "text": "BRADY: Uh… Delta?",
+        "start": 303.48,
+        "duration": 1.98
+    },
+    {
+        "text": "MATT: Delta",
+        "start": 305.46,
+        "duration": 1.06
+    }
+]

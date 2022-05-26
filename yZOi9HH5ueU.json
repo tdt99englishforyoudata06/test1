@@ -1,0 +1,2707 @@
+[
+    {
+        "text": "So today we're revisiting the\npainter's paradox;",
+        "start": 0.08,
+        "duration": 3.44
+    },
+    {
+        "text": "briefly mentioned on the channel before,",
+        "start": 3.52,
+        "duration": 1.839
+    },
+    {
+        "text": "but this time we're gonna- we're gonna do",
+        "start": 5.359,
+        "duration": 1.841
+    },
+    {
+        "text": "the maths. We're gonna crunch through it",
+        "start": 7.2,
+        "duration": 1.76
+    },
+    {
+        "text": "and we're gonna show this amazing",
+        "start": 8.96,
+        "duration": 2.559
+    },
+    {
+        "text": "paradox that you can have",
+        "start": 11.519,
+        "duration": 1.761
+    },
+    {
+        "text": "in this infinitely long horn which you",
+        "start": 13.28,
+        "duration": 2.239
+    },
+    {
+        "text": "can fill with paint",
+        "start": 15.519,
+        "duration": 3.201
+    },
+    {
+        "text": "but you can never paint the surface,",
+        "start": 18.72,
+        "duration": 2.399
+    },
+    {
+        "text": "because the surface area",
+        "start": 21.119,
+        "duration": 1.441
+    },
+    {
+        "text": "is infinite. And we're going to crunch",
+        "start": 22.56,
+        "duration": 1.6
+    },
+    {
+        "text": "through the equations, the maths,",
+        "start": 24.16,
+        "duration": 1.52
+    },
+    {
+        "text": "to see how it all works and exactly why",
+        "start": 25.68,
+        "duration": 3.679
+    },
+    {
+        "text": "this is what happens.",
+        "start": 29.359,
+        "duration": 1.531
+    },
+    {
+        "text": "[Music]",
+        "start": 30.89,
+        "duration": 1.36
+    },
+    {
+        "text": "Okay, so to form this- this infinite\nhorn -",
+        "start": 34.32,
+        "duration": 3.04
+    },
+    {
+        "text": "called Gabriel's horn - what we",
+        "start": 37.36,
+        "duration": 1.84
+    },
+    {
+        "text": "actually do is",
+        "start": 39.2,
+        "duration": 1.199
+    },
+    {
+        "text": "create a shape which is called a volume",
+        "start": 40.399,
+        "duration": 2.401
+    },
+    {
+        "text": "or a surface of revolution.",
+        "start": 42.8,
+        "duration": 1.599
+    },
+    {
+        "text": "And we're going to draw the graph of y",
+        "start": 44.399,
+        "duration": 1.84
+    },
+    {
+        "text": "equals 1 over x.",
+        "start": 46.239,
+        "duration": 1.281
+    },
+    {
+        "text": "So as x goes really small it shoots off",
+        "start": 47.52,
+        "duration": 2.24
+    },
+    {
+        "text": "to infinity;",
+        "start": 49.76,
+        "duration": 0.799
+    },
+    {
+        "text": "and as x gets bigger and bigger and",
+        "start": 50.559,
+        "duration": 1.361
+    },
+    {
+        "text": "bigger we've got 1 over that",
+        "start": 51.92,
+        "duration": 1.68
+    },
+    {
+        "text": "so that's going to go and decay down to\nzero.",
+        "start": 53.6,
+        "duration": 3.04
+    },
+    {
+        "text": "And then what we do first of all is",
+        "start": 56.64,
+        "duration": 1.52
+    },
+    {
+        "text": "we're gonna just chop it here",
+        "start": 58.16,
+        "duration": 2.0
+    },
+    {
+        "text": "at 1. So this is at x equals 1 so y",
+        "start": 60.16,
+        "duration": 2.64
+    },
+    {
+        "text": "is also",
+        "start": 62.8,
+        "duration": 0.96
+    },
+    {
+        "text": "1 here as well. So now we've got this,",
+        "start": 63.76,
+        "duration": 3.359
+    },
+    {
+        "text": "still infinitely long, graph and then",
+        "start": 67.119,
+        "duration": 3.04
+    },
+    {
+        "text": "we're gonna take it and we're going to\nrotate",
+        "start": 70.159,
+        "duration": 1.841
+    },
+    {
+        "text": "it around the x-axis.",
+        "start": 72.0,
+        "duration": 2.07
+    },
+    {
+        "text": "It's basically like a big vuvuzela from",
+        "start": 75.36,
+        "duration": 2.399
+    },
+    {
+        "text": "the World Cup in 2010;",
+        "start": 77.759,
+        "duration": 1.601
+    },
+    {
+        "text": "bit of an old-school reference but",
+        "start": 79.36,
+        "duration": 1.52
+    },
+    {
+        "text": "it's one of those big long tubes",
+        "start": 80.88,
+        "duration": 1.52
+    },
+    {
+        "text": "where you're blowing down. The idea is of",
+        "start": 82.4,
+        "duration": 1.92
+    },
+    {
+        "text": "course this is infinite.",
+        "start": 84.32,
+        "duration": 1.119
+    },
+    {
+        "text": "Now this is is Gabriel's horn-",
+        "start": 85.439,
+        "duration": 1.68
+    },
+    {
+        "text": "(Brady: I'm assuming that comes \nfrom the archangel Gabriel?)",
+        "start": 87.119,
+        "duration": 2.739
+    },
+    {
+        "text": "Yes so I think it does. I think",
+        "start": 89.858,
+        "duration": 1.261
+    },
+    {
+        "text": "this is called Gabriel's horn because",
+        "start": 91.119,
+        "duration": 1.601
+    },
+    {
+        "text": "the archangel Gabriel was often pictured",
+        "start": 92.72,
+        "duration": 1.68
+    },
+    {
+        "text": "with a really long horn; but this is",
+        "start": 94.4,
+        "duration": 1.679
+    },
+    {
+        "text": "infinite, it is important to remember",
+        "start": 96.079,
+        "duration": 1.68
+    },
+    {
+        "text": "that this horn goes forever.",
+        "start": 97.759,
+        "duration": 1.441
+    },
+    {
+        "text": "But of course it's going to be",
+        "start": 99.2,
+        "duration": 1.16
+    },
+    {
+        "text": "infinitesimally small",
+        "start": 100.36,
+        "duration": 2.28
+    },
+    {
+        "text": "as it- like, you're going to no longer be",
+        "start": 102.64,
+        "duration": 1.68
+    },
+    {
+        "text": "able to see it it's going to be that",
+        "start": 104.32,
+        "duration": 1.2
+    },
+    {
+        "text": "small as you carry on.",
+        "start": 105.52,
+        "duration": 1.279
+    },
+    {
+        "text": "(Gabriel must have a very small mouth)",
+        "start": 106.799,
+        "duration": 2.32
+    },
+    {
+        "text": "That's very true,",
+        "start": 109.119,
+        "duration": 0.801
+    },
+    {
+        "text": "yeah, if he's blowing in the small end,\nexactly.",
+        "start": 109.92,
+        "duration": 2.92
+    },
+    {
+        "text": "First of all, let's figure out the volume",
+        "start": 115.28,
+        "duration": 1.439
+    },
+    {
+        "text": "of this shape.\n- (I would have thought it)",
+        "start": 116.719,
+        "duration": 1.44
+    },
+    {
+        "text": "(would have an infinite volume because)",
+        "start": 118.159,
+        "duration": 1.92
+    },
+    {
+        "text": "(it never gets to a point where there's)",
+        "start": 120.079,
+        "duration": 2.0
+    },
+    {
+        "text": "(not a little bit of hollowness?)",
+        "start": 122.079,
+        "duration": 1.601
+    },
+    {
+        "text": "That would be a perfectly reasonable",
+        "start": 123.68,
+        "duration": 2.0
+    },
+    {
+        "text": "thing to assume; because it goes forever",
+        "start": 125.68,
+        "duration": 2.719
+    },
+    {
+        "text": "there's always something there, so surely",
+        "start": 128.399,
+        "duration": 1.84
+    },
+    {
+        "text": "its volume is also infinite.",
+        "start": 130.239,
+        "duration": 1.521
+    },
+    {
+        "text": "(It can always take just a \nlittle bit more paint?)",
+        "start": 131.76,
+        "duration": 1.839
+    },
+    {
+        "text": "This is why I wanted to go through this,",
+        "start": 133.599,
+        "duration": 1.601
+    },
+    {
+        "text": "right? Because the paradox itself,",
+        "start": 135.2,
+        "duration": 2.24
+    },
+    {
+        "text": "it's called a paradox because if you try",
+        "start": 137.44,
+        "duration": 2.4
+    },
+    {
+        "text": "to think about it",
+        "start": 139.84,
+        "duration": 1.52
+    },
+    {
+        "text": "using our intuition it kind of doesn't",
+        "start": 141.36,
+        "duration": 2.959
+    },
+    {
+        "text": "make sense - that's literally why it's a",
+        "start": 144.319,
+        "duration": 1.761
+    },
+    {
+        "text": "paradox. But then,",
+        "start": 146.08,
+        "duration": 1.36
+    },
+    {
+        "text": "of course, we do have the mathematical",
+        "start": 147.44,
+        "duration": 2.0
+    },
+    {
+        "text": "tools to give us the definitive answer",
+        "start": 149.44,
+        "duration": 2.56
+    },
+    {
+        "text": "that almost like can't be argued with. So",
+        "start": 152.0,
+        "duration": 1.76
+    },
+    {
+        "text": "you might not believe what you get but",
+        "start": 153.76,
+        "duration": 1.92
+    },
+    {
+        "text": "you can't really argue with the maths.",
+        "start": 155.68,
+        "duration": 1.839
+    },
+    {
+        "text": "And that's what we're going to hopefully",
+        "start": 157.519,
+        "duration": 1.36
+    },
+    {
+        "text": "figure out. Now there's a formula for a",
+        "start": 158.879,
+        "duration": 1.841
+    },
+    {
+        "text": "volume of revolution, and some of you may",
+        "start": 160.72,
+        "duration": 1.599
+    },
+    {
+        "text": "know this,",
+        "start": 162.319,
+        "duration": 0.801
+    },
+    {
+        "text": "you do learn it at school, but we're",
+        "start": 163.12,
+        "duration": 2.0
+    },
+    {
+        "text": "going to kind of think about where it",
+        "start": 165.12,
+        "duration": 1.44
+    },
+    {
+        "text": "comes from by actually",
+        "start": 166.56,
+        "duration": 1.36
+    },
+    {
+        "text": "looking at the shape. So we will end up",
+        "start": 167.92,
+        "duration": 1.599
+    },
+    {
+        "text": "with the same formula, but let's think",
+        "start": 169.519,
+        "duration": 1.681
+    },
+    {
+        "text": "about like intuitively how do we figure",
+        "start": 171.2,
+        "duration": 1.92
+    },
+    {
+        "text": "out the volume of this?",
+        "start": 173.12,
+        "duration": 1.119
+    },
+    {
+        "text": "So we're going to need to do an integral,",
+        "start": 174.239,
+        "duration": 2.321
+    },
+    {
+        "text": "just like when an integral underneath",
+        "start": 176.56,
+        "duration": 1.679
+    },
+    {
+        "text": "a curve gives you an area",
+        "start": 178.239,
+        "duration": 1.681
+    },
+    {
+        "text": "underneath that curve; so here we're",
+        "start": 179.92,
+        "duration": 1.92
+    },
+    {
+        "text": "going to do an integral to get the",
+        "start": 181.84,
+        "duration": 1.119
+    },
+    {
+        "text": "volume. The way we normally do",
+        "start": 182.959,
+        "duration": 1.92
+    },
+    {
+        "text": "the area under a curve when you do an",
+        "start": 184.879,
+        "duration": 1.36
+    },
+    {
+        "text": "integral is you imagine splitting it up",
+        "start": 186.239,
+        "duration": 1.92
+    },
+    {
+        "text": "into loads of really thin strips and",
+        "start": 188.159,
+        "duration": 1.841
+    },
+    {
+        "text": "then you add together all of those",
+        "start": 190.0,
+        "duration": 1.36
+    },
+    {
+        "text": "strips",
+        "start": 191.36,
+        "duration": 0.959
+    },
+    {
+        "text": "as their width goes to zero - that's",
+        "start": 192.319,
+        "duration": 1.92
+    },
+    {
+        "text": "basically calculus. This is what Newton",
+        "start": 194.239,
+        "duration": 1.521
+    },
+    {
+        "text": "and Leibniz did, they came up with this",
+        "start": 195.76,
+        "duration": 1.44
+    },
+    {
+        "text": "whole concept. We do the same thing here",
+        "start": 197.2,
+        "duration": 1.679
+    },
+    {
+        "text": "but we're going to slice through",
+        "start": 198.879,
+        "duration": 2.401
+    },
+    {
+        "text": "and get little pieces of the horn, so 3d",
+        "start": 201.28,
+        "duration": 3.039
+    },
+    {
+        "text": "pieces. It's going to kind of look like a",
+        "start": 204.319,
+        "duration": 2.321
+    },
+    {
+        "text": "cylinder. It's not going to quite be a",
+        "start": 206.64,
+        "duration": 1.76
+    },
+    {
+        "text": "perfect cylinder, because there's going",
+        "start": 208.4,
+        "duration": 1.28
+    },
+    {
+        "text": "to be a little bit of a slant",
+        "start": 209.68,
+        "duration": 1.52
+    },
+    {
+        "text": "on the edge. But if you make these strips",
+        "start": 211.2,
+        "duration": 1.92
+    },
+    {
+        "text": "really thin",
+        "start": 213.12,
+        "duration": 1.199
+    },
+    {
+        "text": "it's going to get closer and closer to a",
+        "start": 214.319,
+        "duration": 2.081
+    },
+    {
+        "text": "cylinder.",
+        "start": 216.4,
+        "duration": 0.93
+    },
+    {
+        "text": "[Music]",
+        "start": 217.33,
+        "duration": 1.24
+    },
+    {
+        "text": "So what we do is we say this slice along",
+        "start": 220.72,
+        "duration": 3.04
+    },
+    {
+        "text": "the x-axis is going to be width",
+        "start": 223.76,
+        "duration": 2.399
+    },
+    {
+        "text": "dx, so this is where it's going to come",
+        "start": 226.159,
+        "duration": 1.921
+    },
+    {
+        "text": "into our integral, this is a small",
+        "start": 228.08,
+        "duration": 1.519
+    },
+    {
+        "text": "bit along the x-axis. \n- (And the thinner it is)",
+        "start": 229.599,
+        "duration": 3.28
+    },
+    {
+        "text": "(the closer those two circles are to)",
+        "start": 232.879,
+        "duration": 1.761
+    },
+    {
+        "text": "(being the same)\n- Exactly,",
+        "start": 234.64,
+        "duration": 1.36
+    },
+    {
+        "text": "yes. And we are eventually, through the",
+        "start": 236.0,
+        "duration": 2.4
+    },
+    {
+        "text": "integral process, we will",
+        "start": 238.4,
+        "duration": 1.6
+    },
+    {
+        "text": "let this width go to zero. That's what- an",
+        "start": 240.0,
+        "duration": 2.159
+    },
+    {
+        "text": "integral is taking",
+        "start": 242.159,
+        "duration": 1.28
+    },
+    {
+        "text": "that limiting process rather than just a",
+        "start": 243.439,
+        "duration": 2.16
+    },
+    {
+        "text": "sum where you add them together.",
+        "start": 245.599,
+        "duration": 1.84
+    },
+    {
+        "text": "So this is the height of our cylinder. So",
+        "start": 247.439,
+        "duration": 2.88
+    },
+    {
+        "text": "the volume of a cylinder is just equal to",
+        "start": 250.319,
+        "duration": 2.48
+    },
+    {
+        "text": "the area of the face multiplied by its\nheight -",
+        "start": 252.799,
+        "duration": 3.361
+    },
+    {
+        "text": "by its depth. So we know the area of a",
+        "start": 256.16,
+        "duration": 1.919
+    },
+    {
+        "text": "circle, it's going to be pi",
+        "start": 258.079,
+        "duration": 2.0
+    },
+    {
+        "text": "times the radius squared. And then we're",
+        "start": 260.079,
+        "duration": 2.161
+    },
+    {
+        "text": "going to multiply",
+        "start": 262.24,
+        "duration": 1.2
+    },
+    {
+        "text": "by the height, dx. So the volume of this",
+        "start": 263.44,
+        "duration": 2.96
+    },
+    {
+        "text": "cylinder",
+        "start": 266.4,
+        "duration": 0.72
+    },
+    {
+        "text": "is pi radius squared times its height dx.",
+        "start": 267.12,
+        "duration": 3.84
+    },
+    {
+        "text": "So now if we just add together all of",
+        "start": 270.96,
+        "duration": 1.679
+    },
+    {
+        "text": "these cylinders",
+        "start": 272.639,
+        "duration": 1.601
+    },
+    {
+        "text": "and then let dx, the width, go to zero",
+        "start": 274.24,
+        "duration": 3.76
+    },
+    {
+        "text": "that will give us our integral. The final",
+        "start": 278.0,
+        "duration": 1.759
+    },
+    {
+        "text": "volume of",
+        "start": 279.759,
+        "duration": 1.361
+    },
+    {
+        "text": "Gabriel's horn is going to be the",
+        "start": 281.12,
+        "duration": 1.76
+    },
+    {
+        "text": "integral- so we're starting from 1,",
+        "start": 282.88,
+        "duration": 2.64
+    },
+    {
+        "text": "and we're going all the way down here to",
+        "start": 285.52,
+        "duration": 1.84
+    },
+    {
+        "text": "infinity, tending to infinity.",
+        "start": 287.36,
+        "duration": 1.92
+    },
+    {
+        "text": "So we're starting from 1 to infinity,",
+        "start": 289.28,
+        "duration": 2.24
+    },
+    {
+        "text": "that's our limits of our integration,",
+        "start": 291.52,
+        "duration": 2.239
+    },
+    {
+        "text": "we've got pi we've got the radius",
+        "start": 293.759,
+        "duration": 2.641
+    },
+    {
+        "text": "squared",
+        "start": 296.4,
+        "duration": 1.12
+    },
+    {
+        "text": "and then we integrate with respect to dx.",
+        "start": 297.52,
+        "duration": 2.8
+    },
+    {
+        "text": "So this is the formula",
+        "start": 300.32,
+        "duration": 1.12
+    },
+    {
+        "text": "that perhaps you may have seen before for",
+        "start": 301.44,
+        "duration": 2.16
+    },
+    {
+        "text": "a volume of revolution, but it comes from",
+        "start": 303.6,
+        "duration": 1.92
+    },
+    {
+        "text": "these little pieces of cylinders being",
+        "start": 305.52,
+        "duration": 1.44
+    },
+    {
+        "text": "added together. Now the radius;",
+        "start": 306.96,
+        "duration": 1.76
+    },
+    {
+        "text": "so if we look back at our picture, and",
+        "start": 308.72,
+        "duration": 1.36
+    },
+    {
+        "text": "I've drawn this really badly and not",
+        "start": 310.08,
+        "duration": 1.28
+    },
+    {
+        "text": "very symmetrically,",
+        "start": 311.36,
+        "duration": 1.279
+    },
+    {
+        "text": "but if this was- if this is the central",
+        "start": 312.639,
+        "duration": 2.081
+    },
+    {
+        "text": "point and it's the same",
+        "start": 314.72,
+        "duration": 1.52
+    },
+    {
+        "text": "on either side the radius is exactly",
+        "start": 316.24,
+        "duration": 3.2
+    },
+    {
+        "text": "that distance from the axis up to the",
+        "start": 319.44,
+        "duration": 3.199
+    },
+    {
+        "text": "curve. And you can see that depending on",
+        "start": 322.639,
+        "duration": 2.241
+    },
+    {
+        "text": "where you take your slice you get",
+        "start": 324.88,
+        "duration": 1.759
+    },
+    {
+        "text": "different values of the radius. You're",
+        "start": 326.639,
+        "duration": 1.201
+    },
+    {
+        "text": "gonna get bigger circles up here",
+        "start": 327.84,
+        "duration": 2.24
+    },
+    {
+        "text": "and really really tiny circles down here.",
+        "start": 330.08,
+        "duration": 1.6
+    },
+    {
+        "text": "So the actual radius,",
+        "start": 331.68,
+        "duration": 1.6
+    },
+    {
+        "text": "the distance from the line to the graph,",
+        "start": 333.28,
+        "duration": 2.479
+    },
+    {
+        "text": "well that's just given by",
+        "start": 335.759,
+        "duration": 1.44
+    },
+    {
+        "text": "the value of y. Because you're starting",
+        "start": 337.199,
+        "duration": 2.241
+    },
+    {
+        "text": "at y equals naught and you're going up",
+        "start": 339.44,
+        "duration": 1.28
+    },
+    {
+        "text": "to this point",
+        "start": 340.72,
+        "duration": 0.88
+    },
+    {
+        "text": "here which is y, some value. So the radius",
+        "start": 341.6,
+        "duration": 3.28
+    },
+    {
+        "text": "r is actually equal to the value of y.",
+        "start": 344.88,
+        "duration": 2.72
+    },
+    {
+        "text": "But y is 1 over x,",
+        "start": 347.6,
+        "duration": 1.92
+    },
+    {
+        "text": "because it was our graph that we had; so",
+        "start": 349.52,
+        "duration": 1.92
+    },
+    {
+        "text": "the radius",
+        "start": 351.44,
+        "duration": 1.36
+    },
+    {
+        "text": "is 1 over x. So we can now plug this",
+        "start": 352.8,
+        "duration": 2.56
+    },
+    {
+        "text": "into our formula",
+        "start": 355.36,
+        "duration": 1.279
+    },
+    {
+        "text": "and we've got an integral which - we can",
+        "start": 356.639,
+        "duration": 1.921
+    },
+    {
+        "text": "take the pi outside -",
+        "start": 358.56,
+        "duration": 1.6
+    },
+    {
+        "text": "1 to infinity and then we've got 1",
+        "start": 360.16,
+        "duration": 2.08
+    },
+    {
+        "text": "over x squared",
+        "start": 362.24,
+        "duration": 1.36
+    },
+    {
+        "text": "dx. Now that is an integral we can do; if",
+        "start": 363.6,
+        "duration": 2.719
+    },
+    {
+        "text": "you've done any",
+        "start": 366.319,
+        "duration": 0.72
+    },
+    {
+        "text": "high school calculus we've got x to the",
+        "start": 367.039,
+        "duration": 2.16
+    },
+    {
+        "text": "minus 2, so if I do that integral I get",
+        "start": 369.199,
+        "duration": 2.081
+    },
+    {
+        "text": "minus",
+        "start": 371.28,
+        "duration": 1.359
+    },
+    {
+        "text": "1 over x with my two limits",
+        "start": 372.639,
+        "duration": 3.521
+    },
+    {
+        "text": "and then I plug in the two values. So",
+        "start": 376.16,
+        "duration": 1.68
+    },
+    {
+        "text": "it's now pi multiplied by",
+        "start": 377.84,
+        "duration": 3.52
+    },
+    {
+        "text": "minus 1 over infinity; well 1 over",
+        "start": 381.36,
+        "duration": 3.44
+    },
+    {
+        "text": "infinity, that's zero.",
+        "start": 384.8,
+        "duration": 1.2
+    },
+    {
+        "text": "So you get nothing from that. And then",
+        "start": 386.0,
+        "duration": 1.6
+    },
+    {
+        "text": "it's minus",
+        "start": 387.6,
+        "duration": 1.599
+    },
+    {
+        "text": "minus 1 over 1 so it's 1. So the",
+        "start": 389.199,
+        "duration": 3.201
+    },
+    {
+        "text": "volume",
+        "start": 392.4,
+        "duration": 1.12
+    },
+    {
+        "text": "of Gabriel's horn is pi.",
+        "start": 393.52,
+        "duration": 3.28
+    },
+    {
+        "text": "Which in itself is nice, it's always nice",
+        "start": 396.8,
+        "duration": 2.64
+    },
+    {
+        "text": "when pi",
+        "start": 399.44,
+        "duration": 0.879
+    },
+    {
+        "text": "just appears out of nowhere. So if we",
+        "start": 400.319,
+        "duration": 2.0
+    },
+    {
+        "text": "take the graph",
+        "start": 402.319,
+        "duration": 1.041
+    },
+    {
+        "text": "of y equals 1 over x, rotate it around",
+        "start": 403.36,
+        "duration": 2.959
+    },
+    {
+        "text": "the x-axis to form this",
+        "start": 406.319,
+        "duration": 1.681
+    },
+    {
+        "text": "infinite horn, the volume is equal to pi.",
+        "start": 408.0,
+        "duration": 4.24
+    },
+    {
+        "text": "Amazing in itself; but for our purposes",
+        "start": 412.24,
+        "duration": 3.28
+    },
+    {
+        "text": "we didn't really care what this was as",
+        "start": 415.52,
+        "duration": 2.0
+    },
+    {
+        "text": "long as it wasn't infinity.",
+        "start": 417.52,
+        "duration": 2.16
+    },
+    {
+        "text": "Because this is a finite number so I can",
+        "start": 419.68,
+        "duration": 2.56
+    },
+    {
+        "text": "go out now and buy",
+        "start": 422.24,
+        "duration": 1.519
+    },
+    {
+        "text": "pi units of paint. I can fill",
+        "start": 423.759,
+        "duration": 3.361
+    },
+    {
+        "text": "Gabriel's horn with pi units of paint",
+        "start": 427.12,
+        "duration": 2.16
+    },
+    {
+        "text": "and it will be completely filled with\npaint",
+        "start": 429.28,
+        "duration": 2.24
+    },
+    {
+        "text": "and there's- can't fit any more, can't",
+        "start": 431.52,
+        "duration": 1.44
+    },
+    {
+        "text": "fit any less, that's just that's it.",
+        "start": 432.96,
+        "duration": 2.92
+    },
+    {
+        "text": "Now the surface area; same kind of idea,",
+        "start": 438.88,
+        "duration": 4.159
+    },
+    {
+        "text": "we we want to think about what happens",
+        "start": 443.039,
+        "duration": 2.241
+    },
+    {
+        "text": "when we have a small piece",
+        "start": 445.28,
+        "duration": 1.68
+    },
+    {
+        "text": "of the horn, and then now instead of",
+        "start": 446.96,
+        "duration": 1.679
+    },
+    {
+        "text": "thinking about its volume",
+        "start": 448.639,
+        "duration": 1.521
+    },
+    {
+        "text": "we want to think about the area around",
+        "start": 450.16,
+        "duration": 2.72
+    },
+    {
+        "text": "the edge, so the surface area of the",
+        "start": 452.88,
+        "duration": 1.68
+    },
+    {
+        "text": "shape sort of going around",
+        "start": 454.56,
+        "duration": 1.359
+    },
+    {
+        "text": "and around and around and around. So",
+        "start": 455.919,
+        "duration": 1.361
+    },
+    {
+        "text": "imagine like trying to wrap the whole",
+        "start": 457.28,
+        "duration": 0.96
+    },
+    {
+        "text": "thing in toilet roll,",
+        "start": 458.24,
+        "duration": 1.359
+    },
+    {
+        "text": "for example. If we were to slice through\nthe horn",
+        "start": 459.599,
+        "duration": 3.121
+    },
+    {
+        "text": "you get something that looks like this.",
+        "start": 462.72,
+        "duration": 1.599
+    },
+    {
+        "text": "Not quite a cylinder, it's got like a",
+        "start": 464.319,
+        "duration": 1.681
+    },
+    {
+        "text": "slant;",
+        "start": 466.0,
+        "duration": 0.8
+    },
+    {
+        "text": "and then you have the big circle at this",
+        "start": 466.8,
+        "duration": 1.6
+    },
+    {
+        "text": "end which would be coming from up",
+        "start": 468.4,
+        "duration": 1.44
+    },
+    {
+        "text": "sort of this end of it and then the",
+        "start": 469.84,
+        "duration": 1.52
+    },
+    {
+        "text": "smaller one down here - so you have",
+        "start": 471.36,
+        "duration": 1.519
+    },
+    {
+        "text": "something like this.",
+        "start": 472.879,
+        "duration": 1.201
+    },
+    {
+        "text": "And now for the surface area you ha-",
+        "start": 474.08,
+        "duration": 2.399
+    },
+    {
+        "text": "the reason you kind of- this prop really",
+        "start": 476.479,
+        "duration": 2.081
+    },
+    {
+        "text": "helps is",
+        "start": 478.56,
+        "duration": 0.88
+    },
+    {
+        "text": "when you open this out it's like a part",
+        "start": 479.44,
+        "duration": 3.199
+    },
+    {
+        "text": "of a circle,",
+        "start": 482.639,
+        "duration": 0.881
+    },
+    {
+        "text": "annulus would be the technical term but",
+        "start": 483.52,
+        "duration": 1.92
+    },
+    {
+        "text": "it's like a sector of a circle isn't it,",
+        "start": 485.44,
+        "duration": 1.68
+    },
+    {
+        "text": "with the middle bit kind of chopped away;",
+        "start": 487.12,
+        "duration": 1.68
+    },
+    {
+        "text": "like a pizza crust.",
+        "start": 488.8,
+        "duration": 1.519
+    },
+    {
+        "text": "It looks like a pizza crust doesn't it?",
+        "start": 490.319,
+        "duration": 2.16
+    },
+    {
+        "text": "The area of this,",
+        "start": 492.479,
+        "duration": 1.201
+    },
+    {
+        "text": "again if I put it together, is going to",
+        "start": 493.68,
+        "duration": 1.84
+    },
+    {
+        "text": "be the surface area",
+        "start": 495.52,
+        "duration": 1.2
+    },
+    {
+        "text": "of our shape. This particular shape is",
+        "start": 496.72,
+        "duration": 2.159
+    },
+    {
+        "text": "actually the net",
+        "start": 498.879,
+        "duration": 1.44
+    },
+    {
+        "text": "of something called a conical frustum,",
+        "start": 500.319,
+        "duration": 3.44
+    },
+    {
+        "text": "which is a rather ridiculous name but",
+        "start": 503.759,
+        "duration": 2.56
+    },
+    {
+        "text": "that's what it's called.",
+        "start": 506.319,
+        "duration": 1.041
+    },
+    {
+        "text": "(It looks kind of rude, but anyway-)\n- It does, frustum, yeah.",
+        "start": 507.36,
+        "duration": 3.524
+    },
+    {
+        "text": "(A conical frustum-)\n- Pizza crusts and",
+        "start": 512.08,
+        "duration": 2.72
+    },
+    {
+        "text": "conical frustrums.",
+        "start": 514.8,
+        "duration": 1.119
+    },
+    {
+        "text": "So this is the the shape and this- we do",
+        "start": 515.919,
+        "duration": 2.48
+    },
+    {
+        "text": "have a formula for the area",
+        "start": 518.399,
+        "duration": 2.08
+    },
+    {
+        "text": "of this particular shape. So what we need",
+        "start": 520.479,
+        "duration": 2.0
+    },
+    {
+        "text": "to know to figure this out",
+        "start": 522.479,
+        "duration": 2.241
+    },
+    {
+        "text": "is you need to know two things: this",
+        "start": 524.72,
+        "duration": 2.4
+    },
+    {
+        "text": "length; and you also need to know",
+        "start": 527.12,
+        "duration": 2.159
+    },
+    {
+        "text": "this length. So let's call this one A and",
+        "start": 529.279,
+        "duration": 2.641
+    },
+    {
+        "text": "this one B.",
+        "start": 531.92,
+        "duration": 0.88
+    },
+    {
+        "text": "(Do you not need to know an angle or any)",
+        "start": 532.8,
+        "duration": 1.68
+    },
+    {
+        "text": "(thing about the the nature of the curve?)",
+        "start": 534.48,
+        "duration": 2.08
+    },
+    {
+        "text": "No, it's literally just- it's just",
+        "start": 536.56,
+        "duration": 1.839
+    },
+    {
+        "text": "A times B.",
+        "start": 538.399,
+        "duration": 1.201
+    },
+    {
+        "text": "Because what kind of happ- so if you",
+        "start": 539.6,
+        "duration": 2.56
+    },
+    {
+        "text": "were to sort of",
+        "start": 542.16,
+        "duration": 0.88
+    },
+    {
+        "text": "extend it and then think of this as a",
+        "start": 543.04,
+        "duration": 2.64
+    },
+    {
+        "text": "sector of your circle with some angle",
+        "start": 545.68,
+        "duration": 1.76
+    },
+    {
+        "text": "theta,",
+        "start": 547.44,
+        "duration": 1.28
+    },
+    {
+        "text": "it just so happens that the thetas kind",
+        "start": 548.72,
+        "duration": 2.559
+    },
+    {
+        "text": "of all come out.",
+        "start": 551.279,
+        "duration": 0.801
+    },
+    {
+        "text": "You can go through it and you'll get",
+        "start": 552.08,
+        "duration": 1.92
+    },
+    {
+        "text": "that it is just A times B",
+        "start": 554.0,
+        "duration": 1.68
+    },
+    {
+        "text": "in this particular shape.\n- (I'm surprised it's so)",
+        "start": 555.68,
+        "duration": 1.44
+    },
+    {
+        "text": "(simple but there you go, I believe you.)",
+        "start": 557.12,
+        "duration": 2.48
+    },
+    {
+        "text": "I didn't believe it and I went through",
+        "start": 559.6,
+        "duration": 1.6
+    },
+    {
+        "text": "this after about four pages of algebra,",
+        "start": 561.2,
+        "duration": 2.4
+    },
+    {
+        "text": "it works. So I'll save you the the-",
+        "start": 563.6,
+        "duration": 3.359
+    },
+    {
+        "text": "agony of redoing that. So, now let's go\nback",
+        "start": 566.959,
+        "duration": 3.361
+    },
+    {
+        "text": "and think back to our curve. This bit B",
+        "start": 570.32,
+        "duration": 3.28
+    },
+    {
+        "text": "along the top, this is actually going to",
+        "start": 573.6,
+        "duration": 2.16
+    },
+    {
+        "text": "be this bit here isn't it? As they join",
+        "start": 575.76,
+        "duration": 2.56
+    },
+    {
+        "text": "together",
+        "start": 578.32,
+        "duration": 0.959
+    },
+    {
+        "text": "this bit like along here - there is a",
+        "start": 579.279,
+        "duration": 2.56
+    },
+    {
+        "text": "slant here.",
+        "start": 581.839,
+        "duration": 0.881
+    },
+    {
+        "text": "So this thing along here we're going to",
+        "start": 582.72,
+        "duration": 2.4
+    },
+    {
+        "text": "say this is about a straight line;",
+        "start": 585.12,
+        "duration": 1.68
+    },
+    {
+        "text": "again we're going to shrink this thing",
+        "start": 586.8,
+        "duration": 1.44
+    },
+    {
+        "text": "down. We say this is about a straight",
+        "start": 588.24,
+        "duration": 2.08
+    },
+    {
+        "text": "line and we're going to call this",
+        "start": 590.32,
+        "duration": 1.519
+    },
+    {
+        "text": "ds. We use a different variable",
+        "start": 591.839,
+        "duration": 2.801
+    },
+    {
+        "text": "because it's not horizontal this time,",
+        "start": 594.64,
+        "duration": 2.24
+    },
+    {
+        "text": "the slant here is important which is why",
+        "start": 596.88,
+        "duration": 2.16
+    },
+    {
+        "text": "this was curved instead of just being a",
+        "start": 599.04,
+        "duration": 1.52
+    },
+    {
+        "text": "rectangle which it would be for a",
+        "start": 600.56,
+        "duration": 1.279
+    },
+    {
+        "text": "cylinder. So the slant here is important.",
+        "start": 601.839,
+        "duration": 2.161
+    },
+    {
+        "text": "Again, it's a little bit technical",
+        "start": 604.0,
+        "duration": 1.68
+    },
+    {
+        "text": "exactly why the slant is important,",
+        "start": 605.68,
+        "duration": 1.92
+    },
+    {
+        "text": "it's to do with Taylor expansions and",
+        "start": 607.6,
+        "duration": 1.919
+    },
+    {
+        "text": "lots of algebra.",
+        "start": 609.519,
+        "duration": 1.121
+    },
+    {
+        "text": "But the slant here matters for the",
+        "start": 610.64,
+        "duration": 2.0
+    },
+    {
+        "text": "surface area. So we know that, we're going",
+        "start": 612.64,
+        "duration": 1.6
+    },
+    {
+        "text": "to call that ds.",
+        "start": 614.24,
+        "duration": 0.96
+    },
+    {
+        "text": "And then this bit, A, well this is that",
+        "start": 615.2,
+        "duration": 3.12
+    },
+    {
+        "text": "circle there;",
+        "start": 618.32,
+        "duration": 0.8
+    },
+    {
+        "text": "it's the circle around the bit of the",
+        "start": 619.12,
+        "duration": 2.0
+    },
+    {
+        "text": "horn. And of course",
+        "start": 621.12,
+        "duration": 1.2
+    },
+    {
+        "text": "that's the circumference of a circle, the",
+        "start": 622.32,
+        "duration": 2.88
+    },
+    {
+        "text": "circumference of a circle",
+        "start": 625.2,
+        "duration": 1.36
+    },
+    {
+        "text": "is equal to two pi times the radius",
+        "start": 626.56,
+        "duration": 4.0
+    },
+    {
+        "text": "and again we showed here the radius is",
+        "start": 630.56,
+        "duration": 2.24
+    },
+    {
+        "text": "just given by",
+        "start": 632.8,
+        "duration": 0.88
+    },
+    {
+        "text": "y, which was 1 over x, because the radius",
+        "start": 633.68,
+        "duration": 2.159
+    },
+    {
+        "text": "is the distance",
+        "start": 635.839,
+        "duration": 1.041
+    },
+    {
+        "text": "from the axis to the shape itself. So",
+        "start": 636.88,
+        "duration": 2.56
+    },
+    {
+        "text": "what we've got then",
+        "start": 639.44,
+        "duration": 1.28
+    },
+    {
+        "text": "is the piece of surface area",
+        "start": 640.72,
+        "duration": 3.119
+    },
+    {
+        "text": "here is going to just be given by-",
+        "start": 643.839,
+        "duration": 3.12
+    },
+    {
+        "text": "so SA for surface area. We're going to",
+        "start": 646.959,
+        "duration": 2.641
+    },
+    {
+        "text": "have to integrate,",
+        "start": 649.6,
+        "duration": 1.28
+    },
+    {
+        "text": "with respect to ds - and we'll worry about",
+        "start": 650.88,
+        "duration": 2.32
+    },
+    {
+        "text": "that in a moment -",
+        "start": 653.2,
+        "duration": 1.28
+    },
+    {
+        "text": "and then we just multiply ds by 2 pi r,",
+        "start": 654.48,
+        "duration": 3.2
+    },
+    {
+        "text": "which is A times B. So 2 pi- we could\nwrite",
+        "start": 657.68,
+        "duration": 3.44
+    },
+    {
+        "text": "r but we know r is 1 over x so we can",
+        "start": 661.12,
+        "duration": 2.159
+    },
+    {
+        "text": "just write that",
+        "start": 663.279,
+        "duration": 0.881
+    },
+    {
+        "text": "as 1 over x. So this is going to give us",
+        "start": 664.16,
+        "duration": 3.119
+    },
+    {
+        "text": "our surface area. Now this pesky ds; so",
+        "start": 667.279,
+        "duration": 2.961
+    },
+    {
+        "text": "the way to deal with that,",
+        "start": 670.24,
+        "duration": 1.36
+    },
+    {
+        "text": "we look at what's going on over here. ds",
+        "start": 671.6,
+        "duration": 2.96
+    },
+    {
+        "text": "is- it's kind of a straight line,",
+        "start": 674.56,
+        "duration": 1.68
+    },
+    {
+        "text": "and then if I were to turn this into a",
+        "start": 676.24,
+        "duration": 2.159
+    },
+    {
+        "text": "triangle",
+        "start": 678.399,
+        "duration": 0.88
+    },
+    {
+        "text": "like this then we've got ds",
+        "start": 679.279,
+        "duration": 3.761
+    },
+    {
+        "text": "here, call that a right angle. So this",
+        "start": 683.04,
+        "duration": 2.96
+    },
+    {
+        "text": "horizontal direction,",
+        "start": 686.0,
+        "duration": 2.16
+    },
+    {
+        "text": "well that's along the x-axis. As I'm",
+        "start": 688.16,
+        "duration": 2.239
+    },
+    {
+        "text": "moving horizontally this is the x-axis;",
+        "start": 690.399,
+        "duration": 1.921
+    },
+    {
+        "text": "so this is dx,",
+        "start": 692.32,
+        "duration": 1.199
+    },
+    {
+        "text": "a small change on the x-axis. And this is",
+        "start": 693.519,
+        "duration": 2.88
+    },
+    {
+        "text": "vertical so this is dy.",
+        "start": 696.399,
+        "duration": 2.0
+    },
+    {
+        "text": "So we can now actually write good old",
+        "start": 698.399,
+        "duration": 1.521
+    },
+    {
+        "text": "Pythagoras' theorem, he's got our back;",
+        "start": 699.92,
+        "duration": 2.24
+    },
+    {
+        "text": "ds squared is going to be equal to dx",
+        "start": 702.16,
+        "duration": 2.4
+    },
+    {
+        "text": "squared plus dy squared.",
+        "start": 704.56,
+        "duration": 1.76
+    },
+    {
+        "text": "Okay, so then what if I square root?",
+        "start": 706.32,
+        "duration": 3.36
+    },
+    {
+        "text": "So ds is now the square root of dx",
+        "start": 709.68,
+        "duration": 3.36
+    },
+    {
+        "text": "squared plus dy squared - we only take the",
+        "start": 713.04,
+        "duration": 1.599
+    },
+    {
+        "text": "positive one because it's a distance,",
+        "start": 714.639,
+        "duration": 1.921
+    },
+    {
+        "text": "it's got to be positive. \nI'm going to do",
+        "start": 716.56,
+        "duration": 1.44
+    },
+    {
+        "text": "this pretty rough and ready, you can do",
+        "start": 718.0,
+        "duration": 1.76
+    },
+    {
+        "text": "this properly with a limiting process.",
+        "start": 719.76,
+        "duration": 2.8
+    },
+    {
+        "text": "So what you do is, you kind of factor out",
+        "start": 722.56,
+        "duration": 2.56
+    },
+    {
+        "text": "the dx.",
+        "start": 725.12,
+        "duration": 0.959
+    },
+    {
+        "text": "So you say, right, well if I take the dx",
+        "start": 726.079,
+        "duration": 2.641
+    },
+    {
+        "text": "out here, so it's come out the square",
+        "start": 728.72,
+        "duration": 2.08
+    },
+    {
+        "text": "root so it was a dx squared inside",
+        "start": 730.8,
+        "duration": 2.0
+    },
+    {
+        "text": "so I'm taking out a dx, that leaves me",
+        "start": 732.8,
+        "duration": 1.92
+    },
+    {
+        "text": "with 1 plus",
+        "start": 734.72,
+        "duration": 1.84
+    },
+    {
+        "text": "dy by dx squared.",
+        "start": 736.56,
+        "duration": 3.36
+    },
+    {
+        "text": "So this is actually a derivative, I've",
+        "start": 739.92,
+        "duration": 2.0
+    },
+    {
+        "text": "kind of treated them like they were",
+        "start": 741.92,
+        "duration": 1.2
+    },
+    {
+        "text": "fractions. You can do this properly with",
+        "start": 743.12,
+        "duration": 2.399
+    },
+    {
+        "text": "limits,",
+        "start": 745.519,
+        "duration": 0.88
+    },
+    {
+        "text": "again I'm doing it rough and ready",
+        "start": 746.399,
+        "duration": 1.841
+    },
+    {
+        "text": "because we just want the result.",
+        "start": 748.24,
+        "duration": 1.279
+    },
+    {
+        "text": "So what we now got then is we can- this",
+        "start": 749.519,
+        "duration": 2.241
+    },
+    {
+        "text": "is now in terms of y",
+        "start": 751.76,
+        "duration": 1.28
+    },
+    {
+        "text": "and x, which is what we wanted because we",
+        "start": 753.04,
+        "duration": 2.239
+    },
+    {
+        "text": "know those. We know, for example we know",
+        "start": 755.279,
+        "duration": 2.081
+    },
+    {
+        "text": "that y is 1 over",
+        "start": 757.36,
+        "duration": 1.2
+    },
+    {
+        "text": "x, so dy by dx",
+        "start": 758.56,
+        "duration": 3.68
+    },
+    {
+        "text": "is minus 1 over x squared,",
+        "start": 762.24,
+        "duration": 2.56
+    },
+    {
+        "text": "differentiating that function.",
+        "start": 764.8,
+        "duration": 1.44
+    },
+    {
+        "text": "The other good thing that we've got from",
+        "start": 766.24,
+        "duration": 1.2
+    },
+    {
+        "text": "this is when we had ds we didn't know",
+        "start": 767.44,
+        "duration": 2.32
+    },
+    {
+        "text": "what our limits were,",
+        "start": 769.76,
+        "duration": 1.36
+    },
+    {
+        "text": "because what is s? It's just the distance",
+        "start": 771.12,
+        "duration": 2.719
+    },
+    {
+        "text": "along the curve.",
+        "start": 773.839,
+        "duration": 0.8
+    },
+    {
+        "text": "We didn't know where to integrate",
+        "start": 774.639,
+        "duration": 1.601
+    },
+    {
+        "text": "between. But now we've \nactually turned ds into",
+        "start": 776.24,
+        "duration": 3.599
+    },
+    {
+        "text": "something with respect to x. So again,",
+        "start": 779.839,
+        "duration": 3.601
+    },
+    {
+        "text": "we're going to go from the limits on x",
+        "start": 783.44,
+        "duration": 2.8
+    },
+    {
+        "text": "which are from 1",
+        "start": 786.24,
+        "duration": 1.36
+    },
+    {
+        "text": "all the way to infinity. So finally we've",
+        "start": 787.6,
+        "duration": 3.12
+    },
+    {
+        "text": "got the integral; we can take the two pi",
+        "start": 790.72,
+        "duration": 1.76
+    },
+    {
+        "text": "outside",
+        "start": 792.48,
+        "duration": 0.799
+    },
+    {
+        "text": "and then we've got the integral from 1",
+        "start": 793.279,
+        "duration": 2.56
+    },
+    {
+        "text": "to infinity",
+        "start": 795.839,
+        "duration": 1.281
+    },
+    {
+        "text": "of 1 over x multiplied by ds,",
+        "start": 797.12,
+        "duration": 3.279
+    },
+    {
+        "text": "which is the square root of 1 plus dy",
+        "start": 800.399,
+        "duration": 3.041
+    },
+    {
+        "text": "by dx squared",
+        "start": 803.44,
+        "duration": 1.44
+    },
+    {
+        "text": "so that's- square that I get 1 over x",
+        "start": 804.88,
+        "duration": 2.32
+    },
+    {
+        "text": "to the 4 dx.",
+        "start": 807.2,
+        "duration": 2.32
+    },
+    {
+        "text": "So we get this pretty awful looking",
+        "start": 809.52,
+        "duration": 1.92
+    },
+    {
+        "text": "integral.",
+        "start": 811.44,
+        "duration": 0.88
+    },
+    {
+        "text": "Now, we're not going to do this integral.",
+        "start": 812.32,
+        "duration": 2.079
+    },
+    {
+        "text": "We could do this integral; you- you can",
+        "start": 814.399,
+        "duration": 1.601
+    },
+    {
+        "text": "use",
+        "start": 816.0,
+        "duration": 0.72
+    },
+    {
+        "text": "trigonometric substitutions, you can even",
+        "start": 816.72,
+        "duration": 2.0
+    },
+    {
+        "text": "throw in a hyperbolic function if you",
+        "start": 818.72,
+        "duration": 1.76
+    },
+    {
+        "text": "really want. But we don't even need to do",
+        "start": 820.48,
+        "duration": 1.68
+    },
+    {
+        "text": "that, because",
+        "start": 822.16,
+        "duration": 0.799
+    },
+    {
+        "text": "we kind of know what we're aiming for",
+        "start": 822.959,
+        "duration": 1.361
+    },
+    {
+        "text": "and we know that this, based on the",
+        "start": 824.32,
+        "duration": 1.92
+    },
+    {
+        "text": "paradox, this is going to go to infinity.",
+        "start": 826.24,
+        "duration": 2.24
+    },
+    {
+        "text": "So if we can show this is bigger than",
+        "start": 828.48,
+        "duration": 3.28
+    },
+    {
+        "text": "infinity then it's infinity.",
+        "start": 831.76,
+        "duration": 3.12
+    },
+    {
+        "text": "It's a really good tactic, when you have",
+        "start": 834.88,
+        "duration": 1.68
+    },
+    {
+        "text": "an idea that something is going to be",
+        "start": 836.56,
+        "duration": 2.24
+    },
+    {
+        "text": "infinity,",
+        "start": 838.8,
+        "duration": 1.2
+    },
+    {
+        "text": "show that it's bigger than something",
+        "start": 840.0,
+        "duration": 1.76
+    },
+    {
+        "text": "else that's really common that we know",
+        "start": 841.76,
+        "duration": 1.68
+    },
+    {
+        "text": "is definitely infinity.",
+        "start": 843.44,
+        "duration": 1.28
+    },
+    {
+        "text": "Because if you're bigger than infinity",
+        "start": 844.72,
+        "duration": 1.44
+    },
+    {
+        "text": "you're infinity. I've got this function",
+        "start": 846.16,
+        "duration": 2.239
+    },
+    {
+        "text": "here,",
+        "start": 848.399,
+        "duration": 1.201
+    },
+    {
+        "text": "the square root of 1 plus 1 over x to",
+        "start": 849.6,
+        "duration": 3.039
+    },
+    {
+        "text": "the fourth.",
+        "start": 852.639,
+        "duration": 0.801
+    },
+    {
+        "text": "And I know that x is between 1 and",
+        "start": 853.44,
+        "duration": 2.56
+    },
+    {
+        "text": "infinity,",
+        "start": 856.0,
+        "duration": 0.72
+    },
+    {
+        "text": "so it has to take a value between 1",
+        "start": 856.72,
+        "duration": 1.359
+    },
+    {
+        "text": "infinity. So whatever value of x I plug",
+        "start": 858.079,
+        "duration": 2.081
+    },
+    {
+        "text": "in here",
+        "start": 860.16,
+        "duration": 0.799
+    },
+    {
+        "text": "this whole thing is always bigger than",
+        "start": 860.959,
+        "duration": 3.12
+    },
+    {
+        "text": "1. Because if I- if I plug in x is 1",
+        "start": 864.079,
+        "duration": 3.361
+    },
+    {
+        "text": "I get the square root of 2, that's bigger",
+        "start": 867.44,
+        "duration": 1.92
+    },
+    {
+        "text": "than 1. And then as x gets bigger and",
+        "start": 869.36,
+        "duration": 1.839
+    },
+    {
+        "text": "bigger and bigger",
+        "start": 871.199,
+        "duration": 1.121
+    },
+    {
+        "text": "this bit I'm adding above 1 gets",
+        "start": 872.32,
+        "duration": 2.319
+    },
+    {
+        "text": "smaller,",
+        "start": 874.639,
+        "duration": 1.2
+    },
+    {
+        "text": "but it never quite gets to 1. So this",
+        "start": 875.839,
+        "duration": 2.481
+    },
+    {
+        "text": "whole thing is definitely bigger",
+        "start": 878.32,
+        "duration": 2.16
+    },
+    {
+        "text": "than 1. So let's just replace it and",
+        "start": 880.48,
+        "duration": 2.32
+    },
+    {
+        "text": "say, well,",
+        "start": 882.8,
+        "duration": 0.8
+    },
+    {
+        "text": "so the surface area is bigger than",
+        "start": 883.6,
+        "duration": 3.76
+    },
+    {
+        "text": "2 pi times the integral from 1 to",
+        "start": 887.36,
+        "duration": 2.479
+    },
+    {
+        "text": "infinity",
+        "start": 889.839,
+        "duration": 0.961
+    },
+    {
+        "text": "of 1 over x dx. So we've really just",
+        "start": 890.8,
+        "duration": 2.32
+    },
+    {
+        "text": "replaced that whole horrible \nsquare root by",
+        "start": 893.12,
+        "duration": 2.0
+    },
+    {
+        "text": "1. And this is still true, this is an",
+        "start": 895.12,
+        "duration": 2.8
+    },
+    {
+        "text": "integral we can do again,",
+        "start": 897.92,
+        "duration": 1.68
+    },
+    {
+        "text": "so this is just 2 pi integral of 1 over\nx",
+        "start": 899.6,
+        "duration": 3.76
+    },
+    {
+        "text": "is the natural log of x between infinity",
+        "start": 903.36,
+        "duration": 3.12
+    },
+    {
+        "text": "and 1.",
+        "start": 906.48,
+        "duration": 0.88
+    },
+    {
+        "text": "The natural log of infinity",
+        "start": 907.36,
+        "duration": 3.36
+    },
+    {
+        "text": "is infinity. So we didn't need to do the",
+        "start": 910.72,
+        "duration": 3.76
+    },
+    {
+        "text": "horrible integral,",
+        "start": 914.48,
+        "duration": 1.44
+    },
+    {
+        "text": "because we can show that the surface",
+        "start": 915.92,
+        "duration": 1.599
+    },
+    {
+        "text": "area is greater than",
+        "start": 917.519,
+        "duration": 1.841
+    },
+    {
+        "text": "something that goes to infinity, so the",
+        "start": 919.36,
+        "duration": 2.08
+    },
+    {
+        "text": "surface area",
+        "start": 921.44,
+        "duration": 1.04
+    },
+    {
+        "text": "is infinite.",
+        "start": 922.48,
+        "duration": 1.33
+    },
+    {
+        "text": "Gabriel's horn, where we take 1 over x",
+        "start": 927.12,
+        "duration": 2.639
+    },
+    {
+        "text": "rotate around the axis to create this",
+        "start": 929.759,
+        "duration": 2.0
+    },
+    {
+        "text": "really infinitely long horn; we can fill\nit",
+        "start": 931.759,
+        "duration": 4.0
+    },
+    {
+        "text": "with pi units of paint but",
+        "start": 935.759,
+        "duration": 3.681
+    },
+    {
+        "text": "we can never paint the surface",
+        "start": 939.44,
+        "duration": 3.519
+    },
+    {
+        "text": "because the surface area is infinite.",
+        "start": 942.959,
+        "duration": 3.521
+    },
+    {
+        "text": "And that is the painter's paradox.",
+        "start": 946.48,
+        "duration": 2.806
+    },
+    {
+        "text": "(And you're talking about\njust one face of)",
+        "start": 949.286,
+        "duration": 1.993
+    },
+    {
+        "text": "(the surface too, you're just talking)",
+        "start": 951.279,
+        "duration": 1.281
+    },
+    {
+        "text": "(about the outer face.)\n- Yes, this is just",
+        "start": 952.56,
+        "duration": 2.079
+    },
+    {
+        "text": "the outer face yeah.",
+        "start": 954.639,
+        "duration": 1.041
+    },
+    {
+        "text": "So if it's really really thin then the",
+        "start": 955.68,
+        "duration": 2.399
+    },
+    {
+        "text": "inner surface area would be the same,",
+        "start": 958.079,
+        "duration": 2.0
+    },
+    {
+        "text": "so it's almost like doubly infinite!",
+        "start": 960.079,
+        "duration": 2.241
+    },
+    {
+        "text": "(So if the inner surface\narea is the same,)",
+        "start": 962.32,
+        "duration": 1.84
+    },
+    {
+        "text": "(when I poured in that pi litres of paint)",
+        "start": 964.16,
+        "duration": 2.32
+    },
+    {
+        "text": "(hadn't I not automatically painted all)",
+        "start": 966.48,
+        "duration": 1.599
+    },
+    {
+        "text": "(the surface area?)",
+        "start": 968.079,
+        "duration": 1.44
+    },
+    {
+        "text": "That's the paradox I think. I tried to",
+        "start": 969.519,
+        "duration": 2.88
+    },
+    {
+        "text": "think about that and there was like-",
+        "start": 972.399,
+        "duration": 2.0
+    },
+    {
+        "text": "I think that's the paradox. It's quite",
+        "start": 974.399,
+        "duration": 1.601
+    },
+    {
+        "text": "neat, if you're really into your",
+        "start": 976.0,
+        "duration": 2.0
+    },
+    {
+        "text": "your technical maths it's quite neat.",
+        "start": 978.0,
+        "duration": 2.16
+    },
+    {
+        "text": "Because it all relies on the fact that",
+        "start": 980.16,
+        "duration": 1.28
+    },
+    {
+        "text": "the volume",
+        "start": 981.44,
+        "duration": 0.959
+    },
+    {
+        "text": "looks like 1 over x squared and the",
+        "start": 982.399,
+        "duration": 3.36
+    },
+    {
+        "text": "surface area",
+        "start": 985.759,
+        "duration": 1.52
+    },
+    {
+        "text": "looks like 1 over x. That",
+        "start": 987.279,
+        "duration": 3.041
+    },
+    {
+        "text": "it's- that is the key. Because if if",
+        "start": 990.32,
+        "duration": 2.959
+    },
+    {
+        "text": "you've if you've done",
+        "start": 993.279,
+        "duration": 2.161
+    },
+    {
+        "text": "a reasonable amount of maths, perhaps",
+        "start": 995.44,
+        "duration": 1.6
+    },
+    {
+        "text": "university level,",
+        "start": 997.04,
+        "duration": 1.52
+    },
+    {
+        "text": "1 over x squared- so when you're doing an",
+        "start": 998.56,
+        "duration": 2.16
+    },
+    {
+        "text": "integral you're adding together lots of",
+        "start": 1000.72,
+        "duration": 1.2
+    },
+    {
+        "text": "pieces.",
+        "start": 1001.92,
+        "duration": 0.8
+    },
+    {
+        "text": "And if you add 1 over n squared",
+        "start": 1002.72,
+        "duration": 3.919
+    },
+    {
+        "text": "forever you get pi squared over 6. It's",
+        "start": 1006.639,
+        "duration": 2.961
+    },
+    {
+        "text": "called Basel's problem, it's a very",
+        "start": 1009.6,
+        "duration": 1.2
+    },
+    {
+        "text": "famous result.",
+        "start": 1010.8,
+        "duration": 0.88
+    },
+    {
+        "text": "But if you add 1 over n forever it",
+        "start": 1011.68,
+        "duration": 2.88
+    },
+    {
+        "text": "diverges,",
+        "start": 1014.56,
+        "duration": 0.959
+    },
+    {
+        "text": "it goes to infinity. And so Gabriel's",
+        "start": 1015.519,
+        "duration": 2.88
+    },
+    {
+        "text": "horn and the painter's paradox",
+        "start": 1018.399,
+        "duration": 1.921
+    },
+    {
+        "text": "is basically encapsulating the whole",
+        "start": 1020.32,
+        "duration": 3.28
+    },
+    {
+        "text": "behaviour",
+        "start": 1023.6,
+        "duration": 0.88
+    },
+    {
+        "text": "of 1 over n squared converging as a",
+        "start": 1024.48,
+        "duration": 2.8
+    },
+    {
+        "text": "series",
+        "start": 1027.28,
+        "duration": 0.799
+    },
+    {
+        "text": "versus 1 over n diverging.",
+        "start": 1028.079,
+        "duration": 3.261
+    },
+    {
+        "text": "Well I'm sure you won't be surprised to",
+        "start": 1032.64,
+        "duration": 1.76
+    },
+    {
+        "text": "see you can take this fantastic",
+        "start": 1034.4,
+        "duration": 2.159
+    },
+    {
+        "text": "interactive quiz about none other than",
+        "start": 1036.559,
+        "duration": 2.801
+    },
+    {
+        "text": "Gabriel's horn",
+        "start": 1039.36,
+        "duration": 1.199
+    },
+    {
+        "text": "here on Brilliant, which is today's",
+        "start": 1040.559,
+        "duration": 2.48
+    },
+    {
+        "text": "episode sponsor.",
+        "start": 1043.039,
+        "duration": 2.4
+    },
+    {
+        "text": "It's really comprehensive, as you can see.",
+        "start": 1045.439,
+        "duration": 2.721
+    },
+    {
+        "text": "This is part of Brilliant's",
+        "start": 1048.16,
+        "duration": 1.44
+    },
+    {
+        "text": "'Calculus in a Nutshell', one of many",
+        "start": 1049.6,
+        "duration": 2.88
+    },
+    {
+        "text": "courses on the site.",
+        "start": 1052.48,
+        "duration": 1.36
+    },
+    {
+        "text": "It covers all the classics, have a look",
+        "start": 1053.84,
+        "duration": 2.0
+    },
+    {
+        "text": "at that.",
+        "start": 1055.84,
+        "duration": 1.04
+    },
+    {
+        "text": "It's fun, superbly designed, as you'd",
+        "start": 1056.88,
+        "duration": 2.88
+    },
+    {
+        "text": "expect.",
+        "start": 1059.76,
+        "duration": 1.36
+    },
+    {
+        "text": "If you'd like to check it out along with",
+        "start": 1061.12,
+        "duration": 1.52
+    },
+    {
+        "text": "all the other mathematics and science",
+        "start": 1062.64,
+        "duration": 2.159
+    },
+    {
+        "text": "and other courses on Brilliant",
+        "start": 1064.799,
+        "duration": 1.521
+    },
+    {
+        "text": "go to brilliant.org/numberphile.",
+        "start": 1066.32,
+        "duration": 3.76
+    },
+    {
+        "text": "There's 20% off a premium subscription by",
+        "start": 1070.08,
+        "duration": 2.64
+    },
+    {
+        "text": "using that url.",
+        "start": 1072.72,
+        "duration": 1.28
+    },
+    {
+        "text": "There's always great new stuff popping",
+        "start": 1074.0,
+        "duration": 1.84
+    },
+    {
+        "text": "on the site, go and have a look:",
+        "start": 1075.84,
+        "duration": 2.04
+    },
+    {
+        "text": "brilliant.org/numberphile",
+        "start": 1077.88,
+        "duration": 3.0
+    },
+    {
+        "text": "[Extras] ...sort of come to terms with it,\nis to say, well- because one of the",
+        "start": 1083.06,
+        "duration": 3.18
+    },
+    {
+        "text": "arguments I've heard about this is to",
+        "start": 1086.24,
+        "duration": 1.439
+    },
+    {
+        "text": "say,",
+        "start": 1087.679,
+        "duration": 1.681
+    },
+    {
+        "text": "if I made it see-through then I could",
+        "start": 1089.36,
+        "duration": 3.439
+    },
+    {
+        "text": "fill it with paint and it would look",
+        "start": 1092.799,
+        "duration": 1.601
+    },
+    {
+        "text": "painted",
+        "start": 1094.4,
+        "duration": 1.04
+    },
+    {
+        "text": "from the outside. And again that's",
+        "start": 1095.44,
+        "duration": 1.92
+    },
+    {
+        "text": "paradox, it just",
+        "start": 1097.36,
+        "duration": 1.439
+    },
+    {
+        "text": "literally blows your mind.",
+        "start": 1098.799,
+        "duration": 2.88
+    }
+]

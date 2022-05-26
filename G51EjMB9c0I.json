@@ -1,0 +1,312 @@
+[
+    {
+        "text": "biggest limitations but also things that",
+        "start": 7.04,
+        "duration": 4.69
+    },
+    {
+        "text": "I'm most excited about terms of robotics",
+        "start": 9.54,
+        "duration": 4.05
+    },
+    {
+        "text": "is giving them the ability to see things",
+        "start": 11.73,
+        "duration": 4.5
+    },
+    {
+        "text": "and understand their environment our",
+        "start": 13.59,
+        "duration": 5.37
+    },
+    {
+        "text": "five human senses give us an amazing",
+        "start": 16.23,
+        "duration": 4.709
+    },
+    {
+        "text": "variety of information about the world",
+        "start": 18.96,
+        "duration": 4.53
+    },
+    {
+        "text": "but it's actually pretty challenging to",
+        "start": 20.939,
+        "duration": 5.191
+    },
+    {
+        "text": "duplicate that in a robot that's really",
+        "start": 23.49,
+        "duration": 4.92
+    },
+    {
+        "text": "the hard problem right now you know if",
+        "start": 26.13,
+        "duration": 4.319
+    },
+    {
+        "text": "you put on very thick glasses and",
+        "start": 28.41,
+        "duration": 3.989
+    },
+    {
+        "text": "mittens and you could barely see",
+        "start": 30.449,
+        "duration": 3.331
+    },
+    {
+        "text": "anything you probably are still better",
+        "start": 32.399,
+        "duration": 3.111
+    },
+    {
+        "text": "than our robots",
+        "start": 33.78,
+        "duration": 4.26
+    },
+    {
+        "text": "Chad Jenkins in his lab at Brown",
+        "start": 35.51,
+        "duration": 4.66
+    },
+    {
+        "text": "University do a lot of their research",
+        "start": 38.04,
+        "duration": 5.55
+    },
+    {
+        "text": "with a robot called the pr2 the pr2 has",
+        "start": 40.17,
+        "duration": 5.549
+    },
+    {
+        "text": "a number of sensing devices on it so it",
+        "start": 43.59,
+        "duration": 4.71
+    },
+    {
+        "text": "has a camera array right here the camera",
+        "start": 45.719,
+        "duration": 5.371
+    },
+    {
+        "text": "array features two stereo pairs so we",
+        "start": 48.3,
+        "duration": 4.649
+    },
+    {
+        "text": "have one for seeing depth and a narrow",
+        "start": 51.09,
+        "duration": 3.809
+    },
+    {
+        "text": "field of view and one for a wide field",
+        "start": 52.949,
+        "duration": 4.741
+    },
+    {
+        "text": "of view it seems pretty obvious that a",
+        "start": 54.899,
+        "duration": 5.191
+    },
+    {
+        "text": "robot could see with a camera and hear",
+        "start": 57.69,
+        "duration": 5.009
+    },
+    {
+        "text": "with a microphone but there's more to it",
+        "start": 60.09,
+        "duration": 4.54
+    },
+    {
+        "text": "than that",
+        "start": 62.699,
+        "duration": 4.431
+    },
+    {
+        "text": "perceiving the shape and distance of an",
+        "start": 64.63,
+        "duration": 5.29
+    },
+    {
+        "text": "object is a surprisingly complicated and",
+        "start": 67.13,
+        "duration": 4.89
+    },
+    {
+        "text": "important problem to solve an",
+        "start": 69.92,
+        "duration": 3.96
+    },
+    {
+        "text": "alternative way for you to see depth in",
+        "start": 72.02,
+        "duration": 4.5
+    },
+    {
+        "text": "images is to use essentially a camera",
+        "start": 73.88,
+        "duration": 4.98
+    },
+    {
+        "text": "with a projector display so that",
+        "start": 76.52,
+        "duration": 3.96
+    },
+    {
+        "text": "projector display will come on",
+        "start": 78.86,
+        "duration": 3.54
+    },
+    {
+        "text": "so that textured light when projected on",
+        "start": 80.48,
+        "duration": 3.66
+    },
+    {
+        "text": "to a variety of different objects lets",
+        "start": 82.4,
+        "duration": 3.69
+    },
+    {
+        "text": "you infer the depth of those objects",
+        "start": 84.14,
+        "duration": 3.3
+    },
+    {
+        "text": "well you know what pattern you're",
+        "start": 86.09,
+        "duration": 3.09
+    },
+    {
+        "text": "expecting and so you can see what that",
+        "start": 87.44,
+        "duration": 3.75
+    },
+    {
+        "text": "pattern looks like when when put on",
+        "start": 89.18,
+        "duration": 4.29
+    },
+    {
+        "text": "various objects a more elegant device",
+        "start": 91.19,
+        "duration": 4.02
+    },
+    {
+        "text": "for doing this is the Microsoft Kinect",
+        "start": 93.47,
+        "duration": 3.69
+    },
+    {
+        "text": "that also projects a non-visible",
+        "start": 95.21,
+        "duration": 4.8
+    },
+    {
+        "text": "infrared light pattern out and you said",
+        "start": 97.16,
+        "duration": 4.77
+    },
+    {
+        "text": "it gives you a very nice 3d point cloud",
+        "start": 100.01,
+        "duration": 3.66
+    },
+    {
+        "text": "and we use that to be able to perceive",
+        "start": 101.93,
+        "duration": 4.23
+    },
+    {
+        "text": "objects on tabletops we also can use the",
+        "start": 103.67,
+        "duration": 4.62
+    },
+    {
+        "text": "laser scanner here which tilts up and",
+        "start": 106.16,
+        "duration": 4.32
+    },
+    {
+        "text": "down probably least useful but still",
+        "start": 108.29,
+        "duration": 5.07
+    },
+    {
+        "text": "really cool is a forearm camera and that",
+        "start": 110.48,
+        "duration": 4.47
+    },
+    {
+        "text": "form camera is useful for being able to",
+        "start": 113.36,
+        "duration": 3.03
+    },
+    {
+        "text": "do things like knowing when you graph",
+        "start": 114.95,
+        "duration": 3.06
+    },
+    {
+        "text": "something you know seeing what the hand",
+        "start": 116.39,
+        "duration": 4.29
+    },
+    {
+        "text": "is actually doing there are lots of",
+        "start": 118.01,
+        "duration": 3.93
+    },
+    {
+        "text": "things that we'd like to be able to have",
+        "start": 120.68,
+        "duration": 3.15
+    },
+    {
+        "text": "for our robot in terms of sensing the",
+        "start": 121.94,
+        "duration": 4.62
+    },
+    {
+        "text": "full complement of what humans have that",
+        "start": 123.83,
+        "duration": 4.8
+    },
+    {
+        "text": "includes temperature and maybe taste",
+        "start": 126.56,
+        "duration": 5.01
+    },
+    {
+        "text": "maybe smell better understanding of its",
+        "start": 128.63,
+        "duration": 4.68
+    },
+    {
+        "text": "environment but one thing that I would",
+        "start": 131.57,
+        "duration": 3.48
+    },
+    {
+        "text": "also say with robot sensing that makes",
+        "start": 133.31,
+        "duration": 3.48
+    },
+    {
+        "text": "it different is that when things are",
+        "start": 135.05,
+        "duration": 4.11
+    },
+    {
+        "text": "detected or recognized they're",
+        "start": 136.79,
+        "duration": 6.08
+    },
+    {
+        "text": "recognized very precisely and accurately",
+        "start": 139.16,
+        "duration": 3.71
+    }
+]

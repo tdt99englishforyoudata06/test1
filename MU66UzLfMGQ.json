@@ -1,0 +1,1487 @@
+[
+    {
+        "text": "hi everyone welcome to today's episode",
+        "start": 0.05,
+        "duration": 5.38
+    },
+    {
+        "text": "of your daily equation and today I'm",
+        "start": 2.939,
+        "duration": 6.66
+    },
+    {
+        "text": "gonna focus upon an equation that I feel",
+        "start": 5.43,
+        "duration": 7.289
+    },
+    {
+        "text": "doesn't get enough air time when people",
+        "start": 9.599,
+        "duration": 5.431
+    },
+    {
+        "text": "talk about the strangeness of space and",
+        "start": 12.719,
+        "duration": 5.881
+    },
+    {
+        "text": "time and relativity because it's an",
+        "start": 15.03,
+        "duration": 6.15
+    },
+    {
+        "text": "equation that directly addresses the",
+        "start": 18.6,
+        "duration": 5.099
+    },
+    {
+        "text": "kind of question that I at least have",
+        "start": 21.18,
+        "duration": 4.65
+    },
+    {
+        "text": "asked all the time by people who",
+        "start": 23.699,
+        "duration": 4.531
+    },
+    {
+        "text": "encounter these strange ideas especially",
+        "start": 25.83,
+        "duration": 5.189
+    },
+    {
+        "text": "the idea of the constant nature of the",
+        "start": 28.23,
+        "duration": 5.64
+    },
+    {
+        "text": "speed of light because look we all have",
+        "start": 31.019,
+        "duration": 6.601
+    },
+    {
+        "text": "in our ingrained intuition the following",
+        "start": 33.87,
+        "duration": 4.98
+    },
+    {
+        "text": "fact right",
+        "start": 37.62,
+        "duration": 4.17
+    },
+    {
+        "text": "if you run toward an object that's",
+        "start": 38.85,
+        "duration": 4.68
+    },
+    {
+        "text": "approaching you it will approach you",
+        "start": 41.79,
+        "duration": 4.17
+    },
+    {
+        "text": "faster and if you run away from an",
+        "start": 43.53,
+        "duration": 4.32
+    },
+    {
+        "text": "object that's approaching you it will",
+        "start": 45.96,
+        "duration": 5.099
+    },
+    {
+        "text": "approach you slower right and yet we",
+        "start": 47.85,
+        "duration": 6.029
+    },
+    {
+        "text": "know that that intuition cannot be",
+        "start": 51.059,
+        "duration": 5.941
+    },
+    {
+        "text": "completely true because if the object",
+        "start": 53.879,
+        "duration": 4.651
+    },
+    {
+        "text": "that's approaching you is a beam of",
+        "start": 57.0,
+        "duration": 3.09
+    },
+    {
+        "text": "light then that would suggest that by",
+        "start": 58.53,
+        "duration": 2.88
+    },
+    {
+        "text": "running toward it you could make the",
+        "start": 60.09,
+        "duration": 3.959
+    },
+    {
+        "text": "speed of approach faster than the speed",
+        "start": 61.41,
+        "duration": 3.3
+    },
+    {
+        "text": "of light",
+        "start": 64.049,
+        "duration": 2.971
+    },
+    {
+        "text": "and if you run away from the approaching",
+        "start": 64.71,
+        "duration": 3.9
+    },
+    {
+        "text": "beam it should make the speed of",
+        "start": 67.02,
+        "duration": 4.26
+    },
+    {
+        "text": "approach slower but the constant nature",
+        "start": 68.61,
+        "duration": 4.29
+    },
+    {
+        "text": "of the speed of light says that that",
+        "start": 71.28,
+        "duration": 5.129
+    },
+    {
+        "text": "can't be true so how do we reconcile",
+        "start": 72.9,
+        "duration": 7.649
+    },
+    {
+        "text": "these ideas and today's rather beautiful",
+        "start": 76.409,
+        "duration": 7.261
+    },
+    {
+        "text": "and simple mathematical equation will",
+        "start": 80.549,
+        "duration": 5.761
+    },
+    {
+        "text": "show us how I'm Stein's theory copes",
+        "start": 83.67,
+        "duration": 5.79
+    },
+    {
+        "text": "with this tension and makes complete",
+        "start": 86.31,
+        "duration": 6.3
+    },
+    {
+        "text": "sense of it ok so let's jump right in",
+        "start": 89.46,
+        "duration": 6.18
+    },
+    {
+        "text": "and I'll begin with a little again kind",
+        "start": 92.61,
+        "duration": 6.66
+    },
+    {
+        "text": "of silly story that just gets our mind",
+        "start": 95.64,
+        "duration": 6.75
+    },
+    {
+        "text": "in the right perspective for the ideas",
+        "start": 99.27,
+        "duration": 4.529
+    },
+    {
+        "text": "that we're discussing so what is the",
+        "start": 102.39,
+        "duration": 3.57
+    },
+    {
+        "text": "story so imagine that there's a nice",
+        "start": 103.799,
+        "duration": 5.061
+    },
+    {
+        "text": "little game of catch happening between",
+        "start": 105.96,
+        "duration": 5.28
+    },
+    {
+        "text": "George and Gracie and say George's",
+        "start": 108.86,
+        "duration": 4.119
+    },
+    {
+        "text": "throwing that football toward Gracie at",
+        "start": 111.24,
+        "duration": 4.44
+    },
+    {
+        "text": "5 meters per second then Gracie receives",
+        "start": 112.979,
+        "duration": 4.771
+    },
+    {
+        "text": "it at 5 meters per second nothing tricky",
+        "start": 115.68,
+        "duration": 4.59
+    },
+    {
+        "text": "about that but now imagine the next day",
+        "start": 117.75,
+        "duration": 6.509
+    },
+    {
+        "text": "George comes out with not a football but",
+        "start": 120.27,
+        "duration": 7.11
+    },
+    {
+        "text": "an egg and Gracie is not fond of playing",
+        "start": 124.259,
+        "duration": 6.601
+    },
+    {
+        "text": "catch with eggs so what does she do she",
+        "start": 127.38,
+        "duration": 6.16
+    },
+    {
+        "text": "turns and runs because of that intuition",
+        "start": 130.86,
+        "duration": 5.379
+    },
+    {
+        "text": "by running away the speed of approach of",
+        "start": 133.54,
+        "duration": 5.91
+    },
+    {
+        "text": "the egg will be lessened it will be made",
+        "start": 136.239,
+        "duration": 5.491
+    },
+    {
+        "text": "smaller indeed putting some numbers",
+        "start": 139.45,
+        "duration": 5.22
+    },
+    {
+        "text": "behind it if the egg is flying in the",
+        "start": 141.73,
+        "duration": 4.95
+    },
+    {
+        "text": "horizontal direction toward Gracie at",
+        "start": 144.67,
+        "duration": 3.239
+    },
+    {
+        "text": "five meters per second",
+        "start": 146.68,
+        "duration": 3.75
+    },
+    {
+        "text": "and she runs away say three minutes per",
+        "start": 147.909,
+        "duration": 5.791
+    },
+    {
+        "text": "second and we all know in our intuition",
+        "start": 150.43,
+        "duration": 5.55
+    },
+    {
+        "text": "that the egg should be approaching her",
+        "start": 153.7,
+        "duration": 6.119
+    },
+    {
+        "text": "with a net speed of two meters per",
+        "start": 155.98,
+        "duration": 6.659
+    },
+    {
+        "text": "second and in the reverse situation - if",
+        "start": 159.819,
+        "duration": 7.801
+    },
+    {
+        "text": "Gracie loved playing catch with eggs and",
+        "start": 162.639,
+        "duration": 7.74
+    },
+    {
+        "text": "couldn't resist the wait for the egg to",
+        "start": 167.62,
+        "duration": 5.94
+    },
+    {
+        "text": "reach her and she ran toward George at",
+        "start": 170.379,
+        "duration": 5.071
+    },
+    {
+        "text": "say the same speed three meters per",
+        "start": 173.56,
+        "duration": 4.579
+    },
+    {
+        "text": "second then we all have in our tuition",
+        "start": 175.45,
+        "duration": 7.2
+    },
+    {
+        "text": "that the egg would approach her at five",
+        "start": 178.139,
+        "duration": 7.03
+    },
+    {
+        "text": "plus three meters per second or eight",
+        "start": 182.65,
+        "duration": 6.149
+    },
+    {
+        "text": "meters per second and the tension then",
+        "start": 185.169,
+        "duration": 6.171
+    },
+    {
+        "text": "comes in when we think about these ideas",
+        "start": 188.799,
+        "duration": 5.851
+    },
+    {
+        "text": "apply to the speed of light so let me",
+        "start": 191.34,
+        "duration": 8.38
+    },
+    {
+        "text": "show you that let me bring up my iPad",
+        "start": 194.65,
+        "duration": 7.589
+    },
+    {
+        "text": "here so what's the basic formula that",
+        "start": 199.72,
+        "duration": 5.579
+    },
+    {
+        "text": "Gracie and George and we are making use",
+        "start": 202.239,
+        "duration": 5.61
+    },
+    {
+        "text": "of the basic formula is that if an",
+        "start": 205.299,
+        "duration": 6.3
+    },
+    {
+        "text": "object is approaching you say at V",
+        "start": 207.849,
+        "duration": 5.941
+    },
+    {
+        "text": "meters per second when you are",
+        "start": 211.599,
+        "duration": 5.06
+    },
+    {
+        "text": "stationary and if you run away from it",
+        "start": 213.79,
+        "duration": 7.05
+    },
+    {
+        "text": "then if you run at a speed W with",
+        "start": 216.659,
+        "duration": 6.341
+    },
+    {
+        "text": "respect to the ground say that initial",
+        "start": 220.84,
+        "duration": 5.28
+    },
+    {
+        "text": "frame of reference then the - W this",
+        "start": 223.0,
+        "duration": 8.639
+    },
+    {
+        "text": "should be the speed of approach in that",
+        "start": 226.12,
+        "duration": 7.829
+    },
+    {
+        "text": "circumstance and the reverse that I also",
+        "start": 231.639,
+        "duration": 4.651
+    },
+    {
+        "text": "mentioned if the objects of the egg is",
+        "start": 233.949,
+        "duration": 3.9
+    },
+    {
+        "text": "approaching at a speed V and you run",
+        "start": 236.29,
+        "duration": 8.159
+    },
+    {
+        "text": "toward it with a speed W then you should",
+        "start": 237.849,
+        "duration": 8.79
+    },
+    {
+        "text": "have a net speed of approach of V plus W",
+        "start": 244.449,
+        "duration": 5.07
+    },
+    {
+        "text": "and the tension that I'm mentioning just",
+        "start": 246.639,
+        "duration": 5.19
+    },
+    {
+        "text": "to make it explicit is what if you don't",
+        "start": 249.519,
+        "duration": 4.261
+    },
+    {
+        "text": "have a football you don't have an egg",
+        "start": 251.829,
+        "duration": 4.08
+    },
+    {
+        "text": "but rather you say have a beam of light",
+        "start": 253.78,
+        "duration": 4.919
+    },
+    {
+        "text": "so now the initial speed of approach is",
+        "start": 255.909,
+        "duration": 5.791
+    },
+    {
+        "text": "C in both of these cases and if you run",
+        "start": 258.699,
+        "duration": 6.391
+    },
+    {
+        "text": "away or run toward the beam of light",
+        "start": 261.7,
+        "duration": 5.43
+    },
+    {
+        "text": "with the speed W",
+        "start": 265.09,
+        "duration": 4.41
+    },
+    {
+        "text": "then the speed of approach from this",
+        "start": 267.13,
+        "duration": 5.58
+    },
+    {
+        "text": "reasoning should be C minus W which",
+        "start": 269.5,
+        "duration": 6.57
+    },
+    {
+        "text": "would be of course less than C or C plus",
+        "start": 272.71,
+        "duration": 7.14
+    },
+    {
+        "text": "W run toward the beam of light and that",
+        "start": 276.07,
+        "duration": 6.54
+    },
+    {
+        "text": "of course is greater than C and that's",
+        "start": 279.85,
+        "duration": 4.8
+    },
+    {
+        "text": "the problem speeds less than the speed",
+        "start": 282.61,
+        "duration": 3.45
+    },
+    {
+        "text": "of light or speed greater than speed of",
+        "start": 284.65,
+        "duration": 4.92
+    },
+    {
+        "text": "light when you are encountering a beam",
+        "start": 286.06,
+        "duration": 5.19
+    },
+    {
+        "text": "of light whose speed is meant to be",
+        "start": 289.57,
+        "duration": 5.85
+    },
+    {
+        "text": "constant independent of your motions how",
+        "start": 291.25,
+        "duration": 6.96
+    },
+    {
+        "text": "do we make sense of this well the basic",
+        "start": 295.42,
+        "duration": 7.28
+    },
+    {
+        "text": "idea that Einstein tells us is that even",
+        "start": 298.21,
+        "duration": 8.01
+    },
+    {
+        "text": "this very simple formula that we're all",
+        "start": 302.7,
+        "duration": 7.18
+    },
+    {
+        "text": "familiar with from elementary physics or",
+        "start": 306.22,
+        "duration": 6.96
+    },
+    {
+        "text": "even just elementary logic is actually",
+        "start": 309.88,
+        "duration": 7.05
+    },
+    {
+        "text": "wrong it works really well at speeds",
+        "start": 313.18,
+        "duration": 5.34
+    },
+    {
+        "text": "that are much less than the speed of",
+        "start": 316.93,
+        "duration": 4.02
+    },
+    {
+        "text": "light and that's why we all hold it in",
+        "start": 318.52,
+        "duration": 4.77
+    },
+    {
+        "text": "our intuition but Einstein actually",
+        "start": 320.95,
+        "duration": 4.68
+    },
+    {
+        "text": "taught us that each of these formula",
+        "start": 323.29,
+        "duration": 5.07
+    },
+    {
+        "text": "needs a correction let me show you what",
+        "start": 325.63,
+        "duration": 5.37
+    },
+    {
+        "text": "the correction is is that is today's",
+        "start": 328.36,
+        "duration": 7.16
+    },
+    {
+        "text": "daily equation so instead of V minus W",
+        "start": 331.0,
+        "duration": 7.23
+    },
+    {
+        "text": "Einstein says that the correct formula",
+        "start": 335.52,
+        "duration": 4.57
+    },
+    {
+        "text": "of the speed of approach if you're",
+        "start": 338.23,
+        "duration": 3.84
+    },
+    {
+        "text": "running away from the object at speed",
+        "start": 340.09,
+        "duration": 3.63
+    },
+    {
+        "text": "that has been being you're running away",
+        "start": 342.07,
+        "duration": 7.22
+    },
+    {
+        "text": "s VW is corrected by 1 minus V times W",
+        "start": 343.72,
+        "duration": 9.59
+    },
+    {
+        "text": "divided by C squared and the V plus W",
+        "start": 349.29,
+        "duration": 7.03
+    },
+    {
+        "text": "formula gets a very similar correction",
+        "start": 353.31,
+        "duration": 5.74
+    },
+    {
+        "text": "and that correction just has the other",
+        "start": 356.32,
+        "duration": 4.41
+    },
+    {
+        "text": "sign in fact you could do these all",
+        "start": 359.05,
+        "duration": 5.22
+    },
+    {
+        "text": "together with one formula that just had",
+        "start": 360.73,
+        "duration": 5.22
+    },
+    {
+        "text": "the plus sign if you love the speeds",
+        "start": 364.27,
+        "duration": 3.87
+    },
+    {
+        "text": "have positive and negative values but",
+        "start": 365.95,
+        "duration": 3.96
+    },
+    {
+        "text": "let me just keep it simple and imagine",
+        "start": 368.14,
+        "duration": 3.12
+    },
+    {
+        "text": "that all the speeds involved are",
+        "start": 369.91,
+        "duration": 3.93
+    },
+    {
+        "text": "positive being W positive numbers so",
+        "start": 371.26,
+        "duration": 5.72
+    },
+    {
+        "text": "these are the formula they're",
+        "start": 373.84,
+        "duration": 6.48
+    },
+    {
+        "text": "effectively the same formula just with",
+        "start": 376.98,
+        "duration": 6.67
+    },
+    {
+        "text": "the two cases that we are writing down",
+        "start": 380.32,
+        "duration": 7.46
+    },
+    {
+        "text": "separately and that is the so-called",
+        "start": 383.65,
+        "duration": 8.25
+    },
+    {
+        "text": "relativistic velocity combination law",
+        "start": 387.78,
+        "duration": 6.76
+    },
+    {
+        "text": "and now let me just show you how this",
+        "start": 391.9,
+        "duration": 8.25
+    },
+    {
+        "text": "works if for example you are taking V to",
+        "start": 394.54,
+        "duration": 6.45
+    },
+    {
+        "text": "be equal to",
+        "start": 400.15,
+        "duration": 3.9
+    },
+    {
+        "text": "see now you're not throwing the egg or",
+        "start": 400.99,
+        "duration": 5.04
+    },
+    {
+        "text": "the football but you're throwing or",
+        "start": 404.05,
+        "duration": 5.489
+    },
+    {
+        "text": "shining perhaps is a better word a beam",
+        "start": 406.03,
+        "duration": 7.229
+    },
+    {
+        "text": "of light so the case where you run away",
+        "start": 409.539,
+        "duration": 5.731
+    },
+    {
+        "text": "Gracie say runs away from the beam of",
+        "start": 413.259,
+        "duration": 6.03
+    },
+    {
+        "text": "light we give a C minus W over 1 minus C",
+        "start": 415.27,
+        "duration": 8.22
+    },
+    {
+        "text": "times W over C squared and what does",
+        "start": 419.289,
+        "duration": 4.951
+    },
+    {
+        "text": "that equal",
+        "start": 423.49,
+        "duration": 4.59
+    },
+    {
+        "text": "well look we can write this as C minus W",
+        "start": 424.24,
+        "duration": 8.34
+    },
+    {
+        "text": "over 1 minus W over C and we can write",
+        "start": 428.08,
+        "duration": 6.809
+    },
+    {
+        "text": "that as C times just pull out a see",
+        "start": 432.58,
+        "duration": 6.99
+    },
+    {
+        "text": "upstairs 1 minus W over C divided by 1",
+        "start": 434.889,
+        "duration": 7.981
+    },
+    {
+        "text": "minus W over C and now you see that that",
+        "start": 439.57,
+        "duration": 5.969
+    },
+    {
+        "text": "1 minus W over C factor cancels in the",
+        "start": 442.87,
+        "duration": 5.16
+    },
+    {
+        "text": "top and the bottom and that then gives",
+        "start": 445.539,
+        "duration": 6.901
+    },
+    {
+        "text": "us the net result is equal to C that's",
+        "start": 448.03,
+        "duration": 8.04
+    },
+    {
+        "text": "that's fantastic so by running away from",
+        "start": 452.44,
+        "duration": 5.159
+    },
+    {
+        "text": "the beam of light Gracie does not",
+        "start": 456.07,
+        "duration": 3.839
+    },
+    {
+        "text": "decrease the speed of approach of the",
+        "start": 457.599,
+        "duration": 4.16
+    },
+    {
+        "text": "light this correction factor that",
+        "start": 459.909,
+        "duration": 5.19
+    },
+    {
+        "text": "Einstein gives us over here has this",
+        "start": 461.759,
+        "duration": 7.181
+    },
+    {
+        "text": "wonderful effect of ensuring that the",
+        "start": 465.099,
+        "duration": 6.901
+    },
+    {
+        "text": "combined velocity is still equal to C",
+        "start": 468.94,
+        "duration": 4.979
+    },
+    {
+        "text": "and as you can imagine and I don't even",
+        "start": 472.0,
+        "duration": 3.87
+    },
+    {
+        "text": "need to go through it I can just put",
+        "start": 473.919,
+        "duration": 4.771
+    },
+    {
+        "text": "plus signs in here if Gracie was running",
+        "start": 475.87,
+        "duration": 6.479
+    },
+    {
+        "text": "toward the beam of light all the",
+        "start": 478.69,
+        "duration": 5.88
+    },
+    {
+        "text": "analysis would have a plus there and",
+        "start": 482.349,
+        "duration": 4.5
+    },
+    {
+        "text": "you'd again have this cancellation and",
+        "start": 484.57,
+        "duration": 5.939
+    },
+    {
+        "text": "you get speed of light again as your",
+        "start": 486.849,
+        "duration": 5.971
+    },
+    {
+        "text": "result if grace is running toward the",
+        "start": 490.509,
+        "duration": 5.041
+    },
+    {
+        "text": "oncoming beam of light that George",
+        "start": 492.82,
+        "duration": 6.0
+    },
+    {
+        "text": "shines at her now that's the special",
+        "start": 495.55,
+        "duration": 5.28
+    },
+    {
+        "text": "case where V is equal to C it's fun to",
+        "start": 498.82,
+        "duration": 4.469
+    },
+    {
+        "text": "use this formula even in other",
+        "start": 500.83,
+        "duration": 6.3
+    },
+    {
+        "text": "circumstances imagine that you have an",
+        "start": 503.289,
+        "duration": 7.581
+    },
+    {
+        "text": "object that is being fired at you say at",
+        "start": 507.13,
+        "duration": 7.529
+    },
+    {
+        "text": "3/4 the speed of light and let's say you",
+        "start": 510.87,
+        "duration": 7.0
+    },
+    {
+        "text": "run toward it at 3/4 the speed of light",
+        "start": 514.659,
+        "duration": 5.221
+    },
+    {
+        "text": "just sort of for the fun of it",
+        "start": 517.87,
+        "duration": 4.979
+    },
+    {
+        "text": "now you're naive classical intuition",
+        "start": 519.88,
+        "duration": 5.16
+    },
+    {
+        "text": "would tell you that the net speed from",
+        "start": 522.849,
+        "duration": 5.191
+    },
+    {
+        "text": "your perspective would be 3/4 the speed",
+        "start": 525.04,
+        "duration": 5.4
+    },
+    {
+        "text": "of light plus 3/4 of the speed of light",
+        "start": 528.04,
+        "duration": 4.02
+    },
+    {
+        "text": "it's coming toward you and you're",
+        "start": 530.44,
+        "duration": 3.63
+    },
+    {
+        "text": "running toward it the speeds would",
+        "start": 532.06,
+        "duration": 2.49
+    },
+    {
+        "text": "combine",
+        "start": 534.07,
+        "duration": 2.07
+    },
+    {
+        "text": "in the intuitive way of doing these",
+        "start": 534.55,
+        "duration": 3.78
+    },
+    {
+        "text": "kinds of calculations but of course that",
+        "start": 536.14,
+        "duration": 4.11
+    },
+    {
+        "text": "number would be six quarters of the",
+        "start": 538.33,
+        "duration": 3.3
+    },
+    {
+        "text": "speed of light that's bigger than the",
+        "start": 540.25,
+        "duration": 3.839
+    },
+    {
+        "text": "speed of light problem well what does",
+        "start": 541.63,
+        "duration": 4.709
+    },
+    {
+        "text": "Einstein do he says hang on you need to",
+        "start": 544.089,
+        "duration": 6.241
+    },
+    {
+        "text": "correct this by 1 plus VW over C squared",
+        "start": 546.339,
+        "duration": 10.201
+    },
+    {
+        "text": "VW now is 3/4 C times 3/4 of C divided",
+        "start": 550.33,
+        "duration": 9.09
+    },
+    {
+        "text": "by C squared and now we can work this",
+        "start": 556.54,
+        "duration": 6.21
+    },
+    {
+        "text": "out upstairs we have the offending six",
+        "start": 559.42,
+        "duration": 6.45
+    },
+    {
+        "text": "quarters of the speed of light but what",
+        "start": 562.75,
+        "duration": 5.55
+    },
+    {
+        "text": "if we get downstairs downstairs we get",
+        "start": 565.87,
+        "duration": 7.62
+    },
+    {
+        "text": "one plus 3/4 times 3/4 is 9 over 16 and",
+        "start": 568.3,
+        "duration": 8.729
+    },
+    {
+        "text": "the C Squared's cancel so we get six",
+        "start": 573.49,
+        "duration": 8.339
+    },
+    {
+        "text": "quarters C times what's 1 plus 9 over 16",
+        "start": 577.029,
+        "duration": 8.971
+    },
+    {
+        "text": "well this guy over here just gives us 16",
+        "start": 581.829,
+        "duration": 8.151
+    },
+    {
+        "text": "over 16 plus 9 over 16 which is 25 over",
+        "start": 586.0,
+        "duration": 6.87
+    },
+    {
+        "text": "16 which we can bring that upstairs as",
+        "start": 589.98,
+        "duration": 7.93
+    },
+    {
+        "text": "16 over 25 and now the 4 goes in here",
+        "start": 592.87,
+        "duration": 7.409
+    },
+    {
+        "text": "and we get 2000 I left out the C we get",
+        "start": 597.91,
+        "duration": 7.919
+    },
+    {
+        "text": "24 over 25 times C less than the speed",
+        "start": 600.279,
+        "duration": 8.041
+    },
+    {
+        "text": "of light so the offensive term six",
+        "start": 605.829,
+        "duration": 3.991
+    },
+    {
+        "text": "quarters time the speed of light is",
+        "start": 608.32,
+        "duration": 4.59
+    },
+    {
+        "text": "reduced by the correction factor to 24",
+        "start": 609.82,
+        "duration": 5.82
+    },
+    {
+        "text": "over 25 times the speed of light less",
+        "start": 612.91,
+        "duration": 5.88
+    },
+    {
+        "text": "than C and that will always be the case",
+        "start": 615.64,
+        "duration": 6.93
+    },
+    {
+        "text": "whatever numbers you put in to this",
+        "start": 618.79,
+        "duration": 5.85
+    },
+    {
+        "text": "relativistic velocity combination",
+        "start": 622.57,
+        "duration": 5.04
+    },
+    {
+        "text": "formula it will always yield a net speed",
+        "start": 624.64,
+        "duration": 6.33
+    },
+    {
+        "text": "from your perspective from say Gracie's",
+        "start": 627.61,
+        "duration": 6.539
+    },
+    {
+        "text": "perspective that is less than the speed",
+        "start": 630.97,
+        "duration": 6.179
+    },
+    {
+        "text": "of light regardless of the speeds that",
+        "start": 634.149,
+        "duration": 5.221
+    },
+    {
+        "text": "are put into that format as long as each",
+        "start": 637.149,
+        "duration": 5.25
+    },
+    {
+        "text": "such speed is less than or equal to the",
+        "start": 639.37,
+        "duration": 4.98
+    },
+    {
+        "text": "speed of light so it's a beautiful",
+        "start": 642.399,
+        "duration": 4.981
+    },
+    {
+        "text": "formula and it shows us it actually",
+        "start": 644.35,
+        "duration": 4.83
+    },
+    {
+        "text": "shows us indeed just going back to the",
+        "start": 647.38,
+        "duration": 4.769
+    },
+    {
+        "text": "initial little scenario that we start",
+        "start": 649.18,
+        "duration": 5.58
+    },
+    {
+        "text": "with with George and Gracie say with the",
+        "start": 652.149,
+        "duration": 5.43
+    },
+    {
+        "text": "egg so in that case in fact let me just",
+        "start": 654.76,
+        "duration": 4.319
+    },
+    {
+        "text": "bring this up for the heck of it because",
+        "start": 657.579,
+        "duration": 3.721
+    },
+    {
+        "text": "it's kind of fun to see so in that",
+        "start": 659.079,
+        "duration": 7.141
+    },
+    {
+        "text": "particular case we had V equals 2/5 not",
+        "start": 661.3,
+        "duration": 5.469
+    },
+    {
+        "text": "going to put",
+        "start": 666.22,
+        "duration": 4.57
+    },
+    {
+        "text": "units in and W say was equal to three",
+        "start": 666.769,
+        "duration": 5.97
+    },
+    {
+        "text": "and we did this little calculation that",
+        "start": 670.79,
+        "duration": 5.13
+    },
+    {
+        "text": "five minus three equals two I'll put it",
+        "start": 672.739,
+        "duration": 5.13
+    },
+    {
+        "text": "in meters per second meters per second",
+        "start": 675.92,
+        "duration": 3.599
+    },
+    {
+        "text": "looks funny to me otherwise meters per",
+        "start": 677.869,
+        "duration": 4.47
+    },
+    {
+        "text": "second meters per second so that was the",
+        "start": 679.519,
+        "duration": 4.92
+    },
+    {
+        "text": "calculation that we did in everyday life",
+        "start": 682.339,
+        "duration": 3.9
+    },
+    {
+        "text": "but Einsteins telling us even in",
+        "start": 684.439,
+        "duration": 4.95
+    },
+    {
+        "text": "everyday life you need to include this",
+        "start": 686.239,
+        "duration": 6.6
+    },
+    {
+        "text": "correction so what is the actual speed",
+        "start": 689.389,
+        "duration": 6.06
+    },
+    {
+        "text": "of the approaching egg from Gracie's",
+        "start": 692.839,
+        "duration": 5.4
+    },
+    {
+        "text": "perspective well you do five minus three",
+        "start": 695.449,
+        "duration": 6.42
+    },
+    {
+        "text": "meters per second upstairs but now you",
+        "start": 698.239,
+        "duration": 7.2
+    },
+    {
+        "text": "must divide by one minus five meters per",
+        "start": 701.869,
+        "duration": 6.601
+    },
+    {
+        "text": "second times three meters per second",
+        "start": 705.439,
+        "duration": 5.52
+    },
+    {
+        "text": "divided by the speed of light squared",
+        "start": 708.47,
+        "duration": 4.829
+    },
+    {
+        "text": "which of course in meters per second is",
+        "start": 710.959,
+        "duration": 5.37
+    },
+    {
+        "text": "a nice big number three times 10 to the",
+        "start": 713.299,
+        "duration": 5.64
+    },
+    {
+        "text": "eighth meters per second so what is this",
+        "start": 716.329,
+        "duration": 3.72
+    },
+    {
+        "text": "correction factor",
+        "start": 718.939,
+        "duration": 3.33
+    },
+    {
+        "text": "well the correction factor is of course",
+        "start": 720.049,
+        "duration": 5.4
+    },
+    {
+        "text": "quite small or I should say differs from",
+        "start": 722.269,
+        "duration": 5.97
+    },
+    {
+        "text": "one by a little bit it's one minus this",
+        "start": 725.449,
+        "duration": 5.64
+    },
+    {
+        "text": "really tiny number that we have over",
+        "start": 728.239,
+        "duration": 5.82
+    },
+    {
+        "text": "here which you know C squared is you",
+        "start": 731.089,
+        "duration": 5.34
+    },
+    {
+        "text": "know about ten to the seventeen so call",
+        "start": 734.059,
+        "duration": 5.01
+    },
+    {
+        "text": "this on the order of a correction factor",
+        "start": 736.429,
+        "duration": 5.4
+    },
+    {
+        "text": "in the sixteenth decimal place or so ten",
+        "start": 739.069,
+        "duration": 6.69
+    },
+    {
+        "text": "to the minus sixteen or so so the net",
+        "start": 741.829,
+        "duration": 6.87
+    },
+    {
+        "text": "effect is that this number two that we",
+        "start": 745.759,
+        "duration": 6.18
+    },
+    {
+        "text": "have over here is actually increased by",
+        "start": 748.699,
+        "duration": 4.56
+    },
+    {
+        "text": "a little bit because you're dividing",
+        "start": 751.939,
+        "duration": 4.95
+    },
+    {
+        "text": "through by a number which is itself less",
+        "start": 753.259,
+        "duration": 6.24
+    },
+    {
+        "text": "than one it's very close to one only",
+        "start": 756.889,
+        "duration": 4.771
+    },
+    {
+        "text": "differs from one way down and say the",
+        "start": 759.499,
+        "duration": 5.07
+    },
+    {
+        "text": "15th or 16th decimal place but it is a",
+        "start": 761.66,
+        "duration": 4.769
+    },
+    {
+        "text": "little bit less than one which means",
+        "start": 764.569,
+        "duration": 3.721
+    },
+    {
+        "text": "that this two would be a little bit",
+        "start": 766.429,
+        "duration": 4.71
+    },
+    {
+        "text": "bigger than two so the speed of approach",
+        "start": 768.29,
+        "duration": 5.849
+    },
+    {
+        "text": "even in everyday life in that simple",
+        "start": 771.139,
+        "duration": 5.581
+    },
+    {
+        "text": "silly scenario of the egg approaching",
+        "start": 774.139,
+        "duration": 5.01
+    },
+    {
+        "text": "Gracie she runs away her intuitive",
+        "start": 776.72,
+        "duration": 5.549
+    },
+    {
+        "text": "calculation is close to correct but it's",
+        "start": 779.149,
+        "duration": 5.31
+    },
+    {
+        "text": "not completely correct the effects of",
+        "start": 782.269,
+        "duration": 5.01
+    },
+    {
+        "text": "relativity are always there they're just",
+        "start": 784.459,
+        "duration": 5.701
+    },
+    {
+        "text": "really small typically at everyday",
+        "start": 787.279,
+        "duration": 4.92
+    },
+    {
+        "text": "speeds but they are there and they",
+        "start": 790.16,
+        "duration": 4.859
+    },
+    {
+        "text": "matter and they show us how when the",
+        "start": 792.199,
+        "duration": 5.25
+    },
+    {
+        "text": "speeds approach or impact or equal to",
+        "start": 795.019,
+        "duration": 4.981
+    },
+    {
+        "text": "the speed of light everything",
+        "start": 797.449,
+        "duration": 4.531
+    },
+    {
+        "text": "combines in just the right way to give",
+        "start": 800.0,
+        "duration": 4.26
+    },
+    {
+        "text": "net speeds that are always less than or",
+        "start": 801.98,
+        "duration": 3.33
+    },
+    {
+        "text": "equal to the speed of light",
+        "start": 804.26,
+        "duration": 5.55
+    },
+    {
+        "text": "just as relativity requires okay that's",
+        "start": 805.31,
+        "duration": 7.23
+    },
+    {
+        "text": "all I had to say for today this",
+        "start": 809.81,
+        "duration": 5.15
+    },
+    {
+        "text": "beautiful relativistic velocity",
+        "start": 812.54,
+        "duration": 4.83
+    },
+    {
+        "text": "combination law that allows us to",
+        "start": 814.96,
+        "duration": 5.59
+    },
+    {
+        "text": "correct our intuition for how speeds",
+        "start": 817.37,
+        "duration": 7.23
+    },
+    {
+        "text": "combine making everything compatible",
+        "start": 820.55,
+        "duration": 5.61
+    },
+    {
+        "text": "with the speed of light being the",
+        "start": 824.6,
+        "duration": 3.6
+    },
+    {
+        "text": "maximum speed limit making the world",
+        "start": 826.16,
+        "duration": 5.7
+    },
+    {
+        "text": "safe Brian Stein Ian relativity ok until",
+        "start": 828.2,
+        "duration": 6.54
+    },
+    {
+        "text": "next time take care this is your daily",
+        "start": 831.86,
+        "duration": 5.75
+    },
+    {
+        "text": "equation",
+        "start": 834.74,
+        "duration": 2.87
+    }
+]

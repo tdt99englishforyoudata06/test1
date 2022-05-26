@@ -1,0 +1,442 @@
+[
+    {
+        "text": "[ ♪INTRO ]",
+        "start": 1.24,
+        "duration": 1.96
+    },
+    {
+        "text": "Say you’re starting a business to make and\nsell…I don’t know, cardboard boxes.",
+        "start": 3.48,
+        "duration": 3.9
+    },
+    {
+        "text": "You have some big decisions to make—like,\nwhere should you put your factories, and your",
+        "start": 7.38,
+        "duration": 4.04
+    },
+    {
+        "text": "warehouses, and your distribution centers?",
+        "start": 11.42,
+        "duration": 2.04
+    },
+    {
+        "text": "This might not sound like a mind-bending\nproblem, but it can be ridiculously complex.",
+        "start": 13.46,
+        "duration": 5.4
+    },
+    {
+        "text": "You clearly want to be close to your customers\nand to your suppliers to keep shipping and",
+        "start": 18.86,
+        "duration": 5.16
+    },
+    {
+        "text": "transportation costs down.",
+        "start": 24.02,
+        "duration": 1.47
+    },
+    {
+        "text": "But you also have to account for those suppliers’\nprices; the demand for each type of box; how",
+        "start": 25.49,
+        "duration": 5.46
+    },
+    {
+        "text": "much material each box uses; setup and maintenance\ncosts; production capacity; the costs of power,",
+        "start": 30.95,
+        "duration": 6.42
+    },
+    {
+        "text": "and rent, and real estate; and, if you’re\na good citizen, the environmental impact of every choice.",
+        "start": 37.37,
+        "duration": 4.89
+    },
+    {
+        "text": "It’s a /lot/ to keep track of!",
+        "start": 42.34,
+        "duration": 1.52
+    },
+    {
+        "text": "This type of situation is called a constrained\noptimization problem: You’re looking for",
+        "start": 43.87,
+        "duration": 5.22
+    },
+    {
+        "text": "the best balance of competing factors—/while/\nmaking sure your solution is actually possible.",
+        "start": 49.09,
+        "duration": 6.09
+    },
+    {
+        "text": "Constrained optimization doesn’t exactly\nget much press, like you probably had never heard of it before, but it’s the hidden architecture",
+        "start": 55.18,
+        "duration": 7.899
+    },
+    {
+        "text": "beneath practically every human endeavor you\ncan think of, from cardboard manufacturing",
+        "start": 63.079,
+        "duration": 5.301
+    },
+    {
+        "text": "to the power grid, airline routing, and even\nmolecular biology.",
+        "start": 68.38,
+        "duration": 3.94
+    },
+    {
+        "text": "And one of the most popular ways to solve\nproblems like these takes inspiration from",
+        "start": 72.32,
+        "duration": 4.9
+    },
+    {
+        "text": "an unusual source: the way metals cool.",
+        "start": 77.22,
+        "duration": 3.42
+    },
+    {
+        "text": "Now, when I say “business decisions,”\nmetallurgy probably isn’t the first thing that comes to your mind.",
+        "start": 80.64,
+        "duration": 5.88
+    },
+    {
+        "text": "And it also wasn’t, like, computer scientists’ first\nthought.",
+        "start": 86.72,
+        "duration": 3.111
+    },
+    {
+        "text": "They initially designed lots of efficient\nalgorithms to find the absolute best solutions",
+        "start": 89.831,
+        "duration": 4.419
+    },
+    {
+        "text": "to constrained optimization problems.",
+        "start": 94.25,
+        "duration": 2.0
+    },
+    {
+        "text": "But those methods work best when the problem\nhas a nice, friendly mathematical form—",
+        "start": 96.25,
+        "duration": 4.81
+    },
+    {
+        "text": "like when the algorithm just has to find\nthe mathematical equivalent of like the highest spot on a hill.",
+        "start": 101.06,
+        "duration": 5.28
+    },
+    {
+        "text": "When the problem involves lots of variables\nrelated in more complicated ways, even a computer",
+        "start": 106.46,
+        "duration": 5.68
+    },
+    {
+        "text": "would take ages to find the best solution!",
+        "start": 112.14,
+        "duration": 2.84
+    },
+    {
+        "text": "So eventually, researchers looked for inspiration\nin nature, which is great at finding solutions",
+        "start": 114.98,
+        "duration": 5.8
+    },
+    {
+        "text": "that might not be perfectly optimal, but come\npretty close.",
+        "start": 120.78,
+        "duration": 3.95
+    },
+    {
+        "text": "For example, in 1983, three IBM researchers\ndrew an analogy between optimization and,",
+        "start": 124.73,
+        "duration": 5.97
+    },
+    {
+        "text": "of all things, cooling metal.",
+        "start": 130.7,
+        "duration": 1.759
+    },
+    {
+        "text": "See, when a metal is heated and then slowly\ncooled, its atoms tend to settle into the",
+        "start": 132.459,
+        "duration": 6.31
+    },
+    {
+        "text": "arrangement with the lowest possible energy.",
+        "start": 138.769,
+        "duration": 2.58
+    },
+    {
+        "text": "In other words, the arrangement of the atoms\ngets naturally optimized.",
+        "start": 141.349,
+        "duration": 3.76
+    },
+    {
+        "text": "That’s convenient in metalworking, because\nif you want to work some metal into a certain",
+        "start": 145.109,
+        "duration": 4.66
+    },
+    {
+        "text": "shape, it’s easiest if the atoms are all\nneatly arranged in a crystal structure.",
+        "start": 149.769,
+        "duration": 4.751
+    },
+    {
+        "text": "But normally, there are defects, like atoms\nout of place and fault lines between different sections of the crystal.",
+        "start": 154.52,
+        "duration": 6.22
+    },
+    {
+        "text": "So metalworkers use a technique called annealing:\nThey heat up the metal really hot, then slowly cool it down.",
+        "start": 161.24,
+        "duration": 7.4
+    },
+    {
+        "text": "When the metal is hot, its atoms move around\nrandomly.",
+        "start": 168.88,
+        "duration": 2.91
+    },
+    {
+        "text": "But as they cool, their movements become less\nrandom: With less energy, they become less",
+        "start": 171.79,
+        "duration": 5.38
+    },
+    {
+        "text": "likely to jump from low-energy positions into\nhigh-energy ones.",
+        "start": 177.17,
+        "duration": 4.27
+    },
+    {
+        "text": "So they naturally settle into the lowest-energy\nconfiguration, which is a defect-free crystal.",
+        "start": 181.44,
+        "duration": 6.23
+    },
+    {
+        "text": "Because the atoms cool so slowly, they have\nthe opportunity to find low-energy positions",
+        "start": 187.67,
+        "duration": 5.469
+    },
+    {
+        "text": "before they get frozen in place.",
+        "start": 193.139,
+        "duration": 1.621
+    },
+    {
+        "text": "For the IBM researchers, this natural process\nwasn’t just a neat fact about metalworking.",
+        "start": 194.76,
+        "duration": 6.05
+    },
+    {
+        "text": "It was also inspiration for an optimization\nalgorithm—in other words, a procedure computers",
+        "start": 200.81,
+        "duration": 5.39
+    },
+    {
+        "text": "could follow to solve complicated optimization\nproblems.",
+        "start": 206.2,
+        "duration": 3.789
+    },
+    {
+        "text": "They called it simulated annealing —and\nthe idea was to imitate the natural process.",
+        "start": 209.989,
+        "duration": 6.281
+    },
+    {
+        "text": "Just like physical annealing goes through\ndifferent arrangements of atoms, the algorithm",
+        "start": 216.27,
+        "duration": 4.809
+    },
+    {
+        "text": "goes through different solutions to a constrained\noptimization problem.",
+        "start": 221.079,
+        "duration": 4.2
+    },
+    {
+        "text": "This might not sound like an obvious comparison,\nbut here’s how it works:",
+        "start": 225.279,
+        "duration": 3.981
+    },
+    {
+        "text": "In the example of the cardboard business,\nyou’d start by generating some random choices",
+        "start": 229.26,
+        "duration": 5.209
+    },
+    {
+        "text": "of products, facilities, and locations.",
+        "start": 234.469,
+        "duration": 2.371
+    },
+    {
+        "text": "Then you’d keep making random changes.",
+        "start": 236.84,
+        "duration": 2.81
+    },
+    {
+        "text": "Initially, you allow even some changes that\nmake the profit margin or environmental impact",
+        "start": 239.65,
+        "duration": 5.099
+    },
+    {
+        "text": "/worse/—like moving a warehouse far from\nits nearest factory.",
+        "start": 244.749,
+        "duration": 3.53
+    },
+    {
+        "text": "That’s because at this point, allowing detrimental\nchanges is like letting the atom bounce into",
+        "start": 248.279,
+        "duration": 5.39
+    },
+    {
+        "text": "a position that temporarily puts the metal\nstructure into a higher-energy state.",
+        "start": 253.669,
+        "duration": 4.781
+    },
+    {
+        "text": "Ultimately, that high-energy state might turn\nout to be a step on the way to the lowest energy one.",
+        "start": 258.45,
+        "duration": 6.45
+    },
+    {
+        "text": "It’s kind of like giving something a good\nshake to get it out of a rut.",
+        "start": 265.08,
+        "duration": 2.85
+    },
+    {
+        "text": "Similarly, when the algorithm suggests a /bad/\nsolution, that can eventually lead to an even",
+        "start": 267.93,
+        "duration": 5.56
+    },
+    {
+        "text": "/better/ option than it would have found otherwise.",
+        "start": 273.49,
+        "duration": 2.44
+    },
+    {
+        "text": "Over time, though, the algorithm becomes less\nand less willing to accept changes that don’t",
+        "start": 275.93,
+        "duration": 5.46
+    },
+    {
+        "text": "improve the result—just like, as the metal\ncools, it keeps getting harder for atoms to",
+        "start": 281.39,
+        "duration": 5.19
+    },
+    {
+        "text": "bounce into higher-energy states.",
+        "start": 286.58,
+        "duration": 2.25
+    },
+    {
+        "text": "Eventually, you converge on something very\nclose to the best possible set of products, facilities, and locations.",
+        "start": 288.83,
+        "duration": 7.69
+    },
+    {
+        "text": "Simulated annealing is extremely popular.",
+        "start": 296.66,
+        "duration": 2.54
+    },
+    {
+        "text": "It’s been used in over a /million/ research\npapers and real-world projects—and not just for cardboard boxes.",
+        "start": 299.2,
+        "duration": 7.06
+    },
+    {
+        "text": "Say you work for an airline, planning flight\nroutes.",
+        "start": 306.54,
+        "duration": 2.9
+    },
+    {
+        "text": "Deciding where to fly and which planes should\nfly each route is tricky—because you want",
+        "start": 309.45,
+        "duration": 4.71
+    },
+    {
+        "text": "to optimize profit per passenger and minimize\nwasted fuel.",
+        "start": 314.16,
+        "duration": 3.66
+    },
+    {
+        "text": "Meanwhile, you’re constrained by things\nlike travel time and each aircraft’s capacity.",
+        "start": 317.82,
+        "duration": 5.38
+    },
+    {
+        "text": "How do you balance all those factors? How do you make decisions in that wild world?",
+        "start": 323.2,
+        "duration": 5.07
+    },
+    {
+        "text": "Maybe simulated annealing!",
+        "start": 328.27,
+        "duration": 2.17
+    },
+    {
+        "text": "Or maybe you’re a molecular biologist trying\nto work out the structure of a protein—say,",
+        "start": 330.44,
+        "duration": 4.84
+    },
+    {
+        "text": "a protein that some deadly virus uses to replicate.",
+        "start": 335.28,
+        "duration": 3.44
+    },
+    {
+        "text": "You want your structure to match your experimental\ndata as closely as possible, but it’s constrained",
+        "start": 338.72,
+        "duration": 5.521
+    },
+    {
+        "text": "by the fact that the structure has to be physically\npossible.",
+        "start": 344.241,
+        "duration": 3.459
+    },
+    {
+        "text": "Again, you could try simulated annealing!",
+        "start": 347.7,
+        "duration": 2.16
+    },
+    {
+        "text": "This method has also been used to schedule\nuniversity exams, to decide when and where",
+        "start": 349.86,
+        "duration": 4.99
+    },
+    {
+        "text": "to build power generators, to help robots\nfind the best route from point a to point b, and on and on",
+        "start": 354.85,
+        "duration": 6.73
+    },
+    {
+        "text": "And it’s just one of dozens of popular optimization\nalgorithms—each of which works for a different class of problems.",
+        "start": 361.8,
+        "duration": 7.26
+    },
+    {
+        "text": "So really, we’ve just scratched the surface\nof how constrained optimization powers modern",
+        "start": 369.3,
+        "duration": 4.71
+    },
+    {
+        "text": "society—and one of the best methods comes\nfrom studying nature itself!",
+        "start": 374.01,
+        "duration": 5.72
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 379.73,
+        "duration": 1.76
+    },
+    {
+        "text": "And a special thank you to this month’s President\nof Space, Matthew Brant, who is one of the",
+        "start": 381.49,
+        "duration": 4.31
+    },
+    {
+        "text": "amazing supporters making it possible for\nus to keep doing episodes like this.",
+        "start": 385.8,
+        "duration": 4.47
+    },
+    {
+        "text": "To find out more about how you can support\nwhat we do, check out patreon.com/SciShow.",
+        "start": 390.27,
+        "duration": 5.75
+    },
+    {
+        "text": "[ ♪OUTRO ]",
+        "start": 396.28,
+        "duration": 7.64
+    }
+]

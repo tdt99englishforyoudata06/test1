@@ -1,0 +1,557 @@
+[
+    {
+        "text": "The maths of zombies.",
+        "start": 0.16,
+        "duration": 1.84
+    },
+    {
+        "text": "Previously people didn't care if you \nstudied epidemiology through mathematics;  ",
+        "start": 7.68,
+        "duration": 3.76
+    },
+    {
+        "text": "all they cared about was keep me healthy. And \nso the way you'd sell it to people is okay,  ",
+        "start": 11.44,
+        "duration": 4.48
+    },
+    {
+        "text": "let's talk about zombieism. It's the \nsame maths of flu, it's the same maths as  ",
+        "start": 15.92,
+        "duration": 5.04
+    },
+    {
+        "text": "chickenpox, but it spices it up a little. And so \nwhat we're going to consider are some zombies,  ",
+        "start": 22.0,
+        "duration": 6.56
+    },
+    {
+        "text": "what's a hallmark of the zombie? Well \nthey move randomly and the zombie does  ",
+        "start": 28.56,
+        "duration": 6.64
+    },
+    {
+        "text": "a random walk. So we can't say where a \nparticular zombie will be at any time;  ",
+        "start": 35.2,
+        "duration": 5.04
+    },
+    {
+        "text": "but a lot of zombies we can actually predict. \nWe use a thing called the diffusion equation,  ",
+        "start": 40.24,
+        "duration": 5.2
+    },
+    {
+        "text": "okay, so we have a population z that's how many \nzombies are at a location at a particular time.  ",
+        "start": 45.44,
+        "duration": 5.2
+    },
+    {
+        "text": "The zombie are changing over time, zt means \nrate of change of zombies over time, that's  ",
+        "start": 50.64,
+        "duration": 4.88
+    },
+    {
+        "text": "equal to Dz. Dz tells us how fast the zombies \nare moving, how fast they're spreading out.",
+        "start": 55.52,
+        "duration": 5.28
+    },
+    {
+        "text": "Big Dz, very fast, they're riding \nmotorbikes, small Dz, very slow,  ",
+        "start": 60.8,
+        "duration": 4.24
+    },
+    {
+        "text": "their legs have been cut off. And then we have \nthe Laplacian of z - upside down triangle - ",
+        "start": 65.04,
+        "duration": 4.4
+    },
+    {
+        "text": "very scary piece of mathematics but it just means \nrandom motion. Okay, and from this what you get is  ",
+        "start": 69.44,
+        "duration": 5.52
+    },
+    {
+        "text": "a relation between time of first interaction and \nthat's proportional to how far away you are from  ",
+        "start": 74.96,
+        "duration": 6.4
+    },
+    {
+        "text": "them, space is being x here, and their rate of \ndiffusion, Dz. So t and Dz are related. Time of  ",
+        "start": 81.36,
+        "duration": 6.88
+    },
+    {
+        "text": "first meeting is approximately proportional \nto how far away I am from the zombie, x,  ",
+        "start": 88.24,
+        "duration": 4.8
+    },
+    {
+        "text": "and how fast they're dispersing, Dz. So if I slow \nthe zombies down, I put pits out, rubble - it's a  ",
+        "start": 93.04,
+        "duration": 6.0
+    },
+    {
+        "text": "good reason for not cleaning your room I always \nsay - so if I halve their rate of motion my time  ",
+        "start": 99.04,
+        "duration": 6.48
+    },
+    {
+        "text": "doubles. Half the rate of motion, double my time. \nSo if it takes 20 minutes for them to get to  ",
+        "start": 106.64,
+        "duration": 5.52
+    },
+    {
+        "text": "me and I put a lot of things out that will \nstop them it'll take 40 minutes to get to me.  ",
+        "start": 112.16,
+        "duration": 4.48
+    },
+    {
+        "text": "Okay that's that's that's useful, that's \nuseful to know. But what's more useful to know  ",
+        "start": 116.64,
+        "duration": 3.76
+    },
+    {
+        "text": "is x, because time and space are related \nquadratically - what does that mean? Well if I  ",
+        "start": 121.04,
+        "duration": 5.76
+    },
+    {
+        "text": "double the distance between me and the zombies, \nbecause of this x squared time is increased by  ",
+        "start": 127.36,
+        "duration": 6.24
+    },
+    {
+        "text": "four. So I double my distance, let's say 10 metres \nI go to 20 metres away, my time has gone from  ",
+        "start": 133.6,
+        "duration": 6.56
+    },
+    {
+        "text": "10 minutes to 40 minutes. So it's much better to \nrun away from a zombie than it is to try and slow  ",
+        "start": 140.16,
+        "duration": 4.96
+    },
+    {
+        "text": "them down. I won't judge you! I will be at the \nhead of the people- I know this! I've got a plan  ",
+        "start": 145.12,
+        "duration": 5.44
+    },
+    {
+        "text": "to get out of the way, I'm not trying to stop \nthem, I'm running away. So don't worry, I'll be  ",
+        "start": 150.56,
+        "duration": 5.6
+    },
+    {
+        "text": "a chicken, you'll be a chicken we'll all be a chicken.\n- (Brady: That does kind of assume you have an) ",
+        "start": 156.16,
+        "duration": 4.56
+    },
+    {
+        "text": "(infinite ability to run away, whereas if you put \nan obstacle down an obstacle will be there forever.)",
+        "start": 160.72,
+        "duration": 4.4
+    },
+    {
+        "text": "Very true, very true, and that's a good point - and \nyou might also trip over that obstacle, very true.",
+        "start": 165.12,
+        "duration": 4.24
+    },
+    {
+        "text": "I mean uh the UK isn't that big. You can \nkeep running- in fact we wouldn't have very  ",
+        "start": 169.36,
+        "duration": 4.64
+    },
+    {
+        "text": "far to run until we hit the the sea from \nfrom from where you're living here, Brady. So  ",
+        "start": 174.0,
+        "duration": 4.56
+    },
+    {
+        "text": "I'd just like to say maybe think about moving if a \nzombie apocalypse happens? This is telling us about  ",
+        "start": 178.56,
+        "duration": 4.32
+    },
+    {
+        "text": "the start of an apocalypse, okay, what should we do? \nRun away. But you're quite right, we now have to add  ",
+        "start": 182.88,
+        "duration": 5.76
+    },
+    {
+        "text": "in interactions. So what can zombies and humans \ndo when they meet? So we're gonna have zombies  ",
+        "start": 188.64,
+        "duration": 4.96
+    },
+    {
+        "text": "meet humans, zombie plus human. What can come out of their interaction? We can have the zombie kill the  ",
+        "start": 193.6,
+        "duration": 4.88
+    },
+    {
+        "text": "human. So zombie meets a human, zombie survives, \nnot great. The human can kill a zombie, great! ",
+        "start": 198.48,
+        "duration": 5.6
+    },
+    {
+        "text": "We've survived! We've got a good outcome and a bad \noutcome, but that's certainly not the worst outcome.  ",
+        "start": 204.08,
+        "duration": 4.4
+    },
+    {
+        "text": "What's the worst outcome? We get bitten and we \nend up with two zombies. So now what we can do  ",
+        "start": 209.12,
+        "duration": 5.12
+    },
+    {
+        "text": "is rewrite this in terms of our equation. So now we \nhave two populations to keep tabs on: we have the  ",
+        "start": 214.24,
+        "duration": 5.28
+    },
+    {
+        "text": "zombies, they're diffusing, moving randomly, they \ndon't know what they're doing, they're mindless.  ",
+        "start": 219.52,
+        "duration": 4.8
+    },
+    {
+        "text": "And we're going to say that because of these \ninteractions something can happen. We can increase  ",
+        "start": 224.32,
+        "duration": 5.6
+    },
+    {
+        "text": "the zombie population at a rate proportional to \nwhat's happening, so let's give these three rates:",
+        "start": 229.92,
+        "duration": 4.48
+    },
+    {
+        "text": "this can happen at a rate a, a rate b, and a rate \nc. All it really means is whichever's biggest is  ",
+        "start": 235.6,
+        "duration": 5.28
+    },
+    {
+        "text": "the one that's most likely to happen. If b was \nreally big then the zombies are ineffectual, you  ",
+        "start": 240.88,
+        "duration": 5.6
+    },
+    {
+        "text": "know, they're flies you're just batting them out \naway, keep away, go away I don't want you. If c is  ",
+        "start": 246.48,
+        "duration": 3.92
+    },
+    {
+        "text": "really big then zombieism is very infectious, you \nknow, they- saliva can pass it on, very infectious,  ",
+        "start": 250.4,
+        "duration": 5.2
+    },
+    {
+        "text": "we don't want that. So this is the equation we're \ngoing to write down from this set up here: zombies  ",
+        "start": 255.6,
+        "duration": 4.24
+    },
+    {
+        "text": "are moving randomly and what we have is that the \nhumans kill the zombies, so we lose some zombies  ",
+        "start": 259.84,
+        "duration": 6.88
+    },
+    {
+        "text": "at a rate b, that's the amount that are \nkilled by the humans; but we gain zombies  ",
+        "start": 266.72,
+        "duration": 5.2
+    },
+    {
+        "text": "at a rate c, okay? That's all that happens, we \ngain zombies through zombification, we lose  ",
+        "start": 271.92,
+        "duration": 4.88
+    },
+    {
+        "text": "zombies because of humans killing zombies. We \nhave to also account for the humans. So human  ",
+        "start": 276.8,
+        "duration": 4.32
+    },
+    {
+        "text": "population changing over time, I'm also going \nto consider the humans are moving randomly.  ",
+        "start": 281.12,
+        "duration": 4.4
+    },
+    {
+        "text": "Now generally that's not true, you know \nwhere you're going to be most of the time.  ",
+        "start": 286.08,
+        "duration": 3.04
+    },
+    {
+        "text": "But I'm going to suggest that if the dead start to \nrise you may not go to work that day, you may not  ",
+        "start": 289.84,
+        "duration": 4.8
+    },
+    {
+        "text": "go to school, you might panic and try and escape. \nSo that's what I'm saying here, that humans are  ",
+        "start": 294.64,
+        "duration": 5.12
+    },
+    {
+        "text": "panicking, they're moving randomly, not many people \nhave a zombie plan - the fools. And we have the same  ",
+        "start": 299.76,
+        "duration": 4.56
+    },
+    {
+        "text": "idea here, we put on the kinetic. So what can happen? \nWe can die at a rate a, and we die at the rate c.  ",
+        "start": 304.32,
+        "duration": 6.56
+    },
+    {
+        "text": "So that's that's the entirety of a zombie \npopulation written down in two simple equations. ",
+        "start": 310.88,
+        "duration": 5.84
+    },
+    {
+        "text": "Simple equations - ha! So what do they tell \nus? Well the first thing we can do is is  ",
+        "start": 316.72,
+        "duration": 3.92
+    },
+    {
+        "text": "simplify this bit of it, so let's have a look at \nthe human equation. This term is always negative.  ",
+        "start": 320.64,
+        "duration": 5.52
+    },
+    {
+        "text": "Now I shouldn't have to tell anyone who's seen \na zombie film before - or anyone in fact - but it's  ",
+        "start": 327.44,
+        "duration": 4.4
+    },
+    {
+        "text": "never beneficial for a human to meet a zombie. \nYes we can kill them, but it doesn't increase  ",
+        "start": 331.84,
+        "duration": 6.0
+    },
+    {
+        "text": "our population. We are assuming that our zombie \npandemic occurs over a short time, because you  ",
+        "start": 337.84,
+        "duration": 4.88
+    },
+    {
+        "text": "know we could have added in birth rates into this. \nBut I'm going to say that most zombie films are  ",
+        "start": 342.72,
+        "duration": 4.08
+    },
+    {
+        "text": "around an hour and a half; it takes nine months to \ngive birth so I'm going to say that birth isn't  ",
+        "start": 346.8,
+        "duration": 3.6
+    },
+    {
+        "text": "really going to affect this equation too much. \nBecause of this term being negative we are always  ",
+        "start": 350.4,
+        "duration": 4.32
+    },
+    {
+        "text": "losing human population - don't meet a zombie. \nNow let's look at the zombie equation, do this  ",
+        "start": 354.72,
+        "duration": 5.44
+    },
+    {
+        "text": "idea of connect reaction terms. Random motion, \nand then we put (c minus b)Hz. Now this term can  ",
+        "start": 360.16,
+        "duration": 6.08
+    },
+    {
+        "text": "either be positive or negative - what does that \nmean? If this is positive, c is larger than b. ",
+        "start": 366.24,
+        "duration": 5.68
+    },
+    {
+        "text": "The zombies are infecting more people \nthan we're killing, they're very infectious. ",
+        "start": 373.12,
+        "duration": 4.0
+    },
+    {
+        "text": "If b is bigger than c, we are killing more \nzombies than they are infecting, this is  ",
+        "start": 378.08,
+        "duration": 4.0
+    },
+    {
+        "text": "negative. So this- again tells us what situation we- \nto be able to survive we need to kill more zombies  ",
+        "start": 382.08,
+        "duration": 6.4
+    },
+    {
+        "text": "than they are infectious, okay? Again this makes \nsense, you know, all I'm doing is converting our  ",
+        "start": 388.48,
+        "duration": 4.32
+    },
+    {
+        "text": "knowledge of any good zombie film into mathematics. \nBut this does tell us one more thing, because these  ",
+        "start": 392.8,
+        "duration": 5.52
+    },
+    {
+        "text": "equations are- can be seen as a Fisher equation \nwhich is a type of equation in mathematics.  ",
+        "start": 398.32,
+        "duration": 5.2
+    },
+    {
+        "text": "And that equation has a wave structure in it. \nSo what we'll have is our city; we'll have the  ",
+        "start": 404.24,
+        "duration": 6.96
+    },
+    {
+        "text": "zombies being green and we'll put them here, we'll \nput all of our zombies in a graveyard. And we're  ",
+        "start": 411.2,
+        "duration": 5.84
+    },
+    {
+        "text": "going to say that the rest of our city, the humans \nare pretty well spread out along our city. If you run  ",
+        "start": 417.04,
+        "duration": 5.04
+    },
+    {
+        "text": "these equations you will find that this spreads \nout like a wave, invading the blue, either eating  ",
+        "start": 422.08,
+        "duration": 6.08
+    },
+    {
+        "text": "them or turning them. Some of the zombies may die \nbut a lot more of the humans will be converted and  ",
+        "start": 428.16,
+        "duration": 5.36
+    },
+    {
+        "text": "eaten. That's also a big problem, you may want to \nthink about your strategies now. Essentially all of  ",
+        "start": 433.52,
+        "duration": 4.16
+    },
+    {
+        "text": "the humans around you, if you're in a populated \nplace, they're just potential zombies for you.",
+        "start": 437.68,
+        "duration": 4.24
+    },
+    {
+        "text": "Hmm, think about that for a second. But what is \nthe speed of this wave? So we'll call this v, it's  ",
+        "start": 443.04,
+        "duration": 5.44
+    },
+    {
+        "text": "move- this wave is is charging through the human \npopulation at a rate v. And v is proportional to  ",
+        "start": 448.48,
+        "duration": 5.36
+    },
+    {
+        "text": "the square root of Dz H0 and (c minus b). Okay, \nsome of these we've seen before, some of  ",
+        "start": 454.8,
+        "duration": 6.64
+    },
+    {
+        "text": "them we haven't. Dz we've seen before, that's \njust the spread of the zombies. You slow the  ",
+        "start": 461.44,
+        "duration": 5.04
+    },
+    {
+        "text": "zombies down, you slow the speed down, makes sense. c minus b, that was this term here. The rate of zombie  ",
+        "start": 466.48,
+        "duration": 6.96
+    },
+    {
+        "text": "production minus the rate of zombie killing. This \nterm can be negative, but it's inside a square root. ",
+        "start": 473.44,
+        "duration": 5.6
+    },
+    {
+        "text": "That means if we make this negative this can't \nhappen. We need to be more deadly than the zombies  ",
+        "start": 479.04,
+        "duration": 5.52
+    },
+    {
+        "text": "are infectious, if that's possible we stop the \ninfection spreading. Now h0, we've not spoken about  ",
+        "start": 484.56,
+        "duration": 4.88
+    },
+    {
+        "text": "this parameter yet. h0 is the initial population \nof the humans. If you can isolate yourself, remove  ",
+        "start": 489.44,
+        "duration": 6.24
+    },
+    {
+        "text": "anyone potentially around you, great, you don't \nhave to worry. But if you're surrounded by humans,  ",
+        "start": 495.68,
+        "duration": 5.04
+    },
+    {
+        "text": "all they are to you are potential infections. I'm \nnot saying you should get rid of those humans, ",
+        "start": 501.52,
+        "duration": 5.92
+    },
+    {
+        "text": "I'm just saying what the maths says Brady. You may \nchoose to interpret it however you so wish.\n- (Ah see)",
+        "start": 508.4,
+        "duration": 7.04
+    },
+    {
+        "text": "(I interpreted that as, I just need to move out \nto the country, but you're saying I need to kill) ",
+        "start": 515.44,
+        "duration": 4.0
+    },
+    {
+        "text": "(the humans!)\n- No I specifically said- I did not say that. I've said you need to isolate ",
+        "start": 519.44,
+        "duration": 4.715
+    },
+    {
+        "text": "yourself in some way. However true- however- disclaimer, disclaimer, disclaimer! \n- This episode was supported by  ",
+        "start": 524.155,
+        "duration": 6.165
+    },
+    {
+        "text": "Brilliant, makers of fantastic courses, puzzles, \nlessons, that you can do from your computer  ",
+        "start": 530.32,
+        "duration": 6.64
+    },
+    {
+        "text": "tablet or phone. I've always been a bit partial \nto perfect numbers, so I've been enjoying this  ",
+        "start": 536.96,
+        "duration": 4.8
+    },
+    {
+        "text": "one. Everything on Brilliant is lovingly designed \nand super interactive as you can plainly see here.  ",
+        "start": 541.76,
+        "duration": 6.4
+    },
+    {
+        "text": "I've met the people at Brilliant and they're so \npassionate about making the world a smarter place,  ",
+        "start": 549.68,
+        "duration": 4.96
+    },
+    {
+        "text": "improving our brains. Check them out, it's \nbrilliant.org/numberphile. You can get started  ",
+        "start": 554.64,
+        "duration": 7.44
+    },
+    {
+        "text": "for free, go and have a look around. Then \nif you decide to go deeper, maybe get the  ",
+        "start": 562.08,
+        "duration": 4.96
+    },
+    {
+        "text": "premium subscription, well that /numberphile, that's going to get you a 20% discount.  ",
+        "start": 567.04,
+        "duration": 6.0
+    },
+    {
+        "text": "That's brilliant.org/numberphile - our \nthanks to them for supporting this episode.  ",
+        "start": 573.04,
+        "duration": 5.04
+    },
+    {
+        "text": "...and you get extra growth from it, and then \nyou see that in the fact that the bigger  ",
+        "start": 579.68,
+        "duration": 4.08
+    },
+    {
+        "text": "that bulge gets the bigger your black hole gets as well.\n- One fact I know about eyes, so this is  ",
+        "start": 583.76,
+        "duration": 4.32
+    },
+    {
+        "text": "like where all the blood is flowing into it \nright? If you're God and you're designing an  ",
+        "start": 588.08,
+        "duration": 3.12
+    },
+    {
+        "text": "eye you might put all of those blood vessels \nbehind where it's actually receiving light?",
+        "start": 591.2,
+        "duration": 4.24
+    }
+]

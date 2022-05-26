@@ -1,0 +1,922 @@
+[
+    {
+        "text": "[♪ INTRO ]",
+        "start": 0.0,
+        "duration": 10.66
+    },
+    {
+        "text": "Data. The word is everywhere these days.",
+        "start": 10.66,
+        "duration": 3.33
+    },
+    {
+        "text": "Every company is dying to tell you about its\nbig data, data analytics, data privacy, data",
+        "start": 13.99,
+        "duration": 4.11
+    },
+    {
+        "text": "warehouse, data lake, data data data data.",
+        "start": 18.1,
+        "duration": 3.65
+    },
+    {
+        "text": "At the center of the data mania is data mining—the\npractice of sifting through all those piles",
+        "start": 21.75,
+        "duration": 5.0
+    },
+    {
+        "text": "of information for insights.",
+        "start": 26.75,
+        "duration": 1.74
+    },
+    {
+        "text": "Data mining recently made big news with the\nCambridge Analytica scandal.",
+        "start": 28.49,
+        "duration": 3.3
+    },
+    {
+        "text": "The political consultancy reportedly sucked\nup data about millions of Facebook users without",
+        "start": 31.79,
+        "duration": 4.529
+    },
+    {
+        "text": "their knowledge, then used it to profile and\nsway voters in the US, UK, and elsewhere.",
+        "start": 36.319,
+        "duration": 5.01
+    },
+    {
+        "text": "And similar techniques let companies like\nAmazon, Facebook, and Google work out what",
+        "start": 41.329,
+        "duration": 4.1
+    },
+    {
+        "text": "we want to see or buy—sometimes with shocking\naccuracy.",
+        "start": 45.429,
+        "duration": 2.96
+    },
+    {
+        "text": "It’s a little creepy.",
+        "start": 48.389,
+        "duration": 1.22
+    },
+    {
+        "text": "It’s not just ads and politics, either.",
+        "start": 49.609,
+        "duration": 2.651
+    },
+    {
+        "text": "Data mining allows airlines to predict who’s\ngoing to miss a flight; it tells big-box stores",
+        "start": 52.26,
+        "duration": 4.299
+    },
+    {
+        "text": "who’s pregnant; it helps doctors spot fatal\ninfections; and it’s even enabled cell phone",
+        "start": 56.559,
+        "duration": 4.55
+    },
+    {
+        "text": "companies to predict massacres in the Congo.",
+        "start": 61.109,
+        "duration": 2.52
+    },
+    {
+        "text": "The power of data mining and the hype surrounding\nit can make it sound like a magic wand—one",
+        "start": 63.629,
+        "duration": 4.971
+    },
+    {
+        "text": "that will either save your business or sink\ndemocracy.",
+        "start": 68.6,
+        "duration": 2.49
+    },
+    {
+        "text": "Of course, data mining doesn’t really involve\nany unicorn hair or phoenix tail feathers.",
+        "start": 71.09,
+        "duration": 4.26
+    },
+    {
+        "text": "It’s just applied statistics, searching\nlots of data points for patterns that humans might not spot.",
+        "start": 75.35,
+        "duration": 5.41
+    },
+    {
+        "text": "Those patterns are based not on human intuition,\nbut on whatever the data suggests, so sometimes",
+        "start": 80.76,
+        "duration": 5.38
+    },
+    {
+        "text": "they can seem incredibly subtle or even alien.",
+        "start": 86.149,
+        "duration": 2.57
+    },
+    {
+        "text": "But there’s no more magic in data mining\nthan there is in a weather forecast.",
+        "start": 88.719,
+        "duration": 3.051
+    },
+    {
+        "text": "In fact, data mining is a lot like meteorology.",
+        "start": 91.77,
+        "duration": 2.93
+    },
+    {
+        "text": "Meteorologists aim for two things: first,\nthey want to describe patterns in the weather—to",
+        "start": 94.7,
+        "duration": 4.489
+    },
+    {
+        "text": "boil down its massive complexity into a few\nnumbers and equations.",
+        "start": 99.189,
+        "duration": 3.36
+    },
+    {
+        "text": "And second, they want to predict Tuesday’s\nweather.",
+        "start": 102.549,
+        "duration": 2.53
+    },
+    {
+        "text": "That’s the whole point.",
+        "start": 105.079,
+        "duration": 1.631
+    },
+    {
+        "text": "Similarly, Spotify’s data scientists might\nbe interested in describing medieval rock",
+        "start": 106.71,
+        "duration": 3.839
+    },
+    {
+        "text": "fans, recognizing them as a group distinct\nfrom nerdcore or freak folk fans — yes, that's a real subgenre.",
+        "start": 110.549,
+        "duration": 5.291
+    },
+    {
+        "text": "Ultimately, though, what’s most important\nto companies like Spotify is predicting what",
+        "start": 115.84,
+        "duration": 4.02
+    },
+    {
+        "text": "each person wants to listen to.",
+        "start": 119.869,
+        "duration": 1.391
+    },
+    {
+        "text": "The key with data mining is that it achieves\ndescription and prediction not through careful",
+        "start": 121.26,
+        "duration": 4.09
+    },
+    {
+        "text": "study by experts, but by analyzing large amounts\nof data.",
+        "start": 125.35,
+        "duration": 3.18
+    },
+    {
+        "text": "In Spotify’s case, that might mean scanning\nfor patterns in genre labels, acoustic attributes,",
+        "start": 128.53,
+        "duration": 5.11
+    },
+    {
+        "text": "Internet reviews, and anything else about\neach track, plus the age, location, friend",
+        "start": 133.64,
+        "duration": 4.49
+    },
+    {
+        "text": "group, and other scraps of information about\neach user.",
+        "start": 138.13,
+        "duration": 2.4
+    },
+    {
+        "text": "Data mining is more about spotting patterns\nthan explaining them.",
+        "start": 140.53,
+        "duration": 2.84
+    },
+    {
+        "text": "Of course, the words “pattern” and “data”\ncan mean just about anything.",
+        "start": 143.37,
+        "duration": 3.74
+    },
+    {
+        "text": "There are no clear definitions for data mining,\ndata science, or big data, and they’re sometimes",
+        "start": 147.11,
+        "duration": 4.641
+    },
+    {
+        "text": "used interchangeably with each other or with\nmachine learning.",
+        "start": 151.751,
+        "duration": 2.979
+    },
+    {
+        "text": "That’s why it’s so easy to slap these\nbuzzwords onto any project for instant venture",
+        "start": 154.73,
+        "duration": 3.99
+    },
+    {
+        "text": "capital karma.",
+        "start": 158.72,
+        "duration": 1.11
+    },
+    {
+        "text": "That being said, a few types of techniques\nconsistently earn the “data mining” label.",
+        "start": 159.83,
+        "duration": 4.26
+    },
+    {
+        "text": "The most broadly applicable one is classification,\nwhere you try to categorize things.",
+        "start": 164.09,
+        "duration": 4.18
+    },
+    {
+        "text": "For example, Target famously realized as early\nas 2002 that they could guess who was pregnant",
+        "start": 168.27,
+        "duration": 5.07
+    },
+    {
+        "text": "and send them baby-related coupons.",
+        "start": 173.34,
+        "duration": 1.78
+    },
+    {
+        "text": "That’s a textbook classification problem:\nTarget needed to assign each customer to one",
+        "start": 175.12,
+        "duration": 4.81
+    },
+    {
+        "text": "of two categories: either “probably pregnant”\nor “probably not pregnant.”",
+        "start": 179.93,
+        "duration": 4.22
+    },
+    {
+        "text": "Classification typically works in several\nstages.",
+        "start": 184.15,
+        "duration": 1.82
+    },
+    {
+        "text": "First, each example, or instance, has to be\nbroken down into a collection of numerical",
+        "start": 185.97,
+        "duration": 4.69
+    },
+    {
+        "text": "attributes, or features.",
+        "start": 190.66,
+        "duration": 1.18
+    },
+    {
+        "text": "For a store like Target, an instance might\nbe your mom 7 months before you were born.",
+        "start": 191.84,
+        "duration": 4.26
+    },
+    {
+        "text": "The features would be things like “How many\nbottles of unscented lotion did she buy in",
+        "start": 196.1,
+        "duration": 3.8
+    },
+    {
+        "text": "the last three months?",
+        "start": 199.9,
+        "duration": 1.13
+    },
+    {
+        "text": "How about in the quarter before that?”",
+        "start": 201.03,
+        "duration": 1.77
+    },
+    {
+        "text": "And likewise for zinc supplements, Asian pears,\nand every other product in the inventory.",
+        "start": 202.8,
+        "duration": 4.27
+    },
+    {
+        "text": "The store would also need labels for some\nchunk of the data—the ground truth about",
+        "start": 207.07,
+        "duration": 4.04
+    },
+    {
+        "text": "whether those customers were pregnant.",
+        "start": 211.11,
+        "duration": 1.73
+    },
+    {
+        "text": "Target got those labels from baby registries\nand due dates customers had shared.",
+        "start": 212.84,
+        "duration": 4.03
+    },
+    {
+        "text": "Once the data’s all lined up, it’s time\nfor training.",
+        "start": 216.87,
+        "duration": 2.25
+    },
+    {
+        "text": "That’s where the system tries to tease out\npatterns from all the labeled examples.",
+        "start": 219.12,
+        "duration": 4.08
+    },
+    {
+        "text": "Learning to classify is such a basic, common\nneed that dozens of algorithms, the mathematical",
+        "start": 223.2,
+        "duration": 4.98
+    },
+    {
+        "text": "procedures computer programs follow, have\nbeen devised for it.",
+        "start": 228.18,
+        "duration": 3.1
+    },
+    {
+        "text": "Which algorithm works best depends on all\nkinds of factors, like how many categories",
+        "start": 231.28,
+        "duration": 4.07
+    },
+    {
+        "text": "there are and how different features are connected\nto each other.",
+        "start": 235.35,
+        "duration": 2.62
+    },
+    {
+        "text": "But many classification algorithms are similar\nin that they treat each feature as a drop",
+        "start": 237.97,
+        "duration": 4.29
+    },
+    {
+        "text": "of evidence for one category or the other.",
+        "start": 242.26,
+        "duration": 2.18
+    },
+    {
+        "text": "The features get weights indicating how strongly\nthey boost or weaken someone’s chances of",
+        "start": 244.44,
+        "duration": 4.54
+    },
+    {
+        "text": "falling into the “yes” category — that\nthey are pregnant, for example.",
+        "start": 248.98,
+        "duration": 3.76
+    },
+    {
+        "text": "Those weights are what the system learns during\ntraining.",
+        "start": 252.74,
+        "duration": 2.64
+    },
+    {
+        "text": "Basically, it’s figuring out how informative\neach attribute is.",
+        "start": 255.38,
+        "duration": 3.52
+    },
+    {
+        "text": "Finally, to classify instances the system\nhasn’t seen before, it puts together all",
+        "start": 258.9,
+        "duration": 4.53
+    },
+    {
+        "text": "the weighted contributions, and maybe stuffs\nthe resulting number through a bit of mathematical",
+        "start": 263.43,
+        "duration": 4.02
+    },
+    {
+        "text": "machinery to slide it up or down.",
+        "start": 267.45,
+        "duration": 2.09
+    },
+    {
+        "text": "If the result is negative, that instance goes\nin the “no” bucket.",
+        "start": 269.54,
+        "duration": 3.12
+    },
+    {
+        "text": "If it’s positive—load up the crib coupons!",
+        "start": 272.66,
+        "duration": 2.94
+    },
+    {
+        "text": "Each individual feature doesn’t tell you\nmuch.",
+        "start": 275.6,
+        "duration": 2.19
+    },
+    {
+        "text": "In fact, many turn out to be irrelevant.",
+        "start": 277.79,
+        "duration": 2.37
+    },
+    {
+        "text": "But together they can be really powerful.",
+        "start": 280.16,
+        "duration": 1.94
+    },
+    {
+        "text": "Target’s approach worked so well that when\none customer complained that his teenage daughter",
+        "start": 282.1,
+        "duration": 4.53
+    },
+    {
+        "text": "was getting coupons for baby clothes, he ended\nup apologizing to Target.",
+        "start": 286.63,
+        "duration": 4.9
+    },
+    {
+        "text": "Turned out the company knew about his daughter’s\npregnancy before he did!",
+        "start": 291.53,
+        "duration": 3.63
+    },
+    {
+        "text": "Classification is useful any time you want\nto tell one group of things from another.",
+        "start": 295.16,
+        "duration": 3.33
+    },
+    {
+        "text": "Insurance companies use it to guess which\nelderly patients will die soon so that they",
+        "start": 298.49,
+        "duration": 4.54
+    },
+    {
+        "text": "can start end-of-life counseling.",
+        "start": 303.03,
+        "duration": 2.03
+    },
+    {
+        "text": "Doctors use it to check whether premature\nbabies are developing dangerous infections,",
+        "start": 305.06,
+        "duration": 3.65
+    },
+    {
+        "text": "since the classifier can put together subtle\ndisease indicators before humans would notice any signs.",
+        "start": 308.71,
+        "duration": 4.99
+    },
+    {
+        "text": "I could spend all day listing uses for classification,\nbut it’s far from the only type of data mining.",
+        "start": 313.7,
+        "duration": 4.72
+    },
+    {
+        "text": "One close cousin is known as regression.",
+        "start": 318.42,
+        "duration": 2.36
+    },
+    {
+        "text": "And no, that doesn’t mean deciding you like\nLimp Bizkit again.",
+        "start": 320.78,
+        "duration": 2.82
+    },
+    {
+        "text": "In regression, instead of predicting a category,\nthe goal is to predict a number.",
+        "start": 323.6,
+        "duration": 4.61
+    },
+    {
+        "text": "Take Target again.",
+        "start": 328.21,
+        "duration": 1.11
+    },
+    {
+        "text": "They wanted to know not just whether each\ncustomer was pregnant, but when to send each coupon",
+        "start": 329.32,
+        "duration": 4.92
+    },
+    {
+        "text": "So they managed to estimate due dates, too.",
+        "start": 334.28,
+        "duration": 2.52
+    },
+    {
+        "text": "That’s a regression question—how many\nweeks until the customer gives birth.",
+        "start": 336.8,
+        "duration": 4.58
+    },
+    {
+        "text": "Regression often depends on dozens or even\nthousands of variables—the features that",
+        "start": 341.38,
+        "duration": 3.73
+    },
+    {
+        "text": "describe each example.",
+        "start": 345.11,
+        "duration": 1.25
+    },
+    {
+        "text": "It finds an equation or curve to fit the data\npoints, telling you how high you’d expect",
+        "start": 346.36,
+        "duration": 4.11
+    },
+    {
+        "text": "the curve to be given any arbitrary input.",
+        "start": 350.47,
+        "duration": 2.81
+    },
+    {
+        "text": "Or in this case, how far away you’d expect\nthe customer’s due date to be.",
+        "start": 353.28,
+        "duration": 3.42
+    },
+    {
+        "text": "Like in classification, many regression techniques\ngive each feature a weight, then combine the",
+        "start": 356.7,
+        "duration": 4.59
+    },
+    {
+        "text": "positive and negative contributions from the\nweighted features to get an estimate.",
+        "start": 361.29,
+        "duration": 3.82
+    },
+    {
+        "text": "And, also like classification, regression\nis used everywhere.",
+        "start": 365.11,
+        "duration": 3.47
+    },
+    {
+        "text": "One of the better-known examples is Google\nFlu Trends.",
+        "start": 368.58,
+        "duration": 2.95
+    },
+    {
+        "text": "In 2008, it began publishing real-time estimates\nof how many people had the flu based on searches",
+        "start": 371.53,
+        "duration": 5.21
+    },
+    {
+        "text": "for words like “fever” and “cough.”",
+        "start": 376.74,
+        "duration": 2.24
+    },
+    {
+        "text": "Regression is also part of predictive policing\nsoftware — programs that look at historical",
+        "start": 378.98,
+        "duration": 4.47
+    },
+    {
+        "text": "data to guess how likely a crime is to occur\nin each area.",
+        "start": 383.45,
+        "duration": 3.27
+    },
+    {
+        "text": "The third major data mining technique is clustering.",
+        "start": 386.72,
+        "duration": 2.98
+    },
+    {
+        "text": "As the name suggests, the goal here is to\ngroup data points in a way that helps with the analysis",
+        "start": 389.7,
+        "duration": 4.44
+    },
+    {
+        "text": "In the marketing world, clustering emerged\nin the 1980s—well before data mining—with",
+        "start": 394.14,
+        "duration": 4.34
+    },
+    {
+        "text": "the work of a market researcher named Howard\nMoskowitz.",
+        "start": 398.49,
+        "duration": 2.74
+    },
+    {
+        "text": "He struck gold when he realized there wasn’t\none best pasta sauce.",
+        "start": 401.23,
+        "duration": 4.67
+    },
+    {
+        "text": "Consumers showed three distinct types of preferences—and\nthe previously unrecognized group that craved",
+        "start": 405.9,
+        "duration": 5.2
+    },
+    {
+        "text": "extra-chunky turned out to be worth millions.",
+        "start": 411.1,
+        "duration": 3.14
+    },
+    {
+        "text": "Clustering is often used to analyze market\nsegmentation like this, but to understand",
+        "start": 414.24,
+        "duration": 3.681
+    },
+    {
+        "text": "how the techniques work, let’s take a different\nexample: eBay.",
+        "start": 417.921,
+        "duration": 3.629
+    },
+    {
+        "text": "On ebay, you can get millions of products,\nfrom antiques to zip ties.",
+        "start": 421.55,
+        "duration": 4.17
+    },
+    {
+        "text": "Even within a single category, like electronics,\nthe selection is overwhelming.",
+        "start": 425.72,
+        "duration": 3.93
+    },
+    {
+        "text": "So eBay organizes things into subcategories.",
+        "start": 429.65,
+        "duration": 3.12
+    },
+    {
+        "text": "But it’s a pain for humans to trawl through\nall the electronics, identify subcategories,",
+        "start": 432.77,
+        "duration": 4.1
+    },
+    {
+        "text": "and assign every product to a subcategory.",
+        "start": 436.87,
+        "duration": 2.0
+    },
+    {
+        "text": "Instead, the company can use clustering to\nautomatically group the products.",
+        "start": 438.87,
+        "duration": 4.17
+    },
+    {
+        "text": "Again, each product first has to be broken\ndown into numerical features, like how many",
+        "start": 443.04,
+        "duration": 3.94
+    },
+    {
+        "text": "times “printer” appears in the description,\nor who manufactured it.",
+        "start": 446.98,
+        "duration": 3.33
+    },
+    {
+        "text": "The simplest clustering method is to guess\nhow many distinct subcategories there should be.",
+        "start": 450.31,
+        "duration": 4.63
+    },
+    {
+        "text": "Then you randomly lump items together into\nthat many clusters, and keep shifting items",
+        "start": 454.94,
+        "duration": 4.1
+    },
+    {
+        "text": "between groups to make each cluster tighter.",
+        "start": 459.05,
+        "duration": 2.31
+    },
+    {
+        "text": "In the end, similar products end up settling\ninto clusters together.",
+        "start": 461.36,
+        "duration": 3.27
+    },
+    {
+        "text": "But we don’t have to stop there!",
+        "start": 464.63,
+        "duration": 1.759
+    },
+    {
+        "text": "The blue and silver versions of the same camera\ndon’t really deserve separate listings;",
+        "start": 466.389,
+        "duration": 4.171
+    },
+    {
+        "text": "they’re variants of the same product.",
+        "start": 470.56,
+        "duration": 1.74
+    },
+    {
+        "text": "So in addition to subcategories, it would\nbe nice to find listings to merge.",
+        "start": 472.3,
+        "duration": 4.179
+    },
+    {
+        "text": "Sites like eBay can do both simultaneously\nwith a technique called hierarchical clustering.",
+        "start": 476.479,
+        "duration": 4.861
+    },
+    {
+        "text": "Rather than a single set of categories, hierarchical\nclustering produces a sort of taxonomic tree.",
+        "start": 481.34,
+        "duration": 4.99
+    },
+    {
+        "text": "For example, it might find that cameras are\nmuch more like each other than like TVs.",
+        "start": 486.33,
+        "duration": 4.81
+    },
+    {
+        "text": "But within cameras, the DSLRs and point-and-shoots\neach get their own subgroup, albeit slightly less distinct ones.",
+        "start": 491.14,
+        "duration": 6.12
+    },
+    {
+        "text": "And within those are many different models,\neach with a few variants. (on image)",
+        "start": 497.26,
+        "duration": 3.82
+    },
+    {
+        "text": "Companies like Cambridge Analytica use these\ntechniques to look for groups of voters who",
+        "start": 501.08,
+        "duration": 3.71
+    },
+    {
+        "text": "will respond to the same kinds of advertising,\nand Spotify can use them to guess who will like similar music.",
+        "start": 504.79,
+        "duration": 5.73
+    },
+    {
+        "text": "The fourth staple of data mining is anomaly\ndetection.",
+        "start": 510.52,
+        "duration": 3.18
+    },
+    {
+        "text": "It’s basically a special case of classification—identifying\ninstances that are unusual or worrisome.",
+        "start": 513.709,
+        "duration": 5.51
+    },
+    {
+        "text": "The IRS uses anomaly detection to spot likely\ntax evaders, and credit card companies use",
+        "start": 519.219,
+        "duration": 5.141
+    },
+    {
+        "text": "it to flag transactions that don’t fit your\nusual buying habits.",
+        "start": 524.36,
+        "duration": 3.06
+    },
+    {
+        "text": "It also helps industries with heavy-duty equipment.",
+        "start": 527.42,
+        "duration": 2.87
+    },
+    {
+        "text": "For instance, power companies and airlines\ncan see when a generator or jet engine is",
+        "start": 530.29,
+        "duration": 4.18
+    },
+    {
+        "text": "starting to vibrate differently than usual.",
+        "start": 534.47,
+        "duration": 2.059
+    },
+    {
+        "text": "Some anomalies can be detected just by looking\nfor deviations from averages.",
+        "start": 536.529,
+        "duration": 3.56
+    },
+    {
+        "text": "Fancier techniques include looking for instances\nthat don’t match any cluster, or comparing",
+        "start": 540.089,
+        "duration": 4.771
+    },
+    {
+        "text": "instances with the closest other examples\nto see if their feature values are far off.",
+        "start": 544.86,
+        "duration": 4.72
+    },
+    {
+        "text": "Finally, association learning reveals which\nbirds are of a feather.",
+        "start": 549.58,
+        "duration": 2.91
+    },
+    {
+        "text": "The idea is to look through, say, millions\nof grocery store purchases to see what gets",
+        "start": 552.49,
+        "duration": 4.17
+    },
+    {
+        "text": "bought together and when.",
+        "start": 556.66,
+        "duration": 1.369
+    },
+    {
+        "text": "A classic example is the Osco drug store chain,\nwhich once found that many customers bought",
+        "start": 558.029,
+        "duration": 4.211
+    },
+    {
+        "text": "beer and diapers together on Friday evenings.",
+        "start": 562.24,
+        "duration": 2.75
+    },
+    {
+        "text": "Contrary to popular legend, the store never\nacted on this profound insight, but stores",
+        "start": 564.99,
+        "duration": 4.03
+    },
+    {
+        "text": "regularly use observations like this to optimize\ntheir floor layouts and inventory.",
+        "start": 569.02,
+        "duration": 4.33
+    },
+    {
+        "text": "For instance, Walmart discovered that shoppers\nbuy lots of Pop Tarts immediately before hurricanes,",
+        "start": 573.35,
+        "duration": 5.529
+    },
+    {
+        "text": "so it started to stock up.",
+        "start": 578.879,
+        "duration": 1.821
+    },
+    {
+        "text": "Association learning has broader applications,\ntoo.",
+        "start": 580.7,
+        "duration": 2.3
+    },
+    {
+        "text": "CellTel, an African cell phone company, realized\nit could spot impending massacres in the Congo",
+        "start": 583.0,
+        "duration": 4.61
+    },
+    {
+        "text": "when everyone nearby started buying prepaid\nphone cards.",
+        "start": 587.61,
+        "duration": 3.31
+    },
+    {
+        "text": "The five strategies we’ve covered—classification,\nregression, clustering, anomaly detection,",
+        "start": 590.92,
+        "duration": 4.51
+    },
+    {
+        "text": "and association learning—form the backbone\nof data mining.",
+        "start": 595.43,
+        "duration": 3.029
+    },
+    {
+        "text": "What makes them so powerful is that they offer\nstandard mathematical tools you can use for",
+        "start": 598.459,
+        "duration": 3.771
+    },
+    {
+        "text": "everything from curating Facebook feeds to\noptimizing store layouts.",
+        "start": 602.23,
+        "duration": 3.58
+    },
+    {
+        "text": "But that ease of use can also lead people\nastray.",
+        "start": 605.81,
+        "duration": 2.829
+    },
+    {
+        "text": "Data mining is just one step in the process\nof extracting knowledge from data—and it’s",
+        "start": 608.639,
+        "duration": 4.26
+    },
+    {
+        "text": "all too easy to whip out an algorithm without\ncarefully selecting the data, massaging it",
+        "start": 612.899,
+        "duration": 4.31
+    },
+    {
+        "text": "into the right form, and considering how to\ninterpret the results.",
+        "start": 617.209,
+        "duration": 3.091
+    },
+    {
+        "text": "Remember Google Flu Trends?",
+        "start": 620.3,
+        "duration": 1.769
+    },
+    {
+        "text": "It shut down after a few years, but not because\nthe algorithm was broken.",
+        "start": 622.069,
+        "duration": 4.611
+    },
+    {
+        "text": "Search auto completion had totally thrown\noff the data, and engineers had given it too",
+        "start": 626.68,
+        "duration": 4.25
+    },
+    {
+        "text": "much leeway to interpret seasonal words like\n“snow” as evidence of the flu.",
+        "start": 630.93,
+        "duration": 4.56
+    },
+    {
+        "text": "Then there are the queasy social implications\nof sharing data in the first place, and of",
+        "start": 635.49,
+        "duration": 3.921
+    },
+    {
+        "text": "letting companies form such an intimate understanding\nof our behavior.",
+        "start": 639.411,
+        "duration": 3.359
+    },
+    {
+        "text": "In other words … the creep factor.",
+        "start": 642.77,
+        "duration": 1.78
+    },
+    {
+        "text": "So as powerful as it is, the math of data\nmining is just the beginning.",
+        "start": 644.55,
+        "duration": 4.49
+    },
+    {
+        "text": "Sometimes the hardest part is all the messy\nhuman stuff.",
+        "start": 649.04,
+        "duration": 2.579
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 651.619,
+        "duration": 2.02
+    },
+    {
+        "text": "If you’re interested in the ways companies\ncan use psychology to learn even more about",
+        "start": 653.639,
+        "duration": 3.87
+    },
+    {
+        "text": "you from your data, you can check out our\nvideo about that over on the SciShow Psych channel.",
+        "start": 657.509,
+        "duration": 4.061
+    },
+    {
+        "text": "[ ♪OUTRO ]",
+        "start": 661.57,
+        "duration": 10.27
+    }
+]

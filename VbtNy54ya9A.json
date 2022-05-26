@@ -1,0 +1,467 @@
+[
+    {
+        "text": "Hi there, everyone.",
+        "start": 0.16,
+        "duration": 0.68
+    },
+    {
+        "text": "I'm Brady, and I make the\nNumberphile videos.",
+        "start": 0.84,
+        "duration": 2.67
+    },
+    {
+        "text": "And this is a bit of a\nsupplementary video for our",
+        "start": 3.51,
+        "duration": 2.32
+    },
+    {
+        "text": "one about Benford's Law.",
+        "start": 5.83,
+        "duration": 2.24
+    },
+    {
+        "text": "Now hopefully you've already\nwatched that, and you know",
+        "start": 8.07,
+        "duration": 1.63
+    },
+    {
+        "text": "what Benford's Law is.",
+        "start": 9.7,
+        "duration": 1.52
+    },
+    {
+        "text": "But just a reminder, everything\nwe're talking about",
+        "start": 11.22,
+        "duration": 2.26
+    },
+    {
+        "text": "here pertains to the\nfirst digit of",
+        "start": 13.48,
+        "duration": 3.13
+    },
+    {
+        "text": "all these big numbers.",
+        "start": 16.61,
+        "duration": 1.65
+    },
+    {
+        "text": "So let's get into it.",
+        "start": 18.26,
+        "duration": 1.46
+    },
+    {
+        "text": "What we've done is an analysis\nof the statistics of",
+        "start": 19.72,
+        "duration": 4.08
+    },
+    {
+        "text": "Numberphile videos to find out\nwhether or not they're",
+        "start": 23.8,
+        "duration": 2.94
+    },
+    {
+        "text": "following Benford's Law.",
+        "start": 26.74,
+        "duration": 1.92
+    },
+    {
+        "text": "Now I'd love to say I did\nthis myself, but it's a",
+        "start": 28.66,
+        "duration": 1.94
+    },
+    {
+        "text": "bit beyond my skills.",
+        "start": 30.6,
+        "duration": 1.51
+    },
+    {
+        "text": "I was helped by a very clever\nman named Daniel, so",
+        "start": 32.11,
+        "duration": 2.36
+    },
+    {
+        "text": "thank you to him.",
+        "start": 34.47,
+        "duration": 0.8
+    },
+    {
+        "text": "So what I've done is I've given\nDaniel the duration of",
+        "start": 35.27,
+        "duration": 2.58
+    },
+    {
+        "text": "every Numberphile video in\nseconds, the number of times",
+        "start": 37.85,
+        "duration": 3.63
+    },
+    {
+        "text": "it's been viewed, and the number\nof comments that have",
+        "start": 41.48,
+        "duration": 2.92
+    },
+    {
+        "text": "been made on each video.",
+        "start": 44.4,
+        "duration": 1.18
+    },
+    {
+        "text": "So what he's done is he's looked\nat the first digit of",
+        "start": 45.58,
+        "duration": 2.67
+    },
+    {
+        "text": "all those numbers and plotted\nthem on a graph, finding out",
+        "start": 48.25,
+        "duration": 3.46
+    },
+    {
+        "text": "what digit is most commonly at\nthe start of the number.",
+        "start": 51.71,
+        "duration": 4.47
+    },
+    {
+        "text": "And here's the graph.",
+        "start": 56.18,
+        "duration": 1.32
+    },
+    {
+        "text": "Now let's look at these\none by one.",
+        "start": 57.5,
+        "duration": 1.88
+    },
+    {
+        "text": "First of all, there's\nthe durations.",
+        "start": 59.38,
+        "duration": 2.27
+    },
+    {
+        "text": "And for those of you who\nremember what a good Benford",
+        "start": 61.65,
+        "duration": 2.71
+    },
+    {
+        "text": "curve looks like, well,\nit looks like this.",
+        "start": 64.36,
+        "duration": 3.67
+    },
+    {
+        "text": "So we haven't got a\nvery good match.",
+        "start": 68.03,
+        "duration": 2.08
+    },
+    {
+        "text": "Let's look at the view counts.",
+        "start": 70.11,
+        "duration": 1.95
+    },
+    {
+        "text": "Now, number one is definitely\nthe most common digit at the",
+        "start": 72.06,
+        "duration": 2.81
+    },
+    {
+        "text": "start of the view counts,\nfollowed by number two.",
+        "start": 74.87,
+        "duration": 2.91
+    },
+    {
+        "text": "That's as it should be.",
+        "start": 77.78,
+        "duration": 1.63
+    },
+    {
+        "text": "But it goes a bit wrong there\nat the end, doesn't it?",
+        "start": 79.41,
+        "duration": 2.79
+    },
+    {
+        "text": "Let's try the number\nof comments on",
+        "start": 82.2,
+        "duration": 1.59
+    },
+    {
+        "text": "each Numberphile video.",
+        "start": 83.79,
+        "duration": 1.69
+    },
+    {
+        "text": "Again, number four seems to come\nup more than you would",
+        "start": 85.48,
+        "duration": 3.07
+    },
+    {
+        "text": "have expected.",
+        "start": 88.55,
+        "duration": 0.88
+    },
+    {
+        "text": "Number one is still the\ntop, but I don't know.",
+        "start": 89.43,
+        "duration": 2.92
+    },
+    {
+        "text": "It's not quite Benford-esque,\nis it?",
+        "start": 92.35,
+        "duration": 2.32
+    },
+    {
+        "text": "So the Numberphile statistics\ndon't seem to quite be",
+        "start": 94.67,
+        "duration": 3.2
+    },
+    {
+        "text": "following the way we hoped.",
+        "start": 97.87,
+        "duration": 1.98
+    },
+    {
+        "text": "Maybe that's because it's not\na big enough sample size.",
+        "start": 99.85,
+        "duration": 2.42
+    },
+    {
+        "text": "We've only done just over\n100 Numberphile videos.",
+        "start": 102.27,
+        "duration": 3.3
+    },
+    {
+        "text": "But for those of you who are\nfamiliar with my other",
+        "start": 105.57,
+        "duration": 2.01
+    },
+    {
+        "text": "channels, yes, I do have quite a\nfew other channels, so those",
+        "start": 107.58,
+        "duration": 5.7
+    },
+    {
+        "text": "of you who are familiar with\nthose other channels might be",
+        "start": 113.28,
+        "duration": 1.92
+    },
+    {
+        "text": "aware that I've made, well,\nwell over 1,000 videos on",
+        "start": 115.2,
+        "duration": 3.2
+    },
+    {
+        "text": "YouTube now.",
+        "start": 118.4,
+        "duration": 1.03
+    },
+    {
+        "text": "That's a bigger sample size.",
+        "start": 119.43,
+        "duration": 1.84
+    },
+    {
+        "text": "So I sent the statistics for\nall those videos to Daniel,",
+        "start": 121.27,
+        "duration": 3.42
+    },
+    {
+        "text": "and he did the same thing.",
+        "start": 124.69,
+        "duration": 1.6
+    },
+    {
+        "text": "Let's find out what\nhappened there.",
+        "start": 126.29,
+        "duration": 1.49
+    },
+    {
+        "text": "So these are the steps\nfor all my channels.",
+        "start": 127.78,
+        "duration": 2.93
+    },
+    {
+        "text": "And let's go through\nthem one by one.",
+        "start": 130.71,
+        "duration": 1.71
+    },
+    {
+        "text": "First of all, the durations.",
+        "start": 132.42,
+        "duration": 2.03
+    },
+    {
+        "text": "There we go.",
+        "start": 134.45,
+        "duration": 1.33
+    },
+    {
+        "text": "Not Benford-esque, is it?",
+        "start": 135.78,
+        "duration": 1.8
+    },
+    {
+        "text": "In fact, number one's\nnot even top.",
+        "start": 137.58,
+        "duration": 1.9
+    },
+    {
+        "text": "Number three is the most\ncommon first digit.",
+        "start": 139.48,
+        "duration": 2.91
+    },
+    {
+        "text": "Now, we've had a bit of a talk\nabout this, and we've got a",
+        "start": 142.39,
+        "duration": 1.84
+    },
+    {
+        "text": "few theories as to why the\ndurations aren't working.",
+        "start": 144.23,
+        "duration": 2.73
+    },
+    {
+        "text": "But rather than putting them\nhere in the video, I thought",
+        "start": 146.96,
+        "duration": 2.04
+    },
+    {
+        "text": "it might be more fun for you\nto think about it, propose",
+        "start": 149.0,
+        "duration": 2.63
+    },
+    {
+        "text": "what you think's going\non, and put them in",
+        "start": 151.63,
+        "duration": 2.15
+    },
+    {
+        "text": "comments under the video.",
+        "start": 153.78,
+        "duration": 1.75
+    },
+    {
+        "text": "There's also a blog where we've\ngone into it, and again,",
+        "start": 155.53,
+        "duration": 2.51
+    },
+    {
+        "text": "there will be links under the\nvideo in the full description,",
+        "start": 158.04,
+        "duration": 2.3
+    },
+    {
+        "text": "so have a look at that.",
+        "start": 160.34,
+        "duration": 1.17
+    },
+    {
+        "text": "But enough about durations.",
+        "start": 161.51,
+        "duration": 1.7
+    },
+    {
+        "text": "Let's look at the view counts,\nand the number of comments.",
+        "start": 163.21,
+        "duration": 4.0
+    },
+    {
+        "text": "Plotting the view counts on all\nmy videos, the most common",
+        "start": 167.21,
+        "duration": 4.64
+    },
+    {
+        "text": "first digit is 1, followed\nby 2, followed by 3,",
+        "start": 171.85,
+        "duration": 3.48
+    },
+    {
+        "text": "4, 5, 6, 7, 8, 9.",
+        "start": 175.33,
+        "duration": 4.37
+    },
+    {
+        "text": "And the curve?",
+        "start": 179.7,
+        "duration": 1.28
+    },
+    {
+        "text": "Well, quite Benford-esque.",
+        "start": 180.98,
+        "duration": 2.26
+    },
+    {
+        "text": "Not bad, eh?",
+        "start": 183.24,
+        "duration": 1.88
+    },
+    {
+        "text": "And looking at the number of\ncomments, again, remember this",
+        "start": 185.12,
+        "duration": 2.89
+    },
+    {
+        "text": "is the first digit\nin these numbers.",
+        "start": 188.01,
+        "duration": 2.24
+    },
+    {
+        "text": "Have a look at that.",
+        "start": 190.25,
+        "duration": 1.22
+    },
+    {
+        "text": "1, 2, 3, 4, 5, 6, 7, 8, 9.",
+        "start": 191.47,
+        "duration": 4.64
+    },
+    {
+        "text": "Again, a lovely Benford\ncurve there.",
+        "start": 196.11,
+        "duration": 3.09
+    },
+    {
+        "text": "So it looks like even the\nYouTube viewing statistics and",
+        "start": 199.2,
+        "duration": 3.2
+    },
+    {
+        "text": "the number of comments are\nfollowing a Benford curve.",
+        "start": 202.4,
+        "duration": 3.11
+    },
+    {
+        "text": "Now as I said, more\ninformation,",
+        "start": 205.51,
+        "duration": 1.96
+    },
+    {
+        "text": "links under the video.",
+        "start": 207.47,
+        "duration": 1.31
+    },
+    {
+        "text": "Thank you to Daniel for\nhelping me out.",
+        "start": 208.78,
+        "duration": 2.03
+    },
+    {
+        "text": "Thank you for all the other\npeople who volunteered to help",
+        "start": 210.81,
+        "duration": 2.14
+    },
+    {
+        "text": "me out when I put out\nthe plea for help.",
+        "start": 212.95,
+        "duration": 2.32
+    },
+    {
+        "text": "And we'll have more\nvideos soon.",
+        "start": 215.27,
+        "duration": 1.89
+    },
+    {
+        "text": "And leave a comment\nunder this one.",
+        "start": 221.98,
+        "duration": 1.48
+    },
+    {
+        "text": "Let's see if we can get this\none outside the curve.",
+        "start": 223.46,
+        "duration": 1.72
+    }
+]

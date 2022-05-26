@@ -1,0 +1,1052 @@
+[
+    {
+        "text": "Matt: Okay, here we go, we have a link \nbetween Mersenne primes and perfect numbers",
+        "start": 0.1,
+        "duration": 3.079
+    },
+    {
+        "text": "Brady: You've already shown a link...",
+        "start": 3.18,
+        "duration": 0.999
+    },
+    {
+        "text": "Matt: We're going to, well, I'm going to prove that link. \nSo, here's how we're going to do it",
+        "start": 4.179,
+        "duration": 3.731
+    },
+    {
+        "text": "Once again we're going to have n,\nand we're going to have 2^n - 1",
+        "start": 7.91,
+        "duration": 4.8
+    },
+    {
+        "text": "But, I'm not going to bother with the ones that don't work. I'm only going to have the ones that work.",
+        "start": 12.71,
+        "duration": 4.31
+    },
+    {
+        "text": "Which is 2, 3, 5, 7, and 13\nand they give us the Mersenne primes",
+        "start": 17.02,
+        "duration": 6.86
+    },
+    {
+        "text": "Ahh... 2 gives us 3 ... 3 gives us 7 ...\n... 5 gives us 31 ... 127 ...8191 ...",
+        "start": 23.89,
+        "duration": 7.36
+    },
+    {
+        "text": "and then they match up with ... \nsome perfect numbers.",
+        "start": 31.25,
+        "duration": 5.06
+    },
+    {
+        "text": "Which I'm gonna put over here.\nAs \"Perfect Number\"",
+        "start": 36.31,
+        "duration": 2.18
+    },
+    {
+        "text": "And so, 3 matches up with 6\n7 matches up with 28",
+        "start": 38.49,
+        "duration": 6.44
+    },
+    {
+        "text": "31 matches up with 496\n127 matches up with 8128",
+        "start": 44.93,
+        "duration": 8.58
+    },
+    {
+        "text": "and then this one matches up with ... something.\nWe will get to that in a second.",
+        "start": 53.559,
+        "duration": 4.39
+    },
+    {
+        "text": "Brady: Can there only be one Mersenne prime,\n among the factors of a Perfect Number?",
+        "start": 57.949,
+        "duration": 4.78
+    },
+    {
+        "text": "Matt: Yes!\nThere's only...",
+        "start": 62.729,
+        "duration": 2.52
+    },
+    {
+        "text": "There's only ever one Mersenne prime in\nthe factors of an even perfect number,",
+        "start": 65.28,
+        "duration": 4.339
+    },
+    {
+        "text": "and every even perfect number has one\nMersenne prime in there, somewhere.",
+        "start": 69.619,
+        "duration": 4.54
+    },
+    {
+        "text": "The reason I keep saying even, and\nI'm gonna stop saying even from now on,",
+        "start": 74.16,
+        "duration": 3.36
+    },
+    {
+        "text": "is because no one has ever found an odd\nperfect number.",
+        "start": 77.53,
+        "duration": 3.11
+    },
+    {
+        "text": "But no one has ever managed to prove\nthat odd perfect numbers don't exist, so..",
+        "start": 80.64,
+        "duration": 3.89
+    },
+    {
+        "text": "For all we know, there could be an odd \nperfect number, but no one has come across it.",
+        "start": 84.53,
+        "duration": 3.39
+    },
+    {
+        "text": "We do know, if we find an odd Perfect Number,\nit's not going to have a Mersenne prime as a factor.",
+        "start": 87.93,
+        "duration": 5.259
+    },
+    {
+        "text": "So from now on when I say Perfect Number I mean even perfect number by default.",
+        "start": 93.64,
+        "duration": 3.18
+    },
+    {
+        "text": "So, if you look at the link I showed you that these numbers were all factors of these perfect numbers",
+        "start": 96.82,
+        "duration": 5.34
+    },
+    {
+        "text": "In fact I'm going to write those in.",
+        "start": 102.16,
+        "duration": 2.0
+    },
+    {
+        "text": "So if you have 3, you multiply it by 2, you get 6.",
+        "start": 104.16,
+        "duration": 4.88
+    },
+    {
+        "text": "If you get 7, and you multiply it by 4, you get 28.",
+        "start": 109.04,
+        "duration": 5.44
+    },
+    {
+        "text": "If you get 31, and multiply it by 16, you get 496.",
+        "start": 114.48,
+        "duration": 4.36
+    },
+    {
+        "text": "127 multiply it by 64, you get 8128.",
+        "start": 118.84,
+        "duration": 3.28
+    },
+    {
+        "text": "So now, you should be thinking, \"what's the pattern here?\"",
+        "start": 122.12,
+        "duration": 4.24
+    },
+    {
+        "text": "Right, so let's say I give you a new Mersenne prime. Let's say it's hot off the press.",
+        "start": 126.96,
+        "duration": 5.32
+    },
+    {
+        "text": "Wow, I've just found 8191 as a Mersenne prime, you know what, I want to know what its perfect number is.",
+        "start": 132.28,
+        "duration": 6.64
+    },
+    {
+        "text": "Because that's where the fun is.",
+        "start": 138.92,
+        "duration": 1.88
+    },
+    {
+        "text": "Forget Mersenne primes, in fact Mersenne primes were first studied by the ancient Greeks",
+        "start": 140.8,
+        "duration": 4.28
+    },
+    {
+        "text": "solely to get to the perfect number goodness.",
+        "start": 145.08,
+        "duration": 2.7
+    },
+    {
+        "text": "And so all we want to know is what do I have to multiply that by to get over there.",
+        "start": 147.78,
+        "duration": 4.92
+    },
+    {
+        "text": "And so people searched for all sorts of patterns. People go \"Ah! It's obvious because if you square 2 you get 4.",
+        "start": 152.7,
+        "duration": 5.7
+    },
+    {
+        "text": "If you square 4 you get 16.",
+        "start": 158.4,
+        "duration": 1.72
+    },
+    {
+        "text": "That's the pattern\", ignoring the fact that 16 squared is 256.",
+        "start": 160.12,
+        "duration": 3.94
+    },
+    {
+        "text": "And the people go, \"Oh no wait! Multiply by 4, because 4 times 4 is 16.",
+        "start": 164.06,
+        "duration": 3.68
+    },
+    {
+        "text": "And 16 by 4 is 64\" and they ignore that fact that 2 by 4 is not 4.  So people find other patterns.",
+        "start": 167.74,
+        "duration": 4.26
+    },
+    {
+        "text": "The actual pattern is...",
+        "start": 172.0,
+        "duration": 2.0
+    },
+    {
+        "text": "this equals",
+        "start": 174.42,
+        "duration": 1.6
+    },
+    {
+        "text": "2 to the 1",
+        "start": 176.64,
+        "duration": 1.04
+    },
+    {
+        "text": "That equals 2 squared.",
+        "start": 177.68,
+        "duration": 2.34
+    },
+    {
+        "text": "That equals 2 to the four.",
+        "start": 180.26,
+        "duration": 2.0
+    },
+    {
+        "text": "That equals 2 to the 6.",
+        "start": 182.26,
+        "duration": 2.0
+    },
+    {
+        "text": "And it's these numbers here, the 1, the 2, the 4, and the 6, that's where the pattern is.",
+        "start": 184.26,
+        "duration": 3.44
+    },
+    {
+        "text": "That is always 1 less than the number over here.",
+        "start": 187.7,
+        "duration": 3.34
+    },
+    {
+        "text": "So 1 less than 2, that's our 1. 1 Less than 3 that's our 2. 1 less than 5 that's our 4.",
+        "start": 191.58,
+        "duration": 5.98
+    },
+    {
+        "text": "1 less than 7 that's our 6.",
+        "start": 197.56,
+        "duration": 2.0
+    },
+    {
+        "text": "So this column is 2 to the n-1.",
+        "start": 199.56,
+        "duration": 4.68
+    },
+    {
+        "text": "Brady: I reckon if you'd given me 2 weeks I wouldn't have figured that out.",
+        "start": 204.24,
+        "duration": 2.96
+    },
+    {
+        "text": "Matt: So I use this to torment young people. I get highschool students to try and work out that pattern.",
+        "start": 207.2,
+        "duration": 6.06
+    },
+    {
+        "text": "And basically I walk around being a professional jerk.",
+        "start": 213.26,
+        "duration": 3.42
+    },
+    {
+        "text": "Because I won't give them the answer. And they come up with a pattern and I go, \"does it work?\"",
+        "start": 216.68,
+        "duration": 4.06
+    },
+    {
+        "text": "and they'll try the next one and it won't.",
+        "start": 220.74,
+        "duration": 2.0
+    },
+    {
+        "text": "And eventually one kid will work it out and they will be the most smug child you have ever met and justifiably so.",
+        "start": 222.74,
+        "duration": 5.26
+    },
+    {
+        "text": "And they will happily retire",
+        "start": 228.0,
+        "duration": 2.0
+    },
+    {
+        "text": "convinced that if you have a Mersenne prime",
+        "start": 230.4,
+        "duration": 4.24
+    },
+    {
+        "text": "2^n -1",
+        "start": 235.06,
+        "duration": 2.0
+    },
+    {
+        "text": "and you then multiply",
+        "start": 237.22,
+        "duration": 2.0
+    },
+    {
+        "text": "that by 2^(n-1)",
+        "start": 239.22,
+        "duration": 3.62
+    },
+    {
+        "text": "you always always always get a perfect number.",
+        "start": 242.84,
+        "duration": 3.68
+    },
+    {
+        "text": "And they will go home and I will say, \"Well how do you know it works?\"",
+        "start": 246.52,
+        "duration": 3.6
+    },
+    {
+        "text": "How do we know that's always going to work?",
+        "start": 250.12,
+        "duration": 2.0
+    },
+    {
+        "text": "We haven't proven that. And they will confuse trying examples with proving something.",
+        "start": 252.12,
+        "duration": 5.64
+    },
+    {
+        "text": "And I love trying examples. I don't want to rain hate on the trying example parade.",
+        "start": 257.76,
+        "duration": 4.48
+    },
+    {
+        "text": "Because that's how you find patterns to start with but you then you got to prove them.",
+        "start": 262.24,
+        "duration": 3.78
+    },
+    {
+        "text": "So we're going to prove that this always works.",
+        "start": 266.02,
+        "duration": 2.0
+    },
+    {
+        "text": "And we'll be very careful, by the way because 2^n -1 sounds a lot like 2^(n-1).",
+        "start": 268.02,
+        "duration": 5.86
+    },
+    {
+        "text": "And this subtract 1 can drift if you're not careful when you're copying things.",
+        "start": 273.88,
+        "duration": 4.72
+    },
+    {
+        "text": "But what's quite fun if you get someone to do this, listen to how they pronounce this because people pronounce",
+        "start": 278.6,
+        "duration": 5.1
+    },
+    {
+        "text": "superscripts in maths with rising inflections",
+        "start": 284.14,
+        "duration": 2.7
+    },
+    {
+        "text": "and so you get kids to read this out and they go, \"well this is two to the n minus one\".",
+        "start": 286.84,
+        "duration": 3.84
+    },
+    {
+        "text": "\"times two to the n minus one\"",
+        "start": 290.68,
+        "duration": 2.32
+    },
+    {
+        "text": "and that, you know, means superscript.",
+        "start": 293.0,
+        "duration": 2.34
+    },
+    {
+        "text": "Brady: Is that why Australians ...\nMatt: And that's why Australians are very good at maths",
+        "start": 295.34,
+        "duration": 3.18
+    },
+    {
+        "text": "So that's why I put this at the end, right?",
+        "start": 298.52,
+        "duration": 1.68
+    },
+    {
+        "text": "So I end on the inflection. If I put this at the beginning it messes with my - I can't do,",
+        "start": 300.2,
+        "duration": 3.32
+    },
+    {
+        "text": "\"Two to the n minus one, two to the n minus one.\" it's just not as much fun. So we're going to prove this.",
+        "start": 303.52,
+        "duration": 5.82
+    },
+    {
+        "text": "And I'm going to prove it by doing an example first, then I'm going to do it in a general sense.",
+        "start": 309.76,
+        "duration": 3.76
+    },
+    {
+        "text": "So let's be lazy and do it for 496.",
+        "start": 313.52,
+        "duration": 3.52
+    },
+    {
+        "text": "And so a little while ago I impressed you and possible two or three other people",
+        "start": 317.04,
+        "duration": 4.84
+    },
+    {
+        "text": "by randomly listing off, as if I had memorized them,",
+        "start": 321.88,
+        "duration": 3.14
+    },
+    {
+        "text": "all the factors of 496.",
+        "start": 325.02,
+        "duration": 2.0
+    },
+    {
+        "text": "All I was doing was starting at 1 and doubling.",
+        "start": 327.02,
+        "duration": 3.64
+    },
+    {
+        "text": "Double 1 to get 2, double 2 to get 4, double 4 to get 8, double 8 to get 16.",
+        "start": 330.66,
+        "duration": 4.66
+    },
+    {
+        "text": "If I double 16 I get 32,",
+        "start": 335.32,
+        "duration": 3.38
+    },
+    {
+        "text": "which is 1 above a Mersenne prime.",
+        "start": 338.7,
+        "duration": 2.54
+    },
+    {
+        "text": "So in fact to get any perfect number you start at 1, you keep doubling",
+        "start": 341.24,
+        "duration": 3.62
+    },
+    {
+        "text": "until you can choose any Mersenne prime of your choosing",
+        "start": 344.86,
+        "duration": 3.2
+    },
+    {
+        "text": "you get 1 above your Mersenne prime and instead of writing plus 32",
+        "start": 348.06,
+        "duration": 5.34
+    },
+    {
+        "text": "I'm going to put plus 31 instead. I'm going to switch to the Mersenne prime.",
+        "start": 353.4,
+        "duration": 4.46
+    },
+    {
+        "text": "And then I'm going to continue the doubling. I double that I'm going to get 62",
+        "start": 357.86,
+        "duration": 3.38
+    },
+    {
+        "text": "I double that I get 124",
+        "start": 361.24,
+        "duration": 2.28
+    },
+    {
+        "text": "I double that I get 248.",
+        "start": 363.52,
+        "duration": 2.0
+    },
+    {
+        "text": "So in fact, I wasn't, I hadn't memorized those numbers",
+        "start": 365.52,
+        "duration": 2.98
+    },
+    {
+        "text": "I just started a doubling sequence and then jumped off it to a Mersenne prime",
+        "start": 369.0,
+        "duration": 4.02
+    },
+    {
+        "text": "Brady: You had memorized the Mersenne prime",
+        "start": 373.02,
+        "duration": 1.66
+    },
+    {
+        "text": "Matt: I had memorized the Mersenne primes and then I doubled the Mersenne primes to finish the sequence",
+        "start": 374.68,
+        "duration": 4.14
+    },
+    {
+        "text": "And because I am ... 'cos I know where we're going I'm going to switch back to adding in the number itself.",
+        "start": 378.82,
+        "duration": 7.52
+    },
+    {
+        "text": "which you remember I did before. I said you could",
+        "start": 386.54,
+        "duration": 3.42
+    },
+    {
+        "text": "add the number that the total was twice the original, I want to put that back in the mix.",
+        "start": 389.96,
+        "duration": 4.32
+    },
+    {
+        "text": "So how could we add these up?",
+        "start": 394.28,
+        "duration": 2.0
+    },
+    {
+        "text": "We could have just added them up by summing them.",
+        "start": 396.66,
+        "duration": 3.04
+    },
+    {
+        "text": "Let's get slightly more excited. Because if you look at this",
+        "start": 399.7,
+        "duration": 2.66
+    },
+    {
+        "text": "this sequence here is actually that sequence times the Mersenne primes.",
+        "start": 402.56,
+        "duration": 4.16
+    },
+    {
+        "text": "So I could rewrite this, this equals 1+2+4+8+16",
+        "start": 406.72,
+        "duration": 6.76
+    },
+    {
+        "text": "+ Mersenne prime 31 outside 1+2+4+8+16",
+        "start": 413.84,
+        "duration": 7.22
+    },
+    {
+        "text": "And that's actually why I put this back on so we get that same 16 in there.",
+        "start": 421.06,
+        "duration": 4.12
+    },
+    {
+        "text": "I can then make that 1 + 31 because it's 1",
+        "start": 425.18,
+        "duration": 5.6
+    },
+    {
+        "text": "times that sequences + 31 times that sequence.",
+        "start": 431.3,
+        "duration": 2.96
+    },
+    {
+        "text": "That's 1+31 times 1+2+4+8+16",
+        "start": 434.26,
+        "duration": 8.66
+    },
+    {
+        "text": "That now equals, 32.",
+        "start": 442.92,
+        "duration": 2.54
+    },
+    {
+        "text": "And that will always bump it back up to the next power of two so that becomes 2 to the 5.",
+        "start": 445.46,
+        "duration": 4.96
+    },
+    {
+        "text": "And 1+2+4+8+16, if you actually adds them all together that equals 31",
+        "start": 450.58,
+        "duration": 7.8
+    },
+    {
+        "text": "And if you multiply those together you get twice 496, you get 992.",
+        "start": 458.38,
+        "duration": 7.6
+    },
+    {
+        "text": "So that's an unusual way to add them together",
+        "start": 465.98,
+        "duration": 2.3
+    },
+    {
+        "text": "right, but now we're going to do the same thing in general",
+        "start": 468.28,
+        "duration": 3.36
+    },
+    {
+        "text": "for this equation.",
+        "start": 471.64,
+        "duration": 1.84
+    },
+    {
+        "text": "What I'm going to do, is I'm going to take",
+        "start": 473.48,
+        "duration": 2.68
+    },
+    {
+        "text": "2 to the (n-1) times 2^n - 1.",
+        "start": 476.16,
+        "duration": 6.74
+    },
+    {
+        "text": "And I'm going to show you if you add all the factors of this, they sum to give you that formula.",
+        "start": 482.9,
+        "duration": 6.52
+    },
+    {
+        "text": "Or rather if you add all the factors, not just the proper factors they sum to twice that formula.",
+        "start": 489.42,
+        "duration": 5.24
+    },
+    {
+        "text": "So what are the factors of that?",
+        "start": 494.66,
+        "duration": 2.14
+    },
+    {
+        "text": "Well what have we got at the front here?",
+        "start": 496.8,
+        "duration": 2.0
+    },
+    {
+        "text": "We've got 2^(n-1)",
+        "start": 498.8,
+        "duration": 2.24
+    },
+    {
+        "text": "So that means the factors are definitely going to be",
+        "start": 501.66,
+        "duration": 2.76
+    },
+    {
+        "text": "1+2^1",
+        "start": 504.42,
+        "duration": 4.84
+    },
+    {
+        "text": "+2^2 +2^3 + all the way up to 2^(n-1)",
+        "start": 509.56,
+        "duration": 7.6
+    },
+    {
+        "text": "So that's going to be 2^(n-2) +2^(n-1), it's going to be a whole number.",
+        "start": 517.16,
+        "duration": 7.26
+    },
+    {
+        "text": "So this is obviously a big power of 2; there are all its factors.",
+        "start": 524.42,
+        "duration": 3.4
+    },
+    {
+        "text": "This is prime; it's not going to have any factors.",
+        "start": 527.82,
+        "duration": 2.58
+    },
+    {
+        "text": "But it's going to be this multiplied by all of these.",
+        "start": 530.4,
+        "duration": 2.32
+    },
+    {
+        "text": "So now we're going to have this, \nwe're going to have 2^n - 1",
+        "start": 532.72,
+        "duration": 3.74
+    },
+    {
+        "text": "+ 2^1 outside of 2^n - 1",
+        "start": 536.46,
+        "duration": 3.52
+    },
+    {
+        "text": "+ 2^2 outside of 2^n -1",
+        "start": 539.98,
+        "duration": 5.18
+    },
+    {
+        "text": "+ all the way up... \nblah, blah, blah,  + 2^(n-2) outside of 2^n -1",
+        "start": 545.16,
+        "duration": 6.86
+    },
+    {
+        "text": "plus 2^(n-1) outside of 2^n -1",
+        "start": 552.72,
+        "duration": 5.18
+    },
+    {
+        "text": "which is our original number again at the end of the list just like we had over here.",
+        "start": 557.9,
+        "duration": 3.12
+    },
+    {
+        "text": "It's equivalent to the very same number on the end.",
+        "start": 561.02,
+        "duration": 2.2
+    },
+    {
+        "text": "So that's the actual formula has appeared again.",
+        "start": 563.22,
+        "duration": 2.12
+    },
+    {
+        "text": "So what we really want to show is, all the other ones add to the same as that.",
+        "start": 565.34,
+        "duration": 3.34
+    },
+    {
+        "text": "So we're going to show that by showing that all of them together equal twice that.",
+        "start": 568.68,
+        "duration": 3.96
+    },
+    {
+        "text": "Okay, so we can start to tidy this up a little bit",
+        "start": 573.2,
+        "duration": 2.56
+    },
+    {
+        "text": "so that's going to equal",
+        "start": 575.76,
+        "duration": 2.0
+    },
+    {
+        "text": "this top sequence can stay the same.",
+        "start": 578.34,
+        "duration": 2.0
+    },
+    {
+        "text": "There's still going to be 1+ 2^1+2^2 + all the way up +2^(n-2) +2^(n-1)",
+        "start": 580.34,
+        "duration": 8.64
+    },
+    {
+        "text": "and this one here I'm going to put that out the front, so that's going to be",
+        "start": 588.98,
+        "duration": 3.4
+    },
+    {
+        "text": "2^n -1, so it's that prime number.",
+        "start": 592.62,
+        "duration": 2.58
+    },
+    {
+        "text": "times 1+2^1+2^2+ dadadada, + 2^(n-2)+2^(n-1)",
+        "start": 595.2,
+        "duration": 9.88
+    },
+    {
+        "text": "Okay, now, we're going to, because we have one lot of this, and that lot of that",
+        "start": 605.5,
+        "duration": 4.08
+    },
+    {
+        "text": "so that's going to equal 1+that.",
+        "start": 609.58,
+        "duration": 2.82
+    },
+    {
+        "text": "but there we got minus 1 so that's just going to equal 2^n",
+        "start": 612.4,
+        "duration": 4.04
+    },
+    {
+        "text": "outside of, so what I've done, I've done same as over here",
+        "start": 616.84,
+        "duration": 3.94
+    },
+    {
+        "text": "which was the Mersenne prime +1 gave us back to 2^5.",
+        "start": 620.78,
+        "duration": 5.08
+    },
+    {
+        "text": "I've done this +1, the 1s cancel out \nand we're left with 2^n.",
+        "start": 625.86,
+        "duration": 4.34
+    },
+    {
+        "text": "And this is going to be 1+2^1+2^2+ all the way up 2^(n-2)+2^(n-1)",
+        "start": 630.2,
+        "duration": 9.98
+    },
+    {
+        "text": "Now here's our problem: How on earth can we add together a sequence of numbers, a series here",
+        "start": 640.18,
+        "duration": 6.54
+    },
+    {
+        "text": "when we don't know how many there are? We don't know where it stops.",
+        "start": 647.1,
+        "duration": 2.72
+    },
+    {
+        "text": "Somehow we have to add together a sequence where we don't know the end,",
+        "start": 650.44,
+        "duration": 3.26
+    },
+    {
+        "text": "but we can do that with a little bit of cleverness.",
+        "start": 653.7,
+        "duration": 2.0
+    },
+    {
+        "text": "Where we just say",
+        "start": 656.62,
+        "duration": 2.0
+    },
+    {
+        "text": "let's assume we know the total, let's just say there's some total",
+        "start": 658.62,
+        "duration": 4.88
+    },
+    {
+        "text": "And it equals whatever this all of this happens to add to but we currently don't know what it is.",
+        "start": 663.5,
+        "duration": 6.12
+    },
+    {
+        "text": "But we've given it a name which is always the first step in maths",
+        "start": 670.58,
+        "duration": 3.1
+    },
+    {
+        "text": "And what would be twice that total?",
+        "start": 673.68,
+        "duration": 2.36
+    },
+    {
+        "text": "What if we had two times that total?",
+        "start": 676.04,
+        "duration": 2.0
+    },
+    {
+        "text": "Well that would equal double all of this.",
+        "start": 678.04,
+        "duration": 2.4
+    },
+    {
+        "text": "So that would then become our 2.",
+        "start": 680.6,
+        "duration": 2.6
+    },
+    {
+        "text": "+ double that would become 2^2+ double that would become 2^3",
+        "start": 683.2,
+        "duration": 5.42
+    },
+    {
+        "text": "+ all the way up double that would become double that would become 2^(n-1)+ double that + 2^n",
+        "start": 688.62,
+        "duration": 10.76
+    },
+    {
+        "text": "And actually, that is the same as that",
+        "start": 699.74,
+        "duration": 2.76
+    },
+    {
+        "text": "that term is going to be the same as that term, all the way down, that is the same as that, that is the same as that.",
+        "start": 702.5,
+        "duration": 4.22
+    },
+    {
+        "text": "So fact, all of these match apart from the beginning one here and the end one here.",
+        "start": 706.72,
+        "duration": 5.1
+    },
+    {
+        "text": "So we want to cancel all these out",
+        "start": 711.82,
+        "duration": 2.36
+    },
+    {
+        "text": "if I take all of these and subtract all of these",
+        "start": 714.18,
+        "duration": 3.6
+    },
+    {
+        "text": "I would just be left with this one subtract that one. So 2T",
+        "start": 718.08,
+        "duration": 3.74
+    },
+    {
+        "text": "minus T, this row minus that row equals 2^n-1",
+        "start": 723.4,
+        "duration": 7.02
+    },
+    {
+        "text": "And in fact 2T-T is just T, the total is 2^n-1.",
+        "start": 730.86,
+        "duration": 5.36
+    },
+    {
+        "text": "And we call this the geometric series.",
+        "start": 736.22,
+        "duration": 2.0
+    },
+    {
+        "text": "So that this, or it's a particular case of the geometric series where you can add together",
+        "start": 738.22,
+        "duration": 4.74
+    },
+    {
+        "text": "any long list of sequence of numbers where each one is the previous one multiplied by a constant amount.",
+        "start": 742.96,
+        "duration": 4.76
+    },
+    {
+        "text": "In this case we're multiplying it by 2 each time.",
+        "start": 747.72,
+        "duration": 1.64
+    },
+    {
+        "text": "It works for other ratios.",
+        "start": 749.36,
+        "duration": 1.58
+    },
+    {
+        "text": "So I can swap that in for all this mess becomes that.",
+        "start": 750.94,
+        "duration": 3.22
+    },
+    {
+        "text": "So now this, bring that down, equals",
+        "start": 754.16,
+        "duration": 4.38
+    },
+    {
+        "text": "2^n outside of 2^n -1.",
+        "start": 759.14,
+        "duration": 4.54
+    },
+    {
+        "text": "And you're like, \"Well we're practiaclly there.\" The only thing we're missing is",
+        "start": 763.68,
+        "duration": 3.6
+    },
+    {
+        "text": "we expect a minus 1 there and we haven't got it here. Where's that gone?",
+        "start": 767.28,
+        "duration": 3.24
+    },
+    {
+        "text": "Well like I said this is twice the original number.",
+        "start": 770.52,
+        "duration": 5.08
+    },
+    {
+        "text": "So we want to prove this equals twice \nwhat we started with.",
+        "start": 775.6,
+        "duration": 3.1
+    },
+    {
+        "text": "So we go with that equals twice times what's left if you take out a 2.",
+        "start": 778.7,
+        "duration": 5.02
+    },
+    {
+        "text": "Well that's 2^(n-1) outside of 2^n-1.",
+        "start": 783.72,
+        "duration": 4.16
+    },
+    {
+        "text": "And that's it.",
+        "start": 787.88,
+        "duration": 1.32
+    },
+    {
+        "text": "And so that is the proof that if you had a Mersenne prime 2^n-1",
+        "start": 789.44,
+        "duration": 6.6
+    },
+    {
+        "text": "and you multiply it by 2^(n-1)",
+        "start": 796.04,
+        "duration": 2.56
+    },
+    {
+        "text": "you'll guarantee to get a perfect number",
+        "start": 798.6,
+        "duration": 2.36
+    },
+    {
+        "text": "because if you take all the factors of that expression",
+        "start": 800.96,
+        "duration": 2.76
+    },
+    {
+        "text": "and then you add them all together, \nyou get back to twice your original expression",
+        "start": 803.72,
+        "duration": 3.44
+    },
+    {
+        "text": "which is our definition of the perfect number.",
+        "start": 807.16,
+        "duration": 3.32
+    },
+    {
+        "text": "And so people talk about the fact that there's a link between Mersenne primes and perfect numbers",
+        "start": 810.48,
+        "duration": 4.66
+    },
+    {
+        "text": "but now we have managed to prove it.",
+        "start": 815.14,
+        "duration": 3.16
+    },
+    {
+        "text": "That's - I'm so pleased I'm going to put the lids back on to both of the pens.",
+        "start": 821.58,
+        "duration": 3.14
+    },
+    {
+        "text": "Brady: Hi there everyone it's Brady who makes the Numberphile videos",
+        "start": 827.16,
+        "duration": 4.18
+    },
+    {
+        "text": "and I'm actually starting a new channel in January 2015 called Objectivity.",
+        "start": 831.34,
+        "duration": 3.44
+    },
+    {
+        "text": "And it's all about all the amazing treasures and science objects you find in places like this:",
+        "start": 834.78,
+        "duration": 3.66
+    },
+    {
+        "text": "the archive room at the Royal Society.",
+        "start": 838.44,
+        "duration": 2.98
+    },
+    {
+        "text": "If it sounds like something that might be interesting to you,",
+        "start": 841.42,
+        "duration": 4.34
+    },
+    {
+        "text": "check out the link on the screen on in the video description.",
+        "start": 845.76,
+        "duration": 2.0
+    }
+]

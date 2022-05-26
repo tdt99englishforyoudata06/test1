@@ -1,0 +1,1142 @@
+[
+    {
+        "text": "Henry:  If you have polarized sunglasses,\nyou have a quantum measurement device.",
+        "start": 2.22,
+        "duration": 3.7
+    },
+    {
+        "text": "Grant: Each of these pieces of glass is what's\ncalled a \"polarizing filter\", which means",
+        "start": 5.92,
+        "duration": 3.719
+    },
+    {
+        "text": "when a photon of light reaches the glass,\nit either passes through, or it doesn’t.",
+        "start": 9.639,
+        "duration": 4.161
+    },
+    {
+        "text": "And whether or not it passes through is effectively\na measurement of whether that photon is polarized",
+        "start": 13.8,
+        "duration": 5.08
+    },
+    {
+        "text": "in a given direction.",
+        "start": 18.88,
+        "duration": 1.0
+    },
+    {
+        "text": "Henry:  Try this: Find yourself several sets\nof polarized sunglasses.",
+        "start": 19.88,
+        "duration": 3.869
+    },
+    {
+        "text": "Look through one set of sunglasses at some\nlight source, like a lamp, then hold a second",
+        "start": 23.749,
+        "duration": 4.69
+    },
+    {
+        "text": "polarizing filter, between you and the light.",
+        "start": 28.439,
+        "duration": 2.09
+    },
+    {
+        "text": "As you rotate that second filter, the lamp\nwill look lighter and darker.",
+        "start": 30.529,
+        "duration": 3.501
+    },
+    {
+        "text": "It should look darkest when the second filter\nis oriented 90 degrees off from the first.",
+        "start": 34.03,
+        "duration": 4.27
+    },
+    {
+        "text": "What you're observing is that the photons\nwith polarization that allows them to pass",
+        "start": 38.3,
+        "duration": 3.02
+    },
+    {
+        "text": "through a filter along one axis have a much\nlower probability of passing through a second",
+        "start": 41.32,
+        "duration": 3.67
+    },
+    {
+        "text": "filter along a perpendicular axis – in principle\n0%.",
+        "start": 44.99,
+        "duration": 3.36
+    },
+    {
+        "text": "Grant: Here's where things get quantum-ly\nbizarre.",
+        "start": 48.35,
+        "duration": 3.25
+    },
+    {
+        "text": "All these filters do is remove light – they\n“filter” it out.",
+        "start": 51.6,
+        "duration": 3.59
+    },
+    {
+        "text": "But if you take a third filter, orient it\n45 degrees off from the first filter, and",
+        "start": 55.19,
+        "duration": 4.77
+    },
+    {
+        "text": "put it between the two, the lamp will actually\nlook brighter.",
+        "start": 59.96,
+        "duration": 3.369
+    },
+    {
+        "text": "This is not the middle filter generating more\nlight – somehow introducing another filter",
+        "start": 63.329,
+        "duration": 4.991
+    },
+    {
+        "text": "actually lets more light through.",
+        "start": 68.32,
+        "duration": 1.82
+    },
+    {
+        "text": "With perfect filters, if you keep adding\nmore and more in between at in-between angles,",
+        "start": 70.14,
+        "duration": 4.33
+    },
+    {
+        "text": "this trend continues – more light!",
+        "start": 74.47,
+        "duration": 2.27
+    },
+    {
+        "text": "Henry:  This feels super weird.",
+        "start": 76.74,
+        "duration": 2.48
+    },
+    {
+        "text": "But it’s not just weird that more light\ncomes through; when you dig in quantitatively",
+        "start": 79.22,
+        "duration": 3.64
+    },
+    {
+        "text": "to exactly how much more comes through, the\nnumbers don’t just seem too high, they seem",
+        "start": 82.86,
+        "duration": 4.79
+    },
+    {
+        "text": "impossibly high.",
+        "start": 87.65,
+        "duration": 1.26
+    },
+    {
+        "text": "And when we tug at this thread, it leads to\nan experiment a little more sophisticated",
+        "start": 88.91,
+        "duration": 3.71
+    },
+    {
+        "text": "than this sunglasses demo that forces us to\nquestion some very basic assumptions we have",
+        "start": 92.62,
+        "duration": 4.01
+    },
+    {
+        "text": "about the way the universe works – like,\nthat the results of experiments describe properties",
+        "start": 96.63,
+        "duration": 3.7
+    },
+    {
+        "text": "of the thing you’re experimenting on, and\nthat cause and effect don’t travel faster",
+        "start": 100.33,
+        "duration": 3.19
+    },
+    {
+        "text": "than the speed of light.",
+        "start": 103.52,
+        "duration": 1.25
+    },
+    {
+        "text": "Grant:  Where we're headed is Bell’s theorem:\none of the most thought-provoking discoveries",
+        "start": 104.77,
+        "duration": 4.89
+    },
+    {
+        "text": "in modern physics.",
+        "start": 109.66,
+        "duration": 1.15
+    },
+    {
+        "text": "To appreciate it, it’s worth understanding\na little of the math used to represent quantum",
+        "start": 110.81,
+        "duration": 4.56
+    },
+    {
+        "text": "states, like the polarization of a photon.",
+        "start": 115.37,
+        "duration": 2.32
+    },
+    {
+        "text": "We actually made a second video showing\nmore of the details for how this works, which",
+        "start": 117.69,
+        "duration": 3.65
+    },
+    {
+        "text": "you can find on 3blue1brown, but for now let’s\njust hit the main points.",
+        "start": 121.34,
+        "duration": 4.459
+    },
+    {
+        "text": "First, photons are waves in a thing called\nthe electromagnetic field, and polarization",
+        "start": 125.799,
+        "duration": 5.031
+    },
+    {
+        "text": "just means the direction in which that wave\nis wiggling.",
+        "start": 130.83,
+        "duration": 2.86
+    },
+    {
+        "text": " ",
+        "start": 133.69,
+        "duration": 1.0
+    },
+    {
+        "text": "Grant: Polarizing filters absorb this wiggling\nenergy in one direction, so the wave coming",
+        "start": 134.69,
+        "duration": 4.05
+    },
+    {
+        "text": "out the other side is wiggling purely in the\ndirection perpendicular to the one where energy",
+        "start": 138.74,
+        "duration": 5.18
+    },
+    {
+        "text": "absorption is happening.",
+        "start": 143.92,
+        "duration": 1.289
+    },
+    {
+        "text": "But unlike a water or sound wave, photons\nare quantum objects, and as such they either",
+        "start": 145.209,
+        "duration": 5.261
+    },
+    {
+        "text": "pass through a polarizer completely, or not\nat all, and this is apparently probabilistic,",
+        "start": 150.47,
+        "duration": 4.96
+    },
+    {
+        "text": "like how we don’t know whether or not Schrodinger’s\nCat will be alive or dead until we look in",
+        "start": 155.43,
+        "duration": 3.919
+    },
+    {
+        "text": "the box.",
+        "start": 159.349,
+        "duration": 1.0
+    },
+    {
+        "text": "Henry: For anyone uncomfortable with the nondeterminism\nof quantum mechanics, it’s tempting to imagine",
+        "start": 160.349,
+        "duration": 3.821
+    },
+    {
+        "text": "that a probabilistic event like this might\nhave some deeper cause that we just don’t",
+        "start": 164.17,
+        "duration": 3.92
+    },
+    {
+        "text": "know yet.",
+        "start": 168.09,
+        "duration": 1.0
+    },
+    {
+        "text": "That there is some “hidden variable”\ndescribing the photon’s state that would",
+        "start": 169.09,
+        "duration": 2.86
+    },
+    {
+        "text": "tell us with certainty whether it should pass\nthrough a given filter or not, and maybe that",
+        "start": 171.95,
+        "duration": 4.38
+    },
+    {
+        "text": "variable is just too subtle for us to probe\nwithout deeper theories and better measuring",
+        "start": 176.33,
+        "duration": 3.59
+    },
+    {
+        "text": "devices.",
+        "start": 179.92,
+        "duration": 1.0
+    },
+    {
+        "text": "Or maybe it’s somehow fundamentally unknowable,\nbut still there.",
+        "start": 180.92,
+        "duration": 3.77
+    },
+    {
+        "text": "Henry:  The possibility of such a hidden\nvariable seems beyond the scope of experiment.",
+        "start": 184.69,
+        "duration": 4.42
+    },
+    {
+        "text": "I mean, what measurements could possibly\nprobe at a deeper explanation that might or",
+        "start": 189.11,
+        "duration": 4.48
+    },
+    {
+        "text": "might not exist?",
+        "start": 193.59,
+        "duration": 1.14
+    },
+    {
+        "text": "And yet, we can do just that.",
+        "start": 194.73,
+        "duration": 1.97
+    },
+    {
+        "text": "Grant:...With sunglasses and polarization\nof light.",
+        "start": 196.7,
+        "duration": 2.45
+    },
+    {
+        "text": "Grant: Let’s lay down some numbers here.",
+        "start": 199.15,
+        "duration": 2.05
+    },
+    {
+        "text": "When light passes through a polarizing filter\noriented vertically, then comes to another",
+        "start": 201.2,
+        "duration": 4.2
+    },
+    {
+        "text": "polarizing filter oriented the same way, experiments\nshow that it’s essentially guaranteed to",
+        "start": 205.4,
+        "duration": 5.35
+    },
+    {
+        "text": "make it through the second filter.",
+        "start": 210.75,
+        "duration": 1.53
+    },
+    {
+        "text": "If that second filter is tilted 90 degrees\nfrom the first, then each photon has a 0%",
+        "start": 212.28,
+        "duration": 5.28
+    },
+    {
+        "text": "chance of passing through.",
+        "start": 217.56,
+        "duration": 1.5
+    },
+    {
+        "text": "And at 45 degrees, there’s a 50/50 chance.",
+        "start": 219.06,
+        "duration": 3.03
+    },
+    {
+        "text": "Henry: What’s more, these probabilities\nseem to only depend on the angle between the",
+        "start": 222.09,
+        "duration": 3.78
+    },
+    {
+        "text": "two filters in question, and nothing else\nthat happened to the photon before, including",
+        "start": 225.87,
+        "duration": 3.949
+    },
+    {
+        "text": "potentially having passed through a different\nfilter.",
+        "start": 229.819,
+        "duration": 2.151
+    },
+    {
+        "text": "Grant: But the real numerical weirdness happens\nwith filters oriented less than 45° apart.",
+        "start": 231.97,
+        "duration": 4.71
+    },
+    {
+        "text": "For example, at 22.5 degrees, any photon which\npasses through the first filter has an 85%",
+        "start": 236.68,
+        "duration": 7.279
+    },
+    {
+        "text": "chance of passing through the second filter.",
+        "start": 243.959,
+        "duration": 1.731
+    },
+    {
+        "text": "To see where all these numbers come from,\nby the way, check out the second video.",
+        "start": 245.69,
+        "duration": 3.269
+    },
+    {
+        "text": " ",
+        "start": 248.959,
+        "duration": 1.0
+    },
+    {
+        "text": "Henry: What’s strange about that last number\nis that you might expect it to be more like",
+        "start": 249.959,
+        "duration": 3.161
+    },
+    {
+        "text": "halfway between 50% and 100% since 22.5°\nis halfway between 0° and 45° – but it’s",
+        "start": 253.12,
+        "duration": 6.16
+    },
+    {
+        "text": "significantly higher.",
+        "start": 259.28,
+        "duration": 1.0
+    },
+    {
+        "text": "Henry: To see concretely how strange this\nis, let’s look at a particular arrangement",
+        "start": 260.28,
+        "duration": 3.88
+    },
+    {
+        "text": "of our three filters:  A, oriented vertically,\nB, oriented 22.5 degrees from vertical, and",
+        "start": 264.16,
+        "duration": 5.9
+    },
+    {
+        "text": "C, oriented 45 degrees from vertical.",
+        "start": 270.06,
+        "duration": 1.96
+    },
+    {
+        "text": "We’re going to compare just how many photons\nget blocked when B isn’t there with how",
+        "start": 272.02,
+        "duration": 4.26
+    },
+    {
+        "text": "many get blocked when B is there.",
+        "start": 276.28,
+        "duration": 1.91
+    },
+    {
+        "text": "When B is not there, half of those passing\nthrough A get blocked at C.  That is, filter",
+        "start": 278.19,
+        "duration": 5.22
+    },
+    {
+        "text": "C makes the lamp look half as bright as it\nwould with just filter A.",
+        "start": 283.41,
+        "duration": 3.24
+    },
+    {
+        "text": "Henry: But once you insert B, like we said,\n85% of those passing through A pass through",
+        "start": 286.65,
+        "duration": 4.96
+    },
+    {
+        "text": "B, which means 15% are blocked at B.  And\n15% of those that pass through B are blocked",
+        "start": 291.61,
+        "duration": 5.61
+    },
+    {
+        "text": "at C. But how on earth does blocking 15% twice\nadd up to the 50% blocked if B isn’t there?",
+        "start": 297.22,
+        "duration": 5.93
+    },
+    {
+        "text": "Well, it doesn’t, which is why the lamp\nlooks brighter when you insert filter B, but",
+        "start": 303.15,
+        "duration": 4.35
+    },
+    {
+        "text": "it really makes you wonder how the universe\nis deciding which photons to let through and",
+        "start": 307.5,
+        "duration": 4.19
+    },
+    {
+        "text": "which ones to block.",
+        "start": 311.69,
+        "duration": 1.15
+    },
+    {
+        "text": "Grant: In fact, these numbers suggest that\nit’s impossible for there to be some hidden",
+        "start": 312.84,
+        "duration": 4.0
+    },
+    {
+        "text": "variable determining each photon’s state\nwith respect to each filter.",
+        "start": 316.84,
+        "duration": 3.85
+    },
+    {
+        "text": "That is, if each one has some definite answers\nto the three questions “Would it pass through",
+        "start": 320.69,
+        "duration": 6.39
+    },
+    {
+        "text": "A”, “Would it pass through B” and “Would\nit pass through C”, even before those measurements",
+        "start": 327.08,
+        "duration": 4.32
+    },
+    {
+        "text": "are made.",
+        "start": 331.4,
+        "duration": 1.0
+    },
+    {
+        "text": "Grant: We’ll do a proof by contradiction,\nwhere we imagine 100 photons who do have some",
+        "start": 332.4,
+        "duration": 5.359
+    },
+    {
+        "text": "hidden variable which, through whatever crazy\nunderlying mechanism you might imagine, determines",
+        "start": 337.759,
+        "duration": 4.631
+    },
+    {
+        "text": "their answers to these questions.",
+        "start": 342.39,
+        "duration": 1.38
+    },
+    {
+        "text": "And let’s say all of these will definitely\npass through A, which I’ll show by putting",
+        "start": 343.77,
+        "duration": 4.27
+    },
+    {
+        "text": "all 100 inside this circle representing photons\nthat pass through A.",
+        "start": 348.04,
+        "duration": 3.95
+    },
+    {
+        "text": "Grant: To produce the results we see in experiments,\nabout 85 of these photons would have to have",
+        "start": 351.99,
+        "duration": 5.032
+    },
+    {
+        "text": "a hidden variable determining that they pass\nthrough B, so let’s put 85 of these guys",
+        "start": 357.022,
+        "duration": 4.568
+    },
+    {
+        "text": "in the intersection of A and B, leaving 15\nin this crescent moon section representing",
+        "start": 361.59,
+        "duration": 5.73
+    },
+    {
+        "text": "photons that pass A but not B. Similarly,\namong those 85 that would pass through B,",
+        "start": 367.32,
+        "duration": 7.4
+    },
+    {
+        "text": "about 15% would get blocked by C, which is\nrepresented in this little section inside",
+        "start": 374.72,
+        "duration": 5.78
+    },
+    {
+        "text": "the A and B circles, but outside the C circle.",
+        "start": 380.5,
+        "duration": 3.06
+    },
+    {
+        "text": "So the actual number whose hidden variable\nhas them passing through both A and B but",
+        "start": 383.56,
+        "duration": 5.03
+    },
+    {
+        "text": "not C is certainly no more than 15.",
+        "start": 388.59,
+        "duration": 3.27
+    },
+    {
+        "text": "Grant: But think of what Henry was just saying,\nwhat was weird was that when you remove filter",
+        "start": 391.86,
+        "duration": 4.65
+    },
+    {
+        "text": "B, never asking the photons what they think\nabout 22.5 degree angles, the number that",
+        "start": 396.51,
+        "duration": 5.57
+    },
+    {
+        "text": "get blocked at C seems much too high.",
+        "start": 402.08,
+        "duration": 3.23
+    },
+    {
+        "text": "So look back at our Venn diagram, what does\nit mean if a photon has some hidden variable",
+        "start": 405.31,
+        "duration": 5.109
+    },
+    {
+        "text": "determining that it passes A but is blocked\nat C?",
+        "start": 410.419,
+        "duration": 4.111
+    },
+    {
+        "text": "It means it’s somewhere in this crescent\nmoon region inside circle A and outside circle",
+        "start": 414.53,
+        "duration": 5.609
+    },
+    {
+        "text": "C.",
+        "start": 420.139,
+        "duration": 1.0
+    },
+    {
+        "text": "Grant: Now, experiments show that a full 50\nof these 100 photons that pass through A should",
+        "start": 421.139,
+        "duration": 5.62
+    },
+    {
+        "text": "get blocked at C, but if we take into account\nhow these photons would behave with B there,",
+        "start": 426.759,
+        "duration": 5.891
+    },
+    {
+        "text": "that seems impossible.",
+        "start": 432.65,
+        "duration": 1.93
+    },
+    {
+        "text": "Either those photons would have passed through\nB, meaning they’re somewhere in this region",
+        "start": 434.58,
+        "duration": 5.0
+    },
+    {
+        "text": "we talked about of passing both A and B but\ngetting blocked at C, which includes fewer",
+        "start": 439.58,
+        "duration": 5.1
+    },
+    {
+        "text": "than 15 photons.",
+        "start": 444.68,
+        "duration": 1.86
+    },
+    {
+        "text": "Or they would have been blocked by B, which\nputs them in a subset of this other crescent",
+        "start": 446.54,
+        "duration": 4.76
+    },
+    {
+        "text": "moon region representing those passing A and\ngetting blocked at B, which has 15 photons.",
+        "start": 451.3,
+        "duration": 6.36
+    },
+    {
+        "text": "So the number passing A and getting blocked\nat C should be strictly smaller than 15 +",
+        "start": 457.66,
+        "duration": 6.94
+    },
+    {
+        "text": "15...but at the same time it’s supposed\nto be 50?",
+        "start": 464.6,
+        "duration": 2.379
+    },
+    {
+        "text": "How does that work?",
+        "start": 466.979,
+        "duration": 1.66
+    },
+    {
+        "text": "Grant: Remember, that number 50 is coming\nfrom the case where the photon is never measured",
+        "start": 468.639,
+        "duration": 4.571
+    },
+    {
+        "text": "at B, and all we’re doing is asking what\nwould have happened if it was measured at",
+        "start": 473.21,
+        "duration": 5.04
+    },
+    {
+        "text": "B, assuming that it has some definite state\neven when we don’t make the measurement,",
+        "start": 478.25,
+        "duration": 5.75
+    },
+    {
+        "text": "and that gives this numerical contradiction.",
+        "start": 484.0,
+        "duration": 2.36
+    },
+    {
+        "text": "Grant: For comparison, think of any other,\nnon-quantum questions you might ask.",
+        "start": 486.36,
+        "duration": 4.72
+    },
+    {
+        "text": "Like, take a hundred people, and ask them\nif they like minutephysics, if they have a",
+        "start": 491.08,
+        "duration": 3.941
+    },
+    {
+        "text": "beard, and if they wear glasses.",
+        "start": 495.021,
+        "duration": 2.229
+    },
+    {
+        "text": "Well, obviously everyone likes minutephysics.",
+        "start": 497.25,
+        "duration": 2.18
+    },
+    {
+        "text": "Then among those, take the number that don’t\nhave beards, plus the number who do have a",
+        "start": 499.43,
+        "duration": 4.92
+    },
+    {
+        "text": "beard but not glasses.",
+        "start": 504.35,
+        "duration": 1.55
+    },
+    {
+        "text": "That should greater than or equal to the\nnumber who don’t have glasses.",
+        "start": 505.9,
+        "duration": 3.68
+    },
+    {
+        "text": "I mean, one is a superset of the other.",
+        "start": 509.58,
+        "duration": 2.28
+    },
+    {
+        "text": "But as absurdly reasonable as that is, some\nquestions about quantum states seem to violate",
+        "start": 511.86,
+        "duration": 6.169
+    },
+    {
+        "text": "this inequality, which contradicts the premise\nthat these questions could have definite answers,",
+        "start": 518.029,
+        "duration": 4.89
+    },
+    {
+        "text": "right?",
+        "start": 522.919,
+        "duration": 1.0
+    },
+    {
+        "text": "Henry:  Well...Unfortunately, there’s a\nhole in that argument.",
+        "start": 523.919,
+        "duration": 3.78
+    },
+    {
+        "text": "Drawing those Venn diagrams assumes that\nthe answer to each question is static and",
+        "start": 527.699,
+        "duration": 4.151
+    },
+    {
+        "text": "unchanging.",
+        "start": 531.85,
+        "duration": 1.0
+    },
+    {
+        "text": "But what if the act of passing through one\nfilter changes how the photon will later interact",
+        "start": 532.85,
+        "duration": 3.31
+    },
+    {
+        "text": "with other filters?",
+        "start": 536.16,
+        "duration": 1.07
+    },
+    {
+        "text": "Then you could easily explain the results\nof the experiment, so we haven’t proved",
+        "start": 537.23,
+        "duration": 3.229
+    },
+    {
+        "text": "hidden variable theories are impossible; just\nthat any hidden variable theory would have",
+        "start": 540.459,
+        "duration": 3.331
+    },
+    {
+        "text": "to have the interaction of the particle with\none filter affect the interaction of the particle",
+        "start": 543.79,
+        "duration": 4.13
+    },
+    {
+        "text": "with other filters.",
+        "start": 547.92,
+        "duration": 1.089
+    },
+    {
+        "text": "Henry:  We can, however, rig up an experiment\nwhere the interactions cannot affect each",
+        "start": 549.009,
+        "duration": 3.7
+    },
+    {
+        "text": "other without faster than light communication,\nbut where the same impossible numerical weirdness",
+        "start": 552.709,
+        "duration": 4.391
+    },
+    {
+        "text": "persists.",
+        "start": 557.1,
+        "duration": 1.0
+    },
+    {
+        "text": "The key is to make photons pass not through\nfilters at different points in time, but at",
+        "start": 558.1,
+        "duration": 3.729
+    },
+    {
+        "text": "different points in space at the same time.",
+        "start": 561.829,
+        "duration": 2.26
+    },
+    {
+        "text": "And for this, you need entanglement.",
+        "start": 564.089,
+        "duration": 1.451
+    },
+    {
+        "text": "Henry: For this video, what we'll mean when\nwe say two photons are \"entangled\" is that",
+        "start": 565.54,
+        "duration": 3.5
+    },
+    {
+        "text": "if you were to pass each one of them through\nfilters oriented the same way, either both",
+        "start": 569.04,
+        "duration": 3.789
+    },
+    {
+        "text": "pass through, or both get blocked.",
+        "start": 572.829,
+        "duration": 1.721
+    },
+    {
+        "text": "That is, they behave the same way when measured\nalong the same axis.",
+        "start": 574.55,
+        "duration": 3.199
+    },
+    {
+        "text": "And this correlated behavior persists no matter\nhow far away the photons and filters are from",
+        "start": 577.749,
+        "duration": 4.26
+    },
+    {
+        "text": "each other, even if there's no way for one\nphoton to influence the other.",
+        "start": 582.009,
+        "duration": 3.221
+    },
+    {
+        "text": "Unless, somehow, it did so faster than the\nspeed of light.",
+        "start": 585.23,
+        "duration": 2.69
+    },
+    {
+        "text": "But that would be crazy.",
+        "start": 587.92,
+        "duration": 1.109
+    },
+    {
+        "text": "Grant:  So now here’s what you do for the\nentangled version of our photon-filter experiment.",
+        "start": 589.029,
+        "duration": 4.55
+    },
+    {
+        "text": "Instead of sending one photon through multiple\npolarizing filters, you’ll send entangled",
+        "start": 593.579,
+        "duration": 4.61
+    },
+    {
+        "text": "pairs of photons to two far away locations,\nand simultaneously at each location, randomly",
+        "start": 598.189,
+        "duration": 5.251
+    },
+    {
+        "text": "choose one filter to put in the path of that\nphoton.",
+        "start": 603.44,
+        "duration": 3.199
+    },
+    {
+        "text": "Doing this many times, you’ll collect a\nlot of data about how often both photons in",
+        "start": 606.639,
+        "duration": 4.371
+    },
+    {
+        "text": "an entangled pair pass through the different\ncombinations of filters.",
+        "start": 611.01,
+        "duration": 3.329
+    },
+    {
+        "text": "Henry:  But the thing is, you still see all\nthe same numbers as before.",
+        "start": 614.339,
+        "duration": 3.25
+    },
+    {
+        "text": "When you use filter A at one site and filter\nB at the other, among all those that pass",
+        "start": 617.589,
+        "duration": 4.47
+    },
+    {
+        "text": "through filter A, about 15% have an entangled\npartner that gets blocked at B.  Likewise,",
+        "start": 622.059,
+        "duration": 4.751
+    },
+    {
+        "text": "if they’re set to B and C, about 15% of\nthose that do pass through B have an entangled",
+        "start": 626.81,
+        "duration": 4.66
+    },
+    {
+        "text": "partner that gets blocked by C.  And with\nsettings A and C, half of those that through",
+        "start": 631.47,
+        "duration": 4.349
+    },
+    {
+        "text": "A get blocked at C.",
+        "start": 635.819,
+        "duration": 1.42
+    },
+    {
+        "text": "Grant: Again, if you think carefully about\nthese numbers, they seem to contradict the",
+        "start": 637.239,
+        "duration": 3.611
+    },
+    {
+        "text": "idea that there can be some hidden variable\ndetermining the photon’s states.",
+        "start": 640.85,
+        "duration": 3.679
+    },
+    {
+        "text": "Here, draw the same Venn Diagram as before,\nwhich assumes that each photon actually does",
+        "start": 644.529,
+        "duration": 5.18
+    },
+    {
+        "text": "have some definite answers to the questions\n“Would it pass through A”, “Would it",
+        "start": 649.709,
+        "duration": 3.701
+    },
+    {
+        "text": "pass through B” and “Would it pass through\nC”.",
+        "start": 653.41,
+        "duration": 2.2
+    },
+    {
+        "text": "Grant: If, as Henry said, 15% of those that\npass through A get blocked at B, we should",
+        "start": 655.61,
+        "duration": 4.479
+    },
+    {
+        "text": "nudge these circles a bit so that only 15%\nof the area of circle A is outside circle",
+        "start": 660.089,
+        "duration": 5.97
+    },
+    {
+        "text": "B.  Likewise, based on the data from entangled\npairs measured at B and C, only 15% of the",
+        "start": 666.059,
+        "duration": 5.95
+    },
+    {
+        "text": "photons which pass through B would get blocked\nat C, so this region here inside B and outside",
+        "start": 672.009,
+        "duration": 5.01
+    },
+    {
+        "text": "C needs to be sufficiently small.",
+        "start": 677.019,
+        "duration": 2.091
+    },
+    {
+        "text": "Grant: But that really limits the number of\nphotons that would pass through A and get",
+        "start": 679.11,
+        "duration": 4.79
+    },
+    {
+        "text": "blocked by C.  Why?",
+        "start": 683.9,
+        "duration": 1.45
+    },
+    {
+        "text": "Well the region representing photons passing\nA and blocked at C is entirely contained inside",
+        "start": 685.35,
+        "duration": 6.909
+    },
+    {
+        "text": "the previous two.",
+        "start": 692.259,
+        "duration": 1.0
+    },
+    {
+        "text": "And yet, what quantum mechanics predicts,\nand what these entanglement experiments verify,",
+        "start": 693.259,
+        "duration": 4.19
+    },
+    {
+        "text": "is that a full 50% of those measured to pass\nthrough A should have an entangled partner",
+        "start": 697.449,
+        "duration": 5.271
+    },
+    {
+        "text": "getting blocked at C.",
+        "start": 702.72,
+        "duration": 1.309
+    },
+    {
+        "text": "Grant: If you assume that all these circles\nhave the same size, which means any previously",
+        "start": 704.029,
+        "duration": 4.72
+    },
+    {
+        "text": "unmeasured photon has no preference for one\nof these filters over the others, there is",
+        "start": 708.749,
+        "duration": 4.14
+    },
+    {
+        "text": "literally no way to accurately represent all\nthree of these proportions in a diagram like",
+        "start": 712.889,
+        "duration": 4.99
+    },
+    {
+        "text": "this, so it’s not looking good for hidden\nvariable theories.",
+        "start": 717.879,
+        "duration": 3.69
+    },
+    {
+        "text": "Henry:  Again, for a hidden variable theory\nto survive, this can only be explained if",
+        "start": 721.569,
+        "duration": 4.5
+    },
+    {
+        "text": "the photons are able to influence each other\nbased on which filters they passed through.",
+        "start": 726.069,
+        "duration": 3.64
+    },
+    {
+        "text": "But now we have a much stronger result,\nbecause in the case of entangled photons,",
+        "start": 729.709,
+        "duration": 4.25
+    },
+    {
+        "text": "this influence would have to be faster than\nlight.",
+        "start": 733.959,
+        "duration": 2.4
+    },
+    {
+        "text": "Henry: The assumption that there is some deeper\nunderlying state to a particle even if it’s",
+        "start": 736.359,
+        "duration": 3.861
+    },
+    {
+        "text": "not being probed is called “realism”.",
+        "start": 740.22,
+        "duration": 2.239
+    },
+    {
+        "text": "And the assumption that faster than light\ninfluence is not possible is called “locality”.",
+        "start": 742.459,
+        "duration": 4.761
+    },
+    {
+        "text": "What this experiment shows is that either\nrealism is not how the universe works, or",
+        "start": 747.22,
+        "duration": 5.26
+    },
+    {
+        "text": "locality is not how the universe works, or\nsome combination (whatever that means).",
+        "start": 752.48,
+        "duration": 4.58
+    },
+    {
+        "text": "Henry: Specifically, it’s not that quantum\nentanglement appears to violate realism or",
+        "start": 757.06,
+        "duration": 3.689
+    },
+    {
+        "text": "the speed of light while actually being locally\nreal at some underlying level - it the contradictions",
+        "start": 760.749,
+        "duration": 4.34
+    },
+    {
+        "text": "in this experiment show it CANNOT be locally\nreal, period.",
+        "start": 765.089,
+        "duration": 3.09
+    },
+    {
+        "text": "Grant: What we’ve described here is one\nexample of what's called a Bell inequality.",
+        "start": 768.179,
+        "duration": 4.111
+    },
+    {
+        "text": "It's a simple counting relationship that\nmust be obeyed by a set of questions with",
+        "start": 772.29,
+        "duration": 4.88
+    },
+    {
+        "text": "definite answers, but which quantum states\nseem to disobey.",
+        "start": 777.17,
+        "duration": 3.0
+    },
+    {
+        "text": "Grant: In fact, the mathematics of quantum\ntheory predicts that entangled quantum states",
+        "start": 780.17,
+        "duration": 4.399
+    },
+    {
+        "text": "should violate Bell inequalities in exactly\nthis way.",
+        "start": 784.569,
+        "duration": 3.2
+    },
+    {
+        "text": "John Bell originally put out the inequalities\nand the observation that quantum mechanics",
+        "start": 787.769,
+        "duration": 4.19
+    },
+    {
+        "text": "would violate them in 1964.",
+        "start": 791.959,
+        "duration": 1.75
+    },
+    {
+        "text": "Henry: Since then, numerous experiments have\nput it into practice, but it turns out it’s",
+        "start": 793.709,
+        "duration": 4.081
+    },
+    {
+        "text": "quite difficult to get all your entangled\nparticles and detectors to behave just right,",
+        "start": 797.79,
+        "duration": 3.479
+    },
+    {
+        "text": "which can mean observed violations of this\ninequality might end with certain “loopholes”",
+        "start": 801.269,
+        "duration": 3.69
+    },
+    {
+        "text": "that might leave room for locality and realism\nto both be true.",
+        "start": 804.959,
+        "duration": 3.41
+    },
+    {
+        "text": "The first loophole-free test happened only\nin 2015.",
+        "start": 808.369,
+        "duration": 2.99
+    },
+    {
+        "text": "Grant: There have also been numerous theoretical\ndevelopments in the intervening years, strengthening",
+        "start": 811.359,
+        "duration": 4.371
+    },
+    {
+        "text": "Bell’s and other similar results (that is,\nstrengthening the case against local realism).",
+        "start": 815.73,
+        "duration": 4.959
+    },
+    {
+        "text": "Henry: In the end, here’s what I find crazy:\nBell’s Theorem is an incredibly deep result",
+        "start": 820.689,
+        "duration": 4.61
+    },
+    {
+        "text": "upending what we know about how our universe\nworks that humanity has only just recently",
+        "start": 825.299,
+        "duration": 3.58
+    },
+    {
+        "text": "come to know, and yet the math at its heart\nis a simple counting argument, and the underlying",
+        "start": 828.879,
+        "duration": 4.06
+    },
+    {
+        "text": "physical principles can be seen in action\nwith a cheap home demo!",
+        "start": 832.939,
+        "duration": 3.27
+    },
+    {
+        "text": "It’s frankly surprising more people don’t know about it",
+        "start": 836.209,
+        "duration": 4.791
+    }
+]

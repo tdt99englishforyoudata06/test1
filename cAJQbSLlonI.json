@@ -1,0 +1,252 @@
+[
+    {
+        "text": "Proteins carry out the labor in our cells\n-- so we really need to know what they do",
+        "start": 0.719,
+        "duration": 4.81
+    },
+    {
+        "text": "and how they work.",
+        "start": 5.529,
+        "duration": 1.7
+    },
+    {
+        "text": "The key to proteins is their shape because\nthat dictates their function.",
+        "start": 7.229,
+        "duration": 4.541
+    },
+    {
+        "text": "They can take many different shapes.",
+        "start": 11.77,
+        "duration": 2.84
+    },
+    {
+        "text": "Scientists call these folds.",
+        "start": 14.61,
+        "duration": 1.56
+    },
+    {
+        "text": "Unfolded, a protein is a long string of amino acids.",
+        "start": 16.17,
+        "duration": 3.869
+    },
+    {
+        "text": "There are 20 different amino acids and each\none of them has its own chemical behaviours.",
+        "start": 20.039,
+        "duration": 5.82
+    },
+    {
+        "text": "When a protein folds up, you get a long tangled\npiece of spaghetti",
+        "start": 25.859,
+        "duration": 2.8
+    },
+    {
+        "text": "with all these different chemical functionalities on it",
+        "start": 28.66,
+        "duration": 3.1
+    },
+    {
+        "text": "It’s not exactly like spaghetti - because\nits 3D shape evolved over billions of years",
+        "start": 31.769,
+        "duration": 4.661
+    },
+    {
+        "text": "to do very specific jobs.\nIf you can understand the minute details of",
+        "start": 36.43,
+        "duration": 4.13
+    },
+    {
+        "text": "the structure of proteins-- not only do you\nget insights into their function --",
+        "start": 40.56,
+        "duration": 3.96
+    },
+    {
+        "text": "you might be able to change that function.",
+        "start": 44.52,
+        "duration": 2.42
+    },
+    {
+        "text": "So researchers have been trying for many years\nto solve the protein folding problem:",
+        "start": 46.94,
+        "duration": 5.6
+    },
+    {
+        "text": "Can we just look at the sequence of amino acids\nand predict how a protein is going to fold?",
+        "start": 52.54,
+        "duration": 5.97
+    },
+    {
+        "text": "You could take the amino acid sequence, plug\nit into a computer, and see if your algorithms",
+        "start": 58.51,
+        "duration": 3.99
+    },
+    {
+        "text": "are good enough to make sense of how it might fold.",
+        "start": 62.5,
+        "duration": 2.3
+    },
+    {
+        "text": "You can use X-ray crystallography or\nother techniques to image a protein structure",
+        "start": 64.8,
+        "duration": 4.34
+    },
+    {
+        "text": "but that hasn’t been done for very many kinds of proteins.",
+        "start": 69.14,
+        "duration": 3.48
+    },
+    {
+        "text": "A couple of decades ago folks asked a separate\nquestion --could all the genome sequence data-",
+        "start": 72.62,
+        "duration": 5.08
+    },
+    {
+        "text": "the three billion letters in our genome and\nthe billions in all the other genomes out there -",
+        "start": 77.71,
+        "duration": 4.72
+    },
+    {
+        "text": "could they scan that code, which is\nseparate from the amino-acid code of proteins,",
+        "start": 82.43,
+        "duration": 4.95
+    },
+    {
+        "text": "and learn anything about how proteins might fold?",
+        "start": 87.38,
+        "duration": 3.22
+    },
+    {
+        "text": "The DNA in our genes codes for RNA, which\nis translated into proteins. So there’s",
+        "start": 90.6,
+        "duration": 4.61
+    },
+    {
+        "text": "a relationship between the 4-letter DNA code\nand the 20- letter amino acid sequences of proteins.",
+        "start": 95.21,
+        "duration": 6.86
+    },
+    {
+        "text": "Because a protein wraps around in many different\ntwists and turns--the 6th amino acid in that",
+        "start": 102.799,
+        "duration": 4.411
+    },
+    {
+        "text": "chain might end up next to the 18th amino acid.",
+        "start": 107.21,
+        "duration": 3.36
+    },
+    {
+        "text": "If they end up next to each other, researchers\nrealized there might be an interaction between",
+        "start": 110.58,
+        "duration": 3.75
+    },
+    {
+        "text": "the pair that is critical to the shape of\nthe protein and therefore its function.",
+        "start": 114.33,
+        "duration": 4.57
+    },
+    {
+        "text": "If that’s true then a mutation in the DNA\nthat changes one of the amino acids must be",
+        "start": 118.9,
+        "duration": 5.75
+    },
+    {
+        "text": "accompanied by another mutation to the other\nmember of the pair to preserve the interaction.",
+        "start": 124.65,
+        "duration": 5.329
+    },
+    {
+        "text": "In essence, they co-evolve.",
+        "start": 129.979,
+        "duration": 1.631
+    },
+    {
+        "text": "Well, if you can log maybe a hundred or more\nof those cases of close-by neighbors in 3D space,",
+        "start": 133.14,
+        "duration": 5.54
+    },
+    {
+        "text": "based on looking at many genome sequences,",
+        "start": 138.69,
+        "duration": 3.45
+    },
+    {
+        "text": "then you plug that into your folding program.\nNow that it has all these tight constraints",
+        "start": 142.14,
+        "duration": 4.77
+    },
+    {
+        "text": "it gives a much better chance of getting a\nreally accurate structure.",
+        "start": 146.91,
+        "duration": 4.42
+    },
+    {
+        "text": "And it works!",
+        "start": 151.33,
+        "duration": 1.23
+    },
+    {
+        "text": "The upshot is scientists can fold lots of\nproteins that they never could before.",
+        "start": 152.56,
+        "duration": 4.09
+    },
+    {
+        "text": "That’s important because it will give new\ninsights into how those proteins work.",
+        "start": 156.65,
+        "duration": 4.74
+    },
+    {
+        "text": "Beyond that-researchers have been steadily\nimproving the ability of computers to model",
+        "start": 161.39,
+        "duration": 4.569
+    },
+    {
+        "text": "the shape of proteins, and this now enables\nthem to design their own proteins---making",
+        "start": 165.959,
+        "duration": 5.651
+    },
+    {
+        "text": "things never seen before in nature.",
+        "start": 171.61,
+        "duration": 2.12
+    },
+    {
+        "text": "The most obvious application is medicine.",
+        "start": 173.73,
+        "duration": 2.66
+    },
+    {
+        "text": "They can target very specific parts of the\nflu virus with a special built protein--",
+        "start": 176.39,
+        "duration": 4.38
+    },
+    {
+        "text": "enabling a vaccine that works across flu strains",
+        "start": 180.77,
+        "duration": 2.939
+    },
+    {
+        "text": "They've designed proteins that naturally assemble\ninto tiny cages that can deliver different",
+        "start": 183.709,
+        "duration": 5.201
+    },
+    {
+        "text": "molecules in the body",
+        "start": 188.91,
+        "duration": 1.26
+    },
+    {
+        "text": "Or, new materials,like engineered surfaces\nthat self assemble could be used in solar",
+        "start": 190.17,
+        "duration": 6.37
+    },
+    {
+        "text": "cells and electronic devices.",
+        "start": 196.54,
+        "duration": 2.059
+    },
+    {
+        "text": "you can go in a thousand different directions.",
+        "start": 198.599,
+        "duration": 3.28
+    }
+]

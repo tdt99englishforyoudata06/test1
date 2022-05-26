@@ -1,0 +1,802 @@
+[
+    {
+        "text": "We're going to do a silly one today, we're going to talk about a special number.",
+        "start": 0.0,
+        "duration": 2.52
+    },
+    {
+        "text": "We like doing videos about special numbers and we're gonna do a prime! Because we do love our prime numbers as well.",
+        "start": 2.52,
+        "duration": 5.1
+    },
+    {
+        "text": "It's quite a big prime number. So I'm gonna write it out. So it's going to start:",
+        "start": 7.78,
+        "duration": 4.22
+    },
+    {
+        "text": "357 sextillion",
+        "start": 12.56,
+        "duration": 2.98
+    },
+    {
+        "text": "So it's already going to be big.",
+        "start": 16.2,
+        "duration": 0.96
+    },
+    {
+        "text": "686 quintillion",
+        "start": 17.92,
+        "duration": 3.46
+    },
+    {
+        "text": "312 quadrillion",
+        "start": 21.72,
+        "duration": 2.18
+    },
+    {
+        "text": "646 trillion",
+        "start": 24.22,
+        "duration": 2.46
+    },
+    {
+        "text": "216 billion",
+        "start": 27.12,
+        "duration": 1.56
+    },
+    {
+        "text": "567 million",
+        "start": 29.1,
+        "duration": 2.76
+    },
+    {
+        "text": "629 thousand",
+        "start": 32.36,
+        "duration": 2.48
+    },
+    {
+        "text": "one-hundred and thirty-seven.",
+        "start": 35.46,
+        "duration": 2.08
+    },
+    {
+        "text": "So it's a massive 24-digit prime number, but this is why it's special:",
+        "start": 37.96,
+        "duration": 5.76
+    },
+    {
+        "text": "Because if I remove the first digit, the three, from that number",
+        "start": 44.379,
+        "duration": 5.81
+    },
+    {
+        "text": "the remaining number here, starting with the five, is also a prime number.",
+        "start": 50.94,
+        "duration": 4.5
+    },
+    {
+        "text": "And if I do that again, if I remove the five,",
+        "start": 55.98,
+        "duration": 1.94
+    },
+    {
+        "text": "the remaining number starting with the seven is also a prime number.",
+        "start": 58.0,
+        "duration": 3.72
+    },
+    {
+        "text": "And that will be true all the way down.",
+        "start": 62.06,
+        "duration": 2.92
+    },
+    {
+        "text": "So up to here",
+        "start": 65.2,
+        "duration": 1.86
+    },
+    {
+        "text": "629 thousand one-hundred thirty-seven is a prime number.",
+        "start": 67.06,
+        "duration": 2.92
+    },
+    {
+        "text": "I can remove the digit.",
+        "start": 69.98,
+        "duration": 1.12
+    },
+    {
+        "text": "The next number will be prime, all the way down to seven.",
+        "start": 71.26,
+        "duration": 3.58
+    },
+    {
+        "text": "So it's always prime when I truncate from the left,",
+        "start": 74.89,
+        "duration": 3.83
+    },
+    {
+        "text": "so it's called a left-truncatable prime.",
+        "start": 78.72,
+        "duration": 2.46
+    },
+    {
+        "text": "And there are finitely many of them, and that is the largest one.",
+        "start": 81.54,
+        "duration": 4.34
+    },
+    {
+        "text": "And I learned this from my friend Rob Eastaway, who has been on Numberphile",
+        "start": 86.58,
+        "duration": 4.42
+    },
+    {
+        "text": "He's a mathematician as well, and he gave me this pencil with the number written on it",
+        "start": 91.14,
+        "duration": 6.18
+    },
+    {
+        "text": "There is the number printed on the pencil. So no matter how much I sharpen this pencil",
+        "start": 97.56,
+        "duration": 4.68
+    },
+    {
+        "text": "I'm always going to have a prime number, which I think it's why it's written on the other side of this pencil",
+        "start": 102.43,
+        "duration": 5.54
+    },
+    {
+        "text": "There you go. \"Always in our prime.\"",
+        "start": 108.16,
+        "duration": 2.38
+    },
+    {
+        "text": "It's a kind of a joke.",
+        "start": 110.82,
+        "duration": 0.92
+    },
+    {
+        "text": "Kind of a joke.",
+        "start": 112.36,
+        "duration": 0.54
+    },
+    {
+        "text": "So this is a left-truncatable prime.",
+        "start": 113.56,
+        "duration": 2.44
+    },
+    {
+        "text": "Let me show you how you can create them, 'cause they're not that hard to create.",
+        "start": 116.04,
+        "duration": 3.72
+    },
+    {
+        "text": "So let's start with the last digit.",
+        "start": 120.12,
+        "duration": 2.32
+    },
+    {
+        "text": "So the last digit could be,",
+        "start": 122.489,
+        "duration": 1.991
+    },
+    {
+        "text": "You know. 1, 2, 3, 4, 5, 6, 7, 8 or 9.",
+        "start": 124.68,
+        "duration": 7.18
+    },
+    {
+        "text": "My last digit could be any of these numbers, but it has to be prime as well",
+        "start": 131.86,
+        "duration": 3.54
+    },
+    {
+        "text": "'cause I want a prime at the end.",
+        "start": 135.4,
+        "duration": 1.26
+    },
+    {
+        "text": "So One is not a prime.",
+        "start": 136.96,
+        "duration": 1.64
+    },
+    {
+        "text": "Two, we could have a prime Two at the end,",
+        "start": 139.47,
+        "duration": 2.09
+    },
+    {
+        "text": "But that's not going to be able to be extended very much.",
+        "start": 141.56,
+        "duration": 2.32
+    },
+    {
+        "text": "We could have Three as a prime number at the end, Four we're not gonna have at the end.",
+        "start": 144.42,
+        "duration": 3.7
+    },
+    {
+        "text": "Five could be at the end. Six, no, not a prime.",
+        "start": 148.52,
+        "duration": 2.6
+    },
+    {
+        "text": "Seven, maybe.",
+        "start": 151.48,
+        "duration": 0.72
+    },
+    {
+        "text": "Eight, not a prime, and Nine is not a prime.",
+        "start": 152.96,
+        "duration": 2.88
+    },
+    {
+        "text": "So it's going to have to end with one of these numbers, but let's just try now to extend it back.",
+        "start": 155.84,
+        "duration": 4.589
+    },
+    {
+        "text": "So we're going to extend it back to the left and make a two-digit number",
+        "start": 160.56,
+        "duration": 2.99
+    },
+    {
+        "text": "Let's go with the seven",
+        "start": 164.07,
+        "duration": 1.89
+    },
+    {
+        "text": "Okay, let's make a chain here. Let's go from the seven",
+        "start": 165.96,
+        "duration": 2.839
+    },
+    {
+        "text": "Well, then if I extend it, it's going to be either 17 or 27 or 37...",
+        "start": 169.2,
+        "duration": 5.449
+    },
+    {
+        "text": "47 or 57 or 67 or 77...",
+        "start": 175.32,
+        "duration": 3.559
+    },
+    {
+        "text": "or 87 or 97, so which of these are prime?",
+        "start": 179.78,
+        "duration": 3.4
+    },
+    {
+        "text": "17 is a prime.",
+        "start": 183.4,
+        "duration": 1.1
+    },
+    {
+        "text": "27, that's not prime.",
+        "start": 185.3,
+        "duration": 1.56
+    },
+    {
+        "text": "37 is prime",
+        "start": 187.62,
+        "duration": 1.08
+    },
+    {
+        "text": "47 is prime",
+        "start": 189.18,
+        "duration": 1.38
+    },
+    {
+        "text": "57 is not",
+        "start": 190.92,
+        "duration": 1.06
+    },
+    {
+        "text": "67 is prime.",
+        "start": 192.63,
+        "duration": 1.15
+    },
+    {
+        "text": "77, that's not a prime.",
+        "start": 193.9,
+        "duration": 1.52
+    },
+    {
+        "text": "87 is not a prime, 97 is a prime.",
+        "start": 196.32,
+        "duration": 3.02
+    },
+    {
+        "text": "So let me just do a couple more steps,",
+        "start": 199.66,
+        "duration": 1.72
+    },
+    {
+        "text": "let's go from the 47 and extend that further back.",
+        "start": 201.48,
+        "duration": 2.86
+    },
+    {
+        "text": "147 perhaps, or 247...",
+        "start": 204.6,
+        "duration": 2.88
+    },
+    {
+        "text": "347, 947... And we keep extending this if we want, let's find a prime on that list.",
+        "start": 207.74,
+        "duration": 6.8
+    },
+    {
+        "text": "So, 947 is a prime. I'll go and extend that back another step.",
+        "start": 214.7,
+        "duration": 4.12
+    },
+    {
+        "text": "So this could be 1947 perhaps, or 2947...",
+        "start": 219.63,
+        "duration": 5.51
+    },
+    {
+        "text": "Or 9947.",
+        "start": 225.14,
+        "duration": 3.26
+    },
+    {
+        "text": "I'm gonna extend another step here. I'm gonna go from this number,",
+        "start": 229.0,
+        "duration": 3.06
+    },
+    {
+        "text": "I know this is a prime. So I'm going to go from here next,",
+        "start": 232.16,
+        "duration": 2.7
+    },
+    {
+        "text": "try and extend that back, just do another step",
+        "start": 235.02,
+        "duration": 2.2
+    },
+    {
+        "text": "So this is 3947, three thousand nine hundred and forty-seven",
+        "start": 237.9,
+        "duration": 3.68
+    },
+    {
+        "text": "so that could now be 13947",
+        "start": 241.76,
+        "duration": 4.2
+    },
+    {
+        "text": "or 23947",
+        "start": 246.4,
+        "duration": 2.84
+    },
+    {
+        "text": "...93947.",
+        "start": 249.44,
+        "duration": 2.1
+    },
+    {
+        "text": "And I'm going to stop at this step because if we do the checking through",
+        "start": 251.7,
+        "duration": 4.76
+    },
+    {
+        "text": "None of these are prime",
+        "start": 257.19,
+        "duration": 1.04
+    },
+    {
+        "text": "This 13947 is not a prime, 23947 is not a prime,",
+        "start": 258.23,
+        "duration": 5.19
+    },
+    {
+        "text": "33947, not a prime",
+        "start": 263.88,
+        "duration": 2.04
+    },
+    {
+        "text": "Not a prime.",
+        "start": 266.04,
+        "duration": 0.8
+    },
+    {
+        "text": "None of these are primes. So the chain stopped. The chain is terminated.",
+        "start": 267.22,
+        "duration": 4.9
+    },
+    {
+        "text": "So the last prime we had there in that chain was 3947.",
+        "start": 272.18,
+        "duration": 5.12
+    },
+    {
+        "text": "So that's the end point for the chain that we had",
+        "start": 278.0,
+        "duration": 3.66
+    },
+    {
+        "text": "The number of endpoints that you can make just doing this kind of method",
+        "start": 281.94,
+        "duration": 3.5
+    },
+    {
+        "text": "There's 1442 of these endpoints.",
+        "start": 285.449,
+        "duration": 4.04
+    },
+    {
+        "text": "So,",
+        "start": 290.069,
+        "duration": 1.111
+    },
+    {
+        "text": "those are going to be the largest prime in the chain",
+        "start": 291.18,
+        "duration": 3.24
+    },
+    {
+        "text": "And the largest one of them is this 24 digit number I've written out, but clearly you can see",
+        "start": 294.8,
+        "duration": 5.66
+    },
+    {
+        "text": "there are only finitely many, because once you get to an end point, they can't be extended any further to the left.",
+        "start": 300.75,
+        "duration": 6.259
+    },
+    {
+        "text": "So that's left-truncatable primes. Shall we do right-truncatable? Just to show you the largest one that's possible.",
+        "start": 307.71,
+        "duration": 6.139
+    },
+    {
+        "text": "I'll show you the largest right-truncatable  prime so this is just a bit of fun really so it's a silly thing",
+        "start": 313.849,
+        "duration": 2.211
+    },
+    {
+        "text": "So this is just a bit of fun, really. It's a silly thing, I know.",
+        "start": 316.32,
+        "duration": 3.56
+    },
+    {
+        "text": "However, if I used a different base, 'cause this is a base 10 thing,",
+        "start": 320.18,
+        "duration": 3.52
+    },
+    {
+        "text": "I use a different base,",
+        "start": 323.72,
+        "duration": 1.169
+    },
+    {
+        "text": "If I used a larger base - base twelve, or base 20 or base 100 or something like that",
+        "start": 324.889,
+        "duration": 5.011
+    },
+    {
+        "text": "then each step here would have longer lists.",
+        "start": 330.02,
+        "duration": 3.38
+    },
+    {
+        "text": "And if the list is longer, then they're more likely to hit a prime",
+        "start": 333.539,
+        "duration": 3.74
+    },
+    {
+        "text": "So you're going to end up with longer chains, you actually end up with bigger",
+        "start": 337.56,
+        "duration": 3.589
+    },
+    {
+        "text": "left-truncatable primes, if you do it in a different base or a larger base.",
+        "start": 341.789,
+        "duration": 4.52
+    },
+    {
+        "text": "For right-truncatable primes, the biggest one we have is",
+        "start": 346.56,
+        "duration": 4.06
+    },
+    {
+        "text": "73 million",
+        "start": 351.0,
+        "duration": 1.7
+    },
+    {
+        "text": "939 thousand",
+        "start": 353.36,
+        "duration": 2.78
+    },
+    {
+        "text": "one hundred and thirty-three.",
+        "start": 356.22,
+        "duration": 2.08
+    },
+    {
+        "text": "So now if I start removing digits from the right-hand side",
+        "start": 358.7,
+        "duration": 3.18
+    },
+    {
+        "text": "we will always have a prime. If I allowed One to be a prime,",
+        "start": 362.06,
+        "duration": 4.4
+    },
+    {
+        "text": "we could have a larger number.",
+        "start": 366.8,
+        "duration": 1.4
+    },
+    {
+        "text": "We could have this number:",
+        "start": 368.2,
+        "duration": 1.52
+    },
+    {
+        "text": "One billion",
+        "start": 369.94,
+        "duration": 0.8
+    },
+    {
+        "text": "979 million",
+        "start": 371.08,
+        "duration": 2.02
+    },
+    {
+        "text": "339 thousand",
+        "start": 373.42,
+        "duration": 2.32
+    },
+    {
+        "text": "three hundred and thirty-nine.",
+        "start": 376.12,
+        "duration": 1.58
+    },
+    {
+        "text": "So this is a prime number, and if we remove digits from the right, we always have a prime number.",
+        "start": 377.82,
+        "duration": 5.359
+    },
+    {
+        "text": "But we end up with One and One isn't a prime number. So I don't know why I even mentioned it.",
+        "start": 383.31,
+        "duration": 4.76
+    },
+    {
+        "text": "Let's have a look at left- AND right-truncatable primes. Is there a prime that's on both lists?",
+        "start": 388.07,
+        "duration": 5.399
+    },
+    {
+        "text": "And yes, there is.",
+        "start": 393.66,
+        "duration": 1.14
+    },
+    {
+        "text": "That's the largest one of those that we can find:",
+        "start": 394.8,
+        "duration": 1.76
+    },
+    {
+        "text": "739 thousand",
+        "start": 397.06,
+        "duration": 1.58
+    },
+    {
+        "text": "three hundred and ninety-seven.",
+        "start": 399.2,
+        "duration": 1.3
+    },
+    {
+        "text": "So that is left-truncatable and it's right-truncatable, so it's on both the lists.",
+        "start": 400.84,
+        "duration": 4.8
+    },
+    {
+        "text": "Although we... I don't think we can truncate simultaneously",
+        "start": 406.1,
+        "duration": 3.1
+    },
+    {
+        "text": "because we're not going to get prime numbers if we do that.",
+        "start": 409.46,
+        "duration": 2.38
+    },
+    {
+        "text": "BRADY: What's the longest you can do simultaneously?",
+        "start": 411.98,
+        "duration": 1.96
+    },
+    {
+        "text": "DR. GRIME: Well, I...",
+        "start": 414.4,
+        "duration": 0.94
+    },
+    {
+        "text": "That is an interesting question, because what about if we can remove the digits in any order we want?",
+        "start": 415.5,
+        "duration": 6.38
+    },
+    {
+        "text": "415 thousand six hundred and seventy-three.",
+        "start": 422.46,
+        "duration": 4.48
+    },
+    {
+        "text": "And I'm gonna delete not just from the ends. I'm going to delete the One.",
+        "start": 427.58,
+        "duration": 4.52
+    },
+    {
+        "text": "There, it's gone.",
+        "start": 433.4,
+        "duration": 0.72
+    },
+    {
+        "text": "So I've got this number now: 45 thousand six hundred and seventy-three, and that's a prime number.",
+        "start": 434.58,
+        "duration": 4.68
+    },
+    {
+        "text": "Now I'm going to delete another digit. I will delete the Three for this one.",
+        "start": 439.5,
+        "duration": 2.9
+    },
+    {
+        "text": "So now I've got four thousand five hundred and sixty-seven",
+        "start": 442.88,
+        "duration": 4.1
+    },
+    {
+        "text": "Now if I've got that, I'm gonna delete the Five in this case to get four hundred and sixty-seven, which is a prime.",
+        "start": 447.48,
+        "duration": 8.1
+    },
+    {
+        "text": "And now I'll delete the Four",
+        "start": 456.06,
+        "duration": 1.34
+    },
+    {
+        "text": "So to make 67, which is a prime. And now I think I'll delete the Six to get a Seven",
+        "start": 457.47,
+        "duration": 5.0
+    },
+    {
+        "text": "So okay, I create this chain of primes, but I'm allowed to delete the digits any way I want,",
+        "start": 462.47,
+        "duration": 5.75
+    },
+    {
+        "text": "so those are called deletable primes",
+        "start": 468.42,
+        "duration": 2.44
+    },
+    {
+        "text": "and it is thought that there are infinitely many of those,",
+        "start": 471.14,
+        "duration": 4.74
+    },
+    {
+        "text": "but that is something we don't know, 'cause we haven't proven that to be true.",
+        "start": 476.26,
+        "duration": 3.92
+    },
+    {
+        "text": "So that is a challenge.",
+        "start": 480.28,
+        "duration": 1.68
+    },
+    {
+        "text": "BRADY: What's the number you could create a deletable prime where it doesn't matter what digit you delete,",
+        "start": 482.32,
+        "duration": 5.1
+    },
+    {
+        "text": "any digit you delete will still leave you with a prime number?",
+        "start": 487.62,
+        "duration": 2.24
+    },
+    {
+        "text": "DR. GRIME: That's another that's another good idea.",
+        "start": 490.02,
+        "duration": 2.26
+    },
+    {
+        "text": "I don't know if they exist.",
+        "start": 492.82,
+        "duration": 2.42
+    },
+    {
+        "text": "That would be interesting to find out.",
+        "start": 495.66,
+        "duration": 2.0
+    },
+    {
+        "text": "BRADY: Get to work",
+        "start": 498.26,
+        "duration": 0.78
+    },
+    {
+        "text": "DR. GRIME: Oh, me?",
+        "start": 499.74,
+        "duration": 0.82
+    },
+    {
+        "text": "BRADY: Now from past experience I can imagine some people might be thinking",
+        "start": 501.09,
+        "duration": 2.89
+    },
+    {
+        "text": "\"What's the point of all of this? Why study these truncatable primes and deletable primes?\"",
+        "start": 504.54,
+        "duration": 5.42
+    },
+    {
+        "text": "Well first I'm not entirely sure there has to be a point.",
+        "start": 510.42,
+        "duration": 3.199
+    },
+    {
+        "text": "Sometimes things can just be fun",
+        "start": 513.719,
+        "duration": 2.24
+    },
+    {
+        "text": "But I think there is a bit of a point too and let me explain",
+        "start": 516.36,
+        "duration": 2.63
+    },
+    {
+        "text": "Studying problems like this, things from completely out of left field, make you think differently.",
+        "start": 519.48,
+        "duration": 5.42
+    },
+    {
+        "text": "Mathematicians come up with new tools and ideas. And thinking differently,",
+        "start": 525.1,
+        "duration": 4.38
+    },
+    {
+        "text": "Thinking about problems you don't normally think about is really good for your brain,",
+        "start": 529.62,
+        "duration": 4.24
+    },
+    {
+        "text": "It makes you smarter. And this is where today's episode sponsor Brilliant come in.",
+        "start": 533.86,
+        "duration": 4.38
+    },
+    {
+        "text": "Brilliant is a website full of quizzes and puzzles and courses, and they're all things that come out of left field.",
+        "start": 538.48,
+        "duration": 6.48
+    },
+    {
+        "text": "They make you think differently. You can't rely on the equations or the principles you learned at school.",
+        "start": 545.1,
+        "duration": 4.72
+    },
+    {
+        "text": "They challenge you and they make you smarter. Now, If you go to brilliant.org/numberphile, you can check it all out.",
+        "start": 550.01,
+        "duration": 7.279
+    },
+    {
+        "text": "There's lots of stuff for free but if you use the /numberphile URL",
+        "start": 557.289,
+        "duration": 4.251
+    },
+    {
+        "text": "a) They'll know you came from here, and b) You can get 20% off their premium service which unlocks loads of extra goodies on the website.",
+        "start": 561.88,
+        "duration": 7.72
+    },
+    {
+        "text": "Our thanks to Brilliant, for supporting this episode.",
+        "start": 569.82,
+        "duration": 2.08
+    }
+]

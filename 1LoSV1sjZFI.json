@@ -1,0 +1,1392 @@
+[
+    {
+        "text": "I get this initial joy that I'm very happy about having proved it,",
+        "start": 0.089,
+        "duration": 3.33
+    },
+    {
+        "text": "then I also get this fear that I'm about to completely embarrass myself in front of the mathematical community",
+        "start": 3.419,
+        "duration": 4.769
+    },
+    {
+        "text": "by claiming to have proved some well-known result when actually there'll be some obvious mistake because I've, I",
+        "start": 8.53,
+        "duration": 5.99
+    },
+    {
+        "text": "put a plus instead of a minus somewhere.",
+        "start": 14.98,
+        "duration": 1.95
+    },
+    {
+        "text": "So you get this euphoric joy and adrenaline rush,",
+        "start": 16.93,
+        "duration": 3.649
+    },
+    {
+        "text": "but then it's followed pretty quickly by complete fear that I'm about to trash my reputation and do something completely idiotic.",
+        "start": 20.58,
+        "duration": 6.119
+    },
+    {
+        "text": "Today I'm going to talk about a conjecture of Duffin and Schaeffer that was recently proven by myself and my",
+        "start": 27.94,
+        "duration": 5.82
+    },
+    {
+        "text": "collaborator Dimitris Koukoulopoulos.",
+        "start": 33.84,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: So this is like, math news, is it?)\n- Yeah exactly,",
+        "start": 35.92,
+        "duration": 2.84
+    },
+    {
+        "text": "hot off the press. So this is a problem about Diophantine approximation.",
+        "start": 38.82,
+        "duration": 3.66
+    },
+    {
+        "text": "Let's just take a step back and think about what Diophantine approximation is, in general.",
+        "start": 42.73,
+        "duration": 4.22
+    },
+    {
+        "text": "So maybe the most simple numbers we know are just the whole numbers: 1, 2,",
+        "start": 47.05,
+        "duration": 5.45
+    },
+    {
+        "text": "3, 4, and so on.  So slightly more complicated, there's rational numbers;",
+        "start": 53.02,
+        "duration": 5.329
+    },
+    {
+        "text": "which is just ratios or fractions of whole numbers. So,",
+        "start": 58.349,
+        "duration": 4.311
+    },
+    {
+        "text": "one half, one-third",
+        "start": 63.3,
+        "duration": 1.84
+    },
+    {
+        "text": "two-thirds. But as well as rational numbers, there's irrational numbers",
+        "start": 65.14,
+        "duration": 3.65
+    },
+    {
+        "text": "which can't be expressed as just a ratio of two whole numbers.",
+        "start": 68.98,
+        "duration": 4.3
+    },
+    {
+        "text": "Euler's number e starts off as",
+        "start": 73.28,
+        "duration": 3.68
+    },
+    {
+        "text": "2.71828",
+        "start": 77.64,
+        "duration": 2.0
+    },
+    {
+        "text": "and then goes on.  \n- (Brady: How far do you know that one?)",
+        "start": 80.229,
+        "duration": 3.139
+    },
+    {
+        "text": "Ok, I know it up to 2 8, and then I stopped. So it's no coincidence where I draw the dots.",
+        "start": 84.07,
+        "duration": 5.389
+    },
+    {
+        "text": "Similarly, pi is another famous irrational number",
+        "start": 90.579,
+        "duration": 3.26
+    },
+    {
+        "text": "3.14159",
+        "start": 93.84,
+        "duration": 4.16
+    },
+    {
+        "text": "And these are numbers where we've proven that you can't write it as just a ratio of two whole numbers,",
+        "start": 98.06,
+        "duration": 6.12
+    },
+    {
+        "text": "and in fact, there's a whole zoo of numbers out there",
+        "start": 104.29,
+        "duration": 3.289
+    },
+    {
+        "text": "and in many ways most numbers can't be written as just a ratio of two whole numbers.",
+        "start": 107.579,
+        "duration": 4.68
+    },
+    {
+        "text": "So most numbers are these complicated numbers that seem to have some",
+        "start": 112.259,
+        "duration": 3.51
+    },
+    {
+        "text": "crazy decimal expansion that probably has no patterns in it whatsoever. And so then there's a question as to",
+        "start": 116.2,
+        "duration": 5.419
+    },
+    {
+        "text": "what do we even really mean by these irrational numbers?",
+        "start": 122.259,
+        "duration": 2.33
+    },
+    {
+        "text": "So I put these dot dot dots here,",
+        "start": 124.59,
+        "duration": 2.069
+    },
+    {
+        "text": "really what this expression is saying is: I have lots of different approximations to the number pi,",
+        "start": 127.119,
+        "duration": 6.29
+    },
+    {
+        "text": "which get more and more accurate.  So maybe a first",
+        "start": 134.02,
+        "duration": 2.869
+    },
+    {
+        "text": "approximation is that",
+        "start": 137.53,
+        "duration": 1.95
+    },
+    {
+        "text": "pi is roughly equal to three, and then a second approximation is pi is approximately equal to three point one, which is",
+        "start": 139.48,
+        "duration": 7.58
+    },
+    {
+        "text": "31 over ten, and then a better approximation is that pi is approximately equal to",
+        "start": 147.64,
+        "duration": 6.319
+    },
+    {
+        "text": "314 over 100,  3.14 and so on. This is really what we mean by an irrational number;",
+        "start": 154.9,
+        "duration": 6.77
+    },
+    {
+        "text": "we can't just uniquely define it in a very easy way typically,",
+        "start": 161.91,
+        "duration": 3.839
+    },
+    {
+        "text": "but we can define it by the sequence of simple approximations.",
+        "start": 165.88,
+        "duration": 3.229
+    },
+    {
+        "text": "The sequence gets closer and closer in on one number - pi for example was historically very important for engineers to",
+        "start": 169.239,
+        "duration": 6.11
+    },
+    {
+        "text": "do certain bits of architecture,",
+        "start": 175.989,
+        "duration": 1.681
+    },
+    {
+        "text": "and they needed to know it to a certain level of precision. And to a given number position",
+        "start": 177.67,
+        "duration": 4.61
+    },
+    {
+        "text": "you can just approximate it by some rational number. \n- (Brady: Good enough to build a bridge or something?)\n- Yeah, exactly",
+        "start": 182.28,
+        "duration": 5.729
+    },
+    {
+        "text": "Every irrational number has a decimal expansion like this and that's one way of understanding them, but",
+        "start": 188.26,
+        "duration": 5.54
+    },
+    {
+        "text": "sometimes though, rather more efficient ways of writing them as a ratio",
+        "start": 194.29,
+        "duration": 4.19
+    },
+    {
+        "text": "rather than just numbers with denominators 10 or 100 or 1000 or so. So one famous one",
+        "start": 198.64,
+        "duration": 5.389
+    },
+    {
+        "text": "is that pi is approximately equal to 22/7.",
+        "start": 204.029,
+        "duration": 5.731
+    },
+    {
+        "text": "And even though maybe 22 over 7 is a much simpler looking fraction than",
+        "start": 209.92,
+        "duration": 4.62
+    },
+    {
+        "text": "314 over 100, because the numbers are quite a lot smaller, pi is actually closer to 22 over 7 that it is to",
+        "start": 215.049,
+        "duration": 6.23
+    },
+    {
+        "text": "314 over 100. And so this is somehow a very efficient way of approximating pi and",
+        "start": 222.22,
+        "duration": 4.579
+    },
+    {
+        "text": "so if you an engineer or something you wouldn't have to care about",
+        "start": 227.62,
+        "duration": 3.11
+    },
+    {
+        "text": "314 over 100, you could just use 22 over 7 and that'd work much better.",
+        "start": 231.22,
+        "duration": 3.049
+    },
+    {
+        "text": "It's a very famous theorem of Dirichlet that every rational number has a",
+        "start": 234.549,
+        "duration": 5.39
+    },
+    {
+        "text": "fairly efficient sequence of approximations,",
+        "start": 240.519,
+        "duration": 2.57
+    },
+    {
+        "text": "like 22 over 7, that approximate the number better than you might expect.",
+        "start": 243.73,
+        "duration": 4.91
+    },
+    {
+        "text": "(Brady: So is there like a mathematical name for them, these like - these silver bullets?)\n- For this sort of setup, they're known as the",
+        "start": 248.64,
+        "duration": 5.759
+    },
+    {
+        "text": "convergents to the irrational number.",
+        "start": 254.98,
+        "duration": 2.0
+    },
+    {
+        "text": "There's an algorithm for producing - if you give me your favourite irrational number",
+        "start": 257.52,
+        "duration": 3.839
+    },
+    {
+        "text": "I can do some calculations and it can spit out these convergents, which are these very efficient approximations to the number",
+        "start": 261.36,
+        "duration": 5.459
+    },
+    {
+        "text": "Dirichlet's Theorem says that regardless of what irrational number you choose,",
+        "start": 266.82,
+        "duration": 4.47
+    },
+    {
+        "text": "let's say your favourite irrational number is some number alpha, then you can find",
+        "start": 271.66,
+        "duration": 4.25
+    },
+    {
+        "text": "lots of different approximations of rationals,",
+        "start": 276.49,
+        "duration": 2.69
+    },
+    {
+        "text": "let's call it a over q, and",
+        "start": 279.73,
+        "duration": 2.0
+    },
+    {
+        "text": "this is going to be an efficient approximation in the sense that the error term,",
+        "start": 282.46,
+        "duration": 4.579
+    },
+    {
+        "text": "in the approximation, is at most 1 over q squared.",
+        "start": 287.53,
+        "duration": 3.17
+    },
+    {
+        "text": "So regardless of what irrational number you choose",
+        "start": 291.31,
+        "duration": 2.66
+    },
+    {
+        "text": "there's",
+        "start": 294.61,
+        "duration": 1.05
+    },
+    {
+        "text": "infinitely many different pairs (a,q) where you have this efficient approximation",
+        "start": 295.66,
+        "duration": 4.07
+    },
+    {
+        "text": "where the error is pretty close.  By comparison, when we just doing a decimal expansion,",
+        "start": 300.04,
+        "duration": 5.24
+    },
+    {
+        "text": "we would just have an error term which looks like 1 over the denominator.",
+        "start": 305.35,
+        "duration": 4.01
+    },
+    {
+        "text": "And so it's not anywhere near as efficient. The whole problem of Diophantine approximation is",
+        "start": 309.36,
+        "duration": 4.889
+    },
+    {
+        "text": "variations on this question: if you give me an irrational number how well can I approximate it by",
+        "start": 314.89,
+        "duration": 5.899
+    },
+    {
+        "text": "rational numbers, and how efficiently can I approximate it? But unfortunately this whole area is a zoo of different",
+        "start": 321.22,
+        "duration": 7.61
+    },
+    {
+        "text": "complicated impossible questions.",
+        "start": 329.26,
+        "duration": 1.49
+    },
+    {
+        "text": "We know from Dirichlet's theorem that we can approximate pi with an error 1 over q squared.",
+        "start": 330.75,
+        "duration": 5.61
+    },
+    {
+        "text": "So one natural question is, when I do even more efficient approximations,",
+        "start": 336.61,
+        "duration": 3.529
+    },
+    {
+        "text": "can I get maybe an approximation that looks like one of q cubed?  So that'd be even better, and",
+        "start": 340.18,
+        "duration": 4.88
+    },
+    {
+        "text": "this is a well-known open problem.",
+        "start": 346.48,
+        "duration": 1.76
+    },
+    {
+        "text": "We don't know if you can approximate pi to that level of efficiency.",
+        "start": 348.24,
+        "duration": 3.66
+    },
+    {
+        "text": "(Brady: Has until now 1 over q squared been the best you could do?)\n- Yeah for pi,",
+        "start": 352.33,
+        "duration": 4.94
+    },
+    {
+        "text": "I don't think we really know anything better than 1 over q squared.  For some special irrational numbers",
+        "start": 357.27,
+        "duration": 5.22
+    },
+    {
+        "text": "you can do better than 1 over q squared and",
+        "start": 362.53,
+        "duration": 2.389
+    },
+    {
+        "text": "to really show you how pathetic we are and how little we know about these problems",
+        "start": 365.5,
+        "duration": 4.13
+    },
+    {
+        "text": "you could consider the number e plus pi, and we don't even know if e plus pi is",
+        "start": 370.0,
+        "duration": 6.14
+    },
+    {
+        "text": "rational or not.",
+        "start": 376.75,
+        "duration": 1.5
+    },
+    {
+        "text": "So it could be that e plus pi is equal to just",
+        "start": 378.25,
+        "duration": 4.34
+    },
+    {
+        "text": "a over q, for some whole numbers a and q. It's clearly not going to be the case,",
+        "start": 382.99,
+        "duration": 5.209
+    },
+    {
+        "text": "but as mathematicians we have no way of disproving this.\n- (Brady: That'd be amazing if someone found that!)\n- Yeah,",
+        "start": 388.21,
+        "duration": 5.359
+    },
+    {
+        "text": "so it would be completely crazy and you can check small numbers,",
+        "start": 393.57,
+        "duration": 3.33
+    },
+    {
+        "text": "so it's got to be the case that a and q would have to -",
+        "start": 396.9,
+        "duration": 2.549
+    },
+    {
+        "text": "you can prove that they'd have to have loads and loads of digits if they",
+        "start": 399.67,
+        "duration": 3.05
+    },
+    {
+        "text": "possibly were this, and kind of it clearly the case that this can't be the case.",
+        "start": 402.85,
+        "duration": 4.19
+    },
+    {
+        "text": "But we have no way of proving this at all.",
+        "start": 407.04,
+        "duration": 1.8
+    },
+    {
+        "text": "And this is really typical for these Diophantine approximation problems: that they're really complicated problems and subtle problems,",
+        "start": 408.84,
+        "duration": 6.929
+    },
+    {
+        "text": "that we really don't understand very well at all as mathematicians. And there are some numbers that can be approximated very well",
+        "start": 415.96,
+        "duration": 6.019
+    },
+    {
+        "text": "but almost all numbers you can't really do much better than one over q squared.",
+        "start": 422.53,
+        "duration": 3.44
+    },
+    {
+        "text": "You can do a tiny bit better than Dirichlet's theorem. But Dirichlet's theorem",
+        "start": 425.97,
+        "duration": 3.029
+    },
+    {
+        "text": "is almost as good you can do.",
+        "start": 429.0,
+        "duration": 1.86
+    },
+    {
+        "text": "Duffin and Schaeffer asked a huge generalisation of this question where you are only allowed to use specific",
+        "start": 430.94,
+        "duration": 5.28
+    },
+    {
+        "text": "denominators q. So maybe you choose the primes, or the squares, or",
+        "start": 436.24,
+        "duration": 4.68
+    },
+    {
+        "text": "whatever crazy subset of",
+        "start": 441.73,
+        "duration": 2.0
+    },
+    {
+        "text": "the integers that you like. And so, the question that Duffin and Schaeffer asked was: if you choose your favourite sequence of",
+        "start": 443.77,
+        "duration": 6.32
+    },
+    {
+        "text": "rationals, how well can you approximate these numbers? What's the efficiency of the approximations?",
+        "start": 450.4,
+        "duration": 4.82
+    },
+    {
+        "text": "It was very much part of their philosophy that they wanted a super general theorem",
+        "start": 455.44,
+        "duration": 5.21
+    },
+    {
+        "text": "that would work for absolutely every possible choice of denominators. So at first sight this seems",
+        "start": 460.65,
+        "duration": 6.119
+    },
+    {
+        "text": "crazily ambitious, that I've already said there's these basic problems like e plus pi, and we",
+        "start": 467.68,
+        "duration": 5.179
+    },
+    {
+        "text": "don't even know whether they're rational or not. But then suddenly we're asking for",
+        "start": 473.26,
+        "duration": 4.1
+    },
+    {
+        "text": "arbitrary approximations, of almost arbitrary quality, for arbitrary sets of integers.",
+        "start": 477.97,
+        "duration": 5.029
+    },
+    {
+        "text": "So it seems like this crazy big generalisation, and we know already that",
+        "start": 483.0,
+        "duration": 4.11
+    },
+    {
+        "text": "you're going to have to allow for some small number of exceptions.",
+        "start": 487.39,
+        "duration": 3.26
+    },
+    {
+        "text": "But then there's an",
+        "start": 490.78,
+        "duration": 1.62
+    },
+    {
+        "text": "amazing theorem of Cassels and then also Gallagher, who showed that you choose your set of denominators, and you choose",
+        "start": 492.4,
+        "duration": 7.519
+    },
+    {
+        "text": "what threshold you have for efficiency, and",
+        "start": 500.11,
+        "duration": 3.35
+    },
+    {
+        "text": "regardless of how you set it up; either",
+        "start": 504.07,
+        "duration": 2.15
+    },
+    {
+        "text": "almost all numbers can be approximated using those denominators at that level of efficiency, or almost no numbers can be.",
+        "start": 506.92,
+        "duration": 7.399
+    },
+    {
+        "text": "So you have this crazy",
+        "start": 514.66,
+        "duration": 2.0
+    },
+    {
+        "text": "simplicity suddenly in this whole world of complex problems",
+        "start": 516.82,
+        "duration": 3.35
+    },
+    {
+        "text": "that either almost everything can be approximated in the way that you want, or almost nothing can be approximated in the way that you want",
+        "start": 520.57,
+        "duration": 7.129
+    },
+    {
+        "text": "regardless of how you choose your denominators or how you choose your",
+        "start": 528.31,
+        "duration": 3.109
+    },
+    {
+        "text": "efficiency of approximations. So we know that you get either everything or virtually nothing",
+        "start": 532.149,
+        "duration": 4.97
+    },
+    {
+        "text": "but then the question is: which one of the two cases are we in?",
+        "start": 537.519,
+        "duration": 2.6
+    },
+    {
+        "text": "And so the Duffin-Schaeffer conjecture was saying there should be a simple criterion as to whether you get almost everything or almost",
+        "start": 541.149,
+        "duration": 7.88
+    },
+    {
+        "text": "nothing. So we can write this down. You choose your denominators",
+        "start": 549.519,
+        "duration": 3.98
+    },
+    {
+        "text": "so let's call them q_1, q_2, and so on, and then you choose the",
+        "start": 553.5,
+        "duration": 6.449
+    },
+    {
+        "text": "tolerable errors, so how efficiently you want to do it, for each denominator.",
+        "start": 560.56,
+        "duration": 4.339
+    },
+    {
+        "text": "So let's call it E_1, E_2, and so on. And then you want to know:",
+        "start": 564.96,
+        "duration": 4.84
+    },
+    {
+        "text": "can you approximate your irrational number alpha by",
+        "start": 570.0,
+        "duration": 4.94
+    },
+    {
+        "text": "denominators from your favourite set, with the error term of your choice of error terms?",
+        "start": 575.68,
+        "duration": 4.64
+    },
+    {
+        "text": "This is very difficult for an individual alpha",
+        "start": 580.389,
+        "duration": 2.27
+    },
+    {
+        "text": "but we know that either you can approximate almost all of them or almost none of them and then the Duffin-Schafffer conjecture,",
+        "start": 582.76,
+        "duration": 6.259
+    },
+    {
+        "text": "now a theorem, is that there's a simple test for whether you can get almost all of them",
+        "start": 589.12,
+        "duration": 5.119
+    },
+    {
+        "text": "or almost none of them.  \n- (Brady: Is there an example - is this something you can't apply an example to?)",
+        "start": 594.24,
+        "duration": 3.959
+    },
+    {
+        "text": "So this is the slightly frustrating thing about the theorem, that because it's so general and you always allow an exception,",
+        "start": 598.199,
+        "duration": 5.55
+    },
+    {
+        "text": "set, you can't say for any individual irrational number",
+        "start": 604.839,
+        "duration": 3.38
+    },
+    {
+        "text": "whether you can approximate things. But one possible example is you could choose your denominators",
+        "start": 608.62,
+        "duration": 6.229
+    },
+    {
+        "text": "being the squares. So 1, 4, 9,",
+        "start": 615.73,
+        "duration": 3.53
+    },
+    {
+        "text": "16,",
+        "start": 619.959,
+        "duration": 1.201
+    },
+    {
+        "text": "and so on. And I now have to think about what the error terms might be. One choice is I could choose",
+        "start": 621.16,
+        "duration": 6.89
+    },
+    {
+        "text": "one over the denominator. So these are gradually getting better and better approximations.",
+        "start": 628.3,
+        "duration": 3.89
+    },
+    {
+        "text": "So this would be 1 over 1, 1 over 4, 1 over 9",
+        "start": 632.56,
+        "duration": 4.099
+    },
+    {
+        "text": "1 over 16, and so on. And it's not too difficult to see with these acceptable errors that you can",
+        "start": 637.06,
+        "duration": 6.44
+    },
+    {
+        "text": "approximate basically every irrational with these error terms. So this is not very ambitious.",
+        "start": 643.779,
+        "duration": 6.26
+    },
+    {
+        "text": "Maybe a more ambitious thing would be to try and do what we did here and have one over the denominator squared.",
+        "start": 650.38,
+        "duration": 5.42
+    },
+    {
+        "text": "We're looking at smaller error terms and so it's more accurate approximations.",
+        "start": 655.92,
+        "duration": 3.76
+    },
+    {
+        "text": "I could be more ambitious and try and do the same as Dirichlet's Theorem",
+        "start": 660.22,
+        "duration": 2.52
+    },
+    {
+        "text": "but where the denominators are just the squares, so",
+        "start": 662.76,
+        "duration": 2.76
+    },
+    {
+        "text": "the outer terms would be 1/1, 1/4 squared",
+        "start": 666.19,
+        "duration": 4.04
+    },
+    {
+        "text": "1 over 9 squared,",
+        "start": 670.87,
+        "duration": 2.0
+    },
+    {
+        "text": "and so on.",
+        "start": 673.42,
+        "duration": 1.53
+    },
+    {
+        "text": "And then again",
+        "start": 674.95,
+        "duration": 1.01
+    },
+    {
+        "text": "there's a simple test as to whether you can approximate almost all numbers,",
+        "start": 675.96,
+        "duration": 3.69
+    },
+    {
+        "text": "or almost no numbers and in this case the Duffin-Schaffer conjecture, now a theorem, says you were being too ambitious here",
+        "start": 679.84,
+        "duration": 7.219
+    },
+    {
+        "text": "and so actually almost no numbers can possibly be approximated at this level of accuracy with this choices of denominators.",
+        "start": 687.06,
+        "duration": 6.78
+    },
+    {
+        "text": "So you plug in your denominators, you plug in your error terms, and then there's a",
+        "start": 693.94,
+        "duration": 6.08
+    },
+    {
+        "text": "relatively simple thing that will say either: Yes, you can approximate virtually everything, or no you get basically nothing at all",
+        "start": 700.42,
+        "duration": 6.349
+    },
+    {
+        "text": "(Brady: Could I give you just any arbitrary collection of)",
+        "start": 706.77,
+        "duration": 2.88
+    },
+    {
+        "text": "(denominators? Could I just say like, the Brady numbers - here are the Brady numbers, will it work for pi and e and that?)",
+        "start": 710.29,
+        "duration": 5.75
+    },
+    {
+        "text": "(And you'll be able to plug it into your machine and say sorry - )",
+        "start": 716.04,
+        "duration": 2.399
+    },
+    {
+        "text": "(or, yep, it's gonna work.)\n- Yeah, exactly. So again, there's always got to be a small number of exceptions because there's the crazy",
+        "start": 718.99,
+        "duration": 5.63
+    },
+    {
+        "text": "examples.",
+        "start": 725.62,
+        "duration": 1.23
+    },
+    {
+        "text": "But yeah, you choose your favourite Brady numbers and",
+        "start": 726.85,
+        "duration": 2.809
+    },
+    {
+        "text": "you say how will you want to approximate numbers by Brady numbers? And then there's a very simple test; either",
+        "start": 730.39,
+        "duration": 5.51
+    },
+    {
+        "text": "yeah, you can basically approximate everything or woah, woah, woah, you've been too ambitious,",
+        "start": 736.27,
+        "duration": 5.239
+    },
+    {
+        "text": "you can basically not approximate anything at all. And there's no in-between ground,",
+        "start": 741.78,
+        "duration": 3.779
+    },
+    {
+        "text": "it's not like you can approximate 50% of numbers or 30% of numbers;",
+        "start": 745.56,
+        "duration": 3.929
+    },
+    {
+        "text": "it's either 100% of numbers or 0% of numbers, which is kind of the beauty in this, that",
+        "start": 749.56,
+        "duration": 4.82
+    },
+    {
+        "text": "normally these problems are all so complicated",
+        "start": 755.05,
+        "duration": 2.0
+    },
+    {
+        "text": "but then there's this one moment where either you're getting virtually everything or virtually nothing and",
+        "start": 757.36,
+        "duration": 5.15
+    },
+    {
+        "text": "there's a very simple test now to tell which one of the two cases you're in.  That was what was really conjectured by Duffin and Schaeffer, they proposed",
+        "start": 762.67,
+        "duration": 6.949
+    },
+    {
+        "text": "the test. If you're in the field and you understand these things",
+        "start": 769.62,
+        "duration": 3.72
+    },
+    {
+        "text": "it's the most natural test you could possibly have but the problem was always, is this you need the true test?",
+        "start": 773.34,
+        "duration": 5.909
+    },
+    {
+        "text": "That we could prove that the test worked for lots of very special sequences of denominators and things,",
+        "start": 779.47,
+        "duration": 6.529
+    },
+    {
+        "text": "so if you chose the primes then we knew that it would work - the Duffin--Schaeffer test.",
+        "start": 786.04,
+        "duration": 5.639
+    },
+    {
+        "text": "But we didn't know for completely arbitrary",
+        "start": 791.68,
+        "duration": 2.97
+    },
+    {
+        "text": "choices of numbers, you know,",
+        "start": 795.56,
+        "duration": 1.19
+    },
+    {
+        "text": "the Brady numbers - you could have chosen them in such a way that",
+        "start": 796.75,
+        "duration": 2.549
+    },
+    {
+        "text": "we wouldn't know whether this was really the right test or not or if there's a subtle other thing that meant that the Duffin--Schaeffer",
+        "start": 799.4,
+        "duration": 5.57
+    },
+    {
+        "text": "test wasn't really the right criterion for whether you would get almost all numbers or almost none.",
+        "start": 804.97,
+        "duration": 4.319
+    },
+    {
+        "text": "(Brady: Are there certain types of denominators that work better and are more likely to give me that positive result,)",
+        "start": 809.71,
+        "duration": 6.839
+    },
+    {
+        "text": "(than other denominators? Like you said for primes)",
+        "start": 816.89,
+        "duration": 2.839
+    },
+    {
+        "text": "(usually it's going to be pretty good. Are there certain numbers that are more conducive to this than others?)\n- Yeah, so there can be problems",
+        "start": 820.25,
+        "duration": 6.95
+    },
+    {
+        "text": "when",
+        "start": 827.72,
+        "duration": 1.02
+    },
+    {
+        "text": "the - your denominators have lots of small prime factors.",
+        "start": 828.74,
+        "duration": 3.14
+    },
+    {
+        "text": "And so this was really the",
+        "start": 831.88,
+        "duration": 2.849
+    },
+    {
+        "text": "big point behind Duffin and Schaeffer's work,",
+        "start": 835.04,
+        "duration": 2.3
+    },
+    {
+        "text": "that they realised that there was this subtlety that if you have lots of prime factors in your denominators",
+        "start": 837.44,
+        "duration": 5.33
+    },
+    {
+        "text": "you can write like the same rational number in lots of different ways. We have that the rational number 1/3 is equal",
+        "start": 842.77,
+        "duration": 6.239
+    },
+    {
+        "text": "to 2/6 and is equal to 3 ninths; and you can keep on writing these different rationals as being the same thing",
+        "start": 849.68,
+        "duration": 7.79
+    },
+    {
+        "text": "because you can cancel out a common factor. The only way that things wouldn't behave",
+        "start": 857.75,
+        "duration": 4.849
+    },
+    {
+        "text": "in the most obvious way",
+        "start": 863.18,
+        "duration": 2.0
+    },
+    {
+        "text": "would be",
+        "start": 865.94,
+        "duration": 1.14
+    },
+    {
+        "text": "if you kept on hitting the same numbers again,",
+        "start": 867.08,
+        "duration": 2.539
+    },
+    {
+        "text": "and then again, again; for precisely this reason that the numbers which are well approximated by one third are also",
+        "start": 869.62,
+        "duration": 6.119
+    },
+    {
+        "text": "well approximated by numbers with the denominator 6, and are also",
+        "start": 875.93,
+        "duration": 4.01
+    },
+    {
+        "text": "well approximated by numbers with denominator 9, because they're all basically the same numbers.",
+        "start": 880.31,
+        "duration": 5.21
+    },
+    {
+        "text": "(Brady: James, for this theorem to hold do the denominators have to have been produced in some kind of)",
+        "start": 886.19,
+        "duration": 6.109
+    },
+    {
+        "text": "(systematic)",
+        "start": 892.97,
+        "duration": 1.41
+    },
+    {
+        "text": "(algorithmic way? Could I have just pulled 50 numbers out of, you know, a bucket and said these are the denominators?)",
+        "start": 894.38,
+        "duration": 6.109
+    },
+    {
+        "text": "(Or do they have to be like, you know, the Fibonacci numbers or the prime numbers? Do they have to be like)",
+        "start": 900.49,
+        "duration": 4.32
+    },
+    {
+        "text": "(selected in some legitimate way?)\n- No, you can really choose whatever crazy numbers you like.",
+        "start": 905.72,
+        "duration": 5.33
+    },
+    {
+        "text": "So you have to have infinitely many of them to possibly hope to get infinitely many approximations.",
+        "start": 911.06,
+        "duration": 5.82
+    },
+    {
+        "text": "(Brady: Ah, so you can't have a finite number of numbers in that denominator category?)",
+        "start": 916.88,
+        "duration": 4.18
+    },
+    {
+        "text": "No, you so you need to have an infinite number to really stand a chance",
+        "start": 921.08,
+        "duration": 3.74
+    },
+    {
+        "text": "because it's all asking:",
+        "start": 925.88,
+        "duration": 1.7
+    },
+    {
+        "text": "can you approximate numbers to, as good accuracy as you like. So if we in our approximations for pi",
+        "start": 927.58,
+        "duration": 6.599
+    },
+    {
+        "text": "you just stop with numbers",
+        "start": 934.7,
+        "duration": 2.0
+    },
+    {
+        "text": "less than 100 then well, you wouldn't know what the next decimal place was",
+        "start": 936.92,
+        "duration": 3.83
+    },
+    {
+        "text": "and so you couldn't tell the difference between pi in a whole load of other numbers.",
+        "start": 940.75,
+        "duration": 3.239
+    },
+    {
+        "text": "So you need to have infinitely many numbers,",
+        "start": 944.75,
+        "duration": 1.65
+    },
+    {
+        "text": "but the whole point of the theorem is it's a completely arbitrary",
+        "start": 946.4,
+        "duration": 3.739
+    },
+    {
+        "text": "collection of numbers and you can choose whatever you like. You don't have to choose it in some nice,",
+        "start": 950.48,
+        "duration": 4.67
+    },
+    {
+        "text": "mathematically sensible way. You can just pick, keep on picking numbers out of a hat in some crazy fashion and",
+        "start": 955.82,
+        "duration": 6.14
+    },
+    {
+        "text": "regardless of how you choose them,",
+        "start": 962.78,
+        "duration": 1.43
+    },
+    {
+        "text": "there's a simple way of telling whether you get almost all numbers being well approximated or almost no numbers being well approximated.",
+        "start": 964.21,
+        "duration": 6.37
+    },
+    {
+        "text": "(Brady: Was this a burning conjecture in mathematics?)",
+        "start": 970.58,
+        "duration": 3.18
+    },
+    {
+        "text": "So I think it was viewed as one of the",
+        "start": 973.76,
+        "duration": 2.72
+    },
+    {
+        "text": "more important problems in metric Diophantine approximation. So",
+        "start": 977.12,
+        "duration": 4.22
+    },
+    {
+        "text": "metric Diophantine approximation is when you're asking for these almost all results, and this was somehow the",
+        "start": 982.01,
+        "duration": 5.419
+    },
+    {
+        "text": "canonical example of a",
+        "start": 988.52,
+        "duration": 2.0
+    },
+    {
+        "text": "conjecture, and if you can't hope to do this, you can't hope to say more subtle things about how you can approximate numbers.",
+        "start": 991.16,
+        "duration": 5.689
+    },
+    {
+        "text": "(Brady: Give me a feel for what the proof was like. Was it, sort of a, one of these simple elegant ones or was it a bit of a monster?)",
+        "start": 996.85,
+        "duration": 6.05
+    },
+    {
+        "text": "So I think the basic idea is quite simple",
+        "start": 1002.97,
+        "duration": 2.4
+    },
+    {
+        "text": "but then there's a whole load of annoying technicalities that meant that it turned into a bit more of a monster.",
+        "start": 1005.37,
+        "duration": 4.65
+    },
+    {
+        "text": "But one of the fun things is that we use some ideas that weren't standard in the field and so, in particular,",
+        "start": 1010.09,
+        "duration": 6.199
+    },
+    {
+        "text": "one way of trying to understand this situation is that we ended up drawing lots of graphs.",
+        "start": 1016.81,
+        "duration": 4.94
+    },
+    {
+        "text": "So we'd just draw lots of dots where dots represent denominators and then we would draw lines between dots",
+        "start": 1021.97,
+        "duration": 7.34
+    },
+    {
+        "text": "when there were mathematical complications to do with them. And",
+        "start": 1029.5,
+        "duration": 3.589
+    },
+    {
+        "text": "then we would stare at these graphs and by understanding these graphs very well, we were able to understand the original problem.",
+        "start": 1033.79,
+        "duration": 6.529
+    },
+    {
+        "text": "So one of the main things that we did was to",
+        "start": 1040.319,
+        "duration": 2.49
+    },
+    {
+        "text": "try and understand the problem using these",
+        "start": 1043.51,
+        "duration": 2.51
+    },
+    {
+        "text": "very simple ideas of dots and lines which is way to somehow visualise some of the complexities of what's going on.",
+        "start": 1046.6,
+        "duration": 6.04
+    },
+    {
+        "text": "(Brady: Do you remember the moment that you and your collaborator had cracked it?)",
+        "start": 1053.04,
+        "duration": 3.5
+    },
+    {
+        "text": "(Like was there a minute of the day where it was like - hey, I think we've done it! - or was it more gradual than that?)",
+        "start": 1056.54,
+        "duration": 5.46
+    },
+    {
+        "text": "Okay, so there was one moment when I thought okay",
+        "start": 1062.37,
+        "duration": 2.689
+    },
+    {
+        "text": "I think we've done it. There was a lot of work after that to make sure that actually all the fine details worked out in",
+        "start": 1065.7,
+        "duration": 5.06
+    },
+    {
+        "text": "the way that I hoped, but yeah, there was definitely one moment where I was like, hang on a moment",
+        "start": 1070.76,
+        "duration": 3.419
+    },
+    {
+        "text": "I think we can actually do this. That there was one issue that we've been stuck on for quite a little while and then suddenly",
+        "start": 1074.179,
+        "duration": 6.63
+    },
+    {
+        "text": "we came up with a way of getting around that and",
+        "start": 1081.33,
+        "duration": 2.15
+    },
+    {
+        "text": "yeah, that was pretty fun moment. So I was actually just sitting in this room thinking about the problem -",
+        "start": 1084.21,
+        "duration": 5.27
+    },
+    {
+        "text": "it was a bit strange because I'd expected this to be a",
+        "start": 1090.36,
+        "duration": 3.349
+    },
+    {
+        "text": "really tough battle that I was gonna have to grapple with for quite a long time and I really wasn't sure if I was gonna",
+        "start": 1093.87,
+        "duration": 5.239
+    },
+    {
+        "text": "win the fight, but then suddenly I - there was a trick that actually managed to get around the problem.",
+        "start": 1099.15,
+        "duration": 4.88
+    },
+    {
+        "text": "So rather than having to take on the battle that I thought I was going to have to fight head-on,",
+        "start": 1104.429,
+        "duration": 5.45
+    },
+    {
+        "text": "I could just sidestep the whole thing and",
+        "start": 1109.88,
+        "duration": 2.459
+    },
+    {
+        "text": "so, in some ways it felt a bit like a cheat that I had proven the theorem that I wanted to prove, but the",
+        "start": 1112.89,
+        "duration": 5.119
+    },
+    {
+        "text": "key difficulty in the proof - actually, I didn't have to fight head-on at all.",
+        "start": 1118.32,
+        "duration": 4.04
+    },
+    {
+        "text": "We were both pretty happy as soon as we got to this stage where we are pretty sure that everything would work out then.",
+        "start": 1122.429,
+        "duration": 5.69
+    },
+    {
+        "text": "Although actually, I was at this thing - when I prove these",
+        "start": 1128.64,
+        "duration": 3.799
+    },
+    {
+        "text": "results I get this initial joy that I'm very happy, but I haven't proved it,",
+        "start": 1133.08,
+        "duration": 3.77
+    },
+    {
+        "text": "but I also get this fear that I'm about to completely embarrass myself in front of the mathematical community",
+        "start": 1136.85,
+        "duration": 4.77
+    },
+    {
+        "text": "by claiming to have proved some well-known result, when actually there'll be some obvious mistake because I've - I",
+        "start": 1142.02,
+        "duration": 5.989
+    },
+    {
+        "text": "put a plus instead of a minus somewhere.",
+        "start": 1148.47,
+        "duration": 1.98
+    },
+    {
+        "text": "So you get this euphoric joy and adrenaline rush",
+        "start": 1150.45,
+        "duration": 3.619
+    },
+    {
+        "text": "but then it's followed pretty quickly by complete fear that I'm about to trash my reputation and do something completely idiotic.",
+        "start": 1154.07,
+        "duration": 6.119
+    },
+    {
+        "text": "(Brady: How often when you have those breakthrough moments like that do you end up finding you have made a mistake?)",
+        "start": 1160.59,
+        "duration": 5.51
+    },
+    {
+        "text": "(And, and you just sort of keep quiet, and how often do you convert them into \"Wow, I was right\"?)",
+        "start": 1166.3,
+        "duration": 5.379
+    },
+    {
+        "text": "Okay, there's sort of two different levels of breakthrough moments.",
+        "start": 1172.38,
+        "duration": 3.199
+    },
+    {
+        "text": "There's ones where I don't really believe it myself and there's the ones that I really believe it myself.",
+        "start": 1175.58,
+        "duration": 4.979
+    },
+    {
+        "text": "So it's very common in the day for you - for me to be like hang on this seems to be proving this amazing result,",
+        "start": 1181.549,
+        "duration": 6.03
+    },
+    {
+        "text": "but I'm always a bit skeptical as to whether I've really done it. And those ones",
+        "start": 1187.58,
+        "duration": 4.92
+    },
+    {
+        "text": "99%at the time, they turn out to be complete rubbish and there'll be some really stupid thing that I've messed up and",
+        "start": 1192.96,
+        "duration": 6.109
+    },
+    {
+        "text": "you get up the next day, you look at what I've done and I was thinking 'how did I miss this?'",
+        "start": 1199.59,
+        "duration": 3.979
+    },
+    {
+        "text": "I've been a complete idiot here.",
+        "start": 1203.57,
+        "duration": 2.0
+    },
+    {
+        "text": "But then there's the other ones where you somehow intuitively",
+        "start": 1205.679,
+        "duration": 3.59
+    },
+    {
+        "text": "feel that, yeah, this feels right. You know, I feel like I've got to grips with the problem and I've really solved it and",
+        "start": 1210.179,
+        "duration": 6.02
+    },
+    {
+        "text": "okay, touch wood, fortunately so far all of those have turned out to actually work out.",
+        "start": 1216.99,
+        "duration": 4.49
+    },
+    {
+        "text": "(Brady: And just lastly, when you have a breakthrough moment like)",
+        "start": 1221.48,
+        "duration": 2.489
+    },
+    {
+        "text": "(that, like you have that idea the way to circumvent the problem and that.)",
+        "start": 1223.97,
+        "duration": 2.91
+    },
+    {
+        "text": "(Is it such a big thing that you couldn't forget it or do you have to write it down quickly in case you forget the idea? Like - )",
+        "start": 1227.46,
+        "duration": 5.74
+    },
+    {
+        "text": "Okay, I think I couldn't forget these things at all. That, normally when I've been working on a problem, I'm pretty obsessed by it",
+        "start": 1233.85,
+        "duration": 6.229
+    },
+    {
+        "text": "and so it's sort of coursing through my body the whole time and in the back of my mind",
+        "start": 1240.08,
+        "duration": 3.69
+    },
+    {
+        "text": "even when I'm",
+        "start": 1243.77,
+        "duration": 1.21
+    },
+    {
+        "text": "having lunch and having the shower and things. And so I really have",
+        "start": 1244.98,
+        "duration": 4.13
+    },
+    {
+        "text": "all the bits of the problem in my head and as soon as I have the idea for the problem,",
+        "start": 1249.27,
+        "duration": 3.709
+    },
+    {
+        "text": "I'm not going to forget how easily. I often want to write it down to check that",
+        "start": 1252.99,
+        "duration": 4.309
+    },
+    {
+        "text": "it really does work out the way that I think it works out.",
+        "start": 1257.299,
+        "duration": 2.55
+    },
+    {
+        "text": "But yeah, it'll be over my dead body that I'm forgetting these ideas, I think.",
+        "start": 1260.07,
+        "duration": 3.469
+    },
+    {
+        "text": "[Preview of more videos] Most recent time where we've seen someone really write down the conjecture officially was just over a hundred years ago by de Polignac,",
+        "start": 1266.03,
+        "duration": 7.19
+    },
+    {
+        "text": "but he actually conjectured a stronger, more general form of the twin prime conjecture that's a bit more complicated.",
+        "start": 1273.26,
+        "duration": 5.09
+    }
+]

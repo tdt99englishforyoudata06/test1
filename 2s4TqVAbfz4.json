@@ -1,0 +1,1962 @@
+[
+    {
+        "text": "[PROF SEQUIN]: What do you make of this? 5, 6, 3, 3. What do you think comes next?",
+        "start": 0.0,
+        "duration": 4.56
+    },
+    {
+        "text": "[BRADY]: I'm gonna go... 7!",
+        "start": 4.56,
+        "duration": 3.32
+    },
+    {
+        "text": "[PROF SEQUIN]: 7. No, actually, it is another 3. Now you have a guess at what's coming next.",
+        "start": 7.88,
+        "duration": 4.88
+    },
+    {
+        "text": "[BRADY]: 3.",
+        "start": 12.76,
+        "duration": 1.4
+    },
+    {
+        "text": "[PROF SEQUIN]: Good! Yes. As a matter of fact it continues to be 3, 3, 3.",
+        "start": 14.16,
+        "duration": 4.2
+    },
+    {
+        "text": "And you wonder, this is really a strange sequence, you know, what are we going to do with this?",
+        "start": 18.36,
+        "duration": 3.86
+    },
+    {
+        "text": "Well, this is the number of regular polytopes that exist in 3, 4, 5, 6, 7, 8, 9, and all higher dimensions.",
+        "start": 22.22,
+        "duration": 13.5
+    },
+    {
+        "text": "And that's what we are going to talk about today.",
+        "start": 35.72,
+        "duration": 1.76
+    },
+    {
+        "text": "Regular polytopes in N dimensions. A polytope is just a more general term that generalizes for",
+        "start": 37.48,
+        "duration": 5.5
+    },
+    {
+        "text": "2-dimensional polygons, 3-dimensional polyhedra, and everything higher we call a regular polytope.",
+        "start": 42.98,
+        "duration": 5.24
+    },
+    {
+        "text": "That sounds a little scary, so let's start with something much simpler; the platonic solids.",
+        "start": 48.22,
+        "duration": 3.66
+    },
+    {
+        "text": "So here is a tetrahedron, that is the first platonic solid.",
+        "start": 51.88,
+        "duration": 3.56
+    },
+    {
+        "text": "Next we have a simple cube.",
+        "start": 55.44,
+        "duration": 2.3
+    },
+    {
+        "text": "Third one — octahedron, made from eight equilateral triangles.",
+        "start": 58.96,
+        "duration": 4.84
+    },
+    {
+        "text": "Number four, twelve faces — the dodecahedron.\nThis one has twelve pentagons.",
+        "start": 63.8,
+        "duration": 4.76
+    },
+    {
+        "text": "And finally, the real jewel... —",
+        "start": 68.56,
+        "duration": 3.1
+    },
+    {
+        "text": "Ahhh.... the icosahedron, made out of twenty equilateral triangles, and this is probably a Swiss crystal.",
+        "start": 71.66,
+        "duration": 8.2
+    },
+    {
+        "text": "[BRADY]: Of course.",
+        "start": 79.86,
+        "duration": 1.98
+    },
+    {
+        "text": "[PROF SEQUIN]: And here is another view of an icosahedron — this is a pattern by M.C. Escher.",
+        "start": 81.84,
+        "duration": 4.88
+    },
+    {
+        "text": "Could you show to a non-mathematician, in an intuitive way, why there are exactly five platonic solids —",
+        "start": 86.72,
+        "duration": 5.88
+    },
+    {
+        "text": "not more, and not less...?",
+        "start": 92.6,
+        "duration": 1.58
+    },
+    {
+        "text": "Well, one way to do it is to look at the surface of these objects.",
+        "start": 94.18,
+        "duration": 3.86
+    },
+    {
+        "text": "So this dodecahedron, for instance,\nis made out of regular pentagons.",
+        "start": 98.04,
+        "duration": 3.76
+    },
+    {
+        "text": "And so all of these platonic solids\nare made out of regular polygons.",
+        "start": 101.8,
+        "duration": 4.32
+    },
+    {
+        "text": "So probably we should step down a dimension\nand look at what regular polygons are possible.",
+        "start": 106.12,
+        "duration": 6.6
+    },
+    {
+        "text": "Simplest one would be a regular equilateral triangle.\nThen we can do a square. Then we can do a pentagon.",
+        "start": 112.72,
+        "duration": 9.02
+    },
+    {
+        "text": "Then we can do an hexagon, and so on, and if you go all the way to infinity, we end up with something that",
+        "start": 121.74,
+        "duration": 6.62
+    },
+    {
+        "text": "looks like a circle.",
+        "start": 128.36,
+        "duration": 1.08
+    },
+    {
+        "text": "So there are infinitely many of these regular\npolygons in two dimensions.",
+        "start": 129.44,
+        "duration": 3.94
+    },
+    {
+        "text": "So really, this sequence up here, it has another character before the five, if you go to 2 dimensions.",
+        "start": 133.38,
+        "duration": 5.48
+    },
+    {
+        "text": "And what's that?",
+        "start": 138.86,
+        "duration": 0.88
+    },
+    {
+        "text": "It's not an eight—it's infinity.",
+        "start": 139.74,
+        "duration": 1.74
+    },
+    {
+        "text": "And if you really wanna go to the extreme,\nwhat about 1 dimension?",
+        "start": 141.48,
+        "duration": 2.74
+    },
+    {
+        "text": "Well, it's just a line segment — nothing else.",
+        "start": 144.22,
+        "duration": 2.42
+    },
+    {
+        "text": "What about 0 dimension? Well, it's just a point;\nnothing else. But now, 1, 1, ∞, 5, 6, 3, 3, 3, 3, 3, 3 -",
+        "start": 146.64,
+        "duration": 8.14
+    },
+    {
+        "text": "that's a really weird sequence, you know, and, um,\nI guess that would really confuse people.",
+        "start": 154.78,
+        "duration": 4.68
+    },
+    {
+        "text": "Okay, all of the platonic solids are made\nfrom one of these regular polygons.",
+        "start": 159.46,
+        "duration": 5.82
+    },
+    {
+        "text": "And so, how many different ways can we use these regular polygons to make one of these solids?",
+        "start": 165.28,
+        "duration": 4.96
+    },
+    {
+        "text": "Start with the equilateral triangle, and ask 'how can we make a platonic solid out of that one?'",
+        "start": 170.24,
+        "duration": 5.04
+    },
+    {
+        "text": "Well, we'll need a minimum of three of those\nto be put around the corner in order to make a",
+        "start": 175.28,
+        "duration": 4.5
+    },
+    {
+        "text": "valid corner in three dimensions.",
+        "start": 179.78,
+        "duration": 2.18
+    },
+    {
+        "text": "And if we put three of these triangles around a shared vertex, then the bottom is also an equilateral triangle.",
+        "start": 181.96,
+        "duration": 5.38
+    },
+    {
+        "text": "That would give us a tetrahedron.",
+        "start": 187.34,
+        "duration": 2.2
+    },
+    {
+        "text": "Okay, so next we can try to put four equilateral\ntriangles around the shared vertex.",
+        "start": 189.54,
+        "duration": 4.9
+    },
+    {
+        "text": "And we can bring them together and make a four-sided pyramid. And, remember, to make it regular",
+        "start": 194.44,
+        "duration": 4.28
+    },
+    {
+        "text": "all of the dihedral angles here have to be exactly the same.",
+        "start": 198.72,
+        "duration": 3.4
+    },
+    {
+        "text": "So that means that the bottom now is a perfect square.",
+        "start": 202.12,
+        "duration": 3.1
+    },
+    {
+        "text": "We can take this square pyramid\nand match it with an identical square pyramid.",
+        "start": 205.22,
+        "duration": 4.34
+    },
+    {
+        "text": "So that makes the second platonic solid;\nthe octahedron.",
+        "start": 209.56,
+        "duration": 3.36
+    },
+    {
+        "text": "Now we can try to take five of those\nand put them around a vertex.",
+        "start": 212.92,
+        "duration": 4.8
+    },
+    {
+        "text": "And this makes this five-sided pyramid —\nso it's completely symmetrical.",
+        "start": 217.72,
+        "duration": 4.12
+    },
+    {
+        "text": "If we continue forming these kinds of corners,\nand try to sort of wrap it around,",
+        "start": 221.84,
+        "duration": 4.04
+    },
+    {
+        "text": "will this actually get a closed surface?",
+        "start": 225.88,
+        "duration": 1.84
+    },
+    {
+        "text": "Will this actually end up in something,\nsomething useful?",
+        "start": 227.72,
+        "duration": 2.6
+    },
+    {
+        "text": "Well, we know we have this icosahedron, okay?\nBut if you have to really figure out whether it works,",
+        "start": 230.32,
+        "duration": 5.5
+    },
+    {
+        "text": "it takes a little... thinking.",
+        "start": 235.82,
+        "duration": 1.72
+    },
+    {
+        "text": "You can see on top here — we will have\nthis five-sided pyramid.",
+        "start": 237.54,
+        "duration": 3.38
+    },
+    {
+        "text": "So we can take one of these five-sided pyramids —",
+        "start": 240.92,
+        "duration": 2.08
+    },
+    {
+        "text": "we cannot put this one just up on a mirror — we can\ntake another one, but the two have to be rotated",
+        "start": 243.0,
+        "duration": 4.98
+    },
+    {
+        "text": "against one another by 36°. And if we do that,",
+        "start": 247.98,
+        "duration": 3.38
+    },
+    {
+        "text": "then in between we can see there's a triangle strip,\nwith triangles going up–down, up–down, up–down...",
+        "start": 251.36,
+        "duration": 4.8
+    },
+    {
+        "text": "essentially forming a five-sided anti-prism.\nAdding ten more triangles,",
+        "start": 256.16,
+        "duration": 4.66
+    },
+    {
+        "text": "it's kind of beautiful that indeed this surface does close and result in number three platonic solid.",
+        "start": 260.82,
+        "duration": 6.02
+    },
+    {
+        "text": "[BRADY]: And what about six triangles?  [PROF SEQUIN]: Oh, good question! Glad you asked that.",
+        "start": 266.84,
+        "duration": 3.24
+    },
+    {
+        "text": "So, let's try to take six triangles, and put them together,",
+        "start": 270.08,
+        "duration": 3.8
+    },
+    {
+        "text": "and we get a wonderful nice hexagon, here.",
+        "start": 273.88,
+        "duration": 3.52
+    },
+    {
+        "text": "So, unfortunately, it's totally flat.",
+        "start": 277.4,
+        "duration": 2.42
+    },
+    {
+        "text": "And so this doesn't really curve and it doesn't\nhelp you to make some kind of closed object.",
+        "start": 279.82,
+        "duration": 4.66
+    },
+    {
+        "text": "You can make a kitchen floor with that one.",
+        "start": 284.48,
+        "duration": 2.02
+    },
+    {
+        "text": "Now if we go to seven triangles,\nthey don't even fit into the plane –",
+        "start": 286.5,
+        "duration": 3.16
+    },
+    {
+        "text": "it's kind of get the warped chip. And that is no good.\nSo we're done with triangles.",
+        "start": 289.66,
+        "duration": 3.66
+    },
+    {
+        "text": "For now we have to go to squares.",
+        "start": 293.32,
+        "duration": 1.76
+    },
+    {
+        "text": "Fold them up, so basically three squares around the shared vertex leaves off an opening of 90 degrees.",
+        "start": 295.08,
+        "duration": 4.6
+    },
+    {
+        "text": "And we forcefully try to close this opening.",
+        "start": 299.68,
+        "duration": 2.68
+    },
+    {
+        "text": "And now we have a valid 3D corner.",
+        "start": 302.36,
+        "duration": 2.86
+    },
+    {
+        "text": "If you take a contraption like that, and match it on the backside with exactly the same contraption,",
+        "start": 305.22,
+        "duration": 5.26
+    },
+    {
+        "text": "then you get a cube made out of six squares.",
+        "start": 310.48,
+        "duration": 3.9
+    },
+    {
+        "text": "Now I know what you're gonna ask next...",
+        "start": 314.38,
+        "duration": 1.64
+    },
+    {
+        "text": "'What about four squares?'",
+        "start": 316.02,
+        "duration": 1.74
+    },
+    {
+        "text": "Well... glad you asked.",
+        "start": 317.76,
+        "duration": 1.84
+    },
+    {
+        "text": "—Same problem...",
+        "start": 319.82,
+        "duration": 0.68
+    },
+    {
+        "text": "—Same problem here. So we can put four squares together — and they make either a complete flat.",
+        "start": 320.5,
+        "duration": 6.0
+    },
+    {
+        "text": "Or if we were to somehow bend it in weird ways, then",
+        "start": 326.5,
+        "duration": 4.02
+    },
+    {
+        "text": "(it'll) unknot all the dihedral angles\nand all the edges would be the same;",
+        "start": 330.52,
+        "duration": 3.76
+    },
+    {
+        "text": "and so it not would be a regular corner — that's unuseful.",
+        "start": 334.28,
+        "duration": 3.4
+    },
+    {
+        "text": "So we're done with squares.",
+        "start": 337.68,
+        "duration": 1.02
+    },
+    {
+        "text": "We can put three pentagons together,\nand form a nice 3D corner.",
+        "start": 338.7,
+        "duration": 4.72
+    },
+    {
+        "text": "And again the question arises: does that really close if we continue the process?",
+        "start": 343.42,
+        "duration": 3.76
+    },
+    {
+        "text": "And the easiest way to see it is to take one pentagon and put five pentagons around it,",
+        "start": 347.18,
+        "duration": 4.72
+    },
+    {
+        "text": "completing five of these corners.",
+        "start": 351.9,
+        "duration": 1.84
+    },
+    {
+        "text": "And this makes this nice kind of salad bowl.",
+        "start": 353.74,
+        "duration": 2.86
+    },
+    {
+        "text": "And now if we put another salad bowl like that\non top of it,",
+        "start": 356.6,
+        "duration": 4.28
+    },
+    {
+        "text": "— again rotate by 36 degrees so it fits nicely together —",
+        "start": 360.88,
+        "duration": 3.58
+    },
+    {
+        "text": "then, indeed, we can convince ourselves very quickly that that leads to yet another regular platonic solid.",
+        "start": 364.46,
+        "duration": 5.22
+    },
+    {
+        "text": "Trying to put four of these pentagons around the corner exceeds a total of 360 degrees,",
+        "start": 369.68,
+        "duration": 5.98
+    },
+    {
+        "text": "so you already get something that's\nwarped like a potato chip — and it's no good.",
+        "start": 375.66,
+        "duration": 3.78
+    },
+    {
+        "text": "We're done with pentagons!",
+        "start": 379.44,
+        "duration": 1.18
+    },
+    {
+        "text": "Hexagons!\n—Hexagons!",
+        "start": 380.62,
+        "duration": 1.2
+    },
+    {
+        "text": "—You know what happens with three hexagons,\nof course: three flat tiling. That's no good.",
+        "start": 381.82,
+        "duration": 4.46
+    },
+    {
+        "text": "What about heptagons?",
+        "start": 386.28,
+        "duration": 1.14
+    },
+    {
+        "text": "Well, they don't even verily fit into a plane. It's too much.",
+        "start": 387.42,
+        "duration": 3.46
+    },
+    {
+        "text": "So, from there on up, we're sort of done.",
+        "start": 390.88,
+        "duration": 3.16
+    },
+    {
+        "text": "Nothing new can happen.",
+        "start": 394.04,
+        "duration": 1.46
+    },
+    {
+        "text": "Now you know exactly why there are five platonic solids — and exactly five platonic solids.",
+        "start": 395.5,
+        "duration": 5.24
+    },
+    {
+        "text": "—Professor, is a sphere a platonic solid?",
+        "start": 400.74,
+        "duration": 2.88
+    },
+    {
+        "text": "—No, it isn't. Because even if you think about a very fine tessellation, you could not find a tessellation on a sphere",
+        "start": 403.62,
+        "duration": 7.3
+    },
+    {
+        "text": "where all the faces would be exactly the same,",
+        "start": 410.92,
+        "duration": 2.24
+    },
+    {
+        "text": "and all the edges are all the same,\nand all the vertices are the same...",
+        "start": 413.16,
+        "duration": 3.2
+    },
+    {
+        "text": "So we're basically done with three dimensions...",
+        "start": 416.36,
+        "duration": 2.78
+    },
+    {
+        "text": "And so, I must admit that for many of us\nthere is indeed a sixth platonic solid.",
+        "start": 419.72,
+        "duration": 3.96
+    },
+    {
+        "text": "And it is ... the Utah teapot!",
+        "start": 423.68,
+        "duration": 2.66
+    },
+    {
+        "text": "For the people in the computer-graphics community,\nthis is such a famous object",
+        "start": 426.34,
+        "duration": 3.62
+    },
+    {
+        "text": "which has been used again and again to test our rendering software and solid-modeling software.",
+        "start": 429.96,
+        "duration": 6.04
+    },
+    {
+        "text": "And it just shows up... it's just in about every single graphic paper in some form or another.",
+        "start": 436.0,
+        "duration": 3.96
+    },
+    {
+        "text": "So we like to think of it as the sixth platonic solid.",
+        "start": 439.96,
+        "duration": 3.74
+    },
+    {
+        "text": "Now these regular polytopes are made out\nof regular polytopes one dimension lower.",
+        "start": 445.86,
+        "duration": 5.82
+    },
+    {
+        "text": "In the same way that we made platonic solids\nout of 2D regular polygons,",
+        "start": 451.68,
+        "duration": 4.82
+    },
+    {
+        "text": "we can now try to make four-dimensional regular polytopes out of three-dimensional platonic solids.",
+        "start": 456.5,
+        "duration": 6.46
+    },
+    {
+        "text": "Each one of these four-dimensional regular polytopes is of an object that has, as a surface,",
+        "start": 462.96,
+        "duration": 4.92
+    },
+    {
+        "text": "a thick crust of three-dimensional platonic solids.",
+        "start": 467.88,
+        "duration": 3.56
+    },
+    {
+        "text": "And just like we made a cube out of squares, we're now trying to make a hypercube out of cubes in its surface.",
+        "start": 471.44,
+        "duration": 7.44
+    },
+    {
+        "text": "We used to take three squares, and then forcefully\ntry to close this gap of ninety degrees.",
+        "start": 478.88,
+        "duration": 5.64
+    },
+    {
+        "text": "And by closing it, we force this corner\nto pop out of two dimension —",
+        "start": 484.52,
+        "duration": 4.54
+    },
+    {
+        "text": "become a three-dimensional valid polyhedral corner.",
+        "start": 489.06,
+        "duration": 3.06
+    },
+    {
+        "text": "And that's the corner of a cube.",
+        "start": 492.12,
+        "duration": 1.34
+    },
+    {
+        "text": "Now, we're doing exactly the same thing, except —",
+        "start": 493.46,
+        "duration": 2.86
+    },
+    {
+        "text": "think that behind each one of these squares, there is a complete cube.",
+        "start": 496.32,
+        "duration": 3.96
+    },
+    {
+        "text": "And these three cubes now are sharing a joint edge, perpendicular to this plane in that particular corner.",
+        "start": 500.28,
+        "duration": 6.64
+    },
+    {
+        "text": "So there's a ninety degree wedge of open space",
+        "start": 507.22,
+        "duration": 3.26
+    },
+    {
+        "text": "and we're trying to forcefully close that.",
+        "start": 510.48,
+        "duration": 2.0
+    },
+    {
+        "text": "And we cannot close that in three dimensions if there are cubes behind each one of these four visible squares.",
+        "start": 512.48,
+        "duration": 6.3
+    },
+    {
+        "text": "But trust me, if we really do that and we can pop out\nin the fourth dimension, we can close up, you know,",
+        "start": 518.78,
+        "duration": 7.04
+    },
+    {
+        "text": "these cubes — and we get a hypercube.",
+        "start": 525.82,
+        "duration": 4.7
+    },
+    {
+        "text": "[BRADY]: Those cubes behind these that I was being asked to imagine...",
+        "start": 530.52,
+        "duration": 3.7
+    },
+    {
+        "text": "they've kind of overlapped with each other now...",
+        "start": 534.22,
+        "duration": 2.66
+    },
+    {
+        "text": "[PROF SEQUIN]: No, because they pop out into four dimensional space,",
+        "start": 536.88,
+        "duration": 4.28
+    },
+    {
+        "text": "in the same way that when we took these two dimensional squares — and we force them to close.",
+        "start": 541.16,
+        "duration": 5.58
+    },
+    {
+        "text": "They didn't overlap; they just popped out\nof two dimensions into three dimensions.",
+        "start": 546.74,
+        "duration": 4.1
+    },
+    {
+        "text": "And four-dimensional space is really much\nbigger than three dimensional space,",
+        "start": 550.84,
+        "duration": 3.28
+    },
+    {
+        "text": "so there's ample room for these cubes to simply\npop out and form a true four dimensional corner.",
+        "start": 554.12,
+        "duration": 5.44
+    },
+    {
+        "text": "[BRADY]: But to my three-dimensional eyes,\nhe is sitting in 3D space... I'm like...",
+        "start": 559.66,
+        "duration": 4.04
+    },
+    {
+        "text": "how did that happen? But if I had four-dimensional eyes, I'd be thinking...",
+        "start": 563.7,
+        "duration": 3.34
+    },
+    {
+        "text": "[PROF SEQUIN]: That's correct. And now you're hitting on the real problem.",
+        "start": 567.06,
+        "duration": 2.28
+    },
+    {
+        "text": "So we can figure out that this must be possible,\nbut then... can we visualize that?",
+        "start": 569.34,
+        "duration": 5.14
+    },
+    {
+        "text": "I mean, how do we know what these thing looks like...?",
+        "start": 574.48,
+        "duration": 3.36
+    },
+    {
+        "text": "Well... for that, we have to use some kind of a shadow,\nor a projection of a four-dimensional object",
+        "start": 578.5,
+        "duration": 7.8
+    },
+    {
+        "text": "down into three-dimensional space.",
+        "start": 586.3,
+        "duration": 2.46
+    },
+    {
+        "text": "And I'm sort of torn between, you know, should we use a shadow or should we use",
+        "start": 588.76,
+        "duration": 4.1
+    },
+    {
+        "text": "what I would call a 'wireframe'?",
+        "start": 592.86,
+        "duration": 1.78
+    },
+    {
+        "text": "And you see... the trade-off between those two options.",
+        "start": 594.64,
+        "duration": 3.2
+    },
+    {
+        "text": "Just like if I showed you the wireframe\nof the dodecahedron —",
+        "start": 597.84,
+        "duration": 3.24
+    },
+    {
+        "text": "you can really see through it, and it tells you much more than if you just had a faceless shadow of this object.",
+        "start": 601.08,
+        "duration": 5.7
+    },
+    {
+        "text": "You can eventually start to get a feeling\nby looking at three-dimensional wireframes",
+        "start": 606.78,
+        "duration": 6.34
+    },
+    {
+        "text": "or projection of such wireframes —",
+        "start": 613.12,
+        "duration": 2.24
+    },
+    {
+        "text": "what the four-dimensional object might indeed look like.",
+        "start": 615.36,
+        "duration": 3.34
+    },
+    {
+        "text": "And — doing this projection — we still have an option.",
+        "start": 618.7,
+        "duration": 2.46
+    },
+    {
+        "text": "We can project in various different ways.",
+        "start": 621.16,
+        "duration": 1.82
+    },
+    {
+        "text": "We're going from a two-dimensional square\nto a three-dimensional object.",
+        "start": 622.98,
+        "duration": 4.5
+    },
+    {
+        "text": "And in an oblique projection, I start with the red square in front",
+        "start": 627.48,
+        "duration": 3.96
+    },
+    {
+        "text": "and then the blue square is the ones off in the back,",
+        "start": 631.44,
+        "duration": 2.68
+    },
+    {
+        "text": "and the green lines essentially show me the depth.",
+        "start": 634.12,
+        "duration": 2.26
+    },
+    {
+        "text": "We can do the same thing by starting with a complete cube — the red cube is in front",
+        "start": 636.42,
+        "duration": 3.86
+    },
+    {
+        "text": "the blue cube is in the back —",
+        "start": 640.28,
+        "duration": 1.28
+    },
+    {
+        "text": "and then the green lines show essentially the extrusion of this cube in this oblique direction.",
+        "start": 641.56,
+        "duration": 4.56
+    },
+    {
+        "text": "Alternatively, we can use a perspective projection\n— everything in the back would appear smaller.",
+        "start": 646.12,
+        "duration": 5.52
+    },
+    {
+        "text": "And we can look straight at the face.",
+        "start": 651.64,
+        "duration": 1.56
+    },
+    {
+        "text": "And by doing that, you know, the back face will be a smaller square (that's off) really behind the red square;",
+        "start": 653.2,
+        "duration": 4.86
+    },
+    {
+        "text": "and the green lines show kind of the depth\ngoing from the front to the back.",
+        "start": 658.06,
+        "duration": 3.44
+    },
+    {
+        "text": "And the same we can do with the complete cube.",
+        "start": 661.5,
+        "duration": 2.22
+    },
+    {
+        "text": "And we get, you know, in the back\na smaller cube shown in blue,",
+        "start": 663.72,
+        "duration": 2.72
+    },
+    {
+        "text": "and then the edges that go from\nthe front to the back are shown in green.",
+        "start": 666.44,
+        "duration": 3.64
+    },
+    {
+        "text": "So here is the oblique projection.",
+        "start": 670.08,
+        "duration": 1.82
+    },
+    {
+        "text": "You can see the fatter cubes being the ones in front,\nand then the thinner cube in the back...",
+        "start": 671.9,
+        "duration": 5.34
+    },
+    {
+        "text": "and then the slightly conical edges\nleading from the front to the back.",
+        "start": 677.24,
+        "duration": 3.12
+    },
+    {
+        "text": "So that's a valid depiction of\na wireframe of a hypercube.",
+        "start": 680.36,
+        "duration": 4.54
+    },
+    {
+        "text": "And here is the alternative model —\na perspective projection.",
+        "start": 684.9,
+        "duration": 3.86
+    },
+    {
+        "text": "So the bluish cube is the front cube, and the yellow cube is the one in the back — which is here much smaller.",
+        "start": 688.76,
+        "duration": 6.02
+    },
+    {
+        "text": "The red edges that go from the front to the back.",
+        "start": 694.78,
+        "duration": 2.66
+    },
+    {
+        "text": "And this hypercube has a total of eight cubes:",
+        "start": 697.44,
+        "duration": 3.1
+    },
+    {
+        "text": "the front cube in blue, the back cube in yellow,",
+        "start": 700.54,
+        "duration": 2.84
+    },
+    {
+        "text": "and then some squashed cubes\nhere showing one on each of six faces.",
+        "start": 703.38,
+        "duration": 4.96
+    },
+    {
+        "text": "So there's a total of eight cubes making the surface\n— or the thick crust — of the hypercube.",
+        "start": 708.34,
+        "duration": 5.2
+    },
+    {
+        "text": "[BRADY]: So that yellow cube isn't inside the blue cube...",
+        "start": 713.54,
+        "duration": 2.92
+    },
+    {
+        "text": "[PROF SEQUIN]: No. In four dimensions, it would be up\nin the fourth dimension (at) a certain distance.",
+        "start": 716.46,
+        "duration": 4.88
+    },
+    {
+        "text": "Because of perspective projection, what's\nfurther up there gets projected into the back...",
+        "start": 721.34,
+        "duration": 5.66
+    },
+    {
+        "text": "and appears smaller in this projection.",
+        "start": 727.0,
+        "duration": 1.94
+    },
+    {
+        "text": "Now, we're going to systematically look at all\nthe platonic solids;",
+        "start": 728.94,
+        "duration": 3.66
+    },
+    {
+        "text": "see how many we can group around the shared edge, how much empty space there is,",
+        "start": 732.6,
+        "duration": 3.9
+    },
+    {
+        "text": "and then we push that one out and push that into a valid 4D corner.",
+        "start": 736.5,
+        "duration": 3.54
+    },
+    {
+        "text": "The simplest object to start with is the tetrahedron.",
+        "start": 740.04,
+        "duration": 2.92
+    },
+    {
+        "text": "The tetrahedron has a dihedral angle of 70 and a half degrees.",
+        "start": 742.96,
+        "duration": 5.54
+    },
+    {
+        "text": "We need at least three of these tetrahedrons\naround the edge to make a valid corner.",
+        "start": 748.5,
+        "duration": 3.84
+    },
+    {
+        "text": "Three, of course, fits very easily.",
+        "start": 752.34,
+        "duration": 1.64
+    },
+    {
+        "text": "Four fits. Even five fits, but just barely:\nwe just have a few degrees left.",
+        "start": 753.98,
+        "duration": 4.24
+    },
+    {
+        "text": "And so, when we try to fit five tetrahedrons around this, we just get a little bit bending in four-dimensional space.",
+        "start": 758.22,
+        "duration": 5.98
+    },
+    {
+        "text": "And we will need  — as we will see — a whole lot\nof these tetrahedra (to) make it actually work out.",
+        "start": 764.2,
+        "duration": 4.54
+    },
+    {
+        "text": "So we can start out with three tetrahedra",
+        "start": 768.74,
+        "duration": 3.18
+    },
+    {
+        "text": "and ask what happens if we forcefully, you know,\nbend that into a corner. Can we repeat it?",
+        "start": 771.92,
+        "duration": 5.74
+    },
+    {
+        "text": "And the answer is we will get the 'simplex',\n or the '5 Cell'.",
+        "start": 777.66,
+        "duration": 4.06
+    },
+    {
+        "text": "So, because of the projection, you know,\nit becomes just a three-dimensional object;",
+        "start": 781.72,
+        "duration": 5.76
+    },
+    {
+        "text": "and it loses some of its symmetry.",
+        "start": 787.48,
+        "duration": 2.36
+    },
+    {
+        "text": "So we have five vertices, but the fifth one, — to me, to make it as symmetric as possible —",
+        "start": 789.84,
+        "duration": 5.16
+    },
+    {
+        "text": "I put it here right in the middle.",
+        "start": 795.0,
+        "duration": 1.68
+    },
+    {
+        "text": "So we get the outer tetrahedron, and then we get the dimples here on each side.",
+        "start": 796.68,
+        "duration": 4.94
+    },
+    {
+        "text": "They all represent additional four tetrahedra.",
+        "start": 801.62,
+        "duration": 4.18
+    },
+    {
+        "text": "And they don't look very regular,\nand that's because of the projection.",
+        "start": 805.8,
+        "duration": 3.9
+    },
+    {
+        "text": "But, in four dimensional space, all five of these tetrahedra are completely regular.",
+        "start": 809.7,
+        "duration": 4.88
+    },
+    {
+        "text": "And so that's the 5 Cell or the simplex.",
+        "start": 814.58,
+        "duration": 3.1
+    },
+    {
+        "text": "That's what happens when you take\nthree tetrahedra around a shared edge",
+        "start": 817.68,
+        "duration": 4.2
+    },
+    {
+        "text": "and essentially force out the empty space\nand bend it into a true four-dimensional corner.",
+        "start": 821.88,
+        "duration": 4.98
+    },
+    {
+        "text": "Four tetrahedra around the corner,\nyou know, we get this object here, okay?",
+        "start": 826.86,
+        "duration": 4.62
+    },
+    {
+        "text": "It's called the 'cross-polytope'.",
+        "start": 831.48,
+        "duration": 2.64
+    },
+    {
+        "text": "And it's actually the dual of the hypercube\nthat we've seen before, okay?...",
+        "start": 834.12,
+        "duration": 4.84
+    },
+    {
+        "text": "So that's the cross-polytope —\nthe second regular polytope in four dimensions.",
+        "start": 838.96,
+        "duration": 4.96
+    },
+    {
+        "text": "Five tetrahedra put around a shared edge — \nyou get something that has a lot of tetrahedra.",
+        "start": 844.26,
+        "duration": 5.92
+    },
+    {
+        "text": "As a matter of fact, this thing has 600 tetrahedra.",
+        "start": 850.18,
+        "duration": 3.7
+    },
+    {
+        "text": "Most of them are so crunched up in\nthe middle here because of the projection...",
+        "start": 854.26,
+        "duration": 4.18
+    },
+    {
+        "text": "and you just see one giant tetrahedra on the outside.",
+        "start": 858.44,
+        "duration": 3.84
+    },
+    {
+        "text": "And then, adjacent to each faces, you see smaller...\nfairly much flattened-out tetrahedra...",
+        "start": 862.28,
+        "duration": 6.72
+    },
+    {
+        "text": "And you have to just believe me that, in there, there are essentially — in addition to this one out here —",
+        "start": 869.0,
+        "duration": 5.06
+    },
+    {
+        "text": "another 599 tetrahedra.",
+        "start": 874.06,
+        "duration": 2.6
+    },
+    {
+        "text": "This is called the '600 Cell'.",
+        "start": 876.66,
+        "duration": 2.14
+    },
+    {
+        "text": "Six tetrahedra would exceed the dihedral\nangle of three-hundred sixty degrees...",
+        "start": 878.8,
+        "duration": 4.5
+    },
+    {
+        "text": "And that's like, you know, something warped\nthat, uh... is not regular. So that's of no use...",
+        "start": 883.3,
+        "duration": 5.6
+    },
+    {
+        "text": "We have seen cubes; they have dihedral angles of 90°.",
+        "start": 888.9,
+        "duration": 3.6
+    },
+    {
+        "text": "Three of them will fit around an axis till it'll leave an open gap ...",
+        "start": 892.5,
+        "duration": 3.68
+    },
+    {
+        "text": "and then we fold this one up — we've seen we get the hypercube.",
+        "start": 896.18,
+        "duration": 2.86
+    },
+    {
+        "text": "If we try to put four cubes around the joint axis\n— you can readily visualize —",
+        "start": 899.4,
+        "duration": 4.18
+    },
+    {
+        "text": "that would readily fill the space without any bending.",
+        "start": 903.58,
+        "duration": 2.72
+    },
+    {
+        "text": "And so we can tile all of three-dimensional space\nwith that, but it will never bend and make a regular",
+        "start": 906.3,
+        "duration": 4.86
+    },
+    {
+        "text": "polytope in a higher dimension.",
+        "start": 911.16,
+        "duration": 1.52
+    },
+    {
+        "text": "So we're done with the cubes.",
+        "start": 912.68,
+        "duration": 1.78
+    },
+    {
+        "text": "The next platonic solid you may want to try is the octahedron.",
+        "start": 914.46,
+        "duration": 4.08
+    },
+    {
+        "text": "It has a dihedral angle of 109 and a half degrees.",
+        "start": 918.54,
+        "duration": 4.08
+    },
+    {
+        "text": "So that's less than a hundred and twenty degrees here.",
+        "start": 922.62,
+        "duration": 2.48
+    },
+    {
+        "text": "And that means we can indeed\nfit three around a joint edge, and",
+        "start": 925.1,
+        "duration": 4.2
+    },
+    {
+        "text": "still leave a little bit open space, which we can squeeze out and make this then pop into the fourth dimension.",
+        "start": 929.3,
+        "duration": 6.78
+    },
+    {
+        "text": "And the result is what I believe to be the most\nbeautiful four-dimensional regular polytope:",
+        "start": 936.08,
+        "duration": 5.74
+    },
+    {
+        "text": "the '24 Cell', made out of twenty-four octahedra.",
+        "start": 941.82,
+        "duration": 4.32
+    },
+    {
+        "text": "You can see the outermost octahedron, because\nI chose that to be, you know, preserved in the projection.",
+        "start": 948.1,
+        "duration": 6.88
+    },
+    {
+        "text": "But, then, you see these rather flattened octahedra:\nthis one triangle here...",
+        "start": 954.98,
+        "duration": 4.98
+    },
+    {
+        "text": "another triangle, this small one here..., and sort of a...",
+        "start": 959.96,
+        "duration": 3.58
+    },
+    {
+        "text": "distorted antiprism in between...",
+        "start": 963.54,
+        "duration": 2.56
+    },
+    {
+        "text": "and then there are more on the inside.",
+        "start": 966.1,
+        "duration": 1.46
+    },
+    {
+        "text": "I really like this particular object the most,\nbecause it's not too complex —",
+        "start": 967.56,
+        "duration": 3.88
+    },
+    {
+        "text": "you can still see what's going on,\nyou can still look in the inside,",
+        "start": 971.44,
+        "duration": 2.52
+    },
+    {
+        "text": "see the innermost, very tiny little octahedron at the center.",
+        "start": 973.96,
+        "duration": 3.54
+    },
+    {
+        "text": "Now, it turns out this object has 1152 symmetries in four-dimensional space.",
+        "start": 977.5,
+        "duration": 8.22
+    },
+    {
+        "text": "And then you simply get that by multiplying the symmetries of an octahedron — which are 48 —",
+        "start": 986.4,
+        "duration": 7.76
+    },
+    {
+        "text": "with the number of octahedra — twenty-four.",
+        "start": 994.18,
+        "duration": 2.94
+    },
+    {
+        "text": "You multiply this out — you get to 1152.",
+        "start": 997.12,
+        "duration": 2.98
+    },
+    {
+        "text": "Because you can take — in four-dimensional space — any one of the octahedron",
+        "start": 1000.48,
+        "duration": 5.06
+    },
+    {
+        "text": "and put it in the place — by suitable rotation — of any one of the other 24 octahedra,",
+        "start": 1005.54,
+        "duration": 6.68
+    },
+    {
+        "text": "in any one of the 48 possible positions.",
+        "start": 1012.22,
+        "duration": 2.7
+    },
+    {
+        "text": "I live at the street address 11-52. And then I found out that this object has 1152 symmetries.",
+        "start": 1014.92,
+        "duration": 8.1
+    },
+    {
+        "text": "I thought that somehow fate really meant\nme to be, you know, into geometry.",
+        "start": 1023.02,
+        "duration": 4.3
+    },
+    {
+        "text": "The next one on the list is the dodecahedron,",
+        "start": 1027.32,
+        "duration": 2.18
+    },
+    {
+        "text": "with a 116 and a half degrees of a dihedral angle.",
+        "start": 1029.5,
+        "duration": 3.06
+    },
+    {
+        "text": "That is still less than 120 degrees,\nso we can still force three of them around an edge",
+        "start": 1032.56,
+        "duration": 6.14
+    },
+    {
+        "text": "and then join it into a valid four-dimensional corner.",
+        "start": 1038.7,
+        "duration": 3.1
+    },
+    {
+        "text": "It's not bending all that much,",
+        "start": 1041.8,
+        "duration": 2.2
+    },
+    {
+        "text": "And so we will need a hundred and twenty\nof those objects in the crust",
+        "start": 1044.0,
+        "duration": 3.98
+    },
+    {
+        "text": "to form a valid four-dimensional regular polytope.",
+        "start": 1047.98,
+        "duration": 2.48
+    },
+    {
+        "text": "So this is a model of the 120 Cell.",
+        "start": 1050.46,
+        "duration": 2.46
+    },
+    {
+        "text": "Of course you can see the outermost dodecahedron.",
+        "start": 1052.92,
+        "duration": 2.5
+    },
+    {
+        "text": "You can see kind of these flattened pancake-like,\nyou know, dodecahedra on top here.",
+        "start": 1055.42,
+        "duration": 5.78
+    },
+    {
+        "text": "And each one of the faces has one of those.",
+        "start": 1061.2,
+        "duration": 1.8
+    },
+    {
+        "text": "And then stacked on the inside there are a few more, adding up to a total of a hundred and twenty of those.",
+        "start": 1063.0,
+        "duration": 5.82
+    },
+    {
+        "text": "We still have the icosahedron.",
+        "start": 1068.82,
+        "duration": 2.02
+    },
+    {
+        "text": "Unfortunately it has a very shallow dihedral angle.",
+        "start": 1070.84,
+        "duration": 2.5
+    },
+    {
+        "text": "It is more than 120 degrees; it is actually 138 degrees, roughly.",
+        "start": 1073.34,
+        "duration": 4.34
+    },
+    {
+        "text": "And so even three of them would not fit around this edge without overlapping.",
+        "start": 1077.68,
+        "duration": 4.74
+    },
+    {
+        "text": "And so we cannot form a valid corner.",
+        "start": 1082.42,
+        "duration": 2.38
+    },
+    {
+        "text": "And, unfortunately, this is useless, as far as making a four-dimensional regular polytope.",
+        "start": 1084.8,
+        "duration": 6.28
+    },
+    {
+        "text": "You basically can figure it out yourself, right?",
+        "start": 1091.96,
+        "duration": 2.04
+    },
+    {
+        "text": "You know how to make five-dimensional regular polytopes.",
+        "start": 1094.0,
+        "duration": 3.0
+    },
+    {
+        "text": "You look at the four-dimensional regular polytopes, look at their dihedral angles, and figure out, you know,",
+        "start": 1097.0,
+        "duration": 5.64
+    },
+    {
+        "text": "can I fit at least three of them around\nan edge so I can make a valid corner?",
+        "start": 1102.64,
+        "duration": 4.52
+    },
+    {
+        "text": "Most of these regular polytopes in four dimensions are very round, and they're not very useful",
+        "start": 1107.16,
+        "duration": 5.08
+    },
+    {
+        "text": "There are really only two of them that actually have some hope of generating a new regular polytope in higher dimension.",
+        "start": 1112.24,
+        "duration": 6.82
+    },
+    {
+        "text": "One of them is the simplex, or the 5 Cell; and the other one is the hypercube.",
+        "start": 1119.06,
+        "duration": 4.1
+    },
+    {
+        "text": "[Brady]: The other ones have got too shallow ... ?",
+        "start": 1123.16,
+        "duration": 1.44
+    },
+    {
+        "text": "[PROF SEQUIN]: Yeah, the other ones have too shallow of dihedral angles,",
+        "start": 1124.6,
+        "duration": 2.38
+    },
+    {
+        "text": "and they just don't make valid corners in the next higher dimension.",
+        "start": 1126.98,
+        "duration": 3.8
+    },
+    {
+        "text": "And so, from five dimensions onwards,",
+        "start": 1130.78,
+        "duration": 3.04
+    },
+    {
+        "text": "there are really only just three regular polytopes in each one of these dimensions.",
+        "start": 1134.18,
+        "duration": 4.74
+    },
+    {
+        "text": "One is the simplex series — you can always make a simplex.",
+        "start": 1138.92,
+        "duration": 3.26
+    },
+    {
+        "text": "By taking a simplex in a particular dimension\n— I'm starting with the tetrahedron —",
+        "start": 1142.18,
+        "duration": 4.16
+    },
+    {
+        "text": "and then I put another vertex at the center of gravity.",
+        "start": 1146.34,
+        "duration": 3.54
+    },
+    {
+        "text": "And now I use the fourth dimension, and essentially raise this vertex up in the fourth dimension",
+        "start": 1149.88,
+        "duration": 5.82
+    },
+    {
+        "text": "until it has exactly the same distance from all the other four vertices. That makes a new simplex.",
+        "start": 1155.7,
+        "duration": 7.26
+    },
+    {
+        "text": "And then I can take that particular simplex, put a new vertex at its center,",
+        "start": 1163.52,
+        "duration": 5.22
+    },
+    {
+        "text": "raise it up in the next higher dimension until it is exactly the same distance from all the previously existing vertices",
+        "start": 1168.74,
+        "duration": 6.08
+    },
+    {
+        "text": "and make the next simplex.",
+        "start": 1174.82,
+        "duration": 1.58
+    },
+    {
+        "text": "That always works.",
+        "start": 1176.76,
+        "duration": 1.32
+    },
+    {
+        "text": "So I can work my way up to infinity by always\nmaking an additional simplex in exactly that manner.",
+        "start": 1178.42,
+        "duration": 6.02
+    },
+    {
+        "text": "The problem now is how do we depict those things.",
+        "start": 1184.8,
+        "duration": 3.52
+    },
+    {
+        "text": "'Cause clearly projecting it down — you could do anything.",
+        "start": 1188.32,
+        "duration": 3.04
+    },
+    {
+        "text": "So, it's better to figure out how do we make a model\nthat has the right connectivity, even though",
+        "start": 1191.36,
+        "duration": 5.86
+    },
+    {
+        "text": "the geometry really sort of bogus at this point because it's so much distorted from what we originally have.",
+        "start": 1197.22,
+        "duration": 5.1
+    },
+    {
+        "text": "And I have make a few more simplices in higher dimensions.",
+        "start": 1202.32,
+        "duration": 2.76
+    },
+    {
+        "text": "You just need to always add one more vertex,\nand then figure out how to make a nice little graph",
+        "start": 1205.08,
+        "duration": 5.3
+    },
+    {
+        "text": "that will get the right connectivity.",
+        "start": 1210.4,
+        "duration": 2.56
+    },
+    {
+        "text": "So, this one has six vertices.\nI claim this is a projection of the 5D simplex.",
+        "start": 1212.96,
+        "duration": 6.96
+    },
+    {
+        "text": "'Cause the simplex also is the complete graph; every vertex is connected directly to every other vertex.",
+        "start": 1219.92,
+        "duration": 6.24
+    },
+    {
+        "text": "And you can see in this case — you start at any one vertex, there're five edges going off,",
+        "start": 1226.16,
+        "duration": 4.46
+    },
+    {
+        "text": "one to each of the other vertices.",
+        "start": 1230.62,
+        "duration": 2.08
+    },
+    {
+        "text": "So we want to make a 3D model, that has six corners, is reasonably symmetric, but not too symmetric.",
+        "start": 1232.7,
+        "duration": 5.56
+    },
+    {
+        "text": "So we could start with an octahedron. But in the octahedron then, when you connect opposite vertices,",
+        "start": 1238.26,
+        "duration": 5.18
+    },
+    {
+        "text": "those three edges will all intersect in the middle.",
+        "start": 1243.44,
+        "duration": 2.5
+    },
+    {
+        "text": "That wouldn't be so nice. You wouldn't see what's going on.",
+        "start": 1245.94,
+        "duration": 2.0
+    },
+    {
+        "text": "So you'd have to deliberately distort this octahedron, warp it a little bit, so that those three space diagonals",
+        "start": 1247.94,
+        "duration": 6.3
+    },
+    {
+        "text": "that go through the middle of the regular octahedron —",
+        "start": 1254.24,
+        "duration": 2.36
+    },
+    {
+        "text": "they have separated out. And now they\ndo not intersect with each other anymore.",
+        "start": 1256.6,
+        "duration": 4.18
+    },
+    {
+        "text": "So the trick was really just finding six vertices\nin a relatively symmetrical arrangement,",
+        "start": 1260.78,
+        "duration": 6.76
+    },
+    {
+        "text": "so we can connect every one with\nevery other one without any intersections.",
+        "start": 1267.54,
+        "duration": 3.52
+    },
+    {
+        "text": "And that's the game that we have to play for every one of the dimensions that we want to build a simplex model.",
+        "start": 1271.06,
+        "duration": 4.98
+    },
+    {
+        "text": "We already had this object that had\nsix vertices completely connected —",
+        "start": 1276.04,
+        "duration": 4.44
+    },
+    {
+        "text": "the warped octahedron — and that actually\nhas an extra free space in the center.",
+        "start": 1280.48,
+        "duration": 4.44
+    },
+    {
+        "text": "It's so easy therefore to put a seventh\nvertex right here in the center.",
+        "start": 1284.92,
+        "duration": 4.28
+    },
+    {
+        "text": "This one can again be connected to all the other vertices.",
+        "start": 1289.2,
+        "duration": 3.36
+    },
+    {
+        "text": "And so now we have a complete graph of seven vertices.",
+        "start": 1292.56,
+        "duration": 3.18
+    },
+    {
+        "text": "And that would be a nice model of a six-dimensional simplex.",
+        "start": 1295.74,
+        "duration": 5.04
+    },
+    {
+        "text": "There is a second sequence that works for all dimensions.",
+        "start": 1300.78,
+        "duration": 2.82
+    },
+    {
+        "text": "And it's called the 'measure polytope' or 'hypercube sequence'.",
+        "start": 1303.6,
+        "duration": 3.82
+    },
+    {
+        "text": "The cube is the object with which we measure\nthe volume of three-dimensional space.",
+        "start": 1307.42,
+        "duration": 4.4
+    },
+    {
+        "text": "Just like the square is the geometrical element\nthat we use to measure two-dimensional space.",
+        "start": 1311.82,
+        "duration": 4.78
+    },
+    {
+        "text": "Similarly, the hypercube would\nmeasure four-dimensional space.",
+        "start": 1316.6,
+        "duration": 3.38
+    },
+    {
+        "text": "So the measure polytopes are always the equivalent\nof a cube in the higher dimensions.",
+        "start": 1319.98,
+        "duration": 6.56
+    },
+    {
+        "text": "And the best way of visualizing what's going on\nis essentially going in stepwise extrusions.",
+        "start": 1327.04,
+        "duration": 6.52
+    },
+    {
+        "text": "So, we start with a line. And then we take this line,\nand extrude it basically into a square.",
+        "start": 1333.56,
+        "duration": 5.92
+    },
+    {
+        "text": "And then we sort of take that square and extrude it perpendicular to itself into a cube.",
+        "start": 1339.48,
+        "duration": 4.82
+    },
+    {
+        "text": "And then, we're doing one more extrusion\nof that cube into a hypercube,",
+        "start": 1344.3,
+        "duration": 3.72
+    },
+    {
+        "text": "to an extrusion of the hypercube into the 5D measure polytope.",
+        "start": 1348.02,
+        "duration": 3.76
+    },
+    {
+        "text": "And you could continue that way.",
+        "start": 1351.78,
+        "duration": 1.76
+    },
+    {
+        "text": "Or you can change the scale.",
+        "start": 1353.54,
+        "duration": 1.36
+    },
+    {
+        "text": "So, what I prefer — maybe in six dimensions — would be to take a regular cube",
+        "start": 1354.9,
+        "duration": 4.1
+    },
+    {
+        "text": "and essentially sweep that in three different dimensions to make yourself a thickened cube frames",
+        "start": 1359.0,
+        "duration": 4.78
+    },
+    {
+        "text": "which is showing every edge as the\n'sweep path' of one of those cubes.",
+        "start": 1363.78,
+        "duration": 4.3
+    },
+    {
+        "text": "So this particular diagram would be\na depiction of a sixth-dimensional hypercube,",
+        "start": 1368.08,
+        "duration": 4.34
+    },
+    {
+        "text": "which you get by extrusion.",
+        "start": 1372.42,
+        "duration": 1.48
+    },
+    {
+        "text": "Another projection of the sixth-dimensional hypercube results in this 'Rhombic Triacontahedron',",
+        "start": 1373.9,
+        "duration": 5.84
+    },
+    {
+        "text": "which has thirty rhombic faces on the outside.",
+        "start": 1379.74,
+        "duration": 2.96
+    },
+    {
+        "text": "But, on the inside, there's a whole lot of intersecting edges going on. And you may not like that.",
+        "start": 1382.7,
+        "duration": 4.98
+    },
+    {
+        "text": "So it all depends on what you really\nwant to get out of your model.",
+        "start": 1387.68,
+        "duration": 3.58
+    },
+    {
+        "text": "In some sense, this makes a very nice\nsort of climbing structure for children.",
+        "start": 1391.26,
+        "duration": 3.24
+    },
+    {
+        "text": "[Brady]: That's not very cuby though, is it? It's hard to see the cube.",
+        "start": 1394.5,
+        "duration": 2.28
+    },
+    {
+        "text": "[PROF SEQUIN]: Yeah, for some angles, if you look at... here it looks like an oblique kind of squashed cube",
+        "start": 1396.78,
+        "duration": 4.7
+    },
+    {
+        "text": "that starts with one of the cube face.",
+        "start": 1401.48,
+        "duration": 1.62
+    },
+    {
+        "text": "Or a very flattened cube, you know,\nwe have just like three faces here.",
+        "start": 1403.1,
+        "duration": 4.92
+    },
+    {
+        "text": "And then on the inside there will be another three flat faces,",
+        "start": 1408.02,
+        "duration": 3.0
+    },
+    {
+        "text": "but they of course already intersect with\nedges from some of the other cubes.",
+        "start": 1411.02,
+        "duration": 3.06
+    },
+    {
+        "text": "—We can go cubes all the way to infinity.\n—That is correct.",
+        "start": 1414.08,
+        "duration": 2.64
+    },
+    {
+        "text": "So, you know, we started out with five platonic solids.",
+        "start": 1416.72,
+        "duration": 2.72
+    },
+    {
+        "text": "We went to the six regular polytopes in four dimensions.",
+        "start": 1419.44,
+        "duration": 2.88
+    },
+    {
+        "text": "And after that I said 3, 3, 3, 3, 3...",
+        "start": 1422.32,
+        "duration": 2.1
+    },
+    {
+        "text": "I have shown you two of those three series;",
+        "start": 1424.42,
+        "duration": 2.5
+    },
+    {
+        "text": "the simplex series, and then\nthe measure polytopes series.",
+        "start": 1426.92,
+        "duration": 4.24
+    },
+    {
+        "text": "So there must be another one.",
+        "start": 1431.16,
+        "duration": 1.36
+    },
+    {
+        "text": "We've seen that we can make a series of measure polytopes through all the dimensions.",
+        "start": 1432.52,
+        "duration": 5.16
+    },
+    {
+        "text": "In each one of these dimensions we can also form the 'dual'.",
+        "start": 1438.02,
+        "duration": 3.2
+    },
+    {
+        "text": "Just like in three dimensions we have the cube,\nand then we have its dual which is the octahedron.",
+        "start": 1441.22,
+        "duration": 5.24
+    },
+    {
+        "text": "By holding it that way, you can see the top and bottom vertex in my right hand",
+        "start": 1446.46,
+        "duration": 6.06
+    },
+    {
+        "text": "correspond to the top and bottom face\nin this particular cube.",
+        "start": 1452.52,
+        "duration": 3.76
+    },
+    {
+        "text": "For each of the six faces in the cube,\nI now have a vertex.",
+        "start": 1456.28,
+        "duration": 3.78
+    },
+    {
+        "text": "And for each of the vertices in the cube,\nI now have a face.",
+        "start": 1460.06,
+        "duration": 4.26
+    },
+    {
+        "text": "[BRADY]: Like its evil twin...\n[PROF SEQUIN]: Yeah. Oh, nice twins actually...",
+        "start": 1464.32,
+        "duration": 3.3
+    },
+    {
+        "text": "[BRADY]: Yeah.",
+        "start": 1467.62,
+        "duration": 0.5
+    },
+    {
+        "text": "[PROF SEQUIN]: So they're duals of one another.",
+        "start": 1468.12,
+        "duration": 2.18
+    },
+    {
+        "text": "We also have the models that show the same relationship — not quite as obvious — in 4 dimensions.",
+        "start": 1470.3,
+        "duration": 6.48
+    },
+    {
+        "text": "So here we have the measure polytope — the hypercube.",
+        "start": 1476.78,
+        "duration": 2.54
+    },
+    {
+        "text": "And, if we take the eight cubes in the crust of\nthe hypercube, and replace them by eight vertices,",
+        "start": 1479.32,
+        "duration": 8.04
+    },
+    {
+        "text": "we get the corresponding measure polytope, which is the dual to this hypercube.",
+        "start": 1487.36,
+        "duration": 4.1
+    },
+    {
+        "text": "[BRADY]: Evil twin!",
+        "start": 1491.54,
+        "duration": 0.86
+    },
+    {
+        "text": "[PROF SEQUIN]: And the same principle goes on.",
+        "start": 1492.8,
+        "duration": 1.72
+    },
+    {
+        "text": "It gets, you know, near impossible to kind of visualize in higher dimensions, but again,",
+        "start": 1494.54,
+        "duration": 4.78
+    },
+    {
+        "text": "every measure polytope in d-dimension is made out of measure polytopes of d-minus-one-dimension.",
+        "start": 1499.32,
+        "duration": 8.02
+    },
+    {
+        "text": "You replace each one of those cells with a vertex at its center, and connect them properly,",
+        "start": 1507.34,
+        "duration": 5.22
+    },
+    {
+        "text": "and you get the 'cross polytope', which is the dual to the measure polytope in any one of these dimensions.",
+        "start": 1512.56,
+        "duration": 5.26
+    },
+    {
+        "text": "And that's the third series that we can form.",
+        "start": 1517.82,
+        "duration": 2.18
+    },
+    {
+        "text": "Um, here is again our sequence.",
+        "start": 1520.0,
+        "duration": 2.06
+    },
+    {
+        "text": "You know, we have infinitely many polygons in two dimensions.",
+        "start": 1522.06,
+        "duration": 3.5
+    },
+    {
+        "text": "We have five platonic solids in three dimensions.",
+        "start": 1525.56,
+        "duration": 2.9
+    },
+    {
+        "text": "Six polytopes in four dimensions.",
+        "start": 1528.46,
+        "duration": 1.62
+    },
+    {
+        "text": "And from there on, it's just always\nonly three regular polytopes.",
+        "start": 1530.08,
+        "duration": 3.78
+    },
+    {
+        "text": "So, in conclusion, I think I can say we're sort of lucky that we live in one of the two dimensions",
+        "start": 1533.86,
+        "duration": 5.86
+    },
+    {
+        "text": "where it's really interesting — and we have a variety of  different regular polytopes.",
+        "start": 1539.72,
+        "duration": 3.38
+    },
+    {
+        "text": "[BRADY]: We don't live in the most interesting dimension though. We live in the second most interesting...",
+        "start": 1543.1,
+        "duration": 4.44
+    },
+    {
+        "text": "[PROF SEQUIN]: Well, if you think that we live in space-time continuum, which is four-dimensional, so we live in that one too.",
+        "start": 1547.54,
+        "duration": 6.42
+    },
+    {
+        "text": "So, what, I'm inside, a four-dimensional polytope right now?",
+        "start": 1556.8,
+        "duration": 6.9
+    },
+    {
+        "text": "Yes, you're inside the 120 cell space is entirely filled with dodecahedra because",
+        "start": 1563.7,
+        "duration": 6.66
+    },
+    {
+        "text": "in this spherical space, dodecahedra tile space. It's non-Euclidean...",
+        "start": 1570.94,
+        "duration": 5.72
+    }
+]

@@ -1,0 +1,817 @@
+[
+    {
+        "text": "Thanks to Brilliant for supporting this episode\nof SciShow.",
+        "start": 0.099,
+        "duration": 2.81
+    },
+    {
+        "text": "Go to Brilliant.org/SciShow to learn more.",
+        "start": 2.909,
+        "duration": 2.791
+    },
+    {
+        "text": "[♪ INTRO]",
+        "start": 5.7,
+        "duration": 3.08
+    },
+    {
+        "text": "In 2019, Google researchers announced that\nthey had",
+        "start": 8.79,
+        "duration": 2.37
+    },
+    {
+        "text": "achieved quantum supremacy.",
+        "start": 11.16,
+        "duration": 2.84
+    },
+    {
+        "text": "That does not mean that they’re ushering\nin a new sci-fi future.",
+        "start": 14.0,
+        "duration": 3.46
+    },
+    {
+        "text": "As far as we know.",
+        "start": 17.46,
+        "duration": 1.0
+    },
+    {
+        "text": "It sounds very grandiose.",
+        "start": 18.46,
+        "duration": 2.07
+    },
+    {
+        "text": "Instead, it describes what might be the first",
+        "start": 20.53,
+        "duration": 2.88
+    },
+    {
+        "text": "useful quantum computer, an entirely new way",
+        "start": 23.41,
+        "duration": 3.5
+    },
+    {
+        "text": "of performing calculations that’s better\nthan anything",
+        "start": 26.91,
+        "duration": 3.33
+    },
+    {
+        "text": "we’ve got right now.",
+        "start": 30.24,
+        "duration": 1.22
+    },
+    {
+        "text": "But not everyone thinks that Google actually\ngot there,",
+        "start": 31.46,
+        "duration": 3.09
+    },
+    {
+        "text": "or that quantum supremacy is even a",
+        "start": 34.55,
+        "duration": 1.949
+    },
+    {
+        "text": "thing worth worrying about.",
+        "start": 36.499,
+        "duration": 2.24
+    },
+    {
+        "text": "To understand what this means, we’ve got\nto go",
+        "start": 38.739,
+        "duration": 2.62
+    },
+    {
+        "text": "way back to the basics of how computers work.",
+        "start": 41.359,
+        "duration": 3.93
+    },
+    {
+        "text": "If you’ve been told one thing about a computer,",
+        "start": 45.289,
+        "duration": 1.96
+    },
+    {
+        "text": "it’s that, deep down, everything is just\nones and zeros.",
+        "start": 47.249,
+        "duration": 3.481
+    },
+    {
+        "text": "And, amazingly, this very simple fact is more\nor less true.",
+        "start": 50.73,
+        "duration": 4.14
+    },
+    {
+        "text": "The principle behind your everyday modern\ncomputer",
+        "start": 54.87,
+        "duration": 2.39
+    },
+    {
+        "text": "dates back to a landmark paper published",
+        "start": 57.26,
+        "duration": 2.449
+    },
+    {
+        "text": "by British computer scientist Alan Turing\nin 1936.",
+        "start": 59.709,
+        "duration": 4.021
+    },
+    {
+        "text": "He described a theoretical device we now call",
+        "start": 63.73,
+        "duration": 3.309
+    },
+    {
+        "text": "the Turing machine, capable of solving any\nproblem",
+        "start": 67.039,
+        "duration": 3.801
+    },
+    {
+        "text": "with just three simple actions.",
+        "start": 70.84,
+        "duration": 2.33
+    },
+    {
+        "text": "The machine could read a zero or one from\na bit of memory,",
+        "start": 73.17,
+        "duration": 3.65
+    },
+    {
+        "text": "like a strip of paper.",
+        "start": 76.82,
+        "duration": 1.47
+    },
+    {
+        "text": "It could also write a zero or one to that\nbit of memory,",
+        "start": 78.29,
+        "duration": 3.77
+    },
+    {
+        "text": "or it could move to an adjacent bit.",
+        "start": 82.06,
+        "duration": 3.33
+    },
+    {
+        "text": "Mathematicians have proven that by combining",
+        "start": 85.39,
+        "duration": 2.33
+    },
+    {
+        "text": "those three actions with a set of rules about\nwhen to use each one,",
+        "start": 87.72,
+        "duration": 4.999
+    },
+    {
+        "text": "the Turing machine is capable of solving any\nmathematical problem.",
+        "start": 92.719,
+        "duration": 5.11
+    },
+    {
+        "text": "It was theoretical at the time, but now every\nmodern computer",
+        "start": 97.829,
+        "duration": 3.601
+    },
+    {
+        "text": "is basically just an extremely complicated,\nvery small,",
+        "start": 101.43,
+        "duration": 6.14
+    },
+    {
+        "text": "really wonderful Turing machine.",
+        "start": 107.57,
+        "duration": 2.17
+    },
+    {
+        "text": "These devices now are starting to be called\nclassical computers.",
+        "start": 109.74,
+        "duration": 3.86
+    },
+    {
+        "text": "Quantum computers, on the other hand, wait\nfor this,",
+        "start": 113.6,
+        "duration": 2.9
+    },
+    {
+        "text": "have bits called qubits that can represent\na zero, a one,",
+        "start": 116.5,
+        "duration": 4.44
+    },
+    {
+        "text": "or any combination of the two.",
+        "start": 120.94,
+        "duration": 3.529
+    },
+    {
+        "text": "To understand what that means, we gotta use\nquantum physics’",
+        "start": 124.469,
+        "duration": 2.82
+    },
+    {
+        "text": "most famous -- or infamous -- problem.",
+        "start": 127.289,
+        "duration": 2.841
+    },
+    {
+        "text": "Yes, the cat one.",
+        "start": 130.13,
+        "duration": 1.38
+    },
+    {
+        "text": "This thought experiment, first proposed",
+        "start": 131.51,
+        "duration": 1.36
+    },
+    {
+        "text": "by Austrian physicist Erwin Schrödinger,",
+        "start": 132.87,
+        "duration": 2.68
+    },
+    {
+        "text": "imagined a cat locked in a box with a poison\ndevice.",
+        "start": 135.55,
+        "duration": 4.03
+    },
+    {
+        "text": "At a random time, the device would activate\nand kill the cat.",
+        "start": 139.58,
+        "duration": 3.71
+    },
+    {
+        "text": "Until you open the box, you can’t know whether",
+        "start": 143.29,
+        "duration": 2.38
+    },
+    {
+        "text": "the dirty deed has actually happened, so,\nin a sense,",
+        "start": 145.67,
+        "duration": 3.59
+    },
+    {
+        "text": "the cat is both alive and dead while hidden\nfrom view.",
+        "start": 149.26,
+        "duration": 3.37
+    },
+    {
+        "text": "We’ve simplified this.",
+        "start": 152.63,
+        "duration": 1.24
+    },
+    {
+        "text": "Now, Schrödinger’s whole point with this\nis that",
+        "start": 153.87,
+        "duration": 1.76
+    },
+    {
+        "text": "the world we’re familiar with -- the classical\nworld --",
+        "start": 155.63,
+        "duration": 2.2
+    },
+    {
+        "text": "doesn’t work like this.",
+        "start": 157.83,
+        "duration": 2.25
+    },
+    {
+        "text": "But the quantum world does.",
+        "start": 160.08,
+        "duration": 2.05
+    },
+    {
+        "text": "The cat is both alive and dead,",
+        "start": 162.13,
+        "duration": 3.98
+    },
+    {
+        "text": "but only with quantum particles.",
+        "start": 166.11,
+        "duration": 1.29
+    },
+    {
+        "text": "Now let’s get back to qubits.",
+        "start": 167.4,
+        "duration": 1.28
+    },
+    {
+        "text": "When you read the value of a qubit, you only\never get a zero or a one,",
+        "start": 168.68,
+        "duration": 4.72
+    },
+    {
+        "text": "just like the cat can only ever be alive or\ndead in the end.",
+        "start": 173.4,
+        "duration": 3.22
+    },
+    {
+        "text": "But which you get is all up to chance.",
+        "start": 176.62,
+        "duration": 3.72
+    },
+    {
+        "text": "Every qubit has a probability of being a zero",
+        "start": 180.34,
+        "duration": 2.64
+    },
+    {
+        "text": "and a probability of being a one,",
+        "start": 182.98,
+        "duration": 1.92
+    },
+    {
+        "text": "a combination called a superposition.",
+        "start": 184.9,
+        "duration": 2.59
+    },
+    {
+        "text": "But what the chances of each are is based\non",
+        "start": 187.49,
+        "duration": 2.95
+    },
+    {
+        "text": "how the qubit is set up.",
+        "start": 190.44,
+        "duration": 1.78
+    },
+    {
+        "text": "What’s more, the values of different qubits",
+        "start": 192.22,
+        "duration": 2.91
+    },
+    {
+        "text": "can be linked together in a process called\nquantum entanglement.",
+        "start": 195.13,
+        "duration": 3.7
+    },
+    {
+        "text": "That means that if you measure the state of",
+        "start": 198.83,
+        "duration": 1.85
+    },
+    {
+        "text": "one entangled qubit, you also get information",
+        "start": 200.68,
+        "duration": 3.66
+    },
+    {
+        "text": "about its buddies.",
+        "start": 204.34,
+        "duration": 1.42
+    },
+    {
+        "text": "This adds up to, well, math.",
+        "start": 205.76,
+        "duration": 2.4
+    },
+    {
+        "text": "By entangling qubits in certain combinations,",
+        "start": 208.16,
+        "duration": 2.58
+    },
+    {
+        "text": "engineers can solve some of the same kinds\nof problems",
+        "start": 210.74,
+        "duration": 3.32
+    },
+    {
+        "text": "that they can with classical computers.",
+        "start": 214.06,
+        "duration": 1.78
+    },
+    {
+        "text": "It’s the combination of superposition and\nentanglement",
+        "start": 215.84,
+        "duration": 3.46
+    },
+    {
+        "text": "that gives quantum computers their theoretical\npower.",
+        "start": 219.3,
+        "duration": 3.19
+    },
+    {
+        "text": "Basically, they should be able to do the same\nthings,",
+        "start": 222.49,
+        "duration": 3.49
+    },
+    {
+        "text": "but way faster.",
+        "start": 225.98,
+        "duration": 1.4
+    },
+    {
+        "text": "In principle, a quantum computer can perform",
+        "start": 227.38,
+        "duration": 2.51
+    },
+    {
+        "text": "a calculation very quickly by representing\nall possible outcomes",
+        "start": 229.89,
+        "duration": 4.19
+    },
+    {
+        "text": "at once and then finding the correct one.",
+        "start": 234.08,
+        "duration": 3.13
+    },
+    {
+        "text": "Which brings us back to quantum supremacy.",
+        "start": 237.21,
+        "duration": 1.98
+    },
+    {
+        "text": "It’s the idea that this approach can solve\nsome kinds",
+        "start": 239.19,
+        "duration": 3.32
+    },
+    {
+        "text": "of problems that classical computers can’t\n--",
+        "start": 242.51,
+        "duration": 3.06
+    },
+    {
+        "text": "in a practical amount of time, that is.",
+        "start": 245.57,
+        "duration": 1.78
+    },
+    {
+        "text": "But unlike the physics that actually makes\nquantum computers work,",
+        "start": 247.35,
+        "duration": 3.35
+    },
+    {
+        "text": "the idea of supremacy, of being better than\nclassical computers,",
+        "start": 250.7,
+        "duration": 4.37
+    },
+    {
+        "text": "is pretty imprecise.",
+        "start": 255.07,
+        "duration": 1.0
+    },
+    {
+        "text": "Like, what counts as an impractical amount\nof time?",
+        "start": 256.07,
+        "duration": 3.38
+    },
+    {
+        "text": "Also, quantum computers might be better only\nfor",
+        "start": 259.45,
+        "duration": 2.6
+    },
+    {
+        "text": "certain specific kinds of problems -- so does\nthat matter?",
+        "start": 262.05,
+        "duration": 3.65
+    },
+    {
+        "text": "Google’s announcement that they had achieved",
+        "start": 265.7,
+        "duration": 1.57
+    },
+    {
+        "text": "quantum supremacy has put these questions",
+        "start": 267.27,
+        "duration": 2.5
+    },
+    {
+        "text": "front and center.",
+        "start": 269.77,
+        "duration": 0.87
+    },
+    {
+        "text": "They constructed a device consisting of 54\nqubits,",
+        "start": 270.64,
+        "duration": 3.48
+    },
+    {
+        "text": "made of tiny loops of superconducting wire",
+        "start": 274.12,
+        "duration": 2.53
+    },
+    {
+        "text": "and capable of representing around ten quadrillion\nstates.",
+        "start": 276.65,
+        "duration": 4.03
+    },
+    {
+        "text": "With it, they created a quantum random number\ngenerator",
+        "start": 280.68,
+        "duration": 2.85
+    },
+    {
+        "text": "and generated a million numbers in just 200\nseconds.",
+        "start": 283.53,
+        "duration": 3.97
+    },
+    {
+        "text": "And after running some tests on the world’s",
+        "start": 287.5,
+        "duration": 1.82
+    },
+    {
+        "text": "most powerful supercomputer, they concluded",
+        "start": 289.33,
+        "duration": 2.34
+    },
+    {
+        "text": "that the machine would take about 10,000 years",
+        "start": 291.67,
+        "duration": 4.17
+    },
+    {
+        "text": "to do the same thing.",
+        "start": 295.84,
+        "duration": 1.44
+    },
+    {
+        "text": "But it didn’t take long for a research group\nat IBM to respond,",
+        "start": 297.28,
+        "duration": 3.39
+    },
+    {
+        "text": "claiming they could program the same supercomputer",
+        "start": 300.67,
+        "duration": 2.81
+    },
+    {
+        "text": "to do the simulation in two and a half days,",
+        "start": 303.48,
+        "duration": 3.26
+    },
+    {
+        "text": "while also providing extra accuracy.",
+        "start": 306.74,
+        "duration": 2.27
+    },
+    {
+        "text": "This is why it would be nice to have",
+        "start": 309.01,
+        "duration": 1.45
+    },
+    {
+        "text": "a more solid definition of quantum supremacy.",
+        "start": 310.46,
+        "duration": 3.1
+    },
+    {
+        "text": "2.5 days is not 10,000 years, but it’s still",
+        "start": 313.56,
+        "duration": 4.22
+    },
+    {
+        "text": "about 1000x slower than 200 seconds.",
+        "start": 317.78,
+        "duration": 3.06
+    },
+    {
+        "text": "But we also don’t necessarily need",
+        "start": 320.84,
+        "duration": 2.47
+    },
+    {
+        "text": "a quantum random number generator.",
+        "start": 323.31,
+        "duration": 2.68
+    },
+    {
+        "text": "Classical ones work fine.",
+        "start": 325.99,
+        "duration": 1.33
+    },
+    {
+        "text": "So even if this is quantum supremacy, does\nthat matter?",
+        "start": 327.32,
+        "duration": 4.36
+    },
+    {
+        "text": "We at SciShow are not qualified to say,",
+        "start": 331.68,
+        "duration": 2.77
+    },
+    {
+        "text": "but what’s clear is that quantum computers\nare getting better.",
+        "start": 334.45,
+        "duration": 4.32
+    },
+    {
+        "text": "And that has profound implications",
+        "start": 338.77,
+        "duration": 2.619
+    },
+    {
+        "text": "for the world we live in.",
+        "start": 341.389,
+        "duration": 1.141
+    },
+    {
+        "text": "Take, for instance, cryptography.",
+        "start": 342.53,
+        "duration": 2.53
+    },
+    {
+        "text": "Every time you log into your computer or check\nyour email,",
+        "start": 345.06,
+        "duration": 3.4
+    },
+    {
+        "text": "your data is protected by encryption.",
+        "start": 348.46,
+        "duration": 2.47
+    },
+    {
+        "text": "That encryption only works because classical\ncomputers",
+        "start": 350.93,
+        "duration": 2.91
+    },
+    {
+        "text": "can’t efficiently solve certain kinds of\nmath problems.",
+        "start": 353.84,
+        "duration": 3.86
+    },
+    {
+        "text": "The code protecting your bank account, for\ninstance,",
+        "start": 357.7,
+        "duration": 2.88
+    },
+    {
+        "text": "isn’t unbreakable -- it would just take\nso long",
+        "start": 360.58,
+        "duration": 3.35
+    },
+    {
+        "text": "that the bad guys don’t bother.",
+        "start": 363.93,
+        "duration": 1.74
+    },
+    {
+        "text": "But what if something that today takes ten\nthousand years",
+        "start": 365.67,
+        "duration": 3.38
+    },
+    {
+        "text": "suddenly takes two hundred seconds?",
+        "start": 369.05,
+        "duration": 2.34
+    },
+    {
+        "text": "That’s the kind of change quantum computing\nrepresents.",
+        "start": 371.39,
+        "duration": 3.42
+    },
+    {
+        "text": "In a way, you can think of these machines",
+        "start": 374.81,
+        "duration": 1.95
+    },
+    {
+        "text": "totally like classical computers in the 1950s.",
+        "start": 376.76,
+        "duration": 2.82
+    },
+    {
+        "text": "They fill rooms, require tons of power,",
+        "start": 379.58,
+        "duration": 3.25
+    },
+    {
+        "text": "and are only useful for certain kinds of problems.",
+        "start": 382.83,
+        "duration": 2.67
+    },
+    {
+        "text": "But year by year, they’re getting smaller\nand more powerful.",
+        "start": 385.5,
+        "duration": 3.83
+    },
+    {
+        "text": "We can debate how much progress has been made,",
+        "start": 389.33,
+        "duration": 2.96
+    },
+    {
+        "text": "but progress is being made.",
+        "start": 392.29,
+        "duration": 2.57
+    },
+    {
+        "text": "If history is any indication,",
+        "start": 394.86,
+        "duration": 2.13
+    },
+    {
+        "text": "we will get there sooner or later.",
+        "start": 396.99,
+        "duration": 2.34
+    },
+    {
+        "text": "Whenever quantum computers do become a thing,",
+        "start": 399.33,
+        "duration": 1.86
+    },
+    {
+        "text": "they’re going to need quantum computer programmers.",
+        "start": 401.19,
+        "duration": 2.95
+    },
+    {
+        "text": "And you can learn computer science for yourself",
+        "start": 404.14,
+        "duration": 1.94
+    },
+    {
+        "text": "with the courses on Brilliant.org.",
+        "start": 406.08,
+        "duration": 2.19
+    },
+    {
+        "text": "Like the in-depth course on data structures,",
+        "start": 408.27,
+        "duration": 2.02
+    },
+    {
+        "text": "which is all about the fundamental ways computers\nstore",
+        "start": 410.29,
+        "duration": 2.79
+    },
+    {
+        "text": "and manipulate data.",
+        "start": 413.08,
+        "duration": 1.559
+    },
+    {
+        "text": "By the end of the course, you’ll know exactly\nhow",
+        "start": 414.639,
+        "duration": 2.161
+    },
+    {
+        "text": "computers store data easily and access it\nquickly.",
+        "start": 416.8,
+        "duration": 3.93
+    },
+    {
+        "text": "Brilliant has dozens of courses like this\none.",
+        "start": 420.73,
+        "duration": 2.25
+    },
+    {
+        "text": "In addition to computer science,",
+        "start": 422.98,
+        "duration": 1.35
+    },
+    {
+        "text": "they cover science, engineering, and math.",
+        "start": 424.33,
+        "duration": 2.41
+    },
+    {
+        "text": "Each one is designed to be hands-on",
+        "start": 426.74,
+        "duration": 1.34
+    },
+    {
+        "text": "and to keep you engaged the whole way through.",
+        "start": 428.08,
+        "duration": 2.54
+    },
+    {
+        "text": "Courses are even available offline via their\nAndroid and iOS apps",
+        "start": 430.62,
+        "duration": 3.35
+    },
+    {
+        "text": "so you can keep learning on the go.",
+        "start": 433.97,
+        "duration": 2.01
+    },
+    {
+        "text": "The first 200 people to sign up at Brilliant.org/SciShow",
+        "start": 435.98,
+        "duration": 3.36
+    },
+    {
+        "text": "will save 20% on an annual premium subscription.",
+        "start": 439.34,
+        "duration": 3.53
+    },
+    {
+        "text": "So if you’ve been telling yourself you want\nto learn to code,",
+        "start": 442.87,
+        "duration": 2.89
+    },
+    {
+        "text": "here’s your chance!",
+        "start": 445.76,
+        "duration": 1.25
+    },
+    {
+        "text": "And by checking them out, you’re helping\nsupport SciShow,",
+        "start": 447.01,
+        "duration": 2.32
+    },
+    {
+        "text": "so thanks!",
+        "start": 449.33,
+        "duration": 1.0
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 450.33,
+        "duration": 9.63
+    }
+]

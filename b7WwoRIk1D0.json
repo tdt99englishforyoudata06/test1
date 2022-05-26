@@ -1,0 +1,3567 @@
+[
+    {
+        "text": "everyone welcome to this next episode of",
+        "start": 0.179,
+        "duration": 6.45
+    },
+    {
+        "text": "your daily equation today I will focus",
+        "start": 3.03,
+        "duration": 7.2
+    },
+    {
+        "text": "upon the Euler Lagrange equations yeah",
+        "start": 6.629,
+        "duration": 7.38
+    },
+    {
+        "text": "it's a bit of a mouthful but the",
+        "start": 10.23,
+        "duration": 5.79
+    },
+    {
+        "text": "equations that I'm gonna talk about are",
+        "start": 14.009,
+        "duration": 5.371
+    },
+    {
+        "text": "really absolutely central to all of",
+        "start": 16.02,
+        "duration": 6.96
+    },
+    {
+        "text": "modern theoretical physics I mean if you",
+        "start": 19.38,
+        "duration": 7.5
+    },
+    {
+        "text": "go into the office of any physicist a",
+        "start": 22.98,
+        "duration": 6.57
+    },
+    {
+        "text": "theorist and experimentalist and you",
+        "start": 26.88,
+        "duration": 5.069
+    },
+    {
+        "text": "look at their blackboard or you look at",
+        "start": 29.55,
+        "duration": 5.279
+    },
+    {
+        "text": "the papers that they're reading or you",
+        "start": 31.949,
+        "duration": 4.681
+    },
+    {
+        "text": "look at the papers that they're writing",
+        "start": 34.829,
+        "duration": 6.091
+    },
+    {
+        "text": "you will see some version of the",
+        "start": 36.63,
+        "duration": 7.769
+    },
+    {
+        "text": "equations that I will discuss here today",
+        "start": 40.92,
+        "duration": 7.26
+    },
+    {
+        "text": "now with that kind of a broad imprint I",
+        "start": 44.399,
+        "duration": 7.68
+    },
+    {
+        "text": "could use many many examples to develop",
+        "start": 48.18,
+        "duration": 6.809
+    },
+    {
+        "text": "the subject I'm going to use the",
+        "start": 52.079,
+        "duration": 5.73
+    },
+    {
+        "text": "simplest possible example a single",
+        "start": 54.989,
+        "duration": 4.91
+    },
+    {
+        "text": "particle moving in one spatial dimension",
+        "start": 57.809,
+        "duration": 5.491
+    },
+    {
+        "text": "nonrelativistic aliy as with that basic",
+        "start": 59.899,
+        "duration": 6.371
+    },
+    {
+        "text": "example we can get the basic idea of the",
+        "start": 63.3,
+        "duration": 7.17
+    },
+    {
+        "text": "subject most simply so let me just jump",
+        "start": 66.27,
+        "duration": 7.2
+    },
+    {
+        "text": "right in then to that so object so we",
+        "start": 70.47,
+        "duration": 4.74
+    },
+    {
+        "text": "are talking about who I should make sure",
+        "start": 73.47,
+        "duration": 4.11
+    },
+    {
+        "text": "sorry about that I should first bring up",
+        "start": 75.21,
+        "duration": 5.43
+    },
+    {
+        "text": "my iPad good it's on the screen so we",
+        "start": 77.58,
+        "duration": 10.039
+    },
+    {
+        "text": "are talking about the Euler Lagrangian",
+        "start": 80.64,
+        "duration": 6.979
+    },
+    {
+        "text": "which is also something that goes under",
+        "start": 92.299,
+        "duration": 12.75
+    },
+    {
+        "text": "the name of the principle principle of",
+        "start": 96.54,
+        "duration": 11.939
+    },
+    {
+        "text": "least action so the least action",
+        "start": 105.049,
+        "duration": 6.64
+    },
+    {
+        "text": "principle Euler Lagrange equations",
+        "start": 108.479,
+        "duration": 7.17
+    },
+    {
+        "text": "tightly tightly related as we will see",
+        "start": 111.689,
+        "duration": 7.231
+    },
+    {
+        "text": "now oiler and LeGrande clearly were",
+        "start": 115.649,
+        "duration": 5.82
+    },
+    {
+        "text": "vital to the subject but perhaps it's",
+        "start": 118.92,
+        "duration": 5.43
+    },
+    {
+        "text": "worth noting that many physicists over",
+        "start": 121.469,
+        "duration": 5.58
+    },
+    {
+        "text": "the decades in the centuries played a",
+        "start": 124.35,
+        "duration": 5.37
+    },
+    {
+        "text": "role in developing refining these ideas",
+        "start": 127.049,
+        "duration": 4.681
+    },
+    {
+        "text": "let me just show some of their pictures",
+        "start": 129.72,
+        "duration": 3.39
+    },
+    {
+        "text": "you can bring my",
+        "start": 131.73,
+        "duration": 3.42
+    },
+    {
+        "text": "imagery up on the screen here so here's",
+        "start": 133.11,
+        "duration": 4.17
+    },
+    {
+        "text": "Vermont played a role in the early",
+        "start": 135.15,
+        "duration": 4.5
+    },
+    {
+        "text": "development Pertwee as well oiler of",
+        "start": 137.28,
+        "duration": 3.71
+    },
+    {
+        "text": "course his name is in the subject",
+        "start": 139.65,
+        "duration": 5.52
+    },
+    {
+        "text": "Lagrange's well Hamilton others Jacoby",
+        "start": 140.99,
+        "duration": 6.61
+    },
+    {
+        "text": "so it's just to show that that so many",
+        "start": 145.17,
+        "duration": 5.91
+    },
+    {
+        "text": "people early on realized that these",
+        "start": 147.6,
+        "duration": 6.35
+    },
+    {
+        "text": "equations were really central and",
+        "start": 151.08,
+        "duration": 6.09
+    },
+    {
+        "text": "deserved the attention they require to",
+        "start": 153.95,
+        "duration": 6.28
+    },
+    {
+        "text": "fully develop them and therefore many",
+        "start": 157.17,
+        "duration": 5.13
+    },
+    {
+        "text": "people expended effort on that not just",
+        "start": 160.23,
+        "duration": 5.37
+    },
+    {
+        "text": "Euler and LaGrange but let me now focus",
+        "start": 162.3,
+        "duration": 5.76
+    },
+    {
+        "text": "upon the basic idea in a simple example",
+        "start": 165.6,
+        "duration": 5.4
+    },
+    {
+        "text": "so we can understand where things are",
+        "start": 168.06,
+        "duration": 5.76
+    },
+    {
+        "text": "coming from and to do that I think it's",
+        "start": 171.0,
+        "duration": 6.77
+    },
+    {
+        "text": "quite useful to start with how Newton",
+        "start": 173.82,
+        "duration": 8.43
+    },
+    {
+        "text": "would describe the motion of a single",
+        "start": 177.77,
+        "duration": 6.52
+    },
+    {
+        "text": "non relativistic particle in one",
+        "start": 182.25,
+        "duration": 4.32
+    },
+    {
+        "text": "dimension so that we've out a real sunny",
+        "start": 184.29,
+        "duration": 5.22
+    },
+    {
+        "text": "day here I've got to dodge the Sun as I",
+        "start": 186.57,
+        "duration": 4.8
+    },
+    {
+        "text": "am moving around here so sorry about all",
+        "start": 189.51,
+        "duration": 4.53
+    },
+    {
+        "text": "the motion but how would Newton describe",
+        "start": 191.37,
+        "duration": 5.19
+    },
+    {
+        "text": "the motion of such a particle he would",
+        "start": 194.04,
+        "duration": 4.949
+    },
+    {
+        "text": "say who say hey give me the position of",
+        "start": 196.56,
+        "duration": 6.03
+    },
+    {
+        "text": "the particle at the initial time zero",
+        "start": 198.989,
+        "duration": 6.451
+    },
+    {
+        "text": "called that position x0 he'd say give me",
+        "start": 202.59,
+        "duration": 5.369
+    },
+    {
+        "text": "the velocity or in one spatial dimension",
+        "start": 205.44,
+        "duration": 4.62
+    },
+    {
+        "text": "you me the speed of the particle",
+        "start": 207.959,
+        "duration": 5.731
+    },
+    {
+        "text": "initially at time zero call that v-0 and",
+        "start": 210.06,
+        "duration": 6.05
+    },
+    {
+        "text": "then he would say all you need to do is",
+        "start": 213.69,
+        "duration": 6.39
+    },
+    {
+        "text": "use my famous second law of motion F",
+        "start": 216.11,
+        "duration": 7.15
+    },
+    {
+        "text": "equals MA in order to work out the",
+        "start": 220.08,
+        "duration": 5.64
+    },
+    {
+        "text": "trajectory of the particle and for the",
+        "start": 223.26,
+        "duration": 4.65
+    },
+    {
+        "text": "special kinds of forces that I'm going",
+        "start": 225.72,
+        "duration": 4.11
+    },
+    {
+        "text": "to focus attention on here conservative",
+        "start": 227.91,
+        "duration": 5.37
+    },
+    {
+        "text": "forces the force can be written as the",
+        "start": 229.83,
+        "duration": 5.97
+    },
+    {
+        "text": "derivative of a potential with respect",
+        "start": 233.28,
+        "duration": 6.12
+    },
+    {
+        "text": "to position the acceleration itself well",
+        "start": 235.8,
+        "duration": 6.15
+    },
+    {
+        "text": "that's the second derivative of the",
+        "start": 239.4,
+        "duration": 5.22
+    },
+    {
+        "text": "position with respect to time and by the",
+        "start": 241.95,
+        "duration": 5.73
+    },
+    {
+        "text": "way as a matter of notation to make it",
+        "start": 244.62,
+        "duration": 6.21
+    },
+    {
+        "text": "easy we often write a dot for a first",
+        "start": 247.68,
+        "duration": 6.15
+    },
+    {
+        "text": "derivative two dots for a second",
+        "start": 250.83,
+        "duration": 4.59
+    },
+    {
+        "text": "derivative just a nice little shorthand",
+        "start": 253.83,
+        "duration": 4.32
+    },
+    {
+        "text": "that in this particular case for a",
+        "start": 255.42,
+        "duration": 6.42
+    },
+    {
+        "text": "velocity that be X dot for acceleration",
+        "start": 258.15,
+        "duration": 6.24
+    },
+    {
+        "text": "that's MX double dot but the bottom line",
+        "start": 261.84,
+        "duration": 4.59
+    },
+    {
+        "text": "is we now have a nice differential",
+        "start": 264.39,
+        "duration": 2.49
+    },
+    {
+        "text": "equation",
+        "start": 266.43,
+        "duration": 3.75
+    },
+    {
+        "text": "in here that given a potential that is",
+        "start": 266.88,
+        "duration": 6.06
+    },
+    {
+        "text": "given a force you simply solve this",
+        "start": 270.18,
+        "duration": 6.03
+    },
+    {
+        "text": "differential equation subject to this",
+        "start": 272.94,
+        "duration": 7.02
+    },
+    {
+        "text": "initial condition data that we have over",
+        "start": 276.21,
+        "duration": 9.09
+    },
+    {
+        "text": "here and from that you will derive a",
+        "start": 279.96,
+        "duration": 8.67
+    },
+    {
+        "text": "solution called X of T which is the",
+        "start": 285.3,
+        "duration": 6.27
+    },
+    {
+        "text": "desired trajectory of that particle of",
+        "start": 288.63,
+        "duration": 5.49
+    },
+    {
+        "text": "moving under that particular force and",
+        "start": 291.57,
+        "duration": 4.92
+    },
+    {
+        "text": "this is the standard approach that you",
+        "start": 294.12,
+        "duration": 4.86
+    },
+    {
+        "text": "know you teach it in high school you",
+        "start": 296.49,
+        "duration": 4.5
+    },
+    {
+        "text": "solve the differential equations and you",
+        "start": 298.98,
+        "duration": 4.56
+    },
+    {
+        "text": "come up with trajectories what I want to",
+        "start": 300.99,
+        "duration": 5.04
+    },
+    {
+        "text": "do now is show a completely different",
+        "start": 303.54,
+        "duration": 5.49
+    },
+    {
+        "text": "looking approach ultimately it is",
+        "start": 306.03,
+        "duration": 5.1
+    },
+    {
+        "text": "equivalent but it looks completely",
+        "start": 309.03,
+        "duration": 3.83
+    },
+    {
+        "text": "different has a completely different",
+        "start": 311.13,
+        "duration": 4.74
+    },
+    {
+        "text": "conceptual structure and that is this",
+        "start": 312.86,
+        "duration": 5.2
+    },
+    {
+        "text": "approach that makes use of this least",
+        "start": 315.87,
+        "duration": 5.19
+    },
+    {
+        "text": "action principle how does that approach",
+        "start": 318.06,
+        "duration": 5.31
+    },
+    {
+        "text": "go well let me draw a little line here",
+        "start": 321.06,
+        "duration": 5.63
+    },
+    {
+        "text": "to distinguish it from the outset and",
+        "start": 323.37,
+        "duration": 7.44
+    },
+    {
+        "text": "I'll call this the least action approach",
+        "start": 326.69,
+        "duration": 9.64
+    },
+    {
+        "text": "and the idea here is you start by not",
+        "start": 330.81,
+        "duration": 8.55
+    },
+    {
+        "text": "giving this kind of data the position",
+        "start": 336.33,
+        "duration": 5.16
+    },
+    {
+        "text": "and speed of the particle initially",
+        "start": 339.36,
+        "duration": 6.39
+    },
+    {
+        "text": "instead what you provide here is X at",
+        "start": 341.49,
+        "duration": 9.33
+    },
+    {
+        "text": "time 0 as in the Newtonian approach but",
+        "start": 345.75,
+        "duration": 7.86
+    },
+    {
+        "text": "now you don't give me the speed at time",
+        "start": 350.82,
+        "duration": 5.43
+    },
+    {
+        "text": "0 you give me the final position of the",
+        "start": 353.61,
+        "duration": 4.74
+    },
+    {
+        "text": "particle at final time they'll call",
+        "start": 356.25,
+        "duration": 5.22
+    },
+    {
+        "text": "capital T let's call that position X of",
+        "start": 358.35,
+        "duration": 5.12
+    },
+    {
+        "text": "T and you'll note I'm drawing the",
+        "start": 361.47,
+        "duration": 4.65
+    },
+    {
+        "text": "positions as if they can be scattered in",
+        "start": 363.47,
+        "duration": 5.02
+    },
+    {
+        "text": "two or higher number of dimensions it is",
+        "start": 366.12,
+        "duration": 4.92
+    },
+    {
+        "text": "more fun to write things that way but",
+        "start": 368.49,
+        "duration": 5.37
+    },
+    {
+        "text": "the math I'm going to focus on from the",
+        "start": 371.04,
+        "duration": 5.19
+    },
+    {
+        "text": "get-go will be in one spatial dimension",
+        "start": 373.86,
+        "duration": 4.47
+    },
+    {
+        "text": "but imagine that you know you have a",
+        "start": 376.23,
+        "duration": 4.74
+    },
+    {
+        "text": "trajectory that connects these points",
+        "start": 378.33,
+        "duration": 5.85
+    },
+    {
+        "text": "and in this approach the idea is that we",
+        "start": 380.97,
+        "duration": 5.76
+    },
+    {
+        "text": "are going to look at all possible",
+        "start": 384.18,
+        "duration": 5.55
+    },
+    {
+        "text": "trajectories that start at the initial",
+        "start": 386.73,
+        "duration": 5.97
+    },
+    {
+        "text": "point and end at the final point you",
+        "start": 389.73,
+        "duration": 5.55
+    },
+    {
+        "text": "know I can't draw them all but I can",
+        "start": 392.7,
+        "duration": 5.46
+    },
+    {
+        "text": "draw a nice healthy assortment of them",
+        "start": 395.28,
+        "duration": 5.4
+    },
+    {
+        "text": "see here a whole bunch of",
+        "start": 398.16,
+        "duration": 5.759
+    },
+    {
+        "text": "trajectories that go from the initial",
+        "start": 400.68,
+        "duration": 5.88
+    },
+    {
+        "text": "point to the final point and in the",
+        "start": 403.919,
+        "duration": 5.22
+    },
+    {
+        "text": "least action formalism what we do is the",
+        "start": 406.56,
+        "duration": 5.729
+    },
+    {
+        "text": "following to each of those trajectories",
+        "start": 409.139,
+        "duration": 6.361
+    },
+    {
+        "text": "we assign a number that number is called",
+        "start": 412.289,
+        "duration": 7.44
+    },
+    {
+        "text": "the action so for each trajectory let me",
+        "start": 415.5,
+        "duration": 9.03
+    },
+    {
+        "text": "call the trajectory say X sub I of T so",
+        "start": 419.729,
+        "duration": 8.28
+    },
+    {
+        "text": "maybe this one here is x1 of T and this",
+        "start": 424.53,
+        "duration": 7.229
+    },
+    {
+        "text": "is x2 of T and so on maybe this is X n",
+        "start": 428.009,
+        "duration": 7.41
+    },
+    {
+        "text": "of T whatever so the action I'm going to",
+        "start": 431.759,
+        "duration": 5.641
+    },
+    {
+        "text": "give you the formula for the number that",
+        "start": 435.419,
+        "duration": 5.581
+    },
+    {
+        "text": "you ascribe to a given trajectory in",
+        "start": 437.4,
+        "duration": 5.699
+    },
+    {
+        "text": "half a second but for the moment just",
+        "start": 441.0,
+        "duration": 4.53
+    },
+    {
+        "text": "note that I have some number associated",
+        "start": 443.099,
+        "duration": 5.16
+    },
+    {
+        "text": "with each trajectory and all we do",
+        "start": 445.53,
+        "duration": 4.229
+    },
+    {
+        "text": "according to the least action principle",
+        "start": 448.259,
+        "duration": 4.981
+    },
+    {
+        "text": "is find that trajectory that gives you",
+        "start": 449.759,
+        "duration": 5.91
+    },
+    {
+        "text": "the minimum value of that number the",
+        "start": 453.24,
+        "duration": 5.91
+    },
+    {
+        "text": "minimum value of what we call the action",
+        "start": 455.669,
+        "duration": 8.041
+    },
+    {
+        "text": "and when you minimize or more generally",
+        "start": 459.15,
+        "duration": 6.81
+    },
+    {
+        "text": "extremize the action but let me avoid",
+        "start": 463.71,
+        "duration": 3.959
+    },
+    {
+        "text": "those kind of mathematical subtleties",
+        "start": 465.96,
+        "duration": 4.26
+    },
+    {
+        "text": "just to get the essential idea here when",
+        "start": 467.669,
+        "duration": 4.651
+    },
+    {
+        "text": "you minimize the action when you find a",
+        "start": 470.22,
+        "duration": 3.54
+    },
+    {
+        "text": "trajectory that gives you the smallest",
+        "start": 472.32,
+        "duration": 4.02
+    },
+    {
+        "text": "value of this number you are done",
+        "start": 473.76,
+        "duration": 5.85
+    },
+    {
+        "text": "according to this approach that is the",
+        "start": 476.34,
+        "duration": 5.37
+    },
+    {
+        "text": "trajectory that the classical particle",
+        "start": 479.61,
+        "duration": 5.4
+    },
+    {
+        "text": "will actually follow now I need to give",
+        "start": 481.71,
+        "duration": 6.269
+    },
+    {
+        "text": "you the formula for the action",
+        "start": 485.01,
+        "duration": 5.279
+    },
+    {
+        "text": "associated to a given path a given",
+        "start": 487.979,
+        "duration": 4.771
+    },
+    {
+        "text": "trajectory and let me just give you that",
+        "start": 490.289,
+        "duration": 5.841
+    },
+    {
+        "text": "so if you give me a trajectory X of T",
+        "start": 492.75,
+        "duration": 6.33
+    },
+    {
+        "text": "the idea is I look at the integral from",
+        "start": 496.13,
+        "duration": 7.06
+    },
+    {
+        "text": "T equals 0 to T equals T and for the",
+        "start": 499.08,
+        "duration": 5.79
+    },
+    {
+        "text": "integrand let me just give it another",
+        "start": 503.19,
+        "duration": 4.17
+    },
+    {
+        "text": "color to make it look nicer I take the",
+        "start": 504.87,
+        "duration": 8.58
+    },
+    {
+        "text": "kinetic energy of the particle at time T",
+        "start": 507.36,
+        "duration": 8.549
+    },
+    {
+        "text": "following that path I subtract from that",
+        "start": 513.45,
+        "duration": 5.37
+    },
+    {
+        "text": "the potential energy of the particle at",
+        "start": 515.909,
+        "duration": 7.411
+    },
+    {
+        "text": "time T and I integrate this with respect",
+        "start": 518.82,
+        "duration": 7.019
+    },
+    {
+        "text": "to T integration of course is nothing",
+        "start": 523.32,
+        "duration": 5.73
+    },
+    {
+        "text": "but a fancy name for summation so for",
+        "start": 525.839,
+        "duration": 6.141
+    },
+    {
+        "text": "instance I would calculate for this",
+        "start": 529.05,
+        "duration": 5.13
+    },
+    {
+        "text": "orange e or is that you",
+        "start": 531.98,
+        "duration": 4.3
+    },
+    {
+        "text": "or light Arne's whatever for this",
+        "start": 534.18,
+        "duration": 3.81
+    },
+    {
+        "text": "particular trajectory I'd calculate",
+        "start": 536.28,
+        "duration": 3.69
+    },
+    {
+        "text": "kinetic energy minus potential energy",
+        "start": 537.99,
+        "duration": 3.69
+    },
+    {
+        "text": "there I'd added to kinetic energy minus",
+        "start": 539.97,
+        "duration": 4.2
+    },
+    {
+        "text": "potential energy there and I'd add up",
+        "start": 541.68,
+        "duration": 4.71
+    },
+    {
+        "text": "all of these contributions and when I do",
+        "start": 544.17,
+        "duration": 4.56
+    },
+    {
+        "text": "that that would give me the action",
+        "start": 546.39,
+        "duration": 4.11
+    },
+    {
+        "text": "associated with that that particular",
+        "start": 548.73,
+        "duration": 5.85
+    },
+    {
+        "text": "path okay now look I have to admit when",
+        "start": 550.5,
+        "duration": 6.12
+    },
+    {
+        "text": "you see this combination it's a little",
+        "start": 554.58,
+        "duration": 5.4
+    },
+    {
+        "text": "weird we're used to kinetic energy being",
+        "start": 556.62,
+        "duration": 6.24
+    },
+    {
+        "text": "added to potential energy after all the",
+        "start": 559.98,
+        "duration": 5.22
+    },
+    {
+        "text": "guy that would give us the total energy",
+        "start": 562.86,
+        "duration": 5.01
+    },
+    {
+        "text": "of the particle but here we're doing",
+        "start": 565.2,
+        "duration": 5.25
+    },
+    {
+        "text": "something that looks a little weird at",
+        "start": 567.87,
+        "duration": 5.7
+    },
+    {
+        "text": "first sight we're subtracting the",
+        "start": 570.45,
+        "duration": 7.08
+    },
+    {
+        "text": "potential energy from the kinetic energy",
+        "start": 573.57,
+        "duration": 6.42
+    },
+    {
+        "text": "but as we will see that is the right",
+        "start": 577.53,
+        "duration": 5.49
+    },
+    {
+        "text": "combination in order that when we find",
+        "start": 579.99,
+        "duration": 5.61
+    },
+    {
+        "text": "the trajector that minimizes that",
+        "start": 583.02,
+        "duration": 5.25
+    },
+    {
+        "text": "particular number this guy over here we",
+        "start": 585.6,
+        "duration": 5.52
+    },
+    {
+        "text": "will indeed recover the classical",
+        "start": 588.27,
+        "duration": 5.31
+    },
+    {
+        "text": "trajectory that Isaac Newton would give",
+        "start": 591.12,
+        "duration": 6.09
+    },
+    {
+        "text": "us via this formalism up here and in",
+        "start": 593.58,
+        "duration": 6.06
+    },
+    {
+        "text": "fact let me let me do that right now let",
+        "start": 597.21,
+        "duration": 6.06
+    },
+    {
+        "text": "me show you how to minimize this action",
+        "start": 599.64,
+        "duration": 6.15
+    },
+    {
+        "text": "and as we will see we will recover",
+        "start": 603.27,
+        "duration": 5.82
+    },
+    {
+        "text": "Newton's equations from it okay so how",
+        "start": 605.79,
+        "duration": 6.06
+    },
+    {
+        "text": "do you minimize over trajectories that",
+        "start": 609.09,
+        "duration": 6.3
+    },
+    {
+        "text": "sounds pretty tough right well the way",
+        "start": 611.85,
+        "duration": 7.17
+    },
+    {
+        "text": "we do it it's a subject called the",
+        "start": 615.39,
+        "duration": 7.17
+    },
+    {
+        "text": "countless of variations I could develop",
+        "start": 619.02,
+        "duration": 5.91
+    },
+    {
+        "text": "you know an episode explaining that in",
+        "start": 622.56,
+        "duration": 4.71
+    },
+    {
+        "text": "its own right but let me just work",
+        "start": 624.93,
+        "duration": 4.89
+    },
+    {
+        "text": "intuitively motivated by things that",
+        "start": 627.27,
+        "duration": 4.86
+    },
+    {
+        "text": "hopefully you are familiar with from",
+        "start": 629.82,
+        "duration": 4.17
+    },
+    {
+        "text": "standard calculus look if you haven't",
+        "start": 632.13,
+        "duration": 3.81
+    },
+    {
+        "text": "taken standard calculus it's gonna be a",
+        "start": 633.99,
+        "duration": 3.51
+    },
+    {
+        "text": "little hard to follow what I'm talking",
+        "start": 635.94,
+        "duration": 3.75
+    },
+    {
+        "text": "about here in detail but you know as",
+        "start": 637.5,
+        "duration": 4.23
+    },
+    {
+        "text": "I've said in many of these episodes you",
+        "start": 639.69,
+        "duration": 3.9
+    },
+    {
+        "text": "can follow what I'm talking about at a",
+        "start": 641.73,
+        "duration": 3.42
+    },
+    {
+        "text": "variety of levels if you just want to",
+        "start": 643.59,
+        "duration": 3.09
+    },
+    {
+        "text": "let the symbols wash over you they're",
+        "start": 645.15,
+        "duration": 3.03
+    },
+    {
+        "text": "kind of beautiful pretty to look at",
+        "start": 646.68,
+        "duration": 3.57
+    },
+    {
+        "text": "that's cool but if you've had some",
+        "start": 648.18,
+        "duration": 3.57
+    },
+    {
+        "text": "calculus what I'm going to say right now",
+        "start": 650.25,
+        "duration": 3.45
+    },
+    {
+        "text": "is straightforward and the",
+        "start": 651.75,
+        "duration": 3.78
+    },
+    {
+        "text": "generalization I think you'll be able to",
+        "start": 653.7,
+        "duration": 4.68
+    },
+    {
+        "text": "take that leap with me so what is the",
+        "start": 655.53,
+        "duration": 5.64
+    },
+    {
+        "text": "notion from calculus that we need well",
+        "start": 658.38,
+        "duration": 6.99
+    },
+    {
+        "text": "if you have a function y of X one of the",
+        "start": 661.17,
+        "duration": 6.66
+    },
+    {
+        "text": "most basic things that you do in",
+        "start": 665.37,
+        "duration": 7.29
+    },
+    {
+        "text": "calculus is you find say the minimum of",
+        "start": 667.83,
+        "duration": 8.58
+    },
+    {
+        "text": "that function y of X and that minimum in",
+        "start": 672.66,
+        "duration": 6.54
+    },
+    {
+        "text": "this case is right over here and I can",
+        "start": 676.41,
+        "duration": 5.91
+    },
+    {
+        "text": "just draw a nice little tangent line at",
+        "start": 679.2,
+        "duration": 5.94
+    },
+    {
+        "text": "that location and the way you find that",
+        "start": 682.32,
+        "duration": 5.31
+    },
+    {
+        "text": "minimum in standard calculus is you look",
+        "start": 685.14,
+        "duration": 6.78
+    },
+    {
+        "text": "at dy/dx and you set that equal to zero",
+        "start": 687.63,
+        "duration": 7.74
+    },
+    {
+        "text": "and that indeed picks out the extreme of",
+        "start": 691.92,
+        "duration": 5.25
+    },
+    {
+        "text": "the maximum the minimum saddle points",
+        "start": 695.37,
+        "duration": 3.24
+    },
+    {
+        "text": "more generally but here let's just talk",
+        "start": 697.17,
+        "duration": 3.87
+    },
+    {
+        "text": "about the minimum it picks out that",
+        "start": 698.61,
+        "duration": 4.38
+    },
+    {
+        "text": "location right there",
+        "start": 701.04,
+        "duration": 4.5
+    },
+    {
+        "text": "now another an equivalent way of saying",
+        "start": 702.99,
+        "duration": 4.89
+    },
+    {
+        "text": "this is if we consider the function y of",
+        "start": 705.54,
+        "duration": 7.52
+    },
+    {
+        "text": "X we can also consider what we'll call",
+        "start": 707.88,
+        "duration": 10.41
+    },
+    {
+        "text": "Delta Y of X which I will define to be Y",
+        "start": 713.06,
+        "duration": 10.21
+    },
+    {
+        "text": "of X plus a little change in X minus y",
+        "start": 718.29,
+        "duration": 8.52
+    },
+    {
+        "text": "of X the idea being that I can imagine",
+        "start": 723.27,
+        "duration": 5.63
+    },
+    {
+        "text": "going a little bit to the left or a",
+        "start": 726.81,
+        "duration": 5.07
+    },
+    {
+        "text": "little bit to the right of the minimum",
+        "start": 728.9,
+        "duration": 6.37
+    },
+    {
+        "text": "itself and they claim is that if indeed",
+        "start": 731.88,
+        "duration": 6.09
+    },
+    {
+        "text": "the red dot is the minimum of the",
+        "start": 735.27,
+        "duration": 7.65
+    },
+    {
+        "text": "function then this guy Delta Y of X to",
+        "start": 737.97,
+        "duration": 8.1
+    },
+    {
+        "text": "first order in this little variation in",
+        "start": 742.92,
+        "duration": 8.31
+    },
+    {
+        "text": "the location of X will be equal to 0",
+        "start": 746.07,
+        "duration": 7.14
+    },
+    {
+        "text": "it'll vanish the first order in the",
+        "start": 751.23,
+        "duration": 4.02
+    },
+    {
+        "text": "variation of the independent argument",
+        "start": 753.21,
+        "duration": 3.66
+    },
+    {
+        "text": "how do we do that well it's completely",
+        "start": 755.25,
+        "duration": 3.96
+    },
+    {
+        "text": "straightforward this can be written as",
+        "start": 756.87,
+        "duration": 6.57
+    },
+    {
+        "text": "using first order Taylor expansion of Y",
+        "start": 759.21,
+        "duration": 7.5
+    },
+    {
+        "text": "of X plus Delta X so this is equal to Y",
+        "start": 763.44,
+        "duration": 8.82
+    },
+    {
+        "text": "of X plus dy/dx times Delta X there'd be",
+        "start": 766.71,
+        "duration": 7.53
+    },
+    {
+        "text": "higher order terms in general but I'm",
+        "start": 772.26,
+        "duration": 3.6
+    },
+    {
+        "text": "only going to work to first order that",
+        "start": 774.24,
+        "duration": 5.13
+    },
+    {
+        "text": "will be enough for us minus y of X this",
+        "start": 775.86,
+        "duration": 7.71
+    },
+    {
+        "text": "guy over here so this Delta Y of X is",
+        "start": 779.37,
+        "duration": 8.88
+    },
+    {
+        "text": "nothing but dy DX times Delta X and if",
+        "start": 783.57,
+        "duration": 6.72
+    },
+    {
+        "text": "we are expanding about the minimum then",
+        "start": 788.25,
+        "duration": 4.23
+    },
+    {
+        "text": "this term indeed is equal to 0 and",
+        "start": 790.29,
+        "duration": 5.13
+    },
+    {
+        "text": "therefore the entire thing is equal to 0",
+        "start": 792.48,
+        "duration": 7.89
+    },
+    {
+        "text": "so the variation of Y is equal to 0 when",
+        "start": 795.42,
+        "duration": 6.1
+    },
+    {
+        "text": "we are looking at the",
+        "start": 800.37,
+        "duration": 4.06
+    },
+    {
+        "text": "variation about an extreme point or in",
+        "start": 801.52,
+        "duration": 6.0
+    },
+    {
+        "text": "this particular case about the minimum",
+        "start": 804.43,
+        "duration": 5.94
+    },
+    {
+        "text": "and I'm going to play exactly the same",
+        "start": 807.52,
+        "duration": 7.08
+    },
+    {
+        "text": "game to find the minimum of the action",
+        "start": 810.37,
+        "duration": 6.51
+    },
+    {
+        "text": "just as to find the minimum of the",
+        "start": 814.6,
+        "duration": 4.92
+    },
+    {
+        "text": "function I set the first order variation",
+        "start": 816.88,
+        "duration": 4.92
+    },
+    {
+        "text": "with respect to the independent argument",
+        "start": 819.52,
+        "duration": 5.07
+    },
+    {
+        "text": "equal to zero to find the minimum of the",
+        "start": 821.8,
+        "duration": 4.74
+    },
+    {
+        "text": "action I'm going to look at the",
+        "start": 824.59,
+        "duration": 4.59
+    },
+    {
+        "text": "variation of the action and I'm going to",
+        "start": 826.54,
+        "duration": 5.52
+    },
+    {
+        "text": "set that equal to zero to first order in",
+        "start": 829.18,
+        "duration": 5.04
+    },
+    {
+        "text": "now the variation of the independent",
+        "start": 832.06,
+        "duration": 4.71
+    },
+    {
+        "text": "argument and the independent argument",
+        "start": 834.22,
+        "duration": 3.57
+    },
+    {
+        "text": "this case is a little bit more",
+        "start": 836.77,
+        "duration": 2.88
+    },
+    {
+        "text": "complicated here's where the leap comes",
+        "start": 837.79,
+        "duration": 7.05
+    },
+    {
+        "text": "in because s is not a function of X it's",
+        "start": 839.65,
+        "duration": 7.83
+    },
+    {
+        "text": "rather a functional you have to put in a",
+        "start": 844.84,
+        "duration": 6.08
+    },
+    {
+        "text": "full trajectory to get at this",
+        "start": 847.48,
+        "duration": 7.47
+    },
+    {
+        "text": "expression that we have over here but",
+        "start": 850.92,
+        "duration": 6.94
+    },
+    {
+        "text": "you know we can imagine playing the same",
+        "start": 854.95,
+        "duration": 5.82
+    },
+    {
+        "text": "game as in the simple calculus example",
+        "start": 857.86,
+        "duration": 6.0
+    },
+    {
+        "text": "and namely define this to be equal to s",
+        "start": 860.77,
+        "duration": 10.71
+    },
+    {
+        "text": "of X of T plus Delta X of t minus s of X",
+        "start": 863.86,
+        "duration": 10.8
+    },
+    {
+        "text": "of T and we are going to demand that",
+        "start": 871.48,
+        "duration": 7.86
+    },
+    {
+        "text": "this is equal to zero to first order now",
+        "start": 874.66,
+        "duration": 8.37
+    },
+    {
+        "text": "in the variation Delta X of T so what",
+        "start": 879.34,
+        "duration": 5.48
+    },
+    {
+        "text": "are we're actually doing here in",
+        "start": 883.03,
+        "duration": 4.89
+    },
+    {
+        "text": "pictorial form is let me choose a nice",
+        "start": 884.82,
+        "duration": 5.53
+    },
+    {
+        "text": "little color over here if this is our",
+        "start": 887.92,
+        "duration": 6.21
+    },
+    {
+        "text": "initial point x0 and this is our final",
+        "start": 890.35,
+        "duration": 6.81
+    },
+    {
+        "text": "point X sub T and imagine that we have",
+        "start": 894.13,
+        "duration": 6.75
+    },
+    {
+        "text": "indeed located the extremal path the",
+        "start": 897.16,
+        "duration": 7.2
+    },
+    {
+        "text": "path would say minimizes the action the",
+        "start": 900.88,
+        "duration": 5.79
+    },
+    {
+        "text": "way we will know that that actually is",
+        "start": 904.36,
+        "duration": 5.34
+    },
+    {
+        "text": "the extremal path we will look at small",
+        "start": 906.67,
+        "duration": 7.38
+    },
+    {
+        "text": "variations arbitrary small variations of",
+        "start": 909.7,
+        "duration": 7.98
+    },
+    {
+        "text": "that trajectory and we will demand that",
+        "start": 914.05,
+        "duration": 6.3
+    },
+    {
+        "text": "the value of the action along the red",
+        "start": 917.68,
+        "duration": 6.06
+    },
+    {
+        "text": "trajectory is equal to the value of the",
+        "start": 920.35,
+        "duration": 6.39
+    },
+    {
+        "text": "action along the blue trajectory to",
+        "start": 923.74,
+        "duration": 5.7
+    },
+    {
+        "text": "first order in the variation between the",
+        "start": 926.74,
+        "duration": 5.79
+    },
+    {
+        "text": "two which is given by this small change",
+        "start": 929.44,
+        "duration": 5.91
+    },
+    {
+        "text": "in the trajectory called Delta X",
+        "start": 932.53,
+        "duration": 5.76
+    },
+    {
+        "text": "of T and again it's just motivated by",
+        "start": 935.35,
+        "duration": 5.34
+    },
+    {
+        "text": "what we did in the calculus example over",
+        "start": 938.29,
+        "duration": 4.71
+    },
+    {
+        "text": "here we knew that we had a minimum of",
+        "start": 940.69,
+        "duration": 4.65
+    },
+    {
+        "text": "the function y of X if when we moved",
+        "start": 943.0,
+        "duration": 4.65
+    },
+    {
+        "text": "away from that purported minimum a",
+        "start": 945.34,
+        "duration": 4.2
+    },
+    {
+        "text": "little bit in this direction or a little",
+        "start": 947.65,
+        "duration": 4.56
+    },
+    {
+        "text": "bit in that direction the variation of",
+        "start": 949.54,
+        "duration": 5.28
+    },
+    {
+        "text": "the function was equal to zero to",
+        "start": 952.21,
+        "duration": 5.01
+    },
+    {
+        "text": "first-order similarly if the variation",
+        "start": 954.82,
+        "duration": 5.58
+    },
+    {
+        "text": "of the action is equal to zero to",
+        "start": 957.22,
+        "duration": 6.62
+    },
+    {
+        "text": "first-order then we will have found the",
+        "start": 960.4,
+        "duration": 6.99
+    },
+    {
+        "text": "trajectory that minimizes or extreme",
+        "start": 963.84,
+        "duration": 5.38
+    },
+    {
+        "text": "lies is the action that's the strategy",
+        "start": 967.39,
+        "duration": 4.23
+    },
+    {
+        "text": "that we will follow so now all we need",
+        "start": 969.22,
+        "duration": 5.91
+    },
+    {
+        "text": "to do is write this expression out in",
+        "start": 971.62,
+        "duration": 7.62
+    },
+    {
+        "text": "more detail namely making use of X of T",
+        "start": 975.13,
+        "duration": 8.34
+    },
+    {
+        "text": "itself very X of T subtract out its",
+        "start": 979.24,
+        "duration": 7.68
+    },
+    {
+        "text": "value at X of T and see what function we",
+        "start": 983.47,
+        "duration": 5.67
+    },
+    {
+        "text": "are left with what formula we're left",
+        "start": 986.92,
+        "duration": 5.01
+    },
+    {
+        "text": "with so let's do that now to that end",
+        "start": 989.14,
+        "duration": 6.69
+    },
+    {
+        "text": "let me write down s of X of T I wrote it",
+        "start": 991.93,
+        "duration": 6.63
+    },
+    {
+        "text": "schematically above here kinetic energy",
+        "start": 995.83,
+        "duration": 5.67
+    },
+    {
+        "text": "minus potential energy kinetic energy is",
+        "start": 998.56,
+        "duration": 7.86
+    },
+    {
+        "text": "one-half MV squared V is X dot so I can",
+        "start": 1001.5,
+        "duration": 7.05
+    },
+    {
+        "text": "simply write this a little bit more",
+        "start": 1006.42,
+        "duration": 5.07
+    },
+    {
+        "text": "explicitly as the integral from 0 to T",
+        "start": 1008.55,
+        "duration": 9.8
+    },
+    {
+        "text": "of one-half M X dot squared minus V of X",
+        "start": 1011.49,
+        "duration": 11.55
+    },
+    {
+        "text": "integrated DT X is X of T all right now",
+        "start": 1018.35,
+        "duration": 7.09
+    },
+    {
+        "text": "to play the game I need to now write",
+        "start": 1023.04,
+        "duration": 8.79
+    },
+    {
+        "text": "down s of X of T plus Delta X of T I do",
+        "start": 1025.44,
+        "duration": 9.6
+    },
+    {
+        "text": "a small variation in the initial",
+        "start": 1031.83,
+        "duration": 5.79
+    },
+    {
+        "text": "trajectory and this will give me and to",
+        "start": 1035.04,
+        "duration": 7.23
+    },
+    {
+        "text": "go from T equals 0 to T of 1/2 M let's",
+        "start": 1037.62,
+        "duration": 9.06
+    },
+    {
+        "text": "just put X dot plus Delta X dot squared",
+        "start": 1042.27,
+        "duration": 9.66
+    },
+    {
+        "text": "minus V of X plus Delta X integrate this",
+        "start": 1046.68,
+        "duration": 8.94
+    },
+    {
+        "text": "with respect to T already now what I",
+        "start": 1051.93,
+        "duration": 6.84
+    },
+    {
+        "text": "want to do is subtract this fella from",
+        "start": 1055.62,
+        "duration": 7.14
+    },
+    {
+        "text": "this fella and to do that it behooves me",
+        "start": 1058.77,
+        "duration": 6.63
+    },
+    {
+        "text": "to expand what I have here on the",
+        "start": 1062.76,
+        "duration": 5.22
+    },
+    {
+        "text": "right-hand side to first order in Delta",
+        "start": 1065.4,
+        "duration": 3.9
+    },
+    {
+        "text": "X so I'm going to throw away",
+        "start": 1067.98,
+        "duration": 3.3
+    },
+    {
+        "text": "any higher order terms any delta X",
+        "start": 1069.3,
+        "duration": 4.62
+    },
+    {
+        "text": "squares or Delta X dot squares that will",
+        "start": 1071.28,
+        "duration": 5.16
+    },
+    {
+        "text": "be very small in the limit that Delta X",
+        "start": 1073.92,
+        "duration": 4.98
+    },
+    {
+        "text": "itself is small so I can drop those in",
+        "start": 1076.44,
+        "duration": 5.25
+    },
+    {
+        "text": "the approach that I am taking so let me",
+        "start": 1078.9,
+        "duration": 5.34
+    },
+    {
+        "text": "now expand what I have there on the",
+        "start": 1081.69,
+        "duration": 3.96
+    },
+    {
+        "text": "right-hand side and that's",
+        "start": 1084.24,
+        "duration": 3.18
+    },
+    {
+        "text": "straightforward to do it's the integral",
+        "start": 1085.65,
+        "duration": 6.84
+    },
+    {
+        "text": "from T equal to 0 to T 1/2 ok expanding",
+        "start": 1087.42,
+        "duration": 6.78
+    },
+    {
+        "text": "that square the first term will give me",
+        "start": 1092.49,
+        "duration": 5.25
+    },
+    {
+        "text": "M X dot squared the cross terms will",
+        "start": 1094.2,
+        "duration": 5.22
+    },
+    {
+        "text": "give me a factor of 2 that kills the",
+        "start": 1097.74,
+        "duration": 5.31
+    },
+    {
+        "text": "half so I'll get M times X dot times",
+        "start": 1099.42,
+        "duration": 7.17
+    },
+    {
+        "text": "Delta X dot the last term over here will",
+        "start": 1103.05,
+        "duration": 5.7
+    },
+    {
+        "text": "give me Delta X dot squared I'm throwing",
+        "start": 1106.59,
+        "duration": 4.8
+    },
+    {
+        "text": "that away from the gecko ok now let me",
+        "start": 1108.75,
+        "duration": 5.1
+    },
+    {
+        "text": "expand this term and that I can do much",
+        "start": 1111.39,
+        "duration": 5.7
+    },
+    {
+        "text": "as I did my function Y if I'm expanding",
+        "start": 1113.85,
+        "duration": 6.57
+    },
+    {
+        "text": "in a Taylor series expansion to first",
+        "start": 1117.09,
+        "duration": 6.9
+    },
+    {
+        "text": "order I'd simply replace this Y by a V",
+        "start": 1120.42,
+        "duration": 8.28
+    },
+    {
+        "text": "and therefore I look at minus V of X the",
+        "start": 1123.99,
+        "duration": 12.42
+    },
+    {
+        "text": "first term minus DV DX times Delta X the",
+        "start": 1128.7,
+        "duration": 9.87
+    },
+    {
+        "text": "second term and again there would be",
+        "start": 1136.41,
+        "duration": 4.29
+    },
+    {
+        "text": "higher order terms in the expansion of",
+        "start": 1138.57,
+        "duration": 4.44
+    },
+    {
+        "text": "that function V of X I drop them all I'm",
+        "start": 1140.7,
+        "duration": 5.07
+    },
+    {
+        "text": "just working to first order in the",
+        "start": 1143.01,
+        "duration": 5.31
+    },
+    {
+        "text": "variation that is all that I need to do",
+        "start": 1145.77,
+        "duration": 6.18
+    },
+    {
+        "text": "to get the minimum of the action itself",
+        "start": 1148.32,
+        "duration": 7.89
+    },
+    {
+        "text": "ok so now I've expanded the s the action",
+        "start": 1151.95,
+        "duration": 8.31
+    },
+    {
+        "text": "at the slightly varied trajectory and I",
+        "start": 1156.21,
+        "duration": 7.23
+    },
+    {
+        "text": "need to subtract from that the action at",
+        "start": 1160.26,
+        "duration": 5.88
+    },
+    {
+        "text": "the original trajectory and medially you",
+        "start": 1163.44,
+        "duration": 4.83
+    },
+    {
+        "text": "see some cancellations that will happen",
+        "start": 1166.14,
+        "duration": 6.66
+    },
+    {
+        "text": "so when I subtract this term from this",
+        "start": 1168.27,
+        "duration": 7.44
+    },
+    {
+        "text": "expression this guy will go away and let",
+        "start": 1172.8,
+        "duration": 4.68
+    },
+    {
+        "text": "me use a different color just to",
+        "start": 1175.71,
+        "duration": 4.98
+    },
+    {
+        "text": "highlight that no dark green here this",
+        "start": 1177.48,
+        "duration": 7.74
+    },
+    {
+        "text": "guy will go to 0 from subtracting this",
+        "start": 1180.69,
+        "duration": 8.07
+    },
+    {
+        "text": "term when I subtract the V of X it will",
+        "start": 1185.22,
+        "duration": 6.54
+    },
+    {
+        "text": "cancel against the similar term that we",
+        "start": 1188.76,
+        "duration": 7.11
+    },
+    {
+        "text": "have here so the variation of the action",
+        "start": 1191.76,
+        "duration": 6.21
+    },
+    {
+        "text": "then to first order the only terms that",
+        "start": 1195.87,
+        "duration": 5.1
+    },
+    {
+        "text": "will remain will be this term and this",
+        "start": 1197.97,
+        "duration": 4.73
+    },
+    {
+        "text": "term so you have the in",
+        "start": 1200.97,
+        "duration": 9.01
+    },
+    {
+        "text": "Rolle DT of M X dot Delta X dot minus DV",
+        "start": 1202.7,
+        "duration": 13.11
+    },
+    {
+        "text": "DX Delta X integrated DT now we're",
+        "start": 1209.98,
+        "duration": 8.68
+    },
+    {
+        "text": "almost there what we do need to do",
+        "start": 1215.81,
+        "duration": 7.5
+    },
+    {
+        "text": "though is it's more useful to not have a",
+        "start": 1218.66,
+        "duration": 6.72
+    },
+    {
+        "text": "delta X dot but have everything",
+        "start": 1223.31,
+        "duration": 5.46
+    },
+    {
+        "text": "proportional to Delta X itself how can",
+        "start": 1225.38,
+        "duration": 5.22
+    },
+    {
+        "text": "we do that well a little side",
+        "start": 1228.77,
+        "duration": 5.22
+    },
+    {
+        "text": "calculation shows us how we do that so",
+        "start": 1230.6,
+        "duration": 6.63
+    },
+    {
+        "text": "if I consider and this is standard",
+        "start": 1233.99,
+        "duration": 5.82
+    },
+    {
+        "text": "integration by parts in calculus so",
+        "start": 1237.23,
+        "duration": 4.59
+    },
+    {
+        "text": "there's no magic going on here but let",
+        "start": 1239.81,
+        "duration": 4.62
+    },
+    {
+        "text": "me just write it down if I consider D by",
+        "start": 1241.82,
+        "duration": 7.5
+    },
+    {
+        "text": "DT of the expression M X dot times Delta",
+        "start": 1244.43,
+        "duration": 6.9
+    },
+    {
+        "text": "X what will I get",
+        "start": 1249.32,
+        "duration": 4.17
+    },
+    {
+        "text": "well I get M times and when the",
+        "start": 1251.33,
+        "duration": 4.26
+    },
+    {
+        "text": "derivative hits this term I'll get X",
+        "start": 1253.49,
+        "duration": 5.46
+    },
+    {
+        "text": "double dot times Delta X and when the",
+        "start": 1255.59,
+        "duration": 5.73
+    },
+    {
+        "text": "derivative hits this term I'll get M X",
+        "start": 1258.95,
+        "duration": 6.15
+    },
+    {
+        "text": "dot times Delta X dot now look the",
+        "start": 1261.32,
+        "duration": 6.75
+    },
+    {
+        "text": "second term is exactly what we want and",
+        "start": 1265.1,
+        "duration": 6.84
+    },
+    {
+        "text": "therefore I can write M X dot Delta X",
+        "start": 1268.07,
+        "duration": 8.58
+    },
+    {
+        "text": "dot as being equal to D by DT of M X dot",
+        "start": 1271.94,
+        "duration": 10.32
+    },
+    {
+        "text": "Delta X minus M X double dot Delta X so",
+        "start": 1276.65,
+        "duration": 9.0
+    },
+    {
+        "text": "now I'm going to take this term and put",
+        "start": 1282.26,
+        "duration": 6.54
+    },
+    {
+        "text": "it in place of the first term so I'll",
+        "start": 1285.65,
+        "duration": 8.1
+    },
+    {
+        "text": "have Delta s is equal to the integral DT",
+        "start": 1288.8,
+        "duration": 13.83
+    },
+    {
+        "text": "of D by DT of M X dot Delta X minus M X",
+        "start": 1293.75,
+        "duration": 13.02
+    },
+    {
+        "text": "double dot Delta X and then we have over",
+        "start": 1302.63,
+        "duration": 6.51
+    },
+    {
+        "text": "here where I left out the x over here we",
+        "start": 1306.77,
+        "duration": 7.35
+    },
+    {
+        "text": "will have minus DV DX times Delta X and",
+        "start": 1309.14,
+        "duration": 7.53
+    },
+    {
+        "text": "it's this whole thing integrated with",
+        "start": 1314.12,
+        "duration": 5.91
+    },
+    {
+        "text": "respect to T now the reason I put it in",
+        "start": 1316.67,
+        "duration": 5.13
+    },
+    {
+        "text": "this form with a little bit of hindsight",
+        "start": 1320.03,
+        "duration": 4.56
+    },
+    {
+        "text": "is that I can integrate this first term",
+        "start": 1321.8,
+        "duration": 5.82
+    },
+    {
+        "text": "easily I'm integrating against a total",
+        "start": 1324.59,
+        "duration": 5.04
+    },
+    {
+        "text": "derivative so that just gives me the",
+        "start": 1327.62,
+        "duration": 5.91
+    },
+    {
+        "text": "integrand M X dot Delta X evaluated",
+        "start": 1329.63,
+        "duration": 6.96
+    },
+    {
+        "text": "between T equal to 0 and T equal",
+        "start": 1333.53,
+        "duration": 5.61
+    },
+    {
+        "text": "tea for that first term what remains is",
+        "start": 1336.59,
+        "duration": 7.199
+    },
+    {
+        "text": "- M X dot Delta X integrated that guy",
+        "start": 1339.14,
+        "duration": 7.05
+    },
+    {
+        "text": "and let me put them all together so that",
+        "start": 1343.789,
+        "duration": 4.711
+    },
+    {
+        "text": "minus sign means that this guy should be",
+        "start": 1346.19,
+        "duration": 4.77
+    },
+    {
+        "text": "a plus sign so that the minus and the",
+        "start": 1348.5,
+        "duration": 5.039
+    },
+    {
+        "text": "plus will conspire to give me that minus",
+        "start": 1350.96,
+        "duration": 4.17
+    },
+    {
+        "text": "sign they rid of that dot it looks a",
+        "start": 1353.539,
+        "duration": 2.37
+    },
+    {
+        "text": "little bit weird",
+        "start": 1355.13,
+        "duration": 7.679
+    },
+    {
+        "text": "Plus DV live come on DV DX times Delta X",
+        "start": 1355.909,
+        "duration": 9.75
+    },
+    {
+        "text": "now we only have Delta X's left over I",
+        "start": 1362.809,
+        "duration": 6.061
+    },
+    {
+        "text": "like that as you'll see in a moment it's",
+        "start": 1365.659,
+        "duration": 5.191
+    },
+    {
+        "text": "quite useful what about this first term",
+        "start": 1368.87,
+        "duration": 5.159
+    },
+    {
+        "text": "over here well bear in mind that the",
+        "start": 1370.85,
+        "duration": 5.64
+    },
+    {
+        "text": "variations in the trajectories that we",
+        "start": 1374.029,
+        "duration": 4.411
+    },
+    {
+        "text": "are looking at let me go back to my",
+        "start": 1376.49,
+        "duration": 4.26
+    },
+    {
+        "text": "picture over here you have all these",
+        "start": 1378.44,
+        "duration": 6.209
+    },
+    {
+        "text": "different trajectories but all of them",
+        "start": 1380.75,
+        "duration": 6.63
+    },
+    {
+        "text": "start and end at the same spot which",
+        "start": 1384.649,
+        "duration": 5.0
+    },
+    {
+        "text": "means the variation in a trajectory",
+        "start": 1387.38,
+        "duration": 5.64
+    },
+    {
+        "text": "doesn't change the starting point or the",
+        "start": 1389.649,
+        "duration": 4.721
+    },
+    {
+        "text": "ending whoa that's the anchor of the",
+        "start": 1393.02,
+        "duration": 4.379
+    },
+    {
+        "text": "whole analysis which means that Delta X",
+        "start": 1394.37,
+        "duration": 8.64
+    },
+    {
+        "text": "at time zero is equal to zero which is",
+        "start": 1397.399,
+        "duration": 9.121
+    },
+    {
+        "text": "equal to Delta X at time T and that's",
+        "start": 1403.01,
+        "duration": 5.82
+    },
+    {
+        "text": "what comes in to this evaluation and",
+        "start": 1406.52,
+        "duration": 4.139
+    },
+    {
+        "text": "therefore the first term drops out",
+        "start": 1408.83,
+        "duration": 4.589
+    },
+    {
+        "text": "beautiful what about the remaining terms",
+        "start": 1410.659,
+        "duration": 6.081
+    },
+    {
+        "text": "well the remaining term is equal to",
+        "start": 1413.419,
+        "duration": 9.421
+    },
+    {
+        "text": "minus the integral of a dot over there M",
+        "start": 1416.74,
+        "duration": 12.549
+    },
+    {
+        "text": "X double dot plus DV DX all of this",
+        "start": 1422.84,
+        "duration": 12.199
+    },
+    {
+        "text": "Delta X integrated DT from zero to T and",
+        "start": 1429.289,
+        "duration": 9.331
+    },
+    {
+        "text": "that's what we are left with this little",
+        "start": 1435.039,
+        "duration": 5.831
+    },
+    {
+        "text": "calculation of the variation of the",
+        "start": 1438.62,
+        "duration": 6.24
+    },
+    {
+        "text": "action to first order now this is meant",
+        "start": 1440.87,
+        "duration": 8.99
+    },
+    {
+        "text": "to be zero for any and all variations of",
+        "start": 1444.86,
+        "duration": 9.179
+    },
+    {
+        "text": "the trajectory that minimizes the action",
+        "start": 1449.86,
+        "duration": 6.669
+    },
+    {
+        "text": "and for this to be zero for any and all",
+        "start": 1454.039,
+        "duration": 4.651
+    },
+    {
+        "text": "values of Delta X there's only one way",
+        "start": 1456.529,
+        "duration": 4.53
+    },
+    {
+        "text": "for that to happen this term over here",
+        "start": 1458.69,
+        "duration": 6.3
+    },
+    {
+        "text": "must itself be equal to zero so the",
+        "start": 1461.059,
+        "duration": 5.811
+    },
+    {
+        "text": "conclusion that we get therefore is",
+        "start": 1464.99,
+        "duration": 5.189
+    },
+    {
+        "text": "Delta s equal to zero",
+        "start": 1466.87,
+        "duration": 10.149
+    },
+    {
+        "text": "implies that M X double dot plus DV DX",
+        "start": 1470.179,
+        "duration": 10.801
+    },
+    {
+        "text": "is equal to zero in other words minus DV",
+        "start": 1477.019,
+        "duration": 9.211
+    },
+    {
+        "text": "DX must be equal to M X double dot let",
+        "start": 1480.98,
+        "duration": 8.6
+    },
+    {
+        "text": "me box this because this is our final",
+        "start": 1486.23,
+        "duration": 7.649
+    },
+    {
+        "text": "equation and lo and behold the least",
+        "start": 1489.58,
+        "duration": 7.39
+    },
+    {
+        "text": "action principle Delta s equal to zero",
+        "start": 1493.879,
+        "duration": 6.18
+    },
+    {
+        "text": "gives us this equation and if we scroll",
+        "start": 1496.97,
+        "duration": 6.39
+    },
+    {
+        "text": "all the way back to where we began with",
+        "start": 1500.059,
+        "duration": 6.33
+    },
+    {
+        "text": "Isaac Newton you will look we have the",
+        "start": 1503.36,
+        "duration": 6.269
+    },
+    {
+        "text": "same equation minus DV DX equals MX",
+        "start": 1506.389,
+        "duration": 5.551
+    },
+    {
+        "text": "double dot coming from Isaac Newton and",
+        "start": 1509.629,
+        "duration": 5.49
+    },
+    {
+        "text": "from this least action principle we now",
+        "start": 1511.94,
+        "duration": 5.309
+    },
+    {
+        "text": "have the same equation and therefore",
+        "start": 1515.119,
+        "duration": 5.31
+    },
+    {
+        "text": "they are equivalent to each other even",
+        "start": 1517.249,
+        "duration": 6.66
+    },
+    {
+        "text": "though they kind of conceptually feel",
+        "start": 1520.429,
+        "duration": 5.82
+    },
+    {
+        "text": "completely different right conceptually",
+        "start": 1523.909,
+        "duration": 4.65
+    },
+    {
+        "text": "they they really are completely",
+        "start": 1526.249,
+        "duration": 6.9
+    },
+    {
+        "text": "different and let me just spell out the",
+        "start": 1528.559,
+        "duration": 7.35
+    },
+    {
+        "text": "kind of comparison between them so that",
+        "start": 1533.149,
+        "duration": 5.4
+    },
+    {
+        "text": "you can sort of have in mind the more",
+        "start": 1535.909,
+        "duration": 6.71
+    },
+    {
+        "text": "philosophical or the more overarching",
+        "start": 1538.549,
+        "duration": 7.62
+    },
+    {
+        "text": "distinctions between these two very",
+        "start": 1542.619,
+        "duration": 5.201
+    },
+    {
+        "text": "different looking approaches to get the",
+        "start": 1546.169,
+        "duration": 5.36
+    },
+    {
+        "text": "classical trajectory of this particle so",
+        "start": 1547.82,
+        "duration": 9.15
+    },
+    {
+        "text": "by comparison just to sort of write out",
+        "start": 1551.529,
+        "duration": 7.571
+    },
+    {
+        "text": "the differences between them",
+        "start": 1556.97,
+        "duration": 5.61
+    },
+    {
+        "text": "you will note that from the standpoint",
+        "start": 1559.1,
+        "duration": 7.37
+    },
+    {
+        "text": "of the initial data so Newton wants",
+        "start": 1562.58,
+        "duration": 7.829
+    },
+    {
+        "text": "initial conditions where you give the",
+        "start": 1566.47,
+        "duration": 6.459
+    },
+    {
+        "text": "position and the velocity of the",
+        "start": 1570.409,
+        "duration": 5.73
+    },
+    {
+        "text": "particle at the initial time whereas",
+        "start": 1572.929,
+        "duration": 5.281
+    },
+    {
+        "text": "this least action approach you don't",
+        "start": 1576.139,
+        "duration": 6.091
+    },
+    {
+        "text": "give the initial conditions at time 0",
+        "start": 1578.21,
+        "duration": 6.51
+    },
+    {
+        "text": "rather you give what can be called",
+        "start": 1582.23,
+        "duration": 7.62
+    },
+    {
+        "text": "boundary values the boundary values in",
+        "start": 1584.72,
+        "duration": 7.5
+    },
+    {
+        "text": "the case that we studied are the",
+        "start": 1589.85,
+        "duration": 5.579
+    },
+    {
+        "text": "boundary locations of the trajectory the",
+        "start": 1592.22,
+        "duration": 5.73
+    },
+    {
+        "text": "position at time 0 but the position at",
+        "start": 1595.429,
+        "duration": 5.791
+    },
+    {
+        "text": "the final time not the initial speed",
+        "start": 1597.95,
+        "duration": 6.12
+    },
+    {
+        "text": "that's kind of conceptually quite diff",
+        "start": 1601.22,
+        "duration": 5.43
+    },
+    {
+        "text": "from the usual way that we set up a",
+        "start": 1604.07,
+        "duration": 5.48
+    },
+    {
+        "text": "Newtonian problem what are the other",
+        "start": 1606.65,
+        "duration": 5.49
+    },
+    {
+        "text": "comparisons well in addition to the",
+        "start": 1609.55,
+        "duration": 5.41
+    },
+    {
+        "text": "initial conditions please note that in",
+        "start": 1612.14,
+        "duration": 7.14
+    },
+    {
+        "text": "general when you do Newtonian mechanics",
+        "start": 1614.96,
+        "duration": 7.82
+    },
+    {
+        "text": "using F equals MA F is a vector",
+        "start": 1619.28,
+        "duration": 6.18
+    },
+    {
+        "text": "acceleration is a vector velocity is a",
+        "start": 1622.78,
+        "duration": 4.51
+    },
+    {
+        "text": "vector I've done the simplest case of",
+        "start": 1625.46,
+        "duration": 4.02
+    },
+    {
+        "text": "one dimensional motion so I didn't have",
+        "start": 1627.29,
+        "duration": 4.11
+    },
+    {
+        "text": "to worry about the vectors but you know",
+        "start": 1629.48,
+        "duration": 5.31
+    },
+    {
+        "text": "if you have taken high school physics or",
+        "start": 1631.4,
+        "duration": 5.97
+    },
+    {
+        "text": "college-level physics one of the big",
+        "start": 1634.79,
+        "duration": 5.55
+    },
+    {
+        "text": "headaches of Newtonian mechanics is",
+        "start": 1637.37,
+        "duration": 5.22
+    },
+    {
+        "text": "keeping track of the components of",
+        "start": 1640.34,
+        "duration": 4.32
+    },
+    {
+        "text": "vectors that can be pointing this way",
+        "start": 1642.59,
+        "duration": 4.02
+    },
+    {
+        "text": "that way and so forth and that's really",
+        "start": 1644.66,
+        "duration": 6.35
+    },
+    {
+        "text": "where a lot of the technical",
+        "start": 1646.61,
+        "duration": 7.62
+    },
+    {
+        "text": "difficulties that students face arises",
+        "start": 1651.01,
+        "duration": 5.14
+    },
+    {
+        "text": "but you'll note that in this least",
+        "start": 1654.23,
+        "duration": 6.33
+    },
+    {
+        "text": "action approach everything from the",
+        "start": 1656.15,
+        "duration": 6.78
+    },
+    {
+        "text": "starting point is in terms of scalar",
+        "start": 1660.56,
+        "duration": 5.42
+    },
+    {
+        "text": "quantities right if we are looking at",
+        "start": 1662.93,
+        "duration": 8.7
+    },
+    {
+        "text": "our form here kinetic energy that's a",
+        "start": 1665.98,
+        "duration": 8.74
+    },
+    {
+        "text": "number that's not a vector potential",
+        "start": 1671.63,
+        "duration": 7.05
+    },
+    {
+        "text": "energy that's a number not a vector so",
+        "start": 1674.72,
+        "duration": 6.54
+    },
+    {
+        "text": "the action over which you are minimizing",
+        "start": 1678.68,
+        "duration": 6.42
+    },
+    {
+        "text": "is itself described totally in terms of",
+        "start": 1681.26,
+        "duration": 6.63
+    },
+    {
+        "text": "scalar quantities which makes life so",
+        "start": 1685.1,
+        "duration": 5.25
+    },
+    {
+        "text": "much easier the vector quantities if you",
+        "start": 1687.89,
+        "duration": 5.1
+    },
+    {
+        "text": "will they come out of the minimization",
+        "start": 1690.35,
+        "duration": 5.7
+    },
+    {
+        "text": "process but that's something that you as",
+        "start": 1692.99,
+        "duration": 5.28
+    },
+    {
+        "text": "the user don't have to worry about you",
+        "start": 1696.05,
+        "duration": 4.71
+    },
+    {
+        "text": "just turn the crank and minimize this",
+        "start": 1698.27,
+        "duration": 5.31
+    },
+    {
+        "text": "scalar quantity and it takes care of all",
+        "start": 1700.76,
+        "duration": 7.14
+    },
+    {
+        "text": "of the vector components for you one",
+        "start": 1703.58,
+        "duration": 7.71
+    },
+    {
+        "text": "final comparison between these is that",
+        "start": 1707.9,
+        "duration": 5.85
+    },
+    {
+        "text": "look the the Newtonian description is",
+        "start": 1711.29,
+        "duration": 5.61
+    },
+    {
+        "text": "completely local right you only talk",
+        "start": 1713.75,
+        "duration": 5.31
+    },
+    {
+        "text": "about the force acting on the particle",
+        "start": 1716.9,
+        "duration": 5.49
+    },
+    {
+        "text": "at a given location you don't talk about",
+        "start": 1719.06,
+        "duration": 6.51
+    },
+    {
+        "text": "the global trajectory that emerges from",
+        "start": 1722.39,
+        "duration": 5.67
+    },
+    {
+        "text": "solving the differential equation that",
+        "start": 1725.57,
+        "duration": 5.46
+    },
+    {
+        "text": "comes from F equals MA but in this least",
+        "start": 1728.06,
+        "duration": 7.02
+    },
+    {
+        "text": "action approach its global from the",
+        "start": 1731.03,
+        "duration": 4.59
+    },
+    {
+        "text": "get-go",
+        "start": 1735.08,
+        "duration": 2.69
+    },
+    {
+        "text": "right the way we set up the prop",
+        "start": 1735.62,
+        "duration": 4.85
+    },
+    {
+        "text": "problem is we are looking if I can go",
+        "start": 1737.77,
+        "duration": 5.25
+    },
+    {
+        "text": "back to my picture we're looking over",
+        "start": 1740.47,
+        "duration": 6.57
+    },
+    {
+        "text": "here at the whole trajectory from the",
+        "start": 1743.02,
+        "duration": 6.27
+    },
+    {
+        "text": "get-go we're looking in fact at the",
+        "start": 1747.04,
+        "duration": 5.04
+    },
+    {
+        "text": "whole trajectory for many possible",
+        "start": 1749.29,
+        "duration": 4.56
+    },
+    {
+        "text": "trajectories for in some sense all",
+        "start": 1752.08,
+        "duration": 3.78
+    },
+    {
+        "text": "possible trajectories and we're",
+        "start": 1753.85,
+        "duration": 5.4
+    },
+    {
+        "text": "minimizing over that global picture so",
+        "start": 1755.86,
+        "duration": 6.36
+    },
+    {
+        "text": "again philosophically conceptually it's",
+        "start": 1759.25,
+        "duration": 5.85
+    },
+    {
+        "text": "quite different newton is starting local",
+        "start": 1762.22,
+        "duration": 5.66
+    },
+    {
+        "text": "whereas this least action principle is",
+        "start": 1765.1,
+        "duration": 6.78
+    },
+    {
+        "text": "starting global but yet as we just",
+        "start": 1767.88,
+        "duration": 7.27
+    },
+    {
+        "text": "showed they are equivalent to each other",
+        "start": 1771.88,
+        "duration": 5.28
+    },
+    {
+        "text": "at least in the case that i have spelled",
+        "start": 1775.15,
+        "duration": 4.32
+    },
+    {
+        "text": "out this case of a single particle non",
+        "start": 1777.16,
+        "duration": 4.5
+    },
+    {
+        "text": "relativistic moving in one spatial",
+        "start": 1779.47,
+        "duration": 4.2
+    },
+    {
+        "text": "dimension but i assure you that the",
+        "start": 1781.66,
+        "duration": 5.04
+    },
+    {
+        "text": "equivalent holds true in any more",
+        "start": 1783.67,
+        "duration": 4.8
+    },
+    {
+        "text": "general circumstance in fact let me",
+        "start": 1786.7,
+        "duration": 6.12
+    },
+    {
+        "text": "finish up by just showing you the more",
+        "start": 1788.47,
+        "duration": 9.39
+    },
+    {
+        "text": "general version of the equations and the",
+        "start": 1792.82,
+        "duration": 8.76
+    },
+    {
+        "text": "general version is indeed where we come",
+        "start": 1797.86,
+        "duration": 7.77
+    },
+    {
+        "text": "to the so-called Euler Lagrangian of the",
+        "start": 1801.58,
+        "duration": 7.62
+    },
+    {
+        "text": "general setup and I don't really have to",
+        "start": 1805.63,
+        "duration": 5.22
+    },
+    {
+        "text": "do much work here because it's just a",
+        "start": 1809.2,
+        "duration": 4.17
+    },
+    {
+        "text": "generalization of the simpler case no",
+        "start": 1810.85,
+        "duration": 5.64
+    },
+    {
+        "text": "new conceptual ideas but let me just",
+        "start": 1813.37,
+        "duration": 5.49
+    },
+    {
+        "text": "quickly run through it for you here so",
+        "start": 1816.49,
+        "duration": 4.65
+    },
+    {
+        "text": "the general case is you start with",
+        "start": 1818.86,
+        "duration": 5.79
+    },
+    {
+        "text": "something the action and in the general",
+        "start": 1821.14,
+        "duration": 5.97
+    },
+    {
+        "text": "case you write down the action as an",
+        "start": 1824.65,
+        "duration": 4.95
+    },
+    {
+        "text": "integral say from T equal to 0 to T",
+        "start": 1827.11,
+        "duration": 5.46
+    },
+    {
+        "text": "equal to T of something called the",
+        "start": 1829.6,
+        "duration": 5.46
+    },
+    {
+        "text": "Lagrangian here's where Lagrange's name",
+        "start": 1832.57,
+        "duration": 5.07
+    },
+    {
+        "text": "comes into the story and in general that",
+        "start": 1835.06,
+        "duration": 5.82
+    },
+    {
+        "text": "is a function of positions velocities",
+        "start": 1837.64,
+        "duration": 7.05
+    },
+    {
+        "text": "and time and you can integrate this with",
+        "start": 1840.88,
+        "duration": 6.42
+    },
+    {
+        "text": "respect to T in order to get the act not",
+        "start": 1844.69,
+        "duration": 4.65
+    },
+    {
+        "text": "you can you must integrate it with",
+        "start": 1847.3,
+        "duration": 4.38
+    },
+    {
+        "text": "respect to T to get the action in the",
+        "start": 1849.34,
+        "duration": 4.59
+    },
+    {
+        "text": "special case that we focused upon the",
+        "start": 1851.68,
+        "duration": 5.04
+    },
+    {
+        "text": "Lagrangian itself was simply equal to",
+        "start": 1853.93,
+        "duration": 5.55
+    },
+    {
+        "text": "the kinetic energy which we know depends",
+        "start": 1856.72,
+        "duration": 6.24
+    },
+    {
+        "text": "upon X dot velocity it's one-half M V",
+        "start": 1859.48,
+        "duration": 6.18
+    },
+    {
+        "text": "squared one-half M X dot squared minus",
+        "start": 1862.96,
+        "duration": 4.59
+    },
+    {
+        "text": "the potential and that's where the X",
+        "start": 1865.66,
+        "duration": 4.29
+    },
+    {
+        "text": "comes into the story but again that's",
+        "start": 1867.55,
+        "duration": 3.69
+    },
+    {
+        "text": "just one spell",
+        "start": 1869.95,
+        "duration": 3.9
+    },
+    {
+        "text": "so case the general situation you could",
+        "start": 1871.24,
+        "duration": 5.72
+    },
+    {
+        "text": "have up to certain mathematical",
+        "start": 1873.85,
+        "duration": 5.97
+    },
+    {
+        "text": "restrictions an arbitrary function of",
+        "start": 1876.96,
+        "duration": 5.98
+    },
+    {
+        "text": "position velocity and time and now to",
+        "start": 1879.82,
+        "duration": 6.18
+    },
+    {
+        "text": "get the equations of motion the Euler",
+        "start": 1882.94,
+        "duration": 6.27
+    },
+    {
+        "text": "Lagrange equations we impose that the",
+        "start": 1886.0,
+        "duration": 7.29
+    },
+    {
+        "text": "variation of s equals zero by which we",
+        "start": 1889.21,
+        "duration": 5.76
+    },
+    {
+        "text": "mean the same thing that we meant before",
+        "start": 1893.29,
+        "duration": 4.71
+    },
+    {
+        "text": "we take a purported minimizing",
+        "start": 1894.97,
+        "duration": 6.959
+    },
+    {
+        "text": "trajectory we add a slight variation of",
+        "start": 1898.0,
+        "duration": 6.72
+    },
+    {
+        "text": "that trajectory we plug that into the",
+        "start": 1901.929,
+        "duration": 7.5
+    },
+    {
+        "text": "action we subtract from that the action",
+        "start": 1904.72,
+        "duration": 6.99
+    },
+    {
+        "text": "around the purported minimizing",
+        "start": 1909.429,
+        "duration": 5.521
+    },
+    {
+        "text": "trajectory we call this Delta X and we",
+        "start": 1911.71,
+        "duration": 6.719
+    },
+    {
+        "text": "set this equal to zero to nail down what",
+        "start": 1914.95,
+        "duration": 6.15
+    },
+    {
+        "text": "the minimum trajectory is and I can",
+        "start": 1918.429,
+        "duration": 5.821
+    },
+    {
+        "text": "write down the version of the general",
+        "start": 1921.1,
+        "duration": 6.0
+    },
+    {
+        "text": "equations which will generalize this",
+        "start": 1924.25,
+        "duration": 6.24
+    },
+    {
+        "text": "simple formula we had in the case that",
+        "start": 1927.1,
+        "duration": 5.91
+    },
+    {
+        "text": "the Lagrangian is this very special form",
+        "start": 1930.49,
+        "duration": 5.61
+    },
+    {
+        "text": "and it's not hard for me to do that I'm",
+        "start": 1933.01,
+        "duration": 5.07
+    },
+    {
+        "text": "wondering if I should derive them up for",
+        "start": 1936.1,
+        "duration": 4.23
+    },
+    {
+        "text": "I should just write down the end maybe",
+        "start": 1938.08,
+        "duration": 3.84
+    },
+    {
+        "text": "it's getting late so I'm going to just",
+        "start": 1940.33,
+        "duration": 3.57
+    },
+    {
+        "text": "write down the answer I'll leave it to",
+        "start": 1941.92,
+        "duration": 3.54
+    },
+    {
+        "text": "you as a challenge to work this out but",
+        "start": 1943.9,
+        "duration": 4.08
+    },
+    {
+        "text": "it is nothing different from what I did",
+        "start": 1945.46,
+        "duration": 4.53
+    },
+    {
+        "text": "in the special case so if you generalize",
+        "start": 1947.98,
+        "duration": 4.32
+    },
+    {
+        "text": "that you will get to the following",
+        "start": 1949.99,
+        "duration": 7.38
+    },
+    {
+        "text": "equation the equation is d by DT of the",
+        "start": 1952.3,
+        "duration": 7.71
+    },
+    {
+        "text": "variation of the Lagrangian with respect",
+        "start": 1957.37,
+        "duration": 6.66
+    },
+    {
+        "text": "to X dot minus the variation of the",
+        "start": 1960.01,
+        "duration": 7.169
+    },
+    {
+        "text": "Lagrangian with respect to X is equal to",
+        "start": 1964.03,
+        "duration": 7.37
+    },
+    {
+        "text": "zero and the Ox here doesn't need to be",
+        "start": 1967.179,
+        "duration": 6.961
+    },
+    {
+        "text": "one-dimensional it can stand for a whole",
+        "start": 1971.4,
+        "duration": 4.83
+    },
+    {
+        "text": "variety of coordinates so-called",
+        "start": 1974.14,
+        "duration": 4.169
+    },
+    {
+        "text": "generalized coordinates but you can",
+        "start": 1976.23,
+        "duration": 4.0
+    },
+    {
+        "text": "think about them as XY and Z if that",
+        "start": 1978.309,
+        "duration": 4.231
+    },
+    {
+        "text": "makes it easier to think about I'm gonna",
+        "start": 1980.23,
+        "duration": 5.31
+    },
+    {
+        "text": "put a little eye on each one of these to",
+        "start": 1982.54,
+        "duration": 5.25
+    },
+    {
+        "text": "signify that it's one of a grand",
+        "start": 1985.54,
+        "duration": 5.1
+    },
+    {
+        "text": "collection of coordinates that describes",
+        "start": 1987.79,
+        "duration": 7.38
+    },
+    {
+        "text": "a given physical system and the solution",
+        "start": 1990.64,
+        "duration": 10.62
+    },
+    {
+        "text": "to this set of equations is indeed the",
+        "start": 1995.17,
+        "duration": 9.12
+    },
+    {
+        "text": "minimizing or extreme izing for",
+        "start": 2001.26,
+        "duration": 5.85
+    },
+    {
+        "text": "Jek turi in the generalized sense for",
+        "start": 2004.29,
+        "duration": 5.55
+    },
+    {
+        "text": "the action that we started with over",
+        "start": 2007.11,
+        "duration": 5.79
+    },
+    {
+        "text": "here and so if I were to plug in l",
+        "start": 2009.84,
+        "duration": 5.76
+    },
+    {
+        "text": "equals kinetic energy minus potential",
+        "start": 2012.9,
+        "duration": 3.33
+    },
+    {
+        "text": "energy",
+        "start": 2015.6,
+        "duration": 2.79
+    },
+    {
+        "text": "I would recover the equation that I have",
+        "start": 2016.23,
+        "duration": 5.61
+    },
+    {
+        "text": "here but in the general case these are",
+        "start": 2018.39,
+        "duration": 8.31
+    },
+    {
+        "text": "the classical equations for X I of T",
+        "start": 2021.84,
+        "duration": 9.03
+    },
+    {
+        "text": "that extremize or in my looser language",
+        "start": 2026.7,
+        "duration": 7.74
+    },
+    {
+        "text": "minimize the action subject to fixing",
+        "start": 2030.87,
+        "duration": 6.15
+    },
+    {
+        "text": "the boundary conditions on each one of",
+        "start": 2034.44,
+        "duration": 6.21
+    },
+    {
+        "text": "those variables so that is what I wanted",
+        "start": 2037.02,
+        "duration": 6.24
+    },
+    {
+        "text": "to get to today the Euler Lagrange",
+        "start": 2040.65,
+        "duration": 8.07
+    },
+    {
+        "text": "equations let me finish up by just",
+        "start": 2043.26,
+        "duration": 10.02
+    },
+    {
+        "text": "noting one curious fact that we will",
+        "start": 2048.72,
+        "duration": 8.28
+    },
+    {
+        "text": "come back to in a later episode which is",
+        "start": 2053.28,
+        "duration": 6.66
+    },
+    {
+        "text": "you know as Richard Fineman pointed out",
+        "start": 2057.0,
+        "duration": 6.32
+    },
+    {
+        "text": "it's a little bit wasteful in a sense",
+        "start": 2059.94,
+        "duration": 6.81
+    },
+    {
+        "text": "that you define this function or",
+        "start": 2063.32,
+        "duration": 9.37
+    },
+    {
+        "text": "functional and immediately you only make",
+        "start": 2066.75,
+        "duration": 9.69
+    },
+    {
+        "text": "use of it at one trajectory the",
+        "start": 2072.69,
+        "duration": 6.65
+    },
+    {
+        "text": "trajectory that minimizes the action",
+        "start": 2076.44,
+        "duration": 5.88
+    },
+    {
+        "text": "what about the other trajectories that",
+        "start": 2079.34,
+        "duration": 5.89
+    },
+    {
+        "text": "don't minimize the action do they have",
+        "start": 2082.32,
+        "duration": 7.47
+    },
+    {
+        "text": "any role in physics and the startling",
+        "start": 2085.23,
+        "duration": 8.49
+    },
+    {
+        "text": "idea that Richard Feynman came up with",
+        "start": 2089.79,
+        "duration": 7.29
+    },
+    {
+        "text": "is that they do have a role not in",
+        "start": 2093.72,
+        "duration": 6.42
+    },
+    {
+        "text": "classical physics classical physics only",
+        "start": 2097.08,
+        "duration": 6.18
+    },
+    {
+        "text": "focus upon trajectories that minimize",
+        "start": 2100.14,
+        "duration": 5.7
+    },
+    {
+        "text": "the action but as we will see in a later",
+        "start": 2103.26,
+        "duration": 5.82
+    },
+    {
+        "text": "episode quantum physics quantum physics",
+        "start": 2105.84,
+        "duration": 6.45
+    },
+    {
+        "text": "makes use of all of the trajectories so",
+        "start": 2109.08,
+        "duration": 6.33
+    },
+    {
+        "text": "in a sense classical physics fits within",
+        "start": 2112.29,
+        "duration": 6.0
+    },
+    {
+        "text": "quantum mechanics by virtue of it",
+        "start": 2115.41,
+        "duration": 6.33
+    },
+    {
+        "text": "focusing upon very special trajectories",
+        "start": 2118.29,
+        "duration": 5.94
+    },
+    {
+        "text": "those that extremize or minimize the",
+        "start": 2121.74,
+        "duration": 5.85
+    },
+    {
+        "text": "action quantum mechanics looks at a more",
+        "start": 2124.23,
+        "duration": 6.24
+    },
+    {
+        "text": "broad description and a more accurate",
+        "start": 2127.59,
+        "duration": 5.1
+    },
+    {
+        "text": "description of reality that takes into",
+        "start": 2130.47,
+        "duration": 5.85
+    },
+    {
+        "text": "account all of jus trajectories should",
+        "start": 2132.69,
+        "duration": 5.31
+    },
+    {
+        "text": "say all of the tried",
+        "start": 2136.32,
+        "duration": 3.54
+    },
+    {
+        "text": "factories it's getting a little bit late",
+        "start": 2138.0,
+        "duration": 3.66
+    },
+    {
+        "text": "my speech is starting to become a little",
+        "start": 2139.86,
+        "duration": 2.91
+    },
+    {
+        "text": "bit slurred I'm gonna try the team a",
+        "start": 2141.66,
+        "duration": 3.6
+    },
+    {
+        "text": "third time quantum mechanics make use of",
+        "start": 2142.77,
+        "duration": 6.9
+    },
+    {
+        "text": "all of the trajectories okay I finally",
+        "start": 2145.26,
+        "duration": 6.66
+    },
+    {
+        "text": "got it out but that's the key physical",
+        "start": 2149.67,
+        "duration": 4.2
+    },
+    {
+        "text": "idea and we're going to come back to",
+        "start": 2151.92,
+        "duration": 4.65
+    },
+    {
+        "text": "that notion in a subsequent episode okay",
+        "start": 2153.87,
+        "duration": 5.19
+    },
+    {
+        "text": "that's it for today I just wanted to get",
+        "start": 2156.57,
+        "duration": 5.34
+    },
+    {
+        "text": "to these Euler Lagrange equations and",
+        "start": 2159.06,
+        "duration": 6.77
+    },
+    {
+        "text": "until next time take care",
+        "start": 2161.91,
+        "duration": 3.92
+    }
+]

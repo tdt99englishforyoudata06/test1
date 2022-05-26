@@ -1,0 +1,267 @@
+[
+    {
+        "text": "Do-it-yourself electronics, particularly digital\nclocks, have been in the news this week.",
+        "start": 10.76,
+        "duration": 4.37
+    },
+    {
+        "text": "And there are a lot of things to talk about\nwith this story, and from Tumblr to the White",
+        "start": 15.13,
+        "duration": 3.28
+    },
+    {
+        "text": "House, people are talking about them.",
+        "start": 18.41,
+        "duration": 1.84
+    },
+    {
+        "text": "But we here at SciShow were interested in\nhow digital clocks actually work.",
+        "start": 20.25,
+        "duration": 4.07
+    },
+    {
+        "text": "Well first, you need a power source.",
+        "start": 24.32,
+        "duration": 1.58
+    },
+    {
+        "text": "That’s either a battery, or a wire running\ninto the wall.",
+        "start": 25.9,
+        "duration": 2.34
+    },
+    {
+        "text": "Most consumer digital clocks use an ordinary\nplug, with a transformer that steps down the",
+        "start": 28.24,
+        "duration": 4.15
+    },
+    {
+        "text": "power supply before the current runs into\nthe clock.",
+        "start": 32.39,
+        "duration": 2.66
+    },
+    {
+        "text": "Plus, there can be a connection for a nine-volt\nbattery, as a backup power source.",
+        "start": 35.05,
+        "duration": 3.41
+    },
+    {
+        "text": "Next, a clock needs a heartbeat -- some way\nof counting regular intervals in order to",
+        "start": 38.46,
+        "duration": 3.95
+    },
+    {
+        "text": "keep time.",
+        "start": 42.41,
+        "duration": 1.0
+    },
+    {
+        "text": "In a traditional pendulum clock, the heartbeat\ncomes from the swinging of the pendulum.",
+        "start": 43.41,
+        "duration": 3.64
+    },
+    {
+        "text": "But in a digital clock, this heartbeat can\nbe generated electronically, in a couple of",
+        "start": 47.05,
+        "duration": 3.461
+    },
+    {
+        "text": "different ways.",
+        "start": 50.511,
+        "duration": 1.0
+    },
+    {
+        "text": "It might use a crystal oscillator, for example\n-- a piece of quartz that vibrates at a regular",
+        "start": 51.511,
+        "duration": 3.569
+    },
+    {
+        "text": "frequency when it’s attached to an electrical\ncurrent.",
+        "start": 55.08,
+        "duration": 2.1
+    },
+    {
+        "text": "Or, it might use a circuit that counts the\noscillations of the electricity coming through",
+        "start": 57.18,
+        "duration": 3.55
+    },
+    {
+        "text": "the wire.",
+        "start": 60.73,
+        "duration": 1.0
+    },
+    {
+        "text": "These oscillations are measured in cycles\nper second, using units called Hertz.",
+        "start": 61.73,
+        "duration": 3.52
+    },
+    {
+        "text": "So if your clock runs at 60 hertz, the electricity\nbeing fed to it is oscillating 60 times per",
+        "start": 65.25,
+        "duration": 4.71
+    },
+    {
+        "text": "second.",
+        "start": 69.96,
+        "duration": 1.0
+    },
+    {
+        "text": "Those oscillations are just the regular, built-in\nfluctuations in the amount of electricity",
+        "start": 70.96,
+        "duration": 2.73
+    },
+    {
+        "text": "being fed into the electronics.",
+        "start": 73.69,
+        "duration": 1.78
+    },
+    {
+        "text": "A digital clock counts those oscillations\nto keep time.",
+        "start": 75.47,
+        "duration": 2.63
+    },
+    {
+        "text": "The third thing you need in a clock is a way\nto split up that heartbeat into different",
+        "start": 78.1,
+        "duration": 3.54
+    },
+    {
+        "text": "units of time.",
+        "start": 81.64,
+        "duration": 1.0
+    },
+    {
+        "text": "In a mechanical clock, that’s done with\ngears: A different set of gears connects the",
+        "start": 82.64,
+        "duration": 3.11
+    },
+    {
+        "text": "pendulum to the hour hand, the minute hand,\nand the second hand, so they each move a different,",
+        "start": 85.75,
+        "duration": 4.17
+    },
+    {
+        "text": "specific amount as it swings.",
+        "start": 89.92,
+        "duration": 1.73
+    },
+    {
+        "text": "Digital clocks don’t have gears, of course.",
+        "start": 91.65,
+        "duration": 1.57
+    },
+    {
+        "text": "Instead, they have a chip that counts the\nheartbeats, then acts like a simple calculator",
+        "start": 93.22,
+        "duration": 3.45
+    },
+    {
+        "text": "to divide the number of heartbeats into conventional\nunits of time.",
+        "start": 96.67,
+        "duration": 2.92
+    },
+    {
+        "text": "So, if you have a signal that pulses 60 times\nevery second, the chip counts the oscillations,",
+        "start": 99.59,
+        "duration": 4.14
+    },
+    {
+        "text": "and for every sixty, it records it as one\nsecond having passed.",
+        "start": 103.73,
+        "duration": 2.81
+    },
+    {
+        "text": "For every 3,600 oscillations, it records a\nminute; for every 216,000 -- that’s an hour.",
+        "start": 106.54,
+        "duration": 5.25
+    },
+    {
+        "text": "Now the last thing you need for your clock\nis a display, like an LED screen, with a separate",
+        "start": 111.79,
+        "duration": 4.13
+    },
+    {
+        "text": "circuit that lets it communicate with the\ncounters.",
+        "start": 115.92,
+        "duration": 1.95
+    },
+    {
+        "text": "That circuit is running its own simple program\nthat tells the screen what to display based",
+        "start": 117.87,
+        "duration": 3.63
+    },
+    {
+        "text": "on how much time has passed.",
+        "start": 121.5,
+        "duration": 1.0
+    },
+    {
+        "text": "When the second counter reaches 10, for example,\nthe program says to put a “one” and a",
+        "start": 122.5,
+        "duration": 3.8
+    },
+    {
+        "text": "“zero” in these specific spaces.",
+        "start": 126.3,
+        "duration": 1.44
+    },
+    {
+        "text": "And after the counter reaches 59, it cycles\nback to zero.",
+        "start": 127.74,
+        "duration": 2.59
+    },
+    {
+        "text": "And that’s all you need!",
+        "start": 130.33,
+        "duration": 1.0
+    },
+    {
+        "text": "A power source, a heartbeat, a counter that\ncan divide up the heartbeat into longer measurements",
+        "start": 131.33,
+        "duration": 3.5
+    },
+    {
+        "text": "of time, and a display screen, with its own\ncircuit that tells it what to do with the",
+        "start": 134.83,
+        "duration": 3.17
+    },
+    {
+        "text": "numbers generated by the counter.",
+        "start": 138.0,
+        "duration": 1.31
+    },
+    {
+        "text": "In the world of modern technology, surprisingly\nsimple.",
+        "start": 139.31,
+        "duration": 2.67
+    },
+    {
+        "text": "Thanks for taking the time to watch this video,\nand thanks especially to this month’s President",
+        "start": 141.98,
+        "duration": 3.25
+    },
+    {
+        "text": "of Space, S.R.",
+        "start": 145.23,
+        "duration": 1.239
+    },
+    {
+        "text": "Foxley.",
+        "start": 146.469,
+        "duration": 1.0
+    },
+    {
+        "text": "Thank you to all of our patrons on Patreon\nwho make this show possible.",
+        "start": 147.469,
+        "duration": 2.291
+    },
+    {
+        "text": "If you want to help us keep making videos\nlike this, you can go to patreon.com/scishow­.",
+        "start": 149.76,
+        "duration": 3.86
+    },
+    {
+        "text": "And don’t forget to go to youtube.com/scishow\nand subscribe!",
+        "start": 153.62,
+        "duration": 10.899
+    }
+]

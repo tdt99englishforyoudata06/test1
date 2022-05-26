@@ -1,0 +1,412 @@
+[
+    {
+        "text": "These dice are rather unusual. They are marked not like ordinary dice, 1 through 6, but in various peculiar patterns.",
+        "start": 0.04,
+        "duration": 9.66
+    },
+    {
+        "text": "For example, this is three everywhere. Three, three, three, three, three, three.",
+        "start": 9.7,
+        "duration": 4.92
+    },
+    {
+        "text": "This one has four, four, four, four and zero, zero.",
+        "start": 14.62,
+        "duration": 4.4
+    },
+    {
+        "text": "Okay, so four, four, four, four, zero, zero against a three everywhere",
+        "start": 19.02,
+        "duration": 3.14
+    },
+    {
+        "text": "And we play the following game. Two players role them against each other",
+        "start": 22.16,
+        "duration": 3.8
+    },
+    {
+        "text": "and whichever number comes up higher wins.",
+        "start": 25.96,
+        "duration": 2.64
+    },
+    {
+        "text": "In this case, this won, this lost. Had it been like this, this would have lost, this would have won.",
+        "start": 28.6,
+        "duration": 4.6
+    },
+    {
+        "text": "Now, we try to rank the dice. Compare the dice and see, say which is stronger, which is weaker.",
+        "start": 33.2,
+        "duration": 5.8
+    },
+    {
+        "text": "and here is the definition.",
+        "start": 39.0,
+        "duration": 1.56
+    },
+    {
+        "text": "We say that one die is stronger than the other die if that die has a higher probability of winning against the other die",
+        "start": 40.56,
+        "duration": 7.82
+    },
+    {
+        "text": "which means that it wins more frequently against the other die.",
+        "start": 48.38,
+        "duration": 3.42
+    },
+    {
+        "text": "and conversely, one of them is weaker than the other if it looses more often.",
+        "start": 51.84,
+        "duration": 5.04
+    },
+    {
+        "text": "Let's note that we are not comparing the average scores. We are comparing the probabilities",
+        "start": 56.88,
+        "duration": 5.44
+    },
+    {
+        "text": "For example if you had three everywhere and the other die, instead of four, four, four, four, zero, zero",
+        "start": 62.32,
+        "duration": 4.48
+    },
+    {
+        "text": "had, let's say, zero, zero, zero, zero, zero, and 10 gazillion",
+        "start": 66.8,
+        "duration": 3.74
+    },
+    {
+        "text": "of course every three wins more often, but one that has 10 gazillion has a higher average score",
+        "start": 70.54,
+        "duration": 6.04
+    },
+    {
+        "text": "but that's not what we are talking about",
+        "start": 76.58,
+        "duration": 1.42
+    },
+    {
+        "text": "we are comparing probabilities of winning.",
+        "start": 78.0,
+        "duration": 2.42
+    },
+    {
+        "text": "Okay. So which one of these is stronger?",
+        "start": 80.42,
+        "duration": 2.92
+    },
+    {
+        "text": "You can see that this has four, four, four, zero, zero",
+        "start": 83.34,
+        "duration": 2.74
+    },
+    {
+        "text": "and this is three everywhere",
+        "start": 86.08,
+        "duration": 1.38
+    },
+    {
+        "text": "so clearly this wins four out of six times and looses two out of six times",
+        "start": 87.46,
+        "duration": 6.2
+    },
+    {
+        "text": "So this wins more often against this one so this is stronger than that one",
+        "start": 93.66,
+        "duration": 3.82
+    },
+    {
+        "text": "Thus the beginning of the totem pole ranking is like this",
+        "start": 97.48,
+        "duration": 3.64
+    },
+    {
+        "text": "This is stronger than that one",
+        "start": 101.12,
+        "duration": 1.3
+    },
+    {
+        "text": "Lets keep the stronger of the two (winner) and compare it against this newcommer",
+        "start": 102.42,
+        "duration": 4.78
+    },
+    {
+        "text": "This newcomer has five, five, five, and one, one, one",
+        "start": 107.2,
+        "duration": 3.76
+    },
+    {
+        "text": "Okay. Five, five, five, one, one, one against four, four, four, four, zero, zero.",
+        "start": 110.96,
+        "duration": 4.98
+    },
+    {
+        "text": "Which one is stronger?",
+        "start": 116.66,
+        "duration": 1.52
+    },
+    {
+        "text": "Well... It looks like we will have to do arithmetic that would be a bit ugly",
+        "start": 118.18,
+        "duration": 3.6
+    },
+    {
+        "text": "Arithmetic may not be so difficult but we don't want to mess around with calculations",
+        "start": 121.78,
+        "duration": 3.84
+    },
+    {
+        "text": "Fortunately, there is a very nifty way of arguing qualitative and seeing which one is stronger",
+        "start": 125.62,
+        "duration": 5.32
+    },
+    {
+        "text": "We argue as follows:",
+        "start": 130.94,
+        "duration": 1.24
+    },
+    {
+        "text": "You see this one is half of the time it comes up five. So suppose that it comes up five, which happens half of the time.",
+        "start": 132.18,
+        "duration": 8.22
+    },
+    {
+        "text": "Well in that case, whatever the other die does, this has won already",
+        "start": 140.4,
+        "duration": 4.44
+    },
+    {
+        "text": "because the other die has only fours or zeros. So this wins already half of the time.",
+        "start": 144.84,
+        "duration": 5.78
+    },
+    {
+        "text": "But even if it shows up one. Well it still has some non-zero residual positive probability of winning  if the other one were careless enough to show zero",
+        "start": 150.62,
+        "duration": 8.64
+    },
+    {
+        "text": "So it wins fifty percent plus change so this is strictly stronger than that one",
+        "start": 159.72,
+        "duration": 5.2
+    },
+    {
+        "text": "and this is why this one is stronger than the other one",
+        "start": 164.92,
+        "duration": 2.6
+    },
+    {
+        "text": "Well, this is a very nice argument because in the definition, we don't really are by how much you win",
+        "start": 167.52,
+        "duration": 5.32
+    },
+    {
+        "text": "all you have to know is which wins more often",
+        "start": 172.84,
+        "duration": 2.22
+    },
+    {
+        "text": "So we don't have to calculate exact probabilities if you can say whether this wins more often than that",
+        "start": 175.06,
+        "duration": 4.34
+    },
+    {
+        "text": "that's the end of the story",
+        "start": 179.4,
+        "duration": 1.38
+    },
+    {
+        "text": "So the totem pole continues like this. This one beats this one, and this one beats this one",
+        "start": 180.78,
+        "duration": 5.04
+    },
+    {
+        "text": "Okay. Now let's compare this winner with the newcomer.",
+        "start": 185.82,
+        "duration": 4.2
+    },
+    {
+        "text": "The newcomer has six, six, and two, two, two, two.",
+        "start": 190.02,
+        "duration": 5.34
+    },
+    {
+        "text": "Two, two, two, two, and six, six.",
+        "start": 195.36,
+        "duration": 2.68
+    },
+    {
+        "text": "Whereas the previous champion was five, five, five, one, one, one.",
+        "start": 198.04,
+        "duration": 3.8
+    },
+    {
+        "text": "Which wins more often?",
+        "start": 201.84,
+        "duration": 1.38
+    },
+    {
+        "text": "Again, it looks like a matter of arithmetic and we wanted to avoid arithmetic.",
+        "start": 203.22,
+        "duration": 3.7
+    },
+    {
+        "text": "Fortunately, there is a nifty argument which qualitatively decides which one wins more often",
+        "start": 206.92,
+        "duration": 5.38
+    },
+    {
+        "text": "And it's the same argument as before but we apply it to the looser this time",
+        "start": 212.3,
+        "duration": 4.22
+    },
+    {
+        "text": "Let's say that this has shown one, this came up one.",
+        "start": 216.52,
+        "duration": 4.44
+    },
+    {
+        "text": "In which case, it has already lost, whatever the other die does because the other die has only sixes and twos",
+        "start": 220.96,
+        "duration": 5.48
+    },
+    {
+        "text": "Okay, so this one has already lost half of the time, at least half of the time",
+        "start": 226.44,
+        "duration": 4.9
+    },
+    {
+        "text": "But even if it shows up five, it still has a non-zero positive residual probability of loosing against the other one if the other one were careful enough to show a six, instead of two",
+        "start": 231.34,
+        "duration": 10.6
+    },
+    {
+        "text": "So this one looses fifty percent of the time plus change, so it looses more often than the other one",
+        "start": 241.94,
+        "duration": 6.24
+    },
+    {
+        "text": "so this is weaker than the other one. That is why this is weaker, this is stronger so this beats this one.",
+        "start": 248.18,
+        "duration": 6.22
+    },
+    {
+        "text": "So far then, we have seen the following ranking. This beats this, this beats this, this beats this.",
+        "start": 254.4,
+        "duration": 5.28
+    },
+    {
+        "text": "This beats this, this beats this, this beats this.",
+        "start": 260.66,
+        "duration": 2.34
+    },
+    {
+        "text": "But now let's compare the two ends.",
+        "start": 263.04,
+        "duration": 2.32
+    },
+    {
+        "text": "This one has six, six, two, two, two, two.",
+        "start": 265.66,
+        "duration": 2.72
+    },
+    {
+        "text": "This was three everywhere. Which one wins more often?",
+        "start": 268.66,
+        "duration": 3.34
+    },
+    {
+        "text": "Of course this one because this one wins four times out of six when the other one shows up two, and looses only two times when the other one chooses six out of six",
+        "start": 272.06,
+        "duration": 12.56
+    },
+    {
+        "text": "So, the situation is that this beats this, this beats this, this beats this, but this beats this.",
+        "start": 284.62,
+        "duration": 7.9
+    },
+    {
+        "text": "There is a cycle. And we call this a non-transitive cycle in probabilistic comparisons",
+        "start": 292.52,
+        "duration": 4.8
+    },
+    {
+        "text": "I think that this phenomenon, which has been known for quite a long time, but deserves to be known to everyone. Really all citizens!",
+        "start": 297.32,
+        "duration": 8.26
+    },
+    {
+        "text": "What we are saying it that if you are comparing the performance of three drugs of something like that,",
+        "start": 305.58,
+        "duration": 5.7
+    },
+    {
+        "text": "and then you say \"A cures more people than B\" in some statistical sample. And in another statistical sample \"B cures more people than C\"",
+        "start": 311.28,
+        "duration": 8.58
+    },
+    {
+        "text": "You cannot necessarily conclude that A is better than C. You know, A better than B, B better than C",
+        "start": 319.86,
+        "duration": 7.32
+    },
+    {
+        "text": "does not necessarily, when you're doing probabilistic comparisons, [mean] that A is better than C",
+        "start": 327.18,
+        "duration": 4.66
+    },
+    {
+        "text": "It might happen to be true, but we are saying that is not the logical necessity",
+        "start": 331.84,
+        "duration": 3.86
+    },
+    {
+        "text": "and in fact this example shows you cannot conclude that.",
+        "start": 335.7,
+        "duration": 3.26
+    },
+    {
+        "text": "Again, I'd like to emphasize that as long as you're comparing the average scores, this kind of phenomenon will never occur",
+        "start": 338.96,
+        "duration": 5.34
+    },
+    {
+        "text": "of course because all the average scores can be ranked in a linear fashion",
+        "start": 344.3,
+        "duration": 3.32
+    },
+    {
+        "text": "But if you are comparing which one is more often, there is a lot of conditioning going on",
+        "start": 347.62,
+        "duration": 4.72
+    },
+    {
+        "text": "and that is why you cannot so carelessly conclude that A better than B, B better than C, means that A is better than C",
+        "start": 352.34,
+        "duration": 8.54
+    },
+    {
+        "text": "That's not necessarily true.",
+        "start": 360.88,
+        "duration": 0.94
+    },
+    {
+        "text": "This is called a non-transitive dice. This kind of situation is called non-transitive probabalistic comparision",
+        "start": 361.82,
+        "duration": 6.14
+    },
+    {
+        "text": "When you compare probabilities, you have to be quite careful and it occurs in all sorts of serious and interesting situations",
+        "start": 367.96,
+        "duration": 6.8
+    },
+    {
+        "text": "...have to be fair. Whereas your ordinary cube has excessive amounts of symmetry, you could say.",
+        "start": 377.56,
+        "duration": 7.58
+    },
+    {
+        "text": "I mean there's extra symmetries like; this think is the same shape but it's still face two...",
+        "start": 385.14,
+        "duration": 7.82
+    }
+]

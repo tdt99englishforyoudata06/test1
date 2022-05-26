@@ -1,0 +1,822 @@
+[
+    {
+        "text": "JAMES GRIME: So I've got\nanother prime number",
+        "start": 0.42,
+        "duration": 1.77
+    },
+    {
+        "text": "generating formula for you.",
+        "start": 2.19,
+        "duration": 2.64
+    },
+    {
+        "text": "So this one is more modern.",
+        "start": 4.83,
+        "duration": 2.44
+    },
+    {
+        "text": "It was 1947, a mathematician\ncalled Mills, and he found",
+        "start": 7.27,
+        "duration": 5.32
+    },
+    {
+        "text": "this formula.",
+        "start": 12.59,
+        "duration": 1.08
+    },
+    {
+        "text": "He said there exist numbers--\nwhich we're going to call",
+        "start": 13.67,
+        "duration": 2.08
+    },
+    {
+        "text": "theta, the Greek\nletter theta--",
+        "start": 15.75,
+        "duration": 2.05
+    },
+    {
+        "text": "where you raise it to the\npower 3 to the power n.",
+        "start": 17.8,
+        "duration": 3.9
+    },
+    {
+        "text": "And you actually then have\nto round it down.",
+        "start": 21.7,
+        "duration": 2.87
+    },
+    {
+        "text": "That gives you fractions, so you\nactually round it down to",
+        "start": 24.57,
+        "duration": 4.17
+    },
+    {
+        "text": "the nearest whole number, which\nyou write like this.",
+        "start": 28.74,
+        "duration": 4.09
+    },
+    {
+        "text": "That's the symbol for\nrounding it down.",
+        "start": 32.83,
+        "duration": 2.72
+    },
+    {
+        "text": "There exists a number like this\nthat will always give you",
+        "start": 35.55,
+        "duration": 3.56
+    },
+    {
+        "text": "primes for every value of n.",
+        "start": 39.11,
+        "duration": 4.21
+    },
+    {
+        "text": "So you might have n equals 1,\nn equals 2, n equals 3, and",
+        "start": 43.32,
+        "duration": 3.28
+    },
+    {
+        "text": "every value is a prime.",
+        "start": 46.6,
+        "duration": 2.41
+    },
+    {
+        "text": "The smallest value for theta\nwhere this will work is called",
+        "start": 49.01,
+        "duration": 4.19
+    },
+    {
+        "text": "Mills' Constant.",
+        "start": 53.2,
+        "duration": 1.05
+    },
+    {
+        "text": "I'll write it out for you.",
+        "start": 54.25,
+        "duration": 1.96
+    },
+    {
+        "text": "It's called theta, and\nMills' Constant is",
+        "start": 56.21,
+        "duration": 3.63
+    },
+    {
+        "text": "1.306377883863080690, something,\nsomething,",
+        "start": 59.84,
+        "duration": 14.92
+    },
+    {
+        "text": "something, something.",
+        "start": 74.76,
+        "duration": 1.27
+    },
+    {
+        "text": "So you can see it's not\na whole number.",
+        "start": 76.03,
+        "duration": 3.47
+    },
+    {
+        "text": "So the value you get when you\nraise it, it's not going to be",
+        "start": 79.5,
+        "duration": 4.46
+    },
+    {
+        "text": "a whole number, and you\nhave to round it down.",
+        "start": 83.96,
+        "duration": 2.3
+    },
+    {
+        "text": "Let me just try the first few\nto show you what I mean.",
+        "start": 86.26,
+        "duration": 2.71
+    },
+    {
+        "text": "Let's do n equals 1.",
+        "start": 88.97,
+        "duration": 1.25
+    },
+    {
+        "text": "Let's use my constant.",
+        "start": 90.22,
+        "duration": 1.67
+    },
+    {
+        "text": "You put it in.",
+        "start": 91.89,
+        "duration": 0.95
+    },
+    {
+        "text": "So then it's 3 to the power\n1, so it's just cubed.",
+        "start": 92.84,
+        "duration": 3.88
+    },
+    {
+        "text": "So what I'm going to do is, for\neach time, I'm going to",
+        "start": 96.72,
+        "duration": 2.35
+    },
+    {
+        "text": "take this constant and then\nraise it to the power 3",
+        "start": 99.07,
+        "duration": 3.71
+    },
+    {
+        "text": "to the power n.",
+        "start": 102.78,
+        "duration": 0.715
+    },
+    {
+        "text": "And I'll do that n equals 1,\nn equals 2, and so on.",
+        "start": 103.495,
+        "duration": 3.935
+    },
+    {
+        "text": "So, n equals 1.",
+        "start": 107.43,
+        "duration": 1.87
+    },
+    {
+        "text": "3 to the power n is just 3.",
+        "start": 109.3,
+        "duration": 2.31
+    },
+    {
+        "text": "So that's going to\nbe theta cubed.",
+        "start": 111.61,
+        "duration": 2.43
+    },
+    {
+        "text": "That's the first prime.",
+        "start": 114.04,
+        "duration": 0.88
+    },
+    {
+        "text": "And what is the answer?",
+        "start": 114.92,
+        "duration": 0.94
+    },
+    {
+        "text": "What is theta cubed?",
+        "start": 115.86,
+        "duration": 1.63
+    },
+    {
+        "text": "Theta cubed is 2.229,",
+        "start": 117.49,
+        "duration": 3.67
+    },
+    {
+        "text": "something, something, something.",
+        "start": 121.16,
+        "duration": 1.72
+    },
+    {
+        "text": "You round it down, so\nthe prime is 2.",
+        "start": 122.88,
+        "duration": 3.42
+    },
+    {
+        "text": "Hey!",
+        "start": 126.3,
+        "duration": 0.43
+    },
+    {
+        "text": "We've got that is prime.",
+        "start": 126.73,
+        "duration": 2.159
+    },
+    {
+        "text": "In fact, every number\nshould be prime.",
+        "start": 128.889,
+        "duration": 1.511
+    },
+    {
+        "text": "Let's try the next one.",
+        "start": 130.4,
+        "duration": 1.56
+    },
+    {
+        "text": "Let's do n equals 2.",
+        "start": 131.96,
+        "duration": 2.32
+    },
+    {
+        "text": "So this is going to\nbe 3 squared.",
+        "start": 134.28,
+        "duration": 2.01
+    },
+    {
+        "text": "That's theta to the power 9.",
+        "start": 136.29,
+        "duration": 3.0
+    },
+    {
+        "text": "So take the constant to the\npower 9, and that is going to",
+        "start": 139.29,
+        "duration": 3.79
+    },
+    {
+        "text": "be 11.082, something,\nsomething.",
+        "start": 143.08,
+        "duration": 4.71
+    },
+    {
+        "text": "Round it down, you get 11.",
+        "start": 147.79,
+        "duration": 2.68
+    },
+    {
+        "text": "So you get gaps.",
+        "start": 150.47,
+        "duration": 0.82
+    },
+    {
+        "text": "It's not consecutive primes,\nbut every one is a prime.",
+        "start": 151.29,
+        "duration": 3.2
+    },
+    {
+        "text": "You get 11, that's\nthe next one.",
+        "start": 154.49,
+        "duration": 1.5
+    },
+    {
+        "text": "Let's do n equals 3.",
+        "start": 155.99,
+        "duration": 1.07
+    },
+    {
+        "text": "So I now need theta 3\nto the power 3, 27.",
+        "start": 157.06,
+        "duration": 4.8
+    },
+    {
+        "text": "Theta to the power 27 is\n1,361.000, something,",
+        "start": 161.86,
+        "duration": 8.32
+    },
+    {
+        "text": "something, something.",
+        "start": 170.18,
+        "duration": 1.75
+    },
+    {
+        "text": "1,361 is a prime as well.",
+        "start": 171.93,
+        "duration": 3.8
+    },
+    {
+        "text": "Let's do n equals 4.",
+        "start": 175.73,
+        "duration": 2.09
+    },
+    {
+        "text": "Theta to the power 81.",
+        "start": 177.82,
+        "duration": 3.145
+    },
+    {
+        "text": "You get 252,100,887--",
+        "start": 180.965,
+        "duration": 1.25
+    },
+    {
+        "text": "BRADY HARAN: Oh, yeah.",
+        "start": 185.973,
+        "duration": 0.368
+    },
+    {
+        "text": "That's clearly a prime.",
+        "start": 186.341,
+        "duration": 1.109
+    },
+    {
+        "text": "JAMES GRIME: Which is clearly a\nprime, which is a a prime--",
+        "start": 187.45,
+        "duration": 1.72
+    },
+    {
+        "text": "Point something, something,\nsomething, but",
+        "start": 189.17,
+        "duration": 1.76
+    },
+    {
+        "text": "you round it down.",
+        "start": 190.93,
+        "duration": 1.05
+    },
+    {
+        "text": "But you're actually guaranteed\nto get a prime every time.",
+        "start": 191.98,
+        "duration": 3.37
+    },
+    {
+        "text": "BRADY HARAN: Do you know\nwhat my conclusion is?",
+        "start": 195.35,
+        "duration": 2.37
+    },
+    {
+        "text": "That number's awesome!",
+        "start": 197.72,
+        "duration": 1.02
+    },
+    {
+        "text": "JAMES GRIME: I know.",
+        "start": 198.74,
+        "duration": 1.36
+    },
+    {
+        "text": "I completely agree.",
+        "start": 200.1,
+        "duration": 1.1
+    },
+    {
+        "text": "That number is completely\nawesome.",
+        "start": 201.2,
+        "duration": 2.51
+    },
+    {
+        "text": "So the rock stars of math, so\nI have pi, and e, and these",
+        "start": 203.71,
+        "duration": 6.7
+    },
+    {
+        "text": "golden ratios, and\nthings like that.",
+        "start": 210.41,
+        "duration": 1.67
+    },
+    {
+        "text": "It's not nearly as famous.",
+        "start": 212.08,
+        "duration": 2.6
+    },
+    {
+        "text": "It's a constant that\ngives you primes.",
+        "start": 214.68,
+        "duration": 2.81
+    },
+    {
+        "text": "Brilliant!",
+        "start": 217.49,
+        "duration": 1.0
+    },
+    {
+        "text": "I love it.",
+        "start": 218.49,
+        "duration": 0.71
+    },
+    {
+        "text": "BRADY HARAN: Is it proven?",
+        "start": 219.2,
+        "duration": 1.59
+    },
+    {
+        "text": "I mean, there's a lot\nof n's you could",
+        "start": 220.79,
+        "duration": 2.03
+    },
+    {
+        "text": "put into that equation.",
+        "start": 222.82,
+        "duration": 0.97
+    },
+    {
+        "text": "Is this a proven thing?",
+        "start": 223.79,
+        "duration": 1.27
+    },
+    {
+        "text": "JAMES GRIME: Yep.",
+        "start": 225.06,
+        "duration": 0.29
+    },
+    {
+        "text": "This is proven.",
+        "start": 225.35,
+        "duration": 0.7
+    },
+    {
+        "text": "This is proven.",
+        "start": 226.05,
+        "duration": 2.47
+    },
+    {
+        "text": "So you might think then,\nwhat's the big deal?",
+        "start": 228.52,
+        "duration": 2.73
+    },
+    {
+        "text": "We've got a formula to find\nguaranteed primes.",
+        "start": 231.25,
+        "duration": 5.51
+    },
+    {
+        "text": "How amazing is that?",
+        "start": 236.76,
+        "duration": 1.37
+    },
+    {
+        "text": "And the problem is, did\nyou notice how big",
+        "start": 238.13,
+        "duration": 2.95
+    },
+    {
+        "text": "the powers were getting?",
+        "start": 241.08,
+        "duration": 1.77
+    },
+    {
+        "text": "The powers very quickly become\nso huge that even computers",
+        "start": 242.85,
+        "duration": 4.94
+    },
+    {
+        "text": "can't deal with the problem.",
+        "start": 247.79,
+        "duration": 2.16
+    },
+    {
+        "text": "So the next one, n equals 5,\nis theta to the power 243.",
+        "start": 249.95,
+        "duration": 9.079
+    },
+    {
+        "text": "And this is about 1.602\ntimes 10 to the 28.",
+        "start": 259.029,
+        "duration": 5.951
+    },
+    {
+        "text": "Once you start getting bigger\nthan that, you can't do it.",
+        "start": 264.98,
+        "duration": 4.11
+    },
+    {
+        "text": "The computers can't\ncope with that.",
+        "start": 269.09,
+        "duration": 2.12
+    },
+    {
+        "text": "The other problem is you need\nto know this constant to a",
+        "start": 271.21,
+        "duration": 4.78
+    },
+    {
+        "text": "great accuracy.",
+        "start": 275.99,
+        "duration": 2.24
+    },
+    {
+        "text": "Because, what I've written\nout for you--",
+        "start": 278.23,
+        "duration": 3.81
+    },
+    {
+        "text": "let's say if I terminated\nit there--",
+        "start": 282.04,
+        "duration": 2.35
+    },
+    {
+        "text": "isn't accurate enough to tell\nme what the next prime is.",
+        "start": 284.39,
+        "duration": 4.25
+    },
+    {
+        "text": "The next prime actually\nis something huge.",
+        "start": 288.64,
+        "duration": 3.29
+    },
+    {
+        "text": "We'll put it on the screen,\nI think, instead",
+        "start": 291.93,
+        "duration": 1.52
+    },
+    {
+        "text": "of writing it out.",
+        "start": 293.45,
+        "duration": 1.34
+    },
+    {
+        "text": "But this was not accurate\nenough to work it out.",
+        "start": 294.79,
+        "duration": 7.44
+    },
+    {
+        "text": "That's a bit of a problem.",
+        "start": 302.23,
+        "duration": 0.59
+    },
+    {
+        "text": "You need to know theta very,\nvery accurately.",
+        "start": 302.82,
+        "duration": 2.76
+    },
+    {
+        "text": "BRADY HARAN: Is theta\nrational?",
+        "start": 305.58,
+        "duration": 1.12
+    },
+    {
+        "text": "Does theta have an end?",
+        "start": 306.7,
+        "duration": 0.73
+    },
+    {
+        "text": "JAMES GRIME: We don't know.",
+        "start": 307.43,
+        "duration": 1.22
+    },
+    {
+        "text": "We don't know.",
+        "start": 308.65,
+        "duration": 1.27
+    },
+    {
+        "text": "How amazing is that?",
+        "start": 309.92,
+        "duration": 1.78
+    },
+    {
+        "text": "We don't know if theta\nis irrational or not.",
+        "start": 311.7,
+        "duration": 4.48
+    },
+    {
+        "text": "That's a cool question\nas well.",
+        "start": 316.18,
+        "duration": 1.9
+    },
+    {
+        "text": "We don't know.",
+        "start": 318.08,
+        "duration": 2.2
+    },
+    {
+        "text": "One of the other problems with\ntheta is, at the moment, we",
+        "start": 320.28,
+        "duration": 4.57
+    },
+    {
+        "text": "don't know any way to really\nwork it out, apart from taking",
+        "start": 324.85,
+        "duration": 5.43
+    },
+    {
+        "text": "one of the Mill primes--",
+        "start": 330.28,
+        "duration": 2.18
+    },
+    {
+        "text": "You take one of the Mill primes,\ncube root it, and",
+        "start": 332.46,
+        "duration": 3.8
+    },
+    {
+        "text": "theta is approximately that.",
+        "start": 336.26,
+        "duration": 1.8
+    },
+    {
+        "text": "So I'm afraid it's a bit\nof a circular argument.",
+        "start": 338.06,
+        "duration": 4.34
+    },
+    {
+        "text": "We haven't got a good way\nof working out theta.",
+        "start": 342.4,
+        "duration": 3.65
+    },
+    {
+        "text": "You have to know the\nprimes in the first",
+        "start": 346.05,
+        "duration": 1.48
+    },
+    {
+        "text": "place to work out theta.",
+        "start": 347.53,
+        "duration": 1.11
+    },
+    {
+        "text": "BRADY HARAN: Oh, well I'm not\nso impressed by it anymore.",
+        "start": 348.64,
+        "duration": 1.9
+    },
+    {
+        "text": "JAMES GRIME: I know.",
+        "start": 350.54,
+        "duration": 0.7
+    },
+    {
+        "text": "So you can see why it's\nnot so practical.",
+        "start": 351.24,
+        "duration": 2.61
+    },
+    {
+        "text": "One of the things that we might\nbe able to do is, if",
+        "start": 353.85,
+        "duration": 4.36
+    },
+    {
+        "text": "Riemann's hypothesis is true--",
+        "start": 358.21,
+        "duration": 2.33
+    },
+    {
+        "text": "Riemann's hypothesis is a very\nimportant hypothesis in",
+        "start": 360.54,
+        "duration": 3.09
+    },
+    {
+        "text": "mathematics that hasn't been\nproven yet, that is a",
+        "start": 363.63,
+        "duration": 3.28
+    },
+    {
+        "text": "Millennium prize, and it's\nrelated to crimes and how",
+        "start": 366.91,
+        "duration": 3.69
+    },
+    {
+        "text": "they're distributed.",
+        "start": 370.6,
+        "duration": 1.65
+    },
+    {
+        "text": "If that is true-- (WHISPERING)\nit probably is true--",
+        "start": 372.25,
+        "duration": 3.04
+    },
+    {
+        "text": "If it's true, then we\nhave another way",
+        "start": 375.29,
+        "duration": 1.61
+    },
+    {
+        "text": "to find Mill primes.",
+        "start": 376.9,
+        "duration": 2.64
+    },
+    {
+        "text": "Using that method, we can now\ncalculate what theta is",
+        "start": 379.54,
+        "duration": 5.62
+    },
+    {
+        "text": "probably going to be.",
+        "start": 385.16,
+        "duration": 1.73
+    },
+    {
+        "text": "It's been calculated up to about\n7,000 digits, but it is",
+        "start": 386.89,
+        "duration": 4.98
+    },
+    {
+        "text": "relying on if the Riemann\nhypothesis is true, which",
+        "start": 391.87,
+        "duration": 3.42
+    },
+    {
+        "text": "hasn't been proven.\n(WHISPERING)",
+        "start": 395.29,
+        "duration": 1.12
+    },
+    {
+        "text": "It's probably true.",
+        "start": 396.41,
+        "duration": 2.45
+    },
+    {
+        "text": "We have worked out larger Mill\nprimes, and we have worked out",
+        "start": 398.86,
+        "duration": 6.35
+    },
+    {
+        "text": "theta to a large number\nof places.",
+        "start": 405.21,
+        "duration": 3.862
+    },
+    {
+        "text": "BRADY HARAN: Our thanks to\naudible.com for supporting",
+        "start": 409.072,
+        "duration": 2.078
+    },
+    {
+        "text": "this video.",
+        "start": 411.15,
+        "duration": 1.22
+    },
+    {
+        "text": "They have a huge range of audio\nbooks you can listen to.",
+        "start": 412.37,
+        "duration": 2.23
+    },
+    {
+        "text": "Great for putting on your\nhandheld device or listening",
+        "start": 414.6,
+        "duration": 2.6
+    },
+    {
+        "text": "to in the car.",
+        "start": 417.2,
+        "duration": 1.03
+    },
+    {
+        "text": "And you can download\na free book at",
+        "start": 418.23,
+        "duration": 1.9
+    },
+    {
+        "text": "audible.com/numberphile.",
+        "start": 420.13,
+        "duration": 2.99
+    },
+    {
+        "text": "This is the part where we get\nto recommend a book, which I",
+        "start": 423.12,
+        "duration": 2.14
+    },
+    {
+        "text": "always enjoy.",
+        "start": 425.26,
+        "duration": 0.64
+    },
+    {
+        "text": "And today I'd like to recommend\n\"Foundation\" by",
+        "start": 425.9,
+        "duration": 3.11
+    },
+    {
+        "text": "Isaac Asimov.",
+        "start": 429.01,
+        "duration": 1.06
+    },
+    {
+        "text": "The first in a brilliant series\nof books, probably my",
+        "start": 430.07,
+        "duration": 3.14
+    },
+    {
+        "text": "favorite series of books ever.",
+        "start": 433.21,
+        "duration": 1.3
+    },
+    {
+        "text": "So go to\naudible.com/numberphile, get a",
+        "start": 434.51,
+        "duration": 2.91
+    },
+    {
+        "text": "free book, and why not check out\nanything by Isaac Asimov,",
+        "start": 437.42,
+        "duration": 4.08
+    },
+    {
+        "text": "but especially \"Foundation,\"\nor any of",
+        "start": 441.5,
+        "duration": 2.13
+    },
+    {
+        "text": "its sequels and prequels.",
+        "start": 443.63,
+        "duration": 1.57
+    }
+]

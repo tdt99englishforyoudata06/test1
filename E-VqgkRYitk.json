@@ -1,0 +1,817 @@
+[
+    {
+        "text": "{♫Intro♫}",
+        "start": 1.0,
+        "duration": 9.849
+    },
+    {
+        "text": "When you think about algorithms, you probably\nthink of Google searches or YouTube recommendations,",
+        "start": 10.849,
+        "duration": 4.681
+    },
+    {
+        "text": "or predictive text—situations where powerful\ncomputers are coming up with information you’re",
+        "start": 15.53,
+        "duration": 5.26
+    },
+    {
+        "text": "looking for.",
+        "start": 20.79,
+        "duration": 1.0
+    },
+    {
+        "text": "An algorithm, though, is basically any recipe\nof calculations that a computer can follow",
+        "start": 21.79,
+        "duration": 4.31
+    },
+    {
+        "text": "to produce a specific kind of information.",
+        "start": 26.1,
+        "duration": 3.12
+    },
+    {
+        "text": "And algorithms aren’t just for computers.",
+        "start": 29.22,
+        "duration": 3.03
+    },
+    {
+        "text": "They show up all over nature, too, in places\nlike your immune system and in schools of",
+        "start": 32.25,
+        "duration": 5.67
+    },
+    {
+        "text": "fish.",
+        "start": 37.92,
+        "duration": 1.0
+    },
+    {
+        "text": "And just as engineers borrow ideas from nature’s\nphysical designs, some computer scientists",
+        "start": 38.92,
+        "duration": 5.22
+    },
+    {
+        "text": "look for inspiration in nature’s algorithms.",
+        "start": 44.14,
+        "duration": 2.98
+    },
+    {
+        "text": "Here are four ways our technology has improved\nthanks to algorithms we swiped from nature.",
+        "start": 47.12,
+        "duration": 5.95
+    },
+    {
+        "text": "Say you’re looking for the perfect fuzzy\nanimal photo to send as a virtual hug to your",
+        "start": 55.07,
+        "duration": 2.52
+    },
+    {
+        "text": "friend.",
+        "start": 57.59,
+        "duration": 1.0
+    },
+    {
+        "text": "An image search pulls up some cuddling kittens\nthat are almost right, if only you could find",
+        "start": 58.59,
+        "duration": 4.789
+    },
+    {
+        "text": "a slightly more zoomed-out version…",
+        "start": 63.379,
+        "duration": 2.121
+    },
+    {
+        "text": "What you want in this situation is something\ncalled nearest-neighbors search—an algorithm",
+        "start": 65.5,
+        "duration": 4.67
+    },
+    {
+        "text": "that can quickly search a big database to\nfind the items most similar to one you specify.",
+        "start": 70.17,
+        "duration": 5.51
+    },
+    {
+        "text": "That gets harder as the database gets bigger;\nand on the internet, there are way too many",
+        "start": 75.68,
+        "duration": 5.07
+    },
+    {
+        "text": "images for the search engine to compare your\nphoto with every single one.",
+        "start": 80.75,
+        "duration": 4.45
+    },
+    {
+        "text": "So how do search engines pull off that feature\nthat gives you “visually similar images”?",
+        "start": 85.2,
+        "duration": 4.63
+    },
+    {
+        "text": "One technique is called locality-sensitive\nhashing.",
+        "start": 89.83,
+        "duration": 1.82
+    },
+    {
+        "text": "This is a type of algorithm that digests each\nimage into a short digital fingerprint called",
+        "start": 91.65,
+        "duration": 6.63
+    },
+    {
+        "text": "a hash, with similar hashes for similar inputs.",
+        "start": 98.28,
+        "duration": 3.09
+    },
+    {
+        "text": "For example, if your inputs were essays, a\ndecent hash might be the first letters of",
+        "start": 101.37,
+        "duration": 5.13
+    },
+    {
+        "text": "the first twenty sentences.",
+        "start": 106.5,
+        "duration": 1.81
+    },
+    {
+        "text": "So if one essay was copied from another, their\nhashes would likely be very close.",
+        "start": 108.31,
+        "duration": 4.37
+    },
+    {
+        "text": "This method makes it easy to find similar\ninputs.",
+        "start": 112.68,
+        "duration": 2.82
+    },
+    {
+        "text": "Instead of comparing your kittens to every\nother image on the internet, Google can organize",
+        "start": 115.5,
+        "duration": 4.17
+    },
+    {
+        "text": "images by their hashes and just pull out the\nsimilar ones.",
+        "start": 119.67,
+        "duration": 3.629
+    },
+    {
+        "text": "The catch is that locality-sensitive hashing\ncan still be kind of slow, and sometimes inaccurate.",
+        "start": 123.299,
+        "duration": 5.311
+    },
+    {
+        "text": "That is where fly brains come to the rescue.",
+        "start": 128.61,
+        "duration": 2.78
+    },
+    {
+        "text": "See, a fly can smell, but it doesn’t differentiate\nevery subtle variation of odor; it groups",
+        "start": 131.39,
+        "duration": 6.01
+    },
+    {
+        "text": "odors into categories so it can learn that,\nfor instance, cheese smells often lead to",
+        "start": 137.4,
+        "duration": 5.07
+    },
+    {
+        "text": "fruit, but book smells don’t.",
+        "start": 142.47,
+        "duration": 2.04
+    },
+    {
+        "text": "In 2017, a team of computer scientists and\nbiologists realized that fly brains group",
+        "start": 144.51,
+        "duration": 5.5
+    },
+    {
+        "text": "odors using a form of locality-sensitive hashing.",
+        "start": 150.01,
+        "duration": 3.589
+    },
+    {
+        "text": "Except in the flies’ version, the brain\nboils a smell down to a few numbers by first",
+        "start": 153.599,
+        "duration": 5.511
+    },
+    {
+        "text": "expanding the smell data into a much larger\ncollection of numbers.",
+        "start": 159.11,
+        "duration": 4.659
+    },
+    {
+        "text": "Only then does it select a few of those numbers\nas the hash.",
+        "start": 163.769,
+        "duration": 3.991
+    },
+    {
+        "text": "It’s sort of like expanding an essay by\nreplacing each character with a random 10-character",
+        "start": 167.76,
+        "duration": 4.8
+    },
+    {
+        "text": "code, producing a string of gibberish ten\ntimes as long.",
+        "start": 172.56,
+        "duration": 4.21
+    },
+    {
+        "text": "Then you could find the hundred gibberish\nwords that appear most frequently, take the",
+        "start": 176.77,
+        "duration": 3.86
+    },
+    {
+        "text": "first letter, and use that as the essay’s\nhash.",
+        "start": 180.63,
+        "duration": 3.16
+    },
+    {
+        "text": "As strange as that strategy sounds, it turns\nout to work really well.",
+        "start": 183.79,
+        "duration": 4.85
+    },
+    {
+        "text": "All the extra gobbledegook gives the algorithm\nmore opportunities to find patterns that jump",
+        "start": 188.64,
+        "duration": 4.42
+    },
+    {
+        "text": "out strongly for one cluster of inputs but\nare conspicuously absent for others.",
+        "start": 193.06,
+        "duration": 5.34
+    },
+    {
+        "text": "When the computer scientists built their own\nfly-based hashing algorithm, it was up to",
+        "start": 198.4,
+        "duration": 4.57
+    },
+    {
+        "text": "twice as accurate as traditional methods—and\nalso twenty times faster!",
+        "start": 202.97,
+        "duration": 4.849
+    },
+    {
+        "text": "Computer vision is everywhere.",
+        "start": 209.819,
+        "duration": 1.0
+    },
+    {
+        "text": "Self-driving cars, MRI technology, facial\nrecognition; they all use it.",
+        "start": 210.819,
+        "duration": 4.03
+    },
+    {
+        "text": "Most of these systems need to do some form\nof object recognition—meaning they need",
+        "start": 214.849,
+        "duration": 3.832
+    },
+    {
+        "text": "to identify the contents of an image.",
+        "start": 218.681,
+        "duration": 2.368
+    },
+    {
+        "text": "For decades, computer scientists used handcrafted\nalgorithms to extract image features like",
+        "start": 221.049,
+        "duration": 5.901
+    },
+    {
+        "text": "edges and contiguous shapes.",
+        "start": 226.95,
+        "duration": 1.789
+    },
+    {
+        "text": "Then, they could then build other algorithms\nthat used those features to guess what was",
+        "start": 228.739,
+        "duration": 4.58
+    },
+    {
+        "text": "in each part of an image.",
+        "start": 233.319,
+        "duration": 1.45
+    },
+    {
+        "text": "But all these hand-tuned algorithms tend to\nbe fragile.",
+        "start": 234.769,
+        "duration": 3.161
+    },
+    {
+        "text": "It’s up to the cleverness of engineers to\ndesign the right kinds of analysis and tweak",
+        "start": 237.93,
+        "duration": 4.4
+    },
+    {
+        "text": "the parameters just so.",
+        "start": 242.33,
+        "duration": 1.75
+    },
+    {
+        "text": "Now, engineers are pretty clever, but there’s\nonly so much subtlety and detail they can",
+        "start": 244.08,
+        "duration": 4.45
+    },
+    {
+        "text": "code up.",
+        "start": 248.53,
+        "duration": 1.0
+    },
+    {
+        "text": "In the background, though, a different approach\nwas taking shape: convolutional neural networks,",
+        "start": 249.53,
+        "duration": 5.39
+    },
+    {
+        "text": "or CNNs.",
+        "start": 254.92,
+        "duration": 1.0
+    },
+    {
+        "text": "In artificial intelligence, most kinds of\nneural networks are based on nature only in",
+        "start": 255.92,
+        "duration": 4.24
+    },
+    {
+        "text": "a crude way.",
+        "start": 260.16,
+        "duration": 1.02
+    },
+    {
+        "text": "Like, they’re called neural networks because\nthey kind of work like neurons.",
+        "start": 261.18,
+        "duration": 3.39
+    },
+    {
+        "text": "But convolutional neural networks are based\non Nobel Prize-winning research on cat brains.",
+        "start": 264.57,
+        "duration": 5.53
+    },
+    {
+        "text": "Back in the 1950s, a pair of neuroscientists\ndiscovered that some neurons in a cat’s",
+        "start": 270.1,
+        "duration": 4.71
+    },
+    {
+        "text": "visual cortex, called simple cells, would\nrespond only to simple visual elements—like",
+        "start": 274.81,
+        "duration": 5.76
+    },
+    {
+        "text": "a line in a specific place at a specific orientation.",
+        "start": 280.57,
+        "duration": 3.18
+    },
+    {
+        "text": "Those simple cells pass information to so-called\ncomplex cells, which aggregate the information",
+        "start": 283.75,
+        "duration": 6.05
+    },
+    {
+        "text": "across a wider area.",
+        "start": 289.8,
+        "duration": 1.76
+    },
+    {
+        "text": "In other words, these researchers discovered\na hierarchy in the brain’s visual processing:",
+        "start": 291.56,
+        "duration": 5.03
+    },
+    {
+        "text": "Earlier layers detect basic features at different\nlocations, then later layers add all that",
+        "start": 296.59,
+        "duration": 5.12
+    },
+    {
+        "text": "together to detect more complex patterns.",
+        "start": 301.71,
+        "duration": 2.76
+    },
+    {
+        "text": "That structure directly inspired the first\nconvolutional neural networks.",
+        "start": 304.47,
+        "duration": 4.31
+    },
+    {
+        "text": "In the first layer of a CNN, each simulated\nneuron looks only at one small patch of the",
+        "start": 308.78,
+        "duration": 5.77
+    },
+    {
+        "text": "image and checks how well that matches a simple\ntemplate, like a spot of blue or an edge between",
+        "start": 314.55,
+        "duration": 5.11
+    },
+    {
+        "text": "light and dark.",
+        "start": 319.66,
+        "duration": 1.0
+    },
+    {
+        "text": "The neuron gives the patch a score depending\non how well that patch matches the neuron’s",
+        "start": 320.66,
+        "duration": 4.849
+    },
+    {
+        "text": "template.",
+        "start": 325.509,
+        "duration": 1.0
+    },
+    {
+        "text": "Then, the next level looks at all the scores\nfor edges and spots in a slightly bigger patch",
+        "start": 326.509,
+        "duration": 5.13
+    },
+    {
+        "text": "and matches them against a more complex template,\nand so on up the hierarchy until you’re",
+        "start": 331.639,
+        "duration": 5.37
+    },
+    {
+        "text": "looking for cat paws and bicycle wheels.",
+        "start": 337.009,
+        "duration": 2.271
+    },
+    {
+        "text": "A CNN learns these templates automatically\nfrom data, saving engineers from manually",
+        "start": 339.28,
+        "duration": 5.55
+    },
+    {
+        "text": "specifying what to look for.",
+        "start": 344.83,
+        "duration": 2.16
+    },
+    {
+        "text": "Today, CNNs totally dominate computer vision.",
+        "start": 346.99,
+        "duration": 3.47
+    },
+    {
+        "text": "And although they now have bells and whistles\nthat have nothing to do with the brain, the",
+        "start": 350.46,
+        "duration": 4.49
+    },
+    {
+        "text": "visual hierarchy is still baked in.",
+        "start": 354.95,
+        "duration": 2.65
+    },
+    {
+        "text": "Next, companies really hate getting hacked.",
+        "start": 359.6,
+        "duration": 1.0
+    },
+    {
+        "text": "There are lawsuits and bad press, and it’s\npretty inconvenient for them and the people",
+        "start": 360.6,
+        "duration": 3.8
+    },
+    {
+        "text": "who rely on them.",
+        "start": 364.4,
+        "duration": 1.1
+    },
+    {
+        "text": "So if a company’s network starts getting\nhammered with unusual traffic, it might be",
+        "start": 365.5,
+        "duration": 4.139
+    },
+    {
+        "text": "a good idea to lock things down.",
+        "start": 369.639,
+        "duration": 2.351
+    },
+    {
+        "text": "But detecting what counts as unusual traffic\nisn’t always easy.",
+        "start": 371.99,
+        "duration": 3.44
+    },
+    {
+        "text": "It’s an example of what’s called anomaly\ndetection, or scanning for atypical data,",
+        "start": 375.43,
+        "duration": 4.859
+    },
+    {
+        "text": "which can be tricky.",
+        "start": 380.289,
+        "duration": 1.071
+    },
+    {
+        "text": "See, you can’t just lay out rules for what\nnormal traffic looks like.",
+        "start": 381.36,
+        "duration": 3.49
+    },
+    {
+        "text": "For one thing, what is normal is always changing.",
+        "start": 384.85,
+        "duration": 2.59
+    },
+    {
+        "text": "And anyway, hard rules would be too rigid:\nYou wouldn’t want a red alert before every",
+        "start": 387.44,
+        "duration": 4.33
+    },
+    {
+        "text": "holiday just because a bunch of employees\ntraveled early and logged in from home.",
+        "start": 391.77,
+        "duration": 3.81
+    },
+    {
+        "text": "It might be tempting to try supervised machine\nlearning, where you show an algorithm lots",
+        "start": 395.58,
+        "duration": 4.65
+    },
+    {
+        "text": "of good and bad examples, and it figures out\nhow to tell them apart.",
+        "start": 400.23,
+        "duration": 3.51
+    },
+    {
+        "text": "But with anomaly detection, you often don’t\nhave many examples of the bad stuff you’re",
+        "start": 403.74,
+        "duration": 5.14
+    },
+    {
+        "text": "trying to catch!",
+        "start": 408.88,
+        "duration": 1.0
+    },
+    {
+        "text": "Most of what a company has, of course, is\nlogs of normal network traffic.",
+        "start": 409.88,
+        "duration": 3.99
+    },
+    {
+        "text": "So how can it learn what abnormal traffic\nlooks like?",
+        "start": 413.87,
+        "duration": 3.22
+    },
+    {
+        "text": "One particularly cool solution is based on\nour bodies.",
+        "start": 417.09,
+        "duration": 3.68
+    },
+    {
+        "text": "Because you know what’s really good at detecting\na few bad guys in a sea of things that belong?",
+        "start": 420.77,
+        "duration": 5.68
+    },
+    {
+        "text": "Your immune system.",
+        "start": 426.45,
+        "duration": 1.16
+    },
+    {
+        "text": "To recognize and kill off invaders, your immune\nsystem uses cells called lymphocytes, which",
+        "start": 427.61,
+        "duration": 5.14
+    },
+    {
+        "text": "have little receptors that detect foreign\nproteins.",
+        "start": 432.75,
+        "duration": 2.97
+    },
+    {
+        "text": "But your body actually produces a huge variety\nof lymphocytes, with receptors that detect",
+        "start": 435.72,
+        "duration": 5.379
+    },
+    {
+        "text": "pretty much any random protein snippet—including\nbits of proteins that are supposed to be around.",
+        "start": 441.099,
+        "duration": 5.331
+    },
+    {
+        "text": "You don’t want to attack those, so before\nyour body releases its lymphocytes, your thymus",
+        "start": 446.43,
+        "duration": 5.65
+    },
+    {
+        "text": "gland selectively kills off the ones that\nwould detect familiar proteins.",
+        "start": 452.08,
+        "duration": 4.84
+    },
+    {
+        "text": "As a result, the only lymphocytes that survive\nare ones that detect foreign proteins.",
+        "start": 456.92,
+        "duration": 5.11
+    },
+    {
+        "text": "This is called negative selection, and anomaly-detection\nalgorithms can use a similar concept to spot",
+        "start": 462.03,
+        "duration": 6.319
+    },
+    {
+        "text": "unusual traffic.",
+        "start": 468.349,
+        "duration": 1.0
+    },
+    {
+        "text": "They can generate detectors for random sequences\nof traffic data, then delete any detectors",
+        "start": 469.349,
+        "duration": 6.011
+    },
+    {
+        "text": "that go off on normal traffic logs.",
+        "start": 475.36,
+        "duration": 2.39
+    },
+    {
+        "text": "The ones that remain, thus, respond only to\nabnormal patterns.",
+        "start": 477.75,
+        "duration": 3.44
+    },
+    {
+        "text": "Finally, in lots of situations, having multiple\ncomputers coordinate to divide up a task is",
+        "start": 483.19,
+        "duration": 3.59
+    },
+    {
+        "text": "crucial—for example, to carry out a robotic\nsearch-and-rescue mission, or to index the",
+        "start": 486.78,
+        "duration": 5.13
+    },
+    {
+        "text": "entire internet.",
+        "start": 491.91,
+        "duration": 1.0
+    },
+    {
+        "text": "When you have just a few computers in a network,\nit’s easy to have one central command computer",
+        "start": 492.91,
+        "duration": 4.439
+    },
+    {
+        "text": "coordinate them all.",
+        "start": 497.349,
+        "duration": 1.201
+    },
+    {
+        "text": "But if you’re coordinating hundreds of thousands\nof machines, or the machines are cut off from",
+        "start": 498.55,
+        "duration": 4.269
+    },
+    {
+        "text": "one another, controlling them with one central\ncomputer becomes impractical.",
+        "start": 502.819,
+        "duration": 2.871
+    },
+    {
+        "text": "So all those machines need a process that\nthey all follow independently that somehow",
+        "start": 505.69,
+        "duration": 4.979
+    },
+    {
+        "text": "gets the job done efficiently and without\nhorrible mistakes.",
+        "start": 510.669,
+        "duration": 4.111
+    },
+    {
+        "text": "Little machines… acting independently…\ngetting big projects done… sounds… kind",
+        "start": 514.78,
+        "duration": 5.92
+    },
+    {
+        "text": "of like an insect colony!",
+        "start": 520.7,
+        "duration": 1.839
+    },
+    {
+        "text": "As it happens, there’s a whole niche of\nwhat are called swarm intelligence algorithms",
+        "start": 522.539,
+        "duration": 5.641
+    },
+    {
+        "text": "that tackle problems like this, and many are\nbased on insect behavior.",
+        "start": 528.18,
+        "duration": 4.37
+    },
+    {
+        "text": "For example, there are construction robots\nthat collaborate by imitating termites.",
+        "start": 532.55,
+        "duration": 4.31
+    },
+    {
+        "text": "We still don’t know exactly how termites\nbuild their massive mounds.",
+        "start": 536.86,
+        "duration": 3.95
+    },
+    {
+        "text": "But we do know that each worker can only see\nits local environment—what’s been built",
+        "start": 540.81,
+        "duration": 4.91
+    },
+    {
+        "text": "right there and where surrounding workers\nare.",
+        "start": 545.72,
+        "duration": 2.49
+    },
+    {
+        "text": "That means the only way for the termites to\ncoordinate is by leaving indirect signals",
+        "start": 548.21,
+        "duration": 4.71
+    },
+    {
+        "text": "for each other in their shared environment.",
+        "start": 552.92,
+        "duration": 2.0
+    },
+    {
+        "text": "Like, when one termite does a bit of construction\nwork, it leaves the soil arranged as some",
+        "start": 554.92,
+        "duration": 4.63
+    },
+    {
+        "text": "kind of cue to other termites about what needs\nto be done next.",
+        "start": 559.55,
+        "duration": 3.96
+    },
+    {
+        "text": "This indirect coordination strategy is called\nstigmergy.",
+        "start": 563.51,
+        "duration": 3.92
+    },
+    {
+        "text": "Inspired by termite stigmergy, a system of\nrobots called TERMES allows a fleet of little",
+        "start": 567.43,
+        "duration": 4.99
+    },
+    {
+        "text": "robots to build arbitrary structures with\nno central coordination.",
+        "start": 572.42,
+        "duration": 4.74
+    },
+    {
+        "text": "Just by sensing what’s been built and following\nsome basic traffic rules, each robot figures",
+        "start": 577.16,
+        "duration": 5.54
+    },
+    {
+        "text": "out what to do next to get closer to the target\nstructure.",
+        "start": 582.7,
+        "duration": 3.49
+    },
+    {
+        "text": "The hope is for similar robots to one day\nbuild complex structures even in hostile environments,",
+        "start": 586.19,
+        "duration": 5.82
+    },
+    {
+        "text": "like war zones or on Mars, without depending\non a centralized controller.",
+        "start": 592.01,
+        "duration": 4.92
+    },
+    {
+        "text": "Now, nature-inspired algorithms can get a\nbit out of hand.",
+        "start": 596.93,
+        "duration": 3.02
+    },
+    {
+        "text": "People have designed algorithms based on wolf\npack behavior, virus evolution, lightning",
+        "start": 599.95,
+        "duration": 4.61
+    },
+    {
+        "text": "paths, and on and on.",
+        "start": 604.56,
+        "duration": 2.649
+    },
+    {
+        "text": "Nature-inspired computing has been criticized\nfor encouraging cute metaphors that don’t",
+        "start": 607.209,
+        "duration": 3.961
+    },
+    {
+        "text": "add insight or are unnecessarily complicated.",
+        "start": 611.17,
+        "duration": 2.59
+    },
+    {
+        "text": "But as you’ve seen, sometimes natural phenomena\nreally can make for great inspiration.",
+        "start": 613.76,
+        "duration": 5.42
+    },
+    {
+        "text": "Nature can be quite the computer scientist,\nif you just know where to look!",
+        "start": 619.18,
+        "duration": 3.58
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 622.76,
+        "duration": 1.09
+    },
+    {
+        "text": "And if you want to learn more about the amazing\nways that nature is inspiring modern technology,",
+        "start": 623.85,
+        "duration": 5.2
+    },
+    {
+        "text": "you might like our episode on how animals\nare helping us build better drones.",
+        "start": 629.05,
+        "duration": 3.82
+    },
+    {
+        "text": "You can watch that right after this.",
+        "start": 632.87,
+        "duration": 2.04
+    },
+    {
+        "text": "{♫Outro♫}",
+        "start": 634.91,
+        "duration": 10.23
+    }
+]

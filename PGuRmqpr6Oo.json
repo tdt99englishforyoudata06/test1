@@ -1,0 +1,1677 @@
+[
+    {
+        "text": "Normally a tower of Hanoi looks like",
+        "start": 0.16,
+        "duration": 2.56
+    },
+    {
+        "text": "three little spikes and you have",
+        "start": 2.72,
+        "duration": 1.76
+    },
+    {
+        "text": "different discs on them; the aim of the",
+        "start": 4.48,
+        "duration": 1.839
+    },
+    {
+        "text": "game is to move the tower from one of",
+        "start": 6.319,
+        "duration": 2.32
+    },
+    {
+        "text": "the spikes to another spike.",
+        "start": 8.639,
+        "duration": 1.771
+    },
+    {
+        "text": "Now I found that the spikes were holding",
+        "start": 15.599,
+        "duration": 1.6
+    },
+    {
+        "text": "me back so I made this speed tower of",
+        "start": 17.199,
+        "duration": 2.321
+    },
+    {
+        "text": "Hanoi so that I can-",
+        "start": 19.52,
+        "duration": 2.32
+    },
+    {
+        "text": "I can get to it more quickly. So you",
+        "start": 21.84,
+        "duration": 2.56
+    },
+    {
+        "text": "can't put a bigger one on top of a",
+        "start": 24.4,
+        "duration": 1.84
+    },
+    {
+        "text": "smaller one, not allowed, and you can only",
+        "start": 26.24,
+        "duration": 2.4
+    },
+    {
+        "text": "move them one piece at a time, so just",
+        "start": 28.64,
+        "duration": 2.479
+    },
+    {
+        "text": "one piece at a time.",
+        "start": 31.119,
+        "duration": 2.321
+    },
+    {
+        "text": "Actually completing it with three is",
+        "start": 33.44,
+        "duration": 1.44
+    },
+    {
+        "text": "really easy, do you want to have a go? So",
+        "start": 34.88,
+        "duration": 1.679
+    },
+    {
+        "text": "first one I'm going to put it here,",
+        "start": 36.559,
+        "duration": 2.16
+    },
+    {
+        "text": "next one I'll move it over here,",
+        "start": 38.719,
+        "duration": 2.881
+    },
+    {
+        "text": "and it wouldn't do me any help to move",
+        "start": 41.6,
+        "duration": 2.56
+    },
+    {
+        "text": "this back here so I'm gonna put this one",
+        "start": 44.16,
+        "duration": 1.919
+    },
+    {
+        "text": "here.",
+        "start": 46.079,
+        "duration": 1.921
+    },
+    {
+        "text": "The bottom one moves, that lets us know",
+        "start": 48.0,
+        "duration": 1.6
+    },
+    {
+        "text": "we're halfway.",
+        "start": 49.6,
+        "duration": 1.36
+    },
+    {
+        "text": "One here,",
+        "start": 50.96,
+        "duration": 1.119
+    },
+    {
+        "text": "here,",
+        "start": 52.079,
+        "duration": 1.841
+    },
+    {
+        "text": "we've reformed the tower but it's in a new",
+        "start": 53.92,
+        "duration": 1.76
+    },
+    {
+        "text": "position now. So I'm gonna do one with",
+        "start": 55.68,
+        "duration": 2.0
+    },
+    {
+        "text": "six pieces. \n(Brady: You do it with flare don't you?)",
+        "start": 57.68,
+        "duration": 2.46
+    },
+    {
+        "text": "The only way I know how.",
+        "start": 61.92,
+        "duration": 2.639
+    },
+    {
+        "text": "So I've given each piece of the tower a",
+        "start": 64.559,
+        "duration": 2.001
+    },
+    {
+        "text": "musical note, lowest note is gonna be",
+        "start": 66.56,
+        "duration": 2.32
+    },
+    {
+        "text": "the biggest piece and the highest note",
+        "start": 68.88,
+        "duration": 1.919
+    },
+    {
+        "text": "is going to be the top smallest piece",
+        "start": 70.799,
+        "duration": 1.601
+    },
+    {
+        "text": "there.",
+        "start": 72.4,
+        "duration": 0.86
+    },
+    {
+        "text": "I think the cool thing about this is I",
+        "start": 81.2,
+        "duration": 2.0
+    },
+    {
+        "text": "gave it a key and so I decided the notes,",
+        "start": 83.2,
+        "duration": 2.8
+    },
+    {
+        "text": "but I didn't decide the order at all,",
+        "start": 86.0,
+        "duration": 2.32
+    },
+    {
+        "text": "this is the optimal solve. And it's just-",
+        "start": 88.32,
+        "duration": 2.64
+    },
+    {
+        "text": "the music you're about to hear is made",
+        "start": 90.96,
+        "duration": 2.0
+    },
+    {
+        "text": "by doing the optimal solve of the tower",
+        "start": 92.96,
+        "duration": 2.4
+    },
+    {
+        "text": "of Hanoi.",
+        "start": 95.36,
+        "duration": 2.079
+    },
+    {
+        "text": "Let's do this.",
+        "start": 97.439,
+        "duration": 1.491
+    },
+    {
+        "text": "(Well done)\n- Okay. So I'll do it again and",
+        "start": 146.959,
+        "duration": 3.521
+    },
+    {
+        "text": "you can see any patterns that you notice",
+        "start": 150.48,
+        "duration": 2.0
+    },
+    {
+        "text": "coming up. So tell me, first of all what",
+        "start": 152.48,
+        "duration": 2.32
+    },
+    {
+        "text": "you notice about the little piece. So",
+        "start": 154.8,
+        "duration": 1.68
+    },
+    {
+        "text": "this is how to solve the tower of Hanoi.",
+        "start": 156.48,
+        "duration": 2.88
+    },
+    {
+        "text": "So we're going here.",
+        "start": 159.36,
+        "duration": 1.76
+    },
+    {
+        "text": "Do you notice anything about the little",
+        "start": 163.599,
+        "duration": 1.36
+    },
+    {
+        "text": "piece?",
+        "start": 164.959,
+        "duration": 1.121
+    },
+    {
+        "text": "Where it's going?",
+        "start": 166.08,
+        "duration": 1.2
+    },
+    {
+        "text": "(It's like always going)",
+        "start": 170.56,
+        "duration": 2.0
+    },
+    {
+        "text": "(from that side across to that side.)\n- Yeah,",
+        "start": 172.56,
+        "duration": 2.16
+    },
+    {
+        "text": "uh-huh, so it follows a little a little",
+        "start": 174.72,
+        "duration": 2.32
+    },
+    {
+        "text": "directional loop. If you if you labelled",
+        "start": 177.04,
+        "duration": 2.4
+    },
+    {
+        "text": "the positions A B C I think",
+        "start": 179.44,
+        "duration": 2.96
+    },
+    {
+        "text": "that helps. So we're going,\nlittle piece is",
+        "start": 182.4,
+        "duration": 3.04
+    },
+    {
+        "text": "on A, now it's on B",
+        "start": 185.44,
+        "duration": 2.24
+    },
+    {
+        "text": "now it's on C,",
+        "start": 187.68,
+        "duration": 1.44
+    },
+    {
+        "text": "back to A,",
+        "start": 189.12,
+        "duration": 1.6
+    },
+    {
+        "text": "now it's over to B,",
+        "start": 190.72,
+        "duration": 1.92
+    },
+    {
+        "text": "C. That's one of two steps that you need",
+        "start": 192.64,
+        "duration": 2.72
+    },
+    {
+        "text": "to know. So the little piece is going to",
+        "start": 195.36,
+        "duration": 1.68
+    },
+    {
+        "text": "move around going ABC, so you move the",
+        "start": 197.04,
+        "duration": 2.8
+    },
+    {
+        "text": "little piece. And then there's only one",
+        "start": 199.84,
+        "duration": 2.479
+    },
+    {
+        "text": "other position that the next piece could",
+        "start": 202.319,
+        "duration": 1.681
+    },
+    {
+        "text": "move to, so this goes to here. The little",
+        "start": 204.0,
+        "duration": 2.239
+    },
+    {
+        "text": "piece you know is moving along and then",
+        "start": 206.239,
+        "duration": 2.0
+    },
+    {
+        "text": "this one there's only one valid move",
+        "start": 208.239,
+        "duration": 2.56
+    },
+    {
+        "text": "that you could make, so it moves along",
+        "start": 210.799,
+        "duration": 1.841
+    },
+    {
+        "text": "again. There's something as well that",
+        "start": 212.64,
+        "duration": 2.64
+    },
+    {
+        "text": "you might notice about the two colours. So",
+        "start": 215.28,
+        "duration": 1.76
+    },
+    {
+        "text": "I've 2-coloured this - do you ever see",
+        "start": 217.04,
+        "duration": 2.24
+    },
+    {
+        "text": "any of the same color touching?",
+        "start": 219.28,
+        "duration": 4.08
+    },
+    {
+        "text": "(Not that I've noticed.)\n- No, so that's",
+        "start": 223.44,
+        "duration": 2.4
+    },
+    {
+        "text": "usually how I know if I've messed",
+        "start": 225.84,
+        "duration": 1.039
+    },
+    {
+        "text": "something up",
+        "start": 226.879,
+        "duration": 2.0
+    },
+    {
+        "text": "is I would have the same colour touching.",
+        "start": 228.879,
+        "duration": 1.44
+    },
+    {
+        "text": "So there's a parity in the tower of",
+        "start": 230.319,
+        "duration": 2.081
+    },
+    {
+        "text": "Hanoi with the odd and even pieces. So",
+        "start": 232.4,
+        "duration": 3.44
+    },
+    {
+        "text": "the first one, the small piece, we'll call",
+        "start": 235.84,
+        "duration": 2.24
+    },
+    {
+        "text": "that an odd one because it's the piece",
+        "start": 238.08,
+        "duration": 2.239
+    },
+    {
+        "text": "one;",
+        "start": 240.319,
+        "duration": 0.801
+    },
+    {
+        "text": "and it's moving",
+        "start": 241.12,
+        "duration": 1.6
+    },
+    {
+        "text": "from left to right from me - is that right",
+        "start": 242.72,
+        "duration": 2.48
+    },
+    {
+        "text": "to left for you? Okay so it's moving",
+        "start": 245.2,
+        "duration": 2.8
+    },
+    {
+        "text": "right to left. The second one, this one",
+        "start": 248.0,
+        "duration": 2.319
+    },
+    {
+        "text": "here,",
+        "start": 250.319,
+        "duration": 0.961
+    },
+    {
+        "text": "you might want to look at where it's",
+        "start": 251.28,
+        "duration": 1.36
+    },
+    {
+        "text": "going.",
+        "start": 252.64,
+        "duration": 0.959
+    },
+    {
+        "text": "So it's again-",
+        "start": 253.599,
+        "duration": 1.784
+    },
+    {
+        "text": "it's moving piecewise but just slower",
+        "start": 258.079,
+        "duration": 2.88
+    },
+    {
+        "text": "than this top one. And it goes from the",
+        "start": 260.959,
+        "duration": 3.201
+    },
+    {
+        "text": "other direction. All of the purple pieces,",
+        "start": 264.16,
+        "duration": 2.479
+    },
+    {
+        "text": "as I solve it, they're moving in a little",
+        "start": 266.639,
+        "duration": 2.401
+    },
+    {
+        "text": "cycle they're going ABC, ABC. And",
+        "start": 269.04,
+        "duration": 3.84
+    },
+    {
+        "text": "these pastel cloud colour pieces, they are",
+        "start": 272.88,
+        "duration": 3.68
+    },
+    {
+        "text": "moving the opposite\ndirection so they'll be going",
+        "start": 276.56,
+        "duration": 2.25
+    },
+    {
+        "text": "ACB, ACB. The smaller pieces move faster.",
+        "start": 278.81,
+        "duration": 4.389
+    },
+    {
+        "text": "So this one actually, every second move",
+        "start": 283.199,
+        "duration": 2.481
+    },
+    {
+        "text": "is the smallest piece. \nDo you want me to stop",
+        "start": 285.68,
+        "duration": 2.56
+    },
+    {
+        "text": "solving this now?",
+        "start": 288.24,
+        "duration": 1.679
+    },
+    {
+        "text": "(It's like Rubik's cube - have you got a)",
+        "start": 289.919,
+        "duration": 1.441
+    },
+    {
+        "text": "(record time?) \n- Oh right okay - so we should",
+        "start": 291.36,
+        "duration": 2.8
+    },
+    {
+        "text": "talk a little bit about the time because",
+        "start": 294.16,
+        "duration": 2.72
+    },
+    {
+        "text": "this takes- I'm working at 90 bpm. So",
+        "start": 296.88,
+        "duration": 3.36
+    },
+    {
+        "text": "this takes me roughly 30 seconds to",
+        "start": 300.24,
+        "duration": 3.2
+    },
+    {
+        "text": "solve a six piece tower of Hanoi. But if",
+        "start": 303.44,
+        "duration": 3.039
+    },
+    {
+        "text": "you were to add more pieces to it very",
+        "start": 306.479,
+        "duration": 2.0
+    },
+    {
+        "text": "quickly gets out of hand, should we go to",
+        "start": 308.479,
+        "duration": 2.0
+    },
+    {
+        "text": "brown paper and calculator situation?",
+        "start": 310.479,
+        "duration": 2.081
+    },
+    {
+        "text": "Discs, the number of moves, the amount",
+        "start": 312.56,
+        "duration": 2.88
+    },
+    {
+        "text": "of time...",
+        "start": 315.44,
+        "duration": 1.68
+    },
+    {
+        "text": "90 beats per minute. So one disc can be",
+        "start": 317.12,
+        "duration": 3.28
+    },
+    {
+        "text": "completed in",
+        "start": 320.4,
+        "duration": 1.44
+    },
+    {
+        "text": "one",
+        "start": 321.84,
+        "duration": 1.0
+    },
+    {
+        "text": "move and",
+        "start": 322.84,
+        "duration": 1.88
+    },
+    {
+        "text": "that took - what?",
+        "start": 324.72,
+        "duration": 1.52
+    },
+    {
+        "text": "A second?",
+        "start": 326.24,
+        "duration": 1.28
+    },
+    {
+        "text": "Less than a second.",
+        "start": 327.52,
+        "duration": 1.84
+    },
+    {
+        "text": "Two discs in",
+        "start": 329.36,
+        "duration": 2.399
+    },
+    {
+        "text": "1, 2,",
+        "start": 331.759,
+        "duration": 1.761
+    },
+    {
+        "text": "3 moves.",
+        "start": 333.52,
+        "duration": 1.6
+    },
+    {
+        "text": "That would take two seconds. Three - how",
+        "start": 335.12,
+        "duration": 3.28
+    },
+    {
+        "text": "far shall we go? Four...",
+        "start": 338.4,
+        "duration": 1.92
+    },
+    {
+        "text": "so six, that's how many we did.",
+        "start": 340.32,
+        "duration": 2.319
+    },
+    {
+        "text": "Let's see if you can get the pattern for",
+        "start": 342.639,
+        "duration": 1.441
+    },
+    {
+        "text": "the moves so that we don't have to solve",
+        "start": 344.08,
+        "duration": 1.44
+    },
+    {
+        "text": "it every time. So here's three discs,",
+        "start": 345.52,
+        "duration": 3.04
+    },
+    {
+        "text": "how many moves is that going to take?",
+        "start": 348.56,
+        "duration": 1.739
+    },
+    {
+        "text": "1, 2, 3,",
+        "start": 350.559,
+        "duration": 2.001
+    },
+    {
+        "text": "4, 5, 6,",
+        "start": 352.56,
+        "duration": 2.479
+    },
+    {
+        "text": "7. I think that this should be enough",
+        "start": 355.039,
+        "duration": 3.041
+    },
+    {
+        "text": "for you to see the pattern, how many",
+        "start": 358.08,
+        "duration": 2.0
+    },
+    {
+        "text": "moves it takes to do the optimal solve.",
+        "start": 360.08,
+        "duration": 2.16
+    },
+    {
+        "text": "It won't take me too long to do four: 1,",
+        "start": 362.24,
+        "duration": 2.64
+    },
+    {
+        "text": "2, 3,",
+        "start": 364.88,
+        "duration": 1.759
+    },
+    {
+        "text": "4,",
+        "start": 366.639,
+        "duration": 0.881
+    },
+    {
+        "text": "5, 6, 7,",
+        "start": 367.52,
+        "duration": 2.64
+    },
+    {
+        "text": "8,",
+        "start": 370.16,
+        "duration": 1.039
+    },
+    {
+        "text": "9, 10, 11, 12, 13, 14,",
+        "start": 371.199,
+        "duration": 5.921
+    },
+    {
+        "text": "15.",
+        "start": 377.12,
+        "duration": 1.68
+    },
+    {
+        "text": "(Okay so the gap between them was 2,)",
+        "start": 378.8,
+        "duration": 2.64
+    },
+    {
+        "text": "(4, 8 -)",
+        "start": 381.44,
+        "duration": 1.52
+    },
+    {
+        "text": "(is the next gap going to be 16?)\n- Yes.",
+        "start": 382.96,
+        "duration": 2.64
+    },
+    {
+        "text": "Looking at the gaps is always a really",
+        "start": 385.6,
+        "duration": 1.28
+    },
+    {
+        "text": "good thing to do when you're trying to",
+        "start": 386.88,
+        "duration": 1.2
+    },
+    {
+        "text": "figure out patterns. So we're going up",
+        "start": 388.08,
+        "duration": 2.16
+    },
+    {
+        "text": "and we're doubling every time which",
+        "start": 390.24,
+        "duration": 1.519
+    },
+    {
+        "text": "means we're going to have 2 to the power",
+        "start": 391.759,
+        "duration": 1.761
+    },
+    {
+        "text": "of n. But you've got to do a bit of an",
+        "start": 393.52,
+        "duration": 2.08
+    },
+    {
+        "text": "adjustment, because when n is 1",
+        "start": 395.6,
+        "duration": 3.12
+    },
+    {
+        "text": "we don't have 2 -",
+        "start": 398.72,
+        "duration": 1.68
+    },
+    {
+        "text": "so how are you going to fix that?",
+        "start": 400.4,
+        "duration": 1.919
+    },
+    {
+        "text": "Take away 1.",
+        "start": 402.319,
+        "duration": 1.201
+    },
+    {
+        "text": "Okay, so we've got 2 to the power of n",
+        "start": 403.52,
+        "duration": 1.84
+    },
+    {
+        "text": "minus 1. Powers of 2 take away 1, and",
+        "start": 405.36,
+        "duration": 1.92
+    },
+    {
+        "text": "that's the optimum solve, that's your",
+        "start": 407.28,
+        "duration": 2.319
+    },
+    {
+        "text": "quickest way of getting this solved. 31,",
+        "start": 409.599,
+        "duration": 3.281
+    },
+    {
+        "text": "64. take away 1 is",
+        "start": 412.88,
+        "duration": 3.439
+    },
+    {
+        "text": "63. Okay,",
+        "start": 416.319,
+        "duration": 2.16
+    },
+    {
+        "text": "cool.",
+        "start": 418.479,
+        "duration": 0.881
+    },
+    {
+        "text": "Right okay so that's the first 10 - which",
+        "start": 419.36,
+        "duration": 2.88
+    },
+    {
+        "text": "if you think about it would only be",
+        "start": 422.24,
+        "duration": 2.16
+    },
+    {
+        "text": "this tall?",
+        "start": 424.4,
+        "duration": 1.44
+    },
+    {
+        "text": "So by the time you get to something",
+        "start": 425.84,
+        "duration": 1.199
+    },
+    {
+        "text": "around this tall it's taking 11 minutes",
+        "start": 427.039,
+        "duration": 2.16
+    },
+    {
+        "text": "to solve. What number would you like? What",
+        "start": 429.199,
+        "duration": 1.601
+    },
+    {
+        "text": "should we check out? We've done to 10.",
+        "start": 430.8,
+        "duration": 1.459
+    },
+    {
+        "text": "(I feel like I want to know 100.)\n- 100 is a",
+        "start": 432.259,
+        "duration": 2.701
+    },
+    {
+        "text": "good one, okay. So 10 to the power of 30",
+        "start": 434.96,
+        "duration": 3.92
+    },
+    {
+        "text": "moves, okay. And we're doing 90 of them in",
+        "start": 438.88,
+        "duration": 2.879
+    },
+    {
+        "text": "a minute so let's divide that by 90.",
+        "start": 441.759,
+        "duration": 2.801
+    },
+    {
+        "text": "Okay so it's around about 2.6 times 10",
+        "start": 444.56,
+        "duration": 4.0
+    },
+    {
+        "text": "to the power of 22...",
+        "start": 448.56,
+        "duration": 1.92
+    },
+    {
+        "text": "years. Yep so for 100 stacks that",
+        "start": 452.4,
+        "duration": 2.88
+    },
+    {
+        "text": "is how long it would take me to solve it",
+        "start": 455.28,
+        "duration": 2.0
+    },
+    {
+        "text": "doing it musically at 90 bpm. You know it",
+        "start": 457.28,
+        "duration": 2.72
+    },
+    {
+        "text": "would fit in this room fine. It could",
+        "start": 460.0,
+        "duration": 2.88
+    },
+    {
+        "text": "logistically be done in this room. I",
+        "start": 462.88,
+        "duration": 2.319
+    },
+    {
+        "text": "don't have enough time for that!",
+        "start": 465.199,
+        "duration": 2.321
+    },
+    {
+        "text": "So when I'm solving the three block",
+        "start": 467.52,
+        "duration": 1.92
+    },
+    {
+        "text": "optimal I go here, and here, and then my",
+        "start": 469.44,
+        "duration": 3.599
+    },
+    {
+        "text": "next move following the algorithm would",
+        "start": 473.039,
+        "duration": 2.481
+    },
+    {
+        "text": "be this one continues on its way. But if",
+        "start": 475.52,
+        "duration": 2.56
+    },
+    {
+        "text": "I wanted, there's no rule against moving",
+        "start": 478.08,
+        "duration": 2.88
+    },
+    {
+        "text": "this back here, I still have a smaller",
+        "start": 480.96,
+        "duration": 1.679
+    },
+    {
+        "text": "piece on a larger piece, I'm moving one",
+        "start": 482.639,
+        "duration": 1.441
+    },
+    {
+        "text": "at a time. And then I could move this",
+        "start": 484.08,
+        "duration": 3.28
+    },
+    {
+        "text": "here",
+        "start": 487.36,
+        "duration": 1.04
+    },
+    {
+        "text": "and this here. I mean it's not helping me",
+        "start": 488.4,
+        "duration": 2.32
+    },
+    {
+        "text": "that much - and this one \ncould go here. And",
+        "start": 490.72,
+        "duration": 2.0
+    },
+    {
+        "text": "I know it's not optimal because I have",
+        "start": 492.72,
+        "duration": 1.68
+    },
+    {
+        "text": "two odd pieces touching. I could then",
+        "start": 494.4,
+        "duration": 3.44
+    },
+    {
+        "text": "move this one here for a while for no",
+        "start": 497.84,
+        "duration": 2.0
+    },
+    {
+        "text": "reason,",
+        "start": 499.84,
+        "duration": 1.039
+    },
+    {
+        "text": "put this one here, then it could go here,",
+        "start": 500.879,
+        "duration": 1.921
+    },
+    {
+        "text": "back to here.",
+        "start": 502.8,
+        "duration": 0.96
+    },
+    {
+        "text": "So there's a really cool way of showing",
+        "start": 504.96,
+        "duration": 2.16
+    },
+    {
+        "text": "all of the different states, all of the",
+        "start": 507.12,
+        "duration": 1.84
+    },
+    {
+        "text": "possibilities of",
+        "start": 508.96,
+        "duration": 1.919
+    },
+    {
+        "text": "laying out these discs onto the three-",
+        "start": 510.879,
+        "duration": 3.28
+    },
+    {
+        "text": "what would you call them?",
+        "start": 514.159,
+        "duration": 1.521
+    },
+    {
+        "text": "Positions? So let's call our three",
+        "start": 515.68,
+        "duration": 2.159
+    },
+    {
+        "text": "positions A, B and C. And right now I'm",
+        "start": 517.839,
+        "duration": 3.44
+    },
+    {
+        "text": "going from smallest to largest, they're",
+        "start": 521.279,
+        "duration": 1.76
+    },
+    {
+        "text": "all on position A, so I'm going to call",
+        "start": 523.039,
+        "duration": 1.681
+    },
+    {
+        "text": "this AAA.",
+        "start": 524.72,
+        "duration": 2.16
+    },
+    {
+        "text": "And from here I could move to BAA if I",
+        "start": 526.88,
+        "duration": 3.92
+    },
+    {
+        "text": "like,",
+        "start": 530.8,
+        "duration": 0.8
+    },
+    {
+        "text": "so that's an option that I have.\n- (So the)",
+        "start": 531.6,
+        "duration": 2.64
+    },
+    {
+        "text": "(first letter is where the baby one is?)",
+        "start": 534.24,
+        "duration": 2.48
+    },
+    {
+        "text": "Yeah so it goes small, medium, large.",
+        "start": 536.72,
+        "duration": 3.119
+    },
+    {
+        "text": "...and large.",
+        "start": 539.839,
+        "duration": 1.281
+    },
+    {
+        "text": "So I could go to BAA or",
+        "start": 541.12,
+        "duration": 2.399
+    },
+    {
+        "text": "I could go to CAA. And from this position",
+        "start": 543.519,
+        "duration": 3.121
+    },
+    {
+        "text": "here, CAA, I could move back to BAA, so",
+        "start": 546.64,
+        "duration": 3.12
+    },
+    {
+        "text": "we're happy to link those.",
+        "start": 549.76,
+        "duration": 1.759
+    },
+    {
+        "text": "So there's a nice little triangle",
+        "start": 551.519,
+        "duration": 1.841
+    },
+    {
+        "text": "because all we're dealing with is the",
+        "start": 553.36,
+        "duration": 1.12
+    },
+    {
+        "text": "first one right now, you know, could move.",
+        "start": 554.48,
+        "duration": 2.96
+    },
+    {
+        "text": "From this vertex here, at BAA,",
+        "start": 557.44,
+        "duration": 3.519
+    },
+    {
+        "text": "where can I go? So",
+        "start": 560.959,
+        "duration": 2.32
+    },
+    {
+        "text": "I've already covered CAA. I can then",
+        "start": 563.279,
+        "duration": 2.641
+    },
+    {
+        "text": "start moving the middle one. It can't go",
+        "start": 565.92,
+        "duration": 2.64
+    },
+    {
+        "text": "here,",
+        "start": 568.56,
+        "duration": 0.8
+    },
+    {
+        "text": "that's not allowed, but it could go here.",
+        "start": 569.36,
+        "duration": 2.24
+    },
+    {
+        "text": "This would be called",
+        "start": 571.6,
+        "duration": 1.52
+    },
+    {
+        "text": "BCA - we're going small, medium, large.",
+        "start": 573.656,
+        "duration": 3.866
+    },
+    {
+        "text": "BCA.",
+        "start": 577.522,
+        "duration": 1.828
+    },
+    {
+        "text": "Okay? From this vertex here, \nback to there,",
+        "start": 579.76,
+        "duration": 3.68
+    },
+    {
+        "text": "CAA,",
+        "start": 583.44,
+        "duration": 1.28
+    },
+    {
+        "text": "my options again kind of limited because",
+        "start": 584.72,
+        "duration": 2.72
+    },
+    {
+        "text": "I'm moving the middle one now. can't",
+        "start": 587.44,
+        "duration": 1.839
+    },
+    {
+        "text": "put it there, there's only one move I can",
+        "start": 589.279,
+        "duration": 1.921
+    },
+    {
+        "text": "make - it has to go here. And so that's",
+        "start": 591.2,
+        "duration": 2.16
+    },
+    {
+        "text": "going to be called CBA.",
+        "start": 593.36,
+        "duration": 3.68
+    },
+    {
+        "text": "From here, BCA, where can we go? \nLet's have",
+        "start": 597.6,
+        "duration": 3.28
+    },
+    {
+        "text": "a look.",
+        "start": 600.88,
+        "duration": 1.36
+    },
+    {
+        "text": "I can move the small one and I can give",
+        "start": 602.24,
+        "duration": 3.039
+    },
+    {
+        "text": "myself a CCA,",
+        "start": 605.279,
+        "duration": 2.881
+    },
+    {
+        "text": "I could move the small one and go to",
+        "start": 608.16,
+        "duration": 3.84
+    },
+    {
+        "text": "ACA;",
+        "start": 612.0,
+        "duration": 2.56
+    },
+    {
+        "text": "and if I were to move this one here",
+        "start": 614.56,
+        "duration": 3.2
+    },
+    {
+        "text": "what would that be? That would be BAA",
+        "start": 617.76,
+        "duration": 2.56
+    },
+    {
+        "text": "which is going back up along the route",
+        "start": 620.32,
+        "duration": 2.32
+    },
+    {
+        "text": "so we don't need to show that one. So",
+        "start": 622.64,
+        "duration": 1.759
+    },
+    {
+        "text": "it's only the small one moving that",
+        "start": 624.399,
+        "duration": 1.201
+    },
+    {
+        "text": "makes sense here, I've got my two options.",
+        "start": 625.6,
+        "duration": 1.949
+    },
+    {
+        "text": "ACA- and I can swap between these two",
+        "start": 628.959,
+        "duration": 2.961
+    },
+    {
+        "text": "as well",
+        "start": 631.92,
+        "duration": 0.96
+    },
+    {
+        "text": "so I can put a line in there. I think- I",
+        "start": 632.88,
+        "duration": 1.92
+    },
+    {
+        "text": "think once we fill in what can happen",
+        "start": 634.8,
+        "duration": 1.68
+    },
+    {
+        "text": "here you might start to recognise",
+        "start": 636.48,
+        "duration": 2.16
+    },
+    {
+        "text": "something?",
+        "start": 638.64,
+        "duration": 0.79
+    },
+    {
+        "text": "When I've got them stacked up at this",
+        "start": 641.6,
+        "duration": 1.44
+    },
+    {
+        "text": "ABA position - A B A. \nI could move this one",
+        "start": 643.04,
+        "duration": 3.919
+    },
+    {
+        "text": "if I want as well,",
+        "start": 646.959,
+        "duration": 1.601
+    },
+    {
+        "text": "that's got a free space, and that",
+        "start": 648.56,
+        "duration": 1.6
+    },
+    {
+        "text": "would give me ACA which is already on",
+        "start": 650.16,
+        "duration": 2.239
+    },
+    {
+        "text": "this graph so I can join those together.",
+        "start": 652.399,
+        "duration": 2.321
+    },
+    {
+        "text": "And at this point",
+        "start": 654.72,
+        "duration": 1.6
+    },
+    {
+        "text": "you maybe start to notice what's going",
+        "start": 656.32,
+        "duration": 2.32
+    },
+    {
+        "text": "on here.",
+        "start": 658.64,
+        "duration": 0.989
+    },
+    {
+        "text": "(You obviously are noticing it.)",
+        "start": 661.279,
+        "duration": 1.98
+    },
+    {
+        "text": "The ever ubiquitous.",
+        "start": 663.259,
+        "duration": 2.461
+    },
+    {
+        "text": "- (It's totally ubiquitous,\nI can see it on your jumper!)",
+        "start": 665.72,
+        "duration": 2.55
+    },
+    {
+        "text": "Yeah we've got a Sierpinski triangle",
+        "start": 669.839,
+        "duration": 1.68
+    },
+    {
+        "text": "situation here.",
+        "start": 671.519,
+        "duration": 1.521
+    },
+    {
+        "text": "Will I fill this in for the other",
+        "start": 673.04,
+        "duration": 1.28
+    },
+    {
+        "text": "options?",
+        "start": 674.32,
+        "duration": 1.114
+    },
+    {
+        "text": "BBB",
+        "start": 683.2,
+        "duration": 1.09
+    },
+    {
+        "text": "And that would be a solve. So that's them",
+        "start": 686.56,
+        "duration": 2.24
+    },
+    {
+        "text": "all stacked up in a different position.",
+        "start": 688.8,
+        "duration": 2.14
+    },
+    {
+        "text": "So CCC, that's a solve as well.",
+        "start": 695.2,
+        "duration": 2.989
+    },
+    {
+        "text": "And just the way that",
+        "start": 705.92,
+        "duration": 1.52
+    },
+    {
+        "text": "a Sierpinski triangle works,",
+        "start": 707.44,
+        "duration": 2.32
+    },
+    {
+        "text": "the size is going to be 2n. So this",
+        "start": 709.76,
+        "duration": 3.519
+    },
+    {
+        "text": "length here",
+        "start": 713.279,
+        "duration": 1.281
+    },
+    {
+        "text": "will be",
+        "start": 714.56,
+        "duration": 1.2
+    },
+    {
+        "text": "2 to the power 3, which is 8;",
+        "start": 715.76,
+        "duration": 1.759
+    },
+    {
+        "text": "and because you're already starting",
+        "start": 717.519,
+        "duration": 2.88
+    },
+    {
+        "text": "on 1 - you're already here - so it only",
+        "start": 720.399,
+        "duration": 2.081
+    },
+    {
+        "text": "takes you 1, 2, 3, 4, 5, 6,",
+        "start": 722.48,
+        "duration": 2.96
+    },
+    {
+        "text": "7, and then you're at your solved",
+        "start": 725.44,
+        "duration": 1.6
+    },
+    {
+        "text": "position. So that that is where your 2",
+        "start": 727.04,
+        "duration": 4.0
+    },
+    {
+        "text": "n minus 1 comes from. And I mean, if you",
+        "start": 731.04,
+        "duration": 2.32
+    },
+    {
+        "text": "wanted to take a really leisurely stroll",
+        "start": 733.36,
+        "duration": 2.96
+    },
+    {
+        "text": "around the tower of Hanoi - you know,",
+        "start": 736.32,
+        "duration": 1.84
+    },
+    {
+        "text": "you're not in a rush to get from A to C",
+        "start": 738.16,
+        "duration": 2.64
+    },
+    {
+        "text": "and solve it all - there is a way to go",
+        "start": 740.8,
+        "duration": 2.96
+    },
+    {
+        "text": "around every single one of them.",
+        "start": 743.76,
+        "duration": 2.16
+    },
+    {
+        "text": "So we're starting here, we're going to go",
+        "start": 745.92,
+        "duration": 2.0
+    },
+    {
+        "text": "along here,",
+        "start": 747.92,
+        "duration": 1.599
+    },
+    {
+        "text": "take a little detour into there...",
+        "start": 749.519,
+        "duration": 1.99
+    },
+    {
+        "text": "CCC, so that's your longest route and",
+        "start": 756.56,
+        "duration": 1.839
+    },
+    {
+        "text": "then if you want to go back to where you",
+        "start": 758.399,
+        "duration": 1.921
+    },
+    {
+        "text": "started -",
+        "start": 760.32,
+        "duration": 1.44
+    },
+    {
+        "text": "Yeah, so this is a cyclical way of",
+        "start": 765.44,
+        "duration": 2.32
+    },
+    {
+        "text": "getting around all of the possible",
+        "start": 767.76,
+        "duration": 1.84
+    },
+    {
+        "text": "positions in your tower of Hanoi, it's a",
+        "start": 769.6,
+        "duration": 1.84
+    },
+    {
+        "text": "Hamiltonian path. And if you can see it",
+        "start": 771.44,
+        "duration": 2.88
+    },
+    {
+        "text": "drawn out, it's called the Sierpinski",
+        "start": 774.32,
+        "duration": 1.92
+    },
+    {
+        "text": "arrowhead. I love it, \nit's a beautiful fractal.",
+        "start": 776.24,
+        "duration": 2.67
+    },
+    {
+        "text": "Thanks to Brilliant for supporting",
+        "start": 780.0,
+        "duration": 1.36
+    },
+    {
+        "text": "today's episode;",
+        "start": 781.36,
+        "duration": 1.599
+    },
+    {
+        "text": "and what a ray of light Brilliant is",
+        "start": 782.959,
+        "duration": 2.241
+    },
+    {
+        "text": "with its interactive courses, daily",
+        "start": 785.2,
+        "duration": 2.079
+    },
+    {
+        "text": "challenges, quizzes - all sorts of great",
+        "start": 787.279,
+        "duration": 2.721
+    },
+    {
+        "text": "stuff to expand your mind and keep you",
+        "start": 790.0,
+        "duration": 2.8
+    },
+    {
+        "text": "entertained.",
+        "start": 792.8,
+        "duration": 1.599
+    },
+    {
+        "text": "Everything's lovingly designed to make",
+        "start": 794.399,
+        "duration": 2.56
+    },
+    {
+        "text": "sure you're engaged, to keep you",
+        "start": 796.959,
+        "duration": 2.0
+    },
+    {
+        "text": "thinking, to keep you clever! It's really",
+        "start": 798.959,
+        "duration": 2.56
+    },
+    {
+        "text": "good looking,",
+        "start": 801.519,
+        "duration": 1.201
+    },
+    {
+        "text": "easy to use; it's made by people who care",
+        "start": 802.72,
+        "duration": 3.2
+    },
+    {
+        "text": "and who are serious about making the",
+        "start": 805.92,
+        "duration": 2.08
+    },
+    {
+        "text": "world a better place.",
+        "start": 808.0,
+        "duration": 2.56
+    },
+    {
+        "text": "If you've already got it, why not",
+        "start": 810.56,
+        "duration": 1.36
+    },
+    {
+        "text": "consider Brilliant as a gift for the",
+        "start": 811.92,
+        "duration": 1.84
+    },
+    {
+        "text": "other curious minds in your life?",
+        "start": 813.76,
+        "duration": 2.639
+    },
+    {
+        "text": "There's even 20% off a",
+        "start": 816.399,
+        "duration": 1.601
+    },
+    {
+        "text": "premium subscription by going to",
+        "start": 818.0,
+        "duration": 1.6
+    },
+    {
+        "text": "Brilliant.org/Numberphile",
+        "start": 819.6,
+        "duration": 3.28
+    },
+    {
+        "text": "the address there on the screen.",
+        "start": 822.88,
+        "duration": 2.0
+    },
+    {
+        "text": "Check them out, you will not be",
+        "start": 824.88,
+        "duration": 1.6
+    },
+    {
+        "text": "disappointed.",
+        "start": 826.48,
+        "duration": 1.16
+    },
+    {
+        "text": "Check out the links in the video",
+        "start": 829.839,
+        "duration": 1.12
+    },
+    {
+        "text": "description, we've got a bit of bonus",
+        "start": 830.959,
+        "duration": 1.601
+    },
+    {
+        "text": "footage on our Numberphile2 channel -",
+        "start": 832.56,
+        "duration": 2.399
+    },
+    {
+        "text": "behind the scenes on the recording of",
+        "start": 834.959,
+        "duration": 1.68
+    },
+    {
+        "text": "our tower of Hanoi video - and there are",
+        "start": 836.639,
+        "duration": 2.081
+    },
+    {
+        "text": "also links to Ayliean's work on social",
+        "start": 838.72,
+        "duration": 2.4
+    },
+    {
+        "text": "media. She's especially big on TikTok",
+        "start": 841.12,
+        "duration": 2.48
+    },
+    {
+        "text": "I'm led to believe, but she's doing",
+        "start": 843.6,
+        "duration": 1.2
+    },
+    {
+        "text": "really great stuff so check it out.",
+        "start": 844.8,
+        "duration": 4.0
+    }
+]

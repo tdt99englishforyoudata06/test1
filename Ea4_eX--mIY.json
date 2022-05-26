@@ -1,0 +1,572 @@
+[
+    {
+        "text": "Thanks to Brilliant for supporting this episode\nof SciShow.",
+        "start": 0.089,
+        "duration": 2.86
+    },
+    {
+        "text": "Go to Brilliant.org/SciShow to learn how you\ncan take your STEM skills",
+        "start": 2.949,
+        "duration": 3.981
+    },
+    {
+        "text": "to the next level!",
+        "start": 6.93,
+        "duration": 0.952
+    },
+    {
+        "text": "[♪ INTRO]",
+        "start": 7.882,
+        "duration": 3.302
+    },
+    {
+        "text": "One of the trickiest issues in science has\nalways been small studies.",
+        "start": 11.184,
+        "duration": 4.059
+    },
+    {
+        "text": "Like, how much do the results of small studies",
+        "start": 15.243,
+        "duration": 2.367
+    },
+    {
+        "text": "actually tell you about a broader population?",
+        "start": 17.61,
+        "duration": 2.84
+    },
+    {
+        "text": "And how much of their results are just random\nnoise?",
+        "start": 20.45,
+        "duration": 2.55
+    },
+    {
+        "text": "Fortunately, these days, we do have a way",
+        "start": 23.0,
+        "duration": 1.57
+    },
+    {
+        "text": "to gauge how much we can trust small studies.",
+        "start": 24.57,
+        "duration": 2.42
+    },
+    {
+        "text": "And it’s all thanks to a beer brewer",
+        "start": 26.99,
+        "duration": 2.51
+    },
+    {
+        "text": "working at Guinness Brewery in the early 1900s.",
+        "start": 29.5,
+        "duration": 2.89
+    },
+    {
+        "text": "Today, a simple statistical test that was\ninvented to assess beer quality is one of",
+        "start": 32.39,
+        "duration": 4.91
+    },
+    {
+        "text": "the most important tests used in biology,\nmedicine, and some other scientific fields.",
+        "start": 37.3,
+        "duration": 4.77
+    },
+    {
+        "text": "The guy at the heart of this story is William\nSealy Gosset,",
+        "start": 42.07,
+        "duration": 3.1
+    },
+    {
+        "text": "a British chemist and mathematician born in\n1876.",
+        "start": 45.17,
+        "duration": 3.16
+    },
+    {
+        "text": "Gosset had enjoyed experimenting and inventing\nthings from a young age,",
+        "start": 48.33,
+        "duration": 4.069
+    },
+    {
+        "text": "and he studied math and chemistry",
+        "start": 52.399,
+        "duration": 1.491
+    },
+    {
+        "text": "at both the University of Winchester and at\nOxford.",
+        "start": 53.89,
+        "duration": 2.73
+    },
+    {
+        "text": "Then, when he was just 23, he got a job at\nGuinness as a brewer",
+        "start": 56.62,
+        "duration": 3.63
+    },
+    {
+        "text": "in other words, a beer chemist.",
+        "start": 60.25,
+        "duration": 2.38
+    },
+    {
+        "text": "Back when Gosset was hired, Guinness was still\na pretty small operation,",
+        "start": 62.63,
+        "duration": 4.129
+    },
+    {
+        "text": "and their brewing process wasn’t much of\na science.",
+        "start": 66.759,
+        "duration": 2.371
+    },
+    {
+        "text": "Basically, they would mix some barley or other\ngrain with flavored water",
+        "start": 69.13,
+        "duration": 3.12
+    },
+    {
+        "text": "and let the yeast do its thing.",
+        "start": 72.25,
+        "duration": 1.439
+    },
+    {
+        "text": "The solution would ferment, and in just over\na week, voilà!",
+        "start": 73.689,
+        "duration": 3.692
+    },
+    {
+        "text": "Beer.",
+        "start": 77.381,
+        "duration": 0.728
+    },
+    {
+        "text": "Along the way, brewers would sample and sniff\ntheir products…",
+        "start": 78.109,
+        "duration": 2.781
+    },
+    {
+        "text": "and that was how they kept the quality consistent.",
+        "start": 80.89,
+        "duration": 2.119
+    },
+    {
+        "text": "But now Guinness was looking to start brewing\nbeer on an industrial scale.",
+        "start": 83.009,
+        "duration": 4.731
+    },
+    {
+        "text": "So sniff and taste tests weren’t going to\ncut it anymore.",
+        "start": 87.74,
+        "duration": 3.369
+    },
+    {
+        "text": "It just wasn’t practical to have someone\nsampling that much stuff",
+        "start": 91.109,
+        "duration": 3.08
+    },
+    {
+        "text": "every step of the way.",
+        "start": 94.189,
+        "duration": 1.171
+    },
+    {
+        "text": "But they needed some way to guarantee that\nthe quality of their beer",
+        "start": 95.36,
+        "duration": 3.169
+    },
+    {
+        "text": "was still good—and consistent.",
+        "start": 98.529,
+        "duration": 2.32
+    },
+    {
+        "text": "Without wasting too much time or money.",
+        "start": 100.849,
+        "duration": 1.8
+    },
+    {
+        "text": "That was Gosset’s challenge.",
+        "start": 102.649,
+        "duration": 1.481
+    },
+    {
+        "text": "For instance, one of his specific projects\nwas to compare the sugar content",
+        "start": 104.13,
+        "duration": 4.009
+    },
+    {
+        "text": "in the barley malt extract from different\nbatches.",
+        "start": 108.139,
+        "duration": 2.561
+    },
+    {
+        "text": "This sugar is what feeds the yeast,",
+        "start": 110.7,
+        "duration": 1.899
+    },
+    {
+        "text": "so any differences can change the outcome\nof the beer.",
+        "start": 112.599,
+        "duration": 2.501
+    },
+    {
+        "text": "But Gosset could only use a small set of samples\nto make this comparison.",
+        "start": 115.1,
+        "duration": 3.99
+    },
+    {
+        "text": "And he knew that any difference between the\nsets",
+        "start": 119.09,
+        "duration": 2.68
+    },
+    {
+        "text": "could possibly mean one of two things:",
+        "start": 121.77,
+        "duration": 2.4
+    },
+    {
+        "text": "It could mean the two batches had different\nconcentrations of sugar…",
+        "start": 124.17,
+        "duration": 3.78
+    },
+    {
+        "text": "But it could also just mean that at least\none of the samples",
+        "start": 127.95,
+        "duration": 3.259
+    },
+    {
+        "text": "had a different average concentration than\nthe batch it came from.",
+        "start": 131.209,
+        "duration": 3.441
+    },
+    {
+        "text": "Maybe the batch wasn’t uniformly mixed,\nor something fluke-y like that.",
+        "start": 134.65,
+        "duration": 3.809
+    },
+    {
+        "text": "Basically, he was running into the same problem",
+        "start": 138.459,
+        "duration": 1.62
+    },
+    {
+        "text": "scientists have with any small study:",
+        "start": 140.079,
+        "duration": 2.13
+    },
+    {
+        "text": "It’s easy to randomly select samples that\ndon’t really represent the whole batch.",
+        "start": 142.209,
+        "duration": 4.581
+    },
+    {
+        "text": "It’s like if you wanted to estimate the\naverage cost of a home in a certain town,",
+        "start": 146.79,
+        "duration": 3.73
+    },
+    {
+        "text": "but you only sampled the price of ten houses.",
+        "start": 150.52,
+        "duration": 2.6
+    },
+    {
+        "text": "That wouldn't necessarily tell you much of\nanything about the town as a whole.",
+        "start": 153.12,
+        "duration": 3.17
+    },
+    {
+        "text": "So, Gosset realized that his key challenge\nwas how to figure out",
+        "start": 156.29,
+        "duration": 3.339
+    },
+    {
+        "text": "whether or not a given sample set made a reliable\nproxy for the whole batch.",
+        "start": 159.629,
+        "duration": 5.06
+    },
+    {
+        "text": "And so far, statisticians hadn’t bothered\nto investigate small samples,",
+        "start": 164.689,
+        "duration": 4.201
+    },
+    {
+        "text": "since they weren’t considered useful for\nanalyses.",
+        "start": 168.89,
+        "duration": 2.429
+    },
+    {
+        "text": "So this was uncharted territory.",
+        "start": 171.319,
+        "duration": 2.29
+    },
+    {
+        "text": "But fortunately, Gosset’s stats background\ncame in handy here",
+        "start": 173.609,
+        "duration": 3.44
+    },
+    {
+        "text": "and he decided to figure it out himself.",
+        "start": 177.049,
+        "duration": 1.58
+    },
+    {
+        "text": "He compared the average concentration of small\nsets of samples",
+        "start": 178.629,
+        "duration": 3.34
+    },
+    {
+        "text": "to averages from much bigger sample sizes",
+        "start": 181.969,
+        "duration": 2.061
+    },
+    {
+        "text": "specifically, the classic bell curve called\na normal distribution.",
+        "start": 184.03,
+        "duration": 3.62
+    },
+    {
+        "text": "And he found that the smaller the sample size,",
+        "start": 187.65,
+        "duration": 2.649
+    },
+    {
+        "text": "the more different its mean concentration\ncould be from that of a large batch.",
+        "start": 190.299,
+        "duration": 4.341
+    },
+    {
+        "text": "So, to deal with this situation, Gosset developed\nthe concept of a t-distribution.",
+        "start": 194.64,
+        "duration": 4.76
+    },
+    {
+        "text": "A t-distribution looks a lot like your classic\nbell curve,",
+        "start": 199.4,
+        "duration": 3.349
+    },
+    {
+        "text": "which is used to depict a range of probabilities.",
+        "start": 202.749,
+        "duration": 2.201
+    },
+    {
+        "text": "Like, say you’re trying to get the distribution\nof test scores in a class.",
+        "start": 204.95,
+        "duration": 3.73
+    },
+    {
+        "text": "You’ve got the average score at the top\nof the bell,",
+        "start": 208.68,
+        "duration": 2.4
+    },
+    {
+        "text": "and the curve of the bell shows how much variability\nthere is.",
+        "start": 211.08,
+        "duration": 2.629
+    },
+    {
+        "text": "The difference is that while a normal bell\ncurve",
+        "start": 213.709,
+        "duration": 2.231
+    },
+    {
+        "text": "quickly trails off to zero on either end,\na t-distribution doesn’t.",
+        "start": 215.94,
+        "duration": 4.669
+    },
+    {
+        "text": "Instead, its ends slowly taper off, with long\ntails that represent",
+        "start": 220.609,
+        "duration": 4.311
+    },
+    {
+        "text": "the greater amount of noise, or unreliability,\nthat’s inherent in a small sample.",
+        "start": 224.92,
+        "duration": 4.899
+    },
+    {
+        "text": "Gosset’s t-distribution related the size\nof a set of samples",
+        "start": 229.819,
+        "duration": 3.261
+    },
+    {
+        "text": "to how much variability it was likely to have.",
+        "start": 233.08,
+        "duration": 2.269
+    },
+    {
+        "text": "And it came with a cutoff: a critical value.",
+        "start": 235.349,
+        "duration": 3.141
+    },
+    {
+        "text": "If the difference in concentrations between\ntwo sample sets was significantly bigger",
+        "start": 238.49,
+        "duration": 4.07
+    },
+    {
+        "text": "than this value, he could be pretty sure that\nthe difference really existed",
+        "start": 242.56,
+        "duration": 3.75
+    },
+    {
+        "text": "in the larger batches he was actually trying\nto compare.",
+        "start": 246.31,
+        "duration": 2.75
+    },
+    {
+        "text": "If the difference was smaller, there was a\ngood chance that the batches",
+        "start": 249.06,
+        "duration": 3.049
+    },
+    {
+        "text": "were similar enough to be considered the same.",
+        "start": 252.109,
+        "duration": 2.1
+    },
+    {
+        "text": "He called this comparison a t-test.",
+        "start": 254.209,
+        "duration": 2.443
+    },
+    {
+        "text": "And the approach worked!",
+        "start": 256.652,
+        "duration": 1.068
+    },
+    {
+        "text": "The development of the t-test made it possible\nfor Guinness to industrialize",
+        "start": 257.72,
+        "duration": 3.62
+    },
+    {
+        "text": "with confidence and start brewing the massive\namounts of beer it puts out today.",
+        "start": 261.34,
+        "duration": 4.27
+    },
+    {
+        "text": "And more than a hundred years later, the t-test\nisn’t just for beer.",
+        "start": 265.61,
+        "duration": 4.04
+    },
+    {
+        "text": "It’s been adopted by all kinds of scientists",
+        "start": 269.65,
+        "duration": 2.32
+    },
+    {
+        "text": "needing to interpret their experimental results.",
+        "start": 271.97,
+        "duration": 2.37
+    },
+    {
+        "text": "Like, whether you need to compare the concentration\nof sodium",
+        "start": 274.34,
+        "duration": 3.19
+    },
+    {
+        "text": "in patients’ blood samples, or test which\nvariety of crop yields the starchiest wheat,",
+        "start": 277.53,
+        "duration": 4.699
+    },
+    {
+        "text": "the t-test is your go-to.",
+        "start": 282.229,
+        "duration": 1.521
+    },
+    {
+        "text": "Today, it’s known as the Student’s t-test",
+        "start": 283.75,
+        "duration": 3.21
+    },
+    {
+        "text": "not because it’s the bane of stats learners\neverywhere,",
+        "start": 286.96,
+        "duration": 2.959
+    },
+    {
+        "text": "but because Guinness would only allow Gosset",
+        "start": 289.919,
+        "duration": 2.051
+    },
+    {
+        "text": "to publish the results under a pen name.",
+        "start": 291.97,
+        "duration": 2.14
+    },
+    {
+        "text": "He seems to have pulled the name “Student”",
+        "start": 294.11,
+        "duration": 1.64
+    },
+    {
+        "text": "from a brand stamped on his lab notebook!",
+        "start": 295.75,
+        "duration": 2.19
+    },
+    {
+        "text": "But whether or not we know Gosset’s name,\nwe’ve probably all been touched",
+        "start": 297.94,
+        "duration": 3.539
+    },
+    {
+        "text": "by science that his test made possible and\nreliable",
+        "start": 301.479,
+        "duration": 3.25
+    },
+    {
+        "text": "so we can raise a glass to that!",
+        "start": 304.729,
+        "duration": 1.631
+    },
+    {
+        "text": "We hope we’ve whetted your appetite to learn\nmore about stats,",
+        "start": 306.36,
+        "duration": 3.08
+    },
+    {
+        "text": "because today’s episode is brought to you\nby Brilliant.",
+        "start": 309.44,
+        "duration": 2.229
+    },
+    {
+        "text": "And they’ve got loads of courses that will\nteach you all about stats.",
+        "start": 311.669,
+        "duration": 3.25
+    },
+    {
+        "text": "Like Random Variables and Distributions, which\nwill help you understand",
+        "start": 314.919,
+        "duration": 3.201
+    },
+    {
+        "text": "why Gosset had to invent a whole test just\nfor small sample sizes.",
+        "start": 318.12,
+        "duration": 4.12
+    },
+    {
+        "text": "But you don’t have to stop there, because\nBrilliant has courses in basic science,",
+        "start": 322.24,
+        "duration": 4.1
+    },
+    {
+        "text": "engineering, and computer science too.",
+        "start": 326.34,
+        "duration": 1.7
+    },
+    {
+        "text": "If you’re interested, you can head to brilliant.org/scishow,",
+        "start": 328.04,
+        "duration": 3.279
+    },
+    {
+        "text": "where you can sign up and get 20% off an annual\nPremium subscription.",
+        "start": 331.319,
+        "duration": 3.379
+    },
+    {
+        "text": "And thanks for checking them out!",
+        "start": 334.698,
+        "duration": 1.382
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 336.08,
+        "duration": 10.14
+    }
+]

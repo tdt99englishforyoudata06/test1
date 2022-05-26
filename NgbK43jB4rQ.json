@@ -1,0 +1,1602 @@
+[
+    {
+        "text": "So let's talk about the four color theorem!",
+        "start": 0.0,
+        "duration": 2.2
+    },
+    {
+        "text": "It's a favorite with mathematicians.",
+        "start": 2.2,
+        "duration": 2.2
+    },
+    {
+        "text": "It's easy to state,",
+        "start": 4.4,
+        "duration": 2.6
+    },
+    {
+        "text": "so the statement is, every map can be colored using four colors,",
+        "start": 7.0,
+        "duration": 5.54
+    },
+    {
+        "text": "such that two neighboring countries are different colors.",
+        "start": 12.54,
+        "duration": 4.12
+    },
+    {
+        "text": "That would be confusing if it wasn't.",
+        "start": 16.66,
+        "duration": 2.04
+    },
+    {
+        "text": "So all maps can be done in four colors.",
+        "start": 18.7,
+        "duration": 3.3
+    },
+    {
+        "text": "In other words I'm saying there are no maps that need five colors.",
+        "start": 22.0,
+        "duration": 4.32
+    },
+    {
+        "text": "It's not obvious,",
+        "start": 26.32,
+        "duration": 1.04
+    },
+    {
+        "text": "and you'd think more complicated maps would need more colors,",
+        "start": 27.36,
+        "duration": 3.5
+    },
+    {
+        "text": "but apparently all maps can be done with just four colors or better.",
+        "start": 30.86,
+        "duration": 4.64
+    },
+    {
+        "text": "So this problem was unsolved for a long time.",
+        "start": 35.5,
+        "duration": 3.7
+    },
+    {
+        "text": "125 years, it was unsolved.",
+        "start": 39.2,
+        "duration": 2.5
+    },
+    {
+        "text": "It was solved finally in the 1970s,",
+        "start": 41.7,
+        "duration": 3.06
+    },
+    {
+        "text": "although the method they used to solve it was a little controversial at the time,",
+        "start": 44.76,
+        "duration": 5.26
+    },
+    {
+        "text": "but has had a large effect on mathematics today.",
+        "start": 50.02,
+        "duration": 4.0
+    },
+    {
+        "text": "So the story of how this problem came around is kind of cute.",
+        "start": 54.02,
+        "duration": 3.82
+    },
+    {
+        "text": "Apparently there was a guy who was trying to color in the counties of Britain.",
+        "start": 57.84,
+        "duration": 5.38
+    },
+    {
+        "text": "I don't know why he was trying to do that, but he was,",
+        "start": 63.22,
+        "duration": 2.64
+    },
+    {
+        "text": "and he suspected he could do it using four colors.",
+        "start": 65.86,
+        "duration": 3.28
+    },
+    {
+        "text": "And he mentioned it to his brother, and his brother was a Maths student.",
+        "start": 69.14,
+        "duration": 3.04
+    },
+    {
+        "text": "And his brother mentioned it to his lecturer who was a man called Augustus De Morgan.",
+        "start": 72.18,
+        "duration": 4.5
+    },
+    {
+        "text": "He's a famous mathematician, and, well, it was De Morgan who spread this problem around.",
+        "start": 76.68,
+        "duration": 4.6
+    },
+    {
+        "text": "So to prove it,",
+        "start": 81.28,
+        "duration": 0.94
+    },
+    {
+        "text": "we either need to show that every map can be done with four colors or better,",
+        "start": 82.22,
+        "duration": 5.68
+    },
+    {
+        "text": "or we just need to find one example that needs five colors.",
+        "start": 87.9,
+        "duration": 5.42
+    },
+    {
+        "text": "So people were trying it.",
+        "start": 93.32,
+        "duration": 1.62
+    },
+    {
+        "text": "And if you try it with maps, it does work.",
+        "start": 94.94,
+        "duration": 2.54
+    },
+    {
+        "text": "If you try it with the map of the world, you can color it with four colors.",
+        "start": 97.48,
+        "duration": 5.1
+    },
+    {
+        "text": "If you try it with the map of the United States, you can do it with four colors.",
+        "start": 102.58,
+        "duration": 4.64
+    },
+    {
+        "text": "You can try any real map, you can do it with four colors.",
+        "start": 107.22,
+        "duration": 4.0
+    },
+    {
+        "text": "I mean you can get this problem to children, right, you want to keep them quiet.",
+        "start": 111.22,
+        "duration": 2.96
+    },
+    {
+        "text": "After a while, you start to think,",
+        "start": 114.18,
+        "duration": 1.8
+    },
+    {
+        "text": "\"Well, maybe I'll need to invent a map.",
+        "start": 115.98,
+        "duration": 3.26
+    },
+    {
+        "text": "Maybe if I can invent a weird, complicated map,",
+        "start": 119.24,
+        "duration": 3.8
+    },
+    {
+        "text": "I can find one that needs five colors.\"",
+        "start": 123.04,
+        "duration": 3.0
+    },
+    {
+        "text": "So that's what you start to do -- doesn't look like any sort of real-life map.",
+        "start": 126.04,
+        "duration": 4.54
+    },
+    {
+        "text": "So we got this map, and now we're going to color it in.",
+        "start": 130.58,
+        "duration": 1.84
+    },
+    {
+        "text": "So let's start with the middle; I think orange.",
+        "start": 132.44,
+        "duration": 3.44
+    },
+    {
+        "text": "Next country has to be a different color, so I'm using the purple here.",
+        "start": 135.88,
+        "duration": 3.5
+    },
+    {
+        "text": "Let's try the next country;",
+        "start": 139.38,
+        "duration": 2.12
+    },
+    {
+        "text": "so this is all fairly simple -- I can't use purple, I can't use orange, because they're touching --",
+        "start": 141.5,
+        "duration": 4.4
+    },
+    {
+        "text": "I'll use the blue.",
+        "start": 145.9,
+        "duration": 2.86
+    },
+    {
+        "text": "Next one, uh, what do you want, what do you want, Brady?",
+        "start": 148.76,
+        "duration": 2.56
+    },
+    {
+        "text": "[Brady] Well, we can't use blue or orange...\n[Dr. Grime] Mm.",
+        "start": 151.32,
+        "duration": 3.22
+    },
+    {
+        "text": "[Brady] Oh we could use purple again!",
+        "start": 154.54,
+        "duration": 1.7
+    },
+    {
+        "text": "[Dr. Grime] Ah, wise. That is a wise choice.",
+        "start": 156.24,
+        "duration": 3.14
+    },
+    {
+        "text": "Let's use purple again.",
+        "start": 159.38,
+        "duration": 0.94
+    },
+    {
+        "text": "Why not? Let's not go to the expense of using a fourth color.",
+        "start": 160.32,
+        "duration": 4.4
+    },
+    {
+        "text": "So now let's do this one.",
+        "start": 164.72,
+        "duration": 1.18
+    },
+    {
+        "text": "[Brady] We can use blue again.",
+        "start": 165.9,
+        "duration": 1.44
+    },
+    {
+        "text": "[Dr. Grime] And we can use blue again for that one, excellent.",
+        "start": 167.34,
+        "duration": 2.24
+    },
+    {
+        "text": "That might put us in a good position when we do the next country.",
+        "start": 169.58,
+        "duration": 3.66
+    },
+    {
+        "text": "So here we've got --",
+        "start": 173.24,
+        "duration": 1.44
+    },
+    {
+        "text": "we can't use blue, we can't use purple; what should we use?",
+        "start": 174.68,
+        "duration": 3.54
+    },
+    {
+        "text": "[Brady] We can use orange again.\n[Dr. Grime] We can use orange, why not?",
+        "start": 178.22,
+        "duration": 3.44
+    },
+    {
+        "text": "Uh, do you wanna use the orange on the opposite one?",
+        "start": 181.66,
+        "duration": 2.7
+    },
+    {
+        "text": "So we'll do this one in orange...",
+        "start": 184.36,
+        "duration": 1.42
+    },
+    {
+        "text": "[Brady] And now we need a fourth color.",
+        "start": 185.78,
+        "duration": 2.24
+    },
+    {
+        "text": "[Dr. Grime] We do need -- we have to go to the fourth color, do we?",
+        "start": 188.02,
+        "duration": 2.7
+    },
+    {
+        "text": "Yeah, yeah, yep, purple, blue and orange are being used;",
+        "start": 190.72,
+        "duration": 4.02
+    },
+    {
+        "text": "this does have to go into the fourth color.",
+        "start": 194.74,
+        "duration": 2.36
+    },
+    {
+        "text": "I've got pink here. On the opposite side, it's the same, obviously; I'll use pink over here.",
+        "start": 197.1,
+        "duration": 4.38
+    },
+    {
+        "text": "It looks like we had to use four colors for that.",
+        "start": 201.48,
+        "duration": 1.96
+    },
+    {
+        "text": "So okay, so this is a map",
+        "start": 203.44,
+        "duration": 1.88
+    },
+    {
+        "text": "that was solvable with four colors.",
+        "start": 205.32,
+        "duration": 2.28
+    },
+    {
+        "text": "Here's another important map. I'm gonna make",
+        "start": 207.6,
+        "duration": 2.639
+    },
+    {
+        "text": "it like that. There's only four",
+        "start": 210.239,
+        "duration": 1.711
+    },
+    {
+        "text": "countries, but if we try and color it in,",
+        "start": 211.95,
+        "duration": 2.55
+    },
+    {
+        "text": "Uh, I'll do something similar. I'll do",
+        "start": 214.5,
+        "duration": 1.83
+    },
+    {
+        "text": "the orange in the middle again, purple up here.",
+        "start": 216.33,
+        "duration": 4.09
+    },
+    {
+        "text": "Well this one can't be purple; it",
+        "start": 220.42,
+        "duration": 1.94
+    },
+    {
+        "text": "can't be orange. That means it's blue and this",
+        "start": 222.36,
+        "duration": 3.5
+    },
+    {
+        "text": "country it can't be orange; it can't be",
+        "start": 225.87,
+        "duration": 3.089
+    },
+    {
+        "text": "purple; it can't be blue; so I'm forced to",
+        "start": 228.959,
+        "duration": 2.791
+    },
+    {
+        "text": "use the fourth color which is the pink.",
+        "start": 231.75,
+        "duration": 2.31
+    },
+    {
+        "text": "So this is an example of a map that",
+        "start": 236.1,
+        "duration": 1.4
+    },
+    {
+        "text": "definitely needs four colors so we're",
+        "start": 237.51,
+        "duration": 2.43
+    },
+    {
+        "text": "going to boil the problem down a little",
+        "start": 239.94,
+        "duration": 1.53
+    },
+    {
+        "text": "bit. Let's say I took this map again -- I'll",
+        "start": 241.47,
+        "duration": 3.21
+    },
+    {
+        "text": "draw it here. Same map. Instead of coloring in",
+        "start": 244.68,
+        "duration": 2.37
+    },
+    {
+        "text": "all the sections, let's just say I color",
+        "start": 247.05,
+        "duration": 2.03
+    },
+    {
+        "text": "in at the center of each region.",
+        "start": 249.08,
+        "duration": 2.04
+    },
+    {
+        "text": "That'll just get the same idea won't it? I don't",
+        "start": 251.38,
+        "duration": 2.8
+    },
+    {
+        "text": "have to use all that ink. and maybe",
+        "start": 254.19,
+        "duration": 2.19
+    },
+    {
+        "text": "instead of drawing out the whole map",
+        "start": 256.38,
+        "duration": 1.829
+    },
+    {
+        "text": "maybe if I just said if two countries",
+        "start": 258.209,
+        "duration": 2.25
+    },
+    {
+        "text": "are touching each other, they share a",
+        "start": 260.459,
+        "duration": 2.281
+    },
+    {
+        "text": "border. Right, I'll just connect them with",
+        "start": 262.74,
+        "duration": 1.86
+    },
+    {
+        "text": "a line. What I've made is I turn that",
+        "start": 264.6,
+        "duration": 3.0
+    },
+    {
+        "text": "map into a network so this map has made",
+        "start": 267.6,
+        "duration": 3.81
+    },
+    {
+        "text": "this network and the question \"Can this",
+        "start": 271.41,
+        "duration": 2.49
+    },
+    {
+        "text": "map be colored using four colors or",
+        "start": 273.9,
+        "duration": 3.21
+    },
+    {
+        "text": "better?\" is the same question of saying",
+        "start": 277.11,
+        "duration": 2.25
+    },
+    {
+        "text": "\"can this network be colored using four",
+        "start": 279.36,
+        "duration": 3.54
+    },
+    {
+        "text": "colors or better such that two countries",
+        "start": 282.9,
+        "duration": 3.18
+    },
+    {
+        "text": "that are connected with a line are not",
+        "start": 286.08,
+        "duration": 1.83
+    },
+    {
+        "text": "the same color?\" So it kind of boils down",
+        "start": 287.91,
+        "duration": 2.7
+    },
+    {
+        "text": "the problem; it makes it more abstract",
+        "start": 290.61,
+        "duration": 1.74
+    },
+    {
+        "text": "but that's actually a good thing. it",
+        "start": 292.35,
+        "duration": 2.16
+    },
+    {
+        "text": "makes it easier to solve, there are",
+        "start": 294.51,
+        "duration": 1.83
+    },
+    {
+        "text": "things we can learn now about maps by",
+        "start": 296.34,
+        "duration": 1.92
+    },
+    {
+        "text": "studying networks instead. So the reason",
+        "start": 298.26,
+        "duration": 2.04
+    },
+    {
+        "text": "we want to use networks; for a start, it",
+        "start": 300.3,
+        "duration": 2.25
+    },
+    {
+        "text": "shows when two maps are the same. I'll",
+        "start": 302.55,
+        "duration": 2.49
+    },
+    {
+        "text": "show you what I mean. What about if I had a",
+        "start": 305.04,
+        "duration": 1.62
+    },
+    {
+        "text": "map that looks like this yeah so this",
+        "start": 306.66,
+        "duration": 4.56
+    },
+    {
+        "text": "this map looks like a handbag as Brady",
+        "start": 311.22,
+        "duration": 2.61
+    },
+    {
+        "text": "just told me, but if we draw the network",
+        "start": 313.83,
+        "duration": 2.58
+    },
+    {
+        "text": "for this map, so I'm just going to put",
+        "start": 316.41,
+        "duration": 2.16
+    },
+    {
+        "text": "a dot in each region and then I'll",
+        "start": 318.57,
+        "duration": 3.21
+    },
+    {
+        "text": "connect them if they're connected like",
+        "start": 321.78,
+        "duration": 2.4
+    },
+    {
+        "text": "this. You will find that you get the same",
+        "start": 324.18,
+        "duration": 5.07
+    },
+    {
+        "text": "network as this previous map we did. So",
+        "start": 329.25,
+        "duration": 3.84
+    },
+    {
+        "text": "just 4 countries again, it gives me the",
+        "start": 333.09,
+        "duration": 2.13
+    },
+    {
+        "text": "same network -- it is effectively the same map",
+        "start": 335.22,
+        "duration": 2.19
+    },
+    {
+        "text": "even though it looks different. So by",
+        "start": 337.41,
+        "duration": 2.07
+    },
+    {
+        "text": "studying networks we can study all the",
+        "start": 339.48,
+        "duration": 2.52
+    },
+    {
+        "text": "different kinds of maps even when they",
+        "start": 342.0,
+        "duration": 1.23
+    },
+    {
+        "text": "look different. Now all maps make",
+        "start": 343.23,
+        "duration": 2.07
+    },
+    {
+        "text": "networks but not all network are valid",
+        "start": 345.3,
+        "duration": 3.78
+    },
+    {
+        "text": "maps. I'll show you what I mean this is",
+        "start": 349.08,
+        "duration": 3.24
+    },
+    {
+        "text": "not going to be a valid map and I'm",
+        "start": 352.32,
+        "duration": 1.8
+    },
+    {
+        "text": "going to say they're all going to be touching",
+        "start": 354.12,
+        "duration": 1.71
+    },
+    {
+        "text": "each other. They're all mutually touching",
+        "start": 355.83,
+        "duration": 2.04
+    },
+    {
+        "text": "countries. They all share borders so it",
+        "start": 357.87,
+        "duration": 4.65
+    },
+    {
+        "text": "looks like -- if I got this right -- looks like",
+        "start": 362.52,
+        "duration": 2.76
+    },
+    {
+        "text": "that. Now this is not going to be a valid",
+        "start": 365.28,
+        "duration": 3.99
+    },
+    {
+        "text": "map, because if you try and turn that",
+        "start": 369.27,
+        "duration": 1.65
+    },
+    {
+        "text": "into a map it's not going to work. The",
+        "start": 370.92,
+        "duration": 2.49
+    },
+    {
+        "text": "problem is the lines cross which when",
+        "start": 373.41,
+        "duration": 2.34
+    },
+    {
+        "text": "you try and turn it into a map doesn't",
+        "start": 375.75,
+        "duration": 1.62
+    },
+    {
+        "text": "make sense. You can try but it just",
+        "start": 377.37,
+        "duration": 3.15
+    },
+    {
+        "text": "doesn't make sense. It is allowed if we",
+        "start": 380.52,
+        "duration": 2.31
+    },
+    {
+        "text": "can untangle the lines and that might",
+        "start": 382.83,
+        "duration": 1.86
+    },
+    {
+        "text": "happen. i'll show you what i mean so say",
+        "start": 384.69,
+        "duration": 1.98
+    },
+    {
+        "text": "these are countries here and let's say",
+        "start": 386.67,
+        "duration": 3.27
+    },
+    {
+        "text": "these countries touch each other as well",
+        "start": 389.94,
+        "duration": 2.07
+    },
+    {
+        "text": "so i would connect them with a line, but",
+        "start": 392.01,
+        "duration": 2.7
+    },
+    {
+        "text": "if I do that you see the lines cross. I",
+        "start": 394.71,
+        "duration": 1.769
+    },
+    {
+        "text": "don't have to do it that way: I could",
+        "start": 396.479,
+        "duration": 1.981
+    },
+    {
+        "text": "have drawn a line like that. So I could",
+        "start": 398.46,
+        "duration": 3.209
+    },
+    {
+        "text": "have untangled that. So if I can untangle it",
+        "start": 401.669,
+        "duration": 2.771
+    },
+    {
+        "text": "that's fine. That's a valid map. And by",
+        "start": 404.44,
+        "duration": 2.22
+    },
+    {
+        "text": "studying networks there are some features",
+        "start": 406.66,
+        "duration": 1.95
+    },
+    {
+        "text": "of maps that we can learn by looking at",
+        "start": 408.61,
+        "duration": 2.94
+    },
+    {
+        "text": "networks, this one in particular. In any",
+        "start": 411.55,
+        "duration": 3.36
+    },
+    {
+        "text": "map you're going to have a country let's",
+        "start": 414.91,
+        "duration": 1.8
+    },
+    {
+        "text": "call it A. Country A. Right, there's going",
+        "start": 416.71,
+        "duration": 3.3
+    },
+    {
+        "text": "to be a country in every map that's",
+        "start": 420.01,
+        "duration": 1.32
+    },
+    {
+        "text": "either just by itself,  like an",
+        "start": 421.33,
+        "duration": 5.16
+    },
+    {
+        "text": "island, or country A is connected to one",
+        "start": 426.49,
+        "duration": 4.71
+    },
+    {
+        "text": "other country; that might happen.",
+        "start": 431.2,
+        "duration": 1.8
+    },
+    {
+        "text": "Or country A is connected to two other",
+        "start": 433.0,
+        "duration": 3.36
+    },
+    {
+        "text": "countries, so you'll get a network that",
+        "start": 436.36,
+        "duration": 2.4
+    },
+    {
+        "text": "looks like that. That'd be country A",
+        "start": 438.76,
+        "duration": 1.29
+    },
+    {
+        "text": "there in the middle, or you might have",
+        "start": 440.05,
+        "duration": 2.25
+    },
+    {
+        "text": "country A which is connected to three",
+        "start": 442.3,
+        "duration": 1.71
+    },
+    {
+        "text": "countries, this all seems perfectly",
+        "start": 444.01,
+        "duration": 2.04
+    },
+    {
+        "text": "reasonable. That's A in the center. Country A",
+        "start": 446.05,
+        "duration": 3.39
+    },
+    {
+        "text": "could be connected to 4 countries, (now put A in),",
+        "start": 449.44,
+        "duration": 6.4
+    },
+    {
+        "text": "or country A could be connected",
+        "start": 455.84,
+        "duration": 1.88
+    },
+    {
+        "text": "to 5 countries. And that all seems",
+        "start": 457.72,
+        "duration": 4.17
+    },
+    {
+        "text": "reasonable, but every map will have at",
+        "start": 461.89,
+        "duration": 3.39
+    },
+    {
+        "text": "least one country that looks like one of",
+        "start": 465.28,
+        "duration": 2.43
+    },
+    {
+        "text": "these. What you can't have is every",
+        "start": 467.71,
+        "duration": 3.42
+    },
+    {
+        "text": "country connected to six other countries",
+        "start": 471.13,
+        "duration": 3.81
+    },
+    {
+        "text": "or more. All I'm saying is there is at",
+        "start": 474.94,
+        "duration": 1.89
+    },
+    {
+        "text": "least one country in that map that's",
+        "start": 476.83,
+        "duration": 2.43
+    },
+    {
+        "text": "either connected to one, or two, or three,",
+        "start": 479.26,
+        "duration": 2.46
+    },
+    {
+        "text": "or four, or five. But if you have a map",
+        "start": 481.72,
+        "duration": 2.52
+    },
+    {
+        "text": "where they're all mutually connected to",
+        "start": 484.24,
+        "duration": 2.31
+    },
+    {
+        "text": "six or more countries, that's a network",
+        "start": 486.55,
+        "duration": 3.21
+    },
+    {
+        "text": "that can't be untangled. So all maps have",
+        "start": 489.76,
+        "duration": 2.55
+    },
+    {
+        "text": "this feature one of the countries is one",
+        "start": 492.31,
+        "duration": 3.03
+    },
+    {
+        "text": "of these on this list. Now we can start",
+        "start": 495.34,
+        "duration": 2.67
+    },
+    {
+        "text": "talking about the four color theorem",
+        "start": 498.01,
+        "duration": 1.53
+    },
+    {
+        "text": "this is actually going to be useful. So the",
+        "start": 499.54,
+        "duration": 2.79
+    },
+    {
+        "text": "four color theorem is hard to prove and",
+        "start": 502.33,
+        "duration": 2.55
+    },
+    {
+        "text": "they tried for a long time, like I said",
+        "start": 504.88,
+        "duration": 1.62
+    },
+    {
+        "text": "it took 125 years. They did manage to",
+        "start": 506.5,
+        "duration": 4.35
+    },
+    {
+        "text": "prove easier versions of the four color",
+        "start": 510.85,
+        "duration": 2.58
+    },
+    {
+        "text": "theorem. So the four color theorem means",
+        "start": 513.43,
+        "duration": 2.16
+    },
+    {
+        "text": "there are no maps that need five colors.",
+        "start": 515.59,
+        "duration": 2.79
+    },
+    {
+        "text": "I can probably prove that there are no",
+        "start": 518.38,
+        "duration": 1.74
+    },
+    {
+        "text": "maps that need seven colors. That's",
+        "start": 520.12,
+        "duration": 2.07
+    },
+    {
+        "text": "probably easier to explain okay. I'm",
+        "start": 522.19,
+        "duration": 2.94
+    },
+    {
+        "text": "going to have a go. Okay imagine there",
+        "start": 525.13,
+        "duration": 4.32
+    },
+    {
+        "text": "are maps that need seven colors. These",
+        "start": 529.45,
+        "duration": 2.67
+    },
+    {
+        "text": "are maps that can't be done with better,",
+        "start": 532.12,
+        "duration": 1.44
+    },
+    {
+        "text": "right, so there are maps that need",
+        "start": 533.56,
+        "duration": 2.23
+    },
+    {
+        "text": "seven. Pick the smallest one, okay, so",
+        "start": 535.79,
+        "duration": 2.73
+    },
+    {
+        "text": "you've got a small one. Now, because it's",
+        "start": 538.52,
+        "duration": 2.79
+    },
+    {
+        "text": "a map it's going to contain a country",
+        "start": 541.31,
+        "duration": 2.31
+    },
+    {
+        "text": "which is going to be one of these A's",
+        "start": 543.62,
+        "duration": 1.71
+    },
+    {
+        "text": "that I've called here on this list. So",
+        "start": 545.33,
+        "duration": 3.27
+    },
+    {
+        "text": "take that country and pull it out, just",
+        "start": 548.6,
+        "duration": 2.82
+    },
+    {
+        "text": "delete it, take it away. you've made a",
+        "start": 551.42,
+        "duration": 2.22
+    },
+    {
+        "text": "smaller map. Now, because it's a smaller",
+        "start": 553.64,
+        "duration": 2.25
+    },
+    {
+        "text": "map, that means you can do it in six",
+        "start": 555.89,
+        "duration": 3.45
+    },
+    {
+        "text": "colors. Do you remember, the map I had was",
+        "start": 559.34,
+        "duration": 2.88
+    },
+    {
+        "text": "the smallest that had to use seven? So if",
+        "start": 562.22,
+        "duration": 3.09
+    },
+    {
+        "text": "I take a country away, smaller, I can do",
+        "start": 565.31,
+        "duration": 2.22
+    },
+    {
+        "text": "it with six, great. If I put my country A",
+        "start": 567.53,
+        "duration": 3.06
+    },
+    {
+        "text": "back in, that means i have a spare color",
+        "start": 570.59,
+        "duration": 3.12
+    },
+    {
+        "text": "to use for A.  I mean the worst case",
+        "start": 573.71,
+        "duration": 2.43
+    },
+    {
+        "text": "scenario is this last one here. and these",
+        "start": 576.14,
+        "duration": 2.76
+    },
+    {
+        "text": "could be all different colors. If I",
+        "start": 578.9,
+        "duration": 2.13
+    },
+    {
+        "text": "put A back in I'm still going to have a",
+        "start": 581.03,
+        "duration": 2.01
+    },
+    {
+        "text": "spare color, a sixth color that i can use,",
+        "start": 583.04,
+        "duration": 1.98
+    },
+    {
+        "text": "which shows that the map can be done in",
+        "start": 585.02,
+        "duration": 3.15
+    },
+    {
+        "text": "six colors after all. Now to show that",
+        "start": 588.17,
+        "duration": 2.61
+    },
+    {
+        "text": "all maps can be done with five colors --",
+        "start": 590.78,
+        "duration": 1.92
+    },
+    {
+        "text": "that's a little bit harder, the proof is",
+        "start": 592.7,
+        "duration": 2.25
+    },
+    {
+        "text": "exactly the same, the proof is exactly",
+        "start": 594.95,
+        "duration": 2.01
+    },
+    {
+        "text": "the same except, in this worst-case",
+        "start": 596.96,
+        "duration": 1.77
+    },
+    {
+        "text": "scenario, down here at the end here um",
+        "start": 598.73,
+        "duration": 2.61
+    },
+    {
+        "text": "it becomes harder, because if those are",
+        "start": 601.34,
+        "duration": 2.52
+    },
+    {
+        "text": "five different colors, and you put your",
+        "start": 603.86,
+        "duration": 2.49
+    },
+    {
+        "text": "country A back in, you might have to",
+        "start": 606.35,
+        "duration": 3.0
+    },
+    {
+        "text": "reuse a color which you don't want to do.",
+        "start": 609.35,
+        "duration": 1.77
+    },
+    {
+        "text": "So the argument's a bit more complicated.",
+        "start": 611.12,
+        "duration": 1.83
+    },
+    {
+        "text": "you have to show that you can recolor it,",
+        "start": 612.95,
+        "duration": 2.04
+    },
+    {
+        "text": "and you still have a spare color for A.",
+        "start": 614.99,
+        "duration": 3.21
+    },
+    {
+        "text": "So it's a harder proof but it's along",
+        "start": 618.2,
+        "duration": 2.28
+    },
+    {
+        "text": "the same lines. Then, they try to do it",
+        "start": 620.48,
+        "duration": 3.3
+    },
+    {
+        "text": "with four; can we show that all maps can",
+        "start": 623.78,
+        "duration": 2.79
+    },
+    {
+        "text": "be done with four colors? And that",
+        "start": 626.57,
+        "duration": 2.04
+    },
+    {
+        "text": "argument doesn't quite work. It just",
+        "start": 628.61,
+        "duration": 3.15
+    },
+    {
+        "text": "wasn't strong enough. So this went",
+        "start": 631.76,
+        "duration": 2.58
+    },
+    {
+        "text": "unsolved for a long time. There were some",
+        "start": 634.34,
+        "duration": 1.92
+    },
+    {
+        "text": "people who thought they'd proved it. They",
+        "start": 636.26,
+        "duration": 2.19
+    },
+    {
+        "text": "thought they'd actually done it and",
+        "start": 638.45,
+        "duration": 1.35
+    },
+    {
+        "text": "people accepted the proof, and they",
+        "start": 639.8,
+        "duration": 3.12
+    },
+    {
+        "text": "thought it was solved for a decade. We",
+        "start": 642.92,
+        "duration": 2.04
+    },
+    {
+        "text": "thought \"Oh! It's done.\" And then oh! They found a",
+        "start": 644.96,
+        "duration": 2.7
+    },
+    {
+        "text": "mistake and when actually that doesn't hold",
+        "start": 647.66,
+        "duration": 1.44
+    },
+    {
+        "text": "up and then \"Oh no, it wasn't proved.\"",
+        "start": 649.1,
+        "duration": 2.73
+    },
+    {
+        "text": "And we have to go back to square one, we have",
+        "start": 651.83,
+        "duration": 1.56
+    },
+    {
+        "text": "to find a way to prove this problem. So",
+        "start": 653.39,
+        "duration": 2.4
+    },
+    {
+        "text": "it took till the 1970s to solve this",
+        "start": 655.79,
+        "duration": 2.79
+    },
+    {
+        "text": "problem. So the final solution: it was",
+        "start": 658.58,
+        "duration": 3.72
+    },
+    {
+        "text": "done by two guys, Kenneth Appel and",
+        "start": 662.3,
+        "duration": 2.76
+    },
+    {
+        "text": "Wolfgang Haken from the University of",
+        "start": 665.06,
+        "duration": 3.12
+    },
+    {
+        "text": "Illinois.",
+        "start": 668.18,
+        "duration": 1.26
+    },
+    {
+        "text": "They did it in 1976. It's kind of similar to my proof I",
+        "start": 669.44,
+        "duration": 3.09
+    },
+    {
+        "text": "mentioned before. They made a list of",
+        "start": 672.53,
+        "duration": 3.0
+    },
+    {
+        "text": "networks and they said, every map must",
+        "start": 675.53,
+        "duration": 3.99
+    },
+    {
+        "text": "have at least one of these networks",
+        "start": 679.52,
+        "duration": 2.19
+    },
+    {
+        "text": "within it. And they showed that every map",
+        "start": 681.71,
+        "duration": 2.82
+    },
+    {
+        "text": "contains one of these networks. Each one",
+        "start": 684.53,
+        "duration": 3.18
+    },
+    {
+        "text": "of those networks can be colored with",
+        "start": 687.71,
+        "duration": 1.68
+    },
+    {
+        "text": "four colors or can be recolored with",
+        "start": 689.39,
+        "duration": 3.24
+    },
+    {
+        "text": "four colors. And that -- that is enough to",
+        "start": 692.63,
+        "duration": 2.28
+    },
+    {
+        "text": "show that every map can be done with",
+        "start": 694.91,
+        "duration": 2.58
+    },
+    {
+        "text": "four colors. Now it is a hard proof and a",
+        "start": 697.49,
+        "duration": 3.36
+    },
+    {
+        "text": "part of the problem was having to show",
+        "start": 700.85,
+        "duration": 2.31
+    },
+    {
+        "text": "that this list could be colored with",
+        "start": 703.16,
+        "duration": 2.97
+    },
+    {
+        "text": "four colors because it was a long list.",
+        "start": 706.13,
+        "duration": 2.07
+    },
+    {
+        "text": "There were -- how many networks was on this",
+        "start": 708.2,
+        "duration": 3.12
+    },
+    {
+        "text": "list? 1,938 [sic] networks, and to do that they",
+        "start": 711.32,
+        "duration": 4.74
+    },
+    {
+        "text": "used a computer. And that was",
+        "start": 716.06,
+        "duration": 2.7
+    },
+    {
+        "text": "controversial at the time. This was the",
+        "start": 718.76,
+        "duration": 2.37
+    },
+    {
+        "text": "first computer assisted proof in",
+        "start": 721.13,
+        "duration": 2.58
+    },
+    {
+        "text": "mathematics. Now it's commonplace and",
+        "start": 723.71,
+        "duration": 3.51
+    },
+    {
+        "text": "lots of mathematics is done with",
+        "start": 727.22,
+        "duration": 2.67
+    },
+    {
+        "text": "computers, but this was the first, and",
+        "start": 729.89,
+        "duration": 2.73
+    },
+    {
+        "text": "people were wary of this proof. For a",
+        "start": 732.62,
+        "duration": 3.33
+    },
+    {
+        "text": "start, one of the problems is -- it involves",
+        "start": 735.95,
+        "duration": 3.06
+    },
+    {
+        "text": "checking lots of cases. That's not the",
+        "start": 739.01,
+        "duration": 3.45
+    },
+    {
+        "text": "best kind of proof. It is a proof and it is",
+        "start": 742.46,
+        "duration": 2.28
+    },
+    {
+        "text": "valid, but the problem with that is it",
+        "start": 744.74,
+        "duration": 3.57
+    },
+    {
+        "text": "doesn't give you a deeper understanding",
+        "start": 748.31,
+        "duration": 1.38
+    },
+    {
+        "text": "of why something is true: just checking",
+        "start": 749.69,
+        "duration": 3.21
+    },
+    {
+        "text": "lots of cases. Mathematicians not -- do not",
+        "start": 752.9,
+        "duration": 3.78
+    },
+    {
+        "text": "necessarily like that kind of proof; it's",
+        "start": 756.68,
+        "duration": 2.55
+    },
+    {
+        "text": "not the best kind. But it's still a valid",
+        "start": 759.23,
+        "duration": 2.07
+    },
+    {
+        "text": "proof. The proof has been improved for",
+        "start": 761.3,
+        "duration": 2.88
+    },
+    {
+        "text": "starts, we had this long list of networks",
+        "start": 764.18,
+        "duration": 1.92
+    },
+    {
+        "text": "that we had to show we could color in.",
+        "start": 766.1,
+        "duration": 1.83
+    },
+    {
+        "text": "That got shortened. I think it got",
+        "start": 767.93,
+        "duration": 3.27
+    },
+    {
+        "text": "shortened to some like 1400 and",
+        "start": 771.2,
+        "duration": 2.25
+    },
+    {
+        "text": "something -- I think it's shorter now. I'm",
+        "start": 773.45,
+        "duration": 2.04
+    },
+    {
+        "text": "not sure how short it is at the moment.",
+        "start": 775.49,
+        "duration": 1.77
+    },
+    {
+        "text": "At the moment though the proof still",
+        "start": 777.26,
+        "duration": 2.64
+    },
+    {
+        "text": "requires this massive checking of cases,",
+        "start": 779.9,
+        "duration": 2.82
+    },
+    {
+        "text": "so it's still not a beautiful proof.",
+        "start": 782.72,
+        "duration": 4.18
+    },
+    {
+        "text": "This episode has been brought to you by",
+        "start": 787.32,
+        "duration": 1.46
+    },
+    {
+        "text": "Squarespace; get ten percent off your",
+        "start": 788.78,
+        "duration": 2.28
+    },
+    {
+        "text": "first order with them by going to",
+        "start": 791.06,
+        "duration": 1.8
+    },
+    {
+        "text": "squarespace.com/numberphile. Now I use",
+        "start": 792.86,
+        "duration": 3.09
+    },
+    {
+        "text": "Squarespace pretty much every day to",
+        "start": 795.95,
+        "duration": 1.98
+    },
+    {
+        "text": "maintain all sorts of things, from my",
+        "start": 797.93,
+        "duration": 2.64
+    },
+    {
+        "text": "blog, online store, and all sorts of",
+        "start": 800.57,
+        "duration": 2.73
+    },
+    {
+        "text": "other websites -- it's a great all in one set",
+        "start": 803.3,
+        "duration": 2.43
+    },
+    {
+        "text": "up for everything right from buying your",
+        "start": 805.73,
+        "duration": 1.77
+    },
+    {
+        "text": "domain name at the start through to",
+        "start": 807.5,
+        "duration": 2.07
+    },
+    {
+        "text": "designing the page itself, I've got all",
+        "start": 809.57,
+        "duration": 1.68
+    },
+    {
+        "text": "these award-winning templates, they're",
+        "start": 811.25,
+        "duration": 1.41
+    },
+    {
+        "text": "really good, but you can tweak them as",
+        "start": 812.66,
+        "duration": 1.59
+    },
+    {
+        "text": "you see fit, of course, and importantly",
+        "start": 814.25,
+        "duration": 2.16
+    },
+    {
+        "text": "these sites look equally good on",
+        "start": 816.41,
+        "duration": 1.77
+    },
+    {
+        "text": "computers or mobile devices, it's all",
+        "start": 818.18,
+        "duration": 2.19
+    },
+    {
+        "text": "taken care of for you, so whatever your",
+        "start": 820.37,
+        "duration": 2.04
+    },
+    {
+        "text": "next move is online Squarespace is going",
+        "start": 822.41,
+        "duration": 1.919
+    },
+    {
+        "text": "to make it so much easier and also look",
+        "start": 824.329,
+        "duration": 1.921
+    },
+    {
+        "text": "much more professional, give them a look.",
+        "start": 826.25,
+        "duration": 2.16
+    },
+    {
+        "text": "It really doesn't matter what you're",
+        "start": 828.41,
+        "duration": 1.44
+    },
+    {
+        "text": "doing these days, whether it's just sort",
+        "start": 829.85,
+        "duration": 1.5
+    },
+    {
+        "text": "of a CV type site or some kind of shop,",
+        "start": 831.35,
+        "duration": 2.88
+    },
+    {
+        "text": "you really need a classy online",
+        "start": 834.23,
+        "duration": 1.95
+    },
+    {
+        "text": "presence and that's what you're going to",
+        "start": 836.18,
+        "duration": 1.29
+    },
+    {
+        "text": "get here, go to squarespace.com/numberphile",
+        "start": 837.47,
+        "duration": 3.928
+    },
+    {
+        "text": "and check them out. You can",
+        "start": 841.398,
+        "duration": 1.772
+    },
+    {
+        "text": "even do a free trial before committing",
+        "start": 843.17,
+        "duration": 2.13
+    },
+    {
+        "text": "and remember to use numberphile to get",
+        "start": 845.3,
+        "duration": 2.61
+    },
+    {
+        "text": "ten percent off your first purchase",
+        "start": 847.91,
+        "duration": 2.04
+    },
+    {
+        "text": "squarespace.com/numberphile or you can",
+        "start": 849.95,
+        "duration": 3.389
+    },
+    {
+        "text": "use the code \"numberphile\". Thanks to them",
+        "start": 853.339,
+        "duration": 2.281
+    },
+    {
+        "text": "for supporting this video.",
+        "start": 855.62,
+        "duration": 3.32
+    }
+]

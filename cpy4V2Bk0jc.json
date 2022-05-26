@@ -1,0 +1,3202 @@
+[
+    {
+        "text": "There's this\nskateboarding trick",
+        "start": 0.8,
+        "duration": 1.234
+    },
+    {
+        "text": "that only about 15 people have\never successfully pulled off.",
+        "start": 2.134,
+        "duration": 2.57
+    },
+    {
+        "text": "It's insane.",
+        "start": 4.804,
+        "duration": 1.101
+    },
+    {
+        "text": "It's a drop from a ramp\ninto a full 360 loop,",
+        "start": 6.005,
+        "duration": 3.337
+    },
+    {
+        "text": "and it's so hard,\nbecause you have",
+        "start": 9.442,
+        "duration": 1.334
+    },
+    {
+        "text": "to get enough speed to go\nall the way around, but not",
+        "start": 10.876,
+        "duration": 2.102
+    },
+    {
+        "text": "too much speed that you get\nslammed against the wall.",
+        "start": 13.078,
+        "duration": 2.27
+    },
+    {
+        "text": "Two years ago, I was watching\na couple more skaters",
+        "start": 15.448,
+        "duration": 1.935
+    },
+    {
+        "text": "attempt this at a live\nevent with Tony Hawk,",
+        "start": 17.484,
+        "duration": 2.535
+    },
+    {
+        "text": "and Lizzie Armanto, who's\na young and up-and-coming,",
+        "start": 20.119,
+        "duration": 2.77
+    },
+    {
+        "text": "amazing skater, gave\nit a go over and over,",
+        "start": 22.989,
+        "duration": 2.769
+    },
+    {
+        "text": "until the event ended.",
+        "start": 25.858,
+        "duration": 1.268
+    },
+    {
+        "text": "Then finally, at the end the\nday, after everyone had left,",
+        "start": 27.226,
+        "duration": 3.337
+    },
+    {
+        "text": "she became the\nfirst female skater",
+        "start": 30.663,
+        "duration": 1.969
+    },
+    {
+        "text": "to ever successfully\ndo the loop of death.",
+        "start": 32.732,
+        "duration": 3.17
+    },
+    {
+        "text": "So cool.",
+        "start": 36.002,
+        "duration": 0.934
+    },
+    {
+        "text": "What was working in\nher favor was physics.",
+        "start": 37.036,
+        "duration": 2.069
+    },
+    {
+        "text": "So today's lesson is going\nto be looking at situations",
+        "start": 39.205,
+        "duration": 2.236
+    },
+    {
+        "text": "like that, at the speeds\nand accelerations and forces",
+        "start": 41.541,
+        "duration": 3.036
+    },
+    {
+        "text": "for going into circles, like the\nperfect speed for going around",
+        "start": 44.677,
+        "duration": 3.036
+    },
+    {
+        "text": "a ramp in a car.",
+        "start": 47.813,
+        "duration": 1.035
+    },
+    {
+        "text": "And we're going to calculate\nthat perfect speed,",
+        "start": 48.948,
+        "duration": 1.902
+    },
+    {
+        "text": "and we're going to calculate\nhow you would make",
+        "start": 50.95,
+        "duration": 1.602
+    },
+    {
+        "text": "a spinning-ring world in space\nthat makes you feel",
+        "start": 52.652,
+        "duration": 2.736
+    },
+    {
+        "text": "like you're experiencing\nEarth's gravity.",
+        "start": 55.488,
+        "duration": 2.035
+    },
+    {
+        "text": "Today, we're going\nto do that with math.",
+        "start": 57.623,
+        "duration": 1.702
+    },
+    {
+        "text": "Hello, and welcome\nto Lesson 7",
+        "start": 59.425,
+        "duration": 1.768
+    },
+    {
+        "text": "of Dianna's\nIntro Physics Class,",
+        "start": 61.293,
+        "duration": 1.702
+    },
+    {
+        "text": "also known as AP\nPhysics 1 Review,",
+        "start": 63.095,
+        "duration": 1.635
+    },
+    {
+        "text": "also known as\nPhysics by Dianna.",
+        "start": 64.83,
+        "duration": 1.735
+    },
+    {
+        "text": "We're going to talk today\nabout circular motion,",
+        "start": 66.666,
+        "duration": 2.469
+    },
+    {
+        "text": "which is a very special type\nof motion found everywhere,",
+        "start": 69.235,
+        "duration": 3.203
+    },
+    {
+        "text": "from toys to children\nto motion in the cosmos.",
+        "start": 72.538,
+        "duration": 3.637
+    },
+    {
+        "text": "We're talking a spinning\ncoin or a record,",
+        "start": 76.275,
+        "duration": 2.603
+    },
+    {
+        "text": "all the way up to\nplanets orbiting stars,",
+        "start": 78.978,
+        "duration": 2.035
+    },
+    {
+        "text": "stars orbiting the\ncenters of galaxies,",
+        "start": 81.113,
+        "duration": 1.935
+    },
+    {
+        "text": "and galaxies\norbiting each other.",
+        "start": 83.148,
+        "duration": 2.037
+    },
+    {
+        "text": "In this lesson,\nwe're going to get",
+        "start": 85.285,
+        "duration": 1.334
+    },
+    {
+        "text": "to understand the forces that\ncause that circular motion.",
+        "start": 86.719,
+        "duration": 2.803
+    },
+    {
+        "text": "So put on\nyour seat belts",
+        "start": 89.622,
+        "duration": 1.235
+    },
+    {
+        "text": "because we're going\nto get dizzy.",
+        "start": 90.957,
+        "duration": 1.434
+    },
+    {
+        "text": "Today's theme: you spin me\nright round, baby, right round.",
+        "start": 92.491,
+        "duration": 4.839
+    },
+    {
+        "text": "OK, circular motion--\nour first key idea",
+        "start": 101.2,
+        "duration": 2.536
+    },
+    {
+        "text": "is that, for an object\nto go in a circle,",
+        "start": 103.836,
+        "duration": 1.736
+    },
+    {
+        "text": "there has to be a force.",
+        "start": 105.672,
+        "duration": 1.835
+    },
+    {
+        "text": "Think about it.",
+        "start": 107.607,
+        "duration": 1.134
+    },
+    {
+        "text": "Newton's first law says that\nin the absence of forces,",
+        "start": 108.841,
+        "duration": 2.035
+    },
+    {
+        "text": "you just keep going\nin a straight line",
+        "start": 110.976,
+        "duration": 1.468
+    },
+    {
+        "text": "because of inertia.",
+        "start": 112.544,
+        "duration": 1.001
+    },
+    {
+        "text": "Imagine you're driving\ndown the street,",
+        "start": 113.645,
+        "duration": 1.536
+    },
+    {
+        "text": "and you're going straight,\nand then you turn left.",
+        "start": 115.281,
+        "duration": 2.169
+    },
+    {
+        "text": "What happens?",
+        "start": 117.55,
+        "duration": 1.201
+    },
+    {
+        "text": "You feel like you get pushed\nto the right side of the car,",
+        "start": 118.851,
+        "duration": 2.035
+    },
+    {
+        "text": "but did you really get\nthrown to the right?",
+        "start": 120.986,
+        "duration": 1.936
+    },
+    {
+        "text": "If you zoom out, and you see\nwhat's actually going on,",
+        "start": 123.022,
+        "duration": 2.702
+    },
+    {
+        "text": "you're moving in\na straight line.",
+        "start": 125.825,
+        "duration": 1.768
+    },
+    {
+        "text": "And you would keep doing that,\nexcept that the car pushes you",
+        "start": 127.693,
+        "duration": 2.303
+    },
+    {
+        "text": "from the right.",
+        "start": 130.096,
+        "duration": 1.101
+    },
+    {
+        "text": "Maybe it's the friction\nof the seat, your seat belt,",
+        "start": 131.297,
+        "duration": 1.635
+    },
+    {
+        "text": "or the door, but you get\npushed or pulled to the left.",
+        "start": 133.032,
+        "duration": 2.636
+    },
+    {
+        "text": "This is just like the skater\nin the back of the truck",
+        "start": 135.768,
+        "duration": 1.602
+    },
+    {
+        "text": "that we saw in Lesson 4, where\nthe truck accelerates out",
+        "start": 137.47,
+        "duration": 2.235
+    },
+    {
+        "text": "from underneath him.",
+        "start": 139.805,
+        "duration": 0.901
+    },
+    {
+        "text": "If your door was\nopen in your car,",
+        "start": 140.806,
+        "duration": 1.368
+    },
+    {
+        "text": "and there were no friction,\nthen when the car turns left,",
+        "start": 142.274,
+        "duration": 2.302
+    },
+    {
+        "text": "you would just keep on\ngoing right out the door.",
+        "start": 144.677,
+        "duration": 2.269
+    },
+    {
+        "text": "You turn with a force pushing\nyou to the left in a circle.",
+        "start": 147.046,
+        "duration": 3.303
+    },
+    {
+        "text": "What direction does\nthat force push?",
+        "start": 150.449,
+        "duration": 2.136
+    },
+    {
+        "text": "This is fun.",
+        "start": 152.685,
+        "duration": 1.068
+    },
+    {
+        "text": "The force is always in the\nsame direction, sort of,",
+        "start": 153.853,
+        "duration": 2.069
+    },
+    {
+        "text": "and a lot of people\nget this wrong.",
+        "start": 156.022,
+        "duration": 1.034
+    },
+    {
+        "text": "So listen up.",
+        "start": 157.156,
+        "duration": 0.934
+    },
+    {
+        "text": "Let's consider something\na little simpler.",
+        "start": 158.19,
+        "duration": 1.869
+    },
+    {
+        "text": "Let's consider an egg on a\nharness attached to a string.",
+        "start": 160.159,
+        "duration": 2.836
+    },
+    {
+        "text": "Because my string has\nsome fixed length, r,",
+        "start": 163.096,
+        "duration": 2.302
+    },
+    {
+        "text": "it has to go in a\ncircle with radius r,",
+        "start": 165.498,
+        "duration": 2.135
+    },
+    {
+        "text": "but the egg has inertia and\nwants to keep going straight.",
+        "start": 167.733,
+        "duration": 3.004
+    },
+    {
+        "text": "We can prove that if we\njust let go of the string.",
+        "start": 170.837,
+        "duration": 2.068
+    },
+    {
+        "text": "Check it out, straight line--",
+        "start": 173.005,
+        "duration": 1.435
+    },
+    {
+        "text": "well, pretty straight,\nthere just also",
+        "start": 174.54,
+        "duration": 1.502
+    },
+    {
+        "text": "happens to be gravity\npulling on the egg--",
+        "start": 176.142,
+        "duration": 1.334
+    },
+    {
+        "text": "but before we let\nit go, the string",
+        "start": 177.576,
+        "duration": 1.502
+    },
+    {
+        "text": "exerts a force,\na tension, on the egg,",
+        "start": 179.178,
+        "duration": 2.636
+    },
+    {
+        "text": "preventing it from\ngoing straight.",
+        "start": 181.914,
+        "duration": 1.702
+    },
+    {
+        "text": "And if you were on a string,\nand someone swung you around,",
+        "start": 183.716,
+        "duration": 2.536
+    },
+    {
+        "text": "you would feel that tension\nas an outward force.",
+        "start": 186.352,
+        "duration": 2.603
+    },
+    {
+        "text": "But the free body\ndiagram of the egg",
+        "start": 189.055,
+        "duration": 1.634
+    },
+    {
+        "text": "would show you a force\ndirected straight towards",
+        "start": 190.79,
+        "duration": 2.569
+    },
+    {
+        "text": "the middle of the circle.",
+        "start": 193.459,
+        "duration": 1.301
+    },
+    {
+        "text": "That's the only way it\ncan pull along the string.",
+        "start": 194.86,
+        "duration": 2.67
+    },
+    {
+        "text": "So that's the second key idea.",
+        "start": 197.63,
+        "duration": 1.701
+    },
+    {
+        "text": "When an object is going\nin circular motion,",
+        "start": 199.432,
+        "duration": 2.302
+    },
+    {
+        "text": "the force is directed\ninwards, toward the center",
+        "start": 201.834,
+        "duration": 2.87
+    },
+    {
+        "text": "of the circle, always.",
+        "start": 204.804,
+        "duration": 1.502
+    },
+    {
+        "text": "Now what about the magnitude,\nor the size, of the force?",
+        "start": 206.406,
+        "duration": 2.468
+    },
+    {
+        "text": "Let's figure that\nout by considering",
+        "start": 208.974,
+        "duration": 1.469
+    },
+    {
+        "text": "what you could change.",
+        "start": 210.543,
+        "duration": 1.201
+    },
+    {
+        "text": "You could make\nthe egg bigger;",
+        "start": 211.844,
+        "duration": 0.934
+    },
+    {
+        "text": "then the force\nwould have to increase",
+        "start": 212.878,
+        "duration": 1.702
+    },
+    {
+        "text": "to keep it going\nin a circle.",
+        "start": 214.68,
+        "duration": 1.268
+    },
+    {
+        "text": "What about if you\nspun it faster?",
+        "start": 216.048,
+        "duration": 1.635
+    },
+    {
+        "text": "Try it.",
+        "start": 217.783,
+        "duration": 0.968
+    },
+    {
+        "text": "I've got a cow on a string.",
+        "start": 218.851,
+        "duration": 1.668
+    },
+    {
+        "text": "I spin it slow, then\nI spin it faster,",
+        "start": 220.619,
+        "duration": 2.903
+    },
+    {
+        "text": "then I definitely feel\nthe force increasing.",
+        "start": 223.623,
+        "duration": 2.536
+    },
+    {
+        "text": "What about if you change\nthe length of the string?",
+        "start": 226.259,
+        "duration": 2.469
+    },
+    {
+        "text": "So, I'll get it\ngoing in a circle.",
+        "start": 228.828,
+        "duration": 3.837
+    },
+    {
+        "text": "And then I'm going to have\nit going in this circle,",
+        "start": 232.765,
+        "duration": 2.335
+    },
+    {
+        "text": "and it doesn't feel like\nit's pulling as strong.",
+        "start": 235.201,
+        "duration": 1.902
+    },
+    {
+        "text": "What I was trying to do was\nget the cow to the same speed,",
+        "start": 237.203,
+        "duration": 2.469
+    },
+    {
+        "text": "and by speed I mean the\nlinear speed of the cow--",
+        "start": 239.772,
+        "duration": 2.503
+    },
+    {
+        "text": "so the speed the cow is\ngoing around the line,",
+        "start": 242.375,
+        "duration": 1.868
+    },
+    {
+        "text": "and not the angular speed\nthat it's rotating.",
+        "start": 244.343,
+        "duration": 2.303
+    },
+    {
+        "text": "So, yeah, we're spinning\nslower, but we're keeping",
+        "start": 246.746,
+        "duration": 1.768
+    },
+    {
+        "text": "the cow the same speed.",
+        "start": 248.614,
+        "duration": 1.368
+    },
+    {
+        "text": "All right.",
+        "start": 250.083,
+        "duration": 1.0
+    },
+    {
+        "text": "So now, we have some\nclues about mass and speed",
+        "start": 251.183,
+        "duration": 1.702
+    },
+    {
+        "text": "and length of the string, and\nwe can put that all together",
+        "start": 252.985,
+        "duration": 2.336
+    },
+    {
+        "text": "to figure out the force.",
+        "start": 255.421,
+        "duration": 1.368
+    },
+    {
+        "text": "So we know now that\nthe force is somehow",
+        "start": 256.889,
+        "duration": 2.002
+    },
+    {
+        "text": "proportional to the\nmass and the velocity",
+        "start": 258.991,
+        "duration": 2.47
+    },
+    {
+        "text": "and inversely proportional\nto the radius,",
+        "start": 261.561,
+        "duration": 2.269
+    },
+    {
+        "text": "but that's not quite it.",
+        "start": 263.93,
+        "duration": 1.167
+    },
+    {
+        "text": "I'm about to do something\nreally horrible,",
+        "start": 265.197,
+        "duration": 2.135
+    },
+    {
+        "text": "where I flat out give you the\nequation without deriving it.",
+        "start": 267.432,
+        "duration": 3.037
+    },
+    {
+        "text": "Oh.",
+        "start": 270.569,
+        "duration": 0.768
+    },
+    {
+        "text": "Let's get this\nstuff off of here.",
+        "start": 271.437,
+        "duration": 1.836
+    },
+    {
+        "text": "So OK.",
+        "start": 275.274,
+        "duration": 0.901
+    },
+    {
+        "text": "Force to keep you\ngoing in a circle",
+        "start": 276.275,
+        "duration": 1.902
+    },
+    {
+        "text": "is F equals\nmv squared over r.",
+        "start": 278.277,
+        "duration": 3.971
+    },
+    {
+        "text": "I'm just telling you\nand not deriving it,",
+        "start": 282.348,
+        "duration": 2.169
+    },
+    {
+        "text": "because the cleanest\nderivation involves calculus.",
+        "start": 284.617,
+        "duration": 2.268
+    },
+    {
+        "text": "But if you're\nsuper curious,",
+        "start": 286.986,
+        "duration": 1.401
+    },
+    {
+        "text": "I'll do the derivation\nat the end of this video.",
+        "start": 288.488,
+        "duration": 1.901
+    },
+    {
+        "text": "So this concept of the\nmagnitude of the force needed",
+        "start": 290.489,
+        "duration": 2.503
+    },
+    {
+        "text": "to keep something\ngoing in a circle",
+        "start": 293.092,
+        "duration": 1.468
+    },
+    {
+        "text": "was used to solve\na bit of a mystery",
+        "start": 294.66,
+        "duration": 2.369
+    },
+    {
+        "text": "or, depending on who you\nask, actually created",
+        "start": 297.129,
+        "duration": 1.835
+    },
+    {
+        "text": "one of the biggest mysteries\nof the last century.",
+        "start": 299.064,
+        "duration": 2.236
+    },
+    {
+        "text": "In the 1930s, this\nresearcher, Fritz Zwicky,",
+        "start": 301.4,
+        "duration": 2.636
+    },
+    {
+        "text": "saw something weird about\nthe rotation of galaxies,",
+        "start": 304.136,
+        "duration": 2.503
+    },
+    {
+        "text": "and in the 1970s, astronomer\nVera Rubin saw it too.",
+        "start": 306.739,
+        "duration": 3.537
+    },
+    {
+        "text": "They saw that galaxies were\nrotating in circles",
+        "start": 310.376,
+        "duration": 2.136
+    },
+    {
+        "text": "way too fast for\ngravity to be able",
+        "start": 312.612,
+        "duration": 2.068
+    },
+    {
+        "text": "to hold\nthe galaxies together.",
+        "start": 314.78,
+        "duration": 1.468
+    },
+    {
+        "text": "So they concluded\nthat there must be",
+        "start": 316.348,
+        "duration": 1.269
+    },
+    {
+        "text": "extra mass that\nthey couldn't see,",
+        "start": 317.717,
+        "duration": 2.769
+    },
+    {
+        "text": "and they called it\ndark matter.",
+        "start": 320.586,
+        "duration": 1.735
+    },
+    {
+        "text": "And we now believe that\ndark matter makes up",
+        "start": 322.422,
+        "duration": 2.301
+    },
+    {
+        "text": "85% of all of the\nuniverse's matter,",
+        "start": 324.823,
+        "duration": 2.703
+    },
+    {
+        "text": "but we still don't\nknow what it is--crazy.",
+        "start": 327.626,
+        "duration": 2.336
+    },
+    {
+        "text": "But the point is, they\nfound it using this concept",
+        "start": 330.062,
+        "duration": 2.736
+    },
+    {
+        "text": "of circular motion.",
+        "start": 332.898,
+        "duration": 1.035
+    },
+    {
+        "text": "So we have a new tool--",
+        "start": 334.033,
+        "duration": 1.335
+    },
+    {
+        "text": "F equals and\nmv squared over r.",
+        "start": 335.468,
+        "duration": 1.368
+    },
+    {
+        "text": "Let's get to know it.",
+        "start": 336.936,
+        "duration": 1.168
+    },
+    {
+        "text": "Let's check the units.",
+        "start": 338.204,
+        "duration": 1.134
+    },
+    {
+        "text": "On the right side, I have\nm which is in kilograms,",
+        "start": 339.438,
+        "duration": 2.903
+    },
+    {
+        "text": "and then v squared, so that\nI've got a meters squared",
+        "start": 342.441,
+        "duration": 3.437
+    },
+    {
+        "text": "per second squared.",
+        "start": 345.978,
+        "duration": 1.835
+    },
+    {
+        "text": "And then I've got my\nradius, which is meters,",
+        "start": 347.913,
+        "duration": 2.036
+    },
+    {
+        "text": "so one of my m's\nis going to cancel,",
+        "start": 350.049,
+        "duration": 2.102
+    },
+    {
+        "text": "and I'm left with kilograms\nmeters per second squared,",
+        "start": 352.251,
+        "duration": 2.135
+    },
+    {
+        "text": "which is a newton.",
+        "start": 354.486,
+        "duration": 1.401
+    },
+    {
+        "text": "Excellent.",
+        "start": 355.988,
+        "duration": 0.701
+    },
+    {
+        "text": "That's the SI unit of force.",
+        "start": 356.789,
+        "duration": 1.401
+    },
+    {
+        "text": "So my units match.\nAmazing.",
+        "start": 358.29,
+        "duration": 2.436
+    },
+    {
+        "text": "I want to take a second\nto point out, though,",
+        "start": 360.826,
+        "duration": 1.202
+    },
+    {
+        "text": "that just because my\nunits match doesn't mean",
+        "start": 362.128,
+        "duration": 1.667
+    },
+    {
+        "text": "that an equation is right.",
+        "start": 363.895,
+        "duration": 1.569
+    },
+    {
+        "text": "You could still be\nmissing a coefficient",
+        "start": 365.564,
+        "duration": 1.601
+    },
+    {
+        "text": "or some multiplication factor,\nbut if the units didn't match,",
+        "start": 367.265,
+        "duration": 2.737
+    },
+    {
+        "text": "that means without a doubt\nthe equation is wrong.",
+        "start": 370.102,
+        "duration": 2.536
+    },
+    {
+        "text": "So this force inward which keeps\nan object going in a circle",
+        "start": 372.738,
+        "duration": 2.77
+    },
+    {
+        "text": "has a name.",
+        "start": 375.608,
+        "duration": 1.101
+    },
+    {
+        "text": "It's called the\ncentripetal force,",
+        "start": 376.809,
+        "duration": 1.935
+    },
+    {
+        "text": "so I'm going to\nwrite a little c.",
+        "start": 378.844,
+        "duration": 1.469
+    },
+    {
+        "text": "This is the tool of the day.",
+        "start": 380.413,
+        "duration": 1.801
+    },
+    {
+        "text": "For any circular\nmotion problem,",
+        "start": 382.315,
+        "duration": 1.734
+    },
+    {
+        "text": "I want you to remember\none simple idea.",
+        "start": 384.149,
+        "duration": 1.703
+    },
+    {
+        "text": "For an object moving in a\ncircle, the centripetal force,",
+        "start": 385.952,
+        "duration": 2.936
+    },
+    {
+        "text": "F, equals mv squared over r.",
+        "start": 388.988,
+        "duration": 2.102
+    },
+    {
+        "text": "If you see circular\nmotion in a problem,",
+        "start": 391.19,
+        "duration": 1.735
+    },
+    {
+        "text": "think F equals mv\nsquared over r.",
+        "start": 393.025,
+        "duration": 1.635
+    },
+    {
+        "text": "And if you need the\nacceleration, just write down,",
+        "start": 394.76,
+        "duration": 2.102
+    },
+    {
+        "text": "from newton, F equals ma.",
+        "start": 396.962,
+        "duration": 1.435
+    },
+    {
+        "text": "So our force equals ma which\nequals mv squared over r.",
+        "start": 398.497,
+        "duration": 4.472
+    },
+    {
+        "text": "These masses on\nboth sides cancel,",
+        "start": 403.069,
+        "duration": 1.734
+    },
+    {
+        "text": "and I get a equals\nv squared over r.",
+        "start": 404.903,
+        "duration": 1.902
+    },
+    {
+        "text": "That's worth pausing on,\nbecause the acceleration",
+        "start": 406.906,
+        "duration": 2.302
+    },
+    {
+        "text": "doesn't depend on the mass.",
+        "start": 409.308,
+        "duration": 1.368
+    },
+    {
+        "text": "If you're going around a\ncircle with a set size, the r,",
+        "start": 410.776,
+        "duration": 3.204
+    },
+    {
+        "text": "and a set velocity, the v,\nthen the acceleration for you",
+        "start": 414.08,
+        "duration": 3.336
+    },
+    {
+        "text": "is the same as it\nwould be if you were",
+        "start": 417.516,
+        "duration": 1.401
+    },
+    {
+        "text": "The Rock,\nwho is massive.",
+        "start": 419.017,
+        "duration": 2.437
+    },
+    {
+        "text": "We've named this force,\nbut there's no, like,",
+        "start": 421.554,
+        "duration": 1.468
+    },
+    {
+        "text": "magical centripetal\nforce out there.",
+        "start": 423.122,
+        "duration": 1.701
+    },
+    {
+        "text": "We haven't discovered\na fifth force.",
+        "start": 424.923,
+        "duration": 1.735
+    },
+    {
+        "text": "In any given situation,\nthere's going",
+        "start": 426.758,
+        "duration": 1.435
+    },
+    {
+        "text": "to be a rope or gravity\nor maybe true love,",
+        "start": 428.294,
+        "duration": 3.203
+    },
+    {
+        "text": "some real force\nthat's pulling inwards,",
+        "start": 431.597,
+        "duration": 1.735
+    },
+    {
+        "text": "and when this happens,",
+        "start": 433.432,
+        "duration": 1.468
+    },
+    {
+        "text": "we call it the\ncentripetal force.",
+        "start": 435.0,
+        "duration": 1.602
+    },
+    {
+        "text": "And we should take\na second to talk",
+        "start": 436.702,
+        "duration": 1.468
+    },
+    {
+        "text": "about another similar-sounding\nterm, the centrifugal force.",
+        "start": 438.27,
+        "duration": 3.337
+    },
+    {
+        "text": "This is a very\ncontroversial word.",
+        "start": 441.707,
+        "duration": 1.935
+    },
+    {
+        "text": "I just made some physics\nteachers shudder.",
+        "start": 443.742,
+        "duration": 1.669
+    },
+    {
+        "text": "Some people will try\nto tell you that there",
+        "start": 445.511,
+        "duration": 1.001
+    },
+    {
+        "text": "is no such thing as\na centrifugal force--",
+        "start": 446.612,
+        "duration": 2.068
+    },
+    {
+        "text": "it's a fictitious force--\nand that's not quite right.",
+        "start": 448.78,
+        "duration": 2.637
+    },
+    {
+        "text": "The centrifugal force\ndefinitely exists.",
+        "start": 451.517,
+        "duration": 2.436
+    },
+    {
+        "text": "If you've ever\nridden the Gravitron,",
+        "start": 454.053,
+        "duration": 1.068
+    },
+    {
+        "text": "the best carnival ride\nof all time,",
+        "start": 455.221,
+        "duration": 1.902
+    },
+    {
+        "text": "where they're\nspinning you around",
+        "start": 457.223,
+        "duration": 1.534
+    },
+    {
+        "text": "and you stick to the wall\nand then the floor drops out",
+        "start": 458.857,
+        "duration": 2.269
+    },
+    {
+        "text": "from under your feet,\nyeah, you definitely",
+        "start": 461.226,
+        "duration": 1.869
+    },
+    {
+        "text": "feel a centrifugal force.",
+        "start": 463.195,
+        "duration": 1.535
+    },
+    {
+        "text": "And it's the push you feel",
+        "start": 464.83,
+        "duration": 0.967
+    },
+    {
+        "text": "if you're in\na rotating reference frame",
+        "start": 465.897,
+        "duration": 2.404
+    },
+    {
+        "text": "and if we're looking\nat the forces",
+        "start": 468.401,
+        "duration": 1.301
+    },
+    {
+        "text": "from that rotating frame.",
+        "start": 469.802,
+        "duration": 1.301
+    },
+    {
+        "text": "But a lot of people\ndon't like that,",
+        "start": 471.203,
+        "duration": 1.402
+    },
+    {
+        "text": "because it's not\nan inertial frame.",
+        "start": 472.705,
+        "duration": 1.801
+    },
+    {
+        "text": "But today, we're not\ndescribing the system",
+        "start": 474.606,
+        "duration": 1.802
+    },
+    {
+        "text": "from the spinning\nobject's vantage point,",
+        "start": 476.508,
+        "duration": 2.202
+    },
+    {
+        "text": "we're describing it\nfrom the outside.",
+        "start": 478.81,
+        "duration": 1.702
+    },
+    {
+        "text": "So we won't be talking\nabout centrifugal forces.",
+        "start": 480.613,
+        "duration": 2.435
+    },
+    {
+        "text": "It's all centripetal\nforce from here on out.",
+        "start": 483.149,
+        "duration": 2.302
+    },
+    {
+        "text": "OK, let's do\na simple problem.",
+        "start": 485.551,
+        "duration": 1.502
+    },
+    {
+        "text": "Let's figure out\nhow hard you would",
+        "start": 487.153,
+        "duration": 1.434
+    },
+    {
+        "text": "have to hold on, if you were\nswinging something around.",
+        "start": 488.687,
+        "duration": 2.169
+    },
+    {
+        "text": "Think of, like, one of\nthose fire dancers,",
+        "start": 490.956,
+        "duration": 2.035
+    },
+    {
+        "text": "or when I was a kid\ngrowing up in Hawaii,",
+        "start": 493.091,
+        "duration": 1.769
+    },
+    {
+        "text": "we used these things\ncalled poi balls.",
+        "start": 494.96,
+        "duration": 1.969
+    },
+    {
+        "text": "That was like a ball\non a string that you",
+        "start": 497.029,
+        "duration": 1.601
+    },
+    {
+        "text": "swung around and tried not\nto hit yourself in the head.",
+        "start": 498.73,
+        "duration": 1.903
+    },
+    {
+        "text": "Or there's this sport that\nI just learned about",
+        "start": 500.733,
+        "duration": 1.969
+    },
+    {
+        "text": "called hammer throwing,\nwhich is crazy,",
+        "start": 502.802,
+        "duration": 2.903
+    },
+    {
+        "text": "so like that--OK.",
+        "start": 505.805,
+        "duration": 1.101
+    },
+    {
+        "text": "Let's say that we have\na 1 kilogram ball",
+        "start": 507.006,
+        "duration": 2.602
+    },
+    {
+        "text": "on a 2 meter string, and we\nwant to figure out the force.",
+        "start": 509.708,
+        "duration": 2.803
+    },
+    {
+        "text": "I'm going to draw\nmy ball right here.",
+        "start": 512.611,
+        "duration": 2.102
+    },
+    {
+        "text": "Here's my string, 1 kilogram,\nand this is 2 meters.",
+        "start": 514.813,
+        "duration": 4.738
+    },
+    {
+        "text": "So it goes in like a--beep,\nbeep, beep, beep, beep, beep,",
+        "start": 519.651,
+        "duration": 2.436
+    },
+    {
+        "text": "beep--it's not a\nterrible circle.",
+        "start": 522.188,
+        "duration": 1.334
+    },
+    {
+        "text": "And I swing it in a circle\nso that it goes around",
+        "start": 523.622,
+        "duration": 1.969
+    },
+    {
+        "text": "once every 2 seconds.",
+        "start": 525.691,
+        "duration": 1.501
+    },
+    {
+        "text": "So my time period\nis 2 seconds.",
+        "start": 527.293,
+        "duration": 3.503
+    },
+    {
+        "text": "What is the tension\nin the string?",
+        "start": 530.896,
+        "duration": 1.668
+    },
+    {
+        "text": "Well, first, what is\nthe centripetal force?",
+        "start": 532.664,
+        "duration": 2.103
+    },
+    {
+        "text": "I say circular motion.",
+        "start": 534.867,
+        "duration": 1.201
+    },
+    {
+        "text": "You say F equals\nmv squared over r.",
+        "start": 536.168,
+        "duration": 2.035
+    },
+    {
+        "text": "I gave you the mass\nand the radius,",
+        "start": 538.303,
+        "duration": 1.869
+    },
+    {
+        "text": "but we don't know the velocity,\nbut I can find it easily.",
+        "start": 540.272,
+        "duration": 2.669
+    },
+    {
+        "text": "The velocity is just going to\nbe the distance the ball travels",
+        "start": 543.041,
+        "duration": 2.57
+    },
+    {
+        "text": "in one circle divided\nby the time it took",
+        "start": 545.711,
+        "duration": 2.069
+    },
+    {
+        "text": "to do that revolution.",
+        "start": 547.88,
+        "duration": 1.034
+    },
+    {
+        "text": "So velocity is\ndistance over time.",
+        "start": 549.014,
+        "duration": 3.237
+    },
+    {
+        "text": "That's my linear velocity,\nand that's going",
+        "start": 552.351,
+        "duration": 1.735
+    },
+    {
+        "text": "to equal 4 pi meters;",
+        "start": 554.186,
+        "duration": 2.236
+    },
+    {
+        "text": "2 meters times 2 pi,\nso 4 pi meters,",
+        "start": 556.522,
+        "duration": 2.436
+    },
+    {
+        "text": "and over time is 2 seconds,\nand so my velocity",
+        "start": 559.058,
+        "duration": 3.436
+    },
+    {
+        "text": "is 2 pi meters per second.",
+        "start": 562.594,
+        "duration": 1.969
+    },
+    {
+        "text": "I now have all the numbers\nthat I need",
+        "start": 564.663,
+        "duration": 1.435
+    },
+    {
+        "text": "to calculate the force\non the ball,",
+        "start": 566.198,
+        "duration": 1.535
+    },
+    {
+        "text": "forcing it to go\nin a circle.",
+        "start": 567.833,
+        "duration": 1.902
+    },
+    {
+        "text": "So my mass is 1 kilogram,\nand then I've got",
+        "start": 569.835,
+        "duration": 3.303
+    },
+    {
+        "text": "2 pi meters per second.",
+        "start": 573.238,
+        "duration": 1.268
+    },
+    {
+        "text": "And then square\nthat whole thing,",
+        "start": 574.606,
+        "duration": 1.269
+    },
+    {
+        "text": "and then that's over my\nradius, which is 2 meters;",
+        "start": 575.975,
+        "duration": 2.402
+    },
+    {
+        "text": "2 pi is about 6;",
+        "start": 578.477,
+        "duration": 1.234
+    },
+    {
+        "text": "6 squared is 36.",
+        "start": 579.811,
+        "duration": 1.068
+    },
+    {
+        "text": "Divide that by 2, you get\n18, and multiply by 1.",
+        "start": 580.98,
+        "duration": 3.002
+    },
+    {
+        "text": "And so my force is\nabout 18 newtons,",
+        "start": 584.082,
+        "duration": 4.405
+    },
+    {
+        "text": "which feels a little\nbit like holding",
+        "start": 588.587,
+        "duration": 1.769
+    },
+    {
+        "text": "a three-month-old kitten in\nyour hand, almost no effort.",
+        "start": 590.456,
+        "duration": 3.503
+    },
+    {
+        "text": "OK.\n[CAT SCREECHING]",
+        "start": 594.059,
+        "duration": 1.735
+    },
+    {
+        "text": "Another great\nexperiment for learning",
+        "start": 595.894,
+        "duration": 1.635
+    },
+    {
+        "text": "about centripetal motion\nis spinning a ball or a cow",
+        "start": 597.629,
+        "duration": 3.271
+    },
+    {
+        "text": "and a PVC pipe on a string\nwith weights hanging off",
+        "start": 601.0,
+        "duration": 2.869
+    },
+    {
+        "text": "the other end of the string.",
+        "start": 603.969,
+        "duration": 1.201
+    },
+    {
+        "text": "Because when you spin the ball\nat just the right velocity,",
+        "start": 605.27,
+        "duration": 2.336
+    },
+    {
+        "text": "you can let go of the weights,\nand all the forces balance out.",
+        "start": 607.706,
+        "duration": 2.77
+    },
+    {
+        "text": "Because the force of\ngravity on the weights",
+        "start": 610.576,
+        "duration": 1.801
+    },
+    {
+        "text": "provides the centripetal\nforce, keeping the ball",
+        "start": 612.478,
+        "duration": 2.202
+    },
+    {
+        "text": "going in a circle.",
+        "start": 614.78,
+        "duration": 1.134
+    },
+    {
+        "text": "This force is constant,\nbecause the mass and gravity",
+        "start": 616.014,
+        "duration": 2.169
+    },
+    {
+        "text": "aren't changing.",
+        "start": 618.283,
+        "duration": 1.102
+    },
+    {
+        "text": "And if you pull the mass\ndown to shorten the radius,",
+        "start": 619.485,
+        "duration": 2.636
+    },
+    {
+        "text": "then the equation\nsays that my velocity",
+        "start": 622.221,
+        "duration": 2.135
+    },
+    {
+        "text": "has to decrease in order for\nthe force to stay constant.",
+        "start": 624.456,
+        "duration": 3.17
+    },
+    {
+        "text": "Force is constant, because\nthe mass is constant.",
+        "start": 627.726,
+        "duration": 2.035
+    },
+    {
+        "text": "So what about the ball's\nspeed as I shorten the radius?",
+        "start": 629.861,
+        "duration": 2.303
+    },
+    {
+        "text": "The equation says, for a given\nforce, as the radius goes down,",
+        "start": 632.264,
+        "duration": 2.969
+    },
+    {
+        "text": "the speed has to decrease,\nwhich we just talked about.",
+        "start": 635.333,
+        "duration": 2.269
+    },
+    {
+        "text": "But it looks like\nit's speeding up.",
+        "start": 637.702,
+        "duration": 1.702
+    },
+    {
+        "text": "It's a paradox, or\nwe just haven't yet",
+        "start": 639.504,
+        "duration": 2.303
+    },
+    {
+        "text": "distinguished between\nlinear and angular velocity.",
+        "start": 641.907,
+        "duration": 2.869
+    },
+    {
+        "text": "This equation, v, refers\nto the linear velocity",
+        "start": 644.876,
+        "duration": 2.903
+    },
+    {
+        "text": "or the distance per second going\naround the edge of that circle.",
+        "start": 647.879,
+        "duration": 3.838
+    },
+    {
+        "text": "Angular velocity is the number\nof rotations per second.",
+        "start": 651.817,
+        "duration": 3.203
+    },
+    {
+        "text": "So here, we're making\nthe radius shorter,",
+        "start": 655.12,
+        "duration": 1.835
+    },
+    {
+        "text": "so the circumference,\nor distance traveled,",
+        "start": 657.056,
+        "duration": 1.668
+    },
+    {
+        "text": "is a lot shorter.",
+        "start": 658.824,
+        "duration": 1.001
+    },
+    {
+        "text": "The angular velocity, or\nthe rotations per second,",
+        "start": 659.925,
+        "duration": 1.935
+    },
+    {
+        "text": "may be increasing which\nis why it looks so fast,",
+        "start": 661.961,
+        "duration": 3.202
+    },
+    {
+        "text": "but the linear\nvelocity is decreasing.",
+        "start": 665.263,
+        "duration": 2.236
+    },
+    {
+        "text": "So we'll play around\na little bit more",
+        "start": 667.599,
+        "duration": 1.569
+    },
+    {
+        "text": "with that relationship\nin Lesson 13.",
+        "start": 669.268,
+        "duration": 2.035
+    },
+    {
+        "text": "Let's go back to\nour first example,",
+        "start": 671.403,
+        "duration": 2.069
+    },
+    {
+        "text": "a car driving down the\nfreeway and then turning left.",
+        "start": 673.572,
+        "duration": 2.77
+    },
+    {
+        "text": "If you've ever driven on\na curved freeway overpass,",
+        "start": 676.442,
+        "duration": 2.502
+    },
+    {
+        "text": "you sometimes notice\nthat the road is steeply",
+        "start": 679.044,
+        "duration": 1.835
+    },
+    {
+        "text": "banked to the side.",
+        "start": 680.979,
+        "duration": 1.201
+    },
+    {
+        "text": "Engineers design the\nangle of that bank",
+        "start": 682.28,
+        "duration": 1.535
+    },
+    {
+        "text": "based on how fast\nthey think the cars",
+        "start": 683.915,
+        "duration": 1.468
+    },
+    {
+        "text": "will be driving\nalong the curve.",
+        "start": 685.484,
+        "duration": 1.702
+    },
+    {
+        "text": "So if you drive closer to the\nspeed limit on those banks,",
+        "start": 687.286,
+        "duration": 2.269
+    },
+    {
+        "text": "rather than racing through\nthem, then your turn",
+        "start": 689.655,
+        "duration": 1.868
+    },
+    {
+        "text": "will be much better matched\nto the velocity",
+        "start": 691.624,
+        "duration": 2.035
+    },
+    {
+        "text": "they engineered it for,\nand it'll be so much easier.",
+        "start": 693.759,
+        "duration": 2.436
+    },
+    {
+        "text": "You'll also see these banks\nat circular racetracks",
+        "start": 696.295,
+        "duration": 2.135
+    },
+    {
+        "text": "and velodromes, and the\npurpose of that bank",
+        "start": 698.531,
+        "duration": 2.201
+    },
+    {
+        "text": "is to keep you from\nsliding off the road.",
+        "start": 700.832,
+        "duration": 2.036
+    },
+    {
+        "text": "How does this work?",
+        "start": 702.968,
+        "duration": 1.201
+    },
+    {
+        "text": "Well, let's start by thinking\na little more carefully",
+        "start": 704.269,
+        "duration": 2.102
+    },
+    {
+        "text": "about turning on a flat road.",
+        "start": 706.471,
+        "duration": 1.202
+    },
+    {
+        "text": "You're on a road,\nand you turn left.",
+        "start": 707.773,
+        "duration": 3.37
+    },
+    {
+        "text": "Here is my car, turning left.",
+        "start": 711.243,
+        "duration": 1.802
+    },
+    {
+        "text": "So what's pushing the car left?",
+        "start": 713.145,
+        "duration": 2.035
+    },
+    {
+        "text": "If you said friction between the\ntires and the road, you got it.",
+        "start": 715.28,
+        "duration": 2.67
+    },
+    {
+        "text": "If you live in a place\nwhere the roads ice up,",
+        "start": 718.05,
+        "duration": 2.035
+    },
+    {
+        "text": "then you've seen what happens\nwhen cars try to turn",
+        "start": 720.185,
+        "duration": 2.136
+    },
+    {
+        "text": "and there isn't any friction.",
+        "start": 722.421,
+        "duration": 1.101
+    },
+    {
+        "text": "They crash.",
+        "start": 723.622,
+        "duration": 1.902
+    },
+    {
+        "text": "Fire, ah, bad news bears.",
+        "start": 725.624,
+        "duration": 3.937
+    },
+    {
+        "text": "So what happens if\nwe bank the road?",
+        "start": 729.661,
+        "duration": 2.069
+    },
+    {
+        "text": "Let's draw that.",
+        "start": 731.83,
+        "duration": 1.769
+    },
+    {
+        "text": "So here's our car, but\non a bank, at an angle.",
+        "start": 733.699,
+        "duration": 3.937
+    },
+    {
+        "text": "This looks a lot\nlike a ramp problem.",
+        "start": 737.736,
+        "duration": 2.136
+    },
+    {
+        "text": "So you've got\ngravity pulling down,",
+        "start": 739.972,
+        "duration": 1.768
+    },
+    {
+        "text": "F sub g, and then the normal\nforce perpendicular, F sub N.",
+        "start": 741.84,
+        "duration": 4.739
+    },
+    {
+        "text": "Gravity and the normal\nforce to the road",
+        "start": 746.679,
+        "duration": 2.268
+    },
+    {
+        "text": "each have components\nthat need to balance out,",
+        "start": 749.047,
+        "duration": 2.103
+    },
+    {
+        "text": "if the car isn't going to slide\noff of the side of the road.",
+        "start": 751.25,
+        "duration": 2.535
+    },
+    {
+        "text": "So if you tilt too much\nor reduce the friction,",
+        "start": 753.885,
+        "duration": 2.903
+    },
+    {
+        "text": "then it is slidey time.",
+        "start": 756.888,
+        "duration": 1.569
+    },
+    {
+        "text": "And in case you had any\ndoubt of whether I was cool,",
+        "start": 758.557,
+        "duration": 2.369
+    },
+    {
+        "text": "then I hope it's gone.",
+        "start": 761.026,
+        "duration": 0.867
+    },
+    {
+        "text": "Wait, the other way around.\nIt's gone.",
+        "start": 761.993,
+        "duration": 1.936
+    },
+    {
+        "text": "Slidey time, but check it out.",
+        "start": 764.029,
+        "duration": 2.035
+    },
+    {
+        "text": "If the road is both\nbanked and curved,",
+        "start": 766.164,
+        "duration": 2.303
+    },
+    {
+        "text": "then there's a\ncomponent that's going",
+        "start": 768.567,
+        "duration": 1.602
+    },
+    {
+        "text": "to push towards the\ncenter of the curve.",
+        "start": 770.269,
+        "duration": 2.302
+    },
+    {
+        "text": "So we've got a component in this\ndirection--beep, beep, beep,",
+        "start": 772.671,
+        "duration": 2.769
+    },
+    {
+        "text": "beep, beep, beep--and we've got\na component in this direction,",
+        "start": 775.54,
+        "duration": 3.538
+    },
+    {
+        "text": "and that is the force that's\ngoing to help us turn.",
+        "start": 779.178,
+        "duration": 2.001
+    },
+    {
+        "text": "That's the centripetal force.",
+        "start": 781.279,
+        "duration": 1.869
+    },
+    {
+        "text": "We can even name it, but\nagain, it's not its own force.",
+        "start": 783.248,
+        "duration": 2.736
+    },
+    {
+        "text": "It's part of the normal\nforce, and that force",
+        "start": 786.084,
+        "duration": 2.269
+    },
+    {
+        "text": "is going to have components\nnormal to the road",
+        "start": 788.453,
+        "duration": 2.003
+    },
+    {
+        "text": "and parallel to the\nroad, just like gravity.",
+        "start": 790.556,
+        "duration": 1.868
+    },
+    {
+        "text": "So here's a fun question.",
+        "start": 792.524,
+        "duration": 1.101
+    },
+    {
+        "text": "If a car is driving at\nsome constant velocity",
+        "start": 793.726,
+        "duration": 2.402
+    },
+    {
+        "text": "around a perfectly\ncircular track,",
+        "start": 796.228,
+        "duration": 1.402
+    },
+    {
+        "text": "is there some angle that\nwe could bank the road at,",
+        "start": 797.73,
+        "duration": 3.169
+    },
+    {
+        "text": "so that we could just\nget rid of friction",
+        "start": 800.999,
+        "duration": 1.935
+    },
+    {
+        "text": "and not have slidey time?",
+        "start": 803.034,
+        "duration": 1.969
+    },
+    {
+        "text": "So, theoretically,\nwe want to set it up",
+        "start": 805.103,
+        "duration": 1.402
+    },
+    {
+        "text": "so that we could just let\ngo of the steering wheel.",
+        "start": 806.605,
+        "duration": 2.303
+    },
+    {
+        "text": "Our goal here with\nthis problem is",
+        "start": 809.008,
+        "duration": 1.4
+    },
+    {
+        "text": "going to be to set up and\nsolve an algebraic equation",
+        "start": 810.508,
+        "duration": 2.67
+    },
+    {
+        "text": "for the perfect angle theta,\na bank angle theta, to match",
+        "start": 813.278,
+        "duration": 3.137
+    },
+    {
+        "text": "the car's velocity, v.",
+        "start": 816.515,
+        "duration": 1.602
+    },
+    {
+        "text": "And we're in a\ncircular-motion situation,",
+        "start": 818.217,
+        "duration": 1.734
+    },
+    {
+        "text": "so we start by writing--if you\nget this wrong, I've failed--",
+        "start": 820.051,
+        "duration": 3.204
+    },
+    {
+        "text": "we start by writing down Fc\nequals mv squared over r.",
+        "start": 823.355,
+        "duration": 2.936
+    },
+    {
+        "text": "Our car has some mass, and r\nwill be the radius of our turn",
+        "start": 826.391,
+        "duration": 3.236
+    },
+    {
+        "text": "in our circle, approximated as\nbeing the center of the circle",
+        "start": 829.727,
+        "duration": 2.436
+    },
+    {
+        "text": "to the center of\nmass of the car.",
+        "start": 832.264,
+        "duration": 1.634
+    },
+    {
+        "text": "And the force is\ndirected inwards",
+        "start": 833.999,
+        "duration": 1.702
+    },
+    {
+        "text": "toward the center\nof that circle.",
+        "start": 835.801,
+        "duration": 1.768
+    },
+    {
+        "text": "Next, free body diagram,\nwhat are the forces?",
+        "start": 837.669,
+        "duration": 2.202
+    },
+    {
+        "text": "Here is my car on ramp.",
+        "start": 839.971,
+        "duration": 2.27
+    },
+    {
+        "text": "Gravity is acting on the\ncar downwards, Fg equals mg.",
+        "start": 842.341,
+        "duration": 4.471
+    },
+    {
+        "text": "And so we have the usual\ncomponents of gravity",
+        "start": 846.912,
+        "duration": 1.935
+    },
+    {
+        "text": "we're used to, a component\nnormal to the ramp--",
+        "start": 848.947,
+        "duration": 2.069
+    },
+    {
+        "text": "that's this way--and a\ncomponent down the ramp",
+        "start": 851.116,
+        "duration": 2.869
+    },
+    {
+        "text": "that would make us slide\ndown, if there weren't",
+        "start": 854.085,
+        "duration": 2.37
+    },
+    {
+        "text": "any forward motion of the car.",
+        "start": 856.555,
+        "duration": 1.735
+    },
+    {
+        "text": "And that component, sliding\ndown, is mg sine theta.",
+        "start": 858.39,
+        "duration": 3.337
+    },
+    {
+        "text": "I know that it's sine theta,\nbecause that component would",
+        "start": 861.827,
+        "duration": 2.269
+    },
+    {
+        "text": "be 0, if my theta were 0.",
+        "start": 864.196,
+        "duration": 2.102
+    },
+    {
+        "text": "Now, here comes the fun part.",
+        "start": 866.398,
+        "duration": 1.135
+    },
+    {
+        "text": "It's a little tricky.",
+        "start": 867.633,
+        "duration": 0.8
+    },
+    {
+        "text": "That's an understatement.",
+        "start": 868.533,
+        "duration": 1.235
+    },
+    {
+        "text": "We're going to look\nto set everything up",
+        "start": 869.868,
+        "duration": 1.601
+    },
+    {
+        "text": "to balance, so that there\nis no sliding down the ramp.",
+        "start": 871.569,
+        "duration": 2.503
+    },
+    {
+        "text": "And we're moving\nforwards in a circle,",
+        "start": 874.172,
+        "duration": 1.736
+    },
+    {
+        "text": "so we'll have a\ncentripetal force",
+        "start": 876.008,
+        "duration": 1.567
+    },
+    {
+        "text": "that points toward the\nmiddle of the circle.",
+        "start": 877.676,
+        "duration": 2.069
+    },
+    {
+        "text": "So I'm going to draw\nthat separately.",
+        "start": 879.845,
+        "duration": 1.901
+    },
+    {
+        "text": "Here's my centripetal force,\nand it's going to be",
+        "start": 881.846,
+        "duration": 2.403
+    },
+    {
+        "text": "pointing toward\nthe middle of the circle,",
+        "start": 884.349,
+        "duration": 1.335
+    },
+    {
+        "text": "so it's going to be parallel\nto the ground, this way, Fc.",
+        "start": 885.784,
+        "duration": 3.837
+    },
+    {
+        "text": "And I can break that\ninto two components,",
+        "start": 889.721,
+        "duration": 2.002
+    },
+    {
+        "text": "one down along the ramp\nand one normal to the ramp.",
+        "start": 891.823,
+        "duration": 4.138
+    },
+    {
+        "text": "And I can write that this\ncomponent down the ramp",
+        "start": 896.061,
+        "duration": 2.569
+    },
+    {
+        "text": "is Fc cos theta.",
+        "start": 898.73,
+        "duration": 1.369
+    },
+    {
+        "text": "And I know that it's\ncosine and not sine",
+        "start": 900.199,
+        "duration": 1.668
+    },
+    {
+        "text": "because if I take\nthis to 0,",
+        "start": 901.967,
+        "duration": 1.301
+    },
+    {
+        "text": "then the whole centripetal\nforce would be",
+        "start": 903.368,
+        "duration": 1.968
+    },
+    {
+        "text": "in that direction\ndown the ramp.",
+        "start": 905.437,
+        "duration": 1.602
+    },
+    {
+        "text": "There wouldn't be\na ramp anymore.",
+        "start": 907.139,
+        "duration": 1.0
+    },
+    {
+        "text": "Now we're done,\nbecause remember",
+        "start": 908.24,
+        "duration": 1.468
+    },
+    {
+        "text": "that the centripetal force\nis not the actual force.",
+        "start": 909.808,
+        "duration": 2.502
+    },
+    {
+        "text": "It's the name and model for\nthe sum of all the forces",
+        "start": 912.41,
+        "duration": 2.57
+    },
+    {
+        "text": "that keep us going in a circle.",
+        "start": 915.08,
+        "duration": 1.602
+    },
+    {
+        "text": "And if I look at the component\nof it going down the ramp,",
+        "start": 916.782,
+        "duration": 2.769
+    },
+    {
+        "text": "it has to be the same as this\ncomponent of gravity",
+        "start": 919.651,
+        "duration": 2.169
+    },
+    {
+        "text": "down the ramp, because\nthere's no other forces.",
+        "start": 921.92,
+        "duration": 1.869
+    },
+    {
+        "text": "The only other forces, FN, my\nnormal force in this direction,",
+        "start": 923.889,
+        "duration": 3.47
+    },
+    {
+        "text": "and there's no component of\nit in this slidey direction.",
+        "start": 927.459,
+        "duration": 2.369
+    },
+    {
+        "text": "And we said that we wanted\nno friction, remember,",
+        "start": 929.928,
+        "duration": 1.935
+    },
+    {
+        "text": "so this component\nof gravity must be",
+        "start": 931.963,
+        "duration": 1.802
+    },
+    {
+        "text": "equal to this component\nof centripetal force.",
+        "start": 933.865,
+        "duration": 2.269
+    },
+    {
+        "text": "So that means mg sine\ntheta equals Fc cos theta.",
+        "start": 936.234,
+        "duration": 4.338
+    },
+    {
+        "text": "What is Fc?",
+        "start": 940.672,
+        "duration": 0.968
+    },
+    {
+        "text": "It's mv squared over r,\nso I sub that in.",
+        "start": 941.74,
+        "duration": 2.069
+    },
+    {
+        "text": "So I get mg sine theta equals\nmv squared over r cos theta,",
+        "start": 943.909,
+        "duration": 5.705
+    },
+    {
+        "text": "and my masses on\neither side cancel,",
+        "start": 949.714,
+        "duration": 2.07
+    },
+    {
+        "text": "which implies that\nthe angle of the bank",
+        "start": 951.884,
+        "duration": 1.801
+    },
+    {
+        "text": "does not depend on the mass.",
+        "start": 953.785,
+        "duration": 1.368
+    },
+    {
+        "text": "The angle should be the\nsame for a giant SUV",
+        "start": 955.254,
+        "duration": 2.569
+    },
+    {
+        "text": "as it is for a scooter.",
+        "start": 957.923,
+        "duration": 0.934
+    },
+    {
+        "text": "So the fact that the\nmass doesn't matter,",
+        "start": 958.957,
+        "duration": 1.602
+    },
+    {
+        "text": "it makes it so much easier for\nengineers to make banked ramps.",
+        "start": 960.659,
+        "duration": 3.203
+    },
+    {
+        "text": "Thank you, physics.",
+        "start": 963.962,
+        "duration": 1.135
+    },
+    {
+        "text": "Now, we can solve for the\nangle theta with respect",
+        "start": 965.197,
+        "duration": 2.235
+    },
+    {
+        "text": "to the velocity.",
+        "start": 967.532,
+        "duration": 0.968
+    },
+    {
+        "text": "So I get sine\ntheta over cosine theta,",
+        "start": 968.6,
+        "duration": 2.87
+    },
+    {
+        "text": "which equals tan theta.",
+        "start": 971.57,
+        "duration": 2.035
+    },
+    {
+        "text": "And that equals my\nv squared over r,",
+        "start": 973.705,
+        "duration": 2.87
+    },
+    {
+        "text": "and I'll bring down my g.",
+        "start": 976.675,
+        "duration": 1.067
+    },
+    {
+        "text": "So tan theta equals\nv squared over gr.",
+        "start": 977.842,
+        "duration": 4.272
+    },
+    {
+        "text": "So the ramp angle\nwould be different",
+        "start": 982.214,
+        "duration": 2.035
+    },
+    {
+        "text": "if you were on a\ndifferent planet--cool.",
+        "start": 984.349,
+        "duration": 2.436
+    },
+    {
+        "text": "So with no friction, if\nyou're sitting still,",
+        "start": 986.885,
+        "duration": 1.969
+    },
+    {
+        "text": "you slide down the ramp.",
+        "start": 988.954,
+        "duration": 0.901
+    },
+    {
+        "text": "If you're going too fast,",
+        "start": 989.955,
+        "duration": 1.134
+    },
+    {
+        "text": "then you'll go\nshooting off the ramp.",
+        "start": 991.189,
+        "duration": 1.569
+    },
+    {
+        "text": "And if it's just\nright, then you'll",
+        "start": 992.858,
+        "duration": 1.368
+    },
+    {
+        "text": "go merrily along in a circle at\nthis angle with this velocity.",
+        "start": 994.326,
+        "duration": 3.904
+    },
+    {
+        "text": "By the way, my head writer and\nI solved this in different ways.",
+        "start": 998.33,
+        "duration": 2.636
+    },
+    {
+        "text": "And he made me do it\nthis way, because he said",
+        "start": 1001.066,
+        "duration": 1.835
+    },
+    {
+        "text": "that mine\nwas the textbook way.",
+        "start": 1003.001,
+        "duration": 1.402
+    },
+    {
+        "text": "But if you want to see the\nway that I did it, here it is.",
+        "start": 1004.503,
+        "duration": 2.268
+    },
+    {
+        "text": "So now, with his superior\nversion, let's check the units.",
+        "start": 1006.871,
+        "duration": 4.004
+    },
+    {
+        "text": "So we've got tan theta, which\nshould be dimensionless,",
+        "start": 1010.975,
+        "duration": 2.67
+    },
+    {
+        "text": "because the tangent is\na ratio of two lengths.",
+        "start": 1013.745,
+        "duration": 3.471
+    },
+    {
+        "text": "v squared is m, meters\nsquared per second squared,",
+        "start": 1017.316,
+        "duration": 4.938
+    },
+    {
+        "text": "and I've got g over r.",
+        "start": 1022.354,
+        "duration": 1.968
+    },
+    {
+        "text": "We've got another m.",
+        "start": 1024.422,
+        "duration": 1.168
+    },
+    {
+        "text": "Then, on the bottom, g is\nmeters per second squared.",
+        "start": 1025.69,
+        "duration": 4.038
+    },
+    {
+        "text": "So we've got another\nmeter, and then I'll bring",
+        "start": 1029.828,
+        "duration": 2.736
+    },
+    {
+        "text": "my second squared up,",
+        "start": 1032.664,
+        "duration": 1.134
+    },
+    {
+        "text": "because it's meters per\nsecond squared on the bottom,",
+        "start": 1033.898,
+        "duration": 2.002
+    },
+    {
+        "text": "so I get seconds\nsquared up here.",
+        "start": 1036.001,
+        "duration": 1.268
+    },
+    {
+        "text": "My seconds squared cancel,\nand my meters squared cancel,",
+        "start": 1037.369,
+        "duration": 2.001
+    },
+    {
+        "text": "so these two meters,",
+        "start": 1039.47,
+        "duration": 0.902
+    },
+    {
+        "text": "and I get a\ndimensionless right side.",
+        "start": 1040.472,
+        "duration": 2.102
+    },
+    {
+        "text": "Ta-da! It works.\nGreat. Done.",
+        "start": 1042.674,
+        "duration": 2.369
+    },
+    {
+        "text": "What have we done?",
+        "start": 1045.143,
+        "duration": 1.168
+    },
+    {
+        "text": "Well, we've shown that if\nyou bank a curve just right,",
+        "start": 1046.411,
+        "duration": 2.503
+    },
+    {
+        "text": "there's a velocity at which\nall the forces balance out,",
+        "start": 1049.014,
+        "duration": 2.202
+    },
+    {
+        "text": "and you can drive with no hands.",
+        "start": 1051.316,
+        "duration": 1.768
+    },
+    {
+        "text": "In effect, you feel like you're\ngoing in a straight line,",
+        "start": 1053.184,
+        "duration": 2.503
+    },
+    {
+        "text": "and this is actually\nvery analogous to an idea",
+        "start": 1055.787,
+        "duration": 1.835
+    },
+    {
+        "text": "you may have heard in\ngeneral relativity, where",
+        "start": 1057.723,
+        "duration": 3.403
+    },
+    {
+        "text": "gravity curves space and time,\nbut that's more confusing.",
+        "start": 1061.226,
+        "duration": 3.504
+    },
+    {
+        "text": "You can just think\nabout the space,",
+        "start": 1064.83,
+        "duration": 1.367
+    },
+    {
+        "text": "and an object traveling\nin that curved space",
+        "start": 1066.298,
+        "duration": 2.469
+    },
+    {
+        "text": "doesn't feel any forces.",
+        "start": 1068.867,
+        "duration": 1.368
+    },
+    {
+        "text": "It just feels like it's\nmoving in a straight line",
+        "start": 1070.335,
+        "duration": 2.603
+    },
+    {
+        "text": "but in curved space, and\nthe effect is seeming",
+        "start": 1073.038,
+        "duration": 2.769
+    },
+    {
+        "text": "like you're going in a circle.",
+        "start": 1075.907,
+        "duration": 1.402
+    },
+    {
+        "text": "So when you get a\ncool result like this,",
+        "start": 1077.409,
+        "duration": 1.602
+    },
+    {
+        "text": "it's always a good idea\nto test it out a bit.",
+        "start": 1079.111,
+        "duration": 2.536
+    },
+    {
+        "text": "Play around to see if what\nyou've got makes sense,",
+        "start": 1081.747,
+        "duration": 2.302
+    },
+    {
+        "text": "and a good way to do that\nis to test out",
+        "start": 1084.149,
+        "duration": 1.468
+    },
+    {
+        "text": "the boundary conditions.",
+        "start": 1085.717,
+        "duration": 1.469
+    },
+    {
+        "text": "I'll call this the\nextreme behavior",
+        "start": 1087.286,
+        "duration": 1.735
+    },
+    {
+        "text": "method of sanity checks.",
+        "start": 1089.121,
+        "duration": 1.501
+    },
+    {
+        "text": "Think about the extremes\nof your variables",
+        "start": 1090.722,
+        "duration": 2.035
+    },
+    {
+        "text": "and how the model behaves.",
+        "start": 1092.857,
+        "duration": 1.635
+    },
+    {
+        "text": "So let's play around with the\nangle and see what happens.",
+        "start": 1094.592,
+        "duration": 2.569
+    },
+    {
+        "text": "Let's go to the maximum\nangle, a 90 degree bank,",
+        "start": 1097.262,
+        "duration": 3.203
+    },
+    {
+        "text": "something like this, where\nyour car's at 90 degrees.",
+        "start": 1100.565,
+        "duration": 4.037
+    },
+    {
+        "text": "This is the steepest\nthat you could go.",
+        "start": 1104.702,
+        "duration": 1.536
+    },
+    {
+        "text": "It's straight up and down, and\nas you approach the 90 degrees,",
+        "start": 1106.338,
+        "duration": 2.803
+    },
+    {
+        "text": "tangent of theta\ngoes to infinity.",
+        "start": 1109.241,
+        "duration": 2.235
+    },
+    {
+        "text": "That makes sense, because\nthe steeper the angle,",
+        "start": 1111.577,
+        "duration": 1.901
+    },
+    {
+        "text": "the faster you have to go\nto counter gravity",
+        "start": 1113.578,
+        "duration": 1.935
+    },
+    {
+        "text": "wanting to make you\nslide down that steep ramp.",
+        "start": 1115.613,
+        "duration": 2.136
+    },
+    {
+        "text": "That's kind of crazy.",
+        "start": 1117.849,
+        "duration": 1.001
+    },
+    {
+        "text": "You have to go infinitely\nfast to keep going",
+        "start": 1118.95,
+        "duration": 1.902
+    },
+    {
+        "text": "on a ramp at 90 degrees\nwith no friction.",
+        "start": 1120.952,
+        "duration": 2.903
+    },
+    {
+        "text": "So, yeah, you can't do\na 90-degree angle",
+        "start": 1123.955,
+        "duration": 2.003
+    },
+    {
+        "text": "without friction,",
+        "start": 1126.058,
+        "duration": 0.967
+    },
+    {
+        "text": "but you can totally\ndo it with friction.",
+        "start": 1127.125,
+        "duration": 1.669
+    },
+    {
+        "text": "So we can even play with g.",
+        "start": 1128.894,
+        "duration": 1.434
+    },
+    {
+        "text": "So let's do the extreme\nbehavior method on g",
+        "start": 1130.429,
+        "duration": 2.134
+    },
+    {
+        "text": "and ask,\nwhat if g were 0?",
+        "start": 1132.663,
+        "duration": 2.27
+    },
+    {
+        "text": "If the car were on a track\nwith 0 gravity, well,",
+        "start": 1135.033,
+        "duration": 2.603
+    },
+    {
+        "text": "anything over a 0 corresponds\nto a tangent of 90.",
+        "start": 1137.736,
+        "duration": 3.136
+    },
+    {
+        "text": "So without gravity,\nin order to turn,",
+        "start": 1140.972,
+        "duration": 1.802
+    },
+    {
+        "text": "you would need a bank that\nis straight up and down.",
+        "start": 1142.874,
+        "duration": 2.103
+    },
+    {
+        "text": "So if you're in space\nand in 0 gravity,",
+        "start": 1145.077,
+        "duration": 2.335
+    },
+    {
+        "text": "then you could build a banked\nroad like a giant cylinder.",
+        "start": 1147.512,
+        "duration": 3.304
+    },
+    {
+        "text": "And if you flip\nthat idea around,",
+        "start": 1150.916,
+        "duration": 2.035
+    },
+    {
+        "text": "then a giant\nspinning cylinder",
+        "start": 1153.051,
+        "duration": 1.134
+    },
+    {
+        "text": "can be used\nto simulate gravity.",
+        "start": 1154.285,
+        "duration": 2.136
+    },
+    {
+        "text": "In fact, if you watch movies\nthat try to pay attention",
+        "start": 1156.521,
+        "duration": 2.136
+    },
+    {
+        "text": "to physics, like 2001: A Space\nOdyssey or like The Martian,",
+        "start": 1158.757,
+        "duration": 3.236
+    },
+    {
+        "text": "then you'd see\nhumans walking around",
+        "start": 1162.093,
+        "duration": 1.535
+    },
+    {
+        "text": "in big spinning cylinders.",
+        "start": 1163.728,
+        "duration": 1.601
+    },
+    {
+        "text": "In that rotating\nreference frame,",
+        "start": 1165.43,
+        "duration": 1.268
+    },
+    {
+        "text": "the humans feel this\ncentrifugal force--",
+        "start": 1166.798,
+        "duration": 2.736
+    },
+    {
+        "text": "centrifugal, I said it again--",
+        "start": 1169.634,
+        "duration": 1.568
+    },
+    {
+        "text": "but that's what they\nfeel pushing on them,",
+        "start": 1171.302,
+        "duration": 1.836
+    },
+    {
+        "text": "and it mimics 1 g.",
+        "start": 1173.238,
+        "duration": 1.935
+    },
+    {
+        "text": "So you could take this\nidea even further.",
+        "start": 1175.273,
+        "duration": 1.735
+    },
+    {
+        "text": "What if you built a\nthin spinning cylinder",
+        "start": 1177.108,
+        "duration": 2.036
+    },
+    {
+        "text": "with a radius the size of\nEarth's orbit around the sun.",
+        "start": 1179.244,
+        "duration": 4.404
+    },
+    {
+        "text": "If you set it spinning\nat just the right speed,",
+        "start": 1183.748,
+        "duration": 1.903
+    },
+    {
+        "text": "you could have any equivalent\ngravity you wanted.",
+        "start": 1185.751,
+        "duration": 2.602
+    },
+    {
+        "text": "So this artificial gravity makes\nit possible for these strips",
+        "start": 1188.453,
+        "duration": 2.769
+    },
+    {
+        "text": "to have an atmosphere, which\ncould form clouds and rain",
+        "start": 1191.322,
+        "duration": 3.103
+    },
+    {
+        "text": "and make oceans and\nhave enough space",
+        "start": 1194.525,
+        "duration": 2.136
+    },
+    {
+        "text": "for an awful lot of people.",
+        "start": 1196.761,
+        "duration": 1.736
+    },
+    {
+        "text": "So there's this classic\nsci-fi book from 1970",
+        "start": 1198.597,
+        "duration": 2.135
+    },
+    {
+        "text": "by Larry Niven called\nRing World, where",
+        "start": 1200.832,
+        "duration": 2.503
+    },
+    {
+        "text": "aliens build a world like this,\nand yes, we know,",
+        "start": 1203.435,
+        "duration": 2.903
+    },
+    {
+        "text": "the ring world is unstable.",
+        "start": 1206.438,
+        "duration": 1.701
+    },
+    {
+        "text": "So that's Lesson 7,\ncircular motion.",
+        "start": 1208.239,
+        "duration": 3.103
+    },
+    {
+        "text": "When they ask what you\nlearned on YouTube today,",
+        "start": 1211.443,
+        "duration": 1.834
+    },
+    {
+        "text": "here are your two\nimportant takeaways.",
+        "start": 1213.377,
+        "duration": 1.569
+    },
+    {
+        "text": "The force required to\nmove in a circle points",
+        "start": 1215.046,
+        "duration": 1.935
+    },
+    {
+        "text": "toward the center of\nthe circle, and it's called",
+        "start": 1217.081,
+        "duration": 1.836
+    },
+    {
+        "text": "the centripetal force.",
+        "start": 1219.017,
+        "duration": 1.334
+    },
+    {
+        "text": "And when you see a\ncircular-motion problem,",
+        "start": 1220.451,
+        "duration": 2.036
+    },
+    {
+        "text": "write down the magnitude\nof the centripetal force,",
+        "start": 1222.587,
+        "duration": 2.436
+    },
+    {
+        "text": "Fc equals mv squared over r.",
+        "start": 1225.123,
+        "duration": 2.036
+    },
+    {
+        "text": "But as an epilogue,\nas I promised,",
+        "start": 1227.259,
+        "duration": 1.435
+    },
+    {
+        "text": "I'm going to derive\na centripetal-force equation,",
+        "start": 1228.794,
+        "duration": 1.901
+    },
+    {
+        "text": "which involves\na little bit of calculus.",
+        "start": 1230.795,
+        "duration": 1.736
+    },
+    {
+        "text": "And its derivation will\nbe actually quite similar",
+        "start": 1232.631,
+        "duration": 1.934
+    },
+    {
+        "text": "to the one for\nsprings and swings",
+        "start": 1234.665,
+        "duration": 1.369
+    },
+    {
+        "text": "and things that are\noscillating,",
+        "start": 1236.134,
+        "duration": 1.301
+    },
+    {
+        "text": "which shows up\na lot in physics.",
+        "start": 1237.536,
+        "duration": 1.567
+    },
+    {
+        "text": "r vector equals r\ntimes cosine omega t",
+        "start": 1239.203,
+        "duration": 6.073
+    },
+    {
+        "text": "x hat plus sine omega\nt y hat, and then I",
+        "start": 1245.376,
+        "duration": 5.573
+    },
+    {
+        "text": "take the derivative of that.",
+        "start": 1251.049,
+        "duration": 1.168
+    },
+    {
+        "text": "And that gives me\nmy velocity vector",
+        "start": 1252.317,
+        "duration": 2.269
+    },
+    {
+        "text": "which is r times negative omega\nsine omega t x hat plus omega",
+        "start": 1254.686,
+        "duration": 8.374
+    },
+    {
+        "text": "cosine omega t y hat,\nand then the acceleration",
+        "start": 1263.161,
+        "duration": 3.67
+    },
+    {
+        "text": "is the derivative of that.",
+        "start": 1266.931,
+        "duration": 1.502
+    },
+    {
+        "text": "So my acceleration vector equals\nr times negative omega squared",
+        "start": 1268.533,
+        "duration": 5.806
+    },
+    {
+        "text": "cosine omega t x hat minus omega\nsquared sine omega t y hat.",
+        "start": 1274.439,
+        "duration": 7.474
+    },
+    {
+        "text": "And if you just pull out\nthe negative omega squared,",
+        "start": 1282.013,
+        "duration": 3.07
+    },
+    {
+        "text": "then I get acceleration\nequals negative omega squared.",
+        "start": 1285.183,
+        "duration": 5.205
+    },
+    {
+        "text": "But then I have a cosine,\nand then I have a sine,",
+        "start": 1290.488,
+        "duration": 2.569
+    },
+    {
+        "text": "and I'm back to the r vector.",
+        "start": 1293.157,
+        "duration": 2.469
+    },
+    {
+        "text": "And the negative tells me the\ndirection of my acceleration.",
+        "start": 1295.726,
+        "duration": 2.804
+    },
+    {
+        "text": "It's inward.\nHere's my motion of circle.",
+        "start": 1298.63,
+        "duration": 2.002
+    },
+    {
+        "text": "Here's my radius vector,\nand that's outward.",
+        "start": 1300.732,
+        "duration": 3.269
+    },
+    {
+        "text": "So my acceleration vector\nis going to be inward.",
+        "start": 1304.102,
+        "duration": 3.37
+    },
+    {
+        "text": "Cool.",
+        "start": 1307.572,
+        "duration": 1.702
+    },
+    {
+        "text": "And then, because F equals\nma, another fact of life",
+        "start": 1309.374,
+        "duration": 3.203
+    },
+    {
+        "text": "is that omega is your linear\nvelocity of your radius.",
+        "start": 1312.677,
+        "duration": 3.404
+    },
+    {
+        "text": "So we've got all\nof this together.",
+        "start": 1316.181,
+        "duration": 1.301
+    },
+    {
+        "text": "I can sub this in here,\nand so I get",
+        "start": 1317.582,
+        "duration": 1.569
+    },
+    {
+        "text": "the magnitude of my acceleration\nequals this squared times r.",
+        "start": 1319.251,
+        "duration": 4.771
+    },
+    {
+        "text": "So that's v squared\nover r squared times",
+        "start": 1324.122,
+        "duration": 2.635
+    },
+    {
+        "text": "r equals v squared over r, and\nthen I sub that in over here,",
+        "start": 1326.857,
+        "duration": 5.64
+    },
+    {
+        "text": "and I get F equals mv\nsquared over r.",
+        "start": 1332.597,
+        "duration": 3.737
+    },
+    {
+        "text": "Ta-da! And that's it.",
+        "start": 1336.434,
+        "duration": 1.836
+    },
+    {
+        "text": "We're done. Very cool.",
+        "start": 1338.37,
+        "duration": 1.101
+    },
+    {
+        "text": "And because you can only\nreally learn physics",
+        "start": 1339.571,
+        "duration": 2.001
+    },
+    {
+        "text": "by doing the\nproblems, here again",
+        "start": 1341.672,
+        "duration": 2.069
+    },
+    {
+        "text": "are all the problems\nwe did in the lesson,",
+        "start": 1343.841,
+        "duration": 1.735
+    },
+    {
+        "text": "and you should definitely\ngo work them again at home.",
+        "start": 1345.676,
+        "duration": 2.57
+    },
+    {
+        "text": "And now I get to share\nsome crazy physics.",
+        "start": 1348.346,
+        "duration": 2.302
+    },
+    {
+        "text": "I'd say that the most\namazing place where",
+        "start": 1350.748,
+        "duration": 1.869
+    },
+    {
+        "text": "circular motion shows up\nis around a black hole.",
+        "start": 1352.718,
+        "duration": 2.935
+    },
+    {
+        "text": "Back in 2019--that's\nlike a year ago,",
+        "start": 1355.753,
+        "duration": 1.803
+    },
+    {
+        "text": "but maybe when you're watching\nthis, it's many years ago.",
+        "start": 1357.656,
+        "duration": 2.268
+    },
+    {
+        "text": "In 2019, the scientists of\nthe Event Verizon Telescope",
+        "start": 1360.024,
+        "duration": 2.903
+    },
+    {
+        "text": "Collaboration published\nthe first-ever image",
+        "start": 1363.028,
+        "duration": 2.068
+    },
+    {
+        "text": "of a black hole.",
+        "start": 1365.196,
+        "duration": 1.034
+    },
+    {
+        "text": "I made a video saying we've\nnever made an image",
+        "start": 1366.33,
+        "duration": 1.803
+    },
+    {
+        "text": "of a black hole\nand then, boom, we did!",
+        "start": 1368.233,
+        "duration": 2.235
+    },
+    {
+        "text": "You've probably seen\nit at this point.",
+        "start": 1370.568,
+        "duration": 1.502
+    },
+    {
+        "text": "It looks like an orange donut.",
+        "start": 1372.17,
+        "duration": 1.601
+    },
+    {
+        "text": "That orange frosting is\nwhat astrophysicists",
+        "start": 1373.872,
+        "duration": 2.002
+    },
+    {
+        "text": "call the photon orbit.",
+        "start": 1375.974,
+        "duration": 1.834
+    },
+    {
+        "text": "The black hole's\nenormous gravity",
+        "start": 1377.909,
+        "duration": 1.635
+    },
+    {
+        "text": "bends light--\nyes, it bends light--",
+        "start": 1379.644,
+        "duration": 2.303
+    },
+    {
+        "text": "in approximate circular motion\naround the event horizon.",
+        "start": 1382.047,
+        "duration": 3.537
+    },
+    {
+        "text": "So think you can calculate\nthe force bending the photon?",
+        "start": 1385.684,
+        "duration": 2.803
+    },
+    {
+        "text": "We have been saying\nall this time",
+        "start": 1388.587,
+        "duration": 1.267
+    },
+    {
+        "text": "that F equals mv squared over\nr, but photons have no mass.",
+        "start": 1389.954,
+        "duration": 3.771
+    },
+    {
+        "text": "What?",
+        "start": 1393.825,
+        "duration": 0.867
+    },
+    {
+        "text": "If you keep on with\nphysics and decide",
+        "start": 1394.792,
+        "duration": 1.435
+    },
+    {
+        "text": "to take a course on general\nrelativity or something,",
+        "start": 1396.327,
+        "duration": 2.103
+    },
+    {
+        "text": "you'll learn how to\ncalculate the motion of light",
+        "start": 1398.53,
+        "duration": 1.969
+    },
+    {
+        "text": "moving in circles and figure\nout why you don't need mass.",
+        "start": 1400.599,
+        "duration": 3.069
+    },
+    {
+        "text": "I hope you do keep\nstudying physics.",
+        "start": 1403.768,
+        "duration": 1.602
+    },
+    {
+        "text": "And now, a message from\na very special guest.",
+        "start": 1405.47,
+        "duration": 2.602
+    },
+    {
+        "text": "Hey, it's me, Derek\nfrom Veritasium,",
+        "start": 1408.172,
+        "duration": 2.436
+    },
+    {
+        "text": "and you are embarking\non a physics journey.",
+        "start": 1410.709,
+        "duration": 2.735
+    },
+    {
+        "text": "When I was a kid, my mom\ntold me that physics was",
+        "start": 1413.545,
+        "duration": 2.903
+    },
+    {
+        "text": "all about finding the right\nequation and putting numbers in.",
+        "start": 1416.548,
+        "duration": 3.269
+    },
+    {
+        "text": "And, yes, that's definitely\npart of physics,",
+        "start": 1419.918,
+        "duration": 1.935
+    },
+    {
+        "text": "but it's so much more than that.",
+        "start": 1421.953,
+        "duration": 2.102
+    },
+    {
+        "text": "It's about finding a\nconsistent, coherent way",
+        "start": 1424.155,
+        "duration": 2.403
+    },
+    {
+        "text": "and process of understanding\neverything in our universe,",
+        "start": 1426.658,
+        "duration": 3.102
+    },
+    {
+        "text": "including the stuff there\nlike we know is there,",
+        "start": 1429.861,
+        "duration": 2.036
+    },
+    {
+        "text": "but we can't even see.",
+        "start": 1431.997,
+        "duration": 1.467
+    },
+    {
+        "text": "And you are embarking\non this journey.",
+        "start": 1433.564,
+        "duration": 1.502
+    },
+    {
+        "text": "You are incredibly lucky\nto be getting into it",
+        "start": 1435.166,
+        "duration": 2.402
+    },
+    {
+        "text": "with Dianna Cowern,\nthe physics girl.",
+        "start": 1437.668,
+        "duration": 3.204
+    },
+    {
+        "text": "She is awesome.",
+        "start": 1440.972,
+        "duration": 1.268
+    },
+    {
+        "text": "So, really, I think you are\ngoing to have",
+        "start": 1442.34,
+        "duration": 2.936
+    },
+    {
+        "text": "the greatest time\nin this course,",
+        "start": 1445.376,
+        "duration": 1.935
+    },
+    {
+        "text": "and I just wish you\nall the best",
+        "start": 1447.411,
+        "duration": 1.87
+    },
+    {
+        "text": "in your physics journey.",
+        "start": 1449.381,
+        "duration": 0.9
+    },
+    {
+        "text": "Because for me,\nit was life-changing,",
+        "start": 1450.381,
+        "duration": 2.436
+    },
+    {
+        "text": "and I hope it is\nfor you as well.",
+        "start": 1452.918,
+        "duration": 2.402
+    },
+    {
+        "text": "[MUSIC PLAYING]",
+        "start": 1455.42,
+        "duration": 3.103
+    }
+]

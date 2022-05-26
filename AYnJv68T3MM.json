@@ -1,0 +1,602 @@
+[
+    {
+        "text": "There it is, that's hard to get.",
+        "start": 0.0,
+        "duration": 1.92
+    },
+    {
+        "text": "I don't know if your camera is fast enough to catch that.",
+        "start": 1.92,
+        "duration": 3.48
+    },
+    {
+        "text": "I'll do it until you cry \"Uncle\".\nThere you go.",
+        "start": 5.4,
+        "duration": 5.14
+    },
+    {
+        "text": "So for many people -- me in particular, viscerally -- this is as close to a random phenomena as I know.",
+        "start": 10.54,
+        "duration": 7.44
+    },
+    {
+        "text": "And yet you can think about it, if you knew when the coin leaves your thumb",
+        "start": 18.0,
+        "duration": 5.8
+    },
+    {
+        "text": "( faint ringing sound )",
+        "start": 23.8,
+        "duration": 3.14
+    },
+    {
+        "text": "if you knew how fast it was traveling,",
+        "start": 26.94,
+        "duration": 1.9
+    },
+    {
+        "text": "and if you knew how many times a second it was turning over",
+        "start": 28.84,
+        "duration": 3.14
+    },
+    {
+        "text": "Newton tells you, if you know the speed,\nhow long it takes you to come down",
+        "start": 31.98,
+        "duration": 4.26
+    },
+    {
+        "text": "and that if you know how fast it's turning,",
+        "start": 36.24,
+        "duration": 2.04
+    },
+    {
+        "text": "you know whether it will come up heads or tails.",
+        "start": 38.28,
+        "duration": 1.8
+    },
+    {
+        "text": "Coin tossing is a deterministic process.",
+        "start": 40.08,
+        "duration": 3.22
+    },
+    {
+        "text": "So what's random about it?\nBut first of all,",
+        "start": 43.3,
+        "duration": 5.4
+    },
+    {
+        "text": "let's try doing a little of the math of tossing a coin.",
+        "start": 48.7,
+        "duration": 3.68
+    },
+    {
+        "text": "I'm going to say feet per second,\nI know that's unpopular.",
+        "start": 52.38,
+        "duration": 3.42
+    },
+    {
+        "text": "And here's revolutions per second.",
+        "start": 55.8,
+        "duration": 2.86
+    },
+    {
+        "text": "So a dot on this plane is a coin toss.",
+        "start": 58.66,
+        "duration": 5.18
+    },
+    {
+        "text": "A dot on this plane is how fast it's going,\nand how many times a second is it turning.",
+        "start": 63.84,
+        "duration": 5.96
+    },
+    {
+        "text": "So for example, a dot here near the axis,",
+        "start": 69.8,
+        "duration": 3.52
+    },
+    {
+        "text": "the speed is high\nbut the revolutions per second is not so much.",
+        "start": 73.32,
+        "duration": 7.78
+    },
+    {
+        "text": "So that means it's going up like a pizza.",
+        "start": 81.1,
+        "duration": 4.96
+    },
+    {
+        "text": "It's kind of doing this,",
+        "start": 86.06,
+        "duration": 1.0
+    },
+    {
+        "text": "and not really turning over.",
+        "start": 87.06,
+        "duration": 2.22
+    },
+    {
+        "text": "If it's close enough,\nit might be just kind of slowly turning.",
+        "start": 89.28,
+        "duration": 3.98
+    },
+    {
+        "text": "So it might be that it doesn't turn over at all.",
+        "start": 93.26,
+        "duration": 4.9
+    },
+    {
+        "text": "Similarly a dot here, very near the axis up here,",
+        "start": 98.16,
+        "duration": 2.86
+    },
+    {
+        "text": "is a coin which was thrown\nwith a lot of revolutions per second",
+        "start": 101.02,
+        "duration": 2.46
+    },
+    {
+        "text": "but very low speed, so it never gets very far.",
+        "start": 103.48,
+        "duration": 2.52
+    },
+    {
+        "text": "( faint ringing sound )",
+        "start": 106.0,
+        "duration": 11.96
+    },
+    {
+        "text": "So there's a region like this, of initial conditions\nwhere the coin never turns over at all.",
+        "start": 117.96,
+        "duration": 7.72
+    },
+    {
+        "text": "Any place in here the coin never\nturns over at all, there's some region.",
+        "start": 125.69,
+        "duration": 4.79
+    },
+    {
+        "text": "And we can figure out what this curve is.",
+        "start": 130.48,
+        "duration": 2.24
+    },
+    {
+        "text": "It's just, you know, a first course in physics.",
+        "start": 132.72,
+        "duration": 3.04
+    },
+    {
+        "text": "And then there's a region\nwhere the coin turns over once.",
+        "start": 135.77,
+        "duration": 4.51
+    },
+    {
+        "text": "Initial conditions here, the coin just turns over once.",
+        "start": 140.28,
+        "duration": 3.88
+    },
+    {
+        "text": "And then there's a third region \nwhere the coin turns over twice.",
+        "start": 144.17,
+        "duration": 4.19
+    },
+    {
+        "text": "And then there's a fourth region\nwhere the coin turns over three times,",
+        "start": 148.36,
+        "duration": 4.98
+    },
+    {
+        "text": "which is the same as turning over once.",
+        "start": 153.34,
+        "duration": 1.92
+    },
+    {
+        "text": "And these regions alternate.",
+        "start": 155.26,
+        "duration": 1.56
+    },
+    {
+        "text": "When you do the math what you find is \nthese regions get closer and closer together,",
+        "start": 156.82,
+        "duration": 6.36
+    },
+    {
+        "text": "so that small changes in initial conditions make for the difference between heads and tails.",
+        "start": 163.18,
+        "duration": 4.12
+    },
+    {
+        "text": "And for most of us that's what makes coin tossing random.",
+        "start": 167.3,
+        "duration": 4.24
+    },
+    {
+        "text": "Now you can ask, when real people\nflip real coins, where are we on this picture?",
+        "start": 171.54,
+        "duration": 6.18
+    },
+    {
+        "text": "I want to know how fast is the coin going when it leaves my hand?",
+        "start": 177.72,
+        "duration": 2.74
+    },
+    {
+        "text": "Is it going 5 miles an hour?\nIs it going 20 miles an hour?",
+        "start": 180.46,
+        "duration": 3.28
+    },
+    {
+        "text": "Is it going 40 miles an hour? \nIt makes a difference.",
+        "start": 183.74,
+        "duration": 2.4
+    },
+    {
+        "text": "So I got a friend with a stopwatch, and I went:",
+        "start": 186.14,
+        "duration": 4.12
+    },
+    {
+        "text": "\"1, 2, 3, flip!\"\n\"1, 2, 3, flip!\"",
+        "start": 190.26,
+        "duration": 2.7
+    },
+    {
+        "text": "and we got sort of synchronized,",
+        "start": 192.96,
+        "duration": 1.98
+    },
+    {
+        "text": "and so he could tell how long it took the coin to come down,",
+        "start": 194.94,
+        "duration": 3.62
+    },
+    {
+        "text": "and from that I could tell how fast it was going.",
+        "start": 198.56,
+        "duration": 2.46
+    },
+    {
+        "text": "Now, it took three hours to get that data,\nif you think about it.",
+        "start": 201.02,
+        "duration": 4.7
+    },
+    {
+        "text": "To get the data about how fast is the coin turning",
+        "start": 205.72,
+        "duration": 5.88
+    },
+    {
+        "text": "I had a good research idea which is the following:",
+        "start": 211.6,
+        "duration": 2.62
+    },
+    {
+        "text": "I took a coin and I took a piece of dental floss,",
+        "start": 214.22,
+        "duration": 3.06
+    },
+    {
+        "text": "you know the tape type dental floss,\nabout three feet long,",
+        "start": 217.28,
+        "duration": 4.22
+    },
+    {
+        "text": "like that,",
+        "start": 221.5,
+        "duration": 0.96
+    },
+    {
+        "text": "and then I flip the coin up,\nand then I could unwind the dental floss",
+        "start": 222.46,
+        "duration": 4.9
+    },
+    {
+        "text": "to see how many times it had turned\nuntil it was flat again.",
+        "start": 227.36,
+        "duration": 2.88
+    },
+    {
+        "text": "( faint ringing sound )",
+        "start": 230.24,
+        "duration": 3.22
+    },
+    {
+        "text": "The floss twists around.",
+        "start": 233.46,
+        "duration": 1.52
+    },
+    {
+        "text": "Now, it's true",
+        "start": 234.98,
+        "duration": 1.92
+    },
+    {
+        "text": "that a coin flipping in the air with a piece of dental floss",
+        "start": 236.9,
+        "duration": 2.48
+    },
+    {
+        "text": "is different than the coin\njust flipping in the air unimpeded.",
+        "start": 239.38,
+        "duration": 3.04
+    },
+    {
+        "text": "So as with any measurement process the measuring interferes with the randomness.",
+        "start": 242.42,
+        "duration": 6.42
+    },
+    {
+        "text": "But you hope it's a third order effect.",
+        "start": 248.84,
+        "duration": 4.0
+    },
+    {
+        "text": "Based on those kinds",
+        "start": 252.84,
+        "duration": 1.42
+    },
+    {
+        "text": "of experiments and a lot more of that,",
+        "start": 254.26,
+        "duration": 2.64
+    },
+    {
+        "text": "I know where we are on this picture.",
+        "start": 256.9,
+        "duration": 2.06
+    },
+    {
+        "text": "What was funny is how fast the coins go.\nA typical coin flip lasts,",
+        "start": 258.96,
+        "duration": 4.08
+    },
+    {
+        "text": "comes up and lasts about half a second.",
+        "start": 263.04,
+        "duration": 3.66
+    },
+    {
+        "text": "When you translate that,\nthat means the coin is going up and back",
+        "start": 266.7,
+        "duration": 2.74
+    },
+    {
+        "text": "about five and a half miles an hour.\nThat's how fast this coin is traveling.",
+        "start": 269.44,
+        "duration": 4.62
+    },
+    {
+        "text": "Now I have to say where we are on this picture.",
+        "start": 274.06,
+        "duration": 4.04
+    },
+    {
+        "text": "This dot where we are in this picture is about 5,",
+        "start": 278.1,
+        "duration": 7.92
+    },
+    {
+        "text": "this is 1.",
+        "start": 286.03,
+        "duration": 2.06
+    },
+    {
+        "text": "And in the units of this picture",
+        "start": 288.09,
+        "duration": 2.26
+    },
+    {
+        "text": "five and a half miles an hour\ncomes down to very very close to zero,",
+        "start": 290.35,
+        "duration": 4.4
+    },
+    {
+        "text": "but the revolutions per second\nwere 40 units up in the picture.",
+        "start": 294.75,
+        "duration": 4.33
+    },
+    {
+        "text": "So this picture says nothing about real coins,",
+        "start": 299.08,
+        "duration": 2.16
+    },
+    {
+        "text": "but the math behind the picture tells you",
+        "start": 301.24,
+        "duration": 2.44
+    },
+    {
+        "text": "how serrated you are\nup there where you can't see.",
+        "start": 303.68,
+        "duration": 5.24
+    },
+    {
+        "text": "It seems to be true that coins",
+        "start": 308.93,
+        "duration": 2.68
+    },
+    {
+        "text": "the way we flip them are fair to 2 decimal places\nbut not to 3.",
+        "start": 311.61,
+        "duration": 5.66
+    },
+    {
+        "text": "It's not perfectly 50/50.",
+        "start": 317.27,
+        "duration": 3.33
+    },
+    {
+        "text": "In work with Susan Holmes and Richard Montgomery",
+        "start": 320.6,
+        "duration": 3.04
+    },
+    {
+        "text": "we showed that coins the way real people flip them",
+        "start": 323.64,
+        "duration": 3.54
+    },
+    {
+        "text": "it's about .51, so one in a hundred off.",
+        "start": 327.18,
+        "duration": 3.64
+    },
+    {
+        "text": "And it's not .51 to \"heads or tails\",",
+        "start": 330.82,
+        "duration": 2.8
+    },
+    {
+        "text": "it's .51 that it comes up the way it started.",
+        "start": 333.62,
+        "duration": 4.7
+    },
+    {
+        "text": "That is, if you started heads up\nit spends more time heads up.",
+        "start": 338.32,
+        "duration": 4.4
+    },
+    {
+        "text": "And I don't care how hard you flip the coin,",
+        "start": 342.72,
+        "duration": 3.28
+    },
+    {
+        "text": "you can flip it to the moon.\nThat bias is a provable stable bias.",
+        "start": 346.0,
+        "duration": 5.42
+    },
+    {
+        "text": "And it's not a \"I think\" or \"from experiments\",\nthis is a theorem.",
+        "start": 351.42,
+        "duration": 4.78
+    },
+    {
+        "text": "When real coins flip, when we get your\nhigh-speed camera, you'll be able to see",
+        "start": 356.2,
+        "duration": 6.3
+    },
+    {
+        "text": "that they don't turn through\ntheir axis of symmetry in that way,",
+        "start": 362.51,
+        "duration": 2.76
+    },
+    {
+        "text": "through this plane, they precess",
+        "start": 365.27,
+        "duration": 2.44
+    },
+    {
+        "text": "and they do pretty complicated things.",
+        "start": 367.71,
+        "duration": 3.8
+    },
+    {
+        "text": "And because of the precession\nit's not just the simple two parameter business.",
+        "start": 371.51,
+        "duration": 6.71
+    },
+    {
+        "text": "The real analysis of flipping a coin, it's 12 parameters.",
+        "start": 378.22,
+        "duration": 3.54
+    },
+    {
+        "text": "Actually describing a moving coin",
+        "start": 381.76,
+        "duration": 2.0
+    },
+    {
+        "text": "is a 12 dimensional problem.\nIt's not something I can draw a picture of.",
+        "start": 383.76,
+        "duration": 3.04
+    },
+    {
+        "text": "We did the analysis in the 12 dimensional space",
+        "start": 386.8,
+        "duration": 2.96
+    },
+    {
+        "text": "and put in some data from\nreal people flipping real coins.",
+        "start": 389.76,
+        "duration": 6.54
+    },
+    {
+        "text": "We had to measure the distribution of angular momentum when real people flipped real coins.",
+        "start": 396.31,
+        "duration": 5.08
+    },
+    {
+        "text": "And that was quite challenging, but we did it.",
+        "start": 401.39,
+        "duration": 3.44
+    },
+    {
+        "text": "So based on all of that analysis, when people,",
+        "start": 404.83,
+        "duration": 3.28
+    },
+    {
+        "text": "when you flip a coin it's about .51\nto come up the way it started.",
+        "start": 408.11,
+        "duration": 4.17
+    },
+    {
+        "text": "So it's better if you see its heads, \nit's better to guess heads.",
+        "start": 412.28,
+        "duration": 3.92
+    },
+    {
+        "text": "It is also true that if you take a coin\nout of your pocket,",
+        "start": 416.2,
+        "duration": 4.34
+    },
+    {
+        "text": "or jiggle it in your hands,\nthat probably makes the start random.",
+        "start": 420.54,
+        "duration": 4.1
+    },
+    {
+        "text": "And then physically flipping a coin\nwon't destroy that randomness.",
+        "start": 424.64,
+        "duration": 3.58
+    },
+    {
+        "text": "It's not as if the coins have a predilection to kind of favor heads when they come.",
+        "start": 428.22,
+        "duration": 3.96
+    },
+    {
+        "text": "Brady Haran: This video was made at\nthe Mathematical Sciences Research Institute.",
+        "start": 432.19,
+        "duration": 5.19
+    },
+    {
+        "text": "Now you might be wondering,\nis it more fair to catch the coin\nor let it drop to the ground?",
+        "start": 437.38,
+        "duration": 4.98
+    },
+    {
+        "text": "You also might be wondering,\nis it more fair just to spin a coin on a surface",
+        "start": 442.36,
+        "duration": 4.11
+    },
+    {
+        "text": "rather than tossing it through the air\nin the first place?",
+        "start": 446.47,
+        "duration": 2.61
+    },
+    {
+        "text": "Well Professor Diaconis has discussed both of these with us,",
+        "start": 449.08,
+        "duration": 3.54
+    },
+    {
+        "text": "and depending on when you're watching this,\nthat video is coming very soon.",
+        "start": 452.62,
+        "duration": 2.73
+    },
+    {
+        "text": "Or, maybe it's already uploaded. \nSo check those out, and thanks for watching.",
+        "start": 455.35,
+        "duration": 4.22
+    }
+]

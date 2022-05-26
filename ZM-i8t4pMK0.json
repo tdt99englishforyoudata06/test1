@@ -1,0 +1,622 @@
+[
+    {
+        "text": "So elections can go sour in lots of ways.",
+        "start": 0.4,
+        "duration": 2.88
+    },
+    {
+        "text": "I mean, somebody might try to manipulate the elections if they're on the,",
+        "start": 3.34,
+        "duration": 3.08
+    },
+    {
+        "text": "if the only results are on the computer, someone could manipulate the computer somehow.",
+        "start": 6.426,
+        "duration": 3.324
+    },
+    {
+        "text": "So for that reason I like to have elections based on paper ballots.",
+        "start": 10.12,
+        "duration": 3.1
+    },
+    {
+        "text": "Paper ones are less open to manipulation,",
+        "start": 13.64,
+        "duration": 1.76
+    },
+    {
+        "text": "yeah, a computer, particularly one",
+        "start": 15.4,
+        "duration": 1.72
+    },
+    {
+        "text": "that's, might be connected to the internet, is terribly vulnerable.",
+        "start": 17.13,
+        "duration": 2.159
+    },
+    {
+        "text": "Somebody's counted the paper ballots and announced the result. But you might still be a bit skeptical. You should be skeptical, right?",
+        "start": 19.65,
+        "duration": 5.94
+    },
+    {
+        "text": "I mean this is important to them. Well the loser will be skeptical anyway, for sure. And so you want to",
+        "start": 25.59,
+        "duration": 4.949
+    },
+    {
+        "text": "process the post-election audit, is what we call it, for really convincing the loser that the result, the announced result, is the right result.",
+        "start": 30.849,
+        "duration": 6.2
+    },
+    {
+        "text": "And, so there's lots of techniques for that. I can describe one of them that I like to you.",
+        "start": 37.27,
+        "duration": 3.379
+    },
+    {
+        "text": "But post-election audit takes the pile of cast paper ballots and does a statistical sample to see if the",
+        "start": 40.96,
+        "duration": 7.22
+    },
+    {
+        "text": "outcome is consistent.",
+        "start": 48.26,
+        "duration": 1.36
+    },
+    {
+        "text": "Yeah, if you have an election with a million voters, you know, recounting",
+        "start": 49.92,
+        "duration": 3.119
+    },
+    {
+        "text": "all of the ballots by hand, which is what a recount is about, that's a lot of work.",
+        "start": 53.289,
+        "duration": 4.4
+    },
+    {
+        "text": "But, you know, a statistical recount, you might have to look just a hundred ballots or something like that, and say,",
+        "start": 57.789,
+        "duration": 4.91
+    },
+    {
+        "text": "yep, that's consistent, you can stop there.",
+        "start": 62.7,
+        "duration": 1.8
+    },
+    {
+        "text": "So they can be very efficient because of the statistics involved. Even for very very large states or jurisdictions.",
+        "start": 64.5,
+        "duration": 3.92
+    },
+    {
+        "text": "Just looking at a few ballots.",
+        "start": 69.0,
+        "duration": 1.92
+    },
+    {
+        "text": "You know, we've seen that already in the real world with polling and things like that, you know, statistical samples",
+        "start": 70.92,
+        "duration": 4.48
+    },
+    {
+        "text": "give you confidence of the outcome. So you take a random sample, you do some checking.",
+        "start": 75.7,
+        "duration": 4.02
+    },
+    {
+        "text": "You look at the random sample by hand, and not by machine, because you're not trusting the machines here.",
+        "start": 80.24,
+        "duration": 4.2
+    },
+    {
+        "text": "So you look at the random sample by hand, you see well who won the sample.",
+        "start": 84.45,
+        "duration": 3.45
+    },
+    {
+        "text": "But you may also do some other computations, as I'll describe, for checking how likely it is that that sample is consistent with",
+        "start": 87.9,
+        "duration": 6.329
+    },
+    {
+        "text": "an outcome that was announced. Maybe that the sample is too small that you really can't tell",
+        "start": 94.78,
+        "duration": 4.79
+    },
+    {
+        "text": "who won in the overall election with much confidence from the sample. And so the overall audit has a higher higher level loop",
+        "start": 100.21,
+        "duration": 6.019
+    },
+    {
+        "text": "higher level processes, draw a sample, check that sample,",
+        "start": 106.36,
+        "duration": 2.779
+    },
+    {
+        "text": "maybe the answer is draw more, make the sample larger.",
+        "start": 109.14,
+        "duration": 3.0
+    },
+    {
+        "text": "So you might go from a hundred ballots to two hundred ballots, then you check a two hundred ballot sample, and then maybe you're done.",
+        "start": 112.14,
+        "duration": 4.889
+    },
+    {
+        "text": "So there's many different ways of, of doing this, and part of it depends on the kind of election you're having.",
+        "start": 117.029,
+        "duration": 4.051
+    },
+    {
+        "text": "So let's imagine",
+        "start": 121.28,
+        "duration": 1.36
+    },
+    {
+        "text": "we have a first past the post, or a plurality election, so whoever gets the most votes wins.",
+        "start": 122.64,
+        "duration": 4.11
+    },
+    {
+        "text": "And there, the math is pretty simple. And we'd like to check whether a pile of cast ballots",
+        "start": 126.75,
+        "duration": 5.819
+    },
+    {
+        "text": "is really consistent with the, with the announced outcome. So we want to do an audit.",
+        "start": 133.3,
+        "duration": 3.389
+    },
+    {
+        "text": "How do I could we do that? So let me illustrate that with with this pile here -  pile of cast ballots for Alice or Bob.",
+        "start": 136.69,
+        "duration": 6.179
+    },
+    {
+        "text": "That's the whole election, right? So we've got a, this is a small county or something that's only got sixteen ballots.",
+        "start": 143.3,
+        "duration": 6.11
+    },
+    {
+        "text": "So you can imagine it's not sixteen, but sixteen hundred or sixteen million, but it's a big pile of paper,",
+        "start": 149.41,
+        "duration": 4.83
+    },
+    {
+        "text": "and we don't really want to look at all in order to",
+        "start": 154.31,
+        "duration": 3.2
+    },
+    {
+        "text": "see who won. But it's been announced that Alice won.",
+        "start": 158.27,
+        "duration": 2.75
+    },
+    {
+        "text": "And we want to check that, is that, is that correct. You can flip through it and sort of look, and say, yeah,",
+        "start": 161.02,
+        "duration": 4.44
+    },
+    {
+        "text": "some Alices, some Bobs, and maybe she won by 11 to 5, or 10 to 6 or something like that.",
+        "start": 165.59,
+        "duration": 5.66
+    },
+    {
+        "text": "There's some count. We don't need to verify the count as much as we want to verify the winner.",
+        "start": 171.25,
+        "duration": 3.839
+    },
+    {
+        "text": "Really, it does, if the counts off a little bit, maybe that doesn't matter so much.",
+        "start": 175.28,
+        "duration": 3.41
+    },
+    {
+        "text": "It's interesting but it's the real question is who won the election. And we have been told that Alice won, and",
+        "start": 178.69,
+        "duration": 6.209
+    },
+    {
+        "text": "we'd like to check that. We don't really trust the person who counted, or we were the loser,",
+        "start": 185.63,
+        "duration": 4.459
+    },
+    {
+        "text": "and we're Bob, if we're told that Bob lost, so we're Bob, and Bob is distrustful of the process. He wants to have his people",
+        "start": 190.82,
+        "duration": 6.649
+    },
+    {
+        "text": "participate with the election officials in an audit, and to confirm that yeah he did lose the election.",
+        "start": 197.72,
+        "duration": 5.16
+    },
+    {
+        "text": "Or maybe he didn't.",
+        "start": 202.88,
+        "duration": 1.18
+    },
+    {
+        "text": "Okay, how do we do an audit?",
+        "start": 204.42,
+        "duration": 1.6
+    },
+    {
+        "text": "There's a couple of ways of doing it.",
+        "start": 206.03,
+        "duration": 1.28
+    },
+    {
+        "text": "I'm gonna describe one that's called the Bayesian audit that was developed by a student of mine, Emily Shen, and myself.",
+        "start": 207.31,
+        "duration": 5.67
+    },
+    {
+        "text": "But like most audits, it starts with a sample. So we could take a sample of the draw, draw a few samples,",
+        "start": 212.98,
+        "duration": 5.069
+    },
+    {
+        "text": "let's take, you know, here's one. I'm just drawing at random. Here's one.",
+        "start": 218.05,
+        "duration": 4.05
+    },
+    {
+        "text": "And here's, you choose some initial size of the sample. So there's our sample. It looks pretty much like it's an Alice win,",
+        "start": 223.58,
+        "duration": 5.839
+    },
+    {
+        "text": "but that's just a sample, and who knows whether that's",
+        "start": 229.42,
+        "duration": 2.13
+    },
+    {
+        "text": "data to really tell. And it depends a bit on how close the election is. If it's a very",
+        "start": 231.709,
+        "duration": 4.04
+    },
+    {
+        "text": "close election a small sample like this may not be enough. All right, so what do we do? So we've got the sample.",
+        "start": 235.91,
+        "duration": 5.75
+    },
+    {
+        "text": "We can see who won the sample.",
+        "start": 241.66,
+        "duration": 1.64
+    },
+    {
+        "text": "The truth, of course, is who won in the whole pile,",
+        "start": 243.3,
+        "duration": 2.14
+    },
+    {
+        "text": "not who won in just the sample. The sample could be misleading.",
+        "start": 245.69,
+        "duration": 3.35
+    },
+    {
+        "text": "The sample could be too small. The sample might have too much of the loser's ballots, so, so we have to have some process of",
+        "start": 249.38,
+        "duration": 5.569
+    },
+    {
+        "text": "figuring out what the whole suite of, the whole collection of ballots might have looked like.",
+        "start": 255.5,
+        "duration": 4.58
+    },
+    {
+        "text": "You'd sort of like to do some unsampling.",
+        "start": 260.84,
+        "duration": 2.8
+    },
+    {
+        "text": "That's sort of a funny notion, but you'd like to take the sample, and",
+        "start": 264.04,
+        "duration": 3.18
+    },
+    {
+        "text": "expand it out in some way to, without having to look at the ballots, we only want to look at these ballots.",
+        "start": 267.87,
+        "duration": 5.119
+    },
+    {
+        "text": "But it's, only looking at these ballots, we'd like to unsample, which is to come up with a",
+        "start": 272.99,
+        "duration": 4.26
+    },
+    {
+        "text": "prototype, or an estimate, of what the whole set of ballots might have looked like. And we can do that many times.",
+        "start": 277.949,
+        "duration": 4.58
+    },
+    {
+        "text": "So let's, let's try that once. So here's a sample of four. What, what kind of",
+        "start": 283.02,
+        "duration": 4.489
+    },
+    {
+        "text": "set of, we had, what, 16 ballots altogether what set of 16 ballots might there have been that could have produced such a sample?",
+        "start": 288.09,
+        "duration": 6.739
+    },
+    {
+        "text": "And so in a probabilistic sense, we're drawing from the posterior. We have a",
+        "start": 295.5,
+        "duration": 3.859
+    },
+    {
+        "text": "well-defined distribution on the set of all possible things.",
+        "start": 300.12,
+        "duration": 2.96
+    },
+    {
+        "text": "But it's easy to describe this, it's beautiful technique due to Pólya, called Pólya's Urn, which",
+        "start": 303.42,
+        "duration": 4.88
+    },
+    {
+        "text": "allows you to grow a sample to a larger thing that it might have come from.",
+        "start": 308.4,
+        "duration": 3.859
+    },
+    {
+        "text": "And so we do that. We pick one of these at random. Let's say I pick, I happen to pick this one.",
+        "start": 312.9,
+        "duration": 4.639
+    },
+    {
+        "text": "Bob. Pick one out, and put two back in, and so I've got a sample of size four,",
+        "start": 318.87,
+        "duration": 4.669
+    },
+    {
+        "text": "I'm going to grow it up by one, to a sample of size five.",
+        "start": 323.539,
+        "duration": 3.089
+    },
+    {
+        "text": "I'm gonna make a copy of whatever I drew. So here's Bob. I put another Bob and I'll write it in green,",
+        "start": 326.629,
+        "duration": 5.22
+    },
+    {
+        "text": "so you know it's been copied. So now I've got a sample, sample of size five.",
+        "start": 332.43,
+        "duration": 4.459
+    },
+    {
+        "text": "This isn't really a sample from what came here. It is sort of my Pólya's Urn grown sample. Now it's three to two.",
+        "start": 337.44,
+        "duration": 5.329
+    },
+    {
+        "text": "Well, whatever. But we had 16 originally, so we want to repeat this process, so we draw another one a random. Well,",
+        "start": 343.289,
+        "duration": 5.239
+    },
+    {
+        "text": "maybe I draw an Alice. So I'll put another Alice, I pick one out and put it back, together with a copy of it.",
+        "start": 348.529,
+        "duration": 6.059
+    },
+    {
+        "text": "So now I've got",
+        "start": 355.05,
+        "duration": 1.829
+    },
+    {
+        "text": "six ballots. That's cool. So now I've grown it a bit. So now, now it's four to two.",
+        "start": 356.879,
+        "duration": 4.58
+    },
+    {
+        "text": "And I can continue this process. I pick one at random. Maybe I pick one that I copied already.",
+        "start": 362.039,
+        "duration": 4.46
+    },
+    {
+        "text": "I copy that and",
+        "start": 367.229,
+        "duration": 1.62
+    },
+    {
+        "text": "put it in. So you can see how this would go. Let's, let's do this.",
+        "start": 368.849,
+        "duration": 3.29
+    },
+    {
+        "text": "So I've now got a four to three.",
+        "start": 373.62,
+        "duration": 2.0
+    },
+    {
+        "text": "So I want to grow up to sixteen, so I pick one at random, got an Alice,",
+        "start": 375.75,
+        "duration": 4.399
+    },
+    {
+        "text": "make a copy of Alice. So at the end of an urn process we've got sixteen again, and we could pretend like that's the full,",
+        "start": 380.879,
+        "duration": 6.83
+    },
+    {
+        "text": "the full cast set of cast ballots, so we can see who won, and so maybe Alice won.",
+        "start": 388.379,
+        "duration": 3.32
+    },
+    {
+        "text": "So we can put on our chart and say Alice won that simulation. These are really simulations, so Alice won one.",
+        "start": 391.77,
+        "duration": 5.819
+    },
+    {
+        "text": "But there was uncertainty there.",
+        "start": 397.589,
+        "duration": 1.67
+    },
+    {
+        "text": "We could have drawn cards in a different order and maybe gotten a different result. So we can imagine doing the whole process again,",
+        "start": 399.259,
+        "duration": 5.97
+    },
+    {
+        "text": "starting with our four and",
+        "start": 405.629,
+        "duration": 2.0
+    },
+    {
+        "text": "growing it out to sixteen. So we do that, and we see who won, and may get a different set of ballots.",
+        "start": 407.849,
+        "duration": 4.73
+    },
+    {
+        "text": "Maybe, maybe Bob won that one, okay? So there's, if it's fairly evenly balanced at the beginning,",
+        "start": 412.58,
+        "duration": 4.679
+    },
+    {
+        "text": "you know, Bob is gonna win some, Alice is gonna win some. And that's the key here is you do a lot",
+        "start": 417.259,
+        "duration": 4.019
+    },
+    {
+        "text": "of simulations of this sort",
+        "start": 421.58,
+        "duration": 1.78
+    },
+    {
+        "text": "Bracy: \"On the one sample.\"",
+        "start": 423.36,
+        "duration": 1.1
+    },
+    {
+        "text": "on the one sample. Maybe Alice wins lots of them, Bob wins some of them,",
+        "start": 424.58,
+        "duration": 3.66
+    },
+    {
+        "text": "but maybe it's, it's fairly close, you know, so, we'd like to have 95% confidence,",
+        "start": 428.24,
+        "duration": 5.129
+    },
+    {
+        "text": "so we maybe want Alice to win 95% of the runs here. If she doesn't win 95%",
+        "start": 433.369,
+        "duration": 5.131
+    },
+    {
+        "text": "we say the sample's not big enough. So we start over, or we make the sample bigger,",
+        "start": 438.72,
+        "duration": 3.439
+    },
+    {
+        "text": "maybe we can draw some more. We go back and we enlarge the sample by drawing some more.",
+        "start": 442.159,
+        "duration": 3.48
+    },
+    {
+        "text": "It's a new sample, it's twice the size. We said the original one wasn't big enough.",
+        "start": 445.639,
+        "duration": 3.0
+    },
+    {
+        "text": "So now instead of growing from four ballots out to sixteen,",
+        "start": 448.679,
+        "duration": 3.32
+    },
+    {
+        "text": "we're growing from eight out to sixteen, and we count, see who wins. And maybe this time,",
+        "start": 451.999,
+        "duration": 4.05
+    },
+    {
+        "text": "maybe this time Alice wins them all, you know, maybe since the sample's bigger now, it's really pretty clear,",
+        "start": 456.119,
+        "duration": 5.57
+    },
+    {
+        "text": "mathematically, from the sample, that Alice is the winner, and so maybe she's winning them.",
+        "start": 462.209,
+        "duration": 3.77
+    },
+    {
+        "text": "Or maybe Bob wins one or two or something.",
+        "start": 467.009,
+        "duration": 1.791
+    },
+    {
+        "text": "But you know, it's it's really overwhelmingly clear that no matter how this gets extended up, I pull these urn,",
+        "start": 468.8,
+        "duration": 4.469
+    },
+    {
+        "text": "you've got Alice winning. And so that's, that's how the audit might proceed. You could say, well,",
+        "start": 473.399,
+        "duration": 4.1
+    },
+    {
+        "text": "we grow the sample, and this still could be a pretty small sample",
+        "start": 477.499,
+        "duration": 2.399
+    },
+    {
+        "text": "by comparison with the total set of cast votes,",
+        "start": 480.059,
+        "duration": 2.149
+    },
+    {
+        "text": "we might have a sample of size a hundred, and that's pretty small, the computer can do all this stuff fast.",
+        "start": 482.279,
+        "duration": 4.79
+    },
+    {
+        "text": "So there's very little examination of the paper ballots. I don't really care too much what technique you use.",
+        "start": 487.169,
+        "duration": 4.729
+    },
+    {
+        "text": "I really do think that, we should have paper ballots,",
+        "start": 491.899,
+        "duration": 2.52
+    },
+    {
+        "text": "and we should be doing post-election audits, just to confirm that the announced outcome is really consistent with the paper ballots. Those are two very",
+        "start": 494.419,
+        "duration": 6.209
+    },
+    {
+        "text": "important properties we should have of all of the elections everywhere in the US. Or the planet.",
+        "start": 500.729,
+        "duration": 4.039
+    },
+    {
+        "text": "...get a",
+        "start": 506.27,
+        "duration": 1.799
+    },
+    {
+        "text": "receipt when you vote. And the receipt is not",
+        "start": 508.069,
+        "duration": 2.75
+    },
+    {
+        "text": "the plaintext as to how you voted, but an encryption of how you voted.",
+        "start": 511.58,
+        "duration": 3.349
+    },
+    {
+        "text": "So it's something that you can't sell down at the bar, because it's not something that's interpretable by somebody else.",
+        "start": 515.39,
+        "duration": 6.289
+    },
+    {
+        "text": "A number or a barcode or something like that, and it represents how you voted.",
+        "start": 523.31,
+        "duration": 2.989
+    }
+]

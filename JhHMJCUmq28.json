@@ -1,0 +1,552 @@
+[
+    {
+        "text": "Quantum Computers Explained – Limits of Human Technology",
+        "start": 0.0,
+        "duration": 0.5
+    },
+    {
+        "text": "For most of our history, human technology consisted of our brains, fire, and sharp sticks.",
+        "start": 0.5,
+        "duration": 5.62
+    },
+    {
+        "text": "While fire and sharp sticks became power plants and nuclear weapons,",
+        "start": 6.12,
+        "duration": 4.04
+    },
+    {
+        "text": "the biggest upgrade has happened to our brains.",
+        "start": 10.16,
+        "duration": 3.12
+    },
+    {
+        "text": "Since the 1960's, the power of our brain machines has kept growing exponentially,",
+        "start": 13.28,
+        "duration": 4.1
+    },
+    {
+        "text": "allowing computers to get smaller and more powerful at the same time.",
+        "start": 17.38,
+        "duration": 4.56
+    },
+    {
+        "text": "But this process is about to meet its physical limits.",
+        "start": 21.94,
+        "duration": 3.56
+    },
+    {
+        "text": "Computer parts are approaching the size of an atom.",
+        "start": 25.5,
+        "duration": 3.36
+    },
+    {
+        "text": "To understand why this is a problem, we have to clear up some basics.",
+        "start": 28.86,
+        "duration": 4.32
+    },
+    {
+        "text": "In a Nutshell - By Kurzgesagt",
+        "start": 33.18,
+        "duration": 4.64
+    },
+    {
+        "text": "A computer is made up of very simple components",
+        "start": 39.72,
+        "duration": 2.82
+    },
+    {
+        "text": "doing very simple things.",
+        "start": 42.54,
+        "duration": 1.68
+    },
+    {
+        "text": "Representing data, the means of processing it, and control mechanisms.",
+        "start": 44.22,
+        "duration": 4.8
+    },
+    {
+        "text": "Computer chips contain modules, which contain logic gates, which contain transistors.",
+        "start": 49.02,
+        "duration": 5.62
+    },
+    {
+        "text": "A transistor is the simplest form of a data processor in computers,",
+        "start": 54.64,
+        "duration": 3.8
+    },
+    {
+        "text": "basically a switch that can either block, or open the way for information coming through.",
+        "start": 58.44,
+        "duration": 4.82
+    },
+    {
+        "text": "This information is made up of bits",
+        "start": 63.26,
+        "duration": 3.08
+    },
+    {
+        "text": "which can be set to either 0 or 1.",
+        "start": 66.34,
+        "duration": 2.16
+    },
+    {
+        "text": "Combinations of several bits are used to represent more complex information.",
+        "start": 68.5,
+        "duration": 4.5
+    },
+    {
+        "text": "Transistors are combined to create logic gates which still do very simple stuff.",
+        "start": 73.0,
+        "duration": 5.0
+    },
+    {
+        "text": "For example, an AND Gate sends an output of 1 if all of its inputs are 1, and a output of 0 otherwise.",
+        "start": 78.0,
+        "duration": 7.46
+    },
+    {
+        "text": "Combinations of logic gates finally form meaningful modules, say, for adding two numbers.",
+        "start": 85.46,
+        "duration": 5.54
+    },
+    {
+        "text": "Once you can add, you can also multiply,",
+        "start": 91.0,
+        "duration": 2.76
+    },
+    {
+        "text": "and once you can multiply, you can basically do anything.",
+        "start": 93.76,
+        "duration": 3.4
+    },
+    {
+        "text": "Since all basic operations are literally simpler than first grade math,",
+        "start": 97.16,
+        "duration": 3.88
+    },
+    {
+        "text": "you can imagine a computer as a group of 7-year-olds answering really basic math questions.",
+        "start": 101.04,
+        "duration": 5.04
+    },
+    {
+        "text": "A large enough bunch of them could compute anything",
+        "start": 106.08,
+        "duration": 2.6
+    },
+    {
+        "text": "from astrophysics to Zelda.",
+        "start": 108.68,
+        "duration": 1.94
+    },
+    {
+        "text": "However, with parts getting tinier and tinier,",
+        "start": 111.34,
+        "duration": 2.4
+    },
+    {
+        "text": "quantum physics are making things tricky.",
+        "start": 113.74,
+        "duration": 2.4
+    },
+    {
+        "text": "In a nutshell, a transistor is just an electric switch.",
+        "start": 116.54,
+        "duration": 3.44
+    },
+    {
+        "text": "Electricity is electrons moving from one place to another.",
+        "start": 119.98,
+        "duration": 3.18
+    },
+    {
+        "text": "So, a switch is a passage that can block electrons from moving in one direction.",
+        "start": 123.16,
+        "duration": 5.2
+    },
+    {
+        "text": "Today, a typical scale for transistors is 14 nanometers,",
+        "start": 128.36,
+        "duration": 3.76
+    },
+    {
+        "text": "which is about 8 times less than the HIV virus' diameter,",
+        "start": 132.22,
+        "duration": 3.26
+    },
+    {
+        "text": "and 500 times smaller than a red blood cell.",
+        "start": 135.52,
+        "duration": 2.88
+    },
+    {
+        "text": "As transistors are shrinking to the size of only a few atoms,",
+        "start": 138.4,
+        "duration": 3.92
+    },
+    {
+        "text": "electrons may just transfer themselves to the other side of a blocked passage",
+        "start": 142.32,
+        "duration": 3.6
+    },
+    {
+        "text": "via a process called Quantum Tunneling.",
+        "start": 145.92,
+        "duration": 2.58
+    },
+    {
+        "text": "In the quantum realm, physics works quite differently from the predictable ways we're used to,",
+        "start": 148.5,
+        "duration": 4.76
+    },
+    {
+        "text": "and traditional computers just stop making sense.",
+        "start": 153.26,
+        "duration": 3.6
+    },
+    {
+        "text": "We are approaching a real physical barrier for our technological progress.",
+        "start": 156.86,
+        "duration": 4.36
+    },
+    {
+        "text": "To solve this problem,",
+        "start": 161.22,
+        "duration": 1.68
+    },
+    {
+        "text": "scientists are trying to use these unusual quantum properties to their advantage",
+        "start": 162.9,
+        "duration": 4.2
+    },
+    {
+        "text": "by building quantum computers.",
+        "start": 167.1,
+        "duration": 2.08
+    },
+    {
+        "text": "In normal computers, bits are the smallest unit of information.",
+        "start": 169.18,
+        "duration": 4.24
+    },
+    {
+        "text": "Quantum computers use qubits which can also be set to one of two values.",
+        "start": 173.42,
+        "duration": 4.64
+    },
+    {
+        "text": "A qubit can be any two level quantum system,",
+        "start": 178.06,
+        "duration": 2.8
+    },
+    {
+        "text": "such as a spin and a magnetic field, or a single photon.",
+        "start": 180.86,
+        "duration": 3.44
+    },
+    {
+        "text": "0 and 1 are this system's possible states,",
+        "start": 184.66,
+        "duration": 2.92
+    },
+    {
+        "text": "like the photons horizontal or vertical polarization.",
+        "start": 187.58,
+        "duration": 3.38
+    },
+    {
+        "text": "In the quantum world, the qubit doesn't have to be just one of those,",
+        "start": 190.96,
+        "duration": 3.56
+    },
+    {
+        "text": "it can be in any proportions of both states at once.",
+        "start": 194.52,
+        "duration": 3.12
+    },
+    {
+        "text": "This is called superposition.",
+        "start": 197.9,
+        "duration": 2.0
+    },
+    {
+        "text": "But as soon as you test its value, say, by sending the photon through a filter,",
+        "start": 199.9,
+        "duration": 4.54
+    },
+    {
+        "text": "it has to decide to be either vertically or horizontally polarized.",
+        "start": 204.68,
+        "duration": 4.06
+    },
+    {
+        "text": "So as long as it's unobserved,",
+        "start": 209.14,
+        "duration": 1.92
+    },
+    {
+        "text": "the qubit is in a superposition of probabilities for 0 and 1, and you can't predit which it'll be.",
+        "start": 211.06,
+        "duration": 6.0
+    },
+    {
+        "text": "But the instant you measure it,",
+        "start": 217.14,
+        "duration": 2.0
+    },
+    {
+        "text": "it collapses into one of the definite states.",
+        "start": 219.14,
+        "duration": 2.8
+    },
+    {
+        "text": "Superposition is a game changer.",
+        "start": 222.44,
+        "duration": 2.16
+    },
+    {
+        "text": "Four classical bits can be in one of two to the power of four different configurations at a time.",
+        "start": 224.6,
+        "duration": 5.58
+    },
+    {
+        "text": "That's 16 possible combinations, out of which you can use just one.",
+        "start": 230.38,
+        "duration": 4.04
+    },
+    {
+        "text": "Four qubits in superposition, however, can be in all of those 16 combinations at once.",
+        "start": 234.7,
+        "duration": 5.52
+    },
+    {
+        "text": "This number grows exponentially with each extra qubit.",
+        "start": 240.38,
+        "duration": 3.68
+    },
+    {
+        "text": "Twenty of them can already store a million values in parallel.",
+        "start": 244.48,
+        "duration": 3.76
+    },
+    {
+        "text": "A really weird and unintuitive property qubits can have is Entanglement,",
+        "start": 248.24,
+        "duration": 4.64
+    },
+    {
+        "text": "a close connection that makes each of the qubits react to a change in the other's state instantaneously,",
+        "start": 252.88,
+        "duration": 5.24
+    },
+    {
+        "text": "no matter how far they are apart.",
+        "start": 258.12,
+        "duration": 2.08
+    },
+    {
+        "text": "This means when measuring just one entangled qubit, you can directly deduce properties of it's partners",
+        "start": 260.2,
+        "duration": 5.94
+    },
+    {
+        "text": "without having to look.",
+        "start": 266.14,
+        "duration": 1.52
+    },
+    {
+        "text": "Qubit Manipulation is a mind bender as well.",
+        "start": 267.68,
+        "duration": 2.88
+    },
+    {
+        "text": "A normal logic gate gets a simple set of inputs and produces one definite output.",
+        "start": 271.16,
+        "duration": 5.28
+    },
+    {
+        "text": "A quantum gate manipulates an input of superpositions, rotates probabilities,",
+        "start": 276.44,
+        "duration": 5.2
+    },
+    {
+        "text": "and produces another superposition as its output.",
+        "start": 281.68,
+        "duration": 3.28
+    },
+    {
+        "text": "So a quantum computer sets up some qubits, applies quantum gates to entangle them and manipulate probabilities,",
+        "start": 284.96,
+        "duration": 6.5
+    },
+    {
+        "text": "then finally measures the outcome, collapsing superpositions to an actual sequence of 0s and 1s.",
+        "start": 291.46,
+        "duration": 6.16
+    },
+    {
+        "text": "What this means is that you get the entire lot of calculations that are possible with your setup, all done at the same time.",
+        "start": 297.62,
+        "duration": 6.6
+    },
+    {
+        "text": "Ultimately, you can only measure one of the results and it'll only probably be the one you want,",
+        "start": 304.22,
+        "duration": 5.14
+    },
+    {
+        "text": "so you may have to double check and try again.",
+        "start": 309.36,
+        "duration": 3.04
+    },
+    {
+        "text": "But by cleverly exploiting superposition and entanglement,",
+        "start": 312.4,
+        "duration": 3.56
+    },
+    {
+        "text": "this can be exponentially more efficient than would ever be possible on a normal computer.",
+        "start": 315.96,
+        "duration": 4.54
+    },
+    {
+        "text": "So, while quantum computers will not probably not replace our home computers,",
+        "start": 320.5,
+        "duration": 4.96
+    },
+    {
+        "text": "in some areas, they are vastly superior.",
+        "start": 325.92,
+        "duration": 2.64
+    },
+    {
+        "text": "One of them is database searching.",
+        "start": 328.56,
+        "duration": 2.24
+    },
+    {
+        "text": "To find something in a database, a normal computer may have to test every single one of its entries.",
+        "start": 330.8,
+        "duration": 5.02
+    },
+    {
+        "text": "Quantum computers algorithms need only the square root of that time,",
+        "start": 335.82,
+        "duration": 3.28
+    },
+    {
+        "text": "which for large databases, is a huge difference",
+        "start": 339.1,
+        "duration": 3.2
+    },
+    {
+        "text": "The most famous use of quantum computers is ruining IT security.",
+        "start": 342.46,
+        "duration": 4.16
+    },
+    {
+        "text": "Right now, your browsing, email, and banking data is being kept secure by an encryption system",
+        "start": 346.64,
+        "duration": 5.44
+    },
+    {
+        "text": "in which you give everyone a public key to encode messages only you can decode.",
+        "start": 352.08,
+        "duration": 4.42
+    },
+    {
+        "text": "The problem is that this public key can actually be used to calculate your secret private key.",
+        "start": 356.5,
+        "duration": 5.62
+    },
+    {
+        "text": "Luckily, doing the necessary math on any normal computer would literally take years of trial and error.",
+        "start": 362.12,
+        "duration": 5.44
+    },
+    {
+        "text": "But a quantum computer with exponential speed-up could do it in a breeze.",
+        "start": 367.56,
+        "duration": 4.8
+    },
+    {
+        "text": "Another really exciting new use is simulations.",
+        "start": 372.44,
+        "duration": 3.02
+    },
+    {
+        "text": "Simulations of the quantum world are very intense on resources,",
+        "start": 375.46,
+        "duration": 3.56
+    },
+    {
+        "text": "and even for bigger structures, such as molecules, they often lack accuracy.",
+        "start": 379.02,
+        "duration": 4.96
+    },
+    {
+        "text": "So why not simulate quantum physics with actual quantum physics?",
+        "start": 384.02,
+        "duration": 4.32
+    },
+    {
+        "text": "Quantum simulations could provide new insights on proteins that might revolutionize medicine.",
+        "start": 388.34,
+        "duration": 5.96
+    },
+    {
+        "text": "Right now, we don't know if quantum computers will be just a specallized tool,",
+        "start": 394.32,
+        "duration": 4.14
+    },
+    {
+        "text": "or a big revolution for humanity.",
+        "start": 398.5,
+        "duration": 2.24
+    },
+    {
+        "text": "We have no idea where the limits of technology are,",
+        "start": 400.76,
+        "duration": 3.04
+    },
+    {
+        "text": "and there's only one way to find out.",
+        "start": 403.8,
+        "duration": 2.32
+    },
+    {
+        "text": "This video is supported by the Australian Academy of Science,",
+        "start": 406.54,
+        "duration": 4.08
+    },
+    {
+        "text": "which promotes and supports excellence in science",
+        "start": 410.62,
+        "duration": 3.44
+    },
+    {
+        "text": "Learn more about this topic and others like it at nova.org.au",
+        "start": 414.44,
+        "duration": 4.08
+    },
+    {
+        "text": "It was a blast to work with them, so go check out their site!",
+        "start": 418.52,
+        "duration": 3.44
+    },
+    {
+        "text": "Our videos are also made possible by your support on patreon.com.",
+        "start": 421.96,
+        "duration": 4.24
+    },
+    {
+        "text": "If you want to support us and become part of the Kurzgesagt bird army, check out our Patreon page!",
+        "start": 426.2,
+        "duration": 6.4
+    },
+    {
+        "text": "Subtitles by James Zhang\n[revised by Pietro Pasquero]\n[corrected by P0ck3tL1nt]",
+        "start": 432.98,
+        "duration": 2.66
+    }
+]

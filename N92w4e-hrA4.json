@@ -1,0 +1,932 @@
+[
+    {
+        "text": "DR HOLLY KRIEGER: So what we're gonna talk about today is something pretty close to my own work,",
+        "start": 0.0,
+        "duration": 4.1
+    },
+    {
+        "text": "and it's this question that has arisen about",
+        "start": 4.1,
+        "duration": 3.72
+    },
+    {
+        "text": "asking about iteration, right?",
+        "start": 7.82,
+        "duration": 1.46
+    },
+    {
+        "text": "So you and I have talked about like the Mandelbrot set and",
+        "start": 9.28,
+        "duration": 2.12
+    },
+    {
+        "text": "all of these things that I'm really interested in that have to do with iteration,",
+        "start": 11.4,
+        "duration": 3.42
+    },
+    {
+        "text": "and how it interacts with fractions with rational numbers.",
+        "start": 14.82,
+        "duration": 3.24
+    },
+    {
+        "text": "Alright, so, here is where we start,",
+        "start": 18.06,
+        "duration": 2.56
+    },
+    {
+        "text": "which is where we seem to always start,",
+        "start": 20.62,
+        "duration": 1.7
+    },
+    {
+        "text": "which is z² + c.",
+        "start": 22.32,
+        "duration": 1.32
+    },
+    {
+        "text": "So I'm interested in the function,",
+        "start": 23.64,
+        "duration": 2.24
+    },
+    {
+        "text": "which takes in a number z, squares it,",
+        "start": 25.88,
+        "duration": 2.58
+    },
+    {
+        "text": "and then adds some constant c.",
+        "start": 28.46,
+        "duration": 2.12
+    },
+    {
+        "text": "And so, we've looked at this kind of thing before",
+        "start": 30.86,
+        "duration": 2.44
+    },
+    {
+        "text": "but just to take a quick look at some of the behavior that occurs,",
+        "start": 33.3,
+        "duration": 3.08
+    },
+    {
+        "text": "so, for example, like if c is equal to 1 and let's say we start with the number 0,",
+        "start": 36.38,
+        "duration": 4.7
+    },
+    {
+        "text": "then if I repeatedly apply this rule, if I iterate the function,",
+        "start": 41.08,
+        "duration": 4.58
+    },
+    {
+        "text": "then let's see what happens.",
+        "start": 45.66,
+        "duration": 1.32
+    },
+    {
+        "text": "So 0 maps to 0² which is 0, plus 1,",
+        "start": 46.98,
+        "duration": 4.0
+    },
+    {
+        "text": "so that's the first iteration.",
+        "start": 50.98,
+        "duration": 1.54
+    },
+    {
+        "text": "Now I take 1 and I put it right back into the formula,",
+        "start": 52.52,
+        "duration": 2.34
+    },
+    {
+        "text": "so I square it and I add the value, which is 1,",
+        "start": 54.86,
+        "duration": 3.52
+    },
+    {
+        "text": "so 1 + 1, that's 2.",
+        "start": 58.38,
+        "duration": 2.28
+    },
+    {
+        "text": "I take 2, I square it, and I add 1,",
+        "start": 60.66,
+        "duration": 2.66
+    },
+    {
+        "text": "that's 5. I take 5, I square it,",
+        "start": 63.32,
+        "duration": 2.26
+    },
+    {
+        "text": "I add 1, that's 26, and so on.",
+        "start": 65.58,
+        "duration": 3.26
+    },
+    {
+        "text": "BRADY: Oh, you're not gonna do the next one.",
+        "start": 68.84,
+        "duration": 1.5
+    },
+    {
+        "text": "HOLLY: I think it's 677, but... [laughter]",
+        "start": 70.34,
+        "duration": 2.34
+    },
+    {
+        "text": "BRADY: You check... alright...",
+        "start": 72.68,
+        "duration": 1.2
+    },
+    {
+        "text": "HOLLY: You can check later. [laughter]",
+        "start": 73.88,
+        "duration": 1.08
+    },
+    {
+        "text": "HOLLY: Okay...\nBRADY: Okay, so that's \"getting big\" time?",
+        "start": 74.96,
+        "duration": 2.08
+    },
+    {
+        "text": "HOLLY: So it's getting big, right,",
+        "start": 77.04,
+        "duration": 1.08
+    },
+    {
+        "text": "yeah, so this is actually a really good point.",
+        "start": 78.12,
+        "duration": 1.65
+    },
+    {
+        "text": "This is exactly what I want to talk about,",
+        "start": 79.77,
+        "duration": 1.87
+    },
+    {
+        "text": "is that if you just randomly do this, choose some number c...",
+        "start": 81.64,
+        "duration": 3.48
+    },
+    {
+        "text": "Choose some numbers that to start with and iterate under this formula,",
+        "start": 85.3,
+        "duration": 4.52
+    },
+    {
+        "text": "kind of what happens a lot of the times with a lot of the ones you try,",
+        "start": 89.82,
+        "duration": 3.5
+    },
+    {
+        "text": "is these get really big,",
+        "start": 93.32,
+        "duration": 1.66
+    },
+    {
+        "text": "or maybe they get really small, but in any case,",
+        "start": 94.98,
+        "duration": 2.84
+    },
+    {
+        "text": "what often happens is when you do this process",
+        "start": 97.82,
+        "duration": 2.42
+    },
+    {
+        "text": "you end up with different numbers at each stage.",
+        "start": 100.24,
+        "duration": 2.46
+    },
+    {
+        "text": "You never come back to 0, for example, and so...",
+        "start": 102.7,
+        "duration": 3.64
+    },
+    {
+        "text": "If you do though, so let's see an example where you do.",
+        "start": 106.34,
+        "duration": 2.919
+    },
+    {
+        "text": "So if c is equal to 0, for example...",
+        "start": 109.26,
+        "duration": 3.12
+    },
+    {
+        "text": "That's supposed to be a 0...",
+        "start": 112.38,
+        "duration": 1.24
+    },
+    {
+        "text": "So c is equal to 0 and I put in 0,",
+        "start": 113.62,
+        "duration": 3.24
+    },
+    {
+        "text": "so now we're looking at the map which takes that,",
+        "start": 116.86,
+        "duration": 2.18
+    },
+    {
+        "text": "and just maps it to its square.",
+        "start": 119.04,
+        "duration": 1.8
+    },
+    {
+        "text": "Right, then if I put 0 in,",
+        "start": 121.18,
+        "duration": 2.64
+    },
+    {
+        "text": "Well, I square it, I get 0 right back out.",
+        "start": 123.82,
+        "duration": 3.4
+    },
+    {
+        "text": "And so I don't get this nice infinite list of numbers.",
+        "start": 127.22,
+        "duration": 3.12
+    },
+    {
+        "text": "I just end up back right where I started.",
+        "start": 130.34,
+        "duration": 2.16
+    },
+    {
+        "text": "So this is called being periodic, by the way.",
+        "start": 132.7,
+        "duration": 2.66
+    },
+    {
+        "text": "A number is periodic for this function",
+        "start": 135.36,
+        "duration": 2.54
+    },
+    {
+        "text": "if when I put it in and then iterate like this,",
+        "start": 137.9,
+        "duration": 2.48
+    },
+    {
+        "text": "I end up back where I started.",
+        "start": 140.38,
+        "duration": 1.4
+    },
+    {
+        "text": "BRADY: I mean you gave a really easy example there.",
+        "start": 141.78,
+        "duration": 2.42
+    },
+    {
+        "text": "Do we get examples where it can be like 30 steps and then it comes back?",
+        "start": 144.2,
+        "duration": 3.0
+    },
+    {
+        "text": "HOLLY: So this is exactly the question I want to ask!",
+        "start": 147.2,
+        "duration": 2.32
+    },
+    {
+        "text": "So, okay, just to do a few more examples before I get to 30. [laughter]",
+        "start": 149.52,
+        "duration": 4.06
+    },
+    {
+        "text": "Hmm, looking at this case of c equals zero, just to make it clear,",
+        "start": 153.84,
+        "duration": 3.36
+    },
+    {
+        "text": "I don't have to choose 0 here, right?",
+        "start": 157.2,
+        "duration": 2.58
+    },
+    {
+        "text": "Like if I put the number 1 into \"z maps to z²\", then 1 maps to 1², which is still 1.",
+        "start": 159.78,
+        "duration": 6.5
+    },
+    {
+        "text": "So it's possible for something to be periodic,",
+        "start": 166.68,
+        "duration": 3.48
+    },
+    {
+        "text": "even if it's not straight starting at this point 0.",
+        "start": 170.16,
+        "duration": 2.42
+    },
+    {
+        "text": "Okay, so here's the question,",
+        "start": 172.58,
+        "duration": 1.56
+    },
+    {
+        "text": "which is exactly what you asked, which is",
+        "start": 174.14,
+        "duration": 3.22
+    },
+    {
+        "text": "can we keep doing this but in a more interesting setting?",
+        "start": 177.36,
+        "duration": 3.9
+    },
+    {
+        "text": "So not just returning right away,",
+        "start": 181.26,
+        "duration": 1.56
+    },
+    {
+        "text": "but after, say, 5 steps or 30 steps or whatever",
+        "start": 182.82,
+        "duration": 3.24
+    },
+    {
+        "text": "coming back to a number that we started with.",
+        "start": 186.06,
+        "duration": 2.12
+    },
+    {
+        "text": "And to make this question interesting,",
+        "start": 188.28,
+        "duration": 2.36
+    },
+    {
+        "text": "I want to be able to do it with a number that's easy for me to write down,",
+        "start": 190.64,
+        "duration": 3.9
+    },
+    {
+        "text": "i.e. with a fraction.",
+        "start": 194.54,
+        "duration": 1.56
+    },
+    {
+        "text": "So that's the question I wanna be able to answer.",
+        "start": 196.1,
+        "duration": 1.82
+    },
+    {
+        "text": "BRADY: Isn't an integer easier than a fraction?",
+        "start": 197.92,
+        "duration": 1.82
+    },
+    {
+        "text": "HOLLY: An integer is easier than a fraction,",
+        "start": 199.74,
+        "duration": 2.04
+    },
+    {
+        "text": "but we're going to run into trouble right away with integers. [laughter]",
+        "start": 201.78,
+        "duration": 2.96
+    },
+    {
+        "text": "So there are not that many examples with integers,",
+        "start": 204.74,
+        "duration": 2.8
+    },
+    {
+        "text": "and you can kind of see why if you look at the z² example.",
+        "start": 207.54,
+        "duration": 3.96
+    },
+    {
+        "text": "So what I did works for 0 and 1,",
+        "start": 211.56,
+        "duration": 2.62
+    },
+    {
+        "text": "but for any other integer...",
+        "start": 214.18,
+        "duration": 2.06
+    },
+    {
+        "text": "okay, forget minus 1 for a second...",
+        "start": 216.26,
+        "duration": 1.8
+    },
+    {
+        "text": "any other positive integer,",
+        "start": 218.06,
+        "duration": 1.94
+    },
+    {
+        "text": "if I plug it into this, I'm gonna get a number",
+        "start": 220.0,
+        "duration": 2.3
+    },
+    {
+        "text": "which each time is larger and larger and larger and larger,",
+        "start": 222.3,
+        "duration": 2.82
+    },
+    {
+        "text": "so I can never come back, I can never have a periodic integer other than these ones.",
+        "start": 225.12,
+        "duration": 4.7
+    },
+    {
+        "text": "So, yes, it would be simpler, but it's so simpler that it's not going to happen. [laughter]",
+        "start": 229.82,
+        "duration": 4.86
+    },
+    {
+        "text": "BRADY: Alright, you can have fractions then.",
+        "start": 234.7,
+        "duration": 1.04
+    },
+    {
+        "text": "HOLLY: Alright, thank you. Okay,",
+        "start": 235.74,
+        "duration": 1.82
+    },
+    {
+        "text": "so the first thing to point out is that it can happen with fractions.",
+        "start": 237.56,
+        "duration": 3.44
+    },
+    {
+        "text": "So let's say c is equal to 1/4.",
+        "start": 241.0,
+        "duration": 2.36
+    },
+    {
+        "text": "Now if I start with 0, what happens is, well,",
+        "start": 243.36,
+        "duration": 3.34
+    },
+    {
+        "text": "I've got 0² + 1/4,",
+        "start": 246.72,
+        "duration": 2.34
+    },
+    {
+        "text": "(1/4)² which is 1/16, plus 1/4,",
+        "start": 249.06,
+        "duration": 3.239
+    },
+    {
+        "text": "which I guess is 5/16.",
+        "start": 252.299,
+        "duration": 2.261
+    },
+    {
+        "text": "And anyways, it's not as easy,",
+        "start": 254.56,
+        "duration": 1.639
+    },
+    {
+        "text": "it's not as obvious in the case when c was equal to 1,",
+        "start": 256.2,
+        "duration": 3.8
+    },
+    {
+        "text": "but 0 is not going to come back to itself.",
+        "start": 260.0,
+        "duration": 1.839
+    },
+    {
+        "text": "We're gonna get more and more complicated fractions each time.",
+        "start": 261.84,
+        "duration": 3.04
+    },
+    {
+        "text": "And so we can't get back to zero,",
+        "start": 264.88,
+        "duration": 2.2
+    },
+    {
+        "text": "but if instead we start with z equals 1/2,",
+        "start": 267.08,
+        "duration": 3.42
+    },
+    {
+        "text": "then if we take 1/2 and we square it,",
+        "start": 270.5,
+        "duration": 2.82
+    },
+    {
+        "text": "and we add 1/4,",
+        "start": 273.32,
+        "duration": 1.52
+    },
+    {
+        "text": "we end up right back where we started.",
+        "start": 274.84,
+        "duration": 1.88
+    },
+    {
+        "text": "So we found another example of something that",
+        "start": 276.74,
+        "duration": 3.4
+    },
+    {
+        "text": "just comes right back to itself",
+        "start": 280.14,
+        "duration": 2.1
+    },
+    {
+        "text": "but is a fraction,",
+        "start": 282.24,
+        "duration": 1.2
+    },
+    {
+        "text": "so it can happen for fractions,",
+        "start": 283.44,
+        "duration": 1.82
+    },
+    {
+        "text": "and the good news is that it's not just",
+        "start": 285.26,
+        "duration": 2.92
+    },
+    {
+        "text": "coming right back to yourself immediately that happens.",
+        "start": 288.18,
+        "duration": 2.64
+    },
+    {
+        "text": "So if, say, c is equal to...",
+        "start": 290.82,
+        "duration": 2.82
+    },
+    {
+        "text": "-1, then actually zero does this",
+        "start": 294.36,
+        "duration": 2.88
+    },
+    {
+        "text": "because 0² - 1 is -1,",
+        "start": 297.24,
+        "duration": 4.62
+    },
+    {
+        "text": "and (-1)² - 1",
+        "start": 301.86,
+        "duration": 3.84
+    },
+    {
+        "text": "takes us right back to 0.",
+        "start": 305.7,
+        "duration": 2.18
+    },
+    {
+        "text": "So the number of integers that we see here or fractions that we see here",
+        "start": 307.88,
+        "duration": 4.44
+    },
+    {
+        "text": "can be higher than 1, at least.",
+        "start": 312.32,
+        "duration": 2.54
+    },
+    {
+        "text": "So here we just have a number going back to itself,",
+        "start": 314.86,
+        "duration": 2.56
+    },
+    {
+        "text": "so we only see a single number when we iterate.",
+        "start": 317.42,
+        "duration": 3.02
+    },
+    {
+        "text": "Here, we see two numbers when we iterate.",
+        "start": 320.44,
+        "duration": 2.18
+    },
+    {
+        "text": "It's possible to see 3.",
+        "start": 322.62,
+        "duration": 1.6
+    },
+    {
+        "text": "I think it's c is equal to -29/16,",
+        "start": 324.22,
+        "duration": 5.32
+    },
+    {
+        "text": "and you start with",
+        "start": 329.54,
+        "duration": 2.4
+    },
+    {
+        "text": "z equals -7/4,",
+        "start": 331.94,
+        "duration": 2.46
+    },
+    {
+        "text": "which we've actually talked about this number before.",
+        "start": 334.4,
+        "duration": 2.3
+    },
+    {
+        "text": "It's kind of a tricky one in dynamics.",
+        "start": 336.7,
+        "duration": 1.84
+    },
+    {
+        "text": "BRADY: That is your first video!",
+        "start": 338.54,
+        "duration": 1.14
+    },
+    {
+        "text": "HOLLY: I know, I know, reminiscing about the days.",
+        "start": 339.68,
+        "duration": 2.2
+    },
+    {
+        "text": "Alright, so,",
+        "start": 341.88,
+        "duration": 0.9
+    },
+    {
+        "text": "if we start with, say, z equals -7/4...",
+        "start": 342.78,
+        "duration": 3.36
+    },
+    {
+        "text": "Oh man, I really don't want to do these computations, but let's do it.",
+        "start": 346.14,
+        "duration": 2.9
+    },
+    {
+        "text": "So -7/4, when I square this I get 49/16,",
+        "start": 349.24,
+        "duration": 5.32
+    },
+    {
+        "text": "and then I subtract 29/16.",
+        "start": 354.56,
+        "duration": 3.74
+    },
+    {
+        "text": "That's 20/16, otherwise known as",
+        "start": 358.3,
+        "duration": 4.32
+    },
+    {
+        "text": "5/4.",
+        "start": 362.62,
+        "duration": 1.18
+    },
+    {
+        "text": "Now when I take 5/4, and I square it,",
+        "start": 363.8,
+        "duration": 3.36
+    },
+    {
+        "text": "I get 25/16, and then I subtract 29/16,",
+        "start": 367.16,
+        "duration": 5.14
+    },
+    {
+        "text": "I get -4/16,",
+        "start": 372.3,
+        "duration": 2.66
+    },
+    {
+        "text": "otherwise known as -1/4.",
+        "start": 374.96,
+        "duration": 2.28
+    },
+    {
+        "text": "And if I remembered the values correctly, [laughter]",
+        "start": 377.24,
+        "duration": 2.82
+    },
+    {
+        "text": "when we do this to -1/4, we should end up back where we started.",
+        "start": 380.06,
+        "duration": 3.52
+    },
+    {
+        "text": "So if I take -1/4 and I square it,",
+        "start": 384.79,
+        "duration": 2.69
+    },
+    {
+        "text": "I get 1/16, and then I subtract 29/16,",
+        "start": 387.48,
+        "duration": 4.8
+    },
+    {
+        "text": "what I end up with is -28/16,",
+        "start": 392.28,
+        "duration": 3.52
+    },
+    {
+        "text": "which hey, okay, good, really is -7/4.",
+        "start": 395.8,
+        "duration": 3.4
+    },
+    {
+        "text": "BRADY: Where you started. \nHOLLY: Where I started.",
+        "start": 399.2,
+        "duration": 2.04
+    },
+    {
+        "text": "So, for this particular value of c,",
+        "start": 401.24,
+        "duration": 3.74
+    },
+    {
+        "text": "we can have three fractions when we iterate:",
+        "start": 404.98,
+        "duration": 4.7
+    },
+    {
+        "text": "-4/7 goes to 5/4, goes to -1/4,",
+        "start": 409.68,
+        "duration": 5.22
+    },
+    {
+        "text": "which takes us back where we started.",
+        "start": 414.9,
+        "duration": 2.08
+    },
+    {
+        "text": "BRADY: Alright.\nHOLLY: Okay.",
+        "start": 416.98,
+        "duration": 1.34
+    },
+    {
+        "text": "BRADY: Four.\nHOLLY: Four, [inaudible]. [laughter]",
+        "start": 418.32,
+        "duration": 2.96
+    },
+    {
+        "text": "That's it. We can't do it for four,",
+        "start": 421.32,
+        "duration": 3.7
+    },
+    {
+        "text": "we can't do it for five,",
+        "start": 425.02,
+        "duration": 2.28
+    },
+    {
+        "text": "we don't think we can do it for six,",
+        "start": 427.3,
+        "duration": 2.64
+    },
+    {
+        "text": "and we have no idea about more.",
+        "start": 429.94,
+        "duration": 1.86
+    },
+    {
+        "text": "BRADY: Also, four and five...",
+        "start": 432.08,
+        "duration": 2.48
+    },
+    {
+        "text": "proven can't be done.",
+        "start": 434.56,
+        "duration": 1.18
+    },
+    {
+        "text": "HOLLY: Proven can't be done.\nBRADY: Right.",
+        "start": 435.74,
+        "duration": 2.04
+    },
+    {
+        "text": "HOLLY: But for higher than that,",
+        "start": 438.0,
+        "duration": 1.9
+    },
+    {
+        "text": "we don't know for sure.",
+        "start": 439.9,
+        "duration": 1.28
+    },
+    {
+        "text": "So your question initially about 30,",
+        "start": 441.18,
+        "duration": 2.44
+    },
+    {
+        "text": "I have no idea how to answer it.",
+        "start": 443.62,
+        "duration": 1.58
+    },
+    {
+        "text": "If I had to take a guess, I would say no way.",
+        "start": 445.2,
+        "duration": 2.8
+    },
+    {
+        "text": "BRADY: Two and three, are there an infinite number of ways to do it, or...",
+        "start": 448.2,
+        "duration": 3.08
+    },
+    {
+        "text": "HOLLY: Oh, that's a really good question, and the answer is yes.",
+        "start": 451.28,
+        "duration": 2.3
+    },
+    {
+        "text": "Yeah, so there are an infinite number of ways.",
+        "start": 453.58,
+        "duration": 1.92
+    },
+    {
+        "text": "There's a really complicated formula in the case when you're taking three,",
+        "start": 455.56,
+        "duration": 3.36
+    },
+    {
+        "text": "that tells you exactly which values of c and exactly what values of z to achieve this,",
+        "start": 458.92,
+        "duration": 4.627
+    },
+    {
+        "text": "but there is a way to do it.",
+        "start": 463.547,
+        "duration": 1.913
+    },
+    {
+        "text": "BRADY IN VOICEOVER: Have you caught the Numberphile Podcast yet?",
+        "start": 466.04,
+        "duration": 2.56
+    },
+    {
+        "text": "Our latest guest is Holly, who you just saw in this video.",
+        "start": 468.6,
+        "duration": 2.8
+    },
+    {
+        "text": "You can find out more about her career life and mathematics;",
+        "start": 471.409,
+        "duration": 3.451
+    },
+    {
+        "text": "how she got to where she is.",
+        "start": 474.86,
+        "duration": 1.48
+    },
+    {
+        "text": "It's a really interesting listen.",
+        "start": 476.34,
+        "duration": 1.18
+    },
+    {
+        "text": "HOLLY IN PODCAST: Try not to read YouTube comments. [laughter]",
+        "start": 477.52,
+        "duration": 2.92
+    },
+    {
+        "text": "The more important thing is I always tell my family members",
+        "start": 480.44,
+        "duration": 1.98
+    },
+    {
+        "text": "not to read YouTube comments. [laughter]",
+        "start": 482.42,
+        "duration": 2.72
+    },
+    {
+        "text": "BRADY: What do they do, do they email you and say...",
+        "start": 485.2,
+        "duration": 2.56
+    },
+    {
+        "text": "HOLLY: They did on the first video and then they promptly stop. [laughter]",
+        "start": 487.76,
+        "duration": 4.16
+    },
+    {
+        "text": "BRADY IN VOICEOVER: And if you'd like to see more videos with Holly,",
+        "start": 491.92,
+        "duration": 2.34
+    },
+    {
+        "text": "there're links to that on the screen as well.",
+        "start": 494.26,
+        "duration": 1.86
+    },
+    {
+        "text": "HOLLY IN INTERVIEW: And the fact that we just don't know.",
+        "start": 496.12,
+        "duration": 1.64
+    },
+    {
+        "text": "I mean, I get frustrated by that fact. [laughter]",
+        "start": 497.76,
+        "duration": 2.42
+    },
+    {
+        "text": "But I think it's really interesting about, like, sort of,",
+        "start": 500.18,
+        "duration": 2.1
+    },
+    {
+        "text": "what is a hard problem in mathematics.",
+        "start": 502.28,
+        "duration": 1.84
+    }
+]

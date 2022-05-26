@@ -1,0 +1,307 @@
+[
+    {
+        "text": "From a recent trip to Japan, my home country, I brought back a little present.",
+        "start": 0.06,
+        "duration": 4.29
+    },
+    {
+        "text": "It's a traditional toy. A Japanese toy called \"Kamifusen\", which means paper balloon.",
+        "start": 4.44,
+        "duration": 4.11
+    },
+    {
+        "text": "[robot pumping air]",
+        "start": 8.55,
+        "duration": 1.87
+    },
+    {
+        "text": "And as you can see, it's a balloon made of paper, and there's a hole in there, yeah?",
+        "start": 13.26,
+        "duration": 4.38
+    },
+    {
+        "text": "So the way you inflate this paper balloon, when you squash it, is to blow into this hole...",
+        "start": 17.92,
+        "duration": 5.62
+    },
+    {
+        "text": "[Tadashi blowing up balloon]",
+        "start": 23.86,
+        "duration": 5.36
+    },
+    {
+        "text": "And make it rounder. Okay, but there is another way to make it rounder.",
+        "start": 29.22,
+        "duration": 5.84
+    },
+    {
+        "text": "[balloon crinkles]",
+        "start": 35.06,
+        "duration": 1.04
+    },
+    {
+        "text": "You can squash it, and then you can start tossing it around.",
+        "start": 36.1,
+        "duration": 3.96
+    },
+    {
+        "text": "[Tadashi hitting balloon]",
+        "start": 40.06,
+        "duration": 2.14
+    },
+    {
+        "text": "You hit it from all sides at random... oops!",
+        "start": 42.22,
+        "duration": 2.84
+    },
+    {
+        "text": "Now, when you hit something, don't you have the impression that you are denting it and therefore making",
+        "start": 45.82,
+        "duration": 5.24
+    },
+    {
+        "text": "it less and less round and you're denting it, right, from both sides?",
+        "start": 51.06,
+        "duration": 3.52
+    },
+    {
+        "text": "But look at what's happening as I toss it and hit it from all sides. I'm doing it completely randomly.",
+        "start": 54.66,
+        "duration": 5.54
+    },
+    {
+        "text": "You can hit it quite hard.",
+        "start": 60.68,
+        "duration": 2.18
+    },
+    {
+        "text": "[Tadashi hitting balloon]",
+        "start": 62.86,
+        "duration": 3.1
+    },
+    {
+        "text": "What was shriveled to a little crumple",
+        "start": 66.24,
+        "duration": 4.54
+    },
+    {
+        "text": "is now getting rounder and rounder",
+        "start": 71.4,
+        "duration": 3.3
+    },
+    {
+        "text": "and becoming more and more spherical.",
+        "start": 75.16,
+        "duration": 4.06
+    },
+    {
+        "text": "And look! I ended up with a round sphere.",
+        "start": 79.26,
+        "duration": 3.94
+    },
+    {
+        "text": "So, this is a really strange way of making something round by denting it repeatedly from all sides.",
+        "start": 84.3,
+        "duration": 6.48
+    },
+    {
+        "text": "How does this trick work?",
+        "start": 92.89,
+        "duration": 3.11
+    },
+    {
+        "text": "I think the key to this behavior,",
+        "start": 98.0,
+        "duration": 2.02
+    },
+    {
+        "text": "which all Japanese children know instinctively, is really in the following behavior of the balloon. When I",
+        "start": 100.06,
+        "duration": 6.83
+    },
+    {
+        "text": "shrivel it to a little crumple,",
+        "start": 107.32,
+        "duration": 2.089
+    },
+    {
+        "text": "watch what happens when I release it.",
+        "start": 110.439,
+        "duration": 2.0
+    },
+    {
+        "text": "You see, it starts fighting its way back...",
+        "start": 113.59,
+        "duration": 2.599
+    },
+    {
+        "text": "...at least initially. It doesn't inflate all the way back of course, but it has some memory.",
+        "start": 118.84,
+        "duration": 4.849
+    },
+    {
+        "text": "And it wants to come back to where it started. It fights its way back as I said.",
+        "start": 123.689,
+        "duration": 5.069
+    },
+    {
+        "text": "[Brady] Why is it even doing that? What's causing that?",
+        "start": 128.76,
+        "duration": 1.92
+    },
+    {
+        "text": "That's... that's an interesting question. Um, I have to think about this.",
+        "start": 131.3,
+        "duration": 4.889
+    },
+    {
+        "text": "[laughter] Okay.",
+        "start": 136.64,
+        "duration": 0.5
+    },
+    {
+        "text": "So let's imagine the following toy model. Let's say that you have a state of this balloon, which is",
+        "start": 137.55,
+        "duration": 5.6
+    },
+    {
+        "text": "crumpled on both sides: on the left as well as on the right,",
+        "start": 143.76,
+        "duration": 3.349
+    },
+    {
+        "text": "and I'm going to strike this balloon at this moment.",
+        "start": 147.62,
+        "duration": 4.06
+    },
+    {
+        "text": "Pafff!",
+        "start": 151.68,
+        "duration": 0.96
+    },
+    {
+        "text": "From the left, let's say. What happens,",
+        "start": 152.64,
+        "duration": 2.0
+    },
+    {
+        "text": "to a good approximation,",
+        "start": 155.24,
+        "duration": 1.18
+    },
+    {
+        "text": "I think, is that the side that you hit gets over crumpled because I just hit it.",
+        "start": 156.42,
+        "duration": 5.4
+    },
+    {
+        "text": "You know, you introduce a lot of crumples.",
+        "start": 161.86,
+        "duration": 2.06
+    },
+    {
+        "text": "But the other side gets puffed out literally because there is this force which",
+        "start": 164.12,
+        "duration": 6.54
+    },
+    {
+        "text": "Pushes it rightward. But, you see, then something interesting happens.",
+        "start": 171.14,
+        "duration": 3.92
+    },
+    {
+        "text": "That \"fighting back\" effect means that the left side which was over crumpled,",
+        "start": 175.06,
+        "duration": 4.48
+    },
+    {
+        "text": "starts fighting back, so it starts expanding to roughly the",
+        "start": 179.94,
+        "duration": 4.22
+    },
+    {
+        "text": "degree of wrinkliness that it had in the beginning, whereas the right hand side stays puffed out.",
+        "start": 184.5,
+        "duration": 5.34
+    },
+    {
+        "text": "So, per this cycle, you see, what happened is that",
+        "start": 190.08,
+        "duration": 3.78
+    },
+    {
+        "text": "I increase the overall smoothness a little bit. The other side which got puffed out, whereas this side that I over wrinkled",
+        "start": 194.19,
+        "duration": 5.959
+    },
+    {
+        "text": "fought back by itself. So, if you keep hitting it from all sides gradually you are making the thing rounder and rounder.",
+        "start": 200.3,
+        "duration": 6.809
+    },
+    {
+        "text": "So let's plot the evolution of the volume against time, and let's say in time",
+        "start": 229.73,
+        "duration": 6.319
+    },
+    {
+        "text": "I'm hitting the balloon at various regular intervals. It doesn't have to be regular intervals.",
+        "start": 236.05,
+        "duration": 4.559
+    },
+    {
+        "text": "Okay. So the volume of the balloon starts like this and",
+        "start": 241.1,
+        "duration": 4.1
+    },
+    {
+        "text": "as soon as I hit it, of course,",
+        "start": 246.04,
+        "duration": 2.28
+    },
+    {
+        "text": "instantaneously, I suddenly decrease the volume. I just shrivel it. So, a hit",
+        "start": 248.98,
+        "duration": 4.66
+    },
+    {
+        "text": "gives you this dip. But then, the thing fights back.",
+        "start": 253.9,
+        "duration": 3.32
+    },
+    {
+        "text": "Yeah? This is the fight back. And then the next hit will decrease the volume.",
+        "start": 257.5,
+        "duration": 5.0
+    },
+    {
+        "text": "And then it will fight back, fight back and so on, and gradually it asymptotes,",
+        "start": 262.51,
+        "duration": 5.429
+    },
+    {
+        "text": "or it approaches this spherical shape",
+        "start": 267.94,
+        "duration": 3.1
+    },
+    {
+        "text": "from below like this. So it never becomes completely spherical, but it grows like that. So I think there is a process of",
+        "start": 271.04,
+        "duration": 7.3
+    },
+    {
+        "text": "\"grow, shrink, grow, shrink, grow, shrink, zig, zag, zig, zag\" and then goes back then. That's why you can do this strange thing of",
+        "start": 278.5,
+        "duration": 7.74
+    },
+    {
+        "text": "hitting it, or denting it, repeatedly, and yet the result outcome is that it becomes rounder and rounder.",
+        "start": 287.02,
+        "duration": 6.26
+    },
+    {
+        "text": "Okay, this will probably take a long time.",
+        "start": 293.48,
+        "duration": 2.16
+    }
+]

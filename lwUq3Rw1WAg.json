@@ -1,0 +1,497 @@
+[
+    {
+        "text": "[ ♪ Intro ]",
+        "start": 0.0,
+        "duration": 3.48
+    },
+    {
+        "text": "Hard disks. Satellites. DVDs. Internet cables.",
+        "start": 3.48,
+        "duration": 3.68
+    },
+    {
+        "text": "We take it for granted that our electronics\njust work:",
+        "start": 7.16,
+        "duration": 2.94
+    },
+    {
+        "text": "that every bit, every 1 and 0, gets perfectly stored and passed around.",
+        "start": 10.1,
+        "duration": 4.18
+    },
+    {
+        "text": "But when you dig into it, \nthey really shouldn’t work!",
+        "start": 14.28,
+        "duration": 2.92
+    },
+    {
+        "text": "Every wire, memory chip, and radio link is\nconstantly fending off data corruption",
+        "start": 17.2,
+        "duration": 4.08
+    },
+    {
+        "text": "from faded signals, electrical interference, and\neven just bumps and scratches.",
+        "start": 21.28,
+        "duration": 3.999
+    },
+    {
+        "text": "It’s practically a miracle electronics work\nat all!",
+        "start": 25.279,
+        "duration": 3.031
+    },
+    {
+        "text": "Of course, what it actually is, is a feat\nof engineering.",
+        "start": 28.31,
+        "duration": 2.93
+    },
+    {
+        "text": "Behind the scenes, our devices are scrambling to catch errors and keep cruising along like nothing happened.",
+        "start": 31.24,
+        "duration": 4.88
+    },
+    {
+        "text": "And their secret weapon?",
+        "start": 36.12,
+        "duration": 1.08
+    },
+    {
+        "text": "Error detecting and\ncorrecting codes.",
+        "start": 37.2,
+        "duration": 2.0
+    },
+    {
+        "text": "These are ways of encoding information so that it can be recovered even in the face of corruption.",
+        "start": 39.28,
+        "duration": 4.36
+    },
+    {
+        "text": "And with the help of these codes, electronics\ncan keep up the illusion of perfection.",
+        "start": 43.64,
+        "duration": 3.7
+    },
+    {
+        "text": "Well, most of the time.",
+        "start": 47.34,
+        "duration": 1.26
+    },
+    {
+        "text": "For the most part, we try to ignore the physicality\nof our computers,",
+        "start": 48.6,
+        "duration": 3.16
+    },
+    {
+        "text": "pretending they work in some transcendent world of pure information.",
+        "start": 51.76,
+        "duration": 3.12
+    },
+    {
+        "text": "But electrical engineers constantly have to\ngrapple with the fact that that’s not true.",
+        "start": 54.88,
+        "duration": 4.1
+    },
+    {
+        "text": "Like, the radio waves carrying SciShow from\nyour router fade with distance.",
+        "start": 58.98,
+        "duration": 3.38
+    },
+    {
+        "text": "Rampaging toddlers cover Blu-ray discs in scratches\nand smudges.",
+        "start": 62.36,
+        "duration": 3.6
+    },
+    {
+        "text": "And unwanted electrical currents appear inside wires and chips,",
+        "start": 65.96,
+        "duration": 2.94
+    },
+    {
+        "text": "caused by electrical fields from the wires \nnext door, solar radiation, lightning,",
+        "start": 68.9,
+        "duration": 3.94
+    },
+    {
+        "text": "or even intergalactic particles.",
+        "start": 72.84,
+        "duration": 1.64
+    },
+    {
+        "text": "Engineers consider all these problems one\nbig pile of noise",
+        "start": 74.48,
+        "duration": 3.46
+    },
+    {
+        "text": "trying to drown out\n the signal that they care about.",
+        "start": 77.94,
+        "duration": 2.1
+    },
+    {
+        "text": "But it’s not enough to slap a label on the\nnoise; they need to mitigate it, too.",
+        "start": 80.04,
+        "duration": 3.8
+    },
+    {
+        "text": "Broadly speaking, the solution is redundancy,\nor injecting redundant information.",
+        "start": 83.84,
+        "duration": 4.76
+    },
+    {
+        "text": "That way, even if something gets lost, there’s backup\ninformation to salvage.",
+        "start": 88.6,
+        "duration": 3.24
+    },
+    {
+        "text": "The naive approach to this would be simple\nrepetition.",
+        "start": 91.84,
+        "duration": 3.12
+    },
+    {
+        "text": "If if I I repeat repeat every every word word, \nit’s obvious when one’s gotten garbled or replaced.",
+        "start": 94.96,
+        "duration": 5.46
+    },
+    {
+        "text": "Of course, that’s appallingly inefficient.",
+        "start": 100.42,
+        "duration": 2.36
+    },
+    {
+        "text": "So the starting point for better codes is to add what’s called a parity bit to each block of the message.",
+        "start": 102.789,
+        "duration": 4.76
+    },
+    {
+        "text": "The parity bit indicates whether there’s\nan even or odd number of 1s",
+        "start": 107.549,
+        "duration": 3.611
+    },
+    {
+        "text": "in the binary version of that block.",
+        "start": 111.16,
+        "duration": 1.76
+    },
+    {
+        "text": "If the number of 1s is even, the parity bit\nis 0. If the number is odd, the parity bit is 1.",
+        "start": 112.92,
+        "duration": 4.96
+    },
+    {
+        "text": "Now, say the machine on the receiving end\nsees an odd number of 1s, but a parity bit of 0.",
+        "start": 117.88,
+        "duration": 4.4
+    },
+    {
+        "text": "That means at least one of the bits got flipped,\nso you’ve got an error!",
+        "start": 122.28,
+        "duration": 3.339
+    },
+    {
+        "text": "If the receiver can ask for another copy and\nerrors are rare, that detection might be enough.",
+        "start": 125.62,
+        "duration": 4.48
+    },
+    {
+        "text": "But for data storage, or when you don’t have much bandwidth,",
+        "start": 130.1,
+        "duration": 2.76
+    },
+    {
+        "text": "you want something called forward error correction,",
+        "start": 132.86,
+        "duration": 2.36
+    },
+    {
+        "text": "enough redundancy\nthat the receiver can fix errors on its own.",
+        "start": 135.22,
+        "duration": 3.3
+    },
+    {
+        "text": "Forward error correction was pioneered way\nback in the 1940s,",
+        "start": 138.52,
+        "duration": 3.06
+    },
+    {
+        "text": "when a disgruntled Bell Labs employee \nnamed Richard Hamming",
+        "start": 141.58,
+        "duration": 3.14
+    },
+    {
+        "text": "was working with a newfangled, \nten-ton gizmo called a computer.",
+        "start": 144.72,
+        "duration": 3.18
+    },
+    {
+        "text": "Hamming only had computer time \non weekends,",
+        "start": 147.9,
+        "duration": 2.14
+    },
+    {
+        "text": "when the machine was programmed to assume nobody was around to fix problems.",
+        "start": 150.04,
+        "duration": 3.34
+    },
+    {
+        "text": "So when it detected corrupted data in Hamming’s programs,",
+        "start": 153.38,
+        "duration": 2.56
+    },
+    {
+        "text": "it would just abort and move on to other tasks.",
+        "start": 155.94,
+        "duration": 2.08
+    },
+    {
+        "text": "Hamming found it outrageous that the computercouldn’t also locate and repair the errors it had detected.",
+        "start": 158.02,
+        "duration": 5.74
+    },
+    {
+        "text": "So he came up with a fix.",
+        "start": 163.76,
+        "duration": 1.25
+    },
+    {
+        "text": "His idea, now known as a Hamming code, was\nto give every block of data several parity bits.",
+        "start": 165.01,
+        "duration": 5.05
+    },
+    {
+        "text": "Each parity bit is responsible for checking\ndifferent combinations of data bits.",
+        "start": 170.06,
+        "duration": 3.9
+    },
+    {
+        "text": "So one might check the first, second, \nand fifth data bits,",
+        "start": 173.96,
+        "duration": 2.62
+    },
+    {
+        "text": "another might check the first, third, and fourth,",
+        "start": 176.58,
+        "duration": 1.9
+    },
+    {
+        "text": "one way or another, everything\nis covered, usually multiple times.",
+        "start": 178.48,
+        "duration": 3.16
+    },
+    {
+        "text": "Each parity bit tells you whether its specific\ncombination of data bits",
+        "start": 181.64,
+        "duration": 3.34
+    },
+    {
+        "text": "should have an odd \nor even number of 1s.",
+        "start": 184.98,
+        "duration": 2.02
+    },
+    {
+        "text": "So when the receiver notices that some parity\nbits don’t match their data,",
+        "start": 187.0,
+        "duration": 3.28
+    },
+    {
+        "text": "all these overlapping patterns tell the receiver what needs to be changed.",
+        "start": 190.28,
+        "duration": 3.659
+    },
+    {
+        "text": "Hamming codes are simple, fast, \nand frugal with space,",
+        "start": 193.94,
+        "duration": 2.78
+    },
+    {
+        "text": "so they’re still popular \nin error-correcting memory chips.",
+        "start": 196.72,
+        "duration": 2.5
+    },
+    {
+        "text": "But they can’t fix more than one error at\na time.",
+        "start": 199.22,
+        "duration": 3.0
+    },
+    {
+        "text": "That problem is solved by a family of more\npowerful schemes called Reed-Solomon codes.",
+        "start": 202.22,
+        "duration": 4.719
+    },
+    {
+        "text": "Their first primetime use was beaming back\nhigh-res images",
+        "start": 206.94,
+        "duration": 2.94
+    },
+    {
+        "text": "from NASA’s Voyager probes \nin the 1970s.",
+        "start": 209.88,
+        "duration": 2.52
+    },
+    {
+        "text": "Instead of separating message and parity bits,",
+        "start": 212.4,
+        "duration": 2.22
+    },
+    {
+        "text": "Reed-Solomon codes essentially make every chunk that’s sent equally informative about the entire message.",
+        "start": 214.62,
+        "duration": 5.16
+    },
+    {
+        "text": "They do that by reinterpreting the original\nmessage not just as numbers,",
+        "start": 219.78,
+        "duration": 3.82
+    },
+    {
+        "text": "but as points on a mathematical curve.",
+        "start": 223.6,
+        "duration": 2.24
+    },
+    {
+        "text": "For redundancy’s sake, the sender also throws in some extra points along that same curve.",
+        "start": 225.92,
+        "duration": 4.56
+    },
+    {
+        "text": "So even if a few spots are corrupted or missing\nby the time they reach the receiver,",
+        "start": 230.48,
+        "duration": 3.7
+    },
+    {
+        "text": "the receiver can still reconstruct the right shape, and\ntherefore, the right message, from the remaining points.",
+        "start": 234.18,
+        "duration": 4.8
+    },
+    {
+        "text": "Reed-Solomon codes slash the survival rate\nof errors.",
+        "start": 238.98,
+        "duration": 2.96
+    },
+    {
+        "text": "Plus they’re highly adjustable:",
+        "start": 241.94,
+        "duration": 1.78
+    },
+    {
+        "text": "You can add in tons of redundant points, and\neven though that will make the message more bloated,",
+        "start": 243.72,
+        "duration": 4.12
+    },
+    {
+        "text": "it will allow more errors to be corrected.",
+        "start": 247.84,
+        "duration": 2.1
+    },
+    {
+        "text": "So it’s no surprise that these codes are\nwildly popular.",
+        "start": 249.94,
+        "duration": 2.88
+    },
+    {
+        "text": "They are the patron saint of torn QR codes, banged-up hard drives, flawed cable TV receivers,",
+        "start": 252.9,
+        "duration": 5.22
+    },
+    {
+        "text": "and tons of other technologies.",
+        "start": 258.12,
+        "duration": 1.46
+    },
+    {
+        "text": "And they can even come with extra bells and\nwhistles.",
+        "start": 259.58,
+        "duration": 2.34
+    },
+    {
+        "text": "For example, many systems, including CDs and\nspacecraft,",
+        "start": 261.92,
+        "duration": 4.0
+    },
+    {
+        "text": "interleave, or jumble, the bits after applying Reed-Solomon.",
+        "start": 265.92,
+        "duration": 4.0
+    },
+    {
+        "text": "That protects against bursts of errors that\nwould otherwise overwhelm the code.",
+        "start": 269.92,
+        "duration": 3.64
+    },
+    {
+        "text": "Like, if your Blu-Ray gets a big long scratch,",
+        "start": 273.56,
+        "duration": 2.36
+    },
+    {
+        "text": "un-jumbling spreads out those errors into many independently-correctable blocks.",
+        "start": 275.92,
+        "duration": 4.06
+    },
+    {
+        "text": "Reed-Solomon codes take care of a lot, but\nthere are also plenty of other codes out there",
+        "start": 279.98,
+        "duration": 3.84
+    },
+    {
+        "text": "used in everything from the Internet to cell\nphones to cable TV,",
+        "start": 283.82,
+        "duration": 3.08
+    },
+    {
+        "text": "and many are based on similar concepts.",
+        "start": 286.9,
+        "duration": 1.9
+    },
+    {
+        "text": "So from parity bits to Reed-Solomon codes\nand beyond,",
+        "start": 288.8,
+        "duration": 3.14
+    },
+    {
+        "text": "error-correcting and -detecting codes are the unsung heroes of the digital world.",
+        "start": 291.94,
+        "duration": 3.9
+    },
+    {
+        "text": "And the next time you have a clear cell signal,\nor see a picture from space,",
+        "start": 295.84,
+        "duration": 3.5
+    },
+    {
+        "text": "or even just check your email, \nyou’ll know what to thank.",
+        "start": 299.34,
+        "duration": 2.72
+    },
+    {
+        "text": "Also, if the signal isn’t so clear, well,\nyou know how it goes.",
+        "start": 302.06,
+        "duration": 3.42
+    },
+    {
+        "text": "Sometimes you beat the errors, and sometimes, the errors beat you.",
+        "start": 305.48,
+        "duration": 3.12
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 308.6,
+        "duration": 1.84
+    },
+    {
+        "text": "If you liked learning about how we use codes to keep our messages from getting scrambled,",
+        "start": 310.52,
+        "duration": 3.86
+    },
+    {
+        "text": "you might also like our episode about \nhow encryption works,",
+        "start": 314.38,
+        "duration": 3.04
+    },
+    {
+        "text": "since that’s basically how we intentionally scramble messages to keep them safe!",
+        "start": 317.42,
+        "duration": 4.08
+    },
+    {
+        "text": "[ ♪ Outro ]",
+        "start": 321.5,
+        "duration": 9.86
+    }
+]

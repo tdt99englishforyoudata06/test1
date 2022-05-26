@@ -1,0 +1,2572 @@
+[
+    {
+        "text": "today on applied science of going to",
+        "start": 0.03,
+        "duration": 3.81
+    },
+    {
+        "text": "talk about how I designed and built this",
+        "start": 2.129,
+        "duration": 4.411
+    },
+    {
+        "text": "spin coater so I'll describe everything",
+        "start": 3.84,
+        "duration": 4.079
+    },
+    {
+        "text": "I learned about low-cost motor",
+        "start": 6.54,
+        "duration": 3.15
+    },
+    {
+        "text": "controllers and make all the code and",
+        "start": 7.919,
+        "duration": 3.72
+    },
+    {
+        "text": "circuitry available in case you have a",
+        "start": 9.69,
+        "duration": 4.859
+    },
+    {
+        "text": "similar motor based project so let's see",
+        "start": 11.639,
+        "duration": 5.22
+    },
+    {
+        "text": "this thing in action it's got a rotor",
+        "start": 14.549,
+        "duration": 5.551
+    },
+    {
+        "text": "here and I've put Flathead brass screws",
+        "start": 16.859,
+        "duration": 5.041
+    },
+    {
+        "text": "in here so that when I slip a microscope",
+        "start": 20.1,
+        "duration": 4.89
+    },
+    {
+        "text": "slide in and put one more screw in it",
+        "start": 21.9,
+        "duration": 4.65
+    },
+    {
+        "text": "holds it down and keeps it from moving",
+        "start": 24.99,
+        "duration": 4.199
+    },
+    {
+        "text": "on the rotor so I press the green button",
+        "start": 26.55,
+        "duration": 5.72
+    },
+    {
+        "text": "and it spins at about 400 rpm",
+        "start": 29.189,
+        "duration": 5.731
+    },
+    {
+        "text": "indefinitely and the idea is that you",
+        "start": 32.27,
+        "duration": 4.93
+    },
+    {
+        "text": "want to put a liquid on to the spinning",
+        "start": 34.92,
+        "duration": 5.4
+    },
+    {
+        "text": "slide and the spinning motion of the",
+        "start": 37.2,
+        "duration": 4.65
+    },
+    {
+        "text": "spin coater will fling the liquid out",
+        "start": 40.32,
+        "duration": 3.27
+    },
+    {
+        "text": "and make a very even coating on the",
+        "start": 41.85,
+        "duration": 4.29
+    },
+    {
+        "text": "slide so I'm going to use this liquid",
+        "start": 43.59,
+        "duration": 4.949
+    },
+    {
+        "text": "which is a photoresist and I realize I'm",
+        "start": 46.14,
+        "duration": 4.11
+    },
+    {
+        "text": "doing this under shop lighting so it's",
+        "start": 48.539,
+        "duration": 3.75
+    },
+    {
+        "text": "not going to be really useful but this",
+        "start": 50.25,
+        "duration": 5.73
+    },
+    {
+        "text": "will just give you the idea and then we",
+        "start": 52.289,
+        "duration": 5.601
+    },
+    {
+        "text": "press the green button again and the",
+        "start": 55.98,
+        "duration": 4.77
+    },
+    {
+        "text": "Machine goes through a very controlled",
+        "start": 57.89,
+        "duration": 7.129
+    },
+    {
+        "text": "acceleration up to about 3000 rpm",
+        "start": 60.75,
+        "duration": 6.64
+    },
+    {
+        "text": "and when it reaches 3,000 it holds the",
+        "start": 65.019,
+        "duration": 5.49
+    },
+    {
+        "text": "speed and it's counting up in seconds so",
+        "start": 67.39,
+        "duration": 4.589
+    },
+    {
+        "text": "the whole idea here is that we want this",
+        "start": 70.509,
+        "duration": 3.571
+    },
+    {
+        "text": "process to be very repeatable because we",
+        "start": 71.979,
+        "duration": 4.411
+    },
+    {
+        "text": "want a very consistent even layer of",
+        "start": 74.08,
+        "duration": 6.209
+    },
+    {
+        "text": "photoresist I had a different spin",
+        "start": 76.39,
+        "duration": 5.58
+    },
+    {
+        "text": "coater previously that didn't work",
+        "start": 80.289,
+        "duration": 3.271
+    },
+    {
+        "text": "nearly as well so this is a really nice",
+        "start": 81.97,
+        "duration": 4.289
+    },
+    {
+        "text": "upgrade you'll see we're getting up to",
+        "start": 83.56,
+        "duration": 7.47
+    },
+    {
+        "text": "about 30 seconds 32 the machine has a",
+        "start": 86.259,
+        "duration": 8.071
+    },
+    {
+        "text": "really rapid deceleration and then you",
+        "start": 91.03,
+        "duration": 6.839
+    },
+    {
+        "text": "can see that the slide is now nice and",
+        "start": 94.33,
+        "duration": 10.59
+    },
+    {
+        "text": "coated with this green photoresist so",
+        "start": 97.869,
+        "duration": 8.7
+    },
+    {
+        "text": "here's a slide I coded earlier you can",
+        "start": 104.92,
+        "duration": 3.18
+    },
+    {
+        "text": "see that after it sits out under the",
+        "start": 106.569,
+        "duration": 3.72
+    },
+    {
+        "text": "fluorescent lighting this one is nice",
+        "start": 108.1,
+        "duration": 3.93
+    },
+    {
+        "text": "and green this one is nice and blue",
+        "start": 110.289,
+        "duration": 3.39
+    },
+    {
+        "text": "because it's been exposed by the",
+        "start": 112.03,
+        "duration": 4.769
+    },
+    {
+        "text": "fluorescent lighting in the shop so",
+        "start": 113.679,
+        "duration": 4.771
+    },
+    {
+        "text": "let's take this thing apart and you can",
+        "start": 116.799,
+        "duration": 6.511
+    },
+    {
+        "text": "see how it's built this splash guard",
+        "start": 118.45,
+        "duration": 6.36
+    },
+    {
+        "text": "just lifts out it's actually just",
+        "start": 123.31,
+        "duration": 4.14
+    },
+    {
+        "text": "sitting in here captain side-to-side",
+        "start": 124.81,
+        "duration": 4.679
+    },
+    {
+        "text": "with these plastic blocks here but it",
+        "start": 127.45,
+        "duration": 3.84
+    },
+    {
+        "text": "really just lifts out and the reason it",
+        "start": 129.489,
+        "duration": 3.451
+    },
+    {
+        "text": "has this internal lip here is so that",
+        "start": 131.29,
+        "duration": 3.84
+    },
+    {
+        "text": "when the thing flings excess liquid out",
+        "start": 132.94,
+        "duration": 4.29
+    },
+    {
+        "text": "it will fall down into this moat instead",
+        "start": 135.13,
+        "duration": 8.579
+    },
+    {
+        "text": "of making a mess on the table so as you",
+        "start": 137.23,
+        "duration": 9.15
+    },
+    {
+        "text": "can see here this is using a motor",
+        "start": 143.709,
+        "duration": 4.56
+    },
+    {
+        "text": "designed for like a quadcopter or",
+        "start": 146.38,
+        "duration": 4.29
+    },
+    {
+        "text": "something like that and the reason for",
+        "start": 148.269,
+        "duration": 4.081
+    },
+    {
+        "text": "that is that the market for these motor",
+        "start": 150.67,
+        "duration": 5.34
+    },
+    {
+        "text": "controllers and motors for quad copters",
+        "start": 152.35,
+        "duration": 5.34
+    },
+    {
+        "text": "is really developed so you can get these",
+        "start": 156.01,
+        "duration": 3.93
+    },
+    {
+        "text": "for very cheap so I bought a couple just",
+        "start": 157.69,
+        "duration": 4.26
+    },
+    {
+        "text": "because I mean this is like fifteen or",
+        "start": 159.94,
+        "duration": 3.81
+    },
+    {
+        "text": "ten dollars or something like that and",
+        "start": 161.95,
+        "duration": 3.84
+    },
+    {
+        "text": "the controller for it is similarly about",
+        "start": 163.75,
+        "duration": 4.91
+    },
+    {
+        "text": "ten or fifteen bucks it's so cheap that",
+        "start": 165.79,
+        "duration": 5.88
+    },
+    {
+        "text": "even single chips from digi-key that",
+        "start": 168.66,
+        "duration": 5.32
+    },
+    {
+        "text": "would do a similar thing cost almost as",
+        "start": 171.67,
+        "duration": 4.409
+    },
+    {
+        "text": "much as the entire board so let's open",
+        "start": 173.98,
+        "duration": 4.729
+    },
+    {
+        "text": "this up and we can see what's in here",
+        "start": 176.079,
+        "duration": 5.28
+    },
+    {
+        "text": "okay so here's the insides of the box",
+        "start": 178.709,
+        "duration": 4.961
+    },
+    {
+        "text": "and this project was definitely a case",
+        "start": 181.359,
+        "duration": 4.35
+    },
+    {
+        "text": "of using whatever I had available on the",
+        "start": 183.67,
+        "duration": 4.59
+    },
+    {
+        "text": "shelf so a lot of these things I already",
+        "start": 185.709,
+        "duration": 3.84
+    },
+    {
+        "text": "had in fact the only thing that I",
+        "start": 188.26,
+        "duration": 2.64
+    },
+    {
+        "text": "actually bought for this project was the",
+        "start": 189.549,
+        "duration": 3.511
+    },
+    {
+        "text": "motor in the controller itself but",
+        "start": 190.9,
+        "duration": 3.209
+    },
+    {
+        "text": "anyway let's take a look at this so",
+        "start": 193.06,
+        "duration": 3.06
+    },
+    {
+        "text": "we've got switched mains coming in here",
+        "start": 194.109,
+        "duration": 4.051
+    },
+    {
+        "text": "coming down to the switch mode power",
+        "start": 196.12,
+        "duration": 2.73
+    },
+    {
+        "text": "supply",
+        "start": 198.16,
+        "duration": 2.79
+    },
+    {
+        "text": "it's about seven and a half or eight",
+        "start": 198.85,
+        "duration": 4.23
+    },
+    {
+        "text": "volts kind of weird but that's actually",
+        "start": 200.95,
+        "duration": 3.42
+    },
+    {
+        "text": "the voltage that I needed and I just",
+        "start": 203.08,
+        "duration": 3.96
+    },
+    {
+        "text": "happen to have this playing around then",
+        "start": 204.37,
+        "duration": 5.16
+    },
+    {
+        "text": "we have an old-fashioned parallel",
+        "start": 207.04,
+        "duration": 5.31
+    },
+    {
+        "text": "interface LCD up here the motor",
+        "start": 209.53,
+        "duration": 4.98
+    },
+    {
+        "text": "controller and an Arduino micro that",
+        "start": 212.35,
+        "duration": 4.32
+    },
+    {
+        "text": "runs the whole show so those two buttons",
+        "start": 214.51,
+        "duration": 3.72
+    },
+    {
+        "text": "are disconnected right up to the Arduino",
+        "start": 216.67,
+        "duration": 3.66
+    },
+    {
+        "text": "micro and we're using its internal",
+        "start": 218.23,
+        "duration": 4.29
+    },
+    {
+        "text": "pull-up resistors to sense the state of",
+        "start": 220.33,
+        "duration": 6.0
+    },
+    {
+        "text": "those buttons a nice little tip if",
+        "start": 222.52,
+        "duration": 6.75
+    },
+    {
+        "text": "you're using a abs project box like this",
+        "start": 226.33,
+        "duration": 5.1
+    },
+    {
+        "text": "and you want to mount a circuit board or",
+        "start": 229.27,
+        "duration": 4.65
+    },
+    {
+        "text": "a heavy thing like this what you can do",
+        "start": 231.43,
+        "duration": 5.91
+    },
+    {
+        "text": "is cut some chunks of thick ABS plastic",
+        "start": 233.92,
+        "duration": 5.63
+    },
+    {
+        "text": "this is maybe 3/8 of an inch thick and",
+        "start": 237.34,
+        "duration": 5.55
+    },
+    {
+        "text": "drill a hole and tap it in this chunk",
+        "start": 239.55,
+        "duration": 6.31
+    },
+    {
+        "text": "and then what you can do is attach the",
+        "start": 242.89,
+        "duration": 6.11
+    },
+    {
+        "text": "chunk with a screw to your circuit board",
+        "start": 245.86,
+        "duration": 5.4
+    },
+    {
+        "text": "kind of like that thread that in there",
+        "start": 249.0,
+        "duration": 4.09
+    },
+    {
+        "text": "so that there's a plastic foot here and",
+        "start": 251.26,
+        "duration": 4.08
+    },
+    {
+        "text": "then just drop the whole thing in to",
+        "start": 253.09,
+        "duration": 5.13
+    },
+    {
+        "text": "your plastic enclosure and then add some",
+        "start": 255.34,
+        "duration": 5.99
+    },
+    {
+        "text": "solvent weld I ran out of thickened a",
+        "start": 258.22,
+        "duration": 5.25
+    },
+    {
+        "text": "solvent weld that you can use this on",
+        "start": 261.33,
+        "duration": 5.08
+    },
+    {
+        "text": "abs you can also just use sewer pipe",
+        "start": 263.47,
+        "duration": 4.8
+    },
+    {
+        "text": "cement from the hardware store it works",
+        "start": 266.41,
+        "duration": 4.74
+    },
+    {
+        "text": "great very strong like that foot the",
+        "start": 268.27,
+        "duration": 4.65
+    },
+    {
+        "text": "project box itself will break before",
+        "start": 271.15,
+        "duration": 3.87
+    },
+    {
+        "text": "that foot comes off so if you need to",
+        "start": 272.92,
+        "duration": 4.05
+    },
+    {
+        "text": "fix something like a heavy power supply",
+        "start": 275.02,
+        "duration": 4.11
+    },
+    {
+        "text": "board this works just fine it also gives",
+        "start": 276.97,
+        "duration": 3.45
+    },
+    {
+        "text": "you the ability to kind of move it",
+        "start": 279.13,
+        "duration": 3.3
+    },
+    {
+        "text": "around inside the project box before you",
+        "start": 280.42,
+        "duration": 4.89
+    },
+    {
+        "text": "commit to it okay so let's talk about",
+        "start": 282.43,
+        "duration": 5.31
+    },
+    {
+        "text": "motor selection for a second when I",
+        "start": 285.31,
+        "duration": 3.99
+    },
+    {
+        "text": "started this project I didn't know that",
+        "start": 287.74,
+        "duration": 3.26
+    },
+    {
+        "text": "I was going to be using one of these",
+        "start": 289.3,
+        "duration": 4.35
+    },
+    {
+        "text": "quadcopter motors I thought oh you know",
+        "start": 291.0,
+        "duration": 4.54
+    },
+    {
+        "text": "maybe a stepper motor would be okay and",
+        "start": 293.65,
+        "duration": 4.32
+    },
+    {
+        "text": "this project is not particularly well",
+        "start": 295.54,
+        "duration": 4.35
+    },
+    {
+        "text": "suited for a stepper motor because the",
+        "start": 297.97,
+        "duration": 3.66
+    },
+    {
+        "text": "speeds are kind of high so you saw it",
+        "start": 299.89,
+        "duration": 4.56
+    },
+    {
+        "text": "was running at 3000 rpm but potentially",
+        "start": 301.63,
+        "duration": 4.2
+    },
+    {
+        "text": "we'd want it to go up to four or even",
+        "start": 304.45,
+        "duration": 3.81
+    },
+    {
+        "text": "5,000 rpm and that's really pushing it",
+        "start": 305.83,
+        "duration": 4.89
+    },
+    {
+        "text": "for a stepper motor in addition the",
+        "start": 308.26,
+        "duration": 4.47
+    },
+    {
+        "text": "steppers don't really turn particularly",
+        "start": 310.72,
+        "duration": 4.62
+    },
+    {
+        "text": "smoothly and since there's no feedback",
+        "start": 312.73,
+        "duration": 4.62
+    },
+    {
+        "text": "you kind of have to add a tachometer or",
+        "start": 315.34,
+        "duration": 4.71
+    },
+    {
+        "text": "a spin sensor to make sure that you",
+        "start": 317.35,
+        "duration": 5.31
+    },
+    {
+        "text": "aren't missing steps I realized that the",
+        "start": 320.05,
+        "duration": 4.2
+    },
+    {
+        "text": "rotor on this thing is not particularly",
+        "start": 322.66,
+        "duration": 3.0
+    },
+    {
+        "text": "heavy so it's sort of a known",
+        "start": 324.25,
+        "duration": 4.11
+    },
+    {
+        "text": "acceleration profile it's unlikely that",
+        "start": 325.66,
+        "duration": 4.77
+    },
+    {
+        "text": "you'd miss steps but even still you'd",
+        "start": 328.36,
+        "duration": 4.0
+    },
+    {
+        "text": "probably want some feedback so I",
+        "start": 330.43,
+        "duration": 3.78
+    },
+    {
+        "text": "decided not to use the stepper motor and",
+        "start": 332.36,
+        "duration": 4.589
+    },
+    {
+        "text": "then that leaves you know you could just",
+        "start": 334.21,
+        "duration": 6.009
+    },
+    {
+        "text": "use a plain old DC motor in fact in my",
+        "start": 336.949,
+        "duration": 5.97
+    },
+    {
+        "text": "previous spin coater this was the older",
+        "start": 340.219,
+        "duration": 6.181
+    },
+    {
+        "text": "model I just used this old cheap DC",
+        "start": 342.919,
+        "duration": 5.55
+    },
+    {
+        "text": "motor egg out of an old cassette deck or",
+        "start": 346.4,
+        "duration": 4.319
+    },
+    {
+        "text": "something like that and I had that same",
+        "start": 348.469,
+        "duration": 4.2
+    },
+    {
+        "text": "aluminum rotor pressed on to the shaft",
+        "start": 350.719,
+        "duration": 4.141
+    },
+    {
+        "text": "here and this thing sat down in here",
+        "start": 352.669,
+        "duration": 3.661
+    },
+    {
+        "text": "like this and I had a little bit more of",
+        "start": 354.86,
+        "duration": 4.5
+    },
+    {
+        "text": "a this thing was a little bit taller I",
+        "start": 356.33,
+        "duration": 4.799
+    },
+    {
+        "text": "cut the stop to make the the new shield",
+        "start": 359.36,
+        "duration": 4.95
+    },
+    {
+        "text": "but anyway the it's not quite enough",
+        "start": 361.129,
+        "duration": 5.04
+    },
+    {
+        "text": "power would be nicer if it accelerated",
+        "start": 364.31,
+        "duration": 5.039
+    },
+    {
+        "text": "and decelerated with more control so",
+        "start": 366.169,
+        "duration": 6.84
+    },
+    {
+        "text": "that was out another good idea is to use",
+        "start": 369.349,
+        "duration": 5.22
+    },
+    {
+        "text": "a hard drive so when thinking about",
+        "start": 373.009,
+        "duration": 3.361
+    },
+    {
+        "text": "stuff that already exists in the world",
+        "start": 374.569,
+        "duration": 3.87
+    },
+    {
+        "text": "that kind of does what we want a hard",
+        "start": 376.37,
+        "duration": 3.569
+    },
+    {
+        "text": "drive is actually pretty close so this",
+        "start": 378.439,
+        "duration": 4.051
+    },
+    {
+        "text": "will get up to you know 7,000 rpm no",
+        "start": 379.939,
+        "duration": 4.831
+    },
+    {
+        "text": "problem it's even got this nice bearing",
+        "start": 382.49,
+        "duration": 4.739
+    },
+    {
+        "text": "system so that the thing spins smoothly",
+        "start": 384.77,
+        "duration": 4.53
+    },
+    {
+        "text": "and it even a hoody has like a disc",
+        "start": 387.229,
+        "duration": 4.59
+    },
+    {
+        "text": "shape on the front and the motor is",
+        "start": 389.3,
+        "duration": 4.619
+    },
+    {
+        "text": "built into this nice aluminum housing so",
+        "start": 391.819,
+        "duration": 3.541
+    },
+    {
+        "text": "we can kind of you know bolt this down",
+        "start": 393.919,
+        "duration": 3.99
+    },
+    {
+        "text": "it'd be great and in fact if you go on",
+        "start": 395.36,
+        "duration": 4.769
+    },
+    {
+        "text": "eBay there's a company selling low-cost",
+        "start": 397.909,
+        "duration": 4.32
+    },
+    {
+        "text": "spin encoders made out of hard drive",
+        "start": 400.129,
+        "duration": 4.861
+    },
+    {
+        "text": "motors and when I say low-cost I mean",
+        "start": 402.229,
+        "duration": 4.981
+    },
+    {
+        "text": "like five hundred to a thousand dollars",
+        "start": 404.99,
+        "duration": 4.53
+    },
+    {
+        "text": "compared to what the semiconductor",
+        "start": 407.21,
+        "duration": 3.87
+    },
+    {
+        "text": "industry charges for these things which",
+        "start": 409.52,
+        "duration": 3.199
+    },
+    {
+        "text": "is you know probably tens of thousands",
+        "start": 411.08,
+        "duration": 3.899
+    },
+    {
+        "text": "there's another nice feature about these",
+        "start": 412.719,
+        "duration": 6.16
+    },
+    {
+        "text": "these often have a solid spindle so this",
+        "start": 414.979,
+        "duration": 6.06
+    },
+    {
+        "text": "particular one doesn't but on some hard",
+        "start": 418.879,
+        "duration": 3.871
+    },
+    {
+        "text": "drive models the center of the spindle",
+        "start": 421.039,
+        "duration": 3.481
+    },
+    {
+        "text": "actually doesn't spin because it goes",
+        "start": 422.75,
+        "duration": 3.659
+    },
+    {
+        "text": "all the way through the motor to the",
+        "start": 424.52,
+        "duration": 4.139
+    },
+    {
+        "text": "bottom and the cool thing about that is",
+        "start": 426.409,
+        "duration": 4.081
+    },
+    {
+        "text": "if you attach a vacuum hose to the",
+        "start": 428.659,
+        "duration": 4.23
+    },
+    {
+        "text": "bottom you can put a rubber o-ring on",
+        "start": 430.49,
+        "duration": 4.13
+    },
+    {
+        "text": "the top and then when you put your glass",
+        "start": 432.889,
+        "duration": 4.441
+    },
+    {
+        "text": "microscope slide down on that you can",
+        "start": 434.62,
+        "duration": 4.75
+    },
+    {
+        "text": "use vacuum to hold the microscope slide",
+        "start": 437.33,
+        "duration": 4.38
+    },
+    {
+        "text": "down and that gives you this nice",
+        "start": 439.37,
+        "duration": 4.979
+    },
+    {
+        "text": "convenient vacuum Chuck so I liked that",
+        "start": 441.71,
+        "duration": 3.179
+    },
+    {
+        "text": "idea",
+        "start": 444.349,
+        "duration": 3.481
+    },
+    {
+        "text": "however these motors still don't have",
+        "start": 444.889,
+        "duration": 6.15
+    },
+    {
+        "text": "quite enough power so you know your 7200",
+        "start": 447.83,
+        "duration": 6.059
+    },
+    {
+        "text": "rpm hard drive may take you know five or",
+        "start": 451.039,
+        "duration": 4.68
+    },
+    {
+        "text": "ten seconds to come up to speed and",
+        "start": 453.889,
+        "duration": 3.9
+    },
+    {
+        "text": "that's actually about right but when I",
+        "start": 455.719,
+        "duration": 3.81
+    },
+    {
+        "text": "started this project I thought I needed",
+        "start": 457.789,
+        "duration": 4.141
+    },
+    {
+        "text": "to have much faster acceleration to have",
+        "start": 459.529,
+        "duration": 4.771
+    },
+    {
+        "text": "a good spin coater and in a minute I'll",
+        "start": 461.93,
+        "duration": 3.629
+    },
+    {
+        "text": "show you this thing connected",
+        "start": 464.3,
+        "duration": 3.539
+    },
+    {
+        "text": "with the debug port and it's actually",
+        "start": 465.559,
+        "duration": 3.57
+    },
+    {
+        "text": "pretty impressive how quickly this thing",
+        "start": 467.839,
+        "duration": 5.55
+    },
+    {
+        "text": "can change speeds another slight problem",
+        "start": 469.129,
+        "duration": 5.88
+    },
+    {
+        "text": "with using a hard drive motor is that",
+        "start": 473.389,
+        "duration": 5.31
+    },
+    {
+        "text": "this is a four wire brushless DC motor",
+        "start": 475.009,
+        "duration": 6.24
+    },
+    {
+        "text": "and it's wired up in what's called a Wye",
+        "start": 478.699,
+        "duration": 5.55
+    },
+    {
+        "text": "configuration so the four wires are one",
+        "start": 481.249,
+        "duration": 4.44
+    },
+    {
+        "text": "two three and four",
+        "start": 484.249,
+        "duration": 3.21
+    },
+    {
+        "text": "and obviously it's called a Y because it",
+        "start": 485.689,
+        "duration": 4.07
+    },
+    {
+        "text": "looks like that but most of the",
+        "start": 487.459,
+        "duration": 5.43
+    },
+    {
+        "text": "brushless DC motors that are built for",
+        "start": 489.759,
+        "duration": 5.11
+    },
+    {
+        "text": "quadcopters and similar things are a",
+        "start": 492.889,
+        "duration": 3.99
+    },
+    {
+        "text": "three wire and it's called a Delta",
+        "start": 494.869,
+        "duration": 3.45
+    },
+    {
+        "text": "configuration because it looks like a",
+        "start": 496.879,
+        "duration": 3.48
+    },
+    {
+        "text": "Greek Delta and so the one two three",
+        "start": 498.319,
+        "duration": 3.84
+    },
+    {
+        "text": "wires there and these are not really",
+        "start": 500.359,
+        "duration": 3.54
+    },
+    {
+        "text": "interchangeable you can sort of get away",
+        "start": 502.159,
+        "duration": 4.44
+    },
+    {
+        "text": "with it a little bit but generally not",
+        "start": 503.899,
+        "duration": 6.81
+    },
+    {
+        "text": "really and also the coil resistances for",
+        "start": 506.599,
+        "duration": 5.88
+    },
+    {
+        "text": "these are generally not quite the same",
+        "start": 510.709,
+        "duration": 5.52
+    },
+    {
+        "text": "as they are for quadcopter motors so it",
+        "start": 512.479,
+        "duration": 5.25
+    },
+    {
+        "text": "is and then you know later on you'll",
+        "start": 516.229,
+        "duration": 2.881
+    },
+    {
+        "text": "find out that the the controllers that",
+        "start": 517.729,
+        "duration": 3.06
+    },
+    {
+        "text": "they make for these things are so cheap",
+        "start": 519.11,
+        "duration": 4.079
+    },
+    {
+        "text": "that it's just silly not to use them so",
+        "start": 520.789,
+        "duration": 3.9
+    },
+    {
+        "text": "I decided not to go with the hard drive",
+        "start": 523.189,
+        "duration": 5.88
+    },
+    {
+        "text": "motor if you go to a site like hobbyking",
+        "start": 524.689,
+        "duration": 6.45
+    },
+    {
+        "text": "or one of the places that sells a whole",
+        "start": 529.069,
+        "duration": 3.781
+    },
+    {
+        "text": "bunch of stuff for making your own quad",
+        "start": 531.139,
+        "duration": 3.841
+    },
+    {
+        "text": "copters you'll find the prices on these",
+        "start": 532.85,
+        "duration": 4.469
+    },
+    {
+        "text": "things are just really low I mean this",
+        "start": 534.98,
+        "duration": 4.95
+    },
+    {
+        "text": "was probably ten dollars or something I",
+        "start": 537.319,
+        "duration": 4.651
+    },
+    {
+        "text": "think they even have small motor",
+        "start": 539.93,
+        "duration": 3.719
+    },
+    {
+        "text": "controllers that are even under ten",
+        "start": 541.97,
+        "duration": 3.929
+    },
+    {
+        "text": "dollars and it's kind of silly because",
+        "start": 543.649,
+        "duration": 3.901
+    },
+    {
+        "text": "if you go to digi-key and just look up",
+        "start": 545.899,
+        "duration": 4.321
+    },
+    {
+        "text": "the parts like if you just buy all the",
+        "start": 547.55,
+        "duration": 4.289
+    },
+    {
+        "text": "FETs that to make this or even though",
+        "start": 550.22,
+        "duration": 4.289
+    },
+    {
+        "text": "you know a monolithic chip that's got",
+        "start": 551.839,
+        "duration": 4.44
+    },
+    {
+        "text": "all the fats in there even that's going",
+        "start": 554.509,
+        "duration": 3.3
+    },
+    {
+        "text": "to get close to ten dollars just in",
+        "start": 556.279,
+        "duration": 3.48
+    },
+    {
+        "text": "parts and so it's kind of silly to not",
+        "start": 557.809,
+        "duration": 3.931
+    },
+    {
+        "text": "buy this since it already has the",
+        "start": 559.759,
+        "duration": 4.32
+    },
+    {
+        "text": "firmware it already has the controller",
+        "start": 561.74,
+        "duration": 4.469
+    },
+    {
+        "text": "the capacitor I mean everything and then",
+        "start": 564.079,
+        "duration": 5.01
+    },
+    {
+        "text": "the motor itself is ten to twenty",
+        "start": 566.209,
+        "duration": 4.951
+    },
+    {
+        "text": "dollars and it's known to work with it",
+        "start": 569.089,
+        "duration": 3.571
+    },
+    {
+        "text": "so you kind of are guaranteed a working",
+        "start": 571.16,
+        "duration": 5.669
+    },
+    {
+        "text": "system just with these two parts if you",
+        "start": 572.66,
+        "duration": 5.669
+    },
+    {
+        "text": "wanted to take a simple approach you",
+        "start": 576.829,
+        "duration": 3.421
+    },
+    {
+        "text": "could just use these parts as they are",
+        "start": 578.329,
+        "duration": 3.93
+    },
+    {
+        "text": "and these motor controllers are designed",
+        "start": 580.25,
+        "duration": 5.49
+    },
+    {
+        "text": "to be controlled by this you know servo",
+        "start": 582.259,
+        "duration": 6.06
+    },
+    {
+        "text": "standard so it's three wires ground",
+        "start": 585.74,
+        "duration": 5.219
+    },
+    {
+        "text": "power and the servo signal and the servo",
+        "start": 588.319,
+        "duration": 4.56
+    },
+    {
+        "text": "signal is just a pulse width it varies",
+        "start": 590.959,
+        "duration": 4.651
+    },
+    {
+        "text": "from I think half a millisecond up to",
+        "start": 592.879,
+        "duration": 4.83
+    },
+    {
+        "text": "one and 1/2 milliseconds and that sort",
+        "start": 595.61,
+        "duration": 3.69
+    },
+    {
+        "text": "of indicates the throttle range",
+        "start": 597.709,
+        "duration": 3.331
+    },
+    {
+        "text": "so you could totally connect this right",
+        "start": 599.3,
+        "duration": 3.75
+    },
+    {
+        "text": "up to your microcontroller and people",
+        "start": 601.04,
+        "duration": 5.19
+    },
+    {
+        "text": "have already written servo libraries so",
+        "start": 603.05,
+        "duration": 4.65
+    },
+    {
+        "text": "you can just tell it how much in",
+        "start": 606.23,
+        "duration": 3.27
+    },
+    {
+        "text": "percentage you want and this thing will",
+        "start": 607.7,
+        "duration": 3.57
+    },
+    {
+        "text": "everything will work just fine so",
+        "start": 609.5,
+        "duration": 3.21
+    },
+    {
+        "text": "there's almost no tweaking to do",
+        "start": 611.27,
+        "duration": 4.14
+    },
+    {
+        "text": "although I wanted a couple extra bits of",
+        "start": 612.71,
+        "duration": 5.16
+    },
+    {
+        "text": "functionality one of them is that I",
+        "start": 615.41,
+        "duration": 4.2
+    },
+    {
+        "text": "wanted this thing to slow down on",
+        "start": 617.87,
+        "duration": 3.39
+    },
+    {
+        "text": "command so since this is built for a",
+        "start": 619.61,
+        "duration": 3.93
+    },
+    {
+        "text": "quadcopter there really isn't any need",
+        "start": 621.26,
+        "duration": 5.34
+    },
+    {
+        "text": "to break the motor so if you you know",
+        "start": 623.54,
+        "duration": 4.59
+    },
+    {
+        "text": "lower the throttle just the air",
+        "start": 626.6,
+        "duration": 3.06
+    },
+    {
+        "text": "resistance of the propeller that this",
+        "start": 628.13,
+        "duration": 3.03
+    },
+    {
+        "text": "thing would normally be connected to it",
+        "start": 629.66,
+        "duration": 4.44
+    },
+    {
+        "text": "will slow it down but you can actually",
+        "start": 631.16,
+        "duration": 5.67
+    },
+    {
+        "text": "configure these things to the engine",
+        "start": 634.1,
+        "duration": 4.92
+    },
+    {
+        "text": "braking I mean regenerative braking and",
+        "start": 636.83,
+        "duration": 7.11
+    },
+    {
+        "text": "even just full braking and luckily",
+        "start": 639.02,
+        "duration": 6.63
+    },
+    {
+        "text": "enough the community is really well",
+        "start": 643.94,
+        "duration": 3.63
+    },
+    {
+        "text": "developed around these things in fact I",
+        "start": 645.65,
+        "duration": 3.99
+    },
+    {
+        "text": "don't know of any other product that",
+        "start": 647.57,
+        "duration": 4.68
+    },
+    {
+        "text": "actually lists a hex file on the package",
+        "start": 649.64,
+        "duration": 5.55
+    },
+    {
+        "text": "it says afro and FedEx and at first I",
+        "start": 652.25,
+        "duration": 4.8
+    },
+    {
+        "text": "was thinking you know what how would",
+        "start": 655.19,
+        "duration": 3.3
+    },
+    {
+        "text": "they just put the name of the hex file",
+        "start": 657.05,
+        "duration": 2.79
+    },
+    {
+        "text": "on a package I mean what does that even",
+        "start": 658.49,
+        "duration": 3.21
+    },
+    {
+        "text": "mean and then you realize that you're",
+        "start": 659.84,
+        "duration": 4.95
+    },
+    {
+        "text": "entering this entire like huge community",
+        "start": 661.7,
+        "duration": 5.22
+    },
+    {
+        "text": "that's very very well developed where",
+        "start": 664.79,
+        "duration": 4.17
+    },
+    {
+        "text": "there's a lot of jargon going on and it",
+        "start": 666.92,
+        "duration": 3.54
+    },
+    {
+        "text": "takes hours just to figure out what's",
+        "start": 668.96,
+        "duration": 4.68
+    },
+    {
+        "text": "going on but basically the hardware has",
+        "start": 670.46,
+        "duration": 4.92
+    },
+    {
+        "text": "become very standardized and lots of",
+        "start": 673.64,
+        "duration": 3.33
+    },
+    {
+        "text": "folks have written their own firmware",
+        "start": 675.38,
+        "duration": 4.71
+    },
+    {
+        "text": "and modding it is super common and it's",
+        "start": 676.97,
+        "duration": 4.68
+    },
+    {
+        "text": "actually very well documented it just",
+        "start": 680.09,
+        "duration": 3.42
+    },
+    {
+        "text": "takes a while to get going so take a",
+        "start": 681.65,
+        "duration": 3.21
+    },
+    {
+        "text": "look at the description of this video",
+        "start": 683.51,
+        "duration": 3.54
+    },
+    {
+        "text": "and I'll put links that will save you a",
+        "start": 684.86,
+        "duration": 3.66
+    },
+    {
+        "text": "lot of time if you're interested in",
+        "start": 687.05,
+        "duration": 4.46
+    },
+    {
+        "text": "modifying the firmware for one of these",
+        "start": 688.52,
+        "duration": 5.07
+    },
+    {
+        "text": "you know for better or worse it is",
+        "start": 691.51,
+        "duration": 4.45
+    },
+    {
+        "text": "written in assembly although again it is",
+        "start": 693.59,
+        "duration": 5.28
+    },
+    {
+        "text": "fairly well documented another",
+        "start": 695.96,
+        "duration": 4.59
+    },
+    {
+        "text": "interesting bit is that some of these",
+        "start": 698.87,
+        "duration": 4.71
+    },
+    {
+        "text": "are made to be programmable over the",
+        "start": 700.55,
+        "duration": 5.4
+    },
+    {
+        "text": "servo wire so with just three",
+        "start": 703.58,
+        "duration": 4.35
+    },
+    {
+        "text": "connections you in theory can send a bit",
+        "start": 705.95,
+        "duration": 4.41
+    },
+    {
+        "text": "stream over the control wire if you give",
+        "start": 707.93,
+        "duration": 4.62
+    },
+    {
+        "text": "it the right sequence and someone even",
+        "start": 710.36,
+        "duration": 3.78
+    },
+    {
+        "text": "wrote a Chrome extension such that you",
+        "start": 712.55,
+        "duration": 3.39
+    },
+    {
+        "text": "can flash your firmware through Chrome",
+        "start": 714.14,
+        "duration": 5.37
+    },
+    {
+        "text": "just with this one connection going to I",
+        "start": 715.94,
+        "duration": 4.95
+    },
+    {
+        "text": "think they sell it a little USB",
+        "start": 719.51,
+        "duration": 4.38
+    },
+    {
+        "text": "programmer so I tried it using an",
+        "start": 720.89,
+        "duration": 5.07
+    },
+    {
+        "text": "Arduino as the programmer you can also",
+        "start": 723.89,
+        "duration": 4.05
+    },
+    {
+        "text": "connect this to an Arduino and use that",
+        "start": 725.96,
+        "duration": 3.99
+    },
+    {
+        "text": "as the programmer but it didn't work in",
+        "start": 727.94,
+        "duration": 3.78
+    },
+    {
+        "text": "fact it actually ruined my device and",
+        "start": 729.95,
+        "duration": 3.18
+    },
+    {
+        "text": "luckily I was able to",
+        "start": 731.72,
+        "duration": 3.27
+    },
+    {
+        "text": "but it did actually stop it from working",
+        "start": 733.13,
+        "duration": 4.32
+    },
+    {
+        "text": "so I can't endorse that route but",
+        "start": 734.99,
+        "duration": 4.62
+    },
+    {
+        "text": "luckily what I did is just on this",
+        "start": 737.45,
+        "duration": 3.69
+    },
+    {
+        "text": "particular board they've actually broken",
+        "start": 739.61,
+        "duration": 3.51
+    },
+    {
+        "text": "out the in circuit programming port and",
+        "start": 741.14,
+        "duration": 3.87
+    },
+    {
+        "text": "so these yellow wires here are going to",
+        "start": 743.12,
+        "duration": 4.02
+    },
+    {
+        "text": "a programming header and again I just",
+        "start": 745.01,
+        "duration": 4.61
+    },
+    {
+        "text": "used an Arduino as my programmer",
+        "start": 747.14,
+        "duration": 5.67
+    },
+    {
+        "text": "compiled the assembly downloaded the",
+        "start": 749.62,
+        "duration": 4.93
+    },
+    {
+        "text": "firmware to this thing and everything",
+        "start": 752.81,
+        "duration": 3.84
+    },
+    {
+        "text": "worked great so I'll put details to that",
+        "start": 754.55,
+        "duration": 5.97
+    },
+    {
+        "text": "in the description so here the mods that",
+        "start": 756.65,
+        "duration": 6.12
+    },
+    {
+        "text": "I made to this thing in the assembly",
+        "start": 760.52,
+        "duration": 4.29
+    },
+    {
+        "text": "firmware one is that instead of",
+        "start": 762.77,
+        "duration": 4.29
+    },
+    {
+        "text": "controlling it over this you know servo",
+        "start": 764.81,
+        "duration": 4.5
+    },
+    {
+        "text": "half millisecond timing pulse you can",
+        "start": 767.06,
+        "duration": 3.84
+    },
+    {
+        "text": "actually configure this thing to accept",
+        "start": 769.31,
+        "duration": 4.14
+    },
+    {
+        "text": "I squared C commands this is pretty cool",
+        "start": 770.9,
+        "duration": 3.69
+    },
+    {
+        "text": "since you could actually potentially",
+        "start": 773.45,
+        "duration": 3.15
+    },
+    {
+        "text": "have you know five or ten of these motor",
+        "start": 774.59,
+        "duration": 4.29
+    },
+    {
+        "text": "controllers in a project and control",
+        "start": 776.6,
+        "duration": 3.81
+    },
+    {
+        "text": "them all of them over the I squared C",
+        "start": 778.88,
+        "duration": 4.38
+    },
+    {
+        "text": "bus from your microcontroller or",
+        "start": 780.41,
+        "duration": 5.16
+    },
+    {
+        "text": "whatever you've got so that's cool and",
+        "start": 783.26,
+        "duration": 4.11
+    },
+    {
+        "text": "then also instead of just you know",
+        "start": 785.57,
+        "duration": 3.9
+    },
+    {
+        "text": "relying on the timing accuracy of",
+        "start": 787.37,
+        "duration": 4.14
+    },
+    {
+        "text": "microseconds to get the signal you want",
+        "start": 789.47,
+        "duration": 3.78
+    },
+    {
+        "text": "if you're actually giving it the value",
+        "start": 791.51,
+        "duration": 3.51
+    },
+    {
+        "text": "you want over I squared C you can be",
+        "start": 793.25,
+        "duration": 3.24
+    },
+    {
+        "text": "much more accurate and much more",
+        "start": 795.02,
+        "duration": 4.5
+    },
+    {
+        "text": "reproducible so that's good and then",
+        "start": 796.49,
+        "duration": 6.18
+    },
+    {
+        "text": "also I wanted this thing to slow down if",
+        "start": 799.52,
+        "duration": 5.1
+    },
+    {
+        "text": "I gave it a slower speed than where the",
+        "start": 802.67,
+        "duration": 4.14
+    },
+    {
+        "text": "motor was currently spinning like I said",
+        "start": 804.62,
+        "duration": 5.34
+    },
+    {
+        "text": "for most quadcopter applications that",
+        "start": 806.81,
+        "duration": 4.71
+    },
+    {
+        "text": "you know engine braking doesn't really",
+        "start": 809.96,
+        "duration": 2.91
+    },
+    {
+        "text": "make any sense because as soon as you",
+        "start": 811.52,
+        "duration": 3.63
+    },
+    {
+        "text": "lower the throttle it'll slow down but",
+        "start": 812.87,
+        "duration": 5.13
+    },
+    {
+        "text": "for RC car applications sometimes you",
+        "start": 815.15,
+        "duration": 4.53
+    },
+    {
+        "text": "want regenerative braking so that's a",
+        "start": 818.0,
+        "duration": 4.26
+    },
+    {
+        "text": "switch in the code that's relatively",
+        "start": 819.68,
+        "duration": 6.27
+    },
+    {
+        "text": "easy to flip also if you give this thing",
+        "start": 822.26,
+        "duration": 6.51
+    },
+    {
+        "text": "the command of zero speed it can do a",
+        "start": 825.95,
+        "duration": 5.49
+    },
+    {
+        "text": "much more aggressive braking thing so",
+        "start": 828.77,
+        "duration": 4.29
+    },
+    {
+        "text": "instead of regenerative braking all the",
+        "start": 831.44,
+        "duration": 3.99
+    },
+    {
+        "text": "way down to zero if you give this a zero",
+        "start": 833.06,
+        "duration": 4.26
+    },
+    {
+        "text": "it will actually you know essentially",
+        "start": 835.43,
+        "duration": 3.57
+    },
+    {
+        "text": "short out the motor windings in the",
+        "start": 837.32,
+        "duration": 3.48
+    },
+    {
+        "text": "controller so that it will decelerate as",
+        "start": 839.0,
+        "duration": 4.23
+    },
+    {
+        "text": "quickly as possible the difference is",
+        "start": 840.8,
+        "duration": 4.44
+    },
+    {
+        "text": "that when it's regenerative braking it's",
+        "start": 843.23,
+        "duration": 3.81
+    },
+    {
+        "text": "still commutated so that the thing knows",
+        "start": 845.24,
+        "duration": 3.87
+    },
+    {
+        "text": "where the motor is where the rotor is",
+        "start": 847.04,
+        "duration": 3.75
+    },
+    {
+        "text": "and then you can speed back up quickly",
+        "start": 849.11,
+        "duration": 3.81
+    },
+    {
+        "text": "if you want if you give it the command",
+        "start": 850.79,
+        "duration": 4.8
+    },
+    {
+        "text": "of zero that will actually stop",
+        "start": 852.92,
+        "duration": 4.92
+    },
+    {
+        "text": "commutation so it no longer knows where",
+        "start": 855.59,
+        "duration": 4.77
+    },
+    {
+        "text": "the motor is is it's just going to try",
+        "start": 857.84,
+        "duration": 5.36
+    },
+    {
+        "text": "to slow it down as quickly as possible I",
+        "start": 860.36,
+        "duration": 6.0
+    },
+    {
+        "text": "should add that a lot of these motors",
+        "start": 863.2,
+        "duration": 5.98
+    },
+    {
+        "text": "you know hobby brushless DC motors come",
+        "start": 866.36,
+        "duration": 5.039
+    },
+    {
+        "text": "in two flavors censored and sensorless",
+        "start": 869.18,
+        "duration": 4.68
+    },
+    {
+        "text": "and censored doesn't mean it tops like a",
+        "start": 871.399,
+        "duration": 4.5
+    },
+    {
+        "text": "sailor it just means that they have Hall",
+        "start": 873.86,
+        "duration": 3.659
+    },
+    {
+        "text": "effect sensors in here so that the",
+        "start": 875.899,
+        "duration": 3.87
+    },
+    {
+        "text": "controller can know the position of the",
+        "start": 877.519,
+        "duration": 4.5
+    },
+    {
+        "text": "rotor at all times and if it knows that",
+        "start": 879.769,
+        "duration": 3.961
+    },
+    {
+        "text": "then it can apply the current to those",
+        "start": 882.019,
+        "duration": 3.421
+    },
+    {
+        "text": "three windings in such a way that it can",
+        "start": 883.73,
+        "duration": 4.26
+    },
+    {
+        "text": "always make the rotor spin exactly in",
+        "start": 885.44,
+        "duration": 4.38
+    },
+    {
+        "text": "the way that it should to get to get a",
+        "start": 887.99,
+        "duration": 4.44
+    },
+    {
+        "text": "decent rotation with a sensorless motor",
+        "start": 889.82,
+        "duration": 5.639
+    },
+    {
+        "text": "if this rotor isn't spinning there's no",
+        "start": 892.43,
+        "duration": 4.71
+    },
+    {
+        "text": "electricity coming out of these things",
+        "start": 895.459,
+        "duration": 3.271
+    },
+    {
+        "text": "and with no Hall effect sensors the",
+        "start": 897.14,
+        "duration": 3.36
+    },
+    {
+        "text": "controller has no idea where the rotor",
+        "start": 898.73,
+        "duration": 3.96
+    },
+    {
+        "text": "is so the only thing it can do is just",
+        "start": 900.5,
+        "duration": 4.2
+    },
+    {
+        "text": "give it essentially a random pulse and",
+        "start": 902.69,
+        "duration": 4.23
+    },
+    {
+        "text": "then wait for a minute and see if the",
+        "start": 904.7,
+        "duration": 4.68
+    },
+    {
+        "text": "spinning rotor induces a voltage on the",
+        "start": 906.92,
+        "duration": 5.01
+    },
+    {
+        "text": "unused pin and then it can figure out",
+        "start": 909.38,
+        "duration": 4.35
+    },
+    {
+        "text": "where the rotor is based on the voltages",
+        "start": 911.93,
+        "duration": 3.96
+    },
+    {
+        "text": "that it's creating just from its spin so",
+        "start": 913.73,
+        "duration": 4.229
+    },
+    {
+        "text": "a lot of times you'll see one of these",
+        "start": 915.89,
+        "duration": 3.54
+    },
+    {
+        "text": "motors start up it'll actually go",
+        "start": 917.959,
+        "duration": 3.601
+    },
+    {
+        "text": "backwards for about a half turn and then",
+        "start": 919.43,
+        "duration": 3.96
+    },
+    {
+        "text": "the controller realizes it started it in",
+        "start": 921.56,
+        "duration": 3.959
+    },
+    {
+        "text": "the wrong direction but once it's moving",
+        "start": 923.39,
+        "duration": 3.6
+    },
+    {
+        "text": "then it knows where the rotor is and it",
+        "start": 925.519,
+        "duration": 5.281
+    },
+    {
+        "text": "can speed up again so the sensor sensor",
+        "start": 926.99,
+        "duration": 5.789
+    },
+    {
+        "text": "lists motors are a bit more common and",
+        "start": 930.8,
+        "duration": 5.789
+    },
+    {
+        "text": "cheaper and for applications where this",
+        "start": 932.779,
+        "duration": 5.461
+    },
+    {
+        "text": "is not connected like you'd want a",
+        "start": 936.589,
+        "duration": 3.69
+    },
+    {
+        "text": "censored motor if you were driving a",
+        "start": 938.24,
+        "duration": 4.709
+    },
+    {
+        "text": "bicycle or a vehicle because the wheel",
+        "start": 940.279,
+        "duration": 5.101
+    },
+    {
+        "text": "is in contact with the ground and it",
+        "start": 942.949,
+        "duration": 3.961
+    },
+    {
+        "text": "doesn't really have the ability to just",
+        "start": 945.38,
+        "duration": 3.78
+    },
+    {
+        "text": "kick it backwards for a half turn to see",
+        "start": 946.91,
+        "duration": 3.63
+    },
+    {
+        "text": "where the rotor is so it kind of needs",
+        "start": 949.16,
+        "duration": 3.179
+    },
+    {
+        "text": "to have a good way to accelerate from",
+        "start": 950.54,
+        "duration": 4.799
+    },
+    {
+        "text": "zero for a quadcopter application it's",
+        "start": 952.339,
+        "duration": 4.321
+    },
+    {
+        "text": "just connected to a propeller that's",
+        "start": 955.339,
+        "duration": 2.641
+    },
+    {
+        "text": "just sitting in air so it doesn't really",
+        "start": 956.66,
+        "duration": 4.88
+    },
+    {
+        "text": "it's easy to get the motor started in",
+        "start": 957.98,
+        "duration": 5.549
+    },
+    {
+        "text": "retrospect I would probably try to go",
+        "start": 961.54,
+        "duration": 4.75
+    },
+    {
+        "text": "for a censored application for this",
+        "start": 963.529,
+        "duration": 5.641
+    },
+    {
+        "text": "thing but another challenge was getting",
+        "start": 966.29,
+        "duration": 5.64
+    },
+    {
+        "text": "a motor that doesn't spin too quickly so",
+        "start": 969.17,
+        "duration": 3.9
+    },
+    {
+        "text": "these things are designed to be",
+        "start": 971.93,
+        "duration": 3.269
+    },
+    {
+        "text": "connected to small propellers and they",
+        "start": 973.07,
+        "duration": 5.639
+    },
+    {
+        "text": "spin very fast you know 10,000 20,000",
+        "start": 975.199,
+        "duration": 6.811
+    },
+    {
+        "text": "rpm even but I wanted to go slow so when",
+        "start": 978.709,
+        "duration": 5.19
+    },
+    {
+        "text": "I was dispensing the fluid on here you",
+        "start": 982.01,
+        "duration": 5.43
+    },
+    {
+        "text": "know 3 or 400 rpm is fine and getting a",
+        "start": 983.899,
+        "duration": 5.161
+    },
+    {
+        "text": "motor that actually goes that slow is",
+        "start": 987.44,
+        "duration": 4.019
+    },
+    {
+        "text": "tricky I thought I'd point out another",
+        "start": 989.06,
+        "duration": 4.5
+    },
+    {
+        "text": "bit of circuitry before we move on this",
+        "start": 991.459,
+        "duration": 4.07
+    },
+    {
+        "text": "is kind of a weird little device it's a",
+        "start": 993.56,
+        "duration": 4.23
+    },
+    {
+        "text": "potentiometer voltage divider and the",
+        "start": 995.529,
+        "duration": 4.211
+    },
+    {
+        "text": "output of the voltage divider is connect",
+        "start": 997.79,
+        "duration": 3.96
+    },
+    {
+        "text": "to the gate of a pretty beefy and FET",
+        "start": 999.74,
+        "duration": 4.74
+    },
+    {
+        "text": "and then the source of the end fed is",
+        "start": 1001.75,
+        "duration": 4.92
+    },
+    {
+        "text": "connected to ground and the drain is",
+        "start": 1004.48,
+        "duration": 4.32
+    },
+    {
+        "text": "connected to VCC basically the eight",
+        "start": 1006.67,
+        "duration": 5.28
+    },
+    {
+        "text": "fold output of that power supply and so",
+        "start": 1008.8,
+        "duration": 4.74
+    },
+    {
+        "text": "since I mentioned I wanted this thing to",
+        "start": 1011.95,
+        "duration": 4.44
+    },
+    {
+        "text": "be able to slow down if I commanded a",
+        "start": 1013.54,
+        "duration": 4.89
+    },
+    {
+        "text": "lower rpm then it's currently spinning",
+        "start": 1016.39,
+        "duration": 3.42
+    },
+    {
+        "text": "it has to do something with all the",
+        "start": 1018.43,
+        "duration": 3.36
+    },
+    {
+        "text": "energy that's currently in the rotor and",
+        "start": 1019.81,
+        "duration": 4.5
+    },
+    {
+        "text": "since it's continuing to commutated",
+        "start": 1021.79,
+        "duration": 4.38
+    },
+    {
+        "text": "can't short out the motor windings",
+        "start": 1024.31,
+        "duration": 3.06
+    },
+    {
+        "text": "because that would prevent the",
+        "start": 1026.17,
+        "duration": 2.94
+    },
+    {
+        "text": "controller from seeing where the motor",
+        "start": 1027.37,
+        "duration": 5.01
+    },
+    {
+        "text": "is so what what ends up happening since",
+        "start": 1029.11,
+        "duration": 4.68
+    },
+    {
+        "text": "it's basically a regenerative braking",
+        "start": 1032.38,
+        "duration": 3.72
+    },
+    {
+        "text": "system all that power that's in the",
+        "start": 1033.79,
+        "duration": 3.84
+    },
+    {
+        "text": "rotor all the energy that's in that",
+        "start": 1036.1,
+        "duration": 3.21
+    },
+    {
+        "text": "stored in that spinning rotor has to go",
+        "start": 1037.63,
+        "duration": 3.93
+    },
+    {
+        "text": "back into the power supply but that",
+        "start": 1039.31,
+        "duration": 4.29
+    },
+    {
+        "text": "eight volt switch mode power supply is",
+        "start": 1041.56,
+        "duration": 3.78
+    },
+    {
+        "text": "not too happy about it in fact it's not",
+        "start": 1043.6,
+        "duration": 4.95
+    },
+    {
+        "text": "able to sync much current at all so",
+        "start": 1045.34,
+        "duration": 4.74
+    },
+    {
+        "text": "there has to be some way of getting rid",
+        "start": 1048.55,
+        "duration": 4.98
+    },
+    {
+        "text": "of that excess energy so this what this",
+        "start": 1050.08,
+        "duration": 4.98
+    },
+    {
+        "text": "is is basically a programmable Zener",
+        "start": 1053.53,
+        "duration": 5.25
+    },
+    {
+        "text": "diode so in normal operation the N FET",
+        "start": 1055.06,
+        "duration": 5.91
+    },
+    {
+        "text": "is not turned on at about seven or eight",
+        "start": 1058.78,
+        "duration": 5.25
+    },
+    {
+        "text": "volts but as the voltage Rises it",
+        "start": 1060.97,
+        "duration": 4.89
+    },
+    {
+        "text": "eventually turns the N FET on and starts",
+        "start": 1064.03,
+        "duration": 3.72
+    },
+    {
+        "text": "conducting eventually looks like a short",
+        "start": 1065.86,
+        "duration": 4.5
+    },
+    {
+        "text": "if the voltage gets high enough so I",
+        "start": 1067.75,
+        "duration": 4.77
+    },
+    {
+        "text": "don't know if that's really production",
+        "start": 1070.36,
+        "duration": 3.9
+    },
+    {
+        "text": "quality I don't know if I would put that",
+        "start": 1072.52,
+        "duration": 3.39
+    },
+    {
+        "text": "in real production circuit in fact I've",
+        "start": 1074.26,
+        "duration": 2.76
+    },
+    {
+        "text": "never seen anything quite like that",
+        "start": 1075.91,
+        "duration": 3.9
+    },
+    {
+        "text": "before but it is very simple and it does",
+        "start": 1077.02,
+        "duration": 5.07
+    },
+    {
+        "text": "work very well I haven't tested it over",
+        "start": 1079.81,
+        "duration": 3.96
+    },
+    {
+        "text": "temperature stability or anything but",
+        "start": 1082.09,
+        "duration": 3.48
+    },
+    {
+        "text": "let me know what you think about that",
+        "start": 1083.77,
+        "duration": 3.9
+    },
+    {
+        "text": "part of the goal this project was just",
+        "start": 1085.57,
+        "duration": 4.68
+    },
+    {
+        "text": "to write a really tight PID control loop",
+        "start": 1087.67,
+        "duration": 4.11
+    },
+    {
+        "text": "for this motor system so that I could",
+        "start": 1090.25,
+        "duration": 3.45
+    },
+    {
+        "text": "command any rpm and get it to go to that",
+        "start": 1091.78,
+        "duration": 3.93
+    },
+    {
+        "text": "speed very quickly even though it turned",
+        "start": 1093.7,
+        "duration": 4.26
+    },
+    {
+        "text": "out for spin coders it's not critical to",
+        "start": 1095.71,
+        "duration": 4.26
+    },
+    {
+        "text": "have a really fast ramp rate so I'm",
+        "start": 1097.96,
+        "duration": 3.36
+    },
+    {
+        "text": "going to control this through the serial",
+        "start": 1099.97,
+        "duration": 2.97
+    },
+    {
+        "text": "interface and just command it to go to",
+        "start": 1101.32,
+        "duration": 5.04
+    },
+    {
+        "text": "1000 rpm so you can see it's starts up",
+        "start": 1102.94,
+        "duration": 7.229
+    },
+    {
+        "text": "and does just fine try 2000",
+        "start": 1106.36,
+        "duration": 6.33
+    },
+    {
+        "text": "it manages to reach the speed very",
+        "start": 1110.169,
+        "duration": 5.76
+    },
+    {
+        "text": "quickly and comes to a standstill so",
+        "start": 1112.69,
+        "duration": 4.77
+    },
+    {
+        "text": "when I command a zero speed then it's",
+        "start": 1115.929,
+        "duration": 2.97
+    },
+    {
+        "text": "using full braking and it stops",
+        "start": 1117.46,
+        "duration": 4.14
+    },
+    {
+        "text": "commutated but if we go from say 2000",
+        "start": 1118.899,
+        "duration": 5.1
+    },
+    {
+        "text": "down to 1000 then that's essentially the",
+        "start": 1121.6,
+        "duration": 3.99
+    },
+    {
+        "text": "regenerative braking thing where that",
+        "start": 1123.999,
+        "duration": 3.9
+    },
+    {
+        "text": "funny circuit is absorbing the powers",
+        "start": 1125.59,
+        "duration": 6.059
+    },
+    {
+        "text": "try that there is 0 to 2000 if we go to",
+        "start": 1127.899,
+        "duration": 7.86
+    },
+    {
+        "text": "0 or if we go to 1000 it's not quite as",
+        "start": 1131.649,
+        "duration": 7.5
+    },
+    {
+        "text": "quick and part of that is because the",
+        "start": 1135.759,
+        "duration": 4.92
+    },
+    {
+        "text": "circuit is not really designed for",
+        "start": 1139.149,
+        "duration": 3.78
+    },
+    {
+        "text": "regenerative braking and so it's it",
+        "start": 1140.679,
+        "duration": 3.901
+    },
+    {
+        "text": "doesn't pull as much energy out of the",
+        "start": 1142.929,
+        "duration": 6.63
+    },
+    {
+        "text": "system as you know as it could but to go",
+        "start": 1144.58,
+        "duration": 7.559
+    },
+    {
+        "text": "up to 4000 it's not quite as snappy",
+        "start": 1149.559,
+        "duration": 5.1
+    },
+    {
+        "text": "because I've limited the total throttle",
+        "start": 1152.139,
+        "duration": 4.41
+    },
+    {
+        "text": "setting just because I don't really need",
+        "start": 1154.659,
+        "duration": 4.59
+    },
+    {
+        "text": "to go that fast but it is kind of neat",
+        "start": 1156.549,
+        "duration": 4.891
+    },
+    {
+        "text": "to see the thing go to its extreme",
+        "start": 1159.249,
+        "duration": 5.49
+    },
+    {
+        "text": "perform performance limits ok well let",
+        "start": 1161.44,
+        "duration": 4.38
+    },
+    {
+        "text": "me know if you have any questions about",
+        "start": 1164.739,
+        "duration": 5.66
+    },
+    {
+        "text": "that and I will see you next time bye",
+        "start": 1165.82,
+        "duration": 4.579
+    }
+]

@@ -1,0 +1,1312 @@
+[
+    {
+        "text": "I'd like to set you a puzzle.",
+        "start": 0.0,
+        "duration": 1.629
+    },
+    {
+        "text": "The puzzle is about a cat and a mouse and, as is traditional in cat and mouse situations,",
+        "start": 1.629,
+        "duration": 4.37
+    },
+    {
+        "text": "one is chasing the other. The mouse is super quick compared to a cat, even though the cat is pretty quick,",
+        "start": 6.129,
+        "duration": 4.009
+    },
+    {
+        "text": "but in this case to keep it interesting the mouse has, without realising, run into a pond.",
+        "start": 10.14,
+        "duration": 5.22
+    },
+    {
+        "text": "There's his whiskers and little tail. And it can go anywhere in the pond because the cat -",
+        "start": 15.66,
+        "duration": 3.7
+    },
+    {
+        "text": "(Brady: Worst mouse ever!)\n- What do you mean? It's like - it's got to be small, hasn't it?",
+        "start": 19.36,
+        "duration": 3.3
+    },
+    {
+        "text": "Like, I could draw it big, and then you'd be like \"worst pond ever\" compared to the mouse.",
+        "start": 22.66,
+        "duration": 4.08
+    },
+    {
+        "text": "Anyway, to scale then, here is the cat.",
+        "start": 26.74,
+        "duration": 3.16
+    },
+    {
+        "text": "Good enough? No.",
+        "start": 30.94,
+        "duration": 2.0
+    },
+    {
+        "text": "How's that?\n- (Brady: It's got to have ears.)\n- All right. Ears.",
+        "start": 33.88,
+        "duration": 2.94
+    },
+    {
+        "text": "That's not bad! \n- (Brady: That's better.)",
+        "start": 37.6,
+        "duration": 1.46
+    },
+    {
+        "text": "Music]",
+        "start": 39.06,
+        "duration": 5.14
+    },
+    {
+        "text": "So, for the sake of the puzzle, the cat is gonna sit on the edge",
+        "start": 44.22,
+        "duration": 2.5
+    },
+    {
+        "text": "but it can cruise around the edge waiting for the mouse to leave the pond.",
+        "start": 46.739,
+        "duration": 4.47
+    },
+    {
+        "text": "(Brady: So it's like stalking the edge?)\n- Exactly. Now, I think it's believable that even though the mouse could run quicker than the cat on land,",
+        "start": 51.21,
+        "duration": 7.11
+    },
+    {
+        "text": "in water it's going to slow down. But it can swim,",
+        "start": 59.14,
+        "duration": 2.18
+    },
+    {
+        "text": "we're not gonna - we'll do the modeling situation, you know, assume some things, like the mouse is not going to drown.",
+        "start": 61.32,
+        "duration": 4.26
+    },
+    {
+        "text": "It can swim. Assume the cat doesn't actually go in the water",
+        "start": 66.189,
+        "duration": 3.14
+    },
+    {
+        "text": "although it probably could and swipe it from the edge. All of that stuff,",
+        "start": 69.33,
+        "duration": 2.789
+    },
+    {
+        "text": "let's just assume it sensibly for puzzle world. And let's assume the cat can run four times",
+        "start": 72.119,
+        "duration": 4.53
+    },
+    {
+        "text": "quicker than the mouse can swim. In fact, that's the only numerical detail",
+        "start": 76.869,
+        "duration": 3.68
+    },
+    {
+        "text": "I'm gonna give. The cat can walk or run four times quicker than the mouse can swim. And that's it.",
+        "start": 80.549,
+        "duration": 4.74
+    },
+    {
+        "text": "So the simple question now is, can the mouse escape?",
+        "start": 85.32,
+        "duration": 3.42
+    },
+    {
+        "text": "[Music]",
+        "start": 88.74,
+        "duration": 8.08
+    },
+    {
+        "text": "There we go.\n- (Brady: It's not a Ben Sparks video without a computer animation.)",
+        "start": 96.82,
+        "duration": 3.7
+    },
+    {
+        "text": "Well, bit of a GeoGebra file with some nice brown paper to represent our pond, as ever.",
+        "start": 100.52,
+        "duration": 3.8
+    },
+    {
+        "text": "We've got a cat who runs around the edge. Luckily, he looks in the right direction, I'm very proud of that animation.",
+        "start": 104.67,
+        "duration": 5.059
+    },
+    {
+        "text": "I'm very glad that everyone else is appreciating that. The mouse can go anywhere",
+        "start": 109.729,
+        "duration": 3.24
+    },
+    {
+        "text": "he likes. If he goes the other side the cat does check where he's going, but let's",
+        "start": 112.97,
+        "duration": 3.959
+    },
+    {
+        "text": "assume he starts at the centre. And there's a couple of things to sort out first, is that",
+        "start": 117.45,
+        "duration": 4.58
+    },
+    {
+        "text": "one tactic the mouse could do is the obvious one of run away. In this case",
+        "start": 122.31,
+        "duration": 5.36
+    },
+    {
+        "text": "swim away.",
+        "start": 128.19,
+        "duration": 1.59
+    },
+    {
+        "text": "But you could just say like, why don't you as a mouse just swim away from the cat?",
+        "start": 129.78,
+        "duration": 4.04
+    },
+    {
+        "text": "And what I mean from that is like if you imagine a line from the cat to the mouse,",
+        "start": 134.04,
+        "duration": 3.259
+    },
+    {
+        "text": "wherever that is, imagine that line, and the mouse swims in the opposite direction. And I can show you that happening actually.",
+        "start": 137.489,
+        "duration": 5.24
+    },
+    {
+        "text": "So I'm going to click this button up here, is the away tactic. And the reason I'm showing you is that it doesn't work.",
+        "start": 142.73,
+        "duration": 5.13
+    },
+    {
+        "text": "You can see the mouse is following this little arrow,",
+        "start": 148.56,
+        "duration": 2.479
+    },
+    {
+        "text": "which is moving around depending where the cat is, but the cat is so quick that he can always kind of get around",
+        "start": 151.04,
+        "duration": 4.96
+    },
+    {
+        "text": "to head the mouse off. Even though it looks like he was going to make it, the cat comes around real quick. And we get",
+        "start": 156.0,
+        "duration": 4.78
+    },
+    {
+        "text": "these actually nice patterns are turning up, which are typical of these curves of pursuit. They're usually kind of curvy,",
+        "start": 160.79,
+        "duration": 5.729
+    },
+    {
+        "text": "they're not always easy to model mathematically. And these ones, that you know,",
+        "start": 166.62,
+        "duration": 4.04
+    },
+    {
+        "text": "they're almost getting symmetrical but there's a little bit of randomness. Can you see the cat",
+        "start": 170.66,
+        "duration": 3.029
+    },
+    {
+        "text": "wobbles when he gets in line 'cause he's constantly trying to move, but he doesn't need to move because he's already as close as",
+        "start": 174.239,
+        "duration": 4.94
+    },
+    {
+        "text": "he can get to the mouse.",
+        "start": 179.18,
+        "duration": 2.0
+    },
+    {
+        "text": "But it's pretty obvious after watching this for a few seconds,",
+        "start": 181.23,
+        "duration": 2.479
+    },
+    {
+        "text": "this is going to repeat. Even if it's not gonna be exactly the same path, the mouse looks like he's doomed.",
+        "start": 183.709,
+        "duration": 5.16
+    },
+    {
+        "text": "So the runaway tactic, or swim away tactic, doesn't work.",
+        "start": 189.45,
+        "duration": 3.44
+    },
+    {
+        "text": "Which means if you've been thinking about that on your little pause where you were just thinking about it,",
+        "start": 192.89,
+        "duration": 3.389
+    },
+    {
+        "text": "you should probably stop thinking about it because it's not going to get there. All right,",
+        "start": 196.38,
+        "duration": 3.5
+    },
+    {
+        "text": "well, I think it's a pretty sensible tactic and it'd be a stupid thing not to try it first.",
+        "start": 199.88,
+        "duration": 3.869
+    },
+    {
+        "text": "And it's difficult to sort out on paper with mathematics whether it's gonna work.",
+        "start": 203.75,
+        "duration": 4.709
+    },
+    {
+        "text": "So a nice thing to do quite often for mathematicians, even physicists do this sometimes, is to model it on a computer,",
+        "start": 208.459,
+        "duration": 5.97
+    },
+    {
+        "text": "and realise very quickly it doesn't work.",
+        "start": 215.61,
+        "duration": 1.31
+    },
+    {
+        "text": "I'm gonna suggest a hint now though, that I think the mouse can escape. And therefore it's instructive to think \"If this isn't working,",
+        "start": 216.92,
+        "duration": 6.74
+    },
+    {
+        "text": "how else could he possibly do it and get away from the cat?\" So, again, if you want to have a think about it, have a think about it.",
+        "start": 223.98,
+        "duration": 6.02
+    },
+    {
+        "text": "[Music]",
+        "start": 230.0,
+        "duration": 4.92
+    },
+    {
+        "text": "Mouse has not gone away yet. The obvious tactic of running away or swimming away doesn't work and",
+        "start": 234.92,
+        "duration": 4.3
+    },
+    {
+        "text": "one other tactic which a lot of people tell me with this puzzle that might be sensible is instead of running away from the cat,",
+        "start": 239.48,
+        "duration": 5.779
+    },
+    {
+        "text": "maybe you should run towards the point which is farthest away from the cat.",
+        "start": 246.35,
+        "duration": 3.319
+    },
+    {
+        "text": "So I think that's obviously in this case the pond edge point opposite the cat.",
+        "start": 249.86,
+        "duration": 6.06
+    },
+    {
+        "text": "Now it sounds like that's the place you want to be if you can arrange it because the cat's not anywhere near to eat you.",
+        "start": 255.92,
+        "duration": 4.42
+    },
+    {
+        "text": "Of course that the opposite point tactic, so I'm going to show you what happens if you try a mouse doing the opposite point tactic.",
+        "start": 260.57,
+        "duration": 5.329
+    },
+    {
+        "text": "Here we go. You see the green arrows?",
+        "start": 265.9,
+        "duration": 2.13
+    },
+    {
+        "text": "Now we're heading towards the point opposite the cat which is chugging away around because the cat is quick!",
+        "start": 268.03,
+        "duration": 4.67
+    },
+    {
+        "text": "And it keeps chasing the mouse and this angle, he's trying to - he's gonna close the angle, and it just means the mouse goes in circles",
+        "start": 272.92,
+        "duration": 5.46
+    },
+    {
+        "text": "because he's not moving quick enough.",
+        "start": 278.47,
+        "duration": 1.99
+    },
+    {
+        "text": "Obviously the puzzle would be different if the mouse was quicker,",
+        "start": 280.46,
+        "duration": 2.029
+    },
+    {
+        "text": "but it wouldn't be as interesting because the mouse could just swim for it. So I just wanted to point out another",
+        "start": 282.68,
+        "duration": 4.74
+    },
+    {
+        "text": "sensible tactic to try, swim away from the cat towards the opposite edge doesn't work either, and this time he just goes around in circles.",
+        "start": 287.42,
+        "duration": 7.48
+    },
+    {
+        "text": "[Music]",
+        "start": 294.9,
+        "duration": 2.7
+    },
+    {
+        "text": "There are two more tactics I want to show you, neither of which really help but together they're quite good.",
+        "start": 297.6,
+        "duration": 5.08
+    },
+    {
+        "text": "So let me introduce some vocab which I've just made up which",
+        "start": 302.68,
+        "duration": 2.309
+    },
+    {
+        "text": "will help me refer to these tactics. One of them I'm going to call the dash tactic, which is swim away,",
+        "start": 305.93,
+        "duration": 4.88
+    },
+    {
+        "text": "but not away from the cat or towards the opposite edge, but just towards the nearest edge of the pond.",
+        "start": 310.97,
+        "duration": 4.88
+    },
+    {
+        "text": "I feel like - sensible tactic, you're in a pond, you wanna get out - you don't swim the long way.",
+        "start": 316.06,
+        "duration": 4.169
+    },
+    {
+        "text": "So on the screen this looks like this. So I've got a dash tactic and the moment my mouse is",
+        "start": 320.63,
+        "duration": 5.329
+    },
+    {
+        "text": "closest to that point over there,",
+        "start": 327.35,
+        "duration": 1.41
+    },
+    {
+        "text": "it's kind of like the radius from the point through the mouse to the edge, and if I click on dash,",
+        "start": 328.76,
+        "duration": 4.42
+    },
+    {
+        "text": "he just heads towards the edge.",
+        "start": 333.8,
+        "duration": 2.0
+    },
+    {
+        "text": "Now, obviously,",
+        "start": 339.32,
+        "duration": 0.96
+    },
+    {
+        "text": "that wasn't very successful.",
+        "start": 340.28,
+        "duration": 1.52
+    },
+    {
+        "text": "But it depends where the mouse is to start with, right? If I put the mouse on the other side, a long way away from",
+        "start": 341.8,
+        "duration": 4.889
+    },
+    {
+        "text": "the cat, and he's close to the edge, then a dash",
+        "start": 346.689,
+        "duration": 2.34
+    },
+    {
+        "text": "will get him out. That doesn't solve our problem,",
+        "start": 349.939,
+        "duration": 2.69
+    },
+    {
+        "text": "but it means there are some places in the pond where if the mouse can get to I know he can get out with a",
+        "start": 352.629,
+        "duration": 5.19
+    },
+    {
+        "text": "dash tactic. The second tactic then,",
+        "start": 357.819,
+        "duration": 2.369
+    },
+    {
+        "text": "is not a dash tactic, it's a circling tactic. And this doesn't help you get out, but it does help you get away.",
+        "start": 360.949,
+        "duration": 6.08
+    },
+    {
+        "text": "So what I mean here is that the mouse can move in a circle and this point here is worse, for the mouse,",
+        "start": 367.03,
+        "duration": 6.929
+    },
+    {
+        "text": "than this point, despite being the same distance from the edge.",
+        "start": 374.6,
+        "duration": 2.7
+    },
+    {
+        "text": "So I think this one's better because in terms of an angle, he's further away from the cat,",
+        "start": 377.36,
+        "duration": 3.679
+    },
+    {
+        "text": "which means measuring this angle, which I've just drawn a line on here. It's a good indication of whether the mouse is far away, like opposite,",
+        "start": 381.039,
+        "duration": 7.71
+    },
+    {
+        "text": "or close. And actually I think that kind of summaries the cat's technique as well.",
+        "start": 389.3,
+        "duration": 3.95
+    },
+    {
+        "text": "The cat will try and minimise this angle, and if the mouse has got any sense at all",
+        "start": 393.25,
+        "duration": 3.509
+    },
+    {
+        "text": "he should try and maximise that angle, but it doesn't always work.",
+        "start": 396.759,
+        "duration": 3.899
+    },
+    {
+        "text": "So here's a circling tactic. If you are near the edge of the pond, it's a problem because the mouse - the cat is much quicker.",
+        "start": 400.699,
+        "duration": 5.869
+    },
+    {
+        "text": "For example,",
+        "start": 407.12,
+        "duration": 2.0
+    },
+    {
+        "text": "the mouse is just circling,",
+        "start": 409.339,
+        "duration": 2.0
+    },
+    {
+        "text": "but it's clearly moving slower around the angle than the cat. And if the cat was actually doing something sensible instead of just going round,",
+        "start": 412.46,
+        "duration": 6.019
+    },
+    {
+        "text": "let's actually make him pursue,",
+        "start": 418.61,
+        "duration": 1.89
+    },
+    {
+        "text": "he will get to the mouse and he will stop. And then the circling tactic, doesn't work anymore because",
+        "start": 420.5,
+        "duration": 4.789
+    },
+    {
+        "text": "whatever the mouse does the cat can keep up.",
+        "start": 425.509,
+        "duration": 2.179
+    },
+    {
+        "text": "But if I get further away from the edge, but I put it over here,",
+        "start": 427.969,
+        "duration": 4.22
+    },
+    {
+        "text": "you can see that the cat catches up, but just not quite as quick.",
+        "start": 432.38,
+        "duration": 4.46
+    },
+    {
+        "text": "Which might give you a clue that if I'm rightly in the middle, it's pretty",
+        "start": 437.02,
+        "duration": 3.3
+    },
+    {
+        "text": "obvious that even if",
+        "start": 440.87,
+        "duration": 1.68
+    },
+    {
+        "text": "the cat is really close in the angle, the mouse can get away now.",
+        "start": 442.55,
+        "duration": 2.57
+    },
+    {
+        "text": "So the circling tactic means sometimes I can get away from the cat in terms of the angle, and sometimes I can't",
+        "start": 446.24,
+        "duration": 5.479
+    },
+    {
+        "text": "because the cat catches me up.",
+        "start": 451.909,
+        "duration": 2.0
+    },
+    {
+        "text": "And those two tactics, maybe, maybe it's time for another pause. With those two tactics, I think",
+        "start": 454.129,
+        "duration": 5.24
+    },
+    {
+        "text": "there's a glimpse of a hope.",
+        "start": 460.8,
+        "duration": 2.0
+    },
+    {
+        "text": "[Music]",
+        "start": 462.8,
+        "duration": 5.38
+    },
+    {
+        "text": "Those two tactics, the dash tactic and the circling tactic which sorts out whether you can get the cat opposite you or not.",
+        "start": 468.18,
+        "duration": 6.14
+    },
+    {
+        "text": "And let's sort them out one at a time. So the dash tactic, let's assume for the dash tactic we are opposite the cat.",
+        "start": 474.569,
+        "duration": 6.529
+    },
+    {
+        "text": "So if the cat's here,",
+        "start": 481.099,
+        "duration": 2.0
+    },
+    {
+        "text": "the mouse is on this line the other side of the centre.",
+        "start": 483.719,
+        "duration": 4.25
+    },
+    {
+        "text": "But if he is at the centre, I don't think he can make it.",
+        "start": 488.669,
+        "duration": 3.98
+    },
+    {
+        "text": "And maybe you can think about why. The cat has to go around here.",
+        "start": 493.439,
+        "duration": 3.05
+    },
+    {
+        "text": "Let's assume some things which includes this radius of the pond, which I've never told you,",
+        "start": 496.49,
+        "duration": 4.5
+    },
+    {
+        "text": "I'm going to assume it's 1 and you can scale up if you want. The distance the cat has to go round",
+        "start": 500.99,
+        "duration": 4.85
+    },
+    {
+        "text": "is half of a circumference, so around is 2 pi times 1, halved.",
+        "start": 506.36,
+        "duration": 5.9
+    },
+    {
+        "text": "It's pi metres. Let's go with metres for the sake of units. And let's assume there's some speeds going on. Let's assume the cat's speed,",
+        "start": 512.909,
+        "duration": 5.869
+    },
+    {
+        "text": "for the sake of any other argument, is 4 metres per second. That's a quick cat. And the mouse is therefore",
+        "start": 519.36,
+        "duration": 6.44
+    },
+    {
+        "text": "1 metre per second.",
+        "start": 526.35,
+        "duration": 1.76
+    },
+    {
+        "text": "And that's the only number we set this up with. The cat is 4 times quicker than the mouse can swim.",
+        "start": 528.11,
+        "duration": 4.08
+    },
+    {
+        "text": "And you can see that if the,",
+        "start": 532.32,
+        "duration": 2.32
+    },
+    {
+        "text": "the mouse from the centre will, let's say it's 1, is going to take precisely",
+        "start": 535.28,
+        "duration": 5.38
+    },
+    {
+        "text": "1 second to get out.",
+        "start": 541.04,
+        "duration": 2.0
+    },
+    {
+        "text": "But how long does the cat take to get round?",
+        "start": 544.24,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, yeah, this is - everyone's like wow, how do you calculate this?",
+        "start": 546.73,
+        "duration": 2.809
+    },
+    {
+        "text": "I think the speed equals distance over time thing is a really basic equation that we really need to use carefully.",
+        "start": 549.54,
+        "duration": 5.549
+    },
+    {
+        "text": "How long will it take the cat to get there time is distance over speed. The distance is pi,",
+        "start": 555.16,
+        "duration": 6.049
+    },
+    {
+        "text": "so it's pi divided by speed which is 4,",
+        "start": 561.76,
+        "duration": 3.619
+    },
+    {
+        "text": "is pi by 4 seconds.\n- (Brady: So it's quicker than a second?)",
+        "start": 565.96,
+        "duration": 3.74
+    },
+    {
+        "text": "Yes, because pi is less than 4, this is less than 1 second. The cat",
+        "start": 570.0,
+        "duration": 4.35
+    },
+    {
+        "text": "is there waiting. First thing with the dash tactic is clearly the mouse can't dash from the centre.",
+        "start": 574.35,
+        "duration": 4.289
+    },
+    {
+        "text": "So the obvious question is where can he dash from? And it's",
+        "start": 579.1,
+        "duration": 3.619
+    },
+    {
+        "text": "the same calculation right? He's got pi by 4 seconds, at most, to get out. So -",
+        "start": 583.42,
+        "duration": 5.48
+    },
+    {
+        "text": "- (Brady: Because the cat can get to any point on the circle within -)\n- Yeah, the furthest away point is pi by 4 seconds away.",
+        "start": 588.9,
+        "duration": 5.19
+    },
+    {
+        "text": "So actually he can only get to the edge",
+        "start": 594.28,
+        "duration": 2.779
+    },
+    {
+        "text": "when the edge",
+        "start": 598.78,
+        "duration": 2.0
+    },
+    {
+        "text": "is less than pi by 4 away. Because he goes at 1 metres per second,",
+        "start": 601.03,
+        "duration": 3.469
+    },
+    {
+        "text": "we've set these numbers up to be quite nice,",
+        "start": 604.5,
+        "duration": 1.99
+    },
+    {
+        "text": "but that circle has distance pi by 4 there which means this distance in here is 1 minus pi by 4.",
+        "start": 606.49,
+        "duration": 6.71
+    },
+    {
+        "text": "And you begin to realise very quickly that my scale",
+        "start": 613.39,
+        "duration": 3.229
+    },
+    {
+        "text": "on this drawing is terrible. We need to know roughly where that line is because outside that line if I'm opposite the cat,",
+        "start": 617.2,
+        "duration": 5.51
+    },
+    {
+        "text": "I'm home and dry - I just dash for it. And act- let's just check. You, you're all estimating us on the video at home, but 1 minus",
+        "start": 622.71,
+        "duration": 6.269
+    },
+    {
+        "text": "pi by 4...",
+        "start": 629.71,
+        "duration": 2.0
+    },
+    {
+        "text": "point 2 1 - from centre, dash tactic. \n- (Brady: It's like an event horizon Ben)",
+        "start": 633.4,
+        "duration": 5.9
+    },
+    {
+        "text": "Yes. That's exactly what it is, like inside that you're doomed with your dash tactics, outside that,",
+        "start": 639.3,
+        "duration": 4.44
+    },
+    {
+        "text": "if you're opposite the cat, you're okay.",
+        "start": 643.74,
+        "duration": 2.13
+    },
+    {
+        "text": "So now the question really is, can I get opposite the cat outside",
+        "start": 646.18,
+        "duration": 4.52
+    },
+    {
+        "text": "that event horizon?",
+        "start": 651.01,
+        "duration": 1.46
+    },
+    {
+        "text": "So we, actually now you recognise why the circling tactic is important because that's the one that concerns whether we can get opposite the tac.",
+        "start": 652.47,
+        "duration": 5.07
+    },
+    {
+        "text": "So let's talk about the, did I call it the tac? I  meant the cat.",
+        "start": 657.54,
+        "duration": 3.389
+    },
+    {
+        "text": "Reversing things...",
+        "start": 661.57,
+        "duration": 1.95
+    },
+    {
+        "text": "Let's talk about the circling. This, in some ways, feels harder to sort out at first 'cause like, running in circles feels difficult, but",
+        "start": 663.52,
+        "duration": 6.89
+    },
+    {
+        "text": "if the cat is running at 4 meters per second",
+        "start": 671.69,
+        "duration": 2.009
+    },
+    {
+        "text": "and the mouse is at 1. And actually what we care about is how quickly I can get round",
+        "start": 674.25,
+        "duration": 4.849
+    },
+    {
+        "text": "compared to the cat going round.",
+        "start": 680.16,
+        "duration": 2.21
+    },
+    {
+        "text": "How big a circle can I keep up with the cat if it's 4 times quicker than me? I",
+        "start": 684.69,
+        "duration": 4.759
+    },
+    {
+        "text": "think, on a moments thought, it's relatively obvious that if the circle is 4 times smaller",
+        "start": 690.27,
+        "duration": 4.19
+    },
+    {
+        "text": "I'll be doing the same thing as the cat. So actually this circle I've just drawn here, if that's 4 times smaller than the big",
+        "start": 695.19,
+        "duration": 5.779
+    },
+    {
+        "text": "one, the scale factor of 4 going on, the distance round it is 4 times shorter than the big one,",
+        "start": 700.97,
+        "duration": 4.289
+    },
+    {
+        "text": "that's how a scale factors work. And so at that point which is a",
+        "start": 705.26,
+        "duration": 3.78
+    },
+    {
+        "text": "quarter of the size, in which case that is",
+        "start": 709.92,
+        "duration": 2.0
+    },
+    {
+        "text": "three quarters, and the distance in there - looking pretty messy thanks to my repeated drawing of mice - but it is a one quarter.",
+        "start": 712.56,
+        "duration": 6.44
+    },
+    {
+        "text": "On that circle I can keep up with the cat in terms of angles.",
+        "start": 719.67,
+        "duration": 4.13
+    },
+    {
+        "text": "Which means inside that circle I",
+        "start": 724.77,
+        "duration": 2.0
+    },
+    {
+        "text": "can outpace the cat in terms of angles.",
+        "start": 727.41,
+        "duration": 2.33
+    },
+    {
+        "text": "So which means, I think,",
+        "start": 730.41,
+        "duration": 2.0
+    },
+    {
+        "text": "one quarter, otherwise known as",
+        "start": 732.45,
+        "duration": 2.0
+    },
+    {
+        "text": "0.25 metres from the centre, my circling",
+        "start": 734.46,
+        "duration": 2.929
+    },
+    {
+        "text": "will work.",
+        "start": 739.05,
+        "duration": 2.0
+    },
+    {
+        "text": "At this point these two numbers and their comparison is important.",
+        "start": 742.16,
+        "duration": 4.65
+    },
+    {
+        "text": "I'm deliberately sort of talking slowly to let the realisations drop in.",
+        "start": 748.11,
+        "duration": 3.44
+    },
+    {
+        "text": "This is a nice puzzle where the maths they've done is is really lower than GCSE level maths and yet it wasn't obvious to me at",
+        "start": 751.55,
+        "duration": 6.659
+    },
+    {
+        "text": "all when I first started playing with the cat the mouse. But let me show you on the diagram on the screen.",
+        "start": 758.209,
+        "duration": 4.169
+    },
+    {
+        "text": "So now we've established that the, there are two event horizons,",
+        "start": 762.629,
+        "duration": 3.68
+    },
+    {
+        "text": "if you like, we can put them on here. So the dash boundary is this line here,",
+        "start": 766.31,
+        "duration": 3.029
+    },
+    {
+        "text": "in fact, that was the boundary we said was 0.21 away from the centre, and you can see it's about right. And the circling boundary is",
+        "start": 769.339,
+        "duration": 7.95
+    },
+    {
+        "text": "the outer line there.",
+        "start": 778.29,
+        "duration": 1.71
+    },
+    {
+        "text": "So inside that I can circle okay, and outside the dash boundary I can dash okay,",
+        "start": 780.0,
+        "duration": 5.149
+    },
+    {
+        "text": "can you see what I see? That there's a little gap in between, which I'm going to officially call the mouse sweet spot.",
+        "start": 786.54,
+        "duration": 5.029
+    },
+    {
+        "text": "If it can get in there",
+        "start": 791.85,
+        "duration": 2.0
+    },
+    {
+        "text": "then not only can it circle to get away from the cat it can also, when it's ready i.e",
+        "start": 794.069,
+        "duration": 4.82
+    },
+    {
+        "text": "opposite the cat, it can just peg it. And it should make it.",
+        "start": 799.019,
+        "duration": 3.109
+    },
+    {
+        "text": "Which is weird because",
+        "start": 803.129,
+        "duration": 1.171
+    },
+    {
+        "text": "just swimming away from the cat won't make it and just swimming towards the opposite bank from the cat won't make it but this",
+        "start": 804.3,
+        "duration": 4.519
+    },
+    {
+        "text": "tactic, according to the maths, should make it. So I set up GeoGebra,",
+        "start": 808.92,
+        "duration": 3.38
+    },
+    {
+        "text": "which doesn't know about these boundaries, a tale told the mouse to get in that sweet spot and",
+        "start": 812.329,
+        "duration": 4.739
+    },
+    {
+        "text": "then when it's opposite the cat or close enough, like about 179 degrees or there abouts, peg it.",
+        "start": 817.709,
+        "duration": 5.69
+    },
+    {
+        "text": "And I was really quite nervous when I'd done the coding",
+        "start": 823.829,
+        "duration": 2.15
+    },
+    {
+        "text": "to see if it'd actually make it. Because the maths says it should make it and no other tactic on the model had worked.",
+        "start": 826.17,
+        "duration": 5.119
+    },
+    {
+        "text": "So I'm going to press play, if you're up for it?",
+        "start": 831.389,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: I'm up for it man. I was, I was born for this moment)",
+        "start": 833.389,
+        "duration": 2.731
+    },
+    {
+        "text": "I'm glad Brady. That's why you make these videos.",
+        "start": 836.12,
+        "duration": 2.22
+    },
+    {
+        "text": "So I'm gonna start the mouse in the centre of the pond because I know that if it's anywhere else I could still swim to",
+        "start": 838.589,
+        "duration": 5.0
+    },
+    {
+        "text": "the centre and solve it from there. And let's see what happens.",
+        "start": 843.589,
+        "duration": 2.52
+    },
+    {
+        "text": "I'm gonna click on escape tactic. And what I hope the program will tell it to do, it",
+        "start": 846.11,
+        "duration": 4.169
+    },
+    {
+        "text": "will swim out until it gets into that sweet spot,",
+        "start": 850.279,
+        "duration": 1.891
+    },
+    {
+        "text": "which is that small little region, and then it will circle",
+        "start": 852.17,
+        "duration": 2.729
+    },
+    {
+        "text": "until it recognises that it's opposite the cat, you'll see the angle go up to about",
+        "start": 855.36,
+        "duration": 2.929
+    },
+    {
+        "text": "180 or within some tolerance, and then it'll peg it. And I've no idea where we'll end up to peg it,",
+        "start": 858.42,
+        "duration": 5.539
+    },
+    {
+        "text": "but if it gets to the edge",
+        "start": 864.18,
+        "duration": 1.8
+    },
+    {
+        "text": "the exciting payoff will be a bit of red text saying the mouse has escaped. That's what I'm hoping for. Ready?\n- (Brady: I'm ready)",
+        "start": 865.98,
+        "duration": 5.989
+    },
+    {
+        "text": "Found the sweet spot, very quickly. He's only just inside the sweet spot, you see the angle is increasing, but it's not quickly increasing.",
+        "start": 873.47,
+        "duration": 6.83
+    },
+    {
+        "text": "Come on Mouse!",
+        "start": 882.95,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: Woah!)\n- It's made it. I agree that would be a tense moment for the mouse,",
+        "start": 885.86,
+        "duration": 4.549
+    },
+    {
+        "text": "but if I assume as I did right at the beginning that the mouse is much quicker on land than the cat, then I could just",
+        "start": 890.93,
+        "duration": 4.849
+    },
+    {
+        "text": "imagine it going [bullet sound]",
+        "start": 895.779,
+        "duration": 1.0
+    },
+    {
+        "text": "and the cat's like 'ah'.",
+        "start": 896.779,
+        "duration": 1.411
+    },
+    {
+        "text": "But I think the maths tells me",
+        "start": 898.19,
+        "duration": 2.11
+    },
+    {
+        "text": "that wherever the mouse starts, whatever the cats doing, if it's four times quicker than the mouse when it's swimming it can escape.",
+        "start": 900.38,
+        "duration": 4.52
+    },
+    {
+        "text": "(Brady: So how fast does the cat need to be for the mouse to never escape?)",
+        "start": 904.94,
+        "duration": 4.06
+    },
+    {
+        "text": "Brady I like your style. You're doing what all",
+        "start": 909.0,
+        "duration": 2.54
+    },
+    {
+        "text": "mathematicians want to do in their heart of hearts - actually most humans do. You're generalising, right?",
+        "start": 911.54,
+        "duration": 3.89
+    },
+    {
+        "text": "The 4 is critically chosen so that that 0.21 and the 0.25 are really close together and they're the right way round.",
+        "start": 915.44,
+        "duration": 7.429
+    },
+    {
+        "text": "If they're the other way around",
+        "start": 923.36,
+        "duration": 1.469
+    },
+    {
+        "text": "you, you can only dash from a point where you can't a circle, whereas we had a sweet spot.",
+        "start": 924.829,
+        "duration": 4.309
+    },
+    {
+        "text": "And actually",
+        "start": 929.138,
+        "duration": 0.932
+    },
+    {
+        "text": "I've got a slider on GeoGebra so I can change the ratio of the speeds and you can see whether the sweet spot increases",
+        "start": 930.07,
+        "duration": 4.379
+    },
+    {
+        "text": "or decreases.",
+        "start": 934.449,
+        "duration": 1.301
+    },
+    {
+        "text": "So since you asked",
+        "start": 935.75,
+        "duration": 2.0
+    },
+    {
+        "text": "let's, let's move the mouse back to the centre. Let me turn these two off.",
+        "start": 937.94,
+        "duration": 3.409
+    },
+    {
+        "text": "That is the region that I called the sweet spot.",
+        "start": 941.35,
+        "duration": 3.419
+    },
+    {
+        "text": "The critical region is maybe a more technical name for these sort of things. At the moment",
+        "start": 944.769,
+        "duration": 3.72
+    },
+    {
+        "text": "the ratio is 4. If I change that to 4.1",
+        "start": 948.49,
+        "duration": 3.15
+    },
+    {
+        "text": "can you see the sweet spot's gone really quite small. Which means if the cat is 4.2 times quicker, it's all over.",
+        "start": 951.86,
+        "duration": 7.7
+    },
+    {
+        "text": "Somewhere between 4.1 and 4.2 looks like is the end of the story. If I go the other way",
+        "start": 960.11,
+        "duration": 4.4
+    },
+    {
+        "text": "you can see the sweet spot is really big.",
+        "start": 965.93,
+        "duration": 2.0
+    },
+    {
+        "text": "This is not a surprise, if the cat's slower the mouse has got a better chance.",
+        "start": 968.36,
+        "duration": 3.349
+    },
+    {
+        "text": "In fact there gets to a point where if the mouse is not quick enough, even at 3.2,",
+        "start": 971.709,
+        "duration": 4.109
+    },
+    {
+        "text": "in fact, if I go between 3.1 and 3.2",
+        "start": 975.819,
+        "duration": 2.7
+    },
+    {
+        "text": "you can see that something,",
+        "start": 978.519,
+        "duration": 1.121
+    },
+    {
+        "text": "there's - it's all sweet spot in the middle. And 3.1 and 3.2 do bracket a famous number which I'm sure people have heard of,",
+        "start": 979.64,
+        "duration": 6.289
+    },
+    {
+        "text": "and I've used it, a fact called pi. And so it's to do with actually the speed compared with pi here. If it's less than pi,",
+        "start": 986.3,
+        "duration": 6.739
+    },
+    {
+        "text": "it's all sweet for the mouse and in fact",
+        "start": 993.41,
+        "duration": 2.479
+    },
+    {
+        "text": "it can dash from anywhere and get out.",
+        "start": 996.6,
+        "duration": 3.059
+    },
+    {
+        "text": "So there's a really tiny area and 4 is this lovely chosen - whoever came up with this puzzle and",
+        "start": 999.67,
+        "duration": 4.7
+    },
+    {
+        "text": "I haven't managed to track down who originally came up with",
+        "start": 1004.37,
+        "duration": 2.099
+    },
+    {
+        "text": "this puzzle seems to have been around a long time",
+        "start": 1006.47,
+        "duration": 1.679
+    },
+    {
+        "text": "but I hadn't heard it until a couple of years ago when someone told me about this puzzle.",
+        "start": 1008.149,
+        "duration": 3.72
+    },
+    {
+        "text": "We were sitting in a bunkhouse in the lake district around a fire",
+        "start": 1011.87,
+        "duration": 3.419
+    },
+    {
+        "text": "and he said I've got a puzzle for you and just told me about the cat the mouse.",
+        "start": 1015.509,
+        "duration": 2.63
+    },
+    {
+        "text": "And I don't know I was a bit arrogant perhaps I was like, this is gonna be a simple puzzle.",
+        "start": 1018.509,
+        "duration": 3.47
+    },
+    {
+        "text": "Completely flummoxed me for a week. I was thinking about it driving back from the Lake District",
+        "start": 1022.68,
+        "duration": 4.429
+    },
+    {
+        "text": "and when I solved it, I was really pleased that",
+        "start": 1027.11,
+        "duration": 2.069
+    },
+    {
+        "text": "it wasn't that I didn't know the maths,",
+        "start": 1029.699,
+        "duration": 1.791
+    },
+    {
+        "text": "it's just that it was a nice puzzle. And they've chosen the 4 really well because any other number much bigger than 4 or much smaller",
+        "start": 1031.49,
+        "duration": 5.64
+    },
+    {
+        "text": "than 4, either it's too easy for the mouse to escape or it just always gets caught.",
+        "start": 1037.13,
+        "duration": 6.07
+    },
+    {
+        "text": "So that's the cat and the mouse puzzle. A bit of pi and a bit of pond.",
+        "start": 1043.2,
+        "duration": 3.92
+    },
+    {
+        "text": "So if you like challenging problems like the one we've just shown you, but maybe you want slightly better pictures than Ben's mouse here,",
+        "start": 1049.02,
+        "duration": 6.649
+    },
+    {
+        "text": "Brilliant might be the place for you.",
+        "start": 1056.1,
+        "duration": 2.0
+    },
+    {
+        "text": "Brilliant have sponsored today's episode and they have really cool daily challenges like these - have a look at them.",
+        "start": 1058.289,
+        "duration": 5.54
+    },
+    {
+        "text": "This one about hitting a ball around a corner appeals to my brain. Obviously, I'm gonna click on this one.",
+        "start": 1065.13,
+        "duration": 4.76
+    },
+    {
+        "text": "There's pretty interesting stuff here. And look at that, that is quite a shot.",
+        "start": 1070.26,
+        "duration": 4.489
+    },
+    {
+        "text": "But how could it be played? To check all this stuff out go to brilliant.org/numberphile",
+        "start": 1074.75,
+        "duration": 6.659
+    },
+    {
+        "text": "That's not only going to introduce you to the brilliance of Brilliant",
+        "start": 1081.75,
+        "duration": 3.26
+    },
+    {
+        "text": "but it also sets you up for 20% off their premium subscription.",
+        "start": 1085.01,
+        "duration": 4.349
+    },
+    {
+        "text": "Premium means you get access to not just the free stuff that's on the site",
+        "start": 1089.85,
+        "duration": 3.26
+    },
+    {
+        "text": "but all the archives, all the puzzles, all the courses, all the daily challenges. That address again: brilliant.org/numberphile",
+        "start": 1093.11,
+        "duration": 8.07
+    },
+    {
+        "text": "use the /numberphile so they'll know you came from here and check them out.",
+        "start": 1101.18,
+        "duration": 3.5
+    }
+]

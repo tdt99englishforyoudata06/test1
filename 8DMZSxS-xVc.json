@@ -1,0 +1,2367 @@
+[
+    {
+        "text": "hey guys been here I thought I'd make a",
+        "start": 0.35,
+        "duration": 4.989
+    },
+    {
+        "text": "quick video that shows how I normally",
+        "start": 3.78,
+        "duration": 4.319
+    },
+    {
+        "text": "design circuits with transistors so",
+        "start": 5.339,
+        "duration": 4.351
+    },
+    {
+        "text": "today we'll focus on just switching",
+        "start": 8.099,
+        "duration": 4.681
+    },
+    {
+        "text": "things on and off like actuators most of",
+        "start": 9.69,
+        "duration": 4.65
+    },
+    {
+        "text": "the time you have a microcontroller and",
+        "start": 12.78,
+        "duration": 3.93
+    },
+    {
+        "text": "want to control something like a motor",
+        "start": 14.34,
+        "duration": 4.769
+    },
+    {
+        "text": "or solenoid or something so this video",
+        "start": 16.71,
+        "duration": 4.2
+    },
+    {
+        "text": "will show you how to size the transistor",
+        "start": 19.109,
+        "duration": 3.93
+    },
+    {
+        "text": "and set it up so let's zoom in and I'll",
+        "start": 20.91,
+        "duration": 4.77
+    },
+    {
+        "text": "show you what I've got okay so one of",
+        "start": 23.039,
+        "duration": 5.011
+    },
+    {
+        "text": "the most common tasks that I need to do",
+        "start": 25.68,
+        "duration": 3.99
+    },
+    {
+        "text": "with the transistor is just to turn",
+        "start": 28.05,
+        "duration": 4.049
+    },
+    {
+        "text": "something on or off so not really",
+        "start": 29.67,
+        "duration": 4.799
+    },
+    {
+        "text": "amplifying a signal it's it's just",
+        "start": 32.099,
+        "duration": 5.131
+    },
+    {
+        "text": "acting as a switch so I drew a couple",
+        "start": 34.469,
+        "duration": 5.701
+    },
+    {
+        "text": "diagrams here today we're going to be",
+        "start": 37.23,
+        "duration": 6.93
+    },
+    {
+        "text": "controlling this which is an air valve a",
+        "start": 40.17,
+        "duration": 7.049
+    },
+    {
+        "text": "solenoid air valve and it's a 12-volt",
+        "start": 44.16,
+        "duration": 5.79
+    },
+    {
+        "text": "device I just put power on it and it",
+        "start": 47.219,
+        "duration": 6.061
+    },
+    {
+        "text": "opens pretty simple so I just drew it in",
+        "start": 49.95,
+        "duration": 5.129
+    },
+    {
+        "text": "this diagram as a coil which is a good",
+        "start": 53.28,
+        "duration": 3.509
+    },
+    {
+        "text": "way to represent it it's like an iron",
+        "start": 55.079,
+        "duration": 4.651
+    },
+    {
+        "text": "core coil so to turn the thing on and",
+        "start": 56.789,
+        "duration": 4.5
+    },
+    {
+        "text": "off we could either put a switch between",
+        "start": 59.73,
+        "duration": 4.649
+    },
+    {
+        "text": "the coil and ground or between the coil",
+        "start": 61.289,
+        "duration": 5.311
+    },
+    {
+        "text": "and our voltage source it doesn't really",
+        "start": 64.379,
+        "duration": 4.621
+    },
+    {
+        "text": "make any difference to the coil but it",
+        "start": 66.6,
+        "duration": 4.019
+    },
+    {
+        "text": "will make a difference to us later if we",
+        "start": 69.0,
+        "duration": 5.7
+    },
+    {
+        "text": "choose a switching component so I listed",
+        "start": 70.619,
+        "duration": 6.0
+    },
+    {
+        "text": "off a few of them and I'll describe why",
+        "start": 74.7,
+        "duration": 4.08
+    },
+    {
+        "text": "I didn't pick why I did or didn't pick",
+        "start": 76.619,
+        "duration": 4.14
+    },
+    {
+        "text": "them for this project we could have used",
+        "start": 78.78,
+        "duration": 4.979
+    },
+    {
+        "text": "a relay it's a bit overkill in fact this",
+        "start": 80.759,
+        "duration": 5.821
+    },
+    {
+        "text": "one is quite overkill it's big and",
+        "start": 83.759,
+        "duration": 4.621
+    },
+    {
+        "text": "expensive it's mechanical it doesn't",
+        "start": 86.58,
+        "duration": 3.84
+    },
+    {
+        "text": "switch very fast the best things about",
+        "start": 88.38,
+        "duration": 3.69
+    },
+    {
+        "text": "relays are that they can handle very",
+        "start": 90.42,
+        "duration": 4.05
+    },
+    {
+        "text": "high currents and they isolate the",
+        "start": 92.07,
+        "duration": 4.83
+    },
+    {
+        "text": "circuit they isolate what is being",
+        "start": 94.47,
+        "duration": 4.8
+    },
+    {
+        "text": "switched from the control circuit so",
+        "start": 96.9,
+        "duration": 4.19
+    },
+    {
+        "text": "we'll save that for another day",
+        "start": 99.27,
+        "duration": 4.8
+    },
+    {
+        "text": "similarly a solid-state relay also a",
+        "start": 101.09,
+        "duration": 5.62
+    },
+    {
+        "text": "very cool component mostly used for",
+        "start": 104.07,
+        "duration": 4.68
+    },
+    {
+        "text": "isolation and high voltages or high",
+        "start": 106.71,
+        "duration": 6.51
+    },
+    {
+        "text": "currents so save that won a MOSFET or an",
+        "start": 108.75,
+        "duration": 7.92
+    },
+    {
+        "text": "IGBT also for much much higher currents",
+        "start": 113.22,
+        "duration": 6.539
+    },
+    {
+        "text": "they don't isolate I guess they sort of",
+        "start": 116.67,
+        "duration": 5.22
+    },
+    {
+        "text": "could but we're not going to use these",
+        "start": 119.759,
+        "duration": 5.701
+    },
+    {
+        "text": "today either a Darlington transistor",
+        "start": 121.89,
+        "duration": 7.619
+    },
+    {
+        "text": "this is actually not a bad choice today",
+        "start": 125.46,
+        "duration": 5.91
+    },
+    {
+        "text": "we don't need to use a Darlington but I",
+        "start": 129.509,
+        "duration": 3.301
+    },
+    {
+        "text": "think I'll probably do a video on these",
+        "start": 131.37,
+        "duration": 2.43
+    },
+    {
+        "text": "later because they",
+        "start": 132.81,
+        "duration": 2.34
+    },
+    {
+        "text": "actually are quite useful in some",
+        "start": 133.8,
+        "duration": 5.16
+    },
+    {
+        "text": "circuits generally for higher current",
+        "start": 135.15,
+        "duration": 7.08
+    },
+    {
+        "text": "stuff today that that solenoid is",
+        "start": 138.96,
+        "duration": 5.46
+    },
+    {
+        "text": "doesn't really use that much current so",
+        "start": 142.23,
+        "duration": 3.72
+    },
+    {
+        "text": "we're going to use this little guy a",
+        "start": 144.42,
+        "duration": 4.83
+    },
+    {
+        "text": "standard bipolar transistor bipolar is",
+        "start": 145.95,
+        "duration": 6.0
+    },
+    {
+        "text": "just a plain transistor that's that's",
+        "start": 149.25,
+        "duration": 5.85
+    },
+    {
+        "text": "what bipolar means and this one happens",
+        "start": 151.95,
+        "duration": 6.63
+    },
+    {
+        "text": "to be a PN twenty to twenty two a and",
+        "start": 155.1,
+        "duration": 5.73
+    },
+    {
+        "text": "this little tiny case here is called a",
+        "start": 158.58,
+        "duration": 6.84
+    },
+    {
+        "text": "teo ninety two case so the next thing",
+        "start": 160.83,
+        "duration": 6.6
+    },
+    {
+        "text": "the first thing to do when picking a",
+        "start": 165.42,
+        "duration": 3.96
+    },
+    {
+        "text": "bipolar transistor is to decide whether",
+        "start": 167.43,
+        "duration": 5.16
+    },
+    {
+        "text": "we're going to use NPN or PNP you may",
+        "start": 169.38,
+        "duration": 4.73
+    },
+    {
+        "text": "have heard these terms floating around",
+        "start": 172.59,
+        "duration": 4.41
+    },
+    {
+        "text": "so I made a little diagram here to help",
+        "start": 174.11,
+        "duration": 6.33
+    },
+    {
+        "text": "us decide which one we're going to use",
+        "start": 177.0,
+        "duration": 7.98
+    },
+    {
+        "text": "first off the schematic symbols the",
+        "start": 180.44,
+        "duration": 7.96
+    },
+    {
+        "text": "arrow in the in the symbol always is in",
+        "start": 184.98,
+        "duration": 4.86
+    },
+    {
+        "text": "the direction of the conventional",
+        "start": 188.4,
+        "duration": 4.41
+    },
+    {
+        "text": "current flow and the arrow always points",
+        "start": 189.84,
+        "duration": 11.91
+    },
+    {
+        "text": "to the N material so NPN or PNP so",
+        "start": 192.81,
+        "duration": 10.23
+    },
+    {
+        "text": "that's one way to remember it",
+        "start": 201.75,
+        "duration": 3.75
+    },
+    {
+        "text": "also watch out I switched the emitter",
+        "start": 203.04,
+        "duration": 5.07
+    },
+    {
+        "text": "and collector on this between these two",
+        "start": 205.5,
+        "duration": 4.709
+    },
+    {
+        "text": "in the in the diagram here so it's",
+        "start": 208.11,
+        "duration": 4.47
+    },
+    {
+        "text": "collector base emitter emitter base",
+        "start": 210.209,
+        "duration": 5.551
+    },
+    {
+        "text": "collector so in a PNP the conventional",
+        "start": 212.58,
+        "duration": 5.46
+    },
+    {
+        "text": "current flow goes from the emitter to",
+        "start": 215.76,
+        "duration": 4.68
+    },
+    {
+        "text": "collector and in an NPN it goes from",
+        "start": 218.04,
+        "duration": 7.29
+    },
+    {
+        "text": "collector to emitter so you may be",
+        "start": 220.44,
+        "duration": 7.92
+    },
+    {
+        "text": "wondering well you know what what can we",
+        "start": 225.33,
+        "duration": 5.01
+    },
+    {
+        "text": "do with all this basically what we're",
+        "start": 228.36,
+        "duration": 3.9
+    },
+    {
+        "text": "going to do is put one of these in place",
+        "start": 230.34,
+        "duration": 5.58
+    },
+    {
+        "text": "of the switch here and the two terminals",
+        "start": 232.26,
+        "duration": 5.37
+    },
+    {
+        "text": "of the switch are going to be the",
+        "start": 235.92,
+        "duration": 3.75
+    },
+    {
+        "text": "collector and emitter or emitter and",
+        "start": 237.63,
+        "duration": 4.05
+    },
+    {
+        "text": "collector depending where we put it in",
+        "start": 239.67,
+        "duration": 5.94
+    },
+    {
+        "text": "the circuit here and the way that we get",
+        "start": 241.68,
+        "duration": 6.48
+    },
+    {
+        "text": "these switches to turn on or off is by",
+        "start": 245.61,
+        "duration": 5.37
+    },
+    {
+        "text": "either pouring current into the base in",
+        "start": 248.16,
+        "duration": 6.78
+    },
+    {
+        "text": "the case of an NPN or drawing current",
+        "start": 250.98,
+        "duration": 8.129
+    },
+    {
+        "text": "out of the base in the case of a PNP so",
+        "start": 254.94,
+        "duration": 7.32
+    },
+    {
+        "text": "it's it's a switch that is controlled by",
+        "start": 259.109,
+        "duration": 7.471
+    },
+    {
+        "text": "a current flow okay so a minute ago I",
+        "start": 262.26,
+        "duration": 5.46
+    },
+    {
+        "text": "said that",
+        "start": 266.58,
+        "duration": 3.99
+    },
+    {
+        "text": "a transistor is a switch that is",
+        "start": 267.72,
+        "duration": 5.31
+    },
+    {
+        "text": "controlled by a current flow and that we",
+        "start": 270.57,
+        "duration": 4.44
+    },
+    {
+        "text": "were trying to decide between PNP and",
+        "start": 273.03,
+        "duration": 4.35
+    },
+    {
+        "text": "NPN for our circuit so how do we",
+        "start": 275.01,
+        "duration": 5.37
+    },
+    {
+        "text": "actually decide in this case the thing",
+        "start": 277.38,
+        "duration": 4.47
+    },
+    {
+        "text": "that's going to make the decision for us",
+        "start": 280.38,
+        "duration": 4.11
+    },
+    {
+        "text": "is our control signal and in this case",
+        "start": 281.85,
+        "duration": 5.01
+    },
+    {
+        "text": "it's going to be our favorite 0 to 5",
+        "start": 284.49,
+        "duration": 4.71
+    },
+    {
+        "text": "volt logic signal that this could come",
+        "start": 286.86,
+        "duration": 5.16
+    },
+    {
+        "text": "from a microcontroller or a PC parallel",
+        "start": 289.2,
+        "duration": 5.25
+    },
+    {
+        "text": "port or a number of different things so",
+        "start": 292.02,
+        "duration": 4.89
+    },
+    {
+        "text": "let's look at each case if we went for a",
+        "start": 294.45,
+        "duration": 6.0
+    },
+    {
+        "text": "PNP transistor and we have this either a",
+        "start": 296.91,
+        "duration": 6.63
+    },
+    {
+        "text": "0 volt or 5 volt control signal we don't",
+        "start": 300.45,
+        "duration": 5.91
+    },
+    {
+        "text": "have an easy way of controlling how much",
+        "start": 303.54,
+        "duration": 5.04
+    },
+    {
+        "text": "current is going to flow out of the base",
+        "start": 306.36,
+        "duration": 4.17
+    },
+    {
+        "text": "of the transistor to turn it on and off",
+        "start": 308.58,
+        "duration": 4.86
+    },
+    {
+        "text": "and the reason for that is if the base",
+        "start": 310.53,
+        "duration": 5.64
+    },
+    {
+        "text": "is at 5 volts or we have a 5 volt signal",
+        "start": 313.44,
+        "duration": 4.53
+    },
+    {
+        "text": "and then there's some sort of circuitry",
+        "start": 316.17,
+        "duration": 4.41
+    },
+    {
+        "text": "between it and the transistor there's",
+        "start": 317.97,
+        "duration": 4.17
+    },
+    {
+        "text": "going to be a current flowing from our",
+        "start": 320.58,
+        "duration": 3.93
+    },
+    {
+        "text": "supply voltage in this case it's like 12",
+        "start": 322.14,
+        "duration": 4.08
+    },
+    {
+        "text": "but it could be a number of different",
+        "start": 324.51,
+        "duration": 5.49
+    },
+    {
+        "text": "things and and in in the two cases of",
+        "start": 326.22,
+        "duration": 7.08
+    },
+    {
+        "text": "the base being 0 or 5 there isn't really",
+        "start": 330.0,
+        "duration": 5.25
+    },
+    {
+        "text": "an easy piece of circuitry we can put",
+        "start": 333.3,
+        "duration": 3.99
+    },
+    {
+        "text": "here that will allow us to control the",
+        "start": 335.25,
+        "duration": 4.89
+    },
+    {
+        "text": "base current flowing from the emitter to",
+        "start": 337.29,
+        "duration": 6.06
+    },
+    {
+        "text": "the base in the case of the PNP however",
+        "start": 340.14,
+        "duration": 6.81
+    },
+    {
+        "text": "in an NPN transistor we have a really",
+        "start": 343.35,
+        "duration": 6.63
+    },
+    {
+        "text": "great option it's just a resistor so",
+        "start": 346.95,
+        "duration": 5.31
+    },
+    {
+        "text": "when this is at 5 volts we have a",
+        "start": 349.98,
+        "duration": 4.56
+    },
+    {
+        "text": "current flowing from the base to the",
+        "start": 352.26,
+        "duration": 3.63
+    },
+    {
+        "text": "emitter and that's going to turn the",
+        "start": 354.54,
+        "duration": 4.47
+    },
+    {
+        "text": "transistor on and when this is zero no",
+        "start": 355.89,
+        "duration": 5.1
+    },
+    {
+        "text": "current is going to flow and the",
+        "start": 359.01,
+        "duration": 3.33
+    },
+    {
+        "text": "transistor will be off so this is",
+        "start": 360.99,
+        "duration": 4.26
+    },
+    {
+        "text": "perfect so in this case the NPN is an",
+        "start": 362.34,
+        "duration": 6.45
+    },
+    {
+        "text": "obvious choice in fact in all of my",
+        "start": 365.25,
+        "duration": 7.16
+    },
+    {
+        "text": "projects I probably use NPN transistors",
+        "start": 368.79,
+        "duration": 6.84
+    },
+    {
+        "text": "95% of the time in switching",
+        "start": 372.41,
+        "duration": 5.32
+    },
+    {
+        "text": "applications like this I think you would",
+        "start": 375.63,
+        "duration": 4.44
+    },
+    {
+        "text": "almost always want to use an NPN so just",
+        "start": 377.73,
+        "duration": 4.2
+    },
+    {
+        "text": "keep that in mind it's I think in",
+        "start": 380.07,
+        "duration": 3.599
+    },
+    {
+        "text": "general NPN s are quite a bit more",
+        "start": 381.93,
+        "duration": 4.08
+    },
+    {
+        "text": "common so let's talk about actually",
+        "start": 383.669,
+        "duration": 4.711
+    },
+    {
+        "text": "choosing a transistor and setting it up",
+        "start": 386.01,
+        "duration": 5.7
+    },
+    {
+        "text": "with this solenoid valve so we've",
+        "start": 388.38,
+        "duration": 6.18
+    },
+    {
+        "text": "decided to go the NPN route because it's",
+        "start": 391.71,
+        "duration": 4.62
+    },
+    {
+        "text": "easier for us to control the base",
+        "start": 394.56,
+        "duration": 4.32
+    },
+    {
+        "text": "currents with an NPN in the type of",
+        "start": 396.33,
+        "duration": 4.21
+    },
+    {
+        "text": "circuit that we're using here",
+        "start": 398.88,
+        "duration": 4.86
+    },
+    {
+        "text": "and I said that a transistor is a",
+        "start": 400.54,
+        "duration": 5.73
+    },
+    {
+        "text": "current amplifier or a current",
+        "start": 403.74,
+        "duration": 4.99
+    },
+    {
+        "text": "controlled switch so if we pour some",
+        "start": 406.27,
+        "duration": 4.92
+    },
+    {
+        "text": "current into the base and it flows from",
+        "start": 408.73,
+        "duration": 4.71
+    },
+    {
+        "text": "the base to the emitter that will turn",
+        "start": 411.19,
+        "duration": 4.32
+    },
+    {
+        "text": "the transistor on and allow a large",
+        "start": 413.44,
+        "duration": 4.41
+    },
+    {
+        "text": "current to flow from the collector to",
+        "start": 415.51,
+        "duration": 6.06
+    },
+    {
+        "text": "the emitter and the amount of",
+        "start": 417.85,
+        "duration": 5.25
+    },
+    {
+        "text": "amplification is known as the",
+        "start": 421.57,
+        "duration": 3.99
+    },
+    {
+        "text": "transistors gain so a transistor with a",
+        "start": 423.1,
+        "duration": 5.66
+    },
+    {
+        "text": "high amount of gain will allow a large",
+        "start": 425.56,
+        "duration": 6.0
+    },
+    {
+        "text": "collector current to flow with just a",
+        "start": 428.76,
+        "duration": 5.41
+    },
+    {
+        "text": "small base current and a transistor with",
+        "start": 431.56,
+        "duration": 4.65
+    },
+    {
+        "text": "not much gained will not have as much",
+        "start": 434.17,
+        "duration": 4.05
+    },
+    {
+        "text": "amplification and that amplification",
+        "start": 436.21,
+        "duration": 5.91
+    },
+    {
+        "text": "factor is known as hf e or it's also",
+        "start": 438.22,
+        "duration": 5.16
+    },
+    {
+        "text": "sometimes called beta",
+        "start": 442.12,
+        "duration": 4.74
+    },
+    {
+        "text": "that's the gain of the transistor at DC",
+        "start": 443.38,
+        "duration": 5.4
+    },
+    {
+        "text": "i should also point out that we're not",
+        "start": 446.86,
+        "duration": 3.84
+    },
+    {
+        "text": "talking about AC circuitry here at all",
+        "start": 448.78,
+        "duration": 4.26
+    },
+    {
+        "text": "this is all just steady-state DC",
+        "start": 450.7,
+        "duration": 9.0
+    },
+    {
+        "text": "analysis to make our lives easy so what",
+        "start": 453.04,
+        "duration": 7.68
+    },
+    {
+        "text": "we're going to do here is pick a",
+        "start": 459.7,
+        "duration": 3.0
+    },
+    {
+        "text": "transistor and this is a little bit",
+        "start": 460.72,
+        "duration": 3.93
+    },
+    {
+        "text": "where you know experience comes into",
+        "start": 462.7,
+        "duration": 3.21
+    },
+    {
+        "text": "play I mean there's thousands of",
+        "start": 464.65,
+        "duration": 2.85
+    },
+    {
+        "text": "transistors available how do you pick",
+        "start": 465.91,
+        "duration": 3.99
+    },
+    {
+        "text": "one well you know for Hobby projects in",
+        "start": 467.5,
+        "duration": 4.62
+    },
+    {
+        "text": "sort of small-scale design like this",
+        "start": 469.9,
+        "duration": 3.87
+    },
+    {
+        "text": "there's really only a handful that come",
+        "start": 472.12,
+        "duration": 5.1
+    },
+    {
+        "text": "up so I'm just going to say that we're",
+        "start": 473.77,
+        "duration": 8.76
+    },
+    {
+        "text": "going to pick the PN 2222 a which is a",
+        "start": 477.22,
+        "duration": 8.1
+    },
+    {
+        "text": "really great low medium power very",
+        "start": 482.53,
+        "duration": 5.31
+    },
+    {
+        "text": "inexpensive easy to use switching",
+        "start": 485.32,
+        "duration": 6.06
+    },
+    {
+        "text": "transistor and it has a beta of about a",
+        "start": 487.84,
+        "duration": 7.47
+    },
+    {
+        "text": "hundred we could be more conserved in",
+        "start": 491.38,
+        "duration": 6.18
+    },
+    {
+        "text": "that but we'll just say beta is a",
+        "start": 495.31,
+        "duration": 4.95
+    },
+    {
+        "text": "hundred for this particular transistor",
+        "start": 497.56,
+        "duration": 5.07
+    },
+    {
+        "text": "it varies quite a lot and I mentioned",
+        "start": 500.26,
+        "duration": 3.87
+    },
+    {
+        "text": "Darlington transistors earlier",
+        "start": 502.63,
+        "duration": 4.17
+    },
+    {
+        "text": "Darlington transistors are basically two",
+        "start": 504.13,
+        "duration": 4.71
+    },
+    {
+        "text": "two transistors ganged together to",
+        "start": 506.8,
+        "duration": 3.99
+    },
+    {
+        "text": "increase the gain so those can have",
+        "start": 508.84,
+        "duration": 3.84
+    },
+    {
+        "text": "gains of like you know ten thousand or",
+        "start": 510.79,
+        "duration": 3.78
+    },
+    {
+        "text": "something and that could be quite useful",
+        "start": 512.68,
+        "duration": 4.83
+    },
+    {
+        "text": "for switching higher current loads while",
+        "start": 514.57,
+        "duration": 5.79
+    },
+    {
+        "text": "keeping your in your base current low so",
+        "start": 517.51,
+        "duration": 4.61
+    },
+    {
+        "text": "anyway so let's let's get back to the",
+        "start": 520.36,
+        "duration": 3.809
+    },
+    {
+        "text": "design that we're actually doing today",
+        "start": 522.12,
+        "duration": 5.4
+    },
+    {
+        "text": "this solenoid valve this is a Clippard",
+        "start": 524.169,
+        "duration": 6.631
+    },
+    {
+        "text": "solenoid valve and if we get the spec",
+        "start": 527.52,
+        "duration": 5.129
+    },
+    {
+        "text": "sheet in here",
+        "start": 530.8,
+        "duration": 4.08
+    },
+    {
+        "text": "there's not very much for electrical",
+        "start": 532.649,
+        "duration": 3.31
+    },
+    {
+        "text": "specifications",
+        "start": 534.88,
+        "duration": 6.329
+    },
+    {
+        "text": "it just says 0.67 watts at 12 volts they",
+        "start": 535.959,
+        "duration": 7.711
+    },
+    {
+        "text": "make this in 12 or 24 volts this is a 12",
+        "start": 541.209,
+        "duration": 6.541
+    },
+    {
+        "text": "volt variant so we've got our our",
+        "start": 543.67,
+        "duration": 8.1
+    },
+    {
+        "text": "schematic representation here 0.67 watts",
+        "start": 547.75,
+        "duration": 7.26
+    },
+    {
+        "text": "at 12 volts well we want to know the",
+        "start": 551.77,
+        "duration": 7.4
+    },
+    {
+        "text": "current so we use Ohm's law which is",
+        "start": 555.01,
+        "duration": 7.5
+    },
+    {
+        "text": "current times voltage equals power or in",
+        "start": 559.17,
+        "duration": 5.59
+    },
+    {
+        "text": "this case we want to go in reverse point",
+        "start": 562.51,
+        "duration": 6.9
+    },
+    {
+        "text": "six seven Watts over 12 volts put some",
+        "start": 564.76,
+        "duration": 6.78
+    },
+    {
+        "text": "units on there for you I just type this",
+        "start": 569.41,
+        "duration": 10.77
+    },
+    {
+        "text": "one up is 0.05 five eight amps or about",
+        "start": 571.54,
+        "duration": 16.109
+    },
+    {
+        "text": "fifty-six milliamps okay so if we didn't",
+        "start": 580.18,
+        "duration": 8.88
+    },
+    {
+        "text": "know which transistor we were going to",
+        "start": 587.649,
+        "duration": 4.831
+    },
+    {
+        "text": "use you could just start looking down",
+        "start": 589.06,
+        "duration": 6.029
+    },
+    {
+        "text": "the list of transistors in a catalog and",
+        "start": 592.48,
+        "duration": 5.01
+    },
+    {
+        "text": "think to yourself well the transistor is",
+        "start": 595.089,
+        "duration": 4.171
+    },
+    {
+        "text": "at least going to have to handle 56",
+        "start": 597.49,
+        "duration": 3.96
+    },
+    {
+        "text": "milliamps although you'll find it pretty",
+        "start": 599.26,
+        "duration": 4.05
+    },
+    {
+        "text": "much every single transistor can handle",
+        "start": 601.45,
+        "duration": 3.9
+    },
+    {
+        "text": "more than this this is not a very big",
+        "start": 603.31,
+        "duration": 6.06
+    },
+    {
+        "text": "requirement here so what we know at this",
+        "start": 605.35,
+        "duration": 5.549
+    },
+    {
+        "text": "point is that we're going to use an NPN",
+        "start": 609.37,
+        "duration": 4.709
+    },
+    {
+        "text": "transistor it has to handle 56 milliamps",
+        "start": 610.899,
+        "duration": 6.601
+    },
+    {
+        "text": "from the collector to the emitter and we",
+        "start": 614.079,
+        "duration": 4.801
+    },
+    {
+        "text": "need now we need some way of turning the",
+        "start": 617.5,
+        "duration": 4.23
+    },
+    {
+        "text": "thing on and off and if we did decide to",
+        "start": 618.88,
+        "duration": 6.75
+    },
+    {
+        "text": "use the PN 2222 a we know that its beta",
+        "start": 621.73,
+        "duration": 10.52
+    },
+    {
+        "text": "is 100 so what we have here is our",
+        "start": 625.63,
+        "duration": 14.0
+    },
+    {
+        "text": "transistor and IB the base current is",
+        "start": 632.25,
+        "duration": 12.7
+    },
+    {
+        "text": "flowing like this this is grounded this",
+        "start": 639.63,
+        "duration": 9.149
+    },
+    {
+        "text": "is the coil with our voltage source and",
+        "start": 644.95,
+        "duration": 6.54
+    },
+    {
+        "text": "this is the collector current flowing",
+        "start": 648.779,
+        "duration": 5.921
+    },
+    {
+        "text": "through the coil to ground and I said",
+        "start": 651.49,
+        "duration": 5.159
+    },
+    {
+        "text": "that beta is 100 meaning that this is a",
+        "start": 654.7,
+        "duration": 3.66
+    },
+    {
+        "text": "hundred times less than the collector",
+        "start": 656.649,
+        "duration": 7.871
+    },
+    {
+        "text": "current so IB is equal to 56 milliamps",
+        "start": 658.36,
+        "duration": 14.83
+    },
+    {
+        "text": "over a hundred or 0.56 milliamps so now",
+        "start": 664.52,
+        "duration": 10.23
+    },
+    {
+        "text": "the question is how do we how do we get",
+        "start": 673.19,
+        "duration": 3.54
+    },
+    {
+        "text": "point five six milliamps to flow into",
+        "start": 674.75,
+        "duration": 4.38
+    },
+    {
+        "text": "the base luckily there's a really easy",
+        "start": 676.73,
+        "duration": 6.9
+    },
+    {
+        "text": "way we can just add a resistor so if we",
+        "start": 679.13,
+        "duration": 6.39
+    },
+    {
+        "text": "put a resistor here and then send this",
+        "start": 683.63,
+        "duration": 5.67
+    },
+    {
+        "text": "over to +5 volts if we sized the",
+        "start": 685.52,
+        "duration": 6.75
+    },
+    {
+        "text": "resistor correctly we'll get exactly 0.5",
+        "start": 689.3,
+        "duration": 5.4
+    },
+    {
+        "text": "6 milliamps to flow through here the",
+        "start": 692.27,
+        "duration": 4.08
+    },
+    {
+        "text": "transistor will multiply it by a hundred",
+        "start": 694.7,
+        "duration": 3.54
+    },
+    {
+        "text": "and we'll get the current to flow",
+        "start": 696.35,
+        "duration": 5.1
+    },
+    {
+        "text": "through the coil so let me draw this a",
+        "start": 698.24,
+        "duration": 5.219
+    },
+    {
+        "text": "little bit more clearly and then we can",
+        "start": 701.45,
+        "duration": 6.48
+    },
+    {
+        "text": "choose our resistor value so our circuit",
+        "start": 703.459,
+        "duration": 7.531
+    },
+    {
+        "text": "is almost done this is a pretty good",
+        "start": 707.93,
+        "duration": 5.7
+    },
+    {
+        "text": "almost finished version of it here we've",
+        "start": 710.99,
+        "duration": 5.58
+    },
+    {
+        "text": "got a resistor on the base where we're",
+        "start": 713.63,
+        "duration": 4.95
+    },
+    {
+        "text": "going to put our 0 to 5 volt signal and",
+        "start": 716.57,
+        "duration": 4.68
+    },
+    {
+        "text": "the coil is connected here the solenoid",
+        "start": 718.58,
+        "duration": 5.61
+    },
+    {
+        "text": "is connected here so that when the input",
+        "start": 721.25,
+        "duration": 5.459
+    },
+    {
+        "text": "is 5 volts we get a current flowing",
+        "start": 724.19,
+        "duration": 4.74
+    },
+    {
+        "text": "through this resistor which turns the",
+        "start": 726.709,
+        "duration": 4.081
+    },
+    {
+        "text": "transistor on and allows a large current",
+        "start": 728.93,
+        "duration": 5.07
+    },
+    {
+        "text": "to flow through the coil to ground so",
+        "start": 730.79,
+        "duration": 4.35
+    },
+    {
+        "text": "you're thinking yeah but I live in a",
+        "start": 734.0,
+        "duration": 2.52
+    },
+    {
+        "text": "voltage world how do we actually get",
+        "start": 735.14,
+        "duration": 3.93
+    },
+    {
+        "text": "this thing to turn on and off so we put",
+        "start": 736.52,
+        "duration": 4.59
+    },
+    {
+        "text": "this resistor here to convert our input",
+        "start": 739.07,
+        "duration": 4.47
+    },
+    {
+        "text": "voltage to a current and you might be",
+        "start": 741.11,
+        "duration": 3.719
+    },
+    {
+        "text": "thinking well that's easy I'll just use",
+        "start": 743.54,
+        "duration": 3.66
+    },
+    {
+        "text": "Ohm's law five volts over the resistor",
+        "start": 744.829,
+        "duration": 4.471
+    },
+    {
+        "text": "value gives me the current almost",
+        "start": 747.2,
+        "duration": 4.59
+    },
+    {
+        "text": "there's another little twist here the",
+        "start": 749.3,
+        "duration": 6.479
+    },
+    {
+        "text": "base current is actually five minus 0.7",
+        "start": 751.79,
+        "duration": 7.5
+    },
+    {
+        "text": "divided by the base resistor and this",
+        "start": 755.779,
+        "duration": 6.691
+    },
+    {
+        "text": "point seven is a an intrinsic value two",
+        "start": 759.29,
+        "duration": 7.95
+    },
+    {
+        "text": "silicon transistors this is an NPN so",
+        "start": 762.47,
+        "duration": 8.609
+    },
+    {
+        "text": "there's a PN Junction here and silicon",
+        "start": 767.24,
+        "duration": 6.719
+    },
+    {
+        "text": "PN junctions will drop a voltage and for",
+        "start": 771.079,
+        "duration": 4.411
+    },
+    {
+        "text": "pretty much all transistors I think it's",
+        "start": 773.959,
+        "duration": 4.411
+    },
+    {
+        "text": "about 0.7 volts I think it's point six",
+        "start": 775.49,
+        "duration": 4.62
+    },
+    {
+        "text": "volts for diodes I'm not exactly sure",
+        "start": 778.37,
+        "duration": 4.05
+    },
+    {
+        "text": "why that is but and you can look that up",
+        "start": 780.11,
+        "duration": 6.87
+    },
+    {
+        "text": "and so we know that to get our coil",
+        "start": 782.42,
+        "duration": 7.8
+    },
+    {
+        "text": "working we needed 56 milliamps to flow",
+        "start": 786.98,
+        "duration": 7.67
+    },
+    {
+        "text": "so the IC has to be let's say equal to",
+        "start": 790.22,
+        "duration": 8.239
+    },
+    {
+        "text": "56 milliamps",
+        "start": 794.65,
+        "duration": 3.809
+    },
+    {
+        "text": "and I said that the transistor",
+        "start": 798.94,
+        "duration": 4.2
+    },
+    {
+        "text": "amplifiers current by a hundred so we",
+        "start": 800.74,
+        "duration": 4.95
+    },
+    {
+        "text": "need at least point five six milliamps",
+        "start": 803.14,
+        "duration": 6.36
+    },
+    {
+        "text": "to flow through the base but it's",
+        "start": 805.69,
+        "duration": 5.55
+    },
+    {
+        "text": "actually a better design practice to",
+        "start": 809.5,
+        "duration": 5.13
+    },
+    {
+        "text": "shoot a little bit higher because we",
+        "start": 811.24,
+        "duration": 5.16
+    },
+    {
+        "text": "want to make sure that the transistor is",
+        "start": 814.63,
+        "duration": 4.53
+    },
+    {
+        "text": "fully on what would happen if we gave it",
+        "start": 816.4,
+        "duration": 5.16
+    },
+    {
+        "text": "less base current let's say we only gave",
+        "start": 819.16,
+        "duration": 6.0
+    },
+    {
+        "text": "it point one milli amps in the base so",
+        "start": 821.56,
+        "duration": 5.61
+    },
+    {
+        "text": "you'd multiply that by a hundred and we",
+        "start": 825.16,
+        "duration": 3.87
+    },
+    {
+        "text": "get ten milliamps flowing through here",
+        "start": 827.17,
+        "duration": 3.75
+    },
+    {
+        "text": "and that would not be enough to activate",
+        "start": 829.03,
+        "duration": 5.16
+    },
+    {
+        "text": "our solenoid so the way we have it",
+        "start": 830.92,
+        "duration": 5.58
+    },
+    {
+        "text": "designed now if we chose a base resistor",
+        "start": 834.19,
+        "duration": 5.34
+    },
+    {
+        "text": "that only allowed 56 milliamps to flow",
+        "start": 836.5,
+        "duration": 5.55
+    },
+    {
+        "text": "through the collector the circuit would",
+        "start": 839.53,
+        "duration": 5.94
+    },
+    {
+        "text": "just be on the cusp of working so we",
+        "start": 842.05,
+        "duration": 4.77
+    },
+    {
+        "text": "want to design it to be a little bit",
+        "start": 845.47,
+        "duration": 6.0
+    },
+    {
+        "text": "safer so let's just say we want to shoot",
+        "start": 846.82,
+        "duration": 10.47
+    },
+    {
+        "text": "for a base current of 1 milliamp so we",
+        "start": 851.47,
+        "duration": 7.65
+    },
+    {
+        "text": "use the multiplication factor of a",
+        "start": 857.29,
+        "duration": 4.41
+    },
+    {
+        "text": "hundred and we get a hundred milliamps",
+        "start": 859.12,
+        "duration": 4.26
+    },
+    {
+        "text": "through here so you might be thinking",
+        "start": 861.7,
+        "duration": 3.27
+    },
+    {
+        "text": "we'll wait a minute how do we get a",
+        "start": 863.38,
+        "duration": 3.15
+    },
+    {
+        "text": "hundred milliamps flowing through this",
+        "start": 864.97,
+        "duration": 3.51
+    },
+    {
+        "text": "the answer is that we actually don't get",
+        "start": 866.53,
+        "duration": 4.8
+    },
+    {
+        "text": "a full 100 milliamps because the current",
+        "start": 868.48,
+        "duration": 6.18
+    },
+    {
+        "text": "is limited by the solenoid itself if we",
+        "start": 871.33,
+        "duration": 4.65
+    },
+    {
+        "text": "were to short this or if we were to",
+        "start": 874.66,
+        "duration": 3.84
+    },
+    {
+        "text": "connect the solenoid directly to 12",
+        "start": 875.98,
+        "duration": 4.92
+    },
+    {
+        "text": "volts and ground it's only going to flow",
+        "start": 878.5,
+        "duration": 5.94
+    },
+    {
+        "text": "as much current as the manufacturer is",
+        "start": 880.9,
+        "duration": 8.1
+    },
+    {
+        "text": "rated 56 milliamps so a transistor can't",
+        "start": 884.44,
+        "duration": 7.29
+    },
+    {
+        "text": "allow more current to flow through the",
+        "start": 889.0,
+        "duration": 4.41
+    },
+    {
+        "text": "device than it would normally use on its",
+        "start": 891.73,
+        "duration": 5.91
+    },
+    {
+        "text": "own but it can restrict the current okay",
+        "start": 893.41,
+        "duration": 9.02
+    },
+    {
+        "text": "so let's let's solve this guy we've got",
+        "start": 897.64,
+        "duration": 4.79
+    },
+    {
+        "text": "IB is equal to five minus 0.7 over RB",
+        "start": 903.03,
+        "duration": 8.62
+    },
+    {
+        "text": "and I know the IB is one milliamp so",
+        "start": 908.86,
+        "duration": 5.3
+    },
+    {
+        "text": "when doing the calculations always use",
+        "start": 911.65,
+        "duration": 5.25
+    },
+    {
+        "text": "the standard units so enter this is",
+        "start": 914.16,
+        "duration": 7.23
+    },
+    {
+        "text": "point zero zero one amps",
+        "start": 916.9,
+        "duration": 4.49
+    },
+    {
+        "text": "4300 ohms",
+        "start": 927.62,
+        "duration": 5.529
+    },
+    {
+        "text": "well they don't make 4300 ohm resistors",
+        "start": 930.11,
+        "duration": 8.229
+    },
+    {
+        "text": "so we could either use a 4.7 K and since",
+        "start": 933.149,
+        "duration": 6.87
+    },
+    {
+        "text": "we were pretty safe on our factor of",
+        "start": 938.339,
+        "duration": 3.831
+    },
+    {
+        "text": "choosing one Billy amp for the bass this",
+        "start": 940.019,
+        "duration": 6.031
+    },
+    {
+        "text": "4.7 K resistor will flow a little bit",
+        "start": 942.17,
+        "duration": 5.95
+    },
+    {
+        "text": "less than one milliamp but we'd still be",
+        "start": 946.05,
+        "duration": 5.969
+    },
+    {
+        "text": "pretty much okay so there's one other",
+        "start": 948.12,
+        "duration": 5.82
+    },
+    {
+        "text": "thing I wanted to add here this for this",
+        "start": 952.019,
+        "duration": 3.63
+    },
+    {
+        "text": "particular circuit since we're switching",
+        "start": 953.94,
+        "duration": 4.589
+    },
+    {
+        "text": "a coil it's actually very important that",
+        "start": 955.649,
+        "duration": 5.821
+    },
+    {
+        "text": "we add a clamp diode and that's going to",
+        "start": 958.529,
+        "duration": 8.851
+    },
+    {
+        "text": "look like this so you might be thinking",
+        "start": 961.47,
+        "duration": 9.33
+    },
+    {
+        "text": "that's stupid but having the diode is",
+        "start": 967.38,
+        "duration": 5.55
+    },
+    {
+        "text": "pointing into our voltage source how",
+        "start": 970.8,
+        "duration": 4.11
+    },
+    {
+        "text": "could this ever get higher than plus 12",
+        "start": 972.93,
+        "duration": 4.589
+    },
+    {
+        "text": "and the answer is that when the",
+        "start": 974.91,
+        "duration": 5.58
+    },
+    {
+        "text": "transistor turns off all of that current",
+        "start": 977.519,
+        "duration": 5.19
+    },
+    {
+        "text": "that was flowing through this coil has",
+        "start": 980.49,
+        "duration": 4.289
+    },
+    {
+        "text": "created a magnetic field in here and",
+        "start": 982.709,
+        "duration": 4.411
+    },
+    {
+        "text": "when the transistor turns off that",
+        "start": 984.779,
+        "duration": 4.831
+    },
+    {
+        "text": "magnetic field collapses and the voltage",
+        "start": 987.12,
+        "duration": 5.19
+    },
+    {
+        "text": "is going to rise at this point it could",
+        "start": 989.61,
+        "duration": 4.89
+    },
+    {
+        "text": "be quite significant if the coil has a",
+        "start": 992.31,
+        "duration": 4.649
+    },
+    {
+        "text": "lot of inductance the voltage could get",
+        "start": 994.5,
+        "duration": 4.14
+    },
+    {
+        "text": "to be you know hundreds of volts here",
+        "start": 996.959,
+        "duration": 3.451
+    },
+    {
+        "text": "high enough where it would actually blow",
+        "start": 998.64,
+        "duration": 4.47
+    },
+    {
+        "text": "out the transistor so it's extremely",
+        "start": 1000.41,
+        "duration": 5.85
+    },
+    {
+        "text": "good design practice to put a die a",
+        "start": 1003.11,
+        "duration": 7.469
+    },
+    {
+        "text": "clamp diode in there it could be a real",
+        "start": 1006.26,
+        "duration": 5.91
+    },
+    {
+        "text": "problem because you might design this",
+        "start": 1010.579,
+        "duration": 3.601
+    },
+    {
+        "text": "and switch it 20 times on the test bench",
+        "start": 1012.17,
+        "duration": 4.02
+    },
+    {
+        "text": "and it works fine and then you go out",
+        "start": 1014.18,
+        "duration": 4.5
+    },
+    {
+        "text": "and put the circuit into service and it",
+        "start": 1016.19,
+        "duration": 4.29
+    },
+    {
+        "text": "switches and it gets to be just high",
+        "start": 1018.68,
+        "duration": 3.56
+    },
+    {
+        "text": "enough and it blows your transistor out",
+        "start": 1020.48,
+        "duration": 4.41
+    },
+    {
+        "text": "so it definitely put a diode there and",
+        "start": 1022.24,
+        "duration": 4.839
+    },
+    {
+        "text": "you can also take it one step further",
+        "start": 1024.89,
+        "duration": 6.289
+    },
+    {
+        "text": "and add a capacitor in there as well",
+        "start": 1027.079,
+        "duration": 7.11
+    },
+    {
+        "text": "like this and this can be small like",
+        "start": 1031.179,
+        "duration": 5.681
+    },
+    {
+        "text": "point zero zero one micro farad's and",
+        "start": 1034.189,
+        "duration": 5.461
+    },
+    {
+        "text": "the capacitor will smooth out the pulse",
+        "start": 1036.86,
+        "duration": 4.86
+    },
+    {
+        "text": "here and give the diode time to turn on",
+        "start": 1039.65,
+        "duration": 3.6
+    },
+    {
+        "text": "and make sure that there's absolutely no",
+        "start": 1041.72,
+        "duration": 3.959
+    },
+    {
+        "text": "spiking or voltage rising going on in",
+        "start": 1043.25,
+        "duration": 5.46
+    },
+    {
+        "text": "here so let's build it and test it and",
+        "start": 1045.679,
+        "duration": 6.261
+    },
+    {
+        "text": "prove that the thing actually works",
+        "start": 1048.71,
+        "duration": 3.23
+    },
+    {
+        "text": "okay so here's the circuit yellow is",
+        "start": 1051.99,
+        "duration": 5.68
+    },
+    {
+        "text": "plus twelve volts black is a common",
+        "start": 1055.24,
+        "duration": 6.24
+    },
+    {
+        "text": "ground and red is plus five we've got",
+        "start": 1057.67,
+        "duration": 8.73
+    },
+    {
+        "text": "our transistor here the PN 2222 a 4.7 K",
+        "start": 1061.48,
+        "duration": 9.18
+    },
+    {
+        "text": "base resistor and our clamp diode so if",
+        "start": 1066.4,
+        "duration": 8.99
+    },
+    {
+        "text": "we put five volts into the resistor",
+        "start": 1070.66,
+        "duration": 4.73
+    },
+    {
+        "text": "control the valve quite nicely so what",
+        "start": 1078.51,
+        "duration": 5.32
+    },
+    {
+        "text": "we've done here is taken a very very",
+        "start": 1082.06,
+        "duration": 4.74
+    },
+    {
+        "text": "small signal five volts at one milliamp",
+        "start": 1083.83,
+        "duration": 5.48
+    },
+    {
+        "text": "or less and are able to control",
+        "start": 1086.8,
+        "duration": 4.71
+    },
+    {
+        "text": "admittedly a pretty small signal but",
+        "start": 1089.31,
+        "duration": 3.88
+    },
+    {
+        "text": "we've taken care of the inductive kick",
+        "start": 1091.51,
+        "duration": 4.89
+    },
+    {
+        "text": "from the solenoid valve so I thought of",
+        "start": 1093.19,
+        "duration": 4.68
+    },
+    {
+        "text": "just a couple other things you might be",
+        "start": 1096.4,
+        "duration": 5.49
+    },
+    {
+        "text": "wondering about throughout this I was",
+        "start": 1097.87,
+        "duration": 6.24
+    },
+    {
+        "text": "kind of trying to get the base resistor",
+        "start": 1101.89,
+        "duration": 4.41
+    },
+    {
+        "text": "value chosen and you might be thinking",
+        "start": 1104.11,
+        "duration": 4.5
+    },
+    {
+        "text": "well screw it we'll just put a zero ohm",
+        "start": 1106.3,
+        "duration": 3.9
+    },
+    {
+        "text": "resistor we'll just short this thing out",
+        "start": 1108.61,
+        "duration": 2.85
+    },
+    {
+        "text": "and make sure we have enough base",
+        "start": 1110.2,
+        "duration": 3.15
+    },
+    {
+        "text": "current but unfortunately you can't do",
+        "start": 1111.46,
+        "duration": 4.41
+    },
+    {
+        "text": "that because the transistor will draw so",
+        "start": 1113.35,
+        "duration": 4.44
+    },
+    {
+        "text": "much current through the base that will",
+        "start": 1115.87,
+        "duration": 5.58
+    },
+    {
+        "text": "destroy itself so so you have to have a",
+        "start": 1117.79,
+        "duration": 6.24
+    },
+    {
+        "text": "resistor here around the transistor will",
+        "start": 1121.45,
+        "duration": 4.35
+    },
+    {
+        "text": "self-destruct the very first time you",
+        "start": 1124.03,
+        "duration": 3.45
+    },
+    {
+        "text": "use it in fact when I was getting",
+        "start": 1125.8,
+        "duration": 3.84
+    },
+    {
+        "text": "started in electronics you know I",
+        "start": 1127.48,
+        "duration": 3.63
+    },
+    {
+        "text": "thought a transistor was basically just",
+        "start": 1129.64,
+        "duration": 3.93
+    },
+    {
+        "text": "a voltage controlled device and so yeah",
+        "start": 1131.11,
+        "duration": 5.22
+    },
+    {
+        "text": "I put five volts on that base and oddly",
+        "start": 1133.57,
+        "duration": 4.35
+    },
+    {
+        "text": "enough it didn't do anything it didn't",
+        "start": 1136.33,
+        "duration": 4.17
+    },
+    {
+        "text": "switch didn't allow current to flow so I",
+        "start": 1137.92,
+        "duration": 4.68
+    },
+    {
+        "text": "tried another one the same thing and I",
+        "start": 1140.5,
+        "duration": 3.54
+    },
+    {
+        "text": "thought man these transistors are just",
+        "start": 1142.6,
+        "duration": 4.98
+    },
+    {
+        "text": "totally defective but as it turns out",
+        "start": 1144.04,
+        "duration": 5.04
+    },
+    {
+        "text": "they were just being destroyed instantly",
+        "start": 1147.58,
+        "duration": 4.26
+    },
+    {
+        "text": "so yeah you have to have a base resistor",
+        "start": 1149.08,
+        "duration": 6.78
+    },
+    {
+        "text": "here also there's going to be a voltage",
+        "start": 1151.84,
+        "duration": 8.19
+    },
+    {
+        "text": "drop across here so so I said that",
+        "start": 1155.86,
+        "duration": 5.73
+    },
+    {
+        "text": "there's a point seven voltage drop here",
+        "start": 1160.03,
+        "duration": 3.27
+    },
+    {
+        "text": "so if we measure all these voltages",
+        "start": 1161.59,
+        "duration": 5.55
+    },
+    {
+        "text": "we've got five volts here we got zero",
+        "start": 1163.3,
+        "duration": 7.11
+    },
+    {
+        "text": "volts here we've got point seven volts",
+        "start": 1167.14,
+        "duration": 7.14
+    },
+    {
+        "text": "here that's you know five - point seven",
+        "start": 1170.41,
+        "duration": 5.94
+    },
+    {
+        "text": "over RB across this resistor gives the",
+        "start": 1174.28,
+        "duration": 4.26
+    },
+    {
+        "text": "current flow through here but what's the",
+        "start": 1176.35,
+        "duration": 4.59
+    },
+    {
+        "text": "voltage right here this is actually",
+        "start": 1178.54,
+        "duration": 4.92
+    },
+    {
+        "text": "pretty interesting this this voltage",
+        "start": 1180.94,
+        "duration": 4.18
+    },
+    {
+        "text": "could be",
+        "start": 1183.46,
+        "duration": 4.69
+    },
+    {
+        "text": "close to zero or it could be about point",
+        "start": 1185.12,
+        "duration": 5.19
+    },
+    {
+        "text": "one or point two volts depending on the",
+        "start": 1188.15,
+        "duration": 5.04
+    },
+    {
+        "text": "transistor and how much current is",
+        "start": 1190.31,
+        "duration": 6.24
+    },
+    {
+        "text": "flowing through it so I said that the",
+        "start": 1193.19,
+        "duration": 5.46
+    },
+    {
+        "text": "reason we have a point seven volt drop",
+        "start": 1196.55,
+        "duration": 4.5
+    },
+    {
+        "text": "from the base to the emitter is because",
+        "start": 1198.65,
+        "duration": 5.22
+    },
+    {
+        "text": "that's the way silicon semiconductors",
+        "start": 1201.05,
+        "duration": 5.78
+    },
+    {
+        "text": "are built we've got a PN Junction here",
+        "start": 1203.87,
+        "duration": 6.75
+    },
+    {
+        "text": "throughout the from from the collector",
+        "start": 1206.83,
+        "duration": 6.61
+    },
+    {
+        "text": "to emitter there's a PN and an NP",
+        "start": 1210.62,
+        "duration": 4.71
+    },
+    {
+        "text": "Junction so that point seven volts",
+        "start": 1213.44,
+        "duration": 4.32
+    },
+    {
+        "text": "cancels itself out so if the transistor",
+        "start": 1215.33,
+        "duration": 5.85
+    },
+    {
+        "text": "is perfectly built the voltage here will",
+        "start": 1217.76,
+        "duration": 5.94
+    },
+    {
+        "text": "be zero when the transistor is fully",
+        "start": 1221.18,
+        "duration": 8.07
+    },
+    {
+        "text": "conducting so but you know the problems",
+        "start": 1223.7,
+        "duration": 7.59
+    },
+    {
+        "text": "in manufacturing and I think they might",
+        "start": 1229.25,
+        "duration": 3.48
+    },
+    {
+        "text": "even build them asymmetrically on",
+        "start": 1231.29,
+        "duration": 3.42
+    },
+    {
+        "text": "purpose or something so actually let's",
+        "start": 1232.73,
+        "duration": 3.57
+    },
+    {
+        "text": "measure it and see what we've got",
+        "start": 1234.71,
+        "duration": 6.96
+    },
+    {
+        "text": "turn our circuit on okay sorry about",
+        "start": 1236.3,
+        "duration": 9.27
+    },
+    {
+        "text": "that guys I I had the wrong voltage set",
+        "start": 1241.67,
+        "duration": 5.55
+    },
+    {
+        "text": "on the supply here so we've actually got",
+        "start": 1245.57,
+        "duration": 6.27
+    },
+    {
+        "text": "0.1 1 7 volts alright see this thing",
+        "start": 1247.22,
+        "duration": 8.22
+    },
+    {
+        "text": "right about there we've got 0.1 1 7",
+        "start": 1251.84,
+        "duration": 4.83
+    },
+    {
+        "text": "volts which is what you would normally",
+        "start": 1255.44,
+        "duration": 6.47
+    },
+    {
+        "text": "expect for a circuit designed like this",
+        "start": 1256.67,
+        "duration": 9.33
+    },
+    {
+        "text": "so keep that in mind here if your device",
+        "start": 1261.91,
+        "duration": 7.15
+    },
+    {
+        "text": "requires exactly 12 volts across it",
+        "start": 1266.0,
+        "duration": 5.1
+    },
+    {
+        "text": "you're not going to get 4 full 12 volts",
+        "start": 1269.06,
+        "duration": 3.45
+    },
+    {
+        "text": "with a transistor like this you're going",
+        "start": 1271.1,
+        "duration": 3.54
+    },
+    {
+        "text": "to lose a tenth of a volt in the",
+        "start": 1272.51,
+        "duration": 6.75
+    },
+    {
+        "text": "transistor so I hope that about covers",
+        "start": 1274.64,
+        "duration": 6.05
+    },
+    {
+        "text": "it",
+        "start": 1279.26,
+        "duration": 4.56
+    },
+    {
+        "text": "obviously transistors get quite a bit",
+        "start": 1280.69,
+        "duration": 4.33
+    },
+    {
+        "text": "more complicated when talking about",
+        "start": 1283.82,
+        "duration": 3.87
+    },
+    {
+        "text": "switching things at AC when you start",
+        "start": 1285.02,
+        "duration": 4.35
+    },
+    {
+        "text": "talking about frequency gain and stuff",
+        "start": 1287.69,
+        "duration": 3.3
+    },
+    {
+        "text": "it adds a whole nother level of",
+        "start": 1289.37,
+        "duration": 3.63
+    },
+    {
+        "text": "complexity but I hope this gets you",
+        "start": 1290.99,
+        "duration": 4.89
+    },
+    {
+        "text": "started with DC design so let me know",
+        "start": 1293.0,
+        "duration": 4.05
+    },
+    {
+        "text": "what you think let me know if you have",
+        "start": 1295.88,
+        "duration": 3.42
+    },
+    {
+        "text": "any questions and I will see you next",
+        "start": 1297.05,
+        "duration": 4.55
+    },
+    {
+        "text": "time",
+        "start": 1299.3,
+        "duration": 2.3
+    }
+]

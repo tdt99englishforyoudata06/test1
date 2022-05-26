@@ -1,0 +1,1012 @@
+[
+    {
+        "text": "Today, I'd like to talk about the bagel problem.",
+        "start": 0.3,
+        "duration": 2.46
+    },
+    {
+        "text": "Let's suppose that we are going to buy a dozen bagels, 12 bagels, and we go into the store and there are several kinds.",
+        "start": 2.76,
+        "duration": 6.899
+    },
+    {
+        "text": "There might be plain bagels and poppy bagels and sesame bagels and",
+        "start": 9.82,
+        "duration": 4.189
+    },
+    {
+        "text": "onion bagels and everything bagels, potato bagels. There might be even blueberry bagels. And the question is, how many ways",
+        "start": 14.32,
+        "duration": 8.36
+    },
+    {
+        "text": "for a given number of",
+        "start": 23.06,
+        "duration": 1.62
+    },
+    {
+        "text": "kinds of bagels,",
+        "start": 25.15,
+        "duration": 1.41
+    },
+    {
+        "text": "can we purchase a bag full of 12 bagels?",
+        "start": 26.56,
+        "duration": 3.289
+    },
+    {
+        "text": "Let's say that I want to buy a dozen bagels and there are 4 kinds, plain, poppy, sesame and onion.",
+        "start": 29.849,
+        "duration": 5.79
+    },
+    {
+        "text": "I might buy 3 of each kind, and that would make a dozen. But it's possible that I really like poppy,",
+        "start": 35.64,
+        "duration": 5.849
+    },
+    {
+        "text": "so I might buy five poppy, and then I would buy fewer of the other kinds. There's every possible combination. For example,",
+        "start": 41.489,
+        "duration": 5.729
+    },
+    {
+        "text": "I could just buy all onion, and",
+        "start": 47.219,
+        "duration": 1.66
+    },
+    {
+        "text": "none of the others. I can buy eleven and one, I can buy, you know, eight and one and one and one and one,",
+        "start": 48.88,
+        "duration": 6.08
+    },
+    {
+        "text": "whatever works out to be 12. So I have total freedom, and if I'm picking and choosing,",
+        "start": 54.96,
+        "duration": 5.7
+    },
+    {
+        "text": "the order in which I choose things does not matter.",
+        "start": 60.88,
+        "duration": 2.69
+    },
+    {
+        "text": "It's not like I'm gonna, you know, which bagel am I going to choose first?",
+        "start": 63.57,
+        "duration": 3.089
+    },
+    {
+        "text": "Doesn't matter. The only thing that matters is the total outcome at the end of the game. You have to buy 12 bagels,",
+        "start": 67.06,
+        "duration": 5.15
+    },
+    {
+        "text": "and you're not required to buy at least one of any of the kinds. You can really just buy,",
+        "start": 72.21,
+        "duration": 4.949
+    },
+    {
+        "text": "ignore one of the kinds, or ignore all but one of the kinds. So the store will not run out. They have deep bins.",
+        "start": 77.35,
+        "duration": 5.209
+    },
+    {
+        "text": "Even if you're buying 4 dozen, or 10 dozen, they will keep supplying you with the bagels you need. How many different combinations",
+        "start": 82.689,
+        "duration": 6.8
+    },
+    {
+        "text": "of bagels can I get in a bag?",
+        "start": 89.82,
+        "duration": 2.2
+    },
+    {
+        "text": "Okay, well, I think what we should really do is",
+        "start": 92.02,
+        "duration": 2.08
+    },
+    {
+        "text": "we should focus on numerical examples, and see what the point is, and then at the end, we'll have some formula.",
+        "start": 94.11,
+        "duration": 5.459
+    },
+    {
+        "text": "So think about a dozen bagels. Some people might think a baker's dozen is thirteen.",
+        "start": 99.57,
+        "duration": 4.199
+    },
+    {
+        "text": "But let's say 12 bagels, and we might, to start, vary the numbers of kinds. Like, suppose",
+        "start": 103.77,
+        "duration": 6.27
+    },
+    {
+        "text": "we go into a store that just sells traditional plain bagels.",
+        "start": 110.04,
+        "duration": 3.899
+    },
+    {
+        "text": "How many different ways can buy 12 bagels? The answer is just one way. We might go into a slightly",
+        "start": 114.06,
+        "duration": 5.22
+    },
+    {
+        "text": "more interesting store that has 2 kinds of bagels. Plain bagels and",
+        "start": 119.53,
+        "duration": 3.979
+    },
+    {
+        "text": "chocolate bagels, and then how many ways can we buy the 12 bagels? So now the answer is",
+        "start": 124.09,
+        "duration": 4.699
+    },
+    {
+        "text": "more interesting. We can buy 0 plain bagels.",
+        "start": 129.31,
+        "duration": 3.169
+    },
+    {
+        "text": "We could buy 1 plain bagel. We could buy 2 plain bagels.",
+        "start": 133.38,
+        "duration": 3.899
+    },
+    {
+        "text": "We can go all the way up to 12 plain bagels.",
+        "start": 137.47,
+        "duration": 3.38
+    },
+    {
+        "text": "And then of course the other bagels, the bagels that are chocolate, will just fill in, so that all together we get 12.",
+        "start": 140.85,
+        "duration": 6.75
+    },
+    {
+        "text": "How many ways are there to buy",
+        "start": 147.6,
+        "duration": 2.25
+    },
+    {
+        "text": "the 12 bagels when there are 2 kinds? And the answer is",
+        "start": 150.4,
+        "duration": 3.619
+    },
+    {
+        "text": "given by this range of possibilities, and actually there are 13 choices. If I look at all the numbers from 0 to 12",
+        "start": 154.48,
+        "duration": 7.459
+    },
+    {
+        "text": "inclusive, 13.",
+        "start": 162.12,
+        "duration": 1.86
+    },
+    {
+        "text": "When there are 2 kinds, namely, it's the number of bagels you're buying plus 1. That'll be the answer.",
+        "start": 163.98,
+        "duration": 5.96
+    },
+    {
+        "text": "Now, let's say there are gonna be 3 kinds. Blueberry, let's have",
+        "start": 170.08,
+        "duration": 3.949
+    },
+    {
+        "text": "bubblegum,",
+        "start": 174.58,
+        "duration": 1.32
+    },
+    {
+        "text": "Brady: \"A bubblegum bagel?\"",
+        "start": 175.9,
+        "duration": 1.4
+    },
+    {
+        "text": "That's gonna be tough. The third bagel will be",
+        "start": 177.31,
+        "duration": 3.26
+    },
+    {
+        "text": "caramel. And then the number of blueberry bagels that we buy can be anything from 0 up to 12. And then the number of",
+        "start": 180.91,
+        "duration": 7.399
+    },
+    {
+        "text": "bagels left for the other 2 kinds will go from 12",
+        "start": 189.16,
+        "duration": 3.32
+    },
+    {
+        "text": "down to 0. Now, we already saw that if we're buying a dozen bagels",
+        "start": 193.18,
+        "duration": 4.819
+    },
+    {
+        "text": "and there are 2 kinds, the number of ways of doing that is 13. If I'm buying",
+        "start": 198.13,
+        "duration": 4.699
+    },
+    {
+        "text": "11 bagels",
+        "start": 203.11,
+        "duration": 0.98
+    },
+    {
+        "text": "and there are 2 kinds, the number of ways of doing that is 12. And if I'm buying",
+        "start": 204.09,
+        "duration": 4.83
+    },
+    {
+        "text": "0 bagels",
+        "start": 209.02,
+        "duration": 0.98
+    },
+    {
+        "text": "and there are 2 kinds, the number of ways of doing that is 1. And so the total number of ways of buying these 3",
+        "start": 210.0,
+        "duration": 7.649
+    },
+    {
+        "text": "kinds of bagels, when you're buying a dozen bagels, will be the sum of all the numbers",
+        "start": 217.96,
+        "duration": 4.969
+    },
+    {
+        "text": "from 13 down to 1. And that number is the sum of",
+        "start": 223.33,
+        "duration": 5.449
+    },
+    {
+        "text": "the first 13 positive integers. And there's a formula. If I have the sum of the first n",
+        "start": 229.3,
+        "duration": 5.96
+    },
+    {
+        "text": "positive integers,",
+        "start": 236.23,
+        "duration": 1.95
+    },
+    {
+        "text": "that formula is given by n times",
+        "start": 238.18,
+        "duration": 2.0
+    },
+    {
+        "text": "n plus 1 over 2. So in particular, here, the n is equal to 13,",
+        "start": 240.37,
+        "duration": 6.68
+    },
+    {
+        "text": "so the number of ways of buying bagels when there are 3 kinds will be",
+        "start": 247.45,
+        "duration": 5.929
+    },
+    {
+        "text": "13 Times 14",
+        "start": 253.87,
+        "duration": 2.0
+    },
+    {
+        "text": "divided by 2. If we were thinking about a general formula,",
+        "start": 256.42,
+        "duration": 4.429
+    },
+    {
+        "text": "we might think of that 13 as 12 plus 1,",
+        "start": 260.85,
+        "duration": 3.699
+    },
+    {
+        "text": "and the 14 as 12 plus 2. So it's a number like that. It's a fraction that",
+        "start": 265.25,
+        "duration": 5.299
+    },
+    {
+        "text": "involves a product of two numbers, and then you divide by 2. We could do this forever. So, for example, if there are 4 kinds,",
+        "start": 271.19,
+        "duration": 7.669
+    },
+    {
+        "text": "then we might say that we have maybe onion,",
+        "start": 279.139,
+        "duration": 3.83
+    },
+    {
+        "text": "and the onions would go from 0 up to 12. And then whenever we have a number of onions,",
+        "start": 283.22,
+        "duration": 7.01
+    },
+    {
+        "text": "we would therefore have a number remaining for the other 3 kinds.",
+        "start": 290.33,
+        "duration": 5.0
+    },
+    {
+        "text": "So, if we have 0 onions there will be 12 remaining for the other three kinds,",
+        "start": 295.34,
+        "duration": 4.85
+    },
+    {
+        "text": "and if we go all the way up to 12 onions, there will be 0 remaining.",
+        "start": 300.2,
+        "duration": 4.849
+    },
+    {
+        "text": "And we saw that if there are 12 bagels to be purchased, the number of ways of buying 3 kinds is 13",
+        "start": 305.05,
+        "duration": 7.26
+    },
+    {
+        "text": "times 14 divided by 2. And if there are 11 bagels, there should be 12 times 13",
+        "start": 312.74,
+        "duration": 7.04
+    },
+    {
+        "text": "divided by 2. And we keep going in this way.",
+        "start": 320.06,
+        "duration": 3.709
+    },
+    {
+        "text": "If we have 0 bagels, the number is gonna be 1, and at least in this formalism,",
+        "start": 324.139,
+        "duration": 6.05
+    },
+    {
+        "text": "well, I have to take 0 and add 1 to it, and 0 and add 2 to it, and divide by 2.",
+        "start": 330.32,
+        "duration": 6.079
+    },
+    {
+        "text": "So that's also gonna be 1. So I'll have a sum of numbers like this. You might think that",
+        "start": 337.01,
+        "duration": 5.419
+    },
+    {
+        "text": "there would be some way of evaluating that sum,",
+        "start": 342.56,
+        "duration": 3.169
+    },
+    {
+        "text": "but the answer is not obvious until you try to do some kind of",
+        "start": 345.83,
+        "duration": 5.48
+    },
+    {
+        "text": "analysis of a formula. And in fact",
+        "start": 352.639,
+        "duration": 2.99
+    },
+    {
+        "text": "what is really needed here is some other perspective, some other way of doing the problem.",
+        "start": 356.0,
+        "duration": 5.089
+    },
+    {
+        "text": "Let's say we're doing four kinds.",
+        "start": 364.88,
+        "duration": 2.0
+    },
+    {
+        "text": "So the first kind that I wrote down was onion,",
+        "start": 366.89,
+        "duration": 2.809
+    },
+    {
+        "text": "the next kind might be blueberry, the next kind might be bubblegum",
+        "start": 369.94,
+        "duration": 4.109
+    },
+    {
+        "text": "and the final kind will be caramel. We have our 12 bagels,",
+        "start": 374.06,
+        "duration": 4.88
+    },
+    {
+        "text": "so I'm just writing 12 stars.",
+        "start": 378.94,
+        "duration": 2.0
+    },
+    {
+        "text": "So far these bagels are unassigned in terms of their flavor. So so far we have these twelve bagels,",
+        "start": 381.05,
+        "duration": 6.529
+    },
+    {
+        "text": "and I've just written them with asterisks, known in the trade as stars, and I have to decide",
+        "start": 387.58,
+        "duration": 5.04
+    },
+    {
+        "text": "which of these stars will be onion, which of the stars will be blueberry, which will be bubblegum and which will be",
+        "start": 392.9,
+        "duration": 5.6
+    },
+    {
+        "text": "caramel. And the way",
+        "start": 398.6,
+        "duration": 1.28
+    },
+    {
+        "text": "I will do that is to place dividers between the kinds. So let's say that I want to have only one caramel.",
+        "start": 399.88,
+        "duration": 7.2
+    },
+    {
+        "text": "So I will put a divider",
+        "start": 407.12,
+        "duration": 2.0
+    },
+    {
+        "text": "separating off the caramel from the rest of the bagels. And then there's bubblegum.",
+        "start": 409.31,
+        "duration": 5.899
+    },
+    {
+        "text": "That's a little sketchy.",
+        "start": 415.49,
+        "duration": 1.41
+    },
+    {
+        "text": "Maybe I'll take two bubblegums, so I'll put a divider here, and then the bubblegum",
+        "start": 416.9,
+        "duration": 5.18
+    },
+    {
+        "text": "range from the first divider that I'm writing all the way to the right, to the second divider. Let's say",
+        "start": 422.27,
+        "duration": 5.36
+    },
+    {
+        "text": "I really like blueberry and I'll take four of them. So I'll write the blueberry bagels here.",
+        "start": 427.63,
+        "duration": 5.16
+    },
+    {
+        "text": "And that leaves 1, 2, 3, 4, 5 bagels for the onion category. So, what have I done?",
+        "start": 432.79,
+        "duration": 6.809
+    },
+    {
+        "text": "Well, I've written in a line a",
+        "start": 440.12,
+        "duration": 2.42
+    },
+    {
+        "text": "certain number of symbols. How many symbols? Well, there were 12 symbols for the bagels to start, and then, in order to separate out the",
+        "start": 443.18,
+        "duration": 7.7
+    },
+    {
+        "text": "4 kinds, I needed 3 dividers.",
+        "start": 451.13,
+        "duration": 2.929
+    },
+    {
+        "text": "That's a really key point, that the number of dividers is one less than number of kinds. And all together I've written 15",
+        "start": 454.06,
+        "duration": 7.83
+    },
+    {
+        "text": "symbols, and",
+        "start": 462.169,
+        "duration": 1.351
+    },
+    {
+        "text": "these 15 symbols, 12 are stars, and the remaining symbols are called bars.",
+        "start": 463.52,
+        "duration": 6.47
+    },
+    {
+        "text": "So what I have are stars and bars.",
+        "start": 470.06,
+        "duration": 3.95
+    },
+    {
+        "text": "I have summarized my choice of",
+        "start": 474.01,
+        "duration": 2.849
+    },
+    {
+        "text": "kinds of bagels, onion, blueberry, bubblegum and caramel, by writing down the bars",
+        "start": 477.32,
+        "duration": 5.539
+    },
+    {
+        "text": "that are interspersed among the stars. And the key point to this whole",
+        "start": 483.229,
+        "duration": 4.52
+    },
+    {
+        "text": "analysis, is that I can put the stars and the bars in any order",
+        "start": 488.21,
+        "duration": 5.06
+    },
+    {
+        "text": "I want, and for each order, that gives me a choice of how my bag will be",
+        "start": 493.27,
+        "duration": 5.429
+    },
+    {
+        "text": "constituted. And in order to",
+        "start": 499.429,
+        "duration": 2.0
+    },
+    {
+        "text": "figure out where the bars go relative to the stars, what I have to do is I have to contemplate",
+        "start": 502.159,
+        "duration": 6.139
+    },
+    {
+        "text": "some tableau that is completely blank. It's devoid of symbols.",
+        "start": 508.669,
+        "duration": 5.209
+    },
+    {
+        "text": "Where all together there are going to be 15 symbols, and every one of these slots is",
+        "start": 514.009,
+        "duration": 6.05
+    },
+    {
+        "text": "capable of housing a star or a bar. And the rule,",
+        "start": 520.459,
+        "duration": 4.729
+    },
+    {
+        "text": "when I make my final decision, is that of these 15 slots, 12 of them have to be stars",
+        "start": 525.62,
+        "duration": 6.619
+    },
+    {
+        "text": "and 3 of them have to be bars.",
+        "start": 532.52,
+        "duration": 2.52
+    },
+    {
+        "text": "Brady: \"So Professor, when you fill out your stars and bars on this,",
+        "start": 535.04,
+        "duration": 3.72
+    },
+    {
+        "text": "basically if you have 0 of any flavor, it just means you'll have consecutive bars in that list.\"",
+        "start": 539.12,
+        "duration": 5.6
+    },
+    {
+        "text": "That's right. Except, for example, suppose",
+        "start": 545.1,
+        "duration": 2.1
+    },
+    {
+        "text": "I want no onion, right - whatsoever, then I would start with a bar, and to the left of the bar, there is no onion,",
+        "start": 547.209,
+        "duration": 6.929
+    },
+    {
+        "text": "there's nothing. And then to the right of the bar, there will be 12 slots for bagels and 2 more slots for bars.",
+        "start": 554.139,
+        "duration": 7.14
+    },
+    {
+        "text": "So what we've done is we've related this bagel problem to another kind of problem.",
+        "start": 561.279,
+        "duration": 5.429
+    },
+    {
+        "text": "It's a problem where there are 15 slots total, 3 of the slots are bars,",
+        "start": 566.708,
+        "duration": 5.072
+    },
+    {
+        "text": "and 12 of the slots are stars. And we just have to decide which are which. So this is a standard",
+        "start": 572.12,
+        "duration": 6.74
+    },
+    {
+        "text": "combinatorial problem. There's a very simple formula involving factorials. So let's say that I want to analyze this problem",
+        "start": 579.34,
+        "duration": 7.439
+    },
+    {
+        "text": "I want to make the choice. So what I'll do is",
+        "start": 586.779,
+        "duration": 2.609
+    },
+    {
+        "text": "I'll say there are 15 slots to begin with, and I have to figure out where the bars go.",
+        "start": 589.389,
+        "duration": 6.45
+    },
+    {
+        "text": "So let's say I'm gonna place my first bar somewhere.",
+        "start": 595.839,
+        "duration": 3.15
+    },
+    {
+        "text": "There are 15 possibilities for that first bar.",
+        "start": 599.389,
+        "duration": 3.29
+    },
+    {
+        "text": "So I write the 15 -15 choices. Once I have placed down the first bar, there will be",
+        "start": 602.68,
+        "duration": 6.539
+    },
+    {
+        "text": "14 remaining choices for the second bar, so I'll multiply by 14. And then, there will be 13",
+        "start": 609.41,
+        "duration": 7.46
+    },
+    {
+        "text": "choices for the third bar, and I seem to have this product as the number of ways of making my choices.",
+        "start": 617.3,
+        "duration": 6.54
+    },
+    {
+        "text": "However, that's not completely correct,",
+        "start": 623.84,
+        "duration": 2.48
+    },
+    {
+        "text": "because when I put down these bars, these bars all have equals status.",
+        "start": 626.72,
+        "duration": 5.02
+    },
+    {
+        "text": "It's not like there's a first bar, a second bar or a third bar, even though we do have an orientation,",
+        "start": 631.74,
+        "duration": 5.789
+    },
+    {
+        "text": "there's left to right. When I say I'm gonna put down my first bar,",
+        "start": 637.529,
+        "duration": 3.299
+    },
+    {
+        "text": "I could have put down this bar, this bar or this bar. And so I have to divide by a factor",
+        "start": 640.829,
+        "duration": 6.51
+    },
+    {
+        "text": "that shows you the number of ways of",
+        "start": 647.62,
+        "duration": 2.0
+    },
+    {
+        "text": "permuting around the 3 bars. And the number of ways of doing that is",
+        "start": 650.199,
+        "duration": 5.03
+    },
+    {
+        "text": "there are 3 bars, I get 3 choices to say which one was gonna be the first, and then two choices",
+        "start": 655.389,
+        "duration": 5.84
+    },
+    {
+        "text": "remaining, to see which will be the second. And then there's only one choice for the third bar.",
+        "start": 661.99,
+        "duration": 4.699
+    },
+    {
+        "text": "Brady: \"So that's removed the problem of ordering.\"",
+        "start": 666.689,
+        "duration": 2.291
+    },
+    {
+        "text": "That removes the problem of ordering. And so what we have here for",
+        "start": 669.24,
+        "duration": 3.86
+    },
+    {
+        "text": "4 kinds is",
+        "start": 673.569,
+        "duration": 2.0
+    },
+    {
+        "text": "we have",
+        "start": 675.579,
+        "duration": 1.351
+    },
+    {
+        "text": "to go back to the previous situation, where we were looking at 1 kind and 2 kinds and 3 kinds,",
+        "start": 676.93,
+        "duration": 5.899
+    },
+    {
+        "text": "we have 13 which is 12 plus 1, we have 14 which is 12 plus 2, and we have",
+        "start": 682.829,
+        "duration": 5.76
+    },
+    {
+        "text": "15 which is 12 plus 3, and then we divide by 1 times 2 times 3. So that's another way to summarize",
+        "start": 688.81,
+        "duration": 7.879
+    },
+    {
+        "text": "what we have here. And if you are familiar with",
+        "start": 697.12,
+        "duration": 3.709
+    },
+    {
+        "text": "the notation of combinations or",
+        "start": 701.829,
+        "duration": 2.0
+    },
+    {
+        "text": "binomial coefficients,",
+        "start": 704.44,
+        "duration": 1.68
+    },
+    {
+        "text": "this product divided by the denominator product",
+        "start": 706.12,
+        "duration": 3.1
+    },
+    {
+        "text": "is written 15 choose 3, and 15 choose 3 has a",
+        "start": 709.46,
+        "duration": 5.28
+    },
+    {
+        "text": "standard notation that identifies what it is. It's the product of all the, the first 15 positive integers,",
+        "start": 715.4,
+        "duration": 7.66
+    },
+    {
+        "text": "that's called 15 factorial, divided by the product of the first 3 positive integers, that's 3 factorial, and then",
+        "start": 723.06,
+        "duration": 7.949
+    },
+    {
+        "text": "divided by the",
+        "start": 731.22,
+        "duration": 1.84
+    },
+    {
+        "text": "factorial of 15 minus 3,",
+        "start": 733.06,
+        "duration": 2.58
+    },
+    {
+        "text": "that'll be 12 factorial. And in fact, you can see that",
+        "start": 735.64,
+        "duration": 2.78
+    },
+    {
+        "text": "this is another way of writing what I've already written. Because if I take 15",
+        "start": 738.42,
+        "duration": 4.349
+    },
+    {
+        "text": "factorial and divide by 12 factorial, I am taking the product of the first 15 integers and",
+        "start": 743.079,
+        "duration": 6.35
+    },
+    {
+        "text": "removing the product of the first 12 integers, and what's left are the integers from 13 to 15.",
+        "start": 749.86,
+        "duration": 8.04
+    },
+    {
+        "text": "13 times 14 times 15. So 15 factorial divided by 12 factorial",
+        "start": 758.16,
+        "duration": 4.74
+    },
+    {
+        "text": "is the same product that we have in the numerator, and the 3 factorial is 3 times 2 times 1,",
+        "start": 763.43,
+        "duration": 6.359
+    },
+    {
+        "text": "which also appears. And what's interesting about this formula is that",
+        "start": 770.22,
+        "duration": 4.19
+    },
+    {
+        "text": "there's a symmetry. It's symmetric between the number of bars and the number of stars. And that makes perfect sense,",
+        "start": 774.93,
+        "duration": 6.409
+    },
+    {
+        "text": "because when I'm choosing the bagel kinds, I can say, well",
+        "start": 781.62,
+        "duration": 3.919
+    },
+    {
+        "text": "I'm gonna choose the places where the bars go down, where the dividers go down,",
+        "start": 785.54,
+        "duration": 4.26
+    },
+    {
+        "text": "but symmetrically, I can choose the places where the bagels go down, leaving 3 remaining slots",
+        "start": 790.08,
+        "duration": 5.509
+    },
+    {
+        "text": "for the bars.",
+        "start": 795.98,
+        "duration": 1.02
+    },
+    {
+        "text": "Brady: \"To generalize it, if you had had to buy",
+        "start": 797.28,
+        "duration": 2.76
+    },
+    {
+        "text": "20 bagels and there were 6 flavors.\"",
+        "start": 800.36,
+        "duration": 2.46
+    },
+    {
+        "text": "Okay, so if there are 20 bagels that means 20 stars, and if there are 6 flavors",
+        "start": 803.459,
+        "duration": 6.47
+    },
+    {
+        "text": "that means there are 5 bars,",
+        "start": 811.14,
+        "duration": 2.9
+    },
+    {
+        "text": "and the answer then, would be that I take the total number of slots, which will be 20 plus 5,",
+        "start": 814.04,
+        "duration": 6.4
+    },
+    {
+        "text": "and I choose",
+        "start": 820.89,
+        "duration": 2.0
+    },
+    {
+        "text": "symmetrically either the 20 slots that are stars, or the",
+        "start": 823.649,
+        "duration": 5.75
+    },
+    {
+        "text": "5 slots that are bars.",
+        "start": 830.34,
+        "duration": 2.34
+    },
+    {
+        "text": "Yeah, this is the famous Berkeley Campanile. Yeah.",
+        "start": 833.54,
+        "duration": 2.78
+    },
+    {
+        "text": "[chimes that have been interrupting lesson continue]",
+        "start": 836.86,
+        "duration": 3.5
+    },
+    {
+        "text": "So let's say, in general, that we have n bagels and there are k",
+        "start": 841.72,
+        "duration": 5.06
+    },
+    {
+        "text": "kinds of bagels. Well, k kinds",
+        "start": 847.2,
+        "duration": 2.45
+    },
+    {
+        "text": "corresponds to k minus 1 bars. And so the total number of symbols is going to be n, which is the number of",
+        "start": 850.589,
+        "duration": 6.74
+    },
+    {
+        "text": "bagels plus k minus 1, which is the number of dividers. And the number of ways of choosing",
+        "start": 857.88,
+        "duration": 6.289
+    },
+    {
+        "text": "the n bagels when there are k kinds is the number of ways of choosing",
+        "start": 864.72,
+        "duration": 4.46
+    },
+    {
+        "text": "k minus 1 things from a total of n plus k minus 1 slots.",
+        "start": 869.79,
+        "duration": 5.96
+    },
+    {
+        "text": "And symmetrically, that's the same as choosing n things from a situation where there are n",
+        "start": 876.36,
+        "duration": 6.14
+    },
+    {
+        "text": "plus k minus 1 slots. And let me just",
+        "start": 882.5,
+        "duration": 2.789
+    },
+    {
+        "text": "also write that in terms of factorials, if you like. This is n plus k minus 1 factorial",
+        "start": 885.66,
+        "duration": 5.929
+    },
+    {
+        "text": "divided by the product of two factorials,",
+        "start": 892.52,
+        "duration": 2.78
+    },
+    {
+        "text": "n factorial and k minus 1 factorial.",
+        "start": 895.52,
+        "duration": 2.74
+    },
+    {
+        "text": "Brady: \"What happens if we have more flavors than we need bagels?",
+        "start": 898.26,
+        "duration": 4.76
+    },
+    {
+        "text": "\"Like if you are only buying 5 bagels and there are 10 flavors?\"",
+        "start": 903.28,
+        "duration": 2.94
+    },
+    {
+        "text": "It just means that there will be quite a few bars that are either at the end of the",
+        "start": 906.22,
+        "duration": 4.1
+    },
+    {
+        "text": "configuration or next to other bars. The same problem",
+        "start": 910.559,
+        "duration": 2.78
+    },
+    {
+        "text": "occurs in disguise",
+        "start": 914.069,
+        "duration": 2.179
+    },
+    {
+        "text": "if you ask",
+        "start": 917.069,
+        "duration": 1.591
+    },
+    {
+        "text": "students the following sort of question.",
+        "start": 918.66,
+        "duration": 2.0
+    },
+    {
+        "text": "Suppose you have a",
+        "start": 921.54,
+        "duration": 1.649
+    },
+    {
+        "text": "bag of 12 identical lollipops.",
+        "start": 923.189,
+        "duration": 3.68
+    },
+    {
+        "text": "and there are 4 children, and you want to distribute these 12 lollipops to the 4 children.",
+        "start": 926.87,
+        "duration": 6.389
+    },
+    {
+        "text": "How many ways can you do that? The answer is that you should take these children,",
+        "start": 933.259,
+        "duration": 4.049
+    },
+    {
+        "text": "and you should give them temporary names. You should call one child Onion, one child Blueberry, the third child will be called",
+        "start": 937.309,
+        "duration": 7.92
+    },
+    {
+        "text": "Bubblegum and the fourth child will become Caramel. And so you have really exactly the same problem, and it has exactly the same answer.",
+        "start": 945.56,
+        "duration": 7.46
+    },
+    {
+        "text": "...there's only one thing to switch to in this case, it's door number three.",
+        "start": 954.08,
+        "duration": 4.04
+    },
+    {
+        "text": "Are you gonna stay with your choice or are you gonna make that leap to something different? And very often",
+        "start": 958.129,
+        "duration": 6.42
+    },
+    {
+        "text": "contestants would stand there agonized, right, so they've got some new information - stick or switch - stick or switch",
+        "start": 964.8,
+        "duration": 6.559
+    }
+]

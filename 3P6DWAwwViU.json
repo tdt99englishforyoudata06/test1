@@ -1,0 +1,837 @@
+[
+    {
+        "text": "TONY PADILLA: A very very big number, a super super big number.",
+        "start": 0.0,
+        "duration": 3.3
+    },
+    {
+        "text": "In fact, it's just an off-the-scale big number, and that's TREE(3).",
+        "start": 3.3,
+        "duration": 5.26
+    },
+    {
+        "text": "It absolutely puts Graham's Number to shame.",
+        "start": 8.56,
+        "duration": 2.4
+    },
+    {
+        "text": "I mean, really Graham's Number is effectively zero compared to TREE(3).",
+        "start": 11.38,
+        "duration": 3.76
+    },
+    {
+        "text": "Let's explain where TREE(3) comes from.",
+        "start": 15.14,
+        "duration": 2.08
+    },
+    {
+        "text": "Well, It comes from a game of trees.",
+        "start": 17.22,
+        "duration": 2.28
+    },
+    {
+        "text": "There are three different types of seeds.",
+        "start": 19.5,
+        "duration": 1.5
+    },
+    {
+        "text": "We're gonna have a green seed...",
+        "start": 21.0,
+        "duration": 1.72
+    },
+    {
+        "text": "Mathematicians wouldn't call these seeds,",
+        "start": 23.56,
+        "duration": 1.52
+    },
+    {
+        "text": "they'd call them nodes, but we'll call them seeds.",
+        "start": 25.08,
+        "duration": 2.602
+    },
+    {
+        "text": "Okay, and a black seed, and a red seed.",
+        "start": 27.682,
+        "duration": 3.278
+    },
+    {
+        "text": "And what we're gonna try and do is we're gonna try to build a forest.",
+        "start": 30.96,
+        "duration": 3.54
+    },
+    {
+        "text": "Okay, one tree at a time.",
+        "start": 34.88,
+        "duration": 1.22
+    },
+    {
+        "text": "The first tree can't have more than one seed.",
+        "start": 36.1,
+        "duration": 3.06
+    },
+    {
+        "text": "The second tree can't have more than two seeds.",
+        "start": 39.72,
+        "duration": 2.24
+    },
+    {
+        "text": "The third tree can't have more than three seeds and so on, okay?",
+        "start": 42.48,
+        "duration": 2.74
+    },
+    {
+        "text": "And that's rule number one.",
+        "start": 45.22,
+        "duration": 1.32
+    },
+    {
+        "text": "The other rule is that if you build a tree,",
+        "start": 46.54,
+        "duration": 1.94
+    },
+    {
+        "text": "if you find that an earlier tree could've been contained within that tree,",
+        "start": 48.48,
+        "duration": 4.8
+    },
+    {
+        "text": "the whole forest dies.",
+        "start": 53.84,
+        "duration": 1.32
+    },
+    {
+        "text": "Okay? So let's just sort of illustrate what we mean,",
+        "start": 55.78,
+        "duration": 2.74
+    },
+    {
+        "text": "so let's try and build a tree for example, so we might start off with,",
+        "start": 58.52,
+        "duration": 3.32
+    },
+    {
+        "text": "you know, a green seed...",
+        "start": 62.46,
+        "duration": 1.32
+    },
+    {
+        "text": "And then we branch up and we get a black seed...",
+        "start": 63.78,
+        "duration": 3.38
+    },
+    {
+        "text": "And then maybe we have two branches...",
+        "start": 67.5,
+        "duration": 2.46
+    },
+    {
+        "text": "And there, you know we can have another green seed maybe...",
+        "start": 69.96,
+        "duration": 2.72
+    },
+    {
+        "text": "And we can sort of draw these trees, right?",
+        "start": 73.1,
+        "duration": 2.74
+    },
+    {
+        "text": "We said that the first go, the first tree, shouldn't have more than one seed,",
+        "start": 75.84,
+        "duration": 3.68
+    },
+    {
+        "text": "the second tree shouldn't have more than two seeds, and so on.",
+        "start": 79.52,
+        "duration": 1.908
+    },
+    {
+        "text": "We also said if you build a tree,",
+        "start": 81.428,
+        "duration": 1.852
+    },
+    {
+        "text": "then an earlier tree could've been contained within it, then the forest dies,",
+        "start": 83.74,
+        "duration": 3.447
+    },
+    {
+        "text": "so what do we mean by contained?",
+        "start": 87.187,
+        "duration": 1.653
+    },
+    {
+        "text": "Well the mathematical term that we're really talking about here is inf-embeddable.",
+        "start": 89.02,
+        "duration": 4.28
+    },
+    {
+        "text": "Don't worry about what inf-embeddable is,",
+        "start": 93.66,
+        "duration": 1.68
+    },
+    {
+        "text": "let's just try to understand what we mean by one tree being contained in another tree.",
+        "start": 95.34,
+        "duration": 3.72
+    },
+    {
+        "text": "Okay, so let me show you.",
+        "start": 99.32,
+        "duration": 1.4
+    },
+    {
+        "text": "We've got a tree here already, so we could draw another tree.",
+        "start": 100.72,
+        "duration": 3.02
+    },
+    {
+        "text": "For example, we could draw...",
+        "start": 103.9,
+        "duration": 1.36
+    },
+    {
+        "text": "this tree.",
+        "start": 105.64,
+        "duration": 1.02
+    },
+    {
+        "text": "And I think you'd be quite happy if you said that this tree was contained in this tree",
+        "start": 106.82,
+        "duration": 3.9
+    },
+    {
+        "text": "because you can sort of see you've got that there,",
+        "start": 110.72,
+        "duration": 2.173
+    },
+    {
+        "text": "and you've got that there,",
+        "start": 112.893,
+        "duration": 1.087
+    },
+    {
+        "text": "and you've got that there, so that tree is kinda contained in that tree.",
+        "start": 114.46,
+        "duration": 3.439
+    },
+    {
+        "text": "There's something else that you have to- when you say a tree is contained in another,",
+        "start": 117.9,
+        "duration": 2.96
+    },
+    {
+        "text": "there's an important property that they have to satisfy.",
+        "start": 120.86,
+        "duration": 3.02
+    },
+    {
+        "text": "And that's that they must preserve the nearest common ancestor, so what do I mean by that?",
+        "start": 124.3,
+        "duration": 4.94
+    },
+    {
+        "text": "I mean this red seed,",
+        "start": 129.24,
+        "duration": 2.38
+    },
+    {
+        "text": "and this green seed,",
+        "start": 132.16,
+        "duration": 1.56
+    },
+    {
+        "text": "their nearest common ancestor is this black seed.",
+        "start": 133.72,
+        "duration": 2.58
+    },
+    {
+        "text": "And that same's true here.",
+        "start": 136.64,
+        "duration": 1.24
+    },
+    {
+        "text": "This red seed, this green seed, their nearest common ancestor is this black seed.",
+        "start": 137.88,
+        "duration": 3.78
+    },
+    {
+        "text": "So indeed, this tree is contained in this tree.",
+        "start": 141.66,
+        "duration": 3.28
+    },
+    {
+        "text": "Okay, let's do another example.",
+        "start": 145.08,
+        "duration": 1.28
+    },
+    {
+        "text": "Is this tree contained in this tree?",
+        "start": 146.36,
+        "duration": 1.74
+    },
+    {
+        "text": "At some level you might think that it is.",
+        "start": 148.1,
+        "duration": 2.1
+    },
+    {
+        "text": "Green, green, red.",
+        "start": 150.2,
+        "duration": 1.54
+    },
+    {
+        "text": "Green, green, red.",
+        "start": 151.92,
+        "duration": 0.96
+    },
+    {
+        "text": "So you might think that this tree is indeed contained in this tree.",
+        "start": 153.28,
+        "duration": 3.24
+    },
+    {
+        "text": "But it's not. And the reason it's not is because of the nearest common ancestor.",
+        "start": 156.74,
+        "duration": 4.32
+    },
+    {
+        "text": "This red and this green, their nearest common ancestor is a green.",
+        "start": 161.2,
+        "duration": 2.74
+    },
+    {
+        "text": "It's this green one here.",
+        "start": 163.94,
+        "duration": 1.2
+    },
+    {
+        "text": "This red and this green, their nearest common ancestor is this black.",
+        "start": 165.14,
+        "duration": 3.26
+    },
+    {
+        "text": "So this tree is not contained in this tree.",
+        "start": 168.4,
+        "duration": 2.68
+    },
+    {
+        "text": "I want to do one last example, just so we get this point properly understood.",
+        "start": 171.26,
+        "duration": 3.64
+    },
+    {
+        "text": "So let me draw my new tree...",
+        "start": 174.9,
+        "duration": 1.44
+    },
+    {
+        "text": "Okay, so I've got two trees here, this one and this one.",
+        "start": 176.34,
+        "duration": 2.58
+    },
+    {
+        "text": "I want to ask: Is this one",
+        "start": 178.92,
+        "duration": 2.74
+    },
+    {
+        "text": "contained in this one?",
+        "start": 181.94,
+        "duration": 0.96
+    },
+    {
+        "text": "All right, now, it doesn't look obvious that it is, but actually, it is.",
+        "start": 183.86,
+        "duration": 3.66
+    },
+    {
+        "text": "You could take this guy,",
+        "start": 187.52,
+        "duration": 1.96
+    },
+    {
+        "text": "you could take this guy,",
+        "start": 190.1,
+        "duration": 1.58
+    },
+    {
+        "text": "and you could take this guy, okay?",
+        "start": 191.96,
+        "duration": 1.96
+    },
+    {
+        "text": "That's your black-black-red,",
+        "start": 193.94,
+        "duration": 1.814
+    },
+    {
+        "text": "black-black-red,",
+        "start": 195.76,
+        "duration": 1.14
+    },
+    {
+        "text": "and also they preserve the ancestry rule.",
+        "start": 197.3,
+        "duration": 2.08
+    },
+    {
+        "text": "Because the nearest common ancestor of this black,",
+        "start": 199.82,
+        "duration": 2.72
+    },
+    {
+        "text": "and this red is...",
+        "start": 202.9,
+        "duration": 1.5
+    },
+    {
+        "text": "the black.",
+        "start": 204.72,
+        "duration": 0.7
+    },
+    {
+        "text": "BRADY: The nearest COMMON ancestor.",
+        "start": 205.44,
+        "duration": 1.54
+    },
+    {
+        "text": "TONY: Yes, the nearest COMMON ancestor.",
+        "start": 206.98,
+        "duration": 1.6
+    },
+    {
+        "text": "So even though they have other ancestors, the nearest common ancestor is this black guy, right?",
+        "start": 208.58,
+        "duration": 4.76
+    },
+    {
+        "text": "And that's what's important.",
+        "start": 213.34,
+        "duration": 1.96
+    },
+    {
+        "text": "And this is shared by the other graph and so, we can say that this graph is contained in this one.",
+        "start": 215.3,
+        "duration": 4.9
+    },
+    {
+        "text": "Okay, those the rules, are we happy with the rules?",
+        "start": 220.2,
+        "duration": 2.36
+    },
+    {
+        "text": "BRADY: I think so.",
+        "start": 222.96,
+        "duration": 1.1
+    },
+    {
+        "text": "TONY: First rule is: tree number one shouldn't have more than one seed,",
+        "start": 224.06,
+        "duration": 2.62
+    },
+    {
+        "text": "tree number two shouldn't have more than two seeds,",
+        "start": 226.68,
+        "duration": 1.9
+    },
+    {
+        "text": "tree number three shouldn't have more than three seeds.",
+        "start": 228.58,
+        "duration": 1.82
+    },
+    {
+        "text": "We're going to make a forest of trees and the minute we write down a tree that contains an earlier tree,",
+        "start": 230.4,
+        "duration": 5.12
+    },
+    {
+        "text": "forest dies.",
+        "start": 236.72,
+        "duration": 0.78
+    },
+    {
+        "text": "So let's first play the game with only one type of seed.",
+        "start": 237.5,
+        "duration": 2.9
+    },
+    {
+        "text": "Let's say it's the green seed.",
+        "start": 240.4,
+        "duration": 1.336
+    },
+    {
+        "text": "Well the first tree has to have one seed, at most, so I'm gonna just do it, right?",
+        "start": 241.74,
+        "duration": 5.0
+    },
+    {
+        "text": "BRADY: Yup.",
+        "start": 246.74,
+        "duration": 1.02
+    },
+    {
+        "text": "TONY: Okay, that's it. Can I write down anything else?",
+        "start": 247.76,
+        "duration": 3.02
+    },
+    {
+        "text": "There's no way I can- the next- I'm stopped, I have to stop now, right?",
+        "start": 250.78,
+        "duration": 3.78
+    },
+    {
+        "text": "Clearly, if I could draw this tree for example...",
+        "start": 254.56,
+        "duration": 2.0
+    },
+    {
+        "text": "Alright, but clearly this is contained in this. So this has to stop at one.",
+        "start": 257.16,
+        "duration": 4.84
+    },
+    {
+        "text": "That tells me that TREE(1) is one.",
+        "start": 262.0,
+        "duration": 4.06
+    },
+    {
+        "text": "Okay?",
+        "start": 267.1,
+        "duration": 0.94
+    },
+    {
+        "text": "So this game stops at one.",
+        "start": 268.62,
+        "duration": 1.78
+    },
+    {
+        "text": "Now let's do it with two.",
+        "start": 271.04,
+        "duration": 0.98
+    },
+    {
+        "text": "I'm gonna use green and red, okay? Okay, so tree number one.",
+        "start": 272.02,
+        "duration": 3.18
+    },
+    {
+        "text": "Doesn't matter; it's gonna have to be out of the red or the green, doesn't make any difference.",
+        "start": 275.2,
+        "duration": 3.68
+    },
+    {
+        "text": "I'll choose the green.",
+        "start": 278.88,
+        "duration": 1.4
+    },
+    {
+        "text": "Okay, next one! What am I gonna do next?",
+        "start": 280.28,
+        "duration": 2.04
+    },
+    {
+        "text": "Well, I definitely can't draw say, you know, two greens or something like that.",
+        "start": 282.32,
+        "duration": 4.4
+    },
+    {
+        "text": "I could do this. I could write down another red, just a red seed like that.",
+        "start": 286.9,
+        "duration": 3.96
+    },
+    {
+        "text": "But what could I draw next? Well, anything I draw next is gonna have to contain either the green seed",
+        "start": 290.86,
+        "duration": 4.82
+    },
+    {
+        "text": "or the red seed, so it's going to contain- so, let me just draw an example down, so something like this.",
+        "start": 295.68,
+        "duration": 5.42
+    },
+    {
+        "text": "So whatever happens, you know, I'm gonna be able to contain one of these guys in this next one.",
+        "start": 301.86,
+        "duration": 4.82
+    },
+    {
+        "text": "This game is stopped at two.",
+        "start": 306.68,
+        "duration": 1.46
+    },
+    {
+        "text": "Could I have gone any further than two, though, is that the longest game I could have played?",
+        "start": 308.44,
+        "duration": 3.64
+    },
+    {
+        "text": "It's not. There is a longer game you could have played. Let's play it.",
+        "start": 313.32,
+        "duration": 3.58
+    },
+    {
+        "text": "Okay, so I start off with",
+        "start": 317.3,
+        "duration": 1.24
+    },
+    {
+        "text": "my green seed.",
+        "start": 319.76,
+        "duration": 0.82
+    },
+    {
+        "text": "Then,",
+        "start": 321.48,
+        "duration": 0.92
+    },
+    {
+        "text": "if I've drawn two red seeds",
+        "start": 323.76,
+        "duration": 1.94
+    },
+    {
+        "text": "Okay, that's fine. I think that- can I carry on? Yes. I can, I can draw a red seed.",
+        "start": 326.3,
+        "duration": 5.26
+    },
+    {
+        "text": "Because remember, the rule is:",
+        "start": 332.25,
+        "duration": 2.299
+    },
+    {
+        "text": "you can't- if you draw down a tree that contains an EARLIER tree, that's not allowed.",
+        "start": 335.22,
+        "duration": 4.98
+    },
+    {
+        "text": "But this tree",
+        "start": 340.56,
+        "duration": 0.92
+    },
+    {
+        "text": "doesn't contain either of these two, okay?",
+        "start": 341.48,
+        "duration": 2.46
+    },
+    {
+        "text": "So I've actually managed to make this game last three trees. And actually I can't go any further.",
+        "start": 344.2,
+        "duration": 5.42
+    },
+    {
+        "text": "So that tells me that TREE(2)",
+        "start": 350.34,
+        "duration": 3.94
+    },
+    {
+        "text": "is three.",
+        "start": 355.94,
+        "duration": 1.04
+    },
+    {
+        "text": "So what this tree thing is telling us is the length of the longest game that you could play this way.",
+        "start": 357.56,
+        "duration": 5.42
+    },
+    {
+        "text": "So now, Brady, have you got a bit of time on your hands?",
+        "start": 364.36,
+        "duration": 2.14
+    },
+    {
+        "text": "Now we're gonna use three different types of seeds, three different colors: red, black, and green, okay?",
+        "start": 366.82,
+        "duration": 4.3
+    },
+    {
+        "text": "Well, what's the longest game we could play?",
+        "start": 371.84,
+        "duration": 2.36
+    },
+    {
+        "text": "Well, you could start off with a green. You could maybe do this red, if you wanted to,",
+        "start": 375.32,
+        "duration": 5.7
+    },
+    {
+        "text": "you know...",
+        "start": 381.9,
+        "duration": 0.7
+    },
+    {
+        "text": "Uhhh... What else could you do? You could do this guy, I suppose, something like this.",
+        "start": 382.6,
+        "duration": 5.74
+    },
+    {
+        "text": "I mean, there's all sorts you could start to write down... I mean you can go on and on and on, right?",
+        "start": 389.0,
+        "duration": 4.3
+    },
+    {
+        "text": "What's the longest game you could play? The longest game you could play",
+        "start": 393.62,
+        "duration": 3.08
+    },
+    {
+        "text": "is TREE(3). It's the answer. Now how big is that number?",
+        "start": 398.06,
+        "duration": 4.88
+    },
+    {
+        "text": "Now one thing you might ask is: is it infinite?",
+        "start": 403.28,
+        "duration": 1.94
+    },
+    {
+        "text": "It's not infinite. It's definitely finite. It's just really really really really really really really really really...",
+        "start": 405.8,
+        "duration": 6.62
+    },
+    {
+        "text": "I can't express how really big it is. It's off the scale big.",
+        "start": 412.62,
+        "duration": 5.32
+    },
+    {
+        "text": "So, literally we go from 1, 3, off the scale. It's mad, it's just- literally just by increasing number of seeds by one,",
+        "start": 418.46,
+        "duration": 7.3
+    },
+    {
+        "text": "we suddenly go absolutely off the scale in this number, the longest game that you could play.",
+        "start": 425.76,
+        "duration": 6.14
+    },
+    {
+        "text": "How big is it? We said, back in the day, that if you try to picture Graham's Number in your head,",
+        "start": 431.9,
+        "duration": 5.98
+    },
+    {
+        "text": "right, it would make your head collapse to form a black hole.",
+        "start": 437.88,
+        "duration": 2.34
+    },
+    {
+        "text": "*Rumbling*",
+        "start": 440.22,
+        "duration": 0.94
+    },
+    {
+        "text": "*Rumbling, faint whistling*",
+        "start": 441.16,
+        "duration": 1.24
+    },
+    {
+        "text": "*Reverb effect* Well, because- there's a sort of maximum amount of what we call entropy",
+        "start": 442.4,
+        "duration": 3.54
+    },
+    {
+        "text": "that can be stored in your head...",
+        "start": 445.94,
+        "duration": 1.54
+    },
+    {
+        "text": "Well, with TREE(3), even if you had Graham's Number of people and you just said to them each,",
+        "start": 447.48,
+        "duration": 7.78
+    },
+    {
+        "text": "you know, you just picture an equal amount of TREE(3),",
+        "start": 455.26,
+        "duration": 3.12
+    },
+    {
+        "text": "all of them would have their heads collapse into a black hole! *breaks into laughter*",
+        "start": 458.8,
+        "duration": 3.36
+    },
+    {
+        "text": "It's mad. It's so big. There is a lower bound on it that involves Ackermann numbers.",
+        "start": 462.16,
+        "duration": 4.96
+    },
+    {
+        "text": "Ackermann numbers themselves are off the scale. This is just some rubbish lower bound on it.",
+        "start": 467.12,
+        "duration": 4.26
+    },
+    {
+        "text": "BRADY: So, but it's not- it's not- it's also not narrowed down, it's between two bounds.",
+        "start": 471.38,
+        "duration": 4.24
+    },
+    {
+        "text": "TONY: No. We don't have an upper bound on it. Well, we know it's not infinite,",
+        "start": 476.02,
+        "duration": 2.62
+    },
+    {
+        "text": "but there's no known upper bound, but what there is known is a lower bound.",
+        "start": 478.64,
+        "duration": 4.1
+    },
+    {
+        "text": "It's bigger- well, it's certainly bigger than 3, for example. *breaks into laughter*",
+        "start": 482.74,
+        "duration": 2.64
+    },
+    {
+        "text": "It's certainly bigger than 4, but it's also bigger than this very large number,",
+        "start": 485.54,
+        "duration": 3.74
+    },
+    {
+        "text": "Uhhh... in particular, Ackermann's Number. It's actually Ackermann's number taken to an Ackermann amount",
+        "start": 489.68,
+        "duration": 5.92
+    },
+    {
+        "text": "of iterations, it's just stupid. It's just- you can't even picture it.",
+        "start": 495.6,
+        "duration": 5.98
+    },
+    {
+        "text": "Okay, there's no physical process you can use to describe it.",
+        "start": 501.76,
+        "duration": 2.74
+    },
+    {
+        "text": "What is it good for? What is it useful for? What does any of this got to do with anything that's important?",
+        "start": 504.5,
+        "duration": 5.34
+    },
+    {
+        "text": "BRADY: So if you'd like to find out what TREE(3) is good for, also to hear a bit more about how big it is,",
+        "start": 510.24,
+        "duration": 6.2
+    },
+    {
+        "text": "and also how you can make even bigger numbers,",
+        "start": 516.58,
+        "duration": 2.56
+    },
+    {
+        "text": "We've got about 10 minutes of extra footage from this interview with Tony.",
+        "start": 519.54,
+        "duration": 4.0
+    },
+    {
+        "text": "And I'm putting it on our second channel Numberphile2, which is where we put extra stuff like that.",
+        "start": 523.78,
+        "duration": 6.02
+    },
+    {
+        "text": "There'll be a link on the screen and in the video description.",
+        "start": 529.98,
+        "duration": 2.52
+    },
+    {
+        "text": "Have you subscribed to Numberphile2? If you like all that extra stuff, you probably should.",
+        "start": 532.86,
+        "duration": 4.26
+    }
+]

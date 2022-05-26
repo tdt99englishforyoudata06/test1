@@ -1,0 +1,297 @@
+[
+    {
+        "text": "Here's how to make a\nloading screen on Roblox.",
+        "start": 0.31,
+        "duration": 2.967
+    },
+    {
+        "text": "You'll need to start by\ndesigning your loading screen.",
+        "start": 8.69,
+        "duration": 2.77
+    },
+    {
+        "text": "You can design your loading\nscreen in any way you see fit.",
+        "start": 11.46,
+        "duration": 2.83
+    },
+    {
+        "text": "However, it is important\nto name the objects",
+        "start": 14.29,
+        "duration": 2.13
+    },
+    {
+        "text": "exactly as shown.",
+        "start": 16.42,
+        "duration": 1.59
+    },
+    {
+        "text": "The slightest misspelling\ncan cause your code to break,",
+        "start": 18.01,
+        "duration": 2.46
+    },
+    {
+        "text": "so it is important to double-check.",
+        "start": 20.47,
+        "duration": 2.35
+    },
+    {
+        "text": "For the sake of time,",
+        "start": 22.82,
+        "duration": 1.13
+    },
+    {
+        "text": "we are going to speed up the\ndesign of the user interface.",
+        "start": 23.95,
+        "duration": 2.84
+    },
+    {
+        "text": "Feel free to pause at any time.",
+        "start": 26.79,
+        "duration": 2.36
+    },
+    {
+        "text": "It is important to make sure that",
+        "start": 29.15,
+        "duration": 1.71
+    },
+    {
+        "text": "the \"ResetOnSpawn\" property",
+        "start": 30.86,
+        "duration": 1.758
+    },
+    {
+        "text": "for your screen UI is not ticked,",
+        "start": 32.618,
+        "duration": 2.183
+    },
+    {
+        "text": "while the \"IgnoreGuiInset\"\nproperty should be ticked.",
+        "start": 34.801,
+        "duration": 4.109
+    },
+    {
+        "text": "The loading bar size should also be",
+        "start": 38.91,
+        "duration": 2.058
+    },
+    {
+        "text": "set to (0,0), (1,0)",
+        "start": 40.968,
+        "duration": 2.8
+    },
+    {
+        "text": "so that it is hidden when a\nplayer first joins your game.",
+        "start": 43.768,
+        "duration": 3.402
+    },
+    {
+        "text": "After you are satisfied with your design,",
+        "start": 47.17,
+        "duration": 2.2
+    },
+    {
+        "text": "right-click on the screen UI object",
+        "start": 49.37,
+        "duration": 2.37
+    },
+    {
+        "text": "and click \"Insert Object,\"",
+        "start": 51.74,
+        "duration": 2.083
+    },
+    {
+        "text": "followed by \"LocalScript.\"",
+        "start": 53.823,
+        "duration": 2.166
+    },
+    {
+        "text": "A local script will\nallow you to write code",
+        "start": 61.8,
+        "duration": 2.23
+    },
+    {
+        "text": "to make sure that your\nloading screen will function.",
+        "start": 64.03,
+        "duration": 3.24
+    },
+    {
+        "text": "Double-click on your local\nscript to start editing it.",
+        "start": 67.27,
+        "duration": 3.23
+    },
+    {
+        "text": "Highlight everything inside",
+        "start": 70.5,
+        "duration": 1.945
+    },
+    {
+        "text": "and delete it to start with a clean slate.",
+        "start": 72.445,
+        "duration": 2.735
+    },
+    {
+        "text": "To keep this short,",
+        "start": 75.18,
+        "duration": 1.06
+    },
+    {
+        "text": "we are going to speed through\nthe writing of the code,",
+        "start": 76.24,
+        "duration": 2.6
+    },
+    {
+        "text": "and then we'll break\ndown what each part does.",
+        "start": 78.84,
+        "duration": 3.25
+    },
+    {
+        "text": "You can find the code",
+        "start": 82.09,
+        "duration": 1.02
+    },
+    {
+        "text": "in the description below to follow along.",
+        "start": 83.11,
+        "duration": 2.05
+    },
+    {
+        "text": "The topmost section is",
+        "start": 86.36,
+        "duration": 1.37
+    },
+    {
+        "text": "where it will store all your variables.",
+        "start": 87.73,
+        "duration": 1.86
+    },
+    {
+        "text": "Variables are simply\nthere to help you access",
+        "start": 89.59,
+        "duration": 2.06
+    },
+    {
+        "text": "their contents more easily later on.",
+        "start": 91.65,
+        "duration": 3.06
+    },
+    {
+        "text": "The next section is what will\nmake your loading bar move.",
+        "start": 94.71,
+        "duration": 3.09
+    },
+    {
+        "text": "The function called ResizeBar",
+        "start": 97.8,
+        "duration": 2.391
+    },
+    {
+        "text": "will smoothly resize your loading screen",
+        "start": 100.191,
+        "duration": 1.816
+    },
+    {
+        "text": "if you give it a number.",
+        "start": 102.007,
+        "duration": 1.933
+    },
+    {
+        "text": "Then we are simply turning\noff all of the Roblox GUIs,",
+        "start": 103.94,
+        "duration": 3.43
+    },
+    {
+        "text": "which include the chat,\nleaderboard, health bar, and more.",
+        "start": 107.37,
+        "duration": 4.09
+    },
+    {
+        "text": "This is done to make sure",
+        "start": 111.46,
+        "duration": 1.56
+    },
+    {
+        "text": "that your loading screen looks cleaner.",
+        "start": 113.02,
+        "duration": 2.44
+    },
+    {
+        "text": "Afterwards, the loading screen is enabled",
+        "start": 115.46,
+        "duration": 2.17
+    },
+    {
+        "text": "and the loading bar\nmoves for the first 10%.",
+        "start": 117.63,
+        "duration": 4.07
+    },
+    {
+        "text": "Next, we need to make sure to wait",
+        "start": 121.7,
+        "duration": 2.03
+    },
+    {
+        "text": "for the player's avatar to load.",
+        "start": 123.73,
+        "duration": 2.23
+    },
+    {
+        "text": "After their avatar loads,",
+        "start": 125.96,
+        "duration": 1.616
+    },
+    {
+        "text": "the loading bar will move to 40%.",
+        "start": 127.576,
+        "duration": 3.624
+    },
+    {
+        "text": "The final step is to wait",
+        "start": 131.2,
+        "duration": 1.23
+    },
+    {
+        "text": "for any images and other assets to load.",
+        "start": 132.43,
+        "duration": 2.72
+    },
+    {
+        "text": "This is done by using the\nContentProvider service.",
+        "start": 135.15,
+        "duration": 2.99
+    },
+    {
+        "text": "Once this is done,",
+        "start": 138.14,
+        "duration": 1.18
+    },
+    {
+        "text": "the loading bar will finish up at 100%.",
+        "start": 139.32,
+        "duration": 3.11
+    },
+    {
+        "text": "Lastly, the player is notified\nthat the game has loaded,",
+        "start": 142.43,
+        "duration": 3.29
+    },
+    {
+        "text": "and we will give them the\ndefault Roblox GUIs back.",
+        "start": 145.72,
+        "duration": 3.18
+    },
+    {
+        "text": "The loading screen is then removed",
+        "start": 148.9,
+        "duration": 1.82
+    },
+    {
+        "text": "so that the players can enjoy your game.",
+        "start": 150.72,
+        "duration": 2.003
+    },
+    {
+        "text": "Finally, click \"Play\" to\ntest out your loading screen.",
+        "start": 153.62,
+        "duration": 4.5
+    }
+]

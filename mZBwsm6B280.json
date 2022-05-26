@@ -1,0 +1,1702 @@
+[
+    {
+        "text": "So I want to tell you about a classic",
+        "start": 0.0,
+        "duration": 1.76
+    },
+    {
+        "text": "paradox in probability that is sort of a",
+        "start": 1.76,
+        "duration": 2.4
+    },
+    {
+        "text": "cautionary tale for students when",
+        "start": 4.16,
+        "duration": 1.679
+    },
+    {
+        "text": "they're about to hear a puzzle or",
+        "start": 5.839,
+        "duration": 1.681
+    },
+    {
+        "text": "they're setting up some kind of problem;",
+        "start": 7.52,
+        "duration": 1.52
+    },
+    {
+        "text": "Bertrand's paradox. There was a person",
+        "start": 9.04,
+        "duration": 2.559
+    },
+    {
+        "text": "who wrote this probability textbook, last",
+        "start": 11.599,
+        "duration": 1.601
+    },
+    {
+        "text": "name Bertrand. He mentioned in there why",
+        "start": 13.2,
+        "duration": 1.76
+    },
+    {
+        "text": "you have to be very careful with",
+        "start": 14.96,
+        "duration": 1.12
+    },
+    {
+        "text": "probabilities when infinity is involved.",
+        "start": 16.08,
+        "duration": 2.4
+    },
+    {
+        "text": "So what I'm going to do is have a circle",
+        "start": 18.48,
+        "duration": 2.08
+    },
+    {
+        "text": "and",
+        "start": 20.56,
+        "duration": 0.799
+    },
+    {
+        "text": "I'm going to draw a random chord",
+        "start": 21.359,
+        "duration": 2.08
+    },
+    {
+        "text": "somewhere in that circle. So a chord is",
+        "start": 23.439,
+        "duration": 2.16
+    },
+    {
+        "text": "something that just connects two",
+        "start": 25.599,
+        "duration": 1.121
+    },
+    {
+        "text": "different points on that circle right?",
+        "start": 26.72,
+        "duration": 1.52
+    },
+    {
+        "text": "What I want to ask is a certain question",
+        "start": 28.24,
+        "duration": 1.76
+    },
+    {
+        "text": "about the distribution of the length of",
+        "start": 30.0,
+        "duration": 2.32
+    },
+    {
+        "text": "this chord. You know, there's some kinds",
+        "start": 32.32,
+        "duration": 2.0
+    },
+    {
+        "text": "where if it just glances through the",
+        "start": 34.32,
+        "duration": 1.759
+    },
+    {
+        "text": "circle that length will be very short, if",
+        "start": 36.079,
+        "duration": 2.081
+    },
+    {
+        "text": "it went through the diameter that length",
+        "start": 38.16,
+        "duration": 1.36
+    },
+    {
+        "text": "would be very long.",
+        "start": 39.52,
+        "duration": 1.359
+    },
+    {
+        "text": "One of the most natural questions you",
+        "start": 40.879,
+        "duration": 1.281
+    },
+    {
+        "text": "might ask is something about the mean of",
+        "start": 42.16,
+        "duration": 2.32
+    },
+    {
+        "text": "that length; but that turns out to be a",
+        "start": 44.48,
+        "duration": 1.84
+    },
+    {
+        "text": "little on the messier side for the",
+        "start": 46.32,
+        "duration": 1.52
+    },
+    {
+        "text": "cleanliness of what Bertrand wanted to",
+        "start": 47.84,
+        "duration": 1.6
+    },
+    {
+        "text": "do. So instead he says, compare that",
+        "start": 49.44,
+        "duration": 2.799
+    },
+    {
+        "text": "length to the length of",
+        "start": 52.239,
+        "duration": 2.32
+    },
+    {
+        "text": "the sides of an equilateral triangle",
+        "start": 54.559,
+        "duration": 2.401
+    },
+    {
+        "text": "that's inscribed in that circle, which",
+        "start": 56.96,
+        "duration": 1.759
+    },
+    {
+        "text": "might seem kind of weird, like why are we",
+        "start": 58.719,
+        "duration": 1.36
+    },
+    {
+        "text": "talking about triangles? But it turns out",
+        "start": 60.079,
+        "duration": 1.841
+    },
+    {
+        "text": "to make the answer especially clean. So",
+        "start": 61.92,
+        "duration": 2.16
+    },
+    {
+        "text": "if we take some equilateral triangle",
+        "start": 64.08,
+        "duration": 2.0
+    },
+    {
+        "text": "where - forgive the fact that I'm a little",
+        "start": 66.08,
+        "duration": 2.0
+    },
+    {
+        "text": "curved in the side length there - and we",
+        "start": 68.08,
+        "duration": 2.079
+    },
+    {
+        "text": "call this side length something like s.",
+        "start": 70.159,
+        "duration": 2.081
+    },
+    {
+        "text": "What Bertrand asks is, what is the",
+        "start": 72.24,
+        "duration": 1.76
+    },
+    {
+        "text": "probability that the length of your",
+        "start": 74.0,
+        "duration": 1.759
+    },
+    {
+        "text": "random chord is bigger than the side",
+        "start": 75.759,
+        "duration": 2.561
+    },
+    {
+        "text": "lengths of that triangle? And we could",
+        "start": 78.32,
+        "duration": 1.6
+    },
+    {
+        "text": "get a little numerical about this: if",
+        "start": 79.92,
+        "duration": 2.239
+    },
+    {
+        "text": "we say that the circle has a radius of",
+        "start": 82.159,
+        "duration": 2.32
+    },
+    {
+        "text": "1 then geometry students might",
+        "start": 84.479,
+        "duration": 2.32
+    },
+    {
+        "text": "remember their 30, 60, 90 triangles. This",
+        "start": 86.799,
+        "duration": 2.881
+    },
+    {
+        "text": "angle here is 30 degrees,",
+        "start": 89.68,
+        "duration": 2.079
+    },
+    {
+        "text": "this angle here is 60 degrees, and so",
+        "start": 91.759,
+        "duration": 3.36
+    },
+    {
+        "text": "this side length will be exactly one",
+        "start": 95.119,
+        "duration": 1.521
+    },
+    {
+        "text": "half,",
+        "start": 96.64,
+        "duration": 0.799
+    },
+    {
+        "text": "this side length will be square root of",
+        "start": 97.439,
+        "duration": 1.921
+    },
+    {
+        "text": "three halves. So we could also say if",
+        "start": 99.36,
+        "duration": 1.84
+    },
+    {
+        "text": "it's a unit circle what we're asking",
+        "start": 101.2,
+        "duration": 1.44
+    },
+    {
+        "text": "about is the probability that the length",
+        "start": 102.64,
+        "duration": 2.0
+    },
+    {
+        "text": "of our chord is bigger than the square",
+        "start": 104.64,
+        "duration": 1.519
+    },
+    {
+        "text": "root of 3? So just a simple question",
+        "start": 106.159,
+        "duration": 2.0
+    },
+    {
+        "text": "like anything else you might come across",
+        "start": 108.159,
+        "duration": 1.6
+    },
+    {
+        "text": "in some books, some list of exercises at",
+        "start": 109.759,
+        "duration": 2.081
+    },
+    {
+        "text": "the end; and let me show you how to solve",
+        "start": 111.84,
+        "duration": 2.239
+    },
+    {
+        "text": "it, it's really not that hard. Without",
+        "start": 114.079,
+        "duration": 1.36
+    },
+    {
+        "text": "loss of generality you can assume that",
+        "start": 115.439,
+        "duration": 1.761
+    },
+    {
+        "text": "the first point is one of the corners of",
+        "start": 117.2,
+        "duration": 2.239
+    },
+    {
+        "text": "the triangle, if it wasn't we could kind",
+        "start": 119.439,
+        "duration": 1.521
+    },
+    {
+        "text": "of rotate the triangle so that was the",
+        "start": 120.96,
+        "duration": 1.439
+    },
+    {
+        "text": "case.",
+        "start": 122.399,
+        "duration": 0.881
+    },
+    {
+        "text": "And then we weren't given any specifying",
+        "start": 123.28,
+        "duration": 2.479
+    },
+    {
+        "text": "information about the nature of the",
+        "start": 125.759,
+        "duration": 1.121
+    },
+    {
+        "text": "chord, so we'll assume that the next side",
+        "start": 126.88,
+        "duration": 1.84
+    },
+    {
+        "text": "is uniform somewhere around the circle.",
+        "start": 128.72,
+        "duration": 2.64
+    },
+    {
+        "text": "If the second point chosen was over",
+        "start": 131.36,
+        "duration": 2.08
+    },
+    {
+        "text": "there we would have a chord that's",
+        "start": 133.44,
+        "duration": 1.92
+    },
+    {
+        "text": "shorter than the side lengths of the",
+        "start": 135.36,
+        "duration": 1.44
+    },
+    {
+        "text": "triangle. If it fell into",
+        "start": 136.8,
+        "duration": 2.56
+    },
+    {
+        "text": "this kind of critical region on the",
+        "start": 139.36,
+        "duration": 1.519
+    },
+    {
+        "text": "opposite side of the triangle,",
+        "start": 140.879,
+        "duration": 2.161
+    },
+    {
+        "text": "up here,",
+        "start": 143.04,
+        "duration": 1.279
+    },
+    {
+        "text": "that region",
+        "start": 144.319,
+        "duration": 2.0
+    },
+    {
+        "text": "then the chord that you draw would be",
+        "start": 146.319,
+        "duration": 1.841
+    },
+    {
+        "text": "longer;",
+        "start": 148.16,
+        "duration": 1.28
+    },
+    {
+        "text": "and then similarly if it was on this",
+        "start": 149.44,
+        "duration": 1.439
+    },
+    {
+        "text": "other side it would be shorter. So",
+        "start": 150.879,
+        "duration": 1.521
+    },
+    {
+        "text": "probability student, they're doing their",
+        "start": 152.4,
+        "duration": 1.6
+    },
+    {
+        "text": "homework, they say what's the probability",
+        "start": 154.0,
+        "duration": 1.519
+    },
+    {
+        "text": "that this is longer? Not a problem,",
+        "start": 155.519,
+        "duration": 2.321
+    },
+    {
+        "text": "it is going to be exactly 1 in 3",
+        "start": 157.84,
+        "duration": 2.08
+    },
+    {
+        "text": "because the circle's evenly divided into",
+        "start": 159.92,
+        "duration": 1.679
+    },
+    {
+        "text": "three pieces, there's only one of",
+        "start": 161.599,
+        "duration": 1.521
+    },
+    {
+        "text": "those pieces that will give you longer",
+        "start": 163.12,
+        "duration": 1.759
+    },
+    {
+        "text": "chords, said and done not an issue. \n- (Brady: So if)",
+        "start": 164.879,
+        "duration": 3.041
+    },
+    {
+        "text": "(any random chord, there's a one-third)",
+        "start": 167.92,
+        "duration": 2.24
+    },
+    {
+        "text": "(chance it's going to have that long-)\n- Yeah,",
+        "start": 170.16,
+        "duration": 2.56
+    },
+    {
+        "text": "yeah. No paradox to be found, in fact",
+        "start": 172.72,
+        "duration": 2.64
+    },
+    {
+        "text": "let's verify this empirically. I ran a",
+        "start": 175.36,
+        "duration": 2.159
+    },
+    {
+        "text": "simulation. Essentially what I do is I",
+        "start": 177.519,
+        "duration": 1.921
+    },
+    {
+        "text": "choose a random pair of points somewhere",
+        "start": 179.44,
+        "duration": 2.0
+    },
+    {
+        "text": "in the circle, I connect them and then",
+        "start": 181.44,
+        "duration": 1.92
+    },
+    {
+        "text": "I'm going to count",
+        "start": 183.36,
+        "duration": 1.04
+    },
+    {
+        "text": "whether or not that ends up longer than",
+        "start": 184.4,
+        "duration": 2.08
+    },
+    {
+        "text": "what we need, and then basically ask the",
+        "start": 186.48,
+        "duration": 2.479
+    },
+    {
+        "text": "proportion where that's the case. And",
+        "start": 188.959,
+        "duration": 2.0
+    },
+    {
+        "text": "I'll color it blue whenever it's longer,",
+        "start": 190.959,
+        "duration": 2.081
+    },
+    {
+        "text": "and then white whenever it's shorter. I'm",
+        "start": 193.04,
+        "duration": 1.68
+    },
+    {
+        "text": "just going to have to simulate a whole",
+        "start": 194.72,
+        "duration": 1.2
+    },
+    {
+        "text": "bunch, it'll do on the order of a",
+        "start": 195.92,
+        "duration": 1.28
+    },
+    {
+        "text": "thousand. And this ratio will be telling",
+        "start": 197.2,
+        "duration": 2.16
+    },
+    {
+        "text": "us what proportion of them are longer",
+        "start": 199.36,
+        "duration": 2.239
+    },
+    {
+        "text": "than the length we care about, and yeah",
+        "start": 201.599,
+        "duration": 2.0
+    },
+    {
+        "text": "it seems like it's going roughly on the",
+        "start": 203.599,
+        "duration": 2.161
+    },
+    {
+        "text": "order of one third so 0.33, kind of",
+        "start": 205.76,
+        "duration": 2.32
+    },
+    {
+        "text": "oscillating 0.34. So we did it",
+        "start": 208.08,
+        "duration": 1.68
+    },
+    {
+        "text": "theoretically, we did it empirically, we",
+        "start": 209.76,
+        "duration": 1.44
+    },
+    {
+        "text": "have an answer. So another student comes",
+        "start": 211.2,
+        "duration": 2.0
+    },
+    {
+        "text": "in, they're doing the same homework and",
+        "start": 213.2,
+        "duration": 1.28
+    },
+    {
+        "text": "they say, you know the funny thing about",
+        "start": 214.48,
+        "duration": 1.36
+    },
+    {
+        "text": "chords is that they are uniquely",
+        "start": 215.84,
+        "duration": 1.92
+    },
+    {
+        "text": "determined by their midpoint in the",
+        "start": 217.76,
+        "duration": 2.16
+    },
+    {
+        "text": "circle.",
+        "start": 219.92,
+        "duration": 1.44
+    },
+    {
+        "text": "So they say,",
+        "start": 221.36,
+        "duration": 1.36
+    },
+    {
+        "text": "if you give me a midpoint of the chord",
+        "start": 222.72,
+        "duration": 2.64
+    },
+    {
+        "text": "they say actually there's one and only",
+        "start": 225.36,
+        "duration": 1.599
+    },
+    {
+        "text": "one chord",
+        "start": 226.959,
+        "duration": 1.121
+    },
+    {
+        "text": "for which that would be the midpoint. You",
+        "start": 228.08,
+        "duration": 1.519
+    },
+    {
+        "text": "draw the line that's perpendicular to",
+        "start": 229.599,
+        "duration": 2.481
+    },
+    {
+        "text": "the radius between that midpoint and the",
+        "start": 232.08,
+        "duration": 2.239
+    },
+    {
+        "text": "center of the circle",
+        "start": 234.319,
+        "duration": 1.601
+    },
+    {
+        "text": "and that will give you one and only one",
+        "start": 235.92,
+        "duration": 1.36
+    },
+    {
+        "text": "chord. So then they go to their triangle",
+        "start": 237.28,
+        "duration": 2.0
+    },
+    {
+        "text": "and they try to reason, when is it the",
+        "start": 239.28,
+        "duration": 1.519
+    },
+    {
+        "text": "case that our chord is going to be",
+        "start": 240.799,
+        "duration": 2.64
+    },
+    {
+        "text": "shorter than the side lengths of that",
+        "start": 243.439,
+        "duration": 1.121
+    },
+    {
+        "text": "triangle?",
+        "start": 244.56,
+        "duration": 1.28
+    },
+    {
+        "text": "And",
+        "start": 245.84,
+        "duration": 1.28
+    },
+    {
+        "text": "what they can",
+        "start": 247.12,
+        "duration": 1.36
+    },
+    {
+        "text": "also do is come up with a pretty",
+        "start": 248.48,
+        "duration": 1.28
+    },
+    {
+        "text": "geometric argument where they think",
+        "start": 249.76,
+        "duration": 1.679
+    },
+    {
+        "text": "about the circle that's inscribed",
+        "start": 251.439,
+        "duration": 3.44
+    },
+    {
+        "text": "in that triangle - got sort of a deathly",
+        "start": 254.879,
+        "duration": 2.08
+    },
+    {
+        "text": "hallows vibe going on here. And what",
+        "start": 256.959,
+        "duration": 2.0
+    },
+    {
+        "text": "they're able to conclude is basically",
+        "start": 258.959,
+        "duration": 1.84
+    },
+    {
+        "text": "when the center of the chord is on the",
+        "start": 260.799,
+        "duration": 2.4
+    },
+    {
+        "text": "inside of that inscribed circle",
+        "start": 263.199,
+        "duration": 2.401
+    },
+    {
+        "text": "then",
+        "start": 265.6,
+        "duration": 0.879
+    },
+    {
+        "text": "the relevant chord is going to end up",
+        "start": 266.479,
+        "duration": 2.16
+    },
+    {
+        "text": "longer than the side length of the",
+        "start": 268.639,
+        "duration": 1.361
+    },
+    {
+        "text": "triangle, we can kind of see that there.",
+        "start": 270.0,
+        "duration": 1.919
+    },
+    {
+        "text": "But if the random midpoint that you",
+        "start": 271.919,
+        "duration": 2.0
+    },
+    {
+        "text": "chose was on the outside of that",
+        "start": 273.919,
+        "duration": 1.28
+    },
+    {
+        "text": "inscribed circle the chord you find will",
+        "start": 275.199,
+        "duration": 2.081
+    },
+    {
+        "text": "be shorter.",
+        "start": 277.28,
+        "duration": 1.84
+    },
+    {
+        "text": "And",
+        "start": 279.12,
+        "duration": 1.04
+    },
+    {
+        "text": "we simply say, okay, what is the size of",
+        "start": 280.16,
+        "duration": 2.0
+    },
+    {
+        "text": "that circle?",
+        "start": 282.16,
+        "duration": 1.12
+    },
+    {
+        "text": "And",
+        "start": 283.28,
+        "duration": 1.359
+    },
+    {
+        "text": "we actually drew one of our lengths",
+        "start": 284.639,
+        "duration": 1.521
+    },
+    {
+        "text": "earlier and concluded that it was one",
+        "start": 286.16,
+        "duration": 1.599
+    },
+    {
+        "text": "half. So we know this inner circle has a",
+        "start": 287.759,
+        "duration": 2.481
+    },
+    {
+        "text": "radius which is one half. So that inner",
+        "start": 290.24,
+        "duration": 2.0
+    },
+    {
+        "text": "circle has an area which is",
+        "start": 292.24,
+        "duration": 2.6
+    },
+    {
+        "text": "one-fourth, and you know, the",
+        "start": 294.84,
+        "duration": 2.6
+    },
+    {
+        "text": "probability of getting the chord that's",
+        "start": 297.44,
+        "duration": 1.84
+    },
+    {
+        "text": "longer is the probability of your",
+        "start": 299.28,
+        "duration": 1.919
+    },
+    {
+        "text": "randomly chosen midpoint falling into",
+        "start": 301.199,
+        "duration": 2.161
+    },
+    {
+        "text": "that smaller circle. So the answer to our",
+        "start": 303.36,
+        "duration": 2.64
+    },
+    {
+        "text": "question, that Bertrand posed,",
+        "start": 306.0,
+        "duration": 2.479
+    },
+    {
+        "text": "that you know l is greater than s",
+        "start": 308.479,
+        "duration": 2.16
+    },
+    {
+        "text": "is actually equal to one fourth. \n- (You're right!)",
+        "start": 310.639,
+        "duration": 3.011
+    },
+    {
+        "text": "Student circle's their answer, they turn",
+        "start": 314.56,
+        "duration": 1.359
+    },
+    {
+        "text": "in their homework and they say, for extra",
+        "start": 315.919,
+        "duration": 1.84
+    },
+    {
+        "text": "credit I'm going to simulate it. I'm",
+        "start": 317.759,
+        "duration": 1.601
+    },
+    {
+        "text": "going to choose a random point somewhere",
+        "start": 319.36,
+        "duration": 2.16
+    },
+    {
+        "text": "inside this circle and each time that I",
+        "start": 321.52,
+        "duration": 2.399
+    },
+    {
+        "text": "draw one of those points I'm going to",
+        "start": 323.919,
+        "duration": 2.0
+    },
+    {
+        "text": "draw the unique chord that has that",
+        "start": 325.919,
+        "duration": 1.521
+    },
+    {
+        "text": "point as a midpoint. I'm going to count",
+        "start": 327.44,
+        "duration": 1.92
+    },
+    {
+        "text": "up how many cases did I get where the",
+        "start": 329.36,
+        "duration": 2.16
+    },
+    {
+        "text": "chord was longer than the triangle point?",
+        "start": 331.52,
+        "duration": 2.16
+    },
+    {
+        "text": "How many was it shorter? See if it's",
+        "start": 333.68,
+        "duration": 1.519
+    },
+    {
+        "text": "roughly one quarter. And they do it and",
+        "start": 335.199,
+        "duration": 1.921
+    },
+    {
+        "text": "as they get around a thousand samples",
+        "start": 337.12,
+        "duration": 1.359
+    },
+    {
+        "text": "they see that, yeah, this is you know it's",
+        "start": 338.479,
+        "duration": 1.841
+    },
+    {
+        "text": "around 0.25. By randomness it looks like",
+        "start": 340.32,
+        "duration": 2.48
+    },
+    {
+        "text": "it happens to be a little bit above",
+        "start": 342.8,
+        "duration": 1.679
+    },
+    {
+        "text": "right now but certainly within the",
+        "start": 344.479,
+        "duration": 2.16
+    },
+    {
+        "text": "threshold you might want for a",
+        "start": 346.639,
+        "duration": 1.441
+    },
+    {
+        "text": "statistical distribution. They also get",
+        "start": 348.08,
+        "duration": 1.839
+    },
+    {
+        "text": "this kind of spider web pattern on the",
+        "start": 349.919,
+        "duration": 1.521
+    },
+    {
+        "text": "inside; although it does look a little",
+        "start": 351.44,
+        "duration": 2.24
+    },
+    {
+        "text": "bit different than our first students",
+        "start": 353.68,
+        "duration": 1.6
+    },
+    {
+        "text": "where",
+        "start": 355.28,
+        "duration": 0.8
+    },
+    {
+        "text": "you might notice the spiderweb is a",
+        "start": 356.08,
+        "duration": 1.839
+    },
+    {
+        "text": "little bit sparser in the middle of this",
+        "start": 357.919,
+        "duration": 2.241
+    },
+    {
+        "text": "one that we have in comparison to the",
+        "start": 360.16,
+        "duration": 1.84
+    },
+    {
+        "text": "older one that we had, the first student",
+        "start": 362.0,
+        "duration": 1.6
+    },
+    {
+        "text": "simulated it and things seemed a little",
+        "start": 363.6,
+        "duration": 1.439
+    },
+    {
+        "text": "bit more uniform in there. So it makes",
+        "start": 365.039,
+        "duration": 2.481
+    },
+    {
+        "text": "sense they got different answers, there",
+        "start": 367.52,
+        "duration": 1.28
+    },
+    {
+        "text": "was a different distribution at play. And",
+        "start": 368.8,
+        "duration": 1.839
+    },
+    {
+        "text": "so that's interesting that these two",
+        "start": 370.639,
+        "duration": 1.921
+    },
+    {
+        "text": "seemingly reasonable methods give you a",
+        "start": 372.56,
+        "duration": 1.6
+    },
+    {
+        "text": "different answer.",
+        "start": 374.16,
+        "duration": 1.36
+    },
+    {
+        "text": "But then this class actually has three",
+        "start": 375.52,
+        "duration": 2.16
+    },
+    {
+        "text": "students, and a third student has a",
+        "start": 377.68,
+        "duration": 1.519
+    },
+    {
+        "text": "different way of thinking about it, and",
+        "start": 379.199,
+        "duration": 1.84
+    },
+    {
+        "text": "maybe they'll be able to break the tie.",
+        "start": 381.039,
+        "duration": 1.761
+    },
+    {
+        "text": "And the way that person thinks about it",
+        "start": 382.8,
+        "duration": 1.519
+    },
+    {
+        "text": "is-",
+        "start": 384.319,
+        "duration": 0.88
+    },
+    {
+        "text": "you know the the chord that we draw,",
+        "start": 385.199,
+        "duration": 2.481
+    },
+    {
+        "text": "it's going to have kind of a random",
+        "start": 387.68,
+        "duration": 1.2
+    },
+    {
+        "text": "angle. The angle that it has between 0",
+        "start": 388.88,
+        "duration": 3.439
+    },
+    {
+        "text": "and pi or 0 and 2pi, however you want to",
+        "start": 392.319,
+        "duration": 1.921
+    },
+    {
+        "text": "think about it, there's no reason to",
+        "start": 394.24,
+        "duration": 1.12
+    },
+    {
+        "text": "prefer any one of those. So the radial",
+        "start": 395.36,
+        "duration": 2.32
+    },
+    {
+        "text": "line that it's intersecting",
+        "start": 397.68,
+        "duration": 2.079
+    },
+    {
+        "text": "should just be chosen uniformly around",
+        "start": 399.759,
+        "duration": 1.521
+    },
+    {
+        "text": "the circle.",
+        "start": 401.28,
+        "duration": 1.199
+    },
+    {
+        "text": "And then there's no reason to think that",
+        "start": 402.479,
+        "duration": 1.601
+    },
+    {
+        "text": "the midpoint of your chord should be, you",
+        "start": 404.08,
+        "duration": 3.2
+    },
+    {
+        "text": "know, biased towards being on the center",
+        "start": 407.28,
+        "duration": 1.759
+    },
+    {
+        "text": "of this radial line or biased towards",
+        "start": 409.039,
+        "duration": 1.44
+    },
+    {
+        "text": "being the end, it should be chosen",
+        "start": 410.479,
+        "duration": 1.44
+    },
+    {
+        "text": "uniformly along this radial line.",
+        "start": 411.919,
+        "duration": 2.481
+    },
+    {
+        "text": "And so what they want to ask is, if we're",
+        "start": 414.4,
+        "duration": 2.239
+    },
+    {
+        "text": "choosing something uniform along this",
+        "start": 416.639,
+        "duration": 1.441
+    },
+    {
+        "text": "radial line, what's the probability that",
+        "start": 418.08,
+        "duration": 2.08
+    },
+    {
+        "text": "the corresponding chord is longer than",
+        "start": 420.16,
+        "duration": 2.08
+    },
+    {
+        "text": "the length we care about?",
+        "start": 422.24,
+        "duration": 1.519
+    },
+    {
+        "text": "And again you can kind of do a little",
+        "start": 423.759,
+        "duration": 2.16
+    },
+    {
+        "text": "pretty geometric argument here",
+        "start": 425.919,
+        "duration": 2.0
+    },
+    {
+        "text": "where,",
+        "start": 427.919,
+        "duration": 1.28
+    },
+    {
+        "text": "if we've got our triangle,",
+        "start": 429.199,
+        "duration": 3.12
+    },
+    {
+        "text": "same conclusion we had before where the",
+        "start": 432.319,
+        "duration": 1.521
+    },
+    {
+        "text": "length from the center of the circle",
+        "start": 433.84,
+        "duration": 2.479
+    },
+    {
+        "text": "directly down to one of the legs of the",
+        "start": 436.319,
+        "duration": 1.6
+    },
+    {
+        "text": "triangle perpendicular",
+        "start": 437.919,
+        "duration": 1.921
+    },
+    {
+        "text": "is one half.",
+        "start": 439.84,
+        "duration": 1.359
+    },
+    {
+        "text": "And so-",
+        "start": 441.199,
+        "duration": 1.041
+    },
+    {
+        "text": "I drew it a little bit poorly here where",
+        "start": 442.24,
+        "duration": 1.2
+    },
+    {
+        "text": "this side looks like it's shorter but",
+        "start": 443.44,
+        "duration": 1.36
+    },
+    {
+        "text": "that's that's a function of my bad",
+        "start": 444.8,
+        "duration": 1.44
+    },
+    {
+        "text": "drawing, if you do it more exactly. This",
+        "start": 446.24,
+        "duration": 3.04
+    },
+    {
+        "text": "portion where your chords are going to",
+        "start": 449.28,
+        "duration": 1.6
+    },
+    {
+        "text": "be longer than the relevant triangle",
+        "start": 450.88,
+        "duration": 1.759
+    },
+    {
+        "text": "side length, you know, if I choose one",
+        "start": 452.639,
+        "duration": 1.361
+    },
+    {
+        "text": "here draw the chord,",
+        "start": 454.0,
+        "duration": 1.84
+    },
+    {
+        "text": "you can just see it ends up longer than",
+        "start": 455.84,
+        "duration": 1.44
+    },
+    {
+        "text": "that triangle length - that should be",
+        "start": 457.28,
+        "duration": 2.24
+    },
+    {
+        "text": "one half of the time.",
+        "start": 459.52,
+        "duration": 1.679
+    },
+    {
+        "text": "And again, you know, they want to say hey",
+        "start": 461.199,
+        "duration": 1.761
+    },
+    {
+        "text": "I'm gonna check my homework, I've learned",
+        "start": 462.96,
+        "duration": 2.639
+    },
+    {
+        "text": "that sometimes I can't trust my",
+        "start": 465.599,
+        "duration": 1.201
+    },
+    {
+        "text": "theoretical results, and the way they do",
+        "start": 466.8,
+        "duration": 1.679
+    },
+    {
+        "text": "it is they choose a random radial line",
+        "start": 468.479,
+        "duration": 1.84
+    },
+    {
+        "text": "which I've colored in yellow then a",
+        "start": 470.319,
+        "duration": 1.681
+    },
+    {
+        "text": "random point along that line that I've",
+        "start": 472.0,
+        "duration": 1.84
+    },
+    {
+        "text": "given this sort of glowy yellow dot. And",
+        "start": 473.84,
+        "duration": 1.919
+    },
+    {
+        "text": "they do that a whole bunch of times,",
+        "start": 475.759,
+        "duration": 1.041
+    },
+    {
+        "text": "choosing a random line, choosing a random",
+        "start": 476.8,
+        "duration": 1.839
+    },
+    {
+        "text": "point along that chord;",
+        "start": 478.639,
+        "duration": 1.601
+    },
+    {
+        "text": "their expectation from their geometry",
+        "start": 480.24,
+        "duration": 2.48
+    },
+    {
+        "text": "and their theoretical reasoning here",
+        "start": 482.72,
+        "duration": 1.759
+    },
+    {
+        "text": "would be that this comes out to be",
+        "start": 484.479,
+        "duration": 1.201
+    },
+    {
+        "text": "around a half, but they want to run a",
+        "start": 485.68,
+        "duration": 1.6
+    },
+    {
+        "text": "thousand simulations just to see if that",
+        "start": 487.28,
+        "duration": 2.0
+    },
+    {
+        "text": "happens to be roughly true. And look! So",
+        "start": 489.28,
+        "duration": 2.24
+    },
+    {
+        "text": "what they got actually is really",
+        "start": 491.52,
+        "duration": 1.84
+    },
+    {
+        "text": "close to one half,",
+        "start": 493.36,
+        "duration": 1.519
+    },
+    {
+        "text": "and it feels pretty uniform. You know, you",
+        "start": 494.879,
+        "duration": 1.521
+    },
+    {
+        "text": "look at the spider web it seems nice and",
+        "start": 496.4,
+        "duration": 1.519
+    },
+    {
+        "text": "uniform.",
+        "start": 497.919,
+        "duration": 1.041
+    },
+    {
+        "text": "So this person they go they circle their",
+        "start": 498.96,
+        "duration": 2.0
+    },
+    {
+        "text": "answer and they say,",
+        "start": 500.96,
+        "duration": 1.519
+    },
+    {
+        "text": "Mr Bertrand- Professor Bertrand I've done",
+        "start": 503.52,
+        "duration": 2.079
+    },
+    {
+        "text": "my homework and I know with confidence",
+        "start": 505.599,
+        "duration": 2.641
+    },
+    {
+        "text": "now that the answer is one half.",
+        "start": 508.24,
+        "duration": 2.929
+    },
+    {
+        "text": "(I was convinced by all of them.)\n- They all",
+        "start": 518.64,
+        "duration": 2.079
+    },
+    {
+        "text": "seem pretty reasonable. So Bertrand's",
+        "start": 520.719,
+        "duration": 1.921
+    },
+    {
+        "text": "conclusion here was you have to be",
+        "start": 522.64,
+        "duration": 1.519
+    },
+    {
+        "text": "careful when probabilities with an",
+        "start": 524.159,
+        "duration": 1.761
+    },
+    {
+        "text": "infinite space are involved,",
+        "start": 525.92,
+        "duration": 1.84
+    },
+    {
+        "text": "because you don't know",
+        "start": 527.76,
+        "duration": 2.0
+    },
+    {
+        "text": "simply when someone says choose a random",
+        "start": 529.76,
+        "duration": 1.6
+    },
+    {
+        "text": "blank is that a well-defined notion?",
+        "start": 531.36,
+        "duration": 2.88
+    },
+    {
+        "text": "Because here I can have something where",
+        "start": 534.24,
+        "duration": 1.12
+    },
+    {
+        "text": "I say, choose a random chord; seems like a",
+        "start": 535.36,
+        "duration": 1.68
+    },
+    {
+        "text": "reasonable question to ask,",
+        "start": 537.04,
+        "duration": 1.68
+    },
+    {
+        "text": "and we've got three reasonable",
+        "start": 538.72,
+        "duration": 1.6
+    },
+    {
+        "text": "approaches that give you these different",
+        "start": 540.32,
+        "duration": 1.199
+    },
+    {
+        "text": "answers. Now this is a little bit",
+        "start": 541.519,
+        "duration": 1.76
+    },
+    {
+        "text": "worrying, because all the time in",
+        "start": 543.279,
+        "duration": 1.521
+    },
+    {
+        "text": "probability you start off some question",
+        "start": 544.8,
+        "duration": 2.64
+    },
+    {
+        "text": "or some model of the world by saying",
+        "start": 547.44,
+        "duration": 2.0
+    },
+    {
+        "text": "something like, you know, I want to choose",
+        "start": 549.44,
+        "duration": 1.6
+    },
+    {
+        "text": "a random number between zero and one.",
+        "start": 551.04,
+        "duration": 2.4
+    },
+    {
+        "text": "I say choose a random number",
+        "start": 553.44,
+        "duration": 2.079
+    },
+    {
+        "text": "and it's implicit that it's going to be",
+        "start": 555.519,
+        "duration": 2.0
+    },
+    {
+        "text": "some kind of uniform distribution and",
+        "start": 557.519,
+        "duration": 1.521
+    },
+    {
+        "text": "it's unambiguous what you mean by that",
+        "start": 559.04,
+        "duration": 1.52
+    },
+    {
+        "text": "randomness. Or you say, hey I've got a",
+        "start": 560.56,
+        "duration": 2.719
+    },
+    {
+        "text": "circle, I want you to choose a random",
+        "start": 563.279,
+        "duration": 1.521
+    },
+    {
+        "text": "point on that circle.",
+        "start": 564.8,
+        "duration": 1.44
+    },
+    {
+        "text": "Or I've got a sphere, you know, and I want",
+        "start": 566.24,
+        "duration": 2.08
+    },
+    {
+        "text": "you to choose a random point somewhere",
+        "start": 568.32,
+        "duration": 1.76
+    },
+    {
+        "text": "on the surface of that sphere. You know, I",
+        "start": 570.08,
+        "duration": 1.84
+    },
+    {
+        "text": "do this all the time in videos that I",
+        "start": 571.92,
+        "duration": 1.52
+    },
+    {
+        "text": "make, I start a puzzle I say choose four",
+        "start": 573.44,
+        "duration": 2.56
+    },
+    {
+        "text": "random points on the surface of a sphere,",
+        "start": 576.0,
+        "duration": 2.0
+    },
+    {
+        "text": "what's the probability that yada yada;",
+        "start": 578.0,
+        "duration": 2.16
+    },
+    {
+        "text": "the tetrahedron that connects them",
+        "start": 580.16,
+        "duration": 1.44
+    },
+    {
+        "text": "contains the center or some interesting",
+        "start": 581.6,
+        "duration": 1.76
+    },
+    {
+        "text": "puzzle you want to get to. Does the",
+        "start": 583.36,
+        "duration": 1.599
+    },
+    {
+        "text": "premise even make sense, right? Is it the",
+        "start": 584.959,
+        "duration": 2.0
+    },
+    {
+        "text": "case that when you say choose four",
+        "start": 586.959,
+        "duration": 1.681
+    },
+    {
+        "text": "random points there aren't two seemingly",
+        "start": 588.64,
+        "duration": 2.0
+    },
+    {
+        "text": "reasonable ways to go about that that",
+        "start": 590.64,
+        "duration": 1.44
+    },
+    {
+        "text": "turn out to be",
+        "start": 592.08,
+        "duration": 1.36
+    },
+    {
+        "text": "distinct in that they give you different",
+        "start": 593.44,
+        "duration": 1.44
+    },
+    {
+        "text": "numerical answers, but seemingly",
+        "start": 594.88,
+        "duration": 1.519
+    },
+    {
+        "text": "reasonable to each person who did it. The",
+        "start": 596.399,
+        "duration": 1.841
+    },
+    {
+        "text": "video I'm making right now, I say choose",
+        "start": 598.24,
+        "duration": 2.4
+    },
+    {
+        "text": "a random orientation of an object in 3D",
+        "start": 600.64,
+        "duration": 2.24
+    },
+    {
+        "text": "space and then yada yada question. How do",
+        "start": 602.88,
+        "duration": 2.24
+    },
+    {
+        "text": "we know it's reasonable to say choose a",
+        "start": 605.12,
+        "duration": 1.44
+    },
+    {
+        "text": "random orientation? So this is a little",
+        "start": 606.56,
+        "duration": 2.64
+    },
+    {
+        "text": "bit worrying that Bertrand could come up",
+        "start": 609.2,
+        "duration": 2.0
+    },
+    {
+        "text": "with this example where we get this",
+        "start": 611.2,
+        "duration": 1.36
+    },
+    {
+        "text": "ambiguity.",
+        "start": 612.56,
+        "duration": 1.239
+    },
+    {
+        "text": "So there's Bertrand's paradox, but you",
+        "start": 614.079,
+        "duration": 2.481
+    },
+    {
+        "text": "can probably guess Grant's got plenty",
+        "start": 616.56,
+        "duration": 1.92
+    },
+    {
+        "text": "more to say about it. Check out our",
+        "start": 618.48,
+        "duration": 2.0
+    },
+    {
+        "text": "second video, even more about Bertrand's",
+        "start": 620.48,
+        "duration": 2.24
+    },
+    {
+        "text": "paradox, where we go deeper. \n- But the",
+        "start": 622.72,
+        "duration": 2.32
+    },
+    {
+        "text": "unambiguous thing is honestly what I",
+        "start": 625.04,
+        "duration": 2.08
+    },
+    {
+        "text": "would have thought would be the- the",
+        "start": 627.12,
+        "duration": 1.6
+    },
+    {
+        "text": "worst of the three methods.\n- This was also",
+        "start": 628.72,
+        "duration": 2.239
+    },
+    {
+        "text": "made as a companion to Grant's own video",
+        "start": 630.959,
+        "duration": 2.0
+    },
+    {
+        "text": "about the average area of a cube's",
+        "start": 632.959,
+        "duration": 1.841
+    },
+    {
+        "text": "shadow. You'll find links to that in the",
+        "start": 634.8,
+        "duration": 1.68
+    },
+    {
+        "text": "usual places and of course on the",
+        "start": 636.48,
+        "duration": 1.79
+    },
+    {
+        "text": "3blue1brown channel.",
+        "start": 638.27,
+        "duration": 2.41
+    }
+]

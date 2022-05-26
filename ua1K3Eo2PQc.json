@@ -1,0 +1,627 @@
+[
+    {
+        "text": "This is actually super interesting to me,",
+        "start": 0.0,
+        "duration": 1.46
+    },
+    {
+        "text": "because it's one of the most famous proofs of all time.",
+        "start": 1.46,
+        "duration": 3.0
+    },
+    {
+        "text": "It's the proof for Fermat's last theorem, which Andrew Wiles famously solved.",
+        "start": 4.46,
+        "duration": 5.14
+    },
+    {
+        "text": "Now I don't wanna explain that,",
+        "start": 10.1,
+        "duration": 1.56
+    },
+    {
+        "text": "what I want to explain is what's at the heart of that proof.",
+        "start": 11.66,
+        "duration": 3.52
+    },
+    {
+        "text": "It's actually not what Wiles spent seven years on, it's",
+        "start": 15.18,
+        "duration": 3.34
+    },
+    {
+        "text": "it's actually something else.",
+        "start": 18.52,
+        "duration": 1.0
+    },
+    {
+        "text": "It's the Taniyama-Shimura-Weil conjecture which is now called modularity.",
+        "start": 19.52,
+        "duration": 4.06
+    },
+    {
+        "text": "So we're gonna say is Fermat's last theorem is true",
+        "start": 23.58,
+        "duration": 3.34
+    },
+    {
+        "text": "and has to be just as obvious as the\nfact that one doesn't equal two.",
+        "start": 26.92,
+        "duration": 4.96
+    },
+    {
+        "text": "In this case, Fermat's theorem reduces down to something called modularity,",
+        "start": 31.88,
+        "duration": 4.66
+    },
+    {
+        "text": "it's the modularity theorem.",
+        "start": 37.21,
+        "duration": 0.88
+    },
+    {
+        "text": "So it's not 1 doesn't equal 2 here, it's something else.",
+        "start": 38.09,
+        "duration": 3.0
+    },
+    {
+        "text": "So it's all about two things,",
+        "start": 41.09,
+        "duration": 2.04
+    },
+    {
+        "text": "about elliptic curves and this is specifically for",
+        "start": 43.13,
+        "duration": 5.589
+    },
+    {
+        "text": "whole numbers and fractions are actually modular forms in disguise,",
+        "start": 48.719,
+        "duration": 6.32
+    },
+    {
+        "text": "so what does that mean?",
+        "start": 55.039,
+        "duration": 2.32
+    },
+    {
+        "text": "And that's how I feel even as a mathematician it's like, what?",
+        "start": 58.42,
+        "duration": 4.1
+    },
+    {
+        "text": "So what I want to do, just trying to get you to appreciate what this means;",
+        "start": 62.52,
+        "duration": 5.02
+    },
+    {
+        "text": "just an appreciation",
+        "start": 67.54,
+        "duration": 2.0
+    },
+    {
+        "text": "not the full thing, just an appreciation of what's going on.",
+        "start": 69.71,
+        "duration": 3.659
+    },
+    {
+        "text": "And what I'm gonna do is I'm just going to use much simpler equations,",
+        "start": 73.369,
+        "duration": 2.98
+    },
+    {
+        "text": "right, what do you want to start with?",
+        "start": 76.349,
+        "duration": 2.22
+    },
+    {
+        "text": "So starting with modular forms, a modular form, now the way you need to think about",
+        "start": 78.939,
+        "duration": 4.911
+    },
+    {
+        "text": "this is it's something to do with symmetry, but there's different forms of symmetry.",
+        "start": 83.85,
+        "duration": 7.16
+    },
+    {
+        "text": "And the one I want to show you today is called translational symmetry,",
+        "start": 91.35,
+        "duration": 3.04
+    },
+    {
+        "text": "and what it is, is this. Imagine you have an infinite plane",
+        "start": 94.39,
+        "duration": 4.39
+    },
+    {
+        "text": "this is being nicely provided by brown paper.",
+        "start": 98.78,
+        "duration": 3.48
+    },
+    {
+        "text": "And imagine we actually have here so I'm just gonna",
+        "start": 102.26,
+        "duration": 3.499
+    },
+    {
+        "text": "just going to kind of just put arrows to represent that I've chopped this up.",
+        "start": 105.759,
+        "duration": 5.74
+    },
+    {
+        "text": "Imagine now cutting this up into strips, infinite strips\nbut the important thing is is that the",
+        "start": 112.0,
+        "duration": 5.12
+    },
+    {
+        "text": "strips all the same width, and so now\nsomething has the symmetry has a",
+        "start": 117.13,
+        "duration": 6.25
+    },
+    {
+        "text": "translational symmetry 'cos this goes on forever,",
+        "start": 123.38,
+        "duration": 2.31
+    },
+    {
+        "text": "like left and right as you can imagine\nthis kind of situation.",
+        "start": 125.69,
+        "duration": 4.32
+    },
+    {
+        "text": "What has the symmetry which you can basically take a strip of this, and cut and paste but",
+        "start": 130.54,
+        "duration": 5.28
+    },
+    {
+        "text": "what's important is we want to know what functions you can cut and paste, cut and paste.",
+        "start": 135.83,
+        "duration": 5.49
+    },
+    {
+        "text": "yeah, a graph, but what it is we're looking for an equation, we want something to generate it,",
+        "start": 141.32,
+        "duration": 4.11
+    },
+    {
+        "text": "because say if you had like a picture\nor funny picture in here,",
+        "start": 145.43,
+        "duration": 4.68
+    },
+    {
+        "text": "it might have a really complicated equation. Maybe it doesn't even have an equation at all.",
+        "start": 150.11,
+        "duration": 3.96
+    },
+    {
+        "text": "I can think about a pattern I mean this\ndoesn't even have regular pattern, my shirt",
+        "start": 154.07,
+        "duration": 3.53
+    },
+    {
+        "text": "I usually like pretty regular patterned shirts",
+        "start": 157.6,
+        "duration": 2.26
+    },
+    {
+        "text": "But the point is I want to show you something which actually has a very regular pattern and it's",
+        "start": 159.86,
+        "duration": 4.56
+    },
+    {
+        "text": "something I'm hoping you've seen before it's one of\nthese things like basically this is",
+        "start": 164.42,
+        "duration": 8.59
+    },
+    {
+        "text": "a sine wave so it goes up and down up and down up\nand down now this actually has a long",
+        "start": 173.01,
+        "duration": 4.55
+    },
+    {
+        "text": "complicated equation but the important thing\nis it's like even though it is this",
+        "start": 177.56,
+        "duration": 3.79
+    },
+    {
+        "text": "equation that you crank out potentially you could\ncut and paste, cut and paste, cut and paste",
+        "start": 181.35,
+        "duration": 4.13
+    },
+    {
+        "text": "so that's the idea, a modular form has that \nexcept hyperbolic geometry and",
+        "start": 185.48,
+        "duration": 3.86
+    },
+    {
+        "text": "it's really complicated but if you get the ...\njust appreciate the fact that it's a",
+        "start": 189.34,
+        "duration": 4.869
+    },
+    {
+        "text": "cut & paste thing, you take one section\nof it you cut & paste, cut & paste, that's the idea not all",
+        "start": 194.209,
+        "duration": 5.53
+    },
+    {
+        "text": "functions are like that. How about a function\nlike this is my attempt to circle",
+        "start": 199.739,
+        "duration": 4.08
+    },
+    {
+        "text": "Brady: (laughing)\nSimon: thanks man",
+        "start": 204.0,
+        "duration": 1.68
+    },
+    {
+        "text": "so a circle has an equation. I'm actually going to write the equation down just because it's fun",
+        "start": 205.86,
+        "duration": 5.84
+    },
+    {
+        "text": "basically the circle is another equation\nexcept it doesn't have translational symmetry",
+        "start": 211.7,
+        "duration": 6.47
+    },
+    {
+        "text": "think about it just exists in\none section so what this relationship is",
+        "start": 218.17,
+        "duration": 4.93
+    },
+    {
+        "text": "saying ellipitic curves (so whole numbers and fractions)\nare modular forms in disguise",
+        "start": 223.1,
+        "duration": 4.27
+    },
+    {
+        "text": "it's actually saying is that you can fit a\nmodular form into elliptic curves, you can fit a",
+        "start": 227.37,
+        "duration": 7.339
+    },
+    {
+        "text": "translational symmetry equation into the\nequation of the circle. That's what it's saying.",
+        "start": 234.709,
+        "duration": 5.721
+    },
+    {
+        "text": "this is magical stuff. So how does this\nwork? how can we make this work",
+        "start": 240.43,
+        "duration": 4.08
+    },
+    {
+        "text": "well the way you have to think about it is that \nimagine now we had a point on the circle",
+        "start": 245.64,
+        "duration": 5.86
+    },
+    {
+        "text": "alright? now we start following it around yeah? So let's just have fun, maybe we could do it really quickly",
+        "start": 251.66,
+        "duration": 7.69
+    },
+    {
+        "text": "maybe go slowly maybe go fast-slow-fast-slow but if\nwe chose to do it at a constant rate",
+        "start": 259.35,
+        "duration": 8.27
+    },
+    {
+        "text": "going round and round and round imagine\nwhat that'd look like if this was actually",
+        "start": 268.53,
+        "duration": 4.54
+    },
+    {
+        "text": "moving through space so if you think\nabout it if I'm doing the circle imagine",
+        "start": 273.07,
+        "duration": 6.4
+    },
+    {
+        "text": "now if I go like this, so now I'm gonna start\nmoving at the same rate as I'm going up",
+        "start": 279.47,
+        "duration": 5.13
+    },
+    {
+        "text": "and so what's actually going on is I'm\nactually making a coil",
+        "start": 284.6,
+        "duration": 5.12
+    },
+    {
+        "text": "Brady: It's like a slinky\nSimon: It's like a slinky",
+        "start": 289.9,
+        "duration": 2.12
+    },
+    {
+        "text": "that's right so now just imagine right, what\nwe're doing is we're actually creating a",
+        "start": 292.07,
+        "duration": 3.84
+    },
+    {
+        "text": "coil now again if it was a slinky, slinkies you\ncan make them bunched up and ... but imagine",
+        "start": 295.91,
+        "duration": 5.38
+    },
+    {
+        "text": "we've got a slinky that's just perfectly\nevenly spaced so now that has an",
+        "start": 301.29,
+        "duration": 5.92
+    },
+    {
+        "text": "equation; it has a helix equation, it's got an equation in\n3D but what happens if you look",
+        "start": 307.21,
+        "duration": 8.24
+    },
+    {
+        "text": "down the barrel of that helix? What\nwould you see if you looked straight",
+        "start": 315.45,
+        "duration": 4.98
+    },
+    {
+        "text": "down and there was no perspective\nproblems like if you look straight down",
+        "start": 320.43,
+        "duration": 3.45
+    },
+    {
+        "text": "the barrel what would you see?\nBrady: A circle",
+        "start": 323.88,
+        "duration": 3.12
+    },
+    {
+        "text": "Simon: that's right, so what's actually going on there is that the helix can fit inside the equation of the circle",
+        "start": 327.24,
+        "duration": 9.36
+    },
+    {
+        "text": "and the only reason this works is because 3D\nspace and 2D space are both flat when you",
+        "start": 336.8,
+        "duration": 7.5
+    },
+    {
+        "text": "dealing with curvy spaces this is really\nnot an option and these are curvy",
+        "start": 344.3,
+        "duration": 3.98
+    },
+    {
+        "text": "spaces the actual elliptic curves belong\nto projective space, modular forms belong",
+        "start": 348.28,
+        "duration": 5.66
+    },
+    {
+        "text": "to hyperbolic space, the complex numbers, I\nmean they are really super curvy, but in this",
+        "start": 353.94,
+        "duration": 4.38
+    },
+    {
+        "text": "example it's really nice because what\nwe're doing is we're actually fitting",
+        "start": 358.32,
+        "duration": 3.08
+    },
+    {
+        "text": "three-dimensional numbers into\ntwo-dimensional numbers. Not really",
+        "start": 361.4,
+        "duration": 4.56
+    },
+    {
+        "text": "three-dimensional, they exist in three dimensions\nyou gotta think they have a different",
+        "start": 365.96,
+        "duration": 3.09
+    },
+    {
+        "text": "relationship going on. So what the coil\nhas, the coil has translational symmetry",
+        "start": 369.05,
+        "duration": 5.78
+    },
+    {
+        "text": "So this is the link between modular forms and elliptic curves. It says",
+        "start": 374.9,
+        "duration": 5.4
+    },
+    {
+        "text": "that this really strange function over\nhere can fit inside this really dull",
+        "start": 380.31,
+        "duration": 7.92
+    },
+    {
+        "text": "function over here and when this happened\nno one believed it no one believed you",
+        "start": 388.23,
+        "duration": 5.11
+    },
+    {
+        "text": "could stick, you know, you can stick this\ncoil into the circle. The reason why no one",
+        "start": 393.34,
+        "duration": 3.91
+    },
+    {
+        "text": "believed it was because no one could\nvisualize it so nicely like we can, they're just",
+        "start": 397.25,
+        "duration": 4.38
+    },
+    {
+        "text": "completely different spaces. That's the\nconnection that needed to happen to",
+        "start": 401.63,
+        "duration": 4.88
+    },
+    {
+        "text": "actually make Fermat's last theorem work.\nIt's ... this is again, this is not the real",
+        "start": 406.51,
+        "duration": 4.81
+    },
+    {
+        "text": "thing because if you think about it if\nyou have a whole number or a fraction as",
+        "start": 411.32,
+        "duration": 5.55
+    },
+    {
+        "text": "its cycling around ok as long as it's a\nfraction there'll b a point where it will come",
+        "start": 416.87,
+        "duration": 4.62
+    },
+    {
+        "text": "back on top of itself. Like there is a point\nwhere fractions because there's a number",
+        "start": 421.49,
+        "duration": 3.76
+    },
+    {
+        "text": "you can multiply fractions by, you'll get a\nwhole number. So what that means is, in turning",
+        "start": 425.25,
+        "duration": 3.69
+    },
+    {
+        "text": "around a circle if you start with some\nsort of fraction you'll end up back at",
+        "start": 428.94,
+        "duration": 4.02
+    },
+    {
+        "text": "the same spot if you have an irrational\nnumber which by definition is something",
+        "start": 432.96,
+        "duration": 4.16
+    },
+    {
+        "text": "that can't be a fraction you started at\nsome point and went around by root two",
+        "start": 437.12,
+        "duration": 3.98
+    },
+    {
+        "text": "we never get back to the .. to the actual original\nposition so again this is the feeling here",
+        "start": 441.1,
+        "duration": 6.84
+    },
+    {
+        "text": "of the proof the fact these these\nnumbers matter the type of number",
+        "start": 448.22,
+        "duration": 5.53
+    },
+    {
+        "text": "matters. This is not how the proof is\nworked! I again am trying to give you a",
+        "start": 453.75,
+        "duration": 4.58
+    },
+    {
+        "text": "feeling for what's going on the fact\nthat the reason why Fermat's last",
+        "start": 458.33,
+        "duration": 3.69
+    },
+    {
+        "text": "theorem involves numbers is because\nthese numbers the way the numbers are",
+        "start": 462.02,
+        "duration": 4.61
+    },
+    {
+        "text": "actually they work together",
+        "start": 466.63,
+        "duration": 1.88
+    },
+    {
+        "text": "impact whether you can put a curve into\none of these and so then, how they linked it in",
+        "start": 468.51,
+        "duration": 5.71
+    },
+    {
+        "text": "here is the fact that they said: Fermat's last theorem involves whole numbers therefore the circle",
+        "start": 474.22,
+        "duration": 6.2
+    },
+    {
+        "text": "equation I'm making should permit one of\nthese things except they proved all",
+        "start": 480.42,
+        "duration": 6.24
+    },
+    {
+        "text": "these wonderful people that you've seen\non numberphile who you should be seeing",
+        "start": 486.66,
+        "duration": 4.1
+    },
+    {
+        "text": "if you haven't seen yet all the\nwonderful people that actually proved this",
+        "start": 490.76,
+        "duration": 2.28
+    },
+    {
+        "text": "they showed that that created a\ncontradiction so basically even though",
+        "start": 493.04,
+        "duration": 4.82
+    },
+    {
+        "text": "you're playing by the rules and using\nwhole numbers it doesn't permit one of",
+        "start": 497.86,
+        "duration": 5.81
+    },
+    {
+        "text": "these things so again it's the one, not equaling two.",
+        "start": 503.67,
+        "duration": 3.6
+    },
+    {
+        "text": "Our thanks audible.com for supporting\nthis numberphile video. They've got something",
+        "start": 508.44,
+        "duration": 4.44
+    },
+    {
+        "text": "like a hundred and eighty thousand\nspoken word titles in their collection",
+        "start": 512.88,
+        "duration": 3.23
+    },
+    {
+        "text": "and I often enjoy listening to well a\nfew of them on my daily dog walks here",
+        "start": 516.11,
+        "duration": 5.049
+    },
+    {
+        "text": "with the girls now if the beauty of\nmathematics is something you like",
+        "start": 521.159,
+        "duration": 3.271
+    },
+    {
+        "text": "why don't you try Love and Math the Hidden\nHeart of Reality it's by Edward Frenkel",
+        "start": 524.43,
+        "duration": 5.24
+    },
+    {
+        "text": "someone you've probably seen in quite a\nfew numberphile videos already. It's got all",
+        "start": 529.67,
+        "duration": 4.08
+    },
+    {
+        "text": "sorts of great stuff in it including quite\na lot about Fermat's last theorem",
+        "start": 533.75,
+        "duration": 3.42
+    },
+    {
+        "text": "something that's not a million miles\nfrom Professor Frankel's own research and",
+        "start": 537.17,
+        "duration": 4.6
+    },
+    {
+        "text": "like so many books available in audio\nform at Audible so go to audible.com /",
+        "start": 541.77,
+        "duration": 4.93
+    },
+    {
+        "text": "numberphile if you'd like to give it a\ntry when you signed on for their free",
+        "start": 546.7,
+        "duration": 4.34
+    },
+    {
+        "text": "one month trial you might choose a\ndifferent book from their extensive",
+        "start": 551.04,
+        "duration": 3.38
+    },
+    {
+        "text": "collection there are plenty of math ones\nI can assure you of that that address",
+        "start": 554.42,
+        "duration": 3.75
+    },
+    {
+        "text": "again",
+        "start": 558.17,
+        "duration": 0.44
+    },
+    {
+        "text": "audible.com / numberphile so they know you came\nfrom here and has a very happy audible user",
+        "start": 558.61,
+        "duration": 5.73
+    },
+    {
+        "text": "myself I'd like to thank them for\nsupporting this video",
+        "start": 564.34,
+        "duration": 2.84
+    }
+]

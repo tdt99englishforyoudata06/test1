@@ -1,0 +1,937 @@
+[
+    {
+        "text": "well the game is tic-tac-toe some people",
+        "start": 0.06,
+        "duration": 4.469
+    },
+    {
+        "text": "know it as knots and crosses nine cells",
+        "start": 2.37,
+        "duration": 6.18
+    },
+    {
+        "text": "and we have two players X and zero let's",
+        "start": 4.529,
+        "duration": 5.791
+    },
+    {
+        "text": "say X goes first a good move is",
+        "start": 8.55,
+        "duration": 3.629
+    },
+    {
+        "text": "typically to take the center here like",
+        "start": 10.32,
+        "duration": 4.859
+    },
+    {
+        "text": "that and then zero or ou might go over",
+        "start": 12.179,
+        "duration": 5.671
+    },
+    {
+        "text": "here for example X might follow up here",
+        "start": 15.179,
+        "duration": 4.651
+    },
+    {
+        "text": "threatening to get three in a row and",
+        "start": 17.85,
+        "duration": 4.89
+    },
+    {
+        "text": "then OU will typically play here then",
+        "start": 19.83,
+        "duration": 5.82
+    },
+    {
+        "text": "I've got some choices here as X I might",
+        "start": 22.74,
+        "duration": 5.25
+    },
+    {
+        "text": "try to open a new threat by moving over",
+        "start": 25.65,
+        "duration": 4.74
+    },
+    {
+        "text": "here and now o is compelled to play over",
+        "start": 27.99,
+        "duration": 4.92
+    },
+    {
+        "text": "here I'm XO maybe I make one final",
+        "start": 30.39,
+        "duration": 5.88
+    },
+    {
+        "text": "threat here o moves here I'm threatening",
+        "start": 32.91,
+        "duration": 5.19
+    },
+    {
+        "text": "to win but then I just block it over",
+        "start": 36.27,
+        "duration": 3.96
+    },
+    {
+        "text": "here and now this game ends in a draw",
+        "start": 38.1,
+        "duration": 4.26
+    },
+    {
+        "text": "almost every time amongst people who",
+        "start": 40.23,
+        "duration": 4.41
+    },
+    {
+        "text": "even have the slightest understanding of",
+        "start": 42.36,
+        "duration": 3.87
+    },
+    {
+        "text": "how to play it I mean you might be able",
+        "start": 44.64,
+        "duration": 4.56
+    },
+    {
+        "text": "to beat a small child but anyone who has",
+        "start": 46.23,
+        "duration": 5.969
+    },
+    {
+        "text": "any confidence can draw a game of",
+        "start": 49.2,
+        "duration": 3.81
+    },
+    {
+        "text": "tic-tac-toe",
+        "start": 52.199,
+        "duration": 2.971
+    },
+    {
+        "text": "in other words managed not to lose it",
+        "start": 53.01,
+        "duration": 5.16
+    },
+    {
+        "text": "and this I view as a flaw of the game",
+        "start": 55.17,
+        "duration": 4.59
+    },
+    {
+        "text": "and that's what we're here to talk about",
+        "start": 58.17,
+        "duration": 4.59
+    },
+    {
+        "text": "how can we improve tic-tac-toe I think",
+        "start": 59.76,
+        "duration": 4.59
+    },
+    {
+        "text": "the natural human tendency is to say",
+        "start": 62.76,
+        "duration": 4.679
+    },
+    {
+        "text": "well the game is too simple we need to",
+        "start": 64.35,
+        "duration": 5.089
+    },
+    {
+        "text": "make it more complicated somehow so",
+        "start": 67.439,
+        "duration": 4.591
+    },
+    {
+        "text": "people have played try playing on a four",
+        "start": 69.439,
+        "duration": 5.261
+    },
+    {
+        "text": "by four board for example and if you",
+        "start": 72.03,
+        "duration": 5.64
+    },
+    {
+        "text": "google 3d tic-tac-toe you'll probably",
+        "start": 74.7,
+        "duration": 6.0
+    },
+    {
+        "text": "find a few things there but that's not",
+        "start": 77.67,
+        "duration": 4.559
+    },
+    {
+        "text": "the point of view we're going to take",
+        "start": 80.7,
+        "duration": 3.989
+    },
+    {
+        "text": "here we're going to look at the exact",
+        "start": 82.229,
+        "duration": 5.041
+    },
+    {
+        "text": "problem with this game Brady in my",
+        "start": 84.689,
+        "duration": 6.211
+    },
+    {
+        "text": "opinion is that we can have draws right",
+        "start": 87.27,
+        "duration": 5.01
+    },
+    {
+        "text": "this is the thing that we don't like",
+        "start": 90.9,
+        "duration": 4.219
+    },
+    {
+        "text": "draws so we propose to fix that problem",
+        "start": 92.28,
+        "duration": 8.129
+    },
+    {
+        "text": "forever by having both players play X so",
+        "start": 95.119,
+        "duration": 7.661
+    },
+    {
+        "text": "let's just look at this game because it",
+        "start": 100.409,
+        "duration": 3.96
+    },
+    {
+        "text": "kind of sounds kind of stupid right",
+        "start": 102.78,
+        "duration": 3.0
+    },
+    {
+        "text": "we're going to play tic-tac-toe where",
+        "start": 104.369,
+        "duration": 3.631
+    },
+    {
+        "text": "both of us play X and whoever makes",
+        "start": 105.78,
+        "duration": 4.379
+    },
+    {
+        "text": "three in a row wins let's say that I",
+        "start": 108.0,
+        "duration": 4.71
+    },
+    {
+        "text": "take the middle self here well now you",
+        "start": 110.159,
+        "duration": 4.681
+    },
+    {
+        "text": "have to respond and you immediately have",
+        "start": 112.71,
+        "duration": 4.47
+    },
+    {
+        "text": "a big problem because wherever you",
+        "start": 114.84,
+        "duration": 5.129
+    },
+    {
+        "text": "respond let's say here on the side or in",
+        "start": 117.18,
+        "duration": 5.07
+    },
+    {
+        "text": "the corner I'm immediately going to win",
+        "start": 119.969,
+        "duration": 3.9
+    },
+    {
+        "text": "we what we've just shown is the TWiT",
+        "start": 122.25,
+        "duration": 4.29
+    },
+    {
+        "text": "games total useless right because the",
+        "start": 123.869,
+        "duration": 4.081
+    },
+    {
+        "text": "first person is always going to take the",
+        "start": 126.54,
+        "duration": 3.93
+    },
+    {
+        "text": "center right I mean there are other",
+        "start": 127.95,
+        "duration": 5.16
+    },
+    {
+        "text": "possible moves right I mean you could",
+        "start": 130.47,
+        "duration": 3.3
+    },
+    {
+        "text": "win by just",
+        "start": 133.11,
+        "duration": 2.52
+    },
+    {
+        "text": "taking the center let's say you did make",
+        "start": 133.77,
+        "duration": 3.48
+    },
+    {
+        "text": "a different move okay so let's look at",
+        "start": 135.63,
+        "duration": 3.33
+    },
+    {
+        "text": "least look at that let's say that I",
+        "start": 137.25,
+        "duration": 3.48
+    },
+    {
+        "text": "moved on the side here that would be",
+        "start": 138.96,
+        "duration": 3.42
+    },
+    {
+        "text": "stupid because you know this this wins",
+        "start": 140.73,
+        "duration": 4.41
+    },
+    {
+        "text": "alright so now the other person they",
+        "start": 142.38,
+        "duration": 4.59
+    },
+    {
+        "text": "don't want to make two in a row but",
+        "start": 145.14,
+        "duration": 5.04
+    },
+    {
+        "text": "you've sort of occupied one column and",
+        "start": 146.97,
+        "duration": 5.73
+    },
+    {
+        "text": "one row here so I don't want to move in",
+        "start": 150.18,
+        "duration": 3.54
+    },
+    {
+        "text": "either of those so I'm going to move",
+        "start": 152.7,
+        "duration": 3.45
+    },
+    {
+        "text": "over here for example now it's the",
+        "start": 153.72,
+        "duration": 5.85
+    },
+    {
+        "text": "person who moved first turn and they",
+        "start": 156.15,
+        "duration": 5.39
+    },
+    {
+        "text": "still have the intersection of the third",
+        "start": 159.57,
+        "duration": 6.15
+    },
+    {
+        "text": "row and the first column to play in here",
+        "start": 161.54,
+        "duration": 7.33
+    },
+    {
+        "text": "but now I have an X in every row and an",
+        "start": 165.72,
+        "duration": 5.4
+    },
+    {
+        "text": "X in every column and that's going to",
+        "start": 168.87,
+        "duration": 4.26
+    },
+    {
+        "text": "compel whoever plays next to make two in",
+        "start": 171.12,
+        "duration": 3.36
+    },
+    {
+        "text": "a row and then the game is going to end",
+        "start": 173.13,
+        "duration": 3.06
+    },
+    {
+        "text": "player 1 wins again",
+        "start": 174.48,
+        "duration": 3.75
+    },
+    {
+        "text": "we've analyzed it completely and we",
+        "start": 176.19,
+        "duration": 3.57
+    },
+    {
+        "text": "haven't exactly found an interesting",
+        "start": 178.23,
+        "duration": 3.81
+    },
+    {
+        "text": "game here so this is not yet what we",
+        "start": 179.76,
+        "duration": 3.78
+    },
+    {
+        "text": "want to have what we want to do is",
+        "start": 182.04,
+        "duration": 3.42
+    },
+    {
+        "text": "create an incentive for people to not",
+        "start": 183.54,
+        "duration": 3.72
+    },
+    {
+        "text": "make three in a row and so we're going",
+        "start": 185.46,
+        "duration": 3.54
+    },
+    {
+        "text": "to play what's called the misere or",
+        "start": 187.26,
+        "duration": 4.92
+    },
+    {
+        "text": "losing form of the game so here we're",
+        "start": 189.0,
+        "duration": 4.62
+    },
+    {
+        "text": "going to say that instead of the person",
+        "start": 192.18,
+        "duration": 4.77
+    },
+    {
+        "text": "who makes three in a row that the winner",
+        "start": 193.62,
+        "duration": 5.31
+    },
+    {
+        "text": "we're going to make that person the",
+        "start": 196.95,
+        "duration": 5.04
+    },
+    {
+        "text": "loser this game ends when someone makes",
+        "start": 198.93,
+        "duration": 5.58
+    },
+    {
+        "text": "three in a row and that person loses",
+        "start": 201.99,
+        "duration": 3.96
+    },
+    {
+        "text": "it's to string it out as long as",
+        "start": 204.51,
+        "duration": 3.42
+    },
+    {
+        "text": "possible and force your opponent to be",
+        "start": 205.95,
+        "duration": 3.75
+    },
+    {
+        "text": "the first one to make three in a row so",
+        "start": 207.93,
+        "duration": 6.72
+    },
+    {
+        "text": "let's say for example that someone takes",
+        "start": 209.7,
+        "duration": 9.36
+    },
+    {
+        "text": "a move in the corner moving in the",
+        "start": 214.65,
+        "duration": 6.54
+    },
+    {
+        "text": "corner is not the move you want to make",
+        "start": 219.06,
+        "duration": 4.68
+    },
+    {
+        "text": "in this Miss air game so why is that",
+        "start": 221.19,
+        "duration": 4.92
+    },
+    {
+        "text": "okay so let's say I move in the corner",
+        "start": 223.74,
+        "duration": 4.32
+    },
+    {
+        "text": "what is a good response to this well",
+        "start": 226.11,
+        "duration": 4.92
+    },
+    {
+        "text": "what you want to do is move in the",
+        "start": 228.06,
+        "duration": 5.13
+    },
+    {
+        "text": "opposite corner it's not clear that this",
+        "start": 231.03,
+        "duration": 3.84
+    },
+    {
+        "text": "is a good move but let me explain why it",
+        "start": 233.19,
+        "duration": 4.68
+    },
+    {
+        "text": "is by taking the opposite point here you",
+        "start": 234.87,
+        "duration": 4.5
+    },
+    {
+        "text": "have essentially made the middle square",
+        "start": 237.87,
+        "duration": 3.3
+    },
+    {
+        "text": "something that neither of us want to",
+        "start": 239.37,
+        "duration": 3.9
+    },
+    {
+        "text": "play in right because you immediately",
+        "start": 241.17,
+        "duration": 4.5
+    },
+    {
+        "text": "will lose now if you move in the middle",
+        "start": 243.27,
+        "duration": 4.38
+    },
+    {
+        "text": "square so now it's back to the first",
+        "start": 245.67,
+        "duration": 3.93
+    },
+    {
+        "text": "player you can't play in the middle so",
+        "start": 247.65,
+        "duration": 4.38
+    },
+    {
+        "text": "let's say he plays here ah but now the",
+        "start": 249.6,
+        "duration": 5.43
+    },
+    {
+        "text": "second player can now again play exactly",
+        "start": 252.03,
+        "duration": 5.25
+    },
+    {
+        "text": "opposite on the other side of the center",
+        "start": 255.03,
+        "duration": 5.61
+    },
+    {
+        "text": "so now they go there now it's now the",
+        "start": 257.28,
+        "duration": 6.33
+    },
+    {
+        "text": "first player has another move doesn't",
+        "start": 260.64,
+        "duration": 4.74
+    },
+    {
+        "text": "want to move in the center but now let's",
+        "start": 263.61,
+        "duration": 3.809
+    },
+    {
+        "text": "say you certainly want doesn't",
+        "start": 265.38,
+        "duration": 3.689
+    },
+    {
+        "text": "move here because that loses but so",
+        "start": 267.419,
+        "duration": 4.08
+    },
+    {
+        "text": "perhaps he plays here but then again on",
+        "start": 269.069,
+        "duration": 4.291
+    },
+    {
+        "text": "the opposite side of the board there's",
+        "start": 271.499,
+        "duration": 4.021
+    },
+    {
+        "text": "an empty square so the opponent will",
+        "start": 273.36,
+        "duration": 4.559
+    },
+    {
+        "text": "play here and now the first player has",
+        "start": 275.52,
+        "duration": 4.739
+    },
+    {
+        "text": "to lose well every move makes three in a",
+        "start": 277.919,
+        "duration": 4.321
+    },
+    {
+        "text": "row the takeaway from this is that the",
+        "start": 280.259,
+        "duration": 5.101
+    },
+    {
+        "text": "first player must not choose a cell that",
+        "start": 282.24,
+        "duration": 5.34
+    },
+    {
+        "text": "is on the boundary of the board because",
+        "start": 285.36,
+        "duration": 4.44
+    },
+    {
+        "text": "then the first player will be vulnerable",
+        "start": 287.58,
+        "duration": 4.739
+    },
+    {
+        "text": "to exactly this mirroring strategy and",
+        "start": 289.8,
+        "duration": 6.0
+    },
+    {
+        "text": "ultimately will have to be the first one",
+        "start": 292.319,
+        "duration": 4.921
+    },
+    {
+        "text": "to complete three in a row",
+        "start": 295.8,
+        "duration": 3.03
+    },
+    {
+        "text": "what happens if the first player plays",
+        "start": 297.24,
+        "duration": 3.75
+    },
+    {
+        "text": "in the middle yes right that's the only",
+        "start": 298.83,
+        "duration": 4.559
+    },
+    {
+        "text": "other possibility so should the first",
+        "start": 300.99,
+        "duration": 4.59
+    },
+    {
+        "text": "player move to the middle and does the",
+        "start": 303.389,
+        "duration": 3.601
+    },
+    {
+        "text": "first player win so let's look at that",
+        "start": 305.58,
+        "duration": 3.179
+    },
+    {
+        "text": "one okay so here's the first player who",
+        "start": 306.99,
+        "duration": 4.079
+    },
+    {
+        "text": "moves in the middle now I claim this is",
+        "start": 308.759,
+        "duration": 4.051
+    },
+    {
+        "text": "a good move in this win so that I can",
+        "start": 311.069,
+        "duration": 5.19
+    },
+    {
+        "text": "force my opponent to make the three in a",
+        "start": 312.81,
+        "duration": 6.69
+    },
+    {
+        "text": "row so let's take any typical move by my",
+        "start": 316.259,
+        "duration": 5.19
+    },
+    {
+        "text": "opponent let's say my opponent moves",
+        "start": 319.5,
+        "duration": 4.159
+    },
+    {
+        "text": "here okay so this is my opponent's move",
+        "start": 321.449,
+        "duration": 5.37
+    },
+    {
+        "text": "and the secret sauce here is that you",
+        "start": 323.659,
+        "duration": 6.37
+    },
+    {
+        "text": "move a knight's move away from where",
+        "start": 326.819,
+        "duration": 5.361
+    },
+    {
+        "text": "your opponent just moved I know as a",
+        "start": 330.029,
+        "duration": 3.66
+    },
+    {
+        "text": "chest Knight",
+        "start": 332.18,
+        "duration": 4.03
+    },
+    {
+        "text": "so in other words two down and one over",
+        "start": 333.689,
+        "duration": 4.95
+    },
+    {
+        "text": "or one up and two over sort of an",
+        "start": 336.21,
+        "duration": 4.859
+    },
+    {
+        "text": "l-shape away so here my opponent has",
+        "start": 338.639,
+        "duration": 3.75
+    },
+    {
+        "text": "just moved here so I have two choices",
+        "start": 341.069,
+        "duration": 3.241
+    },
+    {
+        "text": "this would be two down and one over this",
+        "start": 342.389,
+        "duration": 3.601
+    },
+    {
+        "text": "way or I also have two down and one over",
+        "start": 344.31,
+        "duration": 3.15
+    },
+    {
+        "text": "this way so I could play in either one",
+        "start": 345.99,
+        "duration": 3.359
+    },
+    {
+        "text": "of these let's say I play here I claim",
+        "start": 347.46,
+        "duration": 4.5
+    },
+    {
+        "text": "that is a good move now my opponent has",
+        "start": 349.349,
+        "duration": 5.581
+    },
+    {
+        "text": "to make some move and doesn't want to",
+        "start": 351.96,
+        "duration": 3.989
+    },
+    {
+        "text": "make three in a row so they certainly",
+        "start": 354.93,
+        "duration": 2.28
+    },
+    {
+        "text": "won't play here",
+        "start": 355.949,
+        "duration": 3.631
+    },
+    {
+        "text": "but if they play here okay so let's say",
+        "start": 357.21,
+        "duration": 5.22
+    },
+    {
+        "text": "they play here then I claim again a good",
+        "start": 359.58,
+        "duration": 5.19
+    },
+    {
+        "text": "response is a knight's move away and now",
+        "start": 362.43,
+        "duration": 3.9
+    },
+    {
+        "text": "here I've already played here I can't do",
+        "start": 364.77,
+        "duration": 4.319
+    },
+    {
+        "text": "this one but I can do this one so I go",
+        "start": 366.33,
+        "duration": 6.389
+    },
+    {
+        "text": "here and now I have this interesting Y",
+        "start": 369.089,
+        "duration": 7.14
+    },
+    {
+        "text": "shape or Z shape here plus a little blob",
+        "start": 372.719,
+        "duration": 5.91
+    },
+    {
+        "text": "in the opposite corner and now this if",
+        "start": 376.229,
+        "duration": 4.92
+    },
+    {
+        "text": "you stare at it you can see wherever you",
+        "start": 378.629,
+        "duration": 3.72
+    },
+    {
+        "text": "play you're going to make three in a row",
+        "start": 381.149,
+        "duration": 3.721
+    },
+    {
+        "text": "and lose if you're playing X only",
+        "start": 382.349,
+        "duration": 5.731
+    },
+    {
+        "text": "tic-tac-toe where the person who makes",
+        "start": 384.87,
+        "duration": 6.09
+    },
+    {
+        "text": "three in a row loses you definitely want",
+        "start": 388.08,
+        "duration": 5.819
+    },
+    {
+        "text": "to move in the center and then after",
+        "start": 390.96,
+        "duration": 5.04
+    },
+    {
+        "text": "that it's very simple you just copy your",
+        "start": 393.899,
+        "duration": 3.99
+    },
+    {
+        "text": "opponent's move moving in Knights move",
+        "start": 396.0,
+        "duration": 4.83
+    },
+    {
+        "text": "away done you are",
+        "start": 397.889,
+        "duration": 5.821
+    },
+    {
+        "text": "world-champion on one board here's the",
+        "start": 400.83,
+        "duration": 4.68
+    },
+    {
+        "text": "game we really want to talk about this",
+        "start": 403.71,
+        "duration": 5.49
+    },
+    {
+        "text": "is a game that deserves some close study",
+        "start": 405.51,
+        "duration": 6.72
+    },
+    {
+        "text": "some spending some time on and you will",
+        "start": 409.2,
+        "duration": 4.92
+    },
+    {
+        "text": "if you study closely be able to beat",
+        "start": 412.23,
+        "duration": 5.67
+    },
+    {
+        "text": "everyone you play Number Four wouldn't",
+        "start": 414.12,
+        "duration": 5.25
+    },
+    {
+        "text": "be possible without support from the",
+        "start": 417.9,
+        "duration": 3.75
+    },
+    {
+        "text": "mathematical sciences Research Institute",
+        "start": 419.37,
+        "duration": 6.06
+    },
+    {
+        "text": "MSRI that's the building right there if",
+        "start": 421.65,
+        "duration": 5.4
+    },
+    {
+        "text": "you'd like to find out more about them I",
+        "start": 425.43,
+        "duration": 3.93
+    },
+    {
+        "text": "put some links under the video but for",
+        "start": 427.05,
+        "duration": 4.62
+    },
+    {
+        "text": "now let's just apply the view they have",
+        "start": 429.36,
+        "duration": 3.63
+    },
+    {
+        "text": "over the San Francisco Bay it's",
+        "start": 431.67,
+        "duration": 3.45
+    },
+    {
+        "text": "incredible and Golden Gate Bridge",
+        "start": 432.99,
+        "duration": 8.42
+    },
+    {
+        "text": "Alcatraz San Francisco City amazing",
+        "start": 435.12,
+        "duration": 6.29
+    }
+]

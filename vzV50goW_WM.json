@@ -1,0 +1,642 @@
+[
+    {
+        "text": "So recently professor Bowley showed us",
+        "start": 0.06,
+        "duration": 1.95
+    },
+    {
+        "text": "log tables; how in the good old days he",
+        "start": 2.01,
+        "duration": 2.94
+    },
+    {
+        "text": "used to use books like this to do big",
+        "start": 4.95,
+        "duration": 2.699
+    },
+    {
+        "text": "calculations.",
+        "start": 7.649,
+        "duration": 1.141
+    },
+    {
+        "text": "I'd suggest having a look at the video",
+        "start": 8.79,
+        "duration": 1.47
+    },
+    {
+        "text": "before watching this one if you need to",
+        "start": 10.26,
+        "duration": 1.47
+    },
+    {
+        "text": "get up to speed, but at the end of the",
+        "start": 11.73,
+        "duration": 2.039
+    },
+    {
+        "text": "last one we promised we talked about how",
+        "start": 13.769,
+        "duration": 2.101
+    },
+    {
+        "text": "these tables were created.",
+        "start": 15.87,
+        "duration": 1.59
+    },
+    {
+        "text": "Now the log tables we were looking at",
+        "start": 17.46,
+        "duration": 1.979
+    },
+    {
+        "text": "were in base 10, all numbers were sort",
+        "start": 19.439,
+        "duration": 2.311
+    },
+    {
+        "text": "of converted to a power of 10, but that's",
+        "start": 21.75,
+        "duration": 2.039
+    },
+    {
+        "text": "not how the first tables were created;",
+        "start": 23.789,
+        "duration": 1.861
+    },
+    {
+        "text": "that's what we're going to explain now.",
+        "start": 25.65,
+        "duration": 1.709
+    },
+    {
+        "text": "It's some pretty hardcore number",
+        "start": 27.359,
+        "duration": 1.59
+    },
+    {
+        "text": "crunching at times but it is amazing to",
+        "start": 28.949,
+        "duration": 2.16
+    },
+    {
+        "text": "think all those years ago people were",
+        "start": 31.109,
+        "duration": 2.281
+    },
+    {
+        "text": "doing that kind of work to pave the way",
+        "start": 33.39,
+        "duration": 2.49
+    },
+    {
+        "text": "for the scientists and mathematicians in",
+        "start": 35.88,
+        "duration": 2.249
+    },
+    {
+        "text": "the years to come.",
+        "start": 38.129,
+        "duration": 1.58
+    },
+    {
+        "text": "Now you're going to ask the question:",
+        "start": 43.47,
+        "duration": 1.859
+    },
+    {
+        "text": "where do these numbers come from? How did",
+        "start": 45.329,
+        "duration": 1.921
+    },
+    {
+        "text": "I make up tables, anti logarithms and",
+        "start": 47.25,
+        "duration": 2.16
+    },
+    {
+        "text": "logarithms? And this was done by a man",
+        "start": 49.41,
+        "duration": 1.95
+    },
+    {
+        "text": "called John Napier in the period between",
+        "start": 51.36,
+        "duration": 3.269
+    },
+    {
+        "text": "1594 and 1614. This is before calculus,",
+        "start": 54.629,
+        "duration": 5.341
+    },
+    {
+        "text": "before Newton's works, before Leibniz,",
+        "start": 59.97,
+        "duration": 2.09
+    },
+    {
+        "text": "before Gauss - all these great",
+        "start": 62.06,
+        "duration": 1.69
+    },
+    {
+        "text": "mathematicians, he was the one who did",
+        "start": 63.75,
+        "duration": 2.22
+    },
+    {
+        "text": "the first bit which was to work out this",
+        "start": 65.97,
+        "duration": 2.009
+    },
+    {
+        "text": "new function, the logarithm. And although",
+        "start": 67.979,
+        "duration": 1.711
+    },
+    {
+        "text": "I've told you about logarithms to the",
+        "start": 69.69,
+        "duration": 1.56
+    },
+    {
+        "text": "base 10 you could do logarithms to",
+        "start": 71.25,
+        "duration": 2.19
+    },
+    {
+        "text": "whatever number, it doesn't have to be 10",
+        "start": 73.44,
+        "duration": 2.789
+    },
+    {
+        "text": "to the power; it could be 3 to the power,",
+        "start": 76.229,
+        "duration": 1.711
+    },
+    {
+        "text": "or 5 to the power - whatever you",
+        "start": 77.94,
+        "duration": 2.34
+    },
+    {
+        "text": "want - or 0.3 to the power. So I'm going to",
+        "start": 80.28,
+        "duration": 2.19
+    },
+    {
+        "text": "make up a number and show you the",
+        "start": 82.47,
+        "duration": 1.649
+    },
+    {
+        "text": "method used by John Napier so you can",
+        "start": 84.119,
+        "duration": 2.761
+    },
+    {
+        "text": "follow the logic; but I'm not going to",
+        "start": 86.88,
+        "duration": 2.34
+    },
+    {
+        "text": "ask you to take 20 years which is what",
+        "start": 89.22,
+        "duration": 2.37
+    },
+    {
+        "text": "he took in order to create the table, I'm",
+        "start": 91.59,
+        "duration": 2.309
+    },
+    {
+        "text": "gonna make a very short abbreviated",
+        "start": 93.899,
+        "duration": 2.161
+    },
+    {
+        "text": "table. The number I am gonna use, which",
+        "start": 96.06,
+        "duration": 2.94
+    },
+    {
+        "text": "I'll call a, is a very strange number.",
+        "start": 99.0,
+        "duration": 2.97
+    },
+    {
+        "text": "It's 1 minus 0.1 to the power of 10.",
+        "start": 101.97,
+        "duration": 4.62
+    },
+    {
+        "text": "(Brady: That's our base is it?)\n- That's going to be the",
+        "start": 106.59,
+        "duration": 2.79
+    },
+    {
+        "text": "base. And it makes the calculations as",
+        "start": 109.38,
+        "duration": 2.519
+    },
+    {
+        "text": "easy as possible and I'll try to explain",
+        "start": 111.899,
+        "duration": 1.95
+    },
+    {
+        "text": "why. So now I want to work out this",
+        "start": 113.849,
+        "duration": 3.241
+    },
+    {
+        "text": "number to the power of",
+        "start": 117.09,
+        "duration": 2.119
+    },
+    {
+        "text": "0.1. Now 0.1 is",
+        "start": 119.209,
+        "duration": 2.681
+    },
+    {
+        "text": "different from 1 and 2 and 3 because",
+        "start": 121.89,
+        "duration": 2.339
+    },
+    {
+        "text": "it's got a decimal point. And once you've",
+        "start": 124.229,
+        "duration": 1.98
+    },
+    {
+        "text": "understood that you can get decimal",
+        "start": 126.209,
+        "duration": 1.561
+    },
+    {
+        "text": "points out of this you can see how you",
+        "start": 127.77,
+        "duration": 1.86
+    },
+    {
+        "text": "can build up a longer table. And this is",
+        "start": 129.63,
+        "duration": 2.46
+    },
+    {
+        "text": "1 minus 0.1 to the 10 to the power of 0.1",
+        "start": 132.09,
+        "duration": 6.26
+    },
+    {
+        "text": "which is 1 minus 0.1; 10 times",
+        "start": 138.35,
+        "duration": 5.29
+    },
+    {
+        "text": "0.1 is 1 so this is 0.9.",
+        "start": 143.64,
+        "duration": 5.077
+    },
+    {
+        "text": "0.9 is this number, this",
+        "start": 148.717,
+        "duration": 3.742
+    },
+    {
+        "text": "exponent to the power of 0.1. If I",
+        "start": 152.459,
+        "duration": 3.241
+    },
+    {
+        "text": "were to do this again and put in",
+        "start": 155.7,
+        "duration": 2.694
+    },
+    {
+        "text": "0.2 to the power of 10 times",
+        "start": 158.394,
+        "duration": 3.173
+    },
+    {
+        "text": "0.2, which is 1 minus 0.1 to the",
+        "start": 161.567,
+        "duration": 4.422
+    },
+    {
+        "text": "power of 2. And now I have a choice here,",
+        "start": 165.989,
+        "duration": 3.541
+    },
+    {
+        "text": "I'm going to use this result, 0.9",
+        "start": 169.53,
+        "duration": 3.06
+    },
+    {
+        "text": "into 1 minus 0.1 - of course 0.9",
+        "start": 172.59,
+        "duration": 4.22
+    },
+    {
+        "text": "minus 0.09 equals 0.81. So",
+        "start": 176.81,
+        "duration": 5.82
+    },
+    {
+        "text": "I've got the next one; and you see I'm",
+        "start": 182.63,
+        "duration": 1.89
+    },
+    {
+        "text": "doing it all the time by subtracting",
+        "start": 184.52,
+        "duration": 2.1
+    },
+    {
+        "text": "this from that.\n- (This is tedious!)",
+        "start": 186.62,
+        "duration": 3.549
+    },
+    {
+        "text": "Oh yeah! He took 20 years over this\nand he used a",
+        "start": 190.169,
+        "duration": 4.431
+    },
+    {
+        "text": "much larger number than this. I'll just do",
+        "start": 194.6,
+        "duration": 2.49
+    },
+    {
+        "text": "one more: 0.81 minus 0.081",
+        "start": 197.09,
+        "duration": 3.75
+    },
+    {
+        "text": "equals 0.729. And it goes on and",
+        "start": 200.84,
+        "duration": 4.92
+    },
+    {
+        "text": "on and on. This is working out things",
+        "start": 205.76,
+        "duration": 3.69
+    },
+    {
+        "text": "which I can put in a table. So this is",
+        "start": 209.45,
+        "duration": 2.4
+    },
+    {
+        "text": "just the same as I was explaining when",
+        "start": 211.85,
+        "duration": 2.52
+    },
+    {
+        "text": "doing the log tables, this is just to a",
+        "start": 214.37,
+        "duration": 1.71
+    },
+    {
+        "text": "different base. Now Napier used the",
+        "start": 216.08,
+        "duration": 3.39
+    },
+    {
+        "text": "number 1 minus 1 over 10 to the 7 to the",
+        "start": 219.47,
+        "duration": 4.56
+    },
+    {
+        "text": "power of 10 to the 7.\n- (That was his base?)",
+        "start": 224.03,
+        "duration": 3.209
+    },
+    {
+        "text": "That was a one he used over a long period",
+        "start": 227.239,
+        "duration": 3.211
+    },
+    {
+        "text": "to get his accurately as possible. So he",
+        "start": 230.45,
+        "duration": 2.61
+    },
+    {
+        "text": "was using this process but with a more",
+        "start": 233.06,
+        "duration": 4.05
+    },
+    {
+        "text": "complicated number.\n- (Those tables you were)",
+        "start": 237.11,
+        "duration": 2.52
+    },
+    {
+        "text": "(using as a boy in school were base 10,)",
+        "start": 239.63,
+        "duration": 1.8
+    },
+    {
+        "text": "(what's going on here?)\n- Oh there was a man",
+        "start": 241.43,
+        "duration": 1.92
+    },
+    {
+        "text": "called Briggs who worked out that if you",
+        "start": 243.35,
+        "duration": 2.28
+    },
+    {
+        "text": "calculated it to the base e, or to this",
+        "start": 245.63,
+        "duration": 2.94
+    },
+    {
+        "text": "base, you could convert it to base 10. And",
+        "start": 248.57,
+        "duration": 3.12
+    },
+    {
+        "text": "that sold the product much more easily",
+        "start": 251.69,
+        "duration": 2.37
+    },
+    {
+        "text": "because people are used to dealing in base",
+        "start": 254.06,
+        "duration": 1.83
+    },
+    {
+        "text": "10. And there's a simple transformation,",
+        "start": 255.89,
+        "duration": 1.71
+    },
+    {
+        "text": "once you've got one function, the",
+        "start": 257.6,
+        "duration": 2.22
+    },
+    {
+        "text": "exponential function rising up, or any",
+        "start": 259.82,
+        "duration": 2.94
+    },
+    {
+        "text": "number to some power up rising up, you",
+        "start": 262.76,
+        "duration": 2.279
+    },
+    {
+        "text": "can convert to base 10; and that's what",
+        "start": 265.039,
+        "duration": 2.311
+    },
+    {
+        "text": "Briggs did and that helped sell the",
+        "start": 267.35,
+        "duration": 1.47
+    },
+    {
+        "text": "product. So Napier did\nall the donkey work;",
+        "start": 268.82,
+        "duration": 3.39
+    },
+    {
+        "text": "Briggs came in and got all the glory at",
+        "start": 272.21,
+        "duration": 1.95
+    },
+    {
+        "text": "the end. If you go through this algebra",
+        "start": 274.16,
+        "duration": 2.4
+    },
+    {
+        "text": "and you get to really long numbers you",
+        "start": 276.56,
+        "duration": 4.14
+    },
+    {
+        "text": "have problems; because first of all if I",
+        "start": 280.7,
+        "duration": 2.82
+    },
+    {
+        "text": "get eight decimal places and have to",
+        "start": 283.52,
+        "duration": 3.57
+    },
+    {
+        "text": "subtract off another eight I'm bound to",
+        "start": 287.09,
+        "duration": 1.949
+    },
+    {
+        "text": "make mistakes. And people did make",
+        "start": 289.039,
+        "duration": 2.401
+    },
+    {
+        "text": "mistakes. And also if you get up to 10 to",
+        "start": 291.44,
+        "duration": 3.39
+    },
+    {
+        "text": "the 7 decimal places you really ought",
+        "start": 294.83,
+        "duration": 2.76
+    },
+    {
+        "text": "to be truncating at some point because",
+        "start": 297.59,
+        "duration": 1.77
+    },
+    {
+        "text": "you can't do the sums. And so they were",
+        "start": 299.36,
+        "duration": 1.86
+    },
+    {
+        "text": "errors introduced because people were",
+        "start": 301.22,
+        "duration": 2.1
+    },
+    {
+        "text": "doing subtraction all the time. And so",
+        "start": 303.32,
+        "duration": 2.19
+    },
+    {
+        "text": "one of the great problems was to",
+        "start": 305.51,
+        "duration": 2.49
+    },
+    {
+        "text": "move all the errors from the tables",
+        "start": 308.0,
+        "duration": 1.74
+    },
+    {
+        "text": "because if you're an astronomer and you",
+        "start": 309.74,
+        "duration": 1.5
+    },
+    {
+        "text": "were relying on all these things to get",
+        "start": 311.24,
+        "duration": 1.74
+    },
+    {
+        "text": "accurate measurements and accurate",
+        "start": 312.98,
+        "duration": 1.83
+    },
+    {
+        "text": "calculations what you should see it",
+        "start": 314.81,
+        "duration": 2.22
+    },
+    {
+        "text": "might disagree with the experiment - not",
+        "start": 317.03,
+        "duration": 1.74
+    },
+    {
+        "text": "because of the experiment and the theory",
+        "start": 318.77,
+        "duration": 3.39
+    },
+    {
+        "text": "not working but because the calculations",
+        "start": 322.16,
+        "duration": 2.34
+    },
+    {
+        "text": "are wrong based on these tables. And so",
+        "start": 324.5,
+        "duration": 2.22
+    },
+    {
+        "text": "somebody called Babbage tried to invent a",
+        "start": 326.72,
+        "duration": 3.33
+    },
+    {
+        "text": "difference engine to try and remove all",
+        "start": 330.05,
+        "duration": 2.01
+    },
+    {
+        "text": "the errors in all the mathematical",
+        "start": 332.06,
+        "duration": 1.53
+    },
+    {
+        "text": "tables and couldn't do it.",
+        "start": 333.59,
+        "duration": 2.04
+    }
+]

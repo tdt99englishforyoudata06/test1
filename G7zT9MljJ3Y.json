@@ -1,0 +1,917 @@
+[
+    {
+        "text": "So a cube has perfect symmetry, right? You know what I mean. Every face is the same.",
+        "start": 0.38,
+        "duration": 4.2
+    },
+    {
+        "text": "And a tetrahedron has perfect symmetry. Okay, there are four faces,",
+        "start": 5.65,
+        "duration": 3.799
+    },
+    {
+        "text": "and they're all the same.",
+        "start": 9.449,
+        "duration": 1.551
+    },
+    {
+        "text": "You can ask, and Euclid did, what are all of the symmetric",
+        "start": 11.68,
+        "duration": 4.18
+    },
+    {
+        "text": "three-dimensional objects? And it turns out there are only five of them. Most people know what a cube is, and a tetrahedron.",
+        "start": 16.39,
+        "duration": 5.719
+    },
+    {
+        "text": "But there are also an octahedron, which has eight faces, you know, four on top and four on the bottom. And it's again, perfectly",
+        "start": 22.109,
+        "duration": 7.44
+    },
+    {
+        "text": "symmetrical. Every way you twist and turn it, it looks the same, just like a cube. And then there are two others.",
+        "start": 29.83,
+        "duration": 5.42
+    },
+    {
+        "text": "There's the icosahedron and the dodecahedron.",
+        "start": 35.4,
+        "duration": 2.54
+    },
+    {
+        "text": "But that's it. So first you might think, well,",
+        "start": 38.16,
+        "duration": 1.82
+    },
+    {
+        "text": "if there are so many funny ones, why aren't there lots of different ones? So I proved that in class,",
+        "start": 39.989,
+        "duration": 6.09
+    },
+    {
+        "text": "I mean, it's a real theorem, and I said, therefore, there are only five fair dice.",
+        "start": 46.079,
+        "duration": 4.86
+    },
+    {
+        "text": "Because each of those dice would be fair, that is, if I wanted to generate a number between one and eight, if I rolled the",
+        "start": 51.969,
+        "duration": 6.26
+    },
+    {
+        "text": "octahedron, each of these faces is equally likely to come out. Somehow, intuitively,",
+        "start": 58.42,
+        "duration": 3.799
+    },
+    {
+        "text": "we know that. You know, that's a fair dice",
+        "start": 62.23,
+        "duration": 2.329
+    },
+    {
+        "text": "which has eight sides. And a kid raises his hand in class and said, I have a thirty sided die.",
+        "start": 64.559,
+        "duration": 5.279
+    },
+    {
+        "text": "And I said, no you don't.",
+        "start": 70.06,
+        "duration": 1.5
+    },
+    {
+        "text": "And he said, yeah I do.",
+        "start": 72.16,
+        "duration": 1.46
+    },
+    {
+        "text": "When you first meet it, it's just some lumpy roundish thing. But in fact,",
+        "start": 74.0,
+        "duration": 4.2
+    },
+    {
+        "text": "it's called a rhombic triacontahedron, and it has thirty faces, and all of the faces are the same size.",
+        "start": 78.21,
+        "duration": 7.319
+    },
+    {
+        "text": "They're all little rhombuses.",
+        "start": 85.53,
+        "duration": 1.8
+    },
+    {
+        "text": "That's why it's called a rhombic thing. Now, this die isn't as",
+        "start": 87.33,
+        "duration": 3.689
+    },
+    {
+        "text": "symmetric as the other ones. This vertex has five faces that meet at this vertex.",
+        "start": 91.09,
+        "duration": 4.7
+    },
+    {
+        "text": "But this vertex has three faces that meet at this vertex.",
+        "start": 95.79,
+        "duration": 3.93
+    },
+    {
+        "text": "So it's not as symmetrical, for example, a cube has three faces at each vertex,",
+        "start": 99.72,
+        "duration": 5.759
+    },
+    {
+        "text": "you know, and every edge has two sides. And so there's a question, is it fair, and what does that mean?",
+        "start": 105.78,
+        "duration": 6.3
+    },
+    {
+        "text": "Well, of course we know what it means in practice. We mean if we throw it",
+        "start": 112.48,
+        "duration": 3.34
+    },
+    {
+        "text": "you know, it should land on each of the thirty faces a thirtieth of the time.",
+        "start": 116.259,
+        "duration": 4.34
+    },
+    {
+        "text": "But let me talk about that for a second. When I was a graduate student,",
+        "start": 120.6,
+        "duration": 3.54
+    },
+    {
+        "text": "we had a guy who was a retired executive",
+        "start": 124.479,
+        "duration": 2.12
+    },
+    {
+        "text": "who wanted to test the laws of chance. And he came into the department,",
+        "start": 126.79,
+        "duration": 3.889
+    },
+    {
+        "text": "and he said, I like throwing dice when I watch television. And actually, Brady,",
+        "start": 130.679,
+        "duration": 4.44
+    },
+    {
+        "text": "it might be that some of your viewers might want to participate in this. And in the end, he wound up rolling a die",
+        "start": 135.43,
+        "duration": 7.429
+    },
+    {
+        "text": "three and a half million times,",
+        "start": 143.11,
+        "duration": 2.0
+    },
+    {
+        "text": "and recording how many times did each face come out. And here are some things you learn. The first thing is that",
+        "start": 145.99,
+        "duration": 5.72
+    },
+    {
+        "text": "dice, if you roll them a lot, get round. Of course they do. If you roll a die",
+        "start": 151.9,
+        "duration": 4.22
+    },
+    {
+        "text": "20,000 times it, you know, bounces around, it changes. So we had to give him new dice. The notion of long-term frequency,",
+        "start": 156.67,
+        "duration": 7.37
+    },
+    {
+        "text": "it's actually pretty fictional. The second thing was, dice the way they're made, the dice",
+        "start": 164.04,
+        "duration": 4.44
+    },
+    {
+        "text": "he was using, have pips drilled in them and filled with paint. So there's a six has six spots in it.",
+        "start": 168.48,
+        "duration": 5.729
+    },
+    {
+        "text": "Well, those drill holes are lighter.",
+        "start": 174.24,
+        "duration": 2.429
+    },
+    {
+        "text": "So the six face actually has less mass, and the one face, which is opposite, has more.",
+        "start": 176.71,
+        "duration": 5.3
+    },
+    {
+        "text": "You know, they weren't fair.",
+        "start": 182.17,
+        "duration": 1.73
+    },
+    {
+        "text": "Now, casino dice are much more carefully made. The holes are filled with paint of the same specific gravity as the",
+        "start": 183.9,
+        "duration": 6.54
+    },
+    {
+        "text": "surrounding material, so they really are pretty close to fair. When you start thinking about anything,",
+        "start": 190.75,
+        "duration": 5.179
+    },
+    {
+        "text": "even something as silly as, as, what does it mean to say a dice, die is fair, there are things to think about, of course.",
+        "start": 196.27,
+        "duration": 6.83
+    },
+    {
+        "text": "Okay, so I wanted to think about, what does it mean",
+        "start": 203.56,
+        "duration": 3.47
+    },
+    {
+        "text": "to say this die is fair?",
+        "start": 207.67,
+        "duration": 2.569
+    },
+    {
+        "text": "There's the notion of the symmetry group of a die. A symmetry of an object, any object, is the set of all",
+        "start": 210.459,
+        "duration": 6.29
+    },
+    {
+        "text": "transformations I can make, like turning it a quarter, or",
+        "start": 217.33,
+        "duration": 2.809
+    },
+    {
+        "text": "turning it this way, or turning it over, which bring it, atom for atom, where it was, okay?",
+        "start": 220.48,
+        "duration": 5.869
+    },
+    {
+        "text": "So that's called a symmetry group. And of course, if I have one symmetry, like turning at a quarter turn, I can do it twice.",
+        "start": 226.35,
+        "duration": 5.97
+    },
+    {
+        "text": "I can go once, twice, right? So I can combine the symmetry of flip that way with the symmetry of a flip that way.",
+        "start": 232.32,
+        "duration": 6.509
+    },
+    {
+        "text": "So, we say that the symmetries of an object form a group. All that means is, you can",
+        "start": 238.83,
+        "duration": 5.49
+    },
+    {
+        "text": "take one symmetry, and then take another symmetry, and compose them, do them twice. You have to be able to undo it.",
+        "start": 244.84,
+        "duration": 6.86
+    },
+    {
+        "text": "If I just did this",
+        "start": 251.7,
+        "duration": 1.5
+    },
+    {
+        "text": "I can undo it.",
+        "start": 253.2,
+        "duration": 1.28
+    },
+    {
+        "text": "Brady: \"What's a, what's a function you could perform on a dice, for example, that you couldn't undo just by doing it backwards?\"",
+        "start": 254.48,
+        "duration": 5.04
+    },
+    {
+        "text": "Suppose that the die was made out of Jell-O and I flattened it.",
+        "start": 259.62,
+        "duration": 3.27
+    },
+    {
+        "text": "I couldn't undo that, probably. That wouldn't be a symmetry.",
+        "start": 262.92,
+        "duration": 3.54
+    },
+    {
+        "text": "Brady: \"Okay. That is the definition.\"",
+        "start": 266.46,
+        "duration": 1.44
+    },
+    {
+        "text": "Right, right. Exactly, exactly.",
+        "start": 267.9,
+        "duration": 2.0
+    },
+    {
+        "text": "Takes it atom for atom to where it is, and, and, you know, of course you can reverse it. Different objects have different",
+        "start": 270.28,
+        "duration": 6.4
+    },
+    {
+        "text": "notions of symmetry. So this tetrahedron, it has less symmetry, somehow. The number of different things I can do to it,",
+        "start": 277.61,
+        "duration": 6.74
+    },
+    {
+        "text": "it's less than what I can do to this. There are twelve",
+        "start": 284.35,
+        "duration": 3.029
+    },
+    {
+        "text": "symmetries that I can make of this if you start fiddling,",
+        "start": 288.14,
+        "duration": 2.569
+    },
+    {
+        "text": "and there twenty-four symmetries that I can make with this die. And obviously some giant thing like this,",
+        "start": 290.71,
+        "duration": 6.33
+    },
+    {
+        "text": "you know, there are a lot of different things I could do to it.",
+        "start": 297.04,
+        "duration": 2.38
+    },
+    {
+        "text": "Joe Keller and I defined an object to be fair by symmetry if its group of transformations",
+        "start": 299.42,
+        "duration": 6.62
+    },
+    {
+        "text": "was transitive on the faces. And all that means is, I can take the die",
+        "start": 306.83,
+        "duration": 5.69
+    },
+    {
+        "text": "and leave it atom for atom the same, but have any face where this face is.",
+        "start": 314.09,
+        "duration": 4.22
+    },
+    {
+        "text": "You know, right now, the two is up in the rhombus.",
+        "start": 318.31,
+        "duration": 3.239
+    },
+    {
+        "text": "Well, I should be able to make the ten come up by a symmetry, and have the die",
+        "start": 321.55,
+        "duration": 5.19
+    },
+    {
+        "text": "just exactly where it was, but have the ten up. We define the die to be fair by symmetry if its symmetries",
+        "start": 327.05,
+        "duration": 7.34
+    },
+    {
+        "text": "act transitively on the faces, meaning I can take any face to any other face. This die, its symmetry group isn't",
+        "start": 334.85,
+        "duration": 6.799
+    },
+    {
+        "text": "transitive on the vertices. I can't take this vertex,",
+        "start": 341.93,
+        "duration": 3.41
+    },
+    {
+        "text": "which has five things around, it into this vertex, which has three things around it. I could move this vertex to there,",
+        "start": 345.34,
+        "duration": 6.029
+    },
+    {
+        "text": "but the surrounding territory will be different. We did prove that this die has a",
+        "start": 351.369,
+        "duration": 5.071
+    },
+    {
+        "text": "transitive symmetry group.",
+        "start": 356.62,
+        "duration": 1.46
+    },
+    {
+        "text": "Brady: \"But not by vertex, but yes by face.\"",
+        "start": 358.28,
+        "duration": 2.32
+    },
+    {
+        "text": "Yes by face. And not by edges, either, actually. So we did show that this die has a transitive symmetry group.",
+        "start": 360.6,
+        "duration": 5.2
+    },
+    {
+        "text": "Brady: \"That's fair.\"",
+        "start": 365.8,
+        "duration": 0.55
+    },
+    {
+        "text": "So it's fair. It sounds fair now. If every face is the same, and since the bets are gonna be on the faces,",
+        "start": 366.35,
+        "duration": 7.03
+    },
+    {
+        "text": "it sounds fair.",
+        "start": 374.9,
+        "duration": 1.42
+    },
+    {
+        "text": "Then we had the idea, what are all the fair dice? Euclid found the",
+        "start": 376.74,
+        "duration": 4.48
+    },
+    {
+        "text": "completely fair dice. That is, Euclid's Theorem is",
+        "start": 381.86,
+        "duration": 2.809
+    },
+    {
+        "text": "what are all the",
+        "start": 385.13,
+        "duration": 1.289
+    },
+    {
+        "text": "objects whose groups are transitive on their faces, on their edges and on their vertices? And the cube, of course, you could see, every vertex",
+        "start": 386.419,
+        "duration": 7.58
+    },
+    {
+        "text": "looks the same, right? And similarly, every edge looks the same. Not, not this guy.",
+        "start": 394.1,
+        "duration": 5.08
+    },
+    {
+        "text": "And with Joe, we classified all of the fair dice.",
+        "start": 399.74,
+        "duration": 4.76
+    },
+    {
+        "text": "Suppose I had a five-gon.",
+        "start": 405.04,
+        "duration": 1.38
+    },
+    {
+        "text": "And then let's put a point up here and down here, and",
+        "start": 406.429,
+        "duration": 3.3
+    },
+    {
+        "text": "connect that point. Fill in the solid so it's got five edges.",
+        "start": 409.829,
+        "duration": 4.04
+    },
+    {
+        "text": "And then it'll have five triangles going up, and five triangles going down.",
+        "start": 413.869,
+        "duration": 5.52
+    },
+    {
+        "text": "That's a fair object, because these five",
+        "start": 419.389,
+        "duration": 2.309
+    },
+    {
+        "text": "triangles all are the same, and they're obviously the same as these five triangles,",
+        "start": 421.889,
+        "duration": 4.099
+    },
+    {
+        "text": "and so every triangle is the same. But I could put that point wherever I want, and you'd get very different looking dice, right?",
+        "start": 425.989,
+        "duration": 6.839
+    },
+    {
+        "text": "You'd get a kind of little tiny thing or a very long thing.",
+        "start": 432.829,
+        "duration": 2.85
+    },
+    {
+        "text": "But, so that's a one parameter family of ten-sided dice. What we found is that there are thirty families of fair dice.",
+        "start": 435.679,
+        "duration": 7.38
+    },
+    {
+        "text": "We classified them, and then we found out that Archimedes had been there before us, about",
+        "start": 444.0,
+        "duration": 4.42
+    },
+    {
+        "text": "twenty-five hundred years ago.",
+        "start": 449.26,
+        "duration": 1.68
+    },
+    {
+        "text": "Brady: \"How many members does each family have? Or is it infinite?\"",
+        "start": 451.42,
+        "duration": 2.6
+    },
+    {
+        "text": "Infinite, infinite, because there's a continuous parameter.",
+        "start": 454.04,
+        "duration": 2.36
+    },
+    {
+        "text": "But, it's interesting that there were, you know, two continuous parameters.",
+        "start": 456.509,
+        "duration": 3.859
+    },
+    {
+        "text": "We have a list. Some of the things on the list don't have a parameter in them. Some of them do.",
+        "start": 460.368,
+        "duration": 3.692
+    },
+    {
+        "text": "We found all the possible fair dice.",
+        "start": 464.62,
+        "duration": 2.62
+    },
+    {
+        "text": "Brady: \"You told me you could do that with a pentagon, and I follow, that made sense,",
+        "start": 467.24,
+        "duration": 3.2
+    },
+    {
+        "text": "\"and I could imagine you could do that with a hexagon and a seven-gon,",
+        "start": 470.44,
+        "duration": 3.12
+    },
+    {
+        "text": "\"why couldn't you do it with a 200,000-gon?\"",
+        "start": 473.56,
+        "duration": 2.46
+    },
+    {
+        "text": "It, it, it's true.",
+        "start": 476.02,
+        "duration": 1.36
+    },
+    {
+        "text": "Now, it's true what you say, and you've caught me, Brady, because that,",
+        "start": 477.389,
+        "duration": 4.52
+    },
+    {
+        "text": "exactly, that's exactly correct. So why isn't that infinitely many, um,",
+        "start": 482.459,
+        "duration": 3.59
+    },
+    {
+        "text": "infinitely many fair dice? It is. And so, let me amend the statement of my theorem.",
+        "start": 487.469,
+        "duration": 6.41
+    },
+    {
+        "text": "That's an infinite family. That is an infinite family.",
+        "start": 493.879,
+        "duration": 2.79
+    },
+    {
+        "text": "And it has what we call",
+        "start": 497.309,
+        "duration": 2.0
+    },
+    {
+        "text": "Dihedral symmetry, that is, the only symmetry that those dice have is,",
+        "start": 499.529,
+        "duration": 4.91
+    },
+    {
+        "text": "these sides are all the same, and these sides are all the same, and these sides are all the same as these sides, okay?",
+        "start": 504.719,
+        "duration": 5.75
+    },
+    {
+        "text": "So dice with more than dihedral symmetry, that is we call them interesting dice. They have extra symmetry.",
+        "start": 510.469,
+        "duration": 6.871
+    },
+    {
+        "text": "Brady: \"So the example I just gave is trivial to you almost.\"",
+        "start": 517.34,
+        "duration": 2.999
+    },
+    {
+        "text": "Well, it's an important example. If I took this tetrahedron, and if I had another one,",
+        "start": 520.339,
+        "duration": 5.25
+    },
+    {
+        "text": "and I stuck them together, that would be a triangle, a point above and a point below, right? So here it is. I made one.",
+        "start": 525.589,
+        "duration": 6.33
+    },
+    {
+        "text": "And obviously, you know, this is a six-sided thing.",
+        "start": 532.22,
+        "duration": 3.1
+    },
+    {
+        "text": "Here, here are three sides,",
+        "start": 535.56,
+        "duration": 1.74
+    },
+    {
+        "text": "here are the other three sides. These three are all the same, these three are all the same.",
+        "start": 537.3,
+        "duration": 3.679
+    },
+    {
+        "text": "So this is a fair thing. Now, if you flipped it, of course you'd have to roll it, and you'd have to talk about the",
+        "start": 540.98,
+        "duration": 5.22
+    },
+    {
+        "text": "side that lands down. Here's another six-sided die. Is there any sense in which we can say that this die is",
+        "start": 546.2,
+        "duration": 6.359
+    },
+    {
+        "text": "more or less fair than this die?",
+        "start": 552.78,
+        "duration": 2.44
+    },
+    {
+        "text": "That's a philosophical question, it's a math question.",
+        "start": 555.72,
+        "duration": 2.18
+    },
+    {
+        "text": "The symmetry group of this die, there are just six symmetries, you can twist it around",
+        "start": 558.32,
+        "duration": 4.94
+    },
+    {
+        "text": "three things, or you could turn it over and twist it around three things. The size of the symmetry group is as small as it could be.",
+        "start": 563.4,
+        "duration": 5.6
+    },
+    {
+        "text": "Whereas this die has twenty-four symmetries. What does that mean?",
+        "start": 569.62,
+        "duration": 3.64
+    },
+    {
+        "text": "I know, I once did a numberphile video about flipping a coin,",
+        "start": 573.26,
+        "duration": 3.736
+    },
+    {
+        "text": "so I got a friend with a stopwatch,",
+        "start": 577.4,
+        "duration": 1.74
+    },
+    {
+        "text": "and I went one two three flip! one two three flip!",
+        "start": 579.36,
+        "duration": 2.8
+    },
+    {
+        "text": "and when we were talking about that,",
+        "start": 582.76,
+        "duration": 1.96
+    },
+    {
+        "text": "we said, well of course, physics should come into this",
+        "start": 584.72,
+        "duration": 1.68
+    },
+    {
+        "text": "description of fairness someplace. Of course it should come in with dice, and it's the same",
+        "start": 586.86,
+        "duration": 4.28
+    },
+    {
+        "text": "physics. It's mechanics. If I roll the die very carefully, so it just goes around these four faces, on a blanket.",
+        "start": 592.05,
+        "duration": 7.94
+    },
+    {
+        "text": "Well, that's not very fair, because these faces could not come up.",
+        "start": 599.99,
+        "duration": 3.13
+    },
+    {
+        "text": "When you release the die from your hand, if you're actually rolling it, it has",
+        "start": 603.54,
+        "duration": 4.4
+    },
+    {
+        "text": "velocity, and it has angular",
+        "start": 608.49,
+        "duration": 2.0
+    },
+    {
+        "text": "velocities, and there's a phase space.",
+        "start": 610.53,
+        "duration": 1.98
+    },
+    {
+        "text": "What direction is it going in, and how fast, and then how fast is it turning in each of various directions?",
+        "start": 612.51,
+        "duration": 6.859
+    },
+    {
+        "text": "And there are actually twelve dimensions of parameters needed to describe the initial conditions. What we can show, is that,",
+        "start": 619.37,
+        "duration": 7.739
+    },
+    {
+        "text": "that twelve-dimensional space of initial conditions is partitioned up into six regions,",
+        "start": 627.54,
+        "duration": 4.52
+    },
+    {
+        "text": "regions where, if the die leaves your hand when the initial",
+        "start": 632.73,
+        "duration": 4.1
+    },
+    {
+        "text": "positions are in this part of the phase space,",
+        "start": 637.35,
+        "duration": 2.48
+    },
+    {
+        "text": "it comes up at side one. All of the initial conditions where the die comes up at side two. It can only come up in one",
+        "start": 639.89,
+        "duration": 5.309
+    },
+    {
+        "text": "of six faces. So that partitions the, this twelve-dimensional space into",
+        "start": 645.2,
+        "duration": 4.529
+    },
+    {
+        "text": "regions, six different regions. The partitioning up of phase space is much finer for this die",
+        "start": 651.18,
+        "duration": 5.75
+    },
+    {
+        "text": "than for this die. This partitioning is cruder. For any way of rolling,",
+        "start": 657.36,
+        "duration": 4.85
+    },
+    {
+        "text": "small changes in the initial conditions, the difference",
+        "start": 662.61,
+        "duration": 3.229
+    },
+    {
+        "text": "between your hand and your brain, make for a big difference in what side it comes up, because the",
+        "start": 666.019,
+        "duration": 4.679
+    },
+    {
+        "text": "partitioning of the phase space is finer.",
+        "start": 670.769,
+        "duration": 1.67
+    },
+    {
+        "text": "So there is a sense in which symmetry isn't the only determining factor, physics and symmetry combine to allow a",
+        "start": 672.439,
+        "duration": 7.14
+    },
+    {
+        "text": "reasonably satisfactory analysis of just how fair dice are.",
+        "start": 679.92,
+        "duration": 4.36
+    },
+    {
+        "text": "Brady: \"So the cube is fairer.\"",
+        "start": 684.52,
+        "duration": 1.54
+    },
+    {
+        "text": "The cube is fairer.",
+        "start": 686.08,
+        "duration": 1.1
+    },
+    {
+        "text": "Tiny little changes in just how you release it will make for the difference between side one and side two,",
+        "start": 687.66,
+        "duration": 5.08
+    },
+    {
+        "text": "whereas the basins of attraction for side, you know, one up to six, with this",
+        "start": 692.97,
+        "duration": 5.149
+    },
+    {
+        "text": "two tetrahedral die, are cruder. And so, it would be easier to control, for example. You know a coin is the",
+        "start": 698.879,
+        "duration": 6.859
+    },
+    {
+        "text": "simplest kind of dice, the simplest kind of die, it just has two faces, right?",
+        "start": 706.47,
+        "duration": 4.82
+    },
+    {
+        "text": "Obviously, heads and tails are symmetric, but of course when you really flip a coin,",
+        "start": 711.839,
+        "duration": 4.19
+    },
+    {
+        "text": "you know, the flips matter.",
+        "start": 716.089,
+        "duration": 1.321
+    },
+    {
+        "text": "And I once had a colleague who was at a junior high school, and he called up and said, I gave my kids",
+        "start": 717.41,
+        "duration": 6.089
+    },
+    {
+        "text": "the problem of flipping a coin, and when they flipped coins, it was very very patterned.",
+        "start": 723.66,
+        "duration": 4.969
+    },
+    {
+        "text": "You know, head tail head tail head tail head tail.",
+        "start": 728.629,
+        "duration": 2.34
+    },
+    {
+        "text": "And he couldn't understand it. And I went in and watched the kids flip, and they were bored out of their minds, and they were",
+        "start": 730.97,
+        "duration": 6.75
+    },
+    {
+        "text": "just doing wimpy little flips.",
+        "start": 737.72,
+        "duration": 2.0
+    },
+    {
+        "text": "You know, so that it would flip once. Now of course it's going to come up head tail head tail.",
+        "start": 739.86,
+        "duration": 4.489
+    },
+    {
+        "text": "So, you know, how you flip can make a difference.",
+        "start": 744.449,
+        "duration": 2.299
+    },
+    {
+        "text": "How you roll a die can make a difference.",
+        "start": 746.748,
+        "duration": 1.832
+    },
+    {
+        "text": "This isn't the end. In fact, our next video will be the second part of this",
+        "start": 749.82,
+        "duration": 2.56
+    },
+    {
+        "text": "interview with Professor Diaconis,",
+        "start": 752.389,
+        "duration": 2.0
+    },
+    {
+        "text": "talking more about fair dice and casino dice. If you can't wait until then, there are links on the screen and in the video description.",
+        "start": 754.41,
+        "duration": 5.989
+    },
+    {
+        "text": "You can watch it right now.",
+        "start": 760.529,
+        "duration": 1.17
+    },
+    {
+        "text": "You know talking to me about dice and fairness is like talking to a California wine person about wine.",
+        "start": 761.699,
+        "duration": 5.69
+    },
+    {
+        "text": "It can go on forever right?",
+        "start": 767.389,
+        "duration": 2.131
+    },
+    {
+        "text": "So let me go back...",
+        "start": 770.02,
+        "duration": 1.34
+    },
+    {
+        "text": "And as some of you know, there are plenty more dice videos on numberphile.",
+        "start": 773.17,
+        "duration": 3.229
+    },
+    {
+        "text": "You can look at our back catalogue. And look at this one,",
+        "start": 776.399,
+        "duration": 2.88
+    },
+    {
+        "text": "it's coming very soon from Tadashi.",
+        "start": 779.28,
+        "duration": 2.08
+    },
+    {
+        "text": "Four four four four and zero zero.",
+        "start": 781.78,
+        "duration": 3.1
+    },
+    {
+        "text": "That's something to get excited about.",
+        "start": 785.46,
+        "duration": 1.38
+    },
+    {
+        "text": "Links on the screen and in the video description. Thank you so much, everyone, for watching our videos. We really appreciate it.",
+        "start": 787.02,
+        "duration": 5.6
+    }
+]

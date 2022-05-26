@@ -1,0 +1,947 @@
+[
+    {
+        "text": "(Brady: I know you've made a discovery.)",
+        "start": 0.03,
+        "duration": 1.839
+    },
+    {
+        "text": "(Have you memorised the three numbers?)\n- I haven't. \n- (You don't know them?)\n- I don't know them, sorry.",
+        "start": 1.869,
+        "duration": 5.031
+    },
+    {
+        "text": "[Laughs]",
+        "start": 6.9,
+        "duration": 0.5
+    },
+    {
+        "text": "In fact I didn't even notice, I learned from somebody else's posting that one of the numbers is prime. So [laughs]",
+        "start": 7.419,
+        "duration": 6.14
+    },
+    {
+        "text": "hadn't notice that. We found three integers whose cubes sum to 33. This number was immortalised in a paper by Bjorn Poonen.",
+        "start": 14.589,
+        "duration": 6.349
+    },
+    {
+        "text": "He pointed out that if you want to solve that problem for the number 29, it's really easy.",
+        "start": 20.939,
+        "duration": 4.29
+    },
+    {
+        "text": "So,",
+        "start": 25.23,
+        "duration": 0.52
+    },
+    {
+        "text": "29 is 27 plus 1 plus 1. If you move a bit up the number line and and if you ask about 30,",
+        "start": 25.75,
+        "duration": 5.119
+    },
+    {
+        "text": "we know a solution for that, but the numbers are in the billions and that was only discovered in 1999.",
+        "start": 30.869,
+        "duration": 6.431
+    },
+    {
+        "text": "(Brady: And Andrew as I understand it there are some numbers that you will never find one for?)\n- That's right.",
+        "start": 37.3,
+        "duration": 4.7
+    },
+    {
+        "text": "So if your number, if you divide it by 9 and you get a remainder of 4 or 5 then we know you can't do it.",
+        "start": 42.0,
+        "duration": 5.789
+    },
+    {
+        "text": "So you made a brilliant video with Tim Browning on this. At the time",
+        "start": 47.789,
+        "duration": 3.93
+    },
+    {
+        "text": "it was an unsolved problem. \n- \"There have been some attempts to prove that this number",
+        "start": 51.719,
+        "duration": 3.45
+    },
+    {
+        "text": "isn't on the list but those attempts have failed\"\n- And well, I've just solved it.",
+        "start": 55.78,
+        "duration": 4.729
+    },
+    {
+        "text": "I first saw the video, you know around the time that it came out and I thought a bit about it",
+        "start": 60.51,
+        "duration": 4.41
+    },
+    {
+        "text": "but didn't get very far. It was actually the follow up video on 74,",
+        "start": 64.92,
+        "duration": 3.75
+    },
+    {
+        "text": "I think that was made a couple of years ago, but I only saw it last month. And that",
+        "start": 68.67,
+        "duration": 3.269
+    },
+    {
+        "text": "spurred me to think more about it and I got hooked.\n- \"This last number here 74",
+        "start": 72.52,
+        "duration": 5.209
+    },
+    {
+        "text": "is actually represented as a sum of three cubes.\"\n- Maybe I'll show you something, so about these numbers.",
+        "start": 78.07,
+        "duration": 4.849
+    },
+    {
+        "text": "So I've got Sander's paper here.",
+        "start": 82.92,
+        "duration": 1.84
+    },
+    {
+        "text": "So if you look at the end of the paper",
+        "start": 84.76,
+        "duration": 1.31
+    },
+    {
+        "text": "he's put all of the numbers below 1000 for which we don't know the answer. Now, here's a test Brady,",
+        "start": 86.07,
+        "duration": 5.159
+    },
+    {
+        "text": "do you notice anything about these numbers",
+        "start": 91.229,
+        "duration": 1.96
+    },
+    {
+        "text": "peculiar?",
+        "start": 93.189,
+        "duration": 1.991
+    },
+    {
+        "text": "(Brady: No I can't, I'm not seeing it)",
+        "start": 96.38,
+        "duration": 0.96
+    },
+    {
+        "text": "Okay, if you stare at it a while",
+        "start": 97.54,
+        "duration": 2.0
+    },
+    {
+        "text": "you might notice that they're all divisible by 3.",
+        "start": 99.909,
+        "duration": 2.24
+    },
+    {
+        "text": "Okay, and if we take this a step further and divide them by nine, actually this is a good plug for your \"casting out nines\"",
+        "start": 102.15,
+        "duration": 5.219
+    },
+    {
+        "text": "video. Okay. So this one has remainder six when you divide it by nine,",
+        "start": 107.95,
+        "duration": 3.739
+    },
+    {
+        "text": "this is another six,",
+        "start": 112.21,
+        "duration": 1.83
+    },
+    {
+        "text": "another six - starting to see a pattern here.",
+        "start": 114.04,
+        "duration": 2.239
+    },
+    {
+        "text": "It breaks with this one, this is remainder three.",
+        "start": 116.88,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay, this is remainder three. This is remainder three and so on and so forth.",
+        "start": 119.35,
+        "duration": 5.419
+    },
+    {
+        "text": "So it turns out they all have remainder three or six when you divide them by nine. That's not an accident,",
+        "start": 124.77,
+        "duration": 5.189
+    },
+    {
+        "text": "so as Tim explained in one of the follow-up videos it matters what the remainder is when you divide by nine.",
+        "start": 130.05,
+        "duration": 6.039
+    },
+    {
+        "text": "We know that if you get remainder four or five then actually there's no solutions at all.",
+        "start": 136.09,
+        "duration": 4.23
+    },
+    {
+        "text": "So as - the same kind of analysis shows that if you get remainder three or six, it's possible",
+        "start": 141.31,
+        "duration": 5.85
+    },
+    {
+        "text": "but only just. It means the solutions for these numbers are likely to be more sparse,",
+        "start": 147.16,
+        "duration": 4.5
+    },
+    {
+        "text": "okay, and that's what ends up making them hard to find. The modern conjecture is that every one of these numbers there'll be infinitely many solutions,",
+        "start": 151.82,
+        "duration": 6.049
+    },
+    {
+        "text": "it's just they're extremely sparse",
+        "start": 158.78,
+        "duration": 1.73
+    },
+    {
+        "text": "and so, you know",
+        "start": 160.51,
+        "duration": 1.59
+    },
+    {
+        "text": "the first one can be enormous, as we've seen. We want to solve an equation",
+        "start": 162.1,
+        "duration": 3.059
+    },
+    {
+        "text": "like x cubed plus y cubed plus z cubed equals, say 33.",
+        "start": 165.41,
+        "duration": 5.36
+    },
+    {
+        "text": "And we're looking for solutions where all of the numbers are below some bound.",
+        "start": 170.84,
+        "duration": 3.619
+    },
+    {
+        "text": "Okay, so say absolute value of x, absolute value of y, and absolute value of z are all below some bounds",
+        "start": 174.459,
+        "duration": 6.75
+    },
+    {
+        "text": "say B, okay? So imagine B is a million or something. Now on the face of it this is a three-dimensional problem,",
+        "start": 181.4,
+        "duration": 6.589
+    },
+    {
+        "text": "okay, we've got three variables to solve for: x, y, and z and if you just went through all possibilities up to B,",
+        "start": 188.3,
+        "duration": 5.989
+    },
+    {
+        "text": "that's somewhere on the order of B cubed numbers to check. I said you can imagine B as a million, to put things in perspective",
+        "start": 194.69,
+        "duration": 5.899
+    },
+    {
+        "text": "your smart phone can do a million things in the blink of an eye. A million calculations like this.",
+        "start": 201.38,
+        "duration": 4.759
+    },
+    {
+        "text": "Okay, but if I say a million cubed, all right, that's in the realm of possible but very expensive",
+        "start": 206.72,
+        "duration": 6.32
+    },
+    {
+        "text": "to do on modern computers. So this is actually very wasteful. So it's not hard to see that in this search range",
+        "start": 214.04,
+        "duration": 5.899
+    },
+    {
+        "text": "there's loads of places where there's no point in looking,",
+        "start": 219.95,
+        "duration": 3.379
+    },
+    {
+        "text": "okay? So if I imagine that x, y and z are all positive and large then of course",
+        "start": 223.88,
+        "duration": 4.879
+    },
+    {
+        "text": "there's no way that the sum of their cubes is going to be a small number,",
+        "start": 228.76,
+        "duration": 3.15
+    },
+    {
+        "text": "okay? So already there's, there's big parts of the search range that you that you can cut out.",
+        "start": 232.549,
+        "duration": 4.16
+    },
+    {
+        "text": "If you take this idea to its logical conclusion",
+        "start": 237.26,
+        "duration": 2.6
+    },
+    {
+        "text": "it's, it's not hard to see how to get from B cubed down to B squared.",
+        "start": 239.9,
+        "duration": 3.71
+    },
+    {
+        "text": "This was realised pretty early on, even the very first",
+        "start": 243.799,
+        "duration": 2.63
+    },
+    {
+        "text": "computer investigations that people did in the 50s on this",
+        "start": 247.28,
+        "duration": 3.26
+    },
+    {
+        "text": "they had algorithms that were basically quadratic and would work in, in this time.",
+        "start": 250.91,
+        "duration": 3.47
+    },
+    {
+        "text": "Now that wasn't improved on for about 40 years. And then a guy called Noam Elkies at Harvard,",
+        "start": 254.38,
+        "duration": 5.669
+    },
+    {
+        "text": "actually in a news group posting,",
+        "start": 261.14,
+        "duration": 2.0
+    },
+    {
+        "text": "he proposed another algorithm, which is pretty amazing",
+        "start": 263.33,
+        "duration": 3.379
+    },
+    {
+        "text": "actually. It manages to get down from B squared to basically B to the one power, so B to the 1 plus",
+        "start": 266.71,
+        "duration": 6.45
+    },
+    {
+        "text": "something very small. And it's basically what enables us to go to the ranges that we are today, you know,",
+        "start": 273.68,
+        "duration": 6.05
+    },
+    {
+        "text": "10 to the 15, 10 to the 16. It turns out that Elkies' algorithm is",
+        "start": 279.73,
+        "duration": 3.359
+    },
+    {
+        "text": "most efficient when",
+        "start": 283.61,
+        "duration": 1.89
+    },
+    {
+        "text": "you're looking for solutions for lots of numbers,",
+        "start": 285.5,
+        "duration": 2.45
+    },
+    {
+        "text": "as we work for a while. But you can see we're getting down to a pretty short list at this point.",
+        "start": 289.1,
+        "duration": 5.029
+    },
+    {
+        "text": "So I started to think, well maybe there are other approaches that we could look at. My approach uses more algebra.",
+        "start": 294.13,
+        "duration": 4.44
+    },
+    {
+        "text": "So what I'll do is I'll take this equation and then we'll move the z cubed over to the other side,",
+        "start": 298.57,
+        "duration": 4.559
+    },
+    {
+        "text": "okay? So that gives us x cubed plus y cubed equals 33 minus z cubed.",
+        "start": 303.13,
+        "duration": 5.429
+    },
+    {
+        "text": "This is now x plus y, x squared minus xy plus y squared, equals",
+        "start": 308.56,
+        "duration": 5.97
+    },
+    {
+        "text": "33 minus z cubed. Okay, now why have I done that? Well, we have this factor that that we know is there,",
+        "start": 314.93,
+        "duration": 6.65
+    },
+    {
+        "text": "okay, I'm gonna give this a name. I'm gonna call it d, say for a divisor.",
+        "start": 321.58,
+        "duration": 3.479
+    },
+    {
+        "text": "All right. Now one more step, and I promise we're getting at the end of the algebra, let's divide both sides by d.",
+        "start": 325.79,
+        "duration": 4.73
+    },
+    {
+        "text": "Okay, so I'm gonna have on the left side just x squared minus xy",
+        "start": 331.43,
+        "duration": 3.59
+    },
+    {
+        "text": "plus y squared. All right, this side 33 minus z cubed over d.",
+        "start": 335.75,
+        "duration": 5.33
+    },
+    {
+        "text": "Now it probably looks like I've made things a lot more complicated, right?",
+        "start": 341.63,
+        "duration": 3.32
+    },
+    {
+        "text": "We started with three variables and now we've got four.",
+        "start": 345.28,
+        "duration": 2.13
+    },
+    {
+        "text": "But I want you to imagine for a moment that we know the values of z and",
+        "start": 347.63,
+        "duration": 4.609
+    },
+    {
+        "text": "d or maybe we have some guess for them.",
+        "start": 352.82,
+        "duration": 2.45
+    },
+    {
+        "text": "And what that means is that everything on the right hand side is something I know or I can compute, on the left hand side",
+        "start": 355.27,
+        "duration": 4.949
+    },
+    {
+        "text": "I have a quadratic equation",
+        "start": 360.22,
+        "duration": 1.72
+    },
+    {
+        "text": "with two unknowns.",
+        "start": 361.94,
+        "duration": 1.56
+    },
+    {
+        "text": "Now as everybody knows if you've got two variables to solve for you need two equations.",
+        "start": 363.5,
+        "duration": 3.41
+    },
+    {
+        "text": "I've got one here, but there's another one that I used implicitly but didn't write down and that's this one.",
+        "start": 367.04,
+        "duration": 4.91
+    },
+    {
+        "text": "So x plus y is equal to d. All right, so now I've got two equations, two unknowns,",
+        "start": 371.96,
+        "duration": 4.729
+    },
+    {
+        "text": "we know how to solve this. Or more to the point if I guess values for z and d",
+        "start": 377.24,
+        "duration": 4.73
+    },
+    {
+        "text": "I can tell pretty easily whether there are corresponding integer values of x and y. Okay? And this is the idea.",
+        "start": 381.97,
+        "duration": 6.45
+    },
+    {
+        "text": "We just go through all possible values for z and d and see if there's any corresponding x and y. And now that,",
+        "start": 388.42,
+        "duration": 5.339
+    },
+    {
+        "text": "again, sounds like it should be something like b squared, right? Because there's two variables.",
+        "start": 393.89,
+        "duration": 3.619
+    },
+    {
+        "text": "But the key is once I've picked a value for z",
+        "start": 398.21,
+        "duration": 2.949
+    },
+    {
+        "text": "the values for, for d are actually quite restricted because they have to be",
+        "start": 401.68,
+        "duration": 4.16
+    },
+    {
+        "text": "divisors of this number 33 minus z cubed. And there aren't many of those.",
+        "start": 405.94,
+        "duration": 3.739
+    },
+    {
+        "text": "So once you've worked out z you can work out all the possible values for d",
+        "start": 409.68,
+        "duration": 3.75
+    },
+    {
+        "text": "pretty easily, and then just try all of them. I've glossed over a few things here,",
+        "start": 413.62,
+        "duration": 3.29
+    },
+    {
+        "text": "so in actual practice you do it the other way around. You, you go through values of d",
+        "start": 416.91,
+        "duration": 3.6
+    },
+    {
+        "text": "and then you work out z from there, but",
+        "start": 420.51,
+        "duration": 2.16
+    },
+    {
+        "text": "yeah, this is the idea in a nutshell.",
+        "start": 423.19,
+        "duration": 2.0
+    },
+    {
+        "text": "So I use lots of computers, actually there are a few separate clusters and",
+        "start": 429.46,
+        "duration": 3.41
+    },
+    {
+        "text": "the, the computation that found the solution was the big computer at the University of Bristol, BlueCrystal Phase 3.",
+        "start": 433.48,
+        "duration": 6.319
+    },
+    {
+        "text": "This happened way faster than I was expecting. So I",
+        "start": 439.83,
+        "duration": 2.19
+    },
+    {
+        "text": "started this, I thought I was in for, you know, 6 months of",
+        "start": 442.69,
+        "duration": 3.619
+    },
+    {
+        "text": "computation. My initial fear was that nothing would turn up and then I'd have to justify why I was using so many CPU cycles,",
+        "start": 447.31,
+        "duration": 5.45
+    },
+    {
+        "text": "ok?",
+        "start": 452.89,
+        "duration": 0.5
+    },
+    {
+        "text": "As soon as I started using the computer within a few days it found the solution. The bound I used was 10 to the 16,",
+        "start": 453.39,
+        "duration": 5.069
+    },
+    {
+        "text": "so that's 1 followed by 16 zeroes. I had actually planned to do 10 to the 17, ok, but but one pops out",
+        "start": 458.46,
+        "duration": 6.96
+    },
+    {
+        "text": "before I expected it. You'll see here at 9:05 in the morning on February 27th, so this was running on",
+        "start": 465.94,
+        "duration": 6.859
+    },
+    {
+        "text": "512 CPU cores at, at the same time. One of them went through one of these values of d,",
+        "start": 473.53,
+        "duration": 4.91
+    },
+    {
+        "text": "actually, this is the number d in the middle here. I don't know what that is, 87 trillion something, ok?",
+        "start": 478.44,
+        "duration": 5.309
+    },
+    {
+        "text": "It turns out to be a prime number. From that it did all of this algebra, and it found the corresponding values of",
+        "start": 483.75,
+        "duration": 4.799
+    },
+    {
+        "text": "x, y and z, and here they are. Now the computer found the solution at 9:05,",
+        "start": 489.64,
+        "duration": 3.409
+    },
+    {
+        "text": "which is just after I drop my kids off at school, and as I was walking to the University,",
+        "start": 493.05,
+        "duration": 3.84
+    },
+    {
+        "text": "and I noticed it around 9:30 when I got to my office.",
+        "start": 496.89,
+        "duration": 4.049
+    },
+    {
+        "text": "(Brady: Was there an email or?)",
+        "start": 500.939,
+        "duration": 1.481
+    },
+    {
+        "text": "No, I didn't rig it to send me an email",
+        "start": 502.42,
+        "duration": 1.82
+    },
+    {
+        "text": "so I had to check. It makes it more fun because there's an element of, you know,",
+        "start": 504.24,
+        "duration": 4.17
+    },
+    {
+        "text": "uncertainty in the thing. \n- (Brady: How often were you checking?)",
+        "start": 508.66,
+        "duration": 2.48
+    },
+    {
+        "text": "(Were you already checking, like, every hour or did you check once a day or?\n- Yeh, once a day or something like that. As soon as I",
+        "start": 511.35,
+        "duration": 5.009
+    },
+    {
+        "text": "saw the file was there I knew that it had a solution. Of course, then I checked it,",
+        "start": 516.36,
+        "duration": 3.809
+    },
+    {
+        "text": "you're never 100% sure that, you know, that you haven't made a mistake somewhere.",
+        "start": 520.169,
+        "duration": 2.97
+    },
+    {
+        "text": "So I put these numbers into the computer, cubed them and added them up and got 33.",
+        "start": 523.39,
+        "duration": 5.039
+    },
+    {
+        "text": "(Brady: What did that feel like?)\n- I did a jump for joy, yeah.\n- (Literally?! Did you-)",
+        "start": 528.62,
+        "duration": 4.28
+    },
+    {
+        "text": "Yes, I, yes. You made an excellent point in the first video on this, which is that we can't hope to solve this by just computing",
+        "start": 532.9,
+        "duration": 7.38
+    },
+    {
+        "text": "more. Okay, 'cause there's always another number. For us the next one is 42.",
+        "start": 540.28,
+        "duration": 4.109
+    },
+    {
+        "text": "(Brady: So 42 is the new, the new white whale is it?)\n- 42 is the new 33, yeah, that's right.",
+        "start": 544.39,
+        "duration": 5.549
+    },
+    {
+        "text": "And so if we just look at the numbers up to 100. So let me say k less than or equal to 100.",
+        "start": 550.84,
+        "duration": 6.119
+    },
+    {
+        "text": "There's 22 numbers in that range that give a remainder of 4 or 5 when you divide by 9.",
+        "start": 557.06,
+        "duration": 5.75
+    },
+    {
+        "text": "(Brady: So they're impossible? \n- So they're not possible, that's right.",
+        "start": 562.81,
+        "duration": 2.28
+    },
+    {
+        "text": "We know the answer for those, and they're not possible. That leaves",
+        "start": 565.61,
+        "duration": 3.83
+    },
+    {
+        "text": "seventy-eight numbers to account for. The very first computer investigation of this was done way back in 1954.",
+        "start": 569.87,
+        "duration": 6.47
+    },
+    {
+        "text": "That's pretty early as these things go. And they found",
+        "start": 576.34,
+        "duration": 2.88
+    },
+    {
+        "text": "69. Solutions for 69 out of the 78. Well, of course, that's not the end of the story,",
+        "start": 580.04,
+        "duration": 4.009
+    },
+    {
+        "text": "so computer technology advanced rapidly from there and within a decade another group of mathematicians ran it on a bigger computer.",
+        "start": 584.049,
+        "duration": 7.351
+    },
+    {
+        "text": "But they were disappointed, because they found only one more despite going about 20 times further in terms of the variables.",
+        "start": 591.46,
+        "duration": 6.46
+    },
+    {
+        "text": "But remember they were using a quadratic time algorithm, so it's about 400 times as much work.",
+        "start": 597.94,
+        "duration": 4.5
+    },
+    {
+        "text": "So it's impressive from an engineering standpoint, yet they found only one more solution.",
+        "start": 602.44,
+        "duration": 3.989
+    },
+    {
+        "text": "So they took this as evidence that there probably aren't any more. They hedged their bets a little bit,",
+        "start": 606.43,
+        "duration": 3.989
+    },
+    {
+        "text": "they didn't say no more solutions, but they said that not all of the remaining eight candidates would have solutions.",
+        "start": 610.42,
+        "duration": 5.46
+    },
+    {
+        "text": "That was the prevailing wisdom for a while for over twenty years. Now we think that conjecture is wrong,",
+        "start": 615.88,
+        "duration": 5.4
+    },
+    {
+        "text": "okay?",
+        "start": 621.62,
+        "duration": 0.96
+    },
+    {
+        "text": "Things have kind of turned around. But it wasn't until the early 90s that Heath-Brown said: well hang on,",
+        "start": 622.58,
+        "duration": 4.609
+    },
+    {
+        "text": "so if there are solutions they're likely to be extremely sparse.",
+        "start": 627.32,
+        "duration": 2.989
+    },
+    {
+        "text": "In fact",
+        "start": 630.31,
+        "duration": 0.63
+    },
+    {
+        "text": "he does some calculations and he shows that for some of these small numbers,",
+        "start": 630.94,
+        "duration": 4.049
+    },
+    {
+        "text": "you would expect the the numbers from one solution to the next to increase by a factor of millions,",
+        "start": 634.99,
+        "duration": 5.369
+    },
+    {
+        "text": "okay, so that means you know each time you find one you're gonna have to work a million times harder to find the next one.",
+        "start": 640.88,
+        "duration": 5.989
+    },
+    {
+        "text": "So the fact that you've, that you've expanded the search range by 20 and not found anything is not by itself",
+        "start": 647.36,
+        "duration": 5.239
+    },
+    {
+        "text": "very good evidence that there's nothing more to be found. And so people looked again. From",
+        "start": 652.6,
+        "duration": 4.74
+    },
+    {
+        "text": "1991",
+        "start": 658.61,
+        "duration": 1.44
+    },
+    {
+        "text": "to this year,",
+        "start": 660.05,
+        "duration": 1.539
+    },
+    {
+        "text": "2019 we've found solutions for seven out of the eight. There's only one number left. 42 is the only one left below 100,",
+        "start": 661.589,
+        "duration": 6.38
+    },
+    {
+        "text": "so we have not completely",
+        "start": 667.97,
+        "duration": 1.989
+    },
+    {
+        "text": "disproved their conjecture from '63, but it's looking pretty good for Heath-Brown's counter-conjecture.",
+        "start": 669.96,
+        "duration": 6.4
+    },
+    {
+        "text": "(Brady: Andrew, have you got the computer looking for 42 now?)",
+        "start": 676.36,
+        "duration": 2.24
+    },
+    {
+        "text": "I already looked for 42 in the same range and nothing turned up,",
+        "start": 678.6,
+        "duration": 3.3
+    },
+    {
+        "text": "but yeah, maybe we shouldn't stop there.",
+        "start": 682.34,
+        "duration": 2.02
+    },
+    {
+        "text": "(Brady: So to find 42 you've gotta go bigger?)",
+        "start": 684.36,
+        "duration": 2.88
+    },
+    {
+        "text": "That's right, yeah. There's a definite purpose here, because this is a problem where we're not even sure, or it's not even obvious",
+        "start": 687.24,
+        "duration": 6.7
+    },
+    {
+        "text": "what the right conjecture should be, okay. And that's evidenced by the fact that the conjecture has changed in our lifetimes.",
+        "start": 693.949,
+        "duration": 6.359
+    },
+    {
+        "text": "(Brady: Does that mean, you know, a mathematician like you, instead of just picking them off one by one with a computer)",
+        "start": 700.319,
+        "duration": 4.94
+    },
+    {
+        "text": "(should you be sitting down and trying to come up with a rigorous proof?)",
+        "start": 705.42,
+        "duration": 3.079
+    },
+    {
+        "text": "(I mean, what's the point of just picking these off one at a time?)",
+        "start": 708.499,
+        "duration": 2.201
+    },
+    {
+        "text": "Yeah, well so, of course other people are working on that sort of thing. And we do have theoretical evidence that supports the conjecture too.",
+        "start": 710.7,
+        "duration": 5.449
+    },
+    {
+        "text": "Some people think, though, that this problem is actually undecidable.",
+        "start": 716.939,
+        "duration": 2.63
+    },
+    {
+        "text": "So it might be that we never have a proof and this is as close as we can come,",
+        "start": 719.879,
+        "duration": 3.799
+    },
+    {
+        "text": "okay?",
+        "start": 724.11,
+        "duration": 0.5
+    },
+    {
+        "text": "So but - with each one of these stubborn candidates that we find",
+        "start": 724.61,
+        "duration": 2.759
+    },
+    {
+        "text": "that gives another nail in the coffin of this idea that there aren't any more solutions.",
+        "start": 727.74,
+        "duration": 4.399
+    },
+    {
+        "text": "(Brady: So it's, so in a way knocking off these stubborn candidates - )",
+        "start": 732.269,
+        "duration": 3.5
+    },
+    {
+        "text": "(I've never heard that term before, I like it - knocking off these stubborn candidates)",
+        "start": 735.769,
+        "duration": 3.479
+    },
+    {
+        "text": "(is almost- you're giving hope to the people who are actually trying to come up with the rigorous proof?)",
+        "start": 739.559,
+        "duration": 4.941
+    },
+    {
+        "text": "Yeah, yeah, so it's looking pretty good for Heath-Brown's conjecture, so",
+        "start": 744.5,
+        "duration": 2.969
+    },
+    {
+        "text": "probably this conjecture is true and we can, we can ask",
+        "start": 748.379,
+        "duration": 2.929
+    },
+    {
+        "text": "you know: can we prove it? \n- (Brady: What's that conjecture in a nutshell? What is the conjecture?)\n-  So every one of these numbers,",
+        "start": 751.92,
+        "duration": 5.299
+    },
+    {
+        "text": "that doesn't have remainder 4 or 5 when you divided by 9, will have",
+        "start": 758.04,
+        "duration": 3.979
+    },
+    {
+        "text": "infinitely many solutions -  infinitely many ways of writing it as a sum of three cubes.",
+        "start": 762.329,
+        "duration": 3.77
+    },
+    {
+        "text": "(Brady: Did you, did you tell your family about this? Did you tell your wife?) \n- Yes\n- (What'd she say?)",
+        "start": 766.169,
+        "duration": 4.22
+    },
+    {
+        "text": "She was wondering why she should care, yeah.",
+        "start": 770.939,
+        "duration": 2.6
+    },
+    {
+        "text": "So I even told the children and they were excited. And I run a maths Club at my kids primary school and we did a",
+        "start": 774.269,
+        "duration": 7.279
+    },
+    {
+        "text": "unit on cubes and adding up cubes and talking about this.",
+        "start": 781.769,
+        "duration": 3.46
+    },
+    {
+        "text": "I showed your video, even! \n- (Brady: What are you gonna do with this number? Are you gonna get it tattooed on your arm or anything?)",
+        "start": 785.23,
+        "duration": 5.369
+    },
+    {
+        "text": "No, as you saw I don't even remember it. \n- (You have to memorise it, that would be a good party trick.)",
+        "start": 790.6,
+        "duration": 5.13
+    },
+    {
+        "text": "(Next time I come I want you to have memorised it!)",
+        "start": 796.76,
+        "duration": 2.029
+    },
+    {
+        "text": "[Preview] Come back to these ones, but the next eligible one is this number 33 and",
+        "start": 801.589,
+        "duration": 5.54
+    },
+    {
+        "text": "in fact",
+        "start": 808.459,
+        "duration": 1.771
+    },
+    {
+        "text": "we still don't know an answer to that one.",
+        "start": 810.23,
+        "duration": 2.0
+    },
+    {
+        "text": "So we've not yet been able to find any integers which when you sum their cubes you get 33.",
+        "start": 812.87,
+        "duration": 6.02
+    }
+]

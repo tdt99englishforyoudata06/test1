@@ -1,0 +1,437 @@
+[
+    {
+        "text": "go has been a challenging game because",
+        "start": 0.06,
+        "duration": 3.359
+    },
+    {
+        "text": "of what he mentioned the branching",
+        "start": 2.04,
+        "duration": 3.33
+    },
+    {
+        "text": "factor that is at any point when you can",
+        "start": 3.419,
+        "duration": 3.451
+    },
+    {
+        "text": "make a move there's lots and lots of",
+        "start": 5.37,
+        "duration": 2.699
+    },
+    {
+        "text": "choices that you have to make a",
+        "start": 6.87,
+        "duration": 3.18
+    },
+    {
+        "text": "subsequent move and traditional",
+        "start": 8.069,
+        "duration": 4.261
+    },
+    {
+        "text": "techniques in AI that sort of looked at",
+        "start": 10.05,
+        "duration": 4.14
+    },
+    {
+        "text": "these subsequent take you know moves and",
+        "start": 12.33,
+        "duration": 3.69
+    },
+    {
+        "text": "then at the move against that mover and",
+        "start": 14.19,
+        "duration": 4.77
+    },
+    {
+        "text": "the move for that move did not really",
+        "start": 16.02,
+        "duration": 5.28
+    },
+    {
+        "text": "work the the choices were too large and",
+        "start": 18.96,
+        "duration": 4.2
+    },
+    {
+        "text": "as you can see in this graphic the the",
+        "start": 21.3,
+        "duration": 3.809
+    },
+    {
+        "text": "tree that is being built by looking at",
+        "start": 23.16,
+        "duration": 3.779
+    },
+    {
+        "text": "all the combinations is too large for",
+        "start": 25.109,
+        "duration": 3.871
+    },
+    {
+        "text": "now just a very different technique to",
+        "start": 26.939,
+        "duration": 4.231
+    },
+    {
+        "text": "solve the problem right you forgot you",
+        "start": 28.98,
+        "duration": 4.59
+    },
+    {
+        "text": "found it impressive well I mean I think",
+        "start": 31.17,
+        "duration": 3.569
+    },
+    {
+        "text": "a lot of the techniques that were used",
+        "start": 33.57,
+        "duration": 3.63
+    },
+    {
+        "text": "for alphago have been around since the",
+        "start": 34.739,
+        "duration": 5.701
+    },
+    {
+        "text": "80s frankly with some minor tweaks and",
+        "start": 37.2,
+        "duration": 5.46
+    },
+    {
+        "text": "what's advanced has been frankly the",
+        "start": 40.44,
+        "duration": 4.349
+    },
+    {
+        "text": "hardware and the data and given that",
+        "start": 42.66,
+        "duration": 3.719
+    },
+    {
+        "text": "this thing did the technology the",
+        "start": 44.789,
+        "duration": 3.151
+    },
+    {
+        "text": "hardware has advanced it's allowed us to",
+        "start": 46.379,
+        "duration": 3.601
+    },
+    {
+        "text": "implement these techniques and develop",
+        "start": 47.94,
+        "duration": 3.959
+    },
+    {
+        "text": "systems like this but am I surprised",
+        "start": 49.98,
+        "duration": 3.84
+    },
+    {
+        "text": "that a machine can beat a human ago well",
+        "start": 51.899,
+        "duration": 4.651
+    },
+    {
+        "text": "no as you said the this state space of",
+        "start": 53.82,
+        "duration": 5.009
+    },
+    {
+        "text": "go the number of combinations of boards",
+        "start": 56.55,
+        "duration": 4.079
+    },
+    {
+        "text": "is huge and it's that's what makes it",
+        "start": 58.829,
+        "duration": 4.41
+    },
+    {
+        "text": "hard for humans but machines are better",
+        "start": 60.629,
+        "duration": 4.14
+    },
+    {
+        "text": "at counting than humans",
+        "start": 63.239,
+        "duration": 3.63
+    },
+    {
+        "text": "so quantitative with not necessary",
+        "start": 64.769,
+        "duration": 3.571
+    },
+    {
+        "text": "qualitative Gary you think it's also not",
+        "start": 66.869,
+        "duration": 3.421
+    },
+    {
+        "text": "so impressive well I mean it's",
+        "start": 68.34,
+        "duration": 3.75
+    },
+    {
+        "text": "impressive that they did this several",
+        "start": 70.29,
+        "duration": 3.48
+    },
+    {
+        "text": "years before people thought that it",
+        "start": 72.09,
+        "duration": 4.11
+    },
+    {
+        "text": "would happen but you have to remember if",
+        "start": 73.77,
+        "duration": 3.51
+    },
+    {
+        "text": "you're thinking about like are the",
+        "start": 76.2,
+        "duration": 3.72
+    },
+    {
+        "text": "robots gonna take over now that in go",
+        "start": 77.28,
+        "duration": 4.74
+    },
+    {
+        "text": "you're relying on a very fixed world the",
+        "start": 79.92,
+        "duration": 3.9
+    },
+    {
+        "text": "rules are always the same you can play",
+        "start": 82.02,
+        "duration": 3.57
+    },
+    {
+        "text": "against yourself hundreds of millions of",
+        "start": 83.82,
+        "duration": 3.39
+    },
+    {
+        "text": "times that's right and so you can",
+        "start": 85.59,
+        "duration": 3.48
+    },
+    {
+        "text": "simulate things you get a lot of data",
+        "start": 87.21,
+        "duration": 3.75
+    },
+    {
+        "text": "and in the real world things are",
+        "start": 89.07,
+        "duration": 3.75
+    },
+    {
+        "text": "constantly changing and they're",
+        "start": 90.96,
+        "duration": 3.0
+    },
+    {
+        "text": "constantly changing and we can't",
+        "start": 92.82,
+        "duration": 2.28
+    },
+    {
+        "text": "simulate them perfectly so there was",
+        "start": 93.96,
+        "duration": 3.57
+    },
+    {
+        "text": "this DARPA competition last year where",
+        "start": 95.1,
+        "duration": 4.26
+    },
+    {
+        "text": "robots had to do things like open doors",
+        "start": 97.53,
+        "duration": 3.81
+    },
+    {
+        "text": "and and drive cars and things like that",
+        "start": 99.36,
+        "duration": 3.84
+    },
+    {
+        "text": "and there was a YouTube video which you",
+        "start": 101.34,
+        "duration": 3.569
+    },
+    {
+        "text": "should all go home and look at about",
+        "start": 103.2,
+        "duration": 3.57
+    },
+    {
+        "text": "bloopers from this and so the robots",
+        "start": 104.909,
+        "duration": 5.131
+    },
+    {
+        "text": "were falling over and you know someone",
+        "start": 106.77,
+        "duration": 5.04
+    },
+    {
+        "text": "it's some ragtime music or something",
+        "start": 110.04,
+        "duration": 3.21
+    },
+    {
+        "text": "like that and it's hilarious and the",
+        "start": 111.81,
+        "duration": 2.55
+    },
+    {
+        "text": "important thing to remember when you",
+        "start": 113.25,
+        "duration": 3.24
+    },
+    {
+        "text": "watch this video relative to alphago is",
+        "start": 114.36,
+        "duration": 3.63
+    },
+    {
+        "text": "that everything that was done in this",
+        "start": 116.49,
+        "duration": 3.51
+    },
+    {
+        "text": "video was actually done in simulation",
+        "start": 117.99,
+        "duration": 4.65
+    },
+    {
+        "text": "first so there were robots in simulation",
+        "start": 120.0,
+        "duration": 4.14
+    },
+    {
+        "text": "were able to open the doors perfectly",
+        "start": 122.64,
+        "duration": 3.39
+    },
+    {
+        "text": "and then the real world you started to",
+        "start": 124.14,
+        "duration": 3.959
+    },
+    {
+        "text": "have things like friction and and you",
+        "start": 126.03,
+        "duration": 3.33
+    },
+    {
+        "text": "know a little bit of the well I guess",
+        "start": 128.099,
+        "duration": 2.431
+    },
+    {
+        "text": "gravity was already factored in but yeah",
+        "start": 129.36,
+        "duration": 2.47
+    },
+    {
+        "text": "he had friction and wind",
+        "start": 130.53,
+        "duration": 2.26
+    },
+    {
+        "text": "things like that and then suddenly",
+        "start": 131.83,
+        "duration": 3.15
+    },
+    {
+        "text": "because things weren't exactly the same",
+        "start": 132.79,
+        "duration": 3.51
+    },
+    {
+        "text": "as in the simulation it didn't work that",
+        "start": 134.98,
+        "duration": 3.45
+    },
+    {
+        "text": "well anymore the techniques in alphago",
+        "start": 136.3,
+        "duration": 4.32
+    },
+    {
+        "text": "at least at this stage are not I think",
+        "start": 138.43,
+        "duration": 4.56
+    },
+    {
+        "text": "robust to going from a simulation to a",
+        "start": 140.62,
+        "duration": 3.9
+    },
+    {
+        "text": "real world they're relying on the fact",
+        "start": 142.99,
+        "duration": 3.03
+    },
+    {
+        "text": "that you can get a lot of data in",
+        "start": 144.52,
+        "duration": 3.63
+    },
+    {
+        "text": "simulation and so that's a limit at",
+        "start": 146.02,
+        "duration": 4.05
+    },
+    {
+        "text": "least for now for how this system goes",
+        "start": 148.15,
+        "duration": 3.72
+    },
+    {
+        "text": "it might be a component in a larger",
+        "start": 150.07,
+        "duration": 3.45
+    },
+    {
+        "text": "system someday but it's not like",
+        "start": 151.87,
+        "duration": 4.41
+    },
+    {
+        "text": "tomorrow we're gonna see robots what",
+        "start": 153.52,
+        "duration": 3.96
+    },
+    {
+        "text": "we're actually gonna see a robot today",
+        "start": 156.28,
+        "duration": 3.48
+    },
+    {
+        "text": "the robot that we're gonna see today is",
+        "start": 157.48,
+        "duration": 3.93
+    },
+    {
+        "text": "not going to be able to you know take",
+        "start": 159.76,
+        "duration": 3.66
+    },
+    {
+        "text": "over the world it hasn't nothing like",
+        "start": 161.41,
+        "duration": 5.72
+    },
+    {
+        "text": "that level of cognition just yet",
+        "start": 163.42,
+        "duration": 3.71
+    }
+]

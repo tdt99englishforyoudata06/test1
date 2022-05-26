@@ -1,0 +1,502 @@
+[
+    {
+        "text": "We found a new pattern in the primes! One\nthat we didn't know was there.",
+        "start": 0.0,
+        "duration": 4.44
+    },
+    {
+        "text": "Primes don't like to repeat their last digits.\nIt's really, really strange. A prime could end with a one,",
+        "start": 4.44,
+        "duration": 7.88
+    },
+    {
+        "text": "three, a seven, or a nine. I mean the exceptions are two\nitself, which obviously end in a two and five itself.",
+        "start": 12.32,
+        "duration": 7.34
+    },
+    {
+        "text": "But apart from that, they end with a one, a three, a seven, or a nine, right.",
+        "start": 19.66,
+        "duration": 4.2
+    },
+    {
+        "text": "And because we hope that primes are random, or they feel like they kind of appear randomly, that each one of those",
+        "start": 23.86,
+        "duration": 8.079
+    },
+    {
+        "text": "should be equally likely and something\nstrange has happened, so some mathematicians",
+        "start": 31.939,
+        "duration": 5.381
+    },
+    {
+        "text": "in Stanford have looked at this and they've\nlooked at consecutive primes and they've",
+        "start": 37.32,
+        "duration": 4.78
+    },
+    {
+        "text": "noticed things like if a prime ends in\na nine, it's actually more likely to,",
+        "start": 42.1,
+        "duration": 6.7
+    },
+    {
+        "text": "for the next prime to end in a one, rather than a nine or a three or a seven.",
+        "start": 48.8,
+        "duration": 7.52
+    },
+    {
+        "text": "So you would expect all of those to equally likely\nto turn up next",
+        "start": 56.32,
+        "duration": 4.06
+    },
+    {
+        "text": "but when they did it and they looked at the\nfirst hundred million primes and when",
+        "start": 60.38,
+        "duration": 5.18
+    },
+    {
+        "text": "they did that, if you had a prime ending in\na nine the chance the next prime ended in a",
+        "start": 65.56,
+        "duration": 6.21
+    },
+    {
+        "text": "nine was eighteen percent, which is not a\nquarter, and the chance that ended in a",
+        "start": 71.77,
+        "duration": 6.57
+    },
+    {
+        "text": "one was greater than a quarter, it was thirty-two percent. It shouldn't be! That shouldn't be how it is, but that's what they found out.",
+        "start": 78.34,
+        "duration": 7.96
+    },
+    {
+        "text": "Let's find out why this is. So\nif the primes are random, then these prime",
+        "start": 86.3,
+        "duration": 5.1
+    },
+    {
+        "text": "endings here: one, three, seven, and nine, they should each appear about a quarter of the time, and",
+        "start": 91.409,
+        "duration": 6.85
+    },
+    {
+        "text": "if we had the consecutive primes and we look at\ntheir prime endings",
+        "start": 98.259,
+        "duration": 3.84
+    },
+    {
+        "text": "we would have sixteen options: You have a one and a one, so that would be a prime ending in a one followed",
+        "start": 102.1,
+        "duration": 6.729
+    },
+    {
+        "text": "by a prime ending in a one. Or it could be a one followed by a three, a one followed by seven, a one followed by nine",
+        "start": 108.829,
+        "duration": 9.661
+    },
+    {
+        "text": "These are the options.",
+        "start": 118.49,
+        "duration": 0.9
+    },
+    {
+        "text": "Ok, there are sixteen options when you're\nlooking at two consecutive primes so if",
+        "start": 119.39,
+        "duration": 5.2
+    },
+    {
+        "text": "it was random they should all appear\none-sixteenth of the time equally likely of the time.",
+        "start": 124.59,
+        "duration": 5.12
+    },
+    {
+        "text": "That's not they've found at all.  In particular, these diagonal entries here - so the one, one; three, three;",
+        "start": 129.71,
+        "duration": 5.94
+    },
+    {
+        "text": "seven, seven; nine, nine - are least likely to turn up. So, the primes aren't\nrepeating themselves and there's a few",
+        "start": 135.65,
+        "duration": 9.35
+    },
+    {
+        "text": "explanations for why this could be the\ncase which I'm going to dismiss. I'm going to give you a few explanations which aren't the reason why this is happening.",
+        "start": 145.0,
+        "duration": 8.96
+    },
+    {
+        "text": "So one might be: \"Okay if you have a\nprime ending with a nine, then well you",
+        "start": 153.97,
+        "duration": 5.98
+    },
+    {
+        "text": "have to go through all the other numbers\nbefore you get to another prime ending with a nine.\"",
+        "start": 159.95,
+        "duration": 3.539
+    },
+    {
+        "text": "Or, you have to go through the numbers\nthat end with a one, and a three, and a seven before you",
+        "start": 163.489,
+        "duration": 5.491
+    },
+    {
+        "text": "get to another number ending with a nine, so. [Brady Haran] It's further away!  [James Grime] It's further away, right.",
+        "start": 168.98,
+        "duration": 5.36
+    },
+    {
+        "text": "And unfortunately, that isn't enough to explain the bias that we found. if that's the case then we're\nlooking for prime gaps less than ten.",
+        "start": 174.34,
+        "duration": 8.32
+    },
+    {
+        "text": "Right? That means you have the next one in less than ten so you're going for a prime ending in a one next, or the prime ending with a three next.",
+        "start": 182.67,
+        "duration": 7.36
+    },
+    {
+        "text": "and prime gaps less than ten are not that many and so that's not enough to explain how biased",
+        "start": 190.03,
+        "duration": 7.42
+    },
+    {
+        "text": "this is. The bias is bigger than that, so\nthat's no good.",
+        "start": 197.45,
+        "duration": 3.68
+    },
+    {
+        "text": "Another explanation might be: I\nsaid that these prime endings one, three, seven and nine",
+        "start": 201.13,
+        "duration": 8.03
+    },
+    {
+        "text": "if this was a random thing they should be\nappearing a quarter of the time each.",
+        "start": 209.16,
+        "duration": 5.14
+    },
+    {
+        "text": "Maybe the explanation is that that's not a true thing maybe the bias comes from the",
+        "start": 214.3,
+        "duration": 6.34
+    },
+    {
+        "text": "primes themselves and that doesn't work\nout either there is a slight bias in",
+        "start": 220.64,
+        "duration": 5.77
+    },
+    {
+        "text": "the primes and it's something we know\nabout. It's called Chebyshev's bias.",
+        "start": 226.41,
+        "duration": 4.37
+    },
+    {
+        "text": "It says that primes ending in three and\nseven are slightly more likely.",
+        "start": 230.78,
+        "duration": 6.67
+    },
+    {
+        "text": "That is something we know about, we know why\nthat happens, and it's such a slight thing.",
+        "start": 237.45,
+        "duration": 4.74
+    },
+    {
+        "text": "It is not enough. So there is this known\nbias in prime number endings,",
+        "start": 242.19,
+        "duration": 4.9
+    },
+    {
+        "text": "so under that assumption, the pair three-three and seven-seven",
+        "start": 247.09,
+        "duration": 4.57
+    },
+    {
+        "text": "should turn up more often, right? And the complete opposite is true. In fact, three-three and seven-seven",
+        "start": 251.66,
+        "duration": 7.56
+    },
+    {
+        "text": "are the least likely that are turning up.",
+        "start": 259.22,
+        "duration": 1.63
+    },
+    {
+        "text": "which is the exact opposite of what it\nshould be, and nine-one are actually the most common pair!",
+        "start": 260.85,
+        "duration": 7.42
+    },
+    {
+        "text": "which is not what it should be at all.",
+        "start": 268.27,
+        "duration": 2.65
+    },
+    {
+        "text": "Ok, maybe, oh maybe it's just a base 10\nthing, you know. Base ten, you know, who cares about base ten, right?",
+        "start": 270.92,
+        "duration": 8.34
+    },
+    {
+        "text": "If it was a fundamental property\nof primes, it would happen in any base.",
+        "start": 279.26,
+        "duration": 4.68
+    },
+    {
+        "text": "And it does. That's what they found. So they checked it in other bases and they",
+        "start": 283.94,
+        "duration": 5.03
+    },
+    {
+        "text": "found the bias is still there, so it\nappears to be a fundamental property of",
+        "start": 288.98,
+        "duration": 5.35
+    },
+    {
+        "text": "the primes. For example, if we do it in\nbase three. It will only end with a one or two",
+        "start": 294.33,
+        "duration": 5.7
+    },
+    {
+        "text": "unless it's three itself, right, we can ignore that one. You got two endings they should turn",
+        "start": 300.03,
+        "duration": 5.34
+    },
+    {
+        "text": "about fifty percent of the time each, which is about\nright, again Chebyshev's bias",
+        "start": 305.37,
+        "duration": 5.39
+    },
+    {
+        "text": "says just a little, slight bias toward the two, but its tiny. \nIt's pretty much fifty-fifty, it's pretty much",
+        "start": 310.76,
+        "duration": 7.62
+    },
+    {
+        "text": "a coin toss. In fact that's what inspired\nthis investigation, and the guys who",
+        "start": 318.38,
+        "duration": 5.72
+    },
+    {
+        "text": "did this investigation were thinking\nabout coin tosses and said \"Well primes",
+        "start": 324.1,
+        "duration": 5.5
+    },
+    {
+        "text": "in base three are like a coin toss. Let's see if that's the same thing because that's a random event.\"",
+        "start": 329.6,
+        "duration": 5.62
+    },
+    {
+        "text": "And then they found this completely different thing, this skew that primes don't like to repeat themselves.",
+        "start": 335.22,
+        "duration": 7.1
+    },
+    {
+        "text": "And that's not something that would happen in coin tosses.",
+        "start": 342.32,
+        "duration": 3.62
+    },
+    {
+        "text": "So if we did it in base three, we would have four prime endings, wouldn't we?",
+        "start": 345.94,
+        "duration": 3.6
+    },
+    {
+        "text": "We would have one-one, one-two, two-one, and two-two. And again they\nfound the same thing.",
+        "start": 349.54,
+        "duration": 6.42
+    },
+    {
+        "text": "These ones with the repetition are the least likely to\noccur. They looked at the first million primes.",
+        "start": 355.96,
+        "duration": 6.78
+    },
+    {
+        "text": "And if you look at first million primes, then\nthey should all be equally likely to turn up a quarter of the time:",
+        "start": 362.74,
+        "duration": 5.44
+    },
+    {
+        "text": "Two-hundred and fifty thousand.",
+        "start": 368.18,
+        "duration": 1.62
+    },
+    {
+        "text": "But no, they didn't get that, so these\nones, with the repetition, were less than",
+        "start": 369.8,
+        "duration": 4.62
+    },
+    {
+        "text": "two hundred and fifty thousand. The ones without a repetition were more than two hundred and fifty thousand.",
+        "start": 374.42,
+        "duration": 6.0
+    },
+    {
+        "text": "So the mathematicians who have been investigating this have tried to come up with an explanation for this.",
+        "start": 380.42,
+        "duration": 4.94
+    },
+    {
+        "text": "And their explanation relies on a\nconjecture that goes back a hundred years.",
+        "start": 385.36,
+        "duration": 6.02
+    },
+    {
+        "text": "It's a conjecture by Hardy and Littlewood and they had a conjecture about the density of primes:",
+        "start": 391.38,
+        "duration": 5.62
+    },
+    {
+        "text": "how many primes you can find in patterns. So you can consider all kinds of patterns",
+        "start": 397.0,
+        "duration": 5.54
+    },
+    {
+        "text": "Like twin primes, that's a pattern, or cousin primes, which have gaps or four, or sexy primes, who have gaps of 6.",
+        "start": 402.54,
+        "duration": 7.86
+    },
+    {
+        "text": "So they had this conjecture about how many of these\nyou should find, and the conjecture has not been proven",
+        "start": 410.4,
+        "duration": 7.12
+    },
+    {
+        "text": "There's a lot of evidence that supports\nthat it's true, so if you look at the",
+        "start": 417.52,
+        "duration": 5.01
+    },
+    {
+        "text": "numerical evidence, it appears to be true but it hasn't been proven.",
+        "start": 422.53,
+        "duration": 4.36
+    },
+    {
+        "text": "So the mathematicians looking at this pattern used a modified version of that conjecture and they came",
+        "start": 426.89,
+        "duration": 6.73
+    },
+    {
+        "text": "up with a formula that they think might\nexplain this idea.",
+        "start": 433.63,
+        "duration": 5.3
+    },
+    {
+        "text": "So that formula was the proportion of this pattern - let's say you've got prime endings a and b, so if we're",
+        "start": 438.93,
+        "duration": 7.37
+    },
+    {
+        "text": "doing it in base ten, this could be one-one or three-seven, or nine-one.",
+        "start": 446.31,
+        "duration": 4.8
+    },
+    {
+        "text": "So we're looking at the proportion of these endings and they come up with a formula. The formula was:",
+        "start": 451.11,
+        "duration": 5.26
+    },
+    {
+        "text": "one over the number of allowed endings,  so this is like one sixteenth from what I've been doing in base ten",
+        "start": 456.37,
+        "duration": 7.46
+    },
+    {
+        "text": "right? So when it's equally likely, these are the allowed endings there. Sixteen of them.",
+        "start": 463.83,
+        "duration": 3.79
+    },
+    {
+        "text": "So the proportion is one over the\nallowed endings multiplied by a thing.",
+        "start": 467.62,
+        "duration": 6.04
+    },
+    {
+        "text": "Right, and what is this thing? That thing depends on if that pattern repeats, if you've got a equals b in that formula.",
+        "start": 473.66,
+        "duration": 11.2
+    },
+    {
+        "text": "If a equals b, that will affect what that\nthing is. I'll show you what it looks like in base three.",
+        "start": 484.86,
+        "duration": 5.94
+    },
+    {
+        "text": "It's kind of ok in base three.  We're looking at proportions of these endings.",
+        "start": 490.8,
+        "duration": 4.58
+    },
+    {
+        "text": "If they're the same like this: a, a. So that would, in base three, the one-one endings and the two-two endings.",
+        "start": 495.38,
+        "duration": 8.16
+    },
+    {
+        "text": "The proportion is. If you are doing it when they're not equal,",
+        "start": 503.54,
+        "duration": 4.78
+    },
+    {
+        "text": "so if it was the one-two endings or the two-one, the proportion of a b, and I'm saying a is not the same as b",
+        "start": 508.32,
+        "duration": 8.34
+    },
+    {
+        "text": "Plus. So this formula they've got is still a conjectured formula because it is based on this Hardy-Littlewood formula which is still a conjectured formula.",
+        "start": 516.66,
+        "duration": 9.64
+    },
+    {
+        "text": "But it fits the evidence. Once we start going off to infinity, this bias becomes less and less important.",
+        "start": 526.3,
+        "duration": 7.78
+    },
+    {
+        "text": "This is a bias that is hanging around so in the great infinity of numbers, this bias is evening out,",
+        "start": 534.08,
+        "duration": 6.86
+    },
+    {
+        "text": "but even up to a trillion there is still a noticeable bias there.",
+        "start": 540.94,
+        "duration": 5.26
+    },
+    {
+        "text": "Audio books are a great way to pass time if, for example, you spend a lot of time",
+        "start": 546.2,
+        "duration": 4.32
+    },
+    {
+        "text": "commuting, and with over two hundred and fifty thousand titles in its collection,",
+        "start": 550.529,
+        "duration": 4.391
+    },
+    {
+        "text": "audible.com is the place to find\nsomething you'll enjoy. For your first book,",
+        "start": 554.92,
+        "duration": 4.22
+    },
+    {
+        "text": "why not go for The Humans by Matt Haig? It's a cracking story; it's funny, charming,",
+        "start": 559.14,
+        "duration": 6.04
+    },
+    {
+        "text": "and without giving too much away I think\nit will really appeal to Numberphile fans.",
+        "start": 565.189,
+        "duration": 4.32
+    },
+    {
+        "text": "It's been one of my favorite books in a\nwhile.",
+        "start": 569.509,
+        "duration": 2.3
+    },
+    {
+        "text": "Why not give them a try? You can actually sign up for a free 30 day trial at audible.com/numberphile",
+        "start": 571.809,
+        "duration": 7.1
+    },
+    {
+        "text": "Use that address and they'll know you came from here, and thanks to Audible for supporting this video",
+        "start": 578.909,
+        "duration": 4.14
+    }
+]

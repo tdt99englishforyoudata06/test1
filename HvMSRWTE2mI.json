@@ -1,0 +1,167 @@
+[
+    {
+        "text": ">> DR GRIME: In 2002 mathematicians\npublished a new method to test for primes",
+        "start": 0.35,
+        "duration": 6.25
+    },
+    {
+        "text": "and finally they found a fast way that was\n100%. This is now one of the latest things.",
+        "start": 6.669,
+        "duration": 10.831
+    },
+    {
+        "text": "So this is called that AKS test. And it's\npretty much a very similar idea to what we",
+        "start": 17.59,
+        "duration": 6.83
+    },
+    {
+        "text": "did with the Fermat Little Theorem. It's very\nsimilar to that. And the test is, that if",
+        "start": 24.42,
+        "duration": 6.52
+    },
+    {
+        "text": "you've got a number p and we are going to\ndo this. We're going to take (x - 1)",
+        "start": 30.94,
+        "duration": 7.0
+    },
+    {
+        "text": "to the power p and then we're going to \nsubtract (x^p - 1). Alright.",
+        "start": 39.199,
+        "duration": 5.91
+    },
+    {
+        "text": "So it's a polynomial, I'll show you an example\nin a second. If all coefficients are divisible",
+        "start": 45.109,
+        "duration": 6.59
+    },
+    {
+        "text": "by p then p is prime. And if they're not it's\ncomposite. it's 100% this test. I'll show",
+        "start": 51.699,
+        "duration": 6.34
+    },
+    {
+        "text": "you an example. let's take (x - 1)³.\nYeah, let's do that. (x - 1)³.",
+        "start": 58.039,
+        "duration": 6.651
+    },
+    {
+        "text": ">> BRADY: So 3 is the number we're testing?",
+        "start": 64.69,
+        "duration": 1.67
+    },
+    {
+        "text": ">> DR GRIME: Yeah, 3 is the number we're testing.\nWe know it's a prime don't we? But we're going",
+        "start": 66.36,
+        "duration": 3.619
+    },
+    {
+        "text": "to test it. We're going to take (x - 1)³\nand so that's, to make it explicit,",
+        "start": 69.979,
+        "duration": 7.0
+    },
+    {
+        "text": "(x - 1) by (x - 1) by (x - 1). OK. Multiply\nthis out, you get a polynomial called",
+        "start": 77.07,
+        "duration": 7.23
+    },
+    {
+        "text": "x³ - 3x² + 3x - 1. That's what you get.\nNow you're subtracting the x³,",
+        "start": 84.3,
+        "duration": 10.9
+    },
+    {
+        "text": "I'm told- I'm told to that and you're, what's\nthat, adding on the 1. So these, these dissapear.",
+        "start": 95.21,
+        "duration": 6.269
+    },
+    {
+        "text": "This says these numbers are divisible by 3.\nIf it is divisible by 3, 3 is the number we're",
+        "start": 101.5,
+        "duration": 6.0
+    },
+    {
+        "text": "testing, then it is a prime. If it's not divisible\nby 3, it is not a prime. And that's our 100%",
+        "start": 107.5,
+        "duration": 7.5
+    },
+    {
+        "text": "test. So this was really important, this was\nhuge news when they published this. 2002 they",
+        "start": 115.02,
+        "duration": 7.47
+    },
+    {
+        "text": "published it and it was huge news because\nit was a fast test as well. Or it could be",
+        "start": 122.49,
+        "duration": 6.92
+    },
+    {
+        "text": "made in to a fast test. There's a little thing\nthey do just to make it a bit faster because",
+        "start": 129.41,
+        "duration": 4.77
+    },
+    {
+        "text": "it does get quite difficult, these polynomials\nget quite nasty. Just to make it a little",
+        "start": 134.18,
+        "duration": 6.01
+    },
+    {
+        "text": "bit faster what they did is (x - a)^p  minus (x^p - a), so 'a'",
+        "start": 140.19,
+        "duration": 7.0
+    },
+    {
+        "text": "is a number like we had before. And they said\nthis was equal to p lots of something plus,",
+        "start": 148.38,
+        "duration": 7.0
+    },
+    {
+        "text": "there you go, a little (x^r - 1) multiplied\nby something. So that's not quite the same,",
+        "start": 157.17,
+        "duration": 7.0
+    },
+    {
+        "text": "that's a little bit different, this was actually\nfaster to work with, it makes a faster calculation.",
+        "start": 165.34,
+        "duration": 4.7
+    },
+    {
+        "text": "And for this version you need to test a few\ncandidates for 'a' here. You test a few.",
+        "start": 170.04,
+        "duration": 6.9
+    },
+    {
+        "text": "And if it passes that test then you can determine\nthat p, which is what we're trying to work",
+        "start": 177.54,
+        "duration": 5.25
+    },
+    {
+        "text": "out. Try and work that out, you can find it's\nprime or not.",
+        "start": 182.89,
+        "duration": 4.26
+    },
+    {
+        "text": "Mathematics is done all day, you know, every\nday. New mathematics is coming out all the",
+        "start": 187.15,
+        "duration": 4.12
+    },
+    {
+        "text": "time. And only, well I say recently, 12 years\nago they finally solved the problem.",
+        "start": 191.27,
+        "duration": 7.73
+    },
+    {
+        "text": "It is still faster to do a Fermat test. it's still\nfaster to do this, but this is not outrageously",
+        "start": 199.0,
+        "duration": 8.9
+    },
+    {
+        "text": "slow anymore. This doesn't take us to the\nend of the universe anymore. So we can actually",
+        "start": 207.9,
+        "duration": 4.33
+    },
+    {
+        "text": "run this test. It's slower than the Fermat\ntest, but 100% true.",
+        "start": 212.23,
+        "duration": 7.0
+    }
+]

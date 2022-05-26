@@ -1,0 +1,3692 @@
+[
+    {
+        "text": "today on Applied Science I'm going to",
+        "start": 0.35,
+        "duration": 4.21
+    },
+    {
+        "text": "show you how to take a laser diode and",
+        "start": 2.639,
+        "duration": 3.751
+    },
+    {
+        "text": "without any other op tool components",
+        "start": 4.56,
+        "duration": 4.079
+    },
+    {
+        "text": "make submicron measurements from a few",
+        "start": 6.39,
+        "duration": 11.16
+    },
+    {
+        "text": "centimeters away but first nerd thunder",
+        "start": 8.639,
+        "duration": 10.621
+    },
+    {
+        "text": "is a collection of youtubers that are",
+        "start": 17.55,
+        "duration": 3.059
+    },
+    {
+        "text": "doing a little cross promotion in",
+        "start": 19.26,
+        "duration": 3.66
+    },
+    {
+        "text": "December including Jerry Ellsworth who",
+        "start": 20.609,
+        "duration": 3.871
+    },
+    {
+        "text": "actually inspired me to start making",
+        "start": 22.92,
+        "duration": 4.59
+    },
+    {
+        "text": "youtube videos in 2011 so be sure and go",
+        "start": 24.48,
+        "duration": 4.35
+    },
+    {
+        "text": "check out those channels in the",
+        "start": 27.51,
+        "duration": 4.23
+    },
+    {
+        "text": "description okay we're gonna start out",
+        "start": 28.83,
+        "duration": 5.01
+    },
+    {
+        "text": "with a simple setup we've got a laser",
+        "start": 31.74,
+        "duration": 4.65
+    },
+    {
+        "text": "diode here emitting light this is the",
+        "start": 33.84,
+        "duration": 4.26
+    },
+    {
+        "text": "pattern here without a lens on it and",
+        "start": 36.39,
+        "duration": 4.47
+    },
+    {
+        "text": "we're drawing about close to 24",
+        "start": 38.1,
+        "duration": 4.799
+    },
+    {
+        "text": "milliamps and I'm measuring the current",
+        "start": 40.86,
+        "duration": 3.69
+    },
+    {
+        "text": "out of the monitor photo diode here",
+        "start": 42.899,
+        "duration": 3.511
+    },
+    {
+        "text": "which we'll talk about a minute and so",
+        "start": 44.55,
+        "duration": 4.5
+    },
+    {
+        "text": "if I just take a white card and pass it",
+        "start": 46.41,
+        "duration": 5.16
+    },
+    {
+        "text": "under the laser beam check out the graph",
+        "start": 49.05,
+        "duration": 4.47
+    },
+    {
+        "text": "here showing the current history over",
+        "start": 51.57,
+        "duration": 5.28
+    },
+    {
+        "text": "time did you expect that that's actually",
+        "start": 53.52,
+        "duration": 5.49
+    },
+    {
+        "text": "kind of a surprise right I mean what's",
+        "start": 56.85,
+        "duration": 3.93
+    },
+    {
+        "text": "going on here there's no sensor other",
+        "start": 59.01,
+        "duration": 4.65
+    },
+    {
+        "text": "than the laser diode itself and if we",
+        "start": 60.78,
+        "duration": 7.89
+    },
+    {
+        "text": "add a lens here the effect works a",
+        "start": 63.66,
+        "duration": 7.68
+    },
+    {
+        "text": "longer range even because the lens is",
+        "start": 68.67,
+        "duration": 4.41
+    },
+    {
+        "text": "collecting more light coming back from",
+        "start": 71.34,
+        "duration": 4.08
+    },
+    {
+        "text": "this spot and if I use a card with a",
+        "start": 73.08,
+        "duration": 4.44
+    },
+    {
+        "text": "retro reflector on it now the signal is",
+        "start": 75.42,
+        "duration": 4.05
+    },
+    {
+        "text": "pretty massive it's about 10x bigger",
+        "start": 77.52,
+        "duration": 4.169
+    },
+    {
+        "text": "because the retroreflector is sending",
+        "start": 79.47,
+        "duration": 5.31
+    },
+    {
+        "text": "all that light back in so what's going",
+        "start": 81.689,
+        "duration": 5.011
+    },
+    {
+        "text": "on here I mentioned that the laser diode",
+        "start": 84.78,
+        "duration": 4.799
+    },
+    {
+        "text": "has a monitor photo diode in it so let's",
+        "start": 86.7,
+        "duration": 4.65
+    },
+    {
+        "text": "cut one of these laser diode packages",
+        "start": 89.579,
+        "duration": 3.241
+    },
+    {
+        "text": "open and you can see what I'm talking",
+        "start": 91.35,
+        "duration": 5.01
+    },
+    {
+        "text": "about these laser diode packages are",
+        "start": 92.82,
+        "duration": 6.06
+    },
+    {
+        "text": "typically three lead devices and so if",
+        "start": 96.36,
+        "duration": 3.66
+    },
+    {
+        "text": "you're thinking there's something more",
+        "start": 98.88,
+        "duration": 3.3
+    },
+    {
+        "text": "going on than just a light emitter you'd",
+        "start": 100.02,
+        "duration": 4.559
+    },
+    {
+        "text": "be right so I cut some of these open by",
+        "start": 102.18,
+        "duration": 4.41
+    },
+    {
+        "text": "mounting them in a lathe in a collet and",
+        "start": 104.579,
+        "duration": 3.961
+    },
+    {
+        "text": "then using a dremel to very carefully",
+        "start": 106.59,
+        "duration": 4.05
+    },
+    {
+        "text": "grind away the outer shell until it fell",
+        "start": 108.54,
+        "duration": 4.41
+    },
+    {
+        "text": "off and here you can see a whole bunch",
+        "start": 110.64,
+        "duration": 3.78
+    },
+    {
+        "text": "of diodes that I've cut up from",
+        "start": 112.95,
+        "duration": 3.959
+    },
+    {
+        "text": "different sources now you'll notice that",
+        "start": 114.42,
+        "duration": 4.71
+    },
+    {
+        "text": "in some of these cases there's actually",
+        "start": 116.909,
+        "duration": 4.35
+    },
+    {
+        "text": "two separate components within the",
+        "start": 119.13,
+        "duration": 3.75
+    },
+    {
+        "text": "package there's actually the laser diode",
+        "start": 121.259,
+        "duration": 4.32
+    },
+    {
+        "text": "itself and then there's also a monitor",
+        "start": 122.88,
+        "duration": 5.34
+    },
+    {
+        "text": "photo diode sort of on the backs top of",
+        "start": 125.579,
+        "duration": 4.921
+    },
+    {
+        "text": "the package and what happens here is",
+        "start": 128.22,
+        "duration": 3.96
+    },
+    {
+        "text": "when the laser diode is on light is",
+        "start": 130.5,
+        "duration": 3.21
+    },
+    {
+        "text": "emitted forwards and back",
+        "start": 132.18,
+        "duration": 3.42
+    },
+    {
+        "text": "words from the laser diode junction and",
+        "start": 133.71,
+        "duration": 4.08
+    },
+    {
+        "text": "the backwards emitted light hits this",
+        "start": 135.6,
+        "duration": 4.47
+    },
+    {
+        "text": "monitor photo diode that's inside the",
+        "start": 137.79,
+        "duration": 4.77
+    },
+    {
+        "text": "package and so the point of this is that",
+        "start": 140.07,
+        "duration": 5.37
+    },
+    {
+        "text": "if you want to really carefully control",
+        "start": 142.56,
+        "duration": 4.32
+    },
+    {
+        "text": "how much light is coming out of the",
+        "start": 145.44,
+        "duration": 3.12
+    },
+    {
+        "text": "laser junction due to things like",
+        "start": 146.88,
+        "duration": 3.87
+    },
+    {
+        "text": "manufacturing tolerances and temperature",
+        "start": 148.56,
+        "duration": 4.11
+    },
+    {
+        "text": "changes you really want to know how much",
+        "start": 150.75,
+        "duration": 3.42
+    },
+    {
+        "text": "light it's emitting not just how much",
+        "start": 152.67,
+        "duration": 3.33
+    },
+    {
+        "text": "current it's consuming so the",
+        "start": 154.17,
+        "duration": 3.84
+    },
+    {
+        "text": "manufacturers put these monitor photo",
+        "start": 156.0,
+        "duration": 4.23
+    },
+    {
+        "text": "diodes in so that your circuit can",
+        "start": 158.01,
+        "duration": 3.9
+    },
+    {
+        "text": "actually do closed loop control of how",
+        "start": 160.23,
+        "duration": 5.79
+    },
+    {
+        "text": "much light is really coming out for a",
+        "start": 161.91,
+        "duration": 5.85
+    },
+    {
+        "text": "better or worse modern photo diodes",
+        "start": 166.02,
+        "duration": 3.36
+    },
+    {
+        "text": "typically don't have this monitor photo",
+        "start": 167.76,
+        "duration": 4.17
+    },
+    {
+        "text": "diode in there any longer if you buy",
+        "start": 169.38,
+        "duration": 5.22
+    },
+    {
+        "text": "like these cheap laser pointers off of",
+        "start": 171.93,
+        "duration": 3.93
+    },
+    {
+        "text": "ebay which are actually a really great",
+        "start": 174.6,
+        "duration": 3.12
+    },
+    {
+        "text": "deal for like 12 bucks you can get all",
+        "start": 175.86,
+        "duration": 4.17
+    },
+    {
+        "text": "three of these if you cut open the laser",
+        "start": 177.72,
+        "duration": 4.88
+    },
+    {
+        "text": "packages from inside these laser pens",
+        "start": 180.03,
+        "duration": 4.86
+    },
+    {
+        "text": "typically the photodiode is not there",
+        "start": 182.6,
+        "duration": 4.42
+    },
+    {
+        "text": "even though the packages still have",
+        "start": 184.89,
+        "duration": 3.39
+    },
+    {
+        "text": "three leads probably because they're",
+        "start": 187.02,
+        "duration": 3.57
+    },
+    {
+        "text": "using the old tooling it's just that",
+        "start": 188.28,
+        "duration": 4.47
+    },
+    {
+        "text": "they they either ignore the third lead",
+        "start": 190.59,
+        "duration": 3.75
+    },
+    {
+        "text": "or it's just connected together with the",
+        "start": 192.75,
+        "duration": 5.25
+    },
+    {
+        "text": "other one in these cases the laser diode",
+        "start": 194.34,
+        "duration": 5.73
+    },
+    {
+        "text": "can handle pretty high currents and so",
+        "start": 198.0,
+        "duration": 3.66
+    },
+    {
+        "text": "as long as you drive it in a constant",
+        "start": 200.07,
+        "duration": 3.36
+    },
+    {
+        "text": "current configuration and you aren't too",
+        "start": 201.66,
+        "duration": 3.42
+    },
+    {
+        "text": "concerned with the exact amount of light",
+        "start": 203.43,
+        "duration": 3.84
+    },
+    {
+        "text": "output you can ignore the manufacturing",
+        "start": 205.08,
+        "duration": 3.3
+    },
+    {
+        "text": "tolerances and the temperature",
+        "start": 207.27,
+        "duration": 4.89
+    },
+    {
+        "text": "variations in at least one case I also",
+        "start": 208.38,
+        "duration": 6.09
+    },
+    {
+        "text": "found instead of a monitor photo diode",
+        "start": 212.16,
+        "duration": 4.68
+    },
+    {
+        "text": "actually an entire integrated circuit",
+        "start": 214.47,
+        "duration": 4.59
+    },
+    {
+        "text": "with photodiode in the back of the",
+        "start": 216.84,
+        "duration": 3.63
+    },
+    {
+        "text": "package and so this one is actually",
+        "start": 219.06,
+        "duration": 3.9
+    },
+    {
+        "text": "doing the light regulating inside the",
+        "start": 220.47,
+        "duration": 4.11
+    },
+    {
+        "text": "package which is not going to work for",
+        "start": 222.96,
+        "duration": 2.91
+    },
+    {
+        "text": "this experiment that I'm going to show",
+        "start": 224.58,
+        "duration": 4.38
+    },
+    {
+        "text": "you today and here's a really grody one",
+        "start": 225.87,
+        "duration": 4.92
+    },
+    {
+        "text": "this one is totally cost optimized",
+        "start": 228.96,
+        "duration": 3.51
+    },
+    {
+        "text": "they've gotten rid of the metal package",
+        "start": 230.79,
+        "duration": 3.54
+    },
+    {
+        "text": "altogether and just have the laser die",
+        "start": 232.47,
+        "duration": 5.67
+    },
+    {
+        "text": "like right on a piece of PCB material so",
+        "start": 234.33,
+        "duration": 5.82
+    },
+    {
+        "text": "in the old days like the 1990s when",
+        "start": 238.14,
+        "duration": 4.53
+    },
+    {
+        "text": "these laser diodes were new it was",
+        "start": 240.15,
+        "duration": 4.68
+    },
+    {
+        "text": "common to have a setup like this so this",
+        "start": 242.67,
+        "duration": 4.02
+    },
+    {
+        "text": "is how the three leads are wired up and",
+        "start": 244.83,
+        "duration": 4.29
+    },
+    {
+        "text": "in fact I found this batch of old laser",
+        "start": 246.69,
+        "duration": 4.89
+    },
+    {
+        "text": "diodes at Jame Co that were on closeout",
+        "start": 249.12,
+        "duration": 3.78
+    },
+    {
+        "text": "and actually bought the last of them",
+        "start": 251.58,
+        "duration": 3.33
+    },
+    {
+        "text": "it's actually very difficult to find",
+        "start": 252.9,
+        "duration": 4.41
+    },
+    {
+        "text": "laser diodes that have a monitor photo",
+        "start": 254.91,
+        "duration": 3.9
+    },
+    {
+        "text": "diode and are cheap you know kind of",
+        "start": 257.31,
+        "duration": 2.94
+    },
+    {
+        "text": "like they were in the old days like this",
+        "start": 258.81,
+        "duration": 3.87
+    },
+    {
+        "text": "so anyway so in this first setup this is",
+        "start": 260.25,
+        "duration": 4.35
+    },
+    {
+        "text": "how we have it configured so 24 million",
+        "start": 262.68,
+        "duration": 4.35
+    },
+    {
+        "text": "amps coming in this is the emitter side",
+        "start": 264.6,
+        "duration": 3.06
+    },
+    {
+        "text": "of it and this",
+        "start": 267.03,
+        "duration": 2.7
+    },
+    {
+        "text": "the photodiodes side of it and the photo",
+        "start": 267.66,
+        "duration": 4.14
+    },
+    {
+        "text": "diode is reverse-biased and so there's",
+        "start": 269.73,
+        "duration": 5.85
+    },
+    {
+        "text": "about two volts at the at the third lead",
+        "start": 271.8,
+        "duration": 5.67
+    },
+    {
+        "text": "of the package and then we're going to",
+        "start": 275.58,
+        "duration": 3.69
+    },
+    {
+        "text": "put our current meter here so that the",
+        "start": 277.47,
+        "duration": 3.9
+    },
+    {
+        "text": "reverse leakage current through this",
+        "start": 279.27,
+        "duration": 3.66
+    },
+    {
+        "text": "photodiode is what we're measuring and",
+        "start": 281.37,
+        "duration": 3.72
+    },
+    {
+        "text": "it's about 50 micro amps or 60 micro",
+        "start": 282.93,
+        "duration": 5.04
+    },
+    {
+        "text": "amps when the thing is running so this",
+        "start": 285.09,
+        "duration": 4.5
+    },
+    {
+        "text": "is already pretty neat I mean we've got",
+        "start": 287.97,
+        "duration": 4.53
+    },
+    {
+        "text": "basically a on-off sensor but it also",
+        "start": 289.59,
+        "duration": 5.25
+    },
+    {
+        "text": "functions as a distance sensor and so if",
+        "start": 292.5,
+        "duration": 4.41
+    },
+    {
+        "text": "I slowly move the card in and out like",
+        "start": 294.84,
+        "duration": 3.48
+    },
+    {
+        "text": "this we're actually getting an analog",
+        "start": 296.91,
+        "duration": 3.54
+    },
+    {
+        "text": "interpretation of how far away the card",
+        "start": 298.32,
+        "duration": 5.82
+    },
+    {
+        "text": "is and with a little bit of tweaking you",
+        "start": 300.45,
+        "duration": 5.01
+    },
+    {
+        "text": "could actually make this into quite a",
+        "start": 304.14,
+        "duration": 3.57
+    },
+    {
+        "text": "useable circuit so what's happening is",
+        "start": 305.46,
+        "duration": 3.9
+    },
+    {
+        "text": "the light is coming out of the wood",
+        "start": 307.71,
+        "duration": 4.14
+    },
+    {
+        "text": "laser diode reflecting off the card the",
+        "start": 309.36,
+        "duration": 4.53
+    },
+    {
+        "text": "lens is focusing it back into the",
+        "start": 311.85,
+        "duration": 3.87
+    },
+    {
+        "text": "package and we're picking up the signal",
+        "start": 313.89,
+        "duration": 4.8
+    },
+    {
+        "text": "on this monitor photo diode now what's",
+        "start": 315.72,
+        "duration": 5.4
+    },
+    {
+        "text": "cool here is that the laser diode light",
+        "start": 318.69,
+        "duration": 5.34
+    },
+    {
+        "text": "is coherent meaning it's all in one",
+        "start": 321.12,
+        "duration": 5.04
+    },
+    {
+        "text": "phase like one way of coming out of the",
+        "start": 324.03,
+        "duration": 4.59
+    },
+    {
+        "text": "package so when we put a reflector down",
+        "start": 326.16,
+        "duration": 5.34
+    },
+    {
+        "text": "here it's actually coherent light being",
+        "start": 328.62,
+        "duration": 5.04
+    },
+    {
+        "text": "reflected back into the package and we",
+        "start": 331.5,
+        "duration": 3.66
+    },
+    {
+        "text": "have the possibility of getting the",
+        "start": 333.66,
+        "duration": 4.32
+    },
+    {
+        "text": "light to interfere with itself so in the",
+        "start": 335.16,
+        "duration": 4.77
+    },
+    {
+        "text": "next setup I'm going to show you how to",
+        "start": 337.98,
+        "duration": 3.93
+    },
+    {
+        "text": "measure this interference pattern which",
+        "start": 339.93,
+        "duration": 3.54
+    },
+    {
+        "text": "will let us measure really small",
+        "start": 341.91,
+        "duration": 5.03
+    },
+    {
+        "text": "movements far away from the laser diode",
+        "start": 343.47,
+        "duration": 5.73
+    },
+    {
+        "text": "in this setup we're going to use the",
+        "start": 346.94,
+        "duration": 4.27
+    },
+    {
+        "text": "oscilloscope to look at that micro amp",
+        "start": 349.2,
+        "duration": 3.9
+    },
+    {
+        "text": "current signal coming from the monitor",
+        "start": 351.21,
+        "duration": 4.17
+    },
+    {
+        "text": "photo diode so here you can see the",
+        "start": 353.1,
+        "duration": 3.99
+    },
+    {
+        "text": "power supply that we're using for the",
+        "start": 355.38,
+        "duration": 3.75
+    },
+    {
+        "text": "laser diode and this is about the 24",
+        "start": 357.09,
+        "duration": 3.9
+    },
+    {
+        "text": "milliamps going in I'm actually using",
+        "start": 359.13,
+        "duration": 3.78
+    },
+    {
+        "text": "this in constant voltage mode because I",
+        "start": 360.99,
+        "duration": 3.78
+    },
+    {
+        "text": "very carefully characterized this",
+        "start": 362.91,
+        "duration": 4.08
+    },
+    {
+        "text": "specific diode and I have a current",
+        "start": 364.77,
+        "duration": 3.63
+    },
+    {
+        "text": "limit that currently it is in current",
+        "start": 366.99,
+        "duration": 4.26
+    },
+    {
+        "text": "for a constant voltage mode we're not",
+        "start": 368.4,
+        "duration": 4.86
+    },
+    {
+        "text": "using the multimeter anymore I actually",
+        "start": 371.25,
+        "duration": 3.24
+    },
+    {
+        "text": "have a circuit over there that's",
+        "start": 373.26,
+        "duration": 3.27
+    },
+    {
+        "text": "converting that micro amp current signal",
+        "start": 374.49,
+        "duration": 3.96
+    },
+    {
+        "text": "into a voltage which we're displaying on",
+        "start": 376.53,
+        "duration": 4.38
+    },
+    {
+        "text": "the oscilloscope so let me show you what",
+        "start": 378.45,
+        "duration": 6.03
+    },
+    {
+        "text": "that circuit is okay here's the circuit",
+        "start": 380.91,
+        "duration": 5.64
+    },
+    {
+        "text": "pretty basic this is known as a trans",
+        "start": 384.48,
+        "duration": 4.2
+    },
+    {
+        "text": "impedance amplifier because it's going",
+        "start": 386.55,
+        "duration": 4.02
+    },
+    {
+        "text": "to convert the current signal from the",
+        "start": 388.68,
+        "duration": 3.87
+    },
+    {
+        "text": "photodiode into a voltage signal that we",
+        "start": 390.57,
+        "duration": 4.38
+    },
+    {
+        "text": "can look at on the oscilloscope and so",
+        "start": 392.55,
+        "duration": 3.84
+    },
+    {
+        "text": "the way this works is if there's current",
+        "start": 394.95,
+        "duration": 4.11
+    },
+    {
+        "text": "flowing in or out of the op-amp leg here",
+        "start": 396.39,
+        "duration": 4.89
+    },
+    {
+        "text": "the op-amp will servo the output",
+        "start": 399.06,
+        "duration": 4.23
+    },
+    {
+        "text": "to try to balance this out since we have",
+        "start": 401.28,
+        "duration": 3.99
+    },
+    {
+        "text": "the positive or the non-inverting input",
+        "start": 403.29,
+        "duration": 4.349
+    },
+    {
+        "text": "grounded so if there's current flowing",
+        "start": 405.27,
+        "duration": 4.89
+    },
+    {
+        "text": "out then the op-amp will servo current",
+        "start": 407.639,
+        "duration": 4.53
+    },
+    {
+        "text": "in to keep this node at the same zero",
+        "start": 410.16,
+        "duration": 4.41
+    },
+    {
+        "text": "voltage right and the feedback resistor",
+        "start": 412.169,
+        "duration": 5.281
+    },
+    {
+        "text": "is a hundred K so this means that if we",
+        "start": 414.57,
+        "duration": 4.8
+    },
+    {
+        "text": "have one micro amp flowing in or out",
+        "start": 417.45,
+        "duration": 3.66
+    },
+    {
+        "text": "here there should be a hundred",
+        "start": 419.37,
+        "duration": 3.33
+    },
+    {
+        "text": "millivolts here going through this",
+        "start": 421.11,
+        "duration": 4.26
+    },
+    {
+        "text": "resistor to compensate for that and the",
+        "start": 422.7,
+        "duration": 5.46
+    },
+    {
+        "text": "bandwidth here is going to be a few",
+        "start": 425.37,
+        "duration": 4.32
+    },
+    {
+        "text": "hundred K maybe even a couple of",
+        "start": 428.16,
+        "duration": 4.08
+    },
+    {
+        "text": "megahertz but it's not super critical",
+        "start": 429.69,
+        "duration": 3.87
+    },
+    {
+        "text": "and there's a little feedback",
+        "start": 432.24,
+        "duration": 3.36
+    },
+    {
+        "text": "capacitance here to clean the signal up",
+        "start": 433.56,
+        "duration": 4.71
+    },
+    {
+        "text": "ideally we want to reduce capacitance in",
+        "start": 435.6,
+        "duration": 4.2
+    },
+    {
+        "text": "these cases because we want high",
+        "start": 438.27,
+        "duration": 3.72
+    },
+    {
+        "text": "bandwidth but for what we're doing today",
+        "start": 439.8,
+        "duration": 3.66
+    },
+    {
+        "text": "just to make it clearer to see on the",
+        "start": 441.99,
+        "duration": 2.64
+    },
+    {
+        "text": "oscilloscope I threw in a little",
+        "start": 443.46,
+        "duration": 4.65
+    },
+    {
+        "text": "capacitance there and when doing",
+        "start": 444.63,
+        "duration": 4.95
+    },
+    {
+        "text": "circuits like this it's very convenient",
+        "start": 448.11,
+        "duration": 3.42
+    },
+    {
+        "text": "to use two 9-volt batteries like this",
+        "start": 449.58,
+        "duration": 4.589
+    },
+    {
+        "text": "back-to-back so that we get a very clean",
+        "start": 451.53,
+        "duration": 4.71
+    },
+    {
+        "text": "voltage that's also floating relative to",
+        "start": 454.169,
+        "duration": 4.351
+    },
+    {
+        "text": "everything else and I've built it up on",
+        "start": 456.24,
+        "duration": 4.38
+    },
+    {
+        "text": "this board here with a couple of sockets",
+        "start": 458.52,
+        "duration": 4.44
+    },
+    {
+        "text": "for the resistor and capacitor so that I",
+        "start": 460.62,
+        "duration": 5.43
+    },
+    {
+        "text": "can quickly swap in and out values this",
+        "start": 462.96,
+        "duration": 4.92
+    },
+    {
+        "text": "whole thing is DC coupled but then I",
+        "start": 466.05,
+        "duration": 3.96
+    },
+    {
+        "text": "have the scope set to AC coupling so",
+        "start": 467.88,
+        "duration": 3.36
+    },
+    {
+        "text": "that when we look at the signal we're",
+        "start": 470.01,
+        "duration": 3.21
+    },
+    {
+        "text": "really looking at only the AC component",
+        "start": 471.24,
+        "duration": 4.47
+    },
+    {
+        "text": "of current coming out of here and the",
+        "start": 473.22,
+        "duration": 3.96
+    },
+    {
+        "text": "plus nine volts gives us a lot of",
+        "start": 475.71,
+        "duration": 3.84
+    },
+    {
+        "text": "Headroom so that 50 or 60 micro amp of",
+        "start": 477.18,
+        "duration": 4.68
+    },
+    {
+        "text": "DC that we don't really care about it's",
+        "start": 479.55,
+        "duration": 4.02
+    },
+    {
+        "text": "going to be ignored and then if there's",
+        "start": 481.86,
+        "duration": 3.3
+    },
+    {
+        "text": "a little bit of ripple current on here",
+        "start": 483.57,
+        "duration": 3.09
+    },
+    {
+        "text": "which is the signal we're interested in",
+        "start": 485.16,
+        "duration": 3.3
+    },
+    {
+        "text": "that will end up making its way all the",
+        "start": 486.66,
+        "duration": 4.71
+    },
+    {
+        "text": "way through to the oscilloscope here's",
+        "start": 488.46,
+        "duration": 4.86
+    },
+    {
+        "text": "the signal on the oscilloscope and the",
+        "start": 491.37,
+        "duration": 3.66
+    },
+    {
+        "text": "full scale from top to bottom here is",
+        "start": 493.32,
+        "duration": 3.48
+    },
+    {
+        "text": "about 200 millivolts so it's kind of",
+        "start": 495.03,
+        "duration": 4.17
+    },
+    {
+        "text": "like plus/minus 1 micro amp of current",
+        "start": 496.8,
+        "duration": 5.489
+    },
+    {
+        "text": "and the drive current for the laser",
+        "start": 499.2,
+        "duration": 5.19
+    },
+    {
+        "text": "diode is holding steady at about 23 and",
+        "start": 502.289,
+        "duration": 3.781
+    },
+    {
+        "text": "a half millions it's warmed up and",
+        "start": 504.39,
+        "duration": 3.839
+    },
+    {
+        "text": "pretty stable and then here we've got",
+        "start": 506.07,
+        "duration": 4.29
+    },
+    {
+        "text": "the card with the retroreflector tag on",
+        "start": 508.229,
+        "duration": 2.31
+    },
+    {
+        "text": "it",
+        "start": 510.36,
+        "duration": 2.25
+    },
+    {
+        "text": "and if I move this around a little bit",
+        "start": 510.539,
+        "duration": 3.781
+    },
+    {
+        "text": "you can see the signal kind of goes nuts",
+        "start": 512.61,
+        "duration": 3.78
+    },
+    {
+        "text": "and it's still moving when I'm not",
+        "start": 514.32,
+        "duration": 4.17
+    },
+    {
+        "text": "touching the card however as you can",
+        "start": 516.39,
+        "duration": 3.93
+    },
+    {
+        "text": "imagine this is pretty sensitive if I",
+        "start": 518.49,
+        "duration": 3.54
+    },
+    {
+        "text": "basically just tap the card a little bit",
+        "start": 520.32,
+        "duration": 3.69
+    },
+    {
+        "text": "we can see there's a ton of signal in",
+        "start": 522.03,
+        "duration": 3.33
+    },
+    {
+        "text": "there but it's a little bit hard to pick",
+        "start": 524.01,
+        "duration": 4.2
+    },
+    {
+        "text": "out exactly what's going on so to make",
+        "start": 525.36,
+        "duration": 5.49
+    },
+    {
+        "text": "this easier to see what I'm going to do",
+        "start": 528.21,
+        "duration": 6.24
+    },
+    {
+        "text": "is put a tiny little speaker into the",
+        "start": 530.85,
+        "duration": 6.18
+    },
+    {
+        "text": "path and the speaker has a",
+        "start": 534.45,
+        "duration": 5.16
+    },
+    {
+        "text": "retro-reflective sticker on it zoom in",
+        "start": 537.03,
+        "duration": 4.11
+    },
+    {
+        "text": "so you can see this easier in a second",
+        "start": 539.61,
+        "duration": 3.39
+    },
+    {
+        "text": "and then we're gonna drive the speaker",
+        "start": 541.14,
+        "duration": 4.11
+    },
+    {
+        "text": "with this function generator here so",
+        "start": 543.0,
+        "duration": 4.32
+    },
+    {
+        "text": "currently we've got 60 Hertz at 300",
+        "start": 545.25,
+        "duration": 4.14
+    },
+    {
+        "text": "millivolts peak peak so I'll turn the",
+        "start": 547.32,
+        "duration": 5.13
+    },
+    {
+        "text": "speaker on and the yellow trace on the",
+        "start": 549.39,
+        "duration": 4.62
+    },
+    {
+        "text": "oscilloscope is going to show us the",
+        "start": 552.45,
+        "duration": 4.02
+    },
+    {
+        "text": "drive signal going into the speaker and",
+        "start": 554.01,
+        "duration": 4.95
+    },
+    {
+        "text": "then the current signal from the monitor",
+        "start": 556.47,
+        "duration": 3.95
+    },
+    {
+        "text": "photodiodes being displayed up here",
+        "start": 558.96,
+        "duration": 4.59
+    },
+    {
+        "text": "let's zoom in on the signal a little bit",
+        "start": 560.42,
+        "duration": 3.97
+    },
+    {
+        "text": "you can see there's something",
+        "start": 563.55,
+        "duration": 3.45
+    },
+    {
+        "text": "interesting happening here if the",
+        "start": 564.39,
+        "duration": 4.83
+    },
+    {
+        "text": "speaker is responding perfectly to the",
+        "start": 567.0,
+        "duration": 4.5
+    },
+    {
+        "text": "sine wave which I think it is at 60",
+        "start": 569.22,
+        "duration": 4.31
+    },
+    {
+        "text": "Hertz this is why we're going very slow",
+        "start": 571.5,
+        "duration": 4.47
+    },
+    {
+        "text": "you can see that when the speaker is in",
+        "start": 573.53,
+        "duration": 5.35
+    },
+    {
+        "text": "motion we're getting a signal from the",
+        "start": 575.97,
+        "duration": 4.77
+    },
+    {
+        "text": "monitor photo diode and then when the",
+        "start": 578.88,
+        "duration": 3.93
+    },
+    {
+        "text": "speaker comes to a stop because it's",
+        "start": 580.74,
+        "duration": 3.3
+    },
+    {
+        "text": "gotten all the way to the top or the",
+        "start": 582.81,
+        "duration": 4.32
+    },
+    {
+        "text": "bottom the signal changes and then it's",
+        "start": 584.04,
+        "duration": 4.5
+    },
+    {
+        "text": "back to high speed when it's moving",
+        "start": 587.13,
+        "duration": 4.14
+    },
+    {
+        "text": "again so let's zoom in on the speaker so",
+        "start": 588.54,
+        "duration": 4.38
+    },
+    {
+        "text": "you can see a closer look at it and try",
+        "start": 591.27,
+        "duration": 3.08
+    },
+    {
+        "text": "to figure out what's going on here",
+        "start": 592.92,
+        "duration": 3.0
+    },
+    {
+        "text": "here's the setup",
+        "start": 594.35,
+        "duration": 3.52
+    },
+    {
+        "text": "and we've got the same laser diode with",
+        "start": 595.92,
+        "duration": 3.42
+    },
+    {
+        "text": "the lens below it and the lens is",
+        "start": 597.87,
+        "duration": 3.39
+    },
+    {
+        "text": "focusing the spot on to that retro",
+        "start": 599.34,
+        "duration": 3.75
+    },
+    {
+        "text": "reflective sticker that's on the speaker",
+        "start": 601.26,
+        "duration": 4.23
+    },
+    {
+        "text": "and this speaker you can't hear anything",
+        "start": 603.09,
+        "duration": 4.14
+    },
+    {
+        "text": "because it's only 60 Hertz and the",
+        "start": 605.49,
+        "duration": 3.87
+    },
+    {
+        "text": "frequency response of this speaker at 60",
+        "start": 607.23,
+        "duration": 4.53
+    },
+    {
+        "text": "Hertz is not very high and also it's",
+        "start": 609.36,
+        "duration": 3.66
+    },
+    {
+        "text": "we're just driving it at very low",
+        "start": 611.76,
+        "duration": 3.45
+    },
+    {
+        "text": "amplitude just 300 millivolts peak peak",
+        "start": 613.02,
+        "duration": 4.65
+    },
+    {
+        "text": "and we saw that that interesting looking",
+        "start": 615.21,
+        "duration": 4.47
+    },
+    {
+        "text": "signal on the oscilloscope indicates",
+        "start": 617.67,
+        "duration": 4.68
+    },
+    {
+        "text": "that the diode is able to detect the",
+        "start": 619.68,
+        "duration": 4.59
+    },
+    {
+        "text": "frequency of the speaker moving even",
+        "start": 622.35,
+        "duration": 3.63
+    },
+    {
+        "text": "from this far away and we can't hear",
+        "start": 624.27,
+        "duration": 3.09
+    },
+    {
+        "text": "anything so it's a very sensitive",
+        "start": 625.98,
+        "duration": 3.75
+    },
+    {
+        "text": "detector so here's what's going on here",
+        "start": 627.36,
+        "duration": 6.03
+    },
+    {
+        "text": "the laser is emitting coherent light",
+        "start": 629.73,
+        "duration": 5.97
+    },
+    {
+        "text": "right and it comes out of the laser and",
+        "start": 633.39,
+        "duration": 4.01
+    },
+    {
+        "text": "strikes something and comes back",
+        "start": 635.7,
+        "duration": 3.86
+    },
+    {
+        "text": "maintaining some amount of that",
+        "start": 637.4,
+        "duration": 6.52
+    },
+    {
+        "text": "coherence so that if we have a distant",
+        "start": 639.56,
+        "duration": 6.58
+    },
+    {
+        "text": "object the exact position of that object",
+        "start": 643.92,
+        "duration": 4.41
+    },
+    {
+        "text": "relative to the waves of light coming",
+        "start": 646.14,
+        "duration": 4.62
+    },
+    {
+        "text": "out is important if it happens to be",
+        "start": 648.33,
+        "duration": 4.92
+    },
+    {
+        "text": "that the object crosses the laser beam",
+        "start": 650.76,
+        "duration": 5.31
+    },
+    {
+        "text": "at a high point in the waveform then the",
+        "start": 653.25,
+        "duration": 4.68
+    },
+    {
+        "text": "wave comes back and has constructive",
+        "start": 656.07,
+        "duration": 3.39
+    },
+    {
+        "text": "interference here and we end up with a",
+        "start": 657.93,
+        "duration": 3.9
+    },
+    {
+        "text": "can extra light signal hitting that",
+        "start": 659.46,
+        "duration": 4.26
+    },
+    {
+        "text": "monitor photo diode in the back of the",
+        "start": 661.83,
+        "duration": 5.07
+    },
+    {
+        "text": "package but if we move the object",
+        "start": 663.72,
+        "duration": 4.44
+    },
+    {
+        "text": "one-half wave one",
+        "start": 666.9,
+        "duration": 3.78
+    },
+    {
+        "text": "toward or away from us now the thing is",
+        "start": 668.16,
+        "duration": 5.46
+    },
+    {
+        "text": "impacting at a lower part of the wave",
+        "start": 670.68,
+        "duration": 5.219
+    },
+    {
+        "text": "form and when it reflects back we get",
+        "start": 673.62,
+        "duration": 4.35
+    },
+    {
+        "text": "destructive interference back here and",
+        "start": 675.899,
+        "duration": 4.68
+    },
+    {
+        "text": "the light experienced by that monitor",
+        "start": 677.97,
+        "duration": 5.669
+    },
+    {
+        "text": "photo diode will be less so that if we",
+        "start": 680.579,
+        "duration": 4.771
+    },
+    {
+        "text": "have a thing moving back and forth here",
+        "start": 683.639,
+        "duration": 3.75
+    },
+    {
+        "text": "it's constantly crossing the waves of",
+        "start": 685.35,
+        "duration": 4.469
+    },
+    {
+        "text": "light and every time it moves a half",
+        "start": 687.389,
+        "duration": 4.74
+    },
+    {
+        "text": "wavelength we get a half cycle of output",
+        "start": 689.819,
+        "duration": 4.83
+    },
+    {
+        "text": "on that monitor photo diode this is",
+        "start": 692.129,
+        "duration": 4.861
+    },
+    {
+        "text": "basically an interferometer it's just",
+        "start": 694.649,
+        "duration": 4.321
+    },
+    {
+        "text": "built with no extra components basically",
+        "start": 696.99,
+        "duration": 4.26
+    },
+    {
+        "text": "the diode is doing the mixing for us",
+        "start": 698.97,
+        "duration": 3.809
+    },
+    {
+        "text": "which is why it's called a self mixing",
+        "start": 701.25,
+        "duration": 6.24
+    },
+    {
+        "text": "interferometer so if we look at the",
+        "start": 702.779,
+        "duration": 6.271
+    },
+    {
+        "text": "waveform on the oscilloscope we can",
+        "start": 707.49,
+        "duration": 3.18
+    },
+    {
+        "text": "actually say quite a lot about what the",
+        "start": 709.05,
+        "duration": 3.87
+    },
+    {
+        "text": "speaker is doing I'll stop this just so",
+        "start": 710.67,
+        "duration": 4.38
+    },
+    {
+        "text": "we can get a close look at it as the",
+        "start": 712.92,
+        "duration": 3.719
+    },
+    {
+        "text": "speaker moves up and down in this",
+        "start": 715.05,
+        "duration": 3.839
+    },
+    {
+        "text": "sinusoidal fashion we can actually count",
+        "start": 716.639,
+        "duration": 4.771
+    },
+    {
+        "text": "the number of waveforms the number of",
+        "start": 718.889,
+        "duration": 3.361
+    },
+    {
+        "text": "constructive and destructive",
+        "start": 721.41,
+        "duration": 3.39
+    },
+    {
+        "text": "interference events that that photodiode",
+        "start": 722.25,
+        "duration": 4.5
+    },
+    {
+        "text": "is witnessing and since we know the",
+        "start": 724.8,
+        "duration": 3.599
+    },
+    {
+        "text": "wavelength of the laser light is about",
+        "start": 726.75,
+        "duration": 4.589
+    },
+    {
+        "text": "650 nanometers every time we see one of",
+        "start": 728.399,
+        "duration": 4.141
+    },
+    {
+        "text": "these Peaks that means another",
+        "start": 731.339,
+        "duration": 4.471
+    },
+    {
+        "text": "wavelength has has gone by right so if",
+        "start": 732.54,
+        "duration": 4.71
+    },
+    {
+        "text": "we count this up and let's just say it's",
+        "start": 735.81,
+        "duration": 4.019
+    },
+    {
+        "text": "about 10 then we know that it's 10 times",
+        "start": 737.25,
+        "duration": 5.459
+    },
+    {
+        "text": "650 nanometers or about six and a half",
+        "start": 739.829,
+        "duration": 5.07
+    },
+    {
+        "text": "microns of movement that the speaker is",
+        "start": 742.709,
+        "duration": 4.711
+    },
+    {
+        "text": "undergoing at this Drive strength so to",
+        "start": 744.899,
+        "duration": 4.56
+    },
+    {
+        "text": "test our assertion let's try changing",
+        "start": 747.42,
+        "duration": 5.19
+    },
+    {
+        "text": "the amplitude of the speaker so I'm",
+        "start": 749.459,
+        "duration": 5.281
+    },
+    {
+        "text": "going to change the amplitude here and",
+        "start": 752.61,
+        "duration": 4.709
+    },
+    {
+        "text": "I'm gonna go down so you can see that",
+        "start": 754.74,
+        "duration": 5.73
+    },
+    {
+        "text": "the yellow trace now has less amplitude",
+        "start": 757.319,
+        "duration": 4.981
+    },
+    {
+        "text": "and sure enough now we're only getting",
+        "start": 760.47,
+        "duration": 4.559
+    },
+    {
+        "text": "about four peaks of constructive and",
+        "start": 762.3,
+        "duration": 4.62
+    },
+    {
+        "text": "destructive interference between these",
+        "start": 765.029,
+        "duration": 4.471
+    },
+    {
+        "text": "spots where it turns around so now I'll",
+        "start": 766.92,
+        "duration": 5.43
+    },
+    {
+        "text": "head back up in amplitude now we're at",
+        "start": 769.5,
+        "duration": 5.309
+    },
+    {
+        "text": "500 millivolts peak peak and I'll keep",
+        "start": 772.35,
+        "duration": 5.76
+    },
+    {
+        "text": "going now we have a whole ton of them in",
+        "start": 774.809,
+        "duration": 4.83
+    },
+    {
+        "text": "here and so if we stopped and actually",
+        "start": 778.11,
+        "duration": 3.63
+    },
+    {
+        "text": "counted this carefully we could say at",
+        "start": 779.639,
+        "duration": 3.81
+    },
+    {
+        "text": "this drive strength which is 800",
+        "start": 781.74,
+        "duration": 4.49
+    },
+    {
+        "text": "millivolts peak peak there's way more",
+        "start": 783.449,
+        "duration": 5.25
+    },
+    {
+        "text": "Peaks to count and hence the speaker is",
+        "start": 786.23,
+        "duration": 3.82
+    },
+    {
+        "text": "moving further and that makes sense",
+        "start": 788.699,
+        "duration": 3.031
+    },
+    {
+        "text": "because we're driving it at a higher",
+        "start": 790.05,
+        "duration": 4.38
+    },
+    {
+        "text": "strength let's try a few other things",
+        "start": 791.73,
+        "duration": 5.099
+    },
+    {
+        "text": "I'll go back down in amplitude and now",
+        "start": 794.43,
+        "duration": 7.36
+    },
+    {
+        "text": "I'm going to give it a ramp waveform",
+        "start": 796.829,
+        "duration": 7.641
+    },
+    {
+        "text": "let's take a look at this ramp waveform",
+        "start": 801.79,
+        "duration": 5.08
+    },
+    {
+        "text": "so I've got the symmetry not quite 50",
+        "start": 804.47,
+        "duration": 4.47
+    },
+    {
+        "text": "percent so it's kind of slower here and",
+        "start": 806.87,
+        "duration": 3.99
+    },
+    {
+        "text": "then faster here so the speaker is gonna",
+        "start": 808.94,
+        "duration": 4.05
+    },
+    {
+        "text": "have to move more quickly here to cover",
+        "start": 810.86,
+        "duration": 4.47
+    },
+    {
+        "text": "that same amount of distance and you can",
+        "start": 812.99,
+        "duration": 3.87
+    },
+    {
+        "text": "see if you squint at it yeah it looks",
+        "start": 815.33,
+        "duration": 3.48
+    },
+    {
+        "text": "like there's sort of less waveform going",
+        "start": 816.86,
+        "duration": 3.45
+    },
+    {
+        "text": "on here and a little bit of a denser",
+        "start": 818.81,
+        "duration": 5.04
+    },
+    {
+        "text": "waveform here let me make the symmetry",
+        "start": 820.31,
+        "duration": 7.14
+    },
+    {
+        "text": "even more lopsided so you can see now",
+        "start": 823.85,
+        "duration": 5.43
+    },
+    {
+        "text": "definitely the wave Peaks are further",
+        "start": 827.45,
+        "duration": 3.78
+    },
+    {
+        "text": "apart in here and they're closer",
+        "start": 829.28,
+        "duration": 3.24
+    },
+    {
+        "text": "together in here but something",
+        "start": 831.23,
+        "duration": 3.84
+    },
+    {
+        "text": "interesting happens if we keep going so",
+        "start": 832.52,
+        "duration": 5.45
+    },
+    {
+        "text": "if I make this waveform really lopsided",
+        "start": 835.07,
+        "duration": 5.79
+    },
+    {
+        "text": "it actually starts oscillating if the",
+        "start": 837.97,
+        "duration": 5.74
+    },
+    {
+        "text": "speaker itself is now being rung like a",
+        "start": 840.86,
+        "duration": 4.92
+    },
+    {
+        "text": "bell right so this this slope here is",
+        "start": 843.71,
+        "duration": 3.9
+    },
+    {
+        "text": "sharp enough where it causes the speaker",
+        "start": 845.78,
+        "duration": 3.87
+    },
+    {
+        "text": "to start wiggling on its own accord and",
+        "start": 847.61,
+        "duration": 4.5
+    },
+    {
+        "text": "we're actually seeing that in the",
+        "start": 849.65,
+        "duration": 4.35
+    },
+    {
+        "text": "interferogram here of whatever the",
+        "start": 852.11,
+        "duration": 4.29
+    },
+    {
+        "text": "information from this interferometer we",
+        "start": 854.0,
+        "duration": 4.26
+    },
+    {
+        "text": "can even see it in here too right",
+        "start": 856.4,
+        "duration": 3.51
+    },
+    {
+        "text": "so as the thing is ringing we can",
+        "start": 858.26,
+        "duration": 3.87
+    },
+    {
+        "text": "actually read that ringing signal with",
+        "start": 859.91,
+        "duration": 6.27
+    },
+    {
+        "text": "this laser interferer interferometer if",
+        "start": 862.13,
+        "duration": 5.97
+    },
+    {
+        "text": "I bring the signal back down closer to",
+        "start": 866.18,
+        "duration": 4.44
+    },
+    {
+        "text": "symmetry we can see even before there's",
+        "start": 868.1,
+        "duration": 4.11
+    },
+    {
+        "text": "ringing in the electrical signal we can",
+        "start": 870.62,
+        "duration": 3.15
+    },
+    {
+        "text": "actually detect it with the",
+        "start": 872.21,
+        "duration": 6.21
+    },
+    {
+        "text": "interferometer back to the sine wave",
+        "start": 873.77,
+        "duration": 6.78
+    },
+    {
+        "text": "everything is nice and controlled and if",
+        "start": 878.42,
+        "duration": 6.42
+    },
+    {
+        "text": "I change the frequency here the distance",
+        "start": 880.55,
+        "duration": 6.45
+    },
+    {
+        "text": "that it covers so the number of Peaks",
+        "start": 884.84,
+        "duration": 3.54
+    },
+    {
+        "text": "that we'll get is actually the same",
+        "start": 887.0,
+        "duration": 3.54
+    },
+    {
+        "text": "because the amplitude is the same it's",
+        "start": 888.38,
+        "duration": 4.5
+    },
+    {
+        "text": "just they get further apart right so the",
+        "start": 890.54,
+        "duration": 4.86
+    },
+    {
+        "text": "actual number of interference peaks",
+        "start": 892.88,
+        "duration": 4.41
+    },
+    {
+        "text": "between the top and bottom of the drive",
+        "start": 895.4,
+        "duration": 3.39
+    },
+    {
+        "text": "signal should be the same they'll just",
+        "start": 897.29,
+        "duration": 3.87
+    },
+    {
+        "text": "be spread out more in time so if we go",
+        "start": 898.79,
+        "duration": 4.2
+    },
+    {
+        "text": "higher and higher it's still the same",
+        "start": 901.16,
+        "duration": 2.79
+    },
+    {
+        "text": "Peaks now that they're getting",
+        "start": 902.99,
+        "duration": 3.75
+    },
+    {
+        "text": "compressed together so the amplitude of",
+        "start": 903.95,
+        "duration": 4.29
+    },
+    {
+        "text": "this signal actually doesn't tell us",
+        "start": 906.74,
+        "duration": 4.5
+    },
+    {
+        "text": "much of anything it's really the number",
+        "start": 908.24,
+        "duration": 5.16
+    },
+    {
+        "text": "of peaks and there's actually something",
+        "start": 911.24,
+        "duration": 4.02
+    },
+    {
+        "text": "else that's interesting here that we can",
+        "start": 913.4,
+        "duration": 3.75
+    },
+    {
+        "text": "check out if I change the speed back",
+        "start": 915.26,
+        "duration": 6.32
+    },
+    {
+        "text": "down again and I'll stop the scope",
+        "start": 917.15,
+        "duration": 7.38
+    },
+    {
+        "text": "notice that the peaks are actually not",
+        "start": 921.58,
+        "duration": 5.47
+    },
+    {
+        "text": "symmetric so when the speaker is moving",
+        "start": 924.53,
+        "duration": 5.19
+    },
+    {
+        "text": "toward the laser diode the shape of this",
+        "start": 927.05,
+        "duration": 4.38
+    },
+    {
+        "text": "waveform is different than when it's",
+        "start": 929.72,
+        "duration": 4.29
+    },
+    {
+        "text": "moving away from the laser diode this is",
+        "start": 931.43,
+        "duration": 3.42
+    },
+    {
+        "text": "not an ax",
+        "start": 934.01,
+        "duration": 2.069
+    },
+    {
+        "text": "and actually there's something very",
+        "start": 934.85,
+        "duration": 2.82
+    },
+    {
+        "text": "interesting going on with the physics",
+        "start": 936.079,
+        "duration": 3.57
+    },
+    {
+        "text": "here that allow us to infer the",
+        "start": 937.67,
+        "duration": 3.93
+    },
+    {
+        "text": "directionality of the movement in",
+        "start": 939.649,
+        "duration": 4.471
+    },
+    {
+        "text": "addition to the the movement itself",
+        "start": 941.6,
+        "duration": 4.77
+    },
+    {
+        "text": "pretty cool I'll link to the paper that",
+        "start": 944.12,
+        "duration": 3.69
+    },
+    {
+        "text": "covers all this because the physics is",
+        "start": 946.37,
+        "duration": 4.649
+    },
+    {
+        "text": "slightly over my head I should point out",
+        "start": 947.81,
+        "duration": 6.329
+    },
+    {
+        "text": "though that this is a very very",
+        "start": 951.019,
+        "duration": 5.731
+    },
+    {
+        "text": "sensitive system so the exact drive",
+        "start": 954.139,
+        "duration": 4.68
+    },
+    {
+        "text": "current going into the diode matters the",
+        "start": 956.75,
+        "duration": 5.25
+    },
+    {
+        "text": "exact temperature matters the the type",
+        "start": 958.819,
+        "duration": 4.71
+    },
+    {
+        "text": "of movements that it can measure are",
+        "start": 962.0,
+        "duration": 3.089
+    },
+    {
+        "text": "also limit it has to be right in the",
+        "start": 963.529,
+        "duration": 3.75
+    },
+    {
+        "text": "frequency band and we are using a",
+        "start": 965.089,
+        "duration": 3.721
+    },
+    {
+        "text": "retroreflector to sort of increase the",
+        "start": 967.279,
+        "duration": 3.24
+    },
+    {
+        "text": "amount of signal going back end",
+        "start": 968.81,
+        "duration": 3.329
+    },
+    {
+        "text": "nonetheless there's quite a lot of cool",
+        "start": 970.519,
+        "duration": 6.721
+    },
+    {
+        "text": "stuff going on also some of you might be",
+        "start": 972.139,
+        "duration": 6.63
+    },
+    {
+        "text": "wondering why the pattern looks all",
+        "start": 977.24,
+        "duration": 4.2
+    },
+    {
+        "text": "stair-steppy like this we'll talk about",
+        "start": 978.769,
+        "duration": 4.411
+    },
+    {
+        "text": "that a little bit later at the end of",
+        "start": 981.44,
+        "duration": 3.899
+    },
+    {
+        "text": "the video but partially it's because the",
+        "start": 983.18,
+        "duration": 4.5
+    },
+    {
+        "text": "laser itself is responding to the",
+        "start": 985.339,
+        "duration": 5.61
+    },
+    {
+        "text": "interferometer so instead of using a",
+        "start": 987.68,
+        "duration": 5.07
+    },
+    {
+        "text": "monitor photo diode I've heard that it's",
+        "start": 990.949,
+        "duration": 4.021
+    },
+    {
+        "text": "possible to actually use the laser diode",
+        "start": 992.75,
+        "duration": 5.43
+    },
+    {
+        "text": "itself as the sensor so if you very very",
+        "start": 994.97,
+        "duration": 5.25
+    },
+    {
+        "text": "carefully monitor the current going into",
+        "start": 998.18,
+        "duration": 4.409
+    },
+    {
+        "text": "the laser diode and you're shooting",
+        "start": 1000.22,
+        "duration": 4.469
+    },
+    {
+        "text": "laser light back in there it will",
+        "start": 1002.589,
+        "duration": 3.901
+    },
+    {
+        "text": "actually affect the laser diode itself",
+        "start": 1004.689,
+        "duration": 4.14
+    },
+    {
+        "text": "so you in fact don't even necessarily",
+        "start": 1006.49,
+        "duration": 5.01
+    },
+    {
+        "text": "need the monitor photo diode you can",
+        "start": 1008.829,
+        "duration": 4.86
+    },
+    {
+        "text": "actually use the laser diode itself I've",
+        "start": 1011.5,
+        "duration": 4.079
+    },
+    {
+        "text": "tried this myself and didn't have a huge",
+        "start": 1013.689,
+        "duration": 4.59
+    },
+    {
+        "text": "amount of success with it but in the",
+        "start": 1015.579,
+        "duration": 4.471
+    },
+    {
+        "text": "academic literature apparently it is pop",
+        "start": 1018.279,
+        "duration": 3.781
+    },
+    {
+        "text": "possible if you have a high enough gain",
+        "start": 1020.05,
+        "duration": 5.999
+    },
+    {
+        "text": "amplifier let's look at a couple other",
+        "start": 1022.06,
+        "duration": 6.45
+    },
+    {
+        "text": "waveforms quickly with a square wave I",
+        "start": 1026.049,
+        "duration": 4.471
+    },
+    {
+        "text": "can actually hear the speaker now so up",
+        "start": 1028.51,
+        "duration": 3.6
+    },
+    {
+        "text": "until now all the waveforms that we've",
+        "start": 1030.52,
+        "duration": 3.33
+    },
+    {
+        "text": "been looking at to my ears have not been",
+        "start": 1032.11,
+        "duration": 3.15
+    },
+    {
+        "text": "audible and I'll lean in so you can",
+        "start": 1033.85,
+        "duration": 4.859
+    },
+    {
+        "text": "maybe hear this and the reason that we",
+        "start": 1035.26,
+        "duration": 5.039
+    },
+    {
+        "text": "can hear it is because the sharp",
+        "start": 1038.709,
+        "duration": 4.561
+    },
+    {
+        "text": "snapping voltage is actually oscillating",
+        "start": 1040.299,
+        "duration": 4.801
+    },
+    {
+        "text": "the speaker membrane itself and we can",
+        "start": 1043.27,
+        "duration": 3.75
+    },
+    {
+        "text": "actually see that with the trace just",
+        "start": 1045.1,
+        "duration": 4.14
+    },
+    {
+        "text": "like we did with the sawtooth waveform",
+        "start": 1047.02,
+        "duration": 4.44
+    },
+    {
+        "text": "the reason that it's audible is because",
+        "start": 1049.24,
+        "duration": 4.47
+    },
+    {
+        "text": "of this actually this response wiggle",
+        "start": 1051.46,
+        "duration": 4.29
+    },
+    {
+        "text": "it's not necessarily the snap itself and",
+        "start": 1053.71,
+        "duration": 4.23
+    },
+    {
+        "text": "we can see that it rings for a long time",
+        "start": 1055.75,
+        "duration": 4.14
+    },
+    {
+        "text": "and just about here it's finally almost",
+        "start": 1057.94,
+        "duration": 4.109
+    },
+    {
+        "text": "done ringing when it gets snapped again",
+        "start": 1059.89,
+        "duration": 5.58
+    },
+    {
+        "text": "so I can also switch to this kind of a",
+        "start": 1062.049,
+        "duration": 4.76
+    },
+    {
+        "text": "waveform that has a much",
+        "start": 1065.47,
+        "duration": 3.65
+    },
+    {
+        "text": "more gentle slope so I can't hear it",
+        "start": 1066.809,
+        "duration": 4.051
+    },
+    {
+        "text": "anymore because there's less ringing",
+        "start": 1069.12,
+        "duration": 4.019
+    },
+    {
+        "text": "going on and it's pretty much down to",
+        "start": 1070.86,
+        "duration": 6.48
+    },
+    {
+        "text": "almost no movement remember that one",
+        "start": 1073.139,
+        "duration": 7.591
+    },
+    {
+        "text": "interference peak is 650 nanometers so",
+        "start": 1077.34,
+        "duration": 5.64
+    },
+    {
+        "text": "the chance that this set up I've got",
+        "start": 1080.73,
+        "duration": 3.84
+    },
+    {
+        "text": "with the alligator clip holding a laser",
+        "start": 1082.98,
+        "duration": 3.809
+    },
+    {
+        "text": "diode and everything I it's reasonable",
+        "start": 1084.57,
+        "duration": 4.38
+    },
+    {
+        "text": "to assume that just air currents are",
+        "start": 1086.789,
+        "duration": 5.901
+    },
+    {
+        "text": "causing it to shift by 650 nano meter",
+        "start": 1088.95,
+        "duration": 6.51
+    },
+    {
+        "text": "this setup can also measure constant",
+        "start": 1092.69,
+        "duration": 4.66
+    },
+    {
+        "text": "velocity not just oscillating things",
+        "start": 1095.46,
+        "duration": 4.169
+    },
+    {
+        "text": "like speaker cones and so in this setup",
+        "start": 1097.35,
+        "duration": 3.84
+    },
+    {
+        "text": "I've got a motor here with the shaft",
+        "start": 1099.629,
+        "duration": 4.05
+    },
+    {
+        "text": "wrapped in retro reflective tape and",
+        "start": 1101.19,
+        "duration": 4.05
+    },
+    {
+        "text": "what I'm gonna do is use the laser beam",
+        "start": 1103.679,
+        "duration": 3.6
+    },
+    {
+        "text": "to just gray as the side of the motor",
+        "start": 1105.24,
+        "duration": 4.23
+    },
+    {
+        "text": "shaft so that as it's spinning that",
+        "start": 1107.279,
+        "duration": 4.35
+    },
+    {
+        "text": "piece of retro reflective tape will sort",
+        "start": 1109.47,
+        "duration": 4.409
+    },
+    {
+        "text": "of constantly be moving toward the laser",
+        "start": 1111.629,
+        "duration": 3.93
+    },
+    {
+        "text": "diode or away from it when we switch",
+        "start": 1113.879,
+        "duration": 4.38
+    },
+    {
+        "text": "directions and this should give us a",
+        "start": 1115.559,
+        "duration": 4.23
+    },
+    {
+        "text": "constant signal so let's check the",
+        "start": 1118.259,
+        "duration": 4.04
+    },
+    {
+        "text": "oscilloscope again and I'm going to use",
+        "start": 1119.789,
+        "duration": 5.911
+    },
+    {
+        "text": "a variable power supply so that I can",
+        "start": 1122.299,
+        "duration": 4.661
+    },
+    {
+        "text": "change the speed of the motor very",
+        "start": 1125.7,
+        "duration": 2.64
+    },
+    {
+        "text": "finely so let's check out the scope",
+        "start": 1126.96,
+        "duration": 5.28
+    },
+    {
+        "text": "again okay so now the signal looks",
+        "start": 1128.34,
+        "duration": 5.64
+    },
+    {
+        "text": "pretty hectic because the speed is",
+        "start": 1132.24,
+        "duration": 3.99
+    },
+    {
+        "text": "relatively high before we had that",
+        "start": 1133.98,
+        "duration": 4.199
+    },
+    {
+        "text": "speaker cone that was moving just you",
+        "start": 1136.23,
+        "duration": 4.829
+    },
+    {
+        "text": "know six microns in the span at sixty",
+        "start": 1138.179,
+        "duration": 4.83
+    },
+    {
+        "text": "Hertz or something which is a pretty low",
+        "start": 1141.059,
+        "duration": 4.651
+    },
+    {
+        "text": "linear velocity but now at the edge of",
+        "start": 1143.009,
+        "duration": 4.53
+    },
+    {
+        "text": "that motor shaft things are much faster",
+        "start": 1145.71,
+        "duration": 3.659
+    },
+    {
+        "text": "so the frequency that we would expect to",
+        "start": 1147.539,
+        "duration": 4.14
+    },
+    {
+        "text": "see here is much higher so we could zoom",
+        "start": 1149.369,
+        "duration": 4.44
+    },
+    {
+        "text": "in and look at this kind of wave by a",
+        "start": 1151.679,
+        "duration": 4.021
+    },
+    {
+        "text": "wave but there's an easier way to do it",
+        "start": 1153.809,
+        "duration": 5.551
+    },
+    {
+        "text": "we'll use an FFT on the scope to take a",
+        "start": 1155.7,
+        "duration": 5.699
+    },
+    {
+        "text": "look at where the where the most energy",
+        "start": 1159.36,
+        "duration": 4.799
+    },
+    {
+        "text": "is for this signal and it's clipping",
+        "start": 1161.399,
+        "duration": 4.441
+    },
+    {
+        "text": "here because we've got so much signal we",
+        "start": 1164.159,
+        "duration": 3.24
+    },
+    {
+        "text": "actually have to turn things down so I",
+        "start": 1165.84,
+        "duration": 6.089
+    },
+    {
+        "text": "will turn this down a little bit okay",
+        "start": 1167.399,
+        "duration": 12.12
+    },
+    {
+        "text": "a little bit more okay so now the FFT is",
+        "start": 1171.929,
+        "duration": 8.88
+    },
+    {
+        "text": "showing us where there's the most",
+        "start": 1179.519,
+        "duration": 2.91
+    },
+    {
+        "text": "frequency and don't worry about the",
+        "start": 1180.809,
+        "duration": 4.021
+    },
+    {
+        "text": "roll-off this is actually mostly due to",
+        "start": 1182.429,
+        "duration": 3.99
+    },
+    {
+        "text": "the amplifier that I'm using and just",
+        "start": 1184.83,
+        "duration": 6.12
+    },
+    {
+        "text": "noise in general so if I move this the",
+        "start": 1186.419,
+        "duration": 6.931
+    },
+    {
+        "text": "motor out of the path of the laser beam",
+        "start": 1190.95,
+        "duration": 4.709
+    },
+    {
+        "text": "we saw that peak just went away in here",
+        "start": 1193.35,
+        "duration": 3.87
+    },
+    {
+        "text": "and try to ignore all these little other",
+        "start": 1195.659,
+        "duration": 3.27
+    },
+    {
+        "text": "noise Peaks they aren't part of the",
+        "start": 1197.22,
+        "duration": 2.87
+    },
+    {
+        "text": "experiment",
+        "start": 1198.929,
+        "duration": 4.701
+    },
+    {
+        "text": "so if I put the motor back into place we",
+        "start": 1200.09,
+        "duration": 6.39
+    },
+    {
+        "text": "can see that this peak here corresponds",
+        "start": 1203.63,
+        "duration": 4.56
+    },
+    {
+        "text": "to the speed of the motor shaft and I'll",
+        "start": 1206.48,
+        "duration": 3.3
+    },
+    {
+        "text": "prove it to you by changing the speed of",
+        "start": 1208.19,
+        "duration": 3.6
+    },
+    {
+        "text": "the motor you can actually read off the",
+        "start": 1209.78,
+        "duration": 3.3
+    },
+    {
+        "text": "voltage here that we're feeding the",
+        "start": 1211.79,
+        "duration": 6.68
+    },
+    {
+        "text": "motor and so if I slowly turn this down",
+        "start": 1213.08,
+        "duration": 5.39
+    },
+    {
+        "text": "we can see that the peak here starts",
+        "start": 1219.31,
+        "duration": 5.17
+    },
+    {
+        "text": "sliding down the spectrum 10 kilohertz",
+        "start": 1221.72,
+        "duration": 4.71
+    },
+    {
+        "text": "now and we can almost actually see the",
+        "start": 1224.48,
+        "duration": 3.9
+    },
+    {
+        "text": "10 kilohertz here let's see if I can go",
+        "start": 1226.43,
+        "duration": 5.73
+    },
+    {
+        "text": "any slower so we're down to 500",
+        "start": 1228.38,
+        "duration": 5.34
+    },
+    {
+        "text": "millivolts at the motor and there is",
+        "start": 1232.16,
+        "duration": 2.85
+    },
+    {
+        "text": "kind of a peak here and you can actually",
+        "start": 1233.72,
+        "duration": 4.59
+    },
+    {
+        "text": "see the signal the raw signal waves here",
+        "start": 1235.01,
+        "duration": 6.93
+    },
+    {
+        "text": "let's speed up again you can see the",
+        "start": 1238.31,
+        "duration": 5.88
+    },
+    {
+        "text": "voltage is coming up the peak is here",
+        "start": 1241.94,
+        "duration": 6.45
+    },
+    {
+        "text": "I'm gonna keep going up in voltage three",
+        "start": 1244.19,
+        "duration": 6.0
+    },
+    {
+        "text": "and a half volts now the peak is up here",
+        "start": 1248.39,
+        "duration": 7.68
+    },
+    {
+        "text": "100 kilohertz if we keep going you can",
+        "start": 1250.19,
+        "duration": 7.65
+    },
+    {
+        "text": "still see it even though we're falling",
+        "start": 1256.07,
+        "duration": 3.15
+    },
+    {
+        "text": "off into here you can see death",
+        "start": 1257.84,
+        "duration": 3.6
+    },
+    {
+        "text": "definitely still there so now I'm going",
+        "start": 1259.22,
+        "duration": 5.43
+    },
+    {
+        "text": "to move the motor out of the way and you",
+        "start": 1261.44,
+        "duration": 4.8
+    },
+    {
+        "text": "can see that the peak is gone and if we",
+        "start": 1264.65,
+        "duration": 5.31
+    },
+    {
+        "text": "put it back in here there it is again",
+        "start": 1266.24,
+        "duration": 5.9
+    },
+    {
+        "text": "so it's actually a very effective",
+        "start": 1269.96,
+        "duration": 4.83
+    },
+    {
+        "text": "tackler you can aim this at anything",
+        "start": 1272.14,
+        "duration": 5.56
+    },
+    {
+        "text": "that's moving and not only determine its",
+        "start": 1274.79,
+        "duration": 5.91
+    },
+    {
+        "text": "vibration to within 600 nanometer",
+        "start": 1277.7,
+        "duration": 4.8
+    },
+    {
+        "text": "accuracy you can also determine its",
+        "start": 1280.7,
+        "duration": 4.2
+    },
+    {
+        "text": "speed very easily just by looking at the",
+        "start": 1282.5,
+        "duration": 5.55
+    },
+    {
+        "text": "spectrum of a signal coming back there",
+        "start": 1284.9,
+        "duration": 8.34
+    },
+    {
+        "text": "pretty cool ok so I think this is pretty",
+        "start": 1288.05,
+        "duration": 7.02
+    },
+    {
+        "text": "cool but there's actually another trick",
+        "start": 1293.24,
+        "duration": 3.99
+    },
+    {
+        "text": "that we can play wouldn't it be nice if",
+        "start": 1295.07,
+        "duration": 4.14
+    },
+    {
+        "text": "we could use this system to measure the",
+        "start": 1297.23,
+        "duration": 4.35
+    },
+    {
+        "text": "distance from here to here seems almost",
+        "start": 1299.21,
+        "duration": 4.56
+    },
+    {
+        "text": "impossible because this interferometry",
+        "start": 1301.58,
+        "duration": 4.17
+    },
+    {
+        "text": "approach requires some sort of movement",
+        "start": 1303.77,
+        "duration": 4.14
+    },
+    {
+        "text": "to actually get a signal right like no",
+        "start": 1305.75,
+        "duration": 3.81
+    },
+    {
+        "text": "matter where you are in the waveform if",
+        "start": 1307.91,
+        "duration": 3.57
+    },
+    {
+        "text": "this thing isn't moving there's no",
+        "start": 1309.56,
+        "duration": 3.57
+    },
+    {
+        "text": "signal we get so there's no way you can",
+        "start": 1311.48,
+        "duration": 3.78
+    },
+    {
+        "text": "measure an absolute distance with it but",
+        "start": 1313.13,
+        "duration": 5.49
+    },
+    {
+        "text": "there is a way can you think of it what",
+        "start": 1315.26,
+        "duration": 5.43
+    },
+    {
+        "text": "if I told you that changing the current",
+        "start": 1318.62,
+        "duration": 4.59
+    },
+    {
+        "text": "into the photodiode actually shifts the",
+        "start": 1320.69,
+        "duration": 5.13
+    },
+    {
+        "text": "color of the light very slightly it's",
+        "start": 1323.21,
+        "duration": 5.13
+    },
+    {
+        "text": "true and if we modulate the current",
+        "start": 1325.82,
+        "duration": 4.83
+    },
+    {
+        "text": "going into the photodiode it will",
+        "start": 1328.34,
+        "duration": 3.99
+    },
+    {
+        "text": "actually produce light that is very",
+        "start": 1330.65,
+        "duration": 2.97
+    },
+    {
+        "text": "slightly red or very",
+        "start": 1332.33,
+        "duration": 2.88
+    },
+    {
+        "text": "lightly blue depending if we're",
+        "start": 1333.62,
+        "duration": 5.7
+    },
+    {
+        "text": "injecting more or less current so what",
+        "start": 1335.21,
+        "duration": 6.51
+    },
+    {
+        "text": "we can do is feed the laser diode a",
+        "start": 1339.32,
+        "duration": 4.35
+    },
+    {
+        "text": "ramped current waveform so we're",
+        "start": 1341.72,
+        "duration": 3.69
+    },
+    {
+        "text": "constantly increasing the current for a",
+        "start": 1343.67,
+        "duration": 3.45
+    },
+    {
+        "text": "period of time and then resetting and",
+        "start": 1345.41,
+        "duration": 4.17
+    },
+    {
+        "text": "changing the current again and what will",
+        "start": 1347.12,
+        "duration": 4.89
+    },
+    {
+        "text": "happen is if we emit let's say a red",
+        "start": 1349.58,
+        "duration": 5.4
+    },
+    {
+        "text": "photon and it comes out here and bounces",
+        "start": 1352.01,
+        "duration": 5.13
+    },
+    {
+        "text": "off the object by the time the photon is",
+        "start": 1354.98,
+        "duration": 4.41
+    },
+    {
+        "text": "reflected and comes back in we're now",
+        "start": 1357.14,
+        "duration": 4.02
+    },
+    {
+        "text": "feeding the laser diode a different",
+        "start": 1359.39,
+        "duration": 3.54
+    },
+    {
+        "text": "current and hence it's operating at a",
+        "start": 1361.16,
+        "duration": 5.16
+    },
+    {
+        "text": "different frequency so when the photon",
+        "start": 1362.93,
+        "duration": 5.1
+    },
+    {
+        "text": "of a different color comes in it will",
+        "start": 1366.32,
+        "duration": 3.78
+    },
+    {
+        "text": "interfere with the laser diode which is",
+        "start": 1368.03,
+        "duration": 3.69
+    },
+    {
+        "text": "now operating at a different frequency",
+        "start": 1370.1,
+        "duration": 4.05
+    },
+    {
+        "text": "and we'll get a signal out of that right",
+        "start": 1371.72,
+        "duration": 3.93
+    },
+    {
+        "text": "because the whole reason that this",
+        "start": 1374.15,
+        "duration": 3.15
+    },
+    {
+        "text": "interferometry works is because the",
+        "start": 1375.65,
+        "duration": 3.96
+    },
+    {
+        "text": "wavelengths aren't lined up so if the",
+        "start": 1377.3,
+        "duration": 5.52
+    },
+    {
+        "text": "photon is old basically it went out and",
+        "start": 1379.61,
+        "duration": 5.49
+    },
+    {
+        "text": "came back the longer it's spent outside",
+        "start": 1382.82,
+        "duration": 4.38
+    },
+    {
+        "text": "the laser diode if our ramp keeps",
+        "start": 1385.1,
+        "duration": 4.23
+    },
+    {
+        "text": "changing the color of the light varies",
+        "start": 1387.2,
+        "duration": 4.2
+    },
+    {
+        "text": "slightly that means we'll have a bigger",
+        "start": 1389.33,
+        "duration": 5.01
+    },
+    {
+        "text": "shift and so when all this shapes out if",
+        "start": 1391.4,
+        "duration": 5.13
+    },
+    {
+        "text": "we give the laser diode a constant",
+        "start": 1394.34,
+        "duration": 4.41
+    },
+    {
+        "text": "current ramp the further away objects",
+        "start": 1396.53,
+        "duration": 3.93
+    },
+    {
+        "text": "are the more shifted they will be and",
+        "start": 1398.75,
+        "duration": 3.809
+    },
+    {
+        "text": "we'll get more interferometric signal",
+        "start": 1400.46,
+        "duration": 4.92
+    },
+    {
+        "text": "pretty cool now this is not an easy",
+        "start": 1402.559,
+        "duration": 4.261
+    },
+    {
+        "text": "thing to get going so I'm going to set",
+        "start": 1405.38,
+        "duration": 4.049
+    },
+    {
+        "text": "up the test setup here we're gonna use",
+        "start": 1406.82,
+        "duration": 4.77
+    },
+    {
+        "text": "the we're gonna use channel 2 on the",
+        "start": 1409.429,
+        "duration": 4.921
+    },
+    {
+        "text": "function generator to send a 520 Hertz",
+        "start": 1411.59,
+        "duration": 6.15
+    },
+    {
+        "text": "sine wave into the photodiode and it's",
+        "start": 1414.35,
+        "duration": 6.2
+    },
+    {
+        "text": "going to be set up kind of like this so",
+        "start": 1417.74,
+        "duration": 5.73
+    },
+    {
+        "text": "we've got most of the current coming",
+        "start": 1420.55,
+        "duration": 5.379
+    },
+    {
+        "text": "from the source measurement unit into",
+        "start": 1423.47,
+        "duration": 4.32
+    },
+    {
+        "text": "the laser diode and then I've got a",
+        "start": 1425.929,
+        "duration": 5.671
+    },
+    {
+        "text": "capacitor here coupling in the function",
+        "start": 1427.79,
+        "duration": 5.91
+    },
+    {
+        "text": "generator and it's like a 500 Hertz",
+        "start": 1431.6,
+        "duration": 4.68
+    },
+    {
+        "text": "signal at 30 millivolts so this little",
+        "start": 1433.7,
+        "duration": 4.2
+    },
+    {
+        "text": "bit of current ripple will go in and",
+        "start": 1436.28,
+        "duration": 3.84
+    },
+    {
+        "text": "modulate the laser diode and then we'll",
+        "start": 1437.9,
+        "duration": 3.69
+    },
+    {
+        "text": "use the same setup to look at it on the",
+        "start": 1440.12,
+        "duration": 5.49
+    },
+    {
+        "text": "scope for the physical setup what I'll",
+        "start": 1441.59,
+        "duration": 5.52
+    },
+    {
+        "text": "do is put the card with the retro",
+        "start": 1445.61,
+        "duration": 3.99
+    },
+    {
+        "text": "reflector on the table here and we'll",
+        "start": 1447.11,
+        "duration": 3.93
+    },
+    {
+        "text": "look at it on the scope and see what",
+        "start": 1449.6,
+        "duration": 3.03
+    },
+    {
+        "text": "kind of signal it's producing and then",
+        "start": 1451.04,
+        "duration": 4.019
+    },
+    {
+        "text": "to shift into a closer object I'm going",
+        "start": 1452.63,
+        "duration": 4.89
+    },
+    {
+        "text": "to slide this block in that also has a",
+        "start": 1455.059,
+        "duration": 4.201
+    },
+    {
+        "text": "retro reflective sticker so we can kind",
+        "start": 1457.52,
+        "duration": 3.72
+    },
+    {
+        "text": "of slide this in and out to get a",
+        "start": 1459.26,
+        "duration": 4.05
+    },
+    {
+        "text": "distance of about you know 2 centimeter",
+        "start": 1461.24,
+        "duration": 4.2
+    },
+    {
+        "text": "distance change so we'll see what that",
+        "start": 1463.31,
+        "duration": 3.36
+    },
+    {
+        "text": "looks like",
+        "start": 1465.44,
+        "duration": 3.24
+    },
+    {
+        "text": "okay this setup is a little bit finicky",
+        "start": 1466.67,
+        "duration": 4.29
+    },
+    {
+        "text": "but I think it proves the point shows",
+        "start": 1468.68,
+        "duration": 4.2
+    },
+    {
+        "text": "that this is possible the turquoise",
+        "start": 1470.96,
+        "duration": 4.59
+    },
+    {
+        "text": "trace shows the current injection from",
+        "start": 1472.88,
+        "duration": 4.11
+    },
+    {
+        "text": "the signal and generator so we're",
+        "start": 1475.55,
+        "duration": 2.82
+    },
+    {
+        "text": "running at about five hundred and twenty",
+        "start": 1476.99,
+        "duration": 3.87
+    },
+    {
+        "text": "Hertz and at the photodiode we're",
+        "start": 1478.37,
+        "duration": 4.65
+    },
+    {
+        "text": "getting a plus minus five millivolt bust",
+        "start": 1480.86,
+        "duration": 5.76
+    },
+    {
+        "text": "here and since the main amount of power",
+        "start": 1483.02,
+        "duration": 5.1
+    },
+    {
+        "text": "is coming from the source measurement",
+        "start": 1486.62,
+        "duration": 3.87
+    },
+    {
+        "text": "unit and this is trying to supply a",
+        "start": 1488.12,
+        "duration": 3.66
+    },
+    {
+        "text": "constant voltage and this is",
+        "start": 1490.49,
+        "duration": 2.82
+    },
+    {
+        "text": "superimposed on top we can actually",
+        "start": 1491.78,
+        "duration": 5.43
+    },
+    {
+        "text": "check the the current coming out of the",
+        "start": 1493.31,
+        "duration": 5.13
+    },
+    {
+        "text": "measurement unit and see that that's",
+        "start": 1497.21,
+        "duration": 3.0
+    },
+    {
+        "text": "actually sinusoidal which makes sense",
+        "start": 1498.44,
+        "duration": 4.68
+    },
+    {
+        "text": "because we're altering it here and this",
+        "start": 1500.21,
+        "duration": 4.89
+    },
+    {
+        "text": "thing is just trying to supply a",
+        "start": 1503.12,
+        "duration": 3.54
+    },
+    {
+        "text": "constant voltage so it notices the",
+        "start": 1505.1,
+        "duration": 3.06
+    },
+    {
+        "text": "current keeps changing which is correct",
+        "start": 1506.66,
+        "duration": 5.1
+    },
+    {
+        "text": "and then the turk or the pink trace is",
+        "start": 1508.16,
+        "duration": 5.55
+    },
+    {
+        "text": "coming from the monitor photo diode and",
+        "start": 1511.76,
+        "duration": 4.41
+    },
+    {
+        "text": "it's not surprising that that also has a",
+        "start": 1513.71,
+        "duration": 3.93
+    },
+    {
+        "text": "sinusoidal shape right because we're",
+        "start": 1516.17,
+        "duration": 2.49
+    },
+    {
+        "text": "making the photodiode",
+        "start": 1517.64,
+        "duration": 3.21
+    },
+    {
+        "text": "or making a laser diode brighter and",
+        "start": 1518.66,
+        "duration": 4.47
+    },
+    {
+        "text": "dimmer at this rate so you know",
+        "start": 1520.85,
+        "duration": 3.99
+    },
+    {
+        "text": "necessarily we're gonna see that change",
+        "start": 1523.13,
+        "duration": 3.81
+    },
+    {
+        "text": "but there's actually another signal",
+        "start": 1524.84,
+        "duration": 4.74
+    },
+    {
+        "text": "superimposed on top here notice that the",
+        "start": 1526.94,
+        "duration": 4.65
+    },
+    {
+        "text": "waveform is nice and jagged like this",
+        "start": 1529.58,
+        "duration": 3.93
+    },
+    {
+        "text": "and it's true that the signal is",
+        "start": 1531.59,
+        "duration": 3.75
+    },
+    {
+        "text": "sometimes hard to catch it's a little",
+        "start": 1533.51,
+        "duration": 3.72
+    },
+    {
+        "text": "bit hard to pick out but you can see",
+        "start": 1535.34,
+        "duration": 4.02
+    },
+    {
+        "text": "that it looks stair-steppy so instead of",
+        "start": 1537.23,
+        "duration": 3.93
+    },
+    {
+        "text": "being nice and smooth it has this really",
+        "start": 1539.36,
+        "duration": 4.11
+    },
+    {
+        "text": "chunky pattern to it and those chunks",
+        "start": 1541.16,
+        "duration": 4.05
+    },
+    {
+        "text": "are actually the interference waves that",
+        "start": 1543.47,
+        "duration": 3.84
+    },
+    {
+        "text": "I was talking about that only occur on",
+        "start": 1545.21,
+        "duration": 5.13
+    },
+    {
+        "text": "the slope so if we turn off the current",
+        "start": 1547.31,
+        "duration": 4.22
+    },
+    {
+        "text": "modulation",
+        "start": 1550.34,
+        "duration": 3.54
+    },
+    {
+        "text": "although stair-step enus goes away",
+        "start": 1551.53,
+        "duration": 3.94
+    },
+    {
+        "text": "there's still a little bit going on here",
+        "start": 1553.88,
+        "duration": 3.87
+    },
+    {
+        "text": "from just vibrations in the table but",
+        "start": 1555.47,
+        "duration": 4.95
+    },
+    {
+        "text": "when we turn on this additional waveform",
+        "start": 1557.75,
+        "duration": 4.26
+    },
+    {
+        "text": "we see this very regular pattern of",
+        "start": 1560.42,
+        "duration": 4.22
+    },
+    {
+        "text": "stair-stepping and so what I'll do is",
+        "start": 1562.01,
+        "duration": 4.83
+    },
+    {
+        "text": "make a copy of it will count the",
+        "start": 1564.64,
+        "duration": 4.27
+    },
+    {
+        "text": "Stairsteps there's about four steps on",
+        "start": 1566.84,
+        "duration": 4.95
+    },
+    {
+        "text": "each one of these up-and-down parts of",
+        "start": 1568.91,
+        "duration": 6.45
+    },
+    {
+        "text": "the wave and this shows a little bit of",
+        "start": 1571.79,
+        "duration": 5.1
+    },
+    {
+        "text": "a cleaner waveform that I captured just",
+        "start": 1575.36,
+        "duration": 3.03
+    },
+    {
+        "text": "a minute ago but it's about four",
+        "start": 1576.89,
+        "duration": 3.99
+    },
+    {
+        "text": "Stairsteps so we'll get that running and",
+        "start": 1578.39,
+        "duration": 6.54
+    },
+    {
+        "text": "now I'm going to slide in a much closer",
+        "start": 1580.88,
+        "duration": 6.09
+    },
+    {
+        "text": "pattern so we moved up about half the",
+        "start": 1584.93,
+        "duration": 4.35
+    },
+    {
+        "text": "distance toward the photodiode and look",
+        "start": 1586.97,
+        "duration": 4.5
+    },
+    {
+        "text": "what happened now there's only one stair",
+        "start": 1589.28,
+        "duration": 5.25
+    },
+    {
+        "text": "step between here and here for this",
+        "start": 1591.47,
+        "duration": 6.0
+    },
+    {
+        "text": "given slew rate and the way that the",
+        "start": 1594.53,
+        "duration": 4.41
+    },
+    {
+        "text": "whole thing is set up and how much the",
+        "start": 1597.47,
+        "duration": 3.08
+    },
+    {
+        "text": "frequency changes which is",
+        "start": 1598.94,
+        "duration": 3.05
+    },
+    {
+        "text": "depending on current which is a",
+        "start": 1600.55,
+        "duration": 3.6
+    },
+    {
+        "text": "characteristic at the laser diode now",
+        "start": 1601.99,
+        "duration": 3.42
+    },
+    {
+        "text": "we're only getting one wave of",
+        "start": 1604.15,
+        "duration": 3.84
+    },
+    {
+        "text": "interference as opposed to four waves of",
+        "start": 1605.41,
+        "duration": 5.4
+    },
+    {
+        "text": "interference for this whole setup so the",
+        "start": 1607.99,
+        "duration": 5.25
+    },
+    {
+        "text": "the technique is sound it requires quite",
+        "start": 1610.81,
+        "duration": 4.47
+    },
+    {
+        "text": "a bit of calibration and setup to use it",
+        "start": 1613.24,
+        "duration": 4.5
+    },
+    {
+        "text": "and the other downside is that if this",
+        "start": 1615.28,
+        "duration": 4.02
+    },
+    {
+        "text": "thing is running and I tap on the table",
+        "start": 1617.74,
+        "duration": 4.74
+    },
+    {
+        "text": "the table noise I mean just just tapping",
+        "start": 1619.3,
+        "duration": 4.83
+    },
+    {
+        "text": "the table like this produces a whole lot",
+        "start": 1622.48,
+        "duration": 4.23
+    },
+    {
+        "text": "more signal than this very sensitive",
+        "start": 1624.13,
+        "duration": 5.88
+    },
+    {
+        "text": "single stair-step kind of a deal so the",
+        "start": 1626.71,
+        "duration": 7.08
+    },
+    {
+        "text": "technique requires a fair bit of signal",
+        "start": 1630.01,
+        "duration": 6.21
+    },
+    {
+        "text": "massaging and sort of compensation to be",
+        "start": 1633.79,
+        "duration": 4.11
+    },
+    {
+        "text": "useful which is why typically this is",
+        "start": 1636.22,
+        "duration": 3.48
+    },
+    {
+        "text": "not used in fact in industry very much",
+        "start": 1637.9,
+        "duration": 3.78
+    },
+    {
+        "text": "but it is a pretty cool technique",
+        "start": 1639.7,
+        "duration": 5.19
+    },
+    {
+        "text": "nonetheless being able to extract you",
+        "start": 1641.68,
+        "duration": 5.31
+    },
+    {
+        "text": "know submicron vibration information",
+        "start": 1644.89,
+        "duration": 4.53
+    },
+    {
+        "text": "distance information and speed",
+        "start": 1646.99,
+        "duration": 3.3
+    },
+    {
+        "text": "information",
+        "start": 1649.42,
+        "duration": 3.18
+    },
+    {
+        "text": "all from one laser diode without really",
+        "start": 1650.29,
+        "duration": 5.88
+    },
+    {
+        "text": "any external components pretty cool okay",
+        "start": 1652.6,
+        "duration": 5.34
+    },
+    {
+        "text": "well I hope you enjoyed that and I will",
+        "start": 1656.17,
+        "duration": 5.18
+    },
+    {
+        "text": "see you next time bye",
+        "start": 1657.94,
+        "duration": 3.41
+    }
+]

@@ -1,0 +1,557 @@
+[
+    {
+        "text": "Thanks to Brilliant for supporting this episode\nof SciShow.",
+        "start": 0.0,
+        "duration": 2.08
+    },
+    {
+        "text": "Go to Brilliant.org/SciShow if you’re interested\nin investing in your STEM skills this year.",
+        "start": 2.08,
+        "duration": 5.06
+    },
+    {
+        "text": "♪♪♪",
+        "start": 7.3,
+        "duration": 1.56
+    },
+    {
+        "text": "Think about the last time you checked your\ncredit card balance or how much money you had in the bank.",
+        "start": 8.9,
+        "duration": 6.51
+    },
+    {
+        "text": "You probably had to put in your password,\nwhich -- if you picked a good one! --",
+        "start": 15.41,
+        "duration": 3.98
+    },
+    {
+        "text": "ensures that only you and your bank know how to access\nyour bank accounts.",
+        "start": 19.39,
+        "duration": 3.17
+    },
+    {
+        "text": "But what if, no matter how strong your password,\na hacker could crack it just as easily as you can type it in?",
+        "start": 22.56,
+        "duration": 8.77
+    },
+    {
+        "text": "In fact, what if all sorts of puzzles we thought\nwere hard turned out to be easy?",
+        "start": 31.33,
+        "duration": 7.099
+    },
+    {
+        "text": "Mathematicians call this problem P vs. NP,\nand despite the technical-sounding name,",
+        "start": 38.429,
+        "duration": 5.2
+    },
+    {
+        "text": "it is perhaps the single most important question\nin computer science today.",
+        "start": 43.629,
+        "duration": 4.86
+    },
+    {
+        "text": "P vs. NP is a question about algorithms, or\nsets of specific instructions computers use to solve problems.",
+        "start": 48.489,
+        "duration": 7.361
+    },
+    {
+        "text": "If you’ve done anything on a computer, you’ve\nencountered an algorithm before.",
+        "start": 55.85,
+        "duration": 4.579
+    },
+    {
+        "text": "But to understand what P and NP are and why\npeople care so much about them,",
+        "start": 60.429,
+        "duration": 5.133
+    },
+    {
+        "text": "you need a little background on how algorithms work.",
+        "start": 65.562,
+        "duration": 2.977
+    },
+    {
+        "text": "So, some context!",
+        "start": 68.539,
+        "duration": 1.37
+    },
+    {
+        "text": "Solving a given problem is an algorithm’s\nmost important job, but, after that,",
+        "start": 69.909,
+        "duration": 4.38
+    },
+    {
+        "text": "the thing computer scientists care obsessively about is speed.",
+        "start": 74.289,
+        "duration": 3.671
+    },
+    {
+        "text": "Because, hey, we want answers!",
+        "start": 77.96,
+        "duration": 1.769
+    },
+    {
+        "text": "And presumably, we don’t want to wait a\nyear for them.",
+        "start": 79.729,
+        "duration": 3.011
+    },
+    {
+        "text": "Computer scientists measure an algorithm’s\nspeed using time complexity,",
+        "start": 82.74,
+        "duration": 4.5
+    },
+    {
+        "text": "which estimates the time required to solve a problem based\non the size of the input.",
+        "start": 87.24,
+        "duration": 4.269
+    },
+    {
+        "text": "A real world example for you: think about\ngrocery shoping.",
+        "start": 91.509,
+        "duration": 3.331
+    },
+    {
+        "text": "If you have twenty-five items on your list,\nat the end of the trip, you ought to have twenty-five things in your cart.",
+        "start": 94.84,
+        "duration": 5.33
+    },
+    {
+        "text": "But to check that you’ve got the right\nthings requires comparing every one of those items to what’s on your list.",
+        "start": 100.17,
+        "duration": 6.5
+    },
+    {
+        "text": "If you’re lucky, every time you pick something\nout of the cart,",
+        "start": 106.67,
+        "duration": 3.769
+    },
+    {
+        "text": "it matches the next item on your shopping list.",
+        "start": 110.439,
+        "duration": 1.131
+    },
+    {
+        "text": "Then, you’d need only twenty-five comparisons\nin total.",
+        "start": 111.57,
+        "duration": 3.31
+    },
+    {
+        "text": "But maybe you got a couple of impulse buys\nin there, maybe you skipped some stuff,",
+        "start": 114.88,
+        "duration": 3.29
+    },
+    {
+        "text": "in which case you’d be checking each item against\nthe whole list.",
+        "start": 118.17,
+        "duration": 3.32
+    },
+    {
+        "text": "It’s like, okay, can of soup.",
+        "start": 121.49,
+        "duration": 2.08
+    },
+    {
+        "text": "Then you look at the list and you’re like\nis this ice cream? No. Is this pickles? No.",
+        "start": 123.57,
+        "duration": 5.61
+    },
+    {
+        "text": "Is this mayonnaise… ehhh, this is not good!",
+        "start": 129.18,
+        "duration": 3.01
+    },
+    {
+        "text": "Mathematicians call algorithms like these\npolynomial-time algorithms, because their",
+        "start": 132.19,
+        "duration": 4.06
+    },
+    {
+        "text": "running time can grow like the number of items\nto some exponential power.",
+        "start": 136.25,
+        "duration": 4.53
+    },
+    {
+        "text": "In the case of your grocery cart, we’ve\ngot twenty-five times twenty-five, or twenty-five-squared, so the power is two.",
+        "start": 140.78,
+        "duration": 6.48
+    },
+    {
+        "text": "That tells us that a twenty-five-item shopping\nlist could require up to six hundred twenty-five comparisons,",
+        "start": 147.34,
+        "duration": 5.6
+    },
+    {
+        "text": "but a fifty-item list would require\ntwenty-five hundred!",
+        "start": 152.94,
+        "duration": 5.03
+    },
+    {
+        "text": "In which case, your algorithm would be much\nslower.",
+        "start": 157.97,
+        "duration": 3.01
+    },
+    {
+        "text": "It would take the computer longer to compare\neverything.",
+        "start": 160.98,
+        "duration": 3.4
+    },
+    {
+        "text": "As bad as that sounds, other algorithms are\nway worse.",
+        "start": 164.38,
+        "duration": 4.71
+    },
+    {
+        "text": "Think back to the password on your bank account.",
+        "start": 169.09,
+        "duration": 2.37
+    },
+    {
+        "text": "Currently, the only way we know to figure\nout a random password is guess-and-check.",
+        "start": 171.46,
+        "duration": 3.88
+    },
+    {
+        "text": "So let’s imagine you make a really dumb\npassword, like something that’s twenty-five characters long,",
+        "start": 175.34,
+        "duration": 5.0
+    },
+    {
+        "text": "but only uses the letters\n“a” and “b.”",
+        "start": 180.34,
+        "duration": 3.58
+    },
+    {
+        "text": "Since there are two choices for each character,\nyour total number of possibilities is",
+        "start": 183.92,
+        "duration": 4.73
+    },
+    {
+        "text": "two times two times two and so on, which mathematicians\nmight write as two-to-the-twenty-fifth power.",
+        "start": 188.65,
+        "duration": 6.28
+    },
+    {
+        "text": "At first glance, that might seem like it has\npolynomial complexity like grocery shopping, but look a little closer.",
+        "start": 194.93,
+        "duration": 5.59
+    },
+    {
+        "text": "In the grocery store, our algorithm had speed\nn-to-the-two, or the number of things to check raised to the second power.",
+        "start": 200.52,
+        "duration": 7.82
+    },
+    {
+        "text": "But guessing and checking a password has speed\ntwo-to-the-n, or two raised to however many inputs you have.",
+        "start": 208.34,
+        "duration": 6.79
+    },
+    {
+        "text": "It’s flipped.",
+        "start": 215.13,
+        "duration": 1.0
+    },
+    {
+        "text": "That’s what computer scientists call exponential-time\ncomplexity.",
+        "start": 216.13,
+        "duration": 3.54
+    },
+    {
+        "text": "And it might seem like a small difference,\nbut its effect is not small.",
+        "start": 219.67,
+        "duration": 3.58
+    },
+    {
+        "text": "If it takes one second to check a grocery\nitem from a list of twenty-five things,",
+        "start": 223.25,
+        "duration": 4.531
+    },
+    {
+        "text": "then at worst, you’d be done in about ten minutes.",
+        "start": 227.781,
+        "duration": 2.279
+    },
+    {
+        "text": "But if it takes a second to make one password\nguess for a password that’s twenty-five",
+        "start": 230.06,
+        "duration": 3.85
+    },
+    {
+        "text": "characters long, you could be guessing for\nover a year.",
+        "start": 233.91,
+        "duration": 3.61
+    },
+    {
+        "text": "That difference is why computer scientists\ngenerally consider polynomial algorithms “fast” and exponential ones “slow.”",
+        "start": 237.52,
+        "duration": 7.53
+    },
+    {
+        "text": "Which brings us back to P vs NP!",
+        "start": 245.05,
+        "duration": 3.56
+    },
+    {
+        "text": "Mathematicians label the set of all problems\nthat can be solved by a polynomial algorithm P.",
+        "start": 248.61,
+        "duration": 6.27
+    },
+    {
+        "text": "And they call the set of all problems whose\nanswers can be checked by a polynomial algorithm NP.",
+        "start": 254.88,
+        "duration": 5.56
+    },
+    {
+        "text": "The distinction is a little subtle, but NP\nconsists of all the stuff you might spend",
+        "start": 260.44,
+        "duration": 5.06
+    },
+    {
+        "text": "hours slaving over, only to have someone glance\nat your answer and say, “Yeah, that’s right.”",
+        "start": 265.5,
+        "duration": 5.76
+    },
+    {
+        "text": "An example here: Jigsaw puzzles.",
+        "start": 271.26,
+        "duration": 1.63
+    },
+    {
+        "text": "It might take you days to put together a ten-thousand-piece\npuzzle,",
+        "start": 272.89,
+        "duration": 5.92
+    },
+    {
+        "text": "but it will only take a very brief amount of time to know whether you did it right.",
+        "start": 278.81,
+        "duration": 2.44
+    },
+    {
+        "text": "The same goes for passwords.",
+        "start": 281.25,
+        "duration": 1.39
+    },
+    {
+        "text": "A bot might spend hours trying to guess your\nlogin using an exponential algorithm,",
+        "start": 282.64,
+        "duration": 5.221
+    },
+    {
+        "text": "but when you type in the correct characters, a\nwebsite knows almost immediately if you’re in the clear.",
+        "start": 287.861,
+        "duration": 5.369
+    },
+    {
+        "text": "Basically, these problems are ones that are\nfast to check, but slow to solve.",
+        "start": 293.23,
+        "duration": 4.9
+    },
+    {
+        "text": "So!",
+        "start": 298.13,
+        "duration": 1.0
+    },
+    {
+        "text": "The big question is, are these two types of\nproblems the same?",
+        "start": 299.13,
+        "duration": 4.58
+    },
+    {
+        "text": "Is P equal to NP?",
+        "start": 303.71,
+        "duration": 3.2
+    },
+    {
+        "text": "If so, that would mean that every problem\nyou can check quickly also has a fast, easy solution.",
+        "start": 306.91,
+        "duration": 7.21
+    },
+    {
+        "text": "It might just sound like a bunch of math,\nbut finding out whether this is true is seen",
+        "start": 314.12,
+        "duration": 4.22
+    },
+    {
+        "text": "as so important that the Clay Mathematics\nInstitute has offered a million dollars for a correct proof.",
+        "start": 318.34,
+        "duration": 6.16
+    },
+    {
+        "text": "And as you might expect with that kind of\nprize money,",
+        "start": 324.5,
+        "duration": 3.8
+    },
+    {
+        "text": "people are using basically every field of modern mathematics to try and provide\none.",
+        "start": 328.3,
+        "duration": 3.11
+    },
+    {
+        "text": "Unfortunately, simpler math problems than\nthis in the past have taken centuries or even millennia to solve.",
+        "start": 331.41,
+        "duration": 5.33
+    },
+    {
+        "text": "So, figuring out if P equals NP could take\na while.",
+        "start": 336.82,
+        "duration": 3.96
+    },
+    {
+        "text": "And in the end, well, we might realize that\nP doesn’t equal NP.",
+        "start": 340.78,
+        "duration": 4.15
+    },
+    {
+        "text": "That some algorithms will always take a long\ntime to run.",
+        "start": 344.93,
+        "duration": 3.13
+    },
+    {
+        "text": "In fact, many mathematicians and computer\nscientists think that’s probably the case.",
+        "start": 348.06,
+        "duration": 5.18
+    },
+    {
+        "text": "But they’re still looking because of the\nimplications here… not just because of the prize money!",
+        "start": 353.24,
+        "duration": 5.0
+    },
+    {
+        "text": "If P really does equal NP, we will have found an almost-magical key capable of unlocking virtually any computer science or math problem.",
+        "start": 358.24,
+        "duration": 8.62
+    },
+    {
+        "text": "And while that could be great in some cases,\nit could be disastrous in others.",
+        "start": 366.86,
+        "duration": 4.11
+    },
+    {
+        "text": "Like, the most immediate casualty would be\nthe complete collapse of modern encryption.",
+        "start": 370.97,
+        "duration": 3.97
+    },
+    {
+        "text": "That’s stuff like the entire internet, banking\npasswords we looked at before...",
+        "start": 374.94,
+        "duration": 4.75
+    },
+    {
+        "text": "The fact that they’re hard to guess and\neasy to check is what makes passwords useful,",
+        "start": 379.69,
+        "duration": 3.59
+    },
+    {
+        "text": "so if P is equal to NP, that advantage would\ngo out the window.",
+        "start": 383.28,
+        "duration": 3.69
+    },
+    {
+        "text": "Well… maybe.",
+        "start": 386.97,
+        "duration": 1.0
+    },
+    {
+        "text": "See, here’s the thing: Even if we wake up\ntomorrow and discover P equals NP, all hope of security might not be lost.",
+        "start": 387.97,
+        "duration": 6.63
+    },
+    {
+        "text": "I said before that computer scientists usually\nthink of polynomial algorithms as fast.",
+        "start": 394.6,
+        "duration": 5.65
+    },
+    {
+        "text": "And that’s reasonable for polynomials like\nn-squared or n-cubed.",
+        "start": 400.25,
+        "duration": 3.98
+    },
+    {
+        "text": "But what if the actual polynomial is n to\na millionth power, or the billionth?",
+        "start": 404.23,
+        "duration": 4.49
+    },
+    {
+        "text": "Sure, it would be part of P, but it would\nstill be way too slow to be of practical use.",
+        "start": 408.72,
+        "duration": 6.0
+    },
+    {
+        "text": "The discovery would still be transformative\nfor math, but, in that case, our lives -- and our money -- might still be safe.",
+        "start": 414.72,
+        "duration": 6.56
+    },
+    {
+        "text": "So, for the sake of learning and exploration,\nlet’s hope we can figure this out.",
+        "start": 421.28,
+        "duration": 4.28
+    },
+    {
+        "text": "Because finding answers and discovering new\nthings is one of the best parts of science and being alive!",
+        "start": 425.56,
+        "duration": 6.48
+    },
+    {
+        "text": "Still, when or if we do crack this code…\nit’d be nice if the results were in our favor, too.",
+        "start": 432.04,
+        "duration": 6.4
+    },
+    {
+        "text": "If you want to learn more about problems like\nthese, Brilliant has you covered.",
+        "start": 438.44,
+        "duration": 3.29
+    },
+    {
+        "text": "We talk about them a lot on this channel,\nand it’s because they have a ton of resources",
+        "start": 441.73,
+        "duration": 3.59
+    },
+    {
+        "text": "to teach you about everything from science\nto engineering to math to computer science.",
+        "start": 445.32,
+        "duration": 4.53
+    },
+    {
+        "text": "If you enjoyed this episode, you might specifically\nlike their Computer Science Fundamentals course.",
+        "start": 449.85,
+        "duration": 4.8
+    },
+    {
+        "text": "It talks a lot about algorithms and problem-solving\nand teaches you how computers “think” and operate.",
+        "start": 454.65,
+        "duration": 6.2
+    },
+    {
+        "text": "If you want to check it out, you can go to\nBrilliant.org/SciShow.",
+        "start": 460.85,
+        "duration": 2.89
+    },
+    {
+        "text": "And as a thank-you for watching, the first\ntwo hundred people to sign up at that link",
+        "start": 463.74,
+        "duration": 4.12
+    },
+    {
+        "text": "will get twenty percent off their annual Premium\nsubscription.",
+        "start": 467.86,
+        "duration": 3.33
+    },
+    {
+        "text": "When you sign up, you’ll be supporting SciShow\nand learning something new about the world.",
+        "start": 471.19,
+        "duration": 4.11
+    },
+    {
+        "text": "So thank you!",
+        "start": 475.3,
+        "duration": 1.16
+    },
+    {
+        "text": "And we hope you enjoy it.",
+        "start": 476.46,
+        "duration": 0.82
+    },
+    {
+        "text": "♪♪♪",
+        "start": 477.28,
+        "duration": 7.88
+    }
+]

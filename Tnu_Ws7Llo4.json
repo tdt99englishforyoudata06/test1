@@ -1,0 +1,1587 @@
+[
+    {
+        "text": "We're gonna be talking about a problem in graph theory that was unsolved for more than 50 years and",
+        "start": 0.089,
+        "duration": 6.809
+    },
+    {
+        "text": "very recently",
+        "start": 7.63,
+        "duration": 1.35
+    },
+    {
+        "text": "someone solved it so people are very excited about this.",
+        "start": 8.98,
+        "duration": 2.96
+    },
+    {
+        "text": "It is called Hedetniemi's conjecture - which is a bit of a mouthful - named after the mathematician who first came up with it in",
+        "start": 11.94,
+        "duration": 7.769
+    },
+    {
+        "text": "1966, I believe it was part of his doctoral dissertation.",
+        "start": 20.77,
+        "duration": 2.419
+    },
+    {
+        "text": "He conjectured this result about graph theory and for, like, more than 50 years people tried to prove it",
+        "start": 23.769,
+        "duration": 6.62
+    },
+    {
+        "text": "they tried to disprove it. And",
+        "start": 30.39,
+        "duration": 2.0
+    },
+    {
+        "text": "no one seemed to be able to make any headway.",
+        "start": 32.68,
+        "duration": 2.0
+    },
+    {
+        "text": "But now we know, it is not true. So, so I said this is graph theory,",
+        "start": 35.38,
+        "duration": 4.789
+    },
+    {
+        "text": "so maybe the first thing I should say is that,",
+        "start": 40.17,
+        "duration": 2.0
+    },
+    {
+        "text": "when I say graph",
+        "start": 42.399,
+        "duration": 1.581
+    },
+    {
+        "text": "I don't mean a graph like the kind you make at school, where there's the x axis and the y axis;",
+        "start": 43.98,
+        "duration": 4.29
+    },
+    {
+        "text": "and you're graphing a function or something. It's very confusing, mathematicians actually use the word graph for two different things.",
+        "start": 48.52,
+        "duration": 6.379
+    },
+    {
+        "text": "So the kind of graph that we're gonna be talking about is what, in most other areas of science is called a network.",
+        "start": 54.899,
+        "duration": 6.209
+    },
+    {
+        "text": "So it's a collection of nodes or vertices that are connected by edges.",
+        "start": 61.3,
+        "duration": 5.06
+    },
+    {
+        "text": "Some of some things are connected, some things might not be connected.",
+        "start": 66.7,
+        "duration": 3.11
+    },
+    {
+        "text": "So this",
+        "start": 69.909,
+        "duration": 1.14
+    },
+    {
+        "text": "problem that we're going to be talking about is in an area of graph theory called graph",
+        "start": 71.049,
+        "duration": 3.83
+    },
+    {
+        "text": "colouring. And the idea is that we want to colour the nodes of our network in such a way that",
+        "start": 75.009,
+        "duration": 6.62
+    },
+    {
+        "text": "whenever two nodes share an edge, they're different colours.",
+        "start": 83.02,
+        "duration": 3.709
+    },
+    {
+        "text": "So for example, I'll just draw a really simple graph, and then if I wanted to colour this well, you know",
+        "start": 87.13,
+        "duration": 7.819
+    },
+    {
+        "text": "maybe I'd start by colouring this one red. Let's see - this one, it's connected to that. So I can't colour that one red,",
+        "start": 94.95,
+        "duration": 5.34
+    },
+    {
+        "text": "so let's make that one green. So this one down here",
+        "start": 100.29,
+        "duration": 2.399
+    },
+    {
+        "text": "it's connected to the red one and the green one, so I can't reuse either of those colours. So let's colour that one yellow and",
+        "start": 102.689,
+        "duration": 6.12
+    },
+    {
+        "text": "now this last one, it's connected to the green vertex",
+        "start": 109.36,
+        "duration": 2.779
+    },
+    {
+        "text": "so I definitely don't want to use green but I could use red or yellow. And I've used three colours",
+        "start": 112.14,
+        "duration": 5.309
+    },
+    {
+        "text": "which is the smallest number of colours we could use for this",
+        "start": 117.45,
+        "duration": 2.4
+    },
+    {
+        "text": "graph, and one of the big questions that mathematicians ask about graphs is",
+        "start": 120.009,
+        "duration": 4.43
+    },
+    {
+        "text": "what's the smallest number of colours I can use? And this is a question that has a really long history;",
+        "start": 124.54,
+        "duration": 4.309
+    },
+    {
+        "text": "150 years ago, or so, people were already thinking about this in terms of colouring maps, and how many",
+        "start": 129.91,
+        "duration": 7.779
+    },
+    {
+        "text": "colours do you need if you want to colour a map, so that no two adjoining",
+        "start": 138.3,
+        "duration": 4.43
+    },
+    {
+        "text": "countries or states are the same colour? And this maybe doesn't seem like a question about graph theory because you're like, well, there's no",
+        "start": 143.31,
+        "duration": 7.46
+    },
+    {
+        "text": "vertices or edges, but it's very easy to convert this into a graph theory",
+        "start": 151.47,
+        "duration": 4.04
+    },
+    {
+        "text": "question by just - 'cause",
+        "start": 156.51,
+        "duration": 2.0
+    },
+    {
+        "text": "declaring that you know, each each of these states is a node and if two states border each other then let's connect them.",
+        "start": 158.88,
+        "duration": 5.899
+    },
+    {
+        "text": "So then this question of colouring the map so that",
+        "start": 164.78,
+        "duration": 3.839
+    },
+    {
+        "text": "adjoining states are different colours is exactly the same as the graph colouring question.",
+        "start": 169.02,
+        "duration": 4.58
+    },
+    {
+        "text": "So a long time ago people conjectured that that, for maps, the greatest number of colours",
+        "start": 173.6,
+        "duration": 4.949
+    },
+    {
+        "text": "You'll ever need is four. And it took forever to prove this,",
+        "start": 178.55,
+        "duration": 3.99
+    },
+    {
+        "text": "it was proved in the 1970s, with this proof that used massive",
+        "start": 182.54,
+        "duration": 4.47
+    },
+    {
+        "text": "computations - and I think people still don't totally understand what's going on there.",
+        "start": 187.53,
+        "duration": 4.25
+    },
+    {
+        "text": "But we do know that, for these - the graphs that come from these kinds of maps four colours is enough.",
+        "start": 191.97,
+        "duration": 4.91
+    },
+    {
+        "text": "I was gonna give you a couple more examples of where graph colouring can come up - just one kind of fun example if you look",
+        "start": 196.88,
+        "duration": 6.51
+    },
+    {
+        "text": "at this sudoku puzzle. In case you don't know how these work, you're trying to",
+        "start": 203.39,
+        "duration": 4.289
+    },
+    {
+        "text": "fill in all these boxes with digits from one to nine",
+        "start": 208.14,
+        "duration": 2.629
+    },
+    {
+        "text": "so that every row",
+        "start": 211.32,
+        "duration": 1.86
+    },
+    {
+        "text": "has all the digits, exactly once. Every column has all the digits exactly once and each of these little bold boxes has all the digits",
+        "start": 213.18,
+        "duration": 7.16
+    },
+    {
+        "text": "exactly once. So you might think well, how is this a graph colouring problem?",
+        "start": 220.41,
+        "duration": 3.8
+    },
+    {
+        "text": "But you can actually translate this exactly into graph colouring. So the idea here is that",
+        "start": 224.58,
+        "duration": 4.88
+    },
+    {
+        "text": "we're going to be using nine colours. So we have one colour for each of the digits from 1 to 9.",
+        "start": 230.01,
+        "duration": 4.849
+    },
+    {
+        "text": "We're going to - if we have a node here -",
+        "start": 235.02,
+        "duration": 3.47
+    },
+    {
+        "text": "we're going to connect it to all the things that can't be the same digit as that.Okay?",
+        "start": 238.71,
+        "duration": 5.75
+    },
+    {
+        "text": "So, like, we have a 4 in this box",
+        "start": 244.47,
+        "duration": 2.63
+    },
+    {
+        "text": "so that means we're not allowed to have fours in the rest of this row, or the rest of this column, or the rest of",
+        "start": 247.14,
+        "duration": 5.18
+    },
+    {
+        "text": "this box. So we end up with loads of",
+        "start": 252.32,
+        "duration": 2.1
+    },
+    {
+        "text": "vertices connected by loads of edges and then",
+        "start": 255.27,
+        "duration": 3.469
+    },
+    {
+        "text": "what you're trying to do is - so maybe if we decided that 4 is going to be coloured red,",
+        "start": 258.989,
+        "duration": 4.9
+    },
+    {
+        "text": "so all these fours here are red. Each,",
+        "start": 263.89,
+        "duration": 3.72
+    },
+    {
+        "text": "so we'll colour all the numbers that are forced on us - and then we're trying to colour all the other vertices",
+        "start": 267.89,
+        "duration": 6.529
+    },
+    {
+        "text": "with our nine colors. And,",
+        "start": 275.12,
+        "duration": 2.0
+    },
+    {
+        "text": "if we do it successfully, if we do it in a way where connected",
+        "start": 277.76,
+        "duration": 3.35
+    },
+    {
+        "text": "nodes are different colours,",
+        "start": 281.63,
+        "duration": 1.83
+    },
+    {
+        "text": "then what we've done is we've ensured that we never use the same digit",
+        "start": 283.46,
+        "duration": 3.979
+    },
+    {
+        "text": "twice in in one of those little boxes or rows or columns.",
+        "start": 287.93,
+        "duration": 3.049
+    },
+    {
+        "text": "So colouring with nine colours is identical to solving the sudoku.",
+        "start": 291.65,
+        "duration": 3.889
+    },
+    {
+        "text": "(Brady: Could you use that to solve a Sudoku then? If I was sitting on the train or something)",
+        "start": 295.7,
+        "duration": 3.589
+    },
+    {
+        "text": "(could I be drawing a graph and like - would that?) \n- You could, although I think if you actually tried to draw this graph",
+        "start": 299.29,
+        "duration": 5.88
+    },
+    {
+        "text": "there'd be so many edges in it,",
+        "start": 305.24,
+        "duration": 2.0
+    },
+    {
+        "text": "like, getting in the way of each other that it would be harder to see.",
+        "start": 307.28,
+        "duration": 2.57
+    },
+    {
+        "text": "But you certainly - if you had like nine coloured pencils you could certainly",
+        "start": 310.01,
+        "duration": 3.29
+    },
+    {
+        "text": "decide to you know, assign each number a different colour and",
+        "start": 313.94,
+        "duration": 4.429
+    },
+    {
+        "text": "write colours into the boxes instead of numbers and maybe people who are",
+        "start": 319.13,
+        "duration": 3.47
+    },
+    {
+        "text": "really attuned to colours and visuals might have an easier time",
+        "start": 322.94,
+        "duration": 2.929
+    },
+    {
+        "text": "Solving sudokus that way. And I want to just go through one more example",
+        "start": 325.97,
+        "duration": 3.74
+    },
+    {
+        "text": "quickly with you, because this is going to lead right into",
+        "start": 330.08,
+        "duration": 2.0
+    },
+    {
+        "text": "Hedetniemi's conjecture. We're gonna imagine that",
+        "start": 332.93,
+        "duration": 2.84
+    },
+    {
+        "text": "we are hosting, maybe a series of weekend parties at our estate,",
+        "start": 336.56,
+        "duration": 5.24
+    },
+    {
+        "text": "out in the country - because we're very rich.",
+        "start": 342.38,
+        "duration": 2.51
+    },
+    {
+        "text": "So we're trying to decide who to invite on which weekend, and we want to",
+        "start": 345.23,
+        "duration": 5.839
+    },
+    {
+        "text": "collect together good assortment of people - like people who we think are gonna enjoy each other's company.",
+        "start": 352.55,
+        "duration": 4.339
+    },
+    {
+        "text": "Maybe we know each person's job and we - you know, some of the jobs are kind of conducive to",
+        "start": 357.49,
+        "duration": 7.77
+    },
+    {
+        "text": "talking with each other, you know like a mathematician and an economist",
+        "start": 365.78,
+        "duration": 4.399
+    },
+    {
+        "text": "will find some common topics - and other jobs are not.",
+        "start": 370.18,
+        "duration": 3.69
+    },
+    {
+        "text": "So if we wanted to",
+        "start": 374.45,
+        "duration": 2.0
+    },
+    {
+        "text": "plan out our weekend party schedule, we could start by basically",
+        "start": 376.7,
+        "duration": 4.339
+    },
+    {
+        "text": "assigning a different colour to every weekend, and then make a graph of all those different",
+        "start": 382.01,
+        "duration": 7.16
+    },
+    {
+        "text": "jobs. Like just to do a little toy example that's going to lead into what we care about. So, so maybe",
+        "start": 389.78,
+        "duration": 6.05
+    },
+    {
+        "text": "maybe the people that we're inviting have just four jobs. Like maybe one of them is a schoolteacher,",
+        "start": 396.35,
+        "duration": 5.369
+    },
+    {
+        "text": "so let's have an economist, math professor, camp counsellor. What graph would we draw",
+        "start": 401.85,
+        "duration": 5.989
+    },
+    {
+        "text": "that would help us to have good groupings for our party?",
+        "start": 408.3,
+        "duration": 4.97
+    },
+    {
+        "text": "Well, so, you know the teacher would probably find things to talk about with the camp counselor, you know",
+        "start": 413.49,
+        "duration": 6.44
+    },
+    {
+        "text": "like managing groups of kids, and they could probably also talk with the math professor, but maybe they wouldn't have such an easy time",
+        "start": 419.93,
+        "duration": 6.9
+    },
+    {
+        "text": "striking up a conversation with the economist. So what we're gonna do is we're gonna link things together if they don't get along well.",
+        "start": 427.59,
+        "duration": 5.6
+    },
+    {
+        "text": "Which which might feel a little backwards because you think oh, you know people get along well, we should link them.",
+        "start": 433.23,
+        "duration": 4.91
+    },
+    {
+        "text": "But remember that what we're gonna do is we're going to use our colouring",
+        "start": 438.27,
+        "duration": 3.409
+    },
+    {
+        "text": "to separate those people. So we want to link the ones that don't get along.",
+        "start": 442.29,
+        "duration": 4.399
+    },
+    {
+        "text": "So, you know, teacher and economist, the economist and the camp counsellor,",
+        "start": 447.57,
+        "duration": 4.07
+    },
+    {
+        "text": "maybe they're not going to find something. And same thing for the camp counselor and the math professor. But these other things, you know",
+        "start": 451.64,
+        "duration": 6.929
+    },
+    {
+        "text": "like these two,",
+        "start": 458.57,
+        "duration": 1.21
+    },
+    {
+        "text": "should get along fine; these two, these two. So this is our graph and",
+        "start": 459.78,
+        "duration": 4.279
+    },
+    {
+        "text": "now what we can do is we can try to colour the graph and that's gonna tell us which weekend to invite each person. So",
+        "start": 465.03,
+        "duration": 7.579
+    },
+    {
+        "text": "you know",
+        "start": 473.55,
+        "duration": 0.62
+    },
+    {
+        "text": "let's start by colouring the economist red and",
+        "start": 474.17,
+        "duration": 2.669
+    },
+    {
+        "text": "then we have to make sure that these two vertices are not red, because they're connected to the red one,",
+        "start": 477.3,
+        "duration": 5.15
+    },
+    {
+        "text": "but they're not connected to each other.",
+        "start": 482.45,
+        "duration": 1.59
+    },
+    {
+        "text": "So, you know if I make the camp counsellor yellow,",
+        "start": 484.04,
+        "duration": 2.25
+    },
+    {
+        "text": "there's no reason why I couldn't make the teacher yellow. And then the math professor",
+        "start": 486.57,
+        "duration": 4.339
+    },
+    {
+        "text": "can't be yellow because the math professor is connected to the camp counsellor, but there's nothing stopping the math professor from being red,",
+        "start": 491.07,
+        "duration": 6.47
+    },
+    {
+        "text": "so we can colour our graph with just two colours. \n- (Brady: Erica, were you endeavouring to use the minimum colours?)",
+        "start": 497.88,
+        "duration": 6.32
+    },
+    {
+        "text": "('cause I mean you could have done the math professor green there, but were you endeavouring - ?)",
+        "start": 504.2,
+        "duration": 2.699
+    },
+    {
+        "text": "I could, I I could have coloured green and yes, I was endeavouring to",
+        "start": 506.9,
+        "duration": 4.38
+    },
+    {
+        "text": "use the smallest number of colours possible because now, no one's coming over on Green weekend,",
+        "start": 511.8,
+        "duration": 5.239
+    },
+    {
+        "text": "that means that I can just loaf around in my pyjamas the whole weekend and binge-watch Netflix. So, I'm good.",
+        "start": 517.2,
+        "duration": 6.469
+    },
+    {
+        "text": "So yeah, we're trying to use as few colours as possible. So that's pretty simple.",
+        "start": 523.669,
+        "duration": 4.049
+    },
+    {
+        "text": "So, let's see. So on red weekend I'm gonna invite the math professor and the economist, and",
+        "start": 527.72,
+        "duration": 4.59
+    },
+    {
+        "text": "on yellow weekend I'm going to invite the camp counsellor and the teacher. So that's pretty simple",
+        "start": 532.98,
+        "duration": 4.58
+    },
+    {
+        "text": "but now what if we wanted to be a little more sophisticated as as a host.",
+        "start": 537.9,
+        "duration": 5.389
+    },
+    {
+        "text": "Because we actually know other things about our friends besides their jobs.",
+        "start": 543.84,
+        "duration": 3.559
+    },
+    {
+        "text": "And so, let's imagine that maybe we also know some stuff about their hobbies.",
+        "start": 547.4,
+        "duration": 4.919
+    },
+    {
+        "text": "That means that there are more ways that they could get along with each other. So like maybe the math professor and the camp counsellor,",
+        "start": 552.39,
+        "duration": 6.049
+    },
+    {
+        "text": "they don't they can't really talk shop with each other,",
+        "start": 559.02,
+        "duration": 3.2
+    },
+    {
+        "text": "but you know, maybe they each play a musical instrument and so they could talk about that.",
+        "start": 562.32,
+        "duration": 3.71
+    },
+    {
+        "text": "So let's draw a hobby graph. And, I want to keep these graphs really simple,",
+        "start": 566.13,
+        "duration": 5.09
+    },
+    {
+        "text": "very basic because when we start combining them things are gonna get a little complicated.",
+        "start": 571.22,
+        "duration": 4.589
+    },
+    {
+        "text": "So I'm just gonna draw something with three vertices and - so let's imagine that maybe some of our friends collect stamps.",
+        "start": 575.81,
+        "duration": 5.91
+    },
+    {
+        "text": "well we're filming this in Berkeley, so, you know",
+        "start": 582.27,
+        "duration": 2.359
+    },
+    {
+        "text": "maybe we should have some people who like to do yoga and some other people who like meditation. And if we wanted to",
+        "start": 584.63,
+        "duration": 7.95
+    },
+    {
+        "text": "connect up this graph; well the people who do yoga and the people who do meditation they're probably going to get along well;",
+        "start": 593.16,
+        "duration": 5.389
+    },
+    {
+        "text": "but they might not find anything to talk about with a stamp collector. So we're gonna connect things up like that.",
+        "start": 598.92,
+        "duration": 5.33
+    },
+    {
+        "text": "And now if we try to",
+        "start": 604.25,
+        "duration": 2.0
+    },
+    {
+        "text": "colour this graph - again we can actually get away with two colours. So we colour the stamp collector",
+        "start": 606.39,
+        "duration": 5.69
+    },
+    {
+        "text": "red. Then, we're gonna need to colour the other ones not red.",
+        "start": 612.63,
+        "duration": 5.0
+    },
+    {
+        "text": "So I could colour them two different colours, but since we're trying to use as few colours as possible, we'll colour them both yellow.",
+        "start": 617.82,
+        "duration": 6.619
+    },
+    {
+        "text": "So now we have a graph for jobs and we have a graph for hobbies and",
+        "start": 624.6,
+        "duration": 3.95
+    },
+    {
+        "text": "we're going to imagine that",
+        "start": 629.13,
+        "duration": 2.0
+    },
+    {
+        "text": "these two things can come in all sorts of different pairings.",
+        "start": 631.59,
+        "duration": 3.5
+    },
+    {
+        "text": "So like we couldn't have an economist who collect stamps and a camp counsellor",
+        "start": 635.09,
+        "duration": 4.919
+    },
+    {
+        "text": "who does yoga. And another camp counsellor who does meditation. And, and so on - all the different combinations.",
+        "start": 640.02,
+        "duration": 6.019
+    },
+    {
+        "text": "So now we have a bigger pool of different kinds of friends and we have two different",
+        "start": 646.56,
+        "duration": 5.989
+    },
+    {
+        "text": "pieces of information, about how they get along. And the question is how do we combine them?",
+        "start": 653.43,
+        "duration": 5.119
+    },
+    {
+        "text": "So what we're going to do is we're going to make a sort of",
+        "start": 659.58,
+        "duration": 3.08
+    },
+    {
+        "text": "a bigger graph that, in a certain sense you can think of as multiplying these two graphs with each other.",
+        "start": 663.39,
+        "duration": 6.149
+    },
+    {
+        "text": "So that sounds kind of weird",
+        "start": 669.7,
+        "duration": 2.0
+    },
+    {
+        "text": "you know, like how do you multiply graphs? But if you think about",
+        "start": 672.339,
+        "duration": 3.47
+    },
+    {
+        "text": "all the different pairings that I just talked about, you know, like economist with stamps, economist with yoga, economist with meditation;",
+        "start": 676.69,
+        "duration": 6.859
+    },
+    {
+        "text": "well, there's four different jobs and three different hobbies, that the jobs can be paired with, so if we want to",
+        "start": 684.1,
+        "duration": 7.97
+    },
+    {
+        "text": "capture all the different pairings we're gonna need",
+        "start": 692.07,
+        "duration": 2.549
+    },
+    {
+        "text": "twelve",
+        "start": 695.14,
+        "duration": 1.5
+    },
+    {
+        "text": "different pairs. So we already feel - see that there is kind of a multiplication feel to this.",
+        "start": 696.64,
+        "duration": 6.139
+    },
+    {
+        "text": "So I need to draw a graph that has twelve vertices and",
+        "start": 703.329,
+        "duration": 3.83
+    },
+    {
+        "text": "there's loads of different ways - you know, I could just plonk the 12 vertices down wherever I want.",
+        "start": 708.16,
+        "duration": 3.919
+    },
+    {
+        "text": "But I want to try to remember some of the structure of these graphs because that's just gonna make it easier.",
+        "start": 712.209,
+        "duration": 4.309
+    },
+    {
+        "text": "So I'm gonna have like three vertices that correspond to the economist with the different hobbies and",
+        "start": 716.86,
+        "duration": 7.07
+    },
+    {
+        "text": "three vertices that correspond to the teacher with the three different hobbies and three that correspond to the camp counsellor with the different hobbies and",
+        "start": 724.72,
+        "duration": 7.64
+    },
+    {
+        "text": "three for the math professor.",
+        "start": 732.579,
+        "duration": 2.0
+    },
+    {
+        "text": "So those are my vertices and,",
+        "start": 734.709,
+        "duration": 2.18
+    },
+    {
+        "text": "you know, and - and having arranged them like this we can kind of see who all these different people are.",
+        "start": 737.8,
+        "duration": 4.099
+    },
+    {
+        "text": "This person here is an economist who collect stamps,",
+        "start": 741.899,
+        "duration": 3.51
+    },
+    {
+        "text": "right this person is a teacher who does meditation.",
+        "start": 747.64,
+        "duration": 4.639
+    },
+    {
+        "text": "Right, this is a teacher who collects stamps and so on. And now we need to think about how we're gonna connect all these vertices",
+        "start": 754.63,
+        "duration": 7.579
+    },
+    {
+        "text": "up and,",
+        "start": 762.209,
+        "duration": 1.361
+    },
+    {
+        "text": "so, remember",
+        "start": 763.57,
+        "duration": 1.259
+    },
+    {
+        "text": "we want to invite people who are going to get along with each other in at least one way.",
+        "start": 764.829,
+        "duration": 4.58
+    },
+    {
+        "text": "They, they don't need to be able to talk about their jobs and their hobbies,",
+        "start": 769.899,
+        "duration": 4.28
+    },
+    {
+        "text": "but they need something that's gonna, you know, break the ice for them. \n- (Brady: One, one compatible thing?)\n- One compatible thing. So we want to",
+        "start": 774.18,
+        "duration": 7.71
+    },
+    {
+        "text": "connect people, by an edge, if they don't have one compatible thing.",
+        "start": 782.5,
+        "duration": 4.669
+    },
+    {
+        "text": "If there's nothing they could find to talk about then we're going to draw an edge because that's going to make sure that once we colour,",
+        "start": 787.839,
+        "duration": 5.42
+    },
+    {
+        "text": "they're going to be on different weekends.",
+        "start": 793.42,
+        "duration": 2.21
+    },
+    {
+        "text": "So for example, the economist who collect stamps, we're not going to connect that person to the teacher who like stamps because they're good,",
+        "start": 796.089,
+        "duration": 7.25
+    },
+    {
+        "text": "they can talk about stamps,",
+        "start": 803.339,
+        "duration": 1.87
+    },
+    {
+        "text": "but",
+        "start": 805.209,
+        "duration": 2.0
+    },
+    {
+        "text": "we will connect the economist to this teacher who likes meditation because we've decided already that economists and teachers",
+        "start": 807.339,
+        "duration": 7.22
+    },
+    {
+        "text": "don't get along and",
+        "start": 815.11,
+        "duration": 2.0
+    },
+    {
+        "text": "stamp collectors and meditation people don't get along.",
+        "start": 817.209,
+        "duration": 3.23
+    },
+    {
+        "text": "And similarly we're going to connect that economist to the teacher who does yoga because there's nothing compatible there.",
+        "start": 821.3,
+        "duration": 8.439
+    },
+    {
+        "text": "So we draw these two edges and",
+        "start": 830.14,
+        "duration": 2.089
+    },
+    {
+        "text": "I'm not going to go through",
+        "start": 832.93,
+        "duration": 1.92
+    },
+    {
+        "text": "how we do all the different edges, because it's the same idea for all of them,",
+        "start": 834.85,
+        "duration": 4.28
+    },
+    {
+        "text": "but we end up drawing a bunch of edges into this graph.",
+        "start": 839.26,
+        "duration": 3.799
+    },
+    {
+        "text": "So we've, we've built this graph that's sort of - that",
+        "start": 843.06,
+        "duration": 3.419
+    },
+    {
+        "text": "we got by in a certain sense multiplying these two graphs together, and mathematicians actually have a name for this",
+        "start": 846.48,
+        "duration": 5.849
+    },
+    {
+        "text": "it's called the tensor product. So, you know 'product' like",
+        "start": 852.329,
+        "duration": 3.48
+    },
+    {
+        "text": "multiplying; and they actually use an X symbol to denote it.",
+        "start": 856.69,
+        "duration": 3.649
+    },
+    {
+        "text": "So like if one of the graphs was called G and the other one was called H, then the tensor product would be written G",
+        "start": 860.339,
+        "duration": 6.21
+    },
+    {
+        "text": "times H.",
+        "start": 867.16,
+        "duration": 2.0
+    },
+    {
+        "text": "For some reason graphs are always G and H. So now we've drawn our graph and we want to start planning out our weekends.",
+        "start": 869.2,
+        "duration": 5.509
+    },
+    {
+        "text": "So we want to figure out a good way to colour the graph. And",
+        "start": 874.72,
+        "duration": 4.1
+    },
+    {
+        "text": "one thing that would be an easy solution is just to",
+        "start": 880.209,
+        "duration": 4.58
+    },
+    {
+        "text": "borrow",
+        "start": 885.579,
+        "duration": 1.231
+    },
+    {
+        "text": "one of the colourings",
+        "start": 886.81,
+        "duration": 1.86
+    },
+    {
+        "text": "that I already did. Okay?",
+        "start": 888.67,
+        "duration": 2.0
+    },
+    {
+        "text": "So like",
+        "start": 891.25,
+        "duration": 2.0
+    },
+    {
+        "text": "we could just take the colouring that I did here and",
+        "start": 893.47,
+        "duration": 3.83
+    },
+    {
+        "text": "basically use it to colour this graph, like just colour all the stamp collectors red,",
+        "start": 900.25,
+        "duration": 4.729
+    },
+    {
+        "text": "like that.",
+        "start": 907.6,
+        "duration": 2.0
+    },
+    {
+        "text": "You colour all the yoga and",
+        "start": 910.48,
+        "duration": 2.179
+    },
+    {
+        "text": "meditation people yellow, and",
+        "start": 913.42,
+        "duration": 2.0
+    },
+    {
+        "text": "that's definitely gonna be a valid colouring of this graph because we already knew that that was a way to guarantee",
+        "start": 915.97,
+        "duration": 6.859
+    },
+    {
+        "text": "that people who are at the same weekend would find things to talk about.",
+        "start": 923.529,
+        "duration": 3.26
+    },
+    {
+        "text": "So, you know, basically I just ignored their jobs and focused on their hobbies.",
+        "start": 927.339,
+        "duration": 4.02
+    },
+    {
+        "text": "Or I could have done it the other way; I could have said I'm just gonna focus on their jobs,",
+        "start": 931.73,
+        "duration": 5.6
+    },
+    {
+        "text": "so I'm gonna colour all the Economists red, no matter what their hobby is, and",
+        "start": 937.33,
+        "duration": 5.94
+    },
+    {
+        "text": "let's see, and all the math professors I'm gonna colour them red too. And",
+        "start": 944.42,
+        "duration": 3.38
+    },
+    {
+        "text": "colour all the teachers yellow, and colour all the camp counsellors yellow. And that's a different way that I could",
+        "start": 947.99,
+        "duration": 6.95
+    },
+    {
+        "text": "decide who to invite for which weekend - I can just focus on their jobs",
+        "start": 955.25,
+        "duration": 4.219
+    },
+    {
+        "text": "or I can just focus on their hobbies, and get a colouring either way. Two different colourings of this graph.",
+        "start": 959.47,
+        "duration": 5.79
+    },
+    {
+        "text": "But the question is is that the best we can do?",
+        "start": 965.87,
+        "duration": 3.109
+    },
+    {
+        "text": "So in these simple toy examples, it's obvious that this is the best we can do.",
+        "start": 969.08,
+        "duration": 4.729
+    },
+    {
+        "text": "But if I started drawing more complicated graphs, it's not obvious at all.",
+        "start": 974.18,
+        "duration": 3.979
+    },
+    {
+        "text": "You know, maybe the job graph needs eight colours and the",
+        "start": 978.68,
+        "duration": 4.729
+    },
+    {
+        "text": "hobby graph needs 13 colours and then",
+        "start": 984.23,
+        "duration": 2.66
+    },
+    {
+        "text": "the tensor product; well, we know there's one way to colour it using eight and one way using 13.",
+        "start": 987.59,
+        "duration": 5.42
+    },
+    {
+        "text": "But maybe there's some way that uses only four colours.",
+        "start": 993.08,
+        "duration": 3.199
+    },
+    {
+        "text": "So, so that's the question that",
+        "start": 997.34,
+        "duration": 2.51
+    },
+    {
+        "text": "we want to understand because",
+        "start": 1000.7,
+        "duration": 2.0
+    },
+    {
+        "text": "you know, if we can use fewer weekends, then that would be nice.",
+        "start": 1003.58,
+        "duration": 3.259
+    },
+    {
+        "text": "(Brady: More Netflix days)\n- More Netflix days, yes",
+        "start": 1008.83,
+        "duration": 2.419
+    },
+    {
+        "text": "In1966 Hedetniemi",
+        "start": 1011.8,
+        "duration": 2.0
+    },
+    {
+        "text": "conjectured that there is nothing better that you can do.",
+        "start": 1014.2,
+        "duration": 3.349
+    },
+    {
+        "text": "There's no better colouring than the ones you get from these graphs.",
+        "start": 1017.89,
+        "duration": 4.129
+    },
+    {
+        "text": "(Brady: So the minimum colouring on one of your original graphs is the minimum for your mega graph later on, your tensor graph?)",
+        "start": 1022.3,
+        "duration": 6.979
+    },
+    {
+        "text": "Exactly and this conjecture",
+        "start": 1029.53,
+        "duration": 2.54
+    },
+    {
+        "text": "stuck around for more than 50 years. People could not figure out how to prove it or how to disprove it.",
+        "start": 1033.49,
+        "duration": 6.08
+    },
+    {
+        "text": "They did make some progress with trying to come up with a proof,",
+        "start": 1040.5,
+        "duration": 4.02
+    },
+    {
+        "text": "they showed that any time that your, your job and hobby graphs",
+        "start": 1044.53,
+        "duration": 4.489
+    },
+    {
+        "text": "are simple enough that they use four or fewer colours,",
+        "start": 1049.3,
+        "duration": 3.26
+    },
+    {
+        "text": "then it is true that the tensor graph",
+        "start": 1053.2,
+        "duration": 2.75
+    },
+    {
+        "text": "will just need the same number of colours as whichever",
+        "start": 1056.47,
+        "duration": 3.38
+    },
+    {
+        "text": "one of those is simpler. But, but they couldn't get beyond that.",
+        "start": 1059.85,
+        "duration": 3.259
+    },
+    {
+        "text": "(Brady: So it only takes one lucky person to make one and colour it with fewer colours to bring it all down?)",
+        "start": 1063.21,
+        "duration": 5.3
+    },
+    {
+        "text": "Well, exactly and that is what eventually did happen. Now, if you think about this conjecture, I mean I personally",
+        "start": 1068.88,
+        "duration": 7.579
+    },
+    {
+        "text": "found this conjecture surprising. Because if you think about it, you know",
+        "start": 1077.28,
+        "duration": 4.16
+    },
+    {
+        "text": "so these two colourings that we made, by just focusing on one of the graphs, they're forgetting about a lot of things",
+        "start": 1081.44,
+        "duration": 6.089
+    },
+    {
+        "text": "you know about your guests. So, you know, if I use this colouring the one that comes from the jobs to colour my graph,",
+        "start": 1087.53,
+        "duration": 7.709
+    },
+    {
+        "text": "well, you know, maybe there were some people who were compatible that I separated",
+        "start": 1096.06,
+        "duration": 4.159
+    },
+    {
+        "text": "unnecessarily. Like,",
+        "start": 1101.25,
+        "duration": 1.71
+    },
+    {
+        "text": "you know, so a camp counsellor",
+        "start": 1102.96,
+        "duration": 2.57
+    },
+    {
+        "text": "who does yoga could have come the same weekend as a math professor who does meditation,",
+        "start": 1106.05,
+        "duration": 4.4
+    },
+    {
+        "text": "but I split them up because I was only focusing on their jobs.",
+        "start": 1110.79,
+        "duration": 3.02
+    },
+    {
+        "text": "(Brady: It almost feels like your colouring option that you showed me there for the tensor graph was like the lazy option)",
+        "start": 1113.81,
+        "duration": 5.969
+    },
+    {
+        "text": "Yes, they are the lazy options, where we're just kind of throwing away a lot of what we know. And so,",
+        "start": 1120.0,
+        "duration": 5.69
+    },
+    {
+        "text": "so it seems very plausible, if you combine everything, you know, you could get away with fewer weekends.",
+        "start": 1126.81,
+        "duration": 6.349
+    },
+    {
+        "text": "But it turns out that it's really, really hard to concoct an actual example of graphs where that is true. And",
+        "start": 1134.04,
+        "duration": 7.28
+    },
+    {
+        "text": "so, you know decades went by and no one found a counter example until recently; a",
+        "start": 1141.96,
+        "duration": 6.11
+    },
+    {
+        "text": "mathematician named Yaroslav Shitov came up with one. \n- (Brady: I'm so excited. I'm dying to see it!)",
+        "start": 1148.8,
+        "duration": 6.02
+    },
+    {
+        "text": "I am not going to draw it for you, and I'll explain why soon. So I'm gonna tell you a bit about how he, like",
+        "start": 1154.82,
+        "duration": 7.109
+    },
+    {
+        "text": "the nature of the graphs that he came up with, and then I'll explain to you why I'm not gonna draw.",
+        "start": 1162.18,
+        "duration": 4.189
+    },
+    {
+        "text": "So what he did is he",
+        "start": 1166.47,
+        "duration": 2.0
+    },
+    {
+        "text": "started with",
+        "start": 1169.23,
+        "duration": 1.41
+    },
+    {
+        "text": "some graph. Let's just call it G, and then he",
+        "start": 1170.64,
+        "duration": 3.02
+    },
+    {
+        "text": "constructed, like for the second graph, you know, if G is our jobs graph and for the hobby graph he constructed",
+        "start": 1175.23,
+        "duration": 5.989
+    },
+    {
+        "text": "what mathematicians call an exponential graph, based on the original graph. We have our graph G,",
+        "start": 1181.89,
+        "duration": 7.01
+    },
+    {
+        "text": "maybe we choose a palette of colours, you know,",
+        "start": 1189.03,
+        "duration": 2.419
+    },
+    {
+        "text": "like however many sharpies I have in different colours. And we think about all the different ways",
+        "start": 1191.45,
+        "duration": 5.55
+    },
+    {
+        "text": "we could colour our graph; and, and and I mean like really any kind of colouring.",
+        "start": 1197.0,
+        "duration": 5.339
+    },
+    {
+        "text": "It's okay if connected edges have the same colour; just any way of slapping colours onto vertices. And",
+        "start": 1202.34,
+        "duration": 5.849
+    },
+    {
+        "text": "the exponential graph is a graph in which every vertex",
+        "start": 1209.07,
+        "duration": 3.5
+    },
+    {
+        "text": "represents a",
+        "start": 1213.929,
+        "duration": 1.441
+    },
+    {
+        "text": "colouring of my original graph.",
+        "start": 1215.37,
+        "duration": 2.0
+    },
+    {
+        "text": "So any possible colouring is going to be a vertex in this exponential graph.",
+        "start": 1217.74,
+        "duration": 4.549
+    },
+    {
+        "text": "So, so there's a lot of different colourings, in fact",
+        "start": 1222.659,
+        "duration": 3.26
+    },
+    {
+        "text": "exponential is - the reason it's called exponential is if I have four",
+        "start": 1226.649,
+        "duration": 3.739
+    },
+    {
+        "text": "colours, then I can colour this vertex four colours, and that one four colours, and that one, you know four different colours.",
+        "start": 1231.419,
+        "duration": 6.349
+    },
+    {
+        "text": "And so the number of different combinations of colourings is going to be like, you know",
+        "start": 1237.769,
+        "duration": 4.98
+    },
+    {
+        "text": "4 to the however many vertices I have. So that's why these things are exponential.",
+        "start": 1242.75,
+        "duration": 4.949
+    },
+    {
+        "text": "But then he showed that if you choose your original graph in just the right way and choose just the right number of colours for",
+        "start": 1247.7,
+        "duration": 6.15
+    },
+    {
+        "text": "building your exponential graph; then if you take those two graphs and tensor them together in this way,",
+        "start": 1253.85,
+        "duration": 5.76
+    },
+    {
+        "text": "you're gonna end up with a tensor product that needs fewer colours",
+        "start": 1259.889,
+        "duration": 4.04
+    },
+    {
+        "text": "than either of those two graphs. And I don't think that he spent a lot of time, like really trying to optimise",
+        "start": 1264.269,
+        "duration": 5.63
+    },
+    {
+        "text": "these, these numbers. Like he just wanted a counter example.",
+        "start": 1270.299,
+        "duration": 2.75
+    },
+    {
+        "text": "You know often when mathematicians are trying to build a counter example to something, they'll just",
+        "start": 1273.09,
+        "duration": 4.489
+    },
+    {
+        "text": "make all the numbers just like, as big as they need to make all the calculations really easy.",
+        "start": 1277.98,
+        "duration": 4.399
+    },
+    {
+        "text": "So I think he did that and so the graphs that he ended up describing are absolutely humongous.",
+        "start": 1282.629,
+        "duration": 7.28
+    },
+    {
+        "text": "It said like the, the graph",
+        "start": 1290.399,
+        "duration": 2.0
+    },
+    {
+        "text": "G, the like the first graph,",
+        "start": 1292.74,
+        "duration": 2.0
+    },
+    {
+        "text": "had, like 4 to the 100",
+        "start": 1295.47,
+        "duration": 2.15
+    },
+    {
+        "text": "vertices, and the exponential graph had four to the ten thousand vertices.",
+        "start": 1298.259,
+        "duration": 6.41
+    },
+    {
+        "text": "So I, I typed it into Google's calculator and",
+        "start": 1304.769,
+        "duration": 3.38
+    },
+    {
+        "text": "it told me that the answer was",
+        "start": 1308.82,
+        "duration": 2.0
+    },
+    {
+        "text": "infinity.",
+        "start": 1311.759,
+        "duration": 1.351
+    },
+    {
+        "text": "So, according to Google at least this, this exponential graph has infinitely many vertices. And so",
+        "start": 1313.11,
+        "duration": 6.5
+    },
+    {
+        "text": "I'm here to tell you actually that four the ten thousand is not equal to infinity;",
+        "start": 1319.889,
+        "duration": 4.37
+    },
+    {
+        "text": "but it is a really, really big number. It's um, it's roughly equal to 1 followed by",
+        "start": 1325.019,
+        "duration": 5.42
+    },
+    {
+        "text": "6000 zeroes. Most estimates of the number of",
+        "start": 1331.2,
+        "duration": 3.29
+    },
+    {
+        "text": "particles in the observable universe are like one followed by 80 zeroes. Then this is 1 followed by 6000 zeroes.",
+        "start": 1334.95,
+        "duration": 7.35
+    },
+    {
+        "text": "(Brady: Okay, I'm not so ask you to draw it then, you're okay)",
+        "start": 1342.3,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm not gonna draw it and um, you know,",
+        "start": 1344.3,
+        "duration": 2.219
+    },
+    {
+        "text": "I don't know if there's anyone out there who has that many friends. Just because his examples,",
+        "start": 1346.52,
+        "duration": 5.34
+    },
+    {
+        "text": "his counter examples are that big, it does not mean that you need to go that big to get to a counter example.",
+        "start": 1353.04,
+        "duration": 6.8
+    },
+    {
+        "text": "So, at present",
+        "start": 1360.36,
+        "duration": 2.0
+    },
+    {
+        "text": "mathematicians don't really know",
+        "start": 1362.61,
+        "duration": 2.0
+    },
+    {
+        "text": "how small the counter examples can be.",
+        "start": 1364.62,
+        "duration": 2.48
+    },
+    {
+        "text": "So it is possible that there are examples out there that are of a size that is you know, sort of totally",
+        "start": 1367.68,
+        "duration": 6.29
+    },
+    {
+        "text": "reasonable and could actually correspond to",
+        "start": 1374.49,
+        "duration": 2.03
+    },
+    {
+        "text": "some, you know,",
+        "start": 1377.58,
+        "duration": 2.0
+    },
+    {
+        "text": "something that you could actually care about and could fathom in the - you know in the in the observable universe.",
+        "start": 1379.8,
+        "duration": 4.43
+    },
+    {
+        "text": "But that is something that we don't know yet. But now we know the conjecture is false, and so, now mathematicians can start chipping away",
+        "start": 1385.23,
+        "duration": 7.819
+    },
+    {
+        "text": "at, you know, like how small can these counter examples be.",
+        "start": 1393.78,
+        "duration": 3.42
+    },
+    {
+        "text": "...he is still alive.\n- (Brady: Now, you're a journalist, did - )",
+        "start": 1398.2,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: and I know you've written about this, did you speak to him?)\n- I, I was in touch with him by email and",
+        "start": 1400.28,
+        "duration": 4.32
+    },
+    {
+        "text": "he said that he was delighted.",
+        "start": 1405.39,
+        "duration": 2.0
+    },
+    {
+        "text": "And he, he was not at all invested in his conjecture having to be true. He was just happy to get an answer after 50 years.",
+        "start": 1408.15,
+        "duration": 6.71
+    },
+    {
+        "text": "Whether you're chilling on the sofa or out walking the dog,",
+        "start": 1415.74,
+        "duration": 3.68
+    },
+    {
+        "text": "there can be few simpler pleasures than losing yourself in an audiobook. And when it comes to audiobooks,",
+        "start": 1419.73,
+        "duration": 5.75
+    },
+    {
+        "text": "it's got to be today's episode sponsor Audible. Their selection is huge,",
+        "start": 1425.76,
+        "duration": 4.7
+    },
+    {
+        "text": "there are plenty of math books, of course, or you can go for my favourite audiobook so far; that's endurance by Alfred Lansing.",
+        "start": 1430.46,
+        "duration": 7.199
+    },
+    {
+        "text": "It's a cracking true story, simply told,",
+        "start": 1437.66,
+        "duration": 2.67
+    },
+    {
+        "text": "beautifully narrated; you'll really feel like you're stranded in the Antarctic ice with this band of incredible explorers.",
+        "start": 1440.85,
+        "duration": 5.63
+    },
+    {
+        "text": "It's an amazing audiobook. Really, give it a listen. Now if you're already on board with audible, don't worry,",
+        "start": 1446.48,
+        "duration": 4.829
+    },
+    {
+        "text": "you can also gift it to a friend or family member.",
+        "start": 1451.31,
+        "duration": 2.67
+    },
+    {
+        "text": "Let them share the joy, and for a limited time you can get three months of Audible for just $6.95 a month,",
+        "start": 1454.34,
+        "duration": 7.169
+    },
+    {
+        "text": "that's more than half off the regular price. You go to audible.com/numberphile - or if you're in the US",
+        "start": 1461.509,
+        "duration": 6.3
+    },
+    {
+        "text": "you can text numberphile to 500 500.",
+        "start": 1467.809,
+        "duration": 3.059
+    },
+    {
+        "text": "Again,",
+        "start": 1471.269,
+        "duration": 0.5
+    },
+    {
+        "text": "audible.com/numberphile or text numberphile to 500 500 - that's in the US. Get that great discount.",
+        "start": 1471.769,
+        "duration": 7.14
+    },
+    {
+        "text": "Thanks to Audible for supporting this episode.",
+        "start": 1478.95,
+        "duration": 2.089
+    },
+    {
+        "text": "[Previews of more videos]",
+        "start": 1484.95,
+        "duration": 2.0
+    }
+]

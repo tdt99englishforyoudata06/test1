@@ -1,0 +1,347 @@
+[
+    {
+        "text": "Researchers have shown that a swarm of reactive",
+        "start": 0.98,
+        "duration": 2.36
+    },
+    {
+        "text": "robots can function as a team",
+        "start": 3.34,
+        "duration": 1.86
+    },
+    {
+        "text": "to solve a complicated puzzle--",
+        "start": 5.2,
+        "duration": 1.76
+    },
+    {
+        "text": "without reasoning or explicit programming.",
+        "start": 6.96,
+        "duration": 2.94
+    },
+    {
+        "text": "They placed a swarm of 20 hockey-puck shaped robots",
+        "start": 9.9,
+        "duration": 3.0
+    },
+    {
+        "text": "inside an arena",
+        "start": 12.9,
+        "duration": 1.84
+    },
+    {
+        "text": "The swarm’s goal was to enter each booth",
+        "start": 14.74,
+        "duration": 2.06
+    },
+    {
+        "text": "in the correct order",
+        "start": 16.8,
+        "duration": 1.78
+    },
+    {
+        "text": "The bots sport LED lights,",
+        "start": 18.58,
+        "duration": 1.68
+    },
+    {
+        "text": "cameras, and infrared transceivers,",
+        "start": 20.26,
+        "duration": 2.98
+    },
+    {
+        "text": "Only robots within close proximity--",
+        "start": 23.24,
+        "duration": 1.94
+    },
+    {
+        "text": "within about 20 to 30 cm --",
+        "start": 25.18,
+        "duration": 2.06
+    },
+    {
+        "text": "could communicate.",
+        "start": 27.24,
+        "duration": 1.76
+    },
+    {
+        "text": "Each unit was programmed with the same",
+        "start": 29.0,
+        "duration": 1.74
+    },
+    {
+        "text": "predefined roles:, guardian, runner, tail, or link.",
+        "start": 30.74,
+        "duration": 4.78
+    },
+    {
+        "text": "At the start of each trial, all of the bots",
+        "start": 35.52,
+        "duration": 2.3
+    },
+    {
+        "text": "are runners and move randomly about the field.",
+        "start": 37.82,
+        "duration": 3.26
+    },
+    {
+        "text": "The first runners to enter each of the booths",
+        "start": 41.08,
+        "duration": 1.94
+    },
+    {
+        "text": "become guardians, setting up just outside of the",
+        "start": 43.02,
+        "duration": 2.32
+    },
+    {
+        "text": "booths to give instructions to other runners.",
+        "start": 45.34,
+        "duration": 3.0
+    },
+    {
+        "text": "The guardians receives a signal from the booth.",
+        "start": 48.34,
+        "duration": 2.32
+    },
+    {
+        "text": "If it is the first in the sequence the signal is yes.",
+        "start": 50.66,
+        "duration": 3.199
+    },
+    {
+        "text": "If not, the guardian is in front of ether 2 or 3.",
+        "start": 53.859,
+        "duration": 3.991
+    },
+    {
+        "text": "To navigate from booth to booth the robots form",
+        "start": 57.85,
+        "duration": 2.45
+    },
+    {
+        "text": "a chain from the guardian of the first booth.",
+        "start": 60.3,
+        "duration": 2.64
+    },
+    {
+        "text": "The last link in the chain is the tail",
+        "start": 62.94,
+        "duration": 2.16
+    },
+    {
+        "text": "and searches in a sweeping motion for",
+        "start": 65.1,
+        "duration": 2.16
+    },
+    {
+        "text": "a robot to become the next link in the chain.",
+        "start": 67.26,
+        "duration": 3.04
+    },
+    {
+        "text": "Once the chain reaches the second guardian,",
+        "start": 70.32,
+        "duration": 2.44
+    },
+    {
+        "text": "the process is repeated, creating a chain ending",
+        "start": 72.76,
+        "duration": 2.86
+    },
+    {
+        "text": "at the remaining guardian.",
+        "start": 75.62,
+        "duration": 2.02
+    },
+    {
+        "text": "The remaining free bots are runners and",
+        "start": 77.64,
+        "duration": 1.98
+    },
+    {
+        "text": "use the chain as a pathway,",
+        "start": 79.62,
+        "duration": 1.62
+    },
+    {
+        "text": "taking instruction from the guardians",
+        "start": 81.24,
+        "duration": 1.6
+    },
+    {
+        "text": "whether or not to enter the booths.",
+        "start": 82.84,
+        "duration": 2.54
+    },
+    {
+        "text": "A guardian that is unsure of whether it is in front",
+        "start": 85.38,
+        "duration": 2.36
+    },
+    {
+        "text": "of booth 2 or 3 will ask a runner",
+        "start": 87.74,
+        "duration": 2.46
+    },
+    {
+        "text": "that has performed exactly one task to enter its booths.",
+        "start": 90.2,
+        "duration": 3.42
+    },
+    {
+        "text": "If this runner receives a yes signal from the booth,",
+        "start": 93.62,
+        "duration": 2.58
+    },
+    {
+        "text": "the task is the second in the sequence.",
+        "start": 96.2,
+        "duration": 2.34
+    },
+    {
+        "text": "Otherwise, it is the third.",
+        "start": 98.54,
+        "duration": 2.64
+    },
+    {
+        "text": "Once the guardians have learned the position",
+        "start": 101.18,
+        "duration": 1.54
+    },
+    {
+        "text": "of their task in the sequence, they will guide",
+        "start": 102.72,
+        "duration": 2.52
+    },
+    {
+        "text": "the runners to complete the tasks",
+        "start": 105.24,
+        "duration": 1.84
+    },
+    {
+        "text": "in the correct sequence.",
+        "start": 107.08,
+        "duration": 2.08
+    },
+    {
+        "text": "Over 10 trials, the researchers showed that",
+        "start": 109.16,
+        "duration": 2.48
+    },
+    {
+        "text": "the swarm was able to accomplish something",
+        "start": 111.64,
+        "duration": 1.9
+    },
+    {
+        "text": "very complex through trial and error --",
+        "start": 113.54,
+        "duration": 1.94
+    },
+    {
+        "text": "by only reacting to their nearby environment.",
+        "start": 115.48,
+        "duration": 3.1
+    },
+    {
+        "text": "The study overturns conventional wisdom",
+        "start": 118.58,
+        "duration": 2.3
+    },
+    {
+        "text": "that robots can solve complex tasks in only one",
+        "start": 120.88,
+        "duration": 2.56
+    },
+    {
+        "text": "of two ways-- and not both.",
+        "start": 123.44,
+        "duration": 2.48
+    },
+    {
+        "text": "1. They could either use deductive reasoning to plan",
+        "start": 125.92,
+        "duration": 3.18
+    },
+    {
+        "text": "or 2. They could react in programmed ways",
+        "start": 129.11,
+        "duration": 2.45
+    },
+    {
+        "text": "to set situations.",
+        "start": 131.56,
+        "duration": 1.94
+    },
+    {
+        "text": "In this conglomeration of bots--both are happening.",
+        "start": 133.5,
+        "duration": 3.28
+    },
+    {
+        "text": "The ability to plan emerges from",
+        "start": 136.78,
+        "duration": 1.82
+    },
+    {
+        "text": "the interaction of simple reactive bots",
+        "start": 138.6,
+        "duration": 3.36
+    },
+    {
+        "text": "And this type of swarm is scalable.",
+        "start": 141.96,
+        "duration": 2.04
+    },
+    {
+        "text": "The same programming and sensors",
+        "start": 144.0,
+        "duration": 1.88
+    },
+    {
+        "text": "could serve a swarm of 100 or 10,000.",
+        "start": 145.88,
+        "duration": 3.56
+    },
+    {
+        "text": "While there’s no immediate applications for this,",
+        "start": 149.44,
+        "duration": 2.56
+    },
+    {
+        "text": "researchers working with these bots",
+        "start": 152.0,
+        "duration": 2.0
+    },
+    {
+        "text": "are really seeking to expand our understanding",
+        "start": 154.02,
+        "duration": 2.26
+    },
+    {
+        "text": "of how swarms of robots cooperate and become",
+        "start": 156.28,
+        "duration": 2.9
+    },
+    {
+        "text": "more than the sum of their parts--like bees  or ants.",
+        "start": 159.18,
+        "duration": 3.96
+    },
+    {
+        "text": "At the end of the day, the old saying still rings true",
+        "start": 163.14,
+        "duration": 3.38
+    },
+    {
+        "text": "there’s no ‘I’ in team…",
+        "start": 166.52,
+        "duration": 2.0
+    },
+    {
+        "text": "or in robot for that matter...",
+        "start": 168.54,
+        "duration": 2.22
+    }
+]

@@ -1,0 +1,1132 @@
+[
+    {
+        "text": "[♪ INTRO]",
+        "start": 0.0,
+        "duration": 3.765
+    },
+    {
+        "text": "There is an unsolved mystery at the heart\nof biology",
+        "start": 3.765,
+        "duration": 2.665
+    },
+    {
+        "text": "that’s been slowing progress in medicine\nfor a half a century.",
+        "start": 6.43,
+        "duration": 3.68
+    },
+    {
+        "text": "Whether you’re a biochemist trying to understand\nlife, or a drug designer",
+        "start": 10.11,
+        "duration": 3.44
+    },
+    {
+        "text": "trying to save lives, you may have run into\nthe protein folding problem.",
+        "start": 13.55,
+        "duration": 4.36
+    },
+    {
+        "text": "That is, despite the fact that proteins are\nfundamental to life,",
+        "start": 17.91,
+        "duration": 3.4
+    },
+    {
+        "text": "it’s really hard to predict what they look\nlike.",
+        "start": 21.31,
+        "duration": 3.51
+    },
+    {
+        "text": "But on the 15th of July 2021, two independent\ngroups announced that they’d",
+        "start": 24.82,
+        "duration": 4.379
+    },
+    {
+        "text": "cracked it, and it’s all thanks to some\nseriously clever artificial intelligence.",
+        "start": 29.199,
+        "duration": 4.45
+    },
+    {
+        "text": "Which is exciting, because it could eventually\nlead to breakthroughs in the fights",
+        "start": 33.649,
+        "duration": 3.921
+    },
+    {
+        "text": "against cancer and covid-19, and even toxic\nwaste.",
+        "start": 37.57,
+        "duration": 3.919
+    },
+    {
+        "text": "See, proteins are the building blocks of life.",
+        "start": 41.489,
+        "duration": 2.82
+    },
+    {
+        "text": "Everything in your body, and everything in\norganisms",
+        "start": 44.309,
+        "duration": 2.491
+    },
+    {
+        "text": "all the way down to viruses, is made either\nfrom or by proteins.",
+        "start": 46.8,
+        "duration": 4.628
+    },
+    {
+        "text": "Proteins transport oxygen in your blood, they\ndigest foods, copy DNA,",
+        "start": 51.428,
+        "duration": 4.162
+    },
+    {
+        "text": "fight infections, build structures...",
+        "start": 55.59,
+        "duration": 1.64
+    },
+    {
+        "text": "it’s not just the things you eat to gain\nmuscles here!",
+        "start": 57.23,
+        "duration": 2.8
+    },
+    {
+        "text": "In fact, DNA, which is the code that makes\nyou you,",
+        "start": 60.03,
+        "duration": 2.77
+    },
+    {
+        "text": "boils down to a series of instructions for\nmaking proteins.",
+        "start": 62.8,
+        "duration": 3.9
+    },
+    {
+        "text": "And proteins are made from a set of twenty",
+        "start": 66.7,
+        "duration": 1.529
+    },
+    {
+        "text": "building block molecules called amino acids.",
+        "start": 68.229,
+        "duration": 2.551
+    },
+    {
+        "text": "If proteins are like words, amino acids",
+        "start": 70.78,
+        "duration": 2.11
+    },
+    {
+        "text": "are the alphabet they’re made from.",
+        "start": 72.89,
+        "duration": 1.616
+    },
+    {
+        "text": "When your body makes proteins, it reads instructions\nfrom your DNA",
+        "start": 74.506,
+        "duration": 3.774
+    },
+    {
+        "text": "to make long strings of amino acids, which\nfold in on",
+        "start": 78.28,
+        "duration": 3.08
+    },
+    {
+        "text": "themselves in particular ways, and settle\ninto specific shapes.",
+        "start": 81.36,
+        "duration": 3.39
+    },
+    {
+        "text": "That shape determines how the protein works,\nbecause proteins need to fit",
+        "start": 84.75,
+        "duration": 4.689
+    },
+    {
+        "text": "together with other proteins like puzzle pieces,\nor latch onto specific molecules.",
+        "start": 89.439,
+        "duration": 3.941
+    },
+    {
+        "text": "And that makes proteins different from something\nlike DNA,",
+        "start": 93.38,
+        "duration": 3.239
+    },
+    {
+        "text": "where knowing the sequence is the same as\nknowing what it does.",
+        "start": 96.619,
+        "duration": 2.701
+    },
+    {
+        "text": "For a protein, the shape matters too.",
+        "start": 99.32,
+        "duration": 2.78
+    },
+    {
+        "text": "The neat thing, though, is that the way the\namino acid string folds",
+        "start": 102.1,
+        "duration": 3.269
+    },
+    {
+        "text": "is determined by the sequence.",
+        "start": 105.369,
+        "duration": 1.71
+    },
+    {
+        "text": "If you know that,",
+        "start": 107.079,
+        "duration": 1.04
+    },
+    {
+        "text": "you should be able to work out the protein’s\nfinal shape or shapes.",
+        "start": 108.119,
+        "duration": 3.551
+    },
+    {
+        "text": "And it’s easy enough to figure out what\nthe sequence should be,",
+        "start": 111.67,
+        "duration": 2.85
+    },
+    {
+        "text": "because that’s given to you by the DNA -- and\nwe can read the genetic code.",
+        "start": 114.52,
+        "duration": 3.82
+    },
+    {
+        "text": "But working out the shape is way harder.",
+        "start": 118.34,
+        "duration": 2.08
+    },
+    {
+        "text": "A protein can be made from anywhere from fifty\nto two thousand amino acids.",
+        "start": 120.42,
+        "duration": 4.379
+    },
+    {
+        "text": "And each amino acid has a slightly different\nchemical structure,",
+        "start": 124.799,
+        "duration": 3.041
+    },
+    {
+        "text": "adding to the complexity.",
+        "start": 127.84,
+        "duration": 1.44
+    },
+    {
+        "text": "Individual parts of the amino acids can interact\nwith all the other",
+        "start": 129.28,
+        "duration": 3.34
+    },
+    {
+        "text": "nearby amino acids, and even some of the faraway\nones,",
+        "start": 132.62,
+        "duration": 4.27
+    },
+    {
+        "text": "pushing the folding in seemingly random directions.",
+        "start": 136.89,
+        "duration": 2.63
+    },
+    {
+        "text": "It still ends up making a useful structure\nthat is the same every time,",
+        "start": 139.52,
+        "duration": 4.07
+    },
+    {
+        "text": "but it is very hard to predict how it gets\nthere.",
+        "start": 143.59,
+        "duration": 2.71
+    },
+    {
+        "text": "So even though we know the amino acid sequences\nof billions of proteins,",
+        "start": 146.3,
+        "duration": 4.36
+    },
+    {
+        "text": "we’re still stuck stumbling in the dark\nwhen it comes to working out their shapes.",
+        "start": 150.66,
+        "duration": 3.64
+    },
+    {
+        "text": "One way we currently study protein structure\nis using x-ray crystallography.",
+        "start": 154.3,
+        "duration": 3.41
+    },
+    {
+        "text": "A solution that contains proteins is slowly",
+        "start": 157.71,
+        "duration": 2.46
+    },
+    {
+        "text": "evaporated so that the proteins left behind\nform crystals.",
+        "start": 160.17,
+        "duration": 3.666
+    },
+    {
+        "text": "X-rays are fired at the crystals to get images,\nand those",
+        "start": 163.836,
+        "duration": 3.024
+    },
+    {
+        "text": "images are assembled into a 3D model.",
+        "start": 166.86,
+        "duration": 2.4
+    },
+    {
+        "text": "Another method uses nuclear magnetic resonance\nimaging,",
+        "start": 169.26,
+        "duration": 2.59
+    },
+    {
+        "text": "the same tech used in hospitals to image the\nhuman body.",
+        "start": 171.85,
+        "duration": 2.98
+    },
+    {
+        "text": "These processes are time-consuming:",
+        "start": 174.83,
+        "duration": 2.06
+    },
+    {
+        "text": "they can take days or even years depending\non the protein.",
+        "start": 176.89,
+        "duration": 3.246
+    },
+    {
+        "text": "But in 2020, a team from the London-based,",
+        "start": 180.136,
+        "duration": 2.804
+    },
+    {
+        "text": "Google-owned company DeepMind made a stunning\nannouncement.",
+        "start": 182.94,
+        "duration": 3.08
+    },
+    {
+        "text": "They claimed that their new AI algorithm,\nAlphaFold2, could",
+        "start": 186.02,
+        "duration": 4.12
+    },
+    {
+        "text": "predict the folded shape of proteins from\namino acid sequences",
+        "start": 190.14,
+        "duration": 3.8
+    },
+    {
+        "text": "about as well as experimental methods.",
+        "start": 193.94,
+        "duration": 2.54
+    },
+    {
+        "text": "DeepMind had previously made a name for itself\nby making",
+        "start": 196.48,
+        "duration": 2.4
+    },
+    {
+        "text": "AIs that can beat world champions in chess,\ngo, shogi, and even StarCraft 2.",
+        "start": 198.88,
+        "duration": 4.82
+    },
+    {
+        "text": "But the game-playing AIs were just a warm-up\nfor the real",
+        "start": 203.7,
+        "duration": 2.82
+    },
+    {
+        "text": "challenge of doing science.",
+        "start": 206.52,
+        "duration": 2.15
+    },
+    {
+        "text": "The proof of their claim came from the results\nof a",
+        "start": 208.67,
+        "duration": 2.01
+    },
+    {
+        "text": "competition held in 2020 called CASP14.",
+        "start": 210.68,
+        "duration": 3.36
+    },
+    {
+        "text": "CASP is a competition held once every two\nyears for",
+        "start": 214.04,
+        "duration": 2.31
+    },
+    {
+        "text": "people trying to solve the protein folding\nproblem with computers.",
+        "start": 216.35,
+        "duration": 3.42
+    },
+    {
+        "text": "In the competition, teams are given the amino\nacid",
+        "start": 219.77,
+        "duration": 2.162
+    },
+    {
+        "text": "sequences of about 100 proteins with known\nstructures.",
+        "start": 221.932,
+        "duration": 3.088
+    },
+    {
+        "text": "They’ve been worked out with experiments,",
+        "start": 225.02,
+        "duration": 1.87
+    },
+    {
+        "text": "like x-ray crystallography, but the structures\nhaven’t been revealed publicly.",
+        "start": 226.89,
+        "duration": 3.49
+    },
+    {
+        "text": "The teams then predict what the structure\nof the protein will look like after folding,",
+        "start": 230.38,
+        "duration": 4.21
+    },
+    {
+        "text": "and independent judges compare the predictions\nto the experiments.",
+        "start": 234.59,
+        "duration": 3.11
+    },
+    {
+        "text": "Before 2020, no team came close to experimental\naccuracy.",
+        "start": 237.7,
+        "duration": 3.9
+    },
+    {
+        "text": "Not even DeepMind themselves when they entered",
+        "start": 241.6,
+        "duration": 1.94
+    },
+    {
+        "text": "in 2018 with their original iteration of AlphaFold.",
+        "start": 243.54,
+        "duration": 3.36
+    },
+    {
+        "text": "But 2020 was different, and not just because\nthe",
+        "start": 246.9,
+        "duration": 2.85
+    },
+    {
+        "text": "competition involved proteins from a new virus\ncalled SARS-CoV-2!",
+        "start": 249.75,
+        "duration": 3.9
+    },
+    {
+        "text": "In CASP14, AlphaFold2 cracked the problem\nwide open:",
+        "start": 253.65,
+        "duration": 4.66
+    },
+    {
+        "text": "two-thirds of their predictions were about\nas good as experiments.",
+        "start": 258.31,
+        "duration": 3.399
+    },
+    {
+        "text": "And it’s not like the experiments were perfect,\neither.",
+        "start": 261.709,
+        "duration": 2.311
+    },
+    {
+        "text": "For some predictions where AlphaFold2 disagreed\nwith the experiments,",
+        "start": 264.02,
+        "duration": 3.769
+    },
+    {
+        "text": "it wasn’t actually clear which of the two\nwas closer to the real structure,",
+        "start": 267.789,
+        "duration": 3.91
+    },
+    {
+        "text": "since both predictions and experiments always\ncome with a certain margin of error.",
+        "start": 271.699,
+        "duration": 4.141
+    },
+    {
+        "text": "Many of AlphaFold2’s predictions were remarkably\nprecise.",
+        "start": 275.84,
+        "duration": 3.15
+    },
+    {
+        "text": "For some, the margin of error was the size\nof a typical atom.",
+        "start": 278.99,
+        "duration": 2.97
+    },
+    {
+        "text": "In other words, they guessed the exact spot\nwhere",
+        "start": 281.96,
+        "duration": 2.859
+    },
+    {
+        "text": "each of the thousands of individual atoms\nwere placed in the overall structure.",
+        "start": 284.819,
+        "duration": 4.66
+    },
+    {
+        "text": "It does not get much better than that!",
+        "start": 289.479,
+        "duration": 2.101
+    },
+    {
+        "text": "When the results were announced, scientists\nwere stunned by the breakthrough.",
+        "start": 291.58,
+        "duration": 3.78
+    },
+    {
+        "text": "Some had thought they would never see the\nproblem solved in their lifetimes,",
+        "start": 295.36,
+        "duration": 3.2
+    },
+    {
+        "text": "and called it a ‘holy grail’ of sorts.",
+        "start": 298.56,
+        "duration": 2.52
+    },
+    {
+        "text": "Basically, AlphaFold2 and the DeepMind team\nhad kind of",
+        "start": 301.08,
+        "duration": 3.35
+    },
+    {
+        "text": "‘solved’ the protein folding problem.",
+        "start": 304.43,
+        "duration": 2.06
+    },
+    {
+        "text": "But only kind of.",
+        "start": 306.49,
+        "duration": 1.22
+    },
+    {
+        "text": "The best was yet to come.",
+        "start": 307.71,
+        "duration": 1.859
+    },
+    {
+        "text": "DeepMind gave a short presentation about their\nalgorithm,",
+        "start": 309.569,
+        "duration": 2.75
+    },
+    {
+        "text": "which was seen by a group from the University\nof Washington, Seattle,",
+        "start": 312.319,
+        "duration": 3.361
+    },
+    {
+        "text": "who then applied what they saw to their own\nwork on the problem.",
+        "start": 315.68,
+        "duration": 3.609
+    },
+    {
+        "text": "Working with an international team of collaborators,",
+        "start": 319.289,
+        "duration": 1.831
+    },
+    {
+        "text": "they developed their own algorithm, which\nthey called RoseTTAFold.",
+        "start": 321.12,
+        "duration": 3.84
+    },
+    {
+        "text": "They combined the DeepMind team’s ideas\nwith some of their own,",
+        "start": 324.96,
+        "duration": 3.22
+    },
+    {
+        "text": "and made a program that was actually better\nthan AlphaFold in a few ways.",
+        "start": 328.18,
+        "duration": 3.539
+    },
+    {
+        "text": "Finally, on the same day in July 2021, both\nDeepMind and Seattle",
+        "start": 331.719,
+        "duration": 4.16
+    },
+    {
+        "text": "teams published their full methods, and made\nthe code free for academics to use.",
+        "start": 335.879,
+        "duration": 4.681
+    },
+    {
+        "text": "In a day, we went from having no good way\nto",
+        "start": 340.56,
+        "duration": 2.729
+    },
+    {
+        "text": "predict protein structure on a computer",
+        "start": 343.289,
+        "duration": 2.12
+    },
+    {
+        "text": "to having two different, highly-accurate options.",
+        "start": 345.409,
+        "duration": 2.85
+    },
+    {
+        "text": "And there’s already plenty of ideas for\nhow to use them.",
+        "start": 348.259,
+        "duration": 3.03
+    },
+    {
+        "text": "Firstly, DeepMind have published a paper with\npredictions",
+        "start": 351.289,
+        "duration": 2.72
+    },
+    {
+        "text": "for the structure of almost all human proteins,\nbut there’s more, too.",
+        "start": 354.009,
+        "duration": 4.81
+    },
+    {
+        "text": "Scientists are always trying to design drugs",
+        "start": 358.819,
+        "duration": 1.551
+    },
+    {
+        "text": "that stop proteins from binding to other proteins.",
+        "start": 360.37,
+        "duration": 2.669
+    },
+    {
+        "text": "Which is useful if those proteins are made\nby a cancerous cell,",
+        "start": 363.039,
+        "duration": 3.31
+    },
+    {
+        "text": "or, y’know, the virus that causes COVID-19.",
+        "start": 366.349,
+        "duration": 2.35
+    },
+    {
+        "text": "That process often relies on being able to\nmodify and design new proteins.",
+        "start": 368.699,
+        "duration": 4.171
+    },
+    {
+        "text": "Being able to see the protein you’re designing\non a computer",
+        "start": 372.87,
+        "duration": 2.829
+    },
+    {
+        "text": "without needing to go out and make it is hugely\nuseful.",
+        "start": 375.699,
+        "duration": 3.391
+    },
+    {
+        "text": "It could potentially streamline the process\nfrom taking years to taking days.",
+        "start": 379.09,
+        "duration": 4.319
+    },
+    {
+        "text": "And there’s more exotic ideas for new proteins\nout there, too.",
+        "start": 383.409,
+        "duration": 3.19
+    },
+    {
+        "text": "Proteins in our bodies break down harmful\nchemicals and make useful",
+        "start": 386.599,
+        "duration": 2.79
+    },
+    {
+        "text": "byproducts all the time, so imagine making\nan artificial protein",
+        "start": 389.389,
+        "duration": 3.86
+    },
+    {
+        "text": "that can break down toxic waste, or produce\nbiofuels.",
+        "start": 393.249,
+        "duration": 3.401
+    },
+    {
+        "text": "So, that’s what they did.",
+        "start": 396.65,
+        "duration": 1.349
+    },
+    {
+        "text": "Now the question is how did the",
+        "start": 397.999,
+        "duration": 1.39
+    },
+    {
+        "text": "DeepMind and Seattle teams bring home this\nholy grail of biochemistry?",
+        "start": 399.389,
+        "duration": 4.59
+    },
+    {
+        "text": "If you can’t tell, I, personally, am very\nexcited about this because it’s what I",
+        "start": 403.979,
+        "duration": 3.141
+    },
+    {
+        "text": "worked on in research and it was so hard and\nI’m so excited to see it get easier.",
+        "start": 407.12,
+        "duration": 5.72
+    },
+    {
+        "text": "Both methods use what’s called deep learning\nand neural networks.",
+        "start": 412.84,
+        "duration": 2.84
+    },
+    {
+        "text": "A neural network contains layers of interconnected\nnodes, or artificial ‘neurons’",
+        "start": 415.68,
+        "duration": 4.799
+    },
+    {
+        "text": "made of data, which use algorithms to mimic\nthe way biological neurons",
+        "start": 420.479,
+        "duration": 4.141
+    },
+    {
+        "text": "in our brains send signals back and forth\nto one another.",
+        "start": 424.62,
+        "duration": 3.13
+    },
+    {
+        "text": "Deep learning is a subset of machine learning,\nand it’s basically a neural network",
+        "start": 427.75,
+        "duration": 3.76
+    },
+    {
+        "text": "with at least three layers of nodes: an input\nlayer,",
+        "start": 431.51,
+        "duration": 3.83
+    },
+    {
+        "text": "one or more \"hidden\" intermediary layers,\nand an output layer.",
+        "start": 435.34,
+        "duration": 3.569
+    },
+    {
+        "text": "The idea is that with all these different\nlayers working together,",
+        "start": 438.909,
+        "duration": 2.34
+    },
+    {
+        "text": "the program can learn to recognize and identify\nobjects in a dataset.",
+        "start": 441.249,
+        "duration": 4.14
+    },
+    {
+        "text": "A classic example of how this works is training\na neural network",
+        "start": 445.389,
+        "duration": 2.791
+    },
+    {
+        "text": "to look at an image and work out whether it\nincludes a cat.",
+        "start": 448.18,
+        "duration": 3.48
+    },
+    {
+        "text": "You could think of each node in a neural network\nas its own",
+        "start": 451.66,
+        "duration": 2.789
+    },
+    {
+        "text": "tiny mathematical model, using an equation\nto predict an outcome.",
+        "start": 454.449,
+        "duration": 3.791
+    },
+    {
+        "text": "This prediction will be the output of the\nnode, and this data will be sent along",
+        "start": 458.24,
+        "duration": 4.29
+    },
+    {
+        "text": "as the input data to another node in the next\nlayer of the neural network.",
+        "start": 462.53,
+        "duration": 4.59
+    },
+    {
+        "text": "This process repeats over and over again.",
+        "start": 467.12,
+        "duration": 2.34
+    },
+    {
+        "text": "In the cat image example, you could use a\nset of correctly labeled training data",
+        "start": 469.46,
+        "duration": 4.099
+    },
+    {
+        "text": "to help “train” the algorithm.",
+        "start": 473.559,
+        "duration": 1.98
+    },
+    {
+        "text": "Like, say, thousands of images, some with\ncats, some without,",
+        "start": 475.539,
+        "duration": 2.891
+    },
+    {
+        "text": "that are labeled with and without cats.",
+        "start": 478.43,
+        "duration": 2.009
+    },
+    {
+        "text": "The algorithm makes its predictions and checks",
+        "start": 480.439,
+        "duration": 2.16
+    },
+    {
+        "text": "for errors against the known dataset.",
+        "start": 482.599,
+        "duration": 1.931
+    },
+    {
+        "text": "Then, it can use the data from the errors\nto adjust its predictions.",
+        "start": 484.53,
+        "duration": 4.229
+    },
+    {
+        "text": "And over time, it can gradually become more\naccurate.",
+        "start": 488.759,
+        "duration": 2.891
+    },
+    {
+        "text": "Eventually, you could give it testing data,\nasking it to identify cats",
+        "start": 491.65,
+        "duration": 3.25
+    },
+    {
+        "text": "in images it hasn’t been trained on, and\nchecking if it’s right.",
+        "start": 494.9,
+        "duration": 3.41
+    },
+    {
+        "text": "So, applying this to protein-folding,",
+        "start": 498.31,
+        "duration": 1.69
+    },
+    {
+        "text": "the training and testing data consisted of\ncorrectly folded proteins.",
+        "start": 500.0,
+        "duration": 4.02
+    },
+    {
+        "text": "The algorithms train themselves by looking\nat these proteins",
+        "start": 504.02,
+        "duration": 3.009
+    },
+    {
+        "text": "and trying to fold the proteins themselves\nto match what they see.",
+        "start": 507.029,
+        "duration": 3.871
+    },
+    {
+        "text": "Now, for the DeepMind and Seattle teams, that\ntraining and testing data came from",
+        "start": 510.9,
+        "duration": 3.569
+    },
+    {
+        "text": "the Protein Data Bank, which has over 180,000\nprotein structures",
+        "start": 514.469,
+        "duration": 4.731
+    },
+    {
+        "text": "and their amino acid sequences.",
+        "start": 519.2,
+        "duration": 1.84
+    },
+    {
+        "text": "Now at the basic level, most of the CASP14\nentries also used a",
+        "start": 521.04,
+        "duration": 3.92
+    },
+    {
+        "text": "deep learning approach, but the DeepMind and\nSeattle teams had",
+        "start": 524.96,
+        "duration": 3.43
+    },
+    {
+        "text": "some clever tricks up their sleeves.",
+        "start": 528.39,
+        "duration": 1.37
+    },
+    {
+        "text": "See, this is a more complex task than looking\nat cat pictures.",
+        "start": 529.76,
+        "duration": 3.17
+    },
+    {
+        "text": "The teams had to do more than just put in\npreviously-folded",
+        "start": 532.93,
+        "duration": 3.39
+    },
+    {
+        "text": "proteins and hope the algorithm learned how\nto fold more.",
+        "start": 536.32,
+        "duration": 3.35
+    },
+    {
+        "text": "So when the researchers built their algorithms,",
+        "start": 539.67,
+        "duration": 1.68
+    },
+    {
+        "text": "they needed to make adjustments specific to\nthe world of protein folding,",
+        "start": 541.35,
+        "duration": 4.15
+    },
+    {
+        "text": "which they needed deep biochemistry expertise\nto do.",
+        "start": 545.5,
+        "duration": 2.85
+    },
+    {
+        "text": "For example, biochemists can predict on a\nmore general level",
+        "start": 548.35,
+        "duration": 3.1
+    },
+    {
+        "text": "if an amino acid sequence is likely to form\na structure like a coil or a flat sheet.",
+        "start": 551.45,
+        "duration": 4.63
+    },
+    {
+        "text": "And they can use that knowledge to guide the\nneural network to its predictions.",
+        "start": 556.08,
+        "duration": 3.91
+    },
+    {
+        "text": "In fact, AlphaFold uses multiple neural networks",
+        "start": 559.99,
+        "duration": 3.06
+    },
+    {
+        "text": "that feed into each other in two stages.",
+        "start": 563.05,
+        "duration": 2.97
+    },
+    {
+        "text": "AlphaFold starts with a network that reads\nand folds the amino acid sequence",
+        "start": 566.02,
+        "duration": 3.371
+    },
+    {
+        "text": "and adjusts how far apart pairs of amino acids\nare in the overall structure.",
+        "start": 569.391,
+        "duration": 4.789
+    },
+    {
+        "text": "And that’s followed by a structure model\nnetwork that reads the whole thing,",
+        "start": 574.18,
+        "duration": 4.0
+    },
+    {
+        "text": "creates a 3D structure, and makes adjustments\nat the end.",
+        "start": 578.18,
+        "duration": 2.51
+    },
+    {
+        "text": "One of RoseTTAFold’s innovations was to\nadd a",
+        "start": 580.69,
+        "duration": 2.93
+    },
+    {
+        "text": "simultaneous third neural network:",
+        "start": 583.62,
+        "duration": 2.76
+    },
+    {
+        "text": "one that tracks where the amino acids are\nin 3D space as the structure folds,",
+        "start": 586.38,
+        "duration": 5.2
+    },
+    {
+        "text": "alongside the 1D and 2D information.",
+        "start": 591.58,
+        "duration": 2.8
+    },
+    {
+        "text": "On top of that, protein-folding researchers\nhave started to look at",
+        "start": 594.38,
+        "duration": 2.75
+    },
+    {
+        "text": "evolutionary history of closely-related proteins\nto work out their structures.",
+        "start": 597.13,
+        "duration": 4.57
+    },
+    {
+        "text": "If you know how closely related two proteins\nare, and you know the structure of",
+        "start": 601.7,
+        "duration": 3.61
+    },
+    {
+        "text": "one of them, you can make good guesses about\nthe structure of the other.",
+        "start": 605.31,
+        "duration": 3.43
+    },
+    {
+        "text": "The two teams both took advantage of this\nidea.",
+        "start": 608.74,
+        "duration": 2.708
+    },
+    {
+        "text": "RoseTTAFold isn’t quite as accurate as AlphaFold,\nbut it works using",
+        "start": 611.448,
+        "duration": 3.892
+    },
+    {
+        "text": "way less computing power and time,",
+        "start": 615.34,
+        "duration": 2.9
+    },
+    {
+        "text": "working out in minutes what AlphaFold needs\nhours to do.",
+        "start": 618.24,
+        "duration": 3.39
+    },
+    {
+        "text": "Because the Seattle team didn’t have the\nimmense computing power of Google",
+        "start": 621.63,
+        "duration": 3.35
+    },
+    {
+        "text": "at their disposal to do the calculations.",
+        "start": 624.98,
+        "duration": 1.84
+    },
+    {
+        "text": "But RoseTTAFold can actually do things AlphaFold\ncan’t do yet.",
+        "start": 626.82,
+        "duration": 3.89
+    },
+    {
+        "text": "For instance, AlphaFold struggles with the",
+        "start": 630.71,
+        "duration": 1.75
+    },
+    {
+        "text": "crucial but difficult subject of protein complexes,",
+        "start": 632.46,
+        "duration": 3.3
+    },
+    {
+        "text": "where multiple proteins interact and their\nstructures",
+        "start": 635.76,
+        "duration": 2.6
+    },
+    {
+        "text": "depend on which specific proteins are present.",
+        "start": 638.36,
+        "duration": 2.59
+    },
+    {
+        "text": "Many proteins require partners to function,\nso understanding",
+        "start": 640.95,
+        "duration": 3.21
+    },
+    {
+        "text": "protein complexes is part of understanding\nproteins.",
+        "start": 644.16,
+        "duration": 3.5
+    },
+    {
+        "text": "But RoseTTAFold can handle proteins where\nthe amino acid chain",
+        "start": 647.66,
+        "duration": 3.42
+    },
+    {
+        "text": "is broken into more than one piece, and that\nsame logic can be used to",
+        "start": 651.08,
+        "duration": 4.54
+    },
+    {
+        "text": "study interactions of different proteins with\neach other,",
+        "start": 655.62,
+        "duration": 3.22
+    },
+    {
+        "text": "which is needed to analyze complexes.",
+        "start": 658.84,
+        "duration": 1.79
+    },
+    {
+        "text": "So both methods have interesting things to\nbring to the table.",
+        "start": 660.63,
+        "duration": 2.612
+    },
+    {
+        "text": "However, no one here is envisioning replacing\nthe biologists",
+        "start": 663.242,
+        "duration": 3.208
+    },
+    {
+        "text": "who study protein structures.",
+        "start": 666.45,
+        "duration": 1.4
+    },
+    {
+        "text": "I mean, the AIs wouldn’t have gotten far\nwithout the",
+        "start": 667.85,
+        "duration": 2.77
+    },
+    {
+        "text": "massive databases of protein structures people\nhave built up over decades.",
+        "start": 670.62,
+        "duration": 3.51
+    },
+    {
+        "text": "And the AI is only useful because it will\nlet humans do more stuff.",
+        "start": 674.13,
+        "duration": 4.74
+    },
+    {
+        "text": "Like quickly designing and testing artificial\nproteins.",
+        "start": 678.87,
+        "duration": 2.64
+    },
+    {
+        "text": "With that power, biochemists will create exotic\nproteins we can only dream of,",
+        "start": 681.51,
+        "duration": 4.86
+    },
+    {
+        "text": "and biologists will be able to explore the\nhistory and nature of life like never before.",
+        "start": 686.37,
+        "duration": 5.92
+    },
+    {
+        "text": "With all of this potential, the future of\nbiology is starting to take shape.",
+        "start": 692.29,
+        "duration": 3.95
+    },
+    {
+        "text": "Thank you for watching this episode of SciShow,",
+        "start": 696.24,
+        "duration": 1.79
+    },
+    {
+        "text": "which was brought to you as always with the\nhelp of our amazing patrons.",
+        "start": 698.03,
+        "duration": 3.49
+    },
+    {
+        "text": "We would not be able to make ten minute long\nvideos about the overlap",
+        "start": 701.52,
+        "duration": 3.48
+    },
+    {
+        "text": "between chemical biology and computer science\nwithout you,",
+        "start": 705.0,
+        "duration": 2.97
+    },
+    {
+        "text": "and we appreciate the heck out of your support.",
+        "start": 707.97,
+        "duration": 1.98
+    },
+    {
+        "text": "If you’d like to get involved making things\nlike this possible,",
+        "start": 709.95,
+        "duration": 2.55
+    },
+    {
+        "text": "it’s so easy to do that.",
+        "start": 712.5,
+        "duration": 1.35
+    },
+    {
+        "text": "You just have to go to patreon.com/scishow.",
+        "start": 713.85,
+        "duration": 2.461
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 716.311,
+        "duration": 10.373
+    }
+]

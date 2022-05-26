@@ -1,0 +1,422 @@
+[
+    {
+        "text": "I have the number 210. Let's try to factor this into prime numbers.",
+        "start": 0.0,
+        "duration": 3.92
+    },
+    {
+        "text": "So 210 is 2 times 3 times 5 times 7.",
+        "start": 4.14,
+        "duration": 5.06
+    },
+    {
+        "text": "It's the product of the first four prime numbers. This is its unique prime factorization.",
+        "start": 9.3,
+        "duration": 6.34
+    },
+    {
+        "text": "And what are these prime numbers? These are numbers that can't be factored into smaller numbers.",
+        "start": 15.92,
+        "duration": 4.28
+    },
+    {
+        "text": "And we leave 1 out of the game because it's special. And so the prime numbers are 2, 3, 5, 7, 11, 13, 17, 19",
+        "start": 20.8,
+        "duration": 9.6
+    },
+    {
+        "text": "and they go on forever, as was proved",
+        "start": 31.04,
+        "duration": 2.92
+    },
+    {
+        "text": "maybe 2,300 years ago by Euclid. Now one thing that you can",
+        "start": 34.28,
+        "duration": 4.68
+    },
+    {
+        "text": "obviously see about these primes is that, after 2,",
+        "start": 39.18,
+        "duration": 2.96
+    },
+    {
+        "text": "they're all odd numbers.",
+        "start": 42.42,
+        "duration": 1.46
+    },
+    {
+        "text": "That means that, except for 2, if you add two primes together you get an even number.",
+        "start": 43.92,
+        "duration": 4.78
+    },
+    {
+        "text": "So the two primes could even be the same prime, so for example:",
+        "start": 48.78,
+        "duration": 3.06
+    },
+    {
+        "text": "I get 3 plus 3 equals 6.",
+        "start": 52.24,
+        "duration": 2.62
+    },
+    {
+        "text": "I get 3 plus 5 equals 8.",
+        "start": 55.0,
+        "duration": 3.68
+    },
+    {
+        "text": "I get -- let's see -- 3 plus 7 equals 10.",
+        "start": 58.92,
+        "duration": 3.98
+    },
+    {
+        "text": "I also have that the same as 5 plus 5. So 10 has two representations as a sum of two primes.",
+        "start": 63.0,
+        "duration": 6.839
+    },
+    {
+        "text": "There's a conjecture of",
+        "start": 70.45,
+        "duration": 2.0
+    },
+    {
+        "text": "Goldbach from the 18th century that every even number starting with 6 is the sum of two",
+        "start": 72.67,
+        "duration": 7.339
+    },
+    {
+        "text": "odd primes. And I should state this with a question mark.",
+        "start": 80.24,
+        "duration": 3.12
+    },
+    {
+        "text": "It's -- It's -- It's not known. There have been novels written about the quest for proving this conjecture of Goldbach.",
+        "start": 83.72,
+        "duration": 6.44
+    },
+    {
+        "text": "We don't know the answer.",
+        "start": 90.24,
+        "duration": 1.64
+    },
+    {
+        "text": "My friends who are analytic number theorists would die to prove Goldbach's Conjecture.",
+        "start": 91.88,
+        "duration": 5.04
+    },
+    {
+        "text": "It really is, would be a great prize, a great coup.",
+        "start": 96.92,
+        "duration": 3.0
+    },
+    {
+        "text": "We strongly suspect that the answer is yes, and why do we suspect so?",
+        "start": 99.92,
+        "duration": 4.76
+    },
+    {
+        "text": "Well, because the primes are very numerous. Even though they thin out,",
+        "start": 104.68,
+        "duration": 4.44
+    },
+    {
+        "text": "they are very numerous. And so, a given even number has a lot of chances to be the sum of two primes.",
+        "start": 109.14,
+        "duration": 6.66
+    },
+    {
+        "text": "210, as you can quickly see, is an even number. And Goldbach would predict that it's the sum of two primes.",
+        "start": 119.04,
+        "duration": 5.64
+    },
+    {
+        "text": "In fact, it's not only the sum of two primes. It's the sum of two primes in a lot of ways and a champion",
+        "start": 124.72,
+        "duration": 6.24
+    },
+    {
+        "text": "number of ways. So what I mean by that if --  if you're going to write 210 as p plus q",
+        "start": 130.96,
+        "duration": 6.48
+    },
+    {
+        "text": "where p is less than or equal to q and p and q are prime numbers and q Is",
+        "start": 137.44,
+        "duration": 5.36
+    },
+    {
+        "text": "greater than or equal to 105.",
+        "start": 142.8,
+        "duration": 4.16
+    },
+    {
+        "text": " ",
+        "start": 146.96,
+        "duration": 0.5
+    },
+    {
+        "text": "So let's take -- let q be any prime with 105",
+        "start": 150.22,
+        "duration": 4.44
+    },
+    {
+        "text": "less than or equal to q, less than or equal to 210. OK? Any prime whatsoever and now let's look at",
+        "start": 156.0,
+        "duration": 7.26
+    },
+    {
+        "text": "210 minus q. What can you tell me about that number? That number Is",
+        "start": 163.72,
+        "duration": 5.36
+    },
+    {
+        "text": "less than or equal to 105.",
+        "start": 170.0,
+        "duration": 2.48
+    },
+    {
+        "text": "105 being half of 210 and q Is above the halfway. 210 minus q is not divisible by 2.",
+        "start": 175.0,
+        "duration": 5.48
+    },
+    {
+        "text": "How do I know that?",
+        "start": 182.32,
+        "duration": 1.34
+    },
+    {
+        "text": "Because 210 is divisible by 2 and q is a prime and it's bigger than or equal to 105 so we're taught.",
+        "start": 183.66,
+        "duration": 8.0
+    },
+    {
+        "text": "OK?",
+        "start": 192.64,
+        "duration": 0.6
+    },
+    {
+        "text": "It's not divisible by 3. How do I know that? Because 3 Is a divisor of 210",
+        "start": 193.78,
+        "duration": 5.48
+    },
+    {
+        "text": "and q, being a prime and bigger than or equal to 105, Is not divisible by 3.",
+        "start": 199.76,
+        "duration": 6.1
+    },
+    {
+        "text": "And also this number is not divisible by 5 or 7.",
+        "start": 206.14,
+        "duration": 2.539
+    },
+    {
+        "text": "For the same reasons, since 210 Is 2 times 3 times 5 times 7.",
+        "start": 209.32,
+        "duration": 5.089
+    },
+    {
+        "text": "So this number does not have -- as prime factors -- 2, 3, 5, & 7.",
+        "start": 214.63,
+        "duration": 5.66
+    },
+    {
+        "text": "So what is its least possible prime factor?",
+        "start": 220.66,
+        "duration": 2.839
+    },
+    {
+        "text": "Well, it would be the next prime after 7 which is 11.",
+        "start": 223.92,
+        "duration": 3.54
+    },
+    {
+        "text": "So if this --",
+        "start": 227.62,
+        "duration": 1.42
+    },
+    {
+        "text": "-- a composite number, it would have to be some prime greater than or equal to 11 times something else",
+        "start": 230.1,
+        "duration": 4.72
+    },
+    {
+        "text": "bigger than 1. But the least candidate is 11 times 11",
+        "start": 235.36,
+        "duration": 4.66
+    },
+    {
+        "text": "which is 121 which is bigger than 105. So we conclude that 210 minus q",
+        "start": 240.54,
+        "duration": 6.62
+    },
+    {
+        "text": "is 1 or prime.",
+        "start": 247.16,
+        "duration": 2.68
+    },
+    {
+        "text": "And it's not 1.",
+        "start": 250.24,
+        "duration": 1.56
+    },
+    {
+        "text": "And how do I know it's not 1?",
+        "start": 251.96,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, if it were 1, that would mean that q is 209 and q is not equal to 209",
+        "start": 254.37,
+        "duration": 6.829
+    },
+    {
+        "text": "because 209 is not a prime (it's 11 times 19). So every prime q",
+        "start": 262.229,
+        "duration": 5.72
+    },
+    {
+        "text": "between 105 and 210 gives us a p such that p plus q equals 210.",
+        "start": 268.96,
+        "duration": 5.84
+    },
+    {
+        "text": "So, Goldbach is not only right about the number 210,",
+        "start": 281.46,
+        "duration": 4.54
+    },
+    {
+        "text": "he's REALLY right about the number 210. And -- in fact --",
+        "start": 286.0,
+        "duration": 4.44
+    },
+    {
+        "text": "you can ask how special is this property that 210 has.",
+        "start": 290.94,
+        "duration": 3.234
+    },
+    {
+        "text": "It's the last number with this property.",
+        "start": 294.174,
+        "duration": 2.396
+    },
+    {
+        "text": "So let's look at all these primes between 105 and 210.",
+        "start": 301.26,
+        "duration": 4.003
+    },
+    {
+        "text": "Here they are.",
+        "start": 305.263,
+        "duration": 1.076
+    },
+    {
+        "text": "Look at them.",
+        "start": 306.339,
+        "duration": 1.0
+    },
+    {
+        "text": "Every one of them is a candidate for writing 210 as a sum of two primes",
+        "start": 307.34,
+        "duration": 4.109
+    },
+    {
+        "text": "And, if it works, then 210 minus one of these primes will itself be a prime.",
+        "start": 311.78,
+        "duration": 4.9
+    },
+    {
+        "text": "Is there a pairing for each one of these primes where the prime's smaller than or equal to 105?",
+        "start": 316.9,
+        "duration": 6.72
+    },
+    {
+        "text": "And we find 210 is the very last case where this ever happens.",
+        "start": 324.14,
+        "duration": 3.94
+    },
+    {
+        "text": "It has happened for a few smaller cases so, for example, for the number 36.",
+        "start": 328.18,
+        "duration": 4.42
+    },
+    {
+        "text": "It works. OK, that's boring. 36 is small.",
+        "start": 337.84,
+        "duration": 3.82
+    },
+    {
+        "text": "210 is, you know, getting up there and it works for 210,",
+        "start": 341.66,
+        "duration": 2.98
+    },
+    {
+        "text": "OK? It doesn't work at all for any other number bigger than 210.",
+        "start": 345.22,
+        "duration": 3.422
+    },
+    {
+        "text": "[Brady] And this is a -- this is proven?",
+        "start": 348.642,
+        "duration": 1.626
+    },
+    {
+        "text": "[Carl Pomerance] And this is a proved theorem, and I can even tell you the names of the people that proved it.",
+        "start": 350.268,
+        "duration": 4.712
+    },
+    {
+        "text": "It was done in 1993 and the authors were:",
+        "start": 355.0,
+        "duration": 3.46
+    },
+    {
+        "text": "Jean-Marc Deshouillers, Andrew Granville, Wladyslaw Narkiewicz, and myself.",
+        "start": 358.74,
+        "duration": 5.86
+    },
+    {
+        "text": "[Brady] Professor, I'm going to call 210 VERY Goldbach-y",
+        "start": 365.02,
+        "duration": 3.26
+    },
+    {
+        "text": "[Carl Pomerance] Very Goldbach-y.",
+        "start": 368.94,
+        "duration": 0.9
+    },
+    {
+        "text": "That's an excellent name, Brady. I like it.",
+        "start": 369.84,
+        "duration": 2.14
+    },
+    {
+        "text": "[Professor David Eisenbud] -- 20.",
+        "start": 375.78,
+        "duration": 1.18
+    },
+    {
+        "text": "Here's 11 and 11: 22.",
+        "start": 376.96,
+        "duration": 4.02
+    },
+    {
+        "text": "And as you can see as it goes down I sort of fill things out.",
+        "start": 380.98,
+        "duration": 3.52
+    },
+    {
+        "text": "Now what you don't see from this picture so",
+        "start": 384.56,
+        "duration": 1.78
+    },
+    {
+        "text": "well is that actually, as the numbers get big, there are really a lot of ways of",
+        "start": 386.34,
+        "duration": 4.96
+    },
+    {
+        "text": "writing the numbers as the sum of two primes. And --",
+        "start": 391.3,
+        "duration": 2.7
+    }
+]

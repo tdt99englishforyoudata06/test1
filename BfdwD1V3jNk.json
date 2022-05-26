@@ -1,0 +1,992 @@
+[
+    {
+        "text": "hey everyone in order to make better",
+        "start": 0.03,
+        "duration": 4.769
+    },
+    {
+        "text": "coatings in my sputter chamber I need to",
+        "start": 2.34,
+        "duration": 4.439
+    },
+    {
+        "text": "accurately control what gases are being",
+        "start": 4.799,
+        "duration": 4.771
+    },
+    {
+        "text": "added in real time to the chamber so I",
+        "start": 6.779,
+        "duration": 4.44
+    },
+    {
+        "text": "started looking into these mass flow",
+        "start": 9.57,
+        "duration": 3.029
+    },
+    {
+        "text": "controllers and I thought I'd talk about",
+        "start": 11.219,
+        "duration": 4.651
+    },
+    {
+        "text": "what I learned at first I thought I",
+        "start": 12.599,
+        "duration": 5.131
+    },
+    {
+        "text": "would be able to accurately control gas",
+        "start": 15.87,
+        "duration": 4.14
+    },
+    {
+        "text": "flow with a manual flow meter also",
+        "start": 17.73,
+        "duration": 4.74
+    },
+    {
+        "text": "called a rota meter and these are pretty",
+        "start": 20.01,
+        "duration": 4.05
+    },
+    {
+        "text": "cool because they are completely",
+        "start": 22.47,
+        "duration": 3.84
+    },
+    {
+        "text": "unpowered and so there's really no",
+        "start": 24.06,
+        "duration": 4.08
+    },
+    {
+        "text": "chance that the electronics can die and",
+        "start": 26.31,
+        "duration": 4.02
+    },
+    {
+        "text": "they're typically much less expensive",
+        "start": 28.14,
+        "duration": 4.59
+    },
+    {
+        "text": "than a true mass flow controller so my",
+        "start": 30.33,
+        "duration": 3.81
+    },
+    {
+        "text": "plan was to just turn the needle valve",
+        "start": 32.73,
+        "duration": 4.169
+    },
+    {
+        "text": "and adjust the flow to what I needed and",
+        "start": 34.14,
+        "duration": 4.89
+    },
+    {
+        "text": "then call it quits but this actually",
+        "start": 36.899,
+        "duration": 3.57
+    },
+    {
+        "text": "doesn't work because what these flow",
+        "start": 39.03,
+        "duration": 3.63
+    },
+    {
+        "text": "meters measure is the volume flow rate",
+        "start": 40.469,
+        "duration": 5.82
+    },
+    {
+        "text": "and if the pressure changes like it will",
+        "start": 42.66,
+        "duration": 6.27
+    },
+    {
+        "text": "if the pressure regulator is not perfect",
+        "start": 46.289,
+        "duration": 4.77
+    },
+    {
+        "text": "or if the temperature varies a little",
+        "start": 48.93,
+        "duration": 4.41
+    },
+    {
+        "text": "bit then the actual amount of gas going",
+        "start": 51.059,
+        "duration": 5.07
+    },
+    {
+        "text": "through the flow meter will change a",
+        "start": 53.34,
+        "duration": 4.559
+    },
+    {
+        "text": "little bit or the reading will change it",
+        "start": 56.129,
+        "duration": 5.491
+    },
+    {
+        "text": "becomes inaccurate so what these meters",
+        "start": 57.899,
+        "duration": 5.491
+    },
+    {
+        "text": "are actually measuring is the volume",
+        "start": 61.62,
+        "duration": 3.84
+    },
+    {
+        "text": "flow rate they don't actually know how",
+        "start": 63.39,
+        "duration": 4.019
+    },
+    {
+        "text": "dense the gas is and if the pressure",
+        "start": 65.46,
+        "duration": 3.78
+    },
+    {
+        "text": "goes up or the temperature changes then",
+        "start": 67.409,
+        "duration": 3.661
+    },
+    {
+        "text": "the density will change and a different",
+        "start": 69.24,
+        "duration": 3.989
+    },
+    {
+        "text": "amount of gas will flow through the",
+        "start": 71.07,
+        "duration": 5.64
+    },
+    {
+        "text": "meter for a given flow rate I eventually",
+        "start": 73.229,
+        "duration": 5.46
+    },
+    {
+        "text": "found a pair of true mass flow",
+        "start": 76.71,
+        "duration": 4.17
+    },
+    {
+        "text": "controllers on ebay for quite a bit less",
+        "start": 78.689,
+        "duration": 3.741
+    },
+    {
+        "text": "than what they usually sell for",
+        "start": 80.88,
+        "duration": 3.779
+    },
+    {
+        "text": "surprisingly even on eBay these things",
+        "start": 82.43,
+        "duration": 3.579
+    },
+    {
+        "text": "typically go for a few hundred dollars",
+        "start": 84.659,
+        "duration": 3.75
+    },
+    {
+        "text": "each and in this case I got these two",
+        "start": 86.009,
+        "duration": 5.311
+    },
+    {
+        "text": "for substantially less the flow",
+        "start": 88.409,
+        "duration": 4.801
+    },
+    {
+        "text": "controller is an active device and it",
+        "start": 91.32,
+        "duration": 4.35
+    },
+    {
+        "text": "consists of a sensor and some analog",
+        "start": 93.21,
+        "duration": 4.979
+    },
+    {
+        "text": "amplification circuitry and a valve to",
+        "start": 95.67,
+        "duration": 4.65
+    },
+    {
+        "text": "regulate the flow of gas going through",
+        "start": 98.189,
+        "duration": 5.101
+    },
+    {
+        "text": "the whole thing so the setpoint is",
+        "start": 100.32,
+        "duration": 5.729
+    },
+    {
+        "text": "determined by an external voltage and",
+        "start": 103.29,
+        "duration": 4.71
+    },
+    {
+        "text": "then that's fed into this analog",
+        "start": 106.049,
+        "duration": 3.6
+    },
+    {
+        "text": "circuitry so we basically have a closed",
+        "start": 108.0,
+        "duration": 4.59
+    },
+    {
+        "text": "loop servo control system so the way it",
+        "start": 109.649,
+        "duration": 5.04
+    },
+    {
+        "text": "actually measures gas flow is by",
+        "start": 112.59,
+        "duration": 4.23
+    },
+    {
+        "text": "applying a little bit of heat to this",
+        "start": 114.689,
+        "duration": 5.28
+    },
+    {
+        "text": "sensing tube here and normally if no gas",
+        "start": 116.82,
+        "duration": 4.92
+    },
+    {
+        "text": "were flowing through this sensor tube",
+        "start": 119.969,
+        "duration": 4.11
+    },
+    {
+        "text": "the thermal profile would look something",
+        "start": 121.74,
+        "duration": 4.259
+    },
+    {
+        "text": "like this",
+        "start": 124.079,
+        "duration": 5.111
+    },
+    {
+        "text": "so that the tube is hot here and it's",
+        "start": 125.999,
+        "duration": 4.99
+    },
+    {
+        "text": "not as hot at the ends because it's",
+        "start": 129.19,
+        "duration": 3.54
+    },
+    {
+        "text": "attached to the rest of the system so",
+        "start": 130.989,
+        "duration": 3.901
+    },
+    {
+        "text": "there'd be this nice smooth Gaussian",
+        "start": 132.73,
+        "duration": 5.25
+    },
+    {
+        "text": "profile distribution however if there's",
+        "start": 134.89,
+        "duration": 5.099
+    },
+    {
+        "text": "gas flowing through this little sensing",
+        "start": 137.98,
+        "duration": 4.229
+    },
+    {
+        "text": "tube the profile will look something",
+        "start": 139.989,
+        "duration": 5.22
+    },
+    {
+        "text": "more like this it will be shifted over",
+        "start": 142.209,
+        "duration": 5.161
+    },
+    {
+        "text": "and it will be spread out it'll be a",
+        "start": 145.209,
+        "duration": 4.471
+    },
+    {
+        "text": "little bit more lopsided so basically",
+        "start": 147.37,
+        "duration": 5.22
+    },
+    {
+        "text": "we've got two wound coils around the",
+        "start": 149.68,
+        "duration": 5.4
+    },
+    {
+        "text": "sensing tube and if there's gas flowing",
+        "start": 152.59,
+        "duration": 5.16
+    },
+    {
+        "text": "through there the further down part of",
+        "start": 155.08,
+        "duration": 4.11
+    },
+    {
+        "text": "the tube will be hotter in other words",
+        "start": 157.75,
+        "duration": 3.78
+    },
+    {
+        "text": "this coil will be hotter because the",
+        "start": 159.19,
+        "duration": 4.379
+    },
+    {
+        "text": "temperature profile has shifted over and",
+        "start": 161.53,
+        "duration": 4.26
+    },
+    {
+        "text": "we can sense that difference with the",
+        "start": 163.569,
+        "duration": 3.901
+    },
+    {
+        "text": "analog circuitry so we know that there's",
+        "start": 165.79,
+        "duration": 3.93
+    },
+    {
+        "text": "gas flowing through there what's",
+        "start": 167.47,
+        "duration": 4.89
+    },
+    {
+        "text": "interesting is that if the gas pressure",
+        "start": 169.72,
+        "duration": 4.71
+    },
+    {
+        "text": "changes so let's say suddenly our input",
+        "start": 172.36,
+        "duration": 3.87
+    },
+    {
+        "text": "pressure doubles or something like that",
+        "start": 174.43,
+        "duration": 4.44
+    },
+    {
+        "text": "then there's just more molecules in here",
+        "start": 176.23,
+        "duration": 4.349
+    },
+    {
+        "text": "to soak up the heat as they're traveling",
+        "start": 178.87,
+        "duration": 4.29
+    },
+    {
+        "text": "through the tube and we will get a",
+        "start": 180.579,
+        "duration": 4.47
+    },
+    {
+        "text": "reading like well we can detect when the",
+        "start": 183.16,
+        "duration": 5.669
+    },
+    {
+        "text": "pressure changes similarly if the input",
+        "start": 185.049,
+        "duration": 6.0
+    },
+    {
+        "text": "temperature changes we don't really care",
+        "start": 188.829,
+        "duration": 3.78
+    },
+    {
+        "text": "too much because we're mostly just",
+        "start": 191.049,
+        "duration": 4.111
+    },
+    {
+        "text": "interested in the shape of this profile",
+        "start": 192.609,
+        "duration": 5.28
+    },
+    {
+        "text": "so even if the overall temperature goes",
+        "start": 195.16,
+        "duration": 5.07
+    },
+    {
+        "text": "up it doesn't matter because really all",
+        "start": 197.889,
+        "duration": 3.66
+    },
+    {
+        "text": "we're making is a differential",
+        "start": 200.23,
+        "duration": 5.25
+    },
+    {
+        "text": "measurement here one consideration is",
+        "start": 201.549,
+        "duration": 6.03
+    },
+    {
+        "text": "that we want the gas flowing through the",
+        "start": 205.48,
+        "duration": 4.289
+    },
+    {
+        "text": "small tube to be laminar flow so that",
+        "start": 207.579,
+        "duration": 4.291
+    },
+    {
+        "text": "turbulence doesn't cause our readings to",
+        "start": 209.769,
+        "duration": 4.47
+    },
+    {
+        "text": "be weird so what we do is we put a",
+        "start": 211.87,
+        "duration": 4.32
+    },
+    {
+        "text": "restriction in the main flow path that",
+        "start": 214.239,
+        "duration": 4.411
+    },
+    {
+        "text": "has almost well has a known resistance",
+        "start": 216.19,
+        "duration": 4.979
+    },
+    {
+        "text": "so that when we split the flow into this",
+        "start": 218.65,
+        "duration": 4.32
+    },
+    {
+        "text": "little metered flow and the main flow",
+        "start": 221.169,
+        "duration": 4.771
+    },
+    {
+        "text": "that ratio holds constant for the",
+        "start": 222.97,
+        "duration": 8.37
+    },
+    {
+        "text": "operating range of the valve so here's",
+        "start": 225.94,
+        "duration": 6.93
+    },
+    {
+        "text": "the valve where I've taken the cover off",
+        "start": 231.34,
+        "duration": 3.78
+    },
+    {
+        "text": "this is the cover here this little",
+        "start": 232.87,
+        "duration": 4.32
+    },
+    {
+        "text": "chamber here presumably has the metering",
+        "start": 235.12,
+        "duration": 4.739
+    },
+    {
+        "text": "tube in it and then here's the control",
+        "start": 237.19,
+        "duration": 4.65
+    },
+    {
+        "text": "valve and then most of the gas goes",
+        "start": 239.859,
+        "duration": 3.421
+    },
+    {
+        "text": "straight through through that",
+        "start": 241.84,
+        "duration": 5.28
+    },
+    {
+        "text": "restriction in the bottom there these",
+        "start": 243.28,
+        "duration": 5.639
+    },
+    {
+        "text": "valves need to be calibrated for the",
+        "start": 247.12,
+        "duration": 3.479
+    },
+    {
+        "text": "specific gas that you're going to be",
+        "start": 248.919,
+        "duration": 4.111
+    },
+    {
+        "text": "measuring so it's no fair to calibrate",
+        "start": 250.599,
+        "duration": 5.081
+    },
+    {
+        "text": "it on oxygen and then switch to argon",
+        "start": 253.03,
+        "duration": 5.079
+    },
+    {
+        "text": "it will not it will still compensate for",
+        "start": 255.68,
+        "duration": 3.809
+    },
+    {
+        "text": "pressure differences but the overall",
+        "start": 258.109,
+        "duration": 3.571
+    },
+    {
+        "text": "reading will be off because argon and",
+        "start": 259.489,
+        "duration": 4.381
+    },
+    {
+        "text": "oxygen have different thermal properties",
+        "start": 261.68,
+        "duration": 3.959
+    },
+    {
+        "text": "since what we're measuring here is the",
+        "start": 263.87,
+        "duration": 4.23
+    },
+    {
+        "text": "ability for the gas to carry heat from",
+        "start": 265.639,
+        "duration": 5.161
+    },
+    {
+        "text": "one heater to the next if the gases",
+        "start": 268.1,
+        "duration": 4.56
+    },
+    {
+        "text": "thermal properties change then that is",
+        "start": 270.8,
+        "duration": 4.47
+    },
+    {
+        "text": "going to change the reading this unit is",
+        "start": 272.66,
+        "duration": 4.62
+    },
+    {
+        "text": "calibrated for a hundred standard cubic",
+        "start": 275.27,
+        "duration": 4.53
+    },
+    {
+        "text": "centimeters per minute of argon and this",
+        "start": 277.28,
+        "duration": 4.74
+    },
+    {
+        "text": "valve that I have hooked up is 10 cubic",
+        "start": 279.8,
+        "duration": 5.7
+    },
+    {
+        "text": "centimeters of oxygen per minute in",
+        "start": 282.02,
+        "duration": 5.88
+    },
+    {
+        "text": "order to do a rough sort of sandy check",
+        "start": 285.5,
+        "duration": 4.77
+    },
+    {
+        "text": "calibration on these devices I hoped",
+        "start": 287.9,
+        "duration": 4.38
+    },
+    {
+        "text": "this went up and set it to mid scale and",
+        "start": 290.27,
+        "duration": 4.619
+    },
+    {
+        "text": "I put the tube in a beaker of water so",
+        "start": 292.28,
+        "duration": 4.32
+    },
+    {
+        "text": "you can see how much gas is visually",
+        "start": 294.889,
+        "duration": 4.411
+    },
+    {
+        "text": "coming out it's set to mid scale on the",
+        "start": 296.6,
+        "duration": 4.439
+    },
+    {
+        "text": "full range is 10 standard cubic",
+        "start": 299.3,
+        "duration": 3.3
+    },
+    {
+        "text": "centimeters a minute so in theory this",
+        "start": 301.039,
+        "duration": 3.961
+    },
+    {
+        "text": "is what five standard cubic centimeters",
+        "start": 302.6,
+        "duration": 6.12
+    },
+    {
+        "text": "of oxygen looks like I also have a rota",
+        "start": 305.0,
+        "duration": 5.85
+    },
+    {
+        "text": "meter in line going into the flow",
+        "start": 308.72,
+        "duration": 4.58
+    },
+    {
+        "text": "controller just to get a reading a",
+        "start": 310.85,
+        "duration": 5.22
+    },
+    {
+        "text": "comparison reading and the numbers",
+        "start": 313.3,
+        "duration": 4.839
+    },
+    {
+        "text": "appear to be agreeing pretty well the",
+        "start": 316.07,
+        "duration": 4.38
+    },
+    {
+        "text": "rota meter is coming up with about 3.6",
+        "start": 318.139,
+        "duration": 5.691
+    },
+    {
+        "text": "or 3.7 standard cubic centimeters of air",
+        "start": 320.45,
+        "duration": 6.12
+    },
+    {
+        "text": "however the rota meter is calibrated for",
+        "start": 323.83,
+        "duration": 5.23
+    },
+    {
+        "text": "one atmosphere and currently I have",
+        "start": 326.57,
+        "duration": 4.92
+    },
+    {
+        "text": "about 12 psi or almost two atmospheres",
+        "start": 329.06,
+        "duration": 7.71
+    },
+    {
+        "text": "going into the flow meter this actually",
+        "start": 331.49,
+        "duration": 7.109
+    },
+    {
+        "text": "makes sense since earlier I said that",
+        "start": 336.77,
+        "duration": 3.63
+    },
+    {
+        "text": "pressure will cause a pressure change",
+        "start": 338.599,
+        "duration": 3.331
+    },
+    {
+        "text": "will cause the rota meter to be",
+        "start": 340.4,
+        "duration": 3.84
+    },
+    {
+        "text": "incorrect and in this case a higher",
+        "start": 341.93,
+        "duration": 5.489
+    },
+    {
+        "text": "pressure means a lower volume flow so",
+        "start": 344.24,
+        "duration": 5.31
+    },
+    {
+        "text": "the rota meter will read low when the",
+        "start": 347.419,
+        "duration": 3.991
+    },
+    {
+        "text": "pressure is above its intended",
+        "start": 349.55,
+        "duration": 5.22
+    },
+    {
+        "text": "calibration point and as it turns out",
+        "start": 351.41,
+        "duration": 5.879
+    },
+    {
+        "text": "the difference or the the correction",
+        "start": 354.77,
+        "duration": 4.8
+    },
+    {
+        "text": "factor is the square root the ratio of",
+        "start": 357.289,
+        "duration": 4.681
+    },
+    {
+        "text": "the pressure differences so in this case",
+        "start": 359.57,
+        "duration": 5.909
+    },
+    {
+        "text": "we've got about square root 2 since",
+        "start": 361.97,
+        "duration": 5.16
+    },
+    {
+        "text": "we're running at about 12 psi that's",
+        "start": 365.479,
+        "duration": 5.011
+    },
+    {
+        "text": "almost 2 atmospheres absolute and that's",
+        "start": 367.13,
+        "duration": 5.909
+    },
+    {
+        "text": "about 1.4 square root of 2 and so if we",
+        "start": 370.49,
+        "duration": 5.88
+    },
+    {
+        "text": "multiply 1.4 by the 3 point 6 or 7 we",
+        "start": 373.039,
+        "duration": 5.13
+    },
+    {
+        "text": "get up to about 5 and that makes sense",
+        "start": 376.37,
+        "duration": 3.96
+    },
+    {
+        "text": "since I I set the flow meter to the flow",
+        "start": 378.169,
+        "duration": 4.651
+    },
+    {
+        "text": "controller to mid scale here's a closer",
+        "start": 380.33,
+        "duration": 4.13
+    },
+    {
+        "text": "look at the flow controller itself",
+        "start": 382.82,
+        "duration": 4.19
+    },
+    {
+        "text": "inside there there's actually an LM 324",
+        "start": 384.46,
+        "duration": 3.92
+    },
+    {
+        "text": "quad ah",
+        "start": 387.01,
+        "duration": 3.23
+    },
+    {
+        "text": "out there and it's got a bunch of",
+        "start": 388.38,
+        "duration": 4.68
+    },
+    {
+        "text": "internal pots to set presumably slope",
+        "start": 390.24,
+        "duration": 6.18
+    },
+    {
+        "text": "and gain internal gain stuff there's",
+        "start": 393.06,
+        "duration": 5.61
+    },
+    {
+        "text": "only one pot exposed to the outside",
+        "start": 396.42,
+        "duration": 4.05
+    },
+    {
+        "text": "there's a hole in the outside cover for",
+        "start": 398.67,
+        "duration": 4.35
+    },
+    {
+        "text": "calibration so apparently once all these",
+        "start": 400.47,
+        "duration": 4.17
+    },
+    {
+        "text": "other ones are set in fact this one even",
+        "start": 403.02,
+        "duration": 4.14
+    },
+    {
+        "text": "has it do not adjust sticker on it then",
+        "start": 404.64,
+        "duration": 4.89
+    },
+    {
+        "text": "the meter is good for anything and to",
+        "start": 407.16,
+        "duration": 4.14
+    },
+    {
+        "text": "adjust for different gas types and",
+        "start": 409.53,
+        "duration": 4.14
+    },
+    {
+        "text": "different maximum flow rates I think",
+        "start": 411.3,
+        "duration": 4.53
+    },
+    {
+        "text": "they just changed this one pop here and",
+        "start": 413.67,
+        "duration": 5.55
+    },
+    {
+        "text": "change an aperture like a pinhole or",
+        "start": 415.83,
+        "duration": 5.19
+    },
+    {
+        "text": "something inside to basically set the",
+        "start": 419.22,
+        "duration": 4.5
+    },
+    {
+        "text": "overall flow rate annoyingly the meter",
+        "start": 421.02,
+        "duration": 5.34
+    },
+    {
+        "text": "requires plus and minus 15 volts to",
+        "start": 423.72,
+        "duration": 5.37
+    },
+    {
+        "text": "operate and then accepts a 0 to 5 volt",
+        "start": 426.36,
+        "duration": 4.86
+    },
+    {
+        "text": "input control signal to tell it how much",
+        "start": 429.09,
+        "duration": 5.42
+    },
+    {
+        "text": "flow you want it has these two to-220",
+        "start": 431.22,
+        "duration": 6.09
+    },
+    {
+        "text": "transistors to control power going into",
+        "start": 434.51,
+        "duration": 6.55
+    },
+    {
+        "text": "the valve and it also outputs a 0 to 5",
+        "start": 437.31,
+        "duration": 5.13
+    },
+    {
+        "text": "volt signal to tell you what it thinks",
+        "start": 441.06,
+        "duration": 3.42
+    },
+    {
+        "text": "the flow rate is so you can actually",
+        "start": 442.44,
+        "duration": 4.68
+    },
+    {
+        "text": "tune the or at least you can be aware if",
+        "start": 444.48,
+        "duration": 4.71
+    },
+    {
+        "text": "the thing is not servo incorrectly if",
+        "start": 447.12,
+        "duration": 4.14
+    },
+    {
+        "text": "your application requires rapid flow",
+        "start": 449.19,
+        "duration": 5.16
+    },
+    {
+        "text": "changes you can see how the actual flow",
+        "start": 451.26,
+        "duration": 5.07
+    },
+    {
+        "text": "rate is not is or is not meeting your",
+        "start": 454.35,
+        "duration": 4.74
+    },
+    {
+        "text": "requested flow rate okay well I'm gonna",
+        "start": 456.33,
+        "duration": 4.65
+    },
+    {
+        "text": "get these installed on my vacuum chamber",
+        "start": 459.09,
+        "duration": 3.6
+    },
+    {
+        "text": "and hopefully be sputtering pretty soon",
+        "start": 460.98,
+        "duration": 5.93
+    },
+    {
+        "text": "ok see you next time bye",
+        "start": 462.69,
+        "duration": 4.22
+    }
+]

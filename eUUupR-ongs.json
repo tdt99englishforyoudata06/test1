@@ -1,0 +1,2742 @@
+[
+    {
+        "text": "tonight on Applied Science we're going",
+        "start": 1.399,
+        "duration": 3.391
+    },
+    {
+        "text": "to talk about",
+        "start": 3.84,
+        "duration": 3.12
+    },
+    {
+        "text": "electroluminescent spray paint that lets",
+        "start": 4.79,
+        "duration": 4.24
+    },
+    {
+        "text": "you put an electroluminescent display on",
+        "start": 6.96,
+        "duration": 4.53
+    },
+    {
+        "text": "any curved or even flexible surface and",
+        "start": 9.03,
+        "duration": 4.8
+    },
+    {
+        "text": "then also I'm going to show you a custom",
+        "start": 11.49,
+        "duration": 4.559
+    },
+    {
+        "text": "driver circuit that I designed that lets",
+        "start": 13.83,
+        "duration": 4.199
+    },
+    {
+        "text": "you get really smooth animations with",
+        "start": 16.049,
+        "duration": 4.081
+    },
+    {
+        "text": "your newly created electroluminescent",
+        "start": 18.029,
+        "duration": 6.781
+    },
+    {
+        "text": "device the electroluminescent paint is a",
+        "start": 20.13,
+        "duration": 6.989
+    },
+    {
+        "text": "commercial product called luma lure and",
+        "start": 24.81,
+        "duration": 4.59
+    },
+    {
+        "text": "when you buy it it's sold in this kit of",
+        "start": 27.119,
+        "duration": 4.801
+    },
+    {
+        "text": "different layers and what you do is",
+        "start": 29.4,
+        "duration": 4.35
+    },
+    {
+        "text": "spray these things down sequentially to",
+        "start": 31.92,
+        "duration": 4.229
+    },
+    {
+        "text": "make a display so the kit includes",
+        "start": 33.75,
+        "duration": 4.379
+    },
+    {
+        "text": "everything you need except for a way to",
+        "start": 36.149,
+        "duration": 4.351
+    },
+    {
+        "text": "deposit the paint and generally I've",
+        "start": 38.129,
+        "duration": 4.081
+    },
+    {
+        "text": "been using a little airbrush like this",
+        "start": 40.5,
+        "duration": 3.48
+    },
+    {
+        "text": "this one is called a neo it's about",
+        "start": 42.21,
+        "duration": 4.47
+    },
+    {
+        "text": "forty or fifty dollars on Amazon but you",
+        "start": 43.98,
+        "duration": 4.44
+    },
+    {
+        "text": "can also use this cheapo Harbor Freight",
+        "start": 46.68,
+        "duration": 3.899
+    },
+    {
+        "text": "one the difference is that this is sort",
+        "start": 48.42,
+        "duration": 4.35
+    },
+    {
+        "text": "of a siphon feed and this is sort of a",
+        "start": 50.579,
+        "duration": 4.471
+    },
+    {
+        "text": "gravity feed and the gravity feed cup is",
+        "start": 52.77,
+        "duration": 3.84
+    },
+    {
+        "text": "very small so if you're if you're doing",
+        "start": 55.05,
+        "duration": 3.18
+    },
+    {
+        "text": "very small objects it's helpful to have",
+        "start": 56.61,
+        "duration": 3.33
+    },
+    {
+        "text": "a really tiny airbrush so you don't",
+        "start": 58.23,
+        "duration": 4.8
+    },
+    {
+        "text": "waste paint this stuff is very expensive",
+        "start": 59.94,
+        "duration": 6.24
+    },
+    {
+        "text": "it's about 450 or 500 dollars for the",
+        "start": 63.03,
+        "duration": 5.49
+    },
+    {
+        "text": "set of paint and you know it sounds bad",
+        "start": 66.18,
+        "duration": 4.14
+    },
+    {
+        "text": "but if you're doing small displays this",
+        "start": 68.52,
+        "duration": 3.63
+    },
+    {
+        "text": "amount of paint will last you quite a",
+        "start": 70.32,
+        "duration": 3.54
+    },
+    {
+        "text": "bit I don't know what the coverage is",
+        "start": 72.15,
+        "duration": 5.009
+    },
+    {
+        "text": "exactly but I've been making all kinds",
+        "start": 73.86,
+        "duration": 4.92
+    },
+    {
+        "text": "of different test panels and you can",
+        "start": 77.159,
+        "duration": 4.201
+    },
+    {
+        "text": "easily spray something this big with the",
+        "start": 78.78,
+        "duration": 5.129
+    },
+    {
+        "text": "airbrush and it only uses you know a 50",
+        "start": 81.36,
+        "duration": 7.439
+    },
+    {
+        "text": "if they're less of your bottle loom",
+        "start": 83.909,
+        "duration": 6.511
+    },
+    {
+        "text": "allure is targeted for the automotive",
+        "start": 88.799,
+        "duration": 3.451
+    },
+    {
+        "text": "industry and this company actually has",
+        "start": 90.42,
+        "duration": 4.08
+    },
+    {
+        "text": "quite a few good tutorial videos so I'm",
+        "start": 92.25,
+        "duration": 4.17
+    },
+    {
+        "text": "not going to rehash the whole thing but",
+        "start": 94.5,
+        "duration": 3.6
+    },
+    {
+        "text": "I am going to add what I've learned from",
+        "start": 96.42,
+        "duration": 3.87
+    },
+    {
+        "text": "it and also step through it quickly just",
+        "start": 98.1,
+        "duration": 4.949
+    },
+    {
+        "text": "so you can see the trick is if you want",
+        "start": 100.29,
+        "duration": 4.289
+    },
+    {
+        "text": "to make a pattern like this like if you",
+        "start": 103.049,
+        "duration": 3.78
+    },
+    {
+        "text": "actually want the light up area to be a",
+        "start": 104.579,
+        "duration": 4.5
+    },
+    {
+        "text": "pattern the easiest way to do that is to",
+        "start": 106.829,
+        "duration": 4.411
+    },
+    {
+        "text": "use a vinyl cutter and so the trick is",
+        "start": 109.079,
+        "duration": 4.47
+    },
+    {
+        "text": "that you load this vinyl into the cutter",
+        "start": 111.24,
+        "duration": 4.26
+    },
+    {
+        "text": "cut out the section that you want to",
+        "start": 113.549,
+        "duration": 6.241
+    },
+    {
+        "text": "light up and then use a transfer sticker",
+        "start": 115.5,
+        "duration": 6.6
+    },
+    {
+        "text": "to move the vinyl onto your substrate",
+        "start": 119.79,
+        "duration": 5.039
+    },
+    {
+        "text": "and then spray the copper paint which is",
+        "start": 122.1,
+        "duration": 4.17
+    },
+    {
+        "text": "the first step of this loom Alaura",
+        "start": 124.829,
+        "duration": 4.8
+    },
+    {
+        "text": "process through the vinyl cut thing so",
+        "start": 126.27,
+        "duration": 5.219
+    },
+    {
+        "text": "you end up with the copper pattern where",
+        "start": 129.629,
+        "duration": 5.151
+    },
+    {
+        "text": "you want the light to come out",
+        "start": 131.489,
+        "duration": 3.291
+    },
+    {
+        "text": "I've tried patterning every other part",
+        "start": 135.7,
+        "duration": 4.75
+    },
+    {
+        "text": "of this whole luma lore process and",
+        "start": 138.83,
+        "duration": 3.54
+    },
+    {
+        "text": "found that patterning the coppers by far",
+        "start": 140.45,
+        "duration": 3.9
+    },
+    {
+        "text": "the easiest way to control how the light",
+        "start": 142.37,
+        "duration": 4.14
+    },
+    {
+        "text": "comes out after the copper paint is",
+        "start": 144.35,
+        "duration": 3.69
+    },
+    {
+        "text": "fully dry what you want to use is a",
+        "start": 146.51,
+        "duration": 3.6
+    },
+    {
+        "text": "little thousand grit sandpaper to make",
+        "start": 148.04,
+        "duration": 3.72
+    },
+    {
+        "text": "sure there's no bumps sticking up",
+        "start": 150.11,
+        "duration": 3.42
+    },
+    {
+        "text": "I've noticed that the most common",
+        "start": 151.76,
+        "duration": 3.57
+    },
+    {
+        "text": "failure mode for this whole luma lure",
+        "start": 153.53,
+        "duration": 3.81
+    },
+    {
+        "text": "system is that there's a bump either a",
+        "start": 155.33,
+        "duration": 5.97
+    },
+    {
+        "text": "dust particle or a hair or a little bit",
+        "start": 157.34,
+        "duration": 5.73
+    },
+    {
+        "text": "of crust leftover from where you had a",
+        "start": 161.3,
+        "duration": 3.84
+    },
+    {
+        "text": "tape line where the paint kind of wicks",
+        "start": 163.07,
+        "duration": 4.41
+    },
+    {
+        "text": "up to the edge of the tape what this",
+        "start": 165.14,
+        "duration": 4.5
+    },
+    {
+        "text": "does is create a puncture point through",
+        "start": 167.48,
+        "duration": 4.47
+    },
+    {
+        "text": "the dielectric layer and shorts out your",
+        "start": 169.64,
+        "duration": 4.17
+    },
+    {
+        "text": "whole panel so you always want to be",
+        "start": 171.95,
+        "duration": 3.87
+    },
+    {
+        "text": "sure that your dust free and if you",
+        "start": 173.81,
+        "duration": 3.6
+    },
+    {
+        "text": "notice some kind of a bump you have to",
+        "start": 175.82,
+        "duration": 3.18
+    },
+    {
+        "text": "get some sandpaper in there and smooth",
+        "start": 177.41,
+        "duration": 3.6
+    },
+    {
+        "text": "it down and then repaint to make sure",
+        "start": 179.0,
+        "duration": 3.87
+    },
+    {
+        "text": "that there's no puncturing through the",
+        "start": 181.01,
+        "duration": 4.949
+    },
+    {
+        "text": "dielectric after everything is nice and",
+        "start": 182.87,
+        "duration": 5.04
+    },
+    {
+        "text": "smooth you can spray the dielectric on",
+        "start": 185.959,
+        "duration": 4.351
+    },
+    {
+        "text": "and this is more than just an insulator",
+        "start": 187.91,
+        "duration": 4.74
+    },
+    {
+        "text": "don't think that this is just that the",
+        "start": 190.31,
+        "duration": 3.93
+    },
+    {
+        "text": "sole purpose of this layer is just to",
+        "start": 192.65,
+        "duration": 3.6
+    },
+    {
+        "text": "keep these things electrically isolated",
+        "start": 194.24,
+        "duration": 4.71
+    },
+    {
+        "text": "the purpose is actually to create a tiny",
+        "start": 196.25,
+        "duration": 4.97
+    },
+    {
+        "text": "capacitor in there so the way",
+        "start": 198.95,
+        "duration": 4.38
+    },
+    {
+        "text": "electroluminescence works it's basically",
+        "start": 201.22,
+        "duration": 5.35
+    },
+    {
+        "text": "like a leaky capacitor and every time",
+        "start": 203.33,
+        "duration": 5.159
+    },
+    {
+        "text": "you charge and discharge the capacitor",
+        "start": 206.57,
+        "duration": 4.26
+    },
+    {
+        "text": "some of that energy goes into creating",
+        "start": 208.489,
+        "duration": 5.191
+    },
+    {
+        "text": "light so if your capacitor is no good to",
+        "start": 210.83,
+        "duration": 4.53
+    },
+    {
+        "text": "begin with because it doesn't have a",
+        "start": 213.68,
+        "duration": 4.11
+    },
+    {
+        "text": "high dielectric constant then you don't",
+        "start": 215.36,
+        "duration": 4.29
+    },
+    {
+        "text": "get very much light out in fact it",
+        "start": 217.79,
+        "duration": 3.72
+    },
+    {
+        "text": "doesn't really work at all so the",
+        "start": 219.65,
+        "duration": 3.69
+    },
+    {
+        "text": "dielectric constant of the stuff that's",
+        "start": 221.51,
+        "duration": 4.5
+    },
+    {
+        "text": "in this special paint is quite high its",
+        "start": 223.34,
+        "duration": 5.07
+    },
+    {
+        "text": "barium titanate is the powder that's in",
+        "start": 226.01,
+        "duration": 4.53
+    },
+    {
+        "text": "there and that's commonly used in all",
+        "start": 228.41,
+        "duration": 6.63
+    },
+    {
+        "text": "kinds of ceramic capacitors the next",
+        "start": 230.54,
+        "duration": 6.9
+    },
+    {
+        "text": "step is to spray a phosphor and there",
+        "start": 235.04,
+        "duration": 3.93
+    },
+    {
+        "text": "are about eight different colors",
+        "start": 237.44,
+        "duration": 3.09
+    },
+    {
+        "text": "available you can even mix and match",
+        "start": 238.97,
+        "duration": 3.239
+    },
+    {
+        "text": "them in the same panel which is pretty",
+        "start": 240.53,
+        "duration": 4.739
+    },
+    {
+        "text": "nice some are a lot brighter than others",
+        "start": 242.209,
+        "duration": 5.191
+    },
+    {
+        "text": "so this orange color is not particularly",
+        "start": 245.269,
+        "duration": 4.261
+    },
+    {
+        "text": "bright the green I think is one of the",
+        "start": 247.4,
+        "duration": 3.57
+    },
+    {
+        "text": "brightest ones they've got so you can",
+        "start": 249.53,
+        "duration": 3.39
+    },
+    {
+        "text": "kind of see the difference in light",
+        "start": 250.97,
+        "duration": 6.03
+    },
+    {
+        "text": "output here and then after the phosphor",
+        "start": 252.92,
+        "duration": 6.539
+    },
+    {
+        "text": "is dry we want to apply a clear",
+        "start": 257.0,
+        "duration": 4.44
+    },
+    {
+        "text": "conductive electrode to the top so that",
+        "start": 259.459,
+        "duration": 3.481
+    },
+    {
+        "text": "we can get light out of this whole stack",
+        "start": 261.44,
+        "duration": 4.289
+    },
+    {
+        "text": "up and the trick is there's this special",
+        "start": 262.94,
+        "duration": 4.08
+    },
+    {
+        "text": "material",
+        "start": 265.729,
+        "duration": 4.91
+    },
+    {
+        "text": "P dot P SS which is an acronym for",
+        "start": 267.02,
+        "duration": 7.73
+    },
+    {
+        "text": "polyethylene dioxide the afine",
+        "start": 270.639,
+        "duration": 7.511
+    },
+    {
+        "text": "polystyrene sulfonate I believe so it's",
+        "start": 274.75,
+        "duration": 5.379
+    },
+    {
+        "text": "a intimidating name but it's actually",
+        "start": 278.15,
+        "duration": 5.31
+    },
+    {
+        "text": "very easy to use material you just spray",
+        "start": 280.129,
+        "duration": 5.311
+    },
+    {
+        "text": "it on and let it dry and you've got a",
+        "start": 283.46,
+        "duration": 4.139
+    },
+    {
+        "text": "conductive clear electrode pretty nice",
+        "start": 285.44,
+        "duration": 5.55
+    },
+    {
+        "text": "and the electrical resistance is",
+        "start": 287.599,
+        "duration": 5.371
+    },
+    {
+        "text": "surprisingly low it's comparable to an",
+        "start": 290.99,
+        "duration": 4.62
+    },
+    {
+        "text": "IPO film but this is nice because you",
+        "start": 292.97,
+        "duration": 4.949
+    },
+    {
+        "text": "can spray it on with an airbrush and as",
+        "start": 295.61,
+        "duration": 4.41
+    },
+    {
+        "text": "it dries it becomes conductive and so",
+        "start": 297.919,
+        "duration": 4.261
+    },
+    {
+        "text": "you get this really cool effect when",
+        "start": 300.02,
+        "duration": 3.69
+    },
+    {
+        "text": "it's drying you can use a heat gun to",
+        "start": 302.18,
+        "duration": 3.6
+    },
+    {
+        "text": "kind of accelerate it it becomes",
+        "start": 303.71,
+        "duration": 3.84
+    },
+    {
+        "text": "conductive and sort of creates the",
+        "start": 305.78,
+        "duration": 3.72
+    },
+    {
+        "text": "display as its drying which is quite",
+        "start": 307.55,
+        "duration": 6.839
+    },
+    {
+        "text": "nice in order to attach your electrical",
+        "start": 309.5,
+        "duration": 6.539
+    },
+    {
+        "text": "connections to the panel that you just",
+        "start": 314.389,
+        "duration": 4.71
+    },
+    {
+        "text": "made luma recommends like jb weld or",
+        "start": 316.039,
+        "duration": 5.011
+    },
+    {
+        "text": "something i kind of prefer using this",
+        "start": 319.099,
+        "duration": 4.951
+    },
+    {
+        "text": "conductive tape made by 3m and so the",
+        "start": 321.05,
+        "duration": 5.339
+    },
+    {
+        "text": "the adhesive in this tape has little",
+        "start": 324.05,
+        "duration": 4.47
+    },
+    {
+        "text": "particles of medical of metal in there",
+        "start": 326.389,
+        "duration": 4.53
+    },
+    {
+        "text": "that pierce through the adhesive so you",
+        "start": 328.52,
+        "duration": 3.81
+    },
+    {
+        "text": "stick it down like this it makes a",
+        "start": 330.919,
+        "duration": 4.231
+    },
+    {
+        "text": "conductive bond to the surface and the",
+        "start": 332.33,
+        "duration": 4.38
+    },
+    {
+        "text": "adhesive is not particularly aggressive",
+        "start": 335.15,
+        "duration": 3.239
+    },
+    {
+        "text": "it's kind of like a post-it note I mean",
+        "start": 336.71,
+        "duration": 3.03
+    },
+    {
+        "text": "a little bit stronger than that but it's",
+        "start": 338.389,
+        "duration": 3.421
+    },
+    {
+        "text": "not crazy so you can pull the tape off",
+        "start": 339.74,
+        "duration": 4.799
+    },
+    {
+        "text": "and put it back on and it makes its it's",
+        "start": 341.81,
+        "duration": 4.38
+    },
+    {
+        "text": "a very low resistance connection it's",
+        "start": 344.539,
+        "duration": 3.051
+    },
+    {
+        "text": "totally fine for what we're doing",
+        "start": 346.19,
+        "duration": 5.069
+    },
+    {
+        "text": "you can also solder a wire onto the tape",
+        "start": 347.59,
+        "duration": 5.62
+    },
+    {
+        "text": "before you've applied it and then stick",
+        "start": 351.259,
+        "duration": 3.451
+    },
+    {
+        "text": "the tape on so that you don't expose",
+        "start": 353.21,
+        "duration": 4.23
+    },
+    {
+        "text": "your panel to anything high heat works",
+        "start": 354.71,
+        "duration": 4.56
+    },
+    {
+        "text": "great for these really thin substrates",
+        "start": 357.44,
+        "duration": 5.479
+    },
+    {
+        "text": "like the the printer transparencies too",
+        "start": 359.27,
+        "duration": 6.239
+    },
+    {
+        "text": "I've also noticed that I can touch the",
+        "start": 362.919,
+        "duration": 5.351
+    },
+    {
+        "text": "top layer I was going to say I've",
+        "start": 365.509,
+        "duration": 4.261
+    },
+    {
+        "text": "noticed I can touch the top layer",
+        "start": 368.27,
+        "duration": 2.73
+    },
+    {
+        "text": "without getting shocked but I actually",
+        "start": 369.77,
+        "duration": 2.67
+    },
+    {
+        "text": "kind of did get shocked that time a",
+        "start": 371.0,
+        "duration": 2.88
+    },
+    {
+        "text": "little bit that's actually the first",
+        "start": 372.44,
+        "duration": 2.969
+    },
+    {
+        "text": "time I've gotten shocked off of this",
+        "start": 373.88,
+        "duration": 4.349
+    },
+    {
+        "text": "system but anyway I can hang on to it",
+        "start": 375.409,
+        "duration": 4.171
+    },
+    {
+        "text": "like this and I'm not kidding shocked",
+        "start": 378.229,
+        "duration": 3.451
+    },
+    {
+        "text": "now I must have just hit just the wrong",
+        "start": 379.58,
+        "duration": 5.22
+    },
+    {
+        "text": "spot but in theory the clear conductive",
+        "start": 381.68,
+        "duration": 5.489
+    },
+    {
+        "text": "electrode is charged up over here so if",
+        "start": 384.8,
+        "duration": 3.72
+    },
+    {
+        "text": "you manage to touch both of these you'll",
+        "start": 387.169,
+        "duration": 4.831
+    },
+    {
+        "text": "definitely get a shock from it I've",
+        "start": 388.52,
+        "duration": 4.949
+    },
+    {
+        "text": "applied this pain to all kinds of",
+        "start": 392.0,
+        "duration": 3.539
+    },
+    {
+        "text": "different objects 3d printed objects",
+        "start": 393.469,
+        "duration": 6.17
+    },
+    {
+        "text": "this flexible printer transparency stuff",
+        "start": 395.539,
+        "duration": 6.35
+    },
+    {
+        "text": "even you know painted metal parts are",
+        "start": 399.639,
+        "duration": 4.981
+    },
+    {
+        "text": "okay even paper actually although the",
+        "start": 401.889,
+        "duration": 4.11
+    },
+    {
+        "text": "paper was kind of pushing it this was",
+        "start": 404.62,
+        "duration": 3.509
+    },
+    {
+        "text": "like glossy inkjet paper and it worked",
+        "start": 405.999,
+        "duration": 3.991
+    },
+    {
+        "text": "okay the the biggest problem I was",
+        "start": 408.129,
+        "duration": 3.991
+    },
+    {
+        "text": "having is that the masking tape was",
+        "start": 409.99,
+        "duration": 4.59
+    },
+    {
+        "text": "actually ripping the paper apart but it",
+        "start": 412.12,
+        "duration": 4.229
+    },
+    {
+        "text": "held the paint okay and the end result",
+        "start": 414.58,
+        "duration": 4.859
+    },
+    {
+        "text": "was not bad let's talk about the",
+        "start": 416.349,
+        "duration": 5.07
+    },
+    {
+        "text": "electrical side of this the luminol or",
+        "start": 419.439,
+        "duration": 3.421
+    },
+    {
+        "text": "kit comes with a couple of these little",
+        "start": 421.419,
+        "duration": 3.36
+    },
+    {
+        "text": "inverters which are pretty standard for",
+        "start": 422.86,
+        "duration": 4.769
+    },
+    {
+        "text": "driving e-l wire and al panels but these",
+        "start": 424.779,
+        "duration": 5.461
+    },
+    {
+        "text": "things have a couple of problems one is",
+        "start": 427.629,
+        "duration": 5.19
+    },
+    {
+        "text": "that they're only on or off like there's",
+        "start": 430.24,
+        "duration": 4.56
+    },
+    {
+        "text": "no dimming some of them will dim see",
+        "start": 432.819,
+        "duration": 3.9
+    },
+    {
+        "text": "that you can flash it and it's a little",
+        "start": 434.8,
+        "duration": 3.54
+    },
+    {
+        "text": "bit dimmer now but there's no",
+        "start": 436.719,
+        "duration": 3.48
+    },
+    {
+        "text": "programmatic control of this thing and",
+        "start": 438.34,
+        "duration": 3.569
+    },
+    {
+        "text": "the other problem is I'll put the",
+        "start": 440.199,
+        "duration": 3.24
+    },
+    {
+        "text": "microphone closed so that you can hear",
+        "start": 441.909,
+        "duration": 4.771
+    },
+    {
+        "text": "it they all whistle annoyingly",
+        "start": 443.439,
+        "duration": 7.141
+    },
+    {
+        "text": "so I wanted to come up with a better",
+        "start": 446.68,
+        "duration": 5.789
+    },
+    {
+        "text": "circuit that would allow dimming of the",
+        "start": 450.58,
+        "duration": 4.559
+    },
+    {
+        "text": "e L panel really rapid control for",
+        "start": 452.469,
+        "duration": 5.37
+    },
+    {
+        "text": "sequencing lots of channels no annoying",
+        "start": 455.139,
+        "duration": 6.33
+    },
+    {
+        "text": "whistling and as much other stuff as I",
+        "start": 457.839,
+        "duration": 5.341
+    },
+    {
+        "text": "can pack in so let me show you the",
+        "start": 461.469,
+        "duration": 3.361
+    },
+    {
+        "text": "circuit that I created to drive all",
+        "start": 463.18,
+        "duration": 5.88
+    },
+    {
+        "text": "these L devices okay here's the board",
+        "start": 464.83,
+        "duration": 6.6
+    },
+    {
+        "text": "let's start at the lower left here we've",
+        "start": 469.06,
+        "duration": 6.18
+    },
+    {
+        "text": "got a pair of LDOS a 3.3 and a 5 volt l",
+        "start": 471.43,
+        "duration": 6.12
+    },
+    {
+        "text": "do the 5 volts is required by the",
+        "start": 475.24,
+        "duration": 4.079
+    },
+    {
+        "text": "high-voltage switching chip which we'll",
+        "start": 477.55,
+        "duration": 2.459
+    },
+    {
+        "text": "talk about",
+        "start": 479.319,
+        "duration": 2.94
+    },
+    {
+        "text": "you could also supply the 5 volt with a",
+        "start": 480.009,
+        "duration": 4.111
+    },
+    {
+        "text": "boost converter or a buck converter or",
+        "start": 482.259,
+        "duration": 3.63
+    },
+    {
+        "text": "something else but I just went with LD",
+        "start": 484.12,
+        "duration": 4.979
+    },
+    {
+        "text": "is the control part of it like this",
+        "start": 485.889,
+        "duration": 5.49
+    },
+    {
+        "text": "whole area in here is basically an",
+        "start": 489.099,
+        "duration": 6.481
+    },
+    {
+        "text": "Adafruit trinket m0 in fact that's where",
+        "start": 491.379,
+        "duration": 5.97
+    },
+    {
+        "text": "I get the parts to build all this so the",
+        "start": 495.58,
+        "duration": 4.47
+    },
+    {
+        "text": "button the capacitors the 8e Sam D 21",
+        "start": 497.349,
+        "duration": 5.13
+    },
+    {
+        "text": "microcontroller even the LEDs and the",
+        "start": 500.05,
+        "duration": 4.349
+    },
+    {
+        "text": "current limiting resistors are removed",
+        "start": 502.479,
+        "duration": 4.5
+    },
+    {
+        "text": "from the trinket which makes it kind of",
+        "start": 504.399,
+        "duration": 4.2
+    },
+    {
+        "text": "convenient because the chip has already",
+        "start": 506.979,
+        "duration": 4.141
+    },
+    {
+        "text": "programmed with the bootloader and the",
+        "start": 508.599,
+        "duration": 5.61
+    },
+    {
+        "text": "footprints are already in the board CAD",
+        "start": 511.12,
+        "duration": 4.5
+    },
+    {
+        "text": "program and everything so that's great",
+        "start": 514.209,
+        "duration": 4.89
+    },
+    {
+        "text": "and and also Adafruit is great and you",
+        "start": 515.62,
+        "duration": 5.099
+    },
+    {
+        "text": "can use some of the firmware that",
+        "start": 519.099,
+        "duration": 3.5
+    },
+    {
+        "text": "they've created which is very helpful",
+        "start": 520.719,
+        "duration": 5.191
+    },
+    {
+        "text": "also the way that the high voltage is",
+        "start": 522.599,
+        "duration": 5.74
+    },
+    {
+        "text": "created on this board is these pair of",
+        "start": 525.91,
+        "duration": 3.9
+    },
+    {
+        "text": "high voltage circuits that run in",
+        "start": 528.339,
+        "duration": 3.75
+    },
+    {
+        "text": "parallel and the one on the Left I've",
+        "start": 529.81,
+        "duration": 3.57
+    },
+    {
+        "text": "marked as optional",
+        "start": 532.089,
+        "duration": 3.301
+    },
+    {
+        "text": "oh btw because you don't really need",
+        "start": 533.38,
+        "duration": 3.45
+    },
+    {
+        "text": "both of them if you're not doing a",
+        "start": 535.39,
+        "duration": 3.72
+    },
+    {
+        "text": "high-power board you can actually just",
+        "start": 536.83,
+        "duration": 4.35
+    },
+    {
+        "text": "have one of these or if you are doing a",
+        "start": 539.11,
+        "duration": 4.01
+    },
+    {
+        "text": "mod to this board you could add more",
+        "start": 541.18,
+        "duration": 4.47
+    },
+    {
+        "text": "channels and get more a total power out",
+        "start": 543.12,
+        "duration": 5.08
+    },
+    {
+        "text": "of it the chip that runs this high",
+        "start": 545.65,
+        "duration": 7.17
+    },
+    {
+        "text": "voltage supply is an LT 3468 which is a",
+        "start": 548.2,
+        "duration": 8.19
+    },
+    {
+        "text": "a driver for a transformer and the",
+        "start": 552.82,
+        "duration": 5.16
+    },
+    {
+        "text": "transformer is actually this tiny little",
+        "start": 556.39,
+        "duration": 3.09
+    },
+    {
+        "text": "thing here it's actually the smallest",
+        "start": 557.98,
+        "duration": 4.32
+    },
+    {
+        "text": "transformer I've ever seen one of the",
+        "start": 559.48,
+        "duration": 5.19
+    },
+    {
+        "text": "other goals for creating this circuit",
+        "start": 562.3,
+        "duration": 4.98
+    },
+    {
+        "text": "was to make the board height as low as",
+        "start": 564.67,
+        "duration": 5.04
+    },
+    {
+        "text": "possible so the the USB connector in",
+        "start": 567.28,
+        "duration": 3.81
+    },
+    {
+        "text": "this big capacitor up here are the",
+        "start": 569.71,
+        "duration": 3.72
+    },
+    {
+        "text": "tallest components by far otherwise",
+        "start": 571.09,
+        "duration": 4.05
+    },
+    {
+        "text": "everything is under about two and a half",
+        "start": 573.43,
+        "duration": 7.41
+    },
+    {
+        "text": "millimeters so this LT 3468 is designed",
+        "start": 575.14,
+        "duration": 8.52
+    },
+    {
+        "text": "to run the transformer in flyback mode",
+        "start": 580.84,
+        "duration": 5.04
+    },
+    {
+        "text": "and generate a high voltage and the chip",
+        "start": 583.66,
+        "duration": 3.72
+    },
+    {
+        "text": "is pretty trick it actually has a",
+        "start": 585.88,
+        "duration": 3.84
+    },
+    {
+        "text": "voltage sensing circuit in there as well",
+        "start": 587.38,
+        "duration": 4.23
+    },
+    {
+        "text": "and it actually senses the secondary",
+        "start": 589.72,
+        "duration": 4.05
+    },
+    {
+        "text": "voltage by monitoring the inductive",
+        "start": 591.61,
+        "duration": 4.26
+    },
+    {
+        "text": "kickback on the primary which is pretty",
+        "start": 593.77,
+        "duration": 4.53
+    },
+    {
+        "text": "cool unfortunately it has a fixed",
+        "start": 595.87,
+        "duration": 4.89
+    },
+    {
+        "text": "voltage so I think it charges up to like",
+        "start": 598.3,
+        "duration": 5.01
+    },
+    {
+        "text": "300 volts which is great but it's",
+        "start": 600.76,
+        "duration": 4.92
+    },
+    {
+        "text": "actually too much for this al driver",
+        "start": 603.31,
+        "duration": 4.92
+    },
+    {
+        "text": "which has a limit of about 200 or 250 I",
+        "start": 605.68,
+        "duration": 6.39
+    },
+    {
+        "text": "think and so what we do instead is",
+        "start": 608.23,
+        "duration": 6.12
+    },
+    {
+        "text": "actually use the MCU to monitor the high",
+        "start": 612.07,
+        "duration": 4.41
+    },
+    {
+        "text": "voltage and turn on and off the high",
+        "start": 614.35,
+        "duration": 4.59
+    },
+    {
+        "text": "voltage regulator very rapidly so that",
+        "start": 616.48,
+        "duration": 5.85
+    },
+    {
+        "text": "we kind of cycle sort of duty cycle the",
+        "start": 618.94,
+        "duration": 5.46
+    },
+    {
+        "text": "the high volt supply and this is",
+        "start": 622.33,
+        "duration": 4.26
+    },
+    {
+        "text": "actually a benefit because the firmware",
+        "start": 624.4,
+        "duration": 4.38
+    },
+    {
+        "text": "can control the supply voltage at will",
+        "start": 626.59,
+        "duration": 4.23
+    },
+    {
+        "text": "you can even adjust it mid program if",
+        "start": 628.78,
+        "duration": 3.87
+    },
+    {
+        "text": "you want which is great because then you",
+        "start": 630.82,
+        "duration": 3.39
+    },
+    {
+        "text": "can change the overall brightness of",
+        "start": 632.65,
+        "duration": 3.84
+    },
+    {
+        "text": "your al panels and if you have a really",
+        "start": 634.21,
+        "duration": 4.65
+    },
+    {
+        "text": "small al panel you can Jack the voltage",
+        "start": 636.49,
+        "duration": 4.47
+    },
+    {
+        "text": "way up to get high brightness and if you",
+        "start": 638.86,
+        "duration": 4.2
+    },
+    {
+        "text": "have a really large al panel you can",
+        "start": 640.96,
+        "duration": 3.75
+    },
+    {
+        "text": "turn the voltage down so that you don't",
+        "start": 643.06,
+        "duration": 3.9
+    },
+    {
+        "text": "exceed the maximum current ability of",
+        "start": 644.71,
+        "duration": 7.62
+    },
+    {
+        "text": "the circuit the circuit board is",
+        "start": 646.96,
+        "duration": 7.29
+    },
+    {
+        "text": "designed to accept one of two different",
+        "start": 652.33,
+        "duration": 3.66
+    },
+    {
+        "text": "high-voltage switching chips",
+        "start": 654.25,
+        "duration": 4.56
+    },
+    {
+        "text": "one of them is the HV 5/13 which is here",
+        "start": 655.99,
+        "duration": 4.56
+    },
+    {
+        "text": "and this has eight channels of high",
+        "start": 658.81,
+        "duration": 4.26
+    },
+    {
+        "text": "voltage output and the other chip is in",
+        "start": 660.55,
+        "duration": 6.13
+    },
+    {
+        "text": "HP 507 which has 64 channels",
+        "start": 663.07,
+        "duration": 7.18
+    },
+    {
+        "text": "high voltage output and they both work",
+        "start": 666.68,
+        "duration": 5.159
+    },
+    {
+        "text": "about the same it's basically just a",
+        "start": 670.25,
+        "duration": 4.11
+    },
+    {
+        "text": "shift register and so we shift in either",
+        "start": 671.839,
+        "duration": 6.571
+    },
+    {
+        "text": "one byte or eight bytes of data and the",
+        "start": 674.36,
+        "duration": 6.39
+    },
+    {
+        "text": "high voltage chip will basically just",
+        "start": 678.41,
+        "duration": 5.07
+    },
+    {
+        "text": "display that data in parallel on all the",
+        "start": 680.75,
+        "duration": 6.87
+    },
+    {
+        "text": "output pins I'll describe my circuit",
+        "start": 683.48,
+        "duration": 6.54
+    },
+    {
+        "text": "board build process briefly I use a",
+        "start": 687.62,
+        "duration": 4.77
+    },
+    {
+        "text": "little tiny ceramic heater on an",
+        "start": 690.02,
+        "duration": 3.99
+    },
+    {
+        "text": "insulator tile that I got from Amazon",
+        "start": 692.39,
+        "duration": 3.48
+    },
+    {
+        "text": "and I'll put links to all this stuff in",
+        "start": 694.01,
+        "duration": 4.019
+    },
+    {
+        "text": "the description and for boards that are",
+        "start": 695.87,
+        "duration": 3.69
+    },
+    {
+        "text": "small enough to fit on here this works",
+        "start": 698.029,
+        "duration": 3.631
+    },
+    {
+        "text": "great because I use the bench supply to",
+        "start": 699.56,
+        "duration": 4.5
+    },
+    {
+        "text": "power it and you can put a very precise",
+        "start": 701.66,
+        "duration": 4.86
+    },
+    {
+        "text": "amount of power through the heater to",
+        "start": 704.06,
+        "duration": 4.44
+    },
+    {
+        "text": "dispense the solder paste I prefer to",
+        "start": 706.52,
+        "duration": 4.61
+    },
+    {
+        "text": "use this pneumatic foot pedal controlled",
+        "start": 708.5,
+        "duration": 5.49
+    },
+    {
+        "text": "dispenser and so I've got a three cc",
+        "start": 711.13,
+        "duration": 5.26
+    },
+    {
+        "text": "syringe with a really tiny plastic",
+        "start": 713.99,
+        "duration": 4.83
+    },
+    {
+        "text": "nozzle here this is the smallest nozzle",
+        "start": 716.39,
+        "duration": 4.44
+    },
+    {
+        "text": "that McMaster sells I think it's a 27",
+        "start": 718.82,
+        "duration": 5.7
+    },
+    {
+        "text": "gauge and it's t5 solder paste and I",
+        "start": 720.83,
+        "duration": 5.67
+    },
+    {
+        "text": "find that when I get just the right",
+        "start": 724.52,
+        "duration": 5.189
+    },
+    {
+        "text": "amount of coffee I can do a 400 micron",
+        "start": 726.5,
+        "duration": 6.81
+    },
+    {
+        "text": "pitch qfn the footprint with with this",
+        "start": 729.709,
+        "duration": 5.25
+    },
+    {
+        "text": "manually just hand holding it it usually",
+        "start": 733.31,
+        "duration": 5.07
+    },
+    {
+        "text": "comes out pretty well and then reflow",
+        "start": 734.959,
+        "duration": 5.221
+    },
+    {
+        "text": "fine sometimes I even use a little hot",
+        "start": 738.38,
+        "duration": 3.45
+    },
+    {
+        "text": "air from the top at the same time the",
+        "start": 740.18,
+        "duration": 3.029
+    },
+    {
+        "text": "hot plate is going just to sort of",
+        "start": 741.83,
+        "duration": 2.97
+    },
+    {
+        "text": "control the process and make sure it's",
+        "start": 743.209,
+        "duration": 3.901
+    },
+    {
+        "text": "nice and even generally this works",
+        "start": 744.8,
+        "duration": 5.85
+    },
+    {
+        "text": "really well I should also point out that",
+        "start": 747.11,
+        "duration": 6.93
+    },
+    {
+        "text": "this PCB was designed for my laser",
+        "start": 750.65,
+        "duration": 6.3
+    },
+    {
+        "text": "defined copper on plastic process so",
+        "start": 754.04,
+        "duration": 5.15
+    },
+    {
+        "text": "that all the traces are really fat and",
+        "start": 756.95,
+        "duration": 4.71
+    },
+    {
+        "text": "the spacings are a bit bigger than I",
+        "start": 759.19,
+        "duration": 4.41
+    },
+    {
+        "text": "would do if I knew I was pushing a",
+        "start": 761.66,
+        "duration": 4.049
+    },
+    {
+        "text": "conventional circuit board to sort of",
+        "start": 763.6,
+        "duration": 6.22
+    },
+    {
+        "text": "the you know packing limit basically the",
+        "start": 765.709,
+        "duration": 6.57
+    },
+    {
+        "text": "circuit will control il wire as well and",
+        "start": 769.82,
+        "duration": 4.53
+    },
+    {
+        "text": "so I made this glove that I wore around",
+        "start": 772.279,
+        "duration": 4.981
+    },
+    {
+        "text": "hackaday super con and it lasted all",
+        "start": 774.35,
+        "duration": 4.2
+    },
+    {
+        "text": "weekend which was better than I thought",
+        "start": 777.26,
+        "duration": 3.99
+    },
+    {
+        "text": "I actually stripped the plastic coating",
+        "start": 778.55,
+        "duration": 4.47
+    },
+    {
+        "text": "off the e l wire so there's there's",
+        "start": 781.25,
+        "duration": 3.3
+    },
+    {
+        "text": "still an inner plastic coating so",
+        "start": 783.02,
+        "duration": 3.48
+    },
+    {
+        "text": "they're still insulated but there's no",
+        "start": 784.55,
+        "duration": 3.84
+    },
+    {
+        "text": "colored outside on it so it's just like",
+        "start": 786.5,
+        "duration": 6.24
+    },
+    {
+        "text": "the core of the e l wire and there's 32",
+        "start": 788.39,
+        "duration": 6.54
+    },
+    {
+        "text": "E L wires here using the 64 channels",
+        "start": 792.74,
+        "duration": 4.23
+    },
+    {
+        "text": "from this high voltage shift register",
+        "start": 794.93,
+        "duration": 4.38
+    },
+    {
+        "text": "chip and I'm using them in pairs and so",
+        "start": 796.97,
+        "duration": 3.609
+    },
+    {
+        "text": "the way that you",
+        "start": 799.31,
+        "duration": 2.92
+    },
+    {
+        "text": "works is that you know it's a capacitor",
+        "start": 800.579,
+        "duration": 3.781
+    },
+    {
+        "text": "basically and you want to deliver a",
+        "start": 802.23,
+        "duration": 3.959
+    },
+    {
+        "text": "square wave to each one of these",
+        "start": 804.36,
+        "duration": 4.169
+    },
+    {
+        "text": "capacitors and every time you flip",
+        "start": 806.189,
+        "duration": 4.38
+    },
+    {
+        "text": "polarity on the square wave you get a",
+        "start": 808.529,
+        "duration": 3.93
+    },
+    {
+        "text": "pulse of light out so the more rapidly",
+        "start": 810.569,
+        "duration": 3.901
+    },
+    {
+        "text": "you send a square wave to that signal to",
+        "start": 812.459,
+        "duration": 4.44
+    },
+    {
+        "text": "that vo wire you get more light out of",
+        "start": 814.47,
+        "duration": 6.059
+    },
+    {
+        "text": "it and so with the current speed that we",
+        "start": 816.899,
+        "duration": 6.331
+    },
+    {
+        "text": "can get I I can have about 64 grayscale",
+        "start": 820.529,
+        "duration": 5.16
+    },
+    {
+        "text": "control at 60 frames a second for each",
+        "start": 823.23,
+        "duration": 5.339
+    },
+    {
+        "text": "element which is pretty good don't get",
+        "start": 825.689,
+        "duration": 4.32
+    },
+    {
+        "text": "too excited though you can't drive like",
+        "start": 828.569,
+        "duration": 3.81
+    },
+    {
+        "text": "a 2 meter long il wire with one of these",
+        "start": 830.009,
+        "duration": 5.79
+    },
+    {
+        "text": "outputs potentially on the 8 channel",
+        "start": 832.379,
+        "duration": 5.041
+    },
+    {
+        "text": "driver chip you get more power because",
+        "start": 835.799,
+        "duration": 4.621
+    },
+    {
+        "text": "it's only 8 channels instead of 64 but",
+        "start": 837.42,
+        "duration": 5.039
+    },
+    {
+        "text": "with this one if you put a 2 meter piece",
+        "start": 840.42,
+        "duration": 3.87
+    },
+    {
+        "text": "of wire on here it won't light it up and",
+        "start": 842.459,
+        "duration": 3.69
+    },
+    {
+        "text": "I haven't figured out exactly what the",
+        "start": 844.29,
+        "duration": 4.049
+    },
+    {
+        "text": "limit is so it's more than 10",
+        "start": 846.149,
+        "duration": 6.23
+    },
+    {
+        "text": "centimeters but it's less than 2 meters",
+        "start": 848.339,
+        "duration": 7.23
+    },
+    {
+        "text": "the power source for this thing is 6",
+        "start": 852.379,
+        "duration": 5.981
+    },
+    {
+        "text": "double-a batteries and it lasts running",
+        "start": 855.569,
+        "duration": 6.33
+    },
+    {
+        "text": "this pattern about about 3 or 4 hours I",
+        "start": 858.36,
+        "duration": 5.459
+    },
+    {
+        "text": "think or so on those six doublea's so",
+        "start": 861.899,
+        "duration": 4.02
+    },
+    {
+        "text": "it's it's not a very power efficient",
+        "start": 863.819,
+        "duration": 4.68
+    },
+    {
+        "text": "circuit one 9-volt would not be enough",
+        "start": 865.919,
+        "duration": 5.371
+    },
+    {
+        "text": "to run this for very long at all and you",
+        "start": 868.499,
+        "duration": 4.44
+    },
+    {
+        "text": "can see I've got heat sinks on here",
+        "start": 871.29,
+        "duration": 4.409
+    },
+    {
+        "text": "because it's really not that efficient",
+        "start": 872.939,
+        "duration": 4.32
+    },
+    {
+        "text": "and those heat sinks are kind of more",
+        "start": 875.699,
+        "duration": 2.911
+    },
+    {
+        "text": "necessary than you might think",
+        "start": 877.259,
+        "duration": 3.39
+    },
+    {
+        "text": "depending how aggressive the lighting",
+        "start": 878.61,
+        "duration": 3.779
+    },
+    {
+        "text": "program is you can run a whole lot more",
+        "start": 880.649,
+        "duration": 4.29
+    },
+    {
+        "text": "power than you would otherwise like if",
+        "start": 882.389,
+        "duration": 4.11
+    },
+    {
+        "text": "you're very conscious about your",
+        "start": 884.939,
+        "duration": 3.09
+    },
+    {
+        "text": "lighting program you don't burn very",
+        "start": 886.499,
+        "duration": 3.51
+    },
+    {
+        "text": "much power but if you turned all the",
+        "start": 888.029,
+        "duration": 3.36
+    },
+    {
+        "text": "segments on to full brightness that",
+        "start": 890.009,
+        "duration": 4.08
+    },
+    {
+        "text": "would be way too much the circuit can",
+        "start": 891.389,
+        "duration": 5.521
+    },
+    {
+        "text": "handle about 3 watts constantly and it",
+        "start": 894.089,
+        "duration": 5.61
+    },
+    {
+        "text": "can peak up to maybe 7 or 8 watts but it",
+        "start": 896.91,
+        "duration": 4.889
+    },
+    {
+        "text": "can't dissipate that forever and so if",
+        "start": 899.699,
+        "duration": 5.01
+    },
+    {
+        "text": "you ran it at 7 or 8 watts for 10 or 20",
+        "start": 901.799,
+        "duration": 4.77
+    },
+    {
+        "text": "or 30 seconds so it's probably melt",
+        "start": 904.709,
+        "duration": 6.3
+    },
+    {
+        "text": "something I also wrote a separate piece",
+        "start": 906.569,
+        "duration": 6.57
+    },
+    {
+        "text": "of firmware that transforms the outputs",
+        "start": 911.009,
+        "duration": 4.62
+    },
+    {
+        "text": "into a matrix driver so instead of using",
+        "start": 913.139,
+        "duration": 5.49
+    },
+    {
+        "text": "the 64 or 8 channels in pairs and then",
+        "start": 915.629,
+        "duration": 5.01
+    },
+    {
+        "text": "flipping each pair on and off to control",
+        "start": 918.629,
+        "duration": 4.26
+    },
+    {
+        "text": "each segment you can actually lay out",
+        "start": 920.639,
+        "duration": 5.76
+    },
+    {
+        "text": "all 32 in rows and columns and get this",
+        "start": 922.889,
+        "duration": 7.5
+    },
+    {
+        "text": "cool 32 by 32 matrix driving it though",
+        "start": 926.399,
+        "duration": 5.55
+    },
+    {
+        "text": "is pretty challenging because like I",
+        "start": 930.389,
+        "duration": 3.541
+    },
+    {
+        "text": "said every time you flip the",
+        "start": 931.949,
+        "duration": 3.441
+    },
+    {
+        "text": "polarity of any one of these",
+        "start": 933.93,
+        "duration": 3.36
+    },
+    {
+        "text": "electroluminescent capacitors you get a",
+        "start": 935.39,
+        "duration": 4.21
+    },
+    {
+        "text": "flash of light well this makes scanning",
+        "start": 937.29,
+        "duration": 3.96
+    },
+    {
+        "text": "through a matrix really difficult",
+        "start": 939.6,
+        "duration": 3.69
+    },
+    {
+        "text": "because you're constantly flipping",
+        "start": 941.25,
+        "duration": 4.29
+    },
+    {
+        "text": "something to address one pixel and then",
+        "start": 943.29,
+        "duration": 3.87
+    },
+    {
+        "text": "inherently you kind of flip all the ones",
+        "start": 945.54,
+        "duration": 3.63
+    },
+    {
+        "text": "that you don't want to touch so can",
+        "start": 947.16,
+        "duration": 4.799
+    },
+    {
+        "text": "conventionally in a in an LED or even an",
+        "start": 949.17,
+        "duration": 5.85
+    },
+    {
+        "text": "incandescent matrix you would put the",
+        "start": 951.959,
+        "duration": 4.951
+    },
+    {
+        "text": "state on the matrix and then hold it",
+        "start": 955.02,
+        "duration": 3.39
+    },
+    {
+        "text": "there for a while to let the light come",
+        "start": 956.91,
+        "duration": 3.84
+    },
+    {
+        "text": "out so that your switch time is very low",
+        "start": 958.41,
+        "duration": 4.679
+    },
+    {
+        "text": "compared to your hold times you get",
+        "start": 960.75,
+        "duration": 4.589
+    },
+    {
+        "text": "decent contrast out of it but that",
+        "start": 963.089,
+        "duration": 3.781
+    },
+    {
+        "text": "doesn't work with electroluminescent",
+        "start": 965.339,
+        "duration": 3.541
+    },
+    {
+        "text": "because there is no hold time you only",
+        "start": 966.87,
+        "duration": 4.62
+    },
+    {
+        "text": "get light out of the pixel when you're",
+        "start": 968.88,
+        "duration": 5.19
+    },
+    {
+        "text": "flipping its polarity which if you flip",
+        "start": 971.49,
+        "duration": 4.14
+    },
+    {
+        "text": "it more rapidly than you flip all the",
+        "start": 974.07,
+        "duration": 3.36
+    },
+    {
+        "text": "neighbors and you can't without it",
+        "start": 975.63,
+        "duration": 4.05
+    },
+    {
+        "text": "without a tri-state driver I can't see",
+        "start": 977.43,
+        "duration": 4.349
+    },
+    {
+        "text": "it any way of making this work however",
+        "start": 979.68,
+        "duration": 4.529
+    },
+    {
+        "text": "you might be surprised how well it does",
+        "start": 981.779,
+        "duration": 4.831
+    },
+    {
+        "text": "work and so I used pulsed off Riggins",
+        "start": 984.209,
+        "duration": 5.07
+    },
+    {
+        "text": "great octo ws twenty-eight eleven",
+        "start": 986.61,
+        "duration": 5.49
+    },
+    {
+        "text": "library to send some live video to the",
+        "start": 989.279,
+        "duration": 5.251
+    },
+    {
+        "text": "matrix so let me cue it up",
+        "start": 992.1,
+        "duration": 20.4
+    },
+    {
+        "text": "[Music]",
+        "start": 994.53,
+        "duration": 20.17
+    },
+    {
+        "text": "okay let's talk briefly about the",
+        "start": 1012.5,
+        "duration": 5.29
+    },
+    {
+        "text": "firmware this is written in Arduino of",
+        "start": 1014.7,
+        "duration": 4.89
+    },
+    {
+        "text": "course because it's an Adafruit trinket",
+        "start": 1017.79,
+        "duration": 3.93
+    },
+    {
+        "text": "m0 I mean the chip really is a trinket",
+        "start": 1019.59,
+        "duration": 3.99
+    },
+    {
+        "text": "m0 so everything when you plug this into",
+        "start": 1021.72,
+        "duration": 4.55
+    },
+    {
+        "text": "the USB it's identified as a trinket m0",
+        "start": 1023.58,
+        "duration": 4.64
+    },
+    {
+        "text": "you can control the voltage",
+        "start": 1026.27,
+        "duration": 4.69
+    },
+    {
+        "text": "programmatically which is here you can",
+        "start": 1028.22,
+        "duration": 4.15
+    },
+    {
+        "text": "tell the thing whether you're using the",
+        "start": 1030.96,
+        "duration": 5.82
+    },
+    {
+        "text": "HV 5 13 or the HP 507 here this max",
+        "start": 1032.37,
+        "duration": 6.21
+    },
+    {
+        "text": "brightness is the number of grayscale",
+        "start": 1036.78,
+        "duration": 3.54
+    },
+    {
+        "text": "levels that you'll have in your program",
+        "start": 1038.58,
+        "duration": 3.6
+    },
+    {
+        "text": "and if you change this you'll get an",
+        "start": 1040.32,
+        "duration": 3.63
+    },
+    {
+        "text": "automatic trade-off between framerate",
+        "start": 1042.18,
+        "duration": 5.03
+    },
+    {
+        "text": "and number of grayscale levels so",
+        "start": 1043.95,
+        "duration": 6.09
+    },
+    {
+        "text": "originally I guess I had 63 here and at",
+        "start": 1047.21,
+        "duration": 4.96
+    },
+    {
+        "text": "63 gray let the grayscale level so you",
+        "start": 1050.04,
+        "duration": 6.96
+    },
+    {
+        "text": "get 134 Hertz refresh rate so at 128",
+        "start": 1052.17,
+        "duration": 7.68
+    },
+    {
+        "text": "you'll get about half that still pretty",
+        "start": 1057.0,
+        "duration": 4.86
+    },
+    {
+        "text": "good it won't flicker as long as you're",
+        "start": 1059.85,
+        "duration": 6.75
+    },
+    {
+        "text": "above about 75 Hertz there's a fair bit",
+        "start": 1061.86,
+        "duration": 6.45
+    },
+    {
+        "text": "of manual register control in here",
+        "start": 1066.6,
+        "duration": 4.05
+    },
+    {
+        "text": "because I really need detailed control",
+        "start": 1068.31,
+        "duration": 4.68
+    },
+    {
+        "text": "over what these timers are doing so",
+        "start": 1070.65,
+        "duration": 4.2
+    },
+    {
+        "text": "there's two main timers that each fire",
+        "start": 1072.99,
+        "duration": 3.75
+    },
+    {
+        "text": "and interrupts to get this thing to run",
+        "start": 1074.85,
+        "duration": 4.95
+    },
+    {
+        "text": "and the first one is a timer to set up",
+        "start": 1076.74,
+        "duration": 5.76
+    },
+    {
+        "text": "here that runs an interrupt which sends",
+        "start": 1079.8,
+        "duration": 4.89
+    },
+    {
+        "text": "data to the shift register so this is",
+        "start": 1082.5,
+        "duration": 4.44
+    },
+    {
+        "text": "currently set up to run at about eight",
+        "start": 1084.69,
+        "duration": 4.26
+    },
+    {
+        "text": "and a half kilohertz so eight and a half",
+        "start": 1086.94,
+        "duration": 4.47
+    },
+    {
+        "text": "thousand times a second the chip fires",
+        "start": 1088.95,
+        "duration": 5.13
+    },
+    {
+        "text": "an interrupt and sends it's basically",
+        "start": 1091.41,
+        "duration": 4.98
+    },
+    {
+        "text": "its frame buffer to the shift register",
+        "start": 1094.08,
+        "duration": 7.61
+    },
+    {
+        "text": "and that's pretty self-explanatory",
+        "start": 1096.39,
+        "duration": 9.12
+    },
+    {
+        "text": "the second timers set up is a little bit",
+        "start": 1101.69,
+        "duration": 6.04
+    },
+    {
+        "text": "weird it's actually set up as a one-shot",
+        "start": 1105.51,
+        "duration": 5.16
+    },
+    {
+        "text": "and what this does is it fires",
+        "start": 1107.73,
+        "duration": 6.27
+    },
+    {
+        "text": "periodically and if nothing retry Gers",
+        "start": 1110.67,
+        "duration": 5.4
+    },
+    {
+        "text": "it then it doesn't run anymore and the",
+        "start": 1114.0,
+        "duration": 5.1
+    },
+    {
+        "text": "point of this is that when this timer",
+        "start": 1116.07,
+        "duration": 5.31
+    },
+    {
+        "text": "fires and interrupts it will check the",
+        "start": 1119.1,
+        "duration": 4.44
+    },
+    {
+        "text": "high voltage on that capacitor and if",
+        "start": 1121.38,
+        "duration": 4.38
+    },
+    {
+        "text": "it's too low it turns on the high",
+        "start": 1123.54,
+        "duration": 4.5
+    },
+    {
+        "text": "voltage supply but what I want to happen",
+        "start": 1125.76,
+        "duration": 4.29
+    },
+    {
+        "text": "is to have the high voltage be shut off",
+        "start": 1128.04,
+        "duration": 4.62
+    },
+    {
+        "text": "if anything bad happens in the code so",
+        "start": 1130.05,
+        "duration": 3.9
+    },
+    {
+        "text": "if the processor halts for whatever",
+        "start": 1132.66,
+        "duration": 3.6
+    },
+    {
+        "text": "reason it can't just leave that high",
+        "start": 1133.95,
+        "duration": 4.32
+    },
+    {
+        "text": "voltage control line in whatever state",
+        "start": 1136.26,
+        "duration": 3.36
+    },
+    {
+        "text": "it was previously because it might have",
+        "start": 1138.27,
+        "duration": 3.45
+    },
+    {
+        "text": "been on and if it leaves it on it will",
+        "start": 1139.62,
+        "duration": 3.78
+    },
+    {
+        "text": "cause damage to the hardware so this is",
+        "start": 1141.72,
+        "duration": 2.24
+    },
+    {
+        "text": "kind of a",
+        "start": 1143.4,
+        "duration": 3.22
+    },
+    {
+        "text": "sort of thing so with the one-shot setup",
+        "start": 1143.96,
+        "duration": 6.54
+    },
+    {
+        "text": "the the in or the timer times out and",
+        "start": 1146.62,
+        "duration": 5.95
+    },
+    {
+        "text": "then if nothing happens like if the",
+        "start": 1150.5,
+        "duration": 4.08
+    },
+    {
+        "text": "processor is halted for some reason it",
+        "start": 1152.57,
+        "duration": 3.69
+    },
+    {
+        "text": "never runs the code to check if the high",
+        "start": 1154.58,
+        "duration": 3.27
+    },
+    {
+        "text": "voltage is there and hence never turns",
+        "start": 1156.26,
+        "duration": 5.3
+    },
+    {
+        "text": "it on that's the point of the one-shot",
+        "start": 1157.85,
+        "duration": 5.88
+    },
+    {
+        "text": "the main loop is where you actually",
+        "start": 1161.56,
+        "duration": 4.12
+    },
+    {
+        "text": "program the graphics for this thing and",
+        "start": 1163.73,
+        "duration": 3.87
+    },
+    {
+        "text": "I have a whole bunch of commented out",
+        "start": 1165.68,
+        "duration": 4.53
+    },
+    {
+        "text": "junk that basically you can have delays",
+        "start": 1167.6,
+        "duration": 5.76
+    },
+    {
+        "text": "in the main loop because all the work is",
+        "start": 1170.21,
+        "duration": 4.98
+    },
+    {
+        "text": "really being done by interrupts so you",
+        "start": 1173.36,
+        "duration": 4.23
+    },
+    {
+        "text": "can you can delay the code in the main",
+        "start": 1175.19,
+        "duration": 4.53
+    },
+    {
+        "text": "loop and set the pixel values to",
+        "start": 1177.59,
+        "duration": 4.23
+    },
+    {
+        "text": "whatever you want the next step in",
+        "start": 1179.72,
+        "duration": 3.63
+    },
+    {
+        "text": "developing this firmware would be adding",
+        "start": 1181.82,
+        "duration": 3.66
+    },
+    {
+        "text": "like a graphics library or adapting a de",
+        "start": 1183.35,
+        "duration": 5.85
+    },
+    {
+        "text": "fruits here's the interrupt handler that",
+        "start": 1185.48,
+        "duration": 5.76
+    },
+    {
+        "text": "sends the data to the shift register and",
+        "start": 1189.2,
+        "duration": 3.66
+    },
+    {
+        "text": "this runs at about eight and a half",
+        "start": 1191.24,
+        "duration": 3.84
+    },
+    {
+        "text": "kilohertz and I measured it for a twenty",
+        "start": 1192.86,
+        "duration": 4.23
+    },
+    {
+        "text": "second duration so that's like seventeen",
+        "start": 1195.08,
+        "duration": 4.23
+    },
+    {
+        "text": "percent of the CPU time is spent in this",
+        "start": 1197.09,
+        "duration": 3.78
+    },
+    {
+        "text": "interrupt which is I think it's pretty",
+        "start": 1199.31,
+        "duration": 4.35
+    },
+    {
+        "text": "reasonable for this application and the",
+        "start": 1200.87,
+        "duration": 6.0
+    },
+    {
+        "text": "trick here is that every time you toggle",
+        "start": 1203.66,
+        "duration": 6.42
+    },
+    {
+        "text": "a pair of lines going to an e l panel or",
+        "start": 1206.87,
+        "duration": 5.67
+    },
+    {
+        "text": "wire you get a flash of light out of it",
+        "start": 1210.08,
+        "duration": 6.18
+    },
+    {
+        "text": "so I have this loop that basically",
+        "start": 1212.54,
+        "duration": 6.93
+    },
+    {
+        "text": "checks to see if the pixel value is or",
+        "start": 1216.26,
+        "duration": 7.26
+    },
+    {
+        "text": "if the current sort of iteration through",
+        "start": 1219.47,
+        "duration": 6.18
+    },
+    {
+        "text": "all the possible pixel values is less",
+        "start": 1223.52,
+        "duration": 3.6
+    },
+    {
+        "text": "than the value that you want it to be",
+        "start": 1225.65,
+        "duration": 5.25
+    },
+    {
+        "text": "and if it is then it toggles those two",
+        "start": 1227.12,
+        "duration": 5.67
+    },
+    {
+        "text": "lines and remember a toggle means give",
+        "start": 1230.9,
+        "duration": 4.29
+    },
+    {
+        "text": "me a flash of light so fade step",
+        "start": 1232.79,
+        "duration": 5.13
+    },
+    {
+        "text": "increments one by one as this loop runs",
+        "start": 1235.19,
+        "duration": 5.34
+    },
+    {
+        "text": "and eventually it will get higher than",
+        "start": 1237.92,
+        "duration": 5.16
+    },
+    {
+        "text": "pixel values whichever I mean let's say",
+        "start": 1240.53,
+        "duration": 5.94
+    },
+    {
+        "text": "your pixel value is set to 50% halfway",
+        "start": 1243.08,
+        "duration": 5.01
+    },
+    {
+        "text": "through this loop fade step will get",
+        "start": 1246.47,
+        "duration": 3.39
+    },
+    {
+        "text": "higher than the pixel value and then it",
+        "start": 1248.09,
+        "duration": 4.17
+    },
+    {
+        "text": "won't toggle that line anymore so this",
+        "start": 1249.86,
+        "duration": 4.17
+    },
+    {
+        "text": "thing basically steps through all the",
+        "start": 1252.26,
+        "duration": 4.29
+    },
+    {
+        "text": "possible brightness combinations and",
+        "start": 1254.03,
+        "duration": 4.82
+    },
+    {
+        "text": "will light up only the pixels that are",
+        "start": 1256.55,
+        "duration": 5.96
+    },
+    {
+        "text": "set to be higher than that cut point",
+        "start": 1258.85,
+        "duration": 5.98
+    },
+    {
+        "text": "here's the interrupt handler that runs",
+        "start": 1262.51,
+        "duration": 4.66
+    },
+    {
+        "text": "the high voltage setup and it's",
+        "start": 1264.83,
+        "duration": 4.14
+    },
+    {
+        "text": "important that we disable interrupts for",
+        "start": 1267.17,
+        "duration": 3.3
+    },
+    {
+        "text": "this one because we really can't have",
+        "start": 1268.97,
+        "duration": 3.72
+    },
+    {
+        "text": "any interruptions during this time here",
+        "start": 1270.47,
+        "duration": 3.92
+    },
+    {
+        "text": "because it is pretty time-sensitive",
+        "start": 1272.69,
+        "duration": 4.26
+    },
+    {
+        "text": "there's a quirk with that high voltage",
+        "start": 1274.39,
+        "duration": 3.249
+    },
+    {
+        "text": "chip",
+        "start": 1276.95,
+        "duration": 3.75
+    },
+    {
+        "text": "that I'm using you can't pulse it too",
+        "start": 1277.639,
+        "duration": 5.25
+    },
+    {
+        "text": "rapidly so there's a minimum load time",
+        "start": 1280.7,
+        "duration": 4.379
+    },
+    {
+        "text": "which is why the loop is set up this way",
+        "start": 1282.889,
+        "duration": 3.54
+    },
+    {
+        "text": "I'm not gonna really get into the",
+        "start": 1285.079,
+        "duration": 2.85
+    },
+    {
+        "text": "hardcore details but of course if you",
+        "start": 1286.429,
+        "duration": 3.75
+    },
+    {
+        "text": "have questions about this you know",
+        "start": 1287.929,
+        "duration": 3.78
+    },
+    {
+        "text": "contact me on Twitter or put them in or",
+        "start": 1290.179,
+        "duration": 3.6
+    },
+    {
+        "text": "even better put them in the in the",
+        "start": 1291.709,
+        "duration": 3.241
+    },
+    {
+        "text": "comments and then everyone can learn",
+        "start": 1293.779,
+        "duration": 7.82
+    },
+    {
+        "text": "from it okay see you next time bye",
+        "start": 1294.95,
+        "duration": 6.649
+    }
+]

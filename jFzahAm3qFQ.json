@@ -1,0 +1,447 @@
+[
+    {
+        "text": "How would you like to be able to tell the future? Well, you can't",
+        "start": 11.58,
+        "duration": 3.12
+    },
+    {
+        "text": "But, billions of dollars and millions of lives depend on",
+        "start": 15.38,
+        "duration": 3.36
+    },
+    {
+        "text": "scientists predicting the future outcome of events",
+        "start": 18.74,
+        "duration": 1.84
+    },
+    {
+        "text": "every day.",
+        "start": 20.74,
+        "duration": 1.32
+    },
+    {
+        "text": "From the results of elections to the paths of hurricanes",
+        "start": 22.26,
+        "duration": 1.92
+    },
+    {
+        "text": "to the likelihood of terrorist attacks",
+        "start": 24.44,
+        "duration": 1.76
+    },
+    {
+        "text": "We rely on predictions based on statistical analysis to help us assess risks,",
+        "start": 26.22,
+        "duration": 4.84
+    },
+    {
+        "text": "invest our money, and make potentially life-altering decisions.",
+        "start": 31.1,
+        "duration": 3.68
+    },
+    {
+        "text": "But how do you determine the odds of something that is inherently uncertain?",
+        "start": 34.78,
+        "duration": 3.94
+    },
+    {
+        "text": "Here's a thought exercise for you.",
+        "start": 38.72,
+        "duration": 1.24
+    },
+    {
+        "text": "Imagine a woman in her 40s who wants to know if she has breast cancer.",
+        "start": 39.96,
+        "duration": 3.5
+    },
+    {
+        "text": "If she does, statistics show that there is a 75% chance that a mammogram will detect it",
+        "start": 43.46,
+        "duration": 4.26
+    },
+    {
+        "text": "But if she doesn't, then there is a 10% chance that the mammogram will give her a false positive.",
+        "start": 47.72,
+        "duration": 4.84
+    },
+    {
+        "text": "That is, it will say she has cancer and she doesn't.",
+        "start": 52.56,
+        "duration": 2.76
+    },
+    {
+        "text": "Add this to the fact that we also know that 1.4% of all women in their forties have breast cancer.",
+        "start": 55.32,
+        "duration": 4.86
+    },
+    {
+        "text": "Now, imagine our hypothetical woman gets a mammogram and",
+        "start": 60.18,
+        "duration": 2.74
+    },
+    {
+        "text": "it comes back positive.",
+        "start": 62.92,
+        "duration": 0.9
+    },
+    {
+        "text": "What are the odds that the test is right?",
+        "start": 63.82,
+        "duration": 2.58
+    },
+    {
+        "text": "You are probably thinking, about 75%",
+        "start": 66.4,
+        "duration": 2.4
+    },
+    {
+        "text": "Right?",
+        "start": 69.0,
+        "duration": 0.5
+    },
+    {
+        "text": "Wrong!",
+        "start": 69.5,
+        "duration": 0.5
+    },
+    {
+        "text": "The odds that she actually has cancer are only 9.6%!",
+        "start": 70.64,
+        "duration": 3.36
+    },
+    {
+        "text": "Now don't feel bad!",
+        "start": 74.2,
+        "duration": 1.04
+    },
+    {
+        "text": "Most doctors get this wrong too!",
+        "start": 75.24,
+        "duration": 1.9
+    },
+    {
+        "text": "This is a problem that calls for Bayesian reasoning,",
+        "start": 77.14,
+        "duration": 2.78
+    },
+    {
+        "text": "which, while really counter-intuitive, is the basis for a lot of modern scientific thinking.",
+        "start": 79.92,
+        "duration": 4.92
+    },
+    {
+        "text": "Bayesian reasoning is a method by which you can determine the importance",
+        "start": 84.84,
+        "duration": 3.28
+    },
+    {
+        "text": "of a particular piece of information when trying to prove or disprove a hypothesis.",
+        "start": 88.12,
+        "duration": 4.38
+    },
+    {
+        "text": "To do that, Bayes's Theorem asks for 3 things.",
+        "start": 92.86,
+        "duration": 2.96
+    },
+    {
+        "text": "First, the probability that your hypothesis was true before you conducted the experiment.",
+        "start": 95.92,
+        "duration": 4.94
+    },
+    {
+        "text": "In this case, our hypothesis is that the woman has cancer when she gets the mammogram.",
+        "start": 100.86,
+        "duration": 4.78
+    },
+    {
+        "text": "Second, you have to weigh the odds of a given outcome if your hypothesis is true",
+        "start": 105.64,
+        "duration": 4.18
+    },
+    {
+        "text": "In our example, the odds of getting a positive test result.",
+        "start": 109.82,
+        "duration": 3.16
+    },
+    {
+        "text": "And third, the odds of that same outcome if your hypothesis is false.",
+        "start": 112.98,
+        "duration": 3.48
+    },
+    {
+        "text": "Meaning, that the woman gets a positive test, but doesn't have cancer.",
+        "start": 116.46,
+        "duration": 3.24
+    },
+    {
+        "text": "If you, like most doctors the first time they read this question, thought that a positive test",
+        "start": 119.7,
+        "duration": 3.58
+    },
+    {
+        "text": "result meant 75% chance of cancer,",
+        "start": 123.28,
+        "duration": 2.54
+    },
+    {
+        "text": "You made the very human mistake of thinking that the odds",
+        "start": 125.82,
+        "duration": 3.04
+    },
+    {
+        "text": "of a woman with cancer getting a positive result",
+        "start": 128.86,
+        "duration": 2.66
+    },
+    {
+        "text": "were the same as the odds of a woman with a positive result having cancer.",
+        "start": 131.52,
+        "duration": 3.58
+    },
+    {
+        "text": "But they are not!",
+        "start": 135.1,
+        "duration": 0.84
+    },
+    {
+        "text": "They are in fact, totally, drastically different!",
+        "start": 136.24,
+        "duration": 3.44
+    },
+    {
+        "text": "To think in Bayesian terms is to think this way:",
+        "start": 139.68,
+        "duration": 2.14
+    },
+    {
+        "text": "Say you got a group of 1000 women in their forties.",
+        "start": 141.82,
+        "duration": 1.84
+    },
+    {
+        "text": "14 of them have cancer,",
+        "start": 143.98,
+        "duration": 1.44
+    },
+    {
+        "text": "cause we said that 1.4% of women in this age group have cancer,",
+        "start": 145.42,
+        "duration": 3.64
+    },
+    {
+        "text": "remember?",
+        "start": 149.22,
+        "duration": 0.72
+    },
+    {
+        "text": "that means 986 of them do not have cancer.",
+        "start": 149.94,
+        "duration": 2.84
+    },
+    {
+        "text": "Of the 14 who have cancer, as we established,",
+        "start": 152.78,
+        "duration": 2.8
+    },
+    {
+        "text": "75% of them will test positive in a mammogram.",
+        "start": 155.64,
+        "duration": 2.88
+    },
+    {
+        "text": "75%  of 14 is 10.5.",
+        "start": 158.52,
+        "duration": 2.1
+    },
+    {
+        "text": "And of the 986 who don't have cancer,",
+        "start": 160.76,
+        "duration": 3.32
+    },
+    {
+        "text": "10% of them will receive a positive test result,",
+        "start": 164.6,
+        "duration": 2.78
+    },
+    {
+        "text": "and 10% of 986 is  98.6.",
+        "start": 167.38,
+        "duration": 3.46
+    },
+    {
+        "text": "So, after administering a thousand tests,",
+        "start": 170.84,
+        "duration": 3.28
+    },
+    {
+        "text": "there will be",
+        "start": 174.66,
+        "duration": 1.06
+    },
+    {
+        "text": "10.5 true positives",
+        "start": 175.72,
+        "duration": 1.46
+    },
+    {
+        "text": "and 98.6 false positives.",
+        "start": 177.18,
+        "duration": 2.8
+    },
+    {
+        "text": "The total number  of positives",
+        "start": 179.98,
+        "duration": 1.58
+    },
+    {
+        "text": "is 109.1,",
+        "start": 181.56,
+        "duration": 0.82
+    },
+    {
+        "text": "so 10.6 true positives",
+        "start": 182.38,
+        "duration": 2.42
+    },
+    {
+        "text": "out of a 109.1 total positives means",
+        "start": 184.8,
+        "duration": 1.82
+    },
+    {
+        "text": "that there is a 9.6% chance",
+        "start": 186.62,
+        "duration": 1.72
+    },
+    {
+        "text": "that a woman in her forties who recieves",
+        "start": 188.34,
+        "duration": 1.96
+    },
+    {
+        "text": "the positive mammogram result",
+        "start": 190.3,
+        "duration": 1.3
+    },
+    {
+        "text": "will actually  have cancer.",
+        "start": 191.6,
+        "duration": 1.5
+    },
+    {
+        "text": "Thinking like this  does not come naturally to most of us",
+        "start": 193.1,
+        "duration": 2.72
+    },
+    {
+        "text": "but it's the only  way to measure",
+        "start": 195.82,
+        "duration": 2.08
+    },
+    {
+        "text": "the real significance of experimental results.",
+        "start": 197.9,
+        "duration": 2.68
+    },
+    {
+        "text": "If you're not thinking like a Bayesian",
+        "start": 200.58,
+        "duration": 1.9
+    },
+    {
+        "text": "you can wildly overestimate the relevance of your findings.",
+        "start": 202.48,
+        "duration": 3.12
+    },
+    {
+        "text": "That is a big problem in science.",
+        "start": 205.6,
+        "duration": 2.06
+    },
+    {
+        "text": "Consider for example that 80% of  experimental results",
+        "start": 207.66,
+        "duration": 3.14
+    },
+    {
+        "text": "published in academic journals in the United States",
+        "start": 210.8,
+        "duration": 1.66
+    },
+    {
+        "text": "turn out to be impossible to replicate.",
+        "start": 212.46,
+        "duration": 2.48
+    },
+    {
+        "text": "Bayesian reasoning makes us think rationally,",
+        "start": 214.94,
+        "duration": 2.26
+    },
+    {
+        "text": "which humans are not always great at,",
+        "start": 217.3,
+        "duration": 2.4
+    },
+    {
+        "text": "and better reasoning means better science",
+        "start": 219.7,
+        "duration": 2.42
+    },
+    {
+        "text": "Thank you for watching this SciShow Dose,",
+        "start": 222.42,
+        "duration": 1.24
+    },
+    {
+        "text": "and thanks especially to our Subbable subscribers",
+        "start": 223.66,
+        "duration": 2.02
+    },
+    {
+        "text": "who make all of this possible.",
+        "start": 225.68,
+        "duration": 1.88
+    },
+    {
+        "text": "If you'd like to become an honorary associate producer",
+        "start": 227.56,
+        "duration": 2.26
+    },
+    {
+        "text": "of SciShow, or earn the title of President of Space,",
+        "start": 229.82,
+        "duration": 2.82
+    },
+    {
+        "text": "or pick the topic of one of our future episodes,",
+        "start": 232.64,
+        "duration": 2.1
+    },
+    {
+        "text": "go to subbable.com/scishow.",
+        "start": 234.74,
+        "duration": 1.88
+    },
+    {
+        "text": "And if you have any comments or suggestions,",
+        "start": 236.62,
+        "duration": 1.3
+    },
+    {
+        "text": "you can always find us on Facebook and Twitter,",
+        "start": 237.92,
+        "duration": 2.28
+    },
+    {
+        "text": "and don't forget to go to youtube.com/scishow,",
+        "start": 240.2,
+        "duration": 1.82
+    },
+    {
+        "text": "and subscribe. If you wanna keep seeing this, because it's great.",
+        "start": 242.02,
+        "duration": 3.9
+    }
+]

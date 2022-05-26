@@ -1,0 +1,1597 @@
+[
+    {
+        "text": "today on Applied Science I thought we'd",
+        "start": 0.21,
+        "duration": 3.81
+    },
+    {
+        "text": "talk about building AM radio",
+        "start": 2.49,
+        "duration": 3.66
+    },
+    {
+        "text": "transmitters and then in the second half",
+        "start": 4.02,
+        "duration": 3.66
+    },
+    {
+        "text": "of the video I'd like to show you the",
+        "start": 6.15,
+        "duration": 3.33
+    },
+    {
+        "text": "upcoming projects on the channel which I",
+        "start": 7.68,
+        "duration": 3.18
+    },
+    {
+        "text": "think you'll find interesting",
+        "start": 9.48,
+        "duration": 4.98
+    },
+    {
+        "text": "but first a.m. if you restore antique am",
+        "start": 10.86,
+        "duration": 5.97
+    },
+    {
+        "text": "radios as a hobby you've probably run",
+        "start": 14.46,
+        "duration": 4.11
+    },
+    {
+        "text": "into this problem so after spending",
+        "start": 16.83,
+        "duration": 4.32
+    },
+    {
+        "text": "hours getting the radio working you'll",
+        "start": 18.57,
+        "duration": 4.86
+    },
+    {
+        "text": "find that it sounds terrible but it has",
+        "start": 21.15,
+        "duration": 4.35
+    },
+    {
+        "text": "nothing to do with the radio the problem",
+        "start": 23.43,
+        "duration": 4.8
+    },
+    {
+        "text": "is that AM broadcast just doesn't have",
+        "start": 25.5,
+        "duration": 5.34
+    },
+    {
+        "text": "any good music on it and I thought that",
+        "start": 28.23,
+        "duration": 4.259
+    },
+    {
+        "text": "in a sort of a major metro area there",
+        "start": 30.84,
+        "duration": 3.18
+    },
+    {
+        "text": "would at least be one station that plays",
+        "start": 32.489,
+        "duration": 5.461
+    },
+    {
+        "text": "old music but no so you know you could",
+        "start": 34.02,
+        "duration": 5.94
+    },
+    {
+        "text": "just cut the speaker wires inside the",
+        "start": 37.95,
+        "duration": 4.83
+    },
+    {
+        "text": "radio and put in hide an mp3 player in",
+        "start": 39.96,
+        "duration": 3.93
+    },
+    {
+        "text": "there but that kind of defeats the whole",
+        "start": 42.78,
+        "duration": 4.799
+    },
+    {
+        "text": "purpose of restoring the AM radio so in",
+        "start": 43.89,
+        "duration": 6.36
+    },
+    {
+        "text": "my case I bought a 1938 Ford pickup",
+        "start": 47.579,
+        "duration": 5.181
+    },
+    {
+        "text": "truck and it likely has the original",
+        "start": 50.25,
+        "duration": 5.25
+    },
+    {
+        "text": "1938 radio in there and after a little",
+        "start": 52.76,
+        "duration": 5.049
+    },
+    {
+        "text": "bit of work I got it working but like I",
+        "start": 55.5,
+        "duration": 4.71
+    },
+    {
+        "text": "say there's just no stations and so what",
+        "start": 57.809,
+        "duration": 3.84
+    },
+    {
+        "text": "we want to do is build a simple little",
+        "start": 60.21,
+        "duration": 4.5
+    },
+    {
+        "text": "AM radio transmitter and then we can you",
+        "start": 61.649,
+        "duration": 4.531
+    },
+    {
+        "text": "know broadcast decent music",
+        "start": 64.71,
+        "duration": 5.25
+    },
+    {
+        "text": "to our own radio so here's the schematic",
+        "start": 66.18,
+        "duration": 6.21
+    },
+    {
+        "text": "and the circuit built up on a perf board",
+        "start": 69.96,
+        "duration": 5.58
+    },
+    {
+        "text": "just point-to-point wiring and the trick",
+        "start": 72.39,
+        "duration": 5.82
+    },
+    {
+        "text": "here is that we have a 5 volt oscillator",
+        "start": 75.54,
+        "duration": 5.7
+    },
+    {
+        "text": "but we're going to feed it 3.3 volts",
+        "start": 78.21,
+        "duration": 5.82
+    },
+    {
+        "text": "from this regulator here and the idea is",
+        "start": 81.24,
+        "duration": 4.71
+    },
+    {
+        "text": "that we can make the voltage go up and",
+        "start": 84.03,
+        "duration": 5.31
+    },
+    {
+        "text": "down relative to 3.3 and the oscillator",
+        "start": 85.95,
+        "duration": 5.07
+    },
+    {
+        "text": "won't burn out because it's a 5 volt",
+        "start": 89.34,
+        "duration": 4.319
+    },
+    {
+        "text": "component but luckily it also keeps",
+        "start": 91.02,
+        "duration": 4.349
+    },
+    {
+        "text": "oscillating when the voltage is lower",
+        "start": 93.659,
+        "duration": 5.581
+    },
+    {
+        "text": "than 3.3 so at steady state let's say",
+        "start": 95.369,
+        "duration": 5.551
+    },
+    {
+        "text": "there's no headphones connected to this",
+        "start": 99.24,
+        "duration": 4.32
+    },
+    {
+        "text": "circuit we have 3.3 volts going through",
+        "start": 100.92,
+        "duration": 4.11
+    },
+    {
+        "text": "the coil and will be a little bit of a",
+        "start": 103.56,
+        "duration": 3.72
+    },
+    {
+        "text": "voltage drop here and then into the",
+        "start": 105.03,
+        "duration": 4.74
+    },
+    {
+        "text": "oscillator and our output is just a 1",
+        "start": 107.28,
+        "duration": 5.159
+    },
+    {
+        "text": "megahertz square wave at you know 3",
+        "start": 109.77,
+        "duration": 5.79
+    },
+    {
+        "text": "volts let's say or 3.1 or something now",
+        "start": 112.439,
+        "duration": 5.07
+    },
+    {
+        "text": "if we put an audio signal into the",
+        "start": 115.56,
+        "duration": 5.97
+    },
+    {
+        "text": "transformer the impedance is matched",
+        "start": 117.509,
+        "duration": 6.21
+    },
+    {
+        "text": "such that the headphone jack is",
+        "start": 121.53,
+        "duration": 3.72
+    },
+    {
+        "text": "supplying a good amount of current",
+        "start": 123.719,
+        "duration": 3.121
+    },
+    {
+        "text": "through this smaller winding of the",
+        "start": 125.25,
+        "duration": 3.479
+    },
+    {
+        "text": "transformer and then we end up with a",
+        "start": 126.84,
+        "duration": 5.13
+    },
+    {
+        "text": "much bigger voltage signal on the longer",
+        "start": 128.729,
+        "duration": 4.891
+    },
+    {
+        "text": "winding of the transformer",
+        "start": 131.97,
+        "duration": 3.48
+    },
+    {
+        "text": "so the current adds and subtracts to",
+        "start": 133.62,
+        "duration": 3.36
+    },
+    {
+        "text": "what's already flowing through from this",
+        "start": 135.45,
+        "duration": 4.53
+    },
+    {
+        "text": "DC supply and that's what gives us the",
+        "start": 136.98,
+        "duration": 5.789
+    },
+    {
+        "text": "AC way of superimposed on top of the DC",
+        "start": 139.98,
+        "duration": 5.03
+    },
+    {
+        "text": "there",
+        "start": 142.769,
+        "duration": 2.241
+    },
+    {
+        "text": "okay so let's hear this thing in action",
+        "start": 145.67,
+        "duration": 4.569
+    },
+    {
+        "text": "I'm just going to play some music from",
+        "start": 147.84,
+        "duration": 6.78
+    },
+    {
+        "text": "the phone and as you can hear it",
+        "start": 150.239,
+        "duration": 11.851
+    },
+    {
+        "text": "actually sounds pretty good I was",
+        "start": 154.62,
+        "duration": 8.55
+    },
+    {
+        "text": "actually really impressed with the",
+        "start": 162.09,
+        "duration": 3.54
+    },
+    {
+        "text": "fidelity and as it happens the matching",
+        "start": 163.17,
+        "duration": 4.289
+    },
+    {
+        "text": "transform and everything just about have",
+        "start": 165.63,
+        "duration": 3.689
+    },
+    {
+        "text": "the right levels so that this all works",
+        "start": 167.459,
+        "duration": 3.511
+    },
+    {
+        "text": "out so the volume is pretty high on the",
+        "start": 169.319,
+        "duration": 2.76
+    },
+    {
+        "text": "phone but it doesn't have to be",
+        "start": 170.97,
+        "duration": 3.42
+    },
+    {
+        "text": "ridiculous and the amount of modulation",
+        "start": 172.079,
+        "duration": 4.831
+    },
+    {
+        "text": "that we get into the am signal is is",
+        "start": 174.39,
+        "duration": 4.47
+    },
+    {
+        "text": "about right I mean it's close and I'll",
+        "start": 176.91,
+        "duration": 3.54
+    },
+    {
+        "text": "put the part numbers all this stuff in",
+        "start": 178.86,
+        "duration": 4.409
+    },
+    {
+        "text": "the description if we look at the scope",
+        "start": 180.45,
+        "duration": 4.92
+    },
+    {
+        "text": "the purple trace is the audio signal",
+        "start": 183.269,
+        "duration": 4.411
+    },
+    {
+        "text": "going in from the headphones and the",
+        "start": 185.37,
+        "duration": 4.74
+    },
+    {
+        "text": "yellow is the output from the oscillator",
+        "start": 187.68,
+        "duration": 4.32
+    },
+    {
+        "text": "so we can see our carrier being",
+        "start": 190.11,
+        "duration": 4.8
+    },
+    {
+        "text": "modulated by the audio here and if we do",
+        "start": 192.0,
+        "duration": 9.09
+    },
+    {
+        "text": "a single and zoom in you can see the the",
+        "start": 194.91,
+        "duration": 8.699
+    },
+    {
+        "text": "1 megahertz carrier there and if we kind",
+        "start": 201.09,
+        "duration": 5.28
+    },
+    {
+        "text": "of scroll around you can kind of see the",
+        "start": 203.609,
+        "duration": 4.801
+    },
+    {
+        "text": "carrier change height relative to the",
+        "start": 206.37,
+        "duration": 4.649
+    },
+    {
+        "text": "audio signal that's going in so it's all",
+        "start": 208.41,
+        "duration": 4.229
+    },
+    {
+        "text": "working fine oh I should also point out",
+        "start": 211.019,
+        "duration": 4.08
+    },
+    {
+        "text": "yeah AM should not be a square wave",
+        "start": 212.639,
+        "duration": 4.201
+    },
+    {
+        "text": "because we've got all kinds of harmonics",
+        "start": 215.099,
+        "duration": 4.29
+    },
+    {
+        "text": "mixed in there but even still this is a",
+        "start": 216.84,
+        "duration": 5.19
+    },
+    {
+        "text": "super hacky circuit and the fact that it",
+        "start": 219.389,
+        "duration": 4.47
+    },
+    {
+        "text": "works so well with just three components",
+        "start": 222.03,
+        "duration": 5.94
+    },
+    {
+        "text": "it's kind of its main feature okay so",
+        "start": 223.859,
+        "duration": 5.701
+    },
+    {
+        "text": "that's all well and good but since this",
+        "start": 227.97,
+        "duration": 3.21
+    },
+    {
+        "text": "is an automotive application what I",
+        "start": 229.56,
+        "duration": 3.78
+    },
+    {
+        "text": "really want to happen is you know I get",
+        "start": 231.18,
+        "duration": 3.779
+    },
+    {
+        "text": "in the truck and turn on the ignition",
+        "start": 233.34,
+        "duration": 3.959
+    },
+    {
+        "text": "and good music starts coming out of the",
+        "start": 234.959,
+        "duration": 4.771
+    },
+    {
+        "text": "radio without me fiddling with my phone",
+        "start": 237.299,
+        "duration": 4.56
+    },
+    {
+        "text": "or plugging in an mp3 player queueing up",
+        "start": 239.73,
+        "duration": 4.319
+    },
+    {
+        "text": "the music or whatever so I went",
+        "start": 241.859,
+        "duration": 5.91
+    },
+    {
+        "text": "searching around for sort of built-in om",
+        "start": 244.049,
+        "duration": 5.97
+    },
+    {
+        "text": "mp3 players and was surprised that these",
+        "start": 247.769,
+        "duration": 4.44
+    },
+    {
+        "text": "are actually pretty common so this is",
+        "start": 250.019,
+        "duration": 5.461
+    },
+    {
+        "text": "five dollars on eBay including shipping",
+        "start": 252.209,
+        "duration": 7.441
+    },
+    {
+        "text": "from Asia and the remote five dollars I",
+        "start": 255.48,
+        "duration": 6.21
+    },
+    {
+        "text": "mean it's crazy and so I got a couple of",
+        "start": 259.65,
+        "duration": 3.12
+    },
+    {
+        "text": "these just to see what it's all about",
+        "start": 261.69,
+        "duration": 3.18
+    },
+    {
+        "text": "and these are actually surprisingly good",
+        "start": 262.77,
+        "duration": 3.96
+    },
+    {
+        "text": "you can put an SD card in here",
+        "start": 264.87,
+        "duration": 4.41
+    },
+    {
+        "text": "or a thumb drive it even has an FM radio",
+        "start": 266.73,
+        "duration": 6.59
+    },
+    {
+        "text": "in here too and it's a single chip and",
+        "start": 269.28,
+        "duration": 7.41
+    },
+    {
+        "text": "its output is line out so originally I",
+        "start": 273.32,
+        "duration": 4.93
+    },
+    {
+        "text": "tried connecting this to the previous",
+        "start": 276.69,
+        "duration": 3.84
+    },
+    {
+        "text": "circuit thinking that it might have",
+        "start": 278.25,
+        "duration": 4.59
+    },
+    {
+        "text": "enough power to drive like a headphone",
+        "start": 280.53,
+        "duration": 6.42
+    },
+    {
+        "text": "style thing but it doesn't and so I'll",
+        "start": 282.84,
+        "duration": 6.3
+    },
+    {
+        "text": "show you what I did to make this work I",
+        "start": 286.95,
+        "duration": 4.38
+    },
+    {
+        "text": "also want to point out that one of the",
+        "start": 289.14,
+        "duration": 3.87
+    },
+    {
+        "text": "main features of this thing is that when",
+        "start": 291.33,
+        "duration": 3.6
+    },
+    {
+        "text": "power is applied to it it automatically",
+        "start": 293.01,
+        "duration": 4.95
+    },
+    {
+        "text": "starts playing the last song that it was",
+        "start": 294.93,
+        "duration": 4.77
+    },
+    {
+        "text": "that it was playing so if you have a",
+        "start": 297.96,
+        "duration": 4.29
+    },
+    {
+        "text": "hundred mp3s on this SD card and you cut",
+        "start": 299.7,
+        "duration": 4.92
+    },
+    {
+        "text": "power to it and then put power back on",
+        "start": 302.25,
+        "duration": 5.49
+    },
+    {
+        "text": "it will pick up where it left off at the",
+        "start": 304.62,
+        "duration": 5.46
+    },
+    {
+        "text": "beginning of that song so it basically",
+        "start": 307.74,
+        "duration": 4.17
+    },
+    {
+        "text": "accomplishes everything I want with the",
+        "start": 310.08,
+        "duration": 3.69
+    },
+    {
+        "text": "power switching on and off and starting",
+        "start": 311.91,
+        "duration": 4.28
+    },
+    {
+        "text": "to play the music again",
+        "start": 313.77,
+        "duration": 5.07
+    },
+    {
+        "text": "so I started probing the circuit and",
+        "start": 316.19,
+        "duration": 4.93
+    },
+    {
+        "text": "found out that the two output lines it",
+        "start": 318.84,
+        "duration": 4.2
+    },
+    {
+        "text": "has a left and right output that are",
+        "start": 321.12,
+        "duration": 3.33
+    },
+    {
+        "text": "meant to be connected to your car's",
+        "start": 323.04,
+        "duration": 4.14
+    },
+    {
+        "text": "amplifier and as I mentioned it's not",
+        "start": 324.45,
+        "duration": 4.53
+    },
+    {
+        "text": "really a headphone jack output it's",
+        "start": 327.18,
+        "duration": 3.75
+    },
+    {
+        "text": "actually a high impedance very weak",
+        "start": 328.98,
+        "duration": 4.38
+    },
+    {
+        "text": "signal output so it won't work with our",
+        "start": 330.93,
+        "duration": 5.04
+    },
+    {
+        "text": "previous transformer circuit so I traced",
+        "start": 333.36,
+        "duration": 4.5
+    },
+    {
+        "text": "these back and it's actually just the",
+        "start": 335.97,
+        "duration": 5.16
+    },
+    {
+        "text": "connections through C 22 and c-26 those",
+        "start": 337.86,
+        "duration": 5.28
+    },
+    {
+        "text": "are the coupling capacitors and then it",
+        "start": 341.13,
+        "duration": 6.33
+    },
+    {
+        "text": "goes right into the chip here so since",
+        "start": 343.14,
+        "duration": 5.94
+    },
+    {
+        "text": "we since this thing doesn't output",
+        "start": 347.46,
+        "duration": 3.45
+    },
+    {
+        "text": "enough total power to actually modulate",
+        "start": 349.08,
+        "duration": 4.89
+    },
+    {
+        "text": "our one megahertz oscillator what we",
+        "start": 350.91,
+        "duration": 5.13
+    },
+    {
+        "text": "need to do is add an active component to",
+        "start": 353.97,
+        "duration": 4.17
+    },
+    {
+        "text": "amplify the amount of power in that",
+        "start": 356.04,
+        "duration": 4.29
+    },
+    {
+        "text": "audio signal so that we can modulate our",
+        "start": 358.14,
+        "duration": 4.65
+    },
+    {
+        "text": "amplifier and I did that with an op-amp",
+        "start": 360.33,
+        "duration": 4.5
+    },
+    {
+        "text": "there's actually another nice convenient",
+        "start": 362.79,
+        "duration": 4.35
+    },
+    {
+        "text": "little happenstance the whole circuit",
+        "start": 364.83,
+        "duration": 4.2
+    },
+    {
+        "text": "here is a 3.3 volt circuit and that's",
+        "start": 367.14,
+        "duration": 5.07
+    },
+    {
+        "text": "the 3.3 volt regulator there and the",
+        "start": 369.03,
+        "duration": 5.19
+    },
+    {
+        "text": "chip is set up such that if you if you",
+        "start": 372.21,
+        "duration": 4.77
+    },
+    {
+        "text": "tech or if you steal the audio signal",
+        "start": 374.22,
+        "duration": 4.53
+    },
+    {
+        "text": "before it goes through those AC coupling",
+        "start": 376.98,
+        "duration": 4.8
+    },
+    {
+        "text": "capacitors it is centered on about 1.6",
+        "start": 378.75,
+        "duration": 6.57
+    },
+    {
+        "text": "volts DC and the audio signal swings you",
+        "start": 381.78,
+        "duration": 5.79
+    },
+    {
+        "text": "know about a volt or something like that",
+        "start": 385.32,
+        "duration": 5.61
+    },
+    {
+        "text": "around 1.6 volts DC or half a volt or",
+        "start": 387.57,
+        "duration": 6.06
+    },
+    {
+        "text": "something like that so conveniently if",
+        "start": 390.93,
+        "duration": 5.43
+    },
+    {
+        "text": "we add a voltage doubler to it with an",
+        "start": 393.63,
+        "duration": 4.25
+    },
+    {
+        "text": "op-amp the",
+        "start": 396.36,
+        "duration": 4.4
+    },
+    {
+        "text": "the baseline becomes 3.3 volts and we",
+        "start": 397.88,
+        "duration": 4.59
+    },
+    {
+        "text": "have like a 1 volt or even",
+        "start": 400.76,
+        "duration": 4.2
+    },
+    {
+        "text": "one-and-a-half audio signal superimposed",
+        "start": 402.47,
+        "duration": 4.95
+    },
+    {
+        "text": "on top just like what we needed to",
+        "start": 404.96,
+        "duration": 4.53
+    },
+    {
+        "text": "modulate to give to our oscillator to",
+        "start": 407.42,
+        "duration": 4.74
+    },
+    {
+        "text": "get a decent AM signal out so that's",
+        "start": 409.49,
+        "duration": 5.25
+    },
+    {
+        "text": "what I did set up an op-amp here and",
+        "start": 412.16,
+        "duration": 4.65
+    },
+    {
+        "text": "since we don't have bipolar voltage",
+        "start": 414.74,
+        "duration": 6.21
+    },
+    {
+        "text": "supplies I used a op-amp that can go",
+        "start": 416.81,
+        "duration": 6.18
+    },
+    {
+        "text": "down to ground but this one happens not",
+        "start": 420.95,
+        "duration": 4.62
+    },
+    {
+        "text": "to be a rail to rail opt amplifier so I",
+        "start": 422.99,
+        "duration": 4.71
+    },
+    {
+        "text": "have I added a 5 volt regulator so we're",
+        "start": 425.57,
+        "duration": 5.67
+    },
+    {
+        "text": "giving the op-amp 5 volts and then the",
+        "start": 427.7,
+        "duration": 5.97
+    },
+    {
+        "text": "signal directly from the mp3 player chip",
+        "start": 431.24,
+        "duration": 5.22
+    },
+    {
+        "text": "and it doubles that voltage and we just",
+        "start": 433.67,
+        "duration": 4.71
+    },
+    {
+        "text": "put that right into the oscillator so",
+        "start": 436.46,
+        "duration": 5.22
+    },
+    {
+        "text": "let's hear how that sounds ok I'm going",
+        "start": 438.38,
+        "duration": 6.0
+    },
+    {
+        "text": "to apply 13 volts here simulating the",
+        "start": 441.68,
+        "duration": 4.71
+    },
+    {
+        "text": "car's electrical system being turned on",
+        "start": 444.38,
+        "duration": 4.65
+    },
+    {
+        "text": "and the thing boots up and accesses the",
+        "start": 446.39,
+        "duration": 4.35
+    },
+    {
+        "text": "SD card that I've got in there and you",
+        "start": 449.03,
+        "duration": 4.26
+    },
+    {
+        "text": "can see it's transmitting we turn our",
+        "start": 450.74,
+        "duration": 5.0
+    },
+    {
+        "text": "radio up",
+        "start": 453.29,
+        "duration": 2.45
+    },
+    {
+        "text": "sounds pretty good and the fact that it",
+        "start": 456.16,
+        "duration": 4.99
+    },
+    {
+        "text": "has a little bit of like am sort of",
+        "start": 458.96,
+        "duration": 3.959
+    },
+    {
+        "text": "characteristic noise on there is kind of",
+        "start": 461.15,
+        "duration": 3.81
+    },
+    {
+        "text": "part of the whole point of doing this",
+        "start": 462.919,
+        "duration": 3.991
+    },
+    {
+        "text": "right I mean if there's a little bit of",
+        "start": 464.96,
+        "duration": 4.35
+    },
+    {
+        "text": "static and it's it should sound like an",
+        "start": 466.91,
+        "duration": 4.439
+    },
+    {
+        "text": "AM radio basically so that is kind of",
+        "start": 469.31,
+        "duration": 4.5
+    },
+    {
+        "text": "okay I'll zoom in here so you can see",
+        "start": 471.349,
+        "duration": 6.511
+    },
+    {
+        "text": "what the box looks like okay so here we",
+        "start": 473.81,
+        "duration": 6.27
+    },
+    {
+        "text": "are stealing the audio signal before the",
+        "start": 477.86,
+        "duration": 4.98
+    },
+    {
+        "text": "output coupling capacitor and there's",
+        "start": 480.08,
+        "duration": 4.53
+    },
+    {
+        "text": "our op-amp we're only using a quarter of",
+        "start": 482.84,
+        "duration": 3.78
+    },
+    {
+        "text": "that chip this one happens to be an LM",
+        "start": 484.61,
+        "duration": 4.559
+    },
+    {
+        "text": "324 but it really doesn't matter almost",
+        "start": 486.62,
+        "duration": 5.039
+    },
+    {
+        "text": "any op-amp would work and then this",
+        "start": 489.169,
+        "duration": 6.541
+    },
+    {
+        "text": "funny setup here I have two RCA jacks",
+        "start": 491.659,
+        "duration": 6.841
+    },
+    {
+        "text": "and coupling this into the antenna",
+        "start": 495.71,
+        "duration": 4.47
+    },
+    {
+        "text": "wiring for the car was kind of a little",
+        "start": 498.5,
+        "duration": 2.97
+    },
+    {
+        "text": "bit of a challenge you can't just have",
+        "start": 500.18,
+        "duration": 3.209
+    },
+    {
+        "text": "like a paper clip hanging out that",
+        "start": 501.47,
+        "duration": 3.39
+    },
+    {
+        "text": "doesn't provide enough coupling to the",
+        "start": 503.389,
+        "duration": 4.081
+    },
+    {
+        "text": "cars antenna so what I did is I cut the",
+        "start": 504.86,
+        "duration": 4.709
+    },
+    {
+        "text": "coax going from the radio to the roof",
+        "start": 507.47,
+        "duration": 5.58
+    },
+    {
+        "text": "antenna and put RCA jacks on it so I can",
+        "start": 509.569,
+        "duration": 5.551
+    },
+    {
+        "text": "basically just slip this in line with",
+        "start": 513.05,
+        "duration": 4.44
+    },
+    {
+        "text": "the car's antenna wiring and then if by",
+        "start": 515.12,
+        "duration": 4.74
+    },
+    {
+        "text": "some miracle AM broadcast is you know",
+        "start": 517.49,
+        "duration": 4.679
+    },
+    {
+        "text": "okay or worthwhile listening to again I",
+        "start": 519.86,
+        "duration": 6.479
+    },
+    {
+        "text": "can just tune off of this station okay",
+        "start": 522.169,
+        "duration": 5.371
+    },
+    {
+        "text": "and so then you can kind of see how this",
+        "start": 526.339,
+        "duration": 3.0
+    },
+    {
+        "text": "whole thing looks here what I'll do is",
+        "start": 527.54,
+        "duration": 3.69
+    },
+    {
+        "text": "mount this you know in a hidden location",
+        "start": 529.339,
+        "duration": 4.5
+    },
+    {
+        "text": "in the truck cab maybe even underneath",
+        "start": 531.23,
+        "duration": 4.919
+    },
+    {
+        "text": "the radio or something underneath and",
+        "start": 533.839,
+        "duration": 3.901
+    },
+    {
+        "text": "that will actually allow me to use the",
+        "start": 536.149,
+        "duration": 4.141
+    },
+    {
+        "text": "remote without this being visible or at",
+        "start": 537.74,
+        "duration": 4.14
+    },
+    {
+        "text": "least kind of hidden under there so it's",
+        "start": 540.29,
+        "duration": 3.75
+    },
+    {
+        "text": "a pretty stealth setup basically it's",
+        "start": 541.88,
+        "duration": 4.53
+    },
+    {
+        "text": "just as if AM radio broadcast was worth",
+        "start": 544.04,
+        "duration": 3.72
+    },
+    {
+        "text": "listening to it you know you just start",
+        "start": 546.41,
+        "duration": 4.669
+    },
+    {
+        "text": "the car up and hey it sounds good",
+        "start": 547.76,
+        "duration": 3.319
+    },
+    {
+        "text": "[Music]",
+        "start": 558.25,
+        "duration": 3.649
+    },
+    {
+        "text": "okay so let's talk about some upcoming",
+        "start": 562.19,
+        "duration": 5.339
+    },
+    {
+        "text": "projects on Applied Science ok project",
+        "start": 564.019,
+        "duration": 5.13
+    },
+    {
+        "text": "number one I'm going to do a cable modem",
+        "start": 567.529,
+        "duration": 3.93
+    },
+    {
+        "text": "teardown and talk about cam modulation",
+        "start": 569.149,
+        "duration": 4.291
+    },
+    {
+        "text": "which is pretty interesting and I have a",
+        "start": 571.459,
+        "duration": 3.721
+    },
+    {
+        "text": "whole bunch of test equipment from tech",
+        "start": 573.44,
+        "duration": 3.959
+    },
+    {
+        "text": "that allow me to show cam really",
+        "start": 575.18,
+        "duration": 5.219
+    },
+    {
+        "text": "interestingly and hopefully talk about",
+        "start": 577.399,
+        "duration": 5.281
+    },
+    {
+        "text": "the firmware that's in this modem - I",
+        "start": 580.399,
+        "duration": 3.391
+    },
+    {
+        "text": "was actually able to get some",
+        "start": 582.68,
+        "duration": 2.87
+    },
+    {
+        "text": "interesting stuff out of it",
+        "start": 583.79,
+        "duration": 4.289
+    },
+    {
+        "text": "okay project number two here we are at",
+        "start": 585.55,
+        "duration": 4.15
+    },
+    {
+        "text": "the scanning electron microscope I",
+        "start": 588.079,
+        "duration": 3.661
+    },
+    {
+        "text": "recently backed a couple Kickstarter's",
+        "start": 589.7,
+        "duration": 3.72
+    },
+    {
+        "text": "they're going to let me do some really",
+        "start": 591.74,
+        "duration": 4.289
+    },
+    {
+        "text": "interesting stuff with this I've got the",
+        "start": 593.42,
+        "duration": 5.28
+    },
+    {
+        "text": "latest teensy from pulsed African and I",
+        "start": 596.029,
+        "duration": 4.231
+    },
+    {
+        "text": "need some help with the high speed USB",
+        "start": 598.7,
+        "duration": 3.9
+    },
+    {
+        "text": "interface on that so if anyone knows who",
+        "start": 600.26,
+        "duration": 3.54
+    },
+    {
+        "text": "to talk to about that and much",
+        "start": 602.6,
+        "duration": 4.77
+    },
+    {
+        "text": "appreciate it and I also backed the",
+        "start": 603.8,
+        "duration": 4.979
+    },
+    {
+        "text": "Mehcad we know project which is a",
+        "start": 607.37,
+        "duration": 3.81
+    },
+    {
+        "text": "low-cost servo motor project made by",
+        "start": 608.779,
+        "duration": 4.921
+    },
+    {
+        "text": "tropical labs and so the idea here is",
+        "start": 611.18,
+        "duration": 5.04
+    },
+    {
+        "text": "I've got three axes of servo motor and",
+        "start": 613.7,
+        "duration": 4.139
+    },
+    {
+        "text": "I'm going to connect them up to the",
+        "start": 616.22,
+        "duration": 3.989
+    },
+    {
+        "text": "controls the motion controls on the",
+        "start": 617.839,
+        "duration": 5.31
+    },
+    {
+        "text": "scope and then do image acquisition with",
+        "start": 620.209,
+        "duration": 4.861
+    },
+    {
+        "text": "the teensy while controlling the servos",
+        "start": 623.149,
+        "duration": 3.75
+    },
+    {
+        "text": "so that I can make animations with the",
+        "start": 625.07,
+        "duration": 4.41
+    },
+    {
+        "text": "SEM in a fully automated way and then",
+        "start": 626.899,
+        "duration": 4.591
+    },
+    {
+        "text": "this guy is way faster than previous",
+        "start": 629.48,
+        "duration": 4.229
+    },
+    {
+        "text": "teensy so I can do much better video",
+        "start": 631.49,
+        "duration": 4.11
+    },
+    {
+        "text": "acquisition especially if you get",
+        "start": 633.709,
+        "duration": 6.12
+    },
+    {
+        "text": "high-speed USB working okay speaking of",
+        "start": 635.6,
+        "duration": 6.75
+    },
+    {
+        "text": "high-speed my friend David Cranston has",
+        "start": 639.829,
+        "duration": 4.801
+    },
+    {
+        "text": "built this amazing high-speed camera and",
+        "start": 642.35,
+        "duration": 3.51
+    },
+    {
+        "text": "we're going to be seeing a lot more",
+        "start": 644.63,
+        "duration": 3.81
+    },
+    {
+        "text": "stuff with this in the future since this",
+        "start": 645.86,
+        "duration": 4.32
+    },
+    {
+        "text": "happens to be completely wireless it's",
+        "start": 648.44,
+        "duration": 4.5
+    },
+    {
+        "text": "battery powered what I want to do is put",
+        "start": 650.18,
+        "duration": 4.769
+    },
+    {
+        "text": "that high-speed camera on a really",
+        "start": 652.94,
+        "duration": 3.99
+    },
+    {
+        "text": "high-speed motion platform this one's",
+        "start": 654.949,
+        "duration": 3.63
+    },
+    {
+        "text": "linear but I have some other ideas in",
+        "start": 656.93,
+        "duration": 3.779
+    },
+    {
+        "text": "mind and then I can move the camera at",
+        "start": 658.579,
+        "duration": 4.231
+    },
+    {
+        "text": "really high speeds while capturing",
+        "start": 660.709,
+        "duration": 4.051
+    },
+    {
+        "text": "high-speed video and that should make",
+        "start": 662.81,
+        "duration": 3.69
+    },
+    {
+        "text": "for some really interesting dynamic",
+        "start": 664.76,
+        "duration": 3.56
+    },
+    {
+        "text": "shots",
+        "start": 666.5,
+        "duration": 4.5
+    },
+    {
+        "text": "I've been collecting parts to make a",
+        "start": 668.32,
+        "duration": 4.84
+    },
+    {
+        "text": "really high pressure chamber like a",
+        "start": 671.0,
+        "duration": 5.1
+    },
+    {
+        "text": "hundred thousand psi pressure chamber",
+        "start": 673.16,
+        "duration": 4.35
+    },
+    {
+        "text": "and you can do some pretty weird tricks",
+        "start": 676.1,
+        "duration": 3.989
+    },
+    {
+        "text": "with that and so I've I got this gage",
+        "start": 677.51,
+        "duration": 5.28
+    },
+    {
+        "text": "which even goes up to 150 thousand psi",
+        "start": 680.089,
+        "duration": 7.381
+    },
+    {
+        "text": "and have also been buying these unusual",
+        "start": 682.79,
+        "duration": 5.94
+    },
+    {
+        "text": "high-pressure fit",
+        "start": 687.47,
+        "duration": 3.75
+    },
+    {
+        "text": "that are used in water jet cutters so",
+        "start": 688.73,
+        "duration": 3.75
+    },
+    {
+        "text": "this thing's been kind of on the books",
+        "start": 691.22,
+        "duration": 3.359
+    },
+    {
+        "text": "for a while but I think eventually we",
+        "start": 692.48,
+        "duration": 4.02
+    },
+    {
+        "text": "are gonna get to this and try some",
+        "start": 694.579,
+        "duration": 5.31
+    },
+    {
+        "text": "extreme pressure experiments I also have",
+        "start": 696.5,
+        "duration": 5.22
+    },
+    {
+        "text": "plans to build a really powerful and",
+        "start": 699.889,
+        "duration": 4.351
+    },
+    {
+        "text": "precise temperature control system so",
+        "start": 701.72,
+        "duration": 4.559
+    },
+    {
+        "text": "these thermoelectric cooler units are",
+        "start": 704.24,
+        "duration": 4.409
+    },
+    {
+        "text": "really common these days and what we can",
+        "start": 706.279,
+        "duration": 4.771
+    },
+    {
+        "text": "do is put one on this off-the-shelf CPU",
+        "start": 708.649,
+        "duration": 3.661
+    },
+    {
+        "text": "cooler if you haven't seen these is",
+        "start": 711.05,
+        "duration": 2.729
+    },
+    {
+        "text": "actually a pretty good deal for what you",
+        "start": 712.31,
+        "duration": 3.389
+    },
+    {
+        "text": "get it's like 60 bucks or something like",
+        "start": 713.779,
+        "duration": 4.321
+    },
+    {
+        "text": "that and you get a prefilled radiator",
+        "start": 715.699,
+        "duration": 5.101
+    },
+    {
+        "text": "system so that if you put the module",
+        "start": 718.1,
+        "duration": 5.31
+    },
+    {
+        "text": "here it has a really good heat sink on",
+        "start": 720.8,
+        "duration": 4.5
+    },
+    {
+        "text": "the other side and then the other half",
+        "start": 723.41,
+        "duration": 4.38
+    },
+    {
+        "text": "of that project is a really powerful",
+        "start": 725.3,
+        "duration": 7.5
+    },
+    {
+        "text": "beefy bipolar DC supply I should also",
+        "start": 727.79,
+        "duration": 6.419
+    },
+    {
+        "text": "mention I've had some temperature",
+        "start": 732.8,
+        "duration": 2.909
+    },
+    {
+        "text": "measurement equipment donated to my",
+        "start": 734.209,
+        "duration": 2.761
+    },
+    {
+        "text": "channel which I haven't gotten to yet",
+        "start": 735.709,
+        "duration": 2.911
+    },
+    {
+        "text": "but it would trust me it's coming and I",
+        "start": 736.97,
+        "duration": 4.739
+    },
+    {
+        "text": "do appreciate the donation and finally I",
+        "start": 738.62,
+        "duration": 5.13
+    },
+    {
+        "text": "have been working on the gecko tape idea",
+        "start": 741.709,
+        "duration": 3.81
+    },
+    {
+        "text": "someone came up with a really really",
+        "start": 743.75,
+        "duration": 4.649
+    },
+    {
+        "text": "great idea of anodizing aluminum to",
+        "start": 745.519,
+        "duration": 4.62
+    },
+    {
+        "text": "create this porous structure and then",
+        "start": 748.399,
+        "duration": 4.92
+    },
+    {
+        "text": "casting silicone into the porous alumina",
+        "start": 750.139,
+        "duration": 5.371
+    },
+    {
+        "text": "and I've had some early experiments with",
+        "start": 753.319,
+        "duration": 3.691
+    },
+    {
+        "text": "that nothing's quite worked out quite",
+        "start": 755.51,
+        "duration": 3.74
+    },
+    {
+        "text": "yet but that's still in the works too",
+        "start": 757.01,
+        "duration": 6.769
+    },
+    {
+        "text": "okay see you next time bye",
+        "start": 759.25,
+        "duration": 4.529
+    }
+]

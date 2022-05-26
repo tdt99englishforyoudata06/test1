@@ -1,0 +1,347 @@
+[
+    {
+        "text": "For fans of artificial intelligence, the past\nfew weeks have been very exciting.",
+        "start": 3.5,
+        "duration": 3.48
+    },
+    {
+        "text": "Last October, for the first time ever, an\nAI built by Google, known as AlphaGo, beat",
+        "start": 6.98,
+        "duration": 4.06
+    },
+    {
+        "text": "a professional human player at the incredibly\ncomplex board game Go.",
+        "start": 11.04,
+        "duration": 3.639
+    },
+    {
+        "text": "And then, in this last week, it went on to\nbeat one of the best players in the world",
+        "start": 14.679,
+        "duration": 4.151
+    },
+    {
+        "text": "… four times.",
+        "start": 18.83,
+        "duration": 1.05
+    },
+    {
+        "text": "Which is a really big deal.",
+        "start": 19.88,
+        "duration": 2.28
+    },
+    {
+        "text": "And let us explain to you why.",
+        "start": 22.16,
+        "duration": 1.41
+    },
+    {
+        "text": "When engineers talk about artificial intelligence,\nthey don’t mean sentient humanoid robots",
+        "start": 23.57,
+        "duration": 4.57
+    },
+    {
+        "text": "conversing with us, talking to us, becoming\nfeeling, then taking over the world destroying",
+        "start": 28.14,
+        "duration": 4.66
+    },
+    {
+        "text": "us.",
+        "start": 32.8,
+        "duration": 1.0
+    },
+    {
+        "text": "AI is really just a way of programming computers\nto do things that humans normally do.",
+        "start": 33.8,
+        "duration": 3.599
+    },
+    {
+        "text": "See, computer programs follow a specific list\nof instructions to complete tasks, so they",
+        "start": 37.399,
+        "duration": 3.951
+    },
+    {
+        "text": "struggle with situations that have lots of\noptions and require decision-making on the",
+        "start": 41.35,
+        "duration": 4.17
+    },
+    {
+        "text": "fly.",
+        "start": 45.52,
+        "duration": 1.0
+    },
+    {
+        "text": "Including playing complicated board games,\nlike Go.",
+        "start": 46.52,
+        "duration": 1.379
+    },
+    {
+        "text": "The basic objective of Go is to get as many\npoints as possible, either by capturing the",
+        "start": 47.899,
+        "duration": 4.07
+    },
+    {
+        "text": "other player’s pieces or by claiming areas\nof the board with black or white stones.",
+        "start": 51.969,
+        "duration": 4.141
+    },
+    {
+        "text": "And a big part of the winning strategy for\nany game is the ability to think a few moves",
+        "start": 56.11,
+        "duration": 3.68
+    },
+    {
+        "text": "ahead, taking into account what the other\nplayer might do each time you make a move.",
+        "start": 59.79,
+        "duration": 4.86
+    },
+    {
+        "text": "We humans can use our past experiences with\nthe game to figure out the best moves, and",
+        "start": 64.65,
+        "duration": 3.911
+    },
+    {
+        "text": "how our opponents might respond to them.",
+        "start": 68.561,
+        "duration": 1.829
+    },
+    {
+        "text": "But it’s hard to build that kind of pattern\nrecognition into a computer program.",
+        "start": 70.39,
+        "duration": 3.62
+    },
+    {
+        "text": "So generally, computers play board games -- like\nchess -- by searching through all the possible",
+        "start": 74.01,
+        "duration": 4.96
+    },
+    {
+        "text": "combinations of moves to find the one that\nmeans it’s most likely to win.",
+        "start": 78.97,
+        "duration": 4.03
+    },
+    {
+        "text": "The problem is, Go is played on a huge 19-by-19\ngrid -- and there are hundreds of possible",
+        "start": 83.0,
+        "duration": 5.729
+    },
+    {
+        "text": "moves that a player might make in every turn.",
+        "start": 88.729,
+        "duration": 2.711
+    },
+    {
+        "text": "In fact, there are more ways for a game of\nGo to play out than there are atoms in the",
+        "start": 91.44,
+        "duration": 4.89
+    },
+    {
+        "text": "universe.",
+        "start": 96.33,
+        "duration": 1.0
+    },
+    {
+        "text": "So if it’s that difficult to program an\nAI to beat humans at Go, how did engineers",
+        "start": 97.33,
+        "duration": 3.749
+    },
+    {
+        "text": "teach AlphaGo to do it?",
+        "start": 101.079,
+        "duration": 1.731
+    },
+    {
+        "text": "Well, instead of having the AI search through\nall the possible combinations of moves they",
+        "start": 102.81,
+        "duration": 3.45
+    },
+    {
+        "text": "tried to help it understand the difference\nbetween a good move and a bad one.",
+        "start": 106.26,
+        "duration": 4.3
+    },
+    {
+        "text": "To do that, the engineers first fed AlphaGo\n30 million combinations of moves, taken from",
+        "start": 110.56,
+        "duration": 5.3
+    },
+    {
+        "text": "real games with expert human players.",
+        "start": 115.86,
+        "duration": 2.45
+    },
+    {
+        "text": "Then, AlphaGo played thousands of matches\nagainst itself, to learn new strategies.",
+        "start": 118.31,
+        "duration": 5.739
+    },
+    {
+        "text": "All that knowledge, plus some clever programming,\nhelps the AI decide on the best next move.",
+        "start": 124.049,
+        "duration": 4.901
+    },
+    {
+        "text": "Instead of having to consider every single\npossible move, which would take a really long",
+        "start": 128.95,
+        "duration": 3.47
+    },
+    {
+        "text": "time, it can quickly narrow down the few,\nmost relevant options.",
+        "start": 132.42,
+        "duration": 3.51
+    },
+    {
+        "text": "And so far, this strategy has worked really\nwell against us humans.",
+        "start": 135.93,
+        "duration": 3.5
+    },
+    {
+        "text": "A few months ago, AlphaGo played a 5-match\ntournament against Fan Hui, the European Go",
+        "start": 139.43,
+        "duration": 4.35
+    },
+    {
+        "text": "champion, and won every single game -- the\nfirst time a computer had ever won against",
+        "start": 143.78,
+        "duration": 4.73
+    },
+    {
+        "text": "a professional Go player at all.",
+        "start": 148.51,
+        "duration": 1.619
+    },
+    {
+        "text": "Then, Google decided that it was time to test\nthe AI against Lee Sedol, a South Korean who’s",
+        "start": 150.129,
+        "duration": 4.901
+    },
+    {
+        "text": "been the top Go player in the world for the\npast decade.",
+        "start": 155.03,
+        "duration": 3.19
+    },
+    {
+        "text": "They livestreamed all five matches, and uploaded\n15-minute summaries -- which are all linked",
+        "start": 158.22,
+        "duration": 3.97
+    },
+    {
+        "text": "in the description below.",
+        "start": 162.19,
+        "duration": 1.159
+    },
+    {
+        "text": "And -- spoiler alert -- AlphaGo won the first\nthree, so best out of three of five: it won",
+        "start": 163.349,
+        "duration": 4.331
+    },
+    {
+        "text": "the tournament.",
+        "start": 167.68,
+        "duration": 1.0
+    },
+    {
+        "text": "So it was pretty clear that the way the engineers\nprogrammed and trained the AI did work.",
+        "start": 168.68,
+        "duration": 3.51
+    },
+    {
+        "text": "But AlphaGo and Sedol were still set to play\nthe last two games in the series.",
+        "start": 172.19,
+        "duration": 4.0
+    },
+    {
+        "text": "And Sedol actually won the fourth game -- which\nwas a huge deal, because it showed that the",
+        "start": 176.19,
+        "duration": 4.07
+    },
+    {
+        "text": "AI still isn’t perfect at choosing the best\nmoves.",
+        "start": 180.26,
+        "duration": 2.589
+    },
+    {
+        "text": "A big turning point in this game was when\nSedol played a move known as a wedge -- one",
+        "start": 182.849,
+        "duration": 3.771
+    },
+    {
+        "text": "that has lots of possible responses.",
+        "start": 186.62,
+        "duration": 2.03
+    },
+    {
+        "text": "Basically, he was trying to confuse the AI\nby giving it too many options to explore.",
+        "start": 188.65,
+        "duration": 3.88
+    },
+    {
+        "text": "And that seems to have worked, even after\nall that training.",
+        "start": 192.53,
+        "duration": 2.58
+    },
+    {
+        "text": "After the wedge, the game went downhill for\nAlphaGo, until its internally-calculated chances",
+        "start": 195.11,
+        "duration": 3.99
+    },
+    {
+        "text": "of winning went below 20% -- at which point\nit’s programmed to resign.",
+        "start": 199.1,
+        "duration": 4.07
+    },
+    {
+        "text": "Game 5 turned out to be a very close game,\nwith AlphaGo making a mistake early on, but",
+        "start": 203.17,
+        "duration": 4.55
+    },
+    {
+        "text": "eventually winning.",
+        "start": 207.72,
+        "duration": 1.04
+    },
+    {
+        "text": "So AlphaGo might not be the best Go player\nin the world right now -- but it’ll just",
+        "start": 208.76,
+        "duration": 4.089
+    },
+    {
+        "text": "keep getting better from here, so odds are,\neventually, it will be.",
+        "start": 212.849,
+        "duration": 3.841
+    },
+    {
+        "text": "Either way, it’s a huge step forward for\nartificial intelligence.",
+        "start": 216.69,
+        "duration": 2.82
+    },
+    {
+        "text": "Thank you for watching this episode of SciShow\nNews, and thank you especially to all of our",
+        "start": 219.51,
+        "duration": 2.68
+    },
+    {
+        "text": "patrons on Patreon who make this all possible.",
+        "start": 222.19,
+        "duration": 2.939
+    },
+    {
+        "text": "Thank you so much for being a patron if you\nare.",
+        "start": 225.129,
+        "duration": 2.321
+    },
+    {
+        "text": "If you want to become one of those people\nyou can go to patreon.com/scishow­ there’s",
+        "start": 227.45,
+        "duration": 2.73
+    },
+    {
+        "text": "a bunch of cool things you can get there as\nwell.",
+        "start": 230.18,
+        "duration": 2.71
+    },
+    {
+        "text": "And don’t forget to go to youtube.com/scishow\nand subscribe!",
+        "start": 232.89,
+        "duration": 13.23
+    }
+]

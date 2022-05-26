@@ -1,0 +1,2927 @@
+[
+    {
+        "text": "HOST:\nInside this box,\nI have an egg.",
+        "start": 1.935,
+        "duration": 1.834
+    },
+    {
+        "text": "And the box is\ncompletely closed,",
+        "start": 3.869,
+        "duration": 1.436
+    },
+    {
+        "text": "so I also have an LED inside\nso you can see what's going on.",
+        "start": 5.405,
+        "duration": 2.635
+    },
+    {
+        "text": "As I filmed with the GoPro\nI have taped inside the box,",
+        "start": 8.14,
+        "duration": 3.003
+    },
+    {
+        "text": "I'm going to do\nsomething to the box.",
+        "start": 11.243,
+        "duration": 1.436
+    },
+    {
+        "text": "Watch closely what happens.",
+        "start": 12.779,
+        "duration": 1.134
+    },
+    {
+        "text": "Can you guess what I did?",
+        "start": 17.65,
+        "duration": 1.434
+    },
+    {
+        "text": "Hey, everyone. I'm Dianna.",
+        "start": 19.184,
+        "duration": 1.269
+    },
+    {
+        "text": "And welcome to Lesson 5 of\nDianna's Intro Physics class,",
+        "start": 20.553,
+        "duration": 3.237
+    },
+    {
+        "text": "also known as AP\nPhysics 1 Review,",
+        "start": 23.89,
+        "duration": 1.568
+    },
+    {
+        "text": "also known as Physics\nby Dianna.",
+        "start": 25.558,
+        "duration": 2.236
+    },
+    {
+        "text": "Today's lesson,\nFree Body Diagrams.",
+        "start": 27.894,
+        "duration": 2.302
+    },
+    {
+        "text": "That's the new tool we're\ngoing to introduce today.",
+        "start": 30.296,
+        "duration": 2.035
+    },
+    {
+        "text": "And my friends, buckle up,\nbecause free body diagrams",
+        "start": 32.431,
+        "duration": 3.304
+    },
+    {
+        "text": "are going to allow\nus to measure g,",
+        "start": 35.835,
+        "duration": 2.068
+    },
+    {
+        "text": "the acceleration from gravity\non Earth--that gorgeous,",
+        "start": 38.003,
+        "duration": 2.904
+    },
+    {
+        "text": "delicious 9.81 meters\nper second squared.",
+        "start": 41.007,
+        "duration": 2.502
+    },
+    {
+        "text": "We're going to measure it.",
+        "start": 43.609,
+        "duration": 0.967
+    },
+    {
+        "text": "Here's a teaser on how\nwe're going to measure g.",
+        "start": 44.677,
+        "duration": 2.102
+    },
+    {
+        "text": "I have strapped myself into\na death-defying contraption.",
+        "start": 46.879,
+        "duration": 3.971
+    },
+    {
+        "text": "It's called an Atwood machine.",
+        "start": 50.95,
+        "duration": 1.402
+    },
+    {
+        "text": "Once I trigger the\nrelease, this machine",
+        "start": 52.452,
+        "duration": 2.268
+    },
+    {
+        "text": "is designed to let me\nfall, but very slowly.",
+        "start": 54.821,
+        "duration": 3.47
+    },
+    {
+        "text": "This is going to\nallow us to measure",
+        "start": 58.391,
+        "duration": 1.401
+    },
+    {
+        "text": "the acceleration of gravity\nnear Earth's surface precisely,",
+        "start": 59.892,
+        "duration": 3.371
+    },
+    {
+        "text": "which is really cool.",
+        "start": 63.363,
+        "duration": 1.134
+    },
+    {
+        "text": "So today's theme--",
+        "start": 64.597,
+        "duration": 1.134
+    },
+    {
+        "text": "Gravitational Field Trip.",
+        "start": 65.831,
+        "duration": 2.603
+    },
+    {
+        "text": "It's funny, because\nwe're taking a trip",
+        "start": 68.534,
+        "duration": 1.635
+    },
+    {
+        "text": "in a gravitational field.",
+        "start": 70.269,
+        "duration": 2.269
+    },
+    {
+        "text": "Gravitational field\ntrip--do you get it?",
+        "start": 72.638,
+        "duration": 2.469
+    },
+    {
+        "text": "So we want to measure gravity.",
+        "start": 75.207,
+        "duration": 1.235
+    },
+    {
+        "text": "What is gravity?",
+        "start": 76.542,
+        "duration": 1.769
+    },
+    {
+        "text": "It's a force--it's actually\ncalled a fundamental force.",
+        "start": 78.411,
+        "duration": 3.737
+    },
+    {
+        "text": "I want to go off on\na fun little tangent.",
+        "start": 82.248,
+        "duration": 4.237
+    },
+    {
+        "text": "That one was\nnot my fault.",
+        "start": 86.585,
+        "duration": 1.636
+    },
+    {
+        "text": "Gravity is actually called\na fundamental force.",
+        "start": 88.321,
+        "duration": 2.936
+    },
+    {
+        "text": "Are there other forces\nbesides gravity?",
+        "start": 91.357,
+        "duration": 2.035
+    },
+    {
+        "text": "Yes.",
+        "start": 93.492,
+        "duration": 1.335
+    },
+    {
+        "text": "There are three more.",
+        "start": 94.927,
+        "duration": 1.201
+    },
+    {
+        "text": "I know you know one of them--\nit's the electromagnetic force.",
+        "start": 96.228,
+        "duration": 2.503
+    },
+    {
+        "text": "It's the one that makes magnets\nstick together or push apart.",
+        "start": 98.831,
+        "duration": 4.071
+    },
+    {
+        "text": "Yeah, these are little magnets\nin here that stick together.",
+        "start": 103.002,
+        "duration": 3.203
+    },
+    {
+        "text": "And, strangely, the\nelectromagnetic force",
+        "start": 106.305,
+        "duration": 1.636
+    },
+    {
+        "text": "is the same force that makes\nballoons stick to your hair",
+        "start": 108.041,
+        "duration": 2.769
+    },
+    {
+        "text": "with static electricity.",
+        "start": 110.91,
+        "duration": 1.067
+    },
+    {
+        "text": "And there are two more forces:",
+        "start": 112.077,
+        "duration": 1.169
+    },
+    {
+        "text": "the weak nuclear force--",
+        "start": 113.346,
+        "duration": 1.401
+    },
+    {
+        "text": "no one remembers that one--\nand the strong nuclear force.",
+        "start": 114.847,
+        "duration": 3.037
+    },
+    {
+        "text": "And you can Google them.\nThat's it.",
+        "start": 117.984,
+        "duration": 1.634
+    },
+    {
+        "text": "These are the four\nfundamental forces.",
+        "start": 119.718,
+        "duration": 1.969
+    },
+    {
+        "text": "There might be more.",
+        "start": 121.787,
+        "duration": 1.068
+    },
+    {
+        "text": "We don't have any\nevidence for them,",
+        "start": 122.955,
+        "duration": 1.402
+    },
+    {
+        "text": "but our known laws of\nphysics don't rule them out.",
+        "start": 124.457,
+        "duration": 2.569
+    },
+    {
+        "text": "So is gravity the\nstrongest force?",
+        "start": 127.126,
+        "duration": 2.536
+    },
+    {
+        "text": "Check it out.",
+        "start": 129.762,
+        "duration": 0.867
+    },
+    {
+        "text": "I can use a magnet\nthe size of a pea--",
+        "start": 130.729,
+        "duration": 2.603
+    },
+    {
+        "text": "it's smaller than the\nsize of a pea in here--",
+        "start": 133.432,
+        "duration": 1.869
+    },
+    {
+        "text": "to pick up a nail.",
+        "start": 135.401,
+        "duration": 2.036
+    },
+    {
+        "text": "So this tiny little thing can\novercome an entire Earth's",
+        "start": 137.537,
+        "duration": 3.136
+    },
+    {
+        "text": "worth of gravity.",
+        "start": 140.773,
+        "duration": 1.201
+    },
+    {
+        "text": "Proportional to mass, gravity\nis actually a really weak force.",
+        "start": 142.074,
+        "duration": 3.037
+    },
+    {
+        "text": "There's just a lot of it.",
+        "start": 145.211,
+        "duration": 1.501
+    },
+    {
+        "text": "But puny as it is, it's\nstill pretty important.",
+        "start": 146.812,
+        "duration": 2.469
+    },
+    {
+        "text": "And that's the force that\nwe're measuring today.",
+        "start": 149.382,
+        "duration": 2.336
+    },
+    {
+        "text": "Up until now,\nwe've just accepted",
+        "start": 151.818,
+        "duration": 1.334
+    },
+    {
+        "text": "that things falling\nnear the Earth",
+        "start": 153.252,
+        "duration": 1.301
+    },
+    {
+        "text": "accelerate at 9.81\nmeters per second,",
+        "start": 154.653,
+        "duration": 1.902
+    },
+    {
+        "text": "squared, which I\nusually round to 10.",
+        "start": 156.655,
+        "duration": 1.468
+    },
+    {
+        "text": "But we're going to confirm\nthat number with our experiment",
+        "start": 158.223,
+        "duration": 2.303
+    },
+    {
+        "text": "on the Atwood machine soon.",
+        "start": 160.626,
+        "duration": 1.601
+    },
+    {
+        "text": "But first we're going to need a\nnew mathematical modeling tool.",
+        "start": 162.327,
+        "duration": 3.972
+    },
+    {
+        "text": "It's called the\nfree body diagram.",
+        "start": 166.399,
+        "duration": 2.369
+    },
+    {
+        "text": "A free body diagram\nis a simple picture",
+        "start": 168.868,
+        "duration": 1.968
+    },
+    {
+        "text": "that represents all of the\nforces acting on an object,",
+        "start": 170.936,
+        "duration": 2.57
+    },
+    {
+        "text": "like a cow.",
+        "start": 173.606,
+        "duration": 1.034
+    },
+    {
+        "text": "It's a funny phrase,\nfree body diagram.",
+        "start": 174.74,
+        "duration": 2.035
+    },
+    {
+        "text": "But the word \"body\" is a\nphysics term for object.",
+        "start": 176.876,
+        "duration": 2.469
+    },
+    {
+        "text": "And it's free, which\ndoesn't mean it's free",
+        "start": 179.445,
+        "duration": 1.668
+    },
+    {
+        "text": "like a bird in the sky.",
+        "start": 181.213,
+        "duration": 1.602
+    },
+    {
+        "text": "Free means we're looking\nat the cow alone.",
+        "start": 182.915,
+        "duration": 2.503
+    },
+    {
+        "text": "It may be connected\nto other cows",
+        "start": 185.518,
+        "duration": 3.136
+    },
+    {
+        "text": "experiencing forces\nfrom the other cows,",
+        "start": 188.754,
+        "duration": 2.569
+    },
+    {
+        "text": "but we're isolating it.",
+        "start": 191.423,
+        "duration": 1.402
+    },
+    {
+        "text": "And we're drawing only\nthe forces on that cow--",
+        "start": 192.925,
+        "duration": 2.87
+    },
+    {
+        "text": "not physically,\nbut with our math.",
+        "start": 195.895,
+        "duration": 2.168
+    },
+    {
+        "text": "So how do you make\na free body diagram?",
+        "start": 198.163,
+        "duration": 3.571
+    },
+    {
+        "text": "Let's draw one for a falling\nbottle of nail polish.",
+        "start": 201.834,
+        "duration": 3.47
+    },
+    {
+        "text": "I dropped a bottle\nof black nail polish",
+        "start": 205.404,
+        "duration": 1.568
+    },
+    {
+        "text": "on the floor once--\nit was bad.",
+        "start": 207.072,
+        "duration": 1.335
+    },
+    {
+        "text": "We're going to ignore\nair resistance for now.",
+        "start": 208.507,
+        "duration": 1.769
+    },
+    {
+        "text": "And we're going to\nignore these cows.",
+        "start": 210.376,
+        "duration": 1.167
+    },
+    {
+        "text": "So for a body falling near\nthe Earth, like nail polish,",
+        "start": 211.643,
+        "duration": 2.403
+    },
+    {
+        "text": "gravity is the only force.",
+        "start": 214.146,
+        "duration": 1.535
+    },
+    {
+        "text": "I'm going to model it as a point\nparticle, because we do that.",
+        "start": 215.781,
+        "duration": 2.536
+    },
+    {
+        "text": "So that's F sub g.",
+        "start": 218.417,
+        "duration": 2.703
+    },
+    {
+        "text": "I'm going to represent\nthat on my diagram",
+        "start": 221.22,
+        "duration": 1.601
+    },
+    {
+        "text": "with this arrow to\nremind me that",
+        "start": 222.921,
+        "duration": 1.368
+    },
+    {
+        "text": "it's a vector\nwith a direction.",
+        "start": 224.39,
+        "duration": 1.234
+    },
+    {
+        "text": "And we know that the\nforce is mass times g.",
+        "start": 225.724,
+        "duration": 3.137
+    },
+    {
+        "text": "That's it.",
+        "start": 228.962,
+        "duration": 0.633
+    },
+    {
+        "text": "That's my free body diagram.",
+        "start": 229.695,
+        "duration": 1.068
+    },
+    {
+        "text": "It's not complicated.",
+        "start": 230.863,
+        "duration": 1.201
+    },
+    {
+        "text": "We can make free body diagrams\nfor projectile motion problems,",
+        "start": 232.164,
+        "duration": 2.536
+    },
+    {
+        "text": "too, from lesson 3.",
+        "start": 234.8,
+        "duration": 1.201
+    },
+    {
+        "text": "So neglecting air\nresistance,",
+        "start": 236.101,
+        "duration": 1.002
+    },
+    {
+        "text": "here is a soccer ball",
+        "start": 237.203,
+        "duration": 1.101
+    },
+    {
+        "text": "flying on its parabolic\npath right here.",
+        "start": 238.404,
+        "duration": 3.036
+    },
+    {
+        "text": "How would I draw the\nfree body diagram?",
+        "start": 241.54,
+        "duration": 2.136
+    },
+    {
+        "text": "Gravity is causing\na force downward.",
+        "start": 243.776,
+        "duration": 2.169
+    },
+    {
+        "text": "Here's my soccer ball.",
+        "start": 246.045,
+        "duration": 1.068
+    },
+    {
+        "text": "I'm drawing it isolated.",
+        "start": 247.213,
+        "duration": 1.268
+    },
+    {
+        "text": "Here's my force of\ngravity, F sub g.",
+        "start": 248.581,
+        "duration": 2.536
+    },
+    {
+        "text": "Are there other forces?",
+        "start": 251.217,
+        "duration": 1.168
+    },
+    {
+        "text": "You might be tempted to\ndraw a push from the kicker.",
+        "start": 252.485,
+        "duration": 2.168
+    },
+    {
+        "text": "But no, I say--don't do that.",
+        "start": 254.753,
+        "duration": 1.436
+    },
+    {
+        "text": "When the soccer\nball player's foot",
+        "start": 256.289,
+        "duration": 1.334
+    },
+    {
+        "text": "is in contact with\nthe ball,",
+        "start": 257.724,
+        "duration": 1.301
+    },
+    {
+        "text": "there's a huge force\naccelerating it.",
+        "start": 259.125,
+        "duration": 1.735
+    },
+    {
+        "text": "But we're drawing the ball after\nit has left the foot,",
+        "start": 260.96,
+        "duration": 1.935
+    },
+    {
+        "text": "which means\nthat force is gone.",
+        "start": 262.995,
+        "duration": 2.136
+    },
+    {
+        "text": "So neglecting air resistance,\nthe free body diagram",
+        "start": 265.231,
+        "duration": 2.403
+    },
+    {
+        "text": "of an object in projectile\nmotion looks like this.",
+        "start": 267.734,
+        "duration": 3.369
+    },
+    {
+        "text": "Look familiar?",
+        "start": 271.203,
+        "duration": 1.569
+    },
+    {
+        "text": "It looks just like the free body\ndiagram of an object falling",
+        "start": 272.872,
+        "duration": 3.136
+    },
+    {
+        "text": "straight down, which makes\nperfect sense, because you",
+        "start": 276.108,
+        "duration": 2.169
+    },
+    {
+        "text": "remember when we looked\nat projectile motion,",
+        "start": 278.377,
+        "duration": 1.835
+    },
+    {
+        "text": "the key idea was to separate\nout left-and-right motion",
+        "start": 280.312,
+        "duration": 3.037
+    },
+    {
+        "text": "from up and down.",
+        "start": 283.449,
+        "duration": 1.001
+    },
+    {
+        "text": "And in projectile motion,\nthere are no forces",
+        "start": 284.55,
+        "duration": 2.336
+    },
+    {
+        "text": "acting left and right.",
+        "start": 286.986,
+        "duration": 0.934
+    },
+    {
+        "text": "So the only force is down.",
+        "start": 288.02,
+        "duration": 1.702
+    },
+    {
+        "text": "So the free body\ndiagram of a cow falling",
+        "start": 289.822,
+        "duration": 2.369
+    },
+    {
+        "text": "and a cow launched in\nprojectile motion are the same.",
+        "start": 292.291,
+        "duration": 3.17
+    },
+    {
+        "text": "A lot of people get that wrong.",
+        "start": 295.561,
+        "duration": 1.201
+    },
+    {
+        "text": "So we've been neglecting\nair resistance for now,",
+        "start": 296.863,
+        "duration": 1.901
+    },
+    {
+        "text": "but let's think about\nit for a hot second.",
+        "start": 298.864,
+        "duration": 1.802
+    },
+    {
+        "text": "In physics, it's good\nto consider what",
+        "start": 300.766,
+        "duration": 1.635
+    },
+    {
+        "text": "you're ignoring\nbefore you ignore it,",
+        "start": 302.501,
+        "duration": 1.535
+    },
+    {
+        "text": "and if it's a good\nreason to ignore it.",
+        "start": 304.136,
+        "duration": 1.501
+    },
+    {
+        "text": "Air resistance is a force\ncreated by air pushing",
+        "start": 305.738,
+        "duration": 2.569
+    },
+    {
+        "text": "against a moving object.",
+        "start": 308.407,
+        "duration": 1.101
+    },
+    {
+        "text": "So when you stick your hand\nout of a moving window,",
+        "start": 309.608,
+        "duration": 1.602
+    },
+    {
+        "text": "for instance,\nthat is air resistance.",
+        "start": 311.31,
+        "duration": 1.669
+    },
+    {
+        "text": "It's not wind,\nbecause you feel it",
+        "start": 313.079,
+        "duration": 1.667
+    },
+    {
+        "text": "even if the wind\nis not blowing.",
+        "start": 314.847,
+        "duration": 1.502
+    },
+    {
+        "text": "And when the car stops, you\nstop feeling air resistance.",
+        "start": 316.449,
+        "duration": 2.402
+    },
+    {
+        "text": "Air resistance clearly changes,\ndepending on your speed.",
+        "start": 318.951,
+        "duration": 2.57
+    },
+    {
+        "text": "And it always works\nagainst your motion.",
+        "start": 321.621,
+        "duration": 2.268
+    },
+    {
+        "text": "You can start to tease out\nthis relationship with speed",
+        "start": 323.989,
+        "duration": 2.503
+    },
+    {
+        "text": "when you think about how\nair resistance slows down",
+        "start": 326.592,
+        "duration": 2.168
+    },
+    {
+        "text": "a skydiver in a\nparachute to land softly.",
+        "start": 328.86,
+        "duration": 2.57
+    },
+    {
+        "text": "So let's make it David Blaine.",
+        "start": 331.53,
+        "duration": 1.168
+    },
+    {
+        "text": "Let's draw\nhis free body diagram.",
+        "start": 332.798,
+        "duration": 1.401
+    },
+    {
+        "text": "This is the best stick\nfigure I've drawn so far.",
+        "start": 334.3,
+        "duration": 2.102
+    },
+    {
+        "text": "There's gravity downwards,\nproportional to his mass--",
+        "start": 336.502,
+        "duration": 2.669
+    },
+    {
+        "text": "Fg equals mg.",
+        "start": 339.271,
+        "duration": 1.935
+    },
+    {
+        "text": "And what about the\nforce of air resistance?",
+        "start": 341.306,
+        "duration": 1.702
+    },
+    {
+        "text": "At the top of the\nflight, he's not moving.",
+        "start": 343.108,
+        "duration": 1.702
+    },
+    {
+        "text": "Just like in the stopped\ncar, he isn't feeling",
+        "start": 344.91,
+        "duration": 1.568
+    },
+    {
+        "text": "any air resistance.",
+        "start": 346.578,
+        "duration": 1.102
+    },
+    {
+        "text": "But as he falls faster, the\nair resistance increases",
+        "start": 347.78,
+        "duration": 3.103
+    },
+    {
+        "text": "and it's going to\nbe the opposite",
+        "start": 350.983,
+        "duration": 1.268
+    },
+    {
+        "text": "of his downward motion.",
+        "start": 352.351,
+        "duration": 1.368
+    },
+    {
+        "text": "So it's going to be like this--",
+        "start": 353.819,
+        "duration": 2.269
+    },
+    {
+        "text": "F of air.",
+        "start": 356.188,
+        "duration": 2.269
+    },
+    {
+        "text": "But it can't be too big or\nelse the sum of the forces--",
+        "start": 358.557,
+        "duration": 2.57
+    },
+    {
+        "text": "like if it was up here--",
+        "start": 361.227,
+        "duration": 1.101
+    },
+    {
+        "text": "would be up and he would\nshoot out of the atmosphere,",
+        "start": 362.428,
+        "duration": 2.235
+    },
+    {
+        "text": "which would mean that David\nBlaine would eventually",
+        "start": 364.763,
+        "duration": 1.669
+    },
+    {
+        "text": "bounce off the air and\nland on the moon,",
+        "start": 366.532,
+        "duration": 1.501
+    },
+    {
+        "text": "which I wouldn't\nput past him.",
+        "start": 368.133,
+        "duration": 1.368
+    },
+    {
+        "text": "That's clearly not what\nhappens when you're skydiving.",
+        "start": 369.601,
+        "duration": 2.704
+    },
+    {
+        "text": "So the force of air\nresistance must eventually",
+        "start": 372.405,
+        "duration": 2.102
+    },
+    {
+        "text": "hit a limit where it balances\nthe force of gravity down.",
+        "start": 374.607,
+        "duration": 2.636
+    },
+    {
+        "text": "So these should be\nequal in length.",
+        "start": 377.343,
+        "duration": 1.602
+    },
+    {
+        "text": "So the sum of the forces,\nwhich are equal and opposite--",
+        "start": 379.045,
+        "duration": 2.235
+    },
+    {
+        "text": "sum of the forces,\nF air minus Fg--",
+        "start": 381.38,
+        "duration": 4.104
+    },
+    {
+        "text": "are 0.",
+        "start": 385.584,
+        "duration": 1.002
+    },
+    {
+        "text": "And actually, I'm going to\nmake this plus",
+        "start": 386.686,
+        "duration": 1.535
+    },
+    {
+        "text": "because we're\nsumming the forces.",
+        "start": 388.321,
+        "duration": 1.634
+    },
+    {
+        "text": "So how these are going\nto cancel out to be 0",
+        "start": 390.056,
+        "duration": 1.968
+    },
+    {
+        "text": "is that this is\ngoing to be negative.",
+        "start": 392.124,
+        "duration": 1.535
+    },
+    {
+        "text": "Either we could have written\na minus in front of here",
+        "start": 393.759,
+        "duration": 2.102
+    },
+    {
+        "text": "or we could say\nthat g is negative.",
+        "start": 395.961,
+        "duration": 1.402
+    },
+    {
+        "text": "You always want one of them\nto be positive, one of them",
+        "start": 397.463,
+        "duration": 1.935
+    },
+    {
+        "text": "to be negative.",
+        "start": 399.498,
+        "duration": 0.734
+    },
+    {
+        "text": "That's important\nto keep track of.",
+        "start": 400.332,
+        "duration": 1.268
+    },
+    {
+        "text": "So just to be clear,\nhe's still moving.",
+        "start": 401.7,
+        "duration": 1.502
+    },
+    {
+        "text": "He's just not accelerating.",
+        "start": 403.302,
+        "duration": 1.501
+    },
+    {
+        "text": "He's falling at a\nconstant velocity",
+        "start": 404.903,
+        "duration": 1.769
+    },
+    {
+        "text": "known as terminal velocity.",
+        "start": 406.772,
+        "duration": 1.802
+    },
+    {
+        "text": "Here's a cool, weird\nthing that air does.",
+        "start": 408.674,
+        "duration": 1.902
+    },
+    {
+        "text": "It curves the path of\nballs that are rotating.",
+        "start": 410.676,
+        "duration": 2.569
+    },
+    {
+        "text": "It's called the Magnus\neffect, which is when",
+        "start": 413.346,
+        "duration": 1.734
+    },
+    {
+        "text": "the trajectory of a\nspinning spherical object",
+        "start": 415.18,
+        "duration": 3.337
+    },
+    {
+        "text": "curves because\nof air pushing on it.",
+        "start": 418.617,
+        "duration": 2.703
+    },
+    {
+        "text": "It's why you can\nbend a soccer ball",
+        "start": 421.42,
+        "duration": 1.668
+    },
+    {
+        "text": "when you put some spin on it.",
+        "start": 423.188,
+        "duration": 1.268
+    },
+    {
+        "text": "And if it's really smooth, it\nbends the opposite way--crazy.",
+        "start": 424.556,
+        "duration": 3.338
+    },
+    {
+        "text": "But for the most part,\nwe're going",
+        "start": 427.994,
+        "duration": 1.301
+    },
+    {
+        "text": "to ignore air\nresistance, though,",
+        "start": 429.395,
+        "duration": 1.301
+    },
+    {
+        "text": "because it's complicated.",
+        "start": 430.796,
+        "duration": 0.934
+    },
+    {
+        "text": "If you want more of a\ntaste, the equations",
+        "start": 431.83,
+        "duration": 1.836
+    },
+    {
+        "text": "look something like this.",
+        "start": 433.766,
+        "duration": 1.301
+    },
+    {
+        "text": "OK, no more tricky\nfluid dynamics for now.",
+        "start": 435.167,
+        "duration": 1.669
+    },
+    {
+        "text": "Let's take a look at\nthe egg in the box.",
+        "start": 436.936,
+        "duration": 2.268
+    },
+    {
+        "text": "Did you figure out what I did?",
+        "start": 439.304,
+        "duration": 1.269
+    },
+    {
+        "text": "Check it out--I can make\nthe weight on a scale go up",
+        "start": 440.673,
+        "duration": 3.036
+    },
+    {
+        "text": "or I can make it go down\nby seemingly doing nothing.",
+        "start": 443.809,
+        "duration": 2.97
+    },
+    {
+        "text": "It's magic--or just\nsufficiently advanced physics.",
+        "start": 446.879,
+        "duration": 2.902
+    },
+    {
+        "text": "How is it that when I\ndrop the scale of it,",
+        "start": 449.882,
+        "duration": 1.968
+    },
+    {
+        "text": "the weight goes down and then\nup and then goes back to normal?",
+        "start": 451.95,
+        "duration": 3.337
+    },
+    {
+        "text": "Let's take a look.\nLet's scale it up.",
+        "start": 455.387,
+        "duration": 1.401
+    },
+    {
+        "text": "Let's think about a person\nweighing themselves on a scale,",
+        "start": 456.888,
+        "duration": 3.104
+    },
+    {
+        "text": "seeing how swole she's gotten.",
+        "start": 460.092,
+        "duration": 2.369
+    },
+    {
+        "text": "Let's draw her\nfree body diagram.",
+        "start": 462.561,
+        "duration": 2.303
+    },
+    {
+        "text": "So what we're\ngoing to do here is",
+        "start": 464.964,
+        "duration": 1.267
+    },
+    {
+        "text": "we're going to look at\nthe free body diagrams",
+        "start": 466.332,
+        "duration": 1.568
+    },
+    {
+        "text": "of a person on a scale\nwhen she's just standing there",
+        "start": 468.0,
+        "duration": 2.369
+    },
+    {
+        "text": "and then when she's\nmoving in an elevator",
+        "start": 470.469,
+        "duration": 1.869
+    },
+    {
+        "text": "at a constant velocity, and\nthen when she's accelerating,",
+        "start": 472.438,
+        "duration": 3.203
+    },
+    {
+        "text": "and see how they differ.",
+        "start": 475.741,
+        "duration": 1.201
+    },
+    {
+        "text": "So let's start with the first\none, where she's not moving.",
+        "start": 477.042,
+        "duration": 1.735
+    },
+    {
+        "text": "So what are the forces on her?",
+        "start": 478.877,
+        "duration": 1.402
+    },
+    {
+        "text": "There's the force\ndownward, from gravity.",
+        "start": 480.379,
+        "duration": 2.235
+    },
+    {
+        "text": "But she's not accelerating,\nso the scale on the floor",
+        "start": 482.714,
+        "duration": 2.67
+    },
+    {
+        "text": "must be pushing back on her.",
+        "start": 485.484,
+        "duration": 1.502
+    },
+    {
+        "text": "So that's upwards.",
+        "start": 487.086,
+        "duration": 1.835
+    },
+    {
+        "text": "My scale force.",
+        "start": 489.021,
+        "duration": 1.234
+    },
+    {
+        "text": "And these two forces must\nbe equal and opposite.",
+        "start": 490.356,
+        "duration": 2.669
+    },
+    {
+        "text": "So my magnitudes are equal.",
+        "start": 493.125,
+        "duration": 2.436
+    },
+    {
+        "text": "And of course,\nNewton's third law--",
+        "start": 495.661,
+        "duration": 1.435
+    },
+    {
+        "text": "if the scale is\npushing up on her,",
+        "start": 497.196,
+        "duration": 1.868
+    },
+    {
+        "text": "then she is pushing\ndown on the scale.",
+        "start": 499.164,
+        "duration": 1.769
+    },
+    {
+        "text": "There are little springs\non the scale",
+        "start": 501.033,
+        "duration": 1.468
+    },
+    {
+        "text": "getting compressed\nby that force.",
+        "start": 502.601,
+        "duration": 1.369
+    },
+    {
+        "text": "And then the dial,\nor the numbers,",
+        "start": 504.07,
+        "duration": 1.334
+    },
+    {
+        "text": "which are connected\nto those springs,",
+        "start": 505.504,
+        "duration": 1.701
+    },
+    {
+        "text": "shows the reading\nof that force.",
+        "start": 507.306,
+        "duration": 1.735
+    },
+    {
+        "text": "It's measuring the weight\npressing down on the scale.",
+        "start": 509.141,
+        "duration": 2.636
+    },
+    {
+        "text": "Here's an interesting story.",
+        "start": 511.877,
+        "duration": 1.068
+    },
+    {
+        "text": "When we did the zero-g plane--",
+        "start": 513.045,
+        "duration": 1.234
+    },
+    {
+        "text": "I know I talk about\nit all the time--",
+        "start": 514.379,
+        "duration": 1.468
+    },
+    {
+        "text": "they actually simulate\nEarth and Mars gravity",
+        "start": 515.948,
+        "duration": 3.069
+    },
+    {
+        "text": "by doing specific\ntypes of parabolas.",
+        "start": 519.117,
+        "duration": 2.937
+    },
+    {
+        "text": "And you can feel what it feels\nlike to be on Mars or on Earth.",
+        "start": 522.154,
+        "duration": 2.836
+    },
+    {
+        "text": "And you fall a whole lot slower.",
+        "start": 525.09,
+        "duration": 2.47
+    },
+    {
+        "text": "That's true, they\nactually do it.",
+        "start": 527.66,
+        "duration": 1.501
+    },
+    {
+        "text": "So the scale is\nmeasuring your weight,",
+        "start": 529.261,
+        "duration": 1.502
+    },
+    {
+        "text": "but technically\nspeaking, the scale",
+        "start": 530.863,
+        "duration": 1.367
+    },
+    {
+        "text": "measures the force\ncompressing the springs,",
+        "start": 532.33,
+        "duration": 1.77
+    },
+    {
+        "text": "which means\nyou can fool the scale",
+        "start": 534.2,
+        "duration": 2.035
+    },
+    {
+        "text": "about an object's\ntrue weight.",
+        "start": 536.335,
+        "duration": 1.168
+    },
+    {
+        "text": "So we're a little\ncloser to seeing",
+        "start": 537.603,
+        "duration": 1.334
+    },
+    {
+        "text": "what I did with the eggs.",
+        "start": 539.037,
+        "duration": 1.202
+    },
+    {
+        "text": "Let's put our weight lifter\non the scale on the Taipei 101",
+        "start": 540.339,
+        "duration": 3.57
+    },
+    {
+        "text": "in Taiwan, which is the\n509.2-meter-high tower",
+        "start": 544.009,
+        "duration": 3.003
+    },
+    {
+        "text": "and the second tallest\nbuilding in the world.",
+        "start": 547.113,
+        "duration": 1.801
+    },
+    {
+        "text": "Tallest building gets\ntoo much attention.",
+        "start": 549.014,
+        "duration": 1.602
+    },
+    {
+        "text": "The elevator is being\npulled up by a big cable",
+        "start": 550.716,
+        "duration": 2.102
+    },
+    {
+        "text": "at a constant speed.",
+        "start": 552.918,
+        "duration": 1.301
+    },
+    {
+        "text": "So does a scale say\nthat she weighs more?",
+        "start": 554.319,
+        "duration": 2.103
+    },
+    {
+        "text": "Free body diagram.",
+        "start": 556.522,
+        "duration": 1.368
+    },
+    {
+        "text": "What are the forces on her?",
+        "start": 557.99,
+        "duration": 1.201
+    },
+    {
+        "text": "So here she is in the box,\nbecause we're free bodying her,",
+        "start": 559.291,
+        "duration": 3.403
+    },
+    {
+        "text": "we're isolating her.",
+        "start": 562.794,
+        "duration": 0.968
+    },
+    {
+        "text": "So there's gravity down,\nFg, which is the same--",
+        "start": 563.863,
+        "duration": 3.636
+    },
+    {
+        "text": "mg.",
+        "start": 567.599,
+        "duration": 1.169
+    },
+    {
+        "text": "And then the elevator floor\nalso pushes up on the scale",
+        "start": 568.868,
+        "duration": 2.068
+    },
+    {
+        "text": "and the scale pushes up on her.",
+        "start": 571.036,
+        "duration": 1.635
+    },
+    {
+        "text": "But--and this is the key idea--",
+        "start": 572.771,
+        "duration": 1.836
+    },
+    {
+        "text": "she's moving at\na constant speed.",
+        "start": 574.707,
+        "duration": 1.768
+    },
+    {
+        "text": "So the acceleration is 0, which\nmeans F equals ma; ma is 0.",
+        "start": 576.575,
+        "duration": 5.005
+    },
+    {
+        "text": "So then the sum\nof my forces is 0,",
+        "start": 581.68,
+        "duration": 2.636
+    },
+    {
+        "text": "which means that the force that\nshe is exerting on the scale",
+        "start": 584.416,
+        "duration": 2.669
+    },
+    {
+        "text": "is exactly the same as\nwhen she was standing",
+        "start": 587.186,
+        "duration": 1.869
+    },
+    {
+        "text": "on the scale in the gym.",
+        "start": 589.155,
+        "duration": 1.1
+    },
+    {
+        "text": "It's weird, but it's true.",
+        "start": 590.355,
+        "duration": 1.969
+    },
+    {
+        "text": "But say that I'm\nin the elevator.",
+        "start": 592.425,
+        "duration": 1.467
+    },
+    {
+        "text": "And it starts to accelerate\nupward at 2 meters per second,",
+        "start": 593.992,
+        "duration": 2.403
+    },
+    {
+        "text": "squared, from stopped.",
+        "start": 596.495,
+        "duration": 0.967
+    },
+    {
+        "text": "What will the scale read now?",
+        "start": 597.562,
+        "duration": 1.636
+    },
+    {
+        "text": "Free body diagram.",
+        "start": 599.298,
+        "duration": 1.034
+    },
+    {
+        "text": "Gravity is the same--",
+        "start": 600.432,
+        "duration": 1.301
+    },
+    {
+        "text": "Ft--but now we\nhave some numbers.",
+        "start": 601.833,
+        "duration": 1.669
+    },
+    {
+        "text": "It's mass times g,\nso 58 kilograms",
+        "start": 603.602,
+        "duration": 2.136
+    },
+    {
+        "text": "times 10 meters per\nsecond, squared.",
+        "start": 605.838,
+        "duration": 2.235
+    },
+    {
+        "text": "So my Fg equals 580 Newtons.",
+        "start": 608.173,
+        "duration": 2.37
+    },
+    {
+        "text": "There's still the force\nfrom the floor keeping me",
+        "start": 610.643,
+        "duration": 2.502
+    },
+    {
+        "text": "from falling through the floor.",
+        "start": 613.245,
+        "duration": 1.334
+    },
+    {
+        "text": "So that's Fs, because\nactually from a scale,",
+        "start": 614.68,
+        "duration": 2.502
+    },
+    {
+        "text": "which is the same\nas 580 Newtons.",
+        "start": 617.282,
+        "duration": 1.802
+    },
+    {
+        "text": "But there's this extra little\nforce from the elevator,",
+        "start": 619.184,
+        "duration": 2.57
+    },
+    {
+        "text": "accelerating me upwards.",
+        "start": 621.854,
+        "duration": 1.368
+    },
+    {
+        "text": "So the sum of my forces equals\nma, which equals my Fs plus Fg.",
+        "start": 623.322,
+        "duration": 4.971
+    },
+    {
+        "text": "My mass is 50 kilograms,\nmy acceleration",
+        "start": 628.393,
+        "duration": 2.903
+    },
+    {
+        "text": "is 2 meters per\nsecond, squared,",
+        "start": 631.397,
+        "duration": 1.268
+    },
+    {
+        "text": "which I gave you\nat the beginning.",
+        "start": 632.765,
+        "duration": 1.334
+    },
+    {
+        "text": "And that equals Fs minus\nmy Fg, 580 Newtons.",
+        "start": 634.199,
+        "duration": 4.271
+    },
+    {
+        "text": "58 times 2 is 116,\nso 160 Newtons",
+        "start": 638.57,
+        "duration": 3.471
+    },
+    {
+        "text": "equals Fs minus 580 Newtons.",
+        "start": 642.141,
+        "duration": 3.703
+    },
+    {
+        "text": "So Fs equals, then,\n160 Newtons plus 580.",
+        "start": 645.944,
+        "duration": 3.504
+    },
+    {
+        "text": "Fs equals 696 Newtons--",
+        "start": 649.548,
+        "duration": 3.169
+    },
+    {
+        "text": "beautiful.",
+        "start": 652.818,
+        "duration": 0.801
+    },
+    {
+        "text": "But without\nacceleration, the scale",
+        "start": 653.719,
+        "duration": 1.635
+    },
+    {
+        "text": "would have read 580 Newtons.",
+        "start": 655.454,
+        "duration": 2.002
+    },
+    {
+        "text": "And Newton's third law tells\nus that I am pushing them back",
+        "start": 657.556,
+        "duration": 2.869
+    },
+    {
+        "text": "on the scale with the\nsame little extra force.",
+        "start": 660.525,
+        "duration": 2.237
+    },
+    {
+        "text": "So I'm pushing back on the\nscale with 696 Newtons.",
+        "start": 662.862,
+        "duration": 2.301
+    },
+    {
+        "text": "Another way to think about this\nis that the spring in the scale",
+        "start": 665.263,
+        "duration": 2.537
+    },
+    {
+        "text": "is being compressed\nup into me more,",
+        "start": 667.9,
+        "duration": 2.101
+    },
+    {
+        "text": "so the dial says that\nI gained more weight.",
+        "start": 670.102,
+        "duration": 2.436
+    },
+    {
+        "text": "Because if I weren't\naccelerating,",
+        "start": 672.638,
+        "duration": 1.335
+    },
+    {
+        "text": "the scale would just\nread this same Fg--",
+        "start": 674.073,
+        "duration": 2.369
+    },
+    {
+        "text": "580 Newtons.",
+        "start": 676.542,
+        "duration": 1.501
+    },
+    {
+        "text": "Now, I don't actually\nbecome more massive.",
+        "start": 678.143,
+        "duration": 1.935
+    },
+    {
+        "text": "The force of gravity\nhasn't changed,",
+        "start": 680.178,
+        "duration": 1.902
+    },
+    {
+        "text": "but the scale reads more.",
+        "start": 682.18,
+        "duration": 1.502
+    },
+    {
+        "text": "And I feel like I weighed\nmore, because the elevator",
+        "start": 683.782,
+        "duration": 2.136
+    },
+    {
+        "text": "is pushing me up.",
+        "start": 686.018,
+        "duration": 1.134
+    },
+    {
+        "text": "Crazy stuff.",
+        "start": 687.252,
+        "duration": 0.968
+    },
+    {
+        "text": "And I know I talk about\nthis way too much,",
+        "start": 688.32,
+        "duration": 1.668
+    },
+    {
+        "text": "but a few years ago I\nexperienced this concept",
+        "start": 690.088,
+        "duration": 2.369
+    },
+    {
+        "text": "in the most awesome way on the\nVomit Comet, the zero-g plane",
+        "start": 692.557,
+        "duration": 3.237
+    },
+    {
+        "text": "in France--which is that\nas the plane ascends,",
+        "start": 695.894,
+        "duration": 2.002
+    },
+    {
+        "text": "it's just like an elevator\naccelerating upwards.",
+        "start": 697.996,
+        "duration": 2.503
+    },
+    {
+        "text": "And I felt two g's.",
+        "start": 700.599,
+        "duration": 1.535
+    },
+    {
+        "text": "And you can see my face drooping\nlike I weigh twice as much.",
+        "start": 702.234,
+        "duration": 3.737
+    },
+    {
+        "text": "I was then advised to lie\ndown because, at 58 kilograms,",
+        "start": 706.071,
+        "duration": 3.737
+    },
+    {
+        "text": "I felt like I suddenly\nweighed 106 kilograms.",
+        "start": 709.909,
+        "duration": 3.102
+    },
+    {
+        "text": "I did stand up in the\nlater parts of the flight,",
+        "start": 713.111,
+        "duration": 1.936
+    },
+    {
+        "text": "and it was a workout\njust to stay upright.",
+        "start": 715.147,
+        "duration": 2.636
+    },
+    {
+        "text": "So what happens if the\nelevator starts to slow down",
+        "start": 717.883,
+        "duration": 2.703
+    },
+    {
+        "text": "at the top of the tower?",
+        "start": 720.686,
+        "duration": 1.101
+    },
+    {
+        "text": "It's decelerating, so\nthe sum of my forces",
+        "start": 721.887,
+        "duration": 2.436
+    },
+    {
+        "text": "must be pointing down.",
+        "start": 724.423,
+        "duration": 1.634
+    },
+    {
+        "text": "The net force is downward.",
+        "start": 726.157,
+        "duration": 1.135
+    },
+    {
+        "text": "Because the force of\ngravity is unchanged,",
+        "start": 727.392,
+        "duration": 1.668
+    },
+    {
+        "text": "the springs in the\nscale must be pushing up",
+        "start": 729.16,
+        "duration": 1.703
+    },
+    {
+        "text": "a bit less, so the dial or\nthe numbers on the scale",
+        "start": 730.963,
+        "duration": 2.135
+    },
+    {
+        "text": "go down a little bit,",
+        "start": 733.198,
+        "duration": 1.034
+    },
+    {
+        "text": "which means that if you\ncontrol the acceleration",
+        "start": 734.333,
+        "duration": 1.902
+    },
+    {
+        "text": "of the elevator, you can\nchange what the scale reads.",
+        "start": 736.335,
+        "duration": 2.836
+    },
+    {
+        "text": "You could put a set of brakes\non the side of the elevator",
+        "start": 739.271,
+        "duration": 2.369
+    },
+    {
+        "text": "and tune them to slow down\ngradually so that you",
+        "start": 741.74,
+        "duration": 2.403
+    },
+    {
+        "text": "ever so slightly\nlift off the scale",
+        "start": 744.243,
+        "duration": 2.302
+    },
+    {
+        "text": "and experience a brief moment\nof weightlessness.",
+        "start": 746.645,
+        "duration": 2.669
+    },
+    {
+        "text": "That's what happens\nin a zero-g plane.",
+        "start": 749.414,
+        "duration": 1.902
+    },
+    {
+        "text": "Your perceived weight\non the scale goes to 0.",
+        "start": 751.416,
+        "duration": 2.703
+    },
+    {
+        "text": "You could brake super fast\nand slam into the ceiling,",
+        "start": 754.219,
+        "duration": 2.102
+    },
+    {
+        "text": "so make sure you wear your\nhelmet in an elevator.",
+        "start": 756.421,
+        "duration": 2.002
+    },
+    {
+        "text": "We should have gotten\nsome padding for the eggs.",
+        "start": 758.523,
+        "duration": 2.737
+    },
+    {
+        "text": "Now we have our tools and\nwe're ready to measure g",
+        "start": 761.36,
+        "duration": 2.169
+    },
+    {
+        "text": "with the Atwood machine.",
+        "start": 763.629,
+        "duration": 2.135
+    },
+    {
+        "text": "What is the Atwood machine?",
+        "start": 765.864,
+        "duration": 1.035
+    },
+    {
+        "text": "It came from this\nEnglish mathematician",
+        "start": 766.999,
+        "duration": 1.768
+    },
+    {
+        "text": "named George Atwood who\ninvented the contraption in 1784",
+        "start": 768.867,
+        "duration": 3.537
+    },
+    {
+        "text": "to study constant acceleration.",
+        "start": 772.504,
+        "duration": 2.202
+    },
+    {
+        "text": "So it's basically this machine\non a pulley with a rope.",
+        "start": 774.806,
+        "duration": 3.637
+    },
+    {
+        "text": "Here's my pulley with a rope\nand two masses on either side.",
+        "start": 778.543,
+        "duration": 4.339
+    },
+    {
+        "text": "And one mass is a little bit\nheavier than the other side.",
+        "start": 782.982,
+        "duration": 2.335
+    },
+    {
+        "text": "So m1 bigger than m2.",
+        "start": 785.417,
+        "duration": 1.735
+    },
+    {
+        "text": "Oh, you can see that\nin the Atwood machine",
+        "start": 787.252,
+        "duration": 1.668
+    },
+    {
+        "text": "we made, we have\ntwo pulleys so we can",
+        "start": 789.02,
+        "duration": 2.169
+    },
+    {
+        "text": "keep the person\nseparated from the weights",
+        "start": 791.289,
+        "duration": 1.802
+    },
+    {
+        "text": "so they don't smack each other.",
+        "start": 793.191,
+        "duration": 1.335
+    },
+    {
+        "text": "So I'm here with Thea.",
+        "start": 794.626,
+        "duration": 1.768
+    },
+    {
+        "text": "Behind us is the\nhuman-sized Atwood machine.",
+        "start": 796.495,
+        "duration": 3.47
+    },
+    {
+        "text": "Thea made this.",
+        "start": 800.065,
+        "duration": 1.835
+    },
+    {
+        "text": "Do you remember what\nthe specifications were?",
+        "start": 802.0,
+        "duration": 3.07
+    },
+    {
+        "text": "So the specifications for\nthis were basically it had to be",
+        "start": 805.17,
+        "duration": 2.836
+    },
+    {
+        "text": "human-sized, support\nDianna safely,",
+        "start": 808.106,
+        "duration": 3.804
+    },
+    {
+        "text": "and be as frictionless\nas possible,",
+        "start": 812.01,
+        "duration": 2.235
+    },
+    {
+        "text": "because essentially\nit's a pulley system.",
+        "start": 814.345,
+        "duration": 2.47
+    },
+    {
+        "text": "We're offsetting\ntwo weights",
+        "start": 816.915,
+        "duration": 1.335
+    },
+    {
+        "text": "and we want to make sure\nto minimize variables.",
+        "start": 818.35,
+        "duration": 3.303
+    },
+    {
+        "text": "OK, so these masses will\naccelerate, but slowly,",
+        "start": 821.754,
+        "duration": 2.769
+    },
+    {
+        "text": "because they're very close.",
+        "start": 824.623,
+        "duration": 1.201
+    },
+    {
+        "text": "And by timing the\nrate of the fall,",
+        "start": 825.924,
+        "duration": 1.568
+    },
+    {
+        "text": "we can use our\nfree body diagrams",
+        "start": 827.592,
+        "duration": 1.536
+    },
+    {
+        "text": "and we can figure out g.",
+        "start": 829.228,
+        "duration": 1.501
+    },
+    {
+        "text": "Now, you might think,\nwhy go to all the trouble",
+        "start": 830.83,
+        "duration": 1.934
+    },
+    {
+        "text": "of very slowly risking Dianna's\nlife on an Atwood machine?",
+        "start": 832.864,
+        "duration": 3.337
+    },
+    {
+        "text": "Couldn't you just measure\ngravity by dropping something?",
+        "start": 836.301,
+        "duration": 2.236
+    },
+    {
+        "text": "Well, even from these\nheights, things fall too fast.",
+        "start": 838.637,
+        "duration": 2.87
+    },
+    {
+        "text": "Let's measure it.",
+        "start": 841.607,
+        "duration": 0.734
+    },
+    {
+        "text": "I'm going to drop\nthis hair clip.",
+        "start": 842.441,
+        "duration": 1.702
+    },
+    {
+        "text": "We've measured out a meter.",
+        "start": 844.243,
+        "duration": 1.601
+    },
+    {
+        "text": "And I'm going to time it.\nHere we go.",
+        "start": 845.944,
+        "duration": 1.903
+    },
+    {
+        "text": "I'm hoping to get 9.81\nmeters per second, squared.",
+        "start": 847.947,
+        "duration": 3.403
+    },
+    {
+        "text": "Ready? Three, two, one,\nstart.",
+        "start": 851.45,
+        "duration": 2.869
+    },
+    {
+        "text": "OK, I got 0.55 seconds.",
+        "start": 854.419,
+        "duration": 1.569
+    },
+    {
+        "text": "That gives us about 6.6\nmeters per second, squared.",
+        "start": 856.088,
+        "duration": 3.203
+    },
+    {
+        "text": "That's a pretty\nbig error from 9.8.",
+        "start": 859.391,
+        "duration": 2.336
+    },
+    {
+        "text": "My timing is terrible.",
+        "start": 861.827,
+        "duration": 1.201
+    },
+    {
+        "text": "And air resistance,\nonce again,",
+        "start": 863.128,
+        "duration": 1.301
+    },
+    {
+        "text": "makes things\ndifficult and messy.",
+        "start": 864.529,
+        "duration": 1.502
+    },
+    {
+        "text": "So by slowing everything down,\nI can measure more precisely.",
+        "start": 866.131,
+        "duration": 2.469
+    },
+    {
+        "text": "That's the point of\nthe Atwood machine.",
+        "start": 868.7,
+        "duration": 1.502
+    },
+    {
+        "text": "So the motion of\nthe Atwood machine",
+        "start": 870.302,
+        "duration": 1.368
+    },
+    {
+        "text": "involves two fundamental ideas.",
+        "start": 871.77,
+        "duration": 1.769
+    },
+    {
+        "text": "One is that the two\nmasses are connected",
+        "start": 873.639,
+        "duration": 1.567
+    },
+    {
+        "text": "by a rope, which means\nthat they will accelerate",
+        "start": 875.307,
+        "duration": 2.002
+    },
+    {
+        "text": "the same amount here,\nand one accelerates down",
+        "start": 877.409,
+        "duration": 2.903
+    },
+    {
+        "text": "while m2 accelerates up--\nbut at the same exact rate.",
+        "start": 880.412,
+        "duration": 3.169
+    },
+    {
+        "text": "Key idea number two has to do\nwith the tension in the rope.",
+        "start": 883.681,
+        "duration": 2.67
+    },
+    {
+        "text": "That tension pulls m2 up.",
+        "start": 886.451,
+        "duration": 1.735
+    },
+    {
+        "text": "And because the rope isn't\nstretching or compressing,",
+        "start": 888.286,
+        "duration": 2.135
+    },
+    {
+        "text": "it pulls m1 with the same\nmagnitude of tension.",
+        "start": 890.522,
+        "duration": 3.137
+    },
+    {
+        "text": "Those are the two key ideas.",
+        "start": 893.759,
+        "duration": 2.035
+    },
+    {
+        "text": "One, m1 and m2 accelerate\nat the same magnitude.",
+        "start": 895.895,
+        "duration": 2.935
+    },
+    {
+        "text": "And two, the magnitude of the\nrope's tension on each of them",
+        "start": 898.93,
+        "duration": 3.237
+    },
+    {
+        "text": "are equal.",
+        "start": 902.268,
+        "duration": 0.8
+    },
+    {
+        "text": "I'm going to just\ntell you up front",
+        "start": 903.168,
+        "duration": 1.068
+    },
+    {
+        "text": "that we're going to neglect\nthe mass of the rope.",
+        "start": 904.336,
+        "duration": 1.835
+    },
+    {
+        "text": "We're also neglecting\nthe energy used",
+        "start": 906.271,
+        "duration": 1.402
+    },
+    {
+        "text": "to accelerate the pulley and\nthe friction of the pulley.",
+        "start": 907.773,
+        "duration": 2.236
+    },
+    {
+        "text": "And we're being negligent to\nkeep this experiment simple.",
+        "start": 910.109,
+        "duration": 2.502
+    },
+    {
+        "text": "So our procedure to\nfind the acceleration",
+        "start": 912.711,
+        "duration": 1.635
+    },
+    {
+        "text": "is straightforward.",
+        "start": 914.446,
+        "duration": 1.001
+    },
+    {
+        "text": "We draw a free body\ndiagram for each mass.",
+        "start": 915.547,
+        "duration": 1.702
+    },
+    {
+        "text": "So let's do it.",
+        "start": 917.349,
+        "duration": 1.101
+    },
+    {
+        "text": "Gravity pulls m1--\nlet's put m1 here.",
+        "start": 918.55,
+        "duration": 3.237
+    },
+    {
+        "text": "At a magnitude of m1 times\ng, tension is pulling it up--",
+        "start": 921.887,
+        "duration": 3.436
+    },
+    {
+        "text": "that's T; and there's\nno other forces,",
+        "start": 925.423,
+        "duration": 2.069
+    },
+    {
+        "text": "so the sum of the forces\nequals m1 times a,",
+        "start": 927.592,
+        "duration": 4.872
+    },
+    {
+        "text": "equals T up and mg down.",
+        "start": 932.564,
+        "duration": 4.504
+    },
+    {
+        "text": "So minus m1g.\nBut hold on.",
+        "start": 937.168,
+        "duration": 1.869
+    },
+    {
+        "text": "Let me remind you to pay\nattention to negative signs.",
+        "start": 939.137,
+        "duration": 2.102
+    },
+    {
+        "text": "They're going to matter here.",
+        "start": 941.339,
+        "duration": 1.402
+    },
+    {
+        "text": "Down is negative,\nup is positive.",
+        "start": 942.841,
+        "duration": 1.902
+    },
+    {
+        "text": "So m1 is accelerating down,\nso I put a negative sign here,",
+        "start": 944.843,
+        "duration": 4.505
+    },
+    {
+        "text": "in front of m1.",
+        "start": 949.448,
+        "duration": 1.334
+    },
+    {
+        "text": "That's it--we're going\nto save this for later.",
+        "start": 950.882,
+        "duration": 1.836
+    },
+    {
+        "text": "OK, let's do the\nprocedure for m2.",
+        "start": 952.818,
+        "duration": 2.268
+    },
+    {
+        "text": "Mass two experiences\nthe force of gravity down",
+        "start": 955.186,
+        "duration": 1.735
+    },
+    {
+        "text": "and the tension up.",
+        "start": 957.021,
+        "duration": 1.202
+    },
+    {
+        "text": "So T up and fg is m2g.",
+        "start": 958.323,
+        "duration": 5.973
+    },
+    {
+        "text": "The sum of the forces\non m2 is m2 times a,",
+        "start": 964.396,
+        "duration": 3.07
+    },
+    {
+        "text": "which equals T minus m2g\nfor my gravitational force.",
+        "start": 967.566,
+        "duration": 3.971
+    },
+    {
+        "text": "And remember, m2 is accelerating\nup, which is positive.",
+        "start": 971.637,
+        "duration": 2.935
+    },
+    {
+        "text": "So no negative sign in\nfront of m2 over here.",
+        "start": 974.673,
+        "duration": 2.368
+    },
+    {
+        "text": "So now we've done all\nof the heavy lifting.",
+        "start": 977.142,
+        "duration": 2.602
+    },
+    {
+        "text": "And all we have left is algebra.",
+        "start": 979.844,
+        "duration": 1.669
+    },
+    {
+        "text": "I have two equations here.",
+        "start": 981.613,
+        "duration": 1.335
+    },
+    {
+        "text": "It looks like a\nbunch of unknowns,",
+        "start": 983.048,
+        "duration": 1.335
+    },
+    {
+        "text": "but I can make it simpler\nby using my two key ideas.",
+        "start": 984.483,
+        "duration": 4.471
+    },
+    {
+        "text": "First, I remember that the\ntension, T, is the same",
+        "start": 989.054,
+        "duration": 2.001
+    },
+    {
+        "text": "for both ends of the rope.",
+        "start": 991.155,
+        "duration": 1.001
+    },
+    {
+        "text": "So I just solve for T and\nI set my two equations",
+        "start": 992.257,
+        "duration": 2.435
+    },
+    {
+        "text": "equal to each other.",
+        "start": 994.792,
+        "duration": 0.735
+    },
+    {
+        "text": "So let's do it.",
+        "start": 995.627,
+        "duration": 0.634
+    },
+    {
+        "text": "T equals minus m1a plus m1g.",
+        "start": 996.361,
+        "duration": 4.638
+    },
+    {
+        "text": "And T in my second equation\nequals m2a plus m2g.",
+        "start": 1001.099,
+        "duration": 6.44
+    },
+    {
+        "text": "So I just solve and set my two\nequations equal to each other.",
+        "start": 1007.639,
+        "duration": 2.436
+    },
+    {
+        "text": "So minus m1a less m1g\nequals m2a plus m2g.",
+        "start": 1010.175,
+        "duration": 8.641
+    },
+    {
+        "text": "So I remember that the\naccelerations of each",
+        "start": 1018.917,
+        "duration": 2.135
+    },
+    {
+        "text": "are the same.",
+        "start": 1021.152,
+        "duration": 0.934
+    },
+    {
+        "text": "So the a's on each\nside are the same a.",
+        "start": 1022.186,
+        "duration": 1.469
+    },
+    {
+        "text": "So I can combine those somehow.",
+        "start": 1023.755,
+        "duration": 1.702
+    },
+    {
+        "text": "I want to do that by moving\nthese on the same side--",
+        "start": 1025.557,
+        "duration": 2.936
+    },
+    {
+        "text": "m1g over here minus m2g\nequals m2a plus m2a.",
+        "start": 1028.594,
+        "duration": 6.506
+    },
+    {
+        "text": "And I plug the g times m1\nminus m2 equals a m2 plus m1.",
+        "start": 1035.2,
+        "duration": 7.474
+    },
+    {
+        "text": "OK, then we solve\nfor g, because we",
+        "start": 1042.774,
+        "duration": 1.201
+    },
+    {
+        "text": "want to measure g,\nso we solve for g.",
+        "start": 1044.075,
+        "duration": 1.669
+    },
+    {
+        "text": "g equals a times m2\nplus m1 over m1 minus m2.",
+        "start": 1045.844,
+        "duration": 8.175
+    },
+    {
+        "text": "So we get that g\nis the acceleration",
+        "start": 1054.119,
+        "duration": 2.702
+    },
+    {
+        "text": "I measured times the\nsum of m1 plus m2,",
+        "start": 1056.921,
+        "duration": 2.27
+    },
+    {
+        "text": "over the difference\nof m1 minus m2.",
+        "start": 1059.291,
+        "duration": 2.002
+    },
+    {
+        "text": "So now we just have to\nmeasure the acceleration",
+        "start": 1061.393,
+        "duration": 2.069
+    },
+    {
+        "text": "and we can measure g.",
+        "start": 1063.562,
+        "duration": 1.034
+    },
+    {
+        "text": "So the T we got was\napproximately 2.15 seconds.",
+        "start": 1064.696,
+        "duration": 3.971
+    },
+    {
+        "text": "The distance was about 2 meters.",
+        "start": 1068.767,
+        "duration": 2.669
+    },
+    {
+        "text": "m1 was about 79 kilograms.",
+        "start": 1071.536,
+        "duration": 4.372
+    },
+    {
+        "text": "And m2 was 65 kilograms.",
+        "start": 1076.008,
+        "duration": 4.271
+    },
+    {
+        "text": "So plugging this\nall in, g equals--",
+        "start": 1080.379,
+        "duration": 2.301
+    },
+    {
+        "text": "well first have to d\nequals 1/2 a T squared.",
+        "start": 1082.781,
+        "duration": 1.869
+    },
+    {
+        "text": "So d is 2 meters equals 1/2\ntimes a times 2.15 seconds,",
+        "start": 1084.75,
+        "duration": 8.742
+    },
+    {
+        "text": "squared.",
+        "start": 1093.592,
+        "duration": 1.201
+    },
+    {
+        "text": "If we solve for a, we get 0.87\nmeters per second, squared.",
+        "start": 1094.893,
+        "duration": 3.77
+    },
+    {
+        "text": "So we're going to\nplug that in, then--",
+        "start": 1098.763,
+        "duration": 1.502
+    },
+    {
+        "text": "0.87 meters per second,\nsquared.",
+        "start": 1100.365,
+        "duration": 3.337
+    },
+    {
+        "text": "And then we do m1 plus m2--",
+        "start": 1103.802,
+        "duration": 1.968
+    },
+    {
+        "text": "79 kilograms plus 65\nkilograms over 79 kilograms",
+        "start": 1105.87,
+        "duration": 8.542
+    },
+    {
+        "text": "minus 65 kilograms.",
+        "start": 1114.512,
+        "duration": 2.37
+    },
+    {
+        "text": "And we get g equals 8.9\nmeters per second, squared--",
+        "start": 1116.982,
+        "duration": 6.072
+    },
+    {
+        "text": "which is not quite right.",
+        "start": 1123.154,
+        "duration": 1.669
+    },
+    {
+        "text": "The real g is g equals 9.81\nmeters per second, squared.",
+        "start": 1124.923,
+        "duration": 5.638
+    },
+    {
+        "text": "But the thing is, there\nwere so many places",
+        "start": 1130.662,
+        "duration": 2.77
+    },
+    {
+        "text": "for margins or error.",
+        "start": 1133.532,
+        "duration": 1.168
+    },
+    {
+        "text": "One is friction in the pulleys,\nwhich messes with our time.",
+        "start": 1134.8,
+        "duration": 3.336
+    },
+    {
+        "text": "And that error gets\nsquared over here,",
+        "start": 1138.236,
+        "duration": 2.57
+    },
+    {
+        "text": "when we do this calculation.",
+        "start": 1140.906,
+        "duration": 1.368
+    },
+    {
+        "text": "There's also the masses.",
+        "start": 1142.374,
+        "duration": 1.601
+    },
+    {
+        "text": "If we used instead m1\nequals 78 kilograms.",
+        "start": 1144.075,
+        "duration": 4.738
+    },
+    {
+        "text": "And we use m2 equals\n65.4 kilograms,",
+        "start": 1148.913,
+        "duration": 5.472
+    },
+    {
+        "text": "then we actually do get g equals\n9.8 meters per second, squared.",
+        "start": 1154.485,
+        "duration": 4.706
+    },
+    {
+        "text": "So that shows you how sensitive\nthis is to the masses.",
+        "start": 1159.291,
+        "duration": 2.336
+    },
+    {
+        "text": "We also could have\nslowed it down.",
+        "start": 1161.727,
+        "duration": 1.334
+    },
+    {
+        "text": "We could have made these\nmasses closer together,",
+        "start": 1163.162,
+        "duration": 1.901
+    },
+    {
+        "text": "but what happened then is we\ngot more friction in the pulleys",
+        "start": 1165.163,
+        "duration": 2.869
+    },
+    {
+        "text": "when they were moving slower.",
+        "start": 1168.132,
+        "duration": 1.335
+    },
+    {
+        "text": "So then there's even more error.",
+        "start": 1169.567,
+        "duration": 1.703
+    },
+    {
+        "text": "When we did that, we actually\ngot a value of g equals 2.",
+        "start": 1171.37,
+        "duration": 3.103
+    },
+    {
+        "text": "So we sped it up to\nget rid of friction,",
+        "start": 1174.573,
+        "duration": 2.269
+    },
+    {
+        "text": "and then we needed more\nsensitive measurements",
+        "start": 1176.942,
+        "duration": 3.203
+    },
+    {
+        "text": "on our mass.",
+        "start": 1180.245,
+        "duration": 0.967
+    },
+    {
+        "text": "And we were sensitive to\nwithin about a kilogram.",
+        "start": 1181.313,
+        "duration": 2.802
+    },
+    {
+        "text": "So this is within the margin\nof error of our masses.",
+        "start": 1184.215,
+        "duration": 3.204
+    },
+    {
+        "text": "Plus the cable itself\nweighed about two kilograms.",
+        "start": 1187.519,
+        "duration": 3.77
+    },
+    {
+        "text": "And that changes over the\ncourse of the movement.",
+        "start": 1191.389,
+        "duration": 3.203
+    },
+    {
+        "text": "Lots and lots of error.",
+        "start": 1194.692,
+        "duration": 1.035
+    },
+    {
+        "text": "But I say we did pretty good.",
+        "start": 1195.827,
+        "duration": 3.904
+    },
+    {
+        "text": "We measured g.",
+        "start": 1199.831,
+        "duration": 1.035
+    },
+    {
+        "text": "That's g at this particular\nelevation, though.",
+        "start": 1200.966,
+        "duration": 2.202
+    },
+    {
+        "text": "We were pretty close to\nsea level in Los Angeles.",
+        "start": 1203.268,
+        "duration": 1.969
+    },
+    {
+        "text": "Remember, gravity weakens\nas you move further away",
+        "start": 1205.337,
+        "duration": 2.368
+    },
+    {
+        "text": "from the center of the Earth.",
+        "start": 1207.805,
+        "duration": 1.102
+    },
+    {
+        "text": "Gravity is less at\nthe top of a mountain.",
+        "start": 1209.007,
+        "duration": 1.868
+    },
+    {
+        "text": "If you were standing over\na giant uranium mine--",
+        "start": 1210.976,
+        "duration": 2.035
+    },
+    {
+        "text": "because uranium is a\nvery dense metal--",
+        "start": 1213.111,
+        "duration": 1.735
+    },
+    {
+        "text": "you would measure\na higher g.",
+        "start": 1214.946,
+        "duration": 2.135
+    },
+    {
+        "text": "g over the surface\nof the Earth varies",
+        "start": 1217.181,
+        "duration": 1.802
+    },
+    {
+        "text": "between 9.76 to 9.83\nmeters per second, squared.",
+        "start": 1219.083,
+        "duration": 3.571
+    },
+    {
+        "text": "It's not always 9.81.",
+        "start": 1222.754,
+        "duration": 1.201
+    },
+    {
+        "text": "Here's a map NASA made\nof the gravity anomalies",
+        "start": 1224.055,
+        "duration": 2.203
+    },
+    {
+        "text": "around the planet that shows\nyou will measure different g's,",
+        "start": 1226.358,
+        "duration": 2.402
+    },
+    {
+        "text": "depending on your location.",
+        "start": 1228.86,
+        "duration": 1.768
+    },
+    {
+        "text": "I'm going to show you one last\nextra trick for solving out",
+        "start": 1230.728,
+        "duration": 2.303
+    },
+    {
+        "text": "machine-type problems,",
+        "start": 1233.131,
+        "duration": 1.001
+    },
+    {
+        "text": "because they show up\non exams super often.",
+        "start": 1234.232,
+        "duration": 2.636
+    },
+    {
+        "text": "So a problem might\ngive you two masses",
+        "start": 1236.968,
+        "duration": 1.535
+    },
+    {
+        "text": "and then ask you what\nthe acceleration is.",
+        "start": 1238.603,
+        "duration": 1.602
+    },
+    {
+        "text": "So we need to arrange the\nalgebra to look like this.",
+        "start": 1240.305,
+        "duration": 2.069
+    },
+    {
+        "text": "Solving for acceleration\nequals g times",
+        "start": 1242.474,
+        "duration": 4.371
+    },
+    {
+        "text": "m1 minus m2 over m1 plus m2.",
+        "start": 1246.945,
+        "duration": 5.238
+    },
+    {
+        "text": "So the algebra looks like this.",
+        "start": 1252.283,
+        "duration": 1.669
+    },
+    {
+        "text": "That's why the masses\naccelerate slower than freefall.",
+        "start": 1254.052,
+        "duration": 2.703
+    },
+    {
+        "text": "So what I mean is, let's\ntry it in a situation where",
+        "start": 1256.855,
+        "duration": 2.069
+    },
+    {
+        "text": "m1 is twice m2.",
+        "start": 1259.024,
+        "duration": 1.501
+    },
+    {
+        "text": "So m1 equals twice m2.",
+        "start": 1260.625,
+        "duration": 4.772
+    },
+    {
+        "text": "So then my equation\nworks out to a equals g.",
+        "start": 1265.497,
+        "duration": 4.07
+    },
+    {
+        "text": "m1 is twice m2, so 2 m2\nminus m2 over 2 m2",
+        "start": 1269.667,
+        "duration": 6.107
+    },
+    {
+        "text": "plus m2, which equals--",
+        "start": 1275.874,
+        "duration": 2.435
+    },
+    {
+        "text": "this is m2 over 3 m2 times g.",
+        "start": 1278.409,
+        "duration": 4.072
+    },
+    {
+        "text": "So the acceleration\nequals 1/3 times g.",
+        "start": 1282.581,
+        "duration": 5.738
+    },
+    {
+        "text": "And I get a equals\n1/3 g, so it does work.",
+        "start": 1288.419,
+        "duration": 2.77
+    },
+    {
+        "text": "You can use this trick for\nany combination of masses.",
+        "start": 1291.289,
+        "duration": 2.102
+    },
+    {
+        "text": "The number of g's you\nmeasure is the difference",
+        "start": 1293.492,
+        "duration": 1.801
+    },
+    {
+        "text": "of those two masses\nover the sum.",
+        "start": 1295.393,
+        "duration": 1.769
+    },
+    {
+        "text": "Gravity only gets to work on\nthe difference of the masses,",
+        "start": 1297.262,
+        "duration": 2.536
+    },
+    {
+        "text": "but it's the sum of the\nmasses that get accelerated.",
+        "start": 1299.898,
+        "duration": 2.935
+    },
+    {
+        "text": "It's like gravity has to\naccelerate three masses,",
+        "start": 1302.934,
+        "duration": 2.503
+    },
+    {
+        "text": "but only gets to work on\nthe equivalent of one mass.",
+        "start": 1305.537,
+        "duration": 2.202
+    },
+    {
+        "text": "We're used to everything\nfalling at the same rate,",
+        "start": 1307.839,
+        "duration": 2.002
+    },
+    {
+        "text": "because gravitational mass\nis equal to inertial mass.",
+        "start": 1309.941,
+        "duration": 2.169
+    },
+    {
+        "text": "But in the Atwood machine,\nthat lets us fake out gravity.",
+        "start": 1312.21,
+        "duration": 3.203
+    },
+    {
+        "text": "So that's Lesson 5--",
+        "start": 1315.513,
+        "duration": 1.435
+    },
+    {
+        "text": "how do to use free body\ndiagrams to calculate forces.",
+        "start": 1317.048,
+        "duration": 2.269
+    },
+    {
+        "text": "So that's Lesson 5.",
+        "start": 1321.953,
+        "duration": 1.368
+    },
+    {
+        "text": "When we ask you what you\nlearned on YouTube today,",
+        "start": 1323.421,
+        "duration": 1.568
+    },
+    {
+        "text": "here are your two\nimportant takeaways.",
+        "start": 1325.089,
+        "duration": 1.569
+    },
+    {
+        "text": "When solving problems\nusing a net force, FBD--",
+        "start": 1326.758,
+        "duration": 3.503
+    },
+    {
+        "text": "Free Body Diagrams.",
+        "start": 1330.361,
+        "duration": 1.235
+    },
+    {
+        "text": "When solving problems\nwith multiple components,",
+        "start": 1331.697,
+        "duration": 1.834
+    },
+    {
+        "text": "look for variables\nthey have in common.",
+        "start": 1333.631,
+        "duration": 1.635
+    },
+    {
+        "text": "And as always, you must\nsolve the problems.",
+        "start": 1335.367,
+        "duration": 2.436
+    },
+    {
+        "text": "It's the only way to truly,\nreally learn physics.",
+        "start": 1337.903,
+        "duration": 2.068
+    },
+    {
+        "text": "So here are all the\nproblems we did today",
+        "start": 1340.071,
+        "duration": 1.602
+    },
+    {
+        "text": "for you to rework on your own.",
+        "start": 1341.773,
+        "duration": 1.001
+    },
+    {
+        "text": "And you can also search\non the internet",
+        "start": 1342.874,
+        "duration": 1.268
+    },
+    {
+        "text": "for free body diagram\nproblems",
+        "start": 1344.242,
+        "duration": 1.535
+    },
+    {
+        "text": "and gravitational\nacceleration problems",
+        "start": 1345.877,
+        "duration": 1.935
+    },
+    {
+        "text": "for more practice--\nyou should.",
+        "start": 1347.912,
+        "duration": 1.869
+    },
+    {
+        "text": "And now a message from a\nvery special guest, Bill Nye.",
+        "start": 1349.881,
+        "duration": 4.638
+    },
+    {
+        "text": "Greetings. Bill Nye here.",
+        "start": 1354.619,
+        "duration": 2.002
+    },
+    {
+        "text": "You know the old saying--",
+        "start": 1356.721,
+        "duration": 1.034
+    },
+    {
+        "text": "everything happens\nfor a reason.",
+        "start": 1357.855,
+        "duration": 2.503
+    },
+    {
+        "text": "And that reason is\nusually physics.",
+        "start": 1360.458,
+        "duration": 2.37
+    },
+    {
+        "text": "Physics is the\nfundamental science.",
+        "start": 1362.928,
+        "duration": 2.602
+    },
+    {
+        "text": "So enjoy this course.",
+        "start": 1365.63,
+        "duration": 1.368
+    },
+    {
+        "text": "You can't do any better\nthan Professor Cowern.",
+        "start": 1367.098,
+        "duration": 2.403
+    },
+    {
+        "text": "And then get out there\nand make things happen.",
+        "start": 1369.601,
+        "duration": 2.97
+    },
+    {
+        "text": "[MUSIC PLAYING]",
+        "start": 1372.671,
+        "duration": 5.072
+    }
+]

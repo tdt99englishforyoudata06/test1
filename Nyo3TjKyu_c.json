@@ -1,0 +1,977 @@
+[
+    {
+        "text": "(Brady: Professor, you've got a foot- \nwell I call)",
+        "start": 0.03,
+        "duration": 2.97
+    },
+    {
+        "text": "(that a football, you're going to call)",
+        "start": 3.0,
+        "duration": 1.08
+    },
+    {
+        "text": "(that a soccer ball.)\n- It's a soccer ball to me.",
+        "start": 4.08,
+        "duration": 3.27
+    },
+    {
+        "text": "(Whatever it is, why have you got it?)",
+        "start": 7.35,
+        "duration": 1.68
+    },
+    {
+        "text": "Okay so I want to tell you about soccer",
+        "start": 9.03,
+        "duration": 2.34
+    },
+    {
+        "text": "balls, actually I want to tell you about",
+        "start": 11.37,
+        "duration": 1.29
+    },
+    {
+        "text": "spheres. So here's the fact that I want",
+        "start": 12.66,
+        "duration": 2.55
+    },
+    {
+        "text": "to tell you: if you have the surface of a",
+        "start": 15.21,
+        "duration": 2.489
+    },
+    {
+        "text": "sphere like this, you could think the",
+        "start": 17.699,
+        "duration": 1.231
+    },
+    {
+        "text": "surface of the earth or something, we can",
+        "start": 18.93,
+        "duration": 2.009
+    },
+    {
+        "text": "divide it up into pieces. So the way I'm",
+        "start": 20.939,
+        "duration": 2.461
+    },
+    {
+        "text": "going to do that is using what are",
+        "start": 23.4,
+        "duration": 1.41
+    },
+    {
+        "text": "called vertices, edges, and faces. So",
+        "start": 24.81,
+        "duration": 2.879
+    },
+    {
+        "text": "vertices are like dots; so maybe I'll put",
+        "start": 27.689,
+        "duration": 1.981
+    },
+    {
+        "text": "a dot there and a dot there. Edges are",
+        "start": 29.67,
+        "duration": 3.81
+    },
+    {
+        "text": "going to connect vertices. So here's one",
+        "start": 33.48,
+        "duration": 2.91
+    },
+    {
+        "text": "edge, and then maybe I'll draw another",
+        "start": 36.39,
+        "duration": 2.759
+    },
+    {
+        "text": "edge around the back. And then faces are",
+        "start": 39.149,
+        "duration": 4.531
+    },
+    {
+        "text": "pieces that are bounded by the edges; so",
+        "start": 43.68,
+        "duration": 2.37
+    },
+    {
+        "text": "in this picture, the way I've divided it",
+        "start": 46.05,
+        "duration": 2.009
+    },
+    {
+        "text": "up, one face is the upper hemisphere of",
+        "start": 48.059,
+        "duration": 1.891
+    },
+    {
+        "text": "the sphere and the other face is the",
+        "start": 49.95,
+        "duration": 1.769
+    },
+    {
+        "text": "lower hemisphere of the sphere. Okay so",
+        "start": 51.719,
+        "duration": 2.73
+    },
+    {
+        "text": "why did I divide it up like that? Well I",
+        "start": 54.449,
+        "duration": 1.86
+    },
+    {
+        "text": "want to use this really cool thing",
+        "start": 56.309,
+        "duration": 1.5
+    },
+    {
+        "text": "called the Euler characteristic. So if",
+        "start": 57.809,
+        "duration": 2.311
+    },
+    {
+        "text": "you've watched the video about Brussels",
+        "start": 60.12,
+        "duration": 1.41
+    },
+    {
+        "text": "sprouts we talked about the Euler",
+        "start": 61.53,
+        "duration": 1.14
+    },
+    {
+        "text": "characteristic before. So this is going",
+        "start": 62.67,
+        "duration": 2.16
+    },
+    {
+        "text": "to be the Euler characteristic for a",
+        "start": 64.83,
+        "duration": 1.35
+    },
+    {
+        "text": "sphere: it says that the number of",
+        "start": 66.18,
+        "duration": 2.25
+    },
+    {
+        "text": "vertices minus the number of edges plus",
+        "start": 68.43,
+        "duration": 2.82
+    },
+    {
+        "text": "the number of faces is always equal to",
+        "start": 71.25,
+        "duration": 2.43
+    },
+    {
+        "text": "2. So this is a well-known mathematical",
+        "start": 73.68,
+        "duration": 2.549
+    },
+    {
+        "text": "fact, the Euler characteristic is",
+        "start": 76.229,
+        "duration": 1.741
+    },
+    {
+        "text": "something- we could do this for other",
+        "start": 77.97,
+        "duration": 1.14
+    },
+    {
+        "text": "shapes too, not just spheres, so like we",
+        "start": 79.11,
+        "duration": 2.399
+    },
+    {
+        "text": "could take the Euler characteristic of",
+        "start": 81.509,
+        "duration": 1.5
+    },
+    {
+        "text": "the surface of a doughnut if you wanted",
+        "start": 83.009,
+        "duration": 1.68
+    },
+    {
+        "text": "to. So usually we write this letter chi",
+        "start": 84.689,
+        "duration": 2.941
+    },
+    {
+        "text": "for the Euler characteristic. The Euler",
+        "start": 87.63,
+        "duration": 2.4
+    },
+    {
+        "text": "characteristic of a doughnut is zero. And",
+        "start": 90.03,
+        "duration": 3.54
+    },
+    {
+        "text": "you can take the Euler characteristic of",
+        "start": 93.57,
+        "duration": 1.65
+    },
+    {
+        "text": "other surfaces too, like have you ever",
+        "start": 95.22,
+        "duration": 1.259
+    },
+    {
+        "text": "been to one of those - do they have these",
+        "start": 96.479,
+        "duration": 2.371
+    },
+    {
+        "text": "in Australia? - the waterparks with the",
+        "start": 98.85,
+        "duration": 1.589
+    },
+    {
+        "text": "double inner tube rides? \n- (You can go down the slide?)",
+        "start": 100.439,
+        "duration": 2.331
+    },
+    {
+        "text": "Yeah I love those things. Okay, so if",
+        "start": 102.77,
+        "duration": 1.93
+    },
+    {
+        "text": "we consider one of those double inner",
+        "start": 104.7,
+        "duration": 1.59
+    },
+    {
+        "text": "tubes, that thing has Euler",
+        "start": 106.29,
+        "duration": 2.579
+    },
+    {
+        "text": "characteristic negative 2. So the Euler",
+        "start": 108.869,
+        "duration": 2.46
+    },
+    {
+        "text": "characteristic can be different for",
+        "start": 111.329,
+        "duration": 1.351
+    },
+    {
+        "text": "different shapes that we have; for the",
+        "start": 112.68,
+        "duration": 2.25
+    },
+    {
+        "text": "sphere though the Euler characteristic",
+        "start": 114.93,
+        "duration": 1.14
+    },
+    {
+        "text": "is always 2. And what I mean when I say",
+        "start": 116.07,
+        "duration": 3.0
+    },
+    {
+        "text": "always is even if you did the vertices,",
+        "start": 119.07,
+        "duration": 2.79
+    },
+    {
+        "text": "edges, and faces differently - like why did",
+        "start": 121.86,
+        "duration": 2.189
+    },
+    {
+        "text": "I pick two vertices and two edges and",
+        "start": 124.049,
+        "duration": 1.981
+    },
+    {
+        "text": "two faces? - we'd still get the number 2.",
+        "start": 126.03,
+        "duration": 2.25
+    },
+    {
+        "text": "Say for instance like I added some",
+        "start": 128.28,
+        "duration": 1.92
+    },
+    {
+        "text": "vertices to this picture, so maybe I'd",
+        "start": 130.2,
+        "duration": 1.59
+    },
+    {
+        "text": "add one at the North Pole and one",
+        "start": 131.79,
+        "duration": 2.279
+    },
+    {
+        "text": "the South Pole and I could add some",
+        "start": 134.069,
+        "duration": 1.741
+    },
+    {
+        "text": "edges too, so like an edge- put a vertex",
+        "start": 135.81,
+        "duration": 3.45
+    },
+    {
+        "text": "here and a vertex here and we can draw",
+        "start": 139.26,
+        "duration": 1.89
+    },
+    {
+        "text": "some edges. So, see this one's like coming",
+        "start": 141.15,
+        "duration": 3.059
+    },
+    {
+        "text": "from this point down to the South Pole",
+        "start": 144.209,
+        "duration": 2.01
+    },
+    {
+        "text": "and this back point down to the South",
+        "start": 146.219,
+        "duration": 1.561
+    },
+    {
+        "text": "Pole, might do the same thing up here. So",
+        "start": 147.78,
+        "duration": 4.53
+    },
+    {
+        "text": "now we've divided it up in a different",
+        "start": 152.31,
+        "duration": 2.009
+    },
+    {
+        "text": "way with the vertices, edges,\nand faces but",
+        "start": 154.319,
+        "duration": 1.89
+    },
+    {
+        "text": "let's count again. So I have 1, 2,",
+        "start": 156.209,
+        "duration": 2.941
+    },
+    {
+        "text": "3, 4, 5, 6 vertices now; minus",
+        "start": 159.15,
+        "duration": 4.02
+    },
+    {
+        "text": "the number of edges. So I have- let's fill",
+        "start": 163.17,
+        "duration": 4.14
+    },
+    {
+        "text": "in this edge and this edge because",
+        "start": 167.31,
+        "duration": 1.259
+    },
+    {
+        "text": "otherwise it's confusing the way I've",
+        "start": 168.569,
+        "duration": 1.29
+    },
+    {
+        "text": "drawn it. This edge and this edge; okay I",
+        "start": 169.859,
+        "duration": 3.81
+    },
+    {
+        "text": "gotta count edges, let's make sure we",
+        "start": 173.669,
+        "duration": 1.141
+    },
+    {
+        "text": "don't forget any. 1, 2, 3, 4, 5,",
+        "start": 174.81,
+        "duration": 3.239
+    },
+    {
+        "text": "6, 7, 8, 9, 10, 11, 12;",
+        "start": 178.049,
+        "duration": 4.55
+    },
+    {
+        "text": "12 edges. And how many faces do we",
+        "start": 182.599,
+        "duration": 4.48
+    },
+    {
+        "text": "have? Well on the top see we have 1, 2",
+        "start": 187.079,
+        "duration": 1.981
+    },
+    {
+        "text": "and then there are two more in the back,",
+        "start": 189.06,
+        "duration": 1.319
+    },
+    {
+        "text": "so 1, 2, 3, 4 on the top and",
+        "start": 190.379,
+        "duration": 2.161
+    },
+    {
+        "text": "similarly 1, 2, 3, 4 on the",
+        "start": 192.54,
+        "duration": 1.77
+    },
+    {
+        "text": "bottom so we have eight faces total. And",
+        "start": 194.31,
+        "duration": 2.28
+    },
+    {
+        "text": "what do we have? We have 14 minus 12",
+        "start": 196.59,
+        "duration": 2.429
+    },
+    {
+        "text": "is 2, like we should get. So we can do",
+        "start": 199.019,
+        "duration": 2.821
+    },
+    {
+        "text": "the vertices, edges, and faces in lots of",
+        "start": 201.84,
+        "duration": 1.619
+    },
+    {
+        "text": "different ways we still get that the",
+        "start": 203.459,
+        "duration": 1.68
+    },
+    {
+        "text": "Euler characteristic of the sphere is 2.",
+        "start": 205.139,
+        "duration": 1.68
+    },
+    {
+        "text": "- (I think, I think I know where you're\ngoing)",
+        "start": 206.819,
+        "duration": 1.56
+    },
+    {
+        "text": "Yeah, so, for instance we\ncould divide up the",
+        "start": 208.379,
+        "duration": 3.301
+    },
+    {
+        "text": "surface of a sphere in the way it is in",
+        "start": 211.68,
+        "duration": 2.13
+    },
+    {
+        "text": "a soccer ball. So what is- what is a",
+        "start": 213.81,
+        "duration": 2.069
+    },
+    {
+        "text": "soccer ball, standard soccer ball look",
+        "start": 215.879,
+        "duration": 1.53
+    },
+    {
+        "text": "like? So it's tiled with some pentagons",
+        "start": 217.409,
+        "duration": 2.01
+    },
+    {
+        "text": "and some hexagons and I'm going to show",
+        "start": 219.419,
+        "duration": 1.861
+    },
+    {
+        "text": "you that you can figure out how many",
+        "start": 221.28,
+        "duration": 1.919
+    },
+    {
+        "text": "pentagons and hexagons have to be on",
+        "start": 223.199,
+        "duration": 2.4
+    },
+    {
+        "text": "the soccer ball using the Euler",
+        "start": 225.599,
+        "duration": 1.38
+    },
+    {
+        "text": "characteristic. Shall we do it?\n- (Please)",
+        "start": 226.979,
+        "duration": 2.581
+    },
+    {
+        "text": "So let's say that P is going to be the",
+        "start": 229.56,
+        "duration": 3.299
+    },
+    {
+        "text": "number of pentagons on a soccer ball",
+        "start": 232.859,
+        "duration": 2.791
+    },
+    {
+        "text": "and H is the number of hexagons. The way",
+        "start": 235.65,
+        "duration": 4.35
+    },
+    {
+        "text": "we're going to do it is using the Euler",
+        "start": 240.0,
+        "duration": 1.349
+    },
+    {
+        "text": "characteristic which means we need to",
+        "start": 241.349,
+        "duration": 1.651
+    },
+    {
+        "text": "count vertices, edges, and faces.",
+        "start": 243.0,
+        "duration": 2.519
+    },
+    {
+        "text": "Let's count faces because that one's the",
+        "start": 245.519,
+        "duration": 3.541
+    },
+    {
+        "text": "easiest. So the way I'm thinking about",
+        "start": 249.06,
+        "duration": 2.639
+    },
+    {
+        "text": "this is that we're dividing it up using",
+        "start": 251.699,
+        "duration": 1.861
+    },
+    {
+        "text": "these edges that are naturally on the",
+        "start": 253.56,
+        "duration": 1.889
+    },
+    {
+        "text": "soccer ball, and the vertices are like",
+        "start": 255.449,
+        "duration": 1.921
+    },
+    {
+        "text": "these points where the edges come",
+        "start": 257.37,
+        "duration": 1.679
+    },
+    {
+        "text": "together, and the faces are the",
+        "start": 259.049,
+        "duration": 2.071
+    },
+    {
+        "text": "individual pieces. How many faces are",
+        "start": 261.12,
+        "duration": 2.58
+    },
+    {
+        "text": "there? Well if there are P pentagons",
+        "start": 263.7,
+        "duration": 2.34
+    },
+    {
+        "text": "and H hexagons the number of faces is",
+        "start": 266.04,
+        "duration": 2.25
+    },
+    {
+        "text": "just P plus H. So now let's count, I don't",
+        "start": 268.29,
+        "duration": 4.29
+    },
+    {
+        "text": "know, let's count the number of edges. So",
+        "start": 272.58,
+        "duration": 3.42
+    },
+    {
+        "text": "to do this we need to remember a",
+        "start": 276.0,
+        "duration": 1.35
+    },
+    {
+        "text": "pentagon has five sides, right?",
+        "start": 277.35,
+        "duration": 2.52
+    },
+    {
+        "text": "So for each pentagon we get five edges. A",
+        "start": 279.87,
+        "duration": 3.8
+    },
+    {
+        "text": "hexagon has six sides",
+        "start": 283.67,
+        "duration": 2.29
+    },
+    {
+        "text": "so for each hexagon we get six edges.",
+        "start": 285.96,
+        "duration": 2.24
+    },
+    {
+        "text": "That total's not quite right though",
+        "start": 288.2,
+        "duration": 2.29
+    },
+    {
+        "text": "because if you look at one of these",
+        "start": 290.49,
+        "duration": 1.35
+    },
+    {
+        "text": "edges on the soccer ball it's actually",
+        "start": 291.84,
+        "duration": 2.01
+    },
+    {
+        "text": "on two different faces. So when we did",
+        "start": 293.85,
+        "duration": 3.09
+    },
+    {
+        "text": "this count we counted all of the edges",
+        "start": 296.94,
+        "duration": 2.1
+    },
+    {
+        "text": "twice, so we need to divide the total by",
+        "start": 299.04,
+        "duration": 2.82
+    },
+    {
+        "text": "2 to get the actual number of edges.",
+        "start": 301.86,
+        "duration": 2.43
+    },
+    {
+        "text": "Because like this edge is on a pentagon",
+        "start": 304.29,
+        "duration": 2.04
+    },
+    {
+        "text": "and a hexagon, this one's on two hexagons",
+        "start": 306.33,
+        "duration": 1.89
+    },
+    {
+        "text": "but every edge is on two different faces",
+        "start": 308.22,
+        "duration": 2.73
+    },
+    {
+        "text": "so we over counted. So now let's try to",
+        "start": 310.95,
+        "duration": 2.04
+    },
+    {
+        "text": "count the vertices: the vertices are",
+        "start": 312.99,
+        "duration": 2.19
+    },
+    {
+        "text": "these points at the corners.",
+        "start": 315.18,
+        "duration": 2.3
+    },
+    {
+        "text": "So each pentagon has five of those, each",
+        "start": 317.48,
+        "duration": 3.97
+    },
+    {
+        "text": "hexagon has six of those, but we over",
+        "start": 321.45,
+        "duration": 3.03
+    },
+    {
+        "text": "counted again. So how many did we over",
+        "start": 324.48,
+        "duration": 2.28
+    },
+    {
+        "text": "count by this time? Well look at this",
+        "start": 326.76,
+        "duration": 2.97
+    },
+    {
+        "text": "vertex, so how many times did we count",
+        "start": 329.73,
+        "duration": 2.4
+    },
+    {
+        "text": "that? Well I counted it on this pentagon,",
+        "start": 332.13,
+        "duration": 1.74
+    },
+    {
+        "text": "this hexagon, and this hexagon so it was",
+        "start": 333.87,
+        "duration": 2.7
+    },
+    {
+        "text": "counted three times and we really only",
+        "start": 336.57,
+        "duration": 2.25
+    },
+    {
+        "text": "want to count each vertex once. So I",
+        "start": 338.82,
+        "duration": 1.86
+    },
+    {
+        "text": "divide my total by 3. Okay so what do",
+        "start": 340.68,
+        "duration": 3.6
+    },
+    {
+        "text": "we have? I have counted my faces, edges,",
+        "start": 344.28,
+        "duration": 1.92
+    },
+    {
+        "text": "and vertices and now I'm going to use",
+        "start": 346.2,
+        "duration": 1.5
+    },
+    {
+        "text": "the Euler characteristic which tells me",
+        "start": 347.7,
+        "duration": 1.74
+    },
+    {
+        "text": "that the number of vertices minus the",
+        "start": 349.44,
+        "duration": 1.92
+    },
+    {
+        "text": "number of edges plus the number of faces",
+        "start": 351.36,
+        "duration": 2.06
+    },
+    {
+        "text": "has to be 2. Okay so let's do the math.",
+        "start": 353.42,
+        "duration": 3.43
+    },
+    {
+        "text": "So the number of vertices was 5P plus 6H",
+        "start": 356.85,
+        "duration": 4.35
+    },
+    {
+        "text": "divided by 3 minus the number of edges",
+        "start": 361.2,
+        "duration": 3.21
+    },
+    {
+        "text": "which was 5P plus 6H divided by 2 plus",
+        "start": 364.41,
+        "duration": 4.5
+    },
+    {
+        "text": "the number of faces which \nwas P plus H, I'm",
+        "start": 368.91,
+        "duration": 2.34
+    },
+    {
+        "text": "just plugging in all these things. It has",
+        "start": 371.25,
+        "duration": 3.12
+    },
+    {
+        "text": "to be equal to 2, so now this is an",
+        "start": 374.37,
+        "duration": 2.64
+    },
+    {
+        "text": "algebra problem. So let's multiply",
+        "start": 377.01,
+        "duration": 2.85
+    },
+    {
+        "text": "everything by 6 to get rid of these",
+        "start": 379.86,
+        "duration": 1.62
+    },
+    {
+        "text": "denominators. So, when I do that over here",
+        "start": 381.48,
+        "duration": 3.15
+    },
+    {
+        "text": "I get 10P plus 12H minus 15P minus 18H",
+        "start": 384.63,
+        "duration": 6.72
+    },
+    {
+        "text": "plus 6P plus 6H equals 12. Multiply",
+        "start": 391.35,
+        "duration": 5.64
+    },
+    {
+        "text": "both sides by 6. Now this \nlooks a little better",
+        "start": 396.99,
+        "duration": 2.92
+    },
+    {
+        "text": "so let's figure out what we've got. I've",
+        "start": 399.91,
+        "duration": 1.41
+    },
+    {
+        "text": "got 10P minus 15P is negative 5P plus",
+        "start": 401.32,
+        "duration": 4.02
+    },
+    {
+        "text": "6P is just P. 12H minus 18H plus 6H",
+        "start": 405.34,
+        "duration": 5.43
+    },
+    {
+        "text": "is 0 and I get P is equal to 12. So what",
+        "start": 410.77,
+        "duration": 5.64
+    },
+    {
+        "text": "did we just learn? We just showed that",
+        "start": 416.41,
+        "duration": 1.92
+    },
+    {
+        "text": "there have to be 12 pentagons on our",
+        "start": 418.33,
+        "duration": 2.37
+    },
+    {
+        "text": "soccer ball. And it follows from that",
+        "start": 420.7,
+        "duration": 2.22
+    },
+    {
+        "text": "that with this standard pattern that we",
+        "start": 422.92,
+        "duration": 2.61
+    },
+    {
+        "text": "have on soccer balls that there are",
+        "start": 425.53,
+        "duration": 1.8
+    },
+    {
+        "text": "going to be 20 hexagons. \n- (Where did that)",
+        "start": 427.33,
+        "duration": 3.81
+    },
+    {
+        "text": "(come from in all that?)\n- So where it comes from, if we",
+        "start": 431.14,
+        "duration": 2.58
+    },
+    {
+        "text": "look at our soccer ball, is that each",
+        "start": 433.72,
+        "duration": 2.4
+    },
+    {
+        "text": "pentagon is surrounded by five hexagons",
+        "start": 436.12,
+        "duration": 3.51
+    },
+    {
+        "text": "right? So if we have 12 pentagons times",
+        "start": 439.63,
+        "duration": 3.39
+    },
+    {
+        "text": "5 is 60; except it's one of these over",
+        "start": 443.02,
+        "duration": 4.2
+    },
+    {
+        "text": "counting things again. So like this",
+        "start": 447.22,
+        "duration": 1.98
+    },
+    {
+        "text": "hexagon was counted around this pentagon,",
+        "start": 449.2,
+        "duration": 2.61
+    },
+    {
+        "text": "this Pentagon, and this Pentagon so it",
+        "start": 451.81,
+        "duration": 2.37
+    },
+    {
+        "text": "was counted three times. So we divide",
+        "start": 454.18,
+        "duration": 2.19
+    },
+    {
+        "text": "that by 3 and we get our 20 hexagons. So",
+        "start": 456.37,
+        "duration": 5.16
+    },
+    {
+        "text": "we just used the Euler characteristic to",
+        "start": 461.53,
+        "duration": 1.38
+    },
+    {
+        "text": "show that a standard soccer ball tiling",
+        "start": 462.91,
+        "duration": 1.62
+    },
+    {
+        "text": "has to have 12 pentagons and 20",
+        "start": 464.53,
+        "duration": 1.8
+    },
+    {
+        "text": "hexagons. \n- (It would have been quicker just)",
+        "start": 466.33,
+        "duration": 2.46
+    },
+    {
+        "text": "(to count them wouldn't it?)\n- Yeah that's true but we've",
+        "start": 468.79,
+        "duration": 4.47
+    },
+    {
+        "text": "shown that it has to be true.",
+        "start": 473.26,
+        "duration": 1.71
+    },
+    {
+        "text": "...they are in black;\nand 20 hexagon faces, there they",
+        "start": 476.19,
+        "duration": 5.02
+    },
+    {
+        "text": "are in white and they fit together. And",
+        "start": 481.21,
+        "duration": 1.83
+    },
+    {
+        "text": "this is your traditional football.",
+        "start": 483.04,
+        "duration": 4.52
+    }
+]

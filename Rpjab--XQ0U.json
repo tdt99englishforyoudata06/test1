@@ -1,0 +1,1147 @@
+[
+    {
+        "text": "We're",
+        "start": 6.24,
+        "duration": 0.88
+    },
+    {
+        "text": "looking for the, the",
+        "start": 7.12,
+        "duration": 2.0
+    },
+    {
+        "text": "math",
+        "start": 9.44,
+        "duration": 0.88
+    },
+    {
+        "text": "for the graphic design for the for the next ICM,",
+        "start": 10.32,
+        "duration": 2.64
+    },
+    {
+        "text": "there were tried many ideas, and I was personally very inspired by the work of El Lissitzky with his three-dimensional",
+        "start": 13.04,
+        "duration": 6.179
+    },
+    {
+        "text": "object, curved object. A lot of interesting geometry.",
+        "start": 19.76,
+        "duration": 2.479
+    },
+    {
+        "text": "But what eventually was selected is more inspired by Kazimir Malevich and his very simple shapes, namely squares,",
+        "start": 22.32,
+        "duration": 7.459
+    },
+    {
+        "text": "solid colours. So, uh, it took me a while to warm up to this ideas,",
+        "start": 30.32,
+        "duration": 4.079
+    },
+    {
+        "text": "but then I realised there's some cool math about squares too. So I'm going to talk about one today. Particularly about square tilings.",
+        "start": 34.399,
+        "duration": 6.0
+    },
+    {
+        "text": "So, like, for example here you've uh - here you can tile the whole, uh, plane with just two kinds of squares.",
+        "start": 40.48,
+        "duration": 5.439
+    },
+    {
+        "text": "So this is, maybe imagine this two squares and if I just periodically repeat it",
+        "start": 45.92,
+        "duration": 3.92
+    },
+    {
+        "text": "this is going to tile the whole, the whole plane.",
+        "start": 50.079,
+        "duration": 2.0
+    },
+    {
+        "text": "This is the simplest tiling you can make out of squares which is not all equal, and it illustrates something with the Pythagorean theorem.",
+        "start": 52.16,
+        "duration": 6.639
+    },
+    {
+        "text": "So the way it works is that - think about so you can either - so",
+        "start": 58.8,
+        "duration": 3.759
+    },
+    {
+        "text": "you can you can hit, take this figure and uh",
+        "start": 63.28,
+        "duration": 2.48
+    },
+    {
+        "text": "maybe, maybe anchor it this, at this red dot and so then we move it,",
+        "start": 66.64,
+        "duration": 4.08
+    },
+    {
+        "text": "we can be, you can anchor all the other red dots here in this picture. But if you connect all this red dots,",
+        "start": 70.96,
+        "duration": 5.839
+    },
+    {
+        "text": "let's try my best,",
+        "start": 77.84,
+        "duration": 2.0
+    },
+    {
+        "text": "and so then this is - that should have been a square, I did this",
+        "start": 80.08,
+        "duration": 2.559
+    },
+    {
+        "text": "You can imagine it's a square! And, and so what this illustrates that you can,",
+        "start": 83.68,
+        "duration": 3.759
+    },
+    {
+        "text": "you can either tile the plane with this.",
+        "start": 88.0,
+        "duration": 2.159
+    },
+    {
+        "text": "With these two square or with this one square repeated. And so it has to be the case that the area of these two squares,",
+        "start": 90.479,
+        "duration": 5.68
+    },
+    {
+        "text": "equals to the area of this big square.",
+        "start": 96.56,
+        "duration": 2.0
+    },
+    {
+        "text": "And so this is really Pythagorean theorem because to, to see this you can, you can think that this piece is the same as -",
+        "start": 98.72,
+        "duration": 6.239
+    },
+    {
+        "text": "so if you, you want to take this two squares and move it to inside the yellow square, then this piece will go here,",
+        "start": 105.28,
+        "duration": 6.159
+    },
+    {
+        "text": "that piece",
+        "start": 112.479,
+        "duration": 2.0
+    },
+    {
+        "text": "will go there, and maybe this piece will go over there. And so this illustrates that out of these pieces",
+        "start": 115.2,
+        "duration": 5.76
+    },
+    {
+        "text": "you can construct either one big square or two small squares, and that's the a squared plus b squared equals c squared.",
+        "start": 121.04,
+        "duration": 5.919
+    },
+    {
+        "text": "So that's a, that's a nice illustration.",
+        "start": 126.96,
+        "duration": 1.76
+    },
+    {
+        "text": "(Brady: And this overall tiling is the simplest tiling you can do because - other than just squares?)\n- Just - other than just square grid",
+        "start": 128.72,
+        "duration": 6.319
+    },
+    {
+        "text": "yeah, that's the simplest one. \n- (Brady: Those two different sizes)",
+        "start": 135.04,
+        "duration": 3.059
+    },
+    {
+        "text": "(is there anything interesting about their proportion to each other?)",
+        "start": 139.04,
+        "duration": 2.559
+    },
+    {
+        "text": "No,",
+        "start": 141.599,
+        "duration": 0.161
+    },
+    {
+        "text": "they can be arbitrary. So this,",
+        "start": 141.76,
+        "duration": 1.6
+    },
+    {
+        "text": "because they in, in, in a squared plus b square plus equals c squared you can choose a and b,",
+        "start": 143.36,
+        "duration": 4.72
+    },
+    {
+        "text": "arbitrary, right? \n- (Brady: And same with the tiling then? It could be a giant square and a small square?)\n-  Exactly what changes in the video",
+        "start": 148.7,
+        "duration": 5.22
+    },
+    {
+        "text": "is that the size of the smaller square changes. And so they all - the tiling starts, starts kind of waltzing around.",
+        "start": 153.92,
+        "duration": 6.16
+    },
+    {
+        "text": "There's something really neat math involved about how you generally think about,",
+        "start": 162.0,
+        "duration": 3.519
+    },
+    {
+        "text": "about square tilings, and so maybe I'll explain it here.",
+        "start": 166.08,
+        "duration": 2.559
+    },
+    {
+        "text": "So this is a tiling, so it's a piece of a tiling of a plane by squares. We're going to represent it like this,",
+        "start": 168.8,
+        "duration": 5.119
+    },
+    {
+        "text": "there's a lot of notation here. I'll explain it in steps.",
+        "start": 173.92,
+        "duration": 2.8
+    },
+    {
+        "text": "So, so what we see here is our squares and squares are numbered 1 through 15,",
+        "start": 176.8,
+        "duration": 5.119
+    },
+    {
+        "text": "so this is numbered in white. And then there are horizontal lines and I - in the horizontal lines if it,",
+        "start": 182.319,
+        "duration": 5.6
+    },
+    {
+        "text": "if it, if several squares share the same horizontal lin I consider it as one horizontal line. I drew them in red and I",
+        "start": 188.159,
+        "duration": 6.24
+    },
+    {
+        "text": "labelled them from the beginning of the alphabet.",
+        "start": 194.64,
+        "duration": 1.92
+    },
+    {
+        "text": "So this is A, then this is B, this line is C and so forth, up to down to H. And there are vertical lines.",
+        "start": 196.56,
+        "duration": 6.559
+    },
+    {
+        "text": "The same thing which just, if some squares",
+        "start": 203.44,
+        "duration": 2.479
+    },
+    {
+        "text": "share the same vertical line I consider it as one line and I labelled it from the end of the alphabet.",
+        "start": 206.239,
+        "duration": 4.96
+    },
+    {
+        "text": "So this line is Z, this is Y, this is X, W, V, and U.",
+        "start": 211.2,
+        "duration": 4.559
+    },
+    {
+        "text": "And so now we want to represent this picture as a graph, and what will be in the graph?",
+        "start": 216.08,
+        "duration": 3.839
+    },
+    {
+        "text": "Here, now you can make a choice and the fact that you can",
+        "start": 220.08,
+        "duration": 2.239
+    },
+    {
+        "text": "make one choice or the other choice will be interesting later. So but now we will choose -",
+        "start": 223.04,
+        "duration": 3.68
+    },
+    {
+        "text": "(Brady: One quick question.)",
+        "start": 227.44,
+        "duration": 2.0
+    },
+    {
+        "text": "(Where, where did this tiling come from? Like - )\n- No, this is just - I just imagined. You -",
+        "start": 229.68,
+        "duration": 3.839
+    },
+    {
+        "text": "(Brady: You just made up lines?)\n- Exactly, exactly. I just made it up.",
+        "start": 233.519,
+        "duration": 2.781
+    },
+    {
+        "text": "- (Brady: This wasn't a special thing?)\n- No. No. No just a random one.",
+        "start": 236.3,
+        "duration": 2.0
+    },
+    {
+        "text": "Just a random one. And so now we're going to think, now we're going to",
+        "start": 238.4,
+        "duration": 3.36
+    },
+    {
+        "text": "discuss how you think about tilings in general,",
+        "start": 242.879,
+        "duration": 2.16
+    },
+    {
+        "text": "so in particular you'll see how you can generate a random tiling or some - something more interesting than this.",
+        "start": 245.12,
+        "duration": 4.319
+    },
+    {
+        "text": "And so, graph is the graph in the plane. It's a bunch of vertices connected by a bunch of edges.",
+        "start": 249.92,
+        "duration": 5.839
+    },
+    {
+        "text": "And since it's in the plane, it also has these faces. So this is like a face here.",
+        "start": 256.0,
+        "duration": 3.6
+    },
+    {
+        "text": "And so what will be the vertices? The vertices will be the red lines.",
+        "start": 259.68,
+        "duration": 2.88
+    },
+    {
+        "text": "Actually,",
+        "start": 263.759,
+        "duration": 1.841
+    },
+    {
+        "text": "in New York City, A is blue and it's also a line with subway, but",
+        "start": 265.6,
+        "duration": 3.679
+    },
+    {
+        "text": "anyway.",
+        "start": 270.56,
+        "duration": 1.44
+    },
+    {
+        "text": "This didn't work out. So the red lines will be the vertices,",
+        "start": 272.0,
+        "duration": 2.639
+    },
+    {
+        "text": "so this is A and I put it in the - at the same height as A here.",
+        "start": 274.8,
+        "duration": 3.52
+    },
+    {
+        "text": "So then, then there's B, C, D and so forth. And what are the edges? The edges is when the square,",
+        "start": 278.32,
+        "duration": 6.159
+    },
+    {
+        "text": "say square five, and it has a line at the top and a line the bottom.",
+        "start": 284.8,
+        "duration": 3.76
+    },
+    {
+        "text": "So here the five is between A and C, and so five is this H here that connects A to C.",
+        "start": 288.639,
+        "duration": 5.119
+    },
+    {
+        "text": "And so maybe this square 7",
+        "start": 294.8,
+        "duration": 2.0
+    },
+    {
+        "text": "this is, goes between C and F and so here's this H7, C and F.",
+        "start": 296.96,
+        "duration": 4.72
+    },
+    {
+        "text": "So the, the vertices are the horizontal lines, the squares are the edges,",
+        "start": 302.24,
+        "duration": 5.2
+    },
+    {
+        "text": "and then the,",
+        "start": 308.0,
+        "duration": 1.36
+    },
+    {
+        "text": "the vertical lines, they are the faces. Like,",
+        "start": 309.36,
+        "duration": 2.32
+    },
+    {
+        "text": "like look here. So there's a vertical line. It's surrounded by squares 7, 11, 8, and 12.",
+        "start": 312.32,
+        "duration": 5.519
+    },
+    {
+        "text": "So we'll look at this X here. 7 and 11. There are 7 and 11 here.",
+        "start": 317.919,
+        "duration": 4.16
+    },
+    {
+        "text": "And 8 and 12 they're on this, on the other side of this vertical line. And now the most important thing,",
+        "start": 322.639,
+        "duration": 4.88
+    },
+    {
+        "text": "how do you remember the actual size and positions of the squares if you look at this graph?",
+        "start": 327.68,
+        "duration": 5.279
+    },
+    {
+        "text": "(Brady: By the way, everyone I did try to get the Professor to use brown paper, but",
+        "start": 333.36,
+        "duration": 4.72
+    },
+    {
+        "text": "he won a fields metal - he gets to do what he wants.)",
+        "start": 338.8,
+        "duration": 2.0
+    },
+    {
+        "text": "The main thing is that we have to record, to record the actual shape of this picture and we need to know",
+        "start": 341.44,
+        "duration": 5.759
+    },
+    {
+        "text": "what is the height?",
+        "start": 347.6,
+        "duration": 2.0
+    },
+    {
+        "text": "What is the horizontal, what's the height of each, of each horizontal line? So we need to - there will be some equation on.",
+        "start": 349.6,
+        "duration": 6.64
+    },
+    {
+        "text": "So we need to know",
+        "start": 356.82,
+        "duration": 2.0
+    },
+    {
+        "text": "the height of each - like for example the height of each C. It's just the vertical coordinate of this horizontal line.",
+        "start": 359.0,
+        "duration": 4.88
+    },
+    {
+        "text": "If I know this vertical coordinate, we know we know, this, this whole picture. And what is the equation on this, on this height?",
+        "start": 364.0,
+        "duration": 6.4
+    },
+    {
+        "text": "If I look at the, at the length from here to here,",
+        "start": 370.4,
+        "duration": 3.44
+    },
+    {
+        "text": "it's, on the one hand, is the size of this square - of the square 4 - plus the size of the square 5.",
+        "start": 374.639,
+        "duration": 6.0
+    },
+    {
+        "text": "And on the other hand the size of the square 7 plus the size of the square 8.",
+        "start": 381.039,
+        "duration": 4.08
+    },
+    {
+        "text": "So the equation is the size of 4 plus the size 5, that is equal the size",
+        "start": 385.6,
+        "duration": 5.599
+    },
+    {
+        "text": "of 7 plus the size of 8. But those sizes, what are they?",
+        "start": 391.52,
+        "duration": 4.16
+    },
+    {
+        "text": "So the size of the square 5 is the difference between the height of the,",
+        "start": 395.84,
+        "duration": 4.079
+    },
+    {
+        "text": "of the line A and the height of the line C.",
+        "start": 400.479,
+        "duration": 2.64
+    },
+    {
+        "text": "So we get the height",
+        "start": 403.68,
+        "duration": 2.0
+    },
+    {
+        "text": "of A",
+        "start": 405.68,
+        "duration": 2.0
+    },
+    {
+        "text": "minus the height of C,",
+        "start": 407.759,
+        "duration": 2.0
+    },
+    {
+        "text": "plus the same now for five so the height of B,",
+        "start": 410.24,
+        "duration": 2.64
+    },
+    {
+        "text": "plu- minus, ah, this is when the ban on paper is good!",
+        "start": 415.039,
+        "duration": 4.861
+    },
+    {
+        "text": "Minus the height of C.",
+        "start": 421.34,
+        "duration": 2.179
+    },
+    {
+        "text": "And that is equal to the height of C",
+        "start": 424.8,
+        "duration": 3.36
+    },
+    {
+        "text": "minus the height of, so now this, this F plus the height of C minus the height of, so the other thing is D.",
+        "start": 428.56,
+        "duration": 7.679
+    },
+    {
+        "text": "And so when we rewrite this we get that the height of C",
+        "start": 436.56,
+        "duration": 3.44
+    },
+    {
+        "text": "is one quarter",
+        "start": 441.199,
+        "duration": 1.601
+    },
+    {
+        "text": "of the height of the sum of heights of all its neighbours. \n- (Brady: Where did that come from Professor? Is that, that just - )\n- That's just, just",
+        "start": 442.8,
+        "duration": 4.48
+    },
+    {
+        "text": "rearranging this, thar's just rearranging this equality. So the equality, the equality that this, the - what comes from the,",
+        "start": 448.06,
+        "duration": 6.179
+    },
+    {
+        "text": "the sizes of squares that come from the top, add up to the same amount as the sizes of square that come from the bottom.",
+        "start": 454.8,
+        "duration": 5.76
+    },
+    {
+        "text": "That becomes the equation that the height, the height of this line is the average of the height of these four lines.",
+        "start": 460.88,
+        "duration": 5.919
+    },
+    {
+        "text": "Or if you look at this graph, the value of the function at this vertex is the average",
+        "start": 467.12,
+        "duration": 4.559
+    },
+    {
+        "text": "of the value of this function and all of its neighbours.",
+        "start": 472.08,
+        "duration": 2.239
+    },
+    {
+        "text": "So that is, that is called -",
+        "start": 475.28,
+        "duration": 2.0
+    },
+    {
+        "text": "such a function is called harmonic. This is this a very important notion in math. The result of this discussion",
+        "start": 477.28,
+        "duration": 5.44
+    },
+    {
+        "text": "is that a square tiling is is a graph on the plane",
+        "start": 482.8,
+        "duration": 3.44
+    },
+    {
+        "text": "together with a harmonic function on this graph. A harmonic function is, is the one that",
+        "start": 486.72,
+        "duration": 4.239
+    },
+    {
+        "text": "the value of it at each vertex, like the value here,",
+        "start": 491.28,
+        "duration": 3.039
+    },
+    {
+        "text": "should be the average of the of the value of all of its neighbours. It's like it's like if you think of uh,",
+        "start": 494.639,
+        "duration": 5.04
+    },
+    {
+        "text": "maybe people think of uh, some social analogy",
+        "start": 500.4,
+        "duration": 2.479
+    },
+    {
+        "text": "of when the the society maybe, there's a harmony in society if what the person",
+        "start": 502.96,
+        "duration": 5.839
+    },
+    {
+        "text": "has is the average of all the - \n[laughs]",
+        "start": 509.68,
+        "duration": 2.4
+    },
+    {
+        "text": "all the people he's uh, he's connected with and then maybe the society is in harmony? Or, anyways,",
+        "start": 513.2,
+        "duration": 5.199
+    },
+    {
+        "text": "harmonic functions are very important in um in everything that has to do with two dimensions.",
+        "start": 518.479,
+        "duration": 4.88
+    },
+    {
+        "text": "So like like, uh, any kind of mathematical physics that has to do with two dimensions, they're important in in",
+        "start": 523.44,
+        "duration": 5.519
+    },
+    {
+        "text": "electromagnetism and fluid mechanics and in all,",
+        "start": 529.58,
+        "duration": 2.5
+    },
+    {
+        "text": "all, they also just - so harmonic functions you can study in the discrete situation like here,",
+        "start": 533.519,
+        "duration": 5.36
+    },
+    {
+        "text": "so it's a kind of a graph and a, and, and something and a function on the vertices of the graph.",
+        "start": 538.88,
+        "duration": 4.479
+    },
+    {
+        "text": "Or you can study in the continuum. So maybe the continuum we'll do on the brown paper. Before we go there",
+        "start": 543.6,
+        "duration": 4.64
+    },
+    {
+        "text": "there is a, there's a very important notion of",
+        "start": 548.32,
+        "duration": 2.479
+    },
+    {
+        "text": "of which is illustrated in this picture. There's a very nice notion of if you have a graph in the plane",
+        "start": 551.44,
+        "duration": 4.559
+    },
+    {
+        "text": "then there's a notion of a dual graph.",
+        "start": 556.16,
+        "duration": 2.0
+    },
+    {
+        "text": "And if you have a harmonic function, then there is a notion of a conjugate harmonic function,",
+        "start": 558.32,
+        "duration": 4.239
+    },
+    {
+        "text": "maybe we'll explain and we'll explain with this picture. And so what is the dual graph? Here we made the choice.",
+        "start": 562.56,
+        "duration": 5.679
+    },
+    {
+        "text": "We made a choice, we decided the vertices of the graph are the horizontal lines",
+        "start": 568.56,
+        "duration": 4.0
+    },
+    {
+        "text": "and",
+        "start": 573.36,
+        "duration": 0.8
+    },
+    {
+        "text": "edges are the squares and the faces are the, are the vertical line.",
+        "start": 574.16,
+        "duration": 4.0
+    },
+    {
+        "text": "But of course this, the picture is completely symmetric between the horizontal and the vertical if I just look sideways,",
+        "start": 578.64,
+        "duration": 5.119
+    },
+    {
+        "text": "what was horizontal then becomes vertical. And so in this picture in terms of graph, that",
+        "start": 583.76,
+        "duration": 4.479
+    },
+    {
+        "text": "means the following duality for graphs. If you have a graph in the plane",
+        "start": 588.399,
+        "duration": 3.04
+    },
+    {
+        "text": "then you can, you can introduce a newer graph called dual. The vertices of the dual graph are the faces of your original graph,",
+        "start": 591.92,
+        "duration": 6.16
+    },
+    {
+        "text": "that would be the vertex of the dual graph and will be another vertex of the dual graph. And they're connected by",
+        "start": 598.24,
+        "duration": 4.88
+    },
+    {
+        "text": "an edge if these two faces were sharing an edge to begin with. Here's an example.",
+        "start": 603.36,
+        "duration": 4.0
+    },
+    {
+        "text": "So what was a face before becomes a vertex, what was an edge stays an edge,",
+        "start": 607.68,
+        "duration": 5.76
+    },
+    {
+        "text": "and what was a vertex now becomes a face.",
+        "start": 613.76,
+        "duration": 2.719
+    },
+    {
+        "text": "So this, see this is going around the face. And if you had the harmonic function on the graph",
+        "start": 616.48,
+        "duration": 4.4
+    },
+    {
+        "text": "then there's a related function on the dual graph, called the conjugate harmonic, which in this case is just the - so this is again",
+        "start": 621.12,
+        "duration": 6.159
+    },
+    {
+        "text": "very simple to explain. Instead of recording the height of the horizontal lines you record the",
+        "start": 627.36,
+        "duration": 4.479
+    },
+    {
+        "text": "x-coordinates of the vertical lines. That will be your your conjugate harmonic. So say this is the edge number seven,",
+        "start": 632.38,
+        "duration": 5.38
+    },
+    {
+        "text": "so it's the one at here. And since this is a square",
+        "start": 637.76,
+        "duration": 2.88
+    },
+    {
+        "text": "what we have here is that the change of the function, of the height function between these two vertices,",
+        "start": 641.36,
+        "duration": 4.34
+    },
+    {
+        "text": "equal to the change of the height function between the dual vertices because that was a square. And that's the general definition of uh -",
+        "start": 646.16,
+        "duration": 6.16
+    },
+    {
+        "text": "well, maybe we'll do the rest on the brown paper.",
+        "start": 652.72,
+        "duration": 2.239
+    },
+    {
+        "text": "(Brady: So Professor, if I, if I got out a ruler and measured all the distances of everything here, like)",
+        "start": 655.279,
+        "duration": 5.52
+    },
+    {
+        "text": "(you know to the to the millimeter, you're saying - and I could feed them into these equations - )",
+        "start": 660.8,
+        "duration": 4.64
+    },
+    {
+        "text": "Yeah, that's exactly yeah, that'll be exactly the -",
+        "start": 665.6,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: So, is basically what you've done here is you did a tiling and then you've just shown me other ways to represent it?)",
+        "start": 668.5,
+        "duration": 7.0
+    },
+    {
+        "text": "Right, but it's it's the - it's - in reality it's the other way. There's a, they're very, they have, you can write an interesting graph",
+        "start": 675.5,
+        "duration": 5.859
+    },
+    {
+        "text": "and then you, there'll be uh, there'll be;",
+        "start": 681.92,
+        "duration": 2.479
+    },
+    {
+        "text": "so then, then, then you can study harmonic functions on this graph.",
+        "start": 685.04,
+        "duration": 2.799
+    },
+    {
+        "text": "And harmonic functions on the graph, if you if you're trying to tile a whole plane",
+        "start": 688.0,
+        "duration": 3.44
+    },
+    {
+        "text": "you can imagine that the very, very large distances - that your graph",
+        "start": 691.76,
+        "duration": 3.279
+    },
+    {
+        "text": "may look something like, well like a plane. And so your function will look some - you know,",
+        "start": 695.44,
+        "duration": 3.919
+    },
+    {
+        "text": "maybe some continuous harmonic function in the, at the infinity.",
+        "start": 699.519,
+        "duration": 2.88
+    },
+    {
+        "text": "So this this relates to uh, it relates to the notions of continuous harmonic function,",
+        "start": 702.48,
+        "duration": 4.479
+    },
+    {
+        "text": "which I will discuss on the brown paper in a second. And so this is, this is, this is a fun -",
+        "start": 706.959,
+        "duration": 4.72
+    },
+    {
+        "text": "this is a fun combinatorial geometric way to think about harmonic functions. Also a way to parameterise the,",
+        "start": 712.24,
+        "duration": 4.799
+    },
+    {
+        "text": "parameterise the square tilings by harmonic functions.",
+        "start": 717.74,
+        "duration": 2.099
+    },
+    {
+        "text": "(Brady: So do people who are trying to come up with tilings - because sometimes you'll see)",
+        "start": 720.079,
+        "duration": 3.36
+    },
+    {
+        "text": "(oh someone's come up with a clever new tiling. Are they using - )\n- Yeah of course, this is very classical.",
+        "start": 723.519,
+        "duration": 5.2
+    },
+    {
+        "text": "This is, this is, this is very classical. This was known to mathematicians for the longest time.",
+        "start": 728.72,
+        "duration": 4.4
+    },
+    {
+        "text": "There's a lot of very serious mathematics goes into figuring out how,",
+        "start": 733.44,
+        "duration": 3.76
+    },
+    {
+        "text": "if you study some discrete structures some - like such as a square tiling. If - or some maybe some other",
+        "start": 737.839,
+        "duration": 6.0
+    },
+    {
+        "text": "combinatorial random structure which are discrete. And uh, how in a very large distance on a very large scale",
+        "start": 744.38,
+        "duration": 5.699
+    },
+    {
+        "text": "they will, they will uh",
+        "start": 750.079,
+        "duration": 1.841
+    },
+    {
+        "text": "they will behave as something we know from the continuum. From - the harmonic functions were first introduced in the continuum and they decided,",
+        "start": 751.92,
+        "duration": 6.239
+    },
+    {
+        "text": "in like electrostatics,",
+        "start": 758.24,
+        "duration": 1.339
+    },
+    {
+        "text": "electrostatic potential is an example of harmonic function - people people studied it for, for what it is.",
+        "start": 759.579,
+        "duration": 4.66
+    },
+    {
+        "text": "It's very interesting how this large scale continuous thing emerged from,",
+        "start": 764.56,
+        "duration": 3.919
+    },
+    {
+        "text": "from small",
+        "start": 769.12,
+        "duration": 1.519
+    },
+    {
+        "text": "scale discrete combinatorial things. And that is, and that is actually relates to,",
+        "start": 770.639,
+        "duration": 4.64
+    },
+    {
+        "text": "to some um, to some very concrete problems in mathematical physics. One, one thing mathematical physics",
+        "start": 775.76,
+        "duration": 5.519
+    },
+    {
+        "text": "try to do is try to connect different scales. Like for example, we know that solids or liquids,",
+        "start": 781.36,
+        "duration": 6.0
+    },
+    {
+        "text": "both of them are are really discrete in microscopic scale. So there's something really something happens on the microscopic scale. At the large scale",
+        "start": 787.6,
+        "duration": 6.479
+    },
+    {
+        "text": "we see, we see equations of say elasticity of hydrodynamics or other equations of continuous mathematical physics,",
+        "start": 794.16,
+        "duration": 6.4
+    },
+    {
+        "text": "and it's a challenge sometimes. Sometimes an easy,",
+        "start": 800.639,
+        "duration": 2.24
+    },
+    {
+        "text": "sometimes very hard one for mathematicians to, starting from microscopic description, justify the the macroscopic behaviour. And one thing which is really",
+        "start": 802.88,
+        "duration": 7.44
+    },
+    {
+        "text": "which really helps if you can somehow reduce your microscopic problem to a problem about, say, harmonic functions.",
+        "start": 810.639,
+        "duration": 6.32
+    },
+    {
+        "text": "Because harmonic functions, they have a really nice -",
+        "start": 817.2,
+        "duration": 2.239
+    },
+    {
+        "text": "so if you have harmonic functions on graphs and the graphs are,",
+        "start": 819.6,
+        "duration": 2.72
+    },
+    {
+        "text": "and the graph kind of approximates something continues by making, becoming denser and denser. Then, then, you know",
+        "start": 822.8,
+        "duration": 5.599
+    },
+    {
+        "text": "the harmonic function, discrete one, will converge to a harmonic function the continuous one. Now suppose you have a continuous harmonic function.",
+        "start": 828.399,
+        "duration": 6.16
+    },
+    {
+        "text": "And so we have a function of of two variables, some function f of x,y and why's it called harmonic?",
+        "start": 834.639,
+        "duration": 5.84
+    },
+    {
+        "text": "What's the continuous analog of the property we discussed? That the value of the function at any point is actually the average",
+        "start": 840.56,
+        "duration": 6.079
+    },
+    {
+        "text": "of its value over all of its, maybe some distance neighbours. Or if you can,",
+        "start": 846.8,
+        "duration": 4.32
+    },
+    {
+        "text": "in fact average over the disk. If I take the value at any point (x,y) this is equal to the average of f",
+        "start": 851.6,
+        "duration": 6.479
+    },
+    {
+        "text": "over this whole disk.",
+        "start": 858.32,
+        "duration": 2.0
+    },
+    {
+        "text": "That's the continuous version. And the, the basic property about",
+        "start": 861.12,
+        "duration": 3.119
+    },
+    {
+        "text": "harmonic functions in math - it's something you prove in complex analysis - that in fact they come in pairs. They come in pairs",
+        "start": 864.8,
+        "duration": 6.0
+    },
+    {
+        "text": "as the real and imaginary part of, in fact a complex function. Like for example",
+        "start": 871.68,
+        "duration": 4.0
+    },
+    {
+        "text": "if I take the function of the form x plus i which is, i is the square root of of minus one.",
+        "start": 875.76,
+        "duration": 5.199
+    },
+    {
+        "text": "So this is the square root of minus 1.",
+        "start": 881.04,
+        "duration": 2.239
+    },
+    {
+        "text": "x plus i y",
+        "start": 884.16,
+        "duration": 1.76
+    },
+    {
+        "text": "I square it.",
+        "start": 885.92,
+        "duration": 1.919
+    },
+    {
+        "text": "And then then by the law of algebras I'm going to get",
+        "start": 887.839,
+        "duration": 2.96
+    },
+    {
+        "text": "x squared",
+        "start": 891.44,
+        "duration": 1.6
+    },
+    {
+        "text": "minus y squared. This is, this is the real part.",
+        "start": 893.04,
+        "duration": 2.799
+    },
+    {
+        "text": "Plus this i times 2xy. And so now",
+        "start": 896.0,
+        "duration": 4.32
+    },
+    {
+        "text": "it's a theorem, though not very easy to prove, that both of these things are harmonic and moreover",
+        "start": 900.72,
+        "duration": 4.4
+    },
+    {
+        "text": "they're conjugate in exactly the same sense as we discussed this with the graph. The level set of these functions,",
+        "start": 905.44,
+        "duration": 5.44
+    },
+    {
+        "text": "this is my function f and this is my function g, and what are the level sets of g? The level sets of g,",
+        "start": 910.88,
+        "duration": 5.919
+    },
+    {
+        "text": "they're hyperbolas like that. So this is, this is the level sets of g.",
+        "start": 916.88,
+        "duration": 3.599
+    },
+    {
+        "text": "This is where (x,y) equals a constant. And what are the level sets of f? The level sets of f,",
+        "start": 921.199,
+        "duration": 4.88
+    },
+    {
+        "text": "they're, they go exactly perpendicular.",
+        "start": 926.639,
+        "duration": 2.0
+    },
+    {
+        "text": "And so then if I look at the, at the gradient, the gradient is something which goes perpendicular to the level set.",
+        "start": 930.48,
+        "duration": 4.96
+    },
+    {
+        "text": "So maybe this is the gradient of g.",
+        "start": 935.44,
+        "duration": 2.0
+    },
+    {
+        "text": "And this is the gradient of f. They're exactly different so - but this I, this I messed up.",
+        "start": 937.92,
+        "duration": 4.96
+    },
+    {
+        "text": "This is supposed to be exactly the same size and they're perpendicular.",
+        "start": 942.88,
+        "duration": 2.739
+    },
+    {
+        "text": "This is a continuous version,",
+        "start": 946.639,
+        "duration": 1.361
+    },
+    {
+        "text": "what we had here is the discrete. Here in the discrete the two conjugate functions where the heights of the",
+        "start": 948.0,
+        "duration": 4.88
+    },
+    {
+        "text": "horizontal lines and the x-coordinate of the vertical lines, This function changes",
+        "start": 953.1,
+        "duration": 3.7
+    },
+    {
+        "text": "vertically by a certain amount, and the other function changes horizontally by exactly the same amount so the gradients go exactly perpendicular.",
+        "start": 957.1,
+        "duration": 6.02
+    },
+    {
+        "text": "So that's a discrete version of that, of that phenomenon over there.",
+        "start": 963.199,
+        "duration": 3.2
+    },
+    {
+        "text": "[Preview of more videos] Let's imagine a game with the following rules:",
+        "start": 966.959,
+        "duration": 2.08
+    },
+    {
+        "text": "we start with two",
+        "start": 969.6,
+        "duration": 1.52
+    },
+    {
+        "text": "numbers, the sum of these numbers will be more than 50 trillion. Great mathematical accomplishment, you really",
+        "start": 971.12,
+        "duration": 6.0
+    },
+    {
+        "text": "do things that you would not believe yourself are possible. And you have to find it within you. \n- No, I did not get it right",
+        "start": 977.839,
+        "duration": 5.961
+    },
+    {
+        "text": "(Brady: How do you feel about that?)\n- I uh",
+        "start": 983.8,
+        "duration": 1.88
+    },
+    {
+        "text": "Well, you know you win some you lose some.",
+        "start": 986.399,
+        "duration": 2.0
+    },
+    {
+        "text": "Ah!",
+        "start": 988.72,
+        "duration": 1.119
+    },
+    {
+        "text": "Did I make a big blunder?",
+        "start": 989.839,
+        "duration": 2.0
+    },
+    {
+        "text": "Turns out he did not realise.",
+        "start": 993.12,
+        "duration": 2.0
+    }
+]

@@ -1,0 +1,257 @@
+[
+    {
+        "text": "Ultrasound is one of the most common tools",
+        "start": 1.1,
+        "duration": 2.16
+    },
+    {
+        "text": "used to survey the human body.",
+        "start": 3.26,
+        "duration": 2.3
+    },
+    {
+        "text": "By emitting high frequency tones",
+        "start": 5.56,
+        "duration": 1.88
+    },
+    {
+        "text": "and recording the echoes,",
+        "start": 7.44,
+        "duration": 1.66
+    },
+    {
+        "text": "the reflected sounds combine to",
+        "start": 9.1,
+        "duration": 1.64
+    },
+    {
+        "text": "form an image that is both easy to read",
+        "start": 10.74,
+        "duration": 2.2
+    },
+    {
+        "text": "and much safer than other forms of medical imaging.",
+        "start": 12.94,
+        "duration": 3.78
+    },
+    {
+        "text": "3D ultrasound is a recent development",
+        "start": 16.72,
+        "duration": 2.18
+    },
+    {
+        "text": "in medical technology,",
+        "start": 18.9,
+        "duration": 1.48
+    },
+    {
+        "text": "allowing doctors to observe babies",
+        "start": 20.38,
+        "duration": 1.92
+    },
+    {
+        "text": "and hearts from all directions,",
+        "start": 22.3,
+        "duration": 1.84
+    },
+    {
+        "text": "and more accurately diagnose patients.",
+        "start": 24.14,
+        "duration": 2.9
+    },
+    {
+        "text": "However, like many new technologies,",
+        "start": 27.04,
+        "duration": 2.7
+    },
+    {
+        "text": "there is a complexity, and cost to 3D ultrasound.",
+        "start": 29.74,
+        "duration": 4.22
+    },
+    {
+        "text": "Because ultrasound relies on tiny, low-volume echoes,",
+        "start": 33.96,
+        "duration": 3.22
+    },
+    {
+        "text": "these imaging devices can require",
+        "start": 37.18,
+        "duration": 1.92
+    },
+    {
+        "text": "thousands of sensors to generate a detailed picture.",
+        "start": 39.1,
+        "duration": 3.56
+    },
+    {
+        "text": "Researchers have developed a new system,",
+        "start": 42.66,
+        "duration": 2.24
+    },
+    {
+        "text": "that cuts this complexity down to just one sensor.",
+        "start": 44.9,
+        "duration": 3.76
+    },
+    {
+        "text": "In order to achieve this feat, they used a technique",
+        "start": 48.66,
+        "duration": 2.58
+    },
+    {
+        "text": "called compressive sensing.",
+        "start": 51.24,
+        "duration": 1.96
+    },
+    {
+        "text": "Compressive sensing involves using mathematics",
+        "start": 53.2,
+        "duration": 2.62
+    },
+    {
+        "text": "to extrapolate the information from one data",
+        "start": 55.82,
+        "duration": 2.72
+    },
+    {
+        "text": "source into many different points.",
+        "start": 58.54,
+        "duration": 2.94
+    },
+    {
+        "text": "Most do this by using a “coded-aperture mask”",
+        "start": 61.48,
+        "duration": 2.76
+    },
+    {
+        "text": "they place over the sensor.",
+        "start": 64.24,
+        "duration": 2.18
+    },
+    {
+        "text": "Coded masks can actually be found",
+        "start": 66.42,
+        "duration": 2.26
+    },
+    {
+        "text": "in many high-tech devices, such as space telescopes.",
+        "start": 68.68,
+        "duration": 3.36
+    },
+    {
+        "text": "The prototype ultrasound mask is an irregularly shaped",
+        "start": 72.16,
+        "duration": 3.04
+    },
+    {
+        "text": "piece of plastic, with small dots of",
+        "start": 75.2,
+        "duration": 2.24
+    },
+    {
+        "text": "varying heights placed on the surface.",
+        "start": 77.44,
+        "duration": 3.15
+    },
+    {
+        "text": "When the high frequency sound waves hit the plastic,",
+        "start": 80.6,
+        "duration": 2.8
+    },
+    {
+        "text": "small delays are introduced into the audio.",
+        "start": 83.4,
+        "duration": 3.759
+    },
+    {
+        "text": "The sound is then run through a computer algorithm",
+        "start": 87.16,
+        "duration": 2.44
+    },
+    {
+        "text": "that picks out these delays",
+        "start": 89.6,
+        "duration": 1.8
+    },
+    {
+        "text": "and represents them as individual pixels.",
+        "start": 91.4,
+        "duration": 3.03
+    },
+    {
+        "text": "Because the dots are unevenly distributed",
+        "start": 94.44,
+        "duration": 2.12
+    },
+    {
+        "text": "across the surface of the cover,",
+        "start": 96.56,
+        "duration": 2.24
+    },
+    {
+        "text": "rotating the mask allows",
+        "start": 98.8,
+        "duration": 1.2
+    },
+    {
+        "text": "more measurements to be performed,",
+        "start": 100.0,
+        "duration": 1.84
+    },
+    {
+        "text": "and help resolve the object in higher detail.",
+        "start": 101.84,
+        "duration": 3.72
+    },
+    {
+        "text": "The researchers tested this by submerging",
+        "start": 105.56,
+        "duration": 2.4
+    },
+    {
+        "text": "two 3D-printed plastic letters in a small tank of water.",
+        "start": 107.96,
+        "duration": 4.04
+    },
+    {
+        "text": "When they activated the ultrasound sensor,",
+        "start": 112.0,
+        "duration": 2.32
+    },
+    {
+        "text": "the letters were able to be picked out of",
+        "start": 114.32,
+        "duration": 1.92
+    },
+    {
+        "text": "the data, and pinpointed in 3D space.",
+        "start": 116.24,
+        "duration": 3.96
+    },
+    {
+        "text": "While the sensitivity of the device is very low",
+        "start": 120.2,
+        "duration": 2.84
+    },
+    {
+        "text": "compared to current 3D imaging systems,",
+        "start": 123.04,
+        "duration": 2.76
+    },
+    {
+        "text": "the researchers believe compressive sensing",
+        "start": 125.8,
+        "duration": 2.32
+    },
+    {
+        "text": "could bring down the price of ultrasound equipment,",
+        "start": 128.12,
+        "duration": 2.52
+    },
+    {
+        "text": "and help doctors around the world.",
+        "start": 130.64,
+        "duration": 2.44
+    }
+]

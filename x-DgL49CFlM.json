@@ -1,0 +1,942 @@
+[
+    {
+        "text": "So we're going to talk about space-filling curves.",
+        "start": 0.0,
+        "duration": 1.82
+    },
+    {
+        "text": "So... already that sounds sort of, counter-intuitive, like a curve,",
+        "start": 1.82,
+        "duration": 4.38
+    },
+    {
+        "text": "is like a one, like its a very skinny one-dimensional thing but space is like...",
+        "start": 6.2,
+        "duration": 4.76
+    },
+    {
+        "text": "...two-dimensional or something so how can you have a curve?",
+        "start": 10.96,
+        "duration": 3.38
+    },
+    {
+        "text": "That fills up everything in space? So...",
+        "start": 14.34,
+        "duration": 2.28
+    },
+    {
+        "text": "We're going to build a curve starting with something very simple and then we're going to sort of change it.",
+        "start": 16.62,
+        "duration": 3.74
+    },
+    {
+        "text": "Uh, so, lets start with, this curve here.",
+        "start": 20.5,
+        "duration": 3.84
+    },
+    {
+        "text": "So this is three sides of square.",
+        "start": 24.34,
+        "duration": 1.48
+    },
+    {
+        "text": "So at the moment this is really not very, space-filling, right?",
+        "start": 25.82,
+        "duration": 2.9
+    },
+    {
+        "text": "Its just three lines, so we need to kind of make it more squiggly and we'll get there.",
+        "start": 28.72,
+        "duration": 3.88
+    },
+    {
+        "text": "So lets draw a grid, on this, so...",
+        "start": 32.6,
+        "duration": 3.68
+    },
+    {
+        "text": "Like, four squares, and so my curve is like going through the centers of those squares.",
+        "start": 36.64,
+        "duration": 5.46
+    },
+    {
+        "text": "So what we're going to do to make this, uh, red curve more squiggly...",
+        "start": 42.2,
+        "duration": 4.4
+    },
+    {
+        "text": "...is...",
+        "start": 47.06,
+        "duration": 1.06
+    },
+    {
+        "text": "...divide each of these squares into four.",
+        "start": 48.62,
+        "duration": 2.94
+    },
+    {
+        "text": "So I can chop it up...",
+        "start": 51.64,
+        "duration": 1.36
+    },
+    {
+        "text": "We wanna make a more squiggly version of this but we're going to use this same shape.",
+        "start": 53.0,
+        "duration": 4.28
+    },
+    {
+        "text": "So here's how you do it; you sort of have to rotate it a little bit to make it work so...",
+        "start": 57.28,
+        "duration": 3.98
+    },
+    {
+        "text": "There's the same shape but I've rotated it.",
+        "start": 61.74,
+        "duration": 2.88
+    },
+    {
+        "text": "And then we'll do one like that,",
+        "start": 64.66,
+        "duration": 2.08
+    },
+    {
+        "text": "another one like that,",
+        "start": 67.04,
+        "duration": 1.52
+    },
+    {
+        "text": "and one like this.",
+        "start": 68.96,
+        "duration": 1.58
+    },
+    {
+        "text": "And then, we need to connect them up, so let's,",
+        "start": 71.08,
+        "duration": 3.04
+    },
+    {
+        "text": "connect up like this,",
+        "start": 74.12,
+        "duration": 1.22
+    },
+    {
+        "text": "like this, like this.",
+        "start": 75.88,
+        "duration": 2.14
+    },
+    {
+        "text": "And you can see this is, maybe slightly more space-filling?",
+        "start": 78.3,
+        "duration": 3.58
+    },
+    {
+        "text": "Like, its getting more places than this one was,",
+        "start": 81.94,
+        "duration": 3.6
+    },
+    {
+        "text": "And its sort of made of the same stuff.",
+        "start": 85.54,
+        "duration": 2.36
+    },
+    {
+        "text": "So, well, lets do another one, why not?",
+        "start": 88.12,
+        "duration": 2.5
+    },
+    {
+        "text": "And then in each one of these squares I need to put this thing here, so let me...",
+        "start": 90.62,
+        "duration": 3.92
+    },
+    {
+        "text": "...make a...",
+        "start": 94.7,
+        "duration": 0.88
+    },
+    {
+        "text": "...a grid.",
+        "start": 96.94,
+        "duration": 0.88
+    },
+    {
+        "text": "And then I just have to turn things the right way again.",
+        "start": 99.28,
+        "duration": 2.16
+    },
+    {
+        "text": "So I wanna take this thing,",
+        "start": 101.5,
+        "duration": 1.98
+    },
+    {
+        "text": "and rotate it and put it here.",
+        "start": 103.48,
+        "duration": 1.86
+    },
+    {
+        "text": "So its gonna start like that...",
+        "start": 105.48,
+        "duration": 2.66
+    },
+    {
+        "text": "...and its gonna end like that.",
+        "start": 108.74,
+        "duration": 2.32
+    },
+    {
+        "text": "And in the middle its going to do this...",
+        "start": 111.42,
+        "duration": 1.9
+    },
+    {
+        "text": "And its gonna do this...",
+        "start": 113.66,
+        "duration": 1.6
+    },
+    {
+        "text": "And let's connect them up with red, 'cos...",
+        "start": 115.4,
+        "duration": 2.88
+    },
+    {
+        "text": "OK so we got that shape,",
+        "start": 118.74,
+        "duration": 1.62
+    },
+    {
+        "text": "and then this one over here,",
+        "start": 120.36,
+        "duration": 1.66
+    },
+    {
+        "text": "let's do this one next 'cos its easy 'cos its just, its just the reflection of this one...",
+        "start": 122.02,
+        "duration": 4.28
+    },
+    {
+        "text": "OK so connect them up, boop, boop, boop.",
+        "start": 126.3,
+        "duration": 2.42
+    },
+    {
+        "text": "And then these, I'm gonna go to this now, so this is gonna be like that...",
+        "start": 128.72,
+        "duration": 4.28
+    },
+    {
+        "text": "(whispered) Connect up, connect up, connect up.",
+        "start": 133.24,
+        "duration": 1.82
+    },
+    {
+        "text": "OK, and then again, we, connect up in the same way,",
+        "start": 135.96,
+        "duration": 3.28
+    },
+    {
+        "text": "we do across like that,",
+        "start": 139.24,
+        "duration": 1.24
+    },
+    {
+        "text": "and like that,",
+        "start": 140.64,
+        "duration": 0.96
+    },
+    {
+        "text": "and like that.",
+        "start": 141.8,
+        "duration": 0.96
+    },
+    {
+        "text": "And, we've got something that's...",
+        "start": 142.76,
+        "duration": 2.06
+    },
+    {
+        "text": "more squiggly, more, sort of, space-filling.",
+        "start": 144.82,
+        "duration": 2.1
+    },
+    {
+        "text": "And you can see how you would just, like, continue doing this.",
+        "start": 146.92,
+        "duration": 2.52
+    },
+    {
+        "text": "So, so this is the Hilbert curve.",
+        "start": 149.62,
+        "duration": 1.98
+    },
+    {
+        "text": "So this was invented by, or discovered,",
+        "start": 151.6,
+        "duration": 1.92
+    },
+    {
+        "text": "by David Hilbert in 1891.",
+        "start": 153.7,
+        "duration": 2.34
+    },
+    {
+        "text": "Really these are like steps in the construction of it.",
+        "start": 156.04,
+        "duration": 2.64
+    },
+    {
+        "text": "The Hilbert Curve is when you do this infinitely many times.",
+        "start": 158.68,
+        "duration": 2.8
+    },
+    {
+        "text": "(Brady, off camera) You're using a sharpie which has thickness to it,",
+        "start": 161.48,
+        "duration": 2.3
+    },
+    {
+        "text": "Right.",
+        "start": 163.78,
+        "duration": 0.5
+    },
+    {
+        "text": "(Brady) but surely a theoretical line has no thickness...",
+        "start": 164.28,
+        "duration": 2.7
+    },
+    {
+        "text": "Yeah, zero thickness.",
+        "start": 166.98,
+        "duration": 1.42
+    },
+    {
+        "text": "(Brady) ...So if something has zero thickness how can it fill any space?",
+        "start": 168.4,
+        "duration": 2.74
+    },
+    {
+        "text": "Well, right, every step...",
+        "start": 171.2,
+        "duration": 2.16
+    },
+    {
+        "text": "...the thing that you have has no thickness, its filling nothing,",
+        "start": 173.84,
+        "duration": 2.64
+    },
+    {
+        "text": "but somehow when you go infinitely far...",
+        "start": 176.48,
+        "duration": 2.26
+    },
+    {
+        "text": "...well actually what happens is that...",
+        "start": 178.74,
+        "duration": 1.92
+    },
+    {
+        "text": "...in a, rigorous way which, I'm not going to get into,",
+        "start": 181.2,
+        "duration": 3.6
+    },
+    {
+        "text": "but, actually what happens when you go infinitely far,",
+        "start": 184.8,
+        "duration": 2.82
+    },
+    {
+        "text": "this, curve,",
+        "start": 187.72,
+        "duration": 1.58
+    },
+    {
+        "text": "hits every point of the square.",
+        "start": 189.3,
+        "duration": 1.9
+    },
+    {
+        "text": "So somehow, at the limit, when you get infinitely far,",
+        "start": 191.2,
+        "duration": 3.34
+    },
+    {
+        "text": "boom, you've got everything.",
+        "start": 194.54,
+        "duration": 1.28
+    },
+    {
+        "text": "This construction is not just used for this sort of infinite thing, this is also...",
+        "start": 195.82,
+        "duration": 3.76
+    },
+    {
+        "text": "...um, you know, a, uh, way to, sort of pack,",
+        "start": 200.08,
+        "duration": 2.88
+    },
+    {
+        "text": "sort of two-dimensional data, in a one-dimensional order, right?",
+        "start": 202.96,
+        "duration": 3.5
+    },
+    {
+        "text": "So, s'pose you have, a bunch of two-dimensional data,",
+        "start": 206.46,
+        "duration": 3.3
+    },
+    {
+        "text": "that you need to store for some reason,",
+        "start": 209.76,
+        "duration": 1.7
+    },
+    {
+        "text": "and you need to store it in some linear order,",
+        "start": 211.46,
+        "duration": 2.32
+    },
+    {
+        "text": "but you also want this bit of data,",
+        "start": 213.88,
+        "duration": 2.24
+    },
+    {
+        "text": "and this bit of data,",
+        "start": 216.14,
+        "duration": 1.36
+    },
+    {
+        "text": "they're quite close to each other in two dimensions and you would like them to be close to each other in the ordering.",
+        "start": 217.5,
+        "duration": 4.7
+    },
+    {
+        "text": "And the Hilbert Curve kind of gives you a way of,",
+        "start": 222.2,
+        "duration": 2.5
+    },
+    {
+        "text": "uh, often two points that are close together in two dimensions are also close together in the linear order.",
+        "start": 224.7,
+        "duration": 5.38
+    },
+    {
+        "text": "Right, whereas if you did, like,",
+        "start": 230.08,
+        "duration": 1.64
+    },
+    {
+        "text": "you know, just sort of, if you just ordered it by rows,",
+        "start": 231.72,
+        "duration": 2.54
+    },
+    {
+        "text": "then that's sort of, less likely to be true.",
+        "start": 234.26,
+        "duration": 2.3
+    },
+    {
+        "text": "Anyway, so its important in, um, computer science...",
+        "start": 236.56,
+        "duration": 3.4
+    },
+    {
+        "text": "I think there's even some theories that the way DNA is packed up when its wrapped up in a chromosome is sort of like this.",
+        "start": 239.96,
+        "duration": 6.06
+    },
+    {
+        "text": "But anyway, so what I was interested in was,",
+        "start": 246.02,
+        "duration": 2.82
+    },
+    {
+        "text": "this, sequence of curves, like the sequence of polygons, how you get there.",
+        "start": 248.94,
+        "duration": 5.04
+    },
+    {
+        "text": "And so you can think of this, like as an animation,",
+        "start": 253.98,
+        "duration": 2.56
+    },
+    {
+        "text": "going from one to the next, to the next, and so on through time,",
+        "start": 256.54,
+        "duration": 3.42
+    },
+    {
+        "text": "or, you could think of this, as,",
+        "start": 260.2,
+        "duration": 2.72
+    },
+    {
+        "text": "space rather than time, so, well...",
+        "start": 263.02,
+        "duration": 2.4
+    },
+    {
+        "text": "So there we go, this is a, 3D-printed sculpture that shows this construction.",
+        "start": 265.42,
+        "duration": 4.26
+    },
+    {
+        "text": "At the very top,",
+        "start": 269.8,
+        "duration": 1.72
+    },
+    {
+        "text": "you've got the original curve,",
+        "start": 271.52,
+        "duration": 1.92
+    },
+    {
+        "text": "and then...",
+        "start": 273.82,
+        "duration": 0.8
+    },
+    {
+        "text": "Well so you can see there's like a band here, that's just a sort of, intermediate band but then the next band down,",
+        "start": 274.62,
+        "duration": 4.98
+    },
+    {
+        "text": "So two down,",
+        "start": 279.94,
+        "duration": 0.8
+    },
+    {
+        "text": "is the next step of the sequence.",
+        "start": 280.74,
+        "duration": 1.76
+    },
+    {
+        "text": "It's probably a little hard to see, but",
+        "start": 282.5,
+        "duration": 2.26
+    },
+    {
+        "text": "it starts here, and then it goes across, and then up,",
+        "start": 284.76,
+        "duration": 3.28
+    },
+    {
+        "text": "and then back,  and then it goes up...",
+        "start": 288.04,
+        "duration": 2.06
+    },
+    {
+        "text": "It does that curve that we had before.",
+        "start": 290.1,
+        "duration": 2.46
+    },
+    {
+        "text": "And then, it just keeps going down,",
+        "start": 293.0,
+        "duration": 2.18
+    },
+    {
+        "text": "so another two steps, and another two steps.",
+        "start": 295.18,
+        "duration": 2.02
+    },
+    {
+        "text": "So there's the bottom, that's, that's quite far along,",
+        "start": 297.2,
+        "duration": 3.04
+    },
+    {
+        "text": "in the, let's see how many, so the first step, second step,  third step, this is the fifth step,",
+        "start": 300.24,
+        "duration": 5.4
+    },
+    {
+        "text": "of that sequence.",
+        "start": 305.98,
+        "duration": 1.2
+    },
+    {
+        "text": "And...",
+        "start": 307.74,
+        "duration": 0.68
+    },
+    {
+        "text": "I mean,",
+        "start": 308.86,
+        "duration": 0.64
+    },
+    {
+        "text": "in principle I could just keep going, right?",
+        "start": 309.5,
+        "duration": 2.5
+    },
+    {
+        "text": "But, it gets very thin, and difficult to print.",
+        "start": 312.0,
+        "duration": 2.84
+    },
+    {
+        "text": "So this is one of many space-filling curves, or fractal curves, so...",
+        "start": 314.84,
+        "duration": 4.4
+    },
+    {
+        "text": "Uh, so there's one called the, the Dragon Curve.",
+        "start": 319.3,
+        "duration": 3.2
+    },
+    {
+        "text": "(Brady) Oh I like that one.",
+        "start": 322.5,
+        "duration": 1.12
+    },
+    {
+        "text": "Yeah, oh right you did one on this.",
+        "start": 323.62,
+        "duration": 1.68
+    },
+    {
+        "text": "(Inset video) Lots of them, way more than you can fold a bit of paper,",
+        "start": 325.3,
+        "duration": 2.78
+    },
+    {
+        "text": "you get this, rather stunning, pattern...",
+        "start": 328.2,
+        "duration": 3.1
+    },
+    {
+        "text": " ",
+        "start": 331.3,
+        "duration": 0.5
+    },
+    {
+        "text": "(Inset video) And it keeps going, but in the middle it gets very intricate.",
+        "start": 331.8,
+        "duration": 3.86
+    },
+    {
+        "text": "So how does the Dragon Curve one? So here's the first one you just have a straight line...",
+        "start": 335.66,
+        "duration": 3.34
+    },
+    {
+        "text": "...and then, the next level down, there's,",
+        "start": 339.24,
+        "duration": 2.88
+    },
+    {
+        "text": "just a, like a, right angle corner.",
+        "start": 342.12,
+        "duration": 1.82
+    },
+    {
+        "text": "And then the next one down, this, this one, every band is another step of the, the Dragon Curve sequence.",
+        "start": 343.94,
+        "duration": 5.26
+    },
+    {
+        "text": "And then at the bottom you've got your, Dragon Curve.",
+        "start": 349.2,
+        "duration": 2.86
+    },
+    {
+        "text": "So this is like...",
+        "start": 352.06,
+        "duration": 1.16
+    },
+    {
+        "text": "One, two, three, four, five, six, seven, eight...",
+        "start": 353.58,
+        "duration": 4.72
+    },
+    {
+        "text": "Nine? I think this is nine iterations of the Dragon Curve.",
+        "start": 358.3,
+        "duration": 2.48
+    },
+    {
+        "text": "But right, when you ex-, sort of extrude it through space,  you get this, this, cool, uh, this cool shape.",
+        "start": 361.62,
+        "duration": 4.64
+    },
+    {
+        "text": "Somebody, somebody once described this to me as a sky-scraper going for a walk.",
+        "start": 366.26,
+        "duration": 4.64
+    },
+    {
+        "text": "It's sort of a nice image.",
+        "start": 370.9,
+        "duration": 1.2
+    },
+    {
+        "text": "Recognize this shape? That would be the, uh, Sierpinski Triangle,",
+        "start": 372.1,
+        "duration": 4.42
+    },
+    {
+        "text": "except there's a curve called the Sierpinski Arrowhead Curve.",
+        "start": 376.52,
+        "duration": 4.1
+    },
+    {
+        "text": "Let's turn it around...",
+        "start": 380.8,
+        "duration": 1.6
+    },
+    {
+        "text": "So it starts with, again this is smoothed off a little bit,",
+        "start": 382.4,
+        "duration": 3.1
+    },
+    {
+        "text": "but it starts with three sides of a hexagon...",
+        "start": 385.56,
+        "duration": 3.04
+    },
+    {
+        "text": "...and then...",
+        "start": 388.84,
+        "duration": 1.04
+    },
+    {
+        "text": "... well it gets more squiggly, um, but yeah you end up with...",
+        "start": 390.32,
+        "duration": 4.3
+    },
+    {
+        "text": "... the, uh, something that looks like the Sierpinksi Triangle.",
+        "start": 394.62,
+        "duration": 3.52
+    },
+    {
+        "text": "I wanted to show you the Clone Troopers.",
+        "start": 398.14,
+        "duration": 2.1
+    },
+    {
+        "text": "Uh, [laughs], so,",
+        "start": 400.9,
+        "duration": 1.2
+    },
+    {
+        "text": "Right, so, you make all of this,",
+        "start": 402.1,
+        "duration": 2.02
+    },
+    {
+        "text": "like this is just math, right, I mean this is just a simple sequence.",
+        "start": 404.12,
+        "duration": 3.12
+    },
+    {
+        "text": "But then, once you've made it, and you see the faces...",
+        "start": 407.74,
+        "duration": 3.98
+    },
+    {
+        "text": "The eyes and the noses, and the, and the, mouth here of...",
+        "start": 411.72,
+        "duration": 3.46
+    },
+    {
+        "text": "...um, at least, I don't know, may-maybe you've blacked all...",
+        "start": 415.18,
+        "duration": 3.98
+    },
+    {
+        "text": "...blanked your mind of all references of the prequels, but,",
+        "start": 419.16,
+        "duration": 3.36
+    },
+    {
+        "text": "Clone Troopers is what this said to me.",
+        "start": 422.52,
+        "duration": 1.66
+    },
+    {
+        "text": "So in the other room there's one based on something called the Terdragon Curve.",
+        "start": 424.18,
+        "duration": 3.8
+    },
+    {
+        "text": "It's like the Dragon Curve but there's a three in it,",
+        "start": 427.98,
+        "duration": 2.4
+    },
+    {
+        "text": "and there's a slightly different process that does it,",
+        "start": 430.38,
+        "duration": 1.84
+    },
+    {
+        "text": "and yeah, this is a, really big one, that we...",
+        "start": 432.3,
+        "duration": 3.48
+    },
+    {
+        "text": "...dyed, in a very large, trash can.",
+        "start": 435.92,
+        "duration": 2.78
+    },
+    {
+        "text": "So, final things. This is sort of a three-dimensional version,",
+        "start": 438.7,
+        "duration": 3.5
+    },
+    {
+        "text": "of, the two-dimensional Hilbert Curves.",
+        "start": 442.2,
+        "duration": 1.66
+    },
+    {
+        "text": "So there's sort of, three-dimensional versions of a lot of these...",
+        "start": 443.86,
+        "duration": 2.18
+    },
+    {
+        "text": "This is the third step, right, so rather than,",
+        "start": 446.04,
+        "duration": 2.26
+    },
+    {
+        "text": "showing the whole sequence, sort of as an extruded animation,",
+        "start": 448.3,
+        "duration": 3.26
+    },
+    {
+        "text": "this is just the third step, of that sequence.",
+        "start": 451.56,
+        "duration": 2.8
+    },
+    {
+        "text": "And you get this very squiggly curve that is filling three-dimensional space.",
+        "start": 454.36,
+        "duration": 4.6
+    },
+    {
+        "text": "Or a three-dimensional cube.",
+        "start": 458.96,
+        "duration": 1.42
+    },
+    {
+        "text": "So one of the, sort of, really interesting things about this, is like,",
+        "start": 460.38,
+        "duration": 3.34
+    },
+    {
+        "text": "so I, I, I'd seen this thing for like, I dunno,",
+        "start": 463.72,
+        "duration": 2.46
+    },
+    {
+        "text": "a year or two, sitting on my computer screen as this,",
+        "start": 466.18,
+        "duration": 3.3
+    },
+    {
+        "text": "rigid, perfect mathematical object.",
+        "start": 469.64,
+        "duration": 2.56
+    },
+    {
+        "text": "And then, so, you know I order it and I take it out of the box,",
+        "start": 472.2,
+        "duration": 3.58
+    },
+    {
+        "text": "And it's springy! I had no idea it was gonna do that.",
+        "start": 475.78,
+        "duration": 3.06
+    },
+    {
+        "text": "It's, it's incredibly springy, like you can use, you can even...",
+        "start": 478.84,
+        "duration": 3.7
+    },
+    {
+        "text": "...wear it as a kind of uncomfortable bracelet.",
+        "start": 482.54,
+        "duration": 2.96
+    },
+    {
+        "text": "Um, but yeah...",
+        "start": 485.8,
+        "duration": 1.36
+    },
+    {
+        "text": "This one you can see that it's a curve, right, its just a single loop in space, that forms itself back into a cube.",
+        "start": 487.16,
+        "duration": 6.42
+    },
+    {
+        "text": "(Brady) And you were surprised by that?",
+        "start": 494.06,
+        "duration": 1.44
+    },
+    {
+        "text": "Yeah! Like, I mean, I guess I could have predicted it maybe?",
+        "start": 495.5,
+        "duration": 3.46
+    },
+    {
+        "text": "That, 'cos its just, you know there's no interconnections?",
+        "start": 498.96,
+        "duration": 2.82
+    },
+    {
+        "text": "So its just this sort of, like,  single loop, it should be flexible.",
+        "start": 501.78,
+        "duration": 3.14
+    },
+    {
+        "text": "But I just never thought of it that way.",
+        "start": 504.92,
+        "duration": 2.02
+    },
+    {
+        "text": "And then it was, you know, having the physical thing,",
+        "start": 506.94,
+        "duration": 2.72
+    },
+    {
+        "text": "there's, I mean, well, you can not notice that it's all springy.",
+        "start": 509.66,
+        "duration": 4.88
+    },
+    {
+        "text": "(Brady, voice over) If you enjoy Henry's videos here on Numberphile then you're really going to love his new book,",
+        "start": 514.54,
+        "duration": 6.9
+    },
+    {
+        "text": "about visualising mathematics with 3D printing.",
+        "start": 521.44,
+        "duration": 3.16
+    },
+    {
+        "text": "I'll put some information about it in the video description.",
+        "start": 524.6,
+        "duration": 2.6
+    },
+    {
+        "text": "And while you're in the video description, why not check out the list of people who support us on Patreon?",
+        "start": 527.2,
+        "duration": 4.44
+    },
+    {
+        "text": "Our thanks to them for helping out.",
+        "start": 531.64,
+        "duration": 1.76
+    },
+    {
+        "text": "But seriously, check out that book, its got some mind-blowing stuff in it.",
+        "start": 533.4,
+        "duration": 2.54
+    },
+    {
+        "text": "And its also a really good way to show your support for Henry, who helps us out, here on Numberphile.",
+        "start": 535.94,
+        "duration": 5.4
+    }
+]

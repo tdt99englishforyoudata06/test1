@@ -1,0 +1,702 @@
+[
+    {
+        "text": "We've got one million Premier League seasons.",
+        "start": 0.46,
+        "duration": 3.0
+    },
+    {
+        "text": "So what's happened is me and me mate Adam, we've got together, and we've come up with a mathematical model and we've simulated",
+        "start": 4.7,
+        "duration": 6.22
+    },
+    {
+        "text": "one million seasons in the English Premier League, which is the Football League that we have here in England, just to see what happens basically.",
+        "start": 11.42,
+        "duration": 5.66
+    },
+    {
+        "text": "Okay, so for those of you that don't know, eh this is how the, the, the Premier League works,",
+        "start": 18.78,
+        "duration": 4.28
+    },
+    {
+        "text": "it's the top flight of English football or soccer as eh, Americans like to call it.",
+        "start": 23.06,
+        "duration": 4.6
+    },
+    {
+        "text": "And basically there are twenty teams, everybody plays each other home and away,",
+        "start": 27.66,
+        "duration": 4.16
+    },
+    {
+        "text": "and if you win the game you get 3 points, if you draw you get 1 points if you lose you don't get any points.",
+        "start": 32.72,
+        "duration": 4.48
+    },
+    {
+        "text": "It, you basically just tot up the points and see who's got the most points.",
+        "start": 40.16,
+        "duration": 2.64
+    },
+    {
+        "text": "If there's any sort of ties, so some teams have the same number of points, there's no playoffs or anything like that.",
+        "start": 44.69,
+        "duration": 4.58
+    },
+    {
+        "text": "It goes down to something called goal difference,",
+        "start": 49.43,
+        "duration": 3.079
+    },
+    {
+        "text": "which is basically you take the number of goals that a team has scored and take off the number of goals",
+        "start": 55.88,
+        "duration": 4.43
+    },
+    {
+        "text": "they've conceded. After that you go - it goes on goals scored. And",
+        "start": 60.31,
+        "duration": 3.99
+    },
+    {
+        "text": "after that, it's just, they just agree a tie,",
+        "start": 65.18,
+        "duration": 2.12
+    },
+    {
+        "text": "there's no ranking. And you can actually have literally two teams with identical records, in principle, and",
+        "start": 67.51,
+        "duration": 4.529
+    },
+    {
+        "text": "literally, they won't be ranked. They'll just say, well, equal.",
+        "start": 72.77,
+        "duration": 2.389
+    },
+    {
+        "text": "Obviously the goal is to is to win, win the championship.",
+        "start": 82.47,
+        "duration": 2.81
+    },
+    {
+        "text": "But it's also really important to get into the top four",
+        "start": 85.89,
+        "duration": 2.99
+    },
+    {
+        "text": "because the teams that get into the top four, they go into - there's something called the Champions league the next season.",
+        "start": 89.1,
+        "duration": 4.669
+    },
+    {
+        "text": "Which is really lucrative, loads of money.",
+        "start": 96.15,
+        "duration": 2.0
+    },
+    {
+        "text": "The big thing you want to avoid is",
+        "start": 98.79,
+        "duration": 2.209
+    },
+    {
+        "text": "relegation, so that's finishing in the bottom three.",
+        "start": 101.7,
+        "duration": 2.239
+    },
+    {
+        "text": "If you finish in a bottom three",
+        "start": 104.01,
+        "duration": 1.52
+    },
+    {
+        "text": "you actually drop down",
+        "start": 105.53,
+        "duration": 1.66
+    },
+    {
+        "text": "to the division below - to the league below - the subsequent season and that's really bad because",
+        "start": 107.19,
+        "duration": 4.25
+    },
+    {
+        "text": "obviously",
+        "start": 111.51,
+        "duration": 0.5
+    },
+    {
+        "text": "it's nowhere near as glamorous, far less income - all together a whole lower standard of football and you don't want to be there basically.",
+        "start": 112.01,
+        "duration": 5.879
+    },
+    {
+        "text": "So that's the thing to avoid.",
+        "start": 117.89,
+        "duration": 2.0
+    },
+    {
+        "text": "So football fans everywhere, you know, we like to argue about you know,",
+        "start": 123.66,
+        "duration": 3.649
+    },
+    {
+        "text": "how many points do you need to win the league, for example? I mean that's a, that's a big issue this season because you know",
+        "start": 127.31,
+        "duration": 4.8
+    },
+    {
+        "text": "there's two teams that have got really great records,",
+        "start": 132.11,
+        "duration": 1.98
+    },
+    {
+        "text": "they're Liverpool and Manchester City. And it looks like you're gonna need a lot of points to win the league this season.",
+        "start": 134.09,
+        "duration": 5.4
+    },
+    {
+        "text": "It's a thing you can ask: normally how many points would you need to win the league? How many points do you need to guarantee",
+        "start": 142.86,
+        "duration": 4.759
+    },
+    {
+        "text": "entry into the Champions League the next season, to finish in that top four?",
+        "start": 147.62,
+        "duration": 3.48
+    },
+    {
+        "text": "And of course the one that people really worry about is how many points do you actually need to avoid relegation?",
+        "start": 151.65,
+        "duration": 5.57
+    },
+    {
+        "text": "What's - people talk about the magical forty point mark. So this is why we got interested,",
+        "start": 157.41,
+        "duration": 4.579
+    },
+    {
+        "text": "we were interested in asking these questions from a mathematical point of view. So, of course we could answer some of these questions",
+        "start": 161.989,
+        "duration": 5.04
+    },
+    {
+        "text": "theoretically, but in not very interesting way. So for example, if you get 64 points you're guaranteed not to be relegated.",
+        "start": 168.63,
+        "duration": 7.16
+    },
+    {
+        "text": "That's a fact, right? You can show that quite easily.",
+        "start": 176.31,
+        "duration": 2.27
+    },
+    {
+        "text": "But of course anybody who gets 64 points, or 63 points actually, is not going to get relegated in any reasonable season.",
+        "start": 178.89,
+        "duration": 6.62
+    },
+    {
+        "text": "So we wanted to think more about probabilities and what, you know, what's likely to happen. But mathematically that's pretty much impossible to do",
+        "start": 185.51,
+        "duration": 7.889
+    },
+    {
+        "text": "what we call analytically. So you really have to run computer simulations, use this idea of a Monte Carlo simulation.",
+        "start": 194.13,
+        "duration": 6.38
+    },
+    {
+        "text": "And you use sort of randomness to sort of try to create random seasons. And then over a lot of seasons the sort of",
+        "start": 201.39,
+        "duration": 7.4
+    },
+    {
+        "text": "probabilistic",
+        "start": 209.43,
+        "duration": 1.08
+    },
+    {
+        "text": "scenarios sort of play out. This idea of Monte Carlo simulations,",
+        "start": 210.51,
+        "duration": 3.5
+    },
+    {
+        "text": "they go back to the development of the atomic bomb actually. \nSo we had a bit of a journey in",
+        "start": 214.01,
+        "duration": 4.529
+    },
+    {
+        "text": "building up, building our model. We started off with some simpler models and then developed a quite sophisticated one",
+        "start": 219.06,
+        "duration": 5.48
+    },
+    {
+        "text": "which is kind of based on the kind of thing that bookmakers use to predict outcomes of games.",
+        "start": 224.54,
+        "duration": 4.019
+    },
+    {
+        "text": "We used something called a Poisson distribution to sort of get the expected goals we said a given team would have in a given game,",
+        "start": 228.56,
+        "duration": 7.11
+    },
+    {
+        "text": "and built the model from that. And that used data from, from last season's Premier League actually.",
+        "start": 236.25,
+        "duration": 6.41
+    },
+    {
+        "text": "It's kind of a weird season in as much as Manchester City had an anomalously good season. They got 100 points.",
+        "start": 242.66,
+        "duration": 5.82
+    },
+    {
+        "text": "We're at the mercy of that, but we had to use something. And we literally played out the games in the simulation.",
+        "start": 248.48,
+        "duration": 4.829
+    },
+    {
+        "text": "So we did it, as I said, 380 games over a season - a",
+        "start": 253.31,
+        "duration": 3.299
+    },
+    {
+        "text": "million seasons. It is quite quick. I mean, I'm not going to take the credit for this,",
+        "start": 257.22,
+        "duration": 3.529
+    },
+    {
+        "text": "I'm sure if I wrote a bit code that tried to do this it would take forever,",
+        "start": 260.75,
+        "duration": 3.33
+    },
+    {
+        "text": "but my friend Adam is much better at that sort of thing than me and was able to write a very efficient code",
+        "start": 264.09,
+        "duration": 4.49
+    },
+    {
+        "text": "which did it in about 20 minutes, half an hour or so.",
+        "start": 268.95,
+        "duration": 2.63
+    },
+    {
+        "text": "And so we were really able to get out some fun statistics out of it.",
+        "start": 271.58,
+        "duration": 3.269
+    },
+    {
+        "text": "Basically how many points do you need to win the Premier League, on average, based on this simulation?",
+        "start": 274.85,
+        "duration": 4.32
+    },
+    {
+        "text": "Well,",
+        "start": 279.69,
+        "duration": 1.229
+    },
+    {
+        "text": "it turned out that the mean number of points that finished second place",
+        "start": 280.919,
+        "duration": 3.17
+    },
+    {
+        "text": "was eighty five point two. So basically that's telling us that you if you get 86 points,",
+        "start": 284.73,
+        "duration": 4.79
+    },
+    {
+        "text": "chances are you're gonna win the league. In reality,",
+        "start": 290.07,
+        "duration": 2.209
+    },
+    {
+        "text": "you know, the team winning the league was getting 95 points or so, in this simulation. Again",
+        "start": 292.28,
+        "duration": 4.86
+    },
+    {
+        "text": "that's because City did so well last season and we were using last season's data. To get the Champions League for example, on",
+        "start": 297.14,
+        "duration": 5.94
+    },
+    {
+        "text": "average you would need 72 points according to this simulation, which is a reasonable figure. There are some",
+        "start": 303.18,
+        "duration": 6.5
+    },
+    {
+        "text": "circumstances where you would, you would need a lot more or a lot less, but that was generally the ballpark. Now the crunch,",
+        "start": 310.23,
+        "duration": 6.019
+    },
+    {
+        "text": "to avoid relegation.",
+        "start": 316.919,
+        "duration": 2.0
+    },
+    {
+        "text": "Well, we can look at the, at the number of points on average scored by the",
+        "start": 319.41,
+        "duration": 4.609
+    },
+    {
+        "text": "the 18th team",
+        "start": 324.72,
+        "duration": 1.25
+    },
+    {
+        "text": "so that's the the top team that did get relegated. And they got",
+        "start": 325.97,
+        "duration": 3.269
+    },
+    {
+        "text": "32 and a half points was the mean. So that basically means that 33 points should be enough to avoid relegation",
+        "start": 329.55,
+        "duration": 5.809
+    },
+    {
+        "text": "based on the sort of the simulations you would get from from from last season's data. That's quite low,",
+        "start": 335.73,
+        "duration": 4.97
+    },
+    {
+        "text": "I think that's bit on the low side.",
+        "start": 340.7,
+        "duration": 1.51
+    },
+    {
+        "text": "But again, you know, if we'd averaged over more seasons with our data, probably we would have maybe got a higher figure there.",
+        "start": 342.21,
+        "duration": 4.94
+    },
+    {
+        "text": "So over a million seasons what sort of things happened?",
+        "start": 348.83,
+        "duration": 2.72
+    },
+    {
+        "text": "So for example",
+        "start": 351.55,
+        "duration": 1.29
+    },
+    {
+        "text": "what's the most points that somebody won the league with? Needless to say Manchester City did on a, on actually on 62 occasions score",
+        "start": 352.84,
+        "duration": 7.739
+    },
+    {
+        "text": "114 points, which is where they won every single game.",
+        "start": 361.009,
+        "duration": 2.63
+    },
+    {
+        "text": "So 62 times out of a million season City got, you know, got all the points that were available. The highest number of points",
+        "start": 363.83,
+        "duration": 5.779
+    },
+    {
+        "text": "somebody got relegated with? Okay, that would be a disaster, right? You could get relegated on a large number of points.",
+        "start": 369.61,
+        "duration": 5.16
+    },
+    {
+        "text": "Actually, it wasn't that high in these simulations. The highest number of points somebody got relegated with our million seasons",
+        "start": 374.77,
+        "duration": 6.45
+    },
+    {
+        "text": "was",
+        "start": 381.77,
+        "duration": 1.17
+    },
+    {
+        "text": "44.",
+        "start": 382.94,
+        "duration": 1.86
+    },
+    {
+        "text": "And actually that's that's kind of close to the sort of Premier League data. West Ham went down on 42.",
+        "start": 384.8,
+        "duration": 4.91
+    },
+    {
+        "text": "There was a season when teams played a few more games, where Crystal Palace went down on 49,",
+        "start": 395.33,
+        "duration": 5.54
+    },
+    {
+        "text": "which was considered the ultimate disaster.",
+        "start": 400.87,
+        "duration": 1.99
+    },
+    {
+        "text": "(Brady: So in the million seasons there weren't any cases, really, where a team got relegated having a really good season?)",
+        "start": 402.86,
+        "duration": 6.529
+    },
+    {
+        "text": "Nah, nah, not really. So other things that you notice: the most number of goals scored by a team in a season,",
+        "start": 409.419,
+        "duration": 6.839
+    },
+    {
+        "text": "Manchester City on one particular season scored 161 goals.",
+        "start": 417.62,
+        "duration": 4.519
+    },
+    {
+        "text": "Which blitzes the, the actual record which was set by Aston Villa in 1931, where they scored",
+        "start": 422.479,
+        "duration": 6.29
+    },
+    {
+        "text": "128 goals. Again that was in 42 games.",
+        "start": 429.44,
+        "duration": 2.239
+    },
+    {
+        "text": "Somebody actually won the league in this as well only scoring 50 goals.",
+        "start": 432.379,
+        "duration": 4.37
+    },
+    {
+        "text": "Obviously Man City did annoying well. Out of the 1 million seasons, they won the league nearly 900 thousand times,",
+        "start": 437.78,
+        "duration": 6.919
+    },
+    {
+        "text": "they won it eight hundred ninety six thousand three hundred and thirteen times.",
+        "start": 444.699,
+        "duration": 3.179
+    },
+    {
+        "text": "Actually the team that won the next most, this is kind of curious,",
+        "start": 448.069,
+        "duration": 2.48
+    },
+    {
+        "text": "you probably would think given that we were basing our last season data that the second-place team from last season,",
+        "start": 450.55,
+        "duration": 4.709
+    },
+    {
+        "text": "which was Manchester United, would win the next most. That's not what happened.",
+        "start": 455.259,
+        "duration": 2.91
+    },
+    {
+        "text": "The team that won the next most, which kind of pleases me, was Liverpool.",
+        "start": 458.419,
+        "duration": 3.619
+    },
+    {
+        "text": "Okay, who finished fourth last season. They won the league in this 45 thousand eight hundred sixty-two times out of our simulation.",
+        "start": 462.229,
+        "duration": 6.83
+    },
+    {
+        "text": "So the reason the model favoured Liverpool was because when they won games they won by a lot. They scored a lot of goals,",
+        "start": 469.06,
+        "duration": 6.029
+    },
+    {
+        "text": "they won spectacularly when they won last season. So the model kind of likes that. \n- (Brady: Over the million seasons in your model)",
+        "start": 475.089,
+        "duration": 6.42
+    },
+    {
+        "text": "(was there a freak season like the famous Leicester season where it, where an underdog came through and won it?)",
+        "start": 481.58,
+        "duration": 6.44
+    },
+    {
+        "text": "So, not really, okay? So not in our, in the model simulation I'm talking about here.",
+        "start": 488.02,
+        "duration": 5.25
+    },
+    {
+        "text": "We did do a trial simulation where Leicester, and it was Leicester actually,",
+        "start": 493.27,
+        "duration": 4.649
+    },
+    {
+        "text": "won the league three times out of a million. In this simulation, this sort of main one, the final one,",
+        "start": 499.219,
+        "duration": 5.09
+    },
+    {
+        "text": "nobody outside of the top six won the league. Nobody. It's kind of depressing actually. \n- (Brady: Did any of the big super teams ever get relegated?)",
+        "start": 504.319,
+        "duration": 6.981
+    },
+    {
+        "text": "They did yes. Yes, this is quite funny actually.",
+        "start": 511.31,
+        "duration": 2.75
+    },
+    {
+        "text": "Chelsea, poor old Chelsea, got relegated five? Five times? They finished second from bottom twice and they finished third from bottom three times.",
+        "start": 515.329,
+        "duration": 7.31
+    },
+    {
+        "text": "None of the other big six got relegated. There were a few sort of anomalous things. Southampton did surprisingly",
+        "start": 522.709,
+        "duration": 5.48
+    },
+    {
+        "text": "well.",
+        "start": 528.19,
+        "duration": 0.3
+    },
+    {
+        "text": "They finished second once and they got into the Champions League - get this they got into Champions League 22 times out of a million!",
+        "start": 528.49,
+        "duration": 6.419
+    },
+    {
+        "text": "Okay, which is really, and they're completely anomalous. There's like, nobody else sort of that far down the table does anything like that",
+        "start": 535.31,
+        "duration": 5.599
+    },
+    {
+        "text": "well. Again, it'll be because of the nature of it how their games played out,",
+        "start": 540.91,
+        "duration": 4.62
+    },
+    {
+        "text": "they probably scored, they scored plenty goals - that kind of thing.",
+        "start": 545.53,
+        "duration": 3.059
+    },
+    {
+        "text": "So there's sort of a general overview of the season data, but there's some more fun extremes sitting in there",
+        "start": 548.59,
+        "duration": 5.639
+    },
+    {
+        "text": "which we've got to talk about. What's the biggest win that anybody had in our simulation in our million seasons?",
+        "start": 554.23,
+        "duration": 6.239
+    },
+    {
+        "text": "Well needless to say it was Manchester City. And they beat Bournemouth 20 goals to 1.",
+        "start": 560.48,
+        "duration": 5.929
+    },
+    {
+        "text": "So they scored 20 goals, Bournemouth got 1. That's blowing out of the water the sort of the kind of thing",
+        "start": 571.28,
+        "duration": 4.879
+    },
+    {
+        "text": "we've actually seen in real life. The record",
+        "start": 576.16,
+        "duration": 2.46
+    },
+    {
+        "text": "score in a top-flight game is 12 nil. Done by West Brom over 100 years ago, also Notting Forest",
+        "start": 579.05,
+        "duration": 7.1
+    },
+    {
+        "text": "did it over 100 years ago.",
+        "start": 586.15,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: But over the course of a million years, it's reasonable that it'll happen one day)\n- It is, it is.",
+        "start": 591.15,
+        "duration": 5.899
+    },
+    {
+        "text": "I mean, it's not so crazy that City might occasionally get those those kind of score lines over a million seasons,",
+        "start": 597.05,
+        "duration": 5.88
+    },
+    {
+        "text": "absolutely not.",
+        "start": 602.94,
+        "duration": 0.86
+    },
+    {
+        "text": "There were even more other remarkable score lines. Everton seemed to be heavily involved in some in some crazy score lines. The highest number of",
+        "start": 603.8,
+        "duration": 6.93
+    },
+    {
+        "text": "goals by a losing team - ten. Chelsea played Everton at Goodison Park, Everton won 11-10. ",
+        "start": 610.73,
+        "duration": 6.239
+    },
+    {
+        "text": "Okay, so that's a quick - and Everton seemed to be involved in a lot of these games.",
+        "start": 618.27,
+        "duration": 3.38
+    },
+    {
+        "text": "There was a Merseyside derby which was the highest scoring draw. That was Everton nine, Liverpool nine.",
+        "start": 621.65,
+        "duration": 5.13
+    },
+    {
+        "text": "I don't think my heart would be able to cope with a game",
+        "start": 630.87,
+        "duration": 1.97
+    },
+    {
+        "text": "like that. I went to see Liverpool and Everton play and it was, it was a 4 all draw and that was bad enough.",
+        "start": 632.84,
+        "duration": 4.409
+    },
+    {
+        "text": "Nine all I don't think I could handle.",
+        "start": 637.35,
+        "duration": 2.0
+    },
+    {
+        "text": "The most goals in a game, okay. So the most goals in a game, that was Manchester City beat - again -",
+        "start": 647.339,
+        "duration": 5.81
+    },
+    {
+        "text": "Everton, 17-5.",
+        "start": 653.37,
+        "duration": 1.92
+    },
+    {
+        "text": "22 goals in that game. There's actually, the record in English football that, in real English football not in our",
+        "start": 655.29,
+        "duration": 5.42
+    },
+    {
+        "text": "simulation, was Tranmere Rovers Tranmere beat Oldham 13-4. So 17-5 is not",
+        "start": 660.81,
+        "duration": 5.869
+    },
+    {
+        "text": "actually that far away if you think about it. You know the model's not perfect.",
+        "start": 666.839,
+        "duration": 3.47
+    },
+    {
+        "text": "One thing it doesn't do very well, for example, is predict nil-nils. The reason for that is because a nil-nil draw is it's kind of - could be kind of a game of attrition.",
+        "start": 670.31,
+        "duration": 6.719
+    },
+    {
+        "text": "We, you know once a team gets sort of set in like that then that dictates what happens",
+        "start": 677.25,
+        "duration": 4.429
+    },
+    {
+        "text": "next. And the model doesn't do that because it's really, really about randomness, okay, so it doesn't really capture nil-nils very well.",
+        "start": 682.08,
+        "duration": 6.949
+    },
+    {
+        "text": "So that's one of, one of the weaknesses of it. And actually it's not really clear how you would fix that, that's tricky.",
+        "start": 689.029,
+        "duration": 5.79
+    }
+]

@@ -1,0 +1,687 @@
+[
+    {
+        "text": "I wanna start in a nice, familiar, comfortable place, Brady.",
+        "start": 0.1,
+        "duration": 4.58
+    },
+    {
+        "text": "Which is this series:",
+        "start": 4.68,
+        "duration": 1.5
+    },
+    {
+        "text": "1.. +2 .. +3 ..+4\nOh no! Oh no!",
+        "start": 6.18,
+        "duration": 5.74
+    },
+    {
+        "text": "Alright, all the way up to infinity.\nYou remember what the answer to that was?",
+        "start": 11.92,
+        "duration": 4.78
+    },
+    {
+        "text": "Yeah.\nYeah, what was it?",
+        "start": 17.0,
+        "duration": 1.04
+    },
+    {
+        "text": "it's a, uh, divergent sum.\nYeah, it's -1/12, isn't it?",
+        "start": 18.66,
+        "duration": 3.34
+    },
+    {
+        "text": "Which is totally uncontroversial.",
+        "start": 22.66,
+        "duration": 2.1
+    },
+    {
+        "text": "that's that's not weird at all. so I'm not\nactually going to talk about that series",
+        "start": 24.869,
+        "duration": 4.471
+    },
+    {
+        "text": "but I want to talk about something thats\nrelated to that series so I want to",
+        "start": 29.34,
+        "duration": 3.66
+    },
+    {
+        "text": "consider what happens when we take the\nreciprocal of all these numbers and take",
+        "start": 33.0,
+        "duration": 4.41
+    },
+    {
+        "text": "the sum of those so we take 1 + a\nhalf + a third + a quarter + a fifth.",
+        "start": 37.41,
+        "duration": 6.36
+    },
+    {
+        "text": "what would we get if we added all these\nnumbers together you can look at this",
+        "start": 43.77,
+        "duration": 3.48
+    },
+    {
+        "text": "and you might think even though someone\ngoes alright there's no way that's -1/12th",
+        "start": 47.25,
+        "duration": 2.55
+    },
+    {
+        "text": "but it'd surely be infinity. you\nlook at this and you think what is this?",
+        "start": 49.8,
+        "duration": 4.62
+    },
+    {
+        "text": "i mean the numbers are getting... it's\nclearly getting bigger but the numbers",
+        "start": 54.42,
+        "duration": 3.33
+    },
+    {
+        "text": "that you're adding again smaller and\nsmaller and smaller so you might think",
+        "start": 57.75,
+        "duration": 3.27
+    },
+    {
+        "text": "this goes to a finite answer, but\nactually it doesn't. this is infinite.",
+        "start": 61.02,
+        "duration": 4.59
+    },
+    {
+        "text": "this is called the harmonic series, and it\nand it is infinite. it was first shown to",
+        "start": 65.61,
+        "duration": 4.23
+    },
+    {
+        "text": "be infinite. and back in.. by a medieval,\nfrench mathematician Nicole Oresme. he",
+        "start": 69.84,
+        "duration": 5.55
+    },
+    {
+        "text": "showed it in quite an elegant way, which\nwe can go through now, he came up with",
+        "start": 75.39,
+        "duration": 3.45
+    },
+    {
+        "text": "another series in which each element of\nthe other series was less than the ones",
+        "start": 78.84,
+        "duration": 5.04
+    },
+    {
+        "text": "you've got here and showed that guy was\ndivergent. the other series that he",
+        "start": 83.88,
+        "duration": 4.08
+    },
+    {
+        "text": "looked at, was the one where you asked\nwhat is the largest power of a half",
+        "start": 87.96,
+        "duration": 3.96
+    },
+    {
+        "text": "that's less than the number you're\ninterested in. so let me show you that's",
+        "start": 91.92,
+        "duration": 3.33
+    },
+    {
+        "text": "probably easiest way. so 1, well it's less than\nor equal to that we're interested in. 1 is is",
+        "start": 95.25,
+        "duration": 3.78
+    },
+    {
+        "text": "already a power of a half so we'll leave\nthat as one. a half is of course a",
+        "start": 99.03,
+        "duration": 3.72
+    },
+    {
+        "text": "power of a half so we'll leave that\nthere. a third, well the largest power of",
+        "start": 102.75,
+        "duration": 3.13
+    },
+    {
+        "text": "a half which is less than or equal to a\nthird, is of course a quarter.",
+        "start": 105.89,
+        "duration": 3.87
+    },
+    {
+        "text": "quarter, well we can leave that as a quarter. a\nfifth what's the largest power of a half,",
+        "start": 109.76,
+        "duration": 4.6
+    },
+    {
+        "text": "that's uh, that is less than a fifth, well\nit's an eighth, which is a half cubed right.",
+        "start": 114.42,
+        "duration": 4.8
+    },
+    {
+        "text": "for a sixth that would also be an eighth. for a seventh, that\nwill also be an eighth. for an eighth.. it's an eighth",
+        "start": 119.22,
+        "duration": 6.06
+    },
+    {
+        "text": "The next one would actually be a sixteenth, and you\nwould go on like that, right. so this is",
+        "start": 125.28,
+        "duration": 3.81
+    },
+    {
+        "text": "his alternative series, and now you look\nat this series and you just see that,",
+        "start": 129.09,
+        "duration": 4.1
+    },
+    {
+        "text": "It actually has some nice structure so you got one\nplus a half, but then this combination",
+        "start": 133.26,
+        "duration": 5.759
+    },
+    {
+        "text": "here gives you another half. these four\nhere give you another half. there's",
+        "start": 139.019,
+        "duration": 6.42
+    },
+    {
+        "text": "going to be eight of these 16ths, they'll\ngive you another half, and what you're",
+        "start": 145.439,
+        "duration": 4.08
+    },
+    {
+        "text": "doing is just adding a half loads of\ntimes, so it's pretty clear that this this",
+        "start": 149.519,
+        "duration": 3.211
+    },
+    {
+        "text": "indeed diverges. and so by comparison,\nbecause each element here is larger than",
+        "start": 152.73,
+        "duration": 6.599
+    },
+    {
+        "text": "the element here,",
+        "start": 159.329,
+        "duration": 1.711
+    },
+    {
+        "text": "this guy must also diverge as well. So\nthat's the proof that that this diverges.",
+        "start": 161.04,
+        "duration": 4.44
+    },
+    {
+        "text": "now..\nbut hang on, but each element of what you're doing up here.. *inaudible*\nI knew you were going to say that!",
+        "start": 165.48,
+        "duration": 6.03
+    },
+    {
+        "text": "there's this is sort of nice illustrated\nway to think about this, this sum and",
+        "start": 175.13,
+        "duration": 4.5
+    },
+    {
+        "text": "how it diverges. We've got a lousy band here right.\nThat's what we call it in (Liverpool?).",
+        "start": 179.63,
+        "duration": 5.19
+    },
+    {
+        "text": "in order to describe this, it can tell us something\nabout this this sequence right. so what I",
+        "start": 184.82,
+        "duration": 3.69
+    },
+    {
+        "text": "want you to imagine is, that, imagine this\nthis lousy band is, is like a meter in",
+        "start": 188.51,
+        "duration": 5.6
+    },
+    {
+        "text": "circumference. I know it's not, but imagine\nit is. And imagine we put an ant on him and",
+        "start": 194.12,
+        "duration": 5.49
+    },
+    {
+        "text": "this ant, can travel one centimeter\na second. okay now, after each",
+        "start": 199.61,
+        "duration": 5.84
+    },
+    {
+        "text": "second we're going to stretch the lousy\nband, so that it's...",
+        "start": 205.6,
+        "duration": 3.44
+    },
+    {
+        "text": "we add and another meter to it's circumference.",
+        "start": 209.04,
+        "duration": 2.92
+    },
+    {
+        "text": "okay, so after the first second, the\nant has moved one centimeter.",
+        "start": 211.96,
+        "duration": 6.36
+    },
+    {
+        "text": "We stretch the elastic band by a meter, ok\nafter the next second, the ants moved",
+        "start": 218.32,
+        "duration": 4.72
+    },
+    {
+        "text": "another centimeter. we stretch the\nlousy band by another meter and so on",
+        "start": 223.04,
+        "duration": 3.48
+    },
+    {
+        "text": "and so on and so on.",
+        "start": 226.52,
+        "duration": 1.05
+    },
+    {
+        "text": "ok, question is, does the ant ever get all\nthe way around the elastic band?",
+        "start": 227.57,
+        "duration": 7.28
+    },
+    {
+        "text": "(Brady) I can't see how it could. \nit seems like you couldn't,\n it couldn't, right. but it can right and",
+        "start": 234.88,
+        "duration": 5.32
+    },
+    {
+        "text": "it's because of this sequence, right. so\nlet's just see why it can right. so think",
+        "start": 240.2,
+        "duration": 4.44
+    },
+    {
+        "text": "about what happens in in the first\nsecond. think about, think about the",
+        "start": 244.64,
+        "duration": 3.54
+    },
+    {
+        "text": "percentage of the elastic band that it\nmanages to to traverse, okay. well it's",
+        "start": 248.18,
+        "duration": 5.73
+    },
+    {
+        "text": "traveled.. the elastic band is 1 meter around it travels one centimeter that's 1%, right.",
+        "start": 253.91,
+        "duration": 5.5
+    },
+    {
+        "text": "in the 1st second\ntravels 1%. What happens in the 2nd second?",
+        "start": 259.42,
+        "duration": 4.02
+    },
+    {
+        "text": "well in the 2nd second the last band is\nnow 2 meters long",
+        "start": 263.44,
+        "duration": 4.62
+    },
+    {
+        "text": "it travels another centimeter, so that's\n0.5%. in the 3rd second",
+        "start": 268.07,
+        "duration": 6.24
+    },
+    {
+        "text": "the lousy band is now 3 meters long",
+        "start": 274.31,
+        "duration": 2.52
+    },
+    {
+        "text": "it travels 1 centimeter, that's 1/3th\nof a percent. their total length of the",
+        "start": 276.83,
+        "duration": 5.67
+    },
+    {
+        "text": "lousy band, and so on.",
+        "start": 282.5,
+        "duration": 2.37
+    },
+    {
+        "text": "ok, the same sequence, but this goes to\ninfinity. It only has to get to a 100%, never mind infinity right?",
+        "start": 284.87,
+        "duration": 7.58
+    },
+    {
+        "text": "clearly he's going to get all the way\naround the lousy band, and actually you",
+        "start": 292.67,
+        "duration": 3.48
+    },
+    {
+        "text": "can work out how long it takes him, right.\nit takes him about e^100 seconds,",
+        "start": 296.15,
+        "duration": 4.66
+    },
+    {
+        "text": "which is about 10^50 seconds\nwhich is quite a long time. it's so amusing",
+        "start": 300.9,
+        "duration": 5.24
+    },
+    {
+        "text": "to think what would happen if you start\nthe experiment now",
+        "start": 306.14,
+        "duration": 2.44
+    },
+    {
+        "text": "and by the time that the ant finished it.\nwell before we got to the end, you'd have..",
+        "start": 308.58,
+        "duration": 3.78
+    },
+    {
+        "text": "the Sun would have become a red giant\nand it's probably swallowed up the earth",
+        "start": 312.36,
+        "duration": 4.079
+    },
+    {
+        "text": "(Brady) you're adding one meter every second",
+        "start": 316.439,
+        "duration": 2.461
+    },
+    {
+        "text": "yeah\n(Brady) and it's only moving one\ncentimeter every second",
+        "start": 318.9,
+        "duration": 3.93
+    },
+    {
+        "text": "(Brady) so every second the finish line is\ngetting further away, every second.",
+        "start": 322.83,
+        "duration": 5.27
+    },
+    {
+        "text": "but what it's already.. what was\nbehind it also gets further away",
+        "start": 328.1,
+        "duration": 3.56
+    },
+    {
+        "text": "so it's this is not just\nthe distance in front but also the",
+        "start": 332.8,
+        "duration": 2.68
+    },
+    {
+        "text": "distance behind and you can see what's\nreally important is the percentage that",
+        "start": 335.49,
+        "duration": 3.269
+    },
+    {
+        "text": "that it accumulates. and you can\nsee that it just grows and grows and",
+        "start": 338.759,
+        "duration": 4.741
+    },
+    {
+        "text": "grows and grows and grows. eventually it hits\na 100. but you know after e^100 seconds",
+        "start": 343.5,
+        "duration": 4.38
+    },
+    {
+        "text": "roughly, more or less. it gets it\ngets there. but yeah I mean you know, to",
+        "start": 348.02,
+        "duration": 5.82
+    },
+    {
+        "text": "be honest, you know, we will even...  by\nthe time you get to the end of this uhm...",
+        "start": 353.849,
+        "duration": 3.271
+    },
+    {
+        "text": "this game, the universe has entered\na black hole area where all the earth,",
+        "start": 357.12,
+        "duration": 5.46
+    },
+    {
+        "text": "matter and stars and  including our\nexperiment has ended up inside black",
+        "start": 362.58,
+        "duration": 4.559
+    },
+    {
+        "text": "holes. so this is a gargantuan time, and\nwhat that illustrates is is really how",
+        "start": 367.139,
+        "duration": 5.28
+    },
+    {
+        "text": "slowly this series grows. it grows very very\nslowly.. it grows, it grows indefinitely but",
+        "start": 372.419,
+        "duration": 5.31
+    },
+    {
+        "text": "it does so very slowly and you can see\nthat by how long it takes to go all the",
+        "start": 377.729,
+        "duration": 3.81
+    },
+    {
+        "text": "way around. it actually grows\nlogarithmically slowly. and what you can",
+        "start": 381.539,
+        "duration": 4.47
+    },
+    {
+        "text": "show is, you can take, you know, this\nsequence all the way up to maybe the n'th",
+        "start": 386.009,
+        "duration": 4.44
+    },
+    {
+        "text": "form. and you take off log(n)\nI'm taking the natural logarithm here,right.",
+        "start": 390.449,
+        "duration": 5.48
+    },
+    {
+        "text": "what you get if you look at this guy, so\neach stage you take off that... the log.",
+        "start": 396.12,
+        "duration": 3.359
+    },
+    {
+        "text": "well you know 1 minus.. you take the first step, 1-log(1)\n.. well that's just 1",
+        "start": 400.289,
+        "duration": 5.671
+    },
+    {
+        "text": "1+1/2-log(2) is about... 0.8.\n1+1/2+1/3-log(3)",
+        "start": 405.96,
+        "duration": 11.009
+    },
+    {
+        "text": "that's about 0.7.\n if you carried on ad infinitum, you actually",
+        "start": 416.969,
+        "duration": 6.091
+    },
+    {
+        "text": "approach, a finite number. it's called\ngamma. it's the Euler-Mascheroni",
+        "start": 423.06,
+        "duration": 5.969
+    },
+    {
+        "text": "constant. this is about 0.577, which\nis a.. if you take its square it's about 1/3rd",
+        "start": 429.029,
+        "duration": 7.74
+    },
+    {
+        "text": "ok but not very much is known\nabout this number. we know that it exists.",
+        "start": 436.769,
+        "duration": 5.871
+    },
+    {
+        "text": "we know it exists, we can prove\nit exists.",
+        "start": 442.649,
+        "duration": 2.49
+    },
+    {
+        "text": "basically the proof, it relies on the\nfact that this sequence is decreasing.",
+        "start": 445.139,
+        "duration": 3.421
+    },
+    {
+        "text": "you can show also, that it's bounded\nfrom below.",
+        "start": 448.56,
+        "duration": 3.0
+    },
+    {
+        "text": "ok, so it's decreasing and bounded from below.\nit's gotta stop somewhere. so you can",
+        "start": 451.56,
+        "duration": 3.839
+    },
+    {
+        "text": "prove it exists but but we know hardly\nanything about it.",
+        "start": 455.4,
+        "duration": 3.329
+    },
+    {
+        "text": "we don't know if it's a transcendental\nwe don't even know if it's a rational",
+        "start": 458.729,
+        "duration": 4.282
+    },
+    {
+        "text": "number or not. kinda mad right. we can\ndescribe it in certain number",
+        "start": 463.02,
+        "duration": 4.649
+    },
+    {
+        "text": "of digits, and Euler came up with about\n15 digits. Mascheroni came up with 90.",
+        "start": 467.669,
+        "duration": 6.231
+    },
+    {
+        "text": "He then got the 20th 21st and 22nd one wrong",
+        "start": 473.92,
+        "duration": 3.762
+    },
+    {
+        "text": "nowadays we know it's about a hundred billion\ndigits, but we don't even know if its",
+        "start": 477.69,
+        "duration": 3.449
+    },
+    {
+        "text": "rational... if it if it is rational",
+        "start": 481.139,
+        "duration": 2.551
+    },
+    {
+        "text": "we know that the denominator is greater\nthan 10^242080. the denominator",
+        "start": 483.69,
+        "duration": 7.8
+    },
+    {
+        "text": "gotta... that if it's rational, but it might\nnot even be rational, we don't know.",
+        "start": 491.49,
+        "duration": 3.06
+    },
+    {
+        "text": "ok, so we know very little about it and\nyet this number, it appears all over",
+        "start": 494.55,
+        "duration": 6.149
+    },
+    {
+        "text": "everywhere. all over physics, for example.\nthis is, I know it from physics right.",
+        "start": 500.699,
+        "duration": 3.301
+    },
+    {
+        "text": "when you calculate quantum corrections,\nto say, the mass of the electron or",
+        "start": 504.0,
+        "duration": 3.93
+    },
+    {
+        "text": "the mass of the Higgs. or you calculate\ncontractions to the charge of the",
+        "start": 507.93,
+        "duration": 3.719
+    },
+    {
+        "text": "electron. these sorts of things, this guy\npops out. it always pops out. so it's",
+        "start": 511.649,
+        "duration": 4.651
+    },
+    {
+        "text": "there. it's in nature, it's in physics.\n and yet we don't know very much",
+        "start": 516.3,
+        "duration": 3.239
+    },
+    {
+        "text": "about it",
+        "start": 519.539,
+        "duration": 0.63
+    },
+    {
+        "text": "it also... if you take e^γ (e^gamma), take e^γ",
+        "start": 520.169,
+        "duration": 3.81
+    },
+    {
+        "text": "this knows about products of prime numbers,\nwhich is, what what's that got to do anything?",
+        "start": 523.979,
+        "duration": 4.28
+    },
+    {
+        "text": "so it seems to know about stuff. there's a\nconnection there, and actually some some",
+        "start": 528.26,
+        "duration": 4.66
+    },
+    {
+        "text": "physicists have actually sort of\nsaid that, there might be something deep",
+        "start": 532.92,
+        "duration": 3.359
+    },
+    {
+        "text": "there. that they're ultimately\ncosmology is is gonna be very closely",
+        "start": 536.279,
+        "duration": 5.071
+    },
+    {
+        "text": "related to number theory. it's very\nspeculative this but, you know, in",
+        "start": 541.35,
+        "duration": 3.299
+    },
+    {
+        "text": "the future maybe this is going to be a\ndirection we're going.",
+        "start": 544.649,
+        "duration": 3.241
+    },
+    {
+        "text": "if you're interested in numbers that govern\nthe universe you might just like this",
+        "start": 547.89,
+        "duration": 4.53
+    },
+    {
+        "text": "book called \"Just six numbers\" by Martin\nRees. famous astronomer shows how six",
+        "start": 552.42,
+        "duration": 4.979
+    },
+    {
+        "text": "numbers can explain the origins and\nbehaviours of the entire",
+        "start": 557.399,
+        "duration": 3.191
+    },
+    {
+        "text": "universe. as an added bonus the audiobook\nis narrated by Lord Rees himself. now",
+        "start": 560.59,
+        "duration": 5.43
+    },
+    {
+        "text": "audible.com, which has supported this\nvideo, is a leading source of spoken",
+        "start": 566.02,
+        "duration": 3.78
+    },
+    {
+        "text": "material. they've got just a huge range\nof titles. anything you can imagine can",
+        "start": 569.8,
+        "duration": 3.96
+    },
+    {
+        "text": "be downloaded onto the device of your\nchoice",
+        "start": 573.76,
+        "duration": 2.61
+    },
+    {
+        "text": "it doesn't matter what you're into and\nif you sign on for a free 30-day trial",
+        "start": 576.37,
+        "duration": 3.69
+    },
+    {
+        "text": "membership, your first audio book is\nincluded. so why not try \"just six numbers\"",
+        "start": 580.06,
+        "duration": 5.16
+    },
+    {
+        "text": "it's quite a short one, about\nthree-and-a-half hours. if you enjoyed",
+        "start": 585.22,
+        "duration": 3.84
+    },
+    {
+        "text": "the video we just showed you, then I think\nthis audiobook might be up your alley. go",
+        "start": 589.06,
+        "duration": 3.48
+    },
+    {
+        "text": "to audible.com/numberphile when you\nvisit them so they'll know you came from",
+        "start": 592.54,
+        "duration": 5.31
+    },
+    {
+        "text": "here. that's audible.com/numberphile\nthanks to them for supporting this video",
+        "start": 597.85,
+        "duration": 4.32
+    }
+]

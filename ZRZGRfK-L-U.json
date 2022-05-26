@@ -1,0 +1,237 @@
+[
+    {
+        "text": "Mario may be super, but even he must get bored",
+        "start": 1.1,
+        "duration": 3.12
+    },
+    {
+        "text": "hurdling the same Goombas and falling off",
+        "start": 4.22,
+        "duration": 2.32
+    },
+    {
+        "text": "the same cliffs over and over.",
+        "start": 6.54,
+        "duration": 2.58
+    },
+    {
+        "text": "Fortunately, A new artificial intelligence algorithm",
+        "start": 9.12,
+        "duration": 3.72
+    },
+    {
+        "text": "for what's called procedural content generation can",
+        "start": 12.84,
+        "duration": 3.16
+    },
+    {
+        "text": "endlessly produce new levels—and",
+        "start": 16.0,
+        "duration": 2.14
+    },
+    {
+        "text": "make sure they meet certain criteria.",
+        "start": 18.14,
+        "duration": 2.72
+    },
+    {
+        "text": "Video games such as No Man’s Sky",
+        "start": 20.86,
+        "duration": 2.14
+    },
+    {
+        "text": "use procedural content generation",
+        "start": 23.0,
+        "duration": 1.98
+    },
+    {
+        "text": "to automatically generate up to 18 quintillion",
+        "start": 24.98,
+        "duration": 3.14
+    },
+    {
+        "text": "unique planets for players exploring the galaxy,",
+        "start": 28.12,
+        "duration": 3.38
+    },
+    {
+        "text": "a daunting task for any human designer.",
+        "start": 31.5,
+        "duration": 3.66
+    },
+    {
+        "text": "But programmers still need to hand-craft the rules",
+        "start": 35.16,
+        "duration": 2.72
+    },
+    {
+        "text": "that tell the computer how to create such content.",
+        "start": 37.88,
+        "duration": 3.32
+    },
+    {
+        "text": "Game levels are particularly tricky to generate",
+        "start": 41.2,
+        "duration": 2.54
+    },
+    {
+        "text": "because small changes can make them unplayable -",
+        "start": 43.74,
+        "duration": 3.32
+    },
+    {
+        "text": "a stray wall can seal off a critical passage",
+        "start": 47.06,
+        "duration": 3.14
+    },
+    {
+        "text": "—but machine learning, an AI technique",
+        "start": 50.2,
+        "duration": 2.24
+    },
+    {
+        "text": "by which computers learn from many examples,",
+        "start": 52.44,
+        "duration": 3.0
+    },
+    {
+        "text": "has generated levels for several games, including",
+        "start": 55.44,
+        "duration": 2.9
+    },
+    {
+        "text": "Super Mario Bros, Starcraft II, and The Legend of Zelda.",
+        "start": 58.34,
+        "duration": 4.34
+    },
+    {
+        "text": "In this example of an AI making Mario levels",
+        "start": 62.68,
+        "duration": 2.62
+    },
+    {
+        "text": "there are two phases.",
+        "start": 65.3,
+        "duration": 2.14
+    },
+    {
+        "text": "In the first, a “generative adversarial network”",
+        "start": 67.44,
+        "duration": 3.12
+    },
+    {
+        "text": "learns through trial and error",
+        "start": 70.56,
+        "duration": 1.4
+    },
+    {
+        "text": "to transform strings of numbers into levels",
+        "start": 71.96,
+        "duration": 2.54
+    },
+    {
+        "text": "indistinguishable from human-created levels.",
+        "start": 74.5,
+        "duration": 3.14
+    },
+    {
+        "text": "A second phase then helps find number strings",
+        "start": 77.64,
+        "duration": 2.94
+    },
+    {
+        "text": "that lead to levels that are not just realistic",
+        "start": 80.58,
+        "duration": 2.82
+    },
+    {
+        "text": "but that fit certain requirements—",
+        "start": 83.4,
+        "duration": 2.26
+    },
+    {
+        "text": "such as having a lot of enemies or jumps,",
+        "start": 85.66,
+        "duration": 2.5
+    },
+    {
+        "text": "giving researchers precise control over difficulty.",
+        "start": 88.16,
+        "duration": 3.9
+    },
+    {
+        "text": "The researchers believe their approach",
+        "start": 92.06,
+        "duration": 1.56
+    },
+    {
+        "text": "would work for other games, too.",
+        "start": 93.62,
+        "duration": 2.72
+    },
+    {
+        "text": "Another method uses adversarial networks to",
+        "start": 96.34,
+        "duration": 2.38
+    },
+    {
+        "text": "produce new maps for Doom,",
+        "start": 98.72,
+        "duration": 1.94
+    },
+    {
+        "text": "the classic first-person shooter.",
+        "start": 100.66,
+        "duration": 2.639
+    },
+    {
+        "text": "The algorithm creates Doom maps that match",
+        "start": 103.3,
+        "duration": 1.96
+    },
+    {
+        "text": "human-created ones visually and on certain",
+        "start": 105.26,
+        "duration": 2.66
+    },
+    {
+        "text": "higher-level features, such as",
+        "start": 107.94,
+        "duration": 1.74
+    },
+    {
+        "text": "the balance of large and small rooms,",
+        "start": 109.68,
+        "duration": 2.92
+    },
+    {
+        "text": "Procedural content generation doesn’t",
+        "start": 112.6,
+        "duration": 2.16
+    },
+    {
+        "text": "just save designers time and Mario from tedium.",
+        "start": 114.76,
+        "duration": 3.22
+    },
+    {
+        "text": "It could also improve video games --",
+        "start": 117.98,
+        "duration": 2.46
+    },
+    {
+        "text": "allowing games to adapt to players on the fly,",
+        "start": 120.44,
+        "duration": 2.4
+    },
+    {
+        "text": "so each level is not too hard, not too easy.",
+        "start": 122.84,
+        "duration": 3.86
+    },
+    {
+        "text": "Just super.",
+        "start": 126.7,
+        "duration": 1.6
+    }
+]

@@ -1,0 +1,527 @@
+[
+    {
+        "text": "I wanted to actually start uh with a challenge, \na little puzzle. People are probably familiar  ",
+        "start": 0.0,
+        "duration": 5.2
+    },
+    {
+        "text": "with the tetrahedron, and here's a square based \npyramid, so the triangular faces are both the same  ",
+        "start": 5.2,
+        "duration": 6.8
+    },
+    {
+        "text": "on these shapes. The challenge for you, and we'll\nperhaps solve it at the end of the video, is if I  ",
+        "start": 12.0,
+        "duration": 4.0
+    },
+    {
+        "text": "put these two shapes together tell me how many \nfaces there are on the shape that I would make",
+        "start": 16.0,
+        "duration": 6.08
+    },
+    {
+        "text": "by fusing two of the triangular faces together. \nOkay, there's your challenge. You might think, oh, ",
+        "start": 22.08,
+        "duration": 6.88
+    },
+    {
+        "text": "it doesn't sound terribly difficult for us \nNumberphile- so but we'll look at that at  ",
+        "start": 28.96,
+        "duration": 4.24
+    },
+    {
+        "text": "the end. What I wanted to talk about in this video \nwas an interesting thing I discovered working with  ",
+        "start": 33.2,
+        "duration": 5.04
+    },
+    {
+        "text": "a sculptor that lives nearby my house here; \nhe's very famous actually, Conrad Shawross,  ",
+        "start": 38.24,
+        "duration": 4.4
+    },
+    {
+        "text": "and he loves using mathematical shapes in the \nsculptures that he makes. And one of the early  ",
+        "start": 42.64,
+        "duration": 7.04
+    },
+    {
+        "text": "challenges he faced, he realised that using a bit \nof mathematics actually cut down the amount of  ",
+        "start": 49.68,
+        "duration": 6.56
+    },
+    {
+        "text": "work that he had to do as a sculptor. So he's been \nreally obsessed with this shape the tetrahedron;  ",
+        "start": 56.24,
+        "duration": 6.4
+    },
+    {
+        "text": "he sort of thought this was like one of the \ngreat building blocks of nature, and indeed  ",
+        "start": 62.64,
+        "duration": 5.28
+    },
+    {
+        "text": "he's right. The ancient Greeks of course thought \nthe platonic solids were the kind of atoms that  ",
+        "start": 67.92,
+        "duration": 8.0
+    },
+    {
+        "text": "made up the universe. So at that time we thought \nearth, wind, fire and water were the atoms of  ",
+        "start": 75.92,
+        "duration": 6.56
+    },
+    {
+        "text": "the universe; and each of those would have a \nshape. Earth, that was the shape of the cube; ",
+        "start": 82.48,
+        "duration": 5.52
+    },
+    {
+        "text": "water, the icosahedron, made out of 20 equilateral \ntriangles; air was the octahedron made out of  ",
+        "start": 88.0,
+        "duration": 8.56
+    },
+    {
+        "text": "eight equilateral triangles; and fire was this \nshape here, the tetrahedron, the kind of spikiest  ",
+        "start": 96.56,
+        "duration": 5.28
+    },
+    {
+        "text": "of the shapes. Of course we've got one platonic \nsolid left over which is the dodecahedron,  ",
+        "start": 101.84,
+        "duration": 4.72
+    },
+    {
+        "text": "and Plato left that to be the shape of the \nuniverse, which is kind of interesting.  ",
+        "start": 106.56,
+        "duration": 4.0
+    },
+    {
+        "text": "But Conrad Shawcross was- was interested \nas a sculptor in, yeah, well what about  ",
+        "start": 111.36,
+        "duration": 4.24
+    },
+    {
+        "text": "taking this atomic shape the tetrahedron and and \nseeing what he can build out of it. So one of his  ",
+        "start": 115.6,
+        "duration": 7.12
+    },
+    {
+        "text": "very first projects, he built 2,000 tetrahedrons \nand set himself the task of trying to see  ",
+        "start": 122.72,
+        "duration": 6.16
+    },
+    {
+        "text": "what he could build out of these tetrahedrons. \nAnd actually he had a deadline and suddenly the  ",
+        "start": 128.88,
+        "duration": 5.36
+    },
+    {
+        "text": "deadline looms and he's got to try and find how \nto put these 2,000 tetrahedron together; but then  ",
+        "start": 134.24,
+        "duration": 4.96
+    },
+    {
+        "text": "he talked to a mathematician who said, well you \nrealise you don't actually have 2,000 objects  ",
+        "start": 139.2,
+        "duration": 5.2
+    },
+    {
+        "text": "you've got to find how to put them together? In \nfact you have a much smaller number of building  ",
+        "start": 144.4,
+        "duration": 4.64
+    },
+    {
+        "text": "blocks. Because if you put two tetrahedron \ntogether for example there's really only  ",
+        "start": 149.04,
+        "duration": 4.72
+    },
+    {
+        "text": "one shape you can make out of that, there isn't \nanother way I can put these tetrahedron together  ",
+        "start": 153.76,
+        "duration": 4.8
+    },
+    {
+        "text": "and get a different sort of shape. So \nalready actually you've halved the problem;  ",
+        "start": 159.2,
+        "duration": 5.28
+    },
+    {
+        "text": "and and this is the power of symmetry, you \nknow, and that's my area of expertise, symmetry. ",
+        "start": 164.48,
+        "duration": 5.36
+    },
+    {
+        "text": "Symmetry often is a clever way of cutting down a \nproblem which at first sight seems like there are,  ",
+        "start": 171.04,
+        "duration": 5.68
+    },
+    {
+        "text": "you know, 2,000 different things you've got to \nput together. But then he realised, no actually,  ",
+        "start": 176.72,
+        "duration": 4.8
+    },
+    {
+        "text": "you can halve that. There are only 1,000 objects \nthat you need to consider, I've just got to put  ",
+        "start": 182.16,
+        "duration": 4.48
+    },
+    {
+        "text": "these together. But the mathematician said, no \nin fact you can cut it down even more because  ",
+        "start": 186.64,
+        "duration": 5.36
+    },
+    {
+        "text": "if I have three tetrahedron there's only one \nway I can put three tetrahedron together.  ",
+        "start": 192.64,
+        "duration": 5.52
+    },
+    {
+        "text": "So here are my little paper tetrahedron I made \nearlier for you. Here's our two put together;  ",
+        "start": 198.16,
+        "duration": 5.52
+    },
+    {
+        "text": "but actually there's only one way I can attach \na third object, and what I make is this kind of  ",
+        "start": 203.68,
+        "duration": 6.48
+    },
+    {
+        "text": "weird shape almost little like a boat isn't it? \nSo you might say, okay well that's one way to  ",
+        "start": 210.16,
+        "duration": 5.76
+    },
+    {
+        "text": "put the tetrahedron together but maybe I can \nfuse this on a different edge - and look I've  ",
+        "start": 215.92,
+        "duration": 4.48
+    },
+    {
+        "text": "got something different. But of course the point \nis that symmetry means that I can turn this and  ",
+        "start": 220.4,
+        "duration": 4.32
+    },
+    {
+        "text": "I've always got that little boat structure. So it \ndoesn't matter how many different ways I try, the  ",
+        "start": 224.72,
+        "duration": 5.12
+    },
+    {
+        "text": "symmetry means I'll always get the same object.\nSo Conrad used this as a shortcut in a way,  ",
+        "start": 229.84,
+        "duration": 6.56
+    },
+    {
+        "text": "the symmetry of how you put these together, \nto say I don't need to consider 2,000 I  ",
+        "start": 236.4,
+        "duration": 4.88
+    },
+    {
+        "text": "only need to consider a third of that and \nuse this as my basic building block; and  ",
+        "start": 241.28,
+        "duration": 4.32
+    },
+    {
+        "text": "that's what he used to make some of his uh first \ninteresting structures out of this tetrahedron.",
+        "start": 245.6,
+        "duration": 4.8
+    },
+    {
+        "text": "(Brady: But if you go up to four then it- \nthen you lose it? Four you can start-)",
+        "start": 250.4,
+        "duration": 4.4
+    },
+    {
+        "text": "Yeah then you start to um have uh different \ndirections that you're coming out, and so this is  ",
+        "start": 254.8,
+        "duration": 4.96
+    },
+    {
+        "text": "really the basic building block for his sculptures \nis this particular one here - but then there are  ",
+        "start": 259.76,
+        "duration": 5.92
+    },
+    {
+        "text": "new decisions you've got to make. And what \nhe found was there were interesting tendrils;  ",
+        "start": 265.68,
+        "duration": 4.4
+    },
+    {
+        "text": "quite unexpected shapes that emerged out \nof this. If you look at Conrad's work  ",
+        "start": 270.08,
+        "duration": 5.12
+    },
+    {
+        "text": "you see just amazing kind of weird directions that \nhe's been taken on by this particular object. And  ",
+        "start": 275.2,
+        "duration": 7.04
+    },
+    {
+        "text": "recently he's discovered a kind of new sort of \nshape which I actually had not been aware of;  ",
+        "start": 282.24,
+        "duration": 5.6
+    },
+    {
+        "text": "because one of the interesting thing is with \nplatonic solids, which of them can you pack  ",
+        "start": 287.84,
+        "duration": 4.48
+    },
+    {
+        "text": "and fill space with? A cube? Clearly you can \nstack cubes and and fill the whole of space, but  ",
+        "start": 292.32,
+        "duration": 6.16
+    },
+    {
+        "text": "do any of the other objects actually fill \nspace? You can take a a slightly non-symmetrical  ",
+        "start": 298.48,
+        "duration": 6.08
+    },
+    {
+        "text": "tetrahedron, squash it a bit and fill space with \nthat. But with the actual symmetrical tetrahedron,  ",
+        "start": 304.56,
+        "duration": 7.36
+    },
+    {
+        "text": "if you try and fill space it doesn't work, and \nthere's always kind of a little bit left over.  ",
+        "start": 311.92,
+        "duration": 5.04
+    },
+    {
+        "text": "And Conrad's made this very interesting \nshape that looks like it's trying to be a  ",
+        "start": 317.52,
+        "duration": 4.0
+    },
+    {
+        "text": "an icosahedron, it's sort of building up lots \nof triangles, but they don't quite fit together  ",
+        "start": 321.52,
+        "duration": 5.2
+    },
+    {
+        "text": "and there's kind of an interesting gap. I \nthink that's very interesting, an artist  ",
+        "start": 326.72,
+        "duration": 4.24
+    },
+    {
+        "text": "using these shapes to sort of discover very a\nasymmetrical shape made out of these tetrahedrons.  ",
+        "start": 330.96,
+        "duration": 5.04
+    },
+    {
+        "text": "It looks like it's trying to be something \nsymmetrical but doesn't quite work, it's kind of  ",
+        "start": 336.0,
+        "duration": 4.48
+    },
+    {
+        "text": "interesting, the sweet spot between something that \nis trying to be perfect but it isn't quite. (Does  ",
+        "start": 340.48,
+        "duration": 5.92
+    },
+    {
+        "text": "that tetrahedral boat have a name?) - It really \nshould do doesn't it? I mean- but now you've  ",
+        "start": 346.4,
+        "duration": 4.4
+    },
+    {
+        "text": "challenged me with that I don't know what that \nwould be called - perhaps people in the comments  ",
+        "start": 350.8,
+        "duration": 5.2
+    },
+    {
+        "text": "down below, either we can christen it, give it a \nname, or maybe somebody does know a name for that.",
+        "start": 356.0,
+        "duration": 5.6
+    },
+    {
+        "text": "Perhaps it could be called the Shawcross shape  ",
+        "start": 361.6,
+        "duration": 2.64
+    },
+    {
+        "text": "or something.\n- (It is boat-y.)",
+        "start": 364.24,
+        "duration": 1.84
+    },
+    {
+        "text": "It is a little bit boat-y. \nSo I think it's interesting  ",
+        "start": 366.08,
+        "duration": 2.8
+    },
+    {
+        "text": "how you can use symmetry very often to to \ncut down the hard work you've got to do;  ",
+        "start": 368.88,
+        "duration": 5.36
+    },
+    {
+        "text": "and and very often in when I'm looking \nat a particular mathematical problem,  ",
+        "start": 374.24,
+        "duration": 3.52
+    },
+    {
+        "text": "sometimes you're looking at an equation um \nand it can be solved in many different ways,  ",
+        "start": 378.56,
+        "duration": 5.12
+    },
+    {
+        "text": "uh but spotting that actually all of the solutions \nare kind of symmetrical versions of each other  ",
+        "start": 383.68,
+        "duration": 6.08
+    },
+    {
+        "text": "is often a way of cutting down the work. You \njust have to find one solution and then use the  ",
+        "start": 389.76,
+        "duration": 4.0
+    },
+    {
+        "text": "symmetry to find all of the others. So that's a \nvery common trick in mathematics and in science.",
+        "start": 393.76,
+        "duration": 7.04
+    },
+    {
+        "text": "But it was intriguing, it was the first time \nI'd seen it used by a sculptor as a- you know,  ",
+        "start": 400.8,
+        "duration": 4.96
+    },
+    {
+        "text": "oh yeah use the symmetry and cut down the work.\n- (What work was he cutting down Professor?  ",
+        "start": 405.76,
+        "duration": 5.68
+    },
+    {
+        "text": "Was it- was it- was)",
+        "start": 411.44,
+        "duration": 0.96
+    },
+    {
+        "text": "(he having to cast less pieces \nor something like that?) ",
+        "start": 412.4,
+        "duration": 2.4
+    },
+    {
+        "text": "- Well he'd actually made all of these 2,000 \ncubes out of wood; but what he'd cut down was  ",
+        "start": 414.8,
+        "duration": 7.52
+    },
+    {
+        "text": "just- what he needed to put together was these \nthree and then they were the building blocks  ",
+        "start": 422.32,
+        "duration": 3.84
+    },
+    {
+        "text": "from which everything else- you know, there was \nnothing new that would emerge if he hadn't have  ",
+        "start": 426.16,
+        "duration": 4.32
+    },
+    {
+        "text": "done that. At first I think there may be many more \npossibilities but the symmetry showed, no, all of  ",
+        "start": 430.48,
+        "duration": 4.8
+    },
+    {
+        "text": "these are actually examples of the same thing. So \nmaybe we should come back to our little challenge  ",
+        "start": 435.28,
+        "duration": 4.0
+    },
+    {
+        "text": "because that was about putting shapes together and \nunderstanding what shape emerges by putting two  ",
+        "start": 439.28,
+        "duration": 5.28
+    },
+    {
+        "text": "together. So at first sight you may say this is \npretty obvious - this shape has 5 faces, this one  ",
+        "start": 444.56,
+        "duration": 8.88
+    },
+    {
+        "text": "has 4 faces, when I put these together I lose two \nfaces. So 5 plus 4 is 9, so I should get 7 faces.  ",
+        "start": 453.44,
+        "duration": 8.48
+    },
+    {
+        "text": "So what's the big uh problem? But \nsomething rather curious happens  ",
+        "start": 462.72,
+        "duration": 4.88
+    },
+    {
+        "text": "because when I put these together I lose two \nmore faces! Because look at this - these two  ",
+        "start": 467.6,
+        "duration": 5.92
+    },
+    {
+        "text": "line up, and so these two actually become one \nface, so this object actually has 5 faces: 1, 2,  ",
+        "start": 473.52,
+        "duration": 8.88
+    },
+    {
+        "text": "3, 4, 5 faces.\nSo that's a little bit",
+        "start": 483.68,
+        "duration": 5.04
+    },
+    {
+        "text": "of a surprise that comes out of that. I hope you \nperhaps experienced an 'oh, that's unexpected'. ",
+        "start": 488.72,
+        "duration": 4.96
+    },
+    {
+        "text": "And what's curious about this is this was set in \none of the SAT exams uh in America, just to see  ",
+        "start": 494.4,
+        "duration": 8.08
+    },
+    {
+        "text": "how good you are at conceptual visualisation. And \nthey didn't realise that um- this kind of rather  ",
+        "start": 502.48,
+        "duration": 6.48
+    },
+    {
+        "text": "curious answer. So the the people who said 7\ngot the score and those who said 5 um were given  ",
+        "start": 508.96,
+        "duration": 8.16
+    },
+    {
+        "text": "no marks at all, but actually it turns out \nrather curiously that when you put these together  ",
+        "start": 517.12,
+        "duration": 5.04
+    },
+    {
+        "text": "um this shape actually only has 5 faces. In \nthis shape you've got um 2 faces on this side  ",
+        "start": 522.16,
+        "duration": 6.08
+    },
+    {
+        "text": "and 2 that faces on this side that fuse. So so \nactually this - which you might have first thought  ",
+        "start": 528.24,
+        "duration": 5.84
+    },
+    {
+        "text": "counted as uh 2 different faces - you've \ngot 1, 2, 3, the square on the bottom,  ",
+        "start": 534.08,
+        "duration": 6.32
+    },
+    {
+        "text": "and the last triangle there, 5.\n- (Totally got me.)",
+        "start": 540.4,
+        "duration": 3.04
+    },
+    {
+        "text": "I know!\n- (I would  ",
+        "start": 544.32,
+        "duration": 1.76
+    },
+    {
+        "text": "have got the mark in the SATs though.)\n- Exactly! That was what was so crazy. ",
+        "start": 546.08,
+        "duration": 4.4
+    },
+    {
+        "text": "See the links in the description for \nmore videos with Marcus du Sautoy  ",
+        "start": 552.0,
+        "duration": 3.76
+    },
+    {
+        "text": "plus links to his books and theatre productions \n- other things he's up to. ...so for example  ",
+        "start": 555.76,
+        "duration": 5.04
+    },
+    {
+        "text": "you might want to know - well is this \nparticular statement provable from the axioms?",
+        "start": 560.8,
+        "duration": 6.32
+    }
+]

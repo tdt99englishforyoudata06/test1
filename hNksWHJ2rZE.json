@@ -1,0 +1,2942 @@
+[
+    {
+        "text": "I recently came across this interesting",
+        "start": 0.0,
+        "duration": 4.17
+    },
+    {
+        "text": "piece of test equipment at a convention",
+        "start": 2.22,
+        "duration": 4.32
+    },
+    {
+        "text": "and I asked National Instruments to send",
+        "start": 4.17,
+        "duration": 3.84
+    },
+    {
+        "text": "me a loaner models that I could play",
+        "start": 6.54,
+        "duration": 3.389
+    },
+    {
+        "text": "with it a bit more and show you guys as",
+        "start": 8.01,
+        "duration": 4.29
+    },
+    {
+        "text": "well so they did but I'm not receiving",
+        "start": 9.929,
+        "duration": 4.771
+    },
+    {
+        "text": "any compensation for this review and I'm",
+        "start": 12.3,
+        "duration": 4.44
+    },
+    {
+        "text": "also not going to charge patreon users",
+        "start": 14.7,
+        "duration": 3.69
+    },
+    {
+        "text": "for this video just to keep it as",
+        "start": 16.74,
+        "duration": 5.31
+    },
+    {
+        "text": "conflict-free as possible so let's talk",
+        "start": 18.39,
+        "duration": 5.1
+    },
+    {
+        "text": "about what this thing actually is this",
+        "start": 22.05,
+        "duration": 2.58
+    },
+    {
+        "text": "is called the National Instruments",
+        "start": 23.49,
+        "duration": 3.869
+    },
+    {
+        "text": "virtual bench and it's a whole bunch of",
+        "start": 24.63,
+        "duration": 4.139
+    },
+    {
+        "text": "instruments crammed into this fairly",
+        "start": 27.359,
+        "duration": 4.711
+    },
+    {
+        "text": "compact unit so it's got a two channel",
+        "start": 28.769,
+        "duration": 5.401
+    },
+    {
+        "text": "oscilloscope it's 100 megahertz",
+        "start": 32.07,
+        "duration": 4.89
+    },
+    {
+        "text": "bandwidth with a Giga sample sampling",
+        "start": 34.17,
+        "duration": 5.159
+    },
+    {
+        "text": "rate if you're using both channels it's",
+        "start": 36.96,
+        "duration": 4.169
+    },
+    {
+        "text": "500 Meg for if you're doing both",
+        "start": 39.329,
+        "duration": 4.261
+    },
+    {
+        "text": "channels at the same time it's got a",
+        "start": 41.129,
+        "duration": 5.25
+    },
+    {
+        "text": "function generator 14 bit DAC which is",
+        "start": 43.59,
+        "duration": 5.19
+    },
+    {
+        "text": "capable of arbitrary waveforms but only",
+        "start": 46.379,
+        "duration": 4.651
+    },
+    {
+        "text": "through the programming interface when",
+        "start": 48.78,
+        "duration": 3.84
+    },
+    {
+        "text": "you're using the bundled application",
+        "start": 51.03,
+        "duration": 2.73
+    },
+    {
+        "text": "with this thing which we'll talk about",
+        "start": 52.62,
+        "duration": 3.18
+    },
+    {
+        "text": "in a minute it's a you know your",
+        "start": 53.76,
+        "duration": 4.639
+    },
+    {
+        "text": "standard square sine and triangle waves",
+        "start": 55.8,
+        "duration": 4.919
+    },
+    {
+        "text": "it has a five and a half digit",
+        "start": 58.399,
+        "duration": 4.061
+    },
+    {
+        "text": "multimeter and it comes with standard",
+        "start": 60.719,
+        "duration": 3.961
+    },
+    {
+        "text": "probes like this and it's capable of",
+        "start": 62.46,
+        "duration": 5.22
+    },
+    {
+        "text": "measuring up to 10 amps it's also got an",
+        "start": 64.68,
+        "duration": 5.31
+    },
+    {
+        "text": "integrated power supply so it has a six",
+        "start": 67.68,
+        "duration": 4.56
+    },
+    {
+        "text": "volt 1 amp supply which is fully",
+        "start": 69.99,
+        "duration": 5.22
+    },
+    {
+        "text": "programmable and also a plus 25 and a",
+        "start": 72.24,
+        "duration": 5.46
+    },
+    {
+        "text": "negative 25 volt supply at half an amp",
+        "start": 75.21,
+        "duration": 5.13
+    },
+    {
+        "text": "each and then the most interesting part",
+        "start": 77.7,
+        "duration": 5.52
+    },
+    {
+        "text": "the best for last it has this digital",
+        "start": 80.34,
+        "duration": 5.76
+    },
+    {
+        "text": "i/o connector and it has eight channels",
+        "start": 83.22,
+        "duration": 5.52
+    },
+    {
+        "text": "that you can control and even send bus",
+        "start": 86.1,
+        "duration": 5.28
+    },
+    {
+        "text": "protocols in and out so spy and I",
+        "start": 88.74,
+        "duration": 4.589
+    },
+    {
+        "text": "squared C can be read or written through",
+        "start": 91.38,
+        "duration": 4.529
+    },
+    {
+        "text": "this port I almost forgot it also has a",
+        "start": 93.329,
+        "duration": 6.121
+    },
+    {
+        "text": "34 channel logic analyzer built into it",
+        "start": 95.909,
+        "duration": 6.301
+    },
+    {
+        "text": "so it's a mixed mode oscilloscope there",
+        "start": 99.45,
+        "duration": 4.47
+    },
+    {
+        "text": "are two main ways to interact with this",
+        "start": 102.21,
+        "duration": 3.63
+    },
+    {
+        "text": "piece of equipment you can use the",
+        "start": 103.92,
+        "duration": 3.69
+    },
+    {
+        "text": "bundled application that National",
+        "start": 105.84,
+        "duration": 3.48
+    },
+    {
+        "text": "Instruments provides with it and that",
+        "start": 107.61,
+        "duration": 4.289
+    },
+    {
+        "text": "runs on either an iPad or on Windows and",
+        "start": 109.32,
+        "duration": 4.409
+    },
+    {
+        "text": "it allows you to control all the",
+        "start": 111.899,
+        "duration": 5.04
+    },
+    {
+        "text": "instruments through manual drop menus in",
+        "start": 113.729,
+        "duration": 5.011
+    },
+    {
+        "text": "in the software which I'll show and of",
+        "start": 116.939,
+        "duration": 3.591
+    },
+    {
+        "text": "course it's a PC based oscilloscope",
+        "start": 118.74,
+        "duration": 4.05
+    },
+    {
+        "text": "however you can also control it",
+        "start": 120.53,
+        "duration": 4.72
+    },
+    {
+        "text": "programmatically through LabVIEW or",
+        "start": 122.79,
+        "duration": 5.009
+    },
+    {
+        "text": "through C and National Instruments",
+        "start": 125.25,
+        "duration": 4.92
+    },
+    {
+        "text": "provides a C library and some example",
+        "start": 127.799,
+        "duration": 4.83
+    },
+    {
+        "text": "code so the reason that I'm most",
+        "start": 130.17,
+        "duration": 3.39
+    },
+    {
+        "text": "interested in this",
+        "start": 132.629,
+        "duration": 3.241
+    },
+    {
+        "text": "equipment is that you can do things like",
+        "start": 133.56,
+        "duration": 3.84
+    },
+    {
+        "text": "monitor the current through the power",
+        "start": 135.87,
+        "duration": 3.54
+    },
+    {
+        "text": "supply at the same time you're sending",
+        "start": 137.4,
+        "duration": 4.199
+    },
+    {
+        "text": "and receiving spy commands through the",
+        "start": 139.41,
+        "duration": 4.11
+    },
+    {
+        "text": "digital port at the same time that",
+        "start": 141.599,
+        "duration": 3.661
+    },
+    {
+        "text": "you're using the oscilloscope to",
+        "start": 143.52,
+        "duration": 4.469
+    },
+    {
+        "text": "actually measure higher speed signals so",
+        "start": 145.26,
+        "duration": 4.41
+    },
+    {
+        "text": "this whole unit here can function as a",
+        "start": 147.989,
+        "duration": 4.141
+    },
+    {
+        "text": "standalone test bench where you could",
+        "start": 149.67,
+        "duration": 4.59
+    },
+    {
+        "text": "put a sensor in front of it and power",
+        "start": 152.13,
+        "duration": 3.96
+    },
+    {
+        "text": "the sensor through the power supply",
+        "start": 154.26,
+        "duration": 3.809
+    },
+    {
+        "text": "check how much currents it's drawing",
+        "start": 156.09,
+        "duration": 4.17
+    },
+    {
+        "text": "very the voltage up and down interact",
+        "start": 158.069,
+        "duration": 3.39
+    },
+    {
+        "text": "with the sensor through the digital",
+        "start": 160.26,
+        "duration": 3.839
+    },
+    {
+        "text": "stuff and measure you know the analog if",
+        "start": 161.459,
+        "duration": 6.961
+    },
+    {
+        "text": "you've got an analog sensor I can see a",
+        "start": 164.099,
+        "duration": 6.031
+    },
+    {
+        "text": "few applications where this piece of",
+        "start": 168.42,
+        "duration": 3.93
+    },
+    {
+        "text": "equipment would be especially suited so",
+        "start": 170.13,
+        "duration": 4.109
+    },
+    {
+        "text": "for example at the end of an assembly",
+        "start": 172.35,
+        "duration": 3.24
+    },
+    {
+        "text": "line if you want to test the boards",
+        "start": 174.239,
+        "duration": 3.271
+    },
+    {
+        "text": "coming off the wine you basically got",
+        "start": 175.59,
+        "duration": 3.33
+    },
+    {
+        "text": "everything you could pretty much ever",
+        "start": 177.51,
+        "duration": 3.99
+    },
+    {
+        "text": "want here with the power supply included",
+        "start": 178.92,
+        "duration": 3.69
+    },
+    {
+        "text": "and all the other things that I",
+        "start": 181.5,
+        "duration": 2.91
+    },
+    {
+        "text": "mentioned you could put the board in",
+        "start": 182.61,
+        "duration": 3.57
+    },
+    {
+        "text": "your test jig and have this thing run",
+        "start": 184.41,
+        "duration": 2.909
+    },
+    {
+        "text": "through a bunch of tests",
+        "start": 186.18,
+        "duration": 3.059
+    },
+    {
+        "text": "programmatically you could simulate a",
+        "start": 187.319,
+        "duration": 3.661
+    },
+    {
+        "text": "dying battery you could simulate a",
+        "start": 189.239,
+        "duration": 4.761
+    },
+    {
+        "text": "reverse battery you can manually",
+        "start": 190.98,
+        "duration": 5.13
+    },
+    {
+        "text": "simulate button presses through the",
+        "start": 194.0,
+        "duration": 4.57
+    },
+    {
+        "text": "digital controls and so on and since",
+        "start": 196.11,
+        "duration": 3.81
+    },
+    {
+        "text": "it's all being controlled through that",
+        "start": 198.57,
+        "duration": 4.32
+    },
+    {
+        "text": "view or C programming you can write a",
+        "start": 199.92,
+        "duration": 5.55
+    },
+    {
+        "text": "test procedure basically a state machine",
+        "start": 202.89,
+        "duration": 4.8
+    },
+    {
+        "text": "or whatever you want and the assembly",
+        "start": 205.47,
+        "duration": 4.17
+    },
+    {
+        "text": "line worker only has to interact with a",
+        "start": 207.69,
+        "duration": 3.78
+    },
+    {
+        "text": "very clean interface basically just hit",
+        "start": 209.64,
+        "duration": 3.36
+    },
+    {
+        "text": "go and the thing could run through all",
+        "start": 211.47,
+        "duration": 4.65
+    },
+    {
+        "text": "the tests I think it's also very",
+        "start": 213.0,
+        "duration": 4.89
+    },
+    {
+        "text": "well-suited for testing sensors",
+        "start": 216.12,
+        "duration": 3.6
+    },
+    {
+        "text": "basically functioning as a data logger",
+        "start": 217.89,
+        "duration": 4.469
+    },
+    {
+        "text": "and so your sensor might be I squared C",
+        "start": 219.72,
+        "duration": 5.609
+    },
+    {
+        "text": "or spy and collecting that data through",
+        "start": 222.359,
+        "duration": 5.28
+    },
+    {
+        "text": "a benchtop instrument is actually fairly",
+        "start": 225.329,
+        "duration": 3.871
+    },
+    {
+        "text": "difficult especially if you have to",
+        "start": 227.639,
+        "duration": 3.271
+    },
+    {
+        "text": "program the device like if you have to",
+        "start": 229.2,
+        "duration": 4.02
+    },
+    {
+        "text": "send a spy command and then read the",
+        "start": 230.91,
+        "duration": 4.949
+    },
+    {
+        "text": "data with LabVIEW especially you can",
+        "start": 233.22,
+        "duration": 4.71
+    },
+    {
+        "text": "collect all of this and then even plot",
+        "start": 235.859,
+        "duration": 4.741
+    },
+    {
+        "text": "it over time so if you're if you want to",
+        "start": 237.93,
+        "duration": 4.26
+    },
+    {
+        "text": "trial a temperature sensor for an",
+        "start": 240.6,
+        "duration": 3.96
+    },
+    {
+        "text": "upcoming design or something and the",
+        "start": 242.19,
+        "duration": 4.919
+    },
+    {
+        "text": "temperature sensor speaks spy you'd be",
+        "start": 244.56,
+        "duration": 4.14
+    },
+    {
+        "text": "great to have this thing just run all",
+        "start": 247.109,
+        "duration": 3.75
+    },
+    {
+        "text": "day long and make sure that it's stable",
+        "start": 248.7,
+        "duration": 3.99
+    },
+    {
+        "text": "and watched the temperature variation",
+        "start": 250.859,
+        "duration": 3.481
+    },
+    {
+        "text": "over time just to make sure the sensor",
+        "start": 252.69,
+        "duration": 4.26
+    },
+    {
+        "text": "is working the way you want I should",
+        "start": 254.34,
+        "duration": 4.56
+    },
+    {
+        "text": "also mention the device has two",
+        "start": 256.95,
+        "duration": 4.23
+    },
+    {
+        "text": "interfaces for the computer connection",
+        "start": 258.9,
+        "duration": 5.73
+    },
+    {
+        "text": "it's got a USB and then it also has a",
+        "start": 261.18,
+        "duration": 5.76
+    },
+    {
+        "text": "Wi-Fi a wireless connection",
+        "start": 264.63,
+        "duration": 4.68
+    },
+    {
+        "text": "and and I did a pretty cool job of",
+        "start": 266.94,
+        "duration": 5.0
+    },
+    {
+        "text": "designing the Wi-Fi this can act as a",
+        "start": 269.31,
+        "duration": 5.31
+    },
+    {
+        "text": "network host so you can tell this thing",
+        "start": 271.94,
+        "duration": 4.81
+    },
+    {
+        "text": "to start a wireless network and then you",
+        "start": 274.62,
+        "duration": 3.24
+    },
+    {
+        "text": "can connect to it from your computer",
+        "start": 276.75,
+        "duration": 3.36
+    },
+    {
+        "text": "without adding like another router to it",
+        "start": 277.86,
+        "duration": 5.94
+    },
+    {
+        "text": "also handy if your work situation has",
+        "start": 280.11,
+        "duration": 5.04
+    },
+    {
+        "text": "like a corporate network and you don't",
+        "start": 283.8,
+        "duration": 2.7
+    },
+    {
+        "text": "want to connect to it because this isn't",
+        "start": 285.15,
+        "duration": 3.6
+    },
+    {
+        "text": "you know certified piece of equipment",
+        "start": 286.5,
+        "duration": 4.17
+    },
+    {
+        "text": "you can tell it to start its own Wi-Fi",
+        "start": 288.75,
+        "duration": 4.65
+    },
+    {
+        "text": "and get around it that way there's also",
+        "start": 290.67,
+        "duration": 4.5
+    },
+    {
+        "text": "the possibility of putting this thing on",
+        "start": 293.4,
+        "duration": 4.23
+    },
+    {
+        "text": "a device that is moving for example a",
+        "start": 295.17,
+        "duration": 4.5
+    },
+    {
+        "text": "robot and if you power this with like a",
+        "start": 297.63,
+        "duration": 3.84
+    },
+    {
+        "text": "car battery and inverter you can",
+        "start": 299.67,
+        "duration": 3.66
+    },
+    {
+        "text": "actually send you know communicate with",
+        "start": 301.47,
+        "duration": 4.08
+    },
+    {
+        "text": "this thing over the Wi-Fi and even",
+        "start": 303.33,
+        "duration": 4.32
+    },
+    {
+        "text": "control the robot through LabVIEW and",
+        "start": 305.55,
+        "duration": 3.78
+    },
+    {
+        "text": "you know through the digital controls",
+        "start": 307.65,
+        "duration": 4.23
+    },
+    {
+        "text": "and collect data all at the same time so",
+        "start": 309.33,
+        "duration": 4.08
+    },
+    {
+        "text": "there's quite a few applications where I",
+        "start": 311.88,
+        "duration": 3.42
+    },
+    {
+        "text": "think sort of data logging and sensor",
+        "start": 313.41,
+        "duration": 3.81
+    },
+    {
+        "text": "interfaces where this thing is most",
+        "start": 315.3,
+        "duration": 5.64
+    },
+    {
+        "text": "appropriate the instrument costs $2,000",
+        "start": 317.22,
+        "duration": 5.52
+    },
+    {
+        "text": "and if you'd like LabVIEW on top of that",
+        "start": 320.94,
+        "duration": 4.2
+    },
+    {
+        "text": "that's an extra thousand all right so",
+        "start": 322.74,
+        "duration": 3.81
+    },
+    {
+        "text": "let's try some tests with it so I have",
+        "start": 325.14,
+        "duration": 4.05
+    },
+    {
+        "text": "it hooked up to a milligram balance that",
+        "start": 326.55,
+        "duration": 4.86
+    },
+    {
+        "text": "I've hacked and internally there's a spy",
+        "start": 329.19,
+        "duration": 3.66
+    },
+    {
+        "text": "bus in here that I've brought out to a",
+        "start": 331.41,
+        "duration": 3.66
+    },
+    {
+        "text": "connector and I'm probing the spy bus",
+        "start": 332.85,
+        "duration": 4.35
+    },
+    {
+        "text": "with the two analog channels so let's",
+        "start": 335.07,
+        "duration": 3.99
+    },
+    {
+        "text": "take a look at the bundled app that",
+        "start": 337.2,
+        "duration": 4.5
+    },
+    {
+        "text": "comes with it here's the Windows",
+        "start": 339.06,
+        "duration": 4.62
+    },
+    {
+        "text": "application you can see at the top we've",
+        "start": 341.7,
+        "duration": 3.69
+    },
+    {
+        "text": "got sort of a zoomed out view of the two",
+        "start": 343.68,
+        "duration": 4.38
+    },
+    {
+        "text": "traces and we've got some time-based",
+        "start": 345.39,
+        "duration": 5.1
+    },
+    {
+        "text": "controls up here you can also change the",
+        "start": 348.06,
+        "duration": 5.33
+    },
+    {
+        "text": "time base by using the mouse wheel",
+        "start": 350.49,
+        "duration": 5.46
+    },
+    {
+        "text": "here's the set up for the channels I",
+        "start": 353.39,
+        "duration": 6.1
+    },
+    {
+        "text": "think that the interface is a little too",
+        "start": 355.95,
+        "duration": 5.34
+    },
+    {
+        "text": "plain like for example if you want to",
+        "start": 359.49,
+        "duration": 3.12
+    },
+    {
+        "text": "change something with channel one",
+        "start": 361.29,
+        "duration": 3.84
+    },
+    {
+        "text": "there's no actual controls there until",
+        "start": 362.61,
+        "duration": 3.96
+    },
+    {
+        "text": "you hover over it and there's this tiny",
+        "start": 365.13,
+        "duration": 5.07
+    },
+    {
+        "text": "little 3 dot menu that pulls up the",
+        "start": 366.57,
+        "duration": 6.29
+    },
+    {
+        "text": "actual coupling controls for channel 1",
+        "start": 370.2,
+        "duration": 5.1
+    },
+    {
+        "text": "they probably ran out of screen real",
+        "start": 372.86,
+        "duration": 4.72
+    },
+    {
+        "text": "estate but I think they made a little",
+        "start": 375.3,
+        "duration": 3.57
+    },
+    {
+        "text": "bit too big of an effort to hide the",
+        "start": 377.58,
+        "duration": 4.11
+    },
+    {
+        "text": "controls over here we've got the",
+        "start": 378.87,
+        "duration": 4.86
+    },
+    {
+        "text": "function generator set up it's got quite",
+        "start": 381.69,
+        "duration": 3.99
+    },
+    {
+        "text": "a voltage range it goes from negative 12",
+        "start": 383.73,
+        "duration": 5.16
+    },
+    {
+        "text": "12 to 12 volts as you can see in the app",
+        "start": 385.68,
+        "duration": 5.37
+    },
+    {
+        "text": "control it's just the three waveforms",
+        "start": 388.89,
+        "duration": 4.35
+    },
+    {
+        "text": "that we have a triangle wave square wave",
+        "start": 391.05,
+        "duration": 6.39
+    },
+    {
+        "text": "or sine wave down here we've got the",
+        "start": 393.24,
+        "duration": 5.79
+    },
+    {
+        "text": "multimeter controls and you can select",
+        "start": 397.44,
+        "duration": 3.21
+    },
+    {
+        "text": "what you want to measure",
+        "start": 399.03,
+        "duration": 5.669
+    },
+    {
+        "text": "with the buttons here here we have a",
+        "start": 400.65,
+        "duration": 6.48
+    },
+    {
+        "text": "control for the power supply so this",
+        "start": 404.699,
+        "duration": 4.44
+    },
+    {
+        "text": "button here turns on all three supplies",
+        "start": 407.13,
+        "duration": 3.659
+    },
+    {
+        "text": "I don't believe they can be turned on",
+        "start": 409.139,
+        "duration": 4.411
+    },
+    {
+        "text": "and off individually but you can set the",
+        "start": 410.789,
+        "duration": 5.1
+    },
+    {
+        "text": "voltages individually I forgot to",
+        "start": 413.55,
+        "duration": 4.38
+    },
+    {
+        "text": "mention that the 25 volt supplies are",
+        "start": 415.889,
+        "duration": 3.721
+    },
+    {
+        "text": "programmable just like the six volt",
+        "start": 417.93,
+        "duration": 4.829
+    },
+    {
+        "text": "supply so you can either use the up/down",
+        "start": 419.61,
+        "duration": 5.01
+    },
+    {
+        "text": "keys to select a voltage or of course",
+        "start": 422.759,
+        "duration": 5.151
+    },
+    {
+        "text": "you can just type in whatever you want",
+        "start": 424.62,
+        "duration": 6.269
+    },
+    {
+        "text": "this corner has the digital i/o control",
+        "start": 427.91,
+        "duration": 4.78
+    },
+    {
+        "text": "and so again if we press this small menu",
+        "start": 430.889,
+        "duration": 4.021
+    },
+    {
+        "text": "button we can select some of these lines",
+        "start": 432.69,
+        "duration": 5.07
+    },
+    {
+        "text": "to be outputs so for example 1 and 2 can",
+        "start": 434.91,
+        "duration": 4.95
+    },
+    {
+        "text": "be outputs and then by clicking on the",
+        "start": 437.76,
+        "duration": 4.08
+    },
+    {
+        "text": "toggle button that it just created we",
+        "start": 439.86,
+        "duration": 3.63
+    },
+    {
+        "text": "can change the digital state of those",
+        "start": 441.84,
+        "duration": 4.699
+    },
+    {
+        "text": "i/o lines and it's a 3.3 volt output I",
+        "start": 443.49,
+        "duration": 6.12
+    },
+    {
+        "text": "believe they're 5 volt tolerant I think",
+        "start": 446.539,
+        "duration": 5.681
+    },
+    {
+        "text": "in the documentation it says that it can",
+        "start": 449.61,
+        "duration": 4.17
+    },
+    {
+        "text": "take up to 5 volts and they're protected",
+        "start": 452.22,
+        "duration": 3.479
+    },
+    {
+        "text": "against higher voltages but you really",
+        "start": 453.78,
+        "duration": 5.43
+    },
+    {
+        "text": "shouldn't go above 5 it also has fairly",
+        "start": 455.699,
+        "duration": 5.581
+    },
+    {
+        "text": "basic oscilloscope functionality so it's",
+        "start": 459.21,
+        "duration": 4.86
+    },
+    {
+        "text": "got a measurement menu where you can add",
+        "start": 461.28,
+        "duration": 4.62
+    },
+    {
+        "text": "these measurements to the current screen",
+        "start": 464.07,
+        "duration": 3.9
+    },
+    {
+        "text": "and it's already showing the frequency",
+        "start": 465.9,
+        "duration": 5.37
+    },
+    {
+        "text": "of channel 1 and so on it's also got a",
+        "start": 467.97,
+        "duration": 6.419
+    },
+    {
+        "text": "standard cursors menu so we can do some",
+        "start": 471.27,
+        "duration": 6.57
+    },
+    {
+        "text": "time cursors and probably the one thing",
+        "start": 474.389,
+        "duration": 5.431
+    },
+    {
+        "text": "that I like better about having this",
+        "start": 477.84,
+        "duration": 3.6
+    },
+    {
+        "text": "interface is that it's easier to",
+        "start": 479.82,
+        "duration": 4.89
+    },
+    {
+        "text": "position cursors on the waveform this is",
+        "start": 481.44,
+        "duration": 4.949
+    },
+    {
+        "text": "a little bit can use the mouse wheel to",
+        "start": 484.71,
+        "duration": 4.59
+    },
+    {
+        "text": "kind of scroll in and out and then the",
+        "start": 486.389,
+        "duration": 5.431
+    },
+    {
+        "text": "cursor can be positioned a little bit",
+        "start": 489.3,
+        "duration": 5.489
+    },
+    {
+        "text": "more easily right over the wave so as",
+        "start": 491.82,
+        "duration": 4.26
+    },
+    {
+        "text": "you might have guessed I'm not a huge",
+        "start": 494.789,
+        "duration": 3.931
+    },
+    {
+        "text": "fan of PC based oscilloscopes it has",
+        "start": 496.08,
+        "duration": 4.68
+    },
+    {
+        "text": "some of these sort of nice features",
+        "start": 498.72,
+        "duration": 3.54
+    },
+    {
+        "text": "where you can you know drag things",
+        "start": 500.76,
+        "duration": 4.23
+    },
+    {
+        "text": "around but for example they they always",
+        "start": 502.26,
+        "duration": 4.26
+    },
+    {
+        "text": "seem to lack something for example if",
+        "start": 504.99,
+        "duration": 3.51
+    },
+    {
+        "text": "you you know drag this it doesn't redraw",
+        "start": 506.52,
+        "duration": 3.69
+    },
+    {
+        "text": "for some strange reason you have to let",
+        "start": 508.5,
+        "duration": 4.38
+    },
+    {
+        "text": "the button up for it to redraw so if you",
+        "start": 510.21,
+        "duration": 4.68
+    },
+    {
+        "text": "actually want to inspect a signal that's",
+        "start": 512.88,
+        "duration": 3.899
+    },
+    {
+        "text": "quite long you know this thing stores",
+        "start": 514.89,
+        "duration": 4.38
+    },
+    {
+        "text": "about a million points I think for a",
+        "start": 516.779,
+        "duration": 4.981
+    },
+    {
+        "text": "record so as you can see in the top",
+        "start": 519.27,
+        "duration": 5.1
+    },
+    {
+        "text": "trace there's this falling edge that's",
+        "start": 521.76,
+        "duration": 4.38
+    },
+    {
+        "text": "quite a bit ahead so we can drag over to",
+        "start": 524.37,
+        "duration": 3.81
+    },
+    {
+        "text": "look at it but we have to let the button",
+        "start": 526.14,
+        "duration": 3.36
+    },
+    {
+        "text": "up to see it so if you're actually",
+        "start": 528.18,
+        "duration": 2.82
+    },
+    {
+        "text": "looking for glitches or something and",
+        "start": 529.5,
+        "duration": 3.0
+    },
+    {
+        "text": "you're dragging this thing along hoping",
+        "start": 531.0,
+        "duration": 2.87
+    },
+    {
+        "text": "to see them you",
+        "start": 532.5,
+        "duration": 4.07
+    },
+    {
+        "text": "we'll another strange thing is that the",
+        "start": 533.87,
+        "duration": 5.64
+    },
+    {
+        "text": "zoom level is tied to the time base so",
+        "start": 536.57,
+        "duration": 5.28
+    },
+    {
+        "text": "if i zoom in it's actually changing the",
+        "start": 539.51,
+        "duration": 4.86
+    },
+    {
+        "text": "time base as i zoom in but you may not",
+        "start": 541.85,
+        "duration": 3.87
+    },
+    {
+        "text": "want to do that you may want to keep the",
+        "start": 544.37,
+        "duration": 3.659
+    },
+    {
+        "text": "time base fixed and then just move your",
+        "start": 545.72,
+        "duration": 3.9
+    },
+    {
+        "text": "zoomed in window around within the",
+        "start": 548.029,
+        "duration": 4.351
+    },
+    {
+        "text": "waveform actually let me try a single",
+        "start": 549.62,
+        "duration": 5.19
+    },
+    {
+        "text": "and see now see even if it's a single",
+        "start": 552.38,
+        "duration": 4.32
+    },
+    {
+        "text": "even if the acquisition is already done",
+        "start": 554.81,
+        "duration": 3.75
+    },
+    {
+        "text": "it still doesn't redraw so that actually",
+        "start": 556.7,
+        "duration": 3.15
+    },
+    {
+        "text": "is a bug that they might be able to fix",
+        "start": 558.56,
+        "duration": 4.56
+    },
+    {
+        "text": "it does have a slightly more advanced",
+        "start": 559.85,
+        "duration": 4.679
+    },
+    {
+        "text": "triggering so you can trigger on a",
+        "start": 563.12,
+        "duration": 3.81
+    },
+    {
+        "text": "pattern and then again press this tiny",
+        "start": 564.529,
+        "duration": 5.121
+    },
+    {
+        "text": "little button and it comes up with",
+        "start": 566.93,
+        "duration": 4.74
+    },
+    {
+        "text": "digital lines that have to be in a",
+        "start": 569.65,
+        "duration": 4.3
+    },
+    {
+        "text": "certain state for it to trigger I don't",
+        "start": 571.67,
+        "duration": 4.14
+    },
+    {
+        "text": "believe that it can trigger off of spy",
+        "start": 573.95,
+        "duration": 5.55
+    },
+    {
+        "text": "or I squared C messages though I also",
+        "start": 575.81,
+        "duration": 7.98
+    },
+    {
+        "text": "don't see a more complex single line",
+        "start": 579.5,
+        "duration": 6.72
+    },
+    {
+        "text": "trigger so for example a pulse and then",
+        "start": 583.79,
+        "duration": 4.5
+    },
+    {
+        "text": "a delay or a missing pulse trigger I",
+        "start": 586.22,
+        "duration": 4.02
+    },
+    {
+        "text": "don't see anything like that and I",
+        "start": 588.29,
+        "duration": 4.02
+    },
+    {
+        "text": "haven't read anything that indicates it",
+        "start": 590.24,
+        "duration": 4.77
+    },
+    {
+        "text": "can do that there is hope though I think",
+        "start": 592.31,
+        "duration": 4.59
+    },
+    {
+        "text": "that ni is spending quite a bit of time",
+        "start": 595.01,
+        "duration": 4.74
+    },
+    {
+        "text": "updating this app and so I squared C and",
+        "start": 596.9,
+        "duration": 5.01
+    },
+    {
+        "text": "spy functionality was just added to that",
+        "start": 599.75,
+        "duration": 5.37
+    },
+    {
+        "text": "8 line digital i/o connector fairly",
+        "start": 601.91,
+        "duration": 5.49
+    },
+    {
+        "text": "recently so they are putting effort into",
+        "start": 605.12,
+        "duration": 4.589
+    },
+    {
+        "text": "adding features to this and they've made",
+        "start": 607.4,
+        "duration": 4.35
+    },
+    {
+        "text": "a few claims on their website saying",
+        "start": 609.709,
+        "duration": 3.331
+    },
+    {
+        "text": "that those features will be given away",
+        "start": 611.75,
+        "duration": 2.94
+    },
+    {
+        "text": "for free which is actually pretty cool",
+        "start": 613.04,
+        "duration": 4.62
+    },
+    {
+        "text": "so the spy and I squared C decoding on a",
+        "start": 614.69,
+        "duration": 4.74
+    },
+    {
+        "text": "typical oscilloscope would cost you know",
+        "start": 617.66,
+        "duration": 4.07
+    },
+    {
+        "text": "a thousand dollars from the big three",
+        "start": 619.43,
+        "duration": 4.56
+    },
+    {
+        "text": "but these guys have included it as a",
+        "start": 621.73,
+        "duration": 4.78
+    },
+    {
+        "text": "totally free update with the virtual",
+        "start": 623.99,
+        "duration": 5.46
+    },
+    {
+        "text": "bench which is quite nice ok I've",
+        "start": 626.51,
+        "duration": 4.89
+    },
+    {
+        "text": "connected the milligram balance up to",
+        "start": 629.45,
+        "duration": 3.93
+    },
+    {
+        "text": "the digital input lines and also connect",
+        "start": 631.4,
+        "duration": 3.99
+    },
+    {
+        "text": "this analog oscilloscope line back to",
+        "start": 633.38,
+        "duration": 4.29
+    },
+    {
+        "text": "the function generator so you can see",
+        "start": 635.39,
+        "duration": 4.199
+    },
+    {
+        "text": "you know pull the function generator",
+        "start": 637.67,
+        "duration": 4.919
+    },
+    {
+        "text": "offset up-and-down and amplitude up and",
+        "start": 639.589,
+        "duration": 5.821
+    },
+    {
+        "text": "down it works pretty well just to show",
+        "start": 642.589,
+        "duration": 4.321
+    },
+    {
+        "text": "you how you might set up a trigger on",
+        "start": 645.41,
+        "duration": 3.179
+    },
+    {
+        "text": "this thing we come over to trigger and",
+        "start": 646.91,
+        "duration": 5.25
+    },
+    {
+        "text": "change this to channel 1 and then we can",
+        "start": 648.589,
+        "duration": 6.12
+    },
+    {
+        "text": "pull the trigger level down like this so",
+        "start": 652.16,
+        "duration": 4.92
+    },
+    {
+        "text": "I have to admit that you know for some",
+        "start": 654.709,
+        "duration": 4.411
+    },
+    {
+        "text": "things using a graphical interface like",
+        "start": 657.08,
+        "duration": 4.44
+    },
+    {
+        "text": "this is better on a PC oscilloscope but",
+        "start": 659.12,
+        "duration": 4.74
+    },
+    {
+        "text": "overall I still feel like it's kind of",
+        "start": 661.52,
+        "duration": 4.26
+    },
+    {
+        "text": "like driving a car with your windshield",
+        "start": 663.86,
+        "duration": 3.4
+    },
+    {
+        "text": "completely fogged up",
+        "start": 665.78,
+        "duration": 3.52
+    },
+    {
+        "text": "it's you can do it but you're probably",
+        "start": 667.26,
+        "duration": 3.48
+    },
+    {
+        "text": "going to miss something and it's it's",
+        "start": 669.3,
+        "duration": 3.32
+    },
+    {
+        "text": "really better just to clear it off",
+        "start": 670.74,
+        "duration": 4.41
+    },
+    {
+        "text": "having like a digital phosphor effect",
+        "start": 672.62,
+        "duration": 5.53
+    },
+    {
+        "text": "and a really fast update and really fast",
+        "start": 675.15,
+        "duration": 5.19
+    },
+    {
+        "text": "responding knobs is probably the best",
+        "start": 678.15,
+        "duration": 4.23
+    },
+    {
+        "text": "way to look at a signal with which",
+        "start": 680.34,
+        "duration": 3.81
+    },
+    {
+        "text": "you're unfamiliar and you're probably",
+        "start": 682.38,
+        "duration": 3.06
+    },
+    {
+        "text": "unfamiliar with it because you're using",
+        "start": 684.15,
+        "duration": 3.54
+    },
+    {
+        "text": "an oscilloscope to look at it anyway",
+        "start": 685.44,
+        "duration": 4.2
+    },
+    {
+        "text": "okay so let's turn on these digital",
+        "start": 687.69,
+        "duration": 6.21
+    },
+    {
+        "text": "control lines and see what we can see so",
+        "start": 689.64,
+        "duration": 9.78
+    },
+    {
+        "text": "we're going to add a spy bus and we're",
+        "start": 693.9,
+        "duration": 7.89
+    },
+    {
+        "text": "not going to use chip select and I found",
+        "start": 699.42,
+        "duration": 3.96
+    },
+    {
+        "text": "out that you can if you say always",
+        "start": 701.79,
+        "duration": 3.36
+    },
+    {
+        "text": "active it just disables the chip select",
+        "start": 703.38,
+        "duration": 7.11
+    },
+    {
+        "text": "line and it doesn't it's not decoding",
+        "start": 705.15,
+        "duration": 6.75
+    },
+    {
+        "text": "anything because the bus isn't set up",
+        "start": 710.49,
+        "duration": 3.75
+    },
+    {
+        "text": "quite right just yet but if we expand",
+        "start": 711.9,
+        "duration": 4.8
+    },
+    {
+        "text": "the bus it should show us the digital",
+        "start": 714.24,
+        "duration": 4.23
+    },
+    {
+        "text": "lines and I was expecting to see",
+        "start": 716.7,
+        "duration": 6.9
+    },
+    {
+        "text": "something there ah no trigger so we'll",
+        "start": 718.47,
+        "duration": 11.0
+    },
+    {
+        "text": "change the trigger to trigger on d0 and",
+        "start": 723.6,
+        "duration": 9.32
+    },
+    {
+        "text": "we may as well turn off this analog line",
+        "start": 729.47,
+        "duration": 5.83
+    },
+    {
+        "text": "kind of funny you can drag the bus",
+        "start": 732.92,
+        "duration": 4.63
+    },
+    {
+        "text": "around it snaps back to the top so I",
+        "start": 735.3,
+        "duration": 3.96
+    },
+    {
+        "text": "guess that's kind of its preferred",
+        "start": 737.55,
+        "duration": 3.09
+    },
+    {
+        "text": "location and I don't see any way of",
+        "start": 739.26,
+        "duration": 4.29
+    },
+    {
+        "text": "making these any larger but anyway we'll",
+        "start": 740.64,
+        "duration": 5.73
+    },
+    {
+        "text": "just we'll just go with it here okay so",
+        "start": 743.55,
+        "duration": 5.55
+    },
+    {
+        "text": "the clock is d1 now the day the line is",
+        "start": 746.37,
+        "duration": 5.82
+    },
+    {
+        "text": "d0 that's MSB first we're going to go on",
+        "start": 749.1,
+        "duration": 5.28
+    },
+    {
+        "text": "the rising edge of the clock and then we",
+        "start": 752.19,
+        "duration": 4.11
+    },
+    {
+        "text": "can set the word size quite large this",
+        "start": 754.38,
+        "duration": 3.24
+    },
+    {
+        "text": "is actually pretty cool it goes all the",
+        "start": 756.3,
+        "duration": 4.95
+    },
+    {
+        "text": "way up to 32 which we're going to use",
+        "start": 757.62,
+        "duration": 7.2
+    },
+    {
+        "text": "and we should be decoding oh and then",
+        "start": 761.25,
+        "duration": 6.42
+    },
+    {
+        "text": "we'll set the idle time so there's a",
+        "start": 764.82,
+        "duration": 6.66
+    },
+    {
+        "text": "long time between these 32 bit pulses so",
+        "start": 767.67,
+        "duration": 5.04
+    },
+    {
+        "text": "I'm just going to set this to one",
+        "start": 771.48,
+        "duration": 3.63
+    },
+    {
+        "text": "millisecond and as you can see it's",
+        "start": 772.71,
+        "duration": 4.08
+    },
+    {
+        "text": "decoding the data up there in real time",
+        "start": 775.11,
+        "duration": 5.43
+    },
+    {
+        "text": "which is good as you can see this",
+        "start": 776.79,
+        "duration": 6.21
+    },
+    {
+        "text": "protocol is a little strange and so this",
+        "start": 780.54,
+        "duration": 4.8
+    },
+    {
+        "text": "first block of eight bits is used as",
+        "start": 783.0,
+        "duration": 4.68
+    },
+    {
+        "text": "like a control setting and it's not",
+        "start": 785.34,
+        "duration": 3.93
+    },
+    {
+        "text": "changing with the weight applied to the",
+        "start": 787.68,
+        "duration": 4.29
+    },
+    {
+        "text": "scale and then the next three sets of",
+        "start": 789.27,
+        "duration": 5.64
+    },
+    {
+        "text": "eight bits are the actual data from the",
+        "start": 791.97,
+        "duration": 5.52
+    },
+    {
+        "text": "load sensor and you can see it floating",
+        "start": 794.91,
+        "duration": 3.69
+    },
+    {
+        "text": "around here because it's such a",
+        "start": 797.49,
+        "duration": 3.09
+    },
+    {
+        "text": "sensitive balance and then these last",
+        "start": 798.6,
+        "duration": 2.609
+    },
+    {
+        "text": "eight",
+        "start": 800.58,
+        "duration": 3.78
+    },
+    {
+        "text": "aren't used either so lucky for us the",
+        "start": 801.209,
+        "duration": 5.67
+    },
+    {
+        "text": "scope will start decoding here and then",
+        "start": 804.36,
+        "duration": 5.099
+    },
+    {
+        "text": "32 bits later is the end of the data so",
+        "start": 806.879,
+        "duration": 5.25
+    },
+    {
+        "text": "we're actually getting we would actually",
+        "start": 809.459,
+        "duration": 5.61
+    },
+    {
+        "text": "like to just decode these middle 24 and",
+        "start": 812.129,
+        "duration": 4.8
+    },
+    {
+        "text": "that's very hard to set up without chip",
+        "start": 815.069,
+        "duration": 4.71
+    },
+    {
+        "text": "select so my opinion is that it's good",
+        "start": 816.929,
+        "duration": 4.83
+    },
+    {
+        "text": "for a PC oscilloscope but it's still a",
+        "start": 819.779,
+        "duration": 4.59
+    },
+    {
+        "text": "PC oscilloscope it doesn't bother me",
+        "start": 821.759,
+        "duration": 4.02
+    },
+    {
+        "text": "very much though because I think that",
+        "start": 824.369,
+        "duration": 3.301
+    },
+    {
+        "text": "this device is really best suited for",
+        "start": 825.779,
+        "duration": 4.68
+    },
+    {
+        "text": "data logging and sensor integration so",
+        "start": 827.67,
+        "duration": 4.05
+    },
+    {
+        "text": "let's talk a bit more about what it can",
+        "start": 830.459,
+        "duration": 4.35
+    },
+    {
+        "text": "do with programmatic control for this",
+        "start": 831.72,
+        "duration": 4.89
+    },
+    {
+        "text": "test I've got a standard one end four",
+        "start": 834.809,
+        "duration": 3.931
+    },
+    {
+        "text": "thousand four diode forward biased",
+        "start": 836.61,
+        "duration": 3.839
+    },
+    {
+        "text": "across one of the twenty five volt",
+        "start": 838.74,
+        "duration": 3.719
+    },
+    {
+        "text": "supplies and then I've also got the",
+        "start": 840.449,
+        "duration": 3.48
+    },
+    {
+        "text": "scope hooked up just to monitor the",
+        "start": 842.459,
+        "duration": 4.591
+    },
+    {
+        "text": "voltage across the diode this is the",
+        "start": 843.929,
+        "duration": 6.301
+    },
+    {
+        "text": "evaluation version of LabVIEW 2014 and",
+        "start": 847.05,
+        "duration": 4.979
+    },
+    {
+        "text": "if you aren't familiar with LabVIEW let",
+        "start": 850.23,
+        "duration": 2.909
+    },
+    {
+        "text": "me give you the thirty second",
+        "start": 852.029,
+        "duration": 3.331
+    },
+    {
+        "text": "explanation the idea is that you're",
+        "start": 853.139,
+        "duration": 4.68
+    },
+    {
+        "text": "building a virtual instrument and the",
+        "start": 855.36,
+        "duration": 4.62
+    },
+    {
+        "text": "this window shows how the instrument is",
+        "start": 857.819,
+        "duration": 3.901
+    },
+    {
+        "text": "wired and so you can have different",
+        "start": 859.98,
+        "duration": 3.329
+    },
+    {
+        "text": "modules and each one of these modules",
+        "start": 861.72,
+        "duration": 3.869
+    },
+    {
+        "text": "does something like controls the voltage",
+        "start": 863.309,
+        "duration": 4.861
+    },
+    {
+        "text": "coming out of the actual virtual bench",
+        "start": 865.589,
+        "duration": 4.41
+    },
+    {
+        "text": "that's sitting on the bench here and",
+        "start": 868.17,
+        "duration": 4.589
+    },
+    {
+        "text": "then the other half of this is the front",
+        "start": 869.999,
+        "duration": 4.291
+    },
+    {
+        "text": "panel of this instrument that you're",
+        "start": 872.759,
+        "duration": 4.08
+    },
+    {
+        "text": "creating so some of these controls are",
+        "start": 874.29,
+        "duration": 5.099
+    },
+    {
+        "text": "like a drop box and that actually forms",
+        "start": 876.839,
+        "duration": 4.47
+    },
+    {
+        "text": "a control that the user can manipulate",
+        "start": 879.389,
+        "duration": 5.07
+    },
+    {
+        "text": "on this front panel so think of it as",
+        "start": 881.309,
+        "duration": 5.041
+    },
+    {
+        "text": "putting together an instrument for",
+        "start": 884.459,
+        "duration": 3.031
+    },
+    {
+        "text": "someone else to use although that",
+        "start": 886.35,
+        "duration": 3.179
+    },
+    {
+        "text": "someone else could be you yourself it's",
+        "start": 887.49,
+        "duration": 4.17
+    },
+    {
+        "text": "just a easy way to operate your program",
+        "start": 889.529,
+        "duration": 4.53
+    },
+    {
+        "text": "through this graphical interface I'm a",
+        "start": 891.66,
+        "duration": 4.109
+    },
+    {
+        "text": "pretty big fan of it I know that people",
+        "start": 894.059,
+        "duration": 3.51
+    },
+    {
+        "text": "have different opinions but it's it's",
+        "start": 895.769,
+        "duration": 4.44
+    },
+    {
+        "text": "very fast it's sometimes limiting and so",
+        "start": 897.569,
+        "duration": 4.62
+    },
+    {
+        "text": "people that would prefer to program in",
+        "start": 900.209,
+        "duration": 4.29
+    },
+    {
+        "text": "Python or C would cite that it's you",
+        "start": 902.189,
+        "duration": 3.601
+    },
+    {
+        "text": "know it's too limiting for what they do",
+        "start": 904.499,
+        "duration": 4.14
+    },
+    {
+        "text": "but in terms of speed and getting stuff",
+        "start": 905.79,
+        "duration": 4.68
+    },
+    {
+        "text": "ready fast it is quite good for that",
+        "start": 908.639,
+        "duration": 3.48
+    },
+    {
+        "text": "especially for data acquisition and",
+        "start": 910.47,
+        "duration": 4.859
+    },
+    {
+        "text": "analysis this is an example virtual",
+        "start": 912.119,
+        "duration": 5.19
+    },
+    {
+        "text": "instrument that I downloaded from ni and",
+        "start": 915.329,
+        "duration": 4.141
+    },
+    {
+        "text": "modify it a little bit and the purpose",
+        "start": 917.309,
+        "duration": 5.52
+    },
+    {
+        "text": "it's got some headers below here to tell",
+        "start": 919.47,
+        "duration": 4.2
+    },
+    {
+        "text": "you what's going on",
+        "start": 922.829,
+        "duration": 2.79
+    },
+    {
+        "text": "so this first block initializes the",
+        "start": 923.67,
+        "duration": 5.159
+    },
+    {
+        "text": "instrument it takes a name you might",
+        "start": 925.619,
+        "duration": 4.95
+    },
+    {
+        "text": "have multiple virtual benches connected",
+        "start": 928.829,
+        "duration": 2.85
+    },
+    {
+        "text": "your computers so this thing actually",
+        "start": 930.569,
+        "duration": 3.21
+    },
+    {
+        "text": "queries the user for which one you want",
+        "start": 931.679,
+        "duration": 2.891
+    },
+    {
+        "text": "to connect to",
+        "start": 933.779,
+        "duration": 2.501
+    },
+    {
+        "text": "and you can see the list only has one",
+        "start": 934.57,
+        "duration": 6.06
+    },
+    {
+        "text": "because I've only got one connected I'm",
+        "start": 936.28,
+        "duration": 5.7
+    },
+    {
+        "text": "not going to go into detail about how to",
+        "start": 940.63,
+        "duration": 3.51
+    },
+    {
+        "text": "program in LabVIEW but you can sort of",
+        "start": 941.98,
+        "duration": 4.11
+    },
+    {
+        "text": "think of this as flowing from left to",
+        "start": 944.14,
+        "duration": 4.14
+    },
+    {
+        "text": "right so the next thing that happens is",
+        "start": 946.09,
+        "duration": 4.59
+    },
+    {
+        "text": "it queries the user for a power supply",
+        "start": 948.28,
+        "duration": 4.92
+    },
+    {
+        "text": "channel and on the front panel it shows",
+        "start": 950.68,
+        "duration": 4.56
+    },
+    {
+        "text": "up here and we're going to choose the",
+        "start": 953.2,
+        "duration": 4.98
+    },
+    {
+        "text": "plus 25 volt Channel and then all these",
+        "start": 955.24,
+        "duration": 6.45
+    },
+    {
+        "text": "other inputs are drop boxes or text",
+        "start": 958.18,
+        "duration": 6.27
+    },
+    {
+        "text": "number entries here so the start voltage",
+        "start": 961.69,
+        "duration": 5.28
+    },
+    {
+        "text": "is going to be 0 volts the current limit",
+        "start": 964.45,
+        "duration": 4.02
+    },
+    {
+        "text": "is going to be hundred milliamps the end",
+        "start": 966.97,
+        "duration": 3.6
+    },
+    {
+        "text": "voltage is going to be 1 volt and the",
+        "start": 968.47,
+        "duration": 3.75
+    },
+    {
+        "text": "number of steps is going to be a hundred",
+        "start": 970.57,
+        "duration": 3.78
+    },
+    {
+        "text": "so what this whole thing is going to do",
+        "start": 972.22,
+        "duration": 5.07
+    },
+    {
+        "text": "is going to program that 25 volt power",
+        "start": 974.35,
+        "duration": 5.37
+    },
+    {
+        "text": "supply to start out at zero and work its",
+        "start": 977.29,
+        "duration": 4.35
+    },
+    {
+        "text": "way up to one volt in a hundred steps",
+        "start": 979.72,
+        "duration": 4.23
+    },
+    {
+        "text": "and as it goes along it's going to",
+        "start": 981.64,
+        "duration": 4.5
+    },
+    {
+        "text": "measure the current and voltage and then",
+        "start": 983.95,
+        "duration": 5.7
+    },
+    {
+        "text": "show them on a graph so we will press",
+        "start": 986.14,
+        "duration": 7.95
+    },
+    {
+        "text": "the Run button as you can see this is",
+        "start": 989.65,
+        "duration": 6.81
+    },
+    {
+        "text": "the current versus voltage curve for",
+        "start": 994.09,
+        "duration": 4.62
+    },
+    {
+        "text": "that diode and as you would expect at",
+        "start": 996.46,
+        "duration": 3.84
+    },
+    {
+        "text": "about point six volts because it's a",
+        "start": 998.71,
+        "duration": 5.13
+    },
+    {
+        "text": "silicon device it starts to conduct but",
+        "start": 1000.3,
+        "duration": 5.67
+    },
+    {
+        "text": "you can see here the it's at point 6",
+        "start": 1003.84,
+        "duration": 3.9
+    },
+    {
+        "text": "volts it's only flowing you know a few",
+        "start": 1005.97,
+        "duration": 4.05
+    },
+    {
+        "text": "milliamps and one nice thing is that we",
+        "start": 1007.74,
+        "duration": 3.9
+    },
+    {
+        "text": "can rescale this so this is currently",
+        "start": 1010.02,
+        "duration": 4.68
+    },
+    {
+        "text": "100 milliamps full scale but we can just",
+        "start": 1011.64,
+        "duration": 4.95
+    },
+    {
+        "text": "enter one here oops sorry",
+        "start": 1014.7,
+        "duration": 3.93
+    },
+    {
+        "text": "let's how about so now it's one amp full",
+        "start": 1016.59,
+        "duration": 4.92
+    },
+    {
+        "text": "scale but if we type 1m now it's one",
+        "start": 1018.63,
+        "duration": 6.93
+    },
+    {
+        "text": "milliamp full scale we can see at 0.6",
+        "start": 1021.51,
+        "duration": 6.47
+    },
+    {
+        "text": "volts it's getting close to one milliamp",
+        "start": 1025.56,
+        "duration": 4.8
+    },
+    {
+        "text": "however the resolution on this is quite",
+        "start": 1027.98,
+        "duration": 4.51
+    },
+    {
+        "text": "good so we can actually go down to a",
+        "start": 1030.36,
+        "duration": 5.43
+    },
+    {
+        "text": "hundred micro amp and we now we can",
+        "start": 1032.49,
+        "duration": 6.09
+    },
+    {
+        "text": "start to see the resolution of this",
+        "start": 1035.79,
+        "duration": 5.49
+    },
+    {
+        "text": "thing in fact on the 25 volt supplies it",
+        "start": 1038.58,
+        "duration": 6.9
+    },
+    {
+        "text": "has 35 or 30 micro amp resolution which",
+        "start": 1041.28,
+        "duration": 5.82
+    },
+    {
+        "text": "is quite good so if you're doing a",
+        "start": 1045.48,
+        "duration": 4.56
+    },
+    {
+        "text": "battery operated device you can monitor",
+        "start": 1047.1,
+        "duration": 5.16
+    },
+    {
+        "text": "the current consumption much more",
+        "start": 1050.04,
+        "duration": 3.39
+    },
+    {
+        "text": "accurately than you might have guessed",
+        "start": 1052.26,
+        "duration": 3.27
+    },
+    {
+        "text": "30 micrograms is quite good resolution",
+        "start": 1053.43,
+        "duration": 4.98
+    },
+    {
+        "text": "for that sort of thing another cool",
+        "start": 1055.53,
+        "duration": 4.73
+    },
+    {
+        "text": "feature is that you can still use the",
+        "start": 1058.41,
+        "duration": 4.65
+    },
+    {
+        "text": "dedicated National Instruments app to",
+        "start": 1060.26,
+        "duration": 4.69
+    },
+    {
+        "text": "use the oscilloscope on the device while",
+        "start": 1063.06,
+        "duration": 3.6
+    },
+    {
+        "text": "you're programmatically controlling",
+        "start": 1064.95,
+        "duration": 2.54
+    },
+    {
+        "text": "other parts of",
+        "start": 1066.66,
+        "duration": 2.78
+    },
+    {
+        "text": "a virtual bench as long as there's no",
+        "start": 1067.49,
+        "duration": 5.069
+    },
+    {
+        "text": "overlap so for example if your LabVIEW",
+        "start": 1069.44,
+        "duration": 5.1
+    },
+    {
+        "text": "program is only using the power supply",
+        "start": 1072.559,
+        "duration": 4.231
+    },
+    {
+        "text": "part of the device you can start the",
+        "start": 1074.54,
+        "duration": 4.56
+    },
+    {
+        "text": "virtual bench program and it will",
+        "start": 1076.79,
+        "duration": 4.23
+    },
+    {
+        "text": "disable the power supply since it's",
+        "start": 1079.1,
+        "duration": 4.29
+    },
+    {
+        "text": "being used by LabVIEW but you can still",
+        "start": 1081.02,
+        "duration": 4.65
+    },
+    {
+        "text": "have access to everything else so I've",
+        "start": 1083.39,
+        "duration": 4.37
+    },
+    {
+        "text": "set up the scope to single trigger at",
+        "start": 1085.67,
+        "duration": 5.16
+    },
+    {
+        "text": "244 millivolts and now we'll go back to",
+        "start": 1087.76,
+        "duration": 6.669
+    },
+    {
+        "text": "LabVIEW and run it as you can see it's",
+        "start": 1090.83,
+        "duration": 5.79
+    },
+    {
+        "text": "generated a new plot for us and then",
+        "start": 1094.429,
+        "duration": 3.991
+    },
+    {
+        "text": "here is the voltage that was recorded by",
+        "start": 1096.62,
+        "duration": 4.02
+    },
+    {
+        "text": "the scope so you can verify that the",
+        "start": 1098.42,
+        "duration": 4.8
+    },
+    {
+        "text": "thing is doing what you want and you",
+        "start": 1100.64,
+        "duration": 4.23
+    },
+    {
+        "text": "know make sure that the power supply you",
+        "start": 1103.22,
+        "duration": 3.48
+    },
+    {
+        "text": "know it's not doing something weird in",
+        "start": 1104.87,
+        "duration": 3.45
+    },
+    {
+        "text": "this case it actually does look like",
+        "start": 1106.7,
+        "duration": 3.75
+    },
+    {
+        "text": "something a little weird is going on you",
+        "start": 1108.32,
+        "duration": 3.9
+    },
+    {
+        "text": "would expect this to be zero and then",
+        "start": 1110.45,
+        "duration": 4.29
+    },
+    {
+        "text": "from zero monotonically increase it's",
+        "start": 1112.22,
+        "duration": 3.959
+    },
+    {
+        "text": "hitting the current limit here and it's",
+        "start": 1114.74,
+        "duration": 3.689
+    },
+    {
+        "text": "capping it and then when it shuts down",
+        "start": 1116.179,
+        "duration": 4.5
+    },
+    {
+        "text": "here's quite a bit of an undershoot so",
+        "start": 1118.429,
+        "duration": 3.691
+    },
+    {
+        "text": "the voltage is actually going negative",
+        "start": 1120.679,
+        "duration": 3.811
+    },
+    {
+        "text": "here according to the oscilloscope this",
+        "start": 1122.12,
+        "duration": 3.96
+    },
+    {
+        "text": "might just be because there's no actual",
+        "start": 1124.49,
+        "duration": 4.59
+    },
+    {
+        "text": "resistance across the power supply I've",
+        "start": 1126.08,
+        "duration": 4.979
+    },
+    {
+        "text": "just have a diode all by itself so I",
+        "start": 1129.08,
+        "duration": 3.9
+    },
+    {
+        "text": "don't know if I'd fault it quite to much",
+        "start": 1131.059,
+        "duration": 3.211
+    },
+    {
+        "text": "for this but this this does look a",
+        "start": 1132.98,
+        "duration": 4.53
+    },
+    {
+        "text": "little bit strange in this setup I have",
+        "start": 1134.27,
+        "duration": 4.62
+    },
+    {
+        "text": "the virtual bench connected to a",
+        "start": 1137.51,
+        "duration": 3.24
+    },
+    {
+        "text": "breakout board that I got from Adafruit",
+        "start": 1138.89,
+        "duration": 4.169
+    },
+    {
+        "text": "and on the breakout board there's a high",
+        "start": 1140.75,
+        "duration": 4.679
+    },
+    {
+        "text": "dynamic range light sensor that talks I",
+        "start": 1143.059,
+        "duration": 4.711
+    },
+    {
+        "text": "squared C and so the virtual bench is",
+        "start": 1145.429,
+        "duration": 4.021
+    },
+    {
+        "text": "powering the breakout board and we're",
+        "start": 1147.77,
+        "duration": 3.78
+    },
+    {
+        "text": "monitoring its current use and it's also",
+        "start": 1149.45,
+        "duration": 4.5
+    },
+    {
+        "text": "generating I squared C query commands",
+        "start": 1151.55,
+        "duration": 3.84
+    },
+    {
+        "text": "and then reading the data from the I",
+        "start": 1153.95,
+        "duration": 4.62
+    },
+    {
+        "text": "screwed C transaction here's the really",
+        "start": 1155.39,
+        "duration": 4.89
+    },
+    {
+        "text": "quick and dirty virtual instrument that",
+        "start": 1158.57,
+        "duration": 3.39
+    },
+    {
+        "text": "I whipped up just to get data out of the",
+        "start": 1160.28,
+        "duration": 4.35
+    },
+    {
+        "text": "sensor and so the section at the top of",
+        "start": 1161.96,
+        "duration": 4.38
+    },
+    {
+        "text": "the screen here runs the power supply",
+        "start": 1164.63,
+        "duration": 3.45
+    },
+    {
+        "text": "and then the section at the bottom runs",
+        "start": 1166.34,
+        "duration": 4.08
+    },
+    {
+        "text": "the I squared C stuff and so all it's",
+        "start": 1168.08,
+        "duration": 3.78
+    },
+    {
+        "text": "doing is initializing the sensor",
+        "start": 1170.42,
+        "duration": 3.509
+    },
+    {
+        "text": "enabling the sensor and then querying",
+        "start": 1171.86,
+        "duration": 5.67
+    },
+    {
+        "text": "data and so if I pass a flashlight beam",
+        "start": 1173.929,
+        "duration": 5.88
+    },
+    {
+        "text": "across the sensor board you can see the",
+        "start": 1177.53,
+        "duration": 3.63
+    },
+    {
+        "text": "bottom graph is showing the light",
+        "start": 1179.809,
+        "duration": 7.231
+    },
+    {
+        "text": "intensity values so once we've gone this",
+        "start": 1181.16,
+        "duration": 8.73
+    },
+    {
+        "text": "far it's easy to take the values that",
+        "start": 1187.04,
+        "duration": 4.74
+    },
+    {
+        "text": "LabVIEW is getting from the I squared C",
+        "start": 1189.89,
+        "duration": 4.2
+    },
+    {
+        "text": "bus from the sensor and then use those",
+        "start": 1191.78,
+        "duration": 3.96
+    },
+    {
+        "text": "values to do something else interesting",
+        "start": 1194.09,
+        "duration": 3.41
+    },
+    {
+        "text": "like either adjust one of the other",
+        "start": 1195.74,
+        "duration": 4.84
+    },
+    {
+        "text": "voltages you could have it output a",
+        "start": 1197.5,
+        "duration": 4.399
+    },
+    {
+        "text": "different voltage out of its supply",
+        "start": 1200.58,
+        "duration": 3.24
+    },
+    {
+        "text": "based on the light input from the sensor",
+        "start": 1201.899,
+        "duration": 3.9
+    },
+    {
+        "text": "or you have it adjust its function",
+        "start": 1203.82,
+        "duration": 3.599
+    },
+    {
+        "text": "generator or have it trigger the scope",
+        "start": 1205.799,
+        "duration": 3.75
+    },
+    {
+        "text": "or all kinds of things and so the real",
+        "start": 1207.419,
+        "duration": 4.23
+    },
+    {
+        "text": "power of this is just having all of it",
+        "start": 1209.549,
+        "duration": 4.081
+    },
+    {
+        "text": "kind of in one and I realize you can",
+        "start": 1211.649,
+        "duration": 3.51
+    },
+    {
+        "text": "connect separate pieces of equipment to",
+        "start": 1213.63,
+        "duration": 3.36
+    },
+    {
+        "text": "LabVIEW and accomplish almost the same",
+        "start": 1215.159,
+        "duration": 3.9
+    },
+    {
+        "text": "thing but this whole box cost two",
+        "start": 1216.99,
+        "duration": 4.35
+    },
+    {
+        "text": "thousand dollars and you don't have to",
+        "start": 1219.059,
+        "duration": 3.661
+    },
+    {
+        "text": "have separate drivers for each piece of",
+        "start": 1221.34,
+        "duration": 4.41
+    },
+    {
+        "text": "equipment I noticed that it would be",
+        "start": 1222.72,
+        "duration": 4.86
+    },
+    {
+        "text": "really helpful to have two monitors when",
+        "start": 1225.75,
+        "duration": 3.779
+    },
+    {
+        "text": "using the virtual bench one monitor for",
+        "start": 1227.58,
+        "duration": 3.54
+    },
+    {
+        "text": "the oscilloscope display and another",
+        "start": 1229.529,
+        "duration": 3.711
+    },
+    {
+        "text": "monitor for the LabVIEW programming I",
+        "start": 1231.12,
+        "duration": 4.82
+    },
+    {
+        "text": "ended up going back to using my",
+        "start": 1233.24,
+        "duration": 5.08
+    },
+    {
+        "text": "Tektronix oscilloscope to debug the I",
+        "start": 1235.94,
+        "duration": 4.39
+    },
+    {
+        "text": "squared C communications just because it",
+        "start": 1238.32,
+        "duration": 3.449
+    },
+    {
+        "text": "was too difficult to flip back and forth",
+        "start": 1240.33,
+        "duration": 2.91
+    },
+    {
+        "text": "and so it's much easier to have a",
+        "start": 1241.769,
+        "duration": 3.841
+    },
+    {
+        "text": "separate screen for this and so you can",
+        "start": 1243.24,
+        "duration": 4.559
+    },
+    {
+        "text": "see here these are the two bytes",
+        "start": 1245.61,
+        "duration": 4.049
+    },
+    {
+        "text": "together that are being read from the",
+        "start": 1247.799,
+        "duration": 3.99
+    },
+    {
+        "text": "light sensor and so when I pass the",
+        "start": 1249.659,
+        "duration": 4.201
+    },
+    {
+        "text": "flashlight over it you can see the",
+        "start": 1251.789,
+        "duration": 5.821
+    },
+    {
+        "text": "values changing there so my conclusion",
+        "start": 1253.86,
+        "duration": 5.1
+    },
+    {
+        "text": "is that if you just want to read and",
+        "start": 1257.61,
+        "duration": 3.72
+    },
+    {
+        "text": "write sensor values over I squared C or",
+        "start": 1258.96,
+        "duration": 4.589
+    },
+    {
+        "text": "spy you're probably better off using a",
+        "start": 1261.33,
+        "duration": 4.86
+    },
+    {
+        "text": "microcontroller development board or a",
+        "start": 1263.549,
+        "duration": 5.041
+    },
+    {
+        "text": "bus pirate or even an Arduino and in",
+        "start": 1266.19,
+        "duration": 4.859
+    },
+    {
+        "text": "this case Adafruit supplied Arduino code",
+        "start": 1268.59,
+        "duration": 4.949
+    },
+    {
+        "text": "with that breakout board so to get up",
+        "start": 1271.049,
+        "duration": 3.63
+    },
+    {
+        "text": "and running quickly it would have been",
+        "start": 1273.539,
+        "duration": 2.551
+    },
+    {
+        "text": "far easier just to connect it to an",
+        "start": 1274.679,
+        "duration": 4.171
+    },
+    {
+        "text": "Arduino if you want an oscilloscope",
+        "start": 1276.09,
+        "duration": 4.589
+    },
+    {
+        "text": "you're probably better off buying a",
+        "start": 1278.85,
+        "duration": 4.199
+    },
+    {
+        "text": "bench a full-on oscilloscope with knobs",
+        "start": 1280.679,
+        "duration": 4.651
+    },
+    {
+        "text": "in its own display however if you want",
+        "start": 1283.049,
+        "duration": 4.081
+    },
+    {
+        "text": "all of these things in one box with the",
+        "start": 1285.33,
+        "duration": 4.26
+    },
+    {
+        "text": "ability to pass data from instrument to",
+        "start": 1287.13,
+        "duration": 4.47
+    },
+    {
+        "text": "instrument easily I would say that the",
+        "start": 1289.59,
+        "duration": 3.959
+    },
+    {
+        "text": "virtual bench is actually really well",
+        "start": 1291.6,
+        "duration": 5.37
+    },
+    {
+        "text": "suited for that and like I say test",
+        "start": 1293.549,
+        "duration": 4.921
+    },
+    {
+        "text": "applications at the end of an assembly",
+        "start": 1296.97,
+        "duration": 3.419
+    },
+    {
+        "text": "line or test applications that have to",
+        "start": 1298.47,
+        "duration": 3.329
+    },
+    {
+        "text": "move around the lab frequently are",
+        "start": 1300.389,
+        "duration": 4.14
+    },
+    {
+        "text": "pretty well suited to it so I think it",
+        "start": 1301.799,
+        "duration": 5.211
+    },
+    {
+        "text": "has a pretty niche sort of area I know",
+        "start": 1304.529,
+        "duration": 4.171
+    },
+    {
+        "text": "National Instruments is probably",
+        "start": 1307.01,
+        "duration": 3.659
+    },
+    {
+        "text": "thinking that this would appeal more to",
+        "start": 1308.7,
+        "duration": 4.26
+    },
+    {
+        "text": "engineers just getting started needing",
+        "start": 1310.669,
+        "duration": 4.6
+    },
+    {
+        "text": "all this gear but I have a feeling it's",
+        "start": 1312.96,
+        "duration": 4.38
+    },
+    {
+        "text": "sort of better off for these interesting",
+        "start": 1315.269,
+        "duration": 5.13
+    },
+    {
+        "text": "sort of data logging and sensor",
+        "start": 1317.34,
+        "duration": 6.54
+    },
+    {
+        "text": "exercising sort of applications ok well",
+        "start": 1320.399,
+        "duration": 5.221
+    },
+    {
+        "text": "I hope you found that useful see you",
+        "start": 1323.88,
+        "duration": 4.7
+    },
+    {
+        "text": "next time bye",
+        "start": 1325.62,
+        "duration": 2.96
+    }
+]

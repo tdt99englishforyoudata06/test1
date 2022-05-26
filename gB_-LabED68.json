@@ -1,0 +1,587 @@
+[
+    {
+        "text": "Say anytime you're talking to your phone--",
+        "start": 1.14,
+        "duration": 2.56
+    },
+    {
+        "text": "that's pretty much a neural net doing that.",
+        "start": 3.92,
+        "duration": 1.88
+    },
+    {
+        "text": "It does really well on image recognition,",
+        "start": 6.58,
+        "duration": 2.36
+    },
+    {
+        "text": "autonomous cars coming soon,",
+        "start": 9.94,
+        "duration": 2.32
+    },
+    {
+        "text": "the top flight method for genetic sequencing",
+        "start": 12.56,
+        "duration": 2.04
+    },
+    {
+        "text": "is a neural network.",
+        "start": 14.86,
+        "duration": 1.68
+    },
+    {
+        "text": "You can say they're loosely inspired by the brain.",
+        "start": 16.84,
+        "duration": 2.3
+    },
+    {
+        "text": "It is a network of neurons, people call it neurons.",
+        "start": 19.4,
+        "duration": 2.36
+    },
+    {
+        "text": "They're all connected to each other",
+        "start": 22.16,
+        "duration": 1.98
+    },
+    {
+        "text": "going down through the layers.",
+        "start": 24.14,
+        "duration": 1.84
+    },
+    {
+        "text": "In a way they mimic neurons in that",
+        "start": 26.22,
+        "duration": 1.84
+    },
+    {
+        "text": "they're little triggers.",
+        "start": 28.3,
+        "duration": 1.16
+    },
+    {
+        "text": "Each neuron has kind of a threshold--",
+        "start": 29.64,
+        "duration": 2.42
+    },
+    {
+        "text": "called a weight where it makes a decision.",
+        "start": 32.3,
+        "duration": 1.6
+    },
+    {
+        "text": "So it takes in data, it could be huge amount images.",
+        "start": 33.9,
+        "duration": 4.3
+    },
+    {
+        "text": "And then once the network is trained--",
+        "start": 38.4,
+        "duration": 2.2
+    },
+    {
+        "text": "You can put one image in at the front.",
+        "start": 40.88,
+        "duration": 2.46
+    },
+    {
+        "text": "They fire when they see the thing that they want to see.",
+        "start": 43.34,
+        "duration": 2.88
+    },
+    {
+        "text": "So you get this kind of cascade",
+        "start": 46.48,
+        "duration": 2.38
+    },
+    {
+        "text": "moving through the neural network.",
+        "start": 48.86,
+        "duration": 1.66
+    },
+    {
+        "text": "And that does really poorly.  it just does horribly.",
+        "start": 50.52,
+        "duration": 2.0
+    },
+    {
+        "text": "But there's this little magic trick",
+        "start": 52.86,
+        "duration": 1.6
+    },
+    {
+        "text": "called back propagation and this is very unbiological--",
+        "start": 54.46,
+        "duration": 3.08
+    },
+    {
+        "text": "Your neurons don't do this at all.",
+        "start": 57.54,
+        "duration": 1.88
+    },
+    {
+        "text": "But at the end you're like: \"OK, well you were wrong.",
+        "start": 59.42,
+        "duration": 3.08
+    },
+    {
+        "text": "But here's a proper picture of a dog.\"",
+        "start": 62.5,
+        "duration": 1.6
+    },
+    {
+        "text": "And now you send all that information",
+        "start": 64.1,
+        "duration": 1.9
+    },
+    {
+        "text": "back through the network again",
+        "start": 66.0,
+        "duration": 2.04
+    },
+    {
+        "text": "and the network learns just a little bit",
+        "start": 68.04,
+        "duration": 1.84
+    },
+    {
+        "text": "better at how to say: \"Oh this is a dog.\"",
+        "start": 69.88,
+        "duration": 2.22
+    },
+    {
+        "text": "It's elegant math and really the breakthroughs",
+        "start": 72.1,
+        "duration": 3.16
+    },
+    {
+        "text": "in the field were when they stopped",
+        "start": 75.32,
+        "duration": 1.42
+    },
+    {
+        "text": "trying to be so biological in the 1980's.",
+        "start": 76.74,
+        "duration": 2.28
+    },
+    {
+        "text": "At the time they didn't work that great",
+        "start": 79.22,
+        "duration": 1.98
+    },
+    {
+        "text": "but it turned out all they needed",
+        "start": 81.36,
+        "duration": 1.48
+    },
+    {
+        "text": "was a huge amount of processing power",
+        "start": 82.88,
+        "duration": 1.04
+    },
+    {
+        "text": "and a huge amount of examples",
+        "start": 83.92,
+        "duration": 1.72
+    },
+    {
+        "text": "and they would really sing.",
+        "start": 85.64,
+        "duration": 2.06
+    },
+    {
+        "text": "So in many of these cases accuracy is enough",
+        "start": 88.08,
+        "duration": 2.92
+    },
+    {
+        "text": "but when you're talking really life and death decisions--",
+        "start": 91.44,
+        "duration": 2.92
+    },
+    {
+        "text": "driving autonomous cars, making medical diagnoses,",
+        "start": 94.36,
+        "duration": 3.54
+    },
+    {
+        "text": "or pushing the frontiers of science",
+        "start": 97.9,
+        "duration": 1.94
+    },
+    {
+        "text": "to understand why a discovery was made--",
+        "start": 100.1,
+        "duration": 2.42
+    },
+    {
+        "text": "you really need to know what the AI is thinking.",
+        "start": 102.96,
+        "duration": 2.66
+    },
+    {
+        "text": "Not just what its results are.",
+        "start": 105.86,
+        "duration": 1.28
+    },
+    {
+        "text": "Since you have all these layers it just engages",
+        "start": 107.14,
+        "duration": 2.0
+    },
+    {
+        "text": "in such complex decision-making",
+        "start": 109.64,
+        "duration": 1.66
+    },
+    {
+        "text": "that it just is essentially a black box.",
+        "start": 111.46,
+        "duration": 2.32
+    },
+    {
+        "text": "We don't really understand how they think.",
+        "start": 114.36,
+        "duration": 1.38
+    },
+    {
+        "text": "All is not lost with this black box problem.",
+        "start": 116.04,
+        "duration": 2.84
+    },
+    {
+        "text": "People are actually trying to solve this now",
+        "start": 119.16,
+        "duration": 1.7
+    },
+    {
+        "text": "through a variety of different ways.",
+        "start": 120.86,
+        "duration": 1.96
+    },
+    {
+        "text": "One researcher has created a toolkit to get at",
+        "start": 122.82,
+        "duration": 2.4
+    },
+    {
+        "text": "the activation of individual neurons in a neural network.",
+        "start": 125.22,
+        "duration": 3.58
+    },
+    {
+        "text": "This toolkit works by taking this individual neuron",
+        "start": 129.42,
+        "duration": 2.08
+    },
+    {
+        "text": "and telling the network to go back",
+        "start": 131.56,
+        "duration": 1.36
+    },
+    {
+        "text": "and find all the weights that really make that neuron",
+        "start": 132.92,
+        "duration": 2.08
+    },
+    {
+        "text": "just fire like crazy.",
+        "start": 135.1,
+        "duration": 1.68
+    },
+    {
+        "text": "Keep doing this thousands of times and you can see",
+        "start": 137.0,
+        "duration": 3.1
+    },
+    {
+        "text": "the kind of perfect input for this neuron.",
+        "start": 140.34,
+        "duration": 2.58
+    },
+    {
+        "text": "Then looking inside these layers he could see",
+        "start": 142.92,
+        "duration": 2.52
+    },
+    {
+        "text": "that some neurons learn these really complex,",
+        "start": 145.52,
+        "duration": 3.5
+    },
+    {
+        "text": "abstract ideas like a face detector--",
+        "start": 149.02,
+        "duration": 3.86
+    },
+    {
+        "text": "something that can detect any human face,",
+        "start": 153.12,
+        "duration": 1.84
+    },
+    {
+        "text": "no matter what it looks like.",
+        "start": 155.06,
+        "duration": 1.46
+    },
+    {
+        "text": "This is not a property you would expect",
+        "start": 156.52,
+        "duration": 2.22
+    },
+    {
+        "text": "an individual neuron to have.",
+        "start": 158.74,
+        "duration": 1.16
+    },
+    {
+        "text": "Most don't, but some do.",
+        "start": 159.9,
+        "duration": 2.14
+    },
+    {
+        "text": "Many neural net researchers think of it this way:",
+        "start": 162.04,
+        "duration": 2.0
+    },
+    {
+        "text": "You can think of the decision making of a neural net",
+        "start": 164.04,
+        "duration": 2.38
+    },
+    {
+        "text": "as this kind of terrain of valleys and peaks",
+        "start": 166.5,
+        "duration": 3.92
+    },
+    {
+        "text": "and the ball represents this piece of data.",
+        "start": 170.52,
+        "duration": 3.66
+    },
+    {
+        "text": "So you can understand this one decision",
+        "start": 174.38,
+        "duration": 2.16
+    },
+    {
+        "text": "that was made in one valley,",
+        "start": 176.54,
+        "duration": 1.54
+    },
+    {
+        "text": "but all those other valleys",
+        "start": 178.08,
+        "duration": 1.66
+    },
+    {
+        "text": "you have no idea what's going on.",
+        "start": 179.94,
+        "duration": 1.64
+    },
+    {
+        "text": "So one way to get at what an AI is thinking",
+        "start": 182.48,
+        "duration": 2.66
+    },
+    {
+        "text": "is to find a proxy for what it's thinking.",
+        "start": 185.14,
+        "duration": 2.86
+    },
+    {
+        "text": "So one professor has taken the video game Frogger",
+        "start": 188.48,
+        "duration": 2.98
+    },
+    {
+        "text": "and trained an AI to play the game extremely well--",
+        "start": 191.66,
+        "duration": 2.92
+    },
+    {
+        "text": "because that's fairly easy to do now.",
+        "start": 194.76,
+        "duration": 1.68
+    },
+    {
+        "text": "But, you know, what is it deciding to do?",
+        "start": 196.44,
+        "duration": 2.4
+    },
+    {
+        "text": "It's really hard to know",
+        "start": 198.84,
+        "duration": 0.94
+    },
+    {
+        "text": "especially in a sequence of decisions",
+        "start": 199.78,
+        "duration": 1.66
+    },
+    {
+        "text": "and a dynamic environment of that.",
+        "start": 201.62,
+        "duration": 1.74
+    },
+    {
+        "text": "So rather than trying to get the AI itself to explain itself",
+        "start": 203.66,
+        "duration": 3.2
+    },
+    {
+        "text": "He asked people to play the video game",
+        "start": 206.92,
+        "duration": 1.94
+    },
+    {
+        "text": "and have them say what they were doing",
+        "start": 208.88,
+        "duration": 1.2
+    },
+    {
+        "text": "as they were playing it",
+        "start": 210.22,
+        "duration": 1.42
+    },
+    {
+        "text": "and recorded the state of the frog at the same time.",
+        "start": 211.88,
+        "duration": 2.38
+    },
+    {
+        "text": "And then he found a way to use neural networks",
+        "start": 214.54,
+        "duration": 2.2
+    },
+    {
+        "text": "to translate those two languages:",
+        "start": 216.94,
+        "duration": 1.98
+    },
+    {
+        "text": "the code of the game and what they were saying",
+        "start": 219.16,
+        "duration": 2.78
+    },
+    {
+        "text": "And then he imported that back",
+        "start": 222.24,
+        "duration": 1.66
+    },
+    {
+        "text": "to the game playing network.",
+        "start": 223.9,
+        "duration": 1.34
+    },
+    {
+        "text": "So then the network was armed with these",
+        "start": 225.3,
+        "duration": 1.78
+    },
+    {
+        "text": "human insights.",
+        "start": 227.14,
+        "duration": 1.7
+    },
+    {
+        "text": "So, as the frog is waiting for a car to go by",
+        "start": 229.3,
+        "duration": 2.18
+    },
+    {
+        "text": "It'll say: \"Oh, I'm waiting for a hole to open up",
+        "start": 231.68,
+        "duration": 1.9
+    },
+    {
+        "text": "before I go.\"",
+        "start": 233.78,
+        "duration": 1.7
+    },
+    {
+        "text": "Or it could get stuck on the side of the screen",
+        "start": 235.48,
+        "duration": 2.84
+    },
+    {
+        "text": "and it would say: \"Uh geez, this is really hard and curse.",
+        "start": 238.44,
+        "duration": 3.4
+    },
+    {
+        "text": "So it's kind of lashing human decision-making",
+        "start": 242.2,
+        "duration": 2.14
+    },
+    {
+        "text": "on to this network with more deep networks.",
+        "start": 244.4,
+        "duration": 2.52
+    },
+    {
+        "text": "It's all about trust.",
+        "start": 247.3,
+        "duration": 1.24
+    },
+    {
+        "text": "If you have a result",
+        "start": 248.78,
+        "duration": 2.08
+    },
+    {
+        "text": "and you don't understand why it made that decision--",
+        "start": 250.86,
+        "duration": 2.96
+    },
+    {
+        "text": "how can you really advance in your research?",
+        "start": 253.86,
+        "duration": 2.74
+    },
+    {
+        "text": "You really need to know that there's not",
+        "start": 256.94,
+        "duration": 1.82
+    },
+    {
+        "text": "some spurious detail that's throwing things all off.",
+        "start": 258.76,
+        "duration": 2.3
+    },
+    {
+        "text": "But these models are just getting larger",
+        "start": 261.5,
+        "duration": 2.08
+    },
+    {
+        "text": "and more complex and I don't think anyone thinks",
+        "start": 263.58,
+        "duration": 2.96
+    },
+    {
+        "text": "they'll get to a global understanding",
+        "start": 266.78,
+        "duration": 1.22
+    },
+    {
+        "text": "of what a neural network is thinking anytime soon.",
+        "start": 268.06,
+        "duration": 2.5
+    },
+    {
+        "text": "But if we can get a sliver of this understanding--",
+        "start": 270.76,
+        "duration": 2.8
+    },
+    {
+        "text": "science can really push forward",
+        "start": 273.56,
+        "duration": 1.8
+    },
+    {
+        "text": "and these neural networks can really play.",
+        "start": 275.64,
+        "duration": 2.36
+    }
+]

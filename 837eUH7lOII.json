@@ -1,0 +1,337 @@
+[
+    {
+        "text": "so now we have this robot and it's",
+        "start": 8.94,
+        "duration": 5.68
+    },
+    {
+        "text": "basically moving around it's sensing and",
+        "start": 12.73,
+        "duration": 4.35
+    },
+    {
+        "text": "it's creating a model on image of its",
+        "start": 14.62,
+        "duration": 4.35
+    },
+    {
+        "text": "experiences so let's take this algorithm",
+        "start": 17.08,
+        "duration": 4.05
+    },
+    {
+        "text": "out of the robot and connect it to",
+        "start": 18.97,
+        "duration": 3.84
+    },
+    {
+        "text": "another system and see what kind of",
+        "start": 21.13,
+        "duration": 3.72
+    },
+    {
+        "text": "model it creates in that other system",
+        "start": 22.81,
+        "duration": 5.31
+    },
+    {
+        "text": "and then let's let's try it out so we",
+        "start": 24.85,
+        "duration": 5.43
+    },
+    {
+        "text": "try it out on on the different system",
+        "start": 28.12,
+        "duration": 3.96
+    },
+    {
+        "text": "actually I want to show this system over",
+        "start": 30.28,
+        "duration": 5.43
+    },
+    {
+        "text": "here this is right here we have a what",
+        "start": 32.08,
+        "duration": 5.94
+    },
+    {
+        "text": "is called a double pendulum and these",
+        "start": 35.71,
+        "duration": 3.419
+    },
+    {
+        "text": "are you saying this is the same",
+        "start": 38.02,
+        "duration": 2.88
+    },
+    {
+        "text": "algorithm it's the same algorithm",
+        "start": 39.129,
+        "duration": 5.64
+    },
+    {
+        "text": "exactly okay in in in the in the example",
+        "start": 40.9,
+        "duration": 5.729
+    },
+    {
+        "text": "we shall we saw with the robot it was",
+        "start": 44.769,
+        "duration": 4.231
+    },
+    {
+        "text": "algorithm that activated the motors and",
+        "start": 46.629,
+        "duration": 5.131
+    },
+    {
+        "text": "sense the the tilt angles of the of the",
+        "start": 49.0,
+        "duration": 4.62
+    },
+    {
+        "text": "of the robot here which we are applying",
+        "start": 51.76,
+        "duration": 4.229
+    },
+    {
+        "text": "it to this double pendulum and we have a",
+        "start": 53.62,
+        "duration": 4.32
+    },
+    {
+        "text": "double pendulum is basically a pendulum",
+        "start": 55.989,
+        "duration": 4.021
+    },
+    {
+        "text": "thats hanging off another pendulum so",
+        "start": 57.94,
+        "duration": 4.17
+    },
+    {
+        "text": "it's a kind of crazy device and we'll",
+        "start": 60.01,
+        "duration": 4.619
+    },
+    {
+        "text": "let the robot basically poke this thing",
+        "start": 62.11,
+        "duration": 5.07
+    },
+    {
+        "text": "in different ways and watch it move and",
+        "start": 64.629,
+        "duration": 4.231
+    },
+    {
+        "text": "it's a really crazy device let me show",
+        "start": 67.18,
+        "duration": 5.67
+    },
+    {
+        "text": "you how it works okay it's kind of it's",
+        "start": 68.86,
+        "duration": 7.41
+    },
+    {
+        "text": "very non periodic it goes it its wings",
+        "start": 72.85,
+        "duration": 5.25
+    },
+    {
+        "text": "in different ways very difficult to",
+        "start": 76.27,
+        "duration": 4.23
+    },
+    {
+        "text": "predict so the machine looks at this and",
+        "start": 78.1,
+        "duration": 5.61
+    },
+    {
+        "text": "watches it for a day and pokes at it and",
+        "start": 80.5,
+        "duration": 5.549
+    },
+    {
+        "text": "looks at different ways and he thinks",
+        "start": 83.71,
+        "duration": 6.269
+    },
+    {
+        "text": "about it and it took eight 8 quad core",
+        "start": 86.049,
+        "duration": 6.631
+    },
+    {
+        "text": "machines 32 cores and after a day it",
+        "start": 89.979,
+        "duration": 7.32
+    },
+    {
+        "text": "spits out one thing that it Lord force",
+        "start": 92.68,
+        "duration": 9.749
+    },
+    {
+        "text": "equals mass times acceleration that's",
+        "start": 97.299,
+        "duration": 7.14
+    },
+    {
+        "text": "what it learned from this machine and",
+        "start": 102.429,
+        "duration": 4.62
+    },
+    {
+        "text": "from watching this and experimenting",
+        "start": 104.439,
+        "duration": 3.811
+    },
+    {
+        "text": "with this and then it spit out a couple",
+        "start": 107.049,
+        "duration": 4.25
+    },
+    {
+        "text": "of other truths it found out that the",
+        "start": 108.25,
+        "duration": 6.149
+    },
+    {
+        "text": "energy in this thing the total kinetic",
+        "start": 111.299,
+        "duration": 6.49
+    },
+    {
+        "text": "energy and potential energy are constant",
+        "start": 114.399,
+        "duration": 5.25
+    },
+    {
+        "text": "of course it didn't say that in those",
+        "start": 117.789,
+        "duration": 3.96
+    },
+    {
+        "text": "words but he gave a formula which",
+        "start": 119.649,
+        "duration": 6.301
+    },
+    {
+        "text": "happens to be the stating that fact and",
+        "start": 121.749,
+        "duration": 6.54
+    },
+    {
+        "text": "the conservation of momentum all kinds",
+        "start": 125.95,
+        "duration": 4.26
+    },
+    {
+        "text": "of interesting things that took people a",
+        "start": 128.289,
+        "duration": 4.621
+    },
+    {
+        "text": "long time to discover so so hard so why",
+        "start": 130.21,
+        "duration": 4.38
+    },
+    {
+        "text": "do you think it took so long to get to",
+        "start": 132.91,
+        "duration": 3.84
+    },
+    {
+        "text": "Newton and even took him long time",
+        "start": 134.59,
+        "duration": 3.15
+    },
+    {
+        "text": "during his life to figure these things",
+        "start": 136.75,
+        "duration": 2.52
+    },
+    {
+        "text": "out some of these basic things about",
+        "start": 137.74,
+        "duration": 4.32
+    },
+    {
+        "text": "mass and acceleration and force well you",
+        "start": 139.27,
+        "duration": 3.36
+    },
+    {
+        "text": "know we",
+        "start": 142.06,
+        "duration": 3.48
+    },
+    {
+        "text": "this is often compared to Newton and I",
+        "start": 142.63,
+        "duration": 4.56
+    },
+    {
+        "text": "think when we look back we have to",
+        "start": 145.54,
+        "duration": 4.14
+    },
+    {
+        "text": "remember that Newton didn't just",
+        "start": 147.19,
+        "duration": 5.1
+    },
+    {
+        "text": "discover F equal ma what he really did",
+        "start": 149.68,
+        "duration": 7.32
+    },
+    {
+        "text": "is is invent calculus an event invented",
+        "start": 152.29,
+        "duration": 6.51
+    },
+    {
+        "text": "calculus is essentially a new language",
+        "start": 157.0,
+        "duration": 3.75
+    },
+    {
+        "text": "that allowed them to formulate these",
+        "start": 158.8,
+        "duration": 5.1
+    },
+    {
+        "text": "things so the really interesting thing",
+        "start": 160.75,
+        "duration": 5.31
+    },
+    {
+        "text": "here is not just discovering new truths",
+        "start": 163.9,
+        "duration": 4.95
+    },
+    {
+        "text": "by observations but also discovering a",
+        "start": 166.06,
+        "duration": 6.75
+    },
+    {
+        "text": "language that allows us to to represent",
+        "start": 168.85,
+        "duration": 6.03
+    },
+    {
+        "text": "these new findings and that's what we",
+        "start": 172.81,
+        "duration": 5.27
+    },
+    {
+        "text": "really want the AI to doing",
+        "start": 174.88,
+        "duration": 3.2
+    }
+]

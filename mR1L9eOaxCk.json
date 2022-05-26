@@ -1,0 +1,347 @@
+[
+    {
+        "text": "Quick, can you pick all the labradoodles from\nthe fried chicken?",
+        "start": 2.939,
+        "duration": 8.511
+    },
+    {
+        "text": "How many labradoodles can you see?",
+        "start": 11.45,
+        "duration": 2.79
+    },
+    {
+        "text": "Generally people are pretty good at knowing\nwhat we’re looking at.",
+        "start": 14.24,
+        "duration": 3.65
+    },
+    {
+        "text": "But it’s been reported that artificial intelligence\nstruggles to tell the difference between these",
+        "start": 17.89,
+        "duration": 5.23
+    },
+    {
+        "text": "pictures.",
+        "start": 23.12,
+        "duration": 1.14
+    },
+    {
+        "text": "Or between chihuahuas and blueberry muffins.",
+        "start": 24.26,
+        "duration": 3.65
+    },
+    {
+        "text": "sheepdogs and mops.",
+        "start": 27.91,
+        "duration": 1.47
+    },
+    {
+        "text": "puppies and bagels.",
+        "start": 29.38,
+        "duration": 1.35
+    },
+    {
+        "text": "Or dalmatians or ice cream!",
+        "start": 30.73,
+        "duration": 2.73
+    },
+    {
+        "text": "Is there something particular about dogs that\ncomputers just don’t get?",
+        "start": 33.46,
+        "duration": 6.329
+    },
+    {
+        "text": "Well, not really!",
+        "start": 39.789,
+        "duration": 3.241
+    },
+    {
+        "text": "Researchers have thankfully shown that dogs\nand food can pretty well be distinguished.",
+        "start": 43.03,
+        "duration": 4.39
+    },
+    {
+        "text": "In the dogs versus foods case, algorithms\ncan identify which is which with some 90 percent",
+        "start": 47.42,
+        "duration": 2.639
+    },
+    {
+        "text": "accuracy.",
+        "start": 50.059,
+        "duration": 1.0
+    },
+    {
+        "text": "This is thanks to artificial neural networks,\nalgorithms that are structured in a similar",
+        "start": 51.059,
+        "duration": 5.44
+    },
+    {
+        "text": "way to the brain.",
+        "start": 56.499,
+        "duration": 1.801
+    },
+    {
+        "text": "In the last episode, we explore how artificial\nneural networks are really good at finding",
+        "start": 58.3,
+        "duration": 4.759
+    },
+    {
+        "text": "patterns in data.",
+        "start": 63.059,
+        "duration": 1.661
+    },
+    {
+        "text": "To learn something, the network takes lots\nof examples, say, songs with many instruments",
+        "start": 64.72,
+        "duration": 5.78
+    },
+    {
+        "text": "and vocals, it works out what makes auditory\npatterns that resemble a voice, then it uses",
+        "start": 70.5,
+        "duration": 5.57
+    },
+    {
+        "text": "those patterns to isolate a voice among the\nother sounds.",
+        "start": 76.07,
+        "duration": 3.38
+    },
+    {
+        "text": "With images, after a deep neural network has\nseen thousands of sample dog photos, it can",
+        "start": 79.45,
+        "duration": 6.08
+    },
+    {
+        "text": "learn what a dog is and identify dogs in new\nphotos as accurately as you can.",
+        "start": 85.53,
+        "duration": 5.91
+    },
+    {
+        "text": "Or almost as accurately.",
+        "start": 91.44,
+        "duration": 1.76
+    },
+    {
+        "text": "Remember, there was some error in the dog/chicken\ncaper.",
+        "start": 93.2,
+        "duration": 4.62
+    },
+    {
+        "text": "The trouble starts when the input signals\nare just too similar.",
+        "start": 97.82,
+        "duration": 4.32
+    },
+    {
+        "text": "If the pattern that says labradoodle is the\nsame fuzzy curly pattern that makes up this",
+        "start": 102.14,
+        "duration": 5.93
+    },
+    {
+        "text": "sheep skin I bought a few years ago, how is\na computer to tell which is which?",
+        "start": 108.07,
+        "duration": 5.12
+    },
+    {
+        "text": "It might seem like a trivial problem.",
+        "start": 113.19,
+        "duration": 3.18
+    },
+    {
+        "text": "So what if a computer can’t tell some dogs\nfrom some food?",
+        "start": 116.37,
+        "duration": 4.97
+    },
+    {
+        "text": "But this is an example of how hard it is to\nclose the gap between machine and human intelligence.",
+        "start": 121.34,
+        "duration": 6.34
+    },
+    {
+        "text": "If we develop incredibly precise algorithms,\nit might mean that if an example only changes",
+        "start": 127.68,
+        "duration": 5.57
+    },
+    {
+        "text": "a little, the machine changes its mind about\nwhat’s in the photo, and struggles to understand",
+        "start": 133.25,
+        "duration": 5.42
+    },
+    {
+        "text": "that a photo of a dog with a hat is still\na dog.",
+        "start": 138.67,
+        "duration": 3.75
+    },
+    {
+        "text": "And this is one of the hardest problems in\nartificial intelligence: common sense.",
+        "start": 142.42,
+        "duration": 5.99
+    },
+    {
+        "text": "How can we build machines that have common\nsense?",
+        "start": 148.41,
+        "duration": 3.01
+    },
+    {
+        "text": "So they don’t have to be trained on every\ninstance of all the objects and animals that",
+        "start": 151.42,
+        "duration": 5.95
+    },
+    {
+        "text": "exist?",
+        "start": 157.37,
+        "duration": 1.0
+    },
+    {
+        "text": "And coding common sense is not the only problem\nengineers have to solve.",
+        "start": 158.37,
+        "duration": 4.17
+    },
+    {
+        "text": "Another thing that AI does is that it can\nhallucinate.",
+        "start": 162.54,
+        "duration": 4.02
+    },
+    {
+        "text": "It can be tricked into seeing and hearing\nthings that don’t exist.",
+        "start": 166.56,
+        "duration": 4.84
+    },
+    {
+        "text": "Some researchers tricked a computer to see\nthis cat as guacamole.",
+        "start": 171.4,
+        "duration": 5.46
+    },
+    {
+        "text": "This happens because no matter how accurate\nAI systems get in identifying objects in images",
+        "start": 176.86,
+        "duration": 5.07
+    },
+    {
+        "text": "they are still vulnerable to what’s called\n“adversarial examples.”",
+        "start": 181.93,
+        "duration": 4.53
+    },
+    {
+        "text": "Like our cat.",
+        "start": 186.46,
+        "duration": 1.98
+    },
+    {
+        "text": "Adversarial examples fool AI because they\ncarry a special pattern of noise from things",
+        "start": 188.44,
+        "duration": 5.379
+    },
+    {
+        "text": "like lighting or texture that leads to the\nmachine interpreting the image entirely differently.",
+        "start": 193.819,
+        "duration": 5.551
+    },
+    {
+        "text": "Here, MIT researchers 3D printed a turtle,\nthat because of altering the pattern on its",
+        "start": 199.37,
+        "duration": 6.26
+    },
+    {
+        "text": "shell, the artificial neural network sees\nas… a rifle.",
+        "start": 205.63,
+        "duration": 2.55
+    },
+    {
+        "text": "Similarly the texture of this baseball means\nit’s seen as…",
+        "start": 208.18,
+        "duration": 1.669
+    },
+    {
+        "text": "espresso.",
+        "start": 209.849,
+        "duration": 1.0
+    },
+    {
+        "text": "Neural networks can struggle with 3D objects\nbecause they’re normally trained with 2D",
+        "start": 210.849,
+        "duration": 4.341
+    },
+    {
+        "text": "images.",
+        "start": 215.19,
+        "duration": 1.0
+    },
+    {
+        "text": "Still, this cat photo is recognised as...",
+        "start": 216.19,
+        "duration": 3.3
+    },
+    {
+        "text": "guacamole.",
+        "start": 219.49,
+        "duration": 1.0
+    },
+    {
+        "text": "But when it’s slightly rotated, this pattern\nof noise disappears so it’s correctly identified",
+        "start": 220.49,
+        "duration": 6.04
+    },
+    {
+        "text": "as a cat.",
+        "start": 226.53,
+        "duration": 1.0
+    },
+    {
+        "text": "Us humans can pretty obviously recognise these\nimages.",
+        "start": 227.53,
+        "duration": 4.42
+    },
+    {
+        "text": "But the machine… sees something that’s\nnot there.",
+        "start": 231.95,
+        "duration": 5.23
+    },
+    {
+        "text": "To be fair, computer vision has seen significant\nprogress in recent years.",
+        "start": 237.18,
+        "duration": 4.53
+    },
+    {
+        "text": "And in some cases it’s more accurate than\na human’s.",
+        "start": 241.71,
+        "duration": 4.23
+    },
+    {
+        "text": "But adversarial examples are a big concern\nfor artificial intelligence.",
+        "start": 245.94,
+        "duration": 4.75
+    },
+    {
+        "text": "Sure AI is great at seeing at image, but we\nneed to do a lot more work in training AI",
+        "start": 250.69,
+        "duration": 5.629
+    },
+    {
+        "text": "to confidently recognise 3D objects.",
+        "start": 256.319,
+        "duration": 3.17
+    },
+    {
+        "text": "When image recognition is applied to things\nlike driverless cars, a machine hallucinating",
+        "start": 259.489,
+        "duration": 5.391
+    },
+    {
+        "text": "can have big implications.",
+        "start": 264.88,
+        "duration": 1.59
+    },
+    {
+        "text": "For now, here’s a final question for you:\ngiven that people eventually look like their",
+        "start": 266.47,
+        "duration": 7.1
+    },
+    {
+        "text": "dogs, are there people out there who look\nlike a blueberry muffin?",
+        "start": 273.57,
+        "duration": 6.14
+    },
+    {
+        "text": "Do I look like fried chicken?",
+        "start": 279.71,
+        "duration": 34.86
+    }
+]

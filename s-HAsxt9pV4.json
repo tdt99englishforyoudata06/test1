@@ -1,0 +1,1657 @@
+[
+    {
+        "text": "Hey, it's me, Destin. Welcome back to Smarter Every Day.",
+        "start": 0.0,
+        "duration": 1.88
+    },
+    {
+        "text": "I want this video to be long and I want it to get down into the weeds",
+        "start": 2.0,
+        "duration": 4.0
+    },
+    {
+        "text": "and just air out and let me get as technical as I want to,",
+        "start": 6.0,
+        "duration": 3.5
+    },
+    {
+        "text": "so I'm gonna mention this sponsor right now upfront, which is different, I know.",
+        "start": 9.5,
+        "duration": 3.38
+    },
+    {
+        "text": "But I want to say thank you to 23andMe for sponsoring this episode of Smarter Every Day.",
+        "start": 12.88,
+        "duration": 4.44
+    },
+    {
+        "text": "I've been to their lab too, its a really cool place.",
+        "start": 17.36,
+        "duration": 2.54
+    },
+    {
+        "text": "So, I'll tell you more about their at-home genetic test service later in the episode",
+        "start": 19.9,
+        "duration": 4.16
+    },
+    {
+        "text": "but, for now let's talk about Haptic Gloves.",
+        "start": 24.18,
+        "duration": 2.7
+    },
+    {
+        "text": "In the last episode of Smarter Everyday you got to see me interact with the Haptic Glove",
+        "start": 26.88,
+        "duration": 3.22
+    },
+    {
+        "text": "and it changed my mind about VR (Virtual Reality)",
+        "start": 30.12,
+        "duration": 1.9
+    },
+    {
+        "text": "and here's the deal, when you're a start up company, it's a double-edged sword, right?",
+        "start": 32.02,
+        "duration": 3.04
+    },
+    {
+        "text": "You want people to know that you're doing these great wonderful things",
+        "start": 35.06,
+        "duration": 3.04
+    },
+    {
+        "text": "so you can get investors and stuff like that.",
+        "start": 38.1,
+        "duration": 1.96
+    },
+    {
+        "text": "But conversely you don't want them to know the \"secret sauce\" because",
+        "start": 40.06,
+        "duration": 3.18
+    },
+    {
+        "text": "you gotta maintain your competitive edge, right?",
+        "start": 43.36,
+        "duration": 2.54
+    },
+    {
+        "text": "So, the fun thing about this is when I got down to talking to the engineers",
+        "start": 45.9,
+        "duration": 4.44
+    },
+    {
+        "text": "at like the fundamental Haptic Pixel level on how this thing works, you can see their eyes",
+        "start": 50.34,
+        "duration": 4.96
+    },
+    {
+        "text": "dartin' around the room, like they freak out.",
+        "start": 55.3,
+        "duration": 1.7
+    },
+    {
+        "text": "The reason they freak out is, because they haven't been permitted to talk about how this glove works",
+        "start": 57.0,
+        "duration": 5.52
+    },
+    {
+        "text": "in forever apparently and then this dude walks in with a camera and sticks a camera in his face",
+        "start": 62.52,
+        "duration": 4.14
+    },
+    {
+        "text": "and asks him very technical questions, its really fun to see their reaction",
+        "start": 66.66,
+        "duration": 4.16
+    },
+    {
+        "text": "but, I was able to sign some paper work and we were able to work out a deal so that",
+        "start": 70.82,
+        "duration": 4.18
+    },
+    {
+        "text": "I can take you right up to the edge of proprietary information, but not cross that line",
+        "start": 75.0,
+        "duration": 4.72
+    },
+    {
+        "text": "so that they can still maintain their edge.",
+        "start": 80.3,
+        "duration": 2.0
+    },
+    {
+        "text": "So after I met the founder Jake and the co-founder Bob, they turned me over to the head of engineering ops,",
+        "start": 82.3,
+        "duration": 4.04
+    },
+    {
+        "text": "Lathe, to asks questions.",
+        "start": 86.34,
+        "duration": 1.82
+    },
+    {
+        "text": "And in the last video we went through what the experience was like, this time I just wanted to focus",
+        "start": 88.16,
+        "duration": 3.74
+    },
+    {
+        "text": "on how everything works",
+        "start": 91.9,
+        "duration": 1.36
+    },
+    {
+        "text": "I decided to just go for it and ask Keenan what kind of actuators they used to simulate touch.",
+        "start": 93.3,
+        "duration": 4.32
+    },
+    {
+        "text": "-So, I am going to wear a glove under the glove.\n-Correct, its just for sanitary purposes.",
+        "start": 98.16,
+        "duration": 3.88
+    },
+    {
+        "text": "-I am really excited right now.",
+        "start": 102.3,
+        "duration": 1.1
+    },
+    {
+        "text": "-So the question I have is, if...",
+        "start": 103.4,
+        "duration": 2.0
+    },
+    {
+        "text": "-if I need... if I touch on my hand right here and I am supposed to feel the presence of something there.",
+        "start": 106.62,
+        "duration": 5.1
+    },
+    {
+        "text": "-In order to have an actuator in that location you have to have a ton of different valves for example if you're using pneumatics.",
+        "start": 112.08,
+        "duration": 7.36
+    },
+    {
+        "text": "-or you know, linear actuators if you're using \nelectro-mechanical actuators.\n-Yes.",
+        "start": 119.76,
+        "duration": 4.32
+    },
+    {
+        "text": "-So how do you get around that problem?",
+        "start": 124.38,
+        "duration": 1.08
+    },
+    {
+        "text": "-We describe them as like, Haptic Pixels and each Pixel would be its own... pneumatic actuator",
+        "start": 125.68,
+        "duration": 6.64
+    },
+    {
+        "text": "-and they are arrayed over your hand.",
+        "start": 132.48,
+        "duration": 1.8
+    },
+    {
+        "text": "-Okay, I'm ready for it.  Yeah.\n-Okay.",
+        "start": 134.9,
+        "duration": 2.0
+    },
+    {
+        "text": "-How many of these exist?",
+        "start": 137.5,
+        "duration": 1.42
+    },
+    {
+        "text": "-Umm...",
+        "start": 139.74,
+        "duration": 0.7
+    },
+    {
+        "text": "-I don't think I can share that.",
+        "start": 142.48,
+        "duration": 1.0
+    },
+    {
+        "text": "-Okay (both Laugh)",
+        "start": 143.62,
+        "duration": 1.88
+    },
+    {
+        "text": "-Cool.",
+        "start": 146.2,
+        "duration": 0.5
+    },
+    {
+        "text": "-So we'll just pull this down and I'll help you",
+        "start": 147.48,
+        "duration": 2.22
+    },
+    {
+        "text": "-Put these on",
+        "start": 151.32,
+        "duration": 1.22
+    },
+    {
+        "text": "-Ah, so you're aligning it to my finger.  Oh, wow.",
+        "start": 153.06,
+        "duration": 1.76
+    },
+    {
+        "text": "-Yup.",
+        "start": 155.1,
+        "duration": 0.5
+    },
+    {
+        "text": "-Well, what are these?",
+        "start": 156.18,
+        "duration": 1.76
+    },
+    {
+        "text": "-So, we...",
+        "start": 158.82,
+        "duration": 1.1
+    },
+    {
+        "text": "-We, uh..., ahh...",
+        "start": 161.48,
+        "duration": 1.94
+    },
+    {
+        "text": "-They don't want to talk about anything!",
+        "start": 165.4,
+        "duration": 1.56
+    },
+    {
+        "text": "-Okay, so we developed a custom motion tracking solution that uses both optical and magnetic tracking",
+        "start": 167.6,
+        "duration": 5.52
+    },
+    {
+        "text": "-to get really accurate positions\nof each one of your fingertips.\n-Yes.",
+        "start": 173.42,
+        "duration": 4.16
+    },
+    {
+        "text": "-And then we do some crazy stuff in the software and using all that information we can figure out where all your fingers are in space.",
+        "start": 177.58,
+        "duration": 7.1
+    },
+    {
+        "text": "Yes and what I learned from my class I'm taking at school is, there is a lot of cordinate transformations happening in my hand right now.",
+        "start": 184.68,
+        "duration": 6.76
+    },
+    {
+        "text": "Right? Are they happening in my hand or are they happening off my hand in the processor?",
+        "start": 191.62,
+        "duration": 3.2
+    },
+    {
+        "text": "They're happening in the computer",
+        "start": 195.7,
+        "duration": 1.82
+    },
+    {
+        "text": "I know the math and that's awesome! Alright lets do it!",
+        "start": 198.9,
+        "duration": 1.6
+    },
+    {
+        "text": "After running the simulation I learned one of the  most important concepts, it's called the two point threshold.",
+        "start": 200.74,
+        "duration": 5.48
+    },
+    {
+        "text": "You've had to have done a study on this. You figured out the specific bladder density that you need",
+        "start": 206.96,
+        "duration": 5.74
+    },
+    {
+        "text": "in order to trick the brain",
+        "start": 213.12,
+        "duration": 1.26
+    },
+    {
+        "text": " ",
+        "start": 214.38,
+        "duration": 0.5
+    },
+    {
+        "text": "knowing that it's not gonna go",
+        "start": 214.88,
+        "duration": 1.76
+    },
+    {
+        "text": "photorealistic and feel like complete imersion.",
+        "start": 216.64,
+        "duration": 2.22
+    },
+    {
+        "text": "Is that true?",
+        "start": 218.92,
+        "duration": 0.6
+    },
+    {
+        "text": "Yeah. There's actually a medically known",
+        "start": 219.68,
+        "duration": 2.72
+    },
+    {
+        "text": "metric called the two point threshold.",
+        "start": 222.8,
+        "duration": 1.66
+    },
+    {
+        "text": "Which is basically if you take two pencils and poke somebody on the skin,",
+        "start": 224.62,
+        "duration": 3.06
+    },
+    {
+        "text": "how close together do those get before they can't tell that it's two seperate points?",
+        "start": 228.22,
+        "duration": 3.7
+    },
+    {
+        "text": "I keep calling them bladders what's the actual word?",
+        "start": 232.08,
+        "duration": 1.54
+    },
+    {
+        "text": "Ah...we call them tactors.",
+        "start": 233.62,
+        "duration": 1.4
+    },
+    {
+        "text": "So the spacial resolution of the tactors",
+        "start": 235.02,
+        "duration": 2.42
+    },
+    {
+        "text": "just has to be inside of the two point resolution",
+        "start": 237.84,
+        "duration": 3.4
+    },
+    {
+        "text": "of the human hand.",
+        "start": 241.24,
+        "duration": 1.06
+    },
+    {
+        "text": "It's a little more complicated than that.",
+        "start": 242.3,
+        "duration": 1.4
+    },
+    {
+        "text": "I mean the two point threshold is one of very many",
+        "start": 243.98,
+        "duration": 2.98
+    },
+    {
+        "text": "aspects of touch and I am not the most qualified person to talk to you about that.",
+        "start": 246.96,
+        "duration": 3.88
+    },
+    {
+        "text": "and we do have a couple of folks here that can talk for a very long time about it",
+        "start": 250.84,
+        "duration": 3.96
+    },
+    {
+        "text": "-So I'm Destin. \n-Hey I'm Adam.",
+        "start": 254.8,
+        "duration": 1.76
+    },
+    {
+        "text": "So how do you develop software for something that has never been done like this before?",
+        "start": 257.02,
+        "duration": 3.62
+    },
+    {
+        "text": "like do you create you own language",
+        "start": 260.82,
+        "duration": 3.04
+    },
+    {
+        "text": "for the glove?",
+        "start": 264.14,
+        "duration": 0.88
+    },
+    {
+        "text": "So...the way the software works is that it takes",
+        "start": 265.38,
+        "duration": 3.7
+    },
+    {
+        "text": "information from the physics engine",
+        "start": 269.66,
+        "duration": 1.44
+    },
+    {
+        "text": "and then we have to figure out how to render that",
+        "start": 271.1,
+        "duration": 1.78
+    },
+    {
+        "text": "And you know it's pneumatic",
+        "start": 272.88,
+        "duration": 1.56
+    },
+    {
+        "text": "We have to figure out how to open and close valves in the right order and all that sort of thing.",
+        "start": 274.44,
+        "duration": 3.48
+    },
+    {
+        "text": "So the software does that.",
+        "start": 277.92,
+        "duration": 1.6
+    },
+    {
+        "text": "So you have 150-something valves or whatever it is you have to control,",
+        "start": 279.74,
+        "duration": 4.24
+    },
+    {
+        "text": "and you have to control it almost real time,",
+        "start": 284.64,
+        "duration": 2.16
+    },
+    {
+        "text": "You know your latency don't you?",
+        "start": 287.22,
+        "duration": 1.68
+    },
+    {
+        "text": "-Yeah\n-Yeah",
+        "start": 289.14,
+        "duration": 0.88
+    },
+    {
+        "text": "So, and you're not gonna tell me that I'm assuming.",
+        "start": 290.16,
+        "duration": 2.1
+    },
+    {
+        "text": "-I'm not talking about that",
+        "start": 292.26,
+        "duration": 0.7
+    },
+    {
+        "text": "(both laugh)",
+        "start": 292.96,
+        "duration": 1.4
+    },
+    {
+        "text": "So you have to, It has to be quick enough where a human can think that they're actually engaged with it.",
+        "start": 294.62,
+        "duration": 5.1
+    },
+    {
+        "text": "So there is a threshhold there.",
+        "start": 299.72,
+        "duration": 1.42
+    },
+    {
+        "text": "There is a threshold and they've done studies on it.",
+        "start": 301.22,
+        "duration": 1.58
+    },
+    {
+        "text": "They found that anything longer than a quarter of a second is too long.",
+        "start": 302.8,
+        "duration": 4.58
+    },
+    {
+        "text": "You lose the temporal connection between the things.",
+        "start": 307.42,
+        "duration": 2.88
+    },
+    {
+        "text": "-But if you go below like..you know.. half that then the brain\n-You're fine?",
+        "start": 310.3,
+        "duration": 3.46
+    },
+    {
+        "text": "Yeah your brain doesn't know.",
+        "start": 313.9,
+        "duration": 0.92
+    },
+    {
+        "text": "They're discussing about whether or not a I get to see a tactor",
+        "start": 315.08,
+        "duration": 2.32
+    },
+    {
+        "text": "I really wanna see a tactor",
+        "start": 317.4,
+        "duration": 1.26
+    },
+    {
+        "text": "(laughs)",
+        "start": 318.66,
+        "duration": 0.96
+    },
+    {
+        "text": "Who do I talk to to see a tactor?",
+        "start": 319.62,
+        "duration": 2.3
+    },
+    {
+        "text": "Do you think..do you think Lathe will let me see-? Ok.",
+        "start": 321.92,
+        "duration": 3.42
+    },
+    {
+        "text": "-We're looking at the website for that.\n-They're looking at the website.",
+        "start": 325.46,
+        "duration": 2.42
+    },
+    {
+        "text": "Because thats one of the rules we were given",
+        "start": 327.88,
+        "duration": 1.82
+    },
+    {
+        "text": "If its on the website then we can- we can show you.",
+        "start": 329.86,
+        "duration": 1.52
+    },
+    {
+        "text": "Gotcha. Ok cool.",
+        "start": 331.5,
+        "duration": 1.12
+    },
+    {
+        "text": "Have you ever met someone that you just click with?",
+        "start": 332.62,
+        "duration": 2.34
+    },
+    {
+        "text": "You're on the same wavelength instantly?",
+        "start": 334.96,
+        "duration": 2.0
+    },
+    {
+        "text": "This is Mark. The other engineers call him \"Mr. Glove\".",
+        "start": 337.02,
+        "duration": 3.26
+    },
+    {
+        "text": "This is the guy that knows all the things",
+        "start": 340.28,
+        "duration": 2.24
+    },
+    {
+        "text": "The fun part about this conversation is if you watch Mark's eyes,",
+        "start": 342.52,
+        "duration": 3.2
+    },
+    {
+        "text": "it's clear that he just wants to \"geek out\",",
+        "start": 345.96,
+        "duration": 2.14
+    },
+    {
+        "text": "but he can't,",
+        "start": 348.34,
+        "duration": 0.82
+    },
+    {
+        "text": "because someone set up this proprietary borderline that he can't cross.",
+        "start": 349.26,
+        "duration": 3.2
+    },
+    {
+        "text": "Anyway, this is one of the most enjoyable conversations I've had in a really long time.",
+        "start": 352.7,
+        "duration": 4.22
+    },
+    {
+        "text": "-So that's Mark.\n-Hi",
+        "start": 356.98,
+        "duration": 1.68
+    },
+    {
+        "text": "So...this is it huh?",
+        "start": 358.7,
+        "duration": 1.9
+    },
+    {
+        "text": "Yeah, and they're really pretty simple.",
+        "start": 360.6,
+        "duration": 2.34
+    },
+    {
+        "text": "As you said they're pnuematic, as you guessed they're a bladder.",
+        "start": 362.94,
+        "duration": 2.8
+    },
+    {
+        "text": "So right here I'm looking at the end",
+        "start": 366.22,
+        "duration": 1.58
+    },
+    {
+        "text": "-So I'm seeing...how many is that, 12?\n-Mhm",
+        "start": 368.04,
+        "duration": 2.94
+    },
+    {
+        "text": "What do you call- so this is a tactor. So what are these individual dots called?",
+        "start": 370.98,
+        "duration": 3.84
+    },
+    {
+        "text": "We actually call the individual dots tactors and the whole thing is a panel.",
+        "start": 375.0,
+        "duration": 3.74
+    },
+    {
+        "text": "So we group a bunch of tactors together on a panel,",
+        "start": 378.74,
+        "duration": 2.64
+    },
+    {
+        "text": "it makes it easier to route air to them,",
+        "start": 381.38,
+        "duration": 2.16
+    },
+    {
+        "text": "makes it easier to support them,",
+        "start": 383.54,
+        "duration": 2.0
+    },
+    {
+        "text": "and we can control each of them individually.",
+        "start": 386.14,
+        "duration": 3.3
+    },
+    {
+        "text": "Look I know we're in the weeds here but Mark's about to\ndescribe a bunch of neat little things about your hands.",
+        "start": 389.58,
+        "duration": 4.38
+    },
+    {
+        "text": "So if you'll check out\nyour hands and do these little activities as he's describing them,",
+        "start": 393.96,
+        "duration": 4.1
+    },
+    {
+        "text": "you'll understand things that you've never even thought about before.",
+        "start": 398.16,
+        "duration": 3.14
+    },
+    {
+        "text": "Like the squish of your skin as you touch a hard object.",
+        "start": 401.3,
+        "duration": 2.46
+    },
+    {
+        "text": "If you will use your hands to do\nthem as he's talking",
+        "start": 403.76,
+        "duration": 3.06
+    },
+    {
+        "text": "you will understand the sense of touch on a much greater level.",
+        "start": 406.88,
+        "duration": 3.2
+    },
+    {
+        "text": "So this is the spot where the",
+        "start": 410.08,
+        "duration": 2.0
+    },
+    {
+        "text": "research stuff that you have to get into\nkind of moves away from the traditional",
+        "start": 412.3,
+        "duration": 3.1
+    },
+    {
+        "text": "electrical mechanical engineering and\nkind of moves into how the brain works.",
+        "start": 415.4,
+        "duration": 3.63
+    },
+    {
+        "text": "It moves into ergonmics, it moves into\nhuman factors, and it moves into psychometrics",
+        "start": 419.03,
+        "duration": 5.53
+    },
+    {
+        "text": "Psychometrics...I don't even know\nwhat that means",
+        "start": 424.62,
+        "duration": 2.08
+    },
+    {
+        "text": "It's how people process things.\nIt's how your brain works for sensation.",
+        "start": 426.71,
+        "duration": 6.18
+    },
+    {
+        "text": "I don't know if you've ever seen\nsomething called the sensory homunculus",
+        "start": 432.89,
+        "duration": 3.36
+    },
+    {
+        "text": "it's a picture of a person scaled",
+        "start": 436.25,
+        "duration": 4.28
+    },
+    {
+        "text": "relative to how many nerve endings they\nhave in different parts of their bodies.",
+        "start": 440.53,
+        "duration": 4.24
+    },
+    {
+        "text": "It's basically a surface density of your\nyour tactile receptors.",
+        "start": 444.77,
+        "duration": 4.75
+    },
+    {
+        "text": "-Is that a good way to say it?\n-It's a very good way of saying it.",
+        "start": 449.64,
+        "duration": 3.56
+    },
+    {
+        "text": "These panels, we think a lot about the huge hands part of that.",
+        "start": 454.36,
+        "duration": 2.48
+    },
+    {
+        "text": "They're incredibly sensitive.",
+        "start": 456.84,
+        "duration": 2.0
+    },
+    {
+        "text": "And so figuring out how to design a piece of\nequipment that is high fidelity and",
+        "start": 459.62,
+        "duration": 7.6
+    },
+    {
+        "text": "capable enough of tricking those sense\norgans is a lot of what our challenge is.",
+        "start": 467.23,
+        "duration": 5.95
+    },
+    {
+        "text": "-Okay so you're inflating\nthis particular tactor here right?\n-Right",
+        "start": 473.18,
+        "duration": 5.61
+    },
+    {
+        "text": "-It's like a balloon right?\n-Mhm",
+        "start": 478.79,
+        "duration": 2.07
+    },
+    {
+        "text": "If I were to touch this table with my hand right now, okay",
+        "start": 480.86,
+        "duration": 2.86
+    },
+    {
+        "text": "Touch the table.",
+        "start": 484.26,
+        "duration": 1.36
+    },
+    {
+        "text": "So it's not a step function it's a curve, but it's not linear either.",
+        "start": 485.74,
+        "duration": 8.16
+    },
+    {
+        "text": "-Right.\n-Because as you press in on\nsomething there's thickness to my skin",
+        "start": 494.08,
+        "duration": 4.4
+    },
+    {
+        "text": "and so it starts as a line and then it ramps up and then it gets harder and harder and harder right?",
+        "start": 498.48,
+        "duration": 6.92
+    },
+    {
+        "text": "-Absolutely.\n-Is it an exponential curve?",
+        "start": 505.4,
+        "duration": 2.92
+    },
+    {
+        "text": "Do you know what that curve is?",
+        "start": 508.32,
+        "duration": 1.48
+    },
+    {
+        "text": "You don't have to tell me what it is.",
+        "start": 510.38,
+        "duration": 2.48
+    },
+    {
+        "text": "You're hitting on a great question which is what that approach and that that curve of displacement looks like.",
+        "start": 512.96,
+        "duration": 6.9
+    },
+    {
+        "text": "Remembering that your fingers are sense organs. One of the ways they sense is by stretching, right?",
+        "start": 521.16,
+        "duration": 4.6
+    },
+    {
+        "text": "They're deformed. And you actually feel that deformation.",
+        "start": 525.76,
+        "duration": 2.84
+    },
+    {
+        "text": "So there's \"what is your skin doing?\" Which is, it actually gets stiffer as you push on it harder and harder",
+        "start": 530.14,
+        "duration": 6.08
+    },
+    {
+        "text": "-And that's part of why we have such good...\n-Dexterity?\n-Right.",
+        "start": 536.22,
+        "duration": 3.42
+    },
+    {
+        "text": "The other part of it is \"what's the\nmaterial you're pushing into?\"",
+        "start": 540.38,
+        "duration": 3.76
+    },
+    {
+        "text": "In some cases, if that material is soft, well that's gonna deform as well.",
+        "start": 544.44,
+        "duration": 3.0
+    },
+    {
+        "text": "So you can have slightly different approach.",
+        "start": 547.44,
+        "duration": 1.62
+    },
+    {
+        "text": "-Yeah\n-Like we're sacks of watery meat stuff",
+        "start": 549.06,
+        "duration": 2.82
+    },
+    {
+        "text": "and so the relative difference between the\nhardness of the object you're touching",
+        "start": 552.04,
+        "duration": 4.64
+    },
+    {
+        "text": "is going to affect the attack time",
+        "start": 556.68,
+        "duration": 2.74
+    },
+    {
+        "text": "-I don't know what term you \nused but I would say attack time- \n-Rise time.",
+        "start": 559.78,
+        "duration": 3.42
+    },
+    {
+        "text": "-Rise time?\n-Mhm",
+        "start": 563.4,
+        "duration": 1.5
+    },
+    {
+        "text": "This is all making sense.",
+        "start": 564.9,
+        "duration": 1.72
+    },
+    {
+        "text": "There's also little things like how well does your glove fit?",
+        "start": 566.62,
+        "duration": 4.82
+    },
+    {
+        "text": "That's why when I put the glove on, it felt like there was...",
+        "start": 571.44,
+        "duration": 3.66
+    },
+    {
+        "text": "a physical thimble that goes on the end of my finger",
+        "start": 575.1,
+        "duration": 2.62
+    },
+    {
+        "text": "is because you wanted a tactor to be aligned with my finger just like that, right?",
+        "start": 577.72,
+        "duration": 5.04
+    },
+    {
+        "text": "-Right\n-Is that because\nyou have to have something to react against?",
+        "start": 582.76,
+        "duration": 2.96
+    },
+    {
+        "text": "-Correct\n-Is that why you did that?\n-Yep",
+        "start": 585.92,
+        "duration": 2.1
+    },
+    {
+        "text": "When you're touching something, it's not just the feedback you feel on your skin,",
+        "start": 588.02,
+        "duration": 4.12
+    },
+    {
+        "text": "but also the feedback you feel in your joints, your tendons, as you push\nagainst it.",
+        "start": 592.14,
+        "duration": 5.0
+    },
+    {
+        "text": "So you want to make sure to combine both of those.",
+        "start": 597.76,
+        "duration": 2.26
+    },
+    {
+        "text": "You're absolutely right. And I've never thought about that at all.",
+        "start": 600.14,
+        "duration": 2.82
+    },
+    {
+        "text": "If I grab something...if I grab this.",
+        "start": 603.12,
+        "duration": 2.66
+    },
+    {
+        "text": "And I squeeze it,",
+        "start": 606.2,
+        "duration": 1.36
+    },
+    {
+        "text": "I can tell how big it is\nbecause of where my tendons are.",
+        "start": 609.06,
+        "duration": 4.76
+    },
+    {
+        "text": "And I can tell how hard it is because of how hard I'm squeezing it",
+        "start": 614.66,
+        "duration": 3.44
+    },
+    {
+        "text": "and it's deflecting my skin between my bones,",
+        "start": 618.1,
+        "duration": 2.6
+    },
+    {
+        "text": "and all that goes into...it rolls up into one transfer function...",
+        "start": 621.12,
+        "duration": 3.8
+    },
+    {
+        "text": "...to give you the\nanswer of what object is in your hand.\n-Right.",
+        "start": 625.02,
+        "duration": 3.94
+    },
+    {
+        "text": "And that's where things get\ncomplicated.",
+        "start": 628.96,
+        "duration": 1.58
+    },
+    {
+        "text": "Your world revolves around boundary conditions doesn't it? Like mathematical boundary conditions.",
+        "start": 630.54,
+        "duration": 4.0
+    },
+    {
+        "text": "Pretty much yeah. Boundary conditions and contact mechanics.",
+        "start": 634.54,
+        "duration": 4.6
+    },
+    {
+        "text": "So what is this right here? This tape that I'm seeing?",
+        "start": 639.14,
+        "duration": 3.18
+    },
+    {
+        "text": "It looks like a tape measure that's pulling back.",
+        "start": 642.32,
+        "duration": 2.34
+    },
+    {
+        "text": "That's the force feedback system.",
+        "start": 644.66,
+        "duration": 1.46
+    },
+    {
+        "text": "That's what stops your hand from closing when you grab an object.",
+        "start": 646.12,
+        "duration": 4.08
+    },
+    {
+        "text": "-It's a boundary condition.\n-Yes.",
+        "start": 650.2,
+        "duration": 1.38
+    },
+    {
+        "text": "It's a boundary condition. So instead of pushing on this side of the hand,",
+        "start": 651.58,
+        "duration": 3.98
+    },
+    {
+        "text": "you're actually pulling from the other side of the hand, and that's what stops the hand from moving.",
+        "start": 655.56,
+        "duration": 4.88
+    },
+    {
+        "text": "Correct",
+        "start": 660.44,
+        "duration": 0.98
+    },
+    {
+        "text": "And so you have to have some kind of braking mechanism back here...",
+        "start": 661.42,
+        "duration": 3.26
+    },
+    {
+        "text": "So, can you crush things?",
+        "start": 665.28,
+        "duration": 2.36
+    },
+    {
+        "text": "Like if you have something virtually can you set a resistance?",
+        "start": 667.94,
+        "duration": 2.92
+    },
+    {
+        "text": "Like if I were to touch\nsomething hard versus something soft,",
+        "start": 670.98,
+        "duration": 3.0
+    },
+    {
+        "text": "can you vary that force feedback?",
+        "start": 673.98,
+        "duration": 2.56
+    },
+    {
+        "text": "(nervous sound)",
+        "start": 678.04,
+        "duration": 0.5
+    },
+    {
+        "text": "-Yes.\n-Okay.",
+        "start": 680.08,
+        "duration": 1.18
+    },
+    {
+        "text": "Yes. Okay.\n(laughter)",
+        "start": 682.32,
+        "duration": 2.6
+    },
+    {
+        "text": "These guys are like: \"everything's proprietary just wear the glove, stupid boy\"",
+        "start": 685.26,
+        "duration": 4.2
+    },
+    {
+        "text": "I think that one was just a complicated answer.",
+        "start": 689.56,
+        "duration": 2.12
+    },
+    {
+        "text": "That was a complicated answer?",
+        "start": 692.0,
+        "duration": 1.66
+    },
+    {
+        "text": "That one is really complicated.",
+        "start": 693.66,
+        "duration": 1.58
+    },
+    {
+        "text": "So something that matters here is, the entire volume...",
+        "start": 695.62,
+        "duration": 3.76
+    },
+    {
+        "text": "-There's a time it takes to do that compression.\n-Right.",
+        "start": 699.38,
+        "duration": 3.24
+    },
+    {
+        "text": "So there's a lag associated with...\nIt's basically the elasticity of the volume right?",
+        "start": 702.78,
+        "duration": 5.54
+    },
+    {
+        "text": "What's the word?",
+        "start": 708.32,
+        "duration": 1.38
+    },
+    {
+        "text": "well there's a question of \"how fast you can push air through to this guy?\"",
+        "start": 709.7,
+        "duration": 3.52
+    },
+    {
+        "text": "and that gives you \nhow fast you can run that tactor.",
+        "start": 713.22,
+        "duration": 3.06
+    },
+    {
+        "text": "So it's this balance between having enough\npressure to activate the system in fast time,",
+        "start": 716.28,
+        "duration": 5.0
+    },
+    {
+        "text": "granted you're going through a\nsmall tube.",
+        "start": 721.28,
+        "duration": 1.98
+    },
+    {
+        "text": "So the effusion rate of the gas is important. \nSo you've got all that figured out.",
+        "start": 723.26,
+        "duration": 3.98
+    },
+    {
+        "text": "And there's mechanical lag associated\nwith the effusion rate,",
+        "start": 727.92,
+        "duration": 3.94
+    },
+    {
+        "text": "or the head pressure is what it's called.",
+        "start": 731.86,
+        "duration": 2.8
+    },
+    {
+        "text": "Yeah. With the velocity of the fluid.",
+        "start": 734.66,
+        "duration": 1.98
+    },
+    {
+        "text": "The feedback diagram, or the the block diagram of how perfecting this looks",
+        "start": 736.94,
+        "duration": 4.84
+    },
+    {
+        "text": "it's gonna look like a plus and a minus\nbetween you two guys right?",
+        "start": 741.78,
+        "duration": 3.62
+    },
+    {
+        "text": "And include some electrical engineers in there for good measure.",
+        "start": 745.62,
+        "duration": 2.84
+    },
+    {
+        "text": "We don't- nobody cares \nabout electrical engineers let's be honest",
+        "start": 748.56,
+        "duration": 3.1
+    },
+    {
+        "text": "(laughter)\nJust pretend I didn't say that.",
+        "start": 752.0,
+        "duration": 2.58
+    },
+    {
+        "text": "I'm with Jeffery an electrical engineer.",
+        "start": 754.94,
+        "duration": 1.8
+    },
+    {
+        "text": "So Jeffery I know how the tactors work.",
+        "start": 756.74,
+        "duration": 2.4
+    },
+    {
+        "text": "Or at least I've seen them. I think I figured it out.",
+        "start": 760.06,
+        "duration": 2.62
+    },
+    {
+        "text": "-You felt them?\n-I felt them",
+        "start": 762.68,
+        "duration": 1.7
+    },
+    {
+        "text": "I make sure we have good information about where the\nfingertips and the other parts of the hand are,",
+        "start": 764.42,
+        "duration": 4.42
+    },
+    {
+        "text": "so that we can turn on tactors\nat the right times to the right pressures.",
+        "start": 769.06,
+        "duration": 3.56
+    },
+    {
+        "text": "Dude that's awesome.",
+        "start": 772.62,
+        "duration": 1.38
+    },
+    {
+        "text": "I mean those valves that you're controlling, can you talk about that at all?",
+        "start": 774.0,
+        "duration": 2.82
+    },
+    {
+        "text": "I can't talk about the type of valve we use,",
+        "start": 777.16,
+        "duration": 2.34
+    },
+    {
+        "text": "but the timing and the hydraulics problem that you mentioned are things we work on pretty frequently.",
+        "start": 779.5,
+        "duration": 5.9
+    },
+    {
+        "text": "It's important to get them inflated the right amounts at the right times.",
+        "start": 785.68,
+        "duration": 3.82
+    },
+    {
+        "text": "We kind of get a pass on how accurate that is \njust because of how slow sensation is.",
+        "start": 789.5,
+        "duration": 6.08
+    },
+    {
+        "text": "-Right\n-You know people's perception of touch especially",
+        "start": 795.58,
+        "duration": 2.8
+    },
+    {
+        "text": "is not nearly as fast as things like\nvision or sound.",
+        "start": 798.38,
+        "duration": 4.38
+    },
+    {
+        "text": "-Especially thermally. I'm assuming that's \nsomething you guys are...\n-Thats particularly slow.",
+        "start": 802.76,
+        "duration": 4.16
+    },
+    {
+        "text": "Ed was telling me about the thermal\ncomponent to this.",
+        "start": 807.38,
+        "duration": 3.54
+    },
+    {
+        "text": "Both of these objects are 73 degrees but\nthat metal feels way colder.",
+        "start": 810.92,
+        "duration": 3.42
+    },
+    {
+        "text": "Yes when you're touching these objects you're not just feeling the temperature of the objects,",
+        "start": 814.34,
+        "duration": 4.46
+    },
+    {
+        "text": "but you're feeling the heat transfer between\nthem and your hand.",
+        "start": 818.8,
+        "duration": 3.58
+    },
+    {
+        "text": "And that's because...",
+        "start": 822.38,
+        "duration": 1.76
+    },
+    {
+        "text": "The reason the metal feels colder is because\nit has a higher thermal conductivity than the wood does.",
+        "start": 824.14,
+        "duration": 5.7
+    },
+    {
+        "text": "-So it's like sapping more heat out of your hand.\n-That's exactly right yeah.",
+        "start": 829.84,
+        "duration": 3.36
+    },
+    {
+        "text": "You're gonna model different types of objects by making more water flow or float a different temperature",
+        "start": 833.2,
+        "duration": 7.3
+    },
+    {
+        "text": "to pull more heat out of your fingers\nthat's basically what you're doing.",
+        "start": 840.54,
+        "duration": 2.96
+    },
+    {
+        "text": "Yeah that's that's exactly right and it's important that we don't just flow water at the right temperature,",
+        "start": 843.5,
+        "duration": 5.019
+    },
+    {
+        "text": "but we've flow it at the temperature\nthat you makes you think you're touching",
+        "start": 848.519,
+        "duration": 4.98
+    },
+    {
+        "text": "the real objects with\ndifferent thermal conductivities.",
+        "start": 853.5,
+        "duration": 2.7
+    },
+    {
+        "text": "Adam showed me another demonstrator where a\ndragon flies across the room",
+        "start": 856.2,
+        "duration": 3.5
+    },
+    {
+        "text": "and breathes fire on my hand which I can feel both thermally and like touch,",
+        "start": 859.7,
+        "duration": 4.64
+    },
+    {
+        "text": "and then it breathes ice on my hand, which felt cold.",
+        "start": 864.34,
+        "duration": 3.2
+    },
+    {
+        "text": "Now what's clear to me is there they've got to be \nusing fluid at this point,",
+        "start": 867.54,
+        "duration": 3.54
+    },
+    {
+        "text": "because that's the only way you can \nremove that much heat.",
+        "start": 871.08,
+        "duration": 2.76
+    },
+    {
+        "text": "So I think there's a tactor for touch\nand a pad for thermal.",
+        "start": 873.84,
+        "duration": 5.0
+    },
+    {
+        "text": "but I think they're separated\nwithin the 2-point threshold.",
+        "start": 878.84,
+        "duration": 3.92
+    },
+    {
+        "text": "They wouldn't tell me.\nI wasn't permitted to look.",
+        "start": 882.76,
+        "duration": 2.72
+    },
+    {
+        "text": "But one thing that was really interesting,",
+        "start": 885.48,
+        "duration": 1.48
+    },
+    {
+        "text": "If you switch from hot to cold, it (snaps fingers) happened really fast.",
+        "start": 886.96,
+        "duration": 3.36
+    },
+    {
+        "text": "So they have to dump the hot\nfrom the lines and get cold in there fast.",
+        "start": 890.32,
+        "duration": 5.4
+    },
+    {
+        "text": "So there's a lot going on here\nand I want to know mechanically how they do this.",
+        "start": 895.72,
+        "duration": 5.34
+    },
+    {
+        "text": "This is a heat exchange problem.",
+        "start": 901.06,
+        "duration": 1.6
+    },
+    {
+        "text": "-This was number two?\n-This is number two, you tried number three.",
+        "start": 902.66,
+        "duration": 3.26
+    },
+    {
+        "text": "Awesome so this is second generation.",
+        "start": 906.42,
+        "duration": 1.88
+    },
+    {
+        "text": "Ok so it's just one hand stationary in location.",
+        "start": 909.28,
+        "duration": 3.38
+    },
+    {
+        "text": "Oh god that makes so much sense.",
+        "start": 912.76,
+        "duration": 2.16
+    },
+    {
+        "text": "If I were to develop this, I would have started at\nmoving the hand in space",
+        "start": 915.06,
+        "duration": 4.84
+    },
+    {
+        "text": "and then add the haptics to that but instead you\nstarted with the haptics",
+        "start": 919.9,
+        "duration": 3.84
+    },
+    {
+        "text": "We knew people could do motion capture -- that's\nbeen done before -- so we wanted to start",
+        "start": 923.74,
+        "duration": 4.38
+    },
+    {
+        "text": "with the thing that hadn't been done.\n-Clever",
+        "start": 928.12,
+        "duration": 2.339
+    },
+    {
+        "text": "keep your thumb beside your hand as you go in",
+        "start": 930.459,
+        "duration": 2.501
+    },
+    {
+        "text": "How are you doing that? I would expect\nthat that's fluid in there or that's",
+        "start": 932.96,
+        "duration": 4.83
+    },
+    {
+        "text": "actually a solid that I'm touching.\nYou're not allowed to tell me?",
+        "start": 937.79,
+        "duration": 4.77
+    },
+    {
+        "text": "I'm looking at Lathe right now just to see.",
+        "start": 942.56,
+        "duration": 3.2
+    },
+    {
+        "text": "(offscreen) It's hot and cold fluid\n- Gotcha",
+        "start": 945.76,
+        "duration": 3.04
+    },
+    {
+        "text": "it's a chunk of snow it's a snowball oh\nit's a dragon oh it's gonna burn my hand",
+        "start": 948.8,
+        "duration": 8.16
+    },
+    {
+        "text": "I don't think it likes being poked oh\nshit that's awesome okay that's good so",
+        "start": 956.96,
+        "duration": 11.82
+    },
+    {
+        "text": "you guys like Game of Thrones so it's a\ncombination of the tactors firing and",
+        "start": 968.78,
+        "duration": 5.99
+    },
+    {
+        "text": "temperature control. so you haven't\nimplemented temperature control into--",
+        "start": 974.77,
+        "duration": 4.42
+    },
+    {
+        "text": "-Not in the glove, the glove does not have thermal",
+        "start": 979.19,
+        "duration": 2.67
+    },
+    {
+        "text": "Is that a goal?",
+        "start": 981.86,
+        "duration": 2.22
+    },
+    {
+        "text": "I don't think I can talk about that\n(Laughter)",
+        "start": 984.08,
+        "duration": 1.72
+    },
+    {
+        "text": "That's awsome, so",
+        "start": 985.8,
+        "duration": 1.18
+    },
+    {
+        "text": "so what we've learned is it's how far\nthe tactors are fired, the rate at which",
+        "start": 988.36,
+        "duration": 5.41
+    },
+    {
+        "text": "they they are fired, so it's not just the rise time.\nThe timing is important, not just the rise",
+        "start": 993.77,
+        "duration": 5.64
+    },
+    {
+        "text": "time but the the impact timing is\nimportant the heat transfer with fluid",
+        "start": 999.41,
+        "duration": 4.62
+    },
+    {
+        "text": "which is something obviously they don't\nwant to talk about obviously they're",
+        "start": 1004.03,
+        "duration": 3.87
+    },
+    {
+        "text": "working on it that's amazing that all\nthat stuff actually tricks your brain it",
+        "start": 1007.9,
+        "duration": 4.56
+    },
+    {
+        "text": "does a really good job of tricking your\nbrain which I did not expect and I did",
+        "start": 1012.46,
+        "duration": 4.62
+    },
+    {
+        "text": "not like VR up at this point seriously\nthat's pretty cool we're living in the",
+        "start": 1017.08,
+        "duration": 4.2
+    },
+    {
+        "text": "future haptic gloves you're touching\nstuff in virtual reality I'm about to",
+        "start": 1021.28,
+        "duration": 3.45
+    },
+    {
+        "text": "tell you about the sponsor which is\n23andme 23 pairs of human chromosomes",
+        "start": 1024.73,
+        "duration": 3.87
+    },
+    {
+        "text": "where the name comes from if you don't\nknow about 23andme the way it works is",
+        "start": 1028.6,
+        "duration": 3.0
+    },
+    {
+        "text": "you go to 23andme.com/Smarter.",
+        "start": 1031.6,
+        "duration": 1.712
+    },
+    {
+        "text": "I'd appreciate it if you use that link you",
+        "start": 1033.312,
+        "duration": 2.397
+    },
+    {
+        "text": "get this vial you spit in it and you\nsend it off you can do one of the two",
+        "start": 1035.709,
+        "duration": 3.991
+    },
+    {
+        "text": "kits you can do the health and ancestry\nkit or just the ancestry kit but if you",
+        "start": 1039.7,
+        "duration": 4.17
+    },
+    {
+        "text": "have any questions about where this goes\nI did a whole video at their lab the",
+        "start": 1043.87,
+        "duration": 3.57
+    },
+    {
+        "text": "cool thing about this though you get\nthis report online you can learn stuff",
+        "start": 1047.44,
+        "duration": 3.78
+    },
+    {
+        "text": "about your body about your family it's\nit's amazing but here's the deal the",
+        "start": 1051.22,
+        "duration": 4.71
+    },
+    {
+        "text": "Food and Drug Administration the FDA\njust recently approved 23andmes ability",
+        "start": 1055.93,
+        "duration": 5.25
+    },
+    {
+        "text": "to release new genetic marker\ninformation and I don't want to go into",
+        "start": 1061.18,
+        "duration": 3.45
+    },
+    {
+        "text": "the specifics of what that is\nbut it's stuff you care about and this",
+        "start": 1064.63,
+        "duration": 3.33
+    },
+    {
+        "text": "is new like this is future stuff okay so\ngo to 23andme.com/Smarter",
+        "start": 1067.96,
+        "duration": 4.44
+    },
+    {
+        "text": "and at least read about the new information",
+        "start": 1072.4,
+        "duration": 2.58
+    },
+    {
+        "text": "that 23andme can release to you because",
+        "start": 1075.06,
+        "duration": 3.18
+    },
+    {
+        "text": "the FDA allowed it it's cool stuff so I\nwould appreciate it if you participate",
+        "start": 1078.25,
+        "duration": 3.78
+    },
+    {
+        "text": "in the future with me and go 23andme.com/Smarter\nyou're smart people",
+        "start": 1082.03,
+        "duration": 4.71
+    },
+    {
+        "text": "you know how this works: that helps smarter every day.\nI hope you love this cuz we're",
+        "start": 1086.74,
+        "duration": 3.78
+    },
+    {
+        "text": "stinking in the future like right now\nand it reminds me of when I was a kid",
+        "start": 1090.52,
+        "duration": 3.06
+    },
+    {
+        "text": "and used to watch Beyond 2000 with my\ndad I feel like I'm getting to make that",
+        "start": 1093.58,
+        "duration": 3.75
+    },
+    {
+        "text": "that show now, which is cool. Anyway,\nplease consider going to 23andme.com/Smarter",
+        "start": 1097.33,
+        "duration": 4.71
+    },
+    {
+        "text": "that's support Smarter Every Day.\nPlease consider subscribing,",
+        "start": 1102.04,
+        "duration": 3.33
+    },
+    {
+        "text": "if you enjoyed this video, if not, that's no big\ndeal. Thanks for coming along on the ride with me.",
+        "start": 1105.37,
+        "duration": 3.87
+    },
+    {
+        "text": "Anyway, I'm Destin, you're getting\nsmarter every day. Have a good one, bye!",
+        "start": 1109.24,
+        "duration": 5.67
+    },
+    {
+        "text": "So I feel like I sufficiently understand at\nleast a little bit of the system yeah",
+        "start": 1114.91,
+        "duration": 3.42
+    },
+    {
+        "text": "thank you very much! It's Mark, right?\nYeah.\nSo I have found the wizard for the glove,",
+        "start": 1118.33,
+        "duration": 4.23
+    },
+    {
+        "text": "it's Mark.",
+        "start": 1122.56,
+        "duration": 2.63
+    }
+]

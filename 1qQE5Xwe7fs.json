@@ -1,0 +1,832 @@
+[
+    {
+        "text": "Behold!",
+        "start": 0.25,
+        "duration": 1.069
+    },
+    {
+        "text": "The transistor, a tiny switch about the size\nof a virus that can control the flow of a",
+        "start": 1.319,
+        "duration": 5.48
+    },
+    {
+        "text": "small electrical current.",
+        "start": 6.799,
+        "duration": 1.541
+    },
+    {
+        "text": "It's one of the most important inventions\never because when it's on, it's on and when",
+        "start": 8.34,
+        "duration": 3.39
+    },
+    {
+        "text": "it's off, it's off.",
+        "start": 11.73,
+        "duration": 1.6
+    },
+    {
+        "text": "Sounds simple.",
+        "start": 13.33,
+        "duration": 1.45
+    },
+    {
+        "text": "Probably too simple.",
+        "start": 14.78,
+        "duration": 1.19
+    },
+    {
+        "text": "But this \"either/or\" situation is incredibly\nuseful because it is a binary system.",
+        "start": 15.97,
+        "duration": 4.93
+    },
+    {
+        "text": "On or off, yes or no, one or zero.",
+        "start": 20.9,
+        "duration": 2.36
+    },
+    {
+        "text": "But with enough transistors working together\nwe can create limitless combinations of \"ons\"",
+        "start": 23.26,
+        "duration": 4.58
+    },
+    {
+        "text": "and \"offs\", \"ones\" and \"zeros\" to make a code\nthat can store and process just about any",
+        "start": 27.84,
+        "duration": 4.739
+    },
+    {
+        "text": "kind of information you can imagine.",
+        "start": 32.579,
+        "duration": 1.781
+    },
+    {
+        "text": "That's how your computer computes, and it's\nhow you're watching me right now.",
+        "start": 34.36,
+        "duration": 3.3
+    },
+    {
+        "text": "It's all because those tiny transistors can\nbe organized, or integrated into integrated",
+        "start": 37.66,
+        "duration": 4.85
+    },
+    {
+        "text": "circuits also known as microchips or microprocessors,\nwhich can orchestrate the operation of millions",
+        "start": 42.51,
+        "duration": 5.34
+    },
+    {
+        "text": "of transistors at once.",
+        "start": 47.85,
+        "duration": 1.36
+    },
+    {
+        "text": "And until pretty recently, the only limitation\nto how fast and smart our computers could",
+        "start": 49.21,
+        "duration": 4.05
+    },
+    {
+        "text": "get was how many transistors we could pack\nonto a microchip.",
+        "start": 53.26,
+        "duration": 3.41
+    },
+    {
+        "text": "Back in 1965, Gordon Moore, co-founder of\nthe Intel Corporation, predicted that the",
+        "start": 56.67,
+        "duration": 4.27
+    },
+    {
+        "text": "number of transistors that could fit on a\nmicrochip would double every two years.",
+        "start": 60.94,
+        "duration": 4.67
+    },
+    {
+        "text": "So essentially every two years computers would\nbecome twice as powerful.",
+        "start": 65.61,
+        "duration": 3.79
+    },
+    {
+        "text": "This is known in the tech industry as Moore's\nLaw, and for forty years it was pretty accurate;",
+        "start": 69.4,
+        "duration": 4.88
+    },
+    {
+        "text": "we went from chips with about 2,300 transistors\nin 1972, to chips with about 300 million transistors",
+        "start": 74.28,
+        "duration": 5.85
+    },
+    {
+        "text": "by 2006.",
+        "start": 80.13,
+        "duration": 1.0
+    },
+    {
+        "text": "But over the last ten years we've fallen behind\nthe exponential growth that Moore predicted.",
+        "start": 81.13,
+        "duration": 4.61
+    },
+    {
+        "text": "The processors coming off assembly lines now\nhave about a billion transistors, which is",
+        "start": 85.74,
+        "duration": 3.96
+    },
+    {
+        "text": "a really big number, but if we were keeping\nup with Moore's Law, we'd be up to four or",
+        "start": 89.7,
+        "duration": 4.169
+    },
+    {
+        "text": "five billion by now.",
+        "start": 93.869,
+        "duration": 1.301
+    },
+    {
+        "text": "So why is the trend slowing down?",
+        "start": 95.17,
+        "duration": 1.699
+    },
+    {
+        "text": "How can we get more transistors onto a chip?",
+        "start": 96.869,
+        "duration": 2.861
+    },
+    {
+        "text": "Are there entirely different technologies\nwe could be using instead, ones that pose",
+        "start": 99.73,
+        "duration": 3.86
+    },
+    {
+        "text": "no limitations?",
+        "start": 103.59,
+        "duration": 1.38
+    },
+    {
+        "text": "And how do billions of little on/off switches\nturn into movies and music and YouTube videos",
+        "start": 104.97,
+        "duration": 4.429
+    },
+    {
+        "text": "about science that display on a glowing, magical\nbox?",
+        "start": 109.399,
+        "duration": 3.08
+    },
+    {
+        "text": "Spoilers: it's not magic; it's science.",
+        "start": 112.479,
+        "duration": 4.881
+    },
+    {
+        "text": "[SciShow intro music]",
+        "start": 117.36,
+        "duration": 9.11
+    },
+    {
+        "text": "To understand the device that you're using\nright now as well as the challenges computer",
+        "start": 126.47,
+        "duration": 3.59
+    },
+    {
+        "text": "science is facing, and what the future of\ncomputing might look like, you have to start",
+        "start": 130.06,
+        "duration": 4.09
+    },
+    {
+        "text": "small with that transistor.",
+        "start": 134.15,
+        "duration": 2.04
+    },
+    {
+        "text": "A transistor is essentially a little gate\nthat can be opened or shut with electricity",
+        "start": 136.19,
+        "duration": 4.25
+    },
+    {
+        "text": "to control the flow of electrons between two\nchannels made of silicon, which are separated",
+        "start": 140.44,
+        "duration": 4.47
+    },
+    {
+        "text": "by a little gap.",
+        "start": 144.91,
+        "duration": 1.0
+    },
+    {
+        "text": "They're made of silicon because silicon is\na natural semiconductor.",
+        "start": 145.91,
+        "duration": 2.88
+    },
+    {
+        "text": "It can be modified to conduct electricity\nreally well in some conditions or not at all",
+        "start": 148.79,
+        "duration": 4.7
+    },
+    {
+        "text": "in other conditions.",
+        "start": 153.49,
+        "duration": 1.07
+    },
+    {
+        "text": "In its pure state, silicon forms really nice,\nregular crystals.",
+        "start": 154.56,
+        "duration": 3.81
+    },
+    {
+        "text": "Each atom has four electrons in its outer\nshell that are bonded with the silicon atoms",
+        "start": 158.37,
+        "duration": 4.04
+    },
+    {
+        "text": "around it.",
+        "start": 162.41,
+        "duration": 1.0
+    },
+    {
+        "text": "This arrangement makes it an excellent insulator.",
+        "start": 163.41,
+        "duration": 2.06
+    },
+    {
+        "text": "It doesn't conduct electricity very well because\nall of its electrons are spoken for.",
+        "start": 165.47,
+        "duration": 3.91
+    },
+    {
+        "text": "But you can make that crystalline silicon\nconduct electricity really well if you dope",
+        "start": 169.38,
+        "duration": 4.06
+    },
+    {
+        "text": "it.",
+        "start": 173.44,
+        "duration": 1.0
+    },
+    {
+        "text": "You know, doping, when you inject one substance\ninto another substance to give it powerful",
+        "start": 174.44,
+        "duration": 3.35
+    },
+    {
+        "text": "properties, like what Lance Armstrong did\nto win the the Tour De France seven times,",
+        "start": 177.79,
+        "duration": 3.46
+    },
+    {
+        "text": "only instead of super-powered tiger blood\nor whatever, the silicon is doped with another",
+        "start": 181.25,
+        "duration": 4.61
+    },
+    {
+        "text": "element like phosphorous, which has five electrons\nin its outer shell; or boron, which has three.",
+        "start": 185.86,
+        "duration": 5.18
+    },
+    {
+        "text": "If you inject these in to pure crystal silicon,\nsuddenly you have extra unbonded electrons",
+        "start": 191.04,
+        "duration": 4.94
+    },
+    {
+        "text": "that can move around, and jump across the\ngap between the two strips of silicon.",
+        "start": 195.98,
+        "duration": 3.72
+    },
+    {
+        "text": "But they're not gonna do that without a little\nkick.",
+        "start": 199.7,
+        "duration": 2.149
+    },
+    {
+        "text": "When you apply a positive electrical charge\nto a transistor, that positive charge will",
+        "start": 201.849,
+        "duration": 3.621
+    },
+    {
+        "text": "attract those electrons, which are negative,\nout of both silicon strips, drawing them in",
+        "start": 205.47,
+        "duration": 4.63
+    },
+    {
+        "text": "to the gap between them.",
+        "start": 210.1,
+        "duration": 1.63
+    },
+    {
+        "text": "When enough electrons are gathered, they turn\nin to a current.",
+        "start": 211.73,
+        "duration": 2.75
+    },
+    {
+        "text": "Remove the positive charge, and the electrons\nzip back in to their places leaving the gap",
+        "start": 214.48,
+        "duration": 3.839
+    },
+    {
+        "text": "empty.",
+        "start": 218.319,
+        "duration": 1.0
+    },
+    {
+        "text": "Thus the transistor has two modes: on and\noff, one and zero.",
+        "start": 219.319,
+        "duration": 3.911
+    },
+    {
+        "text": "All the information your computer is using\nright now is represented by sequences of open",
+        "start": 223.23,
+        "duration": 4.69
+    },
+    {
+        "text": "and shut transistors.",
+        "start": 227.92,
+        "duration": 1.45
+    },
+    {
+        "text": "So, how does a bunch of ones and zeroes turn\nin to me talking to you on your screen right",
+        "start": 229.37,
+        "duration": 4.42
+    },
+    {
+        "text": "now?",
+        "start": 233.79,
+        "duration": 1.0
+    },
+    {
+        "text": "Let's just imagine eight transistors hooked\nup together.",
+        "start": 234.79,
+        "duration": 1.73
+    },
+    {
+        "text": "I say 8 because one byte of information is\nmade out of 8 bits, that's 8 on or off switches,",
+        "start": 236.52,
+        "duration": 5.87
+    },
+    {
+        "text": "that's the basic unit of a single piece of\ninformation inside your computer.",
+        "start": 242.39,
+        "duration": 3.09
+    },
+    {
+        "text": "Now the total number of possible on/off configurations\nfor those 8 transistors is 256.",
+        "start": 245.48,
+        "duration": 5.68
+    },
+    {
+        "text": "That means 256 combinations of ones and zeroes\nin that 8 bit sequence.",
+        "start": 251.16,
+        "duration": 4.06
+    },
+    {
+        "text": "So let's say our 8 transistor microchip is\ngiven this byte of data, that's the number",
+        "start": 255.22,
+        "duration": 4.34
+    },
+    {
+        "text": "67 in binary by the way.",
+        "start": 259.56,
+        "duration": 1.84
+    },
+    {
+        "text": "Okay, so what now?",
+        "start": 261.4,
+        "duration": 1.0
+    },
+    {
+        "text": "The cool thing about binary data is that the\nsame string of ones and zeroes can mean totally",
+        "start": 262.4,
+        "duration": 4.01
+    },
+    {
+        "text": "different things depending on where it's sent.",
+        "start": 266.41,
+        "duration": 2.569
+    },
+    {
+        "text": "Different parts of your computer use different\ndecoding keys to read the binary code.",
+        "start": 268.979,
+        "duration": 3.741
+    },
+    {
+        "text": "So if our teeny tiny little 8 transistor microchip\nkicks that byte over to our graphics card,",
+        "start": 272.72,
+        "duration": 4.58
+    },
+    {
+        "text": "our graphics card will interpret it as one\nof 256 colors.",
+        "start": 277.3,
+        "duration": 3.35
+    },
+    {
+        "text": "Whichever one is coded as number 67.",
+        "start": 280.65,
+        "duration": 2.18
+    },
+    {
+        "text": "But if that same byte is sent over to our\nsound card, it might interpret it as one of",
+        "start": 282.83,
+        "duration": 3.29
+    },
+    {
+        "text": "256 different spots mapped on to a sound wave.",
+        "start": 286.12,
+        "duration": 3.02
+    },
+    {
+        "text": "Each spot has its own sound and our byte will\ncode for a spot number 67, so your speaker",
+        "start": 289.14,
+        "duration": 5.249
+    },
+    {
+        "text": "will put out that sound.",
+        "start": 294.389,
+        "duration": 1.401
+    },
+    {
+        "text": "If it's sent over to the part of your computer\nthat converts data into written language,",
+        "start": 295.79,
+        "duration": 3.03
+    },
+    {
+        "text": "called the UTF-8 code, it turns it into the\nletter C. Uppercase C actually, not lowercase",
+        "start": 298.82,
+        "duration": 4.849
+    },
+    {
+        "text": "c which is a different byte.",
+        "start": 303.669,
+        "duration": 1.531
+    },
+    {
+        "text": "So our eight transistor processor already\nhas a lot of options; the problem is that",
+        "start": 305.2,
+        "duration": 3.9
+    },
+    {
+        "text": "it can only manage one byte of data at a time,\nand even if it's flying through bytes at a",
+        "start": 309.1,
+        "duration": 3.921
+    },
+    {
+        "text": "rate of a few million per second, which your\ncomputer is doing right now, that's still",
+        "start": 313.021,
+        "duration": 3.869
+    },
+    {
+        "text": "a serious data checkpoint, so we need more\ntransistors, and then more, and more, and",
+        "start": 316.89,
+        "duration": 5.309
+    },
+    {
+        "text": "more, and more!",
+        "start": 322.199,
+        "duration": 1.0
+    },
+    {
+        "text": "And for the past 50 years, the biggest obstacle\nto cramming more and more transistors onto",
+        "start": 323.199,
+        "duration": 3.411
+    },
+    {
+        "text": "a single chip, and therefore increasing our\nprocessing power, has come down to one thing",
+        "start": 326.61,
+        "duration": 4.39
+    },
+    {
+        "text": "- how small we can make that gap between the\ntwo silicon channels.",
+        "start": 331.0,
+        "duration": 3.66
+    },
+    {
+        "text": "In the early days of computing, those gaps\nwere so big that you could see them with the",
+        "start": 334.66,
+        "duration": 3.15
+    },
+    {
+        "text": "naked eye.",
+        "start": 337.81,
+        "duration": 1.0
+    },
+    {
+        "text": "Today, a state-of-the-art microchip has gaps\nthat are only 32 nanometers across.",
+        "start": 338.81,
+        "duration": 3.04
+    },
+    {
+        "text": "To give you a sense of perspective, a single\nred blood cell is 125 times larger than that.",
+        "start": 341.85,
+        "duration": 7.349
+    },
+    {
+        "text": "32 nanometers is the width of only a few hundred\natoms.",
+        "start": 349.199,
+        "duration": 2.961
+    },
+    {
+        "text": "So, there's a limit to how low we can go.",
+        "start": 352.16,
+        "duration": 2.25
+    },
+    {
+        "text": "Maybe we can shave that gap down to 22 or\n16 or even 10 nanometers using current available",
+        "start": 354.41,
+        "duration": 5.93
+    },
+    {
+        "text": "technology, but then you start running into\na lot of problems.",
+        "start": 360.34,
+        "duration": 2.6
+    },
+    {
+        "text": "The first big problem is that when you're\ndealing with components that are so small",
+        "start": 362.94,
+        "duration": 2.81
+    },
+    {
+        "text": "that just a few stray atoms can ruin a chip,\nit's no longer possible to make chips that",
+        "start": 365.75,
+        "duration": 4.75
+    },
+    {
+        "text": "are reliable or affordable.",
+        "start": 370.5,
+        "duration": 1.43
+    },
+    {
+        "text": "The second big problem is heat.",
+        "start": 371.93,
+        "duration": 2.22
+    },
+    {
+        "text": "That many transistors churning through millions\nof bytes of data per second in such a small",
+        "start": 374.15,
+        "duration": 4.0
+    },
+    {
+        "text": "space generates a lot of heat.",
+        "start": 378.15,
+        "duration": 2.28
+    },
+    {
+        "text": "I mean, we're starting to test chips that\nget so hot that they melt through the motherboard,",
+        "start": 380.43,
+        "duration": 5.06
+    },
+    {
+        "text": "and then sometimes through the floor.",
+        "start": 385.49,
+        "duration": 2.17
+    },
+    {
+        "text": "And the third big problem is quantum mechanics.",
+        "start": 387.66,
+        "duration": 2.33
+    },
+    {
+        "text": "Oh, quantum mechanics, you enchanting, treacherous\nminx.",
+        "start": 389.99,
+        "duration": 3.429
+    },
+    {
+        "text": "When you start dealing with distances that\nare that small, you start to face the very",
+        "start": 393.419,
+        "duration": 3.761
+    },
+    {
+        "text": "real dilemma of electrons just jumping across\nthe gap for no reason, in a phenomenon known",
+        "start": 397.18,
+        "duration": 5.57
+    },
+    {
+        "text": "as quantum tunneling.",
+        "start": 402.75,
+        "duration": 1.169
+    },
+    {
+        "text": "If that starts happening, your data is gonna\nstart getting corrupted while it moves around",
+        "start": 403.919,
+        "duration": 4.321
+    },
+    {
+        "text": "inside your computer.",
+        "start": 408.24,
+        "duration": 1.179
+    },
+    {
+        "text": "So, how can we keep making our computers even\nfaster when atoms aren't getting any smaller.",
+        "start": 409.419,
+        "duration": 5.891
+    },
+    {
+        "text": "Well, it might be time to abandon silicon.",
+        "start": 415.31,
+        "duration": 3.06
+    },
+    {
+        "text": "Graphene, for example, is a more highly conductive\nmaterial that would let electrons travel across",
+        "start": 418.37,
+        "duration": 4.299
+    },
+    {
+        "text": "it faster.",
+        "start": 422.669,
+        "duration": 1.0
+    },
+    {
+        "text": "We just can't figure out how to manufacture\nit yet.",
+        "start": 423.669,
+        "duration": 2.461
+    },
+    {
+        "text": "Another option is to abandon electrons because,\nand get ready to have your mind blown, electrons",
+        "start": 426.13,
+        "duration": 5.18
+    },
+    {
+        "text": "are incredibly slow.",
+        "start": 431.31,
+        "duration": 1.47
+    },
+    {
+        "text": "Like, the electrons moving through the wire\nthat connects your lamp to the wall outlet,",
+        "start": 432.78,
+        "duration": 3.78
+    },
+    {
+        "text": "they're moving at about 8 and a half centimeters\nper hour.",
+        "start": 436.56,
+        "duration": 2.63
+    },
+    {
+        "text": "And that's fast enough when electrons only\nhave to travel 32 nanometers, but other stuff",
+        "start": 439.19,
+        "duration": 4.199
+    },
+    {
+        "text": "can go a lot faster.",
+        "start": 443.389,
+        "duration": 1.451
+    },
+    {
+        "text": "Like light.",
+        "start": 444.84,
+        "duration": 1.0
+    },
+    {
+        "text": "Optical computers would move around photons\ninstead of electrons to represent the flow",
+        "start": 445.84,
+        "duration": 3.079
+    },
+    {
+        "text": "of data.",
+        "start": 448.919,
+        "duration": 1.0
+    },
+    {
+        "text": "And photons are literally as fast as anything\ncan possibly be, so you can't ask for better",
+        "start": 449.919,
+        "duration": 4.801
+    },
+    {
+        "text": "than that.",
+        "start": 454.72,
+        "duration": 1.0
+    },
+    {
+        "text": "But, of course, there are some major problems\nwith optical computing, like the fact that",
+        "start": 455.72,
+        "duration": 2.9
+    },
+    {
+        "text": "photons ARE so fast that it makes them hard\nto pin down for long enough to be used for",
+        "start": 458.62,
+        "duration": 4.389
+    },
+    {
+        "text": "data.",
+        "start": 463.009,
+        "duration": 1.0
+    },
+    {
+        "text": "And the fact that lasers, which are probably\nwhat optical computing would involve, are",
+        "start": 464.009,
+        "duration": 2.75
+    },
+    {
+        "text": "huge power hogs and would be incredibly expensive\nto keep running.",
+        "start": 466.759,
+        "duration": 4.161
+    },
+    {
+        "text": "Probably the simplest solution to faster computing\nisn't to switch to fancy new materials or",
+        "start": 470.92,
+        "duration": 4.29
+    },
+    {
+        "text": "harness the power of light, but to just start\nusing more chips.",
+        "start": 475.21,
+        "duration": 3.42
+    },
+    {
+        "text": "If you've got four chips processing a program\nin parallel, the computer would be four times",
+        "start": 478.63,
+        "duration": 4.11
+    },
+    {
+        "text": "faster, right?",
+        "start": 482.74,
+        "duration": 1.0
+    },
+    {
+        "text": "Welllll, yeah, I mean es, but microchips are\nsuper expensive, and it's also hard to design",
+        "start": 483.74,
+        "duration": 4.649
+    },
+    {
+        "text": "software that makes use of multiple processors.",
+        "start": 488.389,
+        "duration": 2.471
+    },
+    {
+        "text": "We like our flows of data to be linear because\nthat's how we tend to process information",
+        "start": 490.86,
+        "duration": 4.089
+    },
+    {
+        "text": "and it's kind of a hard habit to break.",
+        "start": 494.949,
+        "duration": 1.4
+    },
+    {
+        "text": "And then there are some really exotic options,\nlike thermal computing which uses variations",
+        "start": 496.349,
+        "duration": 4.231
+    },
+    {
+        "text": "in heat to represent bits of data, or quantum\ncomputing which deals in particles that are",
+        "start": 500.58,
+        "duration": 4.95
+    },
+    {
+        "text": "in more than one state at the same time, thereby\ntotally doing away with the whole on-off,",
+        "start": 505.53,
+        "duration": 4.139
+    },
+    {
+        "text": "either-or system.",
+        "start": 509.669,
+        "duration": 1.0
+    },
+    {
+        "text": "So, wherever computers go next, there are\ngonna need to be some big changes if we want",
+        "start": 510.669,
+        "duration": 3.701
+    },
+    {
+        "text": "our technology to keep getting smaller, and\nsmarter, and faster.",
+        "start": 514.37,
+        "duration": 3.919
+    },
+    {
+        "text": "Personally, I'm holding out hope for the lasers,\nlaser computer- I want one of those.",
+        "start": 518.289,
+        "duration": 4.701
+    },
+    {
+        "text": "Thanks for watching the SciShow Infusion,\nespecially to our Subbable subscribers.",
+        "start": 522.99,
+        "duration": 3.3
+    },
+    {
+        "text": "To learn how you can support us in exploring\nthe world, whether it's inside your computer",
+        "start": 526.29,
+        "duration": 4.31
+    },
+    {
+        "text": "or outside in the universe, just go to subbable.com/scishow.",
+        "start": 530.6,
+        "duration": 3.08
+    },
+    {
+        "text": "And speaking of that whole universe, check\nout our new channel, SciShow Space where we",
+        "start": 533.68,
+        "duration": 3.94
+    },
+    {
+        "text": "talk about that, including the latest in space\nnews, and as always don't forget to go to",
+        "start": 537.62,
+        "duration": 4.75
+    },
+    {
+        "text": "youtube.com/scishow and subscribe, so that\nyou can always keep getting more of this,",
+        "start": 542.37,
+        "duration": 3.99
+    },
+    {
+        "text": "because I know you like it.",
+        "start": 546.36,
+        "duration": 2.88
+    },
+    {
+        "text": "[SciShow outro music]",
+        "start": 549.24,
+        "duration": 6.02
+    }
+]

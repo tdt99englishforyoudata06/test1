@@ -1,0 +1,1467 @@
+[
+    {
+        "text": "At the end of the 19th century, David Hilbert,\nwho was a famous mathematician at the time,",
+        "start": 0.02,
+        "duration": 3.68
+    },
+    {
+        "text": "Listed 20 problems that he thought were going to\ndirect the future of 20th Century  mathematics.",
+        "start": 3.7,
+        "duration": 4.939
+    },
+    {
+        "text": "But one of them, Hilbert's 3rd\nproblem, was so easy that",
+        "start": 8.64,
+        "duration": 2.58
+    },
+    {
+        "text": "Hilbert's student solved it\n2 years after he posed it.",
+        "start": 11.22,
+        "duration": 2.56
+    },
+    {
+        "text": "So that's the one I\nwant to explain today.",
+        "start": 13.78,
+        "duration": 1.8
+    },
+    {
+        "text": "Yeah, I would call it\nHilbert's 3rd problem,",
+        "start": 15.58,
+        "duration": 1.58
+    },
+    {
+        "text": "but it's maybe, maybe let's call it the equidecomposability problem.",
+        "start": 17.16,
+        "duration": 3.58
+    },
+    {
+        "text": "If you have two\npolygons 𝑃₁ and 𝑃₂--",
+        "start": 20.74,
+        "duration": 3.5
+    },
+    {
+        "text": "Brady Haran: So no rules about convex or concave?\nDaniel Litt: No rules about convex or concave.",
+        "start": 24.24,
+        "duration": 3.42
+    },
+    {
+        "text": "All you need is a finite number of straight\nlines which meet and form a closed figure.",
+        "start": 27.66,
+        "duration": 4.92
+    },
+    {
+        "text": "So here are 2 polygons, 𝑃₁ and 𝑃₂,\nand they have the same area,",
+        "start": 32.58,
+        "duration": 4.2
+    },
+    {
+        "text": "then you can cut off 𝑃₁ with finitely many\nstraight lines and rearrange the pieces to get 𝑃₂.",
+        "start": 36.78,
+        "duration": 6.08
+    },
+    {
+        "text": "So here's an example of a\npolygon which I've already pre-cut.",
+        "start": 42.86,
+        "duration": 2.54
+    },
+    {
+        "text": "It's a parallelogram and here's how we can\nrearrange it into a rectangle with the same area.",
+        "start": 45.4,
+        "duration": 5.42
+    },
+    {
+        "text": "Just move this triangle over here.\nSo that was pretty easy.",
+        "start": 50.82,
+        "duration": 2.54
+    },
+    {
+        "text": "So the proof actually gives you an\nalgorithm for cutting up a polygon",
+        "start": 53.36,
+        "duration": 3.18
+    },
+    {
+        "text": "and decomposing\nit into another one.",
+        "start": 56.54,
+        "duration": 2.199
+    },
+    {
+        "text": "So Hilbert's\n3rd question,",
+        "start": 58.74,
+        "duration": 2.02
+    },
+    {
+        "text": "which was in 1898, I think, was, \"Is the same thing true in three dimensions?\"",
+        "start": 60.76,
+        "duration": 6.04
+    },
+    {
+        "text": "So what do I\nmean by that?",
+        "start": 66.8,
+        "duration": 1.14
+    },
+    {
+        "text": "I mean if you have two polyhedra,\nso three-dimensional figures",
+        "start": 67.94,
+        "duration": 3.28
+    },
+    {
+        "text": "which are made out of, you know,\nflat faces edges, and vertices,",
+        "start": 71.22,
+        "duration": 4.0
+    },
+    {
+        "text": "and if they have the same volume,",
+        "start": 75.22,
+        "duration": 2.1
+    },
+    {
+        "text": "can you cut one up into pieces with finitely many\ncuts and rearrange the pieces to make the other?",
+        "start": 77.32,
+        "duration": 4.88
+    },
+    {
+        "text": "Brady Haran: Well, in my\nintuition, would be yes.",
+        "start": 82.2,
+        "duration": 2.18
+    },
+    {
+        "text": "It's because if you put two polyhedra\nwith the same volume into, like, a bath,",
+        "start": 84.39,
+        "duration": 3.95
+    },
+    {
+        "text": "they'll displace the\nsame amount of water.",
+        "start": 88.34,
+        "duration": 1.719
+    },
+    {
+        "text": "Daniel Litt: So, yeah, so if you were allowed to\nmelt the polyhedra, you could definitely do it.",
+        "start": 90.06,
+        "duration": 3.4
+    },
+    {
+        "text": "but if you're only allowed to use\nstraight cuts, it turns out you can't,",
+        "start": 93.46,
+        "duration": 3.28
+    },
+    {
+        "text": "and this is what\nDehn proved,",
+        "start": 96.74,
+        "duration": 1.32
+    },
+    {
+        "text": "and I think Hilbert\nprobably expected this,",
+        "start": 98.06,
+        "duration": 2.06
+    },
+    {
+        "text": "so I think he probably tried with the\ncube, tried to cut it up into pieces,",
+        "start": 100.12,
+        "duration": 3.5
+    },
+    {
+        "text": "and rearrange it\ninto a tetrahedron,",
+        "start": 103.62,
+        "duration": 1.499
+    },
+    {
+        "text": "so that's a figure with 4 faces all a bunch of triangles,\nwhich are the same, and he couldn't do it.",
+        "start": 105.12,
+        "duration": 4.9
+    },
+    {
+        "text": "and so the actual\nquestion was:",
+        "start": 110.02,
+        "duration": 1.28
+    },
+    {
+        "text": "can you cut up a cube with finitely many knife cuts\nand rearrange the pieces to get a tetrahedron?",
+        "start": 111.3,
+        "duration": 5.06
+    },
+    {
+        "text": "And Dehn ended up proving that you can't do that.\nBrady Haran: You can't do it?",
+        "start": 116.36,
+        "duration": 2.95
+    },
+    {
+        "text": "Daniel Litt: You can't do it.",
+        "start": 119.31,
+        "duration": 0.97
+    },
+    {
+        "text": "Brady Haran: What changes between 2 and 3\ndimensions that suddenly makes it impossible?",
+        "start": 120.28,
+        "duration": 3.8
+    },
+    {
+        "text": "Daniel Litt: Yeah, so I can explain\nat least the idea behind Dehn's proof.",
+        "start": 124.08,
+        "duration": 3.8
+    },
+    {
+        "text": "Dehn was the student of Hilbert, and it was his\nthesis problem to solve Hilbert's third question,",
+        "start": 127.88,
+        "duration": 5.16
+    },
+    {
+        "text": "it's one of the greatest theses of all time,\nand so what was his idea?",
+        "start": 133.04,
+        "duration": 3.72
+    },
+    {
+        "text": "Well, his idea was that, well, let's say you have\n2 polygons, which have a different area.",
+        "start": 136.76,
+        "duration": 5.26
+    },
+    {
+        "text": "Why can't you cut one up\nand rearrange it to the other?",
+        "start": 142.02,
+        "duration": 2.58
+    },
+    {
+        "text": "Well, the area is invariant under this action\nof cutting it and then moving the pieces around;",
+        "start": 144.6,
+        "duration": 4.62
+    },
+    {
+        "text": "the area\ndoesn't change.",
+        "start": 149.22,
+        "duration": 1.08
+    },
+    {
+        "text": "So Dehn's idea was that you should\nfind some invariant of a polyhedron",
+        "start": 150.3,
+        "duration": 3.64
+    },
+    {
+        "text": "that doesn't change when you cut\nit up and move the pieces around,",
+        "start": 153.94,
+        "duration": 3.14
+    },
+    {
+        "text": "and then he wanted to compute that invariant for the\ncube and for the tetrahedron and see if they're different.",
+        "start": 157.08,
+        "duration": 5.56
+    },
+    {
+        "text": "So what that means\nis that, you know,",
+        "start": 162.64,
+        "duration": 2.24
+    },
+    {
+        "text": "no matter how you take the cube,\ncut it up, and move the pieces around,",
+        "start": 164.88,
+        "duration": 3.14
+    },
+    {
+        "text": "if these invariants are different,\nyou can't get a tetrahedron.",
+        "start": 168.02,
+        "duration": 3.24
+    },
+    {
+        "text": "Brady Haran: The deal breaker,\nthe thing that can't change--",
+        "start": 171.26,
+        "duration": 3.04
+    },
+    {
+        "text": "Daniel Litt: The obstruction, yeah, to move, changing one piece",
+        "start": 174.3,
+        "duration": 3.7
+    },
+    {
+        "text": "and one polyhedron into another polyhedron.\nBrady Haran: What was it? Are you going to tell me?",
+        "start": 178.0,
+        "duration": 4.26
+    },
+    {
+        "text": "Daniel Litt: I'll tell you,\nit's kind of complicated.",
+        "start": 182.26,
+        "duration": 2.14
+    },
+    {
+        "text": "So we should maybe we\nshould build up to it.",
+        "start": 184.4,
+        "duration": 3.22
+    },
+    {
+        "text": "Let's prove this\n1833 theorem.",
+        "start": 187.62,
+        "duration": 2.1
+    },
+    {
+        "text": "So this is equidecomposability for polygons.",
+        "start": 189.72,
+        "duration": 3.82
+    },
+    {
+        "text": "All right, so there are several\nsteps. So what's the goal?",
+        "start": 193.54,
+        "duration": 2.759
+    },
+    {
+        "text": "Let me first make the\nproblem a little bit easier.",
+        "start": 196.3,
+        "duration": 2.42
+    },
+    {
+        "text": "Let's try to cut up\na polygon of area 𝐴,",
+        "start": 198.72,
+        "duration": 3.22
+    },
+    {
+        "text": "so 𝐴 could be 5,",
+        "start": 201.94,
+        "duration": 1.66
+    },
+    {
+        "text": "and rearrange the pieces\ninto a 1 by 𝐴 rectangle.",
+        "start": 203.6,
+        "duration": 4.76
+    },
+    {
+        "text": "And I claim\nthat's enough.",
+        "start": 208.36,
+        "duration": 1.26
+    },
+    {
+        "text": "Why is that? It's because cutting something up and\nrearranging the pieces is a reversible operation,",
+        "start": 209.62,
+        "duration": 4.84
+    },
+    {
+        "text": "so if you have a\npolygon of area 𝐴,",
+        "start": 214.46,
+        "duration": 2.74
+    },
+    {
+        "text": "you can make it into\n1 by 𝐴 rectangle",
+        "start": 217.2,
+        "duration": 1.96
+    },
+    {
+        "text": "and another polygon with area 𝐴; you can\nmake it into the same 1 by 𝐴 rectangle,",
+        "start": 219.16,
+        "duration": 4.06
+    },
+    {
+        "text": "and then, well, how do you get from your\nfirst polygon to your second one?",
+        "start": 223.22,
+        "duration": 3.0
+    },
+    {
+        "text": "you just pass through the 1 by 𝐴 rectangle\nthat you are able to make both of them into,",
+        "start": 226.22,
+        "duration": 3.84
+    },
+    {
+        "text": "so it's enough to do this.",
+        "start": 230.06,
+        "duration": 1.12
+    },
+    {
+        "text": "so we can assume one of 𝑃₁\nand 𝑃₂ is just a rectangle.",
+        "start": 231.18,
+        "duration": 3.46
+    },
+    {
+        "text": "What's the first step?\nIt's easy.",
+        "start": 234.64,
+        "duration": 1.74
+    },
+    {
+        "text": "You just cut it\ninto triangles.",
+        "start": 236.38,
+        "duration": 2.4
+    },
+    {
+        "text": "Step 2 is a\nlittle trickier.",
+        "start": 238.78,
+        "duration": 1.62
+    },
+    {
+        "text": "We're going to turn triangles into parallelograms",
+        "start": 240.4,
+        "duration": 3.92
+    },
+    {
+        "text": "All right, so we have our triangle. What do we do?",
+        "start": 244.32,
+        "duration": 2.86
+    },
+    {
+        "text": "We take the midpoints\nof these two sides,",
+        "start": 247.18,
+        "duration": 2.82
+    },
+    {
+        "text": "we draw the line through them so that\nthis has the same length as this,",
+        "start": 250.0,
+        "duration": 4.64
+    },
+    {
+        "text": "and then, well, we just move\nthis triangle over here.",
+        "start": 254.64,
+        "duration": 2.74
+    },
+    {
+        "text": "So, here's a triangle,",
+        "start": 257.38,
+        "duration": 2.14
+    },
+    {
+        "text": "And now you can cut it up\nand turn it into a parallelogram.",
+        "start": 259.52,
+        "duration": 3.5
+    },
+    {
+        "text": "Brady Haran: So any triangle can be\nparallel, er, parallelogram-ized.",
+        "start": 263.02,
+        "duration": 3.42
+    },
+    {
+        "text": "Daniel Litt: Yeah,\nthat's exactly right.",
+        "start": 266.44,
+        "duration": 1.58
+    },
+    {
+        "text": "All right, now we're gonna turn\nparallelograms into rectangles.",
+        "start": 268.02,
+        "duration": 4.26
+    },
+    {
+        "text": "So here what\ndo you do?",
+        "start": 272.28,
+        "duration": 1.04
+    },
+    {
+        "text": "You just drop a perpendicular like this\nand then move this triangle over here.",
+        "start": 273.32,
+        "duration": 4.42
+    },
+    {
+        "text": "Here's my parallelogram and I'm\ngoing to turn it into a rectangle.",
+        "start": 277.74,
+        "duration": 5.98
+    },
+    {
+        "text": "That was easy.",
+        "start": 283.72,
+        "duration": 1.9
+    },
+    {
+        "text": "All right, so now, we have some rectangle,\nwhich has the same area as our original polygon.",
+        "start": 285.62,
+        "duration": 5.42
+    },
+    {
+        "text": "Well, we do this for every triangle we got.\nAnd we get a bunch of rectangles,",
+        "start": 291.04,
+        "duration": 3.4
+    },
+    {
+        "text": "and now, we're gonna make\nit into a 1 by 𝐴 rectangle.",
+        "start": 294.44,
+        "duration": 2.68
+    },
+    {
+        "text": "So here's\nsome rectangle,",
+        "start": 297.12,
+        "duration": 4.02
+    },
+    {
+        "text": "and what we do is we\nmeasure out a distance 1,",
+        "start": 301.14,
+        "duration": 2.74
+    },
+    {
+        "text": "let's say, 1 inch or so on the bottom,",
+        "start": 303.88,
+        "duration": 2.44
+    },
+    {
+        "text": "and draw a rectangle\nwith the same area.",
+        "start": 306.32,
+        "duration": 3.22
+    },
+    {
+        "text": "Now we connect\nthese two vertices,",
+        "start": 309.54,
+        "duration": 2.42
+    },
+    {
+        "text": "and it turns out that the\ntriangle 𝐴𝐵𝐶 is the same--",
+        "start": 311.96,
+        "duration": 4.28
+    },
+    {
+        "text": "it's congruent to\nthe triangle 𝐷𝐸𝐹,",
+        "start": 316.24,
+        "duration": 3.32
+    },
+    {
+        "text": "So we can start by moving this triangle and just sliding it down here.",
+        "start": 319.56,
+        "duration": 3.4
+    },
+    {
+        "text": "Now, there's a\nlittle bit left over,",
+        "start": 322.96,
+        "duration": 1.5
+    },
+    {
+        "text": "it's these two triangles, and it\nturns out they're also the same;",
+        "start": 324.47,
+        "duration": 3.03
+    },
+    {
+        "text": "it turns out the triangle 𝐴𝐷𝐺 is\nthe same as the triangle 𝐶𝐹𝐻.",
+        "start": 327.5,
+        "duration": 6.72
+    },
+    {
+        "text": "How do we cut this rectangle up into this\none which has the desired property",
+        "start": 334.22,
+        "duration": 3.48
+    },
+    {
+        "text": "to 1 by Area rectangle? Just move this\ntriangle over here and this triangle over here.",
+        "start": 337.7,
+        "duration": 5.76
+    },
+    {
+        "text": "Okay, and that\nfinishes the proof.",
+        "start": 343.46,
+        "duration": 1.98
+    },
+    {
+        "text": "We first cut into triangles,\nthen we cut into parallelograms,",
+        "start": 348.63,
+        "duration": 3.77
+    },
+    {
+        "text": "then we cut into rectangles, then\nwe cut it special rectangles.",
+        "start": 352.4,
+        "duration": 3.36
+    },
+    {
+        "text": "And then we undo all of that to get into the other\npolygon that we wanted to aim at at the beginning.",
+        "start": 359.8,
+        "duration": 5.86
+    },
+    {
+        "text": "Brady Haran: Cool.\nDaniel Litt: Okay.",
+        "start": 365.66,
+        "duration": 1.7
+    },
+    {
+        "text": "So, why did\nthis work?",
+        "start": 367.36,
+        "duration": 2.18
+    },
+    {
+        "text": "It worked because we had this one invariant\nthat we knew to search for the area,",
+        "start": 369.54,
+        "duration": 4.28
+    },
+    {
+        "text": "where we were gonna search for a 1 by 𝐴 rectangle,",
+        "start": 373.82,
+        "duration": 2.32
+    },
+    {
+        "text": "and it turns out that there's a secret\nhidden invariant in three dimensions",
+        "start": 376.14,
+        "duration": 3.46
+    },
+    {
+        "text": "that will stop us from\nrunning this algorithm.",
+        "start": 379.6,
+        "duration": 2.98
+    },
+    {
+        "text": "All right, so let's see\nwhat Dehn did.",
+        "start": 382.58,
+        "duration": 2.86
+    },
+    {
+        "text": "So what he wanted to do is he wanted\nto take a cube and a tetrahedron,",
+        "start": 385.44,
+        "duration": 4.18
+    },
+    {
+        "text": "which have the\nsame volume,",
+        "start": 389.62,
+        "duration": 1.36
+    },
+    {
+        "text": "and he wanted to show you\ncouldn't cut this up in any way",
+        "start": 390.98,
+        "duration": 2.56
+    },
+    {
+        "text": "with a finite number of slices and\nrearrange the pieces to get this one,",
+        "start": 393.54,
+        "duration": 3.8
+    },
+    {
+        "text": "so he had to come up with some\nway of distinguishing the two,",
+        "start": 397.34,
+        "duration": 2.72
+    },
+    {
+        "text": "something that is different\nabout these guys,",
+        "start": 400.06,
+        "duration": 2.18
+    },
+    {
+        "text": "and it doesn't change when you cut\nthem up and rearrange the pieces.",
+        "start": 402.24,
+        "duration": 2.72
+    },
+    {
+        "text": "Brady Haran: Daniel, you're saying he\nwanted to show you couldn't do it",
+        "start": 404.96,
+        "duration": 2.78
+    },
+    {
+        "text": "That's right.\nBrady Haran: Wouldn't he rather have shown",
+        "start": 407.74,
+        "duration": 1.46
+    },
+    {
+        "text": "you could do it? Did he already know--\nBrady Haran: He probably tried, I mean,",
+        "start": 409.2,
+        "duration": 3.82
+    },
+    {
+        "text": "yeah, so why do you conjecture\nsomething's impossible?",
+        "start": 413.02,
+        "duration": 2.52
+    },
+    {
+        "text": "you, like, to try really hard and\ntry really hard and you just fail,",
+        "start": 415.54,
+        "duration": 4.06
+    },
+    {
+        "text": "and you get really frustrated and you're\nlike, \"I'm gonna prove this can't be done.\"",
+        "start": 419.6,
+        "duration": 2.52
+    },
+    {
+        "text": "and in Dehn's case he\nwas able to do it, right?",
+        "start": 422.12,
+        "duration": 2.159
+    },
+    {
+        "text": "So here's the\nbasic observation.",
+        "start": 424.28,
+        "duration": 2.1
+    },
+    {
+        "text": "so let's zoom in on some\nedge of a polyhedron",
+        "start": 426.38,
+        "duration": 3.84
+    },
+    {
+        "text": "and there's two\ninvariants of this edge.",
+        "start": 430.22,
+        "duration": 1.52
+    },
+    {
+        "text": "You can look at--\nyou can look at the length,",
+        "start": 431.74,
+        "duration": 1.54
+    },
+    {
+        "text": "So 𝓁 is the\nlength of an edge,",
+        "start": 433.28,
+        "duration": 2.72
+    },
+    {
+        "text": "and there's another invariant which\nI'll call 𝜃. That's the dihedral angles.",
+        "start": 436.0,
+        "duration": 3.82
+    },
+    {
+        "text": "It's the angle it takes to get\nfrom this face to this one,",
+        "start": 439.82,
+        "duration": 2.729
+    },
+    {
+        "text": "so it's the angle swept out by my hands;\nI moved from one face to the other",
+        "start": 442.549,
+        "duration": 3.951
+    },
+    {
+        "text": "It's the angle it takes to get\nfrom this face to this one,",
+        "start": 446.5,
+        "duration": 3.02
+    },
+    {
+        "text": "so that's an angle\nbetween 0 and 2𝜋",
+        "start": 449.52,
+        "duration": 2.38
+    },
+    {
+        "text": "So what's the observation?\nThe observation is there's two ways to cut,",
+        "start": 451.9,
+        "duration": 3.58
+    },
+    {
+        "text": "so one is you\ncan cut like this.",
+        "start": 455.48,
+        "duration": 1.84
+    },
+    {
+        "text": "so you can cut with a plane that kind of passes through the edge.",
+        "start": 457.32,
+        "duration": 2.84
+    },
+    {
+        "text": "It cuts this edge in half, right?",
+        "start": 460.16,
+        "duration": 1.64
+    },
+    {
+        "text": "Brady Haran: It changes the length.",
+        "start": 461.8,
+        "duration": 1.62
+    },
+    {
+        "text": "But it leaves the dihedral\nangle the same, right?",
+        "start": 463.43,
+        "duration": 2.15
+    },
+    {
+        "text": "And the lengths of the two edges you get\nare the-- they sum to the original length.",
+        "start": 465.58,
+        "duration": 3.28
+    },
+    {
+        "text": "So if you cut, let's say,\nvertically, you get (𝓁₁, 𝜃)",
+        "start": 468.86,
+        "duration": 4.78
+    },
+    {
+        "text": "and (𝓁₂, 𝜃), so the two lengths of\nthese two pieces, 𝓁₁ and that's 𝓁₂,",
+        "start": 473.64,
+        "duration": 5.7
+    },
+    {
+        "text": "the 𝜃's are the same and\n𝓁₁+𝓁₂ is the original length.",
+        "start": 479.34,
+        "duration": 4.56
+    },
+    {
+        "text": "Right, so the other thing you\ncan do is cut along the edge",
+        "start": 483.9,
+        "duration": 2.06
+    },
+    {
+        "text": "so the other thing you\ncan do is cut like this,",
+        "start": 485.96,
+        "duration": 2.44
+    },
+    {
+        "text": "and then you get, well, two\nedges there, on these two pieces.",
+        "start": 488.4,
+        "duration": 3.38
+    },
+    {
+        "text": "They have the same length\nand angles, summed together,",
+        "start": 491.78,
+        "duration": 2.7
+    },
+    {
+        "text": "so you get\n(𝓁, 𝜃₁) and (𝓁, 𝜃₂),",
+        "start": 494.48,
+        "duration": 5.34
+    },
+    {
+        "text": "and here, 𝜃₁+𝜃₂ is the original 𝜃.",
+        "start": 499.82,
+        "duration": 3.82
+    },
+    {
+        "text": "so the two dihedral angles add together\nto give you what you started with.",
+        "start": 503.64,
+        "duration": 3.32
+    },
+    {
+        "text": "And, so, Dehn's idea\nwas to stare at this",
+        "start": 506.96,
+        "duration": 1.72
+    },
+    {
+        "text": "and just make it into an invariant\nin the most brutal way possible.",
+        "start": 508.68,
+        "duration": 3.28
+    },
+    {
+        "text": "So how did he do it?",
+        "start": 511.96,
+        "duration": 0.879
+    },
+    {
+        "text": "So here's the invariant: so you take the\nsum of the following symbols 𝓁ᵢ⊗𝜃ᵢ",
+        "start": 512.84,
+        "duration": 7.34
+    },
+    {
+        "text": "We're here-- this runs over\nthe edges of the polyhedron.",
+        "start": 520.18,
+        "duration": 3.52
+    },
+    {
+        "text": "so what you do is you take the length of\neach edge and the angle at each edge",
+        "start": 523.7,
+        "duration": 4.34
+    },
+    {
+        "text": "and write down just this sum, which\nis right now just a sum of symbols.",
+        "start": 528.04,
+        "duration": 3.54
+    },
+    {
+        "text": "It doesn't\nmean anything.",
+        "start": 531.58,
+        "duration": 1.38
+    },
+    {
+        "text": "So, let's figure out what it means.\nBrady Haran: How you add an angle to a length?",
+        "start": 532.96,
+        "duration": 2.88
+    },
+    {
+        "text": "That's right, it doesn't. Well, so we're sort of we're formally multiplying them",
+        "start": 535.84,
+        "duration": 4.46
+    },
+    {
+        "text": "and then we're adding\nthese symbols together,",
+        "start": 540.3,
+        "duration": 1.66
+    },
+    {
+        "text": "so let me let me\nsay where this lives.",
+        "start": 541.96,
+        "duration": 2.16
+    },
+    {
+        "text": "So this lives in something, which is\ncalled the Real numbers, tensored with Real numbers mod 2π",
+        "start": 544.12,
+        "duration": 10.32
+    },
+    {
+        "text": "so let me explain\nwhat this set is.",
+        "start": 554.44,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady Haran: You're cracking\nout the new symbols on me now?",
+        "start": 556.44,
+        "duration": 1.46
+    },
+    {
+        "text": "Daniel Litt: That's right, yeah.",
+        "start": 557.9,
+        "duration": 1.4
+    },
+    {
+        "text": "So, let's say what this is:\nit's an element of this thing.",
+        "start": 559.3,
+        "duration": 3.1
+    },
+    {
+        "text": "This weird object is just\na sum 𝑎₁⊗𝑏₁+𝑎₂⊗𝑏₂.",
+        "start": 562.4,
+        "duration": 7.44
+    },
+    {
+        "text": "these are just symbols so far,\nall the way up to 𝑎_𝑛⊗𝑏_𝑛 for some 𝑛,",
+        "start": 569.84,
+        "duration": 4.74
+    },
+    {
+        "text": "where these 𝑎ᵢ and 𝑏ᵢ\nare just real numbers,",
+        "start": 574.58,
+        "duration": 3.56
+    },
+    {
+        "text": "but we say two symbols like this are\nthe same if certain rules are satisfied.",
+        "start": 578.14,
+        "duration": 4.34
+    },
+    {
+        "text": "So what rules?",
+        "start": 582.48,
+        "duration": 1.26
+    },
+    {
+        "text": "Well, first of all, 𝑎⊗𝑏 is the same as 𝑎⊗(𝑏+2𝜋).\nWhat is this expressing?",
+        "start": 583.74,
+        "duration": 7.0
+    },
+    {
+        "text": "It's just expressing that if you take an angle \nand you add 2𝜋 to it, you get the same angle.",
+        "start": 590.75,
+        "duration": 3.75
+    },
+    {
+        "text": "All right, now we have\nsome other rules.",
+        "start": 594.5,
+        "duration": 2.54
+    },
+    {
+        "text": "We say that 𝑎₁⊗𝑏+𝑎₂⊗𝑏=(𝑎₁+𝑎₂)⊗𝑏",
+        "start": 597.04,
+        "duration": 12.26
+    },
+    {
+        "text": "So you're allowed to add on the left\nif the 𝑏's on the right are the same.",
+        "start": 609.3,
+        "duration": 3.84
+    },
+    {
+        "text": "So what does\nthis express?",
+        "start": 613.14,
+        "duration": 1.28
+    },
+    {
+        "text": "It expresses that if you've 2𝜃's which are the same,\nif you cut, you can add two lengths.",
+        "start": 614.42,
+        "duration": 4.62
+    },
+    {
+        "text": "That's just\nexpressing this.",
+        "start": 619.04,
+        "duration": 1.76
+    },
+    {
+        "text": "All right,\nthere's one more rule:",
+        "start": 620.8,
+        "duration": 2.74
+    },
+    {
+        "text": "It's just the same thing on the other side.",
+        "start": 623.54,
+        "duration": 2.36
+    },
+    {
+        "text": "So it says that if\nyou have 𝑎⊗𝑏₁+𝑎⊗𝑏₂,",
+        "start": 625.9,
+        "duration": 5.4
+    },
+    {
+        "text": "that's the same\nas 𝑎⊗(𝑏₁+𝑏₂).",
+        "start": 631.3,
+        "duration": 4.3
+    },
+    {
+        "text": "And that's just\nexpressing this rule.",
+        "start": 635.6,
+        "duration": 2.04
+    },
+    {
+        "text": "So this is just a set of symbols which\nare allowed to add and subtract,",
+        "start": 637.64,
+        "duration": 3.66
+    },
+    {
+        "text": "but they follow some funny\nrules when you do that,",
+        "start": 641.3,
+        "duration": 2.571
+    },
+    {
+        "text": "and Dehn's Invariant is\nthis object inside this set,",
+        "start": 643.88,
+        "duration": 3.56
+    },
+    {
+        "text": "And he's saying, \"Well,",
+        "start": 647.44,
+        "duration": 1.76
+    },
+    {
+        "text": "no matter how you\ncut off your shape,",
+        "start": 649.2,
+        "duration": 1.7
+    },
+    {
+        "text": "When you compute this invariant,\nyou get the same thing in this set.\"",
+        "start": 650.9,
+        "duration": 3.22
+    },
+    {
+        "text": "That's called\nthe Dehn Invariant.",
+        "start": 654.12,
+        "duration": 1.78
+    },
+    {
+        "text": "Brady Haran: I'm not gonna pretend\nto totally understand it,",
+        "start": 655.9,
+        "duration": 2.48
+    },
+    {
+        "text": "but I believe you. What's wrong\nwith having an invariant though?",
+        "start": 658.38,
+        "duration": 4.92
+    },
+    {
+        "text": "What does that mean?\nI can't just, you know,",
+        "start": 663.3,
+        "duration": 1.98
+    },
+    {
+        "text": "be strategic and make millions of cuts and\nstill be able to build these things--",
+        "start": 665.28,
+        "duration": 3.68
+    },
+    {
+        "text": "Yes, and the point\nof this invariant is that",
+        "start": 668.96,
+        "duration": 1.32
+    },
+    {
+        "text": "it doesn't change when\nyou make a cut, right?",
+        "start": 670.28,
+        "duration": 1.98
+    },
+    {
+        "text": "You get more edges\nand you get more angles,",
+        "start": 672.26,
+        "duration": 2.28
+    },
+    {
+        "text": "but because of these rules over here\nand equivalently these rules over here,",
+        "start": 674.54,
+        "duration": 4.02
+    },
+    {
+        "text": "the invariant in the\nset just doesn't change",
+        "start": 678.56,
+        "duration": 2.36
+    },
+    {
+        "text": "So now what you have to do\nis give into a polyhedron.",
+        "start": 680.92,
+        "duration": 2.32
+    },
+    {
+        "text": "You have to compute this invariant and\nsometimes, they're different, right?",
+        "start": 683.24,
+        "duration": 4.44
+    },
+    {
+        "text": "So Dehn's observation",
+        "start": 687.68,
+        "duration": 1.52
+    },
+    {
+        "text": "Showed that the invariant of the cube is\nnot the same as the invariant of the tetrahedron.",
+        "start": 690.78,
+        "duration": 7.8
+    },
+    {
+        "text": "Brady Haran: So this invariant is\nalmost like a fingerprint or DNA.",
+        "start": 698.58,
+        "duration": 5.18
+    },
+    {
+        "text": "Daniel Litt: That's exactly right.\nBrady Haran: It's unique to the polyhedron.",
+        "start": 703.76,
+        "duration": 2.76
+    },
+    {
+        "text": "Yeah, so it turns out and\nDehn didn't know this,",
+        "start": 706.52,
+        "duration": 2.42
+    },
+    {
+        "text": "but it was proven\nabout 30 years later",
+        "start": 708.94,
+        "duration": 1.84
+    },
+    {
+        "text": "that if you know the volume of a polyhedron\nand you know the Dehn invariant,",
+        "start": 710.78,
+        "duration": 4.64
+    },
+    {
+        "text": "then that determines the polyhedron up to this\noperation of cutting and moving the pieces around.",
+        "start": 715.42,
+        "duration": 4.36
+    },
+    {
+        "text": "So in fact,\nit's true that",
+        "start": 719.78,
+        "duration": 1.74
+    },
+    {
+        "text": "if you have two polyhedra with the same\nvolume and the same Dehn invariant,",
+        "start": 721.52,
+        "duration": 3.86
+    },
+    {
+        "text": "then you can cut one up and get the\nother one by rearranging the pieces.",
+        "start": 725.38,
+        "duration": 4.08
+    },
+    {
+        "text": "But here, Dehn, what Dehn did is just showed that if\nyou have two polyhedra with different invariants,",
+        "start": 729.46,
+        "duration": 4.3
+    },
+    {
+        "text": "You just can't do that.\nYou're stuck.",
+        "start": 733.76,
+        "duration": 1.52
+    },
+    {
+        "text": "There's no way you\ncan change the Dehn there.",
+        "start": 735.29,
+        "duration": 2.47
+    },
+    {
+        "text": "Brady Haran: Because once you've\ngot that Dehn invariant,",
+        "start": 737.76,
+        "duration": 2.3
+    },
+    {
+        "text": "you're stuck with it for life.\nDaniel Litt: That's right. Yeah.",
+        "start": 740.06,
+        "duration": 1.96
+    },
+    {
+        "text": "There's nothing you can do, at least with\nthis operation of cutting with a knife",
+        "start": 742.02,
+        "duration": 3.48
+    },
+    {
+        "text": "and moving the pieces around that changes\nthat invariant. That's why it's called an invariant.",
+        "start": 745.5,
+        "duration": 3.62
+    },
+    {
+        "text": "Brady Haran: What's the Dehn invariant of a cube? Is it like--",
+        "start": 749.12,
+        "duration": 2.08
+    },
+    {
+        "text": "Daniel Litt: Yes, we can do the Dehn Invariant\nof a cube. That's a good example.",
+        "start": 751.2,
+        "duration": 3.5
+    },
+    {
+        "text": "So let's do the cube.\nSo luckily, all the edges are the same.",
+        "start": 754.7,
+        "duration": 4.0
+    },
+    {
+        "text": "So we only have to\ncompute with one edge.",
+        "start": 758.7,
+        "duration": 1.62
+    },
+    {
+        "text": "So let's say we have a\ncube of side length 1,",
+        "start": 760.32,
+        "duration": 2.56
+    },
+    {
+        "text": "and then what do\nwe have to do?",
+        "start": 762.88,
+        "duration": 0.78
+    },
+    {
+        "text": "We have to compute the angle.\nWell, that's just 90°, or 𝜋/2.",
+        "start": 763.66,
+        "duration": 3.8
+    },
+    {
+        "text": "So for each edge contributes 1⊗(𝜋/2),\nand then how many edges are there?",
+        "start": 767.46,
+        "duration": 7.22
+    },
+    {
+        "text": "1, 2, 3, 4, 5, 6,\n7, 8, 9, 10, 11, 12.",
+        "start": 774.68,
+        "duration": 5.46
+    },
+    {
+        "text": "Well because of this rule that if\nthe second guys are the same,",
+        "start": 780.14,
+        "duration": 3.58
+    },
+    {
+        "text": "we can add\nthe first guys.",
+        "start": 783.72,
+        "duration": 0.9
+    },
+    {
+        "text": "This is just the same\nas 12⊗(𝜋/2), if you'd like.",
+        "start": 784.62,
+        "duration": 4.84
+    },
+    {
+        "text": "That's the Dehn Invariant\nof the cube.",
+        "start": 789.46,
+        "duration": 1.86
+    },
+    {
+        "text": "Now, the tetrahedron is a little harder while you compute this angle",
+        "start": 791.32,
+        "duration": 3.14
+    },
+    {
+        "text": "which I'll just call 𝜃, a little bit of a pain\nto compute it, so I won't do it here.",
+        "start": 794.46,
+        "duration": 3.4
+    },
+    {
+        "text": "You have to compute what side length gives you a volume of 1,",
+        "start": 797.86,
+        "duration": 3.06
+    },
+    {
+        "text": "so let's call it 𝓁.",
+        "start": 800.92,
+        "duration": 1.5
+    },
+    {
+        "text": "And how many\nedges are there?",
+        "start": 802.42,
+        "duration": 0.9
+    },
+    {
+        "text": "There's 1, 2, 3, 4, 5, 6,\nso you get 6𝓁⊗𝜃.",
+        "start": 803.32,
+        "duration": 5.54
+    },
+    {
+        "text": "and once you compute what these actually\nare, you'll see that it isn't the same as this.",
+        "start": 808.86,
+        "duration": 3.66
+    },
+    {
+        "text": "Brady Haran: So if I gave you a cube and\nsaid, \"Turn this into a tetrahedra,\"",
+        "start": 812.52,
+        "duration": 4.94
+    },
+    {
+        "text": "Daniel Litt: Yeah.\nBrady Haran: You're gonna say, \"Yeah, I can do that,\"",
+        "start": 817.46,
+        "duration": 2.92
+    },
+    {
+        "text": "but unfortunately, I'm gonna\nhave to change it's volume.",
+        "start": 820.38,
+        "duration": 3.84
+    },
+    {
+        "text": "No, unfortunately you have to do both\nwith the volume and the Dehn invariant.",
+        "start": 824.22,
+        "duration": 3.24
+    },
+    {
+        "text": "Oh you have to change both",
+        "start": 827.46,
+        "duration": 0.92
+    },
+    {
+        "text": "Because, of course, the volume doesn't change\nwhen you cut and move things around either,",
+        "start": 828.4,
+        "duration": 2.88
+    },
+    {
+        "text": "So those are exactly the\ntwo invariants of a polyhedron--",
+        "start": 831.28,
+        "duration": 3.84
+    },
+    {
+        "text": "the volume and\nthe Dehn Invariant.",
+        "start": 835.12,
+        "duration": 1.78
+    },
+    {
+        "text": "Dehn's big contribution was to discover that this is\nthere is the second one. Nobody knew that before.",
+        "start": 836.9,
+        "duration": 4.68
+    },
+    {
+        "text": "Brady Haran: How come\nI can do it when I melt them?",
+        "start": 841.58,
+        "duration": 2.06
+    },
+    {
+        "text": "Daniel Litt: Yeah,\nthat's a good question.",
+        "start": 843.64,
+        "duration": 1.36
+    },
+    {
+        "text": "That's because melting them doesn't\nchange the volume, right?",
+        "start": 845.0,
+        "duration": 3.06
+    },
+    {
+        "text": "but it does change this invariant;\nyou've destroyed all the edges,",
+        "start": 848.06,
+        "duration": 2.86
+    },
+    {
+        "text": "so how would you even\ncompute the Dehn invariant?",
+        "start": 850.92,
+        "duration": 2.01
+    },
+    {
+        "text": "In fact, it turns out in higher dimensions, there are also even more invariants.",
+        "start": 852.93,
+        "duration": 4.39
+    },
+    {
+        "text": "We don't know what\nthey are in general,",
+        "start": 857.32,
+        "duration": 2.5
+    },
+    {
+        "text": "So that's an\nopen problem.",
+        "start": 859.82,
+        "duration": 1.39
+    },
+    {
+        "text": "If you want to think about, I don't\nknow, 12 dimensional polyhedra,",
+        "start": 861.21,
+        "duration": 3.05
+    },
+    {
+        "text": "and one you can cut one\nup and get the other one.",
+        "start": 864.26,
+        "duration": 1.96
+    },
+    {
+        "text": "It's actually a really beautiful\nand exciting part of mathematics.",
+        "start": 866.22,
+        "duration": 2.84
+    },
+    {
+        "text": "Brady Haran: There's a little bit of\ncomplicated mathematics there are,",
+        "start": 869.82,
+        "duration": 2.48
+    },
+    {
+        "text": "Daniel Litt: That's right.\nBrady Haran: But,",
+        "start": 872.3,
+        "duration": 2.04
+    },
+    {
+        "text": "I can still appreciate\nwhat Dehn did--",
+        "start": 874.34,
+        "duration": 2.42
+    },
+    {
+        "text": "the cleverness of it-- that he found it-- that he\nrealized those edges were the problem?",
+        "start": 876.76,
+        "duration": 4.76
+    },
+    {
+        "text": "Daniel Litt: Yeah, that was clever.",
+        "start": 881.52,
+        "duration": 1.45
+    },
+    {
+        "text": "Well, I think the really\namazing thing is",
+        "start": 882.97,
+        "duration": 1.91
+    },
+    {
+        "text": "he knew, well, the lengths of the edges don't stay the same",
+        "start": 884.88,
+        "duration": 3.4
+    },
+    {
+        "text": "and the dihedral angles don't stay\nthe same when you cut things up,",
+        "start": 888.28,
+        "duration": 3.04
+    },
+    {
+        "text": "but there's some funny way of combining\nthem all together. That does stay the same.",
+        "start": 891.32,
+        "duration": 3.18
+    },
+    {
+        "text": "That's really the miracle\nof the Dehn Invariant.",
+        "start": 894.51,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady Haran: Clever.\nDaniel Litt: Yeah.",
+        "start": 898.31,
+        "duration": 0.99
+    },
+    {
+        "text": "Brady Haran: Good thesis.\nDaniel Litt: Yeah.",
+        "start": 899.3,
+        "duration": 1.199
+    },
+    {
+        "text": "Brady Haran: I bet there was no questioning\nabout giving him his doctorate.",
+        "start": 901.14,
+        "duration": 3.26
+    },
+    {
+        "text": "Daniel Litt: Yeah, I mean, he went on to do a lot of\namazing stuff to the rest of mathematics too.",
+        "start": 904.4,
+        "duration": 3.64
+    },
+    {
+        "text": "But yeah, this was\nan amazing start.",
+        "start": 908.04,
+        "duration": 1.48
+    },
+    {
+        "text": "[Brady Haran laughs]\nBrady Haran: Cool!",
+        "start": 910.44,
+        "duration": 1.82
+    },
+    {
+        "text": "Because the hotel's full, but the manager\nis clever, and here's what he does:",
+        "start": 913.04,
+        "duration": 4.78
+    },
+    {
+        "text": "He shifts the person\nin Room 1 to Room 2,",
+        "start": 917.82,
+        "duration": 3.54
+    },
+    {
+        "text": "and the person\nin Room 2 to Room 3,",
+        "start": 921.36,
+        "duration": 2.22
+    },
+    {
+        "text": "and the person\nin Room 3 to Room 4,",
+        "start": 923.58,
+        "duration": 1.52
+    },
+    {
+        "text": "and so on.",
+        "start": 925.1,
+        "duration": 1.14
+    },
+    {
+        "text": "Everyone gets shifted\nforward one room,",
+        "start": 926.24,
+        "duration": 2.46
+    },
+    {
+        "text": "and because there are\ninfinitely many rooms,",
+        "start": 928.7,
+        "duration": 2.02
+    },
+    {
+        "text": "you never run out of\nrooms to put people in.",
+        "start": 930.72,
+        "duration": 1.78
+    }
+]

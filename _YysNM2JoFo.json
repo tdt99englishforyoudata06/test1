@@ -1,0 +1,802 @@
+[
+    {
+        "text": "Today I want to talk about the online",
+        "start": 0.06,
+        "duration": 1.919
+    },
+    {
+        "text": "encyclopedia of integer sequences. This",
+        "start": 1.979,
+        "duration": 4.261
+    },
+    {
+        "text": "is a website which has- it's a",
+        "start": 6.24,
+        "duration": 2.73
+    },
+    {
+        "text": "database full of sequences. In fact the",
+        "start": 8.97,
+        "duration": 4.2
+    },
+    {
+        "text": "the encyclopedia has been going",
+        "start": 13.17,
+        "duration": 1.98
+    },
+    {
+        "text": "for nearly 50 years. It started in",
+        "start": 15.15,
+        "duration": 2.67
+    },
+    {
+        "text": "book form and it's now grown into a big",
+        "start": 17.82,
+        "duration": 1.86
+    },
+    {
+        "text": "website. So it started off by a guy",
+        "start": 19.68,
+        "duration": 3.45
+    },
+    {
+        "text": "called Neil Sloane and he- for his",
+        "start": 23.13,
+        "duration": 3.63
+    },
+    {
+        "text": "research he needed to- just needed to",
+        "start": 26.76,
+        "duration": 1.74
+    },
+    {
+        "text": "tell some sequences apart and he wrote",
+        "start": 28.5,
+        "duration": 1.74
+    },
+    {
+        "text": "them down. And he just started to collect",
+        "start": 30.24,
+        "duration": 2.4
+    },
+    {
+        "text": "his sequences together, they were on to",
+        "start": 32.64,
+        "duration": 2.7
+    },
+    {
+        "text": "punch cards - this is going back quite a",
+        "start": 35.34,
+        "duration": 2.76
+    },
+    {
+        "text": "while now. And when the internet came",
+        "start": 38.1,
+        "duration": 2.7
+    },
+    {
+        "text": "along that was a nice opportunity to put",
+        "start": 40.8,
+        "duration": 2.849
+    },
+    {
+        "text": "it online and there are now two hundred",
+        "start": 43.649,
+        "duration": 3.5
+    },
+    {
+        "text": "thousand and more examples of integer",
+        "start": 47.149,
+        "duration": 4.271
+    },
+    {
+        "text": "sequences. So there might be things like",
+        "start": 51.42,
+        "duration": 2.459
+    },
+    {
+        "text": "the prime numbers, the square numbers;",
+        "start": 53.879,
+        "duration": 3.471
+    },
+    {
+        "text": "just sequences with special properties.",
+        "start": 57.35,
+        "duration": 3.34
+    },
+    {
+        "text": "The classic example, right: 1729 is a",
+        "start": 60.69,
+        "duration": 4.82
+    },
+    {
+        "text": "important number in mathematics, it's",
+        "start": 65.51,
+        "duration": 2.109
+    },
+    {
+        "text": "part of mathematics folklore. 1729 was",
+        "start": 67.619,
+        "duration": 4.68
+    },
+    {
+        "text": "the number that Ramanujan talked about",
+        "start": 72.299,
+        "duration": 2.341
+    },
+    {
+        "text": "when Hardy asked him, you know, this is a",
+        "start": 74.64,
+        "duration": 3.6
+    },
+    {
+        "text": "boring number can you think of anything",
+        "start": 78.24,
+        "duration": 1.44
+    },
+    {
+        "text": "interesting about this number? And he",
+        "start": 79.68,
+        "duration": 1.71
+    },
+    {
+        "text": "said 1729 is the smallest number that",
+        "start": 81.39,
+        "duration": 4.38
+    },
+    {
+        "text": "can be written as the sum of two cubes",
+        "start": 85.77,
+        "duration": 2.16
+    },
+    {
+        "text": "in two different ways. \nIt's equal to 1 cubed",
+        "start": 87.93,
+        "duration": 3.57
+    },
+    {
+        "text": "plus 12 cubed and it's equal to 9 cubed",
+        "start": 91.5,
+        "duration": 3.84
+    },
+    {
+        "text": "plus 10 cubed, so that's an interesting,",
+        "start": 95.34,
+        "duration": 3.779
+    },
+    {
+        "text": "that's interesting isn't it?\nNow, in fact there are",
+        "start": 99.119,
+        "duration": 2.551
+    },
+    {
+        "text": "other interesting things about 1729,",
+        "start": 101.67,
+        "duration": 3.3
+    },
+    {
+        "text": "that's not the only interesting thing",
+        "start": 104.97,
+        "duration": 1.41
+    },
+    {
+        "text": "about it. And so it actually turns up in",
+        "start": 106.38,
+        "duration": 2.07
+    },
+    {
+        "text": "other sequences - I'm just going to pull",
+        "start": 108.45,
+        "duration": 2.669
+    },
+    {
+        "text": "out- this is the paper that I'm going to",
+        "start": 111.119,
+        "duration": 1.981
+    },
+    {
+        "text": "refer to, in here it gives 1729 as an",
+        "start": 113.1,
+        "duration": 3.9
+    },
+    {
+        "text": "example. So let's have a look,",
+        "start": 117.0,
+        "duration": 3.56
+    },
+    {
+        "text": "1729 is also the third Carmichael number,",
+        "start": 120.56,
+        "duration": 4.3
+    },
+    {
+        "text": "that means 1729 divides x to the power",
+        "start": 124.86,
+        "duration": 5.78
+    },
+    {
+        "text": "1729 minus X",
+        "start": 130.64,
+        "duration": 2.41
+    },
+    {
+        "text": "for all X. So whatever value X is it will",
+        "start": 133.05,
+        "duration": 4.56
+    },
+    {
+        "text": "divide that perfectly - it's the third",
+        "start": 137.61,
+        "duration": 2.49
+    },
+    {
+        "text": "Carmichael number. It's also the sixth",
+        "start": 140.1,
+        "duration": 2.61
+    },
+    {
+        "text": "pseudo-prime number in base 2; which",
+        "start": 142.71,
+        "duration": 3.78
+    },
+    {
+        "text": "means 1729 divides 2 to the power 1729",
+        "start": 146.49,
+        "duration": 9.06
+    },
+    {
+        "text": "minus 1, minus 1. So there you \ngo, so that's",
+        "start": 155.55,
+        "duration": 4.92
+    },
+    {
+        "text": "called a pseudo-prime. It's the",
+        "start": 160.47,
+        "duration": 2.4
+    },
+    {
+        "text": "thirteenth number that is one more than",
+        "start": 162.87,
+        "duration": 1.95
+    },
+    {
+        "text": "a cube. And here the last example they've",
+        "start": 164.82,
+        "duration": 2.01
+    },
+    {
+        "text": "got here I quite like this one: 1729 is",
+        "start": 166.83,
+        "duration": 3.69
+    },
+    {
+        "text": "the total number of ways to express 33",
+        "start": 170.52,
+        "duration": 3.3
+    },
+    {
+        "text": "as the sum of six integers. Again all",
+        "start": 173.82,
+        "duration": 4.59
+    },
+    {
+        "text": "these different properties for",
+        "start": 178.41,
+        "duration": 2.25
+    },
+    {
+        "text": "1729. The point",
+        "start": 180.66,
+        "duration": 1.86
+    },
+    {
+        "text": "is, the more properties it has the more",
+        "start": 182.52,
+        "duration": 3.87
+    },
+    {
+        "text": "sequences it appears in and I guess the",
+        "start": 186.39,
+        "duration": 2.7
+    },
+    {
+        "text": "more interesting the number is. So the",
+        "start": 189.09,
+        "duration": 2.43
+    },
+    {
+        "text": "more often it appears in the",
+        "start": 191.52,
+        "duration": 1.14
+    },
+    {
+        "text": "encyclopedia of integers the more",
+        "start": 192.66,
+        "duration": 2.55
+    },
+    {
+        "text": "interesting the numbers should be. So what",
+        "start": 195.21,
+        "duration": 1.86
+    },
+    {
+        "text": "the guys who wrote this paper have done",
+        "start": 197.07,
+        "duration": 1.53
+    },
+    {
+        "text": "is they counted how often each number",
+        "start": 198.6,
+        "duration": 2.91
+    },
+    {
+        "text": "appeared in the encyclopedia of integers.",
+        "start": 201.51,
+        "duration": 2.43
+    },
+    {
+        "text": "And they looked at what pattern that",
+        "start": 203.94,
+        "duration": 2.58
+    },
+    {
+        "text": "made. Now, try and think of what pattern",
+        "start": 206.52,
+        "duration": 2.97
+    },
+    {
+        "text": "you think that might make, but this is",
+        "start": 209.49,
+        "duration": 2.42
+    },
+    {
+        "text": "what they got. And you can see it's quite",
+        "start": 211.91,
+        "duration": 3.85
+    },
+    {
+        "text": "clearly a curve, it decreases, it's a",
+        "start": 215.76,
+        "duration": 2.76
+    },
+    {
+        "text": "curve. They found a little formula just",
+        "start": 218.52,
+        "duration": 2.34
+    },
+    {
+        "text": "to describe that curve: this curve - I'll",
+        "start": 220.86,
+        "duration": 3.3
+    },
+    {
+        "text": "write it on the paper -",
+        "start": 224.16,
+        "duration": 0.96
+    },
+    {
+        "text": "is 253 million divided by N to the power",
+        "start": 225.12,
+        "duration": 7.64
+    },
+    {
+        "text": "1.33. So that's the",
+        "start": 232.76,
+        "duration": 2.29
+    },
+    {
+        "text": "equation of that curve. So these numbers",
+        "start": 235.05,
+        "duration": 3.03
+    },
+    {
+        "text": "are appearing far more often in the",
+        "start": 238.08,
+        "duration": 2.25
+    },
+    {
+        "text": "encyclopedia of integers, these turn up",
+        "start": 240.33,
+        "duration": 2.07
+    },
+    {
+        "text": "really often and then the ones that are",
+        "start": 242.4,
+        "duration": 2.19
+    },
+    {
+        "text": "lower down here appear less often. But",
+        "start": 244.59,
+        "duration": 3.54
+    },
+    {
+        "text": "here's the interesting thing; you can",
+        "start": 248.13,
+        "duration": 2.609
+    },
+    {
+        "text": "quite clearly see in this curve a gap",
+        "start": 250.739,
+        "duration": 4.25
+    },
+    {
+        "text": "appearing. There is a\nquite clear space here.",
+        "start": 254.989,
+        "duration": 5.951
+    },
+    {
+        "text": "And yet the numbers are actually forming",
+        "start": 260.94,
+        "duration": 2.25
+    },
+    {
+        "text": "two bands. So there's a top band which is",
+        "start": 263.19,
+        "duration": 2.88
+    },
+    {
+        "text": "filled with",
+        "start": 266.07,
+        "duration": 0.71
+    },
+    {
+        "text": "the popular numbers, they're turning up",
+        "start": 266.78,
+        "duration": 1.77
+    },
+    {
+        "text": "the most often, then this is huge gap and",
+        "start": 268.55,
+        "duration": 3.12
+    },
+    {
+        "text": "then underneath there's a bottom band",
+        "start": 271.67,
+        "duration": 2.64
+    },
+    {
+        "text": "there which are your less popular",
+        "start": 274.31,
+        "duration": 2.64
+    },
+    {
+        "text": "numbers, they're the ordinary numbers",
+        "start": 276.95,
+        "duration": 1.98
+    },
+    {
+        "text": "that aren't turning up so often. And",
+        "start": 278.93,
+        "duration": 2.55
+    },
+    {
+        "text": "that's quite surprising. They could",
+        "start": 281.48,
+        "duration": 2.34
+    },
+    {
+        "text": "generate this sort of curve if they had",
+        "start": 283.82,
+        "duration": 2.4
+    },
+    {
+        "text": "a machine generating sequences and",
+        "start": 286.22,
+        "duration": 2.28
+    },
+    {
+        "text": "integers, this is exactly the sort of",
+        "start": 288.5,
+        "duration": 2.1
+    },
+    {
+        "text": "curve you would expect, so that wasn't a",
+        "start": 290.6,
+        "duration": 2.16
+    },
+    {
+        "text": "surprise. The surprising thing was they",
+        "start": 292.76,
+        "duration": 2.49
+    },
+    {
+        "text": "have this gap separating popular numbers",
+        "start": 295.25,
+        "duration": 3.389
+    },
+    {
+        "text": "from the less popular numbers. Now the",
+        "start": 298.639,
+        "duration": 3.181
+    },
+    {
+        "text": "ones in the top band are actually",
+        "start": 301.82,
+        "duration": 2.79
+    },
+    {
+        "text": "numbers like the primes. All the primes",
+        "start": 304.61,
+        "duration": 3.03
+    },
+    {
+        "text": "are there, in fact almost all the primes",
+        "start": 307.64,
+        "duration": 1.86
+    },
+    {
+        "text": "are in the top band. About 95% of square",
+        "start": 309.5,
+        "duration": 3.99
+    },
+    {
+        "text": "numbers are in the top band, in the",
+        "start": 313.49,
+        "duration": 2.85
+    },
+    {
+        "text": "popular band. There are numbers like",
+        "start": 316.34,
+        "duration": 2.54
+    },
+    {
+        "text": "numbers that are just perhaps 1 or-",
+        "start": 318.88,
+        "duration": 3.43
+    },
+    {
+        "text": "plus 1 or minus 1 off a power of 2;",
+        "start": 322.31,
+        "duration": 2.609
+    },
+    {
+        "text": "so that'd be 2 to the power n plus 1 or",
+        "start": 324.919,
+        "duration": 2.821
+    },
+    {
+        "text": "2 to the power n minus 1. Or there might",
+        "start": 327.74,
+        "duration": 3.21
+    },
+    {
+        "text": "be number such that have lots of factors;",
+        "start": 330.95,
+        "duration": 1.95
+    },
+    {
+        "text": "numbers that factorise into lots of",
+        "start": 332.9,
+        "duration": 2.46
+    },
+    {
+        "text": "little factors, those tend to appear in",
+        "start": 335.36,
+        "duration": 2.46
+    },
+    {
+        "text": "the top band. Other numbers that appear",
+        "start": 337.82,
+        "duration": 2.94
+    },
+    {
+        "text": "in the top band are ones that have",
+        "start": 340.76,
+        "duration": 1.8
+    },
+    {
+        "text": "special properties in base 10; so numbers",
+        "start": 342.56,
+        "duration": 3.479
+    },
+    {
+        "text": "like 1111 are in the top band, 2222,",
+        "start": 346.039,
+        "duration": 7.791
+    },
+    {
+        "text": "3333 all appear in the popular band of",
+        "start": 353.83,
+        "duration": 4.99
+    },
+    {
+        "text": "numbers. So what they think is happening",
+        "start": 358.82,
+        "duration": 2.219
+    },
+    {
+        "text": "here is obviously this is cultural - that",
+        "start": 361.039,
+        "duration": 2.94
+    },
+    {
+        "text": "the popular numbers are the ones that",
+        "start": 363.979,
+        "duration": 2.851
+    },
+    {
+        "text": "the mathematicians like. These are the",
+        "start": 366.83,
+        "duration": 2.28
+    },
+    {
+        "text": "primes, or numbers that are related to",
+        "start": 369.11,
+        "duration": 2.4
+    },
+    {
+        "text": "primes, and they are they are elevated",
+        "start": 371.51,
+        "duration": 4.219
+    },
+    {
+        "text": "above the ordinary numbers and so they",
+        "start": 375.729,
+        "duration": 3.31
+    },
+    {
+        "text": "have a special place all by themselves.",
+        "start": 379.039,
+        "duration": 1.651
+    },
+    {
+        "text": "And they're elevated by such an amount",
+        "start": 380.69,
+        "duration": 2.67
+    },
+    {
+        "text": "that you can see a quite clear space",
+        "start": 383.36,
+        "duration": 2.82
+    },
+    {
+        "text": "between them.",
+        "start": 386.18,
+        "duration": 2.04
+    },
+    {
+        "text": "We'd like to thank audible.com for their",
+        "start": 388.22,
+        "duration": 2.4
+    },
+    {
+        "text": "support of this video; and if you go to",
+        "start": 390.62,
+        "duration": 1.44
+    },
+    {
+        "text": "audible.com/numberphile you can",
+        "start": 392.06,
+        "duration": 2.25
+    },
+    {
+        "text": "actually download a free audiobook. Now",
+        "start": 394.31,
+        "duration": 2.58
+    },
+    {
+        "text": "there are loads of mathematics based",
+        "start": 396.89,
+        "duration": 1.32
+    },
+    {
+        "text": "books we could recommend, but today I",
+        "start": 398.21,
+        "duration": 1.44
+    },
+    {
+        "text": "thought I'd recommend something a bit",
+        "start": 399.65,
+        "duration": 1.26
+    },
+    {
+        "text": "different: The Fault in Our Stars \nby John Green",
+        "start": 400.91,
+        "duration": 2.28
+    },
+    {
+        "text": "which is an excellent book. I think it's",
+        "start": 403.19,
+        "duration": 2.31
+    },
+    {
+        "text": "probably targeted at a slightly younger",
+        "start": 405.5,
+        "duration": 1.41
+    },
+    {
+        "text": "audience than me",
+        "start": 406.91,
+        "duration": 0.99
+    },
+    {
+        "text": "but it's a book I really loved. And",
+        "start": 407.9,
+        "duration": 1.68
+    },
+    {
+        "text": "John's also a really great member of the",
+        "start": 409.58,
+        "duration": 1.83
+    },
+    {
+        "text": "YouTube community and makes awesome",
+        "start": 411.41,
+        "duration": 1.41
+    },
+    {
+        "text": "videos. The book's also just been made",
+        "start": 412.82,
+        "duration": 2.04
+    },
+    {
+        "text": "into a film so you might want to get",
+        "start": 414.86,
+        "duration": 1.44
+    },
+    {
+        "text": "ahead of the game before the film comes",
+        "start": 416.3,
+        "duration": 1.41
+    },
+    {
+        "text": "out. So again, thanks to Audible for their",
+        "start": 417.71,
+        "duration": 2.28
+    },
+    {
+        "text": "support of our films and if you want to",
+        "start": 419.99,
+        "duration": 2.01
+    },
+    {
+        "text": "check them out and maybe download that",
+        "start": 422.0,
+        "duration": 1.56
+    },
+    {
+        "text": "free book: audible.com/numberphile.",
+        "start": 423.56,
+        "duration": 2.37
+    },
+    {
+        "text": "So in 2012 the smallest number that",
+        "start": 425.93,
+        "duration": 4.26
+    },
+    {
+        "text": "didn't appear was",
+        "start": 430.19,
+        "duration": 2.12
+    },
+    {
+        "text": "13,794 - doesn't appear",
+        "start": 432.31,
+        "duration": 4.48
+    },
+    {
+        "text": "in the encyclopedia at all. Now I",
+        "start": 436.79,
+        "duration": 1.74
+    },
+    {
+        "text": "went and checked if that was still true",
+        "start": 438.53,
+        "duration": 1.77
+    },
+    {
+        "text": "and I'm afraid that it is no longer",
+        "start": 440.3,
+        "duration": 2.46
+    },
+    {
+        "text": "still true, I think it's about four",
+        "start": 442.76,
+        "duration": 1.53
+    },
+    {
+        "text": "sequences that that now appears in.",
+        "start": 444.29,
+        "duration": 2.71
+    }
+]

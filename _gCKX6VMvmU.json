@@ -1,0 +1,1637 @@
+[
+    {
+        "text": "I've got a new favourite constant to tell",
+        "start": 0.08,
+        "duration": 1.759
+    },
+    {
+        "text": "you about.\n- (Brady: Another one?)",
+        "start": 1.839,
+        "duration": 1.3
+    },
+    {
+        "text": "Ah a constant, you love a number. So um",
+        "start": 3.139,
+        "duration": 3.581
+    },
+    {
+        "text": "let me write it out, here's my new",
+        "start": 6.72,
+        "duration": 1.68
+    },
+    {
+        "text": "favourite constant:",
+        "start": 8.4,
+        "duration": 1.6
+    },
+    {
+        "text": "2.920050977316...",
+        "start": 10.0,
+        "duration": 8.8
+    },
+    {
+        "text": "going on forever. That's my new",
+        "start": 18.8,
+        "duration": 3.28
+    },
+    {
+        "text": "favourite constant because,\nkind of magically,",
+        "start": 22.08,
+        "duration": 3.039
+    },
+    {
+        "text": "this is going to create prime numbers",
+        "start": 25.119,
+        "duration": 2.0
+    },
+    {
+        "text": "for us. We're gonna use this constant",
+        "start": 27.119,
+        "duration": 2.32
+    },
+    {
+        "text": "and this formula, we're going to create a\nsequence",
+        "start": 29.439,
+        "duration": 3.28
+    },
+    {
+        "text": "of numbers and the next number in your",
+        "start": 32.719,
+        "duration": 2.721
+    },
+    {
+        "text": "sequence",
+        "start": 35.44,
+        "duration": 1.36
+    },
+    {
+        "text": "will be taking the previous number",
+        "start": 36.8,
+        "duration": 3.36
+    },
+    {
+        "text": "in your sequence; we're going to round it",
+        "start": 40.16,
+        "duration": 2.48
+    },
+    {
+        "text": "down, and that's what that symbol",
+        "start": 42.64,
+        "duration": 1.439
+    },
+    {
+        "text": "means, it's called the floor function you",
+        "start": 44.079,
+        "duration": 1.841
+    },
+    {
+        "text": "round it down to the nearest integer,",
+        "start": 45.92,
+        "duration": 2.319
+    },
+    {
+        "text": "and then we'll multiply that by taking",
+        "start": 48.239,
+        "duration": 2.64
+    },
+    {
+        "text": "the previous",
+        "start": 50.879,
+        "duration": 1.36
+    },
+    {
+        "text": "number in the sequence; subtracting the",
+        "start": 52.239,
+        "duration": 3.441
+    },
+    {
+        "text": "integer part - so I guess it's the decimal\npart -",
+        "start": 55.68,
+        "duration": 3.92
+    },
+    {
+        "text": "we'll add one to that and this is going",
+        "start": 59.6,
+        "duration": 3.279
+    },
+    {
+        "text": "to give us a",
+        "start": 62.879,
+        "duration": 0.721
+    },
+    {
+        "text": "sequence of prime numbers. Especially",
+        "start": 63.6,
+        "duration": 2.879
+    },
+    {
+        "text": "when we're going to round them down as",
+        "start": 66.479,
+        "duration": 1.68
+    },
+    {
+        "text": "well, we're going to use that floor\nfunction.",
+        "start": 68.159,
+        "duration": 1.761
+    },
+    {
+        "text": "I'm going to prove it - we'll start with",
+        "start": 69.92,
+        "duration": 2.72
+    },
+    {
+        "text": "the constant,",
+        "start": 72.64,
+        "duration": 1.28
+    },
+    {
+        "text": "so that's going to be the first number",
+        "start": 73.92,
+        "duration": 1.68
+    },
+    {
+        "text": "in our sequence. Let's start with f1:",
+        "start": 75.6,
+        "duration": 2.64
+    },
+    {
+        "text": "first number in my sequence is this",
+        "start": 78.24,
+        "duration": 2.0
+    },
+    {
+        "text": "thing, 2.9200",
+        "start": 80.24,
+        "duration": 3.28
+    },
+    {
+        "text": "and the rest - and by the way I will point\nout",
+        "start": 83.52,
+        "duration": 3.36
+    },
+    {
+        "text": "that if I round this down it's the first",
+        "start": 86.88,
+        "duration": 2.879
+    },
+    {
+        "text": "prime,",
+        "start": 89.759,
+        "duration": 0.72
+    },
+    {
+        "text": "it's 2. Great. Let's try the next number",
+        "start": 90.479,
+        "duration": 2.96
+    },
+    {
+        "text": "in my sequence;",
+        "start": 93.439,
+        "duration": 0.881
+    },
+    {
+        "text": "I've got my formula here just saying",
+        "start": 94.32,
+        "duration": 2.159
+    },
+    {
+        "text": "take the previous",
+        "start": 96.479,
+        "duration": 1.841
+    },
+    {
+        "text": "number, round it down so it means 2,",
+        "start": 98.32,
+        "duration": 2.32
+    },
+    {
+        "text": "take the decimal part and add one,",
+        "start": 100.64,
+        "duration": 2.159
+    },
+    {
+        "text": "so it's going to be multiplying by this,",
+        "start": 102.799,
+        "duration": 3.481
+    },
+    {
+        "text": "1.9200",
+        "start": 106.28,
+        "duration": 1.32
+    },
+    {
+        "text": "and the rest. That is going to give me",
+        "start": 107.6,
+        "duration": 1.6
+    },
+    {
+        "text": "the next number it's 3.8401019",
+        "start": 109.2,
+        "duration": 5.08
+    },
+    {
+        "text": "and stuff. But that's the next prime",
+        "start": 114.28,
+        "duration": 2.199
+    },
+    {
+        "text": "number we were after,",
+        "start": 116.479,
+        "duration": 1.201
+    },
+    {
+        "text": "it's 3, okay. So we're hoping this is",
+        "start": 117.68,
+        "duration": 3.119
+    },
+    {
+        "text": "going to work as well,",
+        "start": 120.799,
+        "duration": 1.201
+    },
+    {
+        "text": "3 and then yeah 1 plus the decimal part,",
+        "start": 122.0,
+        "duration": 3.759
+    },
+    {
+        "text": "1.840 and stuff.",
+        "start": 125.759,
+        "duration": 2.801
+    },
+    {
+        "text": "What's it gonna be?",
+        "start": 128.56,
+        "duration": 0.96
+    },
+    {
+        "text": "It's going to be 5, that's good news,",
+        "start": 129.52,
+        "duration": 2.799
+    },
+    {
+        "text": "and some junk",
+        "start": 132.319,
+        "duration": 1.121
+    },
+    {
+        "text": "at the end of it. \n- (Brady: Pretty important junk)",
+        "start": 133.44,
+        "duration": 2.689
+    },
+    {
+        "text": "It's going to be important junk,",
+        "start": 136.129,
+        "duration": 1.47
+    },
+    {
+        "text": "that's why I'm writing it out - we need",
+        "start": 137.599,
+        "duration": 2.161
+    },
+    {
+        "text": "this junk.",
+        "start": 139.76,
+        "duration": 1.04
+    },
+    {
+        "text": "Uh so well, let's see if it keeps going,",
+        "start": 140.8,
+        "duration": 2.4
+    },
+    {
+        "text": "we're hoping for a 7.",
+        "start": 143.2,
+        "duration": 1.6
+    },
+    {
+        "text": "So we can take the integer part which",
+        "start": 144.8,
+        "duration": 2.24
+    },
+    {
+        "text": "was 5,",
+        "start": 147.04,
+        "duration": 1.12
+    },
+    {
+        "text": "we take the decimal part with a 1",
+        "start": 148.16,
+        "duration": 1.76
+    },
+    {
+        "text": "point and then the rest:",
+        "start": 149.92,
+        "duration": 1.92
+    },
+    {
+        "text": "52030586",
+        "start": 151.84,
+        "duration": 4.361
+    },
+    {
+        "text": "is equal to - what's it gonna be?",
+        "start": 156.201,
+        "duration": 3.639
+    },
+    {
+        "text": "7.601529",
+        "start": 159.879,
+        "duration": 3.0
+    },
+    {
+        "text": "and decimal junk. One more or are you \nhap- are you",
+        "start": 162.879,
+        "duration": 3.44
+    },
+    {
+        "text": "satisfied? Do you believe me?\n- (Brady: Oh let's do another one!)",
+        "start": 166.319,
+        "duration": 3.163
+    },
+    {
+        "text": "Okay so what do we want the next\none to be? So",
+        "start": 169.482,
+        "duration": 2.198
+    },
+    {
+        "text": "we've got 3, 5,",
+        "start": 171.68,
+        "duration": 1.68
+    },
+    {
+        "text": "7, 11 - it should be eleven, okay.",
+        "start": 173.36,
+        "duration": 3.04
+    },
+    {
+        "text": "So we take our previous one, which is a",
+        "start": 176.4,
+        "duration": 2.0
+    },
+    {
+        "text": "7, 1 plus junk.",
+        "start": 178.4,
+        "duration": 2.0
+    },
+    {
+        "text": "And if you do your calculation - yes!",
+        "start": 180.4,
+        "duration": 2.659
+    },
+    {
+        "text": "11.210705 and stuff!",
+        "start": 183.059,
+        "duration": 5.341
+    },
+    {
+        "text": "(Brady: And this constant never fails?) \n- And this",
+        "start": 188.4,
+        "duration": 2.32
+    },
+    {
+        "text": "is never failing. So there is this",
+        "start": 190.72,
+        "duration": 1.599
+    },
+    {
+        "text": "constant somewhere out there, in the",
+        "start": 192.319,
+        "duration": 2.881
+    },
+    {
+        "text": "world of numbers,",
+        "start": 195.2,
+        "duration": 1.6
+    },
+    {
+        "text": "with this formula which will give you",
+        "start": 196.8,
+        "duration": 3.04
+    },
+    {
+        "text": "every prime number - in order as well. Not",
+        "start": 199.84,
+        "duration": 3.039
+    },
+    {
+        "text": "missing one, every prime number 2, 3,",
+        "start": 202.879,
+        "duration": 3.041
+    },
+    {
+        "text": "5, 7, 11, 13 and forever. And",
+        "start": 205.92,
+        "duration": 3.12
+    },
+    {
+        "text": "this constant - great - was",
+        "start": 209.04,
+        "duration": 3.119
+    },
+    {
+        "text": "found by a viewer, Numberphile viewer,",
+        "start": 212.159,
+        "duration": 4.481
+    },
+    {
+        "text": "who was inspired by one of my previous",
+        "start": 216.64,
+        "duration": 2.8
+    },
+    {
+        "text": "Numberphile videos!",
+        "start": 219.44,
+        "duration": 1.12
+    },
+    {
+        "text": "I have talked about constants that",
+        "start": 220.56,
+        "duration": 1.84
+    },
+    {
+        "text": "generate prime numbers before,",
+        "start": 222.4,
+        "duration": 2.08
+    },
+    {
+        "text": "and I did a video about something called",
+        "start": 224.48,
+        "duration": 1.759
+    },
+    {
+        "text": "Mills' constant.",
+        "start": 226.239,
+        "duration": 1.92
+    },
+    {
+        "text": "So Mills' constant was a constant and a\nformula,",
+        "start": 228.159,
+        "duration": 3.761
+    },
+    {
+        "text": "in the same kind of way, which was this:",
+        "start": 231.92,
+        "duration": 2.239
+    },
+    {
+        "text": "I'm going to call it",
+        "start": 234.159,
+        "duration": 1.44
+    },
+    {
+        "text": "A and it was 1.306377883863",
+        "start": 235.599,
+        "duration": 9.761
+    },
+    {
+        "text": "and stuff. So this was Mills'",
+        "start": 245.36,
+        "duration": 2.48
+    },
+    {
+        "text": "constant and",
+        "start": 247.84,
+        "duration": 0.88
+    },
+    {
+        "text": "the formula was, kind of like this one is",
+        "start": 248.72,
+        "duration": 2.079
+    },
+    {
+        "text": "rounding down;",
+        "start": 250.799,
+        "duration": 1.601
+    },
+    {
+        "text": "it was Mills' constant to the power",
+        "start": 252.4,
+        "duration": 3.839
+    },
+    {
+        "text": "three to the power n, and then you would",
+        "start": 256.239,
+        "duration": 2.0
+    },
+    {
+        "text": "round that down. It gave you a sequences",
+        "start": 258.239,
+        "duration": 1.761
+    },
+    {
+        "text": "of primes. Umm",
+        "start": 260.0,
+        "duration": 1.359
+    },
+    {
+        "text": "I'll show you what they are. So the first",
+        "start": 261.359,
+        "duration": 1.761
+    },
+    {
+        "text": "prime you got",
+        "start": 263.12,
+        "duration": 1.28
+    },
+    {
+        "text": "for doing this was a 2, then the next one",
+        "start": 264.4,
+        "duration": 3.6
+    },
+    {
+        "text": "was 11, then the next one was",
+        "start": 268.0,
+        "duration": 3.376
+    },
+    {
+        "text": "1361. And the next one was - oh it \nwas a big",
+        "start": 271.376,
+        "duration": 4.304
+    },
+    {
+        "text": "number - it was",
+        "start": 275.68,
+        "duration": 1.76
+    },
+    {
+        "text": "2 billion 521 million",
+        "start": 277.44,
+        "duration": 3.36
+    },
+    {
+        "text": "8 thousand 8 hundred and 87.",
+        "start": 280.8,
+        "duration": 4.48
+    },
+    {
+        "text": "And then the next one is huge, like",
+        "start": 285.28,
+        "duration": 2.479
+    },
+    {
+        "text": "really really big.",
+        "start": 287.759,
+        "duration": 1.841
+    },
+    {
+        "text": "And and so it's generating a sequence of",
+        "start": 289.6,
+        "duration": 2.4
+    },
+    {
+        "text": "primes,",
+        "start": 292.0,
+        "duration": 0.88
+    },
+    {
+        "text": "although there are gaps. There are gaps",
+        "start": 292.88,
+        "duration": 2.72
+    },
+    {
+        "text": "in this sequence,",
+        "start": 295.6,
+        "duration": 0.96
+    },
+    {
+        "text": "and they get really big as well. So, um,",
+        "start": 296.56,
+        "duration": 3.12
+    },
+    {
+        "text": "one of our viewers saw that video so",
+        "start": 299.68,
+        "duration": 2.72
+    },
+    {
+        "text": "that's",
+        "start": 302.4,
+        "duration": 0.72
+    },
+    {
+        "text": "Juli Garbulsky. And he was at high school",
+        "start": 303.12,
+        "duration": 3.519
+    },
+    {
+        "text": "at the time and he wasn't impressed\nbecause,",
+        "start": 306.639,
+        "duration": 3.761
+    },
+    {
+        "text": "oh yeah well it generates primes but big",
+        "start": 310.4,
+        "duration": 3.2
+    },
+    {
+        "text": "gaps,",
+        "start": 313.6,
+        "duration": 0.8
+    },
+    {
+        "text": "huge primes. He wondered could he make",
+        "start": 314.4,
+        "duration": 3.44
+    },
+    {
+        "text": "a constant so he could get all the",
+        "start": 317.84,
+        "duration": 1.919
+    },
+    {
+        "text": "primes?",
+        "start": 319.759,
+        "duration": 1.28
+    },
+    {
+        "text": "In order as well. So he came up with this",
+        "start": 321.039,
+        "duration": 2.961
+    },
+    {
+        "text": "idea.",
+        "start": 324.0,
+        "duration": 1.12
+    },
+    {
+        "text": "And he started calculating this constant",
+        "start": 325.12,
+        "duration": 2.4
+    },
+    {
+        "text": "with some of his friends,",
+        "start": 327.52,
+        "duration": 2.08
+    },
+    {
+        "text": "so it's Bruno, Dylan and",
+        "start": 329.6,
+        "duration": 3.599
+    },
+    {
+        "text": "Massi. And they created this, I've never",
+        "start": 333.199,
+        "duration": 3.28
+    },
+    {
+        "text": "seen this before - I love it.",
+        "start": 336.479,
+        "duration": 2.081
+    },
+    {
+        "text": "However, I can tell you now it's not",
+        "start": 338.56,
+        "duration": 2.88
+    },
+    {
+        "text": "predictive.",
+        "start": 341.44,
+        "duration": 1.28
+    },
+    {
+        "text": "This is not going to be able to tell me",
+        "start": 342.72,
+        "duration": 2.16
+    },
+    {
+        "text": "primes I don't already know.",
+        "start": 344.88,
+        "duration": 2.24
+    },
+    {
+        "text": "I'm afraid Mills' constant is the same;",
+        "start": 347.12,
+        "duration": 2.56
+    },
+    {
+        "text": "we are actually using the primes",
+        "start": 349.68,
+        "duration": 2.079
+    },
+    {
+        "text": "to create this constant. It exists",
+        "start": 351.759,
+        "duration": 2.72
+    },
+    {
+        "text": "somewhere out there,",
+        "start": 354.479,
+        "duration": 1.041
+    },
+    {
+        "text": "I'm afraid I just don't know what it is.",
+        "start": 355.52,
+        "duration": 3.04
+    },
+    {
+        "text": "I'm sure creating prime constants",
+        "start": 358.56,
+        "duration": 3.6
+    },
+    {
+        "text": "doesn't have to be that hard, you can",
+        "start": 362.16,
+        "duration": 1.599
+    },
+    {
+        "text": "just have zero point",
+        "start": 363.759,
+        "duration": 2.401
+    },
+    {
+        "text": "two, three, five, seven, one, \none, one, three -",
+        "start": 366.16,
+        "duration": 4.24
+    },
+    {
+        "text": "that's a prime generating constant; it's",
+        "start": 370.4,
+        "duration": 2.239
+    },
+    {
+        "text": "not very interesting one though\nis it? It's",
+        "start": 372.639,
+        "duration": 1.84
+    },
+    {
+        "text": "not very fun.",
+        "start": 374.479,
+        "duration": 0.961
+    },
+    {
+        "text": "And it's not very surprising. And I think",
+        "start": 375.44,
+        "duration": 2.4
+    },
+    {
+        "text": "this is kind of fun and surprising and",
+        "start": 377.84,
+        "duration": 2.0
+    },
+    {
+        "text": "it does use properties of primes, they've",
+        "start": 379.84,
+        "duration": 2.0
+    },
+    {
+        "text": "baked in the primes here",
+        "start": 381.84,
+        "duration": 1.919
+    },
+    {
+        "text": "using particular properties of primes. I",
+        "start": 383.759,
+        "duration": 3.361
+    },
+    {
+        "text": "want to show you what they've done here.",
+        "start": 387.12,
+        "duration": 1.44
+    },
+    {
+        "text": "(Brady: So it's more a case that the \nprimes are)",
+        "start": 388.56,
+        "duration": 2.079
+    },
+    {
+        "text": "(generating the constant, rather than the)",
+        "start": 390.639,
+        "duration": 1.601
+    },
+    {
+        "text": "(constant generating the primes?)",
+        "start": 392.24,
+        "duration": 1.679
+    },
+    {
+        "text": "'Fraid you've caught me out,",
+        "start": 393.919,
+        "duration": 1.361
+    },
+    {
+        "text": "yes. It's the prime's generating the",
+        "start": 395.28,
+        "duration": 2.0
+    },
+    {
+        "text": "constant-",
+        "start": 397.28,
+        "duration": 1.12
+    },
+    {
+        "text": "I mean it exists somewhere out there,",
+        "start": 398.4,
+        "duration": 2.799
+    },
+    {
+        "text": "it'd be lovely if we could calculate it",
+        "start": 401.199,
+        "duration": 2.401
+    },
+    {
+        "text": "and then we could use it to predict\nprimes;",
+        "start": 403.6,
+        "duration": 3.039
+    },
+    {
+        "text": "I'm afraid that's not the way it works.",
+        "start": 406.639,
+        "duration": 1.921
+    },
+    {
+        "text": "(Brady: So the number of decimal places \nwe know)",
+        "start": 408.56,
+        "duration": 1.759
+    },
+    {
+        "text": "(this constant to)",
+        "start": 410.319,
+        "duration": 0.88
+    },
+    {
+        "text": "(depends on the number of primes we know?)",
+        "start": 411.199,
+        "duration": 1.761
+    },
+    {
+        "text": "Exactly, yeah I'm afraid we are limited by",
+        "start": 412.96,
+        "duration": 2.72
+    },
+    {
+        "text": "how many primes we know. Umm but I do",
+        "start": 415.68,
+        "duration": 3.359
+    },
+    {
+        "text": "like it, I do think it's kind of fun and",
+        "start": 419.039,
+        "duration": 1.761
+    },
+    {
+        "text": "surprising. So it's a cute little",
+        "start": 420.8,
+        "duration": 1.6
+    },
+    {
+        "text": "constant.\n- (Brady: Have they given it a name?)",
+        "start": 422.4,
+        "duration": 2.079
+    },
+    {
+        "text": "I don't think they've given it a name, I",
+        "start": 424.479,
+        "duration": 2.241
+    },
+    {
+        "text": "think- I know-",
+        "start": 426.72,
+        "duration": 0.96
+    },
+    {
+        "text": "I knew you were going to give it a name,",
+        "start": 427.68,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady loves giving things names.\n- (Brady: I do, I do.)",
+        "start": 429.68,
+        "duration": 3.12
+    },
+    {
+        "text": "(But I didn't- they have the right\nto name it!)",
+        "start": 432.8,
+        "duration": 2.48
+    },
+    {
+        "text": "- They do. \n- (Yeah, but you know if they don't)",
+        "start": 435.28,
+        "duration": 2.4
+    },
+    {
+        "text": "(hurry up I might jump on the bandwagon!)",
+        "start": 437.68,
+        "duration": 2.4
+    },
+    {
+        "text": "Brady's going to do it first. So we'll",
+        "start": 440.08,
+        "duration": 3.2
+    },
+    {
+        "text": "see, the title of this video,",
+        "start": 443.28,
+        "duration": 2.08
+    },
+    {
+        "text": "what is- what has Brady decided? So let's",
+        "start": 445.36,
+        "duration": 2.959
+    },
+    {
+        "text": "see how they made it.",
+        "start": 448.319,
+        "duration": 0.88
+    },
+    {
+        "text": "So when I saw this I actually really",
+        "start": 449.199,
+        "duration": 2.321
+    },
+    {
+        "text": "enjoyed reverse",
+        "start": 451.52,
+        "duration": 1.2
+    },
+    {
+        "text": "engineering how they did it. But uh- you",
+        "start": 452.72,
+        "duration": 2.8
+    },
+    {
+        "text": "might try that yourself,",
+        "start": 455.52,
+        "duration": 1.519
+    },
+    {
+        "text": "but I might give you the ingredients",
+        "start": 457.039,
+        "duration": 2.801
+    },
+    {
+        "text": "that you need, and then you can see",
+        "start": 459.84,
+        "duration": 1.68
+    },
+    {
+        "text": "perhaps for yourself how they did it.",
+        "start": 461.52,
+        "duration": 2.079
+    },
+    {
+        "text": "First of all I'm going to tell you what",
+        "start": 463.599,
+        "duration": 1.44
+    },
+    {
+        "text": "a general term in the sequence looks",
+        "start": 465.039,
+        "duration": 2.081
+    },
+    {
+        "text": "like. We were calling those",
+        "start": 467.12,
+        "duration": 2.32
+    },
+    {
+        "text": "fn. I'm going to show you how to write fn",
+        "start": 469.44,
+        "duration": 2.784
+    },
+    {
+        "text": "in terms of prime numbers;",
+        "start": 472.224,
+        "duration": 1.535
+    },
+    {
+        "text": "it actually looks like this. It's the nth",
+        "start": 473.759,
+        "duration": 2.481
+    },
+    {
+        "text": "prime,",
+        "start": 476.24,
+        "duration": 1.359
+    },
+    {
+        "text": "and then we're going to subtract 1, and\nthen",
+        "start": 477.599,
+        "duration": 3.551
+    },
+    {
+        "text": "the next term we're going to add on",
+        "start": 481.599,
+        "duration": 3.04
+    },
+    {
+        "text": "is the next prime number, so it's the n",
+        "start": 484.639,
+        "duration": 2.321
+    },
+    {
+        "text": "plus 1",
+        "start": 486.96,
+        "duration": 0.88
+    },
+    {
+        "text": "prime, subtract 1,",
+        "start": 487.84,
+        "duration": 3.199
+    },
+    {
+        "text": "and divide that by the nth",
+        "start": 491.039,
+        "duration": 3.28
+    },
+    {
+        "text": "prime. And then for the next term you",
+        "start": 494.319,
+        "duration": 2.88
+    },
+    {
+        "text": "take the next prime number,",
+        "start": 497.199,
+        "duration": 2.081
+    },
+    {
+        "text": "which is prime number with the n plus",
+        "start": 499.28,
+        "duration": 3.44
+    },
+    {
+        "text": "2 subscript there, we subtract 1 again",
+        "start": 502.72,
+        "duration": 4.0
+    },
+    {
+        "text": "and we're going to divide by the",
+        "start": 506.72,
+        "duration": 2.08
+    },
+    {
+        "text": "previous primes,",
+        "start": 508.8,
+        "duration": 2.0
+    },
+    {
+        "text": "pn plus 1, pn.\n- (Brady: Multiplied by each other, yeah?)",
+        "start": 510.8,
+        "duration": 4.0
+    },
+    {
+        "text": "Yeah so we're dividing by this",
+        "start": 514.8,
+        "duration": 2.08
+    },
+    {
+        "text": "multiplied by that, yes",
+        "start": 516.88,
+        "duration": 1.2
+    },
+    {
+        "text": "exactly. And so you can see what the next",
+        "start": 518.08,
+        "duration": 2.16
+    },
+    {
+        "text": "term might be, so the next one is going\nto be",
+        "start": 520.24,
+        "duration": 2.4
+    },
+    {
+        "text": "the next prime number, still with",
+        "start": 522.64,
+        "duration": 2.56
+    },
+    {
+        "text": "subtract 1,",
+        "start": 525.2,
+        "duration": 1.28
+    },
+    {
+        "text": "and then dividing by the previous primes",
+        "start": 526.48,
+        "duration": 2.0
+    },
+    {
+        "text": "we've got so",
+        "start": 528.48,
+        "duration": 1.12
+    },
+    {
+        "text": "these prime numbers. And that's the",
+        "start": 529.6,
+        "duration": 1.76
+    },
+    {
+        "text": "pattern that goes on forever.",
+        "start": 531.36,
+        "duration": 1.68
+    },
+    {
+        "text": "So if you wanted to work out the first",
+        "start": 533.04,
+        "duration": 1.52
+    },
+    {
+        "text": "one, which is our special constant,",
+        "start": 534.56,
+        "duration": 3.04
+    },
+    {
+        "text": "f1 we'll start with the first prime.",
+        "start": 537.6,
+        "duration": 3.919
+    },
+    {
+        "text": "So that would be 2 minus 1",
+        "start": 541.519,
+        "duration": 3.201
+    },
+    {
+        "text": "plus, and then you take the next prime",
+        "start": 544.72,
+        "duration": 1.679
+    },
+    {
+        "text": "3 minus 1 now,",
+        "start": 546.399,
+        "duration": 1.761
+    },
+    {
+        "text": "divided by 2 and then it's going to be",
+        "start": 548.16,
+        "duration": 2.88
+    },
+    {
+        "text": "the next prime",
+        "start": 551.04,
+        "duration": 0.88
+    },
+    {
+        "text": "up, 5 minus 1 divided by",
+        "start": 551.92,
+        "duration": 3.52
+    },
+    {
+        "text": "our previous",
+        "start": 555.44,
+        "duration": 2.72
+    },
+    {
+        "text": "primes. And then next prime up",
+        "start": 558.56,
+        "duration": 3.92
+    },
+    {
+        "text": "divided by our previous primes.",
+        "start": 562.48,
+        "duration": 3.28
+    },
+    {
+        "text": "And that's going to be our constant that",
+        "start": 565.76,
+        "duration": 1.68
+    },
+    {
+        "text": "I told you at the beginning, 2.9",
+        "start": 567.44,
+        "duration": 2.079
+    },
+    {
+        "text": "whatever. So those are our starting",
+        "start": 569.519,
+        "duration": 2.161
+    },
+    {
+        "text": "ingredients and then",
+        "start": 571.68,
+        "duration": 1.44
+    },
+    {
+        "text": "this really important observation. We're",
+        "start": 573.12,
+        "duration": 3.12
+    },
+    {
+        "text": "going to use a property of primes called",
+        "start": 576.24,
+        "duration": 2.32
+    },
+    {
+        "text": "Bertrand's Postulate; it's a big thing",
+        "start": 578.56,
+        "duration": 2.24
+    },
+    {
+        "text": "actually when you're studying primes.",
+        "start": 580.8,
+        "duration": 1.76
+    },
+    {
+        "text": "If you've got the nth prime the next",
+        "start": 582.56,
+        "duration": 3.2
+    },
+    {
+        "text": "prime",
+        "start": 585.76,
+        "duration": 0.88
+    },
+    {
+        "text": "is obviously bigger, but it is",
+        "start": 586.64,
+        "duration": 3.68
+    },
+    {
+        "text": "smaller than twice",
+        "start": 590.32,
+        "duration": 3.12
+    },
+    {
+        "text": "the nth prime. I'm not going to do the",
+        "start": 593.44,
+        "duration": 2.16
+    },
+    {
+        "text": "proof for you,",
+        "start": 595.6,
+        "duration": 0.96
+    },
+    {
+        "text": "it's totally possible to do for yourself.",
+        "start": 596.56,
+        "duration": 2.719
+    },
+    {
+        "text": "When I heard about this\nconstant I thought it",
+        "start": 599.279,
+        "duration": 2.081
+    },
+    {
+        "text": "was great, I loved it, I thought it was",
+        "start": 601.36,
+        "duration": 1.52
+    },
+    {
+        "text": "good fun. I went looking to see if\nanyone had",
+        "start": 602.88,
+        "duration": 2.079
+    },
+    {
+        "text": "done it before, and I've not seen anyone",
+        "start": 604.959,
+        "duration": 2.241
+    },
+    {
+        "text": "do it before;",
+        "start": 607.2,
+        "duration": 1.6
+    },
+    {
+        "text": "but I did find it in one place.",
+        "start": 608.8,
+        "duration": 3.599
+    },
+    {
+        "text": "In a kind of completely different",
+        "start": 612.399,
+        "duration": 1.521
+    },
+    {
+        "text": "context, I found it somewhere",
+        "start": 613.92,
+        "duration": 1.84
+    },
+    {
+        "text": "which is with this sequence, something",
+        "start": 615.76,
+        "duration": 2.88
+    },
+    {
+        "text": "slightly different.",
+        "start": 618.64,
+        "duration": 0.8
+    },
+    {
+        "text": "We're going to look for the smallest",
+        "start": 619.44,
+        "duration": 2.8
+    },
+    {
+        "text": "prime",
+        "start": 622.24,
+        "duration": 0.8
+    },
+    {
+        "text": "that doesn't divide n, that doesn't",
+        "start": 623.04,
+        "duration": 3.2
+    },
+    {
+        "text": "divide n. \n- (Brady: So it's not a factor of n?)",
+        "start": 626.24,
+        "duration": 2.24
+    },
+    {
+        "text": "So it's not a factor",
+        "start": 628.48,
+        "duration": 1.44
+    },
+    {
+        "text": "of n. So for 1, the smallest prime that\ndoesn't",
+        "start": 629.92,
+        "duration": 3.039
+    },
+    {
+        "text": "divide 1 is 2. Smallest prime that",
+        "start": 632.959,
+        "duration": 2.961
+    },
+    {
+        "text": "doesn't divide",
+        "start": 635.92,
+        "duration": 0.88
+    },
+    {
+        "text": "2 is 3, the smallest prime that",
+        "start": 636.8,
+        "duration": 2.56
+    },
+    {
+        "text": "doesn't divide",
+        "start": 639.36,
+        "duration": 0.719
+    },
+    {
+        "text": "3 is 2, smallest prime that doesn't",
+        "start": 640.079,
+        "duration": 2.561
+    },
+    {
+        "text": "divide 4 is 3, smallest prime that",
+        "start": 642.64,
+        "duration": 3.84
+    },
+    {
+        "text": "doesn't divide",
+        "start": 646.48,
+        "duration": 0.88
+    },
+    {
+        "text": "5 - 2, smaller pilot doesn't divide",
+        "start": 647.36,
+        "duration": 2.56
+    },
+    {
+        "text": "6 can't be 2,",
+        "start": 649.92,
+        "duration": 1.2
+    },
+    {
+        "text": "can't be 3 - that one's a 5. And",
+        "start": 651.12,
+        "duration": 2.48
+    },
+    {
+        "text": "then it's a 2 here,",
+        "start": 653.6,
+        "duration": 1.679
+    },
+    {
+        "text": "and a 3 here and so on. So that's a",
+        "start": 655.279,
+        "duration": 2.641
+    },
+    {
+        "text": "sequence,",
+        "start": 657.92,
+        "duration": 1.2
+    },
+    {
+        "text": "smallest primes that don't divide n. And,",
+        "start": 659.12,
+        "duration": 2.88
+    },
+    {
+        "text": "if you look at the average of this",
+        "start": 662.0,
+        "duration": 1.6
+    },
+    {
+        "text": "sequence-",
+        "start": 663.6,
+        "duration": 1.52
+    },
+    {
+        "text": "and this is going on forever, but if you",
+        "start": 665.12,
+        "duration": 1.52
+    },
+    {
+        "text": "took the average of this sequence",
+        "start": 666.64,
+        "duration": 2.16
+    },
+    {
+        "text": "it is my new favourite constant.",
+        "start": 668.8,
+        "duration": 3.039
+    },
+    {
+        "text": "(Brady: It's the prime generator?)\n- It's the prime",
+        "start": 671.839,
+        "duration": 1.521
+    },
+    {
+        "text": "generator! Completely different sequence,",
+        "start": 673.36,
+        "duration": 2.479
+    },
+    {
+        "text": "this is going on forever so we're",
+        "start": 675.839,
+        "duration": 1.601
+    },
+    {
+        "text": "looking at what the average",
+        "start": 677.44,
+        "duration": 1.76
+    },
+    {
+        "text": "tends to. To work out the average",
+        "start": 679.2,
+        "duration": 3.04
+    },
+    {
+        "text": "you look at the proportion",
+        "start": 682.24,
+        "duration": 3.039
+    },
+    {
+        "text": "of these numbers that are",
+        "start": 685.279,
+        "duration": 3.041
+    },
+    {
+        "text": "2, and so- and half of them are. Half of",
+        "start": 688.32,
+        "duration": 2.48
+    },
+    {
+        "text": "this- half of these numbers",
+        "start": 690.8,
+        "duration": 1.68
+    },
+    {
+        "text": "are a 2. Then you would look at the",
+        "start": 692.48,
+        "duration": 2.24
+    },
+    {
+        "text": "proportion of these numbers that are a",
+        "start": 694.72,
+        "duration": 1.84
+    },
+    {
+        "text": "3;",
+        "start": 696.56,
+        "duration": 1.279
+    },
+    {
+        "text": "and if you look there you can work out",
+        "start": 697.839,
+        "duration": 1.921
+    },
+    {
+        "text": "the proportion of 3s.",
+        "start": 699.76,
+        "duration": 1.84
+    },
+    {
+        "text": "Look at the proportions of 5s; and",
+        "start": 701.6,
+        "duration": 2.32
+    },
+    {
+        "text": "using those numbers you can add them up,",
+        "start": 703.92,
+        "duration": 2.159
+    },
+    {
+        "text": "you can find the average of the sequence.",
+        "start": 706.079,
+        "duration": 2.88
+    },
+    {
+        "text": "Do you want to learn more about prime",
+        "start": 708.959,
+        "duration": 1.601
+    },
+    {
+        "text": "numbers and",
+        "start": 710.56,
+        "duration": 1.12
+    },
+    {
+        "text": "divisibility? Or how about any of these",
+        "start": 711.68,
+        "duration": 2.8
+    },
+    {
+        "text": "subjects?",
+        "start": 714.48,
+        "duration": 1.28
+    },
+    {
+        "text": "Look, no matter what you're into",
+        "start": 715.76,
+        "duration": 1.759
+    },
+    {
+        "text": "Brilliant is going to have the quizzes,",
+        "start": 717.519,
+        "duration": 2.081
+    },
+    {
+        "text": "problems, entire courses for you that are\nfun,",
+        "start": 719.6,
+        "duration": 3.52
+    },
+    {
+        "text": "interactive and lovingly designed to",
+        "start": 723.12,
+        "duration": 2.32
+    },
+    {
+        "text": "engage your brain,",
+        "start": 725.44,
+        "duration": 1.199
+    },
+    {
+        "text": "to make you smarter! These aren't like\nhomework",
+        "start": 726.639,
+        "duration": 3.361
+    },
+    {
+        "text": "or some kind of chore; they're fun,",
+        "start": 730.0,
+        "duration": 2.0
+    },
+    {
+        "text": "they're stimulating,",
+        "start": 732.0,
+        "duration": 1.2
+    },
+    {
+        "text": "they're created by people who really",
+        "start": 733.2,
+        "duration": 2.079
+    },
+    {
+        "text": "know their stuff.",
+        "start": 735.279,
+        "duration": 1.281
+    },
+    {
+        "text": "By the way Brilliant, loving the new",
+        "start": 736.56,
+        "duration": 1.839
+    },
+    {
+        "text": "design - such a great looking site.",
+        "start": 738.399,
+        "duration": 2.24
+    },
+    {
+        "text": "Go to brilliant.org/numberphile to see",
+        "start": 740.639,
+        "duration": 3.361
+    },
+    {
+        "text": "more and get 20% off a premium",
+        "start": 744.0,
+        "duration": 2.56
+    },
+    {
+        "text": "subscription,",
+        "start": 746.56,
+        "duration": 0.88
+    },
+    {
+        "text": "that accesses everything on the site.",
+        "start": 747.44,
+        "duration": 2.0
+    },
+    {
+        "text": "That's brilliant.org/numberphile.",
+        "start": 749.44,
+        "duration": 2.51
+    },
+    {
+        "text": "Sign up for yourself or",
+        "start": 751.95,
+        "duration": 1.73
+    },
+    {
+        "text": "maybe",
+        "start": 753.68,
+        "duration": 0.8
+    },
+    {
+        "text": "give Brilliant as a gift!",
+        "start": 754.48,
+        "duration": 5.359
+    }
+]

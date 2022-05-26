@@ -1,0 +1,197 @@
+[
+    {
+        "text": "This video will show you how\nto make a tool in Roblox.",
+        "start": 0.15,
+        "duration": 4.808
+    },
+    {
+        "text": "I'm going to make a cardboard\nbox tool for this video.",
+        "start": 4.958,
+        "duration": 4.022
+    },
+    {
+        "text": "First, design your tool by inserting parts",
+        "start": 8.98,
+        "duration": 3.366
+    },
+    {
+        "text": "and manipulating them with the select,",
+        "start": 12.346,
+        "duration": 2.108
+    },
+    {
+        "text": "move, scale, and rotate tools.",
+        "start": 14.454,
+        "duration": 2.906
+    },
+    {
+        "text": "You can also add color and material",
+        "start": 17.36,
+        "duration": 2.28
+    },
+    {
+        "text": "in the properties panel.",
+        "start": 19.64,
+        "duration": 1.2
+    },
+    {
+        "text": "Once you've created your parts,",
+        "start": 25.31,
+        "duration": 1.77
+    },
+    {
+        "text": "insert one more and name it Handle",
+        "start": 27.08,
+        "duration": 2.46
+    },
+    {
+        "text": "with a capital H.",
+        "start": 29.54,
+        "duration": 1.96
+    },
+    {
+        "text": "Using the scale tool,",
+        "start": 31.5,
+        "duration": 1.675
+    },
+    {
+        "text": "set the size of the handle to be small",
+        "start": 33.175,
+        "duration": 3.05
+    },
+    {
+        "text": "and set the transparency to 1.",
+        "start": 36.225,
+        "duration": 2.56
+    },
+    {
+        "text": "This part will determine where\nthe player holds the tool.",
+        "start": 41.1,
+        "duration": 4.036
+    },
+    {
+        "text": "Drag it to the bottom of the box",
+        "start": 45.136,
+        "duration": 1.774
+    },
+    {
+        "text": "or wherever you want the\nplayer to hold the tool",
+        "start": 46.91,
+        "duration": 2.25
+    },
+    {
+        "text": "if you are creating a different tool.",
+        "start": 49.16,
+        "duration": 2.14
+    },
+    {
+        "text": "Click on the plus icon\nnext to the workspace",
+        "start": 51.3,
+        "duration": 2.552
+    },
+    {
+        "text": "and insert a tool.",
+        "start": 53.852,
+        "duration": 2.168
+    },
+    {
+        "text": "Select all of your parts\nwhich you just created",
+        "start": 56.02,
+        "duration": 2.807
+    },
+    {
+        "text": "and drag them inside your tool.",
+        "start": 58.827,
+        "duration": 2.553
+    },
+    {
+        "text": "Then make sure the anchored\nproperty is unchecked.",
+        "start": 61.38,
+        "duration": 3.583
+    },
+    {
+        "text": "We now need to weld all of the parts",
+        "start": 66.78,
+        "duration": 2.11
+    },
+    {
+        "text": "so that the box does not\nfall apart when equipped.",
+        "start": 68.89,
+        "duration": 3.113
+    },
+    {
+        "text": "Click the plus icon on the handle",
+        "start": 73.11,
+        "duration": 2.245
+    },
+    {
+        "text": "and insert a WeldConstraint.",
+        "start": 75.355,
+        "duration": 2.75
+    },
+    {
+        "text": "Set the Part0 property to the handle.",
+        "start": 78.105,
+        "duration": 2.758
+    },
+    {
+        "text": "Set the Part1 property to\none of the other parts.",
+        "start": 81.93,
+        "duration": 3.413
+    },
+    {
+        "text": "Repeat this until you've\nset up WeldConstraints",
+        "start": 86.41,
+        "duration": 2.76
+    },
+    {
+        "text": "which connect the handle\nto every other part.",
+        "start": 89.17,
+        "duration": 3.13
+    },
+    {
+        "text": "Make sure Part0 is the\nhandle on every weld.",
+        "start": 92.3,
+        "duration": 4.25
+    },
+    {
+        "text": "Now ensure that your\ntool is the correct size",
+        "start": 97.77,
+        "duration": 2.58
+    },
+    {
+        "text": "relative to a Roblox character.",
+        "start": 100.35,
+        "duration": 2.56
+    },
+    {
+        "text": "You can do this by inserting an NPC",
+        "start": 102.91,
+        "duration": 2.74
+    },
+    {
+        "text": "via the plugins Rig Builder menu",
+        "start": 105.65,
+        "duration": 2.941
+    },
+    {
+        "text": "or by inserting an NPC from the toolbox.",
+        "start": 108.591,
+        "duration": 3.859
+    },
+    {
+        "text": "Drag the tool into the starter pack",
+        "start": 113.96,
+        "duration": 2.322
+    },
+    {
+        "text": "and then click the play button.",
+        "start": 116.282,
+        "duration": 1.431
+    },
+    {
+        "text": "Click the tool in the toolbar\nor press 1 to equip it.",
+        "start": 118.9,
+        "duration": 4.417
+    }
+]

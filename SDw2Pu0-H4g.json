@@ -1,0 +1,507 @@
+[
+    {
+        "text": "We're going to talk about coin flipping.",
+        "start": 0.0,
+        "duration": 1.4
+    },
+    {
+        "text": "Lets say you got two people. You got Person A Person B, right, they're flipping coins.",
+        "start": 1.4,
+        "duration": 4.34
+    },
+    {
+        "text": "Let's say one of them is flipping coins and waiting for Heads-Heads to turn up",
+        "start": 5.74,
+        "duration": 5.92
+    },
+    {
+        "text": "right, so they're going to make a sequence of coin flips, and they're waiting for Head-Heads.",
+        "start": 11.66,
+        "duration": 3.94
+    },
+    {
+        "text": "Person B, he's doing it and he's waiting for Head-Tails.",
+        "start": 15.6,
+        "duration": 3.06
+    },
+    {
+        "text": "So one of them is waiting for Head-Heads, and one of them is waiting for Head-Tails.",
+        "start": 18.66,
+        "duration": 3.52
+    },
+    {
+        "text": "Now, what's the probability that you're gonna get Heads-Heads?",
+        "start": 22.18,
+        "duration": 4.24
+    },
+    {
+        "text": "Now even Brady would probably know this. What's the probability you get Heads-Heads?",
+        "start": 26.42,
+        "duration": 3.4
+    },
+    {
+        "text": "Brady: Is it one in four?",
+        "start": 29.82,
+        "duration": 1.0
+    },
+    {
+        "text": "Yeah yeah exactly. So it's one in four, and Heads-Tails it's the same, right? It's one in four.",
+        "start": 30.82,
+        "duration": 5.08
+    },
+    {
+        "text": "Even though they have equal probability I claim your average waiting time for Heads-Heads",
+        "start": 35.9,
+        "duration": 8.58
+    },
+    {
+        "text": "is going to be longer than for Head-Tails.",
+        "start": 44.48,
+        "duration": 2.58
+    },
+    {
+        "text": "Let's do it, let's do the experiment. Let's not just write out mathematical formula.",
+        "start": 47.06,
+        "duration": 5.44
+    },
+    {
+        "text": "Let's do it let's go.",
+        "start": 52.5,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm gonna flip this coin. Now this is, we're gonna do an average. I wanna do a long sequence",
+        "start": 54.5,
+        "duration": 5.6
+    },
+    {
+        "text": "and we're gonna see what the average is.",
+        "start": 60.1,
+        "duration": 1.7
+    },
+    {
+        "text": "So if I flip this coin, let's say 50 times, is a nice long number.",
+        "start": 61.8,
+        "duration": 4.66
+    },
+    {
+        "text": "Then we'll be able to take an average of how long we have to wait for Heads-Heads or Heads-Tails.",
+        "start": 66.46,
+        "duration": 4.8
+    },
+    {
+        "text": "Right, so we do this if it... actually this is gonna take me ages, isn't it? So instead of flipping this one coin 50 times",
+        "start": 71.7,
+        "duration": 7.0
+    },
+    {
+        "text": "what i can do is I can flip 50 coins all at once alright",
+        "start": 78.7,
+        "duration": 6.76
+    },
+    {
+        "text": "which I've just done there, OK?",
+        "start": 85.46,
+        "duration": 1.92
+    },
+    {
+        "text": "The First coin is a Tails alright. Second coin is, without looking, it's a Heads.",
+        "start": 87.38,
+        "duration": 6.78
+    },
+    {
+        "text": "Alright, next coin is Tails, I'm gonna a sequence like that.",
+        "start": 94.42,
+        "duration": 4.58
+    },
+    {
+        "text": "Not even Looking.",
+        "start": 99.26,
+        "duration": 1.78
+    },
+    {
+        "text": "We've run out of space we better do another.",
+        "start": 101.6,
+        "duration": 2.88
+    },
+    {
+        "text": "Let's make them random.",
+        "start": 104.52,
+        "duration": 2.26
+    },
+    {
+        "text": "Right, so I poured them out, I tried not to look at them, so it should be a sequence of random coin flips.",
+        "start": 106.78,
+        "duration": 5.94
+    },
+    {
+        "text": "I better write out so we can see what they are a bit better.",
+        "start": 112.72,
+        "duration": 2.94
+    },
+    {
+        "text": "Tail...Head...Tail...Head...Tail...and a Head and a Tail and a Tail...Tail...Head...Tail",
+        "start": 115.66,
+        "duration": 7.4
+    },
+    {
+        "text": "Alright, we're gonna look at this sequence and we're gonna play the game",
+        "start": 123.64,
+        "duration": 4.8
+    },
+    {
+        "text": "where tossing a sequence of coins.",
+        "start": 128.44,
+        "duration": 2.08
+    },
+    {
+        "text": "And we're waiting to see how many, how long we have to wait for Head-Tail.",
+        "start": 130.52,
+        "duration": 3.44
+    },
+    {
+        "text": "If i start here I'm looking for a Head-Tail, Oh, there it is. Right.",
+        "start": 133.96,
+        "duration": 3.94
+    },
+    {
+        "text": "Alright that's my first Head-Tail there. That was a waiting time of three",
+        "start": 137.9,
+        "duration": 4.14
+    },
+    {
+        "text": "and then i got Head-Tail, then I start agina OK. I do a new game",
+        "start": 142.04,
+        "duration": 3.96
+    },
+    {
+        "text": "I'm gonna look for Head-Tail, and I had to wait one two three four, and there it is.",
+        "start": 146.0,
+        "duration": 5.28
+    },
+    {
+        "text": "Now i'm gonna do it again, oh look this one is straight away look Head-Tail.",
+        "start": 151.28,
+        "duration": 3.3
+    },
+    {
+        "text": "Now I'm gonna start again. I'm looking for Head-Tail. Ooh this is a long wait here.",
+        "start": 154.94,
+        "duration": 5.44
+    },
+    {
+        "text": "And then there it is Head-Tail.",
+        "start": 160.38,
+        "duration": 1.62
+    },
+    {
+        "text": "And Head-Tail there...there...there it is. Oh and there's one right at the end as well.",
+        "start": 162.0,
+        "duration": 5.46
+    },
+    {
+        "text": "Right, what was the average waiting time. Let's have a look at the waiting time.",
+        "start": 167.46,
+        "duration": 4.6
+    },
+    {
+        "text": "So that's about an average wait of 4.5 .",
+        "start": 172.06,
+        "duration": 2.34
+    },
+    {
+        "text": "Lets look at the Heads-Heads though. You would have to wait, ooh how long? Ooh this is a long waiting time here.",
+        "start": 174.4,
+        "duration": 9.36
+    },
+    {
+        "text": "It happens all the way over here.",
+        "start": 183.76,
+        "duration": 2.16
+    },
+    {
+        "text": "There Heads-Heads, which was a long wait. 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.",
+        "start": 185.92,
+        "duration": 7.86
+    },
+    {
+        "text": "So you've player a game and it ends when you get Head-Heads. Great, done.",
+        "start": 193.78,
+        "duration": 3.96
+    },
+    {
+        "text": "So now start a new game, a completely different game form this point on.",
+        "start": 197.74,
+        "duration": 3.98
+    },
+    {
+        "text": "So we'll just start again, oh, but this time notice there the Heads-Heads comes up really quickly. Look at that, it's just straight away.",
+        "start": 201.72,
+        "duration": 8.58
+    },
+    {
+        "text": "And now we start a new game OK. So we had a success, we'll start a new game and we have to wait 1, 2, 3",
+        "start": 210.3,
+        "duration": 6.24
+    },
+    {
+        "text": "let's look for our average waiting time for Heads-Heads, OK.",
+        "start": 216.54,
+        "duration": 3.74
+    },
+    {
+        "text": "Which is 7, right. And yes, oh look, yes.You have a longer average waiting time for Heads-Heads than you do for Heads-Tails",
+        "start": 220.28,
+        "duration": 9.54
+    },
+    {
+        "text": "even though they have an equal probability, they're both one quarter. Why is this?",
+        "start": 229.98,
+        "duration": 5.52
+    },
+    {
+        "text": "You can kind of see what that reason is from this, this sequence.",
+        "start": 235.56,
+        "duration": 4.24
+    },
+    {
+        "text": "Because if you noticed when we were doing it, when you play Heads-Tails",
+        "start": 240.12,
+        "duration": 4.72
+    },
+    {
+        "text": "you get Heads-Tails, then you start a new game and you wait for Heads-Tails, and you start a new game.",
+        "start": 244.84,
+        "duration": 5.4
+    },
+    {
+        "text": "Heads-Heads was slightly different, when we did it with Heads-Heads look what happened here.",
+        "start": 250.24,
+        "duration": 4.94
+    },
+    {
+        "text": "when you have something like this: Heads-Heads-Heads-Heads we have this overlap.",
+        "start": 255.22,
+        "duration": 5.6
+    },
+    {
+        "text": "And this overlap isn't counted, we were playing it until we got Heads-Heads",
+        "start": 260.82,
+        "duration": 4.7
+    },
+    {
+        "text": "and then the game stopped. And then we play a new game from that point.",
+        "start": 265.52,
+        "duration": 3.9
+    },
+    {
+        "text": "So here we've got a Heads-Heads, that didn't get counted as a Heads-Heads.",
+        "start": 269.42,
+        "duration": 4.06
+    },
+    {
+        "text": "So if you look at how many Heads-Heads we've got it should about an equal number to Heads-Tails",
+        "start": 273.48,
+        "duration": 5.94
+    },
+    {
+        "text": "but the overlaps don't get counted. Let's just check.",
+        "start": 279.42,
+        "duration": 2.56
+    },
+    {
+        "text": "How many Heads-Tails did we have? Actually we know we got 11, i know for a fact we got 11.",
+        "start": 281.98,
+        "duration": 5.4
+    },
+    {
+        "text": "How many Heads-Heads did we have, including the overlaps?",
+        "start": 287.38,
+        "duration": 3.42
+    },
+    {
+        "text": "One here, we have two, we have three.",
+        "start": 290.8,
+        "duration": 3.6
+    },
+    {
+        "text": "So if you actually count up the Heads-Heads we had 9 of them, but only 6 were included in our waiting time average.",
+        "start": 294.4,
+        "duration": 9.02
+    },
+    {
+        "text": "So this sequence, we were looking at what would happen for consecutive values",
+        "start": 303.42,
+        "duration": 7.84
+    },
+    {
+        "text": "so Head-Heads, Heads-Tails. The same sort of thing would happen with Tails-Heads and Tails-Tails.",
+        "start": 311.26,
+        "duration": 5.94
+    },
+    {
+        "text": "We're look at consecutive values, in fact the reason I mentioned this is because",
+        "start": 317.2,
+        "duration": 5.12
+    },
+    {
+        "text": "if you remember there was that prime news where they were looking at primes, and the ending of primes for consecutive primes.",
+        "start": 322.32,
+        "duration": 8.14
+    },
+    {
+        "text": "This is what they were looking for, they thought if primes were random like coin flips",
+        "start": 330.46,
+        "duration": 4.06
+    },
+    {
+        "text": "I'm going to find this effect.",
+        "start": 334.52,
+        "duration": 3.2
+    },
+    {
+        "text": "What turned out to be the case is that they didn't find this effect because the primes weren't being random like coins.",
+        "start": 337.72,
+        "duration": 8.12
+    },
+    {
+        "text": "If you did this forever, if you had a sequence that went on to infinity the average waiting time then is",
+        "start": 345.84,
+        "duration": 7.38
+    },
+    {
+        "text": "I'll show what that is. It's called expectation or expected waiting time.",
+        "start": 353.22,
+        "duration": 3.6
+    },
+    {
+        "text": "The expected waiting time for Head-Tails is equaled to 4",
+        "start": 356.82,
+        "duration": 4.9
+    },
+    {
+        "text": "Which kind of make sense when it's a quarter probability. That does make sence.",
+        "start": 361.72,
+        "duration": 4.84
+    },
+    {
+        "text": "And then the expected waiting time for Heads-Heads is longer, and it's 6.",
+        "start": 366.56,
+        "duration": 6.4
+    },
+    {
+        "text": "So we were close but just a little off. And if you wanted  the expected waiting time for Tails-Tails, well that's 6 as well.",
+        "start": 373.46,
+        "duration": 8.18
+    },
+    {
+        "text": "That's just the same idea.",
+        "start": 381.64,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady: Audible's ever growing collection of books and other spoken material has now reached",
+        "start": 383.64,
+        "duration": 5.4
+    },
+    {
+        "text": "in the order of 250,000 titles. So no matter what what you're interested in Audible's bound to have",
+        "start": 389.04,
+        "duration": 6.9
+    },
+    {
+        "text": "multiple options for you. Now I spend a lot of time driving, as you can see here, often in the UK's",
+        "start": 395.94,
+        "duration": 5.42
+    },
+    {
+        "text": "delightful traffic and there are few better ways to pass the time than listening to audiobooks.",
+        "start": 401.36,
+        "duration": 4.84
+    },
+    {
+        "text": "You can have something entertaining, something educational, or maybe a bit of both",
+        "start": 406.2,
+        "duration": 4.16
+    },
+    {
+        "text": "The choice is yours.",
+        "start": 410.36,
+        "duration": 1.5
+    },
+    {
+        "text": "I particularly enjoy books about mountaineering. These titles here about Mount Everest are very good.",
+        "start": 411.86,
+        "duration": 6.04
+    },
+    {
+        "text": "I'll put their details in the description, along with this one about K2 which is one of my favourites as well.",
+        "start": 417.9,
+        "duration": 5.5
+    },
+    {
+        "text": "And that's just a fraction the the mountaineering books on Audible. I told you they've got something for everyone.",
+        "start": 423.4,
+        "duration": 5.62
+    },
+    {
+        "text": "If you'd like to give them a try go to audible.com/numberphile and you can sign on",
+        "start": 429.02,
+        "duration": 5.2
+    },
+    {
+        "text": "for their free 30 day trial. That trial includes your first book and, as I said,  there are plenty to choose from.",
+        "start": 434.22,
+        "duration": 6.72
+    },
+    {
+        "text": "that address again audible.com/numberphile so they'll know you came from our channel, which is handy for us.",
+        "start": 440.94,
+        "duration": 6.0
+    },
+    {
+        "text": "and then the free trial for 30 days. Our thanks to Audible for supporting this episode of Numberphile.",
+        "start": 446.94,
+        "duration": 5.82
+    },
+    {
+        "text": "Maths works, maths just works, it's wonderful that way how maths just works out",
+        "start": 452.76,
+        "duration": 4.98
+    },
+    {
+        "text": "Brady: Every time.",
+        "start": 457.74,
+        "duration": 1.9
+    },
+    {
+        "text": "Every time just how you want it to work out. Especially with the power of editing.",
+        "start": 459.64,
+        "duration": 4.54
+    },
+    {
+        "text": "Brady: What happened?",
+        "start": 464.18,
+        "duration": 1.84
+    },
+    {
+        "text": "What happened, we did out first take and we got the opposite result from what we wanted.",
+        "start": 466.02,
+        "duration": 7.16
+    },
+    {
+        "text": "Brady: It's done you",
+        "start": 473.18,
+        "duration": 2.0
+    },
+    {
+        "text": "48 over 11, which is the opposite of what I said.",
+        "start": 475.28,
+        "duration": 7.36
+    },
+    {
+        "text": "And we have to film the whole thing again, right?",
+        "start": 482.64,
+        "duration": 2.48
+    }
+]

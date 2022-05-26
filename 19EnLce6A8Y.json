@@ -1,0 +1,942 @@
+[
+    {
+        "text": "[♪ INTRO]",
+        "start": 0.0,
+        "duration": 10.68
+    },
+    {
+        "text": "Nobody wants to get hacked.",
+        "start": 10.68,
+        "duration": 1.88
+    },
+    {
+        "text": "Victims can have their identities stolen,\ntheir private photos leaked, or their computers",
+        "start": 12.56,
+        "duration": 3.92
+    },
+    {
+        "text": "infected with malicious software, AKA malware.",
+        "start": 16.49,
+        "duration": 2.83
+    },
+    {
+        "text": "Hackers can even block or quietly replace\nwebsites, software, and files.",
+        "start": 19.32,
+        "duration": 4.14
+    },
+    {
+        "text": "Whatever Hollywood thinks, though, hacking\ndoesn’t magically happen when you type really fast.",
+        "start": 23.46,
+        "duration": 3.5
+    },
+    {
+        "text": "There has to be some security vulnerability,",
+        "start": 26.96,
+        "duration": 2.68
+    },
+    {
+        "text": "some hole that lets the hackers do\nsomething they shouldn’t be able to do.",
+        "start": 29.64,
+        "duration": 3.66
+    },
+    {
+        "text": "The most vulnerable component is usually the\none sitting between the chair and the keyboard.",
+        "start": 33.3,
+        "duration": 4.3
+    },
+    {
+        "text": "But often there are hidden flaws\nin the technology itself.",
+        "start": 37.6,
+        "duration": 2.62
+    },
+    {
+        "text": "In 2017 alone, companies and\nresearchers reported nearly",
+        "start": 40.22,
+        "duration": 3.3
+    },
+    {
+        "text": "15,000 security vulnerabilities in tech products.",
+        "start": 43.52,
+        "duration": 3.04
+    },
+    {
+        "text": "We’ve talked about a few of the more\nwell-known security flaws before,",
+        "start": 46.56,
+        "duration": 2.76
+    },
+    {
+        "text": "and most of the less famous ones\nare pretty minor.",
+        "start": 49.32,
+        "duration": 1.98
+    },
+    {
+        "text": "But sometimes even devastating vulnerabilities\ndon’t get much press.",
+        "start": 51.3,
+        "duration": 3.52
+    },
+    {
+        "text": "So here are five more-obscure flaws from the",
+        "start": 54.82,
+        "duration": 2.32
+    },
+    {
+        "text": "past few years that gave security pros cold sweats.",
+        "start": 57.14,
+        "duration": 2.84
+    },
+    {
+        "text": "Your phone buzzes.",
+        "start": 59.98,
+        "duration": 1.2
+    },
+    {
+        "text": "The lock screen says there’s a video message\nfrom an unknown number.",
+        "start": 61.18,
+        "duration": 3.12
+    },
+    {
+        "text": "It’s probably just unsolicited pictures of\ngenitals; you hit “delete” and forget about it.",
+        "start": 64.3,
+        "duration": 4.58
+    },
+    {
+        "text": "Unbeknownst to you, that message,\nwhich you didn’t even open,",
+        "start": 68.88,
+        "duration": 3.72
+    },
+    {
+        "text": "has turned your phone\ninto a surveillance device.",
+        "start": 72.6,
+        "duration": 2.52
+    },
+    {
+        "text": "Some hacker just gained the ability to monitor\nyour camera and listen to every word you say.",
+        "start": 75.12,
+        "duration": 5.46
+    },
+    {
+        "text": "This scenario was totally possible on nearly\na billion Android devices in April 2015,",
+        "start": 80.58,
+        "duration": 5.56
+    },
+    {
+        "text": "when a security researcher discovered the flaw\nthat became known as Stagefright.",
+        "start": 86.14,
+        "duration": 3.94
+    },
+    {
+        "text": "Stagefright was an especially\nalarming type of vulnerability:",
+        "start": 90.08,
+        "duration": 2.96
+    },
+    {
+        "text": "remote code execution, or RCE.",
+        "start": 93.04,
+        "duration": 2.46
+    },
+    {
+        "text": "RCE flaws let attackers run any program they\nplease without even getting you to click on",
+        "start": 95.5,
+        "duration": 4.84
+    },
+    {
+        "text": "that CHEAP_VIAGRA.EXE email attachment.",
+        "start": 100.35,
+        "duration": 2.61
+    },
+    {
+        "text": "Stagefright was able to get your phone to\nrun programs with a common technique",
+        "start": 102.96,
+        "duration": 3.4
+    },
+    {
+        "text": "called buffer overflow, which entails stuffing\nmore data into a program’s memory",
+        "start": 106.36,
+        "duration": 4.5
+    },
+    {
+        "text": "than the program made room for.",
+        "start": 110.86,
+        "duration": 1.46
+    },
+    {
+        "text": "In Stagefright’s case, the buffer overflow\nwas caused by bugs in the Android component",
+        "start": 112.32,
+        "duration": 4.26
+    },
+    {
+        "text": "that loads a type of video file called MPEG.",
+        "start": 116.59,
+        "duration": 2.41
+    },
+    {
+        "text": "Each chunk of an MPEG file is preceded by a\nnumber specifying how many bytes are coming up.",
+        "start": 119.0,
+        "duration": 4.6
+    },
+    {
+        "text": "Android would reserve a buffer, or memory\nblock, as big as the chunk said it needed.",
+        "start": 123.6,
+        "duration": 4.22
+    },
+    {
+        "text": "If not enough memory was available,\nyou’d get an error...",
+        "start": 127.82,
+        "duration": 2.94
+    },
+    {
+        "text": "unless, that is, the request was really large.",
+        "start": 130.76,
+        "duration": 3.14
+    },
+    {
+        "text": "For a specific range around 4.3 billion, Android\nwould instead reserve a tiny memory buffer.",
+        "start": 133.9,
+        "duration": 5.86
+    },
+    {
+        "text": "The reason has to do with how computers represent\nnumbers.",
+        "start": 139.76,
+        "duration": 2.88
+    },
+    {
+        "text": "At the time, most Android devices stored each\nnumber in a format that used 32 ones and zeros,",
+        "start": 142.64,
+        "duration": 5.46
+    },
+    {
+        "text": "giving a range from 0 to about 4.3 billion.",
+        "start": 148.1,
+        "duration": 2.74
+    },
+    {
+        "text": "Here’s the catch: if you try to add 10 to\nthe largest number a computer can handle,",
+        "start": 150.84,
+        "duration": 4.26
+    },
+    {
+        "text": "it just wraps around to 0 and gives back 9.",
+        "start": 155.1,
+        "duration": 2.56
+    },
+    {
+        "text": "It’s like when an old car\nodometer runs out of digits",
+        "start": 157.67,
+        "duration": 2.79
+    },
+    {
+        "text": "and starts insisting you’ve driven 0 miles.",
+        "start": 160.46,
+        "duration": 2.18
+    },
+    {
+        "text": "With Stagefright, hackers could\ntrigger these wraparounds and trick",
+        "start": 162.64,
+        "duration": 3.16
+    },
+    {
+        "text": "Android into giving them\na small memory block.",
+        "start": 165.8,
+        "duration": 2.24
+    },
+    {
+        "text": "All they had to do was craft a video file\nthat claimed a huge upcoming chunk size,",
+        "start": 168.04,
+        "duration": 4.3
+    },
+    {
+        "text": "followed by a big chunk of malware.",
+        "start": 172.34,
+        "duration": 1.7
+    },
+    {
+        "text": "Your phone would reserve an undersized buffer,\nfill it up, and then just keep going,",
+        "start": 174.04,
+        "duration": 4.38
+    },
+    {
+        "text": "copying the malware over whatever happened\nto be stored in the next block of memory.",
+        "start": 178.42,
+        "duration": 3.42
+    },
+    {
+        "text": "No malicious Stagefright attacks\nhave ever been confirmed,",
+        "start": 181.84,
+        "duration": 2.8
+    },
+    {
+        "text": "but there were a few factors\nthat made it so scary.",
+        "start": 184.64,
+        "duration": 2.42
+    },
+    {
+        "text": "First, there was the attack method.",
+        "start": 187.06,
+        "duration": 1.66
+    },
+    {
+        "text": "Android had a feature that would automatically\npreload video messages.",
+        "start": 188.72,
+        "duration": 3.28
+    },
+    {
+        "text": "So your device could be compromised just via\nyour phone number with no action on your part.",
+        "start": 192.0,
+        "duration": 4.3
+    },
+    {
+        "text": "Second, Android’s media player has a lot\nof control over your phone.",
+        "start": 196.3,
+        "duration": 3.5
+    },
+    {
+        "text": "On some versions, it can even install new\napps or siphon off emails and contacts.",
+        "start": 199.8,
+        "duration": 4.36
+    },
+    {
+        "text": "This means every form of security is shattered:",
+        "start": 204.17,
+        "duration": 2.75
+    },
+    {
+        "text": "You lose confidentiality of the data from\nyour camera, Bluetooth connections, and so on.",
+        "start": 206.92,
+        "duration": 4.38
+    },
+    {
+        "text": "You lose integrity of data the phone can access,\nsince it can be corrupted by malware.",
+        "start": 211.3,
+        "duration": 4.32
+    },
+    {
+        "text": "And you lose availability of your phone if\nhackers lock you out.",
+        "start": 215.62,
+        "duration": 3.14
+    },
+    {
+        "text": "Google did release patches.",
+        "start": 218.76,
+        "duration": 1.66
+    },
+    {
+        "text": "But this highlights a third problem:",
+        "start": 220.42,
+        "duration": 1.82
+    },
+    {
+        "text": "Android manufacturers don’t always\ndistribute updates right away.",
+        "start": 222.24,
+        "duration": 3.3
+    },
+    {
+        "text": "So tens of millions of devices might never\nget the fix.",
+        "start": 225.54,
+        "duration": 2.8
+    },
+    {
+        "text": "Another buffer overflow flaw was behind one\nof last year’s biggest cybersecurity stories:",
+        "start": 228.35,
+        "duration": 4.79
+    },
+    {
+        "text": "the WannaCry ransomware that\ncaused billions of dollars in damage",
+        "start": 233.14,
+        "duration": 3.82
+    },
+    {
+        "text": "by encrypting people’s hard drives and\nholding them ransom for Bitcoins.",
+        "start": 236.96,
+        "duration": 3.4
+    },
+    {
+        "text": "The vulnerability itself was called EternalBlue,\nand like Stagefright,",
+        "start": 240.36,
+        "duration": 3.44
+    },
+    {
+        "text": "it was a remote code execution flaw,\nbut a much less straightforward one.",
+        "start": 243.8,
+        "duration": 3.8
+    },
+    {
+        "text": "In fact, it took the US National Security Agency to",
+        "start": 247.6,
+        "duration": 3.2
+    },
+    {
+        "text": "spot the three interacting bugs that enabled it.",
+        "start": 250.8,
+        "duration": 1.98
+    },
+    {
+        "text": "By default, older versions of Windows would accept",
+        "start": 252.78,
+        "duration": 2.34
+    },
+    {
+        "text": "connections from other computers to\ncommunicate about sharing files over the network.",
+        "start": 255.12,
+        "duration": 3.3
+    },
+    {
+        "text": "Hackers could trick Windows\ninto reserving a small memory buffer",
+        "start": 258.42,
+        "duration": 3.02
+    },
+    {
+        "text": "next door to the settings for\none of these open connections.",
+        "start": 261.44,
+        "duration": 2.38
+    },
+    {
+        "text": "Then they’d send a big chunk of data for\nWindows to store in that buffer,",
+        "start": 263.82,
+        "duration": 3.1
+    },
+    {
+        "text": "so big that it overwrote the settings.",
+        "start": 266.92,
+        "duration": 1.86
+    },
+    {
+        "text": "By overwriting settings strategically,",
+        "start": 268.78,
+        "duration": 2.0
+    },
+    {
+        "text": "the hackers could turn what\nused to be a file-sharing connection",
+        "start": 270.78,
+        "duration": 3.0
+    },
+    {
+        "text": "into a conduit through which they could pipe\nmalware anywhere into your computer’s memory.",
+        "start": 273.78,
+        "duration": 4.08
+    },
+    {
+        "text": "Boom! Remote code execution.",
+        "start": 277.86,
+        "duration": 1.96
+    },
+    {
+        "text": "EternalBlue was especially dangerous in combination\nwith other exploits that allowed privilege escalation,",
+        "start": 279.82,
+        "duration": 4.56
+    },
+    {
+        "text": "seizing full administrative control\nof the computer.",
+        "start": 284.38,
+        "duration": 2.56
+    },
+    {
+        "text": "Once that happened, the attackers\ncould corrupt your files or make",
+        "start": 286.94,
+        "duration": 2.66
+    },
+    {
+        "text": "them unavailable, say,\nby encrypting them all.",
+        "start": 289.6,
+        "duration": 2.58
+    },
+    {
+        "text": "And of course, their programs could also spy\non everything the computer knows, so…",
+        "start": 292.18,
+        "duration": 3.94
+    },
+    {
+        "text": "so much for confidentiality, too.",
+        "start": 296.12,
+        "duration": 1.88
+    },
+    {
+        "text": "And all without any involvement on your part.",
+        "start": 298.0,
+        "duration": 2.33
+    },
+    {
+        "text": "EternalBlue was sneaky, powerful,\nand widely used for wreaking havoc…",
+        "start": 300.33,
+        "duration": 3.87
+    },
+    {
+        "text": "in other words, the very model\nof a modern major security bug.",
+        "start": 304.2,
+        "duration": 3.18
+    },
+    {
+        "text": "What would you do if you discovered\nyou could issue commands to",
+        "start": 307.389,
+        "duration": 2.531
+    },
+    {
+        "text": "half the web servers on the internet?",
+        "start": 309.92,
+        "duration": 1.7
+    },
+    {
+        "text": "That’s the position one software developer found\nhimself in on a September morning in 2014.",
+        "start": 311.62,
+        "duration": 5.0
+    },
+    {
+        "text": "He’d discovered a flaw in a program called Bash.",
+        "start": 316.62,
+        "duration": 2.76
+    },
+    {
+        "text": "Bash is a shell, a text-based way to run commands\non Linux, Mac, and similar operating systems.",
+        "start": 319.38,
+        "duration": 5.48
+    },
+    {
+        "text": "It’s installed on most servers.",
+        "start": 324.87,
+        "duration": 1.59
+    },
+    {
+        "text": "But the shell also had an obscure feature:\nwhen another program ran Bash, it could effectively",
+        "start": 326.46,
+        "duration": 5.15
+    },
+    {
+        "text": "leave a little note with a miniature\nprogram in it, something like,",
+        "start": 331.61,
+        "duration": 3.15
+    },
+    {
+        "text": "“Hey, if you’re supposed to run a routine called\nDRAW_A_COW, here’s what it looks like.”",
+        "start": 334.76,
+        "duration": 3.46
+    },
+    {
+        "text": "The problem was that this note was itself code,",
+        "start": 338.22,
+        "duration": 2.88
+    },
+    {
+        "text": "a small program saying, “Define the\nDRAW_A_COW routine as follows.”",
+        "start": 341.1,
+        "duration": 3.38
+    },
+    {
+        "text": "But Bash didn’t know where to stop.",
+        "start": 344.48,
+        "duration": 1.72
+    },
+    {
+        "text": "If the note said\n“Define DRAW_A_COW as ‘print “moo”’.",
+        "start": 346.2,
+        "duration": 3.72
+    },
+    {
+        "text": "Also, delete every file in your directory,”\nBash would say “yes, sir!” to both commands.",
+        "start": 349.92,
+        "duration": 4.64
+    },
+    {
+        "text": "So that gave the developer who discovered it the",
+        "start": 354.56,
+        "duration": 2.46
+    },
+    {
+        "text": "power to execute commands\non roughly half the Internet.",
+        "start": 357.02,
+        "duration": 3.12
+    },
+    {
+        "text": "Fortunately, he was one of the good guys.",
+        "start": 360.14,
+        "duration": 2.22
+    },
+    {
+        "text": "He immediately reported the bug, later\ndubbed Shellshock, to software vendors,",
+        "start": 362.37,
+        "duration": 3.87
+    },
+    {
+        "text": "giving them a chance to fix it before\nthe news was leaked to the hackers.",
+        "start": 366.24,
+        "duration": 3.2
+    },
+    {
+        "text": "Shellshock was terrifying in a different way\nthan Stagefright and Eternalblue:",
+        "start": 369.44,
+        "duration": 3.62
+    },
+    {
+        "text": "its main victim was Internet infrastructure.",
+        "start": 373.06,
+        "duration": 2.36
+    },
+    {
+        "text": "Servers that weren’t patched were at risk\nof leaking usernames and passwords, having",
+        "start": 375.42,
+        "duration": 3.58
+    },
+    {
+        "text": "webpages defaced, being enslaved into cybercrime,",
+        "start": 379.009,
+        "duration": 2.851
+    },
+    {
+        "text": "or having their organizations’\nprivate information released publicly.",
+        "start": 381.86,
+        "duration": 2.82
+    },
+    {
+        "text": "In another sense, though, all three of these\nvulnerabilities were very similar:",
+        "start": 384.68,
+        "duration": 3.58
+    },
+    {
+        "text": "the root cause was programmer error.",
+        "start": 388.26,
+        "duration": 2.44
+    },
+    {
+        "text": "Specifically, in each case the software received\nsome input that it didn’t check properly,",
+        "start": 390.7,
+        "duration": 4.6
+    },
+    {
+        "text": "a video chunk size, or a command for transferring\nfile information, or code left by another program.",
+        "start": 395.3,
+        "duration": 5.28
+    },
+    {
+        "text": "Sometimes, though, the problems\nrun even deeper than programming.",
+        "start": 400.58,
+        "duration": 3.44
+    },
+    {
+        "text": "The Internet is orchestrated by dozens of\nprotocols: a set of standards that dictate",
+        "start": 404.02,
+        "duration": 4.52
+    },
+    {
+        "text": "how each type of back-and-forth between computers\nis supposed to look.",
+        "start": 408.55,
+        "duration": 3.41
+    },
+    {
+        "text": "If there’s a design flaw in a protocol,\nprogrammers can implement it exactly the way",
+        "start": 411.96,
+        "duration": 4.5
+    },
+    {
+        "text": "they’re supposed to and still leave users\nvulnerable.",
+        "start": 416.46,
+        "duration": 2.76
+    },
+    {
+        "text": "That’s the type of flaw a security researcher\ndiscovered in 2008.",
+        "start": 419.22,
+        "duration": 3.44
+    },
+    {
+        "text": "Specifically, he found a problem with the\nDomain Name System, or DNS.",
+        "start": 422.66,
+        "duration": 3.98
+    },
+    {
+        "text": "DNS is the phone book of the Internet, the\nservice your computer queries when it needs",
+        "start": 426.64,
+        "duration": 4.16
+    },
+    {
+        "text": "to find out what numerical Internet address\ncorresponds to scishow.com.",
+        "start": 430.81,
+        "duration": 4.01
+    },
+    {
+        "text": "So imagine the fallout if you went to Gmail.com\nand got a webpage that looked exactly like",
+        "start": 434.82,
+        "duration": 5.26
+    },
+    {
+        "text": "Google’s sign-in, but was actually running\non a hacker’s computer.",
+        "start": 440.08,
+        "duration": 3.48
+    },
+    {
+        "text": "This bug would let an attacker make that happen\nfor everyone sharing an Internet service provider,",
+        "start": 443.56,
+        "duration": 4.54
+    },
+    {
+        "text": "the company that you pay to get internet access.",
+        "start": 448.1,
+        "duration": 2.1
+    },
+    {
+        "text": "It’s a nightmare for confidentiality: every\nbit of supposedly secure data could be intercepted.",
+        "start": 450.2,
+        "duration": 5.24
+    },
+    {
+        "text": "The vulnerability stemmed from the way DNS\nservers pass queries to each other.",
+        "start": 455.44,
+        "duration": 3.92
+    },
+    {
+        "text": "If your ISP isn’t sure where scishow.com\nlives, it asks the server in charge of all",
+        "start": 459.37,
+        "duration": 4.85
+    },
+    {
+        "text": ".com addresses and waits for the first valid\nresponse.",
+        "start": 464.22,
+        "duration": 2.88
+    },
+    {
+        "text": "If an attacker can guess that someone will\nsoon be asking for scishow.com, they can flood",
+        "start": 467.1,
+        "duration": 4.56
+    },
+    {
+        "text": "the ISP with fake responses claiming that\nthe site lives on the hacker’s computer.",
+        "start": 471.66,
+        "duration": 4.349
+    },
+    {
+        "text": "Normally, the ISP would ignore any responses\nnot tagged with the query ID as the outstanding",
+        "start": 476.009,
+        "duration": 4.351
+    },
+    {
+        "text": "question, which the attacker wouldn’t know.",
+        "start": 480.36,
+        "duration": 2.38
+    },
+    {
+        "text": "But a flaw in the protocol made it too easy\nto predict what that query ID would be.",
+        "start": 482.74,
+        "duration": 4.44
+    },
+    {
+        "text": "Worse yet, the attacker could\ntell the ISP to remember",
+        "start": 487.18,
+        "duration": 3.12
+    },
+    {
+        "text": "and recirculate the forged entry for days.",
+        "start": 490.3,
+        "duration": 2.42
+    },
+    {
+        "text": "Implementations have been updated\nto make query IDs less predictable,",
+        "start": 492.72,
+        "duration": 3.74
+    },
+    {
+        "text": "but even now, an attacker\ncould still get lucky.",
+        "start": 496.46,
+        "duration": 2.44
+    },
+    {
+        "text": "The only real fix is an update to DNS\nwith security baked in, which exists,",
+        "start": 498.9,
+        "duration": 4.7
+    },
+    {
+        "text": "but even ten years later,\nit’s not fully rolled out.",
+        "start": 503.6,
+        "duration": 2.8
+    },
+    {
+        "text": "The most mind-bending attacks go deeper still,\ndown to the physical hardware.",
+        "start": 506.4,
+        "duration": 4.38
+    },
+    {
+        "text": "It’s easy to forget that beneath the\nabstractions of numbers and bits,",
+        "start": 510.78,
+        "duration": 3.2
+    },
+    {
+        "text": "all the magic of computers comes\ndown to moving electrons around.",
+        "start": 513.98,
+        "duration": 3.66
+    },
+    {
+        "text": "The cybersecurity world got a nasty reminder\nin 2014, when researchers at Intel and Carnegie",
+        "start": 517.64,
+        "duration": 4.92
+    },
+    {
+        "text": "Mellon University managed to run a program\nthat only had access to its own memory,",
+        "start": 522.56,
+        "duration": 4.86
+    },
+    {
+        "text": "but was still able to modify\nother programs’ data.",
+        "start": 527.42,
+        "duration": 2.94
+    },
+    {
+        "text": "Google researchers followed up the next year\nwith a version that could target the operating",
+        "start": 530.36,
+        "duration": 3.84
+    },
+    {
+        "text": "system’s records of which programs should\nhave access to what.",
+        "start": 534.2,
+        "duration": 2.98
+    },
+    {
+        "text": "Effectively, their program could grant itself\nfull access to everything in memory.",
+        "start": 537.18,
+        "duration": 4.64
+    },
+    {
+        "text": "Others soon pulled off the\nattack from within a webpage.",
+        "start": 541.82,
+        "duration": 2.76
+    },
+    {
+        "text": "So an attacker wouldn’t even\nneed to run a special program.",
+        "start": 544.58,
+        "duration": 2.56
+    },
+    {
+        "text": "The trick was dubbed row hammer after its\nreliance on the physical layout of memory.",
+        "start": 547.14,
+        "duration": 4.5
+    },
+    {
+        "text": "Typically, memory chips are laid out in “rows,”",
+        "start": 551.64,
+        "duration": 2.46
+    },
+    {
+        "text": "which have been packed in\never-closer as chips have shrunk.",
+        "start": 554.1,
+        "duration": 2.68
+    },
+    {
+        "text": "A row hammer attack activates a row of memory\nentries over and over again very quickly.",
+        "start": 556.78,
+        "duration": 4.74
+    },
+    {
+        "text": "These entries are the ones the attacking program\nis supposed to have access to,",
+        "start": 561.52,
+        "duration": 3.54
+    },
+    {
+        "text": "but the entries in adjacent rows may not be.",
+        "start": 565.06,
+        "duration": 2.18
+    },
+    {
+        "text": "After enough of this “hammering,” electrical\ncharges start to bleed through to other rows.",
+        "start": 567.24,
+        "duration": 5.12
+    },
+    {
+        "text": "And if the hackers are extremely careful,",
+        "start": 572.36,
+        "duration": 2.02
+    },
+    {
+        "text": "they can target those charges to\nstrategically flip 0s to 1s and vice versa.",
+        "start": 574.38,
+        "duration": 4.66
+    },
+    {
+        "text": "Of course, once you can\nmodify memory, the game’s up:",
+        "start": 579.04,
+        "duration": 3.02
+    },
+    {
+        "text": "you can insert malicious code,\ngrab data, or anything else.",
+        "start": 582.06,
+        "duration": 3.0
+    },
+    {
+        "text": "Fortunately, it’s been pretty difficult\nto engineer practical attacks",
+        "start": 585.06,
+        "duration": 3.22
+    },
+    {
+        "text": "based on row hammer, since it relies on\ndetailed knowledge of the memory layout.",
+        "start": 588.28,
+        "duration": 3.46
+    },
+    {
+        "text": "Memory chip manufacturers\nhave also rolled out mitigations",
+        "start": 591.74,
+        "duration": 2.54
+    },
+    {
+        "text": "that refresh rows that look\nlike they’re getting targeted.",
+        "start": 594.28,
+        "duration": 2.7
+    },
+    {
+        "text": "But the potential for exploits is still widespread.",
+        "start": 596.98,
+        "duration": 2.36
+    },
+    {
+        "text": "Vulnerabilities like these, whether at the\nlevel of programs, protocols, or hardware,",
+        "start": 599.34,
+        "duration": 4.38
+    },
+    {
+        "text": "all drive home that bugs will inevitably slip\nthrough.",
+        "start": 603.72,
+        "duration": 2.78
+    },
+    {
+        "text": "The good news is, lots of hackers are looking for\nthose same flaws not to use them, but to fix them.",
+        "start": 606.5,
+        "duration": 4.68
+    },
+    {
+        "text": "Most of the time bugs get patched pretty fast,\nand the people and websites who get attacked",
+        "start": 611.18,
+        "duration": 3.92
+    },
+    {
+        "text": "are usually the ones who failed to update.",
+        "start": 615.11,
+        "duration": 1.93
+    },
+    {
+        "text": "So apply those updates quickly,\nand use services that do the same!",
+        "start": 617.04,
+        "duration": 3.12
+    },
+    {
+        "text": "That way, instead of suffering from these attacks,",
+        "start": 620.16,
+        "duration": 2.32
+    },
+    {
+        "text": "you can sit back and marvel at the\nsubtle genius it takes to exploit them.",
+        "start": 622.48,
+        "duration": 3.36
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 625.85,
+        "duration": 1.9
+    },
+    {
+        "text": "If you’re interested in more of the worst\ncomputer attacks of all time,",
+        "start": 627.75,
+        "duration": 2.95
+    },
+    {
+        "text": "you might want to check out our episode\non 5 of the worst viruses ever.",
+        "start": 630.7,
+        "duration": 3.44
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 634.14,
+        "duration": 8.74
+    }
+]

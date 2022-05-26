@@ -1,0 +1,502 @@
+[
+    {
+        "text": "Today, we are going to do some math -- unsurprising --",
+        "start": 0.0,
+        "duration": 2.46
+    },
+    {
+        "text": "but we're going to take some things that have been in a Numberphile before and we're going to do a little bit more math with them.",
+        "start": 2.46,
+        "duration": 4.2
+    },
+    {
+        "text": "So, perfect numbers -- a bit of a staple of",
+        "start": 6.66,
+        "duration": 2.699
+    },
+    {
+        "text": "recreational mathematics --",
+        "start": 10.12,
+        "duration": 0.87
+    },
+    {
+        "text": "everyone loves perfect numbers -- the smallest perfect number is six. [The] reason we call it a perfect number is because",
+        "start": 10.99,
+        "duration": 5.13
+    },
+    {
+        "text": "it equals the sum of its proper factors.",
+        "start": 16.12,
+        "duration": 2.7
+    },
+    {
+        "text": "So 6 is divisible by 1, is divisible by 2, it's divisible by 3, also divisible by 6?",
+        "start": 18.9,
+        "duration": 6.24
+    },
+    {
+        "text": "So I could put six on this list,",
+        "start": 25.51,
+        "duration": 2.389
+    },
+    {
+        "text": "but proper factors mean numbers that go into a number",
+        "start": 28.42,
+        "duration": 3.589
+    },
+    {
+        "text": "but aren't the number itself -- in fact, we can remove six from the list and six equals one plus",
+        "start": 32.02,
+        "duration": 5.38
+    },
+    {
+        "text": "two plus three, [this] equals the sum of its proper factors. The next number which this works for is 28,",
+        "start": 37.5,
+        "duration": 6.12
+    },
+    {
+        "text": "because that equals one plus two plus four plus seven plus",
+        "start": 44.28,
+        "duration": 4.32
+    },
+    {
+        "text": "14, which are all of its -- all those proper factors summed together give you that number. You could -- some people",
+        "start": 49.0,
+        "duration": 6.94
+    },
+    {
+        "text": "like to say,",
+        "start": 56.32,
+        "duration": 1.71
+    },
+    {
+        "text": "perfect numbers are equal to -- like all of their factors equal twice [the number].",
+        "start": 58.03,
+        "duration": 5.36
+    },
+    {
+        "text": "So if I did -- if I was super pedant, and instead of using proper factors I used all the factors, that would give me 56,",
+        "start": 63.729,
+        "duration": 7.37
+    },
+    {
+        "text": "which is twice because we are just adding the number on the end right, so yeah, same thing.",
+        "start": 71.1,
+        "duration": 3.75
+    },
+    {
+        "text": "I just -- I ignore that, and just stick with the proper factors. The next one Brady is?",
+        "start": 74.85,
+        "duration": 4.529
+    },
+    {
+        "text": "(Brady:) 496? (Matt:) 496! You've been in this game for too long alright. So you've memorized 496 and obviously",
+        "start": 80.47,
+        "duration": 5.299
+    },
+    {
+        "text": "I won't quiz you because obviously you know that it is one plus two plus four plus eight plus",
+        "start": 85.77,
+        "duration": 4.77
+    },
+    {
+        "text": "16 plus",
+        "start": 91.27,
+        "duration": 1.32
+    },
+    {
+        "text": "31 plus 62 plus",
+        "start": 92.59,
+        "duration": 2.27
+    },
+    {
+        "text": "124 plus",
+        "start": 95.28,
+        "duration": 1.34
+    },
+    {
+        "text": "248, there we go, all the proper factors of 496, if you add them all together you get",
+        "start": 96.62,
+        "duration": 6.06
+    },
+    {
+        "text": "496 next one is",
+        "start": 102.76,
+        "duration": 2.54
+    },
+    {
+        "text": "8128 right and so",
+        "start": 106.3,
+        "duration": 2.48
+    },
+    {
+        "text": "that -- and I won't list them all -- happens you get there, you add all those proper factors and equals that number as, it is --",
+        "start": 109.08,
+        "duration": 4.62
+    },
+    {
+        "text": "carrying on -- and these were all the ones known",
+        "start": 113.7,
+        "duration": 2.0
+    },
+    {
+        "text": "back in the day, and we since found more of these perfect numbers, and they're wonderful.",
+        "start": 116.11,
+        "duration": 4.069
+    },
+    {
+        "text": "But the reason we found them is because of our friends, Mersenne primes, which of course [are] another staple of Numberphile",
+        "start": 120.399,
+        "duration": 6.319
+    },
+    {
+        "text": "So let's switch colors. So, Mersenne primes are 2 to the n minus 1,",
+        "start": 126.82,
+        "duration": 6.019
+    },
+    {
+        "text": "where that equals a prime number.",
+        "start": 133.75,
+        "duration": 2.0
+    },
+    {
+        "text": "So -- so that equals some prime because not all",
+        "start": 136.45,
+        "duration": 3.17
+    },
+    {
+        "text": "2 to the n's minus ones give you a prime, in fact, let's run through a few very quickly.",
+        "start": 140.71,
+        "duration": 5.75
+    },
+    {
+        "text": "So if I come over here, these are going to be my values of n. These are going to be my",
+        "start": 146.59,
+        "duration": 4.79
+    },
+    {
+        "text": "2 to the n's minus ones,",
+        "start": 151.6,
+        "duration": 2.239
+    },
+    {
+        "text": "As if I start when n is 1 so that's going to be 2 minus 1, that equals 1, is that prime?",
+        "start": 154.42,
+        "duration": 6.56
+    },
+    {
+        "text": "(Brady:) No.",
+        "start": 160.98,
+        "duration": 1.1
+    },
+    {
+        "text": "Well, there's a whole argument to be had there...",
+        "start": 162.08,
+        "duration": 2.1
+    },
+    {
+        "text": "Sometimes it is, sometimes it isn't -- generally speaking, no, that doesn't count, ok, let's do n is 2, ok.",
+        "start": 166.18,
+        "duration": 6.32
+    },
+    {
+        "text": "So that's 2 squared, that's 4, minus 1 is 3, that is prime, awesome.",
+        "start": 172.74,
+        "duration": 4.64
+    },
+    {
+        "text": "Ok next one up, 3, that gives us 7, that is prime, brilliant, ok 4, 4 gives us",
+        "start": 177.39,
+        "duration": 7.229
+    },
+    {
+        "text": "15: not prime. That doesn't work, so as you can see as we go along, some of them work,",
+        "start": 185.23,
+        "duration": 5.209
+    },
+    {
+        "text": "31, brilliant! That gets to stay, some of them don't -- 6, that gives us 63, no good,",
+        "start": 191.05,
+        "duration": 7.009
+    },
+    {
+        "text": "right, and so,",
+        "start": 198.43,
+        "duration": 1.02
+    },
+    {
+        "text": "some, but not all values of n [with] 2 [to the] n minus 1 give us a prime number out the other side, and some people",
+        "start": 199.45,
+        "duration": 6.09
+    },
+    {
+        "text": "like looking for patterns and we call those people",
+        "start": 205.66,
+        "duration": 2.74
+    },
+    {
+        "text": "\"mathematicians\" and so some people are like: \"well, hang on,",
+        "start": 209.08,
+        "duration": 2.449
+    },
+    {
+        "text": "this is only working when n is prime.\"",
+        "start": 211.66,
+        "duration": 2.72
+    },
+    {
+        "text": "Didn't work for one, not prime, two and three work because they are prime, didn't work for four, not prime, prime,",
+        "start": 214.63,
+        "duration": 5.0
+    },
+    {
+        "text": "not prime, prime, and so on, and so in fact, if you try it for eight, it won't work, because that's",
+        "start": 219.88,
+        "duration": 4.9
+    },
+    {
+        "text": "255, not prime, won't work for nine because that's",
+        "start": 224.78,
+        "duration": 5.64
+    },
+    {
+        "text": "511, which looks very prime-y.",
+        "start": 231.02,
+        "duration": 2.86
+    },
+    {
+        "text": "That's got a real prime feel to it, not prime, in fact, when we check in 10 -- people get very --",
+        "start": 234.1,
+        "duration": 6.5
+    },
+    {
+        "text": "I mean, 1023, I mean that looks like it's got a bit of prime going on that. It's not prime.",
+        "start": 240.94,
+        "duration": 5.56
+    },
+    {
+        "text": "Next one, 11, 11 is prime and over here is",
+        "start": 247.18,
+        "duration": 3.38
+    },
+    {
+        "text": "2047, right, and that is not prime, not prime whatsoever",
+        "start": 250.62,
+        "duration": 5.9
+    },
+    {
+        "text": "and I think it was divisible by",
+        "start": 256.62,
+        "duration": 2.0
+    },
+    {
+        "text": "23 or something. And so",
+        "start": 258.76,
+        "duration": 1.56
+    },
+    {
+        "text": "people look at that",
+        "start": 260.32,
+        "duration": 1.01
+    },
+    {
+        "text": "and go: \"well that must be prime\", because they see this pattern and think it must work -- doesn't hold, doesn't work for 11 in fact",
+        "start": 261.33,
+        "duration": 5.15
+    },
+    {
+        "text": "well, the next one it works for is not 12 because that's",
+        "start": 266.54,
+        "duration": 2.14
+    },
+    {
+        "text": "4095, which we know is out of here, the next one is 13, which is",
+        "start": 268.8,
+        "duration": 6.3
+    },
+    {
+        "text": "8191, that is prime, that one works, and so, in fact, that pattern, when people spot these prime values of N,",
+        "start": 275.24,
+        "duration": 8.32
+    },
+    {
+        "text": "giving these numbers prime,",
+        "start": 284.33,
+        "duration": 2.0
+    },
+    {
+        "text": "Only works in one direction as such okay?",
+        "start": 286.94,
+        "duration": 3.619
+    },
+    {
+        "text": "Let me -- let me be very clear with this -- one way we could describe this pattern is, if n is prime,",
+        "start": 290.56,
+        "duration": 6.18
+    },
+    {
+        "text": "then 2 to the n minus 1 is prime as well, but that doesn't work,",
+        "start": 297.04,
+        "duration": 5.54
+    },
+    {
+        "text": "we just proved that. But we haven't disproved the reverse, and the reverse of a statement is different, so for example",
+        "start": 302.59,
+        "duration": 6.209
+    },
+    {
+        "text": "I could say all --",
+        "start": 308.81,
+        "duration": 2.0
+    },
+    {
+        "text": "all girls can wear hats.",
+        "start": 311.18,
+        "duration": 2.0
+    },
+    {
+        "text": "Logical statement, you're a girl, you can wear a hat, right?",
+        "start": 313.759,
+        "duration": 2.39
+    },
+    {
+        "text": "But I can't then say, if you can wear a hat, you must be a girl, right,",
+        "start": 316.15,
+        "duration": 4.5
+    },
+    {
+        "text": "it doesn't go the other way, right, because you know... (scrambling for words)",
+        "start": 320.65,
+        "duration": 3.0
+    },
+    {
+        "text": "Well the ability to wear a hat is necessary,",
+        "start": 324.889,
+        "duration": 2.209
+    },
+    {
+        "text": "but not sufficient to be a girl, anyway, the point is, right, the reverse is a different story,",
+        "start": 327.099,
+        "duration": 3.45
+    },
+    {
+        "text": "and in this case the reverse is true -- if",
+        "start": 330.549,
+        "duration": 2.691
+    },
+    {
+        "text": "2 to the n minus 1 is prime, then n",
+        "start": 333.32,
+        "duration": 3.4
+    },
+    {
+        "text": "must have been prime. So the backwards still [holds], which is why it will still only be the primes, it just won't be all of them.",
+        "start": 336.729,
+        "duration": 5.55
+    },
+    {
+        "text": "So I guess these are our friends the Mersenne primes, these are our friends the perfect numbers, so far all very standard.",
+        "start": 342.32,
+        "duration": 6.199
+    },
+    {
+        "text": "But then suddenly you realize there's a link, if you look over here in our list before, three",
+        "start": 348.52,
+        "duration": 6.51
+    },
+    {
+        "text": "[is a] Mersenne prime, seven",
+        "start": 356.419,
+        "duration": 2.0
+    },
+    {
+        "text": "[is a] Mersenne prime,",
+        "start": 359.15,
+        "duration": 1.62
+    },
+    {
+        "text": "31 [is a]",
+        "start": 360.77,
+        "duration": 1.26
+    },
+    {
+        "text": "Mersenne prime, in fact, we're picking them off in order, look down here",
+        "start": 362.03,
+        "duration": 3.69
+    },
+    {
+        "text": "127 is the next prime and there is a factor of",
+        "start": 365.88,
+        "duration": 3.18
+    },
+    {
+        "text": "8128 in fact,",
+        "start": 369.24,
+        "duration": 1.82
+    },
+    {
+        "text": "8128 equals 127",
+        "start": 371.12,
+        "duration": 6.96
+    },
+    {
+        "text": "times -- what's that going to be -- it's going to be",
+        "start": 378.18,
+        "duration": 3.38
+    },
+    {
+        "text": "64...",
+        "start": 381.66,
+        "duration": 1.94
+    },
+    {
+        "text": "Yes, all even perfect numbers -- [I'm] being very careful here --",
+        "start": 383.78,
+        "duration": 3.92
+    },
+    {
+        "text": "have a Mersenne prime factor. In fact, that's how we find perfect numbers, whenever a new perfect number is announced -- the most recent one was",
+        "start": 387.949,
+        "duration": 7.94
+    },
+    {
+        "text": "January 2013, the reason we found it, is someone has found a new",
+        "start": 396.37,
+        "duration": 4.109
+    },
+    {
+        "text": "Mersenne prime, because the great internet Mersenne prime search is chugging along -- every Mersenne prime has a corresponding perfect number and --",
+        "start": 400.61,
+        "duration": 7.76
+    },
+    {
+        "text": "this is all just the introduction, by the way,",
+        "start": 408.77,
+        "duration": 1.67
+    },
+    {
+        "text": "this is the recommended -- you should have done this reading in advance, to be entirely honest.",
+        "start": 410.44,
+        "duration": 3.57
+    },
+    {
+        "text": "Well, [what] I'm going to show you is what that link is and prove that it always works.",
+        "start": 414.01,
+        "duration": 3.51
+    },
+    {
+        "text": "(Brady:) So now we start --",
+        "start": 417.52,
+        "duration": 1.049
+    },
+    {
+        "text": "(Matt:) Now we start the video, so, are you ready to begin Brady?",
+        "start": 418.57,
+        "duration": 2.429
+    },
+    {
+        "text": "I'm gonna need some brown paper for this video and we will get this party started.",
+        "start": 421.0,
+        "duration": 3.9
+    }
+]

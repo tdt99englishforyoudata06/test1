@@ -1,0 +1,657 @@
+[
+    {
+        "text": "I can see electricity hey everyone",
+        "start": 0.03,
+        "duration": 10.35
+    },
+    {
+        "text": "here's an experiment I wanted to try for",
+        "start": 8.429,
+        "duration": 4.441
+    },
+    {
+        "text": "a while the idea is to put a working",
+        "start": 10.38,
+        "duration": 4.29
+    },
+    {
+        "text": "electric circuit into a scanning",
+        "start": 12.87,
+        "duration": 3.63
+    },
+    {
+        "text": "electron microscope and then use the",
+        "start": 14.67,
+        "duration": 3.359
+    },
+    {
+        "text": "microscope to probe the circuit while",
+        "start": 16.5,
+        "duration": 3.869
+    },
+    {
+        "text": "it's operating so one of the cool things",
+        "start": 18.029,
+        "duration": 3.571
+    },
+    {
+        "text": "is you can do this with an integrated",
+        "start": 20.369,
+        "duration": 3.961
+    },
+    {
+        "text": "circuit that you D capped and there you",
+        "start": 21.6,
+        "duration": 5.429
+    },
+    {
+        "text": "can see the actual traces inside the IC",
+        "start": 24.33,
+        "duration": 4.8
+    },
+    {
+        "text": "change charge state so let me show you",
+        "start": 27.029,
+        "duration": 2.82
+    },
+    {
+        "text": "how I did this",
+        "start": 29.13,
+        "duration": 2.94
+    },
+    {
+        "text": "I've been decapping chips for a little",
+        "start": 29.849,
+        "duration": 4.021
+    },
+    {
+        "text": "while now first did a video a couple",
+        "start": 32.07,
+        "duration": 4.38
+    },
+    {
+        "text": "months ago about it and I use fuming",
+        "start": 33.87,
+        "duration": 4.59
+    },
+    {
+        "text": "nitric acid to dissolve away the package",
+        "start": 36.45,
+        "duration": 4.019
+    },
+    {
+        "text": "after milling a little pocket in the top",
+        "start": 38.46,
+        "duration": 4.32
+    },
+    {
+        "text": "of the chip so for this experiment I",
+        "start": 40.469,
+        "duration": 3.541
+    },
+    {
+        "text": "wanted to use a circuit that was",
+        "start": 42.78,
+        "duration": 3.209
+    },
+    {
+        "text": "self-contained so I went to the",
+        "start": 44.01,
+        "duration": 4.979
+    },
+    {
+        "text": "venerable 555 timer chip and Dee capped",
+        "start": 45.989,
+        "duration": 5.791
+    },
+    {
+        "text": "a few of the C Mo's variants of the 5 5",
+        "start": 48.989,
+        "duration": 5.371
+    },
+    {
+        "text": "5 and then verify that they were still",
+        "start": 51.78,
+        "duration": 5.13
+    },
+    {
+        "text": "working soldered up a little circuit",
+        "start": 54.36,
+        "duration": 5.28
+    },
+    {
+        "text": "onto a socket and just put an LED on it",
+        "start": 56.91,
+        "duration": 5.489
+    },
+    {
+        "text": "and had it flash very slowly so I wanted",
+        "start": 59.64,
+        "duration": 4.5
+    },
+    {
+        "text": "a very long time constants that I could",
+        "start": 62.399,
+        "duration": 3.481
+    },
+    {
+        "text": "be sure I was seeing the state change",
+        "start": 64.14,
+        "duration": 3.69
+    },
+    {
+        "text": "fit if it flashed too quickly it might",
+        "start": 65.88,
+        "duration": 3.809
+    },
+    {
+        "text": "be difficult for me to see the change in",
+        "start": 67.83,
+        "duration": 3.78
+    },
+    {
+        "text": "the scanning electron microscope image I",
+        "start": 69.689,
+        "duration": 4.141
+    },
+    {
+        "text": "took the LED out of the circuit and",
+        "start": 71.61,
+        "duration": 3.45
+    },
+    {
+        "text": "replaced it with just a plain old",
+        "start": 73.83,
+        "duration": 3.359
+    },
+    {
+        "text": "resistor and the reason for this is that",
+        "start": 75.06,
+        "duration": 3.989
+    },
+    {
+        "text": "the scanning electron microscope uses a",
+        "start": 77.189,
+        "duration": 4.381
+    },
+    {
+        "text": "photomultiplier tube to detect the",
+        "start": 79.049,
+        "duration": 5.041
+    },
+    {
+        "text": "electron signal and if there's any light",
+        "start": 81.57,
+        "duration": 4.5
+    },
+    {
+        "text": "inside the electron microscope chamber",
+        "start": 84.09,
+        "duration": 4.68
+    },
+    {
+        "text": "that will very much pollute the signal",
+        "start": 86.07,
+        "duration": 4.799
+    },
+    {
+        "text": "so I had to switch to just a plain old",
+        "start": 88.77,
+        "duration": 4.11
+    },
+    {
+        "text": "resistor and to make sure that the",
+        "start": 90.869,
+        "duration": 4.201
+    },
+    {
+        "text": "circuit is still working I connected a",
+        "start": 92.88,
+        "duration": 4.949
+    },
+    {
+        "text": "current meter in series with the voltage",
+        "start": 95.07,
+        "duration": 5.189
+    },
+    {
+        "text": "supply so about 8 volts the circuit",
+        "start": 97.829,
+        "duration": 5.07
+    },
+    {
+        "text": "oscillates between 10 mil 10 milliamps",
+        "start": 100.259,
+        "duration": 3.991
+    },
+    {
+        "text": "and about 2 milliamps",
+        "start": 102.899,
+        "duration": 3.481
+    },
+    {
+        "text": "I mounted the circuit with some double",
+        "start": 104.25,
+        "duration": 4.079
+    },
+    {
+        "text": "stick tape inside the scanning electron",
+        "start": 106.38,
+        "duration": 4.199
+    },
+    {
+        "text": "microscope and then hooked up its power",
+        "start": 108.329,
+        "duration": 4.531
+    },
+    {
+        "text": "leads to one of my unused sparkplug",
+        "start": 110.579,
+        "duration": 5.341
+    },
+    {
+        "text": "insulators in the in the scope and set",
+        "start": 112.86,
+        "duration": 4.469
+    },
+    {
+        "text": "it up with a power supply on the current",
+        "start": 115.92,
+        "duration": 2.909
+    },
+    {
+        "text": "meter and verified that the circuit was",
+        "start": 117.329,
+        "duration": 4.591
+    },
+    {
+        "text": "still working I should add that I didn't",
+        "start": 118.829,
+        "duration": 5.82
+    },
+    {
+        "text": "do anything besides remove the epoxy",
+        "start": 121.92,
+        "duration": 5.01
+    },
+    {
+        "text": "packaging from the IC so there's",
+        "start": 124.649,
+        "duration": 4.14
+    },
+    {
+        "text": "probably an oxide layer on the top of",
+        "start": 126.93,
+        "duration": 3.779
+    },
+    {
+        "text": "the integrated circuit I'll get to that",
+        "start": 128.789,
+        "duration": 4.931
+    },
+    {
+        "text": "later I turned on the scope as usual",
+        "start": 130.709,
+        "duration": 4.841
+    },
+    {
+        "text": "it's been a while since I've fired it up",
+        "start": 133.72,
+        "duration": 3.48
+    },
+    {
+        "text": "and I had a problem with my high vacuum",
+        "start": 135.55,
+        "duration": 4.05
+    },
+    {
+        "text": "gauge so even though the hive of the",
+        "start": 137.2,
+        "duration": 4.05
+    },
+    {
+        "text": "high vacuum gauge indicated that there",
+        "start": 139.6,
+        "duration": 3.87
+    },
+    {
+        "text": "was too much air in the chamber over",
+        "start": 141.25,
+        "duration": 5.4
+    },
+    {
+        "text": "time times 10 to the minus 2 tour but I",
+        "start": 143.47,
+        "duration": 5.04
+    },
+    {
+        "text": "didn't believe it and press the head",
+        "start": 146.65,
+        "duration": 3.6
+    },
+    {
+        "text": "anyway it seemed to work so I'm going to",
+        "start": 148.51,
+        "duration": 2.85
+    },
+    {
+        "text": "figure out what happened to my pen",
+        "start": 150.25,
+        "duration": 4.11
+    },
+    {
+        "text": "engage I got the scope ready for",
+        "start": 151.36,
+        "duration": 5.64
+    },
+    {
+        "text": "inspection turned on everything got all",
+        "start": 154.36,
+        "duration": 6.09
+    },
+    {
+        "text": "the proper labels in place the output",
+        "start": 157.0,
+        "duration": 5.28
+    },
+    {
+        "text": "from my scanning electron microscope is",
+        "start": 160.45,
+        "duration": 4.35
+    },
+    {
+        "text": "than oscilloscope screen so I set that",
+        "start": 162.28,
+        "duration": 4.08
+    },
+    {
+        "text": "up and adjusted the contrast and",
+        "start": 164.8,
+        "duration": 3.42
+    },
+    {
+        "text": "everything and lo and behold pretty",
+        "start": 166.36,
+        "duration": 3.75
+    },
+    {
+        "text": "pretty soon after I got it setup I could",
+        "start": 168.22,
+        "duration": 4.17
+    },
+    {
+        "text": "see the contrast in the image changing",
+        "start": 170.11,
+        "duration": 4.8
+    },
+    {
+        "text": "in time with the current draw going into",
+        "start": 172.39,
+        "duration": 5.07
+    },
+    {
+        "text": "the circuit so I was actually seeing the",
+        "start": 174.91,
+        "duration": 4.2
+    },
+    {
+        "text": "electricity flow through the circuit or",
+        "start": 177.46,
+        "duration": 3.84
+    },
+    {
+        "text": "at least see the charge difference as",
+        "start": 179.11,
+        "duration": 4.59
+    },
+    {
+        "text": "the circuit oscillated but I wasn't",
+        "start": 181.3,
+        "duration": 4.11
+    },
+    {
+        "text": "actually seeing the integrated circuit",
+        "start": 183.7,
+        "duration": 3.12
+    },
+    {
+        "text": "itself changed what I was actually",
+        "start": 185.41,
+        "duration": 3.78
+    },
+    {
+        "text": "seeing as the wires around it and not",
+        "start": 186.82,
+        "duration": 4.59
+    },
+    {
+        "text": "even the bond wires I mean just the the",
+        "start": 189.19,
+        "duration": 4.35
+    },
+    {
+        "text": "macroscopic wires that I soldered to the",
+        "start": 191.41,
+        "duration": 6.66
+    },
+    {
+        "text": "to the chip socket so i zoomed in a bit",
+        "start": 193.54,
+        "duration": 7.41
+    },
+    {
+        "text": "on the chip itself and this actually",
+        "start": 198.07,
+        "duration": 5.4
+    },
+    {
+        "text": "killed it so after after a few minutes",
+        "start": 200.95,
+        "duration": 5.1
+    },
+    {
+        "text": "of zoomed in scanning electron beam on",
+        "start": 203.47,
+        "duration": 4.86
+    },
+    {
+        "text": "the chip it eventually stopped working",
+        "start": 206.05,
+        "duration": 6.09
+    },
+    {
+        "text": "and it drew about 13 milliamps more than",
+        "start": 208.33,
+        "duration": 5.7
+    },
+    {
+        "text": "the 10 it was drawing in its own state",
+        "start": 212.14,
+        "duration": 4.44
+    },
+    {
+        "text": "before and if you look closely in the",
+        "start": 214.03,
+        "duration": 4.23
+    },
+    {
+        "text": "video you can actually see the wires",
+        "start": 216.58,
+        "duration": 3.81
+    },
+    {
+        "text": "sort of twitching a little bit so this",
+        "start": 218.26,
+        "duration": 3.42
+    },
+    {
+        "text": "is pretty cool this is actually a",
+        "start": 220.39,
+        "duration": 3.27
+    },
+    {
+        "text": "diagnostic technique you don't even",
+        "start": 221.68,
+        "duration": 3.48
+    },
+    {
+        "text": "really need an oscilloscope probe you",
+        "start": 223.66,
+        "duration": 3.36
+    },
+    {
+        "text": "can actually just look at it with a",
+        "start": 225.16,
+        "duration": 3.87
+    },
+    {
+        "text": "scanning electron microscope and see the",
+        "start": 227.02,
+        "duration": 3.78
+    },
+    {
+        "text": "charge at are changing so you can see",
+        "start": 229.03,
+        "duration": 3.15
+    },
+    {
+        "text": "there is sort of a glitch going on in",
+        "start": 230.8,
+        "duration": 3.21
+    },
+    {
+        "text": "there now I haven't done much debugging",
+        "start": 232.18,
+        "duration": 3.15
+    },
+    {
+        "text": "to figure out what's going on but",
+        "start": 234.01,
+        "duration": 4.14
+    },
+    {
+        "text": "certainly the 5 5 5 is fried from the",
+        "start": 235.33,
+        "duration": 5.04
+    },
+    {
+        "text": "electron beam I was keeping it down",
+        "start": 238.15,
+        "duration": 4.35
+    },
+    {
+        "text": "below about 3 kilovolts for the",
+        "start": 240.37,
+        "duration": 5.01
+    },
+    {
+        "text": "acceleration but even at that is",
+        "start": 242.5,
+        "duration": 4.17
+    },
+    {
+        "text": "probably enough to build up enough",
+        "start": 245.38,
+        "duration": 5.07
+    },
+    {
+        "text": "charge inside the chip to destroy it so",
+        "start": 246.67,
+        "duration": 6.6
+    },
+    {
+        "text": "for my next trick I will try decapping",
+        "start": 250.45,
+        "duration": 4.68
+    },
+    {
+        "text": "the chip and then removing the oxide",
+        "start": 253.27,
+        "duration": 3.12
+    },
+    {
+        "text": "layer that's on the top with",
+        "start": 255.13,
+        "duration": 3.63
+    },
+    {
+        "text": "hydrofluoric acid so this should prevent",
+        "start": 256.39,
+        "duration": 4.74
+    },
+    {
+        "text": "a charge from building up in the",
+        "start": 258.76,
+        "duration": 4.89
+    },
+    {
+        "text": "insulation on top of the chip this might",
+        "start": 261.13,
+        "duration": 4.23
+    },
+    {
+        "text": "explain why I was able to see the charge",
+        "start": 263.65,
+        "duration": 2.31
+    },
+    {
+        "text": "chain",
+        "start": 265.36,
+        "duration": 3.209
+    },
+    {
+        "text": "in the electrical conductor is near the",
+        "start": 265.96,
+        "duration": 5.4
+    },
+    {
+        "text": "chip but not in the IC itself because",
+        "start": 268.569,
+        "duration": 4.741
+    },
+    {
+        "text": "there's an insulator over a clear oxide",
+        "start": 271.36,
+        "duration": 4.529
+    },
+    {
+        "text": "later all right well I hope you enjoyed",
+        "start": 273.31,
+        "duration": 4.74
+    },
+    {
+        "text": "that we have a long ways to go here but",
+        "start": 275.889,
+        "duration": 3.721
+    },
+    {
+        "text": "I think we'll pretty soon be able to",
+        "start": 278.05,
+        "duration": 3.75
+    },
+    {
+        "text": "decaf a more complicated chip and run it",
+        "start": 279.61,
+        "duration": 4.29
+    },
+    {
+        "text": "in the SEM and see what's going on in",
+        "start": 281.8,
+        "duration": 4.89
+    },
+    {
+        "text": "the dye in real time all right see you",
+        "start": 283.9,
+        "duration": 3.329
+    },
+    {
+        "text": "next time",
+        "start": 286.69,
+        "duration": 2.87
+    },
+    {
+        "text": "bye",
+        "start": 287.229,
+        "duration": 2.331
+    }
+]

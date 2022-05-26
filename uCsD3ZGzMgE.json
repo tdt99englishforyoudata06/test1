@@ -1,0 +1,1357 @@
+[
+    {
+        "text": "So it's called the Josephus Problem.",
+        "start": 0.0,
+        "duration": 1.98
+    },
+    {
+        "text": "It's based on something from history.",
+        "start": 1.98,
+        "duration": 2.02
+    },
+    {
+        "text": "There was a group of Jewish soldiers who were surrounded by the Roman army",
+        "start": 4.0,
+        "duration": 3.88
+    },
+    {
+        "text": "and they didn't want to get captured, so they decided to come up with a system-",
+        "start": 7.88,
+        "duration": 4.2
+    },
+    {
+        "text": "-  to avoid getting captured or suicide.",
+        "start": 12.08,
+        "duration": 2.0
+    },
+    {
+        "text": "So they'd sit in a circle, and the first man would kill the guy to the left of him",
+        "start": 14.08,
+        "duration": 4.24
+    },
+    {
+        "text": "The next remaining living person would kill the next remaining living person with their sword.",
+        "start": 18.32,
+        "duration": 4.74
+    },
+    {
+        "text": "And they'd go around like this, till there's only one person left,",
+        "start": 23.06,
+        "duration": 3.64
+    },
+    {
+        "text": "and the last person would have to commit suicide of course, rather than get captured.",
+        "start": 26.7,
+        "duration": 3.24
+    },
+    {
+        "text": "And the story - at least the story I was told, I'm not sure if this is historically accurate -",
+        "start": 29.94,
+        "duration": 3.56
+    },
+    {
+        "text": "Was that Josephus preferred captured to suicide,",
+        "start": 33.5,
+        "duration": 4.22
+    },
+    {
+        "text": "but he worried that if he said this, the other soldiers would turn on him.",
+        "start": 37.72,
+        "duration": 2.86
+    },
+    {
+        "text": "And so he wanted to figure out: WHERE should he sit within the circle-",
+        "start": 40.58,
+        "duration": 3.9
+    },
+    {
+        "text": "- in order to be the last man living.",
+        "start": 44.5,
+        "duration": 2.02
+    },
+    {
+        "text": "And then he would surrender, rather than kill himself.",
+        "start": 46.52,
+        "duration": 2.0
+    },
+    {
+        "text": "That was the problem",
+        "start": 48.52,
+        "duration": 0.98
+    },
+    {
+        "text": "It's a little tricky, so let's do a smaller example.",
+        "start": 49.5,
+        "duration": 2.0
+    },
+    {
+        "text": "Let's say there are seven people.",
+        "start": 51.5,
+        "duration": 1.52
+    },
+    {
+        "text": "And so just to be clear, the way it works is:\nperson number one kills number two.",
+        "start": 53.02,
+        "duration": 4.4
+    },
+    {
+        "text": "Person number three kills four,",
+        "start": 58.16,
+        "duration": 2.0
+    },
+    {
+        "text": "Five kills six,",
+        "start": 60.4,
+        "duration": 1.32
+    },
+    {
+        "text": "But now things gets a little of harder to kind of see in advance",
+        "start": 62.34,
+        "duration": 2.98
+    },
+    {
+        "text": "Because seven, there is no eight, so seven kills one,",
+        "start": 65.32,
+        "duration": 3.92
+    },
+    {
+        "text": "Three kills five,",
+        "start": 69.62,
+        "duration": 2.34
+    },
+    {
+        "text": "Seven kills three.",
+        "start": 72.24,
+        "duration": 2.0
+    },
+    {
+        "text": "So seven's the winner; seven is the last one left over.",
+        "start": 74.48,
+        "duration": 2.62
+    },
+    {
+        "text": "For Josephus, there were 41 people.\nHe needed to figure out where to sit.",
+        "start": 77.1,
+        "duration": 2.98
+    },
+    {
+        "text": "The mathematical problem is if there were n people.",
+        "start": 80.08,
+        "duration": 2.5
+    },
+    {
+        "text": "Where's the winning seat?",
+        "start": 82.58,
+        "duration": 1.24
+    },
+    {
+        "text": "When I learned this problem I was in high school,",
+        "start": 83.82,
+        "duration": 1.9
+    },
+    {
+        "text": "And it was one of the first problems that got me to understand how you approach-",
+        "start": 85.86,
+        "duration": 5.08
+    },
+    {
+        "text": "- difficult and- and...",
+        "start": 90.94,
+        "duration": 2.0
+    },
+    {
+        "text": "Math problems where you don't know the answer in advance, or someone hasn't shown it to you in advance.",
+        "start": 92.94,
+        "duration": 3.4
+    },
+    {
+        "text": "And it was a professor of mine",
+        "start": 96.34,
+        "duration": 1.16
+    },
+    {
+        "text": "his name was Phil Hanlon",
+        "start": 97.5,
+        "duration": 1.38
+    },
+    {
+        "text": "who played a big role in, kind of, leading me to math.",
+        "start": 98.88,
+        "duration": 4.02
+    },
+    {
+        "text": "And he suggested: what we should do is we should gather data.",
+        "start": 103.82,
+        "duration": 2.96
+    },
+    {
+        "text": "Just...",
+        "start": 106.94,
+        "duration": 0.5
+    },
+    {
+        "text": "Take various values of n and just do it by hand",
+        "start": 107.58,
+        "duration": 3.28
+    },
+    {
+        "text": "and start looking for a pattern.",
+        "start": 110.86,
+        "duration": 1.32
+    },
+    {
+        "text": "I don't know, maybe we should just do that?",
+        "start": 112.18,
+        "duration": 1.24
+    },
+    {
+        "text": "n is the number of seats,\nand w of n will be the winning seat.",
+        "start": 113.42,
+        "duration": 6.1
+    },
+    {
+        "text": "And what we know so far is that:\nn is seven, w of n it turns out is also seven.",
+        "start": 119.52,
+        "duration": 4.56
+    },
+    {
+        "text": "And so what I would do is I'd start doing some other values",
+        "start": 124.08,
+        "duration": 2.38
+    },
+    {
+        "text": "So, I don't know, why don't I do five?",
+        "start": 126.46,
+        "duration": 1.42
+    },
+    {
+        "text": "One kills two,",
+        "start": 127.88,
+        "duration": 1.26
+    },
+    {
+        "text": "three kills four,",
+        "start": 129.14,
+        "duration": 1.22
+    },
+    {
+        "text": "five kills one,",
+        "start": 130.62,
+        "duration": 1.4
+    },
+    {
+        "text": "three kills five.",
+        "start": 132.02,
+        "duration": 2.34
+    },
+    {
+        "text": "The winner is three.",
+        "start": 134.36,
+        "duration": 1.22
+    },
+    {
+        "text": "I guess there was no reason for me to skip six,\nso why don't we fill in six.",
+        "start": 135.58,
+        "duration": 3.48
+    },
+    {
+        "text": "One kills two, three kills four, five kills six...",
+        "start": 139.06,
+        "duration": 3.28
+    },
+    {
+        "text": "... one kills three and five kills one.",
+        "start": 142.92,
+        "duration": 2.06
+    },
+    {
+        "text": "The winner is five.",
+        "start": 144.98,
+        "duration": 1.1
+    },
+    {
+        "text": "So",
+        "start": 146.08,
+        "duration": 0.5
+    },
+    {
+        "text": "If you're watching you might already start to notice some patterns.",
+        "start": 146.58,
+        "duration": 2.72
+    },
+    {
+        "text": "For instance, they're always odd.\nI mean, that's maybe the first thing you notice",
+        "start": 149.3,
+        "duration": 3.7
+    },
+    {
+        "text": "And you can start asking \"why are they always odd?\"\nAnd maybe you can already see that-",
+        "start": 153.0,
+        "duration": 3.64
+    },
+    {
+        "text": "- in the first loop around, all the even people get killed.",
+        "start": 156.64,
+        "duration": 2.82
+    },
+    {
+        "text": "So",
+        "start": 159.6,
+        "duration": 0.5
+    },
+    {
+        "text": "So you can - even with a tiny amount of experiment - start to see some patterns.",
+        "start": 160.1,
+        "duration": 4.84
+    },
+    {
+        "text": "- *Brady* So you DON'T want to sit in an even seat?\n- Don't sit in an even seat, no no no.",
+        "start": 164.94,
+        "duration": 3.26
+    },
+    {
+        "text": "And maybe we're even getting some glimmers of other patterns",
+        "start": 168.34,
+        "duration": 2.8
+    },
+    {
+        "text": "But before I really try to phrase those,\nI'd like to fill in the table a little bit more.",
+        "start": 171.14,
+        "duration": 4.06
+    },
+    {
+        "text": "So let's do some.",
+        "start": 175.2,
+        "duration": 0.6
+    },
+    {
+        "text": "So if there's only one person...",
+        "start": 175.8,
+        "duration": 1.68
+    },
+    {
+        "text": "well...",
+        "start": 177.48,
+        "duration": 0.5
+    },
+    {
+        "text": "That person's the winner, so that one was easy.",
+        "start": 178.56,
+        "duration": 2.08
+    },
+    {
+        "text": "If there's two people: one kills two. One is the winner",
+        "start": 180.78,
+        "duration": 3.82
+    },
+    {
+        "text": "If there's three people: one kills two, three kills one. Three is the winner",
+        "start": 185.82,
+        "duration": 5.26
+    },
+    {
+        "text": "If there's four people: one kills two, three kills four, one kills three.",
+        "start": 191.08,
+        "duration": 6.42
+    },
+    {
+        "text": "If there's eight people: one kills two, three kills four, five kills six, seven kills eight,",
+        "start": 197.5,
+        "duration": 6.02
+    },
+    {
+        "text": "one kills three, five kills seven, one kills five.",
+        "start": 203.52,
+        "duration": 3.74
+    },
+    {
+        "text": "The winner is one.",
+        "start": 207.26,
+        "duration": 1.48
+    },
+    {
+        "text": "Alright so it was one, one, three, one, three, five, seven.",
+        "start": 208.74,
+        "duration": 7.52
+    },
+    {
+        "text": "One, three, five, seven, nine.",
+        "start": 216.26,
+        "duration": 4.56
+    },
+    {
+        "text": "And you could keep going,\nbut maybe you can see the pattern now?",
+        "start": 220.82,
+        "duration": 2.6
+    },
+    {
+        "text": "- *Brady* Is thirteen a one?\n- NO! Good guess actually!",
+        "start": 223.42,
+        "duration": 3.0
+    },
+    {
+        "text": "But it is not a one. So let's do thirteen.",
+        "start": 226.42,
+        "duration": 2.0
+    },
+    {
+        "text": "*Brady* This is good, I don't know then, I can't see the pattern.",
+        "start": 228.42,
+        "duration": 2.58
+    },
+    {
+        "text": "So as you see it's jumping by two each time,\nbut then it resets at some point",
+        "start": 231.0,
+        "duration": 4.94
+    },
+    {
+        "text": "and",
+        "start": 235.94,
+        "duration": 0.5
+    },
+    {
+        "text": "And I want to go back to this, so we'll see what thirteen is quickly",
+        "start": 236.44,
+        "duration": 2.0
+    },
+    {
+        "text": "So we didn't reset that,\nand I claim we won't reset it the next one either.",
+        "start": 244.22,
+        "duration": 3.12
+    },
+    {
+        "text": "Fourteen will be thirteen",
+        "start": 247.34,
+        "duration": 1.78
+    },
+    {
+        "text": "and here, by the way, we're be starting to make predictions.",
+        "start": 249.12,
+        "duration": 2.18
+    },
+    {
+        "text": "It's worth noting we've-",
+        "start": 251.6,
+        "duration": 1.08
+    },
+    {
+        "text": "Even though we maybe can't say\nexactly what like 178 would be-",
+        "start": 252.68,
+        "duration": 4.56
+    },
+    {
+        "text": "- we're starting to see well enough so we can make a prediction.",
+        "start": 257.66,
+        "duration": 3.1
+    },
+    {
+        "text": "So...",
+        "start": 260.76,
+        "duration": 0.5
+    },
+    {
+        "text": "so you could guess. Is it really true that fourteen is going to give you thirteen?",
+        "start": 261.26,
+        "duration": 3.48
+    },
+    {
+        "text": "We could do it out, and you'll see in fact that's what you'll get",
+        "start": 264.84,
+        "duration": 4.08
+    },
+    {
+        "text": "So we're getting some understanding...",
+        "start": 269.3,
+        "duration": 1.64
+    },
+    {
+        "text": "But I want to go back to this point you had, you asked if it's going to reset and go back to one there",
+        "start": 270.96,
+        "duration": 4.46
+    },
+    {
+        "text": "And the answer was no, and it's worth looking.",
+        "start": 275.42,
+        "duration": 3.56
+    },
+    {
+        "text": "Because this is the next thing I was going to do.",
+        "start": 279.1,
+        "duration": 2.0
+    },
+    {
+        "text": "Where do we get the ones?",
+        "start": 281.28,
+        "duration": 1.4
+    },
+    {
+        "text": "So if you look for a sec, there's something very special about the numbers that give you ones.",
+        "start": 282.68,
+        "duration": 4.76
+    },
+    {
+        "text": "It's the powers of two.",
+        "start": 287.8,
+        "duration": 1.38
+    },
+    {
+        "text": "And so maybe you can now guess that if i put in a sixteen, I would get a one back.",
+        "start": 289.18,
+        "duration": 4.82
+    },
+    {
+        "text": "And that'll be right, and that's actually going to be a real key in unlocking this.",
+        "start": 294.22,
+        "duration": 4.46
+    },
+    {
+        "text": "The professor I was learning this from made a really big point out of this.",
+        "start": 298.88,
+        "duration": 3.68
+    },
+    {
+        "text": "And I thought, you know, well",
+        "start": 303.38,
+        "duration": 1.78
+    },
+    {
+        "text": "I don't know what the general answer is yet!",
+        "start": 305.16,
+        "duration": 2.0
+    },
+    {
+        "text": "And he made a big point: If you know something...",
+        "start": 307.16,
+        "duration": 2.34
+    },
+    {
+        "text": "Prove it, and make sure you really understand that one thing, and that often unlocks the rest.",
+        "start": 309.76,
+        "duration": 4.5
+    },
+    {
+        "text": "So",
+        "start": 314.82,
+        "duration": 0.5
+    },
+    {
+        "text": "So he really pushed us when I was first doing this, to try to state a conjecture and then prove a theorem-",
+        "start": 315.48,
+        "duration": 6.06
+    },
+    {
+        "text": "based on what we just saw here.",
+        "start": 321.74,
+        "duration": 1.54
+    },
+    {
+        "text": "And so that's what I want to do, so here's the conjecture:",
+        "start": 323.28,
+        "duration": 2.0
+    },
+    {
+        "text": "If n is a pure power of two, then the winning seat is one.",
+        "start": 325.28,
+        "duration": 7.24
+    },
+    {
+        "text": "I want to think about this for a second and maybe see why this might be true.",
+        "start": 332.52,
+        "duration": 3.56
+    },
+    {
+        "text": "So let's do the next biggest power of two,\nmaybe the biggest one I can bother writing down.",
+        "start": 336.08,
+        "duration": 4.26
+    },
+    {
+        "text": "So let's do sixteen",
+        "start": 340.34,
+        "duration": 1.14
+    },
+    {
+        "text": "So I want to do one pass through the circle.",
+        "start": 341.48,
+        "duration": 2.7
+    },
+    {
+        "text": "- *Brady* Take out all the evens.\n- Take out all the evens.",
+        "start": 346.16,
+        "duration": 2.82
+    },
+    {
+        "text": "And now, fifteen has just killed sixteen.",
+        "start": 349.62,
+        "duration": 2.9
+    },
+    {
+        "text": "So I'll put a little dot here so we'll remember it's number one's turn again.",
+        "start": 352.52,
+        "duration": 3.24
+    },
+    {
+        "text": "And it's number one's turn again, and we've removed all the evens.",
+        "start": 355.78,
+        "duration": 4.5
+    },
+    {
+        "text": "And what's left is therefore exactly half as many.",
+        "start": 360.28,
+        "duration": 2.82
+    },
+    {
+        "text": "So if i relabel at this point",
+        "start": 363.1,
+        "duration": 2.38
+    },
+    {
+        "text": "You can see that there's a power of two to start with.",
+        "start": 365.84,
+        "duration": 2.92
+    },
+    {
+        "text": "I pass through the circle once, I get rid of all the evens, I have half as many.",
+        "start": 368.98,
+        "duration": 3.96
+    },
+    {
+        "text": "And I'm back at number one's turn.",
+        "start": 372.94,
+        "duration": 2.0
+    },
+    {
+        "text": "So now if I do this again,\nthe same thing ought to happen.",
+        "start": 374.96,
+        "duration": 2.56
+    },
+    {
+        "text": "Right? I should kill all the evens on the new labeling",
+        "start": 377.52,
+        "duration": 3.64
+    },
+    {
+        "text": "And now there are four people left, and it's STILL number one's turn",
+        "start": 383.8,
+        "duration": 3.66
+    },
+    {
+        "text": "So you go through again...",
+        "start": 387.78,
+        "duration": 1.2
+    },
+    {
+        "text": "Kill those guys, there's two people left,\nit's still number one's turn-",
+        "start": 389.76,
+        "duration": 3.36
+    },
+    {
+        "text": "- and that one kills that, and it's still number one's turn and that chair wins.",
+        "start": 393.12,
+        "duration": 3.98
+    },
+    {
+        "text": "So let's say we believe that.\nWe know what happens to two to the n.",
+        "start": 397.1,
+        "duration": 2.62
+    },
+    {
+        "text": "So how do we explain what happens between the pure powers of two?",
+        "start": 399.72,
+        "duration": 3.98
+    },
+    {
+        "text": "If you see the pattern, you know- we know what happens at eight, and we know what happens at four...",
+        "start": 403.7,
+        "duration": 4.54
+    },
+    {
+        "text": "... but between them it goes up by twos until at this point, if I added two to seven, I'd have a nine",
+        "start": 408.24,
+        "duration": 6.0
+    },
+    {
+        "text": "Which would be too big anyway, so that's our reset",
+        "start": 414.38,
+        "duration": 2.96
+    },
+    {
+        "text": "But we knew it was going to reset because it's a pure power of two.",
+        "start": 417.34,
+        "duration": 2.56
+    },
+    {
+        "text": "So how do we explain this jumping by two phenomena inbetween?",
+        "start": 419.9,
+        "duration": 3.3
+    },
+    {
+        "text": "So what I'm going to do- I'm gonna just mention that:",
+        "start": 423.46,
+        "duration": 1.76
+    },
+    {
+        "text": "For any number-",
+        "start": 425.22,
+        "duration": 1.66
+    },
+    {
+        "text": "- you can write it as\na big power of two plus something else",
+        "start": 426.88,
+        "duration": 5.2
+    },
+    {
+        "text": "Take the biggest power of two you can subtract from a number-",
+        "start": 432.08,
+        "duration": 2.62
+    },
+    {
+        "text": "And then what's left should be smaller than that.",
+        "start": 434.7,
+        "duration": 2.0
+    },
+    {
+        "text": "When you express a number in binary notation-",
+        "start": 436.7,
+        "duration": 2.0
+    },
+    {
+        "text": "- ou choose zeroes or ones, and that gives it out as a sum of a bunch of powers of two...",
+        "start": 439.16,
+        "duration": 4.28
+    },
+    {
+        "text": "... and you just choose the biggest one.",
+        "start": 443.44,
+        "duration": 1.76
+    },
+    {
+        "text": "So 77. The biggest power of two I can get is 64.",
+        "start": 445.2,
+        "duration": 4.64
+    },
+    {
+        "text": "And then, what is it, it's 64 + 13.",
+        "start": 449.84,
+        "duration": 3.02
+    },
+    {
+        "text": "So then for 13, the biggest power of two is\n8 + 4 + 1. Did I do this right?",
+        "start": 452.86,
+        "duration": 6.7
+    },
+    {
+        "text": "72... 77, there you go. And these are all powers of two!",
+        "start": 460.48,
+        "duration": 3.4
+    },
+    {
+        "text": "And this is unique. This is the unique way to write 77 as a sum of powers of two.",
+        "start": 463.88,
+        "duration": 7.0
+    },
+    {
+        "text": "Where no powers repeated, that's a key point.",
+        "start": 470.88,
+        "duration": 2.68
+    },
+    {
+        "text": "So if you wanted to take a general number, take the biggest power of two - 64 - and then the remaining part.",
+        "start": 473.56,
+        "duration": 6.24
+    },
+    {
+        "text": "*Mumble* Twelve... Thirteen.",
+        "start": 480.1,
+        "duration": 1.28
+    },
+    {
+        "text": "I'm going to call this part two to the a,\nand the remaining part I'm going to call l",
+        "start": 481.38,
+        "duration": 5.14
+    },
+    {
+        "text": "And I claim that this l is going to tell us which of those odd number between are going to show up.",
+        "start": 486.52,
+        "duration": 5.88
+    },
+    {
+        "text": "So let's see how. How about we do thirteen.",
+        "start": 492.4,
+        "duration": 2.12
+    },
+    {
+        "text": "n is thirteen.",
+        "start": 494.52,
+        "duration": 1.9
+    },
+    {
+        "text": "This is the binary expansion, but using our new method the eight will be the two to the a-",
+        "start": 496.56,
+        "duration": 4.66
+    },
+    {
+        "text": "- and the five (which is the four plus one) that'll be the l.",
+        "start": 501.56,
+        "duration": 2.88
+    },
+    {
+        "text": "And here's the thing that's going to happen with the l:",
+        "start": 504.44,
+        "duration": 2.0
+    },
+    {
+        "text": "I'm going to do five steps.",
+        "start": 506.44,
+        "duration": 2.0
+    },
+    {
+        "text": "So 1 kills 2, 3 kills 4, 5 kills 6, 7 kills 8, 9 kills 10.",
+        "start": 508.44,
+        "duration": 7.28
+    },
+    {
+        "text": "So now I've dropped...",
+        "start": 515.72,
+        "duration": 1.38
+    },
+    {
+        "text": "l people.",
+        "start": 518.38,
+        "duration": 1.48
+    },
+    {
+        "text": "And it's number eleven's turn.",
+        "start": 520.4,
+        "duration": 1.62
+    },
+    {
+        "text": "Now watch what happens, how many people are left?\nWell what's left is a power of two.",
+        "start": 522.02,
+        "duration": 4.22
+    },
+    {
+        "text": "And we know who wins in a power of two,\nit's whoever starts!",
+        "start": 526.6,
+        "duration": 3.24
+    },
+    {
+        "text": "*Brady* The first killer.",
+        "start": 530.36,
+        "duration": 0.72
+    },
+    {
+        "text": "The first killer! So now, if we go from here I claim that eleven is going to win.",
+        "start": 531.08,
+        "duration": 3.98
+    },
+    {
+        "text": "And just watch, it's going to be.",
+        "start": 535.06,
+        "duration": 0.88
+    },
+    {
+        "text": "11 kills 12, 13 kills 1, 3 kills 5, 7 kills 9",
+        "start": 535.94,
+        "duration": 4.48
+    },
+    {
+        "text": "Back to eleven, and now there's only four people left.",
+        "start": 540.42,
+        "duration": 2.76
+    },
+    {
+        "text": "11 kills 13, 3 kills 7...",
+        "start": 543.38,
+        "duration": 1.96
+    },
+    {
+        "text": "Back to eleven, two people... Eleven wins.",
+        "start": 545.34,
+        "duration": 3.1
+    },
+    {
+        "text": "And so this is really the key to the final answer.",
+        "start": 548.44,
+        "duration": 2.64
+    },
+    {
+        "text": "Which is",
+        "start": 551.36,
+        "duration": 0.74
+    },
+    {
+        "text": "If you've written your number as two to the a plus l-",
+        "start": 552.34,
+        "duration": 3.08
+    },
+    {
+        "text": "- after l steps, whosever turn it is is going to win.",
+        "start": 555.42,
+        "duration": 4.5
+    },
+    {
+        "text": "Because it's going to be their turn and there'll be a power of two left.",
+        "start": 559.92,
+        "duration": 2.2
+    },
+    {
+        "text": "And so the winning seat will be two l plus one.",
+        "start": 562.12,
+        "duration": 4.4
+    },
+    {
+        "text": "If you write it in this way, because that's whose turn it is after l steps.",
+        "start": 566.52,
+        "duration": 3.4
+    },
+    {
+        "text": "The theorem or the claim, is that if you've written n in this way...",
+        "start": 569.92,
+        "duration": 4.02
+    },
+    {
+        "text": "So if n is two to the a plus l, where l is less than two to the a.",
+        "start": 573.94,
+        "duration": 4.2
+    },
+    {
+        "text": "It has to be strictly smaller",
+        "start": 578.14,
+        "duration": 1.8
+    },
+    {
+        "text": "So in other words: two to the a is the biggest power that sat inside of n.",
+        "start": 579.94,
+        "duration": 3.54
+    },
+    {
+        "text": "Then the winning seat is going to be 2 l plus one.",
+        "start": 583.54,
+        "duration": 3.58
+    },
+    {
+        "text": "So we've already seen it was true here, right?",
+        "start": 587.12,
+        "duration": 2.26
+    },
+    {
+        "text": "l was five and the winning seat was eleven, which is two times five plus one.",
+        "start": 589.52,
+        "duration": 4.7
+    },
+    {
+        "text": "And if you start going back through you'll see it's the same thing for all the answers.",
+        "start": 594.22,
+        "duration": 4.06
+    },
+    {
+        "text": "We've already illustrated the mechanisms, which is after l steps-",
+        "start": 598.28,
+        "duration": 4.5
+    },
+    {
+        "text": "It's the turn of person 2 l plus one, and after l steps, there are a power of two number of people left.",
+        "start": 603.04,
+        "duration": 8.04
+    },
+    {
+        "text": "and...",
+        "start": 611.26,
+        "duration": 0.5
+    },
+    {
+        "text": "Everyone knows that the power of two people, the first person who kills, that's who's going to be the winner",
+        "start": 612.04,
+        "duration": 4.9
+    },
+    {
+        "text": "*Brady* Let's see if Brady has learned!",
+        "start": 616.94,
+        "duration": 2.0
+    },
+    {
+        "text": "*chuckle* Yeah! Alright! Let's do it",
+        "start": 618.94,
+        "duration": 1.62
+    },
+    {
+        "text": "*Brady* - I think I follow. Now in the Josephus problem...",
+        "start": 621.34,
+        "duration": 3.2
+    },
+    {
+        "text": "- Yep!",
+        "start": 624.54,
+        "duration": 0.5
+    },
+    {
+        "text": "- ... There was Josephus and 40 soldiers.",
+        "start": 625.04,
+        "duration": 2.66
+    },
+    {
+        "text": "- That's right. Oh yeah! We got to go back and do that!",
+        "start": 627.7,
+        "duration": 1.66
+    },
+    {
+        "text": "- Alright so we got 41 people...",
+        "start": 629.36,
+        "duration": 2.1
+    },
+    {
+        "text": "- So n is 41",
+        "start": 631.46,
+        "duration": 1.62
+    },
+    {
+        "text": "- Alright, now I think - expressing that in the way you told me to - it's going to be 32 + 9?",
+        "start": 633.08,
+        "duration": 7.06
+    },
+    {
+        "text": "- There you go, 32 + 9",
+        "start": 640.14,
+        "duration": 2.32
+    },
+    {
+        "text": "- So...",
+        "start": 642.96,
+        "duration": 0.84
+    },
+    {
+        "text": "Two lots of nine... plus one...",
+        "start": 643.8,
+        "duration": 2.52
+    },
+    {
+        "text": "- Mhm",
+        "start": 646.42,
+        "duration": 0.64
+    },
+    {
+        "text": "- ... is nineteen",
+        "start": 647.46,
+        "duration": 1.6
+    },
+    {
+        "text": "- There we go",
+        "start": 651.14,
+        "duration": 0.68
+    },
+    {
+        "text": "- So we want to sit in position nineteen.",
+        "start": 651.82,
+        "duration": 2.0
+    },
+    {
+        "text": "- There you go. You want to sit in the nineteenth chair.",
+        "start": 653.82,
+        "duration": 2.4
+    },
+    {
+        "text": "So here we go we're going to do n = 41",
+        "start": 656.36,
+        "duration": 2.18
+    },
+    {
+        "text": "- Alright. Put them in, in the cave, waiting their fate.",
+        "start": 658.8,
+        "duration": 2.9
+    },
+    {
+        "text": "- Not a very good circle but...",
+        "start": 664.3,
+        "duration": 1.62
+    },
+    {
+        "text": "- It's getting smaller now...",
+        "start": 669.52,
+        "duration": 0.94
+    },
+    {
+        "text": "- I know.",
+        "start": 670.46,
+        "duration": 1.36
+    },
+    {
+        "text": "*Brady and Daniel chuckles*",
+        "start": 672.32,
+        "duration": 1.54
+    },
+    {
+        "text": "*Daniel chuckles*",
+        "start": 674.86,
+        "duration": 0.62
+    },
+    {
+        "text": "Should I redo this?",
+        "start": 675.8,
+        "duration": 1.26
+    },
+    {
+        "text": "- Nah you're okay.",
+        "start": 677.06,
+        "duration": 1.08
+    },
+    {
+        "text": "*Daniel mumbles* 40... 41...",
+        "start": 678.3,
+        "duration": 1.24
+    },
+    {
+        "text": "- Okay there we are.\nSo we got a little tight at the end",
+        "start": 679.54,
+        "duration": 2.12
+    },
+    {
+        "text": "- Look at that, this is a lession about\nplanning ahead, people.",
+        "start": 681.66,
+        "duration": 3.3
+    },
+    {
+        "text": "Okay so let's do it. So one kills two...",
+        "start": 685.08,
+        "duration": 2.0
+    },
+    {
+        "text": "- We're losing our even numbers.",
+        "start": 689.44,
+        "duration": 2.0
+    },
+    {
+        "text": "- Yep.",
+        "start": 691.6,
+        "duration": 0.68
+    },
+    {
+        "text": "Okay now... 41 kills 1.",
+        "start": 692.78,
+        "duration": 2.38
+    },
+    {
+        "text": "*Daniel mumbles* three kills five...",
+        "start": 695.98,
+        "duration": 1.52
+    },
+    {
+        "text": "And 19 kills 35 and there we go!",
+        "start": 710.56,
+        "duration": 2.12
+    },
+    {
+        "text": "- Alright.",
+        "start": 713.12,
+        "duration": 0.5
+    },
+    {
+        "text": "I was right!",
+        "start": 713.78,
+        "duration": 0.72
+    },
+    {
+        "text": "- There we go, nineteen!",
+        "start": 714.5,
+        "duration": 1.36
+    },
+    {
+        "text": "Oh and one other thing in this\nproblem which is kind of fun...",
+        "start": 715.86,
+        "duration": 2.96
+    },
+    {
+        "text": "So this formula I wrote can be interpreted in binary notation.",
+        "start": 718.82,
+        "duration": 3.4
+    },
+    {
+        "text": "When we wrote a number as a sum of powers of two...",
+        "start": 722.62,
+        "duration": 3.14
+    },
+    {
+        "text": "This can be re-expressed in binary notation.",
+        "start": 725.76,
+        "duration": 2.34
+    },
+    {
+        "text": "So what was this... 32 + 8 + 1",
+        "start": 728.1,
+        "duration": 3.36
+    },
+    {
+        "text": "So that's...",
+        "start": 731.6,
+        "duration": 0.62
+    },
+    {
+        "text": "2⁵ + 2³ + 2⁰",
+        "start": 732.22,
+        "duration": 3.7
+    },
+    {
+        "text": "And binary notation...",
+        "start": 735.92,
+        "duration": 1.8
+    },
+    {
+        "text": "The digits correspond to the various powers of two, and all the digits are either zero or one.",
+        "start": 737.72,
+        "duration": 5.6
+    },
+    {
+        "text": "So 41 in binary notation would be\none copy of 2⁵,",
+        "start": 743.32,
+        "duration": 4.4
+    },
+    {
+        "text": "zero of 2⁴,",
+        "start": 747.72,
+        "duration": 1.62
+    },
+    {
+        "text": "one of 2³,",
+        "start": 749.34,
+        "duration": 2.0
+    },
+    {
+        "text": "zero 2², zero 2¹ and one 2⁰",
+        "start": 751.84,
+        "duration": 3.12
+    },
+    {
+        "text": "Here's the trick for the Josephus problem.",
+        "start": 755.04,
+        "duration": 2.0
+    },
+    {
+        "text": "Which I won't justify but it's super cool,\nand you can try it own your own.",
+        "start": 757.04,
+        "duration": 3.84
+    },
+    {
+        "text": "The way to find the winning solution if this is n-",
+        "start": 760.88,
+        "duration": 2.74
+    },
+    {
+        "text": "- the winning solution in binary is you take the leading digit-",
+        "start": 764.02,
+        "duration": 3.74
+    },
+    {
+        "text": "- and you put it at the end.",
+        "start": 768.16,
+        "duration": 2.0
+    },
+    {
+        "text": "So in other words I claim that if I write",
+        "start": 770.16,
+        "duration": 3.0
+    },
+    {
+        "text": "*Mumbles* Zero... One...",
+        "start": 773.16,
+        "duration": 1.3
+    },
+    {
+        "text": "So I take this part and then I add the first digit to the end.",
+        "start": 775.06,
+        "duration": 2.76
+    },
+    {
+        "text": "That number in binary code is... Well let's see...",
+        "start": 777.82,
+        "duration": 3.86
+    },
+    {
+        "text": "It's 2⁰ + 2¹ + (I skipped 2² and I skipped 2³) and I add 2⁴",
+        "start": 781.88,
+        "duration": 8.26
+    },
+    {
+        "text": "So it's 2⁴ + 2¹ + 2⁰",
+        "start": 790.14,
+        "duration": 3.9
+    },
+    {
+        "text": "Which is",
+        "start": 794.04,
+        "duration": 1.38
+    },
+    {
+        "text": "16 + 2 + 1",
+        "start": 795.42,
+        "duration": 2.76
+    },
+    {
+        "text": "Which is nineteen, which is exactly what the winning seat was.",
+        "start": 798.18,
+        "duration": 3.1
+    },
+    {
+        "text": "and...",
+        "start": 801.5,
+        "duration": 0.5
+    },
+    {
+        "text": "And so there's this super efficient way in binary code to jump straight from the number n-",
+        "start": 802.0,
+        "duration": 6.56
+    },
+    {
+        "text": "- to the winning number w of n.",
+        "start": 808.58,
+        "duration": 2.0
+    },
+    {
+        "text": "So if you're writing you numbers in binary code, the pattern would've been even more quickly apparent",
+        "start": 810.58,
+        "duration": 5.0
+    },
+    {
+        "text": "Isn't that cool?!",
+        "start": 815.84,
+        "duration": 1.12
+    },
+    {
+        "text": "*Brady agrees and chuckles*",
+        "start": 816.96,
+        "duration": 1.32
+    },
+    {
+        "text": "Isn't that cool?",
+        "start": 818.28,
+        "duration": 0.62
+    },
+    {
+        "text": "- Yeah",
+        "start": 818.9,
+        "duration": 0.66
+    },
+    {
+        "text": "This video was filmed at the\nMathematical Sciences Research Institute (MSRI)",
+        "start": 820.34,
+        "duration": 4.76
+    },
+    {
+        "text": "That's the building behind me.",
+        "start": 825.1,
+        "duration": 1.36
+    },
+    {
+        "text": "If you'd like to find out more about them, link's in the video description.",
+        "start": 826.52,
+        "duration": 3.26
+    },
+    {
+        "text": "They do some really important serious mathematics here, and they're also a big supporter of math outreach...",
+        "start": 829.78,
+        "duration": 5.34
+    },
+    {
+        "text": "...as evidenced by this video.",
+        "start": 835.76,
+        "duration": 1.4
+    }
+]

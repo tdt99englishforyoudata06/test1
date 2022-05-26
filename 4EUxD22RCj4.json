@@ -1,0 +1,497 @@
+[
+    {
+        "text": "I do think that a really great domain",
+        "start": 0.0,
+        "duration": 6.18
+    },
+    {
+        "text": "application area for AI is in managing",
+        "start": 3.36,
+        "duration": 4.68
+    },
+    {
+        "text": "the cost benefits in a very explicit way",
+        "start": 6.18,
+        "duration": 5.039
+    },
+    {
+        "text": "so we we get the we can get a sense for",
+        "start": 8.04,
+        "duration": 5.009
+    },
+    {
+        "text": "even through simulations in advance of",
+        "start": 11.219,
+        "duration": 4.71
+    },
+    {
+        "text": "fielding technologies the actual real",
+        "start": 13.049,
+        "duration": 4.771
+    },
+    {
+        "text": "world costs with a real-world fielding",
+        "start": 15.929,
+        "duration": 4.35
+    },
+    {
+        "text": "in the open world versus always the",
+        "start": 17.82,
+        "duration": 5.19
+    },
+    {
+        "text": "trends to be introduced a new expense so",
+        "start": 20.279,
+        "duration": 5.971
+    },
+    {
+        "text": "just like in AI we've had layers of",
+        "start": 23.01,
+        "duration": 5.089
+    },
+    {
+        "text": "reflection that make sure the",
+        "start": 26.25,
+        "duration": 4.38
+    },
+    {
+        "text": "combinatorial explosion of planning",
+        "start": 28.099,
+        "duration": 4.931
+    },
+    {
+        "text": "algorithms is making is is managed we",
+        "start": 30.63,
+        "duration": 4.199
+    },
+    {
+        "text": "should apply the same ideas to cost",
+        "start": 33.03,
+        "duration": 3.41
+    },
+    {
+        "text": "managing the cost in healthcare",
+        "start": 34.829,
+        "duration": 4.89
+    },
+    {
+        "text": "explicitly as a very important role not",
+        "start": 36.44,
+        "duration": 7.27
+    },
+    {
+        "text": "just diagnosis not just better disease",
+        "start": 39.719,
+        "duration": 6.331
+    },
+    {
+        "text": "management but also managing the costs",
+        "start": 43.71,
+        "duration": 3.48
+    },
+    {
+        "text": "and benefits of technologies",
+        "start": 46.05,
+        "duration": 3.029
+    },
+    {
+        "text": "understanding them and we can imagine",
+        "start": 47.19,
+        "duration": 5.009
+    },
+    {
+        "text": "new kinds of of triaging technologies",
+        "start": 49.079,
+        "duration": 7.491
+    },
+    {
+        "text": "new ways to have automation to assist",
+        "start": 52.199,
+        "duration": 7.471
+    },
+    {
+        "text": "human physicians especially after",
+        "start": 56.57,
+        "duration": 4.899
+    },
+    {
+        "text": "Wendell's comment in places where the",
+        "start": 59.67,
+        "duration": 3.689
+    },
+    {
+        "text": "technology is not available and I want",
+        "start": 61.469,
+        "duration": 4.531
+    },
+    {
+        "text": "you to roll a brief video of a",
+        "start": 63.359,
+        "duration": 8.55
+    },
+    {
+        "text": "technology something that's relatively",
+        "start": 66.0,
+        "duration": 8.159
+    },
+    {
+        "text": "clunky but try to remove the clunky",
+        "start": 71.909,
+        "duration": 4.081
+    },
+    {
+        "text": "aspect of it from your minds because we",
+        "start": 74.159,
+        "duration": 3.871
+    },
+    {
+        "text": "can be much more fluid and smooth about",
+        "start": 75.99,
+        "duration": 4.22
+    },
+    {
+        "text": "these technologies these days especially",
+        "start": 78.03,
+        "duration": 4.71
+    },
+    {
+        "text": "but we're actually going to show how he",
+        "start": 80.21,
+        "duration": 5.589
+    },
+    {
+        "text": "fielded what's called a Bayesian network",
+        "start": 82.74,
+        "duration": 7.5
+    },
+    {
+        "text": "model built by who is known someone who",
+        "start": 85.799,
+        "duration": 5.971
+    },
+    {
+        "text": "was known as the Pope of Pediatrics",
+        "start": 90.24,
+        "duration": 4.86
+    },
+    {
+        "text": "Richard Berman one of the co editors and",
+        "start": 91.77,
+        "duration": 5.309
+    },
+    {
+        "text": "years ago of the nelsons technology I",
+        "start": 95.1,
+        "duration": 6.39
+    },
+    {
+        "text": "mean textbook in in pediatrics and he",
+        "start": 97.079,
+        "duration": 8.25
+    },
+    {
+        "text": "built about 15 to 20 models each looking",
+        "start": 101.49,
+        "duration": 5.73
+    },
+    {
+        "text": "for a chief complaint and then helping",
+        "start": 105.329,
+        "duration": 4.141
+    },
+    {
+        "text": "to diagnose the problem in a in a in a",
+        "start": 107.22,
+        "duration": 5.85
+    },
+    {
+        "text": "toddler or baby and let me show you this",
+        "start": 109.47,
+        "duration": 5.399
+    },
+    {
+        "text": "example of what happens when we try to",
+        "start": 113.07,
+        "duration": 5.089
+    },
+    {
+        "text": "apply this with a dialogue model",
+        "start": 114.869,
+        "duration": 3.29
+    },
+    {
+        "text": "hi namaste Bobcats Largent hi thanks for",
+        "start": 129.52,
+        "duration": 7.51
+    },
+    {
+        "text": "coming to the triage kiosk I've been",
+        "start": 134.69,
+        "duration": 3.9
+    },
+    {
+        "text": "touching with the best doctors in the",
+        "start": 137.03,
+        "duration": 4.2
+    },
+    {
+        "text": "world are you here for your child or",
+        "start": 138.59,
+        "duration": 4.88
+    },
+    {
+        "text": "yourself for my child",
+        "start": 141.23,
+        "duration": 5.22
+    },
+    {
+        "text": "so how can I help you he's been having",
+        "start": 143.47,
+        "duration": 3.79
+    },
+    {
+        "text": "diarrhea",
+        "start": 146.45,
+        "duration": 4.02
+    },
+    {
+        "text": "oh no sorry to hear that",
+        "start": 147.26,
+        "duration": 6.75
+    },
+    {
+        "text": "hi there what's your name my name is",
+        "start": 150.47,
+        "duration": 6.12
+    },
+    {
+        "text": "mano and how old are you",
+        "start": 154.01,
+        "duration": 8.33
+    },
+    {
+        "text": "sex so six years old right almost seven",
+        "start": 156.59,
+        "duration": 8.58
+    },
+    {
+        "text": "okay seven years old",
+        "start": 162.34,
+        "duration": 7.66
+    },
+    {
+        "text": "have you felt nauseous no I'm sorry has",
+        "start": 165.17,
+        "duration": 9.02
+    },
+    {
+        "text": "your child been vomiting at all no okay",
+        "start": 170.0,
+        "duration": 7.76
+    },
+    {
+        "text": "so let's see has there been a fever a",
+        "start": 174.19,
+        "duration": 6.37
+    },
+    {
+        "text": "slight have you been feeling tired",
+        "start": 177.76,
+        "duration": 3.4
+    },
+    {
+        "text": "lately",
+        "start": 180.56,
+        "duration": 5.82
+    },
+    {
+        "text": "yes let's see how about abdominal pains",
+        "start": 181.16,
+        "duration": 7.98
+    },
+    {
+        "text": "it's not complaining about that how's",
+        "start": 186.38,
+        "duration": 6.48
+    },
+    {
+        "text": "your tummy been hurting yes oh I'm",
+        "start": 189.14,
+        "duration": 6.36
+    },
+    {
+        "text": "really sorry I hope it will feel better",
+        "start": 192.86,
+        "duration": 6.57
+    },
+    {
+        "text": "soon okay has your child been losing",
+        "start": 195.5,
+        "duration": 7.44
+    },
+    {
+        "text": "weight lately no that's okay",
+        "start": 199.43,
+        "duration": 5.43
+    },
+    {
+        "text": "have you noticed whether your child's",
+        "start": 202.94,
+        "duration": 4.56
+    },
+    {
+        "text": "stool looks funny is it black or darker",
+        "start": 204.86,
+        "duration": 3.39
+    },
+    {
+        "text": "than usual",
+        "start": 207.5,
+        "duration": 4.43
+    },
+    {
+        "text": "it's talker than usual okay let's see",
+        "start": 208.25,
+        "duration": 6.03
+    },
+    {
+        "text": "considering everything you told me I'd",
+        "start": 211.93,
+        "duration": 4.059
+    },
+    {
+        "text": "like to schedule an appointment with the",
+        "start": 214.28,
+        "duration": 4.62
+    },
+    {
+        "text": "doctor just to be sure however not to",
+        "start": 215.989,
+        "duration": 4.621
+    },
+    {
+        "text": "worry I'm not that concerned at this",
+        "start": 218.9,
+        "duration": 5.19
+    },
+    {
+        "text": "point can you bring your child to see",
+        "start": 220.61,
+        "duration": 7.07
+    },
+    {
+        "text": "the doctor this Friday at 10 a.m. yes",
+        "start": 224.09,
+        "duration": 6.66
+    },
+    {
+        "text": "great hope you'll feel better and we'll",
+        "start": 227.68,
+        "duration": 8.25
+    },
+    {
+        "text": "see you then bye bye bye thank you",
+        "start": 230.75,
+        "duration": 5.18
+    },
+    {
+        "text": "now there is a nice example of reach",
+        "start": 236.23,
+        "duration": 4.69
+    },
+    {
+        "text": "that would otherwise probably not be",
+        "start": 239.15,
+        "duration": 3.36
+    },
+    {
+        "text": "passing and I think it was a nice",
+        "start": 240.92,
+        "duration": 3.99
+    },
+    {
+        "text": "example of that idea the decision",
+        "start": 242.51,
+        "duration": 5.13
+    },
+    {
+        "text": "process that if it's not necessary then",
+        "start": 244.91,
+        "duration": 4.53
+    },
+    {
+        "text": "it shouldn't have to come to the",
+        "start": 247.64,
+        "duration": 4.61
+    },
+    {
+        "text": "hospital may turn out that he ate a",
+        "start": 249.44,
+        "duration": 6.48
+    },
+    {
+        "text": "little bug or something and then it's",
+        "start": 252.25,
+        "duration": 4.209
+    },
+    {
+        "text": "fine",
+        "start": 255.92,
+        "duration": 2.73
+    },
+    {
+        "text": "but if it's necessary then the",
+        "start": 256.459,
+        "duration": 6.21
+    },
+    {
+        "text": "additional costs both the emotional cost",
+        "start": 258.65,
+        "duration": 6.419
+    },
+    {
+        "text": "as well as the financial costs are worth",
+        "start": 262.669,
+        "duration": 4.921
+    },
+    {
+        "text": "bringing the child in with with the",
+        "start": 265.069,
+        "duration": 4.561
+    },
+    {
+        "text": "mother so I think this is a nice example",
+        "start": 267.59,
+        "duration": 5.46
+    },
+    {
+        "text": "of how to make the decision earlier and",
+        "start": 269.63,
+        "duration": 5.37
+    },
+    {
+        "text": "sort out many of the unnecessary",
+        "start": 273.05,
+        "duration": 4.08
+    },
+    {
+        "text": "hospital visits that really also drive",
+        "start": 275.0,
+        "duration": 4.229
+    },
+    {
+        "text": "up the cost and I also just really",
+        "start": 277.13,
+        "duration": 3.74
+    },
+    {
+        "text": "really stressful to people",
+        "start": 279.229,
+        "duration": 9.83
+    },
+    {
+        "text": "[Music]",
+        "start": 280.87,
+        "duration": 8.189
+    }
+]

@@ -1,0 +1,3032 @@
+[
+    {
+        "text": "[Music]",
+        "start": 0.0,
+        "duration": 3.82
+    },
+    {
+        "text": "please welcome Jeffrey Hinton and Cave",
+        "start": 0.85,
+        "duration": 18.81
+    },
+    {
+        "text": "meds so unlike everyone else who has",
+        "start": 3.82,
+        "duration": 18.36
+    },
+    {
+        "text": "walked onto the stage we are going to",
+        "start": 19.66,
+        "duration": 4.53
+    },
+    {
+        "text": "stay standing him but there's a good",
+        "start": 22.18,
+        "duration": 2.87
+    },
+    {
+        "text": "reason for that",
+        "start": 24.19,
+        "duration": 4.92
+    },
+    {
+        "text": "due to a back problem Geoffrey Hinton",
+        "start": 25.05,
+        "duration": 8.59
+    },
+    {
+        "text": "last sat down in June of 2005 and he",
+        "start": 29.11,
+        "duration": 7.949
+    },
+    {
+        "text": "says that was a mistake so we're not",
+        "start": 33.64,
+        "duration": 4.739
+    },
+    {
+        "text": "going to make the same mistake today",
+        "start": 37.059,
+        "duration": 5.42
+    },
+    {
+        "text": "we're gonna stand and work to the point",
+        "start": 38.379,
+        "duration": 6.18
+    },
+    {
+        "text": "everything we've been talking about",
+        "start": 42.479,
+        "duration": 4.0
+    },
+    {
+        "text": "today I don't think it's an exaggeration",
+        "start": 44.559,
+        "duration": 5.34
+    },
+    {
+        "text": "to say for just about everything can be",
+        "start": 46.479,
+        "duration": 6.27
+    },
+    {
+        "text": "traced back to Jeff's work he didn't",
+        "start": 49.899,
+        "duration": 4.861
+    },
+    {
+        "text": "invent neural nets but there was",
+        "start": 52.749,
+        "duration": 4.23
+    },
+    {
+        "text": "research he did as far back as the 80s",
+        "start": 54.76,
+        "duration": 4.86
+    },
+    {
+        "text": "that were instrumental to the evolution",
+        "start": 56.979,
+        "duration": 5.04
+    },
+    {
+        "text": "of this technology which is now",
+        "start": 59.62,
+        "duration": 4.679
+    },
+    {
+        "text": "reinventing image recognition and speech",
+        "start": 62.019,
+        "duration": 6.841
+    },
+    {
+        "text": "recognition language translation that",
+        "start": 64.299,
+        "duration": 6.6
+    },
+    {
+        "text": "that that is exactly what has happened",
+        "start": 68.86,
+        "duration": 5.369
+    },
+    {
+        "text": "over the past five years but because",
+        "start": 70.899,
+        "duration": 5.161
+    },
+    {
+        "text": "we've got you here maybe you could",
+        "start": 74.229,
+        "duration": 3.42
+    },
+    {
+        "text": "explain to the audience because I think",
+        "start": 76.06,
+        "duration": 3.03
+    },
+    {
+        "text": "it would help with where we're gonna go",
+        "start": 77.649,
+        "duration": 3.72
+    },
+    {
+        "text": "with this conversation what in that",
+        "start": 79.09,
+        "duration": 7.47
+    },
+    {
+        "text": "neural network is okay many of you know",
+        "start": 81.369,
+        "duration": 7.71
+    },
+    {
+        "text": "him excruciating detail and you're all",
+        "start": 86.56,
+        "duration": 5.489
+    },
+    {
+        "text": "networks work that many of you don't so",
+        "start": 89.079,
+        "duration": 7.011
+    },
+    {
+        "text": "if you know just turn your ears off um a",
+        "start": 92.049,
+        "duration": 7.291
+    },
+    {
+        "text": "neural net is basically a system where",
+        "start": 96.09,
+        "duration": 6.849
+    },
+    {
+        "text": "you show the inputs inside the system",
+        "start": 99.34,
+        "duration": 5.669
+    },
+    {
+        "text": "there's lots of little processes which",
+        "start": 102.939,
+        "duration": 4.29
+    },
+    {
+        "text": "are a little bit like brain cells they",
+        "start": 105.009,
+        "duration": 3.96
+    },
+    {
+        "text": "work a little bit like brain cells they",
+        "start": 107.229,
+        "duration": 4.231
+    },
+    {
+        "text": "have connections between them and you",
+        "start": 108.969,
+        "duration": 4.11
+    },
+    {
+        "text": "learn the weights on those connections",
+        "start": 111.46,
+        "duration": 4.5
+    },
+    {
+        "text": "and by changing the weights on the",
+        "start": 113.079,
+        "duration": 4.92
+    },
+    {
+        "text": "connections you change the outputs the",
+        "start": 115.96,
+        "duration": 5.189
+    },
+    {
+        "text": "system will give so the basic problem",
+        "start": 117.999,
+        "duration": 5.16
+    },
+    {
+        "text": "with neural nets is I show you an input",
+        "start": 121.149,
+        "duration": 3.96
+    },
+    {
+        "text": "I show you the output you ought to",
+        "start": 123.159,
+        "duration": 4.471
+    },
+    {
+        "text": "produce and the neural net has to figure",
+        "start": 125.109,
+        "duration": 3.331
+    },
+    {
+        "text": "out I have to change all those",
+        "start": 127.63,
+        "duration": 3.66
+    },
+    {
+        "text": "connection strengths and there's an",
+        "start": 128.44,
+        "duration": 4.11
+    },
+    {
+        "text": "obvious algorithm for doing that which",
+        "start": 131.29,
+        "duration": 2.66
+    },
+    {
+        "text": "is you just",
+        "start": 132.55,
+        "duration": 2.689
+    },
+    {
+        "text": "sort of randomly changing on to see if",
+        "start": 133.95,
+        "duration": 2.97
+    },
+    {
+        "text": "it gets better and that's very",
+        "start": 135.239,
+        "duration": 4.86
+    },
+    {
+        "text": "inefficient there's a slightly less",
+        "start": 136.92,
+        "duration": 5.61
+    },
+    {
+        "text": "obvious algorithm which is you look at",
+        "start": 140.099,
+        "duration": 3.78
+    },
+    {
+        "text": "the difference between what came out",
+        "start": 142.53,
+        "duration": 4.349
+    },
+    {
+        "text": "with the current connection strengths",
+        "start": 143.879,
+        "duration": 5.19
+    },
+    {
+        "text": "and what you would like to come out and",
+        "start": 146.879,
+        "duration": 3.481
+    },
+    {
+        "text": "then you do some calculus and figure out",
+        "start": 149.069,
+        "duration": 2.911
+    },
+    {
+        "text": "for every connection strength how you",
+        "start": 150.36,
+        "duration": 3.03
+    },
+    {
+        "text": "should change it to make the output a",
+        "start": 151.98,
+        "duration": 2.82
+    },
+    {
+        "text": "little bit more likely you'd like it",
+        "start": 153.39,
+        "duration": 3.27
+    },
+    {
+        "text": "when you change all the connection sinks",
+        "start": 154.8,
+        "duration": 3.48
+    },
+    {
+        "text": "a little bit to make the output a bit",
+        "start": 156.66,
+        "duration": 3.359
+    },
+    {
+        "text": "better and you just do that for",
+        "start": 158.28,
+        "duration": 3.51
+    },
+    {
+        "text": "thousands and thousands of examples or",
+        "start": 160.019,
+        "duration": 4.44
+    },
+    {
+        "text": "millions of examples and you might think",
+        "start": 161.79,
+        "duration": 4.52
+    },
+    {
+        "text": "it would get stuck but it doesn't",
+        "start": 164.459,
+        "duration": 3.991
+    },
+    {
+        "text": "eventually get stuck but eventually gets",
+        "start": 166.31,
+        "duration": 5.32
+    },
+    {
+        "text": "stuck in a good solution and it was",
+        "start": 168.45,
+        "duration": 5.28
+    },
+    {
+        "text": "perfectly reasonable for people in",
+        "start": 171.63,
+        "duration": 3.9
+    },
+    {
+        "text": "conventional I fish intelligence I think",
+        "start": 173.73,
+        "duration": 3.78
+    },
+    {
+        "text": "these things has never work but it",
+        "start": 175.53,
+        "duration": 3.78
+    },
+    {
+        "text": "turned out when we got big datasets and",
+        "start": 177.51,
+        "duration": 4.19
+    },
+    {
+        "text": "big computers they worked amazingly well",
+        "start": 179.31,
+        "duration": 6.5
+    },
+    {
+        "text": "so just set us up for your current work",
+        "start": 181.7,
+        "duration": 6.819
+    },
+    {
+        "text": "describe specifically how we do image",
+        "start": 185.81,
+        "duration": 4.509
+    },
+    {
+        "text": "recognition nowadays you use different",
+        "start": 188.519,
+        "duration": 4.231
+    },
+    {
+        "text": "neural network techniques for different",
+        "start": 190.319,
+        "duration": 4.801
+    },
+    {
+        "text": "tasks so let's describe what we use",
+        "start": 192.75,
+        "duration": 6.45
+    },
+    {
+        "text": "today for image recognition ok so I need",
+        "start": 195.12,
+        "duration": 8.63
+    },
+    {
+        "text": "to describe this in an unusual way for",
+        "start": 199.2,
+        "duration": 6.599
+    },
+    {
+        "text": "image recognition we use a thing called",
+        "start": 203.75,
+        "duration": 5.319
+    },
+    {
+        "text": "a convolutional neural net and I'm going",
+        "start": 205.799,
+        "duration": 4.801
+    },
+    {
+        "text": "to describe a convolutional net of it",
+        "start": 209.069,
+        "duration": 3.091
+    },
+    {
+        "text": "that's not used for image recognition",
+        "start": 210.6,
+        "duration": 3.83
+    },
+    {
+        "text": "because I think it's easy to understand",
+        "start": 212.16,
+        "duration": 6.99
+    },
+    {
+        "text": "so this is a kind of net developed by",
+        "start": 214.43,
+        "duration": 6.67
+    },
+    {
+        "text": "David Dubin are among other people who's",
+        "start": 219.15,
+        "duration": 6.809
+    },
+    {
+        "text": "a professor of T let's suppose you have",
+        "start": 221.1,
+        "duration": 7.199
+    },
+    {
+        "text": "a molecule and you want to predict what",
+        "start": 225.959,
+        "duration": 4.261
+    },
+    {
+        "text": "its properties will be and all I give",
+        "start": 228.299,
+        "duration": 3.241
+    },
+    {
+        "text": "you is the molecular structure I just",
+        "start": 230.22,
+        "duration": 4.109
+    },
+    {
+        "text": "give you the chain of atoms so let's say",
+        "start": 231.54,
+        "duration": 4.41
+    },
+    {
+        "text": "you've got a carbon and a carbon and a",
+        "start": 234.329,
+        "duration": 4.621
+    },
+    {
+        "text": "nitrogen oxygen so we can have a first",
+        "start": 235.95,
+        "duration": 4.86
+    },
+    {
+        "text": "level description which I just gave you",
+        "start": 238.95,
+        "duration": 5.039
+    },
+    {
+        "text": "which is at each atom I can tell you",
+        "start": 240.81,
+        "duration": 5.579
+    },
+    {
+        "text": "what that item is there's as the first",
+        "start": 243.989,
+        "duration": 4.981
+    },
+    {
+        "text": "level features and maybe I tell you not",
+        "start": 246.389,
+        "duration": 4.44
+    },
+    {
+        "text": "with a word but with a bunch of numbers",
+        "start": 248.97,
+        "duration": 3.72
+    },
+    {
+        "text": "but a bunch of numbers specific to that",
+        "start": 250.829,
+        "duration": 6.75
+    },
+    {
+        "text": "atom then at the next level I make a",
+        "start": 252.69,
+        "duration": 7.289
+    },
+    {
+        "text": "richer description of that atom am i",
+        "start": 257.579,
+        "duration": 4.921
+    },
+    {
+        "text": "richer description is a bunch of numbers",
+        "start": 259.979,
+        "duration": 4.591
+    },
+    {
+        "text": "that tell me not only about that item",
+        "start": 262.5,
+        "duration": 4.62
+    },
+    {
+        "text": "but about what his neighbors are so the",
+        "start": 264.57,
+        "duration": 4.26
+    },
+    {
+        "text": "next level up I've got this bunch of",
+        "start": 267.12,
+        "duration": 4.38
+    },
+    {
+        "text": "numbers that says this is a carbon with",
+        "start": 268.83,
+        "duration": 4.14
+    },
+    {
+        "text": "a carbonyl one's had an election on the",
+        "start": 271.5,
+        "duration": 3.63
+    },
+    {
+        "text": "other side I also say on the nitrogen",
+        "start": 272.97,
+        "duration": 3.45
+    },
+    {
+        "text": "this is a nitrogen with the carbon on",
+        "start": 275.13,
+        "duration": 3.75
+    },
+    {
+        "text": "one side not sure on the other side and",
+        "start": 276.42,
+        "duration": 5.97
+    },
+    {
+        "text": "then at the next level up I get this is",
+        "start": 278.88,
+        "duration": 5.55
+    },
+    {
+        "text": "a carbon and on one side it's got a",
+        "start": 282.39,
+        "duration": 3.45
+    },
+    {
+        "text": "nitrogen that's got an oxygen attached",
+        "start": 284.43,
+        "duration": 1.86
+    },
+    {
+        "text": "to it",
+        "start": 285.84,
+        "duration": 3.96
+    },
+    {
+        "text": "and so on as you go up and when you get",
+        "start": 286.29,
+        "duration": 4.95
+    },
+    {
+        "text": "to a pretty high level you have this big",
+        "start": 289.8,
+        "duration": 4.02
+    },
+    {
+        "text": "vector of numbers that really tells you",
+        "start": 291.24,
+        "duration": 4.38
+    },
+    {
+        "text": "a lot about that atom because it's",
+        "start": 293.82,
+        "duration": 3.06
+    },
+    {
+        "text": "gradually getting you textual",
+        "start": 295.62,
+        "duration": 3.45
+    },
+    {
+        "text": "information into the description of that",
+        "start": 296.88,
+        "duration": 5.55
+    },
+    {
+        "text": "item okay now let's go to convolution on",
+        "start": 299.07,
+        "duration": 6.03
+    },
+    {
+        "text": "your lights for vision you start angle",
+        "start": 302.43,
+        "duration": 4.47
+    },
+    {
+        "text": "and I'm gonna simplify but this is the",
+        "start": 305.1,
+        "duration": 4.17
+    },
+    {
+        "text": "essence of the idea you start off with a",
+        "start": 306.9,
+        "duration": 4.65
+    },
+    {
+        "text": "grid of pixels and all you know is the",
+        "start": 309.27,
+        "duration": 5.4
+    },
+    {
+        "text": "RGB values of these pixels and so that's",
+        "start": 311.55,
+        "duration": 4.82
+    },
+    {
+        "text": "your bottom level description of a pixel",
+        "start": 314.67,
+        "duration": 3.81
+    },
+    {
+        "text": "then I'm gonna get a slightly richer",
+        "start": 316.37,
+        "duration": 4.9
+    },
+    {
+        "text": "description of pixel that might say this",
+        "start": 318.48,
+        "duration": 4.89
+    },
+    {
+        "text": "is a pixel with these RGB values but it",
+        "start": 321.27,
+        "duration": 4.86
+    },
+    {
+        "text": "has brighter pixels to this side and",
+        "start": 323.37,
+        "duration": 4.41
+    },
+    {
+        "text": "darker pixels to this side at least it",
+        "start": 326.13,
+        "duration": 2.82
+    },
+    {
+        "text": "does in the right channel but in the",
+        "start": 327.78,
+        "duration": 2.73
+    },
+    {
+        "text": "green Channel it's got brighter ones and",
+        "start": 328.95,
+        "duration": 3.72
+    },
+    {
+        "text": "so on so you get a description in terms",
+        "start": 330.51,
+        "duration": 4.62
+    },
+    {
+        "text": "of the neighboring pixels of what's",
+        "start": 332.67,
+        "duration": 4.38
+    },
+    {
+        "text": "going on at this pixel you're getting",
+        "start": 335.13,
+        "duration": 4.23
+    },
+    {
+        "text": "contextual information and putting into",
+        "start": 337.05,
+        "duration": 5.01
+    },
+    {
+        "text": "the description of this pixel and then",
+        "start": 339.36,
+        "duration": 3.9
+    },
+    {
+        "text": "you go to the next level",
+        "start": 342.06,
+        "duration": 3.27
+    },
+    {
+        "text": "where the neighbors now already have",
+        "start": 343.26,
+        "duration": 3.45
+    },
+    {
+        "text": "some contextual information they get",
+        "start": 345.33,
+        "duration": 3.3
+    },
+    {
+        "text": "from their neighbors and so you put that",
+        "start": 346.71,
+        "duration": 3.57
+    },
+    {
+        "text": "in and so you get a richer and richer",
+        "start": 348.63,
+        "duration": 3.12
+    },
+    {
+        "text": "description of what's happening at each",
+        "start": 350.28,
+        "duration": 4.08
+    },
+    {
+        "text": "pixel that's gradually absorbing more",
+        "start": 351.75,
+        "duration": 3.93
+    },
+    {
+        "text": "and more of the information in the",
+        "start": 354.36,
+        "duration": 4.02
+    },
+    {
+        "text": "context around it until after a few",
+        "start": 355.68,
+        "duration": 5.25
+    },
+    {
+        "text": "levels or maybe nowadays after 100",
+        "start": 358.38,
+        "duration": 5.31
+    },
+    {
+        "text": "levels you get a very rich description",
+        "start": 360.93,
+        "duration": 5.46
+    },
+    {
+        "text": "of each pixel and from that you can",
+        "start": 363.69,
+        "duration": 4.32
+    },
+    {
+        "text": "start making bets about what the objects",
+        "start": 366.39,
+        "duration": 4.56
+    },
+    {
+        "text": "are in the image and suffice it to say",
+        "start": 368.01,
+        "duration": 4.41
+    },
+    {
+        "text": "that this this works pretty well",
+        "start": 370.95,
+        "duration": 3.06
+    },
+    {
+        "text": "nowadays now that we have the computing",
+        "start": 372.42,
+        "duration": 4.26
+    },
+    {
+        "text": "power and the data by some measures this",
+        "start": 374.01,
+        "duration": 6.36
+    },
+    {
+        "text": "works when identifying objects and",
+        "start": 376.68,
+        "duration": 4.71
+    },
+    {
+        "text": "photos for instance better than it",
+        "start": 380.37,
+        "duration": 3.0
+    },
+    {
+        "text": "better than a human but you're now on",
+        "start": 381.39,
+        "duration": 5.04
+    },
+    {
+        "text": "record is saying that it's flawed which",
+        "start": 383.37,
+        "duration": 5.67
+    },
+    {
+        "text": "it is why why is it flaw what are the",
+        "start": 386.43,
+        "duration": 6.78
+    },
+    {
+        "text": "limitations of this concept okay",
+        "start": 389.04,
+        "duration": 7.29
+    },
+    {
+        "text": "so a long time ago I used to be a",
+        "start": 393.21,
+        "duration": 4.709
+    },
+    {
+        "text": "psychologist I never very interested",
+        "start": 396.33,
+        "duration": 5.79
+    },
+    {
+        "text": "mental imagery and my develops and",
+        "start": 397.919,
+        "duration": 6.15
+    },
+    {
+        "text": "theories about what happens when people",
+        "start": 402.12,
+        "duration": 5.639
+    },
+    {
+        "text": "do mental imagery and it's pretty clear",
+        "start": 404.069,
+        "duration": 5.82
+    },
+    {
+        "text": "that whenever person understands the",
+        "start": 407.759,
+        "duration": 5.101
+    },
+    {
+        "text": "shape they do it by taking a coordinate",
+        "start": 409.889,
+        "duration": 5.191
+    },
+    {
+        "text": "system and understanding where the",
+        "start": 412.86,
+        "duration": 4.44
+    },
+    {
+        "text": "pieces of the shape are relative to the",
+        "start": 415.08,
+        "duration": 4.22
+    },
+    {
+        "text": "coordinate system",
+        "start": 417.3,
+        "duration": 4.32
+    },
+    {
+        "text": "so for example if you take a capital",
+        "start": 419.3,
+        "duration": 4.989
+    },
+    {
+        "text": "letter H if I take a vertical coordinate",
+        "start": 421.62,
+        "duration": 6.21
+    },
+    {
+        "text": "system that's a capital letter H if I",
+        "start": 424.289,
+        "duration": 5.431
+    },
+    {
+        "text": "turn my coordinate system believe the H",
+        "start": 427.83,
+        "duration": 4.08
+    },
+    {
+        "text": "Rho was and see it with the top this way",
+        "start": 429.72,
+        "duration": 4.65
+    },
+    {
+        "text": "that's a capital letter I with the",
+        "start": 431.91,
+        "duration": 4.55
+    },
+    {
+        "text": "rather large bar at the top and bottom",
+        "start": 434.37,
+        "duration": 5.19
+    },
+    {
+        "text": "okay so when I change coordinate system",
+        "start": 436.46,
+        "duration": 4.78
+    },
+    {
+        "text": "on you it changed the identity of the",
+        "start": 439.56,
+        "duration": 4.59
+    },
+    {
+        "text": "shape now a convolution that can't do",
+        "start": 441.24,
+        "duration": 5.01
+    },
+    {
+        "text": "that the convolutional marriage you show",
+        "start": 444.15,
+        "duration": 4.23
+    },
+    {
+        "text": "it something it does some processing and",
+        "start": 446.25,
+        "duration": 4.199
+    },
+    {
+        "text": "it doesn't get different representations",
+        "start": 448.38,
+        "duration": 3.87
+    },
+    {
+        "text": "depending on what coordinate frame it",
+        "start": 450.449,
+        "duration": 4.59
+    },
+    {
+        "text": "chose to impose and in order to show you",
+        "start": 452.25,
+        "duration": 5.46
+    },
+    {
+        "text": "what a strong phenomenon this is I'm",
+        "start": 455.039,
+        "duration": 4.951
+    },
+    {
+        "text": "going to show you a three dimensional",
+        "start": 457.71,
+        "duration": 5.639
+    },
+    {
+        "text": "puzzle and the three dimensional puzzle",
+        "start": 459.99,
+        "duration": 9.209
+    },
+    {
+        "text": "you just have two pieces okay so and the",
+        "start": 463.349,
+        "duration": 8.761
+    },
+    {
+        "text": "pieces aren't very complicated and you",
+        "start": 469.199,
+        "duration": 4.111
+    },
+    {
+        "text": "have to put them together to make a",
+        "start": 472.11,
+        "duration": 4.589
+    },
+    {
+        "text": "tetrahedron and just so you can't say",
+        "start": 473.31,
+        "duration": 5.12
+    },
+    {
+        "text": "you didn't know what a shout region is",
+        "start": 476.699,
+        "duration": 5.101
+    },
+    {
+        "text": "most pyramids have a square base like",
+        "start": 478.43,
+        "duration": 5.769
+    },
+    {
+        "text": "the Egyptian ones imagine a pyramid with",
+        "start": 481.8,
+        "duration": 4.369
+    },
+    {
+        "text": "a triangular base so it's base is a",
+        "start": 484.199,
+        "duration": 4.65
+    },
+    {
+        "text": "triangle and its sides the triangles",
+        "start": 486.169,
+        "duration": 4.901
+    },
+    {
+        "text": "sort three faces of triangles and a base",
+        "start": 488.849,
+        "duration": 4.201
+    },
+    {
+        "text": "and it's got a point at the top and",
+        "start": 491.07,
+        "duration": 3.599
+    },
+    {
+        "text": "that's how you think about the",
+        "start": 493.05,
+        "duration": 4.41
+    },
+    {
+        "text": "tetrahedron so you're using a coordinate",
+        "start": 494.669,
+        "duration": 5.191
+    },
+    {
+        "text": "frame in which there's an axis that goes",
+        "start": 497.46,
+        "duration": 4.35
+    },
+    {
+        "text": "vertically to the point at the top and",
+        "start": 499.86,
+        "duration": 4.049
+    },
+    {
+        "text": "then for the other axes you have to make",
+        "start": 501.81,
+        "duration": 4.38
+    },
+    {
+        "text": "some decision about which way you're",
+        "start": 503.909,
+        "duration": 4.35
+    },
+    {
+        "text": "going to put those axes but you do make",
+        "start": 506.19,
+        "duration": 4.77
+    },
+    {
+        "text": "that decision and you see a tetrahedron",
+        "start": 508.259,
+        "duration": 6.96
+    },
+    {
+        "text": "that way if I give you two pieces each",
+        "start": 510.96,
+        "duration": 6.9
+    },
+    {
+        "text": "of which is half of a tetrahedron an",
+        "start": 515.219,
+        "duration": 5.161
+    },
+    {
+        "text": "incredible thing happens which is you",
+        "start": 517.86,
+        "duration": 5.16
+    },
+    {
+        "text": "cannot make the tetrahedron and cake",
+        "start": 520.38,
+        "duration": 5.18
+    },
+    {
+        "text": "Metz I gave it to Kate meds",
+        "start": 523.02,
+        "duration": 3.89
+    },
+    {
+        "text": "he spent a minister who's trying to make",
+        "start": 525.56,
+        "duration": 3.27
+    },
+    {
+        "text": "a fusion and he couldn't and he's",
+        "start": 526.91,
+        "duration": 4.28
+    },
+    {
+        "text": "perfectly normal",
+        "start": 528.83,
+        "duration": 5.79
+    },
+    {
+        "text": "just occasionally you get some really",
+        "start": 531.19,
+        "duration": 5.53
+    },
+    {
+        "text": "annoying person who just does it right",
+        "start": 534.62,
+        "duration": 5.01
+    },
+    {
+        "text": "away a particular really annoying person",
+        "start": 536.72,
+        "duration": 4.77
+    },
+    {
+        "text": "is john g andrea who's the senior vice",
+        "start": 539.63,
+        "duration": 3.39
+    },
+    {
+        "text": "president of Google when I was",
+        "start": 541.49,
+        "duration": 2.91
+    },
+    {
+        "text": "explaining this room is showing him this",
+        "start": 543.02,
+        "duration": 2.49
+    },
+    {
+        "text": "neat trick that nobody could do anything",
+        "start": 544.4,
+        "duration": 5.96
+    },
+    {
+        "text": "oh what's the problem very long um I",
+        "start": 545.51,
+        "duration": 8.99
+    },
+    {
+        "text": "will now show you these two pieces",
+        "start": 550.36,
+        "duration": 4.14
+    },
+    {
+        "text": "here's the two pieces they're the same",
+        "start": 555.49,
+        "duration": 5.28
+    },
+    {
+        "text": "you can probably see what they look like",
+        "start": 557.57,
+        "duration": 5.22
+    },
+    {
+        "text": "they're very simple pieces are the same",
+        "start": 560.77,
+        "duration": 4.69
+    },
+    {
+        "text": "and here's what people do they go no",
+        "start": 562.79,
+        "duration": 5.39
+    },
+    {
+        "text": "that's what I said - drew I'm let's see",
+        "start": 565.46,
+        "duration": 8.49
+    },
+    {
+        "text": "that's not a tetrahedron blue that's not",
+        "start": 568.18,
+        "duration": 7.12
+    },
+    {
+        "text": "a saturation and they keep going like",
+        "start": 573.95,
+        "duration": 5.18
+    },
+    {
+        "text": "that okay now I took this these",
+        "start": 575.3,
+        "duration": 8.19
+    },
+    {
+        "text": "instruments of torture to MIT and I did",
+        "start": 579.13,
+        "duration": 6.58
+    },
+    {
+        "text": "an experiment where the horizontal axis",
+        "start": 583.49,
+        "duration": 4.02
+    },
+    {
+        "text": "is the number of years you've been a",
+        "start": 585.71,
+        "duration": 4.2
+    },
+    {
+        "text": "professor at MIT and the vertical axis",
+        "start": 587.51,
+        "duration": 5.64
+    },
+    {
+        "text": "is the number of minutes it takes you if",
+        "start": 589.91,
+        "duration": 4.89
+    },
+    {
+        "text": "you've been a professor at MIT phoning a",
+        "start": 593.15,
+        "duration": 2.939
+    },
+    {
+        "text": "year or two you can do it in a few",
+        "start": 594.8,
+        "duration": 3.3
+    },
+    {
+        "text": "minutes which is still pretty",
+        "start": 596.089,
+        "duration": 3.511
+    },
+    {
+        "text": "extraordinary given that these are two",
+        "start": 598.1,
+        "duration": 3.15
+    },
+    {
+        "text": "pieces you which has five faces now",
+        "start": 599.6,
+        "duration": 4.08
+    },
+    {
+        "text": "identical and they make a tetrahedron so",
+        "start": 601.25,
+        "duration": 4.65
+    },
+    {
+        "text": "you need to explain that right this is",
+        "start": 603.68,
+        "duration": 5.34
+    },
+    {
+        "text": "bizarre if you've got ten year at MIT",
+        "start": 605.9,
+        "duration": 7.38
+    },
+    {
+        "text": "I've tried on two people with tenure and",
+        "start": 609.02,
+        "duration": 7.94
+    },
+    {
+        "text": "it takes you an infinite amount of time",
+        "start": 613.28,
+        "duration": 3.68
+    },
+    {
+        "text": "this is what ten years meant alright um",
+        "start": 617.35,
+        "duration": 9.91
+    },
+    {
+        "text": "so one of them refused to do it",
+        "start": 622.269,
+        "duration": 9.221
+    },
+    {
+        "text": "and the other one was very rate he",
+        "start": 627.26,
+        "duration": 5.639
+    },
+    {
+        "text": "looked at the two pieces he didn't pick",
+        "start": 631.49,
+        "duration": 3.81
+    },
+    {
+        "text": "them up he just looked at them and he",
+        "start": 632.899,
+        "duration": 4.711
+    },
+    {
+        "text": "looked at him for a long long time and",
+        "start": 635.3,
+        "duration": 3.87
+    },
+    {
+        "text": "then he wrote down a proof that it was",
+        "start": 637.61,
+        "duration": 5.49
+    },
+    {
+        "text": "impossible he was called Kyle Hewitt",
+        "start": 639.17,
+        "duration": 5.75
+    },
+    {
+        "text": "this was a long time ago",
+        "start": 643.1,
+        "duration": 6.63
+    },
+    {
+        "text": "um I'm now going to show you how it",
+        "start": 644.92,
+        "duration": 8.62
+    },
+    {
+        "text": "works so people do this no that's not a",
+        "start": 649.73,
+        "duration": 5.88
+    },
+    {
+        "text": "set region and then we do this no that's",
+        "start": 653.54,
+        "duration": 3.96
+    },
+    {
+        "text": "not a set region and what they don't do",
+        "start": 655.61,
+        "duration": 4.919
+    },
+    {
+        "text": "is that now if you look at that that's",
+        "start": 657.5,
+        "duration": 4.56
+    },
+    {
+        "text": "that's what you want it right that's the",
+        "start": 660.529,
+        "duration": 2.911
+    },
+    {
+        "text": "tetrahedron in case you didn't know what",
+        "start": 662.06,
+        "duration": 3.839
+    },
+    {
+        "text": "it was it makes that reading very easy",
+        "start": 663.44,
+        "duration": 4.829
+    },
+    {
+        "text": "you just have to do that you just have",
+        "start": 665.899,
+        "duration": 3.721
+    },
+    {
+        "text": "to take the square face and put it",
+        "start": 668.269,
+        "duration": 3.69
+    },
+    {
+        "text": "together like that so why can't people",
+        "start": 669.62,
+        "duration": 6.48
+    },
+    {
+        "text": "do that well look at the 10th region now",
+        "start": 671.959,
+        "duration": 5.761
+    },
+    {
+        "text": "and think of the access system we use on",
+        "start": 676.1,
+        "duration": 3.63
+    },
+    {
+        "text": "it there's this vertical axis goes down",
+        "start": 677.72,
+        "duration": 4.38
+    },
+    {
+        "text": "from my chin through the peak there down",
+        "start": 679.73,
+        "duration": 5.19
+    },
+    {
+        "text": "to the middle of the base and when I",
+        "start": 682.1,
+        "duration": 5.13
+    },
+    {
+        "text": "show you one of these pieces I just show",
+        "start": 684.92,
+        "duration": 5.37
+    },
+    {
+        "text": "you one you impose a coordinate system",
+        "start": 687.23,
+        "duration": 6.15
+    },
+    {
+        "text": "on this piece and it has an a long axis",
+        "start": 690.29,
+        "duration": 5.43
+    },
+    {
+        "text": "like this and it has an axis like this",
+        "start": 693.38,
+        "duration": 4.5
+    },
+    {
+        "text": "and it has an axis like this and those",
+        "start": 695.72,
+        "duration": 4.47
+    },
+    {
+        "text": "axes don't line up at all with the axis",
+        "start": 697.88,
+        "duration": 3.93
+    },
+    {
+        "text": "that you normally use for describing a",
+        "start": 700.19,
+        "duration": 5.37
+    },
+    {
+        "text": "tetrahedron and because of that you're",
+        "start": 701.81,
+        "duration": 5.79
+    },
+    {
+        "text": "incapable of seeing how this relates to",
+        "start": 705.56,
+        "duration": 5.279
+    },
+    {
+        "text": "a tetrahedron people who do solve it",
+        "start": 707.6,
+        "duration": 5.66
+    },
+    {
+        "text": "solve it by reasoning they say look",
+        "start": 710.839,
+        "duration": 4.291
+    },
+    {
+        "text": "check reading all the faces are",
+        "start": 713.26,
+        "duration": 2.53
+    },
+    {
+        "text": "triangular",
+        "start": 715.13,
+        "duration": 1.89
+    },
+    {
+        "text": "I'm never going to make this into a",
+        "start": 715.79,
+        "duration": 3.33
+    },
+    {
+        "text": "triangle so it must be these two faces",
+        "start": 717.02,
+        "duration": 5.66
+    },
+    {
+        "text": "and eventually they put them like that",
+        "start": 719.12,
+        "duration": 3.56
+    },
+    {
+        "text": "so the whole point of this well the main",
+        "start": 724.06,
+        "duration": 5.35
+    },
+    {
+        "text": "point was to have fun but the the",
+        "start": 727.16,
+        "duration": 4.32
+    },
+    {
+        "text": "subsidiary point was to try and convince",
+        "start": 729.41,
+        "duration": 3.51
+    },
+    {
+        "text": "you people doing post frames of",
+        "start": 731.48,
+        "duration": 4.59
+    },
+    {
+        "text": "reference on objects they understand",
+        "start": 732.92,
+        "duration": 4.71
+    },
+    {
+        "text": "objects using those frames of reference",
+        "start": 736.07,
+        "duration": 4.29
+    },
+    {
+        "text": "and they can't sort of overcome it",
+        "start": 737.63,
+        "duration": 4.319
+    },
+    {
+        "text": "that's intrinsic to how we see things",
+        "start": 740.36,
+        "duration": 5.87
+    },
+    {
+        "text": "and it's not what convolutional nets do",
+        "start": 741.949,
+        "duration": 7.32
+    },
+    {
+        "text": "so because this is intrinsic to the way",
+        "start": 746.23,
+        "duration": 6.37
+    },
+    {
+        "text": "we see you want to produce a computing",
+        "start": 749.269,
+        "duration": 4.331
+    },
+    {
+        "text": "system that",
+        "start": 752.6,
+        "duration": 3.07
+    },
+    {
+        "text": "that imposes that same coordinate system",
+        "start": 753.6,
+        "duration": 4.26
+    },
+    {
+        "text": "you talk about a 3d porn system on",
+        "start": 755.67,
+        "duration": 4.74
+    },
+    {
+        "text": "images and thus can better recognize",
+        "start": 757.86,
+        "duration": 4.229
+    },
+    {
+        "text": "them right yes and I have another piece",
+        "start": 760.41,
+        "duration": 5.119
+    },
+    {
+        "text": "of logic this is impeccable logic",
+        "start": 762.089,
+        "duration": 5.881
+    },
+    {
+        "text": "there's two systems that don't have any",
+        "start": 765.529,
+        "duration": 5.29
+    },
+    {
+        "text": "problem with viewpoint one is our",
+        "start": 767.97,
+        "duration": 4.95
+    },
+    {
+        "text": "perceptual system and the other is",
+        "start": 770.819,
+        "duration": 3.171
+    },
+    {
+        "text": "computer graphics",
+        "start": 772.92,
+        "duration": 4.5
+    },
+    {
+        "text": "therefore they work the same way that's",
+        "start": 773.99,
+        "duration": 6.67
+    },
+    {
+        "text": "natural reasoning um so in computer",
+        "start": 777.42,
+        "duration": 6.089
+    },
+    {
+        "text": "graphics what you need to do is someone",
+        "start": 780.66,
+        "duration": 6.599
+    },
+    {
+        "text": "says make a house and so you figure out",
+        "start": 783.509,
+        "duration": 4.921
+    },
+    {
+        "text": "that they tell you where the house",
+        "start": 787.259,
+        "duration": 4.08
+    },
+    {
+        "text": "should be so now you want to know where",
+        "start": 788.43,
+        "duration": 5.339
+    },
+    {
+        "text": "the door should be well you know the",
+        "start": 791.339,
+        "duration": 4.321
+    },
+    {
+        "text": "relationship between the house and the",
+        "start": 793.769,
+        "duration": 4.62
+    },
+    {
+        "text": "door and sort of mathematically how'd",
+        "start": 795.66,
+        "duration": 4.409
+    },
+    {
+        "text": "you think of that well you impose a",
+        "start": 798.389,
+        "duration": 3.361
+    },
+    {
+        "text": "frame of reference on the house and you",
+        "start": 800.069,
+        "duration": 3.181
+    },
+    {
+        "text": "propose a frame of reference on the door",
+        "start": 801.75,
+        "duration": 3.389
+    },
+    {
+        "text": "you have two coordinate systems one for",
+        "start": 803.25,
+        "duration": 4.68
+    },
+    {
+        "text": "the house and one for the door and you",
+        "start": 805.139,
+        "duration": 5.851
+    },
+    {
+        "text": "store inside the computer as part of the",
+        "start": 807.93,
+        "duration": 5.639
+    },
+    {
+        "text": "knowledge about what a house is what the",
+        "start": 810.99,
+        "duration": 4.14
+    },
+    {
+        "text": "relationship is between those two",
+        "start": 813.569,
+        "duration": 3.781
+    },
+    {
+        "text": "coordinate systems how you convert from",
+        "start": 815.13,
+        "duration": 3.42
+    },
+    {
+        "text": "the coordinate system for the house of",
+        "start": 817.35,
+        "duration": 2.58
+    },
+    {
+        "text": "the coordinate system for the door and",
+        "start": 818.55,
+        "duration": 3.51
+    },
+    {
+        "text": "then for the door if you want to know",
+        "start": 819.93,
+        "duration": 3.36
+    },
+    {
+        "text": "where the doorknob is you know whether",
+        "start": 822.06,
+        "duration": 2.639
+    },
+    {
+        "text": "you know the coordinate system for the",
+        "start": 823.29,
+        "duration": 2.64
+    },
+    {
+        "text": "doorknob and you know where doorknobs",
+        "start": 824.699,
+        "duration": 2.94
+    },
+    {
+        "text": "are relative to doors and so on so",
+        "start": 825.93,
+        "duration": 3.029
+    },
+    {
+        "text": "computer graphics starts with the whole",
+        "start": 827.639,
+        "duration": 3.75
+    },
+    {
+        "text": "object and goes down until it gets",
+        "start": 828.959,
+        "duration": 3.75
+    },
+    {
+        "text": "primitive little things like little",
+        "start": 831.389,
+        "duration": 3.661
+    },
+    {
+        "text": "triangles and then it does rendering",
+        "start": 832.709,
+        "duration": 4.32
+    },
+    {
+        "text": "which means then it starts dealing with",
+        "start": 835.05,
+        "duration": 3.87
+    },
+    {
+        "text": "properties of light and surfaces and",
+        "start": 837.029,
+        "duration": 4.201
+    },
+    {
+        "text": "actually producing pixels but up to that",
+        "start": 838.92,
+        "duration": 5.94
+    },
+    {
+        "text": "point is just doing geometry so if you",
+        "start": 841.23,
+        "duration": 6.63
+    },
+    {
+        "text": "believe we should use the same kind of",
+        "start": 844.86,
+        "duration": 4.229
+    },
+    {
+        "text": "methods for dealing with viewpoint",
+        "start": 847.86,
+        "duration": 2.849
+    },
+    {
+        "text": "variation that computer graphics does",
+        "start": 849.089,
+        "duration": 3.48
+    },
+    {
+        "text": "because it deals with viewpoint very",
+        "start": 850.709,
+        "duration": 4.05
+    },
+    {
+        "text": "well you want to do the same thing in",
+        "start": 852.569,
+        "duration": 3.361
+    },
+    {
+        "text": "Reverse you want to start with the",
+        "start": 854.759,
+        "duration": 4.19
+    },
+    {
+        "text": "pixels you want to do an initial stage",
+        "start": 855.93,
+        "duration": 6.93
+    },
+    {
+        "text": "that unfix the properties of light and",
+        "start": 858.949,
+        "duration": 7.12
+    },
+    {
+        "text": "surfaces then gets you to the solid",
+        "start": 862.86,
+        "duration": 5.839
+    },
+    {
+        "text": "geometry of little pieces of surface and",
+        "start": 866.069,
+        "duration": 5.13
+    },
+    {
+        "text": "then from there you want to put pieces",
+        "start": 868.699,
+        "duration": 7.39
+    },
+    {
+        "text": "together to make bigger pieces and in",
+        "start": 871.199,
+        "duration": 7.681
+    },
+    {
+        "text": "order to do that with a neural net you",
+        "start": 876.089,
+        "duration": 4.201
+    },
+    {
+        "text": "want to use a very different kind of",
+        "start": 878.88,
+        "duration": 2.6
+    },
+    {
+        "text": "neural net from the kind",
+        "start": 880.29,
+        "duration": 3.68
+    },
+    {
+        "text": "use a present I should say something",
+        "start": 881.48,
+        "duration": 3.599
+    },
+    {
+        "text": "your other kind of euro let me use a",
+        "start": 883.97,
+        "duration": 3.45
+    },
+    {
+        "text": "present if you've been in the field for",
+        "start": 885.079,
+        "duration": 5.521
+    },
+    {
+        "text": "a long time like I have you know that",
+        "start": 887.42,
+        "duration": 5.609
+    },
+    {
+        "text": "the neural nets we use now there's",
+        "start": 890.6,
+        "duration": 4.109
+    },
+    {
+        "text": "nothing really special about we just",
+        "start": 893.029,
+        "duration": 4.531
+    },
+    {
+        "text": "made them up they're not that's not what",
+        "start": 894.709,
+        "duration": 5.461
+    },
+    {
+        "text": "neural nets are some people made up some",
+        "start": 897.56,
+        "duration": 3.839
+    },
+    {
+        "text": "tricks and we've got a bag of tricks it",
+        "start": 900.17,
+        "duration": 2.969
+    },
+    {
+        "text": "works pretty well but there's hundreds",
+        "start": 901.399,
+        "duration": 4.291
+    },
+    {
+        "text": "of other tricks we didn't explore just",
+        "start": 903.139,
+        "duration": 4.861
+    },
+    {
+        "text": "so you can see how primitive the current",
+        "start": 905.69,
+        "duration": 5.1
+    },
+    {
+        "text": "state of the art is we had logistic",
+        "start": 908.0,
+        "duration": 4.29
+    },
+    {
+        "text": "units so I have an input-output curve",
+        "start": 910.79,
+        "duration": 3.9
+    },
+    {
+        "text": "that looks like this it's a sigmoid like",
+        "start": 912.29,
+        "duration": 5.31
+    },
+    {
+        "text": "this and for 30 years we use those",
+        "start": 914.69,
+        "duration": 4.98
+    },
+    {
+        "text": "because we thought those were best and",
+        "start": 917.6,
+        "duration": 3.21
+    },
+    {
+        "text": "then we discovered that if the",
+        "start": 919.67,
+        "duration": 2.719
+    },
+    {
+        "text": "input-output relationship is like this",
+        "start": 920.81,
+        "duration": 4.38
+    },
+    {
+        "text": "let's fold a rectified linear unit these",
+        "start": 922.389,
+        "duration": 4.841
+    },
+    {
+        "text": "things are easier to Train so for 30",
+        "start": 925.19,
+        "duration": 4.98
+    },
+    {
+        "text": "years we used the wrong thing and then",
+        "start": 927.23,
+        "duration": 4.65
+    },
+    {
+        "text": "we found something that works better and",
+        "start": 930.17,
+        "duration": 4.5
+    },
+    {
+        "text": "then we use that well if we could be",
+        "start": 931.88,
+        "duration": 4.62
+    },
+    {
+        "text": "that dumb about something that",
+        "start": 934.67,
+        "duration": 4.95
+    },
+    {
+        "text": "straightforward just imagine how much",
+        "start": 936.5,
+        "duration": 4.74
+    },
+    {
+        "text": "we've got wrong in all the rest of your",
+        "start": 939.62,
+        "duration": 6.69
+    },
+    {
+        "text": "nets so um so we can make a different",
+        "start": 941.24,
+        "duration": 6.599
+    },
+    {
+        "text": "kind of neural net where you'd write the",
+        "start": 946.31,
+        "duration": 3.54
+    },
+    {
+        "text": "neurons into little groups I'll call",
+        "start": 947.839,
+        "duration": 4.98
+    },
+    {
+        "text": "that group of capsule and in the capsule",
+        "start": 949.85,
+        "duration": 5.849
+    },
+    {
+        "text": "you can have a bunch of numbers those",
+        "start": 952.819,
+        "duration": 4.801
+    },
+    {
+        "text": "are the activities of the neurons but",
+        "start": 955.699,
+        "duration": 3.12
+    },
+    {
+        "text": "they're going to be a bunch that go",
+        "start": 957.62,
+        "duration": 3.54
+    },
+    {
+        "text": "together in a normal neural net you just",
+        "start": 958.819,
+        "duration": 4.2
+    },
+    {
+        "text": "have lots of neurons and there's nothing",
+        "start": 961.16,
+        "duration": 3.419
+    },
+    {
+        "text": "saying these ones go with those ones and",
+        "start": 963.019,
+        "duration": 3.421
+    },
+    {
+        "text": "those ones go with over those ones it",
+        "start": 964.579,
+        "duration": 3.541
+    },
+    {
+        "text": "might learn to do that but in capsules",
+        "start": 966.44,
+        "duration": 4.23
+    },
+    {
+        "text": "we can learn to find that in advance and",
+        "start": 968.12,
+        "duration": 5.13
+    },
+    {
+        "text": "we're gonna have say 16 neurons and they",
+        "start": 970.67,
+        "duration": 5.13
+    },
+    {
+        "text": "all go together and they're gonna",
+        "start": 973.25,
+        "duration": 6.93
+    },
+    {
+        "text": "represent well this bunch of neurons is",
+        "start": 975.8,
+        "duration": 6.87
+    },
+    {
+        "text": "going to get active there'll be an extra",
+        "start": 980.18,
+        "duration": 3.779
+    },
+    {
+        "text": "mural that says whether this bunch is",
+        "start": 982.67,
+        "duration": 4.89
+    },
+    {
+        "text": "active or not if they're get active when",
+        "start": 983.959,
+        "duration": 5.13
+    },
+    {
+        "text": "an entity of a particular kind is",
+        "start": 987.56,
+        "duration": 2.19
+    },
+    {
+        "text": "present maybe",
+        "start": 989.089,
+        "duration": 4.261
+    },
+    {
+        "text": "Cades knows so my visual system is",
+        "start": 989.75,
+        "duration": 6.99
+    },
+    {
+        "text": "spotted in those and it'll activate a",
+        "start": 993.35,
+        "duration": 5.84
+    },
+    {
+        "text": "bunch of neurons that say the",
+        "start": 996.74,
+        "duration": 5.01
+    },
+    {
+        "text": "geometrical relationship between a",
+        "start": 999.19,
+        "duration": 4.06
+    },
+    {
+        "text": "coordinate frame embedded in the nose",
+        "start": 1001.75,
+        "duration": 3.089
+    },
+    {
+        "text": "and the Connaught coordinate frame",
+        "start": 1003.25,
+        "duration": 5.67
+    },
+    {
+        "text": "embedded in my eyeball and that's my",
+        "start": 1004.839,
+        "duration": 6.301
+    },
+    {
+        "text": "knowledge of the orientation position",
+        "start": 1008.92,
+        "duration": 4.34
+    },
+    {
+        "text": "and size of the nose is",
+        "start": 1011.14,
+        "duration": 3.29
+    },
+    {
+        "text": "geometrical relationship between",
+        "start": 1013.26,
+        "duration": 2.43
+    },
+    {
+        "text": "according to frame in the nose and a",
+        "start": 1014.43,
+        "duration": 4.38
+    },
+    {
+        "text": "quarter of frame in my eyeball okay",
+        "start": 1015.69,
+        "duration": 4.86
+    },
+    {
+        "text": "maybe another bunch of neurons got",
+        "start": 1018.81,
+        "duration": 5.25
+    },
+    {
+        "text": "active and they recognize Kate's mouth",
+        "start": 1020.55,
+        "duration": 6.72
+    },
+    {
+        "text": "as a mouse and that bunch of sixteen",
+        "start": 1024.06,
+        "duration": 5.52
+    },
+    {
+        "text": "neurons will represent the relationship",
+        "start": 1027.27,
+        "duration": 4.41
+    },
+    {
+        "text": "between the coordinate frame embedded in",
+        "start": 1029.58,
+        "duration": 7.8
+    },
+    {
+        "text": "the mouth of my eyeball and then the",
+        "start": 1031.68,
+        "duration": 7.26
+    },
+    {
+        "text": "sixteen neurons that think they might",
+        "start": 1037.38,
+        "duration": 3.53
+    },
+    {
+        "text": "have found her nose but I'm quite sure",
+        "start": 1038.94,
+        "duration": 6.45
+    },
+    {
+        "text": "can predict if they know the viewpoint",
+        "start": 1040.91,
+        "duration": 8.14
+    },
+    {
+        "text": "on the nose they can predict how the",
+        "start": 1045.39,
+        "duration": 5.49
+    },
+    {
+        "text": "coordinate frame embedded in the whole",
+        "start": 1049.05,
+        "duration": 3.83
+    },
+    {
+        "text": "face should be related to my eyeball",
+        "start": 1050.88,
+        "duration": 4.83
+    },
+    {
+        "text": "that is they're predicting the size and",
+        "start": 1052.88,
+        "duration": 4.33
+    },
+    {
+        "text": "orientation and position of the face in",
+        "start": 1055.71,
+        "duration": 5.07
+    },
+    {
+        "text": "my visual field I said so they make a",
+        "start": 1057.21,
+        "duration": 6.48
+    },
+    {
+        "text": "prediction the cordon the 16 euros",
+        "start": 1060.78,
+        "duration": 5.28
+    },
+    {
+        "text": "represent a mouse can also make a",
+        "start": 1063.69,
+        "duration": 4.59
+    },
+    {
+        "text": "prediction I hope I said nose before but",
+        "start": 1066.06,
+        "duration": 4.05
+    },
+    {
+        "text": "anyway the nose makes the prediction the",
+        "start": 1068.28,
+        "duration": 4.58
+    },
+    {
+        "text": "mouth makes a prediction these are 16",
+        "start": 1070.11,
+        "duration": 5.1
+    },
+    {
+        "text": "neural activities for each of them and",
+        "start": 1072.86,
+        "duration": 4.93
+    },
+    {
+        "text": "as I move around you stay still as I",
+        "start": 1075.21,
+        "duration": 4.5
+    },
+    {
+        "text": "move around no sisters they look at me",
+        "start": 1077.79,
+        "duration": 6.09
+    },
+    {
+        "text": "as I move around those 16 numbers change",
+        "start": 1079.71,
+        "duration": 5.79
+    },
+    {
+        "text": "because the relation of his mouth to my",
+        "start": 1083.88,
+        "duration": 3.87
+    },
+    {
+        "text": "eyeball has changed so there's in neural",
+        "start": 1085.5,
+        "duration": 4.2
+    },
+    {
+        "text": "activities but the something that",
+        "start": 1087.75,
+        "duration": 3.98
+    },
+    {
+        "text": "doesn't change and that's the",
+        "start": 1089.7,
+        "duration": 4.59
+    },
+    {
+        "text": "relationship between his nose and his",
+        "start": 1091.73,
+        "duration": 5.83
+    },
+    {
+        "text": "face and so what we do is we take the 16",
+        "start": 1094.29,
+        "duration": 6.21
+    },
+    {
+        "text": "numbers that represent how his mouth is",
+        "start": 1097.56,
+        "duration": 5.43
+    },
+    {
+        "text": "related to my eyeball and we multiply",
+        "start": 1100.5,
+        "duration": 5.58
+    },
+    {
+        "text": "them by a matrix of 4 by 4 matrix we",
+        "start": 1102.99,
+        "duration": 4.65
+    },
+    {
+        "text": "actually form them into a 4 by 4 matrix",
+        "start": 1106.08,
+        "duration": 3.75
+    },
+    {
+        "text": "multiply them into another 4 by 4 matrix",
+        "start": 1107.64,
+        "duration": 4.29
+    },
+    {
+        "text": "this is I'm very familiar to computer",
+        "start": 1109.83,
+        "duration": 4.5
+    },
+    {
+        "text": "graphics people and we get out of matrix",
+        "start": 1111.93,
+        "duration": 4.56
+    },
+    {
+        "text": "that says how is faithful to be related",
+        "start": 1114.33,
+        "duration": 6.51
+    },
+    {
+        "text": "to my eyeball and we do the same for",
+        "start": 1116.49,
+        "duration": 6.75
+    },
+    {
+        "text": "both the nose and the mouth and what",
+        "start": 1120.84,
+        "duration": 4.02
+    },
+    {
+        "text": "will happen is if the nose and the mouth",
+        "start": 1123.24,
+        "duration": 4.59
+    },
+    {
+        "text": "are correctly related to make a face",
+        "start": 1124.86,
+        "duration": 5.28
+    },
+    {
+        "text": "they'll make the same prediction for the",
+        "start": 1127.83,
+        "duration": 5.82
+    },
+    {
+        "text": "pose of the face now as I move around as",
+        "start": 1130.14,
+        "duration": 6.06
+    },
+    {
+        "text": "I change my viewpoint the nose will",
+        "start": 1133.65,
+        "duration": 4.11
+    },
+    {
+        "text": "change its prediction because I've",
+        "start": 1136.2,
+        "duration": 3.12
+    },
+    {
+        "text": "changed my relationship through space",
+        "start": 1137.76,
+        "duration": 3.9
+    },
+    {
+        "text": "and the my so changes prediction but",
+        "start": 1139.32,
+        "duration": 5.9
+    },
+    {
+        "text": "what won't changes that they agree",
+        "start": 1141.66,
+        "duration": 3.56
+    },
+    {
+        "text": "so all the knowledge about the shape of",
+        "start": 1145.35,
+        "duration": 6.63
+    },
+    {
+        "text": "a face is in these transformation",
+        "start": 1148.679,
+        "duration": 5.61
+    },
+    {
+        "text": "matrices that you'd apply to the VuPoint",
+        "start": 1151.98,
+        "duration": 4.77
+    },
+    {
+        "text": "matrix you transform it you get a",
+        "start": 1154.289,
+        "duration": 3.781
+    },
+    {
+        "text": "prediction for the viewpoint on the face",
+        "start": 1156.75,
+        "duration": 3.509
+    },
+    {
+        "text": "and that knowledge doesn't depend on",
+        "start": 1158.07,
+        "duration": 4.709
+    },
+    {
+        "text": "viewpoint at all so the relationship",
+        "start": 1160.259,
+        "duration": 4.05
+    },
+    {
+        "text": "between his nose in his face is",
+        "start": 1162.779,
+        "duration": 2.791
+    },
+    {
+        "text": "completely independent in my viewpoint",
+        "start": 1164.309,
+        "duration": 4.291
+    },
+    {
+        "text": "and so what we want to put into a neural",
+        "start": 1165.57,
+        "duration": 6.02
+    },
+    {
+        "text": "net is you want to make the activities",
+        "start": 1168.6,
+        "duration": 6.809
+    },
+    {
+        "text": "be very dependent on viewpoint most",
+        "start": 1171.59,
+        "duration": 5.02
+    },
+    {
+        "text": "people doing convolutional nets are",
+        "start": 1175.409,
+        "duration": 2.64
+    },
+    {
+        "text": "trying to make activities independent of",
+        "start": 1176.61,
+        "duration": 3.24
+    },
+    {
+        "text": "viewpoint and that's a mistake you make",
+        "start": 1178.049,
+        "duration": 3.451
+    },
+    {
+        "text": "the activities from the viewpoint you",
+        "start": 1179.85,
+        "duration": 6.09
+    },
+    {
+        "text": "make the weights on the connections be",
+        "start": 1181.5,
+        "duration": 6.09
+    },
+    {
+        "text": "completely independent of view point",
+        "start": 1185.94,
+        "duration": 3.06
+    },
+    {
+        "text": "that's where the knowledge about shapes",
+        "start": 1187.59,
+        "duration": 4.829
+    },
+    {
+        "text": "is and unite run predict the viewpoint",
+        "start": 1189.0,
+        "duration": 5.399
+    },
+    {
+        "text": "on the whole object and if you get",
+        "start": 1192.419,
+        "duration": 4.59
+    },
+    {
+        "text": "predictions that agree you say hey that",
+        "start": 1194.399,
+        "duration": 4.5
+    },
+    {
+        "text": "thing's there and if you get predictions",
+        "start": 1197.009,
+        "duration": 4.831
+    },
+    {
+        "text": "that don't agree you say hey there's",
+        "start": 1198.899,
+        "duration": 9.421
+    },
+    {
+        "text": "nothing that um it's fake news um so",
+        "start": 1201.84,
+        "duration": 8.73
+    },
+    {
+        "text": "this is a much more robust way of",
+        "start": 1208.32,
+        "duration": 5.069
+    },
+    {
+        "text": "identifying objects than what we use a",
+        "start": 1210.57,
+        "duration": 4.53
+    },
+    {
+        "text": "present and I want to give you an",
+        "start": 1213.389,
+        "duration": 3.931
+    },
+    {
+        "text": "analogy on talked about go ahead what I",
+        "start": 1215.1,
+        "duration": 3.659
+    },
+    {
+        "text": "want to give you an analogy from the",
+        "start": 1217.32,
+        "duration": 3.979
+    },
+    {
+        "text": "intelligence world",
+        "start": 1218.759,
+        "duration": 4.441
+    },
+    {
+        "text": "suppose you were monitoring radio",
+        "start": 1221.299,
+        "duration": 3.431
+    },
+    {
+        "text": "traffic and you saw mention in New",
+        "start": 1223.2,
+        "duration": 2.88
+    },
+    {
+        "text": "Yorker mention of Chicago and Los",
+        "start": 1224.73,
+        "duration": 3.659
+    },
+    {
+        "text": "Angeles and you saw mention a September",
+        "start": 1226.08,
+        "duration": 4.439
+    },
+    {
+        "text": "a mention of October and you saw mention",
+        "start": 1228.389,
+        "duration": 3.601
+    },
+    {
+        "text": "of the fifth the mention of the 12th",
+        "start": 1230.519,
+        "duration": 4.62
+    },
+    {
+        "text": "mention of the 11th but and you see lots",
+        "start": 1231.99,
+        "duration": 5.58
+    },
+    {
+        "text": "of these things but supposing three",
+        "start": 1235.139,
+        "duration": 5.25
+    },
+    {
+        "text": "different messages you saw New York",
+        "start": 1237.57,
+        "duration": 4.4
+    },
+    {
+        "text": "September the 11th",
+        "start": 1240.389,
+        "duration": 4.02
+    },
+    {
+        "text": "that's a high-dimensional coincidence",
+        "start": 1241.97,
+        "duration": 4.87
+    },
+    {
+        "text": "several things come inside there and if",
+        "start": 1244.409,
+        "duration": 4.11
+    },
+    {
+        "text": "you see that combination several times",
+        "start": 1246.84,
+        "duration": 4.77
+    },
+    {
+        "text": "that's really something you should pay",
+        "start": 1248.519,
+        "duration": 7.01
+    },
+    {
+        "text": "attention to and similarly the nose",
+        "start": 1251.61,
+        "duration": 6.33
+    },
+    {
+        "text": "predicts things like the size and the",
+        "start": 1255.529,
+        "duration": 3.85
+    },
+    {
+        "text": "orientation of the position of the face",
+        "start": 1257.94,
+        "duration": 4.109
+    },
+    {
+        "text": "and the mouth predicts the same things",
+        "start": 1259.379,
+        "duration": 4.441
+    },
+    {
+        "text": "and so you've got a high dimensional",
+        "start": 1262.049,
+        "duration": 4.38
+    },
+    {
+        "text": "coincidence so there's a big difference",
+        "start": 1263.82,
+        "duration": 4.17
+    },
+    {
+        "text": "between the way I think your honor",
+        "start": 1266.429,
+        "duration": 2.641
+    },
+    {
+        "text": "should work in the way they're working",
+        "start": 1267.99,
+        "duration": 3.63
+    },
+    {
+        "text": "at present which is a present in your",
+        "start": 1269.07,
+        "duration": 5.16
+    },
+    {
+        "text": "own net takes in your on it has some",
+        "start": 1271.62,
+        "duration": 4.68
+    },
+    {
+        "text": "weights and it looks",
+        "start": 1274.23,
+        "duration": 3.66
+    },
+    {
+        "text": "how the weights relate to the activities",
+        "start": 1276.3,
+        "duration": 4.08
+    },
+    {
+        "text": "in the layer below do they fit what it",
+        "start": 1277.89,
+        "duration": 4.17
+    },
+    {
+        "text": "should be doing is getting activities to",
+        "start": 1280.38,
+        "duration": 3.21
+    },
+    {
+        "text": "make predictions saying to two sets of",
+        "start": 1282.06,
+        "duration": 3.69
+    },
+    {
+        "text": "predictions fit that's much more",
+        "start": 1283.59,
+        "duration": 6.45
+    },
+    {
+        "text": "powerful and fortunately for me I got a",
+        "start": 1285.75,
+        "duration": 8.12
+    },
+    {
+        "text": "very good basically a graduate student",
+        "start": 1290.04,
+        "duration": 5.88
+    },
+    {
+        "text": "working with me for the last six months",
+        "start": 1293.87,
+        "duration": 4.3
+    },
+    {
+        "text": "if she made it all work yeah we yeah we",
+        "start": 1295.92,
+        "duration": 4.59
+    },
+    {
+        "text": "should say that this is not mere theory",
+        "start": 1298.17,
+        "duration": 4.41
+    },
+    {
+        "text": "you published two papers recently on",
+        "start": 1300.51,
+        "duration": 3.57
+    },
+    {
+        "text": "this and you've shown at least in some",
+        "start": 1302.58,
+        "duration": 3.87
+    },
+    {
+        "text": "cases this can now perform accomplished",
+        "start": 1304.08,
+        "duration": 6.72
+    },
+    {
+        "text": "on neural net for image recognition so",
+        "start": 1306.45,
+        "duration": 7.92
+    },
+    {
+        "text": "what we showed is early days it's sort",
+        "start": 1310.8,
+        "duration": 5.01
+    },
+    {
+        "text": "of embarrassing to your public with it",
+        "start": 1314.37,
+        "duration": 3.57
+    },
+    {
+        "text": "so soon but we showed this one small",
+        "start": 1315.81,
+        "duration": 6.12
+    },
+    {
+        "text": "data set that's designed to be a test of",
+        "start": 1317.94,
+        "duration": 6.3
+    },
+    {
+        "text": "shape recognition we get half the error",
+        "start": 1321.93,
+        "duration": 6.0
+    },
+    {
+        "text": "rate of convolutional nets but I've seen",
+        "start": 1324.24,
+        "duration": 7.14
+    },
+    {
+        "text": "that before so in 2009 to my graduate",
+        "start": 1327.93,
+        "duration": 6.15
+    },
+    {
+        "text": "students designed something a speech",
+        "start": 1331.38,
+        "duration": 5.16
+    },
+    {
+        "text": "recognition that is slightly better than",
+        "start": 1334.08,
+        "duration": 4.23
+    },
+    {
+        "text": "a well developed technology and",
+        "start": 1336.54,
+        "duration": 3.24
+    },
+    {
+        "text": "convolutional neural nets on our world",
+        "start": 1338.31,
+        "duration": 3.6
+    },
+    {
+        "text": "develop technology if you can do",
+        "start": 1339.78,
+        "duration": 4.41
+    },
+    {
+        "text": "slightly better with one graduate",
+        "start": 1341.91,
+        "duration": 3.48
+    },
+    {
+        "text": "student working on it with lots of",
+        "start": 1344.19,
+        "duration": 3.18
+    },
+    {
+        "text": "things you're um tuned it's obvious in",
+        "start": 1345.39,
+        "duration": 2.94
+    },
+    {
+        "text": "the end you're going to do much better",
+        "start": 1347.37,
+        "duration": 3.69
+    },
+    {
+        "text": "that happened with speech recognition it",
+        "start": 1348.33,
+        "duration": 4.23
+    },
+    {
+        "text": "happened with shape recognition with",
+        "start": 1351.06,
+        "duration": 3.69
+    },
+    {
+        "text": "convolutional nets and i'm hoping it",
+        "start": 1352.56,
+        "duration": 3.66
+    },
+    {
+        "text": "will happen with this new era in shape",
+        "start": 1354.75,
+        "duration": 3.33
+    },
+    {
+        "text": "recognition and the neural nets will",
+        "start": 1356.22,
+        "duration": 3.81
+    },
+    {
+        "text": "stop having this silly problem that if",
+        "start": 1358.08,
+        "duration": 3.51
+    },
+    {
+        "text": "they learn to recognize things for some",
+        "start": 1360.03,
+        "duration": 3.27
+    },
+    {
+        "text": "viewpoints they can't recognize them",
+        "start": 1361.59,
+        "duration": 3.9
+    },
+    {
+        "text": "from you viewpoints and do you think you",
+        "start": 1363.3,
+        "duration": 4.38
+    },
+    {
+        "text": "can also apply it to other tasks so",
+        "start": 1365.49,
+        "duration": 4.08
+    },
+    {
+        "text": "beyond image recognition - speech",
+        "start": 1367.68,
+        "duration": 4.11
+    },
+    {
+        "text": "recognition or translation or whatever",
+        "start": 1369.57,
+        "duration": 6.15
+    },
+    {
+        "text": "else so the general idea that you should",
+        "start": 1371.79,
+        "duration": 7.05
+    },
+    {
+        "text": "recognize things not by a matched filter",
+        "start": 1375.72,
+        "duration": 4.92
+    },
+    {
+        "text": "that is not by having some weights and",
+        "start": 1378.84,
+        "duration": 4.26
+    },
+    {
+        "text": "some activities and saying there's big",
+        "start": 1380.64,
+        "duration": 3.93
+    },
+    {
+        "text": "activities where the weights are big",
+        "start": 1383.1,
+        "duration": 4.11
+    },
+    {
+        "text": "that's a matched filter that's one way",
+        "start": 1384.57,
+        "duration": 3.9
+    },
+    {
+        "text": "to recognize things that's template",
+        "start": 1387.21,
+        "duration": 4.47
+    },
+    {
+        "text": "matching of much more powerful way to",
+        "start": 1388.47,
+        "duration": 5.57
+    },
+    {
+        "text": "recognize things is to get to different",
+        "start": 1391.68,
+        "duration": 5.61
+    },
+    {
+        "text": "measured things but multi-dimensional",
+        "start": 1394.04,
+        "duration": 5.35
+    },
+    {
+        "text": "things to make predictions and see if",
+        "start": 1397.29,
+        "duration": 4.2
+    },
+    {
+        "text": "the predictions agree and if you get",
+        "start": 1399.39,
+        "duration": 4.62
+    },
+    {
+        "text": "this agreement of predictions in a high",
+        "start": 1401.49,
+        "duration": 4.17
+    },
+    {
+        "text": "dimensional space in multiple numbers",
+        "start": 1404.01,
+        "duration": 5.57
+    },
+    {
+        "text": "that's a much more indicative",
+        "start": 1405.66,
+        "duration": 5.96
+    },
+    {
+        "text": "sign that you've really found something",
+        "start": 1409.58,
+        "duration": 3.84
+    },
+    {
+        "text": "well I think you're all that's gonna",
+        "start": 1411.62,
+        "duration": 4.38
+    },
+    {
+        "text": "change to do that and we should also",
+        "start": 1413.42,
+        "duration": 4.47
+    },
+    {
+        "text": "point out this is not a new idea this is",
+        "start": 1416.0,
+        "duration": 4.53
+    },
+    {
+        "text": "an old idea of yours dating back to the",
+        "start": 1417.89,
+        "duration": 5.61
+    },
+    {
+        "text": "late 70s or even before you're not yes",
+        "start": 1420.53,
+        "duration": 6.18
+    },
+    {
+        "text": "um you probably heard this morning how",
+        "start": 1423.5,
+        "duration": 5.13
+    },
+    {
+        "text": "incredibly fast the progress in your own",
+        "start": 1426.71,
+        "duration": 6.33
+    },
+    {
+        "text": "X's so I started on this 38 years ago",
+        "start": 1428.63,
+        "duration": 9.72
+    },
+    {
+        "text": "and it's just coming to fruition now but",
+        "start": 1433.04,
+        "duration": 8.16
+    },
+    {
+        "text": "I'm a bit slow but it's a different",
+        "start": 1438.35,
+        "duration": 4.26
+    },
+    {
+        "text": "world right we have the computing power",
+        "start": 1441.2,
+        "duration": 4.74
+    },
+    {
+        "text": "we have the data and and it sounds like",
+        "start": 1442.61,
+        "duration": 4.89
+    },
+    {
+        "text": "you think that this can progress at a",
+        "start": 1445.94,
+        "duration": 3.66
+    },
+    {
+        "text": "much faster pace now yeah and I should",
+        "start": 1447.5,
+        "duration": 5.43
+    },
+    {
+        "text": "give a big word of caution this is just",
+        "start": 1449.6,
+        "duration": 5.16
+    },
+    {
+        "text": "a theory this is something that works",
+        "start": 1452.93,
+        "duration": 3.99
+    },
+    {
+        "text": "from a small data set it works quite",
+        "start": 1454.76,
+        "duration": 4.17
+    },
+    {
+        "text": "impressively on the small data set but",
+        "start": 1456.92,
+        "duration": 3.3
+    },
+    {
+        "text": "we don't know it's going to work on big",
+        "start": 1458.93,
+        "duration": 2.97
+    },
+    {
+        "text": "data sets and until it works on big data",
+        "start": 1460.22,
+        "duration": 5.07
+    },
+    {
+        "text": "says you shouldn't believe it all right",
+        "start": 1461.9,
+        "duration": 5.58
+    },
+    {
+        "text": "we have some to look forward to thank",
+        "start": 1465.29,
+        "duration": 3.8
+    },
+    {
+        "text": "you okay thank you",
+        "start": 1467.48,
+        "duration": 4.61
+    },
+    {
+        "text": "[Applause]",
+        "start": 1469.09,
+        "duration": 3.0
+    }
+]

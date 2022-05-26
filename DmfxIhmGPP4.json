@@ -1,0 +1,792 @@
+[
+    {
+        "text": "(Brady: What's today's video \nabout? What you got here Matt?) ",
+        "start": 0.0,
+        "duration": 1.6
+    },
+    {
+        "text": "- So this is the handwritten results from a \nmathematician who lived in the mid to late 1800s, ",
+        "start": 1.6,
+        "duration": 8.08
+    },
+    {
+        "text": "a gentleman called William Shanks, who I \nthink in the modern day we would call a  ",
+        "start": 9.68,
+        "duration": 3.52
+    },
+    {
+        "text": "recreational mathematician. He had \na real job, ran a boarding school;  ",
+        "start": 13.2,
+        "duration": 3.28
+    },
+    {
+        "text": "in his spare time he just did calculation \nafter calculation. William sent all of his  ",
+        "start": 16.48,
+        "duration": 5.52
+    },
+    {
+        "text": "incredible results in to the Royal Society - here \nwe go - so this is W. Shanks' Reciprocals of Prime  ",
+        "start": 22.0,
+        "duration": 7.68
+    },
+    {
+        "text": "Numbers. And then what follows is- and these are \nthe sections and when he did him so you can see.  ",
+        "start": 29.68,
+        "duration": 5.04
+    },
+    {
+        "text": "He's got them in batches of ten to five \nthousand at a time, and this is across years,  ",
+        "start": 34.72,
+        "duration": 4.96
+    },
+    {
+        "text": "this was not a fast process. And then here's \nwhat he found, and he's described it here.  ",
+        "start": 39.68,
+        "duration": 5.12
+    },
+    {
+        "text": "In the left-hand columns of this table are \nprimes, these are the prime numbers down here,  ",
+        "start": 44.8,
+        "duration": 4.48
+    },
+    {
+        "text": "in the right-hand columns is the number of figures \nin the period of the reciprocal of each prime. So  ",
+        "start": 49.28,
+        "duration": 6.24
+    },
+    {
+        "text": "what he's done is he's taken each prime number, \nhe's computed 1 over that prime number, and then  ",
+        "start": 55.52,
+        "duration": 5.92
+    },
+    {
+        "text": "worked out how many digits before it repeats. \nSo the first one out of the gates is 60,013  ",
+        "start": 61.44,
+        "duration": 7.2
+    },
+    {
+        "text": "and Shanks is claiming after 5,001 digits \nits reciprocal will repeat. So 1 divided by",
+        "start": 68.64,
+        "duration": 6.16
+    },
+    {
+        "text": "60,013; it will seem random for 5,001 digits then \nyou're like, this is familiar, it'll be the same  ",
+        "start": 74.8,
+        "duration": 5.68
+    },
+    {
+        "text": "as earlier. Should we check one of them? Because \non the way in today I wrote a little bit of Python  ",
+        "start": 80.48,
+        "duration": 5.68
+    },
+    {
+        "text": "software - my ShanksBot - which will do to this \nautomatically. So give me a prime and I'll put  ",
+        "start": 86.16,
+        "duration": 6.64
+    },
+    {
+        "text": "it in here and see what it says.\n- (I'm going to pick 61,561.)",
+        "start": 92.8,
+        "duration": 5.6
+    },
+    {
+        "text": "That has 405 digits.",
+        "start": 98.4,
+        "duration": 2.32
+    },
+    {
+        "text": "What have we got? 405! Shanks and ShanksBot agree. \nSo I tell- we'll do one by hand and I'll show you  ",
+        "start": 100.72,
+        "duration": 8.0
+    },
+    {
+        "text": "what the ShanksBot is doing and that'll show \nus what the worst case scenario can be. Okay,",
+        "start": 108.72,
+        "duration": 4.56
+    },
+    {
+        "text": "so we'll start with the prime 7 which means \nthe reciprocal of that prime is 1 over 7.",
+        "start": 113.28,
+        "duration": 7.2
+    },
+    {
+        "text": "And this means 1 divided by 7 or, in primary \nschool terms, how many times does 7 go into 1?  ",
+        "start": 120.48,
+        "duration": 5.68
+    },
+    {
+        "text": "So let's do it as a long division. So here you've \ngot your dividend, that's the number going into it, ",
+        "start": 126.16,
+        "duration": 5.92
+    },
+    {
+        "text": "and here you've got the number you're you're \ndividing it into, so it's 7 into 1. Now the  ",
+        "start": 132.08,
+        "duration": 4.48
+    },
+    {
+        "text": "issue is 7 does not go into 1 because - this is \nnot very groundbreaking - 7 is bigger than 1. We  ",
+        "start": 136.56,
+        "duration": 5.36
+    },
+    {
+        "text": "have a problem. However we can try and work \nout what fraction of it is going to go in.  ",
+        "start": 141.92,
+        "duration": 5.44
+    },
+    {
+        "text": "And so actually while 7 doesn't go into 1, 0.7 \ndoes go into 1. So if I say 0.7 goes into 1 once,  ",
+        "start": 147.36,
+        "duration": 11.92
+    },
+    {
+        "text": "that's the same as saying 7 goes into 1 zero-point-once. So what we're saying is 7 goes into 1",
+        "start": 160.24,
+        "duration": 7.6
+    },
+    {
+        "text": "zero-point-once but it's got a leftover, 0.3. So what we do now is we're going to put our leftover down here.  ",
+        "start": 168.627,
+        "duration": 6.573
+    },
+    {
+        "text": "What we've done is we've said if you've got \n1.0 and you put in 0.7 what you're left with  ",
+        "start": 175.2,
+        "duration": 6.24
+    },
+    {
+        "text": "is 0.3. And now we're going to repeat that. Implied \nare all these extra zeros right? Because there's  ",
+        "start": 181.44,
+        "duration": 6.24
+    },
+    {
+        "text": "infinitely many of these, which is very convenient; \nwe just need to know now - we've already covered  ",
+        "start": 187.68,
+        "duration": 4.32
+    },
+    {
+        "text": "this bit - how many times 7 goes into that. And \nnow we're like, okay, we can't do- 7 doesn't go  ",
+        "start": 192.0,
+        "duration": 4.96
+    },
+    {
+        "text": "into 0.3, 0.7 doesn't go to 0.3 but 0.07 does. And so you go  ",
+        "start": 196.96,
+        "duration": 4.0
+    },
+    {
+        "text": "how many times does 0.07 go in? Well \n4 times 0.07 is",
+        "start": 200.96,
+        "duration": 5.997
+    },
+    {
+        "text": "0.28, and that's 4 times it so we put it up \nhere, and then we subtract that off and we've got",
+        "start": 206.957,
+        "duration": 8.083
+    },
+    {
+        "text": "0.020. Now at this point we actually don't need \nto write in all these zeros every single time.  ",
+        "start": 215.04,
+        "duration": 7.44
+    },
+    {
+        "text": "All we really care about is the 2 and the 0 \nafter it there right? And so we go how many  ",
+        "start": 222.48,
+        "duration": 4.4
+    },
+    {
+        "text": "times does 7 go into 20? Well it goes in twice, it's \n14. Put the 2 up there, subtract that off we get 6.  ",
+        "start": 226.88,
+        "duration": 8.72
+    },
+    {
+        "text": "Now we can add on one of these extra spare 0s, of \nwhich there are infinitely many, 7 goes into 50  ",
+        "start": 236.16,
+        "duration": 5.92
+    },
+    {
+        "text": "that's eight times? Put the 8 up there, subtract \nthat off, it's 4, now it's 40. 7 goes into  ",
+        "start": 243.12,
+        "duration": 6.32
+    },
+    {
+        "text": "uh 35 five times, put the 5 up there - and \nall I'm doing is the same logic as before but  ",
+        "start": 250.16,
+        "duration": 4.96
+    },
+    {
+        "text": "now it's just a bit more algorithmic, it's a bit \nmore straightforward. 49, 7, 1. Ah! That's familiar,  ",
+        "start": 255.12,
+        "duration": 8.0
+    },
+    {
+        "text": "that's what we had before. And so now actually \nwe've got exactly the same situation down here,  ",
+        "start": 263.12,
+        "duration": 4.32
+    },
+    {
+        "text": "where now with 7 going into 10- then before I \nwas faffing around with the 0.7s - basically  ",
+        "start": 267.44,
+        "duration": 5.36
+    },
+    {
+        "text": "what I'll say is 7 goes into 10 once, that \n7 has got a remainder of 3, the 1 would  ",
+        "start": 272.8,
+        "duration": 5.44
+    },
+    {
+        "text": "go up there. As you can see we've now got exactly \nthe same here, 30 would have 28 underneath, we'll  ",
+        "start": 278.24,
+        "duration": 5.84
+    },
+    {
+        "text": "put another 4 there. And soon as we hit here that \nis exactly the same as what we started with here, 1  ",
+        "start": 284.08,
+        "duration": 7.44
+    },
+    {
+        "text": "and a 0, and so this takes us back there. In theory \nit- you know, it's carrying on down here but because  ",
+        "start": 291.52,
+        "duration": 6.64
+    },
+    {
+        "text": "we've got exactly the same situation all these \nsteps will follow in the same order every single  ",
+        "start": 298.16,
+        "duration": 5.44
+    },
+    {
+        "text": "time, which is why 7 repeats after 142857, and that's six digits.\n- (That's when)",
+        "start": 303.6,
+        "duration": 7.28
+    },
+    {
+        "text": "(it hits this infinite loop? Will all primes hit an infinite loop like this though?)\n- Yes and let's do-  ",
+        "start": 310.88,
+        "duration": 6.56
+    },
+    {
+        "text": "let's do a slightly bigger one and we'll be \nable to see why it has to happen eventually.",
+        "start": 317.44,
+        "duration": 5.2
+    },
+    {
+        "text": "So brady here's what we're going to do: we're going \nto try and find the reciprocal of a bigger prime,  ",
+        "start": 323.52,
+        "duration": 4.32
+    },
+    {
+        "text": "let's keep it to two digits, what would you like? \n23 that is a prime we're gonna do a long  ",
+        "start": 328.88,
+        "duration": 2.836
+    },
+    {
+        "text": "(Umm 23?)\n- 23! That is a prime. We're gonna do a long",
+        "start": 331.716,
+        "duration": 5.404
+    },
+    {
+        "text": "division and we're gonna divide it into 1. Now as \nyou may have noticed with 7s, each time I have  ",
+        "start": 337.12,
+        "duration": 5.12
+    },
+    {
+        "text": "a result I'm trying to work out what multiple \nof the dividend goes into it. So in this case  ",
+        "start": 342.24,
+        "duration": 5.28
+    },
+    {
+        "text": "straight out of the gates, 1.0 - we're going to| have to \nstart putting some zeros on. It doesn't go into  ",
+        "start": 347.52,
+        "duration": 4.16
+    },
+    {
+        "text": "1, doesn't go into 10, does go into 100. You're like, well how many times? I think  ",
+        "start": 351.68,
+        "duration": 5.04
+    },
+    {
+        "text": "probably 4. And you're like and four times that \nis going to be 92, and then we did that four times  ",
+        "start": 356.72,
+        "duration": 6.4
+    },
+    {
+        "text": "so this is actually our answer 0.04. We're just \ntrying to find a number in the 23 times table  ",
+        "start": 363.12,
+        "duration": 6.4
+    },
+    {
+        "text": "that is the biggest but not bigger than \nwhatever our remainder is at the time. ",
+        "start": 370.24,
+        "duration": 5.2
+    },
+    {
+        "text": "So what I'm actually going to do over here, I'm \ngoing to write out my 23 times table if that's okay.  ",
+        "start": 375.44,
+        "duration": 3.52
+    },
+    {
+        "text": "So 1 times 23 is 23, 2 times 23 is we just \ndouble that, 46. 3 times 23 is add those together,  ",
+        "start": 378.96,
+        "duration": 8.32
+    },
+    {
+        "text": "69. 4 times 3 is just double what two times \nwas so that's 92 - which is what we've  ",
+        "start": 388.16,
+        "duration": 6.4
+    },
+    {
+        "text": "already used there. 7 times is add three \nand four together; so 9 and 2 is 11,",
+        "start": 394.56,
+        "duration": 4.96
+    },
+    {
+        "text": "6 and 9 is 15, add 1 is 16.\n- (Wouldn't it just be easier to add 23 to that?) ",
+        "start": 400.8,
+        "duration": 4.56
+    },
+    {
+        "text": "Or you could just add 23 to the previous one. Okay I'm going to be I'm going to be honest  ",
+        "start": 406.4,
+        "duration": 3.2
+    },
+    {
+        "text": "Brady you're absolutely right; and what I'm \nactually doing is um because I've done this  ",
+        "start": 409.6,
+        "duration": 5.36
+    },
+    {
+        "text": "on a much much bigger scale when calculating pi \nby hand I've gotten used- I was doing this for like  ",
+        "start": 414.96,
+        "duration": 6.08
+    },
+    {
+        "text": "20 digit numbers right? And so I've just gotten \nin this formula- you're right I got so obsessed  ",
+        "start": 421.04,
+        "duration": 5.2
+    },
+    {
+        "text": "with my silly way of doing it that I \ndidn't stop and think, is there a better way?  ",
+        "start": 426.24,
+        "duration": 4.32
+    },
+    {
+        "text": "Let's carry 1 - okay there it is cool. And if we \nadd 23 again we'd be up to 230, that's that's ten  ",
+        "start": 431.12,
+        "duration": 7.04
+    },
+    {
+        "text": "times. Okay so this is going to speed up filling it \nin a lot. Then if we subtract that off that's 8.  ",
+        "start": 438.16,
+        "duration": 4.96
+    },
+    {
+        "text": "Okay so now it doesn't go into 8, it does go \ninto 80. 69 is the biggest one we're going to have,  ",
+        "start": 444.16,
+        "duration": 7.2
+    },
+    {
+        "text": "and that's the 3. Subtract that off we're \nleft with 11, doesn't go into 11, 110? Yeah 92.  ",
+        "start": 451.36,
+        "duration": 7.36
+    },
+    {
+        "text": "And that's 4 times up there.\nWe subtract this off that's going to  ",
+        "start": 460.0,
+        "duration": 4.4
+    },
+    {
+        "text": "be 18, doesn't go into 18, 180? Yes, that's \ngoing to be 161 is the next biggest one,  ",
+        "start": 464.4,
+        "duration": 6.24
+    },
+    {
+        "text": "7 times. As you can see once \nyou get to the swing of this - 19, 190; 184,",
+        "start": 471.68,
+        "duration": 6.16
+    },
+    {
+        "text": "8 times. Subtract that off, 6. So now, what \nwe're looking for is the first time- 60, yeah 46,  ",
+        "start": 479.6,
+        "duration": 9.68
+    },
+    {
+        "text": "twice. The first time we have a point where \nthis remainder is one we've seen before. ",
+        "start": 490.8,
+        "duration": 8.08
+    },
+    {
+        "text": "So we're at 14 now and we've never seen 14 before, \nso I've got to do 14. And it's going to be 138.  ",
+        "start": 498.88,
+        "duration": 8.48
+    },
+    {
+        "text": "That gives us a remainder of this time just \n2. So have we seen 2 before? We haven't, so the  ",
+        "start": 507.36,
+        "duration": 6.48
+    },
+    {
+        "text": "numbers we care about are the top ones, which are \nthe remainders each time. So so far we've seen  ",
+        "start": 513.84,
+        "duration": 4.24
+    },
+    {
+        "text": "100, we've had 80, we've had 110, we've had 180, \nwe've had 190, we've had 60, we've had 140, well  ",
+        "start": 518.72,
+        "duration": 9.76
+    },
+    {
+        "text": "now we've had 200. Then we said that 200 is 184 is \n8 times, put an 8 up there, remainder here  ",
+        "start": 528.48,
+        "duration": 7.84
+    },
+    {
+        "text": "is 16. Have we seen 160 before? No we haven't \nso now we keep going. Now the question becomes  ",
+        "start": 536.32,
+        "duration": 5.76
+    },
+    {
+        "text": "how long can we keep going? And \neach time we go we add one more  ",
+        "start": 542.96,
+        "duration": 4.56
+    },
+    {
+        "text": "here until we have to hit a repeat. Well in this \ncase, ignoring the padding zeros, if we just take  ",
+        "start": 547.52,
+        "duration": 6.24
+    },
+    {
+        "text": "the non-zero bit that's actually 1, 8, 11, 18, 19, 6, \n14, 2. Those- that can't be bigger than 23 because  ",
+        "start": 553.76,
+        "duration": 10.88
+    },
+    {
+        "text": "if it was bigger than 23 we would have just picked \na bigger number underneath and taken off one more  ",
+        "start": 564.64,
+        "duration": 5.2
+    },
+    {
+        "text": "lot of it. So the remainder, ignoring the zeros, \nis always smaller than 23. So it can't be zero,  ",
+        "start": 569.84,
+        "duration": 6.0
+    },
+    {
+        "text": "it can't be 23, but it can be any of the numbers \nin between all the way up to 22 can appear in here.  ",
+        "start": 577.04,
+        "duration": 8.88
+    },
+    {
+        "text": "They may not all appear in there, we may hit a loop \npoint before we get there, or they may all appear  ",
+        "start": 585.92,
+        "duration": 6.48
+    },
+    {
+        "text": "in there somewhere. And if we just redid this as \nn then the number of options before it is n minus  ",
+        "start": 592.4,
+        "duration": 7.04
+    },
+    {
+        "text": "1. And so that's your worst case scenario, is it's \ngoing to take n minus 1 steps. Once we've done that  ",
+        "start": 599.44,
+        "duration": 5.92
+    },
+    {
+        "text": "we've used every single one, the next one has to \nbe one we've used before, we'll hit a loop point. So  ",
+        "start": 605.92,
+        "duration": 5.36
+    },
+    {
+        "text": "funnily enough, we pull out the Shanks chart, we see \nhere 60,017 that was as bad as it gets. That was  ",
+        "start": 611.28,
+        "duration": 7.28
+    },
+    {
+        "text": "60,016 digits so it hit every \nsingle one of them before it finally repeated  ",
+        "start": 618.56,
+        "duration": 8.24
+    },
+    {
+        "text": "whereas the one before it only hit 5,000, \nit hit like - what's that? Like you know, less than  ",
+        "start": 626.8,
+        "duration": 5.12
+    },
+    {
+        "text": "10% of the possible values before it hit a loop point. \n- (Surely Shanks wasn't doing this for all-)",
+        "start": 631.92,
+        "duration": 5.84
+    },
+    {
+        "text": "You know what, I don't think he was because - \npartly because this takes a really long time,  ",
+        "start": 637.76,
+        "duration": 7.36
+    },
+    {
+        "text": "and you can see me doing it. The first thing you've \ngot to do is you've got to generate your table,  ",
+        "start": 645.12,
+        "duration": 3.36
+    },
+    {
+        "text": "and then you've got to go through and do this, \nand as you can see the way I'm doing it takes  ",
+        "start": 648.48,
+        "duration": 3.36
+    },
+    {
+        "text": "up a lot of paper.\n- (And for a small number!)",
+        "start": 651.84,
+        "duration": 2.16
+    },
+    {
+        "text": "And for a small number. And what you can do when you get here -  ",
+        "start": 654.0,
+        "duration": 2.32
+    },
+    {
+        "text": "so I've done a lot of long division of my time - \nwhat what we did was we you want printed paper  ",
+        "start": 656.32,
+        "duration": 4.88
+    },
+    {
+        "text": "with squares on it so everything stays lined up,\nand then when you get here you copy it up and you  ",
+        "start": 661.2,
+        "duration": 4.88
+    },
+    {
+        "text": "can then you do another stripe, and then you copy \nit up and you do another stripe, but you're still  ",
+        "start": 666.08,
+        "duration": 4.4
+    },
+    {
+        "text": "going a long way that way and you can't imagine \nhe went 60,016 digits in that direction. That's  ",
+        "start": 670.48,
+        "duration": 7.28
+    },
+    {
+        "text": "one clue he didn't do it this way. The other clue \nis the type of mistakes he made. Here, he thought  ",
+        "start": 677.76,
+        "duration": 6.4
+    },
+    {
+        "text": "it repeated every 30,525 and he corrected it to 61,050 which is exactly twice what he thought he had.  ",
+        "start": 684.16,
+        "duration": 7.68
+    },
+    {
+        "text": "If you look at all these corrections he's always \neither doubling or halving it which makes me think  ",
+        "start": 691.84,
+        "duration": 5.2
+    },
+    {
+        "text": "he's got a technique that probably involves powers \nof two or something, or some steps of halving,  ",
+        "start": 697.04,
+        "duration": 5.92
+    },
+    {
+        "text": "and sometimes he's done one too many or one too \nfew and that's what he's corrected. So that kind  ",
+        "start": 702.96,
+        "duration": 4.56
+    },
+    {
+        "text": "of systematic error leads me to believe he wasn't \ndoing it this way, he had another way of doing it. ",
+        "start": 707.52,
+        "duration": 5.92
+    },
+    {
+        "text": "He died in 1882 so this is like three years before \nhe died, he's still sending in, he's up to primes up  ",
+        "start": 713.44,
+        "duration": 6.4
+    },
+    {
+        "text": "to 110,000. So where did he get to on this one? Oh \nthere's a note at the end - 'Note: we may hear remark  ",
+        "start": 719.84,
+        "duration": 6.64
+    },
+    {
+        "text": "that by means of our table we can readily find the \nnumber of figures in the period of the reciprocals  ",
+        "start": 726.48,
+        "duration": 5.36
+    },
+    {
+        "text": "of a composite number not having any higher \nfactors than 110,000' - so  ",
+        "start": 731.84,
+        "duration": 4.48
+    },
+    {
+        "text": "he's basically said these are useful because \nyou can use the reciprocals of the primes  ",
+        "start": 736.32,
+        "duration": 4.8
+    },
+    {
+        "text": "to get all the reciprocals of the composites. \nDoesn't say why that's useful. 'We have simply  ",
+        "start": 741.12,
+        "duration": 4.48
+    },
+    {
+        "text": "defined the least common multiple of several \nnumbers of figures in the...'. Yeah okay and he  ",
+        "start": 745.6,
+        "duration": 3.76
+    },
+    {
+        "text": "explains how to do that, and then he signs off. \nHis only practical application for what he's done  ",
+        "start": 749.36,
+        "duration": 4.924
+    },
+    {
+        "text": "is you can use it to find another \nthing with the practical application.  ",
+        "start": 754.96,
+        "duration": 3.84
+    },
+    {
+        "text": "I like this guy! He's got- I really- I like the cut of his jib. ",
+        "start": 758.8,
+        "duration": 3.92
+    },
+    {
+        "text": "(Imagine how good his YouTube channel would have been?)\n- Ah he definitely would have had a YouTube  ",
+        "start": 762.72,
+        "duration": 3.68
+    },
+    {
+        "text": "channel. \n- (Oh yeah. What would he have thought of \nthe ShankBot?)  ",
+        "start": 766.4,
+        "duration": 3.112
+    },
+    {
+        "text": "I think- well I don't know because",
+        "start": 769.512,
+        "duration": 4.968
+    },
+    {
+        "text": "if his sole goal was to find these numbers he \nwould love ShankBot. I feel like it was the doing  ",
+        "start": 774.48,
+        "duration": 6.96
+    },
+    {
+        "text": "that he enjoyed, and I feel like the fact that \nI coded it up and ShankBot just kicks it out  ",
+        "start": 782.48,
+        "duration": 5.2
+    },
+    {
+        "text": "without flinching, not the same. \n- (One last question because I know you've been doing a lot of research)",
+        "start": 788.64,
+        "duration": 4.88
+    },
+    {
+        "text": "(into him - was he married?)\n- Yeah yeah, and his wife survived him by a good uh pretty much  ",
+        "start": 793.52,
+        "duration": 6.08
+    },
+    {
+        "text": "two decades. Yeah so he was like- every morning he's like morning honey, I'm off to work. And by work  ",
+        "start": 799.6,
+        "duration": 6.08
+    },
+    {
+        "text": "he would just walk upstairs, start doing calculations, \nlike oh another another hard day in the office.",
+        "start": 805.68,
+        "duration": 5.28
+    },
+    {
+        "text": "There are some obvious follow-on questions \nthat you could have at this point. You could  ",
+        "start": 813.28,
+        "duration": 3.12
+    },
+    {
+        "text": "ask yourself how do you take the reciprocals - at \nleast the length of the repeating part of the  ",
+        "start": 816.4,
+        "duration": 5.6
+    },
+    {
+        "text": "reciprocals of the primes - and use it to work out \nthe repeating part the reciprocals of composites,  ",
+        "start": 822.0,
+        "duration": 4.56
+    },
+    {
+        "text": "which is what Shanks put in there as a little \nnote. You can also ask yourself what's special  ",
+        "start": 826.56,
+        "duration": 4.88
+    },
+    {
+        "text": "about the numbers like 7 that use every \nsingle one of these before they get back to  ",
+        "start": 831.44,
+        "duration": 6.16
+    },
+    {
+        "text": "where they started. And it it turns out it's \nsomething called- you've got a thing called a  ",
+        "start": 837.6,
+        "duration": 3.92
+    },
+    {
+        "text": "primitive root. So prime numbers don't have factors \nbut they can't have primitive roots which involves  ",
+        "start": 841.52,
+        "duration": 5.36
+    },
+    {
+        "text": "doing powers of things and remainders. And primes \nthat have 10 as a primitive root will have every  ",
+        "start": 846.88,
+        "duration": 7.84
+    },
+    {
+        "text": "single one of these pop up; because 10's their \nprimitive root they go through every single one  ",
+        "start": 854.72,
+        "duration": 5.84
+    },
+    {
+        "text": "before they get back to the first one. Which is \nwhy 60,013 does not have 10 as a primitive root  ",
+        "start": 860.56,
+        "duration": 5.12
+    },
+    {
+        "text": "so it only used 5,001 and then 60,017 does have 10 \nas a primitive root and that's why it took the  ",
+        "start": 865.68,
+        "duration": 6.72
+    },
+    {
+        "text": "took that long, it used every single one before it\ngot back to where it started. And there's a thing  ",
+        "start": 872.4,
+        "duration": 3.52
+    },
+    {
+        "text": "called a Reptend prime which also tells you \nthe ones that have this incredible property. So if  ",
+        "start": 875.92,
+        "duration": 4.8
+    },
+    {
+        "text": "people want to look into it there's a lot more \nfun. For me however all about the long division. ",
+        "start": 880.72,
+        "duration": 4.8
+    },
+    {
+        "text": "(So just so I'm clear, 60,017 are Reptend primes?)\n- Yes.  ",
+        "start": 886.4,
+        "duration": 6.88
+    },
+    {
+        "text": "(Because they go to the max.)\n- Yeah yeah yeah I will allow that as a definition.",
+        "start": 893.28,
+        "duration": 4.56
+    },
+    {
+        "text": "If you like this video you're really gonna \nlike Matt Parker's new video for Pi Day 2022, ",
+        "start": 901.04,
+        "duration": 5.68
+    },
+    {
+        "text": "it's on his channel standupmaths. And also \nMatt, myself, and Keith Moore from the Royal  ",
+        "start": 906.72,
+        "duration": 5.76
+    },
+    {
+        "text": "Society talk more Shanks on the Objectivity \nchannel. There are links here on the screen  ",
+        "start": 912.48,
+        "duration": 5.68
+    },
+    {
+        "text": "and down in the video description. \n- Hero. Yeah, hero. Northumbrian hero.",
+        "start": 918.16,
+        "duration": 5.76
+    },
+    {
+        "text": "And still world record holder for \nmost digits of pi calculated by hand.",
+        "start": 925.12,
+        "duration": 4.8
+    }
+]

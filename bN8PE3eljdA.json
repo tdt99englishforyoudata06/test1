@@ -1,0 +1,787 @@
+[
+    {
+        "text": "So we're going to do a classic",
+        "start": 0.06,
+        "duration": 1.11
+    },
+    {
+        "text": "Numberphile video, where we talk about a",
+        "start": 1.17,
+        "duration": 1.92
+    },
+    {
+        "text": "number and a property of that number.",
+        "start": 3.09,
+        "duration": 2.01
+    },
+    {
+        "text": "Today's number is 196. What's\nspecial about",
+        "start": 5.1,
+        "duration": 5.9
+    },
+    {
+        "text": "196? Well we're going to do a \nprocess called",
+        "start": 11.0,
+        "duration": 3.16
+    },
+    {
+        "text": "reverse and add. It's a\nvery simple little game,",
+        "start": 14.16,
+        "duration": 3.209
+    },
+    {
+        "text": "you can do it. So we're going to take a",
+        "start": 17.369,
+        "duration": 2.551
+    },
+    {
+        "text": "number, what number shall we take? Give me",
+        "start": 19.92,
+        "duration": 3.09
+    },
+    {
+        "text": "a two-digit number.\n- 23",
+        "start": 23.01,
+        "duration": 3.01
+    },
+    {
+        "text": "23 alright. I'm going to reverse \nan add; so I'm going to",
+        "start": 26.02,
+        "duration": 2.9
+    },
+    {
+        "text": "reverse the digits, so it's 32. And add",
+        "start": 28.92,
+        "duration": 2.58
+    },
+    {
+        "text": "them together and if I'm correct it's 55,",
+        "start": 31.5,
+        "duration": 2.16
+    },
+    {
+        "text": "okay? Now I'm going to stop there because",
+        "start": 33.66,
+        "duration": 2.419
+    },
+    {
+        "text": "this is a palindrome number, so it's the",
+        "start": 36.079,
+        "duration": 2.711
+    },
+    {
+        "text": "same forwards and back, and \nthat's what I",
+        "start": 38.79,
+        "duration": 1.74
+    },
+    {
+        "text": "want to get to. Let's see if I can do",
+        "start": 40.53,
+        "duration": 1.83
+    },
+    {
+        "text": "another number, maybe it will take a",
+        "start": 42.36,
+        "duration": 2.1
+    },
+    {
+        "text": "little bit longer to get to a palindrome.",
+        "start": 44.46,
+        "duration": 2.579
+    },
+    {
+        "text": "What other number could we pick? Let's",
+        "start": 47.039,
+        "duration": 3.75
+    },
+    {
+        "text": "pick a three-digit number- 254. \nWe add 452,",
+        "start": 50.789,
+        "duration": 7.233
+    },
+    {
+        "text": "so 706. So we haven't got a palindrome",
+        "start": 58.022,
+        "duration": 2.638
+    },
+    {
+        "text": "number yet. So we might have to do that",
+        "start": 60.66,
+        "duration": 2.579
+    },
+    {
+        "text": "again; so we take the result and apply it \nagain.",
+        "start": 63.239,
+        "duration": 3.031
+    },
+    {
+        "text": "...plus 607, add that together what do",
+        "start": 66.27,
+        "duration": 5.639
+    },
+    {
+        "text": "we get? So 1313 - it's not palindrome",
+        "start": 71.909,
+        "duration": 4.291
+    },
+    {
+        "text": "yet, might have to do another\nstep. Question",
+        "start": 76.2,
+        "duration": 1.98
+    },
+    {
+        "text": "is how many steps is this going to take?",
+        "start": 78.18,
+        "duration": 2.28
+    },
+    {
+        "text": "So we add these together - hey! Only took",
+        "start": 80.46,
+        "duration": 3.39
+    },
+    {
+        "text": "a couple of steps, 4444.",
+        "start": 83.85,
+        "duration": 2.839
+    },
+    {
+        "text": "Will all numbers end up finally or",
+        "start": 86.689,
+        "duration": 4.0
+    },
+    {
+        "text": "eventually with a palindrome?",
+        "start": 90.689,
+        "duration": 2.631
+    },
+    {
+        "text": "It turns out all two-digit numbers do",
+        "start": 93.32,
+        "duration": 2.95
+    },
+    {
+        "text": "end up in a palindrome, all three digit",
+        "start": 96.27,
+        "duration": 2.93
+    },
+    {
+        "text": "numbers we're not so sure about. In fact",
+        "start": 99.2,
+        "duration": 4.779
+    },
+    {
+        "text": "the number 196 is the smallest number",
+        "start": 103.979,
+        "duration": 4.651
+    },
+    {
+        "text": "that we don't know if it ends in a",
+        "start": 108.63,
+        "duration": 3.809
+    },
+    {
+        "text": "palindrome or not when you repeat this",
+        "start": 112.439,
+        "duration": 2.311
+    },
+    {
+        "text": "process, and we've tried for a billion",
+        "start": 114.75,
+        "duration": 4.2
+    },
+    {
+        "text": "iterations. We've done this over and over",
+        "start": 118.95,
+        "duration": 3.3
+    },
+    {
+        "text": "and over more than a billion",
+        "start": 122.25,
+        "duration": 1.95
+    },
+    {
+        "text": "iterations and still it hasn't ended",
+        "start": 124.2,
+        "duration": 3.99
+    },
+    {
+        "text": "in a palindrome. Will it ever? A number",
+        "start": 128.19,
+        "duration": 4.68
+    },
+    {
+        "text": "that doesn't end in a palindrome, it's",
+        "start": 132.87,
+        "duration": 2.19
+    },
+    {
+        "text": "called a Lychrel number; 196 appears",
+        "start": 135.06,
+        "duration": 5.429
+    },
+    {
+        "text": "to be a Lychrel number, it appears to be",
+        "start": 140.489,
+        "duration": 2.401
+    },
+    {
+        "text": "the smallest one, but we're not sure, we",
+        "start": 142.89,
+        "duration": 3.81
+    },
+    {
+        "text": "don't know, it's not proved - we've just",
+        "start": 146.7,
+        "duration": 2.85
+    },
+    {
+        "text": "checked it a lot. So most numbers take",
+        "start": 149.55,
+        "duration": 3.95
+    },
+    {
+        "text": "three, four steps? Not, you know, not",
+        "start": 153.5,
+        "duration": 2.769
+    },
+    {
+        "text": "very long. 89, 89 is an \ninteresting one, it",
+        "start": 156.269,
+        "duration": 4.741
+    },
+    {
+        "text": "takes 24 steps to finally get to be a",
+        "start": 161.01,
+        "duration": 4.86
+    },
+    {
+        "text": "palindrome number. I'm pausing in case",
+        "start": 165.87,
+        "duration": 3.929
+    },
+    {
+        "text": "Brady says, go on then. In case Brady made",
+        "start": 169.799,
+        "duration": 2.94
+    },
+    {
+        "text": "me do it, I did make a note of that",
+        "start": 172.739,
+        "duration": 2.131
+    },
+    {
+        "text": "better, I haven't quite finished it yet",
+        "start": 174.87,
+        "duration": 2.73
+    },
+    {
+        "text": "but Brady isn't going to make me do it!",
+        "start": 177.6,
+        "duration": 2.25
+    },
+    {
+        "text": "- (Brady: I'll do it on screen for you)",
+        "start": 179.85,
+        "duration": 3.06
+    },
+    {
+        "text": "Excellent! Fantastic! Because we \nwould be here for a",
+        "start": 182.91,
+        "duration": 2.49
+    },
+    {
+        "text": "long time, took me ages to do this.",
+        "start": 185.4,
+        "duration": 2.329
+    },
+    {
+        "text": "(Brady: 196 might be one of \nthese Lychrel numbers,)",
+        "start": 187.729,
+        "duration": 4.551
+    },
+    {
+        "text": "(are there any definite\nLychrel numbers?)",
+        "start": 192.28,
+        "duration": 2.09
+    },
+    {
+        "text": "There are no definite Lychrel numbers.",
+        "start": 194.37,
+        "duration": 3.66
+    },
+    {
+        "text": "We've got a list of candidates only. Now",
+        "start": 198.03,
+        "duration": 3.12
+    },
+    {
+        "text": "I'm told that in lower basis, if we talk",
+        "start": 201.15,
+        "duration": 2.88
+    },
+    {
+        "text": "about base 2 and base 3 and base 4, you",
+        "start": 204.03,
+        "duration": 3.39
+    },
+    {
+        "text": "can show numbers that definitely go into",
+        "start": 207.42,
+        "duration": 2.819
+    },
+    {
+        "text": "one of these loops or will never end up",
+        "start": 210.239,
+        "duration": 1.981
+    },
+    {
+        "text": "in a palindrome and it turns out that base",
+        "start": 212.22,
+        "duration": 3.269
+    },
+    {
+        "text": "10, not only at the base we use in day to",
+        "start": 215.489,
+        "duration": 2.851
+    },
+    {
+        "text": "day life, but it's the smallest",
+        "start": 218.34,
+        "duration": 1.97
+    },
+    {
+        "text": "interesting case for this. It's the",
+        "start": 220.31,
+        "duration": 2.86
+    },
+    {
+        "text": "smallest base that we're not sure if we",
+        "start": 223.17,
+        "duration": 3.48
+    },
+    {
+        "text": "can do it or not. In the smaller bases",
+        "start": 226.65,
+        "duration": 2.7
+    },
+    {
+        "text": "apparently we have an answer.",
+        "start": 229.35,
+        "duration": 1.609
+    },
+    {
+        "text": "Yeah, so 196 is the smallest candidate.",
+        "start": 230.959,
+        "duration": 3.34
+    },
+    {
+        "text": "The next one is 295, the next one is 394,",
+        "start": 234.299,
+        "duration": 7.951
+    },
+    {
+        "text": "and then it's 496 - so they're not\nirregular. It's",
+        "start": 242.25,
+        "duration": 4.44
+    },
+    {
+        "text": "about every 100 or so. There's quite",
+        "start": 246.69,
+        "duration": 3.75
+    },
+    {
+        "text": "a few of these, maybe some of them are\nLychrel",
+        "start": 250.44,
+        "duration": 4.25
+    },
+    {
+        "text": "numbers and some of them might just",
+        "start": 254.69,
+        "duration": 1.7
+    },
+    {
+        "text": "finally become a palindrome at some",
+        "start": 256.39,
+        "duration": 5.17
+    },
+    {
+        "text": "great distance away, we don't know. The",
+        "start": 261.56,
+        "duration": 2.73
+    },
+    {
+        "text": "next one might be more obvious because",
+        "start": 264.29,
+        "duration": 2.07
+    },
+    {
+        "text": "we started with 196, its palindrome",
+        "start": 266.36,
+        "duration": 4.43
+    },
+    {
+        "text": "automatically is one of these candidates",
+        "start": 270.79,
+        "duration": 4.42
+    },
+    {
+        "text": "as well; and so on and so on.",
+        "start": 275.21,
+        "duration": 2.31
+    },
+    {
+        "text": "Yes we've checked 196 for billions of",
+        "start": 277.52,
+        "duration": 3.48
+    },
+    {
+        "text": "iterations, the numbers get larger every",
+        "start": 281.0,
+        "duration": 3.03
+    },
+    {
+        "text": "time you do it. The numbers are now",
+        "start": 284.03,
+        "duration": 2.28
+    },
+    {
+        "text": "something like 600 million digits long.",
+        "start": 286.31,
+        "duration": 2.97
+    },
+    {
+        "text": "Lychrel numbers- by the way that",
+        "start": 289.28,
+        "duration": 2.04
+    },
+    {
+        "text": "name, Lychrel, let's write that down. That",
+        "start": 291.32,
+        "duration": 3.39
+    },
+    {
+        "text": "came from one of the investigators in",
+        "start": 294.71,
+        "duration": 2.55
+    },
+    {
+        "text": "this problem, it's actually a kind of",
+        "start": 297.26,
+        "duration": 2.07
+    },
+    {
+        "text": "rough but not quite anagram of his",
+        "start": 299.33,
+        "duration": 3.03
+    },
+    {
+        "text": "girlfriend's name which is Sheryl; oh",
+        "start": 302.36,
+        "duration": 2.73
+    },
+    {
+        "text": "Lychrel strikes again. Why do we do this?",
+        "start": 305.09,
+        "duration": 3.33
+    },
+    {
+        "text": "There's no application, we do",
+        "start": 308.42,
+        "duration": 2.85
+    },
+    {
+        "text": "this for,\nyou know, for fun, for the exercise,",
+        "start": 311.27,
+        "duration": 2.07
+    },
+    {
+        "text": "for the mental exercise; for the practice",
+        "start": 313.34,
+        "duration": 2.28
+    },
+    {
+        "text": "of it. Maybe it turns out that if there's",
+        "start": 315.62,
+        "duration": 4.08
+    },
+    {
+        "text": "a proof the proof might use techniques",
+        "start": 319.7,
+        "duration": 3.03
+    },
+    {
+        "text": "that are deeper then the problem looks",
+        "start": 322.73,
+        "duration": 2.34
+    },
+    {
+        "text": "on its surface, and we can apply those",
+        "start": 325.07,
+        "duration": 2.58
+    },
+    {
+        "text": "to serious problems. This problem",
+        "start": 327.65,
+        "duration": 2.519
+    },
+    {
+        "text": "became kind of famous in the 1980s in",
+        "start": 330.169,
+        "duration": 2.551
+    },
+    {
+        "text": "the community of hobbyist microcomputer",
+        "start": 332.72,
+        "duration": 3.92
+    },
+    {
+        "text": "programmers. So they were using this to",
+        "start": 336.64,
+        "duration": 2.56
+    },
+    {
+        "text": "test out their microcomputer programming",
+        "start": 339.2,
+        "duration": 2.67
+    },
+    {
+        "text": "skills. And so they would make these",
+        "start": 341.87,
+        "duration": 2.4
+    },
+    {
+        "text": "lists of these reverse and add",
+        "start": 344.27,
+        "duration": 2.81
+    },
+    {
+        "text": "algorithms, they'd make these\nlists; and of",
+        "start": 347.08,
+        "duration": 3.13
+    },
+    {
+        "text": "course all you need is when you want to",
+        "start": 350.21,
+        "duration": 2.37
+    },
+    {
+        "text": "pass on the baton or pass on the torch",
+        "start": 352.58,
+        "duration": 2.13
+    },
+    {
+        "text": "to the next person you just need the",
+        "start": 354.71,
+        "duration": 1.89
+    },
+    {
+        "text": "last entry. All you do is just give them",
+        "start": 356.6,
+        "duration": 2.22
+    },
+    {
+        "text": "the last entry and then they can carry",
+        "start": 358.82,
+        "duration": 1.59
+    },
+    {
+        "text": "on the process. And that's what's",
+        "start": 360.41,
+        "duration": 2.94
+    },
+    {
+        "text": "happened; since the 80s this process, this",
+        "start": 363.35,
+        "duration": 4.05
+    },
+    {
+        "text": "baton, has been passed from person to",
+        "start": 367.4,
+        "duration": 3.36
+    },
+    {
+        "text": "person - currently we are on these huge",
+        "start": 370.76,
+        "duration": 3.99
+    },
+    {
+        "text": "numbers and still it hasn't been\nresolved yet.",
+        "start": 374.75,
+        "duration": 3.726
+    },
+    {
+        "text": "We'd like to thank",
+        "start": 379.981,
+        "duration": 0.949
+    },
+    {
+        "text": "audible.com for their support of this",
+        "start": 380.93,
+        "duration": 2.07
+    },
+    {
+        "text": "Numberphile video. And with over 180,000",
+        "start": 383.0,
+        "duration": 3.18
+    },
+    {
+        "text": "titles in their library",
+        "start": 386.18,
+        "duration": 1.56
+    },
+    {
+        "text": "it is the best place to go for",
+        "start": 387.74,
+        "duration": 2.01
+    },
+    {
+        "text": "audiobooks and other spoken materials.",
+        "start": 389.75,
+        "duration": 2.58
+    },
+    {
+        "text": "Now I'm an audible customer myself, I",
+        "start": 392.33,
+        "duration": 1.92
+    },
+    {
+        "text": "especially enjoy listening when I'm out",
+        "start": 394.25,
+        "duration": 2.04
+    },
+    {
+        "text": "walking the dogs as I've spoken about",
+        "start": 396.29,
+        "duration": 1.65
+    },
+    {
+        "text": "before, or embarking on a really long",
+        "start": 397.94,
+        "duration": 2.46
+    },
+    {
+        "text": "drive across the country. Really makes",
+        "start": 400.4,
+        "duration": 2.16
+    },
+    {
+        "text": "the whole drive a lot more enjoyable. Now",
+        "start": 402.56,
+        "duration": 2.43
+    },
+    {
+        "text": "various Numberphile stars have books on",
+        "start": 404.99,
+        "duration": 3.15
+    },
+    {
+        "text": "audible, I'm going to put some links to",
+        "start": 408.14,
+        "duration": 1.86
+    },
+    {
+        "text": "them in the video description so you can",
+        "start": 410.0,
+        "duration": 1.86
+    },
+    {
+        "text": "check them out. Or if you're after one",
+        "start": 411.86,
+        "duration": 1.95
+    },
+    {
+        "text": "with a very number-y title you can read",
+        "start": 413.81,
+        "duration": 2.04
+    },
+    {
+        "text": "the one I'm reading at the moment which",
+        "start": 415.85,
+        "duration": 1.77
+    },
+    {
+        "text": "is 11.22.63, it's a really interesting",
+        "start": 417.62,
+        "duration": 3.63
+    },
+    {
+        "text": "book by Stephen King about time travel",
+        "start": 421.25,
+        "duration": 2.76
+    },
+    {
+        "text": "and also deals with the assassination of",
+        "start": 424.01,
+        "duration": 2.07
+    },
+    {
+        "text": "John F Kennedy. It also weighs in at over",
+        "start": 426.08,
+        "duration": 3.06
+    },
+    {
+        "text": "30 hours long unabridged so I'm",
+        "start": 429.14,
+        "duration": 2.49
+    },
+    {
+        "text": "getting plenty of dog walks out of that",
+        "start": 431.63,
+        "duration": 1.59
+    },
+    {
+        "text": "one. Now if you're interested in checking",
+        "start": 433.22,
+        "duration": 1.5
+    },
+    {
+        "text": "out audible, and you really should, go to",
+        "start": 434.72,
+        "duration": 2.22
+    },
+    {
+        "text": "audible.com/numberphile - then",
+        "start": 436.94,
+        "duration": 3.6
+    },
+    {
+        "text": "they'll know you came from here and",
+        "start": 440.54,
+        "duration": 1.17
+    },
+    {
+        "text": "that's good - and when you sign on you get",
+        "start": 441.71,
+        "duration": 2.58
+    },
+    {
+        "text": "a free audiobook at the start, so you get",
+        "start": 444.29,
+        "duration": 2.46
+    },
+    {
+        "text": "your first one for free you can see what",
+        "start": 446.75,
+        "duration": 1.68
+    },
+    {
+        "text": "you think of the whole thing. It's a",
+        "start": 448.43,
+        "duration": 1.35
+    },
+    {
+        "text": "great service, as I said I use it myself.",
+        "start": 449.78,
+        "duration": 1.74
+    },
+    {
+        "text": "And importantly thanks to them for",
+        "start": 451.52,
+        "duration": 2.61
+    },
+    {
+        "text": "supporting us here on Numberphile.",
+        "start": 454.13,
+        "duration": 3.83
+    }
+]

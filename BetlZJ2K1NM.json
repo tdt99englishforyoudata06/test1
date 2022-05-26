@@ -1,0 +1,227 @@
+[
+    {
+        "text": "In this video,",
+        "start": 0.837,
+        "duration": 0.833
+    },
+    {
+        "text": "we're going to show you how to search",
+        "start": 1.67,
+        "duration": 1.68
+    },
+    {
+        "text": "and find relational\ndata in your spreadsheet",
+        "start": 3.35,
+        "duration": 2.82
+    },
+    {
+        "text": "by using the VLOOKUP function.",
+        "start": 6.17,
+        "duration": 2.27
+    },
+    {
+        "text": "You'll need to understand the concept",
+        "start": 8.44,
+        "duration": 1.566
+    },
+    {
+        "text": "of a lookup value, range, column number,",
+        "start": 10.006,
+        "duration": 3.208
+    },
+    {
+        "text": "and exact or approximate matchings.",
+        "start": 13.214,
+        "duration": 2.199
+    },
+    {
+        "text": "First, click on a blank cell",
+        "start": 16.57,
+        "duration": 1.62
+    },
+    {
+        "text": "where you want your result to appear.",
+        "start": 18.19,
+        "duration": 2.41
+    },
+    {
+        "text": "Go to the \"Formulas\" tab,",
+        "start": 20.6,
+        "duration": 1.641
+    },
+    {
+        "text": "and then click \"Lookup & Reference.\"",
+        "start": 22.241,
+        "duration": 2.129
+    },
+    {
+        "text": "A drop-down window will appear.",
+        "start": 24.37,
+        "duration": 2.432
+    },
+    {
+        "text": "From the options, select \"VLOOKUP.\"",
+        "start": 26.802,
+        "duration": 3.068
+    },
+    {
+        "text": "A window will appear\non the right-hand side",
+        "start": 29.87,
+        "duration": 2.06
+    },
+    {
+        "text": "where you can start filling in",
+        "start": 31.93,
+        "duration": 1.15
+    },
+    {
+        "text": "the details of your search.",
+        "start": 33.08,
+        "duration": 2.041
+    },
+    {
+        "text": "In the bar under \"Lookup_value,\"",
+        "start": 35.121,
+        "duration": 2.379
+    },
+    {
+        "text": "add the value you're looking for.",
+        "start": 37.5,
+        "duration": 2.07
+    },
+    {
+        "text": "It can be anything,",
+        "start": 39.57,
+        "duration": 0.875
+    },
+    {
+        "text": "from a name, number, or cell location.",
+        "start": 40.445,
+        "duration": 3.192
+    },
+    {
+        "text": "We'll enter a name here,",
+        "start": 43.637,
+        "duration": 1.516
+    },
+    {
+        "text": "as we're looking for a guest seat number.",
+        "start": 45.153,
+        "duration": 2.417
+    },
+    {
+        "text": "Be wary; the text is case-sensitive,",
+        "start": 47.57,
+        "duration": 2.318
+    },
+    {
+        "text": "so be careful with capital letters.",
+        "start": 49.888,
+        "duration": 2.292
+    },
+    {
+        "text": "Under \"Table_array,\"",
+        "start": 52.18,
+        "duration": 1.39
+    },
+    {
+        "text": "add the area you want Excel\nto search for your data.",
+        "start": 53.57,
+        "duration": 3.17
+    },
+    {
+        "text": "You can do this by typing in a range.",
+        "start": 56.74,
+        "duration": 2.48
+    },
+    {
+        "text": "This is the top left cell number",
+        "start": 59.22,
+        "duration": 1.975
+    },
+    {
+        "text": "followed by a colon",
+        "start": 61.195,
+        "duration": 1.55
+    },
+    {
+        "text": "followed by the bottom right cell number.",
+        "start": 62.745,
+        "duration": 2.855
+    },
+    {
+        "text": "You could add a search area\nof two columns or more.",
+        "start": 65.6,
+        "duration": 3.44
+    },
+    {
+        "text": "Under \"Col_index_num,\"",
+        "start": 69.04,
+        "duration": 1.77
+    },
+    {
+        "text": "you'll need to add the numerical value",
+        "start": 70.81,
+        "duration": 2.14
+    },
+    {
+        "text": "corresponding to the column\nwith your return data.",
+        "start": 72.95,
+        "duration": 3.37
+    },
+    {
+        "text": "In this example, the return\ndata is our seat number,",
+        "start": 76.32,
+        "duration": 3.49
+    },
+    {
+        "text": "which is in column C.",
+        "start": 79.81,
+        "duration": 1.79
+    },
+    {
+        "text": "The numerical value for this is 3.",
+        "start": 81.6,
+        "duration": 2.63
+    },
+    {
+        "text": "So we'll add this here.",
+        "start": 84.23,
+        "duration": 2.07
+    },
+    {
+        "text": "Under \"Range_lookup,\"",
+        "start": 86.3,
+        "duration": 1.32
+    },
+    {
+        "text": "you'll need to enter \"TRUE\"\nor \"FALSE\" in capital letters",
+        "start": 87.62,
+        "duration": 4.12
+    },
+    {
+        "text": "if you want your results\nto be exact or approximate.",
+        "start": 91.74,
+        "duration": 3.42
+    },
+    {
+        "text": "\"FALSE\" means you want exact results,",
+        "start": 95.16,
+        "duration": 2.23
+    },
+    {
+        "text": "and \"TRUE\" means you want\nthem to be approximate.",
+        "start": 97.39,
+        "duration": 3.09
+    },
+    {
+        "text": "Click down here to start the search.",
+        "start": 100.48,
+        "duration": 2.428
+    },
+    {
+        "text": "Your value will appear in the cell.",
+        "start": 102.908,
+        "duration": 1.959
+    }
+]

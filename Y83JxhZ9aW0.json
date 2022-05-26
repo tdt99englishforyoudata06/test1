@@ -1,0 +1,277 @@
+[
+    {
+        "text": "[Music]",
+        "start": 0.0,
+        "duration": 4.56
+    },
+    {
+        "text": "basically you can't trust the thing",
+        "start": 2.78,
+        "duration": 2.559
+    },
+    {
+        "text": "that's coming out of your computer",
+        "start": 4.56,
+        "duration": 3.359
+    },
+    {
+        "text": "because the monitor is changing the",
+        "start": 5.339,
+        "duration": 4.47
+    },
+    {
+        "text": "content of the screen hello my name is",
+        "start": 7.919,
+        "duration": 3.691
+    },
+    {
+        "text": "Aang sway I am the founder and chief",
+        "start": 9.809,
+        "duration": 4.171
+    },
+    {
+        "text": "scientist of red balloon security let's",
+        "start": 11.61,
+        "duration": 5.339
+    },
+    {
+        "text": "look at a typical embedded vulnerability",
+        "start": 13.98,
+        "duration": 5.28
+    },
+    {
+        "text": "and what it means here we have a",
+        "start": 16.949,
+        "duration": 5.401
+    },
+    {
+        "text": "beautiful Dell 24 inch monitor and if",
+        "start": 19.26,
+        "duration": 5.279
+    },
+    {
+        "text": "you look at this website",
+        "start": 22.35,
+        "duration": 5.22
+    },
+    {
+        "text": "it's obviously a mock not real website",
+        "start": 24.539,
+        "duration": 5.25
+    },
+    {
+        "text": "what you probably have not thought about",
+        "start": 27.57,
+        "duration": 5.22
+    },
+    {
+        "text": "is that this monitor also has a computer",
+        "start": 29.789,
+        "duration": 5.071
+    },
+    {
+        "text": "inside the monitor itself that's",
+        "start": 32.79,
+        "duration": 4.83
+    },
+    {
+        "text": "responsible for displaying pixels and",
+        "start": 34.86,
+        "duration": 4.859
+    },
+    {
+        "text": "selecting input it's generally called",
+        "start": 37.62,
+        "duration": 3.57
+    },
+    {
+        "text": "the on-screen display controller",
+        "start": 39.719,
+        "duration": 5.491
+    },
+    {
+        "text": "now our research found that there is a",
+        "start": 41.19,
+        "duration": 6.389
+    },
+    {
+        "text": "way for an attacker to gain access to",
+        "start": 45.21,
+        "duration": 4.38
+    },
+    {
+        "text": "and cause arbitrary code execution",
+        "start": 47.579,
+        "duration": 4.291
+    },
+    {
+        "text": "inside the controller of the monitor",
+        "start": 49.59,
+        "duration": 4.289
+    },
+    {
+        "text": "itself what if you can't trust the",
+        "start": 51.87,
+        "duration": 3.45
+    },
+    {
+        "text": "output of your computer because the",
+        "start": 53.879,
+        "duration": 4.531
+    },
+    {
+        "text": "monitor is actually changing the pixel",
+        "start": 55.32,
+        "duration": 5.129
+    },
+    {
+        "text": "values on the screen so that's exactly",
+        "start": 58.41,
+        "duration": 3.78
+    },
+    {
+        "text": "what we did if the attacker redirects",
+        "start": 60.449,
+        "duration": 3.93
+    },
+    {
+        "text": "you to a website that looks a lot like",
+        "start": 62.19,
+        "duration": 4.89
+    },
+    {
+        "text": "your banking website you're not going to",
+        "start": 64.379,
+        "duration": 4.261
+    },
+    {
+        "text": "be able to see that same as a cell lock",
+        "start": 67.08,
+        "duration": 4.41
+    },
+    {
+        "text": "on your browser so this is where the",
+        "start": 68.64,
+        "duration": 4.979
+    },
+    {
+        "text": "attacker would then compromise your",
+        "start": 71.49,
+        "duration": 5.19
+    },
+    {
+        "text": "monitor and put that SSL lock onto the",
+        "start": 73.619,
+        "duration": 6.091
+    },
+    {
+        "text": "screen we've made this ssl lock not move",
+        "start": 76.68,
+        "duration": 5.13
+    },
+    {
+        "text": "at all it is possible to have this thing",
+        "start": 79.71,
+        "duration": 4.019
+    },
+    {
+        "text": "move with the browser but for",
+        "start": 81.81,
+        "duration": 4.26
+    },
+    {
+        "text": "demonstration purpose we've made it not",
+        "start": 83.729,
+        "duration": 4.591
+    },
+    {
+        "text": "follow the screens so your computer is",
+        "start": 86.07,
+        "duration": 5.0
+    },
+    {
+        "text": "not showing you that your connection is",
+        "start": 88.32,
+        "duration": 5.97
+    },
+    {
+        "text": "secure but the monitor is overlaying the",
+        "start": 91.07,
+        "duration": 5.409
+    },
+    {
+        "text": "SSL lock onto it we can use the monitor",
+        "start": 94.29,
+        "duration": 5.039
+    },
+    {
+        "text": "itself to change what you see as in your",
+        "start": 96.479,
+        "duration": 5.341
+    },
+    {
+        "text": "bank account so instead of having $100",
+        "start": 99.329,
+        "duration": 4.83
+    },
+    {
+        "text": "we can make your monitor show that your",
+        "start": 101.82,
+        "duration": 3.75
+    },
+    {
+        "text": "bank account has a million dollars",
+        "start": 104.159,
+        "duration": 3.181
+    },
+    {
+        "text": "there's no way for the user to know",
+        "start": 105.57,
+        "duration": 3.659
+    },
+    {
+        "text": "because we only interact with this",
+        "start": 107.34,
+        "duration": 3.84
+    },
+    {
+        "text": "computer through the monitor we estimate",
+        "start": 109.229,
+        "duration": 3.811
+    },
+    {
+        "text": "that there's at least a billion monitors",
+        "start": 111.18,
+        "duration": 3.479
+    },
+    {
+        "text": "on the planet today that's vulnerable to",
+        "start": 113.04,
+        "duration": 3.21
+    },
+    {
+        "text": "this type of attack",
+        "start": 114.659,
+        "duration": 18.641
+    },
+    {
+        "text": "[Music]",
+        "start": 116.25,
+        "duration": 21.23
+    },
+    {
+        "text": "what were you doing by my computer I saw",
+        "start": 133.3,
+        "duration": 7.2
+    },
+    {
+        "text": "you behind the monitor",
+        "start": 137.48,
+        "duration": 3.02
+    },
+    {
+        "text": "[Music]",
+        "start": 141.94,
+        "duration": 20.599
+    }
+]

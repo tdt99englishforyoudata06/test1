@@ -1,0 +1,722 @@
+[
+    {
+        "text": "hey guys been here I thought I'd show",
+        "start": 0.05,
+        "duration": 6.22
+    },
+    {
+        "text": "you my latest project this is an",
+        "start": 3.689,
+        "duration": 5.341
+    },
+    {
+        "text": "electronic Braille system with two",
+        "start": 6.27,
+        "duration": 5.13
+    },
+    {
+        "text": "characters that are controlled by the PC",
+        "start": 9.03,
+        "duration": 5.58
+    },
+    {
+        "text": "parallel port so I'll open this up and",
+        "start": 11.4,
+        "duration": 6.959
+    },
+    {
+        "text": "show you what's built inside the actual",
+        "start": 14.61,
+        "duration": 5.759
+    },
+    {
+        "text": "barrel modules themselves are",
+        "start": 18.359,
+        "duration": 4.561
+    },
+    {
+        "text": "commercially made these are made by a",
+        "start": 20.369,
+        "duration": 4.711
+    },
+    {
+        "text": "company called meat tech or medtech I'll",
+        "start": 22.92,
+        "duration": 4.769
+    },
+    {
+        "text": "put a link in the description the",
+        "start": 25.08,
+        "duration": 4.92
+    },
+    {
+        "text": "trouble is the the drivers they come",
+        "start": 27.689,
+        "duration": 4.26
+    },
+    {
+        "text": "with are a bit proprietary so I built my",
+        "start": 30.0,
+        "duration": 3.989
+    },
+    {
+        "text": "own driver circuit and I'll talk about",
+        "start": 31.949,
+        "duration": 4.651
+    },
+    {
+        "text": "that in a minute right now I just want",
+        "start": 33.989,
+        "duration": 3.931
+    },
+    {
+        "text": "to show you how these things are built",
+        "start": 36.6,
+        "duration": 5.299
+    },
+    {
+        "text": "each pin in the Braille display is",
+        "start": 37.92,
+        "duration": 7.17
+    },
+    {
+        "text": "controlled by a piezo electric bender",
+        "start": 41.899,
+        "duration": 6.511
+    },
+    {
+        "text": "actuator so what we have here is a long",
+        "start": 45.09,
+        "duration": 8.399
+    },
+    {
+        "text": "thin panel or rod almost that flexes up",
+        "start": 48.41,
+        "duration": 7.329
+    },
+    {
+        "text": "or down like this when voltage is",
+        "start": 53.489,
+        "duration": 7.37
+    },
+    {
+        "text": "applied to it so if I fire this thing up",
+        "start": 55.739,
+        "duration": 8.25
+    },
+    {
+        "text": "you can see the rod moving in response",
+        "start": 60.859,
+        "duration": 6.51
+    },
+    {
+        "text": "to the voltage applied to it",
+        "start": 63.989,
+        "duration": 3.38
+    },
+    {
+        "text": "just like that the trouble is the",
+        "start": 72.68,
+        "duration": 4.86
+    },
+    {
+        "text": "voltages have to be pretty high to make",
+        "start": 75.92,
+        "duration": 4.26
+    },
+    {
+        "text": "the piezo electric effect work so in",
+        "start": 77.54,
+        "duration": 4.35
+    },
+    {
+        "text": "this case the device is rated for about",
+        "start": 80.18,
+        "duration": 5.549
+    },
+    {
+        "text": "200 volts a zero volt signal causes the",
+        "start": 81.89,
+        "duration": 5.76
+    },
+    {
+        "text": "pin to be up and a 200 volt signal",
+        "start": 85.729,
+        "duration": 3.631
+    },
+    {
+        "text": "causes the pin to be down or something",
+        "start": 87.65,
+        "duration": 5.49
+    },
+    {
+        "text": "like that NB is the other way so the the",
+        "start": 89.36,
+        "duration": 5.58
+    },
+    {
+        "text": "driver circuit has to be a high voltage",
+        "start": 93.14,
+        "duration": 6.75
+    },
+    {
+        "text": "amplifier to make this work so here's",
+        "start": 94.94,
+        "duration": 7.26
+    },
+    {
+        "text": "some notes I made on the project the",
+        "start": 99.89,
+        "duration": 4.44
+    },
+    {
+        "text": "input signal to the amplifier circuit is",
+        "start": 102.2,
+        "duration": 5.309
+    },
+    {
+        "text": "just 0 to 5 volts this is coming from a",
+        "start": 104.33,
+        "duration": 7.17
+    },
+    {
+        "text": "PC parallel port and I used some 74 HC",
+        "start": 107.509,
+        "duration": 7.081
+    },
+    {
+        "text": "series logic chips which all work on a 5",
+        "start": 111.5,
+        "duration": 6.18
+    },
+    {
+        "text": "volt positive signal and the output",
+        "start": 114.59,
+        "duration": 6.96
+    },
+    {
+        "text": "needs to be 200 volts down to zero and",
+        "start": 117.68,
+        "duration": 5.91
+    },
+    {
+        "text": "back up to 200 again so really this is",
+        "start": 121.55,
+        "duration": 3.9
+    },
+    {
+        "text": "our input and output signal that we want",
+        "start": 123.59,
+        "duration": 6.029
+    },
+    {
+        "text": "from the transistor amplifier and here's",
+        "start": 125.45,
+        "duration": 6.57
+    },
+    {
+        "text": "a schematic of the actual amplifier",
+        "start": 129.619,
+        "duration": 5.191
+    },
+    {
+        "text": "itself it's really just a transistor",
+        "start": 132.02,
+        "duration": 4.89
+    },
+    {
+        "text": "with a resistor going up to a 200 volt",
+        "start": 134.81,
+        "duration": 7.56
+    },
+    {
+        "text": "supply and thankfully the the actual",
+        "start": 136.91,
+        "duration": 8.07
+    },
+    {
+        "text": "load here the piezo element themselves",
+        "start": 142.37,
+        "duration": 5.79
+    },
+    {
+        "text": "are entirely capacitive so when the when",
+        "start": 144.98,
+        "duration": 5.64
+    },
+    {
+        "text": "we're supplying 200 volts to it the",
+        "start": 148.16,
+        "duration": 4.74
+    },
+    {
+        "text": "current draw is zero after a certain",
+        "start": 150.62,
+        "duration": 5.01
+    },
+    {
+        "text": "time and that means we can use a pretty",
+        "start": 152.9,
+        "duration": 5.46
+    },
+    {
+        "text": "large value of resistor here because it",
+        "start": 155.63,
+        "duration": 4.71
+    },
+    {
+        "text": "doesn't really matter how fast the pin",
+        "start": 158.36,
+        "duration": 5.52
+    },
+    {
+        "text": "moves in fact inside the piezo electric",
+        "start": 160.34,
+        "duration": 6.74
+    },
+    {
+        "text": "device itself they included a 470 K",
+        "start": 163.88,
+        "duration": 5.49
+    },
+    {
+        "text": "resistor just to keep the pins from",
+        "start": 167.08,
+        "duration": 5.68
+    },
+    {
+        "text": "snapping I think so charging the piezo",
+        "start": 169.37,
+        "duration": 5.55
+    },
+    {
+        "text": "element up doesn't need to happen",
+        "start": 172.76,
+        "duration": 4.44
+    },
+    {
+        "text": "quickly and therefore we can use a high",
+        "start": 174.92,
+        "duration": 4.77
+    },
+    {
+        "text": "value resistor here and that makes the",
+        "start": 177.2,
+        "duration": 7.319
+    },
+    {
+        "text": "circuit a lot easier to design speaking",
+        "start": 179.69,
+        "duration": 7.769
+    },
+    {
+        "text": "of design choosing a transistor for this",
+        "start": 184.519,
+        "duration": 4.5
+    },
+    {
+        "text": "circuit is not the easiest thing because",
+        "start": 187.459,
+        "duration": 4.351
+    },
+    {
+        "text": "you need to handle the high voltage so I",
+        "start": 189.019,
+        "duration": 7.711
+    },
+    {
+        "text": "used a ztx 458 which is a relatively low",
+        "start": 191.81,
+        "duration": 7.59
+    },
+    {
+        "text": "power but high voltage transistor that I",
+        "start": 196.73,
+        "duration": 5.49
+    },
+    {
+        "text": "came across when researching deflection",
+        "start": 199.4,
+        "duration": 4.649
+    },
+    {
+        "text": "amplifiers for the scanning electron",
+        "start": 202.22,
+        "duration": 3.78
+    },
+    {
+        "text": "microscope project",
+        "start": 204.049,
+        "duration": 5.371
+    },
+    {
+        "text": "so it has a nice hefty 400 volt emitter",
+        "start": 206.0,
+        "duration": 5.73
+    },
+    {
+        "text": "to collector voltage and the gain is",
+        "start": 209.42,
+        "duration": 6.84
+    },
+    {
+        "text": "pretty good to minimum 100 and on the",
+        "start": 211.73,
+        "duration": 6.33
+    },
+    {
+        "text": "second page it's you can see that it's",
+        "start": 216.26,
+        "duration": 5.04
+    },
+    {
+        "text": "about a typical of about 200 gain which",
+        "start": 218.06,
+        "duration": 5.04
+    },
+    {
+        "text": "is great you don't have to give it a lot",
+        "start": 221.3,
+        "duration": 3.6
+    },
+    {
+        "text": "of base current and you can get the",
+        "start": 223.1,
+        "duration": 6.72
+    },
+    {
+        "text": "thing to turn on quite easily it will",
+        "start": 224.9,
+        "duration": 7.38
+    },
+    {
+        "text": "also dissipate a whole watt which we",
+        "start": 229.82,
+        "duration": 3.69
+    },
+    {
+        "text": "didn't get anywhere close to in this",
+        "start": 232.28,
+        "duration": 3.15
+    },
+    {
+        "text": "project but that's quite nice and this",
+        "start": 233.51,
+        "duration": 4.17
+    },
+    {
+        "text": "is about 60 cents so that's that's quite",
+        "start": 235.43,
+        "duration": 8.25
+    },
+    {
+        "text": "a nice part to be using I just went",
+        "start": 237.68,
+        "duration": 7.83
+    },
+    {
+        "text": "through the power calculations the",
+        "start": 243.68,
+        "duration": 4.11
+    },
+    {
+        "text": "resistor only dissipate just under a",
+        "start": 245.51,
+        "duration": 6.42
+    },
+    {
+        "text": "tenth of a watt when it's pulled down to",
+        "start": 247.79,
+        "duration": 6.57
+    },
+    {
+        "text": "ground and so if there's ground on the",
+        "start": 251.93,
+        "duration": 4.17
+    },
+    {
+        "text": "one side of the resistor in two hundred",
+        "start": 254.36,
+        "duration": 5.099
+    },
+    {
+        "text": "so that's well in line and then when the",
+        "start": 256.1,
+        "duration": 6.03
+    },
+    {
+        "text": "transistor is not conducting total power",
+        "start": 259.459,
+        "duration": 8.761
+    },
+    {
+        "text": "dissipation is just about zero the two",
+        "start": 262.13,
+        "duration": 9.6
+    },
+    {
+        "text": "chips are 74 HC three seven three chips",
+        "start": 268.22,
+        "duration": 7.71
+    },
+    {
+        "text": "which are octal d type flip-flops or",
+        "start": 271.73,
+        "duration": 6.36
+    },
+    {
+        "text": "really this sort of latches and so what",
+        "start": 275.93,
+        "duration": 4.32
+    },
+    {
+        "text": "I did was I took eight bits from the",
+        "start": 278.09,
+        "duration": 4.8
+    },
+    {
+        "text": "parallel port data register and plugged",
+        "start": 280.25,
+        "duration": 5.729
+    },
+    {
+        "text": "them into the inputs on both octal D",
+        "start": 282.89,
+        "duration": 5.13
+    },
+    {
+        "text": "flip-flops and then took the eight",
+        "start": 285.979,
+        "duration": 4.081
+    },
+    {
+        "text": "outputs from each of those chips and",
+        "start": 288.02,
+        "duration": 4.41
+    },
+    {
+        "text": "plug those into the basis of the",
+        "start": 290.06,
+        "duration": 4.68
+    },
+    {
+        "text": "transistors so I can select between",
+        "start": 292.43,
+        "duration": 4.92
+    },
+    {
+        "text": "either character each Braille character",
+        "start": 294.74,
+        "duration": 5.52
+    },
+    {
+        "text": "has eight pins and this allows me to",
+        "start": 297.35,
+        "duration": 4.98
+    },
+    {
+        "text": "select which character I want to update",
+        "start": 300.26,
+        "duration": 4.83
+    },
+    {
+        "text": "just by using the single 8-bit data bus",
+        "start": 302.33,
+        "duration": 6.72
+    },
+    {
+        "text": "from the PC parallel port so if we go",
+        "start": 305.09,
+        "duration": 6.24
+    },
+    {
+        "text": "back to that program I have I can turn",
+        "start": 309.05,
+        "duration": 3.96
+    },
+    {
+        "text": "on the bits on and off in the parallel",
+        "start": 311.33,
+        "duration": 3.93
+    },
+    {
+        "text": "port and then select which Braille",
+        "start": 313.01,
+        "duration": 5.57
+    },
+    {
+        "text": "character I want to update",
+        "start": 315.26,
+        "duration": 3.32
+    },
+    {
+        "text": "I also added these tactile buttons",
+        "start": 321.3,
+        "duration": 5.7
+    },
+    {
+        "text": "underneath the Braille characters so",
+        "start": 323.699,
+        "duration": 4.801
+    },
+    {
+        "text": "that when these are pushed down the",
+        "start": 327.0,
+        "duration": 3.93
+    },
+    {
+        "text": "button depresses ever so slightly and",
+        "start": 328.5,
+        "duration": 4.74
+    },
+    {
+        "text": "that can be read off in the parallel",
+        "start": 330.93,
+        "duration": 4.919
+    },
+    {
+        "text": "port status register which is input only",
+        "start": 333.24,
+        "duration": 8.399
+    },
+    {
+        "text": "for the computer the power supply is a",
+        "start": 335.849,
+        "duration": 9.0
+    },
+    {
+        "text": "self-contained unit that's let's see if",
+        "start": 341.639,
+        "duration": 5.821
+    },
+    {
+        "text": "we can see the model number here it's an",
+        "start": 344.849,
+        "duration": 6.891
+    },
+    {
+        "text": "ultra volt 1c 24 series bunch of other",
+        "start": 347.46,
+        "duration": 7.019
+    },
+    {
+        "text": "modifiers on the model number there and",
+        "start": 351.74,
+        "duration": 5.44
+    },
+    {
+        "text": "this is adjustable from zero to a",
+        "start": 354.479,
+        "duration": 5.131
+    },
+    {
+        "text": "thousand volts and I have it set on",
+        "start": 357.18,
+        "duration": 5.07
+    },
+    {
+        "text": "about a hundred and fifty I didn't use",
+        "start": 359.61,
+        "duration": 6.149
+    },
+    {
+        "text": "the full 200 volts of the Braille device",
+        "start": 362.25,
+        "duration": 5.37
+    },
+    {
+        "text": "I mean it's rated up to 200 but it also",
+        "start": 365.759,
+        "duration": 4.53
+    },
+    {
+        "text": "works on less and the voltage is",
+        "start": 367.62,
+        "duration": 6.479
+    },
+    {
+        "text": "adjusted with a simple pot here and the",
+        "start": 370.289,
+        "duration": 7.401
+    },
+    {
+        "text": "input to this supply is 24 volts DC",
+        "start": 374.099,
+        "duration": 7.41
+    },
+    {
+        "text": "which is nice because I can use one of",
+        "start": 377.69,
+        "duration": 9.789
+    },
+    {
+        "text": "these an international power adapter",
+        "start": 381.509,
+        "duration": 8.46
+    },
+    {
+        "text": "these are actually pretty cool",
+        "start": 387.479,
+        "duration": 4.47
+    },
+    {
+        "text": "the plug can be removed and then I can",
+        "start": 389.969,
+        "duration": 3.901
+    },
+    {
+        "text": "put like a European power adapter or",
+        "start": 391.949,
+        "duration": 4.53
+    },
+    {
+        "text": "plug style in there and it's always 24",
+        "start": 393.87,
+        "duration": 9.15
+    },
+    {
+        "text": "volts worldwide so let me know what you",
+        "start": 396.479,
+        "duration": 9.511
+    },
+    {
+        "text": "think for future videos let me know if",
+        "start": 403.02,
+        "duration": 4.67
+    },
+    {
+        "text": "you're interested more in seeing like",
+        "start": 405.99,
+        "duration": 4.049
+    },
+    {
+        "text": "fundamental circuit design stuff or just",
+        "start": 407.69,
+        "duration": 4.27
+    },
+    {
+        "text": "a rundown of the projects I've been",
+        "start": 410.039,
+        "duration": 3.571
+    },
+    {
+        "text": "building hopefully I'll try to get a",
+        "start": 411.96,
+        "duration": 3.989
+    },
+    {
+        "text": "little of each end but feel free to",
+        "start": 413.61,
+        "duration": 4.44
+    },
+    {
+        "text": "leave any feedback and I will see you",
+        "start": 415.949,
+        "duration": 4.641
+    },
+    {
+        "text": "next time",
+        "start": 418.05,
+        "duration": 2.54
+    }
+]

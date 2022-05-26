@@ -1,0 +1,667 @@
+[
+    {
+        "text": "[James]: Not just regular permutations, super-permutations, “can leap tall buildings in a single bound” permutations.",
+        "start": 0.06,
+        "duration": 6.98
+    },
+    {
+        "text": "What is a super-permutation? First of all let’s talk about an ordinary permutation.",
+        "start": 7.32,
+        "duration": 5.28
+    },
+    {
+        "text": "A permutation is just like a shuffle, so imagine I had three cards: 1, 2, and 3.",
+        "start": 12.7,
+        "duration": 5.88
+    },
+    {
+        "text": "How many ways can I shuffle those three cards, so let’s do that?",
+        "start": 18.58,
+        "duration": 3.68
+    },
+    {
+        "text": "These are the permutations: 1,2,3,",
+        "start": 22.38,
+        "duration": 2.36
+    },
+    {
+        "text": "and we could have 1,3,2, 2,1,3, 2,3,1,",
+        "start": 24.74,
+        "duration": 6.26
+    },
+    {
+        "text": "and we could have 3,1,2 & 3,2,1. There are six permutations that use the numbers 1 to 3,",
+        "start": 31.0,
+        "duration": 6.88
+    },
+    {
+        "text": "and that is three factorial (“3!”).",
+        "start": 37.88,
+        "duration": 2.6
+    },
+    {
+        "text": "Just to remind people, 3 factorial means 3×2×1,",
+        "start": 40.68,
+        "duration": 5.78
+    },
+    {
+        "text": "and that’s because we've got three choices for the first one,",
+        "start": 46.46,
+        "duration": 2.74
+    },
+    {
+        "text": "two choices for the second one,",
+        "start": 49.48,
+        "duration": 1.7
+    },
+    {
+        "text": "and one choice for the last one.",
+        "start": 51.54,
+        "duration": 2.28
+    },
+    {
+        "text": "And you multiply those choices together, that’s 3 factorial.",
+        "start": 53.82,
+        "duration": 2.78
+    },
+    {
+        "text": "That’s 6. There are 6 ways to do it.",
+        "start": 56.61,
+        "duration": 2.05
+    },
+    {
+        "text": "Now, a super-permutation is a string of numbers that contains all the permutations,",
+        "start": 58.82,
+        "duration": 6.88
+    },
+    {
+        "text": "so the super permutation of 1, 2, & 3 would have",
+        "start": 65.7,
+        "duration": 3.7
+    },
+    {
+        "text": "all the permutations of 1, 2, & 3 contained within it, so we could just string these together.",
+        "start": 69.4,
+        "duration": 5.92
+    },
+    {
+        "text": "Now, that’s simple right?",
+        "start": 75.32,
+        "duration": 1.48
+    },
+    {
+        "text": "1,2,3, 1,3,2, 2,1,3, 2,3,1, 3,1,2, 3,2,1",
+        "start": 77.34,
+        "duration": 8.6
+    },
+    {
+        "text": "So, that’s a super-permutation; it has length 18. You don’t seem that impressed with that super-permutation.",
+        "start": 85.94,
+        "duration": 6.12
+    },
+    {
+        "text": "It doesn’t deserve its name as being super? Okay, we can do better.",
+        "start": 92.06,
+        "duration": 4.0
+    },
+    {
+        "text": "What is the smallest string of numbers that we can write that contains all of the permutations?",
+        "start": 96.18,
+        "duration": 5.52
+    },
+    {
+        "text": "Well, how about this one: 1,2,3, \n 1,2,1, 3,2,1.",
+        "start": 102.04,
+        "duration": 5.56
+    },
+    {
+        "text": "Alright this has length 9,",
+        "start": 107.6,
+        "duration": 1.86
+    },
+    {
+        "text": "but it is a super permutation, and it’s the shortest super-permutation using 1,2,3.",
+        "start": 109.46,
+        "duration": 5.84
+    },
+    {
+        "text": "Let’s check, so it has—",
+        "start": 115.3,
+        "duration": 1.32
+    },
+    {
+        "text": "[Brady]: So, you’ve used overlaps, basically?",
+        "start": 116.62,
+        "duration": 2.18
+    },
+    {
+        "text": "[James]: I have used overlaps. Let’s check.",
+        "start": 118.8,
+        "duration": 2.56
+    },
+    {
+        "text": "1,2,3, that’s in there.",
+        "start": 121.36,
+        "duration": 1.82
+    },
+    {
+        "text": "1,3,2, I’ve got it here.",
+        "start": 123.18,
+        "duration": 1.9
+    },
+    {
+        "text": "2,1,3, where is it? There it is.",
+        "start": 125.08,
+        "duration": 2.42
+    },
+    {
+        "text": "2,3,1, right there near the beginning.",
+        "start": 127.5,
+        "duration": 2.14
+    },
+    {
+        "text": "3,1,2, I bet that is here.",
+        "start": 129.64,
+        "duration": 2.6
+    },
+    {
+        "text": "And, 3,2,1 is right at the end.",
+        "start": 132.6,
+        "duration": 1.8
+    },
+    {
+        "text": "Yes it contains all the permutations, but it is the shortest string that contains all the permutations, and it has length 9.",
+        "start": 134.4,
+        "duration": 6.54
+    },
+    {
+        "text": "So let’s have a look at the shortest super-permutations for all the values: 1–3, 1–4…",
+        "start": 141.16,
+        "duration": 7.28
+    },
+    {
+        "text": "Let’s have a look! So they start with 1.",
+        "start": 148.45,
+        "duration": 2.0
+    },
+    {
+        "text": "Okay.",
+        "start": 151.04,
+        "duration": 0.84
+    },
+    {
+        "text": "The super-permutation containing all the permutations of 1 is…",
+        "start": 152.3,
+        "duration": 4.84
+    },
+    {
+        "text": "1.",
+        "start": 158.6,
+        "duration": 0.88
+    },
+    {
+        "text": "And let me just check.",
+        "start": 159.48,
+        "duration": 1.42
+    },
+    {
+        "text": "Yes, that contains all the permutations; it has length 1.",
+        "start": 161.5,
+        "duration": 2.8
+    },
+    {
+        "text": "Great well what is the super permutation for…",
+        "start": 165.14,
+        "duration": 3.259
+    },
+    {
+        "text": "1 and 2?",
+        "start": 169.04,
+        "duration": 1.12
+    },
+    {
+        "text": "It is 1,2,1.",
+        "start": 170.98,
+        "duration": 2.52
+    },
+    {
+        "text": "So it has 1 & 2, and it has 2 & 1. That’s all you need, and that has length 3, as you can see.",
+        "start": 173.51,
+        "duration": 5.6
+    },
+    {
+        "text": "Now for 3, we’ve done that one, and we have a super permutation of length 9.",
+        "start": 179.66,
+        "duration": 5.419
+    },
+    {
+        "text": "Now 4. I’m gonna tell you, 4 has length 33, so let’s have a look at what that looks like.",
+        "start": 185.98,
+        "duration": 6.58
+    },
+    {
+        "text": "1,2,3,4...2,1,3,2...1,4,3,2,1. There we go.",
+        "start": 192.56,
+        "duration": 7.46
+    },
+    {
+        "text": "So that has length 33, and it contains all the permutations.",
+        "start": 200.52,
+        "duration": 4.22
+    },
+    {
+        "text": "So, 5. What is the super permutation of 5? It has length 153.",
+        "start": 204.74,
+        "duration": 6.76
+    },
+    {
+        "text": "Should I write that one out?",
+        "start": 211.5,
+        "duration": 1.34
+    },
+    {
+        "text": "[Brady]: No, it’s escalating.",
+        "start": 212.84,
+        "duration": 1.26
+    },
+    {
+        "text": "[James]: It is escalating, and then for 6…",
+        "start": 214.34,
+        "duration": 2.42
+    },
+    {
+        "text": "don’t know.",
+        "start": 217.82,
+        "duration": 1.8
+    },
+    {
+        "text": "[Brady]: No!",
+        "start": 219.62,
+        "duration": 1.04
+    },
+    {
+        "text": "[James]: We don’t know!",
+        "start": 220.66,
+        "duration": 1.92
+    },
+    {
+        "text": "What is the super-permutation, or the minimum super-permutation, using 1–6?",
+        "start": 222.58,
+        "duration": 5.16
+    },
+    {
+        "text": "We have a guess.",
+        "start": 228.02,
+        "duration": 1.92
+    },
+    {
+        "text": "Okay, so there is a pattern of maybe this guess is right.",
+        "start": 229.94,
+        "duration": 4.54
+    },
+    {
+        "text": "Have a look, this first number.",
+        "start": 234.48,
+        "duration": 1.479
+    },
+    {
+        "text": "It was 1. That is 1 factorial.",
+        "start": 235.96,
+        "duration": 2.68
+    },
+    {
+        "text": "The second number is 3. Actually that turns out to be 1! + 2!.",
+        "start": 239.36,
+        "duration": 5.02
+    },
+    {
+        "text": "9: 1! + 2! + 3!",
+        "start": 245.32,
+        "duration": 5.22
+    },
+    {
+        "text": "You might notice a pattern.",
+        "start": 250.72,
+        "duration": 1.08
+    },
+    {
+        "text": "4: 33. Well that is 1! + 2! + 3! + 4!",
+        "start": 251.8,
+        "duration": 7.22
+    },
+    {
+        "text": "What do you guess 5 is going to be?",
+        "start": 259.1,
+        "duration": 2.38
+    },
+    {
+        "text": "[Brady]: Hmm, 1–5, all factorials.",
+        "start": 261.48,
+        "duration": 1.46
+    },
+    {
+        "text": "[James]: Yeah.",
+        "start": 262.94,
+        "duration": 0.56
+    },
+    {
+        "text": "1! + 2! + 3! + 4! + 5! is 153.",
+        "start": 263.5,
+        "duration": 7.5
+    },
+    {
+        "text": "So, six…",
+        "start": 271.54,
+        "duration": 1.04
+    },
+    {
+        "text": "What do you guess six is going to be, adding up the factorials?",
+        "start": 272.58,
+        "duration": 3.84
+    },
+    {
+        "text": "Let’s do it. 1! + 2! + 3! + 4! + 5! + 6! = 873",
+        "start": 276.5,
+        "duration": 10.68
+    },
+    {
+        "text": "I think that’s a pretty good guess for the minimum length of the super-permutation using 1–6.",
+        "start": 287.22,
+        "duration": 5.0
+    },
+    {
+        "text": "Unfortunately, recently,",
+        "start": 293.88,
+        "duration": 3.2
+    },
+    {
+        "text": "someone found a super-permutation that is shorter.",
+        "start": 297.08,
+        "duration": 4.56
+    },
+    {
+        "text": "In fact, they found a super-permutation that had length 872.",
+        "start": 301.8,
+        "duration": 5.22
+    },
+    {
+        "text": "1 shorter! The pattern did not hold! It was 1 shorter!",
+        "start": 307.28,
+        "duration": 6.28
+    },
+    {
+        "text": "And I can show you what that looks like!",
+        "start": 313.56,
+        "duration": 2.42
+    },
+    {
+        "text": "This is it on the screen.",
+        "start": 317.7,
+        "duration": 1.62
+    },
+    {
+        "text": "[Brady]: No way!",
+        "start": 319.68,
+        "duration": 0.94
+    },
+    {
+        "text": "[James]: And we still don’t know if that’s the shortest one.",
+        "start": 321.08,
+        "duration": 2.84
+    },
+    {
+        "text": "We still don’t know if the answer is 872.",
+        "start": 323.92,
+        "duration": 3.96
+    },
+    {
+        "text": "It’s possible there is a shorter one out there.",
+        "start": 327.88,
+        "duration": 3.6
+    },
+    {
+        "text": "It was a little bit of a shock.",
+        "start": 332.02,
+        "duration": 3.08
+    },
+    {
+        "text": "Well, you can see this pattern,",
+        "start": 335.1,
+        "duration": 1.62
+    },
+    {
+        "text": "and there’s a reason why you would think this pattern would hold.",
+        "start": 337.06,
+        "duration": 2.9
+    },
+    {
+        "text": "There is a way to construct the next super-permutation from the previous one,",
+        "start": 339.96,
+        "duration": 7.2
+    },
+    {
+        "text": "and if you construct it in that way, then absolutely the super permutation will have that length.",
+        "start": 347.56,
+        "duration": 6.08
+    },
+    {
+        "text": "And,",
+        "start": 354.04,
+        "duration": 0.5
+    },
+    {
+        "text": "so they were just thinking well that must be the minimum length.",
+        "start": 354.66,
+        "duration": 2.7
+    },
+    {
+        "text": "This shows they were wrong. It isn’t the minimum length.",
+        "start": 358.28,
+        "duration": 3.68
+    },
+    {
+        "text": "It is not necessary for it to be the minimum thing.",
+        "start": 362.04,
+        "duration": 2.76
+    },
+    {
+        "text": "Now, you can see that this might become harder, the larger these numbers become.",
+        "start": 365.08,
+        "duration": 4.58
+    },
+    {
+        "text": "It’s actually computationally hard.",
+        "start": 369.98,
+        "duration": 2.32
+    },
+    {
+        "text": "So, maybe we’ll find what the minimum length is for 6,",
+        "start": 372.52,
+        "duration": 4.06
+    },
+    {
+        "text": "but then, we’ll have to work out 7 and so on, and this is going to get harder and harder,",
+        "start": 376.599,
+        "duration": 5.01
+    },
+    {
+        "text": "unless…",
+        "start": 382.28,
+        "duration": 1.139
+    },
+    {
+        "text": "we find some clever construction of the minimum super-permutations",
+        "start": 383.42,
+        "duration": 5.5
+    },
+    {
+        "text": "that tells us what the minimum length is.",
+        "start": 388.92,
+        "duration": 2.54
+    },
+    {
+        "text": "This is worth comparing to something called De Bruijn sequences,",
+        "start": 391.56,
+        "duration": 3.64
+    },
+    {
+        "text": "and De Bruijn sequences are a similar idea, but they contain all the sequences.",
+        "start": 395.2,
+        "duration": 4.92
+    },
+    {
+        "text": "Using – let’s say – one to three, you would contain all the sequences. It would look like this.",
+        "start": 400.54,
+        "duration": 3.8
+    },
+    {
+        "text": "So here’s a De Bruijn sequence.",
+        "start": 404.8,
+        "duration": 1.76
+    },
+    {
+        "text": "Similar idea: 1,1,1, 2,1,1, 3,1,2, 2,1,2, 3,1,3, 2,1,3, 3,2,2, 2,3,2, 3,3,3,1,1.",
+        "start": 407.08,
+        "duration": 15.68
+    },
+    {
+        "text": "So here we have a sequence and it contains all sequences of length three using the numbers 1–3.",
+        "start": 423.0,
+        "duration": 7.88
+    },
+    {
+        "text": "So, 1,1,1 is in there.",
+        "start": 430.88,
+        "duration": 1.68
+    },
+    {
+        "text": "1,1,2 is in there.",
+        "start": 433.0,
+        "duration": 1.36
+    },
+    {
+        "text": "3,3,3 is in there.",
+        "start": 434.61,
+        "duration": 1.67
+    },
+    {
+        "text": "3,1,3 is in there.",
+        "start": 436.28,
+        "duration": 1.68
+    },
+    {
+        "text": "So De Bruijn sequences are a lot like super-permutations,",
+        "start": 437.96,
+        "duration": 2.799
+    },
+    {
+        "text": "but the sequences inside are allowed to contain duplicates,",
+        "start": 440.76,
+        "duration": 4.1
+    },
+    {
+        "text": "but we have a way to construct De Bruijn sequences,",
+        "start": 444.86,
+        "duration": 5.36
+    },
+    {
+        "text": "and it constructs the minimum-length De Bruijn sequence as well.",
+        "start": 450.9,
+        "duration": 3.2
+    },
+    {
+        "text": "And they have practical applications in robotics and in actually lots of other areas as well.",
+        "start": 454.1,
+        "duration": 6.28
+    },
+    {
+        "text": "DNA sequencing and all lots of unexpected applications.",
+        "start": 460.38,
+        "duration": 4.36
+    },
+    {
+        "text": "So, De Bruijn sequences, although I think should be harder really, are completely understood,",
+        "start": 464.74,
+        "duration": 7.22
+    },
+    {
+        "text": "but super permutations are still a little bit mysterious.",
+        "start": 471.96,
+        "duration": 4.14
+    },
+    {
+        "text": "[Brady]: The Great Courses Plus is an on-demand video service with lessons and courses taught by leading professors",
+        "start": 477.66,
+        "duration": 6.2
+    },
+    {
+        "text": "from universities and institutions all around the world.",
+        "start": 483.86,
+        "duration": 3.1
+    },
+    {
+        "text": "They’ve got an extensive library of 8,000 videos,",
+        "start": 486.96,
+        "duration": 2.58
+    },
+    {
+        "text": "covering pretty much anything that might take your fancy, from playing chess to the geography of Antarctica",
+        "start": 489.54,
+        "duration": 6.22
+    },
+    {
+        "text": "I’m actually heading to Antarctica myself in the next few weeks, so I’ve been paying particularly close attention to those lessons.",
+        "start": 496.24,
+        "duration": 5.38
+    },
+    {
+        "text": "[embedded video]: It’s about 50% larger than the United States including, Alaska",
+        "start": 501.62,
+        "duration": 3.84
+    },
+    {
+        "text": "[Brady]: They’re really good, really in-depth stuff.",
+        "start": 505.46,
+        "duration": 2.12
+    },
+    {
+        "text": "[embedded video]: If all of this ice melted, the global sea level would rise about 60m. That’s 200ft.",
+        "start": 507.58,
+        "duration": 7.84
+    },
+    {
+        "text": "[Brady]: But whatever you’re into, you’re gonna find something really good here. Learn at your own pace. No homework.",
+        "start": 515.42,
+        "duration": 5.02
+    },
+    {
+        "text": "No teachers telling you off.",
+        "start": 520.539,
+        "duration": 1.651
+    },
+    {
+        "text": "But new stuff being added to the site every month.",
+        "start": 522.19,
+        "duration": 3.15
+    },
+    {
+        "text": "For a free trial on The Great Courses Plus, and to show some support for Numberphile, go visit",
+        "start": 525.34,
+        "duration": 5.04
+    },
+    {
+        "text": "https://thegreatcoursesplus.com/numberphile",
+        "start": 530.38,
+        "duration": 4.54
+    },
+    {
+        "text": "That’s the address there.",
+        "start": 534.92,
+        "duration": 1.56
+    },
+    {
+        "text": "Our thanks to them for supporting this episode!",
+        "start": 538.66,
+        "duration": 2.52
+    }
+]

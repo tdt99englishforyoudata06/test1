@@ -1,0 +1,1442 @@
+[
+    {
+        "text": "So today we're going to talk about",
+        "start": 0.0,
+        "duration": 1.589
+    },
+    {
+        "text": "Pascal's triangle. It's one of my",
+        "start": 1.589,
+        "duration": 1.771
+    },
+    {
+        "text": "favorite things in math - particularly",
+        "start": 3.36,
+        "duration": 2.61
+    },
+    {
+        "text": "because whenever I talk to other",
+        "start": 5.97,
+        "duration": 1.11
+    },
+    {
+        "text": "mathematicians they always have some",
+        "start": 7.08,
+        "duration": 1.92
+    },
+    {
+        "text": "interesting patterns they like talking",
+        "start": 9.0,
+        "duration": 1.5
+    },
+    {
+        "text": "about. It's almost never the same one.",
+        "start": 10.5,
+        "duration": 1.98
+    },
+    {
+        "text": "So Pascal's triangle is sort of like an",
+        "start": 12.48,
+        "duration": 2.46
+    },
+    {
+        "text": "addition triangle. So we start with",
+        "start": 14.94,
+        "duration": 1.89
+    },
+    {
+        "text": "the number one and every time I draw one",
+        "start": 16.83,
+        "duration": 2.25
+    },
+    {
+        "text": "assume that everything around it is a",
+        "start": 19.08,
+        "duration": 1.47
+    },
+    {
+        "text": "bunch of zeros so what we do is we have",
+        "start": 20.55,
+        "duration": 2.219
+    },
+    {
+        "text": "one and then we add whatever is to the left",
+        "start": 22.769,
+        "duration": 2.191
+    },
+    {
+        "text": "of it - so it's neighbor here is 0 and we just",
+        "start": 24.96,
+        "duration": 2.1
+    },
+    {
+        "text": "drop that down in between - then I do",
+        "start": 27.06,
+        "duration": 1.41
+    },
+    {
+        "text": "the same thing on the right.",
+        "start": 28.47,
+        "duration": 1.139
+    },
+    {
+        "text": "Alright cool now I have two ones in this row",
+        "start": 29.609,
+        "duration": 1.981
+    },
+    {
+        "text": "and I'll do the same thing so",
+        "start": 31.59,
+        "duration": 1.2
+    },
+    {
+        "text": "there's a 0 we can imagine here so we",
+        "start": 32.79,
+        "duration": 2.07
+    },
+    {
+        "text": "drop that down.",
+        "start": 34.86,
+        "duration": 0.9
+    },
+    {
+        "text": "There's one in this neighbor now so",
+        "start": 35.76,
+        "duration": 1.47
+    },
+    {
+        "text": "we can have a two and then there's one",
+        "start": 37.23,
+        "duration": 2.19
+    },
+    {
+        "text": "and the zero to its right we make another one.",
+        "start": 39.42,
+        "duration": 1.979
+    },
+    {
+        "text": "And we just keep doing this for a while",
+        "start": 41.399,
+        "duration": 2.011
+    },
+    {
+        "text": "and you can see that the triangle just",
+        "start": 43.41,
+        "duration": 2.579
+    },
+    {
+        "text": "keeps getting bigger this is nothing",
+        "start": 45.989,
+        "duration": 1.831
+    },
+    {
+        "text": "that's gonna stop. So we can just keep",
+        "start": 47.82,
+        "duration": 1.44
+    },
+    {
+        "text": "doing this for as long as we want and",
+        "start": 49.26,
+        "duration": 1.619
+    },
+    {
+        "text": "for me as long as I want is when the",
+        "start": 50.879,
+        "duration": 1.441
+    },
+    {
+        "text": "first double-digit number shows up",
+        "start": 52.32,
+        "duration": 1.44
+    },
+    {
+        "text": "because that's when adding gets hard.",
+        "start": 53.76,
+        "duration": 1.529
+    },
+    {
+        "text": "So Pascal was also a combinatorist so",
+        "start": 55.289,
+        "duration": 2.91
+    },
+    {
+        "text": "in particular like problems where \"If I have",
+        "start": 58.199,
+        "duration": 1.921
+    },
+    {
+        "text": "N things and I want to choose K of",
+        "start": 60.12,
+        "duration": 1.77
+    },
+    {
+        "text": "them, how many different ways can I do",
+        "start": 61.89,
+        "duration": 1.469
+    },
+    {
+        "text": "that?\" And it turns out that Pascal's",
+        "start": 63.359,
+        "duration": 2.251
+    },
+    {
+        "text": "triangle is really like \"childlike adding",
+        "start": 65.61,
+        "duration": 2.43
+    },
+    {
+        "text": "game\" as seems to be actually encodes N",
+        "start": 68.04,
+        "duration": 3.329
+    },
+    {
+        "text": "choose K. So if I have N things -",
+        "start": 71.369,
+        "duration": 4.021
+    },
+    {
+        "text": "in particular let's say i have four things",
+        "start": 75.39,
+        "duration": 1.979
+    },
+    {
+        "text": "and I want to choose let's say one of",
+        "start": 77.369,
+        "duration": 1.981
+    },
+    {
+        "text": "them then I go to the fourth row I move",
+        "start": 79.35,
+        "duration": 2.22
+    },
+    {
+        "text": "over one and that's how many ways I can",
+        "start": 81.57,
+        "duration": 1.71
+    },
+    {
+        "text": "do it four ways. I if I have four things",
+        "start": 83.28,
+        "duration": 1.979
+    },
+    {
+        "text": "let's say I have like four circles and",
+        "start": 85.259,
+        "duration": 2.671
+    },
+    {
+        "text": "I want to only choose one of them - there are",
+        "start": 87.93,
+        "duration": 1.89
+    },
+    {
+        "text": "four ways i can do that right. I can",
+        "start": 89.82,
+        "duration": 1.38
+    },
+    {
+        "text": "choose this one, I can choose that one",
+        "start": 91.2,
+        "duration": 0.989
+    },
+    {
+        "text": "I can choose that one, I can choose that one",
+        "start": 92.189,
+        "duration": 2.341
+    },
+    {
+        "text": "And it turns out Pascal's triangle says if I go down to the",
+        "start": 94.53,
+        "duration": 1.769
+    },
+    {
+        "text": "fourth row and - where it like this is the",
+        "start": 96.299,
+        "duration": 2.101
+    },
+    {
+        "text": "0th row - and I choose one thing so I move",
+        "start": 98.4,
+        "duration": 2.73
+    },
+    {
+        "text": "one over then that's exactly how many",
+        "start": 101.13,
+        "duration": 1.62
+    },
+    {
+        "text": "ways I can do it.",
+        "start": 102.75,
+        "duration": 0.96
+    },
+    {
+        "text": "(Brady Haran) So if i told you to choose two circles-",
+        "start": 103.71,
+        "duration": 1.979
+    },
+    {
+        "text": "Then there are six ways to do it.",
+        "start": 105.689,
+        "duration": 2.64
+    },
+    {
+        "text": "You notice that the sides are always ones",
+        "start": 108.329,
+        "duration": 2.25
+    },
+    {
+        "text": "Like, this isn't going to change because",
+        "start": 110.579,
+        "duration": 1.951
+    },
+    {
+        "text": "we just keep doing 1+0 and then oh, look",
+        "start": 112.53,
+        "duration": 2.64
+    },
+    {
+        "text": "1 + 0,  1 plus 0. And this is just gonna keep",
+        "start": 115.17,
+        "duration": 2.309
+    },
+    {
+        "text": "happening so we can define this entire",
+        "start": 117.479,
+        "duration": 2.791
+    },
+    {
+        "text": "diagonal as \"+0\" because every time I",
+        "start": 120.27,
+        "duration": 3.0
+    },
+    {
+        "text": "go down 1 i'm not changing anything",
+        "start": 123.27,
+        "duration": 1.98
+    },
+    {
+        "text": "But then we get to this row right and we have",
+        "start": 125.25,
+        "duration": 2.52
+    },
+    {
+        "text": "one plus one plus one plus one because",
+        "start": 127.77,
+        "duration": 3.33
+    },
+    {
+        "text": "I have 0 1 2 3 4 5 so i can define this row",
+        "start": 131.1,
+        "duration": 3.45
+    },
+    {
+        "text": "I felt like it as \"+1\" then this",
+        "start": 134.55,
+        "duration": 3.93
+    },
+    {
+        "text": "pattern looks less fun right. I have One, a Three",
+        "start": 138.48,
+        "duration": 3.21
+    },
+    {
+        "text": "But the difference between three and one",
+        "start": 141.69,
+        "duration": 1.92
+    },
+    {
+        "text": "is 2. The difference between six and",
+        "start": 143.61,
+        "duration": 1.65
+    },
+    {
+        "text": "three is three the difference between",
+        "start": 145.26,
+        "duration": 1.41
+    },
+    {
+        "text": "10 and 6 is 4 so it turns out this pattern is",
+        "start": 146.67,
+        "duration": 3.09
+    },
+    {
+        "text": "+ 1 + 2 + 3 keeps going. So around here",
+        "start": 149.76,
+        "duration": 4.68
+    },
+    {
+        "text": "One may be tempted to look for more",
+        "start": 154.44,
+        "duration": 1.5
+    },
+    {
+        "text": "patterns like right here is like plus",
+        "start": 155.94,
+        "duration": 2.1
+    },
+    {
+        "text": "what three plus six but that's when you",
+        "start": 158.04,
+        "duration": 2.669
+    },
+    {
+        "text": "start to notice what we've been doing",
+        "start": 160.709,
+        "duration": 1.051
+    },
+    {
+        "text": "all along which was just adding the",
+        "start": 161.76,
+        "duration": 1.44
+    },
+    {
+        "text": "number to the top-left like Pascal",
+        "start": 163.2,
+        "duration": 1.65
+    },
+    {
+        "text": "wanted us to anyway. Let's just look at",
+        "start": 164.85,
+        "duration": 1.47
+    },
+    {
+        "text": "something else one that might be tempted to",
+        "start": 166.32,
+        "duration": 1.38
+    },
+    {
+        "text": "do when they see a bunch of numbers and",
+        "start": 167.7,
+        "duration": 1.47
+    },
+    {
+        "text": "that's add them in a different way.",
+        "start": 169.17,
+        "duration": 1.93
+    },
+    {
+        "text": "So this is 1. One plus 1 is 2. One plus 2 plus 1 is 4.",
+        "start": 171.22,
+        "duration": 7.5
+    },
+    {
+        "text": "One plus 3 is 4 plus 3 is 7 plus 1 is 8.",
+        "start": 178.76,
+        "duration": 4.86
+    },
+    {
+        "text": "You'll notice that some point I just stopped adding",
+        "start": 183.64,
+        "duration": 2.3
+    },
+    {
+        "text": "because we can actually rewrite everything over here as",
+        "start": 186.04,
+        "duration": 4.1
+    },
+    {
+        "text": "the powers of 2. So the sum of the rows of",
+        "start": 190.14,
+        "duration": 2.52
+    },
+    {
+        "text": "Pascal's triangle is two -  like if I'm on",
+        "start": 192.66,
+        "duration": 2.46
+    },
+    {
+        "text": "the Nth row and I call the first one row zero then",
+        "start": 195.12,
+        "duration": 3.54
+    },
+    {
+        "text": "the sum of that row is 2 to the N.",
+        "start": 198.66,
+        "duration": 2.79
+    },
+    {
+        "text": "Let's just read these as numbers let's not add",
+        "start": 201.45,
+        "duration": 2.43
+    },
+    {
+        "text": "them let's not treat them as anything else",
+        "start": 203.88,
+        "duration": 1.74
+    },
+    {
+        "text": "So the first row is 1 the next row is 11",
+        "start": 205.62,
+        "duration": 3.21
+    },
+    {
+        "text": "The next row is a hundred and twenty one. The next row is thirteen thrity-one. Then  we get",
+        "start": 208.83,
+        "duration": 4.95
+    },
+    {
+        "text": "Then we get fourteen six-four-one",
+        "start": 213.82,
+        "duration": 2.92
+    },
+    {
+        "text": "And then we get to this",
+        "start": 216.74,
+        "duration": 1.62
+    },
+    {
+        "text": "*laughs*",
+        "start": 218.36,
+        "duration": 0.92
+    },
+    {
+        "text": "So ,right now these are actually the powers of 11 too",
+        "start": 219.3,
+        "duration": 4.08
+    },
+    {
+        "text": "So this next row looks pretty frightening",
+        "start": 223.46,
+        "duration": 2.06
+    },
+    {
+        "text": "because if I wrote it out just",
+        "start": 225.66,
+        "duration": 1.56
+    },
+    {
+        "text": "as it is, I get a pretty big number right",
+        "start": 227.22,
+        "duration": 4.02
+    },
+    {
+        "text": "like once I put in these commas,",
+        "start": 231.24,
+        "duration": 1.26
+    },
+    {
+        "text": "this is around 15 million",
+        "start": 232.5,
+        "duration": 1.24
+    },
+    {
+        "text": "(brady) That's not 11 to the 5",
+        "start": 233.76,
+        "duration": 1.34
+    },
+    {
+        "text": "It's not. But it turns out Pascal",
+        "start": 235.1,
+        "duration": 2.1
+    },
+    {
+        "text": "you know his triangle doesn't quit that early",
+        "start": 237.2,
+        "duration": 2.08
+    },
+    {
+        "text": "so what's happening here is that",
+        "start": 239.28,
+        "duration": 1.62
+    },
+    {
+        "text": "when I was writing these as digits",
+        "start": 240.9,
+        "duration": 2.1
+    },
+    {
+        "text": "before, I was actually considering that",
+        "start": 243.0,
+        "duration": 2.31
+    },
+    {
+        "text": "place value right - like the ones place",
+        "start": 245.31,
+        "duration": 1.8
+    },
+    {
+        "text": "the tens place the hundreds place",
+        "start": 247.11,
+        "duration": 2.219
+    },
+    {
+        "text": "So I'm just going to do the same thing where I rewrite these numbers",
+        "start": 249.329,
+        "duration": 2.691
+    },
+    {
+        "text": "as ones and tens and hundreds place",
+        "start": 252.12,
+        "duration": 2.26
+    },
+    {
+        "text": "So the first one will be one times 10 to the 0",
+        "start": 254.64,
+        "duration": 3.7
+    },
+    {
+        "text": "because this is the 0th row",
+        "start": 258.5,
+        "duration": 1.66
+    },
+    {
+        "text": "Then we have 1 times 10 to the 1 plus 1",
+        "start": 260.16,
+        "duration": 4.71
+    },
+    {
+        "text": "times 10 to the 0 (1x10^1+1x10^0)",
+        "start": 264.87,
+        "duration": 2.41
+    },
+    {
+        "text": "so this one's 1 this one's 11.",
+        "start": 267.28,
+        "duration": 2.96
+    },
+    {
+        "text": "Uh, let's do 1 times 10 squared plus 1 times",
+        "start": 270.24,
+        "duration": 3.98
+    },
+    {
+        "text": "te- oh 2 times 10 to the one my bad - plus 1",
+        "start": 274.229,
+        "duration": 3.931
+    },
+    {
+        "text": "times 10 to 0. That\"s a hundred twenty-one",
+        "start": 278.16,
+        "duration": 4.2
+    },
+    {
+        "text": "So let's let's skip on down to our friend here",
+        "start": 282.42,
+        "duration": 2.9
+    },
+    {
+        "text": "We do 1 times 10 to the 5 Plus 5 10",
+        "start": 285.32,
+        "duration": 5.3
+    },
+    {
+        "text": "to the 4 plus 10 10 to the 3 plus 10(10) squared? - yeah",
+        "start": 290.64,
+        "duration": 9.28
+    },
+    {
+        "text": "5 to the 10 to the 1 and 1 times 10 to the 0",
+        "start": 300.0,
+        "duration": 5.46
+    },
+    {
+        "text": "and this is 11 to the 5",
+        "start": 305.46,
+        "duration": 2.703
+    },
+    {
+        "text": "(Brady) So it is 11^5",
+        "start": 308.163,
+        "duration": 1.527
+    },
+    {
+        "text": "It is 11^5, it's just hiding",
+        "start": 309.69,
+        "duration": 2.219
+    },
+    {
+        "text": "So now I have this really cool thing",
+        "start": 311.909,
+        "duration": 2.581
+    },
+    {
+        "text": "that I found extremely recently called",
+        "start": 314.49,
+        "duration": 1.859
+    },
+    {
+        "text": "um, the hockey sticks method i think",
+        "start": 316.349,
+        "duration": 1.741
+    },
+    {
+        "text": "some people call it. It's just a really",
+        "start": 318.09,
+        "duration": 1.799
+    },
+    {
+        "text": "cool trick that you can do on Pascal's",
+        "start": 319.889,
+        "duration": 2.671
+    },
+    {
+        "text": "triangle another result of the fact that",
+        "start": 322.56,
+        "duration": 2.01
+    },
+    {
+        "text": "it's the coefficients of like a binomial",
+        "start": 324.57,
+        "duration": 2.63
+    },
+    {
+        "text": "expansion which is all of  - it will make",
+        "start": 327.2,
+        "duration": 2.64
+    },
+    {
+        "text": "more sense once I draw hockey stick",
+        "start": 329.84,
+        "duration": 1.92
+    },
+    {
+        "text": "What you do is you pick a one somewhere on the",
+        "start": 331.76,
+        "duration": 2.16
+    },
+    {
+        "text": "edge and you just go down diagonally so",
+        "start": 333.93,
+        "duration": 2.88
+    },
+    {
+        "text": "i'm going to pick this one and then i'm",
+        "start": 336.81,
+        "duration": 2.55
+    },
+    {
+        "text": "going to go down diagonally and then I'm just",
+        "start": 339.36,
+        "duration": 1.47
+    },
+    {
+        "text": "gonna keep going and then at some point",
+        "start": 340.83,
+        "duration": 1.5
+    },
+    {
+        "text": "I'm just gonna veer off in this case I have to",
+        "start": 342.33,
+        "duration": 2.19
+    },
+    {
+        "text": "veer off because I didn't draw any more",
+        "start": 344.52,
+        "duration": 1.619
+    },
+    {
+        "text": "rows. So the number that I veer off to",
+        "start": 346.139,
+        "duration": 3.691
+    },
+    {
+        "text": "is the sum of all the numbers I traced down",
+        "start": 349.83,
+        "duration": 2.7
+    },
+    {
+        "text": "1 plus 2 Plus 3 plus 4 equals 10",
+        "start": 352.53,
+        "duration": 4.25
+    },
+    {
+        "text": "So this row - or this diagonal rather - equals 10",
+        "start": 356.78,
+        "duration": 4.46
+    },
+    {
+        "text": "So I'm gonna start with this one",
+        "start": 361.34,
+        "duration": 1.7
+    },
+    {
+        "text": "and it's gonna be awful real quickly",
+        "start": 363.04,
+        "duration": 1.96
+    },
+    {
+        "text": "actually I'm just gonna all right to",
+        "start": 365.0,
+        "duration": 2.38
+    },
+    {
+        "text": "work on small ones. Uh, let's use this one",
+        "start": 367.38,
+        "duration": 3.0
+    },
+    {
+        "text": "Because... why not. We can do the other direction, right",
+        "start": 370.38,
+        "duration": 7.98
+    },
+    {
+        "text": "and we get 1 plus two plus three equals 6",
+        "start": 378.36,
+        "duration": 3.44
+    },
+    {
+        "text": "I'm gonna do Pascal's triangle mod 2",
+        "start": 381.96,
+        "duration": 3.9
+    },
+    {
+        "text": "So, brief aside - mod 2 in this case is just",
+        "start": 385.86,
+        "duration": 3.899
+    },
+    {
+        "text": "going to mean that every time a number",
+        "start": 389.759,
+        "duration": 1.261
+    },
+    {
+        "text": "is odd I write it as a one and every",
+        "start": 391.02,
+        "duration": 2.04
+    },
+    {
+        "text": "time a number is even I write it as a zero",
+        "start": 393.06,
+        "duration": 2.1
+    },
+    {
+        "text": "(Brady) Cool",
+        "start": 395.22,
+        "duration": 0.5
+    },
+    {
+        "text": "cool right",
+        "start": 395.78,
+        "duration": 0.5
+    },
+    {
+        "text": "(Brady) That's still a Pascal Triangle, is that?",
+        "start": 396.28,
+        "duration": 2.3
+    },
+    {
+        "text": "Yeah, just mod two. It doesn't like",
+        "start": 398.58,
+        "duration": 1.76
+    },
+    {
+        "text": "preserve the actual value of the numbers",
+        "start": 400.349,
+        "duration": 2.91
+    },
+    {
+        "text": "as much, but it totally tells you whether",
+        "start": 403.259,
+        "duration": 1.601
+    },
+    {
+        "text": "or not something is even or odd and that's",
+        "start": 404.86,
+        "duration": 1.19
+    },
+    {
+        "text": "all we care about right now.",
+        "start": 406.05,
+        "duration": 1.169
+    },
+    {
+        "text": "So then I'm going to outline all of the",
+        "start": 407.219,
+        "duration": 2.641
+    },
+    {
+        "text": "diagonals that are all ones and all the",
+        "start": 409.86,
+        "duration": 2.609
+    },
+    {
+        "text": "rows are all ones",
+        "start": 412.469,
+        "duration": 1.231
+    },
+    {
+        "text": "So i'm going to do this - which isn't the world's prettiest",
+        "start": 413.7,
+        "duration": 5.54
+    },
+    {
+        "text": "thing but it's pretty nice",
+        "start": 419.36,
+        "duration": 3.42
+    },
+    {
+        "text": "and this shape should maybe start to",
+        "start": 429.3,
+        "duration": 3.6
+    },
+    {
+        "text": "look a little familiar if you played  - I dunno -",
+        "start": 432.9,
+        "duration": 1.62
+    },
+    {
+        "text": "legend of zelda before. It's th-also the Triforce",
+        "start": 434.52,
+        "duration": 3.9
+    },
+    {
+        "text": "but more importantly it's sierpinski's triangle",
+        "start": 438.48,
+        "duration": 3.223
+    },
+    {
+        "text": "so for those who don't recognize sierpinski's triangle",
+        "start": 441.703,
+        "duration": 2.507
+    },
+    {
+        "text": "I start with an equilateral triangle",
+        "start": 444.21,
+        "duration": 3.179
+    },
+    {
+        "text": "I inscribe another one upside down and",
+        "start": 447.389,
+        "duration": 3.391
+    },
+    {
+        "text": "then i can just keep doing this on all",
+        "start": 450.78,
+        "duration": 1.62
+    },
+    {
+        "text": "of the upward facing triangles as many",
+        "start": 452.4,
+        "duration": 3.57
+    },
+    {
+        "text": "times as I want",
+        "start": 455.97,
+        "duration": 1.319
+    },
+    {
+        "text": "so yeah that's can just go on for a long time",
+        "start": 457.289,
+        "duration": 3.131
+    },
+    {
+        "text": "(Brady) Cool, yeah?",
+        "start": 460.42,
+        "duration": 1.32
+    },
+    {
+        "text": "And it turns out that the",
+        "start": 461.74,
+        "duration": 1.34
+    },
+    {
+        "text": "way that the evens and odds show up",
+        "start": 463.08,
+        "duration": 2.13
+    },
+    {
+        "text": "in Pascal's triangle when I convert them",
+        "start": 465.21,
+        "duration": 2.04
+    },
+    {
+        "text": "to mod 2, I can make Pascal triangle as",
+        "start": 467.25,
+        "duration": 2.19
+    },
+    {
+        "text": "big as I want and I'm just going to keep",
+        "start": 469.44,
+        "duration": 1.5
+    },
+    {
+        "text": "getting iterations of sierpinski's triangle",
+        "start": 470.94,
+        "duration": 1.86
+    },
+    {
+        "text": "so that's really cool",
+        "start": 472.8,
+        "duration": 1.96
+    },
+    {
+        "text": "(Brady) That's awesome!",
+        "start": 474.76,
+        "duration": 0.5
+    },
+    {
+        "text": "That's really cool by itself but it gets cooler using the mod 2  construction",
+        "start": 475.26,
+        "duration": 4.86
+    },
+    {
+        "text": "There's something else we can do in mod two though",
+        "start": 480.12,
+        "duration": 2.16
+    },
+    {
+        "text": "Um, in particular we can write down the same",
+        "start": 482.28,
+        "duration": 3.419
+    },
+    {
+        "text": "things but let's write them now as - we've got ones and zeroes, right?",
+        "start": 485.699,
+        "duration": 4.841
+    },
+    {
+        "text": "And for most people ones and zeros kinda remind them of binary",
+        "start": 490.54,
+        "duration": 3.62
+    },
+    {
+        "text": "So, let's just see what happens when we transcribe these from binary",
+        "start": 494.16,
+        "duration": 5.28
+    },
+    {
+        "text": "You know one binary - 1 and then 11 in binary is 3",
+        "start": 499.44,
+        "duration": 5.14
+    },
+    {
+        "text": "101 is 5",
+        "start": 504.58,
+        "duration": 1.459
+    },
+    {
+        "text": "111 is 15 and then the next one, 10001 is 17",
+        "start": 506.039,
+        "duration": 6.81
+    },
+    {
+        "text": "Now these may not immediately appear pretty cool",
+        "start": 512.849,
+        "duration": 4.291
+    },
+    {
+        "text": "but if I kept going the next one is 51",
+        "start": 517.14,
+        "duration": 4.0
+    },
+    {
+        "text": "The next one is 85",
+        "start": 521.14,
+        "duration": 2.92
+    },
+    {
+        "text": "After that is 255 and here I'm gonna stop and I'm",
+        "start": 524.06,
+        "duration": 3.64
+    },
+    {
+        "text": "going to look at what these numbers are",
+        "start": 527.7,
+        "duration": 1.8
+    },
+    {
+        "text": "three is prime",
+        "start": 529.5,
+        "duration": 1.58
+    },
+    {
+        "text": "Five is prime",
+        "start": 531.08,
+        "duration": 1.342
+    },
+    {
+        "text": "15 is 5 times 3",
+        "start": 532.422,
+        "duration": 1.548
+    },
+    {
+        "text": "17 is prime",
+        "start": 533.97,
+        "duration": 2.35
+    },
+    {
+        "text": "51 is 17 times 3",
+        "start": 536.32,
+        "duration": 3.56
+    },
+    {
+        "text": "85 is 17 x 5",
+        "start": 539.88,
+        "duration": 3.0
+    },
+    {
+        "text": "And 255 is 17 x 15",
+        "start": 542.88,
+        "duration": 3.52
+    },
+    {
+        "text": "So you'll notice that every time I get a prime i go back and",
+        "start": 546.4,
+        "duration": 3.76
+    },
+    {
+        "text": "just multiply by all the things that came before it",
+        "start": 550.17,
+        "duration": 2.22
+    },
+    {
+        "text": "and I can generate the next you know n minus 1 entries",
+        "start": 552.39,
+        "duration": 3.745
+    },
+    {
+        "text": "So the primes that we have here actually at least the ones",
+        "start": 556.135,
+        "duration": 4.595
+    },
+    {
+        "text": "that I'm - that we're certain of - are actually Fermat (pronounced fer-mat) primes",
+        "start": 560.73,
+        "duration": 5.31
+    },
+    {
+        "text": "Or Fermat (pronounced fer-mot) primes rather",
+        "start": 566.04,
+        "duration": 2.736
+    },
+    {
+        "text": "Which means that they can be written of the form 2 to the 2 to the n plus 1",
+        "start": 568.78,
+        "duration": 5.82
+    },
+    {
+        "text": "Somehow every time I talk to a mathematician-",
+        "start": 574.6,
+        "duration": 3.12
+    },
+    {
+        "text": "even 10 minutes ago when i asked a different mathematician for an idea",
+        "start": 577.72,
+        "duration": 3.95
+    },
+    {
+        "text": "he told me something I've never heard before",
+        "start": 581.67,
+        "duration": 2.15
+    },
+    {
+        "text": "So even if maybe somewhere out in the world all of the things you could",
+        "start": 583.82,
+        "duration": 4.78
+    },
+    {
+        "text": "do with this triangle are done",
+        "start": 588.6,
+        "duration": 1.86
+    },
+    {
+        "text": "I don't know if there's any one person",
+        "start": 590.46,
+        "duration": 1.68
+    },
+    {
+        "text": "who knows them all and maybe there's",
+        "start": 592.14,
+        "duration": 2.49
+    },
+    {
+        "text": "only one person who knows one of them",
+        "start": 594.63,
+        "duration": 1.47
+    },
+    {
+        "text": "and we just have to keep exploring the",
+        "start": 596.1,
+        "duration": 2.31
+    },
+    {
+        "text": "triangle and seeing if we can",
+        "start": 598.41,
+        "duration": 1.44
+    },
+    {
+        "text": "collaboratively explain everything",
+        "start": 599.85,
+        "duration": 1.89
+    },
+    {
+        "text": "inside of it but it's an infinite",
+        "start": 601.74,
+        "duration": 1.62
+    },
+    {
+        "text": "triangle right so maybe there are things",
+        "start": 603.36,
+        "duration": 1.62
+    },
+    {
+        "text": "on the hundredth line down that we",
+        "start": 604.98,
+        "duration": 2.34
+    },
+    {
+        "text": "haven't explored yet",
+        "start": 607.32,
+        "duration": 1.16
+    },
+    {
+        "text": "I feel like it wouldn't be a numberphile video if somehow",
+        "start": 608.48,
+        "duration": 3.01
+    },
+    {
+        "text": "the Fibonacci sequence didn't show up",
+        "start": 611.49,
+        "duration": 3.65
+    },
+    {
+        "text": "So i'm going to show you where the Fibonacci sequence is in the Pascal's triangle because...",
+        "start": 615.14,
+        "duration": 5.12
+    },
+    {
+        "text": "this is a numberphile video",
+        "start": 620.26,
+        "duration": 1.64
+    },
+    {
+        "text": "yeah so what we're going to do is we're",
+        "start": 621.9,
+        "duration": 3.15
+    },
+    {
+        "text": "gonna add up the shallow diagonals",
+        "start": 625.05,
+        "duration": 3.17
+    },
+    {
+        "text": "So what that means here is the triangle kind of",
+        "start": 628.22,
+        "duration": 2.58
+    },
+    {
+        "text": "inscribed diagonals already right like I",
+        "start": 630.81,
+        "duration": 1.62
+    },
+    {
+        "text": "could look at this one and just kind of",
+        "start": 632.43,
+        "duration": 1.17
+    },
+    {
+        "text": "follow this but a shallow diagonal means that",
+        "start": 633.6,
+        "duration": 2.85
+    },
+    {
+        "text": "i'm going to kind of go off at a",
+        "start": 636.45,
+        "duration": 1.5
+    },
+    {
+        "text": "slightly higher angle that I would have",
+        "start": 637.95,
+        "duration": 2.4
+    },
+    {
+        "text": "if I was just following the way I drew",
+        "start": 640.35,
+        "duration": 1.83
+    },
+    {
+        "text": "the triangle so for example the first",
+        "start": 642.18,
+        "duration": 2.22
+    },
+    {
+        "text": "Fibonacci number is one so that's my shallow diagonal",
+        "start": 644.4,
+        "duration": 3.7
+    },
+    {
+        "text": "And then this one doesn't have any other shallow neighbors",
+        "start": 648.1,
+        "duration": 3.88
+    },
+    {
+        "text": "so it's just by itself also",
+        "start": 651.98,
+        "duration": 1.88
+    },
+    {
+        "text": "So now we have one,one.",
+        "start": 653.86,
+        "duration": 1.62
+    },
+    {
+        "text": "So this shallow diagonal is a one and then this one",
+        "start": 655.48,
+        "duration": 5.92
+    },
+    {
+        "text": "So we do this and you get 2",
+        "start": 661.4,
+        "duration": 2.76
+    },
+    {
+        "text": "Then we do this one with this two - we get three",
+        "start": 664.16,
+        "duration": 5.76
+    },
+    {
+        "text": "We do this one with this 3 with this one we get five",
+        "start": 669.92,
+        "duration": 5.02
+    },
+    {
+        "text": "And you know how this game goes",
+        "start": 674.94,
+        "duration": 2.58
+    },
+    {
+        "text": "So we have 1,4 and three here so we're going to get eight",
+        "start": 677.52,
+        "duration": 3.84
+    },
+    {
+        "text": "We get- I'm  goina do one more in case you don't believe me",
+        "start": 681.36,
+        "duration": 4.28
+    },
+    {
+        "text": "We're going to do five plus six plus one and this one down here that I didn't add yet",
+        "start": 685.64,
+        "duration": 5.14
+    },
+    {
+        "text": "And we get 13",
+        "start": 692.06,
+        "duration": 2.68
+    },
+    {
+        "text": "(Brady) Cool",
+        "start": 694.74,
+        "duration": 1.2
+    },
+    {
+        "text": "So there you have it - the two biggest recurrence relations in math that involve addition probably",
+        "start": 695.94,
+        "duration": 7.34
+    },
+    {
+        "text": "um tied together in the Triangle",
+        "start": 703.28,
+        "duration": 2.612
+    },
+    {
+        "text": "They're not unique things you know you can have one",
+        "start": 705.892,
+        "duration": 3.778
+    },
+    {
+        "text": "and it encodes the other and it's all",
+        "start": 709.67,
+        "duration": 2.35
+    },
+    {
+        "text": "just related in really beautiful ways",
+        "start": 712.02,
+        "duration": 2.2
+    },
+    {
+        "text": "it's so beautiful you know, this triangle has all",
+        "start": 714.22,
+        "duration": 3.04
+    },
+    {
+        "text": "of these really cool properties about it",
+        "start": 717.26,
+        "duration": 1.68
+    },
+    {
+        "text": "and again like you said earlier it feels",
+        "start": 718.94,
+        "duration": 1.95
+    },
+    {
+        "text": "like it's really childlike thing right",
+        "start": 720.89,
+        "duration": 1.56
+    },
+    {
+        "text": "like I just you know add the things next",
+        "start": 722.45,
+        "duration": 1.86
+    },
+    {
+        "text": "to me and I just plop them down under but",
+        "start": 724.31,
+        "duration": 2.43
+    },
+    {
+        "text": "I've been playing with this triangle",
+        "start": 726.74,
+        "duration": 1.5
+    },
+    {
+        "text": "since... I want to say 8th or 9th grade and",
+        "start": 728.24,
+        "duration": 4.14
+    },
+    {
+        "text": "I learned half of these things in the",
+        "start": 732.38,
+        "duration": 1.89
+    },
+    {
+        "text": "past month and there are still other",
+        "start": 734.27,
+        "duration": 2.07
+    },
+    {
+        "text": "things that I could ramble on about",
+        "start": 736.34,
+        "duration": 1.44
+    },
+    {
+        "text": "about this triangle and this isn't even",
+        "start": 737.78,
+        "duration": 1.86
+    },
+    {
+        "text": "my field like I'm still an undergraduate",
+        "start": 739.64,
+        "duration": 2.13
+    },
+    {
+        "text": "I didn't even study this triangle",
+        "start": 741.77,
+        "duration": 1.41
+    },
+    {
+        "text": "professionally so just imagine what",
+        "start": 743.18,
+        "duration": 2.79
+    },
+    {
+        "text": "people know about the triangle that I",
+        "start": 745.97,
+        "duration": 1.47
+    },
+    {
+        "text": "don't even know that they don't even",
+        "start": 747.44,
+        "duration": 1.65
+    },
+    {
+        "text": "know amongst themselves like it's",
+        "start": 749.09,
+        "duration": 2.52
+    },
+    {
+        "text": "amazing",
+        "start": 751.61,
+        "duration": 2.51
+    }
+]

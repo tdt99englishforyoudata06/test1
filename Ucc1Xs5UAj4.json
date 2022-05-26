@@ -1,0 +1,322 @@
+[
+    {
+        "text": "Now, did you hear what I was saying?",
+        "start": 0.149,
+        "duration": 22.761
+    },
+    {
+        "text": "Clearly enough that you could, say, write\nit in dow the comments?",
+        "start": 22.91,
+        "duration": 4.91
+    },
+    {
+        "text": "If so, you just experienced a phenomenon called",
+        "start": 27.82,
+        "duration": 6.39
+    },
+    {
+        "text": "The Cocktail Party Effect.",
+        "start": 34.21,
+        "duration": 2.61
+    },
+    {
+        "text": "You can hear me while there’s people talking\nright next to us or if there’s a jazz band",
+        "start": 36.82,
+        "duration": 5.43
+    },
+    {
+        "text": "across the room.",
+        "start": 42.25,
+        "duration": 1.71
+    },
+    {
+        "text": "This is because of selective attention – our\nability to focus on one particular thing while",
+        "start": 43.96,
+        "duration": 5.91
+    },
+    {
+        "text": "tuning out our surroundings.",
+        "start": 49.87,
+        "duration": 2.39
+    },
+    {
+        "text": "And it’s the same effect that allows us\nto separate the vocals from the background",
+        "start": 52.26,
+        "duration": 4.2
+    },
+    {
+        "text": "music in a song",
+        "start": 56.46,
+        "duration": 3.01
+    },
+    {
+        "text": "This comes so naturally to us, but machines\nfind these tasks extremely hard.",
+        "start": 59.47,
+        "duration": 5.72
+    },
+    {
+        "text": "To a machine, a voice singing is just another\ntrack in a song that isn’t easily discernible",
+        "start": 65.19,
+        "duration": 4.63
+    },
+    {
+        "text": "from the piano track or the violin track or\nthe harmonica track.",
+        "start": 69.82,
+        "duration": 4.01
+    },
+    {
+        "text": "So how do you train a machine to separate\nvoices at a party or vocals from a song like",
+        "start": 73.83,
+        "duration": 6.1
+    },
+    {
+        "text": "people can?",
+        "start": 79.93,
+        "duration": 1.13
+    },
+    {
+        "text": "Well, the answer lies in algorithms and lots\nof data.",
+        "start": 81.06,
+        "duration": 4.56
+    },
+    {
+        "text": "Recently, researchers developed an algorithm\nthat can identify the vocals in multiple songs.",
+        "start": 85.62,
+        "duration": 6.0
+    },
+    {
+        "text": "And this is thanks to breakthroughs in machine\nlearning – a method used in artificial intelligence",
+        "start": 91.62,
+        "duration": 5.54
+    },
+    {
+        "text": "to allow machines to learn by analysing data.",
+        "start": 97.16,
+        "duration": 2.96
+    },
+    {
+        "text": "To do so, researchers used a deep neural network\n– these networks are software inspired by",
+        "start": 100.12,
+        "duration": 5.8
+    },
+    {
+        "text": "how our brain works.",
+        "start": 105.92,
+        "duration": 1.65
+    },
+    {
+        "text": "They can learn using a method called deep\nlearning, a kind of machine learning technique",
+        "start": 107.57,
+        "duration": 4.7
+    },
+    {
+        "text": "that works through a series of layers.",
+        "start": 112.27,
+        "duration": 2.17
+    },
+    {
+        "text": "An input layer, an output layer and middle\nhidden layers.",
+        "start": 114.44,
+        "duration": 4.359
+    },
+    {
+        "text": "These hidden layers are where the magic happens.",
+        "start": 118.799,
+        "duration": 3.031
+    },
+    {
+        "text": "And to train an artificial neural network,\nyou have to feed them a ton of data – just",
+        "start": 121.83,
+        "duration": 5.57
+    },
+    {
+        "text": "like us, the more they know, the better they\ncan learn.",
+        "start": 127.4,
+        "duration": 3.539
+    },
+    {
+        "text": "So researchers trained their neural network\nby giving it 50 songs.",
+        "start": 130.939,
+        "duration": 4.421
+    },
+    {
+        "text": "They let the neural network try to separate\nthe vocals and the non-vocal components (the",
+        "start": 135.36,
+        "duration": 4.799
+    },
+    {
+        "text": "other instruments), and compare its results\nwith the correct answer – which is the particular",
+        "start": 140.159,
+        "duration": 5.08
+    },
+    {
+        "text": "song already separated into the different\ncomponents.",
+        "start": 145.239,
+        "duration": 3.09
+    },
+    {
+        "text": "Every time the neural network gets closer\nto the correct result, it's rewarded.",
+        "start": 148.329,
+        "duration": 4.8
+    },
+    {
+        "text": "So it improves with each run.",
+        "start": 153.129,
+        "duration": 2.28
+    },
+    {
+        "text": "It was then tested with 13 new songs, and\nit correctly separated the vocals from the",
+        "start": 155.409,
+        "duration": 4.78
+    },
+    {
+        "text": "background music in each one.",
+        "start": 160.189,
+        "duration": 2.11
+    },
+    {
+        "text": "It taught itself to tell the vocals apart\nfrom the other instruments.",
+        "start": 162.299,
+        "duration": 4.681
+    },
+    {
+        "text": "What separates deep learning from previous\ntypes of machine learning is this layered",
+        "start": 166.98,
+        "duration": 4.439
+    },
+    {
+        "text": "structure, which is modelled specifically\nafter the cortex, the wrinkly outer layer",
+        "start": 171.419,
+        "duration": 5.5
+    },
+    {
+        "text": "of the brain.",
+        "start": 176.919,
+        "duration": 1.0
+    },
+    {
+        "text": "It’s the part responsible for higher-order\nbrain function like sensory perception, cognition,",
+        "start": 177.919,
+        "duration": 5.281
+    },
+    {
+        "text": "spatial reasoning and language.",
+        "start": 183.2,
+        "duration": 1.829
+    },
+    {
+        "text": "Basically it’s the part that makes you...\ndifferent from a lizard.",
+        "start": 185.029,
+        "duration": 3.261
+    },
+    {
+        "text": "It’s made up of 6 layers, and different\naspects of processing happen at each level.",
+        "start": 188.29,
+        "duration": 4.37
+    },
+    {
+        "text": "For example, when you see an apple, the first\nlayer might identify the color red, the second",
+        "start": 192.66,
+        "duration": 5.18
+    },
+    {
+        "text": "layer detects the round edges, and so on until\nfinally the last layer puts it all together",
+        "start": 197.84,
+        "duration": 4.899
+    },
+    {
+        "text": "and says hey, that’s an apple!",
+        "start": 202.739,
+        "duration": 3.23
+    },
+    {
+        "text": "Deep learning software tries to imitate this\nhierarchical structure of neurons in the cortex.",
+        "start": 205.969,
+        "duration": 5.451
+    },
+    {
+        "text": "The first few layers of a deep neural network\nlearn to identify simple patterns, like single",
+        "start": 211.42,
+        "duration": 5.219
+    },
+    {
+        "text": "units sounds.",
+        "start": 216.639,
+        "duration": 1.38
+    },
+    {
+        "text": "The next layers learn to recognize more complicated\npatterns, like words.",
+        "start": 218.019,
+        "duration": 4.411
+    },
+    {
+        "text": "Eventually, the result is that extremely complicated\npatterns like the entire vocals of a song",
+        "start": 222.43,
+        "duration": 5.8
+    },
+    {
+        "text": "can be recognized and distinguished from the\nother instruments.",
+        "start": 228.23,
+        "duration": 3.64
+    },
+    {
+        "text": "This layered process is at the heart of deep\nlearning’s success.",
+        "start": 231.87,
+        "duration": 5.14
+    },
+    {
+        "text": "Starting with simple ideas and making them\nbecome a more and more like a generalized",
+        "start": 237.01,
+        "duration": 5.08
+    },
+    {
+        "text": "concept seems to capture something fundamental\nabout intelligence.",
+        "start": 242.09,
+        "duration": 3.55
+    },
+    {
+        "text": "Humans used to have a clear advantage in pattern\nrecognition, but in 2015 a deep neural network",
+        "start": 245.64,
+        "duration": 3.029
+    },
+    {
+        "text": "beat a human at image recognition for the\nfirst time.",
+        "start": 248.669,
+        "duration": 3.53
+    },
+    {
+        "text": "This means we’re able to make better and\nmore sophisticated machines that can master",
+        "start": 252.199,
+        "duration": 4.331
+    },
+    {
+        "text": "tasks we thought were unique to humans.",
+        "start": 256.53,
+        "duration": 3.269
+    },
+    {
+        "text": "Machines are helping doctors make better diagnoses\nand robots are learning to cook by watching",
+        "start": 259.799,
+        "duration": 6.071
+    },
+    {
+        "text": "YouTube videos.",
+        "start": 265.87,
+        "duration": 1.69
+    },
+    {
+        "text": "And when a robot can learn to cook by watching\nYouTube videos – that makes you question",
+        "start": 267.56,
+        "duration": 5.22
+    },
+    {
+        "text": "what it really ",
+        "start": 272.78,
+        "duration": 33.96
+    },
+    {
+        "text": "means to be human.",
+        "start": 306.74,
+        "duration": 4.91
+    }
+]

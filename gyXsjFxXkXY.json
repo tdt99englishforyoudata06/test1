@@ -1,0 +1,357 @@
+[
+    {
+        "text": "I went to program some microcontrollers",
+        "start": 0.0,
+        "duration": 5.58
+    },
+    {
+        "text": "today and found out that the five volt",
+        "start": 3.179,
+        "duration": 5.521
+    },
+    {
+        "text": "output of my power supply was dead at",
+        "start": 5.58,
+        "duration": 4.41
+    },
+    {
+        "text": "first I thought you know there's",
+        "start": 8.7,
+        "duration": 2.88
+    },
+    {
+        "text": "probably just a circuit breaker a fuse",
+        "start": 9.99,
+        "duration": 3.54
+    },
+    {
+        "text": "or something in there but it turns out",
+        "start": 11.58,
+        "duration": 4.349
+    },
+    {
+        "text": "there's actually a problem so the five",
+        "start": 13.53,
+        "duration": 5.07
+    },
+    {
+        "text": "volt regulator board is here and if",
+        "start": 15.929,
+        "duration": 4.291
+    },
+    {
+        "text": "we're monitoring the output right now",
+        "start": 18.6,
+        "duration": 3.06
+    },
+    {
+        "text": "which is we're not getting anything but",
+        "start": 20.22,
+        "duration": 3.809
+    },
+    {
+        "text": "if I tweak the board there's the five",
+        "start": 21.66,
+        "duration": 2.91
+    },
+    {
+        "text": "volt",
+        "start": 24.029,
+        "duration": 2.521
+    },
+    {
+        "text": "regulated output and if I let the board",
+        "start": 24.57,
+        "duration": 4.379
+    },
+    {
+        "text": "go we're back down to zero so there's",
+        "start": 26.55,
+        "duration": 5.639
+    },
+    {
+        "text": "obviously a part that became a solder",
+        "start": 28.949,
+        "duration": 5.071
+    },
+    {
+        "text": "joint that broke or a trace that broke",
+        "start": 32.189,
+        "duration": 4.8
+    },
+    {
+        "text": "or something on there so let's take a",
+        "start": 34.02,
+        "duration": 6.359
+    },
+    {
+        "text": "closer look so this is all low-voltage",
+        "start": 36.989,
+        "duration": 5.011
+    },
+    {
+        "text": "here so I don't have to really worry too",
+        "start": 40.379,
+        "duration": 3.93
+    },
+    {
+        "text": "much about touching it the input is here",
+        "start": 42.0,
+        "duration": 4.17
+    },
+    {
+        "text": "this is coming from the transformer this",
+        "start": 44.309,
+        "duration": 5.671
+    },
+    {
+        "text": "is an input of about nine volts AC or",
+        "start": 46.17,
+        "duration": 5.79
+    },
+    {
+        "text": "something there's the bridge rectifier",
+        "start": 49.98,
+        "duration": 4.739
+    },
+    {
+        "text": "and the output is here going this way",
+        "start": 51.96,
+        "duration": 5.759
+    },
+    {
+        "text": "there's one other component the actual",
+        "start": 54.719,
+        "duration": 5.281
+    },
+    {
+        "text": "linear regulator which is tied to a",
+        "start": 57.719,
+        "duration": 4.741
+    },
+    {
+        "text": "heatsink on the back and it's off this",
+        "start": 60.0,
+        "duration": 5.549
+    },
+    {
+        "text": "board so it's using some kind of a it's",
+        "start": 62.46,
+        "duration": 5.54
+    },
+    {
+        "text": "got an IC on here to control the linear",
+        "start": 65.549,
+        "duration": 6.061
+    },
+    {
+        "text": "the regulator so I'm not exactly sure",
+        "start": 68.0,
+        "duration": 5.71
+    },
+    {
+        "text": "what's wrong right now I'm suspecting",
+        "start": 71.61,
+        "duration": 4.23
+    },
+    {
+        "text": "that the solder joints between the large",
+        "start": 73.71,
+        "duration": 4.949
+    },
+    {
+        "text": "leads on that bridge rectifier and the",
+        "start": 75.84,
+        "duration": 5.7
+    },
+    {
+        "text": "board you know cracked there's probably",
+        "start": 78.659,
+        "duration": 6.241
+    },
+    {
+        "text": "a really slight breakage between the the",
+        "start": 81.54,
+        "duration": 6.0
+    },
+    {
+        "text": "lead and the PCB so I'm going to do is",
+        "start": 84.9,
+        "duration": 4.44
+    },
+    {
+        "text": "get my soldering gun out and just reflow",
+        "start": 87.54,
+        "duration": 5.009
+    },
+    {
+        "text": "the solder between the bridge and the",
+        "start": 89.34,
+        "duration": 5.54
+    },
+    {
+        "text": "board let's see if that fixes it and",
+        "start": 92.549,
+        "duration": 4.441
+    },
+    {
+        "text": "what do you know it looks like my first",
+        "start": 94.88,
+        "duration": 5.699
+    },
+    {
+        "text": "guess was correct so all I did was just",
+        "start": 96.99,
+        "duration": 5.94
+    },
+    {
+        "text": "reflow the solder on this side of the",
+        "start": 100.579,
+        "duration": 5.381
+    },
+    {
+        "text": "board where those large leads go through",
+        "start": 102.93,
+        "duration": 5.009
+    },
+    {
+        "text": "and I've been tweaking this thing around",
+        "start": 105.96,
+        "duration": 4.049
+    },
+    {
+        "text": "and I don't see any fluctuations at all",
+        "start": 107.939,
+        "duration": 5.581
+    },
+    {
+        "text": "in the voltage output so they're",
+        "start": 110.009,
+        "duration": 4.771
+    },
+    {
+        "text": "mounting method actually looked pretty",
+        "start": 113.52,
+        "duration": 3.36
+    },
+    {
+        "text": "good there's a threaded stand off this",
+        "start": 114.78,
+        "duration": 4.439
+    },
+    {
+        "text": "brass stand off in here and there's a",
+        "start": 116.88,
+        "duration": 3.96
+    },
+    {
+        "text": "screw that comes in from through the",
+        "start": 119.219,
+        "duration": 3.571
+    },
+    {
+        "text": "bottom of the case into that stand off",
+        "start": 120.84,
+        "duration": 4.739
+    },
+    {
+        "text": "so it pulls the the rectifier down to",
+        "start": 122.79,
+        "duration": 4.8
+    },
+    {
+        "text": "the down to the metal of the case and",
+        "start": 125.579,
+        "duration": 3.811
+    },
+    {
+        "text": "then there's another screw from the top",
+        "start": 127.59,
+        "duration": 4.89
+    },
+    {
+        "text": "on the other corner of the board so I",
+        "start": 129.39,
+        "duration": 4.24
+    },
+    {
+        "text": "don't know if",
+        "start": 132.48,
+        "duration": 2.47
+    },
+    {
+        "text": "you guys have any opinions about that",
+        "start": 133.63,
+        "duration": 2.94
+    },
+    {
+        "text": "mounting method but it sure looks like",
+        "start": 134.95,
+        "duration": 4.32
+    },
+    {
+        "text": "what happened is is just through the",
+        "start": 136.57,
+        "duration": 4.38
+    },
+    {
+        "text": "minimal flexing that this thing is going",
+        "start": 139.27,
+        "duration": 3.83
+    },
+    {
+        "text": "to encounter that the leads here are",
+        "start": 140.95,
+        "duration": 4.11
+    },
+    {
+        "text": "rigid enough are they actually basically",
+        "start": 143.1,
+        "duration": 4.15
+    },
+    {
+        "text": "pulled out from the from the PC board",
+        "start": 145.06,
+        "duration": 4.08
+    },
+    {
+        "text": "the solder joint was under too much",
+        "start": 147.25,
+        "duration": 3.02
+    },
+    {
+        "text": "stress",
+        "start": 149.14,
+        "duration": 3.18
+    },
+    {
+        "text": "anyway if you happen to have the same",
+        "start": 150.27,
+        "duration": 5.68
+    },
+    {
+        "text": "model power supply you may want to keep",
+        "start": 152.32,
+        "duration": 4.83
+    },
+    {
+        "text": "that in mind especially if you've been",
+        "start": 155.95,
+        "duration": 3.69
+    },
+    {
+        "text": "having trouble with the 5 volt output ok",
+        "start": 157.15,
+        "duration": 4.41
+    },
+    {
+        "text": "hope that was helpful see you next time",
+        "start": 159.64,
+        "duration": 4.49
+    },
+    {
+        "text": "bye",
+        "start": 161.56,
+        "duration": 2.57
+    }
+]

@@ -1,0 +1,827 @@
+[
+    {
+        "text": "BEN SPARKS: Let's say, you're in Britain\non a dual carriageway.",
+        "start": 0.0,
+        "duration": 2.44
+    },
+    {
+        "text": "I'm gonna try and draw this.\nTwo lanes, and we'll both go in this direction",
+        "start": 2.44,
+        "duration": 2.96
+    },
+    {
+        "text": "and there's a blue car on the left,\nand it's going at 70 miles per hour",
+        "start": 5.4,
+        "duration": 4.44
+    },
+    {
+        "text": "which is the legal limit on motorways\nand dual carriageways in this country.",
+        "start": 9.84,
+        "duration": 4.26
+    },
+    {
+        "text": "BRADY HARAN: They're doing the right thing.",
+        "start": 14.1,
+        "duration": 1.28
+    },
+    {
+        "text": "BEN: Yeah, and so they should be.",
+        "start": 15.38,
+        "duration": 1.6
+    },
+    {
+        "text": "Trouble is, you could be doing the right thing,\nand other people on the roads might not.",
+        "start": 16.98,
+        "duration": 3.94
+    },
+    {
+        "text": "There's a guy overtaking the blue car.\nIt's gonna be the red car.",
+        "start": 20.92,
+        "duration": 2.659
+    },
+    {
+        "text": "BRADY: It's always the red car!",
+        "start": 23.58,
+        "duration": 1.18
+    },
+    {
+        "text": "BEN: It's always the red car, and he's going faster.",
+        "start": 24.76,
+        "duration": 1.8
+    },
+    {
+        "text": "In fact, I'm gonna draw him in\nat the moment he overtakes",
+        "start": 26.56,
+        "duration": 3.1
+    },
+    {
+        "text": "and he's going -- as I'm sure it's happened to me,\nin the blue car I hasten to add",
+        "start": 29.66,
+        "duration": 3.38
+    },
+    {
+        "text": "I've been in the blue car, and someone comes\nbarreling past me going at 100 miles an hour.",
+        "start": 33.04,
+        "duration": 4.24
+    },
+    {
+        "text": "Certainly it could happen,\nwhether it's on a motorway or dual carriageway.",
+        "start": 37.28,
+        "duration": 3.24
+    },
+    {
+        "text": "Now, they're not going the same speed,\nbut there is a moment when they're neck-and-neck",
+        "start": 40.52,
+        "duration": 3.32
+    },
+    {
+        "text": "and that's the moment I want to freeze time\nand ask you about what happens next.",
+        "start": 43.84,
+        "duration": 3.92
+    },
+    {
+        "text": "Because at this moment when they're neck-and-neck,\nthey see in front of them a tree",
+        "start": 47.76,
+        "duration": 3.04
+    },
+    {
+        "text": "or some barrier which is unexpected,\nand so they both need to break",
+        "start": 50.8,
+        "duration": 3.74
+    },
+    {
+        "text": "and we're going to assume lots of things,\nlike is always the case with a mathematical question.",
+        "start": 54.54,
+        "duration": 2.94
+    },
+    {
+        "text": "We have to model it to keep it simple enough to answer.",
+        "start": 57.48,
+        "duration": 2.14
+    },
+    {
+        "text": "So the models here might be that,\nlet's assume have same cars.",
+        "start": 59.62,
+        "duration": 2.86
+    },
+    {
+        "text": "Let's assume reaction times are not part of this.",
+        "start": 62.48,
+        "duration": 2.7
+    },
+    {
+        "text": "We could add those things in later\nif we want to complicate the model.",
+        "start": 65.18,
+        "duration": 2.4
+    },
+    {
+        "text": "Let's assume they both slam on the brakes\nat the same time, and they break at the same rate",
+        "start": 67.58,
+        "duration": 3.46
+    },
+    {
+        "text": "and by the time he gets there,\nthe blue car has sort of just stopped in time.",
+        "start": 71.04,
+        "duration": 3.9
+    },
+    {
+        "text": "So that's the blue car, who's got smaller apparently...",
+        "start": 74.94,
+        "duration": 2.86
+    },
+    {
+        "text": "He has stopped with millimeters to spare,\nwhich is good.",
+        "start": 78.38,
+        "duration": 2.7
+    },
+    {
+        "text": "BRADY: So the blue car just,\njust stops as it gets to the tree.",
+        "start": 81.08,
+        "duration": 3.88
+    },
+    {
+        "text": "BEN: No crash for the blue guy.\nHe slammed on the brakes just in time.",
+        "start": 84.96,
+        "duration": 3.18
+    },
+    {
+        "text": "What I'm gonna claim, it's obvious\nthat the red guy is in trouble.",
+        "start": 88.14,
+        "duration": 3.5
+    },
+    {
+        "text": "The red guy is moving quicker.\nHe brakes at the same time, at the same rate.",
+        "start": 91.64,
+        "duration": 2.9
+    },
+    {
+        "text": "I think he's definitely gonna crash. No one seems\nto argue about whether the red guy's gonna crash.",
+        "start": 94.54,
+        "duration": 3.26
+    },
+    {
+        "text": "What's really crucial, and here's the puzzle for you",
+        "start": 97.8,
+        "duration": 2.42
+    },
+    {
+        "text": "is that, it matters what speed you crash at.",
+        "start": 100.22,
+        "duration": 2.08
+    },
+    {
+        "text": "Right, if you crash at one mile an hour,\nno one's gonna really worry.",
+        "start": 102.3,
+        "duration": 2.76
+    },
+    {
+        "text": "If you crash at a thousand miles an hour,\nyou're in trouble.",
+        "start": 105.06,
+        "duration": 3.5
+    },
+    {
+        "text": "Now, he's not gonna crash at thousand miles an hour.\nHe's gonna crash slower because he started braking.",
+        "start": 108.56,
+        "duration": 4.14
+    },
+    {
+        "text": "But, at what speed does he hit the tree?\nAnd that's the puzzle.",
+        "start": 112.7,
+        "duration": 3.84
+    },
+    {
+        "text": "There's some intuition to get involved here,\nthere's also some maths to check it out",
+        "start": 116.54,
+        "duration": 3.48
+    },
+    {
+        "text": "and the answer is-- well, it surprised me.",
+        "start": 120.02,
+        "duration": 2.22
+    },
+    {
+        "text": "BRADY: # Do do do do-do do do #",
+        "start": 122.5,
+        "duration": 3.48
+    },
+    {
+        "text": "# The girl from Ipan-- #\n(BEN laughs)",
+        "start": 125.98,
+        "duration": 2.26
+    },
+    {
+        "text": "BRADY: Alright.\nBEN: We're back! So the red guy has crashed.",
+        "start": 128.24,
+        "duration": 3.34
+    },
+    {
+        "text": "I just feel like I missed my chance to draw a crash.",
+        "start": 131.58,
+        "duration": 1.92
+    },
+    {
+        "text": "So this is the red guy.",
+        "start": 133.5,
+        "duration": 2.14
+    },
+    {
+        "text": "He's in pieces all over the place.",
+        "start": 135.64,
+        "duration": 2.18
+    },
+    {
+        "text": "Because your intuition doesn't work well\nwith speed questions",
+        "start": 137.82,
+        "duration": 3.56
+    },
+    {
+        "text": "and this is why I got a bit surprised about this.",
+        "start": 141.39,
+        "duration": 2.0
+    },
+    {
+        "text": "The first thing to notice is that,\na lot of people think the answer is 30 miles an hour.",
+        "start": 143.46,
+        "duration": 4.54
+    },
+    {
+        "text": "It's really 'sensible' to think about the difference in\nspeed, which is 30 miles an hour at the start",
+        "start": 148.14,
+        "duration": 5.18
+    },
+    {
+        "text": "and to think, if everything else is the same,\nsurely that's the speed it's got left over.",
+        "start": 153.32,
+        "duration": 3.54
+    },
+    {
+        "text": "There are lots of reasons why it's not correct,\nand one of the reasons you'll probably think is",
+        "start": 156.86,
+        "duration": 3.9
+    },
+    {
+        "text": "I wouldn't be asking this question if it was 30, fine!",
+        "start": 160.76,
+        "duration": 2.5
+    },
+    {
+        "text": "Another intuition thing to ask though, is",
+        "start": 163.42,
+        "duration": 2.1
+    },
+    {
+        "text": "do you think it's slower than 30,\nor do you think it's quicker than 30?",
+        "start": 165.52,
+        "duration": 3.18
+    },
+    {
+        "text": "Because if it's not 30, it's one of the two.",
+        "start": 168.7,
+        "duration": 1.84
+    },
+    {
+        "text": "And I'm gonna tell you the answer,\nand I'm gonna justify it,",
+        "start": 171.12,
+        "duration": 2.56
+    },
+    {
+        "text": "because when someone told me the answer,\nI just bawled. It was...",
+        "start": 173.68,
+        "duration": 2.54
+    },
+    {
+        "text": "I was surprised. I was also a bit shocked\nand dare I say it, sobered",
+        "start": 177.1,
+        "duration": 3.5
+    },
+    {
+        "text": "and maybe I changed\nmy driving habits a little bit, because",
+        "start": 180.6,
+        "duration": 2.54
+    },
+    {
+        "text": "the red guy hits the tree",
+        "start": 183.14,
+        "duration": 2.68
+    },
+    {
+        "text": "assuming all that stuff we assumed, at approximately",
+        "start": 185.82,
+        "duration": 3.46
+    },
+    {
+        "text": "71 miles per hour.",
+        "start": 189.48,
+        "duration": 1.74
+    },
+    {
+        "text": "BRADY: Seventy-one!\nBEN: Seventy-one.",
+        "start": 191.22,
+        "duration": 1.62
+    },
+    {
+        "text": "He has not even reached the speed\nthat the blue guy started braking at",
+        "start": 192.84,
+        "duration": 4.02
+    },
+    {
+        "text": "and he's hit the tree at that speed.",
+        "start": 196.86,
+        "duration": 1.6
+    },
+    {
+        "text": "There's the difference between\nnot crashing at all, well done blue guy",
+        "start": 198.46,
+        "duration": 3.5
+    },
+    {
+        "text": "and hitting a brick wall, or a tree in this case,\nat 71 miles an hour.",
+        "start": 201.96,
+        "duration": 3.62
+    },
+    {
+        "text": "And that was from a difference of 30 miles an hour\nto start with, and everything else is the same.",
+        "start": 205.92,
+        "duration": 4.0
+    },
+    {
+        "text": "It's pretty easy to justify this, but",
+        "start": 209.92,
+        "duration": 2.18
+    },
+    {
+        "text": "the answer is sobering enough.",
+        "start": 212.1,
+        "duration": 1.78
+    },
+    {
+        "text": "So I think we should justify it before I leave you",
+        "start": 213.88,
+        "duration": 2.14
+    },
+    {
+        "text": "to go and change your driving habits,\nand myself on my way home.",
+        "start": 216.02,
+        "duration": 3.24
+    },
+    {
+        "text": "There are many ways to solve this",
+        "start": 221.7,
+        "duration": 2.28
+    },
+    {
+        "text": "and maybe if you've solved it a certain way,\ntry solve it another way.",
+        "start": 223.98,
+        "duration": 2.54
+    },
+    {
+        "text": "You can use things called the SUVAT equations.",
+        "start": 226.52,
+        "duration": 1.84
+    },
+    {
+        "text": "I've heard people make up nice rhymes to remember these things.",
+        "start": 228.36,
+        "duration": 2.36
+    },
+    {
+        "text": "They're to do with constant acceleration\nequations to do with speed, distance, and time.",
+        "start": 230.72,
+        "duration": 3.56
+    },
+    {
+        "text": "But there's another way\nwhich gets you the answer more quickly.",
+        "start": 234.28,
+        "duration": 2.7
+    },
+    {
+        "text": "So maybe you should go and try this SUVAT thing",
+        "start": 236.98,
+        "duration": 1.62
+    },
+    {
+        "text": "but if you think about kinetic energy",
+        "start": 238.6,
+        "duration": 2.22
+    },
+    {
+        "text": "this actually is quite easy.",
+        "start": 240.82,
+        "duration": 1.46
+    },
+    {
+        "text": "So I'm gonna imagine that they",
+        "start": 242.28,
+        "duration": 1.5
+    },
+    {
+        "text": "I'm gonna do lots of slightly dodgy things here",
+        "start": 243.78,
+        "duration": 3.16
+    },
+    {
+        "text": "but you have to imagine that\nI'm just getting a ballpark for this model.",
+        "start": 246.94,
+        "duration": 2.42
+    },
+    {
+        "text": "The kinetic energy for the blue guy\nis gonna be to do with several things.",
+        "start": 249.36,
+        "duration": 4.92
+    },
+    {
+        "text": "There's a formula for kinetic energy,\nwhich looks like this.",
+        "start": 254.28,
+        "duration": 2.5
+    },
+    {
+        "text": "There's a half in there\nfor reasons I'm not going to go into",
+        "start": 256.78,
+        "duration": 1.88
+    },
+    {
+        "text": "there's the mass of the car\nwhich we're going to assume is the same for both cars",
+        "start": 258.66,
+        "duration": 3.12
+    },
+    {
+        "text": "and there is its velocity.",
+        "start": 261.78,
+        "duration": 1.72
+    },
+    {
+        "text": "Now, if we're gonna actually work out the kinetic energy",
+        "start": 263.5,
+        "duration": 2.44
+    },
+    {
+        "text": "we'd work this out in meters per second,\nbecause that's the units that kinetic energy works in.",
+        "start": 265.94,
+        "duration": 3.3
+    },
+    {
+        "text": "I'm just gonna dodge that.\nSo I'm actually gonna say that it's kind of",
+        "start": 269.24,
+        "duration": 3.74
+    },
+    {
+        "text": "kinetic energy is proportional to this,\nbecause I'm just gonna work with 70's.",
+        "start": 272.98,
+        "duration": 3.26
+    },
+    {
+        "text": "But I hope you forgive me for this dodge",
+        "start": 276.24,
+        "duration": 1.56
+    },
+    {
+        "text": "because I'm gonna do the same with the red car\nso we can compare them.",
+        "start": 277.8,
+        "duration": 2.02
+    },
+    {
+        "text": "So the blue guy has got ½m, whatever the m is,\nand we've got 70 squared.",
+        "start": 279.82,
+        "duration": 4.16
+    },
+    {
+        "text": "That's its velocity in miles per hour, and\nwe won't worry about it being in meter per second.",
+        "start": 284.8,
+        "duration": 4.04
+    },
+    {
+        "text": "Red guy, easy enough calculation",
+        "start": 288.84,
+        "duration": 3.18
+    },
+    {
+        "text": "has a kinetic energy at the start of a ½m.",
+        "start": 292.02,
+        "duration": 2.8
+    },
+    {
+        "text": "We're going to see that's the same mass\nbecause it's the same car",
+        "start": 294.82,
+        "duration": 2.54
+    },
+    {
+        "text": "but this time we've got a 100 squared,\nbecause that's his velocity to start with.",
+        "start": 297.36,
+        "duration": 3.68
+    },
+    {
+        "text": "And I'm gonna claim that in braking,\nyou're getting rid of kinetic energy.",
+        "start": 301.04,
+        "duration": 3.04
+    },
+    {
+        "text": "I don't think that's controversial",
+        "start": 304.08,
+        "duration": 1.92
+    },
+    {
+        "text": "and the blue guy's got rid of all of it,\nso there's none left.",
+        "start": 306.0,
+        "duration": 3.18
+    },
+    {
+        "text": "So what we need to work out\nis how much energy that is",
+        "start": 309.18,
+        "duration": 2.72
+    },
+    {
+        "text": "and if actually I calculate -- the only number\nin here is 70 squared, and if the",
+        "start": 311.9,
+        "duration": 3.96
+    },
+    {
+        "text": "so I'm gonna say, this is proportional\nto 70 squared, which is",
+        "start": 315.86,
+        "duration": 3.36
+    },
+    {
+        "text": "4900 amount of energy.",
+        "start": 319.52,
+        "duration": 2.48
+    },
+    {
+        "text": "It's not in joules because\nI'd need to have the units changed.",
+        "start": 322.0,
+        "duration": 3.2
+    },
+    {
+        "text": "But the red guy is proportional to 100 squared",
+        "start": 325.2,
+        "duration": 3.44
+    },
+    {
+        "text": "which is 10,000.",
+        "start": 328.64,
+        "duration": 1.86
+    },
+    {
+        "text": "So even if the red guy gets rid of all the energy\nthe blue guy's got rid off",
+        "start": 330.5,
+        "duration": 2.78
+    },
+    {
+        "text": "which he would if everything else is the same",
+        "start": 333.28,
+        "duration": 2.0
+    },
+    {
+        "text": "I just need to do 10,000 take away 4900",
+        "start": 335.28,
+        "duration": 3.229
+    },
+    {
+        "text": "which is 5100 of whatever units we're using left",
+        "start": 338.52,
+        "duration": 3.74
+    },
+    {
+        "text": "which is more than the blue guy started with",
+        "start": 342.26,
+        "duration": 1.88
+    },
+    {
+        "text": "and if you square root this, you get 71 point something",
+        "start": 344.14,
+        "duration": 3.92
+    },
+    {
+        "text": "and that's it. The red guy's doomed",
+        "start": 348.9,
+        "duration": 2.32
+    },
+    {
+        "text": "and it gets worse, because we haven't\neven considered what'd happen if they",
+        "start": 351.22,
+        "duration": 5.04
+    },
+    {
+        "text": "maybe take a tiny bit of time to react to the tree.",
+        "start": 356.26,
+        "duration": 3.22
+    },
+    {
+        "text": "If they take the same time to do it,\nthe blue guy has traveled less far than the red guy",
+        "start": 360.06,
+        "duration": 4.48
+    },
+    {
+        "text": "so it's looking even worse.",
+        "start": 364.54,
+        "duration": 1.74
+    },
+    {
+        "text": "One other thing to bear in mind is maybe",
+        "start": 366.28,
+        "duration": 1.64
+    },
+    {
+        "text": "you brake quicker when you're moving quicker\nbecause there's more friction",
+        "start": 367.92,
+        "duration": 3.24
+    },
+    {
+        "text": "but that doesn't counteract the fact\nthat the red guy is now doomed.",
+        "start": 371.16,
+        "duration": 3.72
+    },
+    {
+        "text": "The first time I heard this story,",
+        "start": 375.54,
+        "duration": 2.4
+    },
+    {
+        "text": "I had to go on",
+        "start": 377.94,
+        "duration": 1.39
+    },
+    {
+        "text": "a course",
+        "start": 379.33,
+        "duration": 1.05
+    },
+    {
+        "text": "about speed, being aware of speed on the roads.",
+        "start": 380.38,
+        "duration": 3.52
+    },
+    {
+        "text": "BRADY: Why were you doing that course?\nBEN: I had, well I... it was a good idea.",
+        "start": 383.9,
+        "duration": 2.76
+    },
+    {
+        "text": "I think it was a good idea for me to do that\nand avoid a massive fine.",
+        "start": 386.66,
+        "duration": 2.84
+    },
+    {
+        "text": "But they were telling me all this stuff about\ndriving slowly is important",
+        "start": 389.5,
+        "duration": 3.22
+    },
+    {
+        "text": "and I'd just heard this,\nand this completely sobered me up",
+        "start": 392.72,
+        "duration": 2.7
+    },
+    {
+        "text": "and they were telling me a lot of other facts,\nwhich had no effect, so",
+        "start": 395.42,
+        "duration": 2.74
+    },
+    {
+        "text": "I tried to tell them this, they didn't appreciate that.",
+        "start": 398.16,
+        "duration": 2.18
+    },
+    {
+        "text": "But it is powerful. It made me slow down",
+        "start": 400.34,
+        "duration": 2.08
+    },
+    {
+        "text": "and the crucial thing to take away is that,\nit's the square of your speed that affects all your energy",
+        "start": 402.42,
+        "duration": 3.98
+    },
+    {
+        "text": "and that's the bit our intuition is really bad at.",
+        "start": 406.4,
+        "duration": 1.8
+    },
+    {
+        "text": "I'm gonna patent this one day. No stealing, Brady.",
+        "start": 408.2,
+        "duration": 2.56
+    },
+    {
+        "text": "If speedometers in a car,\ninstead of going 10, 20, 30, 40, 50...",
+        "start": 410.9,
+        "duration": 4.0
+    },
+    {
+        "text": "if they went up with gaps that were\nproportional to the square of those numbers",
+        "start": 415.1,
+        "duration": 4.1
+    },
+    {
+        "text": "then you'd get this lovely intuition that\ngoing from 70 to 100 is like doubling your energy",
+        "start": 419.2,
+        "duration": 4.14
+    },
+    {
+        "text": "instead of just going up to 30 miles an hour.",
+        "start": 423.34,
+        "duration": 1.76
+    },
+    {
+        "text": "Car manufacturers haven't taken this one on board yet",
+        "start": 425.1,
+        "duration": 2.08
+    },
+    {
+        "text": "but, one day.",
+        "start": 427.18,
+        "duration": 1.28
+    },
+    {
+        "text": "BRADY: I hope one of the things this video shows is that",
+        "start": 428.86,
+        "duration": 2.36
+    },
+    {
+        "text": "in mathematics, sometimes\nrather than just plugging numbers into equations",
+        "start": 431.22,
+        "duration": 4.08
+    },
+    {
+        "text": "it's good to really understand\nwhat's going on under the hood.",
+        "start": 435.3,
+        "duration": 3.62
+    },
+    {
+        "text": "See what I did there? \"Under the hood.\"",
+        "start": 439.36,
+        "duration": 2.14
+    },
+    {
+        "text": "Wrote that myself.",
+        "start": 442.64,
+        "duration": 1.6
+    },
+    {
+        "text": "But seriously, the quizzes and puzzles\nat Brilliant.org give you these insights.",
+        "start": 444.24,
+        "duration": 4.38
+    },
+    {
+        "text": "They really help you see how everything fits together.\nThey encourage critical thinking.",
+        "start": 448.62,
+        "duration": 4.68
+    },
+    {
+        "text": "Don't just think \"what formula do I use,\"\nbut understand the concepts that are at play.",
+        "start": 453.3,
+        "duration": 4.98
+    },
+    {
+        "text": "Go check out Brilliant.org/Numberphile\nand get 20% off Brilliant's premium membership.",
+        "start": 458.28,
+        "duration": 6.76
+    },
+    {
+        "text": "The first 71 people to do it\nwill be eligible for that discount.",
+        "start": 465.04,
+        "duration": 4.0
+    },
+    {
+        "text": "And Brilliant doesn't just cover math.",
+        "start": 469.04,
+        "duration": 2.06
+    },
+    {
+        "text": "They have all sorts of cool physics,\nastronomy, computer science, logic.",
+        "start": 471.1,
+        "duration": 4.34
+    },
+    {
+        "text": "That's 20% off, at Brilliant.org/Numberphile",
+        "start": 475.9,
+        "duration": 5.68
+    },
+    {
+        "text": "and our thanks to them for supporting this video.",
+        "start": 481.58,
+        "duration": 3.16
+    },
+    {
+        "text": "Alright, let's really speed things up here!",
+        "start": 485.24,
+        "duration": 2.32
+    },
+    {
+        "text": "I know I'm not supposed to be encouraging speeding",
+        "start": 489.53,
+        "duration": 2.39
+    },
+    {
+        "text": "but it's okay a racetrack, isn't it?",
+        "start": 491.92,
+        "duration": 2.52
+    },
+    {
+        "text": "This is a controlled environment.",
+        "start": 494.44,
+        "duration": 1.96
+    },
+    {
+        "text": "Oh! Crashed...",
+        "start": 499.6,
+        "duration": 2.04
+    }
+]

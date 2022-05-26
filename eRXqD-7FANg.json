@@ -1,0 +1,832 @@
+[
+    {
+        "text": "[♪ intro]",
+        "start": 0.0,
+        "duration": 10.96
+    },
+    {
+        "text": "Every year, there are thousands of new drugs \nin development at labs around the world.  ",
+        "start": 10.96,
+        "duration": 4.0
+    },
+    {
+        "text": "But only a tiny fraction of them make it through \nto human trials -- never mind final approval.",
+        "start": 14.96,
+        "duration": 4.56
+    },
+    {
+        "text": "And even among those that do get through, the \nmajority of new medications are actually just  ",
+        "start": 19.52,
+        "duration": 4.16
+    },
+    {
+        "text": "new-er versions of existing drugs, \nlike cheaper generic versions.",
+        "start": 23.68,
+        "duration": 3.6
+    },
+    {
+        "text": "But there’s a new hero in town with \nthe potential to help things along:  ",
+        "start": 27.28,
+        "duration": 3.68
+    },
+    {
+        "text": "drug discovery systems based \non artificial intelligence.",
+        "start": 30.96,
+        "duration": 3.6
+    },
+    {
+        "text": "Even though the tech is still growing,  ",
+        "start": 34.56,
+        "duration": 1.6
+    },
+    {
+        "text": "several new drugs designed with the aid \nof AI are already in clinical trials.",
+        "start": 36.16,
+        "duration": 3.84
+    },
+    {
+        "text": "And together with other modern tech \nlike fully automated robot scientists,  ",
+        "start": 40.0,
+        "duration": 3.92
+    },
+    {
+        "text": "AI is changing drug discovery in \nrevolutionary ways -- and it’s  ",
+        "start": 43.92,
+        "duration": 4.0
+    },
+    {
+        "text": "accelerating the process beyond \nanything we’ve seen before.",
+        "start": 47.92,
+        "duration": 3.2
+    },
+    {
+        "text": "It’s only recently that we’ve been \nable to create drugs from scratch.",
+        "start": 51.12,
+        "duration": 3.12
+    },
+    {
+        "text": "Some drugs are based on traditional remedies \nand natural products -- like aspirin. ",
+        "start": 54.24,
+        "duration": 3.44
+    },
+    {
+        "text": "The first fully synthetic drug, \nthe sedative chloral hydrate,  ",
+        "start": 57.68,
+        "duration": 3.44
+    },
+    {
+        "text": "was developed in 1869. But there was still \nquite a bit of trial and error involved. ",
+        "start": 61.12,
+        "duration": 4.32
+    },
+    {
+        "text": "Rather than throwing spaghetti \nat the wall to see what sticks,  ",
+        "start": 65.44,
+        "duration": 2.64
+    },
+    {
+        "text": "it was… throwing chemicals at people \nto see if they stop being sick.",
+        "start": 68.08,
+        "duration": 3.52
+    },
+    {
+        "text": "That’s how, in 1932, we got sulfa drugs, \nwhen researchers at a chemical dye company  ",
+        "start": 71.6,
+        "duration": 5.04
+    },
+    {
+        "text": "discovered some of those dyes could \nbe used to kill dangerous microbes. ",
+        "start": 76.64,
+        "duration": 3.12
+    },
+    {
+        "text": "And pure random luck also did a lot for the \nearly pharmaceutical industry. Most famously,  ",
+        "start": 79.76,
+        "duration": 4.8
+    },
+    {
+        "text": "if Alexander Fleming had been a little more \nfastidious about keeping his lab clean,  ",
+        "start": 84.56,
+        "duration": 4.16
+    },
+    {
+        "text": "we might not have penicillin.  ",
+        "start": 88.72,
+        "duration": 1.28
+    },
+    {
+        "text": "But all that has changed. Starting in \nthe latter half of the 20th century,  ",
+        "start": 90.0,
+        "duration": 3.52
+    },
+    {
+        "text": "we’ve seen the rise of rational drug design.",
+        "start": 93.52,
+        "duration": 2.48
+    },
+    {
+        "text": "That means no more spaghetti-throwing. Instead,  ",
+        "start": 96.0,
+        "duration": 2.64
+    },
+    {
+        "text": "scientists build drugs from the ground up, \ndriven by hypotheses of how they might work. ",
+        "start": 98.64,
+        "duration": 4.16
+    },
+    {
+        "text": "Having so much data to rely on can \nbe a double-edged sword, though.",
+        "start": 102.8,
+        "duration": 3.36
+    },
+    {
+        "text": "In fact, in a sense, you could say we’ve gotten \ntoo good at this. The number of researchers and  ",
+        "start": 106.16,
+        "duration": 4.72
+    },
+    {
+        "text": "person-hours it takes to investigate every \nsingle drug candidate is truly monumental.",
+        "start": 110.88,
+        "duration": 4.72
+    },
+    {
+        "text": "But now, artificial intelligence is turning \nthe tables by helping to guide and accelerate  ",
+        "start": 115.6,
+        "duration": 5.04
+    },
+    {
+        "text": "this process. It’s helping identify drug \ncandidates we might not have found otherwise,  ",
+        "start": 120.64,
+        "duration": 4.32
+    },
+    {
+        "text": "and cutting years off their development.",
+        "start": 124.96,
+        "duration": 1.76
+    },
+    {
+        "text": "AI systems can be given a general \ndescription of what we want to find,  ",
+        "start": 126.72,
+        "duration": 3.52
+    },
+    {
+        "text": "analyze a bunch of literature and databases, \nand pick out the best hits for later research.",
+        "start": 130.24,
+        "duration": 4.48
+    },
+    {
+        "text": "This starts right at the beginning: before you \neven think about how your new drug would work,  ",
+        "start": 134.72,
+        "duration": 4.4
+    },
+    {
+        "text": "you have to decide what to \ndesign it for. You need a target.",
+        "start": 139.12,
+        "duration": 3.2
+    },
+    {
+        "text": "That target is one of the dominoes in the sequence  ",
+        "start": 142.32,
+        "duration": 2.56
+    },
+    {
+        "text": "of things that happen in your \nbody to create a disease.",
+        "start": 144.88,
+        "duration": 2.4
+    },
+    {
+        "text": "It could be a mutated gene, or an enzyme \nthat’s working harder than it should. ",
+        "start": 147.28,
+        "duration": 3.76
+    },
+    {
+        "text": "There’s usually a huge body of scientific \nliterature devoted to the disease you want  ",
+        "start": 151.04,
+        "duration": 3.76
+    },
+    {
+        "text": "to treat -- stuff like research articles, \nclinical trial reports, and patient records. ",
+        "start": 154.8,
+        "duration": 4.0
+    },
+    {
+        "text": "Deciding on a target based on all this information \nis like looking for a needle in a haystack,  ",
+        "start": 158.8,
+        "duration": 4.24
+    },
+    {
+        "text": "and it’s a lot to ask of our brains.",
+        "start": 163.04,
+        "duration": 1.84
+    },
+    {
+        "text": "AI can help us see the big picture -- then pick  ",
+        "start": 164.88,
+        "duration": 2.48
+    },
+    {
+        "text": "out the one really specific thing \nwe needed from that big picture. ",
+        "start": 167.36,
+        "duration": 3.2
+    },
+    {
+        "text": "AI systems use a bunch of \ndifferent technologies to do that,  ",
+        "start": 170.56,
+        "duration": 2.72
+    },
+    {
+        "text": "but generally, the key is \nnatural language processing.  ",
+        "start": 173.28,
+        "duration": 2.8
+    },
+    {
+        "text": "Natural language processing is basically \nwhat allows your phone’s voice assistant  ",
+        "start": 176.08,
+        "duration": 3.6
+    },
+    {
+        "text": "to understand you when you say \n“Play something by Tchaikovsky.” ",
+        "start": 179.68,
+        "duration": 3.12
+    },
+    {
+        "text": "If you’re lucky, it will understand that you \nwant to hear any music composed by Tchaikovsky,  ",
+        "start": 182.8,
+        "duration": 4.08
+    },
+    {
+        "text": "instead of a specific piece \nhe wrote called “Something.” ",
+        "start": 186.88,
+        "duration": 2.48
+    },
+    {
+        "text": "Now, the AI doesn’t really \nunderstand what a “Tchaikovsky” is.   ",
+        "start": 189.36,
+        "duration": 3.92
+    },
+    {
+        "text": "But by analyzing the relationships between \nthe words and the context, it can tell that  ",
+        "start": 193.28,
+        "duration": 4.08
+    },
+    {
+        "text": "you want to look for “Tchaikovsky” in the part \nof its database that holds a list of composers.",
+        "start": 197.36,
+        "duration": 3.76
+    },
+    {
+        "text": "And the principle is the same with drug discovery.",
+        "start": 201.12,
+        "duration": 2.16
+    },
+    {
+        "text": "So even though the AI doesn’t understand what \na “gene” is, if you instruct it to sort through  ",
+        "start": 203.28,
+        "duration": 4.56
+    },
+    {
+        "text": "the literature on a given disease, it \ncan identify the ones that stand out.",
+        "start": 207.84,
+        "duration": 3.6
+    },
+    {
+        "text": "It can also find the places in the literature \nthat talk about that gene -- and look at the  ",
+        "start": 211.44,
+        "duration": 3.6
+    },
+    {
+        "text": "words connected with it. Do authors refer \nto it often in the context of that disease?  ",
+        "start": 215.04,
+        "duration": 4.24
+    },
+    {
+        "text": "And crucially, do they talk \nabout a causal relationship?",
+        "start": 219.28,
+        "duration": 2.88
+    },
+    {
+        "text": "If so, the AI can conclude \nthat that gene is worth a look.",
+        "start": 222.16,
+        "duration": 3.2
+    },
+    {
+        "text": "Natural language processing also means that an AI  ",
+        "start": 225.36,
+        "duration": 2.32
+    },
+    {
+        "text": "system doesn’t need this info to be \npre-formatted by an army of people. ",
+        "start": 227.68,
+        "duration": 3.52
+    },
+    {
+        "text": "You can feed it things written by a human, like \nscientific articles or medical case reports. ",
+        "start": 231.2,
+        "duration": 4.32
+    },
+    {
+        "text": "So AI-based systems can analyze enormous \namounts of data and give us meaningful answers. ",
+        "start": 235.52,
+        "duration": 5.28
+    },
+    {
+        "text": "And they’re much faster readers than we are, \nso they can go through way more information,  ",
+        "start": 240.8,
+        "duration": 4.16
+    },
+    {
+        "text": "and handle way more complexity, than humans alone. \nPlus, they never need to duck out for coffee.",
+        "start": 244.96,
+        "duration": 4.8
+    },
+    {
+        "text": "This vastly speeds up the process \nof finding potential drug targets  ",
+        "start": 249.76,
+        "duration": 3.44
+    },
+    {
+        "text": "that we might have found eventually, \nbut it also makes it possible to find  ",
+        "start": 253.2,
+        "duration": 3.12
+    },
+    {
+        "text": "completely new targets that \nwe might not have noticed. ",
+        "start": 256.32,
+        "duration": 2.72
+    },
+    {
+        "text": "For example, researchers at the US company Berg  ",
+        "start": 259.04,
+        "duration": 2.96
+    },
+    {
+        "text": "grew cancerous and healthy cells from \nover a thousand donors in petri dishes. ",
+        "start": 262.0,
+        "duration": 4.16
+    },
+    {
+        "text": "They varied the conditions and tracked \nthe unbelievably complex chemistry that  ",
+        "start": 266.16,
+        "duration": 3.44
+    },
+    {
+        "text": "results from cells simply doing their thing.",
+        "start": 269.6,
+        "duration": 1.92
+    },
+    {
+        "text": "They ended up with trillions of \npieces of data from those samples.",
+        "start": 271.52,
+        "duration": 3.28
+    },
+    {
+        "text": "That’s a lot of raw info about what happens in \na cancer cell compared to a healthy one -- which  ",
+        "start": 274.8,
+        "duration": 4.4
+    },
+    {
+        "text": "is to say, too much. The amount of data \nthey had was so gigantic that without AI,  ",
+        "start": 279.2,
+        "duration": 4.88
+    },
+    {
+        "text": "it would have effectively been useless.",
+        "start": 284.08,
+        "duration": 1.68
+    },
+    {
+        "text": "But their AI system was able to analyze \nthis data and identify various molecules  ",
+        "start": 285.76,
+        "duration": 4.32
+    },
+    {
+        "text": "that were out of whack in the cancer \ncells compared to the healthy ones. ",
+        "start": 290.08,
+        "duration": 2.8
+    },
+    {
+        "text": "This suggested a new cancer drug target \n– a molecule called coenzyme Q10. ",
+        "start": 292.88,
+        "duration": 4.72
+    },
+    {
+        "text": "And a new drug candidate they \ndeveloped based on that AI discovery  ",
+        "start": 297.6,
+        "duration": 2.96
+    },
+    {
+        "text": "is now in clinical trials for pancreatic \ncancer and squamous cell carcinoma. ",
+        "start": 300.56,
+        "duration": 4.0
+    },
+    {
+        "text": "So now we know what we want to target with a \nnovel drug. Which means we need… a novel drug. ",
+        "start": 304.56,
+        "duration": 4.8
+    },
+    {
+        "text": "Meaning it’s time to identify and synthesize  ",
+        "start": 309.36,
+        "duration": 2.32
+    },
+    {
+        "text": "chemical compounds that will hopefully \nhit that target in just the way we want.",
+        "start": 311.68,
+        "duration": 3.84
+    },
+    {
+        "text": "But how do you choose what to synthesize?",
+        "start": 315.52,
+        "duration": 1.76
+    },
+    {
+        "text": "Even before AI helpers, researchers were able \nto make educated guesses about what would work,  ",
+        "start": 317.28,
+        "duration": 5.12
+    },
+    {
+        "text": "by looking at the chemical \nfeatures of substances that  ",
+        "start": 322.4,
+        "duration": 2.32
+    },
+    {
+        "text": "they already knew could interact with the target.",
+        "start": 324.72,
+        "duration": 2.32
+    },
+    {
+        "text": "That interaction doesn’t have to be beneficial \n– if something sticks to your target,  ",
+        "start": 327.04,
+        "duration": 3.68
+    },
+    {
+        "text": "that gives us a clue for how to design \nsomething new that will stick to it as well. ",
+        "start": 330.72,
+        "duration": 3.6
+    },
+    {
+        "text": "But still, even if researchers know what chemical \nfeatures they want their drug candidate to have,  ",
+        "start": 334.32,
+        "duration": 3.52
+    },
+    {
+        "text": "that may still mean thousands of options.",
+        "start": 338.4,
+        "duration": 2.56
+    },
+    {
+        "text": "And AI systems come to the rescue here as well.",
+        "start": 340.96,
+        "duration": 2.48
+    },
+    {
+        "text": "Scientists can tell the AI what \nchemical parameters they’re looking for,  ",
+        "start": 343.44,
+        "duration": 3.6
+    },
+    {
+        "text": "and the system will not only \nfind suitable candidates,  ",
+        "start": 347.04,
+        "duration": 2.48
+    },
+    {
+        "text": "but cut the list down to those \nthat will potentially work best. ",
+        "start": 349.52,
+        "duration": 2.96
+    },
+    {
+        "text": "The process is kind of similar to things \nlike using AI for image recognition.",
+        "start": 352.48,
+        "duration": 3.76
+    },
+    {
+        "text": "When you do an image search for “cats,”  ",
+        "start": 356.24,
+        "duration": 1.84
+    },
+    {
+        "text": "you may get 99 images of felines, and \none gorgeous kitten-looking cloud.",
+        "start": 358.08,
+        "duration": 4.4
+    },
+    {
+        "text": "Because of those occasional blunders, the \nAI doesn’t actually make the decisions.",
+        "start": 362.48,
+        "duration": 3.84
+    },
+    {
+        "text": "Scientists still evaluate the results,  ",
+        "start": 366.32,
+        "duration": 2.0
+    },
+    {
+        "text": "and the AI system only helps automate \nand accelerate the grunt work. ",
+        "start": 368.32,
+        "duration": 3.2
+    },
+    {
+        "text": "But, like… that’s really helpful.",
+        "start": 371.52,
+        "duration": 1.92
+    },
+    {
+        "text": "For example, by using AI to help choose \nchemical compounds, the makers of a new  ",
+        "start": 373.44,
+        "duration": 4.24
+    },
+    {
+        "text": "candidate drug for obsessive-compulsive disorder \nwere able to cut down their development cycle  ",
+        "start": 377.68,
+        "duration": 4.24
+    },
+    {
+        "text": "from around five years to one, and get \ntheir candidate into clinical trials.  ",
+        "start": 381.92,
+        "duration": 4.64
+    },
+    {
+        "text": "Once you’ve decided on a drug candidate  ",
+        "start": 386.56,
+        "duration": 2.0
+    },
+    {
+        "text": "and synthesized the right \nchemical, it’s time for testing.",
+        "start": 388.56,
+        "duration": 2.88
+    },
+    {
+        "text": "But before human tests, and before animal \ntests, researchers start with simpler assays. ",
+        "start": 391.44,
+        "duration": 4.96
+    },
+    {
+        "text": "That means testing the chemical \nusing cultured cells or cell-free  ",
+        "start": 396.4,
+        "duration": 3.44
+    },
+    {
+        "text": "cocktails containing the drug’s potential target.",
+        "start": 399.84,
+        "duration": 2.24
+    },
+    {
+        "text": "It used to take years to do this preliminary \ntesting for a single potential medication. ",
+        "start": 402.08,
+        "duration": 4.08
+    },
+    {
+        "text": "But in the 21st century, pharmaceutical companies \nhave turned to robotic high-throughput screening,  ",
+        "start": 406.16,
+        "duration": 5.52
+    },
+    {
+        "text": "which makes it possible to test hundreds \nof thousands of compounds in a single day. ",
+        "start": 411.68,
+        "duration": 4.96
+    },
+    {
+        "text": "A human might have to pipet the hundreds or \nthousands of candidate compounds into one  ",
+        "start": 416.64,
+        "duration": 4.48
+    },
+    {
+        "text": "cell culture dish at a time, but a robot \ncan quickly zip through a bunch of them. ",
+        "start": 421.12,
+        "duration": 4.0
+    },
+    {
+        "text": "A researcher can just design the \nexperiment and then check on the results.",
+        "start": 425.12,
+        "duration": 3.6
+    },
+    {
+        "text": "Like the Voltron of modern pharmaceutical science,  ",
+        "start": 428.72,
+        "duration": 2.8
+    },
+    {
+        "text": "a bunch of autonomous capabilities can also be \ncombined into what’s called a robot scientist. ",
+        "start": 431.52,
+        "duration": 4.96
+    },
+    {
+        "text": "That system uses AI to identify specific \nexperiments with a lot of potential,  ",
+        "start": 436.48,
+        "duration": 4.16
+    },
+    {
+        "text": "and can then autonomously use lab \nequipment to perform these experiments  ",
+        "start": 440.64,
+        "duration": 3.52
+    },
+    {
+        "text": "and fine-tune its decisions of where \nto go next based on their results. ",
+        "start": 444.16,
+        "duration": 3.76
+    },
+    {
+        "text": "For example, Eve, an AI-equipped robot \nscientist at the University of Cambridge,  ",
+        "start": 447.92,
+        "duration": 4.88
+    },
+    {
+        "text": "has already identified a new \npotential treatment for malaria.",
+        "start": 452.8,
+        "duration": 3.04
+    },
+    {
+        "text": "Eve first identified a list of \ncompounds that may counteract malaria,  ",
+        "start": 455.84,
+        "duration": 3.6
+    },
+    {
+        "text": "then screened them against yeast cells in culture \nto see which of those chemicals worked best.",
+        "start": 459.44,
+        "duration": 4.48
+    },
+    {
+        "text": "This way, the Cambridge team was able \nto report that Eve had identified the  ",
+        "start": 463.92,
+        "duration": 3.12
+    },
+    {
+        "text": "well-known antimicrobial compound triclosan  ",
+        "start": 467.04,
+        "duration": 3.04
+    },
+    {
+        "text": "as a candidate to help combat \ntreatment-resistant strains of malaria. ",
+        "start": 470.08,
+        "duration": 3.12
+    },
+    {
+        "text": "Even with all of this futuristic tech, though,  ",
+        "start": 473.2,
+        "duration": 2.08
+    },
+    {
+        "text": "only a few dozen new drugs \nare approved every year.",
+        "start": 475.28,
+        "duration": 2.4
+    },
+    {
+        "text": "For example, in 2019, the US Food and Drug \nAdministration approved 48, but only 20 of them  ",
+        "start": 477.68,
+        "duration": 5.6
+    },
+    {
+        "text": "were actually distinct enough from existing \nmedications to be considered truly new. ",
+        "start": 483.28,
+        "duration": 3.76
+    },
+    {
+        "text": "That’s because discovering a new drug and \nbringing it to market is an expensive,  ",
+        "start": 487.04,
+        "duration": 3.52
+    },
+    {
+        "text": "long and difficult process.",
+        "start": 490.56,
+        "duration": 1.68
+    },
+    {
+        "text": "To develop one new drug candidate, researchers \nneed to screen up to 10,000 compounds.",
+        "start": 492.24,
+        "duration": 4.8
+    },
+    {
+        "text": "And on average, only five of those turn out to \nbe good enough to go into clinical testing. ",
+        "start": 497.04,
+        "duration": 4.4
+    },
+    {
+        "text": "If it gets that far, a drug candidate needs \nto complete three phases of clinical trials.  ",
+        "start": 501.44,
+        "duration": 4.96
+    },
+    {
+        "text": "Of those, 90%  fail to gain FDA approval. ",
+        "start": 506.4,
+        "duration": 3.2
+    },
+    {
+        "text": "And that’s why developing a new \ndrug may take up to 15 years,  ",
+        "start": 509.6,
+        "duration": 4.0
+    },
+    {
+        "text": "and cost around 1.3 billion dollars. Each. ",
+        "start": 513.6,
+        "duration": 3.52
+    },
+    {
+        "text": "But smart AI systems like the ones we’ve talked \nabout today are in a position to change that.",
+        "start": 517.12,
+        "duration": 4.16
+    },
+    {
+        "text": "We’re only beginning to see the results \nof this AI revolution in drug discovery. ",
+        "start": 521.28,
+        "duration": 3.92
+    },
+    {
+        "text": "There are literally hundreds of companies  ",
+        "start": 525.2,
+        "duration": 2.0
+    },
+    {
+        "text": "developing AI-based systems for \nthe pharmaceutical industry. ",
+        "start": 527.2,
+        "duration": 2.96
+    },
+    {
+        "text": "Human scientists still drive the process. And \nwhile machines are great at finding patterns and  ",
+        "start": 530.16,
+        "duration": 4.64
+    },
+    {
+        "text": "sorting through a lot of information in a hurry, \nour brains can do a whole lot that machines can’t.",
+        "start": 534.8,
+        "duration": 4.72
+    },
+    {
+        "text": "But the help that AI represents \nis already truly revolutionary.",
+        "start": 539.52,
+        "duration": 3.84
+    },
+    {
+        "text": "It can cut the time and cost \nnecessary to develop a drug.  ",
+        "start": 543.36,
+        "duration": 3.12
+    },
+    {
+        "text": "And by doing so, it’s widening that pipeline \nof potentially life-saving treatments. ",
+        "start": 546.48,
+        "duration": 4.88
+    },
+    {
+        "text": "When candidate drugs inevitably flunk out \n-- because they don’t work, or aren’t safe  ",
+        "start": 551.36,
+        "duration": 3.84
+    },
+    {
+        "text": "for us to use -- this technology ensures \nthere will be more waiting for us to test.",
+        "start": 555.2,
+        "duration": 4.16
+    },
+    {
+        "text": "And that’s great for all of us -- even if it means  ",
+        "start": 559.36,
+        "duration": 2.24
+    },
+    {
+        "text": "the future looks kind of like a \nrobot handing us a miracle pill.",
+        "start": 561.6,
+        "duration": 3.12
+    },
+    {
+        "text": "We aren’t robots, and we don’t \nhave any miracle drugs handy,  ",
+        "start": 564.72,
+        "duration": 2.88
+    },
+    {
+        "text": "but what we do have are \npins for sale over at DFTBA.",
+        "start": 567.6,
+        "duration": 3.6
+    },
+    {
+        "text": "Specifically, today is your very last chance \nto grab this month’s Pin of the Month -- which  ",
+        "start": 571.2,
+        "duration": 4.72
+    },
+    {
+        "text": "is of the Chandra X-ray Observatory. It’s \na very charming looking little telescope,  ",
+        "start": 575.92,
+        "duration": 4.32
+    },
+    {
+        "text": "even if it kind of looks like a \ntraffic cone laying on its side…",
+        "start": 580.24,
+        "duration": 2.8
+    },
+    {
+        "text": "Either way, this pin will only be on sale \nthrough midnight tonight, September 30th.  ",
+        "start": 583.04,
+        "duration": 4.64
+    },
+    {
+        "text": "After that, we’ll have another pin available \nfor pre-order and start shipping this one out!  ",
+        "start": 587.68,
+        "duration": 4.16
+    },
+    {
+        "text": "To get your hands on it, check \nout the link in the description.",
+        "start": 591.84,
+        "duration": 2.523
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 594.363,
+        "duration": 10.117
+    }
+]

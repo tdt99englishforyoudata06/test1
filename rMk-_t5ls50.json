@@ -1,0 +1,2647 @@
+[
+    {
+        "text": "In talking about, in talking about black holes,\nof course.",
+        "start": 7.029,
+        "duration": 3.911
+    },
+    {
+        "text": "Stephen Hawking is the great scientist who\ncomes to mind, so I'd like to spend a little",
+        "start": 10.94,
+        "duration": 5.46
+    },
+    {
+        "text": "bit of time thinking about what it is that\nHawking told us about black holes.",
+        "start": 16.4,
+        "duration": 7.859
+    },
+    {
+        "text": "What were the insights that he gave us, and\nwhat puzzles emerged from his work that we",
+        "start": 24.259,
+        "duration": 5.461
+    },
+    {
+        "text": "are still struggling to resolve and probably\nwill continue to struggle with for some time?",
+        "start": 29.72,
+        "duration": 6.08
+    },
+    {
+        "text": "And toward that end, as a little bit of background,\nwe need to have some understanding of a concept",
+        "start": 35.8,
+        "duration": 7.01
+    },
+    {
+        "text": "that everybody is familiar with it at some\nlevel or another, but let's use this opportunity",
+        "start": 42.81,
+        "duration": 5.24
+    },
+    {
+        "text": "to get us all in the same place.",
+        "start": 48.05,
+        "duration": 2.42
+    },
+    {
+        "text": "And that's a concept of entropy.",
+        "start": 50.47,
+        "duration": 3.06
+    },
+    {
+        "text": "So entropy is a word that's free, they used,\nand the culture, we often use it to describe",
+        "start": 53.53,
+        "duration": 5.539
+    },
+    {
+        "text": "a certain amount of going from order to disorder,\nthat's going from low entropy to high entropy.",
+        "start": 59.069,
+        "duration": 4.781
+    },
+    {
+        "text": "That's sort of the intuition that the culture\nhas about this word.",
+        "start": 63.85,
+        "duration": 4.03
+    },
+    {
+        "text": "So let's start with that very basic way of\nthinking about entropy.",
+        "start": 67.88,
+        "duration": 3.9
+    },
+    {
+        "text": "And a good example would be, let's say I take\nmy book, I throw it up in the air, it starts",
+        "start": 71.78,
+        "duration": 4.729
+    },
+    {
+        "text": "very ordered.",
+        "start": 76.509,
+        "duration": 1.121
+    },
+    {
+        "text": "All the pages were in complete, numerical\norder, but as they come down, it's overwhelmingly",
+        "start": 77.63,
+        "duration": 6.18
+    },
+    {
+        "text": "likely that they will not land in numerical\norder.",
+        "start": 83.81,
+        "duration": 3.62
+    },
+    {
+        "text": "They'll land in a highly disordered state\nand that gives you some sense of what it means",
+        "start": 87.43,
+        "duration": 5.219
+    },
+    {
+        "text": "to go from an ordered arrangement to a highly\ndisordered arrangement, going from low entropy",
+        "start": 92.649,
+        "duration": 7.82
+    },
+    {
+        "text": "to higher entropy.",
+        "start": 100.469,
+        "duration": 1.151
+    },
+    {
+        "text": "Now, of course, that's just a sort of fanciful,\neveryday example.",
+        "start": 101.62,
+        "duration": 3.779
+    },
+    {
+        "text": "If we head more toward a physics example,\nwe could imagine having a box of gas, and",
+        "start": 105.399,
+        "duration": 6.121
+    },
+    {
+        "text": "imagine it has a small number of atoms in\nthere, and imagine that they're all neatly",
+        "start": 111.52,
+        "duration": 6.29
+    },
+    {
+        "text": "arranged in this nice cubic lattice.",
+        "start": 117.81,
+        "duration": 3.5
+    },
+    {
+        "text": "This would be a very ordered or low entropy\nconfiguration of the gas, like the pages all",
+        "start": 121.31,
+        "duration": 7.05
+    },
+    {
+        "text": "in numerical order.",
+        "start": 128.36,
+        "duration": 1.31
+    },
+    {
+        "text": "Now, contrast that with a box of gas that\nhas a whole lot of atoms, a whole lot of particles",
+        "start": 129.67,
+        "duration": 5.97
+    },
+    {
+        "text": "are all bouncing around in a completely haphazard\nway.",
+        "start": 135.64,
+        "duration": 4.239
+    },
+    {
+        "text": "This would be a very disordered state, a high\nentropy state.",
+        "start": 139.879,
+        "duration": 6.041
+    },
+    {
+        "text": "And another way of thinking about the distinction\nbetween low entropy and high entropy, which",
+        "start": 145.92,
+        "duration": 7.06
+    },
+    {
+        "text": "we'll be making use of in just a moment is\nthe amount of information that would be required",
+        "start": 152.98,
+        "duration": 5.61
+    },
+    {
+        "text": "to describe these two configurations.",
+        "start": 158.59,
+        "duration": 3.59
+    },
+    {
+        "text": "Because look on the left, you don't need a\nlot of data.",
+        "start": 162.18,
+        "duration": 2.529
+    },
+    {
+        "text": "It's a cubic lattice.",
+        "start": 164.709,
+        "duration": 1.0
+    },
+    {
+        "text": "You've got three by three by three atom filling\nout that lattice.",
+        "start": 165.709,
+        "duration": 4.391
+    },
+    {
+        "text": "And if I gave you the separation of them,\nsay 10 centimeters, that basically describes",
+        "start": 170.1,
+        "duration": 4.72
+    },
+    {
+        "text": "the configuration on the left.",
+        "start": 174.82,
+        "duration": 1.52
+    },
+    {
+        "text": "You don't need a lot of information to describe\nthe system that has low entropy.",
+        "start": 176.34,
+        "duration": 4.84
+    },
+    {
+        "text": "But let's say I want to describe the configuration\non the right.",
+        "start": 181.18,
+        "duration": 3.529
+    },
+    {
+        "text": "Well, I basically have to tell you where each\nand every particle is located.",
+        "start": 184.709,
+        "duration": 4.491
+    },
+    {
+        "text": "That's the only way I could describe it.",
+        "start": 189.2,
+        "duration": 1.3
+    },
+    {
+        "text": "Look at all the information I need to describe\nthat configuration.",
+        "start": 190.5,
+        "duration": 4.12
+    },
+    {
+        "text": "So the idea is low entropy, not a lot of information.",
+        "start": 194.62,
+        "duration": 4.41
+    },
+    {
+        "text": "High entropy takes a lot of information that's\nhidden in this configuration of particles",
+        "start": 199.03,
+        "duration": 4.87
+    },
+    {
+        "text": "and that's kind of the distinction between\norder, disorder, low entropy, high entropy,",
+        "start": 203.9,
+        "duration": 5.75
+    },
+    {
+        "text": "low information, high information.",
+        "start": 209.65,
+        "duration": 2.55
+    },
+    {
+        "text": "Now of course I'm talking in loose language\nso that we can all get a feel for the critical",
+        "start": 212.2,
+        "duration": 6.48
+    },
+    {
+        "text": "ideas, but you can make this all quite precise.",
+        "start": 218.68,
+        "duration": 4.33
+    },
+    {
+        "text": "And this gentleman over here, you know who\nthis is?",
+        "start": 223.01,
+        "duration": 4.289
+    },
+    {
+        "text": "Who's this?",
+        "start": 227.299,
+        "duration": 1.0
+    },
+    {
+        "text": "Ludwig Boltzmann.",
+        "start": 228.299,
+        "duration": 1.0
+    },
+    {
+        "text": "That's right.",
+        "start": 229.299,
+        "duration": 1.0
+    },
+    {
+        "text": "And this is his, his famous tombstone, and\nyou see that formula on the top of his tombstone,",
+        "start": 230.299,
+        "duration": 6.381
+    },
+    {
+        "text": "and that is the formula that makes these statements\nprecise.",
+        "start": 236.68,
+        "duration": 3.399
+    },
+    {
+        "text": "This is a formula that you learn if you take\na course in statistical mechanics, thermodynamics.",
+        "start": 240.079,
+        "duration": 4.971
+    },
+    {
+        "text": "S stands for entropy.",
+        "start": 245.05,
+        "duration": 2.54
+    },
+    {
+        "text": "K is Boltzmann's constant, and the rest of\nit has to do with the number of configuration",
+        "start": 247.59,
+        "duration": 5.0
+    },
+    {
+        "text": "of the ingredients of the particles that make\nup the system.",
+        "start": 252.59,
+        "duration": 3.54
+    },
+    {
+        "text": "You.",
+        "start": 256.13,
+        "duration": 1.0
+    },
+    {
+        "text": "You got a job at Harvard as faculty, but that's\nokay.",
+        "start": 257.13,
+        "duration": 5.74
+    },
+    {
+        "text": "We're still.",
+        "start": 262.87,
+        "duration": 1.12
+    },
+    {
+        "text": "We're still good-\nYou are doing very well too.",
+        "start": 263.99,
+        "duration": 4.42
+    },
+    {
+        "text": "Thank you.",
+        "start": 268.41,
+        "duration": 1.0
+    },
+    {
+        "text": "And I should say my most exciting intellectual\nadventures in string theory have been the",
+        "start": 269.41,
+        "duration": 20.2
+    },
+    {
+        "text": "papers that we have done together.",
+        "start": 289.61,
+        "duration": 6.27
+    },
+    {
+        "text": "A lot of fun with you Brian.",
+        "start": 295.88,
+        "duration": 2.68
+    },
+    {
+        "text": "Thank you.",
+        "start": 298.56,
+        "duration": 1.0
+    },
+    {
+        "text": "So it's been an honor to work with you.",
+        "start": 299.56,
+        "duration": 1.86
+    },
+    {
+        "text": "So thank you.",
+        "start": 301.42,
+        "duration": 1.0
+    },
+    {
+        "text": "So, so let's, let's now get into this subject\nhere.",
+        "start": 302.42,
+        "duration": 4.08
+    },
+    {
+        "text": "We heard a little bit about entropy and about\nthe second law that entropy increases over",
+        "start": 306.5,
+        "duration": 7.34
+    },
+    {
+        "text": "time, but in the 1970s, people like Bekenstein\nand, and Hawking, and they began to worry",
+        "start": 313.84,
+        "duration": 6.97
+    },
+    {
+        "text": "about how the second law of thermodynamics\nwould behave in the environment of a black",
+        "start": 320.81,
+        "duration": 4.42
+    },
+    {
+        "text": "hole.",
+        "start": 325.23,
+        "duration": 1.0
+    },
+    {
+        "text": "And give us a sense of what they were puzzling\nabout.",
+        "start": 326.23,
+        "duration": 20.75
+    },
+    {
+        "text": "You.",
+        "start": 346.98,
+        "duration": 1.99
+    },
+    {
+        "text": "You got a job at Harvard as faculty, but that's\nokay.",
+        "start": 348.97,
+        "duration": 2.78
+    },
+    {
+        "text": "We're still.",
+        "start": 351.75,
+        "duration": 1.0
+    },
+    {
+        "text": "We're still good-\nYou are doing very well too.",
+        "start": 352.75,
+        "duration": 3.94
+    },
+    {
+        "text": "Thank you.",
+        "start": 356.69,
+        "duration": 1.0
+    },
+    {
+        "text": "And I should say my most exciting intellectual\nadventures in string theory have been the",
+        "start": 357.69,
+        "duration": 8.94
+    },
+    {
+        "text": "papers that we have done together.",
+        "start": 366.63,
+        "duration": 2.219
+    },
+    {
+        "text": "A lot of fun with you Brian.",
+        "start": 368.849,
+        "duration": 1.16
+    },
+    {
+        "text": "Thank you.",
+        "start": 370.009,
+        "duration": 1.0
+    },
+    {
+        "text": "So it's been an honor to work with you.",
+        "start": 371.009,
+        "duration": 1.0
+    },
+    {
+        "text": "So thank you.",
+        "start": 372.009,
+        "duration": 1.0
+    },
+    {
+        "text": "So, so let's, let's now get into this subject\nhere.",
+        "start": 373.009,
+        "duration": 4.011
+    },
+    {
+        "text": "We heard a little bit about entropy and about\nthe second law that entropy increases over",
+        "start": 377.02,
+        "duration": 5.399
+    },
+    {
+        "text": "time, but in the 1970s, people like Bekenstein\nand, and Hawking, and they began to worry",
+        "start": 382.419,
+        "duration": 9.87
+    },
+    {
+        "text": "about how the second law of thermodynamics\nwould behave in the environment of a black",
+        "start": 392.289,
+        "duration": 5.371
+    },
+    {
+        "text": "hole.",
+        "start": 397.66,
+        "duration": 1.0
+    },
+    {
+        "text": "And give us a sense of what they were puzzling\nabout.",
+        "start": 398.66,
+        "duration": 1.88
+    },
+    {
+        "text": "So part of the puzzle was the objects they\nknew falls into the black holes, but they",
+        "start": 400.54,
+        "duration": 6.34
+    },
+    {
+        "text": "cannot come out.",
+        "start": 406.88,
+        "duration": 1.9
+    },
+    {
+        "text": "So objects that are falling in have entropy,\njust like what Brian already described, you",
+        "start": 408.78,
+        "duration": 4.62
+    },
+    {
+        "text": "have some information about where they are,\nhow they are, but once you fall into a black",
+        "start": 413.4,
+        "duration": 4.639
+    },
+    {
+        "text": "hole then you don't have anymore access to\nthat information.",
+        "start": 418.039,
+        "duration": 2.641
+    },
+    {
+        "text": "So what happened to that information?",
+        "start": 420.68,
+        "duration": 2.799
+    },
+    {
+        "text": "So that seems like you lost entropy.",
+        "start": 423.479,
+        "duration": 1.91
+    },
+    {
+        "text": "Entropy went down and that's against what\nBoltzmann said.",
+        "start": 425.389,
+        "duration": 2.661
+    },
+    {
+        "text": "So can you give a concrete example of that?",
+        "start": 428.05,
+        "duration": 2.28
+    },
+    {
+        "text": "So I think we have a little silly example.",
+        "start": 430.33,
+        "duration": 3.01
+    },
+    {
+        "text": "If I took my wallet, it has information, it\nhas entropy.",
+        "start": 433.34,
+        "duration": 4.51
+    },
+    {
+        "text": "I throw it into the black hole and you're\nasking what happened to that entropy?",
+        "start": 437.85,
+        "duration": 5.039
+    },
+    {
+        "text": "Did it disappear from the universe?",
+        "start": 442.889,
+        "duration": 1.411
+    },
+    {
+        "text": "Exactly.",
+        "start": 444.3,
+        "duration": 1.0
+    },
+    {
+        "text": "So that was the kind of question that they\nwere struggling to understand.",
+        "start": 445.3,
+        "duration": 2.72
+    },
+    {
+        "text": "How could this be consistent?",
+        "start": 448.02,
+        "duration": 1.7
+    },
+    {
+        "text": "Right.",
+        "start": 449.72,
+        "duration": 1.0
+    },
+    {
+        "text": "So, uh, they began thinking about this and\nthen there were a few ideas that they were",
+        "start": 450.72,
+        "duration": 4.71
+    },
+    {
+        "text": "thinking about, and in particular the properties\nof the horizon of a black hole-",
+        "start": 455.43,
+        "duration": 4.489
+    },
+    {
+        "text": "The edge.",
+        "start": 459.919,
+        "duration": 1.0
+    },
+    {
+        "text": "The edge, the event horizon that we thought-\nThe edge in which- beyond which you can- no",
+        "start": 460.919,
+        "duration": 3.47
+    },
+    {
+        "text": "light can escape.",
+        "start": 464.389,
+        "duration": 1.65
+    },
+    {
+        "text": "They found it had some interesting properties,\nand in particular they began studying what",
+        "start": 466.039,
+        "duration": 4.261
+    },
+    {
+        "text": "is the area, and what is the area of this\nedge, and how does it change.",
+        "start": 470.3,
+        "duration": 4.7
+    },
+    {
+        "text": "And in particular, what happens if you throw\nobjects into this black hole, what happens",
+        "start": 475.0,
+        "duration": 6.72
+    },
+    {
+        "text": "to this area?",
+        "start": 481.72,
+        "duration": 1.52
+    },
+    {
+        "text": "And one of the surprising things they found\nwas that when you throw objects in, this area",
+        "start": 483.24,
+        "duration": 5.399
+    },
+    {
+        "text": "cannot stay put, and in fact increases.",
+        "start": 488.639,
+        "duration": 2.84
+    },
+    {
+        "text": "Yep.",
+        "start": 491.479,
+        "duration": 1.12
+    },
+    {
+        "text": "So they began to think about, okay, what could\nthis mean about this- What, what this could",
+        "start": 492.599,
+        "duration": 4.66
+    },
+    {
+        "text": "be related in some way compensated by the\nfact that you're losing something, the entropy.",
+        "start": 497.259,
+        "duration": 5.641
+    },
+    {
+        "text": "Could it be somehow compensated by the fact\nthat this area is growing?",
+        "start": 502.9,
+        "duration": 4.68
+    },
+    {
+        "text": "So they begin to ask the question, could the\narea of this event horizon be in any way related",
+        "start": 507.58,
+        "duration": 6.03
+    },
+    {
+        "text": "to the lost entropy?",
+        "start": 513.61,
+        "duration": 1.85
+    },
+    {
+        "text": "So we actually can unpack that.",
+        "start": 515.46,
+        "duration": 1.74
+    },
+    {
+        "text": "So let's just go through a couple of little\nexamples here.",
+        "start": 517.2,
+        "duration": 3.95
+    },
+    {
+        "text": "So this is the standards.",
+        "start": 521.15,
+        "duration": 2.19
+    },
+    {
+        "text": "Second Law of thermodynamics.",
+        "start": 523.34,
+        "duration": 1.01
+    },
+    {
+        "text": "Entropy grows over time.",
+        "start": 524.35,
+        "duration": 1.77
+    },
+    {
+        "text": "Let's just take the two boxes that I started\nwith to illustrate what you're describing.",
+        "start": 526.12,
+        "duration": 3.84
+    },
+    {
+        "text": "If we take those two boxes and they put them\ntogether, what happened to the entropy?",
+        "start": 529.96,
+        "duration": 4.69
+    },
+    {
+        "text": "It goes up.",
+        "start": 534.65,
+        "duration": 1.0
+    },
+    {
+        "text": "The Boltzmann's thing.",
+        "start": 535.65,
+        "duration": 1.44
+    },
+    {
+        "text": "Right.",
+        "start": 537.09,
+        "duration": 1.0
+    },
+    {
+        "text": "So we have the combined entropy is greater\nthan the individuals entropy.",
+        "start": 538.09,
+        "duration": 2.99
+    },
+    {
+        "text": "Great.",
+        "start": 541.08,
+        "duration": 1.0
+    },
+    {
+        "text": "Now you're describing something that doesn't\nhave to do with gas in a box.",
+        "start": 542.08,
+        "duration": 3.76
+    },
+    {
+        "text": "You're talking about the geometry of a black\nhole.",
+        "start": 545.84,
+        "duration": 4.01
+    },
+    {
+        "text": "So for example, they studied what happens\nif you study one black hole with one area",
+        "start": 549.85,
+        "duration": 6.53
+    },
+    {
+        "text": "of event horizon and another black hole with\na different area, and you bring them together,",
+        "start": 556.38,
+        "duration": 4.96
+    },
+    {
+        "text": "you merge them and you get a new black hole\nwith a new area.",
+        "start": 561.34,
+        "duration": 3.18
+    },
+    {
+        "text": "And they found that the area of the new formed\nblack hole is bigger than the sum of the two",
+        "start": 564.52,
+        "duration": 6.91
+    },
+    {
+        "text": "areas, just like the entropy had that property.",
+        "start": 571.43,
+        "duration": 3.12
+    },
+    {
+        "text": "The entropy resulting in the box when you\ncombined them was bigger than the individual",
+        "start": 574.55,
+        "duration": 5.21
+    },
+    {
+        "text": "entropies.",
+        "start": 579.76,
+        "duration": 1.0
+    },
+    {
+        "text": "So the entropy sounded very similar to the\narea, or areas sounded very similar to the",
+        "start": 580.76,
+        "duration": 5.82
+    },
+    {
+        "text": "entropy.",
+        "start": 586.58,
+        "duration": 1.0
+    },
+    {
+        "text": "So they began asking, could it be that the\narea and entropy are proportional to one another",
+        "start": 587.58,
+        "duration": 5.21
+    },
+    {
+        "text": "for black holes?",
+        "start": 592.79,
+        "duration": 1.93
+    },
+    {
+        "text": "And indeed they found a formula that we can\nbring up here.",
+        "start": 594.72,
+        "duration": 4.46
+    },
+    {
+        "text": "So entropy is the area, and the proportionality\nconstant is a little bit complicated but you",
+        "start": 599.18,
+        "duration": 7.71
+    },
+    {
+        "text": "don't really have to worry too much about\nthat, this number on the right hand side,",
+        "start": 606.89,
+        "duration": 4.21
+    },
+    {
+        "text": "but the basic lesson is that they're guessing,\nthey're suggesting that the area of the event",
+        "start": 611.1,
+        "duration": 7.48
+    },
+    {
+        "text": "horizon is somehow holding on to the entropy,\nholding onto the information in some sense",
+        "start": 618.58,
+        "duration": 6.34
+    },
+    {
+        "text": "that's inside the black hole.",
+        "start": 624.92,
+        "duration": 2.06
+    },
+    {
+        "text": "Now you gave an interesting thought experiment\nabout how to test that.",
+        "start": 626.98,
+        "duration": 3.57
+    },
+    {
+        "text": "You're talking about throwing something in\nand watching the area, and it just so happens",
+        "start": 630.55,
+        "duration": 5.3
+    },
+    {
+        "text": "that we have a little segment on that here.",
+        "start": 635.85,
+        "duration": 3.89
+    },
+    {
+        "text": "So why don't we go through that.",
+        "start": 639.74,
+        "duration": 1.66
+    },
+    {
+        "text": "So here's a-.",
+        "start": 641.4,
+        "duration": 1.0
+    },
+    {
+        "text": "So take us.",
+        "start": 642.4,
+        "duration": 1.0
+    },
+    {
+        "text": "So what are we seeing here?",
+        "start": 643.4,
+        "duration": 1.0
+    },
+    {
+        "text": "And then we'll do your little thought experiment.",
+        "start": 644.4,
+        "duration": 1.0
+    },
+    {
+        "text": "So here I guess are seeing a black hole.",
+        "start": 645.4,
+        "duration": 1.931
+    },
+    {
+        "text": "The red black hole.",
+        "start": 647.331,
+        "duration": 2.079
+    },
+    {
+        "text": "Yes, exactly.",
+        "start": 649.41,
+        "duration": 2.429
+    },
+    {
+        "text": "With the event horizon of it, you can see\nthat the idea that the information is proportional",
+        "start": 651.839,
+        "duration": 5.191
+    },
+    {
+        "text": "to the area with some proportionality constant.",
+        "start": 657.03,
+        "duration": 3.05
+    },
+    {
+        "text": "If each individual element of the information\nis like one square there, we just divided",
+        "start": 660.08,
+        "duration": 4.17
+    },
+    {
+        "text": "this sphere into these areas.",
+        "start": 664.25,
+        "duration": 1.73
+    },
+    {
+        "text": "So these represent bits of information on\nthat surface of that black hole.",
+        "start": 665.98,
+        "duration": 5.28
+    },
+    {
+        "text": "So those little squares can roughly speaking,\nbe thought of as Planck areas.",
+        "start": 671.26,
+        "duration": 5.01
+    },
+    {
+        "text": "These in the Planck length that described\nsort of the smallest length that makes sense",
+        "start": 676.27,
+        "duration": 3.85
+    },
+    {
+        "text": "in a, in a quantum theory of gravity.",
+        "start": 680.12,
+        "duration": 2.48
+    },
+    {
+        "text": "Squares of the size 10 to the minus 33 centimeters\nor so if you want to.",
+        "start": 682.6,
+        "duration": 4.36
+    },
+    {
+        "text": "Yeah.",
+        "start": 686.96,
+        "duration": 1.22
+    },
+    {
+        "text": "Each side of the square is so-\nSo you basically count the number of those",
+        "start": 688.18,
+        "duration": 3.94
+    },
+    {
+        "text": "little squares that are on the event horizon,\nand that's the amount of entropy it has.",
+        "start": 692.12,
+        "duration": 6.89
+    },
+    {
+        "text": "So if we now took- If this is true, and we\nwere to take a particle that sort of carried",
+        "start": 699.01,
+        "duration": 5.85
+    },
+    {
+        "text": "one unit of entropy, what would we expect\nto happen if this is true?",
+        "start": 704.86,
+        "duration": 5.07
+    },
+    {
+        "text": "We expect this area to grow exactly by one\nsquare.",
+        "start": 709.93,
+        "duration": 3.1
+    },
+    {
+        "text": "So let's, let's sort of do that.",
+        "start": 713.03,
+        "duration": 1.62
+    },
+    {
+        "text": "We have- This is actually a real real film\nof, of space here.",
+        "start": 714.65,
+        "duration": 5.17
+    },
+    {
+        "text": "So let's get our particle going in to this\nguy over here.",
+        "start": 719.82,
+        "duration": 4.47
+    },
+    {
+        "text": "Good.",
+        "start": 724.29,
+        "duration": 1.0
+    },
+    {
+        "text": "So the one on the left was the original black\nhole.",
+        "start": 725.29,
+        "duration": 3.041
+    },
+    {
+        "text": "The one on the right is the larger one after\nparticles fall in.",
+        "start": 728.331,
+        "duration": 3.809
+    },
+    {
+        "text": "So if we take all those little squares, and\nwe smear them out on the larger black hole,",
+        "start": 732.14,
+        "duration": 6.16
+    },
+    {
+        "text": "what we'd expect to happen, something like\nthat.",
+        "start": 738.3,
+        "duration": 3.3
+    },
+    {
+        "text": "Exactly.",
+        "start": 741.6,
+        "duration": 1.0
+    },
+    {
+        "text": "So one one more square.",
+        "start": 742.6,
+        "duration": 1.36
+    },
+    {
+        "text": "So we throw a sort of one particle in that\ncarries one unit of disorder, and the black",
+        "start": 743.96,
+        "duration": 5.5
+    },
+    {
+        "text": "hole eats it.",
+        "start": 749.46,
+        "duration": 1.89
+    },
+    {
+        "text": "It grows a little bit, and in fact you can\ncalculate that the amount by which it will",
+        "start": 751.35,
+        "duration": 4.82
+    },
+    {
+        "text": "expand can accommodate one more of these little\ntiles.",
+        "start": 756.17,
+        "duration": 4.74
+    },
+    {
+        "text": "And that makes us a consistent way of thinking\nabout black balls.",
+        "start": 760.91,
+        "duration": 5.03
+    },
+    {
+        "text": "So.",
+        "start": 765.94,
+        "duration": 1.0
+    },
+    {
+        "text": "So this was like an important- How, I mean,\nhow important was, was this kind of an insight?",
+        "start": 766.94,
+        "duration": 5.06
+    },
+    {
+        "text": "Well, this was the amazing inside because\nit was the first time where Einstein's theory",
+        "start": 772.0,
+        "duration": 4.42
+    },
+    {
+        "text": "of relativity was combined with quantum effects.",
+        "start": 776.42,
+        "duration": 3.29
+    },
+    {
+        "text": "And that is what Hawking used to actually\nargue that the entropy of a black hole has",
+        "start": 779.71,
+        "duration": 6.04
+    },
+    {
+        "text": "something to do with the area.",
+        "start": 785.75,
+        "duration": 1.98
+    },
+    {
+        "text": "And so this combination of quantum theory\nand Einstein's theory was quite novel, and",
+        "start": 787.73,
+        "duration": 4.64
+    },
+    {
+        "text": "this was in early seventies, mid sevens.",
+        "start": 792.37,
+        "duration": 3.12
+    },
+    {
+        "text": "So is this the end of the story when it comes\nto entropy and black holes?",
+        "start": 795.49,
+        "duration": 5.25
+    },
+    {
+        "text": "Like what, what, what issues does this leave\nover?",
+        "start": 800.74,
+        "duration": 3.21
+    },
+    {
+        "text": "Well actually the problem was that Hawking's\nargument showed that there must be information,",
+        "start": 803.95,
+        "duration": 5.7
+    },
+    {
+        "text": "but on the other hand, the horizon of a black\nhole is featureless, so you don't see these",
+        "start": 809.65,
+        "duration": 5.73
+    },
+    {
+        "text": "points, squares or anything.",
+        "start": 815.38,
+        "duration": 1.25
+    },
+    {
+        "text": "So there seems to be no room for information\nto be stored on it.",
+        "start": 816.63,
+        "duration": 3.51
+    },
+    {
+        "text": "So in fact, if you use Einstein's equations\nand solve it, you find there is exactly one",
+        "start": 820.14,
+        "duration": 5.17
+    },
+    {
+        "text": "solution for a spherical symmetric black hole.",
+        "start": 825.31,
+        "duration": 3.33
+    },
+    {
+        "text": "One solution means it has zero entropy.",
+        "start": 828.64,
+        "duration": 2.13
+    },
+    {
+        "text": "It's exactly ordered state.",
+        "start": 830.77,
+        "duration": 2.23
+    },
+    {
+        "text": "There's no choice.",
+        "start": 833.0,
+        "duration": 1.0
+    },
+    {
+        "text": "One piece of information.",
+        "start": 834.0,
+        "duration": 1.0
+    },
+    {
+        "text": "One piece of information.",
+        "start": 835.0,
+        "duration": 1.0
+    },
+    {
+        "text": "And that is inconsistent with what Hawking\nfound when he combined Einstein's theory of",
+        "start": 836.0,
+        "duration": 4.53
+    },
+    {
+        "text": "quantum mechanics, where he found a huge amount\nof information.",
+        "start": 840.53,
+        "duration": 2.97
+    },
+    {
+        "text": "And the question is where is this huge amount\nof information stored?",
+        "start": 843.5,
+        "duration": 4.45
+    },
+    {
+        "text": "Is it the shape of the horizon, or is it-\nWhat aspect of black hole encodes the microscopic",
+        "start": 847.95,
+        "duration": 7.09
+    },
+    {
+        "text": "structure of the black hole that was open\nwhen Hawking discovered this fact.",
+        "start": 855.04,
+        "duration": 5.46
+    },
+    {
+        "text": "So, so for Hawking's idea to work, let's just\ngo back to my little example of sort of throwing",
+        "start": 860.5,
+        "duration": 5.0
+    },
+    {
+        "text": "the wallet in.",
+        "start": 865.5,
+        "duration": 1.0
+    },
+    {
+        "text": "So, so in that little example I threw the\nwallet and he said where did the information",
+        "start": 866.5,
+        "duration": 4.45
+    },
+    {
+        "text": "go?",
+        "start": 870.95,
+        "duration": 1.0
+    },
+    {
+        "text": "So, so the new idea, if it's true, would be\nI take my wallet and I throw it in and rather",
+        "start": 871.95,
+        "duration": 5.34
+    },
+    {
+        "text": "than it disappearing, the idea roughly speaking\nwould be the information that is in my wallet,",
+        "start": 877.29,
+        "duration": 6.26
+    },
+    {
+        "text": "the configuration of all the atoms and molecules\nthat goes toward the black hole.",
+        "start": 883.55,
+        "duration": 3.82
+    },
+    {
+        "text": "And we want it to be the case that that information\nkind of like smears itself out on the outside",
+        "start": 887.37,
+        "duration": 6.38
+    },
+    {
+        "text": "and is encoded in sort of bits, ones and zeros.",
+        "start": 893.75,
+        "duration": 3.63
+    },
+    {
+        "text": "That's the picture.",
+        "start": 897.38,
+        "duration": 1.0
+    },
+    {
+        "text": "That's the picture.",
+        "start": 898.38,
+        "duration": 1.0
+    },
+    {
+        "text": "And the principal were this true, I could\nactually extract that information in principle",
+        "start": 899.38,
+        "duration": 4.99
+    },
+    {
+        "text": "and use it to rebuild anything that fell in.",
+        "start": 904.37,
+        "duration": 4.15
+    },
+    {
+        "text": "In this case it'd be my wallet.",
+        "start": 908.52,
+        "duration": 1.96
+    },
+    {
+        "text": "So that's the idea.",
+        "start": 910.48,
+        "duration": 1.0
+    },
+    {
+        "text": "That's if the information is not lost, that\ninformation is there.",
+        "start": 911.48,
+        "duration": 2.67
+    },
+    {
+        "text": "That's what we would expect.",
+        "start": 914.15,
+        "duration": 1.23
+    },
+    {
+        "text": "Yes.",
+        "start": 915.38,
+        "duration": 1.0
+    },
+    {
+        "text": "That's the hole.",
+        "start": 916.38,
+        "duration": 1.0
+    },
+    {
+        "text": "And the puzzle is, is that actually-\nIs that actually true?",
+        "start": 917.38,
+        "duration": 1.29
+    },
+    {
+        "text": "And how do you actually see this information\nand where is it stored?",
+        "start": 918.67,
+        "duration": 2.92
+    },
+    {
+        "text": "Or how do you account for the microstates\nof the black hole or the entropy of the black",
+        "start": 921.59,
+        "duration": 4.65
+    },
+    {
+        "text": "hole?",
+        "start": 926.24,
+        "duration": 1.0
+    },
+    {
+        "text": "And that's where you come in.",
+        "start": 927.24,
+        "duration": 1.07
+    },
+    {
+        "text": "Well me and my colleagues and string theory\nbegan studying these questions more seriously",
+        "start": 928.31,
+        "duration": 5.08
+    },
+    {
+        "text": "with the advent of duality, some interests\nin string theory.",
+        "start": 933.39,
+        "duration": 3.82
+    },
+    {
+        "text": "So firstly-\nCan you say a few words about string theory?",
+        "start": 937.21,
+        "duration": 2.48
+    },
+    {
+        "text": "I should say a few words about string theory.",
+        "start": 939.69,
+        "duration": 1.88
+    },
+    {
+        "text": "So string theory is, is a framework where\nwe believe combines Einstein's theory of relativity",
+        "start": 941.57,
+        "duration": 7.64
+    },
+    {
+        "text": "with quantum theory in a consistent framework.",
+        "start": 949.21,
+        "duration": 2.57
+    },
+    {
+        "text": "And as part of it, it demands that the entities\nmaking up the matter is not, are not just",
+        "start": 951.78,
+        "duration": 6.07
+    },
+    {
+        "text": "point particles, but entities like strings\nor membranes or extended objects have to play",
+        "start": 957.85,
+        "duration": 6.24
+    },
+    {
+        "text": "a key role.",
+        "start": 964.09,
+        "duration": 1.48
+    },
+    {
+        "text": "And so that's one aspect of string theory.",
+        "start": 965.57,
+        "duration": 1.49
+    },
+    {
+        "text": "It is a little, if you want to take us through-\nThis is just a little example, what string",
+        "start": 967.06,
+        "duration": 3.7
+    },
+    {
+        "text": "theory might look like.",
+        "start": 970.76,
+        "duration": 1.22
+    },
+    {
+        "text": "So you've got a piece of matter, and we're\ngoing to dive into it.",
+        "start": 971.98,
+        "duration": 3.55
+    },
+    {
+        "text": "And then you're saying that if it goes sufficiently\ndeep-",
+        "start": 975.53,
+        "duration": 2.71
+    },
+    {
+        "text": "So if you go to the beginning, inside, you'll\nsee the atoms first.",
+        "start": 978.24,
+        "duration": 3.66
+    },
+    {
+        "text": "And uh, you know, inside the atoms you see\nthe nucleus.",
+        "start": 981.9,
+        "duration": 2.87
+    },
+    {
+        "text": "And the nucleus you see here, like it's the\nprotons and neutrons, I'm assuming.",
+        "start": 984.77,
+        "duration": 5.34
+    },
+    {
+        "text": "Then you go inside them, you see the quarks,\nand once you see the quark you can go inside",
+        "start": 990.11,
+        "duration": 5.4
+    },
+    {
+        "text": "them, and if you zoom in further you might\nsee actually that these featureless quarks",
+        "start": 995.51,
+        "duration": 4.32
+    },
+    {
+        "text": "that you think are point particle actually\nare tiny strings, vibrating strings of some",
+        "start": 999.83,
+        "duration": 4.08
+    },
+    {
+        "text": "sort, and that's the kind of a picture that\nwe expect to be true in the context of string",
+        "start": 1003.91,
+        "duration": 5.02
+    },
+    {
+        "text": "theory.",
+        "start": 1008.93,
+        "duration": 1.0
+    },
+    {
+        "text": "That point particles are point-like because\nwe are not zoomed in sufficiently close to",
+        "start": 1009.93,
+        "duration": 3.22
+    },
+    {
+        "text": "them, and if you zoom in enough, they will\nhave features like strings.",
+        "start": 1013.15,
+        "duration": 3.32
+    },
+    {
+        "text": "How big would those-\nWe don't know exactly, but it could be like",
+        "start": 1016.47,
+        "duration": 2.89
+    },
+    {
+        "text": "10 to the minus 30 centimeter- It's somewhat\nclose to the Planck scale that we discussed",
+        "start": 1019.36,
+        "duration": 3.98
+    },
+    {
+        "text": "already in the context of the areas of the\nhorizon of the black hole.",
+        "start": 1023.34,
+        "duration": 4.27
+    },
+    {
+        "text": "So that's the basic feature of string theory,\nbut as one of the aspects of string theory",
+        "start": 1027.61,
+        "duration": 4.39
+    },
+    {
+        "text": "that was originally one of the negative features,\nwas that string theory predicted that the",
+        "start": 1032.0,
+        "duration": 6.06
+    },
+    {
+        "text": "spatial dimension of the universe is not three,\nand that was manifested in contradiction with",
+        "start": 1038.06,
+        "duration": 6.37
+    },
+    {
+        "text": "the fact that we think we live in three spatial\ndimensions.",
+        "start": 1044.43,
+        "duration": 2.05
+    },
+    {
+        "text": "We have three spatial dimensions.",
+        "start": 1046.48,
+        "duration": 2.32
+    },
+    {
+        "text": "String theory seem to demand that we have\nnine spatial dimensions, and so this was a",
+        "start": 1048.8,
+        "duration": 4.45
+    },
+    {
+        "text": "contradiction originally, and physicists thought\nhow could this possibly work?",
+        "start": 1053.25,
+        "duration": 4.2
+    },
+    {
+        "text": "And one resolution was, oh, these extra- six\nextra dimensions that we have are so tiny,",
+        "start": 1057.45,
+        "duration": 6.34
+    },
+    {
+        "text": "like little circles at every point in space.",
+        "start": 1063.79,
+        "duration": 2.51
+    },
+    {
+        "text": "Let's imagine six dimensions, six circles\nat each point, six types of circles which",
+        "start": 1066.3,
+        "duration": 4.9
+    },
+    {
+        "text": "are so tiny that you cannot see.",
+        "start": 1071.2,
+        "duration": 2.38
+    },
+    {
+        "text": "So the idea would be the macroscopic dimensions\nare only three.",
+        "start": 1073.58,
+        "duration": 3.46
+    },
+    {
+        "text": "The big ones are three, but the tiny ones\nare six.",
+        "start": 1077.04,
+        "duration": 4.25
+    },
+    {
+        "text": "And the tiny ones are hard to see unless you\nreally zoom in and that's difficult to do",
+        "start": 1081.29,
+        "duration": 4.84
+    },
+    {
+        "text": "with the energies that are available to us\nin our experiments today.",
+        "start": 1086.13,
+        "duration": 3.4
+    },
+    {
+        "text": "But the idea would be there.",
+        "start": 1089.53,
+        "duration": 1.0
+    },
+    {
+        "text": "You've got these, these big dimensions that\nwe know about.",
+        "start": 1090.53,
+        "duration": 3.01
+    },
+    {
+        "text": "These extra dimensions, and then how do you\nrelate this to this idea of black hole?",
+        "start": 1093.54,
+        "duration": 5.96
+    },
+    {
+        "text": "this was actually a negative feature for string\ntheory.",
+        "start": 1099.5,
+        "duration": 2.64
+    },
+    {
+        "text": "So string theorists were kind of struggling.",
+        "start": 1102.14,
+        "duration": 1.43
+    },
+    {
+        "text": "Yeah, we have these six extra dimension.",
+        "start": 1103.57,
+        "duration": 1.62
+    },
+    {
+        "text": "It's a little embarrassing.",
+        "start": 1105.19,
+        "duration": 2.09
+    },
+    {
+        "text": "It's tiny.",
+        "start": 1107.28,
+        "duration": 1.76
+    },
+    {
+        "text": "You don't see them.",
+        "start": 1109.04,
+        "duration": 2.31
+    },
+    {
+        "text": "And then other people said, sure, sure, yes,\nyes.",
+        "start": 1111.35,
+        "duration": 4.47
+    },
+    {
+        "text": "So this was the state of the art to mid-nineties\nwhere we didn't know what to do with these",
+        "start": 1115.82,
+        "duration": 4.79
+    },
+    {
+        "text": "extra dimensions.",
+        "start": 1120.61,
+        "duration": 1.0
+    },
+    {
+        "text": "They were there just to make the theory consistent\nand we were hiding it away in tiny little",
+        "start": 1121.61,
+        "duration": 4.53
+    },
+    {
+        "text": "things.",
+        "start": 1126.14,
+        "duration": 1.0
+    },
+    {
+        "text": "And then came the question about the black\nholes and the black hole had the opposite",
+        "start": 1127.14,
+        "duration": 3.77
+    },
+    {
+        "text": "problem.",
+        "start": 1130.91,
+        "duration": 1.0
+    },
+    {
+        "text": "The problem with the black hole was we were\nmissing information of the black hole.",
+        "start": 1131.91,
+        "duration": 4.14
+    },
+    {
+        "text": "So where were they?",
+        "start": 1136.05,
+        "duration": 1.78
+    },
+    {
+        "text": "What were that information?",
+        "start": 1137.83,
+        "duration": 1.77
+    },
+    {
+        "text": "It turned out that these two problems canceled\neach other out.",
+        "start": 1139.6,
+        "duration": 3.32
+    },
+    {
+        "text": "And so this- the problem that was where are\nthey in-?",
+        "start": 1142.92,
+        "duration": 3.22
+    },
+    {
+        "text": "Where are the ingredients or the degrees of\nfreedom that constitutes black hole ended",
+        "start": 1146.14,
+        "duration": 5.9
+    },
+    {
+        "text": "up in the internal spatial, tiny spacial things\nthat I was talking about.",
+        "start": 1152.04,
+        "duration": 5.24
+    },
+    {
+        "text": "So as you can see here, the red, donut shape\nobject, there is to represent these tiny internal",
+        "start": 1157.28,
+        "duration": 7.0
+    },
+    {
+        "text": "dimensions.",
+        "start": 1164.28,
+        "duration": 2.01
+    },
+    {
+        "text": "And the blue sheet that you see represents\nthe macroscopic three macroscopic dimensions.",
+        "start": 1166.29,
+        "duration": 6.22
+    },
+    {
+        "text": "And so the idea there is that if you take\na string or a membrane or one of these extended",
+        "start": 1172.51,
+        "duration": 5.89
+    },
+    {
+        "text": "objects and wrap it around the cycles on these\nexternal tiny spaces like a torus or like",
+        "start": 1178.4,
+        "duration": 7.45
+    },
+    {
+        "text": "a circle or donut or whatnot shape you have,\nit will create a mass at the point where you're",
+        "start": 1185.85,
+        "duration": 5.96
+    },
+    {
+        "text": "wrapping around that circle, and the more\nit wraps around, the more mass is going to",
+        "start": 1191.81,
+        "duration": 4.52
+    },
+    {
+        "text": "be constituting there, and the more it's gonna\nshape and distort the geometry of space around",
+        "start": 1196.33,
+        "duration": 5.21
+    },
+    {
+        "text": "it.",
+        "start": 1201.54,
+        "duration": 1.0
+    },
+    {
+        "text": "And if that is enough of it, it's going to\ncreate this warped space, which is what we",
+        "start": 1202.54,
+        "duration": 4.24
+    },
+    {
+        "text": "call the black hole.",
+        "start": 1206.78,
+        "duration": 1.65
+    },
+    {
+        "text": "So the black hole itself can be viewed as\nthese strings or membranes wrapped around",
+        "start": 1208.43,
+        "duration": 5.63
+    },
+    {
+        "text": "these extra cycles of this tiny space.",
+        "start": 1214.06,
+        "duration": 3.33
+    },
+    {
+        "text": "And so then if the question is what accounts\nfor the degrees of freedom of the black hole",
+        "start": 1217.39,
+        "duration": 6.76
+    },
+    {
+        "text": "it are, these are precisely the strings or\nmembranes wrapped around these extra dimensions.",
+        "start": 1224.15,
+        "duration": 4.88
+    },
+    {
+        "text": "How many are there?",
+        "start": 1229.03,
+        "duration": 1.68
+    },
+    {
+        "text": "How many degrees of freedom are there?",
+        "start": 1230.71,
+        "duration": 1.59
+    },
+    {
+        "text": "What are the entropy?",
+        "start": 1232.3,
+        "duration": 1.46
+    },
+    {
+        "text": "Gets translated to how many ways these extra\nstrings or membranes can wrap around these",
+        "start": 1233.76,
+        "duration": 6.07
+    },
+    {
+        "text": "extra dimensions.",
+        "start": 1239.83,
+        "duration": 1.36
+    },
+    {
+        "text": "And there are many ways and that accounted\nfor the entropy of the black hole.",
+        "start": 1241.19,
+        "duration": 4.62
+    },
+    {
+        "text": "So with Andy- Andy Strominger and I did actually\na computation of how much entropy is there",
+        "start": 1245.81,
+        "duration": 5.29
+    },
+    {
+        "text": "in these wrappings of these string around\nthe external, around these internal dimensions",
+        "start": 1251.1,
+        "duration": 4.98
+    },
+    {
+        "text": "of string theory.",
+        "start": 1256.08,
+        "duration": 1.0
+    },
+    {
+        "text": "And we found exact match with a prediction\nthat Beckenstein and Hawking had made about",
+        "start": 1257.08,
+        "duration": 5.47
+    },
+    {
+        "text": "the entropy of these black holes.",
+        "start": 1262.55,
+        "duration": 1.82
+    },
+    {
+        "text": "So just to quickly unpack a little bit.",
+        "start": 1264.37,
+        "duration": 2.01
+    },
+    {
+        "text": "So, so basically you found a new way of describing\nblack holes in string theory, which makes",
+        "start": 1266.38,
+        "duration": 6.55
+    },
+    {
+        "text": "use of the extra curled up dimensions.",
+        "start": 1272.93,
+        "duration": 2.12
+    },
+    {
+        "text": "The red part of this image that we find here.",
+        "start": 1275.05,
+        "duration": 3.35
+    },
+    {
+        "text": "And you're saying that by wrapping these strings\nor ingredients of string theory around the",
+        "start": 1278.4,
+        "duration": 5.09
+    },
+    {
+        "text": "extra dimensions, you can create a warping\nin space that looks just like the black hole",
+        "start": 1283.49,
+        "duration": 5.59
+    },
+    {
+        "text": "that we've been talking about for many years\nbefore string theory even was on anybody's",
+        "start": 1289.08,
+        "duration": 3.66
+    },
+    {
+        "text": "mind.",
+        "start": 1292.74,
+        "duration": 1.0
+    },
+    {
+        "text": "But in this description you can do a direct\ncount of the amount of information necessary",
+        "start": 1293.74,
+        "duration": 5.96
+    },
+    {
+        "text": "to describe the situation and bang on, it\nmatches what Hawking said.",
+        "start": 1299.7,
+        "duration": 5.3
+    },
+    {
+        "text": "Yes.",
+        "start": 1305.0,
+        "duration": 1.0
+    },
+    {
+        "text": "So, so this gives us insight into one possible\nway of describing the internal structure of",
+        "start": 1306.0,
+        "duration": 7.34
+    },
+    {
+        "text": "a black hole, which in many ways I think they,\nthe community views as one of the most important",
+        "start": 1313.34,
+        "duration": 5.1
+    },
+    {
+        "text": "pieces of data that string theory may be going\nin the right direction.",
+        "start": 1318.44,
+        "duration": 3.18
+    },
+    {
+        "text": "We don't have experimental support for these\nideas, but here's a mathematical piece of",
+        "start": 1321.62,
+        "duration": 4.27
+    },
+    {
+        "text": "experimental support, if you will, that it\nmatches ideas that had been on the table for",
+        "start": 1325.89,
+        "duration": 4.34
+    },
+    {
+        "text": "25, 30 years.",
+        "start": 1330.23,
+        "duration": 1.59
+    },
+    {
+        "text": "So.",
+        "start": 1331.82,
+        "duration": 1.0
+    },
+    {
+        "text": "So this is a key step forward, but now let's\nturn to some of the puzzles that still remain",
+        "start": 1332.82,
+        "duration": 7.17
+    },
+    {
+        "text": "and part of the puzzles surround something\nthat's tightly related to what we've been",
+        "start": 1339.99,
+        "duration": 6.31
+    },
+    {
+        "text": "talking about, which is something called Hawking\nradiation.",
+        "start": 1346.3,
+        "duration": 3.5
+    },
+    {
+        "text": "Can you just tell us a bit about what Hawking\nradiation is?",
+        "start": 1349.8,
+        "duration": 2.97
+    },
+    {
+        "text": "So Hawking after discovering the properties\nof having information in the black and the",
+        "start": 1352.77,
+        "duration": 6.02
+    },
+    {
+        "text": "entropy, he also noticed that the black hose\nactually are not quite black.",
+        "start": 1358.79,
+        "duration": 6.15
+    },
+    {
+        "text": "And what happens if you go near the event\nhorizon of the black hole.",
+        "start": 1364.94,
+        "duration": 4.83
+    },
+    {
+        "text": "What happens is that you get pairs of particles\ncreated out of vacuum.",
+        "start": 1369.77,
+        "duration": 4.59
+    },
+    {
+        "text": "These are quantum fluctuations, the quantum\nfluctuations always creating particles and",
+        "start": 1374.36,
+        "duration": 4.6
+    },
+    {
+        "text": "antiparticles in pairs, and typically they\ngo in and out without doing anything, but",
+        "start": 1378.96,
+        "duration": 4.81
+    },
+    {
+        "text": "if they are near the event horizon, one of\nthem per chance could go towards the inside",
+        "start": 1383.77,
+        "duration": 4.28
+    },
+    {
+        "text": "of the black hole and then one of them could\ngo outside.",
+        "start": 1388.05,
+        "duration": 3.27
+    },
+    {
+        "text": "And the moment she goes inside has no way\nof getting out, so stuck there, but the one",
+        "start": 1391.32,
+        "duration": 4.31
+    },
+    {
+        "text": "going out so can leave and go far away from\nit all the way to infinity, and that looks",
+        "start": 1395.63,
+        "duration": 5.47
+    },
+    {
+        "text": "like a radiation from the viewpoint of somebody\noutside.",
+        "start": 1401.1,
+        "duration": 3.79
+    },
+    {
+        "text": "So in other words, from the viewpoint of somebody\noutside, the black hole is actually radiating",
+        "start": 1404.89,
+        "duration": 4.89
+    },
+    {
+        "text": "energy.",
+        "start": 1409.78,
+        "duration": 1.25
+    },
+    {
+        "text": "As it radiates energy, it loses mass, and\nit shrinks and shrinks and shrinks, until",
+        "start": 1411.03,
+        "duration": 6.16
+    },
+    {
+        "text": "after a while the black hole totally disappears\nwhere there's no more energy left to, to emit.",
+        "start": 1417.19,
+        "duration": 8.68
+    },
+    {
+        "text": "So once the, once the black hole disappears,\nthe question is what happens to all that information",
+        "start": 1425.87,
+        "duration": 8.73
+    },
+    {
+        "text": "that went into the black hole?",
+        "start": 1434.6,
+        "duration": 2.01
+    },
+    {
+        "text": "What happened to that area was talking about?",
+        "start": 1436.61,
+        "duration": 2.52
+    },
+    {
+        "text": "Where is that information gone?",
+        "start": 1439.13,
+        "duration": 1.85
+    },
+    {
+        "text": "So this was a question that Hawking basically\nposed, perhaps you recall the discussion between",
+        "start": 1440.98,
+        "duration": 6.01
+    },
+    {
+        "text": "Einstein and Bohr that uh, Einstein did not\nlike the probabilistic aspect of quantum mechanics.",
+        "start": 1446.99,
+        "duration": 6.53
+    },
+    {
+        "text": "And so he said, God does not play dice.",
+        "start": 1453.52,
+        "duration": 4.61
+    },
+    {
+        "text": "And Niels Bohr responded by saying to Einstein,\nstopped telling God what to do, and uh, Hawking",
+        "start": 1458.13,
+        "duration": 8.29
+    },
+    {
+        "text": "added his own wrinkle on this.",
+        "start": 1466.42,
+        "duration": 1.74
+    },
+    {
+        "text": "He said, well, what happens if you throw a\ndice inside the black hole, and the black",
+        "start": 1468.16,
+        "duration": 5.34
+    },
+    {
+        "text": "hole after a while disappears and with it\ndisappears the dice?",
+        "start": 1473.5,
+        "duration": 3.04
+    },
+    {
+        "text": "So, and then he said, not only does God throw\ndice, he sometimes throws it, throws them",
+        "start": 1476.54,
+        "duration": 5.21
+    },
+    {
+        "text": "where they cannot be seen.",
+        "start": 1481.75,
+        "duration": 1.47
+    },
+    {
+        "text": "And then you made a little little cake for\nhim.",
+        "start": 1483.22,
+        "duration": 4.41
+    },
+    {
+        "text": "mWe had the lucky occasion of having a Stephen\nHawking as our guests at his home a couple",
+        "start": 1487.63,
+        "duration": 4.84
+    },
+    {
+        "text": "of years ago when he was visiting Harvard,\nand then we made the cake in the form of a",
+        "start": 1492.47,
+        "duration": 3.88
+    },
+    {
+        "text": "black hole with a dice.",
+        "start": 1496.35,
+        "duration": 4.13
+    },
+    {
+        "text": "And the book, his famous book, which is actually\nmade of- It's a cake and it's actually gluten",
+        "start": 1500.48,
+        "duration": 4.6
+    },
+    {
+        "text": "free because he was allergic.",
+        "start": 1505.08,
+        "duration": 1.59
+    },
+    {
+        "text": "So, so, so Stephen had his cake and he could\neat it too.",
+        "start": 1506.67,
+        "duration": 7.34
+    },
+    {
+        "text": "So yeah.",
+        "start": 1514.01,
+        "duration": 2.26
+    },
+    {
+        "text": "So in that, in that picture, you see that\nthere are two, two dice hanging there floating",
+        "start": 1516.27,
+        "duration": 5.17
+    },
+    {
+        "text": "towards the black hole, and it's going in\nand that's the, the issue of the information",
+        "start": 1521.44,
+        "duration": 4.7
+    },
+    {
+        "text": "puzzle.",
+        "start": 1526.14,
+        "duration": 1.0
+    },
+    {
+        "text": "You lose the information of what, what is\nthe dice roll, and uh, that's what's called",
+        "start": 1527.14,
+        "duration": 4.43
+    },
+    {
+        "text": "the information puzzle because if the dice\nrolls some number and the black hole evaporates,",
+        "start": 1531.57,
+        "duration": 5.44
+    },
+    {
+        "text": "it disappears.",
+        "start": 1537.01,
+        "duration": 1.19
+    },
+    {
+        "text": "With it disappears the information about what\nthe role of the dice was, and that's called",
+        "start": 1538.2,
+        "duration": 4.17
+    },
+    {
+        "text": "the information posture, which we still are\nstruggling to understand even today.",
+        "start": 1542.37,
+        "duration": 4.13
+    },
+    {
+        "text": "Now, most people in the field for a long time\nhave anticipated that somehow the information",
+        "start": 1546.5,
+        "duration": 7.09
+    },
+    {
+        "text": "does get out with that radiation that we saw\ncoming off of the black hole.",
+        "start": 1553.59,
+        "duration": 5.18
+    },
+    {
+        "text": "Now for a while, Stephen Hawking said that\nthe information would, would not command-",
+        "start": 1558.77,
+        "duration": 4.49
+    },
+    {
+        "text": "And that quote was quite serious.",
+        "start": 1563.26,
+        "duration": 1.78
+    },
+    {
+        "text": "He was saying that we have to rethink quantum\nmechanics because the information does not",
+        "start": 1565.04,
+        "duration": 4.59
+    },
+    {
+        "text": "come back out.",
+        "start": 1569.63,
+        "duration": 1.45
+    },
+    {
+        "text": "He then changed his mind on that.",
+        "start": 1571.08,
+        "duration": 2.78
+    },
+    {
+        "text": "Yes.",
+        "start": 1573.86,
+        "duration": 1.0
+    },
+    {
+        "text": "So part of the reason for this is the discovery\nof a more detailed version of what is called",
+        "start": 1574.86,
+        "duration": 3.45
+    },
+    {
+        "text": "holography.",
+        "start": 1578.31,
+        "duration": 1.11
+    },
+    {
+        "text": "In other words, this, this began with the\nwork already back in the, in the long time",
+        "start": 1579.42,
+        "duration": 6.35
+    },
+    {
+        "text": "ago, but became more precise with the work\nof one mother center where it was discovered",
+        "start": 1585.77,
+        "duration": 4.61
+    },
+    {
+        "text": "how that you can describe a gravitational\nsystem precisely using objects which are much",
+        "start": 1590.38,
+        "duration": 5.48
+    },
+    {
+        "text": "simpler to understand.",
+        "start": 1595.86,
+        "duration": 1.27
+    },
+    {
+        "text": "And in particular in that system you could\nprove mathematically rigorously, there's no",
+        "start": 1597.13,
+        "duration": 4.679
+    },
+    {
+        "text": "way you can lose information.",
+        "start": 1601.809,
+        "duration": 2.131
+    },
+    {
+        "text": "So therefore, indirectly there was a proof\nthat whatever happens to black holes, the",
+        "start": 1603.94,
+        "duration": 5.06
+    },
+    {
+        "text": "information should get out.",
+        "start": 1609.0,
+        "duration": 1.95
+    },
+    {
+        "text": "So that part was kind of beginning to be established\nusing these kinds of arguments and string",
+        "start": 1610.95,
+        "duration": 5.73
+    },
+    {
+        "text": "theory.",
+        "start": 1616.68,
+        "duration": 1.89
+    },
+    {
+        "text": "But the wrinkle is that even though there's\nthis mathematical proof that this should happen,",
+        "start": 1618.57,
+        "duration": 5.23
+    },
+    {
+        "text": "we still did not know exactly how, and some\npeople thought maybe the information gets",
+        "start": 1623.8,
+        "duration": 4.32
+    },
+    {
+        "text": "out with this radiation, as you were saying,\nBrian, very gradually and very tiny bit at",
+        "start": 1628.12,
+        "duration": 5.12
+    },
+    {
+        "text": "a time, but gradually builds up to give you\ninformation out.",
+        "start": 1633.24,
+        "duration": 2.93
+    },
+    {
+        "text": "And this is what, uh, in the early 2000s,\nI believe, Stephen agreed that this is the",
+        "start": 1636.17,
+        "duration": 6.0
+    },
+    {
+        "text": "resolution.",
+        "start": 1642.17,
+        "duration": 1.0
+    },
+    {
+        "text": "But I still think, and I think the community\nstill believes we haven't really understood",
+        "start": 1643.17,
+        "duration": 3.87
+    },
+    {
+        "text": "how this happens exactly.",
+        "start": 1647.04,
+        "duration": 1.58
+    },
+    {
+        "text": "So the information puzzle about how this information\ncomes out is still one of the big mysteries",
+        "start": 1648.62,
+        "duration": 6.85
+    },
+    {
+        "text": "of black holes, and we don't really understand\nit.",
+        "start": 1655.47,
+        "duration": 2.31
+    },
+    {
+        "text": "So do you think it's possible that we will\none day conclude that the original view of",
+        "start": 1657.78,
+        "duration": 4.56
+    },
+    {
+        "text": "Hawking was right, that the information does\nnot get at?",
+        "start": 1662.34,
+        "duration": 2.75
+    },
+    {
+        "text": "Is that still on the table in your view?",
+        "start": 1665.09,
+        "duration": 1.75
+    },
+    {
+        "text": "Well, I think it sounds much less likely given\nthat we think we understand a dual description",
+        "start": 1666.84,
+        "duration": 4.58
+    },
+    {
+        "text": "and other description of these black holes.",
+        "start": 1671.42,
+        "duration": 2.21
+    },
+    {
+        "text": "So it seems like that seems much less likely\nnow, but you know, we can never say we know",
+        "start": 1673.63,
+        "duration": 4.92
+    },
+    {
+        "text": "everything about the subject.",
+        "start": 1678.55,
+        "duration": 1.44
+    },
+    {
+        "text": "That's our current understanding.",
+        "start": 1679.99,
+        "duration": 1.12
+    },
+    {
+        "text": "It could of course evolve, but even even with\nthat understanding, it's not- Our understanding",
+        "start": 1681.11,
+        "duration": 5.31
+    },
+    {
+        "text": "is not sufficiently detailed to convince us\nof this, of how it happens.",
+        "start": 1686.42,
+        "duration": 3.75
+    },
+    {
+        "text": "Now a lot of our discussion here has been\nfocusing on what happens at the edge of a",
+        "start": 1690.17,
+        "duration": 5.73
+    },
+    {
+        "text": "black hole, at the event horizon to a black\nhole that it may be where the information",
+        "start": 1695.9,
+        "duration": 4.34
+    },
+    {
+        "text": "is stored, that may be where the entropy is\nstored.",
+        "start": 1700.24,
+        "duration": 2.64
+    },
+    {
+        "text": "We haven't said much about what happens at\nthe center.",
+        "start": 1702.88,
+        "duration": 3.92
+    },
+    {
+        "text": "Can we just spend a little time talking about\nthat?",
+        "start": 1706.8,
+        "duration": 2.35
+    },
+    {
+        "text": "Well, one of the things that happens in the\ncenter of the black hole is that there's this",
+        "start": 1709.15,
+        "duration": 5.1
+    },
+    {
+        "text": "singularity, this infinity that Brian discussed\nalready, this division by zero analogy, and",
+        "start": 1714.25,
+        "duration": 5.65
+    },
+    {
+        "text": "we don't believe that's physical.",
+        "start": 1719.9,
+        "duration": 1.35
+    },
+    {
+        "text": "We believe that's just the phantom of our\nequation.",
+        "start": 1721.25,
+        "duration": 2.3
+    },
+    {
+        "text": "It's just the mathematical thing that comes\nout and that means that our description breaks",
+        "start": 1723.55,
+        "duration": 4.75
+    },
+    {
+        "text": "down.",
+        "start": 1728.3,
+        "duration": 1.0
+    },
+    {
+        "text": "Not that there is an infinity.",
+        "start": 1729.3,
+        "duration": 1.0
+    },
+    {
+        "text": "Now quickly, the infinity could be physically\nthat you've got all this mass crushed to zero",
+        "start": 1730.3,
+        "duration": 4.83
+    },
+    {
+        "text": "size.",
+        "start": 1735.13,
+        "duration": 1.0
+    },
+    {
+        "text": "Zero size is not physical.",
+        "start": 1736.13,
+        "duration": 1.0
+    },
+    {
+        "text": "Yes for us, there nothing smaller than Planck's\nlength, which is about 10 to the minus 33",
+        "start": 1737.13,
+        "duration": 4.57
+    },
+    {
+        "text": "centimeters.",
+        "start": 1741.7,
+        "duration": 1.0
+    },
+    {
+        "text": "The notion of space breaks down anything smaller\nthan that, so there cannot be an infinity",
+        "start": 1742.7,
+        "duration": 4.14
+    },
+    {
+        "text": "in physics, we don't believe so, so we don't\nunderstand what is happening at that, at that",
+        "start": 1746.84,
+        "duration": 4.78
+    },
+    {
+        "text": "in that way.",
+        "start": 1751.62,
+        "duration": 1.05
+    },
+    {
+        "text": "And the understanding of this singularity,\nwe are not at all close to understanding what's",
+        "start": 1752.67,
+        "duration": 5.16
+    },
+    {
+        "text": "happening there.",
+        "start": 1757.83,
+        "duration": 2.16
+    },
+    {
+        "text": "We know that there should be a good description,\nbut we don't have it.",
+        "start": 1759.99,
+        "duration": 3.14
+    },
+    {
+        "text": "And why that's important is that, well, we\nwant to know what's happening inside the black",
+        "start": 1763.13,
+        "duration": 5.32
+    },
+    {
+        "text": "holes.",
+        "start": 1768.45,
+        "duration": 1.0
+    },
+    {
+        "text": "Of course we can send somebody and find out\nwhat happens to that infinity, but that would",
+        "start": 1769.45,
+        "duration": 4.28
+    },
+    {
+        "text": "not be a fair thing.",
+        "start": 1773.73,
+        "duration": 1.42
+    },
+    {
+        "text": "And even if we did that, even if we said,\nwell, we send some creature not us, the robot",
+        "start": 1775.15,
+        "duration": 4.18
+    },
+    {
+        "text": "or something, the robot cannot come back to\ntell us what happened or what they saw.",
+        "start": 1779.33,
+        "duration": 5.34
+    },
+    {
+        "text": "So because nothing can escape from black holes.",
+        "start": 1784.67,
+        "duration": 2.68
+    },
+    {
+        "text": "So it won't be useful.",
+        "start": 1787.35,
+        "duration": 1.0
+    },
+    {
+        "text": "So we have to figure it out without going\ninside the black hole, what's going on there,",
+        "start": 1788.35,
+        "duration": 3.05
+    },
+    {
+        "text": "and that's still, we have no, uh, not only\nyou don't have observational data, we don't",
+        "start": 1791.4,
+        "duration": 5.09
+    },
+    {
+        "text": "have enough theoretical understanding.",
+        "start": 1796.49,
+        "duration": 2.09
+    },
+    {
+        "text": "And we think it's important not just for the\nblack holes, but it turns out that those infinities",
+        "start": 1798.58,
+        "duration": 4.52
+    },
+    {
+        "text": "that we see, if you try to pass through those\ninfinities to the other side, so to speak,",
+        "start": 1803.1,
+        "duration": 5.54
+    },
+    {
+        "text": "it turns out it looks very much like the infinities\nwe see at the beginning of our own universe.",
+        "start": 1808.64,
+        "duration": 5.75
+    },
+    {
+        "text": "It is as if our universe is emerging from\ninside of one of these black holes.",
+        "start": 1814.39,
+        "duration": 3.669
+    },
+    {
+        "text": "Along those lines.",
+        "start": 1818.059,
+        "duration": 1.141
+    },
+    {
+        "text": "And don't lose your train of thought there.",
+        "start": 1819.2,
+        "duration": 1.79
+    },
+    {
+        "text": "Oftentimes people think of the center of the\nblack hole as a location in space.",
+        "start": 1820.99,
+        "duration": 3.34
+    },
+    {
+        "text": "The center.",
+        "start": 1824.33,
+        "duration": 1.0
+    },
+    {
+        "text": "Is that the right way of-\nNo, actually it's like in a given time, it",
+        "start": 1825.33,
+        "duration": 2.81
+    },
+    {
+        "text": "happens at a given time and that's because\nthe nature of space and time changes as you",
+        "start": 1828.14,
+        "duration": 4.22
+    },
+    {
+        "text": "enter the black hole.",
+        "start": 1832.36,
+        "duration": 2.51
+    },
+    {
+        "text": "When you cross the event horizon of the black\nhole.",
+        "start": 1834.87,
+        "duration": 2.01
+    },
+    {
+        "text": "So one of the reasons why you can't get out\nis because you can't stop time from ticking",
+        "start": 1836.88,
+        "duration": 4.92
+    },
+    {
+        "text": "forward.",
+        "start": 1841.8,
+        "duration": 1.0
+    },
+    {
+        "text": "Exactly.",
+        "start": 1842.8,
+        "duration": 1.0
+    },
+    {
+        "text": "So going forward and forward in time is like\ngoing closer and closer to the singularity-",
+        "start": 1843.8,
+        "duration": 2.22
+    },
+    {
+        "text": "And then at certain time you hit the singularity.",
+        "start": 1846.02,
+        "duration": 2.18
+    },
+    {
+        "text": "That's the time.",
+        "start": 1848.2,
+        "duration": 1.0
+    },
+    {
+        "text": "It's at the given time is that-\nSo the singularity could be the end of time",
+        "start": 1849.2,
+        "duration": 3.28
+    },
+    {
+        "text": "in some sense.",
+        "start": 1852.48,
+        "duration": 1.35
+    },
+    {
+        "text": "It could be, but we don't believe that.",
+        "start": 1853.83,
+        "duration": 1.68
+    },
+    {
+        "text": "And then what you would say what's the after\nthat, and that looks very much like what could",
+        "start": 1855.51,
+        "duration": 4.63
+    },
+    {
+        "text": "be a new universe or something.",
+        "start": 1860.14,
+        "duration": 2.62
+    },
+    {
+        "text": "So we are interested in understanding the\nresolution to the issue of singularity of",
+        "start": 1862.76,
+        "duration": 3.82
+    },
+    {
+        "text": "black holes, and I think it's very exciting.",
+        "start": 1866.58,
+        "duration": 3.5
+    },
+    {
+        "text": "We know that black holes, as we discussed\nalready in this program, there are huge amount",
+        "start": 1870.08,
+        "duration": 4.66
+    },
+    {
+        "text": "of evidence that they exist or they are there.",
+        "start": 1874.74,
+        "duration": 1.86
+    },
+    {
+        "text": "We cannot say.",
+        "start": 1876.6,
+        "duration": 1.0
+    },
+    {
+        "text": "We're just imagining.",
+        "start": 1877.6,
+        "duration": 1.06
+    },
+    {
+        "text": "So what is that?",
+        "start": 1878.66,
+        "duration": 1.0
+    },
+    {
+        "text": "What is a singularity?",
+        "start": 1879.66,
+        "duration": 1.0
+    },
+    {
+        "text": "What are we learning from it?",
+        "start": 1880.66,
+        "duration": 1.0
+    },
+    {
+        "text": "This one of the most beautiful, mysterious\nobjects I think in the universe, and hopefully,",
+        "start": 1881.66,
+        "duration": 4.76
+    },
+    {
+        "text": "by some experiments and maybe by some theoretical\nunderstanding, we will have some progress",
+        "start": 1886.42,
+        "duration": 4.03
+    },
+    {
+        "text": "in that.",
+        "start": 1890.45,
+        "duration": 1.0
+    },
+    {
+        "text": "So what's your guess?",
+        "start": 1891.45,
+        "duration": 1.0
+    },
+    {
+        "text": "I mean if we come back and we invite you back\nfor the, I dunno, the 2025 World Science Festival,",
+        "start": 1892.45,
+        "duration": 6.82
+    },
+    {
+        "text": "can you give us the answer to what happens\nat the center of a black hole?",
+        "start": 1899.27,
+        "duration": 3.5
+    },
+    {
+        "text": "Maybe invite in 2050 if I'm alive.",
+        "start": 1902.77,
+        "duration": 1.18
+    },
+    {
+        "text": "2050.",
+        "start": 1903.95,
+        "duration": 1.0
+    },
+    {
+        "text": "All right.",
+        "start": 1904.95,
+        "duration": 1.0
+    },
+    {
+        "text": "Good.",
+        "start": 1905.95,
+        "duration": 1.0
+    },
+    {
+        "text": "A good prediction.",
+        "start": 1906.95,
+        "duration": 1.0
+    },
+    {
+        "text": "A safe prediction.",
+        "start": 1907.95,
+        "duration": 1.87
+    },
+    {
+        "text": "Please join me in thanking Cumrun Vafa.",
+        "start": 1909.82,
+        "duration": 2.55
+    },
+    {
+        "text": "Thank you.",
+        "start": 1912.37,
+        "duration": 1.06
+    },
+    {
+        "text": "Thank you very much.",
+        "start": 1913.43,
+        "duration": 2.11
+    },
+    {
+        "text": "Fantastic.",
+        "start": 1915.54,
+        "duration": 1.0
+    },
+    {
+        "text": "Goodnight everybody.",
+        "start": 1916.54,
+        "duration": 1.0
+    },
+    {
+        "text": "Thank you.",
+        "start": 1917.54,
+        "duration": 0.64
+    }
+]

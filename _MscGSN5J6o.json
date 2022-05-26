@@ -1,0 +1,2237 @@
+[
+    {
+        "text": "I know you like nothing more",
+        "start": 0.0,
+        "duration": 2.0
+    },
+    {
+        "text": "than a number with a name, so we're going",
+        "start": 2.0,
+        "duration": 1.76
+    },
+    {
+        "text": "to do Witness Numbers.",
+        "start": 3.76,
+        "duration": 1.66
+    },
+    {
+        "text": "They can provide witness",
+        "start": 7.2,
+        "duration": 1.84
+    },
+    {
+        "text": "for your good character - or more",
+        "start": 9.04,
+        "duration": 1.599
+    },
+    {
+        "text": "specifically",
+        "start": 10.639,
+        "duration": 1.281
+    },
+    {
+        "text": "they provide a witness for if a number",
+        "start": 11.92,
+        "duration": 1.599
+    },
+    {
+        "text": "is prime or not. And there's nothing we",
+        "start": 13.519,
+        "duration": 2.08
+    },
+    {
+        "text": "enjoy more in mathematics than working",
+        "start": 15.599,
+        "duration": 2.241
+    },
+    {
+        "text": "out if a number is prime or not.\n- (Brady: I'm)",
+        "start": 17.84,
+        "duration": 1.439
+    },
+    {
+        "text": "(curious to know whether 747 is prime.)",
+        "start": 19.279,
+        "duration": 2.472
+    },
+    {
+        "text": "Ooh that's lovely. If you add the digits",
+        "start": 21.751,
+        "duration": 2.329
+    },
+    {
+        "text": "together it's 18; \nso spoiler it's not prime.",
+        "start": 24.08,
+        "duration": 3.68
+    },
+    {
+        "text": "It's gonna be a multiple of 9. But",
+        "start": 27.76,
+        "duration": 2.64
+    },
+    {
+        "text": "let's say we don't know that,",
+        "start": 30.4,
+        "duration": 1.76
+    },
+    {
+        "text": "is 747 prime?",
+        "start": 32.16,
+        "duration": 2.32
+    },
+    {
+        "text": "Well here's what we're going to do,",
+        "start": 34.48,
+        "duration": 0.96
+    },
+    {
+        "text": "we're going to call up a witness to",
+        "start": 35.44,
+        "duration": 1.92
+    },
+    {
+        "text": "testify on behalf of 747",
+        "start": 37.36,
+        "duration": 4.0
+    },
+    {
+        "text": "to say whether or not it's prime. And you",
+        "start": 41.36,
+        "duration": 1.84
+    },
+    {
+        "text": "can you can choose your witness, it's any",
+        "start": 43.2,
+        "duration": 2.48
+    },
+    {
+        "text": "number smaller than 747. So from now on",
+        "start": 45.68,
+        "duration": 2.879
+    },
+    {
+        "text": "this is like our n, this is the number",
+        "start": 48.559,
+        "duration": 1.601
+    },
+    {
+        "text": "we're interested in. What witness would",
+        "start": 50.16,
+        "duration": 2.0
+    },
+    {
+        "text": "you like to call",
+        "start": 52.16,
+        "duration": 1.52
+    },
+    {
+        "text": "to represent your number?\n- (I'd like to)",
+        "start": 53.68,
+        "duration": 2.8
+    },
+    {
+        "text": "(call the number 23.)\n- 23, nice. So a is going",
+        "start": 56.48,
+        "duration": 5.2
+    },
+    {
+        "text": "to be our witness 23. I'm using the",
+        "start": 61.68,
+        "duration": 2.64
+    },
+    {
+        "text": "standard letters in case people want to",
+        "start": 64.32,
+        "duration": 1.119
+    },
+    {
+        "text": "research this afterwards. You've called",
+        "start": 65.439,
+        "duration": 1.201
+    },
+    {
+        "text": "witness 23. So first of all we've got to",
+        "start": 66.64,
+        "duration": 2.0
+    },
+    {
+        "text": "prepare your n for trial; we want to",
+        "start": 68.64,
+        "duration": 3.12
+    },
+    {
+        "text": "rearrange it to be powers of 2. So some-",
+        "start": 71.76,
+        "duration": 3.44
+    },
+    {
+        "text": "I don't know what number we're going to",
+        "start": 75.2,
+        "duration": 1.2
+    },
+    {
+        "text": "have up here, there's gonna be some",
+        "start": 76.4,
+        "duration": 1.12
+    },
+    {
+        "text": "number m which will be how many 2s",
+        "start": 77.52,
+        "duration": 2.4
+    },
+    {
+        "text": "there are and then that's multiplied by",
+        "start": 79.92,
+        "duration": 2.239
+    },
+    {
+        "text": "some other number and then because -",
+        "start": 82.159,
+        "duration": 2.561
+    },
+    {
+        "text": "okay we're assuming this is odd, this",
+        "start": 84.72,
+        "duration": 2.079
+    },
+    {
+        "text": "actually this works for odd n greater",
+        "start": 86.799,
+        "duration": 3.121
+    },
+    {
+        "text": "than 2. And if it's not an odd n",
+        "start": 89.92,
+        "duration": 2.4
+    },
+    {
+        "text": "greater than 2 it's pretty obvious if",
+        "start": 92.32,
+        "duration": 2.08
+    },
+    {
+        "text": "it's prime or not, so we don't worry",
+        "start": 94.4,
+        "duration": 1.6
+    },
+    {
+        "text": "about that. So this is definitely going",
+        "start": 96.0,
+        "duration": 1.2
+    },
+    {
+        "text": "to be odd and that's going to give us",
+        "start": 97.2,
+        "duration": 1.52
+    },
+    {
+        "text": "something even because we're multiplying",
+        "start": 98.72,
+        "duration": 1.359
+    },
+    {
+        "text": "by a whole bunch of 2s plus 1. So",
+        "start": 100.079,
+        "duration": 2.08
+    },
+    {
+        "text": "this is the form we want to put our",
+        "start": 102.159,
+        "duration": 1.201
+    },
+    {
+        "text": "number in just to get it ready. It's like",
+        "start": 103.36,
+        "duration": 1.68
+    },
+    {
+        "text": "putting on a suit and a tie when you go",
+        "start": 105.04,
+        "duration": 2.16
+    },
+    {
+        "text": "to court. So actually let's get a",
+        "start": 107.2,
+        "duration": 1.52
+    },
+    {
+        "text": "calculator, I'm trying to minimise the",
+        "start": 108.72,
+        "duration": 1.679
+    },
+    {
+        "text": "mistakes this time. \n- (Minimise the mistakes?)",
+        "start": 110.399,
+        "duration": 2.881
+    },
+    {
+        "text": "Not eradicate, just- you know I'm",
+        "start": 113.28,
+        "duration": 2.32
+    },
+    {
+        "text": "trying to cut back. Okay so we got \nseven hundred and forty-",
+        "start": 115.6,
+        "duration": 3.36
+    },
+    {
+        "text": "we're gonna take one off so it's gonna",
+        "start": 118.96,
+        "duration": 1.36
+    },
+    {
+        "text": "be 6. And I'm just gonna see if I can",
+        "start": 120.32,
+        "duration": 1.759
+    },
+    {
+        "text": "divide it by 2;",
+        "start": 122.079,
+        "duration": 1.441
+    },
+    {
+        "text": "I can - 2 goes into it once.",
+        "start": 123.52,
+        "duration": 2.48
+    },
+    {
+        "text": "Is that it?",
+        "start": 126.0,
+        "duration": 0.96
+    },
+    {
+        "text": "That's it. Okay right cool, that'll be",
+        "start": 126.96,
+        "duration": 2.159
+    },
+    {
+        "text": "easy. So that's going to be 2 to the",
+        "start": 129.119,
+        "duration": 1.681
+    },
+    {
+        "text": "power of 1 times 373.",
+        "start": 130.8,
+        "duration": 3.76
+    },
+    {
+        "text": "So now our m is 1 and d the leftover",
+        "start": 134.56,
+        "duration": 3.039
+    },
+    {
+        "text": "chunk is 373. So what you're doing is",
+        "start": 137.599,
+        "duration": 2.64
+    },
+    {
+        "text": "you're going, let's pretend it's a power",
+        "start": 140.239,
+        "duration": 1.681
+    },
+    {
+        "text": "of 2 but then",
+        "start": 141.92,
+        "duration": 1.6
+    },
+    {
+        "text": "we've got to multiply it by something",
+        "start": 143.52,
+        "duration": 1.6
+    },
+    {
+        "text": "and add 1 to- because it's not",
+        "start": 145.12,
+        "duration": 1.68
+    },
+    {
+        "text": "actually a power of 2 but this is this- if",
+        "start": 146.8,
+        "duration": 1.76
+    },
+    {
+        "text": "it was that's you know what it would be.",
+        "start": 148.56,
+        "duration": 1.92
+    },
+    {
+        "text": "Okay so now we're going to ask, right a:",
+        "start": 150.48,
+        "duration": 2.24
+    },
+    {
+        "text": "is a",
+        "start": 152.72,
+        "duration": 1.76
+    },
+    {
+        "text": "to the power of whatever this d; is does",
+        "start": 154.48,
+        "duration": 2.8
+    },
+    {
+        "text": "that equal 1 mod n, that's our",
+        "start": 157.28,
+        "duration": 2.88
+    },
+    {
+        "text": "question, very simple question. And it's",
+        "start": 160.16,
+        "duration": 1.68
+    },
+    {
+        "text": "either going to say yes or no and so",
+        "start": 161.84,
+        "duration": 1.52
+    },
+    {
+        "text": "let's find out shall we? So we've got to",
+        "start": 163.36,
+        "duration": 1.44
+    },
+    {
+        "text": "do-",
+        "start": 164.8,
+        "duration": 2.24
+    },
+    {
+        "text": "we're going to do 23",
+        "start": 167.04,
+        "duration": 1.68
+    },
+    {
+        "text": "to the power of 300 - terrible choice",
+        "start": 168.72,
+        "duration": 3.28
+    },
+    {
+        "text": "Brady-\n- (Brady: Sorry...)",
+        "start": 172.0,
+        "duration": 1.12
+    },
+    {
+        "text": "I hate to be retrospectively \ncritical of your choice,",
+        "start": 173.12,
+        "duration": 3.6
+    },
+    {
+        "text": "oh my goodness. Now computationally it's",
+        "start": 176.72,
+        "duration": 2.799
+    },
+    {
+        "text": "not that bad because of this mod. So if I",
+        "start": 179.519,
+        "duration": 2.72
+    },
+    {
+        "text": "said what's 23 to the power of 373? It",
+        "start": 182.239,
+        "duration": 2.881
+    },
+    {
+        "text": "would be a nightmare because that's",
+        "start": 185.12,
+        "duration": 1.28
+    },
+    {
+        "text": "going to be like an outrageously big",
+        "start": 186.4,
+        "duration": 2.16
+    },
+    {
+        "text": "number.",
+        "start": 188.56,
+        "duration": 0.88
+    },
+    {
+        "text": "But because we can mod it by n each time",
+        "start": 189.44,
+        "duration": 2.159
+    },
+    {
+        "text": "we're never going to have a number at any",
+        "start": 191.599,
+        "duration": 1.601
+    },
+    {
+        "text": "point that's bigger than 747. So each",
+        "start": 193.2,
+        "duration": 2.959
+    },
+    {
+        "text": "time we multiply 23 by 23 by 23 by 23 we",
+        "start": 196.159,
+        "duration": 3.841
+    },
+    {
+        "text": "just keep modding by 747. I'm",
+        "start": 200.0,
+        "duration": 3.36
+    },
+    {
+        "text": "going to cheat and ask Wolfram Alpha.",
+        "start": 203.36,
+        "duration": 3.2
+    },
+    {
+        "text": "747- kay I've Wolfram Alpha'd",
+        "start": 207.519,
+        "duration": 2.08
+    },
+    {
+        "text": "that and",
+        "start": 209.599,
+        "duration": 1.28
+    },
+    {
+        "text": "we did- we did 23 to the power of 373",
+        "start": 210.879,
+        "duration": 5.601
+    },
+    {
+        "text": "mod 747 and it was 131. Now this is not",
+        "start": 216.48,
+        "duration": 4.479
+    },
+    {
+        "text": "1. It's got some 1s in it but that's",
+        "start": 220.959,
+        "duration": 2.161
+    },
+    {
+        "text": "not what we're after. In this case the",
+        "start": 223.12,
+        "duration": 1.52
+    },
+    {
+        "text": "first witness has come up and said nah",
+        "start": 224.64,
+        "duration": 1.92
+    },
+    {
+        "text": "not prime. And if a single witness says",
+        "start": 226.56,
+        "duration": 2.88
+    },
+    {
+        "text": "not prime,",
+        "start": 229.44,
+        "duration": 1.439
+    },
+    {
+        "text": "not prime.",
+        "start": 230.879,
+        "duration": 1.28
+    },
+    {
+        "text": "That's it, the number is kicked out of",
+        "start": 232.159,
+        "duration": 2.0
+    },
+    {
+        "text": "the court or whatever this the prime",
+        "start": 234.159,
+        "duration": 2.08
+    },
+    {
+        "text": "test place, they are turfed out they are",
+        "start": 236.239,
+        "duration": 2.161
+    },
+    {
+        "text": "not a prime number the moment of witness",
+        "start": 238.4,
+        "duration": 1.68
+    },
+    {
+        "text": "says no.\n- (So this is foolproof Matt? If we)",
+        "start": 240.08,
+        "duration": 2.56
+    },
+    {
+        "text": "(get 1)",
+        "start": 242.64,
+        "duration": 1.71
+    },
+    {
+        "text": "(we can take it to the bank?) \n- No.",
+        "start": 244.64,
+        "duration": 2.64
+    },
+    {
+        "text": "So",
+        "start": 247.28,
+        "duration": 0.959
+    },
+    {
+        "text": "this is how it works: if a witness says",
+        "start": 248.239,
+        "duration": 2.961
+    },
+    {
+        "text": "not prime you can totally believe them.",
+        "start": 251.2,
+        "duration": 2.72
+    },
+    {
+        "text": "No witness is ever going to lie and",
+        "start": 253.92,
+        "duration": 3.039
+    },
+    {
+        "text": "say it's not prime and it actually is.",
+        "start": 256.959,
+        "duration": 2.4
+    },
+    {
+        "text": "However,",
+        "start": 259.359,
+        "duration": 1.041
+    },
+    {
+        "text": "some witnesses will lie",
+        "start": 260.4,
+        "duration": 2.32
+    },
+    {
+        "text": "and say it's prime when it's not. So",
+        "start": 262.72,
+        "duration": 2.4
+    },
+    {
+        "text": "you'll never get a false negative",
+        "start": 265.12,
+        "duration": 2.16
+    },
+    {
+        "text": "you will occasionally get a false",
+        "start": 267.28,
+        "duration": 1.6
+    },
+    {
+        "text": "positive. So not all witnesses",
+        "start": 268.88,
+        "duration": 2.56
+    },
+    {
+        "text": "are reliable when they say yes - and",
+        "start": 271.44,
+        "duration": 2.64
+    },
+    {
+        "text": "they're literally called liars, they're",
+        "start": 274.08,
+        "duration": 1.52
+    },
+    {
+        "text": "called strong liars because they give an",
+        "start": 275.6,
+        "duration": 2.4
+    },
+    {
+        "text": "absolutely definitely 100 that number's",
+        "start": 278.0,
+        "duration": 2.8
+    },
+    {
+        "text": "prime,",
+        "start": 280.8,
+        "duration": 0.88
+    },
+    {
+        "text": "you have to believe me, and they're lying.",
+        "start": 281.68,
+        "duration": 2.239
+    },
+    {
+        "text": "(A non-1 we can trust? You fail.)\n- Yep yep",
+        "start": 283.919,
+        "duration": 3.601
+    },
+    {
+        "text": "(But a 1 isn't an absolute guarantee?)\n- No",
+        "start": 287.52,
+        "duration": 2.8
+    },
+    {
+        "text": "not an absolute guarantee. I'll tell you",
+        "start": 290.32,
+        "duration": 1.28
+    },
+    {
+        "text": "what, let me do another one and I'll show",
+        "start": 291.6,
+        "duration": 1.599
+    },
+    {
+        "text": "you I'll show you a liar in action. So",
+        "start": 293.199,
+        "duration": 2.72
+    },
+    {
+        "text": "same style as before but this time our",
+        "start": 295.919,
+        "duration": 1.761
+    },
+    {
+        "text": "number again is not a prime. So we're",
+        "start": 297.68,
+        "duration": 2.48
+    },
+    {
+        "text": "going to do n equals 91,",
+        "start": 300.16,
+        "duration": 2.72
+    },
+    {
+        "text": "not a prime number. We're going to call a",
+        "start": 302.88,
+        "duration": 2.0
+    },
+    {
+        "text": "witness, we're going to call the number",
+        "start": 304.88,
+        "duration": 2.0
+    },
+    {
+        "text": "10. Maybe, all right, 10 get in here, we",
+        "start": 306.88,
+        "duration": 3.12
+    },
+    {
+        "text": "want to hear all about 91. Well first of",
+        "start": 310.0,
+        "duration": 2.16
+    },
+    {
+        "text": "all we've got to get them all dressed up",
+        "start": 312.16,
+        "duration": 1.12
+    },
+    {
+        "text": "for court and so that's going to be our",
+        "start": 313.28,
+        "duration": 2.08
+    },
+    {
+        "text": "plus 1 at the end, that's going to leave",
+        "start": 315.36,
+        "duration": 1.52
+    },
+    {
+        "text": "us with 90. So we're going to have 2 to",
+        "start": 316.88,
+        "duration": 2.0
+    },
+    {
+        "text": "the 1 times 45. So our d value is 45.",
+        "start": 318.88,
+        "duration": 4.0
+    },
+    {
+        "text": "Okay so we get a and we're like, rightio a,",
+        "start": 322.88,
+        "duration": 2.8
+    },
+    {
+        "text": "10 to the power of 45 which is going to",
+        "start": 325.68,
+        "duration": 3.359
+    },
+    {
+        "text": "be very big number - what does that equal",
+        "start": 329.039,
+        "duration": 2.081
+    },
+    {
+        "text": "if we're going mod 91? So",
+        "start": 331.12,
+        "duration": 3.12
+    },
+    {
+        "text": "having a good old-fashioned think - given",
+        "start": 334.24,
+        "duration": 2.08
+    },
+    {
+        "text": "us 90. Now first of all you're thinking,",
+        "start": 336.32,
+        "duration": 3.439
+    },
+    {
+        "text": "hang on, failed the test.",
+        "start": 339.759,
+        "duration": 1.921
+    },
+    {
+        "text": "However interestingly, 90",
+        "start": 341.68,
+        "duration": 2.88
+    },
+    {
+        "text": "is negative 1 mod 91 because it's one",
+        "start": 344.56,
+        "duration": 2.8
+    },
+    {
+        "text": "below. And so actually we will accept",
+        "start": 347.36,
+        "duration": 2.88
+    },
+    {
+        "text": "positive or negative 1. \n- (All right so)",
+        "start": 350.24,
+        "duration": 2.56
+    },
+    {
+        "text": "(that that should be a\npass actually then?)",
+        "start": 352.8,
+        "duration": 2.32
+    },
+    {
+        "text": "Yeah so it's passed, so 10s like nah",
+        "start": 355.12,
+        "duration": 2.4
+    },
+    {
+        "text": "checks out, love it,",
+        "start": 357.52,
+        "duration": 2.959
+    },
+    {
+        "text": "put it in the mix. And you're like okay",
+        "start": 360.479,
+        "duration": 3.44
+    },
+    {
+        "text": "do we trust 10? Let's say we picked a",
+        "start": 363.919,
+        "duration": 2.161
+    },
+    {
+        "text": "number below 91 at random and the number",
+        "start": 366.08,
+        "duration": 2.8
+    },
+    {
+        "text": "says yep it's prime and you're like, well",
+        "start": 368.88,
+        "duration": 2.56
+    },
+    {
+        "text": "I don't know how much I trust it, should",
+        "start": 371.44,
+        "duration": 1.52
+    },
+    {
+        "text": "we check another one? Well I happen to",
+        "start": 372.96,
+        "duration": 1.76
+    },
+    {
+        "text": "know",
+        "start": 374.72,
+        "duration": 0.8
+    },
+    {
+        "text": "below 91 there are 19 numbers, so there's",
+        "start": 375.52,
+        "duration": 2.399
+    },
+    {
+        "text": "90 possible witnesses we could call of",
+        "start": 377.919,
+        "duration": 2.881
+    },
+    {
+        "text": "those 18 of them are liars. So",
+        "start": 380.8,
+        "duration": 3.2
+    },
+    {
+        "text": "there's an 18 out of 90 chance that when",
+        "start": 384.0,
+        "duration": 3.44
+    },
+    {
+        "text": "we picked a number at \nrandom - I happened to",
+        "start": 387.44,
+        "duration": 1.68
+    },
+    {
+        "text": "know 10 was a liar -",
+        "start": 389.12,
+        "duration": 1.68
+    },
+    {
+        "text": "it's going to be a liar. And so now",
+        "start": 390.8,
+        "duration": 1.519
+    },
+    {
+        "text": "you're like, well hang on how does this",
+        "start": 392.319,
+        "duration": 1.281
+    },
+    {
+        "text": "help? And so sadly at the moment what we",
+        "start": 393.6,
+        "duration": 2.56
+    },
+    {
+        "text": "have is a probabilistic",
+        "start": 396.16,
+        "duration": 3.039
+    },
+    {
+        "text": "primality",
+        "start": 399.199,
+        "duration": 1.521
+    },
+    {
+        "text": "test. So it'll- it it's an absolute",
+        "start": 400.72,
+        "duration": 2.88
+    },
+    {
+        "text": "composite number test, if it says it's",
+        "start": 403.6,
+        "duration": 1.92
+    },
+    {
+        "text": "composite it is, if it says it's prime",
+        "start": 405.52,
+        "duration": 2.16
+    },
+    {
+        "text": "you're like,",
+        "start": 407.68,
+        "duration": 1.28
+    },
+    {
+        "text": "I don't know. Now if every number- you're",
+        "start": 408.96,
+        "duration": 2.72
+    },
+    {
+        "text": "like forget it bring all 90 possible",
+        "start": 411.68,
+        "duration": 2.72
+    },
+    {
+        "text": "witnesses in here; if all 90 of them are",
+        "start": 414.4,
+        "duration": 2.799
+    },
+    {
+        "text": "like nah it's definitely prime then it's",
+        "start": 417.199,
+        "duration": 1.761
+    },
+    {
+        "text": "definitely prime. \n- (So you can't have all liars?)",
+        "start": 418.96,
+        "duration": 3.19
+    },
+    {
+        "text": "Can't have all liars. So 18 is",
+        "start": 422.15,
+        "duration": 2.41
+    },
+    {
+        "text": "just below",
+        "start": 424.56,
+        "duration": 1.039
+    },
+    {
+        "text": "a quarter of 90, this is one of the",
+        "start": 425.599,
+        "duration": 1.521
+    },
+    {
+        "text": "worst cases, but for any number",
+        "start": 427.12,
+        "duration": 3.84
+    },
+    {
+        "text": "maximum a quarter of the possible",
+        "start": 430.96,
+        "duration": 1.679
+    },
+    {
+        "text": "witnesses will be liars. And so now",
+        "start": 432.639,
+        "duration": 2.481
+    },
+    {
+        "text": "you can just keep calling up witnesses",
+        "start": 435.12,
+        "duration": 2.32
+    },
+    {
+        "text": "at random - and it has to be at random -",
+        "start": 437.44,
+        "duration": 2.4
+    },
+    {
+        "text": "that are smaller than the number you're",
+        "start": 439.84,
+        "duration": 1.52
+    },
+    {
+        "text": "testing and each time you test it, worst",
+        "start": 441.36,
+        "duration": 2.88
+    },
+    {
+        "text": "case there's a one in four chance. And so",
+        "start": 444.24,
+        "duration": 2.399
+    },
+    {
+        "text": "what you can say is if you do k tests,",
+        "start": 446.639,
+        "duration": 3.361
+    },
+    {
+        "text": "and you're picking properly at random, if",
+        "start": 450.0,
+        "duration": 2.24
+    },
+    {
+        "text": "they all say it's prime for k times then",
+        "start": 452.24,
+        "duration": 2.64
+    },
+    {
+        "text": "there's a one over four to the k chance",
+        "start": 454.88,
+        "duration": 2.319
+    },
+    {
+        "text": "it's not actually prime - worst case. This",
+        "start": 457.199,
+        "duration": 1.761
+    },
+    {
+        "text": "is- now now we're talking about",
+        "start": 458.96,
+        "duration": 0.88
+    },
+    {
+        "text": "probabilities of probabilities because",
+        "start": 459.84,
+        "duration": 2.56
+    },
+    {
+        "text": "it's it's below this, that's like your",
+        "start": 462.4,
+        "duration": 2.079
+    },
+    {
+        "text": "worst case. So it's that or better. So",
+        "start": 464.479,
+        "duration": 2.16
+    },
+    {
+        "text": "what you do is you're like, well, you know",
+        "start": 466.639,
+        "duration": 2.0
+    },
+    {
+        "text": "what if I want to be",
+        "start": 468.639,
+        "duration": 1.881
+    },
+    {
+        "text": "99.9%",
+        "start": 470.52,
+        "duration": 1.56
+    },
+    {
+        "text": "sure",
+        "start": 472.08,
+        "duration": 1.04
+    },
+    {
+        "text": "you just do enough tests to get you past",
+        "start": 473.12,
+        "duration": 2.32
+    },
+    {
+        "text": "that limit. And so because",
+        "start": 475.44,
+        "duration": 1.52
+    },
+    {
+        "text": "computationally",
+        "start": 476.96,
+        "duration": 1.6
+    },
+    {
+        "text": "doing multiplications and mods, computers",
+        "start": 478.56,
+        "duration": 2.8
+    },
+    {
+        "text": "are very happy with that. Oh and the one",
+        "start": 481.36,
+        "duration": 2.08
+    },
+    {
+        "text": "extra",
+        "start": 483.44,
+        "duration": 1.12
+    },
+    {
+        "text": "thing you can do is a witness",
+        "start": 484.56,
+        "duration": 2.96
+    },
+    {
+        "text": "can request",
+        "start": 487.52,
+        "duration": 1.76
+    },
+    {
+        "text": "that as well as just having this d at",
+        "start": 489.28,
+        "duration": 1.84
+    },
+    {
+        "text": "the front",
+        "start": 491.12,
+        "duration": 1.359
+    },
+    {
+        "text": "it can have any extra multiples of 2",
+        "start": 492.479,
+        "duration": 2.56
+    },
+    {
+        "text": "at the front",
+        "start": 495.039,
+        "duration": 1.6
+    },
+    {
+        "text": "but not as many as the original",
+        "start": 496.639,
+        "duration": 1.921
+    },
+    {
+        "text": "breakdown. So here we had a 2, here we",
+        "start": 498.56,
+        "duration": 2.0
+    },
+    {
+        "text": "had one 2;",
+        "start": 500.56,
+        "duration": 1.359
+    },
+    {
+        "text": "if this had been something like 2",
+        "start": 501.919,
+        "duration": 1.921
+    },
+    {
+        "text": "cubed or 2 to the four",
+        "start": 503.84,
+        "duration": 1.84
+    },
+    {
+        "text": "then you could put in a bunch of 2s",
+        "start": 505.68,
+        "duration": 3.04
+    },
+    {
+        "text": "here and if any of them give you a 1",
+        "start": 508.72,
+        "duration": 2.479
+    },
+    {
+        "text": "or a negative 1 then that's a yes.",
+        "start": 511.199,
+        "duration": 2.241
+    },
+    {
+        "text": "So you've got to check a few things, all",
+        "start": 513.44,
+        "duration": 2.079
+    },
+    {
+        "text": "of them are very fast for computers to",
+        "start": 515.519,
+        "duration": 1.76
+    },
+    {
+        "text": "do, and so when you go to one of these",
+        "start": 517.279,
+        "duration": 1.841
+    },
+    {
+        "text": "websites - is this number prime? And it's",
+        "start": 519.12,
+        "duration": 2.32
+    },
+    {
+        "text": "like pretty sure it's prime, what it's",
+        "start": 521.44,
+        "duration": 2.399
+    },
+    {
+        "text": "doing is it's doing a test like this,",
+        "start": 523.839,
+        "duration": 1.68
+    },
+    {
+        "text": "often this exact test, and it's using",
+        "start": 525.519,
+        "duration": 2.641
+    },
+    {
+        "text": "that to just be able to say with some",
+        "start": 528.16,
+        "duration": 1.6
+    },
+    {
+        "text": "level of confidence yeah we're pretty",
+        "start": 529.76,
+        "duration": 1.759
+    },
+    {
+        "text": "sure that's prime.\n- (In the case of 91)",
+        "start": 531.519,
+        "duration": 2.401
+    },
+    {
+        "text": "(10 is a liar? Along with 17)\n- 10s a liar.",
+        "start": 533.92,
+        "duration": 2.16
+    },
+    {
+        "text": "(other numbers you said?)\n- Correct.",
+        "start": 536.08,
+        "duration": 1.92
+    },
+    {
+        "text": "(Is there a number that is notorious for)",
+        "start": 538.0,
+        "duration": 2.64
+    },
+    {
+        "text": "(being a liar more often than other)",
+        "start": 540.64,
+        "duration": 1.52
+    },
+    {
+        "text": "(numbers?)\n- You know, you are so close. The",
+        "start": 542.16,
+        "duration": 2.4
+    },
+    {
+        "text": "opposite - there are star witnesses. There",
+        "start": 544.56,
+        "duration": 2.959
+    },
+    {
+        "text": "are some witnesses where",
+        "start": 547.519,
+        "duration": 2.641
+    },
+    {
+        "text": "if you if you're going to pick anyone",
+        "start": 550.16,
+        "duration": 1.84
+    },
+    {
+        "text": "the this is the A-team of witnesses you",
+        "start": 552.0,
+        "duration": 1.76
+    },
+    {
+        "text": "want to call upon. In fact they're so",
+        "start": 553.76,
+        "duration": 3.04
+    },
+    {
+        "text": "good that you don't even have to call",
+        "start": 556.8,
+        "duration": 2.479
+    },
+    {
+        "text": "any non-star witnesses.",
+        "start": 559.279,
+        "duration": 2.481
+    },
+    {
+        "text": "So I said you could just check all the",
+        "start": 561.76,
+        "duration": 1.519
+    },
+    {
+        "text": "numbers; in fact for any number below",
+        "start": 563.279,
+        "duration": 4.24
+    },
+    {
+        "text": "a trillion",
+        "start": 567.519,
+        "duration": 1.521
+    },
+    {
+        "text": "there's a squad of four witnesses, and if",
+        "start": 569.04,
+        "duration": 3.359
+    },
+    {
+        "text": "you ask all four of them and they all",
+        "start": 572.399,
+        "duration": 1.841
+    },
+    {
+        "text": "sign off on it, you're guaranteed. Let's",
+        "start": 574.24,
+        "duration": 3.279
+    },
+    {
+        "text": "meet them - here we go.",
+        "start": 577.519,
+        "duration": 1.362
+    },
+    {
+        "text": "(Well my word yes!)",
+        "start": 578.881,
+        "duration": 1.679
+    },
+    {
+        "text": "(These are celebrities!)",
+        "start": 580.56,
+        "duration": 2.32
+    },
+    {
+        "text": "These are- there are-\nokay let's get some more paper. I",
+        "start": 582.88,
+        "duration": 1.2
+    },
+    {
+        "text": "should also say that this is called the",
+        "start": 584.08,
+        "duration": 1.439
+    },
+    {
+        "text": "Miller-Rabbin Test. And you can do the",
+        "start": 585.519,
+        "duration": 3.041
+    },
+    {
+        "text": "probabilistic version or you call up",
+        "start": 588.56,
+        "duration": 2.56
+    },
+    {
+        "text": "your star witnesses and then you know. So",
+        "start": 591.12,
+        "duration": 2.32
+    },
+    {
+        "text": "if your only witnesses are 2 and 3,",
+        "start": 593.44,
+        "duration": 3.36
+    },
+    {
+        "text": "if they cosign, and say, nah great number,",
+        "start": 596.8,
+        "duration": 3.039
+    },
+    {
+        "text": "definitely a prime, that will work for",
+        "start": 599.839,
+        "duration": 2.641
+    },
+    {
+        "text": "any number up to 1,373,653.",
+        "start": 602.48,
+        "duration": 6.95
+    },
+    {
+        "text": "Any number below that, if you",
+        "start": 609.43,
+        "duration": 1.77
+    },
+    {
+        "text": "just asked 2 and 3, you're good. Now",
+        "start": 611.2,
+        "duration": 2.72
+    },
+    {
+        "text": "that that is a speedy primality test.",
+        "start": 613.92,
+        "duration": 2.8
+    },
+    {
+        "text": "Interestingly you'll have no idea what",
+        "start": 616.72,
+        "duration": 2.64
+    },
+    {
+        "text": "the prime factors are of this number; and",
+        "start": 619.36,
+        "duration": 2.479
+    },
+    {
+        "text": "I'm",
+        "start": 621.839,
+        "duration": 1.361
+    },
+    {
+        "text": "fascinated by prime tests where you",
+        "start": 623.2,
+        "duration": 2.24
+    },
+    {
+        "text": "don't divide, and you don't even know",
+        "start": 625.44,
+        "duration": 2.079
+    },
+    {
+        "text": "what the factors are, you just know they",
+        "start": 627.519,
+        "duration": 2.241
+    },
+    {
+        "text": "exist - I find that so interesting.\n- (But at)",
+        "start": 629.76,
+        "duration": 2.24
+    },
+    {
+        "text": "(that point for that number there)",
+        "start": 632.0,
+        "duration": 2.079
+    },
+    {
+        "text": "(one of those two will lie?)\n- Yeah one of",
+        "start": 634.079,
+        "duration": 1.76
+    },
+    {
+        "text": "them cracks. I don't know what this",
+        "start": 635.839,
+        "duration": 1.761
+    },
+    {
+        "text": "number did",
+        "start": 637.6,
+        "duration": 1.28
+    },
+    {
+        "text": "to one of these but there's been some",
+        "start": 638.88,
+        "duration": 1.76
+    },
+    {
+        "text": "witness tampering going on and they've",
+        "start": 640.64,
+        "duration": 1.68
+    },
+    {
+        "text": "now got- they're now they're now upset. So",
+        "start": 642.32,
+        "duration": 2.0
+    },
+    {
+        "text": "what you do is you bring in another",
+        "start": 644.32,
+        "duration": 1.12
+    },
+    {
+        "text": "witness, you're like okay from now on",
+        "start": 645.44,
+        "duration": 1.92
+    },
+    {
+        "text": "we're doing 2, we're doing 3, and",
+        "start": 647.36,
+        "duration": 2.479
+    },
+    {
+        "text": "we're doing 5.",
+        "start": 649.839,
+        "duration": 1.601
+    },
+    {
+        "text": "Very primey, get to that in a moment. Now",
+        "start": 651.44,
+        "duration": 2.72
+    },
+    {
+        "text": "5, not only does 5 sort out this",
+        "start": 654.16,
+        "duration": 2.239
+    },
+    {
+        "text": "one, 5 gets you all the way up to 25",
+        "start": 656.399,
+        "duration": 2.56
+    },
+    {
+        "text": "million. Specifically \n25 million 326 thousand",
+        "start": 658.959,
+        "duration": 4.89
+    },
+    {
+        "text": "and 1.",
+        "start": 663.849,
+        "duration": 2.11
+    },
+    {
+        "text": "So it'll break on this number. So it",
+        "start": 666.0,
+        "duration": 2.079
+    },
+    {
+        "text": "works all the way up to a thousand flat.",
+        "start": 668.079,
+        "duration": 2.561
+    },
+    {
+        "text": "And so by bringing \nin one extra star- we've",
+        "start": 670.64,
+        "duration": 1.84
+    },
+    {
+        "text": "only got three star witnesses, you're",
+        "start": 672.48,
+        "duration": 1.84
+    },
+    {
+        "text": "doing all right. That said we could have",
+        "start": 674.32,
+        "duration": 2.639
+    },
+    {
+        "text": "in here; like let's say we're so",
+        "start": 676.959,
+        "duration": 2.88
+    },
+    {
+        "text": "disappointed",
+        "start": 679.839,
+        "duration": 1.761
+    },
+    {
+        "text": "that that these witnesses let us down,",
+        "start": 681.6,
+        "duration": 1.76
+    },
+    {
+        "text": "these folks were unreliable for this",
+        "start": 683.36,
+        "duration": 1.68
+    },
+    {
+        "text": "number, we're like get out of here. You",
+        "start": 685.04,
+        "duration": 1.52
+    },
+    {
+        "text": "know what, we're going to replace you",
+        "start": 686.56,
+        "duration": 1.519
+    },
+    {
+        "text": "with a equals 31 or 73. I mean bigger",
+        "start": 688.079,
+        "duration": 4.401
+    },
+    {
+        "text": "chunkier numbers,",
+        "start": 692.48,
+        "duration": 1.44
+    },
+    {
+        "text": "but if you just use these two as",
+        "start": 693.92,
+        "duration": 1.919
+    },
+    {
+        "text": "witnesses that works all the way up to 9",
+        "start": 695.839,
+        "duration": 2.401
+    },
+    {
+        "text": "million",
+        "start": 698.24,
+        "duration": 0.88
+    },
+    {
+        "text": "80 thousand",
+        "start": 699.12,
+        "duration": 1.76
+    },
+    {
+        "text": "191. Better star witnesses; if you've only",
+        "start": 700.88,
+        "duration": 3.04
+    },
+    {
+        "text": "got space for two",
+        "start": 703.92,
+        "duration": 1.84
+    },
+    {
+        "text": "then I would recommend bringing in 31",
+        "start": 705.76,
+        "duration": 1.92
+    },
+    {
+        "text": "and 73. They make a bit more mess, they're",
+        "start": 707.68,
+        "duration": 2.399
+    },
+    {
+        "text": "not as well behaved as 2 and 3 but",
+        "start": 710.079,
+        "duration": 2.401
+    },
+    {
+        "text": "they will get you you know over eight",
+        "start": 712.48,
+        "duration": 2.159
+    },
+    {
+        "text": "times as far.\n- (They're hostile witnesses)",
+        "start": 714.639,
+        "duration": 2.401
+    },
+    {
+        "text": "(but they're honest.)\n- Exactly yeah yeah,",
+        "start": 717.04,
+        "duration": 2.16
+    },
+    {
+        "text": "they get they get it done.",
+        "start": 719.2,
+        "duration": 1.92
+    },
+    {
+        "text": "People may not approve of their methods,",
+        "start": 721.12,
+        "duration": 2.959
+    },
+    {
+        "text": "get the job done. And then",
+        "start": 724.079,
+        "duration": 1.841
+    },
+    {
+        "text": "before I said the the squad of four. So",
+        "start": 725.92,
+        "duration": 3.2
+    },
+    {
+        "text": "this is- if you bring in and like this is",
+        "start": 729.12,
+        "duration": 2.56
+    },
+    {
+        "text": "like for a really important case, you're",
+        "start": 731.68,
+        "duration": 2.0
+    },
+    {
+        "text": "like you know what we cannot mess around.",
+        "start": 733.68,
+        "duration": 1.599
+    },
+    {
+        "text": "And these these folks were only",
+        "start": 735.279,
+        "duration": 1.281
+    },
+    {
+        "text": "discovered in 1993. \n- (These are expert witnesses?)",
+        "start": 736.56,
+        "duration": 2.66
+    },
+    {
+        "text": "These are expert, they're like",
+        "start": 739.22,
+        "duration": 1.02
+    },
+    {
+        "text": "this is the A-team. 2,",
+        "start": 740.24,
+        "duration": 2.0
+    },
+    {
+        "text": "classic 2. Forget 3 though, you want",
+        "start": 742.24,
+        "duration": 1.92
+    },
+    {
+        "text": "to bring in 13, you want to bring in 23,",
+        "start": 744.16,
+        "duration": 3.6
+    },
+    {
+        "text": "and then the team captain:",
+        "start": 747.76,
+        "duration": 2.29
+    },
+    {
+        "text": "1,662,803.",
+        "start": 750.05,
+        "duration": 2.43
+    },
+    {
+        "text": "They're a real maverick.",
+        "start": 754.079,
+        "duration": 3.2
+    },
+    {
+        "text": "So",
+        "start": 757.279,
+        "duration": 1.36
+    },
+    {
+        "text": "not good to work with,",
+        "start": 758.639,
+        "duration": 1.841
+    },
+    {
+        "text": "they've been many times \nthey've had to hand",
+        "start": 760.48,
+        "duration": 1.919
+    },
+    {
+        "text": "in their badge, all that,",
+        "start": 762.399,
+        "duration": 2.401
+    },
+    {
+        "text": "but they will crack",
+        "start": 764.8,
+        "duration": 2.24
+    },
+    {
+        "text": "the hardest of holdouts. So these guys",
+        "start": 767.04,
+        "duration": 3.2
+    },
+    {
+        "text": "will get you oh- these are the guys who",
+        "start": 770.24,
+        "duration": 1.279
+    },
+    {
+        "text": "get you over a quadrillion.\n- (So this is)",
+        "start": 771.519,
+        "duration": 1.921
+    },
+    {
+        "text": "(like a good cop, bad cop?)\n- Oh yeah! This is good",
+        "start": 773.44,
+        "duration": 2.399
+    },
+    {
+        "text": "yeah good cop,",
+        "start": 775.839,
+        "duration": 1.68
+    },
+    {
+        "text": "bad cop;",
+        "start": 777.519,
+        "duration": 1.44
+    },
+    {
+        "text": "gets results.",
+        "start": 778.959,
+        "duration": 1.761
+    },
+    {
+        "text": "These get you all the way up to - oh my",
+        "start": 780.72,
+        "duration": 1.6
+    },
+    {
+        "text": "goodness - one quadrillion,",
+        "start": 782.32,
+        "duration": 2.519
+    },
+    {
+        "text": "122 trillion, four",
+        "start": 784.839,
+        "duration": 2.601
+    },
+    {
+        "text": "million six hundred and sixty nine",
+        "start": 787.44,
+        "duration": 2.56
+    },
+    {
+        "text": "thousand, six hundred and thirty",
+        "start": 790.0,
+        "duration": 3.12
+    },
+    {
+        "text": "three. So good reach,\nthey don't mess around.",
+        "start": 793.12,
+        "duration": 3.279
+    },
+    {
+        "text": "(All right Matt, you've shown me the star)",
+        "start": 796.399,
+        "duration": 1.201
+    },
+    {
+        "text": "(witnesses but you still haven't told me)",
+        "start": 797.6,
+        "duration": 1.44
+    },
+    {
+        "text": "(who are the liars!)\n- You know, I don't know!",
+        "start": 799.04,
+        "duration": 2.479
+    },
+    {
+        "text": "I- it had not occurred to me to look up",
+        "start": 801.519,
+        "duration": 3.201
+    },
+    {
+        "text": "who were the least reliable. And so- I",
+        "start": 804.72,
+        "duration": 2.799
+    },
+    {
+        "text": "mean you could do it, you just have to- if",
+        "start": 807.519,
+        "duration": 1.681
+    },
+    {
+        "text": "someone wants to write some code",
+        "start": 809.2,
+        "duration": 1.759
+    },
+    {
+        "text": "and put the answer in the comments below,",
+        "start": 810.959,
+        "duration": 2.081
+    },
+    {
+        "text": "I think it'd be very interesting. You",
+        "start": 813.04,
+        "duration": 1.76
+    },
+    {
+        "text": "just have to go through every single",
+        "start": 814.8,
+        "duration": 1.279
+    },
+    {
+        "text": "number, find out how many strong liars",
+        "start": 816.079,
+        "duration": 2.0
+    },
+    {
+        "text": "it's got when you put it through the",
+        "start": 818.079,
+        "duration": 1.281
+    },
+    {
+        "text": "Miller-Rabbin test. Score each number for",
+        "start": 819.36,
+        "duration": 2.64
+    },
+    {
+        "text": "how often it shows up as a liar; and then",
+        "start": 822.0,
+        "duration": 1.76
+    },
+    {
+        "text": "we'll know who the most dishonest",
+        "start": 823.76,
+        "duration": 1.36
+    },
+    {
+        "text": "numbers are. These are the honest numbers.",
+        "start": 825.12,
+        "duration": 2.0
+    },
+    {
+        "text": "Oh by the way if you wanted- if this",
+        "start": 827.12,
+        "duration": 2.0
+    },
+    {
+        "text": "proves to be too much you can actually",
+        "start": 829.12,
+        "duration": 2.159
+    },
+    {
+        "text": "replace them with two friendlier",
+        "start": 831.279,
+        "duration": 2.481
+    },
+    {
+        "text": "numbers, you can switch to 2,",
+        "start": 833.76,
+        "duration": 2.0
+    },
+    {
+        "text": "3, 5,",
+        "start": 835.76,
+        "duration": 1.84
+    },
+    {
+        "text": "7,",
+        "start": 837.6,
+        "duration": 0.88
+    },
+    {
+        "text": "11.",
+        "start": 838.48,
+        "duration": 0.96
+    },
+    {
+        "text": "I mean you just- you're\nback to the primes.",
+        "start": 839.44,
+        "duration": 2.48
+    },
+    {
+        "text": "So actually runs of primes are really",
+        "start": 841.92,
+        "duration": 1.68
+    },
+    {
+        "text": "good; they get you all the way up to 2",
+        "start": 843.6,
+        "duration": 3.28
+    },
+    {
+        "text": "trillion, 152",
+        "start": 846.88,
+        "duration": 2.24
+    },
+    {
+        "text": "billion, 302 million, 898",
+        "start": 849.12,
+        "duration": 3.68
+    },
+    {
+        "text": "thousand-",
+        "start": 852.8,
+        "duration": 1.52
+    },
+    {
+        "text": "oh",
+        "start": 854.32,
+        "duration": 1.28
+    },
+    {
+        "text": "747.",
+        "start": 855.6,
+        "duration": 3.0
+    },
+    {
+        "text": "That's put a little bow on this video",
+        "start": 858.639,
+        "duration": 1.681
+    },
+    {
+        "text": "hasn't it? Yeah so it depends if you",
+        "start": 860.32,
+        "duration": 2.959
+    },
+    {
+        "text": "would rather have fewer but unruly",
+        "start": 863.279,
+        "duration": 1.841
+    },
+    {
+        "text": "witnesses; or you prepared- you've got",
+        "start": 865.12,
+        "duration": 1.839
+    },
+    {
+        "text": "like a fifth chair and you bring you you",
+        "start": 866.959,
+        "duration": 2.641
+    },
+    {
+        "text": "can bring in 7 and 11 to to do the",
+        "start": 869.6,
+        "duration": 2.16
+    },
+    {
+        "text": "lifting so. \n- (Oh what you need to do is you)",
+        "start": 871.76,
+        "duration": 2.16
+    },
+    {
+        "text": "(need to find out what the 12 best are)",
+        "start": 873.92,
+        "duration": 1.76
+    },
+    {
+        "text": "(and call them the 12-)\n- 12 good numbers!",
+        "start": 875.68,
+        "duration": 2.56
+    },
+    {
+        "text": "\"You can't handle the truth.\"\n- (12 angry numbers?",
+        "start": 878.24,
+        "duration": 3.74
+    },
+    {
+        "text": "I bet there is a 12 - hang on. So if you",
+        "start": 884.72,
+        "duration": 2.479
+    },
+    {
+        "text": "want, I'll put them in red for being angry.",
+        "start": 887.199,
+        "duration": 2.0
+    },
+    {
+        "text": "So here's your-",
+        "start": 889.199,
+        "duration": 1.281
+    },
+    {
+        "text": "they don't take any malarkey from anyone.",
+        "start": 890.48,
+        "duration": 2.96
+    },
+    {
+        "text": "You're bringing in 2, you're bringing",
+        "start": 893.44,
+        "duration": 1.68
+    },
+    {
+        "text": "in 3,",
+        "start": 895.12,
+        "duration": 1.2
+    },
+    {
+        "text": "5, oh this is just \nthe primes 7, 11, 13, 17, 19,",
+        "start": 896.32,
+        "duration": 6.079
+    },
+    {
+        "text": "23,",
+        "start": 902.399,
+        "duration": 1.44
+    },
+    {
+        "text": "29,",
+        "start": 903.839,
+        "duration": 1.36
+    },
+    {
+        "text": "31,",
+        "start": 905.199,
+        "duration": 1.361
+    },
+    {
+        "text": "and 37. Just off the top of my head, that",
+        "start": 906.56,
+        "duration": 2.639
+    },
+    {
+        "text": "will get you up to 308",
+        "start": 909.199,
+        "duration": 3.521
+    },
+    {
+        "text": "sextillion I assume? 665",
+        "start": 912.72,
+        "duration": 3.04
+    },
+    {
+        "text": "quintillion,",
+        "start": 915.76,
+        "duration": 1.319
+    },
+    {
+        "text": "857 quadrillion - I'm just gonna write the",
+        "start": 917.079,
+        "duration": 3.32
+    },
+    {
+        "text": "numbers out. Or",
+        "start": 920.399,
+        "duration": 1.521
+    },
+    {
+        "text": "approximately 10 to the 23, that's the",
+        "start": 921.92,
+        "duration": 2.64
+    },
+    {
+        "text": "kind of order of magnitude you're",
+        "start": 924.56,
+        "duration": 1.36
+    },
+    {
+        "text": "looking at. \n- (You'd have to use all twelve?)",
+        "start": 925.92,
+        "duration": 1.44
+    },
+    {
+        "text": "You've got to use- they they all have to",
+        "start": 927.36,
+        "duration": 2.0
+    },
+    {
+        "text": "be- you can't have a hung jury, it's",
+        "start": 929.36,
+        "duration": 2.64
+    },
+    {
+        "text": "you've got to have completely unanimous.",
+        "start": 932.0,
+        "duration": 2.48
+    },
+    {
+        "text": "They've all got to be like yep",
+        "start": 934.48,
+        "duration": 2.08
+    },
+    {
+        "text": "and in unison as a team if they all say",
+        "start": 936.56,
+        "duration": 2.32
+    },
+    {
+        "text": "yes, they're right.",
+        "start": 938.88,
+        "duration": 2.56
+    },
+    {
+        "text": "Whether it's prime numbers, composite",
+        "start": 941.44,
+        "duration": 2.319
+    },
+    {
+        "text": "numbers or almost anything else; why not",
+        "start": 943.759,
+        "duration": 3.2
+    },
+    {
+        "text": "sharpen your skills with the amazing",
+        "start": 946.959,
+        "duration": 2.32
+    },
+    {
+        "text": "array of courses on Brilliant, today's",
+        "start": 949.279,
+        "duration": 2.881
+    },
+    {
+        "text": "episode sponsor.",
+        "start": 952.16,
+        "duration": 2.08
+    },
+    {
+        "text": "For a deeper understanding of how things",
+        "start": 954.24,
+        "duration": 2.159
+    },
+    {
+        "text": "work, you just can't beat interactivity;",
+        "start": 956.399,
+        "duration": 2.961
+    },
+    {
+        "text": "and that is Brilliant's stock and trade",
+        "start": 959.36,
+        "duration": 2.64
+    },
+    {
+        "text": "as you can see.",
+        "start": 962.0,
+        "duration": 1.759
+    },
+    {
+        "text": "I can't really decide if this is",
+        "start": 963.759,
+        "duration": 1.361
+    },
+    {
+        "text": "recreation or education - I guess it's",
+        "start": 965.12,
+        "duration": 2.48
+    },
+    {
+        "text": "both. I recommend you check out Brilliant,",
+        "start": 967.6,
+        "duration": 2.64
+    },
+    {
+        "text": "and if you're already signed up why not",
+        "start": 970.24,
+        "duration": 1.839
+    },
+    {
+        "text": "consider giving Brilliant as a gift to",
+        "start": 972.079,
+        "duration": 1.841
+    },
+    {
+        "text": "someone else? That inquisitive nephew",
+        "start": 973.92,
+        "duration": 2.479
+    },
+    {
+        "text": "maybe or how about that auntie who's",
+        "start": 976.399,
+        "duration": 2.321
+    },
+    {
+        "text": "always been a lifelong learner. There's",
+        "start": 978.72,
+        "duration": 2.08
+    },
+    {
+        "text": "plenty of free stuff on the site, but",
+        "start": 980.8,
+        "duration": 2.159
+    },
+    {
+        "text": "Brilliant are offering a 20% discount on",
+        "start": 982.959,
+        "duration": 2.32
+    },
+    {
+        "text": "their all-inclusive premium package by",
+        "start": 985.279,
+        "duration": 2.8
+    },
+    {
+        "text": "using the url brilliant.org/Numberphile",
+        "start": 988.079,
+        "duration": 4.326
+    },
+    {
+        "text": "It's there on the screen and",
+        "start": 992.405,
+        "duration": 1.674
+    },
+    {
+        "text": "in the description. Give them a look,",
+        "start": 994.079,
+        "duration": 2.32
+    },
+    {
+        "text": "Brilliant, they're great people and",
+        "start": 996.399,
+        "duration": 1.921
+    },
+    {
+        "text": "they're making amazing stuff.",
+        "start": 998.32,
+        "duration": 2.179
+    }
+]

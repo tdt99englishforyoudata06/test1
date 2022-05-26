@@ -1,0 +1,927 @@
+[
+    {
+        "text": "[ intro ]",
+        "start": 0.0,
+        "duration": 11.2
+    },
+    {
+        "text": "Artificial intelligence is really, well, intelligent.",
+        "start": 11.2,
+        "duration": 2.64
+    },
+    {
+        "text": "It’s beaten humans at chess and poker",
+        "start": 13.84,
+        "duration": 2.349
+    },
+    {
+        "text": "and AlphaGo famously beat one of the world’s\ntop players at the super-complex game Go",
+        "start": 16.189,
+        "duration": 5.121
+    },
+    {
+        "text": "IBM Watson even won Jeopardy, and now a different\nversion of it is designing personalized cancer",
+        "start": 21.31,
+        "duration": 5.919
+    },
+    {
+        "text": "treatments.",
+        "start": 27.229,
+        "duration": 1.0
+    },
+    {
+        "text": "These are tasks humans spend decades mastering,\nand AI is beating them left and right.",
+        "start": 28.229,
+        "duration": 4.771
+    },
+    {
+        "text": "Except, for as good as we are at teaching\nAI to do complicated tasks,",
+        "start": 33.0,
+        "duration": 3.699
+    },
+    {
+        "text": "we’re terrible at getting them to learn\neven the most basic, toddler-level skills.",
+        "start": 36.699,
+        "duration": 4.29
+    },
+    {
+        "text": "Like, ask AlphaGo to recognize a cat — let\nalone a specific person —",
+        "start": 40.989,
+        "duration": 4.361
+    },
+    {
+        "text": "and it will have no idea what to do.",
+        "start": 45.35,
+        "duration": 2.13
+    },
+    {
+        "text": "This problem is called Moravec’s paradox,\nafter one computer scientist who studied it",
+        "start": 47.48,
+        "duration": 4.89
+    },
+    {
+        "text": "in the 1980s.",
+        "start": 52.37,
+        "duration": 1.009
+    },
+    {
+        "text": "And while it seems to have a pretty straightforward\nsolution, it’s definitely not an easy one.",
+        "start": 53.379,
+        "duration": 5.09
+    },
+    {
+        "text": "Because to make a program that thinks like\na toddler… we’ll likely have to teach",
+        "start": 58.469,
+        "duration": 3.57
+    },
+    {
+        "text": "AI to evolve.",
+        "start": 62.039,
+        "duration": 1.37
+    },
+    {
+        "text": "On the most basic level, the reason for Moravec’s\nparadox is simple:",
+        "start": 63.409,
+        "duration": 3.82
+    },
+    {
+        "text": "We don’t know how to program general intelligence.",
+        "start": 67.229,
+        "duration": 2.271
+    },
+    {
+        "text": "We’re great at getting AI to do one thing,\nbut most toddler-level skills — like facial",
+        "start": 69.5,
+        "duration": 5.0
+    },
+    {
+        "text": "recognition —",
+        "start": 74.5,
+        "duration": 1.25
+    },
+    {
+        "text": "involve learning new things and then transferring\nthem to other contexts.",
+        "start": 75.75,
+        "duration": 3.86
+    },
+    {
+        "text": "Getting computers to do that is one goal of\nwhat’s called general AI.",
+        "start": 79.61,
+        "duration": 3.829
+    },
+    {
+        "text": "And in 1988, Hans Moravec pointed out that\nthere’s a simple reason it’s so hard:",
+        "start": 83.439,
+        "duration": 4.551
+    },
+    {
+        "text": "evolution.",
+        "start": 87.99,
+        "duration": 1.0
+    },
+    {
+        "text": "His point was that things that seem really\neasy to us are actually the result of thousands",
+        "start": 88.99,
+        "duration": 4.269
+    },
+    {
+        "text": "of years of development.",
+        "start": 93.259,
+        "duration": 1.321
+    },
+    {
+        "text": "So even though most kids can easily tell the\ndifference between yellow and blue, or a friend",
+        "start": 94.58,
+        "duration": 4.35
+    },
+    {
+        "text": "and a stranger, those aren’t actually simple\nskills.",
+        "start": 98.93,
+        "duration": 3.27
+    },
+    {
+        "text": "They only seem basic to us because our species\nhas spent tens of thousands of years refining",
+        "start": 102.2,
+        "duration": 4.68
+    },
+    {
+        "text": "them.",
+        "start": 106.88,
+        "duration": 1.0
+    },
+    {
+        "text": "Meanwhile, we’ve only been making computers\nfor about a century, tops.",
+        "start": 107.88,
+        "duration": 3.029
+    },
+    {
+        "text": "So there’s no way we could have figured\nout general AI in that time.",
+        "start": 110.909,
+        "duration": 3.32
+    },
+    {
+        "text": "Then again, Moravec didn’t think time was\nthe only issue:",
+        "start": 114.229,
+        "duration": 2.971
+    },
+    {
+        "text": "He also thought researchers were approaching\nthe problem the wrong way.",
+        "start": 117.2,
+        "duration": 3.169
+    },
+    {
+        "text": "In the ‘80s, developers were mainly working\nfrom the top down,",
+        "start": 120.369,
+        "duration": 3.281
+    },
+    {
+        "text": "just trying to copy the mental processes of\nfully-formed human brains.",
+        "start": 123.65,
+        "duration": 3.53
+    },
+    {
+        "text": "But Moravec believed that the most successful\napproach would be to work from the bottom",
+        "start": 127.18,
+        "duration": 3.79
+    },
+    {
+        "text": "up.",
+        "start": 130.97,
+        "duration": 1.0
+    },
+    {
+        "text": "In other words, instead of building a complex\nbrain from scratch, he thought we should mimic",
+        "start": 131.97,
+        "duration": 4.11
+    },
+    {
+        "text": "evolution.",
+        "start": 136.08,
+        "duration": 1.0
+    },
+    {
+        "text": "Just like in nature, we would start small,\nthen add complexity to our AI little by little,",
+        "start": 137.08,
+        "duration": 5.26
+    },
+    {
+        "text": "all the while challenging these programs to\nadapt.",
+        "start": 142.34,
+        "duration": 2.46
+    },
+    {
+        "text": "We could even study how the human brain does\nthis and apply those lessons to machines.",
+        "start": 144.8,
+        "duration": 4.58
+    },
+    {
+        "text": "Which, obviously, is not difficult whatsoever.",
+        "start": 149.38,
+        "duration": 2.46
+    },
+    {
+        "text": "Still, it does seem to be a solution that\nworks.",
+        "start": 151.84,
+        "duration": 2.66
+    },
+    {
+        "text": "Because the more computer scientists base\ntheir AI on our brains… the smarter they",
+        "start": 154.5,
+        "duration": 3.61
+    },
+    {
+        "text": "seem to get.",
+        "start": 158.11,
+        "duration": 1.0
+    },
+    {
+        "text": "A lot of this research is focused on neural\nnetworks.",
+        "start": 159.11,
+        "duration": 2.68
+    },
+    {
+        "text": "These are systems that can teach themselves\nto recognize patterns, and they’re modeled",
+        "start": 161.79,
+        "duration": 3.46
+    },
+    {
+        "text": "after how our brains learn information.",
+        "start": 165.25,
+        "duration": 2.0
+    },
+    {
+        "text": "When you learn something new, your brain strengthens\nthe connections between its neurons.",
+        "start": 167.25,
+        "duration": 7.33
+    },
+    {
+        "text": "v.",
+        "start": 174.58,
+        "duration": 1.99
+    },
+    {
+        "text": "Over time, those connections grow stronger\nand stronger, and will likely stay in your",
+        "start": 176.57,
+        "duration": 3.69
+    },
+    {
+        "text": "brain for a while.",
+        "start": 180.26,
+        "duration": 1.0
+    },
+    {
+        "text": "On the flip side, if your brain realizes a\npiece of information isn’t worth keeping",
+        "start": 181.26,
+        "duration": 3.5
+    },
+    {
+        "text": "— like where you parked that one time three\nmonths ago — it can remove receptors.",
+        "start": 184.76,
+        "duration": 4.72
+    },
+    {
+        "text": "That way, the connection can get overwritten\nwith something more helpful.",
+        "start": 189.48,
+        "duration": 3.17
+    },
+    {
+        "text": "These stable and dynamic connections allow\nyour brain to keep what it needs, and get",
+        "start": 192.65,
+        "duration": 3.941
+    },
+    {
+        "text": "rid of the stuff it doesn’t.",
+        "start": 196.591,
+        "duration": 1.679
+    },
+    {
+        "text": "And neural networks work in a similar way.",
+        "start": 198.27,
+        "duration": 2.34
+    },
+    {
+        "text": "They start off with some basic framework for\nhow to do a task,",
+        "start": 200.61,
+        "duration": 3.45
+    },
+    {
+        "text": "and then they practice that task to refine\nthe connections between their artificial neurons.",
+        "start": 204.06,
+        "duration": 4.34
+    },
+    {
+        "text": "Like, say you want to train a network to identify\ndog breeds.",
+        "start": 208.4,
+        "duration": 3.51
+    },
+    {
+        "text": "To do it, you would first give the system\nsome basic guidelines.",
+        "start": 211.91,
+        "duration": 2.97
+    },
+    {
+        "text": "Then, you would feed it a bunch of pictures,\nand the AI would try to identify each one.",
+        "start": 214.88,
+        "duration": 5.01
+    },
+    {
+        "text": "At first, it would be terrible at this.",
+        "start": 219.89,
+        "duration": 2.63
+    },
+    {
+        "text": "But with each image, the network would make\nsmall tweaks to connections between its neurons,",
+        "start": 222.52,
+        "duration": 4.41
+    },
+    {
+        "text": "called weights.",
+        "start": 226.93,
+        "duration": 1.07
+    },
+    {
+        "text": "For example, it might make size more important\nthan paw color.",
+        "start": 228.0,
+        "duration": 3.58
+    },
+    {
+        "text": "After thousands or millions of pictures, those\ntweaks would eventually be good enough for",
+        "start": 231.58,
+        "duration": 4.56
+    },
+    {
+        "text": "the network to identify dog breeds accurately.",
+        "start": 236.14,
+        "duration": 2.31
+    },
+    {
+        "text": "The program would have strengthened the connections\nit needed,",
+        "start": 238.45,
+        "duration": 2.501
+    },
+    {
+        "text": "and scaled back the ones it didn’t, just\nlike your brain.",
+        "start": 240.951,
+        "duration": 2.459
+    },
+    {
+        "text": "Neural networks are a big step toward general\nAI, but they’re not perfect.",
+        "start": 243.41,
+        "duration": 3.63
+    },
+    {
+        "text": "Actually, in a lot of ways, they’re pretty\nnarrow, because most of them can still only",
+        "start": 247.04,
+        "duration": 4.67
+    },
+    {
+        "text": "do one thing.",
+        "start": 251.71,
+        "duration": 1.08
+    },
+    {
+        "text": "While your brain can make connections about\nall kinds of information at once,",
+        "start": 252.79,
+        "duration": 3.849
+    },
+    {
+        "text": "many neural networks have connections that\nare too weak and dynamic.",
+        "start": 256.639,
+        "duration": 2.951
+    },
+    {
+        "text": "I means that all of their weights get adjusted\nwith every new piece of data.",
+        "start": 259.59,
+        "duration": 4.0
+    },
+    {
+        "text": "So if you suddenly started feeding your network\npictures of cats instead of dogs,",
+        "start": 263.59,
+        "duration": 4.31
+    },
+    {
+        "text": "it would adjust all of the weights you worked\nso hard to perfect.",
+        "start": 267.9,
+        "duration": 3.06
+    },
+    {
+        "text": "Every connection would now be about cats.",
+        "start": 270.96,
+        "duration": 1.959
+    },
+    {
+        "text": "This problem even has a dramatic name: catastrophic\nforgetting.",
+        "start": 272.919,
+        "duration": 3.5
+    },
+    {
+        "text": "But the cool thing is, we can use other knowledge\nabout our brains to solve it.",
+        "start": 276.419,
+        "duration": 4.581
+    },
+    {
+        "text": "One approach took inspiration from the fact\nthat the brain doesn’t just go for a grab-bag",
+        "start": 281.0,
+        "duration": 4.349
+    },
+    {
+        "text": "of whatever neurons are available.",
+        "start": 285.349,
+        "duration": 1.82
+    },
+    {
+        "text": "Instead, it activates different sets of neurons\nfor different tasks.",
+        "start": 287.169,
+        "duration": 3.881
+    },
+    {
+        "text": "In a 2018 study published in PNAS, researchers\nshowed that you can do this in a neural network,",
+        "start": 291.05,
+        "duration": 5.66
+    },
+    {
+        "text": "too:",
+        "start": 296.71,
+        "duration": 1.0
+    },
+    {
+        "text": "You can make one task activate one set of\nneurons, and another task activate another",
+        "start": 297.71,
+        "duration": 3.86
+    },
+    {
+        "text": "set.",
+        "start": 301.57,
+        "duration": 1.0
+    },
+    {
+        "text": "By combining this approach with previous methods\nfrom other teams,",
+        "start": 302.57,
+        "duration": 2.559
+    },
+    {
+        "text": "these researchers were able to program a network\nthat achieved 90% accuracy on 500 tasks.",
+        "start": 305.129,
+        "duration": 5.97
+    },
+    {
+        "text": "Which isn’t perfect, but is promising.",
+        "start": 311.099,
+        "duration": 2.32
+    },
+    {
+        "text": "And the more we learn about how our brains\nrefine connections, the better these methods",
+        "start": 313.419,
+        "duration": 3.701
+    },
+    {
+        "text": "are going to get.",
+        "start": 317.12,
+        "duration": 1.0
+    },
+    {
+        "text": "Of course, catastrophic forgetting isn’t\nthe only barrier to general AI.",
+        "start": 318.12,
+        "duration": 3.97
+    },
+    {
+        "text": "Another challenge is getting systems to learn\nfrom more than just examples.",
+        "start": 322.09,
+        "duration": 3.859
+    },
+    {
+        "text": "Not every task has a huge dataset for a network\nto sort through, and anyway, who has time",
+        "start": 325.949,
+        "duration": 5.21
+    },
+    {
+        "text": "for that?",
+        "start": 331.159,
+        "duration": 1.0
+    },
+    {
+        "text": "If a program is going to think like a human,\nit has to start grasping the rules that govern",
+        "start": 332.159,
+        "duration": 3.57
+    },
+    {
+        "text": "whether an answer is correct.",
+        "start": 335.729,
+        "duration": 2.24
+    },
+    {
+        "text": "And in 2016, UK researchers came up with a\nway to achieve that.",
+        "start": 337.969,
+        "duration": 3.341
+    },
+    {
+        "text": "They relied on two concepts: a recurrent neural\nnetwork and reinforcement learning.",
+        "start": 341.31,
+        "duration": 4.72
+    },
+    {
+        "text": "A recurrent neural network uses feedback loops\nto keep tabs on what just happened and how",
+        "start": 346.03,
+        "duration": 5.169
+    },
+    {
+        "text": "that should inform an AI’s next move.",
+        "start": 351.199,
+        "duration": 2.581
+    },
+    {
+        "text": "They’re used a lot in language processing.",
+        "start": 353.78,
+        "duration": 2.54
+    },
+    {
+        "text": "For example, if a program started a sentence\nwith a noun, it would remember that.",
+        "start": 356.32,
+        "duration": 3.999
+    },
+    {
+        "text": "Then, it would use the rules of English grammar\nto tell itself that the next word should probably",
+        "start": 360.319,
+        "duration": 4.771
+    },
+    {
+        "text": "be a verb.",
+        "start": 365.09,
+        "duration": 1.449
+    },
+    {
+        "text": "Reinforcement learning is how a network can\nfigure out the best next move on its own.",
+        "start": 366.539,
+        "duration": 3.6
+    },
+    {
+        "text": "It guesses the right answer and then immediately\nreceives feedback by getting some kind of",
+        "start": 370.139,
+        "duration": 3.791
+    },
+    {
+        "text": "reward signal or lack thereof.",
+        "start": 373.93,
+        "duration": 2.079
+    },
+    {
+        "text": "Then, it uses that feedback to learn what\nto do next time.",
+        "start": 376.009,
+        "duration": 3.341
+    },
+    {
+        "text": "Going back to the language example, if an\nAI guessed that “Olivia dog” was a good",
+        "start": 379.35,
+        "duration": 3.73
+    },
+    {
+        "text": "sentence, it wouldn’t get a reward signal.",
+        "start": 383.08,
+        "duration": 3.35
+    },
+    {
+        "text": "But if it said, “Olivia ran,” it would.",
+        "start": 386.43,
+        "duration": 2.25
+    },
+    {
+        "text": "This is the approach the AI system AlphaGo\nused to beat the world’s top Go player.",
+        "start": 388.68,
+        "duration": 4.23
+    },
+    {
+        "text": "In this 2017 study, the UK team trained a\nrecurrent network using reinforcement learning,",
+        "start": 392.91,
+        "duration": 5.83
+    },
+    {
+        "text": "but they also got it to use a different, secondary\nreinforcement learning algorithm at the same",
+        "start": 398.74,
+        "duration": 4.259
+    },
+    {
+        "text": "time.",
+        "start": 402.999,
+        "duration": 1.0
+    },
+    {
+        "text": "In that way, one part of the AI learned how\nto respond to different examples,",
+        "start": 403.999,
+        "duration": 3.581
+    },
+    {
+        "text": "while the other part learned how those examples\nfell into a larger rule structure.",
+        "start": 407.58,
+        "duration": 3.679
+    },
+    {
+        "text": "They called this deep meta-reinforcement learning,",
+        "start": 411.259,
+        "duration": 2.27
+    },
+    {
+        "text": "and their approach helped the network quickly\nlearn and adapt to seven very different tasks.",
+        "start": 413.529,
+        "duration": 5.01
+    },
+    {
+        "text": "It could do things like navigate a labyrinth\nwith a changing goal and pull a series of",
+        "start": 418.539,
+        "duration": 4.13
+    },
+    {
+        "text": "rigged slot machines to get the maximum reward.",
+        "start": 422.669,
+        "duration": 2.78
+    },
+    {
+        "text": "While it might not seem as obvious, these\nsystems are based on our brains, too.",
+        "start": 425.449,
+        "duration": 3.421
+    },
+    {
+        "text": "When a system gets a reward in reinforcement\nlearning, it’s like how your brain uses",
+        "start": 428.87,
+        "duration": 4.039
+    },
+    {
+        "text": "chemicals like dopamine to give you a reward.",
+        "start": 432.909,
+        "duration": 2.671
+    },
+    {
+        "text": "That reinforcement encourages you to practice\ncertain behaviors.",
+        "start": 435.58,
+        "duration": 3.649
+    },
+    {
+        "text": "So by building a similar system into neural\nnetworks, researchers are hoping to encourage",
+        "start": 439.229,
+        "duration": 4.43
+    },
+    {
+        "text": "them to keep learning and adapting.",
+        "start": 443.659,
+        "duration": 1.961
+    },
+    {
+        "text": "Now, all of the techniques we’ve talked\nabout are great.",
+        "start": 445.62,
+        "duration": 2.22
+    },
+    {
+        "text": "A program with general intelligence should\ntotally be able to process multiple kinds",
+        "start": 447.84,
+        "duration": 3.78
+    },
+    {
+        "text": "of information, and should be able to learn\nnew rules.",
+        "start": 451.62,
+        "duration": 3.329
+    },
+    {
+        "text": "But to build a truly evolving system, we’ll\nalso need to make AI curious.",
+        "start": 454.949,
+        "duration": 4.201
+    },
+    {
+        "text": "Because having an intrinsic desire to figure\nout how stuff works and fits together is a",
+        "start": 459.15,
+        "duration": 4.579
+    },
+    {
+        "text": "big part of how we learn and explore.",
+        "start": 463.729,
+        "duration": 2.201
+    },
+    {
+        "text": "Think about kids.",
+        "start": 465.93,
+        "duration": 1.0
+    },
+    {
+        "text": "They’ll go turn over a rock and poke at\nthe bugs underneath it because exploring sounds",
+        "start": 466.93,
+        "duration": 3.669
+    },
+    {
+        "text": "fun,",
+        "start": 470.599,
+        "duration": 1.0
+    },
+    {
+        "text": "not because they were promised a reward for\nlearning.",
+        "start": 471.599,
+        "duration": 2.28
+    },
+    {
+        "text": "Of course, we can’t just push AI out into\nthe world and tell it to be home before supper.",
+        "start": 473.879,
+        "duration": 4.47
+    },
+    {
+        "text": "So instead, scientists are using video games\nto teach them curiosity.",
+        "start": 478.349,
+        "duration": 3.63
+    },
+    {
+        "text": "In 2017, Berkeley researchers managed to do\nthis using Super Mario Brothers.",
+        "start": 481.979,
+        "duration": 5.03
+    },
+    {
+        "text": "They trained their AI to predict what each\nframe of the game would look like as it explored.",
+        "start": 487.009,
+        "duration": 1.0
+    },
+    {
+        "text": "But instead of generating a reward for being\nright, this AI got a reward for being wrong.",
+        "start": 488.009,
+        "duration": 4.5
+    },
+    {
+        "text": "That is, the less reality matched its prediction,\nthe bigger the reward it got.",
+        "start": 492.509,
+        "duration": 4.541
+    },
+    {
+        "text": "Essentially, it was rewarded for being surprised.",
+        "start": 497.05,
+        "duration": 2.789
+    },
+    {
+        "text": "This led the system to explore new parts of\nthe game,",
+        "start": 499.839,
+        "duration": 2.45
+    },
+    {
+        "text": "which means the team basically programmed\nit to be curious about its environment.",
+        "start": 502.289,
+        "duration": 3.75
+    },
+    {
+        "text": "Unfortunately, it could never even beat the\nfirst level.",
+        "start": 506.039,
+        "duration": 2.85
+    },
+    {
+        "text": "But hey, it’s a start.",
+        "start": 508.889,
+        "duration": 1.671
+    },
+    {
+        "text": "Now, other projects are trying different ways\nof getting AI to be self-sufficient.",
+        "start": 510.56,
+        "duration": 4.0
+    },
+    {
+        "text": "In January 2019, a team from Columbia University\nsuccessfully got a robot arm to create an",
+        "start": 514.56,
+        "duration": 5.51
+    },
+    {
+        "text": "internal model of itself.",
+        "start": 520.07,
+        "duration": 1.51
+    },
+    {
+        "text": "It figured out what it looked like and how\nit worked without any outside input.",
+        "start": 521.58,
+        "duration": 3.73
+    },
+    {
+        "text": "It did this by trying out a thousand different\nmovements, recording each one to figure out",
+        "start": 525.31,
+        "duration": 3.95
+    },
+    {
+        "text": "which ones worked and which ones were physically\nimpossible.",
+        "start": 529.26,
+        "duration": 2.57
+    },
+    {
+        "text": "Kind of like the robot version of a baby playing\nwith its hands.",
+        "start": 531.83,
+        "duration": 3.36
+    },
+    {
+        "text": "Once it was all done, the arm could successfully\npick up and place small balls into containers",
+        "start": 535.19,
+        "duration": 5.19
+    },
+    {
+        "text": "and write with a marker",
+        "start": 540.38,
+        "duration": 1.26
+    },
+    {
+        "text": "— even though researchers never told the\narm what it could do.",
+        "start": 541.64,
+        "duration": 2.93
+    },
+    {
+        "text": "The team even replaced one of the arm’s\nparts with a deformed piece, and it quickly",
+        "start": 544.57,
+        "duration": 3.43
+    },
+    {
+        "text": "adapted to the change.",
+        "start": 548.0,
+        "duration": 1.26
+    },
+    {
+        "text": "The robot learned what it was on its own,\nand that made it easier for it to adjust to",
+        "start": 549.26,
+        "duration": 4.09
+    },
+    {
+        "text": "new situations.",
+        "start": 553.35,
+        "duration": 1.0
+    },
+    {
+        "text": "By building programs that process information\nlike our brains, and teaching these programs",
+        "start": 554.35,
+        "duration": 3.59
+    },
+    {
+        "text": "to be curious instead of just correct,",
+        "start": 557.94,
+        "duration": 2.8
+    },
+    {
+        "text": "scientists are heading down a road where AI\nmight one day be able to evolve.",
+        "start": 560.74,
+        "duration": 3.45
+    },
+    {
+        "text": "Someday, we might make a machine that learns\nto treat diseases just by learning a little",
+        "start": 564.19,
+        "duration": 4.06
+    },
+    {
+        "text": "about biochemistry,",
+        "start": 568.25,
+        "duration": 1.43
+    },
+    {
+        "text": "or one that can design cars by studying engineering.",
+        "start": 569.68,
+        "duration": 2.9
+    },
+    {
+        "text": "Essentially, we’d be making the AI equivalent\nof students —",
+        "start": 572.58,
+        "duration": 3.35
+    },
+    {
+        "text": "programs that learn to synthesize and apply\ninformation.",
+        "start": 575.93,
+        "duration": 3.14
+    },
+    {
+        "text": "But there’s a lot to figure out, because\nin reality, we don’t know everything about",
+        "start": 579.07,
+        "duration": 4.13
+    },
+    {
+        "text": "our brains work — let alone how to apply\nthose things to machines.",
+        "start": 583.2,
+        "duration": 3.66
+    },
+    {
+        "text": "We know a lot, sure, but to really make an\nAI that thinks like us…",
+        "start": 586.86,
+        "duration": 3.34
+    },
+    {
+        "text": "well, we’re going to have to understand\nourselves a little better first.",
+        "start": 590.2,
+        "duration": 4.13
+    },
+    {
+        "text": "And that’s a whole different field of research.",
+        "start": 594.33,
+        "duration": 1.89
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 596.22,
+        "duration": 2.0
+    },
+    {
+        "text": "If you want to keep exploring the universe\nwith us, you can go to youtube.com/scishow",
+        "start": 598.22,
+        "duration": 3.42
+    },
+    {
+        "text": "and subscribe.",
+        "start": 601.64,
+        "duration": 1.0
+    },
+    {
+        "text": "[ outro ]",
+        "start": 602.64,
+        "duration": 0.001
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "text": "[♪ INTRO]",
+        "start": 0.0,
+        "duration": 3.76
+    },
+    {
+        "text": "Tying our shoelaces is one of those lifelong \nskills we’re all proud to master as kids.",
+        "start": 3.76,
+        "duration": 4.96
+    },
+    {
+        "text": "It turns out that that simple act \nhas a surprisingly deep history.",
+        "start": 8.72,
+        "duration": 4.24
+    },
+    {
+        "text": "Early humans learned to tie knots before \nthey invented the axe, or even the wheel.",
+        "start": 12.96,
+        "duration": 5.92
+    },
+    {
+        "text": "And, about 500 years ago,",
+        "start": 18.88,
+        "duration": 1.44
+    },
+    {
+        "text": "the Inca are believed to have used knotted ropes \nas a way of storing huge amounts of information.",
+        "start": 20.32,
+        "duration": 6.32
+    },
+    {
+        "text": "Today, knots are everywhere you \nlook: in the ribbons around gifts,",
+        "start": 26.64,
+        "duration": 3.92
+    },
+    {
+        "text": "in the rope netting of children’s playgrounds, \nand all over traditional boats and ships.",
+        "start": 30.56,
+        "duration": 4.64
+    },
+    {
+        "text": "And they can even be in \nsome unexpected places too,",
+        "start": 35.2,
+        "duration": 2.4
+    },
+    {
+        "text": "like the ornately carved celtic \nbraids that decorate old buildings,",
+        "start": 37.6,
+        "duration": 4.16
+    },
+    {
+        "text": "and the cable ties keeping \nMars rovers neat and tidy.",
+        "start": 41.76,
+        "duration": 3.6
+    },
+    {
+        "text": "Of course, sometimes they are too everywhere.",
+        "start": 45.36,
+        "duration": 1.92
+    },
+    {
+        "text": "Like, when you’re just trying to get your \nheadphones out of your pocket, darn it.",
+        "start": 47.28,
+        "duration": 3.2
+    },
+    {
+        "text": "Fortunately, knots are more than \njust wire-based mortal enemies.",
+        "start": 50.48,
+        "duration": 3.28
+    },
+    {
+        "text": "By understanding how knots really work,",
+        "start": 53.76,
+        "duration": 2.08
+    },
+    {
+        "text": "we can use them as a tool to explore \nsome important problems in science today.",
+        "start": 55.84,
+        "duration": 4.72
+    },
+    {
+        "text": "That’s the goal of so-called knot theory, a \nrelatively new branch of mathematics which, ",
+        "start": 60.56,
+        "duration": 4.72
+    },
+    {
+        "text": "you guessed it, is all about the \nsurprisingly complex study of knots.",
+        "start": 65.28,
+        "duration": 4.8
+    },
+    {
+        "text": "It’s worth mentioning at this point that \na mathematician’s definition of a knot  ",
+        "start": 70.08,
+        "duration": 3.36
+    },
+    {
+        "text": "is probably different from what yours or mine is.",
+        "start": 73.44,
+        "duration": 3.12
+    },
+    {
+        "text": "Unlike our shoelaces, or the rope hitching a boat to the dock,",
+        "start": 76.56,
+        "duration": 3.2
+    },
+    {
+        "text": "a mathematical knot has no loose ends.",
+        "start": 79.76,
+        "duration": 3.44
+    },
+    {
+        "text": "The string can have crossings and intertwinings,",
+        "start": 83.2,
+        "duration": 2.4
+    },
+    {
+        "text": "but there can’t be any break. \nIt’s one continuous loop.",
+        "start": 85.6,
+        "duration": 4.0
+    },
+    {
+        "text": "To make a mathematical knot, imagine \nlooping a string around a box,",
+        "start": 89.6,
+        "duration": 3.84
+    },
+    {
+        "text": "and tying a loose half knot across the top.",
+        "start": 93.44,
+        "duration": 2.4
+    },
+    {
+        "text": "Then take your two loose \nends and fuse them together.",
+        "start": 95.84,
+        "duration": 3.52
+    },
+    {
+        "text": "Throw away the box and you’re left \nwith a continuous loop of string",
+        "start": 99.36,
+        "duration": 3.28
+    },
+    {
+        "text": "that’s entangled in the middle.",
+        "start": 102.64,
+        "duration": 1.92
+    },
+    {
+        "text": "Your very own mathematical knot!",
+        "start": 104.56,
+        "duration": 2.4
+    },
+    {
+        "text": "Of course, you could save \nyourself the effort and go out and",
+        "start": 106.96,
+        "duration": 2.4
+    },
+    {
+        "text": "buy a pretzel. When the two ends are \njoined, that’s another mathematical knot.",
+        "start": 109.36,
+        "duration": 4.24
+    },
+    {
+        "text": "Both of these are simple examples, but there are \nlots of ways that knots can get more complicated.",
+        "start": 113.6,
+        "duration": 5.12
+    },
+    {
+        "text": "Back in 1867, the scientist Lord Kelvin",
+        "start": 118.72,
+        "duration": 2.8
+    },
+    {
+        "text": "even suggested that the various chemical elements",
+        "start": 121.52,
+        "duration": 2.72
+    },
+    {
+        "text": "were actually different kinds of tiny \nknots suspended in the mysterious ether.",
+        "start": 124.24,
+        "duration": 6.0
+    },
+    {
+        "text": "Like, hydrogen would be one kind of \ntangle, oxygen would be another, and so on.",
+        "start": 130.24,
+        "duration": 4.72
+    },
+    {
+        "text": "It’s a nice idea, but a bad guess.",
+        "start": 134.96,
+        "duration": 2.8
+    },
+    {
+        "text": "There is no ether, and atoms turned out \nto look nothing like knotted strings.",
+        "start": 137.76,
+        "duration": 4.16
+    },
+    {
+        "text": "But Kelvin’s imaginative suggestion did \nkick-start a new kind of thinking about knots,",
+        "start": 141.92,
+        "duration": 4.88
+    },
+    {
+        "text": "one that was rooted in mathematics \nrather than aesthetics. Knot theory was born.",
+        "start": 146.8,
+        "duration": 5.44
+    },
+    {
+        "text": "Compared to some other branches of \nmathematics, like algebra and geometry,",
+        "start": 152.24,
+        "duration": 3.28
+    },
+    {
+        "text": "which have been studied for thousands of years, \nthe math of knots is only a couple centuries old.",
+        "start": 155.52,
+        "duration": 5.04
+    },
+    {
+        "text": "Although things do get pretty complicated,",
+        "start": 160.56,
+        "duration": 2.48
+    },
+    {
+        "text": "thinking about the shape of knots is actually  ",
+        "start": 163.04,
+        "duration": 2.48
+    },
+    {
+        "text": "something you can do without \nalways needing advanced math.",
+        "start": 165.52,
+        "duration": 2.72
+    },
+    {
+        "text": "Like, you don’t have to be great at calculus \nto get your head around the problem.",
+        "start": 168.24,
+        "duration": 3.36
+    },
+    {
+        "text": "And lots of breakthroughs in knot theory have",
+        "start": 171.6,
+        "duration": 2.24
+    },
+    {
+        "text": "come from researchers just thinking \nabout it in their own unique way.",
+        "start": 173.84,
+        "duration": 3.68
+    },
+    {
+        "text": "More on that in a moment, but first,",
+        "start": 177.52,
+        "duration": 1.76
+    },
+    {
+        "text": "let’s take a look at how all this \nknotty-ness is actually being used.",
+        "start": 179.28,
+        "duration": 3.76
+    },
+    {
+        "text": "Take biology, for example.",
+        "start": 183.04,
+        "duration": 1.76
+    },
+    {
+        "text": "Almost every cell in your body \ncontains around two meters of DNA,",
+        "start": 184.8,
+        "duration": 4.8
+    },
+    {
+        "text": "packed into a space less than one \nhundredth of a millimeter across.",
+        "start": 189.6,
+        "duration": 3.84
+    },
+    {
+        "text": "All that DNA has to be coiled up in a way \nthat not only fits inside a cell’s nucleus,",
+        "start": 193.44,
+        "duration": 5.28
+    },
+    {
+        "text": "but is also accessible. After all, it provides the \ninstructions for all other processes in the cell.",
+        "start": 198.72,
+        "duration": 5.68
+    },
+    {
+        "text": "But just like those headphones in your pocket,",
+        "start": 204.4,
+        "duration": 1.76
+    },
+    {
+        "text": "long strands of DNA are just dying to get tangled,",
+        "start": 206.16,
+        "duration": 3.84
+    },
+    {
+        "text": "and science has shown that the longer the \nstrand, the more likely it is to get twisted up.",
+        "start": 210.0,
+        "duration": 4.8
+    },
+    {
+        "text": "So biologists are looking to knot theory to \nsee how DNA manages to always stay ordered.",
+        "start": 214.8,
+        "duration": 6.08
+    },
+    {
+        "text": "The DNA in bacteria is a \nparticularly good target, because,",
+        "start": 220.88,
+        "duration": 3.2
+    },
+    {
+        "text": "just like in the mathematical \nideal, bacterial DNA is usually",
+        "start": 224.08,
+        "duration": 3.84
+    },
+    {
+        "text": "arranged in a single continuous loop.",
+        "start": 227.92,
+        "duration": 2.4
+    },
+    {
+        "text": "DNA’s famous, twisting \ndouble-helix structure means that,",
+        "start": 230.32,
+        "duration": 3.12
+    },
+    {
+        "text": "when a bacterium replicates its \ngenetic material during reproduction,",
+        "start": 233.44,
+        "duration": 3.84
+    },
+    {
+        "text": "it inevitably creates knots that would \nkill the microbe if left unchecked.",
+        "start": 237.28,
+        "duration": 5.04
+    },
+    {
+        "text": "But, biologists have discovered a special \nkind of enzyme that finds these tangles,",
+        "start": 242.32,
+        "duration": 5.44
+    },
+    {
+        "text": "snips open the loop, straightens things \nout, and seals everything up again.",
+        "start": 247.76,
+        "duration": 4.56
+    },
+    {
+        "text": "Knot theory helps biologists understand how  ",
+        "start": 252.32,
+        "duration": 2.72
+    },
+    {
+        "text": "long it will take the enzymes to do \ntheir job on various kinds of twists.",
+        "start": 255.04,
+        "duration": 3.76
+    },
+    {
+        "text": "And by making antibiotics that \ntarget these knot-busting enzymes,",
+        "start": 258.8,
+        "duration": 4.08
+    },
+    {
+        "text": "medical researchers are seeking to harness \ntangles in the fight against infection.",
+        "start": 262.88,
+        "duration": 4.8
+    },
+    {
+        "text": "Scientists are also developing new and interesting \nmaterials made from knotted nanoparticles.",
+        "start": 267.68,
+        "duration": 6.16
+    },
+    {
+        "text": "Synthesising tiny knots is \ntricky business, but, in 2017,",
+        "start": 273.84,
+        "duration": 4.48
+    },
+    {
+        "text": "chemists created what they call the ‘octofoil knot’ out of just 192 atoms.",
+        "start": 278.32,
+        "duration": 6.32
+    },
+    {
+        "text": "They still aren’t sure of its properties, \nbut hope it will be useful for creating  ",
+        "start": 284.64,
+        "duration": 3.92
+    },
+    {
+        "text": "things like ultra-light armor \nor flexible surgical sutures.",
+        "start": 288.56,
+        "duration": 3.92
+    },
+    {
+        "text": "But for scientists and engineers to \ntruly harness the power of knots,",
+        "start": 292.48,
+        "duration": 3.52
+    },
+    {
+        "text": "they need to know more about \nthem. That’s where math comes in.",
+        "start": 296.0,
+        "duration": 4.0
+    },
+    {
+        "text": "The first challenge for mathematicians is to try",
+        "start": 300.0,
+        "duration": 2.0
+    },
+    {
+        "text": "and figure out how many different \ntypes of knots there actually are.",
+        "start": 302.0,
+        "duration": 4.32
+    },
+    {
+        "text": "One way to classify them is by how \nmany crossings a given knot has.",
+        "start": 306.32,
+        "duration": 3.76
+    },
+    {
+        "text": "That is, how many times the string \npasses over or under itself.",
+        "start": 310.08,
+        "duration": 4.24
+    },
+    {
+        "text": "Some knots can look really complicated,",
+        "start": 314.32,
+        "duration": 1.84
+    },
+    {
+        "text": "but can actually be untangled to be much simpler.",
+        "start": 316.16,
+        "duration": 2.96
+    },
+    {
+        "text": "The key is to find the minimum number of \ncrossings inherent in a given arrangement.",
+        "start": 319.12,
+        "duration": 4.64
+    },
+    {
+        "text": "The simplest kind of knot is actually something",
+        "start": 323.76,
+        "duration": 1.76
+    },
+    {
+        "text": "most of us wouldn’t consider a knot at \nall, just a closed loop with no crossings.",
+        "start": 325.52,
+        "duration": 4.8
+    },
+    {
+        "text": "Mathematicians call it the \ntrivial knot, or the unknot.",
+        "start": 330.32,
+        "duration": 3.36
+    },
+    {
+        "text": "You might know it as a circle.",
+        "start": 333.68,
+        "duration": 1.6
+    },
+    {
+        "text": "Because of the way a looped string works,  ",
+        "start": 335.28,
+        "duration": 1.92
+    },
+    {
+        "text": "there are no knots at all that \nhave only one or two crossings.",
+        "start": 337.2,
+        "duration": 4.0
+    },
+    {
+        "text": "There’s one knot with three \ncrossings, called the trefoil knot,",
+        "start": 341.2,
+        "duration": 3.12
+    },
+    {
+        "text": "and one with four, called the figure eight.",
+        "start": 344.32,
+        "duration": 2.08
+    },
+    {
+        "text": "So far, so simple. But from five crossings \nupwards, things get more complicated.",
+        "start": 346.4,
+        "duration": 5.04
+    },
+    {
+        "text": "There are two different knots with five crossings.",
+        "start": 351.44,
+        "duration": 2.16
+    },
+    {
+        "text": "No matter how much you move them around,",
+        "start": 353.6,
+        "duration": 2.08
+    },
+    {
+        "text": "it’s impossible to turn one \nfive-crossing knot into the other.",
+        "start": 355.68,
+        "duration": 3.6
+    },
+    {
+        "text": "Similarly, there are three \nunique knots with six crossings,",
+        "start": 359.28,
+        "duration": 3.44
+    },
+    {
+        "text": "seven knots with seven crossings, and, after \nthat, the numbers start getting out of hand.",
+        "start": 362.72,
+        "duration": 5.12
+    },
+    {
+        "text": "By the time you get to 10 crossings, \nthere are 165 completely different,  ",
+        "start": 367.84,
+        "duration": 4.64
+    },
+    {
+        "text": "unique knots that can’t be simplified any further.",
+        "start": 372.48,
+        "duration": 3.28
+    },
+    {
+        "text": "To try and keep track of them, \nmathematicians in the late 19th century  ",
+        "start": 375.76,
+        "duration": 3.28
+    },
+    {
+        "text": "tried creating tables of the \nunique, or so-called prime knots.",
+        "start": 379.04,
+        "duration": 4.24
+    },
+    {
+        "text": "These tables have been an invaluable tool in \nunderstanding more complex knots, since some  ",
+        "start": 383.28,
+        "duration": 4.64
+    },
+    {
+        "text": "tangles with many crossings can actually be broken \ndown into a collection of more simple knots.",
+        "start": 387.92,
+        "duration": 5.52
+    },
+    {
+        "text": "Those are called composite knots, and just \nlike large numbers can be broken down into  ",
+        "start": 393.44,
+        "duration": 4.64
+    },
+    {
+        "text": "their prime factors, large composite knots \ncan be broken down into their prime knots.",
+        "start": 398.08,
+        "duration": 5.04
+    },
+    {
+        "text": "Unfortunately, it’s not \nalways that straightforward.",
+        "start": 403.12,
+        "duration": 2.4
+    },
+    {
+        "text": "It can actually be really hard to figure \nout how many unique knots there are,",
+        "start": 405.52,
+        "duration": 3.92
+    },
+    {
+        "text": "and if the knot you happen to be \nthinking about has already been found.",
+        "start": 409.44,
+        "duration": 3.44
+    },
+    {
+        "text": "This ambiguity is especially troublesome \nas the knots get more complex.",
+        "start": 412.88,
+        "duration": 3.68
+    },
+    {
+        "text": "Like, in 1974, a mathematician found an error",
+        "start": 416.56,
+        "duration": 3.36
+    },
+    {
+        "text": "in the knot tables that had been \naround for nearly 100 years.",
+        "start": 419.92,
+        "duration": 3.52
+    },
+    {
+        "text": "Two of the unique knots listed with 10 crossings",
+        "start": 423.44,
+        "duration": 2.16
+    },
+    {
+        "text": "were actually duplicates of one another, \nand no one had noticed for all that time.",
+        "start": 425.6,
+        "duration": 4.64
+    },
+    {
+        "text": "I, personally, don’t actually \nfind that that surprising.",
+        "start": 430.24,
+        "duration": 3.6
+    },
+    {
+        "text": "How do you keep all this in your head?",
+        "start": 433.84,
+        "duration": 1.6
+    },
+    {
+        "text": "It’s such a tricky problem that even computers \nhaven’t been able to solve it completely yet.",
+        "start": 435.44,
+        "duration": 4.56
+    },
+    {
+        "text": "Knot theorists have developed \na bunch of other ways",
+        "start": 440.0,
+        "duration": 2.4
+    },
+    {
+        "text": "to classify knots with algorithms, \nequations, or geometric descriptions.",
+        "start": 442.4,
+        "duration": 4.32
+    },
+    {
+        "text": "One way is to flatten out a knot and imagine it as  ",
+        "start": 446.72,
+        "duration": 2.96
+    },
+    {
+        "text": "a complicated roadway with \noverpasses and underpasses.",
+        "start": 449.68,
+        "duration": 3.44
+    },
+    {
+        "text": "You can then describe the route numerically, \nwriting which underpass matches each overpass",
+        "start": 453.12,
+        "duration": 5.84
+    },
+    {
+        "text": "Other, more involved techniques relate the numbers",
+        "start": 458.96,
+        "duration": 2.8
+    },
+    {
+        "text": "of different types of crossings \nto each other in an equation",
+        "start": 461.76,
+        "duration": 3.44
+    },
+    {
+        "text": "to find out if knots are equivalent.",
+        "start": 465.2,
+        "duration": 1.84
+    },
+    {
+        "text": "And there is even an approach that involves  ",
+        "start": 467.04,
+        "duration": 1.68
+    },
+    {
+        "text": "trying to color knots, to help \ngroup them and tell them apart.",
+        "start": 468.72,
+        "duration": 3.92
+    },
+    {
+        "text": "All of these tools have helped \nmathematicians over the years,",
+        "start": 472.64,
+        "duration": 2.72
+    },
+    {
+        "text": "but the problem is, none of them are perfect.",
+        "start": 475.36,
+        "duration": 2.56
+    },
+    {
+        "text": "If any one of these approaches \nreveals that your knot",
+        "start": 477.92,
+        "duration": 2.48
+    },
+    {
+        "text": "is different to others you’re comparing it with, \nthen great! You might have found a new knot.",
+        "start": 480.4,
+        "duration": 4.32
+    },
+    {
+        "text": "But if they say it’s equivalent, you \ncan’t be 100% sure that that’s the case.",
+        "start": 484.72,
+        "duration": 4.4
+    },
+    {
+        "text": "Sometimes one mathematical solution \ncan describe several different knots.",
+        "start": 489.12,
+        "duration": 4.96
+    },
+    {
+        "text": "So that particular method isn’t \nenough to distinguish them.",
+        "start": 494.08,
+        "duration": 3.28
+    },
+    {
+        "text": "And, if that wasn’t complicated enough, you \ncan always add extra dimensions to the mix.",
+        "start": 497.36,
+        "duration": 4.24
+    },
+    {
+        "text": "In 4D, so the three dimensions of \nspace and one dimension of time,",
+        "start": 501.6,
+        "duration": 4.16
+    },
+    {
+        "text": "instead of knotting loops of 2D string, \nmathematicians consider hollow knotted spheres.",
+        "start": 505.76,
+        "duration": 6.0
+    },
+    {
+        "text": "If that hurts your brain a little, join the club.",
+        "start": 511.76,
+        "duration": 2.48
+    },
+    {
+        "text": "This is some seriously mind-bending stuff.",
+        "start": 514.24,
+        "duration": 2.4
+    },
+    {
+        "text": "Mathematicians study these knotted spheres",
+        "start": 516.64,
+        "duration": 2.16
+    },
+    {
+        "text": "by considering what they would look like if \nthey sliced through them at various points. \n  ",
+        "start": 518.8,
+        "duration": 4.88
+    },
+    {
+        "text": "A slice through an unknotted \nsphere would be the trivial knot; a simple loop.",
+        "start": 523.68,
+        "duration": 4.56
+    },
+    {
+        "text": "But if you slice through a knotted sphere,",
+        "start": 528.24,
+        "duration": 1.76
+    },
+    {
+        "text": "you could end up with one of \nthe other known prime knots.",
+        "start": 530.0,
+        "duration": 2.72
+    },
+    {
+        "text": "Figuring out ‘sliceness’, that \nis, whether a given knot",
+        "start": 532.72,
+        "duration": 3.12
+    },
+    {
+        "text": "can be produced by slicing up a 4D knotted sphere,",
+        "start": 535.84,
+        "duration": 3.2
+    },
+    {
+        "text": "is another way that theorists can try \nto distinguish between different knots.",
+        "start": 539.04,
+        "duration": 3.76
+    },
+    {
+        "text": "And that’s actually been done for all of \nthe known knots with up to twelve crossings.",
+        "start": 542.8,
+        "duration": 4.4
+    },
+    {
+        "text": "One particular knot, with eleven crossings,  ",
+        "start": 547.2,
+        "duration": 2.32
+    },
+    {
+        "text": "had evaded sliceness classification \nfor decades, until very recently.",
+        "start": 549.52,
+        "duration": 4.56
+    },
+    {
+        "text": "The problem was finally solved \nby a grad student in 2020,",
+        "start": 554.08,
+        "duration": 3.2
+    },
+    {
+        "text": "after just a few days of \nconsidering it in her spare time.",
+        "start": 557.28,
+        "duration": 3.36
+    },
+    {
+        "text": "Four-dimensional knotted spheres are \ngood fun for masochistic mathematicians,",
+        "start": 560.64,
+        "duration": 3.84
+    },
+    {
+        "text": "but they’re also helping \nphysicists in their mission",
+        "start": 564.48,
+        "duration": 2.96
+    },
+    {
+        "text": "to understand the strange and \nunpredictable quantum world.",
+        "start": 567.44,
+        "duration": 3.6
+    },
+    {
+        "text": "Quantum particles don’t typically \nfollow the shortest path from A to B;",
+        "start": 571.04,
+        "duration": 4.24
+    },
+    {
+        "text": "instead, they can take any number \nof strange loops and zigzags.",
+        "start": 575.28,
+        "duration": 3.84
+    },
+    {
+        "text": "So, to try and predict the behavior \nof things on the quantum scale,",
+        "start": 579.12,
+        "duration": 3.84
+    },
+    {
+        "text": "physicists need to consider all the \npossible routes these particles could take.",
+        "start": 582.96,
+        "duration": 4.4
+    },
+    {
+        "text": "Knot theory, and its goal of reducing \ncomplex entanglements into simpler,",
+        "start": 587.36,
+        "duration": 4.24
+    },
+    {
+        "text": "more fundamental forms, is \nhelping solve that problem.",
+        "start": 591.6,
+        "duration": 3.52
+    },
+    {
+        "text": "The numerical approaches to classifying knots,",
+        "start": 595.12,
+        "duration": 2.16
+    },
+    {
+        "text": "while not perfect from a mathematical perspective,",
+        "start": 597.28,
+        "duration": 2.24
+    },
+    {
+        "text": "are nevertheless helpful for \npredicting most likely quantum paths.",
+        "start": 599.52,
+        "duration": 3.92
+    },
+    {
+        "text": "And that information helps physicists not \nonly understand the weird quantum world,",
+        "start": 603.44,
+        "duration": 5.44
+    },
+    {
+        "text": "but also how to harness it to build \nthings like quantum computers.",
+        "start": 608.88,
+        "duration": 3.44
+    },
+    {
+        "text": "What’s more, once mathematicians have \nconquered knots in four dimensions,",
+        "start": 612.32,
+        "duration": 3.52
+    },
+    {
+        "text": "they can add even more to help them picture",
+        "start": 615.84,
+        "duration": 2.72
+    },
+    {
+        "text": "the strange intersecting dimensions \nimplied by string theory.",
+        "start": 618.56,
+        "duration": 3.76
+    },
+    {
+        "text": "Knots have been a part of human",
+        "start": 622.32,
+        "duration": 1.36
+    },
+    {
+        "text": "culture for almost as long as \nhumans have been around, but",
+        "start": 623.68,
+        "duration": 3.12
+    },
+    {
+        "text": "it’s only now that we’re realizing their \npotential to make sense of the world.",
+        "start": 626.8,
+        "duration": 5.52
+    },
+    {
+        "text": "So, next time you’re tying your shoelaces,",
+        "start": 632.32,
+        "duration": 2.48
+    },
+    {
+        "text": "try not to get overwhelmed. You’ve \nbeen doing this since you were five.",
+        "start": 634.8,
+        "duration": 3.52
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow,  ",
+        "start": 638.32,
+        "duration": 1.68
+    },
+    {
+        "text": "and thanks to our patrons for \nhelping us make it happen.",
+        "start": 640.0,
+        "duration": 8.64
+    },
+    {
+        "text": "If you want to tie the knot with us, you \ncan get started at patreon.com/scishow.",
+        "start": 648.64,
+        "duration": 5.345
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 653.985,
+        "duration": 10.735
+    }
+]

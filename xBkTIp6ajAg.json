@@ -1,0 +1,1112 @@
+[
+    {
+        "text": "Today is gonna be about planar graphs. Graphs that can be embedded in the plane.",
+        "start": 0.039,
+        "duration": 4.361
+    },
+    {
+        "text": "(Brady: Okay. So what's a graph and what's a plane and what's embedding?)\n- I'll tell you all about that",
+        "start": 4.4,
+        "duration": 4.209
+    },
+    {
+        "text": "So a graph",
+        "start": 8.61,
+        "duration": 0.909
+    },
+    {
+        "text": "consists of a bunch of points, that we call vertices, and then some pairs of vertices are joined by a line that we call an edge",
+        "start": 9.519,
+        "duration": 6.5
+    },
+    {
+        "text": "and - like this. And some pairs of vertices don't have anything between them. So for example, this is a graph,",
+        "start": 16.02,
+        "duration": 5.399
+    },
+    {
+        "text": "this is also a graph called the house. \n- (Brady: You actually call that a house?)\n- We actually call that a house, yes",
+        "start": 21.42,
+        "duration": 4.139
+    },
+    {
+        "text": "We also - it's official name is",
+        "start": 26.17,
+        "duration": 2.0
+    },
+    {
+        "text": "P5 complement. It's nickname is house",
+        "start": 28.63,
+        "duration": 2.809
+    },
+    {
+        "text": "(Brady: Professor when I was at school a graph to me had like an x and a y-axis and a line and things like that,)",
+        "start": 31.779,
+        "duration": 7.13
+    },
+    {
+        "text": "(but this is not what that looked like)\n- Completely unrelated, it's just an unfortunate",
+        "start": 38.91,
+        "duration": 3.689
+    },
+    {
+        "text": "overloading of a word. Completely different concept at all.\n- (Brady: Okay, cool. So this is what our graph - this is a real graph?)",
+        "start": 43.84,
+        "duration": 6.259
+    },
+    {
+        "text": "Yes, exactly. There we go. Thank you, somebody for - somebody who understands.",
+        "start": 50.1,
+        "duration": 3.209
+    },
+    {
+        "text": "(Brady: Okay)",
+        "start": 53.35,
+        "duration": 0.5
+    },
+    {
+        "text": "And then",
+        "start": 53.85,
+        "duration": 0.849
+    },
+    {
+        "text": "the question is which graphs can you draw -",
+        "start": 54.699,
+        "duration": 2.21
+    },
+    {
+        "text": "so this is a plane - piece of paper is a plane, and the question is which graphs can you draw in the plane",
+        "start": 56.91,
+        "duration": 4.259
+    },
+    {
+        "text": "so that edges don't intersect.",
+        "start": 61.899,
+        "duration": 1.82
+    },
+    {
+        "text": "So what does the mean edges don't intersect?",
+        "start": 63.719,
+        "duration": 1.811
+    },
+    {
+        "text": "Don't uh, intersect where they shouldn't. Like for example in this graph this edge and this edge intersect over here",
+        "start": 65.53,
+        "duration": 5.779
+    },
+    {
+        "text": "but we meant it. They will intersect over here because they have a common vertex over here. But for example if I make",
+        "start": 71.31,
+        "duration": 6.15
+    },
+    {
+        "text": "this drawing.",
+        "start": 78.13,
+        "duration": 0.89
+    },
+    {
+        "text": "So right so the vertices are 1, 2, 3, 4 the edges are 1, 2, 3.",
+        "start": 79.02,
+        "duration": 3.9
+    },
+    {
+        "text": "This edge and that edge they intersect and it's not a fair intersection.",
+        "start": 83.11,
+        "duration": 4.159
+    },
+    {
+        "text": "They just intersect because I drew it like this. I could have drawn it like that.",
+        "start": 87.27,
+        "duration": 4.68
+    },
+    {
+        "text": "So a graph is planar if you can draw it in the plane or in a piece of paper in such a way that two edges",
+        "start": 92.189,
+        "duration": 5.28
+    },
+    {
+        "text": "only intersect where you intended them to intersect, only intersect at a vertex.",
+        "start": 97.47,
+        "duration": 3.329
+    },
+    {
+        "text": "(Brady: Professor, if you draw a graph and edges intersect)",
+        "start": 101.35,
+        "duration": 3.47
+    },
+    {
+        "text": "(does that mean it's not a graph, or it's invalid or it's like breaking the rules? Or is it just a different kind of graph?)",
+        "start": 105.31,
+        "duration": 5.599
+    },
+    {
+        "text": "It's a different kind of graph. It's a - so a graph,",
+        "start": 111.009,
+        "duration": 2.69
+    },
+    {
+        "text": "this is a graph and this is a graph it's called an abstract graph. And then you can ask about or talk about",
+        "start": 113.799,
+        "duration": 5.54
+    },
+    {
+        "text": "planar embedding of a graph. And what that means is that you've drawn it like this.",
+        "start": 119.439,
+        "duration": 3.98
+    },
+    {
+        "text": "This is a graph but not a planar embedding.",
+        "start": 123.61,
+        "duration": 3.709
+    },
+    {
+        "text": "This is only illegal if what you're after is planar embedding.\n- (Brady: Is a planar embedding)",
+        "start": 127.39,
+        "duration": 4.279
+    },
+    {
+        "text": "(somehow better?)\n- It's probably, possibly good for some applications,",
+        "start": 132.25,
+        "duration": 4.58
+    },
+    {
+        "text": "like if you want to, I don't know build a side component or something,",
+        "start": 136.83,
+        "duration": 3.059
+    },
+    {
+        "text": "which I don't know anything about. But it's just it's just another property right and maths,",
+        "start": 139.89,
+        "duration": 3.959
+    },
+    {
+        "text": "what do we do? We think of an object, we think of a property and then we say, do all the subject have this property?",
+        "start": 143.849,
+        "duration": 4.38
+    },
+    {
+        "text": "Do some of the subjects has this property? Can you tell if you have this property what other property do you have?",
+        "start": 148.23,
+        "duration": 5.369
+    },
+    {
+        "text": "Can you characterise when you have this property? So being planar",
+        "start": 153.67,
+        "duration": 3.349
+    },
+    {
+        "text": "is a property some graphs have and some graphs don't have. And I actually haven't told you what planar means yet",
+        "start": 157.09,
+        "duration": 5.36
+    },
+    {
+        "text": "I think. I told you what the planar embedding is, but I haven't told you what what a planar graph is.",
+        "start": 162.45,
+        "duration": 4.319
+    },
+    {
+        "text": "(Brady: Okay)\n- So graph is planar if it has a planar embedding.",
+        "start": 166.84,
+        "duration": 2.389
+    },
+    {
+        "text": "For example, this graph has a planar embedding, namely that one. This graph also has a planar embedding, namely this one. This graph",
+        "start": 169.989,
+        "duration": 7.309
+    },
+    {
+        "text": "no matter how hard you try it does not have a planar embedding.\n- (Brady: You couldn't cheat?)",
+        "start": 177.43,
+        "duration": 3.559
+    },
+    {
+        "text": "(or manipulate and move the - )\n- That is exactly right. That is exactly what it means. Here's an example that looks almost almost as complicated",
+        "start": 181.019,
+        "duration": 6.54
+    },
+    {
+        "text": "as that, right? This is only different from that by one vertex?",
+        "start": 187.56,
+        "duration": 4.199
+    },
+    {
+        "text": "But this you could actually embed in the plane because what you do is you -",
+        "start": 192.37,
+        "duration": 3.949
+    },
+    {
+        "text": "let me number the vertices so you believe me it's an embedding.",
+        "start": 196.84,
+        "duration": 3.019
+    },
+    {
+        "text": "And then you do this.",
+        "start": 200.799,
+        "duration": 2.39
+    },
+    {
+        "text": "Right. So let me explain why this is the same with that. What do we care about?",
+        "start": 203.769,
+        "duration": 3.89
+    },
+    {
+        "text": "We care about vertices and we care about which pairs of vertices are adjacent.",
+        "start": 207.66,
+        "duration": 2.849
+    },
+    {
+        "text": "So vertices are 1, 2, 3, 4; 1, 2, 3, 4, that's fair. Now here every pair is adjacent.",
+        "start": 210.819,
+        "duration": 5.27
+    },
+    {
+        "text": "So let's check that also here every pair is adjacent. 1's adjacent to 2, 2 to 3, 3 to 1, 4's adjacent to them all.",
+        "start": 216.25,
+        "duration": 6.199
+    },
+    {
+        "text": "So this abstract graph is the same as that abstract graph. This is a planar embedding,",
+        "start": 222.73,
+        "duration": 5.479
+    },
+    {
+        "text": "this is not a planar embedding. \n- (Brady: Do edges have to be straight?)",
+        "start": 228.37,
+        "duration": 3.05
+    },
+    {
+        "text": "(Like could you have kept these vertices in the same places and like drawn curved lines around the place to - as well, or?)",
+        "start": 231.42,
+        "duration": 6.179
+    },
+    {
+        "text": "I just don't have to be straight here, there's a theorem that says that anything you can embed with curved edges you can embed with",
+        "start": 237.7,
+        "duration": 5.119
+    },
+    {
+        "text": "straight edges, it doesn't matter.",
+        "start": 242.819,
+        "duration": 2.0
+    },
+    {
+        "text": "So you're asking, me could I leave these four vertices is in place and just",
+        "start": 245.139,
+        "duration": 3.5
+    },
+    {
+        "text": "make the edges? Yes.",
+        "start": 249.76,
+        "duration": 2.0
+    },
+    {
+        "text": "So what I would do is - so I could make this",
+        "start": 251.769,
+        "duration": 3.44
+    },
+    {
+        "text": "completely",
+        "start": 255.849,
+        "duration": 1.92
+    },
+    {
+        "text": "asymmetric, ugly drawing;",
+        "start": 257.769,
+        "duration": 2.0
+    },
+    {
+        "text": "or this beautiful drawing. \n- (Brady: Yes, less elegant)\n- But on that hand, you know, they see - you can see how to get it?",
+        "start": 259.989,
+        "duration": 6.02
+    },
+    {
+        "text": "Which I think has a lot of value. \n- (Brady: So it's not a conjecture)",
+        "start": 266.05,
+        "duration": 2.989
+    },
+    {
+        "text": "(it's a theorem that any planar graph that you can draw with curved edges you could also have done with straight edges?)\n- That's right",
+        "start": 269.249,
+        "duration": 5.85
+    },
+    {
+        "text": "(Brady: Oh, that's really cool)\n- Yeah it is amazing. \n- (Brady: Yeah)",
+        "start": 275.499,
+        "duration": 2.45
+    },
+    {
+        "text": "I learned this theorem in the right time in my life,",
+        "start": 278.56,
+        "duration": 2.269
+    },
+    {
+        "text": "I wasn't in high school when I heard about it. So I am in fact as amazed by this theorem as",
+        "start": 280.83,
+        "duration": 4.29
+    },
+    {
+        "text": "everyone should be. I haven't, you know become jaded by the time I heard of it.",
+        "start": 285.24,
+        "duration": 3.63
+    },
+    {
+        "text": "(Brady: But you can't do any trickery with that like you did there. That one's - )\n- No trickery",
+        "start": 288.9,
+        "duration": 4.229
+    },
+    {
+        "text": "There is one more where we can't do any trickery. And in fact, that's usually how introduction to planar graphs is taught.",
+        "start": 293.129,
+        "duration": 5.399
+    },
+    {
+        "text": "So you have three houses and three utilities.",
+        "start": 298.87,
+        "duration": 3.43
+    },
+    {
+        "text": "(Brady: Those houses are actual houses. They're not these houses?)\n- I don't know, you tell me",
+        "start": 302.3,
+        "duration": 3.999
+    },
+    {
+        "text": "No way to tell. You want to put lines between the utilities and the houses, right?",
+        "start": 307.539,
+        "duration": 4.369
+    },
+    {
+        "text": "You want to put power lines and phone lines and",
+        "start": 311.909,
+        "duration": 2.22
+    },
+    {
+        "text": "water pipes and it's important that they don't intersect each other so that you can fix,",
+        "start": 314.529,
+        "duration": 4.61
+    },
+    {
+        "text": "fix them independently or some other story along this lines.",
+        "start": 319.419,
+        "duration": 2.779
+    },
+    {
+        "text": "And so the question is can you? And so, you know, you can try you can, you can - let me connect this one like that",
+        "start": 322.509,
+        "duration": 4.94
+    },
+    {
+        "text": "So you got the electricity and you can connect the phone and we can go here. Maybe you can go",
+        "start": 327.999,
+        "duration": 5.96
+    },
+    {
+        "text": "there and maybe you can go there. And you can start with the water but you're not gonna be able to finish. And",
+        "start": 335.11,
+        "duration": 7.1
+    },
+    {
+        "text": "err and it's a theorem that, you know, that you're not going to be able to finish.",
+        "start": 342.909,
+        "duration": 3.32
+    },
+    {
+        "text": "So if I draw this as a graph, everybody on the first side is adjacent to everybody on the second side.",
+        "start": 346.229,
+        "duration": 4.919
+    },
+    {
+        "text": "And this is called K3,3",
+        "start": 351.149,
+        "duration": 1.05
+    },
+    {
+        "text": "By the way, this guy's called K5. So K5 and K3,3 are two graphs that do not have planar embeddings.",
+        "start": 352.199,
+        "duration": 5.639
+    },
+    {
+        "text": "They're the two smallest graphs that don't have planar bearings. Okay. K somewhat",
+        "start": 357.93,
+        "duration": 3.989
+    },
+    {
+        "text": "mystifyingly stands for complete, and so this is the complete graph on 5 vertices.",
+        "start": 362.86,
+        "duration": 5.149
+    },
+    {
+        "text": "Now this is not the complete graph, because obviously there are some pairs that are non-adjacent.",
+        "start": 368.979,
+        "duration": 3.529
+    },
+    {
+        "text": "You have two sides, this side and that side and everybody on this side is adjacent to everybody on that side.",
+        "start": 372.55,
+        "duration": 5.539
+    },
+    {
+        "text": "That's called the complete bipartite graph. And the way we know that it's complete bipartite and not complete is",
+        "start": 378.129,
+        "duration": 5.36
+    },
+    {
+        "text": "because we have two numbers instead of one number. So Ka,b is a here b there, all adjacent to each other.",
+        "start": 383.74,
+        "duration": 5.72
+    },
+    {
+        "text": "Kt is t, all pairwise adjacent.",
+        "start": 390.069,
+        "duration": 2.66
+    },
+    {
+        "text": "(Brady: Is there a way to tell what's embeddable and what's not?)",
+        "start": 392.729,
+        "duration": 2.369
+    },
+    {
+        "text": "So there is a way to tell. And actually",
+        "start": 395.31,
+        "duration": 1.59
+    },
+    {
+        "text": "it's a lovely theorem, it's a theorem I can tell you. You believed me that we can't embed those.",
+        "start": 396.9,
+        "duration": 3.69
+    },
+    {
+        "text": "In fact, maybe you shouldn't believe me but",
+        "start": 400.59,
+        "duration": 2.0
+    },
+    {
+        "text": "there is an elegant proof of it. That you - you need to know a little bit of geometry,",
+        "start": 403.15,
+        "duration": 3.589
+    },
+    {
+        "text": "you need to know something called Euler's formula and from that",
+        "start": 406.74,
+        "duration": 2.489
+    },
+    {
+        "text": "it's actually very easy to see that these two graphs are not embeddable. But let's say we believe that they're not embeddable.",
+        "start": 409.229,
+        "duration": 5.67
+    },
+    {
+        "text": "So then here's another graph",
+        "start": 414.91,
+        "duration": 1.28
+    },
+    {
+        "text": "that's not embeddable. If I take an edge here and I, what we call, subdivide it.",
+        "start": 416.19,
+        "duration": 4.5
+    },
+    {
+        "text": "Which means I'll draw some vertices in the middle. That's another graph that's not embeddable, right?",
+        "start": 420.69,
+        "duration": 4.259
+    },
+    {
+        "text": "Because if I could embed this, now just delete vertices and so and you can do that for any edge you like here, you can do there.",
+        "start": 424.949,
+        "duration": 5.55
+    },
+    {
+        "text": "So these are all not embeddable, and they're called subdivisions. So we know that K5 is not embeddable,",
+        "start": 431.5,
+        "duration": 5.149
+    },
+    {
+        "text": "K3,3 is not embeddable. And we also convinced ourselves that subdivisions of them - they're all not embeddable. And the theorem is,",
+        "start": 437.41,
+        "duration": 7.879
+    },
+    {
+        "text": "that's it. The only reason some graph is not embeddable is because there's one of those bad guys sitting in it. You can",
+        "start": 446.02,
+        "duration": 6.86
+    },
+    {
+        "text": "delete vertices and edges from it and find either a subdivision of K3,3 or a subdivision of K5. It's called Kuratowski's theorem.",
+        "start": 453.43,
+        "duration": 6.37
+    },
+    {
+        "text": "(Brady: Just those two?)\n- Just those two. It's a miracle!",
+        "start": 460.6,
+        "duration": 2.9
+    },
+    {
+        "text": "(Brady: So though - they're like the two spanners in the works?)",
+        "start": 464.169,
+        "duration": 3.831
+    },
+    {
+        "text": "Exactly. So the theorem is: G is planar if - if and only if, G has",
+        "start": 468.0,
+        "duration": 5.909
+    },
+    {
+        "text": "no",
+        "start": 474.729,
+        "duration": 2.0
+    },
+    {
+        "text": "K5",
+        "start": 476.74,
+        "duration": 1.23
+    },
+    {
+        "text": "subdivision and no K3,3.",
+        "start": 477.97,
+        "duration": 2.72
+    },
+    {
+        "text": "(Brady: Wow!)",
+        "start": 481.389,
+        "duration": 1.081
+    },
+    {
+        "text": "(So every single graph - if I drew you the most complicated graph in the world, and it was non embeddable)",
+        "start": 482.47,
+        "duration": 7.069
+    },
+    {
+        "text": "(you'd be able to find that in there somewhere?)\n- That is correct. That's the only reason something is not embeddable.",
+        "start": 489.849,
+        "duration": 5.6
+    },
+    {
+        "text": "So these graphs they're very special. What - most graphs are not like that. It's a very",
+        "start": 495.449,
+        "duration": 3.75
+    },
+    {
+        "text": "special kind of graphs that are embeddable.",
+        "start": 499.72,
+        "duration": 2.569
+    },
+    {
+        "text": "It's not that other graphs - that other graphs are bad, other graphs are good. In fact, most of the work is with other graphs.",
+        "start": 502.96,
+        "duration": 5.63
+    },
+    {
+        "text": "It's just if you work with those, you can suddenly prove much stronger theorems. It's like",
+        "start": 508.96,
+        "duration": 5.36
+    },
+    {
+        "text": "you know, you can think of all numbers or you can think of powers of",
+        "start": 516.459,
+        "duration": 3.11
+    },
+    {
+        "text": "2. \n- (Brady: Or prime - ) \n- Prime numbers",
+        "start": 520.419,
+        "duration": 2.0
+    },
+    {
+        "text": "Powers of 2 are much nicer than normal numbers. It's not that the other numbers are not good,",
+        "start": 522.849,
+        "duration": 4.52
+    },
+    {
+        "text": "it's just you know - in some way the other numbers are more interesting because they're not powers of two.",
+        "start": 527.37,
+        "duration": 4.02
+    },
+    {
+        "text": "But there are certain theorems",
+        "start": 531.46,
+        "duration": 1.46
+    },
+    {
+        "text": "you can only prove about powers of two. So probably the most famous theory about - theorem about planar graphs is that",
+        "start": 532.92,
+        "duration": 5.279
+    },
+    {
+        "text": "you can colour them with four colours. So maybe I'll talk about a little bit?",
+        "start": 538.39,
+        "duration": 4.16
+    },
+    {
+        "text": "So colouring graphs means you want to colour the vertices so that adjacent vertices get different colours.",
+        "start": 543.19,
+        "duration": 6.859
+    },
+    {
+        "text": "So, for example in this graph I can colour this blue, and this green,",
+        "start": 550.6,
+        "duration": 5.15
+    },
+    {
+        "text": "and also this green, this red, and just like this blue and, and this is a colouring. This is a colouring with three colours. So",
+        "start": 557.11,
+        "duration": 7.909
+    },
+    {
+        "text": "adjacent pairs get different colours; this is colouring with three colours. And you can see that you couldn't do it with fewer colours than three,",
+        "start": 565.81,
+        "duration": 6.349
+    },
+    {
+        "text": "because you have these three vertices all pairwise adjacent. So you have to use three.",
+        "start": 572.62,
+        "duration": 4.399
+    },
+    {
+        "text": "And now the question is if I give you a graph what the smallest number of colours you can use to colour it?",
+        "start": 577.54,
+        "duration": 5.989
+    },
+    {
+        "text": "So one thing you immediately notice is that if you have a bunch of vertices all pairwise adjacent then",
+        "start": 583.529,
+        "duration": 5.19
+    },
+    {
+        "text": "you need at least that many colours. In fact sometimes we need many more. This is a whole different",
+        "start": 590.41,
+        "duration": 3.919
+    },
+    {
+        "text": "branch of math that's very active at the moment, but",
+        "start": 594.88,
+        "duration": 2.09
+    },
+    {
+        "text": "often you may need many more but at least this is an obvious lower bound. Now, in planar graphs",
+        "start": 598.9,
+        "duration": 5.359
+    },
+    {
+        "text": "we know that you don't have a K5. So you're not gonna have five vertices all pairwise adjacent.",
+        "start": 604.78,
+        "duration": 5.51
+    },
+    {
+        "text": "So at least this naive bound only would give you, that you need four. And the theorem is four is enough.",
+        "start": 610.33,
+        "duration": 5.51
+    },
+    {
+        "text": "The theorem is, it's called the four colour theorem. Every planar graph is four-colourable. It comes from map colouring.",
+        "start": 615.84,
+        "duration": 5.039
+    },
+    {
+        "text": "It was actually conjectured by, by a",
+        "start": 621.04,
+        "duration": 3.08
+    },
+    {
+        "text": "cartographer in, in",
+        "start": 624.76,
+        "duration": 1.98
+    },
+    {
+        "text": "eighteen something 1863 I think. Where he said if I have a map and I want to colour the countries so that",
+        "start": 626.74,
+        "duration": 6.559
+    },
+    {
+        "text": "adjacent countries get different colours,",
+        "start": 633.88,
+        "duration": 2.0
+    },
+    {
+        "text": "how many colours do I need? I seem to be noticing that four is always enough. And uhh,",
+        "start": 636.19,
+        "duration": 4.399
+    },
+    {
+        "text": "and the answer is yes, four is always enough, because you can easily",
+        "start": 641.5,
+        "duration": 3.889
+    },
+    {
+        "text": "translate colouring a map into colouring a planar graph. What you do is take a map,",
+        "start": 645.91,
+        "duration": 4.91
+    },
+    {
+        "text": "alright, so the countries are this outside ring and then those triangles. So now I'm going to make a graph out of it.",
+        "start": 650.92,
+        "duration": 5.809
+    },
+    {
+        "text": "I'm going to put a vertex in the middle of each country. If two countries share the border",
+        "start": 656.73,
+        "duration": 3.899
+    },
+    {
+        "text": "I'm going to put an edge between the two vertices. Another way to think about it",
+        "start": 660.63,
+        "duration": 3.009
+    },
+    {
+        "text": "I'm kind of, turning the edges. This edge used to go like this between these two countries, but now I'm gonna put it",
+        "start": 663.639,
+        "duration": 4.8
+    },
+    {
+        "text": "perpendicularly. So because this is a mess let me just draw the blue graph again,",
+        "start": 669.32,
+        "duration": 3.709
+    },
+    {
+        "text": "so this is already better, but now I can draw it even better. You can do that.",
+        "start": 673.43,
+        "duration": 3.829
+    },
+    {
+        "text": "So anyway, so the black thing there was a map. The blue thing",
+        "start": 678.38,
+        "duration": 3.529
+    },
+    {
+        "text": "here is a planar graph. If I colour the vertices of this planar graph and",
+        "start": 681.91,
+        "duration": 3.57
+    },
+    {
+        "text": "then I use these colours to colour the regions of this map, the countries of this map,",
+        "start": 685.73,
+        "duration": 5.179
+    },
+    {
+        "text": "it's it's the same problem. And so now the theorem is that",
+        "start": 690.91,
+        "duration": 2.909
+    },
+    {
+        "text": "it's enough to use four colours. For all of this to be true",
+        "start": 694.579,
+        "duration": 3.2
+    },
+    {
+        "text": "you need some slightly technical assumptions. Like in this map, you can't have Alaska. The countries have to be contiguous or as in math we say",
+        "start": 697.779,
+        "duration": 7.41
+    },
+    {
+        "text": "connected. Because it's very easy to construct",
+        "start": 705.19,
+        "duration": 1.78
+    },
+    {
+        "text": "a map where each country is a hundred islands and you need a hundred colours to colour it, but that's not what we mean.",
+        "start": 706.97,
+        "duration": 6.02
+    },
+    {
+        "text": "What we mean is we only - all countries are connected. \n- (Brady: With the planar embedding, like if there was a really complicated)",
+        "start": 712.99,
+        "duration": 5.82
+    },
+    {
+        "text": "(graph here on the board. Could you look at it and)",
+        "start": 719.389,
+        "duration": 2.51
+    },
+    {
+        "text": "(apply some algorithm or rule to be able to - )\n- So you must be mind reading, I just wanted to talk about that.",
+        "start": 722.449,
+        "duration": 4.369
+    },
+    {
+        "text": "(Brady: Okay, do you need more paper?)\n[both laugh]",
+        "start": 727.04,
+        "duration": 2.0
+    },
+    {
+        "text": "So I don't want to talk to you about an algorithm,",
+        "start": 729.29,
+        "duration": 1.52
+    },
+    {
+        "text": "but I'm going to talk to you about how to tell that something is not embeddable - or",
+        "start": 730.81,
+        "duration": 3.299
+    },
+    {
+        "text": "one way to tell that something is not embeddable, right? So I said",
+        "start": 734.269,
+        "duration": 2.36
+    },
+    {
+        "text": "K5",
+        "start": 737.69,
+        "duration": 1.98
+    },
+    {
+        "text": "is not embeddable; and I say",
+        "start": 739.67,
+        "duration": 2.359
+    },
+    {
+        "text": "just, just name it because it's hard to prove. But actually is it just one fact I tell you, then",
+        "start": 743.089,
+        "duration": 6.229
+    },
+    {
+        "text": "it's going to be easy to prove. And the fact is, the theorem is",
+        "start": 749.319,
+        "duration": 3.18
+    },
+    {
+        "text": "in a planar graph:",
+        "start": 753.139,
+        "duration": 1.531
+    },
+    {
+        "text": "let",
+        "start": 754.67,
+        "duration": 1.05
+    },
+    {
+        "text": "G be a planar graph. And then we have V is the number of vertices,",
+        "start": 755.72,
+        "duration": 7.669
+    },
+    {
+        "text": "and E is the",
+        "start": 763.76,
+        "duration": 2.0
+    },
+    {
+        "text": "number of edges. Then E is at most 3 V minus 6. So now let's check that this guy fails.",
+        "start": 765.889,
+        "duration": 6.44
+    },
+    {
+        "text": "Because it has five vertices, right.",
+        "start": 772.85,
+        "duration": 2.359
+    },
+    {
+        "text": "And the number of edges - so all pairs of five vertices, that's 10 edges. And now you can see that",
+        "start": 775.88,
+        "duration": 7.369
+    },
+    {
+        "text": "10 is not less or equal than",
+        "start": 784.37,
+        "duration": 2.779
+    },
+    {
+        "text": "3 times 5 minus 6. So this is for sure not planar.",
+        "start": 787.67,
+        "duration": 4.159
+    },
+    {
+        "text": "So now armed with this wisdom you want to prove that this is not planar.\n- (Brady: Our electricity, water, telephone one)",
+        "start": 792.019,
+        "duration": 6.75
+    },
+    {
+        "text": "So let's count. The number of verses is six. The number of edges is nine.",
+        "start": 798.77,
+        "duration": 4.77
+    },
+    {
+        "text": "And then if you do that, it does come out sadly.",
+        "start": 803.54,
+        "duration": 2.669
+    },
+    {
+        "text": "Nine is at most",
+        "start": 806.91,
+        "duration": 2.0
+    },
+    {
+        "text": "three times six minus six so that's not gonna work. This is not an if and only if. This is just a -",
+        "start": 809.52,
+        "duration": 6.17
+    },
+    {
+        "text": "a tool.",
+        "start": 816.96,
+        "duration": 2.0
+    },
+    {
+        "text": "But in fact you can",
+        "start": 819.39,
+        "duration": 2.45
+    },
+    {
+        "text": "look at the proof of this theorem more closely and you'll find out that if your graph doesn't have cycles, cycles of length three,",
+        "start": 822.39,
+        "duration": 7.31
+    },
+    {
+        "text": "then you can improve this. \n- (Brady: So there's another test?)\n- Yes. G is not planar and",
+        "start": 831.09,
+        "duration": 6.47
+    },
+    {
+        "text": "G has no triangle, then E",
+        "start": 838.26,
+        "duration": 4.519
+    },
+    {
+        "text": "is at most 2 V minus 4.",
+        "start": 843.75,
+        "duration": 3.589
+    },
+    {
+        "text": "(Brady: Alright)",
+        "start": 847.339,
+        "duration": 1.331
+    },
+    {
+        "text": "And then - so first of all, let's check that this is going to be helpful. So E is nine,",
+        "start": 848.67,
+        "duration": 5.09
+    },
+    {
+        "text": "2 times 6 minus 4 is not at least 9. That's a good start. Now",
+        "start": 854.4,
+        "duration": 5.45
+    },
+    {
+        "text": "we just need to convince ourselves that we can use this theorem to test this graph.",
+        "start": 859.85,
+        "duration": 4.049
+    },
+    {
+        "text": "So what do I need to check? I need to check that this doesn't have triangles.",
+        "start": 863.9,
+        "duration": 2.309
+    },
+    {
+        "text": "But if you think about this for a minute, this graph has a property that vertices come in two flavours and",
+        "start": 866.34,
+        "duration": 5.66
+    },
+    {
+        "text": "all the edges - and all the edges you have go between them. Look at a cycle, start looking at this vertex.",
+        "start": 872.19,
+        "duration": 6.079
+    },
+    {
+        "text": "It's gonna go right, left, right, left, right, left and eventually it has to come back.",
+        "start": 878.27,
+        "duration": 5.04
+    },
+    {
+        "text": "So it's gonna have an even number of vertices. So in particular it doesn't have triangles. So now you might ask",
+        "start": 883.31,
+        "duration": 6.449
+    },
+    {
+        "text": "well, you know this worked very well to test;",
+        "start": 889.76,
+        "duration": 2.0
+    },
+    {
+        "text": "maybe it's true",
+        "start": 891.87,
+        "duration": 0.95
+    },
+    {
+        "text": "the other way. If I give you a graph and I promise - and I thought well it makes sense right if I give you a",
+        "start": 892.82,
+        "duration": 4.48
+    },
+    {
+        "text": "bunch of vertices and in order to embed it you need that",
+        "start": 897.3,
+        "duration": 2.629
+    },
+    {
+        "text": "there aren't too many edges, right. If there's too many edges it's too much of a mess,",
+        "start": 899.93,
+        "duration": 3.75
+    },
+    {
+        "text": "you can't embed it. And maybe it's true that if I give you a graph that has a bunch of vertices",
+        "start": 903.68,
+        "duration": 4.739
+    },
+    {
+        "text": "and there are not too many edges, then you can embed it. But...that doesn't work unfortunately. So false: E,",
+        "start": 908.42,
+        "duration": 6.78
+    },
+    {
+        "text": "small as a function of V, implies",
+        "start": 916.44,
+        "duration": 2.359
+    },
+    {
+        "text": "planar. \n- (Brady: But you'd think it would be easier if there were fewer edges)",
+        "start": 919.83,
+        "duration": 3.17
+    },
+    {
+        "text": "(like - or is that not the case?)\n- Well, so let me show you an example and you tell me if it's easier or harder.",
+        "start": 923.04,
+        "duration": 4.889
+    },
+    {
+        "text": "Start with the K5 which we know is a bad guy, and now draw lots and lots and lots of",
+        "start": 928.6,
+        "duration": 6.26
+    },
+    {
+        "text": "vertices, just - they're called isolated vertices that start no edges.",
+        "start": 935.35,
+        "duration": 3.53
+    },
+    {
+        "text": "So this has a million billion gazillion vertices and ten edges. And",
+        "start": 938.98,
+        "duration": 4.7
+    },
+    {
+        "text": "you can't embed it. Because it's got this K5 that you have to embed. And",
+        "start": 943.959,
+        "duration": 3.59
+    },
+    {
+        "text": "you can say, well this is just a cheat and - disconnected graphs. But make it connected. Put maybe",
+        "start": 947.89,
+        "duration": 5.059
+    },
+    {
+        "text": "let's call the pass.",
+        "start": 953.89,
+        "duration": 1.68
+    },
+    {
+        "text": "Or the thing like this that goes through all of these vertices.\n- (Brady: I would argue that's still bit of a cheat)",
+        "start": 955.57,
+        "duration": 5.089
+    },
+    {
+        "text": "(but, alright)\n- I mean this may be a way to make it sufficiently connected and -",
+        "start": 960.66,
+        "duration": 4.35
+    },
+    {
+        "text": "If you'd like to watch even more from this interview where we go into the professor's work on",
+        "start": 965.47,
+        "duration": 4.61
+    },
+    {
+        "text": "so-called perfect graphs,",
+        "start": 970.66,
+        "duration": 2.0
+    },
+    {
+        "text": "then we've put that over on Numberphile2, our second channel. There'll be links on the screen and down in the video description",
+        "start": 972.94,
+        "duration": 6.2
+    }
+]

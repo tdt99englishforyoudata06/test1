@@ -1,0 +1,1267 @@
+[
+    {
+        "text": "we're going to be doing is we're going",
+        "start": 0.0,
+        "duration": 2.85
+    },
+    {
+        "text": "to learn be learning about the basics of",
+        "start": 1.23,
+        "duration": 2.88
+    },
+    {
+        "text": "physical computing using a",
+        "start": 2.85,
+        "duration": 3.659
+    },
+    {
+        "text": "microcontroller and a couple sensors and",
+        "start": 4.11,
+        "duration": 4.199
+    },
+    {
+        "text": "a little bit of programming on the",
+        "start": 6.509,
+        "duration": 3.181
+    },
+    {
+        "text": "desktop and we're going to make a ball",
+        "start": 8.309,
+        "duration": 4.41
+    },
+    {
+        "text": "move around on the screen by moving our",
+        "start": 9.69,
+        "duration": 7.47
+    },
+    {
+        "text": "hand like like a weed excellent okay",
+        "start": 12.719,
+        "duration": 6.121
+    },
+    {
+        "text": "let's get started all right let's get",
+        "start": 17.16,
+        "duration": 4.05
+    },
+    {
+        "text": "started so to do this we're going to",
+        "start": 18.84,
+        "duration": 4.14
+    },
+    {
+        "text": "need a few parts we're going to start",
+        "start": 21.21,
+        "duration": 3.75
+    },
+    {
+        "text": "with a microcontroller and a",
+        "start": 22.98,
+        "duration": 3.42
+    },
+    {
+        "text": "microcontroller is just a little tiny",
+        "start": 24.96,
+        "duration": 4.17
+    },
+    {
+        "text": "computer this one is an arduino",
+        "start": 26.4,
+        "duration": 5.909
+    },
+    {
+        "text": "microcontroller and what it is is it",
+        "start": 29.13,
+        "duration": 5.85
+    },
+    {
+        "text": "lets us write programs on it and we can",
+        "start": 32.309,
+        "duration": 4.381
+    },
+    {
+        "text": "attach sensors to it or we can attach",
+        "start": 34.98,
+        "duration": 4.259
+    },
+    {
+        "text": "motors to it or buzzers or speakers or",
+        "start": 36.69,
+        "duration": 5.88
+    },
+    {
+        "text": "lights and we can both read physical",
+        "start": 39.239,
+        "duration": 5.82
+    },
+    {
+        "text": "actions and we can make things happen",
+        "start": 42.57,
+        "duration": 6.419
+    },
+    {
+        "text": "like lights or movement and so forth in",
+        "start": 45.059,
+        "duration": 5.191
+    },
+    {
+        "text": "this case what we're going to do is",
+        "start": 48.989,
+        "duration": 4.111
+    },
+    {
+        "text": "we're going to attach this sensor right",
+        "start": 50.25,
+        "duration": 4.469
+    },
+    {
+        "text": "here to it it's called an accelerometer",
+        "start": 53.1,
+        "duration": 5.549
+    },
+    {
+        "text": "and it measures tilt so we'll be able to",
+        "start": 54.719,
+        "duration": 5.671
+    },
+    {
+        "text": "tilt this back and forth in two",
+        "start": 58.649,
+        "duration": 3.75
+    },
+    {
+        "text": "directions will be able to know roughly",
+        "start": 60.39,
+        "duration": 4.199
+    },
+    {
+        "text": "how far we're tilted in other words",
+        "start": 62.399,
+        "duration": 3.751
+    },
+    {
+        "text": "we're basically building our own wii",
+        "start": 64.589,
+        "duration": 6.481
+    },
+    {
+        "text": "controller so the first thing we need to",
+        "start": 66.15,
+        "duration": 8.039
+    },
+    {
+        "text": "do is we need to power it up we'll plug",
+        "start": 71.07,
+        "duration": 5.49
+    },
+    {
+        "text": "it into the computer it's going to draw",
+        "start": 74.189,
+        "duration": 4.201
+    },
+    {
+        "text": "its power from the computer's USB port",
+        "start": 76.56,
+        "duration": 5.52
+    },
+    {
+        "text": "and then we're going to open up a",
+        "start": 78.39,
+        "duration": 5.49
+    },
+    {
+        "text": "programming environment called arduino",
+        "start": 82.08,
+        "duration": 5.46
+    },
+    {
+        "text": "and we're going to write a program for",
+        "start": 83.88,
+        "duration": 5.4
+    },
+    {
+        "text": "it this particular piece of code you",
+        "start": 87.54,
+        "duration": 3.75
+    },
+    {
+        "text": "would get from my website of thai",
+        "start": 89.28,
+        "duration": 10.5
+    },
+    {
+        "text": "goonette /p comp pcom p / code and",
+        "start": 91.29,
+        "duration": 10.5
+    },
+    {
+        "text": "this is a fairly common example though",
+        "start": 99.78,
+        "duration": 3.9
+    },
+    {
+        "text": "you can see this a lot of versions of",
+        "start": 101.79,
+        "duration": 3.6
+    },
+    {
+        "text": "this all over the web if you just disser",
+        "start": 103.68,
+        "duration": 6.38
+    },
+    {
+        "text": "charred reno + accelerometer check",
+        "start": 105.39,
+        "duration": 8.04
+    },
+    {
+        "text": "alright so let's talk through what's",
+        "start": 110.06,
+        "duration": 5.47
+    },
+    {
+        "text": "happening so the first thing that's",
+        "start": 113.43,
+        "duration": 4.469
+    },
+    {
+        "text": "going on on the board here is that the",
+        "start": 115.53,
+        "duration": 6.15
+    },
+    {
+        "text": "accelerometer has particular pins for",
+        "start": 117.899,
+        "duration": 6.72
+    },
+    {
+        "text": "output and input you can see that",
+        "start": 121.68,
+        "duration": 8.309
+    },
+    {
+        "text": "they're labeled st XYZ ground and vdd",
+        "start": 124.619,
+        "duration": 8.731
+    },
+    {
+        "text": "and ground and vdd our ground and",
+        "start": 129.989,
+        "duration": 5.191
+    },
+    {
+        "text": "voltage that's where it gets its power",
+        "start": 133.35,
+        "duration": 5.52
+    },
+    {
+        "text": "from st is just a self-test pin if you",
+        "start": 135.18,
+        "duration": 5.88
+    },
+    {
+        "text": "put voltage on it it makes it forces if",
+        "start": 138.87,
+        "duration": 6.69
+    },
+    {
+        "text": "this test itself and x y&z refer to the",
+        "start": 141.06,
+        "duration": 7.5
+    },
+    {
+        "text": "three axes x excuse me x in this",
+        "start": 145.56,
+        "duration": 6.24
+    },
+    {
+        "text": "direction why in this direction and z in",
+        "start": 148.56,
+        "duration": 8.399
+    },
+    {
+        "text": "this direction when you tilt it what",
+        "start": 151.8,
+        "duration": 7.17
+    },
+    {
+        "text": "happens is the voltage on one of those",
+        "start": 156.959,
+        "duration": 5.821
+    },
+    {
+        "text": "three pins x y and z will change and it",
+        "start": 158.97,
+        "duration": 5.549
+    },
+    {
+        "text": "will change relative to the amount that",
+        "start": 162.78,
+        "duration": 5.61
+    },
+    {
+        "text": "you tilt it so in order to run it what",
+        "start": 164.519,
+        "duration": 5.131
+    },
+    {
+        "text": "we need to do is we need to give it",
+        "start": 168.39,
+        "duration": 4.86
+    },
+    {
+        "text": "power and ground what we're going to do",
+        "start": 169.65,
+        "duration": 6.089
+    },
+    {
+        "text": "is we're going to set up two of the pins",
+        "start": 173.25,
+        "duration": 4.65
+    },
+    {
+        "text": "on the microcontroller here to act as",
+        "start": 175.739,
+        "duration": 5.041
+    },
+    {
+        "text": "power and ground and three of them to",
+        "start": 177.9,
+        "duration": 4.92
+    },
+    {
+        "text": "act as what we call analog inputs that",
+        "start": 180.78,
+        "duration": 4.11
+    },
+    {
+        "text": "means they're going to read the voltage",
+        "start": 182.82,
+        "duration": 4.41
+    },
+    {
+        "text": "the changing voltage as an input and",
+        "start": 184.89,
+        "duration": 3.87
+    },
+    {
+        "text": "they're going to convert it into a",
+        "start": 187.23,
+        "duration": 5.09
+    },
+    {
+        "text": "digital number in the computer's memory",
+        "start": 188.76,
+        "duration": 5.58
+    },
+    {
+        "text": "so we're going to plug it into the board",
+        "start": 192.32,
+        "duration": 8.5
+    },
+    {
+        "text": "and then in our code here we've got a",
+        "start": 194.34,
+        "duration": 8.76
+    },
+    {
+        "text": "couple lines at the very top that do",
+        "start": 200.82,
+        "duration": 4.65
+    },
+    {
+        "text": "just what I described the first one",
+        "start": 203.1,
+        "duration": 4.62
+    },
+    {
+        "text": "first set of lines are these ones that",
+        "start": 205.47,
+        "duration": 5.91
+    },
+    {
+        "text": "say pinmode that tells the computer",
+        "start": 207.72,
+        "duration": 5.79
+    },
+    {
+        "text": "whether the pins that we're using our",
+        "start": 211.38,
+        "duration": 4.44
+    },
+    {
+        "text": "inputs that is if they're measuring",
+        "start": 213.51,
+        "duration": 3.72
+    },
+    {
+        "text": "voltage coming in from something rather",
+        "start": 215.82,
+        "duration": 3.449
+    },
+    {
+        "text": "or outputs meaning that they're",
+        "start": 217.23,
+        "duration": 6.24
+    },
+    {
+        "text": "outputting voltage to another device in",
+        "start": 219.269,
+        "duration": 7.001
+    },
+    {
+        "text": "our case pens 14 18",
+        "start": 223.47,
+        "duration": 4.84
+    },
+    {
+        "text": "19 are going to be outputs because",
+        "start": 226.27,
+        "duration": 4.32
+    },
+    {
+        "text": "they're going to be the power and ground",
+        "start": 228.31,
+        "duration": 6.75
+    },
+    {
+        "text": "in the self-test control so once we've",
+        "start": 230.59,
+        "duration": 6.96
+    },
+    {
+        "text": "done that we're going to set it's",
+        "start": 235.06,
+        "duration": 4.23
+    },
+    {
+        "text": "appropriately there so that self-test",
+        "start": 237.55,
+        "duration": 4.2
+    },
+    {
+        "text": "wants to be high so it's turned off hi",
+        "start": 239.29,
+        "duration": 4.47
+    },
+    {
+        "text": "means that it's putting a high voltage",
+        "start": 241.75,
+        "duration": 4.41
+    },
+    {
+        "text": "on the pin low means that is putting a",
+        "start": 243.76,
+        "duration": 4.41
+    },
+    {
+        "text": "low voltage on the pit in our case",
+        "start": 246.16,
+        "duration": 4.92
+    },
+    {
+        "text": "that's five votes for high zero volts",
+        "start": 248.17,
+        "duration": 8.61
+    },
+    {
+        "text": "per ground so that goes high Brown goes",
+        "start": 251.08,
+        "duration": 9.48
+    },
+    {
+        "text": "low power goes high and then finally",
+        "start": 256.78,
+        "duration": 6.3
+    },
+    {
+        "text": "we're also turning on in 13 which",
+        "start": 260.56,
+        "duration": 4.32
+    },
+    {
+        "text": "happens to be connected to a little",
+        "start": 263.08,
+        "duration": 4.14
+    },
+    {
+        "text": "light emitting diode or LED on the board",
+        "start": 264.88,
+        "duration": 4.11
+    },
+    {
+        "text": "we're using that as a power light",
+        "start": 267.22,
+        "duration": 3.48
+    },
+    {
+        "text": "because you can't have a electronic",
+        "start": 268.99,
+        "duration": 8.4
+    },
+    {
+        "text": "device with that power leg so then what",
+        "start": 270.7,
+        "duration": 7.56
+    },
+    {
+        "text": "we're going to do is we're going to",
+        "start": 277.39,
+        "duration": 2.58
+    },
+    {
+        "text": "write our own little protocol to",
+        "start": 278.26,
+        "duration": 3.24
+    },
+    {
+        "text": "communicate between the computer and the",
+        "start": 279.97,
+        "duration": 3.45
+    },
+    {
+        "text": "desktop and it's going to be a very",
+        "start": 281.5,
+        "duration": 3.87
+    },
+    {
+        "text": "polite protocol we're going to set it up",
+        "start": 283.42,
+        "duration": 4.38
+    },
+    {
+        "text": "so that this computer is not going to do",
+        "start": 285.37,
+        "duration": 5.01
+    },
+    {
+        "text": "anything until this computer says may I",
+        "start": 287.8,
+        "duration": 5.1
+    },
+    {
+        "text": "have some data so it's just going to sit",
+        "start": 290.38,
+        "duration": 3.99
+    },
+    {
+        "text": "around waiting for data to come in and",
+        "start": 292.9,
+        "duration": 4.56
+    },
+    {
+        "text": "then it's going to send one set of data",
+        "start": 294.37,
+        "duration": 6.84
+    },
+    {
+        "text": "back to the other computer once it gets",
+        "start": 297.46,
+        "duration": 8.0
+    },
+    {
+        "text": "something it reads its readings from the",
+        "start": 301.21,
+        "duration": 7.92
+    },
+    {
+        "text": "three channels three sensors the x y&z",
+        "start": 305.46,
+        "duration": 8.77
+    },
+    {
+        "text": "and it prints them out and sends them to",
+        "start": 309.13,
+        "duration": 9.12
+    },
+    {
+        "text": "the desktop computer so I'm going to run",
+        "start": 314.23,
+        "duration": 7.17
+    },
+    {
+        "text": "that and show you that now so I'm going",
+        "start": 318.25,
+        "duration": 4.26
+    },
+    {
+        "text": "to start up what's and see that",
+        "start": 321.4,
+        "duration": 2.88
+    },
+    {
+        "text": "basically it's just this back and forth",
+        "start": 322.51,
+        "duration": 4.86
+    },
+    {
+        "text": "protocol me saying something and it's",
+        "start": 324.28,
+        "duration": 5.01
+    },
+    {
+        "text": "saying something back and you can also",
+        "start": 327.37,
+        "duration": 4.65
+    },
+    {
+        "text": "see that as I tilt the sensor the",
+        "start": 329.29,
+        "duration": 5.43
+    },
+    {
+        "text": "numbers change so for example if I tilt",
+        "start": 332.02,
+        "duration": 5.43
+    },
+    {
+        "text": "it way down like this we should see the",
+        "start": 334.72,
+        "duration": 4.949
+    },
+    {
+        "text": "y-axis change because we can see that",
+        "start": 337.45,
+        "duration": 4.44
+    },
+    {
+        "text": "the y-axis is the one that tilts in this",
+        "start": 339.669,
+        "duration": 6.651
+    },
+    {
+        "text": "direction so i tilt like that",
+        "start": 341.89,
+        "duration": 5.87
+    },
+    {
+        "text": "see the second number which is the",
+        "start": 346.32,
+        "duration": 6.39
+    },
+    {
+        "text": "y-axis way down at 511 if I tilt all the",
+        "start": 347.76,
+        "duration": 8.7
+    },
+    {
+        "text": "way in the other direction then what we",
+        "start": 352.71,
+        "duration": 6.18
+    },
+    {
+        "text": "get is 624 so we can see that's a big",
+        "start": 356.46,
+        "duration": 5.1
+    },
+    {
+        "text": "change between the two what that number",
+        "start": 358.89,
+        "duration": 5.01
+    },
+    {
+        "text": "means it's kind of irrelevant it's kind",
+        "start": 361.56,
+        "duration": 5.73
+    },
+    {
+        "text": "of like asking you know does this amp go",
+        "start": 363.9,
+        "duration": 6.36
+    },
+    {
+        "text": "to 11 well why is 11 matter to one more",
+        "start": 367.29,
+        "duration": 6.18
+    },
+    {
+        "text": "than 10 in our case we're just going to",
+        "start": 370.26,
+        "duration": 5.19
+    },
+    {
+        "text": "use that range of numbers to move",
+        "start": 373.47,
+        "duration": 8.22
+    },
+    {
+        "text": "something on the screen okay so we've",
+        "start": 375.45,
+        "duration": 7.98
+    },
+    {
+        "text": "got that going in that direction let's",
+        "start": 381.69,
+        "duration": 3.0
+    },
+    {
+        "text": "just see if the other direction is",
+        "start": 383.43,
+        "duration": 3.27
+    },
+    {
+        "text": "working as well so if I tilt all the way",
+        "start": 384.69,
+        "duration": 4.01
+    },
+    {
+        "text": "this way the first number should change",
+        "start": 386.7,
+        "duration": 6.03
+    },
+    {
+        "text": "and there we see it at 495 and if I tilt",
+        "start": 388.7,
+        "duration": 7.0
+    },
+    {
+        "text": "that the other direction now we see it's",
+        "start": 392.73,
+        "duration": 5.82
+    },
+    {
+        "text": "616 so we can see that both axes are",
+        "start": 395.7,
+        "duration": 6.78
+    },
+    {
+        "text": "working pretty well ok the next thing",
+        "start": 398.55,
+        "duration": 5.58
+    },
+    {
+        "text": "we're going to do is we're going to",
+        "start": 402.48,
+        "duration": 3.24
+    },
+    {
+        "text": "write a program in another programming",
+        "start": 404.13,
+        "duration": 3.96
+    },
+    {
+        "text": "environment to read the data on the",
+        "start": 405.72,
+        "duration": 3.99
+    },
+    {
+        "text": "computer and to draw something on the",
+        "start": 408.09,
+        "duration": 6.45
+    },
+    {
+        "text": "screen we're going to use a programming",
+        "start": 409.71,
+        "duration": 8.22
+    },
+    {
+        "text": "environment called processing that is in",
+        "start": 414.54,
+        "duration": 5.22
+    },
+    {
+        "text": "fact the environment that Arduino was",
+        "start": 417.93,
+        "duration": 5.73
+    },
+    {
+        "text": "originally based on and it's a",
+        "start": 419.76,
+        "duration": 5.79
+    },
+    {
+        "text": "programming environment again very",
+        "start": 423.66,
+        "duration": 3.63
+    },
+    {
+        "text": "simply written so that people who don't",
+        "start": 425.55,
+        "duration": 3.21
+    },
+    {
+        "text": "have a lot of experience programming can",
+        "start": 427.29,
+        "duration": 2.82
+    },
+    {
+        "text": "nonetheless get going with a pretty",
+        "start": 428.76,
+        "duration": 3.69
+    },
+    {
+        "text": "quick this program is going to take",
+        "start": 430.11,
+        "duration": 3.78
+    },
+    {
+        "text": "those extra my readings and it's going",
+        "start": 432.45,
+        "duration": 4.59
+    },
+    {
+        "text": "to translate them into the movement of a",
+        "start": 433.89,
+        "duration": 6.96
+    },
+    {
+        "text": "ball on screen without explaining all of",
+        "start": 437.04,
+        "duration": 5.16
+    },
+    {
+        "text": "the code I'll tell you that there are",
+        "start": 440.85,
+        "duration": 3.54
+    },
+    {
+        "text": "three main parts to it there's what we",
+        "start": 442.2,
+        "duration": 4.14
+    },
+    {
+        "text": "call the setup and that's this section",
+        "start": 444.39,
+        "duration": 6.24
+    },
+    {
+        "text": "here and in the setup we basically set",
+        "start": 446.34,
+        "duration": 7.32
+    },
+    {
+        "text": "the size of the screen and we open our",
+        "start": 450.63,
+        "duration": 5.4
+    },
+    {
+        "text": "communications port and we set a few",
+        "start": 453.66,
+        "duration": 4.68
+    },
+    {
+        "text": "parameters here and there then there's",
+        "start": 456.03,
+        "duration": 4.32
+    },
+    {
+        "text": "what's called the draw and that's the",
+        "start": 458.34,
+        "duration": 3.39
+    },
+    {
+        "text": "thing that happens over and over again",
+        "start": 460.35,
+        "duration": 3.81
+    },
+    {
+        "text": "and it just draws the ball on the screen",
+        "start": 461.73,
+        "duration": 5.82
+    },
+    {
+        "text": "and it draws its position based on some",
+        "start": 464.16,
+        "duration": 5.04
+    },
+    {
+        "text": "variables that we're going to get from",
+        "start": 467.55,
+        "duration": 4.29
+    },
+    {
+        "text": "the microcontroller and finally there's",
+        "start": 469.2,
+        "duration": 5.209
+    },
+    {
+        "text": "what's called the serial event",
+        "start": 471.84,
+        "duration": 6.379
+    },
+    {
+        "text": "cereal event is the part that reads the",
+        "start": 474.409,
+        "duration": 9.41
+    },
+    {
+        "text": "data in from the microcontroller and",
+        "start": 478.219,
+        "duration": 8.28
+    },
+    {
+        "text": "prints it out so that we can see the",
+        "start": 483.819,
+        "duration": 4.03
+    },
+    {
+        "text": "whole thing the whole thing is running",
+        "start": 486.499,
+        "duration": 5.43
+    },
+    {
+        "text": "it looks kind of like this we can see",
+        "start": 487.849,
+        "duration": 5.85
+    },
+    {
+        "text": "there's our ball and it's a little",
+        "start": 491.929,
+        "duration": 4.08
+    },
+    {
+        "text": "jumping because our sensor is is not",
+        "start": 493.699,
+        "duration": 4.89
+    },
+    {
+        "text": "exactly well tuned and we can see that",
+        "start": 496.009,
+        "duration": 8.25
+    },
+    {
+        "text": "as we move the as we move the sensor",
+        "start": 498.589,
+        "duration": 8.55
+    },
+    {
+        "text": "from left to right we can see it going",
+        "start": 504.259,
+        "duration": 5.851
+    },
+    {
+        "text": "up down as we move it up down we can see",
+        "start": 507.139,
+        "duration": 5.34
+    },
+    {
+        "text": "going left right why because we got our",
+        "start": 510.11,
+        "duration": 4.919
+    },
+    {
+        "text": "sensors backwards what we can see that",
+        "start": 512.479,
+        "duration": 4.771
+    },
+    {
+        "text": "as I tilt like this it moves left right",
+        "start": 515.029,
+        "duration": 6.591
+    },
+    {
+        "text": "of course we can also just do this and",
+        "start": 517.25,
+        "duration": 4.37
+    },
+    {
+        "text": "then up down",
+        "start": 524.92,
+        "duration": 3.33
+    },
+    {
+        "text": "now there's still work to be done we'd",
+        "start": 529.64,
+        "duration": 4.86
+    },
+    {
+        "text": "still need to like I said smooth that",
+        "start": 532.64,
+        "duration": 3.21
+    },
+    {
+        "text": "out so that the wall wasn't quite so",
+        "start": 534.5,
+        "duration": 4.71
+    },
+    {
+        "text": "jumpy and we'd probably like to make it",
+        "start": 535.85,
+        "duration": 4.89
+    },
+    {
+        "text": "so that the ball can stay in one place",
+        "start": 539.21,
+        "duration": 3.93
+    },
+    {
+        "text": "when we weren't moving that's the basic",
+        "start": 540.74,
+        "duration": 4.83
+    },
+    {
+        "text": "idea behind pretty much all physical",
+        "start": 543.14,
+        "duration": 5.16
+    },
+    {
+        "text": "interaction we take data in using",
+        "start": 545.57,
+        "duration": 5.22
+    },
+    {
+        "text": "sensors that convert mechanical energy",
+        "start": 548.3,
+        "duration": 5.43
+    },
+    {
+        "text": "to electrical energy we read that",
+        "start": 550.79,
+        "duration": 4.71
+    },
+    {
+        "text": "electrical energy on a microcontroller",
+        "start": 553.73,
+        "duration": 4.56
+    },
+    {
+        "text": "we converted into digital data and we",
+        "start": 555.5,
+        "duration": 4.56
+    },
+    {
+        "text": "send that digital data over to a",
+        "start": 558.29,
+        "duration": 3.54
+    },
+    {
+        "text": "computer where we use it to do something",
+        "start": 560.06,
+        "duration": 4.86
+    },
+    {
+        "text": "like make an animation happen that's the",
+        "start": 561.83,
+        "duration": 6.78
+    },
+    {
+        "text": "whole story now if he wanted to kind of",
+        "start": 564.92,
+        "duration": 5.46
+    },
+    {
+        "text": "hack into a week console how would you",
+        "start": 568.61,
+        "duration": 5.4
+    },
+    {
+        "text": "do that with this is that possible well",
+        "start": 570.38,
+        "duration": 5.43
+    },
+    {
+        "text": "that's a good question so if we wanted",
+        "start": 574.01,
+        "duration": 3.3
+    },
+    {
+        "text": "to actually make this into a wii",
+        "start": 575.81,
+        "duration": 3.81
+    },
+    {
+        "text": "controller itself right now we've",
+        "start": 577.31,
+        "duration": 4.44
+    },
+    {
+        "text": "written a pretty simple protocol a",
+        "start": 579.62,
+        "duration": 4.11
+    },
+    {
+        "text": "pretty simple language for this to",
+        "start": 581.75,
+        "duration": 4.35
+    },
+    {
+        "text": "communicate with the desktop computer we",
+        "start": 583.73,
+        "duration": 4.82
+    },
+    {
+        "text": "have the advantage of being able to",
+        "start": 586.1,
+        "duration": 4.5
+    },
+    {
+        "text": "control both sides of the conversation",
+        "start": 588.55,
+        "duration": 4.6
+    },
+    {
+        "text": "we both wrote the program here and we",
+        "start": 590.6,
+        "duration": 5.58
+    },
+    {
+        "text": "wrote the program here with the wii",
+        "start": 593.15,
+        "duration": 4.77
+    },
+    {
+        "text": "controller we wouldn't get that so at",
+        "start": 596.18,
+        "duration": 3.36
+    },
+    {
+        "text": "the wii console we'd have to know the",
+        "start": 597.92,
+        "duration": 3.3
+    },
+    {
+        "text": "protocol that it's listening for and",
+        "start": 599.54,
+        "duration": 5.13
+    },
+    {
+        "text": "we'd have to write our program on this",
+        "start": 601.22,
+        "duration": 7.08
+    },
+    {
+        "text": "controller to speak that protocol i",
+        "start": 604.67,
+        "duration": 6.09
+    },
+    {
+        "text": "think with the wii they're actually",
+        "start": 608.3,
+        "duration": 6.36
+    },
+    {
+        "text": "using a protocol called hid the human",
+        "start": 610.76,
+        "duration": 5.76
+    },
+    {
+        "text": "interface device protocol which is part",
+        "start": 614.66,
+        "duration": 5.52
+    },
+    {
+        "text": "of USB so we would just need to learn",
+        "start": 616.52,
+        "duration": 6.0
+    },
+    {
+        "text": "the various structures to write on this",
+        "start": 620.18,
+        "duration": 4.92
+    },
+    {
+        "text": "program to do that and then this would",
+        "start": 622.52,
+        "duration": 4.44
+    },
+    {
+        "text": "show up to the wii as if it were a",
+        "start": 625.1,
+        "duration": 4.29
+    },
+    {
+        "text": "controller and do exactly the same",
+        "start": 626.96,
+        "duration": 3.9
+    },
+    {
+        "text": "things that the controller does now and",
+        "start": 629.39,
+        "duration": 3.66
+    },
+    {
+        "text": "you would set up that interface through",
+        "start": 630.86,
+        "duration": 5.43
+    },
+    {
+        "text": "the code that you were using earlier yes",
+        "start": 633.05,
+        "duration": 6.03
+    },
+    {
+        "text": "I would set that code I would write that",
+        "start": 636.29,
+        "duration": 6.41
+    },
+    {
+        "text": "code in the Arduino environment here I",
+        "start": 639.08,
+        "duration": 6.54
+    },
+    {
+        "text": "basically look online to learn the",
+        "start": 642.7,
+        "duration": 3.34
+    },
+    {
+        "text": "product",
+        "start": 645.62,
+        "duration": 2.07
+    },
+    {
+        "text": "then I write a version of it there I",
+        "start": 646.04,
+        "duration": 3.989
+    },
+    {
+        "text": "probably also have to attach one more",
+        "start": 647.69,
+        "duration": 4.53
+    },
+    {
+        "text": "thing right now we got a wire connecting",
+        "start": 650.029,
+        "duration": 4.141
+    },
+    {
+        "text": "the two computers it's a whole lot",
+        "start": 652.22,
+        "duration": 3.57
+    },
+    {
+        "text": "easier when this can be Wireless and in",
+        "start": 654.17,
+        "duration": 3.15
+    },
+    {
+        "text": "fact that's the whole point with we it's",
+        "start": 655.79,
+        "duration": 3.33
+    },
+    {
+        "text": "just throw the whole thing around right",
+        "start": 657.32,
+        "duration": 4.29
+    },
+    {
+        "text": "so what we want to attach is we want to",
+        "start": 659.12,
+        "duration": 5.79
+    },
+    {
+        "text": "attach a radio in this case what we call",
+        "start": 661.61,
+        "duration": 7.26
+    },
+    {
+        "text": "bluetooth radio that would pair with the",
+        "start": 664.91,
+        "duration": 7.619
+    },
+    {
+        "text": "radio in the desktop computer and then",
+        "start": 668.87,
+        "duration": 5.459
+    },
+    {
+        "text": "the two devices would send data back and",
+        "start": 672.529,
+        "duration": 5.151
+    },
+    {
+        "text": "forth over that radio link",
+        "start": 674.329,
+        "duration": 3.351
+    }
+]

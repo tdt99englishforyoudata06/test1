@@ -1,0 +1,647 @@
+[
+    {
+        "text": ">> BRADY HARAN: I think most Numberphiles are fascinated by the idea of Graham's number,",
+        "start": 0.02,
+        "duration": 3.86
+    },
+    {
+        "text": "which is supposedly unimaginably big -",
+        "start": 3.88,
+        "duration": 2.62
+    },
+    {
+        "text": "but what actually is it? What does it count?",
+        "start": 6.5,
+        "duration": 3.92
+    },
+    {
+        "text": "Well, I think the best person to explain that",
+        "start": 10.42,
+        "duration": 2.2
+    },
+    {
+        "text": "is none other than the world famous mathematician himself, Ron Graham.",
+        "start": 12.62,
+        "duration": 5.62
+    },
+    {
+        "text": ">> RON GRAHAM: Suppose you took four vertices of a square -",
+        "start": 18.24,
+        "duration": 4.06
+    },
+    {
+        "text": "and, this is two dimensons, so it has how many vertices?",
+        "start": 22.3,
+        "duration": 4.2
+    },
+    {
+        "text": "Two squared (four vertices).",
+        "start": 26.5,
+        "duration": 3.1
+    },
+    {
+        "text": "Now, what I'm going to do is take these four vertices, and put -",
+        "start": 29.6,
+        "duration": 3.94
+    },
+    {
+        "text": "two more edges connecting all possible pairs of these vertices.",
+        "start": 33.54,
+        "duration": 4.54
+    },
+    {
+        "text": "Now how many possible edges would you be able to draw?",
+        "start": 38.08,
+        "duration": 2.78
+    },
+    {
+        "text": "Well, there's something called a binomial coefficient,",
+        "start": 40.86,
+        "duration": 2.18
+    },
+    {
+        "text": "and there are four vertices, and you choose two of them,",
+        "start": 43.04,
+        "duration": 3.46
+    },
+    {
+        "text": "and this turns out to be six.",
+        "start": 46.5,
+        "duration": 2.28
+    },
+    {
+        "text": "So you see there are six edges here - all the ways you could join these four dots.",
+        "start": 48.78,
+        "duration": 3.6
+    },
+    {
+        "text": "And now, what we're going to do - is -",
+        "start": 52.38,
+        "duration": 3.26
+    },
+    {
+        "text": "take the four dots again and look at each one of these",
+        "start": 55.64,
+        "duration": 4.78
+    },
+    {
+        "text": "possible six lines and color them red or blue",
+        "start": 60.42,
+        "duration": 3.68
+    },
+    {
+        "text": "in any way that you like, so for example -",
+        "start": 64.1,
+        "duration": 2.4
+    },
+    {
+        "text": "I might color this one red, and maybe this one red,",
+        "start": 66.5,
+        "duration": 3.58
+    },
+    {
+        "text": "and then I'd say, well ok, maybe I'll color this one blue, and this one blue,",
+        "start": 70.08,
+        "duration": 4.12
+    },
+    {
+        "text": "and this one blue, and this one blue.",
+        "start": 74.2,
+        "duration": 2.14
+    },
+    {
+        "text": "Ok, so that's one way, and you might say, well, okay, so what?",
+        "start": 76.34,
+        "duration": 4.16
+    },
+    {
+        "text": "I'm looking for certain special configurations - and,",
+        "start": 80.5,
+        "duration": 3.44
+    },
+    {
+        "text": "I'm not going to find it here in a square because",
+        "start": 83.94,
+        "duration": 2.72
+    },
+    {
+        "text": "this is too small; we need more dimensions.",
+        "start": 86.66,
+        "duration": 2.9
+    },
+    {
+        "text": "What about three dimensions? Well, what does a three-dimensional cube look like?",
+        "start": 89.56,
+        "duration": 3.18
+    },
+    {
+        "text": "Well, I can't really draw it on a piece of paper, but you can kind of draw a version of it,",
+        "start": 92.74,
+        "duration": 4.06
+    },
+    {
+        "text": "namely, if you take your four vertices that form your square",
+        "start": 96.8,
+        "duration": 3.3
+    },
+    {
+        "text": "and then you kind of move it a little bit,",
+        "start": 100.12,
+        "duration": 2.86
+    },
+    {
+        "text": "well, that's a picture you might recognize,",
+        "start": 102.98,
+        "duration": 2.28
+    },
+    {
+        "text": "how many vertices on these corner points here?",
+        "start": 105.26,
+        "duration": 2.18
+    },
+    {
+        "text": "Well, you can see there are eight, which is two cubed.",
+        "start": 107.46,
+        "duration": 3.26
+    },
+    {
+        "text": "So the three-dimensonal cube has - two cubed - eight vertices.",
+        "start": 110.72,
+        "duration": 2.98
+    },
+    {
+        "text": "28 possible line segments. And if you color them,",
+        "start": 113.72,
+        "duration": 3.28
+    },
+    {
+        "text": "say, this one's red, and this one's red, and this one's red, and that one's red,",
+        "start": 117.0,
+        "duration": 3.42
+    },
+    {
+        "text": "but - you know - a lot of the others are blue,",
+        "start": 120.42,
+        "duration": 2.22
+    },
+    {
+        "text": "and what you're trying to do is do it in a way that",
+        "start": 122.64,
+        "duration": 3.08
+    },
+    {
+        "text": "avoids something. Now, what is this thing you're trying to avoid?",
+        "start": 125.72,
+        "duration": 3.2
+    },
+    {
+        "text": "That's the whole point.",
+        "start": 128.92,
+        "duration": 1.54
+    },
+    {
+        "text": "You're trying to avoid the following configuration:",
+        "start": 130.46,
+        "duration": 4.1
+    },
+    {
+        "text": "namely, four points in here someplace",
+        "start": 134.56,
+        "duration": 3.26
+    },
+    {
+        "text": "and all the six line segments have the same color (in this case it's red)",
+        "start": 137.82,
+        "duration": 5.9
+    },
+    {
+        "text": "and, furthermore, these four points lie in a flat plane.",
+        "start": 143.72,
+        "duration": 4.38
+    },
+    {
+        "text": "They don't stick up in three dimensions.",
+        "start": 148.1,
+        "duration": 2.54
+    },
+    {
+        "text": "Usually, if you took four points, you'd have three dimensions.",
+        "start": 150.64,
+        "duration": 3.04
+    },
+    {
+        "text": "It kind of spans a three-dimensional volume.",
+        "start": 153.68,
+        "duration": 2.16
+    },
+    {
+        "text": "Here, I want four points to be flat, and they form a square,",
+        "start": 155.84,
+        "duration": 2.96
+    },
+    {
+        "text": "and all six line segments are the same color.",
+        "start": 158.8,
+        "duration": 1.94
+    },
+    {
+        "text": "In three dimensions, you definitely can avoid such a configuration,",
+        "start": 160.74,
+        "duration": 3.5
+    },
+    {
+        "text": "because this only seems to happen on, just kind of the faces.",
+        "start": 164.24,
+        "duration": 3.38
+    },
+    {
+        "text": "And what you have to do - your challenge -",
+        "start": 167.62,
+        "duration": 3.12
+    },
+    {
+        "text": "is to go in a much larger dimension.",
+        "start": 170.74,
+        "duration": 2.48
+    },
+    {
+        "text": "And what do you mean by a cube - in say - four dimensions?",
+        "start": 173.22,
+        "duration": 4.68
+    },
+    {
+        "text": "Well, in four dimensions, you could take this picture,",
+        "start": 177.9,
+        "duration": 3.32
+    },
+    {
+        "text": "and translate it, and join the lines, but it gets kind of messy,",
+        "start": 181.22,
+        "duration": 3.68
+    },
+    {
+        "text": "but yeah. I'm not afraid; I think I can do that. Let's see.",
+        "start": 184.9,
+        "duration": 3.1
+    },
+    {
+        "text": "Here's a three-dimensional cube, and now I have to shift it, okay, well,",
+        "start": 188.0,
+        "duration": 4.6
+    },
+    {
+        "text": "I've gotta be a little careful here -",
+        "start": 192.6,
+        "duration": 2.56
+    },
+    {
+        "text": "and now I join the corresponding things. Well,",
+        "start": 203.1,
+        "duration": 2.74
+    },
+    {
+        "text": "you can see it's going to be,",
+        "start": 205.84,
+        "duration": 1.7
+    },
+    {
+        "text": "as we can call it, a tesseract.",
+        "start": 207.54,
+        "duration": 1.56
+    },
+    {
+        "text": "Now how many different ways can you color",
+        "start": 209.1,
+        "duration": 2.52
+    },
+    {
+        "text": "these 120 different lines",
+        "start": 211.62,
+        "duration": 2.44
+    },
+    {
+        "text": "with red and blue?",
+        "start": 214.06,
+        "duration": 1.48
+    },
+    {
+        "text": "Well, with each one of them, there are two choices.",
+        "start": 215.54,
+        "duration": 2.02
+    },
+    {
+        "text": "So, it's two times two times two",
+        "start": 217.56,
+        "duration": 2.78
+    },
+    {
+        "text": "times two 120 times,",
+        "start": 220.34,
+        "duration": 3.2
+    },
+    {
+        "text": "or 2 to the 120 (2^120).",
+        "start": 223.54,
+        "duration": 2.36
+    },
+    {
+        "text": "Already beyond what computers can do, and no computer can do 2^120 things right now.",
+        "start": 225.9,
+        "duration": 5.46
+    },
+    {
+        "text": "But the problem we're trying to avoid",
+        "start": 231.36,
+        "duration": 3.66
+    },
+    {
+        "text": "having these four points that form a square",
+        "start": 235.02,
+        "duration": 3.48
+    },
+    {
+        "text": "lie in a plane and have all six line segments the same color",
+        "start": 238.5,
+        "duration": 3.42
+    },
+    {
+        "text": "and in four dimensions, you can do it.",
+        "start": 241.94,
+        "duration": 2.18
+    },
+    {
+        "text": "Not too hard to do. Well, what about the five-dimensional cube?",
+        "start": 244.12,
+        "duration": 2.92
+    },
+    {
+        "text": "In five you can avoid it, six - it takes more work,",
+        "start": 247.04,
+        "duration": 3.16
+    },
+    {
+        "text": "seven - yes, it takes a lot more work,",
+        "start": 250.2,
+        "duration": 2.34
+    },
+    {
+        "text": "the question is, can you always avoid it?",
+        "start": 252.54,
+        "duration": 1.8
+    },
+    {
+        "text": "The answer: no.",
+        "start": 254.34,
+        "duration": 2.0
+    },
+    {
+        "text": "If the dimension is large enough,",
+        "start": 256.34,
+        "duration": 2.0
+    },
+    {
+        "text": "you cannot avoid it.",
+        "start": 258.34,
+        "duration": 1.2
+    },
+    {
+        "text": "No matter how hard you try to color it, you can't avoid it.",
+        "start": 259.54,
+        "duration": 3.02
+    },
+    {
+        "text": "And when is that dimension finally reached?",
+        "start": 262.56,
+        "duration": 2.86
+    },
+    {
+        "text": "Well, you know it's reached by the time you get to a very large number,",
+        "start": 265.42,
+        "duration": 4.48
+    },
+    {
+        "text": "sometimes known as Graham's number,",
+        "start": 269.9,
+        "duration": 1.92
+    },
+    {
+        "text": "a pretty big number,",
+        "start": 271.82,
+        "duration": 1.02
+    },
+    {
+        "text": "and you know for sure, in that dimension, you cannot avoid it.",
+        "start": 272.84,
+        "duration": 4.16
+    },
+    {
+        "text": "And the proof that you can't avoid it is pretty complicated, pretty recursive,",
+        "start": 277.0,
+        "duration": 5.0
+    },
+    {
+        "text": "and that's what causes this number to be so large.",
+        "start": 282.0,
+        "duration": 3.98
+    },
+    {
+        "text": "Now, you might say, well, what's the truth?",
+        "start": 285.98,
+        "duration": 3.54
+    },
+    {
+        "text": "Sure, if you go as far as Graham's number, in that dimension, you can't avoid it,",
+        "start": 289.52,
+        "duration": 4.14
+    },
+    {
+        "text": "but maybe you can make it unavoidable in a smaller dimension.",
+        "start": 293.66,
+        "duration": 4.14
+    },
+    {
+        "text": "And it turns out that it appears that already in thirteen dimensions",
+        "start": 297.8,
+        "duration": 6.12
+    },
+    {
+        "text": "you can't avoid it.",
+        "start": 303.92,
+        "duration": 1.98
+    },
+    {
+        "text": "Now, how could you check that by computer?",
+        "start": 305.9,
+        "duration": 2.78
+    },
+    {
+        "text": "Well, okay,",
+        "start": 308.68,
+        "duration": 1.74
+    },
+    {
+        "text": "no problem really,",
+        "start": 310.42,
+        "duration": 1.86
+    },
+    {
+        "text": "in thirteen dimensions, so \"n\" is thirteen dimensions,",
+        "start": 312.28,
+        "duration": 4.02
+    },
+    {
+        "text": "so how many vertices in your thirteen-dimensional cube? Well,",
+        "start": 316.3,
+        "duration": 4.36
+    },
+    {
+        "text": "2^13 vertices, which is, what,",
+        "start": 320.66,
+        "duration": 2.46
+    },
+    {
+        "text": "that's about 8192.",
+        "start": 323.12,
+        "duration": 2.5
+    },
+    {
+        "text": "Okay, a little over eight thousand vertices.",
+        "start": 325.62,
+        "duration": 1.98
+    },
+    {
+        "text": "Well, how many line segments?",
+        "start": 327.6,
+        "duration": 1.62
+    },
+    {
+        "text": "Well, 8192 times 8191",
+        "start": 329.22,
+        "duration": 5.18
+    },
+    {
+        "text": "over two - you have to check -",
+        "start": 334.4,
+        "duration": 2.36
+    },
+    {
+        "text": "no matter how you color them with red or blue -",
+        "start": 336.76,
+        "duration": 2.32
+    },
+    {
+        "text": "you'll make one of these things. Well, it's uncheckable.",
+        "start": 339.08,
+        "duration": 3.42
+    },
+    {
+        "text": "You can't check that; it's impossible. You need to think!",
+        "start": 342.5,
+        "duration": 3.04
+    },
+    {
+        "text": "You can't just compute. Right now,",
+        "start": 345.54,
+        "duration": 2.54
+    },
+    {
+        "text": "we don't know. It's between 13 - we know, maybe -",
+        "start": 348.08,
+        "duration": 4.6
+    },
+    {
+        "text": "uh, 12 is not enough, it turns out,",
+        "start": 352.68,
+        "duration": 2.22
+    },
+    {
+        "text": "and this other, slightly bigger number,",
+        "start": 354.9,
+        "duration": 3.12
+    },
+    {
+        "text": "which uh - I can - I can try to write it,",
+        "start": 358.02,
+        "duration": 3.86
+    },
+    {
+        "text": ">> BRADY HARAN: So there we go. As cubes move up the dimensions, from",
+        "start": 363.14,
+        "duration": 3.3
+    },
+    {
+        "text": "three dimensions, that I think we all understand,",
+        "start": 366.44,
+        "duration": 3.22
+    },
+    {
+        "text": "to four dimensions, to five -",
+        "start": 369.66,
+        "duration": 1.84
+    },
+    {
+        "text": "eventually we reach a number of dimensions",
+        "start": 371.5,
+        "duration": 3.64
+    },
+    {
+        "text": "in which one of these configurations",
+        "start": 375.14,
+        "duration": 3.02
+    },
+    {
+        "text": "must exist.",
+        "start": 378.16,
+        "duration": 2.52
+    },
+    {
+        "text": "And the upper bound on that, the point where it has to happen by,",
+        "start": 380.68,
+        "duration": 3.54
+    },
+    {
+        "text": "is this \"Graham's number\".",
+        "start": 384.22,
+        "duration": 2.2
+    },
+    {
+        "text": "Now, we know this number is unimaginably big,",
+        "start": 386.42,
+        "duration": 2.78
+    },
+    {
+        "text": "it was even in the Guinness Book of Records.",
+        "start": 389.32,
+        "duration": 2.0
+    },
+    {
+        "text": "But just how big is it?",
+        "start": 391.32,
+        "duration": 1.64
+    },
+    {
+        "text": "Well that deserves a video all of its own, and again, we've got Ron Graham to explain it.",
+        "start": 392.96,
+        "duration": 4.52
+    },
+    {
+        "text": "The links are on the screen here,",
+        "start": 398.4,
+        "duration": 2.0
+    },
+    {
+        "text": "I've also put them in the description under the video.",
+        "start": 401.6,
+        "duration": 3.08
+    },
+    {
+        "text": "So, why don't you check it out?",
+        "start": 404.68,
+        "duration": 1.56
+    },
+    {
+        "text": "It's a pretty big number.",
+        "start": 410.1,
+        "duration": 1.34
+    }
+]

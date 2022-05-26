@@ -1,0 +1,507 @@
+[
+    {
+        "text": "Jeff Lagarias, a mathematician I admire a lot, thinks it's one of the hardest problems around.",
+        "start": 0.0,
+        "duration": 5.46
+    },
+    {
+        "text": "Erdos actually said \"this is a problem for which mathematics is perhaps not ready\"",
+        "start": 5.46,
+        "duration": 4.86
+    },
+    {
+        "text": "Turns out that all this fuss is about a problem that any fourth-grader can understand.",
+        "start": 10.32,
+        "duration": 4.52
+    },
+    {
+        "text": "To show you how this all works I'm gonna give you an example:",
+        "start": 14.96,
+        "duration": 2.74
+    },
+    {
+        "text": "Brady, chose a number between one and ten.",
+        "start": 17.7,
+        "duration": 2.5
+    },
+    {
+        "text": "[Brady, off camera: I shall go for seven]",
+        "start": 20.34,
+        "duration": 1.36
+    },
+    {
+        "text": "Alright, let us start with seven.",
+        "start": 21.78,
+        "duration": 1.56
+    },
+    {
+        "text": "Now,  I'm gonna apply two rules depending on what number I get",
+        "start": 23.34,
+        "duration": 3.7
+    },
+    {
+        "text": "I'm gonna do this in succession",
+        "start": 27.1,
+        "duration": 2.02
+    },
+    {
+        "text": "[..] then if n is even I'm gonna take n and divide it by two",
+        "start": 29.12,
+        "duration": 3.66
+    },
+    {
+        "text": "If n is odd then I'm gonna take n",
+        "start": 32.78,
+        "duration": 3.68
+    },
+    {
+        "text": "Can't divide it by two and get a whole number",
+        "start": 36.46,
+        "duration": 2.48
+    },
+    {
+        "text": "so I'm gonna take n and multiply it by three and add one",
+        "start": 39.28,
+        "duration": 3.12
+    },
+    {
+        "text": "Those are my rules.",
+        "start": 42.4,
+        "duration": 1.48
+    },
+    {
+        "text": "and I'm interested in what happens to n. Does it grow to infinity? Does it get small?",
+        "start": 43.88,
+        "duration": 5.12
+    },
+    {
+        "text": "let's see what happens with 7",
+        "start": 49.26,
+        "duration": 2.36
+    },
+    {
+        "text": "7 seems to be an odd number, so I multiply by 3 and add 1. Three times seven is 21",
+        "start": 51.62,
+        "duration": 5.38
+    },
+    {
+        "text": "check me on this, and add one is 22. I go to 22. 22 is certainly even",
+        "start": 57.02,
+        "duration": 6.72
+    },
+    {
+        "text": "so I'll divide by two and get eleven. Eleven is odd, so I'll multiply by 3, getting 33 and add one and get 34.",
+        "start": 63.78,
+        "duration": 7.44
+    },
+    {
+        "text": "34 is even, I divide by 2 and I get 17",
+        "start": 71.22,
+        "duration": 3.18
+    },
+    {
+        "text": "so far it's going up and down. But 34 was the biggest yet, so maybe it's headed off to infinity after all.",
+        "start": 74.54,
+        "duration": 7.4
+    },
+    {
+        "text": "17... so 17 is odd, I multiply by 3",
+        "start": 81.94,
+        "duration": 4.4
+    },
+    {
+        "text": "3 times 10 is 30, 3 times 7 is 21. 51 plus 1 is 52. Even.",
+        "start": 86.42,
+        "duration": 6.4
+    },
+    {
+        "text": "divide by 2 and get 26. still even. divide by 2 again and get 13. now it's odd.",
+        "start": 93.08,
+        "duration": 6.58
+    },
+    {
+        "text": "multiply by 3 and add one. 40. 40 is even.",
+        "start": 99.66,
+        "duration": 3.88
+    },
+    {
+        "text": "I divide, I get 20. I divide again I get 10. I divide again, I get 5. Boy, we fell down a long way! Maybe we're heading for a small number after all.",
+        "start": 103.54,
+        "duration": 10.58
+    },
+    {
+        "text": "multiply by 3 and add 1, I get 16. Whoa! 16. VERY even number!",
+        "start": 114.24,
+        "duration": 6.42
+    },
+    {
+        "text": "I get 8. I get 4. I get 2. And I get 1.",
+        "start": 120.68,
+        "duration": 6.94
+    },
+    {
+        "text": "If I do it again, something interesting happens. I go 3 times 1 plus one is four.",
+        "start": 127.62,
+        "duration": 6.66
+    },
+    {
+        "text": "whoops, I'm back to 4. But now I'm just going to cycle forever, going through 1 over and over again.",
+        "start": 134.28,
+        "duration": 6.74
+    },
+    {
+        "text": "So I got to one. Seven got to one.",
+        "start": 141.02,
+        "duration": 3.76
+    },
+    {
+        "text": "Now,  people have tried lots of numbers beginning this way, and so far, all of them have gone to one.",
+        "start": 144.78,
+        "duration": 6.22
+    },
+    {
+        "text": "They've tried roughly two to the sixtieth numbers, that's almost ten to the twentieth...",
+        "start": 151.0,
+        "duration": 5.76
+    },
+    {
+        "text": "So the famous Collatz conjecture says that every number, every whole number, will eventually get to one.",
+        "start": 156.76,
+        "duration": 6.74
+    },
+    {
+        "text": "And a huge amount of work has been done on this problem by combinatorialists, by number theorists.",
+        "start": 163.52,
+        "duration": 6.1
+    },
+    {
+        "text": "This is the problem that maybe mathematics is not ready for,",
+        "start": 169.64,
+        "duration": 4.24
+    },
+    {
+        "text": "but that any fourth grader could play with and try, right? Try some numbers.",
+        "start": 173.88,
+        "duration": 5.58
+    },
+    {
+        "text": "First of all, we'd like to understand what's happening, in such a way that we can say for certainty",
+        "start": 179.46,
+        "duration": 4.94
+    },
+    {
+        "text": "that every number, all the numbers we haven't ever tried, WILL get to one.",
+        "start": 184.4,
+        "duration": 4.8
+    },
+    {
+        "text": "You could just try this on your computer; it's a good test for your personal computer too.",
+        "start": 189.2,
+        "duration": 4.64
+    },
+    {
+        "text": "How fast a program can you make?",
+        "start": 193.84,
+        "duration": 2.0
+    },
+    {
+        "text": "Here's a little hint. Every time I take an odd number and multiply by three and add one, I get an even number.",
+        "start": 195.84,
+        "duration": 6.18
+    },
+    {
+        "text": "So why not take two steps at once?",
+        "start": 202.02,
+        "duration": 3.3
+    },
+    {
+        "text": "to three n plus one over two. Combine those two steps...",
+        "start": 205.32,
+        "duration": 6.16
+    },
+    {
+        "text": "when I get and odd number. that speeds things up a bit. And there are other tricks like that.",
+        "start": 211.48,
+        "duration": 5.08
+    },
+    {
+        "text": "So people make graphs like this, and they're called \"trees\". Right. So far, all the number go down to one,",
+        "start": 216.56,
+        "duration": 6.78
+    },
+    {
+        "text": "but we might start with another number.\nIf we started with five,",
+        "start": 223.34,
+        "duration": 3.1
+    },
+    {
+        "text": "we already see what the answer would be. Any number that appears here, we already know the answer.",
+        "start": 226.44,
+        "duration": 5.52
+    },
+    {
+        "text": "We don't have to do it again. What's the first number that doesn't appear here? I think it's six.",
+        "start": 231.96,
+        "duration": 6.22
+    },
+    {
+        "text": "Shall we try six? [Brady, off camera: Let's do it!]. Let's do it.",
+        "start": 238.3,
+        "duration": 3.32
+    },
+    {
+        "text": "okay, 6. And 6 goes, well, it's even. Goes to 3. 3 goes to 10. And we got 10. Whoops, there's 10",
+        "start": 241.82,
+        "duration": 8.1
+    },
+    {
+        "text": "So, I should just draw the 3 going down to 10 instead.",
+        "start": 250.02,
+        "duration": 3.2
+    },
+    {
+        "text": "And now I know, I'm beginning to build up my tree. And now I've tried now all the numbers up through seven.",
+        "start": 253.22,
+        "duration": 6.8
+    },
+    {
+        "text": "Uh, 8 I got. 9 I thought I had somewhere. Didn't I have a nine? [Brady: I can't see a nine].",
+        "start": 260.02,
+        "duration": 7.2
+    },
+    {
+        "text": "No, I don't see a nine. Let's try nine. So, nine.",
+        "start": 267.22,
+        "duration": 2.9
+    },
+    {
+        "text": "ok. Odd number. three times nine plus one: 28. 28, 14... whoops, seven. Where's my seven? There it is.",
+        "start": 270.12,
+        "duration": 10.32
+    },
+    {
+        "text": "Goes to seven. So I can begin doing this and build up my tree.",
+        "start": 280.44,
+        "duration": 4.32
+    },
+    {
+        "text": "I don't have to go all the way each time. I know what's going to happen after I get to seven.",
+        "start": 284.76,
+        "duration": 4.06
+    },
+    {
+        "text": "If you look at the cover of this book that I showed you first, that's a tree of just this kind.",
+        "start": 288.82,
+        "duration": 5.8
+    },
+    {
+        "text": "But people have built up HUGE trees of this kind.",
+        "start": 294.62,
+        "duration": 3.46
+    },
+    {
+        "text": "And there's a wonderful article on Wikipedia which you can look at which shows some of the pictures of this.",
+        "start": 298.08,
+        "duration": 5.1
+    },
+    {
+        "text": "[Brady: there. there does seem to be a very striking feature of it, and this is this line down the middle here].",
+        "start": 303.18,
+        "duration": 3.62
+    },
+    {
+        "text": "Yes, that's right. This is like the third rail.",
+        "start": 306.8,
+        "duration": 1.94
+    },
+    {
+        "text": "Once you touch that line, you fall right away to 1.",
+        "start": 308.74,
+        "duration": 4.18
+    },
+    {
+        "text": "By the way, there's another name for the this problem, which is the Hailstone problem.",
+        "start": 312.92,
+        "duration": 4.26
+    },
+    {
+        "text": "And the reason is, as you probably know, when hailstones form in the clouds,",
+        "start": 317.18,
+        "duration": 5.32
+    },
+    {
+        "text": "the way they form, the way they get bigger, is that they start low and they",
+        "start": 322.5,
+        "duration": 4.42
+    },
+    {
+        "text": "get blown up by the winds, and they get some ice on them. And they fall down a bit,",
+        "start": 326.92,
+        "duration": 3.68
+    },
+    {
+        "text": "and then they go up and down. They go up and down many times.",
+        "start": 330.6,
+        "duration": 2.96
+    },
+    {
+        "text": "and finally they fall to Earth. If they never get to Earth, then of course they're not hailstones.",
+        "start": 333.56,
+        "duration": 3.9
+    },
+    {
+        "text": "And it's just like numbers here.",
+        "start": 337.54,
+        "duration": 2.24
+    },
+    {
+        "text": "They go seemingly randomly up and down and up and down and then eventually they seem to fall to one.",
+        "start": 339.78,
+        "duration": 5.82
+    },
+    {
+        "text": "To the ground. What kind of things have people done with this funny funny problem?",
+        "start": 345.6,
+        "duration": 4.58
+    },
+    {
+        "text": "Well, they've compiled, for instance, records",
+        "start": 350.18,
+        "duration": 3.4
+    },
+    {
+        "text": "I, I got a long string with seven. What's the next number after seven which gives a longer string?",
+        "start": 353.58,
+        "duration": 6.92
+    },
+    {
+        "text": "well, it's not 8. 8 is down here. we found it already, it's 9.",
+        "start": 360.5,
+        "duration": 4.4
+    },
+    {
+        "text": "Nine only goes through seven. What's the next number after that? Well, you can look on the",
+        "start": 364.9,
+        "duration": 5.28
+    },
+    {
+        "text": "online encyclopedia of integer sequences,",
+        "start": 370.18,
+        "duration": 3.02
+    },
+    {
+        "text": "that great resource",
+        "start": 373.2,
+        "duration": 1.64
+    },
+    {
+        "text": "and you'll find a table of the record holding numbers.",
+        "start": 374.84,
+        "duration": 3.52
+    },
+    {
+        "text": "You'll also find a table of the numbers that hold the record for the longest time to get to one.",
+        "start": 378.36,
+        "duration": 5.34
+    },
+    {
+        "text": "Let's get a couple of examples here. There's some wonderful ones.",
+        "start": 383.7,
+        "duration": 2.76
+    },
+    {
+        "text": "For instance, the longest , the one, the record holder, for the numbers under a hundred million,",
+        "start": 386.46,
+        "duration": 4.36
+    },
+    {
+        "text": "people, people know all these things,  is 63,728,127.",
+        "start": 390.82,
+        "duration": 8.58
+    },
+    {
+        "text": "and that takes nine hundred and forty nine steps to get to one.",
+        "start": 399.4,
+        "duration": 3.7
+    },
+    {
+        "text": "I bet the person who found it thought maybe (s)he was on to something",
+        "start": 403.1,
+        "duration": 4.42
+    },
+    {
+        "text": "Maybe finally had a counter example. But no.",
+        "start": 407.52,
+        "duration": 2.58
+    },
+    {
+        "text": "There are records and records and records. And people have tabulated this looking for patterns",
+        "start": 410.1,
+        "duration": 5.88
+    },
+    {
+        "text": "that might help them understand  what's really going on.",
+        "start": 415.98,
+        "duration": 3.34
+    },
+    {
+        "text": "So the randomness of this is what seems to make it hard.",
+        "start": 419.32,
+        "duration": 4.02
+    },
+    {
+        "text": "The fact that you don't see a pattern and that no matter how hard you look, the patterns you see tend to be",
+        "start": 423.34,
+        "duration": 6.98
+    },
+    {
+        "text": "illusory somehow. They, they melt away when you look further, or you don't understand them.",
+        "start": 430.32,
+        "duration": 5.24
+    },
+    {
+        "text": "Like the pattern of always going to one. That one holds sure, but we don't understand why it's there.",
+        "start": 435.56,
+        "duration": 6.56
+    },
+    {
+        "text": "[Brady: If you'd like to see even more of this interview about the Collatz Conjecture,",
+        "start": 442.12,
+        "duration": 3.86
+    },
+    {
+        "text": "I've posted it at Numberphile2].  Why 3n+1? Why not\n 3n-1?",
+        "start": 445.98,
+        "duration": 4.38
+    },
+    {
+        "text": "Brady, let's try a 3n-1..",
+        "start": 450.36,
+        "duration": 3.54
+    },
+    {
+        "text": "[Brady: in case you don't know, Professor Eisenbud is the director at MSRI",
+        "start": 453.9,
+        "duration": 3.68
+    },
+    {
+        "text": "which is a huge supporter of Numberphile]",
+        "start": 457.58,
+        "duration": 2.94
+    },
+    {
+        "text": "[Brady: You can see more videos with Professor Eisenbud or other videos filmed at MSRI",
+        "start": 460.52,
+        "duration": 4.36
+    },
+    {
+        "text": "by clicking the links on the screen or in the video description]",
+        "start": 464.88,
+        "duration": 3.9
+    },
+    {
+        "text": "You draw that line, and then draw this line..",
+        "start": 468.78,
+        "duration": 3.1
+    }
+]

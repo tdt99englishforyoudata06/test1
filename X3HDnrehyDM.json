@@ -1,0 +1,777 @@
+[
+    {
+        "text": "this is a game that frogs play whenever",
+        "start": 0.0,
+        "duration": 1.949
+    },
+    {
+        "text": "they are not being witnessed by humans",
+        "start": 1.949,
+        "duration": 2.611
+    },
+    {
+        "text": "and the way that they play it you can",
+        "start": 4.56,
+        "duration": 3.06
+    },
+    {
+        "text": "imagine that these are lily pads, and",
+        "start": 7.62,
+        "duration": 4.349
+    },
+    {
+        "text": "there's five frogs. five frogs that want",
+        "start": 11.969,
+        "duration": 7.89
+    },
+    {
+        "text": "to have a party on the same lily pad. One",
+        "start": 19.859,
+        "duration": 3.871
+    },
+    {
+        "text": "frog jumps one space. Two frogs jump two",
+        "start": 23.73,
+        "duration": 4.59
+    },
+    {
+        "text": "spaces. one frog jumps one space. got four",
+        "start": 28.32,
+        "duration": 5.64
+    },
+    {
+        "text": "frogs on here so 4 frogs  jump",
+        "start": 33.96,
+        "duration": 2.849
+    },
+    {
+        "text": "four spaces these. These frogs are happy",
+        "start": 36.809,
+        "duration": 3.871
+    },
+    {
+        "text": "because they are celebrating a party on",
+        "start": 40.68,
+        "duration": 3.24
+    },
+    {
+        "text": "their own lily pad. now it's your job you",
+        "start": 43.92,
+        "duration": 3.18
+    },
+    {
+        "text": "have to figure out: is this possible?",
+        "start": 47.1,
+        "duration": 2.07
+    },
+    {
+        "text": "the day after whenever a new frog comes",
+        "start": 49.17,
+        "duration": 4.92
+    },
+    {
+        "text": "to town. Is  this possible? one extra rule:",
+        "start": 54.09,
+        "duration": 4.26
+    },
+    {
+        "text": "you cannot jump frogs on to an empty",
+        "start": 58.35,
+        "duration": 3.24
+    },
+    {
+        "text": "lily pad. so I could jump one frog there,",
+        "start": 61.59,
+        "duration": 2.609
+    },
+    {
+        "text": "i can jump one frog here I could jump",
+        "start": 64.199,
+        "duration": 3.6
+    },
+    {
+        "text": "one frog here and two frogs I could jump",
+        "start": 67.799,
+        "duration": 3.811
+    },
+    {
+        "text": "here. 4 frogs must jump 4 spaces.",
+        "start": 71.61,
+        "duration": 3.899
+    },
+    {
+        "text": "1,2,3,4, Oh, this is an empty lily pad so",
+        "start": 75.509,
+        "duration": 3.271
+    },
+    {
+        "text": "you can't do that.",
+        "start": 78.78,
+        "duration": 1.56
+    },
+    {
+        "text": "so this is an example of a failure. Can",
+        "start": 80.34,
+        "duration": 2.37
+    },
+    {
+        "text": "we manage to do this with six frogs and",
+        "start": 82.71,
+        "duration": 3.479
+    },
+    {
+        "text": "six lily pads? Can we manage to do this with",
+        "start": 86.189,
+        "duration": 2.64
+    },
+    {
+        "text": "N frogs and N lily pads? so this is a",
+        "start": 88.829,
+        "duration": 3.72
+    },
+    {
+        "text": "puzzle that doesn't have an obvious",
+        "start": 92.549,
+        "duration": 2.041
+    },
+    {
+        "text": "answer before we solve six I want you to",
+        "start": 94.59,
+        "duration": 2.7
+    },
+    {
+        "text": "imagine you've only got 2 lily pads",
+        "start": 97.29,
+        "duration": 1.89
+    },
+    {
+        "text": "and 2 frogs. well that's easy to solve",
+        "start": 99.18,
+        "duration": 2.07
+    },
+    {
+        "text": "so now we're going to use that i'm going",
+        "start": 101.25,
+        "duration": 3.57
+    },
+    {
+        "text": "to split this into two and first of all",
+        "start": 104.82,
+        "duration": 2.369
+    },
+    {
+        "text": "going to solve for the left and i'm going to",
+        "start": 107.189,
+        "duration": 1.981
+    },
+    {
+        "text": "solve the right in exactly the same way.",
+        "start": 109.17,
+        "duration": 3.949
+    },
+    {
+        "text": "this looks suspiciously similar to",
+        "start": 117.08,
+        "duration": 3.93
+    },
+    {
+        "text": "having two frogs and two lily pads. here",
+        "start": 121.01,
+        "duration": 3.03
+    },
+    {
+        "text": "we have three frogs and three frogs",
+        "start": 124.04,
+        "duration": 2.82
+    },
+    {
+        "text": "separated by three. so this can be solved",
+        "start": 126.86,
+        "duration": 4.35
+    },
+    {
+        "text": "in exactly the same way as 2 frogs can.",
+        "start": 131.21,
+        "duration": 3.81
+    },
+    {
+        "text": "be solved in 2 lily pads.   so now that",
+        "start": 135.02,
+        "duration": 2.4
+    },
+    {
+        "text": "we've solved six, is it easy to solve 36?",
+        "start": 137.42,
+        "duration": 6.3
+    },
+    {
+        "text": "of course it is because we can design 36",
+        "start": 143.72,
+        "duration": 6.39
+    },
+    {
+        "text": "we can solve for this six in the same",
+        "start": 150.11,
+        "duration": 3.48
+    },
+    {
+        "text": "way you can solve for this six, this six,",
+        "start": 153.59,
+        "duration": 2.55
+    },
+    {
+        "text": "this six, this six. we've solved for all",
+        "start": 156.14,
+        "duration": 2.76
+    },
+    {
+        "text": "the sixes. we now have six stacks of six",
+        "start": 158.9,
+        "duration": 4.47
+    },
+    {
+        "text": "all separated by six. then that's just kind of",
+        "start": 163.37,
+        "duration": 2.67
+    },
+    {
+        "text": "like a giant six. doesn't just give us a",
+        "start": 166.04,
+        "duration": 2.49
+    },
+    {
+        "text": "solution for even numbers. it also gives",
+        "start": 168.53,
+        "duration": 2.91
+    },
+    {
+        "text": "the solutions for numbers like 9. 3 x 3",
+        "start": 171.44,
+        "duration": 3.78
+    },
+    {
+        "text": "because you could imagine with nine, with",
+        "start": 175.22,
+        "duration": 8.04
+    },
+    {
+        "text": "nine we solve like this... okay?",
+        "start": 183.26,
+        "duration": 5.43
+    },
+    {
+        "text": "now you can see we've really got a big",
+        "start": 188.69,
+        "duration": 3.78
+    },
+    {
+        "text": "version of just the three. so we do the",
+        "start": 192.47,
+        "duration": 2.73
+    },
+    {
+        "text": "same thing. we solved it. can we solve for",
+        "start": 195.2,
+        "duration": 3.18
+    },
+    {
+        "text": "prime numbers? can we solve for prime numbers?",
+        "start": 198.38,
+        "duration": 5.07
+    },
+    {
+        "text": "so the answer is yes and let me show you",
+        "start": 203.45,
+        "duration": 5.039
+    },
+    {
+        "text": "this is another ...you should, you should",
+        "start": 208.489,
+        "duration": 3.811
+    },
+    {
+        "text": "take time and try to solve for prime",
+        "start": 212.3,
+        "duration": 2.1
+    },
+    {
+        "text": "numbers but let's set let's extend this",
+        "start": 214.4,
+        "duration": 2.19
+    },
+    {
+        "text": "we'll go to 11 here. i'm going to show you",
+        "start": 216.59,
+        "duration": 3.33
+    },
+    {
+        "text": "how to do it and you'll immediately see",
+        "start": 219.92,
+        "duration": 2.61
+    },
+    {
+        "text": "that you could do all integers two three",
+        "start": 222.53,
+        "duration": 5.58
+    },
+    {
+        "text": "four five six seven eight nine ten",
+        "start": 228.11,
+        "duration": 7.74
+    },
+    {
+        "text": "eleven. Solved!",
+        "start": 235.85,
+        "duration": 2.49
+    },
+    {
+        "text": "that will work for everything. To make",
+        "start": 239.18,
+        "duration": 2.32
+    },
+    {
+        "text": "problem a little bit more interesting",
+        "start": 241.5,
+        "duration": 2.43
+    },
+    {
+        "text": "now that we solve for every integer,",
+        "start": 243.93,
+        "duration": 3.57
+    },
+    {
+        "text": "now what we're going to do is we're",
+        "start": 247.5,
+        "duration": 1.98
+    },
+    {
+        "text": "going to say well one of these frogs is",
+        "start": 249.48,
+        "duration": 4.08
+    },
+    {
+        "text": "actually the Queen frog. and the Queen",
+        "start": 253.56,
+        "duration": 5.61
+    },
+    {
+        "text": "frog must always be on the top of any",
+        "start": 259.17,
+        "duration": 3.72
+    },
+    {
+        "text": "pile, so you can think:",
+        "start": 262.89,
+        "duration": 2.43
+    },
+    {
+        "text": "can you solve for that? Now for example",
+        "start": 265.32,
+        "duration": 2.52
+    },
+    {
+        "text": "you could go to here but then you",
+        "start": 267.84,
+        "duration": 1.62
+    },
+    {
+        "text": "couldn't move this on the top of the",
+        "start": 269.46,
+        "duration": 1.95
+    },
+    {
+        "text": "Queen you could move to here. this then",
+        "start": 271.41,
+        "duration": 2.91
+    },
+    {
+        "text": "becomes a challenge is this always",
+        "start": 274.32,
+        "duration": 2.73
+    },
+    {
+        "text": "possible and visit isn't always possible",
+        "start": 277.05,
+        "duration": 1.83
+    },
+    {
+        "text": "no matter where the queen is? If the Queen",
+        "start": 278.88,
+        "duration": 2.49
+    },
+    {
+        "text": "starts over here, is this possible?",
+        "start": 281.37,
+        "duration": 3.42
+    },
+    {
+        "text": "so you should take a moment and you",
+        "start": 284.79,
+        "duration": 4.62
+    },
+    {
+        "text": "should figure out is this possible or",
+        "start": 289.41,
+        "duration": 2.49
+    },
+    {
+        "text": "impossible? what I'm going to try to do",
+        "start": 291.9,
+        "duration": 2.1
+    },
+    {
+        "text": "is I'm going to use this same technique",
+        "start": 294.0,
+        "duration": 2.34
+    },
+    {
+        "text": "of back and forth and back and forth and",
+        "start": 296.34,
+        "duration": 1.83
+    },
+    {
+        "text": "back and forth and and i'm going to end",
+        "start": 298.17,
+        "duration": 4.8
+    },
+    {
+        "text": "up here. right, so let me do that first",
+        "start": 302.97,
+        "duration": 5.31
+    },
+    {
+        "text": "so what do i need to do now? i need to",
+        "start": 308.28,
+        "duration": 4.8
+    },
+    {
+        "text": "somehow end up on this place here and",
+        "start": 313.08,
+        "duration": 4.53
+    },
+    {
+        "text": "that that is doable by the same",
+        "start": 317.61,
+        "duration": 3.84
+    },
+    {
+        "text": "technique i go back and forth i'm going",
+        "start": 321.45,
+        "duration": 2.37
+    },
+    {
+        "text": "to start here and I'll go back and forth.",
+        "start": 323.82,
+        "duration": 1.92
+    },
+    {
+        "text": "and just by choosing correctly, i can",
+        "start": 325.74,
+        "duration": 3.42
+    },
+    {
+        "text": "make sure that this stack is going to",
+        "start": 329.16,
+        "duration": 2.73
+    },
+    {
+        "text": "end up on top so this is also solvable",
+        "start": 331.89,
+        "duration": 3.69
+    },
+    {
+        "text": "for all integers. A little bit less obvious.",
+        "start": 335.58,
+        "duration": 3.72
+    },
+    {
+        "text": "now let's remove the Queen and give",
+        "start": 339.3,
+        "duration": 3.69
+    },
+    {
+        "text": "instead lazy told you where would you",
+        "start": 342.99,
+        "duration": 3.6
+    },
+    {
+        "text": "like the lady told to be",
+        "start": 346.59,
+        "duration": 2.04
+    },
+    {
+        "text": "in third position that ok so the lazy",
+        "start": 348.63,
+        "duration": 5.61
+    },
+    {
+        "text": "told doesn't move so we have got to have",
+        "start": 354.24,
+        "duration": 4.38
+    },
+    {
+        "text": "the party on this lily pad is this",
+        "start": 358.62,
+        "duration": 2.76
+    },
+    {
+        "text": "possible",
+        "start": 361.38,
+        "duration": 0.96
+    },
+    {
+        "text": "so take a second try to figure out it's",
+        "start": 362.34,
+        "duration": 1.98
+    },
+    {
+        "text": "just always going to be possible or not",
+        "start": 364.32,
+        "duration": 2.55
+    },
+    {
+        "text": "and the answer is yes this is always",
+        "start": 366.87,
+        "duration": 2.28
+    },
+    {
+        "text": "going to be possible in the same with",
+        "start": 369.15,
+        "duration": 1.83
+    },
+    {
+        "text": "the same system so here I'm going to",
+        "start": 370.98,
+        "duration": 1.98
+    },
+    {
+        "text": "choose this one I'm going to move over",
+        "start": 372.96,
+        "duration": 1.23
+    },
+    {
+        "text": "here and go on top here i'm going to",
+        "start": 374.19,
+        "duration": 2.76
+    },
+    {
+        "text": "choose something in the middle and you",
+        "start": 376.95,
+        "duration": 1.29
+    },
+    {
+        "text": "just have to figure out what I wanted to",
+        "start": 378.24,
+        "duration": 1.68
+    },
+    {
+        "text": "jump this way and yes so I jumped this",
+        "start": 379.92,
+        "duration": 5.79
+    },
+    {
+        "text": "way and we've solved it",
+        "start": 385.71,
+        "duration": 5.64
+    },
+    {
+        "text": "this is solvable for all integers you",
+        "start": 391.35,
+        "duration": 3.51
+    },
+    {
+        "text": "might want to experiment with one lazy",
+        "start": 394.86,
+        "duration": 1.71
+    },
+    {
+        "text": "toad and one Queen that have to be on",
+        "start": 396.57,
+        "duration": 2.64
+    },
+    {
+        "text": "top and everything else wrong and see if",
+        "start": 399.21,
+        "duration": 2.64
+    },
+    {
+        "text": "that is possible",
+        "start": 401.85,
+        "duration": 1.11
+    },
+    {
+        "text": "sometimes it's possible sometimes you",
+        "start": 402.96,
+        "duration": 1.47
+    },
+    {
+        "text": "know now i'm going to share a problem",
+        "start": 404.43,
+        "duration": 4.32
+    },
+    {
+        "text": "that i don't know the answer to",
+        "start": 408.75,
+        "duration": 2.7
+    },
+    {
+        "text": "and this one we have the frogs and",
+        "start": 411.45,
+        "duration": 7.11
+    },
+    {
+        "text": "unfortunately two of the lilypad are",
+        "start": 418.56,
+        "duration": 5.28
+    },
+    {
+        "text": "waterlogged the end one second from the",
+        "start": 423.84,
+        "duration": 3.78
+    },
+    {
+        "text": "end on either side so know frogs can go",
+        "start": 427.62,
+        "duration": 3.21
+    },
+    {
+        "text": "on here i do not know if this is ever",
+        "start": 430.83,
+        "duration": 4.32
+    },
+    {
+        "text": "solvable for any number of lily pads",
+        "start": 435.15,
+        "duration": 3.69
+    },
+    {
+        "text": "I've never been able to solve a single",
+        "start": 438.84,
+        "duration": 2.25
+    },
+    {
+        "text": "one of these so that's that's my open",
+        "start": 441.09,
+        "duration": 2.85
+    },
+    {
+        "text": "problem here will show your failure so I",
+        "start": 443.94,
+        "duration": 2.04
+    },
+    {
+        "text": "need to get this frog somehow because it",
+        "start": 445.98,
+        "duration": 1.95
+    },
+    {
+        "text": "can't move here so i need to go over and",
+        "start": 447.93,
+        "duration": 1.68
+    },
+    {
+        "text": "grab it so let me grab it by this",
+        "start": 449.61,
+        "duration": 4.32
+    },
+    {
+        "text": "technique I'll go to that gives three",
+        "start": 453.93,
+        "duration": 4.2
+    },
+    {
+        "text": "now I come over here",
+        "start": 458.13,
+        "duration": 2.28
+    },
+    {
+        "text": "that's four 1234 I can come over and",
+        "start": 460.41,
+        "duration": 2.64
+    },
+    {
+        "text": "rescue this one that's five one two",
+        "start": 463.05,
+        "duration": 2.37
+    },
+    {
+        "text": "three four and I UCI i'm stuck here I've",
+        "start": 465.42,
+        "duration": 4.59
+    },
+    {
+        "text": "got this one by itself not what can I do",
+        "start": 470.01,
+        "duration": 4.08
+    },
+    {
+        "text": "well I can at least get this one but",
+        "start": 474.09,
+        "duration": 2.579
+    },
+    {
+        "text": "then that's 12345 I can't move this back",
+        "start": 476.669,
+        "duration": 3.931
+    },
+    {
+        "text": "how that goes under the waterlogged",
+        "start": 480.6,
+        "duration": 1.53
+    },
+    {
+        "text": "lilypad I can't move this stack 123 and",
+        "start": 482.13,
+        "duration": 3.6
+    },
+    {
+        "text": "I can't move this sec so I'm stuck here",
+        "start": 485.73,
+        "duration": 2.16
+    },
+    {
+        "text": "so I've never been able to solve any of",
+        "start": 487.89,
+        "duration": 2.82
+    },
+    {
+        "text": "these for any length but it's not",
+        "start": 490.71,
+        "duration": 2.28
+    },
+    {
+        "text": "obvious at all of this can't be solved",
+        "start": 492.99,
+        "duration": 1.86
+    },
+    {
+        "text": "for some length of lily pads just the 11",
+        "start": 494.85,
+        "duration": 4.68
+    },
+    {
+        "text": "away from the end on each side being",
+        "start": 499.53,
+        "duration": 3.45
+    },
+    {
+        "text": "waterlogged not low enough so what we do",
+        "start": 502.98,
+        "duration": 3.48
+    },
+    {
+        "text": "we do we could split this into an ache",
+        "start": 506.46,
+        "duration": 3.45
+    },
+    {
+        "text": "here and 12 we could do that and so now",
+        "start": 509.91,
+        "duration": 2.759
+    },
+    {
+        "text": "our score is 12-4 is equal to 8",
+        "start": 512.669,
+        "duration": 7.341
+    }
+]

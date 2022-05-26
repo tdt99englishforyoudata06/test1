@@ -1,0 +1,462 @@
+[
+    {
+        "text": "Thank you to Cometeer for \nsponsoring today’s episode!\n  ",
+        "start": 0.08,
+        "duration": 2.4
+    },
+    {
+        "text": "Cometeer offers barista-quality \ncoffee that’s delivered in frozen,\n  ",
+        "start": 2.48,
+        "duration": 3.68
+    },
+    {
+        "text": "recyclable aluminum capsules.\nClick the link in the description and you’ll get",
+        "start": 6.16,
+        "duration": 3.2
+    },
+    {
+        "text": "$20 off your first purchase, plus free shipping.\nThat’s 10 free cups of coffee and  ",
+        "start": 9.36,
+        "duration": 4.64
+    },
+    {
+        "text": "over 30% off!\n[♪ INTRO]",
+        "start": 14.0,
+        "duration": 4.88
+    },
+    {
+        "text": "The art of writing is \nthousands of years old, and,",
+        "start": 18.88,
+        "duration": 3.2
+    },
+    {
+        "text": "amazingly, some texts have even lasted that long.\nWhether etched on paper or stone, the bits that  ",
+        "start": 22.08,
+        "duration": 6.16
+    },
+    {
+        "text": "survive give us lots of insight into\nancient worlds and their cultures,  ",
+        "start": 28.24,
+        "duration": 4.4
+    },
+    {
+        "text": "but not before going through some hoops.\nYou see, some of these scripts are divided across  ",
+        "start": 32.64,
+        "duration": 4.88
+    },
+    {
+        "text": "thousands of tiny fragments,\nwhich are tricky to read,  ",
+        "start": 37.52,
+        "duration": 3.44
+    },
+    {
+        "text": "even by skilled researchers.\nSo, experts spent more time  ",
+        "start": 40.96,
+        "duration": 3.12
+    },
+    {
+        "text": "figuring out what something says\nrather than understanding what it really means.",
+        "start": 44.08,
+        "duration": 3.6
+    },
+    {
+        "text": "But computer vision is starting to change that.\nReading fragments of documents to decipher",
+        "start": 47.68,
+        "duration": 4.64
+    },
+    {
+        "text": "individual letters and words \nis pretty challenging.",
+        "start": 52.32,
+        "duration": 2.48
+    },
+    {
+        "text": "So, the main goal for historians is to \nleave that tedious task to the machines. ",
+        "start": 54.8,
+        "duration": 4.32
+    },
+    {
+        "text": "Computer vision can process images \nof text with algorithms and",
+        "start": 59.12,
+        "duration": 4.08
+    },
+    {
+        "text": "artificial intelligence to automatically \nextract the text from those pictures,",
+        "start": 63.2,
+        "duration": 4.4
+    },
+    {
+        "text": "producing a clean digital text that experts \ncan easily study and share with others.",
+        "start": 67.6,
+        "duration": 5.28
+    },
+    {
+        "text": "While computer vision has \nbeen around in many forms,",
+        "start": 72.88,
+        "duration": 3.04
+    },
+    {
+        "text": "today's most powerful techniques \ntend to rely on deep learning.",
+        "start": 75.92,
+        "duration": 3.76
+    },
+    {
+        "text": "Deep learning involves a unique \nalgorithm called a neural network,",
+        "start": 79.68,
+        "duration": 3.52
+    },
+    {
+        "text": "named for its “network” of interconnected \nnodes, which are called “neurons.” ",
+        "start": 83.2,
+        "duration": 3.76
+    },
+    {
+        "text": "The neurons, in this case, are \nsimple mathematical functions.",
+        "start": 86.96,
+        "duration": 3.12
+    },
+    {
+        "text": "They're arranged in a sequence of layers, \nso that when data are fed into them,",
+        "start": 90.08,
+        "duration": 4.24
+    },
+    {
+        "text": "the data are processed from one layer to the next\nto make a prediction or classification.",
+        "start": 94.32,
+        "duration": 5.44
+    },
+    {
+        "text": "As the name implies, neural networks are\nsort of analogous to our brain structure,  ",
+        "start": 99.76,
+        "duration": 4.48
+    },
+    {
+        "text": "albeit very simplified.\nSo, modern networks  ",
+        "start": 104.24,
+        "duration": 2.56
+    },
+    {
+        "text": "have multiple layers of neurons,\nwhich scientists describe as “deep.”",
+        "start": 106.8,
+        "duration": 4.24
+    },
+    {
+        "text": "And they become helpful at \ncertain tasks by learning",
+        "start": 111.04,
+        "duration": 2.72
+    },
+    {
+        "text": "from different data examples, \nhence the term “deep learning.”",
+        "start": 113.76,
+        "duration": 3.92
+    },
+    {
+        "text": "Now the idea is that scientists repeatedly show\nthe network pairs of inputs and outputs.",
+        "start": 117.68,
+        "duration": 4.48
+    },
+    {
+        "text": "The inputs are data the \nalgorithm needs to process,",
+        "start": 122.16,
+        "duration": 2.96
+    },
+    {
+        "text": "like a digital image of a text fragment.\nOutputs are the desired outcome or what  ",
+        "start": 125.12,
+        "duration": 4.72
+    },
+    {
+        "text": "the text from the picture is supposed to say.\nSo just to simplify, researchers might show the  ",
+        "start": 129.84,
+        "duration": 4.4
+    },
+    {
+        "text": "network an image of the letter “R”\nand let it make a prediction  ",
+        "start": 134.24,
+        "duration": 3.12
+    },
+    {
+        "text": "about which letter it is.\nIt might guess correctly, or it  ",
+        "start": 137.36,
+        "duration": 2.88
+    },
+    {
+        "text": "might guess wrongly and classify it as a “Q.”\nWhen the algorithm classifies something wrong,",
+        "start": 140.24,
+        "duration": 4.48
+    },
+    {
+        "text": "that's when the “learning” comes in.\nIt involves using the difference between  ",
+        "start": 144.72,
+        "duration": 3.76
+    },
+    {
+        "text": "the desired outcome and\nthe algorithm’s guess  ",
+        "start": 148.48,
+        "duration": 2.16
+    },
+    {
+        "text": "to tweak the network’s parameters.\nSo it can then make a more accurate  ",
+        "start": 150.64,
+        "duration": 3.84
+    },
+    {
+        "text": "prediction the next time around.\nBy showing thousands of these kinds  ",
+        "start": 154.48,
+        "duration": 3.04
+    },
+    {
+        "text": "of examples, again and again,\nthe parameters of the network  ",
+        "start": 157.52,
+        "duration": 3.12
+    },
+    {
+        "text": "configure themselves\nto get better and better  ",
+        "start": 160.64,
+        "duration": 2.64
+    },
+    {
+        "text": "at figuring out what the images say.\nWith enough data, networks can eventually  ",
+        "start": 163.28,
+        "duration": 4.08
+    },
+    {
+        "text": "correctly identify letters and words they\nhave never even seen before, which is how  ",
+        "start": 167.36,
+        "duration": 5.2
+    },
+    {
+        "text": "we check how accurate they really are.\nNeural networks are a pretty general tool,",
+        "start": 172.56,
+        "duration": 4.08
+    },
+    {
+        "text": "so it can do more things \nbeyond just reading images.",
+        "start": 176.64,
+        "duration": 2.56
+    },
+    {
+        "text": "They can be trained to identify which parts \nof an image actually contain the text",
+        "start": 179.2,
+        "duration": 3.68
+    },
+    {
+        "text": "in the first place, make an attempt to \nfill in missing text, and even digitally",
+        "start": 182.88,
+        "duration": 4.16
+    },
+    {
+        "text": "reconstruct whole documents that are \ntoo fragile to physically touch.",
+        "start": 187.04,
+        "duration": 3.76
+    },
+    {
+        "text": "Most of these applications currently \ninvolve using lots of training data of\n  ",
+        "start": 190.8,
+        "duration": 3.36
+    },
+    {
+        "text": "correctly labeled images with the correct \noutput, and the more, the better.",
+        "start": 194.16,
+        "duration": 4.0
+    },
+    {
+        "text": "But the correct output, in this case,\nusually comes from humans who read  ",
+        "start": 198.16,
+        "duration": 3.36
+    },
+    {
+        "text": "the text in the first place.\nSo, in this kind of learning,  ",
+        "start": 201.52,
+        "duration": 2.32
+    },
+    {
+        "text": "machines might come to\nbasically copy the examples humans give them.",
+        "start": 203.84,
+        "duration": 4.16
+    },
+    {
+        "text": "And, as you probably know, we sometimes \nmake biased or flawed judgements,",
+        "start": 208.0,
+        "duration": 4.24
+    },
+    {
+        "text": "so machines can come to inherit \nthe same kinds of biases.",
+        "start": 212.24,
+        "duration": 3.76
+    },
+    {
+        "text": "Thankfully, in the case of text, the output \nwe want tends to be pretty unambiguous.",
+        "start": 216.0,
+        "duration": 4.88
+    },
+    {
+        "text": "So, for now, it still takes lots \nof initial human work to create",
+        "start": 220.88,
+        "duration": 3.28
+    },
+    {
+        "text": "enough data examples for these algorithms \nto “learn” how to do their jobs.",
+        "start": 224.16,
+        "duration": 3.92
+    },
+    {
+        "text": "But once you go through that initial \neffort, scientists can train models",
+        "start": 228.08,
+        "duration": 3.52
+    },
+    {
+        "text": "that work quickly and efficiently \non ancient documents.",
+        "start": 231.6,
+        "duration": 3.28
+    },
+    {
+        "text": "So far, computer vision has been \nused to read printed Latin letters,",
+        "start": 234.88,
+        "duration": 4.08
+    },
+    {
+        "text": "like the kind used for English, for \ndecades, but new techniques are expanding",
+        "start": 238.96,
+        "duration": 3.92
+    },
+    {
+        "text": "to different historical languages and \nwriting styles from all over the world.",
+        "start": 242.88,
+        "duration": 3.92
+    },
+    {
+        "text": "Researchers have created models that can \nread stylized versions of Latin script",
+        "start": 246.8,
+        "duration": 4.0
+    },
+    {
+        "text": "from old German, Tamil, Devanagari, the \nancient Ethiopian language of Ge’ez,",
+        "start": 250.8,
+        "duration": 5.52
+    },
+    {
+        "text": "Korean, and Japanese, just to name a few.\nAnd, as we mentioned, these algorithms can  ",
+        "start": 256.32,
+        "duration": 4.56
+    },
+    {
+        "text": "do more than just read text.\nOne 2021 study used computer  ",
+        "start": 260.88,
+        "duration": 3.76
+    },
+    {
+        "text": "vision to digitally piece together\ntorn papyrus fragments from the Dead Sea.",
+        "start": 264.64,
+        "duration": 4.16
+    },
+    {
+        "text": "Another 2021 study made old documents \nwith faded text easier to read,",
+        "start": 268.8,
+        "duration": 4.48
+    },
+    {
+        "text": "while a different study from 2019 helped \nguess missing ancient Greek words",
+        "start": 273.28,
+        "duration": 4.24
+    },
+    {
+        "text": "in broken stone tablets \nbased on existing examples.",
+        "start": 277.52,
+        "duration": 3.12
+    },
+    {
+        "text": "These algorithms might also be able to \nhelp with the actual “history” part too.",
+        "start": 280.64,
+        "duration": 4.08
+    },
+    {
+        "text": "A 2021 study used neural networks to try \nand identify if an ancient Hebrew scroll",
+        "start": 284.72,
+        "duration": 4.8
+    },
+    {
+        "text": "from the Dead Sea was written by a single person\nbased on features of the handwriting.",
+        "start": 289.52,
+        "duration": 4.64
+    },
+    {
+        "text": "And researchers found that it wasn’t \njust a single person that wrote it;",
+        "start": 294.16,
+        "duration": 3.2
+    },
+    {
+        "text": "it was multiple scribes that were careful enough\nto have similar handwriting to each other!",
+        "start": 297.36,
+        "duration": 4.8
+    },
+    {
+        "text": "We are still in the early days for this kind \nof work, but it’s beginning to look like the",
+        "start": 302.16,
+        "duration": 4.08
+    },
+    {
+        "text": "future of archeology could be a little \nmore “Tony Stark” than “Indiana Jones.”",
+        "start": 306.24,
+        "duration": 4.8
+    },
+    {
+        "text": "And that goes for the world of coffee, \ntoo, thanks to today’s sponsor Cometeer.",
+        "start": 311.04,
+        "duration": 4.08
+    },
+    {
+        "text": "Cometeer brews barista-quality coffee \nfrom the world’s best specialty roasters.",
+        "start": 315.12,
+        "duration": 4.4
+    },
+    {
+        "text": "The coffee is ground, brewed, \nand immediately flash-frozen",
+        "start": 319.52,
+        "duration": 3.6
+    },
+    {
+        "text": "to lock in the coffee bean’s \nfreshness and flavor.",
+        "start": 323.12,
+        "duration": 3.04
+    },
+    {
+        "text": "Then it gets delivered right to your door inside\nconvenient recyclable aluminum capsules. ",
+        "start": 326.16,
+        "duration": 4.96
+    },
+    {
+        "text": "And you can make the cometeer coffee \nat home in just a couple of minutes,",
+        "start": 331.12,
+        "duration": 3.04
+    },
+    {
+        "text": "just add hot water, or cold if \nyou’d rather have iced coffee,",
+        "start": 334.16,
+        "duration": 3.12
+    },
+    {
+        "text": "and you’ll have a cup that tastes just \nlike a barista brewed it for you. ",
+        "start": 337.28,
+        "duration": 2.96
+    },
+    {
+        "text": "If you’re interested in trying them \nout, they have a special offer",
+        "start": 340.24,
+        "duration": 2.0
+    },
+    {
+        "text": "going for fans of SciShow right now.\nYou can get $20 off your first purchase",
+        "start": 342.24,
+        "duration": 4.0
+    },
+    {
+        "text": "plus free shipping when you click on our link.\nThat’s ten free cups of coffee and over 30% off!",
+        "start": 346.24,
+        "duration": 4.955
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 351.195,
+        "duration": 10.916
+    }
+]

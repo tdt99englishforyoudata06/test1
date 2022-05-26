@@ -1,0 +1,767 @@
+[
+    {
+        "text": "We're going to talk about a classic problem in mathematics. This problem is 400 years old. It's about sphere packing.",
+        "start": 0.06,
+        "duration": 6.96
+    },
+    {
+        "text": "The question is, what is the best way to pack spheres? And by best",
+        "start": 7.02,
+        "duration": 3.509
+    },
+    {
+        "text": "I mean, what is the densest way of packing spheres. And it's thought that the best way of packing spheres is",
+        "start": 10.53,
+        "duration": 6.029
+    },
+    {
+        "text": "74.05%. So if you were packing a container, it would be 74 percent full. Now",
+        "start": 17.17,
+        "duration": 6.229
+    },
+    {
+        "text": "it's been thought that is the best way of packing spheres for 400 years,",
+        "start": 23.4,
+        "duration": 5.129
+    },
+    {
+        "text": "and it was finally proven in the",
+        "start": 28.81,
+        "duration": 2.899
+    },
+    {
+        "text": "1990s. However",
+        "start": 32.23,
+        "duration": 1.28
+    },
+    {
+        "text": "the referees, when they looked through the proof, thought they were 99% certain that the proof was right.",
+        "start": 33.51,
+        "duration": 7.35
+    },
+    {
+        "text": "So that's kind of, slightly unsatisfying.",
+        "start": 40.86,
+        "duration": 2.039
+    },
+    {
+        "text": "So then they started a, a",
+        "start": 43.18,
+        "duration": 1.649
+    },
+    {
+        "text": "15-year project to really make sure that this is correct, and they've rewritten the proof in very formal mathematical language",
+        "start": 44.829,
+        "duration": 5.99
+    },
+    {
+        "text": "which allows a computer to automatically check the proof, which was finally accepted in",
+        "start": 51.01,
+        "duration": 5.06
+    },
+    {
+        "text": "2017.",
+        "start": 57.489,
+        "duration": 1.05
+    },
+    {
+        "text": "Finally proving the conjecture about how densely you can pack spheres.",
+        "start": 58.539,
+        "duration": 5.03
+    },
+    {
+        "text": "But the problem itself goes back to Sir Walter Raleigh, of all",
+        "start": 63.909,
+        "duration": 5.33
+    },
+    {
+        "text": "people! Sir Walter Raleigh is very famous in Britain, but he's an explorer.",
+        "start": 69.46,
+        "duration": 5.389
+    },
+    {
+        "text": "He's the guy who put his coat over a puddle so Elizabeth the first could walk over a puddle.",
+        "start": 74.85,
+        "duration": 4.529
+    },
+    {
+        "text": "He invented the potato, and other lies. Very famous in Britain,",
+        "start": 79.45,
+        "duration": 4.04
+    },
+    {
+        "text": "I know. And he wanted to know the best way of packing his cannonballs on his ships.",
+        "start": 83.49,
+        "duration": 5.699
+    },
+    {
+        "text": "So he asked his mathematician, because everyone should have a mathematician, a guy called Thomas Harriot. And so he started looking through the best ways of",
+        "start": 89.799,
+        "duration": 7.13
+    },
+    {
+        "text": "packing cannonballs.",
+        "start": 97.479,
+        "duration": 1.191
+    },
+    {
+        "text": "So perhaps one of the obvious ways of packing spheres would be something like this.",
+        "start": 98.67,
+        "duration": 4.229
+    },
+    {
+        "text": "Which is a pyramid shape, well with a triangle base, so a tetrahedron.",
+        "start": 103.329,
+        "duration": 4.88
+    },
+    {
+        "text": "You see people stacking oranges or something in the supermarket, that would be one way of doing it.",
+        "start": 108.21,
+        "duration": 4.619
+    },
+    {
+        "text": "But another obvious way of packing spheres would be a square base pyramid. Let's try that. Let's try that instead, break this apart.",
+        "start": 112.829,
+        "duration": 7.65
+    },
+    {
+        "text": "Let's try and make a square base pyramid. Just a couple of extras.",
+        "start": 121.42,
+        "duration": 4.909
+    },
+    {
+        "text": "Here we go. Now it's obvious where to fill the next layer, because we're going to fill these dimples here, so let's do that.",
+        "start": 127.84,
+        "duration": 6.199
+    },
+    {
+        "text": "So we can fill these holes with our next layer of spheres. I'm gonna put that one there,",
+        "start": 134.04,
+        "duration": 5.04
+    },
+    {
+        "text": "let's put this one here,",
+        "start": 139.599,
+        "duration": 2.0
+    },
+    {
+        "text": "let's put this one here.",
+        "start": 142.51,
+        "duration": 2.0
+    },
+    {
+        "text": "And if we're lucky we should be able to crown this with our last one, like that. So we get a square pyramid.",
+        "start": 144.73,
+        "duration": 6.83
+    },
+    {
+        "text": "So that's another way of doing it. Perhaps another obvious one would be with a hexagonal base,",
+        "start": 151.56,
+        "duration": 3.959
+    },
+    {
+        "text": "so we'll get a look at that too. So let's try and make a hexagonal base. So I'm gonna have a central one there,",
+        "start": 155.519,
+        "duration": 4.83
+    },
+    {
+        "text": "let's make a hexagon around the centre.",
+        "start": 160.349,
+        "duration": 2.279
+    },
+    {
+        "text": "And then for the next layer we would fill in those obvious dimples. So there would be one there perhaps,",
+        "start": 162.629,
+        "duration": 6.33
+    },
+    {
+        "text": "one there perhaps,",
+        "start": 169.569,
+        "duration": 2.0
+    },
+    {
+        "text": "let's do one there.",
+        "start": 171.88,
+        "duration": 1.8
+    },
+    {
+        "text": "And I could crown this off with another one.",
+        "start": 173.68,
+        "duration": 2.029
+    },
+    {
+        "text": "But what I wanted to show you, and this is what Thomas Harriot",
+        "start": 175.9,
+        "duration": 2.809
+    },
+    {
+        "text": "noticed, is that all those packings are actually equivalent - they're all the same. And they all have the same density as well,",
+        "start": 178.959,
+        "duration": 6.74
+    },
+    {
+        "text": "which is going to be this 74.05%.",
+        "start": 185.709,
+        "duration": 2.69
+    },
+    {
+        "text": "So you might be able to see that the hexagonal packing is the same as the tetrahedron one,",
+        "start": 188.53,
+        "duration": 4.91
+    },
+    {
+        "text": "it's the same kind of a packing layer-by-layer. But this is less obvious I wanted to point out.",
+        "start": 193.44,
+        "duration": 4.259
+    },
+    {
+        "text": "This is also the same as the square base pyramid, but it's tilted on its side, look there. Can you see that square there?",
+        "start": 197.7,
+        "duration": 6.27
+    },
+    {
+        "text": "So that square would be the square base of the square based pyramid, but it's just tilted on its side.",
+        "start": 204.37,
+        "duration": 5.899
+    },
+    {
+        "text": "So all these things are absolutely equivalent. They have the same density, which is  74.05%.",
+        "start": 210.269,
+        "duration": 6.18
+    },
+    {
+        "text": "Actually Thomas Harriot's pal,",
+        "start": 217.209,
+        "duration": 2.0
+    },
+    {
+        "text": "which is Johannes Kepler, who you may know, decided that this would probably be the most dense packing possible.",
+        "start": 219.7,
+        "duration": 7.309
+    },
+    {
+        "text": "So this is now known as Kepler's conjecture,",
+        "start": 227.01,
+        "duration": 2.22
+    },
+    {
+        "text": "that this is the best possible, which is the 74.05% figure.",
+        "start": 229.23,
+        "duration": 5.099
+    },
+    {
+        "text": "So let's have a look where that figure comes from. Incidentally this is one of the early beginnings of how",
+        "start": 234.43,
+        "duration": 5.57
+    },
+    {
+        "text": "atoms work, or how we started to learn the structure of atoms. If these spheres were atoms,",
+        "start": 240.609,
+        "duration": 5.24
+    },
+    {
+        "text": "then this kind of packing is what you find in,",
+        "start": 246.19,
+        "duration": 3.47
+    },
+    {
+        "text": "I don't know, aluminium or copper, if these were the atoms of copper. Or in crystals,",
+        "start": 249.66,
+        "duration": 5.519
+    },
+    {
+        "text": "like, just table salt. If you look at a crystal like that you get this kind of packing.",
+        "start": 255.18,
+        "duration": 4.859
+    },
+    {
+        "text": "But let's look at where that figure comes from. So here's a small square based pyramid.",
+        "start": 260.349,
+        "duration": 4.85
+    },
+    {
+        "text": "Now this just repeats forever, if just imagine that repeating forever that would be the idea of packing.",
+        "start": 265.2,
+        "duration": 4.649
+    },
+    {
+        "text": "What about if we can cut this up into some sort of unit that we can then just repeat? Then if we work out the",
+        "start": 269.85,
+        "duration": 4.98
+    },
+    {
+        "text": "density of the unit, that does the whole thing. Okay, let's do that.",
+        "start": 274.83,
+        "duration": 2.519
+    },
+    {
+        "text": "What I'm gonna do is I'm gonna slice up this pyramid into a box.",
+        "start": 277.36,
+        "duration": 4.009
+    },
+    {
+        "text": "I'm gonna cut a horizontal line across the top layer, I'm gonna cut a horizontal line across the bottom layer.",
+        "start": 281.44,
+        "duration": 7.25
+    },
+    {
+        "text": "So I've cut them in half. And now I'm gonna cut four",
+        "start": 288.69,
+        "duration": 2.399
+    },
+    {
+        "text": "vertical lines, so now I've created a box. And that box, if you repeat it, will give you the whole packing.",
+        "start": 291.7,
+        "duration": 6.169
+    },
+    {
+        "text": "So now I want to know the density of the spheres inside that box.",
+        "start": 297.87,
+        "duration": 4.05
+    },
+    {
+        "text": "Well, that box contains exactly one sphere.",
+        "start": 302.22,
+        "duration": 3.809
+    },
+    {
+        "text": "We've got half a sphere from the top, and then from the bottom layer",
+        "start": 306.34,
+        "duration": 4.459
+    },
+    {
+        "text": "I cut it in half and then I cut it in quarters.",
+        "start": 310.83,
+        "duration": 2.129
+    },
+    {
+        "text": "So I've got four eighths of a sphere. So altogether, that would make one complete sphere.",
+        "start": 313.39,
+        "duration": 6.319
+    },
+    {
+        "text": "So what is the volume of one sphere? Well, there's a formula for that. So that is 4 pi over 3;",
+        "start": 319.71,
+        "duration": 6.779
+    },
+    {
+        "text": "well r cubed, but let's just say it has radius 1 because there's no reason why not.",
+        "start": 326.8,
+        "duration": 4.58
+    },
+    {
+        "text": "So I'm just going to say it's 4 pi over 3.",
+        "start": 331.42,
+        "duration": 3.019
+    },
+    {
+        "text": "So, that'd be the volume of the sphere.",
+        "start": 334.44,
+        "duration": 1.75
+    },
+    {
+        "text": "Now the box that I've made, well",
+        "start": 336.19,
+        "duration": 2.059
+    },
+    {
+        "text": "we've cut it",
+        "start": 338.25,
+        "duration": 0.82
+    },
+    {
+        "text": "across and vertically and so on. It would have a base of 2 by 2,",
+        "start": 339.07,
+        "duration": 3.679
+    },
+    {
+        "text": "so it'd be an area of 4, and then we times that by the height. With a bit of Pythagoras",
+        "start": 342.79,
+        "duration": 4.819
+    },
+    {
+        "text": "you can work out that the height is root 2. So the box",
+        "start": 347.61,
+        "duration": 2.82
+    },
+    {
+        "text": "would have a volume of 4 root 2. So now to find out the density",
+        "start": 350.8,
+        "duration": 4.369
+    },
+    {
+        "text": "we're gonna divide the volume of the sphere by the volume of the box.",
+        "start": 355.18,
+        "duration": 3.559
+    },
+    {
+        "text": "So if we divide through, you might be able to see we're going to get a cancel out here with these fours.",
+        "start": 358.99,
+        "duration": 4.64
+    },
+    {
+        "text": "The density's going to be pi over 3 root 2. And that figure is",
+        "start": 363.63,
+        "duration": 4.95
+    },
+    {
+        "text": "something like zero point seven four zero",
+        "start": 369.04,
+        "duration": 2.75
+    },
+    {
+        "text": "four eight, and so on. And that is where our",
+        "start": 372.52,
+        "duration": 4.039
+    },
+    {
+        "text": "74.05%",
+        "start": 377.26,
+        "duration": 2.059
+    },
+    {
+        "text": "figure comes from. That is the density of these",
+        "start": 380.5,
+        "duration": 3.29
+    },
+    {
+        "text": "obvious packings. And it might seem obvious that that would be the best way of doing it. I think so.",
+        "start": 384.76,
+        "duration": 5.899
+    },
+    {
+        "text": "I think it's obviously the most dense. But proving it's the most dense - that was actually quite difficult.",
+        "start": 390.84,
+        "duration": 6.24
+    },
+    {
+        "text": "So one of the first people who tried to take on this and see if they could prove that this was the best was Gauss.",
+        "start": 397.24,
+        "duration": 7.489
+    },
+    {
+        "text": "Gauss, one of our great mathematicians, his name comes up a lot in these things. And what he did show",
+        "start": 405.069,
+        "duration": 5.569
+    },
+    {
+        "text": "was that this was the best packing, the most dense packing, if the structure is regular.",
+        "start": 410.889,
+        "duration": 5.63
+    },
+    {
+        "text": "But he didn't show if it was always the best.",
+        "start": 417.039,
+        "duration": 3.529
+    },
+    {
+        "text": "So maybe there's an irregular packing that would be better than this - that is possible.",
+        "start": 420.569,
+        "duration": 4.619
+    },
+    {
+        "text": "So this was still an open problem. It actually became a very famous problem. It became one of David Hilbert's",
+        "start": 425.859,
+        "duration": 6.29
+    },
+    {
+        "text": "problems which was a set of problems for 20th century mathematicians. It was his 18th.",
+        "start": 432.699,
+        "duration": 5.45
+    },
+    {
+        "text": "Eventually though it was",
+        "start": 438.729,
+        "duration": 2.0
+    },
+    {
+        "text": "proven in the 1990s by a guy called Thomas Hales,",
+        "start": 440.919,
+        "duration": 4.159
+    },
+    {
+        "text": "with Samuel Ferguson. And what they did is they slightly changed the way we were thinking about this.",
+        "start": 445.689,
+        "duration": 6.769
+    },
+    {
+        "text": "So I'm going to try and show you what they did.",
+        "start": 452.769,
+        "duration": 2.99
+    },
+    {
+        "text": "I'm trying to give you the gist of the idea, it'll be a bit hand waving,",
+        "start": 455.979,
+        "duration": 3.349
+    },
+    {
+        "text": "but we're going to try our best. So imagine a sphere packing in three-dimensional space.",
+        "start": 459.549,
+        "duration": 4.67
+    },
+    {
+        "text": "It's going on infinitely, and imagine it's as full as possible as well.",
+        "start": 464.349,
+        "duration": 3.859
+    },
+    {
+        "text": "So there aren't gaps that are big enough to fit any extra spheres in, so this is as full as possible.",
+        "start": 468.209,
+        "duration": 4.83
+    },
+    {
+        "text": "Now each sphere is defined by its centre.",
+        "start": 473.769,
+        "duration": 3.38
+    },
+    {
+        "text": "So instead of a problem of packing spheres, you can think of it off the problem of points in space.",
+        "start": 477.459,
+        "duration": 5.119
+    },
+    {
+        "text": "So like a network of",
+        "start": 483.039,
+        "duration": 1.56
+    },
+    {
+        "text": "points in space. If each sphere had a radius of 1, then these points would have to be at least",
+        "start": 484.599,
+        "duration": 5.989
+    },
+    {
+        "text": "two units apart. So what they did is they started looking at the local structure near a given sphere.",
+        "start": 490.749,
+        "duration": 5.42
+    },
+    {
+        "text": "I'll show you the sort of thing I mean. If we had, say, one of the hexagonal packings - let's do that.",
+        "start": 496.169,
+        "duration": 5.339
+    },
+    {
+        "text": "Let's say we have this centre sphere here, the local structure to that would be these six spheres going around the equator.",
+        "start": 501.549,
+        "duration": 6.02
+    },
+    {
+        "text": "There would be three spheres at the top, and three spheres below it.",
+        "start": 507.639,
+        "duration": 3.53
+    },
+    {
+        "text": "So that would be the local structure around that hexagonal packing. Now,",
+        "start": 511.269,
+        "duration": 4.73
+    },
+    {
+        "text": "they would give the local structure a score. Now that's just a number,",
+        "start": 516.009,
+        "duration": 3.739
+    },
+    {
+        "text": "there's a technical definition for that, but they would give it a number.",
+        "start": 519.749,
+        "duration": 2.61
+    },
+    {
+        "text": "Now if each local structure has a score",
+        "start": 522.819,
+        "duration": 3.38
+    },
+    {
+        "text": "less than the hexagonal packing score, then they've proven the conjecture.",
+        "start": 526.54,
+        "duration": 4.369
+    },
+    {
+        "text": "So that means that the hexagonal packing would be the densest packing.",
+        "start": 530.91,
+        "duration": 3.52
+    },
+    {
+        "text": "So now the question was, is there a local structure that has a score greater than the hexagonal packing?",
+        "start": 534.56,
+        "duration": 6.95
+    },
+    {
+        "text": "Is there a counterexample? So what they did is they created a list of five thousand potential",
+        "start": 541.51,
+        "duration": 6.209
+    },
+    {
+        "text": "counter examples. Eventually they actually whittled that down a bit to about 100, and then they just checked them.",
+        "start": 548.149,
+        "duration": 5.66
+    },
+    {
+        "text": "They just checked them one at a time to see the score, and",
+        "start": 553.81,
+        "duration": 2.729
+    },
+    {
+        "text": "if each one has a score less than the hexagonal packing you can dismiss it. And eventually they were able to",
+        "start": 556.88,
+        "duration": 6.739
+    },
+    {
+        "text": "dismiss all 100 of these potential counter examples,",
+        "start": 563.779,
+        "duration": 4.49
+    },
+    {
+        "text": "which means there are no counter examples, and that proves the conjecture.",
+        "start": 568.27,
+        "duration": 4.5
+    },
+    {
+        "text": "That means that the hexagonal packing is indeed the densest packing possible at",
+        "start": 572.81,
+        "duration": 5.659
+    },
+    {
+        "text": "74.05%. And it was a series of papers throughout the 90s, and the theoretical stuff is",
+        "start": 579.05,
+        "duration": 5.57
+    },
+    {
+        "text": "traditional mathematics. And then when they started checking through these counter examples that was what was done by",
+        "start": 585.14,
+        "duration": 6.139
+    },
+    {
+        "text": "computer; and this is why they were slightly unsure if the proof was",
+        "start": 591.5,
+        "duration": 3.95
+    },
+    {
+        "text": "100% correct. Because you can't check the computer's working, really. So that's why they started this project, this",
+        "start": 596.089,
+        "duration": 7.22
+    },
+    {
+        "text": "15-year project it turned out to be, where they wanted to formulise the proof. So they turned to their proof into this extremely formal",
+        "start": 603.68,
+        "duration": 7.849
+    },
+    {
+        "text": "mathematical language, which was formal enough that a computer can automatically check it.",
+        "start": 612.05,
+        "duration": 5.15
+    },
+    {
+        "text": "(Brady: D'you think that's pretty efficient? If you were like-)",
+        "start": 617.2,
+        "duration": 1.99
+    },
+    {
+        "text": "I think that's pretty efficient. Actually, because I know, people have tried to do this experimentally.",
+        "start": 619.19,
+        "duration": 5.0
+    },
+    {
+        "text": "So if you were transporting grain, or something",
+        "start": 624.19,
+        "duration": 4.049
+    },
+    {
+        "text": "that's like a sphere, and you just let it loosely settle down. I think you get naturally something like",
+        "start": 628.24,
+        "duration": 6.9
+    },
+    {
+        "text": "64%.",
+        "start": 635.66,
+        "duration": 1.53
+    },
+    {
+        "text": "So clearly if you make a structured packing like this you're getting something much better than that. So the conjecture was finally proven",
+        "start": 637.19,
+        "duration": 7.279
+    },
+    {
+        "text": "which means that 74.05% is the densest packing of spheres,",
+        "start": 644.47,
+        "duration": 4.53
+    },
+    {
+        "text": "including all possible regular packings, all possible irregular packings. And it has some rather surprising",
+        "start": 649.82,
+        "duration": 5.69
+    },
+    {
+        "text": "applications as well. So it can be applied to, if you're looking at the structures of atoms, surprisingly",
+        "start": 656.42,
+        "duration": 6.2
+    },
+    {
+        "text": "I think it can also be used in how we transmit messages around on the Internet today.",
+        "start": 662.62,
+        "duration": 5.169
+    },
+    {
+        "text": "(Brady: I can't see any link there...)",
+        "start": 668.49,
+        "duration": 2.0
+    },
+    {
+        "text": "This is the first of a sphere trilogy with",
+        "start": 673.38,
+        "duration": 2.36
+    },
+    {
+        "text": "Dr Grime. See the video description for more information about the others. And our thanks to Brilliant for supporting the series.",
+        "start": 675.74,
+        "duration": 6.72
+    },
+    {
+        "text": "Brilliant is a website, you should know them by now.",
+        "start": 682.71,
+        "duration": 2.51
+    },
+    {
+        "text": "They're full of great courses and quizzes and all sorts of puzzles",
+        "start": 685.29,
+        "duration": 3.5
+    },
+    {
+        "text": "you can do, to help kind of well make you smarter. Get you thinking about things differently.",
+        "start": 688.79,
+        "duration": 6.27
+    },
+    {
+        "text": "There's mathematics, science, computer science - and all this content is just so beautifully designed. It's really elegant.",
+        "start": 695.27,
+        "duration": 6.179
+    },
+    {
+        "text": "It's really fun to do as well.",
+        "start": 701.49,
+        "duration": 1.82
+    },
+    {
+        "text": "If you'd like to have a look at them, and I recommend you have a look at them,",
+        "start": 703.31,
+        "duration": 2.85
+    },
+    {
+        "text": "there's lots of stuff for free on the site go to brilliant.org/numberphile",
+        "start": 706.16,
+        "duration": 5.189
+    },
+    {
+        "text": "If you use the /numberphile, they'll know you came from here",
+        "start": 711.35,
+        "duration": 3.12
+    },
+    {
+        "text": "but you'll also get 20% off if you decide to sign up for their premium service, which unlocks all the goodies",
+        "start": 714.47,
+        "duration": 6.029
+    },
+    {
+        "text": "you could want. Check them out, Brilliant.org/numberphile, our thanks to them for supporting this series",
+        "start": 720.5,
+        "duration": 5.82
+    }
+]

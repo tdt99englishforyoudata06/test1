@@ -1,0 +1,687 @@
+[
+    {
+        "text": "We're gonna do randomised Fibonacci sequences. So, we're gonna take a Fibonacci sequence, we're gonna randomise it ....with this coin.",
+        "start": 0.5,
+        "duration": 7.8
+    },
+    {
+        "text": "Now, I think we should first do a recap of Fibonacci sequences first, just to see what the original Fibonacci sequence is.",
+        "start": 8.5,
+        "duration": 6.0
+    },
+    {
+        "text": "So, your Fibonacci sequence",
+        "start": 14.58,
+        "duration": 2.0
+    },
+    {
+        "text": "starts with a 1, and a 1, and then the next term is the sum of the previous two.",
+        "start": 16.81,
+        "duration": 6.11
+    },
+    {
+        "text": "We're gonna add those together",
+        "start": 23.08,
+        "duration": 1.31
+    },
+    {
+        "text": "So 1 + 1 makes 2, 1 + 2 makes 3,",
+        "start": 24.39,
+        "duration": 4.68
+    },
+    {
+        "text": "2 and 3 make 5, 8, 13,",
+        "start": 29.07,
+        "duration": 3.45
+    },
+    {
+        "text": "21 - and so on.",
+        "start": 33.7,
+        "duration": 1.609
+    },
+    {
+        "text": "So, if you want to write that down as a little formula",
+        "start": 35.309,
+        "duration": 2.37
+    },
+    {
+        "text": "You'd write it like this: if you want to find the next Fibonacci number, you just add the previous two",
+        "start": 37.68,
+        "duration": 6.149
+    },
+    {
+        "text": "Okay",
+        "start": 44.02,
+        "duration": 0.53
+    },
+    {
+        "text": "So, couple of well-known facts about Fibonacci numbers as well;",
+        "start": 44.55,
+        "duration": 3.63
+    },
+    {
+        "text": "If you take two consecutive Fibonacci numbers, and we'll divide the big one by the smaller one,",
+        "start": 48.52,
+        "duration": 5.899
+    },
+    {
+        "text": "then you'll see, and it's been proven for a long time, that this will tend to a number, which is:",
+        "start": 54.699,
+        "duration": 7.4
+    },
+    {
+        "text": "1.618033988...something, something, something",
+        "start": 62.53,
+        "duration": 7.47
+    },
+    {
+        "text": "And people will know that this is a special number,",
+        "start": 70.5,
+        "duration": 2.879
+    },
+    {
+        "text": "This is called the golden ratio, which is this symbol, the golden ratio. But you can use that to...estimate.",
+        "start": 73.38,
+        "duration": 6.3
+    },
+    {
+        "text": "Let's say you've a really big Fibonacci number and",
+        "start": 79.99,
+        "duration": 2.75
+    },
+    {
+        "text": "You don't know what it is - you can use the golden ratio.",
+        "start": 83.32,
+        "duration": 2.479
+    },
+    {
+        "text": "So the idea is, every time, we're sort of multiplying by the golden ratio to get the next one up",
+        "start": 86.17,
+        "duration": 6.44
+    },
+    {
+        "text": "Less true at the beginning, becomes more true the biggest these numbers are",
+        "start": 93.25,
+        "duration": 3.95
+    },
+    {
+        "text": "(Brady: so you can, kind of like, reverse engineer your numbers?)",
+        "start": 97.2,
+        "duration": 2.73
+    },
+    {
+        "text": "Yeah, yeah, you can work out -",
+        "start": 99.93,
+        "duration": 1.66
+    },
+    {
+        "text": "the millionth",
+        "start": 101.59,
+        "duration": 1.68
+    },
+    {
+        "text": "Fibonacci number, right",
+        "start": 103.27,
+        "duration": 1.07
+    },
+    {
+        "text": "So if you wanted to work out the millionth Fibonacci number, what you're doing is multiplying by the golden ratio - a million times.",
+        "start": 104.34,
+        "duration": 6.87
+    },
+    {
+        "text": "So, let's say, approximately",
+        "start": 111.21,
+        "duration": 2.01
+    },
+    {
+        "text": "equal to",
+        "start": 113.95,
+        "duration": 1.08
+    },
+    {
+        "text": "golden ratio, which is this symbol, to a million. And I can tell you what that is -",
+        "start": 115.03,
+        "duration": 3.65
+    },
+    {
+        "text": "I've actually worked this out - 4.4 x 10, and it's going to be a huge number: 208,987",
+        "start": 118.68,
+        "duration": 8.82
+    },
+    {
+        "text": "So this a is really big Fibonacci number, but this an estimate, 'cause it is a bit rough",
+        "start": 127.5,
+        "duration": 6.3
+    },
+    {
+        "text": "If you wanna see what it actually is, the actual millionth Fibonacci number is...",
+        "start": 134.1,
+        "duration": 4.4
+    },
+    {
+        "text": "1.95 x 10 to the power 208,987.",
+        "start": 138.5,
+        "duration": 7.8
+    },
+    {
+        "text": "So not quite there, but the size of these numbers is spot on. So that was just a little recap of Fibonacci.",
+        "start": 146.4,
+        "duration": 5.46
+    },
+    {
+        "text": "'Cause what I wanna do now is,",
+        "start": 152.41,
+        "duration": 2.19
+    },
+    {
+        "text": "randomise this! We all, awh Fibonacci we know everything about it! Oh, boring, so predictable.",
+        "start": 155.32,
+        "duration": 5.449
+    },
+    {
+        "text": "So now, let's use my coin to randomise this a little bit. With this idea, I'm gonna create",
+        "start": 160.769,
+        "duration": 6.75
+    },
+    {
+        "text": "a random Fibonacci sequence, the next one is going to be the sum, or the difference, of the previous two numbers.",
+        "start": 167.519,
+        "duration": 9.381
+    },
+    {
+        "text": "So, we're gonna start in the same way, with a 1 and a 1. Now, what is the next value?",
+        "start": 177.0,
+        "duration": 4.949
+    },
+    {
+        "text": "We're gonna use my coin to find out",
+        "start": 181.95,
+        "duration": 2.05
+    },
+    {
+        "text": "(Brady: So, normally it would have been 2?)",
+        "start": 184.0,
+        "duration": 1.25
+    },
+    {
+        "text": "So this is, this, if it was the ordinary Fibonacci sequence we would add these together,",
+        "start": 185.25,
+        "duration": 4.95
+    },
+    {
+        "text": "we'd get a 2. I'm gonna flip my coin. I might take the sum, I might take the difference.",
+        "start": 190.3,
+        "duration": 5.06
+    },
+    {
+        "text": "So let's see, what it's going to be.",
+        "start": 195.36,
+        "duration": 1.74
+    },
+    {
+        "text": "(Brady: You've got negative on one side...Ahh yeah, okay.)",
+        "start": 197.2,
+        "duration": 4.7
+    },
+    {
+        "text": "See I, I prepared. I came prepped!",
+        "start": 202.0,
+        "duration": 2.06
+    },
+    {
+        "text": "Ready? All right, so let's do - is it a sum or difference...And I've got difference!",
+        "start": 204.85,
+        "duration": 5.599
+    },
+    {
+        "text": "(Brady: Difference. Okay, so that's - naught is the next number?)",
+        "start": 211.03,
+        "duration": 3.47
+    },
+    {
+        "text": "So zero is the next number. Let's do the next number. Is it going to be a sum or a difference?",
+        "start": 214.6,
+        "duration": 4.22
+    },
+    {
+        "text": "It's gonna be a sum! So I've got 1 now, add to the previous two to give me, 1.",
+        "start": 220.03,
+        "duration": 5.72
+    },
+    {
+        "text": "Let's see what I get next, let's try it.",
+        "start": 226.78,
+        "duration": 2.929
+    },
+    {
+        "text": "[slaps hand]",
+        "start": 229.709,
+        "duration": 0.701
+    },
+    {
+        "text": "Okay, I got a sum so we're got back to...",
+        "start": 230.41,
+        "duration": 3.69
+    },
+    {
+        "text": "another 1, there.\n[slaps hand]",
+        "start": 234.1,
+        "duration": 2.3
+    },
+    {
+        "text": "Okay, I got a plus - so that's a 2. Let's keep going, is it a sum or difference?",
+        "start": 236.56,
+        "duration": 5.72
+    },
+    {
+        "text": "Okay, we've now got a difference, so we're gonna do \n2 - 1, which gives me 1. Let's do a few more.",
+        "start": 244.01,
+        "duration": 4.83
+    },
+    {
+        "text": "We've got a plus now so that's going to be, a 3. 2 and a 1.",
+        "start": 249.269,
+        "duration": 4.73
+    },
+    {
+        "text": "Oh, and a difference here - so 3 - 1 = 2. So it's unpredictable.",
+        "start": 255.12,
+        "duration": 3.95
+    },
+    {
+        "text": "I don't know what's going to happen next. And, if you don't mind I want to really make that point.",
+        "start": 259.07,
+        "duration": 4.63
+    },
+    {
+        "text": "If I did it again...I'm going to get a different sequence. But is there anything I can say about them?",
+        "start": 263.8,
+        "duration": 5.98
+    },
+    {
+        "text": "So, I don't know if these are going to - you know,",
+        "start": 269.88,
+        "duration": 3.799
+    },
+    {
+        "text": "go off to infinity - like the Fibonacci sequence just gets bigger and bigger and bigger, goes off to infinity.",
+        "start": 273.68,
+        "duration": 4.82
+    },
+    {
+        "text": "I don't know if it's going to go to - maybe it just goes off to minus infinity, I don't know that",
+        "start": 278.6,
+        "duration": 4.3
+    },
+    {
+        "text": "Maybe it, kind of hovers around zero? Maybe the pluses and minuses cancel out.",
+        "start": 282.9,
+        "duration": 5.6
+    },
+    {
+        "text": "Or maybe it's unpredictable, maybe it's just chaotic and I don't know what's going to happen next.",
+        "start": 288.7,
+        "duration": 4.06
+    },
+    {
+        "text": "So the surprise is - I can make some predictions. I can make some long term predictions,",
+        "start": 292.76,
+        "duration": 5.639
+    },
+    {
+        "text": "for example, I can tell you what the millionth random Fibonacci number is going to be",
+        "start": 298.68,
+        "duration": 7.279
+    },
+    {
+        "text": "because",
+        "start": 307.139,
+        "duration": 1.411
+    },
+    {
+        "text": "like the original Fibonacci sequence, there is a growth ratio.",
+        "start": 308.55,
+        "duration": 5.059
+    },
+    {
+        "text": "Just the same way,",
+        "start": 314.16,
+        "duration": 1.129
+    },
+    {
+        "text": "I want to show you that, so it's:\n1.1319882487943....something, something, something.",
+        "start": 315.289,
+        "duration": 12.811
+    },
+    {
+        "text": "So this is our constant and it's going on forever. Which means we can use this",
+        "start": 328.16,
+        "duration": 4.35
+    },
+    {
+        "text": "to predict the millionth random number. So, let's do it. Random Fibonacci number one million.",
+        "start": 333.0,
+        "duration": 7.22
+    },
+    {
+        "text": "Same kinda thing that I did with the Fibonacci numbers. It's gonna be, approximately,",
+        "start": 341.01,
+        "duration": 5.39
+    },
+    {
+        "text": "this constant: oh, I'll just do 1.319...you get the idea. To the power: one million",
+        "start": 346.62,
+        "duration": 6.919
+    },
+    {
+        "text": "Which is:",
+        "start": 353.94,
+        "duration": 1.44
+    },
+    {
+        "text": "some big number.\n8.3 x 10 to the 53,841",
+        "start": 355.38,
+        "duration": 7.32
+    },
+    {
+        "text": "I will tell you, this is a statement about the size of the number - not the sign of the number.",
+        "start": 362.7,
+        "duration": 4.7
+    },
+    {
+        "text": "So I don't know if it's a plus or a minus number. So it might be a plus or minus.",
+        "start": 367.62,
+        "duration": 5.51
+    },
+    {
+        "text": "So this might be going off to positive infinity, and there's no reason why it can't go down to negative infinity;",
+        "start": 373.13,
+        "duration": 5.549
+    },
+    {
+        "text": "but they are growing, and the size of these numbers are growing,",
+        "start": 379.05,
+        "duration": 4.22
+    },
+    {
+        "text": "and, in the long term, we can predict how much it will grow by. If you wanna put it another way,",
+        "start": 383.639,
+        "duration": 5.57
+    },
+    {
+        "text": "you could say it like this:",
+        "start": 389.49,
+        "duration": 1.81
+    },
+    {
+        "text": "If you take the nth random Fibonacci number, and make it positive, and we took the nth root,",
+        "start": 391.3,
+        "duration": 6.759
+    },
+    {
+        "text": "this is tending towards our magic number here. 1.1319 and stuff, as",
+        "start": 399.03,
+        "duration": 7.97
+    },
+    {
+        "text": "n tends to infinity.",
+        "start": 407.639,
+        "duration": 2.0
+    },
+    {
+        "text": "Although, well I'll put a little thing here",
+        "start": 409.71,
+        "duration": 2.0
+    },
+    {
+        "text": "\"Almost surely\"",
+        "start": 412.5,
+        "duration": 2.4
+    },
+    {
+        "text": "That's a funny expression I've slipped in. This tends to this constant \"almost surely\"",
+        "start": 414.9,
+        "duration": 6.799
+    },
+    {
+        "text": "Because the original Fibonacci sequence",
+        "start": 422.37,
+        "duration": 2.389
+    },
+    {
+        "text": "would count as a randomised Fibonacci sequence *if* I was just getting plus",
+        "start": 425.19,
+        "duration": 5.629
+    },
+    {
+        "text": "every time I flipped my coin: plus, plus, plus, plus.",
+        "start": 431.219,
+        "duration": 2.39
+    },
+    {
+        "text": "So, that counts and that has a growth rate which is the golden ratio - it's not this value.",
+        "start": 434.25,
+        "duration": 5.959
+    },
+    {
+        "text": "But the chances of me getting plus, plus, plus; over and over again so that I've got the Fibonacci sequence",
+        "start": 440.819,
+        "duration": 5.959
+    },
+    {
+        "text": "becomes increasing small.",
+        "start": 447.389,
+        "duration": 2.0
+    },
+    {
+        "text": "Err, so if you look at all the possible random Fibonacci sequences",
+        "start": 449.52,
+        "duration": 3.41
+    },
+    {
+        "text": "things like the original Fibonacci sequence",
+        "start": 453.719,
+        "duration": 2.36
+    },
+    {
+        "text": "almost never happens. I'm not going to say it's impossible, but it's *almost* never going to happen. If you did this for real,",
+        "start": 457.62,
+        "duration": 6.5
+    },
+    {
+        "text": "almost 100% of the time you're getting a",
+        "start": 465.12,
+        "duration": 2.68
+    },
+    {
+        "text": "properly random sequence of pluses and minuses which tend towards this growth constant.",
+        "start": 468.36,
+        "duration": 6.109
+    },
+    {
+        "text": "Another example of what wouldn't work, is if I had a pattern. If I had something like",
+        "start": 475.199,
+        "duration": 4.67
+    },
+    {
+        "text": "plus, minus, minus as a pattern, and it went plus, minus, minus. So if I started with a 1 and a 1",
+        "start": 480.509,
+        "duration": 6.14
+    },
+    {
+        "text": "it would be plus, minus, minus as a pattern",
+        "start": 487.949,
+        "duration": 2.869
+    },
+    {
+        "text": "which would go plus, would make a 2. Then a minus; would be 2 - 1, so that should be a 1.",
+        "start": 491.159,
+        "duration": 6.65
+    },
+    {
+        "text": "Then a minus again  1 - 2, I've got -1",
+        "start": 498.479,
+        "duration": 3.95
+    },
+    {
+        "text": "Then we go for a plus which gives me a 0",
+        "start": 503.159,
+        "duration": 2.54
+    },
+    {
+        "text": "Then we'll do a minus",
+        "start": 506.43,
+        "duration": 2.0
+    },
+    {
+        "text": "which is going to give me a 1 and another minus gives me a 1. And I get back",
+        "start": 508.53,
+        "duration": 4.649
+    },
+    {
+        "text": "to the original two numbers and then that pattern will continue, so that's not growing at all.",
+        "start": 514.12,
+        "duration": 6.02
+    },
+    {
+        "text": "That's just oscillating up and down, so that doesn't have a growth rate, because it's not growing anywhere.",
+        "start": 520.479,
+        "duration": 5.059
+    },
+    {
+        "text": "You won't really see this coming out though, until you're using...",
+        "start": 525.94,
+        "duration": 3.95
+    },
+    {
+        "text": "Until you've done this for about...two hundred thousand? times",
+        "start": 530.83,
+        "duration": 3.109
+    },
+    {
+        "text": "So you have to go quite far and then you start to see that this starts to tend to these numbers.",
+        "start": 533.94,
+        "duration": 5.34
+    },
+    {
+        "text": "(Brady: You don't think someone watching is going to make some computer simulator that will do this two hundred thousand times?)",
+        "start": 539.62,
+        "duration": 5.48
+    },
+    {
+        "text": "And that's what they did!",
+        "start": 545.1,
+        "duration": 0.66
+    },
+    {
+        "text": "That's exactly what they've done.",
+        "start": 545.76,
+        "duration": 1.68
+    },
+    {
+        "text": "So when they were trying to calculate these numbers they simulated it. And they could see that in the long term,",
+        "start": 547.44,
+        "duration": 5.52
+    },
+    {
+        "text": "this was the growth rate.",
+        "start": 553.54,
+        "duration": 1.76
+    },
+    {
+        "text": "In the 60s they showed that these randomised Fibonacci sequences do grow.",
+        "start": 555.3,
+        "duration": 6.21
+    },
+    {
+        "text": "I think that's a surprise in itself because, you know,",
+        "start": 561.51,
+        "duration": 3.209
+    },
+    {
+        "text": "they've got pluses and minuses don't really cancel out, turns out they don't, so these sequences are growing.",
+        "start": 564.72,
+        "duration": 5.94
+    },
+    {
+        "text": "So they could prove that it was growing, but they didn't know what the growth rate was.",
+        "start": 571.03,
+        "duration": 3.979
+    },
+    {
+        "text": "So, that took, awh till",
+        "start": 575.62,
+        "duration": 2.78
+    },
+    {
+        "text": "1999, so we're talking 30 years later",
+        "start": 578.4,
+        "duration": 5.37
+    },
+    {
+        "text": "and, it was calculated what this growth rate was, and that, was really hard.",
+        "start": 583.9,
+        "duration": 4.4
+    },
+    {
+        "text": "Proper advanced mathematics, proper advanced computing; but what they did calculate was",
+        "start": 588.97,
+        "duration": 5.42
+    },
+    {
+        "text": "this part of it:",
+        "start": 594.94,
+        "duration": 2.239
+    },
+    {
+        "text": "1.13198824",
+        "start": 597.179,
+        "duration": 6.021
+    },
+    {
+        "text": "and that's as far as they could go 'cause it's really hard to calculate. And that was 20 years ago.",
+        "start": 604.0,
+        "duration": 4.7
+    },
+    {
+        "text": "And in the 20 years since, we've worked out 5 more digits and that's as far as we've got.",
+        "start": 609.19,
+        "duration": 6.529
+    },
+    {
+        "text": "(Brady: Audrey. Hang on)",
+        "start": 617.0,
+        "duration": 2.259
+    },
+    {
+        "text": "Brady: Audrey!\nJames: Hello! D'you want to hear about applications, of Fibonacci sequences?",
+        "start": 619.93,
+        "duration": 3.37
+    },
+    {
+        "text": "Audrey you're not supposed to be in here. Out. Come on, out you go.",
+        "start": 623.38,
+        "duration": 3.89
+    },
+    {
+        "text": "Out",
+        "start": 627.5,
+        "duration": 0.5
+    },
+    {
+        "text": "Come on",
+        "start": 628.0,
+        "duration": 1.89
+    },
+    {
+        "text": "Out you go\n- She was interested!",
+        "start": 629.89,
+        "duration": 1.38
+    },
+    {
+        "text": "Out you go\n[laughs]",
+        "start": 631.27,
+        "duration": 2.0
+    }
+]

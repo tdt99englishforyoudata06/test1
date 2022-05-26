@@ -1,0 +1,2352 @@
+[
+    {
+        "text": "Oh my goodness - we've got a fresh bit of",
+        "start": 0.24,
+        "duration": 3.52
+    },
+    {
+        "text": "maths research, well from 2019, I consider",
+        "start": 3.76,
+        "duration": 2.96
+    },
+    {
+        "text": "that",
+        "start": 6.72,
+        "duration": 0.96
+    },
+    {
+        "text": "very recent all things considered; about",
+        "start": 7.68,
+        "duration": 1.999
+    },
+    {
+        "text": "Gaussian integers, rings, finite fields,",
+        "start": 9.679,
+        "duration": 3.281
+    },
+    {
+        "text": "and the magic square of squares. And so",
+        "start": 12.96,
+        "duration": 2.08
+    },
+    {
+        "text": "for some of you that's a bit of a",
+        "start": 15.04,
+        "duration": 1.2
+    },
+    {
+        "text": "spoiler on where parts of this video may",
+        "start": 16.24,
+        "duration": 2.08
+    },
+    {
+        "text": "be going. Some of you may know the Parker",
+        "start": 18.32,
+        "duration": 1.92
+    },
+    {
+        "text": "square - this is- a fan sent this in. If you",
+        "start": 20.24,
+        "duration": 2.64
+    },
+    {
+        "text": "don't know what the Parker square is",
+        "start": 22.88,
+        "duration": 2.159
+    },
+    {
+        "text": "that's great to hear. I don't want to",
+        "start": 25.039,
+        "duration": 1.441
+    },
+    {
+        "text": "call it the Parker square because it",
+        "start": 26.48,
+        "duration": 2.24
+    },
+    {
+        "text": "doesn't work properly- it would be like",
+        "start": 28.72,
+        "duration": 1.52
+    },
+    {
+        "text": "oh that's a",
+        "start": 30.24,
+        "duration": 1.359
+    },
+    {
+        "text": "classic Parker square. We'll get to this",
+        "start": 31.599,
+        "duration": 1.761
+    },
+    {
+        "text": "content in a moment. First of all I",
+        "start": 33.36,
+        "duration": 2.48
+    },
+    {
+        "text": "really want to focus on finite fields. So",
+        "start": 35.84,
+        "duration": 2.64
+    },
+    {
+        "text": "a field is a bit it's like a generalised",
+        "start": 38.48,
+        "duration": 3.2
+    },
+    {
+        "text": "version of what is a number; in terms of",
+        "start": 41.68,
+        "duration": 2.24
+    },
+    {
+        "text": "you can multiply it, you can add it, and",
+        "start": 43.92,
+        "duration": 2.08
+    },
+    {
+        "text": "very importantly you can find its",
+        "start": 46.0,
+        "duration": 2.8
+    },
+    {
+        "text": "inverse. So for example the numbers, the",
+        "start": 48.8,
+        "duration": 3.36
+    },
+    {
+        "text": "real numbers, are a field because if",
+        "start": 52.16,
+        "duration": 2.399
+    },
+    {
+        "text": "you've got any- if you've got a number I",
+        "start": 54.559,
+        "duration": 2.081
+    },
+    {
+        "text": "don't know a and you multiply it by b",
+        "start": 56.64,
+        "duration": 3.2
+    },
+    {
+        "text": "you're going to get exactly the same",
+        "start": 59.84,
+        "duration": 1.28
+    },
+    {
+        "text": "thing as if you've got b multiplied by a,",
+        "start": 61.12,
+        "duration": 2.88
+    },
+    {
+        "text": "which means that they are commutative. And",
+        "start": 64.0,
+        "duration": 2.799
+    },
+    {
+        "text": "there will exist some number, the inverse",
+        "start": 66.799,
+        "duration": 2.401
+    },
+    {
+        "text": "of a. So if you multiply a by 1 over a",
+        "start": 69.2,
+        "duration": 3.36
+    },
+    {
+        "text": "then you get 1. So that's our",
+        "start": 72.56,
+        "duration": 2.879
+    },
+    {
+        "text": "multiplication inverse, and so for any",
+        "start": 75.439,
+        "duration": 2.801
+    },
+    {
+        "text": "number - if you had for example a 4",
+        "start": 78.24,
+        "duration": 3.12
+    },
+    {
+        "text": "and then you multiply that by 0.25",
+        "start": 81.36,
+        "duration": 3.28
+    },
+    {
+        "text": "then you get 1. And very importantly",
+        "start": 84.64,
+        "duration": 3.36
+    },
+    {
+        "text": "this is a real number,",
+        "start": 88.0,
+        "duration": 1.92
+    },
+    {
+        "text": "this is a real number; and so every real",
+        "start": 89.92,
+        "duration": 2.559
+    },
+    {
+        "text": "number has a buddy",
+        "start": 92.479,
+        "duration": 2.081
+    },
+    {
+        "text": "real number where if they multiply",
+        "start": 94.56,
+        "duration": 2.16
+    },
+    {
+        "text": "together you get 1 which means you can",
+        "start": 96.72,
+        "duration": 1.92
+    },
+    {
+        "text": "undo multiplication, it means you've got",
+        "start": 98.64,
+        "duration": 2.479
+    },
+    {
+        "text": "division",
+        "start": 101.119,
+        "duration": 1.121
+    },
+    {
+        "text": "and you're off and racing. And you can do",
+        "start": 102.24,
+        "duration": 1.76
+    },
+    {
+        "text": "this for all sorts of cool things, you",
+        "start": 104.0,
+        "duration": 1.28
+    },
+    {
+        "text": "can do it- like I said for the real",
+        "start": 105.28,
+        "duration": 1.199
+    },
+    {
+        "text": "numbers, you can do it for complex",
+        "start": 106.479,
+        "duration": 1.201
+    },
+    {
+        "text": "numbers, you can do like some",
+        "start": 107.68,
+        "duration": 1.92
+    },
+    {
+        "text": "polynomials if you want to go wild,",
+        "start": 109.6,
+        "duration": 2.72
+    },
+    {
+        "text": "rationals - the field is wide open is what I'm",
+        "start": 112.32,
+        "duration": 2.88
+    },
+    {
+        "text": "trying to say. Except",
+        "start": 115.2,
+        "duration": 1.68
+    },
+    {
+        "text": "the integers.",
+        "start": 116.88,
+        "duration": 1.599
+    },
+    {
+        "text": "The integers don't work.",
+        "start": 118.479,
+        "duration": 2.161
+    },
+    {
+        "text": "Very sadly, big fan of whole numbers.",
+        "start": 120.64,
+        "duration": 2.479
+    },
+    {
+        "text": "Everything else is great, you can add",
+        "start": 123.119,
+        "duration": 1.6
+    },
+    {
+        "text": "them, you can multiply them - and if you",
+        "start": 124.719,
+        "duration": 2.241
+    },
+    {
+        "text": "multiply them, this is the other thing I",
+        "start": 126.96,
+        "duration": 1.919
+    },
+    {
+        "text": "should say, if you multiply two of them",
+        "start": 128.879,
+        "duration": 1.281
+    },
+    {
+        "text": "together a times b",
+        "start": 130.16,
+        "duration": 1.52
+    },
+    {
+        "text": "and you get some number c",
+        "start": 131.68,
+        "duration": 2.48
+    },
+    {
+        "text": "that is also a real number - or it's it's",
+        "start": 134.16,
+        "duration": 3.28
+    },
+    {
+        "text": "a member of the field. So the field's",
+        "start": 137.44,
+        "duration": 2.799
+    },
+    {
+        "text": "closed, there's nothing you can do in the",
+        "start": 140.239,
+        "duration": 1.441
+    },
+    {
+        "text": "field",
+        "start": 141.68,
+        "duration": 0.8
+    },
+    {
+        "text": "that will cause the ball",
+        "start": 142.48,
+        "duration": 1.68
+    },
+    {
+        "text": "to land outside the field. Anything- if",
+        "start": 144.16,
+        "duration": 2.079
+    },
+    {
+        "text": "you're going to multiply or add you",
+        "start": 146.239,
+        "duration": 1.441
+    },
+    {
+        "text": "land somewhere else in the same field,",
+        "start": 147.68,
+        "duration": 1.84
+    },
+    {
+        "text": "very important and you've got this here.",
+        "start": 149.52,
+        "duration": 1.76
+    },
+    {
+        "text": "Whereas integers, that works, you multiply",
+        "start": 151.28,
+        "duration": 2.56
+    },
+    {
+        "text": "two integers together",
+        "start": 153.84,
+        "duration": 1.6
+    },
+    {
+        "text": "you land somewhere else in the field of",
+        "start": 155.44,
+        "duration": 1.439
+    },
+    {
+        "text": "integers;",
+        "start": 156.879,
+        "duration": 1.201
+    },
+    {
+        "text": "but you cannot find",
+        "start": 158.08,
+        "duration": 2.239
+    },
+    {
+        "text": "an inverse, a whole number inverse, for an",
+        "start": 160.319,
+        "duration": 2.321
+    },
+    {
+        "text": "integer so that means they get kicked",
+        "start": 162.64,
+        "duration": 1.92
+    },
+    {
+        "text": "out.",
+        "start": 164.56,
+        "duration": 0.72
+    },
+    {
+        "text": "Unless you",
+        "start": 165.28,
+        "duration": 2.36
+    },
+    {
+        "text": "shrink the field a bit. So instead of",
+        "start": 168.319,
+        "duration": 1.761
+    },
+    {
+        "text": "having the infinite-",
+        "start": 170.08,
+        "duration": 1.76
+    },
+    {
+        "text": "as I say there's infinitely many",
+        "start": 171.84,
+        "duration": 2.16
+    },
+    {
+        "text": "integers, there's a big infinity of real",
+        "start": 174.0,
+        "duration": 2.48
+    },
+    {
+        "text": "numbers. Instead of having",
+        "start": 176.48,
+        "duration": 2.08
+    },
+    {
+        "text": "too much space, we want to we want to",
+        "start": 178.56,
+        "duration": 2.24
+    },
+    {
+        "text": "narrow this down a little bit, if you",
+        "start": 180.8,
+        "duration": 1.519
+    },
+    {
+        "text": "have a finite field",
+        "start": 182.319,
+        "duration": 2.161
+    },
+    {
+        "text": "suddenly your integers are back on the",
+        "start": 184.48,
+        "duration": 2.08
+    },
+    {
+        "text": "table",
+        "start": 186.56,
+        "duration": 1.039
+    },
+    {
+        "text": "and you can have inverses of whole",
+        "start": 187.599,
+        "duration": 2.961
+    },
+    {
+        "text": "numbers",
+        "start": 190.56,
+        "duration": 1.12
+    },
+    {
+        "text": "provided the field is finite. You know",
+        "start": 191.68,
+        "duration": 2.559
+    },
+    {
+        "text": "what, let's very quickly put together",
+        "start": 194.239,
+        "duration": 2.801
+    },
+    {
+        "text": "the addition and multiplication grids",
+        "start": 197.04,
+        "duration": 2.559
+    },
+    {
+        "text": "for a finite field across some integers.",
+        "start": 199.599,
+        "duration": 3.441
+    },
+    {
+        "text": "So Brady, do you have a fun",
+        "start": 203.04,
+        "duration": 2.72
+    },
+    {
+        "text": "prime number? And I should warn you the",
+        "start": 205.76,
+        "duration": 2.16
+    },
+    {
+        "text": "bigger the prime you name the longer",
+        "start": 207.92,
+        "duration": 2.319
+    },
+    {
+        "text": "this is going to take. Don't go trivial!",
+        "start": 210.239,
+        "duration": 3.681
+    },
+    {
+        "text": "Don't-\n- (Brady: 7.)",
+        "start": 213.92,
+        "duration": 0.8
+    },
+    {
+        "text": "7, that's nice. That-",
+        "start": 215.78,
+        "duration": 1.819
+    },
+    {
+        "text": "that's neat and tidy. So what we'll do is,",
+        "start": 217.599,
+        "duration": 2.961
+    },
+    {
+        "text": "so for 7 we're gonna effectively be",
+        "start": 220.56,
+        "duration": 2.399
+    },
+    {
+        "text": "doing",
+        "start": 222.959,
+        "duration": 1.2
+    },
+    {
+        "text": "modular arithmetic on mod 7. And so what",
+        "start": 224.159,
+        "duration": 3.841
+    },
+    {
+        "text": "we're going to do is- let's do",
+        "start": 228.0,
+        "duration": 2.48
+    },
+    {
+        "text": "multiplication first. And I'll very",
+        "start": 230.48,
+        "duration": 1.44
+    },
+    {
+        "text": "quickly fill in this table. So we're",
+        "start": 231.92,
+        "duration": 2.0
+    },
+    {
+        "text": "going to multiply,",
+        "start": 233.92,
+        "duration": 1.679
+    },
+    {
+        "text": "here we go,",
+        "start": 235.599,
+        "duration": 1.441
+    },
+    {
+        "text": "we're going to multiply",
+        "start": 237.04,
+        "duration": 1.919
+    },
+    {
+        "text": "as if this is a grid so 1 times 1 is",
+        "start": 238.959,
+        "duration": 2.081
+    },
+    {
+        "text": "1 - this is a super boring column.",
+        "start": 241.04,
+        "duration": 2.399
+    },
+    {
+        "text": "This one's not much more exciting so 2",
+        "start": 243.439,
+        "duration": 2.0
+    },
+    {
+        "text": "times 1 is 2, two 2s are 4,",
+        "start": 245.439,
+        "duration": 3.041
+    },
+    {
+        "text": "6 - now this this should be 8,",
+        "start": 248.48,
+        "duration": 4.08
+    },
+    {
+        "text": "mod seven - 1.",
+        "start": 252.56,
+        "duration": 2.66
+    },
+    {
+        "text": "And so here we should have 10, so that's",
+        "start": 255.68,
+        "duration": 2.079
+    },
+    {
+        "text": "going to be 3. And here we should",
+        "start": 257.759,
+        "duration": 1.921
+    },
+    {
+        "text": "have 12 so it's going to be 5. So",
+        "start": 259.68,
+        "duration": 2.399
+    },
+    {
+        "text": "I'm taking whatever you get when you",
+        "start": 262.079,
+        "duration": 1.68
+    },
+    {
+        "text": "multiply these and\nI'm getting the remainder",
+        "start": 263.759,
+        "duration": 2.241
+    },
+    {
+        "text": "mod 7. So I'm dividing out any 7s,",
+        "start": 266.0,
+        "duration": 2.4
+    },
+    {
+        "text": "it's just the leftover bit.",
+        "start": 268.4,
+        "duration": 1.88
+    },
+    {
+        "text": "And we can do the same thing for",
+        "start": 274.96,
+        "duration": 1.04
+    },
+    {
+        "text": "addition, but we add them and we take the",
+        "start": 276.0,
+        "duration": 1.44
+    },
+    {
+        "text": "mod 7 and we loop back. Now at this",
+        "start": 277.44,
+        "duration": 1.36
+    },
+    {
+        "text": "point a lot of people thinking, well hang",
+        "start": 278.8,
+        "duration": 1.119
+    },
+    {
+        "text": "on, why are you getting so excited about",
+        "start": 279.919,
+        "duration": 1.761
+    },
+    {
+        "text": "finite fields when you're just doing",
+        "start": 281.68,
+        "duration": 2.239
+    },
+    {
+        "text": "modular arithmetic? That doesn't count.",
+        "start": 283.919,
+        "duration": 2.161
+    },
+    {
+        "text": "Well, it's not 100% true. So I would call",
+        "start": 286.08,
+        "duration": 2.96
+    },
+    {
+        "text": "this- this is like the the integers-",
+        "start": 289.04,
+        "duration": 3.439
+    },
+    {
+        "text": "so Z,",
+        "start": 292.479,
+        "duration": 1.681
+    },
+    {
+        "text": "weird z for the integers, kind of mod",
+        "start": 294.16,
+        "duration": 2.8
+    },
+    {
+        "text": "7 gives us this.",
+        "start": 296.96,
+        "duration": 1.92
+    },
+    {
+        "text": "This doesn't work for any number, you",
+        "start": 298.88,
+        "duration": 1.599
+    },
+    {
+        "text": "don't get a finite field-",
+        "start": 300.479,
+        "duration": 2.0
+    },
+    {
+        "text": "which is why I said prime. It only works",
+        "start": 302.479,
+        "duration": 3.28
+    },
+    {
+        "text": "for",
+        "start": 305.759,
+        "duration": 0.801
+    },
+    {
+        "text": "primes and powers of primes.",
+        "start": 306.56,
+        "duration": 3.12
+    },
+    {
+        "text": "So",
+        "start": 309.68,
+        "duration": 0.72
+    },
+    {
+        "text": "you will get a finite field for the",
+        "start": 310.4,
+        "duration": 1.76
+    },
+    {
+        "text": "integers mod 7, you'll get a finite field",
+        "start": 312.16,
+        "duration": 2.24
+    },
+    {
+        "text": "for the integers mod 49, because that's 7",
+        "start": 314.4,
+        "duration": 3.44
+    },
+    {
+        "text": "squared, or mod 25 because that's 5",
+        "start": 317.84,
+        "duration": 3.04
+    },
+    {
+        "text": "squared or whatever the case. It doesn't",
+        "start": 320.88,
+        "duration": 2.08
+    },
+    {
+        "text": "work for the in-between values. Now I've",
+        "start": 322.96,
+        "duration": 1.36
+    },
+    {
+        "text": "never tried this",
+        "start": 324.32,
+        "duration": 1.36
+    },
+    {
+        "text": "but I thought it might be fun",
+        "start": 325.68,
+        "duration": 1.68
+    },
+    {
+        "text": "just to see what happens when it breaks,",
+        "start": 327.36,
+        "duration": 2.0
+    },
+    {
+        "text": "so let's break it. Let's- Brady you want",
+        "start": 329.36,
+        "duration": 1.76
+    },
+    {
+        "text": "to pick a number which is not a prime",
+        "start": 331.12,
+        "duration": 3.04
+    },
+    {
+        "text": "and is not",
+        "start": 334.16,
+        "duration": 1.759
+    },
+    {
+        "text": "a power of a prime",
+        "start": 335.919,
+        "duration": 1.761
+    },
+    {
+        "text": "and then we'll we'll try to do the same",
+        "start": 337.68,
+        "duration": 1.84
+    },
+    {
+        "text": "grid and we'll see we'll see why it",
+        "start": 339.52,
+        "duration": 1.2
+    },
+    {
+        "text": "breaks.",
+        "start": 340.72,
+        "duration": 1.36
+    },
+    {
+        "text": "(6?) \n- 6, excellent, because that's 3 times 2",
+        "start": 342.08,
+        "duration": 3.2
+    },
+    {
+        "text": "it's not a power of a prime, it's got",
+        "start": 345.28,
+        "duration": 1.359
+    },
+    {
+        "text": "more than one prime factor is the other",
+        "start": 346.639,
+        "duration": 2.081
+    },
+    {
+        "text": "way of saying that. Ao so this is going",
+        "start": 348.72,
+        "duration": 2.56
+    },
+    {
+        "text": "to be fancy Z6.",
+        "start": 351.28,
+        "duration": 2.93
+    },
+    {
+        "text": "Okay so I should point out I- I've kind",
+        "start": 357.759,
+        "duration": 3.521
+    },
+    {
+        "text": "of hidden 0, because a whole row of",
+        "start": 361.28,
+        "duration": 2.24
+    },
+    {
+        "text": "0s is even less exciting than",
+        "start": 363.52,
+        "duration": 2.16
+    },
+    {
+        "text": "having these.",
+        "start": 365.68,
+        "duration": 1.28
+    },
+    {
+        "text": "And 0 doesn't get inverses and all",
+        "start": 366.96,
+        "duration": 1.44
+    },
+    {
+        "text": "that jazz so we ignore 0. Now, so you",
+        "start": 368.4,
+        "duration": 2.16
+    },
+    {
+        "text": "think well this is perfectly good, why",
+        "start": 370.56,
+        "duration": 1.919
+    },
+    {
+        "text": "doesn't this count as a finite field?",
+        "start": 372.479,
+        "duration": 2.0
+    },
+    {
+        "text": "Well it's because we've haven't got our",
+        "start": 374.479,
+        "duration": 1.84
+    },
+    {
+        "text": "inverses. So if you ever look over here",
+        "start": 376.319,
+        "duration": 2.16
+    },
+    {
+        "text": "all the numbers we might have, all the",
+        "start": 378.479,
+        "duration": 1.681
+    },
+    {
+        "text": "non-zeroes, 1 through 6; 1 has an",
+        "start": 380.16,
+        "duration": 3.039
+    },
+    {
+        "text": "inverse, it's 1 because there's 1",
+        "start": 383.199,
+        "duration": 2.0
+    },
+    {
+        "text": "here. 2 has an inverse,",
+        "start": 385.199,
+        "duration": 2.481
+    },
+    {
+        "text": "it's 4. So if you multiply 2 by 4",
+        "start": 387.68,
+        "duration": 3.04
+    },
+    {
+        "text": "mod 7",
+        "start": 390.72,
+        "duration": 1.12
+    },
+    {
+        "text": "you get back to 1. So technically a",
+        "start": 391.84,
+        "duration": 2.72
+    },
+    {
+        "text": "half",
+        "start": 394.56,
+        "duration": 1.04
+    },
+    {
+        "text": "in",
+        "start": 395.6,
+        "duration": 1.039
+    },
+    {
+        "text": "the finite field",
+        "start": 396.639,
+        "duration": 2.0
+    },
+    {
+        "text": "7",
+        "start": 398.639,
+        "duration": 1.12
+    },
+    {
+        "text": "is 4.",
+        "start": 399.759,
+        "duration": 1.921
+    },
+    {
+        "text": "So",
+        "start": 401.68,
+        "duration": 1.359
+    },
+    {
+        "text": "that checks out. Three- a third is 5",
+        "start": 403.039,
+        "duration": 4.241
+    },
+    {
+        "text": "because 3 times 5 gives you 1 and then",
+        "start": 407.28,
+        "duration": 2.16
+    },
+    {
+        "text": "there's 1 there, and there's 1 there",
+        "start": 409.44,
+        "duration": 1.68
+    },
+    {
+        "text": "and there's 1 there. And so quite",
+        "start": 411.12,
+        "duration": 1.519
+    },
+    {
+        "text": "nicely there is a 1 in every single row",
+        "start": 412.639,
+        "duration": 2.56
+    },
+    {
+        "text": "and there's a 1 in every single column.",
+        "start": 415.199,
+        "duration": 1.201
+    },
+    {
+        "text": "(As you said up here, \nwe have to be able to)",
+        "start": 416.4,
+        "duration": 1.6
+    },
+    {
+        "text": "(achieve 1 somehow?)\n- Yes you have to",
+        "start": 418.0,
+        "duration": 2.4
+    },
+    {
+        "text": "multiply to get to 1; and you can't do",
+        "start": 420.4,
+        "duration": 2.799
+    },
+    {
+        "text": "that with regular integers but because",
+        "start": 423.199,
+        "duration": 1.761
+    },
+    {
+        "text": "you've got mod it means you can loop",
+        "start": 424.96,
+        "duration": 2.56
+    },
+    {
+        "text": "around to get back to 1. Because",
+        "start": 427.52,
+        "duration": 1.92
+    },
+    {
+        "text": "otherwise once you- once you're gone",
+        "start": 429.44,
+        "duration": 2.159
+    },
+    {
+        "text": "you're not you're not coming back to 1,",
+        "start": 431.599,
+        "duration": 1.681
+    },
+    {
+        "text": "whereas now",
+        "start": 433.28,
+        "duration": 1.12
+    },
+    {
+        "text": "loops back. However,",
+        "start": 434.4,
+        "duration": 2.239
+    },
+    {
+        "text": "sometimes,",
+        "start": 436.639,
+        "duration": 1.201
+    },
+    {
+        "text": "you never hit the 1. So there's a-",
+        "start": 437.84,
+        "duration": 2.32
+    },
+    {
+        "text": "there's some 1s in this grid but look",
+        "start": 440.16,
+        "duration": 1.759
+    },
+    {
+        "text": "at this, 2 hasn't got a inverse. There's",
+        "start": 441.919,
+        "duration": 3.921
+    },
+    {
+        "text": "nothing you can multiply 2 by to get",
+        "start": 445.84,
+        "duration": 2.479
+    },
+    {
+        "text": "back to 1 mod 6, and so that's why this",
+        "start": 448.319,
+        "duration": 3.201
+    },
+    {
+        "text": "one is ruled out. It's still nice, still",
+        "start": 451.52,
+        "duration": 2.079
+    },
+    {
+        "text": "modular arithmetic,",
+        "start": 453.599,
+        "duration": 1.761
+    },
+    {
+        "text": "big fan,",
+        "start": 455.36,
+        "duration": 1.04
+    },
+    {
+        "text": "it's not a finite field. And finite",
+        "start": 456.4,
+        "duration": 2.639
+    },
+    {
+        "text": "fields then linked to all other amazing",
+        "start": 459.039,
+        "duration": 2.961
+    },
+    {
+        "text": "things, in loads of abstract mathematics",
+        "start": 462.0,
+        "duration": 3.12
+    },
+    {
+        "text": "you'll be looking at",
+        "start": 465.12,
+        "duration": 1.519
+    },
+    {
+        "text": "fields and finite fields which are great.",
+        "start": 466.639,
+        "duration": 2.481
+    },
+    {
+        "text": "And finite fields have allowed for a",
+        "start": 469.12,
+        "duration": 2.88
+    },
+    {
+        "text": "breakthrough in an area of maths very",
+        "start": 472.0,
+        "duration": 2.56
+    },
+    {
+        "text": "close to my heart. When I first read a",
+        "start": 474.56,
+        "duration": 2.0
+    },
+    {
+        "text": "paper I'm just kind of",
+        "start": 476.56,
+        "duration": 2.319
+    },
+    {
+        "text": "glancing through it, I'm not checking",
+        "start": 478.879,
+        "duration": 2.481
+    },
+    {
+        "text": "through all the details, I just want to",
+        "start": 481.36,
+        "duration": 1.04
+    },
+    {
+        "text": "get a sense of what they're doing and",
+        "start": 482.4,
+        "duration": 1.359
+    },
+    {
+        "text": "you know, what I do and don't understand.",
+        "start": 483.759,
+        "duration": 2.56
+    },
+    {
+        "text": "And then what really jumped out at me is",
+        "start": 486.319,
+        "duration": 1.521
+    },
+    {
+        "text": "section five here: 'The smallest",
+        "start": 487.84,
+        "duration": 3.0
+    },
+    {
+        "text": "non-Parker finite field'. It turns out,",
+        "start": 490.84,
+        "duration": 4.44
+    },
+    {
+        "text": "they're now using my name,",
+        "start": 495.28,
+        "duration": 2.56
+    },
+    {
+        "text": "that's me I'm Parker,",
+        "start": 497.84,
+        "duration": 2.88
+    },
+    {
+        "text": "as a type- like a a property that finite",
+        "start": 500.72,
+        "duration": 3.36
+    },
+    {
+        "text": "fields can have. In fact you can put all",
+        "start": 504.08,
+        "duration": 2.0
+    },
+    {
+        "text": "finite fields into two categories: you",
+        "start": 506.08,
+        "duration": 2.559
+    },
+    {
+        "text": "can put them into the Parker finite",
+        "start": 508.639,
+        "duration": 1.761
+    },
+    {
+        "text": "fields and you can put them into the",
+        "start": 510.4,
+        "duration": 1.44
+    },
+    {
+        "text": "non-Parker finite fields. And a very good",
+        "start": 511.84,
+        "duration": 2.48
+    },
+    {
+        "text": "question might be,",
+        "start": 514.32,
+        "duration": 2.32
+    },
+    {
+        "text": "which is better?",
+        "start": 516.64,
+        "duration": 3.04
+    },
+    {
+        "text": "And very sadly",
+        "start": 519.68,
+        "duration": 1.839
+    },
+    {
+        "text": "a",
+        "start": 521.519,
+        "duration": 0.96
+    },
+    {
+        "text": "a Parker finite field means it doesn't",
+        "start": 522.479,
+        "duration": 3.36
+    },
+    {
+        "text": "work - it's like a dud. It's the dud.",
+        "start": 525.839,
+        "duration": 2.401
+    },
+    {
+        "text": "Finite fields, when they're growing up,",
+        "start": 528.24,
+        "duration": 2.159
+    },
+    {
+        "text": "what do you want to be -",
+        "start": 530.399,
+        "duration": 1.361
+    },
+    {
+        "text": "when you're exactly the same size",
+        "start": 531.76,
+        "duration": 1.84
+    },
+    {
+        "text": "because you're finite - and they say,",
+        "start": 533.6,
+        "duration": 2.64
+    },
+    {
+        "text": "I hope I'm non-Parker. That would be the",
+        "start": 536.24,
+        "duration": 2.24
+    },
+    {
+        "text": "dream, to be a non-Parker finite field. So",
+        "start": 538.48,
+        "duration": 3.76
+    },
+    {
+        "text": "I've got a thing named after me-",
+        "start": 542.24,
+        "duration": 1.7
+    },
+    {
+        "text": "(I'm afraid your field has been\ndiagnosed as Parker-)",
+        "start": 543.94,
+        "duration": 2.38
+    },
+    {
+        "text": "I'm afraid it's Parker.",
+        "start": 546.32,
+        "duration": 3.199
+    },
+    {
+        "text": "It's not curable, \nthe condition of being Parker.",
+        "start": 549.519,
+        "duration": 2.525
+    },
+    {
+        "text": "Oh and they've used fancy F to mean",
+        "start": 554.08,
+        "duration": 2.56
+    },
+    {
+        "text": "finite field mod 29, for example, is not",
+        "start": 556.64,
+        "duration": 3.68
+    },
+    {
+        "text": "Parker",
+        "start": 560.32,
+        "duration": 1.84
+    },
+    {
+        "text": "since:",
+        "start": 562.16,
+        "duration": 1.6
+    },
+    {
+        "text": "and then they've given a magic square. So",
+        "start": 563.76,
+        "duration": 2.4
+    },
+    {
+        "text": "for everyone who's unfamiliar with",
+        "start": 566.16,
+        "duration": 2.56
+    },
+    {
+        "text": "magic squares of squares, this is a",
+        "start": 568.72,
+        "duration": 1.679
+    },
+    {
+        "text": "really nice entry point. So this is a",
+        "start": 570.399,
+        "duration": 2.241
+    },
+    {
+        "text": "magic square",
+        "start": 572.64,
+        "duration": 1.52
+    },
+    {
+        "text": "and it's got nine numbers in it. And so a",
+        "start": 574.16,
+        "duration": 2.72
+    },
+    {
+        "text": "magic square,",
+        "start": 576.88,
+        "duration": 1.44
+    },
+    {
+        "text": "if you want it to be properly magic, is",
+        "start": 578.32,
+        "duration": 2.0
+    },
+    {
+        "text": "if you add together all the columns you",
+        "start": 580.32,
+        "duration": 2.32
+    },
+    {
+        "text": "always get the same total and if you add",
+        "start": 582.64,
+        "duration": 2.16
+    },
+    {
+        "text": "together all the rows you always get the",
+        "start": 584.8,
+        "duration": 1.599
+    },
+    {
+        "text": "same total.",
+        "start": 586.399,
+        "duration": 1.201
+    },
+    {
+        "text": "And-",
+        "start": 587.6,
+        "duration": 0.88
+    },
+    {
+        "text": "people are really insistent about this",
+        "start": 588.48,
+        "duration": 1.44
+    },
+    {
+        "text": "it turns out - if you add together both of",
+        "start": 589.92,
+        "duration": 2.56
+    },
+    {
+        "text": "the diagonals",
+        "start": 592.48,
+        "duration": 1.84
+    },
+    {
+        "text": "you get the same total. And then you",
+        "start": 594.32,
+        "duration": 2.079
+    },
+    {
+        "text": "can go insane; you can do all these like",
+        "start": 596.399,
+        "duration": 1.681
+    },
+    {
+        "text": "pan diagonals that wrap around but",
+        "start": 598.08,
+        "duration": 2.4
+    },
+    {
+        "text": "people don't tend to put those in. They",
+        "start": 600.48,
+        "duration": 1.599
+    },
+    {
+        "text": "just care about both of those diagonals.",
+        "start": 602.079,
+        "duration": 2.801
+    },
+    {
+        "text": "That doesn't work for these numbers,",
+        "start": 604.88,
+        "duration": 1.28
+    },
+    {
+        "text": "until,",
+        "start": 606.16,
+        "duration": 1.04
+    },
+    {
+        "text": "we square them. You now have a magic",
+        "start": 607.2,
+        "duration": 2.0
+    },
+    {
+        "text": "square, where every number in it is a",
+        "start": 609.2,
+        "duration": 2.24
+    },
+    {
+        "text": "square number and it works.\n- (Hence magic)",
+        "start": 611.44,
+        "duration": 3.2
+    },
+    {
+        "text": "(square of squares.)\n- Hence magic square of",
+        "start": 614.64,
+        "duration": 1.759
+    },
+    {
+        "text": "squares. Now,",
+        "start": 616.399,
+        "duration": 1.281
+    },
+    {
+        "text": "this has one extra condition so- so the",
+        "start": 617.68,
+        "duration": 3.04
+    },
+    {
+        "text": "full backstory is I came up with a magic",
+        "start": 620.72,
+        "duration": 2.16
+    },
+    {
+        "text": "square of squares because I thought it",
+        "start": 622.88,
+        "duration": 2.079
+    },
+    {
+        "text": "was interesting, no one had ever found",
+        "start": 624.959,
+        "duration": 1.281
+    },
+    {
+        "text": "one and no one had ever managed to prove",
+        "start": 626.24,
+        "duration": 1.839
+    },
+    {
+        "text": "that one doesn't exist, which is still",
+        "start": 628.079,
+        "duration": 1.521
+    },
+    {
+        "text": "true for the record. So I gave it a go. I",
+        "start": 629.6,
+        "duration": 2.08
+    },
+    {
+        "text": "found this one. Now mine has the extra",
+        "start": 631.68,
+        "duration": 1.76
+    },
+    {
+        "text": "condition it's not very good; and that's",
+        "start": 633.44,
+        "duration": 2.56
+    },
+    {
+        "text": "because it's got duplicate numbers,",
+        "start": 636.0,
+        "duration": 3.6
+    },
+    {
+        "text": "so you can- in fact it's symmetric which",
+        "start": 639.6,
+        "duration": 2.4
+    },
+    {
+        "text": "is terrible. And it doesn't add- it",
+        "start": 642.0,
+        "duration": 3.04
+    },
+    {
+        "text": "doesn't do all of them, one of the",
+        "start": 645.04,
+        "duration": 0.88
+    },
+    {
+        "text": "diagonals is wrong, near miss. And this",
+        "start": 645.92,
+        "duration": 2.0
+    },
+    {
+        "text": "has been dubbed the \nParker square and I don't",
+        "start": 647.92,
+        "duration": 2.08
+    },
+    {
+        "text": "know who was responsible for this, but a",
+        "start": 650.0,
+        "duration": 1.839
+    },
+    {
+        "text": "line of merch came out.",
+        "start": 651.839,
+        "duration": 2.491
+    },
+    {
+        "text": "People started showing up to my shows",
+        "start": 655.2,
+        "duration": 1.84
+    },
+    {
+        "text": "wearing t-shirts - very few performers",
+        "start": 657.04,
+        "duration": 2.56
+    },
+    {
+        "text": "have to put up with being bullied by their",
+        "start": 659.6,
+        "duration": 2.4
+    },
+    {
+        "text": "merch at their own gigs. This one has a",
+        "start": 662.0,
+        "duration": 3.36
+    },
+    {
+        "text": "condition as well.",
+        "start": 665.36,
+        "duration": 1.44
+    },
+    {
+        "text": "So it is- it's got both diagonals it's",
+        "start": 666.8,
+        "duration": 2.08
+    },
+    {
+        "text": "got every row, every column, except the",
+        "start": 668.88,
+        "duration": 2.56
+    },
+    {
+        "text": "whole thing",
+        "start": 671.44,
+        "duration": 1.2
+    },
+    {
+        "text": "only works mod 29.",
+        "start": 672.64,
+        "duration": 3.069
+    },
+    {
+        "text": "So this works on the finite field of",
+        "start": 676.56,
+        "duration": 2.719
+    },
+    {
+        "text": "integers mod 29.",
+        "start": 679.279,
+        "duration": 2.721
+    },
+    {
+        "text": "We can- we can check that. I would like",
+        "start": 682.0,
+        "duration": 3.2
+    },
+    {
+        "text": "to do that and you can decide how much",
+        "start": 685.2,
+        "duration": 2.4
+    },
+    {
+        "text": "stays in the edit.",
+        "start": 687.6,
+        "duration": 2.16
+    },
+    {
+        "text": "And now these are all mod 29, so anything",
+        "start": 689.76,
+        "duration": 3.12
+    },
+    {
+        "text": "smaller than 29 doesn't budge; anything",
+        "start": 692.88,
+        "duration": 2.56
+    },
+    {
+        "text": "bigger than 29 - woo!",
+        "start": 695.44,
+        "duration": 1.839
+    },
+    {
+        "text": "So now",
+        "start": 697.279,
+        "duration": 1.521
+    },
+    {
+        "text": "we need to go through and add these up.",
+        "start": 698.8,
+        "duration": 2.24
+    },
+    {
+        "text": "So we'll do the rows first shall we? So",
+        "start": 701.04,
+        "duration": 2.64
+    },
+    {
+        "text": "23 and 25 is 28, 29 - so if we come across",
+        "start": 703.68,
+        "duration": 3.36
+    },
+    {
+        "text": "there, add them up, we get 29. This one",
+        "start": 707.04,
+        "duration": 2.08
+    },
+    {
+        "text": "here, we get 29. This one here you're",
+        "start": 709.12,
+        "duration": 2.8
+    },
+    {
+        "text": "thinking - whoa!",
+        "start": 711.92,
+        "duration": 1.28
+    },
+    {
+        "text": "It's gonna be bigger than 29;",
+        "start": 713.2,
+        "duration": 2.079
+    },
+    {
+        "text": "28 and 24 is gonna be 52,",
+        "start": 715.279,
+        "duration": 3.68
+    },
+    {
+        "text": "58,",
+        "start": 718.959,
+        "duration": 1.12
+    },
+    {
+        "text": "and you're like, that's way too big. Well",
+        "start": 720.079,
+        "duration": 1.76
+    },
+    {
+        "text": "actually, 58",
+        "start": 721.839,
+        "duration": 2.56
+    },
+    {
+        "text": "mod 29,",
+        "start": 724.399,
+        "duration": 1.761
+    },
+    {
+        "text": "well it's zero. In fact all of these mod",
+        "start": 726.16,
+        "duration": 1.919
+    },
+    {
+        "text": "29 are zero. So actually if you add every",
+        "start": 728.079,
+        "duration": 3.2
+    },
+    {
+        "text": "single direction you get zero,",
+        "start": 731.279,
+        "duration": 2.481
+    },
+    {
+        "text": "so it's a magic square of squares",
+        "start": 733.76,
+        "duration": 3.759
+    },
+    {
+        "text": "where the magic sum is zero",
+        "start": 737.519,
+        "duration": 2.481
+    },
+    {
+        "text": "so-",
+        "start": 740.0,
+        "duration": 1.04
+    },
+    {
+        "text": "(That's beautiful.)\n- I don't know why I",
+        "start": 741.04,
+        "duration": 1.359
+    },
+    {
+        "text": "find that so pleasing.\n- (And look what)",
+        "start": 742.399,
+        "duration": 1.841
+    },
+    {
+        "text": "(dross you served us up!) \n- Hey!",
+        "start": 744.24,
+        "duration": 2.88
+    },
+    {
+        "text": "I was four years early. Like you can't-",
+        "start": 747.12,
+        "duration": 2.88
+    },
+    {
+        "text": "look like it's like looking at the",
+        "start": 750.0,
+        "duration": 1.2
+    },
+    {
+        "text": "iphone 4 and going, well that wasn't very",
+        "start": 751.2,
+        "duration": 2.0
+    },
+    {
+        "text": "good. Yeah, things have moved on,",
+        "start": 753.2,
+        "duration": 2.16
+    },
+    {
+        "text": "technology has advanced. Without this,",
+        "start": 755.36,
+        "duration": 2.8
+    },
+    {
+        "text": "this wouldn't be happening.\n- (That's right.)",
+        "start": 758.16,
+        "duration": 2.64
+    },
+    {
+        "text": "What a weird world we live in Brady.",
+        "start": 760.8,
+        "duration": 1.92
+    },
+    {
+        "text": "(So 29,)",
+        "start": 762.72,
+        "duration": 1.28
+    },
+    {
+        "text": "(like that's a Par- that's a)",
+        "start": 764.0,
+        "duration": 1.92
+    },
+    {
+        "text": "(non-Parker field.)\n- It's a non-Parker field",
+        "start": 765.92,
+        "duration": 2.56
+    },
+    {
+        "text": "because",
+        "start": 768.48,
+        "duration": 1.84
+    },
+    {
+        "text": "within",
+        "start": 770.32,
+        "duration": 1.04
+    },
+    {
+        "text": "the numbers",
+        "start": 771.36,
+        "duration": 1.36
+    },
+    {
+        "text": "in",
+        "start": 772.72,
+        "duration": 0.799
+    },
+    {
+        "text": "the finite field of order 29",
+        "start": 773.519,
+        "duration": 2.241
+    },
+    {
+        "text": "there exists a perfect 3x3",
+        "start": 775.76,
+        "duration": 3.12
+    },
+    {
+        "text": "magic square of squares.",
+        "start": 778.88,
+        "duration": 2.48
+    },
+    {
+        "text": "And so any finite field where you can",
+        "start": 781.36,
+        "duration": 3.52
+    },
+    {
+        "text": "make a magic square",
+        "start": 784.88,
+        "duration": 1.759
+    },
+    {
+        "text": "of squares",
+        "start": 786.639,
+        "duration": 1.361
+    },
+    {
+        "text": "is a non-Parker finite field, because it",
+        "start": 788.0,
+        "duration": 3.279
+    },
+    {
+        "text": "works. And then the rest of the paper- of",
+        "start": 791.279,
+        "duration": 2.481
+    },
+    {
+        "text": "this section of the paper, this is really",
+        "start": 793.76,
+        "duration": 2.079
+    },
+    {
+        "text": "quite nice, they then go they go well",
+        "start": 795.839,
+        "duration": 1.601
+    },
+    {
+        "text": "hang on okay we found this one, and then",
+        "start": 797.44,
+        "duration": 2.24
+    },
+    {
+        "text": "they say here's all the finite fields",
+        "start": 799.68,
+        "duration": 2.64
+    },
+    {
+        "text": "with orders less than 29. And so you've",
+        "start": 802.32,
+        "duration": 2.56
+    },
+    {
+        "text": "got a whole bunch of them here, they're",
+        "start": 804.88,
+        "duration": 1.68
+    },
+    {
+        "text": "all the primes and powers of primes",
+        "start": 806.56,
+        "duration": 1.76
+    },
+    {
+        "text": "below 29. So now they found the one for",
+        "start": 808.32,
+        "duration": 2.72
+    },
+    {
+        "text": "29, and the obvious question is, is that",
+        "start": 811.04,
+        "duration": 2.239
+    },
+    {
+        "text": "the smallest? This is what you always ask",
+        "start": 813.279,
+        "duration": 1.521
+    },
+    {
+        "text": "in maths, is it the smallest? Is it the",
+        "start": 814.8,
+        "duration": 1.36
+    },
+    {
+        "text": "biggest? And so",
+        "start": 816.16,
+        "duration": 2.0
+    },
+    {
+        "text": "their first question was,",
+        "start": 818.16,
+        "duration": 1.919
+    },
+    {
+        "text": "is 29 the smallest finite field which is",
+        "start": 820.079,
+        "duration": 3.041
+    },
+    {
+        "text": "non-Parker? So is everything below that",
+        "start": 823.12,
+        "duration": 1.839
+    },
+    {
+        "text": "unfortunately resigned to being Parker?",
+        "start": 824.959,
+        "duration": 2.721
+    },
+    {
+        "text": "(And when you say finite fields, we're)",
+        "start": 827.68,
+        "duration": 1.92
+    },
+    {
+        "text": "(narrowing this search to the integer)",
+        "start": 829.6,
+        "duration": 2.479
+    },
+    {
+        "text": "(finite fields, obviously?)\n- Yeah, yeah. And",
+        "start": 832.079,
+        "duration": 2.0
+    },
+    {
+        "text": "you could do magic squares with other",
+        "start": 834.079,
+        "duration": 1.44
+    },
+    {
+        "text": "things, chuck some polynomials in there.",
+        "start": 835.519,
+        "duration": 2.081
+    },
+    {
+        "text": "You could do complex- in fact Gaussian",
+        "start": 837.6,
+        "duration": 1.84
+    },
+    {
+        "text": "numbers they're talking about earlier,",
+        "start": 839.44,
+        "duration": 2.24
+    },
+    {
+        "text": "when when you're looking at it the",
+        "start": 841.68,
+        "duration": 1.76
+    },
+    {
+        "text": "complex space. So there's a lot of",
+        "start": 843.44,
+        "duration": 1.92
+    },
+    {
+        "text": "fun you can have. So yeah, they go",
+        "start": 845.36,
+        "duration": 1.599
+    },
+    {
+        "text": "through, they rule them all out,",
+        "start": 846.959,
+        "duration": 1.68
+    },
+    {
+        "text": "none of them are non-Parker. Everything",
+        "start": 848.639,
+        "duration": 2.161
+    },
+    {
+        "text": "below 29 is Parker; and so they managed",
+        "start": 850.8,
+        "duration": 2.8
+    },
+    {
+        "text": "to show",
+        "start": 853.6,
+        "duration": 1.2
+    },
+    {
+        "text": "comprehensively that this",
+        "start": 854.8,
+        "duration": 2.8
+    },
+    {
+        "text": "is the smallest non-Parker",
+        "start": 857.6,
+        "duration": 2.96
+    },
+    {
+        "text": "finite field. But then they turn and look",
+        "start": 860.56,
+        "duration": 2.48
+    },
+    {
+        "text": "in the other direction.",
+        "start": 863.04,
+        "duration": 1.22
+    },
+    {
+        "text": "In general, they suddenly realise,",
+        "start": 866.079,
+        "duration": 1.44
+    },
+    {
+        "text": "actually,",
+        "start": 867.519,
+        "duration": 0.961
+    },
+    {
+        "text": "most finite fields",
+        "start": 868.48,
+        "duration": 2.0
+    },
+    {
+        "text": "are non-Parker.",
+        "start": 870.48,
+        "duration": 1.76
+    },
+    {
+        "text": "Because the Parker ones, the ones that",
+        "start": 872.24,
+        "duration": 1.599
+    },
+    {
+        "text": "don't work, are quite rare. And so here",
+        "start": 873.839,
+        "duration": 2.401
+    },
+    {
+        "text": "it's a conjecture, so this is not proven,",
+        "start": 876.24,
+        "duration": 2.56
+    },
+    {
+        "text": "but they seem pretty confident:",
+        "start": 878.8,
+        "duration": 1.839
+    },
+    {
+        "text": "'The only Parker fields of prime order",
+        "start": 880.639,
+        "duration": 3.281
+    },
+    {
+        "text": "are these ones'.",
+        "start": 883.92,
+        "duration": 1.68
+    },
+    {
+        "text": "And so it turns out any finite field",
+        "start": 885.6,
+        "duration": 2.4
+    },
+    {
+        "text": "with a prime order of our friends the",
+        "start": 888.0,
+        "duration": 2.72
+    },
+    {
+        "text": "integers, bigger than 67,",
+        "start": 890.72,
+        "duration": 2.799
+    },
+    {
+        "text": "is non-Parker. All of them; the infinitely",
+        "start": 893.519,
+        "duration": 2.88
+    },
+    {
+        "text": "many prime numbers bigger than 67, all",
+        "start": 896.399,
+        "duration": 2.961
+    },
+    {
+        "text": "have a magic square of squares",
+        "start": 899.36,
+        "duration": 2.32
+    },
+    {
+        "text": "in there somewhere in their finite field.",
+        "start": 901.68,
+        "duration": 2.24
+    },
+    {
+        "text": "So",
+        "start": 903.92,
+        "duration": 1.279
+    },
+    {
+        "text": "it turns out not working, being a Parker,",
+        "start": 905.199,
+        "duration": 2.961
+    },
+    {
+        "text": "is actually quite a rare, special,",
+        "start": 908.16,
+        "duration": 2.799
+    },
+    {
+        "text": "property.\n- (Prestigious.)",
+        "start": 910.959,
+        "duration": 1.761
+    },
+    {
+        "text": "Exactly. Bestowed upon very few",
+        "start": 912.72,
+        "duration": 4.239
+    },
+    {
+        "text": "people and finite fields",
+        "start": 916.959,
+        "duration": 2.721
+    },
+    {
+        "text": "get to have the luxury of being Parker",
+        "start": 919.68,
+        "duration": 2.399
+    },
+    {
+        "text": "because- and it's conjectured but I- I'm I",
+        "start": 922.079,
+        "duration": 2.961
+    },
+    {
+        "text": "I'm going to believe them. Because once",
+        "start": 925.04,
+        "duration": 1.44
+    },
+    {
+        "text": "you go past 67 they're all- they're all",
+        "start": 926.48,
+        "duration": 1.919
+    },
+    {
+        "text": "non-Parker. Now, the flip side to this is",
+        "start": 928.399,
+        "duration": 3.041
+    },
+    {
+        "text": "you might say, well what about",
+        "start": 931.44,
+        "duration": 2.079
+    },
+    {
+        "text": "infinite fields? Like what what about the",
+        "start": 933.519,
+        "duration": 2.24
+    },
+    {
+        "text": "integers which is what started this",
+        "start": 935.759,
+        "duration": 1.361
+    },
+    {
+        "text": "whole thing in the first place?",
+        "start": 937.12,
+        "duration": 1.519
+    },
+    {
+        "text": "For the infinite field",
+        "start": 938.639,
+        "duration": 2.241
+    },
+    {
+        "text": "of",
+        "start": 940.88,
+        "duration": 0.8
+    },
+    {
+        "text": "integers, well this is no longer",
+        "start": 942.48,
+        "duration": 2.719
+    },
+    {
+        "text": "a field, it's now- it's a\nring at this point.",
+        "start": 945.199,
+        "duration": 2.71
+    },
+    {
+        "text": "It's- it's no longer a field, there's",
+        "start": 947.909,
+        "duration": 2.331
+    },
+    {
+        "text": "infinitely many of them. The question I",
+        "start": 950.24,
+        "duration": 2.24
+    },
+    {
+        "text": "have is does this tell us anything about",
+        "start": 952.48,
+        "duration": 2.08
+    },
+    {
+        "text": "finding the Parker square in general?",
+        "start": 954.56,
+        "duration": 2.719
+    },
+    {
+        "text": "Or- the true the true, yeah. And",
+        "start": 957.279,
+        "duration": 3.041
+    },
+    {
+        "text": "sadly we still don't know.",
+        "start": 960.32,
+        "duration": 1.92
+    },
+    {
+        "text": "So all they can say is",
+        "start": 962.24,
+        "duration": 2.159
+    },
+    {
+        "text": "you can have arbitrarily large",
+        "start": 964.399,
+        "duration": 2.721
+    },
+    {
+        "text": "finite fields",
+        "start": 967.12,
+        "duration": 1.839
+    },
+    {
+        "text": "of a prime order and they will always",
+        "start": 968.959,
+        "duration": 3.601
+    },
+    {
+        "text": "have a magic square of squares in there,",
+        "start": 972.56,
+        "duration": 2.16
+    },
+    {
+        "text": "they're all non-Parker because they work.",
+        "start": 974.72,
+        "duration": 3.6
+    },
+    {
+        "text": "We still don't know",
+        "start": 978.32,
+        "duration": 1.759
+    },
+    {
+        "text": "if a magic square of squares",
+        "start": 980.079,
+        "duration": 2.641
+    },
+    {
+        "text": "just- without needing to be mod anything",
+        "start": 982.72,
+        "duration": 1.919
+    },
+    {
+        "text": "exists, so it's still an open question.\nAnd so",
+        "start": 984.639,
+        "duration": 2.64
+    },
+    {
+        "text": "the research will continue. I mean the",
+        "start": 988.48,
+        "duration": 1.68
+    },
+    {
+        "text": "greatest minds in mathematics will",
+        "start": 990.16,
+        "duration": 2.16
+    },
+    {
+        "text": "continue to turn their attention, using",
+        "start": 992.32,
+        "duration": 1.759
+    },
+    {
+        "text": "things like finite fields, and any",
+        "start": 994.079,
+        "duration": 2.081
+    },
+    {
+        "text": "mathematical tool at their disposal",
+        "start": 996.16,
+        "duration": 2.64
+    },
+    {
+        "text": "in the sole- like the greatest search in",
+        "start": 998.8,
+        "duration": 2.8
+    },
+    {
+        "text": "maths is:",
+        "start": 1001.6,
+        "duration": 1.679
+    },
+    {
+        "text": "are numbers Parker,",
+        "start": 1003.279,
+        "duration": 2.0
+    },
+    {
+        "text": "or are numbers non-Parker?",
+        "start": 1005.279,
+        "duration": 2.881
+    },
+    {
+        "text": "This discussion continues for a bit",
+        "start": 1008.959,
+        "duration": 1.68
+    },
+    {
+        "text": "longer in a bonus video on our extras",
+        "start": 1010.639,
+        "duration": 2.801
+    },
+    {
+        "text": "channel Numberphile2.",
+        "start": 1013.44,
+        "duration": 2.48
+    },
+    {
+        "text": "That's- what is that- oh my goodness we",
+        "start": 1015.92,
+        "duration": 1.76
+    },
+    {
+        "text": "need a Parker prize. Well what are the",
+        "start": 1017.68,
+        "duration": 2.159
+    },
+    {
+        "text": "other prizes out there? There's like",
+        "start": 1019.839,
+        "duration": 2.321
+    },
+    {
+        "text": "Millennium, Fields - that's a",
+        "start": 1022.16,
+        "duration": 1.919
+    },
+    {
+        "text": "bit rich.",
+        "start": 1024.079,
+        "duration": 1.041
+    },
+    {
+        "text": "For more about what Matt Parker's up to,",
+        "start": 1025.12,
+        "duration": 2.079
+    },
+    {
+        "text": "from live shows to books to his own",
+        "start": 1027.199,
+        "duration": 2.24
+    },
+    {
+        "text": "YouTube channel, Stand-up Maths, check out",
+        "start": 1029.439,
+        "duration": 2.48
+    },
+    {
+        "text": "the various links in the video",
+        "start": 1031.919,
+        "duration": 1.681
+    },
+    {
+        "text": "description.\n- Could we even communicate",
+        "start": 1033.6,
+        "duration": 3.52
+    },
+    {
+        "text": "with beings from a non-Parker reality? It",
+        "start": 1037.12,
+        "duration": 2.559
+    },
+    {
+        "text": "boggles the mind.",
+        "start": 1039.679,
+        "duration": 3.481
+    }
+]

@@ -1,0 +1,542 @@
+[
+    {
+        "text": "By now, you’ve probably heard about Spectre\nand Meltdown.",
+        "start": 0.11,
+        "duration": 3.269
+    },
+    {
+        "text": "And if you haven’t, they might sound like\nJames Bond villains.",
+        "start": 3.379,
+        "duration": 2.761
+    },
+    {
+        "text": "But they’re actually serious security flaws\nin one of the key components of most computers,",
+        "start": 6.14,
+        "duration": 5.129
+    },
+    {
+        "text": "smartphones, and tablets.",
+        "start": 11.269,
+        "duration": 1.0
+    },
+    {
+        "text": "If you’ve been struggling to wrap your brain\naround what they are and how they might affect",
+        "start": 12.269,
+        "duration": 3.761
+    },
+    {
+        "text": "you, don’t worry — we’ve got you covered\nwith the basics.",
+        "start": 16.03,
+        "duration": 2.77
+    },
+    {
+        "text": "[ INTRO ]",
+        "start": 19.26,
+        "duration": 2.7
+    },
+    {
+        "text": "Spectre and Meltdown are different flaws in",
+        "start": 22.52,
+        "duration": 2.54
+    },
+    {
+        "text": "central processing units, or CPUs.",
+        "start": 25.06,
+        "duration": 1.64
+    },
+    {
+        "text": "The CPU is like a control center and puts\nthe “compute” in computer.",
+        "start": 26.7,
+        "duration": 4.58
+    },
+    {
+        "text": "Basically, it carries out instructions to\nmake different programs work.",
+        "start": 31.28,
+        "duration": 4.1
+    },
+    {
+        "text": "These instructions can be things like simple\nmath problems, or logic related calculations",
+        "start": 35.38,
+        "duration": 4.81
+    },
+    {
+        "text": "— like comparing two numbers to check if\nsomeone has enough money to buy a plane ticket,",
+        "start": 40.19,
+        "duration": 4.48
+    },
+    {
+        "text": "and letting that transaction go through.",
+        "start": 44.67,
+        "duration": 1.28
+    },
+    {
+        "text": "So, if you really boil it down, a CPU is essentially\ndoing a few things over and over again: getting",
+        "start": 45.95,
+        "duration": 6.29
+    },
+    {
+        "text": "data from some kind of memory storage, executing\nan instruction, and then sending that new",
+        "start": 52.24,
+        "duration": 5.27
+    },
+    {
+        "text": "information back to memory.",
+        "start": 57.51,
+        "duration": 1.61
+    },
+    {
+        "text": "These processes let you open a text file,\nload an internet browser, or run a game.",
+        "start": 59.12,
+        "duration": 5.17
+    },
+    {
+        "text": "Every program depends on the CPU.",
+        "start": 64.29,
+        "duration": 2.16
+    },
+    {
+        "text": "Now, shuttling information back and forth\nis one of the slowest parts of the CPU’s",
+        "start": 66.45,
+        "duration": 4.15
+    },
+    {
+        "text": "job, so modern CPUs have been designed with\ndifferent tricks to help them work faster.",
+        "start": 70.6,
+        "duration": 5.27
+    },
+    {
+        "text": "That way, your programs run faster.",
+        "start": 75.87,
+        "duration": 1.62
+    },
+    {
+        "text": "One of these tricks is called speculative\nexecution.",
+        "start": 77.49,
+        "duration": 3.059
+    },
+    {
+        "text": "Since a program is just a series of instructions,\nmany modern CPUs try to guess what they need",
+        "start": 80.549,
+        "duration": 5.331
+    },
+    {
+        "text": "to do next, which is called branch prediction.",
+        "start": 85.88,
+        "duration": 2.47
+    },
+    {
+        "text": "In computer terms, speculative execution means\nthe CPU grabs data and executes a few instructions",
+        "start": 88.35,
+        "duration": 5.35
+    },
+    {
+        "text": "along the most likely branch.",
+        "start": 93.7,
+        "duration": 1.5
+    },
+    {
+        "text": "In your life, this would kind of be like guessing\nthat your partner will want coffee in the",
+        "start": 95.2,
+        "duration": 4.09
+    },
+    {
+        "text": "morning, so you make an extra cup.",
+        "start": 99.29,
+        "duration": 1.75
+    },
+    {
+        "text": "If the prediction’s wrong, that branch gets\nthrown out and the instruction-following process",
+        "start": 101.04,
+        "duration": 4.8
+    },
+    {
+        "text": "continues down the other one.",
+        "start": 105.84,
+        "duration": 2.209
+    },
+    {
+        "text": "Like if your partner decides to go caffeine-free,\nyou might dump the extra coffee, and pour",
+        "start": 108.049,
+        "duration": 4.351
+    },
+    {
+        "text": "some orange juice for them instead.",
+        "start": 112.4,
+        "duration": 1.48
+    },
+    {
+        "text": "But if you’re right, they get out the door\nfaster.",
+        "start": 113.88,
+        "duration": 2.12
+    },
+    {
+        "text": "And if your CPU’s prediction is right, that’s\na head start to the next instruction.",
+        "start": 116.0,
+        "duration": 3.82
+    },
+    {
+        "text": "This brings us to ways this system can go\nwrong, and become a security problem like",
+        "start": 119.82,
+        "duration": 4.49
+    },
+    {
+        "text": "with Meltdown and Spectre.",
+        "start": 124.31,
+        "duration": 1.41
+    },
+    {
+        "text": "Most programs running on a computer aren’t\nallowed to access all the data stored in all",
+        "start": 125.72,
+        "duration": 4.56
+    },
+    {
+        "text": "the memory.",
+        "start": 130.28,
+        "duration": 1.08
+    },
+    {
+        "text": "Kind of how iTunes can pull up your mp3s,\nbut it can’t read your passwords.",
+        "start": 131.36,
+        "duration": 4.3
+    },
+    {
+        "text": "That gives some basic security.",
+        "start": 135.66,
+        "duration": 1.439
+    },
+    {
+        "text": "But researchers discovered that the way that\nmany CPUs handle speculative execution accidentally",
+        "start": 137.099,
+        "duration": 5.591
+    },
+    {
+        "text": "offers ways around this.",
+        "start": 142.69,
+        "duration": 1.629
+    },
+    {
+        "text": "With some clever coding, you can take advantage\nof the fact that the CPU still does the extra",
+        "start": 144.319,
+        "duration": 5.151
+    },
+    {
+        "text": "calculations, even though it won’t use the\nresults if it turns out to be wrong about",
+        "start": 149.47,
+        "duration": 4.73
+    },
+    {
+        "text": "which instructions it was supposed to execute.",
+        "start": 154.2,
+        "duration": 2.11
+    },
+    {
+        "text": "So even though you can’t directly access\nthe parts of a computer’s memory that you",
+        "start": 156.31,
+        "duration": 3.82
+    },
+    {
+        "text": "aren’t supposed to see, you can figure out\nwhat’s stored in that memory by working",
+        "start": 160.13,
+        "duration": 4.82
+    },
+    {
+        "text": "backwards from what the CPU does with certain\ninstructions you send it.",
+        "start": 164.95,
+        "duration": 4.0
+    },
+    {
+        "text": "To be clear, these vulnerabilities are tricky\nto exploit.",
+        "start": 168.95,
+        "duration": 3.7
+    },
+    {
+        "text": "And this is a very simplified explanation.",
+        "start": 172.65,
+        "duration": 2.13
+    },
+    {
+        "text": "But the point is that, hypothetically, someone\ncould get access to a company’s most sensitive",
+        "start": 174.78,
+        "duration": 4.33
+    },
+    {
+        "text": "information — passwords, emails, encryption\ncodes, you name it.",
+        "start": 179.11,
+        "duration": 3.96
+    },
+    {
+        "text": "According to the researchers who discovered\nthem, Meltdown and Spectre are distinct vulnerabilities,",
+        "start": 183.07,
+        "duration": 4.41
+    },
+    {
+        "text": "but very similar.",
+        "start": 187.48,
+        "duration": 1.0
+    },
+    {
+        "text": "Meltdown involves the operating system, the\nmaster program that directs all the computer’s",
+        "start": 188.48,
+        "duration": 4.72
+    },
+    {
+        "text": "activities, which can access basically all\nparts of the memory if and when it needs to.",
+        "start": 193.2,
+        "duration": 4.34
+    },
+    {
+        "text": "In very basic terms, Meltdown breaks the barriers\nbetween individual programs and the core of",
+        "start": 197.54,
+        "duration": 5.47
+    },
+    {
+        "text": "the operating system, so that one program\ncould potentially access way more memory than",
+        "start": 203.01,
+        "duration": 4.84
+    },
+    {
+        "text": "it should be able to.",
+        "start": 207.85,
+        "duration": 1.0
+    },
+    {
+        "text": "It “melts down” those security barriers,\nhence the name.",
+        "start": 208.85,
+        "duration": 2.859
+    },
+    {
+        "text": "Pretty much every Intel processor put out\nsince 1995, plus some put out by companies",
+        "start": 211.709,
+        "duration": 5.462
+    },
+    {
+        "text": "called Qualcomm and ARM, is vulnerable to\nMeltdown — no matter what your operating",
+        "start": 217.171,
+        "duration": 4.649
+    },
+    {
+        "text": "system is.",
+        "start": 221.82,
+        "duration": 1.0
+    },
+    {
+        "text": "So whether you’re a PC or Mac or Linux user,\nyou’re most likely affected.",
+        "start": 222.82,
+        "duration": 4.22
+    },
+    {
+        "text": "And Spectre involves a couple ways that the\nseparation between programs can be broken,",
+        "start": 227.04,
+        "duration": 4.32
+    },
+    {
+        "text": "so an attacker could potentially use one program\nto peek into the memory used by another.",
+        "start": 231.36,
+        "duration": 4.45
+    },
+    {
+        "text": "It’s named after speculative execution,\nthe process that makes these flaws possible.",
+        "start": 235.81,
+        "duration": 4.009
+    },
+    {
+        "text": "It’s harder to exploit, but also a harder\nproblem to fix, so researchers also say it’ll",
+        "start": 239.819,
+        "duration": 4.95
+    },
+    {
+        "text": "“haunt” us for longer.",
+        "start": 244.769,
+        "duration": 1.491
+    },
+    {
+        "text": "So far, we think Spectre affects processors\nmade by Intel, Qualcomm, ARM, and AMD, which",
+        "start": 246.26,
+        "duration": 5.73
+    },
+    {
+        "text": "means all computers, smartphones, and tablets\nthat have them are vulnerable.",
+        "start": 251.99,
+        "duration": 4.769
+    },
+    {
+        "text": "And that’s a heckin’ ton of machines.",
+        "start": 256.759,
+        "duration": 1.801
+    },
+    {
+        "text": "At first, computer scientists thought the\nonly way around either security flaw would",
+        "start": 258.56,
+        "duration": 3.859
+    },
+    {
+        "text": "be to physically replace all the exploitable\nCPUs, but it turns out there are some things",
+        "start": 262.419,
+        "duration": 5.28
+    },
+    {
+        "text": "we can do without going that far.",
+        "start": 267.699,
+        "duration": 1.69
+    },
+    {
+        "text": "Meltdown can be guarded against with software\nupdates, called patches, that limit memory-sharing",
+        "start": 269.389,
+        "duration": 4.68
+    },
+    {
+        "text": "between different programs and parts of the\noperating system.",
+        "start": 274.069,
+        "duration": 2.96
+    },
+    {
+        "text": "Spectre is trickier.",
+        "start": 277.029,
+        "duration": 1.36
+    },
+    {
+        "text": "It may require actual hardware upgrades to\ntotally eliminate, but tech companies are",
+        "start": 278.389,
+        "duration": 5.291
+    },
+    {
+        "text": "doing what they can in the meantime with software.",
+        "start": 283.68,
+        "duration": 2.389
+    },
+    {
+        "text": "Microsoft, Apple, Google, and Linux have all\nbeen releasing software patches to try and",
+        "start": 286.069,
+        "duration": 4.341
+    },
+    {
+        "text": "minimize security risks.",
+        "start": 290.41,
+        "duration": 1.81
+    },
+    {
+        "text": "And Intel is publishing updates to its firmware,\nthe permanent read-only software that lives",
+        "start": 292.22,
+        "duration": 5.05
+    },
+    {
+        "text": "on their processors.",
+        "start": 297.27,
+        "duration": 1.1
+    },
+    {
+        "text": "We don’t know of any security attacks that\nused Meltdown or Spectre yet, but now the",
+        "start": 298.37,
+        "duration": 4.34
+    },
+    {
+        "text": "ins and outs of how they work are more public.",
+        "start": 302.71,
+        "duration": 2.179
+    },
+    {
+        "text": "So double-check that your operating system\nand browser are up to date, and that your",
+        "start": 304.889,
+        "duration": 3.721
+    },
+    {
+        "text": "antivirus software is, too.",
+        "start": 308.61,
+        "duration": 1.69
+    },
+    {
+        "text": "That’ll help keep any unwanted programs\nfrom running and possibly exploiting these",
+        "start": 310.3,
+        "duration": 4.209
+    },
+    {
+        "text": "flaws.",
+        "start": 314.509,
+        "duration": 1.0
+    },
+    {
+        "text": "And if you’ve heard that these updates are\ngoing to slow down your computer a bunch,",
+        "start": 315.509,
+        "duration": 2.451
+    },
+    {
+        "text": "don’t worry.",
+        "start": 317.96,
+        "duration": 1.0
+    },
+    {
+        "text": "Yes, limiting how different parts of a computer\nshare memory can affect its performance, because",
+        "start": 318.96,
+        "duration": 4.179
+    },
+    {
+        "text": "that’s why speculative execution makes things\nfaster.",
+        "start": 323.139,
+        "duration": 2.55
+    },
+    {
+        "text": "But there’s a good chance you won’t notice\nthe difference.",
+        "start": 325.689,
+        "duration": 2.35
+    },
+    {
+        "text": "Programs that need a lot of CPU power, like\nones that render videos, will be more affected",
+        "start": 328.039,
+        "duration": 4.511
+    },
+    {
+        "text": "than others.",
+        "start": 332.55,
+        "duration": 1.0
+    },
+    {
+        "text": "But the latest testing suggests that for typical\nusers, there shouldn’t be a huge change.",
+        "start": 333.55,
+        "duration": 4.179
+    },
+    {
+        "text": "So there’s no excuse!",
+        "start": 337.729,
+        "duration": 1.31
+    },
+    {
+        "text": "Download those updates for your phone or laptop\nthat you’ve been putting off!",
+        "start": 339.039,
+        "duration": 4.25
+    },
+    {
+        "text": "Between WannaCry and Equifax, computer security\nbreaches were in the headlines a lot in 2017.",
+        "start": 343.289,
+        "duration": 5.261
+    },
+    {
+        "text": "Two weeks in, it looks like 2018 might shape\nup to be more of the same.",
+        "start": 348.55,
+        "duration": 3.799
+    },
+    {
+        "text": "But no matter what happens, we’ll keep learning,\nand keep you updated too.",
+        "start": 352.349,
+        "duration": 8.371
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow\nNews.",
+        "start": 360.72,
+        "duration": 1.27
+    },
+    {
+        "text": "If you want to learn more about computers,\nfrom hardware to artificial intelligence,",
+        "start": 361.99,
+        "duration": 4.179
+    },
+    {
+        "text": "you can check out the Crash Course Computer\nScience series at youtube.com/crashcourse.",
+        "start": 366.169,
+        "duration": 3.891
+    },
+    {
+        "text": "[ Outro]",
+        "start": 370.06,
+        "duration": 6.64
+    }
+]

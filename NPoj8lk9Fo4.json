@@ -1,0 +1,917 @@
+[
+    {
+        "text": "Today we're gonna have a look at data",
+        "start": 0.089,
+        "duration": 2.54
+    },
+    {
+        "text": "visualisation. Data visualisation is a",
+        "start": 2.629,
+        "duration": 2.71
+    },
+    {
+        "text": "way of representing information in a",
+        "start": 5.339,
+        "duration": 2.97
+    },
+    {
+        "text": "artistic way, in an interesting way;",
+        "start": 8.309,
+        "duration": 3.0
+    },
+    {
+        "text": "scientists might be happy with scatter",
+        "start": 11.309,
+        "duration": 2.04
+    },
+    {
+        "text": "plots and black and white boring graphs",
+        "start": 13.349,
+        "duration": 2.881
+    },
+    {
+        "text": "but if you want to communicate",
+        "start": 16.23,
+        "duration": 1.26
+    },
+    {
+        "text": "information and data to the public you",
+        "start": 17.49,
+        "duration": 3.99
+    },
+    {
+        "text": "want it to be fun, you want it to be",
+        "start": 21.48,
+        "duration": 1.41
+    },
+    {
+        "text": "enjoyable, you want it to\nbe colourful. And",
+        "start": 22.89,
+        "duration": 1.799
+    },
+    {
+        "text": "we thought we might have a look at a",
+        "start": 24.689,
+        "duration": 2.85
+    },
+    {
+        "text": "particular guy's work, a guy called Martin",
+        "start": 27.539,
+        "duration": 2.761
+    },
+    {
+        "text": "Krzywinski. Today we're actually going to",
+        "start": 30.3,
+        "duration": 1.74
+    },
+    {
+        "text": "look at some of his more numbery but",
+        "start": 32.04,
+        "duration": 2.63
+    },
+    {
+        "text": "artistic work. So we're gonna have a look",
+        "start": 34.67,
+        "duration": 2.95
+    },
+    {
+        "text": "at him finding beauty \nshall we say, artistry,",
+        "start": 37.62,
+        "duration": 4.05
+    },
+    {
+        "text": "in the randomness of pi. So we've got it",
+        "start": 41.67,
+        "duration": 3.99
+    },
+    {
+        "text": "down here, this is pi, in a beautiful",
+        "start": 45.66,
+        "duration": 2.879
+    },
+    {
+        "text": "colourful way. Now this is first of all",
+        "start": 48.539,
+        "duration": 2.281
+    },
+    {
+        "text": "the most simple way I think that you",
+        "start": 50.82,
+        "duration": 1.62
+    },
+    {
+        "text": "could have done this, all he's done is",
+        "start": 52.44,
+        "duration": 1.92
+    },
+    {
+        "text": "taken the digits of pi and he's given",
+        "start": 54.36,
+        "duration": 2.1
+    },
+    {
+        "text": "each digit a different colour. So it",
+        "start": 56.46,
+        "duration": 2.22
+    },
+    {
+        "text": "starts with 3, so it looks like 3",
+        "start": 58.68,
+        "duration": 1.83
+    },
+    {
+        "text": "is an orange colour there. 1 is a red,",
+        "start": 60.51,
+        "duration": 3.57
+    },
+    {
+        "text": "4 is a yellow, 1 again is red and",
+        "start": 64.08,
+        "duration": 3.78
+    },
+    {
+        "text": "then 5 is green, and I think that's",
+        "start": 67.86,
+        "duration": 3.119
+    },
+    {
+        "text": "a 9 that's purple - it's made this",
+        "start": 70.979,
+        "duration": 2.161
+    },
+    {
+        "text": "really beautiful poster. You can kind of",
+        "start": 73.14,
+        "duration": 3.869
+    },
+    {
+        "text": "see the randomness of it though, I don't",
+        "start": 77.009,
+        "duration": 1.591
+    },
+    {
+        "text": "see there's any particular pattern to",
+        "start": 78.6,
+        "duration": 2.97
+    },
+    {
+        "text": "the colours; which reflects the",
+        "start": 81.57,
+        "duration": 2.61
+    },
+    {
+        "text": "randomness of the digits of pi as well.",
+        "start": 84.18,
+        "duration": 2.04
+    },
+    {
+        "text": "He took that a step further and he",
+        "start": 86.22,
+        "duration": 2.1
+    },
+    {
+        "text": "started to colour the centre of the",
+        "start": 88.32,
+        "duration": 3.02
+    },
+    {
+        "text": "circles using the colour of the next",
+        "start": 91.34,
+        "duration": 3.31
+    },
+    {
+        "text": "digit. I think he only did that just to",
+        "start": 94.65,
+        "duration": 3.0
+    },
+    {
+        "text": "make it a little bit prettier; but he",
+        "start": 97.65,
+        "duration": 2.7
+    },
+    {
+        "text": "was- I think he found it interesting",
+        "start": 100.35,
+        "duration": 1.71
+    },
+    {
+        "text": "because he started to join up digits",
+        "start": 102.06,
+        "duration": 4.29
+    },
+    {
+        "text": "that had the same colours in them, which",
+        "start": 106.35,
+        "duration": 2.37
+    },
+    {
+        "text": "looks like this, there you go.",
+        "start": 108.72,
+        "duration": 1.109
+    },
+    {
+        "text": "Can you see that- so he's connected",
+        "start": 109.829,
+        "duration": 3.36
+    },
+    {
+        "text": "digits or adjacent digits in his poster",
+        "start": 113.189,
+        "duration": 2.941
+    },
+    {
+        "text": "that have the same colour, so they'd be",
+        "start": 116.13,
+        "duration": 2.519
+    },
+    {
+        "text": "the same number. And he kind of makes",
+        "start": 118.649,
+        "duration": 1.711
+    },
+    {
+        "text": "these disconnected networks. I don't",
+        "start": 120.36,
+        "duration": 3.539
+    },
+    {
+        "text": "think there's any great mathematical truth",
+        "start": 123.899,
+        "duration": 1.921
+    },
+    {
+        "text": "to find underneath this; this is for art.",
+        "start": 125.82,
+        "duration": 3.15
+    },
+    {
+        "text": "And Martin's very clear about this",
+        "start": 128.97,
+        "duration": 2.519
+    },
+    {
+        "text": "himself; this",
+        "start": 131.489,
+        "duration": 1.291
+    },
+    {
+        "text": "is less about the mathematics and more",
+        "start": 132.78,
+        "duration": 3.27
+    },
+    {
+        "text": "about the beauty of it. But it is",
+        "start": 136.05,
+        "duration": 2.61
+    },
+    {
+        "text": "intriguing as well. The other way you",
+        "start": 138.66,
+        "duration": 2.46
+    },
+    {
+        "text": "could do this is if you put the digits",
+        "start": 141.12,
+        "duration": 2.58
+    },
+    {
+        "text": "of pi in a spiral like this. This kind of",
+        "start": 143.7,
+        "duration": 4.23
+    },
+    {
+        "text": "reminds me of the tiling, you know, in a",
+        "start": 147.93,
+        "duration": 2.88
+    },
+    {
+        "text": "Roman bathhouse, something like that,",
+        "start": 150.81,
+        "duration": 1.74
+    },
+    {
+        "text": "maybe that's the colours he's used. But to",
+        "start": 152.55,
+        "duration": 2.4
+    },
+    {
+        "text": "take this a step further - and this I",
+        "start": 154.95,
+        "duration": 2.55
+    },
+    {
+        "text": "think is one of our favourites. I",
+        "start": 157.5,
+        "duration": 3.51
+    },
+    {
+        "text": "think this is one of Brady's favourites",
+        "start": 161.01,
+        "duration": 2.28
+    },
+    {
+        "text": "isn't it? I think we should just",
+        "start": 163.29,
+        "duration": 2.87
+    },
+    {
+        "text": "appreciate the beauty of that for a",
+        "start": 166.16,
+        "duration": 2.95
+    },
+    {
+        "text": "moment, before we describe it, before we",
+        "start": 169.11,
+        "duration": 2.159
+    },
+    {
+        "text": "ruin really the beauty of it by",
+        "start": 171.269,
+        "duration": 2.521
+    },
+    {
+        "text": "describing it. We should just\nappreciate that.",
+        "start": 173.79,
+        "duration": 2.779
+    },
+    {
+        "text": "Now what he's done there, he's connected",
+        "start": 176.569,
+        "duration": 3.371
+    },
+    {
+        "text": "the digits together as you go through",
+        "start": 179.94,
+        "duration": 2.91
+    },
+    {
+        "text": "the digits of pi. So he started at 3, and",
+        "start": 182.85,
+        "duration": 4.52
+    },
+    {
+        "text": "then he's connected 3 to 1,",
+        "start": 187.37,
+        "duration": 2.98
+    },
+    {
+        "text": "so you'll go here. And he's connected 1 to",
+        "start": 190.35,
+        "duration": 3.0
+    },
+    {
+        "text": "4, so it will go down here. And he's",
+        "start": 193.35,
+        "duration": 2.669
+    },
+    {
+        "text": "connected 4 to 1 so it goes back to 1,",
+        "start": 196.019,
+        "duration": 2.22
+    },
+    {
+        "text": "then it'll go to 5, and that'll go to 9,",
+        "start": 198.239,
+        "duration": 3.991
+    },
+    {
+        "text": "and he's connecting them in that way. And",
+        "start": 202.23,
+        "duration": 2.819
+    },
+    {
+        "text": "he's also given each digit a colour as",
+        "start": 205.049,
+        "duration": 2.311
+    },
+    {
+        "text": "well. So it's like a path, he's made a",
+        "start": 207.36,
+        "duration": 2.73
+    },
+    {
+        "text": "path. He's put the numbers in a circle: 0,",
+        "start": 210.09,
+        "duration": 2.91
+    },
+    {
+        "text": "1, 2, 3, 4, 5 up to 9\nand you've made a path.",
+        "start": 213.0,
+        "duration": 3.63
+    },
+    {
+        "text": "And it makes this beautiful circular",
+        "start": 216.63,
+        "duration": 2.96
+    },
+    {
+        "text": "piece of art. Data visualisation's hugely",
+        "start": 219.59,
+        "duration": 3.369
+    },
+    {
+        "text": "important, it goes way back. We could",
+        "start": 222.959,
+        "duration": 2.491
+    },
+    {
+        "text": "talk about Florence Nightingale, she had",
+        "start": 225.45,
+        "duration": 3.15
+    },
+    {
+        "text": "to represent her statistics that she had",
+        "start": 228.6,
+        "duration": 2.88
+    },
+    {
+        "text": "in the Crimean War when she was a nurse,",
+        "start": 231.48,
+        "duration": 2.34
+    },
+    {
+        "text": "and the deaths that she was suffering on",
+        "start": 233.82,
+        "duration": 2.85
+    },
+    {
+        "text": "the wards, it was because they weren't",
+        "start": 236.67,
+        "duration": 1.89
+    },
+    {
+        "text": "clean enough, and she would represent",
+        "start": 238.56,
+        "duration": 1.98
+    },
+    {
+        "text": "this data- she was a mathematician",
+        "start": 240.54,
+        "duration": 1.77
+    },
+    {
+        "text": "herself, Florence Nightingale fantastic.",
+        "start": 242.31,
+        "duration": 3.209
+    },
+    {
+        "text": "And she had these things called Rose",
+        "start": 245.519,
+        "duration": 2.34
+    },
+    {
+        "text": "diagrams, which I \nactually think are hideous,",
+        "start": 247.859,
+        "duration": 2.671
+    },
+    {
+        "text": "but they are a similar idea. They're",
+        "start": 250.53,
+        "duration": 3.329
+    },
+    {
+        "text": "representing data in a visual way. I mean,",
+        "start": 253.859,
+        "duration": 3.241
+    },
+    {
+        "text": "a more simple example of that is a pie",
+        "start": 257.1,
+        "duration": 2.31
+    },
+    {
+        "text": "graph representing data in a visual way.",
+        "start": 259.41,
+        "duration": 2.759
+    },
+    {
+        "text": "And what these guys now - and I think it's",
+        "start": 262.169,
+        "duration": 3.361
+    },
+    {
+        "text": "become quite a",
+        "start": 265.53,
+        "duration": 1.62
+    },
+    {
+        "text": "recently - is to make\nit beautiful as well.",
+        "start": 267.15,
+        "duration": 3.03
+    },
+    {
+        "text": "And that's important because to",
+        "start": 270.18,
+        "duration": 3.36
+    },
+    {
+        "text": "communicate especially to the general",
+        "start": 273.54,
+        "duration": 1.62
+    },
+    {
+        "text": "public you want to be able to look at",
+        "start": 275.16,
+        "duration": 2.52
+    },
+    {
+        "text": "this information, understand it, and enjoy",
+        "start": 277.68,
+        "duration": 2.36
+    },
+    {
+        "text": "looking at it and you'll appreciate it",
+        "start": 280.04,
+        "duration": 2.44
+    },
+    {
+        "text": "better. We can talk about serious",
+        "start": 282.48,
+        "duration": 1.98
+    },
+    {
+        "text": "mathematics, subjects like combinatorics,",
+        "start": 284.46,
+        "duration": 1.73
+    },
+    {
+        "text": "which is very visual as well. And you can",
+        "start": 286.19,
+        "duration": 4.3
+    },
+    {
+        "text": "then do maths through pictures and",
+        "start": 290.49,
+        "duration": 3.03
+    },
+    {
+        "text": "diagrams and things like this; networks",
+        "start": 293.52,
+        "duration": 1.74
+    },
+    {
+        "text": "and graph theory and things like that. In",
+        "start": 295.26,
+        "duration": 2.58
+    },
+    {
+        "text": "this example that we've got here, there",
+        "start": 297.84,
+        "duration": 2.94
+    },
+    {
+        "text": "is actually something we can look at. So",
+        "start": 300.78,
+        "duration": 2.25
+    },
+    {
+        "text": "we think that pi is pretty random;",
+        "start": 303.03,
+        "duration": 2.58
+    },
+    {
+        "text": "Martin actually compared pi here with a",
+        "start": 305.61,
+        "duration": 5.19
+    },
+    {
+        "text": "few randomly generated numbers. So he",
+        "start": 310.8,
+        "duration": 5.31
+    },
+    {
+        "text": "generated- these aren't pi, these are",
+        "start": 316.11,
+        "duration": 1.71
+    },
+    {
+        "text": "randomly generated numbers, he did the",
+        "start": 317.82,
+        "duration": 2.07
+    },
+    {
+        "text": "same sort of artistry. And you can see",
+        "start": 319.89,
+        "duration": 3.0
+    },
+    {
+        "text": "the similar sorts of patterns coming",
+        "start": 322.89,
+        "duration": 3.66
+    },
+    {
+        "text": "through. Pi has the appearance of a",
+        "start": 326.55,
+        "duration": 3.96
+    },
+    {
+        "text": "randomly generated number. Another piece",
+        "start": 330.51,
+        "duration": 3.72
+    },
+    {
+        "text": "of art by Martin is the same idea again,",
+        "start": 334.23,
+        "duration": 3.87
+    },
+    {
+        "text": "our circular paths, but here he's put",
+        "start": 338.1,
+        "duration": 3.15
+    },
+    {
+        "text": "little dots on the outside just to show",
+        "start": 341.25,
+        "duration": 2.73
+    },
+    {
+        "text": "you where the the lines are coming from",
+        "start": 343.98,
+        "duration": 1.98
+    },
+    {
+        "text": "and where they're going to. So if it's",
+        "start": 345.96,
+        "duration": 3.08
+    },
+    {
+        "text": "3.141 then above the 3 he's shown it",
+        "start": 349.04,
+        "duration": 5.14
+    },
+    {
+        "text": "with a little dot that it's going to the",
+        "start": 354.18,
+        "duration": 1.77
+    },
+    {
+        "text": "number 1; and then above the 1 it shows",
+        "start": 355.95,
+        "duration": 3.33
+    },
+    {
+        "text": "that he's come from the number 3. It's",
+        "start": 359.28,
+        "duration": 2.31
+    },
+    {
+        "text": "just showing where it's going to and",
+        "start": 361.59,
+        "duration": 1.26
+    },
+    {
+        "text": "where it's coming from.",
+        "start": 362.85,
+        "duration": 0.81
+    },
+    {
+        "text": "So the size of dots means it's- that",
+        "start": 363.66,
+        "duration": 2.37
+    },
+    {
+        "text": "this occurs more often; actually look,",
+        "start": 366.03,
+        "duration": 2.43
+    },
+    {
+        "text": "look at this one. There's a big purple",
+        "start": 368.46,
+        "duration": 2.34
+    },
+    {
+        "text": "dot. And this shows that it's actually",
+        "start": 370.8,
+        "duration": 2.9
+    },
+    {
+        "text": "purple, it means 9, and it's above the 9",
+        "start": 373.7,
+        "duration": 3.52
+    },
+    {
+        "text": "here. What it's showing is it's- there's a",
+        "start": 377.22,
+        "duration": 2.19
+    },
+    {
+        "text": "there's a sequence in pi that is just",
+        "start": 379.41,
+        "duration": 3.0
+    },
+    {
+        "text": "9999 - it's the Feynman point, which I",
+        "start": 382.41,
+        "duration": 3.63
+    },
+    {
+        "text": "know Brady is a big fan of, which is six",
+        "start": 386.04,
+        "duration": 2.85
+    },
+    {
+        "text": "consecutive 9s somewhere around the",
+        "start": 388.89,
+        "duration": 2.99
+    },
+    {
+        "text": "760th something digit? I think it's 762",
+        "start": 391.88,
+        "duration": 3.99
+    },
+    {
+        "text": "digit in pi. And you can see it - that is",
+        "start": 395.87,
+        "duration": 3.73
+    },
+    {
+        "text": "there.",
+        "start": 399.6,
+        "duration": 1.039
+    },
+    {
+        "text": "Those are six consecutive 9s and it",
+        "start": 400.639,
+        "duration": 2.921
+    },
+    {
+        "text": "makes a big blob because it's coming",
+        "start": 403.56,
+        "duration": 3.659
+    },
+    {
+        "text": "from 9 repeatedly, repeatedly.",
+        "start": 407.219,
+        "duration": 2.341
+    },
+    {
+        "text": "Martin has done this for other numbers",
+        "start": 409.56,
+        "duration": 1.74
+    },
+    {
+        "text": "as well; he's done it for the golden",
+        "start": 411.3,
+        "duration": 1.29
+    },
+    {
+        "text": "ratio, another famous mathematical number.",
+        "start": 412.59,
+        "duration": 2.549
+    },
+    {
+        "text": "He's done this for e, another famous",
+        "start": 415.139,
+        "duration": 2.761
+    },
+    {
+        "text": "mathematical number. And what he was",
+        "start": 417.9,
+        "duration": 2.789
+    },
+    {
+        "text": "interested in though, when he started",
+        "start": 420.689,
+        "duration": 1.26
+    },
+    {
+        "text": "doing that, was where they coincide. What",
+        "start": 421.949,
+        "duration": 3.78
+    },
+    {
+        "text": "he did is he lined up these three",
+        "start": 425.729,
+        "duration": 2.66
+    },
+    {
+        "text": "special mathematical numbers, he lined",
+        "start": 428.389,
+        "duration": 2.14
+    },
+    {
+        "text": "them up and he wanted to look at where",
+        "start": 430.529,
+        "duration": 2.581
+    },
+    {
+        "text": "they had the same digits. Now because",
+        "start": 433.11,
+        "duration": 3.089
+    },
+    {
+        "text": "these numbers are kind of random really,",
+        "start": 436.199,
+        "duration": 2.69
+    },
+    {
+        "text": "when they have the same digit that's",
+        "start": 438.889,
+        "duration": 2.111
+    },
+    {
+        "text": "just random. So for all three numbers to",
+        "start": 441.0,
+        "duration": 3.449
+    },
+    {
+        "text": "have the same digit, that happens with",
+        "start": 444.449,
+        "duration": 1.891
+    },
+    {
+        "text": "a probability of one in a hundred. But",
+        "start": 446.34,
+        "duration": 3.06
+    },
+    {
+        "text": "when he lined them up he got something",
+        "start": 449.4,
+        "duration": 2.43
+    },
+    {
+        "text": "he called the Accidental Similarity",
+        "start": 451.83,
+        "duration": 2.519
+    },
+    {
+        "text": "Number. And he discovered that, yes, they",
+        "start": 454.349,
+        "duration": 3.09
+    },
+    {
+        "text": "do line up with the same digit about one",
+        "start": 457.439,
+        "duration": 3.48
+    },
+    {
+        "text": "in a hundred - which is what probability",
+        "start": 460.919,
+        "duration": 1.86
+    },
+    {
+        "text": "tells us - so they have a sort of an",
+        "start": 462.779,
+        "duration": 1.801
+    },
+    {
+        "text": "average gap between lining up of about",
+        "start": 464.58,
+        "duration": 3.049
+    },
+    {
+        "text": "100. And he started to experiment with",
+        "start": 467.629,
+        "duration": 3.88
+    },
+    {
+        "text": "his accidental similarity number, he made",
+        "start": 471.509,
+        "duration": 2.791
+    },
+    {
+        "text": "some pieces of art based on that as well.",
+        "start": 474.3,
+        "duration": 2.609
+    },
+    {
+        "text": "There you go here's another piece, here's",
+        "start": 476.909,
+        "duration": 1.951
+    },
+    {
+        "text": "another one of our circular ones here.",
+        "start": 478.86,
+        "duration": 2.729
+    },
+    {
+        "text": "And doesn't it look pretty? You should go",
+        "start": 481.589,
+        "duration": 3.0
+    },
+    {
+        "text": "to his website as well where he'll",
+        "start": 484.589,
+        "duration": 1.741
+    },
+    {
+        "text": "explain more details about how all these",
+        "start": 486.33,
+        "duration": 3.42
+    },
+    {
+        "text": "things were made.",
+        "start": 489.75,
+        "duration": 1.95
+    },
+    {
+        "text": "[Preview] Can you do that again \nand this time talk",
+        "start": 495.77,
+        "duration": 2.17
+    },
+    {
+        "text": "me through it as you do it?\n- You ask a lot Brady.",
+        "start": 497.94,
+        "duration": 3.57
+    }
+]

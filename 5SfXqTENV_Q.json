@@ -1,0 +1,2367 @@
+[
+    {
+        "text": "The video you're about to watch was",
+        "start": 0.12,
+        "duration": 1.53
+    },
+    {
+        "text": "described to me as firing cannons at",
+        "start": 1.65,
+        "duration": 2.7
+    },
+    {
+        "text": "sparrows.",
+        "start": 4.35,
+        "duration": 1.08
+    },
+    {
+        "text": "The sparrow being the pretty simple",
+        "start": 5.43,
+        "duration": 2.429
+    },
+    {
+        "text": "mathematical problem we're about to tell",
+        "start": 7.859,
+        "duration": 1.591
+    },
+    {
+        "text": "you about, and the cannon being the heavy",
+        "start": 9.45,
+        "duration": 2.7
+    },
+    {
+        "text": "artillery, the mathematical machinery,",
+        "start": 12.15,
+        "duration": 2.31
+    },
+    {
+        "text": "that has been used to try to conquer it.",
+        "start": 14.46,
+        "duration": 3.27
+    },
+    {
+        "text": "Now in the middle of the video we will",
+        "start": 17.73,
+        "duration": 1.469
+    },
+    {
+        "text": "encounter some of that heavy artillery,",
+        "start": 19.199,
+        "duration": 1.771
+    },
+    {
+        "text": "but not for too long and stick with us",
+        "start": 20.97,
+        "duration": 2.34
+    },
+    {
+        "text": "because at the end you'll encounter a",
+        "start": 23.31,
+        "duration": 1.95
+    },
+    {
+        "text": "solution and some numbers you might be",
+        "start": 25.26,
+        "duration": 2.46
+    },
+    {
+        "text": "very surprised to see.\n- I wanted to sort",
+        "start": 27.72,
+        "duration": 2.969
+    },
+    {
+        "text": "of show you a pretty little problem that",
+        "start": 30.689,
+        "duration": 2.221
+    },
+    {
+        "text": "I love a lot. The problem appears in a",
+        "start": 32.91,
+        "duration": 1.98
+    },
+    {
+        "text": "blog by some Indian engineer and amateur",
+        "start": 34.89,
+        "duration": 3.9
+    },
+    {
+        "text": "mathematician, Nandakumar, who said with",
+        "start": 38.79,
+        "duration": 2.37
+    },
+    {
+        "text": "his friend Ramana Rao: you're given any",
+        "start": 41.16,
+        "duration": 1.89
+    },
+    {
+        "text": "polygon and a number, let's say we",
+        "start": 43.05,
+        "duration": 2.97
+    },
+    {
+        "text": "could take I don't know a pentagon, doesn't",
+        "start": 46.02,
+        "duration": 3.12
+    },
+    {
+        "text": "have to be a regular anything, here's the",
+        "start": 49.14,
+        "duration": 1.59
+    },
+    {
+        "text": "pentagon. And we take a number,",
+        "start": 50.73,
+        "duration": 2.099
+    },
+    {
+        "text": "I don't know number six? And now we want",
+        "start": 52.829,
+        "duration": 2.25
+    },
+    {
+        "text": "to cut this pentagon into six pieces and",
+        "start": 55.079,
+        "duration": 2.82
+    },
+    {
+        "text": "the condition is that the six pieces",
+        "start": 57.899,
+        "duration": 1.951
+    },
+    {
+        "text": "have the same area, which is easy. So for",
+        "start": 59.85,
+        "duration": 2.759
+    },
+    {
+        "text": "example if you want to cut it into six",
+        "start": 62.609,
+        "duration": 2.041
+    },
+    {
+        "text": "pieces of equal area we could just slide",
+        "start": 64.65,
+        "duration": 2.13
+    },
+    {
+        "text": "over and could say, you know, this is one",
+        "start": 66.78,
+        "duration": 2.46
+    },
+    {
+        "text": "sixth, two sixths, three sixths, four,\nfive, six.",
+        "start": 69.24,
+        "duration": 3.71
+    },
+    {
+        "text": "Drawing isn't good but I think the idea",
+        "start": 72.95,
+        "duration": 2.26
+    },
+    {
+        "text": "should work out. But these pieces will",
+        "start": 75.21,
+        "duration": 2.549
+    },
+    {
+        "text": "have quite different perimeter. I think",
+        "start": 77.759,
+        "duration": 2.641
+    },
+    {
+        "text": "it's quite obvious that even if we",
+        "start": 80.4,
+        "duration": 1.62
+    },
+    {
+        "text": "really make them equal area they will",
+        "start": 82.02,
+        "duration": 1.919
+    },
+    {
+        "text": "have different perimeter. And the",
+        "start": 83.939,
+        "duration": 1.68
+    },
+    {
+        "text": "question is whether, you know, for any",
+        "start": 85.619,
+        "duration": 2.101
+    },
+    {
+        "text": "polygon and any number like 6 - I'll try",
+        "start": 87.72,
+        "duration": 3.96
+    },
+    {
+        "text": "it again - whether there's a different way",
+        "start": 91.68,
+        "duration": 1.71
+    },
+    {
+        "text": "to cut it up, perhaps something like like",
+        "start": 93.39,
+        "duration": 2.159
+    },
+    {
+        "text": "this; one, two, six pieces and we want to",
+        "start": 95.549,
+        "duration": 3.331
+    },
+    {
+        "text": "have them equal area and equal perimeter",
+        "start": 98.88,
+        "duration": 2.55
+    },
+    {
+        "text": "at the same time. It seems that this",
+        "start": 101.43,
+        "duration": 1.92
+    },
+    {
+        "text": "should be possible. It's not that easy to",
+        "start": 103.35,
+        "duration": 1.86
+    },
+    {
+        "text": "work out examples. Let's say even, not a",
+        "start": 105.21,
+        "duration": 2.939
+    },
+    {
+        "text": "pentagon let's take a triangle. And you",
+        "start": 108.149,
+        "duration": 2.551
+    },
+    {
+        "text": "want to take this triangle and cut it",
+        "start": 110.7,
+        "duration": 1.86
+    },
+    {
+        "text": "into three pieces, equal area equal",
+        "start": 112.56,
+        "duration": 2.879
+    },
+    {
+        "text": "perimeter - it's not so clear.\n- (Brady: Is that not an easy one?)",
+        "start": 115.439,
+        "duration": 3.05
+    },
+    {
+        "text": "No, actually",
+        "start": 118.489,
+        "duration": 1.27
+    },
+    {
+        "text": "there's three mathematicians who then",
+        "start": 119.759,
+        "duration": 2.22
+    },
+    {
+        "text": "published a paper in advances in",
+        "start": 121.979,
+        "duration": 1.71
+    },
+    {
+        "text": "mathematics proving this problem but",
+        "start": 123.689,
+        "duration": 2.761
+    },
+    {
+        "text": "only for this special case of three",
+        "start": 126.45,
+        "duration": 1.949
+    },
+    {
+        "text": "pieces. And all kinds of machinery",
+        "start": 128.399,
+        "duration": 3.121
+    },
+    {
+        "text": "involved on a",
+        "start": 131.52,
+        "duration": 1.6
+    },
+    {
+        "text": "harmless-looking problem. So I think what",
+        "start": 133.12,
+        "duration": 3.25
+    },
+    {
+        "text": "we should do here is solve the problem",
+        "start": 136.37,
+        "duration": 3.36
+    },
+    {
+        "text": "but for n equals 2, just to see that",
+        "start": 139.73,
+        "duration": 2.64
+    },
+    {
+        "text": "given a polygon why can we cut it into",
+        "start": 142.37,
+        "duration": 2.82
+    },
+    {
+        "text": "two pieces of equal area and equal",
+        "start": 145.19,
+        "duration": 2.82
+    },
+    {
+        "text": "perimeter? So we take a polygon again and,",
+        "start": 148.01,
+        "duration": 2.34
+    },
+    {
+        "text": "I don't know, here is one. And we want",
+        "start": 150.35,
+        "duration": 5.13
+    },
+    {
+        "text": "to cut it into two pieces two pieces",
+        "start": 155.48,
+        "duration": 2.31
+    },
+    {
+        "text": "of equal area and equal parameter. So the",
+        "start": 157.79,
+        "duration": 3.15
+    },
+    {
+        "text": "pieces have to be convex so there's no",
+        "start": 160.94,
+        "duration": 1.95
+    },
+    {
+        "text": "indention or so. So if I cut something",
+        "start": 162.89,
+        "duration": 2.819
+    },
+    {
+        "text": "into two pieces, or two convex pieces,",
+        "start": 165.709,
+        "duration": 2.61
+    },
+    {
+        "text": "then this just means cutting by a line.\n- (Brady: Professor I can't use)",
+        "start": 168.319,
+        "duration": 3.581
+    },
+    {
+        "text": "(curved lines and things like that?)",
+        "start": 171.9,
+        "duration": 2.009
+    },
+    {
+        "text": "No. Curved lines are not allowed because",
+        "start": 173.909,
+        "duration": 1.881
+    },
+    {
+        "text": "if you use a curved line then on one",
+        "start": 175.79,
+        "duration": 1.8
+    },
+    {
+        "text": "side of the curve it's not convex. So",
+        "start": 177.59,
+        "duration": 2.97
+    },
+    {
+        "text": "it has to be really straight lines. Let's",
+        "start": 180.56,
+        "duration": 2.459
+    },
+    {
+        "text": "just do a vertical line and I'll do the",
+        "start": 183.019,
+        "duration": 1.981
+    },
+    {
+        "text": "vertical line so that we have equal area,",
+        "start": 185.0,
+        "duration": 2.43
+    },
+    {
+        "text": "let's assume that's it all right? But now",
+        "start": 187.43,
+        "duration": 2.46
+    },
+    {
+        "text": "I think this left side will have larger",
+        "start": 189.89,
+        "duration": 3.629
+    },
+    {
+        "text": "perimeter than the right side, okay? And",
+        "start": 193.519,
+        "duration": 3.03
+    },
+    {
+        "text": "now the trick is what we do is we rotate",
+        "start": 196.549,
+        "duration": 2.491
+    },
+    {
+        "text": "this line. Which means we can rotate it",
+        "start": 199.04,
+        "duration": 3.12
+    },
+    {
+        "text": "in such a way that at every single",
+        "start": 202.16,
+        "duration": 2.609
+    },
+    {
+        "text": "moment there's the same area on the left",
+        "start": 204.769,
+        "duration": 3.121
+    },
+    {
+        "text": "side and on the right side, all right? And",
+        "start": 207.89,
+        "duration": 2.37
+    },
+    {
+        "text": "while we rotate it - so the next one will",
+        "start": 210.26,
+        "duration": 2.97
+    },
+    {
+        "text": "be here perhaps and next one will be",
+        "start": 213.23,
+        "duration": 1.68
+    },
+    {
+        "text": "here - always the same area but the",
+        "start": 214.91,
+        "duration": 2.639
+    },
+    {
+        "text": "perimeters will change. And the perimeter",
+        "start": 217.549,
+        "duration": 4.141
+    },
+    {
+        "text": "will change continuously. It may be that",
+        "start": 221.69,
+        "duration": 2.31
+    },
+    {
+        "text": "on the left side the perimeter gets",
+        "start": 224.0,
+        "duration": 1.709
+    },
+    {
+        "text": "larger, on the right side it gets smaller.",
+        "start": 225.709,
+        "duration": 1.891
+    },
+    {
+        "text": "So what we can do is look at the",
+        "start": 227.6,
+        "duration": 2.639
+    },
+    {
+        "text": "quantity which just says the perimeter",
+        "start": 230.239,
+        "duration": 2.071
+    },
+    {
+        "text": "on the left side minus the perimeter on",
+        "start": 232.31,
+        "duration": 1.95
+    },
+    {
+        "text": "the right side. And at the beginning, with",
+        "start": 234.26,
+        "duration": 1.86
+    },
+    {
+        "text": "the vertical line, perimeter on the left",
+        "start": 236.12,
+        "duration": 2.85
+    },
+    {
+        "text": "side was larger than on the right side",
+        "start": 238.97,
+        "duration": 1.829
+    },
+    {
+        "text": "so the difference is positive. And now we",
+        "start": 240.799,
+        "duration": 2.19
+    },
+    {
+        "text": "rotate. And while we rotate the",
+        "start": 242.989,
+        "duration": 2.641
+    },
+    {
+        "text": "perimeters change. And once we've rotated",
+        "start": 245.63,
+        "duration": 2.76
+    },
+    {
+        "text": "by 180 degrees we have the same vertical",
+        "start": 248.39,
+        "duration": 3.03
+    },
+    {
+        "text": "line again but left and right have",
+        "start": 251.42,
+        "duration": 2.58
+    },
+    {
+        "text": "interchanged; and which means this",
+        "start": 254.0,
+        "duration": 2.519
+    },
+    {
+        "text": "difference of perimeter to the left minus",
+        "start": 256.519,
+        "duration": 2.761
+    },
+    {
+        "text": "perimeter to the right has changed to",
+        "start": 259.28,
+        "duration": 2.429
+    },
+    {
+        "text": "its negative value. So if in the",
+        "start": 261.709,
+        "duration": 2.551
+    },
+    {
+        "text": "beginning this was three inches longer",
+        "start": 264.26,
+        "duration": 2.49
+    },
+    {
+        "text": "on the left side, then in the end it's",
+        "start": 266.75,
+        "duration": 3.06
+    },
+    {
+        "text": "three inches longer on the right side,",
+        "start": 269.81,
+        "duration": 1.62
+    },
+    {
+        "text": "and somewhere in between it must have",
+        "start": 271.43,
+        "duration": 3.45
+    },
+    {
+        "text": "been equal. End of proof. So what have we",
+        "start": 274.88,
+        "duration": 2.97
+    },
+    {
+        "text": "used? We've used that these quantities",
+        "start": 277.85,
+        "duration": 2.22
+    },
+    {
+        "text": "change continuously, and you have to",
+        "start": 280.07,
+        "duration": 2.94
+    },
+    {
+        "text": "think about it a bit that if you rotate",
+        "start": 283.01,
+        "duration": 2.0
+    },
+    {
+        "text": "the perimeter changes continuously but",
+        "start": 285.01,
+        "duration": 3.49
+    },
+    {
+        "text": "that's true. And we've used a theorem",
+        "start": 288.5,
+        "duration": 4.26
+    },
+    {
+        "text": "that people learn in high school and",
+        "start": 292.76,
+        "duration": 2.55
+    },
+    {
+        "text": "calculus classes call it the",
+        "start": 295.31,
+        "duration": 1.29
+    },
+    {
+        "text": "intermediate value theorem, which just",
+        "start": 296.6,
+        "duration": 2.73
+    },
+    {
+        "text": "says that if you have a quantity that",
+        "start": 299.33,
+        "duration": 3.18
+    },
+    {
+        "text": "changes from a positive value to a",
+        "start": 302.51,
+        "duration": 2.04
+    },
+    {
+        "text": "negative value, and if the change is",
+        "start": 304.55,
+        "duration": 2.58
+    },
+    {
+        "text": "continuous, then somewhere in between you",
+        "start": 307.13,
+        "duration": 2.67
+    },
+    {
+        "text": "get zero. And my point is that this is",
+        "start": 309.8,
+        "duration": 2.01
+    },
+    {
+        "text": "not a theorem of calculus",
+        "start": 311.81,
+        "duration": 1.74
+    },
+    {
+        "text": "it's a topology theorem; because it's not",
+        "start": 313.55,
+        "duration": 2.64
+    },
+    {
+        "text": "important that the quantities change",
+        "start": 316.19,
+        "duration": 1.26
+    },
+    {
+        "text": "smoothly, and probably they don't, it's",
+        "start": 317.45,
+        "duration": 2.73
+    },
+    {
+        "text": "only about continuously. That's the full",
+        "start": 320.18,
+        "duration": 2.4
+    },
+    {
+        "text": "story for n equals 2, and the problem",
+        "start": 322.58,
+        "duration": 3.089
+    },
+    {
+        "text": "is now that for any larger number than n",
+        "start": 325.669,
+        "duration": 2.941
+    },
+    {
+        "text": "these configuration spaces of all",
+        "start": 328.61,
+        "duration": 4.38
+    },
+    {
+        "text": "possible cuttings, let's say in two equal",
+        "start": 332.99,
+        "duration": 2.31
+    },
+    {
+        "text": "area, they are much more complicated. And",
+        "start": 335.3,
+        "duration": 3.5
+    },
+    {
+        "text": "by far not as well understood and",
+        "start": 338.8,
+        "duration": 2.89
+    },
+    {
+        "text": "there's all kinds of open questions; but",
+        "start": 341.69,
+        "duration": 2.7
+    },
+    {
+        "text": "it turns out that - well now comes the",
+        "start": 344.39,
+        "duration": 3.12
+    },
+    {
+        "text": "part where we throw in machinery. And the",
+        "start": 347.51,
+        "duration": 3.45
+    },
+    {
+        "text": "first part we throw in machinery is",
+        "start": 350.96,
+        "duration": 2.22
+    },
+    {
+        "text": "a theory called optimal transport. For us",
+        "start": 353.18,
+        "duration": 3.84
+    },
+    {
+        "text": "it tells the following: you take a",
+        "start": 357.02,
+        "duration": 1.38
+    },
+    {
+        "text": "polygon; let's assume I have a bunch of",
+        "start": 358.4,
+        "duration": 2.01
+    },
+    {
+        "text": "points in there, here's five points, and",
+        "start": 360.41,
+        "duration": 2.28
+    },
+    {
+        "text": "from optimal transport I get that I can",
+        "start": 362.69,
+        "duration": 3.45
+    },
+    {
+        "text": "give weights to these points so that if",
+        "start": 366.14,
+        "duration": 2.43
+    },
+    {
+        "text": "I look at the domains of influence, could",
+        "start": 368.57,
+        "duration": 2.34
+    },
+    {
+        "text": "look something like this - so that's what",
+        "start": 370.91,
+        "duration": 2.88
+    },
+    {
+        "text": "they call a weighted Voronoi\ndecomposition.",
+        "start": 373.79,
+        "duration": 4.111
+    },
+    {
+        "text": "They are always hard",
+        "start": 377.901,
+        "duration": 1.409
+    },
+    {
+        "text": "to draw. I'm not going to do this",
+        "start": 379.31,
+        "duration": 1.74
+    },
+    {
+        "text": "correctly but so I think it will be",
+        "start": 381.05,
+        "duration": 2.07
+    },
+    {
+        "text": "something like this. This is a partition",
+        "start": 383.12,
+        "duration": 2.18
+    },
+    {
+        "text": "associated with these points. You see",
+        "start": 385.3,
+        "duration": 2.679
+    },
+    {
+        "text": "this is not equal area, so I didn't \ndo it right,",
+        "start": 387.979,
+        "duration": 2.821
+    },
+    {
+        "text": "but this theorem by Kantorovich and",
+        "start": 390.8,
+        "duration": 2.85
+    },
+    {
+        "text": "others says that if I adjust the weights",
+        "start": 393.65,
+        "duration": 2.85
+    },
+    {
+        "text": "right, so like this point should get more\nweight",
+        "start": 396.5,
+        "duration": 2.83
+    },
+    {
+        "text": "so in the end its domain get's larger,",
+        "start": 399.879,
+        "duration": 3.57
+    },
+    {
+        "text": "and perhaps this one should get a",
+        "start": 403.449,
+        "duration": 2.19
+    },
+    {
+        "text": "smaller weight, and and so you know this",
+        "start": 405.639,
+        "duration": 3.3
+    },
+    {
+        "text": "would rather be the domain - and if I put",
+        "start": 408.939,
+        "duration": 2.46
+    },
+    {
+        "text": "the weights right then I get an equal",
+        "start": 411.399,
+        "duration": 2.91
+    },
+    {
+        "text": "area partition, that's the theorem. And if",
+        "start": 414.309,
+        "duration": 3.03
+    },
+    {
+        "text": "I move the points then these unique",
+        "start": 417.339,
+        "duration": 4.23
+    },
+    {
+        "text": "weights will move continuously. So it's",
+        "start": 421.569,
+        "duration": 2.34
+    },
+    {
+        "text": "again continuous and this means that the",
+        "start": 423.909,
+        "duration": 3.18
+    },
+    {
+        "text": "space of n distinct points in the",
+        "start": 427.089,
+        "duration": 3.36
+    },
+    {
+        "text": "polygon gives me basically a parameter",
+        "start": 430.449,
+        "duration": 3.75
+    },
+    {
+        "text": "space for nice partitions of the polygon",
+        "start": 434.199,
+        "duration": 3.42
+    },
+    {
+        "text": "into equal area. So which means I have",
+        "start": 437.619,
+        "duration": 2.04
+    },
+    {
+        "text": "the space. Doesn't give me all partitions",
+        "start": 439.659,
+        "duration": 2.79
+    },
+    {
+        "text": "but it gives me many of them and",
+        "start": 442.449,
+        "duration": 2.22
+    },
+    {
+        "text": "actually enough of them. This is just the",
+        "start": 444.669,
+        "duration": 2.22
+    },
+    {
+        "text": "equal area, now we have to get equal",
+        "start": 446.889,
+        "duration": 2.101
+    },
+    {
+        "text": "perimeters. And that basically means that",
+        "start": 448.99,
+        "duration": 3.419
+    },
+    {
+        "text": "for every configuration of points I know",
+        "start": 452.409,
+        "duration": 4.201
+    },
+    {
+        "text": "how to get equal area but and now I have",
+        "start": 456.61,
+        "duration": 2.159
+    },
+    {
+        "text": "to compare the perimeters. And that",
+        "start": 458.769,
+        "duration": 2.49
+    },
+    {
+        "text": "basically means I have- I get a map from",
+        "start": 461.259,
+        "duration": 2.94
+    },
+    {
+        "text": "this space of configurations of points",
+        "start": 464.199,
+        "duration": 3.45
+    },
+    {
+        "text": "to a space of values. We solve the",
+        "start": 467.649,
+        "duration": 3.06
+    },
+    {
+        "text": "problem if we can show that there is no",
+        "start": 470.709,
+        "duration": 3.3
+    },
+    {
+        "text": "good map which would never give me all",
+        "start": 474.009,
+        "duration": 2.851
+    },
+    {
+        "text": "perimeters equal. And not all perimeters",
+        "start": 476.86,
+        "duration": 2.399
+    },
+    {
+        "text": "equal means basically we map the",
+        "start": 479.259,
+        "duration": 2.84
+    },
+    {
+        "text": "space of points to the space of values",
+        "start": 482.099,
+        "duration": 3.011
+    },
+    {
+        "text": "and we never hit zero, which means we",
+        "start": 485.11,
+        "duration": 2.729
+    },
+    {
+        "text": "always go around that. And now the",
+        "start": 487.839,
+        "duration": 2.04
+    },
+    {
+        "text": "question is does that map exist? And now",
+        "start": 489.879,
+        "duration": 2.82
+    },
+    {
+        "text": "comes the next part, it's something that",
+        "start": 492.699,
+        "duration": 2.67
+    },
+    {
+        "text": "we take from algebraic topology. And",
+        "start": 495.369,
+        "duration": 2.19
+    },
+    {
+        "text": "somewhere in there is a theory called",
+        "start": 497.559,
+        "duration": 2.78
+    },
+    {
+        "text": "equivariant obstruction theory. Actually",
+        "start": 500.339,
+        "duration": 2.35
+    },
+    {
+        "text": "it's not that much big a theory, it's",
+        "start": 502.689,
+        "duration": 2.43
+    },
+    {
+        "text": "it's basically it's a theory which just",
+        "start": 505.119,
+        "duration": 1.89
+    },
+    {
+        "text": "consists of one theorem. But this one",
+        "start": 507.009,
+        "duration": 2.49
+    },
+    {
+        "text": "theorem says that this map doesn't exist",
+        "start": 509.499,
+        "duration": 3.39
+    },
+    {
+        "text": "if and only if a certain cohomology",
+        "start": 512.889,
+        "duration": 2.55
+    },
+    {
+        "text": "class is nonzero. So this sounds",
+        "start": 515.439,
+        "duration": 2.91
+    },
+    {
+        "text": "amazingly abstract, and it is, and the",
+        "start": 518.349,
+        "duration": 4.651
+    },
+    {
+        "text": "good place to learn equivariant",
+        "start": 523.0,
+        "duration": 1.829
+    },
+    {
+        "text": "obstruction theory is a guy- is a \nbook by a",
+        "start": 524.829,
+        "duration": 3.351
+    },
+    {
+        "text": "senior German topology professor,\nTammo tom Dieck.",
+        "start": 528.18,
+        "duration": 4.63
+    },
+    {
+        "text": "And it's one of these fat books without a",
+        "start": 532.81,
+        "duration": 2.01
+    },
+    {
+        "text": "single picture, but very precise. I always",
+        "start": 534.82,
+        "duration": 2.97
+    },
+    {
+        "text": "quote Alice in Wonderland who says,",
+        "start": 537.79,
+        "duration": 1.68
+    },
+    {
+        "text": "'what's the value of a book without",
+        "start": 539.47,
+        "duration": 1.62
+    },
+    {
+        "text": "pictures or conversations?' So there's no",
+        "start": 541.09,
+        "duration": 3.0
+    },
+    {
+        "text": "pictures in there, there's no",
+        "start": 544.09,
+        "duration": 1.32
+    },
+    {
+        "text": "conversations - but the theory's in there.",
+        "start": 545.41,
+        "duration": 2.7
+    },
+    {
+        "text": "And I'm not really an algebraic\ntopologist;",
+        "start": 548.11,
+        "duration": 3.66
+    },
+    {
+        "text": "I admire these tools. If I want to use it",
+        "start": 551.77,
+        "duration": 3.72
+    },
+    {
+        "text": "I have to make it concrete. And I",
+        "start": 555.49,
+        "duration": 2.46
+    },
+    {
+        "text": "think I can show you on paper what",
+        "start": 557.95,
+        "duration": 1.53
+    },
+    {
+        "text": "really happens there, except I'll need a",
+        "start": 559.48,
+        "duration": 1.8
+    },
+    {
+        "text": "new sheet of paper for that.",
+        "start": 561.28,
+        "duration": 1.87
+    },
+    {
+        "text": "So we try and make it concrete, which means- our",
+        "start": 564.39,
+        "duration": 2.83
+    },
+    {
+        "text": "concrete now here means n equals three.",
+        "start": 567.22,
+        "duration": 2.28
+    },
+    {
+        "text": "Again we have a polygon and let's assume",
+        "start": 569.5,
+        "duration": 2.88
+    },
+    {
+        "text": "that this is a polygon that we cannot",
+        "start": 572.38,
+        "duration": 2.13
+    },
+    {
+        "text": "cut into three pieces of equal area and",
+        "start": 574.51,
+        "duration": 2.97
+    },
+    {
+        "text": "equal perimeter. \n- (Brady: So you're assuming that)",
+        "start": 577.48,
+        "duration": 2.76
+    },
+    {
+        "text": "(the whole thing we're trying to do is)",
+        "start": 580.24,
+        "duration": 1.95
+    },
+    {
+        "text": "(impossible?)\n- Yes, so proof by contradiction.",
+        "start": 582.19,
+        "duration": 2.12
+    },
+    {
+        "text": "And now if this is impossible this means",
+        "start": 584.31,
+        "duration": 3.94
+    },
+    {
+        "text": "that for any configuration of three",
+        "start": 588.25,
+        "duration": 3.12
+    },
+    {
+        "text": "points there's a unique equal area",
+        "start": 591.37,
+        "duration": 6.56
+    },
+    {
+        "text": "partition with the right weights, but",
+        "start": 597.93,
+        "duration": 3.28
+    },
+    {
+        "text": "then I get the values which is these",
+        "start": 601.21,
+        "duration": 2.57
+    },
+    {
+        "text": "perimeter 1, perimeter 2, perimeter",
+        "start": 603.78,
+        "duration": 4.48
+    },
+    {
+        "text": "3, he perimeters of these three",
+        "start": 608.26,
+        "duration": 1.89
+    },
+    {
+        "text": "pieces. And these three parameters are",
+        "start": 610.15,
+        "duration": 2.64
+    },
+    {
+        "text": "not equal. What we really translate this",
+        "start": 612.79,
+        "duration": 2.73
+    },
+    {
+        "text": "in is that we say we have here, on the",
+        "start": 615.52,
+        "duration": 2.79
+    },
+    {
+        "text": "one hand we have the space of",
+        "start": 618.31,
+        "duration": 3.92
+    },
+    {
+        "text": "configurations of three distinct points,",
+        "start": 622.23,
+        "duration": 3.31
+    },
+    {
+        "text": "and over there we go to something that's",
+        "start": 625.54,
+        "duration": 4.26
+    },
+    {
+        "text": "the space of three numbers - numbers have",
+        "start": 629.8,
+        "duration": 3.96
+    },
+    {
+        "text": "to show up somewhere, right, because this",
+        "start": 633.76,
+        "duration": 1.74
+    },
+    {
+        "text": "is Numberphile. And these three numbers:",
+        "start": 635.5,
+        "duration": 3.03
+    },
+    {
+        "text": "not all equal. And actually we can assume",
+        "start": 638.53,
+        "duration": 5.52
+    },
+    {
+        "text": "that this is three numbers which sum to",
+        "start": 644.05,
+        "duration": 2.67
+    },
+    {
+        "text": "zero, because we just subtract the",
+        "start": 646.72,
+        "duration": 2.4
+    },
+    {
+        "text": "average. So if we work out what these",
+        "start": 649.12,
+        "duration": 3.27
+    },
+    {
+        "text": "spaces are then in the end it will turn",
+        "start": 652.39,
+        "duration": 2.52
+    },
+    {
+        "text": "out that here really we're talking about",
+        "start": 654.91,
+        "duration": 2.04
+    },
+    {
+        "text": "maps to a circle.",
+        "start": 656.95,
+        "duration": 1.35
+    },
+    {
+        "text": "You know, from any three numbers that are",
+        "start": 658.3,
+        "duration": 2.7
+    },
+    {
+        "text": "not equal you can make a point on the",
+        "start": 661.0,
+        "duration": 3.09
+    },
+    {
+        "text": "circle by subtracting the",
+        "start": 664.09,
+        "duration": 2.06
+    },
+    {
+        "text": "average, which gives you three numbers",
+        "start": 666.15,
+        "duration": 2.28
+    },
+    {
+        "text": "that sum to zero, and then you divide by",
+        "start": 668.43,
+        "duration": 3.81
+    },
+    {
+        "text": "the sum of squares, so you get three",
+        "start": 672.24,
+        "duration": 2.01
+    },
+    {
+        "text": "numbers where the sum of squares equals",
+        "start": 674.25,
+        "duration": 1.62
+    },
+    {
+        "text": "one and that's a circle. And now it turns",
+        "start": 675.87,
+        "duration": 3.42
+    },
+    {
+        "text": "out that one can understand the space of",
+        "start": 679.29,
+        "duration": 2.6
+    },
+    {
+        "text": "configurations of three distinct points",
+        "start": 681.89,
+        "duration": 2.83
+    },
+    {
+        "text": "in the plane; and basically this space",
+        "start": 684.72,
+        "duration": 2.85
+    },
+    {
+        "text": "can be glued together from hexagons.",
+        "start": 687.57,
+        "duration": 2.88
+    },
+    {
+        "text": "Where basically",
+        "start": 690.45,
+        "duration": 2.09
+    },
+    {
+        "text": "hexagons could look like this, I just",
+        "start": 692.54,
+        "duration": 2.11
+    },
+    {
+        "text": "draw one of these hexagons in the end it",
+        "start": 694.65,
+        "duration": 2.22
+    },
+    {
+        "text": "will be six of them. And the meaning of",
+        "start": 696.87,
+        "duration": 2.97
+    },
+    {
+        "text": "this hexagons is basically I can label",
+        "start": 699.84,
+        "duration": 3.09
+    },
+    {
+        "text": "this by 123, and 123",
+        "start": 702.93,
+        "duration": 2.78
+    },
+    {
+        "text": "really just means I have three points in",
+        "start": 705.71,
+        "duration": 3.76
+    },
+    {
+        "text": "the plane: 1,2 and 3, and point",
+        "start": 709.47,
+        "duration": 3.81
+    },
+    {
+        "text": "1 is to the left of point 2 and this is to",
+        "start": 713.28,
+        "duration": 2.73
+    },
+    {
+        "text": "the left of point 3. Whereas perhaps \nthis one",
+        "start": 716.01,
+        "duration": 5.04
+    },
+    {
+        "text": "here would be 132, which means again",
+        "start": 721.05,
+        "duration": 4.8
+    },
+    {
+        "text": "this is sort of symbolizes three points in",
+        "start": 725.85,
+        "duration": 2.79
+    },
+    {
+        "text": "the plane but 1 is to the left of 3",
+        "start": 728.64,
+        "duration": 2.91
+    },
+    {
+        "text": "and left of 2. If I look at all",
+        "start": 731.55,
+        "duration": 4.19
+    },
+    {
+        "text": "configurations of three points in the",
+        "start": 735.74,
+        "duration": 2.32
+    },
+    {
+        "text": "plane then of course it could also",
+        "start": 738.06,
+        "duration": 2.04
+    },
+    {
+        "text": "happen that they're just not sorted left",
+        "start": 740.1,
+        "duration": 2.28
+    },
+    {
+        "text": "to right, but let's say point 2 is",
+        "start": 742.38,
+        "duration": 2.22
+    },
+    {
+        "text": "above point 3, and this basically",
+        "start": 744.6,
+        "duration": 2.43
+    },
+    {
+        "text": "means the space I get will more look",
+        "start": 747.03,
+        "duration": 3.18
+    },
+    {
+        "text": "like this; and we can work out the",
+        "start": 750.21,
+        "duration": 3.33
+    },
+    {
+        "text": "combinatorics of that we're not going to",
+        "start": 753.54,
+        "duration": 1.98
+    },
+    {
+        "text": "do the detail on that. This here",
+        "start": 755.52,
+        "duration": 2.1
+    },
+    {
+        "text": "basically, this red line corresponds to",
+        "start": 757.62,
+        "duration": 2.67
+    },
+    {
+        "text": "three points but 2 is above 3, and",
+        "start": 760.29,
+        "duration": 4.13
+    },
+    {
+        "text": "this is again the points 1, 2 and",
+        "start": 764.42,
+        "duration": 2.98
+    },
+    {
+        "text": "3 in the plane but 1 and 2 is",
+        "start": 767.4,
+        "duration": 4.11
+    },
+    {
+        "text": "below point 3. So each of the",
+        "start": 771.51,
+        "duration": 3.51
+    },
+    {
+        "text": "elements of this space we can sort of",
+        "start": 775.02,
+        "duration": 3.18
+    },
+    {
+        "text": "interpret as certain types of point",
+        "start": 778.2,
+        "duration": 2.4
+    },
+    {
+        "text": "configurations in the \nspace - in the plane.",
+        "start": 780.6,
+        "duration": 2.433
+    },
+    {
+        "text": "(Brady: Alright, I'll take \nyour word for it.)",
+        "start": 784.133,
+        "duration": 1.658
+    },
+    {
+        "text": "Getting a bit too complicated?\n- (We're starting to get the cannons \nout I think)",
+        "start": 785.791,
+        "duration": 2.849
+    },
+    {
+        "text": "I think what we'll do is say \nthat now some magic",
+        "start": 788.64,
+        "duration": 2.49
+    },
+    {
+        "text": "happens. What comes out is that in the",
+        "start": 791.13,
+        "duration": 2.94
+    },
+    {
+        "text": "end this map doesn't exist. So this map\nfrom",
+        "start": 794.07,
+        "duration": 6.18
+    },
+    {
+        "text": "space of configurations of three points",
+        "start": 800.25,
+        "duration": 2.67
+    },
+    {
+        "text": "to the space of three numbers that are",
+        "start": 802.92,
+        "duration": 2.01
+    },
+    {
+        "text": "not all equal. So we have the problem",
+        "start": 804.93,
+        "duration": 2.58
+    },
+    {
+        "text": "solved if this map doesn't exist. And it",
+        "start": 807.51,
+        "duration": 3.51
+    },
+    {
+        "text": "turns out that this is the case, if and",
+        "start": 811.02,
+        "duration": 2.97
+    },
+    {
+        "text": "only if the following equation does not",
+        "start": 813.99,
+        "duration": 2.34
+    },
+    {
+        "text": "have a solution. And the equation is 1",
+        "start": 816.33,
+        "duration": 4.52
+    },
+    {
+        "text": "plus 3X plus 3Y equals zero;",
+        "start": 820.85,
+        "duration": 7.84
+    },
+    {
+        "text": "and where this X and this Y are supposed",
+        "start": 828.69,
+        "duration": 5.61
+    },
+    {
+        "text": "to be integers. And just to illustrate",
+        "start": 834.3,
+        "duration": 2.25
+    },
+    {
+        "text": "where the 3s come from, this 3",
+        "start": 836.55,
+        "duration": 2.7
+    },
+    {
+        "text": "comes from- one 3 is this edge or",
+        "start": 839.25,
+        "duration": 2.94
+    },
+    {
+        "text": "these or these. It's sort of",
+        "start": 842.19,
+        "duration": 2.07
+    },
+    {
+        "text": "combinatorics of the hexagon. And the",
+        "start": 844.26,
+        "duration": 2.64
+    },
+    {
+        "text": "other thing is the other three edges of",
+        "start": 846.9,
+        "duration": 2.28
+    },
+    {
+        "text": "the hexagon. But that's sort of - that's",
+        "start": 849.18,
+        "duration": 2.52
+    },
+    {
+        "text": "where the magic happens. And now the",
+        "start": 851.7,
+        "duration": 3.18
+    },
+    {
+        "text": "questions is does this equation have a",
+        "start": 854.88,
+        "duration": 3.78
+    },
+    {
+        "text": "solution in the integers? And you stare",
+        "start": 858.66,
+        "duration": 2.31
+    },
+    {
+        "text": "at it for a while and you say, well",
+        "start": 860.97,
+        "duration": 2.01
+    },
+    {
+        "text": "obviously not. Because if I put in any",
+        "start": 862.98,
+        "duration": 3.45
+    },
+    {
+        "text": "integers there I get something that's",
+        "start": 866.43,
+        "duration": 1.68
+    },
+    {
+        "text": "divisible by three. And I add one and I",
+        "start": 868.11,
+        "duration": 3.36
+    },
+    {
+        "text": "get something that's not divisible by",
+        "start": 871.47,
+        "duration": 1.5
+    },
+    {
+        "text": "three. So we've learned that this",
+        "start": 872.97,
+        "duration": 2.28
+    },
+    {
+        "text": "equation does not have a solution, which",
+        "start": 875.25,
+        "duration": 3.03
+    },
+    {
+        "text": "means the counter-example does not exist,",
+        "start": 878.28,
+        "duration": 3.65
+    },
+    {
+        "text": "which means every polygon can be cut",
+        "start": 881.93,
+        "duration": 3.79
+    },
+    {
+        "text": "into three pieces of equal area and",
+        "start": 885.72,
+        "duration": 2.7
+    },
+    {
+        "text": "equal perimeter.\n- (Brady: For n equals 3?)\n- N equals 3.",
+        "start": 888.42,
+        "duration": 3.03
+    },
+    {
+        "text": "Now we get a bit overexcited and we say",
+        "start": 891.45,
+        "duration": 2.79
+    },
+    {
+        "text": "if we can do it for n equals 3; turns out",
+        "start": 894.24,
+        "duration": 2.49
+    },
+    {
+        "text": "with the same pattern if we take the",
+        "start": 896.73,
+        "duration": 1.98
+    },
+    {
+        "text": "equation 1 plus 2X equals zero,",
+        "start": 898.71,
+        "duration": 5.07
+    },
+    {
+        "text": "that's even easier to see that this",
+        "start": 903.78,
+        "duration": 2.64
+    },
+    {
+        "text": "doesn't have a solution, right? Because",
+        "start": 906.42,
+        "duration": 1.74
+    },
+    {
+        "text": "this is even plus 1 is odd, doesn't give",
+        "start": 908.16,
+        "duration": 2.19
+    },
+    {
+        "text": "zero. So this is n equals 2 - check \n- (Brady: Which we already knew?)",
+        "start": 910.35,
+        "duration": 5.19
+    },
+    {
+        "text": "Which we already knew - even \nwithout the missing",
+        "start": 915.54,
+        "duration": 3.06
+    },
+    {
+        "text": "details and the magic in the beginning.",
+        "start": 918.6,
+        "duration": 1.89
+    },
+    {
+        "text": "Then we did 1 plus 3X plus 3Y equals 0.",
+        "start": 920.49,
+        "duration": 7.23
+    },
+    {
+        "text": "And this doesn't have a solution because",
+        "start": 927.72,
+        "duration": 2.64
+    },
+    {
+        "text": "of divisibility by 3, and that solves the\nproblem for",
+        "start": 930.36,
+        "duration": 3.36
+    },
+    {
+        "text": "n equals 3. For n equals 4; and it",
+        "start": 933.72,
+        "duration": 2.73
+    },
+    {
+        "text": "turns out same pattern, the hexagon will",
+        "start": 936.45,
+        "duration": 2.67
+    },
+    {
+        "text": "be replaced by the permutohedron,",
+        "start": 939.12,
+        "duration": 2.01
+    },
+    {
+        "text": "which is a wonderful polyhedron to study.",
+        "start": 941.13,
+        "duration": 2.37
+    },
+    {
+        "text": "And we've solved the problem for n",
+        "start": 943.5,
+        "duration": 2.79
+    },
+    {
+        "text": "equals 4 if this equation doesn't",
+        "start": 946.29,
+        "duration": 2.55
+    },
+    {
+        "text": "have a solution; 1 plus 4X plus 6Y plus",
+        "start": 948.84,
+        "duration": 4.32
+    },
+    {
+        "text": "4Z equals zero. And you stare at it for a",
+        "start": 953.16,
+        "duration": 5.1
+    },
+    {
+        "text": "while and you say, well 4 and 6 and",
+        "start": 958.26,
+        "duration": 2.4
+    },
+    {
+        "text": "4 they're all even so if I plug in",
+        "start": 960.66,
+        "duration": 2.16
+    },
+    {
+        "text": "any integers there this is even. Plus 1",
+        "start": 962.82,
+        "duration": 2.52
+    },
+    {
+        "text": "doesn't give zero. Which means we've",
+        "start": 965.34,
+        "duration": 2.07
+    },
+    {
+        "text": "solved the problem for n equals 4. We",
+        "start": 967.41,
+        "duration": 2.76
+    },
+    {
+        "text": "go on; 5x plus 10Y plus 10Z plus 5W",
+        "start": 970.17,
+        "duration": 9.217
+    },
+    {
+        "text": "equals zero, does this have a solution?",
+        "start": 979.387,
+        "duration": 2.503
+    },
+    {
+        "text": "No it doesn't, because all of this is",
+        "start": 981.89,
+        "duration": 2.71
+    },
+    {
+        "text": "divisible by five. Which means we've",
+        "start": 984.6,
+        "duration": 2.73
+    },
+    {
+        "text": "solved the problem for n equals 5. And",
+        "start": 987.33,
+        "duration": 2.67
+    },
+    {
+        "text": "so on, you might hope or guess and that's",
+        "start": 990.0,
+        "duration": 3.12
+    },
+    {
+        "text": "not true. Because the next step is",
+        "start": 993.12,
+        "duration": 4.131
+    },
+    {
+        "text": "1 plus 6X plus 15Y plus 20Z plus 15W + 6U",
+        "start": 997.251,
+        "duration": 14.319
+    },
+    {
+        "text": "equals 0. So perhaps we should reveal the",
+        "start": 1011.57,
+        "duration": 3.36
+    },
+    {
+        "text": "mystery, what are these numbers that show",
+        "start": 1014.93,
+        "duration": 1.89
+    },
+    {
+        "text": "up here? And it turns out this is",
+        "start": 1016.82,
+        "duration": 2.1
+    },
+    {
+        "text": "binomial coefficients, from Pascal's",
+        "start": 1018.92,
+        "duration": 2.91
+    },
+    {
+        "text": "triangle. And if you don't want to",
+        "start": 1021.83,
+        "duration": 2.82
+    },
+    {
+        "text": "memorise these numbers, actually every",
+        "start": 1024.65,
+        "duration": 2.46
+    },
+    {
+        "text": "number here is just the sum of the two",
+        "start": 1027.11,
+        "duration": 2.79
+    },
+    {
+        "text": "numbers above of them - that's the rule of",
+        "start": 1029.9,
+        "duration": 1.919
+    },
+    {
+        "text": "how you do Pascal's triangle. So 1 plus 5",
+        "start": 1031.819,
+        "duration": 3.63
+    },
+    {
+        "text": "is 6, 5 plus 10 is 15, 10 plus 10 is 20, 10",
+        "start": 1035.449,
+        "duration": 3.691
+    },
+    {
+        "text": "plus 5 is 15, and 5 plus the missing 1 is",
+        "start": 1039.14,
+        "duration": 3.48
+    },
+    {
+        "text": "6. So that's the pattern. Which means",
+        "start": 1042.62,
+        "duration": 2.969
+    },
+    {
+        "text": "this is the sixth row of Pascal's",
+        "start": 1045.589,
+        "duration": 2.37
+    },
+    {
+        "text": "triangle except for a 1 in the end",
+        "start": 1047.959,
+        "duration": 2.011
+    },
+    {
+        "text": "missing. And the question again is, now we",
+        "start": 1049.97,
+        "duration": 3.24
+    },
+    {
+        "text": "are at n equals 6 does this equation",
+        "start": 1053.21,
+        "duration": 4.62
+    },
+    {
+        "text": "have a solution in the integers? And",
+        "start": 1057.83,
+        "duration": 2.45
+    },
+    {
+        "text": "indeed it does.",
+        "start": 1060.28,
+        "duration": 2.05
+    },
+    {
+        "text": "If you, for example put 1",
+        "start": 1062.33,
+        "duration": 5.84
+    },
+    {
+        "text": "plus 6 times minus 1, so 1 minus 6, plus",
+        "start": 1068.17,
+        "duration": 6.19
+    },
+    {
+        "text": "15 times 1, plus 20 times minus 1; and the",
+        "start": 1074.36,
+        "duration": 9.54
+    },
+    {
+        "text": "rest you take zeros- oh I think I got it",
+        "start": 1083.9,
+        "duration": 2.55
+    },
+    {
+        "text": "wrong. I take plus 1 here, and I take",
+        "start": 1086.45,
+        "duration": 2.28
+    },
+    {
+        "text": "minus 1 here. Then I find 1 plus 20 is 6",
+        "start": 1088.73,
+        "duration": 5.43
+    },
+    {
+        "text": "plus 15, right? This means we have a",
+        "start": 1094.16,
+        "duration": 2.55
+    },
+    {
+        "text": "solution to this equation in the integers,",
+        "start": 1096.71,
+        "duration": 2.969
+    },
+    {
+        "text": "which means we do not have a",
+        "start": 1099.679,
+        "duration": 1.591
+    },
+    {
+        "text": "contradiction, which means this map might",
+        "start": 1101.27,
+        "duration": 2.73
+    },
+    {
+        "text": "exist, which means the counter-example",
+        "start": 1104.0,
+        "duration": 4.35
+    },
+    {
+        "text": "might exist. So we plainly have not",
+        "start": 1108.35,
+        "duration": 2.01
+    },
+    {
+        "text": "solved the problem. There's not-\n- (Brady: But only for n equals 6)",
+        "start": 1110.36,
+        "duration": 5.27
+    },
+    {
+        "text": "That's n equals 6 and actually if \nyou continue",
+        "start": 1115.63,
+        "duration": 2.2
+    },
+    {
+        "text": "n equal 7 again we can solve the",
+        "start": 1117.83,
+        "duration": 4.44
+    },
+    {
+        "text": "problem easily by the same pattern. Now",
+        "start": 1122.27,
+        "duration": 3.24
+    },
+    {
+        "text": "you asked- now",
+        "start": 1125.51,
+        "duration": 1.29
+    },
+    {
+        "text": "so we've solved it for some numbers and",
+        "start": 1126.8,
+        "duration": 2.009
+    },
+    {
+        "text": "we have not solved it for other numbers,",
+        "start": 1128.809,
+        "duration": 1.651
+    },
+    {
+        "text": "what are the numbers? And now,\nthe magic is we",
+        "start": 1130.46,
+        "duration": 2.969
+    },
+    {
+        "text": "started this problem- this problem came",
+        "start": 1133.429,
+        "duration": 1.801
+    },
+    {
+        "text": "from India - Nandakumar and \nRamana Rao, 2006.",
+        "start": 1135.23,
+        "duration": 4.26
+    },
+    {
+        "text": "Now in 1909 in the first issue of the",
+        "start": 1139.49,
+        "duration": 4.91
+    },
+    {
+        "text": "first volume of the Journal of the math",
+        "start": 1144.4,
+        "duration": 3.1
+    },
+    {
+        "text": "club in Madras, that's where Ramanujan",
+        "start": 1147.5,
+        "duration": 2.73
+    },
+    {
+        "text": "came from. There's this paper which",
+        "start": 1150.23,
+        "duration": 2.16
+    },
+    {
+        "text": "explains to us what we've done here,",
+        "start": 1152.39,
+        "duration": 2.85
+    },
+    {
+        "text": "namely it solved the question for which",
+        "start": 1155.24,
+        "duration": 2.52
+    },
+    {
+        "text": "values n does the nth row of Pascal's",
+        "start": 1157.76,
+        "duration": 4.35
+    },
+    {
+        "text": "triangle have a common factor. That's",
+        "start": 1162.11,
+        "duration": 2.4
+    },
+    {
+        "text": "exactly what we were looking at here. And",
+        "start": 1164.51,
+        "duration": 2.06
+    },
+    {
+        "text": "it turns out that always if n is a power",
+        "start": 1166.57,
+        "duration": 5.29
+    },
+    {
+        "text": "of a prime number. We look at this row",
+        "start": 1171.86,
+        "duration": 2.64
+    },
+    {
+        "text": "and we disregard the 1s and we ask,",
+        "start": 1174.5,
+        "duration": 3.66
+    },
+    {
+        "text": "do all these numbers have a common",
+        "start": 1178.16,
+        "duration": 2.07
+    },
+    {
+        "text": "factor? 2 - yes. And here the common factor",
+        "start": 1180.23,
+        "duration": 3.63
+    },
+    {
+        "text": "is 3. And here the common factor is 2. And",
+        "start": 1183.86,
+        "duration": 3.54
+    },
+    {
+        "text": "here the common factor is 5. And these",
+        "start": 1187.4,
+        "duration": 3.48
+    },
+    {
+        "text": "numbers don't have a common factor. It's",
+        "start": 1190.88,
+        "duration": 1.98
+    },
+    {
+        "text": "not 2 because this is odd, and it's not 3",
+        "start": 1192.86,
+        "duration": 2.699
+    },
+    {
+        "text": "because this is not divisible by 3. Yeah",
+        "start": 1195.559,
+        "duration": 3.061
+    },
+    {
+        "text": "so this one has a common factor again,\nnamely they are all",
+        "start": 1198.62,
+        "duration": 2.22
+    },
+    {
+        "text": "divisible by 7. And if we do still",
+        "start": 1200.84,
+        "duration": 4.35
+    },
+    {
+        "text": "the next one then this is 8, and this",
+        "start": 1205.19,
+        "duration": 3.54
+    },
+    {
+        "text": "is 28, and this is 56, and this is 70, and",
+        "start": 1208.73,
+        "duration": 4.1
+    },
+    {
+        "text": "56, and 28 and 8 - and",
+        "start": 1212.83,
+        "duration": 3.43
+    },
+    {
+        "text": "they are all even so it again has a",
+        "start": 1216.26,
+        "duration": 3.72
+    },
+    {
+        "text": "common factor. And that's- if we have a",
+        "start": 1219.98,
+        "duration": 2.1
+    },
+    {
+        "text": "common factor then this original problem",
+        "start": 1222.08,
+        "duration": 1.949
+    },
+    {
+        "text": "is solved.",
+        "start": 1224.029,
+        "duration": 0.961
+    },
+    {
+        "text": "And what are these numbers? So this is-",
+        "start": 1224.99,
+        "duration": 4.049
+    },
+    {
+        "text": "2 is a prime number. 3-",
+        "start": 1229.039,
+        "duration": 3.001
+    },
+    {
+        "text": "(Brady: This is the row numbers \nyou're writing?)",
+        "start": 1232.04,
+        "duration": 2.19
+    },
+    {
+        "text": "Yes that's the row numbers - so that's row",
+        "start": 1234.23,
+        "duration": 1.86
+    },
+    {
+        "text": "number 2, there's row number 3, 3",
+        "start": 1236.09,
+        "duration": 2.01
+    },
+    {
+        "text": "is also a prime number. This is 4 and",
+        "start": 1238.1,
+        "duration": 3.09
+    },
+    {
+        "text": "4 is not a prime number but it's a",
+        "start": 1241.19,
+        "duration": 2.55
+    },
+    {
+        "text": "power of a prime, it's 2 squared. And",
+        "start": 1243.74,
+        "duration": 2.659
+    },
+    {
+        "text": "this is 5, which is again a prime",
+        "start": 1246.399,
+        "duration": 4.301
+    },
+    {
+        "text": "number. And this here is 6, and 6 is 2",
+        "start": 1250.7,
+        "duration": 3.599
+    },
+    {
+        "text": "times 3. It's not a prime and it's not a",
+        "start": 1254.299,
+        "duration": 2.581
+    },
+    {
+        "text": "prime power but it's a product of",
+        "start": 1256.88,
+        "duration": 1.95
+    },
+    {
+        "text": "different primes. And that's where we",
+        "start": 1258.83,
+        "duration": 2.64
+    },
+    {
+        "text": "don't solve the problem, that's [name]'s",
+        "start": 1261.47,
+        "duration": 2.01
+    },
+    {
+        "text": "theorem. Now 7 again is a prime, 8",
+        "start": 1263.48,
+        "duration": 6.21
+    },
+    {
+        "text": "is 2 times 2 times 2 so it's a prime",
+        "start": 1269.69,
+        "duration": 3.81
+    },
+    {
+        "text": "power, and 9 is 3 squared - it's a power of",
+        "start": 1273.5,
+        "duration": 4.5
+    },
+    {
+        "text": "a prime, and 10 is 2 times 5 - which means",
+        "start": 1278.0,
+        "duration": 4.2
+    },
+    {
+        "text": "again we have not solved our problem.",
+        "start": 1282.2,
+        "duration": 2.28
+    },
+    {
+        "text": "Going back to a polygon, this means we do",
+        "start": 1284.48,
+        "duration": 2.549
+    },
+    {
+        "text": "not know whether every polygon can be",
+        "start": 1287.029,
+        "duration": 2.851
+    },
+    {
+        "text": "cut into ten pieces of equal area, equal",
+        "start": 1289.88,
+        "duration": 3.99
+    },
+    {
+        "text": "perimeter. It may be possible but this",
+        "start": 1293.87,
+        "duration": 2.309
+    },
+    {
+        "text": "method that we've used, and the whole",
+        "start": 1296.179,
+        "duration": 1.86
+    },
+    {
+        "text": "machinery, and optimal transport and",
+        "start": 1298.039,
+        "duration": 2.401
+    },
+    {
+        "text": "equivariant obstruction theory in the end;",
+        "start": 1300.44,
+        "duration": 1.849
+    },
+    {
+        "text": "plainly does not answer this problem.",
+        "start": 1302.289,
+        "duration": 3.431
+    },
+    {
+        "text": "Still an open problem for 6, for 10, for",
+        "start": 1305.72,
+        "duration": 4.65
+    },
+    {
+        "text": "12, for 14, for 15, for 21. But for \nthese other",
+        "start": 1310.37,
+        "duration": 5.159
+    },
+    {
+        "text": "values it's solved, that's all the values",
+        "start": 1315.529,
+        "duration": 2.731
+    },
+    {
+        "text": "where it's prime powers. I think the",
+        "start": 1318.26,
+        "duration": 1.799
+    },
+    {
+        "text": "answer is also pretty magical.",
+        "start": 1320.059,
+        "duration": 1.831
+    },
+    {
+        "text": "Of course someone at some point has to",
+        "start": 1321.89,
+        "duration": 1.649
+    },
+    {
+        "text": "solve the problem for the other values,",
+        "start": 1323.539,
+        "duration": 1.951
+    },
+    {
+        "text": "in the moment I don't know how to do that.",
+        "start": 1325.49,
+        "duration": 2.38
+    },
+    {
+        "text": "If you'd like to see more from this",
+        "start": 1327.87,
+        "duration": 2.179
+    },
+    {
+        "text": "interview I will put it on Numberphile2,",
+        "start": 1330.049,
+        "duration": 2.57
+    },
+    {
+        "text": "our second channel. There'll be",
+        "start": 1332.619,
+        "duration": 1.66
+    },
+    {
+        "text": "links on the screen and in the video",
+        "start": 1334.279,
+        "duration": 1.44
+    },
+    {
+        "text": "description. This was filmed at the",
+        "start": 1335.719,
+        "duration": 2.28
+    },
+    {
+        "text": "Mathematical Sciences Research",
+        "start": 1337.999,
+        "duration": 2.01
+    },
+    {
+        "text": "Institute, in Berkeley California, where",
+        "start": 1340.009,
+        "duration": 2.91
+    },
+    {
+        "text": "many of the world's best mathematicians",
+        "start": 1342.919,
+        "duration": 1.95
+    },
+    {
+        "text": "come to visit and where we at",
+        "start": 1344.869,
+        "duration": 1.65
+    },
+    {
+        "text": "Numberphile film a lot of these \ninterviews.",
+        "start": 1346.519,
+        "duration": 3.27
+    }
+]

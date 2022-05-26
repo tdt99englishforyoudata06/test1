@@ -1,0 +1,1867 @@
+[
+    {
+        "text": "I thought I would talk about a thing",
+        "start": 0.08,
+        "duration": 1.519
+    },
+    {
+        "text": "called a Nightingale diagram.",
+        "start": 1.599,
+        "duration": 1.921
+    },
+    {
+        "text": "All right, what's that?",
+        "start": 3.52,
+        "duration": 3.44
+    },
+    {
+        "text": "So it comes- it comes down to the fact",
+        "start": 6.96,
+        "duration": 1.76
+    },
+    {
+        "text": "that I was looking at,",
+        "start": 8.72,
+        "duration": 1.52
+    },
+    {
+        "text": "somewhat morbidly, looking at Covid",
+        "start": 10.24,
+        "duration": 2.479
+    },
+    {
+        "text": "mortality data",
+        "start": 12.719,
+        "duration": 1.121
+    },
+    {
+        "text": "and was kind of unimpressed with the",
+        "start": 13.84,
+        "duration": 2.16
+    },
+    {
+        "text": "ways that I had available to plot it.",
+        "start": 16.0,
+        "duration": 2.16
+    },
+    {
+        "text": "And there's always this problem that",
+        "start": 18.16,
+        "duration": 1.44
+    },
+    {
+        "text": "when you look at the usual way the data",
+        "start": 19.6,
+        "duration": 1.679
+    },
+    {
+        "text": "gets plotted,",
+        "start": 21.279,
+        "duration": 0.721
+    },
+    {
+        "text": "it gets like plotted January",
+        "start": 22.0,
+        "duration": 1.6
+    },
+    {
+        "text": "through to December and then",
+        "start": 23.6,
+        "duration": 1.759
+    },
+    {
+        "text": "it goes back to January again when",
+        "start": 25.359,
+        "duration": 1.441
+    },
+    {
+        "text": "you're looking at multiple years and so",
+        "start": 26.8,
+        "duration": 1.28
+    },
+    {
+        "text": "there's always this kind of",
+        "start": 28.08,
+        "duration": 0.88
+    },
+    {
+        "text": "discontinuity in the data at the end of",
+        "start": 28.96,
+        "duration": 1.92
+    },
+    {
+        "text": "the year, which of course is not any in",
+        "start": 30.88,
+        "duration": 1.519
+    },
+    {
+        "text": "any way",
+        "start": 32.399,
+        "duration": 0.801
+    },
+    {
+        "text": "real it's not physical it's just the way",
+        "start": 33.2,
+        "duration": 1.6
+    },
+    {
+        "text": "you choose to plot the data.",
+        "start": 34.8,
+        "duration": 1.919
+    },
+    {
+        "text": "So I was trying to see if there was any",
+        "start": 36.719,
+        "duration": 1.441
+    },
+    {
+        "text": "way of plotting it in a way that kind of",
+        "start": 38.16,
+        "duration": 2.239
+    },
+    {
+        "text": "gets rid of that discontinuity at the",
+        "start": 40.399,
+        "duration": 1.761
+    },
+    {
+        "text": "beginning and the end of the year. It",
+        "start": 42.16,
+        "duration": 1.2
+    },
+    {
+        "text": "turns out this is a solved problem, in",
+        "start": 43.36,
+        "duration": 1.44
+    },
+    {
+        "text": "fact it's a long solve problem.",
+        "start": 44.8,
+        "duration": 1.599
+    },
+    {
+        "text": "The reason why the solution is a",
+        "start": 46.399,
+        "duration": 2.32
+    },
+    {
+        "text": "thing called a Nightingale diagram is",
+        "start": 48.719,
+        "duration": 1.601
+    },
+    {
+        "text": "because it goes back to Florence",
+        "start": 50.32,
+        "duration": 1.36
+    },
+    {
+        "text": "Nightingale in the middle of the 19th\ncentury",
+        "start": 51.68,
+        "duration": 2.0
+    },
+    {
+        "text": "who as well as you know being famous for",
+        "start": 53.68,
+        "duration": 2.0
+    },
+    {
+        "text": "her nursing was actually also famous for",
+        "start": 55.68,
+        "duration": 1.76
+    },
+    {
+        "text": "her data visualisation.",
+        "start": 57.44,
+        "duration": 1.52
+    },
+    {
+        "text": "We tend to kind of think of data",
+        "start": 58.96,
+        "duration": 1.279
+    },
+    {
+        "text": "visualisation as being something that",
+        "start": 60.239,
+        "duration": 1.84
+    },
+    {
+        "text": "was only invented",
+        "start": 62.079,
+        "duration": 2.001
+    },
+    {
+        "text": "with the computer age and with modern",
+        "start": 64.08,
+        "duration": 1.439
+    },
+    {
+        "text": "graphics but actually it turns out it",
+        "start": 65.519,
+        "duration": 1.441
+    },
+    {
+        "text": "has a pretty long history.",
+        "start": 66.96,
+        "duration": 1.839
+    },
+    {
+        "text": "But she was one of the very early",
+        "start": 68.799,
+        "duration": 1.441
+    },
+    {
+        "text": "proponents; and in fact not only was she",
+        "start": 70.24,
+        "duration": 2.559
+    },
+    {
+        "text": "producing beautiful plots but she was",
+        "start": 72.799,
+        "duration": 1.841
+    },
+    {
+        "text": "doing them for much the reason where-",
+        "start": 74.64,
+        "duration": 1.6
+    },
+    {
+        "text": "that people do data visualisation now",
+        "start": 76.24,
+        "duration": 1.76
+    },
+    {
+        "text": "which was to try and make an argument to",
+        "start": 78.0,
+        "duration": 1.92
+    },
+    {
+        "text": "convince",
+        "start": 79.92,
+        "duration": 0.879
+    },
+    {
+        "text": "people of her point of view, in this case",
+        "start": 80.799,
+        "duration": 2.161
+    },
+    {
+        "text": "politicians.",
+        "start": 82.96,
+        "duration": 1.199
+    },
+    {
+        "text": "She ended up publishing a book and a",
+        "start": 84.159,
+        "duration": 2.081
+    },
+    {
+        "text": "whole load of pamphlets which were",
+        "start": 86.24,
+        "duration": 1.28
+    },
+    {
+        "text": "distributed",
+        "start": 87.52,
+        "duration": 0.959
+    },
+    {
+        "text": "kind of making her case; and it was",
+        "start": 88.479,
+        "duration": 1.361
+    },
+    {
+        "text": "really the case for",
+        "start": 89.84,
+        "duration": 2.48
+    },
+    {
+        "text": "good cleanliness standards when you're",
+        "start": 92.32,
+        "duration": 1.839
+    },
+    {
+        "text": "treating sick people,",
+        "start": 94.159,
+        "duration": 1.28
+    },
+    {
+        "text": "and that was really what kind of- how she",
+        "start": 95.439,
+        "duration": 2.401
+    },
+    {
+        "text": "saved many many lives",
+        "start": 97.84,
+        "duration": 1.68
+    },
+    {
+        "text": "was by convincing everyone that actually",
+        "start": 99.52,
+        "duration": 2.16
+    },
+    {
+        "text": "good cleanliness was the way to do it.",
+        "start": 101.68,
+        "duration": 1.52
+    },
+    {
+        "text": "The plot she came up with was instead of",
+        "start": 103.2,
+        "duration": 1.44
+    },
+    {
+        "text": "plotting things as a line she plotted",
+        "start": 104.64,
+        "duration": 1.36
+    },
+    {
+        "text": "things around a circle.",
+        "start": 106.0,
+        "duration": 2.0
+    },
+    {
+        "text": "And the her plots went through various",
+        "start": 108.0,
+        "duration": 2.0
+    },
+    {
+        "text": "iterations, you can kind of see as she",
+        "start": 110.0,
+        "duration": 1.759
+    },
+    {
+        "text": "was in kind of improving the way she was",
+        "start": 111.759,
+        "duration": 1.601
+    },
+    {
+        "text": "presenting the data. So let me show you",
+        "start": 113.36,
+        "duration": 1.28
+    },
+    {
+        "text": "the first one",
+        "start": 114.64,
+        "duration": 0.88
+    },
+    {
+        "text": "that you came up with: this was the thing",
+        "start": 115.52,
+        "duration": 1.599
+    },
+    {
+        "text": "she referred to as a bat-wing diagram,",
+        "start": 117.119,
+        "duration": 2.721
+    },
+    {
+        "text": "and in essence you're going around in a",
+        "start": 119.84,
+        "duration": 1.84
+    },
+    {
+        "text": "circle and as you go around the circle",
+        "start": 121.68,
+        "duration": 2.479
+    },
+    {
+        "text": "for the different months of the year",
+        "start": 124.159,
+        "duration": 2.0
+    },
+    {
+        "text": "how far out you put the point is to do",
+        "start": 126.159,
+        "duration": 2.32
+    },
+    {
+        "text": "with the thing you're measuring. And she",
+        "start": 128.479,
+        "duration": 1.041
+    },
+    {
+        "text": "was also actually measuring mortality,",
+        "start": 129.52,
+        "duration": 1.359
+    },
+    {
+        "text": "this was death",
+        "start": 130.879,
+        "duration": 0.881
+    },
+    {
+        "text": "in the Crimean war, this was death of",
+        "start": 131.76,
+        "duration": 1.6
+    },
+    {
+        "text": "soldiers in the Crimean war. And so you",
+        "start": 133.36,
+        "duration": 1.76
+    },
+    {
+        "text": "could actually see",
+        "start": 135.12,
+        "duration": 1.28
+    },
+    {
+        "text": "when death rates were very high and",
+        "start": 136.4,
+        "duration": 2.24
+    },
+    {
+        "text": "then then she kind of jumps over to this",
+        "start": 138.64,
+        "duration": 1.76
+    },
+    {
+        "text": "second diagram",
+        "start": 140.4,
+        "duration": 1.12
+    },
+    {
+        "text": "to continue the circle around and really",
+        "start": 141.52,
+        "duration": 2.719
+    },
+    {
+        "text": "this is showing when she started",
+        "start": 144.239,
+        "duration": 1.601
+    },
+    {
+        "text": "introducing her her various",
+        "start": 145.84,
+        "duration": 1.759
+    },
+    {
+        "text": "sanitary measures for looking after the",
+        "start": 147.599,
+        "duration": 2.481
+    },
+    {
+        "text": "wounded soldiers",
+        "start": 150.08,
+        "duration": 1.04
+    },
+    {
+        "text": "that the death rates plummeted. And this-",
+        "start": 151.12,
+        "duration": 2.0
+    },
+    {
+        "text": "I mean this makes a rather salutary",
+        "start": 153.12,
+        "duration": 1.52
+    },
+    {
+        "text": "point that the-",
+        "start": 154.64,
+        "duration": 0.879
+    },
+    {
+        "text": "what what's actually measured here",
+        "start": 155.519,
+        "duration": 1.44
+    },
+    {
+        "text": "radially outwards is the deaths",
+        "start": 156.959,
+        "duration": 2.481
+    },
+    {
+        "text": "per thousand soldiers per year",
+        "start": 159.44,
+        "duration": 2.48
+    },
+    {
+        "text": "effectively;",
+        "start": 161.92,
+        "duration": 1.12
+    },
+    {
+        "text": "and it actually peaks at over a thousand.",
+        "start": 163.04,
+        "duration": 2.32
+    },
+    {
+        "text": "So what this is saying is that if the",
+        "start": 165.36,
+        "duration": 1.28
+    },
+    {
+        "text": "death rate had continued at that rate",
+        "start": 166.64,
+        "duration": 1.44
+    },
+    {
+        "text": "the entire",
+        "start": 168.08,
+        "duration": 0.72
+    },
+    {
+        "text": "entire army would have been killed in",
+        "start": 168.8,
+        "duration": 2.4
+    },
+    {
+        "text": "less than a year",
+        "start": 171.2,
+        "duration": 1.36
+    },
+    {
+        "text": "so she was really making rather a\nstrong point.",
+        "start": 172.56,
+        "duration": 3.36
+    },
+    {
+        "text": "As I say it was kind of radially outwards,",
+        "start": 175.92,
+        "duration": 1.36
+    },
+    {
+        "text": "she didn't like this version of the plot",
+        "start": 177.28,
+        "duration": 2.0
+    },
+    {
+        "text": "because because she shaded it in to",
+        "start": 179.28,
+        "duration": 2.8
+    },
+    {
+        "text": "create this kind of bat-wing effect",
+        "start": 182.08,
+        "duration": 2.239
+    },
+    {
+        "text": "she was concerned that people would be",
+        "start": 184.319,
+        "duration": 1.521
+    },
+    {
+        "text": "looking at the area and thinking the",
+        "start": 185.84,
+        "duration": 1.759
+    },
+    {
+        "text": "area was what was representing rather",
+        "start": 187.599,
+        "duration": 1.521
+    },
+    {
+        "text": "than the radial displacement.",
+        "start": 189.12,
+        "duration": 1.6
+    },
+    {
+        "text": "And and of course they don't quite scale",
+        "start": 190.72,
+        "duration": 1.84
+    },
+    {
+        "text": "the same way because because",
+        "start": 192.56,
+        "duration": 1.2
+    },
+    {
+        "text": "area goes as distance squared and so",
+        "start": 193.76,
+        "duration": 2.0
+    },
+    {
+        "text": "actually the the area",
+        "start": 195.76,
+        "duration": 1.36
+    },
+    {
+        "text": "is measuring a different thing from what",
+        "start": 197.12,
+        "duration": 1.199
+    },
+    {
+        "text": "the radius is measuring. So in her next",
+        "start": 198.319,
+        "duration": 2.481
+    },
+    {
+        "text": "sort of iteration, and the",
+        "start": 200.8,
+        "duration": 1.359
+    },
+    {
+        "text": "the plot that she's most famous for,",
+        "start": 202.159,
+        "duration": 3.36
+    },
+    {
+        "text": "for illustrating this she kind of came",
+        "start": 205.519,
+        "duration": 2.321
+    },
+    {
+        "text": "up with a",
+        "start": 207.84,
+        "duration": 0.72
+    },
+    {
+        "text": "coloured version of the same plot. Only",
+        "start": 208.56,
+        "duration": 2.72
+    },
+    {
+        "text": "now she has actually scaled it so that",
+        "start": 211.28,
+        "duration": 1.599
+    },
+    {
+        "text": "the areas are representing death",
+        "start": 212.879,
+        "duration": 1.92
+    },
+    {
+        "text": "and the extra subtlety she's introduced",
+        "start": 214.799,
+        "duration": 2.321
+    },
+    {
+        "text": "is she's now got colours in here which",
+        "start": 217.12,
+        "duration": 1.52
+    },
+    {
+        "text": "represent different things.",
+        "start": 218.64,
+        "duration": 1.36
+    },
+    {
+        "text": "So for example the blue were the",
+        "start": 220.0,
+        "duration": 2.319
+    },
+    {
+        "text": "soldiers who were dying of disease",
+        "start": 222.319,
+        "duration": 2.081
+    },
+    {
+        "text": "in the hospitals whereas the pink was",
+        "start": 224.4,
+        "duration": 2.08
+    },
+    {
+        "text": "the soldiers who were dying of their\nwounds,",
+        "start": 226.48,
+        "duration": 2.16
+    },
+    {
+        "text": "of actually the injuries they'd received.",
+        "start": 228.64,
+        "duration": 1.84
+    },
+    {
+        "text": "And this very graphically makes this",
+        "start": 230.48,
+        "duration": 1.44
+    },
+    {
+        "text": "incredibly strong point that actually",
+        "start": 231.92,
+        "duration": 1.28
+    },
+    {
+        "text": "the main thing that was killing the army",
+        "start": 233.2,
+        "duration": 1.28
+    },
+    {
+        "text": "wasn't actually getting shot",
+        "start": 234.48,
+        "duration": 1.6
+    },
+    {
+        "text": "it was what happened after they got shot",
+        "start": 236.08,
+        "duration": 1.6
+    },
+    {
+        "text": "that they then got cholera and various",
+        "start": 237.68,
+        "duration": 1.44
+    },
+    {
+        "text": "other nasty diseases and were dying in",
+        "start": 239.12,
+        "duration": 1.679
+    },
+    {
+        "text": "the hospital.",
+        "start": 240.799,
+        "duration": 0.72
+    },
+    {
+        "text": "And again she shows the effect of what",
+        "start": 241.519,
+        "duration": 1.36
+    },
+    {
+        "text": "happens when she introduces her",
+        "start": 242.879,
+        "duration": 2.08
+    },
+    {
+        "text": "mitigation steps and suddenly the",
+        "start": 244.959,
+        "duration": 1.92
+    },
+    {
+        "text": "numbers drop",
+        "start": 246.879,
+        "duration": 1.041
+    },
+    {
+        "text": "right back down again. So all this",
+        "start": 247.92,
+        "duration": 2.0
+    },
+    {
+        "text": "inspired me to think",
+        "start": 249.92,
+        "duration": 1.44
+    },
+    {
+        "text": "that the right way of presenting the",
+        "start": 251.36,
+        "duration": 1.68
+    },
+    {
+        "text": "mortality data when I was trying to",
+        "start": 253.04,
+        "duration": 1.44
+    },
+    {
+        "text": "understand what was going on with Covid",
+        "start": 254.48,
+        "duration": 1.52
+    },
+    {
+        "text": "mortality was to do the same thing.",
+        "start": 256.0,
+        "duration": 1.6
+    },
+    {
+        "text": "So I actually made a a version of her",
+        "start": 257.6,
+        "duration": 2.879
+    },
+    {
+        "text": "plot;",
+        "start": 260.479,
+        "duration": 0.801
+    },
+    {
+        "text": "and this is actually like like her first",
+        "start": 261.28,
+        "duration": 1.68
+    },
+    {
+        "text": "plot this is actually one of these ones",
+        "start": 262.96,
+        "duration": 1.28
+    },
+    {
+        "text": "where the radial distance is measuring",
+        "start": 264.24,
+        "duration": 1.519
+    },
+    {
+        "text": "the mortality.",
+        "start": 265.759,
+        "duration": 1.041
+    },
+    {
+        "text": "And so I was really just interested to",
+        "start": 266.8,
+        "duration": 1.44
+    },
+    {
+        "text": "see quite how out of line",
+        "start": 268.24,
+        "duration": 1.6
+    },
+    {
+        "text": "this last year has been in terms of of",
+        "start": 269.84,
+        "duration": 2.4
+    },
+    {
+        "text": "deaths in the population. \nAnd it's- you know",
+        "start": 272.24,
+        "duration": 3.12
+    },
+    {
+        "text": "it's pretty blatant when you look at",
+        "start": 275.36,
+        "duration": 1.2
+    },
+    {
+        "text": "this that nothing much was happening",
+        "start": 276.56,
+        "duration": 1.52
+    },
+    {
+        "text": "until you get to April and then suddenly",
+        "start": 278.08,
+        "duration": 1.44
+    },
+    {
+        "text": "things jump up to these incredibly high",
+        "start": 279.52,
+        "duration": 1.679
+    },
+    {
+        "text": "values, drop back down again to more or",
+        "start": 281.199,
+        "duration": 1.841
+    },
+    {
+        "text": "less nothing very much but then actually",
+        "start": 283.04,
+        "duration": 1.36
+    },
+    {
+        "text": "you can see from October onwards in the\nUK,",
+        "start": 284.4,
+        "duration": 2.25
+    },
+    {
+        "text": "deaths have been riding high above the",
+        "start": 286.88,
+        "duration": 2.16
+    },
+    {
+        "text": "average. The black line here is the last",
+        "start": 289.04,
+        "duration": 1.52
+    },
+    {
+        "text": "10 years,",
+        "start": 290.56,
+        "duration": 0.96
+    },
+    {
+        "text": "the pink is last year, and then I",
+        "start": 291.52,
+        "duration": 1.44
+    },
+    {
+        "text": "switched over to do it in red for 2021.",
+        "start": 292.96,
+        "duration": 2.64
+    },
+    {
+        "text": "And so in 2021 we're now hopefully at",
+        "start": 295.6,
+        "duration": 2.24
+    },
+    {
+        "text": "least turning things back over again and",
+        "start": 297.84,
+        "duration": 1.76
+    },
+    {
+        "text": "coming back down.",
+        "start": 299.6,
+        "duration": 0.879
+    },
+    {
+        "text": "But even for the last data that was",
+        "start": 300.479,
+        "duration": 1.521
+    },
+    {
+        "text": "released in the UK for the middle of",
+        "start": 302.0,
+        "duration": 1.84
+    },
+    {
+        "text": "February there's still",
+        "start": 303.84,
+        "duration": 1.12
+    },
+    {
+        "text": "significant excess mortality over any of",
+        "start": 304.96,
+        "duration": 2.079
+    },
+    {
+        "text": "the previous decade.",
+        "start": 307.039,
+        "duration": 1.121
+    },
+    {
+        "text": "Professor, tell me about how this deals",
+        "start": 308.16,
+        "duration": 1.84
+    },
+    {
+        "text": "with the January-December problem.",
+        "start": 310.0,
+        "duration": 2.56
+    },
+    {
+        "text": "So really there's nothing- you know,",
+        "start": 312.56,
+        "duration": 1.28
+    },
+    {
+        "text": "because you're just going around in a",
+        "start": 313.84,
+        "duration": 1.12
+    },
+    {
+        "text": "circle all I've done is I've just sort",
+        "start": 314.96,
+        "duration": 1.519
+    },
+    {
+        "text": "of joined the lines up. So there's",
+        "start": 316.479,
+        "duration": 1.28
+    },
+    {
+        "text": "actually a- there's a sort of",
+        "start": 317.759,
+        "duration": 0.961
+    },
+    {
+        "text": "long-running spiral going around here",
+        "start": 318.72,
+        "duration": 1.6
+    },
+    {
+        "text": "effectively.",
+        "start": 320.32,
+        "duration": 1.2
+    },
+    {
+        "text": "And so as you can see- so 2020 here was\nin this",
+        "start": 321.52,
+        "duration": 3.76
+    },
+    {
+        "text": "tasteful shade of magenta and when you",
+        "start": 325.28,
+        "duration": 2.16
+    },
+    {
+        "text": "get to the end of the year",
+        "start": 327.44,
+        "duration": 1.039
+    },
+    {
+        "text": "it just joins on to the red for 2021.",
+        "start": 328.479,
+        "duration": 3.041
+    },
+    {
+        "text": "There are all sorts of subtleties you",
+        "start": 331.52,
+        "duration": 1.36
+    },
+    {
+        "text": "see in the data, like there's this",
+        "start": 332.88,
+        "duration": 1.2
+    },
+    {
+        "text": "dramatic",
+        "start": 334.08,
+        "duration": 0.959
+    },
+    {
+        "text": "strange V-dip at the end of the year. And",
+        "start": 335.039,
+        "duration": 2.801
+    },
+    {
+        "text": "actually you can see there's a couple of",
+        "start": 337.84,
+        "duration": 1.04
+    },
+    {
+        "text": "others at other points in the year;",
+        "start": 338.88,
+        "duration": 1.12
+    },
+    {
+        "text": "they're just basically when there were",
+        "start": 340.0,
+        "duration": 1.12
+    },
+    {
+        "text": "holidays in the UK because this is when",
+        "start": 341.12,
+        "duration": 1.68
+    },
+    {
+        "text": "dates- when deaths were \nbeing registered and",
+        "start": 342.8,
+        "duration": 2.64
+    },
+    {
+        "text": "if the the registry offices are closed\nthen the",
+        "start": 345.44,
+        "duration": 2.64
+    },
+    {
+        "text": "the registration of deaths just gets",
+        "start": 348.08,
+        "duration": 2.08
+    },
+    {
+        "text": "delayed. So you can see all sorts of",
+        "start": 350.16,
+        "duration": 2.0
+    },
+    {
+        "text": "quite subtle things in the data but the",
+        "start": 352.16,
+        "duration": 2.0
+    },
+    {
+        "text": "the basic issue of the fact that the",
+        "start": 354.16,
+        "duration": 1.36
+    },
+    {
+        "text": "years just join on seamlessly to each",
+        "start": 355.52,
+        "duration": 1.84
+    },
+    {
+        "text": "other as you just go round and round",
+        "start": 357.36,
+        "duration": 1.44
+    },
+    {
+        "text": "rather than getting to the end of a line",
+        "start": 358.8,
+        "duration": 1.28
+    },
+    {
+        "text": "and having to go back to the beginning\nagain.",
+        "start": 360.08,
+        "duration": 2.08
+    },
+    {
+        "text": "It's a much sort of cleaner, tidier way",
+        "start": 362.16,
+        "duration": 1.759
+    },
+    {
+        "text": "of presenting the data.",
+        "start": 363.919,
+        "duration": 1.28
+    },
+    {
+        "text": "Does it cause problems sort of writing",
+        "start": 365.199,
+        "duration": 2.0
+    },
+    {
+        "text": "over yourself all the time though going",
+        "start": 367.199,
+        "duration": 1.601
+    },
+    {
+        "text": "around in these laps?",
+        "start": 368.8,
+        "duration": 1.119
+    },
+    {
+        "text": "Sort of all the overlap?\n- I mean in",
+        "start": 369.919,
+        "duration": 2.161
+    },
+    {
+        "text": "principle you sort of lose- you you lose",
+        "start": 372.08,
+        "duration": 2.0
+    },
+    {
+        "text": "the data, right, in that it all lies-",
+        "start": 374.08,
+        "duration": 1.6
+    },
+    {
+        "text": "ends up lying underneath the previous",
+        "start": 375.68,
+        "duration": 1.6
+    },
+    {
+        "text": "year. But in this case you know I was",
+        "start": 377.28,
+        "duration": 2.08
+    },
+    {
+        "text": "really just trying to show",
+        "start": 379.36,
+        "duration": 1.52
+    },
+    {
+        "text": "that that most years don't vary that",
+        "start": 380.88,
+        "duration": 1.68
+    },
+    {
+        "text": "much, so the fact that data was all kind",
+        "start": 382.56,
+        "duration": 1.44
+    },
+    {
+        "text": "of lying on top of each other;",
+        "start": 384.0,
+        "duration": 1.199
+    },
+    {
+        "text": "you can see in some years, you know, in",
+        "start": 385.199,
+        "duration": 1.361
+    },
+    {
+        "text": "January-February there's a worse flu",
+        "start": 386.56,
+        "duration": 1.52
+    },
+    {
+        "text": "epidemic than another year",
+        "start": 388.08,
+        "duration": 1.52
+    },
+    {
+        "text": "so that the number the numbers peak out",
+        "start": 389.6,
+        "duration": 1.84
+    },
+    {
+        "text": "a little bit higher, but really there",
+        "start": 391.44,
+        "duration": 1.599
+    },
+    {
+        "text": "isn't a lot of variation from year to",
+        "start": 393.039,
+        "duration": 1.521
+    },
+    {
+        "text": "year and actually having the data all",
+        "start": 394.56,
+        "duration": 1.359
+    },
+    {
+        "text": "lying on top of each other in these sort\nof",
+        "start": 395.919,
+        "duration": 1.921
+    },
+    {
+        "text": "circles just underlines that point that",
+        "start": 397.84,
+        "duration": 2.32
+    },
+    {
+        "text": "there isn't very much and that last year",
+        "start": 400.16,
+        "duration": 1.599
+    },
+    {
+        "text": "really was very",
+        "start": 401.759,
+        "duration": 0.88
+    },
+    {
+        "text": "exceptional. \n- Professor, if these",
+        "start": 402.639,
+        "duration": 1.521
+    },
+    {
+        "text": "Nightingale graphs were\ninvented so long ago,",
+        "start": 404.16,
+        "duration": 2.479
+    },
+    {
+        "text": "by Florence Nightingale, and they're as",
+        "start": 406.639,
+        "duration": 2.56
+    },
+    {
+        "text": "good as you say they are and clean and",
+        "start": 409.199,
+        "duration": 2.241
+    },
+    {
+        "text": "I agree they they seem really clean and",
+        "start": 411.44,
+        "duration": 1.92
+    },
+    {
+        "text": "clever, why aren't they everywhere? Why",
+        "start": 413.36,
+        "duration": 2.399
+    },
+    {
+        "text": "don't I open up the Times newspaper in",
+        "start": 415.759,
+        "duration": 1.681
+    },
+    {
+        "text": "the morning and see",
+        "start": 417.44,
+        "duration": 1.12
+    },
+    {
+        "text": "Nightingale graphs? Why do I see the",
+        "start": 418.56,
+        "duration": 2.16
+    },
+    {
+        "text": "old-fashioned, you know x and y?",
+        "start": 420.72,
+        "duration": 1.68
+    },
+    {
+        "text": "I honestly don't know. I guess it's",
+        "start": 422.4,
+        "duration": 2.239
+    },
+    {
+        "text": "partly because people are very used to",
+        "start": 424.639,
+        "duration": 1.68
+    },
+    {
+        "text": "seeing",
+        "start": 426.319,
+        "duration": 0.801
+    },
+    {
+        "text": "old-fashioned x and y graphs and so",
+        "start": 427.12,
+        "duration": 1.76
+    },
+    {
+        "text": "actually you know you don't have to",
+        "start": 428.88,
+        "duration": 1.12
+    },
+    {
+        "text": "explain anything to them",
+        "start": 430.0,
+        "duration": 1.44
+    },
+    {
+        "text": "when you're showing them that kind of",
+        "start": 431.44,
+        "duration": 1.199
+    },
+    {
+        "text": "graph. And the sort of range of data you",
+        "start": 432.639,
+        "duration": 2.481
+    },
+    {
+        "text": "can plot with these are",
+        "start": 435.12,
+        "duration": 1.04
+    },
+    {
+        "text": "quite limited in the sense that actually",
+        "start": 436.16,
+        "duration": 1.92
+    },
+    {
+        "text": "you need something which is sort of",
+        "start": 438.08,
+        "duration": 1.119
+    },
+    {
+        "text": "cyclic, which goes around \nlike the months of the year.",
+        "start": 439.199,
+        "duration": 2.081
+    },
+    {
+        "text": "So the other- I think the original",
+        "start": 441.28,
+        "duration": 1.359
+    },
+    {
+        "text": "purpose they were used for, a little bit",
+        "start": 442.639,
+        "duration": 1.201
+    },
+    {
+        "text": "before Florence Nightingale \nwas using them,",
+        "start": 443.84,
+        "duration": 2.079
+    },
+    {
+        "text": "was plotting wind direction and how",
+        "start": 445.919,
+        "duration": 2.081
+    },
+    {
+        "text": "often the wind was coming from different",
+        "start": 448.0,
+        "duration": 1.28
+    },
+    {
+        "text": "directions. And again that's something",
+        "start": 449.28,
+        "duration": 1.199
+    },
+    {
+        "text": "which you can kind of",
+        "start": 450.479,
+        "duration": 0.881
+    },
+    {
+        "text": "show in that way because you've got",
+        "start": 451.36,
+        "duration": 1.52
+    },
+    {
+        "text": "something which goes naturally around in",
+        "start": 452.88,
+        "duration": 1.28
+    },
+    {
+        "text": "a circle, in that case the compass rose.",
+        "start": 454.16,
+        "duration": 2.08
+    },
+    {
+        "text": "But it has to be something which is",
+        "start": 456.24,
+        "duration": 1.2
+    },
+    {
+        "text": "naturally cyclic, which this is.\n- Professor",
+        "start": 457.44,
+        "duration": 2.08
+    },
+    {
+        "text": "you're an astronomer,",
+        "start": 459.52,
+        "duration": 1.44
+    },
+    {
+        "text": "can we expect to start seeing these\nNightingale",
+        "start": 460.96,
+        "duration": 3.12
+    },
+    {
+        "text": "graphs in some Mike Merrifield",
+        "start": 464.08,
+        "duration": 1.44
+    },
+    {
+        "text": "astronomy papers in the years ahead?",
+        "start": 465.52,
+        "duration": 2.32
+    },
+    {
+        "text": "I guess so, if there's something- in fact",
+        "start": 467.84,
+        "duration": 1.759
+    },
+    {
+        "text": "yeah you could well do",
+        "start": 469.599,
+        "duration": 1.28
+    },
+    {
+        "text": "in that, for example we were looking at",
+        "start": 470.879,
+        "duration": 1.841
+    },
+    {
+        "text": "the angles at which",
+        "start": 472.72,
+        "duration": 1.36
+    },
+    {
+        "text": "galaxies are moving a little while",
+        "start": 474.08,
+        "duration": 1.519
+    },
+    {
+        "text": "ago and actually if I thought about it",
+        "start": 475.599,
+        "duration": 2.241
+    },
+    {
+        "text": "this would have been a really good way",
+        "start": 477.84,
+        "duration": 1.28
+    },
+    {
+        "text": "to present the data.",
+        "start": 479.12,
+        "duration": 0.96
+    },
+    {
+        "text": "The other places you see this a little",
+        "start": 480.08,
+        "duration": 1.28
+    },
+    {
+        "text": "bit are in kind of power diagrams,",
+        "start": 481.36,
+        "duration": 2.48
+    },
+    {
+        "text": "they're used for things like microphones",
+        "start": 483.84,
+        "duration": 1.68
+    },
+    {
+        "text": "that show you the direction in",
+        "start": 485.52,
+        "duration": 1.6
+    },
+    {
+        "text": "which the microphone has sensitivity as\nyou go around",
+        "start": 487.12,
+        "duration": 2.32
+    },
+    {
+        "text": "and you know as you point the microphone",
+        "start": 489.44,
+        "duration": 1.599
+    },
+    {
+        "text": "in different directions. But of course",
+        "start": 491.039,
+        "duration": 1.521
+    },
+    {
+        "text": "radio astronomers do the same thing when",
+        "start": 492.56,
+        "duration": 1.52
+    },
+    {
+        "text": "they're pointing their radio dishes,",
+        "start": 494.08,
+        "duration": 1.6
+    },
+    {
+        "text": "that actually they have, you know,\nthere's like a-",
+        "start": 495.68,
+        "duration": 2.079
+    },
+    {
+        "text": "where where",
+        "start": 497.759,
+        "duration": 1.201
+    },
+    {
+        "text": "the radio dish when it's pointed in a",
+        "start": 498.96,
+        "duration": 1.44
+    },
+    {
+        "text": "particular direction, it's most sensitive",
+        "start": 500.4,
+        "duration": 1.84
+    },
+    {
+        "text": "to things that are directly in front but",
+        "start": 502.24,
+        "duration": 1.44
+    },
+    {
+        "text": "of course its",
+        "start": 503.68,
+        "duration": 0.72
+    },
+    {
+        "text": "power doesn't drop off immediately as",
+        "start": 504.4,
+        "duration": 1.6
+    },
+    {
+        "text": "you go in different directions.",
+        "start": 506.0,
+        "duration": 1.52
+    },
+    {
+        "text": "So I think it's used a little bit in",
+        "start": 507.52,
+        "duration": 1.44
+    },
+    {
+        "text": "radio astronomy as well but really I've",
+        "start": 508.96,
+        "duration": 2.32
+    },
+    {
+        "text": "never seen them used in astronomy.",
+        "start": 511.28,
+        "duration": 1.759
+    },
+    {
+        "text": "She called them coxcomb \ndiagrams which are-",
+        "start": 513.039,
+        "duration": 3.281
+    },
+    {
+        "text": "and I had to look that up, it's actually",
+        "start": 516.32,
+        "duration": 1.36
+    },
+    {
+        "text": "the name for the hat that a jester wears.",
+        "start": 517.68,
+        "duration": 3.279
+    },
+    {
+        "text": "And I think it was sort of intended to",
+        "start": 520.959,
+        "duration": 1.52
+    },
+    {
+        "text": "be a little bit self-deprecating that",
+        "start": 522.479,
+        "duration": 1.601
+    },
+    {
+        "text": "this is just a fancy way of presenting",
+        "start": 524.08,
+        "duration": 1.68
+    },
+    {
+        "text": "the data to get people's attention,",
+        "start": 525.76,
+        "duration": 1.68
+    },
+    {
+        "text": "just as the jester wears this fancy hat",
+        "start": 527.44,
+        "duration": 1.92
+    },
+    {
+        "text": "to get people's attention.",
+        "start": 529.36,
+        "duration": 1.52
+    },
+    {
+        "text": "So she called them that; they're also",
+        "start": 530.88,
+        "duration": 1.6
+    },
+    {
+        "text": "sometimes called honeycomb diagrams for",
+        "start": 532.48,
+        "duration": 1.76
+    },
+    {
+        "text": "reasons I don't quite understand and I",
+        "start": 534.24,
+        "duration": 1.279
+    },
+    {
+        "text": "think that might originally be",
+        "start": 535.519,
+        "duration": 1.281
+    },
+    {
+        "text": "meant to be something else.\n- Professor as",
+        "start": 536.8,
+        "duration": 2.08
+    },
+    {
+        "text": "I said you're an astronomer, why are you",
+        "start": 538.88,
+        "duration": 1.6
+    },
+    {
+        "text": "sitting around plotting",
+        "start": 540.48,
+        "duration": 1.44
+    },
+    {
+        "text": "Covid mortality rates in the UK?",
+        "start": 541.92,
+        "duration": 3.76
+    },
+    {
+        "text": "Just because I'm a scientist and I'm",
+        "start": 545.68,
+        "duration": 1.839
+    },
+    {
+        "text": "nosy, right that's the nature of science,",
+        "start": 547.519,
+        "duration": 1.601
+    },
+    {
+        "text": "you're just kind of interested.",
+        "start": 549.12,
+        "duration": 1.12
+    },
+    {
+        "text": "And you know I'd heard various people",
+        "start": 550.24,
+        "duration": 1.68
+    },
+    {
+        "text": "make various statements about",
+        "start": 551.92,
+        "duration": 2.08
+    },
+    {
+        "text": "rates of mortality and so on and I just",
+        "start": 554.0,
+        "duration": 1.76
+    },
+    {
+        "text": "wanted to see for myself so I wanted to",
+        "start": 555.76,
+        "duration": 1.28
+    },
+    {
+        "text": "go back straightly straight to the the",
+        "start": 557.04,
+        "duration": 1.76
+    },
+    {
+        "text": "original source of the data,",
+        "start": 558.8,
+        "duration": 1.599
+    },
+    {
+        "text": "which in the UK is you know the Office",
+        "start": 560.399,
+        "duration": 1.361
+    },
+    {
+        "text": "for National Statistics. But they only-",
+        "start": 561.76,
+        "duration": 1.68
+    },
+    {
+        "text": "they'll provide you with excel",
+        "start": 563.44,
+        "duration": 1.2
+    },
+    {
+        "text": "spreadsheets with the data in",
+        "start": 564.64,
+        "duration": 1.6
+    },
+    {
+        "text": "and I wanted some way of then",
+        "start": 566.24,
+        "duration": 1.039
+    },
+    {
+        "text": "visualising that data, so that's why I",
+        "start": 567.279,
+        "duration": 2.481
+    },
+    {
+        "text": "ended up doing it.",
+        "start": 569.76,
+        "duration": 1.41
+    },
+    {
+        "text": "You can catch plenty more from Professor",
+        "start": 572.29,
+        "duration": 1.71
+    },
+    {
+        "text": "Merrifield on our sister channels",
+        "start": 574.0,
+        "duration": 2.08
+    },
+    {
+        "text": "dedicated to physics and astronomy;",
+        "start": 576.08,
+        "duration": 2.0
+    },
+    {
+        "text": "they're called Sixty Symbols",
+        "start": 578.08,
+        "duration": 1.84
+    },
+    {
+        "text": "and Deep Sky Videos. And if you want to",
+        "start": 579.92,
+        "duration": 2.72
+    },
+    {
+        "text": "think more like a scientist yourself",
+        "start": 582.64,
+        "duration": 1.84
+    },
+    {
+        "text": "why not check out today's episode",
+        "start": 584.48,
+        "duration": 1.76
+    },
+    {
+        "text": "sponsor Brilliant.",
+        "start": 586.24,
+        "duration": 1.44
+    },
+    {
+        "text": "Among their numerous courses is this one",
+        "start": 587.68,
+        "duration": 2.8
+    },
+    {
+        "text": "on scientific thinking.",
+        "start": 590.48,
+        "duration": 2.96
+    },
+    {
+        "text": "As always you can see it's superbly",
+        "start": 593.44,
+        "duration": 1.68
+    },
+    {
+        "text": "designed and- well look at that,",
+        "start": 595.12,
+        "duration": 2.159
+    },
+    {
+        "text": "really interactive. Not entirely sure",
+        "start": 597.279,
+        "duration": 3.12
+    },
+    {
+        "text": "about that dog but",
+        "start": 600.399,
+        "duration": 1.281
+    },
+    {
+        "text": "anyway I loved playing around in these",
+        "start": 601.68,
+        "duration": 2.08
+    },
+    {
+        "text": "rooms of mirrors",
+        "start": 603.76,
+        "duration": 1.28
+    },
+    {
+        "text": "and giving my brain a bit of a workout at",
+        "start": 605.04,
+        "duration": 2.08
+    },
+    {
+        "text": "the same time.",
+        "start": 607.12,
+        "duration": 1.2
+    },
+    {
+        "text": "If you already use Brilliant, why not",
+        "start": 608.32,
+        "duration": 1.84
+    },
+    {
+        "text": "give someone a subscription",
+        "start": 610.16,
+        "duration": 1.52
+    },
+    {
+        "text": "as a gift? If you'd like to check it out",
+        "start": 611.68,
+        "duration": 2.24
+    },
+    {
+        "text": "go to Brilliant.org/Numberphile.",
+        "start": 613.92,
+        "duration": 3.269
+    },
+    {
+        "text": "Using that url will",
+        "start": 617.189,
+        "duration": 1.691
+    },
+    {
+        "text": "give you 20% off a premium",
+        "start": 618.88,
+        "duration": 1.92
+    },
+    {
+        "text": "subscription.",
+        "start": 620.8,
+        "duration": 1.12
+    },
+    {
+        "text": "That's brilliant.org/Numberphile.",
+        "start": 621.92,
+        "duration": 4.88
+    },
+    {
+        "text": "And instability is something where if",
+        "start": 629.12,
+        "duration": 1.44
+    },
+    {
+        "text": "something starts to grow it will",
+        "start": 630.56,
+        "duration": 1.2
+    },
+    {
+        "text": "continue to grow.",
+        "start": 631.76,
+        "duration": 0.96
+    },
+    {
+        "text": "So if you start with a little",
+        "start": 632.72,
+        "duration": 0.799
+    },
+    {
+        "text": "perturbation it just becomes a bigger",
+        "start": 633.519,
+        "duration": 1.281
+    },
+    {
+        "text": "and bigger and bigger perturbation.",
+        "start": 634.8,
+        "duration": 1.599
+    },
+    {
+        "text": "And it turns out there is this thing",
+        "start": 636.399,
+        "duration": 1.281
+    },
+    {
+        "text": "called the Kelvin-Helmholtz instability",
+        "start": 637.68,
+        "duration": 1.52
+    },
+    {
+        "text": "which will kick in in this case. So let",
+        "start": 639.2,
+        "duration": 1.28
+    },
+    {
+        "text": "me draw the same thing again",
+        "start": 640.48,
+        "duration": 1.2
+    },
+    {
+        "text": "but with just the beginnings of kind of",
+        "start": 641.68,
+        "duration": 1.68
+    },
+    {
+        "text": "an instability in the middles.",
+        "start": 643.36,
+        "duration": 3.28
+    }
+]

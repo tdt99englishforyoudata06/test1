@@ -1,0 +1,992 @@
+[
+    {
+        "text": "hey everyone here's a project that built",
+        "start": 0.03,
+        "duration": 4.71
+    },
+    {
+        "text": "a while back that resurfaced recently",
+        "start": 2.79,
+        "duration": 4.469
+    },
+    {
+        "text": "this is a liquid level controller that I",
+        "start": 4.74,
+        "duration": 5.189
+    },
+    {
+        "text": "originally built for my aquarium so let",
+        "start": 7.259,
+        "duration": 4.291
+    },
+    {
+        "text": "me show you how it works the probe is",
+        "start": 9.929,
+        "duration": 5.191
+    },
+    {
+        "text": "here and when the probe is in water you",
+        "start": 11.55,
+        "duration": 5.19
+    },
+    {
+        "text": "can see the status light has gone off",
+        "start": 15.12,
+        "duration": 3.63
+    },
+    {
+        "text": "over here and as soon as the probe is",
+        "start": 16.74,
+        "duration": 3.72
+    },
+    {
+        "text": "removed from water the light comes back",
+        "start": 18.75,
+        "duration": 4.289
+    },
+    {
+        "text": "on and so the idea is that you can plug",
+        "start": 20.46,
+        "duration": 5.159
+    },
+    {
+        "text": "a water pump into this electrical outlet",
+        "start": 23.039,
+        "duration": 5.07
+    },
+    {
+        "text": "and when the light is on the pump will",
+        "start": 25.619,
+        "duration": 4.381
+    },
+    {
+        "text": "be running so it will pump water into",
+        "start": 28.109,
+        "duration": 4.231
+    },
+    {
+        "text": "the aquarium and when the level gets",
+        "start": 30.0,
+        "duration": 4.59
+    },
+    {
+        "text": "high enough it shuts the pump off so",
+        "start": 32.34,
+        "duration": 3.69
+    },
+    {
+        "text": "this is handy because aquariums",
+        "start": 34.59,
+        "duration": 4.35
+    },
+    {
+        "text": "evaporate a lot of water surprisingly of",
+        "start": 36.03,
+        "duration": 5.13
+    },
+    {
+        "text": "the high amount so for reef aquariums",
+        "start": 38.94,
+        "duration": 4.95
+    },
+    {
+        "text": "that have high intensity lighting it can",
+        "start": 41.16,
+        "duration": 4.53
+    },
+    {
+        "text": "be a cup or two per day so this is",
+        "start": 43.89,
+        "duration": 4.62
+    },
+    {
+        "text": "actually a really nice time saver so as",
+        "start": 45.69,
+        "duration": 4.02
+    },
+    {
+        "text": "you can see this part of it at the",
+        "start": 48.51,
+        "duration": 2.459
+    },
+    {
+        "text": "bottom here is a commercially available",
+        "start": 49.71,
+        "duration": 3.75
+    },
+    {
+        "text": "unit and I got this one surplus at Hall",
+        "start": 50.969,
+        "duration": 4.891
+    },
+    {
+        "text": "Ted but later I needed more of these and",
+        "start": 53.46,
+        "duration": 4.47
+    },
+    {
+        "text": "got them on eBay for fairly cheap in",
+        "start": 55.86,
+        "duration": 3.42
+    },
+    {
+        "text": "fact I have got a whole brick of them",
+        "start": 57.93,
+        "duration": 2.629
+    },
+    {
+        "text": "but I'll talk about these in a minute",
+        "start": 59.28,
+        "duration": 5.669
+    },
+    {
+        "text": "this is a Kean's fSV 11 and it's got",
+        "start": 60.559,
+        "duration": 5.501
+    },
+    {
+        "text": "this little thing here there's the",
+        "start": 64.949,
+        "duration": 3.391
+    },
+    {
+        "text": "nameplate and the idea is that this",
+        "start": 66.06,
+        "duration": 5.34
+    },
+    {
+        "text": "thing generates a light signal and sends",
+        "start": 68.34,
+        "duration": 5.22
+    },
+    {
+        "text": "the light out via a plastic fiber-optic",
+        "start": 71.4,
+        "duration": 4.649
+    },
+    {
+        "text": "and then the light returns via another",
+        "start": 73.56,
+        "duration": 4.08
+    },
+    {
+        "text": "plastic fiber optic and this thing",
+        "start": 76.049,
+        "duration": 4.68
+    },
+    {
+        "text": "measures how much light comes back so",
+        "start": 77.64,
+        "duration": 5.159
+    },
+    {
+        "text": "when the probe is in water a low amount",
+        "start": 80.729,
+        "duration": 4.021
+    },
+    {
+        "text": "of light is coming back and when the",
+        "start": 82.799,
+        "duration": 4.381
+    },
+    {
+        "text": "probe is out of water much more light",
+        "start": 84.75,
+        "duration": 4.56
+    },
+    {
+        "text": "comes back and then this thing uses the",
+        "start": 87.18,
+        "duration": 3.6
+    },
+    {
+        "text": "difference to decide whether to throw a",
+        "start": 89.31,
+        "duration": 4.169
+    },
+    {
+        "text": "switch or not what's pretty cool is that",
+        "start": 90.78,
+        "duration": 4.74
+    },
+    {
+        "text": "the little controller here is very",
+        "start": 93.479,
+        "duration": 3.901
+    },
+    {
+        "text": "configurable so I can use these up/down",
+        "start": 95.52,
+        "duration": 3.75
+    },
+    {
+        "text": "keys to set what my threshold is going",
+        "start": 97.38,
+        "duration": 4.379
+    },
+    {
+        "text": "to be can dial this thing up and down I",
+        "start": 99.27,
+        "duration": 4.29
+    },
+    {
+        "text": "think it has a resolution of 0 to about",
+        "start": 101.759,
+        "duration": 5.101
+    },
+    {
+        "text": "4,000 and so when the probe is in the",
+        "start": 103.56,
+        "duration": 4.47
+    },
+    {
+        "text": "water you can see we're getting an",
+        "start": 106.86,
+        "duration": 4.289
+    },
+    {
+        "text": "arbitrary value of like 70 back or 65",
+        "start": 108.03,
+        "duration": 6.18
+    },
+    {
+        "text": "and when it's in air we're getting 650",
+        "start": 111.149,
+        "duration": 5.25
+    },
+    {
+        "text": "so we could set the threshold anywhere",
+        "start": 114.21,
+        "duration": 3.869
+    },
+    {
+        "text": "between those values and get it to work",
+        "start": 116.399,
+        "duration": 4.351
+    },
+    {
+        "text": "and then this thing has a whole bunch of",
+        "start": 118.079,
+        "duration": 5.58
+    },
+    {
+        "text": "other modes too you can set it can",
+        "start": 120.75,
+        "duration": 4.5
+    },
+    {
+        "text": "output like a pulse or something and you",
+        "start": 123.659,
+        "duration": 3.81
+    },
+    {
+        "text": "can check whether the Reta the output",
+        "start": 125.25,
+        "duration": 4.259
+    },
+    {
+        "text": "switch to beyond when there's a lot of",
+        "start": 127.469,
+        "duration": 3.721
+    },
+    {
+        "text": "light coming back or vice-versa when",
+        "start": 129.509,
+        "duration": 3.421
+    },
+    {
+        "text": "it's not a lot of light and it gets",
+        "start": 131.19,
+        "duration": 2.84
+    },
+    {
+        "text": "fairly complicated",
+        "start": 132.93,
+        "duration": 3.09
+    },
+    {
+        "text": "one thing that this thing does which is",
+        "start": 134.03,
+        "duration": 4.39
+    },
+    {
+        "text": "pretty nifty is it it actually outputs a",
+        "start": 136.02,
+        "duration": 4.439
+    },
+    {
+        "text": "pulse of light and then measures the",
+        "start": 138.42,
+        "duration": 4.38
+    },
+    {
+        "text": "return and then subtracts the return",
+        "start": 140.459,
+        "duration": 4.651
+    },
+    {
+        "text": "from when and when the pulse is not on",
+        "start": 142.8,
+        "duration": 5.46
+    },
+    {
+        "text": "so it's sort of a differential sensor if",
+        "start": 145.11,
+        "duration": 4.77
+    },
+    {
+        "text": "this thing just outputs steady steady",
+        "start": 148.26,
+        "duration": 3.9
+    },
+    {
+        "text": "light and then measure the return value",
+        "start": 149.88,
+        "duration": 4.17
+    },
+    {
+        "text": "if I wave this around near a light",
+        "start": 152.16,
+        "duration": 4.35
+    },
+    {
+        "text": "source the the value would be going up",
+        "start": 154.05,
+        "duration": 5.13
+    },
+    {
+        "text": "and down it's changing a little bit now",
+        "start": 156.51,
+        "duration": 4.11
+    },
+    {
+        "text": "because if you bend these fibers you'll",
+        "start": 159.18,
+        "duration": 5.16
+    },
+    {
+        "text": "get a a difference in the return but the",
+        "start": 160.62,
+        "duration": 6.089
+    },
+    {
+        "text": "susceptibility to ambient light would be",
+        "start": 164.34,
+        "duration": 4.32
+    },
+    {
+        "text": "much worse if it didn't pulse the output",
+        "start": 166.709,
+        "duration": 4.471
+    },
+    {
+        "text": "and then do a differential reading just",
+        "start": 168.66,
+        "duration": 4.17
+    },
+    {
+        "text": "so that it's only seeing the light from",
+        "start": 171.18,
+        "duration": 4.74
+    },
+    {
+        "text": "its output pulse the sensor itself is",
+        "start": 172.83,
+        "duration": 5.25
+    },
+    {
+        "text": "made of a piece of acrylic that I turned",
+        "start": 175.92,
+        "duration": 5.76
+    },
+    {
+        "text": "on the lathe and I just cut a 45 degree",
+        "start": 178.08,
+        "duration": 5.58
+    },
+    {
+        "text": "half angle so the total thing is ninety",
+        "start": 181.68,
+        "duration": 5.13
+    },
+    {
+        "text": "here and then drilled some holes farther",
+        "start": 183.66,
+        "duration": 5.25
+    },
+    {
+        "text": "up where I could push the plastic fibers",
+        "start": 186.81,
+        "duration": 4.59
+    },
+    {
+        "text": "into this sort of a conical prison",
+        "start": 188.91,
+        "duration": 5.07
+    },
+    {
+        "text": "almost so the light comes out of one",
+        "start": 191.4,
+        "duration": 5.67
+    },
+    {
+        "text": "fiber you can almost see it see it",
+        "start": 193.98,
+        "duration": 6.09
+    },
+    {
+        "text": "coming out there and reflects internally",
+        "start": 197.07,
+        "duration": 5.4
+    },
+    {
+        "text": "to the other face of the cone and then",
+        "start": 200.07,
+        "duration": 5.28
+    },
+    {
+        "text": "back out this receiving fiber so when",
+        "start": 202.47,
+        "duration": 4.859
+    },
+    {
+        "text": "this is dunked in water or almost any",
+        "start": 205.35,
+        "duration": 5.609
+    },
+    {
+        "text": "liquid the light scatters off into the",
+        "start": 207.329,
+        "duration": 6.541
+    },
+    {
+        "text": "into the liquid when it's in air the",
+        "start": 210.959,
+        "duration": 4.951
+    },
+    {
+        "text": "light is reflected due to total internal",
+        "start": 213.87,
+        "duration": 2.58
+    },
+    {
+        "text": "reflection",
+        "start": 215.91,
+        "duration": 4.26
+    },
+    {
+        "text": "so this sensor makes use of the fact",
+        "start": 216.45,
+        "duration": 5.19
+    },
+    {
+        "text": "that the love that the properties at the",
+        "start": 220.17,
+        "duration": 3.24
+    },
+    {
+        "text": "surface between the plastic and the",
+        "start": 221.64,
+        "duration": 4.17
+    },
+    {
+        "text": "water change optically because of the",
+        "start": 223.41,
+        "duration": 4.919
+    },
+    {
+        "text": "index of refraction there so it's a very",
+        "start": 225.81,
+        "duration": 4.739
+    },
+    {
+        "text": "robust sensor it's actually hard to fool",
+        "start": 228.329,
+        "duration": 5.341
+    },
+    {
+        "text": "this because it's it's sort of sensing",
+        "start": 230.549,
+        "duration": 5.97
+    },
+    {
+        "text": "in this entire area of the cone here so",
+        "start": 233.67,
+        "duration": 4.56
+    },
+    {
+        "text": "the the level that the water has to come",
+        "start": 236.519,
+        "duration": 3.81
+    },
+    {
+        "text": "up to to make the light diminish to the",
+        "start": 238.23,
+        "duration": 4.4
+    },
+    {
+        "text": "threshold value is very repeatable and",
+        "start": 240.329,
+        "duration": 4.531
+    },
+    {
+        "text": "there's no moving parts in here and this",
+        "start": 242.63,
+        "duration": 4.419
+    },
+    {
+        "text": "thing is essentially sealed so there's",
+        "start": 244.86,
+        "duration": 4.409
+    },
+    {
+        "text": "it's it's a very high quality robust",
+        "start": 247.049,
+        "duration": 6.571
+    },
+    {
+        "text": "sensor you might notice a little bit of",
+        "start": 249.269,
+        "duration": 6.421
+    },
+    {
+        "text": "crud here this was installed in my",
+        "start": 253.62,
+        "duration": 4.14
+    },
+    {
+        "text": "aquarium and so there's a lot of calcium",
+        "start": 255.69,
+        "duration": 4.26
+    },
+    {
+        "text": "deposits and sort of dead algae on there",
+        "start": 257.76,
+        "duration": 3.779
+    },
+    {
+        "text": "surprisingly that doesn't even affect",
+        "start": 259.95,
+        "duration": 3.779
+    },
+    {
+        "text": "the sensor very much because the algae",
+        "start": 261.539,
+        "duration": 2.85
+    },
+    {
+        "text": "in the",
+        "start": 263.729,
+        "duration": 3.571
+    },
+    {
+        "text": "calcium deposits don't cause the light",
+        "start": 264.389,
+        "duration": 5.041
+    },
+    {
+        "text": "to be scattered away like the water so",
+        "start": 267.3,
+        "duration": 3.389
+    },
+    {
+        "text": "it doesn't cause the sensor to be",
+        "start": 269.43,
+        "duration": 4.889
+    },
+    {
+        "text": "sensitive to false positives so this",
+        "start": 270.689,
+        "duration": 5.371
+    },
+    {
+        "text": "type of fiber-optic has a one millimeter",
+        "start": 274.319,
+        "duration": 4.831
+    },
+    {
+        "text": "diameter acrylic core it's PMMA poly",
+        "start": 276.06,
+        "duration": 5.37
+    },
+    {
+        "text": "methyl methacrylate and then it has a",
+        "start": 279.15,
+        "duration": 4.019
+    },
+    {
+        "text": "jacket on the outside that's some other",
+        "start": 281.43,
+        "duration": 3.84
+    },
+    {
+        "text": "kind of plastic but it's very easy to",
+        "start": 283.169,
+        "duration": 3.72
+    },
+    {
+        "text": "snip this with a pair of scissors and",
+        "start": 285.27,
+        "duration": 5.1
+    },
+    {
+        "text": "then polish the end using sandpaper you",
+        "start": 286.889,
+        "duration": 5.881
+    },
+    {
+        "text": "can buy this type of fiber optic at you",
+        "start": 290.37,
+        "duration": 4.889
+    },
+    {
+        "text": "know Edmond scientific or a lot of the",
+        "start": 292.77,
+        "duration": 4.619
+    },
+    {
+        "text": "suppliers like that but you can also buy",
+        "start": 295.259,
+        "duration": 5.28
+    },
+    {
+        "text": "the cheap Toslink audio cables on ebay",
+        "start": 297.389,
+        "duration": 5.881
+    },
+    {
+        "text": "you can get really long cables for for",
+        "start": 300.539,
+        "duration": 5.041
+    },
+    {
+        "text": "very very cheap and if you cut one of",
+        "start": 303.27,
+        "duration": 4.019
+    },
+    {
+        "text": "those Toslink cables up you'll find that",
+        "start": 305.58,
+        "duration": 4.679
+    },
+    {
+        "text": "there's a much fatter outer rubber",
+        "start": 307.289,
+        "duration": 4.68
+    },
+    {
+        "text": "jacket and then inside it's basically",
+        "start": 310.259,
+        "duration": 4.111
+    },
+    {
+        "text": "the same as the stuff that I've got here",
+        "start": 311.969,
+        "duration": 4.2
+    },
+    {
+        "text": "at this point it's kind of the same",
+        "start": 314.37,
+        "duration": 5.759
+    },
+    {
+        "text": "thing and for the money I mean you",
+        "start": 316.169,
+        "duration": 6.02
+    },
+    {
+        "text": "really can't beat it this is what the",
+        "start": 320.129,
+        "duration": 4.29
+    },
+    {
+        "text": "Toslink end looks like and if you just",
+        "start": 322.189,
+        "duration": 3.461
+    },
+    {
+        "text": "chop that off that's what you've got",
+        "start": 324.419,
+        "duration": 4.17
+    },
+    {
+        "text": "inside I don't know if these are still",
+        "start": 325.65,
+        "duration": 5.939
+    },
+    {
+        "text": "available on eBay but for a while these",
+        "start": 328.589,
+        "duration": 5.25
+    },
+    {
+        "text": "are fairly cheap on there - and what you",
+        "start": 331.589,
+        "duration": 3.57
+    },
+    {
+        "text": "do is you just open this thing up and",
+        "start": 333.839,
+        "duration": 3.54
+    },
+    {
+        "text": "push the fibers in here and then clamp",
+        "start": 335.159,
+        "duration": 4.771
+    },
+    {
+        "text": "it shut and set your threshold and you",
+        "start": 337.379,
+        "duration": 4.231
+    },
+    {
+        "text": "do all kinds of interesting sensing with",
+        "start": 339.93,
+        "duration": 3.78
+    },
+    {
+        "text": "these so for example you can have the",
+        "start": 341.61,
+        "duration": 4.41
+    },
+    {
+        "text": "two fibers aiming out in the same",
+        "start": 343.71,
+        "duration": 4.489
+    },
+    {
+        "text": "direction and then if you've got like a",
+        "start": 346.02,
+        "duration": 5.1
+    },
+    {
+        "text": "an automated production line or",
+        "start": 348.199,
+        "duration": 5.291
+    },
+    {
+        "text": "something like that and you want to",
+        "start": 351.12,
+        "duration": 3.93
+    },
+    {
+        "text": "sense whether an object is going by you",
+        "start": 353.49,
+        "duration": 3.989
+    },
+    {
+        "text": "on the conveyor belt when the reflection",
+        "start": 355.05,
+        "duration": 3.929
+    },
+    {
+        "text": "hits the receiver fiber you can have",
+        "start": 357.479,
+        "duration": 4.68
+    },
+    {
+        "text": "this trigger something if you do want to",
+        "start": 358.979,
+        "duration": 5.49
+    },
+    {
+        "text": "prep the end of one of these fibers one",
+        "start": 362.159,
+        "duration": 3.69
+    },
+    {
+        "text": "thing that helps a lot you can just cut",
+        "start": 364.469,
+        "duration": 3.391
+    },
+    {
+        "text": "it with a pair of scissors and then if",
+        "start": 365.849,
+        "duration": 3.93
+    },
+    {
+        "text": "you make a polishing puck like this what",
+        "start": 367.86,
+        "duration": 4.169
+    },
+    {
+        "text": "you can do is put the the fiber through",
+        "start": 369.779,
+        "duration": 4.35
+    },
+    {
+        "text": "the polishing puck so that it's coming",
+        "start": 372.029,
+        "duration": 4.651
+    },
+    {
+        "text": "out the other end just slightly and then",
+        "start": 374.129,
+        "duration": 4.231
+    },
+    {
+        "text": "put that down onto a piece of sandpaper",
+        "start": 376.68,
+        "duration": 4.949
+    },
+    {
+        "text": "and with water move the puck around like",
+        "start": 378.36,
+        "duration": 5.459
+    },
+    {
+        "text": "this to polish the end of the fiber and",
+        "start": 381.629,
+        "duration": 3.96
+    },
+    {
+        "text": "the puck will make sure that the fiber",
+        "start": 383.819,
+        "duration": 3.9
+    },
+    {
+        "text": "stays perpendicular to the surface of",
+        "start": 385.589,
+        "duration": 4.021
+    },
+    {
+        "text": "the sandpaper and you can use just",
+        "start": 387.719,
+        "duration": 3.75
+    },
+    {
+        "text": "standard wet/dry sandpaper probably",
+        "start": 389.61,
+        "duration": 3.419
+    },
+    {
+        "text": "start with something fairly coarse like",
+        "start": 391.469,
+        "duration": 3.361
+    },
+    {
+        "text": "320 because when you cut this with a",
+        "start": 393.029,
+        "duration": 3.681
+    },
+    {
+        "text": "scissor you'll have a very rough edge",
+        "start": 394.83,
+        "duration": 4.36
+    },
+    {
+        "text": "and then work your way all the way up to",
+        "start": 396.71,
+        "duration": 5.25
+    },
+    {
+        "text": "1500 or even 600 these things are not",
+        "start": 399.19,
+        "duration": 5.65
+    },
+    {
+        "text": "super high optical quality the fact that",
+        "start": 401.96,
+        "duration": 4.47
+    },
+    {
+        "text": "the fiber is a whole millimeter in",
+        "start": 404.84,
+        "duration": 3.72
+    },
+    {
+        "text": "diameter means that you don't have to",
+        "start": 406.43,
+        "duration": 6.3
+    },
+    {
+        "text": "get very good and kind of see when I aim",
+        "start": 408.56,
+        "duration": 5.85
+    },
+    {
+        "text": "the fiber up the fluorescent light on",
+        "start": 412.73,
+        "duration": 2.88
+    },
+    {
+        "text": "the ceiling you can kind of see it",
+        "start": 414.41,
+        "duration": 4.58
+    },
+    {
+        "text": "coming out the end there",
+        "start": 415.61,
+        "duration": 3.38
+    },
+    {
+        "text": "these Qian's devices have an open",
+        "start": 419.38,
+        "duration": 4.9
+    },
+    {
+        "text": "collector output so what I did is I",
+        "start": 422.0,
+        "duration": 4.17
+    },
+    {
+        "text": "wired this up with a solid-state relay",
+        "start": 424.28,
+        "duration": 3.93
+    },
+    {
+        "text": "and the relay just triggers this",
+        "start": 426.17,
+        "duration": 4.23
+    },
+    {
+        "text": "electrical outlet here and inside here",
+        "start": 428.21,
+        "duration": 3.87
+    },
+    {
+        "text": "there's a low-voltage power supply these",
+        "start": 430.4,
+        "duration": 4.79
+    },
+    {
+        "text": "things will run 12 to 24 volts DC and",
+        "start": 432.08,
+        "duration": 7.35
+    },
+    {
+        "text": "the solid-state relay can accept 3 230",
+        "start": 435.19,
+        "duration": 6.4
+    },
+    {
+        "text": "volts on its input side so there's",
+        "start": 439.43,
+        "duration": 3.42
+    },
+    {
+        "text": "really very little circuitry inside",
+        "start": 441.59,
+        "duration": 4.14
+    },
+    {
+        "text": "there there's just an AC power cord and",
+        "start": 442.85,
+        "duration": 7.62
+    },
+    {
+        "text": "then the fiber optics alright hope that",
+        "start": 445.73,
+        "duration": 5.43
+    },
+    {
+        "text": "was helpful",
+        "start": 450.47,
+        "duration": 4.19
+    },
+    {
+        "text": "see you next time bye",
+        "start": 451.16,
+        "duration": 3.5
+    }
+]

@@ -1,0 +1,982 @@
+[
+    {
+        "text": "Well, so a few weeks ago we had a Numberphile video",
+        "start": 0.0,
+        "duration": 2.04
+    },
+    {
+        "text": "where I reported on the discovery of 42 as a sum of three cubes.",
+        "start": 2.62,
+        "duration": 4.97
+    },
+    {
+        "text": "(Brady: There it is! I can see it.)",
+        "start": 7.59,
+        "duration": 0.91
+    },
+    {
+        "text": "Oh yep , yep.",
+        "start": 8.5,
+        "duration": 1.52
+    },
+    {
+        "text": "So in that video I said that we're gonna have a go at finding a representation for three.",
+        "start": 10.6,
+        "duration": 4.62
+    },
+    {
+        "text": "We're gonna throw everything that we have at it and we'll see.",
+        "start": 15.7,
+        "duration": 2.3
+    },
+    {
+        "text": "But, with this kinda thing you never know",
+        "start": 18.0,
+        "duration": 2.18
+    },
+    {
+        "text": "It's a once-in-a-generation kinda thing",
+        "start": 20.18,
+        "duration": 2.06
+    },
+    {
+        "text": "Okay, and before anyone expected it, it just popped out.",
+        "start": 22.44,
+        "duration": 4.14
+    },
+    {
+        "text": "(Brady: You've got it?)",
+        "start": 26.58,
+        "duration": 1.04
+    },
+    {
+        "text": "We've got it, yep.",
+        "start": 27.62,
+        "duration": 1.94
+    },
+    {
+        "text": "(Brady: Three was already known as a sum of three cubes, wasn't it? In in a couple of ways?)",
+        "start": 29.56,
+        "duration": 2.9
+    },
+    {
+        "text": "That's right.",
+        "start": 32.46,
+        "duration": 0.68
+    },
+    {
+        "text": "Should I write that down?",
+        "start": 33.24,
+        "duration": 1.229
+    },
+    {
+        "text": "(Brady: Yeah, all right.)",
+        "start": 34.469,
+        "duration": 0.571
+    },
+    {
+        "text": "3 had two known representations as a sum of three cubes:",
+        "start": 35.04,
+        "duration": 4.28
+    },
+    {
+        "text": "1 cubed, plus 1 cubed, plus 1 cubed and also",
+        "start": 39.32,
+        "duration": 4.14
+    },
+    {
+        "text": "4 cubed, plus 4 cubed, plus negative 5 cubed.",
+        "start": 44.22,
+        "duration": 5.3
+    },
+    {
+        "text": "So both of them single digits.",
+        "start": 49.52,
+        "duration": 1.225
+    },
+    {
+        "text": "This was the problem that kicked it all off.",
+        "start": 50.745,
+        "duration": 1.755
+    },
+    {
+        "text": "So it was in 1953 that Mordell asked,",
+        "start": 52.719,
+        "duration": 3.29
+    },
+    {
+        "text": "kind of as an offhand remark actually in the middle of a paper about something else,",
+        "start": 56.5,
+        "duration": 3.709
+    },
+    {
+        "text": "he says I don't know anything about the solutions of",
+        "start": 60.48,
+        "duration": 2.43
+    },
+    {
+        "text": "this problem, you know, other than the",
+        "start": 63.43,
+        "duration": 2.0
+    },
+    {
+        "text": "two easy ones, and it must be very hard indeed to say anything about other",
+        "start": 65.799,
+        "duration": 4.28
+    },
+    {
+        "text": "possible solutions. That turned out to be an understatement because it took 66 years to find the next one. And it has a couple numbers",
+        "start": 70.18,
+        "duration": 6.799
+    },
+    {
+        "text": "with 21 digits. Two of them have 21 digits and the other one has 18.",
+        "start": 76.98,
+        "duration": 4.2
+    },
+    {
+        "text": "(Brady: We should point out, there are some numbers that can never be found.)",
+        "start": 81.42,
+        "duration": 2.92
+    },
+    {
+        "text": "That's right",
+        "start": 84.76,
+        "duration": 0.58
+    },
+    {
+        "text": "So, if your number - if you divide it by nine and you get a remainder of four or five",
+        "start": 85.34,
+        "duration": 4.74
+    },
+    {
+        "text": "then we know you can't do it.",
+        "start": 90.08,
+        "duration": 1.38
+    },
+    {
+        "text": "So 4, 5, 13, 14 et cetera.",
+        "start": 91.64,
+        "duration": 3.86
+    },
+    {
+        "text": "(Brady: But the others?)",
+        "start": 95.514,
+        "duration": 1.216
+    },
+    {
+        "text": "It's expected; there's a conjecture that says that there ought to be infinitely many representations as a sum of three cubes.",
+        "start": 96.73,
+        "duration": 5.65
+    },
+    {
+        "text": "(But it's not proven!)",
+        "start": 103.08,
+        "duration": 1.1
+    },
+    {
+        "text": "No, it's not proven, well,",
+        "start": 104.18,
+        "duration": 0.6
+    },
+    {
+        "text": "so there are a few numbers for which it is and I think Tim talked about this in the very first video.",
+        "start": 104.79,
+        "duration": 4.649
+    },
+    {
+        "text": "You can write down parametric families for the number 1,",
+        "start": 109.659,
+        "duration": 2.72
+    },
+    {
+        "text": "or 2.",
+        "start": 112.899,
+        "duration": 1.441
+    },
+    {
+        "text": "Okay, but starting from 3 and many numbers have no such parametric families that we know of and we don't expect them.",
+        "start": 114.34,
+        "duration": 6.08
+    },
+    {
+        "text": "Nevertheless we think that there are infinitely many solutions. They're just kind of sporadic.",
+        "start": 120.42,
+        "duration": 4.34
+    },
+    {
+        "text": "(Brady: So the conjecture is every number other than that special class has infinite number of ways to express it as a sum of three cubes?)",
+        "start": 124.76,
+        "duration": 9.22
+    },
+    {
+        "text": "That's right, and there's even, kind of a conjectured density. So",
+        "start": 134.02,
+        "duration": 4.38
+    },
+    {
+        "text": "we expect, you know, there's a formula for how many we expect roughly up to a certain number of digits.",
+        "start": 138.41,
+        "duration": 5.779
+    },
+    {
+        "text": "What's special about three is that it has the lowest expected density of any number up to 100.",
+        "start": 144.38,
+        "duration": 4.159
+    },
+    {
+        "text": "So it's not so surprising that this one was hard.",
+        "start": 148.54,
+        "duration": 2.4
+    },
+    {
+        "text": "Nevertheless, we did have to go much further than we would have expected to find the third solution.",
+        "start": 151.94,
+        "duration": 5.84
+    },
+    {
+        "text": "(Brady: And just quickly, how did you find this new one for 3? The same way you found 42?)",
+        "start": 157.78,
+        "duration": 4.18
+    },
+    {
+        "text": "Yeah, pretty similar. There are, it turns out, there's some optimisations that are specific to the number 3 that we could do and",
+        "start": 161.96,
+        "duration": 5.36
+    },
+    {
+        "text": "more or less that let us go another order of magnitude",
+        "start": 167.86,
+        "duration": 2.24
+    },
+    {
+        "text": "for free,",
+        "start": 170.959,
+        "duration": 1.411
+    },
+    {
+        "text": "you know over what we could do for 42, and so it was about the same size computation",
+        "start": 172.37,
+        "duration": 3.919
+    },
+    {
+        "text": "as for 42. \n- (Brady: And you used this big network, this Charity Engine network?)",
+        "start": 177.17,
+        "duration": 3.68
+    },
+    {
+        "text": "Yeah",
+        "start": 180.85,
+        "duration": 0.48
+    },
+    {
+        "text": "we used Charity engine and",
+        "start": 181.33,
+        "duration": 1.84
+    },
+    {
+        "text": "to be honest, we have yet to throw anything at the Charity Engine guys that caused them to break a sweat",
+        "start": 183.17,
+        "duration": 4.61
+    },
+    {
+        "text": "so I sent an email with a new version of the code, around noon on a Monday and",
+        "start": 188.6,
+        "duration": 6.169
+    },
+    {
+        "text": "seven hours later I got this in the, the email with the solution. Partly that was down to luck",
+        "start": 195.769,
+        "duration": 4.73
+    },
+    {
+        "text": "but also partly because you know Charity Engine's network is big. I was in band rehearsal and you know,",
+        "start": 200.5,
+        "duration": 6.299
+    },
+    {
+        "text": "just during break time I checked on my phone and saw it there and I was really excited.",
+        "start": 206.799,
+        "duration": 4.56
+    },
+    {
+        "text": "I'm pretty sure my band mates think I'm a complete nutter now. \n- (Brady: Did you tell them? Did you tell your bandmates?)",
+        "start": 212.12,
+        "duration": 5.3
+    },
+    {
+        "text": "Well, not all of them. Just the the ones near me. I tried to explain a bit.",
+        "start": 217.42,
+        "duration": 3.569
+    },
+    {
+        "text": "(Brady: Did they - are any of the mathematicians or were they like - ?)\n- No, no.",
+        "start": 221.18,
+        "duration": 3.02
+    },
+    {
+        "text": "(So they were just like, okay.)\n- Yeah, whatever Andy, yeah",
+        "start": 224.84,
+        "duration": 3.589
+    },
+    {
+        "text": "(Why is this significant?)",
+        "start": 230.15,
+        "duration": 1.55
+    },
+    {
+        "text": "(It seems like you mean - you're just knocking off one number at a time and one new solution at a time this like, you know, this)",
+        "start": 231.73,
+        "duration": 4.86
+    },
+    {
+        "text": "(could go forever. Why was 3 worth even doing?)\n- That's right.",
+        "start": 236.59,
+        "duration": 4.169
+    },
+    {
+        "text": "Well, I mean partly it's for historical reasons because that this is the problem that kicked off the whole thing",
+        "start": 240.76,
+        "duration": 3.96
+    },
+    {
+        "text": "and it's very satisfying to them to be able to solve this.",
+        "start": 244.82,
+        "duration": 3.139
+    },
+    {
+        "text": "There are theoretical reasons too. So this touches on something called Hilbert's tenth problem.",
+        "start": 248.09,
+        "duration": 4.699
+    },
+    {
+        "text": "So Hilbert made a famous list of 23 problems at the beginning of the 20th century, you know, kind of",
+        "start": 252.79,
+        "duration": 5.43
+    },
+    {
+        "text": "outlining his vision for mathematics in the coming century. Number 10 on the list was to find a way of telling if",
+        "start": 259.72,
+        "duration": 6.32
+    },
+    {
+        "text": "any given Diophantine equation has a solution or not.",
+        "start": 266.29,
+        "duration": 3.709
+    },
+    {
+        "text": "So that's just a polynomial equation and you're looking for integer solutions. At first glance this seems pretty reasonable.",
+        "start": 270.0,
+        "duration": 4.98
+    },
+    {
+        "text": "So in school you learn how to solve",
+        "start": 274.98,
+        "duration": 2.0
+    },
+    {
+        "text": "linear equations and quadratic equations. At university you take it up to any number of variables",
+        "start": 277.09,
+        "duration": 5.66
+    },
+    {
+        "text": "but",
+        "start": 283.93,
+        "duration": 1.02
+    },
+    {
+        "text": "it turns out - so this is one of Hilbert's problems that's solved now.",
+        "start": 284.95,
+        "duration": 2.869
+    },
+    {
+        "text": "But probably not in the way that Hilbert envisioned at all. So it's solved in the sense that we know it's impossible. Okay, so",
+        "start": 288.04,
+        "duration": 6.26
+    },
+    {
+        "text": "for general Diophantine equations, it's not always possible to solve them.",
+        "start": 294.88,
+        "duration": 4.01
+    },
+    {
+        "text": "So there can be Diophantine equations out there that have no integer solutions,",
+        "start": 298.89,
+        "duration": 4.38
+    },
+    {
+        "text": "but also no way of proving that fact. And",
+        "start": 303.49,
+        "duration": 2.569
+    },
+    {
+        "text": "what makes this example of the sum of three cubes really interesting is it's, you know,",
+        "start": 306.19,
+        "duration": 4.339
+    },
+    {
+        "text": "right at the sweet spot for being a difficult problem along these lines. On the one hand it's very close to things that,",
+        "start": 310.53,
+        "duration": 5.61
+    },
+    {
+        "text": "that are relatively easy that we understand.",
+        "start": 316.99,
+        "duration": 2.479
+    },
+    {
+        "text": "For instance if instead of three cubes you had three squares, right?",
+        "start": 320.2,
+        "duration": 3.89
+    },
+    {
+        "text": "Then we have a complete characterisation of those numbers that can be written as a sum of three squares.",
+        "start": 324.34,
+        "duration": 3.709
+    },
+    {
+        "text": "In fact, that's a famous theorem from the end of the eighteenth century",
+        "start": 328.05,
+        "duration": 2.129
+    },
+    {
+        "text": "of Legendre. Or",
+        "start": 330.73,
+        "duration": 2.0
+    },
+    {
+        "text": "if instead of three cubes, I had two cubes and then again, we have a characterisation of those numbers. And likewise",
+        "start": 332.77,
+        "duration": 4.969
+    },
+    {
+        "text": "I think if you have more cubes then it's not completely solved for four cubes, but there's, there's lots of progress.",
+        "start": 337.74,
+        "duration": 4.74
+    },
+    {
+        "text": "It's, it's three cubes where it",
+        "start": 342.79,
+        "duration": 2.0
+    },
+    {
+        "text": "really turns out to be difficult and really nobody has any idea how to attack this theoretically.\n- (Brady: Andrew I can see why 42 was)",
+        "start": 344.8,
+        "duration": 6.679
+    },
+    {
+        "text": "(fun to do because it's 42 and it was the last one below 100.)",
+        "start": 352.03,
+        "duration": 4.01
+    },
+    {
+        "text": "- Yeah\n- (And I can see why 3 was worth doing because it has this)",
+        "start": 356.04,
+        "duration": 3.449
+    },
+    {
+        "text": "(historical niceness to it, it's where it all started. But for how long can you just keep picking off these solutions?)",
+        "start": 360.13,
+        "duration": 5.119
+    },
+    {
+        "text": "(I mean when do you, when does all the attention turn to a concrete proof? )\n- That's right. So,",
+        "start": 365.37,
+        "duration": 4.5
+    },
+    {
+        "text": "yeah, the problem is for, given all that we know now, this might be the only thing that we could do.",
+        "start": 370.9,
+        "duration": 5.329
+    },
+    {
+        "text": "So as far as anyone knows there could be a Diophantine equation of this type. You know, for instance 114.",
+        "start": 376.9,
+        "duration": 5.509
+    },
+    {
+        "text": "That's the next number we don't know. Does it have a representation as a sum of three cubes?",
+        "start": 382.48,
+        "duration": 3.86
+    },
+    {
+        "text": "It's conceivable that the answer is no but also that there's no way to prove that.",
+        "start": 386.44,
+        "duration": 3.89
+    },
+    {
+        "text": "So it's a little dissatisfying but, you know, that could be the case. And we don't think that's the case,",
+        "start": 390.88,
+        "duration": 4.16
+    },
+    {
+        "text": "we think that if you look long enough",
+        "start": 395.04,
+        "duration": 1.9
+    },
+    {
+        "text": "that you will find a solution.",
+        "start": 396.94,
+        "duration": 2.0
+    },
+    {
+        "text": "But nobody knows for sure. And even that in itself could be an",
+        "start": 399.34,
+        "duration": 3.589
+    },
+    {
+        "text": "undecidable problem; does every number that we think should have a representation have such a representation?",
+        "start": 403.45,
+        "duration": 4.009
+    },
+    {
+        "text": "I always get very confused when I go, you know down this rabbit hole it goes very deep.",
+        "start": 407.47,
+        "duration": 4.309
+    },
+    {
+        "text": "(Brady: But where do you stop? I mean are you searching for 114 now, with Charity Engine?)",
+        "start": 412.0,
+        "duration": 3.6
+    },
+    {
+        "text": "We are going to. So, you know, every time I think we're finished with this then we find it,",
+        "start": 415.6,
+        "duration": 4.279
+    },
+    {
+        "text": "we think of a few more things that, that we can do. So we are going to have a go,",
+        "start": 419.88,
+        "duration": 4.109
+    },
+    {
+        "text": "actually, I haven't said yet, we found another - found a representation for 906. So that knocked another number off the list,",
+        "start": 423.99,
+        "duration": 5.97
+    },
+    {
+        "text": "we're down to nine up to 1000. But I should say,",
+        "start": 429.96,
+        "duration": 3.809
+    },
+    {
+        "text": "yeah, I'm quite skeptical that we're gonna solve all of the nine remaining ones up to 1000 anytime soon.",
+        "start": 433.77,
+        "duration": 5.069
+    },
+    {
+        "text": "(Brady: But is there a point just continually knocking these off the list if you think they've all got one anyway?)",
+        "start": 439.57,
+        "duration": 5.03
+    },
+    {
+        "text": "(Shouldn't all the energy be going into the proof? Are you working on the proof, or is that not your area?)",
+        "start": 444.6,
+        "duration": 4.64
+    },
+    {
+        "text": "That's not my area. I am somewhat sympathetic to this, yes.",
+        "start": 449.32,
+        "duration": 2.86
+    },
+    {
+        "text": "So the point is to go until you're pretty sure of what is true. I think we're at that point. For a while",
+        "start": 452.19,
+        "duration": 5.52
+    },
+    {
+        "text": "that wasn't always the case, right?",
+        "start": 457.71,
+        "duration": 2.0
+    },
+    {
+        "text": "There was maybe 30 years where",
+        "start": 459.76,
+        "duration": 2.45
+    },
+    {
+        "text": "many people thought that maybe",
+        "start": 463.66,
+        "duration": 2.0
+    },
+    {
+        "text": "this wasn't true.",
+        "start": 466.24,
+        "duration": 0.95
+    },
+    {
+        "text": "You know that there weren't any more representations for 3, or there weren't any for some of the the other small numbers 33, 42, etc.",
+        "start": 467.19,
+        "duration": 7.799
+    },
+    {
+        "text": "Now, we're pretty sure that",
+        "start": 475.63,
+        "duration": 1.95
+    },
+    {
+        "text": "that Heath-Brown's conjecture, that says there are infinitely many is true,",
+        "start": 477.58,
+        "duration": 4.13
+    },
+    {
+        "text": "we have good evidence for that now, and so at least we're trying to prove the right thing.",
+        "start": 481.71,
+        "duration": 4.679
+    },
+    {
+        "text": "(Brady: You probably saw in the last video, lots of people say 'this is cool, but what's what's the point of - to keep doing this?')",
+        "start": 486.97,
+        "duration": 5.929
+    },
+    {
+        "text": "(Why are you keeping doing it? You say you're pretty confident it's true, this computational power could be used for other things)",
+        "start": 492.9,
+        "duration": 6.63
+    },
+    {
+        "text": "(Why keep knocking the numbers off the list - just for completeness?)\n- Yeah, so we are gonna stop eventually. Mostly",
+        "start": 499.96,
+        "duration": 5.959
+    },
+    {
+        "text": "it's just a bit of fun, yeah. And",
+        "start": 505.92,
+        "duration": 2.069
+    },
+    {
+        "text": "the historical reasons for 3 and the numbers up to 100. That's right. \n- (Brady: And you want to finish that 1000 list, right?)",
+        "start": 508.57,
+        "duration": 6.649
+    },
+    {
+        "text": "Honestly Brady, I'm not sure that I'll live long enough to see the 1000 done. \n- (Really?)\n- Yeah",
+        "start": 516.34,
+        "duration": 4.819
+    },
+    {
+        "text": "Well, I've had discussions about this with my daughter too - yeah. It's a bit fatalistic, but yeah.",
+        "start": 521.19,
+        "duration": 3.96
+    },
+    {
+        "text": "She might live to see it but - but I probably won't, yeah. \n- (Brady: I don't know, last time)",
+        "start": 526.06,
+        "duration": 4.309
+    },
+    {
+        "text": "(we spoke about 3 and within days you'd found it. Why do the remaining nine ones below 1000 have to be so unobtainable?)",
+        "start": 530.37,
+        "duration": 6.479
+    },
+    {
+        "text": "(Couldn't they just be a similar number of digits? Or do you think one of them has to have - )\n- It's possible, but so I talked",
+        "start": 536.86,
+        "duration": 5.21
+    },
+    {
+        "text": "about this conjectured density, right, and for some of these numbers,",
+        "start": 542.07,
+        "duration": 3.39
+    },
+    {
+        "text": "I'd have to look up - I think it was 390 that has the lowest density - it's really small.",
+        "start": 546.16,
+        "duration": 4.1
+    },
+    {
+        "text": "And if you haven't found one by a certain point",
+        "start": 550.78,
+        "duration": 2.089
+    },
+    {
+        "text": "well, it's kind of like, you know",
+        "start": 553.9,
+        "duration": 1.34
+    },
+    {
+        "text": "if you expect your bus every 10 minutes, if it's supposed to come every 10 minutes,",
+        "start": 555.24,
+        "duration": 3.869
+    },
+    {
+        "text": "then you've been standing there 20 minutes at the bus stop. You still expect to wait another 10 minutes, right?",
+        "start": 559.11,
+        "duration": 4.59
+    },
+    {
+        "text": "It's that kind of thing. So where it's very likely that we'll have to go another",
+        "start": 563.74,
+        "duration": 4.82
+    },
+    {
+        "text": "7, 8, you know, maybe more digits further than we have up to up to now to find a representation for",
+        "start": 569.38,
+        "duration": 7.4
+    },
+    {
+        "text": "390.\n- (Brady: Where's the next 3 likely to be? Next one for 3?)\n- That also I'm not expecting to see anytime soon.",
+        "start": 577.63,
+        "duration": 6.53
+    },
+    {
+        "text": "Yeah, so we expect the solutions for 3 on average to get about seven digits longer",
+        "start": 584.19,
+        "duration": 4.38
+    },
+    {
+        "text": "with each new solution. \n- (Brady: I notice always they, the three numbers always have a similar number of digits.)\n- Mm-hmm",
+        "start": 589.39,
+        "duration": 6.32
+    },
+    {
+        "text": "(Is that - )\n- So this one was a little peculiar. So it was quite extreme,",
+        "start": 595.77,
+        "duration": 4.589
+    },
+    {
+        "text": "well, it was very skewed.",
+        "start": 601.51,
+        "duration": 1.25
+    },
+    {
+        "text": "So the the first two numbers were nearly equal in size,",
+        "start": 602.76,
+        "duration": 3.089
+    },
+    {
+        "text": "but opposite in sign. So that they, they almost cancel each other out. And then the third variable was small,",
+        "start": 606.25,
+        "duration": 4.969
+    },
+    {
+        "text": "right, just to make up the difference.",
+        "start": 611.38,
+        "duration": 2.0
+    },
+    {
+        "text": "That happens a fair amount of time actually.",
+        "start": 613.39,
+        "duration": 2.989
+    },
+    {
+        "text": "So one feature of the new algorithm that we're using, as opposed to earlier attempts,",
+        "start": 616.45,
+        "duration": 3.559
+    },
+    {
+        "text": "is that it only matters what the size of the smallest number is, right?",
+        "start": 620.01,
+        "duration": 3.51
+    },
+    {
+        "text": "So if we had to do a search that went all the way out to finding the biggest numbers",
+        "start": 623.52,
+        "duration": 3.51
+    },
+    {
+        "text": "then we wouldn't been able to do it - with the technology we have now.",
+        "start": 627.03,
+        "duration": 2.609
+    },
+    {
+        "text": "(Brady: Is it possible there's a solution for 3 with smaller numbers that you've brushed past?)",
+        "start": 629.92,
+        "duration": 6.02
+    },
+    {
+        "text": "It's possible. Depends on what you mean by smaller. So there shouldn't be any",
+        "start": 636.19,
+        "duration": 3.169
+    },
+    {
+        "text": "with the smallest number - smaller than the one we found. But because the first two numbers are so enormous,",
+        "start": 640.03,
+        "duration": 6.229
+    },
+    {
+        "text": "in the solution that we found, that it is conceivable that there's a solution where",
+        "start": 647.05,
+        "duration": 3.479
+    },
+    {
+        "text": "the total digit size over all the numbers is smaller. Yeah. \n- (Brady: How are you feeling about this?)\n- I, I feel pretty good.",
+        "start": 650.69,
+        "duration": 5.929
+    },
+    {
+        "text": "Yeah, it's quite satisfying",
+        "start": 656.62,
+        "duration": 1.96
+    },
+    {
+        "text": "and I think we're nearing a sense of closure on this problem. But let me turn it around and ask how you feel, Brady.",
+        "start": 658.58,
+        "duration": 5.809
+    },
+    {
+        "text": "(Brady: Well, I know the Numberphile video)",
+        "start": 664.52,
+        "duration": 2.75
+    },
+    {
+        "text": "(like, nudged you to look into this. So I feel like)",
+        "start": 667.91,
+        "duration": 3.169
+    },
+    {
+        "text": "(like - like some sort of 0.001% involved, or - )",
+        "start": 671.78,
+        "duration": 2.779
+    },
+    {
+        "text": "Oh come on you're being modest. So I would say that Numberphile's",
+        "start": 676.61,
+        "duration": 4.19
+    },
+    {
+        "text": "contribution has been as important as mine or anyone else's who's worked on this.",
+        "start": 681.5,
+        "duration": 4.429
+    },
+    {
+        "text": "So, in fact each video gave us just the boost that we needed to, and to tackle the next challenge.",
+        "start": 686.84,
+        "duration": 4.46
+    },
+    {
+        "text": "Starting with the first one, you know, with Tim Browning -",
+        "start": 692.24,
+        "duration": 2.06
+    },
+    {
+        "text": "[Previous video] (Brady: I mean, maybe this number doesn't belong on the list. Why is the number on the list if we haven't got a solution?)",
+        "start": 694.3,
+        "duration": 5.5
+    },
+    {
+        "text": "Tim: That's a very good question and there have been some attempts to prove that this number isn't on the list, but, those attempts have failed.",
+        "start": 699.82,
+        "duration": 7.92
+    },
+    {
+        "text": "That, that got Sander Huisman's attention, who ran a bigger search and found 74.",
+        "start": 707.9,
+        "duration": 4.78
+    },
+    {
+        "text": "[Previous video] This guy, Sander Huisman, has gone away and calculated a new solution to one integer",
+        "start": 712.68,
+        "duration": 4.7
+    },
+    {
+        "text": "that was previously unknown whether it was the sum of three cubes or not.",
+        "start": 717.38,
+        "duration": 3.12
+    },
+    {
+        "text": "And then it was that video on that, on 74 that really got me into it and we found 33.",
+        "start": 720.5,
+        "duration": 5.66
+    },
+    {
+        "text": "We found three integers whose cubes sum to 33. There's always another number, for us the next one is 42.",
+        "start": 726.16,
+        "duration": 5.9
+    },
+    {
+        "text": "And then, you know the publicity around that, and with the video on 33 - that",
+        "start": 732.16,
+        "duration": 4.58
+    },
+    {
+        "text": "attracted the attention of Charity Engine and",
+        "start": 737.69,
+        "duration": 2.419
+    },
+    {
+        "text": "Andrew Sutherland also, and we've just",
+        "start": 740.87,
+        "duration": 2.03
+    },
+    {
+        "text": "pushed further and further. So it's you know, it's been kind of a domino effect. A highly improbable sequence of events.",
+        "start": 743.5,
+        "duration": 5.36
+    },
+    {
+        "text": "(Brady: What about that elusive, like, rigorous proof though?)",
+        "start": 749.0,
+        "duration": 3.76
+    },
+    {
+        "text": "Yeah that takes",
+        "start": 752.76,
+        "duration": 1.94
+    },
+    {
+        "text": "mathematicians who work in",
+        "start": 754.72,
+        "duration": 2.0
+    },
+    {
+        "text": "Diophantine equations; algebraic geometry to focus harder on this. That's not something you can predict,",
+        "start": 756.86,
+        "duration": 5.93
+    },
+    {
+        "text": "so it takes a new idea, beyond, you know, an idea that no one has ever had, to solve equations like this theoretically.",
+        "start": 762.79,
+        "duration": 6.779
+    },
+    {
+        "text": "(Brady: Do you have any correspondence with those sort of people? Like will you tell them about this new number and hope to)",
+        "start": 770.09,
+        "duration": 4.7
+    },
+    {
+        "text": "encourage them and - )\n- Umm Tim Browning is the closest, yeah.",
+        "start": 774.79,
+        "duration": 3.059
+    },
+    {
+        "text": "(Brady: We'll get in touch with him. Get him on the case)",
+        "start": 778.76,
+        "duration": 3.28
+    },
+    {
+        "text": "Yeah, so maybe we'll look for the next - for the Parker square now, or something like that.",
+        "start": 782.36,
+        "duration": 4.26
+    },
+    {
+        "text": "You can get yourself a 42 t-shirt or hoodie from our merch store,",
+        "start": 789.379,
+        "duration": 4.01
+    },
+    {
+        "text": "see the links in the usual spots. And also thanks to our Patreon supporters,",
+        "start": 793.55,
+        "duration": 4.309
+    },
+    {
+        "text": "42 of whom - some of them randomly selected - are being sent one of these",
+        "start": 798.259,
+        "duration": 4.67
+    },
+    {
+        "text": "42 mementos signed by Andrew himself.",
+        "start": 803.3,
+        "duration": 3.229
+    },
+    {
+        "text": "This is one seriously nerdy collector's item. You can support us at patreon.com/numberphile",
+        "start": 807.139,
+        "duration": 6.861
+    },
+    {
+        "text": "We're always trying to do new little extra things to show our appreciation",
+        "start": 814.0,
+        "duration": 3.508
+    }
+]

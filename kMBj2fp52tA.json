@@ -1,0 +1,2057 @@
+[
+    {
+        "text": "I wanted to show you a bunch of",
+        "start": 4.56,
+        "duration": 1.44
+    },
+    {
+        "text": "interesting curves that you can draw; and",
+        "start": 6.0,
+        "duration": 2.32
+    },
+    {
+        "text": "actually I wanted to get my plotter",
+        "start": 8.32,
+        "duration": 1.44
+    },
+    {
+        "text": "machine",
+        "start": 9.76,
+        "duration": 0.959
+    },
+    {
+        "text": "working on some Numberphile brown",
+        "start": 10.719,
+        "duration": 2.0
+    },
+    {
+        "text": "paper and do some of the drawing for us.",
+        "start": 12.719,
+        "duration": 2.481
+    },
+    {
+        "text": "Well I wanted to talk a bit about",
+        "start": 15.2,
+        "duration": 1.6
+    },
+    {
+        "text": "something called turtle graphics - which",
+        "start": 16.8,
+        "duration": 2.16
+    },
+    {
+        "text": "is something you said you're familiar",
+        "start": 18.96,
+        "duration": 1.36
+    },
+    {
+        "text": "with from school right?",
+        "start": 20.32,
+        "duration": 2.08
+    },
+    {
+        "text": "Where you",
+        "start": 22.4,
+        "duration": 1.36
+    },
+    {
+        "text": "are basically controlling a little",
+        "start": 23.76,
+        "duration": 1.839
+    },
+    {
+        "text": "turtle robot as it moves around on",
+        "start": 25.599,
+        "duration": 2.0
+    },
+    {
+        "text": "screen drawing pictures. What are the",
+        "start": 27.599,
+        "duration": 2.161
+    },
+    {
+        "text": "instructions you can give to the turtle?",
+        "start": 29.76,
+        "duration": 2.479
+    },
+    {
+        "text": "You can go forward some distance - d, say.",
+        "start": 32.239,
+        "duration": 4.121
+    },
+    {
+        "text": "You can turn an angle",
+        "start": 37.36,
+        "duration": 3.199
+    },
+    {
+        "text": "theta,",
+        "start": 40.559,
+        "duration": 1.121
+    },
+    {
+        "text": "and then the other thing you can do is",
+        "start": 41.68,
+        "duration": 1.84
+    },
+    {
+        "text": "you can say pen",
+        "start": 43.52,
+        "duration": 1.92
+    },
+    {
+        "text": "down",
+        "start": 45.44,
+        "duration": 2.0
+    },
+    {
+        "text": "and pen up.",
+        "start": 47.44,
+        "duration": 1.279
+    },
+    {
+        "text": "Pen down is you're imagining this little",
+        "start": 48.719,
+        "duration": 2.48
+    },
+    {
+        "text": "turtle has a pen in the middle of it",
+        "start": 51.199,
+        "duration": 2.721
+    },
+    {
+        "text": "and when pen is down and it goes forward",
+        "start": 53.92,
+        "duration": 2.639
+    },
+    {
+        "text": "it will end up drawing a line as it",
+        "start": 56.559,
+        "duration": 1.601
+    },
+    {
+        "text": "moves;",
+        "start": 58.16,
+        "duration": 0.879
+    },
+    {
+        "text": "but if the pen is up it will just move",
+        "start": 59.039,
+        "duration": 1.601
+    },
+    {
+        "text": "over to that new location no line drawn.",
+        "start": 60.64,
+        "duration": 2.64
+    },
+    {
+        "text": "So you do like a little example I",
+        "start": 63.28,
+        "duration": 1.599
+    },
+    {
+        "text": "suppose of a simple program that you",
+        "start": 64.879,
+        "duration": 2.001
+    },
+    {
+        "text": "might give the turtle; we'll start",
+        "start": 66.88,
+        "duration": 2.08
+    },
+    {
+        "text": "we'll go forward",
+        "start": 68.96,
+        "duration": 1.839
+    },
+    {
+        "text": "1 unit,",
+        "start": 70.799,
+        "duration": 2.081
+    },
+    {
+        "text": "I will turn",
+        "start": 72.88,
+        "duration": 2.16
+    },
+    {
+        "text": "90 degrees,",
+        "start": 75.04,
+        "duration": 2.48
+    },
+    {
+        "text": "forward 1,",
+        "start": 77.52,
+        "duration": 2.08
+    },
+    {
+        "text": "turn",
+        "start": 79.6,
+        "duration": 1.28
+    },
+    {
+        "text": "90 degrees,",
+        "start": 80.88,
+        "duration": 1.36
+    },
+    {
+        "text": "forward 1",
+        "start": 82.24,
+        "duration": 1.63
+    },
+    {
+        "text": "turn",
+        "start": 84.159,
+        "duration": 1.121
+    },
+    {
+        "text": "90 degrees,",
+        "start": 85.28,
+        "duration": 1.519
+    },
+    {
+        "text": "forward 1.",
+        "start": 86.799,
+        "duration": 1.768
+    },
+    {
+        "text": "(Brady: Even I know what's going on there)",
+        "start": 88.567,
+        "duration": 1.433
+    },
+    {
+        "text": "Yeah?\n- (I reckon you've drawn a square)",
+        "start": 90.0,
+        "duration": 2.33
+    },
+    {
+        "text": "Yeah. I think so. Shall we check?\n- (All right)",
+        "start": 92.6,
+        "duration": 3.64
+    },
+    {
+        "text": "Cool. So I've made this little turtle",
+        "start": 96.24,
+        "duration": 2.64
+    },
+    {
+        "text": "thing out of a",
+        "start": 98.88,
+        "duration": 1.52
+    },
+    {
+        "text": "top of a pringles can, a can of",
+        "start": 100.4,
+        "duration": 2.24
+    },
+    {
+        "text": "hyperbolic paraboloids. Our first",
+        "start": 102.64,
+        "duration": 1.759
+    },
+    {
+        "text": "instruction was forward 1, that means",
+        "start": 104.399,
+        "duration": 2.0
+    },
+    {
+        "text": "we're going to end up there; and the pen",
+        "start": 106.399,
+        "duration": 1.68
+    },
+    {
+        "text": "was down so we've\ndrawn that line behind it.",
+        "start": 108.079,
+        "duration": 2.45
+    },
+    {
+        "text": "And now we're turning 90 degrees",
+        "start": 111.28,
+        "duration": 2.479
+    },
+    {
+        "text": "which would be like this. So our new",
+        "start": 113.759,
+        "duration": 2.161
+    },
+    {
+        "text": "point is going to be there when we go",
+        "start": 115.92,
+        "duration": 1.92
+    },
+    {
+        "text": "forward 1,",
+        "start": 117.84,
+        "duration": 1.44
+    },
+    {
+        "text": "and the pen drew behind us. Turn 90",
+        "start": 119.28,
+        "duration": 2.799
+    },
+    {
+        "text": "degrees again, forward 1,",
+        "start": 122.079,
+        "duration": 2.08
+    },
+    {
+        "text": "forward 1; pen was drawing the whole",
+        "start": 124.159,
+        "duration": 1.761
+    },
+    {
+        "text": "time. You're right - we drew a square.\n- (And you)",
+        "start": 125.92,
+        "duration": 1.76
+    },
+    {
+        "text": "(can get more elaborate than this?)\n- Yes, but",
+        "start": 127.68,
+        "duration": 2.559
+    },
+    {
+        "text": "I'm interested in things that are still",
+        "start": 130.239,
+        "duration": 1.761
+    },
+    {
+        "text": "quite simple programs",
+        "start": 132.0,
+        "duration": 1.76
+    },
+    {
+        "text": "but make more elaborate curves. I've got",
+        "start": 133.76,
+        "duration": 2.72
+    },
+    {
+        "text": "a version of this running",
+        "start": 136.48,
+        "duration": 2.399
+    },
+    {
+        "text": "on Mathematica. So if I do 90 degrees",
+        "start": 138.879,
+        "duration": 3.521
+    },
+    {
+        "text": "we can visualise what the\nturtle was doing.",
+        "start": 142.4,
+        "duration": 1.8
+    },
+    {
+        "text": "So it started off going forward,",
+        "start": 145.12,
+        "duration": 2.56
+    },
+    {
+        "text": "turn 90,",
+        "start": 147.68,
+        "duration": 1.44
+    },
+    {
+        "text": "forward, turn 90, forward,",
+        "start": 149.12,
+        "duration": 2.64
+    },
+    {
+        "text": "turn 90, forward. I turned right 90, that's",
+        "start": 151.76,
+        "duration": 3.119
+    },
+    {
+        "text": "turning left 90. So from now on I'm",
+        "start": 154.879,
+        "duration": 2.0
+    },
+    {
+        "text": "going to just assume that after every",
+        "start": 156.879,
+        "duration": 2.161
+    },
+    {
+        "text": "turn there's a- there's a forward 1",
+        "start": 159.04,
+        "duration": 2.479
+    },
+    {
+        "text": "and I'm always going to just assume the",
+        "start": 161.519,
+        "duration": 1.44
+    },
+    {
+        "text": "pen is down the whole time.",
+        "start": 162.959,
+        "duration": 1.841
+    },
+    {
+        "text": "So actually this program we wrote here we",
+        "start": 164.8,
+        "duration": 2.4
+    },
+    {
+        "text": "could just write as 90,",
+        "start": 167.2,
+        "duration": 2.16
+    },
+    {
+        "text": "90, 90.",
+        "start": 169.36,
+        "duration": 1.84
+    },
+    {
+        "text": "So it's even simpler right? We're just",
+        "start": 171.2,
+        "duration": 2.08
+    },
+    {
+        "text": "gonna have a list of angles",
+        "start": 173.28,
+        "duration": 1.84
+    },
+    {
+        "text": "and see what we can draw with a list of",
+        "start": 175.12,
+        "duration": 1.52
+    },
+    {
+        "text": "angles. So for example let's let's say",
+        "start": 176.64,
+        "duration": 2.08
+    },
+    {
+        "text": "theta is 1 degree,",
+        "start": 178.72,
+        "duration": 2.0
+    },
+    {
+        "text": "and our program is just going to be",
+        "start": 180.72,
+        "duration": 2.08
+    },
+    {
+        "text": "theta,",
+        "start": 182.8,
+        "duration": 1.6
+    },
+    {
+        "text": "2 theta,",
+        "start": 184.4,
+        "duration": 1.68
+    },
+    {
+        "text": "3 theta,",
+        "start": 186.08,
+        "duration": 1.84
+    },
+    {
+        "text": "4 theta,",
+        "start": 187.92,
+        "duration": 2.0
+    },
+    {
+        "text": "5 theta - just keep doing that again again",
+        "start": 189.92,
+        "duration": 2.319
+    },
+    {
+        "text": "like what what do we get? So I could do",
+        "start": 192.239,
+        "duration": 2.961
+    },
+    {
+        "text": "that manually, I could just put in 1",
+        "start": 195.2,
+        "duration": 1.92
+    },
+    {
+        "text": "degree, 2 degrees, 3 degrees, 4",
+        "start": 197.12,
+        "duration": 2.72
+    },
+    {
+        "text": "degrees, so I would just put in in here",
+        "start": 199.84,
+        "duration": 2.56
+    },
+    {
+        "text": "and see what we get. Okay it's gone- it's",
+        "start": 202.4,
+        "duration": 2.399
+    },
+    {
+        "text": "going to be slightly curving up as it",
+        "start": 204.799,
+        "duration": 2.16
+    },
+    {
+        "text": "goes.",
+        "start": 206.959,
+        "duration": 0.731
+    },
+    {
+        "text": "Kind of makes sense I guess, so that's",
+        "start": 208.4,
+        "duration": 1.919
+    },
+    {
+        "text": "1 degree above now it's going another",
+        "start": 210.319,
+        "duration": 2.401
+    },
+    {
+        "text": "2 degrees turn, another 3,",
+        "start": 212.72,
+        "duration": 2.239
+    },
+    {
+        "text": "very gradual.",
+        "start": 214.959,
+        "duration": 1.36
+    },
+    {
+        "text": "So let's let's make this more automatic;",
+        "start": 216.319,
+        "duration": 2.401
+    },
+    {
+        "text": "so let's do like 180 steps and we",
+        "start": 218.72,
+        "duration": 3.68
+    },
+    {
+        "text": "multiply by what a degree is. And this is",
+        "start": 222.4,
+        "duration": 2.24
+    },
+    {
+        "text": "what we end up with: as it gets tighter",
+        "start": 224.64,
+        "duration": 2.64
+    },
+    {
+        "text": "and tighter",
+        "start": 227.28,
+        "duration": 1.36
+    },
+    {
+        "text": "it spirals into the middle.",
+        "start": 228.64,
+        "duration": 1.899
+    },
+    {
+        "text": "Let's do more steps, let's do 360 of",
+        "start": 232.799,
+        "duration": 2.561
+    },
+    {
+        "text": "these steps. So what's happened here is",
+        "start": 235.36,
+        "duration": 1.92
+    },
+    {
+        "text": "that the turtle's gone into the middle",
+        "start": 237.28,
+        "duration": 3.039
+    },
+    {
+        "text": "and then it's ended up spiraling",
+        "start": 240.319,
+        "duration": 2.721
+    },
+    {
+        "text": "back out the way it came.",
+        "start": 243.04,
+        "duration": 1.55
+    },
+    {
+        "text": "So at the end, it's very small,",
+        "start": 245.2,
+        "duration": 2.64
+    },
+    {
+        "text": "but at the end it's",
+        "start": 247.84,
+        "duration": 1.679
+    },
+    {
+        "text": "pointing",
+        "start": 249.519,
+        "duration": 1.121
+    },
+    {
+        "text": "back from where it started, it's rotated",
+        "start": 250.64,
+        "duration": 2.799
+    },
+    {
+        "text": "180 degrees.",
+        "start": 253.439,
+        "duration": 1.681
+    },
+    {
+        "text": "So now it's ready to go up and do the",
+        "start": 255.12,
+        "duration": 1.839
+    },
+    {
+        "text": "same thing over here.",
+        "start": 256.959,
+        "duration": 1.481
+    },
+    {
+        "text": "So if we set this theta to 1 degree",
+        "start": 264.72,
+        "duration": 2.88
+    },
+    {
+        "text": "we're just going to get this repeating",
+        "start": 267.6,
+        "duration": 1.62
+    },
+    {
+        "text": "thing",
+        "start": 272.4,
+        "duration": 0.88
+    },
+    {
+        "text": "where the turtle's going to go around,",
+        "start": 273.28,
+        "duration": 1.28
+    },
+    {
+        "text": "spiral, come back exactly the way it came,",
+        "start": 274.56,
+        "duration": 2.32
+    },
+    {
+        "text": "go in spiral, come back exactly the way",
+        "start": 276.88,
+        "duration": 1.759
+    },
+    {
+        "text": "it came. This is very similar to",
+        "start": 278.639,
+        "duration": 1.761
+    },
+    {
+        "text": "something that's called an Euler spiral,",
+        "start": 280.4,
+        "duration": 1.519
+    },
+    {
+        "text": "also called a Cornu spiral; but those",
+        "start": 281.919,
+        "duration": 2.641
+    },
+    {
+        "text": "spirals are defined like in a continuous",
+        "start": 284.56,
+        "duration": 2.24
+    },
+    {
+        "text": "way whereas this is all by taking",
+        "start": 286.8,
+        "duration": 1.92
+    },
+    {
+        "text": "discrete turns.",
+        "start": 288.72,
+        "duration": 1.68
+    },
+    {
+        "text": "What happened here is because we're",
+        "start": 290.4,
+        "duration": 1.6
+    },
+    {
+        "text": "doing exactly 1 degree, and 1 degree",
+        "start": 292.0,
+        "duration": 2.24
+    },
+    {
+        "text": "is a 360th of a full turn, so we ended up",
+        "start": 294.24,
+        "duration": 3.2
+    },
+    {
+        "text": "going back to where we started; but we",
+        "start": 297.44,
+        "duration": 1.759
+    },
+    {
+        "text": "can get more interesting pictures if we",
+        "start": 299.199,
+        "duration": 3.681
+    },
+    {
+        "text": "make it not a-",
+        "start": 302.88,
+        "duration": 1.44
+    },
+    {
+        "text": "like nice multiple, a nice divider of a",
+        "start": 304.32,
+        "duration": 2.319
+    },
+    {
+        "text": "full turn. Now what if we turned 1.02",
+        "start": 306.639,
+        "duration": 2.961
+    },
+    {
+        "text": "degrees each time? And now",
+        "start": 309.6,
+        "duration": 2.56
+    },
+    {
+        "text": "we end up",
+        "start": 312.16,
+        "duration": 1.039
+    },
+    {
+        "text": "not quite coming back where we started,",
+        "start": 313.199,
+        "duration": 1.761
+    },
+    {
+        "text": "we do all these",
+        "start": 314.96,
+        "duration": 1.36
+    },
+    {
+        "text": "dancing around. And it's very sensitive",
+        "start": 316.32,
+        "duration": 2.56
+    },
+    {
+        "text": "to what you you change that number to, so",
+        "start": 318.88,
+        "duration": 2.72
+    },
+    {
+        "text": "this is 1.03, it's a totally different",
+        "start": 321.6,
+        "duration": 2.0
+    },
+    {
+        "text": "picture.",
+        "start": 323.6,
+        "duration": 1.12
+    },
+    {
+        "text": "It's kind of like getting back to ideas",
+        "start": 324.72,
+        "duration": 2.0
+    },
+    {
+        "text": "of chaos",
+        "start": 326.72,
+        "duration": 1.28
+    },
+    {
+        "text": "where this",
+        "start": 328.0,
+        "duration": 1.12
+    },
+    {
+        "text": "is very sensitive where you're going to",
+        "start": 329.12,
+        "duration": 1.2
+    },
+    {
+        "text": "end up after a long time, it's just very",
+        "start": 330.32,
+        "duration": 1.52
+    },
+    {
+        "text": "sensitive on that",
+        "start": 331.84,
+        "duration": 1.76
+    },
+    {
+        "text": "little number there because you can come",
+        "start": 333.6,
+        "duration": 1.28
+    },
+    {
+        "text": "out the spiral kind of in a new random",
+        "start": 334.88,
+        "duration": 2.24
+    },
+    {
+        "text": "direction. So we could we could play with",
+        "start": 337.12,
+        "duration": 2.24
+    },
+    {
+        "text": "this a little bit maybe; so I'm going",
+        "start": 339.36,
+        "duration": 2.72
+    },
+    {
+        "text": "to say we're going x degrees each time",
+        "start": 342.08,
+        "duration": 2.64
+    },
+    {
+        "text": "and I get- going to vary what x is. So",
+        "start": 344.72,
+        "duration": 2.16
+    },
+    {
+        "text": "this is going 1 degree each time, this",
+        "start": 346.88,
+        "duration": 1.599
+    },
+    {
+        "text": "is the original picture,",
+        "start": 348.479,
+        "duration": 1.521
+    },
+    {
+        "text": "and then as I change this slider I'll be",
+        "start": 350.0,
+        "duration": 1.84
+    },
+    {
+        "text": "changing number of degrees. So here we go,",
+        "start": 351.84,
+        "duration": 3.199
+    },
+    {
+        "text": "a different picture each time as it",
+        "start": 355.039,
+        "duration": 2.081
+    },
+    {
+        "text": "increments.\n- (Wow)",
+        "start": 357.12,
+        "duration": 1.94
+    },
+    {
+        "text": "Yeah",
+        "start": 361.919,
+        "duration": 0.891
+    },
+    {
+        "text": "(Very cool.)\n- So",
+        "start": 363.6,
+        "duration": 1.76
+    },
+    {
+        "text": "shall we get the machine to draw one of",
+        "start": 365.36,
+        "duration": 2.16
+    },
+    {
+        "text": "those for us?\n- (Yeah!)",
+        "start": 367.52,
+        "duration": 1.65
+    },
+    {
+        "text": "So here I've got code that does",
+        "start": 369.84,
+        "duration": 2.96
+    },
+    {
+        "text": "the same thing in Python, and it's- what",
+        "start": 372.8,
+        "duration": 2.88
+    },
+    {
+        "text": "it will do is it will generate",
+        "start": 375.68,
+        "duration": 1.2
+    },
+    {
+        "text": "instructions which will send over this",
+        "start": 376.88,
+        "duration": 2.08
+    },
+    {
+        "text": "USB to the machine and it will tell the",
+        "start": 378.96,
+        "duration": 2.56
+    },
+    {
+        "text": "pen what to do. In this code I've called this",
+        "start": 381.52,
+        "duration": 2.689
+    },
+    {
+        "text": "dth which is d theta, like the change in",
+        "start": 384.979,
+        "duration": 2.541
+    },
+    {
+        "text": "theta each time. And looks like I've set",
+        "start": 387.52,
+        "duration": 2.959
+    },
+    {
+        "text": "d theta to",
+        "start": 390.479,
+        "duration": 1.521
+    },
+    {
+        "text": "this number here. This is a number I",
+        "start": 392.0,
+        "duration": 2.24
+    },
+    {
+        "text": "figured out is good because it stays on",
+        "start": 394.24,
+        "duration": 1.92
+    },
+    {
+        "text": "the paper, right, you don't have a",
+        "start": 396.16,
+        "duration": 1.599
+    },
+    {
+        "text": "guarantee that you're not just going",
+        "start": 397.759,
+        "duration": 1.921
+    },
+    {
+        "text": "to go off and like go off the paper.",
+        "start": 399.68,
+        "duration": 2.87
+    },
+    {
+        "text": "Here's the final product - well we",
+        "start": 421.759,
+        "duration": 1.84
+    },
+    {
+        "text": "actually cut it off a little bit early",
+        "start": 423.599,
+        "duration": 1.361
+    },
+    {
+        "text": "because we got",
+        "start": 424.96,
+        "duration": 0.959
+    },
+    {
+        "text": "impatient -",
+        "start": 425.919,
+        "duration": 1.441
+    },
+    {
+        "text": "but this is the first few spirals of",
+        "start": 427.36,
+        "duration": 2.0
+    },
+    {
+        "text": "this one here.",
+        "start": 429.36,
+        "duration": 1.44
+    },
+    {
+        "text": "Let's have a look at what it would have",
+        "start": 430.8,
+        "duration": 1.44
+    },
+    {
+        "text": "been if we let it run for for a bit",
+        "start": 432.24,
+        "duration": 1.519
+    },
+    {
+        "text": "longer: here is what it would have done",
+        "start": 433.759,
+        "duration": 1.761
+    },
+    {
+        "text": "if we did it for ten thousand steps.",
+        "start": 435.52,
+        "duration": 2.64
+    },
+    {
+        "text": "So yeah let's see,",
+        "start": 439.68,
+        "duration": 1.44
+    },
+    {
+        "text": "can we match that up a little bit?",
+        "start": 441.12,
+        "duration": 2.079
+    },
+    {
+        "text": "We got some of these guys going but then",
+        "start": 443.199,
+        "duration": 1.761
+    },
+    {
+        "text": "it was going to kind of come out and go",
+        "start": 444.96,
+        "duration": 2.079
+    },
+    {
+        "text": "out here. We basically stopped after",
+        "start": 447.039,
+        "duration": 1.761
+    },
+    {
+        "text": "roughly a thousand steps it looks like.",
+        "start": 448.8,
+        "duration": 2.32
+    },
+    {
+        "text": "If we did ten thousand",
+        "start": 451.12,
+        "duration": 2.16
+    },
+    {
+        "text": "then like it's kind of making a spiral",
+        "start": 453.28,
+        "duration": 2.24
+    },
+    {
+        "text": "of",
+        "start": 455.52,
+        "duration": 1.04
+    },
+    {
+        "text": "spirals itself.",
+        "start": 456.56,
+        "duration": 2.079
+    },
+    {
+        "text": "You can see this pattern,",
+        "start": 458.639,
+        "duration": 1.921
+    },
+    {
+        "text": "it's kind of recreating itself and going",
+        "start": 460.56,
+        "duration": 2.079
+    },
+    {
+        "text": "out there;",
+        "start": 462.639,
+        "duration": 1.12
+    },
+    {
+        "text": "so let's do a hundred thousand. So there,",
+        "start": 463.759,
+        "duration": 2.0
+    },
+    {
+        "text": "there you go.",
+        "start": 465.759,
+        "duration": 1.071
+    },
+    {
+        "text": "So now this is starting to look like",
+        "start": 467.35,
+        "duration": 1.45
+    },
+    {
+        "text": "its own- it's kind of macro scale",
+        "start": 468.8,
+        "duration": 1.92
+    },
+    {
+        "text": "version of of an Eu-",
+        "start": 470.72,
+        "duration": 2.08
+    },
+    {
+        "text": "it's an Euler spiral of Euler spirals. But",
+        "start": 472.8,
+        "duration": 2.32
+    },
+    {
+        "text": "we didn't manage to get the next level,",
+        "start": 475.12,
+        "duration": 2.0
+    },
+    {
+        "text": "this looks kind of chaotic.\n- (That would)",
+        "start": 477.12,
+        "duration": 2.16
+    },
+    {
+        "text": "(have been a huge piece of paper)\n- Yeah,",
+        "start": 479.28,
+        "duration": 2.08
+    },
+    {
+        "text": "yeah it would be.",
+        "start": 481.36,
+        "duration": 1.81
+    },
+    {
+        "text": "Can you- yeah look at this, so it's the",
+        "start": 488.8,
+        "duration": 1.6
+    },
+    {
+        "text": "side by side scale comparison.",
+        "start": 490.4,
+        "duration": 2.079
+    },
+    {
+        "text": "(So that thing you're holding, where's)",
+        "start": 492.479,
+        "duration": 1.601
+    },
+    {
+        "text": "(that on the big picture there? It's one)",
+        "start": 494.08,
+        "duration": 1.36
+    },
+    {
+        "text": "(of those little-) \n- It's gonna be one of",
+        "start": 495.44,
+        "duration": 1.28
+    },
+    {
+        "text": "these little, yeah, hubs. So now",
+        "start": 496.72,
+        "duration": 3.36
+    },
+    {
+        "text": "I want to draw a Sierpinski triangle",
+        "start": 500.08,
+        "duration": 3.36
+    },
+    {
+        "text": "picture. This one's actually called the",
+        "start": 503.44,
+        "duration": 1.68
+    },
+    {
+        "text": "Arrowhead Curve. So this is the kind of",
+        "start": 505.12,
+        "duration": 2.72
+    },
+    {
+        "text": "picture that we're going to kind of try",
+        "start": 507.84,
+        "duration": 1.52
+    },
+    {
+        "text": "and end up with, and it's nice for the",
+        "start": 509.36,
+        "duration": 2.16
+    },
+    {
+        "text": "plotter because it draws a whole kind of",
+        "start": 511.52,
+        "duration": 2.56
+    },
+    {
+        "text": "Sierpinski shape all in one path. So you",
+        "start": 514.08,
+        "duration": 3.199
+    },
+    {
+        "text": "can see it starts up here, it'll end up",
+        "start": 517.279,
+        "duration": 2.64
+    },
+    {
+        "text": "drawing you know this triangle and this",
+        "start": 519.919,
+        "duration": 1.68
+    },
+    {
+        "text": "triangle this triangle, and it ends up here.",
+        "start": 521.599,
+        "duration": 2.641
+    },
+    {
+        "text": "(You never have to do pen up?)\n- That's right,",
+        "start": 524.24,
+        "duration": 1.92
+    },
+    {
+        "text": "it's all it's all pen down and each",
+        "start": 526.16,
+        "duration": 2.32
+    },
+    {
+        "text": "step size is the same, and it's all just",
+        "start": 528.48,
+        "duration": 2.56
+    },
+    {
+        "text": "turning left and right.",
+        "start": 531.04,
+        "duration": 1.76
+    },
+    {
+        "text": "It's always either turning right um 60",
+        "start": 532.8,
+        "duration": 3.12
+    },
+    {
+        "text": "degrees or left 60 degrees. And so it's",
+        "start": 535.92,
+        "duration": 2.72
+    },
+    {
+        "text": "just how do you come up with the list of",
+        "start": 538.64,
+        "duration": 1.92
+    },
+    {
+        "text": "left, right, right, \nright, left, right, left,",
+        "start": 540.56,
+        "duration": 2.08
+    },
+    {
+        "text": "left, that comes up with this picture?",
+        "start": 542.64,
+        "duration": 2.56
+    },
+    {
+        "text": "And there's a kind of interesting way of",
+        "start": 545.2,
+        "duration": 2.4
+    },
+    {
+        "text": "deriving what those instructions should",
+        "start": 547.6,
+        "duration": 2.0
+    },
+    {
+        "text": "be. We're going to do something called",
+        "start": 549.6,
+        "duration": 1.52
+    },
+    {
+        "text": "like a substitution system, where we're",
+        "start": 551.12,
+        "duration": 2.24
+    },
+    {
+        "text": "going to- making repeated substitutions.",
+        "start": 553.36,
+        "duration": 2.64
+    },
+    {
+        "text": "And we'll just have two rules;",
+        "start": 556.0,
+        "duration": 2.24
+    },
+    {
+        "text": "so we're going to have every time we see",
+        "start": 558.24,
+        "duration": 1.44
+    },
+    {
+        "text": "an x we're going to substitute\nit with y plus x plus y,",
+        "start": 559.68,
+        "duration": 6.979
+    },
+    {
+        "text": "and every time we see a y we're going to",
+        "start": 567.04,
+        "duration": 1.6
+    },
+    {
+        "text": "replace it with",
+        "start": 568.64,
+        "duration": 1.44
+    },
+    {
+        "text": "x minus y",
+        "start": 570.08,
+        "duration": 2.0
+    },
+    {
+        "text": "minus x.",
+        "start": 572.08,
+        "duration": 1.28
+    },
+    {
+        "text": "And",
+        "start": 573.36,
+        "duration": 0.8
+    },
+    {
+        "text": "here these aren't actually pluses and",
+        "start": 574.16,
+        "duration": 1.6
+    },
+    {
+        "text": "minuses, plus means you know turn right",
+        "start": 575.76,
+        "duration": 2.56
+    },
+    {
+        "text": "and minus means to turn left 60",
+        "start": 578.32,
+        "duration": 3.44
+    },
+    {
+        "text": "degrees. And we're just going to start,",
+        "start": 581.76,
+        "duration": 2.0
+    },
+    {
+        "text": "you know, iteration one, we just start",
+        "start": 583.76,
+        "duration": 1.759
+    },
+    {
+        "text": "with x. This doesn't have any",
+        "start": 585.519,
+        "duration": 1.841
+    },
+    {
+        "text": "instructions in it but we're just going",
+        "start": 587.36,
+        "duration": 1.36
+    },
+    {
+        "text": "to keep applying these rules and see",
+        "start": 588.72,
+        "duration": 1.84
+    },
+    {
+        "text": "what happens.",
+        "start": 590.56,
+        "duration": 1.18
+    },
+    {
+        "text": "So at step two,",
+        "start": 592.48,
+        "duration": 2.0
+    },
+    {
+        "text": "you know, we're reading this and we see",
+        "start": 594.48,
+        "duration": 2.0
+    },
+    {
+        "text": "an x so we replace it with",
+        "start": 596.48,
+        "duration": 2.32
+    },
+    {
+        "text": "what we're supposed to replace it with: y",
+        "start": 598.8,
+        "duration": 1.84
+    },
+    {
+        "text": "plus x",
+        "start": 600.64,
+        "duration": 1.36
+    },
+    {
+        "text": "plus",
+        "start": 602.0,
+        "duration": 1.279
+    },
+    {
+        "text": "y.",
+        "start": 603.279,
+        "duration": 1.361
+    },
+    {
+        "text": "And so now if we were to do this",
+        "start": 604.64,
+        "duration": 1.92
+    },
+    {
+        "text": "instructions it just says turn right 60,",
+        "start": 606.56,
+        "duration": 2.399
+    },
+    {
+        "text": "turn right 60, which is not a super",
+        "start": 608.959,
+        "duration": 2.56
+    },
+    {
+        "text": "interesting",
+        "start": 611.519,
+        "duration": 1.121
+    },
+    {
+        "text": "picture",
+        "start": 612.64,
+        "duration": 0.96
+    },
+    {
+        "text": "but you know, we'll say we've go-",
+        "start": 613.6,
+        "duration": 3.76
+    },
+    {
+        "text": "we've gone forward,",
+        "start": 617.36,
+        "duration": 1.599
+    },
+    {
+        "text": "we turn,",
+        "start": 618.959,
+        "duration": 1.091
+    },
+    {
+        "text": "turn right 60 I mean we go down like",
+        "start": 620.88,
+        "duration": 2.399
+    },
+    {
+        "text": "this,",
+        "start": 623.279,
+        "duration": 2.24
+    },
+    {
+        "text": "and then we do another turn right 60,",
+        "start": 626.32,
+        "duration": 3.84
+    },
+    {
+        "text": "and I've just drawn this picture.",
+        "start": 631.04,
+        "duration": 2.799
+    },
+    {
+        "text": "Not very interesting yet.",
+        "start": 633.839,
+        "duration": 2.881
+    },
+    {
+        "text": "Let's do it again. So now we're going to",
+        "start": 636.72,
+        "duration": 1.52
+    },
+    {
+        "text": "use this other rule for y.",
+        "start": 638.24,
+        "duration": 2.08
+    },
+    {
+        "text": "So we're reading y,",
+        "start": 640.32,
+        "duration": 1.68
+    },
+    {
+        "text": "we replace it with what we're supposed",
+        "start": 642.0,
+        "duration": 1.12
+    },
+    {
+        "text": "to replace it with: x minus y minus x.",
+        "start": 643.12,
+        "duration": 4.24
+    },
+    {
+        "text": "We see the plus that doesn't have any",
+        "start": 647.36,
+        "duration": 1.599
+    },
+    {
+        "text": "replacement rule so we just copy it down.",
+        "start": 648.959,
+        "duration": 2.801
+    },
+    {
+        "text": "We see an x",
+        "start": 651.76,
+        "duration": 2.16
+    },
+    {
+        "text": "so we replace this y plus x plus y;",
+        "start": 653.92,
+        "duration": 3.359
+    },
+    {
+        "text": "we see a plus so we copy it, we see",
+        "start": 657.279,
+        "duration": 2.24
+    },
+    {
+        "text": "a y so we",
+        "start": 659.519,
+        "duration": 2.0
+    },
+    {
+        "text": "bring down x minus y minus x, which is",
+        "start": 661.519,
+        "duration": 3.201
+    },
+    {
+        "text": "the rule for y.",
+        "start": 664.72,
+        "duration": 2.16
+    },
+    {
+        "text": "So now we could try and draw what this",
+        "start": 667.92,
+        "duration": 1.84
+    },
+    {
+        "text": "is like; I'm not going to do any- I don't",
+        "start": 669.76,
+        "duration": 3.04
+    },
+    {
+        "text": "want to do any more turning right and",
+        "start": 672.8,
+        "duration": 2.0
+    },
+    {
+        "text": "left by 60 degrees",
+        "start": 674.8,
+        "duration": 1.92
+    },
+    {
+        "text": "by hand, so what I've done is I've",
+        "start": 677.76,
+        "duration": 1.6
+    },
+    {
+        "text": "prepared a grid that should help.",
+        "start": 679.36,
+        "duration": 2.96
+    },
+    {
+        "text": "So this isn't cheating right? This is",
+        "start": 682.32,
+        "duration": 2.16
+    },
+    {
+        "text": "using a pen on brown paper, I just-",
+        "start": 684.48,
+        "duration": 2.56
+    },
+    {
+        "text": "we used the machine to create this, so",
+        "start": 687.04,
+        "duration": 1.76
+    },
+    {
+        "text": "this is fine.\n- (Okay, it's fine)",
+        "start": 688.8,
+        "duration": 2.32
+    },
+    {
+        "text": "I didn't- I didn't print this, this is\nwithin the",
+        "start": 691.12,
+        "duration": 2.159
+    },
+    {
+        "text": "rules of Numberphile. I'm going to say",
+        "start": 693.279,
+        "duration": 1.761
+    },
+    {
+        "text": "like we'll- let's start going forward",
+        "start": 695.04,
+        "duration": 2.479
+    },
+    {
+        "text": "first",
+        "start": 697.519,
+        "duration": 1.281
+    },
+    {
+        "text": "and then we'll- and then we'll do these",
+        "start": 698.8,
+        "duration": 1.279
+    },
+    {
+        "text": "instructions.",
+        "start": 700.079,
+        "duration": 1.281
+    },
+    {
+        "text": "So we're going to turn left.",
+        "start": 701.36,
+        "duration": 2.7
+    },
+    {
+        "text": "and then turn left again,",
+        "start": 706.32,
+        "duration": 1.9
+    },
+    {
+        "text": "now we have to turn right,",
+        "start": 709.12,
+        "duration": 2.014
+    },
+    {
+        "text": "turn right again,",
+        "start": 712.24,
+        "duration": 2.0
+    },
+    {
+        "text": "turn right, turn right,",
+        "start": 714.24,
+        "duration": 2.52
+    },
+    {
+        "text": "turn left,",
+        "start": 717.44,
+        "duration": 1.519
+    },
+    {
+        "text": "turn left.",
+        "start": 718.959,
+        "duration": 1.081
+    },
+    {
+        "text": "So we've created this",
+        "start": 721.12,
+        "duration": 2.0
+    },
+    {
+        "text": "image here.",
+        "start": 723.12,
+        "duration": 1.92
+    },
+    {
+        "text": "It's kind of getting closer to a",
+        "start": 725.04,
+        "duration": 1.76
+    },
+    {
+        "text": "triangle maybe, it's kind of triangular",
+        "start": 726.8,
+        "duration": 2.4
+    },
+    {
+        "text": "shape; but it's still not got the detail",
+        "start": 729.2,
+        "duration": 2.24
+    },
+    {
+        "text": "of this Sierpinski triangle.",
+        "start": 731.44,
+        "duration": 2.56
+    },
+    {
+        "text": "Yeah let's do it again.",
+        "start": 734.0,
+        "duration": 2.0
+    },
+    {
+        "text": "This this one had one",
+        "start": 736.0,
+        "duration": 1.92
+    },
+    {
+        "text": "x, this had three x's and y's, this had",
+        "start": 737.92,
+        "duration": 2.159
+    },
+    {
+        "text": "nine x's and y's,",
+        "start": 740.079,
+        "duration": 1.841
+    },
+    {
+        "text": "next one's gonna have 27 x's and y's.",
+        "start": 741.92,
+        "duration": 2.859
+    },
+    {
+        "text": "So let's do it one more time.",
+        "start": 746.079,
+        "duration": 2.051
+    },
+    {
+        "text": "There we go,",
+        "start": 753.6,
+        "duration": 1.28
+    },
+    {
+        "text": "I think that's right.",
+        "start": 754.88,
+        "duration": 2.079
+    },
+    {
+        "text": "And yeah, if we did it \nanother time we'd end",
+        "start": 756.959,
+        "duration": 2.081
+    },
+    {
+        "text": "up with 81 which is not going to be good",
+        "start": 759.04,
+        "duration": 2.0
+    },
+    {
+        "text": "to do by hand.",
+        "start": 761.04,
+        "duration": 1.44
+    },
+    {
+        "text": "But I think we can try and draw",
+        "start": 762.48,
+        "duration": 2.96
+    },
+    {
+        "text": "this iteration by hand? And then",
+        "start": 765.44,
+        "duration": 2.079
+    },
+    {
+        "text": "maybe we'll recruit the plotter to help",
+        "start": 767.519,
+        "duration": 1.841
+    },
+    {
+        "text": "us with the next step.",
+        "start": 769.36,
+        "duration": 1.55
+    },
+    {
+        "text": "And",
+        "start": 771.44,
+        "duration": 1.28
+    },
+    {
+        "text": "what were we saying?\nMinus was turning left",
+        "start": 772.72,
+        "duration": 2.515
+    },
+    {
+        "text": "and plus was turning right?",
+        "start": 775.235,
+        "duration": 1.164
+    },
+    {
+        "text": "So",
+        "start": 776.399,
+        "duration": 1.041
+    },
+    {
+        "text": "so we've gone forward 1, turning right",
+        "start": 777.44,
+        "duration": 2.0
+    },
+    {
+        "text": "means that we're gonna\nturn right along here.",
+        "start": 779.44,
+        "duration": 2.3
+    },
+    {
+        "text": "Ah, phew.",
+        "start": 789.279,
+        "duration": 1.761
+    },
+    {
+        "text": "So that looks like getting closer to",
+        "start": 791.04,
+        "duration": 2.64
+    },
+    {
+        "text": "this triangles inside triangles look of",
+        "start": 793.68,
+        "duration": 2.399
+    },
+    {
+        "text": "the Sierpinski fractal.",
+        "start": 796.079,
+        "duration": 2.721
+    },
+    {
+        "text": "We got up to was this n equals three",
+        "start": 798.8,
+        "duration": 2.88
+    },
+    {
+        "text": "picture here.",
+        "start": 801.68,
+        "duration": 1.76
+    },
+    {
+        "text": "I've just programmed this- this what we",
+        "start": 803.44,
+        "duration": 1.68
+    },
+    {
+        "text": "were doing by hand into Mathematica here,",
+        "start": 805.12,
+        "duration": 2.0
+    },
+    {
+        "text": "you've got a substitution system",
+        "start": 807.12,
+        "duration": 1.92
+    },
+    {
+        "text": "where x and y, there's a rule for x",
+        "start": 809.04,
+        "duration": 2.56
+    },
+    {
+        "text": "and y.",
+        "start": 811.6,
+        "duration": 0.96
+    },
+    {
+        "text": "Instead of plus and minus I've just",
+        "start": 812.56,
+        "duration": 1.76
+    },
+    {
+        "text": "put in the angles",
+        "start": 814.32,
+        "duration": 1.92
+    },
+    {
+        "text": "directly in radians of pi by 3, pi by 3,",
+        "start": 816.24,
+        "duration": 2.56
+    },
+    {
+        "text": "for the where we had pluses and minus pi",
+        "start": 818.8,
+        "duration": 2.479
+    },
+    {
+        "text": "by 3, minus pi by 3 for where we had",
+        "start": 821.279,
+        "duration": 1.841
+    },
+    {
+        "text": "minuses. The next step up would be n",
+        "start": 823.12,
+        "duration": 2.159
+    },
+    {
+        "text": "equals 4.",
+        "start": 825.279,
+        "duration": 1.06
+    },
+    {
+        "text": "So, you know,",
+        "start": 827.199,
+        "duration": 1.361
+    },
+    {
+        "text": "we've got our what we just drew by hand",
+        "start": 828.56,
+        "duration": 2.079
+    },
+    {
+        "text": "copied three times in each side.",
+        "start": 830.639,
+        "duration": 2.56
+    },
+    {
+        "text": "And n equals 5,",
+        "start": 833.199,
+        "duration": 2.08
+    },
+    {
+        "text": "getting more and more detailed.",
+        "start": 835.279,
+        "duration": 1.621
+    },
+    {
+        "text": "n equals 6 is nice.",
+        "start": 838.959,
+        "duration": 1.681
+    },
+    {
+        "text": "And here's a picture for n equals 7",
+        "start": 841.6,
+        "duration": 1.919
+    },
+    {
+        "text": "which might be a good one to",
+        "start": 843.519,
+        "duration": 1.68
+    },
+    {
+        "text": "plot",
+        "start": 845.199,
+        "duration": 1.2
+    },
+    {
+        "text": "with the machine.",
+        "start": 846.399,
+        "duration": 1.47
+    },
+    {
+        "text": "Okay so we've stopped the machine",
+        "start": 865.44,
+        "duration": 2.16
+    },
+    {
+        "text": "exactly halfway through drawing this",
+        "start": 867.6,
+        "duration": 2.679
+    },
+    {
+        "text": "Sierpinski turtle program; just wanted to",
+        "start": 870.279,
+        "duration": 3.0
+    },
+    {
+        "text": "show you something about",
+        "start": 873.279,
+        "duration": 2.641
+    },
+    {
+        "text": "how it's doing the drawing.",
+        "start": 875.92,
+        "duration": 1.68
+    },
+    {
+        "text": "So here is halfway and maybe if you",
+        "start": 877.6,
+        "duration": 4.239
+    },
+    {
+        "text": "look at it like this; because if we",
+        "start": 881.839,
+        "duration": 3.041
+    },
+    {
+        "text": "reflected this whole thing over here",
+        "start": 884.88,
+        "duration": 1.759
+    },
+    {
+        "text": "we'd have the full picture right?",
+        "start": 886.639,
+        "duration": 2.481
+    },
+    {
+        "text": "And this is just the vertical",
+        "start": 889.12,
+        "duration": 2.64
+    },
+    {
+        "text": "half of the picture.",
+        "start": 891.76,
+        "duration": 1.68
+    },
+    {
+        "text": "But yeah looking at from here I can",
+        "start": 893.44,
+        "duration": 2.72
+    },
+    {
+        "text": "see each of the previous iterations kind",
+        "start": 896.16,
+        "duration": 2.479
+    },
+    {
+        "text": "of lined up one after the other right? So",
+        "start": 898.639,
+        "duration": 3.041
+    },
+    {
+        "text": "we drew",
+        "start": 901.68,
+        "duration": 1.76
+    },
+    {
+        "text": "this one and this one by hand, then we",
+        "start": 903.44,
+        "duration": 2.24
+    },
+    {
+        "text": "bailed and we started going to the",
+        "start": 905.68,
+        "duration": 1.44
+    },
+    {
+        "text": "computer.",
+        "start": 907.12,
+        "duration": 1.2
+    },
+    {
+        "text": "And you know these are the previous",
+        "start": 908.32,
+        "duration": 2.0
+    },
+    {
+        "text": "iterations, now we're going to draw the",
+        "start": 910.32,
+        "duration": 1.36
+    },
+    {
+        "text": "one on top of that.",
+        "start": 911.68,
+        "duration": 1.839
+    },
+    {
+        "text": "So what we've seen is that",
+        "start": 913.519,
+        "duration": 2.401
+    },
+    {
+        "text": "the next iteration of this arrowhead",
+        "start": 915.92,
+        "duration": 2.479
+    },
+    {
+        "text": "curve, this arrowhead Sierpinski",
+        "start": 918.399,
+        "duration": 1.601
+    },
+    {
+        "text": "curve,",
+        "start": 920.0,
+        "duration": 0.88
+    },
+    {
+        "text": "you could do it just by taking all the",
+        "start": 920.88,
+        "duration": 1.84
+    },
+    {
+        "text": "previous iterations lining them up and",
+        "start": 922.72,
+        "duration": 2.32
+    },
+    {
+        "text": "then reflecting it",
+        "start": 925.04,
+        "duration": 2.64
+    },
+    {
+        "text": "in sort of vertical axis.",
+        "start": 927.68,
+        "duration": 2.19
+    },
+    {
+        "text": "So shall we make it draw the rest of the",
+        "start": 931.36,
+        "duration": 1.76
+    },
+    {
+        "text": "picture? \n- (Yes please!)",
+        "start": 933.12,
+        "duration": 1.372
+    },
+    {
+        "text": "Yeah cool.",
+        "start": 934.492,
+        "duration": 0.958
+    },
+    {
+        "text": "So now I want to show you another type",
+        "start": 959.6,
+        "duration": 2.4
+    },
+    {
+        "text": "of turtle program we can send to the to",
+        "start": 962.0,
+        "duration": 2.88
+    },
+    {
+        "text": "the plotter machine, like what if I just",
+        "start": 964.88,
+        "duration": 2.319
+    },
+    {
+        "text": "start sending the digits of pi?",
+        "start": 967.199,
+        "duration": 3.131
+    }
+]

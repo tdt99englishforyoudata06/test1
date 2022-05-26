@@ -1,0 +1,642 @@
+[
+    {
+        "text": "hey everyone I built a better trigger",
+        "start": 0.03,
+        "duration": 4.829
+    },
+    {
+        "text": "circuit for my flash tube stuff that I'm",
+        "start": 2.52,
+        "duration": 4.529
+    },
+    {
+        "text": "going to use for the Ruby laser project",
+        "start": 4.859,
+        "duration": 4.111
+    },
+    {
+        "text": "so I thought I'd show you how I did it",
+        "start": 7.049,
+        "duration": 3.451
+    },
+    {
+        "text": "and what sort of flash tubes I can",
+        "start": 8.97,
+        "duration": 3.66
+    },
+    {
+        "text": "trigger with it so here's the setup I've",
+        "start": 10.5,
+        "duration": 4.559
+    },
+    {
+        "text": "got this electrophoresis power supply",
+        "start": 12.63,
+        "duration": 4.47
+    },
+    {
+        "text": "charging up the capacitor bank there to",
+        "start": 15.059,
+        "duration": 5.461
+    },
+    {
+        "text": "about 1,200 volts and the capacitor bank",
+        "start": 17.1,
+        "duration": 5.61
+    },
+    {
+        "text": "is connected directly across the flash",
+        "start": 20.52,
+        "duration": 5.28
+    },
+    {
+        "text": "tube kind of like this so the capacitors",
+        "start": 22.71,
+        "duration": 4.38
+    },
+    {
+        "text": "that I'm just representing with one",
+        "start": 25.8,
+        "duration": 4.11
+    },
+    {
+        "text": "symbol here are wired directly up to the",
+        "start": 27.09,
+        "duration": 5.3
+    },
+    {
+        "text": "flash tube and we can do this because",
+        "start": 29.91,
+        "duration": 5.25
+    },
+    {
+        "text": "1200 volts is not enough to break down",
+        "start": 32.39,
+        "duration": 5.02
+    },
+    {
+        "text": "that xenon gas in the flash tube and",
+        "start": 35.16,
+        "duration": 4.79
+    },
+    {
+        "text": "actually create a flash or a discharge",
+        "start": 37.41,
+        "duration": 5.969
+    },
+    {
+        "text": "what we need is a trigger pulse and the",
+        "start": 39.95,
+        "duration": 5.109
+    },
+    {
+        "text": "trigger is actually just a piece of wire",
+        "start": 43.379,
+        "duration": 3.45
+    },
+    {
+        "text": "that's wrapped around to the outside of",
+        "start": 45.059,
+        "duration": 4.02
+    },
+    {
+        "text": "the flash tube and if we put a really",
+        "start": 46.829,
+        "duration": 5.101
+    },
+    {
+        "text": "fast rising edge high voltage pulse on",
+        "start": 49.079,
+        "duration": 5.191
+    },
+    {
+        "text": "that trigger line it will ionize the",
+        "start": 51.93,
+        "duration": 4.8
+    },
+    {
+        "text": "glut of the gas through the glass of the",
+        "start": 54.27,
+        "duration": 4.74
+    },
+    {
+        "text": "flash tube and then lower the resistance",
+        "start": 56.73,
+        "duration": 4.59
+    },
+    {
+        "text": "and suddenly all of that power that's in",
+        "start": 59.01,
+        "duration": 4.529
+    },
+    {
+        "text": "the capacitor bank can discharge through",
+        "start": 61.32,
+        "duration": 4.71
+    },
+    {
+        "text": "the flash tube the trick is that if your",
+        "start": 63.539,
+        "duration": 5.431
+    },
+    {
+        "text": "flash tube is very long you need a very",
+        "start": 66.03,
+        "duration": 5.519
+    },
+    {
+        "text": "high triggering voltage to ionize all of",
+        "start": 68.97,
+        "duration": 4.89
+    },
+    {
+        "text": "that gas in there so this particular",
+        "start": 71.549,
+        "duration": 4.081
+    },
+    {
+        "text": "flash tube over here is actually",
+        "start": 73.86,
+        "duration": 4.95
+    },
+    {
+        "text": "relatively easy to trigger very small",
+        "start": 75.63,
+        "duration": 4.98
+    },
+    {
+        "text": "flash tubes are even easier to trigger",
+        "start": 78.81,
+        "duration": 3.419
+    },
+    {
+        "text": "just because there's less gas and less",
+        "start": 80.61,
+        "duration": 4.17
+    },
+    {
+        "text": "distance between the electrodes so for",
+        "start": 82.229,
+        "duration": 3.991
+    },
+    {
+        "text": "something like this little toy flash",
+        "start": 84.78,
+        "duration": 4.29
+    },
+    {
+        "text": "tube project the trigger transformer can",
+        "start": 86.22,
+        "duration": 5.46
+    },
+    {
+        "text": "be quite small this might take an input",
+        "start": 89.07,
+        "duration": 6.06
+    },
+    {
+        "text": "of 50 to a few hundred volts and output",
+        "start": 91.68,
+        "duration": 7.2
+    },
+    {
+        "text": "you know single-digit kilovolts for a",
+        "start": 95.13,
+        "duration": 5.849
+    },
+    {
+        "text": "professional flash unit there's a",
+        "start": 98.88,
+        "duration": 5.16
+    },
+    {
+        "text": "slightly larger flash transformer",
+        "start": 100.979,
+        "duration": 4.981
+    },
+    {
+        "text": "trigger transformer this one probably",
+        "start": 104.04,
+        "duration": 3.27
+    },
+    {
+        "text": "takes a few hundred volts in and",
+        "start": 105.96,
+        "duration": 5.88
+    },
+    {
+        "text": "generates maybe 10 or 20 kV however the",
+        "start": 107.31,
+        "duration": 6.419
+    },
+    {
+        "text": "circuit that I built is quite a bit more",
+        "start": 111.84,
+        "duration": 5.04
+    },
+    {
+        "text": "powerful I'm using a automotive ignition",
+        "start": 113.729,
+        "duration": 6.481
+    },
+    {
+        "text": "coil and dumping a 300 volt cap into it",
+        "start": 116.88,
+        "duration": 5.55
+    },
+    {
+        "text": "and this generates about three",
+        "start": 120.21,
+        "duration": 4.89
+    },
+    {
+        "text": "centimeter long sparks which should",
+        "start": 122.43,
+        "duration": 4.89
+    },
+    {
+        "text": "correspond to about 90 kV",
+        "start": 125.1,
+        "duration": 5.579
+    },
+    {
+        "text": "I need this high voltage in order to",
+        "start": 127.32,
+        "duration": 5.28
+    },
+    {
+        "text": "trigger these large flash tubes that I",
+        "start": 130.679,
+        "duration": 4.921
+    },
+    {
+        "text": "have for the Ruby laser project here's",
+        "start": 132.6,
+        "duration": 5.22
+    },
+    {
+        "text": "the basic circuit diagram we've got a",
+        "start": 135.6,
+        "duration": 4.77
+    },
+    {
+        "text": "300 volt rail coming in from the smaller",
+        "start": 137.82,
+        "duration": 5.25
+    },
+    {
+        "text": "electrophoresis power supply and this",
+        "start": 140.37,
+        "duration": 6.57
+    },
+    {
+        "text": "resistor is about 16 K ohm just to let",
+        "start": 143.07,
+        "duration": 5.19
+    },
+    {
+        "text": "the supply know that there's something",
+        "start": 146.94,
+        "duration": 3.66
+    },
+    {
+        "text": "there these electrophoresis power",
+        "start": 148.26,
+        "duration": 4.14
+    },
+    {
+        "text": "supplies are sometimes reluctant to",
+        "start": 150.6,
+        "duration": 4.43
+    },
+    {
+        "text": "start unless there's a load connected",
+        "start": 152.4,
+        "duration": 4.98
+    },
+    {
+        "text": "then I added this diode just to try to",
+        "start": 155.03,
+        "duration": 5.29
+    },
+    {
+        "text": "keep high voltage pulses from backing up",
+        "start": 157.38,
+        "duration": 6.0
+    },
+    {
+        "text": "into the supply and this resistor limits",
+        "start": 160.32,
+        "duration": 5.46
+    },
+    {
+        "text": "the charge rate of the main capacitor",
+        "start": 163.38,
+        "duration": 4.47
+    },
+    {
+        "text": "I think this capacitor is about three",
+        "start": 165.78,
+        "duration": 6.36
+    },
+    {
+        "text": "hundred microfarads at 350 volts the",
+        "start": 167.85,
+        "duration": 6.03
+    },
+    {
+        "text": "trigger circuit couldn't be simpler it's",
+        "start": 172.14,
+        "duration": 3.75
+    },
+    {
+        "text": "really just a switch and I put another",
+        "start": 173.88,
+        "duration": 3.87
+    },
+    {
+        "text": "smaller cap across the switch just to",
+        "start": 175.89,
+        "duration": 4.05
+    },
+    {
+        "text": "try to keep down destructive voltages",
+        "start": 177.75,
+        "duration": 4.41
+    },
+    {
+        "text": "should those be generated across the",
+        "start": 179.94,
+        "duration": 5.579
+    },
+    {
+        "text": "switch and closing the switch dumps that",
+        "start": 182.16,
+        "duration": 5.43
+    },
+    {
+        "text": "capacitor right into the induction coil",
+        "start": 185.519,
+        "duration": 5.22
+    },
+    {
+        "text": "or the ignition coil and we end up with",
+        "start": 187.59,
+        "duration": 6.0
+    },
+    {
+        "text": "a high voltage pulse out in this case",
+        "start": 190.739,
+        "duration": 5.191
+    },
+    {
+        "text": "the trigger line is that mesh of wire",
+        "start": 193.59,
+        "duration": 5.429
+    },
+    {
+        "text": "wrapped around all the flash tube in",
+        "start": 195.93,
+        "duration": 4.95
+    },
+    {
+        "text": "there and I've connected to it with this",
+        "start": 199.019,
+        "duration": 5.131
+    },
+    {
+        "text": "high voltage 30 kV silicon wire that",
+        "start": 200.88,
+        "duration": 5.25
+    },
+    {
+        "text": "goes into the ignition coil inside here",
+        "start": 204.15,
+        "duration": 3.929
+    },
+    {
+        "text": "so all you have to do to run it is just",
+        "start": 206.13,
+        "duration": 4.56
+    },
+    {
+        "text": "press the button and we get a nice flash",
+        "start": 208.079,
+        "duration": 4.641
+    },
+    {
+        "text": "out of it and I've also got my",
+        "start": 210.69,
+        "duration": 4.56
+    },
+    {
+        "text": "high-speed pin photodiode over there",
+        "start": 212.72,
+        "duration": 4.299
+    },
+    {
+        "text": "connected to the oscilloscope so we can",
+        "start": 215.25,
+        "duration": 3.84
+    },
+    {
+        "text": "see what the pulse of light looked like",
+        "start": 217.019,
+        "duration": 5.331
+    },
+    {
+        "text": "in terms of duration",
+        "start": 219.09,
+        "duration": 3.26
+    },
+    {
+        "text": "so to figure out the amount of energy",
+        "start": 223.13,
+        "duration": 4.77
+    },
+    {
+        "text": "per flash we've got a one-half CV",
+        "start": 225.26,
+        "duration": 6.45
+    },
+    {
+        "text": "squared C is 180 micro farad's those are",
+        "start": 227.9,
+        "duration": 5.55
+    },
+    {
+        "text": "those two strings of capacitors that I",
+        "start": 231.71,
+        "duration": 3.87
+    },
+    {
+        "text": "have wired up and the voltage is",
+        "start": 233.45,
+        "duration": 5.28
+    },
+    {
+        "text": "actually 1200 minus 150 which is the",
+        "start": 235.58,
+        "duration": 4.95
+    },
+    {
+        "text": "residual that's left in the capacitor",
+        "start": 238.73,
+        "duration": 4.62
+    },
+    {
+        "text": "bank after it fires and so we end up",
+        "start": 240.53,
+        "duration": 5.79
+    },
+    {
+        "text": "with about a hundred joules from the",
+        "start": 243.35,
+        "duration": 6.24
+    },
+    {
+        "text": "scope we can see that about 66 percent",
+        "start": 246.32,
+        "duration": 6.42
+    },
+    {
+        "text": "of this energy is a shot off in about",
+        "start": 249.59,
+        "duration": 4.89
+    },
+    {
+        "text": "two hundred seventy-five microseconds",
+        "start": 252.74,
+        "duration": 4.47
+    },
+    {
+        "text": "and then knowing that we can figure out",
+        "start": 254.48,
+        "duration": 4.38
+    },
+    {
+        "text": "what the effective resistance of the",
+        "start": 257.21,
+        "duration": 3.27
+    },
+    {
+        "text": "flash tube is and we get about an ohm",
+        "start": 258.86,
+        "duration": 3.69
+    },
+    {
+        "text": "and a half which is that's reasonable",
+        "start": 260.48,
+        "duration": 4.68
+    },
+    {
+        "text": "for flash tubes the effective resistance",
+        "start": 262.55,
+        "duration": 4.38
+    },
+    {
+        "text": "actually depends on the amount of",
+        "start": 265.16,
+        "duration": 4.32
+    },
+    {
+        "text": "current going through the flash tube so",
+        "start": 266.93,
+        "duration": 5.16
+    },
+    {
+        "text": "there's this K constant that describes",
+        "start": 269.48,
+        "duration": 4.77
+    },
+    {
+        "text": "what the effective resistance is",
+        "start": 272.09,
+        "duration": 5.19
+    },
+    {
+        "text": "depending on on the current flow in this",
+        "start": 274.25,
+        "duration": 4.62
+    },
+    {
+        "text": "case the current flow is probably not",
+        "start": 277.28,
+        "duration": 3.27
+    },
+    {
+        "text": "all that much since it's a relatively",
+        "start": 278.87,
+        "duration": 4.92
+    },
+    {
+        "text": "low power pulse in order to discharge",
+        "start": 280.55,
+        "duration": 5.61
+    },
+    {
+        "text": "the capacitor bank what I do is shut off",
+        "start": 283.79,
+        "duration": 5.37
+    },
+    {
+        "text": "the supply and then I have this 3300 ohm",
+        "start": 286.16,
+        "duration": 5.52
+    },
+    {
+        "text": "thick film capacitor which I can touch",
+        "start": 289.16,
+        "duration": 4.17
+    },
+    {
+        "text": "to the terminal here and draw a little",
+        "start": 291.68,
+        "duration": 4.14
+    },
+    {
+        "text": "arc off and this will actually discharge",
+        "start": 293.33,
+        "duration": 4.38
+    },
+    {
+        "text": "the bank slowly enough where it's easy",
+        "start": 295.82,
+        "duration": 5.34
+    },
+    {
+        "text": "to deal with okay so next time I'll have",
+        "start": 297.71,
+        "duration": 5.07
+    },
+    {
+        "text": "the real flash tube but I'm going to be",
+        "start": 301.16,
+        "duration": 3.69
+    },
+    {
+        "text": "using with the Ruby laser hooked up it's",
+        "start": 302.78,
+        "duration": 3.84
+    },
+    {
+        "text": "quite a bit bigger than this one even",
+        "start": 304.85,
+        "duration": 4.2
+    },
+    {
+        "text": "and hopefully it will be triggering",
+        "start": 306.62,
+        "duration": 4.2
+    },
+    {
+        "text": "reliably with that new larger trigger",
+        "start": 309.05,
+        "duration": 6.71
+    },
+    {
+        "text": "circuit okay see you next time bye",
+        "start": 310.82,
+        "duration": 4.94
+    }
+]

@@ -1,0 +1,2157 @@
+[
+    {
+        "text": "Alright, Brady so I've got for you a puzzle. It's about darts.",
+        "start": 0.03,
+        "duration": 3.36
+    },
+    {
+        "text": "It involves some higher dimensional geometry and a couple of the most famous numbers in math",
+        "start": 4.029,
+        "duration": 4.55
+    },
+    {
+        "text": "So I'll describe the game. We want to hit as many bullseyes as we can.",
+        "start": 10.0,
+        "duration": 3.559
+    },
+    {
+        "text": "So right now the bullseye is this tiny red thing, but that's too small,",
+        "start": 13.559,
+        "duration": 2.61
+    },
+    {
+        "text": "we're going to start with a giant bullseye that fills up the entirety of the board.",
+        "start": 16.17,
+        "duration": 3.18
+    },
+    {
+        "text": "I have a proper compass",
+        "start": 19.35,
+        "duration": 1.2
+    },
+    {
+        "text": "so I'm gonna go ahead and cut out a piece, just a piece of paper to indicate our enlarged bullseye.",
+        "start": 20.55,
+        "duration": 4.649
+    },
+    {
+        "text": "[laughs]\n- (Brady: That'll do)",
+        "start": 28.1,
+        "duration": 1.6
+    },
+    {
+        "text": "Not the greatest circle I've ever drawn. All you do is you try to hit the bullseye. Each time",
+        "start": 29.7,
+        "duration": 4.559
+    },
+    {
+        "text": "we hit it though, based on where our shot is the bullseye's gonna shrink.",
+        "start": 34.26,
+        "duration": 3.3
+    },
+    {
+        "text": "So it's gonna get harder and harder as we go. \n- (Brady: You're not gonna hit the wall are you?)",
+        "start": 37.96,
+        "duration": 3.06
+    },
+    {
+        "text": "I'm not *that* bad!",
+        "start": 41.02,
+        "duration": 1.0
+    },
+    {
+        "text": "Oh, okay\n- (Brady: Oh my goodness, hang on. That's amazing!)\n- Thank you very much, that is amazing. And you're kind of rewarded for a good shot.",
+        "start": 44.58,
+        "duration": 6.8
+    },
+    {
+        "text": "So let me tell you what the rule is for how we shrink it. So step one,",
+        "start": 51.61,
+        "duration": 3.859
+    },
+    {
+        "text": "I'm gonna draw a line from the center to where I hit. And maybe for the future I'm just gonna call that distance H.",
+        "start": 55.66,
+        "duration": 6.229
+    },
+    {
+        "text": "So that's the distance of my hit and then what I'm gonna do is draw a chord of the circle",
+        "start": 62.53,
+        "duration": 4.58
+    },
+    {
+        "text": "that's perpendicular to this line. That's our chord.",
+        "start": 67.24,
+        "duration": 2.599
+    },
+    {
+        "text": "And our rule is",
+        "start": 69.84,
+        "duration": 1.209
+    },
+    {
+        "text": "that the length of this chord is the new diameter of the circle, which in this case because I had a good shot - right? The",
+        "start": 71.049,
+        "duration": 6.65
+    },
+    {
+        "text": "shot was nice and close to the center, I'm rewarded by the fact that it's not going to shrink that much.",
+        "start": 77.7,
+        "duration": 3.63
+    },
+    {
+        "text": "(Brady: Is the center of the new circle where your dart hit or where the original - ?)\n- Great question. It's where the original centre was.",
+        "start": 82.81,
+        "duration": 7.01
+    },
+    {
+        "text": "All right",
+        "start": 89.82,
+        "duration": 0.54
+    },
+    {
+        "text": "so I'll draw a new circle where the original center was.",
+        "start": 90.36,
+        "duration": 2.069
+    },
+    {
+        "text": "Actually wish my shot was worse now because this is kind of too close to the edge, I mean you can kind of see it's, ",
+        "start": 92.74,
+        "duration": 4.97
+    },
+    {
+        "text": "it's barely smaller. \n- (Brady: Oh, yeah, so that's *just* trimming that circle down a bit)",
+        "start": 98.229,
+        "duration": 4.61
+    },
+    {
+        "text": "So I'm just gonna be giving it a little trim.",
+        "start": 102.84,
+        "duration": 1.779
+    },
+    {
+        "text": "This is like getting your hair cut,",
+        "start": 104.619,
+        "duration": 2.0
+    },
+    {
+        "text": "you know once every week or something like that. And presumably this means that the next shot is gonna be",
+        "start": 106.96,
+        "duration": 4.43
+    },
+    {
+        "text": "similarly difficult.",
+        "start": 112.119,
+        "duration": 2.0
+    },
+    {
+        "text": "This is actually fascinating because when I animate it then it's like oh boom the computer does it.",
+        "start": 114.729,
+        "duration": 4.069
+    },
+    {
+        "text": "And I'm not messing with the physical dartboard in any way. I think I'll stick to the animated style. For the sake of illustration",
+        "start": 118.96,
+        "duration": 5.989
+    },
+    {
+        "text": "I'm gonna try to make this a worse shot? ",
+        "start": 125.229,
+        "duration": 2.63
+    },
+    {
+        "text": "Okay.\n- (Brady: Oh my goodness!)",
+        "start": 130.09,
+        "duration": 2.0
+    },
+    {
+        "text": "So if I do the algorithm again,",
+        "start": 133.629,
+        "duration": 1.701
+    },
+    {
+        "text": "like this cord is a little bit shorter because we trimmed off the edges, right?",
+        "start": 135.33,
+        "duration": 3.269
+    },
+    {
+        "text": "And so it'll also be just a tiny bit smaller. So we kind of could run that again, but let me",
+        "start": 138.599,
+        "duration": 4.65
+    },
+    {
+        "text": "let me try to get a worse shot.",
+        "start": 143.769,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: You can't even do a bad one when you try!)",
+        "start": 145.769,
+        "duration": 2.0
+    },
+    {
+        "text": "Yeah, consistency is only a virtue if you're not a screw-up.",
+        "start": 148.0,
+        "duration": 2.629
+    },
+    {
+        "text": "So this one's nice and far away from the centre, and I'm going to be punished more because it's far away.",
+        "start": 152.83,
+        "duration": 4.669
+    },
+    {
+        "text": "So we'll do the same game. We'll take this off. We're going to make some cuts.",
+        "start": 157.54,
+        "duration": 2.9
+    },
+    {
+        "text": "Distance is h1. And so it'll be a chord of the big circle,",
+        "start": 161.62,
+        "duration": 3.649
+    },
+    {
+        "text": "perpendicular to that line.",
+        "start": 166.209,
+        "duration": 2.0
+    },
+    {
+        "text": "The chord defines the new diameter, but it's kind of easier to think of it as half",
+        "start": 170.56,
+        "duration": 3.86
+    },
+    {
+        "text": "the cord as defining the new radius, certainly if you're drawing with a compass. So I'll set my new radius,",
+        "start": 174.42,
+        "duration": 5.729
+    },
+    {
+        "text": "but this time because I was closer to the edge of my you know, quote-unquote bullseye that cord ends up smaller.",
+        "start": 180.22,
+        "duration": 5.179
+    },
+    {
+        "text": "So I'm punished which means that the new bullseye is meaningfully smaller.",
+        "start": 185.4,
+        "duration": 4.889
+    },
+    {
+        "text": "Smaller bullseye, play the same game. I'm going to set it up so that the centre is at the",
+        "start": 190.81,
+        "duration": 4.609
+    },
+    {
+        "text": "centre of the board. Now I'm gonna actually try to hit closer to the centre \nbecause I want more shots for a higher score.",
+        "start": 196.03,
+        "duration": 6.769
+    },
+    {
+        "text": "And I - I didn't hit close to the centre.",
+        "start": 204.099,
+        "duration": 2.15
+    },
+    {
+        "text": "(Brady: Ooh dear, you are going to get punished for that)",
+        "start": 206.249,
+        "duration": 2.651
+    },
+    {
+        "text": "So at this point, maybe you can already see how much that's gonna punish me,",
+        "start": 208.93,
+        "duration": 3.77
+    },
+    {
+        "text": "the idea that it's close to the edge means that the chord defining the new radius is going to be quite a bit smaller.",
+        "start": 213.03,
+        "duration": 6.75
+    },
+    {
+        "text": "Put it on the board...\n- (Brady: Now we see how good you are)\n- So far I've hit three, this is for a fourth.",
+        "start": 223.239,
+        "duration": 4.79
+    },
+    {
+        "text": "All right, I miss.",
+        "start": 231.73,
+        "duration": 1.93
+    },
+    {
+        "text": "(Brady: Oh dear, game over.)",
+        "start": 233.66,
+        "duration": 3.44
+    },
+    {
+        "text": "Game over. \n- (Brady: So what's - so your score for that game is three, because you hit three?)\n- I hit three",
+        "start": 237.1,
+        "duration": 5.35
+    },
+    {
+        "text": "I will say that would be the natural way to score it,",
+        "start": 242.45,
+        "duration": 2.639
+    },
+    {
+        "text": "based on what I want the answer to look like at the end here, you get one point just for playing.",
+        "start": 245.22,
+        "duration": 4.61
+    },
+    {
+        "text": "Okay? So you get one point just for playing and then one point for each bullseye that you hit.",
+        "start": 250.29,
+        "duration": 4.129
+    },
+    {
+        "text": "So in this case",
+        "start": 254.42,
+        "duration": 0.57
+    },
+    {
+        "text": "I got a score of four. You can say maybe you're - what we're counting is how many darts you throw in total?",
+        "start": 254.99,
+        "duration": 5.4
+    },
+    {
+        "text": "So I threw four darts and the fourth one happened to be a miss,",
+        "start": 260.459,
+        "duration": 3.23
+    },
+    {
+        "text": "whatever you want to do to artificially add one. You'll see why we like that at the end.",
+        "start": 263.79,
+        "duration": 3.079
+    },
+    {
+        "text": "All right, so I've defined the game, I haven't defined the puzzle yet.",
+        "start": 267.72,
+        "duration": 2.839
+    },
+    {
+        "text": "And so for the puzzle, let me just draw our board again, or at least draw a circle.",
+        "start": 270.56,
+        "duration": 4.619
+    },
+    {
+        "text": "All right, so we're gonna have a random darts player. So he throws at the board with some random distribution,",
+        "start": 275.18,
+        "duration": 3.9
+    },
+    {
+        "text": "we all do. \n- (Brady: But there's no skill here, there's no - there is absolutely no waiting for the skill)",
+        "start": 279.72,
+        "duration": 4.82
+    },
+    {
+        "text": "(it could - it's as likely to be anything?) This will be a very bad - in fact, so he throws it in a weird way.",
+        "start": 284.54,
+        "duration": 5.07
+    },
+    {
+        "text": "We're gonna think of the square that encompasses the board, and this is a little unrealistic because any real dart player, their distribution is probably",
+        "start": 289.76,
+        "duration": 7.58
+    },
+    {
+        "text": "rotationally symmetric, right? I mean, why would it care about the diagonal directions?",
+        "start": 297.36,
+        "duration": 3.74
+    },
+    {
+        "text": "But basically he hits it at a random point anywhere within a square encompassing, whatever our first circle was.",
+        "start": 301.38,
+        "duration": 6.649
+    },
+    {
+        "text": "Okay, so maybe you imagine that the whole dartboard is a square and then there'll be shrinking within that. That's my X coordinates,",
+        "start": 308.029,
+        "duration": 6.241
+    },
+    {
+        "text": "Y, and maybe let's say that this happens to be",
+        "start": 314.64,
+        "duration": 3.229
+    },
+    {
+        "text": "radius of 1 for the original circle because why not. The",
+        "start": 318.6,
+        "duration": 2.989
+    },
+    {
+        "text": "x-coordinate for this person is always going to be something between negative 1 and 1. And",
+        "start": 321.84,
+        "duration": 4.49
+    },
+    {
+        "text": "it'll just be completely uniform within that. So this would be the simplest thing to model on a computer. To do it",
+        "start": 326.82,
+        "duration": 6.049
+    },
+    {
+        "text": "you just choose two different numbers, each one between negative 1 and 1, where every one of those is equally probable.",
+        "start": 332.87,
+        "duration": 5.73
+    },
+    {
+        "text": "So every point in this whole square is equally probable. And that square doesn't shrink",
+        "start": 338.73,
+        "duration": 3.979
+    },
+    {
+        "text": "it's only the circle that shrinks. And the question is what's the expected score? Okay, so we want to know the expected",
+        "start": 342.71,
+        "duration": 6.96
+    },
+    {
+        "text": "score",
+        "start": 350.91,
+        "duration": 2.0
+    },
+    {
+        "text": "for this thrower.",
+        "start": 352.95,
+        "duration": 1.92
+    },
+    {
+        "text": "(Brady: So Grant, after you throw your first dart and the circle shrinks the square doesn't shrink with it?)",
+        "start": 354.87,
+        "duration": 7.13
+    },
+    {
+        "text": "It does not shrink,",
+        "start": 362.0,
+        "duration": 0.63
+    },
+    {
+        "text": "no, so the the distribution for the thrower is the same. You might imagine the dart bored itself",
+        "start": 362.63,
+        "duration": 5.099
+    },
+    {
+        "text": "which is fixed is square, and the bullseye is shrinking. Okay?",
+        "start": 367.729,
+        "duration": 3.149
+    },
+    {
+        "text": "Because otherwise",
+        "start": 371.55,
+        "duration": 0.979
+    },
+    {
+        "text": "it's gonna be the same probability for each shot and some viewers might be able to guess what that probability is,",
+        "start": 372.529,
+        "duration": 4.92
+    },
+    {
+        "text": "and it wouldn't be as interesting a problem. Another way to think about the expected score,",
+        "start": 377.449,
+        "duration": 3.989
+    },
+    {
+        "text": "imagine this random player plays a thousand games, right? Just what's his average score for those thousand games?",
+        "start": 382.199,
+        "duration": 5.63
+    },
+    {
+        "text": "Another way to think about it, is you say it's going to be the probability that the score is equal to 1",
+        "start": 389.729,
+        "duration": 7.13
+    },
+    {
+        "text": "times 1, for that score, plus the probability - ",
+        "start": 397.559,
+        "duration": 3.56
+    },
+    {
+        "text": "because remember the lowest score you can get is 1, because you get that 1 point just for playing - ",
+        "start": 401.61,
+        "duration": 3.589
+    },
+    {
+        "text": "the probability that the score is equal to 2, ",
+        "start": 405.419,
+        "duration": 2.299
+    },
+    {
+        "text": "times 2,",
+        "start": 408.24,
+        "duration": 1.709
+    },
+    {
+        "text": "plus the probability that the score is equal to 3 times 3, and so on.",
+        "start": 409.949,
+        "duration": 4.04
+    },
+    {
+        "text": "So what we need to figure out is all of these probabilities. In principle",
+        "start": 414.36,
+        "duration": 3.529
+    },
+    {
+        "text": "you could have a perfect game, right? If you hit in the center every single time and it never shrinks, you're hitting a perfect game.",
+        "start": 417.889,
+        "duration": 6.179
+    },
+    {
+        "text": "What we'll find is that, that's there's a probability of zero that you hit a",
+        "start": 425.039,
+        "duration": 4.489
+    },
+    {
+        "text": "bullseye infinitely many times,",
+        "start": 430.169,
+        "duration": 1.53
+    },
+    {
+        "text": "but it's also interesting how quickly does it shrink? Would a score of 10 be absurd or would that be maybe expected?",
+        "start": 431.699,
+        "duration": 5.929
+    },
+    {
+        "text": "(Brady: What is the probability of getting an exact bullseye? 'Cause an exact bull's eye is like)",
+        "start": 437.669,
+        "duration": 5.239
+    },
+    {
+        "text": "(presumably an infinitesimally small point?)\n- It's probability 0",
+        "start": 443.339,
+        "duration": 3.861
+    },
+    {
+        "text": "Yeah, so like one of those paradoxical facts about probability is you can have events that are possible,",
+        "start": 447.2,
+        "duration": 5.069
+    },
+    {
+        "text": "it's just probability 0,right? It's possible to hit an exact bullseye,",
+        "start": 452.33,
+        "duration": 3.869
+    },
+    {
+        "text": "it's just probability 0. You know if you choose a random number from the number line",
+        "start": 456.3,
+        "duration": 3.949
+    },
+    {
+        "text": "it's possible that it's rational but its probability 0 and this - a lot of people kind of",
+        "start": 460.249,
+        "duration": 4.44
+    },
+    {
+        "text": "try to come to philosophical terms with like - how can it be possible but probability 0 the probability would have to be slightly bigger.",
+        "start": 464.849,
+        "duration": 5.419
+    },
+    {
+        "text": "But it's just one of those things of math.",
+        "start": 470.399,
+        "duration": 2.24
+    },
+    {
+        "text": "All right, so anytime you're solving a puzzle that's hard and this is hard,",
+        "start": 474.319,
+        "duration": 3.45
+    },
+    {
+        "text": "you see if you can ask an easier version of it or some easy sub problem within it,",
+        "start": 477.779,
+        "duration": 3.95
+    },
+    {
+        "text": "what's the easiest thing you can get a foothold in, right? And maybe in this case the easiest question to start",
+        "start": 481.729,
+        "duration": 5.79
+    },
+    {
+        "text": "that's not totally trivial is what's the probability of hitting the first shot?",
+        "start": 487.52,
+        "duration": 4.739
+    },
+    {
+        "text": "And this isn't that your score is exactly equal to one,",
+        "start": 492.259,
+        "duration": 2.25
+    },
+    {
+        "text": "if you hit a first shot your score is greater than or equal to one. Or no",
+        "start": 494.689,
+        "duration": 3.48
+    },
+    {
+        "text": "actually because you do get that point for free, this is the probability that your score is greater than one. Actually",
+        "start": 498.33,
+        "duration": 4.669
+    },
+    {
+        "text": "maybe you can tell me, right?",
+        "start": 502.999,
+        "duration": 1.15
+    },
+    {
+        "text": "What's the probability that on this first shot, with this random distribution within the square, it hits somewhere inside this whole circle?",
+        "start": 504.149,
+        "duration": 6.68
+    },
+    {
+        "text": "(Brady: I'm imagining we we need the area of the circle and the area of the square?)\n- Yep, the area of the circle,",
+        "start": 510.83,
+        "duration": 5.819
+    },
+    {
+        "text": "this is pi r squared and that radius starts off as 1.",
+        "start": 516.659,
+        "duration": 3.53
+    },
+    {
+        "text": "So that ends up just being pi. And the area of the square is equal to, well",
+        "start": 520.349,
+        "duration": 5.15
+    },
+    {
+        "text": "the square side length is 2 times that radius right? So it's 2 by 2.",
+        "start": 525.5,
+        "duration": 3.479
+    },
+    {
+        "text": "So it's 4 which means the probability that you hit",
+        "start": 529.019,
+        "duration": 4.01
+    },
+    {
+        "text": "that first bullseye, that your score will be greater than 1 because you get that one point for you just for playing,",
+        "start": 533.49,
+        "duration": 4.429
+    },
+    {
+        "text": "is gonna be the area of that circle",
+        "start": 538.47,
+        "duration": 2.45
+    },
+    {
+        "text": "divided by the area of that square. \n- (Brady: Grant, what happens if the dart lands on the line?)\n- That's probability 0.",
+        "start": 541.47,
+        "duration": 5.27
+    },
+    {
+        "text": "Don't worry about it, it won't mess with the problem. So now a much, a much harder question is",
+        "start": 547.26,
+        "duration": 4.789
+    },
+    {
+        "text": "okay, you've hit that first shot,",
+        "start": 552.05,
+        "duration": 1.769
+    },
+    {
+        "text": "what's the probability that you hit at least 2? And this is where it starts to become",
+        "start": 553.819,
+        "duration": 3.72
+    },
+    {
+        "text": "interesting. Because this depends on where your first shot was.",
+        "start": 557.61,
+        "duration": 2.869
+    },
+    {
+        "text": "I'm gonna start writing a little bit of a chart,",
+        "start": 560.48,
+        "duration": 2.0
+    },
+    {
+        "text": "where I'm gonna keep track of the radius of each bullseye and I'm gonna keep track of just the hit length,",
+        "start": 562.709,
+        "duration": 5.809
+    },
+    {
+        "text": "at each point. And so the radius starts off as 1 and that first hit, it's, it's a it's a random point.",
+        "start": 568.769,
+        "duration": 6.44
+    },
+    {
+        "text": "Let's just give it a name for now",
+        "start": 575.399,
+        "duration": 2.0
+    },
+    {
+        "text": "Let's say it goes there. That's H_0. So it will be H_0 and",
+        "start": 578.43,
+        "duration": 4.639
+    },
+    {
+        "text": "by the Pythagorean theorem, if",
+        "start": 584.13,
+        "duration": 2.0
+    },
+    {
+        "text": "we want to describe what this is in terms of x and y, which will be helpful for later on to be thinking of it",
+        "start": 586.139,
+        "duration": 4.82
+    },
+    {
+        "text": "in terms of that,",
+        "start": 590.959,
+        "duration": 1.271
+    },
+    {
+        "text": "it's the square root of x squared, plus y squared if those are the coordinates of your first shot. And",
+        "start": 592.23,
+        "duration": 7.219
+    },
+    {
+        "text": "because we're going to have other shots I'm also going to give these guys a subscript. So now it's a geometry question to ask",
+        "start": 599.759,
+        "duration": 5.66
+    },
+    {
+        "text": "what's the new radius?",
+        "start": 605.42,
+        "duration": 1.669
+    },
+    {
+        "text": "Well, maybe we call this our zeroth radius, right?",
+        "start": 607.089,
+        "duration": 2.609
+    },
+    {
+        "text": "And I want to know what's the next radius after that initial shot?",
+        "start": 609.769,
+        "duration": 4.19
+    },
+    {
+        "text": "And if we remember our rule, we say you draw the chord and the chord was defined to be perpendicular to that.",
+        "start": 613.959,
+        "duration": 6.929
+    },
+    {
+        "text": "So when you know that it's defined to be perpendicular",
+        "start": 620.899,
+        "duration": 2.029
+    },
+    {
+        "text": "you know that you're probably going to use that fact in your solution to the puzzle.",
+        "start": 623.269,
+        "duration": 4.19
+    },
+    {
+        "text": "So the new radius is this length here, right? It's half of that chord.",
+        "start": 628.129,
+        "duration": 4.94
+    },
+    {
+        "text": "So what we might do, and I recognise I'll sort of be drawing over myself a bit here,",
+        "start": 633.069,
+        "duration": 4.709
+    },
+    {
+        "text": "because we have a right triangle here and that's what defined it we're gonna use the",
+        "start": 639.889,
+        "duration": 4.399
+    },
+    {
+        "text": "Pythagorean theorem. Because this was our old radius, radius one. That's the new hypotenuse so we know that",
+        "start": 644.929,
+        "duration": 6.02
+    },
+    {
+        "text": "the old hypotenuse, 1 squared, is equal to one of the legs which was H naught squared,",
+        "start": 651.829,
+        "duration": 6.44
+    },
+    {
+        "text": "plus the new radius squared plus",
+        "start": 659.569,
+        "duration": 2.57
+    },
+    {
+        "text": "r_1 squared. So what that means for what r1 is, is",
+        "start": 662.929,
+        "duration": 3.59
+    },
+    {
+        "text": "it's the square root of",
+        "start": 667.189,
+        "duration": 2.059
+    },
+    {
+        "text": "1 squared minus h naught squared and",
+        "start": 669.829,
+        "duration": 2.119
+    },
+    {
+        "text": "remember",
+        "start": 672.259,
+        "duration": 0.5
+    },
+    {
+        "text": "the only way that you're even getting to this point is this h naught was less than 1, if you've got that first one in",
+        "start": 672.759,
+        "duration": 4.83
+    },
+    {
+        "text": "the bullseye. So this will be nice and well defined, no imaginary numbers or anything like that. Similarly now, we're gonna have a new shot",
+        "start": 677.589,
+        "duration": 6.0
+    },
+    {
+        "text": "it's determined by two new random coordinates, whatever the coordinates of your second shot",
+        "start": 684.199,
+        "duration": 5.179
+    },
+    {
+        "text": "happen to be or the coordinates of the next shot, maybe I should say. And this is an interesting question,",
+        "start": 689.929,
+        "duration": 4.7
+    },
+    {
+        "text": "what's the probability that you get that second one in? Because it depends on four different numbers, right?",
+        "start": 694.629,
+        "duration": 4.44
+    },
+    {
+        "text": "So I think it's helpful to just write out what the, what the actual requirement is.",
+        "start": 699.379,
+        "duration": 3.919
+    },
+    {
+        "text": "h1, the hit in that second shot, is less than r1. And I can go ahead and rewrite that by saying",
+        "start": 703.669,
+        "duration": 5.179
+    },
+    {
+        "text": "h1 squared is less than r1 squared and the reason is we have a whole bunch of squares going on,",
+        "start": 709.399,
+        "duration": 5.75
+    },
+    {
+        "text": "maybe that's going to be helpful for us. Right because I can expand out what h1 squared is, that's x1 squared plus",
+        "start": 715.149,
+        "duration": 6.9
+    },
+    {
+        "text": "y1 squared and that has to be less than, well what is r1 squared?",
+        "start": 722.629,
+        "duration": 4.19
+    },
+    {
+        "text": "That's 1 squared minus",
+        "start": 727.429,
+        "duration": 2.0
+    },
+    {
+        "text": "h naught squared. And then I can also expand out h naught",
+        "start": 730.369,
+        "duration": 3.32
+    },
+    {
+        "text": "so I'll be writing this as x1 squared plus",
+        "start": 734.599,
+        "duration": 2.33
+    },
+    {
+        "text": "y1 squared is less than 1 squared minus",
+        "start": 737.929,
+        "duration": 3.5
+    },
+    {
+        "text": "x-naught squared",
+        "start": 742.85,
+        "duration": 1.47
+    },
+    {
+        "text": "plus y naught squared.",
+        "start": 744.32,
+        "duration": 2.509
+    },
+    {
+        "text": "So all I'm doing is saying I want to explicitly write out what the requirement is for the four coordinates of my",
+        "start": 746.959,
+        "duration": 7.1
+    },
+    {
+        "text": "initial random shot. And now I have a bit of an interesting question,",
+        "start": 754.37,
+        "duration": 3.109
+    },
+    {
+        "text": "I might rearrange this so that all of my x's and y's are on one side and the 1 is just on the other.",
+        "start": 757.93,
+        "duration": 3.869
+    },
+    {
+        "text": "What I have is that  xnaught squared",
+        "start": 762.23,
+        "duration": 2.0
+    },
+    {
+        "text": "plus y naught squared, you know bringing these two over to the other side,",
+        "start": 764.75,
+        "duration": 3.559
+    },
+    {
+        "text": "plus x1 squared plus y1 squared is",
+        "start": 769.01,
+        "duration": 4.039
+    },
+    {
+        "text": "less than 1. What's the probability that this happens",
+        "start": 773.449,
+        "duration": 3.74
+    },
+    {
+        "text": "when all these four numbers were chosen randomly within the range negative 1 to 1?",
+        "start": 777.529,
+        "duration": 5.299
+    },
+    {
+        "text": "So at this point that's kind of a hard question right? I tell you",
+        "start": 782.839,
+        "duration": 3.559
+    },
+    {
+        "text": "choose four random numbers. We're gonna add up their squares. What's the probability that they're less than 1? And you think to yourself",
+        "start": 786.949,
+        "duration": 5.75
+    },
+    {
+        "text": "oh, I don't know, you know if they were all less than 0.5 I guess that would happen?",
+        "start": 792.699,
+        "duration": 3.42
+    },
+    {
+        "text": "But if one of them was 0.9 that doesn't throw everything off because the others could be quite small. And to think about this",
+        "start": 796.639,
+        "duration": 5.39
+    },
+    {
+        "text": "let's just think about the very first situation where instead of doing it for h1 and r1;",
+        "start": 802.029,
+        "duration": 4.53
+    },
+    {
+        "text": "when we're over here doing it for what seems like a much simpler situation and it was,",
+        "start": 807.319,
+        "duration": 3.5
+    },
+    {
+        "text": "the probability that  h naught is less than r naught which is just saying that x naught squared",
+        "start": 811.01,
+        "duration": 5.899
+    },
+    {
+        "text": "plus y naught squared is less than 1.",
+        "start": 817.37,
+        "duration": 2.599
+    },
+    {
+        "text": "We have a purely analytic statement, choose two numbers out of a hat based on this rule,",
+        "start": 820.43,
+        "duration": 4.339
+    },
+    {
+        "text": "what's the probability that the sum of their squares is less than 1? You answered it, geometrically. You immediately knew",
+        "start": 824.769,
+        "duration": 5.94
+    },
+    {
+        "text": "oh, we need to use pi. We're thinking of the area of the circle, right?",
+        "start": 830.709,
+        "duration": 3.179
+    },
+    {
+        "text": "And it's actually quite subtle what's happening there,",
+        "start": 834.41,
+        "duration": 1.85
+    },
+    {
+        "text": "you have a question about a pair of numbers and you're gaining",
+        "start": 836.26,
+        "duration": 2.579
+    },
+    {
+        "text": "intuition and using facts that we've discovered in math, like the area of a circle. By thinking of that not as two separate entities",
+        "start": 839.06,
+        "duration": 6.589
+    },
+    {
+        "text": "but as a single point in",
+        "start": 845.839,
+        "duration": 2.0
+    },
+    {
+        "text": "2-dimensional space. That might sound obvious, the reason I'm hammering down on it is look at what we have over here. Four separate numbers,",
+        "start": 848.029,
+        "duration": 6.26
+    },
+    {
+        "text": "what you're asking for is a probabilistic property of these four numbers.",
+        "start": 854.569,
+        "duration": 3.95
+    },
+    {
+        "text": "It might be natural to think of them as being a single point x naught, y naught.",
+        "start": 859.49,
+        "duration": 6.709
+    },
+    {
+        "text": "x1y1 inside 4 dimensional space.",
+        "start": 868.059,
+        "duration": 3.59
+    },
+    {
+        "text": "And it's basically a space that has four real number coordinates. And so now Brady",
+        "start": 874.179,
+        "duration": 3.98
+    },
+    {
+        "text": "let me ask you, what's the analogous question? In the same way that asking what's the probability that the sum of two",
+        "start": 878.16,
+        "duration": 5.219
+    },
+    {
+        "text": "random numbers is less than one,",
+        "start": 883.379,
+        "duration": 2.0
+    },
+    {
+        "text": "begs the question of what the area of a circle is.",
+        "start": 885.999,
+        "duration": 2.36
+    },
+    {
+        "text": "When we ask what's the probability that the sum of four",
+        "start": 889.509,
+        "duration": 2.51
+    },
+    {
+        "text": "squares is less than 1. What do you want to know?",
+        "start": 892.72,
+        "duration": 3.079
+    },
+    {
+        "text": "(Brady: Well I was how do you think we were gonna end up using a)",
+        "start": 895.9,
+        "duration": 2.439
+    },
+    {
+        "text": "(cube and a sphere, but I feel like we've jumped past - )",
+        "start": 898.54,
+        "duration": 2.179
+    },
+    {
+        "text": "We've jumped! We've jumped! The whole idea that, hey if I choose three random numbers x squared, y squared, z squared,",
+        "start": 900.79,
+        "duration": 5.779
+    },
+    {
+        "text": "what's the probability that they're less than 1? If they're chosen by the same rule",
+        "start": 907.36,
+        "duration": 3.739
+    },
+    {
+        "text": "what you're going to be asking for is the volume of a sphere,",
+        "start": 911.319,
+        "duration": 3.35
+    },
+    {
+        "text": "because what it means for the sum of their squares to be less than 1 is that they sit inside a unit sphere.",
+        "start": 914.92,
+        "duration": 4.609
+    },
+    {
+        "text": "The volume of a sphere is",
+        "start": 923.47,
+        "duration": 2.0
+    },
+    {
+        "text": "4 thirds",
+        "start": 925.899,
+        "duration": 1.321
+    },
+    {
+        "text": "pi r",
+        "start": 927.22,
+        "duration": 1.409
+    },
+    {
+        "text": "cubed. r is just going to equal 1. So that's 4/3 pi. That's the",
+        "start": 928.629,
+        "duration": 4.669
+    },
+    {
+        "text": "volume of a sphere. The volume of the cube which",
+        "start": 933.91,
+        "duration": 3.109
+    },
+    {
+        "text": "is 2 by 2 by 2, is going to be 2 cubed,",
+        "start": 937.569,
+        "duration": 3.83
+    },
+    {
+        "text": "which is 8.",
+        "start": 941.399,
+        "duration": 1.75
+    },
+    {
+        "text": "So if we were asking an analogous question where 3 dimensions happened to pop up you would just divide these two numbers. You would have",
+        "start": 943.149,
+        "duration": 6.08
+    },
+    {
+        "text": "4/3 pi, divided by 8. Which would be pi sixths. You'll see it's actually quite helpful that we're gonna skip over odd numbered dimensions",
+        "start": 949.23,
+        "duration": 6.839
+    },
+    {
+        "text": "here. And so here we went straight from 2 to 4,",
+        "start": 956.069,
+        "duration": 2.19
+    },
+    {
+        "text": "the question that we want to ask right now is what's the volume of a 4 dimensional sphere? Or the 4-dimensional",
+        "start": 959.049,
+        "duration": 5.39
+    },
+    {
+        "text": "equivalent of volume. Instead of saying hyper volume or coming up with a new word, they just say volume.",
+        "start": 964.809,
+        "duration": 4.1
+    },
+    {
+        "text": "You could fancifully say measure, but we're just gonna say volume of a",
+        "start": 968.91,
+        "duration": 4.2
+    },
+    {
+        "text": "4d sphere. And again",
+        "start": 973.6,
+        "duration": 2.0
+    },
+    {
+        "text": "if you wanted to be pedantic, the mathematician might actually say ball? Because when they use the word sphere",
+        "start": 975.6,
+        "duration": 4.5
+    },
+    {
+        "text": "they typically refer to the boundary right? It's just the peel of the orange. It's not the contents of the orange.",
+        "start": 980.379,
+        "duration": 5.539
+    },
+    {
+        "text": "So what we really want is the ball. The other thing that we need is the volume of a 4d cube.",
+        "start": 985.919,
+        "duration": 3.9
+    },
+    {
+        "text": "The cube is the easy one. Just like in the other cases the side lengths are all 2, 2, by 2, by 2,",
+        "start": 990.249,
+        "duration": 5.48
+    },
+    {
+        "text": "by 2.",
+        "start": 996.309,
+        "duration": 1.171
+    },
+    {
+        "text": "So that volume is 16. Volume of the sphere,",
+        "start": 997.48,
+        "duration": 2.46
+    },
+    {
+        "text": "there's a whole interesting discussion that we could have about the volumes of higher dimensional spheres,",
+        "start": 1000.07,
+        "duration": 4.489
+    },
+    {
+        "text": "the surface areas, or the analogs of surface areas of higher dimensional spheres, and where they come from.",
+        "start": 1004.56,
+        "duration": 3.66
+    },
+    {
+        "text": "I'm not going to give you that full story now, maybe at some other point.",
+        "start": 1008.62,
+        "duration": 3.47
+    },
+    {
+        "text": "It happens to be the case that it is pi squared halves",
+        "start": 1012.16,
+        "duration": 4.579
+    },
+    {
+        "text": "times r to the fourth. So it picks up an extra pi.",
+        "start": 1017.29,
+        "duration": 4.22
+    },
+    {
+        "text": "Which is kind of interesting, when you go from 2 to 3, you don't pick up that pi",
+        "start": 1021.58,
+        "duration": 2.989
+    },
+    {
+        "text": "but when you go from 3 to 4 you pick up that extra pi. And because our radius is 1, in this case",
+        "start": 1024.569,
+        "duration": 4.65
+    },
+    {
+        "text": "that'll just be pi squared halves. And let's remember what this is.",
+        "start": 1029.22,
+        "duration": 4.26
+    },
+    {
+        "text": "This isn't the probability of hitting exactly two shots, right? It's that you hit those first two shots,",
+        "start": 1033.48,
+        "duration": 5.339
+    },
+    {
+        "text": "so it's the probability that your score is at least two. Maybe it also happens to be three or four,",
+        "start": 1038.819,
+        "duration": 4.17
+    },
+    {
+        "text": "so we can write our answer here. The probability that our score is greater than or equal to two is equal to",
+        "start": 1043.449,
+        "duration": 5.33
+    },
+    {
+        "text": "pi squared, and I'm going to actually write it as being over like this, 16 as 2 to the fourth, just to remember where it came from.",
+        "start": 1049.72,
+        "duration": 7.08
+    },
+    {
+        "text": "So this was kind of the, the",
+        "start": 1058.12,
+        "duration": 1.74
+    },
+    {
+        "text": "cube, or the hypercube. And then times 2.",
+        "start": 1059.86,
+        "duration": 3.079
+    },
+    {
+        "text": "Where that was the denominator that we had from our volume of the 4d ball. And now we just keep doing this",
+        "start": 1063.19,
+        "duration": 5.27
+    },
+    {
+        "text": "for all infinitely many different scores that we might have. Very similarly when we're asking about",
+        "start": 1068.65,
+        "duration": 5.15
+    },
+    {
+        "text": "the probability that our score is at least 3 or that it's bigger than 3,",
+        "start": 1073.99,
+        "duration": 4.94
+    },
+    {
+        "text": "what this comes down to is asking - we're going to have 6 different coordinates: x naught, y naught,",
+        "start": 1079.24,
+        "duration": 5.63
+    },
+    {
+        "text": "x1, y1, x2, y2; and that the sum of their squares is less than 1.",
+        "start": 1086.2,
+        "duration": 8.059
+    },
+    {
+        "text": "(Brady: I don't know how to calculate the volume of a six dimensional ball)\n- No! Luckily",
+        "start": 1101.98,
+        "duration": 4.88
+    },
+    {
+        "text": "mathematicians have figured it out for us. And again, it could be a whole interesting story,",
+        "start": 1107.41,
+        "duration": 2.989
+    },
+    {
+        "text": "but if you go to Wikipedia, you could see a chart,",
+        "start": 1110.4,
+        "duration": 1.86
+    },
+    {
+        "text": "there's quite a nice pattern that we're gonna - about to point out for, where that comes from.",
+        "start": 1112.26,
+        "duration": 3.27
+    },
+    {
+        "text": "But the volume of a 6d ball happens to be pi cubed, over",
+        "start": 1115.9,
+        "duration": 5.93
+    },
+    {
+        "text": "six times r",
+        "start": 1122.59,
+        "duration": 2.0
+    },
+    {
+        "text": "to the 6. And then the volume of the 6d cube is of course 2 to the 6, and",
+        "start": 1124.93,
+        "duration": 5.719
+    },
+    {
+        "text": "so the answer to the probability of hitting those first three shots, is going to be pi cubed",
+        "start": 1131.08,
+        "duration": 5.479
+    },
+    {
+        "text": "divided by that 2 to the 6 and",
+        "start": 1138.16,
+        "duration": 1.98
+    },
+    {
+        "text": "then what its denominator was, which was the 6. Because that r ends up being 1. And now I'll tell you the more general fact,",
+        "start": 1140.14,
+        "duration": 5.96
+    },
+    {
+        "text": "which is pretty mind-blowing. Is that the volume of a 2n ball is equal to",
+        "start": 1146.53,
+        "duration": 6.14
+    },
+    {
+        "text": "pi to the n, so half of the dimension, right? So in 2 dimensions you see a pi, in 4 dimensions",
+        "start": 1153.46,
+        "duration": 5.51
+    },
+    {
+        "text": "you see a pi squared, and six you see pi cubed.",
+        "start": 1158.97,
+        "duration": 2.0
+    },
+    {
+        "text": "So pi to half the number of dimensions, divided by n factorial. Very clean,",
+        "start": 1161.26,
+        "duration": 4.82
+    },
+    {
+        "text": "very beautiful. Very reminiscent of another celebrity real number that a couple people might be familiar with now and that might be",
+        "start": 1166.08,
+        "duration": 7.559
+    },
+    {
+        "text": "poking in their minds.",
+        "start": 1173.83,
+        "duration": 1.13
+    },
+    {
+        "text": "But if it's not we'll get to it in just a moment. Given this as a fact that we'll just hand down from on high,",
+        "start": 1174.96,
+        "duration": 5.069
+    },
+    {
+        "text": "let's figure out the expected score.",
+        "start": 1181.06,
+        "duration": 2.0
+    },
+    {
+        "text": "(Brady: Please, that's what I'm here for!)",
+        "start": 1183.06,
+        "duration": 1.66
+    },
+    {
+        "text": "Great. First let me get a cup of water.",
+        "start": 1184.72,
+        "duration": 3.139
+    },
+    {
+        "text": "[Hold music]",
+        "start": 1187.859,
+        "duration": 2.0
+    },
+    {
+        "text": "Alright, are you ready for the grand finale? \n- (Brady: Yeah!)\n- The finishing touch.",
+        "start": 1192.79,
+        "duration": 3.26
+    },
+    {
+        "text": "It's, it seems like it'll be chaotic but it'll collapse in the most wonderful of ways. So the expected score. Expected score,",
+        "start": 1196.05,
+        "duration": 6.239
+    },
+    {
+        "text": "now remember what this means, we're gonna have - it's going to be 1 times the probability that your score is 1,",
+        "start": 1203.59,
+        "duration": 5.359
+    },
+    {
+        "text": "plus 2 times the probability that your score is 2,",
+        "start": 1210.43,
+        "duration": 3.559
+    },
+    {
+        "text": "plus 3 times the probability that your score is 3, and so on.",
+        "start": 1215.17,
+        "duration": 5.18
+    },
+    {
+        "text": "Now all of our expressions are greater than things.",
+        "start": 1221.32,
+        "duration": 3.319
+    },
+    {
+        "text": "They're not saying exactly equal to, but that's completely fine. Because if I wanted to say for example",
+        "start": 1224.64,
+        "duration": 4.56
+    },
+    {
+        "text": "what's the probability that your score is precisely equal to 2?",
+        "start": 1229.77,
+        "duration": 3.18
+    },
+    {
+        "text": "So this will be your probability that your score is greater than 1 right?",
+        "start": 1234.01,
+        "duration": 4.099
+    },
+    {
+        "text": "Minus the probability that the score is",
+        "start": 1238.9,
+        "duration": 2.93
+    },
+    {
+        "text": "greater than 2. Because for it to equal 2 it's greater than 1, but it's not greater than 2 and this entirely",
+        "start": 1242.26,
+        "duration": 6.109
+    },
+    {
+        "text": "encompasses the possibilities, right?",
+        "start": 1248.71,
+        "duration": 1.55
+    },
+    {
+        "text": "If you're probably if you get a score of greater than 1, that",
+        "start": 1250.26,
+        "duration": 2.79
+    },
+    {
+        "text": "encompasses all the possibilities of getting a score greater than 2, so it's okay to just subtract this off. We don't have to",
+        "start": 1253.36,
+        "duration": 4.94
+    },
+    {
+        "text": "do anything more than that.",
+        "start": 1259.09,
+        "duration": 1.83
+    },
+    {
+        "text": "So I'm gonna expand all of these out just a little bit before things collapse nicely. So this would be 1",
+        "start": 1260.92,
+        "duration": 6.439
+    },
+    {
+        "text": "times",
+        "start": 1268.12,
+        "duration": 1.5
+    },
+    {
+        "text": "the probability",
+        "start": 1269.62,
+        "duration": 1.83
+    },
+    {
+        "text": "that the score is bigger than 0,",
+        "start": 1271.45,
+        "duration": 2.149
+    },
+    {
+        "text": "minus probability that the score is bigger than 1,",
+        "start": 1274.45,
+        "duration": 3.859
+    },
+    {
+        "text": "plus 2",
+        "start": 1278.95,
+        "duration": 1.44
+    },
+    {
+        "text": "times",
+        "start": 1280.39,
+        "duration": 1.26
+    },
+    {
+        "text": "probability that the score is bigger than 1",
+        "start": 1281.65,
+        "duration": 2.959
+    },
+    {
+        "text": "minus the probability that the score is bigger than 2. And just one more for good measure,",
+        "start": 1285.22,
+        "duration": 5.63
+    },
+    {
+        "text": "probability that the score that's bigger than 2",
+        "start": 1292.24,
+        "duration": 2.27
+    },
+    {
+        "text": "minus the probability that the score is bigger than 3. So at this point we have a lot of cancellation that happens.",
+        "start": 1295.48,
+        "duration": 6.53
+    },
+    {
+        "text": "So we've got this probability that",
+        "start": 1302.01,
+        "duration": 1.38
+    },
+    {
+        "text": "your score is bigger than 0 that just stays on its own. For the probability that it's bigger than 1 we're subtracting one here",
+        "start": 1303.39,
+        "duration": 6.42
+    },
+    {
+        "text": "but then we're adding two of them over here. So we've got",
+        "start": 1309.82,
+        "duration": 3.229
+    },
+    {
+        "text": "probability that the score is greater than 1 and then similarly for score bigger than 2 we're subtracting 2 here",
+        "start": 1313.96,
+        "duration": 7.52
+    },
+    {
+        "text": "but we're adding 3 back here. And so we're just going to be adding",
+        "start": 1321.79,
+        "duration": 3.229
+    },
+    {
+        "text": "probability for the score is bigger than 2 And in general",
+        "start": 1326.17,
+        "duration": 3.229
+    },
+    {
+        "text": "all we're doing is adding up all of the numbers that we just saw. All of those fun things involving pi. Because with the 3",
+        "start": 1329.4,
+        "duration": 5.67
+    },
+    {
+        "text": "we're subtracting 3, but in the next one we'll be adding 4, and so on.",
+        "start": 1335.29,
+        "duration": 3.169
+    },
+    {
+        "text": "So every puzzle that we just had, every micro puzzle, we just add up all of their answers.",
+        "start": 1339.7,
+        "duration": 3.529
+    },
+    {
+        "text": "So the probability that your score is at least zero,",
+        "start": 1345.46,
+        "duration": 2.989
+    },
+    {
+        "text": "that's 1, because definitely your score is bigger than zero because you get a point just for playing.",
+        "start": 1348.64,
+        "duration": 3.949
+    },
+    {
+        "text": "Probability that it's bigger than 1, that's the one that you answered for me first.",
+        "start": 1353.02,
+        "duration": 3.41
+    },
+    {
+        "text": "Which was saying that it's pi divided by 4. The next one,",
+        "start": 1356.62,
+        "duration": 3.56
+    },
+    {
+        "text": "so I'm actually going to write this slightly differently because we always have some power of pi divided by some power of two.",
+        "start": 1360.18,
+        "duration": 6.329
+    },
+    {
+        "text": "I'm going to write this as being",
+        "start": 1367.3,
+        "duration": 2.0
+    },
+    {
+        "text": "PI fourths",
+        "start": 1369.55,
+        "duration": 2.0
+    },
+    {
+        "text": "squared",
+        "start": 1371.89,
+        "duration": 1.23
+    },
+    {
+        "text": "divided by 2. Is that all right? So that 4 squared came from - that's the same as 2 to the fourth",
+        "start": 1373.12,
+        "duration": 5.839
+    },
+    {
+        "text": "and then the pi squared just went in there. And so I'm going to write it here as",
+        "start": 1379.15,
+        "duration": 3.589
+    },
+    {
+        "text": "pi",
+        "start": 1384.25,
+        "duration": 1.14
+    },
+    {
+        "text": "fourths",
+        "start": 1385.39,
+        "duration": 1.5
+    },
+    {
+        "text": "squared",
+        "start": 1386.89,
+        "duration": 1.29
+    },
+    {
+        "text": "times 1 over 2. And then the next one we had up here. And again, I'm gonna write it in terms of pi fourths.",
+        "start": 1388.18,
+        "duration": 7.099
+    },
+    {
+        "text": "Rather than writing pi cubed over 2 to the sixth, which is the same as pi cubed over 4 cubed,",
+        "start": 1397.63,
+        "duration": 4.64
+    },
+    {
+        "text": "I'm gonna write it as pi over 4 cubed. And",
+        "start": 1402.64,
+        "duration": 2.869
+    },
+    {
+        "text": "6 is really 3 factorial - like the reason that we see the 2 and then the 6, it's coming from this general pattern of",
+        "start": 1406.24,
+        "duration": 6.709
+    },
+    {
+        "text": "hanging, of having a factorial. So over here we've got",
+        "start": 1413.23,
+        "duration": 2.54
+    },
+    {
+        "text": "pi over 4",
+        "start": 1417.31,
+        "duration": 2.0
+    },
+    {
+        "text": "cubed times 1 over 3 factorial, this is really two factorial. And maybe you see where this is going",
+        "start": 1419.89,
+        "duration": 5.719
+    },
+    {
+        "text": "or maybe at this point you're saying you promised me this would look simple. It actually looks exceedingly complicated,",
+        "start": 1425.61,
+        "duration": 4.02
+    },
+    {
+        "text": "you've got factorials, you're grouping the pis together for some reason.",
+        "start": 1429.63,
+        "duration": 3.0
+    },
+    {
+        "text": "So there's some viewers right now, especially if they're maybe a little bit fresh off of a calculus class, or if they're particularly",
+        "start": 1432.63,
+        "duration": 5.88
+    },
+    {
+        "text": "ingratiated to the number e, who will just see something screaming in their head right now.",
+        "start": 1439.18,
+        "duration": 4.489
+    },
+    {
+        "text": "There's something known as the Taylor series for e to the x. Which is that it's 1 plus",
+        "start": 1443.67,
+        "duration": 5.909
+    },
+    {
+        "text": "x and all right, it's x to the 1 over 1 factorial.",
+        "start": 1450.4,
+        "duration": 2.989
+    },
+    {
+        "text": "x squared over 2 factorial,",
+        "start": 1454.18,
+        "duration": 2.179
+    },
+    {
+        "text": "x cubed over 3 factorial and so on.",
+        "start": 1457.54,
+        "duration": 5.16
+    },
+    {
+        "text": "Where you evaluate it as an infinite polynomial",
+        "start": 1463.3,
+        "duration": 3.62
+    },
+    {
+        "text": "where each one of the terms is 1 over n factorial.",
+        "start": 1467.44,
+        "duration": 2.51
+    },
+    {
+        "text": "It's not just that e to the x happens to equal this,",
+        "start": 1470.35,
+        "duration": 3.29
+    },
+    {
+        "text": "I actually think the healthier way to view the exponential function and what e to the x is - this defines it, right?",
+        "start": 1473.64,
+        "duration": 5.739
+    },
+    {
+        "text": "This is the thing that should pop into your head when you think of exponential growth and e to the x is this",
+        "start": 1479.38,
+        "duration": 4.41
+    },
+    {
+        "text": "particular infinite series. This particular polynomial. This is where it will come up, especially in probability,",
+        "start": 1483.89,
+        "duration": 4.939
+    },
+    {
+        "text": "it lends itself to an easier interpretation of why it is its own derivative, there's all sorts of nice things,",
+        "start": 1488.83,
+        "duration": 4.47
+    },
+    {
+        "text": "it extends, it makes it easier to understand things like e to the (pi)(i); all of that. This is the healthy way to think",
+        "start": 1494.03,
+        "duration": 4.969
+    },
+    {
+        "text": "of e to the x. So if you looked at this and you weren't thinking of e already, what it means is that",
+        "start": 1499.0,
+        "duration": 5.699
+    },
+    {
+        "text": "there is a healthier relationship with e waiting for you in the future. \n- (Brady: Or if you didn't see it you have an unhealthy relationship)",
+        "start": 1505.07,
+        "duration": 5.48
+    },
+    {
+        "text": "You currently have an unhealthy relationship with e, that's absolutely true.",
+        "start": 1511.06,
+        "duration": 2.969
+    },
+    {
+        "text": "If you didn't see it. Or you have no relationship with e. But if we compare this to the series,",
+        "start": 1514.52,
+        "duration": 5.359
+    },
+    {
+        "text": "which I've unhelpfully drawn kind of far away, but you can match them up pretty easily,",
+        "start": 1519.88,
+        "duration": 4.38
+    },
+    {
+        "text": "the thing that's playing the role of x right now is pi fourths.",
+        "start": 1525.14,
+        "duration": 3.349
+    },
+    {
+        "text": "So all this is, is e to the pi fourths. Which, if we go and we plug it into a calculator,",
+        "start": 1529.13,
+        "duration": 6.02
+    },
+    {
+        "text": "approximately equals two point one nine three",
+        "start": 1536.09,
+        "duration": 4.31
+    },
+    {
+        "text": "two, on, on, on. Which is to say if you are a terrible random darts player,",
+        "start": 1541.37,
+        "duration": 6.109
+    },
+    {
+        "text": "who unrealistically hits within a square with a uniform probability, which you wouldn't because it would be rotationally symmetric - ",
+        "start": 1547.73,
+        "duration": 5.81
+    },
+    {
+        "text": "but whatever you're hitting within a square. And you keep going like this",
+        "start": 1553.54,
+        "duration": 2.969
+    },
+    {
+        "text": "then you play a thousand games, on average your score would be 2.1932. And remember my score was 4.",
+        "start": 1556.88,
+        "duration": 7.099
+    },
+    {
+        "text": "(Brady: So you're you're not quite twice as good as someone who has absolutely no skill whatsoever?)\n-  I couldn't ask for a better recommendation",
+        "start": 1566.12,
+        "duration": 7.68
+    },
+    {
+        "text": "Yeah, that's that's about right. ",
+        "start": 1574.97,
+        "duration": 2.69
+    },
+    {
+        "text": "So there's a couple things I like about this puzzle, right, the reason that I want to relay it. Hopefully what was the more",
+        "start": 1578.75,
+        "duration": 5.0
+    },
+    {
+        "text": "unexpected or mind-blowing component is that we're even talking about higher dimensional geometry. You found yourself naturally asking, in the middle,",
+        "start": 1584.54,
+        "duration": 6.919
+    },
+    {
+        "text": "what is the volume of a six dimensional ball?",
+        "start": 1591.46,
+        "duration": 1.93
+    },
+    {
+        "text": "Right? And nowhere in that was asking, is the universe six dimensional? You know, like the string theory invokes 6 - ",
+        "start": 1593.39,
+        "duration": 6.079
+    },
+    {
+        "text": "no, no, no, like that's not why mathematicians necessarily care about higher dimensions.",
+        "start": 1599.47,
+        "duration": 4.2
+    },
+    {
+        "text": "What was happening is you had six numbers and you were encoding a property of those six numbers with something that we like to describe",
+        "start": 1604.07,
+        "duration": 6.71
+    },
+    {
+        "text": "geometrically. Rather than saying the sum of their squares is less than 1, you say it shows up inside a six dimensional ball.",
+        "start": 1611.0,
+        "duration": 5.719
+    },
+    {
+        "text": "That also means it saved you some work,",
+        "start": 1617.18,
+        "duration": 1.86
+    },
+    {
+        "text": "I put out this question to like some channel supporters as a early teaser of things, and one of them got back to me saying",
+        "start": 1619.04,
+        "duration": 6.589
+    },
+    {
+        "text": "you know, I've been working on it and I, it's just like really hard. I've been like working through these integrals.",
+        "start": 1625.76,
+        "duration": 4.099
+    },
+    {
+        "text": "What's very strange is even in the case with the second dart I'm getting pi squared for some reason.",
+        "start": 1629.93,
+        "duration": 4.88
+    },
+    {
+        "text": "So he's working through all these integrals,",
+        "start": 1634.81,
+        "duration": 2.0
+    },
+    {
+        "text": "under the hood what's happening is he's rediscovering the volume of a four dimensional ball, right?",
+        "start": 1637.07,
+        "duration": 4.76
+    },
+    {
+        "text": "So it gives a more universal language for people to talk with on that. It came about from two-dimensional geometry.",
+        "start": 1641.96,
+        "duration": 4.729
+    },
+    {
+        "text": "Nothing about the dartboard is four dimensional and I think this is just a common misconception that people",
+        "start": 1646.82,
+        "duration": 3.739
+    },
+    {
+        "text": "listening to mathematicians describe things like manifolds in four dimensions or the Poincaré conjecture has been answered for everything except four dimensions.",
+        "start": 1651.08,
+        "duration": 6.979
+    },
+    {
+        "text": "They don't actually care about like a thing where you can move in four dimensions,",
+        "start": 1658.16,
+        "duration": 4.04
+    },
+    {
+        "text": "it's about encoding quadruplets at points. And the second one is that I think it helps build a healthier relationship with e.",
+        "start": 1662.2,
+        "duration": 6.239
+    },
+    {
+        "text": "Because this this series is much more important than the number itself.",
+        "start": 1668.44,
+        "duration": 3.0
+    },
+    {
+        "text": "I might, I might even just ask the puzzle and then we won't answer it, but it's a good thing to end on.",
+        "start": 1671.44,
+        "duration": 4.559
+    },
+    {
+        "text": "(Brady: Yeah)",
+        "start": 1676.0,
+        "duration": 0.34
+    },
+    {
+        "text": "So here we were",
+        "start": 1676.34,
+        "duration": 1.71
+    },
+    {
+        "text": "choosing these random numbers between negative 1 and 1 and what were we asked - what we were asking is something about when you sum their",
+        "start": 1678.05,
+        "duration": 6.289
+    },
+    {
+        "text": "squares.",
+        "start": 1684.34,
+        "duration": 1.09
+    },
+    {
+        "text": "When is that less than 1? You can play a much simpler probability game where let's say I'm just gonna choose numbers",
+        "start": 1685.43,
+        "duration": 6.409
+    },
+    {
+        "text": "from 0 to 1 with uniform probability. And I'm gonna keep going until the sum of the numbers that I've chosen",
+        "start": 1693.05,
+        "duration": 6.919
+    },
+    {
+        "text": "ends up being bigger than 1. so for example, if the first number you choose is 0.3 and then the second one is",
+        "start": 1700.31,
+        "duration": 6.14
+    },
+    {
+        "text": "0.6, their sum is 0.9. And if the next one you choose is 0.5,",
+        "start": 1707.0,
+        "duration": 3.709
+    },
+    {
+        "text": "that's the point when you go over. And so the question you can ask is",
+        "start": 1710.72,
+        "duration": 3.17
+    },
+    {
+        "text": "what's the expected number of samples you need to take before it over blows one?",
+        "start": 1714.11,
+        "duration": 4.369
+    },
+    {
+        "text": "e shows up in the answer,",
+        "start": 1718.48,
+        "duration": 1.41
+    },
+    {
+        "text": "right? And the way it shows up is actually quite similar here and it's a way that's distilled because it doesn't involve circles",
+        "start": 1719.89,
+        "duration": 5.219
+    },
+    {
+        "text": "so there's not the confusing factor of pi. You see much more pristinely the factorials.",
+        "start": 1725.11,
+        "duration": 4.02
+    },
+    {
+        "text": "Very important is that I mention where this puzzle comes from. I saw this on Twitter, I think it was Greg Egan.",
+        "start": 1729.38,
+        "duration": 5.42
+    },
+    {
+        "text": "He specifically designed a puzzle such that the answer would look like adding up the volumes ",
+        "start": 1734.8,
+        "duration": 6.27
+    },
+    {
+        "text": "of higher-dimensional balls, because",
+        "start": 1741.7,
+        "duration": 2.0
+    },
+    {
+        "text": "we have this wonderful formula for the volume of higher dimensional balls, when the number of dimensions is even. And",
+        "start": 1743.84,
+        "duration": 6.349
+    },
+    {
+        "text": "everyone who has a healthy relationship with e looks at this, a thing to the power n divided by n factorial,",
+        "start": 1750.409,
+        "duration": 5.239
+    },
+    {
+        "text": "they scream in their mind the exponential function with e to the x,",
+        "start": 1755.929,
+        "duration": 3.109
+    },
+    {
+        "text": "right? And it it sort of asks you to add them. Which is a weird thing to do, why would you do that?",
+        "start": 1759.039,
+        "duration": 5.01
+    },
+    {
+        "text": "It's very strange. What does - how do you even interpret the sum of the area of a circle to the volume of a four-dimensional sphere?",
+        "start": 1764.049,
+        "duration": 5.04
+    },
+    {
+        "text": "So he specifically designed a puzzle such that this would be the answer, which I think is beautiful and clever.",
+        "start": 1769.669,
+        "duration": 5.06
+    },
+    {
+        "text": "Here's a very interesting thing. We're adding up all of these volumes, right, it converges. And what that means",
+        "start": 1775.73,
+        "duration": 5.929
+    },
+    {
+        "text": "is that higher and higher out, the volume of a high dimensional sphere is quite small, right?",
+        "start": 1781.659,
+        "duration": 5.88
+    },
+    {
+        "text": "In fact, we could compute it out. If I said hey, what's the volume of a 100 dimensional ball?",
+        "start": 1787.539,
+        "duration": 3.9
+    },
+    {
+        "text": "Well, that would be pi to the 50th,",
+        "start": 1793.159,
+        "duration": 3.14
+    },
+    {
+        "text": "divided by 50 factorial. Well, the thing is with, with 50 factorial the numbers you're multiplying in,",
+        "start": 1797.059,
+        "duration": 5.089
+    },
+    {
+        "text": "it's 1 times 2 times 3 times 4 times 5 times 6 - you're, you're multiplying bigger and bigger numbers. Pi to the 50,",
+        "start": 1802.149,
+        "duration": 5.19
+    },
+    {
+        "text": "you're always multiplying a pi, right?",
+        "start": 1807.34,
+        "duration": 2.0
+    },
+    {
+        "text": "So the denominator starts winning out because by the end you've added an extra pi to the top, but an extra 50 to the bottom.",
+        "start": 1809.44,
+        "duration": 5.16
+    },
+    {
+        "text": "So it shrinks back quite a lot. Around 2.368 times 10 to the negative",
+        "start": 1814.669,
+        "duration": 5.119
+    },
+    {
+        "text": "40. If you think about what that means, if you're in a hundred dimensions,",
+        "start": 1819.86,
+        "duration": 3.949
+    },
+    {
+        "text": "right, and you look at a 100 dimensional cube",
+        "start": 1823.809,
+        "duration": 2.55
+    },
+    {
+        "text": "and you say let's look at the sphere that's touching every single edge of that cube,",
+        "start": 1826.36,
+        "duration": 4.049
+    },
+    {
+        "text": "what proportion of the square does that sphere occupy?",
+        "start": 1830.899,
+        "duration": 3.32
+    },
+    {
+        "text": "It's, it's around 10 to the negative 40, right? Which - a lot of people I might quite counterintuitive,",
+        "start": 1834.71,
+        "duration": 5.059
+    },
+    {
+        "text": "right, because if you think of a two-dimensional",
+        "start": 1840.289,
+        "duration": 2.0
+    },
+    {
+        "text": "circle it fills up most of the square. Or a 3-dimensional sphere it fills up most of the cube.",
+        "start": 1842.36,
+        "duration": 4.13
+    },
+    {
+        "text": "But if you think of what it's actually asking - ",
+        "start": 1846.86,
+        "duration": 2.15
+    },
+    {
+        "text": "(Brady: Hang on, are you doing what you just told people off for doing though, and imagining these as real spaces?)",
+        "start": 1849.11,
+        "duration": 4.549
+    },
+    {
+        "text": "(Rather than - )\n- Well they are!",
+        "start": 1853.76,
+        "duration": 1.37
+    },
+    {
+        "text": "So - sorry. When I say real, I mean, they're exactly as real as numbers are right? Like, the real number line",
+        "start": 1855.13,
+        "duration": 5.189
+    },
+    {
+        "text": "you're not gonna find that in nature. You're not hiking through the woods and there's the real number line.",
+        "start": 1860.32,
+        "duration": 3.359
+    },
+    {
+        "text": "So in the same way like 100 dimensional space, it's a useful abstraction.",
+        "start": 1863.679,
+        "duration": 3.719
+    },
+    {
+        "text": "What I, what I would suggest people not hinge on is asking is the universe 100 dimensional?",
+        "start": 1868.279,
+        "duration": 5.9
+    },
+    {
+        "text": "And is the only way that it's meaningful to ask questions about 10 dimensions, if the universe has that wiggle room?",
+        "start": 1874.919,
+        "duration": 5.969
+    },
+    {
+        "text": "But people find this quite counterintuitive how small in a sense small balls are up in higher dimensions.",
+        "start": 1880.889,
+        "duration": 5.25
+    },
+    {
+        "text": "But if you interpret it much more literally by saying choose 100 numbers,",
+        "start": 1886.269,
+        "duration": 3.38
+    },
+    {
+        "text": "okay, all of them chosen uniformly between negative 1 and 1, add up their squares,",
+        "start": 1889.929,
+        "duration": 4.55
+    },
+    {
+        "text": "what's the probability that the sum of all those squares is less than 1? Like, oh,",
+        "start": 1894.7,
+        "duration": 3.589
+    },
+    {
+        "text": "we got 100 of them - of course is gonna be bigger than 1, there's just so many numbers.",
+        "start": 1898.289,
+        "duration": 3.27
+    },
+    {
+        "text": "Same thing that's going on. There's so many dimensions.",
+        "start": 1902.08,
+        "duration": 2.239
+    },
+    {
+        "text": "So this is why it's helpful to have a back and forth between analytic thinking and geometric thinking.",
+        "start": 1904.749,
+        "duration": 4.489
+    },
+    {
+        "text": "If you haven't already, make sure you check out Grant's incredible math channel: 3blue1brown.",
+        "start": 1912.1,
+        "duration": 5.869
+    },
+    {
+        "text": "And if you'd like to hear more from Grant on the Numberphile podcast, check out the links on the screen and down in the video description",
+        "start": 1918.489,
+        "duration": 6.05
+    }
+]

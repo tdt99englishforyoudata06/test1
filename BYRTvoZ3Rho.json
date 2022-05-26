@@ -1,0 +1,687 @@
+[
+    {
+        "text": "Asked me to talk a little bit about the",
+        "start": 0.06,
+        "duration": 1.68
+    },
+    {
+        "text": "new innovations in voting systems. And so I'd like to tell you about end-to-end",
+        "start": 1.74,
+        "duration": 3.06
+    },
+    {
+        "text": "verifiable voting systems,",
+        "start": 4.82,
+        "duration": 1.42
+    },
+    {
+        "text": "which is the buzzword that academics are using to describe this.",
+        "start": 6.24,
+        "duration": 2.68
+    },
+    {
+        "text": "Now,Which means really that you can verify the whole flow of",
+        "start": 8.92,
+        "duration": 3.12
+    },
+    {
+        "text": "information, from your head, as to who you think you want to vote for,",
+        "start": 12.18,
+        "duration": 2.24
+    },
+    {
+        "text": "all the way through the casting of the vote and the tabulation",
+        "start": 14.769,
+        "duration": 2.75
+    },
+    {
+        "text": "and then the final tally,",
+        "start": 17.52,
+        "duration": 1.179
+    },
+    {
+        "text": "so that you can verify that every step of the way is going the way it should",
+        "start": 18.7,
+        "duration": 3.34
+    },
+    {
+        "text": "and that your vote counts the way you intended,",
+        "start": 22.1,
+        "duration": 1.88
+    },
+    {
+        "text": "that the final result is the accurate representation of everybody's votes.",
+        "start": 23.98,
+        "duration": 3.36
+    },
+    {
+        "text": "And right now, with many voting systems,",
+        "start": 27.34,
+        "duration": 1.84
+    },
+    {
+        "text": "you can have a certain amount of verifiability. The lovely thing about paper ballots",
+        "start": 29.189,
+        "duration": 4.2
+    },
+    {
+        "text": "is that you can see that, you know, what you wrote down is what you intended. And so that's a",
+        "start": 33.39,
+        "duration": 4.68
+    },
+    {
+        "text": "very important property, very nice.",
+        "start": 38.17,
+        "duration": 1.7
+    },
+    {
+        "text": "But once you've cast the paper ballot, you're trusting the chain of custody of those paper ballots",
+        "start": 39.87,
+        "duration": 4.69
+    },
+    {
+        "text": "to make sure that the count is done right",
+        "start": 44.68,
+        "duration": 2.0
+    },
+    {
+        "text": "and that the ballots being counted are the right ones.",
+        "start": 46.68,
+        "duration": 2.3
+    },
+    {
+        "text": "Brady: \"Talk to me about this selfie thing. Some people like to take a photo of their ballot, don't they?\"",
+        "start": 49.18,
+        "duration": 3.92
+    },
+    {
+        "text": "Yeah, it's a lot of fun, and I think it may increase voter participation",
+        "start": 53.36,
+        "duration": 2.78
+    },
+    {
+        "text": "to have a little more fun like that in the ballot booth and so on, too.",
+        "start": 56.26,
+        "duration": 2.98
+    },
+    {
+        "text": "The thing that is worrisome about it, though, from",
+        "start": 59.34,
+        "duration": 1.9
+    },
+    {
+        "text": "a security point of view, is that, you know, with a selfie of you casting your ballot,",
+        "start": 61.24,
+        "duration": 4.86
+    },
+    {
+        "text": "you can sell your ballot. And that's one of the things that we've learned the hard way over many many decades,",
+        "start": 66.1,
+        "duration": 4.16
+    },
+    {
+        "text": "is that you don't want to enable people to sell their ballots.",
+        "start": 70.26,
+        "duration": 2.549
+    },
+    {
+        "text": "So you shouldn't leave the voting booth with any kind of proof as to how you voted.",
+        "start": 72.88,
+        "duration": 4.97
+    },
+    {
+        "text": "You shouldn't have a receipt saying you voted this way, you shouldn't have a copy of your ballot,",
+        "start": 77.979,
+        "duration": 3.68
+    },
+    {
+        "text": "you shouldn't have anything that proves how you voted.",
+        "start": 81.66,
+        "duration": 2.26
+    },
+    {
+        "text": "Because that can be worth, you know, 20 bucks to the, you know, to you,",
+        "start": 84.04,
+        "duration": 2.68
+    },
+    {
+        "text": "from the guy down the bar who wants to, you know, buy your vote. Or maybe coerce you.",
+        "start": 86.72,
+        "duration": 4.14
+    },
+    {
+        "text": "So, yeah, how can you possibly know that your vote was counted the way you wanted?",
+        "start": 91.04,
+        "duration": 3.0
+    },
+    {
+        "text": "This is a hard question, and it makes a fascinating research area. And it turns out",
+        "start": 94.34,
+        "duration": 4.18
+    },
+    {
+        "text": "you can thread this needle with a bit of care and a bit of cryptography, a bit of mathematics.",
+        "start": 98.52,
+        "duration": 4.52
+    },
+    {
+        "text": "So how do you do this?",
+        "start": 103.42,
+        "duration": 1.47
+    },
+    {
+        "text": "So the idea would be that you get a receipt when you vote.",
+        "start": 104.89,
+        "duration": 3.49
+    },
+    {
+        "text": "And the receipt is not the plain text as to how you voted",
+        "start": 108.38,
+        "duration": 2.88
+    },
+    {
+        "text": "but an encryption of how you voted. So it's something that you can't sell down at the bar,",
+        "start": 111.26,
+        "duration": 4.3
+    },
+    {
+        "text": "because it's not something that's interpretable by somebody else.",
+        "start": 115.84,
+        "duration": 2.93
+    },
+    {
+        "text": "Brady: \"So what is it, like a number, or a barcode, or...?\"",
+        "start": 118.98,
+        "duration": 2.18
+    },
+    {
+        "text": "It's a number or a barcode or something like that. It represents how you voted.",
+        "start": 121.16,
+        "duration": 2.82
+    },
+    {
+        "text": "So you get a receipt,",
+        "start": 123.98,
+        "duration": 1.36
+    },
+    {
+        "text": "and, the new thing here in these end-to-end verifiable systems",
+        "start": 125.34,
+        "duration": 3.48
+    },
+    {
+        "text": "is the copies of all the receipts get posted on the web.",
+        "start": 128.82,
+        "duration": 2.78
+    },
+    {
+        "text": "So say, Brady, and here Brady's receipt, and Ron, and here's Ron's receipt, and so on and so forth. Everybody's name and their",
+        "start": 131.76,
+        "duration": 6.28
+    },
+    {
+        "text": "receipts get posted.",
+        "start": 138.129,
+        "duration": 1.231
+    },
+    {
+        "text": "Nobody can tell how anybody else voted. You can't sell your vote based on that posting. But it's all on the web,",
+        "start": 139.36,
+        "duration": 5.059
+    },
+    {
+        "text": "and it's all there for anybody look at. And you can look at it, and you can see that, yep,",
+        "start": 144.42,
+        "duration": 3.959
+    },
+    {
+        "text": "they've got my receipt right, and that receipt is an encryption of my vote, right?",
+        "start": 148.54,
+        "duration": 4.25
+    },
+    {
+        "text": "So that's the key thing. You know your vote is in the pile,",
+        "start": 152.79,
+        "duration": 1.89
+    },
+    {
+        "text": "and you know your vote is in the pile the way you think it should be,",
+        "start": 154.68,
+        "duration": 2.78
+    },
+    {
+        "text": "because you have reason to believe, as I'll explain,",
+        "start": 157.46,
+        "duration": 2.42
+    },
+    {
+        "text": "that your encryption of your vote is actually correct.",
+        "start": 160.0,
+        "duration": 3.06
+    },
+    {
+        "text": "Brady: \"Everyone's encryption looks different, though.\"",
+        "start": 163.06,
+        "duration": 1.96
+    },
+    {
+        "text": "Everybody's encryption looks different.",
+        "start": 165.02,
+        "duration": 1.32
+    },
+    {
+        "text": "So it's not a simple encryption in a deterministic way. It's a good point.",
+        "start": 166.34,
+        "duration": 4.06
+    },
+    {
+        "text": "Yeah, so if everybody's voting for Alice, all the Alices don't look the same, and all the Bobs don't look the same.",
+        "start": 170.4,
+        "duration": 4.74
+    },
+    {
+        "text": "So there's a couple of subtleties here. One is, well, how do you verify the tally then? So somebody is announcing that",
+        "start": 175.75,
+        "duration": 7.159
+    },
+    {
+        "text": "Alice won. And so, all these encrypted votes are",
+        "start": 183.549,
+        "duration": 2.39
+    },
+    {
+        "text": "primarily for Alice, and there's some for Bob, but there's more for Alice.",
+        "start": 186.7,
+        "duration": 2.809
+    },
+    {
+        "text": "That's the assertion that the election officials have made. How do they know? How do they",
+        "start": 189.659,
+        "duration": 4.77
+    },
+    {
+        "text": "convince anybody that that's right? And they'd like to convince everybody that that's right without showing the decryptions of everybody's vote.",
+        "start": 195.099,
+        "duration": 6.289
+    },
+    {
+        "text": "So they've got this pile of encrypted votes and an announced result,",
+        "start": 201.519,
+        "duration": 4.16
+    },
+    {
+        "text": "and you'd like to know,... if you're an election official, you'd like to convince everybody that's the right result.",
+        "start": 206.2,
+        "duration": 4.279
+    },
+    {
+        "text": "So there's a number of ways of doing this, and there's quite a large literature on this. Here's a way",
+        "start": 210.639,
+        "duration": 4.31
+    },
+    {
+        "text": "that's pretty simple to describe. So you could use something called homomorphic encryption.",
+        "start": 214.949,
+        "duration": 3.991
+    },
+    {
+        "text": "What does that mean? So it means that you can multiply",
+        "start": 219.06,
+        "duration": 2.82
+    },
+    {
+        "text": "ciphertext together and end up with them representing the sum of their plaintext.",
+        "start": 222.6,
+        "duration": 4.94
+    },
+    {
+        "text": "So, encryption of a one times an encryption of a two will give you an encryption of a three, right?",
+        "start": 227.889,
+        "duration": 4.97
+    },
+    {
+        "text": "So you end up adding the plaintext when you multiply the ciphertext. So this is cool.",
+        "start": 233.169,
+        "duration": 5.3
+    },
+    {
+        "text": "You can do lots of wonderful things with this. And in particular, you can do the tally for the voting system.",
+        "start": 238.54,
+        "duration": 4.58
+    },
+    {
+        "text": "For example, if your vote is a vote for Alice, you might have an encryption of a one.",
+        "start": 243.459,
+        "duration": 5.119
+    },
+    {
+        "text": "And if your vote is a vote for Bob, you might have an encryption for a zero. And suppose Alice and Bob are the only two candidates.",
+        "start": 248.769,
+        "duration": 5.48
+    },
+    {
+        "text": "So then, each ballot is either a one or a zero, and basically what you want to do is add them up.",
+        "start": 254.5,
+        "duration": 4.97
+    },
+    {
+        "text": "But they're ciphertexts, so you don't see the ones and the zeros.",
+        "start": 260.019,
+        "duration": 2.72
+    },
+    {
+        "text": "But you can use this homomorphic property, you can multiply all these ciphertexts together",
+        "start": 262.93,
+        "duration": 3.859
+    },
+    {
+        "text": "end up with a number which represents the sum of all of the",
+        "start": 267.139,
+        "duration": 2.94
+    },
+    {
+        "text": "plaintext ballots. And that sum is just the number of votes cast for Alice then, right?",
+        "start": 270.659,
+        "duration": 4.52
+    },
+    {
+        "text": "So the tally for Alice is the sum of all these things. And Bob is just the number of votes minus the tally for Alice,",
+        "start": 275.18,
+        "duration": 5.039
+    },
+    {
+        "text": "of course. So if Alice has more than half, she wins.",
+        "start": 280.219,
+        "duration": 2.55
+    },
+    {
+        "text": "So there, you can multiply these ciphertexts together and get a ciphertext that's the ciphertext for the sum,",
+        "start": 283.64,
+        "duration": 5.38
+    },
+    {
+        "text": "and that ciphertext can be decrypted publicly",
+        "start": 289.3,
+        "duration": 2.38
+    },
+    {
+        "text": "in a way that everybody can see is proper. So you can see yes that is... and everybody could also do this multiplication,",
+        "start": 291.68,
+        "duration": 5.02
+    },
+    {
+        "text": "So that is, they can check that that's the ciphertext to decrypt,",
+        "start": 296.82,
+        "duration": 3.44
+    },
+    {
+        "text": "and the election officials could decrypt that in a nice way",
+        "start": 300.56,
+        "duration": 2.48
+    },
+    {
+        "text": "and show that that's the proper decryption, so that we have the right tally for Alice.",
+        "start": 303.27,
+        "duration": 4.1
+    },
+    {
+        "text": "So that's one part of what you need to do then, is everybody can verify the tally from these encrypted things.",
+        "start": 307.469,
+        "duration": 5.99
+    },
+    {
+        "text": "And that's cool, right? So that's one part of it. The other part you want to",
+        "start": 313.46,
+        "duration": 3.119
+    },
+    {
+        "text": "deal with is the fact that you need to know that your ciphertext is really representing your vote, right? So you go into the",
+        "start": 317.12,
+        "duration": 4.62
+    },
+    {
+        "text": "voting booth, you're getting this receipt,",
+        "start": 321.74,
+        "duration": 1.7
+    },
+    {
+        "text": "and you want to know that that receipt really represents your vote. So you vote for Alice, and you get this receipt which is a",
+        "start": 323.449,
+        "duration": 5.88
+    },
+    {
+        "text": "ciphertext,",
+        "start": 329.43,
+        "duration": 0.769
+    },
+    {
+        "text": "you can't decrypt that ciphertext. In fact, you shouldn't be able to decrypt that",
+        "start": 330.199,
+        "duration": 2.94
+    },
+    {
+        "text": "ciphertext, because then you could sell your vote, just like you could with a selfie, right? So you want to know that that",
+        "start": 333.21,
+        "duration": 5.509
+    },
+    {
+        "text": "ciphertext is really for, say, Alice, if you're voting for Alice.",
+        "start": 338.969,
+        "duration": 3.89
+    },
+    {
+        "text": "So, that's a little more subtle.",
+        "start": 343.68,
+        "duration": 2.0
+    },
+    {
+        "text": "Maybe this matchbox analogy is not a bad way to explain it. How do you",
+        "start": 346.409,
+        "duration": 3.11
+    },
+    {
+        "text": "know that you've got a good match? You're going on a camping trip, you can, you're allowed to take only one match",
+        "start": 350.25,
+        "duration": 4.729
+    },
+    {
+        "text": "How do you know you've got a good match?",
+        "start": 355.139,
+        "duration": 1.861
+    },
+    {
+        "text": "Well, you could take a box out of the drawer, you can say well,",
+        "start": 357.0,
+        "duration": 2.599
+    },
+    {
+        "text": "maybe this is a box of good matches.",
+        "start": 359.599,
+        "duration": 1.56
+    },
+    {
+        "text": "And you try randomly sampling those matches, and, light, yeah, that one lights, that one lights.",
+        "start": 361.159,
+        "duration": 4.38
+    },
+    {
+        "text": "But you want to take with you a match you haven't tried yet. And so you,",
+        "start": 365.539,
+        "duration": 2.94
+    },
+    {
+        "text": "maybe the last match, you say, well, I haven't tried that match, but all the others in the box were good, and therefore",
+        "start": 369.21,
+        "duration": 4.609
+    },
+    {
+        "text": "I'm going to trust that this one is good. You put that your pocket and take it camping.",
+        "start": 373.819,
+        "duration": 2.85
+    },
+    {
+        "text": "So you can do something like that with the encryption here. You can say, I walk into the voting booth,",
+        "start": 377.069,
+        "duration": 4.1
+    },
+    {
+        "text": "I get an encryption of  my first",
+        "start": 381.26,
+        "duration": 2.8
+    },
+    {
+        "text": "representation of the choice. I say Alice and I get encryption, then I want to see,",
+        "start": 384.2,
+        "duration": 4.46
+    },
+    {
+        "text": "is that really a good encryption? It's like seeing if it's a good match.",
+        "start": 388.979,
+        "duration": 3.049
+    },
+    {
+        "text": "So I'll strike it, or I'll ask that to be decrypted,",
+        "start": 392.31,
+        "duration": 2.97
+    },
+    {
+        "text": "which the machine can do for me, since it",
+        "start": 395.65,
+        "duration": 1.92
+    },
+    {
+        "text": "encrypted it in the first place. So, so once I test it, I, once I see that, how it decrypts properly, unfortunately,",
+        "start": 397.57,
+        "duration": 5.989
+    },
+    {
+        "text": "I can't use that to vote with, because now I know how to, how it decrypts as well,",
+        "start": 403.56,
+        "duration": 3.75
+    },
+    {
+        "text": "and I can't post that, because I could sell my vote if I were to post that one.",
+        "start": 407.31,
+        "duration": 3.36
+    },
+    {
+        "text": "So that's a spoiled ballot, and, and we can't use that.",
+        "start": 412.27,
+        "duration": 2.495
+    },
+    {
+        "text": "Brady: \"That gets taken off the tally.\"",
+        "start": 414.765,
+        "duration": 1.775
+    },
+    {
+        "text": "It's taken, it's not even posted,",
+        "start": 416.54,
+        "duration": 1.32
+    },
+    {
+        "text": "it's not in the tally, it's not used, it's not anywheres. It's like I haven't voted at all,",
+        "start": 417.87,
+        "duration": 4.77
+    },
+    {
+        "text": "I'm just testing the voting machine. And I can do that as many times as I like, you know, two or three times,",
+        "start": 422.64,
+        "duration": 5.039
+    },
+    {
+        "text": "check out different decryptions of different things, and I can see the machine is reliably encrypting",
+        "start": 428.44,
+        "duration": 5.7
+    },
+    {
+        "text": "whatever I say I want to vote for. I can say I'm voting for Alice and test that, I can say I'm voting for Bob and I test that,",
+        "start": 434.14,
+        "duration": 4.46
+    },
+    {
+        "text": "and say I'm voting for Alice again. Maybe I don't test that one, and I say, okay we'll go with that,",
+        "start": 438.6,
+        "duration": 4.559
+    },
+    {
+        "text": "we'll post that on the web. And then you've got confidence, just like with the matches, that that encryption was done properly.",
+        "start": 443.23,
+        "duration": 5.389
+    },
+    {
+        "text": "It doesn't need to be done by a lot of people, right? It just needs to be done enough",
+        "start": 448.62,
+        "duration": 4.08
+    },
+    {
+        "text": "so that you know machines aren't trying to cheat in any large-scale way.",
+        "start": 452.7,
+        "duration": 2.879
+    },
+    {
+        "text": "So those are the two parts of it. Getting encryptions that you can trust, even if you're not a computer,",
+        "start": 455.62,
+        "duration": 4.13
+    },
+    {
+        "text": "and getting a tally that you can verify, even though the inputs of the tally are encryptions.",
+        "start": 460.27,
+        "duration": 5.45
+    },
+    {
+        "text": "And so this is a wonderful idea. It's evolved over the years with many different people",
+        "start": 465.72,
+        "duration": 4.35
+    },
+    {
+        "text": "putting parts of it together, but it means you can have a voting system, then,",
+        "start": 470.86,
+        "duration": 3.29
+    },
+    {
+        "text": "that's verifiable, all the way from who you want to vote for, that end of the process,",
+        "start": 474.15,
+        "duration": 4.38
+    },
+    {
+        "text": "through the casting of the ballot, through the posting of the ballots, through the tally and the announcement of the result. You can verify that the",
+        "start": 478.72,
+        "duration": 5.66
+    },
+    {
+        "text": "outcome is right. So, in the future, this might be the kind of voting system",
+        "start": 484.38,
+        "duration": 3.149
+    },
+    {
+        "text": "everybody will vote on. But it's still in research stages a bit. It's under development.",
+        "start": 487.72,
+        "duration": 4.22
+    },
+    {
+        "text": "There are some jurisdictions that are starting to use it in practice, and we'll see how it goes. I'm optimistic.",
+        "start": 492.13,
+        "duration": 5.75
+    },
+    {
+        "text": "...Alice,",
+        "start": 499.9,
+        "duration": 1.44
+    },
+    {
+        "text": "so put another Alice in, pick one out, and put it back, together with a copy of it. So now I've got",
+        "start": 501.34,
+        "duration": 5.389
+    },
+    {
+        "text": "six ballots.",
+        "start": 507.61,
+        "duration": 2.0
+    },
+    {
+        "text": "That's cool. So now I've drawn the bits. Now it's four to two...",
+        "start": 510.06,
+        "duration": 3.349
+    }
+]

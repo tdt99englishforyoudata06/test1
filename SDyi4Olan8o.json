@@ -1,0 +1,547 @@
+[
+    {
+        "text": "in 1976 we had a huge breakthrough which",
+        "start": 8.469,
+        "duration": 6.48
+    },
+    {
+        "text": "was the dawn of modern day cryptography",
+        "start": 12.74,
+        "duration": 4.5
+    },
+    {
+        "text": "with a paper that came out by a",
+        "start": 14.949,
+        "duration": 5.681
+    },
+    {
+        "text": "different Hellman Hellman was a",
+        "start": 17.24,
+        "duration": 5.49
+    },
+    {
+        "text": "professor at Stanford and III was his",
+        "start": 20.63,
+        "duration": 5.1
+    },
+    {
+        "text": "PhD student and they said it's",
+        "start": 22.73,
+        "duration": 6.36
+    },
+    {
+        "text": "complicated it's physically complicated",
+        "start": 25.73,
+        "duration": 5.88
+    },
+    {
+        "text": "to meet and agree on the key maybe we",
+        "start": 29.09,
+        "duration": 5.489
+    },
+    {
+        "text": "can do something different and somehow",
+        "start": 31.61,
+        "duration": 5.46
+    },
+    {
+        "text": "communicate in the public domain and",
+        "start": 34.579,
+        "duration": 6.51
+    },
+    {
+        "text": "agree on the key and they came up with",
+        "start": 37.07,
+        "duration": 6.03
+    },
+    {
+        "text": "what's called public key cryptography",
+        "start": 41.089,
+        "duration": 4.95
+    },
+    {
+        "text": "and public key public key cryptography",
+        "start": 43.1,
+        "duration": 7.86
+    },
+    {
+        "text": "and the idea is basically that instead",
+        "start": 46.039,
+        "duration": 6.75
+    },
+    {
+        "text": "of the two of us you and I meeting and",
+        "start": 50.96,
+        "duration": 5.669
+    },
+    {
+        "text": "agreeing on our cipher and the key I",
+        "start": 52.789,
+        "duration": 6.45
+    },
+    {
+        "text": "will have something which is called the",
+        "start": 56.629,
+        "duration": 4.14
+    },
+    {
+        "text": "public key and I'll put it in the public",
+        "start": 59.239,
+        "duration": 3.42
+    },
+    {
+        "text": "domain and everybody will be able to",
+        "start": 60.769,
+        "duration": 4.231
+    },
+    {
+        "text": "access it and in order to send me an",
+        "start": 62.659,
+        "duration": 4.801
+    },
+    {
+        "text": "encrypted message all you need to know",
+        "start": 65.0,
+        "duration": 4.799
+    },
+    {
+        "text": "is the public key and I have a",
+        "start": 67.46,
+        "duration": 4.38
+    },
+    {
+        "text": "corresponding secret key which I really",
+        "start": 69.799,
+        "duration": 5.461
+    },
+    {
+        "text": "keep secret in my computer or maybe on a",
+        "start": 71.84,
+        "duration": 4.98
+    },
+    {
+        "text": "piece of paper but of course today on",
+        "start": 75.26,
+        "duration": 4.86
+    },
+    {
+        "text": "the computer and I will use it to",
+        "start": 76.82,
+        "duration": 6.42
+    },
+    {
+        "text": "decrypt and we have a little pictorial",
+        "start": 80.12,
+        "duration": 6.09
+    },
+    {
+        "text": "video that will give explanation exactly",
+        "start": 83.24,
+        "duration": 4.38
+    },
+    {
+        "text": "of what's happening let's take a look at",
+        "start": 86.21,
+        "duration": 5.55
+    },
+    {
+        "text": "that little video so this is the",
+        "start": 87.62,
+        "duration": 6.6
+    },
+    {
+        "text": "decryption an example of how you do",
+        "start": 91.76,
+        "duration": 5.94
+    },
+    {
+        "text": "public key encryption so what I do is",
+        "start": 94.22,
+        "duration": 5.91
+    },
+    {
+        "text": "when I want to set up my system I choose",
+        "start": 97.7,
+        "duration": 4.59
+    },
+    {
+        "text": "a public key and a private key and you",
+        "start": 100.13,
+        "duration": 4.35
+    },
+    {
+        "text": "can see that they're different unlike in",
+        "start": 102.29,
+        "duration": 3.81
+    },
+    {
+        "text": "the case where Simon showed before when",
+        "start": 104.48,
+        "duration": 3.48
+    },
+    {
+        "text": "the keys were the same these are two",
+        "start": 106.1,
+        "duration": 4.14
+    },
+    {
+        "text": "different keys I take the public key and",
+        "start": 107.96,
+        "duration": 4.8
+    },
+    {
+        "text": "I put it in the public domain everybody",
+        "start": 110.24,
+        "duration": 3.24
+    },
+    {
+        "text": "can use it",
+        "start": 112.76,
+        "duration": 3.78
+    },
+    {
+        "text": "and now josh comes and he wants to send",
+        "start": 113.48,
+        "duration": 5.64
+    },
+    {
+        "text": "me these four encrypted items he puts",
+        "start": 116.54,
+        "duration": 7.4
+    },
+    {
+        "text": "them in this box he closes the box and",
+        "start": 119.12,
+        "duration": 8.49
+    },
+    {
+        "text": "he locks it with the public key this is",
+        "start": 123.94,
+        "duration": 6.28
+    },
+    {
+        "text": "a visual of course it's gonna use an",
+        "start": 127.61,
+        "duration": 4.68
+    },
+    {
+        "text": "algorithm as Simon said the boxes the",
+        "start": 130.22,
+        "duration": 4.17
+    },
+    {
+        "text": "algorithm there's an algorithm here that",
+        "start": 132.29,
+        "duration": 4.259
+    },
+    {
+        "text": "uses the public key I on the other hand",
+        "start": 134.39,
+        "duration": 5.7
+    },
+    {
+        "text": "have the public key I'm the only person",
+        "start": 136.549,
+        "duration": 5.611
+    },
+    {
+        "text": "see sorry and the only person who has",
+        "start": 140.09,
+        "duration": 4.649
+    },
+    {
+        "text": "the private key I can open the box and",
+        "start": 142.16,
+        "duration": 6.689
+    },
+    {
+        "text": "the items are revealed to me so can you",
+        "start": 144.739,
+        "duration": 5.521
+    },
+    {
+        "text": "give us just an everyday example of what",
+        "start": 148.849,
+        "duration": 2.911
+    },
+    {
+        "text": "that what that what would that be we're",
+        "start": 150.26,
+        "duration": 3.809
+    },
+    {
+        "text": "talking about me logging on to my bank",
+        "start": 151.76,
+        "duration": 3.54
+    },
+    {
+        "text": "account are we talking about me buying",
+        "start": 154.069,
+        "duration": 3.691
+    },
+    {
+        "text": "something on Amazon what what are where",
+        "start": 155.3,
+        "duration": 4.23
+    },
+    {
+        "text": "is the public all right something that's",
+        "start": 157.76,
+        "duration": 5.759
+    },
+    {
+        "text": "very important to know is that today in",
+        "start": 159.53,
+        "duration": 6.75
+    },
+    {
+        "text": "our current knowledge public key crypto",
+        "start": 163.519,
+        "duration": 5.101
+    },
+    {
+        "text": "as opposed to what we call symmetric key",
+        "start": 166.28,
+        "duration": 4.26
+    },
+    {
+        "text": "which are these things that are slightly",
+        "start": 168.62,
+        "duration": 4.26
+    },
+    {
+        "text": "different public key is very expensive",
+        "start": 170.54,
+        "duration": 4.62
+    },
+    {
+        "text": "to carry out well we have these other",
+        "start": 172.88,
+        "duration": 3.93
+    },
+    {
+        "text": "encryption schemes which are symmetric",
+        "start": 175.16,
+        "duration": 4.62
+    },
+    {
+        "text": "guard schemes which are less based on",
+        "start": 176.81,
+        "duration": 5.429
+    },
+    {
+        "text": "mathematical foundations but maybe more",
+        "start": 179.78,
+        "duration": 14.01
+    },
+    {
+        "text": "on voodoo what do you mean explain it",
+        "start": 182.239,
+        "duration": 14.431
+    },
+    {
+        "text": "now okay so the public key cryptosystems",
+        "start": 193.79,
+        "duration": 4.44
+    },
+    {
+        "text": "are based on some mathematical",
+        "start": 196.67,
+        "duration": 4.379
+    },
+    {
+        "text": "assumptions for example that we think",
+        "start": 198.23,
+        "duration": 5.759
+    },
+    {
+        "text": "that it's computationally expensive to",
+        "start": 201.049,
+        "duration": 5.491
+    },
+    {
+        "text": "factor large numbers we all know how to",
+        "start": 203.989,
+        "duration": 5.641
+    },
+    {
+        "text": "factor the number 8 but if you need to",
+        "start": 206.54,
+        "duration": 5.789
+    },
+    {
+        "text": "factor a thousand 24 bit key that takes",
+        "start": 209.63,
+        "duration": 4.169
+    },
+    {
+        "text": "you a long time and just to remind",
+        "start": 212.329,
+        "duration": 3.121
+    },
+    {
+        "text": "people who it's been a while since they",
+        "start": 213.799,
+        "duration": 3.78
+    },
+    {
+        "text": "were at math class factoring a number",
+        "start": 215.45,
+        "duration": 4.17
+    },
+    {
+        "text": "means figuring out the two numbers that",
+        "start": 217.579,
+        "duration": 3.211
+    },
+    {
+        "text": "need to be multiplied together",
+        "start": 219.62,
+        "duration": 5.19
+    },
+    {
+        "text": "yes for example let's take 15 it's 3 and",
+        "start": 220.79,
+        "duration": 7.169
+    },
+    {
+        "text": "5 right so it's the the prime factors",
+        "start": 224.81,
+        "duration": 5.37
+    },
+    {
+        "text": "that compose to this number but if I",
+        "start": 227.959,
+        "duration": 4.471
+    },
+    {
+        "text": "give you a thousand 24 a bit number",
+        "start": 230.18,
+        "duration": 4.05
+    },
+    {
+        "text": "which is comprised of multiplying two",
+        "start": 232.43,
+        "duration": 5.429
+    },
+    {
+        "text": "large primes it's hard to do so public",
+        "start": 234.23,
+        "duration": 5.789
+    },
+    {
+        "text": "key cryptosystems are based on such",
+        "start": 237.859,
+        "duration": 4.291
+    },
+    {
+        "text": "assumptions and the end of their hand",
+        "start": 240.019,
+        "duration": 6.451
+    },
+    {
+        "text": "symmetric key crypto is not mostly",
+        "start": 242.15,
+        "duration": 6.179
+    },
+    {
+        "text": "founded on these mathematical",
+        "start": 246.47,
+        "duration": 5.01
+    },
+    {
+        "text": "assumptions but the trade-off is that",
+        "start": 248.329,
+        "duration": 6.511
+    },
+    {
+        "text": "it's much faster it really is a huge",
+        "start": 251.48,
+        "duration": 5.099
+    },
+    {
+        "text": "difference in time for computing and",
+        "start": 254.84,
+        "duration": 3.329
+    },
+    {
+        "text": "encryption but the public key",
+        "start": 256.579,
+        "duration": 3.69
+    },
+    {
+        "text": "cryptosystem is opposed to a symmetric",
+        "start": 258.169,
+        "duration": 4.411
+    },
+    {
+        "text": "key cryptosystem so as to your question",
+        "start": 260.269,
+        "duration": 4.65
+    },
+    {
+        "text": "when do we use public key what we do is",
+        "start": 262.58,
+        "duration": 6.24
+    },
+    {
+        "text": "we do some first operation using the",
+        "start": 264.919,
+        "duration": 6.631
+    },
+    {
+        "text": "public key which is expensive we agree",
+        "start": 268.82,
+        "duration": 4.589
+    },
+    {
+        "text": "on some key which is appropriate for",
+        "start": 271.55,
+        "duration": 2.28
+    },
+    {
+        "text": "this",
+        "start": 273.409,
+        "duration": 2.911
+    },
+    {
+        "text": "metric system and we moved to computing",
+        "start": 273.83,
+        "duration": 5.66
+    },
+    {
+        "text": "with the symmetric system so in fact",
+        "start": 276.32,
+        "duration": 7.47
+    },
+    {
+        "text": "whenever your server that you your",
+        "start": 279.49,
+        "duration": 6.79
+    },
+    {
+        "text": "system resides on somehow starts talking",
+        "start": 283.79,
+        "duration": 4.53
+    },
+    {
+        "text": "to another server it immediately does",
+        "start": 286.28,
+        "duration": 4.8
+    },
+    {
+        "text": "some public key operations mostly to do",
+        "start": 288.32,
+        "duration": 5.4
+    },
+    {
+        "text": "a public key agreement and then we moved",
+        "start": 291.08,
+        "duration": 6.83
+    },
+    {
+        "text": "to the symmetric ciphers",
+        "start": 293.72,
+        "duration": 4.19
+    }
+]

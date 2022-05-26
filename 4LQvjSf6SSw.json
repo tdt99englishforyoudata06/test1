@@ -1,0 +1,682 @@
+[
+    {
+        "text": "So, today I'm gonna tell you about how the Fibonacci sequence appears in the Mandelbrot set.",
+        "start": 0.2,
+        "duration": 4.26
+    },
+    {
+        "text": "Hopefully, your mind will be blown by the end of that sentence.",
+        "start": 4.78,
+        "duration": 1.68
+    },
+    {
+        "text": "So the Fibonacci sequence, the rule is that you take the previous two numbers,",
+        "start": 6.7,
+        "duration": 3.52
+    },
+    {
+        "text": "and you add them together to get the next. Right? So we started with 1 1. Their sum is 2.",
+        "start": 10.23,
+        "duration": 5.37
+    },
+    {
+        "text": "The next number will be the sum of 1 & 2, which is 3.",
+        "start": 15.969,
+        "duration": 2.78
+    },
+    {
+        "text": "The sum of 2 & 3 is 5. The sum of 3 & 5 is 8. I'll do one more.",
+        "start": 19.029,
+        "duration": 4.88
+    },
+    {
+        "text": "And then, you can continue on.",
+        "start": 24.01,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady: \"Easy.\"",
+        "start": 26.2,
+        "duration": 0.84
+    },
+    {
+        "text": "Easy, right? And this occurs everywhere that has interesting connections to things in nature, and all of that,",
+        "start": 27.04,
+        "duration": 4.76
+    },
+    {
+        "text": "but I just want to show you where it appears on the Mandelbrot set.",
+        "start": 31.8,
+        "duration": 3.15
+    },
+    {
+        "text": "So, slightly less easy. So, the Mandelbrot set is a special object inside of the complex plane. So the plane of complex numbers. And",
+        "start": 35.29,
+        "duration": 7.549
+    },
+    {
+        "text": "the way you cook this thing up is by",
+        "start": 43.03,
+        "duration": 2.779
+    },
+    {
+        "text": "considering a certain type of dynamical system. So if you give me a complex number c,",
+        "start": 46.539,
+        "duration": 5.33
+    },
+    {
+        "text": "so here's a picture of the complex plane, so these are the real numbers and these are the real numbers",
+        "start": 52.149,
+        "duration": 5.03
+    },
+    {
+        "text": "times i, which is that square root of minus one, if you give me a complex number c,",
+        "start": 57.18,
+        "duration": 4.41
+    },
+    {
+        "text": "it's in the Mandelbrot set if, when you take the function z squared plus c",
+        "start": 61.629,
+        "duration": 4.669
+    },
+    {
+        "text": "and you look at what happens to zero when you plug it into this function repeatedly, if that number doesn't get large,",
+        "start": 66.34,
+        "duration": 6.98
+    },
+    {
+        "text": "then c is in the Mandelbrot set.",
+        "start": 73.32,
+        "duration": 2.0
+    },
+    {
+        "text": "So I know that sounds sort of complicated, but just let me do an example, right? So if you look at c equals minus one,",
+        "start": 75.34,
+        "duration": 5.87
+    },
+    {
+        "text": "right? Then you look at the function z squared minus one, you plug in the number zero,",
+        "start": 81.759,
+        "duration": 6.47
+    },
+    {
+        "text": "zero, if you plug it into this function, gives you minus one.",
+        "start": 88.63,
+        "duration": 3.23
+    },
+    {
+        "text": "Minus one, if you plug it into this function, gives you one minus one, which is zero again.",
+        "start": 91.99,
+        "duration": 4.669
+    },
+    {
+        "text": "And so you're just gonna repeat this pattern. And so this number doesn't get large, no matter how far out we go.",
+        "start": 96.76,
+        "duration": 5.96
+    },
+    {
+        "text": "And so this number is in the Mandelbrot set",
+        "start": 102.72,
+        "duration": 1.94
+    },
+    {
+        "text": "It's about right here. So for each complex number, you make this decision based on what happens to zero under iteration.",
+        "start": 104.92,
+        "duration": 6.26
+    },
+    {
+        "text": "So it looks something like this. So there's this big piece in the middle, all this interior is included, by the way,",
+        "start": 111.48,
+        "duration": 6.18
+    },
+    {
+        "text": "and a little disc around minus one, and there's some more pieces coming off of here,",
+        "start": 118.18,
+        "duration": 5.569
+    },
+    {
+        "text": "and some kind of funny tendril-y stuff goes on out here, and a few more pieces this way, another heart-shaped piece.",
+        "start": 124.299,
+        "duration": 6.799
+    },
+    {
+        "text": "Mathematicians love this thing. Even non-mathematicians love this thing, but maybe for different reasons.",
+        "start": 131.77,
+        "duration": 3.57
+    },
+    {
+        "text": "All right, so where is the Fibonacci sequence?",
+        "start": 136.28,
+        "duration": 2.9
+    },
+    {
+        "text": "I mean first of all, this thing has nothing to do with whole numbers and addition, and",
+        "start": 139.18,
+        "duration": 5.49
+    },
+    {
+        "text": "arithmetic, and the kinds of things that you think about with Fibonacci, which is why it's weird that you can see it in here.",
+        "start": 145.04,
+        "duration": 5.449
+    },
+    {
+        "text": "But so, let me show you how to find it. I didn't draw too many of them,",
+        "start": 150.89,
+        "duration": 3.59
+    },
+    {
+        "text": "but there's a bunch of these little components coming off of this main piece.",
+        "start": 154.48,
+        "duration": 3.84
+    },
+    {
+        "text": "Brady: \"What are they called?\"",
+        "start": 158.54,
+        "duration": 1.4
+    },
+    {
+        "text": "They're called the hyperbolic components, but let's not get into that.",
+        "start": 159.94,
+        "duration": 2.7
+    },
+    {
+        "text": "To these components I'm going to assign a number,",
+        "start": 163.46,
+        "duration": 2.599
+    },
+    {
+        "text": "and that number is going to be the number of branches that come off the sort of tendril-y bit, which is called an antenna.",
+        "start": 166.24,
+        "duration": 6.38
+    },
+    {
+        "text": "So like here, this component, there's this part where we have these tendrils, and there's three different directions",
+        "start": 172.62,
+        "duration": 5.64
+    },
+    {
+        "text": "you can go in the antenna. And so this component will have number three. And similarly, over here, it actually turns out",
+        "start": 178.27,
+        "duration": 5.639
+    },
+    {
+        "text": "there's only two directions",
+        "start": 183.91,
+        "duration": 0.82
+    },
+    {
+        "text": "you can go in that antenna, so this is component number two. Now if we look for the next biggest one,",
+        "start": 184.73,
+        "duration": 6.349
+    },
+    {
+        "text": "the largest component between the two and the three component, I've drawn it here.",
+        "start": 191.42,
+        "duration": 4.549
+    },
+    {
+        "text": "I haven't drawn the tendrils,",
+        "start": 196.07,
+        "duration": 2.0
+    },
+    {
+        "text": "but I'll try. It turns out",
+        "start": 198.14,
+        "duration": 2.299
+    },
+    {
+        "text": "that there's exactly",
+        "start": 200.75,
+        "duration": 1.35
+    },
+    {
+        "text": "five directions that you can go from that antenna. And the next biggest between these two, if you draw the antenna,",
+        "start": 202.1,
+        "duration": 6.799
+    },
+    {
+        "text": "I'm not sure I can fit it in here, since I think you already know what the answer will be,",
+        "start": 208.9,
+        "duration": 3.48
+    },
+    {
+        "text": "is eight. So if you go through the Mandelbrot set, and you start with these two components, the two and the three",
+        "start": 212.84,
+        "duration": 6.32
+    },
+    {
+        "text": "components, and you look between them for the next biggest component, the next biggest one will be the next Fibonacci number.",
+        "start": 219.41,
+        "duration": 6.5
+    },
+    {
+        "text": "So I want to explain why.",
+        "start": 226.84,
+        "duration": 2.0
+    },
+    {
+        "text": "Brady: \"You'd better.\"",
+        "start": 229.32,
+        "duration": 1.18
+    },
+    {
+        "text": "All right. I'll explain at least part of why. How about that?",
+        "start": 230.6,
+        "duration": 2.38
+    },
+    {
+        "text": "I called this big piece, the main component, it's called the main cardioid.",
+        "start": 233.36,
+        "duration": 3.64
+    },
+    {
+        "text": "Brady: \"What's its number?\"",
+        "start": 237.0,
+        "duration": 1.16
+    },
+    {
+        "text": "Its number is one, actually. That's a really good question.",
+        "start": 238.16,
+        "duration": 3.199
+    },
+    {
+        "text": "But it's not so obvious to see from antennas, so.",
+        "start": 242.15,
+        "duration": 2.45
+    },
+    {
+        "text": "So the main cardioid here,",
+        "start": 245.6,
+        "duration": 2.0
+    },
+    {
+        "text": "number one,",
+        "start": 247.97,
+        "duration": 1.38
+    },
+    {
+        "text": "it turns out that there's a very natural way to stretch this thing back into a disk,",
+        "start": 249.35,
+        "duration": 6.049
+    },
+    {
+        "text": "which is something we understand really well, right?",
+        "start": 255.82,
+        "duration": 2.16
+    },
+    {
+        "text": "So this is always useful in sort of geometry or that kind of study, if you can",
+        "start": 257.98,
+        "duration": 3.2
+    },
+    {
+        "text": "change something just a little bit and get back to something you understand really well.",
+        "start": 261.32,
+        "duration": 3.499
+    },
+    {
+        "text": "So there's a natural way to view this thing, just by some stretch,",
+        "start": 264.819,
+        "duration": 4.44
+    },
+    {
+        "text": "so this disk maps under this stretch to a cardioid.",
+        "start": 269.449,
+        "duration": 3.38
+    },
+    {
+        "text": "And I want to look at what happens to, first of all, my center point, it turns out it goes to zero, this ray",
+        "start": 272.83,
+        "duration": 6.63
+    },
+    {
+        "text": "will map to this ray. This ray is, I guess, zero of the way around the circle, right? If we go halfway around the circle,",
+        "start": 280.19,
+        "duration": 7.009
+    },
+    {
+        "text": "it maps to this line inside the main cardioid. If we go, say, a third of the way around the circle,",
+        "start": 287.449,
+        "duration": 6.44
+    },
+    {
+        "text": "it maps to a kind of a funny curve",
+        "start": 294.199,
+        "duration": 2.36
+    },
+    {
+        "text": "inside the main cardioid. And same for two thirds, and so on. So you can track",
+        "start": 297.02,
+        "duration": 4.91
+    },
+    {
+        "text": "what happens to these rays under this stretch.",
+        "start": 302.06,
+        "duration": 2.75
+    },
+    {
+        "text": "And here's the thing. Is that the place where the rays end up in the main cardioid",
+        "start": 304.849,
+        "duration": 4.4
+    },
+    {
+        "text": "are exactly the places where it connects to these components.",
+        "start": 309.47,
+        "duration": 3.649
+    },
+    {
+        "text": "So here is the connection to the two component,",
+        "start": 313.669,
+        "duration": 3.05
+    },
+    {
+        "text": "and here is the connection to that top three component,",
+        "start": 317.419,
+        "duration": 3.08
+    },
+    {
+        "text": "and that bottom three component. We have a five component up here in the Mandelbrot set, so there must be some",
+        "start": 321.38,
+        "duration": 7.009
+    },
+    {
+        "text": "five ray which lands there, and in fact there is. It turns out that that's the two fifths of the way around the circle ray.",
+        "start": 329.02,
+        "duration": 8.06
+    },
+    {
+        "text": "And the point is that, under this stretching map,",
+        "start": 337.18,
+        "duration": 2.82
+    },
+    {
+        "text": "the number of antennae, the number we assigned to each of these components, is the",
+        "start": 340.58,
+        "duration": 3.709
+    },
+    {
+        "text": "denominator of the fraction that tells you how far around the circle you went. This question of, what's the largest",
+        "start": 344.81,
+        "duration": 6.26
+    },
+    {
+        "text": "component between any two other components,",
+        "start": 351.259,
+        "duration": 2.0
+    },
+    {
+        "text": "turns into this totally separate question of, what's the fraction with the smallest denominator between these two fractions?",
+        "start": 353.75,
+        "duration": 6.799
+    },
+    {
+        "text": "Brady: \"Why is the five component at two fifths, and not one fifth or three fifths? Two seems arbitrary.\"",
+        "start": 360.83,
+        "duration": 6.47
+    },
+    {
+        "text": "So the one that I drew is between one-third and one-half, and so that's the two fifths.",
+        "start": 367.969,
+        "duration": 4.07
+    },
+    {
+        "text": "But there are five components at 1/5 3/5 and 4/5. You're totally right, so yep, it works every time with the denominators.",
+        "start": 372.039,
+        "duration": 6.929
+    },
+    {
+        "text": "But the point is that you can read off these numbers in two different ways, right? The antennas or the",
+        "start": 378.979,
+        "duration": 4.88
+    },
+    {
+        "text": "denominators of the fraction for the way around the circle. So we're closing in on Fibonacci. So I said that, okay,",
+        "start": 383.93,
+        "duration": 5.329
+    },
+    {
+        "text": "we changed this question completely to a question of, what's the fraction with the smallest denominator between two fractions?",
+        "start": 389.259,
+        "duration": 5.459
+    },
+    {
+        "text": "One third, which is less than some fraction,",
+        "start": 395.12,
+        "duration": 2.69
+    },
+    {
+        "text": "which is less than one half. And the question is, I want a smallest denominator fraction here, how small can it be?",
+        "start": 398.18,
+        "duration": 5.539
+    },
+    {
+        "text": "Well, it can't be 4, right? Because 2 over 4 is the same as 1/2, and 1/4 is too small.",
+        "start": 404.15,
+        "duration": 6.17
+    },
+    {
+        "text": "But it can be 5, because 2/5 really is between these two numbers.",
+        "start": 410.32,
+        "duration": 3.149
+    },
+    {
+        "text": "Okay, so 2/5 is the answer here.",
+        "start": 414.04,
+        "duration": 2.459
+    },
+    {
+        "text": "Now, what if we were to do the next one? The next one was asking, between the three and the five",
+        "start": 416.69,
+        "duration": 3.35
+    },
+    {
+        "text": "components, right? So we want a number that's between",
+        "start": 420.23,
+        "duration": 2.089
+    },
+    {
+        "text": "1/3 and 2/5 that has the smallest possible denominator. And again",
+        "start": 422.96,
+        "duration": 4.789
+    },
+    {
+        "text": "you can check, six and seven aren't gonna do it. It turns out that the answer is 3/8.",
+        "start": 427.749,
+        "duration": 5.631
+    },
+    {
+        "text": "And in general, the crazy thing is that if your fractions are close enough together, the way to find",
+        "start": 433.62,
+        "duration": 5.3
+    },
+    {
+        "text": "the one between them that has the smallest denominator, is just by taking the mediant, or the fairy sum, or,",
+        "start": 439.19,
+        "duration": 6.26
+    },
+    {
+        "text": "as some people refer to it, the freshmen sum,",
+        "start": 445.64,
+        "duration": 2.75
+    },
+    {
+        "text": "because you get it by adding together the numerators, and adding together the denominators.",
+        "start": 449.0,
+        "duration": 3.83
+    },
+    {
+        "text": "Brady: \"Why is that a freshman sum?\"",
+        "start": 452.83,
+        "duration": 1.36
+    },
+    {
+        "text": "Well, because, I think it's mean, actually. I mean, maybe a kindergarten sum? Is that better?",
+        "start": 454.19,
+        "duration": 5.29
+    },
+    {
+        "text": "Brady: \"Because why? Because people who don't know maths would think that was a legitimate...\"",
+        "start": 460.2,
+        "duration": 2.94
+    },
+    {
+        "text": "That's right, that's right.",
+        "start": 463.18,
+        "duration": 1.32
+    },
+    {
+        "text": "Brady: \"Well, it is a legitimate thing.\"",
+        "start": 464.5,
+        "duration": 1.02
+    },
+    {
+        "text": "It is a legitimate thing. I can tell you why it's bad, right?",
+        "start": 465.52,
+        "duration": 2.9
+    },
+    {
+        "text": "So why is it a bad way to add fractions? Because it matters how you represent your fractions.",
+        "start": 468.43,
+        "duration": 4.17
+    },
+    {
+        "text": "So if you try and add 1/3 to 1/2 this way, you'll get something different than if you add 1/3 to 2/4, right?",
+        "start": 472.6,
+        "duration": 5.97
+    },
+    {
+        "text": "So, it's not so good. But.",
+        "start": 478.57,
+        "duration": 1.87
+    },
+    {
+        "text": "Brady: \"It works for this.\"",
+        "start": 480.44,
+        "duration": 0.9
+    },
+    {
+        "text": "It works for this.",
+        "start": 481.34,
+        "duration": 1.74
+    },
+    {
+        "text": "Right? So 1/2,",
+        "start": 483.08,
+        "duration": 1.65
+    },
+    {
+        "text": "here's the symbol usually used for mediant. The mediant of these two fractions",
+        "start": 484.73,
+        "duration": 3.44
+    },
+    {
+        "text": "is just 2/5. The mediant of these two fractions is 3/8, and so on. So where is Fibonacci?",
+        "start": 488.51,
+        "duration": 5.059
+    },
+    {
+        "text": "Fibonacci is because,",
+        "start": 494.18,
+        "duration": 1.95
+    },
+    {
+        "text": "look at the fractions I started with.",
+        "start": 496.13,
+        "duration": 2.15
+    },
+    {
+        "text": "I started with the first two elements of the Fibonacci sequence,",
+        "start": 498.28,
+        "duration": 3.5
+    },
+    {
+        "text": "and the third and fourth elements of the Fibonacci sequence. And the way I get the next thing is by adding the other two together.",
+        "start": 502.22,
+        "duration": 6.5
+    },
+    {
+        "text": "And so it's exactly the rule which defines the Fibonacci sequence",
+        "start": 508.94,
+        "duration": 4.14
+    },
+    {
+        "text": "coming up in these fractions,",
+        "start": 513.7,
+        "duration": 2.0
+    },
+    {
+        "text": "coming up in their mediants,",
+        "start": 516.05,
+        "duration": 1.91
+    },
+    {
+        "text": "and so coming up in the Mandelbrot set.",
+        "start": 517.96,
+        "duration": 2.0
+    },
+    {
+        "text": "If you'd like to better understand the Mandelbrot set, and I mean really understand it, then why not check out this?",
+        "start": 535.54,
+        "duration": 5.54
+    },
+    {
+        "text": "Look, it's a Mandelbrot set quiz, and a Julia set quiz, as well.",
+        "start": 541.08,
+        "duration": 4.259
+    },
+    {
+        "text": "We've covered the Julia set before. They're from Brilliant, a problem solving website that lets you go further into the world of math and science",
+        "start": 545.339,
+        "duration": 7.26
+    },
+    {
+        "text": "by not just watching stuff, but doing stuff.",
+        "start": 552.85,
+        "duration": 3.14
+    },
+    {
+        "text": "There's a lot to like about these curated sequences.",
+        "start": 556.029,
+        "duration": 2.809
+    },
+    {
+        "text": "But what I like is that they guide you through step by step, help you understand.",
+        "start": 558.839,
+        "duration": 4.859
+    },
+    {
+        "text": "But it's not all about",
+        "start": 563.889,
+        "duration": 1.2
+    },
+    {
+        "text": "scoring your work, or making you feel silly. I mean, you can look up the solutions,",
+        "start": 565.089,
+        "duration": 3.95
+    },
+    {
+        "text": "you can look up hints. They help you along the way.",
+        "start": 569.04,
+        "duration": 2.369
+    },
+    {
+        "text": "And they also help you understand just how beautiful mathematics can be. It really made an impression on me.",
+        "start": 571.529,
+        "duration": 5.01
+    },
+    {
+        "text": "I really feel like these people know what they're doing. They've made a good thing. To check it out,",
+        "start": 576.54,
+        "duration": 4.32
+    },
+    {
+        "text": "go to brilliant dot org slash numberphile. I'll put that down in the description. You can sign up for free, but the first",
+        "start": 580.86,
+        "duration": 6.929
+    },
+    {
+        "text": "233 people who do it - that's a Fibonacci number - will get 20% off an annual premium subscription.",
+        "start": 588.639,
+        "duration": 6.47
+    }
+]

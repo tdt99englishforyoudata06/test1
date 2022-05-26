@@ -1,0 +1,1687 @@
+[
+    {
+        "text": "In a recent video we discussed",
+        "start": 0.03,
+        "duration": 1.53
+    },
+    {
+        "text": "polynomial equations, or functions;",
+        "start": 1.56,
+        "duration": 2.489
+    },
+    {
+        "text": "basically anything that looks like this,",
+        "start": 4.049,
+        "duration": 2.48
+    },
+    {
+        "text": "x raised to a power. We explained if you",
+        "start": 6.529,
+        "duration": 4.211
+    },
+    {
+        "text": "graph these things the solution or the",
+        "start": 10.74,
+        "duration": 2.88
+    },
+    {
+        "text": "root or the zero to that polynomial can",
+        "start": 13.62,
+        "duration": 3.329
+    },
+    {
+        "text": "be easily seen as the point or points",
+        "start": 16.949,
+        "duration": 2.58
+    },
+    {
+        "text": "where the plot crosses the x axis.",
+        "start": 19.529,
+        "duration": 3.231
+    },
+    {
+        "text": "Professor Eisenbud also showed us that",
+        "start": 22.76,
+        "duration": 2.349
+    },
+    {
+        "text": "an equation to an odd power must have",
+        "start": 25.109,
+        "duration": 2.281
+    },
+    {
+        "text": "extreme points down here and up here,",
+        "start": 27.39,
+        "duration": 2.539
+    },
+    {
+        "text": "meaning at some point it must cross the",
+        "start": 29.929,
+        "duration": 3.341
+    },
+    {
+        "text": "x axis. So all polynomials to an odd",
+        "start": 33.27,
+        "duration": 3.059
+    },
+    {
+        "text": "degree have at least one root among the",
+        "start": 36.329,
+        "duration": 3.331
+    },
+    {
+        "text": "real numbers, maybe more if we get a",
+        "start": 39.66,
+        "duration": 2.52
+    },
+    {
+        "text": "little kink like this. Great! But what",
+        "start": 42.18,
+        "duration": 3.18
+    },
+    {
+        "text": "about even degreed polynomials? For",
+        "start": 45.36,
+        "duration": 2.46
+    },
+    {
+        "text": "example, this one; well that's never going",
+        "start": 47.82,
+        "duration": 3.69
+    },
+    {
+        "text": "to cross the x-axis. I mean, are there",
+        "start": 51.51,
+        "duration": 2.97
+    },
+    {
+        "text": "polynomials for which there are no",
+        "start": 54.48,
+        "duration": 1.559
+    },
+    {
+        "text": "solutions? Well strap yourselves \nin because",
+        "start": 56.039,
+        "duration": 3.151
+    },
+    {
+        "text": "thinking about that is leading us",
+        "start": 59.19,
+        "duration": 1.98
+    },
+    {
+        "text": "towards one of the most important",
+        "start": 61.17,
+        "duration": 1.439
+    },
+    {
+        "text": "theorems in all of mathematics. \nLet's do it.",
+        "start": 62.609,
+        "duration": 3.211
+    },
+    {
+        "text": "So I'm going to start with that equation,",
+        "start": 68.95,
+        "duration": 2.88
+    },
+    {
+        "text": "that equation of even degree that didn't",
+        "start": 71.83,
+        "duration": 2.13
+    },
+    {
+        "text": "have any roots. f of x equals x squared",
+        "start": 73.96,
+        "duration": 3.449
+    },
+    {
+        "text": "plus 1.\n- (And that's not lost cause?)",
+        "start": 77.409,
+        "duration": 2.701
+    },
+    {
+        "text": "That is not a lost cause. People probably",
+        "start": 80.11,
+        "duration": 2.7
+    },
+    {
+        "text": "have heard of the square root of -1,\nthere's a",
+        "start": 82.81,
+        "duration": 2.37
+    },
+    {
+        "text": "very famous mathematician, Sir Michael",
+        "start": 85.18,
+        "duration": 1.71
+    },
+    {
+        "text": "Atiyah, who says that the square root of",
+        "start": 86.89,
+        "duration": 2.399
+    },
+    {
+        "text": "-1, i, is the most important single",
+        "start": 89.289,
+        "duration": 3.301
+    },
+    {
+        "text": "invention in all of mathematics.",
+        "start": 92.59,
+        "duration": 1.77
+    },
+    {
+        "text": "It certainly solves this equation",
+        "start": 94.36,
+        "duration": 1.11
+    },
+    {
+        "text": "because if I claim that I have i equals",
+        "start": 95.47,
+        "duration": 3.6
+    },
+    {
+        "text": "square root of -1 then by definition i",
+        "start": 99.07,
+        "duration": 3.45
+    },
+    {
+        "text": "is a root of that polynomial. \n- (But there)",
+        "start": 102.52,
+        "duration": 2.459
+    },
+    {
+        "text": "(is no i on here, we haven't got it.)\n- We haven't",
+        "start": 104.979,
+        "duration": 2.881
+    },
+    {
+        "text": "got an i so we have to find out where i",
+        "start": 107.86,
+        "duration": 2.25
+    },
+    {
+        "text": "lives. And by the time of Gauss in 1800 it",
+        "start": 110.11,
+        "duration": 3.899
+    },
+    {
+        "text": "was pretty well understood that you",
+        "start": 114.009,
+        "duration": 2.7
+    },
+    {
+        "text": "should think of a plane of numbers",
+        "start": 116.709,
+        "duration": 2.58
+    },
+    {
+        "text": "called the complex plane. And if you put",
+        "start": 119.289,
+        "duration": 3.72
+    },
+    {
+        "text": "in axes there will be a real axis and a",
+        "start": 123.009,
+        "duration": 1.981
+    },
+    {
+        "text": "complex. And 1 will be in its",
+        "start": 124.99,
+        "duration": 2.46
+    },
+    {
+        "text": "comfortable place there, and i will be",
+        "start": 127.45,
+        "duration": 2.91
+    },
+    {
+        "text": "here. And you can do ordinary arithmetic",
+        "start": 130.36,
+        "duration": 2.159
+    },
+    {
+        "text": "on these things, you write some number -",
+        "start": 132.519,
+        "duration": 3.391
+    },
+    {
+        "text": "people usually use z for some reason for",
+        "start": 135.91,
+        "duration": 2.28
+    },
+    {
+        "text": "complex numbers - so z would be a certain",
+        "start": 138.19,
+        "duration": 3.299
+    },
+    {
+        "text": "real part a and a certain imaginary part,",
+        "start": 141.489,
+        "duration": 2.551
+    },
+    {
+        "text": "maybe b. And then I would write z equals",
+        "start": 144.04,
+        "duration": 3.84
+    },
+    {
+        "text": "a the real part plus bi the imaginary",
+        "start": 147.88,
+        "duration": 3.57
+    },
+    {
+        "text": "part. And complex numbers, you multiply",
+        "start": 151.45,
+        "duration": 2.28
+    },
+    {
+        "text": "them just the way you think. If I want to",
+        "start": 153.73,
+        "duration": 1.65
+    },
+    {
+        "text": "multiply 1 plus 2i times 2 minus i let's",
+        "start": 155.38,
+        "duration": 5.639
+    },
+    {
+        "text": "say, then I just multiply them in parts",
+        "start": 161.019,
+        "duration": 2.371
+    },
+    {
+        "text": "just as you would an algebraic",
+        "start": 163.39,
+        "duration": 1.469
+    },
+    {
+        "text": "expression if i were x. You can do",
+        "start": 164.859,
+        "duration": 2.16
+    },
+    {
+        "text": "arithmetic, so I can plug any complex",
+        "start": 167.019,
+        "duration": 3.151
+    },
+    {
+        "text": "number, the things in this plane are",
+        "start": 170.17,
+        "duration": 1.89
+    },
+    {
+        "text": "called complex numbers things like z, I",
+        "start": 172.06,
+        "duration": 1.89
+    },
+    {
+        "text": "can just plug them into any polynomial",
+        "start": 173.95,
+        "duration": 2.099
+    },
+    {
+        "text": "and I get another complex number because",
+        "start": 176.049,
+        "duration": 2.341
+    },
+    {
+        "text": "I can multiply them and I can add them",
+        "start": 178.39,
+        "duration": 1.89
+    },
+    {
+        "text": "and do all the things that I have to do.",
+        "start": 180.28,
+        "duration": 1.53
+    },
+    {
+        "text": "I can also divide them and they satisfy",
+        "start": 181.81,
+        "duration": 2.7
+    },
+    {
+        "text": "all the comfortable laws of arithmetic",
+        "start": 184.51,
+        "duration": 2.61
+    },
+    {
+        "text": "like commutativity, a times b is b",
+        "start": 187.12,
+        "duration": 3.33
+    },
+    {
+        "text": "times a and all those things. So I can-",
+        "start": 190.45,
+        "duration": 2.52
+    },
+    {
+        "text": "just comfortable arithmetic. And I can",
+        "start": 192.97,
+        "duration": 2.4
+    },
+    {
+        "text": "use them in polynomials. If I do this I",
+        "start": 195.37,
+        "duration": 2.46
+    },
+    {
+        "text": "might want to separate the source of the",
+        "start": 197.83,
+        "duration": 2.909
+    },
+    {
+        "text": "polynomial, the place where the x's live,",
+        "start": 200.739,
+        "duration": 2.28
+    },
+    {
+        "text": "with the values, the place where the f of",
+        "start": 203.019,
+        "duration": 2.431
+    },
+    {
+        "text": "x's live. So I'm going to use a red",
+        "start": 205.45,
+        "duration": 1.89
+    },
+    {
+        "text": "plane for that one. And now if I draw it",
+        "start": 207.34,
+        "duration": 5.25
+    },
+    {
+        "text": "like this, so here's the again the \nreal axis",
+        "start": 212.59,
+        "duration": 4.41
+    },
+    {
+        "text": "and the imaginary axis. It's call the",
+        "start": 217.0,
+        "duration": 2.79
+    },
+    {
+        "text": "imaginary axis, not because it isn't",
+        "start": 219.79,
+        "duration": 1.65
+    },
+    {
+        "text": "there, it's just as real as the real axis,",
+        "start": 221.44,
+        "duration": 1.98
+    },
+    {
+        "text": "but the numbers on it are the pure",
+        "start": 223.42,
+        "duration": 2.7
+    },
+    {
+        "text": "imaginary numbers, the ones without any",
+        "start": 226.12,
+        "duration": 1.979
+    },
+    {
+        "text": "real part. And then I can do things like",
+        "start": 228.099,
+        "duration": 2.461
+    },
+    {
+        "text": "squaring the number, I can for example, I",
+        "start": 230.56,
+        "duration": 1.98
+    },
+    {
+        "text": "could square i. And I would record the",
+        "start": 232.54,
+        "duration": 3.3
+    },
+    {
+        "text": "value of the square over here; so for",
+        "start": 235.84,
+        "duration": 1.89
+    },
+    {
+        "text": "instance if my polynomial f - let's use",
+        "start": 237.73,
+        "duration": 3.03
+    },
+    {
+        "text": "green for the polynomial - so if I have f",
+        "start": 240.76,
+        "duration": 2.699
+    },
+    {
+        "text": "of a blue x is a red x squared for",
+        "start": 243.459,
+        "duration": 5.521
+    },
+    {
+        "text": "instance, then f of i would be i squared,",
+        "start": 248.98,
+        "duration": 5.009
+    },
+    {
+        "text": "which by definition is minus 1. So I",
+        "start": 253.989,
+        "duration": 2.941
+    },
+    {
+        "text": "would I would say that f sort of takes",
+        "start": 256.93,
+        "duration": 2.64
+    },
+    {
+        "text": "this point on the real axis over here,",
+        "start": 259.57,
+        "duration": 2.73
+    },
+    {
+        "text": "here's here's f the green line, over to",
+        "start": 262.3,
+        "duration": 3.33
+    },
+    {
+        "text": "the minus 1 point there. So I think of",
+        "start": 265.63,
+        "duration": 2.82
+    },
+    {
+        "text": "f as taking each point in this plane to",
+        "start": 268.45,
+        "duration": 3.63
+    },
+    {
+        "text": "some point in that plane. So if I want to",
+        "start": 272.08,
+        "duration": 1.95
+    },
+    {
+        "text": "think about the roots of a polynomial",
+        "start": 274.03,
+        "duration": 1.47
+    },
+    {
+        "text": "now, a polynomial is one of these things",
+        "start": 275.5,
+        "duration": 2.94
+    },
+    {
+        "text": "that takes a point here to a point here,",
+        "start": 278.44,
+        "duration": 1.89
+    },
+    {
+        "text": "and the roots are the points in the blue",
+        "start": 280.33,
+        "duration": 2.67
+    },
+    {
+        "text": "plane that it takes to the zero point in",
+        "start": 283.0,
+        "duration": 2.16
+    },
+    {
+        "text": "the red plane.\n- (Right in the middle there)",
+        "start": 285.16,
+        "duration": 1.95
+    },
+    {
+        "text": "(in the bullseye?)\n- Right in the middle right, here's",
+        "start": 287.11,
+        "duration": 1.5
+    },
+    {
+        "text": "zero. That's our goal. Here's the",
+        "start": 288.61,
+        "duration": 2.82
+    },
+    {
+        "text": "Fundamental Theorem of Algebra: it says,",
+        "start": 291.43,
+        "duration": 4.29
+    },
+    {
+        "text": "this is due to Gauss, again I like to",
+        "start": 295.72,
+        "duration": 3.0
+    },
+    {
+        "text": "write the word theorem. About 1800",
+        "start": 298.72,
+        "duration": 2.94
+    },
+    {
+        "text": "I forget the exact date. \n- (He was pretty)",
+        "start": 301.66,
+        "duration": 3.24
+    },
+    {
+        "text": "(handy that Gauss guy wasn't he?) \n- He was",
+        "start": 304.9,
+        "duration": 1.829
+    },
+    {
+        "text": "pretty good, yeah. People always like to",
+        "start": 306.729,
+        "duration": 3.241
+    },
+    {
+        "text": "say, well, he's no Gauss but that's not a",
+        "start": 309.97,
+        "duration": 4.59
+    },
+    {
+        "text": "not much of an insult. Anyway,",
+        "start": 314.56,
+        "duration": 2.55
+    },
+    {
+        "text": "the theorem says that",
+        "start": 317.11,
+        "duration": 1.85
+    },
+    {
+        "text": "any polynomial with complex coefficients -",
+        "start": 318.96,
+        "duration": 4.61
+    },
+    {
+        "text": "can I spell coefficients? Yes. - having",
+        "start": 323.57,
+        "duration": 3.52
+    },
+    {
+        "text": "degree d, that is the polynomial not the",
+        "start": 327.09,
+        "duration": 2.669
+    },
+    {
+        "text": "coefficients, has at least one complex",
+        "start": 329.759,
+        "duration": 2.88
+    },
+    {
+        "text": "root but actually it follows from that",
+        "start": 332.639,
+        "duration": 2.641
+    },
+    {
+        "text": "that it has d complex roots computed",
+        "start": 335.28,
+        "duration": 3.03
+    },
+    {
+        "text": "with multiplicity, but let's just say has",
+        "start": 338.31,
+        "duration": 2.19
+    },
+    {
+        "text": "at least one complex root, then we don't",
+        "start": 340.5,
+        "duration": 3.63
+    },
+    {
+        "text": "have to talk about multiplicities. And",
+        "start": 344.13,
+        "duration": 2.25
+    },
+    {
+        "text": "this is the Fundamental Theorem of",
+        "start": 346.38,
+        "duration": 1.89
+    },
+    {
+        "text": "Algebra because it's the basic",
+        "start": 348.27,
+        "duration": 3.09
+    },
+    {
+        "text": "connection between algebra and geometry.",
+        "start": 351.36,
+        "duration": 1.88
+    },
+    {
+        "text": "Roots are points somewhere, so they're",
+        "start": 353.24,
+        "duration": 2.859
+    },
+    {
+        "text": "geometric objects; and polynomials are",
+        "start": 356.099,
+        "duration": 3.75
+    },
+    {
+        "text": "algebraic objects, so this is this is the",
+        "start": 359.849,
+        "duration": 3.361
+    },
+    {
+        "text": "connection and makes all of algebraic",
+        "start": 363.21,
+        "duration": 1.56
+    },
+    {
+        "text": "geometry work. It makes me happy because",
+        "start": 364.77,
+        "duration": 2.399
+    },
+    {
+        "text": "I'm an algebraic geometer, it gives me",
+        "start": 367.169,
+        "duration": 2.191
+    },
+    {
+        "text": "something interesting to do. \n- (So what)",
+        "start": 369.36,
+        "duration": 1.86
+    },
+    {
+        "text": "(you're saying is there's no polynomial)",
+        "start": 371.22,
+        "duration": 2.43
+    },
+    {
+        "text": "(that I could concoct that you wouldn't)",
+        "start": 373.65,
+        "duration": 2.549
+    },
+    {
+        "text": "(be able to find roots for, as long as)",
+        "start": 376.199,
+        "duration": 2.19
+    },
+    {
+        "text": "(you're allowed to have complex numbers)",
+        "start": 378.389,
+        "duration": 2.101
+    },
+    {
+        "text": "(in your tool belt?)\n- That's right except",
+        "start": 380.49,
+        "duration": 4.02
+    },
+    {
+        "text": "for you're saying that I could find them.",
+        "start": 384.51,
+        "duration": 2.52
+    },
+    {
+        "text": "I'm going to show you they exist, I'm not",
+        "start": 387.03,
+        "duration": 2.759
+    },
+    {
+        "text": "going to find them for you. If you want",
+        "start": 389.789,
+        "duration": 1.921
+    },
+    {
+        "text": "to actually find the root then Newton's",
+        "start": 391.71,
+        "duration": 2.55
+    },
+    {
+        "text": "method of fastest descent, things that-",
+        "start": 394.26,
+        "duration": 2.129
+    },
+    {
+        "text": "numerical methods are very powerful. But",
+        "start": 396.389,
+        "duration": 2.821
+    },
+    {
+        "text": "it's hard to find roots of polynomials,",
+        "start": 399.21,
+        "duration": 2.179
+    },
+    {
+        "text": "much harder than proving they exist. So",
+        "start": 401.389,
+        "duration": 3.371
+    },
+    {
+        "text": "I'm just going to prove they exist. So",
+        "start": 404.76,
+        "duration": 2.64
+    },
+    {
+        "text": "how can we do that? We can't do this",
+        "start": 407.4,
+        "duration": 1.41
+    },
+    {
+        "text": "trick with lines but we can do a trick",
+        "start": 408.81,
+        "duration": 2.34
+    },
+    {
+        "text": "that's a lot like it. And for that I have",
+        "start": 411.15,
+        "duration": 2.609
+    },
+    {
+        "text": "to explain something about what happens",
+        "start": 413.759,
+        "duration": 2.071
+    },
+    {
+        "text": "when you multiply complex numbers. So I",
+        "start": 415.83,
+        "duration": 2.55
+    },
+    {
+        "text": "think of a complex number, here's my blue",
+        "start": 418.38,
+        "duration": 2.879
+    },
+    {
+        "text": "complex plane, and here's a complex",
+        "start": 421.259,
+        "duration": 2.431
+    },
+    {
+        "text": "number. So I think of- I like to think",
+        "start": 423.69,
+        "duration": 1.92
+    },
+    {
+        "text": "of it as a vector drawn from the origin.",
+        "start": 425.61,
+        "duration": 2.91
+    },
+    {
+        "text": "And if I think of the vector, the vector",
+        "start": 428.52,
+        "duration": 1.8
+    },
+    {
+        "text": "really has a length, and then once I've",
+        "start": 430.32,
+        "duration": 2.339
+    },
+    {
+        "text": "told you the length, which is called the",
+        "start": 432.659,
+        "duration": 1.591
+    },
+    {
+        "text": "absolute value of the complex number, so",
+        "start": 434.25,
+        "duration": 2.88
+    },
+    {
+        "text": "z. So if you know the Pythagorean theorem",
+        "start": 437.13,
+        "duration": 2.789
+    },
+    {
+        "text": "you know the length of this vector is",
+        "start": 439.919,
+        "duration": 2.161
+    },
+    {
+        "text": "gotten by taking the square of the real",
+        "start": 442.08,
+        "duration": 2.399
+    },
+    {
+        "text": "part plus the square of the imaginary",
+        "start": 444.479,
+        "duration": 2.28
+    },
+    {
+        "text": "part and taking the square root of that.",
+        "start": 446.759,
+        "duration": 2.461
+    },
+    {
+        "text": "So it's- so if z is a plus bi and the",
+        "start": 449.22,
+        "duration": 5.43
+    },
+    {
+        "text": "absolute value of z,\nI'll write it out, it's",
+        "start": 454.65,
+        "duration": 2.16
+    },
+    {
+        "text": "the magnitude it's called, is the square",
+        "start": 456.81,
+        "duration": 2.55
+    },
+    {
+        "text": "root of a squared plus b squared.",
+        "start": 459.36,
+        "duration": 1.77
+    },
+    {
+        "text": "Just Pythagorean theorem. Now there's",
+        "start": 461.13,
+        "duration": 3.18
+    },
+    {
+        "text": "another thing that you need to determine",
+        "start": 464.31,
+        "duration": 1.41
+    },
+    {
+        "text": "where that vector is, and that's the",
+        "start": 465.72,
+        "duration": 2.07
+    },
+    {
+        "text": "angle, let's call it theta. Let's say we",
+        "start": 467.79,
+        "duration": 3.24
+    },
+    {
+        "text": "knew that the magnitude was 1, then we",
+        "start": 471.03,
+        "duration": 3.93
+    },
+    {
+        "text": "could compute the sine of theta and the",
+        "start": 474.96,
+        "duration": 2.52
+    },
+    {
+        "text": "cosine of theta and if the magnitude",
+        "start": 477.48,
+        "duration": 2.04
+    },
+    {
+        "text": "were 1, if this were of length 1, then the",
+        "start": 479.52,
+        "duration": 4.32
+    },
+    {
+        "text": "sine which is the opposite side over the",
+        "start": 483.84,
+        "duration": 2.91
+    },
+    {
+        "text": "hypotenuse would just be the opposite",
+        "start": 486.75,
+        "duration": 1.86
+    },
+    {
+        "text": "side of the triangle which is the",
+        "start": 488.61,
+        "duration": 1.86
+    },
+    {
+        "text": "imaginary part. And the real part would",
+        "start": 490.47,
+        "duration": 2.49
+    },
+    {
+        "text": "be the cosine of the angle. So when I",
+        "start": 492.96,
+        "duration": 3.02
+    },
+    {
+        "text": "multiply things, multiply complex numbers,",
+        "start": 495.98,
+        "duration": 3.31
+    },
+    {
+        "text": "I'm doing these tricks with the real and",
+        "start": 499.29,
+        "duration": 2.49
+    },
+    {
+        "text": "imaginary parts, some- I should think of",
+        "start": 501.78,
+        "duration": 2.31
+    },
+    {
+        "text": "that as something happening to sines and",
+        "start": 504.09,
+        "duration": 1.59
+    },
+    {
+        "text": "cosines. And if you remember your high",
+        "start": 505.68,
+        "duration": 3.42
+    },
+    {
+        "text": "school trigonometry, which I certainly",
+        "start": 509.1,
+        "duration": 1.5
+    },
+    {
+        "text": "don't, then there's some addition law for",
+        "start": 510.6,
+        "duration": 2.58
+    },
+    {
+        "text": "sines and cosines and it comes out to",
+        "start": 513.18,
+        "duration": 2.22
+    },
+    {
+        "text": "saying this: if I take two complex",
+        "start": 515.4,
+        "duration": 2.76
+    },
+    {
+        "text": "numbers z and w, here's w, and I take",
+        "start": 518.16,
+        "duration": 5.49
+    },
+    {
+        "text": "their- the angles, let's call\nthat one psi;",
+        "start": 523.65,
+        "duration": 4.07
+    },
+    {
+        "text": "then when I multiply them I multiply",
+        "start": 527.72,
+        "duration": 3.94
+    },
+    {
+        "text": "their lengths, I multiply the magnitudes,",
+        "start": 531.66,
+        "duration": 2.1
+    },
+    {
+        "text": "and I add the angles. So I would take psi",
+        "start": 533.76,
+        "duration": 4.65
+    },
+    {
+        "text": "and then I would add theta to it and I",
+        "start": 538.41,
+        "duration": 2.79
+    },
+    {
+        "text": "would get something this way and the",
+        "start": 541.2,
+        "duration": 1.29
+    },
+    {
+        "text": "length would be out here someplace, right?",
+        "start": 542.49,
+        "duration": 1.74
+    },
+    {
+        "text": "So this is z times w. So it's really easy",
+        "start": 544.23,
+        "duration": 4.05
+    },
+    {
+        "text": "to multiply complex numbers",
+        "start": 548.28,
+        "duration": 2.06
+    },
+    {
+        "text": "geometrically, you just multiply the",
+        "start": 550.34,
+        "duration": 2.44
+    },
+    {
+        "text": "lengths and add the angles. \nAnd that's some",
+        "start": 552.78,
+        "duration": 2.25
+    },
+    {
+        "text": "formula which you can \nfigure out, but it's-",
+        "start": 555.03,
+        "duration": 1.8
+    },
+    {
+        "text": "I'm going to take it for granted.",
+        "start": 556.83,
+        "duration": 1.62
+    },
+    {
+        "text": "Now we're ready to go; and I want to take",
+        "start": 558.45,
+        "duration": 4.02
+    },
+    {
+        "text": "an arbitrary polynomial - do you have more",
+        "start": 562.47,
+        "duration": 2.369
+    },
+    {
+        "text": "of this nice paper, Brady?\n- (I do...)",
+        "start": 564.839,
+        "duration": 2.851
+    },
+    {
+        "text": "And I want to think of this as going",
+        "start": 572.62,
+        "duration": 1.56
+    },
+    {
+        "text": "from a blue complex plane, here's 1 and",
+        "start": 574.18,
+        "duration": 6.63
+    },
+    {
+        "text": "here's i, to a red complex plane. \n- (So David)",
+        "start": 580.81,
+        "duration": 7.14
+    },
+    {
+        "text": "(before, when we were doing the \nvideo before, when you)",
+        "start": 587.95,
+        "duration": 3.33
+    },
+    {
+        "text": "(were doing this, we had two axes;)",
+        "start": 591.28,
+        "duration": 2.76
+    },
+    {
+        "text": "(here you're representing-) \n- So each- this",
+        "start": 594.04,
+        "duration": 3.03
+    },
+    {
+        "text": "this is one axis and this as the other",
+        "start": 597.07,
+        "duration": 1.89
+    },
+    {
+        "text": "axis. If we wanted to make a real graph",
+        "start": 598.96,
+        "duration": 2.13
+    },
+    {
+        "text": "like that we'd need to do it in four",
+        "start": 601.09,
+        "duration": 1.89
+    },
+    {
+        "text": "dimensional space - and it's hard to",
+        "start": 602.98,
+        "duration": 2.04
+    },
+    {
+        "text": "imagine four dimensional space. I want to",
+        "start": 605.02,
+        "duration": 2.34
+    },
+    {
+        "text": "graph this function, I want to tell you",
+        "start": 607.36,
+        "duration": 1.65
+    },
+    {
+        "text": "what happens when I apply x, and I want to",
+        "start": 609.01,
+        "duration": 3.0
+    },
+    {
+        "text": "find the point here which- or at least",
+        "start": 612.01,
+        "duration": 2.61
+    },
+    {
+        "text": "to convince you that there is a point, a",
+        "start": 614.62,
+        "duration": 2.22
+    },
+    {
+        "text": "blue point, which will go to zero on the",
+        "start": 616.84,
+        "duration": 4.56
+    },
+    {
+        "text": "red side. So that's what I want,",
+        "start": 621.4,
+        "duration": 2.64
+    },
+    {
+        "text": "where is that point going to come from?",
+        "start": 624.04,
+        "duration": 1.71
+    },
+    {
+        "text": "How am I going to find a point which\ndoes that?",
+        "start": 625.75,
+        "duration": 3.781
+    },
+    {
+        "text": "(To prove one exists?) \n- To prove one",
+        "start": 629.531,
+        "duration": 1.949
+    },
+    {
+        "text": "exists. So I start by scratching my head",
+        "start": 631.48,
+        "duration": 2.67
+    },
+    {
+        "text": "and thinking, I don't know anything about",
+        "start": 634.15,
+        "duration": 1.59
+    },
+    {
+        "text": "this polynomial just like before. But I",
+        "start": 635.74,
+        "duration": 3.06
+    },
+    {
+        "text": "do know that the- I do know the leading",
+        "start": 638.8,
+        "duration": 2.73
+    },
+    {
+        "text": "term, that's x to the n, and I know if x",
+        "start": 641.53,
+        "duration": 2.52
+    },
+    {
+        "text": "is very big that's likely to be dominant.",
+        "start": 644.05,
+        "duration": 2.37
+    },
+    {
+        "text": "On the other hand if x is very small I",
+        "start": 646.42,
+        "duration": 2.16
+    },
+    {
+        "text": "can do something too; \nif x is zero then the",
+        "start": 648.58,
+        "duration": 3.27
+    },
+    {
+        "text": "value will be C. So I know that the",
+        "start": 651.85,
+        "duration": 2.72
+    },
+    {
+        "text": "zero point over here in the blue plane",
+        "start": 654.57,
+        "duration": 3.54
+    },
+    {
+        "text": "goes to C over in the red plane. So",
+        "start": 658.11,
+        "duration": 4.15
+    },
+    {
+        "text": "here's a nice red C, let's say C is down",
+        "start": 662.26,
+        "duration": 2.28
+    },
+    {
+        "text": "here. C is a complex number so it's just",
+        "start": 664.54,
+        "duration": 2.34
+    },
+    {
+        "text": "someplace in that plane. And I know that",
+        "start": 666.88,
+        "duration": 3.81
+    },
+    {
+        "text": "0 goes there. Now that's not terribly",
+        "start": 670.69,
+        "duration": 3.18
+    },
+    {
+        "text": "helpful because I wanted to get a point",
+        "start": 673.87,
+        "duration": 1.95
+    },
+    {
+        "text": "to go to 0 not to go to C.",
+        "start": 675.82,
+        "duration": 1.77
+    },
+    {
+        "text": "So what can- what else do I know? I I know",
+        "start": 677.59,
+        "duration": 3.93
+    },
+    {
+        "text": "that just as before, if I take x to have",
+        "start": 681.52,
+        "duration": 3.12
+    },
+    {
+        "text": "enormously large magnitude, then x to",
+        "start": 684.64,
+        "duration": 3.12
+    },
+    {
+        "text": "the n will have that magnitude to the",
+        "start": 687.76,
+        "duration": 1.71
+    },
+    {
+        "text": "nth power, that'll be much much much",
+        "start": 689.47,
+        "duration": 2.52
+    },
+    {
+        "text": "bigger than x to",
+        "start": 691.99,
+        "duration": 2.09
+    },
+    {
+        "text": "the n minus 1. So for really large x's,",
+        "start": 694.08,
+        "duration": 3.36
+    },
+    {
+        "text": "x's way out in a big big circle",
+        "start": 697.44,
+        "duration": 3.54
+    },
+    {
+        "text": "around this, those are the x's with big",
+        "start": 700.98,
+        "duration": 2.7
+    },
+    {
+        "text": "magnitude. So this is magnitude of x much",
+        "start": 703.68,
+        "duration": 4.2
+    },
+    {
+        "text": "bigger than 0. And now it's a circle",
+        "start": 707.88,
+        "duration": 3.03
+    },
+    {
+        "text": "because it could have any argument, it",
+        "start": 710.91,
+        "duration": 1.92
+    },
+    {
+        "text": "could have any angle. I know that x to",
+        "start": 712.83,
+        "duration": 3.9
+    },
+    {
+        "text": "the n will be even bigger and I'm going to",
+        "start": 716.73,
+        "duration": 2.46
+    },
+    {
+        "text": "shrink the scale on this red plane so",
+        "start": 719.19,
+        "duration": 2.64
+    },
+    {
+        "text": "that I don't have to draw it off the- off",
+        "start": 721.83,
+        "duration": 2.34
+    },
+    {
+        "text": "the table but it'll go to some huge",
+        "start": 724.17,
+        "duration": 3.21
+    },
+    {
+        "text": "circle. Now, what will happen when I take",
+        "start": 727.38,
+        "duration": 3.96
+    },
+    {
+        "text": "x and I take a walk with x? I think of it",
+        "start": 731.34,
+        "duration": 2.34
+    },
+    {
+        "text": "as a dog on a leash and I lead it around",
+        "start": 733.68,
+        "duration": 2.04
+    },
+    {
+        "text": "the circle? So we know what happens, the",
+        "start": 735.72,
+        "duration": 3.48
+    },
+    {
+        "text": "magnitude - remember I'm pretending that",
+        "start": 739.2,
+        "duration": 1.86
+    },
+    {
+        "text": "this polynomial is x to the n because",
+        "start": 741.06,
+        "duration": 1.98
+    },
+    {
+        "text": "it's like x to the n - the magnitude\nwill stay",
+        "start": 743.04,
+        "duration": 2.58
+    },
+    {
+        "text": "the magnitude of x to the n, the same",
+        "start": 745.62,
+        "duration": 1.71
+    },
+    {
+        "text": "thing it was before. So we will walk",
+        "start": 747.33,
+        "duration": 2.25
+    },
+    {
+        "text": "around this circle and the real",
+        "start": 749.58,
+        "duration": 1.89
+    },
+    {
+        "text": "polynomial will stay close to the circle,",
+        "start": 751.47,
+        "duration": 2.16
+    },
+    {
+        "text": "it'll sort of dance around like a dog",
+        "start": 753.63,
+        "duration": 2.58
+    },
+    {
+        "text": "would on a leash after all.",
+        "start": 756.21,
+        "duration": 1.62
+    },
+    {
+        "text": "Something else is happening though, as I",
+        "start": 757.83,
+        "duration": 1.83
+    },
+    {
+        "text": "move x around this one moves n times as",
+        "start": 759.66,
+        "duration": 3.72
+    },
+    {
+        "text": "fast because I'm multiplying the angles",
+        "start": 763.38,
+        "duration": 2.25
+    },
+    {
+        "text": "by n. So it actually goes around n times.",
+        "start": 765.63,
+        "duration": 3.0
+    },
+    {
+        "text": "For the purposes of this proof it's",
+        "start": 768.63,
+        "duration": 2.04
+    },
+    {
+        "text": "enough to know that it just goes",
+        "start": 770.67,
+        "duration": 1.71
+    },
+    {
+        "text": "around but we'll see why the n is",
+        "start": 772.38,
+        "duration": 2.31
+    },
+    {
+        "text": "important there too. So as I move around",
+        "start": 774.69,
+        "duration": 3.27
+    },
+    {
+        "text": "here once, I move around the circle",
+        "start": 777.96,
+        "duration": 3.0
+    },
+    {
+        "text": "actually many times. Okay, that was nice",
+        "start": 780.96,
+        "duration": 3.81
+    },
+    {
+        "text": "but did it help? Not obvious.",
+        "start": 784.77,
+        "duration": 3.03
+    },
+    {
+        "text": "Now comes the trick, here's- the rest of",
+        "start": 787.8,
+        "duration": 2.76
+    },
+    {
+        "text": "the proof once you see this you you just",
+        "start": 790.56,
+        "duration": 2.31
+    },
+    {
+        "text": "know it's right. I'm going to shrink the",
+        "start": 792.87,
+        "duration": 2.46
+    },
+    {
+        "text": "blue circle down to the point 0 little",
+        "start": 795.33,
+        "duration": 4.08
+    },
+    {
+        "text": "by little. And I'm going to watch what",
+        "start": 799.41,
+        "duration": 2.1
+    },
+    {
+        "text": "happens on the right hand side. On the",
+        "start": 801.51,
+        "duration": 2.1
+    },
+    {
+        "text": "right hand side this circle, and remember",
+        "start": 803.61,
+        "duration": 3.54
+    },
+    {
+        "text": "the real values of the function were",
+        "start": 807.15,
+        "duration": 2.28
+    },
+    {
+        "text": "dancing around this circle somehow but",
+        "start": 809.43,
+        "duration": 2.13
+    },
+    {
+        "text": "they're a nice continuous curve that",
+        "start": 811.56,
+        "duration": 2.13
+    },
+    {
+        "text": "meets up to itself again. This circle",
+        "start": 813.69,
+        "duration": 2.49
+    },
+    {
+        "text": "will begin to shrink too, because I know",
+        "start": 816.18,
+        "duration": 2.22
+    },
+    {
+        "text": "that when x is zero or very small this",
+        "start": 818.4,
+        "duration": 3.6
+    },
+    {
+        "text": "circle has to be very close to C. So",
+        "start": 822.0,
+        "duration": 3.15
+    },
+    {
+        "text": "somehow",
+        "start": 825.15,
+        "duration": 1.26
+    },
+    {
+        "text": "the circle shrinks down in all",
+        "start": 826.41,
+        "duration": 3.54
+    },
+    {
+        "text": "directions, in some very uneven way, but",
+        "start": 829.95,
+        "duration": 2.91
+    },
+    {
+        "text": "at the end of the day it forms a little",
+        "start": 832.86,
+        "duration": 2.58
+    },
+    {
+        "text": "circle around C if x is performing a",
+        "start": 835.44,
+        "duration": 3.99
+    },
+    {
+        "text": "little circle around zero. Now in that",
+        "start": 839.43,
+        "duration": 3.6
+    },
+    {
+        "text": "process somewhere this this circle has",
+        "start": 843.03,
+        "duration": 3.42
+    },
+    {
+        "text": "to pass through the origin, and that's",
+        "start": 846.45,
+        "duration": 2.31
+    },
+    {
+        "text": "where I catch my roots. So somewhere",
+        "start": 848.76,
+        "duration": 2.97
+    },
+    {
+        "text": "along the line as it shrinks I have to",
+        "start": 851.73,
+        "duration": 2.01
+    },
+    {
+        "text": "see a picture like that. And that's the",
+        "start": 853.74,
+        "duration": 3.75
+    },
+    {
+        "text": "point which is- which I was looking for.",
+        "start": 857.49,
+        "duration": 3.0
+    },
+    {
+        "text": "That point happened maybe from over here",
+        "start": 860.49,
+        "duration": 3.12
+    },
+    {
+        "text": "and it will be a point on a small- a",
+        "start": 863.61,
+        "duration": 3.27
+    },
+    {
+        "text": "smaller circle here where this",
+        "start": 866.88,
+        "duration": 4.22
+    },
+    {
+        "text": "function actually goes to zero, where it",
+        "start": 871.1,
+        "duration": 4.18
+    },
+    {
+        "text": "has zero value. We said that it really",
+        "start": 875.28,
+        "duration": 2.04
+    },
+    {
+        "text": "goes around n times; so actually this",
+        "start": 877.32,
+        "duration": 3.0
+    },
+    {
+        "text": "path is going around n times and as I",
+        "start": 880.32,
+        "duration": 3.84
+    },
+    {
+        "text": "shrink it will keep going around n times",
+        "start": 884.16,
+        "duration": 2.31
+    },
+    {
+        "text": "so there'll be n of these curves that go-",
+        "start": 886.47,
+        "duration": 3.03
+    },
+    {
+        "text": "that move through the point one at a",
+        "start": 889.5,
+        "duration": 2.73
+    },
+    {
+        "text": "time or maybe all at once and so there'll",
+        "start": 892.23,
+        "duration": 2.28
+    },
+    {
+        "text": "be actually n roots. And so that's the",
+        "start": 894.51,
+        "duration": 3.63
+    },
+    {
+        "text": "full Fundamental Theorem of Algebra.",
+        "start": 898.14,
+        "duration": 3.598
+    },
+    {
+        "text": "If you're still watching this video",
+        "start": 902.6,
+        "duration": 1.48
+    },
+    {
+        "text": "you've got the sort of attention span",
+        "start": 904.08,
+        "duration": 1.53
+    },
+    {
+        "text": "that makes me think you might enjoy the",
+        "start": 905.61,
+        "duration": 2.04
+    },
+    {
+        "text": "Hello Internet podcast which features",
+        "start": 907.65,
+        "duration": 2.7
+    },
+    {
+        "text": "fellow youtuber CGP Grey and myself. We",
+        "start": 910.35,
+        "duration": 3.42
+    },
+    {
+        "text": "talk about all sorts of things, very",
+        "start": 913.77,
+        "duration": 1.74
+    },
+    {
+        "text": "often we talk about what it's like",
+        "start": 915.51,
+        "duration": 1.74
+    },
+    {
+        "text": "making YouTube videos. If you'd like to",
+        "start": 917.25,
+        "duration": 2.13
+    },
+    {
+        "text": "find out more check out the links, I'll",
+        "start": 919.38,
+        "duration": 2.34
+    },
+    {
+        "text": "put things in the video description.",
+        "start": 921.72,
+        "duration": 3.05
+    }
+]

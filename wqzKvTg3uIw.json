@@ -1,0 +1,362 @@
+[
+    {
+        "text": "There's a giant network of machines",
+        "start": 10.82,
+        "duration": 1.9
+    },
+    {
+        "text": "that contains the sum of all human knowledge",
+        "start": 12.72,
+        "duration": 1.72
+    },
+    {
+        "text": "and connects us as a species",
+        "start": 14.44,
+        "duration": 1.88
+    },
+    {
+        "text": "that we have become quite reliant upon.",
+        "start": 16.32,
+        "duration": 2.16
+    },
+    {
+        "text": "We call it the internet.",
+        "start": 18.48,
+        "duration": 1.3
+    },
+    {
+        "text": "and it is actually, and upsettingly, kind of fragile,",
+        "start": 19.86,
+        "duration": 2.46
+    },
+    {
+        "text": "and there are plenty of ways to break it.",
+        "start": 22.32,
+        "duration": 1.98
+    },
+    {
+        "text": "Actually, you might not have noticed",
+        "start": 24.34,
+        "duration": 1.3
+    },
+    {
+        "text": "but there were widespread internet outages just last year",
+        "start": 25.64,
+        "duration": 2.66
+    },
+    {
+        "text": "thanks to a glitch in what is known as the Global Routing Table,",
+        "start": 28.3,
+        "duration": 3.34
+    },
+    {
+        "text": "which is basically a map of the internet.",
+        "start": 31.64,
+        "duration": 1.7
+    },
+    {
+        "text": "Every device connected to the internet has an address,",
+        "start": 33.34,
+        "duration": 2.54
+    },
+    {
+        "text": "and when you use the internet, you need to send data back and forth between those addresses.",
+        "start": 35.88,
+        "duration": 4.02
+    },
+    {
+        "text": "But to get to its destination, that data needs to be bounced around",
+        "start": 39.9,
+        "duration": 2.68
+    },
+    {
+        "text": "to a few different places along the way.",
+        "start": 42.58,
+        "duration": 1.8
+    },
+    {
+        "text": "And to make sure it gets to the right place,\nit needs directions.",
+        "start": 44.38,
+        "duration": 2.88
+    },
+    {
+        "text": "Those directions are stored in the Global Routing Table,",
+        "start": 47.26,
+        "duration": 2.38
+    },
+    {
+        "text": "and practically every router, which redirects packets of data from one network to another, uses them.",
+        "start": 49.64,
+        "duration": 5.5
+    },
+    {
+        "text": "The problem is, routers have limited memory,\nand older ones were only designed",
+        "start": 55.14,
+        "duration": 3.68
+    },
+    {
+        "text": "to hold 512,000 entries in their maps of the internet.",
+        "start": 58.82,
+        "duration": 3.64
+    },
+    {
+        "text": "But the internet has gotten bigger than that.",
+        "start": 62.46,
+        "duration": 2.3
+    },
+    {
+        "text": "So in August of 2014, the routing tables finally passed 512,000 routes",
+        "start": 65.0,
+        "duration": 4.88
+    },
+    {
+        "text": "at which point older routers registered a memory overload and just stopped working.",
+        "start": 69.88,
+        "duration": 4.54
+    },
+    {
+        "text": "Basically, the internet broke.",
+        "start": 74.42,
+        "duration": 2.06
+    },
+    {
+        "text": "Companies developed a workaround by allocating more memory, to allow more entries to the table,",
+        "start": 76.48,
+        "duration": 4.16
+    },
+    {
+        "text": "but at best it raised the capacity to about 1 million routes, which only buys us a few years' worth of time.",
+        "start": 80.64,
+        "duration": 5.74
+    },
+    {
+        "text": "And it took a while for everybody to implement the fix",
+        "start": 86.38,
+        "duration": 1.84
+    },
+    {
+        "text": "and meanwhile, lots of people lost access to the internet.",
+        "start": 88.22,
+        "duration": 3.34
+    },
+    {
+        "text": "Still, overloading the routing table is something that we can predict and something that we can fix.",
+        "start": 91.56,
+        "duration": 4.06
+    },
+    {
+        "text": "There are other, less innocent ways to break the internet",
+        "start": 95.62,
+        "duration": 2.22
+    },
+    {
+        "text": "and one of them is incredibly simple:\ncut the cables!",
+        "start": 97.84,
+        "duration": 3.18
+    },
+    {
+        "text": "And I'm not talking about the cables in your house,",
+        "start": 101.02,
+        "duration": 1.64
+    },
+    {
+        "text": "even though that would break the internet for you.",
+        "start": 102.66,
+        "duration": 1.6
+    },
+    {
+        "text": "I'm talking about the massive lengths of fiber that stretch across the ocean floor,",
+        "start": 104.26,
+        "duration": 3.98
+    },
+    {
+        "text": "connecting the internet across the continents;\nbecause, yeah, those exist!",
+        "start": 108.24,
+        "duration": 4.0
+    },
+    {
+        "text": "We transmit our data the same way we sent overseas telegrams in the late 19th century,",
+        "start": 112.24,
+        "duration": 4.44
+    },
+    {
+        "text": "there have been a few upgrades, obviously,",
+        "start": 116.68,
+        "duration": 2.42
+    },
+    {
+        "text": "but the general concept is the same.",
+        "start": 119.1,
+        "duration": 1.82
+    },
+    {
+        "text": "The good news is that the cables aren't that vulnerable.",
+        "start": 120.92,
+        "duration": 2.48
+    },
+    {
+        "text": "In the shallower areas of the ocean, they're designed to be shark-proof, which chopping through them pretty tough.",
+        "start": 123.4,
+        "duration": 4.86
+    },
+    {
+        "text": "Also, yeah, we had to make the internet shark-proof!",
+        "start": 128.28,
+        "duration": 3.52
+    },
+    {
+        "text": "In deeper areas, the cables are so deep that if companies ever need to access them,",
+        "start": 131.8,
+        "duration": 3.62
+    },
+    {
+        "text": "which they sometimes do for maintenance, they need to use special ships, just to haul them up to the surface.",
+        "start": 135.42,
+        "duration": 5.08
+    },
+    {
+        "text": "But, there have been times when \ncable failures have been a problem",
+        "start": 140.5,
+        "duration": 2.4
+    },
+    {
+        "text": "In 2003, for example, one group of cables failed twice within a few weeks, mainly affecting the UK",
+        "start": 142.9,
+        "duration": 5.32
+    },
+    {
+        "text": "where internet speeds slowed by about 1/8th.",
+        "start": 148.22,
+        "duration": 2.14
+    },
+    {
+        "text": "And as recently as 2013, three people were arrested  for deliberately trying to cut the cables",
+        "start": 150.36,
+        "duration": 4.82
+    },
+    {
+        "text": "providing service to Alexandria in Egypt.",
+        "start": 155.18,
+        "duration": 2.64
+    },
+    {
+        "text": "There are hundreds of cables throughout the world, though.  It would take some real effort",
+        "start": 157.82,
+        "duration": 3.26
+    },
+    {
+        "text": "to cut through enough of them to cause long-term damage.",
+        "start": 161.08,
+        "duration": 2.7
+    },
+    {
+        "text": "But despite all of our planning and all of our failsafes,",
+        "start": 163.78,
+        "duration": 2.68
+    },
+    {
+        "text": "there are still things that are outside of our control,",
+        "start": 166.46,
+        "duration": 2.22
+    },
+    {
+        "text": "and those things could break the internet for a good long while.",
+        "start": 168.68,
+        "duration": 3.44
+    },
+    {
+        "text": "Whenever there's a solar flare, for example,",
+        "start": 172.12,
+        "duration": 2.12
+    },
+    {
+        "text": "the sun sends out lots of high-energy radiation, distorting the Earth's magnetic sphere.",
+        "start": 174.24,
+        "duration": 4.78
+    },
+    {
+        "text": "A huge solar storm has the potential to wipe out important parts of our infrastructure",
+        "start": 179.02,
+        "duration": 4.18
+    },
+    {
+        "text": "like the power grid,\nand without electricity, there is no internet.",
+        "start": 183.2,
+        "duration": 3.46
+    },
+    {
+        "text": "Though really at that point, the lack of internet would not be the biggest of our problems.",
+        "start": 186.66,
+        "duration": 3.78
+    },
+    {
+        "text": "How likely are we to get that bad of a solar storm?",
+        "start": 190.44,
+        "duration": 2.28
+    },
+    {
+        "text": "Well, not very, thankfully.\nThe last time something of that magnitude",
+        "start": 192.72,
+        "duration": 3.52
+    },
+    {
+        "text": "hit Earth was in 1859, but electricity was much less of a big deal back then.",
+        "start": 196.24,
+        "duration": 4.76
+    },
+    {
+        "text": "That storm did knock out some telegraphs, but all things being considered, we did okay.",
+        "start": 201.0,
+        "duration": 4.06
+    },
+    {
+        "text": "But in 2012, we had a very near miss:",
+        "start": 205.18,
+        "duration": 2.48
+    },
+    {
+        "text": "the sun sent out a massive flare that would have done serious damage if it had hit us.",
+        "start": 207.66,
+        "duration": 4.4
+    },
+    {
+        "text": "Luckily, it was pointing in a different direction.",
+        "start": 212.06,
+        "duration": 3.08
+    },
+    {
+        "text": "So, barring unforeseen issues with the routing table, some damaged cables, or a super-intense solar flare,",
+        "start": 215.14,
+        "duration": 6.1
+    },
+    {
+        "text": "hopefully the internet will be sticking around for a very long time.",
+        "start": 221.24,
+        "duration": 3.26
+    },
+    {
+        "text": "Thank you for spending your limited time on the internet watching SciShow while you still can!",
+        "start": 224.5,
+        "duration": 4.42
+    },
+    {
+        "text": "Thank you especially to our Patreon patrons, who help make this show possible.",
+        "start": 228.92,
+        "duration": 3.74
+    },
+    {
+        "text": "If you want to help support us, plus get access to cool stuff, like bloopers and live streams",
+        "start": 232.66,
+        "duration": 4.1
+    },
+    {
+        "text": "that we do just for our supporters, check out patreon.com/scishow.",
+        "start": 236.76,
+        "duration": 3.84
+    },
+    {
+        "text": "And don't forget, if you want to keep getting smarter  with us, to go to youtube.com/scishow and subscribe!",
+        "start": 240.6,
+        "duration": 5.14
+    }
+]

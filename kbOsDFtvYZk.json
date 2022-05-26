@@ -1,0 +1,877 @@
+[
+    {
+        "text": "[♪ INTRO]",
+        "start": 0.0,
+        "duration": 10.7
+    },
+    {
+        "text": "If you’d taken an engineering job\nat Google before March 2017,",
+        "start": 10.7,
+        "duration": 3.94
+    },
+    {
+        "text": "you would’ve had to sign an unusual waiver.",
+        "start": 14.64,
+        "duration": 2.46
+    },
+    {
+        "text": "It was an agreement accepting\nthat in the course of your work,",
+        "start": 17.1,
+        "duration": 3.08
+    },
+    {
+        "text": "you might be exposed to adult content,\nincluding pornographic images.",
+        "start": 20.18,
+        "duration": 4.02
+    },
+    {
+        "text": "That policy has since changed,",
+        "start": 24.2,
+        "duration": 1.6
+    },
+    {
+        "text": "but the fact that it existed at all is a stark\nreminder that the internet doesn’t censor itself.",
+        "start": 25.8,
+        "duration": 4.6
+    },
+    {
+        "text": "Someone has to build the software\nthat avoids showing naked people",
+        "start": 30.4,
+        "duration": 3.34
+    },
+    {
+        "text": "to users who aren’t supposed\nto see naked people.",
+        "start": 33.74,
+        "duration": 2.56
+    },
+    {
+        "text": "Those engineers spend a lot of time\ndesigning, training, and testing algorithms,",
+        "start": 36.3,
+        "duration": 3.76
+    },
+    {
+        "text": "the set of rules a computer follows to\naccomplish a task, for filtering adult content.",
+        "start": 40.06,
+        "duration": 4.1
+    },
+    {
+        "text": "Which might mean poring over images\nthat in any other setting would",
+        "start": 44.16,
+        "duration": 3.16
+    },
+    {
+        "text": "be totally not safe for work.",
+        "start": 47.32,
+        "duration": 1.66
+    },
+    {
+        "text": "And building those algorithms is no easy task.",
+        "start": 48.98,
+        "duration": 2.5
+    },
+    {
+        "text": "Even we humans have a hard time defining pornography,\nas US Supreme Court Justice Potter Stewart",
+        "start": 51.48,
+        "duration": 4.67
+    },
+    {
+        "text": "famously admitted when all he could say was\n“I know it when I see it.”",
+        "start": 56.15,
+        "duration": 3.61
+    },
+    {
+        "text": "But at least we can usually agree\non whether there’s a naked person!",
+        "start": 59.76,
+        "duration": 3.08
+    },
+    {
+        "text": "For computers though, even that is complicated.",
+        "start": 62.84,
+        "duration": 2.66
+    },
+    {
+        "text": "When you look at a photo, you see people,\nand desks, and chairs,",
+        "start": 65.5,
+        "duration": 3.2
+    },
+    {
+        "text": "but all the computer sees is this.",
+        "start": 68.7,
+        "duration": 1.86
+    },
+    {
+        "text": "Little blocks of color, a million times over.",
+        "start": 70.56,
+        "duration": 1.98
+    },
+    {
+        "text": "Where in this fuzzy mess of pixels do the\nbody and chair even start and end?",
+        "start": 72.54,
+        "duration": 4.54
+    },
+    {
+        "text": "And let’s say you’ve figured out whether\nyou’re seeing distinct objects.",
+        "start": 77.08,
+        "duration": 2.8
+    },
+    {
+        "text": "How can you tell what they are, and\nwhether one of them is a nude human?",
+        "start": 79.88,
+        "duration": 3.4
+    },
+    {
+        "text": "After all, even two pictures of the exact\nsame thing can look very different.",
+        "start": 83.28,
+        "duration": 4.5
+    },
+    {
+        "text": "For example, four photos of limbs\nmight look very different,",
+        "start": 87.78,
+        "duration": 3.28
+    },
+    {
+        "text": "when they’re actually all from the same person.",
+        "start": 91.06,
+        "duration": 2.04
+    },
+    {
+        "text": "With the differences in lighting,\nangles, and stuff in the way,",
+        "start": 93.1,
+        "duration": 3.32
+    },
+    {
+        "text": "it’s hard to tell that they’re all\nMichelle Obama’s arms.",
+        "start": 96.42,
+        "duration": 2.98
+    },
+    {
+        "text": "Then sometimes you have the opposite problem,",
+        "start": 99.4,
+        "duration": 1.94
+    },
+    {
+        "text": "when things that are totally\ndifferent look weirdly similar.",
+        "start": 101.34,
+        "duration": 3.22
+    },
+    {
+        "text": "Take dogs, for example.",
+        "start": 104.56,
+        "duration": 1.26
+    },
+    {
+        "text": "You might think you know a dog when you see one,",
+        "start": 105.82,
+        "duration": 2.02
+    },
+    {
+        "text": "but then along comes a viral meme and\nnow you can’t be sure whether that’s a",
+        "start": 107.84,
+        "duration": 3.12
+    },
+    {
+        "text": "puppy or whether it’s a mop,\na muffin, or a marshmallow.",
+        "start": 110.96,
+        "duration": 3.16
+    },
+    {
+        "text": "Our brains have evolved to do a tremendous\namount of this work subconsciously.",
+        "start": 114.12,
+        "duration": 3.96
+    },
+    {
+        "text": "In fact, around 30% of your brain’s cortex\nis dedicated just to vision!",
+        "start": 118.08,
+        "duration": 4.56
+    },
+    {
+        "text": "But engineers are starting from zero.",
+        "start": 122.64,
+        "duration": 2.46
+    },
+    {
+        "text": "Somehow, they have to get from a description\nof an image as a collection of tiny dots",
+        "start": 125.1,
+        "duration": 4.28
+    },
+    {
+        "text": "of color to a higher-level description:\ntextures, shapes, objects;",
+        "start": 129.38,
+        "duration": 3.9
+    },
+    {
+        "text": "all the imprecise, big-picture stuff that\ntells us humans what we’re looking at.",
+        "start": 133.28,
+        "duration": 4.16
+    },
+    {
+        "text": "In the prehistoric era of computing,\nwe’re talking the 80s and 90s here,",
+        "start": 137.44,
+        "duration": 3.32
+    },
+    {
+        "text": "the generally accepted approach\nwas to think really hard about what",
+        "start": 140.76,
+        "duration": 2.98
+    },
+    {
+        "text": "features of an image might make\nfor decent high-level descriptions.",
+        "start": 143.74,
+        "duration": 3.06
+    },
+    {
+        "text": "And then you’d design specialized\nalgorithms to extract those features.",
+        "start": 146.8,
+        "duration": 3.78
+    },
+    {
+        "text": "Some of the most popular features\nto look for were things like edges,",
+        "start": 150.58,
+        "duration": 2.88
+    },
+    {
+        "text": "contiguous shapes, and so-called keypoints,",
+        "start": 153.46,
+        "duration": 2.38
+    },
+    {
+        "text": "pixels whose neighbors stay roughly the same\nif the image is resized or otherwise tweaked.",
+        "start": 155.84,
+        "duration": 4.16
+    },
+    {
+        "text": "These let you summarize an image\nin a way that didn’t change too much",
+        "start": 160.0,
+        "duration": 3.12
+    },
+    {
+        "text": "with small adjustments like rotation or lighting.",
+        "start": 163.12,
+        "duration": 2.34
+    },
+    {
+        "text": "The hope was that if you had, say, an image\nof a kitten, the edge contours and keypoint",
+        "start": 165.46,
+        "duration": 4.16
+    },
+    {
+        "text": "arrangements should be fairly similar\nto other pictures of kittens.",
+        "start": 169.62,
+        "duration": 3.0
+    },
+    {
+        "text": "So you could use those features to\nbuild a specialized algorithm to decide",
+        "start": 172.62,
+        "duration": 3.56
+    },
+    {
+        "text": "which images should be returned\nwhen a user searches for kittens.",
+        "start": 176.18,
+        "duration": 2.86
+    },
+    {
+        "text": "In the case of finding naked people, this\nstyle of image analysis was used in a foundational",
+        "start": 179.04,
+        "duration": 4.34
+    },
+    {
+        "text": "paper from 1996, a few years after porn websites\nstarted to go live on the web.",
+        "start": 183.38,
+        "duration": 4.58
+    },
+    {
+        "text": "The paper was titled, appropriately enough,\n“Finding Naked People.”",
+        "start": 187.96,
+        "duration": 3.48
+    },
+    {
+        "text": "The first step the researchers took was to\nidentify possible patches of skin.",
+        "start": 191.44,
+        "duration": 4.14
+    },
+    {
+        "text": "This meant finding pixels containing yellows\nor browns, maybe with some reddish tones.",
+        "start": 195.58,
+        "duration": 3.86
+    },
+    {
+        "text": "Skin also doesn’t usually show\nmuch texture, at least in porn.",
+        "start": 199.44,
+        "duration": 3.48
+    },
+    {
+        "text": "As the paper comments, “extremely hairy\nsubjects are rare.”",
+        "start": 202.92,
+        "duration": 3.26
+    },
+    {
+        "text": "So any pixels showing skin shouldn’t vary\ntoo much from the areas around them.",
+        "start": 206.18,
+        "duration": 3.46
+    },
+    {
+        "text": "Next, if at least 30% of an image\nwas marked as possibly skin,",
+        "start": 209.64,
+        "duration": 3.82
+    },
+    {
+        "text": "the algorithm would try to piece\nthose pixels together into body parts.",
+        "start": 213.46,
+        "duration": 3.32
+    },
+    {
+        "text": "It would group straight-ish strips of skin\ncolor into longer segments.",
+        "start": 216.78,
+        "duration": 3.5
+    },
+    {
+        "text": "Touching segments could be paired into\nlimbs, and limbs and segments could",
+        "start": 220.28,
+        "duration": 3.62
+    },
+    {
+        "text": "combine to form either spine-thigh\ngroups or limb-limb groups.",
+        "start": 223.9,
+        "duration": 3.32
+    },
+    {
+        "text": "Finally, the system would check which groups\nwere geometrically possible given human physiology.",
+        "start": 227.22,
+        "duration": 4.5
+    },
+    {
+        "text": "For example, it ruled out configurations\nthat could only be formed by someone",
+        "start": 231.72,
+        "duration": 3.44
+    },
+    {
+        "text": "lifting their leg up and\nflipping their knee backwards.",
+        "start": 235.16,
+        "duration": 2.4
+    },
+    {
+        "text": "Any groups that weren’t eliminated were\nassumed to be naked humans.",
+        "start": 237.56,
+        "duration": 3.3
+    },
+    {
+        "text": "Methods like this worked OK, but\nthey had some serious downsides.",
+        "start": 240.86,
+        "duration": 3.52
+    },
+    {
+        "text": "First, those handcrafted rules were super brittle.",
+        "start": 244.38,
+        "duration": 2.64
+    },
+    {
+        "text": "For example, humans don’t usually\nposition their trunk between their thighs,",
+        "start": 247.02,
+        "duration": 3.96
+    },
+    {
+        "text": "but it can happen, especially in porn.",
+        "start": 250.98,
+        "duration": 2.64
+    },
+    {
+        "text": "If it does, the rules might not\nrecognize a nude person.",
+        "start": 253.62,
+        "duration": 2.9
+    },
+    {
+        "text": "Similarly, there were a lot of finicky thresholds\nand settings to be fine-tuned.",
+        "start": 256.52,
+        "duration": 3.48
+    },
+    {
+        "text": "Like, why is 30% the minimum\namount of skin to accept?",
+        "start": 260.0,
+        "duration": 3.4
+    },
+    {
+        "text": "Why not 15, or 35?",
+        "start": 263.4,
+        "duration": 1.6
+    },
+    {
+        "text": "Also, to make improvements,",
+        "start": 265.0,
+        "duration": 1.44
+    },
+    {
+        "text": "engineers would have to rethink all those\ncustom-designed algorithms and how they interact.",
+        "start": 266.44,
+        "duration": 3.86
+    },
+    {
+        "text": "And most importantly, it was entirely up to\nengineers’ creativity to come up with high-level",
+        "start": 270.3,
+        "duration": 4.56
+    },
+    {
+        "text": "descriptive features that were effective,\nand those features could only be as subtle",
+        "start": 274.87,
+        "duration": 3.71
+    },
+    {
+        "text": "or detailed as the engineers were willing\nand able to code up.",
+        "start": 278.58,
+        "duration": 2.86
+    },
+    {
+        "text": "So the criteria for nudity would be very rough\nand involve sometimes comically naive approximations.",
+        "start": 281.44,
+        "duration": 5.26
+    },
+    {
+        "text": "I mean, looking for “blotches of skin color\nwith plausible geometry” misses some of",
+        "start": 286.7,
+        "duration": 4.18
+    },
+    {
+        "text": "the more, uhh, obvious features of naked bodies.",
+        "start": 290.88,
+        "duration": 2.68
+    },
+    {
+        "text": "You know, like breasts and genitals.",
+        "start": 293.56,
+        "duration": 1.64
+    },
+    {
+        "text": "Over the past few decades, though, a new\nmethod has started to take over the world",
+        "start": 295.2,
+        "duration": 3.6
+    },
+    {
+        "text": "of image processing, including\nadult image detection.",
+        "start": 298.8,
+        "duration": 3.02
+    },
+    {
+        "text": "It’s called a convolutional neural network.",
+        "start": 301.82,
+        "duration": 2.6
+    },
+    {
+        "text": "The core idea is that instead of manually\ndefining which higher level features are important,",
+        "start": 304.42,
+        "duration": 4.78
+    },
+    {
+        "text": "you can build a system to\nfigure that out for itself.",
+        "start": 309.2,
+        "duration": 3.1
+    },
+    {
+        "text": "You show it thousands of training examples:",
+        "start": 312.3,
+        "duration": 2.62
+    },
+    {
+        "text": "pictures labeled safe for work\nand not safe for work.",
+        "start": 314.92,
+        "duration": 2.94
+    },
+    {
+        "text": "Then, you let it find recurring patterns,\nlike spots of contrast or color,",
+        "start": 317.86,
+        "duration": 3.4
+    },
+    {
+        "text": "and piece together how those patterns\ncombine into bigger patterns like lines and edges.",
+        "start": 321.26,
+        "duration": 3.82
+    },
+    {
+        "text": "Then it can learn even bigger patterns like\nskin textures and hair against skin.",
+        "start": 325.08,
+        "duration": 4.14
+    },
+    {
+        "text": "And then it can start to recognize\nthings like nipples and belly buttons",
+        "start": 329.22,
+        "duration": 3.34
+    },
+    {
+        "text": "and guess whether it’s\nseeing a naked person.",
+        "start": 332.56,
+        "duration": 1.78
+    },
+    {
+        "text": "The underlying technology here is the same\nthing that’s driven many recent advances",
+        "start": 334.34,
+        "duration": 3.46
+    },
+    {
+        "text": "in artificial intelligence:\ndeep neural networks, or DNNs.",
+        "start": 337.8,
+        "duration": 3.36
+    },
+    {
+        "text": "DNNs are loosely based on\nnetworks of brain cells,",
+        "start": 341.16,
+        "duration": 2.7
+    },
+    {
+        "text": "in a “based on a true story” kind of way.",
+        "start": 343.86,
+        "duration": 1.9
+    },
+    {
+        "text": "A DNN contains neurons in the same sense\nthat a game of SimCity contains factories:",
+        "start": 345.76,
+        "duration": 4.6
+    },
+    {
+        "text": "the software simulates a very crude\nversion of the real-world thing.",
+        "start": 350.36,
+        "duration": 3.14
+    },
+    {
+        "text": "The simulated neurons are arranged into virtual layers.",
+        "start": 353.5,
+        "duration": 2.82
+    },
+    {
+        "text": "Each neuron gets a bunch of inputs, for example,",
+        "start": 356.32,
+        "duration": 2.44
+    },
+    {
+        "text": "the colors of some pixels or\nthe output from the previous layer.",
+        "start": 358.76,
+        "duration": 2.64
+    },
+    {
+        "text": "Then, it performs a simple calculation\nbased on some internal settings,",
+        "start": 361.4,
+        "duration": 3.24
+    },
+    {
+        "text": "and passes the result on to the next layer of neurons.",
+        "start": 364.64,
+        "duration": 2.4
+    },
+    {
+        "text": "The last layer’s output is the network’s\nbest guess at an answer.",
+        "start": 367.04,
+        "duration": 3.08
+    },
+    {
+        "text": "As the network sees each training example,\nit guesses what it’s seeing.",
+        "start": 370.12,
+        "duration": 3.24
+    },
+    {
+        "text": "If it guesses wrong, it twiddles the\nsettings on each neuron so that",
+        "start": 373.36,
+        "duration": 3.18
+    },
+    {
+        "text": "the error is less likely to happen next time.",
+        "start": 376.54,
+        "duration": 2.08
+    },
+    {
+        "text": "There are a lot of kinds of DNNs, but\nconvolutional neural networks, or convnets,",
+        "start": 378.62,
+        "duration": 3.82
+    },
+    {
+        "text": "are the type most often\nused for image processing.",
+        "start": 382.44,
+        "duration": 2.12
+    },
+    {
+        "text": "In the first layer of a convnet, each neuron\nexamines one small tile of the input image,",
+        "start": 384.56,
+        "duration": 4.52
+    },
+    {
+        "text": "and outputs how strongly that tile\nmatches a simple image template,",
+        "start": 389.08,
+        "duration": 3.28
+    },
+    {
+        "text": "maybe a blob of pink, or a spot of\ncontrast between light and dark.",
+        "start": 392.36,
+        "duration": 3.12
+    },
+    {
+        "text": "That template is what gets\nlearned when the neuron’s",
+        "start": 395.48,
+        "duration": 2.18
+    },
+    {
+        "text": "parameters are updated as\nthe network is being trained.",
+        "start": 397.66,
+        "duration": 2.32
+    },
+    {
+        "text": "And actually, there’s a whole grid of these\nneurons, one for each tile in the image.",
+        "start": 399.98,
+        "duration": 3.88
+    },
+    {
+        "text": "All the neurons in this grid\nupdate their settings together,",
+        "start": 403.86,
+        "duration": 2.48
+    },
+    {
+        "text": "so they all learn to match the same template.",
+        "start": 406.34,
+        "duration": 2.14
+    },
+    {
+        "text": "This is where the “convolutional”\npart of the name comes from,",
+        "start": 408.48,
+        "duration": 2.48
+    },
+    {
+        "text": "applying the same template\ndetector to each tile.",
+        "start": 410.96,
+        "duration": 2.42
+    },
+    {
+        "text": "Now, within that first layer, there might\nactually be dozens of grids like this,",
+        "start": 413.38,
+        "duration": 3.78
+    },
+    {
+        "text": "and each of them learns to\nmatch a different template.",
+        "start": 417.16,
+        "duration": 2.0
+    },
+    {
+        "text": "So overall, what that whole\nfirst layer outputs is how",
+        "start": 419.16,
+        "duration": 2.9
+    },
+    {
+        "text": "strongly each template matches\nat each location in the image.",
+        "start": 422.06,
+        "duration": 2.98
+    },
+    {
+        "text": "The second layer is similar, but instead of\nlooking for patterns directly in pixels,",
+        "start": 425.04,
+        "duration": 3.7
+    },
+    {
+        "text": "it looks for patterns in the color blobs and",
+        "start": 428.74,
+        "duration": 1.76
+    },
+    {
+        "text": "contrasts and all the other\noutput of the first layer.",
+        "start": 430.5,
+        "duration": 2.52
+    },
+    {
+        "text": "Because each second-layer neuron grabs inputs\nfrom a whole bunch of tiles from the first layer,",
+        "start": 433.02,
+        "duration": 4.28
+    },
+    {
+        "text": "it gets information from a bigger\nswath of the original image.",
+        "start": 437.3,
+        "duration": 3.04
+    },
+    {
+        "text": "The same thing continues up the hierarchy:\neach layer looks for patterns in the patterns",
+        "start": 440.34,
+        "duration": 4.63
+    },
+    {
+        "text": "detected by previous layers,\nuntil finally the highest layers",
+        "start": 444.97,
+        "duration": 3.13
+    },
+    {
+        "text": "end up looking for naked torsos and groins.",
+        "start": 448.1,
+        "duration": 2.2
+    },
+    {
+        "text": "Convnets have a lot of advantages over the\nolder methods.",
+        "start": 450.3,
+        "duration": 2.58
+    },
+    {
+        "text": "They can check situations where there’s\nmaybe a penis close-up without engineers having",
+        "start": 452.88,
+        "duration": 4.22
+    },
+    {
+        "text": "to guess that nude images would\nlikely contain lots of those close-ups",
+        "start": 457.1,
+        "duration": 3.26
+    },
+    {
+        "text": "and then custom-build\npenis-detection algorithms.",
+        "start": 460.36,
+        "duration": 2.22
+    },
+    {
+        "text": "Another plus of convnets is that everything\nis based on a sliding scale of similarity",
+        "start": 462.58,
+        "duration": 4.38
+    },
+    {
+        "text": "rather than hard and fast rules:\neach neuron is asking itself,",
+        "start": 466.96,
+        "duration": 3.36
+    },
+    {
+        "text": "“How closely does this patch of the image\nresemble a line or a foot or whatever?”",
+        "start": 470.32,
+        "duration": 3.42
+    },
+    {
+        "text": "That means the network can be flexible about\nintegrating multiple lines of uncertain evidence.",
+        "start": 473.74,
+        "duration": 4.3
+    },
+    {
+        "text": "Convnets also change the paradigm for how\nto improve a system: if it’s getting too",
+        "start": 478.04,
+        "duration": 4.18
+    },
+    {
+        "text": "many false positives on swimsuits, just feed\nin loads of swimsuit photos with training",
+        "start": 482.22,
+        "duration": 4.42
+    },
+    {
+        "text": "examples, and let the network figure out for\nitself how to distinguish them from true nudity.",
+        "start": 486.64,
+        "duration": 4.2
+    },
+    {
+        "text": "In fact, you could even take a\nconvnet designed for filtering porn",
+        "start": 490.84,
+        "duration": 3.32
+    },
+    {
+        "text": "and retrain it to detect doge memes.",
+        "start": 494.16,
+        "duration": 1.96
+    },
+    {
+        "text": "Now, that doesn’t mean a convnet is all-powerful.",
+        "start": 496.12,
+        "duration": 2.46
+    },
+    {
+        "text": "There are still lots of task-sensitive choices\nthe engineers have to make about how exactly",
+        "start": 498.58,
+        "duration": 3.52
+    },
+    {
+        "text": "to structure the network, what size tiles\nto use, and so on.",
+        "start": 502.1,
+        "duration": 2.86
+    },
+    {
+        "text": "So you might still have to do some surgery\non your network if you’re trying to catch,",
+        "start": 504.96,
+        "duration": 3.18
+    },
+    {
+        "text": "say, tentacle-filled adult anime, which has\nvery different characteristics from photos.",
+        "start": 508.14,
+        "duration": 4.74
+    },
+    {
+        "text": "Convnets also don’t help as much\nwhen you need social context",
+        "start": 512.88,
+        "duration": 2.96
+    },
+    {
+        "text": "to recognize what makes\nan image not safe for work.",
+        "start": 515.84,
+        "duration": 2.42
+    },
+    {
+        "text": "For example, it’s a lot harder to build\na detector for images of human trafficking,",
+        "start": 518.26,
+        "duration": 3.86
+    },
+    {
+        "text": "because you can’t just look at the pixels;\nyou need a lot of background knowledge",
+        "start": 522.12,
+        "duration": 3.14
+    },
+    {
+        "text": "about what’s actually happening in the photo.",
+        "start": 525.26,
+        "duration": 1.66
+    },
+    {
+        "text": "But for the most part,\nconvnets get really good results.",
+        "start": 526.92,
+        "duration": 2.96
+    },
+    {
+        "text": "They’ve revolutionized image processing,",
+        "start": 529.88,
+        "duration": 1.8
+    },
+    {
+        "text": "from image search to vision for self-driving cars.",
+        "start": 531.68,
+        "duration": 2.52
+    },
+    {
+        "text": "And flagging sexually explicit content\nis one of the most visible applications,",
+        "start": 534.2,
+        "duration": 3.76
+    },
+    {
+        "text": "or maybe the least visible.",
+        "start": 537.96,
+        "duration": 1.38
+    },
+    {
+        "text": "Because if adult image detection is working,\nmost of the time you don’t notice.",
+        "start": 539.34,
+        "duration": 3.8
+    },
+    {
+        "text": "So the next time you’re searching for pictures\nof nude tights and aren’t bombarded with porn,",
+        "start": 543.14,
+        "duration": 4.0
+    },
+    {
+        "text": "take a moment to appreciate the algorithms,\nand the engineers, that make it all possible.",
+        "start": 547.14,
+        "duration": 4.22
+    },
+    {
+        "text": "Thanks for watching this episode of SciShow!",
+        "start": 551.36,
+        "duration": 1.78
+    },
+    {
+        "text": "If you’re interested in more deep dives\ninto complex topics like this one,",
+        "start": 553.14,
+        "duration": 3.42
+    },
+    {
+        "text": "you can check out our technology\nplaylist over at youtube.com/scishow.",
+        "start": 556.56,
+        "duration": 3.72
+    },
+    {
+        "text": "And don’t forget to subscribe!",
+        "start": 560.28,
+        "duration": 1.71
+    },
+    {
+        "text": "[♪ OUTRO]",
+        "start": 561.99,
+        "duration": 9.07
+    }
+]
